@@ -1,11 +1,11 @@
 [common]
-version = 1.0
+version = 0.2
 columns = "2,3"
 minlength = 2
 
 [sync]
 enabledSync = true
-endPoint = "https://github.com/wuyilingwei/TMT_Data.git"
+API = "https://github.com/wuyilingwei/TMT_Data.git"
 writePermission = false
 
 [steam]
@@ -13,8 +13,8 @@ enabledDownload = true
 userName = "steamusername"
 
 [LLM]
-api = "https://api.openai.com/v1/chat/completions"
-apikey = "sk-proj-UnknownToken"
+API = "https://api.openai.com/v1/chat/completions"
+token = "sk-proj-UnknownToken"
 model = "gpt-4o-mini"
 lang = "Unknown"
 prompt = "You are a professional, authentic machine translation engine. Translate text to {lang}, preserving structure, codes, and markup."

@@ -49,12 +49,28 @@ class TextHandler(logging.Handler):
         self.text_widget.config(state=tk.DISABLED)
         self.text_widget.yview(tk.END)
 
+# initialize tkinter and log frame
+root = tk.Tk()
+root.title("Timberborn mod translator")
+root.geometry("1280x720")
+
+log_frame = tk.LabelFrame(root, text="Log")
+log_frame.place(x=800, y=10, width=460, height=700)
+
+log_text = ScrolledText(log_frame, state=tk.DISABLED, wrap=tk.WORD)
+log_text.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+text_handler = TextHandler(log_text)
+text_handler.setLevel(logging.INFO)
+text_handler.setFormatter(formatter)
+logger.addHandler(text_handler)
+
 # Load the default config
 if not os.path.exists("config.toml"):
     shutil.copy("default.toml", "config.toml")
 
 configs = toml.load("config.toml")
-if configs['common']['version'] < 1.0:
+if configs['common']['version'] < 0.2:
     if os.path.exists("config_bak.txt"):
         os.remove("config_bak.txt")
     shutil.move("config.toml", "config_bak.txt")
@@ -83,61 +99,105 @@ def get_domain(url):
     parsed_url = urlparse(url)
     return parsed_url.netloc
 
+def requestLLM(text="") -> str:
+    if text == "":
+        logger.warning("Empty text")
+        return ""
+    elif len(text) < configs["common"]["minlength"]:
+        logger.warning("Text too short")
+        return text
+
+    if isParallelProcessing:
+        sendPrompt = f"{prompt}{promptParallelProcessing}"
+    else:
+        sendPrompt = prompt
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {configs["LLM"]["APIkey"]}"
+    }
+
+    data = {
+        "model": configs["LLM"]["API"],
+        "messages": [
+            {
+                "role": "system",
+                "content": sendPrompt
+            },
+            {
+                "role": "user",
+                "content": text
+            }
+        ]
+    }
+
+    response = requests.post(configs["LLM"]["API"], headers=headers, data=json.dumps(data), proxies=proxies)
+
+    global promptTokens, completionTokens
+    response_data = response.json()
+    if 'usage' in response_data:
+        promptTokens += response_data['usage']['prompt_tokens']
+        completionTokens += response_data['usage']['completion_tokens']
+        logger.debug(f"Prompt tokens: {promptTokens}, Completion tokens: {completionTokens}")
+    else:
+        logger.warning('No usage data found')
+
+    if response.status_code == 200:
+        openai_result = response_data['choices'][0]['message']['content']
+        logger.info(f'{text} -> {openai_result}')
+        return openai_result
+    else:
+        logger.error(f"Request failed, status code: {response.status_code}")
+        logger.error(headers)
+        logger.error(data)
+        logger.error(response.text)
+        return "Failed"
+
 def check_accessibility():
     git_status = "Unknown"
     openai_status = "Unknown"
+    logger.debug("Checking accessibility...")
+    gitDomain = get_domain(configs["sync"]["API"])
+    openaiDomain = get_domain(configs["LLM"]["API"])
+    logger.debug(f"Git Source: {gitDomain}")
+    logger.debug(f"OpenAI: {openaiDomain}")
 
     # Check Git accessibility
     try:
-        response = requests.get(get_domain(configs["sync"]["endPoint"]), timeout=5)
+        response = requests.get(f"https://{gitDomain}", timeout=5, proxies=proxies)
         if response.status_code == 200:
             git_status = "Accessible"
             logger.info(f"Sync: {git_status}")
         else:
             git_status = "Not Accessible"
             logger.info(f"Sync: {git_status}")
-            logger.info(f"Response: {response.status_code}")
-    except requests.RequestException:
+            logger.info(f"Response: {response}")
+    except requests.RequestException as e:
         git_status = "Not Accessible"
         logger.info(f"Sync: {git_status}")
-        logger.info(f"Error: {requests.RequestException}")
+        logger.info(f"Error: {e}")
 
     # Check OpenAI accessibility
     try:
-        response = requests.get(get_domain(configs["LLM"]["api"]), timeout=5)
+        response = requests.get(f"https://{openaiDomain}", timeout=5, proxies=proxies)
         if response.status_code == 200:
             openai_status = "Accessible"
             logger.info(f"OpenAI: {openai_status}")
         else:
             openai_status = "Not Accessible"
             logger.info(f"OpenAI: {openai_status}")
-            logger.info(f"Response: {response.status_code}")
-    except requests.RequestException:
+            logger.info(f"Response: {response}")
+    except requests.RequestException as e:
         openai_status = "Not Accessible"
         logger.info(f"OpenAI: {openai_status}")
-        logger.info(f"Error: {requests.RequestException}")
+        logger.info(f"Error: {e}")
 
     git_label.config(text=f"Git Source: {git_status}")
     openai_label.config(text=f"OpenAI: {openai_status}")
 
-root = tk.Tk()
-root.title("Timberborn mod translator")
-root.geometry("1280x720")
-
-log_frame = tk.LabelFrame(root, text="Log")
-log_frame.place(x=800, y=10, width=460, height=700)
-
-log_text = ScrolledText(log_frame, state=tk.DISABLED, wrap=tk.WORD)
-log_text.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
-
-# 将自定义日志处理器添加到 logger
-text_handler = TextHandler(log_text)
-text_handler.setLevel(logging.INFO)
-text_handler.setFormatter(formatter)
-logger.addHandler(text_handler)
-
+# normal tkinter widgets
 network_frame = tk.LabelFrame(root, text="Network", padx=5, pady=5)
-network_frame.place(x=10, y=10, width=200, height=300)
+network_frame.place(x=10, y=300, width=200, height=300)
 
 git_label = tk.Label(network_frame, text="Git Source: Unknown")
 git_label.pack(pady=5)
