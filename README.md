@@ -25,49 +25,16 @@ CopyRight © 2024 Any rights not expressly granted are reserved
 
 ## How to use it
 
-Device requirements:
+This is the v2 version under development, which is not available yet. Please check the v1 branch or release.
 
-Windows Only, at least win7 (tested only on win11)
+## Roadmap:
 
-Python > 3.8 and in path
+### v2
 
-A network that can access Steam and OpenAI. For some regions, VPN is necessary.
+Not be tied to a certain mod and data source. GUI, all lang support. Built in socks5 proxy support.
 
-### I
+No need develop env, a exe avaliable.
 
-[Download Code form repository](https://github.com/wuyilingwei/Timberborn_Mods_Universal_cnZH_Translate/archive/refs/heads/main.zip)
+### v2.1 (might be)
 
-Make sure you computer install python 3.8+, and in system path, if you do not have, download [here](https://www.python.org/downloads/)
-
-I strongly recommend using Python 3.11, it is my development version.
-
-### II
-
-Run `init.bat` to install Support libraries and external programs.
-
-Follow the initialization guide setup key and steam auth.
-
-Generally speaking, there is no version update and initialization is only required once.
-
-If you do not have openai key, registe at 
-
-### III
-
-open `ids.txt` put mods to be translated workshop id here.
-
-Run `RUNME.bat` to download and process mod file.
-
-check changes.log to review changes.
-
-### IV
-
-copy mod folder to documents\Timberborn\Mods\\{mod}
-
-### V
-
-upload to steam OR enjoy your game.
-
-# END
-
-Our advanced AI-driven translations have completely surpassed old-fashioned human translations (doge)
-
+Direct interaction with the steam user version instead of steamcmd.
