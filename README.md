@@ -27,6 +27,8 @@ CopyRight © 2024 Any rights not expressly granted are reserved
 
 This is the v2 version under development, which is not available yet. Please check the v1 branch or release.
 
+This is not my top priority and is not related to my course this semester, so it may be developed very slowly. Due to the powerful matching function of v1, I plan to finish it before the next major version update of the game.
+
 ## Roadmap:
 
 ### v2
