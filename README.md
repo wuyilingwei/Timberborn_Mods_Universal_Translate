@@ -2,6 +2,8 @@
 
 This project provides Chinese support for Timberborn's creative workshop mod.
 
+! IMPORTANT ! v2 database/config structure rewritten, not compatible with v1.
+
 Translated by Rosmontis Translation Team
 
 @武乙凌薇 @Akinare(bilibili:孑然妄想)
@@ -46,6 +48,8 @@ Run `init.bat` to install Support libraries and external programs.
 Follow the initialization guide setup key and steam auth.
 
 Generally speaking, there is no version update and initialization is only required once.
+
+If you do not have openai key, registe at 
 
 ### III
 

@@ -1,0 +1,31 @@
+[common]
+version = 1.0
+columns = "2,3"
+minlength = 2
+
+[sync]
+enabledSync = true
+endPoint = "https://github.com/wuyilingwei/TMT_Data.git"
+writePermission = false
+
+[steam]
+enabledDownload = true
+userName = "steamusername"
+
+[LLM]
+api = "https://api.openai.com/v1/chat/completions"
+apikey = "sk-proj-UnknownToken"
+model = "gpt-4o-mini"
+lang = "Unknown"
+prompt = "You are a professional, authentic machine translation engine. Translate text to {lang}, preserving structure, codes, and markup."
+isParallelProcessing = false
+signParallelProcessing = "||"
+promptParallelProcessing = "Separate translations with {signParallelProcessing}."
+
+[connection]
+isProxy = false
+address = ""
+port = ""
+username = ""
+password = ""
+
