@@ -95,11 +95,21 @@ def get_proxies():
 
 proxies = get_proxies()
 
-def get_domain(url):
+def get_domain(url) -> str:
     parsed_url = urlparse(url)
     return parsed_url.netloc
 
-def requestLLM(text="") -> str:
+def get_prompt() -> str:
+    prompt = configs["LLM"]["prompt"].replace("{lang}", configs["LLM"]["lang"])
+    if configs["LLM"]["isParallelProcessing"]:
+        prompt += configs["LLM"]["promptParallelProcessing"].replace("{signParallelProcessing}", configs["LLM"]["signParallelProcessing"])
+    return prompt
+
+prompt = get_prompt()
+
+promptTokens, completionTokens = 0, 0
+
+def requestLLM(text="",prompt = prompt) -> dict["text": str, "code": int]:
     if text == "":
         logger.warning("Empty text")
         return ""
@@ -107,22 +117,17 @@ def requestLLM(text="") -> str:
         logger.warning("Text too short")
         return text
 
-    if isParallelProcessing:
-        sendPrompt = f"{prompt}{promptParallelProcessing}"
-    else:
-        sendPrompt = prompt
-
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {configs["LLM"]["APIkey"]}"
+        "Authorization": f"Bearer {configs["LLM"]["token"]}"
     }
 
     data = {
-        "model": configs["LLM"]["API"],
+        "model": configs["LLM"]["model"],
         "messages": [
             {
                 "role": "system",
-                "content": sendPrompt
+                "content": prompt
             },
             {
                 "role": "user",
@@ -131,27 +136,30 @@ def requestLLM(text="") -> str:
         ]
     }
 
-    response = requests.post(configs["LLM"]["API"], headers=headers, data=json.dumps(data), proxies=proxies)
-
     global promptTokens, completionTokens
-    response_data = response.json()
-    if 'usage' in response_data:
-        promptTokens += response_data['usage']['prompt_tokens']
-        completionTokens += response_data['usage']['completion_tokens']
-        logger.debug(f"Prompt tokens: {promptTokens}, Completion tokens: {completionTokens}")
-    else:
-        logger.warning('No usage data found')
+    try:
+        response = requests.post(configs["LLM"]["API"], headers=headers, data=json.dumps(data), proxies=proxies)
+        response_data = response.json()
+        if 'usage' in response_data:
+            promptTokens += response_data['usage']['prompt_tokens']
+            completionTokens += response_data['usage']['completion_tokens']
+            logger.debug(f"Prompt tokens: {promptTokens}, Completion tokens: {completionTokens}")
+        else:
+            logger.warning('No usage data found')
 
-    if response.status_code == 200:
-        openai_result = response_data['choices'][0]['message']['content']
-        logger.info(f'{text} -> {openai_result}')
-        return openai_result
-    else:
-        logger.error(f"Request failed, status code: {response.status_code}")
-        logger.error(headers)
-        logger.error(data)
-        logger.error(response.text)
-        return "Failed"
+        if response.status_code == 200:
+            openai_result = response_data['choices'][0]['message']['content']
+            logger.info(f'{text} -> {openai_result}')
+            return {"text": openai_result, "code": response.status_code}
+        else:
+            logger.error(f"Request failed, status code: {response.status_code}")
+            logger.error(headers)
+            logger.error(data)
+            logger.error(response.text)
+            return {"text": "Unexpected", "code": response.status_code}
+    except requests.RequestException as e:
+        logger.error(f"Request failed: {e}")
+        return {"text": "Failed", "code": -1}
 
 def check_accessibility():
     git_status = "Unknown"
@@ -178,26 +186,22 @@ def check_accessibility():
         logger.info(f"Error: {e}")
 
     # Check OpenAI accessibility
-    try:
-        response = requests.get(f"https://{openaiDomain}", timeout=5, proxies=proxies)
-        if response.status_code == 200:
-            openai_status = "Accessible"
-            logger.info(f"OpenAI: {openai_status}")
-        else:
-            openai_status = "Not Accessible"
-            logger.info(f"OpenAI: {openai_status}")
-            logger.info(f"Response: {response}")
-    except requests.RequestException as e:
+    LLMStatus = requestLLM(text="Hi", prompt="Reply me with Hi")
+    if LLMStatus["code"] == 200:
+        openai_status = "Accessible"
+        logger.info(f"OpenAI: {openai_status}")
+    else:
         openai_status = "Not Accessible"
         logger.info(f"OpenAI: {openai_status}")
-        logger.info(f"Error: {e}")
-
+        logger.info(f"Response: {LLMStatus}")
     git_label.config(text=f"Git Source: {git_status}")
     openai_label.config(text=f"OpenAI: {openai_status}")
 
+
+
 # normal tkinter widgets
 network_frame = tk.LabelFrame(root, text="Network", padx=5, pady=5)
-network_frame.place(x=10, y=300, width=200, height=300)
+network_frame.place(x=10, y=300, width=200, height=150)
 
 git_label = tk.Label(network_frame, text="Git Source: Unknown")
 git_label.pack(pady=5)
@@ -207,5 +211,7 @@ openai_label.pack(pady=5)
 
 check_button = tk.Button(network_frame, text="Check Accessibility", command=check_accessibility)
 check_button.pack(pady=10)
+check_accessibility()
+
 
 root.mainloop()
