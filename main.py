@@ -53,6 +53,8 @@ class TextHandler(logging.Handler):
 root = tk.Tk()
 root.title("Timberborn mod translator")
 root.geometry("1280x720")
+root.resizable(False, False)
+root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file='logo.png')) 
 
 log_frame = tk.LabelFrame(root, text="Log")
 log_frame.place(x=800, y=10, width=460, height=700)
