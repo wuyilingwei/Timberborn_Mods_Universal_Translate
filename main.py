@@ -60,7 +60,7 @@ log_frame = tk.LabelFrame(root, text="Log")
 log_frame.place(x=800, y=10, width=460, height=700)
 
 log_text = ScrolledText(log_frame, state=tk.DISABLED, wrap=tk.WORD)
-log_text.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+log_text.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
 text_handler = TextHandler(log_text)
 text_handler.setLevel(logging.INFO)
@@ -80,9 +80,18 @@ if configs['common']['version'] < 0.2:
     configs = toml.load("config.toml")
     open_file_async("config_bak.txt")
 
+
 def save_config():
     with open('config.toml', 'w') as f:
         toml.dump(configs, f)
+
+def update_config(var, config_path):
+    keys = config_path.split(".")
+    config_section = configs
+    for key in keys[:-1]:
+        config_section = config_section[key]
+    config_section[keys[-1]] = var.get()
+    save_config()
 
 # initialize proxy settings
 def get_proxies():
@@ -115,7 +124,7 @@ def requestLLM(text="",prompt = prompt) -> dict["text": str, "code": int]:
     if text == "":
         logger.warning("Empty text")
         return ""
-    elif len(text) < configs["common"]["minlength"]:
+    elif len(text) < configs["LLM"]["minlength"]:
         logger.warning("Text too short")
         return text
 
@@ -214,18 +223,41 @@ def check_accessibility():
         logger.info(f"Steam: {steam_status}")
         logger.info(f"Error: {e}")
 
-    git_label.config(text=f"Git Source: {git_status}")
+    git_label.config(text=f"Sync: {git_status}")
     LLM_label.config(text=f"LLM: {openai_status}")
     steam_label.config(text=f"Steam: {steam_status}")
 
 
+# settings frame
+settings_frame = tk.LabelFrame(root, text="Settings", padx=5, pady=0)
+settings_frame.place(x=10, y=10, width=780, height=360)
+
+
+# data sync settings
+sync_settings_frame = tk.LabelFrame(settings_frame, text="Sync Settings")
+sync_settings_frame.place(x=10, y=0, width=380, height=100)
+
+sync_tip = tk.Label(sync_settings_frame, text="Sync Git URL:")
+sync_tip.place(x=10, y=10)
+
+api_sync = tk.StringVar(value=configs["sync"]["API"])
+api_sync.trace_add("write", lambda *args: update_config(api_sync, "sync.API"))
+tk.Entry(sync_settings_frame, textvariable=api_sync, width=50).place(x=10, y=40)
+
+enabled_sync = tk.BooleanVar(value=configs["sync"]["enabled"])
+enabled_sync.trace_add("write", lambda *args: update_config(enabled_sync, "sync.enabled"))
+tk.Checkbutton(sync_settings_frame, text="Enabled", variable=enabled_sync).place(x=150, y=10)
+
+write_sync = tk.BooleanVar(value=configs["sync"]["writePermission"])
+write_sync.trace_add("write", lambda *args: update_config(write_sync, "sync.writePermission"))
+tk.Checkbutton(sync_settings_frame, text="Write Permission", variable=write_sync).place(x=250, y=10)
 
 
 # normal tkinter widgets
-network_frame = tk.LabelFrame(root, text="Network", padx=5, pady=5)
+network_frame = tk.LabelFrame(root, text="API Access", padx=5, pady=5)
 network_frame.place(x=10, y=500, width=200, height=180)
 
-git_label = tk.Label(network_frame, text="Git Source: Unknown")
+git_label = tk.Label(network_frame, text="Sync: Unknown")
 git_label.pack(pady=5)
 
 LLM_label = tk.Label(network_frame, text="LLM: Unknown")
