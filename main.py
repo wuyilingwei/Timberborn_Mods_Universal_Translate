@@ -94,17 +94,19 @@ def update_config(var, config_path):
     save_config()
 
 # initialize proxy settings
-def get_proxies():
+proxies = None
+def get_proxies() -> None:
+    global proxies
     if configs['connection']['isProxy']:
         proxy_auth = f"{configs['connection']['username']}:{configs['connection']['password']}@" if configs['connection']['username'] and configs['connection']['password'] else ""
-        proxy_url = f"http://{proxy_auth}{configs['connection']['address']}:{configs['connection']['port']}"
-        return {
+        proxy_url = f"socks5://{proxy_auth}{configs['connection']['address']}:{configs['connection']['port']}"
+        proxies = {
             "http": proxy_url,
             "https": proxy_url
         }
     return None
 
-proxies = get_proxies()
+get_proxies()
 
 def get_domain(url) -> str:
     parsed_url = urlparse(url)
@@ -235,7 +237,7 @@ settings_frame.place(x=10, y=10, width=780, height=360)
 
 # data sync settings
 sync_settings_frame = tk.LabelFrame(settings_frame, text="Sync Settings")
-sync_settings_frame.place(x=10, y=0, width=380, height=100)
+sync_settings_frame.place(x=0, y=0, width=380, height=100)
 
 sync_tip = tk.Label(sync_settings_frame, text="Sync Git URL:")
 sync_tip.place(x=10, y=10)
@@ -252,6 +254,41 @@ write_sync = tk.BooleanVar(value=configs["sync"]["writePermission"])
 write_sync.trace_add("write", lambda *args: update_config(write_sync, "sync.writePermission"))
 tk.Checkbutton(sync_settings_frame, text="Write Permission", variable=write_sync).place(x=250, y=10)
 
+
+# Proxy settings
+proxy_settings_frame = tk.LabelFrame(settings_frame, text="Proxy Settings")
+proxy_settings_frame.place(x=0, y=110, width=380, height=150)
+
+is_proxy = tk.BooleanVar(value=configs["connection"]["isProxy"])
+is_proxy.trace_add("write", lambda *args: update_config(is_proxy, "connection.isProxy"))
+tk.Checkbutton(proxy_settings_frame, text="Use Proxy", variable=is_proxy).place(x=250, y=10)
+
+proxy_address_tip = tk.Label(proxy_settings_frame, text="Proxy Address:")
+proxy_address_tip.place(x=10, y=10)
+proxy_address = tk.StringVar(value=configs["connection"]["address"])
+proxy_address.trace_add("write", lambda *args: update_config(proxy_address, "connection.address"))
+tk.Entry(proxy_settings_frame, textvariable=proxy_address, width=50).place(x=10, y=40)
+
+proxy_username_tip = tk.Label(proxy_settings_frame, text="Username:")
+proxy_username_tip.place(x=10, y=70)
+proxy_username = tk.StringVar(value=configs["connection"]["username"])
+proxy_username.trace_add("write", lambda *args: update_config(proxy_username, "connection.username"))
+tk.Entry(proxy_settings_frame, textvariable=proxy_username, width=12).place(x=80, y=70)
+
+proxy_password_tip = tk.Label(proxy_settings_frame, text="Password:")
+proxy_password_tip.place(x=180, y=70)
+proxy_password = tk.StringVar(value=configs["connection"]["password"])
+proxy_password.trace_add("write", lambda *args: update_config(proxy_password, "connection.password"))
+tk.Entry(proxy_settings_frame, textvariable=proxy_password, width=12).place(x=260, y=70)
+
+proxy_port_tip = tk.Label(proxy_settings_frame, text="Proxy Port:")
+proxy_port_tip.place(x=10, y=100)
+proxy_port = tk.StringVar(value=configs["connection"]["port"])
+proxy_port.trace_add("write", lambda *args: update_config(proxy_port, "connection.port"))
+tk.Entry(proxy_settings_frame, textvariable=proxy_port, width=10).place(x=80, y=100)
+
+apply_proxy_button = tk.Button(proxy_settings_frame, text="Apply", command=get_proxies, width=10, height=1)
+apply_proxy_button.place(x=250, y=95)
 
 # normal tkinter widgets
 network_frame = tk.LabelFrame(root, text="API Access", padx=5, pady=5)
