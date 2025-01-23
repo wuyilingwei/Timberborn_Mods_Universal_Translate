@@ -256,14 +256,14 @@ tk.Checkbutton(sync_settings_frame, text="Write Permission", variable=write_sync
 
 
 # Proxy settings
-proxy_settings_frame = tk.LabelFrame(settings_frame, text="Proxy Settings")
+proxy_settings_frame = tk.LabelFrame(settings_frame, text="Proxy Settings(socks5)")
 proxy_settings_frame.place(x=0, y=110, width=380, height=150)
 
 is_proxy = tk.BooleanVar(value=configs["connection"]["isProxy"])
 is_proxy.trace_add("write", lambda *args: update_config(is_proxy, "connection.isProxy"))
 tk.Checkbutton(proxy_settings_frame, text="Use Proxy", variable=is_proxy).place(x=250, y=10)
 
-proxy_address_tip = tk.Label(proxy_settings_frame, text="Proxy Address:")
+proxy_address_tip = tk.Label(proxy_settings_frame, text="Server Address:")
 proxy_address_tip.place(x=10, y=10)
 proxy_address = tk.StringVar(value=configs["connection"]["address"])
 proxy_address.trace_add("write", lambda *args: update_config(proxy_address, "connection.address"))
@@ -289,6 +289,63 @@ tk.Entry(proxy_settings_frame, textvariable=proxy_port, width=10).place(x=80, y=
 
 apply_proxy_button = tk.Button(proxy_settings_frame, text="Apply", command=get_proxies, width=10, height=1)
 apply_proxy_button.place(x=250, y=95)
+
+# LLM settings
+llm_settings_frame = tk.LabelFrame(settings_frame, text="LLM Settings")
+llm_settings_frame.place(x=385, y=0, width=380, height=335)
+
+llm_tip = tk.Label(llm_settings_frame, text="LLM API:")
+llm_tip.place(x=10, y=10)
+api_llm = tk.StringVar(value=configs["LLM"]["API"])
+api_llm.trace_add("write", lambda *args: update_config(api_llm, "LLM.API"))
+tk.Entry(llm_settings_frame, textvariable=api_llm, width=50).place(x=10, y=40)
+
+llm_token_tip = tk.Label(llm_settings_frame, text="LLM Token:")
+llm_token_tip.place(x=10, y=70)
+api_llm_token = tk.StringVar(value=configs["LLM"]["token"])
+api_llm_token.trace_add("write", lambda *args: update_config(api_llm_token, "LLM.token"))
+tk.Entry(llm_settings_frame, textvariable=api_llm_token, width=50).place(x=10, y=100)
+
+llm_model_tip = tk.Label(llm_settings_frame, text="LLM Model:")
+llm_model_tip.place(x=10, y=130)
+api_llm_model = tk.StringVar(value=configs["LLM"]["model"])
+api_llm_model.trace_add("write", lambda *args: update_config(api_llm_model, "LLM.model"))
+tk.Entry(llm_settings_frame, textvariable=api_llm_model, width=15).place(x=90, y=130)
+
+llm_leng_tip = tk.Label(llm_settings_frame, text="Min Length:")
+llm_leng_tip.place(x=180, y=130)
+api_llm_minlength = tk.StringVar(value=configs["LLM"]["minlength"])
+api_llm_minlength.trace_add("write", lambda *args: update_config(api_llm_minlength, "LLM.minlength"))
+tk.Entry(llm_settings_frame, textvariable=api_llm_minlength, width=15).place(x=260, y=130)
+
+llm_lang_tip = tk.Label(llm_settings_frame, text="Language:")
+llm_lang_tip.place(x=180, y=160)
+api_llm_lang = tk.StringVar(value=configs["LLM"]["lang"])
+api_llm_lang.trace_add("write", lambda *args: update_config(api_llm_lang, "LLM.lang"))
+tk.Entry(llm_settings_frame, textvariable=api_llm_lang, width=15).place(x=260, y=160)
+
+llm_prompt_tip = tk.Label(llm_settings_frame, text="Prompt:")
+llm_prompt_tip.place(x=10, y=160)
+edit_prompt_var = tk.BooleanVar(value=False)
+edit_prompt_check = tk.Checkbutton(llm_settings_frame, text="Edit", variable=edit_prompt_var, command=lambda: toggle_prompt_edit(edit_prompt_var.get()))
+edit_prompt_check.place(x=120, y=160)
+llm_prompt_text = tk.Text(llm_settings_frame, width=50, height=8, wrap=tk.WORD)
+llm_prompt_text.insert(tk.END, configs["LLM"]["prompt"])
+llm_prompt_text.config(state=tk.DISABLED)
+llm_prompt_text.place(x=10, y=190)
+def toggle_prompt_edit(editable):
+    if editable:
+        llm_prompt_text.config(state=tk.NORMAL)
+    else:
+        llm_prompt_text.config(state=tk.DISABLED)
+def update_config(*args):
+    if edit_prompt_var.get():
+        configs["LLM"]["prompt"] = llm_prompt_text.get("1.0", tk.END).strip()
+        save_config()
+llm_prompt_text.bind("<KeyRelease>", update_config)
+
+
+
 
 # normal tkinter widgets
 network_frame = tk.LabelFrame(root, text="API Access", padx=5, pady=5)
