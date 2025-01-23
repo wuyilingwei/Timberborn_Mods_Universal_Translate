@@ -1,5 +1,6 @@
 import copy
 import os
+import sys
 import subprocess
 import shutil
 import requests
@@ -11,6 +12,13 @@ from cryptography.fernet import Fernet
 from urllib.parse import urlparse
 import tkinter as tk
 from tkinter.scrolledtext import ScrolledText
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
 
 def open_file_async(file_path):
     if os.name == 'nt':  # Windows
@@ -54,7 +62,7 @@ root = tk.Tk()
 root.title("Timberborn mod translator")
 root.geometry("1280x720")
 root.resizable(False, False)
-root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file='logo.png')) 
+root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(file=resource_path("logo.png")))
 
 log_frame = tk.LabelFrame(root, text="Log")
 log_frame.place(x=800, y=10, width=460, height=700)
