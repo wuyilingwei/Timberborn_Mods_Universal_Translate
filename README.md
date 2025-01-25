@@ -37,6 +37,3 @@ Not be tied to a certain mod and data source. GUI, all lang support. Built in so
 
 No need develop env, a exe avaliable.
 
-### v2.1 (might be)
-
-Direct interaction with the steam user version instead of steamcmd.
