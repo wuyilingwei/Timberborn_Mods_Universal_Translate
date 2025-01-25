@@ -247,18 +247,9 @@ tk.Entry(proxy_settings_frame, textvariable=proxy_port, width=10).place(x=80, y=
 apply_proxy_button = tk.Button(proxy_settings_frame, text="Apply", command=get_proxies, width=10, height=1)
 apply_proxy_button.place(x=250, y=95)
 
-# steam settings
-steam_settings_frame = tk.LabelFrame(settings_frame, text="Steam Settings")
-steam_settings_frame.place(x=0, y=250, width=380, height=85)
-
-steam_mode = tk.StringVar(value=configs["steam"]["mode"])
-steam_mode.trace_add("write", lambda *args: update_config(steam_mode, "steam.mode"))
-
-command_radio = tk.Radiobutton(steam_settings_frame, text="CMD", variable=steam_mode, value="command")
-command_radio.place(x=10, y=0)
-
-client_radio = tk.Radiobutton(steam_settings_frame, text="Client", variable=steam_mode, value="client")
-client_radio.place(x=10, y=30)
+# steamcmd settings
+steam_settings_frame = tk.LabelFrame(settings_frame, text="SteamCMD Settings")
+steam_settings_frame.place(x=0, y=245, width=380, height=85)
 
 steam_path_tip = tk.Label(steam_settings_frame, text="Username:")
 steam_path_tip.place(x=80, y=2)
@@ -266,62 +257,54 @@ steam_username = tk.StringVar(value=configs["steam"]["userName"])
 steam_username.trace_add("write", lambda *args: update_config(steam_username, "steam.userName"))
 tk.Entry(steam_settings_frame, textvariable=steam_username, width=15).place(x=150, y=2)
 
-def init_steam():
-    return None
+steam_init = tk.Button(steam_settings_frame, text="INIT SteamCMD Official", command=init_steamcmd, width=4, height=1)
+steam_init.place(x=330, y=0)
 
-steam_init = tk.Button(steam_settings_frame, text="Init", command=init_steam, width=5, height=1)
-steam_init.place(x=300, y=0)
-
-steam_path_tip = tk.Label(steam_settings_frame, text="Path:")
-steam_path_tip.place(x=80, y=32)
-steam_path = tk.StringVar(value=configs["steam"]["installPath"])
-steam_path.trace_add("write", lambda *args: update_config(steam_path, "steam.installPath"))
-tk.Entry(steam_settings_frame, textvariable=steam_path, width=35).place(x=120, y=32)
 
 
 # LLM settings
 llm_settings_frame = tk.LabelFrame(settings_frame, text="LLM Settings")
-llm_settings_frame.place(x=385, y=0, width=380, height=335)
+llm_settings_frame.place(x=385, y=0, width=380, height=240)
 
 llm_tip = tk.Label(llm_settings_frame, text="API:")
-llm_tip.place(x=10, y=10)
+llm_tip.place(x=10, y=0)
 api_llm = tk.StringVar(value=configs["LLM"]["API"])
 api_llm.trace_add("write", lambda *args: update_config(api_llm, "LLM.API"))
-tk.Entry(llm_settings_frame, textvariable=api_llm, width=50).place(x=10, y=40)
+tk.Entry(llm_settings_frame, textvariable=api_llm, width=45).place(x=40, y=0)
 
 llm_token_tip = tk.Label(llm_settings_frame, text="Token:")
-llm_token_tip.place(x=10, y=70)
+llm_token_tip.place(x=10, y=30)
 api_llm_token = tk.StringVar(value=configs["LLM"]["token"])
 api_llm_token.trace_add("write", lambda *args: update_config(api_llm_token, "LLM.token"))
-tk.Entry(llm_settings_frame, textvariable=api_llm_token, width=50).place(x=10, y=100)
+tk.Entry(llm_settings_frame, textvariable=api_llm_token, width=42).place(x=60, y=30)
 
 llm_model_tip = tk.Label(llm_settings_frame, text="Model:")
-llm_model_tip.place(x=10, y=130)
+llm_model_tip.place(x=10, y=60)
 api_llm_model = tk.StringVar(value=configs["LLM"]["model"])
 api_llm_model.trace_add("write", lambda *args: update_config(api_llm_model, "LLM.model"))
-tk.Entry(llm_settings_frame, textvariable=api_llm_model, width=15).place(x=60, y=130)
+tk.Entry(llm_settings_frame, textvariable=api_llm_model, width=15).place(x=60, y=60)
 
 llm_leng_tip = tk.Label(llm_settings_frame, text="Min Length:")
-llm_leng_tip.place(x=180, y=130)
+llm_leng_tip.place(x=180, y=60)
 api_llm_minlength = tk.StringVar(value=configs["LLM"]["minlength"])
 api_llm_minlength.trace_add("write", lambda *args: update_config(api_llm_minlength, "LLM.minlength"))
-tk.Entry(llm_settings_frame, textvariable=api_llm_minlength, width=15).place(x=260, y=130)
+tk.Entry(llm_settings_frame, textvariable=api_llm_minlength, width=15).place(x=260, y=60)
 
 llm_lang_tip = tk.Label(llm_settings_frame, text="Language:")
-llm_lang_tip.place(x=180, y=160)
+llm_lang_tip.place(x=180, y=90)
 api_llm_lang = tk.StringVar(value=configs["LLM"]["lang"])
 api_llm_lang.trace_add("write", lambda *args: update_config(api_llm_lang, "LLM.lang"))
-tk.Entry(llm_settings_frame, textvariable=api_llm_lang, width=15).place(x=260, y=160)
+tk.Entry(llm_settings_frame, textvariable=api_llm_lang, width=15).place(x=260, y=90)
 
 llm_prompt_tip = tk.Label(llm_settings_frame, text="Prompt:")
-llm_prompt_tip.place(x=10, y=160)
+llm_prompt_tip.place(x=10, y=90)
 edit_prompt_var = tk.BooleanVar(value=False)
 edit_prompt_check = tk.Checkbutton(llm_settings_frame, text="Edit", variable=edit_prompt_var, command=lambda: toggle_prompt_edit(edit_prompt_var.get()))
-edit_prompt_check.place(x=120, y=160)
-llm_prompt_text = tk.Text(llm_settings_frame, width=50, height=8, wrap=tk.WORD)
+edit_prompt_check.place(x=120, y=90)
+llm_prompt_text = tk.Text(llm_settings_frame, width=50, height=7, wrap=tk.WORD)
 llm_prompt_text.insert(tk.END, configs["LLM"]["prompt"])
 llm_prompt_text.config(state=tk.DISABLED)
-llm_prompt_text.place(x=10, y=190)
+llm_prompt_text.place(x=10, y=120)
 def toggle_prompt_edit(editable):
     if editable:
         llm_prompt_text.config(state=tk.NORMAL)
@@ -334,77 +317,7 @@ def update_config_text(*args):
 llm_prompt_text.bind("<KeyRelease>", update_config_text)
 
 
-"""
-def check_accessibility():
-    git_status = "Unknown"
-    openai_status = "Unknown"
-    steam_status = "Unknown"
-    logger.info("Checking accessibility...")
-    gitDomain = get_domain(configs["sync"]["API"])
-    openaiDomain = get_domain(configs["LLM"]["API"])
-    logger.debug(f"Git Source: {gitDomain}")
-    logger.debug(f"OpenAI: {openaiDomain}")
-    logger.debug(f"Steam: store.steampowered.com")
 
-    # Check Git accessibility
-    try:
-        response = requests.get(f"https://{gitDomain}", timeout=5, proxies=proxies)
-        if response.status_code == 200:
-            git_status = "Accessible"
-            logger.info(f"Sync: {git_status}")
-        else:
-            git_status = "Not Accessible"
-            logger.info(f"Sync: {git_status}")
-            logger.info(f"Response: {response}")
-    except requests.RequestException as e:
-        git_status = "Not Accessible"
-        logger.info(f"Sync: {git_status}")
-        logger.info(f"Error: {e}")
-
-    # Check LLM accessibility
-    LLMStatus = requestLLM(text="Hello", prompt="Reply me \"Hi\"")
-    if LLMStatus["code"] == 200:
-        openai_status = "Accessible"
-        logger.info(f"LLM: {openai_status}")
-    else:
-        openai_status = "Not Accessible"
-        logger.info(f"LLM: {openai_status}")
-        logger.info(f"Response: {LLMStatus}")
-
-    # Check Steam accessibility
-    try:
-        response = requests.get(f"https://store.steampowered.com", timeout=5, proxies=proxies)
-        if response.status_code == 200:
-            steam_status = "Accessible"
-            logger.info(f"Steam: {steam_status}")
-        else:
-            steam_status = "Not Accessible"
-            logger.info(f"Steam: {steam_status}")
-            logger.info(f"Response: {response}")
-    except requests.RequestException as e:
-        steam_status = "Not Accessible"
-        logger.info(f"Steam: {steam_status}")
-        logger.info(f"Error: {e}")
-
-    git_label.config(text=f"Sync: {git_status}")
-    LLM_label.config(text=f"LLM: {openai_status}")
-    steam_label.config(text=f"Steam: {steam_status}")
-
-network_frame = tk.LabelFrame(root, text="API Access", padx=5, pady=5)
-network_frame.place(x=10, y=500, width=100, height=180)
-
-git_label = tk.Label(network_frame, text="Sync: Unknown")
-git_label.pack(pady=5)
-
-LLM_label = tk.Label(network_frame, text="LLM: Unknown")
-LLM_label.pack(pady=5)
-
-steam_label = tk.Label(network_frame, text="Steam: Unknown")
-steam_label.pack(pady=5)
-
-check_button = tk.Button(network_frame, text="Try Again", command=check_accessibility)
-check_button.pack(pady=10)
-"""
 
 
 logger.info("Application started")
