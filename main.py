@@ -1,4 +1,3 @@
-import copy
 import os
 import sys
 import subprocess
@@ -8,7 +7,7 @@ import csv
 import json
 import toml
 import logging
-from cryptography.fernet import Fernet
+import webbrowser
 from urllib.parse import urlparse
 import tkinter as tk
 from tkinter.scrolledtext import ScrolledText
@@ -27,6 +26,9 @@ def open_file_async(file_path):
         subprocess.Popen(['open', file_path])
     else:
         subprocess.Popen(['xdg-open', file_path])
+
+def open_url_async(url):
+    webbrowser.open(url, new=2)
 
 # initialize logging
 logger = logging.getLogger(__name__)
@@ -76,17 +78,18 @@ text_handler.setFormatter(formatter)
 logger.addHandler(text_handler)
 
 # Load the default config
+version = 0.2
 default_configs = {
-    'common': {'version': 0.2, 'columns': '2,3'},
+    'common': {'version': version, 'columns': '2,3'},
     'sync': {'enabled': True, 'API': 'https://github.com/wuyilingwei/TMT_Data.git', 'writePermission': False},
     'steam': {'mode': 'command', 'userName': '', 'installPath': ''},
     'LLM': {'API': 'https://api.openai.com/v1/chat/completions', 'token': '', 'model': 'gpt-4o-mini', 'minlength': 2, 'lang': '', 'prompt': 'You are a professional, authentic machine translation engine. Translate text to {lang}, preserving structure, codes, and markup.'},
     'connection': {'isProxy': False, 'address': '', 'port': '', 'username': '', 'password': ''}}
 
-configs = copy.deepcopy(default_configs)
+configs = default_configs
 if os.path.exists('config.toml'):
     configs.update(toml.load('config.toml'))
-    configs['common']['version'] = default_configs['common']['version']
+    configs['common']['version'] = version
 
 def save_config():
     with open('config.toml', 'w') as f:
@@ -257,6 +260,9 @@ steam_username = tk.StringVar(value=configs["steam"]["userName"])
 steam_username.trace_add("write", lambda *args: update_config(steam_username, "steam.userName"))
 tk.Entry(steam_settings_frame, textvariable=steam_username, width=15).place(x=150, y=2)
 
+def init_steamcmd():
+    pass
+
 steam_init = tk.Button(steam_settings_frame, text="INIT SteamCMD Official", command=init_steamcmd, width=4, height=1)
 steam_init.place(x=330, y=0)
 
@@ -317,7 +323,37 @@ def update_config_text(*args):
 llm_prompt_text.bind("<KeyRelease>", update_config_text)
 
 
+# Author show
+author_frame = tk.LabelFrame(settings_frame)
+author_frame.place(x=385, y=245, width=380, height=85)
 
+image1 = tk.PhotoImage(file=resource_path("image1.png"))
+image1_ratio = image1.width() / 80
+image1 = image1.subsample(int(image1_ratio), int(image1_ratio))
+image1_label = tk.Label(author_frame, image=image1)
+image1_label.image = image1
+image1_label.place(x=0, y=0, width=80, height=80)
+
+group_label = tk.Label(author_frame, text="By Rosmontis Translate Group")
+group_label.place(x=90, y=0)
+
+author_label = tk.Label(author_frame, text="Code by")
+author_label.place(x=90, y=19)
+authorLink_label = tk.Label(author_frame, text="wuyilingwei", fg="blue", cursor="hand2")
+authorLink_label.place(x=145, y=19)
+authorLink_label.bind("<Button-1>", lambda e: open_url_async("https://github.com/wuyilingwei"))
+
+github_label = tk.Label(author_frame, text="Open Source on")
+github_label.place(x=90, y=38)
+githubLink_label = tk.Label(author_frame, text="GitHub", fg="blue", cursor="hand2")
+githubLink_label.place(x=190, y=38)
+githubLink_label.bind("<Button-1>", lambda e: open_url_async("https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate"))
+
+license_label = tk.Label(author_frame, text="License: GPL-3.0")
+license_label.place(x=90, y=57)
+
+version_label = tk.Label(author_frame, text=f"Version: {version}")
+version_label.place(x=190, y=57)
 
 
 logger.info("Application started")
