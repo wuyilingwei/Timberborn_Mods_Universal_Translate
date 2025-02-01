@@ -2,7 +2,7 @@
 
 This project provides i18n support for Timberborn's creative workshop mod.
 
-! IMPORTANT ! v2 database/config structure rewritten, not compatible with v1.
+The plan for the v2 client has changed. Considering the synchronization issue, the plan for v2 will automatically submit the original language files to github, and this process does not require other people. I think it is better to use github's workflow directly, and it does not require contributors to log in to their steam accounts and configure git and deal with complex network issues in different countries.
 
 Translated by Rosmontis Translation Team
 
@@ -28,12 +28,4 @@ CopyRight © 2024 Any rights not expressly granted are reserved
 This is the v2 version under development, which is not available yet. Please check the v1 branch or release.
 
 This is not my top priority and is not related to my course this semester, so it may be developed very slowly. Due to the powerful matching function of v1, I plan to finish it before the next major version update of the game.
-
-## Roadmap:
-
-### v2
-
-Not be tied to a certain mod and data source. GUI, all lang support. Built in socks5 proxy support.
-
-No need develop env, a exe avaliable.
 
