@@ -2,7 +2,7 @@
 
 ![](thumbnail.png)
 
-This repository store i18n files for Timberborn's creative workshop mods.
+**This repository store i18n files for Timberborn's creative workshop mods.**
 
 # Join us
 
