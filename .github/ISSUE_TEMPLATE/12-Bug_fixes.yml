@@ -1,0 +1,87 @@
+name: Bug report
+description: Report errors or unexpected behavior
+labels: [bug]
+title: "[Bug] (short description)"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting issues!
+        Fields with * are required, please fill in completely. If you don't understand or it doesn't apply, you can leave it blank.
+        # Check list
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before Open ISSUE ...
+      description: Please confirm that you have completed the requirements before checking. I understand that if the requirements are not met, the Issue may be closed and locked unconditionally.
+      options:
+        - label: I understand that the Issue is used to provide feedback and solve problems, not to comment on the comment area, and will provide as much information as possible to help solve the problem
+          required: true
+        - label: I wrote a short and clear title so that developers can quickly determine the general problem when browsing the Issue list, rather than "a suggestion", "stuck", etc.
+          required: true
+        - label: I have checked the latest version of the current update, and have viewed the update content that has not been released in the version so far and in the Pull Requests, and it has not been mentioned that the bug has been fixed
+          required: true
+        - label: I have checked the pinned issue (announcement), active issue (Open Issue), and closed issue (Closed Issue), and confirmed that my problem has not been mentioned
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## This can be found in the mod folder in the mainfest, if you have a steam workshop subscription, please check the update log
+  - type: input
+    attributes:
+      label: Mod version
+      placeholder:
+    validations:
+      required: true
+  - type: checkboxes
+    id: Internet
+    attributes:
+      label: Internet
+      options:
+        - label: I have checked the network connection and confirmed that the network is working
+          required: true
+        - label: I using a proxy/VPN
+        - label: I am in a network-restricted environment. Even if you have used a proxy/VPN, please check this option.
+  - type: input
+    attributes:
+      label: Any other environment information
+      placeholder:
+  - type: markdown
+    attributes:
+      value: |
+        ## These are necessary questions. Please fill in the information as much as possible.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: Describe the steps to reproduce the bug, including any necessary setup to reproduce the issue. Please provide an unambiguous set of steps to reproduce this bug. Include code to reproduce, if relevant.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      placeholder: Tell us what should happen
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behaviour
+      placeholder: Tell us what happens instead
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Error message
+      placeholder: If applicable, paste the full error message
+  - type: textarea
+    attributes:
+      label: Screenshots
+      placeholder: If applicable, add screenshots to help explain your problem
+  - type: textarea
+    attributes:
+      label: Logs
+      placeholder: If applicable, add logs to help explain your problem
+  - type: textarea
+    id: others
+    attributes:
+      label: Any More?
+      placeholder: Please provide any additional information that may help us understand the problem you are experiencing.

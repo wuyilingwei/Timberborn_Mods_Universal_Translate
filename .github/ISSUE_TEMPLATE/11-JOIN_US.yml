@@ -1,0 +1,24 @@
+name: JOIN US
+description: Application for joining translation team
+labels: [Join Us]
+title: "Join Application"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You are very welcome to join us. Before joining, there are some brief questions.
+  - type: checkboxes
+    id: Experience
+    attributes:
+      label: Experience
+      options:
+        - label: I known how to use GitHub
+        - label: I known how the mod works
+  - type: input
+    attributes:
+      label: Your languages
+      placeholder:
+  - type: textarea
+    id: others
+    attributes:
+      label: Any More?
