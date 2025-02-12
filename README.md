@@ -4,7 +4,7 @@
 
 **This repository store i18n files for Timberborn's creative workshop mods.**
 
-# Join us
+## Join us
 
 First you need a GitHub account, then fill in JOIN US in the issue, and then I will give you editing permissions for the repository.
 
