@@ -1,0 +1,28 @@
+ID,Text,Comment
+IgorZ.TimberCommons.WaterTower.Utilization,灌溉效率：{0:0.#}%,-
+IgorZ.TimberCommons.WaterTower.IrrigatedArea,灌溉面积：{0},-
+IgorZ.TimberCommons.WaterTower.EffectiveRange,灌溉半径：{0},-
+IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,没有可灌溉的土地,-
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,生长加速：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%,表示生长加速，这是一个好的效果。
+IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,生长减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%,表示生长惩罚，这是一个不好的效果。
+IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,出水口高于此深度时关闭：{0},-
+IgorZ.TimberCommons.InjuryProbability,受伤概率：{0}/小时,-
+IgorZ.TimberCommons.Settings.TimeAndDurationSection,数字精度,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,用天/小时表示供应持续时间,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,用天/小时表示生长时间,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,用天/小时表示配方持续时间,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,提高配方燃料消耗的数字精度,-
+IgorZ.TimberCommons.Settings.IrrigationSystemSection,灌溉塔,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,将被灌溉塔影响的土地显示成完全湿润的效果,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,完全湿润的效果为完整的草地；与之相对，半湿润的效果为不完整的草地。<br>默认情况下，被灌溉塔影响的土地会显示为半湿润的效果。,-
+IgorZ.TimberCommons.Settings.WaterBuildingsSection,水利建筑,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,可修改机械水泵出水口最高水位,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,可修改液体排放处出水口最高水位,-
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,显示水闸的水流速度,-
+IgorZ.TimberCommons.Settings.InjuryProbabilitySection,受伤概率,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,在建筑详情面板显示受伤概率,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,在建筑图标上显示指示器,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,将鼠标悬停在指示器上可以查看受伤概率,-
+IgorZ.TimberCommons.Settings.DebugSection,调试与故障排除,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLogging,详细日志记录,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用的细节，但可能影响游戏性能。,-

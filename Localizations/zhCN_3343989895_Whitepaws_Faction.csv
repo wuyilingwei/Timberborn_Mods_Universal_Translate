@@ -1,0 +1,1218 @@
+ID,Text,Comment
+Good.Stew.PluralDisplayName,炖菜,1
+Faction.waterbeavers.DisplayName,白爪,2
+Faction.waterbeavers.Description,白爪种族保留了海狸的原始习性，喜欢与水共处、保持湿润。他们对狸口与资源的把控不足，科技发展繁杂，但坚信能走出一条崛起之路。<br>座右铭：<i>随遇而安，四海为家。</i><br><color=#FFFF00>提示：①科技树复杂，前期较难处理恶水潮，不建议选择困难难度；②大部分建筑可以居住且防水，工业建筑有专用传动接口；③对初始地形有一定要求，建议选择附近有2米高悬崖的地图。</color>,3
+trashdump.DisplayName,初始地区中心,4
+trashdump.Description,用破损的探索车临时搭建的地区中心，携带了建造部分建筑的关键耗材，用于发展对应科技。<br><color=#00FF00>可雇佣2名建筑工。</color><br><color=#FF6600>拆除可获得第一个实验器皿、铁锅、铁砧、资料库，从而建造化工小屋、纸匠铺、铁匠铺、图书展览馆。</color><br><color=#FF0000>建议四门地区中心建造完毕后再拆除此建筑。</color>,5
+trashdump.FlavorDescription,“我们无法继续前进了，但可以在这里安顿下来，建设一个新家园。”——探索队队长,6
+Luc.Primitivemine.DisplayName,小型矿洞,7
+Luc.Primitivemine.Description,能获取矿产资源。<br><color=#FFFF00>标志旗必须建造在地面上，可依附于2米高的悬崖。</color>,8
+Luc.Primitivemine.FlavorDescription,“我们明明是海狸，为什么还要挖石头？”,9
+Lapantouflemagic.Mediummine.DisplayName,大型矿井,10
+Lapantouflemagic.Mediummine.Description,能获取更多矿产资源、硅矿或地下水。<br><color=#FFFF00>护栏与矿洞门口必须建造在地面上，可依附于4米深的坑洞。</color><br><color=#FF6600>所需坑洞大小为4x4，去掉一个1x2的角；建议预留进入的通道。</color>,11
+Lapantouflemagic.Mediummine.FlavorDescription,“我不信鬼神不信妖怪，所以矿洞没什么可怕的！”——矿工佐克，坠亡,12
+Lapantouflemagic.Primitivesmetler.DisplayName,炼矿炉,13
+Lapantouflemagic.Primitivesmetler.Description,用煤矿冶炼铁矿，能获得金属废料。,14
+Lapantouflemagic.Primitivesmetler.FlavorDescription,“这配方准确吗？”——海狸炼铁工,15
+Lapantouflemagic.Woodburner.DisplayName,炭火炉,16
+Lapantouflemagic.Woodburner.Description,用原木烧制黏土，能获得瓦锅，也能炭化原木获得煤矿，或者消耗多余的木屑等物品。,17
+Lapantouflemagic.Woodburner.FlavorDescription,“噢，这是去除……木屑！对，是去除木屑的好方法。”——开膛爪杰克,18
+Lapantouflemagic.Screwpress.DisplayName,压榨机,19
+Lapantouflemagic.Screwpress.Description,用机器压榨种子果实，能制作葵花籽油或各种饮料，或者压缩大量图书获得资料库。<br><color=#FF6600>通过气球贸易可获得椰子、凤梨来制作椰子汁、凤梨汁。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,20
+Lapantouflemagic.Screwpress.FlavorDescription,葵花籽油，蔬菜沙拉和机器齿轮的共同选择。,21
+Lapantouflemagic.Alchemist.DisplayName,化工小屋,22
+Lapantouflemagic.Alchemist.Description,对不同原料进行化学加工，能制作各种化工产品。<br><color=#FF6600>拆除初始地区中心可获得第一个实验器皿来建造。</color><br><color=#FF6600>通过气球贸易可获得咖啡豆来制作咖啡。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,23
+Lapantouflemagic.Alchemist.FlavorDescription,“希望不会爆炸……噢，希望海狸没事。”,24
+Lapantouflemagic.Handicrafter.DisplayName,手工棚屋,25
+Lapantouflemagic.Handicrafter.FlavorDescription,“这能满足目前的需求，但人口继续增长的话……”,26
+Lapantouflemagic.Copistlodge.DisplayName,抄写工小屋,27
+Lapantouflemagic.Copistlodge.Description,抄写效果图，能获得设计图，或者制作漫画。<br><color=#FF6600>在建筑设计所和机械设计所制作第一份设计图。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,28
+Lapantouflemagic.Copistlodge.FlavorDescription,“抄写第一步，去掉这些没用的装饰！”——海狸抄写工,29
+Lapantouflemagic.Artsylodge.DisplayName,美术工小屋,30
+Lapantouflemagic.Artsylodge.Description,装饰设计图，能获得效果图，或者制作漫画。<br><color=#FF6600>在建筑设计所和机械设计所制作第一份设计图。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,31
+Lapantouflemagic.Artsylodge.FlavorDescription,“不装饰一下，怎么体现出美术感呢？”——海狸美术工,32
+Lapantouflemagic.Builderslodge.DisplayName,建筑工棚屋,33
+Lapantouflemagic.Builderslodge.Description,雇佣额外的建筑工。<br><color=#00FF00>可雇佣2名建筑工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,34
+Lapantouflemagic.Builderslodge.FlavorDescription,“建了那么多，终于到自己的房子了！”——海狸建筑工,35
+Lapantouflemagic.ScrollRack.DisplayName,卷轴收纳架,36
+Lapantouflemagic.ScrollRack.Description,储存图纸。<br><color=#FFFF00>必须建造在图书展览馆内，箭头方向无影响。</color><br><color=#FF0000>拆除不返还资源和库存。</color>,37
+Lapantouflemagic.ScrollRack.FlavorDescription,“这些是最好chi……最好的图书！”——笨蛋鲍比,38
+Luc.LibraryOffice.DisplayName,图书展览馆管理室,39
+Luc.LibraryOffice.FlavorDescription,“要抄完这些书？我自己？”——图书管理员,40
+Luc.Lodge.Description,能住进一户家庭的小房子。<br><color=#00FF00>可雇佣1名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,41
+Lapantouflemagic.primitivedam.DisplayName,初级水坝,42
+Lapantouflemagic.primitivedam.Description,能阻断水流，但部分水流可以流过顶部的泄洪道。由于技术落后，占地面积较大。,43
+Lapantouflemagic.primitivedamupgrade.DisplayName,水坝升级：高度,44
+Lapantouflemagic.primitivedamupgrade.Description,在水坝上继续增建，提高阻断水流的高度。<br><color=#FFFF00>必须建造在对应水坝上。</color>,45
+Lapantouflemagic.primitivedamupgrade.FlavorDescription,能挡住更多水了。,46
+Lapantouflemagic.primitivedamUtility.DisplayName,高级水坝,47
+Lapantouflemagic.primitivedamUtility.Description,特殊设计的水坝，底部带有交叉的道路和传动轴，供海狸通行和能量传输。,48
+Lapantouflemagic.primitivedamUtility.FlavorDescription,“噢，这可真是太方便了。”——铁牙海狸,49
+Lapantouflemagic.LogstairsWB.DisplayName,简易楼梯,50
+Lapantouflemagic.logstairsWB.DisplayName,橡木简易楼梯,51
+Lapantouflemagic.BirchlogstairsWB.DisplayName,桦木简易楼梯,52
+Lapantouflemagic.ScramblelogstairsWB.DisplayName,混合简易楼梯,53
+Lapantouflemagic.logstairsWB.Description,用原木建造的简易楼梯。,54
+Lapantouflemagic.logstairsWB.FlavorDescription,“这就是我们需要教育的原因。”——海狸学者 ,55
+Lapantouflemagic.CrappyplatformWB.DisplayName,简易平台,56
+Lapantouflemagic.CrappyplatformWB_brown.DisplayName,橡木简易平台,57
+Lapantouflemagic.CrappyplatformWB_birch.DisplayName,桦木简易平台,58
+Lapantouflemagic.CrappyplatformWB_scramble.DisplayName,混合简易平台,59
+Lapantouflemagic.CrappyplatformWB.Description,用原木建造的简易平台，可以作为桥梁，或者其他建筑的地基。,60
+Lapantouflemagic.CrappyplatformWB.FlavorDescription,“这是我们需要教育的另一个原因。”——海狸学者,61
+Luc.crappyWaterWheel.DisplayName,简易水轮,62
+Luc.crappyWaterWheel.Description,可把流水变成能量的小型机械。粗糙简陋的水轮。,63
+Luc.crappyWaterWheel.FlavorDescription,光是轮子与转轴的摩擦生热，没着火已经是奇迹了！,64
+Lapantouflemagic.Crappywindmill3.DisplayName,3米空中风车,65
+Lapantouflemagic.Crappywindmill3.Description,简易的小风车。<br><color=#FFFF00>必须建造在高出地面3米及以上的位置。</color>,66
+Lapantouflemagic.Crappywindmill3.FlavorDescription,“我们玩水不玩风，给我住手！”——探索队队长,67
+Lapantouflemagic.Crappywindmill6.DisplayName,6米空中风车,68
+Lapantouflemagic.Crappywindmill6.Description,简易的小风车。<br><color=#FFFF00>必须建造在高出地面6米及以上的位置。</color>,69
+Lapantouflemagic.Crappywindmill6.FlavorDescription,“不能做出违背祖宗的决定！”——探索队队长,70
+Lapantouflemagic.Crappywindmill9.DisplayName,9米空中风车,71
+Lapantouflemagic.Crappywindmill9.Description,简易的小风车。<br><color=#FFFF00>必须建造在高出地面9米及以上的位置。</color>,72
+Lapantouflemagic.Crappywindmill9.FlavorDescription,“还越建越高了，你是要造反？”——探索队队长,73
+Lapantouflemagic.Crappywindmill12.DisplayName,12米空中风车,74
+Lapantouflemagic.Crappywindmill12.Description,简易的小风车。<br><color=#FFFF00>必须建造在高出地面12米及以上的位置。</color>,75
+Lapantouflemagic.Crappywindmill12.FlavorDescription,“我们中出了一个叛徒！”——探索队队长,76
+Luc.watertightlodge.DisplayName,长型木屋,86
+Luc.watertightlodge.Description,很长的房子。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,87
+Luc.watertightlodge.FlavorDescription,“又长又防水，嗯……”,88
+Lapantouflemagic.doublewatertightlodge.DisplayName,双重木屋,89
+Lapantouflemagic.doublewatertightlodgeBottom.Description,能住进两户家庭的中型房子。<br><color=#00FF00>可雇佣2名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,91
+Lapantouflemagic.doublewatertightlodge.FlavorDescription,“我们能养活那么多海狸吗？”——海狸农民,92
+Lapantouflemagic.triplewatertightlodge.DisplayName,三重木屋,93
+Lapantouflemagic.triplewatertightlodge.FlavorDescription,“我们的狸口快要失控了！”——海狸农民,95
+Luc.Gnawingtent.DisplayName,木匠铺,102
+Luc.Gnawingtent.Description,用牙齿啃咬原木，能获得木板、木制机轴或木屑。,103
+Luc.Gnawingtent.FlavorDescription,“我们需要一种更好的锯木方式。”——海狸牙医,104
+Luc.primitiveironworks.DisplayName,铁匠铺,105
+Luc.primitiveironworks.Description,用煤矿熔炼金属废料，能获得铁钉、铁锯或铁制工具。<br><color=#FF6600>拆除初始地区中心可获得第一个铁砧来建造。</color>,106
+Luc.primitiveironworks.FlavorDescription,“还好这不是咬出来的。”——海狸牙医,107
+Luc.primitivepapermill.DisplayName,纸匠铺,108
+Luc.primitivepapermill.Description,将木屑浸润后用松脂定型，能获得纸。<br><color=#FF6600>拆除初始地区中心可获得第一个铁锅来建造。</color>,109
+Luc.primitivepapermill.FlavorDescription,“从美食的角度看，这就是一种汤。”——疯厨师玛蒂,110
+Luc.sawmill.DisplayName,锯木厂,111
+Luc.sawmill.Description,用机器驱动的铁锯切割原木，能高效地获得木板和木屑。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,112
+Luc.sawmill.FlavorDescription,“新技术很好，希望锯片不会割伤你们。”——海狸祖母,113
+Lapantouflemagic.largefarmhouse.DisplayName,农业培育所,114
+Lapantouflemagic.largefarmhouse.FlavorDescription,“农田生产合作社是个好东西！”——海狸农民,115
+Lapantouflemagic.Mushroomtent.DisplayName,蘑菇房,116
+Lapantouflemagic.Mushroomtent.Description,用水或恶水浇灌腐木，能获得蘑菇或致幻菇。,117
+Lapantouflemagic.Mushroomtent.FlavorDescription,“我可以吃这个红白相间的吗？看起来很好吃。”——笨蛋鲍比的遗言,118
+Lapantouflemagic.Cookingtent.DisplayName,烹饪帐篷,119
+Lapantouflemagic.Cookingtent.Description,小型的户外烹饪场所，能制作各种料理。<br><color=#FF6600>建造黏土坑和炭火炉来制造瓦锅。</color>,120
+Lapantouflemagic.Cookingtent.FlavorDescription,“有了这个，我能将各种食材做成好吃的料理！”——疯厨师玛蒂,121
+Luc.IndustrialKitchen.DisplayName,工业化烹饪厨房,122
+Luc.IndustrialKitchen.Description,为整个聚居地服务的大型室内烹饪场所，能制作各种料理。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,123
+Luc.IndustrialKitchen.FlavorDescription,据说，有一个厨师在这里想到了最美味的料理，出去寻找食材后再也没有回来过。,124
+Luc.Library.DisplayName,图书展览馆,125
+Luc.Library.FlavorDescription,“图书是什么，能吃吗？”——笨蛋鲍比,126
+Luc.Architect.DisplayName,建筑设计所,127
+Luc.Architect.Description,建筑师专心工作的场所，能撰写各类建筑设计图，或者制作脚手架。<br><color=#FFFF00>可作为大型木楼梯使用。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,128
+Luc.Architect.FlavorDescription,“建筑师懂个屁的构造力学。”——某匿名机械师,129
+Luc.Engineer.DisplayName,机械设计所,130
+Luc.Engineer.Description,机械师专心工作的场所，能撰写各类机械设计图，或者制作齿轮。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,131
+Luc.Engineer.FlavorDescription,“机械师懂个屁的外观美学。”——某匿名建筑师,132
+Building.PlankTank.DisplayName,扩容小型储水罐,136
+Building.PlankTank.Description,储存液体。,137
+Lapantouflemagic.NewLido.Description,在水边休憩玩耍的完美地点。,138
+Lapantouflemagic.WaterDump.Description,在水池区里增加一个排放处，可以往水池中排放液体，与水池区共用出入口。<br><color=#FFFF00>必须建造在水池区专用位置上。</color>,139
+Lapantouflemagic.Superplatform2x2Metal.DisplayName,超级平台 2x2,151
+Lapantouflemagic.Superplatform2x3Metal.DisplayName,超级平台 2x3,152
+Lapantouflemagic.Superplatform3x4Metal.DisplayName,超级平台 3x4,153
+Lapantouflemagic.GazTank.DisplayName,高压气罐,154
+Lapantouflemagic.GazTank.Description,储存气体，包括天然气、氢气和冷冻气。,155
+Lapantouflemagic.GazTank.FlavorDescription,“嘿嘿，这里面有我放的屁。”——海狸爷爷,156
+Building.GiantBuriedTank.FlavorDescription,“我能在里面边游泳边喝饮料吗？”——笨蛋鲍比,157
+Lapantouflemagic.IrrigationTower2.DisplayName,中级灌溉塔,158
+Lapantouflemagic.Injury.DeathMessage,<color=#00FF00>不小心被重型机械吞掉了。</color>,159
+Need.Misery.DisplayName,腹胀,160
+Need.Misery.CriticalDescriptionShort,乱炖,161
+Need.Misery.CriticalDescription,这只海狸感到恶心。,162
+Need.Misery.DeathMessage,<color=#00FF00>死于摄入过多不宜食用的东西。/color>,163
+Need.Stew.DisplayName,炖菜,164
+Need.Disgustingfood.DisplayName,食物中毒,165
+Need.Disgustingfood.CriticalDescription,这只海狸感到恶心。,166
+Need.Disgustingfood.CriticalDescriptionShort,蘑菇汁,167
+Need.Disgustingfood.DeathMessage,<color=#00FF00>死于摄入过多不宜食用的东西。</color>,168
+Need.Amazingfood.DisplayName,豪华大餐,169
+Need.Mushrooms.DisplayName,蘑菇,170
+Need.Minedeath.DisplayName,死于矿井,171
+Need.Minedeath.DeathMessage,<color=#00FF00>死于冒险进入未知隧道导致的过度惊吓。</color>,172
+Need.Juice.DisplayName,果汁,173
+Need.Coconut.DisplayName,椰子,174
+Need.Ananas.DisplayName,凤梨,175
+Good.WaterWheelBlueprint.DisplayName,大水轮机械设计图,182
+Good.WaterWheelBlueprint.PluralDisplayName,大水轮机械设计图,183
+Good.WaterWheelFancyBlueprint.DisplayName,大水轮机械效果图,206
+Good.WaterWheelFancyBlueprint.PluralDisplayName,大水轮机械效果图,215
+Good.LargeFarmhouseBlueprint.DisplayName,农业培育所建筑设计图,186
+Good.LargeFarmhouseBlueprint.PluralDisplayName,农业培育所建筑设计图,187
+Good.LargeFarmhouseFancyBlueprint.DisplayName,农业培育所建筑效果图,208
+Good.LargeFarmhouseFancyBlueprint.PluralDisplayName,农业培育所建筑效果图,217
+Good.GiantBuriedTankBlueprint.DisplayName,埋藏储水罐建筑设计图,194
+Good.GiantBuriedTankBlueprint.PluralDisplayName,埋藏储水罐建筑设计图,195
+Good.GiantBuriedTankFancyBlueprint.DisplayName,埋藏储水罐建筑效果图,196
+Good.GiantBuriedTankFancyBlueprint.PluralDisplayName,埋藏储水罐建筑效果图,197
+Reciepe.LargeFarmhouseBlueprintCopy.DisplayName,农业培育所,225
+Reciepe.WaterWheelBlueprintCopy.DisplayName,大水轮,229
+Reciepe.GiantBuriedTankBlueprintCopy.DisplayName,埋藏储水罐,232
+Reciepe.Charcoal.DisplayName,煤矿,236
+Reciepe.Chestnutflour.DisplayName,栗子粉,237
+Reciepe.HomebrewAlcohol.DisplayName,酒精,238
+Reciepe.FoodDelivery.DisplayName,食物供应,239
+reciepe.Iron6Coal4.PluralDisplayName,铁矿60%：煤矿40%,240
+reciepe.Iron4Coal6.PluralDisplayName,铁矿40%：煤矿60%,241
+Good.BadCogs.PluralDisplayName,粗制齿轮,242
+Good.BadPlank.DisplayName,木板,243
+Good.BadPlank.PluralDisplayName,木板,244
+Good.Sawdust.PluralDisplayName,木屑,245
+Good.Sawdust.DisplayName,木屑,246
+Good.Mushrooms.DisplayName,蘑菇,247
+Good.Mushrooms.PluralDisplayName,蘑菇,248
+Good.Mushrooms1.PluralDisplayName,低效蘑菇,249
+Good.Mushrooms2.PluralDisplayName,高效蘑菇,250
+Good.Awfulstew.DisplayName,乱炖,251
+Good.Awfulstew.PluralDisplayName,乱炖,252
+Good.Stew.DisplayName,炖菜,253
+Good.Deluxestew.DisplayName,豪华炖菜,264
+Good.Deluxestew.PluralDisplayName,豪华炖菜,265
+Good.Deluxestew1.DisplayName,豪华炖菜,266
+Good.Deluxestew1.PluralDisplayName,豪华炖菜,267
+Good.Sunfloweroil.DisplayName,葵花籽油,268
+Good.Sunfloweroil.PluralDisplayName,葵花籽油,269
+Good.Nitroglycerin.DisplayName,硝化甘油,270
+Good.Nitroglycerin.PluralDisplayName,硝化甘油,271
+Good.Tar.DisplayName,黑焦油,272
+Good.Tar.PluralDisplayName,黑焦油,273
+Good.Ironore.DisplayName,铁矿,274
+Good.Ironore.PluralDisplayName,铁矿,275
+Good.Saltpeter.DisplayName,硝矿,276
+Good.Saltpeter.PluralDisplayName,硝矿,277
+Good.coal.DisplayName,煤矿,278
+Good.coal.PluralDisplayName,煤矿,279
+Good.Fossil.DisplayName,化石,280
+Good.Fossil.PluralDisplayName,化石,281
+Good.Crudesawblade.DisplayName,铁锯,282
+Good.Crudesawblade.PluralDisplayName,铁锯,283
+Good.Steelsawblade.DisplayName,精制铁锯,284
+Good.Steelsawblade.PluralDisplayName,精制铁锯,285
+Good.Anvil.DisplayName,铁砧,286
+Good.Anvil.PluralDisplayName,铁砧,287
+Good.Qualityaxle.DisplayName,精制木制机轴,288
+Good.Qualityaxle.PluralDisplayName,精制木制机轴,289
+Good.Wellbalancedwheel.DisplayName,平衡轮,290
+Good.Wellbalancedwheel.PluralDisplayName,平衡轮,291
+Good.Screwaxle.DisplayName,木制机轴,292
+Good.Screwaxle.PluralDisplayName,木制机轴,293
+Good.Metalfixation.DisplayName,铁钉,294
+Good.Metalfixation.PluralDisplayName,铁钉,295
+Good.Educativebooks.DisplayName,资料库,296
+Good.Educativebooks.PluralDisplayName,资料库,297
+Good.Smallcauldron.DisplayName,小锅,298
+Good.Smallcauldron.PluralDisplayName,小锅,299
+Good.Largecauldron.DisplayName,大锅,300
+Good.Largecauldron.PluralDisplayName,大锅,301
+Good.ScrapMetal1.DisplayName,矿石熔炼,302
+Good.ScrapMetal1.PluralDisplayName,矿石熔炼,303
+Good.Pencils.DisplayName,铅笔,304
+Good.Pencils.PluralDisplayName,铅笔,305
+Good.Carrotjuice.DisplayName,胡萝卜汁,306
+Good.Carrotjuice.PluralDisplayName,胡萝卜汁,307
+Good.Berryjuice.DisplayName,浆果汁,308
+Good.Berryjuice.PluralDisplayName,浆果汁,309
+Good.Shroomjuice.DisplayName,蘑菇汁,310
+Good.Shroomjuice.PluralDisplayName,蘑菇汁,311
+Good.Anvilmold.DisplayName,铁砧模具,312
+Good.Anvilmold.PluralDisplayName,铁砧模具,313
+Good.Scauldronmold.DisplayName,小锅模具,314
+Good.Scauldronmold.PluralDisplayName,小锅模具,315
+Good.Rail.DisplayName,轨道,316
+Good.Rail.PluralDisplayName,轨道,317
+Good.Librarybooks.DisplayName,图书,318
+Good.Librarybooks.PluralDisplayName,图书,319
+Good.Coconut.DisplayName,椰子,320
+Good.Coconut.PluralDisplayName,椰子,321
+Good.Ananas.DisplayName,凤梨,322
+Good.Ananas.PluralDisplayName,凤梨,323
+Good.Seashells.DisplayName,贝壳,324
+Good.Seashells.PluralDisplayName,贝壳,325
+Good.Shellnecklace.DisplayName,手工项链,326
+Good.Shellnecklace.PluralDisplayName,手工项链,327
+Good.Methane.DisplayName,天然气,328
+Good.Methane.PluralDisplayName,天然气,329
+Good.Alcohol.DisplayName,酒精,330
+Good.Alcohol.PluralDisplayName,酒精,331
+Good.ExoticSeeds.DisplayName,奇异种子,332
+Good.ExoticSeeds.PluralDisplayName,奇异种子,333
+Good.BrokenGlass.DisplayName,碎玻璃,334
+Good.BrokenGlass.PluralDisplayName,碎玻璃,335
+Good.Pumpkin.DisplayName,南瓜,336
+Good.Pumpkin.PluralDisplayName,南瓜,337
+Lapantouflemagic.Pumpkin.Description,不需要过多劳作，但需要加以控制防止无序生长。种植时需预留空间，因为植物成熟后会超出种植范围。,338
+Lapantouflemagic.Pumpkin.FlavorDescription,“在每年最黑的夜晚，它们会张开发光的眼睛和嘴巴，吃掉最淘气的小海狸！”——海狸祖母的晚间故事,339
+TopBar.Special,耗材,340
+TopBar.Plan,图纸,341
+TopBar.Constructionmaterials,建材,342
+TopBar.Drinkable,饮料,343
+ToolGroups.village,采集和生产,344
+ToolGroups.Basicbuildings,基本建筑,345
+ToolGroups.intermediatebuildings,中级建筑,346
+ToolGroups.advancedbuildings,高级建筑,347
+ToolGroups.lightindustry,工业,348
+ToolGroups.heavyindustrybuildings,先进工业,349
+ToolGroups.Damhouses,水坝和住房,350
+Luc.notutorial.warning,<color=#FF0000>此模组与游戏教程不兼容。</color>,351
+Luc.Loglevee.Description,黏土和原木做成的防洪堤。由于技术落后，需要紧贴河岸防止被冲散，并且无法叠放。<br><color=#FFFF00>必须建造在泥土块侧面。</color>,352
+Lapantouflemagic.primitivedam.FlavorDescription,“其实看起来还不错。”——神尾海狸,353
+Lapantouflemagic.4Wdistrictcenter.DisplayName,四门地区中心,355
+Lapantouflemagic.Unstorablestorage.DisplayName,不可储存的资源,356
+Lapantouflemagic.StorageHouseW.DisplayName,住房式储水罐,357
+Lapantouflemagic.StorageHouseW.Description,储存液体，同时能作为住房。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,358
+Lapantouflemagic.StorageHouseW.FlavorDescription,“对不起，我忍不住了……我要把它建成能住的房子！”——海狸建筑师,359
+Lapantouflemagic.StorageHouseB.DisplayName,住房式仓库,360
+Lapantouflemagic.StorageHouseB.Description,储存物品，同时能作为住房。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,361
+Lapantouflemagic.StorageHouseB.FlavorDescription,“我们学会了人类的建筑规律：把房子建得方方正正的。”——海狸建筑师,362
+Lapantouflemagic.KitchenModule.DisplayName,工业化烹饪厨房升级：拓展,363
+Lapantouflemagic.KitchenModule.Description,基于工业化烹饪厨房的拓展升级模块，可以独立制作料理。<br><color=#FFFF00>必须建造在工业化烹饪厨房上。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,364
+Lapantouflemagic.KitchenModule.FlavorDescription,“让不会做饭的我来管理这些会做饭的机器？一定有哪里出了问题。”,365
+Lapantouflemagic.BIT.DisplayName,科学工程院,366
+Lapantouflemagic.BIT.FlavorDescription,鲍比从不靠近这里，因为这里没有图书，而且会被海狸科学家们抓去做研究。,367
+Lapantouflemagic.triplewatertightlodgeBottom.DisplayName,三重木屋,368
+Lapantouflemagic.triplewatertightlodgeBottom.Description,能住进两户家庭的的大房子。<br><color=#00FF00>可雇佣5名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,369
+Lapantouflemagic.triplewatertightlodgeBottom.FlavorDescription,“我们的狸口快要失控了！”——海狸农民,370
+Lapantouflemagic.DeepWaterPumpUpgrade.DisplayName,深水泵升级：拓展,371
+Lapantouflemagic.DeepWaterPumpUpgrade.FlavorDescription,“嗯……好像可以把深水泵当做水坝来用？”,372
+Lapantouflemagic.waterpumpUpgrade.DisplayName,水泵升级：拓展,373
+Lapantouflemagic.waterpumpUpgrade.FlavorDescription,只可惜管子短了点，灵感也少了点。,374
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.DisplayName,深水泵升级：封闭,375
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.Description,在深水泵上增加半边屋顶进行封闭。<br><color=#FFFF00>必须建造在深水泵上。</color><br><color=#FF6600>难以对准方向时请拉近或旋转视角。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,376
+Lapantouflemagic.DeepWaterpumpupgradewallsegment.FlavorDescription,“我们是文明人，好好建水坝，别想着用深水泵！”,377
+Lapantouflemagic.Waterpumpupgradewallsegment.DisplayName,水泵升级：封闭,378
+Lapantouflemagic.Waterpumpupgradewallsegment.Description,在深水泵上增加半边屋顶进行封闭。<br><color=#FFFF00>必须建造在水泵上。</color><br><color=#FF6600>难以对准方向时请拉近或旋转视角。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,379
+Lapantouflemagic.Waterpumpupgradewallsegment.FlavorDescription,“如果把两个屋顶拼在一起……” “他没灵感了！快灌水！”,380
+Good.IndustrialKitchenFancyBlueprint.DisplayName,工业烹饪厨房效果图,381
+Good.IndustrialKitchenFancyBlueprint.PluralDisplayName,工业烹饪厨房效果图,382
+Good.ComicBooks.DisplayName,漫画,383
+Good.ComicBooks.PluralDisplayName,漫画,384
+Lapantoufemagic.ComicsSegment.DisplayName,漫画书屋,385
+Lapantoufemagic.ComicsSegment.Description,让海狸安心阅读漫画的舒适场所。,386
+Lapantoufemagic.ComicsSegment.FlavorDescription,“最后，世界又一次被拯救了。”,387
+Lapantouflemagic.Lightgravitybattery.DisplayName,轻型重力电池,388
+Lapantouflemagic.Lightgravitybattery.Description,存储剩余的电能，并在网络供电不足时将其返还。建得越高，可以储存的电能就越多。<br><color=#FF6600>储能单元为木材，容量较小。</color>,389
+Lapantouflemagic.Lightgravitybattery.FlavorDescription,惩罚海狸宝宝的一种方法就是让它在上面呆一天。,390
+Good.Scaffolding.DisplayName,脚手架,394
+Good.Scaffolding.PluralDisplayName,脚手架,395
+Good.Balloon.DisplayName,手工气球,396
+Good.Balloon.PluralDisplayName,手工气球,397
+Good.Clay.DisplayName,黏土,398
+Good.Clay.PluralDisplayName,黏土,399
+Good.MeanFlower.DisplayName,荆棘花,400
+Good.MeanFlower.PluralDisplayName,荆棘花,401
+Good.Cabbage2.DisplayName,卷心菜,402
+Good.Cabbage2.PluralDisplayName,卷心菜,403
+Lapantouflemagic.Brambles.FlavorDescription,顽强的生命力，足以长满整个世界。,405
+Lapantouflemagic.Cabbage.DisplayName,卷心菜,406
+Lapantouflemagic.Cabbage.FlavorDescription,“如果你咬了一口，那就得全部吃掉。”——海狸祖母,407
+Lapantouflemagic.GiantSequoia.DisplayName,巨杉,408
+Lapantouflemagic.GiantSequoia.FlavorDescription,哇哦，我们能用它建超高的房子！,409
+Good.RedGrapes.DisplayName,葡萄,410
+Good.RedGrapes.PluralDisplayName,葡萄,411
+Lapantouflemagic.grapevine.DisplayName,葡萄藤,412
+Lapantouflemagic.NewVine.FlavorDescription,噢，文明的象征，如此香甜。,413
+Lapantouflemagic.Rice.DisplayName,水稻,417
+Lapantouflemagic.Rice.FlavorDescription,不要在水稻田里玩泥巴。,418
+Good.Rice.DisplayName,大米,419
+Good.Rice.PluralDisplayName,大米,420
+Good.FriedRice.DisplayName,炒饭,421
+Good.FriedRice.PluralDisplayName,炒饭,422
+Good.ChestnutStew.DisplayName,炖蘑菇,423
+Good.ChestnutStew.PluralDisplayName,炖蘑菇,424
+Good.GreenStew.DisplayName,炖蔬菜,425
+Good.GreenStew.PluralDisplayName,炖蔬菜,426
+NaturalResource.PinkBirch.DisplayName,椿树,428
+Lapantouflemagic.SpaciousHouse.DisplayName,宽排木屋,430
+Good.BraisedCabbage.PluralDisplayName,焖卷心菜,433
+Good.BraisedCabbage.DisplayName,焖卷心菜,434
+Lapantouflemagic.2x2LousyWarehouse.DisplayName,中型露天仓库,435
+Lapantouflemagic.2x2LousyWarehouse.Description,储存物品。,436
+Lapantouflemagic.2x2LousyWarehouse.FlavorDescription,“你管这叫建筑？这只是一圈栏杆！”——海狸建筑工,437
+Lapantouflemagic.LousyWarehouseS.DisplayName,小型露天仓库,438
+Lapantouflemagic.LousyWarehouseS.Description,储存物品。,439
+Lapantouflemagic.LousyWarehouseS.FlavorDescription,“我不会把时间浪费在这种东西上！”——海狸建筑工,440
+Lapantouflemagic.Cabbage2.DisplayName,卷心菜,441
+Lapantouflemagic.Cabbage2.FlavorDescription,尝起来像卷心菜，那就是卷心菜。,442
+NaturalResource.PinkBirch.FlavorDescription,“棉花糖是什么？为什么叫它棉花糖树？”——海狸农民,443
+Lapantouflemagic.FoodPlaza.DisplayName,聚会帐篷 ,444
+Good.Salt.DisplayName,盐矿,445
+Good.Salt.PluralDisplayName,盐矿,446
+Good.ZauerKraut.DisplayName,酸菜,447
+Good.ZauerKraut2.DisplayName,桶清洁,448
+Good.ZauerKraut.PluralDisplayName,酸菜,449
+Lapantouflemagic.GreaterCookingtent.DisplayName,聚会帐篷,450
+Lapantouflemagic.GreaterCookingtent.FlavorDescription,“厨师总是对菜式有自己的看法，有一天，三名炖菜大师聚在一起，争论哪种炖菜最有营养，随后便是被称为“炖菜大战”的事件。孩子们，不要让这种事再次发生了！”——海狸爷爷,451
+Lapantouflemagic.GreenPeas.DisplayName,青豆,452
+Lapantouflemagic.GreenPeas.FlavorDescription,“新鲜的青豆非常有营养。”——海狸祖母,453
+Lapantouflemagic.NewWaterPump.Description,抽取并过滤供海狸饮用的水。恶水污染会降低其抽取速度。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,454
+Good.MediumCauldron.DisplayName,铁锅,456
+Good.MediumCauldron.PluralDisplayName,铁锅,457
+Need.Filth.CriticalDescription,满身污垢。,458
+Need.Filth.CriticalDescriptionShort,海狸太脏了,459
+Good.Toys.DisplayName,手工玩具,460
+Good.Toys.PluralDisplayName,手工玩具,461
+Lapantouflemagic.ClayPot.DisplayName,瓦锅,462
+Lapantouflemagic.ClayPot.PluralDisplayName,瓦锅,463
+Lapantouflemagic.Filth.DisplayName,清洁身体,464
+Lapantouflemagic.ClayPit.DisplayName,黏土坑,465
+Lapantouflemagic.ClayPit.Description,在河岸边挖掘筛选，能获得黏土，或者淘洗泥土获得碎金。,466
+Lapantouflemagic.ClayPit.FlavorDescription,“我脏了，洗不干净了……”——海狸黏土工,467
+Lapantouflemagic.Foundry.DisplayName,炼矿厂,468
+Lapantouflemagic.Foundry.FlavorDescription,“只要火焰够大，什么都能烧掉！”——海狸炼铁工,469
+Lapantouflemagic.RiverBath.DisplayName,公共洗浴处,470
+Lapantouflemagic.RiverBath.Description,充分利用空间的水中澡堂，能让许多海狸一起冲凉。,471
+Lapantouflemagic.RiverBath.FlavorDescription,“我要这个水桶！” “不要，这个是我的！”,472
+Lapantouflemagic.KitchenHouse.DisplayName,机械化厨房,473
+Lapantouflemagic.KitchenHouse.FlavorDescription,“如果你只想用机器偷懒，不想自己学做菜，我就会用机器把你做成菜！”——疯厨师玛蒂,474
+Lapantouflemagic.Florist.DisplayName,园艺房,475
+Lapantouflemagic.Florist.Description,可以堆叠的屋子，有一条装饰过的高架走道。只能种植装饰性的花朵，但有助于收获。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,476
+Lapantouflemagic.Florist.FlavorDescription,“有些小海狸会在农田里偷吃，要记得收割作物！”——海狸祖母,477
+Lapantouflemagic.Overhang.DisplayName,悬挑平台,478
+Lapantouflemagic.Overhang.FlavorDescription,“我、我不恐高！”——笨蛋鲍比,479
+Lapantouflemagic.CornerOverhang.DisplayName,转角悬挑平台,480
+Lapantouflemagic.CornerOverhang.FlavorDescription,“不要让我看下面！”——笨蛋鲍比,481
+Lapantouflemagic.Decoshroom.DisplayName,蘑菇装饰,482
+Lapantouflemagic.Decoshroom.FlavorDescription,他们说这些不能吃，但其实可以吃，不过每只海狸都只能吃一次，哈哈。,483
+Lapantouflemagic.RPG.PluralDisplayName,桌面游戏,484
+Lapantouflemagic.FarmUpgradeA.DisplayName,阁楼式升级：建筑,485
+Lapantouflemagic.FarmUpgradeA.FlavorDescription,“下班之后回家休息是很不错，不过有了孩子之后，还是单独的办公室更好一些。”——海狸建筑工,487
+Lapantouflemagic.FarmUpgradeB.DisplayName,阁楼式升级：搬运,488
+Lapantouflemagic.FarmUpgradeB.FlavorDescription,“为什么要记录仓库里有多少卷心菜？应该由专业的统计员来干这个！”——海狸搬运工,490
+Lapantouflemagic.FarmUpgradeC.DisplayName,阁楼式升级：桌游,491
+Lapantouflemagic.FarmUpgradeC.FlavorDescription,“你到达了隧道尽头，见到了恐怖的幕后主使……现在进行一次意志豁免检定，否则受到2d6的伤害！”——桌游《海狸与地下隧道》,493
+Building.GiantBuriedTank.DisplayName,埋藏储水罐,495
+Lapantouflemagic.FarmUpgradeD.DisplayName,阁楼式升级：收割,496
+Lapantouflemagic.FarmUpgradeD.FlavorDescription,“应该考虑用机器代替农民工作了。”——海狸工程师,497
+Lapantouflemagic.GathererHouse.DisplayName,采集工棚屋,498
+Lapantouflemagic.GathererHouse.Description,雇佣采集工，能高效地采集资源。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,499
+Lapantouflemagic.GathererHouse.FlavorDescription,“你敢满身污泥和浆果汁地走进房子里，我就敢把你丢进河里好好冲个澡！”,500
+Lapantouflemagic.LumberjackHouse.DisplayName,伐木工棚屋,501
+Lapantouflemagic.LumberjackHouse.Description,雇佣伐木工，能高效地砍伐树木。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,502
+Lapantouflemagic.LumberjackHouse.FlavorDescription,“我的爸爸是最强壮的！他可以扛起一整棵巨杉！”,503
+Lapantouflemagic.PassthroughHouse.DisplayName,直通木屋,504
+Lapantouflemagic.PassthroughHouse.Description,能住进一户家庭的房子，同时海狸可以直接通过。<br><color=#00FF00>可雇佣1名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,505
+Lapantouflemagic.PassthroughHouse.FlavorDescription,“羡慕我们居住空间更大？不不，大部分都被烦人的防水机器占据了，幸好晚上几乎没人用。”,506
+Lapantouflemagic.TappersFlag.DisplayName,树液工旗帜,507
+Lapantouflemagic.TappersFlag.Description,从松树上采集松脂，或者修剪巨杉获得原木。,508
+Lapantouflemagic.TappersFlag.FlavorDescription,“这个工作需要非常专业的技巧，不然松脂会沾满你的毛发，那感觉可不太舒服。”——海狸树液工,509
+Lapantouflemagic.TallPlatform.DisplayName,高平台,510
+Lapantouflemagic.LitteralDoubleplatform.FlavorDescription,“不，这不是两个叠在一起的平台，那是违背祖制的！”——海狸工程师,511
+Good.FreshwaterWeed.DisplayName,海带,512
+Good.FreshwaterWeed.PluralDisplayName,海带,513
+Lapantouflemagic.MechanizedSeaweedfarm.DisplayName,自动化农场,514
+Lapantouflemagic.ClockworkWaterFarmBlueprint.DisplayName,自动化农场设计图,515
+Lapantouflemagic.ClockworkWaterFarmBlueprint.PluralDisplayName,自动化农场设计图,516
+Lapantouflemagic.ClockworkWaterFarmBlueprint.Fancy.DisplayName,自动化农场效果图,517
+Lapantouflemagic.ClockworkWaterFarmBlueprint.Fancy.PluralDisplayName,自动化农场效果图,518
+Lapantouflemagic.MechanizedSeaweedfarm.Description,复杂而精妙的大型机械，仅需能量便能生产作物。<br><color=#99FF00>需要搬运工。</color><br><color=#FF6600>在科学工程院制作自动化控件。</color>,519
+Lapantouflemagic.MechanizedSeaweedfarm.FlavorDescription,“海狸工程学第一条，不要认真研究原理。”——海狸爷爷,520
+Lapantouflemagic.NEWPaperMill.Description,用机器搅拌木屑浆并晾干，能高效地获得纸。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,521
+Lapantouflemagic.SmallAquiferPump.DisplayName,小型地下水泵,522
+Lapantouflemagic.SmallAquiferPump.Description,使用机器从地下抽取并过滤供海狸饮用的水。<br><color=#99FF00>需要搬运工。</color>,523
+Lapantouflemagic.SmallAquiferPump.FlavorDescription,“伟大的发明！只要有足够的能量，就有源源不断的水！”——海狸工程师,524
+Lapantouflemagic.MechanicalDrill.DisplayName,钻探机,525
+Lapantouflemagic.IronMechanicalDrill.DisplayName,铁矿钻探机,526
+Lapantouflemagic.MechanicalDrillBlueprint.Fancy.DisplayName,钻探机机械效果图,527
+Lapantouflemagic.MechanicalDrillBlueprint.Fancy.PluralDisplayName,钻探机机械效果图,528
+Lapantouflemagic.MechanicalDrillBlueprint.DisplayName,钻探机机械设计图,529
+Lapantouflemagic.MechanicalDrillBlueprint.PluralDisplayName,钻探机机械设计图,530
+Lapantouflemagic.IronMechanicalDrill.Description,用机器驱动螺旋钻头挖掘矿洞，能高效地获得铁矿和泥土，以及作为副产物的废石。<br><color=#FFFF00>标志旗必须建造在地面上，可依附于3米高的悬崖。</color>,531
+Lapantouflemagic.IronMechanicalDrill.FlavorDescription,“只在一个地方钻孔，却能不断获得铁矿，太神奇了！”,532
+Lapantouflemagic.CoalMechanicalDrill.DisplayName,煤矿钻探机,533
+Lapantouflemagic.CoalMechanicalDrill.Description,用机器驱动螺旋钻头挖掘矿洞，能高效地获得煤矿和泥土，以及作为副产物的废石。<br><color=#FFFF00>标志旗必须建造在地面上，可依附于3米高的悬崖。</color>,534
+Lapantouflemagic.CoalMechanicalDrill.FlavorDescription,“如果钻机钻得太快，煤矿可能会爆炸，把山炸塌！”,535
+Lapantouflemagic.NEWGristmill.Description,用磨盘碾压原料，能制作生栗面、栗子粉或木屑。<br><color=#FF6600>周围会产生大量灰尘弄脏海狸。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,536
+Good.GreenUdon.DisplayName,生栗面,537
+Good.Hobbyplants.PluralDisplayName,植物栽培,538
+Lapantouflemagic.Hobbygardener.DisplayName,园艺房,539
+Lapantouflemagic.Hobbygardener.FlavorDescription,“想要快速培养这些植物，需要特别的种植环境，一定不能搞错。”——海狸园艺师,540
+Good.Drillbits.DisplayName,螺旋钻头,541
+Good.Drillbits.PluralDisplayName,螺旋钻头,542
+Lapantouflemagic.Factory.DisplayName,钢铁厂,543
+Lapantouflemagic.Factory.FlavorDescription,“制作一个铁砧需要用到另一个铁砧，那么第一个铁砧是哪里来的？”,544
+Lapantouflemagic.UselessPlant1.FlavorDescription,不，这个不能吃。,545
+Good.Quartz.DisplayName,硅矿,546
+Good.Quartz.PluralDisplayName,硅矿,547
+Good.ZauerKrautMix.DisplayName,混合酸菜,548
+Good.ZauerKrautMix.PluralDisplayName,混合酸菜,549
+Good.Kimchi.DisplayName,泡菜,550
+Good.Kimchi.PluralDisplayName,泡菜,551
+Good.RedSoda.DisplayName,荆棘水,552
+Good.RedSoda.PluralDisplayName,荆棘水,553
+Lapantouflemagic.Brewery.DisplayName,啤酒厂,554
+Lapantouflemagic.Brewery.Description,有大量发酵桶的综合建筑。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,555
+Lapantouflemagic.Brewery.FlavorDescription,“虽然蘑菇汁味道极差，但与其他东西混合后会有奇妙的变化，应该深入研究一下。”——海狸科学家,556
+Good.CoconutMilk.DisplayName,椰子汁,557
+Good.CoconutMilk.PluralDisplayName,椰子汁,558
+Lapantouflemagic.Smallcookhouse.DisplayName,烹饪厨房,559
+Lapantouflemagic.Smallcookhouse.FlavorDescription,“看到外面挂在棍子上的东西了吗？那不是土豆，是即将因为过于调皮而被挂起来的你！”——海狸爷爷,560
+Lapantouflemagic.Winery.DisplayName,发酵厂,564
+Lapantouflemagic.Winery.FlavorDescription,“鲍比，不准你在肚子饿的时候靠近这里！”,566
+NaturalResource.Waterbamboo.DisplayName,巨竹,569
+NaturalResource.Waterbamboo.FlavorDescription,如果时间足够长，也许能通过它爬上月亮。,570
+Blueprint.ENSGreen.DisplayName,科学工程院建筑图纸,571
+Blueprint.ENSGreen.PluralDisplayName,科学工程院建筑设计图,572
+Blueprint.ENSGreen.Fancy.DisplayName,科学工程院建筑图纸,573
+Blueprint.ENSGreen.Fancy.PluralDisplayName,科学工程院建筑效果图,574
+Blueprint.ENSBlue.DisplayName,科学工程院机械图纸,575
+Blueprint.ENSBlue.PluralDisplayName,科学工程院机械设计图,576
+Blueprint.ENSBlue.Fancy.DisplayName,科学工程院机械图纸,577
+Blueprint.ENSBlue.Fancy.PluralDisplayName,科学工程院机械效果图,578
+Lapantouflemagic.BachelorInMycology.DisplayName,农业许可证,579
+Lapantouflemagic.BachelorInMycology.PluralDisplayName,农业许可证,580
+Good.Mushrooms3.PluralDisplayName,蘑菇,581
+Lapantouflemagic.DomesticatedBerries.DisplayName,培育浆果,582
+Lapantouflemagic.DomesticatedBerries.FlavorDescription,“我们能用这些做出许多美味的糖果！”,583
+Lapantouflemagic.TreeNursery.DisplayName,林木培育所,584
+Lapantouflemagic.TreeNursery.FlavorDescription,“实际上，那些紫色的乱炖能用来当肥料。”,585
+Lapantouflemagic.MechanizedCabbagefarm.DisplayName,自动化卷心菜农场,586
+Lapantouflemagic.MechanizedSunflowerfarm.DisplayName,自动化向日葵农场,587
+Lapantouflemagic.MechanizedGreenPeasfarm.DisplayName,自动化青豆农场,588
+Reciepe.ChestnutBeerBarrel.DisplayName,栗子酒,589
+Good.ChestnutBeer.DisplayName,栗子酒,590
+Good.ChestnutBeer.PluralDisplayName,栗子酒,591
+Good.Wine.DisplayName,葡萄酒,592
+Good.Wine.PluralDisplayName,葡萄酒,593
+Good.Methane2.PluralDisplayName,天然气,594
+Good.ChestnutFlour.DisplayName,栗子粉,597
+Good.ChestnutFlour.PluralDisplayName,栗子粉,598
+Good.GrapeJuice.DisplayName,葡萄汁,599
+Good.GrapeJuice.PluralDisplayName,葡萄汁,600
+Building.GiantLogStorage.DisplayName,巨杉木料堆,601
+Building.GiantLogStorage.Description,储存巨型资源，包括巨型原木和巨型半原木。,602
+Building.GiantLogStorage.FlavorDescription,“那些伐木工是怎么做到的？”——海狸搬运工,603
+Good.GiantLog.DisplayName,巨型原木,604
+Good.GiantLog.PluralDisplayName,巨型原木,605
+Building.GiantLogFeller.DisplayName,巨杉伐木场,606
+Building.GiantLogFeller.Description,雇佣专业的伐木工，能砍伐巨杉获得巨型原木。,607
+Building.GiantLogFeller.FlavorDescription,“如果这些木头砸在头上，估计也不用去医院了。”——海狸伐木工,608
+Lapantouflemagic.StoragePiles.DisplayName,材料堆,609
+Lapantouflemagic.BoxStorage.DisplayName,仓库,610
+Lapantouflemagic.LiquidStorage.DisplayName,储水罐,611
+Good.WasteRock.DisplayName,废石,612
+Good.WasteRock.PluralDisplayName,废石,613
+Lapantouflemagic.Trebuchet.DisplayName,投石机,614
+Lapantouflemagic.Trebuchet.FlavorDescription,谁不想要一个老式投石机呢？,615
+Need.Trebuchetdeath.DisplayName,死于投石机,616
+Good.Grapes.DisplayName,葡萄,620
+Good.Iceblock.DisplayName,冰块,622
+Good.Iceblock.PluralDisplayName,冰块,623
+Good.Bones.DisplayName,海狸骨头,624
+Good.Bones.PluralDisplayName,海狸骨头,625
+Good.FrozenHumanMeat.DisplayName,冷冻肉块,626
+Good.FrozenHumanMeat.PluralDisplayName,冷冻肉块,627
+Good.Necronomicon.DisplayName,被诅咒的地狱之书,628
+Good.Necronomicon.PluralDisplayName,被诅咒的地狱之书,629
+Good.CursedScroll.DisplayName,被诅咒的魔法卷轴,630
+Good.CursedScroll.PluralDisplayName,被诅咒的魔法卷轴,631
+Lapantouflemagic.VillageJobs.DisplayName,林木和工作,632
+Good.BalloonPlatformBlueprint.DisplayName,气球起降台建筑设计图,633
+Good.BalloonPlatformBlueprint.PluralDisplayName,气球起降台建筑设计图,634
+Good.BalloonPlatformFancyBlueprint.DisplayName,气球起降台建筑效果图,635
+Good.BalloonPlatformFancyBlueprint.PluralDisplayName,气球起降台建筑效果图,636
+Lapantouflemagic.MasterInMetallurgy.DisplayName,冶炼许可证,637
+Lapantouflemagic.MasterInMetallurgy.PluralDisplayName,冶炼许可证,638
+Lapantouflemagic.NursingLicense.DisplayName,医疗资格证,639
+Lapantouflemagic.NursingLicense.PluralDisplayName,医疗资格证,640
+Good.GlassPane.DisplayName,玻璃板,641
+Good.GlassPane.PluralDisplayName,玻璃板,642
+Good.FriedPumpkinChips.DisplayName,南瓜干,643
+Good.FriedPumpkinChips.PluralDisplayName,南瓜干,644
+Lapantouflemagic.LargeFarmBubble.DisplayName,农业培育所升级：防水,645
+Lapantouflemagic.LargeFarmBubble.Description,在农业培育所周围增加一个玻璃棚屋，使其具有防水功能。<br><color=#FFFF00>必须建造在农业培育所上。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,646
+Lapantouflemagic.LargeFarmBubble.FlavorDescription,“玻璃的唯一缺点是容易碎。”——海狸爷爷,647
+Lapantouflemagic.TreeNurseryWatertightBubble.DisplayName,林木培育所升级：防水,648
+Lapantouflemagic.TreeNurseryWatertightBubble.FlavorDescription,“希望这次能建好一点，没那么容易碎。”——海狸祖母,649
+Lapantouflemagic.RestBed.DisplayName,医疗床,650
+Lapantouflemagic.RestBed.Description,受伤海狸休息的地方，根据伤病情况使用不同药物促进痊愈。,651
+Lapantouflemagic.Clinic.DisplayName,药物制造所,652
+Lapantouflemagic.Clinic.Description,使用不同材料进行医学研究，能制作各类药物。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,653
+Lapantouflemagic.Clinic.FlavorDescription,“感谢医生，感谢护士，感谢药剂师。”——康复的海狸,654
+Billboard.Newsboard.DisplayName,新闻广告牌,655
+Billboard.Newsboard.Description,一个展示此模组更新信息的广告牌。,656
+Good.NotHarvesable.PluralDisplayName,无法收割,657
+Good.NotHarvesable.DisplayName,无法收割,658
+Lapantouflemagic.UndergroundColdStorage.DisplayName,地下冷藏库,659
+Lapantouflemagic.UndergroundColdStorage.Description,储存冷冻物品，包括冰块和冷冻肉块。,660
+Lapantouflemagic.UndergroundColdStorage.FlavorDescription,“冰块和冻肉……噢，这里是存放尸体的地方吧？我完全明白了。”——开膛爪杰克,661
+Lapantouflemagic.MinorInjury.DisplayName,轻伤,662
+Lapantouflemagic.SevereInjury.DisplayName,重伤,663
+Lapantouflemagic.SevereInjury.CriticalDescription,严重受伤，需要药物,664
+Lapantouflemagic.SevereInjury.CriticalDescriptionShort,海狸严重受伤,665
+Lapantouflemagic.MinorBurns.DisplayName,烫伤,666
+Lapantouflemagic.MinorBurns.CriticalDescription,烫伤了,667
+Lapantouflemagic.MinorBurns.CriticalDescriptionShort,海狸烫伤了,668
+Lapantouflemagic.MinorBurns.DeathMessage,<color=#00FF00>死于烫伤导致的伤口感染。</color>,669
+Lapantouflemagic.MajorBurns.DisplayName,烧伤,670
+Lapantouflemagic.MajorBurns.CriticalDescription,严重烧伤，需要药物,671
+Lapantouflemagic.MajorBurns.CriticalDescriptionShort,海狸严重烧伤,672
+Lapantouflemagic.MajorBurns.DeathMessage,<color=#00FF00>死于严重烧伤导致的创伤性休克。</color>,673
+Lapantouflemagic.MildDisease.DisplayName,轻病,674
+Lapantouflemagic.MildDisease.CriticalDescription,患病了,675
+Lapantouflemagic.MildDisease.CriticalDescriptionShort,海狸患病了,676
+Lapantouflemagic.MildDisease.DeathMessage,<color=#00FF00>死于患病导致的脱水。</color>,677
+Lapantouflemagic.SevereDisease.DisplayName,重病,678
+Lapantouflemagic.SevereDisease.CriticalDescription,严重患病，需要药物,679
+Lapantouflemagic.SevereDisease.CriticalDescriptionShort,海狸严重患病,680
+Lapantouflemagic.SevereDisease.DeathMessage,<color=#00FF00>死于严重患病导致的器官衰竭。</color>,681
+Lapantouflemagic.Maimed.DisplayName,残疾,682
+Lapantouflemagic.Maimed.CriticalDescription,永久残疾，再也无法工作了,683
+Lapantouflemagic.Maimed.CriticalDescriptionShort,海狸残疾了,684
+Lapantouflemagic.LitteralDoublePlatform.Description,中间分层的高平台，可以作为桥梁，或者其它建筑的地基。,685
+Lapantouflemagic.FancyStorage.DisplayName,耗材保管箱,686
+Lapantouflemagic.FancyStorage.Description,储存部分耗材。,687
+Lapantouflemagic.FancyStorage.FlavorDescription,箱子经过特殊设计，能让里面的东西得到最好的保管。,688
+Good.Tools.DisplayName,铁制工具,689
+Good.Tools.PluralDisplayName,铁制工具,690
+Lapantouflemagic.Megaplatform.DisplayName,巨型平台,696
+Lapantouflemagic.Megaplatform.FlavorDescription,“为什么拆掉下面的建筑后，巨型平台不会倒塌？”“嘘，那只是幻影！”,697
+Lapantouflemagic.Verydeep_mine_elevator.DisplayName,地下升降机,698
+Lapantouflemagic.Verydeep_mine_elevator.FlavorDescription,“得了吧，不要像个小海狸一样害怕！这里能有什么危险？我甚至可以大笑，哈哈哈……啊啊啊啊啊！”,699
+Lapantouflemagic.NarrowLodge.DisplayName,单重木屋,700
+Lapantouflemagic.NarrowLodge.Description,能住进一户家庭的小房子，占地面积更小。<br><color=#00FF00>可雇佣1名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,701
+Lapantouflemagic.NarrowLodge.FlavorDescription,“这是能住的房子？一定是那群建筑师干的！”——海狸机械师,702
+Lapantouflemagic.MechanizedRicefarm.DisplayName,自动化水稻农场,703
+Lapantouflemagic.MasterInSupStrucEng.DisplayName,建筑许可证,709
+Lapantouflemagic.MasterInSupStrucEng.PluralDisplayName,建筑许可证,710
+Lapantouflemagic.WPBeaverStatue.FlavorDescription.Folktails,“这是对有限资源的最佳利用……”——探索队队长,712
+Lapantouflemagic.GiantPillar.DisplayName,巨型支柱,713
+Lapantouflemagic.GiantPillar.Description,巨大而坚固的支柱，用巨型原木建造而成。,714
+Lapantouflemagic.GiantPillar.FlavorDescription,一根大大的木头！,715
+Good.MintyBambooShoot.DisplayName,竹笋,716
+Good.MintyBambooShoot.PluralDisplayName,竹笋,717
+Lapantouflemagic.Deprecated.DisplayName,<color=#FF0000>弃用的实体</color>,718
+Lapantouflemagic.Deprecated.Description,<color=#FF0000>已被弃用的建筑模型，无任何作用。</color>,719
+Lapantouflemagic.Deprecated.FlavorDescription,<color=#FF0000>已被弃用的建筑模型，无任何作用。</color>,720
+Lapantouflemagic.BurnsWard.DisplayName,烧伤诊所,721
+Lapantouflemagic.BurnsWard.Description,专门治疗烫伤和烧伤的诊所，使用药物促进痊愈。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,722
+Lapantouflemagic.BurnsWard.FlavorDescription,“被烧焦的皮毛气味是有点难闻，但没事，抹上药物后会更难闻的。”——海狸医生,723
+Lapantouflemagic.InfectiousWard.DisplayName,疾病诊所,724
+Lapantouflemagic.InfectiousWard.Description,专门治疗感冒和高烧的诊所，使用药物促进痊愈。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,725
+Lapantouflemagic.InfectiousWard.FlavorDescription,“着凉？不不，实际上很多患者都是吃错东西导致生病的。”——海狸医生,726
+Lapantouflemagic.TraumatologyWard.DisplayName,创伤诊所,727
+Lapantouflemagic.TraumatologyWard.Description,专门治疗轻伤和重伤的诊所，使用药物促进痊愈。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,728
+Lapantouflemagic.TraumatologyWard.FlavorDescription,“这次又是哪里割伤了，手？头？什么，被巨型原木砸到了？”——海狸医生,729
+Lapantouflemagic.NormalWard.DisplayName,普通诊所,730
+Lapantouflemagic.NormalWard.Description,供身体不适但不算严重的海狸休息的诊所，使用食物促进恢复。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,731
+Lapantouflemagic.NormalWard.FlavorDescription,“我不是笨手笨脚，也不是想看护士，只是想偷个懒。”,732
+Good.FoodAndCare.DisplayName,康复套装,733
+Good.FoodAndCare.PluralDisplayName,康复套装,734
+Lapantouflemagic.BetterMedicine.DisplayName,清凉油,735
+Lapantouflemagic.BetterMedicine.PluralDisplayName,清凉油,736
+Lapantouflemagic.WaterCannon.DisplayName,机械喷射泵,737
+Lapantouflemagic.WaterCannon.FlavorDescription,“如果在它启动前爬进喷射口里……”——某只海狸的遗言,738
+Good.SiliconMetal.DisplayName,硅锭,739
+Good.SiliconMetal.PluralDisplayName,硅锭,740
+Lapantouflemagic.SolarArray.DisplayName,光伏发电站,741
+Lapantouflemagic.SolarArray.Description,根据人类的历史资料建造，通过光照产生能量，运作时需要海狸照看。,742
+Lapantouflemagic.SolarArray.FlavorDescription,“这玩意会产生一种叫“电”的东西，把它跟我们的传动系统连接起来可真是废了一番功夫。”——海狸科学家,743
+Lapantouflemagic.Unplantable.,无法种植,744
+Reciepe.GoldPanning.DisplayName,碎金,745
+Good.GoldDust.DisplayName,碎金,746
+Good.GoldDust.PluralDisplayName,碎金,747
+Good.GoldBar.DisplayName,金条,748
+Good.GoldBar.PluralDisplayName,金条,749
+Good.SurgeryKits.DisplayName,手术包,750
+Good.SurgeryKits.PluralDisplayName,手术包,751
+Good.AntibioticsAndDisinfectant.DisplayName,抗生素,752
+Good.AntibioticsAndDisinfectant.PluralDisplayName,抗生素,753
+Good.FrostBalm.DisplayName,镇痛膏,754
+Good.FrostBalm.PluralDisplayName,镇痛膏,755
+Lapantouflemagic.TankShower.DisplayName,储水沐浴处,756
+Lapantouflemagic.TankShower.Description,自带储水罐的沐浴处，让海狸能随时随地冲凉。,757
+Lapantouflemagic.TankShower.FlavorDescription,“省点水吧，这可都是能喝的……让一让，轮到我洗了。”,758
+Lapantouflemagic.HoomanRuins.DisplayName,探索废墟,759
+Lapantouflemagic.NEWForester.Description,雇佣林木工，能种植本土树木。<br><color=#FFFF00>高塔小屋，可以在上面建造升级建筑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,760
+Lapantouflemagic.Handicrafter.Description,对不同原料进行手动加工，能制作各种手工产品。<br><color=#FF6600>通过气球贸易可获得贝壳来制作手工项链。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,762
+Lapantouflemagic.TreeNurseryWatertightBubble.Description,在林木培育所周围增加一个玻璃棚屋，使其具有防水功能。<br><color=#FFFF00>必须建造在林木培育所上。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,763
+Lapantouflemagic.IrrigationTower.Description,灌溉周围的土地。耗水量高于液体排放处。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,764
+Lapantouflemagic.Smallcookhouse.Description,中型的室内烹饪场所，能制作各种料理。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,765
+Lapantouflemagic.KitchenHouse.Description,用机器辅助的烹饪厨房，能制作各种料理。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,766
+Lapantouflemagic.UselessPlant1.DisplayName,蕨草盆栽,767
+Lapantouflemagic.waterpumpUpgrade.Description,在两个相邻的水泵上增加一个水泵，出入口与左侧水泵重合。<br><color=#FFFF00>必须建造在相邻的水泵上。</color><br><color=#FF6600>难以对准方向时请拉近或旋转视角。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,768
+Lapantouflemagic.DeepWaterPumpUpgrade.Description,在两个相邻的深水泵上增加一个深水泵，出入口与左侧深水泵重合。<br><color=#FFFF00>必须建造在相邻的深水泵上。</color><br><color=#FF6600>难以对准方向时请拉近或旋转视角。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,769
+Good.HoomanRelic.DisplayName,操作文档,770
+Good.HoomanRelic.PluralDisplayName,操作文档,771
+Good.NuclearWaste.DisplayName,核废料,772
+Good.NuclearWaste.PluralDisplayName,核废料,773
+Lapantouflemagic.AdvancedSawmill.DisplayName,巨杉锯木厂,774
+Lapantouflemagic.AdvancedSawmill.Description,使用铁锯或精制铁锯切割巨型原木，能获得巨型半原木、大量原木或木板， 以及非常多的木屑。<br><color=#FF6600>周围会产生大量灰尘弄脏海狸。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,775
+Lapantouflemagic.AdvancedSawmill.FlavorDescription,“有了这个巨大的切割机，我们能把任何东西切成两半！”——海狸机械师,776
+Good.GiantHalfLog.DisplayName,巨型半原木,777
+Good.GiantHalfLog.PluralDisplayName,巨型半原木,778
+Lapantouflemagic.Verydeep_mine_elevator.Description,雇佣探索员进入地下废墟深处，能获得地下探索记录或操作文档。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,783
+Lapantouflemagic.WarmStorage.DisplayName,供热保温锅,784
+Lapantouflemagic.WarmStorage.Description,储存熟食，包括生栗面、煮菜、炒饭和各种炖菜。<br><color=#FFFF00>必须建造在供热保温炉上。</color>,785
+Lapantouflemagic.WarmStorage.FlavorDescription,“这个锅比我的房子还大，这要怎么建？”——海狸建筑工,786
+Lapantouflemagic.WarmStorageBaseL.DisplayName,供热保温炉,787
+Lapantouflemagic.WarmStorageBase.Description,消耗原木保持高温的炉子。,789
+Lapantouflemagic.WarmStorageBase.FlavorDescription,“虽然有“成功之手”的说法，但是把炉子建成这个形状？你是认真的？”——海狸建筑工,790
+Lapantouflemagic.ContaminatedJail.DisplayName,污染隔离处,791
+Lapantouflemagic.ContaminatedJail.FlavorDescription,解毒剂这么厉害？那如果全部海狸都喝了……,793
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.DisplayName,仓库井房,794
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下，同时能储存物品。<br><color=#00FF00>可雇佣1名搬运工。</color><br><color=#FFFF00>房子周围的仓库部分不需要支撑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,795
+Lapantouflemagic.Topentrancewatertightlodge_BoxStorage.FlavorDescription,“天才的想法！这下在家就能吃……什么，存的是炸药？”,796
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.DisplayName,储水罐井房,797
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下，同时能储存液体。<br><color=#00FF00>可雇佣1名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,798
+Lapantouflemagic.Topentrancewatertightlodge_LiquidStorage.FlavorDescription,“建筑师一定是被下了死命令，才能设计得这么实用。”,799
+Lapantouflemagic.Topentrancewatertightlodge.DisplayName,侧门井房,800
+Lapantouflemagic.Topentrancewatertightlodge.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下，背面有额外的出入口。<br><color=#00FF00>可雇佣2名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,801
+Lapantouflemagic.Topentrancewatertightlodge.FlavorDescription,“由于采用了新技术，天井里的水能在退潮后迅速排干。”——海狸建筑师,802
+Lapantouflemagic.Topentrancewatertightlodge_segment.DisplayName,井房,803
+Lapantouflemagic.Topentrancewatertightlodge_segment.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下。<br><color=#00FF00>可雇佣2名搬运工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,804
+Lapantouflemagic.Topentrancewatertightlodge_segment.FlavorDescription,“只要底部的房子开了侧门，不就能想建多高就建多高？”——海狸建筑师,805
+Building.GiantBuriedTank.Description,储存液体。<br><color=#FFFF00>支撑架必须建造在地面或防水建筑上，可依附于3米深的坑洞或围蔽的防水建筑。</color>,806
+Lapantouflemagic.BadwaterPump.Description,用机器辅助的恶水泵，能够高效地抽出恶水。低恶水污染会降低其抽取速度。<br><color=#99FF00>水位高于螺旋桨时才能正常运作。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,808
+Lapantouflemagic.BadwaterPump.FlavorDescription,“又一个巅峰……怎么穿过恶水进去里面？那、那不关我的事！”——海狸工程师,809
+Need.Injury.DeathMessage,<color=#FF0000>死于吃得太多导致的胃胀气。</color>,810
+Billboard.TechTreeBoard.DisplayName,技术广告牌,812
+Billboard.TechTreeBoard.Description,"一个展示此种族科技路线的广告牌。<br><color=#FF0000>Bug：模组未完善，科技路线仅供参考。</color>
+ - - - - - - - - - - - - - - <i>文字版 ver0.1.0</i> - - - - - - - - - - - - - - 
+建筑类别-字体颜色：<color=#F7DC6F>道路和构造</color>  <color=#85C1E9>水坝和住房</color>  <color=#F1C40F>仓储</color>  
+  <color=#82E0AA>采集和生产</color>  <color=#27AE60>(林木和工作)</color>  <color=#3498DB>水</color>  <color=#F39C12>食物</color>  <color=#F0B27A>工业</color>  <color=#48C9B0>高科技</color>  
+  <color=#85929E>金属</color>  <color=#E74C3C>能量</color>  <color=#D98880>科学</color>  <color=#BB8FCE>康乐度</color>
+● ① 基础建设→建造<color=#82E0AA>四门地区中心</color>
+PS：多种向日葵和松树，多收浆果和荆棘花
+- 基础：<color=#85C1E9>住房 (搬运工/建筑工/拦水)</color>  <color=#3498DB>淋浴处 (清洁)</color>
+  <color=#BB8FCE>医疗床 (治疗)</color>  可居住建筑 (人口)
+- 木材：<color=#82E0AA>伐木工旗帜</color>  <color=#27AE60>林木工小屋</color>  <color=#F0B27A>木匠铺</color>
+- 金属：<color=#82E0AA>拾荒者旗帜</color>  <color=#85929E>小型矿洞  炼矿炉</color>
+- 原料：<color=#82E0AA>树液工旗帜</color>  <color=#F0B27A>黏土坑  炭火炉</color>  <color=#D98880>恶水采集处</color>
+- 饮食：<color=#82E0AA>采集工旗帜</color>  <color=#3498DB>水泵  灌溉塔  水池区  排液处</color>  
+  <color=#F39C12>农屋  蘑菇房  发酵桶  烹饪帐篷</color>
+- 储存：<color=#F1C40F>普通仓储  住房式仓库/储水罐</color>
+● ② <color=#F1C40F>耗材保管箱</color>→拆除初始地区中心→准备攀科技
+- 必要：<color=#D98880>图书展览馆 (科学点数)</color>  <color=#85929E>铁匠铺 (金属产品)</color>
+  <color=#F0B27A>纸匠铺 (纸)</color>  <color=#27AE60>化工小屋 (提神油/黑焦油/硝化甘油)</color>
+  <color=#E74C3C>水轮</color>  <color=#27AE60>手工棚屋 (铅笔/炸药)</color>  <color=#F0B27A>压榨机 (葵花籽油)</color>
+- 可选：<color=#27AE60>蒸馏小屋 (解毒剂/酒精)</color>  <color=#85929E>大型矿洞 (硅矿)</color>
+● ③ 解锁脚手架+齿轮+图纸→机械化
+- 必要：<color=#D98880>建筑/机械设计所 (脚手架/齿轮/图纸)</color>
+  <color=#27AE60>抄写工/美术工小屋 (复制图纸)</color>  <color=#E74C3C>发动机</color>  <color=#85929E>钢铁厂</color>
+- 可选：<color=#E74C3C>重力电池</color>  <color=#F39C12>新烹饪建筑</color>
+● ④ 解锁图纸建筑→前期工业化
+- 必要：<color=#F39C12>农业培育所</color>  <color=#82E0AA>气球贸易 (奇异种子/幼虫)</color>
+  <color=#85929E>钻探机 (泥土/废石)</color>  <color=#BB8FCE>投石机 (消耗废石)</color>  <color=#85C1E9>十字水闸</color>
+  <color=#D98880>科学工程院 (许可证)</color>  <color=#BB8FCE>药物制造所 (治疗)</color>
+● ⑤ 解锁高级图纸建筑→后期工业化
+- 必要：<color=#27AE60>林木培育所 (巨杉)</color>  <color=#48C9B0>荧光液提取站</color>
+  <color=#85929E>炼矿厂 (玻璃板)</color>  <color=#E74C3C>光伏发电站</color>  <color=#F39C12>香蕉树温室</color>
+● ⑥ 种植巨杉→收集核废料→科技化
+- 必要：巨杉<color=#F0B27A>伐木场</color>/<color=#F1C40F>材料堆</color>/<color=#48C9B0>锯木厂</color>  <color=#48C9B0>地下升降机
+  核废料收集站</color>  <color=#48C9B0>离心浓缩机</color>  <color=#E74C3C>反应堆</color>  <color=#D98880>机关人组装厂</color>",813
+Lapantouflemagic.Dandelion.PluralDisplayName,蒲公英,814
+Good.CerealBar.DisplayName,谷物棒,815
+Good.CerealBar.PluralDisplayName,谷物棒,816
+Lapantouflemagic.MicroPump.DisplayName,恶水泵升级：导流,817
+Lapantouflemagic.MicroPump.Description,在恶水泵上增加一个导流管，能将导流管周围的液体输送至恶水泵螺旋桨上方，但流量很小。<br><color=#FFFF00>可以建造在恶水泵上，出水口对准螺旋桨，通过恶水泵获取能量。</color>,818
+Lapantouflemagic.MicroPump.FlavorDescription,“为什么不用普通水泵来抽取恶水？那样不够酷！”,819
+Lapantouflemagic.SAquiferPumpBlueprint.Fancy.DisplayName,地下水泵效果图,825
+Lapantouflemagic.SAquiferPumpBlueprint.Fancy.PluralDisplayName,地下水泵效果图,826
+Lapantouflemagic.SAquiferPumpBlueprint.DisplayName,地下水泵设计图,827
+Lapantouflemagic.SAquiferPumpBlueprint.PluralDisplayName,地下水泵设计图,828
+Lapantouflemagic.BIGAquiferPump.DisplayName,大型地下水泵,829
+Lapantouflemagic.BIGAquiferPump.Description,更大的地下水泵，高效地从地下抽取并过滤供海狸饮用的水。<br><color=#99FF00>需要搬运工。</color>,830
+Lapantouflemagic.BIGAquiferPump.FlavorDescription,“如果向下挖得足够深，是不是能把岩浆也泵上来？”——海狸工程师,831
+Lapantouflemagic.TameBrambles.DisplayName,培育荆棘,833
+Lapantouflemagic.TameBrambles.FlavorDescription,为了增加乐趣，种点荆棘也是可以的。,834
+Lapantouflemagic.Brambles.DisplayName,野生荆棘,835
+Lapantouflemagic.Handicrafter.Toggle,配方：,837
+Lapantouflemagic.PitandLadder.Group,天井式住房,840
+Lapantouflemagic.Topentrancewatertightlodge_Builders.DisplayName,侧门井房（建筑工）,841
+Lapantouflemagic.Topentrancewatertightlodge_Builders.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下，背面有额外的出入口。<br><color=#00FF00>可雇佣3名建筑工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,842
+Lapantouflemagic.Topentrancewatertightlodge_Builders.FlavorDescription,“一个叠一个确实很方便，但想想那些人类遗迹……”——海狸建筑工,843
+Lapantouflemagic.Topentrancewatertightlodge_BuildersDoorless.Description,能住进两户家庭的房子，天井中间有垂直楼梯连通上下。<br><color=#00FF00>可雇佣3名建筑工。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,844
+Lapantouflemagic.Topentrancewatertightlodge_BuildersDoorless.DisplayName,井房（建筑工）,845
+Lapantouflemagic.WashingMachine.DisplayName,污染清洗器,846
+Lapantouflemagic.WashingMachine.Description,一个神奇的建筑，通过清空海狸的胃，达到去除污染的效果。,847
+Lapantouflemagic.WashingMachine.FlavorDescription,“咕噜咕噜咕噜……呕呕呕呕！”——受污染的海狸,848
+Good.MechanicalWaterpumpBlueprint.DisplayName,污染清洗器机械设计图,849
+Good.MechanicalWaterpumpBlueprint.PluralDisplayName,污染清洗器机械设计图,850
+Good.MechanicalWaterpumpFancyBlueprint.DisplayName,污染清洗器机械效果图,851
+Reciepe.MechanicalWaterpumpBlueprintCopy.DisplayName,污染清洗器,852
+Good.MechanicalWaterpumpFancyBlueprint.PluralDisplayName,污染清洗器机械效果图,853
+Lapantouflemagic.CrappyIrrigationTower.DisplayName,灌溉处,854
+Lapantouflemagic.CrappyIrrigationTower.Description,用破烂的澡堂改建而成，能灌溉周围土地。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,855
+Lapantouflemagic.CrappyIrrigationTower.FlavorDescription,“那不是用来给你们玩水的地方！”——海狸祖母,856
+Lapantouflemagic.MedicalTreatment.DisplayName,医疗,857
+Lapantouflemagic.MedicalTreatment.CriticalDescription,接受治疗中,858
+Lapantouflemagic.TerrainBlock.Description,一个人造地形块。由于技术落后，需要消耗巨量泥土。,859
+Lapantouflemagic.Overhang.Description,延伸的平台，可以作为桥梁，或者其他建筑的地基。,860
+Good.BrainSalts.DisplayName,提神油,862
+Good.BrainSalts.PluralDisplayName,提神油,863
+Good.BadShrooms.DisplayName,致幻菇,864
+Good.BadShrooms.PluralDisplayName,致幻菇,865
+Good.Amazake.DisplayName,甜米酒,866
+Good.Amazake.PluralDisplayName,甜米酒,867
+Good.ChemistrySet.DisplayName,实验器皿,869
+Good.ChemistrySet.PluralDisplayName,实验器皿,870
+Lapantouflemagic.SmallBadwaterPump.DisplayName,小型恶水泵,871
+Lapantouflemagic.SmallBadwaterPump.Description,能够抽出恶水的强化泵。低恶水污染会降低其抽取速度。<br><color=#99FF00>水位高于螺旋桨时才能正常运作。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,872
+Lapantouflemagic.SmallBadwaterPump.FlavorDescription,“为什么会设计出这样的东西？现在的年轻海狸啊……”,873
+Need.Trebuchetdeath.DeathMessage,<color=#00FF00>死于捉迷藏时躲在投石机篮子里。</color>,874
+Lapantouflemagic.DrinksNeedGroup.DisplayName,饮料,875
+Lapantouflemagic.SciencePoints.bad,低效科研,876
+Lapantouflemagic.SciencePoints.Good,高效科研,877
+Lapantouflemagic.Distillery.DisplayName,蒸馏小屋,878
+Lapantouflemagic.Distillery.Description,对不同原料进行蒸馏萃取，能制作各种蒸馏产品。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,879
+Lapantouflemagic.Distillery.FlavorDescription,“这些设施可比化工小屋里的危险多了。”,880
+Good.Cure.DisplayName,解毒剂,881
+Good.Cure.PluralDisplayName,解毒剂,882
+Lapantouflemagic.4Dynamite.DisplayName,四重炸弹,883
+Lapantouflemagic.SmallAquiferPumpCopy.DisplayName,地下水泵设计图,884
+Lapantouflemagic.DamDrain.FlavorDescription,“禁止在泵液管附近扔垃圾！”,886
+Lapantouflemagic.WaterCannonH.DisplayName,机械喷射泵 70°,887
+Lapantouflemagic.WaterCannonH.Description,改进的机械液体泵，能以70°仰角将液体喷出，实现液体的短距离输送。<br><color=#FF6600>液体落点水位高于标志旗0.9米时将停止并维持。<br>液体不会在空中被阻挡。</color>,888
+Lapantouflemagic.WaterCannonL.DisplayName,机械喷射泵 30°,889
+Lapantouflemagic.WaterCannonL.Description,改进的机械液体泵，能以30°仰角将液体喷出，实现液体的长距离输送。<br><color=#FF6600>液体落点水位高于标志旗0.9米时将停止并维持。<br>液体不会在空中被阻挡。</color>,890
+Lapantouflemagic.WaterCannonM.DisplayName,机械喷射泵 45°,891
+Lapantouflemagic.WaterCannonM.Description,改进的机械液体泵，能以45°仰角将液体喷出，实现液体的中距离输送。<br><color=#FF6600>液体落点水位高于标志旗0.9米时将停止并维持。<br>液体不会在空中被阻挡。</color>,892
+Lapantouflemagic.BananaTree.DisplayName,香蕉树,893
+Lapantouflemagic.BananaTree.FlavorDescription,据说“香蕉巧克力冰淇淋”是一种很美味的食物……,894
+Lapantouflemagic.Banana.DisplayName,香蕉,895
+Lapantouflemagic.Banana.PluralDisplayName,香蕉,896
+Lapantouflemagic.GreenHouse.DisplayName,香蕉树温室,897
+Lapantouflemagic.GreenHouse.Description,一个大型玻璃房，专门用于种植香蕉树。<br><color=#FF6600>需要伐木工收获香蕉。</color><br><color=#FF0000>建筑内仅能种植香蕉树，否则建筑会被强制拆除，且不返还资源。</color>,898
+Lapantouflemagic.GreenHouse.FlavorDescription,“如果你挑食只吃香蕉，你的牙齿会越来越长，直到嘴巴再也合不上！”——海狸祖母,899
+Lapantouflemagic.Trebuchet.Description,一个大型抛投机械，能消耗多余的废石，顺便让海狸研究一下弹道学。,900
+Lapantouflemagic.Badbucket.DisplayName,恶水采集处,901
+Lapantouflemagic.Badbucket.Description,简易的恶水采集设施。低恶水污染会降低其抽取速度。,902
+Lapantouflemagic.Badbucket.FlavorDescription,“这种液体肯定大有用处，只是需要一个笨……勇敢的海狸接受这份工作。有谁自愿报名吗？”,903
+Lapantouflemagic.ZauerKrautBarrel_Noworker.DisplayName,发酵桶（无劳工）,904
+Lapantouflemagic.ZauerKrautBarrel_Noworker.Description,将不同原料放入桶内发酵，能制作泡菜、栗子酒、甜米酒或天然气。,905
+Lapantouflemagic.ZauerKrautBarrel.DisplayName,发酵桶,906
+Lapantouflemagic.ZauerKrautBarrel.Description,将不同原料放入桶内发酵，能制作泡菜、栗子酒、甜米酒或天然气。<br><color=#99FF00>需要搬运工。</color>,907
+Lapantouflemagic.ZauerKrautBarrel.FlavorDescription,“噢，没有人打开过的密室……”——开膛爪杰克,908
+Lapantouflemagic.Crappywindmills.DisplayName,空中风车,909
+Lapantouflemagic.Factory.Description,用煤矿或天然气高效地熔炼原料，能获得各类耗材、金属块或金条。<br><color=#FF6600>拆除铁匠铺以再次使用第一个铁砧来建造。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,912
+Lapantouflemagic.TreeNursery.Description,雇佣专业的林木工，能种植灌木、外来树木和高大树木，以及装饰植物。<br><color=#FF6600>通过气球贸易可获得奇异种子来建造。</color>,914
+Lapantouflemagic.LargeWaterWheel.Description,更大更高效的水轮。由侧面支撑。,915
+Lapantouflemagic.BIT.Description,研究最先进的技术，能获得科学点数，也能撰写各类许可证，或者制作自动化控件、机关人核心。,917
+Lapantouflemagic.GreaterCookingtent.Description,大型的烹饪帐篷，能制作豪华炖菜，并让海狸在里面开聚会。,919
+Lapantouflemagic.Fireflyfarm.DisplayName,荧光液提取站,920
+Lapantouflemagic.Fireflyfarm.Description,将奇异幼虫培养成巨大的萤火虫，能获得荧光液。<br><color=#FF6600>通过气球贸易可获得奇异幼虫、冷冻肉块来建造、获得荧光液。</color>,921
+Lapantouflemagic.Fireflyfarm.FlavorDescription,只有最勇敢的海狸才能在这里工作，取液对象被固定在基座上，以确保过程安全可靠……理论上的。,922
+Lapantouflemagic.RobotParts.DisplayName,机关人零件,923
+Lapantouflemagic.RobotParts.PluralDisplayName,机关人零件,924
+Lapantouflemagic.InsectLarva.DisplayName,奇异幼虫,925
+Lapantouflemagic.InsectLarva.PluralDisplayName,奇异幼虫,926
+Need.Insectdeath.DisplayName,死于萤火虫,927
+Need.Insectdeath.DeathMessage,<color=#00FF00>试图抚摸萤火虫，但被吃掉了。</color>,928
+Lapantouflemagic.Glowfluid.DisplayName,荧光液,929
+Lapantouflemagic.Glowfluid.PluralDisplayName,荧光液,930
+Lapantouflemagic.BridgePlatform.DisplayName,连接平台,931
+Lapantouflemagic.BridgePlatform.Description,架空的平台，两端需要支撑。,932
+Lapantouflemagic.BridgePlatform.FlavorDescription,“最近摔伤的海狸好像有点多？”——海狸建筑师,933
+Lapantouflemagic.GiantLogBridge.Description,用巨型半原木建造而成的架空桥梁，两端需要支撑。底部装有照明用的荧光灯带。,935
+Lapantouflemagic.GiantLogBridge.FlavorDescription,“没人担心这玩意会不会掉下来吗？”——海狸农民,936
+Lapantouflemagic.FruitBar.DisplayName,水果酒吧,937
+Lapantouflemagic.FruitBar.Description,安宁舒适的大型聚会场所，能制作水果鸡尾酒，并让海狸享受交际舞蹈。<br><color=#99FF00>满足所有水果、饮料需求，但更容易口渴。</color><br><color=#00FF00>水果鸡尾酒只能在此处储存，原料临时库存和产物库存为配方中数量×1000。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,938
+Lapantouflemagic.FruitBar.FlavorDescription,“铁牙们不喜欢这个，觉得太浪费，那是因为他们不懂得享受，而且没有十几种不同的饮料可以喝。”,939
+Lapantouflemagic.primitivedam3x3Utilityupgrade.DisplayName,闸门水坝,940
+Lapantouflemagic.primitivedam3x3Utilityupgrade.Description,用机器驱动的大坝，可以升高或降低闸门来控制水位。<br><color=#FFFF00>可建造在水坝或地面上。</color>,941
+Lapantouflemagic.primitivedam3x3Utilityupgrade.FlavorDescription,原木和黏土的杰作！当然还有木板、螺丝、金属块和正确的规划。,942
+Lapantouflemagic.Buffet.DisplayName,自助餐厅,943
+Lapantouflemagic.Buffet.Description,热闹非凡的大型聚会场所，能制作什锦自助餐，并让海狸享受阳台篝火派对。<br><color=#99FF00>满足所有食物需求，但更容易饥饿。</color><br><color=#00FF00>什锦自助餐只能在此处储存，原料临时库存和产物库存为配方中数量×1000。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,944
+Lapantouflemagic.Buffet.FlavorDescription,“神尾们会喜欢这地方的，只要他们不怕走在这个……悬在空中……几米高的……呃……我还有事先走了！”,945
+Lapantouflemagic.MintEssence.DisplayName,冷冻气,946
+Lapantouflemagic.MintEssence.PluralDisplayName,冷冻气,947
+Lapantouflemagic.ReciepeToggle.Null,压榨机,954
+Lapantouflemagic.DamDrainIN.DisplayName,供水泵房,955
+Lapantouflemagic.DamDrainOUT.DisplayName,排水泵房,956
+Lapantouflemagic.Mushroomfarm.DisplayName,作物培育所,957
+Lapantouflemagic.Mushroomfarm.Description,在最佳条件下培育部分作物，能高效地获得蘑菇、浆果、荆棘花或莲花。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,958
+Lapantouflemagic.Mushroomfarm.FlavorDescription,这里原本只培育蘑菇，在某只海狸忍不住偷吃后，就增加了其他作物……不要出现第二个笨蛋鲍比了。,959
+Lapantouflemagic.MechanizedPinkwoodFarm.DisplayName,自动化椿树种植场,960
+Lapantouflemagic.MechanizedPinkwoodFarm.Description,复杂而精妙的大型机械，仅需能量便能生产原木。<br><color=#99FF00>需要搬运工。</color><br><color=#FF6600>在科学工程院制作自动化控件。</color>,961
+Lapantouflemagic.MechanizedPinkwoodFarm.FlavorDescription,“海狸工程学第一条，不要认真研究原理。”——海狸爷爷,962
+Lapantouflemagic.OmniFood.DisplayName,什锦自助餐,963
+Lapantouflemagic.OmniFood.PluralDisplayName,什锦自助餐,964
+Lapantouflemagic.OmniDrink.DisplayName,水果鸡尾酒,965
+Lapantouflemagic.OmniDrink.PluralDisplayName,水果鸡尾酒,966
+Good.Ananasjuice.DisplayName,凤梨汁,967
+Good.Ananasjuice.PluralDisplayName,凤梨汁,968
+Lapantouflemagic.WarmStorageBaseR.DisplayName,供热保温炉,969
+Lapantouflemagic.HaulingTower.DisplayName,搬运工之塔,970
+Lapantouflemagic.HaulingTower.Description,由搬运工自行设计的高塔，旨在展示谁肩负着聚居地的物资运输。<br><color=#00FF00>可雇佣50名搬运工。</color><br><color=#FF6600>中层的四个门都可作为出入口。</color>,971
+Lapantouflemagic.HaulingTower.FlavorDescription,“噢，至少观景台很整洁！”——海狸农民,972
+Lapantouflemagic.Woodupgrade.DisplayName,塔台式升级：搬运,973
+Lapantouflemagic.Woodupgrade.FlavorDescription,“这座塔对我的工作有什么帮助吗？”——海狸伐木工,975
+ToolGroups.Lapantouflemagic.AdvancedBuildings,高科技,976
+Lapantouflemagic.NewCentrifuge.DisplayName,离心浓缩机,977
+Lapantouflemagic.NewCentrifuge.Description,将核废料气化后离心浓缩，能获得核燃料，也能用解毒剂催化来提高效率。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,978
+Lapantouflemagic.NewCentrifuge.FlavorDescription,谢天谢地，有些海狸即使在这种环境也能睡觉。,979
+Lapantouflemagic.NuclearPress.DisplayName,核能压榨机,980
+Lapantouflemagic.NuclearPress.Description,使用核废料供热的榨油机，能高效地获得葵花籽油。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,981
+Lapantouflemagic.NuclearPress.FlavorDescription,嗯……这种环境应该也有海狸能睡觉吧？,982
+Lapantouflemagic.NuclearFuel.DisplayName,核燃料,983
+Lapantouflemagic.NuclearFuel.PluralDisplayName,核燃料,984
+Lapantouflemagic.NuclearFuelFast.DisplayName,催化浓缩,985
+Lapantouflemagic.NuclearFuelSlow.DisplayName,自然浓缩,986
+Lapantouflemagic.FermentationHouse.DisplayName,发酵房,987
+Lapantouflemagic.FermentationHouse.Description,放置了多个发酵桶的建筑，能制作泡菜、栗子酒、甜米酒或天然气。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,988
+Lapantouflemagic.FermentationHouse.FlavorDescription,“这不叫偷吃，这叫……试吃！”——海狸发酵工,989
+Lapantouflemagic.AdvancedWarmstorage.DisplayName,核热保温塔,990
+Lapantouflemagic.AdvancedWarmstorage.Description,储存熟食，包括生栗面、煮菜、炒饭和各种炖菜。,991
+Lapantouflemagic.AdvancedWarmstorage.FlavorDescription,“用核废料来发热保温？虽然食物不会腐坏，但这不代表海狸不会受到伤害。”——海狸化学家,992
+Lapantouflemagic.NewFloodgateDam.DisplayName,十字水闸,993
+Lapantouflemagic.NewFloodgateDam.Description,阻挡一定高度的水位，高度可调节。由于技术落后，占地面积较大。<br><color=#FF6600>仅有两个侧面能与相邻的水闸同步。</color>,994
+Lapantouflemagic.NewFloodgateDam.FlavorDescription,“啊，科学的力量！”——海狸工程师,995
+Lapantouflemagic.WaterStore.DisplayName,蓄水仓库,996
+Good.Onigiri_Salt.DisplayName,咸饭团,997
+Good.Onigiri_Salt.PluralDisplayName,咸饭团,998
+Lapantouflemagic.Lotus.DisplayName,睡莲,999
+Lapantouflemagic.Lotus.PluralDisplayName,睡莲,1000
+Lapantouflemagic.Lotus.FlavorDescription,“如果你发现了一朵黑睡莲，可以将它卖给迷信的海狸，能换几千个卷心菜！”——海狸农民,1001
+Lapantouflemagic.Nenuphar.DisplayName,莲叶,1002
+Lapantouflemagic.Nenuphar.PluralDisplayName,莲叶,1003
+Lapantouflemagic.Lotus_Item.DisplayName,采莲,1004
+Lapantouflemagic.Lotus_Item.PluralDisplayName,采莲,1005
+Lapantouflemagic.Lotus_Flower.DisplayName,莲花,1006
+Lapantouflemagic.Lotus_Flower.PluralDisplayName,莲花,1007
+Lapantouflemagic.Lotusprocessing.DisplayName,摘花,1008
+Good.DandelTea.DisplayName,莲花茶,1009
+Good.DandelTea.PluralDisplayName,莲花茶,1010
+Lapantouflemagic.FloodgateDamBlueprint.DisplayName,十字水闸机械设计图,1015
+Lapantouflemagic.FloodgateDamBlueprint.PluralDisplayName,十字水闸机械设计图,1016
+Lapantouflemagic.FloodgateDamFancyBlueprint.DisplayName,十字水闸机械效果图,1017
+Lapantouflemagic.FloodgateDamFancyBlueprint.PluralDisplayName,十字水闸机械效果图,1018
+Lapantouflemagic.SFITBFancyBlueprint.DisplayName,高级灌溉塔建筑设计图,1019bug
+Lapantouflemagic.SFITBFancyBlueprint.PluralDisplayName,高级灌溉塔建筑设计图,1020bug
+Lapantouflemagic.SFITBBlueprint.DisplayName,高级灌溉塔建筑效果图,1021bug
+Lapantouflemagic.SFITBBlueprint.PluralDisplayName,高级灌溉塔建筑效果图,1022bug
+Lapantouflemagic.MechanizedSpadderdockfarm.DisplayName,自动化睡莲农场,1023
+Good.Hydrogen.DisplayName,氢气,1024
+Good.Hydrogen.PluralDisplayName,氢气,1025
+Lapantouflemagic.RuinExploration.DisplayName,地下探索记录,1026
+Lapantouflemagic.RuinExploration.PluralDisplayName,地下探索记录,1027
+Lapantouflemagic.SkyExploration.DisplayName,天空探索记录,1028
+Lapantouflemagic.SkyExploration.PluralDisplayName,天空探索记录,1029
+Group.PowerShafts.DisplayName,传动轴,1030
+Lapantouflemagic.ScrollHolder.DisplayName,卷轴保管箱,1031
+Lapantouflemagic.ScrollHolder.Description,储存图纸。,1032
+Lapantouflemagic.ScrollHolder.FlavorDescription,箱子经过特殊设计，能让里面的东西得到最好的保管。,1033
+Lapantouflemagic.NuclearPowerPlant.Group.DisplayName,核电站,1058
+Lapantouflemagic.NuclearBase.DisplayName,核电站基座,1059
+Lapantouflemagic.NuclearBase.Description,巨大的防水结构，可以在上面建造四个核电站。<br><color=#FFFF00>基座与其他核电站组件通过内部道路连接。</color><br><color=#FF6600>核电站组件之一，建造顺序1/4。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1060
+Lapantouflemagic.NuclearBase.FlavorDescription,“要占用这么多土地……你们知道这能种多少卷心菜吗？”——海狸农民,1061
+Lapantouflemagic.NuclearBoiler.DisplayName,核电站厂房,1062
+Lapantouflemagic.NuclearBoiler.Description,为核反应堆提供支撑，同时能作为住房。<br><color=#FFFF00>必须建造在核电站基座上。</color><br><color=#FF6600>核电站组件之一，建造顺序2/4。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1063
+Lapantouflemagic.NuclearBoiler.FlavorDescription,“这里很暖和，是居住的好地方！”,1064
+Lapantouflemagic.PowerPlantChemney.DisplayName,冷却塔,1072
+Lapantouflemagic.PowerPlantChemney.Description,用反应堆提供的液体冷却核电站，从蒸汽中回收可用水，同时给核电站提供传动轴接口。<br><color=#99FF00>需要搬运工。</color><br><color=#FFFF00>必须建造在反应堆上。</color><br><color=#FF6600>核电站组件之一，建造顺序4/4。</color>,1073
+Lapantouflemagic.PowerPlantChemney.FlavorDescription,“我有点想在那里游泳……”——海狸核电工,1074
+Lapantouflemagic.PhDInNuclearPhysics.DisplayName,核电许可证,1075
+Lapantouflemagic.PhDInNuclearPhysics.PluralDisplayName,核电许可证,1076
+Lapantouflemagic.BetterDamDrain.DisplayName,泵液站,1077
+Lapantouflemagic.DamDrain.Description,可以安装泵液管的基站，同时能作为住房。安装泵液管后能将液体从一侧输送到另一侧。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1078
+Lapantouflemagic.BetterDamDrainPIPE.DisplayName,泵液管,1079
+Lapantouflemagic.BetterDamDrainPIPE.Description,按指定方向输送液体的通道。<br><color=#FFFF00>泵液管本身不防水，可以建造在泵液站专用位置内。</color><br><color=#FF6600>最大流量每秒3立方米，附近水位会有较大波动。</color>,1080
+Lapantouflemagic.BetterDamDrainPIPELimited.DisplayName,限位泵液管,1081
+Lapantouflemagic.BetterDamDrainPIPELimited.Description,按指定方向输送液体的通道，水位高于出口时会停止运作。<br><color=#FFFF00>泵液管本身不防水，可以建造在泵液站专用位置内。</color><br><color=#FF6600>最大流量每秒3立方米，附近水位会有较大波动。</color>,1082
+Lapantouflemagic.BetterDamDrainPIPE.FlavorDescription,它能抽取任何液体，也包括不小心掉进去的小海狸。,1083
+Lapantouflemagic.NEWEngine.Description,消耗天然气产生能量。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1084
+Billboard.NUCLEARBoard.DisplayName,核电广告牌,1085
+Billboard.NUCLEARBoard.Description,一个展示核电站建造指南的广告牌。,1086
+Lapantouflemagic.NuclearLevee.DisplayName,核电站防洪堤,1087
+Lapantouflemagic.NuclearLevee.Description,核电站专用的防洪堤，用于提高冷却用水池的水位。<br><color=#FFFF00>必须建造在核电站基座专用位置上。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1088
+Lapantouflemagic.NuclearLevee.FlavorDescription,“这个防洪堤比那些水坝好用多了，为什么不用来造一个大水库呢？”——吃下蘑菇前的鲍比,1089
+Lapantouflemagic.BuildersTower.DisplayName,建筑工之塔,1090
+Lapantouflemagic.BuildersTower.FlavorDescription,“为什么要钉子？因为新人们要踩到钉子才会吸取教训。”——海狸建筑工,1092
+Lapantouflemagic.MedicalBed_Injury.DisplayName,轻伤医疗床,1093
+Lapantouflemagic.MedicalBed_Injury.Description,轻伤海狸休息的地方，使用甜米酒促进痊愈。,1094
+Lapantouflemagic.MedicalBed_Burns.DisplayName,烫伤医疗床,1095
+Lapantouflemagic.MedicalBed_Burns.Description,烫伤海狸休息的地方，使用清凉油促进痊愈。,1096
+Lapantouflemagic.MedicalBed_Disease.DisplayName,感冒医疗床,1097
+Lapantouflemagic.MedicalBed_DiseaseDescription,感冒海狸休息的地方，使用荆棘花促进痊愈。,1098
+Lapantouflemagic.IrrigationLodge.DisplayName,初级灌溉塔,1099
+Lapantouflemagic.WonderIrrigationTower.DisplayName,高级灌溉塔,1102
+Lapantouflemagic.WonderIrrigationTower.FlavorDescription,如果海狸们认为灌溉塔没什么用，那就不断改进，直到大家都喜欢！”——海狸工程师,1103
+Lapantouflemagic.WonderIrrigationTower.Description,采用最新技术的灌溉塔，能灌溉周围土地，同时能让海狸在水池里游泳享受。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。<br>无可用劳工时也能正常灌溉。</color>,1104
+Lapantouflemagic.IrrigationTower2.Description,用柱子支撑的灌溉塔，能灌溉周围土地，同时能作为住房。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color><br><color=#FF0000>建筑下方仅能种植作物，否则建筑会被强制拆除，此情况不返还资源。</color>,1105
+Lapantouflemagic.Irrigation.group.DisplayName,灌溉和水池,1106
+Good.SolarCell.DisplayName,光伏电池,1107
+Good.SolarCell.PluralDisplayName,光伏电池,1108
+Lapantouflemagic.DeepRuin.Group.DisplayName,地下废墟开发,1109
+Lapantouflemagic.OmniFoodS.DisplayName,什锦自助餐（小库存）,1110
+Lapantouflemagic.OmniFoodL.DisplayName,什锦自助餐（大库存）,1111
+Lapantouflemagic.OmniDrinkS.DisplayName,水果鸡尾酒（小库存）,1112
+Lapantouflemagic.OmniDrinkL.DisplayName,水果鸡尾酒（大库存）,1113
+Lapantouflemagic.HoomanUndergroundFactory.DisplayName,地下加工站,1115
+Lapantouflemagic.HoomanUndergroundFactory.Description,在地下升降机上增加一个加工站，安排专业的机械师去修复和重启地下废墟里的加工厂，能极其高效地加工和冶炼。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1116
+Lapantouflemagic.HoomanUndergroundFactory.FlavorDescription,“人类总是担忧机器会反抗，他们怎么会有这么愚蠢的想法？这种笨重的机器怎么会——噢！它打到我了！”,1117
+Lapantouflemagic.GasExctractor.DisplayName,气体提取站,1118
+Lapantouflemagic.GasExctractor.Description,在地下升降机上增加一个提取站，能提取地下废墟里的气体。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1119
+Lapantouflemagic.GasExctractor.FlavorDescription,“你不会想知道下面有多少种气味的。”——海狸操作员,1120
+Lapantouflemagic.DeepMinePILEstorage.DisplayName,地下废墟材料堆,1121
+Lapantouflemagic.DeepMinestorage.Description,在地下升降机上增加一个储存站，利用地下废墟储存巨量的大型资源或物品。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1122
+Lapantouflemagic.DeepMinePILEstorage.FlavorDescription,“这里太大了，我们可以花一辈子的时间来探索它。”——海狸探索员,1123
+Lapantouflemagic.DeepMineBOXStorage.DisplayName,地下废墟仓库,1124
+Lapantouflemagic.DeepMineBOXStorage.FlavorDescription,“人类是打算住在这里吗？为了度过自己制造的灾难？”——海狸探索员,1125
+Lapantouflemagic.NuclearWasteCollector.DisplayName,核废料收集站,1126
+Lapantouflemagic.NuclearWasteCollector.Description,在地下升降机上增加一个收集站，安排海狸前往已探明的废墟，能收集地下废墟里的核废料。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1127
+Lapantouflemagic.NuclearWasteCollector.FlavorDescription,“探索不是我的工作，我还没活够呢。”——海狸操作员,1128
+Reciepe.BetterAlcohol.DisplayName,酒精发酵,1129
+Reciepe.ResinSynthesis.DisplayName,松脂合成,1130
+Reciepe.Cubane.DisplayName,炸弹合成,1131
+Lapantouflemagic.AbyssTourismOffice.DisplayName,地下旅游中心,1132
+Lapantouflemagic.AbyssTourismOffice.Description,由专业的探索员带领海狸前往地下废墟，在已探明的安全区域里旅游参观。<br><color=#99FF00>需要搬运工。</color><br><color=#FFFF00>必须建造在地下升降机背面上。</color>,1133
+Lapantouflemagic.AbyssTourismOffice.FlavorDescription,你喜欢绝对安全的路线，还是看起来有点危险的路线？,1134
+Reciepe.Incinerate_Nenuphar.DisplayName,焚烧莲叶,1135
+Reciepe.Incinerate_Lotus_Flower.DisplayName,焚烧莲花,1136
+Reciepe.Incinerate_sawdust.DisplayName,焚烧木屑,1137
+Lapantouflemagic.HoomanUndergroundChemPlant.DisplayName,地下生产站,1138
+Lapantouflemagic.HoomanUndergroundChemPlant.Description,在地下升降机上增加一个研究站，安排专业的化学家去修复和重启地下废墟里的化工厂，能极其高效地生产和研究。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1139
+Lapantouflemagic.HoomanUndergroundChemPlant.FlavorDescription,“用基础材料直接合成松脂和黑焦油？这是什么黑科技！”,1140
+Lapantouflemagic.NEWLumberjackHouse.DisplayName,伐木工小屋,1141
+Lapantouflemagic.NEWLumberjackHouse.Description,雇佣伐木工，能高效地砍伐树木。<br><color=#FFFF00>三角小屋，可以在上面建造升级建筑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1142
+Lapantouflemagic.NEWLumberjackHouse.FlavorDescription,“我的爸爸是最强壮的！他可以扛起一整棵巨杉！”,1143
+Lapantouflemagic.TappersShack.Description,雇佣树液工，能采集松脂或修剪巨杉。<br><color=#FFFF00>三角小屋，可以在上面建造升级建筑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,761
+Lapantouflemagic.TriangleGatheringHouse.DisplayName,采集工小屋,1144
+Lapantouflemagic.TriangleGatheringHouse.Description,雇佣采集工，能高效地采集资源。<br><color=#FFFF00>三角小屋，可以在上面建造升级建筑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1145
+Lapantouflemagic.TriangleGatheringHouse.FlavorDescription,“你敢满身污泥和浆果汁地走进房子里，我就敢把你丢进河里好好冲个澡！”,1146
+Lapantouflemagic.NEWFarmhouse.Description,雇佣种植并收割作物的农民，能种植水稻、卷心菜、向日葵、青豆。<br><color=#FFFF00>三角小屋，可以在上面建造升级建筑。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,494
+Lapantouflemagic.Woodupgrade.Description,在相邻的高塔小屋和三角小屋上增加塔台，出入口在右侧三角小屋上面。雇佣额外的搬运工。<br><color=#00FF00>可雇佣10名搬运工。</color><br><color=#FFFF00>必须建造在相邻的高塔小屋和三角小屋上。<br>高塔小屋：林木工小屋，初级灌溉塔。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,974
+Lapantouflemagic.Woodupgrade_ObservationDeck.DisplayName,塔台式升级：观景,1147
+Lapantouflemagic.Woodupgrade_ObservationDeck.Description,在相邻的高塔小屋和三角小屋上增加塔台，出入口在右侧三角小屋上面。海狸可以在上面欣赏风景。<br><color=#FFFF00>必须建造在相邻的高塔小屋和三角小屋上。<br>高塔小屋：林木工小屋，初级灌溉塔。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1148
+Lapantouflemagic.Woodupgrade_ObservationDeck.FlavorDescription,据说以前人类也造过这样的高塔，还会放一个叫做“无线电”的东西，难道他们也喜欢啃树？,1149
+Lapantouflemagic.NiceView.DisplayName,观景台,455
+Lapantouflemagic.ContaminatedJail.Description,受污染的海狸将呆在这里，每天都要喝解毒剂直到痊愈，在此期间暂时不需要吃喝、洗澡和睡觉。,792
+Reciepe.NitrateSynthesis.PluralDisplayName,硝矿,1150
+Lapantouflemagic.Hobbygardener.Description,将部分作物当做盆栽来培育，能快速获得浆果、荆棘花或莲花。<br><color=#FFFF00>小屋必须建造在地面或防水建筑上，走廊与阳台必须悬空。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,836
+Lapantouflemagic.AssemblyLine.DisplayName,机械化工厂,1151
+Lapantouflemagic.AssemblyLine.Description,用机器流水线处理不同原料，能制作机关人零件，或高效地制作饮料和手工产品。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1152
+Lapantouflemagic.AssemblyLine.FlavorDescription,“嗯……这个起重机真的有用吗？”,1153
+Reciepe.Multijuice.PluralDisplayName,多种饮料,1154
+Reciepe.TurboToysETC.PluralDisplayName,手工产品,1155
+Bot.DisplayName.WaterBeaver,核能机关人 {0},1156
+Lapantouflemagic.PhDInRobotics.DisplayName,机关人许可证,1157
+Lapantouflemagic.PhDInRobotics.PluralDisplayName,机关人许可证,1158
+Lapantouflemagic.Heavygravitybattery.DisplayName,重型重力电池,1159
+Lapantouflemagic.Heavygravitybattery.Description,存储剩余的电能，并在网络供电不足时将其返还。建得越高，可以储存的电能就越多。<br><color=#FF6600>储能单元为掺入核燃料的金属，容量非常大。</color>,1160
+Lapantouflemagic.Heavygravitybattery.FlavorDescription,与核废料混合熔炼后，金属块的密度大大提高了。,1161
+Lapantouflemagic.BotHaulingStation.DisplayName,机关人搬运工广场,1162
+Lapantouflemagic.BotHaulingStation.Description,雇佣额外的机关人搬运工。机关人没有任务时会在这里待命。<br><color=#00FF00>可雇佣20名机关人搬运工。</color>,1163
+Lapantouflemagic.BotHaulingStation.FlavorDescription,我找几个机关人去。你就在此地，不要走动。,1164
+Lapantouflemagic.BOTDistrictCrossing.DisplayName,机关人地区交汇点,1165
+Lapantouflemagic.BOTDistrictCrossing.Description,平衡两个相连地区之间的货物。每个地区都有自己的劳工，在地区交汇点和地区的其他地方运送物品。机关人没有任务时会在这里待命。,1166
+Lapantouflemagic.BOTDistrictCrossing.FlavorDescription,“我们为什么要把它们做得这么大？”,1167
+Lapantouflemagic.Toggle.Arrow,►,1168
+Lapantouflemagic.FarmLumberjackUpgrade.DisplayName,阁楼式升级：伐木,1169
+Lapantouflemagic.FarmLumberjackUpgrade.Description,在两个相邻的三角小屋上增加阁楼，出入口与左侧三角小屋重合。雇佣额外的伐木工。<br><color=#FFFF00>必须建造在相邻的三角小屋上。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1170
+Lapantouflemagic.FarmLumberjackUpgrade.FlavorDescription,你能想象没有起重机会是什么样子吗？,1171
+Lapantouflemagic.FarmUpgradeA.Description,在两个相邻的三角小屋上增加阁楼，出入口与左侧三角小屋重合。雇佣额外的建筑工，同时能储存物品。<br><color=#00FF00>可雇佣4名建筑工。</color><br><color=#FFFF00>必须建造在相邻的三角小屋上。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,486
+Lapantouflemagic.FarmUpgradeC.Description,在两个相邻的三角小屋上增加阁楼，出入口与左侧三角小屋重合。海狸能在这里享受桌面游戏的乐趣。<br><color=#FFFF00>必须建造在相邻的三角小屋上。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,492
+Lapantouflemagic.FarmUpgradeD.Description,在两个相邻的三角小屋上增加阁楼，出入口与左侧三角小屋重合。雇佣额外的农民，拥有更大的临时库存，但只能种植红卷心菜和收割已成熟作物。<br><color=#FFFF00>必须建造在相邻的三角小屋上。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,807
+Lapantouflemagic.Woodupgrade_Gatherer.DisplayName,塔台式升级：采集,1172
+Lapantouflemagic.Woodupgrade_Gatherer.Description,在相邻的高塔小屋和三角小屋上增加塔台，出入口与左侧高塔小屋重合。雇佣额外的采集工。<br><color=#FFFF00>必须建造在相邻的高塔小屋和三角小屋上。<br>高塔小屋：林木工小屋，初级灌溉塔。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1173
+Lapantouflemagic.Woodupgrade_Gatherer.FlavorDescription,“这座塔能晒干果实，很有用！”——海狸采集工,1174
+Lapantouflemagic.Statue_Dunking.DisplayName,饮水纪念碑,1175
+Lapantouflemagic.Statue_Dunking.Description,一座纪念海狸相互合作的雕像，没有旁边的两只海狸，中间的海狸就只能以正常的姿势喝水了。,1176
+Lapantouflemagic.Statue_Dunking.FlavorDescription,“放开我……咕噜咕噜……”——被举起来的海狸,1177
+Lapantouflemagic.Statue_Farmer.DisplayName,农夫纪念像,1178
+Lapantouflemagic.Statue_Farmer.Description,一座纪念农民工作的雕像，没有他们，我们都吃不饱饭。,1179
+Lapantouflemagic.Statue_Farmer.FlavorDescription,这里还有一袋种子，加油！,1180
+Lapantouflemagic.Statue_Lumberjack.DisplayName,伐木纪念像,1181
+Lapantouflemagic.Statue_Lumberjack.Description,一座纪念伐木工作的雕像，没有他们，什么都建不起来。,1182
+Lapantouflemagic.Statue_Lumberjack.FlavorDescription,哪些树味道最好？只有我们知道！,1183
+Lapantouflemagic.Statue_Metalworker.DisplayName,金工纪念像,1184
+Lapantouflemagic.Statue_Metalworker.Description,一座纪念炼铁工作的雕像，没有他们，工业就无法进步。,1185
+Lapantouflemagic.Statue_Metalworker.FlavorDescription,哐当哐当，又一把铁砧！,1186
+Lapantouflemagic.Statue_Pointer.DisplayName,指针雕像,1187
+Lapantouflemagic.Statue_Pointer.Description,一座展示海狸梦想的雕像，他们都想抓住这个在天上飞来飞去的东西。,1188
+Lapantouflemagic.Statue_Pointer.FlavorDescription,我想用这个把恶水去掉！,1189
+Lapantouflemagic.Statue_Pregnant.DisplayName,繁育雕像,1190
+Lapantouflemagic.Statue_Pregnant.Description,一座展示海狸妈妈的雕像，她们扛起聚居地的半边天。,1191
+Lapantouflemagic.Statue_Pregnant.FlavorDescription,如果这个雕像真的多了什么东西，快跑！,1192
+Lapantouflemagic.Statue_UpsideDown.DisplayName,倒立雕像,1193
+Lapantouflemagic.Statue_UpsideDown.Description,一座展示倒立海狸的雕像，由倒立的建筑工倒着雕刻在倒立的木头上。,711
+Lapantouflemagic.Statue_UpsideDown.FlavorDescription,建造完成后，这个建筑工吐了一天一夜。,1195
+Lapantouflemagic.MechanicalComputerBlueprint.DisplayName,自动化控件,1011
+Lapantouflemagic.MechanicalComputerBlueprint.PluralDisplayName,自动化控件,1012
+Lapantouflemagic.GoldFence.DisplayName,金栅栏,1194
+Lapantouflemagic.GoldFence.Description,用金条制作的装饰性栅栏。,1195
+Lapantouflemagic.GoldFence.FlavorDescription,这真的是金子，所以不准咬！,1196
+Lapantouflemagic.FenceGate.DisplayName,金拱门,1197
+Lapantouflemagic.FenceGate.Description,用金条和木材制作的拱门，用于出入栅栏。,1198
+Lapantouflemagic.FenceGate.FlavorDescription,据说把两个拱门放在一起，就能获得好吃的。,1199
+Lapantouflemagic.largefarmhouse.Description,雇佣专业的农民，能种植睡莲、南瓜。<br><color=#FF6600>睡莲需种植在1米以上深度的水中，南瓜会占用种植范围外的部分土地。</color>,911
+Lapantouflemagic.ShrubHedge.DisplayName,树篱,1200
+Lapantouflemagic.ShrubHedge.Description,装饰性盆栽，会根据相邻情况自动调整。,1201
+Lapantouflemagic.ShrubHedge.FlavorDescription,“这些植物没有叶子，全是花，还不会枯萎，这不合理！”——海狸园艺师,1202
+Lapantouflemagic.WoodFenceGate.DisplayName,木拱门,1203
+Lapantouflemagic.WoodFenceGate.Description,用木材制作的拱门，用于出入栅栏。,1204
+Lapantouflemagic.WoodFenceGate.FlavorDescription,可以用来分隔不同的作物。,1205
+Lapantouflemagic.NewVineH.DisplayName,葡萄藤,568
+Lapantouflemagic.BuildersTower.Description,由建筑工自行设计的高塔，旨在展示谁肩负着聚居地的基础建设。<br><color=#00FF00>可雇佣50名建筑工。</color><br><color=#FF6600>塔身的所有门都可作为出入口。</color>,1091
+Lapantouflemagic.Foundry.Description,用煤矿和天然气高效地冶炼铁矿或硅矿，能获得大量金属废料、精制铁锯、玻璃板或硅锭。<br><color=#00FFFF>只有烟囱的底座部分可以防水。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,918
+Lapantouflemagic.IrrigationLodge.Description,能灌溉周围土地并阻止土壤污染，同时能作为住房。耗水量与灌溉面积相关。<br><color=#FFFF00>高塔小屋，可以在上面建造升级建筑。</color><br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。<br>无可用劳工时也能正常灌溉。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,1100
+Lapantouflemagic.IrrigationLodge.FlavorDescription,“如果水池再大点，我们就可以去里面洗澡了。”,1101
+NeedGroup.Possessions.DisplayName,娱乐,1206
+Lapantouflemagic.MultipurposeWorkingTent.DisplayName,多功能广场,1207
+Lapantouflemagic.MultipurposeWorkingTent.Description,综合了多个建筑的功能，会根据生产配方改变配置，且更加高效。,1208
+Lapantouflemagic.MultipurposeWorkingTent.FlavorDescription,工作时能欣赏周围景色是很不错，但被人看着总觉得有点尴尬。,1209
+Lapantouflemagic.SkyFountain.DisplayName,喷泉广场,1210
+Lapantouflemagic.SkyFountain.Description,带有喷泉的广场，海狸们能在里面仰望天空。,1211
+Lapantouflemagic.SkyFountain.FlavorDescription,最后一个离开的必须打扫卫生！,1212
+Lapantouflemagic.GiantLogBridge3.DisplayName,巨型连接桥 3x1,934
+Lapantouflemagic.GiantLogBridge4.DisplayName,巨型连接桥 4x1,1213
+Lapantouflemagic.OmniFoodS.PluralDisplayName,什锦自助餐（小库存）,1214
+Lapantouflemagic.OmniFoodL.PluralDisplayName,什锦自助餐（大库存）,1215
+Lapantouflemagic.OmniDrinkS.PluralDisplayName,水果鸡尾酒（小库存）,1216
+Lapantouflemagic.OmniDrinkL.PluralDisplayName,水果鸡尾酒（大库存）,1217
+Lapantouflemagic.Petanque.DisplayName,滚球场,1218
+Lapantouflemagic.PetanqueCourt.DisplayName,滚球场,1219
+Lapantouflemagic.PetanqueCourt.Description,供海狸玩滚球的运动场所。,1220
+Lapantouflemagic.PetanqueCourt.FlavorDescription,在屋顶玩滚球时不要踢得太用力！,1221
+Lapantouflemagic.Winery.Description,将大量发酵桶进行集中发酵，能高效地制作各种酒类或泡菜。<br>● <color=#00FFFF>防水：</color>能完全阻断水流。,565
+Good.Processor.DisplayName,机关人核心,1222
+Good.Processor.PluralDisplayName,机关人核心,1223
+Lapantouflemagic.AbyssExcavator.DisplayName,矿物开采站,1224
+Lapantouflemagic.AbyssExcavator.Description,在地下升降机上增加一个开采站，安排海狸前往已探明的废墟，能开采地下废墟里的矿产资源。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1225
+Lapantouflemagic.AbyssExcavator.FlavorDescription,“在这里挖矿不会把废墟弄坍塌吧？”——海狸操作员,1226
+Lapantouflemagic.SupplementaryExplorationTeam.DisplayName,探索后勤站,1227
+Lapantouflemagic.SupplementaryExplorationTeam.Description,为探索员提供后勤服务，能获得额外的地下探索记录或操作文档。<br><color=#FFFF00>必须建造在地下升降机上。</color>,1228
+Lapantouflemagic.SupplementaryExplorationTeam.FlavorDescription,“其实我想要更多同事来轮班……”——海狸探索员,1229
+Reciepe.Ineff_Plank.PluralDisplayName,低效木板,1230
+Reciepe.Ineff_Log.PluralDisplayName,低效原木,1231
+Lapantouflemagic.REDCabbage.DisplayName,红卷心菜,1232
+Lapantouflemagic.REDCabbage.FlavorDescription,还是卷心菜的味道。,1233
+Lapantouflemagic.NewDistrictCenter.Description,建立一个拥有自己的居民、资源和单独道路网络的地区，技术改良后地区中心能开四道门。<br><color=#00FF00>可雇佣4名建筑工。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,916
+Building.WoodFence_Whitepaws.Description,用木材制作的栅栏，可以围住野生植物，防止蔓延。,1234
+Lapantouflemagic.Irrigation.Displayname,灌溉,1235
+Lapantouflagic.DetoxIrrigation.Whitepaws,防污染灌溉,1237
+Lapantouflemagic.BalloonLandingPad.DisplayName,气球起降台,a1
+Lapantouflemagic.BalloonLandingPadWP.Description,用于让气球起降的高塔，顺便提供启动能量。<br><color=#00FF00>可雇佣1名搬运工。</color><br><color=#FFFF00>必须用道路同时连通底部的两间小屋。</color>,a2
+Lapantouflemagic.BalloonLandingPad.Description,用于让气球起降的高塔，顺便提供启动能量。<br><color=#00FF00>可雇佣1名搬运工。</color><br><color=#FFFF00>必须用道路同时连通底部的两间小屋。</color>,a3
+Lapantouflemagic.BalloonLandingPad.FlavorDescription,没有人知道那个奇怪的符号是什么意思，但必须印在气球起降的地方，这是规矩。,a4
+Need.Balloon.DisplayName,手工气球,a5
+Lapantouflemagic.BalloonGroup.DisplayName,气球贸易,a6
+Lapantouflemagic.BalloonTrip.DisplayName,探索天空,a7
+Lapantouflemagic.ScoutBalloon.DisplayName,瞭望气球,a8
+Lapantouflemagic.ScoutBalloon.Description,乘坐气球探索天空与远方，能获得天空探索记录。<br><color=#FFFF00>必须建造在气球起降台上。</color>,a9
+Lapantouflemagic.ScoutBalloon.FlavorDescription,“我们的土地是圆的。”——第一只坐上气球的海狸,a10
+Lapantouflemagic.AmpTrader.DisplayName,阔耳贸易气球,a11
+Lapantouflemagic.AmpTrader.Description,乘坐气球飞向远方，与阔耳种族贸易。<br><color=#FF66FF><i>“阔耳的生活方式非常离经叛道，他们身为海狸却讨厌水，还管我们叫水耗子。尽管如此，因为他们同样懂得制造光伏电池，所以可以忍一忍，心平气和地跟他们贸易一下。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color>,a12
+Lapantouflemagic.AmpTrader.FlavorDescription,“没想到你们也能有好东西嘛！”,a13
+Lapantouflemagic.PawsTrader.DisplayName,白爪贸易气球,a14
+Lapantouflemagic.PawsTrader.Description,乘坐气球飞向远方，与其他白爪种族贸易。<br><color=#FF66FF><i>“我们不是第一支也不是最后一支从祖地出发的探索队，如果能找到他们的聚居地，那将是很好的贸易伙伴，因为其他远亲们都做不出好吃的炖菜！”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color>,a15
+Lapantouflemagic.PawsTrader.FlavorDescription,“如果我们坠毁了，是不是就变成新的探索队了？”,a16
+Lapantouflemagic.IslandTrader.DisplayName,岛狸贸易气球,a17
+Lapantouflemagic.IslandTrader.Description,乘坐气球飞向远方，与岛狸种族贸易。<br><color=#FF66FF><i>“岛狸是懒惰的嬉皮士，喜欢在沙滩上开聚会、晒太阳。美味的酒类对他们来说不可或缺，但由于习惯过一天是一天，他们总会用刚摘的新鲜椰子和刚捡的贝壳来交换。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color><br><color=#FF6600>贸易可获得椰子、贝壳，从而在压榨机制作椰子汁，在手工棚屋制作手工项链。</color>,a18
+Lapantouflemagic.IslandTrader.FlavorDescription,“来点音乐，嘻哈！”,a19
+Lapantouflemagic.PolarTrader.DisplayName,冰狸贸易气球,a20
+Lapantouflemagic.PolarTrader.Description,乘坐气球飞向远方，与冰狸种族贸易。<br><color=#FF66FF><i>“冰狸居住在被冰雪覆盖的人类城市废墟里，他们无法发展农业，非常需要食物和酒精。他们有很多方便易得的冰块，以及来源不明的冷冻肉块……对，肉块。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color><br><color=#FF6600>贸易可获得冷冻肉块，从而在荧光液提取站获得荧光液。</color>,a21
+Lapantouflemagic.PolarTrader.FlavorDescription,“妈妈！我恐高！”,a22
+Lapantouflemagic.IronTrader.DisplayName,铁牙贸易气球,a23
+Lapantouflemagic.IronTrader.Description,乘坐气球飞向远方，与铁牙种族贸易。<br><color=#FF66FF><i>“铁牙对工业充满热情，非常渴望亲手触摸玻璃，为此愿意拿出从不分享的咖啡豆。不过他们实际上很讨厌贸易，总会用海狸骨头来敷衍，据说是他们表示侮辱的方式。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color><br><color=#FF6600>贸易可获得咖啡豆，从而在化工小屋制作咖啡。</color>,a24
+Lapantouflemagic.IronTrader.FlavorDescription,“快教教我操控这个神奇玩意！”,a25
+Lapantouflemagic.FolkTrader.DisplayName,神尾贸易气球,a26
+Lapantouflemagic.FolkTrader.Description,乘坐气球飞向远方，与神尾种族贸易。<br><color=#FF66FF><i>“神尾喜欢简单的生活，主要是耕作、跳舞和享受美食。他们可以提供很多奇异种子，不过听说如果我们拿出点奇怪的东西，他们就会拿出同样诡异的东西来私下分享交流。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color><br><color=#FF6600>贸易可获得奇异种子，从而建造林木培育所。</color>,a27
+Lapantouflemagic.FolkTrader.FlavorDescription,“哇哦，我在飞诶！”,a28
+Lapantouflemagic.JungleTrader.DisplayName,森狸贸易气球,a29
+Lapantouflemagic.JungleTrader.Description,乘坐气球飞向远方，与森狸种族贸易。<br><color=#FF66FF><i>“森狸把铁制品当做罕见物品，会用美味的凤梨来交换。他们的聚居地周围还有很多会发光的昆虫，我们的科学家想研究一下，可以尝试用整块的金属交换一些幼虫。”</i></color><br><color=#FFFF00>必须建造在气球起降台上。</color><br><color=#FF6600>贸易可获得奇异幼虫、凤梨，从而建造荧光液提取站，在压榨机制作凤梨汁。</color>,a30
+Lapantouflemagic.JungleTrader.FlavorDescription,“你们想要虫子？噫惹。”,a31
+Lapantouflemagic.ForeignFood.DisplayName,汉堡包,a32
+Lapantouflemagic.ForeignFood.PluralDisplayName,汉堡包,a33
+Lapantouflemagic.TradeBalloon.ToggleEntry,贸易：,a34
+Lapantouflemagic.Aqueduct_Short.DisplayName,巨型水道 3x1,1238
+Lapantouflemagic.Aqueduct_Short.Description,巨大而坚固的引水通道，用于建造空中河流。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,1239
+Lapantouflemagic.Aqueduct_Long.DisplayName,巨型水道 5x1,1240
+Lapantouflemagic.Aqueduct_Long.Description,巨大而坚固的引水通道，用于建造空中河流。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,1241
+Lapantouflemagic.Aqueduct_L-Piece.DisplayName,巨型转角水道,1242
+Lapantouflemagic.Aqueduct_L-Piece.Description,巨大而坚固的引水通道，用于改变空中河流的方向。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,1243
+Lapantouflemagic.Aqueduct_T-Piece.DisplayName,巨型分流水道,1244
+Lapantouflemagic.Aqueduct_T-Piece.Description,巨大而坚固的引水通道，用于对空中河流进行分流。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,1245
+Lapantouflemagic.Aqueduct.FlavorDescription,“如果让它倾斜，你将得到世界上最有趣的东西！”,1246
+Lapantouflemagic.Aqueduct_LT-Piece.FlavorDescription,“如果让它倾斜，你可能会撞到墙上。”,1247
+Lapantouflemagic.Megaplatform.Description,巨大而坚固的平台，上面可以建造部分建筑。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,782
+Lapantouflemagic.MECHwaterpump.DisplayName,自动化水泵,1248
+Lapantouflemagic.MECHwaterpump.Description,用机器抽取并过滤供海狸饮用的水，可以自动运作，但无法在恶水中运作。<br><color=#99FF00>需要搬运工。</color>,1249
+Lapantouflemagic.MECHwaterpump.FlavorDescription,“汲水绞盘和滤网上总是有来源不明的肉块。顺便问一下，你看到蒂米了吗？”,1250
+Good.MECHWaterpumpBlueprint.DisplayName,自动化水泵设计图,1251
+Good.MECHWaterpumpBlueprint.PluralDisplayName,自动化水泵设计图,1252
+Good.MECHWaterpumpFancyBlueprint.DisplayName,自动化水泵效果图,1253
+Good.MECHWaterpumpFancyBlueprint.PluralDisplayName,自动化水泵效果图,1254
+Need.WaterpumpDeath.DeathMessage,<color=#00FF00>通过自动化水泵的汲水绞盘穿越到异世界了。</color>,1255
+Need.WaterpumpDeath.DisplayName,死于自动化水泵,1256
+Recipe.AirshipGrandAdventure.DisplayName,环游世界,1257
+Lapantouflemagic.Airship.DisplayName,空中飞船,1258
+Lapantouflemagic.Airship.Description,乘坐精心打造的空中飞船，以惊人的速度环游世界，带回无尽的财富。<br><color=#FF66FF><i>“飞船所到之处，各个部落的海狸都非常高兴，愿意用各种资源支付船票，只为体验一次终生难忘的旅程，你怎么能说这是贸易呢？”</i></color><br><color=#FF6600>贸易效率约等于10个贸易气球。</color>,1259
+Lapantouflemagic.Airship.FlavorDescription,希望它不会在处女航中撞上空中冰山。,1260
+Lapantouflemagic.PilotsLicense.DisplayName,飞行许可证,1261
+Lapantouflemagic.PilotsLicense.PluralDisplayName,飞行许可证,1262
+Building.PowerShaftVerticalTIntersection.DisplayName,垂直能量传动轴 T 型接口,来自火绒种族
+Building.PowerShaftUpwardTIntersection.DisplayName,上行能量传动轴 T 型接口,来自火绒种族
+Building.PowerShaftDownwardTIntersection.DisplayName,下行能量传动轴 T 型接口,来自火绒种族
+Lapantouflemagic.Aqueduct_Bridge.DisplayName,巨型水道连接桥,1263
+Lapantouflemagic.Aqueduct_Bridge.Description,用普通木材建造的引水通道，用于连接两个巨型水道，填补中间的空隙。,1264
+Lapantouflemagic.Aqueduct_Deadend.DisplayName,巨型水道封堵头,1265
+Lapantouflemagic.Aqueduct_Deadend.Description,巨大而坚固的引水通道，用于对空中河流进行封堵，或限制从上方落下的河流的方向。<br><color=#FFFF00>金属环需要卡在巨型支柱上。</color>,1266
+Lapantouflemagic.NuclearWaterCollector.DisplayName,超效反应堆排液口,
+Lapantouflemagic.NuclearWaterCollector.Description,为下方的反应堆提供对外传输能量的接口，并从上方排放冷却水。<br><color=#FF6600>持续排放水，流量每秒3立方米。</color><br><color=#FF0000>禁止在超效反应堆建造完成前建造。</color>,
+Lapantouflemagic.NuclearWaterCollector.FlavorDescription,“要不是有这玩意帮忙散热，我们都得热死！”,
+Lapantouflemagic.NuclearReactor3.DisplayName,超效反应堆,1069
+Lapantouflemagic.NuclearReactor3.Description,基于地下升降机的大型反应堆，消耗核燃料产生能量，功率极高。<br><color=#FFFF00>必须建造在地下升降机上，出入口与地下升降机重合。</color><br><color=#FF6600>需要超效反应堆排液口来对外传输能量。</color>,1070
+Lapantouflemagic.NuclearReactor2.DisplayName,增殖反应堆,1067
+Lapantouflemagic.NuclearReactor2.Description,基于恶水液体的中型反应堆，消耗核废料和核燃料产生能量，功率较高。<br><color=#FF6600>持续消耗液体，最大流量每秒1.5立方米。</color>,1068
+Lapantouflemagic.NuclearReactor1.DisplayName,基础反应堆,1065
+Lapantouflemagic.NuclearReactor1.Description,基于恶水源的小型反应堆，消耗核废料产生能量，功率较低。<br><color=#FFFF00>需要封堵一个恶水源。</color>,1066
+Lapantouflemagic.NuclearReactor.FlavorDescription,“每天早上都需要有人按下这个红色按钮，如果不够幸运，轰！……相信我，这就是人类核电站的工作原理。”——海狸历史学家,1071
+Luc.Library.Description,有大量藏书可供阅读，能获得科学点数，也能撰写医疗资格证，或者制作图书。<br><color=#FF6600>拆除初始地区中心可获得第一个资料库来建造。</color><br><color=#FF6600>建造耗时较长。</color>,910
+Lapantouflemagic.BasicResourcesImporter.DisplayName,资源进口处,1270
+Lapantouflemagic.BasicResourcesImporter.Description,储存少量各类资源，可以触发对这些资源的进口。<br><color=#FF0000>Debug：此建筑仅对模组版本4.2.6之前的存档有用，不适合作为长期仓储建筑。</color>,1271
+Lapantouflemagic.BasicResourcesImporter.FlavorDescription,“东西越凌乱，东西越整齐，真奇妙啊。”,1272
+Lapantouflemagic.ClockworkFarmImporter.DisplayName,耗材进口处,1273
+Lapantouflemagic.ClockworkFarmImporter.Description,储存少量自动化农场所需材料，可以触发对这些资源的进口。,1274
+Lapantouflemagic.ClockworkFarmImporter.FlavorDescription,“明明只有四种材料，这第五个箱子装的是什么？”,1275
+Lapantouflemagic.ChemistryDistrict.DisplayName,化学地区中心,1276
+Lapantouflemagic.ChemistryDistrict.Description,不同样式的地区中心，储存少量化学相关的材料，可以触发对这些资源的进口。<br><color=#00FF00>建筑材料会自动进出口，此地区不使用的材料除外。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,1277
+Lapantouflemagic.ChemistryDistrict.FlavorDescription,“那个反应釜里面到底有什么？”,1278
+Lapantouflemagic.CookingDistrict.DisplayName,烹饪地区中心,1279
+Lapantouflemagic.CookingDistrict.Description,不同样式的地区中心，储存少量烹饪相关的材料，可以触发对这些资源的进口。<br><color=#00FF00>烹饪好的食物会自动出口，不能提供康乐度的材料不会自动进出口。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,1280
+Lapantouflemagic.CookingDistrict.FlavorDescription,“太遗憾了，那满满一碗炖菜居然是假的……”,1281
+Lapantouflemagic.MetallurgyDistrict.DisplayName,冶炼地区中心,1282
+Lapantouflemagic.MetallurgyDistrict.Description,不同样式的地区中心，储存少量冶炼相关的材料，可以触发对这些资源的进口。<br><color=#00FF00>建筑材料会自动进出口，包括铁矿、煤矿。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,1283
+Lapantouflemagic.MetallurgyDistrict.FlavorDescription,“工作结束后，把工具扔到屋顶上就完事了！”,1284
+Lapantouflemagic.NuclearDistrict.DisplayName,高能地区中心,1285
+Lapantouflemagic.NuclearDistrict.Description,不同样式的地区中心，储存少量地下废墟开发与核能相关的材料，可以触发对这些资源的进口。<br><color=#00FF00>部分需求会自动进出口，此地区不使用的材料除外。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,1286
+Lapantouflemagic.NuclearDistrict.FlavorDescription,“建这么高，真的有必要吗？”,1287
+Lapantouflemagic.ScienceDistrict.DisplayName,科研地区中心,1288
+Lapantouflemagic.ScienceDistrict.Description,不同样式的地区中心，储存少量科研相关的材料，可以触发对这些资源的进口。<br><color=#00FF00>效果图会自动出口，许可证不会自动出口（需要卷轴保管箱），此地区不使用的材料除外。</color><br><color=#FFFF00>可建造在井房上并与之连通。</color>,1289
+Lapantouflemagic.ScienceDistrict.FlavorDescription,“你不能就这么让我们在空地上进行科研！”,1290
+Lapantouflemagic.MedicineImporter.DisplayName,药物进口处,1291
+Lapantouflemagic.MedicineImporter.Description,储存少量各类药物，可以触发对这些资源的进口。,1292
+Lapantouflemagic.MedicineImporter.FlavorDescription,“想拿到清凉油，要先搬开手术包；想搬开手术包，要先放好抗生素……要不你都带走吧？”,1293
+Good.FruitParfait.DisplayName,水果圣代,1294
+Good.FruitParfait.PluralDisplayName,水果圣代,1295
+Building.RangedCrossing.Whitepaws.DisplayName,远程地区交汇点,1296
+Building.RangedCrossing24.Whitepaws.Description,用悬索运送物品的地区交汇点，可以跨越24米。,1297
+Building.RangedCrossing48.Whitepaws.Description,用悬索运送物品的地区交汇点，可以跨越48米。,1298
+Building.RangedCrossing72.Whitepaws.Description,用悬索运送物品的地区交汇点，可以跨越72米。,1299
+Building.RangedCrossing96.Whitepaws.Description,用悬索运送物品的地区交汇点，可以跨越96米。,1300
+Building.RangedCrossing.Whitepaws.FlavorDescription,“你说不可能这么快？那是因为我们在游戏里！哈哈哈哈！”——疯厨师玛蒂尔达,1301
+Lapantouflemagic.Woodupgrade_Builders.Description,在相邻的高塔小屋和三角小屋上增加塔台，出入口在右侧三角小屋上面。雇佣额外的建筑工。<br><color=#00FF00>可雇佣8名建筑工。</color><br><color=#FFFF00>必须建造在相邻的高塔小屋和三角小屋上。<br>高塔小屋：林木工小屋，初级灌溉塔。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,
+Lapantouflemagic.Woodupgrade_Builders.DisplayName,塔台式升级：建筑,
+Lapantouflemagic.Woodupgrade_Builders.FlavorDescription,“这座塔对我的工作也没有帮助啊？”——海狸伐木工,
+Lapantouflemagic.FarmUpgradeB.Description,在两个相邻的三角小屋上增加阁楼，出入口与左侧三角小屋重合。雇佣额外的搬运工，同时能储存物品。<br><color=#00FF00>可雇佣6名搬运工。</color><br><color=#FFFF00>必须建造在相邻的三角小屋上。<br>三角小屋：树液工小屋，采集工小屋，伐木工小屋，农屋。</color><br><color=#FF6600>如果无法建造，请尝试调整小屋位置和鼠标位置。</color><br>● <color=#00FFFF>防水：</color>能完全阻断水流。,489
+Lapantouflemagic.OverhangSquewer.DisplayName,二级悬挑平台,563
+Lapantouflemagic.OverhangSquewer.Description,额外延伸的平台，可以作为桥梁，或者其他建筑的地基。<br><color=#FFFF00>中间一格也需要支撑。</color>,861
+Lapantouflemagic.OverhangSquewerHanging.DisplayName,挂式二级悬挑平台,1305
+Lapantouflemagic.OverhangSquewerHanging.Description,额外延伸的挂式平台，可以作为桥梁，或者其他建筑的地基。<br><color=#FFFF00>中间一格也需要支撑。</color>,1306
+Building.PublicFountain.DisplayName,喷泉,1307
+Building.PublicFountain.Description,装饰性公共喷泉。,1308
+Building.PublicFountain.FlavorDescription,请不要让你的孩子在水里方便。,1309
+Building.DrinkingFountain.DisplayName,饮水池,1310
+Building.DrinkingFountain.Description,为海狸提供额外的饮水场所。,1311
+Good.BarreledWater.DisplayName,桶装水,1312
+Good.BarreledWater.PluralDisplayName,桶装水,1313
