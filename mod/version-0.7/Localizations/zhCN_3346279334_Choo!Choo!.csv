@@ -1,0 +1,101 @@
+ID,Text,Comment
+Tobbert.TrackStraight.DisplayName,直线轨道,-
+Tobbert.TrackStraight.Description,火车直线前进的轨道，可以切换为单向轨道。<br><color=#FFFF00>互相连接的轨道组成轨道段，有相同颜色。</color><br><color=#FF6600>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
+Tobbert.TrackStraight.FlavorDescription,“嘟嘟——”（火车鸣笛声）,-
+Tobbert.TrackOneWay.DisplayName,单向轨道,-
+Tobbert.TrackOneWay.Description,火车按路标方向通行的轨道，可以切换为直线轨道。<br><color=#FFFF00>单向轨道会分隔不同轨道段，以颜色区分。</color><br><color=#FF6600>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
+Tobbert.TrackOneWay.FlavorDescription,逆行扣3分，罚款200元！,-
+Tobbert.TrackCrossing.DisplayName,可穿越轨道,-
+Tobbert.TrackCrossing.Description,海狸可以在这里穿过轨道。,-
+Tobbert.TrackCrossing.FlavorDescription,“诶诶你看，火车开过来——砰！,-
+Tobbert.TrackHillStart.DisplayName,斜坡轨道,-
+Tobbert.TrackHillStart.Description,用于上下坡的轨道。,-
+Tobbert.TrackHillStart.FlavorDescription,这辆火车没有超重吧？,-
+Tobbert.TrackCorner1x1.DisplayName,转弯轨道 1x1,-
+Tobbert.TrackCorner1x1.Description,用于转弯的轨道。,-
+Tobbert.TrackCorner1x1.FlavorDescription,好急的弯，逮虾户！,-
+Tobbert.TrackCorner2x2.DisplayName,转弯轨道 2x2,-
+Tobbert.TrackCorner2x2.Description,用于转弯的轨道，占地面积更大。,-
+Tobbert.TrackCorner2x2.FlavorDescription,噢，多么漂亮的曲线！,-
+Tobbert.TrackTIntersection1x1.DisplayName,T 型交叉轨道 1x1,-
+Tobbert.TrackTIntersection1x1.Description,用于交叉汇合的轨道。,-
+Tobbert.TrackTIntersection1x1.FlavorDescription,我从哪里来？,-
+Tobbert.TrackTIntersection2x3.DisplayName,T 型交叉轨道 2x3,-
+Tobbert.TrackTIntersection2x3.Description,用于交叉汇合的轨道，占地面积更大。,-
+Tobbert.TrackTIntersection2x3.FlavorDescription,我要到哪里去？,-
+Tobbert.TrackXIntersection1x1.DisplayName,X 型交叉轨道 1x1,-
+Tobbert.TrackXIntersection1x1.Description,用于交叉汇合的轨道。,-
+Tobbert.TrackXIntersection1x1.FlavorDescription,更多的选择。,-
+Tobbert.TrackXIntersection3x3.DisplayName,X 型交叉轨道 3x3,-
+Tobbert.TrackXIntersection3x3.Description,用于交叉汇合的轨道，占地面积更大。,-
+Tobbert.TrackXIntersection3x3.FlavorDescription,更多的迷茫。,-
+Tobbert.TrackRIntersection2x3.DisplayName,分岔轨道 2x3,-
+Tobbert.TrackRIntersection2x3.Description,用于分岔的轨道。,-
+Tobbert.TrackRIntersection2x3.FlavorDescription,这到底是分岔还是汇合？,-
+Tobbert.GoodsStation.DisplayName,货物站,-
+Tobbert.GoodsStation.Description,在货物站分发和接收物品，并通过火车运送。<br><color=#FFFF00>分发：搬运工将物品从非“获取”状态的储存建筑搬至货物站，由火车运送至其他货物站。<br>接收：火车将物品运送至货物站，由搬运工搬至“获取”状态的储存建筑。</color><br><color=#FF6600>货物站与单向轨道直接连接可能导致其无法被正确识别，请间隔至少一节轨道后再设置单向轨道。</color>,-
+Tobbert.GoodsStation.FlavorDescription,铁路物流！,-
+Tobbert.PassengerStation.DisplayName,乘客站,-
+Tobbert.PassengerStation.Description,允许通过火车运送海狸，海狸可以通过火车前往另一个乘客站。,-
+Tobbert.PassengerStation.FlavorDescription,铁路客运！,-
+Tobbert.PassengerStation.DistrictObjectToggle,跨地区,-
+Tobbert.PassengerStation.DistrictObject,启用后，只允许海狸前往同样启用此设置且属于其他地区中心的乘客站。,-
+Tobbert.PassengerStation.EmptyStation,目前没有乘客等待。,-
+Tobbert.WaitingStation.DisplayName,等候站,-
+Tobbert.WaitingStation.Description,火车没有运送任务时会在这里等待，防止占用轨道。<br><color=#FFFF00>等候站不会被火车视作可用于运送物品的轨道。</color><br><color=#FF6600>建议与运送轨道并联，或者自身头尾相连后再与运送轨道连接。</color>,-
+Tobbert.WaitingStation.FlavorDescription,等待发车中。,-
+Tobbert.TrainYard.DisplayName,造车站,-
+Tobbert.TrainYard.Description,用于建造火车的车站。,-
+Tobbert.TrainYard.FlavorDescription,这里就是火车的诞生地。,-
+Tobbert.TrainYard.CostOfTrain,每辆火车需要: ,-
+Tobbert.TrainYard.CreateTrain,建造火车,-
+Tobbert.Train.PrefabName,火车,-
+Tobbert.Wagon.PrefabName,车厢,-
+Tobbert.TrainModel.TrainModel,车头样式:,-
+Tobbert.TrainModel.SmallLog,简易车头,-
+Tobbert.TrainModel.BigWooden,豪华车头,-
+Tobbert.WagonModel.WagonModel,车厢样式:,-
+Tobbert.WagonModel.BoxWagon,货运车厢,-
+Tobbert.WagonModel.TankWagon,槽罐车厢,-
+Tobbert.WagonModel.FlatWagon,平板车厢,-
+Tobbert.WagonModel.FlipperWagon,煤运车厢,-
+Tobbert.WagonModel.MetalCart,矿运车厢,-
+Tobbert.WagonModel.PassengerWagon,客运车厢,-
+Tobbert.BatchControl.Trains,火车,-
+Tobbert.Train.Length,火车长度: ,-
+Tobbert.Train.Destroy,确定要拆除选中的火车吗？,-
+Tobbert.GoodsStation.Distribution.Header,货物分发与接收,-
+Tobbert.GoodsStation.Distribution.Disabled.Info,已在选项卡禁用。,-
+Tobbert.GoodsStation.Distribution.Sending.Info,已在选项卡设置为分发。,-
+Tobbert.GoodsStation.Distribution.Receiving.Info,已在选项卡设置为接收。,-
+Tobbert.BatchControl.GoodsStation,轨道运送,-
+Tobbert.BatchControl.DistributionDisabledAll,禁用所有分发与接收,-
+Tobbert.BatchControl.DistributionDisabled,禁用分发与接收,-
+Tobbert.BatchControl.DistributionDisabled.Description,完全禁止在车站分发与接收此货物,-
+Tobbert.BatchControl.DistributionSendingAll,允许所有分发,-
+Tobbert.BatchControl.DistributionSending,允许分发,-
+Tobbert.BatchControl.DistributionSending.Description,允许车站将此货物分发到其他车站。站内货物存放上限由右侧数量决定。,-
+Tobbert.BatchControl.DistributionReceivingAll,允许所有接收,-
+Tobbert.BatchControl.DistributionReceiving,允许接收,-
+Tobbert.BatchControl.DistributionReceiving.Description,允许车站从其他车站接收此货物。站内货物存放上限由右侧数量决定。,-
+Tobbert.BatchControl.DecreaseMaximum,减少货物上限,-
+Tobbert.BatchControl.DecreaseMaximum.Description,减少站内货物存放上限。<br>（单击：-1；按住shift：-10；最大上限为200）,-
+Tobbert.BatchControl.IncreaseMaximum,增加货物上限,-
+Tobbert.BatchControl.IncreaseMaximum.Description,增加站内货物存放上限。<br>（单击：+1；按住shift：+10；最大上限为200）,-
+Tobbert.TrackSystem.ToggleSectionDivider,轨道切换,-
+Tobbert.TrackSystem.ButtonChangeDirection,改变通行方向,-
+Tobbert.TrackSystem.CollidingSectionDividers,两个单向轨道之间不能直接连接,-
+Tobbert.ToolGroup.Trains,火车,-
+Tobbert.TrainYard.PreviewErrorMessage,只能建造一个造车站。,-
+Tobbert.Trains.UnlockPrompt,需要解锁{0}才能建造{1}。,{0} 表示<Building>.DisplayName， {1} 表示 <TrackPiece>.DisplayName.
+Tobbert.DistributionTrain.MinimumOfItemsToMove,运送货物的最小数量: ,-
+Tobbert.TrainNavigation.Unstuck,掉头,-
+Tobbert.TrainNavigation.NoWaitingStation,没有可用的等候站。,-
+Tobbert.TrainNavigation.NoWaitingStationShort,缺乏等候站,-
+Tobbert.TrainDestination.UnconnectedWarning,未与其他站点互相连接。,-
+Tobbert.TrainDestination.UnconnectedWarningShort,站点未连接,-
+Tobbert.ChooChooSettings.Header,火车设置,- 
+Tobbert.ChooChooSettings.DefaultTrainModel,默认车头样式: ,-
+Tobbert.ChooChooSettings.DefaultWagonModel,默认车厢样式: ,-
+Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,聚居地面板-轨道运送,-
+Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,打开轨道运送选项卡,-
