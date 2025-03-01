@@ -5,3 +5,9 @@ CG.CropGrowthRate,作物成长速度乘数,
 CG.CropGrowthRateDesc,可以将作物的成长速度更改为原来的N倍（游戏默认：1）。,
 CG.GatherableGrowthRate,产物成长速度乘数,
 CG.GatherableGrowthRateDesc,可以将树木产出物的成长速度更改为原本的N倍（游戏默认：1）。,
+CG.ReproducibleChanceMultiplier,蔓延几率乘数,-
+CG.ReproducibleChanceMultiplierDesc,可以将树木的蔓延几率更改为原来的N倍（游戏默认：1，即每小时有1-3%的几率蔓延至相邻方格，具体几率由树木种类决定）。,-
+CG.SpreadDistance,蔓延距离,-
+CG.SpreadDistanceDesc,树木可以蔓延至多远的方块（游戏默认：1）。,-
+CG.SpreadVertically,垂直蔓延,-
+CG.SpreadVerticallyDesc,勾选后，树木可以蔓延至上方或下方的方块（游戏默认：否）。,-
