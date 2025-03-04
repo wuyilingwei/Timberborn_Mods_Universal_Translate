@@ -22,3 +22,13 @@ The content that is not accepted for translation is:
 
  - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified.
  - Any content that violates public order and morals will not be translated to avoid potential problems. This includes but is not limited to: racial discrimination, adult content, etc.
+
+## Q&A
+
+### Why use github? Instead of giving direct access to steam workshop?
+
+Unfortunately, Steam is obviously not designed for multiplayer collaboration, it only gives upload permissions.
+
+This brings a series of problems, including: it is impossible to ensure that you change on the latest version, it is impossible to quantify contributions, it is impossible to record historical changes for comparison, and it is inconvenient for others to join
+
+If you want to develop a third-party tool, you will always be required to save the steam login credentials to pull and upload, which is not good and has security risks. On the contrary, through github you can make changes to the mod without logging into steam, and it has full git feature support.
