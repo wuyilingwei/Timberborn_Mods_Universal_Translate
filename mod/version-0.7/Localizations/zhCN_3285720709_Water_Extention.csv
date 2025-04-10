@@ -1,97 +1,109 @@
 ID,Text,Comment
-Knatte.WE_IrrigationExtractFuel.DisplayName,促成长灌溉,-
+Knatte.WE_IrrigationExtractFuel.DisplayName,使用树木助力灌溉,-
 Knatte.WE_IrrigationFuel.DisplayName,灌溉,-
 Knatte.IrrigationTower.DisplayName,灌溉塔,-
-Knatte.IrrigationTower.Description,灌溉周围的土地。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,-
-Knatte.IrrigationTower.Header,灌溉模式：,
-Knatte.IrrigationTower.FlavorDescription,在干旱的日子里，灌溉塔还是很有必要的。,游戏设定在一个变成干旱荒地的地球上。
-Knatte.IrrigationTowerV2_FT.DisplayName,促成长灌溉塔,-
-Knatte.IrrigationTowerV2_FT.Description,拥有更大的灌溉面积，且能使用提取物促进作物和树木成长。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,-
-Knatte.IrrigationTowerV2_IT.DisplayName,防污染灌溉塔,-
-Knatte.IrrigationTowerV2_IT.Description,消耗能量实现自动运转，且能阻止土壤污染。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,-
-Knatte.IrrigationTowerV2.FlavorDescription,为了这个功能，某位科学家的胡子都掉光了。,游戏设定在一个变成干旱荒地的地球上。
+Knatte.IrrigationTower.Description,灌溉周围的土地。对无法灌溉的瓷砖不使用水。,-
+Knatte.IrrigationTower.Header,灌溉模式：,-
+Knatte.IrrigationTower.FlavorDescription,由于地球不到三分之一的面积被水覆盖，灌溉成为了必要之举。,-
+Knatte.IrrigationTowerV2_FT.DisplayName,高效灌溉塔,-
+Knatte.IrrigationTowerV2_FT.Description,灌溉周围更多土地，并可以通过提取促进树木生长。对于无法灌溉的土 tiles，不使用水。,-
+Knatte.IrrigationTowerV2_IT.DisplayName,动力灌溉塔,-
+Knatte.IrrigationTowerV2_IT.Description,在周围进行灌溉，无需任何工人。为了更多的水使用，它还能阻止污染。对于无法灌溉的瓷砖不使用水。,-
+Knatte.IrrigationTowerV2.FlavorDescription,由于地球上不到三分之一的区域被水覆盖，因此灌溉变得必不可少。,-
 Knatte.BigIrrigationTower.DisplayName,大型灌溉塔,-
-Knatte.BigIrrigationTowerIT.Description,灌溉面积非常巨大。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,-
-Knatte.BigIrrigationTowerFT.Description,灌溉面积非常巨大。耗水量与灌溉面积相关。<br><color=#FF6600>只能灌溉同一平面且不被地形起伏分隔的土地。</color>,-
-Knatte.BigIrrigationTower.FlavorDescription,“一，二，吸！一，二，放！”,-
-Knatte.IndWaterTank.DisplayName,大型工业储水箱,-
-Knatte.IndWaterTank.Description,储存液体，可以在上面建造其他建筑。<br><color=#FF6600>部分建筑表面能传输能量。</color>,-
-Knatte.Pipe5X.DisplayName,输送泵 5x1,-
-Knatte.Pipe10X.DisplayName,输送泵 10x1,-
-Knatte.Pipe15X.DisplayName,输送泵 15x1,-
-Knatte.Pipe.Description,改进的机械液体泵，能单向输送液体，水位高于出口时会停止运作。<br><color=#FF6600>防洪堤部分能传输能量；最大流量每秒0.4立方米。</color><br><color=#FF0000>禁止在出口正上方一格建造防洪堤，否则会游戏崩溃。</color>,-
-Knatte.PipeU5X.DisplayName,地下输送泵 5x1,-
-Knatte.PipeU10X.DisplayName,地下输送泵 10x1,-
-Knatte.PipeU15X.DisplayName,地下输送泵 15x1,-
-Knatte.PipeU.Description,改进的机械液体泵，能单向输送液体，输送管道位于地下，水位高于出口时会停止运作。<br><color=#FF6600>防洪堤部分能传输能量；最大流量每秒0.4立方米。</color><br><color=#FF0000>禁止在出口正上方一格建造防洪堤，否则会游戏崩溃。</color>,-
-Knatte.CategoryPipe.DisplayName,输送泵,-
-Knatte.CategoryPipe.Description,能单向输送液体。,-
-Knatte.CategoryPipeU.DisplayName,地下输送泵,-
-Knatte.CategoryPipeU.Description,能单向输送液体，输送管道位于地下。,-
-Knatte.CategoryHideWE.DisplayName,未使用的水利拓展建筑,-
-Knatte.Pipe1X.DisplayName,输送泵,-
-Knatte.Pipe1X.Description,改进的机械液体泵，能单向输送液体，水位高于出口时会停止运作。<br><color=#FF6600>防洪堤部分能传输能量；最大流量每秒0.4立方米。</color><br><color=#FF0000>禁止在出口正上方一格建造防洪堤，否则会游戏崩溃。</color>,-
-Knatte.PowerLevee.DisplayName,四向传动防洪堤,-
-Knatte.PowerLevee.Description,能在四个方向上传输能量的防洪堤。,-
-Knatte.DeepSeaPump.DisplayName,水底泵,-
-Knatte.DeepSeaPump.Description,使用机器从水底抽取并过滤供海狸饮用的水。恶水污染会降低其抽取速度。<br><color=#FF6600>圆柱两端能传输能量。</color>,-
-Knatte.DeepSeaPump.FlavorDescription,喝一口来自深处的淡水，让你随时脉动回来。,-
-Knatte.UPowerLevee.DisplayName,六向传动防洪堤,-
-Knatte.UPowerLevee.Description,能在所有方向上传输能量的防洪堤。,-
-Knatte.PipeH1X.DisplayName,高位输送泵,-
-Knatte.PipeH1X.Description,改进的机械液体泵，能单向输送液体，出口较高，水位高于出口时会停止运作。<br><color=#FF6600>防洪堤部分能传输能量；最大流量每秒1.2立方米。</color><br><color=#FF0000>禁止在出口正上方一格建造防洪堤，否则会游戏崩溃。</color>,-
-Knatte.LargeWaterWheelLevee.DisplayName,防洪大水轮,-
-Knatte.LargeWaterWheelLevee.Description,在侧面支撑上加装了防洪堤的大水轮，上面可以建造平台。,-
-Knatte.PipeHU5X.DisplayName,高位地下输送泵 5x1,-
-Knatte.PipeHU10X.DisplayName,高位地下输送泵 10x1,-
-Knatte.PipeHU15X.DisplayName,高位地下输送泵 15x1,-
-Knatte.PipeHU.Description,改进的机械液体泵，能单向输送液体，输送管道位于地下，出口较高，水位高于出口时会停止运作。<br><color=#FF6600>防洪堤部分能传输能量；最大流量每秒1.2立方米。</color><br><color=#FF0000>禁止在出口正上方一格建造防洪堤，否则会游戏崩溃。</color>,-
-Knatte.Valve1X.DisplayName,输送阀,-
-Knatte.Valve1X.Description,能单向流过液体，两侧水位达到阈值或相等时会停止运作，取消水位检测可以解除部分限制。<br><color=#FF6600>最大流量可调节，上限为每秒1.5立方米，出口水位阈值为高于0.6米，进口水位阈值为低于0.2米（相对于单向阀平面）。</color>,-
-Knatte.ValveH1X.DisplayName,高位输送阀,-
-Knatte.ValveH1X.Description,能单向流过液体，出口较高，两侧水位达到阈值或相等时会停止运作，取消水位检测可以解除部分限制。<br><color=#FF6600>最大流量可调节，上限为每秒3立方米，出口水位阈值为高于1.8米，进口水位阈值为低于0.2米（相对于单向阀平面）。</color>,-
-Knatte.Aqueduct_S_1X.DisplayName,单侧水渠 1x1,-
-Knatte.Aqueduct_S_5X.DisplayName,单侧水渠 5x1,-
-Knatte.Aqueduct_S.Description,组合式的水渠结构，只有一侧有围墙。底部可以防止水渗漏。,-
-Knatte.Aqueduct_S.FlavorDescription,等待液体填充……不过要先围起来。,-
-Knatte.Aqueduct_P_1X.DisplayName,水渠 1x1,-
-Knatte.Aqueduct_P_5X.DisplayName,水渠 5x1,-
-Knatte.Aqueduct_P.Description,组合式的水渠结构，两侧都有围墙。底部可以防止水渗漏。,-
-Knatte.Aqueduct_P.FlavorDescription,等待液体填充……,-
-Knatte.Aqueduct_Corner.DisplayName,水渠外转角,-
-Knatte.Aqueduct_Corner.Description,组合式的水渠结构，用两面围墙组成外转角。底部可以防止水渗漏。,-
-Knatte.Aqueduct_Corner.FlavorDescription,左转还是右转？,-
-Knatte.Aqueduct_Lid_1X.DisplayName,水渠盖板 1x1,-
-Knatte.Aqueduct_Lid_5X.DisplayName,水渠盖板 5x1,-
-Knatte.Aqueduct_Lid.Description,水渠顶部的盖板，可以阻挡水流。,-
-Knatte.Aqueduct_Lid.FlavorDescription,嗯……水渠封起来后，是不是应该叫水管？,-
-Knatte.Aqueduct_Wall.DisplayName,水渠装饰墙,-
-Knatte.Aqueduct_Wall.Description,水渠侧面的围墙，但不能阻挡水流，仅供美观。,-
-Knatte.Aqueduct_Wall.FlavorDescription,这算是浪费材料吗？,-
-Knatte.Aqueduct_Floor_1X1.DisplayName,水渠地板 1x1,-
-Knatte.Aqueduct_Floor_1X5.DisplayName,水渠地板 5x1,-
-Knatte.Aqueduct_Floor_2X2.DisplayName,水渠地板 2x2,-
-Knatte.Aqueduct_Floor_3X3.DisplayName,水渠地板 3x3,-
-Knatte.Aqueduct_Floor_5X5.DisplayName,水渠地板 5x5,-
-Knatte.Aqueduct_Floor.Description,水渠底部的地板，可以防止水渗漏。,-
-Knatte.Aqueduct_Floor.FlavorDescription,所以为什么要涂成黑色？,-
-Knatte.Aqueduct_Sluice.DisplayName,水渠水闸,-
-Knatte.Aqueduct_Sluice.Description,与水渠配套的水闸，可以单向自动排水。,-
-Knatte.Aqueduct_Corner_Int.DisplayName,单侧水渠内转角,-
-Knatte.Aqueduct_Corner_Int.Description,组合式的水渠结构，用两面围墙组成内转角。底部可以防止水渗漏。,-
-Knatte.Aqueduct_Corner_Int.FlavorDescription,你选择哪边？,-
-Knatte.Aqueduct_P_1X_Corner_Int.DisplayName,水渠内转角,-
-Knatte.Aqueduct_P_1X_Corner_Int.Description,组合式的水渠结构，用三面围墙组成内转角。底部可以防止水渗漏。,-
-Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,右转还是左转？,-
-Knatte.Aqueduct_Wall2.DisplayName,水渠围墙,-
-Knatte.Aqueduct_Wall2.Description,水渠侧面的围墙，可以阻挡水流。,-
-Knatte.Aqueduct_Wall2.FlavorDescription,把水挡在外面和围在里面好像都差不多？,-
+Knatte.BigIrrigationTowerIT.Description,"用更少的水灌溉周围更多的土地。  
+蓝色管道表示灌溉的起点。  
+不会为无法灌溉的区域使用水。",-
+Knatte.BigIrrigationTowerFT.Description,"为更少的水灌溉更多的土地。  
+黄色管道表示灌溉的起始点。  
+不使用无法灌溉的区域的水。",-
+Knatte.BigIrrigationTower.FlavorDescription,滴滴答答。,-
+Knatte.IndWaterTank.DisplayName,工业水箱,-
+Knatte.IndWaterTank.Description,容纳更多水且可堆叠，但需要金属。,-
+Knatte.Pipe5X.DisplayName,管道5长,-
+Knatte.Pipe10X.DisplayName,管道10长,-
+Knatte.Pipe15X.DisplayName,管道15长,-
+Knatte.Pipe.Description,在管道两侧设置堤坝，并设置输入和输出管道。堤坝需要供电，但也需要作为传输使用。请勿在输出管道上方的六边形中放置堤坝！这会导致崩溃！,-
+Knatte.PipeU5X.DisplayName,地下管道 5 长,-
+Knatte.PipeU10X.DisplayName,地下管道10长,-
+Knatte.PipeU15X.DisplayName,地下管道 15 长,-
+Knatte.PipeU.Description,在管道的两侧有堤坝，以及一个输入管和一个输出管。管道在堤坝之间埋入地下。堤坝需要供电，但也要充当转移。请不要在输出管上方的六边形中放置堤坝！这会导致崩溃！,-
+Knatte.CategoryPipe.DisplayName,直管,-
+Knatte.CategoryPipe.Description,地上管道,-
+Knatte.CategoryPipeU.DisplayName,地下管道,-
+Knatte.CategoryPipeU.Description,在弯道处需要埋入地下的管道,-
+Knatte.CategoryHideWE.DisplayName,未使用的水延伸,-
+Knatte.Pipe1X.DisplayName,管道出口,-
+Knatte.Pipe1X.Description,"两个闸门和一个输入输出管道。闸门需要供电，但也要作为传输使用。  
+不要将闸门放在输出管道上方的六角形中！这样会崩溃！",-
+Knatte.PowerLevee.DisplayName,动力袖,-
+Knatte.PowerLevee.Description,有轴的堤坝用于为泵提供动力。包括水平和垂直两种。,-
+Knatte.DeepSeaPump.DisplayName,深海水泵,-
+Knatte.DeepSeaPump.Description,海底泵,-
+Knatte.DeepSeaPump.FlavorDescription,一口清水足以让你振奋起来。,-
+Knatte.UPowerLevee.DisplayName,通用动力袖子,-
+Knatte.UPowerLevee.Description,有轴的堤坝用于给泵供电。四周连接。,-
+Knatte.PipeH1X.DisplayName,管道出口 (H),-
+Knatte.PipeH1X.Description,高容量泵，两道堤坝以及一根输入管和输出管。堤坝需要通电，同时也要作为传输通道。,-
+Knatte.LargeWaterWheelLevee.DisplayName,大型水车与堤坝,-
+Knatte.LargeWaterWheelLevee.Description,水车还有一个倾斜的堤坝，帮助保持水流在渠道内而不外溢。,-
+Knatte.PipeHU5X.DisplayName,地下管道 5 长 (H),-
+Knatte.PipeHU10X.DisplayName,地下管道 10 长 (高),-
+Knatte.PipeHU15X.DisplayName,地下管道 15 长 (H),-
+Knatte.PipeHU.Description,高功率版本，管道两侧有堤坝，包含输入和输出管道。管道在堤坝之间埋入地下。堤坝需要供电，同时还需作为传输装置。请不要在输出管道上方的六边形中放置堤坝！这样会导致崩溃！,-
+Knatte.Valve1X.DisplayName,单向阀,-
+Knatte.Valve1X.Description,"中间带堤坡的一次性阀门
+无需电源，且不进行传输
+最大流量 1.5 厘米",-
+Knatte.ValveH1X.DisplayName,单向阀 (H),-
+Knatte.ValveH1X.Description,"中间有闸门的高容量单向阀  
+无需电力且不传递",-
+Knatte.Aqueduct_S_1X.DisplayName,渡槽,-
+Knatte.Aqueduct_S_5X.DisplayName,水渠 5 长,-
+Knatte.Aqueduct_S.Description,一侧有墙的引水渠。底部也阻止水流。,-
+Knatte.Aqueduct_S.FlavorDescription,待填写,-
+Knatte.Aqueduct_P_1X.DisplayName,水道 1x1,-
+Knatte.Aqueduct_P_5X.DisplayName,水渠 1x5 长,-
+Knatte.Aqueduct_P.Description,两侧有墙的渡槽。也在底部挡住水。,-
+Knatte.Aqueduct_P.FlavorDescription,待填写,-
+Knatte.Aqueduct_Corner.DisplayName,水渠拐角,-
+Knatte.Aqueduct_Corner.Description,用墙壁在两侧创建一个角落的渡槽。还可以在底部截住水。,-
+Knatte.Aqueduct_Corner.FlavorDescription,水走左边,-
+Knatte.Aqueduct_Lid_1X.DisplayName,水道盖,-
+Knatte.Aqueduct_Lid_5X.DisplayName,水渠盖 5 长,-
+Knatte.Aqueduct_Lid.Description,添加一个防止水流失的盖子,-
+Knatte.Aqueduct_Lid.FlavorDescription,它现在是管道了吗？,-
+Knatte.Aqueduct_Wall.DisplayName,水道墙假人,-
+Knatte.Aqueduct_Wall.Description,不要阻挡水流，但可以在美观上帮助营造出它阻挡水流的错觉，以便于内角。,-
+Knatte.Aqueduct_Wall.FlavorDescription,待填充,-
+Knatte.Aqueduct_Floor_1X1.DisplayName,渡槽地板,-
+Knatte.Aqueduct_Floor_1X5.DisplayName,水渠 地板 1x5,-
+Knatte.Aqueduct_Floor_2X2.DisplayName,水道 地板 2x2,-
+Knatte.Aqueduct_Floor_3X3.DisplayName,输水道 地板 3x3,-
+Knatte.Aqueduct_Floor_5X5.DisplayName,水道 地板 5x5,-
+Knatte.Aqueduct_Floor.Description,导水渠主题的防水地板,-
+Knatte.Aqueduct_Floor.FlavorDescription,你不能通过。,-
+Knatte.Aqueduct_Sluice.DisplayName,水渠闸,-
+Knatte.Aqueduct_Sluice.Description,单向自动排水。采用水渠主题，且如果有支撑可放置在水渠中。,-
+Knatte.Aqueduct_Corner_Int.DisplayName,水道内角,-
+Knatte.Aqueduct_Corner_Int.Description,带有两侧墙壁的渡槽以形成一个角落。还在底部停止水流。,-
+Knatte.Aqueduct_Corner_Int.FlavorDescription,水往左去,-
+Knatte.Aqueduct_P_1X_Corner_Int.DisplayName,水渠 1x1 内角,-
+Knatte.Aqueduct_P_1X_Corner_Int.Description,三面有墙的水渠形成一个拐角。同时在底部挡住水流。,-
+Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,水往左走,-
+Knatte.Aqueduct_Wall2.DisplayName,水渠墙,-
+Knatte.Aqueduct_Wall2.Description,阻止水进入与此相同的方块，可以用于建造水下通道。,-
+Knatte.Aqueduct_Wall2.FlavorDescription,待填写,-
 Knatte.TurbineSmall.DisplayName,小型涡轮机,-
-Knatte.TurbineSmall.Description,与水轮相反，只有沿转轴方向的水流才能产生能量。,-
-Knatte.TurbineSmall.FlavorDescription,有没有更大一点的？,-
-Knatte.Aqueduct_Wall3.DisplayName,偏移水渠围墙,-
-Knatte.Aqueduct_Wall3.Description,水渠侧面的围墙，可以阻挡水流。,-
-Knatte.Aqueduct_Wall4.DisplayName,偏移双侧水渠围墙,-
-Knatte.Aqueduct_Wall4.Description,水渠侧面的围墙，可以阻挡水流。,-
-Knatte.Aqueduct_Wall_OffDec.DisplayName,偏移水渠装饰墙,-
-Knatte.Aqueduct_Wall_OffDec2.DisplayName,偏移双侧水渠装饰墙,-
+Knatte.TurbineSmall.Description,一个小型涡轮机，它以与轴相同的方向发电,-
+Knatte.TurbineSmall.FlavorDescription,感谢99Cent和Ymerzeru的启发,-
+Knatte.Aqueduct_Wall3.DisplayName,"偏移 
+水渠墙",-
+Knatte.Aqueduct_Wall3.Description,阻止水进入与墙壁相同的块中,-
+Knatte.Aqueduct_Wall4.DisplayName,"双重偏移
+渡槽墙",-
+Knatte.Aqueduct_Wall4.Description,阻止水进入与墙壁相同的块中,-
+Knatte.Aqueduct_Wall_OffDec.DisplayName,"偏移
+引水道墙假人",-
+Knatte.Aqueduct_Wall_OffDec2.DisplayName,"偏移双重  
+水渠墙假人",-
