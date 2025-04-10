@@ -1,0 +1,15 @@
+ID,Text,Comment
+LV.CH.MaxBeaverMul,最大海狸乘數,-
+LV.CH.MaxBeaverMulDesc,將一所房子可以擁有的最大河狸數量乘以此值，然後向下取整，但最小值為 1。遊戲默認值：1。,-
+LV.CH.SleepMult,睡眠滿意度乘數,-
+LV.CH.SleepMultDesc,將睡眠需求滿足度乘以此值。遊戲預設：1，則每小時加 +0.2（海狸的睡眠可在 -0.2 到 0.8 之間，每天 -0.6）。,-
+LV.CH.ShelterMult,避難所滿意度乘數,-
+LV.CH.ShelterMultDesc,將避難所需求滿足度乘以此數值。遊戲預設值：1，因此每小時 +0.3（海狸可以有 -0.2 至 0.8 的避難所，每天 -0.3）,-
+LV.CH.MoveEntranceFloor,將入口移至地板,-
+LV.CH.MoveEntranceFloorDesc,將所有入口移至一樓（例如雙層小屋）。也適用於模組添加的房屋。沒有圖形變化。遊戲預設：否,-
+LV.CH.AddOtherFaction,添加其他派系的住房,-
+LV.CH.AddOtherFactionDesc,民間故事可以建造鋼牙的房屋，而反之亦然。不要為模組添加的房屋工作。遊戲默認：否,-
+LV.CH.AddProcreation,將生育功能添加至所有住房,-
+LV.CH.AddProcreationDesc,將繁殖功能添加到所有房屋，以便民間傳說中的生物可以在鐵齒的房屋中繁殖。,-
+LV.CH.RemoveProcreation,從所有住房中移除繁殖,-
+LV.CH.RemoveProcreationDesc,將所有住房中的繁殖移除，以便鐵牙無法在民間故事的住房中繁殖。,-

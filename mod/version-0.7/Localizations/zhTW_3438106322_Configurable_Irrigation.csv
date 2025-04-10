@@ -1,0 +1,15 @@
+ID,Text,Comment
+LV.CI.MinimumWaterContamination,最小水污染,-
+LV.CI.MinimumWaterContaminationDesc,水的最低污染百分比，在此水不再提供完全灌溉。遊戲預設：0.01，這意味著如果你的水污染為1%或更低，則將提供完全灌溉。,-
+LV.CI.MaximumWaterContamination,最高水污染,-
+LV.CI.MaximumWaterContaminationDesc,最大水污染百分比，超過此百分比將停止灌溉。遊戲預設值：0.53，這意味著如果你的水污染程度達到或超過53%，將不會進行灌溉。,-
+LV.CI.VerticalSpreadCostMultiplier,垂直價差成本,-
+LV.CI.VerticalSpreadCostMultiplierDesc,向上擴散的成本倍增器。遊戲預設值：6，這意味著將水向上擴散的成本通常是6倍。,-
+LV.CI.MaxSpread,最大擴散,-
+LV.CI.MaxSpreadDesc,最大擴散距離（以方塊計算）。遊戲默認值：16，這意味著飽和的3x3方塊將灌溉最多16個方塊的距離。,-
+LV.CI.ContaMinimumWaterContamination,土壤污染的最小水量,-
+LV.CI.ContaMinimumWaterContaminationDesc,最低水污染百分比是水開始污染土壤的標準。遊戲默認值：0.5，這意味著如果你的水污染達到50%或以上，則會開始污染土壤。,-
+LV.CI.ContaMaxSpread,污染最大擴散,-
+LV.CI.ContaMaxSpreadDesc,受污染水的最大擴散距離（以方塊計算）。遊戲預設：7，這意味著污染將擴散到最多 7 個方塊的距離。,-
+LV.CI.ContaVerticalSpreadCostMultiplier,污染垂直擴散成本,-
+LV.CI.ContaVerticalSpreadCostMultiplierDesc,污染向上擴散的成本倍增器。遊戲預設：5，這意味著向上擴散污染的成本通常是其五倍。,-

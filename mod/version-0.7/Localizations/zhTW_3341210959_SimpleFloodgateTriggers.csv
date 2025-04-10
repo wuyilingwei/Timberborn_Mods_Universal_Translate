@@ -1,0 +1,63 @@
+ID,Text,Comment
+Floodgate.Triggers.EnableOnDroughtStarted,在乾旱開始時設定高度,-
+Floodgate.Triggers.EnableOnDroughtEnded,設定乾旱結束時的高度,-
+Floodgate.Schedule.Enable,設定高度於時間表上,-
+Floodgate.Schedule.DisableOnDrought,在乾旱期間禁用排程,-
+Floodgate.Schedule.DisableOnTemperate,在待機期間禁用排程,-
+Floodgate.Triggers.Time,時間,-
+Floodgate.Triggers.Height,高度,-
+Floodgate.Triggers.Basic,基本,-
+Floodgate.Triggers.Timer,計時器,-
+Floodgate.Triggers.Advanced,進階,-
+Floodgate.Triggers.AttachToStreamGauge,附上水流計,-
+Floodgate.Triggers.PickStreamGaugeTitle,選擇一個水位計,-
+Floodgate.Triggers.PickStreamGaugeTip,不，真的，選任何一個。,-
+Floodgates.Triggers.NoLinks,沒有連接流量計,-
+Floodgates.Triggers.NoFloodgateLinks,沒有連結的物件,-
+Floodgates.Triggers.LinkedFloodgates,連接物件,-
+Floodgates.Triggers.Threshold1,水流計低閾值,-
+Floodgates.Triggers.Threshold2,水位計高閾值,-
+Floodgates.Triggers.HeightWhenBelowThreshold1,洪水閘門高度低於最低閾值,-
+Floodgates.Triggers.HeightWhenAboveThreshold2,防洪閘門高於高閾值的高度,-
+Floodgate.Triggers.PauseOnDroughtStart,當乾旱開始時暫停,-
+Floodgate.Triggers.UnpauseOnDroughtStart,在乾旱開始時解除暫停,-
+Floodgate.Triggers.UnpauseOnTemperateStart,在氣溫開始時解除暫停,-
+Floodgate.Triggers.PauseOnTemperateStart,當氣溫開始時暫停,-
+Floodgates.WaterpumpTrigger.Threshold1,暫停 <,-
+Floodgates.WaterpumpTrigger.Threshold2,暫停 >,-
+Floodgates.WaterpumpTrigger.Threshold3,取消暫停,-
+Floodgates.WaterpumpTrigger.Threshold4,解除暫停 >,-
+Floodgates.WaterpumpTrigger.PauseStartTime,暫停於,-
+Floodgates.WaterpumpTrigger.ResumeStartTime,重新開始於,-
+Floodgates.WaterpumpTrigger.DisableDuringDrought,在乾旱期間禁用,-
+Floodgates.WaterpumpTrigger.DisableDuringTemperate,在溫帶期間禁用,-
+Floodgate.Triggers.PauseOnSchedule,定期暫停,-
+Floodgate.Triggers.EnableOnBadtideStarted,當壞潮開始時設定高度,-
+Floodgate.Triggers.EnableOnBadtideEnded,在低潮結束時設置高度,-
+Floodgate.Schedule.DisableOnBadtide,在大潮期間禁用計劃,-
+Floodgates.WaterpumpTrigger.DisableDuringBadtide,在壞潮期間禁用,-
+Floodgate.Triggers.PauseOnBadtideStart,當惡潮開始時暫停,-
+Floodgate.Triggers.UnpauseOnBadtideStart,在壞潮開始時重新啟動,-
+Floodgates.Triggers.ContaminationThresholdLow,污染低閾值,-
+Floodgates.Triggers.ContaminationThresholdHigh,污染高閾值,-
+Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow,設定高度低於低污染水平,-
+Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh,設定高污染以上的高度,-
+Floodgates.Triggers.Depth,深度,-
+Floodgates.Triggers.Contamination,污染,-
+Floodgates.WaterSourceRegulator.Threshold1,關閉 <,-
+Floodgates.WaterSourceRegulator.Threshold2,關閉 >,-
+Floodgates.WaterSourceRegulator.Threshold3,開啟 <,-
+Floodgates.WaterSourceRegulator.Threshold4,開啟 >,-
+Floodgates.WaterSourceRegulator.CloseStartTime,關閉於,-
+Floodgates.WaterSourceRegulator.OpenStartTime,打開於,-
+Floodgates.WaterSourceRegulator.DisableDuringDrought,在乾旱期間禁用,-
+Floodgates.WaterSourceRegulator.DisableDuringTemperate,在適度期間停用,-
+Floodgate.WaterSourceRegulator.CloseOnDroughtStart,乾旱開始時關閉,-
+Floodgate.WaterSourceRegulator.OpenOnDroughtStart,乾旱開始時打開,-
+Floodgate.WaterSourceRegulator.OpenOnTemperateStart,當溫度開始上升時打開,-
+Floodgate.WaterSourceRegulator.CloseOnTemperateStart,當氣溫開始上升時關閉,-
+Floodgate.WaterSourceRegulator.OpenOnBadtideStart,壞潮開始時打開,-
+Floodgate.WaterSourceRegulator.CloseOnBadtideStart,壞潮開始時關閉,-
+Floodgate.Schedule.CloseOnSchedule,按排程關閉/開啟,-
+Floodgates.WaterSourceRegulator.DisableDuringBadtide,在壞潮期間禁用,-
+Floodgates.Triggers.Empty,Error,-

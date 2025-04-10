@@ -1,0 +1,101 @@
+ID,Text,Comment
+Tobbert.TrackStraight.DisplayName,直線鐵軌,-
+Tobbert.TrackStraight.Description,一段直線軌道。可以透過點擊切換成單向信號。創建一個允許單列火車通過的單向軌道區域（顏色指示）。,-
+Tobbert.TrackStraight.FlavorDescription,呲呲！,-
+Tobbert.TrackOneWay.DisplayName,單向信號軌道,-
+Tobbert.TrackOneWay.Description,會告訴列車只能通過綠色路段。點擊開關時可以改回直行軌道。創建一個單行道之間的軌道區段，允許單一列車在上面行駛（由顏色表示）。,-
+Tobbert.TrackOneWay.FlavorDescription,你……必須……通過……,-
+Tobbert.TrackCrossing.DisplayName,鐵路交叉口,-
+Tobbert.TrackCrossing.Description,海狸可以在這裡穿越軌道。將不會實施碰撞，因為這樣會過度影響性能。,-
+Tobbert.TrackCrossing.FlavorDescription,那列火車正快速接近。,-
+Tobbert.TrackHillStart.DisplayName,坡道軌跡,-
+Tobbert.TrackHillStart.Description,一條讓火車上下行駛的軌道。,-
+Tobbert.TrackHillStart.FlavorDescription,火車不會太重嗎？,-
+Tobbert.TrackCorner1x1.DisplayName,角落 1x1 鐵軌,-
+Tobbert.TrackCorner1x1.Description,一段轉角的軌道。,-
+Tobbert.TrackCorner1x1.FlavorDescription,可能有點緊。,-
+Tobbert.TrackCorner2x2.DisplayName,角落 2x2 火車軌道,-
+Tobbert.TrackCorner2x2.Description,一個圍繞著較大彎角的軌道部分。,-
+Tobbert.TrackCorner2x2.FlavorDescription,這條曲線真好看。,-
+Tobbert.TrackTIntersection1x1.DisplayName,T型交叉口 鐵軌 1x1,-
+Tobbert.TrackTIntersection1x1.Description,一個呈T字型的火車交叉口。,-
+Tobbert.TrackTIntersection1x1.FlavorDescription,我該往哪個方向走？,-
+Tobbert.TrackTIntersection2x3.DisplayName,T 形交叉火車軌道 2x3,-
+Tobbert.TrackTIntersection2x3.Description,一個呈“T”形的火車交叉口。,-
+Tobbert.TrackTIntersection2x3.FlavorDescription,那些路徑將通往何處？,-
+Tobbert.TrackXIntersection1x1.DisplayName,X 交叉 列車軌道 1x1,-
+Tobbert.TrackXIntersection1x1.Description,一個火車交叉的X形路口。,-
+Tobbert.TrackXIntersection1x1.FlavorDescription,這麼多選擇！,-
+Tobbert.TrackXIntersection3x3.DisplayName,X 交叉火車軌道 3x3,-
+Tobbert.TrackXIntersection3x3.Description,一個以 X 形交叉的火車十字路口。,-
+Tobbert.TrackXIntersection3x3.FlavorDescription,我就是無法選擇去哪裡...,-
+Tobbert.TrackRIntersection2x3.DisplayName,切換火車軌道 2x3,-
+Tobbert.TrackRIntersection2x3.Description,一個以R形狀為基礎的火車轉轍器。,-
+Tobbert.TrackRIntersection2x3.FlavorDescription,我們要去哪裡？,-
+Tobbert.GoodsStation.DisplayName,貨運站,-
+Tobbert.GoodsStation.Description,允許透過火車運輸貨物。貨物可以在車站被發送或接收。收到的貨物僅會運送到設置為接收的存儲區。,-
+Tobbert.GoodsStation.FlavorDescription,看看它可以容納的所有貨物。,-
+Tobbert.PassengerStation.DisplayName,客運站,-
+Tobbert.PassengerStation.Description,這個車站讓海狸上火車，前往相互連接的另一個車站。,-
+Tobbert.PassengerStation.FlavorDescription,海狸火車！,-
+Tobbert.PassengerStation.DistrictObjectToggle,跨區域：,-
+Tobbert.PassengerStation.DistrictObject,啟用後，僅允許海狸前往設置了此選項且位於其他區域的乘客站。,-
+Tobbert.PassengerStation.EmptyStation,目前沒有乘客在等候。,-
+Tobbert.WaitingStation.DisplayName,等候站,-
+Tobbert.WaitingStation.Description,火車在這裡可以等候，當它們無事可做時。這防止火車佔用軌道。火車無法繞過這個，因此確保它不在任何關鍵路徑上。,-
+Tobbert.WaitingStation.FlavorDescription,我什麼時候可以再去？,-
+Tobbert.TrainYard.DisplayName,火車場,-
+Tobbert.TrainYard.Description,一座製造火車的建築。,-
+Tobbert.TrainYard.FlavorDescription,這裡是火車誕生的地方。,-
+Tobbert.TrainYard.CostOfTrain,一列火車的成本：,-
+Tobbert.TrainYard.CreateTrain,建造火車,-
+Tobbert.Train.PrefabName,火車,-
+Tobbert.Wagon.PrefabName,貨車,-
+Tobbert.TrainModel.TrainModel,訓練模型：,-
+Tobbert.TrainModel.SmallLog,小木材,-
+Tobbert.TrainModel.BigWooden,大木頭,-
+Tobbert.WagonModel.WagonModel,車型：,-
+Tobbert.WagonModel.BoxWagon,貨箱車,-
+Tobbert.WagonModel.TankWagon,罐車,-
+Tobbert.WagonModel.FlatWagon,平板貨車,-
+Tobbert.WagonModel.FlipperWagon,纜車貨車,-
+Tobbert.WagonModel.MetalCart,金屬手推車,-
+Tobbert.WagonModel.PassengerWagon,客運車廂,-
+Tobbert.BatchControl.Trains,火車,-
+Tobbert.Train.Length,列車長度：,-
+Tobbert.Train.Destroy,你確定要摧毀這列火車嗎？,-
+Tobbert.GoodsStation.Distribution.Header,分發商品,-
+Tobbert.GoodsStation.Distribution.Disabled.Info,由於發佈設置，發佈功能已禁用。,-
+Tobbert.GoodsStation.Distribution.Sending.Info,根據分配設置發送的分配集。,-
+Tobbert.GoodsStation.Distribution.Receiving.Info,分配設置為根據分配設定進行接收。,-
+Tobbert.BatchControl.GoodsStation,貨物站,-
+Tobbert.BatchControl.DistributionDisabledAll,禁用所有分配,-
+Tobbert.BatchControl.DistributionDisabled,分發已禁用,-
+Tobbert.BatchControl.DistributionDisabled.Description,完全停用該產品在此站的分發。,-
+Tobbert.BatchControl.DistributionSendingAll,允許發送所有貨物,-
+Tobbert.BatchControl.DistributionSending,允許發送,-
+Tobbert.BatchControl.DistributionSending.Description,車站可以將這個貨物送到其他車站。站內可以容納的最大數量由右側的數量決定。,-
+Tobbert.BatchControl.DistributionReceivingAll,允許接收所有貨物,-
+Tobbert.BatchControl.DistributionReceiving,允許接收,-
+Tobbert.BatchControl.DistributionReceiving.Description,站台可以接收從其他站發送的這些貨物。站內可容納的最大數量由右側的數量決定。,-
+Tobbert.BatchControl.DecreaseMaximum,減少商品的最大數量,-
+Tobbert.BatchControl.DecreaseMaximum.Description,減少車站內可容納的最大人數。單擊為 -1，按住 Shift 為 -10。最大容量為 200。,-
+Tobbert.BatchControl.IncreaseMaximum,增加貨物的最大數量,-
+Tobbert.BatchControl.IncreaseMaximum.Description,增加車站內可容納的最大人數。點擊為 +1，按住 Shift 鍵為 +10。最大容量為 200。,-
+Tobbert.TrackSystem.ToggleSectionDivider,劃分區段：,-
+Tobbert.TrackSystem.ButtonChangeDirection,改變方向,-
+Tobbert.TrackSystem.CollidingSectionDividers,無法連接兩個區段分隔符,-
+Tobbert.ToolGroup.Trains,火車,-
+Tobbert.TrainYard.PreviewErrorMessage,只能建造1個火車場,-
+Tobbert.Trains.UnlockPrompt,您需要解鎖 {0} 以建造 {1}。,-
+Tobbert.DistributionTrain.MinimumOfItemsToMove,最少需移動的物品數量：,-
+Tobbert.TrainNavigation.Unstuck,轉身,-
+Tobbert.TrainNavigation.NoWaitingStation,找不到可用的等待站。,-
+Tobbert.TrainNavigation.NoWaitingStationShort,無等待站,-
+Tobbert.TrainDestination.UnconnectedWarning,本站未連接到任何其他車站。,-
+Tobbert.TrainDestination.UnconnectedWarningShort,未連接的車站,-
+Tobbert.ChooChooSettings.Header,噗噗！,-
+Tobbert.ChooChooSettings.DefaultTrainModel,預設訓練模型：,-
+Tobbert.ChooChooSettings.DefaultWagonModel,預設貨車型號：,-
+Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,嘟！嘟！,-
+Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,打開貨物站選項卡,-
