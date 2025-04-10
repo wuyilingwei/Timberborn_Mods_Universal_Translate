@@ -1,804 +1,804 @@
 ["IgorZ.Automation.DebugPickTool.Title"]
 raw = "Debug tool"
 en = "Debug tool"
-zh_CN = "调试工具"
+zhCN = "调试工具"
 ru = "Инструмент отладки"
 jp = "デバッグツール"
 
 ["IgorZ.Automation.DebugPickTool.Description"]
 raw = "Prints components on the selected object."
 en = "Prints components on the selected object."
-zh_CN = "在选定的对象上打印组件。"
+zhCN = "在选定的对象上打印组件。"
 ru = "Печатает компоненты на выбранном объекте."
 jp = "選択したオブジェクトのコンポーネントを印刷します。"
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint1"]
 raw = "Hold <i>SHIFT</i> to print Accessible."
 en = "Hold <i>SHIFT</i> to print Accessible."
-zh_CN = "按住<i>SHIFT</i>键以打印可访问。"
+zhCN = "按住<i>SHIFT</i>键以打印可访问。"
 ru = "Удерживайте <i>SHIFT</i>, чтобы напечатать Доступно."
 jp = "<i>SHIFT</i>を押して、アクセシブルを印刷します。"
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint2"]
 raw = "Hold <i>CTRL</i> to print NavMesh edges."
 en = "Hold <i>CTRL</i> to print NavMesh edges."
-zh_CN = "按住 <i>CTRL</i> 打印 NavMesh 边缘。"
+zhCN = "按住 <i>CTRL</i> 打印 NavMesh 边缘。"
 ru = "Удерживайте <i>CTRL</i>, чтобы напечатать границы NavMesh."
 jp = "<i>CTRL</i>を押してNavMeshのエッジを印刷します。"
 
 ["IgorZ.Automation.DebugFinishNowTool.Title"]
 raw = "Finish now debug tool"
 en = "Finish now debug tool"
-zh_CN = "完成现在的调试工具"
+zhCN = "完成现在的调试工具"
 ru = "Завершить сейчас инструмент отладки"
 jp = "今、デバッグツールを終了します。"
 
 ["IgorZ.Automation.DebugFinishNowTool.Description"]
 raw = "Immediately finishes the selected constructables."
 en = "Immediately finishes the selected constructables."
-zh_CN = "立即完成所选的可建造物。"
+zhCN = "立即完成所选的可建造物。"
 ru = "Немедленно завершает выбранные строения."
 jp = "選択された建設物をすぐに完成させます。"
 
 ["IgorZ.Automation.ToolGroup.Main.DisplayName"]
 raw = "Setup automation"
 en = "Set up automation"
-zh_CN = "设置自动化"
+zhCN = "设置自动化"
 ru = "Настройка автоматизации"
 jp = "自動化を設定する"
 
 ["IgorZ.Automation.ToolGroup.Terrain.DisplayName"]
 raw = "Terrain changing"
 en = "Terrain changing"
-zh_CN = "地形变化"
+zhCN = "地形变化"
 ru = "Изменение рельефа"
 jp = "地形変更"
 
 ["IgorZ.Automation.ToolGroup.Water.DisplayName"]
 raw = "Water conditions"
 en = "Water conditions"
-zh_CN = "水质条件"
+zhCN = "水质条件"
 ru = "Условия воды"
 jp = "水の状態"
 
 ["IgorZ.Automation.ToolGroup.Power.DisplayName"]
 raw = "Power conditions"
 en = "Power conditions"
-zh_CN = "电源条件"
+zhCN = "电源条件"
 ru = "Условия питания"
 jp = "電力条件"
 
 ["IgorZ.Automation.ToolGroup.Storage.DisplayName"]
 raw = "Storages conditions"
 en = "Storage conditions"
-zh_CN = "储存条件"
+zhCN = "储存条件"
 ru = "Условия хранения"
 jp = "保管条件"
 
 ["IgorZ.Automation.ToolGroup.Population.DisplayName"]
 raw = "Population conditions"
 en = "Population conditions"
-zh_CN = "人口状况"
+zhCN = "人口状况"
 ru = "Условия населения"
 jp = "人口条件"
 
 ["IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 2 times"
 en = "Explode dynamite twice"
-zh_CN = "引爆炸药两次"
+zhCN = "引爆炸药两次"
 ru = "Взорвать динамит 2 раза"
 jp = "ダイナマイトを2回爆発させる"
 
 ["IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 3 times"
 en = "Explode dynamite three times."
-zh_CN = "炸药爆炸三次"
+zhCN = "炸药爆炸三次"
 ru = "Взорвать динамит 3 раза"
 jp = "ダイナマイトを3回爆発させる"
 
 ["IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 4 times"
 en = "Explode dynamite four times."
-zh_CN = "引爆炸药4次"
+zhCN = "引爆炸药4次"
 ru = "Взорвать динамит 4 раза"
 jp = "ダイナマイトを4回爆発させる"
 
 ["IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 5 times"
 en = "Explode dynamite five times."
-zh_CN = "爆炸炸药5次"
+zhCN = "爆炸炸药5次"
 ru = "Взрыв динамита 5 раз"
 jp = "ダイナマイトを5回爆発させる"
 
 ["IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 6 times"
 en = "Explode dynamite six times"
-zh_CN = "爆炸炸药6次"
+zhCN = "爆炸炸药6次"
 ru = "Взорвать динамит 6 раз"
 jp = "ダイナマイトを6回爆発させる"
 
 ["IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description"]
 raw = "This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper."
 en = "This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper."
-zh_CN = "该模板可应用于炸药，无论是已完成的还是仍在建造中的。完成后，炸药将自动引爆，并会放置一个新的炸药蓝图以进行更深的挖掘。"
+zhCN = "该模板可应用于炸药，无论是已完成的还是仍在建造中的。完成后，炸药将自动引爆，并会放置一个新的炸药蓝图以进行更深的挖掘。"
 ru = "Этот шаблон можно применять к динамитам, независимо от того, закончены они или все еще находятся в стадии строительства. После завершения динамит автоматически взорвется, и будет размещен новый чертеж динамита, чтобы копать глубже."
 jp = "このテンプレートは、完成しているダイナマイトでも、まだ建設中のダイナマイトでも適用できます。完成すると、ダイナマイトは自動的に爆発し、新しいダイナマイトの設計図が配置されて、さらに深く掘ることができます。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName"]
 raw = "Empty the storage if capacity is above 50%"
 en = "Empty the storage if capacity is above 50%."
-zh_CN = "如果容量超过50%，请清空存储。"
+zhCN = "如果容量超过50%，请清空存储。"
 ru = "Опустошите хранилище, если его емкость превышает 50%."
 jp = "容量が50％を超える場合はストレージを空にしてください。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName"]
 raw = "Empty the storage if capacity is above 60%"
 en = "Empty the storage if capacity is above 60%."
-zh_CN = "如果存储容量超过60%，请清空存储。"
+zhCN = "如果存储容量超过60%，请清空存储。"
 ru = "Опорожните хранилище, если его заполненность превышает 60%."
 jp = "ストレージが60%を超えた場合は空にしてください。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName"]
 raw = "Empty the storage if capacity is above 70%"
 en = "Empty the storage if the capacity is above 70%."
-zh_CN = "如果存储容量超过70%，请清空存储。"
+zhCN = "如果存储容量超过70%，请清空存储。"
 ru = "Опустошите хранилище, если емкость превышает 70%."
 jp = "容量が70％を超えた場合はストレージを空にしてください。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName"]
 raw = "Empty the storage if capacity is above 80%"
 en = "Empty the storage if capacity is above 80%."
-zh_CN = "如果容量超过80%，请清空存储。"
+zhCN = "如果容量超过80%，请清空存储。"
 ru = "Опустошите хранилище, если его емкость превышает 80%."
 jp = "容量が80％を超えた場合はストレージを空にしてください。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName"]
 raw = "Empty the storage if capacity is above 90%"
 en = "Empty the storage if capacity is above 90%."
-zh_CN = "如果存储容量超过90%，请清空存储。"
+zhCN = "如果存储容量超过90%，请清空存储。"
 ru = "Очистите хранилище, если его емкость превышает 90%."
 jp = "容量が90％を超えた場合は、ストレージを空にしてください。"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description"]
 raw = "This template can be applied to building that produce one type of good and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
 en = "This template can be applied to buildings that produce one type of good and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
-zh_CN = "此模板适用于生产一种商品且没有原材料库存的建筑。如果<i>产出</i>库存水平超过预定阈值，该建筑将转入“空置”模式，以便快速清除商品。"
+zhCN = "此模板适用于生产一种商品且没有原材料库存的建筑。如果<i>产出</i>库存水平超过预定阈值，该建筑将转入“空置”模式，以便快速清除商品。"
 ru = "Этот шаблон можно применить к зданиям, которые производят один вид товара и не имеют запасов сырья. Если уровень запасов <i>выходной</i> продукции превышает предопределенный порог, здание перейдет в режим 'пусто', что облегчит быструю ликвидацию товаров."
 jp = "このテンプレートは、一種類の製品を生産し、投入在庫がない建物に適用できます。もし<i>出力</i>の在庫レベルがあらかじめ設定された閾値を超えると、建物は「空」モードに移行し、商品の迅速な除去を容易にします。"
 
 ["IgorZ.Automation.EmptyOutputStore.CustomStatus"]
 raw = "The building is being emptied on a priority basis."
 en = "The building is being emptied on a priority basis."
-zh_CN = "该建筑正在优先清空。"
+zhCN = "该建筑正在优先清空。"
 ru = "Здание освобождается на приоритетной основе."
 jp = "建物は優先的に空にされています。"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName"]
 raw = "Pause during drought"
 en = "Pause during drought"
-zh_CN = "干旱期间暂停"
+zhCN = "干旱期间暂停"
 ru = "Пауза во время засухи"
 jp = "干ばつの間の一時停止"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.Description"]
 raw = "Apply this template on buildings that should stay paused during droughts."
 en = "Apply this template to buildings that should remain on hold during droughts."
-zh_CN = "将此模板应用于在干旱期间应该暂停的建筑物。"
+zhCN = "将此模板应用于在干旱期间应该暂停的建筑物。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться в режиме паузы во время засухи."
 jp = "干ばつの間に停止すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName"]
 raw = "Pause during badtide"
 en = "Pause during low tide"
-zh_CN = "在恶潮期间暂停"
+zhCN = "在恶潮期间暂停"
 ru = "Пауза во время негативного потока"
 jp = "悪潮の間に一時停止する"
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.Description"]
 raw = "Apply this template on buildings that should stay paused during badtides."
 en = "Apply this template to buildings that should remain paused during bad tides."
-zh_CN = "对在坏潮期间应保持暂停的建筑应用此模板。"
+zhCN = "对在坏潮期间应保持暂停的建筑应用此模板。"
 ru = "Примените этот шаблон на зданиях, которые должны оставаться в паузе во время плохих приливов."
 jp = "高潮時に一時停止すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName"]
 raw = "Pause during temperate weather"
 en = "Pause during temperate weather"
-zh_CN = "在温和的天气中暂停"
+zhCN = "在温和的天气中暂停"
 ru = "Пауза в умеренную погоду"
 jp = "温暖な天候の際に一時停止する"
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.Description"]
 raw = "Apply this template on buildings that should stay paused during temperate weather."
 en = "Apply this template to buildings that should remain paused during temperate weather."
-zh_CN = "在温带天气期间，应用此模板于应保持暂停状态的建筑物。"
+zhCN = "在温带天气期间，应用此模板于应保持暂停状态的建筑物。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться в замороженном состоянии во время умеренной погоды."
 jp = "気温の穏やかな天候の際に一時停止すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName"]
 raw = "Close floodgate during drought"
 en = "Close floodgate during drought"
-zh_CN = "在干旱期间关闭闸门"
+zhCN = "在干旱期间关闭闸门"
 ru = "Закройте затвор во время засухи"
 jp = "干ばつ時に水門を閉じる"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that should close when drougth starts."
 en = "Apply this template to floodgates that should close when drought begins."
-zh_CN = "应用这个模板于在干旱开始时应该关闭的防洪闸。"
+zhCN = "应用这个模板于在干旱开始时应该关闭的防洪闸。"
 ru = "Примените этот шаблон к затворам, которые должны закрываться, когда начинается засуха."
 jp = "干ばつが始まると閉じるべき防潮扉にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName"]
 raw = "Open floodgate during drought"
 en = "Open floodgate during drought"
-zh_CN = "干旱时打开闸门"
+zhCN = "干旱时打开闸门"
 ru = "Открыть шлюз во время засухи"
 jp = "干ばつ時に閘門を開く"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should open when drougth starts."
 en = "Apply this template on floodgates that should open when drought starts."
-zh_CN = "应用此模板于在干旱开始时应开启的闸门。"
+zhCN = "应用此模板于在干旱开始时应开启的闸门。"
 ru = "Примените этот шаблон к затворам, которые должны открываться, когда начинается засуха."
 jp = "干ばつが始まると開くべき洪水ゲートにこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName"]
 raw = "Open water regulator during drought"
 en = "Open water regulator during drought"
-zh_CN = "干旱期间开放水域监管者"
+zhCN = "干旱期间开放水域监管者"
 ru = "Открытый водный регулятор во время засухи"
 jp = "干ばつ時の淡水調整器"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description"]
 raw = "Apply this template on water regulators that need to be open during droughts."
 en = "Apply this template on water regulators that need to be open during droughts."
-zh_CN = "在干旱期间，水资源管理机构需要保持开放。"
+zhCN = "在干旱期间，水资源管理机构需要保持开放。"
 ru = "Примените этот шаблон к водным регуляторам, которые должны быть открыты во время засухи."
 jp = "干ばつの際に開放される必要がある水規制者にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName"]
 raw = "Close floodgate during badtide"
 en = "Close floodgate during low tide."
-zh_CN = "在恶潮期间关闭闸门"
+zhCN = "在恶潮期间关闭闸门"
 ru = "Закройте затвор во время плохого прилива."
 jp = "悪潮の時に閘門を閉じる"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when badtide starts."
 en = "Apply this template to floodgates that need to close when bad tide starts."
-zh_CN = "将此模板应用于在恶潮开始时需要关闭的防潮闸。"
+zhCN = "将此模板应用于在恶潮开始时需要关闭的防潮闸。"
 ru = "Примените этот шаблон на затворах, которые нужно закрывать, когда начинается плохой прилив."
 jp = "高潮が始まると閉じる必要がある洪水ゲートにこのテンプレートを適用します。"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName"]
 raw = "Open floodgate during badtide"
 en = "Open floodgate during low tide"
-zh_CN = "在低潮时打开闸门"
+zhCN = "在低潮时打开闸门"
 ru = "Открыть шлюз во время плохого прилива"
 jp = "悪潮時に洪水ゲートを開ける"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when badtide ends."
 en = "Apply this template on floodgates that need to open when the bad tide ends."
-zh_CN = "在潮汐结束时需要开启的闸门应用此模板。"
+zhCN = "在潮汐结束时需要开启的闸门应用此模板。"
 ru = "Примените этот шаблон к затворам, которые необходимо открыть, когда плохой прилив заканчивается."
 jp = "悪潮が終わったときに開く必要のある水門にこのテンプレートを適用します。"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName"]
 raw = "Close floodgate during temperate weather"
 en = "Close the floodgate during temperate weather."
-zh_CN = "在温和天气时关闭闸门"
+zhCN = "在温和天气时关闭闸门"
 ru = "Закройте затвор во время умеренной погоды"
 jp = "温暖な天候の際は水門を閉じる"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when drought or badtide ends."
 en = "Apply this template on floodgates that need to close when drought or bad tide ends."
-zh_CN = "应用此模板于需要在干旱或坏潮结束时关闭的洪水闸门。"
+zhCN = "应用此模板于需要在干旱或坏潮结束时关闭的洪水闸门。"
 ru = "Примените этот шаблон к затворам, которые необходимо закрыть, когда заканчивается засуха или плохое潮."
 jp = "干ばつや悪潮が終わるときに閉じる必要がある排水口にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName"]
 raw = "Open floodgate during temperate weather"
 en = "Open floodgate during temperate weather"
-zh_CN = "在温和天气时打开闸门"
+zhCN = "在温和天气时打开闸门"
 ru = "Откройте шлюз во время умеренной погоды."
 jp = "温暖な天候の間に水門を開ける"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when drought or badtide ends."
 en = "Apply this template to floodgates that need to open when drought or low tide ends."
-zh_CN = "在干旱或坏潮结束时，需要开启的闸门。"
+zhCN = "在干旱或坏潮结束时，需要开启的闸门。"
 ru = "Примените этот шаблон к шлюзам, которые необходимо открывать, когда заканчивается засуха или плохой отлив."
 jp = "干ばつや悪潮が終わったときに開く必要のある洪水ゲートにこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName"]
 raw = "Slightly open floodgate during temperate weather"
 en = "Slightly open floodgate during temperate weather"
-zh_CN = "在温和天气下略微开启闸门"
+zhCN = "在温和天气下略微开启闸门"
 ru = "Незначительно открытый шлюз в умеренную погоду"
 jp = "温暖な天候時にわずかに開いた排水門"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should close to 0.5m below their max when drought or badtide ends."
 en = "Apply this template on floodgates that should close to 0.5m below their maximum when drought or bad tide ends."
-zh_CN = "应用此模板于洪水闸，当干旱或潮汐结束时，应关闭至最大高度下方0.5米。"
+zhCN = "应用此模板于洪水闸，当干旱或潮汐结束时，应关闭至最大高度下方0.5米。"
 ru = "Примените этот шаблон к затворным дверям, которые должны закрываться на 0,5 м ниже максимума, когда заканчивается засуха или плохая приливная волна."
 jp = "干ばつや悪潮が終わると、最大から0.5m下で閉じるべき洪水ゲートにこのテンプレートを適用します。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName"]
 raw = "Bot population at +10 level"
 en = "Bot population at level +10"
-zh_CN = "机器人数量达到+10级"
+zhCN = "机器人数量达到+10级"
 ru = "Население ботов на уровне +10"
 jp = "ボットの人口は+10レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 10 bots."
 en = "Apply this template to buildings that should be operational until the bot population exceeds the current level by 10 bots."
-zh_CN = "将此模板应用于应继续运行的建筑，直到机器人数量超过当前水平10个机器人。"
+zhCN = "将此模板应用于应继续运行的建筑，直到机器人数量超过当前水平10个机器人。"
 ru = "Примените этот шаблон к зданиям, которые должны функционировать до тех пор, пока население ботов не превысит текущий уровень на 10 ботов."
 jp = "ボットの人口が現在のレベルを10ボット超えるまで稼働すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName"]
 raw = "Bot population at +20 level"
 en = "Bot population at level +20"
-zh_CN = "20级的机器人数量"
+zhCN = "20级的机器人数量"
 ru = "Популяция ботов на уровне +20"
 jp = "ボットの人口はレベル20で+20です。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 20 bots."
 en = "Apply this template to buildings that should be operational until the bot population increases by 20 bots beyond the current level."
-zh_CN = "将此模板应用于应持续运行的建筑，直到机器人数量超过当前水平20个机器人为止。"
+zhCN = "将此模板应用于应持续运行的建筑，直到机器人数量超过当前水平20个机器人为止。"
 ru = "Примените этот шаблон к зданиям, которые должны функционировать до тех пор, пока количество ботов не превысит текущий уровень на 20 ботов."
 jp = "このテンプレートを、ボットの人口が現在のレベルを20ボット上回るまで運用されるべき建物に適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName"]
 raw = "Bot population at -10 level"
 en = "Bot population at -10 level"
-zh_CN = "机器人数量为-10级"
+zhCN = "机器人数量为-10级"
 ru = "Популяция ботов на уровне -10"
 jp = "ボットの人口は-10レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 10 beavers below the current level."
 en = "Apply this template to buildings that must remain on hold until the beaver population decreases by 10 below the current level."
-zh_CN = "将此模板应用于必须暂停的建筑，直到机器人工蜂的数量下降到当前水平以下10只海狸。"
+zhCN = "将此模板应用于必须暂停的建筑，直到机器人工蜂的数量下降到当前水平以下10只海狸。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться приостановленными, пока популяция ботов не упадет на 10 бобров ниже текущего уровня."
 jp = "このテンプレートを、ボットの人口が現在のレベルより10匹のビーバー減るまで一時停止する必要がある建物に適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName"]
 raw = "Bot population at -20 level"
 en = "Bot population at -20 level"
-zh_CN = "机器人数量处于-20级别"
+zhCN = "机器人数量处于-20级别"
 ru = "Популяция ботов на уровне -20"
 jp = "ボットの人口は-20レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level."
 en = "Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level."
-zh_CN = "将这个模板应用于必须暂停的建筑，直到机器人数减少到比当前水平低20只海狸为止。"
+zhCN = "将这个模板应用于必须暂停的建筑，直到机器人数减少到比当前水平低20只海狸为止。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться приостановленными, пока численность населения бобров не снизится на 20 бобров ниже текущего уровня."
 jp = "このテンプレートを、ボットの人口が現在のレベルより20匹のビーバーを下回るまで、停止し続けなければならない建物に適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName"]
 raw = "Run until beaver population is at max"
 en = "Run until the beaver population is at maximum."
-zh_CN = "运行直到海狸种群达到最大值"
+zhCN = "运行直到海狸种群达到最大值"
 ru = "Запускайте, пока популяция бобров не достигнет максимума."
 jp = "ビーバーの個体数が最大になるまで走り続けてください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description"]
 raw = "Apply this template to buildings that should be running as long as there are unoccupied beds."
 en = "Apply this template to buildings that should operate as long as there are unoccupied beds."
-zh_CN = "将此模板应用于应持续运行的建筑，只要有空床位。"
+zhCN = "将此模板应用于应持续运行的建筑，只要有空床位。"
 ru = "Примените этот шаблон к зданиям, которые должны работать, пока есть незанятые койки."
 jp = "空いているベッドがある限り稼働すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName"]
 raw = "Beaver population at +10 level"
 en = "Beaver population at +10 level"
-zh_CN = "河狸种群在+10水平"
+zhCN = "河狸种群在+10水平"
 ru = "Популяция бобров на уровне +10"
 jp = "ビーバーの個体数が+10レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 10 beavers."
 en = "Apply this template to buildings that should be operational until the beaver population exceeds the current level by 10 beavers."
-zh_CN = "将此模板应用于那些在海狸数量超过当前水平 10 只之前应继续运行的建筑。"
+zhCN = "将此模板应用于那些在海狸数量超过当前水平 10 只之前应继续运行的建筑。"
 ru = "Примените этот шаблон к зданиям, которые должны работать до тех пор, пока популяция бобров не превысит текущий уровень на 10 бобров."
 jp = "ビーバーの数が現在の水準を10匹超えるまで稼働する必要がある建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName"]
 raw = "Beaver population at +20 level"
 en = "Beaver population at +20 level"
-zh_CN = "海狸种群达到+20级"
+zhCN = "海狸种群达到+20级"
 ru = "Популяция бобров на уровне +20"
 jp = "ビーバーの個体数は+20レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 20 beavers."
 en = "Apply this template to buildings that should operate until the beaver population surpasses the current level by 20 beavers."
-zh_CN = "将此模板应用于应继续运行的建筑，直到海狸数量超过当前水平20只海狸为止。"
+zhCN = "将此模板应用于应继续运行的建筑，直到海狸数量超过当前水平20只海狸为止。"
 ru = "Примените этот шаблон к зданиям, которые должны функционировать, пока численность бобров не превысит текущий уровень на 20 бобров."
 jp = "このテンプレートを、ビーバーの個体数が現在のレベルを20匹超えるまで稼働すべき建物に適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName"]
 raw = "Beaver population at -10 level"
 en = "Beaver population at -10 level"
-zh_CN = "海狸种群处于-10水平"
+zhCN = "海狸种群处于-10水平"
 ru = "Популяция бобров на уровне -10"
 jp = "ビーバーの個体数が-10レベルです。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 10 beavers below the current level."
 en = "Apply this template to buildings that should remain paused until the beaver population drops 10 beavers below the current level."
-zh_CN = "将此模板应用于应保持暂停的建筑，直到河狸种群下降至当前水平以下10只河狸。"
+zhCN = "将此模板应用于应保持暂停的建筑，直到河狸种群下降至当前水平以下10只河狸。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться в ожидании, пока популяция бобров не упадет на 10 бобров ниже текущего уровня."
 jp = "ビーバーの個体数が現在のレベルより10匹少なくなるまで、一時停止すべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName"]
 raw = "Beaver population at -20 level"
 en = "Beaver population at -20 level"
-zh_CN = "在-20水平的海狸种群"
+zhCN = "在-20水平的海狸种群"
 ru = "Популяция бобров на уровне -20"
 jp = "ビーバーの個体数が-20のレベルである"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 20 beavers below the current level."
 en = "Apply this template to buildings that should remain paused until the beaver population drops 20 beavers below the current level."
-zh_CN = "将此模板应用于应保持暂停状态的建筑，直到海狸数量下降到目前水平以下20只。"
+zhCN = "将此模板应用于应保持暂停状态的建筑，直到海狸数量下降到目前水平以下20只。"
 ru = "Примените этот шаблон к зданиям, которые должны оставаться в режиме паузы, пока популяция бобров не снизится на 20 бобров ниже текущего уровня."
 jp = "ビーバーの数が現在のレベルよりも20匹少なくなるまで、停止したままであるべき建物にこのテンプレートを適用してください。"
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildeings.DisplayName"]
 raw = "Don't block builders"
 en = "Don't block builders."
-zh_CN = "不要阻碍建设者。"
+zhCN = "不要阻碍建设者。"
 ru = "Не блокируйте строителей"
 jp = "ビルダーをブロックしないでください"
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildeings.Description"]
 raw = "Apply this template to construction sites that may block builders' paths. Note: Results not guaranteed, especially if buildings are not at the same level."
 en = "Apply this template to construction sites that may obstruct builders' paths. Note: Results are not guaranteed, especially if buildings are not at the same elevation."
-zh_CN = "将此模板应用于可能阻挡建筑工人通行的建筑工地。注意：结果不保证，特别是在建筑物不在同一水平时。"
+zhCN = "将此模板应用于可能阻挡建筑工人通行的建筑工地。注意：结果不保证，特别是在建筑物不在同一水平时。"
 ru = "Примените этот шаблон к строительным площадкам, которые могут блокировать пути строителей. Примечание: Результаты не гарантированы, особенно если здания не на одном уровне."
 jp = "建設現場が作業員の通行を妨げる可能性がある場合、このテンプレートを適用してください。注：結果は保証されません、特に建物の高さが同じでない場合は注意が必要です。"
 
 ["IgorZ.Automation.CancelTool.Title"]
 raw = "Cancel automation"
 en = "Cancel automation"
-zh_CN = "取消自动化"
+zhCN = "取消自动化"
 ru = "Отменить автоматизацию"
 jp = "自動化をキャンセルする"
 
 ["IgorZ.Automation.CancelTool.Description"]
 raw = "Use this tool to cleanup any automation on the buildings or construction sites."
 en = "Use this tool to clean up any automation on the buildings or construction sites."
-zh_CN = "使用此工具清理建筑物或施工现场的任何自动化。"
+zhCN = "使用此工具清理建筑物或施工现场的任何自动化。"
 ru = "Используйте этот инструмент для очистки любого автомата на зданиях или строительных площадках."
 jp = "このツールを使用して、建物や建設現場の自動化を整理します。"
 
 ["IgorZ.Automation.PauseTool.Title"]
 raw = "Pause buildings"
 en = "Pause buildings"
-zh_CN = "暂停建筑"
+zhCN = "暂停建筑"
 ru = "Приостановить строительство"
 jp = "一時停止建物"
 
 ["IgorZ.Automation.PauseTool.Description"]
 raw = "Use this tool to pause buildings and construction sites."
 en = "Use this tool to pause buildings and construction sites."
-zh_CN = "使用此工具暂停建筑和施工现场。"
+zhCN = "使用此工具暂停建筑和施工现场。"
 ru = "Используйте этот инструмент для приостановки зданий и строительных площадок."
 jp = "このツールを使って建物や建設現場を一時停止してください。"
 
 ["IgorZ.Automation.ResumeTool.Title"]
 raw = "Unpause buildings"
 en = "Unpause buildings"
-zh_CN = "重新启动建筑物"
+zhCN = "重新启动建筑物"
 ru = "Разблокировать здания"
 jp = "建物の再開"
 
 ["IgorZ.Automation.ResumeTool.Description"]
 raw = "Use this tool to unpause buildings and construction sites."
 en = "Use this tool to unpause buildings and construction sites."
-zh_CN = "使用此工具解除建筑物和工地的暂停。"
+zhCN = "使用此工具解除建筑物和工地的暂停。"
 ru = "Используйте этот инструмент, чтобы возобновить работу зданий и строительных площадок."
 jp = "このツールを使用して、建物や建設現場の一時停止を解除します。"
 
 ["IgorZ.Automation.DummyTitle"]
 raw = "Generic title"
 en = "Generic title"
-zh_CN = "通用标题"
+zhCN = "通用标题"
 ru = "Общее название"
 jp = "一般的なタイトル"
 
 ["IgorZ.Automation.DummyDescirption"]
 raw = "Generic descirption"
 en = "Generic description"
-zh_CN = "通用描述"
+zhCN = "通用描述"
 ru = "Общее описание"
 jp = "一般的な説明"
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
 en = "Selecting: {0}"
-zh_CN = "选择: {0}"
+zhCN = "选择: {0}"
 ru = "Выбор: {0}"
 jp = "選択中: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
 en = "Selecting: {0} (x{1})"
-zh_CN = "选择: {0} (x{1})"
+zhCN = "选择: {0} (x{1})"
 ru = "Выбор: {0} (x{1})"
 jp = "選択中: {0} (x{1})"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
 en = "Point to an entity and click to start selecting."
-zh_CN = "指向一个实体，然后单击开始选择"
+zhCN = "指向一个实体，然后单击开始选择"
 ru = "Укажите на объект и нажмите, чтобы начать выбор."
 jp = "エンティティを指し、選択を開始するにはクリックしてください。"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
 en = "Click to start selecting: {0}"
-zh_CN = "点击开始选择: {0}"
+zhCN = "点击开始选择: {0}"
 ru = "Нажмите, чтобы начать выбор: {0}"
 jp = "選択を開始するにはクリックしてください: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
 en = "Hold <i>SHIFT</i> to select items of one type only."
-zh_CN = "按住 <i>SHIFT</i> 只选择一种类型的物品。"
+zhCN = "按住 <i>SHIFT</i> 只选择一种类型的物品。"
 ru = "Удерживайте <i>SHIFT</i>, чтобы выбрать только элементы одного типа."
 jp = "<i>SHIFT</i>キーを押しながら、1種類のアイテムのみを選択してください。"
 
 ["IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey"]
 raw = "Automation rules:"
 en = "Automation rules:"
-zh_CN = "自动化规则："
+zhCN = "自动化规则："
 ru = "Правила автоматизации:"
 jp = "自動化ルール："
 
 ["IgorZ.Automation.AutomationFragment.RuleTextLocKey"]
 raw = "If {0}, then {1}"
 en = "If {0}, then {1}"
-zh_CN = "如果{0}，那么{1}"
+zhCN = "如果{0}，那么{1}"
 ru = "Если {0}, то {1}"
 jp = "もし {0} なら、{1}"
 
 ["IgorZ.Automation.DetonateDynamiteAction.Description"]
 raw = "<SolidHighlight>detonate dynamite</SolidHighlight>"
 en = "detonate dynamite"
-zh_CN = "引爆炸药"
+zhCN = "引爆炸药"
 ru = "<SolidHighlight>взорвать динамит</SolidHighlight>"
 jp = "ダイナマイトを爆破する"
 
 ["IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo"]
 raw = " and add another <GreenHighlight>{0} times</GreenHighlight>"
 en = " and add another <GreenHighlight>{0} times</GreenHighlight>"
-zh_CN = "并添加另一个<GreenHighlight>{0} 次</GreenHighlight>"
+zhCN = "并添加另一个<GreenHighlight>{0} 次</GreenHighlight>"
 ru = "и добавьте еще <GreenHighlight>{0} раз</GreenHighlight>"
 jp = "<GreenHighlight>{0}回</GreenHighlight> 추가してください。"
 
 ["IgorZ.Automation.DroughtEndedCondition.Description"]
 raw = "<SolidHighlight>drought ended</SolidHighlight>"
 en = "drought ended"
-zh_CN = "<SolidHighlight>干旱结束</SolidHighlight>"
+zhCN = "<SolidHighlight>干旱结束</SolidHighlight>"
 ru = "<СолидХайлат>вода закончилась</СолидХайлат>"
 jp = "<SolidHighlight>干ばつが終わった</SolidHighlight>"
 
 ["IgorZ.Automation.DroughtStartedCondition.Description"]
 raw = "<SolidHighlight>drought started</SolidHighlight>"
 en = "The drought has started."
-zh_CN = "干旱开始了"
+zhCN = "干旱开始了"
 ru = "<СолидХайлайт>началась засуха</СолидХайлайт>"
 jp = "干ばつが始まった"
 
 ["IgorZ.Automation.MarkForEmptyingAction.Description"]
 raw = "<SolidHighlight>empty storage</SolidHighlight>"
 en = "empty storage"
-zh_CN = "<大号高亮>空存储</大号高亮>"
+zhCN = "<大号高亮>空存储</大号高亮>"
 ru = "<СолидноеПодсечение>пустое хранилище</СолидноеПодсечение>"
 jp = "<SolidHighlight>空のストレージ</SolidHighlight>"
 
 ["IgorZ.Automation.ObjectFinishedCondition.Description"]
 raw = "<SolidHighlight>construction complete</SolidHighlight>"
 en = "construction complete"
-zh_CN = "<SolidHighlight>施工完成</SolidHighlight>"
+zhCN = "<SolidHighlight>施工完成</SolidHighlight>"
 ru = "<СолидноеВыделение>строительство завершено</СолидноеВыделение>"
 jp = "<SolidHighlight>工事完了</SolidHighlight>"
 
 ["IgorZ.Automation.OutputStockAboveThresholdCondition.Description"]
 raw = "<SolidHighlight>output stock above {0}%</SolidHighlight>"
 en = "Output stock above {0}%"
-zh_CN = "<SolidHighlight>输出库存超过 {0}%</SolidHighlight>"
+zhCN = "<SolidHighlight>输出库存超过 {0}%</SolidHighlight>"
 ru = "<SolidHighlight>выходной запас выше {0}%</SolidHighlight>"
 jp = "<SolidHighlight>出力在庫が{0}%以上</SolidHighlight>"
 
 ["IgorZ.Automation.OutputStockBelowThresholdCondition.Description"]
 raw = "<SolidHighlight>output stock below {0}%</SolidHighlight>"
 en = "<StrongHighlight>output stock below {0}%</StrongHighlight>"
-zh_CN = "<SolidHighlight>库存低于 {0}%</SolidHighlight>"
+zhCN = "<SolidHighlight>库存低于 {0}%</SolidHighlight>"
 ru = "<SolidHighlight>остаток на складе ниже {0}%</SolidHighlight>"
 jp = "<SolidHighlight>在庫が{0}%未満</SolidHighlight>"
 
 ["IgorZ.Automation.PauseAction.Description"]
 raw = "<SolidHighlight>pause building</SolidHighlight>"
 en = "pause building"
-zh_CN = "暂停建设"
+zhCN = "暂停建设"
 ru = "<СолидноеВыделение>приостановить строительство</СолидноеВыделение>"
 jp = "ビルディングを一時停止"
 
 ["IgorZ.Automation.SetFloodgateHeightAction.Description"]
 raw = "<SolidHighlight>set height to {0}</SolidHighlight>"
 en = "set height to {0}"
-zh_CN = "<SolidHighlight>将高度设置为 {0}</SolidHighlight>"
+zhCN = "<SolidHighlight>将高度设置为 {0}</SolidHighlight>"
 ru = "<SolidHighlight>установить высоту на {0}</SolidHighlight>"
 jp = "<SolidHighlight>高さを {0} に設定</SolidHighlight>"
 
 ["IgorZ.Automation.UnmarkForEmptyingAction.Description"]
 raw = "<SolidHighlight>stop emptying storage</SolidHighlight>"
 en = "stop emptying storage"
-zh_CN = "停止清空存储"
+zhCN = "停止清空存储"
 ru = "<СолидХайлайт>остановите очищение хранилища</СолидХайлайт>"
 jp = "ストレージを空にするのをやめてください"
 
 ["IgorZ.Automation.UnpauseAction.Description"]
 raw = "<SolidHighlight>unpause building</SolidHighlight>"
 en = "unpause building"
-zh_CN = "<SolidHighlight>取消暂停建筑</SolidHighlight>"
+zhCN = "<SolidHighlight>取消暂停建筑</SolidHighlight>"
 ru = "<СолидныйВыделение>возобновить строительство</СолидныйВыделение>"
 jp = "ビルディングを再開する"
 
 ["IgorZ.Automation.WaterRegulatorStateActionClose.Description"]
 raw = "<SolidHighlight>close water regulator</SolidHighlight>"
 en = "Close water regulator"
-zh_CN = "关闭水调节器"
+zhCN = "关闭水调节器"
 ru = "Закрыть водорегулятор"
 jp = "水調整装置を閉じる"
 
 ["IgorZ.Automation.WaterRegulatorStateActionOpen.Description"]
 raw = "<SolidHighlight>open water regulator</SolidHighlight>"
 en = "open water regulator"
-zh_CN = "开放水域调节器"
+zhCN = "开放水域调节器"
 ru = "<СильноеВыделение>регулятор открытой воды</СильноеВыделение>"
 jp = "オープンウォーター規制官"
 
 ["IgorZ.Automation.BadtideEndedCondition.Description"]
 raw = "<SolidHighlight>badtide ended</SolidHighlight>"
 en = "badtide ended"
-zh_CN = "坏潮结束"
+zhCN = "坏潮结束"
 ru = "<b>плохой прилив закончился</b>"
 jp = "バッドタイドが終了しました"
 
 ["IgorZ.Automation.BadtideStartedCondition.Description"]
 raw = "<SolidHighlight>badtide started</SolidHighlight>"
 en = "badtide started"
-zh_CN = "恶潮开始了"
+zhCN = "恶潮开始了"
 ru = "<b>плохой прилив начался</b>"
 jp = "<b>悪潮が始まりました</b>"
 
 ["IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description"]
 raw = "<SolidHighlight>less than {0} beavers in district</SolidHighlight>"
 en = "Less than {0} beavers in district"
-zh_CN = "<SolidHighlight>区域内的海狸少于 {0} 只</SolidHighlight>"
+zhCN = "<SolidHighlight>区域内的海狸少于 {0} 只</SolidHighlight>"
 ru = "<СолидноеПодсвечивание>менее чем {0} бобров в округе</СолидноеПодсвечивание>"
 jp = "<SolidHighlight>地区にビーバーが{0}匹未満</SolidHighlight>"
 
 ["IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description"]
 raw = "<SolidHighlight>more than {0} beavers in district</SolidHighlight>"
 en = "more than {0} beavers in district"
-zh_CN = "<SolidHighlight>区内有超过 {0} 只海狸</SolidHighlight>"
+zhCN = "<SolidHighlight>区内有超过 {0} 只海狸</SolidHighlight>"
 ru = "<SolidHighlight>более {0} бобров в районе</SolidHighlight>"
 jp = "<SolidHighlight>地区内に{0}匹以上のビーバー</SolidHighlight>"
 
 ["IgorZ.Automation.BotPopulationBelowThresholdCondition.Description"]
 raw = "<SolidHighlight>less than {0} bots in district</SolidHighlight>"
 en = "Less than {0} bots in district"
-zh_CN = "<SolidHighlight>区域内的机器人少于 {0} 个</SolidHighlight>"
+zhCN = "<SolidHighlight>区域内的机器人少于 {0} 个</SolidHighlight>"
 ru = "<СолидХайлайт>менее {0} ботов в районе</СолидХайлайт>"
 jp = "<SolidHighlight>地区にボットが{0}未満</SolidHighlight>"
 
 ["IgorZ.Automation.BotPopulationAboveThresholdCondition.Description"]
 raw = "<SolidHighlight>more than {0} bots in district</SolidHighlight>"
 en = "more than {0} bots in district"
-zh_CN = "<SolidHighlight>地区中超过 {0} 个机器人</SolidHighlight>"
+zhCN = "<SolidHighlight>地区中超过 {0} 个机器人</SolidHighlight>"
 ru = "<SolidHighlight>более {0} ботов в районе</SolidHighlight>"
 jp = "<SolidHighlight>地区内に{0}以上のボットがいます</SolidHighlight>"
 
 ["IgorZ.Automation.PopulationRelativeToMaxArg"]
 raw = "MAX{0}"
 en = "MAX{0}"
-zh_CN = "最大值{0}"
+zhCN = "最大值{0}"
 ru = "МАКС{0}"
 jp = "最大{0}"
 
 ["IgorZ.Automation.PopulationRelativeToCurrentArg"]
 raw = "NOW{0}"
 en = "NOW"
-zh_CN = "现在{0}"
+zhCN = "现在{0}"
 ru = "СЕЙЧАС{0}"
 jp = "今{0}"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description"]
 raw = "<SolidHighlight>blocks path</SolidHighlight>"
 en = "blocks path"
-zh_CN = "阻挡路径"
+zhCN = "阻挡路径"
 ru = "<SolidHighlight>блокирует путь</SolidHighlight>"
 jp = "<SolidHighlight>経路をブロックします</SolidHighlight>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description"]
 raw = "<SolidHighlight>doesn't block path</SolidHighlight>"
 en = "doesn't block path"
-zh_CN = "<SolidHighlight>不阻挡路径</SolidHighlight>"
+zhCN = "<SolidHighlight>不阻挡路径</SolidHighlight>"
 ru = "<SolidHighlight>не блокирует путь</SolidHighlight>"
 jp = "<SolidHighlight>パスをブロックしません</SolidHighlight>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable"]
 raw = "Builders can't reach it yet, but a path is being constructed"
 en = "Builders can't reach it yet, but a path is being constructed."
-zh_CN = "建筑工人还无法到达那里，但正在修建一条道路。"
+zhCN = "建筑工人还无法到达那里，但正在修建一条道路。"
 ru = "Строители пока не могут добраться до этого места, но идет строительство пути."
 jp = "建設者たちはまだそれに到達できませんが、道が建設されています。"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus"]
 raw = "The builders can't find the way to this site. Maybe nothing can be constructed here"
 en = "The builders can't find the way to this site. Maybe nothing can be constructed here."
-zh_CN = " builders can't find the way to this site. Maybe nothing can be constructed here."
+zhCN = " builders can't find the way to this site. Maybe nothing can be constructed here."
 ru = "Строители не могут найти путь к этому участку. Возможно, здесь ничего нельзя построить."
 jp = "建設作業員はこの場所への道を見つけられません。もしかしたら、ここでは何も建設できないかもしれません。"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert"]
 raw = "Unreachable construction site"
 en = "Unreachable construction site"
-zh_CN = "无法到达的建筑工地"
+zhCN = "无法到达的建筑工地"
 ru = "Недоступная строительная площадка"
 jp = "アクセスできない建設現場"
 
 ["IgorZ.Automation.ShowStatusAction.HoldConstruction"]
 raw = "<SolidHighlight>hold completion</SolidHighlight>"
 en = "hold completion"
-zh_CN = "<SolidHighlight>保持完成</SolidHighlight>"
+zhCN = "<SolidHighlight>保持完成</SolidHighlight>"
 ru = "<SolidHighlight>удержание завершения</SolidHighlight>"
 jp = "<SolidHighlight>保持完了</SolidHighlight>"
 
 ["IgorZ.Automation.ShowStatusAction.ResumeConstruction"]
 raw = "<SolidHighlight>resume building</SolidHighlight>"
 en = "resume building"
-zh_CN = "简历制作"
+zhCN = "简历制作"
 ru = "Создание резюме"
 jp = "履歴書作成"
 
 ["IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText"]
 raw = "Waiting for the other buildings to finish"
 en = "Waiting for the other buildings to finish"
-zh_CN = "等待其他建筑完工"
+zhCN = "等待其他建筑完工"
 ru = "Ожидание завершения строительства других зданий"
 jp = "他の建物が完成するのを待っています。"
 
 ["IgorZ.Automation.BlockableBuildingAction.BlockDescription"]
 raw = "<SolidHighlight>block building</SolidHighlight>"
 en = "block building"
-zh_CN = "<SolidHighlight>建筑块</SolidHighlight>"
+zhCN = "<SolidHighlight>建筑块</SolidHighlight>"
 ru = "блочное строительство"
 jp = "ブロックビルディング"
 
 ["IgorZ.Automation.BlockableBuildingAction.UnblockDescription"]
 raw = "<SolidHighlight>unblock building</SolidHighligh>"
 en = "unblock building"
-zh_CN = "解封建筑"
+zhCN = "解封建筑"
 ru = "разблокировать здание"
 jp = "建物の遮断を解除する"
 
 ["IgorZ.Automation.BlockableBuildingAction.BlockText"]
 raw = "Waiting for the other buildings to finish"
 en = "Waiting for the other buildings to finish"
-zh_CN = "等待其他建筑完工"
+zhCN = "等待其他建筑完工"
 ru = "Ждем, когда закончат остальные здания."
 jp = "他の建物が完成するのを待っています。"

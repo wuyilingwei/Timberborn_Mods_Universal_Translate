@@ -1,62 +1,62 @@
 ["LV.CAS.Enabled"]
 raw = "Enabled"
 en = "Enabled"
-zh_CN = "已启用"
+zhCN = "已启用"
 ru = "Включено"
 jp = "有効化された"
 
 ["LV.CAS.EnabledDesc"]
 raw = "Whether this mod is enabled."
 en = "Whether this mod is enabled."
-zh_CN = "该模组是否已启用。"
+zhCN = "该模组是否已启用。"
 ru = "Включен ли этот мод."
 jp = "このモッドが有効かどうか。"
 
 ["LV.CAS.SaveFrequency"]
 raw = "Auto-save frequency (real-life minute)"
 en = "Auto-save frequency (in real-life minutes)"
-zh_CN = "自动保存频率（真实分钟）"
+zhCN = "自动保存频率（真实分钟）"
 ru = "Частота автоматического сохранения (реальная минута)"
 jp = "自動保存の頻度（実際の分）"
 
 ["LV.CAS.SaveFrequencyDesc"]
 raw = "How often should auto-save saves. Game default: 10"
 en = "How often should auto-save occur? Game default: 10"
-zh_CN = "自动保存的频率应该是多少？游戏默认：10。"
+zhCN = "自动保存的频率应该是多少？游戏默认：10。"
 ru = "Как часто должно происходить автосохранение? Значение по умолчанию для игры: 10."
 jp = "自動保存はどのくらいの頻度で行うべきですか。ゲームのデフォルト: 10"
 
 ["LV.CAS.SaveCount"]
 raw = "Auto-save count"
 en = "Auto-save count"
-zh_CN = "自动保存计数"
+zhCN = "自动保存计数"
 ru = "Количество авто-сохранений"
 jp = "自動保存回数"
 
 ["LV.CAS.SaveCountDesc"]
 raw = "How many auto-saves should be kept. Game default: 3"
 en = "How many auto-saves should be kept? Game default: 3"
-zh_CN = "应该保留多少个自动保存。游戏默认：3"
+zhCN = "应该保留多少个自动保存。游戏默认：3"
 ru = "Сколько автосохранений должно быть сохранено. Значение по умолчанию в игре: 3"
 jp = "自動保存は何件保持するべきですか。ゲームのデフォルト：3"
 
 ["LV.CAS.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
 en = "Extra savings on weather warning"
-zh_CN = "额外保存天气警报"
+zhCN = "额外保存天气警报"
 ru = "Дополнительная экономия на предупреждении о погоде"
 jp = "天候警報に関する追加の保存"
 
 ["LV.CAS.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
 en = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
-zh_CN = "当天气警报发出时，创建一个名为 'weatherwarning.save' 的额外保存文件，该文件只会在下一个周期的警报覆盖。此保存不计入保存总数。"
+zhCN = "当天气警报发出时，创建一个名为 'weatherwarning.save' 的额外保存文件，该文件只会在下一个周期的警报覆盖。此保存不计入保存总数。"
 ru = "Когда выдается предупреждение о погоде, создайте дополнительное сохранение с именем 'weatherwarning.save', которое будет перезаписано только следующим циклом предупреждения. Это сохранение не учитывается в общем количестве сохранений."
 jp = "天気警報が発表されるとき、次のサイクルの警報によってのみ上書きされる「weatherwarning.save」という名前の特別なセーブを作成します。このセーブはセーブカウントには含まれません。"
 
 ["LV.CAS.KeyBindingTriggerAutosave"]
 raw = "Trigger auto-save"
 en = "Trigger auto-save"
-zh_CN = "触发自动保存"
+zhCN = "触发自动保存"
 ru = "Включить автоматическое сохранение"
 jp = "自動保存をトリガーする"

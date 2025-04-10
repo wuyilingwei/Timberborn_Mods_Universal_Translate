@@ -1,293 +1,293 @@
 ["LV.WSP.WeatherGroup"]
 raw = "Weather"
 en = "Weather"
-zh_CN = "天气"
+zhCN = "天气"
 ru = "Погода"
 jp = "天気"
 
 ["LV.WSP.WeatherGroupDesc"]
 raw = "Scientific projects related to the weather & forecast"
 en = "Scientific projects related to the weather and forecast."
-zh_CN = "与天气和预报相关的科学项目"
+zhCN = "与天气和预报相关的科学项目"
 ru = "Научные проекты, связанные с погодой и прогнозированием."
 jp = "天候と予測に関する科学プロジェクト"
 
 ["LV.WSP.Ext1"]
 raw = "Galesniffer's Totem"
 en = "Galesniffer's Totem"
-zh_CN = "加尔斯尼弗的图腾"
+zhCN = "加尔斯尼弗的图腾"
 ru = "Тотем Гейлсниффера"
 jp = "ゲイルスニッファーのトーテム"
 
 ["LV.WSP.Ext1Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier."
 en = "Warnings of bad weather come 1 day earlier."
-zh_CN = "坏天气的预警提前一天发出。"
+zhCN = "坏天气的预警提前一天发出。"
 ru = "Предупреждения о плохой погоде приходят на {0:+#} день раньше."
 jp = "悪天候の警告は{0:+#}日前に届きます。"
 
 ["LV.WSP.Ext1Lore"]
 raw = "A simple pole where your beavers can 'sniff' the wind for early weather hints."
 en = "A simple pole where your beavers can 'sniff' the wind for early weather hints."
-zh_CN = "一个简单的杆子，你的海狸可以在这里“嗅”风，以获取早期天气线索。"
+zhCN = "一个简单的杆子，你的海狸可以在这里“嗅”风，以获取早期天气线索。"
 ru = "Простой столб, где ваши бобры могут 'ощупывать' ветер в поисках ранних признаков погоды."
 jp = "ビーバーが早期の天候の兆しを「嗅ぐ」ためのシンプルなポール。"
 
 ["LV.WSP.Ext2"]
 raw = "Mistweaver's Dial"
 en = "Mistweaver's Dial"
-zh_CN = "雾织者的表盘"
+zhCN = "雾织者的表盘"
 ru = "Циферблат Ткачей Туманов"
 jp = "ミストウィーバーのダイヤル"
 
 ["LV.WSP.Ext2Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier."
 en = "Warnings of bad weather come {0:+#} day earlier."
-zh_CN = "坏天气的预警提前{0:+#}天发出。"
+zhCN = "坏天气的预警提前{0:+#}天发出。"
 ru = "Предупреждения о плохой погоде поступают на {0:+#} день раньше."
 jp = "悪天候の警告は{0:+#}日前に出されます。"
 
 ["LV.WSP.Ext2Lore"]
 raw = "A dial that can predict the weather based on the humidity and air pressure."
 en = "A dial that can predict the weather based on humidity and air pressure."
-zh_CN = "一个可以根据湿度和气压预测天气的拨号器。"
+zhCN = "一个可以根据湿度和气压预测天气的拨号器。"
 ru = "Диск, который может предсказывать погоду на основе влажности и атмосферного давления."
 jp = "湿度と気圧に基づいて天気を予測できるダイヤル。"
 
 ["LV.WSP.Ext3"]
 raw = "Thunderhub's Spire"
 en = "Thunderhub's Spire"
-zh_CN = "雷霆中心的尖塔"
+zhCN = "雷霆中心的尖塔"
 ru = "Шпиль Громовой Хранилища"
 jp = "サンダーハブの尖塔"
 
 ["LV.WSP.Ext3Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier per Level."
 en = "Warnings of bad weather come {0:+#} days earlier per Level."
-zh_CN = "恶劣天气的警告提前{0:+#}天发布，按级别计算。"
+zhCN = "恶劣天气的警告提前{0:+#}天发布，按级别计算。"
 ru = "Предупреждения о плохой погоде приходят на {0:+#} день раньше на уровне."
 jp = "悪天候の警告は、レベルごとに{0:+#}日早く発表されます。"
 
 ["LV.WSP.Ext3Lore"]
 raw = "A tall spire that can detect the electric charge in the air."
 en = "A tall spire that can detect the electric charge in the air."
-zh_CN = "一座高耸的尖塔，可以探测空气中的电荷。"
+zhCN = "一座高耸的尖塔，可以探测空气中的电荷。"
 ru = "Высокая башня, которая может обнаруживать электрический заряд в воздухе."
 jp = "空中の電気的な帯電を感知できる高い尖塔。"
 
 ["LV.WSP.PrewarningCost"]
 raw = "[Cost] per Level on pre-warning days. 0 on all other days."
 en = "[Cost] per Level on pre-warning days. 0 on all other days."
-zh_CN = "预警日的每级成本。其他日子为0。"
+zhCN = "预警日的每级成本。其他日子为0。"
 ru = "[Стоимость] за уровень в дни предварительного предупреждения. 0 в остальные дни."
 jp = "警告前の日のレベルごとの[コスト]。他の日は0。"
 
 ["LV.WSP.Pred1"]
 raw = "Weather Forecasting"
 en = "Weather Forecasting"
-zh_CN = "天气预报"
+zhCN = "天气预报"
 ru = "Прогнозирование погоды"
 jp = "天気予報"
 
 ["LV.WSP.Pred1Desc"]
 raw = "Predict the bad weather of this cycle. The accuracy starts at {0:#%} at the first day and increases by {1:+#%} every day."
 en = "Predict the bad weather for this cycle. The accuracy starts at {0:#%} on the first day and increases by {1:+#%} each day."
-zh_CN = "预测这个周期的恶劣天气。准确率在第一天为 {0:#%}，并且每天增加 {1:+#%}。"
+zhCN = "预测这个周期的恶劣天气。准确率在第一天为 {0:#%}，并且每天增加 {1:+#%}。"
 ru = "Предсказать плохую погоду на этом цикле. Точность начинается с {0:#%} в первый день и увеличивается на {1:+#%} каждый день."
 jp = "このサイクルの悪天候を予測します。初日は{0:#%}の精度で始まり、毎日{1:+#%}ずつ増加します。"
 
 ["LV.WSP.Pred1Lore"]
 raw = "Beavers consult the clouds and winds, their predictions sharpening as the days pass."
 en = "Beavers consult the clouds and winds, their predictions sharpening as the days pass."
-zh_CN = "海狸会观察云彩和风，随着日子的推移，它们的预测会变得更加准确。"
+zhCN = "海狸会观察云彩和风，随着日子的推移，它们的预测会变得更加准确。"
 ru = "Бобры консультируются с облаками и ветрами, их предсказания становятся точнее с каждым днем."
 jp = "ビーバーは雲や風に相談し、日が経つにつれて彼らの予測が鋭くなります。"
 
 ["LV.WSP.Pred2"]
 raw = "Starlit Precision"
 en = "Starlit Precision"
-zh_CN = "星光精确"
+zhCN = "星光精确"
 ru = "Звёздная Точность"
 jp = "星明りの精密"
 
 ["LV.WSP.Pred2Desc"]
 raw = "Weather Forecasting now starts with additional {0:+#%} accuracy on the first day of the cycle."
 en = "Weather forecasting now starts with an additional {0:+#%} accuracy on the first day of the cycle."
-zh_CN = "天气预报现在在周期的第一天开始时具有额外的 {0:+#%} 准确性。"
+zhCN = "天气预报现在在周期的第一天开始时具有额外的 {0:+#%} 准确性。"
 ru = "Прогнозирование погоды теперь начинается с дополнительной {0:+#%} точности в первый день цикла."
 jp = "天気予報は、サイクルの初日に追加の{0:+#%}の精度で始まります。"
 
 ["LV.WSP.Pred2Lore"]
 raw = "'The stars don't lie—if you know how to ask them!' — Blink the Stargazer"
 en = "\"The stars don't lie—if you know how to ask them!\" — Blink the Stargazer"
-zh_CN = "“星星不说谎——如果你知道怎么问他们的话！” — 盲目星辰观察者"
+zhCN = "“星星不说谎——如果你知道怎么问他们的话！” — 盲目星辰观察者"
 ru = "«Звёзды не врут — если ты знаешь, как их спросить!» — Блинк Небосводец"
 jp = "「星は嘘をつかない—尋ね方を知っていれば！」 — ブリンク・ザ・スターゲイザー"
 
 ["LV.WSP.Pred3"]
 raw = "Hydrological Analysis"
 en = "Hydrological Analysis"
-zh_CN = "水文分析"
+zhCN = "水文分析"
 ru = "Гидрологический анализ"
 jp = "水文分析"
 
 ["LV.WSP.Pred3Desc"]
 raw = "Add {1:+#%} accuracy per Level to Weather Forecasting everyday."
 en = "Add {1:+#%} accuracy per Level to Weather Forecasting every day."
-zh_CN = "每天向天气预报增加每级{1:+#%}的准确性。"
+zhCN = "每天向天气预报增加每级{1:+#%}的准确性。"
 ru = "Добавьте {1:+#%} точности за уровень к прогнозированию погоды каждый день."
 jp = "毎日、天気予報にレベルごとに{1:+#%}の精度を加えてください。"
 
 ["LV.WSP.Pred3Lore"]
 raw = "By studying the ebb and flow, beavers refine their weather guesses daily."
 en = "By studying the ebb and flow, beavers refine their weather predictions daily."
-zh_CN = "通过研究潮起潮落，黄貂鱼每天都会改善它们的天气预测。"
+zhCN = "通过研究潮起潮落，黄貂鱼每天都会改善它们的天气预测。"
 ru = "Изучая приливы и отливы, бобры ежедневно уточняют свои прогнозы погоды."
 jp = "ビーバーは干潮と満潮を観察することで、毎日天気の予測を洗練させます。"
 
 ["LV.WSP.IncreaseStr"]
 raw = "Flowmaster's Conduit"
 en = "Flowmaster's Conduit"
-zh_CN = "流量大师的导管"
+zhCN = "流量大师的导管"
 ru = "Кондуит Flowmaster"
 jp = "フローマスタの導管"
 
 ["LV.WSP.IncreaseStrDesc"]
 raw = "Allow you to increase the strength of Water sources"
 en = "Allow you to increase the strength of water sources."
-zh_CN = "允许您增强水源的强度"
+zhCN = "允许您增强水源的强度"
 ru = "Позволяет увеличить силу водных источников."
 jp = "水源の強化を可能にします。"
 
 ["LV.WSP.IncreaseStrLore"]
 raw = "'More water, more power—simple as that!' — Riverchew Flowmaster"
 en = "'More water, more power—simple as that!' — Riverchew Flowmaster"
-zh_CN = "“更多的水，更多的力量——就是这么简单！” — Riverchew Flowmaster"
+zhCN = "“更多的水，更多的力量——就是这么简单！” — Riverchew Flowmaster"
 ru = "«Больше воды, больше силы — всё так просто!» — Риверчу Флоумастер"
 jp = "「もっと水、もっと力—それだけ簡単だ！」 — リバーチュー・フローマスター"
 
 ["LV.WSP.IncreaseStrFresh"]
 raw = "Increase fresh water sources"
 en = "Increase fresh water sources"
-zh_CN = "增加淡水来源"
+zhCN = "增加淡水来源"
 ru = "Увеличение источников пресной воды"
 jp = "新鮮な水源を増やす"
 
 ["LV.WSP.IncreaseStrFreshDesc"]
 raw = "Increase the Strength of all fresh water sources (including during Badtides) by {0:+#%} per Level"
 en = "Increase the strength of all freshwater sources (including during bad tides) by {0:+#%} per level."
-zh_CN = "每级增加所有淡水来源的强度（包括在坏潮期间）{0:+#%}"
+zhCN = "每级增加所有淡水来源的强度（包括在坏潮期间）{0:+#%}"
 ru = "Увеличьте силу всех пресных водоемов (включая во время плохих приливов) на {0:+#%} за уровень."
 jp = "すべての淡水源の強さを（大潮時を含む）レベルごとに{0:+#%}増加させる"
 
 ["LV.WSP.IncreaseStrBad"]
 raw = "Increase bad water sources"
 en = "Increase polluted water sources"
-zh_CN = "增加污染水源"
+zhCN = "增加污染水源"
 ru = "Увеличить количество плохих источников воды"
 jp = "悪い水源を増やす"
 
 ["LV.WSP.IncreaseStrBadDesc"]
 raw = "Increase the Strength of all bad water sources by {0:+#%} per Level"
 en = "Increase the Strength of all bad water sources by {0:+#%} per Level"
-zh_CN = "将所有不良水源的强度提高{0:+#%}每级。"
+zhCN = "将所有不良水源的强度提高{0:+#%}每级。"
 ru = "Увеличьте силу всех плохих источников воды на {0:+#%} за уровень"
 jp = "すべての悪い水源の強さをレベルごとに{0:+#%}増加させる"
 
 ["LV.WSP.DecreaseStr"]
 raw = "Tidebreaker's Gate"
 en = "Tidebreaker's Gate"
-zh_CN = "潮breaker之门"
+zhCN = "潮breaker之门"
 ru = "Врата Прилива"
 jp = "潮流の門"
 
 ["LV.WSP.DecreaseStrDesc"]
 raw = "Allow you to decrease the strength of Water sources"
 en = "Allow you to decrease the strength of water sources."
-zh_CN = "允许您降低水源的强度。"
+zhCN = "允许您降低水源的强度。"
 ru = "Позволяет уменьшить силу водных источников."
 jp = "水源の強さを減少させることができます。"
 
 ["LV.WSP.DecreaseStrLore"]
 raw = "'Sometimes you need to tame the river, not ride it.' — Stillwater Tidebreaker"
 en = "'Sometimes you need to tame the river, not ride it.' — Stillwater Tidebreaker"
-zh_CN = "“有时候你需要驯服河流，而不是骑乘它。” — 静水破潮者"
+zhCN = "“有时候你需要驯服河流，而不是骑乘它。” — 静水破潮者"
 ru = "«Иногда нужно укротить реку, а не просто по ней кататься.» — Тихая волна"
 jp = "「時には、川を乗りこなすのではなく、川を制御する必要がある。」 — スティルウォーター・タイドブレイカー"
 
 ["LV.WSP.DecreaseStrFresh"]
 raw = "Decrease fresh water sources"
 en = "Decrease fresh water sources"
-zh_CN = "减少淡水来源"
+zhCN = "减少淡水来源"
 ru = "Сокращение источников пресной воды"
 jp = "淡水資源の減少"
 
 ["LV.WSP.DecreaseStrFreshDesc"]
 raw = "Decrease the Strength of all fresh water sources by {0:;#%} per Level"
 en = "Decrease the strength of all freshwater sources by {0:;#%} per level."
-zh_CN = "每个等级减少所有淡水源的强度 {0:;#%}"
+zhCN = "每个等级减少所有淡水源的强度 {0:;#%}"
 ru = "Уменьшите силу всех источников пресной воды на {0:;#%} за уровень"
 jp = "すべての淡水源の強度をレベルごとに{0:;#%}減少させます"
 
 ["LV.WSP.DecreaseStrBad"]
 raw = "Decrease bad water sources"
 en = "Decrease bad water sources"
-zh_CN = "减少不良水源"
+zhCN = "减少不良水源"
 ru = "Уменьшить количество загрязненных источников воды"
 jp = "悪い水源を減らす"
 
 ["LV.WSP.DecreaseStrBadDesc"]
 raw = "Decrease the Strength of all bad water sources by {0:#%} per Level"
 en = "Decrease the strength of all bad water sources by {0:#%} per level."
-zh_CN = "将所有劣质水源的强度每级减少 {0:#%}"
+zhCN = "将所有劣质水源的强度每级减少 {0:#%}"
 ru = "Уменьшите мощность всех плохих источников воды на {0:#%} за уровень."
 jp = "すべての悪質な水源の強さをレベルごとに{0:#%}減少させます。"
 
 ["LV.WSP.StrCostFresh"]
 raw = "[Cost] per fresh water source. Inactive sources do not count (for e.g. during drought)"
 en = "[Cost] per fresh water source. Inactive sources do not count (for example, during drought)"
-zh_CN = "[成本] 每个淡水源。非活跃水源不计入（例如在干旱期间）"
+zhCN = "[成本] 每个淡水源。非活跃水源不计入（例如在干旱期间）"
 ru = "[Стоимость] за источник пресной воды. Неактивные источники не учитываются (например, в период засухи)."
 jp = "[コスト] 新鮮な水源ごと。非活性の水源はカウントしません（例：干ばつ時）。"
 
 ["LV.WSP.StrCostBad"]
 raw = "[Cost] per bad water source. Inactive sources do not count (for e.g. during drought or sealed ones)"
 en = "[Cost] per bad water source. Inactive sources do not count (for example, during drought or sealed ones)"
-zh_CN = "[成本] 每个劣质水源。非活动源不计算（例如，在干旱期间或封闭的水源）。"
+zhCN = "[成本] 每个劣质水源。非活动源不计算（例如，在干旱期间或封闭的水源）。"
 ru = "[Стоимость] за плохой источник воды. Неактивные источники не учитываются (например, во время засухи или закрытые)."
 jp = "[費用] 悪化した水源ごと。非活性の水源はカウントされません（例：干ばつ時や封印されたもの）。"
 
 ["LV.WSP.ForecastText"]
 raw = "{0:#%} {1}, lasts {2}-{3}d"
 en = "{0:#%} {1}, lasts {2}-{3} days"
-zh_CN = "{0:#%} {1}，持续 {2}-{3}天"
+zhCN = "{0:#%} {1}，持续 {2}-{3}天"
 ru = "{0:#%} {1}, длится {2}-{3} дн."
 jp = "{0:#%} {1}、持続期間は{2}-{3}日です"
 
 ["LV.WSP.Forecast1DayText"]
 raw = "{0:#%} {1}, lasts {2}d"
 en = "{0:#%} {1}, lasts {2} days"
-zh_CN = "{0:#%} {1}，持续 {2}天"
+zhCN = "{0:#%} {1}，持续 {2}天"
 ru = "{0:#%} {1}, длится {2}д"
 jp = "{0:#%} {1}、{2}日間続く"
 
 ["LV.WSP.DecreaseStrBuffDesc"]
 raw = "A marvel of beaver engineering, this gate tames the wildest rivers, calming their flow to protect our lands."
 en = "A marvel of beaver engineering, this gate tames the wildest rivers, calming their flow to protect our lands."
-zh_CN = "这座门是海狸工程的奇迹，驯服了最狂野的河流，平静了它们的流动，以保护我们的土地。"
+zhCN = "这座门是海狸工程的奇迹，驯服了最狂野的河流，平静了它们的流动，以保护我们的土地。"
 ru = "Чудо бобрового инженерного искусства, этот шлюз укрощает самые дикие реки, успокаивая их течение, чтобы защитить наши земли."
 jp = "ビーバー工学の驚異であるこのゲートは、最も荒々しい川を制御し、その流れを穏やかにして私たちの土地を守ります。"
 
 ["LV.WSP.IncreaseStrBuffDesc"]
 raw = "Channeling nature's might, this conduit unleashes a surge of water, bending rivers to our will."
 en = "Channeling nature's might, this conduit unleashes a surge of water, bending rivers to our will."
-zh_CN = "引导自然的力量，这个通道释放出一股水流，将河流弯曲至我们的意志。"
+zhCN = "引导自然的力量，这个通道释放出一股水流，将河流弯曲至我们的意志。"
 ru = "Направляя мощь природы, этот проводник высвобождает поток воды, подчиняя реки нашей воле."
 jp = "自然の力を引き出し、この導管は水の流れを解き放ち、私たちの意志に川を曲げる。"
 
 ["LV.WSP.StrBuffEffect"]
 raw = "{0:+#%;-#%;0%} Strength"
 en = "{0:+#%;-#%;0%} Strength"
-zh_CN = "{0:+#%;-#%;0%} 力量"
+zhCN = "{0:+#%;-#%;0%} 力量"
 ru = "{0:+#%;-#%;0%} Сила"
 jp = "{0:+#%;-#%;0%} 強さ"

@@ -1,83 +1,83 @@
 ["CG.TreeGrowthRate"]
 raw = "Tree growth rate"
 en = "Tree growth rate"
-zh_CN = "树木生长速率"
+zhCN = "树木生长速率"
 ru = "Темп роста деревьев"
 jp = "樹木の成長率"
 
 ["CG.TreeGrowthRateDesc"]
 raw = "Multiplier for Tree growth time like Pines or Oaks (1 for game default). Can be set to below 1 to make the game harder."
 en = "Multiplier for tree growth time like pines or oaks (1 for game default). Can be set below 1 to make the game harder."
-zh_CN = "树木生长时间的倍增器，例如松树或橡树（默认为1）。可以设置为低于1以增加游戏难度。"
+zhCN = "树木生长时间的倍增器，例如松树或橡树（默认为1）。可以设置为低于1以增加游戏难度。"
 ru = "Множитель времени роста деревьев, таких как сосны или дубы (1 для стандартного значения игры). Может быть установлен ниже 1, чтобы усложнить игру."
 jp = "マルチプライヤーは、松やオークのような木の成長時間に対して設定します（ゲームのデフォルトは1）。ゲームを難しくするために1未満に設定できます。"
 
 ["CG.CropGrowthRate"]
 raw = "Crop growth rate"
 en = "Crop growth rate"
-zh_CN = "作物生长速率"
+zhCN = "作物生长速率"
 ru = "Скорость роста сельскохозяйственных культур"
 jp = "作物の成長率"
 
 ["CG.CropGrowthRateDesc"]
 raw = "Multiplier for Crop growth time like Carrots or Potatoes (1 for game default). Can be set to below 1 to make the game harder."
 en = "Multiplier for crop growth time like carrots or potatoes (1 for game default). Can be set to below 1 to make the game harder."
-zh_CN = "作物生长时间的乘数，例如胡萝卜或土豆（游戏默认为1）。可以设置为低于1的值以增加游戏难度。"
+zhCN = "作物生长时间的乘数，例如胡萝卜或土豆（游戏默认为1）。可以设置为低于1的值以增加游戏难度。"
 ru = "Множитель для времени роста культур, таких как морковь или картошка (1 - по умолчанию в игре). Может быть установлен ниже 1, чтобы усложнить игру."
 jp = "作物の成長時間の倍率（人参やジャガイモなど）（ゲームのデフォルトは1）。ゲームを難しくするために1未満に設定することができます。"
 
 ["CG.GatherableGrowthRate"]
 raw = "Product growth rate"
 en = "Product growth rate"
-zh_CN = "产品增长率"
+zhCN = "产品增长率"
 ru = "Темп роста продукта"
 jp = "製品成長率"
 
 ["CG.GatherableGrowthRateDesc"]
 raw = "Multiplier for products growth time like Pine Resin or Berries (1 for game default). Can be set to below 1 to make the game harder."
 en = "Multiplier for product growth time like Pine Resin or Berries (1 for game default). It can be set below 1 to make the game harder."
-zh_CN = "产品增长时间的乘数，例如松脂或浆果（游戏默认为1）。可以设置为低于1以增加游戏难度。"
+zhCN = "产品增长时间的乘数，例如松脂或浆果（游戏默认为1）。可以设置为低于1以增加游戏难度。"
 ru = "Множитель для времени роста продуктов, таких как сосновая смола или ягоды (1 по умолчанию в игре). Может быть установлен ниже 1, чтобы сделать игру сложнее."
 jp = "ピン樹脂やベリーのような製品の成長時間の倍率（ゲームのデフォルトは1）。ゲームを難しくするために1未満に設定することができます。"
 
 ["CG.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
 en = "Reproducible chance multiplier"
-zh_CN = "可重复的机会倍增器"
+zhCN = "可重复的机会倍增器"
 ru = "Воспроизводимый множитель шанса"
 jp = "再現可能なチャンスマルチプライヤー"
 
 ["CG.ReproducibleChanceMultiplierDesc"]
 raw = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depends on the kind. Setting this to 1 to keep the game's setting and 0 means no reproduction."
 en = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depending on the type. Setting this to 1 maintains the game's setting, and 0 means no reproduction."
-zh_CN = "使树木的繁殖几率增加或减少。每棵树每小时有1-3%的繁殖机会，这取决于树的种类。将此设置为1以保持游戏的设定，0则表示不繁殖。"
+zhCN = "使树木的繁殖几率增加或减少。每棵树每小时有1-3%的繁殖机会，这取决于树的种类。将此设置为1以保持游戏的设定，0则表示不繁殖。"
 ru = "Сделайте так, чтобы деревья размножались более или менее вероятно. У каждого дерева каждую Stunde есть 1-3% шанс на размножение, в зависимости от типа. Установка этого значения на 1 сохраняет настройки игры, а 0 означает отсутствие размножения."
 jp = "木が繁殖する可能性を高くしたり低くしたりします。各木は種類によって毎時1〜3％の確率で繁殖する可能性があります。ゲームの設定を維持するためにこれを1に設定し、0は繁殖なしを意味します。"
 
 ["CG.SpreadDistance"]
 raw = "Spread distance"
 en = "Spread distance"
-zh_CN = "传播距离"
+zhCN = "传播距离"
 ru = "Расстояние распространения"
 jp = "拡がり距離"
 
 ["CG.SpreadDistanceDesc"]
 raw = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
 en = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
-zh_CN = "树可以传播到新块的距离（以块为单位）。0表示没有传播。游戏默认值：1"
+zhCN = "树可以传播到新块的距离（以块为单位）。0表示没有传播。游戏默认值：1"
 ru = "Расстояние (в блоках), на которое дерево может распространиться на новый блок. 0 означает отсутствие распространения. Значение по умолчанию в игре: 1"
 jp = "木が新しいブロックに広がることができる距離（ブロック単位）。0は広がらないことを意味します。ゲームデフォルト：1"
 
 ["CG.SpreadVertically"]
 raw = "Can spread vertically"
 en = "Can spread vertically"
-zh_CN = "可以垂直传播"
+zhCN = "可以垂直传播"
 ru = "Может распространяться вертикально"
 jp = "縦に広がることができる"
 
 ["CG.SpreadVerticallyDesc"]
 raw = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
 en = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
-zh_CN = "如果启用，树木可以向上或向下扩散到它们的方块上（使用扩散距离）。游戏默认值：false"
+zhCN = "如果启用，树木可以向上或向下扩散到它们的方块上（使用扩散距离）。游戏默认值：false"
 ru = "Если включено, деревья могут распространяться на блоки выше или ниже них (с использованием расстояния распространения). Значение по умолчанию в игре: отключено"
 jp = "有効にすると、木は上または下のブロックに広がることができます（拡散距離を使用）。デフォルトは：無効"

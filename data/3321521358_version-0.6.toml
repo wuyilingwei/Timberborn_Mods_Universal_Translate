@@ -1,118 +1,118 @@
 ["eMka.GoodStatistics.BatchControlKeyBinding"]
 raw = "Open Goods Statistics tab"
 en = "Open Goods Statistics tab"
-zh_CN = "打开商品统计选项卡"
+zhCN = "打开商品统计选项卡"
 ru = "Откройте вкладку Статистика товаров"
 jp = "オープン商品統計タブ"
 
 ["eMka.GoodStatistics.BatchControlTabName"]
 raw = "Goods Statistics"
 en = "Goods Statistics"
-zh_CN = "货物统计"
+zhCN = "货物统计"
 ru = "Статистика товаров"
 jp = "商品統計"
 
 ["eMka.GoodStatistics.DepletionDaysLeft"]
 raw = "Estimated time to deplete: {0}"
 en = "Estimated time to deplete: {0}"
-zh_CN = "预计耗尽时间：{0}"
+zhCN = "预计耗尽时间：{0}"
 ru = "Оценочное время до исчерпания: {0}"
 jp = "枯渇までの推定時間: {0}"
 
 ["eMka.GoodStatistics.GoodSampleTime"]
 raw = "Sampled {0} ago"
 en = "Sampled {0} ago"
-zh_CN = "采样于 {0} 之前"
+zhCN = "采样于 {0} 之前"
 ru = "Сэмплированно {0} назад"
 jp = "{0} 前にサンプリングされました"
 
 ["eMka.GoodStatistics.GrowingDaysLeft"]
 raw = "Estimated time to fill: {0}"
 en = "Estimated time to fill: {0}"
-zh_CN = "预计填充时间：{0}"
+zhCN = "预计填充时间：{0}"
 ru = "Ориентировочное время заполнения: {0}"
 jp = "推定充填時間: {0}"
 
 ["eMka.GoodStatistics.Settings.AnalyzeGoodsWithoutStockpiles"]
 raw = "Analyze goods without storage"
 en = "Analyze goods without storage"
-zh_CN = "分析无存货商品"
+zhCN = "分析无存货商品"
 ru = "Анализировать товары без хранения"
 jp = "ストレージなしでの商品の分析"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThreshold"]
 raw = "Consecutive micro changes threshold"
 en = "Consecutive micro changes threshold"
-zh_CN = "连续微变化阈值"
+zhCN = "连续微变化阈值"
 ru = "Порог последовательных микроизменений"
 jp = "連続マイクロ変化閾値"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThresholdTooltip"]
 raw = "Number of consecutive micro changes (below Slow daily change threshold) to consider as a trend"
 en = "Number of consecutive micro changes (below the slow daily change threshold) to be considered a trend."
-zh_CN = "被视为趋势的连续微小变更数量（低于缓慢每日变更阈值）"
+zhCN = "被视为趋势的连续微小变更数量（低于缓慢每日变更阈值）"
 ru = "Количество последовательных микроизменений (ниже порога медленного ежедневного изменения), которые следует считать трендом"
 jp = "トレンドと見なすための連続したマイクロ変化の数（遅い日次変化閾値以下）"
 
 ["eMka.GoodStatistics.Settings.EMAAnalyzerHeader"]
 raw = "Exponential Moving Average Analyzer"
 en = "Exponential Moving Average Analyzer"
-zh_CN = "指数移动平均分析器"
+zhCN = "指数移动平均分析器"
 ru = "Анализатор экспоненциальной скользящей средней"
 jp = "指数移動平均アナライザー"
 
 ["eMka.GoodStatistics.Settings.FastChangeThreshold"]
 raw = "Fast daily change threshold"
 en = "Fast daily change threshold"
-zh_CN = "快速日常变化阈值"
+zhCN = "快速日常变化阈值"
 ru = "Быстрый порог ежедневных изменений"
 jp = "迅速な日々の変化の閾値"
 
 ["eMka.GoodStatistics.Settings.IgnoreGoodsWithStorageLessThan"]
 raw = "Ignore goods with storage less than"
 en = "Ignore goods with storage less than"
-zh_CN = "忽略存储少于的物品"
+zhCN = "忽略存储少于的物品"
 ru = "Игнорировать товары со сроком хранения менее чем"
 jp = "保管が少ない商品は無視してください。"
 
 ["eMka.GoodStatistics.Settings.ModerateChangeThreshold"]
 raw = "Moderate daily change threshold"
 en = "Moderate daily change threshold"
-zh_CN = "适度每日变化阈值"
+zhCN = "适度每日变化阈值"
 ru = "Умеренный порог ежедневного изменения"
 jp = "中程度の日次変動閾値"
 
 ["eMka.GoodStatistics.Settings.SamplesPerDay"]
 raw = "Samples per day"
 en = "Samples per day"
-zh_CN = "每日样本数"
+zhCN = "每日样本数"
 ru = "Образцы в день"
 jp = "1日のサンプル数"
 
 ["eMka.GoodStatistics.Settings.SamplesToAnalyze"]
 raw = "Samples to analyze"
 en = "Samples to analyze"
-zh_CN = "待分析的样本"
+zhCN = "待分析的样本"
 ru = "Образцы для анализа"
 jp = "分析するサンプル"
 
 ["eMka.GoodStatistics.Settings.BaseSettings"]
 raw = "Base settings"
 en = "Base settings"
-zh_CN = "基本设置"
+zhCN = "基本设置"
 ru = "Основные настройки"
 jp = "基本設定"
 
 ["eMka.GoodStatistics.Settings.ShowTrendsOnTopBar"]
 raw = "Show trends on top bar"
 en = "Show trends on the top bar."
-zh_CN = "在顶部栏上显示趋势"
+zhCN = "在顶部栏上显示趋势"
 ru = "Показать тренды на верхней панели"
 jp = "トップバーにトレンドを表示する"
 
 ["eMka.GoodStatistics.Settings.SlowChangeThreshold"]
 raw = "Slow daily change threshold"
 en = "Slow daily change threshold"
-zh_CN = "缓慢的每日变化阈值"
+zhCN = "缓慢的每日变化阈值"
 ru = "Медленный порог ежедневных изменений"
 jp = "遅い日常の変化の閾値"

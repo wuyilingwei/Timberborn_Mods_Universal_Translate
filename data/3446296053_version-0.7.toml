@@ -1,97 +1,97 @@
 ["LV.CH.MaxBeaverMul"]
 raw = "Max Beavers Multiplier"
 en = "Max Beavers Multiplier"
-zh_CN = "马克斯·比佛斯倍增器"
+zhCN = "马克斯·比佛斯倍增器"
 ru = "Макс Биверс Мультипликатор"
 jp = "マックス・ビーバーズ・マルチプライヤー"
 
 ["LV.CH.MaxBeaverMulDesc"]
 raw = "Multiply the max beavers a house can have by this value, rounded down but minimum is 1. Game default: 1."
 en = "Multiply the maximum number of beavers a house can have by this value, rounded down, but with a minimum of 1. Game default: 1."
-zh_CN = "将房子最多可以拥有的海狸数量乘以这个值，向下取整，但最小为1。游戏默认值：1。"
+zhCN = "将房子最多可以拥有的海狸数量乘以这个值，向下取整，但最小为1。游戏默认值：1。"
 ru = "Умножьте максимальное количество бобров, которое может быть в доме, на это значение, округлив вниз, но минимальное значение - 1. Значение по умолчанию в игре: 1."
 jp = "家にいるビーバーの最大数をこの値で掛け算し、切り捨てますが、最小は1です。ゲームのデフォルト: 1。"
 
 ["LV.CH.SleepMult"]
 raw = "Sleep Satisfaction Multiplier"
 en = "Sleep Satisfaction Multiplier"
-zh_CN = "睡眠满意度乘数"
+zhCN = "睡眠满意度乘数"
 ru = "Множитель удовлетворения от сна"
 jp = "睡眠満足度乗数"
 
 ["LV.CH.SleepMultDesc"]
 raw = "Multiply the Sleep need satisfaction by this value. Game default: 1 so at +0.2 per hour (Beaver can have -0.2 to 0.8 Sleep, -0.6 per day)"
 en = "Multiply the sleep need satisfaction by this value. Game default: 1, so at +0.2 per hour (Beaver can have -0.2 to 0.8 sleep, -0.6 per day)."
-zh_CN = "将睡眠需求满足度乘以此值。游戏默认值：1，因此每小时增加0.2（海狸的睡眠需要可以在-0.2到0.8之间变化，减少0.6每天）。"
+zhCN = "将睡眠需求满足度乘以此值。游戏默认值：1，因此每小时增加0.2（海狸的睡眠需要可以在-0.2到0.8之间变化，减少0.6每天）。"
 ru = "Умножьте удовлетворение потребности в сне на это значение. Значение по умолчанию в игре: 1, так что при +0.2 за час (Бобр может иметь от -0.2 до 0.8 сна, -0.6 в день)"
 jp = "この値で睡眠必要満足度を乗算してください。ゲームのデフォルト: 1 なので、1時間あたり+0.2（ビーバーは-0.2から0.8の睡眠を持つことができ、1日あたり-0.6）です。"
 
 ["LV.CH.ShelterMult"]
 raw = "Shelter Satisfaction Multiplier"
 en = "Shelter Satisfaction Multiplier"
-zh_CN = "避难所满意度倍增器"
+zhCN = "避难所满意度倍增器"
 ru = "Множитель удовлетворенности укрытием"
 jp = "シェルター満足度倍率"
 
 ["LV.CH.ShelterMultDesc"]
 raw = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
 en = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
-zh_CN = "将避难所需求满足值乘以该值。游戏默认值：1，故每小时增加0.3（比佛可以有-0.2到0.8的避难所，每天减少0.3）"
+zhCN = "将避难所需求满足值乘以该值。游戏默认值：1，故每小时增加0.3（比佛可以有-0.2到0.8的避难所，每天减少0.3）"
 ru = "Умножьте удовлетворение потребности в укрытии на это значение. Значение по умолчанию в игре: 1, поэтому при +0,3 в час (бобры могут иметь от -0,2 до 0,8 укрытия, -0,3 в день)"
 jp = "この値でシェルターの必要満足度を乗算します。ゲームのデフォルト: 1 なので、+0.3 毎時（ビーバーは -0.2 から 0.8 のシェルターを持つことができ、-0.3 毎日）です。"
 
 ["LV.CH.MoveEntranceFloor"]
 raw = "Move Entrances to Floor"
 en = "Move Entrances to Floor"
-zh_CN = "将入口移至楼层"
+zhCN = "将入口移至楼层"
 ru = "Переместить входы на этаж"
 jp = "フロアに入口を移動する"
 
 ["LV.CH.MoveEntranceFloorDesc"]
 raw = "Move all the entrances to the first floor (like Double Lodges). Also work for houses added by mods. No graphical change. Game default: no"
 en = "Movez toutes les entrées au premier étage (comme les Double Lodges). Travaillez également pour les maisons ajoutées par des mods. Aucun changement graphique. Par défaut du jeu : non"
-zh_CN = "将所有入口移动到一楼（像双重小屋一样）。对由模组添加的房屋也有效。没有图形变化。游戏默认：否。"
+zhCN = "将所有入口移动到一楼（像双重小屋一样）。对由模组添加的房屋也有效。没有图形变化。游戏默认：否。"
 ru = "Переместите все входы на первый этаж (как в Двойных Лоджах). Также работает для домов, добавленных модами. Без графических изменений. По умолчанию в игре: нет"
 jp = "すべての入口を1階に移動します（ダブルロッジのように）。モッドで追加された家にも対応します。グラフィックに変更はありません。ゲームのデフォルト：いいえ"
 
 ["LV.CH.AddOtherFaction"]
 raw = "Add other faction's Housings"
 en = "Add other faction's Housings"
-zh_CN = "添加其他派系的住房"
+zhCN = "添加其他派系的住房"
 ru = "Добавьте жилье других фракций"
 jp = "他の派閥の住宅を追加する"
 
 ["LV.CH.AddOtherFactionDesc"]
 raw = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
 en = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
-zh_CN = "民间传说可以建造铁齿房屋，反之亦然。请不要为通过模组添加的房屋工作。游戏默认：不行"
+zhCN = "民间传说可以建造铁齿房屋，反之亦然。请不要为通过模组添加的房屋工作。游戏默认：不行"
 ru = "Сказания могут строить дома Железных Зубов и наоборот. Не работают для домов, добавленных модами. По умолчанию в игре: нет."
 jp = "フォークテイルはアイアンティースの家を建てることができ、その逆も可能です。モッドによって追加された家には作業しないでください。ゲームのデフォルト: いいえ"
 
 ["LV.CH.AddProcreation"]
 raw = "  Add Procreation to all Housings"
 en = "Add Procreation to all Housings"
-zh_CN = "将繁殖功能添加到所有住房中"
+zhCN = "将繁殖功能添加到所有住房中"
 ru = "Добавьте размножение во все жилье"
 jp = "すべての住宅に繁殖を追加する"
 
 ["LV.CH.AddProcreationDesc"]
 raw = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings"
 en = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings."
-zh_CN = "将繁殖功能添加到所有住房中，以便Folktails可以在Iron Teeth的住房中繁殖。"
+zhCN = "将繁殖功能添加到所有住房中，以便Folktails可以在Iron Teeth的住房中繁殖。"
 ru = "Добавьте размножение ко всем жилищам, чтобы Фолктейлы могли размножаться в жилищах Железных Зубов."
 jp = "すべての住宅に繁殖機能を追加し、フォルクテイルがアイアンティースの住宅で繁殖できるようにしてください。"
 
 ["LV.CH.RemoveProcreation"]
 raw = "  Remove Procreation from all Housings"
 en = "Remove Procreation from all Housings"
-zh_CN = "从所有住房中移除繁殖"
+zhCN = "从所有住房中移除繁殖"
 ru = "Удалите размножение из всех домов."
 jp = "全ての住宅から繁殖を排除する"
 
 ["LV.CH.RemoveProcreationDesc"]
 raw = "Remove Procreation from all Housings, so Iron Teeth can not procreate in Folktails' Housings"
 en = "Remove procreation from all housings, so Iron Teeth cannot procreate in Folktails' housings."
-zh_CN = "从所有住宅中移除繁殖机制，以便铁牙在民间故事的住宅中无法繁殖。"
+zhCN = "从所有住宅中移除繁殖机制，以便铁牙在民间故事的住宅中无法繁殖。"
 ru = "Уберите размножение из всех жилищ, чтобы Железные Зубы не могли размножаться в жилищах Фолктейлов."
 jp = "すべての家から繁殖を取り除き、アイアンティースがフォークテイルの家で繁殖できなくなるようにしてください。"
