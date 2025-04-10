@@ -1,0 +1,95 @@
+ID,Text,Comment
+LV.SP.Title,科学项目,-
+LV.SP.Welcome,感谢您使用科学项目模组。此屏幕是您可以解锁和管理项目的地方。您可以通过点击屏幕左上角的科学按钮或按下快速键（默认为Y，您可以在按键设置中重新绑定）来打开它。,-
+KeyBinding.ScientificProjectDialog,科学项目屏幕,-
+LV.SP.Unlocked,解锁了！,-
+LV.SP.PreqLocked,需要{0}来解锁。,-
+LV.SP.NotEnoughScienceNextDay,您没有足够的科学来支付下一天的费用。请调整您的项目或今天跳过。警告：按下Esc将跳过今天的项目。,-
+LV.SP.CurrentScience,当前科学: {0},-
+LV.SP.CurrentSciencePlus,当前科学：{0} （比昨天增加了{1}）,-
+LV.SP.UnlockErrUnlocked,该项目已经解锁。,-
+LV.SP.UnlockErrRequirementLocked,该项目需要 {0} 才能解锁。,-
+LV.SP.UnlockErrCostLocked,您只有 {0} 科学，但您需要 {1} 科学才能解锁这个项目。,-
+LV.SP.UnlockConfirm,您确定要使用 {1} 科学解锁 {0} 吗？,-
+LV.SP.CustomCost,每日费用：,-
+LV.SP.ScienceStepCost,每级 {0},-
+LV.SP.CurrentCost,次日费用：{0}/天,-
+LV.SP.Level,级别,-
+LV.SP.ActiveLevel,活跃等级：{0},-
+LV.SP.DayCostNotice,每日科学费用将在每天开始时扣除，效果将持续整个一天。,-
+LV.SP.NextDayCost,第二天费用：{0},-
+LV.SP.PayDayCost,当日支付,-
+LV.SP.NotEnoughSciencePay,您没有足够的科学来支付下一天的费用。请调整您的项目或今天跳过。,-
+LV.SP.SkipConfirm,你确定今天要跳过这些项目吗？,-
+LV.SP.SkipToday,跳过今天,-
+LV.SP.WrongFaction,该项目无法通过该派系解锁。,-
+LV.SP.ReloadNotice,请保存并重新加载游戏以使该项目生效。,-
+LV.SP.ReloadNeeded,[需要重新加载],-
+LV.SP.WorkEffGroup,工作效率,-
+LV.SP.WorkEffGroupDesc,提高您殖民地的工作效率,-
+LV.SP.LogisticGroup,物流,-
+LV.SP.LogisticGroupDesc,增加移动速度和资源流动,-
+LV.SP.WorkEffUpgrade1,精密工具,-
+LV.SP.WorkEffUpgrade1Eff,永久性地提高所有海狸的工作效率 {0:+#%}。,-
+LV.SP.WorkEffUpgrade1Lore,在挖掘出人类工具的规划后，河狸利用古老的技巧制作更锋利的刀片，从而提高了效率。,-
+LV.SP.WorkEffUpgrade2,精密工具维护,-
+LV.SP.WorkEffUpgrade2Lore,“设计了一种水力驱动的磨刀器——保持我们的工具随时可以使用，让每项工作都能快速完成！”——凿颚·木啃,-
+LV.SP.WorkEffUpgrade2Eff,每级所有海狸的额外工作效率 {0:+#%}。,-
+LV.SP.WorkEffUpgrade2Cost,每个等级的[费用]，以及每{2}只成年海狸{1}（向上取整）,-
+LV.SP.MoveSpeedUpgrade1,轻便拖鞋,-
+LV.SP.MoveSpeedUpgrade1Lore,“这些拖鞋让我感觉像是在水面上滑行。” — 威斯克特尔·快爪,-
+LV.SP.MoveSpeedUpgradeEff,永久增加所有海狸的移动速度 {0:+#%}（与其他项目叠加）。,-
+LV.SP.MoveSpeedUpgrade2,耐用的徒步靴,-
+LV.SP.MoveSpeedUpgrade2Lore,这些靴子坚韧如海狸的牙齿，将艰难的小路变成便捷的平坦小径，助你快速前行。,-
+LV.SP.MoveSpeedUpgrade3,空气动力学冲刺装备,-
+LV.SP.MoveSpeedUpgrade3Lore,“在这个装备中，我不仅仅是在奔跑；我是一道纯速度的毛茸茸的模糊！” — 迅流风奔,-
+LV.SP.MoveSpeedUpgradeBuff,移动速度项目,-
+LV.SP.MoveSpeedUpgradeBuffDesc,您的高级装备可以让您的角色移动得更快。,-
+LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} 移动速度来自 {1},-
+LV.SP.WorkEffUpgradeBuff,工作效率项目,-
+LV.SP.WorkEffUpgradeBuffDesc,您卓越的工具使您的角色更高效地工作。,-
+LV.SP.WorkEffUpgradeBuffEff,{0:+#%} 工作效率来自 {1},-
+LV.SP.EmergenciesGroup,紧急情况,-
+LV.SP.EmergenciesGroupDesc,在危急情况下，按下这些大黄色按钮。但你只有一次机会。,-
+LV.SP.EmergencyDrill1,紧急浅层钻探,-
+LV.SP.EmergencyDrill1Desc,将{0}天添加到这个温暖的季节。只有在恶劣天气来临时才能激活。,-
+LV.SP.EmergencyDrill1Lore,一只好奇的河狸对潮湿土壤的嗅觉引导它发现了这个浅水口-容易开采，在紧急情况下能救命。,-
+LV.SP.EmergencyDrill2,紧急深钻,-
+LV.SP.EmergencyDrill2Desc,将 {0} 天添加到这个温和季节。仅在恶劣天气即将来临时才能激活。,-
+LV.SP.EmergencyDrill2Lore,“我们在深处钻探，但我们不是在廉价钻探！”——钻探者麦克·德里尔面四世,-
+LV.SP.EmergencyDrill3,紧急深层钻探,-
+LV.SP.EmergencyDrill3Desc,在这个温和的季节中增加{0}天。仅在恶劣天气来临时才能激活。,-
+LV.SP.EmergencyDrill3Lore,传说古老的啃齿者预见了这口最深的井——当天空变得残酷时，这是我们最后的希望。,-
+LV.SP.BadWeatherConditionErr,只有在预测出现恶劣天气（干旱或恶潮）时，您才能激活此功能。,-
+LV.SP.Wheelbarrows,独轮手推车,-
+LV.SP.WheelbarrowsLore,终极背部保护器，让海狸能够拖拽木头而不用像超载的乌龟那样摇摇摆摆。,-
+LV.SP.WheelbarrowsEff,海狸和机器人在携带物品时不再受到移动速度惩罚。,-
+LV.SP.CarryUpgrade1,加固携带包,-
+LV.SP.CarryUpgrade1Lore,“这些包让我能搬运一整片森林，还能留出空间装零食！” — 拖运兽 重载,-
+LV.SP.CarryUpgrade1Eff,永久性增加海狸的负重能力 {0:+#%},-
+LV.SP.CarryBuilderUpgrade,建筑滑橇,-
+LV.SP.CarryBuilderUpgradeLore,让建筑过程像嚼烂的木头一样顺畅。,-
+LV.SP.CarryBuilderUpgradeEff,每级额外携带能力 {0:+#%}，适用于<SolidHighlight>建筑工人</SolidHighlight>（地区中心或建筑小屋的工人，包括海狸和机器人）。,-
+LV.SP.CarryBuilderUpgradeCost,每个建筑工人每级的费用（向上取整）,-
+LV.SP.CarryUpgradeBuff,承载能力项目,-
+LV.SP.CarryUpgradeBuffDesc,你的高级装备允许你的角色携带更多物品。,-
+LV.SP.CarryUpgradeBuffEff,{0:+#%} 承载能力来自 {1},-
+LV.SP.CarryBuilderBuff,建筑锤,-
+LV.SP.CarryBuilderBuffDesc,你的建筑工人现在配备了雪橇，可以搬运更多的东西。,-
+LV.SP.CarryBuilderBuffEff,{0:+#%} 承载能力来自 {1},-
+LV.SP.FactionsGroup,派系,-
+LV.SP.FactionsGroupDesc,每个派系的独特项目,-
+LV.SP.FtPlankUpgrade,树脂浸渍板,-
+LV.SP.FtPlankUpgradeLore,将木板注入天然树脂的处理可以使处理过的木板产量翻倍 - 无需电力，仅靠自然的方式。,-
+LV.SP.FtPlankUpgradeEff,木工车间使用 {1:#.###%} 的电力和 {0:+#%} 的处理木板产出。,-
+LV.SP.ItSmelterUpgrade,热回收冶炼炉,-
+LV.SP.ItSmelterUpgradeLore,炉子设计的突破在不增加额外电力的情况下将金属产量翻倍，体现了铁齿的聪明才智。,-
+LV.SP.ItSmelterUpgradeEff,冶炼厂使用 {1:#.###%} 的电力，并且金属块的输出为 {0:+#%}。,-
+LV.SP.BuffLessPowerEff,{0:#.###%} 电力使用量,-
+LV.SP.BuffIncreasedOutput,{0:+#%} 增加的输出,-
+LV.SP.Filter,过滤器,-
+LV.SP.Keyword,关键字,-
+LV.SP.FilterLocked,锁定,-
+LV.SP.FilterUnlocked,解锁,-
+LV.SP.FilterDaily,每日,-
+LV.SP.FilterOneTime,一次性,-
