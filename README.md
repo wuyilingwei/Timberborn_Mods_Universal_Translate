@@ -12,6 +12,10 @@ You can directly use the Github web editor, or any git software (such as [Github
 
 An automatic script will syncs changes to Steam every hour.
 
+Notice: Please only change the files in the `/data`. The files in the `/mod` are generated based on the data directory and automatically updated, changes made in it are always directly overwritten.
+
+For the source code of the relevant program, please visit https://github.com/wuyilingwei/Timberborn_Tools
+
 ## Our rules
 
 It uses both of AI and manual work, with AI responsible for providing translation support as quickly as possible and reducing workload, and manual work for proofreading and modification.
@@ -29,6 +33,6 @@ The content that is not accepted for translation is:
 
 Unfortunately, Steam is obviously not designed for multiplayer collaboration, it only gives upload permissions.
 
-This brings a series of problems, including: it is impossible to ensure that you change on the latest version, it is impossible to quantify contributions, it is impossible to record historical changes for comparison, and it is inconvenient for others to join
+This brings a series of problems, including: it is impossible to ensure that you change on the latest version, it is impossible to quantify contributions, it is impossible to record historical changes for comparison, and it is inconvenient for others to join, it is also never a good idea to use the comments to track an issue.
 
 If you want to develop a third-party tool, you will always be required to save the steam login credentials to pull and upload, which is not good and has security risks. On the contrary, through github you can make changes to the mod without logging into steam, and it has full git feature support.
