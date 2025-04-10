@@ -1,0 +1,97 @@
+["LV.CI.MinimumWaterContamination"]
+raw = "Minimum Water Contamination"
+en = "Minimum Water Contamination"
+zh_CN = "最低水污染"
+ru = "Минимальное загрязнение воды"
+jp = "最小限の水による汚染"
+
+["LV.CI.MinimumWaterContaminationDesc"]
+raw = "The minimum water contamination % where water stops giving full irrigation. Game default: 0.01, meaning if your water is 1% contaminated or below, it will give full irrigation."
+en = "The minimum water contamination % where water stops giving full irrigation. Game default: 0.01, meaning if your water is 1% contaminated or below, it will give full irrigation."
+zh_CN = "水的最低污染百分比，超过此百分比水将无法提供完全灌溉。游戏默认值：0.01，意味着如果水的污染率为1%或以下，它将提供完全灌溉。"
+ru = "Минимальный процент загрязнения воды, при котором вода перестает обеспечивать полноценное орошение. Значение по умолчанию в игре: 0,01, что означает, что если ваша вода загрязнена на 1% или меньше, она будет обеспечивать полное орошение."
+jp = "水が完全な灌漑を提供しなくなる最低水質汚染割合。ゲームのデフォルト：0.01、つまり水が1%汚染されているかそれ以下であれば、完全な灌漑が行われます。"
+
+["LV.CI.MaximumWaterContamination"]
+raw = "Maximum Water Contamination"
+en = "Maximum Water Contamination"
+zh_CN = "最大水污染"
+ru = "Максимальное загрязнение воды"
+jp = "最大水質汚染"
+
+["LV.CI.MaximumWaterContaminationDesc"]
+raw = "The maximum water contamination % where water stops irrigating. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
+en = "The maximum water contamination percentage at which irrigation stops. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
+zh_CN = "水的最大污染百分比，超出后将停止灌溉。游戏默认值：0.53，意味着如果你的水污染达到或超过53%，将不会灌溉。"
+ru = "Максимальный % загрязнения воды, при котором прекращается орошение. Значение по умолчанию в игре: 0.53, что означает, что если ваша вода загрязнена на 53% или более, орошение не будет производиться."
+jp = "水が灌漑を停止する最大水汚染％。ゲームのデフォルト: 0.53。つまり、水の汚染が53％以上であれば、灌漑は行われません。"
+
+["LV.CI.VerticalSpreadCostMultiplier"]
+raw = "Vertical Spread Cost"
+en = "Vertical Spread Cost"
+zh_CN = "垂直价差成本"
+ru = "Вертикальный спред стоимость"
+jp = "バーティカルスプレッドコスト"
+
+["LV.CI.VerticalSpreadCostMultiplierDesc"]
+raw = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water up."
+en = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water up."
+zh_CN = "向上扩散的成本倍增器。游戏默认值：6，意味着向上扩散水的成本通常是原来的6倍。"
+ru = "Мультипликатор затрат для верхнего спреда. Значение по умолчанию в игре: 6, что означает, что распространение воды вверх обычно стоит в 6 раз дороже."
+jp = "上方向のスプレッドのコスト倍率。ゲームのデフォルト：6、つまり水を上にスプレッドするのに一般的に6倍のコストがかかることを意味します。"
+
+["LV.CI.MaxSpread"]
+raw = "Max Spread"
+en = "Max Spread"
+zh_CN = "最大扩展"
+ru = "Максимальное распределение"
+jp = "最大スプレッド"
+
+["LV.CI.MaxSpreadDesc"]
+raw = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 blocks will irrigate up to 16 blocks away."
+en = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 blocks will irrigate up to 16 blocks away."
+zh_CN = "最大扩散距离（以方块为单位）。游戏默认值：16，这意味着饱和的 3x3 方块将灌溉最多 16 个方块的距离。"
+ru = "Максимальное расстояние разброса в блоках. Значение по умолчанию в игре: 16, что означает, что насыщенные 3x3 блока будут орошать на расстоянии до 16 блоков."
+jp = "ブロックでの最大散布距離。ゲームのデフォルトは16で、これは飽和した3x3ブロックが最大16ブロック離れた場所を灌漑することを意味します。"
+
+["LV.CI.ContaMinimumWaterContamination"]
+raw = "Minimum Water for Soil Contamination"
+en = "Minimum Water for Soil Contamination"
+zh_CN = "土壤污染的最低水量"
+ru = "Минимальное количество воды для загрязнения почвы"
+jp = "土壌汚染に対する最小水量"
+
+["LV.CI.ContaMinimumWaterContaminationDesc"]
+raw = "The minimum water contamination % where water starts contaminate soil. Game default: 0.5, meaning if your water is 50% contaminated or above, it will start contaminating soil."
+en = "The minimum water contamination percentage at which water begins to contaminate soil. Game default: 0.5, meaning if your water is 50% contaminated or higher, it will start contaminating the soil."
+zh_CN = "水开始污染土壤的最低水污染百分比。游戏默认值：0.5，这意味着如果你的水污染达到50%或以上，它将开始污染土壤。"
+ru = "Минимальный процент загрязнения воды, при котором вода начинает загрязнять почву. Значение по умолчанию в игре: 0.5, что означает, что если ваша вода загрязнена на 50% или более, она начнет загрязнять почву."
+jp = "土壌を汚染し始める水の最低汚染率%。ゲームのデフォルト：0.5、つまり水が50%汚染されているかそれ以上の場合、土壌を汚染し始めます。"
+
+["LV.CI.ContaMaxSpread"]
+raw = "Contamination Max Spread"
+en = "Contamination Max Spread"
+zh_CN = "污染最大传播"
+ru = "Максимальное распространение загрязнения"
+jp = "汚染最大拡散"
+
+["LV.CI.ContaMaxSpreadDesc"]
+raw = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will contaminate blocks up to 7 blocks away."
+en = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will spread to blocks up to 7 blocks away."
+zh_CN = "污染水的最大传播距离（以方块计）。游戏默认值：7，这意味着污染将传播到最多7个方块远的地方。"
+ru = "Максимальное расстояние распространения в блоках для загрязненной воды. По умолчанию в игре: 7, что означает, что загрязнение будет распространяться на блоки в радиусе до 7 блоков."
+jp = "汚染水の最大拡散距離（ブロック単位）。ゲームのデフォルト：7、つまり汚染は最大7ブロック離れたブロックを汚染します。"
+
+["LV.CI.ContaVerticalSpreadCostMultiplier"]
+raw = "Contamination Vertical Spread Cost"
+en = "Contamination Vertical Spread Cost"
+zh_CN = "污染垂直传播成本"
+ru = "Стоимость вертикального распространения загрязнения"
+jp = "汚染の垂直拡散コスト"
+
+["LV.CI.ContaVerticalSpreadCostMultiplierDesc"]
+raw = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination up."
+en = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination up."
+zh_CN = "污染向上扩散的成本乘数。游戏默认值：5，这意味着向上传播污染的费用通常是5倍。"
+ru = "Коэффициент стоимости для вертикального распространения загрязнения. Значение по умолчанию в игре: 5, что означает, что в общем случае распространение загрязнения вверх стоит в 5 раз больше."
+jp = "汚染の上方拡散に対するコスト乗数。ゲームのデフォルト：5、これは汚染を上方に拡散させるには通常5倍のコストがかかることを意味します。"

@@ -1,0 +1,111 @@
+["LV.SPE.AllFixedDepth"]
+raw = "Use fixed depth"
+en = "Use fixed depth"
+zh_CN = "使用固定深度"
+ru = "Используйте фиксированную глубину."
+jp = "固定深度を使用します。"
+
+["LV.SPE.AllFixedDepthDesc"]
+raw = "All pumps will have a fixed maximum depth"
+en = "All pumps will have a fixed maximum depth."
+zh_CN = "所有泵将具有固定的最大深度。"
+ru = "Все насосы будут иметь фиксированную максимальную глубину."
+jp = "すべてのポンプには固定された最大深さがあります。"
+
+["LV.SPE.FixedDepth"]
+raw = "Fixed depth"
+en = "Fixed depth"
+zh_CN = "固定深度"
+ru = "Фиксированная глубина"
+jp = "固定深度"
+
+["LV.SPE.FixedDepthDesc"]
+raw = "The fixed depth for all pump maximum depths"
+en = "The fixed depth for all pump maximum depths"
+zh_CN = "所有泵最大深度的固定深度"
+ru = "Фиксированная глубина для всех максимальных глубин насосов"
+jp = "すべてのポンプの最大深度の固定深度"
+
+["LV.SPE.AllMultiplier"]
+raw = "Use multiplier"
+en = "Use multiplier"
+zh_CN = "使用乘数"
+ru = "Используйте мультипликатор"
+jp = "マルチプライヤーを使用する"
+
+["LV.SPE.AllMultiplierDesc"]
+raw = "All pumps will use a multiplier for maximum depth"
+en = "All pumps will use a multiplier for maximum depth."
+zh_CN = "所有泵将使用乘数来计算最大深度。"
+ru = "Все насосы будут использовать множитель для максимальной глубины."
+jp = "すべてのポンプは、最大深度のために乗数を使用します。"
+
+["LV.SPE.Multiplier"]
+raw = "Multiplier"
+en = "Multiplier"
+zh_CN = "倍数"
+ru = "Мультiplier"
+jp = "乗数"
+
+["LV.SPE.MultiplierDesc"]
+raw = "The multiplier for all pump maximum depths"
+en = "The multiplier for all pump maximum depths"
+zh_CN = "所有泵最大深度的倍数"
+ru = "Коэффициент для всех максимальных глубин насосов"
+jp = "すべてのポンプの最大深度の乗数"
+
+["LV.SPE.WaterConversation"]
+raw = "Water product conversion rate"
+en = "Water product conversion rate"
+zh_CN = "水产品转化率"
+ru = "Коэффициент конверсии водных продуктов"
+jp = "水製品の変換率"
+
+["LV.SPE.WaterConversationDesc"]
+raw = "The conversion rate for water product vs. volume (Game default: 0.2, meaning Water Pumps take 0.2cm³ to produce 1 Water product and Water Dumps produce 0.2cm³ per Water product)"
+en = "The conversion rate for water product vs. volume (Game default: 0.2, meaning Water Pumps take 0.2cm³ to produce 1 Water product and Water Dumps produce 0.2cm³ per Water product)"
+zh_CN = "水产品与体积的转换率（游戏默认值：0.2，意味着水泵每消耗0.2cm³可生产1个水产品，而水卸排每个水产品产生0.2cm³）"
+ru = "Коэффициент конверсии для водного продукта по сравнению с объемом (По умолчанию в игре: 0,2, что означает, что водяные насосы потребляют 0,2 см³ для производства 1 водного продукта, а водяные свалки производят 0,2 см³ на водный продукт)"
+jp = "水製品対体積の変換率（ゲームのデフォルト：0.2、つまり水ポンプは1水製品を生産するのに0.2cm³を必要とし、水ダンプは1水製品ごとに0.2cm³を生産します）"
+
+["LV.SPE.MechPumpWater"]
+raw = "Mechanical pump amount (⚡!)"
+en = "Mechanical pump amount (⚡!)"
+zh_CN = "机械泵数量（⚡！）"
+ru = "Количество механических насосов (⚡!)"
+jp = "機械ポンプの量 (⚡!)"
+
+["LV.SPE.MechPumpWaterDesc"]
+raw = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly, see below."
+en = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s).\n⚡ Note: changing this also increases or decreases power usage accordingly, see below."
+zh_CN = "机械泵每秒抽水的量（游戏默认值：0.25cm³/s）。  \n⚡ 注意：更改此值也会相应增加或减少功率使用，见下文。"
+ru = "Количество воды в секунду, которую перекачивает механический насос (по умолчанию игры: 0,25 см³/с). ⚡ Примечание: изменение этой величины также увеличивает или уменьшает потребление энергии соответственно, см. ниже."
+jp = "機械ポンプが1秒あたりに排出する水の量（ゲームのデフォルト：0.25cm³/s）。  \n⚡ 注：これを変更すると、電力使用量もそれに応じて増減します。下記をご覧ください。"
+
+["LV.SPE.MechPumpPowerMultiplier"]
+raw = "Mechanical pump power multiplier"
+en = "Mechanical pump power multiplier"
+zh_CN = "机械泵功率倍增器"
+ru = "Механический насосный усилитель мощности"
+jp = "機械ポンプのパワー倍率"
+
+["LV.SPE.MechPumpPowerDesc"]
+raw = "By default, this mod keeps the power usage at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheater :P) that ratio. Game default: 1x"
+en = "By default, this mod maintains power consumption at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheat :P) that ratio. Game default: 1x"
+zh_CN = "默认情况下，该模组将功耗保持在每0.25立方厘米700马力。使用此修改器可以增加或减少（作弊 :P）该比率。游戏默认：1倍"
+ru = "По умолчанию этот мод сохраняет потребление энергии на уровне 700HP на 0,25 см³. Используйте этот модификатор, чтобы увеличить или уменьшить (читер :P) это соотношение. По умолчанию в игре: 1x"
+jp = "デフォルトでは、このモッドは700HPあたり0.25cm³の電力使用量を維持します。この修飾子を使用して、その比率を増減させることができます（チーター :P）。ゲームのデフォルト: 1x"
+
+["LV.SPE.WaterProdTimeMultiplier"]
+raw = "Water production time multiplier"
+en = "Water production time multiplier"
+zh_CN = "水生产时间乘数"
+ru = "Множитель времени производства воды"
+jp = "水生産時間倍数"
+
+["LV.SPE.WaterProdTimeMultiplierDesc"]
+raw = "The multiplier for water production time. For example: Game default 0.33 hour for 1 Water for Water Pumps, setting this to 0.5 will make it 0.16.5 hour for 1 Water"
+en = "The multiplier for water production time. For example: Game default 0.33 hour for 1 Water for Water Pumps, setting this to 0.5 will make it 0.66 hour for 1 Water."
+zh_CN = "水生产时间的乘数。例如：游戏默认水泵每1水需要0.33小时，将此设置为0.5将使每1水需要0.16.5小时。"
+ru = "Множитель времени производства воды. Например: В игре по умолчанию 0,33 часа за 1 воду для водяных насосов, установка этого значения на 0,5 сделает его 0,16,5 часа за 1 воду."
+jp = "水の生産時間の倍率。例えば：ゲームのデフォルトでは水ポンプの1水の生産に0.33時間かかりますが、これを0.5に設定すると1水の生産に0.16.5時間かかるようになります。"
