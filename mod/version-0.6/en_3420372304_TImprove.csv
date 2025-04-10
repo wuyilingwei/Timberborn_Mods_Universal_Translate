@@ -1,0 +1,39 @@
+ID,Text,Comment
+LV.TI.EnableFreeCamera,Enable free camera,-
+LV.TI.EnableFreeCameraDesc,Remove the camera restrictions in the game.,-
+LV.TI.DisableFog,Disable fog,-
+LV.TI.DisableFogDesc,Remove the fog in the game.,-
+LV.TI.PauseBadWeather,Pause on bad weather,-
+LV.TI.PauseBadWeatherDesc,"Pause the game when bad weather (drought, bad tide) starts.",-
+LV.TI.ShowCoords,Show coordinates,-
+LV.TI.ShowCoordsDesc,Show the block coordinates in the top right corner. Z is the height. NOT AVAILABLE FOR UPDATE 7 YET.,-
+LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
+LV.TI.HeightLabel,Height: {0},-
+LV.TI.OnlyShowHeight,Only show the height.,-
+LV.TI.OnlyShowHeightDesc,Show only the height instead of the full coordinates.,-
+LV.TI.PrioritizeRubbles,Prioritize rubble,-
+LV.TI.PrioritizeRubblesDesc,Automatically set rubbles' priority to High.,-
+LV.TI.AllDayLight,No daylight change,-
+LV.TI.AllDayLightDesc,Visual/UI only. The selected daylight will remain consistent instead of changing throughout the day.,-
+LV.TI.ShowGameTime,Show game time,-
+LV.TI.ShowGameTimeDesc,Show the current game time in the top right corner.,-
+LV.TI.EnableSpeedS25,Enable 0.25x speed [Shift+1],-
+LV.TI.EnableSpeedS25Desc,"Unlock the 0.25x speed option in the game by pressing Shift+1. Normally, this is only available in Dev Mode.",-
+LV.TI.EnableSpeed4,Enable 30x speed [4],-
+LV.TI.EnableSpeed4Desc,"Unlock the 4th speed 30x option in the game by pressing 4. Normally, this is only available in Dev Mode.",-
+LV.TI.EnableSpeed5,Enable 99x speed [5] (!),-
+LV.TI.EnableSpeed5Desc,"Unlock the 5th speed 99x option in the game by pressing 5. Normally, this is only available in Dev Mode. Be warned that this speed is unstable and may cause issues with the game. Somebody said beavers may stay hungry and thirsty.",-
+LV.TI.StaticLight,Static daylight,-
+LV.TI.StaticLightDesc,Visual/UI only. This daylight will remain constant at all times.,-
+LV.TI.LightSunrise,Sunrise,-
+LV.TI.LightDay,Day,-
+LV.TI.LightSunset,Sunset,-
+LV.TI.LightNight,Night,-
+LV.TI.QuickQuit,Quick/Force Quit [Ctrl + Shift + Q] (!),-
+LV.TI.QuickQuitDesc,Press Ctrl + Shift + Q to immediately force exit the game by terminating the game process. NO SAVE or game state cleanup. Be careful!,-
+LV.TI.BiggerBuildDragArea,Bigger build drag area (!),-
+LV.TI.BiggerBuildDragAreaDesc,"Increase the build drag area for buildings like Dams (default 10x10) or Roads (25). This significantly increases the load time and memory usage, so use it with caution. Example: setting this to 5 will make the drag area 15x15 Dams or 30 Roads. Can only be changed at the Main Menu.",-
+LV.TI.AutoClearDeadTrees,Clear dead trees immediately.,-
+LV.TI.AutoClearDeadTreesDesc,"When using the 'Mark Resources for Demolition' tool, automatically clear dead trees immediately without beavers (as if you are building stuff on it).",-
+LV.TI.AddRealTimeClock,Add real-time clock,-
+LV.TI.AddRealTimeClockDesc,Add a real-time clock in the top right corner. This is useful for players who want to keep track of the time while playing.,-

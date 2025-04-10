@@ -1,0 +1,699 @@
+["Tobbert.TrackStraight.DisplayName"]
+raw = "Straight Train Track"
+en = "Straight Train Track"
+zh_CN = "直线铁轨"
+ru = "Прямой железнодорожный путь"
+jp = "直線の鉄道線路"
+
+["Tobbert.TrackStraight.Description"]
+raw = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
+en = "A track piece that goes straight. It can be changed to a one-way signal using the toggle when clicked on. It creates a track section between one-way tracks that allows a single train to be on it (indicated by the colors)."
+zh_CN = "一段直轨道。点击时可以通过切换变成单向信号。在单向之间创建一个轨道部分，允许一列火车在上面行驶（通过颜色表示）。"
+ru = "Прямой рельс. Может быть изменен на односторонний сигнал с помощью переключателя при нажатии на него. Создает участок рельсов между односторонними направлениями, который позволяет находиться на нем только одному поезду (что указывается цветами)."
+jp = "ストレートのトラックピースです。クリックするとトグルを使用して一方向信号に変更できます。一方向間のトラックセクションを作成し、単一の列車がその上に乗ることができます（色で示されます）。"
+
+["Tobbert.TrackStraight.FlavorDescription"]
+raw = "Choo! Choo!"
+en = "Choo! Choo!"
+zh_CN = "呜！呜！"
+ru = "Чух-чух!"
+jp = "ちゅーちゅー！"
+
+["Tobbert.TrackOneWay.DisplayName"]
+raw = "One way signal Track"
+en = "One way signal track"
+zh_CN = "单向信号轨道"
+ru = "Однонаправленная дорожка сигнала"
+jp = "ワンウェイ信号トラック"
+
+["Tobbert.TrackOneWay.Description"]
+raw = "Will tell trains that they can only go through the green side. Can be changed back to a straight track by using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
+en = "Will inform trains that they can only pass through the green side. It can be switched back to a straight track by using the toggle when clicking on it. Creates a track section between one-ways that allows a single train to be on it (indicated by the colors)."
+zh_CN = "将告诉火车它们只能通过绿色侧面。通过单击切换按钮可以将其改回直轨。创建一个单行道之间的轨道部分，允许只有一列火车在其上行驶（通过颜色指示）。"
+ru = "Сообщит поездам, что они могут проходить только через зеленую сторону. Может быть изменен обратно на прямую линию, используя переключатель при щелчке на нем. Создает участок пути между односторонними, позволяя на нем находиться только одному поезду (что обозначается цветами)."
+jp = "列車には、緑の側のみを通過できると伝えます。クリックするとトグルを使って直線の線路に戻すことができます。片方向の間に一つの列車が存在できるトラックセクションを作成します（色で示されます）。"
+
+["Tobbert.TrackOneWay.FlavorDescription"]
+raw = "You... Shall... Pass..."
+en = "You... Shall... Pass..."
+zh_CN = "你...  shall... 通过..."
+ru = "Ты... Пройдёшь..."
+jp = "あなたは…通過することができます…"
+
+["Tobbert.TrackCrossing.DisplayName"]
+raw = "Train Track Crossing"
+en = "Train Track Crossing"
+zh_CN = "铁路交叉口"
+ru = "Железнодорожный переезд"
+jp = "踏切"
+
+["Tobbert.TrackCrossing.Description"]
+raw = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
+en = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
+zh_CN = "海狸可以在这里穿越轨道。不会实现碰撞，因为性能会受到太大影响。"
+ru = "Бобры могут пересекать пути здесь. Столкновения не будут реализованы, так как производительность пострадает слишком сильно."
+jp = "ビーバーはここで線路を横断できます。衝突は実装されません。パフォーマンスがあまりにも影響を受けるからです。"
+
+["Tobbert.TrackCrossing.FlavorDescription"]
+raw = "That train is approaching very fa-"
+en = "That train is approaching very fast."
+zh_CN = "那列火车正快速接近。"
+ru = "Этот поезд приближается очень быстро-"
+jp = "その列車はとても速く近づいています。"
+
+["Tobbert.TrackHillStart.DisplayName"]
+raw = "Slope Track"
+en = "Slope Track"
+zh_CN = "坡道轨迹"
+ru = "Склон трека"
+jp = "スロープトラック"
+
+["Tobbert.TrackHillStart.Description"]
+raw = "A track that lets trains go up and down."
+en = "A track that allows trains to ascend and descend."
+zh_CN = "一条让火车上下行驶的轨道。"
+ru = "Трек, который позволяет поездам подниматься и спускаться."
+jp = "列車が上下するための線路。"
+
+["Tobbert.TrackHillStart.FlavorDescription"]
+raw = "Is the train not to heavy?"
+en = "Is the train not too heavy?"
+zh_CN = "火车不太重吗？"
+ru = "Не слишком ли тяжелый поезд?"
+jp = "電車は重すぎませんか？"
+
+["Tobbert.TrackCorner1x1.DisplayName"]
+raw = "Corner 1x1 Train Track"
+en = "Corner 1x1 Train Track"
+zh_CN = "角落 1x1 火车轨道"
+ru = "Уголок 1x1 Железнодорожного пути"
+jp = "コーナー1x1トレインレール"
+
+["Tobbert.TrackCorner1x1.Description"]
+raw = "A Track Piece that around a corner."
+en = "A track piece that goes around a corner."
+zh_CN = "一个转弯的轨道片。"
+ru = "Участок рельсов, который идет вокруг угла."
+jp = "角を曲がるトラックのパーツ。"
+
+["Tobbert.TrackCorner1x1.FlavorDescription"]
+raw = "Might be a little tight."
+en = "It might be a little tight."
+zh_CN = "可能会有点紧。"
+ru = "Может быть немного тесно."
+jp = "少しきついかもしれません。"
+
+["Tobbert.TrackCorner2x2.DisplayName"]
+raw = "Corner 2x2 Train Track"
+en = "Corner 2x2 Train Track"
+zh_CN = "角落 2x2 火车轨道"
+ru = "Угол 2x2 Железнодорожный путь"
+jp = "コーナー2x2トレインチャック"
+
+["Tobbert.TrackCorner2x2.Description"]
+raw = "A Track Piece that around a larger corner."
+en = "A track piece that goes around a larger corner."
+zh_CN = "一个周围有较大拐角的轨道片。"
+ru = "Элемент пути, который проходит вокруг большого поворота."
+jp = "大きなコーナーの周りにあるトラック部分。"
+
+["Tobbert.TrackCorner2x2.FlavorDescription"]
+raw = "What a nice looking curve."
+en = "What a nice looking curve."
+zh_CN = "多么好看的曲线。"
+ru = "Какой красивый изгиб."
+jp = "素敵な曲線ですね。"
+
+["Tobbert.TrackTIntersection1x1.DisplayName"]
+raw = "T intersection Train Track 1x1"
+en = "T intersection Train Track 1x1"
+zh_CN = "T形交叉火车轨道 1x1"
+ru = "T перекрёсток Железнодорожный путь 1x1"
+jp = "T字路交差点 鉄道 1x1"
+
+["Tobbert.TrackTIntersection1x1.Description"]
+raw = "A intersection in the form of a T for trains."
+en = "A T-shaped intersection for trains."
+zh_CN = "一个T形交叉口，用于火车。"
+ru = "Перекресток в форме буквы Т для поездов."
+jp = "列車用のT字型の交差点。"
+
+["Tobbert.TrackTIntersection1x1.FlavorDescription"]
+raw = "Which way should I go?"
+en = "Which way should I go?"
+zh_CN = "我应该走哪条路？"
+ru = "Куда мне пойти?"
+jp = "どちらの道に行くべきですか？"
+
+["Tobbert.TrackTIntersection2x3.DisplayName"]
+raw = "T intersection Train Track 2x3"
+en = "T intersection Train Track 2x3"
+zh_CN = "T 型交叉火车轨道 2x3"
+ru = "Т-образный перекресток Железнодорожные пути 2х3"
+jp = "T型交差点 鉄道トラック 2x3"
+
+["Tobbert.TrackTIntersection2x3.Description"]
+raw = "A intersection in the form of a T for trains."
+en = "A T-shaped intersection for trains."
+zh_CN = "一个T形的铁路交叉口。"
+ru = "Пересечение в форме Т для поездов."
+jp = "T字型の交差点 (列車用)。"
+
+["Tobbert.TrackTIntersection2x3.FlavorDescription"]
+raw = "Where will those paths lead to?"
+en = "Where will those paths lead to?"
+zh_CN = "那些道路将通往哪里？"
+ru = "Куда приведут эти пути?"
+jp = "その道はどこに続くのか？"
+
+["Tobbert.TrackXIntersection1x1.DisplayName"]
+raw = "X intersection Train Track 1x1"
+en = "X intersection Train Track 1x1"
+zh_CN = "X交叉火车轨道1x1"
+ru = "Пересечение с железнодорожными путями 1x1"
+jp = "X交差点 鉄道トラック 1x1"
+
+["Tobbert.TrackXIntersection1x1.Description"]
+raw = "A intersection in the form of a X for trains."
+en = "A railroad crossing in the shape of an X for trains."
+zh_CN = "一个以X形状交叉的火车交叉口。"
+ru = "Перекресток в форме X для поездов."
+jp = "電車用のX字型交差点。"
+
+["Tobbert.TrackXIntersection1x1.FlavorDescription"]
+raw = "So many options!"
+en = "So many options!"
+zh_CN = "这么多选择！"
+ru = "Так много вариантов!"
+jp = "たくさんの選択肢があります！"
+
+["Tobbert.TrackXIntersection3x3.DisplayName"]
+raw = "X intersection Train Track 3x3"
+en = "X intersection Train Track 3x3"
+zh_CN = "X交叉火车轨道3x3"
+ru = "X пересечение Железнодорожных путей 3x3"
+jp = "X交差点 鉄道トラック 3x3"
+
+["Tobbert.TrackXIntersection3x3.Description"]
+raw = "A intersection in the form of a X for trains."
+en = "A railroad crossing in the shape of an X."
+zh_CN = "一个交叉口，呈现为 X 形状，供火车通过。"
+ru = "Пересечение в форме X для поездов."
+jp = "Xの形の交差点（鉄道用）。"
+
+["Tobbert.TrackXIntersection3x3.FlavorDescription"]
+raw = "I just cannot choose where to go..."
+en = "I just cannot choose where to go..."
+zh_CN = "我真的无法选择去哪里..."
+ru = "Я просто не могу выбрать, куда поехать..."
+jp = "どこに行くか選べません…"
+
+["Tobbert.TrackRIntersection2x3.DisplayName"]
+raw = "Switch Train Track 2x3"
+en = "Switch Train Track 2x3"
+zh_CN = "切换列车轨道 2x3"
+ru = "Переключить железнодорожные пути 2х3"
+jp = "スイッチ鉄道トラック 2x3"
+
+["Tobbert.TrackRIntersection2x3.Description"]
+raw = "A switch in the form of a R for trains."
+en = "A switch in the form of an R for trains."
+zh_CN = "一个以 R 形状为铁路的开关。"
+ru = "Выключатель в виде R для поездов."
+jp = "列車用のRの形をしたスイッチ。"
+
+["Tobbert.TrackRIntersection2x3.FlavorDescription"]
+raw = "Where R we going?"
+en = "Where are we going?"
+zh_CN = "我们要去哪里？"
+ru = "Куда мы идем?"
+jp = "私たちはどこに行くの？"
+
+["Tobbert.GoodsStation.DisplayName"]
+raw = "Goods station"
+en = "Goods station"
+zh_CN = "货物站"
+ru = "Грузовая станция"
+jp = "貨物駅"
+
+["Tobbert.GoodsStation.Description"]
+raw = "Allows for transportation of goods by trains. A good can either be send or received at a station. Goods received will only be moved to storages that are set to obtain."
+en = "Allows for the transportation of goods by trains. A good can either be sent or received at a station. Goods received will only be moved to storages that are set to obtain."
+zh_CN = "允许通过火车运输货物。货物可以在车站发送或接收。接收的货物只能移动到已设置为接收的存储区。"
+ru = "Позволяет транспортировать товары поездами. Товар можно отправить или получить на станции. Полученные товары будут перемещены только в хранилища, которые настроены на получение."
+jp = "貨物を列車で輸送することができます。品物は駅で送信または受信することができます。受信された貨物は、受け取るように設定された倉庫にのみ移動されます。"
+
+["Tobbert.GoodsStation.FlavorDescription"]
+raw = "Look at all the goods it can hold."
+en = "Look at all the goods it can hold."
+zh_CN = "看看它能装下多少货物。"
+ru = "Посмотрите на все товары, которые он может содержать."
+jp = "その保有できる商品を全部見てください。"
+
+["Tobbert.PassengerStation.DisplayName"]
+raw = "Passenger station"
+en = "Passenger station"
+zh_CN = " passenger station 乘客站"
+ru = "Пассажирская станция"
+jp = "旅客駅"
+
+["Tobbert.PassengerStation.Description"]
+raw = "This stations allows beavers to get on the train and travel to another station that are connected to each other."
+en = "This station allows beavers to get on the train and travel to another station that is connected to it."
+zh_CN = "这个车站允许海狸上车，前往连接在一起的另一个车站。"
+ru = "Эта станция позволяет бобрам входить в поезд и путешествовать на другую станцию, которая соединена с ней."
+jp = "この駅ではビーバーが電車に乗って、互いに接続された別の駅に移動することができます。"
+
+["Tobbert.PassengerStation.FlavorDescription"]
+raw = "Beaver train!"
+en = "Beaver train!"
+zh_CN = "海狸火车！"
+ru = "Бобровый поезд!"
+jp = "ビーバー電車！"
+
+["Tobbert.PassengerStation.DistrictObjectToggle"]
+raw = "Goes across districts:"
+en = "Goes across districts:"
+zh_CN = "跨区进行："
+ru = "Пересекает районы:"
+jp = "地区を越えて行く："
+
+["Tobbert.PassengerStation.DistrictObject"]
+raw = "When enabled will ONLY allow beavers to go passenger stations that also have this setting enabled and are in other districts."
+en = "When enabled, it will ONLY allow beavers to access passenger stations that have this setting enabled and are located in other districts."
+zh_CN = "启用时，只会允许河狸前往也启用此设置且位于其他区域的客运站。"
+ru = "Когда включено, это будет разрешать бобрам заходить на пассажирские станции, на которых также включена эта настройка и которые находятся в других районах."
+jp = "有効になると、この設定が有効であり、他の地区にある旅客駅にのみビーバーが行けるようになります。"
+
+["Tobbert.PassengerStation.EmptyStation"]
+raw = "There are currently no passengers waiting."
+en = "There are currently no passengers waiting."
+zh_CN = "目前没有乘客在等待。"
+ru = "В данный момент нет ожидающих пассажиров."
+jp = "現在、待っている乗客はいません。"
+
+["Tobbert.WaitingStation.DisplayName"]
+raw = "Waiting Station"
+en = "Waiting Station"
+zh_CN = "等待站"
+ru = "Станция ожидания"
+jp = "待機所"
+
+["Tobbert.WaitingStation.Description"]
+raw = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure its not in any crucial paths."
+en = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure it's not in any crucial paths."
+zh_CN = "火车在没有任务时可以在这里等候。这可以防止火车占用轨道。火车无法绕过这个，因此请确保它不在任何关键路径上。"
+ru = "Поезда могут ждать здесь, когда им нечего делать. Это предотвращает занятость путей поездами. Поезда не могут проложить путь через это, поэтому убедитесь, что это не находится на ключевых маршрутах."
+jp = "列車は何もすることがないときにここで待つことができます。これにより、列車が線路を占有するのを防ぎます。列車はこれを経路探査することができないため、重要な経路には置かないようにしてください。"
+
+["Tobbert.WaitingStation.FlavorDescription"]
+raw = "When can I go again?"
+en = "When can I go again?"
+zh_CN = "我什么时候可以再去？"
+ru = "Когда я могу пойти снова?"
+jp = "いつもう一度行けますか？"
+
+["Tobbert.TrainYard.DisplayName"]
+raw = "Train Yard"
+en = "Train Yard"
+zh_CN = "火车场"
+ru = "Депо поездов"
+jp = "トレインヤード"
+
+["Tobbert.TrainYard.Description"]
+raw = "A building that creates trains."
+en = "A building that creates trains."
+zh_CN = "一个制造火车的建筑。"
+ru = "Здание, где создают поезда."
+jp = "電車を作る建物。"
+
+["Tobbert.TrainYard.FlavorDescription"]
+raw = "This is where trains are born."
+en = "This is where trains are born."
+zh_CN = "这里是火车诞生的地方。"
+ru = "Здесь рождаются поезда."
+jp = "これは列車が生まれる場所です。"
+
+["Tobbert.TrainYard.CostOfTrain"]
+raw = "Cost of 1 train:"
+en = "Cost of 1 train:"
+zh_CN = "一列火车的费用："
+ru = "Стоимость 1 поезда:"
+jp = "1台の電車の費用："
+
+["Tobbert.TrainYard.CreateTrain"]
+raw = "Build train"
+en = "Build train"
+zh_CN = "建造火车"
+ru = "Собрать поезд"
+jp = "列車を作る"
+
+["Tobbert.Train.PrefabName"]
+raw = "Train"
+en = "Train"
+zh_CN = "火车"
+ru = "Поезд"
+jp = "列車"
+
+["Tobbert.Wagon.PrefabName"]
+raw = "Wagon"
+en = "Wagon"
+zh_CN = "马车"
+ru = "вагон"
+jp = "ワゴン"
+
+["Tobbert.TrainModel.TrainModel"]
+raw = "Train Model:"
+en = "Train Model:"
+zh_CN = "训练模型："
+ru = "Обучить модель:"
+jp = "トレインモデル："
+
+["Tobbert.TrainModel.SmallLog"]
+raw = "Small Log"
+en = "Small Log"
+zh_CN = "小日志"
+ru = "Небольшой журнал"
+jp = "小さなログ"
+
+["Tobbert.TrainModel.BigWooden"]
+raw = "Big Wooden"
+en = "Big Wooden"
+zh_CN = "大木头"
+ru = "Большое дерево"
+jp = "大きな木製"
+
+["Tobbert.WagonModel.WagonModel"]
+raw = "Wagon Model:"
+en = "Wagon Model:"
+zh_CN = "车厢型号："
+ru = "Модель вагона:"
+jp = "ワゴンモデル："
+
+["Tobbert.WagonModel.BoxWagon"]
+raw = "Box Wagon"
+en = "Box Wagon"
+zh_CN = "箱式货车"
+ru = "Ящик вагон"
+jp = "ボックスワゴン"
+
+["Tobbert.WagonModel.TankWagon"]
+raw = "Tank Wagon"
+en = "Tank Wagon"
+zh_CN = "罐车"
+ru = "Цистерна"
+jp = "タンク車"
+
+["Tobbert.WagonModel.FlatWagon"]
+raw = "Flat Wagon"
+en = "Flat Wagon"
+zh_CN = "平车"
+ru = "Плоская тележка"
+jp = "フラットワゴン"
+
+["Tobbert.WagonModel.FlipperWagon"]
+raw = "Gondola Wagon"
+en = "Gondola Wagon"
+zh_CN = "缆车货车"
+ru = "Гондольный вагон"
+jp = "ゴンドラワゴン"
+
+["Tobbert.WagonModel.MetalCart"]
+raw = "Metal Cart"
+en = "Metal Cart"
+zh_CN = "金属车"
+ru = "Металлическая тележка"
+jp = "メタルカート"
+
+["Tobbert.WagonModel.PassengerWagon"]
+raw = "Passenger Wagon"
+en = "Passenger Car"
+zh_CN = "乘客车厢"
+ru = "Пассажирский вагон"
+jp = "客車"
+
+["Tobbert.BatchControl.Trains"]
+raw = "Trains"
+en = "Trains"
+zh_CN = "火车"
+ru = "Поезда"
+jp = "電車"
+
+["Tobbert.Train.Length"]
+raw = "Train Length:"
+en = "Train Length:"
+zh_CN = "列车长度："
+ru = "Длина поезда:"
+jp = "列車の長さ："
+
+["Tobbert.Train.Destroy"]
+raw = "Are you sure you want to destroy this train?"
+en = "Are you sure you want to destroy this train?"
+zh_CN = "你确定要摧毁这列火车吗？"
+ru = "Вы уверены, что хотите уничтожить этот поезд?"
+jp = "この列車を破壊してもいいですか？"
+
+["Tobbert.GoodsStation.Distribution.Header"]
+raw = "Distributed goods"
+en = "Distributed goods"
+zh_CN = "分发商品"
+ru = "Распределенные товары"
+jp = "分配された商品"
+
+["Tobbert.GoodsStation.Distribution.Disabled.Info"]
+raw = "Distribution disabled by distribution settings."
+en = "Distribution disabled by distribution settings."
+zh_CN = "分发功能因分发设置被禁用。"
+ru = "Распределение отключено настройками распределения."
+jp = "配布設定によって配布が無効になっています。"
+
+["Tobbert.GoodsStation.Distribution.Sending.Info"]
+raw = "Distribution set to sending by distribution settings."
+en = "Distribution configured for sending according to distribution settings."
+zh_CN = "分发设置为根据分发设置发送。"
+ru = "Распределение настроено на отправку в соответствии с настройками распределения."
+jp = "配布設定によって送信するように設定されています。"
+
+["Tobbert.GoodsStation.Distribution.Receiving.Info"]
+raw = "Distribution set to receiving by distribution settings."
+en = "Distribution set to receiving by distribution settings."
+zh_CN = "分发设置已根据分发设置进行接收。"
+ru = "Распределение установлено для получения в соответствии с настройками распределения."
+jp = "配布設定によって受信が設定されています。"
+
+["Tobbert.BatchControl.GoodsStation"]
+raw = "Goods stations"
+en = "Goods stations"
+zh_CN = "货物站"
+ru = "Грузовые станции"
+jp = "貨物駅"
+
+["Tobbert.BatchControl.DistributionDisabledAll"]
+raw = "Disable all distribution"
+en = "Disable all distribution"
+zh_CN = "禁用所有分发"
+ru = "Отключить всю дистрибуцию"
+jp = "すべての配布を無効にする"
+
+["Tobbert.BatchControl.DistributionDisabled"]
+raw = "Distribution disabled"
+en = "Distribution disabled"
+zh_CN = "分发已禁用"
+ru = "Распределение отключено"
+jp = "配布が無効になっています"
+
+["Tobbert.BatchControl.DistributionDisabled.Description"]
+raw = "Completely disable the distribution of this good at this station."
+en = "Completely disable the distribution of this product at this station."
+zh_CN = "完全停止在这个站点分发此商品。"
+ru = "Полностью отключите распределение этого товара на этой станции."
+jp = "この駅でこの商品の配布を完全に停止してください。"
+
+["Tobbert.BatchControl.DistributionSendingAll"]
+raw = "Allow sending of all goods"
+en = "Allow sending of all goods"
+zh_CN = "允许发送所有商品"
+ru = "Разрешите отправку всех товаров."
+jp = "すべての商品の送付を許可する"
+
+["Tobbert.BatchControl.DistributionSending"]
+raw = "Allow sending"
+en = "Allow sending"
+zh_CN = "允许发送"
+ru = "Разрешить отправку"
+jp = "送信を許可する"
+
+["Tobbert.BatchControl.DistributionSending.Description"]
+raw = "Station can send this good to other station. The maximum amount that can be inside the station is determined by the amount to the right."
+en = "The station can send this good to another station. The maximum amount that can be inside the station is determined by the amount on the right."
+zh_CN = "站可以将这个货物发送给其他站点。车站内可以容纳的最大数量由右侧的数量决定。"
+ru = "Станция может отправить этот груз на другую станцию. Максимальное количество, которое может находиться на станции, определяется количеством справа."
+jp = "駅はこの良品を他の駅に送ることができます。駅内に入ることができる最大量は右側の量によって決まります。"
+
+["Tobbert.BatchControl.DistributionReceivingAll"]
+raw = "Allow receiving of all goods"
+en = "Allow receiving of all goods"
+zh_CN = "允许接收所有货物"
+ru = "Разрешите прием всех товаров"
+jp = "全ての商品の受け取りを許可します。"
+
+["Tobbert.BatchControl.DistributionReceiving"]
+raw = "Allow receiving"
+en = "Allow receiving"
+zh_CN = "允许接收"
+ru = "Разрешить получение"
+jp = "受信を許可する"
+
+["Tobbert.BatchControl.DistributionReceiving.Description"]
+raw = "Station can receive this good that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
+en = "The station can receive goods that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
+zh_CN = "车站可以接收从其他车站发送的货物。车站内部的最大容量由右侧的数量决定。"
+ru = "Станция может принимать товары, которые отправляются с других станций. Максимальное количество, которое может находиться внутри станции, определяется количеством справа."
+jp = "駅は他の駅から送られるこの良いものを受け取ることができます。駅内に入ることができる最大量は、右側の量によって決まります。"
+
+["Tobbert.BatchControl.DecreaseMaximum"]
+raw = "Decrease max amount of goods"
+en = "Decrease maximum quantity of goods"
+zh_CN = "减少商品的最大数量"
+ru = "Уменьшить максимальное количество товаров"
+jp = "商品の最大量を減らす"
+
+["Tobbert.BatchControl.DecreaseMaximum.Description"]
+raw = "Decrease the maximum amount that can be inside the station. Click is -1 and holding shift is -10. Max capacity is 200."
+en = "Decrease the maximum amount that can be inside the station. A click is -1 and holding shift is -10. The maximum capacity is 200."
+zh_CN = "减少车站内可以容纳的最大数量。点击减少1，按住Shift键减少10。最大容量为200。"
+ru = "Уменьшите максимальное количество, которое может находиться внутри станции. Клик -1, удерживание Shift -10. Максимальная вместимость - 200."
+jp = "駅内に入る最大人数を減らします。クリックは-1、シフトを押しながらは-10です。最大収容人数は200です。"
+
+["Tobbert.BatchControl.IncreaseMaximum"]
+raw = "Increase max amount of goods"
+en = "Increase the maximum amount of goods."
+zh_CN = "增加最大货物量"
+ru = "Увеличить максимальное количество товаров"
+jp = "最大商品量を増加させる"
+
+["Tobbert.BatchControl.IncreaseMaximum.Description"]
+raw = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
+en = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
+zh_CN = "增加车站内的最大容量。单击增加1，按住Shift增加10。最大容量为200。"
+ru = "Увеличьте максимальное количество, которое может находиться внутри станции. Клик - это +1, а удерживание Shift - это +10. Максимальная вместимость - 200."
+jp = "駅内に入る最大量を増やします。クリックは+1、シフトキーを押しながらは+10です。最大容量は200です。"
+
+["Tobbert.TrackSystem.ToggleSectionDivider"]
+raw = "Divides sections:"
+en = "Divides sections:"
+zh_CN = "划分章节："
+ru = "Делит разделы:"
+jp = "セクションを分ける："
+
+["Tobbert.TrackSystem.ButtonChangeDirection"]
+raw = "Change direction"
+en = "Change direction"
+zh_CN = "改变方向"
+ru = "Смените направление"
+jp = "方向を変える"
+
+["Tobbert.TrackSystem.CollidingSectionDividers"]
+raw = "Cannot connect 2 Section Dividers"
+en = "Cannot connect 2 section dividers."
+zh_CN = "无法连接两个分隔符"
+ru = "Невозможно соединить 2 разделителя секций"
+jp = "2つのセクションディバイダーを接続できません。"
+
+["Tobbert.ToolGroup.Trains"]
+raw = "Trains"
+en = "Trains"
+zh_CN = "火车"
+ru = "Поезда"
+jp = "列車"
+
+["Tobbert.TrainYard.PreviewErrorMessage"]
+raw = "Only 1 Train Yard can be build"
+en = "Only 1 Train Yard can be built."
+zh_CN = "只能建造一个火车场。"
+ru = "Можно построить только 1 склад поездов."
+jp = "トレインヤードは1つしか建設できません。"
+
+["Tobbert.Trains.UnlockPrompt"]
+raw = "You need to unlock {0} to build {1}."
+en = "You need to unlock {0} to build {1}."
+zh_CN = "您需要解锁 {0} 才能建造 {1}。"
+ru = "Вам нужно разблокировать {0}, чтобы построить {1}."
+jp = "{0}をアンロックする必要があります。{1}を構築するために。"
+
+["Tobbert.DistributionTrain.MinimumOfItemsToMove"]
+raw = "Minimum of items to move:"
+en = "Minimum of items to move:"
+zh_CN = "最小移动物品数量："
+ru = "Минимальное количество предметов для перемещения:"
+jp = "移動するアイテムの最小数量："
+
+["Tobbert.TrainNavigation.Unstuck"]
+raw = "Turn Around"
+en = "Turn Around"
+zh_CN = "转身"
+ru = "Развернись"
+jp = "振り返ってください"
+
+["Tobbert.TrainNavigation.NoWaitingStation"]
+raw = "No available Waiting Station found."
+en = "No available Waiting Station found."
+zh_CN = "未找到可用的等待站。"
+ru = "Не найдено доступных станций ожидания."
+jp = "利用可能な待機所が見つかりませんでした。"
+
+["Tobbert.TrainNavigation.NoWaitingStationShort"]
+raw = "No Waiting Station"
+en = "No Waiting Station"
+zh_CN = "无等待站"
+ru = "Нет станции ожидания"
+jp = "待機所なし"
+
+["Tobbert.TrainDestination.UnconnectedWarning"]
+raw = "Station is not connected to any other station."
+en = "The station is not connected to any other station."
+zh_CN = "该站点未连接到任何其他站点。"
+ru = "Станция не подключена ни к одной другой станции."
+jp = "駅は他の駅に接続されていません。"
+
+["Tobbert.TrainDestination.UnconnectedWarningShort"]
+raw = "Unconnected station"
+en = "Unconnected station"
+zh_CN = "未连接的站点"
+ru = "Неподключенная станция"
+jp = "未接続の駅"
+
+["Tobbert.ChooChooSettings.Header"]
+raw = "Choo! Choo!"
+en = "Choo! Choo!"
+zh_CN = "呜呜！呜呜！"
+ru = "Ту-ту!"
+jp = "チュー！チュー！"
+
+["Tobbert.ChooChooSettings.DefaultTrainModel"]
+raw = "Default Train model:"
+en = "Default Train model:"
+zh_CN = "默认训练模型："
+ru = "Модель по умолчанию для поезда:"
+jp = "デフォルトトレインモデル："
+
+["Tobbert.ChooChooSettings.DefaultWagonModel"]
+raw = "Default Wagon model:"
+en = "Default Wagon model:"
+zh_CN = "默认货车型号："
+ru = "Модель вагона по умолчанию:"
+jp = "デフォルトワゴンモデル："
+
+["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
+raw = "Choo! Choo!"
+en = "Choo! Choo!"
+zh_CN = "呜呜！呜呜！"
+ru = "Чу! Чу!"
+jp = "チューチュー！"
+
+["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
+raw = "Open Goods Stations tab"
+en = "Open Goods Stations tab"
+zh_CN = "打开货物站标签"
+ru = "Откройте вкладку Открытые товарные станции"
+jp = "オープン貨物駅タブ"

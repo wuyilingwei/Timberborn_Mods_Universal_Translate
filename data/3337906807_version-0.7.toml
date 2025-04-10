@@ -1,0 +1,188 @@
+["IgorZ.TimberCommons.WaterTower.Utilization"]
+raw = "Utilized potential: {0:0.#}%"
+en = "Utilized potential: {0:0.#}%"
+zh_CN = "利用潜力: {0:0.#}%"
+ru = "Использованный потенциал: {0:0.#}%"
+jp = "利用された潜在能力: {0:0.#}%"
+
+["IgorZ.TimberCommons.WaterTower.IrrigatedArea"]
+raw = "Covered area: {0}"
+en = "Covered area: {0}"
+zh_CN = "覆盖面积：{0}"
+ru = "Покрытая площадь: {0}"
+jp = "カバー面積: {0}"
+
+["IgorZ.TimberCommons.WaterTower.EffectiveRange"]
+raw = "Effective range: {0}"
+en = "Effective range: {0}"
+zh_CN = "有效范围：{0}"
+ru = "Эффективный диапазон: {0}"
+jp = "有効範囲: {0}"
+
+["IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate"]
+raw = "No reachable tiles to irrigate"
+en = "No hay azulejos accesibles para regar"
+zh_CN = "没有可灌溉的可达瓷砖"
+ru = "Нет доступных плиток для орошения"
+jp = "灌漑できるタイルがありません"
+
+["IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile"]
+raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+en = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+zh_CN = "增长提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+ru = "Увеличение роста: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+jp = "成長ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+
+["IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile"]
+raw = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+en = "Growth slowdown: 🡇{0:0.#}%"
+zh_CN = "增长放缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+ru = "Замедление роста: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+jp = "成長の減速：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+
+["IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream"]
+raw = "Close above depth at spillway: {0}"
+en = "Close above depth at spillway: {0}"
+zh_CN = "在溢洪道上方关闭深度：{0}"
+ru = "Закрыть выше глубины на водосливе: {0}"
+jp = "洪水門の上の深さを閉じる: {0}"
+
+["IgorZ.TimberCommons.InjuryProbability"]
+raw = "Injury probability: {0} every hour"
+en = "Injury probability: {0} every hour"
+zh_CN = "受伤概率：每小时 {0}"
+ru = "Вероятность травмы: {0} каждый час"
+jp = "怪我の確率: {0} 毎時"
+
+["IgorZ.TimberCommons.Settings.TimeAndDurationSection"]
+raw = "Time and duration representation"
+en = "Time and duration representation"
+zh_CN = "时间和持续时间表示"
+ru = "Представление времени и продолжительности"
+jp = "時間と期間の表現"
+
+["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft"]
+raw = "Show 'supply lasts' as days/hours"
+en = "Show 'supply lasts' as days/hours."
+zh_CN = "显示“供应持续时间”以天/小时计"
+ru = "Покажите 'остаток запасов' в днях/часах"
+jp = "「供給が続く間」を日/時間で表示する"
+
+["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime"]
+raw = "Show grow time as days/hours"
+en = "Show grow time as days/hours"
+zh_CN = "显示生长时间为天/小时"
+ru = "Покажите время роста в днях/часах."
+jp = "成長時間を日/時間で表示する"
+
+["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration"]
+raw = "Show recipes time as days/hours"
+en = "Show recipes time as days/hours"
+zh_CN = "显示食谱时间为天/小时"
+ru = "Покажите время приготовления рецептов в днях/часах."
+jp = "レシピの時間を日/時間で表示する"
+
+["IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes"]
+raw = "Show recipe fuel consumption with a higher precision"
+en = "Show recipe fuel consumption with a higher precision."
+zh_CN = "以更高的精度显示配方燃料消耗量"
+ru = "Показать потребление топлива для рецепта с более высокой точностью."
+jp = "より高い精度でレシピの燃料消費を表示する"
+
+["IgorZ.TimberCommons.Settings.IrrigationSystemSection"]
+raw = "Irrigation system"
+en = "Irrigation system"
+zh_CN = "灌溉系统"
+ru = "Система орошения"
+jp = "灌漑システム"
+
+["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers"]
+raw = "Show irrigated tiles as well moisturized"
+en = "Show irrigated tiles as well as moisturized."
+zh_CN = "显示灌溉的瓷砖以及湿润的瓷砖"
+ru = "Покажите орошаемые плитки как хорошо увлажненные."
+jp = "潅水されたタイルを湿潤として表示する"
+
+["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip"]
+raw = "Specifies whether the tiles should look shiny green (well moisturized). Otherwise, the stock logic\nwill show them as 'barely moisturized' since the irrigation towers give only the base moisture level."
+en = "Specifies whether the tiles should look shiny green (well moisturized). Otherwise, the stock logic will show them as 'barely moisturized' since the irrigation towers give only the base moisture level."
+zh_CN = "指定瓷砖是否应该看起来闪亮的绿色（良好的湿润）。否则，库存逻辑将显示它们为“几乎没有湿润”，因为灌溉塔仅提供基础湿度水平。"
+ru = "Указывает, должны ли плитки выглядеть блестящими зелеными (хорошо увлажненными). В противном случае стандартная логика покажет их как 'слабо увлажненные', поскольку ирригационные башни обеспечивают только базовый уровень влажности."
+jp = "タイルが光沢のある緑色（十分に潤いがある）に見えるべきかどうかを指定します。そうでない場合、ストックロジックは、灌漑塔が基本的な湿度レベルしか提供しないため、タイルを「ほとんど潤いがない」と表示します。"
+
+["IgorZ.TimberCommons.Settings.WaterBuildingsSection"]
+raw = "Water buildings"
+en = "Water buildings"
+zh_CN = "水上建筑"
+ru = "Водные здания"
+jp = "水の建物"
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps"]
+raw = "Allow setting maximum water level at the spillway of the mechanical pumps"
+en = "Allow setting maximum water level at the spillway of the mechanical pumps."
+zh_CN = "允许在机械泵的溢流口设置最大水位"
+ru = "Разрешить установку максимального уровня воды на водосливе механических насосов."
+jp = "機械ポンプの排水路で最大水位を設定できるようにする"
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps"]
+raw = "Allow setting maximum water level at the spillway of the liquid drops"
+en = "Allow setting the maximum water level at the spillway of the liquid drops."
+zh_CN = "允许在液滴溢洪道设置最大水位。"
+ru = "Разрешить установку максимального уровня воды на перепускном устройстве жидких капель."
+jp = "液体の滴の越流堤で最大水位を設定できるようにする"
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
+raw = "Show current strength in sluice"
+en = "Show current strength in sluice"
+zh_CN = "显示当前水闸的强度"
+ru = "Покажите текущее напряжение в шлюзе."
+jp = "スルースでの現在の強度を表示してください。"
+
+["IgorZ.TimberCommons.Settings.InjuryProbabilitySection"]
+raw = "Injury probability"
+en = "Injury probability"
+zh_CN = "受伤概率"
+ru = "Вероятность травмы"
+jp = "怪我の確率"
+
+["IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment"]
+raw = "Show injury probability in the right panel"
+en = "Show injury probability in the right panel"
+zh_CN = "在右侧面板中显示受伤概率"
+ru = "Показать вероятность травмы в правой панели"
+jp = "右のパネルに怪我の確率を表示してください。"
+
+["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint"]
+raw = "Show indicator on the building avatar"
+en = "Show indicator on the building avatar."
+zh_CN = "在建筑头像上显示指示器"
+ru = "Показать индикатор на аватаре здания"
+jp = "ビルのアバターにインジケーターを表示する"
+
+["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip"]
+raw = "Hover over the indicator to see the injury probability"
+en = "Hover over the indicator to see the injury probability."
+zh_CN = "将鼠标悬停在指示器上以查看受伤概率"
+ru = "Наведите курсор на индикатор, чтобы увидеть вероятность травмы."
+jp = "指標にカーソルを合わせると、怪我の確率が表示されます。"
+
+["IgorZ.TimberCommons.Settings.DebugSection"]
+raw = "Debug and troubleshooting"
+en = "Debugging and troubleshooting"
+zh_CN = "调试和故障排除"
+ru = "Отладка и устранение неполадок"
+jp = "デバッグとトラブルシューティング"
+
+["IgorZ.TimberCommons.Settings.Debug.VerboseLogging"]
+raw = "Verbose logging"
+en = "Verbose logging"
+zh_CN = "详细日志记录"
+ru = "Подробное ведение журнала"
+jp = "詳細ログ"
+
+["IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip"]
+raw = "Logs will have more useful details, but it may impact game performance."
+en = "Logs will have more useful details, but it may impact game performance."
+zh_CN = "日志将包含更多有用的细节，但可能会影响游戏性能。"
+ru = "Логи будут содержать более полезные детали, но это может повлиять на производительность игры."
+jp = "ログにはより役立つ詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。"

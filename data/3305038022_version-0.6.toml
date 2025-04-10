@@ -1,0 +1,279 @@
+["IgorZ.SmartPower.BatteryCapacity"]
+raw = "Batteries charge: {0} / {1}"
+en = "Batteries charge: {0} / {1}"
+zh_CN = "电池电量：{0} / {1}"
+ru = "Заряд батарей: {0} / {1}"
+jp = "バッテリーの充電: {0} / {1}"
+
+["IgorZ.SmartPower.BatteryCharging"]
+raw = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+en = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+zh_CN = "电池充电中：<GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+ru = "Зарядка батарей: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+jp = "バッテリー充電中: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+
+["IgorZ.SmartPower.BatteryDischarging"]
+raw = "Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+en = "Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+zh_CN = "电池正在放电：<RedHighlight>🡇</RedHighlight>{0} ({1})"
+ru = "Аккумуляторы разряжаются: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+jp = "バッテリー放電中: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+
+["IgorZ.SmartPower.BatteryNotUsed"]
+raw = "<GreenHighlight>Batteries not used</GreenHighlight>"
+en = "Batteries not used"
+zh_CN = "<GreenHighlight>未使用的电池</GreenHighlight>"
+ru = "<GreenHighlight>Аккумуляторы не использованы</GreenHighlight>"
+jp = "<緑のハイライト>使用されていないバッテリー</緑のハイライト>"
+
+["IgorZ.SmartPower.BatteryDepleted"]
+raw = "<RedHighlight>Batteries depleted</RedHighlight>"
+en = "Batteries depleted"
+zh_CN = "电池耗尽"
+ru = "<RedHighlight>Батареи разряжены</RedHighlight>"
+jp = "バッテリーが depleted しています"
+
+["IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator"]
+raw = "Automate this generator"
+en = "Automatiza este generador"
+zh_CN = "自动化这个生成器"
+ru = "Автоматизируйте этот генератор"
+jp = "この発電機を自動化します。"
+
+["IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText"]
+raw = "Keep batteries charge in range {0}% - {1}%"
+en = "Keep batteries charged in the range of {0}% - {1}%."
+zh_CN = "将电池电量保持在{0}% - {1}%范围内"
+ru = "Держите заряд батарей в диапазоне от {0}% до {1}%"
+jp = "バッテリーの充電を{0}% - {1}%の範囲に保ってください"
+
+["IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators"]
+raw = "Apply to all generators"
+en = "Apply to all generators"
+zh_CN = "适用于所有发电机"
+ru = "Применить ко всем генераторам"
+jp = "すべてのジェネレーターに適用する"
+
+["IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators"]
+raw = "Applied to {0} generators"
+en = "Applied to {0} generators"
+zh_CN = "应用于 {0} 个发电机"
+ru = "Применено к {0} генераторам"
+jp = "{0}台の発電機に適用されました"
+
+["IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus"]
+raw = "Suspended due to excessive supply"
+en = "Suspended due to excessive supply"
+zh_CN = "因供应过剩而暂停"
+ru = "Приостановлено из-за избыточного предложения"
+jp = "供給過剰のため停止中"
+
+["IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus"]
+raw = "<SolidHighlight>⏻</SolidHighlight> No workers at workplace"
+en = "No workers at workplace"
+zh_CN = "工作场所没有工人"
+ru = "Нет рабочих на рабочем месте"
+jp = "職場に労働者がいません"
+
+["IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus"]
+raw = "<SolidHighlight>⏻</SolidHighlight> Fuel has run out"
+en = "Fuel has run out"
+zh_CN = "燃料已耗尽"
+ru = "Топливо закончилось."
+jp = "燃料が切れました"
+
+["IgorZ.SmartPower.MechanicalBuilding.NoInputStatus"]
+raw = "<SolidHighlight>⏻</SolidHighlight> Missing ingredients"
+en = "Missing ingredients"
+zh_CN = "缺少成分"
+ru = "Отсутствующие ингредиенты"
+jp = "不足している材料"
+
+["IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus"]
+raw = "<SolidHighlight>⏻</SolidHighlight> Too much products"
+en = "Too many products"
+zh_CN = "产品太多了"
+ru = "Слишком много продуктов"
+jp = "製品が多すぎます"
+
+["IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus"]
+raw = "Power saving mode"
+en = "Power saving mode"
+zh_CN = "省电模式"
+ru = "Режим энергосбережения"
+jp = "省電力モード"
+
+["IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower"]
+raw = "Suspend if not enough power"
+en = "Suspend if insufficient power"
+zh_CN = "如果电量不足则暂停"
+ru = "Приостановить, если недостаточно энергии"
+jp = "パワーが不足している場合は一時停止してください。"
+
+["IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency"]
+raw = "Minimum efficiency: {0}%"
+en = "Minimum efficiency: {0}%"
+zh_CN = "最低效率：{0}%"
+ru = "Минимальная эффективность: {0}%"
+jp = "最小効率: {0}%"
+
+["IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio"]
+raw = "Stop if batteries charge is below {0}%"
+en = "Stop if battery charge is below {0}%."
+zh_CN = "如果电池电量低于 {0}%，请停止。"
+ru = "Остановитесь, если заряд батарей ниже {0}%."
+jp = "バッテリーの充電が{0}%未満の場合は停止してください。"
+
+["IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings"]
+raw = "Apply to all such buildings"
+en = "Apply to all such buildings"
+zh_CN = "适用于所有此类建筑"
+ru = "Применяется ко всем таким зданиям"
+jp = "すべてのそのような建物に適用されます"
+
+["IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings"]
+raw = "Applied to {0} buildings"
+en = "Applied to {0} buildings"
+zh_CN = "已申请{0}栋建筑"
+ru = "Применено к {0} зданиям"
+jp = "{0}の建物に適用されました"
+
+["IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus"]
+raw = "Suspended to conserve energy"
+en = "Suspended to conserve energy"
+zh_CN = "暂停以节省能量"
+ru = "Приостановлено для экономии энергии"
+jp = "エネルギーを節約するために停止しました"
+
+["IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus"]
+raw = "<RedHighlight>⏻</RedHighlight> Not enough power"
+en = "Not enough power"
+zh_CN = "<RedHighlight>⏻</RedHighlight> 电量不足"
+ru = "Недостаточно энергии"
+jp = "<RedHighlight>⏻</RedHighlight> 電力不足"
+
+["IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus"]
+raw = "<RedHighlight>⏻</RedHighlight> Not enough batteries charge"
+en = "Not enough batteries charge"
+zh_CN = "<RedHighlight>⏻</RedHighlight> 电池电量不足"
+ru = "Недостаточно заряда батарей"
+jp = "充電が不十分です"
+
+["IgorZ.SmartPower.Common.MinutesTillResume"]
+raw = "<GreenHighlight>⏻</GreenHighlight> Will resume in {0} minutes"
+en = "Will resume in {0} minutes"
+zh_CN = "<GreenHighlight>⏻</GreenHighlight> {0}分钟后将恢复"
+ru = "<GreenHighlight>⏻</GreenHighlight> Возобновится через {0} минут"
+jp = "<GreenHighlight>⏻</GreenHighlight> {0}分後に再開します"
+
+["IgorZ.SmartPower.Common.MinutesTillSuspend"]
+raw = "<SolidHighlight>⏻</SolidHighlight> Will suspend in {0} minutes"
+en = "<SolidHighlight>⏻</SolidHighlight> Will suspend in {0} minutes"
+zh_CN = "将在 {0} 分钟后暂停"
+ru = "<SolidHighlight>⏻</SolidHighlight> Приостановится через {0} минут"
+jp = "<SolidHighlight>⏻</SolidHighlight> {0} 分後にサスペンドします"
+
+["IgorZ.SmartPower.Settings.DebugSection"]
+raw = "Debug and troubleshooting"
+en = "Debug and troubleshooting"
+zh_CN = "调试和故障排除"
+ru = "Отладка и решение проблем"
+jp = "デバッグとトラブルシューティング"
+
+["IgorZ.SmartPower.Settings.Debug.VerboseLogging"]
+raw = "Verbose logging"
+en = "Verbose logging"
+zh_CN = "详细日志记录"
+ru = "Подробное ведение журнала"
+jp = "詳細ログ記録"
+
+["IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip"]
+raw = "Logs will have more useful details, but it may impact game performance."
+en = "Logs will have more useful details, but it may impact game performance."
+zh_CN = "日志将包含更多有用的细节，但可能会影响游戏性能。"
+ru = "Логи будут содержать более полезные данные, но это может повлиять на производительность игры."
+jp = "ログにはより有用な詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。"
+
+["IgorZ.SmartPower.Settings.BatteriesSection"]
+raw = "Batteries"
+en = "Batteries"
+zh_CN = "电池"
+ru = "Батареи"
+jp = "バッテリー"
+
+["IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals"]
+raw = "Show battery stats"
+en = "Show battery stats"
+zh_CN = "显示电池统计信息"
+ru = "Показать статистику батареи"
+jp = "バッテリーの統計を表示する"
+
+["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
+raw = "Consumers activation hysteresis (hours)"
+en = "Consumers activation hysteresis (hours)"
+zh_CN = "消费者激活滞后（小时）"
+ru = "Гистерезис активации потребителей (часы)"
+jp = "消費者の活性化ヒステリシス（時間）"
+
+["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip"]
+raw = "Suspended consumers will not resume if they cannot run on batteries for at least the specified duration."
+en = "Suspended consumers will not resume if they cannot run on batteries for at least the specified duration."
+zh_CN = "暂停的消费者如果无法在至少规定的时间内使用电池运行，将不会恢复。"
+ru = "Приостановленные потребители не будут восстановлены, если они не смогут работать от батарей хотя бы в течение указанного времени."
+jp = "停止中の消費者は、指定された期間以上バッテリーで稼働できない場合、再開されません。"
+
+["IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection"]
+raw = "Beaver-powered generators"
+en = "Beaver-powered generators"
+zh_CN = "海狸驱动的发电机"
+ru = "Генераторы на бобровой тяге"
+jp = "ビーバー駆動発電機"
+
+["IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection"]
+raw = "Good-consuming generators"
+en = "Good-consuming generators"
+zh_CN = "好的消费型发电机"
+ru = "Хорошие генераторы питания"
+jp = "良い消費型発電機"
+
+["IgorZ.SmartPower.Settings.WorkplaceConsumerSection"]
+raw = "Workshops with a workplace"
+en = "Workshops with a workplace"
+zh_CN = "带有工作场所的研讨会"
+ru = "Мастерские с рабочим местом"
+jp = "職場でのワークショップ"
+
+["IgorZ.SmartPower.Settings.UnmannedConsumerSection"]
+raw = "Unmanned workshops"
+en = "Unmanned workshops"
+zh_CN = "无人车间"
+ru = "Беспилотные мастерские"
+jp = "無人作業場"
+
+["IgorZ.SmartPower.Settings.AttractionConsumerSection"]
+raw = "Attractions"
+en = "Attractions"
+zh_CN = "景点"
+ru = "Аттракционы"
+jp = "アトラクション"
+
+["IgorZ.SmartPower.Settings.UI.ShowFloatingIcon"]
+raw = "Show floating icon"
+en = "Show floating icon"
+zh_CN = "显示浮动图标"
+ru = "Показать плавающую иконку"
+jp = "フローティングアイコンを表示する"
+
+["IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay"]
+raw = "Resume delay (minutes)"
+en = "Resume delay (minutes)"
+zh_CN = "恢复延迟（分钟）"
+ru = "Задержка резюме (минуты)"
+jp = "再開遅延（分）"
+
+["IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay"]
+raw = "Suspend delay (minutes)"
+en = "Suspend delay (minutes)"
+zh_CN = "暂停延迟（分钟）"
+ru = "Приостановить задержку (минуты)"
+jp = "サスペンド遅延（分）"

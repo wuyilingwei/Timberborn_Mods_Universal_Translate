@@ -1,0 +1,41 @@
+ID,Text,Comment
+IgorZ.SmartPower.BatteryCapacity,バッテリーの充電: {0} / {1},-
+IgorZ.SmartPower.BatteryCharging,バッテリー充電中: <GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryDischarging,バッテリー放電中: <RedHighlight>🡇</RedHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryNotUsed,<緑のハイライト>使用されていないバッテリー</緑のハイライト>,-
+IgorZ.SmartPower.BatteryDepleted,バッテリーが depleted しています,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,この発電機を自動化します。,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,バッテリーの充電を{0}% - {1}%の範囲に保ってください,-
+IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,すべてのジェネレーターに適用する,-
+IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,{0}台の発電機に適用されました,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,供給過剰のため停止中,-
+IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,職場に労働者がいません,-
+IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,燃料が切れました,-
+IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,不足している材料,-
+IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,製品が多すぎます,-
+IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,省電力モード,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,パワーが不足している場合は一時停止してください。,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,最小効率: {0}%,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,バッテリーの充電が{0}%未満の場合は停止してください。,-
+IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,すべてのそのような建物に適用されます,-
+IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,{0}の建物に適用されました,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,エネルギーを節約するために停止しました,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> 電力不足,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,充電が不十分です,-
+IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> {0}分後に再開します,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,<SolidHighlight>⏻</SolidHighlight> {0} 分後にサスペンドします,-
+IgorZ.SmartPower.Settings.DebugSection,デバッグとトラブルシューティング,-
+IgorZ.SmartPower.Settings.Debug.VerboseLogging,詳細ログ記録,-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,ログにはより有用な詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。,-
+IgorZ.SmartPower.Settings.BatteriesSection,バッテリー,-
+IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,バッテリーの統計を表示する,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,消費者の活性化ヒステリシス（時間）,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,停止中の消費者は、指定された期間以上バッテリーで稼働できない場合、再開されません。,-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,ビーバー駆動発電機,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,良い消費型発電機,-
+IgorZ.SmartPower.Settings.WorkplaceConsumerSection,職場でのワークショップ,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,無人作業場,-
+IgorZ.SmartPower.Settings.AttractionConsumerSection,アトラクション,-
+IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,フローティングアイコンを表示する,-
+IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,再開遅延（分）,-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,サスペンド遅延（分）,-

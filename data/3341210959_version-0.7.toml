@@ -1,0 +1,433 @@
+["Floodgate.Triggers.EnableOnDroughtStarted"]
+raw = "Set height when drought starts"
+en = "Set height when drought starts"
+zh_CN = "在干旱开始时设置高度"
+ru = "Установите высоту, когда начинается засуха."
+jp = "干ばつが始まったときの高さを設定する"
+
+["Floodgate.Triggers.EnableOnDroughtEnded"]
+raw = "Set height when drought ends"
+en = "Set height when drought ends"
+zh_CN = "在干旱结束时设置高度"
+ru = "Установите высоту, когда закончится засуха."
+jp = "干ばつが終わった時に高さを設定する"
+
+["Floodgate.Schedule.Enable"]
+raw = "Set height on a schedule"
+en = "Set height on a schedule"
+zh_CN = "在日程上设置高度"
+ru = "Установите высоту по расписанию."
+jp = "スケジュールに高さを設定する"
+
+["Floodgate.Schedule.DisableOnDrought"]
+raw = "Disable schedule during drought"
+en = "Disable schedule during drought"
+zh_CN = "在干旱期间禁用排水计划"
+ru = "Отключить расписание во время засухи"
+jp = "干ばつ中はスケジュールを無効にする"
+
+["Floodgate.Schedule.DisableOnTemperate"]
+raw = "Disable schedule during temperate"
+en = "Disable schedule during temperate."
+zh_CN = "在温和气候期间禁用计划"
+ru = "Отключить расписание во время температурного режима"
+jp = "温度の間にスケジュールを無効にする"
+
+["Floodgate.Triggers.Time"]
+raw = "Time"
+en = "Time"
+zh_CN = "时间"
+ru = "Время"
+jp = "時間"
+
+["Floodgate.Triggers.Height"]
+raw = "Height"
+en = "Height"
+zh_CN = "高度"
+ru = "Высота"
+jp = "高さ"
+
+["Floodgate.Triggers.Basic"]
+raw = "Basic"
+en = "Basic"
+zh_CN = "基础"
+ru = "Основной"
+jp = "基本"
+
+["Floodgate.Triggers.Timer"]
+raw = "Timer"
+en = "Timer"
+zh_CN = "计时器"
+ru = "Таймер"
+jp = "タイマー"
+
+["Floodgate.Triggers.Advanced"]
+raw = "Advanced"
+en = "Advanced"
+zh_CN = "高级"
+ru = "Продвинутый"
+jp = "高度な"
+
+["Floodgate.Triggers.AttachToStreamGauge"]
+raw = "Attach Stream Gauge"
+en = "Attach Stream Gauge"
+zh_CN = "附件流量计"
+ru = "Прикрепите потоковый датчик"
+jp = "ストリームゲージを取り付ける"
+
+["Floodgate.Triggers.PickStreamGaugeTitle"]
+raw = "Pick a Stream Gauge"
+en = "Pick a Stream Gauge"
+zh_CN = "选择一个水流计"
+ru = "Выберите потоковый зонд"
+jp = "ストリームゲージを選択してください"
+
+["Floodgate.Triggers.PickStreamGaugeTip"]
+raw = "No really,pick any."
+en = "No really, choose any."
+zh_CN = "不，真的，选一个。"
+ru = "Нет, действительно, выбирай любое."
+jp = "本当に、どれでも選んでください。"
+
+["Floodgates.Triggers.NoLinks"]
+raw = "No Stream Gauges attached"
+en = "No Stream Gauges attached"
+zh_CN = "没有连接流量计"
+ru = "Нет подключенных потоковых датчиков"
+jp = "ストリームゲージが取り付けられていません"
+
+["Floodgates.Triggers.NoFloodgateLinks"]
+raw = "No objects linked"
+en = "No objects linked"
+zh_CN = "没有链接的对象"
+ru = "Нет связанных объектов."
+jp = "オブジェクトがリンクされていません"
+
+["Floodgates.Triggers.LinkedFloodgates"]
+raw = "Linked objects"
+en = "Linked objects"
+zh_CN = "链接对象"
+ru = "Связанные объекты"
+jp = "リンクされたオブジェクト"
+
+["Floodgates.Triggers.Threshold1"]
+raw = "Stream Gauge low threshold"
+en = "Stream Gauge low threshold"
+zh_CN = "流量计低阈值"
+ru = "Нижний порог измерения уровня потока"
+jp = "流量計低閾値"
+
+["Floodgates.Triggers.Threshold2"]
+raw = "Stream Gauge high threshold"
+en = "Stream Gauge high threshold"
+zh_CN = "流量计高阈值"
+ru = "Высокий порог измерения потока"
+jp = "ストリームゲージの高閾値"
+
+["Floodgates.Triggers.HeightWhenBelowThreshold1"]
+raw = "Floodgate height below low threshold"
+en = "Floodgate height below low threshold"
+zh_CN = "洪水闸门高度低于低阈值"
+ru = "Высота затвора ниже низкого порога"
+jp = "閘門の高さが低い閾値以下"
+
+["Floodgates.Triggers.HeightWhenAboveThreshold2"]
+raw = "Floodgate height above high threshold"
+en = "Floodgate height above high threshold"
+zh_CN = "高阈值上方的闸门高度"
+ru = "Высота затвора выше верхнего порога"
+jp = "洪水ゲートの高さは高いしきい値の上です"
+
+["Floodgate.Triggers.PauseOnDroughtStart"]
+raw = "Pause when drought starts"
+en = "Pause when drought starts"
+zh_CN = "干旱开始时暂停"
+ru = "Приостановитесь, когда начинается засуха."
+jp = "干ばつが始まると一時停止する"
+
+["Floodgate.Triggers.UnpauseOnDroughtStart"]
+raw = "Unpause when drought starts"
+en = "Unpause when drought starts"
+zh_CN = "在干旱开始时恢复播放"
+ru = "Возобновите, когда начнется засуха."
+jp = "干ばつが始まったら再開する"
+
+["Floodgate.Triggers.UnpauseOnTemperateStart"]
+raw = "Unpause when temperate starts"
+en = "Unpause when the temperature starts."
+zh_CN = "在温带开始时取消暂停"
+ru = "Снять паузу, когда начинается уровневое время"
+jp = "温度が始まったら再生する"
+
+["Floodgate.Triggers.PauseOnTemperateStart"]
+raw = "Pause when temperate starts"
+en = "Pause when temperature starts"
+zh_CN = "在温带开始时暂停"
+ru = "Приостановите, когда начнется температура."
+jp = "温度が始まるときに一時停止してください"
+
+["Floodgates.WaterpumpTrigger.Threshold1"]
+raw = "Pause <"
+en = "Pause"
+zh_CN = "暂停 <"
+ru = "Пауза <"
+jp = "一時停止<"
+
+["Floodgates.WaterpumpTrigger.Threshold2"]
+raw = "Pause >"
+en = "Pause"
+zh_CN = "暂停 >"
+ru = "Пауза >"
+jp = "ポーズ >"
+
+["Floodgates.WaterpumpTrigger.Threshold3"]
+raw = "Unpause <"
+en = "Unpause"
+zh_CN = "取消暂停"
+ru = "Разрешить продолжение"
+jp = "再開する"
+
+["Floodgates.WaterpumpTrigger.Threshold4"]
+raw = "Unpause >"
+en = "Unpause"
+zh_CN = "取消暂停 >"
+ru = "Возобновить"
+jp = "再開する >"
+
+["Floodgates.WaterpumpTrigger.PauseStartTime"]
+raw = "Pause at"
+en = "Pause at"
+zh_CN = "暂停在"
+ru = "Пауза на"
+jp = "ポーズを取る"
+
+["Floodgates.WaterpumpTrigger.ResumeStartTime"]
+raw = "Resume at"
+en = "Resume at"
+zh_CN = "简历在"
+ru = "Резюме на"
+jp = "再開する"
+
+["Floodgates.WaterpumpTrigger.DisableDuringDrought"]
+raw = "Disable during drought"
+en = "Disable during drought"
+zh_CN = "在干旱期间禁用"
+ru = "Отключить во время засухи"
+jp = "干ばつ中は無効にする"
+
+["Floodgates.WaterpumpTrigger.DisableDuringTemperate"]
+raw = "Disable during temperate"
+en = "Disable during temperate"
+zh_CN = "在温带期间禁用"
+ru = "Отключить во время умеренности"
+jp = "温帯中に無効にする"
+
+["Floodgate.Triggers.PauseOnSchedule"]
+raw = "Pause on a schedule"
+en = "Pause en un horario"
+zh_CN = "按计划暂停"
+ru = "Пауза по расписанию"
+jp = "スケジュールの一時停止"
+
+["Floodgate.Triggers.EnableOnBadtideStarted"]
+raw = "Set height when badtide starts"
+en = "Set height when bad tide starts"
+zh_CN = "当坏潮开始时设置高度"
+ru = "Установите высоту, когда начинается плохая приливная волна."
+jp = "バッドタイドが始まるときに高さを設定します"
+
+["Floodgate.Triggers.EnableOnBadtideEnded"]
+raw = "Set height when badtide ends"
+en = "Set height when bad tide ends"
+zh_CN = "在坏潮结束时设置高度"
+ru = "Установите высоту, когда закончится плохой прилив."
+jp = "バッドタイドが終了したときの高さを設定する"
+
+["Floodgate.Schedule.DisableOnBadtide"]
+raw = "Disable schedule during badtide"
+en = "Disable schedule during low tide."
+zh_CN = "在低潮期间禁用时间表"
+ru = "Отключить расписание во время плохого прилива"
+jp = "干潮時にスケジュールを無効にする"
+
+["Floodgates.WaterpumpTrigger.DisableDuringBadtide"]
+raw = "Disable during badtide"
+en = "Disable during bad tide"
+zh_CN = "在退潮期间禁用"
+ru = "Отключить во время низкой воды"
+jp = "悪潮の間は無効にする"
+
+["Floodgate.Triggers.PauseOnBadtideStart"]
+raw = "Pause when badtide starts"
+en = "Pause when bad tide starts"
+zh_CN = "当恶潮开始时暂停"
+ru = "Сделайте паузу, когда начнется плохой прилив."
+jp = "悪潮が始まる時に一時停止してください。"
+
+["Floodgate.Triggers.UnpauseOnBadtideStart"]
+raw = "Unpause when badtide starts"
+en = "Unpause when bad tide starts"
+zh_CN = "在坏潮开始时解除暂停"
+ru = "Возобновите, когда начнется плохой прилив."
+jp = "バッドタイドが始まったら再開してください。"
+
+["Floodgates.Triggers.ContaminationThresholdLow"]
+raw = "Contamination low threshold"
+en = "Low contamination threshold"
+zh_CN = "污染低阈值"
+ru = "Низкий порог загрязнения"
+jp = "汚染低しきい値"
+
+["Floodgates.Triggers.ContaminationThresholdHigh"]
+raw = "Contamination high threshold"
+en = "High contamination threshold"
+zh_CN = "污染高阈值"
+ru = "Высокий порог загрязнения"
+jp = "汚染の高い閾値"
+
+["Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow"]
+raw = "Set height below low contamination"
+en = "Set height below low contamination"
+zh_CN = "设置高度低于低污染水平"
+ru = "Установите высоту ниже низкого уровня загрязнения."
+jp = "低汚染以下の高さを設定してください"
+
+["Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh"]
+raw = "Set height above high contamination"
+en = "Set height above high contamination"
+zh_CN = "设置高污染以上的高度"
+ru = "Установите высоту над высокой загрязненностью"
+jp = "高汚染上の高さを設定する"
+
+["Floodgates.Triggers.Depth"]
+raw = "Depth"
+en = "Depth"
+zh_CN = "深度"
+ru = "Глубина"
+jp = "深さ"
+
+["Floodgates.Triggers.Contamination"]
+raw = "Contamination"
+en = "Contamination"
+zh_CN = "污染"
+ru = "Загрязнение"
+jp = "汚染"
+
+["Floodgates.WaterSourceRegulator.Threshold1"]
+raw = "Close <"
+en = "Close"
+zh_CN = "关闭<"
+ru = "Закрыть <"
+jp = "閉じる"
+
+["Floodgates.WaterSourceRegulator.Threshold2"]
+raw = "Close >"
+en = "Close"
+zh_CN = "关闭 >"
+ru = "Закрыть >"
+jp = "閉じる"
+
+["Floodgates.WaterSourceRegulator.Threshold3"]
+raw = "Open <"
+en = "Open <"
+zh_CN = "打开 <"
+ru = "Открыть <"
+jp = "開く"
+
+["Floodgates.WaterSourceRegulator.Threshold4"]
+raw = "Open >"
+en = "Open"
+zh_CN = "打开 >"
+ru = "Открыть >"
+jp = "開く >"
+
+["Floodgates.WaterSourceRegulator.CloseStartTime"]
+raw = "Close at"
+en = "Close at"
+zh_CN = "关闭在"
+ru = "Закрыть в"
+jp = "閉まります at"
+
+["Floodgates.WaterSourceRegulator.OpenStartTime"]
+raw = "Open at"
+en = "Open at"
+zh_CN = "开放于"
+ru = "Открыть в"
+jp = "開く時刻は"
+
+["Floodgates.WaterSourceRegulator.DisableDuringDrought"]
+raw = "Disable during drought"
+en = "Disable during drought"
+zh_CN = "在干旱期间禁用"
+ru = "Отключить во время засухи"
+jp = "干ばつの間は無効にする"
+
+["Floodgates.WaterSourceRegulator.DisableDuringTemperate"]
+raw = "Disable during temperate"
+en = "Disable during temperature"
+zh_CN = "在温带期间禁用"
+ru = "Отключить во время умеренного климата"
+jp = "温暖な間は無効にする"
+
+["Floodgate.WaterSourceRegulator.CloseOnDroughtStart"]
+raw = "Close when drought starts"
+en = "Close when drought starts"
+zh_CN = "干旱开始时关闭"
+ru = "Закрыть, когда начинается засуха"
+jp = "干ばつが始まったら閉じる"
+
+["Floodgate.WaterSourceRegulator.OpenOnDroughtStart"]
+raw = "Open when drought starts"
+en = "Open when drought begins"
+zh_CN = "干旱开始时打开"
+ru = "Откройте, когда начнется засуха"
+jp = "干ばつが始まったら開いてください"
+
+["Floodgate.WaterSourceRegulator.OpenOnTemperateStart"]
+raw = "Open when temperate starts"
+en = "Open when the temperature rises."
+zh_CN = "气候开始时打开"
+ru = "Откройте, когда начнётся температура."
+jp = "温暖な時期が始まったら開いてください"
+
+["Floodgate.WaterSourceRegulator.CloseOnTemperateStart"]
+raw = "Close when temperate starts"
+en = "Close when temperature starts"
+zh_CN = "温带开始时关闭"
+ru = "Закрыть, когда начинается теплая погода."
+jp = "温度が上がり始めたら閉じる"
+
+["Floodgate.WaterSourceRegulator.OpenOnBadtideStart"]
+raw = "Open when badtide starts"
+en = "Open when the bad tide starts."
+zh_CN = "潮汐开始时打开"
+ru = "Откройте, когда начинается плохая пора."
+jp = "悪潮が始まったら開いてください"
+
+["Floodgate.WaterSourceRegulator.CloseOnBadtideStart"]
+raw = "Close when badtide starts"
+en = "Close when bad tide starts"
+zh_CN = "在恶潮开始时关闭"
+ru = "Закрыть, когда начинается отлив."
+jp = "悪潮が始まると閉じます"
+
+["Floodgate.Schedule.CloseOnSchedule"]
+raw = "Close/Open on a schedule"
+en = "Close/Open on a schedule"
+zh_CN = "按照日程关闭/打开"
+ru = "Закрыть/открыть по расписанию"
+jp = "スケジュールに従って閉店/開店"
+
+["Floodgates.WaterSourceRegulator.DisableDuringBadtide"]
+raw = "Disable during badtide"
+en = "Disable during bad tide"
+zh_CN = "在恶潮期间禁用"
+ru = "Отключить во время плохого прилива"
+jp = "バッドタイド中に無効にする"
+
+["Floodgates.Triggers.Empty"]
+raw = ""
+en = "Error"
+zh_CN = "Error"
+ru = "Error"
+jp = "Error"

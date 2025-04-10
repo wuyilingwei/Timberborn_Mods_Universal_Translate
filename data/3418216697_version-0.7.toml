@@ -1,0 +1,55 @@
+["LV.SE.Enabled"]
+raw = "Enabled"
+en = "Enabled"
+zh_CN = "启用"
+ru = "Включено"
+jp = "有効化された"
+
+["LV.SE.EnabledDesc"]
+raw = "Whether this mod is enabled."
+en = "Whether this mod is enabled."
+zh_CN = "该模组是否启用。"
+ru = "Включен ли этот мод."
+jp = "このモッドが有効かどうか。"
+
+["LV.SE.SaveFrequency"]
+raw = "Auto-save frequency (days)"
+en = "Auto-save frequency (days)"
+zh_CN = "自动保存频率（天）"
+ru = "Частота автосохранения (дни)"
+jp = "自動保存頻度（日数）"
+
+["LV.SE.SaveFrequencyDesc"]
+raw = "How often this mod should auto-save."
+en = "How often should this mod auto-save?"
+zh_CN = "这个mod应该多频繁自动保存。"
+ru = "Как часто этот мод должен автоматически сохранять."
+jp = "このモッドはどのくらいの頻度で自動保存するべきですか？"
+
+["LV.SE.SaveCount"]
+raw = "Auto-save count"
+en = "Auto-save count"
+zh_CN = "自动保存次数"
+ru = "Автоматическое сохранение счётчик"
+jp = "自動保存の回数"
+
+["LV.SE.SaveCountDesc"]
+raw = "How many auto-saves should be kept."
+en = "How many auto-saves should be kept?"
+zh_CN = "应该保留多少个自动保存的版本。"
+ru = "Сколько автосохранений следует сохранить?"
+jp = "自動保存は何件保持すべきですか？"
+
+["LV.SE.SaveWeatherWarning"]
+raw = "Extra save on weather warning"
+en = "Extra savings on weather warning"
+zh_CN = "额外保存天气警报"
+ru = "Дополнительная экономия при предупреждении о погоде"
+jp = "天気警報の追加保存"
+
+["LV.SE.SaveWeatherWarningDesc"]
+raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+en = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+zh_CN = "当发布天气警报时，请额外保存一个名为 'weatherwarning.save' 的文件，该文件仅在下一个周期的警报中被覆盖。此保存不计入保存次数。"
+ru = "Когда выдается предупреждение о погоде, создайте дополнительное сохранение с именем 'weatherwarning.save', которое будет перезаписано только предупреждением следующего цикла. Это сохранение не учитывается в общем количестве сохранений."
+jp = "天候警報が発令されたとき、次のサイクルの警報によってのみ上書きされる「weatherwarning.save」という名前の追加のセーブを作成します。このセーブはセーブカウントにはカウントされません。"

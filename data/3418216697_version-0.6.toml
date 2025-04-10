@@ -1,0 +1,55 @@
+["LV.SE.Enabled"]
+raw = "Enabled"
+en = "Enabled"
+zh_CN = "启用"
+ru = "Включено"
+jp = "有効にされた"
+
+["LV.SE.EnabledDesc"]
+raw = "Whether this mod is enabled."
+en = "Whether this mod is enabled."
+zh_CN = "该模组是否启用。"
+ru = "Активирована ли эта модификация."
+jp = "このモッドが有効かどうか。"
+
+["LV.SE.SaveFrequency"]
+raw = "Auto-save frequency (days)"
+en = "Auto-save frequency (days)"
+zh_CN = "自动保存频率（天数）"
+ru = "Частота автосохранения (дни)"
+jp = "自動保存の頻度（日数）"
+
+["LV.SE.SaveFrequencyDesc"]
+raw = "How often this mod should auto-save."
+en = "How often should this mod auto-save?"
+zh_CN = "此模组应该多久自动保存一次。"
+ru = "Как часто этот мод должен автоматически сохранять."
+jp = "このモッドはどのくらいの頻度で自動保存すべきですか。"
+
+["LV.SE.SaveCount"]
+raw = "Auto-save count"
+en = "Auto-save count"
+zh_CN = "自动保存计数"
+ru = "Количество автоматических сохранений"
+jp = "自動保存回数"
+
+["LV.SE.SaveCountDesc"]
+raw = "How many auto-saves should be kept."
+en = "How many auto-saves should be kept?"
+zh_CN = "应保留多少个自动保存？"
+ru = "Сколько автосохранений должно быть сохранено?"
+jp = "自動保存をいくつ保持すべきですか。"
+
+["LV.SE.SaveWeatherWarning"]
+raw = "Extra save on weather warning"
+en = "Extra savings on weather warning"
+zh_CN = "额外保存天气警报"
+ru = "Дополнительная экономия на предупреждении о погоде"
+jp = "天候警報の追加保存"
+
+["LV.SE.SaveWeatherWarningDesc"]
+raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+en = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+zh_CN = "当天气警报发布时，创建一个名为 'weatherwarning.save' 的额外保存，该保存仅在下一个周期的警报覆盖时进行覆盖。这个保存不计入保存数量。"
+ru = "Когда выдается предупреждение о погоде, создайте дополнительное сохранение под названием 'weatherwarning.save', которое будет перезаписываться только следующим циклом предупреждения. Это сохранение не учитывается в общем количестве сохранений."
+jp = "天気警報が発令されたときは、次のサイクルの警報によって上書きされるだけの「weatherwarning.save」という名前の追加保存を作成します。この保存は保存カウントには含まれません。"

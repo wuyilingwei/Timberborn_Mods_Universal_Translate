@@ -1,0 +1,15 @@
+ID,Text,Comment
+LV.CI.MinimumWaterContamination,最小限の水による汚染,-
+LV.CI.MinimumWaterContaminationDesc,水が完全な灌漑を提供しなくなる最低水質汚染割合。ゲームのデフォルト：0.01、つまり水が1%汚染されているかそれ以下であれば、完全な灌漑が行われます。,-
+LV.CI.MaximumWaterContamination,最大水質汚染,-
+LV.CI.MaximumWaterContaminationDesc,水が灌漑を停止する最大水汚染％。ゲームのデフォルト: 0.53。つまり、水の汚染が53％以上であれば、灌漑は行われません。,-
+LV.CI.VerticalSpreadCostMultiplier,バーティカルスプレッドコスト,-
+LV.CI.VerticalSpreadCostMultiplierDesc,上方向のスプレッドのコスト倍率。ゲームのデフォルト：6、つまり水を上にスプレッドするのに一般的に6倍のコストがかかることを意味します。,-
+LV.CI.MaxSpread,最大スプレッド,-
+LV.CI.MaxSpreadDesc,ブロックでの最大散布距離。ゲームのデフォルトは16で、これは飽和した3x3ブロックが最大16ブロック離れた場所を灌漑することを意味します。,-
+LV.CI.ContaMinimumWaterContamination,土壌汚染に対する最小水量,-
+LV.CI.ContaMinimumWaterContaminationDesc,土壌を汚染し始める水の最低汚染率%。ゲームのデフォルト：0.5、つまり水が50%汚染されているかそれ以上の場合、土壌を汚染し始めます。,-
+LV.CI.ContaMaxSpread,汚染最大拡散,-
+LV.CI.ContaMaxSpreadDesc,汚染水の最大拡散距離（ブロック単位）。ゲームのデフォルト：7、つまり汚染は最大7ブロック離れたブロックを汚染します。,-
+LV.CI.ContaVerticalSpreadCostMultiplier,汚染の垂直拡散コスト,-
+LV.CI.ContaVerticalSpreadCostMultiplierDesc,汚染の上方拡散に対するコスト乗数。ゲームのデフォルト：5、これは汚染を上方に拡散させるには通常5倍のコストがかかることを意味します。,-

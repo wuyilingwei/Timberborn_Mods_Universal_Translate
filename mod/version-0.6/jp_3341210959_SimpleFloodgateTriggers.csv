@@ -1,0 +1,63 @@
+ID,Text,Comment
+Floodgate.Triggers.EnableOnDroughtStarted,干ばつが始まった時の高さを設定する,-
+Floodgate.Triggers.EnableOnDroughtEnded,干ばつが終わったら高さを設定します。,-
+Floodgate.Schedule.Enable,スケジュールの高さを設定する,-
+Floodgate.Schedule.DisableOnDrought,干ばつ中はスケジュールを無効にする,-
+Floodgate.Schedule.DisableOnTemperate,温度の間にスケジュールを無効にする,-
+Floodgate.Triggers.Time,時間,-
+Floodgate.Triggers.Height,高さ,-
+Floodgate.Triggers.Basic,基本,-
+Floodgate.Triggers.Timer,タイマー,-
+Floodgate.Triggers.Advanced,進んだ,-
+Floodgate.Triggers.AttachToStreamGauge,ストリームゲージを取り付ける,-
+Floodgate.Triggers.PickStreamGaugeTitle,ストリームゲージを選択する,-
+Floodgate.Triggers.PickStreamGaugeTip,本当に、どれでも選んでください。,-
+Floodgates.Triggers.NoLinks,ストリームゲージは取り付けられていません。,-
+Floodgates.Triggers.NoFloodgateLinks,オブジェクトがリンクされていません,-
+Floodgates.Triggers.LinkedFloodgates,リンクされたオブジェクト,-
+Floodgates.Triggers.Threshold1,ストリームゲージの低閾値,-
+Floodgates.Triggers.Threshold2,ストリームゲージの高閾値,-
+Floodgates.Triggers.HeightWhenBelowThreshold1,低閾値以下の洪水ゲートの高さ,-
+Floodgates.Triggers.HeightWhenAboveThreshold2,洪水ゲートの高さは高い閾値の上です,-
+Floodgate.Triggers.PauseOnDroughtStart,干ばつが始まると一時停止する,-
+Floodgate.Triggers.UnpauseOnDroughtStart,干ばつが始まったら再開する,-
+Floodgate.Triggers.UnpauseOnTemperateStart,気温が上がり始めたら再開してください。,-
+Floodgate.Triggers.PauseOnTemperateStart,温度が始まるときに一時停止する,-
+Floodgates.WaterpumpTrigger.Threshold1,一時停止 <,-
+Floodgates.WaterpumpTrigger.Threshold2,一時停止 >,-
+Floodgates.WaterpumpTrigger.Threshold3,再開する,-
+Floodgates.WaterpumpTrigger.Threshold4,再開する >,-
+Floodgates.WaterpumpTrigger.PauseStartTime,一時停止,-
+Floodgates.WaterpumpTrigger.ResumeStartTime,再開する,-
+Floodgates.WaterpumpTrigger.DisableDuringDrought,干ばつの間は無効にする,-
+Floodgates.WaterpumpTrigger.DisableDuringTemperate,温暖な時期は無効にする,-
+Floodgate.Triggers.PauseOnSchedule,スケジュールで一時停止する,-
+Floodgate.Triggers.EnableOnBadtideStarted,バッドタイドが始まるときに高さを設定する,-
+Floodgate.Triggers.EnableOnBadtideEnded,干潮が終わったときに高さを設定する,-
+Floodgate.Schedule.DisableOnBadtide,干潮時にスケジュールを無効にする,-
+Floodgates.WaterpumpTrigger.DisableDuringBadtide,悪潮時に無効にする,-
+Floodgate.Triggers.PauseOnBadtideStart,悪潮が始まったら一時停止してください。,-
+Floodgate.Triggers.UnpauseOnBadtideStart,悪潮が始まったら再開する,-
+Floodgates.Triggers.ContaminationThresholdLow,汚染の低しきい値,-
+Floodgates.Triggers.ContaminationThresholdHigh,汚染の高い閾値,-
+Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow,低汚染の下に高さを設定する,-
+Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh,高汚染の上に高さを設定する,-
+Floodgates.Triggers.Depth,深さ,-
+Floodgates.Triggers.Contamination,汚染,-
+Floodgates.WaterSourceRegulator.Threshold1,閉じる <,-
+Floodgates.WaterSourceRegulator.Threshold2,クローズ >,-
+Floodgates.WaterSourceRegulator.Threshold3,開く,-
+Floodgates.WaterSourceRegulator.Threshold4,開く >,-
+Floodgates.WaterSourceRegulator.CloseStartTime,閉店時刻,-
+Floodgates.WaterSourceRegulator.OpenStartTime,開く時間は,-
+Floodgates.WaterSourceRegulator.DisableDuringDrought,干ばつ時に無効にする,-
+Floodgates.WaterSourceRegulator.DisableDuringTemperate,一時的に無効にする,-
+Floodgate.WaterSourceRegulator.CloseOnDroughtStart,干ばつが始まったら閉じる,-
+Floodgate.WaterSourceRegulator.OpenOnDroughtStart,干ばつが始まったら開けてください,-
+Floodgate.WaterSourceRegulator.OpenOnTemperateStart,気温が上がり始めたら開いてください,-
+Floodgate.WaterSourceRegulator.CloseOnTemperateStart,気温が上がり始めたら閉じてください,-
+Floodgate.WaterSourceRegulator.OpenOnBadtideStart,悪潮が始まったら開いてください,-
+Floodgate.WaterSourceRegulator.CloseOnBadtideStart,悪潮が始まったら閉じる,-
+Floodgate.Schedule.CloseOnSchedule,スケジュールに従って閉店/開店,-
+Floodgates.WaterSourceRegulator.DisableDuringBadtide,大潮の間無効にする,-
+Floodgates.Triggers.Empty,Error,-
