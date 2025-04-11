@@ -1,0 +1,15 @@
+ID,Text,Comment
+LV.CI.MinimumWaterContamination,Contamination minimale de l'eau,-
+LV.CI.MinimumWaterContaminationDesc,"Le pourcentage minimum de contamination de l'eau où l'eau cesse de fournir une irrigation complète. Valeur par défaut du jeu : 0,01, ce qui signifie que si votre eau est contaminée à 1 % ou moins, elle fournira une irrigation complète.",-
+LV.CI.MaximumWaterContamination,Contamination maximale de l'eau,-
+LV.CI.MaximumWaterContaminationDesc,"Le pourcentage maximum de contamination de l'eau au-delà duquel l'eau cesse d'irriguer. Par défaut dans le jeu : 0,53, ce qui signifie que si votre eau est contaminée à 53 % ou plus, elle n'irriguera pas.",-
+LV.CI.VerticalSpreadCostMultiplier,Coût de l'écart vertical,-
+LV.CI.VerticalSpreadCostMultiplierDesc,"Le multiplicateur de coût pour la propagation vers le haut. Valeur par défaut du jeu : 6, ce qui signifie qu'il coûte généralement 6 fois plus cher de propager de l'eau vers le haut.",-
+LV.CI.MaxSpread,Écart maximal,-
+LV.CI.MaxSpreadDesc,"La distance de propagation maximale en blocs. Par défaut dans le jeu : 16, ce qui signifie qu'un bloc saturé 3x3 irriguera jusqu'à 16 blocs de distance.",-
+LV.CI.ContaMinimumWaterContamination,Eau minimale pour la contamination du sol,-
+LV.CI.ContaMinimumWaterContaminationDesc,"Le pourcentage minimum de contamination de l'eau à partir duquel l'eau commence à contaminer le sol. Par défaut du jeu : 0,5, ce qui signifie que si votre eau est contaminée à 50 % ou plus, elle commencera à contaminer le sol.",-
+LV.CI.ContaMaxSpread,Contamination Max Étendue,-
+LV.CI.ContaMaxSpreadDesc,"La distance maximale de propagation en blocs pour l'eau contaminée. Valeur par défaut du jeu : 7, ce qui signifie que la contamination contaminera des blocs jusqu'à 7 blocs de distance.",-
+LV.CI.ContaVerticalSpreadCostMultiplier,Coût de propagation verticale de la contamination,-
+LV.CI.ContaVerticalSpreadCostMultiplierDesc,"Le multiplicateur de coût pour la propagation vers le haut de la contamination. Par défaut dans le jeu : 5, ce qui signifie qu'il en coûte généralement 5 fois plus pour propager la contamination vers le haut.",-

@@ -2,9 +2,9 @@ ID,Text,Comment
 LV.CAS.Enabled,已啟用,-
 LV.CAS.EnabledDesc,此模組是否已啟用。,-
 LV.CAS.SaveFrequency,自動保存頻率（實際分鐘）,-
-LV.CAS.SaveFrequencyDesc,自動儲存應該多久儲存一次。遊戲預設：10 秒。,-
+LV.CAS.SaveFrequencyDesc,自動儲存應該多頻繁進行儲存。遊戲默認設置：10。,-
 LV.CAS.SaveCount,自動保存次數,-
 LV.CAS.SaveCountDesc,應該保留多少個自動保存？遊戲預設：3,-
 LV.CAS.SaveWeatherWarning,額外節省天氣警報費用,-
-LV.CAS.SaveWeatherWarningDesc,當氣象警告發出時，請額外創建一個名為 'weatherwarning.save' 的存檔，該存檔僅在下一個循環的警告中被覆蓋。這個存檔不計入總存檔數。,-
+LV.CAS.SaveWeatherWarningDesc,當發出天氣警告時，請額外保存一個名為 'weatherwarning.save' 的檔案，該檔案僅在下一個循環的警告中被覆蓋。這個保存不計入總保存數量。,-
 LV.CAS.KeyBindingTriggerAutosave,觸發自動儲存,-

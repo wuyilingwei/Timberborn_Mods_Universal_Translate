@@ -1,0 +1,101 @@
+ID,Text,Comment
+Tobbert.TrackStraight.DisplayName,Прямой железнодорожный путь,-
+Tobbert.TrackStraight.Description,"Прямой участок путей. Может быть изменен на односторонний сигнал с помощью переключателя при нажатии на него. Создает участок пути между односторонними движениями, который позволяет находиться на нем только одному поезду (обозначается цветами).",-
+Tobbert.TrackStraight.FlavorDescription,Чух-чух!,-
+Tobbert.TrackOneWay.DisplayName,Однонаправленная дорожка сигнала,-
+Tobbert.TrackOneWay.Description,"Будет сообщено поездам, что они могут проходить только через зеленую сторону. Можно вернуть обратно на прямую линию, используя переключатель при нажатии на него. Создает участок пути между односторонними путями, который позволяет находиться на нем только одному поезду (что обозначается цветами).",-
+Tobbert.TrackOneWay.FlavorDescription,Ты... Пройдёшь...,-
+Tobbert.TrackCrossing.DisplayName,Железнодорожный переезд,-
+Tobbert.TrackCrossing.Description,"Бобры могут пересекать пути здесь. Столкновение не будет реализовано, так как производительность сильно пострадает.",-
+Tobbert.TrackCrossing.FlavorDescription,Этот поезд приближается очень быстро-,-
+Tobbert.TrackHillStart.DisplayName,Склон трека,-
+Tobbert.TrackHillStart.Description,"Трек, который позволяет поездам подниматься и спускаться.",-
+Tobbert.TrackHillStart.FlavorDescription,Не слишком ли тяжелый поезд?,-
+Tobbert.TrackCorner1x1.DisplayName,Уголок 1x1 Железнодорожного пути,-
+Tobbert.TrackCorner1x1.Description,"Участок рельсов, который идет вокруг угла.",-
+Tobbert.TrackCorner1x1.FlavorDescription,Может быть немного тесно.,-
+Tobbert.TrackCorner2x2.DisplayName,Угол 2x2 Железнодорожный путь,-
+Tobbert.TrackCorner2x2.Description,"Элемент пути, который проходит вокруг большого поворота.",-
+Tobbert.TrackCorner2x2.FlavorDescription,Какой красивый изгиб.,-
+Tobbert.TrackTIntersection1x1.DisplayName,T перекрёсток Железнодорожный путь 1x1,-
+Tobbert.TrackTIntersection1x1.Description,Перекресток в форме буквы Т для поездов.,-
+Tobbert.TrackTIntersection1x1.FlavorDescription,Куда мне пойти?,-
+Tobbert.TrackTIntersection2x3.DisplayName,Т-образный перекресток Железнодорожные пути 2х3,-
+Tobbert.TrackTIntersection2x3.Description,Пересечение в форме Т для поездов.,-
+Tobbert.TrackTIntersection2x3.FlavorDescription,Куда приведут эти пути?,-
+Tobbert.TrackXIntersection1x1.DisplayName,Пересечение с железнодорожными путями 1x1,-
+Tobbert.TrackXIntersection1x1.Description,Перекресток в форме X для поездов.,-
+Tobbert.TrackXIntersection1x1.FlavorDescription,Так много вариантов!,-
+Tobbert.TrackXIntersection3x3.DisplayName,X пересечение Железнодорожных путей 3x3,-
+Tobbert.TrackXIntersection3x3.Description,Пересечение в форме X для поездов.,-
+Tobbert.TrackXIntersection3x3.FlavorDescription,"Я просто не могу выбрать, куда поехать...",-
+Tobbert.TrackRIntersection2x3.DisplayName,Переключить железнодорожные пути 2х3,-
+Tobbert.TrackRIntersection2x3.Description,Выключатель в виде R для поездов.,-
+Tobbert.TrackRIntersection2x3.FlavorDescription,Куда мы идем?,-
+Tobbert.GoodsStation.DisplayName,Грузовая станция,-
+Tobbert.GoodsStation.Description,"Позволяет транспортировать товары поездами. Товар можно отправить или получить на станции. Полученные товары будут перемещены только в склады, которые настроены на прием.",-
+Tobbert.GoodsStation.FlavorDescription,"Посмотрите на все товары, которые он может содержать.",-
+Tobbert.PassengerStation.DisplayName,Пассажирский вокзал,-
+Tobbert.PassengerStation.Description,"Эта станция позволяет бобрам садиться на поезд и путешествовать на другую станцию, которые связаны друг с другом.",-
+Tobbert.PassengerStation.FlavorDescription,Бобровый поезд!,-
+Tobbert.PassengerStation.DistrictObjectToggle,Проходит через районы:,-
+Tobbert.PassengerStation.DistrictObject,"Когда эта функция включена, бобры смогут посещать станции пассажиров только в тех районах, где также включена эта настройка.",-
+Tobbert.PassengerStation.EmptyStation,В данный момент нет ожидющих пассажиров.,-
+Tobbert.WaitingStation.DisplayName,Станция ожидания,-
+Tobbert.WaitingStation.Description,"Поезда могут ждать здесь, когда им нечего делать. Это предотвращает занимание путей поездами. Поезда не могут прокладывать маршрут через это, поэтому убедитесь, что это не находится на каких-либо ключевых путях.",-
+Tobbert.WaitingStation.FlavorDescription,Когда я могу снова пойти?,-
+Tobbert.TrainYard.DisplayName,Депо поездов,-
+Tobbert.TrainYard.Description,"Здание, где создают поезда.",-
+Tobbert.TrainYard.FlavorDescription,Здесь рождаются поезда.,-
+Tobbert.TrainYard.CostOfTrain,Стоимость 1 поезда:,-
+Tobbert.TrainYard.CreateTrain,Собрать поезд,-
+Tobbert.Train.PrefabName,Поезд,-
+Tobbert.Wagon.PrefabName,вагон,-
+Tobbert.TrainModel.TrainModel,Обучить модель:,-
+Tobbert.TrainModel.SmallLog,Небольшой журнал,-
+Tobbert.TrainModel.BigWooden,Большой деревянный,-
+Tobbert.WagonModel.WagonModel,Модель вагона:,-
+Tobbert.WagonModel.BoxWagon,Ящик вагон,-
+Tobbert.WagonModel.TankWagon,Цистерна,-
+Tobbert.WagonModel.FlatWagon,Плоская тележка,-
+Tobbert.WagonModel.FlipperWagon,Гондольный вагон,-
+Tobbert.WagonModel.MetalCart,Металлическая тележка,-
+Tobbert.WagonModel.PassengerWagon,Пассажирский вагон,-
+Tobbert.BatchControl.Trains,Поезда,-
+Tobbert.Train.Length,Длина поезда:,-
+Tobbert.Train.Destroy,"Вы уверены, что хотите уничтожить этот поезд?",-
+Tobbert.GoodsStation.Distribution.Header,Распределенные товары,-
+Tobbert.GoodsStation.Distribution.Disabled.Info,Распределение отключено настройками распределения.,-
+Tobbert.GoodsStation.Distribution.Sending.Info,Распределение настроено на отправку по настройкам распределения.,-
+Tobbert.GoodsStation.Distribution.Receiving.Info,Распределение установлено для получения в соответствии с настройками распределения.,-
+Tobbert.BatchControl.GoodsStation,Грузовые станции,-
+Tobbert.BatchControl.DistributionDisabledAll,Отключить всю дистрибуцию,-
+Tobbert.BatchControl.DistributionDisabled,Распределение отключено,-
+Tobbert.BatchControl.DistributionDisabled.Description,Полностью отключите распределение этого товара на этой станции.,-
+Tobbert.BatchControl.DistributionSendingAll,Разрешите отправку всех товаров,-
+Tobbert.BatchControl.DistributionSending,Разрешить отправку,-
+Tobbert.BatchControl.DistributionSending.Description,"Станция может отправить этот товар на другую станцию. Максимальное количество, которое может находиться на станции, определяется количеством справа.",-
+Tobbert.BatchControl.DistributionReceivingAll,Разрешите прием всех товаров,-
+Tobbert.BatchControl.DistributionReceiving,Разрешить получение,-
+Tobbert.BatchControl.DistributionReceiving.Description,"Станция может получать эти грузы, которые отправляются с других станций. Максимальное количество, которое может находиться внутри станции, определяется количеством справа.",-
+Tobbert.BatchControl.DecreaseMaximum,Уменьшить максимальное количество товаров,-
+Tobbert.BatchControl.DecreaseMaximum.Description,"Уменьшите максимальное количество, которое может находиться внутри станции. Клик -1, удерживание Shift -10. Максимальная вместимость - 200.",-
+Tobbert.BatchControl.IncreaseMaximum,Увеличить максимальное количество товаров,-
+Tobbert.BatchControl.IncreaseMaximum.Description,"Увеличьте максимальное количество, которое может находиться внутри станции. Клик - это +1, а удерживание Shift - это +10. Максимальная вместимость - 200.",-
+Tobbert.TrackSystem.ToggleSectionDivider,Делит разделы:,-
+Tobbert.TrackSystem.ButtonChangeDirection,Смените направление,-
+Tobbert.TrackSystem.CollidingSectionDividers,Невозможно соединить 2 разделителя секций,-
+Tobbert.ToolGroup.Trains,Поезда,-
+Tobbert.TrainYard.PreviewErrorMessage,Можно построить только 1 склад поездов.,-
+Tobbert.Trains.UnlockPrompt,"Вам нужно разблокировать {0}, чтобы построить {1}.",-
+Tobbert.DistributionTrain.MinimumOfItemsToMove,Минимальное количество предметов для перемещения:,-
+Tobbert.TrainNavigation.Unstuck,Развернись,-
+Tobbert.TrainNavigation.NoWaitingStation,Не найдено доступных станций ожидания.,-
+Tobbert.TrainNavigation.NoWaitingStationShort,Нет станции ожидания,-
+Tobbert.TrainDestination.UnconnectedWarning,Станция не подключена ни к одной другой станции.,-
+Tobbert.TrainDestination.UnconnectedWarningShort,Неподключенная станция,-
+Tobbert.ChooChooSettings.Header,Ту-ту!,-
+Tobbert.ChooChooSettings.DefaultTrainModel,Модель по умолчанию для поезда:,-
+Tobbert.ChooChooSettings.DefaultWagonModel,Модель вагона по умолчанию:,-
+Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,Чу! Чу!,-
+Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,Откройте вкладку «Станции открытых грузов»,-

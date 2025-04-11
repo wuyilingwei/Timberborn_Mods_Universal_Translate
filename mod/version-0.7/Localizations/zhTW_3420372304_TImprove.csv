@@ -4,7 +4,7 @@ LV.TI.EnableFreeCameraDesc,移除遊戲中的攝影機限制。,-
 LV.TI.DisableFog,禁用霧效,-
 LV.TI.DisableFogDesc,在遊戲中移除霧氣。,-
 LV.TI.PauseBadWeather,因惡劣天氣而暫停,-
-LV.TI.PauseBadWeatherDesc,當壞天氣（乾旱、不良潮汐）開始時暫停遊戲。,-
+LV.TI.PauseBadWeatherDesc,當惡劣天氣（乾旱、不良潮汐）開始時暫停遊戲。,-
 LV.TI.ShowCoords,顯示座標,-
 LV.TI.ShowCoordsDesc,請在右上角顯示區塊座標。Z 是高度。尚不適用於更新 7。,-
 LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
@@ -34,6 +34,6 @@ LV.TI.QuickQuitDesc,按 Ctrl + Shift + Q 立即強制退出遊戲，會殺掉遊
 LV.TI.BiggerBuildDragArea,更大的建構阻力區域 (!),-
 LV.TI.BiggerBuildDragAreaDesc,增加大壩（默認為10x10）或道路（25）等建築的拖動範圍。這將顯著增加加載時間和內存使用，因此請謹慎使用。示例：將其設置為5將使拖動範圍變為15x15的大壩或30條道路。只能在主菜單中更改。,-
 LV.TI.AutoClearDeadTrees,立即清除枯死的樹木,-
-LV.TI.AutoClearDeadTreesDesc,使用「標記資源以進行拆除」工具時，自動清除沒有海狸的枯死樹木（就像您在其上建造東西一樣）。,-
+LV.TI.AutoClearDeadTreesDesc,使用「標記拆除資源」工具時，自動清除已死亡的樹木，而不需要河狸（就像您正在其上建造東西一樣）。,-
 LV.TI.AddRealTimeClock,添加實時鐘表,-
 LV.TI.AddRealTimeClockDesc,在右上角添加一個實時鐘。這對於想要在遊玩時跟蹤時間的玩家來說是很有用的。,-

@@ -14,15 +14,15 @@ IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,燃料已耗盡,-
 IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,缺少的成分,-
 IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,產品太多了,-
 IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,省電模式,-
-IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,如果電力不足，則暫停。,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,如果電力不足則暫停,-
 IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,最低效率：{0}%,-
 IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,如果電池電量低於 {0}%，則停止。,-
 IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,應用於所有此類建築,-
 IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,已申請至 {0}棟建築,-
-IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,暫停以節省能量,-
-IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> 電力不足,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,暫停以節省能源,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,電力不足,-
 IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<RedHighlight>⏻</RedHighlight> 電池電量不足,-
-IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> 將在 {0} 分鐘後恢復,-
+IgorZ.SmartPower.Common.MinutesTillResume,將於 {0} 分鐘後恢復,-
 IgorZ.SmartPower.Common.MinutesTillSuspend,<YellowHighlight>⏻</YellowHighlight> 將在 {0} 分鐘後暫停,-
 IgorZ.SmartPower.Settings.DebugSection,除錯和故障排除,-
 IgorZ.SmartPower.Settings.Debug.VerboseLogging,詳細日誌記錄,-
@@ -30,12 +30,12 @@ IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,日誌將包含更多有�
 IgorZ.SmartPower.Settings.BatteriesSection,電池,-
 IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,顯示電池統計資訊,-
 IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,消費者啟動滯後（小時）,-
-IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,如果暫停的消費者無法至少在指定的時間內依靠電池運行，則不會恢復運行。,-
-IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,海狸發動的發電機,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,暫停的消費者如果無法在至少指定的時間內運行電池，將不會恢復。,-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,海狸動力發電機,-
 IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,良好消耗的發電機,-
 IgorZ.SmartPower.Settings.WorkplaceConsumerSection,有工作場所的工作坊,-
 IgorZ.SmartPower.Settings.UnmannedConsumerSection,無人建築,-
 IgorZ.SmartPower.Settings.AttractionConsumerSection,景點,-
 IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,顯示浮動圖示,-
 IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,恢復延遲（分鐘）,-
-IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,暫停延遲（分鐘）,-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,延遲暫停（分鐘）,-

@@ -14,24 +14,24 @@ IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,燃料已耗尽,-
 IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,缺失的成分,-
 IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,产品太多了,-
 IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,节能模式,-
-IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,如果电量不足则挂起,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,如果电量不足，则暂停。,-
 IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,最低效率：{0}%,-
 IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,如果电池电量低于 {0}%，则停止。,-
 IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,适用于所有此类建筑,-
 IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,申请了 {0} 幢建筑,-
-IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,暂停以节约能源,-
-IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> 电量不足,-
-IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,电池电量不足,-
-IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> {0}分钟后将恢复,-
-IgorZ.SmartPower.Common.MinutesTillSuspend,<YellowHighlight>⏻</YellowHighlight> 将在 {0} 分钟后暂停,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,暂停以节省能量,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,⏻ 电量不足,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,未充电电池不足,-
+IgorZ.SmartPower.Common.MinutesTillResume,将在 {0} 分钟后恢复,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,将在 {0} 分钟后暂停,-
 IgorZ.SmartPower.Settings.DebugSection,调试与故障排除,-
 IgorZ.SmartPower.Settings.Debug.VerboseLogging,详细日志记录,-
 IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用的细节，但可能会影响游戏性能。,-
 IgorZ.SmartPower.Settings.BatteriesSection,电池,-
 IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,显示电池状态,-
 IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,消费者激活滞后（小时）,-
-IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,暂停的消费者如果无法至少在规定时间内使用电池供电，将不会恢复。,-
-IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,海狸驱动的发电机,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,如果暂停的消费者无法至少在规定的时间内运行电池，则不会恢复。,-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,海狸驱动发电机,-
 IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,良好的消费发电机,-
 IgorZ.SmartPower.Settings.WorkplaceConsumerSection,带有工作场所的研讨会,-
 IgorZ.SmartPower.Settings.UnmannedConsumerSection,无人建筑,-

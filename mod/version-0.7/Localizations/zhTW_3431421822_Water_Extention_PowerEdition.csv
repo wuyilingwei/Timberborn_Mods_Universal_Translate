@@ -12,12 +12,12 @@ Knatte.IrrigationTowerV2_IT.DisplayName,動力灌溉塔,-
 Knatte.IrrigationTowerV2_IT.Description,在周圍灌溉，無需任何工人。為了更多的水資源，它還能阻止污染。對於無法灌溉的瓷磚不會用水。,-
 Knatte.IrrigationTowerV2.FlavorDescription,由於地球上不到三分之一的區域被水覆蓋，灌溉成為了必需。,-
 Knatte.BigIrrigationTower.DisplayName,大型灌溉塔,-
-Knatte.BigIrrigationTowerIT.Description,"灌溉周圍更多的土地以使用更少的水。  
-藍色管道指示灌溉的起始點。  
-不會為無法灌溉的磚塊使用水。",-
-Knatte.BigIrrigationTowerFT.Description,"用更少的水灌溉周圍更多的土地。  
-黃色管道表示灌溉的起始點。  
-不會將水用於無法灌溉的瓷磚。",-
+Knatte.BigIrrigationTowerIT.Description,"為了更少的水，灌溉周圍更多的土地。  
+藍色管道表示灌溉的起始點。  
+不會對無法灌溉的瓦片使用水。",-
+Knatte.BigIrrigationTowerFT.Description,"更少的水灌溉更多的土地。
+黃色管道表示灌溉的起點。
+不會對無法灌溉的瓷磚使用水。",-
 Knatte.BigIrrigationTower.FlavorDescription,滴滴答。,-
 Knatte.IndWaterTank.DisplayName,工業水箱,-
 Knatte.IndWaterTank.Description,容納更多水且可以堆疊，但需要金屬。,-
@@ -28,10 +28,10 @@ Knatte.Pipe.Description,在管道兩側放置堤防，並設置輸入和輸出�
 Knatte.PipeU5X.DisplayName,地下管道5長,-
 Knatte.PipeU10X.DisplayName,地下管道 10 長,-
 Knatte.PipeU15X.DisplayName,地下管道 15 長,-
-Knatte.PipeU.Description,"在管道的兩側設置堤壩和進出口管道。
-管道在堤壩之間地下設置。
-堤壩需要供電，但也需要作為傳輸。
-不要將堤壩放置在輸出管道上方的六邊形內！這樣會崩潰！",-
+Knatte.PipeU.Description,"兩側都要有堤壩和一根進水管及出水管。  
+管道在堤壩之間地下延伸。  
+堤壩需要供電，但也要作為轉移使用。  
+請不要在輸出管上方的六邊形放置堤壩！這樣會崩潰！",-
 Knatte.CategoryPipe.DisplayName,直管,-
 Knatte.CategoryPipe.Description,架空管道,-
 Knatte.CategoryPipeU.DisplayName,地下管道,-
@@ -53,7 +53,7 @@ Knatte.LargeWaterWheelLevee.Description,水車，並且有一個斜坡堤防，�
 Knatte.PipeHU5X.DisplayName,地下管道 5 長 (H),-
 Knatte.PipeHU10X.DisplayName,地下10尺長（高）管道,-
 Knatte.PipeHU15X.DisplayName,地下15長（H）的管道,-
-Knatte.PipeHU.Description,高功率版本，管道兩側有護堤，並有進出口管道。管道在護堤之間地下通過。護堤需要供電，並且也需作為傳輸介質。請勿將護堤放置在輸出管道上方的六角形中！這樣會導致崩潰！,-
+Knatte.PipeHU.Description,高功率版本，管道兩側有堤防，並有進出口管道。管道在堤防之間地下埋設。堤防需要供電，但也要充當傳輸。不要在輸出管道上方的六邊形放置堤防！會導致崩潰！,-
 Knatte.Valve1X.DisplayName,單向閥,-
 Knatte.Valve1X.Description,"中間有堤壩的一方閥
 不需要電源且不會轉移

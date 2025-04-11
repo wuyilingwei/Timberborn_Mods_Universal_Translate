@@ -1,0 +1,41 @@
+ID,Text,Comment
+IgorZ.SmartPower.BatteryCapacity,Batteries charge: {0} / {1},-
+IgorZ.SmartPower.BatteryCharging,Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryDischarging,Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryNotUsed,Batteries not used,-
+IgorZ.SmartPower.BatteryDepleted,Batteries depleted,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,Automate this generator.,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,Keep batteries charged in the range of {0}% - {1}%.,-
+IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,Apply to all generators.,-
+IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,Applied to {0} generators,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,Suspended due to excessive supply,-
+IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,No workers at workplace,-
+IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,Fuel has run out,-
+IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,Missing ingredients,-
+IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,Too many products,-
+IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,Power saving mode,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,Suspend if insufficient power,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,Minimum efficiency: {0}%,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,Stop if battery charge is below {0}%.,-
+IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,Apply to all such buildings,-
+IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,Applied to {0} buildings,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,Suspended to conserve energy,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> Not enough power,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,Not enough battery charge,-
+IgorZ.SmartPower.Common.MinutesTillResume,Will resume in {0} minutes,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,<SolidHighlight>⏻</SolidHighlight> Will suspend in {0} minutes,-
+IgorZ.SmartPower.Settings.DebugSection,Debug and troubleshooting,-
+IgorZ.SmartPower.Settings.Debug.VerboseLogging,Verbose logging,-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,"Logs will have more useful details, but it may impact game performance.",-
+IgorZ.SmartPower.Settings.BatteriesSection,Batteries,-
+IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,Show battery stats,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,Consumers activation hysteresis (hours),-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,Suspended consumers will not resume if they cannot operate on batteries for at least the specified duration.,-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,Beaver-powered generators,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,Good-consuming generators,-
+IgorZ.SmartPower.Settings.WorkplaceConsumerSection,Workshops with a workplace,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,Unmanned workshops,-
+IgorZ.SmartPower.Settings.AttractionConsumerSection,Attractions,-
+IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,Show floating icon,-
+IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,Resume delay (minutes),-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,Suspend delay (minutes),-

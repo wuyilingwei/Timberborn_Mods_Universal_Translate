@@ -1,0 +1,63 @@
+ID,Text,Comment
+Floodgate.Triggers.EnableOnDroughtStarted,"Höhe festlegen, wenn die Dürre beginnt",-
+Floodgate.Triggers.EnableOnDroughtEnded,"Die Höhe einstellen, wenn die Dürre endet.",-
+Floodgate.Schedule.Enable,Höhe nach einem Zeitplan festlegen,-
+Floodgate.Schedule.DisableOnDrought,Zeitplan während Dürre deaktivieren,-
+Floodgate.Schedule.DisableOnTemperate,Zeitplan während Temperaturschwankungen deaktivieren,-
+Floodgate.Triggers.Time,Zeit,-
+Floodgate.Triggers.Height,Höhe,-
+Floodgate.Triggers.Basic,Grundlegend,-
+Floodgate.Triggers.Timer,Timer,-
+Floodgate.Triggers.Advanced,Fortgeschritten,-
+Floodgate.Triggers.AttachToStreamGauge,Anschluss der Stream Gauge,-
+Floodgate.Triggers.PickStreamGaugeTitle,Wählen Sie ein Strömungsmessgerät,-
+Floodgate.Triggers.PickStreamGaugeTip,"Wirklich, wähle einfach eine aus.",-
+Floodgates.Triggers.NoLinks,Keine Durchflussmessgeräte angeschlossen,-
+Floodgates.Triggers.NoFloodgateLinks,Keine Objekte verknüpft,-
+Floodgates.Triggers.LinkedFloodgates,Verknüpfte Objekte,-
+Floodgates.Triggers.Threshold1,Strommeservers niedrige Schwelle,-
+Floodgates.Triggers.Threshold2,Strommessgerät hoher Schwellenwert,-
+Floodgates.Triggers.HeightWhenBelowThreshold1,Die Höhe der Schleuse unterhalb des niedrigen Schwellenwerts.,-
+Floodgates.Triggers.HeightWhenAboveThreshold2,Höhe der Schleuse über der hohen Schwelle,-
+Floodgate.Triggers.PauseOnDroughtStart,"Pause, wenn Dürren beginnen.",-
+Floodgate.Triggers.UnpauseOnDroughtStart,"Wiedereinsetzen, wenn die Dürre beginnt",-
+Floodgate.Triggers.UnpauseOnTemperateStart,"Wiedereinsetzen, wenn die Temperatur beginnt",-
+Floodgate.Triggers.PauseOnTemperateStart,"Pause, wenn die Temperatur beginnt.",-
+Floodgates.WaterpumpTrigger.Threshold1,Pause <,-
+Floodgates.WaterpumpTrigger.Threshold2,Pause >,-
+Floodgates.WaterpumpTrigger.Threshold3,Wiedergabe fortsetzen,-
+Floodgates.WaterpumpTrigger.Threshold4,Wiedergabe fortsetzen >,-
+Floodgates.WaterpumpTrigger.PauseStartTime,Pause bei,-
+Floodgates.WaterpumpTrigger.ResumeStartTime,Lebenslauf bei,-
+Floodgates.WaterpumpTrigger.DisableDuringDrought,Während der Dürre deaktivieren,-
+Floodgates.WaterpumpTrigger.DisableDuringTemperate,Während der gemäßigten Zeit deaktivieren,-
+Floodgate.Triggers.PauseOnSchedule,Pause nach einem Zeitplan,-
+Floodgate.Triggers.EnableOnBadtideStarted,"Höhe einstellen, wenn die Flut beginnt",-
+Floodgate.Triggers.EnableOnBadtideEnded,"Höhe setzen, wenn Niedrigwasser endet",-
+Floodgate.Schedule.DisableOnBadtide,Zeitplan während schlechter Tide deaktivieren,-
+Floodgates.WaterpumpTrigger.DisableDuringBadtide,Während der schlechten Tide deaktivieren,-
+Floodgate.Triggers.PauseOnBadtideStart,"Pause, wenn die Flut beginnt.",-
+Floodgate.Triggers.UnpauseOnBadtideStart,"Wiedereinstellen, wenn die schlechte Flut beginnt",-
+Floodgates.Triggers.ContaminationThresholdLow,Kontamination Niedrigschwelle,-
+Floodgates.Triggers.ContaminationThresholdHigh,Kontaminationshochwert,-
+Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow,Setze die Höhe unter niedrige Kontamination.,-
+Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh,Festlegen der Höhe über hoher Kontamination,-
+Floodgates.Triggers.Depth,Tiefe,-
+Floodgates.Triggers.Contamination,Kontamination,-
+Floodgates.WaterSourceRegulator.Threshold1,Schließen,-
+Floodgates.WaterSourceRegulator.Threshold2,Schließen >,-
+Floodgates.WaterSourceRegulator.Threshold3,Öffnen <,-
+Floodgates.WaterSourceRegulator.Threshold4,Öffnen >,-
+Floodgates.WaterSourceRegulator.CloseStartTime,Schließen um,-
+Floodgates.WaterSourceRegulator.OpenStartTime,Öffnen bei,-
+Floodgates.WaterSourceRegulator.DisableDuringDrought,Während Dürre deaktivieren,-
+Floodgates.WaterSourceRegulator.DisableDuringTemperate,Deaktivieren während der gemäßigten Temperaturen,-
+Floodgate.WaterSourceRegulator.CloseOnDroughtStart,"Schließen, wenn die Dürre beginnt.",-
+Floodgate.WaterSourceRegulator.OpenOnDroughtStart,"Öffnen, wenn die Dürre beginnt",-
+Floodgate.WaterSourceRegulator.OpenOnTemperateStart,"Öffnen, wenn die Temperaturen steigen",-
+Floodgate.WaterSourceRegulator.CloseOnTemperateStart,"Schließen, wenn die Temperatur beginnt.",-
+Floodgate.WaterSourceRegulator.OpenOnBadtideStart,"Öffnen, wenn die schlechte Flut beginnt",-
+Floodgate.WaterSourceRegulator.CloseOnBadtideStart,"Schließen, wenn das Niedrigwasser beginnt.",-
+Floodgate.Schedule.CloseOnSchedule,Geschlossen/Öffnen nach einem Zeitplan,-
+Floodgates.WaterSourceRegulator.DisableDuringBadtide,Deaktivieren während der niedrigen Tide,-
+Floodgates.Triggers.Empty,Error,-

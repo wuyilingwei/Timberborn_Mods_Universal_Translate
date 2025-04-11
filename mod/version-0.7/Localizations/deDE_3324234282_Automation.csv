@@ -1,0 +1,166 @@
+ID,Text,Comment
+IgorZ.Automation.DebugPickTool.Title,Debug-Tool,-
+IgorZ.Automation.DebugPickTool.Description,Druckt Komponenten auf dem ausgewählten Objekt.,-
+IgorZ.Automation.DebugPickTool.DescriptionHint1,"Halten Sie <i>SHIFT</i>, um Zugänglich zu drucken.",-
+IgorZ.Automation.DebugPickTool.DescriptionHint2,"Halten Sie <i>CTRL</i>, um die NavMesh-Kanten zu drucken.",-
+IgorZ.Automation.DebugFinishNowTool.Title,Debug-Tool jetzt beenden,-
+IgorZ.Automation.DebugFinishNowTool.Description,Beendet sofort die ausgewählten Bauobjekte.,-
+IgorZ.Automation.ToolGroup.Main.DisplayName,Automatisierung einrichten,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,Geländeveränderung,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,Wasserbedingungen,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,Strombedingungen,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,Lagerbedingungen,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,Bevölkerungsbedingungen,-
+IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Dynamit 2 Mal sprengen,-
+IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,Dynamit dreimal sprengen,-
+IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,Dynamit 4 Mal sprengen,-
+IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,Dynamit 5 Mal sprengen,-
+IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,Dynamit 6 Mal detonieren,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"Diese Vorlage kann auf Dynamiten angewendet werden, unabhängig davon, ob sie fertiggestellt oder noch im Bau sind. Nach der Vollendung wird das Dynamit automatisch detonieren, und ein neuer Dynamit-Plan wird platziert, um tiefer zu graben.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,"Leeren Sie den Speicher, wenn die Kapazität über 50 % liegt.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,"Leeren Sie den Speicher, wenn die Kapazität über 60 % liegt.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,"Leeren Sie den Speicher, wenn die Kapazität über 70 % liegt.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,"Leeren Sie den Speicher, wenn die Kapazität über 80 % liegt.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,"Leeren Sie den Speicher, wenn die Kapazität über 90 % liegt.",-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"Diese Vorlage kann für Gebäude angewendet werden, die eine Art von Gütern produzieren und keinen Eingangsbestand haben. Wenn der Lagerbestand an <i>Ausgaben</i> das festgelegte Limit überschreitet, wechselt das Gebäude in einen 'leeren' Modus, um eine schnelle Entfernung der Waren zu erleichtern.",-
+IgorZ.Automation.EmptyOutputStore.CustomStatus,Das Gebäude wird vorrangig geräumt.,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pause während der Dürre,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,"Wenden Sie diese Vorlage auf Gebäude an, die während Dürren stillgelegt bleiben sollten.",-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Pause während der Ebbe,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,"Wenden Sie diese Vorlage auf Gebäude an, die während der schlechten Gezeiten pausiert bleiben sollten.",-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Pause während gemäßigtem Wetter,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,"Wenden Sie diese Vorlage auf Gebäude an, die während temperierter Wetterbedingungen pausiert bleiben sollten.",-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Schließen Sie das Hochwasser-Tor während der Dürre.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,"Wenden Sie diese Vorlage auf Schleusen an, die sich schließen sollten, wenn die Dürre beginnt.",-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Öffne die Schleuse während der Dürre.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,"Wenden Sie diese Vorlage auf Überschwemmungsschutzschleusen an, die sich öffnen sollten, wenn die Dürre beginnt.",-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,Öffentliche Wasserregulierung während Dürrezeiten,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,"Wenden Sie diese Vorlage auf Wasserregulatoren an, die während Dürrezeiten geöffnet werden müssen.",-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Schließe das Überflutungsventil während der schlechten Tide.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,"Wenden Sie diese Vorlage auf Schleusen an, die sich schließen müssen, wenn die Flut beginnt.",-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Öffne das Schleusentor während der Flut.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,"Wenden Sie diese Vorlage auf die Schleusen an, die sich öffnen müssen, wenn die schlechte Tide beginnt.",-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Flutttore bei gemäßigtem Wetter schließen,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,"Wenden Sie diese Vorlage auf Schleusen an, die geschlossen werden müssen, wenn die Temperatursaison beginnt.",-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Öffnen Sie das Schleusentor bei gemäßigtem Wetter.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,"Wenden Sie diese Vorlage auf Schutztore an, die geöffnet werden müssen, wenn die gemäßigte Saison beginnt.",-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,Leicht geöffnete Schleuse während gemäßigtem Wetter,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,"Wenden Sie diese Vorlage auf Schleusen an, die bei 0,5 m ihrer maximalen Höhe geöffnet werden sollen, wenn die temperierte Saison beginnt.",-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,Bot-Population +10,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,"Wende diese Vorlage auf Gebäude an, die betrieben werden sollten, bis die Bot-Bevölkerung das aktuelle Niveau um 10 Bots übersteigt.",-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,Bot-Population +20,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,"Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollen, bis die Bot-Population das aktuelle Niveau um 20 Bots überschreitet.",-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,Bot-Bevölkerung -10,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,"Wenden Sie diese Vorlage auf Gebäude an, die bis zu einem Rückgang der Bot-Bevölkerung um 10 Biber unter dem aktuellen Niveau pausiert bleiben müssen.",-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,Bot-Population -20,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,"Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben müssen, bis die Bot-Bevölkerung auf 20 Biber unter dem aktuellen Niveau gesunken ist.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,"Laufe, bis die Biberpopulation maximal ist.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,"Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollen, solange es unbesetzte Betten gibt.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,Biberpopulation +10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,"Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollen, bis die Biberpopulation das aktuelle Niveau um 10 Biber überschreitet.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,Biberpopulation +20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,"Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollen, bis die Biberpopulation das aktuelle Niveau um 20 Biber übersteigt.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,Biberpopulation -10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,"Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben sollten, bis die Biberpopulation um 10 Biber unter das aktuelle Niveau sinkt.",-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,Biberpopulation -20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,"Wenden Sie diese Vorlage auf Gebäude an, die bis zu einem Rückgang der Biberpopulation um 20 Biber unter dem aktuellen Niveau pausiert bleiben sollen.",-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,Blockiere keine Bauarbeiter.,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,"Wenden Sie diese Vorlage auf Baustellen an, die den Weg der Bauarbeiter blockieren können. Hinweis: Ergebnisse nicht garantiert, insbesondere wenn die Gebäude nicht auf derselben Ebene sind.",-
+IgorZ.Automation.CancelTool.Title,Automatisierung abbrechen,-
+IgorZ.Automation.CancelTool.Description,"Verwenden Sie dieses Werkzeug, um alle Automatisierungen in den Gebäuden oder auf den Baustellen zu bereinigen.",-
+IgorZ.Automation.PauseTool.Title,Pause Gebäude,-
+IgorZ.Automation.PauseTool.Description,"Verwenden Sie dieses Tool, um Gebäude und Baustellen zu pausieren.",-
+IgorZ.Automation.ResumeTool.Title,Gebäude wieder aktivieren,-
+IgorZ.Automation.ResumeTool.Description,"Verwenden Sie dieses Werkzeug, um Gebäude und Baustellen wieder zu aktivieren.",-
+IgorZ.Automation.DummyTitle,Allgemeiner Titel,-
+IgorZ.Automation.DummyDescription,Allgemeine Beschreibung,-
+TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Auswahl: {0},-
+TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Auswählen: {0} (x{1}),-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,"Zeigen Sie auf ein Objekt und klicken Sie, um mit der Auswahl zu beginnen.",-
+TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,"Klicken Sie hier, um auszuwählen: {0}",-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,"Halten Sie <i>SHIFT</i>, um nur Elemente eines Typs auszuwählen.",-
+IgorZ.Automation.DetonateDynamiteAction.Description,<YellowHighlight>Dynamit zünden</YellowHighlight>,-
+IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,und füge <GreenHighlight>{0} Mal</GreenHighlight> hinzu,-
+IgorZ.Automation.DroughtEndedCondition.Description,<YellowHighlight>Dürre beendet</YellowHighlight>,-
+IgorZ.Automation.DroughtStartedCondition.Description,<YellowHighlight>Dürre begonnen</YellowHighlight>,-
+IgorZ.Automation.MarkForEmptyingAction.Description,<YellowHighlight>leerer Speicher</YellowHighlight>,-
+IgorZ.Automation.ObjectFinishedCondition.Description,<BlaueMarkierung>Bau abgeschlossen</BlaueMarkierung>,-
+IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<YellowHighlight>Ausgangsbestand über {0}%</YellowHighlight>,-
+IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<YellowHighlight>Bestandsausgabe unter {0}%</YellowHighlight>,-
+IgorZ.Automation.PauseAction.Description,<YellowHighlight>Pause beim Bau</YellowHighlight>,-
+IgorZ.Automation.SetFloodgateHeightAction.Description,<YellowHighlight>Höhe auf {0} setzen</YellowHighlight>,-
+IgorZ.Automation.UnmarkForEmptyingAction.Description,"<YellowHighlight>Hören Sie auf, Speicher zu leeren</YellowHighlight>",-
+IgorZ.Automation.UnpauseAction.Description,<YellowHighlight>Gebäude wieder aktivieren</YellowHighlight>,-
+IgorZ.Automation.WaterRegulatorStateActionClose.Description,<Wasserregler schließen>,-
+IgorZ.Automation.WaterRegulatorStateActionOpen.Description,<YellowHighlight>offene Wasserregulierung</YellowHighlight>,-
+IgorZ.Automation.BadtideEndedCondition.Description,<badtide endete</badtide>,-
+IgorZ.Automation.BadtideStartedCondition.Description,<YellowHighlight>schlechte Gezeiten begonnen</YellowHighlight>,-
+IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<YellowHighlight>weniger als {0} Biber im Bezirk</YellowHighlight>,-
+IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,<YellowHighlight>mehr als {0} Biber im Bezirk</YellowHighlight>,-
+IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<YellowHighlight>weniger als {0} Bots im Bezirk</YellowHighlight>,-
+IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,<YellowHighlight>mehr als {0} Bots im Bezirk</YellowHighlight>,-
+IgorZ.Automation.PopulationRelativeToMaxArg,MAX{0},-
+IgorZ.Automation.PopulationRelativeToCurrentArg,JETZT{0},-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<YellowHighlight>blockiert den Weg</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<YellowHighlight>blockiert den Weg nicht</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Die Bauarbeiter können es noch nicht erreichen, aber ein Weg wird gebaut.",-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,Die Bauarbeiter können den Weg zu diesem Standort nicht finden. Vielleicht kann hier nichts gebaut werden.,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Unerreichbare Baustelle,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,<YellowHighlight>Halt Abschluss</YellowHighlight>,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,Lebenslauf erstellen,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,Warten auf den Abschluss der anderen Gebäude.,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,Automatisierungsfehler,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,Einige Automatisierungsregeln können nicht ausgeführt werden.,-
+IgorZ.Automation.BlockableBuildingAction.BlockDescription,<YellowHighlight>Blockbau</YellowHighlight>,-
+IgorZ.Automation.BlockableBuildingAction.UnblockDescription,<YellowHighlight>Gebäude freigeben</YellowHighlight>,-
+IgorZ.Automation.BlockableBuildingAction.BlockText,Warten auf den Abschluss der anderen Gebäude,-
+=,Error,-
+IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,Automatisierungsregeln:,-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,Wenn {0} Dann {1},-
+IgorZ.Automation.AutomationFragment.AddRulesBtn,Automatisierungsregeln hinzufügen,-
+IgorZ.Automation.AutomationFragment.EditRulesBtn,Bearbeitungsregeln,-
+IgorZ.Automation.AutomationFragment.CopyRulesBtn,Kopierregeln,-
+IgorZ.Automation.Tool.CopyRules.Title,Kopiere Automatisierungsregeln,-
+IgorZ.Automation.Tool.CopyRules.Text,Kopiere {0} Regeln,-
+IgorZ.Automation.Scripting.Expressions.AndOperator,und,-
+IgorZ.Automation.Scripting.Expressions.OrOperator,oder,-
+IgorZ.Automation.Scripting.Expressions.ParseError,PARSE FEHLER,-
+IgorZ.Automation.Scripting.Expressions.RuntimeError,LAUFZEITFEHLER,-
+IgorZ.Automation.Scriptable.Debug.Action.LogStr,Schreiben Sie eine Zeichenfolge in die Protokolle: {0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogNum,eine Zahl in die Protokolle schreiben: {0},-
+IgorZ.Automation.Scriptable.District.Signal.Beavers,Biber im Bezirk,-
+IgorZ.Automation.Scriptable.District.Signal.Bots,Bots im Bezirk,-
+IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,Betten im Bezirk,-
+IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight,Türhöhe auf {0} setzen,-
+IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,Eingabe: {0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,Ausgabe: {0},-
+IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,Beginnen Sie mit der Speicherentleerung.,-
+IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,"Hör auf, den Speicher zu leeren.",-
+IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,Der Speicher wird prioritär geleert.,-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,Bau pausieren,-
+IgorZ.Automation.Scriptable.Pausable.Action.Resume,Lebenslauf erstellen,-
+IgorZ.Automation.Scriptable.Weather.Signal.Season,Saison,-
+IgorZ.Automation.Scripting.Editor.DialogHeader,Automatisierungsregeln,-
+IgorZ.Automation.Scripting.Editor.ReadMoreLink,"Es tut mir leid, ich kann Ihnen nicht bei der Übersetzung von Inhalten von externen Links helfen. Wenn Sie spezifische Texte oder Absätze haben, die Sie übersetzen möchten, teilen Sie diese bitte mit mir, und ich helfe Ihnen gerne dabei!",-
+IgorZ.Automation.Scripting.Editor.PendingEditsNotification,Es gibt Regeln im Bearbeitungszustand. Vervollständigen Sie diese zuerst.,-
+IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation,Es gibt nicht gespeicherte Änderungen. Möchten Sie diese verwerfen?,-
+IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,Skript hinzufügen,-
+IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,Regel über Konstruktor erstellen,-
+IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,Vorlagengruppe: {0},-
+IgorZ.Automation.Scripting.Editor.DeletedRule,Regel entfernt,-
+IgorZ.Automation.Scripting.Editor.ResetChangesBtn,Änderungen zurücksetzen,-
+IgorZ.Automation.Scripting.Editor.EditAsScriptBtn,Drehbuch,-
+IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,Konstruktor,-
+IgorZ.Automation.Scripting.Editor.TestScriptBtn,Test,-
+IgorZ.Automation.Scripting.Editor.SaveScriptBtn,Speichern,-
+IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,Wegwerfen,-
+IgorZ.Automation.Scripting.Editor.ConditionLabel,Error,-
+IgorZ.Automation.Scripting.Editor.ActionLabel,Dann,-
+IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,Die Bedingung muss ein boolescher Ausdruck sein.,-
+IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,Die Bedingung muss mindestens ein Signal enthalten.,-
+IgorZ.Automation.Scripting.Editor.ActionMustBeAction,Die Aktion muss der 'Handeln'-Operator sein.,-
+IgorZ.Automation.Scripting.Editor.SaveRulesBtn,Speichern und schließen,-
+IgorZ.Automation.Scripting.Editor.DiscardChangesBtn,Änderungen verwerfen,-
+IgorZ.Automation.Scripting.Editor.MoreInfoBtn,Lies über Skripting,-
+IgorZ.Automation.Scripting.Editor.StringConstantType,Zeichenkette,-
+IgorZ.Automation.Scripting.Editor.NumberConstantType,nummer,-

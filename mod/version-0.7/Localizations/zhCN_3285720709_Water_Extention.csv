@@ -11,12 +11,12 @@ Knatte.IrrigationTowerV2_IT.DisplayName,动力灌溉塔,-
 Knatte.IrrigationTowerV2_IT.Description,在周围进行灌溉，无需任何工人。为了更多的水使用，它还能阻止污染。对于无法灌溉的瓷砖不使用水。,-
 Knatte.IrrigationTowerV2.FlavorDescription,由于地球上不到三分之一的区域被水覆盖，因此灌溉变得必不可少。,-
 Knatte.BigIrrigationTower.DisplayName,大型灌溉塔,-
-Knatte.BigIrrigationTowerIT.Description,"用更少的水灌溉周围更多的土地。  
-蓝色管道表示灌溉的起点。  
-不会为无法灌溉的区域使用水。",-
-Knatte.BigIrrigationTowerFT.Description,"为更少的水灌溉更多的土地。  
+Knatte.BigIrrigationTowerIT.Description,"更少的水灌溉周围更多的土地。  
+蓝色管道表示灌溉的起始点。  
+不使用水灌溉无法灌溉的瓷砖。",-
+Knatte.BigIrrigationTowerFT.Description,"为周围更多土地灌溉，使用更少的水。  
 黄色管道表示灌溉的起始点。  
-不使用无法灌溉的区域的水。",-
+对于无法灌溉的瓦片，不使用水。",-
 Knatte.BigIrrigationTower.FlavorDescription,滴滴答答。,-
 Knatte.IndWaterTank.DisplayName,工业水箱,-
 Knatte.IndWaterTank.Description,容纳更多水且可堆叠，但需要金属。,-
@@ -27,12 +27,12 @@ Knatte.Pipe.Description,在管道两侧设置堤坝，并设置输入和输出�
 Knatte.PipeU5X.DisplayName,地下管道 5 长,-
 Knatte.PipeU10X.DisplayName,地下管道10长,-
 Knatte.PipeU15X.DisplayName,地下管道 15 长,-
-Knatte.PipeU.Description,在管道的两侧有堤坝，以及一个输入管和一个输出管。管道在堤坝之间埋入地下。堤坝需要供电，但也要充当转移。请不要在输出管上方的六边形中放置堤坝！这会导致崩溃！,-
+Knatte.PipeU.Description,两侧有堤坝和一个输入管道和一个输出管道。管道在堤坝之间埋入地下。堤坝需要供电，但也能充当转移设备。不要在输出管道上方的六边形中放置堤坝！否则会崩溃！,-
 Knatte.CategoryPipe.DisplayName,直管,-
 Knatte.CategoryPipe.Description,地上管道,-
 Knatte.CategoryPipeU.DisplayName,地下管道,-
-Knatte.CategoryPipeU.Description,在弯道处需要埋入地下的管道,-
-Knatte.CategoryHideWE.DisplayName,未使用的水延伸,-
+Knatte.CategoryPipeU.Description,在弯处需要埋入地下的管道,-
+Knatte.CategoryHideWE.DisplayName,未使用的水扩展,-
 Knatte.Pipe1X.DisplayName,管道出口,-
 Knatte.Pipe1X.Description,"两个闸门和一个输入输出管道。闸门需要供电，但也要作为传输使用。  
 不要将闸门放在输出管道上方的六角形中！这样会崩溃！",-
@@ -40,7 +40,7 @@ Knatte.PowerLevee.DisplayName,动力袖,-
 Knatte.PowerLevee.Description,有轴的堤坝用于为泵提供动力。包括水平和垂直两种。,-
 Knatte.DeepSeaPump.DisplayName,深海水泵,-
 Knatte.DeepSeaPump.Description,海底泵,-
-Knatte.DeepSeaPump.FlavorDescription,一口清水足以让你振奋起来。,-
+Knatte.DeepSeaPump.FlavorDescription,一口清水足以让你精神焕发。,-
 Knatte.UPowerLevee.DisplayName,通用动力袖子,-
 Knatte.UPowerLevee.Description,有轴的堤坝用于给泵供电。四周连接。,-
 Knatte.PipeH1X.DisplayName,管道出口 (H),-
@@ -50,7 +50,7 @@ Knatte.LargeWaterWheelLevee.Description,水车还有一个倾斜的堤坝，帮�
 Knatte.PipeHU5X.DisplayName,地下管道 5 长 (H),-
 Knatte.PipeHU10X.DisplayName,地下管道 10 长 (高),-
 Knatte.PipeHU15X.DisplayName,地下管道 15 长 (H),-
-Knatte.PipeHU.Description,高功率版本，管道两侧有堤坝，包含输入和输出管道。管道在堤坝之间埋入地下。堤坝需要供电，同时还需作为传输装置。请不要在输出管道上方的六边形中放置堤坝！这样会导致崩溃！,-
+Knatte.PipeHU.Description,高功率版本，两侧有防护堤，进出口管道。管道埋入地下，位于防护堤之间。防护堤需要供电，但也需要作为传输通道。请不要在输出管道上方的六边形中放置防护堤！这样会崩溃！,-
 Knatte.Valve1X.DisplayName,单向阀,-
 Knatte.Valve1X.Description,"中间带堤坡的一次性阀门
 无需电源，且不进行传输
@@ -92,17 +92,17 @@ Knatte.Aqueduct_P_1X_Corner_Int.DisplayName,水渠 1x1 内角,-
 Knatte.Aqueduct_P_1X_Corner_Int.Description,三面有墙的水渠形成一个拐角。同时在底部挡住水流。,-
 Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,水往左走,-
 Knatte.Aqueduct_Wall2.DisplayName,水渠墙,-
-Knatte.Aqueduct_Wall2.Description,阻止水进入与此相同的方块，可以用于建造水下通道。,-
+Knatte.Aqueduct_Wall2.Description,阻止水进入与此相同的方块，可以用来建造水下通道。,-
 Knatte.Aqueduct_Wall2.FlavorDescription,待填写,-
 Knatte.TurbineSmall.DisplayName,小型涡轮机,-
-Knatte.TurbineSmall.Description,一个小型涡轮机，它以与轴相同的方向发电,-
+Knatte.TurbineSmall.Description,一个小型涡轮，产生与轴相同方向的电力,-
 Knatte.TurbineSmall.FlavorDescription,感谢99Cent和Ymerzeru的启发,-
 Knatte.Aqueduct_Wall3.DisplayName,"偏移 
 水渠墙",-
-Knatte.Aqueduct_Wall3.Description,阻止水进入与墙壁相同的块中,-
+Knatte.Aqueduct_Wall3.Description,阻止水进入与墙壁相同的块。,-
 Knatte.Aqueduct_Wall4.DisplayName,"双重偏移
 渡槽墙",-
-Knatte.Aqueduct_Wall4.Description,阻止水进入与墙壁相同的块中,-
+Knatte.Aqueduct_Wall4.Description,阻止水流入与墙壁相同的方块中,-
 Knatte.Aqueduct_Wall_OffDec.DisplayName,"偏移
 引水道墙假人",-
 Knatte.Aqueduct_Wall_OffDec2.DisplayName,"偏移双重  

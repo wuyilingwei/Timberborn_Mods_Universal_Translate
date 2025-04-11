@@ -1,0 +1,13 @@
+ID,Text,Comment
+CG.TreeGrowthRate,Baumwachstumsrate,-
+CG.TreeGrowthRateDesc,"Multiplikator für das Baumwachstum wie Kiefern oder Eichen (1 für die Spielstandardwerte). Kann auf unter 1 gesetzt werden, um das Spiel schwieriger zu machen.",-
+CG.CropGrowthRate,Pflanzenwachstumsrate,-
+CG.CropGrowthRateDesc,"Multiplikator für die Wachstumszeit von Pflanzen wie Karotten oder Kartoffeln (1 für den Spielstandard). Kann auf unter 1 gesetzt werden, um das Spiel schwieriger zu machen.",-
+CG.GatherableGrowthRate,Produktwachstumsrate,-
+CG.GatherableGrowthRateDesc,"Multiplikator für das Wachstum von Produkten wie Kiefernharz oder Beeren (1 für die Standardspielversion). Kann auf unter 1 gesetzt werden, um das Spiel schwieriger zu machen.",-
+CG.ReproducibleChanceMultiplier,Reproduzierbarer Chancenmultiplikator,-
+CG.ReproducibleChanceMultiplierDesc,"Machen Sie Bäume wahrscheinlicher oder weniger wahrscheinlich, sich fortzupflanzen. Jeder Baum hat jede Stunde eine 1-3% Chance, sich fortzupflanzen, abhängig von der Art. Das Setzen auf 1 hält die Einstellungen des Spiels bei, während 0 bedeutet, dass keine Fortpflanzung stattfindet.",-
+CG.SpreadDistance,Streubreite,-
+CG.SpreadDistanceDesc,"Die Entfernung (in Blöcken), die ein Baum auf einen neuen Block verbreiten kann. 0 bedeutet keine Ausbreitung. Standard im Spiel: 1",-
+CG.SpreadVertically,Kann sich vertikal ausbreiten,-
+CG.SpreadVerticallyDesc,"Wenn aktiviert, können Bäume sich auf Blöcke über oder unter ihnen ausbreiten (unter Verwendung des Ausbreitungsabstands). Spielstandard: falsch",-

@@ -1,0 +1,41 @@
+ID,Text,Comment
+IgorZ.SmartPower.BatteryCapacity,Batteriestand: {0} / {1},-
+IgorZ.SmartPower.BatteryCharging,Batterien werden geladen: <GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryDischarging,Batterien entladen: <RedHighlight>🡇</RedHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryNotUsed,<GreenHighlight>Batterien nicht verwendet</GreenHighlight>,-
+IgorZ.SmartPower.BatteryDepleted,<Batterien entladen>,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,Automatisiere diesen Generator,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,Halten Sie die Batterieladung im Bereich {0}% - {1}%.,-
+IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,Auf alle Generatoren anwenden,-
+IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,Auf {0} Generatoren angewendet,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,Ausgesetzt aufgrund von Überangebot,-
+IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,<YellowHighlight>⏻</YellowHighlight> Keine Arbeiter am Arbeitsplatz,-
+IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,Der Treibstoff ist ausgegangen.,-
+IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,Fehlende Zutaten,-
+IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,Zu viele Produkte,-
+IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,Energiesparmodus,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,Bei unzureichender Energie aussetzen,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,Minimale Effizienz: {0}%,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,"Halten Sie an, wenn der Batteriestand unter {0}% liegt.",-
+IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,Gilt für alle solchen Gebäude,-
+IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,Auf {0} Gebäude angewendet,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,"Ausgesetzt, um Energie zu sparen",-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> Nicht genug Strom,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<RedHighlight>⏻</RedHighlight> Nicht genügend Batterieladung,-
+IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> Wird in {0} Minuten fortgesetzt,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,<YellowHighlight>⏻</YellowHighlight> Wird in {0} Minuten ausgesetzt,-
+IgorZ.SmartPower.Settings.DebugSection,Debugging und Fehlerbehebung,-
+IgorZ.SmartPower.Settings.Debug.VerboseLogging,Ausführliches Protokollieren,-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,"Protokolle enthalten nützlichere Details, können jedoch die Spielleistung beeinträchtigen.",-
+IgorZ.SmartPower.Settings.BatteriesSection,Batterien,-
+IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,Batteriestatistiken anzeigen,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,Konsumentenaktivierungshysterese (Stunden),-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,"Eingestellte Verbraucher werden nicht wieder aktiviert, wenn sie nicht mindestens die angegebene Dauer mit Batterien betrieben werden können.",-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,Biberbetriebene Generatoren,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,Gute Verbrauchsgeneratoren,-
+IgorZ.SmartPower.Settings.WorkplaceConsumerSection,Werkstätten mit einem Arbeitsplatz,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,Unmanned Gebäude,-
+IgorZ.SmartPower.Settings.AttractionConsumerSection,Attraktionen,-
+IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,Schwebendes Symbol anzeigen,-
+IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,Resumeverzögerung (Minuten),-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,Suspendierungsverzögerung (Minuten),-
