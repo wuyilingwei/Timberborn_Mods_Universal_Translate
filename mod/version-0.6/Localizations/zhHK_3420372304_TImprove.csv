@@ -1,0 +1,39 @@
+ID,Text,Comment
+LV.TI.EnableFreeCamera,啟用自由相機,-
+LV.TI.EnableFreeCameraDesc,移除遊戲中的相機限制。,-
+LV.TI.DisableFog,禁用霧氣,-
+LV.TI.DisableFogDesc,移除遊戲中的霧氣。,-
+LV.TI.PauseBadWeather,因惡劣天氣而暫停,-
+LV.TI.PauseBadWeatherDesc,當惡劣天氣（乾旱、潮汐不良）開始時，暫停遊戲。,-
+LV.TI.ShowCoords,顯示坐標,-
+LV.TI.ShowCoordsDesc,在右上角顯示區塊坐標。Z 是高度。尚未適用於更新 7。,-
+LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
+LV.TI.HeightLabel,高度: {0},-
+LV.TI.OnlyShowHeight,只顯示高度,-
+LV.TI.OnlyShowHeightDesc,只顯示高度，而不是完整的座標。,-
+LV.TI.PrioritizeRubbles,優先處理瓦礫,-
+LV.TI.PrioritizeRubblesDesc,自動將碎石的優先級設置為高。,-
+LV.TI.AllDayLight,無日光變化,-
+LV.TI.AllDayLightDesc,只顯示視覺/用戶界面。所選的日光會一直保持不變，而不會隨時間改變。,-
+LV.TI.ShowGameTime,顯示遊戲時間,-
+LV.TI.ShowGameTimeDesc,在右上角顯示當前比賽時間。,-
+LV.TI.EnableSpeedS25,啟用0.25倍速 [Shift+1],-
+LV.TI.EnableSpeedS25Desc,在遊戲中按 Shift+1 解鎖 0.25 倍速度選項。通常，這只在開發模式下可用。,-
+LV.TI.EnableSpeed4,啟用30倍速 [4],-
+LV.TI.EnableSpeed4Desc,透過按下4來解鎖遊戲中的30倍第四速選項。通常，這只在開發模式下可用。,-
+LV.TI.EnableSpeed5,啟用99倍速度 [5] (!),-
+LV.TI.EnableSpeed5Desc,按下5解鎖遊戲中的5倍速度99x選項。通常，這只在開發模式下可用。請注意，這個速度不穩定，可能會導致遊戲出現問題。有人說海狸可能會保持飢餓和口渴。,-
+LV.TI.StaticLight,靜態日光,-
+LV.TI.StaticLightDesc,視覺/界面專用。這種白晝將始終保持不變。,-
+LV.TI.LightSunrise,日出,-
+LV.TI.LightDay,日,-
+LV.TI.LightSunset,日落,-
+LV.TI.LightNight,夜晚,-
+LV.TI.QuickQuit,快速/強制退出 [Ctrl + Shift + Q] (!),-
+LV.TI.QuickQuitDesc,按 Ctrl + Shift + Q 立即強制退出遊戲，這樣會殺死遊戲進程。沒有保存或清理遊戲狀態。請小心！,-
+LV.TI.BiggerBuildDragArea,更大的建築阻力區域 (!),-
+LV.TI.BiggerBuildDragAreaDesc,增加建築的拖曳區域，例如大壩（默認10x10）或道路（25）。這會顯著增加加載時間和內存使用，因此請謹慎使用。例子：將此設置為5將使拖曳區域變為15x15的大壩或30條道路。只能在主菜單中進行更改。,-
+LV.TI.AutoClearDeadTrees,立即清除枯死的樹木,-
+LV.TI.AutoClearDeadTreesDesc,在使用「標記資源以進行拆除」工具時，自動清除死樹，而不需要海狸（就好像你在其上建造東西一樣）。,-
+LV.TI.AddRealTimeClock,添加實時鐘表,-
+LV.TI.AddRealTimeClockDesc,在右上角添加一個實時時鐘。這對於想在玩遊戲時跟踪時間的玩家很有用。,-

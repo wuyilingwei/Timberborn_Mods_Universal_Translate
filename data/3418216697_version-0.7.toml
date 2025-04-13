@@ -7,6 +7,8 @@ ruRU = "Включено"
 jaJP = "有効化された"
 frFR = "Activé"
 deDE = "Aktiviert"
+zhHK = "已啟用"
+plPL = "Włączone"
 
 ["LV.SE.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -17,6 +19,8 @@ ruRU = "Включен ли этот мод."
 jaJP = "このモッドが有効かどうか。"
 frFR = "Si ce mod est activé."
 deDE = "Ob dieses Modul aktiviert ist."
+zhHK = "這個模組是否已啟用。"
+plPL = "Czy ten mod jest włączony."
 
 ["LV.SE.SaveFrequency"]
 raw = "Auto-save frequency (days)"
@@ -27,6 +31,8 @@ ruRU = "Частота автосохранения (дни)"
 jaJP = "自動保存頻度（日数）"
 frFR = "Fréquence de sauvegarde automatique (jours)"
 deDE = "Auto-Speicherfrequenz (Tage)"
+zhHK = "自動保存頻率（天數）"
+plPL = "Częstotliwość automatycznego zapisywania (dni)"
 
 ["LV.SE.SaveFrequencyDesc"]
 raw = "How often this mod should auto-save."
@@ -37,6 +43,8 @@ ruRU = "С какой периодичностью этот мод должен 
 jaJP = "このMODはどれくらいの頻度で自動保存するべきですか。"
 frFR = "À quelle fréquence ce mod devrait-il enregistrer automatiquement ?"
 deDE = "Wie oft diese Mod automatisch speichern soll."
+zhHK = "這個模組應該多久自動保存一次。"
+plPL = "Jak często ten mod powinien automatycznie zapisywać."
 
 ["LV.SE.SaveCount"]
 raw = "Auto-save count"
@@ -47,6 +55,8 @@ ruRU = "Автоматическое сохранение счётчик"
 jaJP = "自動保存の回数"
 frFR = "Compte de sauvegarde automatique"
 deDE = "Automatisches Speichernanzahl"
+zhHK = "自動保存次數"
+plPL = "Liczba automatycznych zapisów"
 
 ["LV.SE.SaveCountDesc"]
 raw = "How many auto-saves should be kept."
@@ -57,6 +67,8 @@ ruRU = "Сколько автосохранений следует сохран�
 jaJP = "自動保存は何件保持すべきですか？"
 frFR = "Combien de sauvegardes automatiques doivent être conservées ?"
 deDE = "Wie viele automatische Sicherungen sollten aufbewahrt werden?"
+zhHK = "應保留多少個自動保存的檔案？"
+plPL = "Ile automatycznych zapisów powinno być przechowywanych?"
 
 ["LV.SE.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -67,6 +79,8 @@ ruRU = "Дополнительная экономия при предупреж�
 jaJP = "天気警報の追加保存"
 frFR = "Économie supplémentaire sur l'avis de temps violent"
 deDE = "Zusätzliche Ersparnis bei Wetterwarnung"
+zhHK = "天氣警告額外儲蓄"
+plPL = "Dodatkowa oszczędność przy ostrzeżeniach pogodowych"
 
 ["LV.SE.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -77,3 +91,5 @@ ruRU = "Когда выдается предупреждение о погоде
 jaJP = "天候警報が発令されると、次のサイクルの警報によってのみ上書きされる「weatherwarning.save」という名前の追加のセーブを作成します。このセーブはセーブカウントにはカウントされません。"
 frFR = "Lorsque un avertissement météorologique est émis, effectuez une sauvegarde supplémentaire nommée 'weatherwarning.save' qui n'est écrasée que par l'avertissement du cycle suivant. Cette sauvegarde n'est pas comptée dans le nombre de sauvegardes."
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie eine zusätzliche Sicherung mit dem Namen 'weatherwarning.save', die nur durch die Warnung des nächsten Zyklus überschrieben wird. Diese Sicherung wird nicht in die Anzahl der Sicherungen gezählt."
+zhHK = "當發出天氣警告時，請額外保存名為'weatherwarning.save'的文件，只有在下一個周期的警告時才會被覆蓋。這個保存不計算在保存次數內。"
+plPL = "Gdy zostanie wydane ostrzeżenie pogodowe, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które będzie nadpisywane tylko przez ostrzeżenie z następnej rundy. To zapisanie nie będzie wliczane do liczby zapisów."

@@ -1,0 +1,13 @@
+ID,Text,Comment
+CG.TreeGrowthRate,樹木生長速度,-
+CG.TreeGrowthRateDesc,樹木生長時間的倍增器，如松樹或橡樹（默認為1）。可以設置為低於1以增加遊戲難度。,-
+CG.CropGrowthRate,作物生長率,-
+CG.CropGrowthRateDesc,作物生長時間的倍增器，例如胡蘿蔔或馬鈴薯（1代表遊戲默認值）。可以設置為低於1以增加遊戲難度。,-
+CG.GatherableGrowthRate,產品增長率,-
+CG.GatherableGrowthRateDesc,產品生長時間的乘數，例如松樹樹脂或漿果（遊戲默認為 1）。可以設置為低於 1 以提高遊戲的難度。,-
+CG.ReproducibleChanceMultiplier,可重現的機會倍增器,-
+CG.ReproducibleChanceMultiplierDesc,讓樹木的繁殖機率增加或減少。每棵樹每小時都有1-3%的繁殖機會，這取決於樹的種類。將這個設置為1以保持遊戲的設定，設置為0則意味著不會繁殖。,-
+CG.SpreadDistance,散播距離,-
+CG.SpreadDistanceDesc,樹木可以擴展到新區塊的距離（以區塊計算）。0表示不擴展。遊戲默認：1,-
+CG.SpreadVertically,可以垂直擴展,-
+CG.SpreadVerticallyDesc,如果啟用，樹木可以向上或向下的方塊擴散（使用擴散距離）。遊戲默認：關閉,-

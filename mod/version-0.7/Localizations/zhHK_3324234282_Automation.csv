@@ -1,0 +1,166 @@
+ID,Text,Comment
+IgorZ.Automation.DebugPickTool.Title,除錯工具,-
+IgorZ.Automation.DebugPickTool.Description,在選定的物件上打印組件。,-
+IgorZ.Automation.DebugPickTool.DescriptionHint1,按住 <i>SHIFT</i> 以打印可訪問。,-
+IgorZ.Automation.DebugPickTool.DescriptionHint2,按住 <i>CTRL</i> 來打印 NavMesh 邊緣。,-
+IgorZ.Automation.DebugFinishNowTool.Title,完成現在的調試工具,-
+IgorZ.Automation.DebugFinishNowTool.Description,立即完成所選建設物。,-
+IgorZ.Automation.ToolGroup.Main.DisplayName,設置自動化,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,地形變化,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,水質條件,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,電源條件,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,儲存條件,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,人口狀況,-
+IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,爆炸二次炸藥,-
+IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,爆炸炸藥三次,-
+IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,炸四次炸藥,-
+IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,炸毀炸藥五次,-
+IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,爆炸六次炸藥,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,這個模板可以應用於炸藥，無論它是已完成還是仍在建造中。完成後，炸藥將自動引爆，並放置一個新的炸藥藍圖以進一步挖掘。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,如果儲存容量超過50%，請清空儲存。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,如果容量超過60%，請清空存儲。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,如果容量超過70%，請清空儲存空間。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,如果容量超過80%，請清空存儲。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,如果儲存容量超過90%，請清空儲存。,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,這個模板可以應用於生產一種商品且沒有原料庫存的建築。如果「產出」庫存水平超過預定的閾值，建築將轉換為「空置」模式，以便快速移除商品。,-
+IgorZ.Automation.EmptyOutputStore.CustomStatus,這棟大廈正按照優先次序進行清空。,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,乾旱期間的暫停,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,將這個模板應用於在乾旱期間應該保持暫停的建築物上。,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,在退潮時暫停,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,將此模板應用於在壞潮期間應保持暫停的建築物。,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,在適中的天氣中暫停,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,將此模板應用於在溫帶天氣中應保持暫停的建築物。,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,在乾旱期間關閉水閘,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,將這個模板應用於在乾旱開始時應該關閉的防洪閘。,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,在乾旱期間打開洪水閘門,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,對於在乾旱開始時應打開的防洪閘，應用此模板。,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,在乾旱期間的開放水域調節器,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,在旱災期間，水利管理機構需要確保開放。,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,在壞潮期間關閉水閘,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,將此模板應用於在壞潮開始時需要關閉的防洪閘。,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,在壞潮期間打開閘門,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,將此模板應用於當壞潮開始時需要打開的洪水閘。,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,在温和天气下关闭闸门,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,將這個模板應用於在溫帶季節開始時需要關閉的洪水閘。,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,在温和的天气中开放闸门,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,在溫帶季節開始時，需要打開的洪水閘門。,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,在温和天气下稍微开启洪水闸門,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,將此模板應用於在溫暖季節開始時應該以其最大高度的0.5米打開的防洪閘。,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,機械人數量 +10,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,將此模板應用於應該運行的建築，直到機器人數量超過當前水平10個機器人為止。,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,機器人數量 +20,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,將此模板應用於應該持續運行的建築，直到機械人數量超過當前水平的20個機械人為止。,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,機械人數量 -10,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,將這個模板應用於那些在機器人數量下降到當前水平以下10隻海狸之前必須暫停的建築。,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,機器人數量 -20,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,將這個模板應用於必須暫停的建築，直到機器人數量下降至比當前水平少20隻海狸為止。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,運行直到河狸的數量達到最高水平,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,對於那些只要有空床就應該運行的建築，應用此模板。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,海狸數量 +10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,將這個模板應用於應該運行的建築，直到海狸的數量超過當前水平10隻海狸為止。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,海狸數量 +20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,將這個模板應用於那些在河狸數量超過當前水平20隻之前應繼續運作的建築。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,海狸數量 -10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,將此模板應用於應該保持暫停的建築，直到海狸數量下降至當前水平以下10隻海狸。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,海狸數量 -20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,將此模板應用於應該保持暫停的建築，直到海狸數量低於當前水平20隻。,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,唔好阻住建築工人,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,將此模板應用於可能阻礙建築工人的路徑的建築工地。注意：結果不保證，特別是如果建築物的高度不一致。,-
+IgorZ.Automation.CancelTool.Title,取消自動化,-
+IgorZ.Automation.CancelTool.Description,使用這個工具來清理任何建築物或施工現場的自動化。,-
+IgorZ.Automation.PauseTool.Title,暫停建築,-
+IgorZ.Automation.PauseTool.Description,使用這個工具來暫停建築物和施工現場。,-
+IgorZ.Automation.ResumeTool.Title,解除建築暫停,-
+IgorZ.Automation.ResumeTool.Description,使用這個工具來恢復建築物和施工現場的運作。,-
+IgorZ.Automation.DummyTitle,通用標題,-
+IgorZ.Automation.DummyDescription,通用描述,-
+TimberDev_Utils.Tools.LockSelectTool.SelectingObject,選擇：{0},-
+TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,選擇: {0} (x{1}),-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,指向一個實體並點擊以開始選擇,-
+TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,點擊開始選擇：{0},-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,按住 <i>SHIFT</i> 僅選擇一種項目。,-
+IgorZ.Automation.DetonateDynamiteAction.Description,<YellowHighlight>引爆炸藥</YellowHighlight>,-
+IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,並再添加另一個<GreenHighlight>{0} 次</GreenHighlight>,-
+IgorZ.Automation.DroughtEndedCondition.Description,<YellowHighlight>旱災結束</YellowHighlight>,-
+IgorZ.Automation.DroughtStartedCondition.Description,<YellowHighlight>乾旱開始</YellowHighlight>,-
+IgorZ.Automation.MarkForEmptyingAction.Description,<YellowHighlight>空存儲</YellowHighlight>,-
+IgorZ.Automation.ObjectFinishedCondition.Description,<YellowHighlight>建設完成</YellowHighlight>,-
+IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<YellowHighlight>庫存超過 {0}%</YellowHighlight>,-
+IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<YellowHighlight>庫存低於 {0}%</YellowHighlight>,-
+IgorZ.Automation.PauseAction.Description,<YellowHighlight>暫停建築</YellowHighlight>,-
+IgorZ.Automation.SetFloodgateHeightAction.Description,<YellowHighlight>將高度設置為 {0}</YellowHighlight>,-
+IgorZ.Automation.UnmarkForEmptyingAction.Description,停止清空儲存空間,-
+IgorZ.Automation.UnpauseAction.Description,取消暫停建築,-
+IgorZ.Automation.WaterRegulatorStateActionClose.Description,<YellowHighlight>關閉水位調節器</YellowHighlight>,-
+IgorZ.Automation.WaterRegulatorStateActionOpen.Description,<YellowHighlight>開放水域監管機構</YellowHighlight>,-
+IgorZ.Automation.BadtideEndedCondition.Description,<YellowHighlight>壞潮結束</YellowHighlight>,-
+IgorZ.Automation.BadtideStartedCondition.Description,<b>壞潮開始</b>,-
+IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<YellowHighlight>地區內少於 {0} 只海狸</YellowHighlight>,-
+IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,在本區域內有超過 {0} 隻海狸,-
+IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<YellowHighlight>區內少於 {0} 部機器人</YellowHighlight>,-
+IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,<YellowHighlight>區內有超過 {0} 隻機械人</YellowHighlight>,-
+IgorZ.Automation.PopulationRelativeToMaxArg,最大{0},-
+IgorZ.Automation.PopulationRelativeToCurrentArg,現喺{0},-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<YellowHighlight>阻礙路徑</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<YellowHighlight>不阻礙路徑</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,建築工人尚未能到達那裡，但一條道路正在建造中。,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,建築工人找不到這個工地的路。也許這裡根本無法進行建設。,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,無法到達的建築工地,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,<YellowHighlight>保持完成</YellowHighlight>,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,<YellowHighlight>履歷建設</YellowHighlight>,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,等待其他大廈完成,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,自動化錯誤,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,某些自動化規則無法被執行,-
+IgorZ.Automation.BlockableBuildingAction.BlockDescription,<YellowHighlight>建築方塊</YellowHighlight>,-
+IgorZ.Automation.BlockableBuildingAction.UnblockDescription,解鎖建築,-
+IgorZ.Automation.BlockableBuildingAction.BlockText,等待其他大廈完成,-
+=,Error,-
+IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,自動化規則：,-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,如果 {0} 那麼 {1},-
+IgorZ.Automation.AutomationFragment.AddRulesBtn,添加自動化規則,-
+IgorZ.Automation.AutomationFragment.EditRulesBtn,編輯規則,-
+IgorZ.Automation.AutomationFragment.CopyRulesBtn,複製規則,-
+IgorZ.Automation.Tool.CopyRules.Title,複製自動化規則,-
+IgorZ.Automation.Tool.CopyRules.Text,複製 {0} 規則,-
+IgorZ.Automation.Scripting.Expressions.AndOperator,和,-
+IgorZ.Automation.Scripting.Expressions.OrOperator,或,-
+IgorZ.Automation.Scripting.Expressions.ParseError,解析錯誤,-
+IgorZ.Automation.Scripting.Expressions.RuntimeError,運行時錯誤,-
+IgorZ.Automation.Scriptable.Debug.Action.LogStr,寫入日誌：{0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogNum,寫一個數字到日誌：{0},-
+IgorZ.Automation.Scriptable.District.Signal.Beavers,區內的海狸,-
+IgorZ.Automation.Scriptable.District.Signal.Bots,區內的機械人,-
+IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,區內的床位,-
+IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight,將閘門高度設置為 {0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,輸入：{0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,輸出: {0},-
+IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,開始清理儲存空間,-
+IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,停止清空儲存空間,-
+IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,存儲空間正按優先順序進行清空。,-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,暫停建築,-
+IgorZ.Automation.Scriptable.Pausable.Action.Resume,建立履歷表,-
+IgorZ.Automation.Scriptable.Weather.Signal.Season,季節,-
+IgorZ.Automation.Scripting.Editor.DialogHeader,自動化規則,-
+IgorZ.Automation.Scripting.Editor.ReadMoreLink,抱歉，我無法直接訪問網頁內容。請提供您希望翻譯的具體文本，我將樂意協助您進行翻譯。,-
+IgorZ.Automation.Scripting.Editor.PendingEditsNotification,編輯狀態下有規則。請先完成它們。,-
+IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation,有未保存的更改。你想要放棄它們嗎？,-
+IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,添加腳本,-
+IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,透過建構子創建規則,-
+IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,模板組：{0},-
+IgorZ.Automation.Scripting.Editor.DeletedRule,規則已移除,-
+IgorZ.Automation.Scripting.Editor.ResetChangesBtn,重置更改,-
+IgorZ.Automation.Scripting.Editor.EditAsScriptBtn,劇本,-
+IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,構造函數,-
+IgorZ.Automation.Scripting.Editor.TestScriptBtn,測試,-
+IgorZ.Automation.Scripting.Editor.SaveScriptBtn,保存,-
+IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,丟棄,-
+IgorZ.Automation.Scripting.Editor.ConditionLabel,Error,-
+IgorZ.Automation.Scripting.Editor.ActionLabel,然後,-
+IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,條件必須是一個布爾表達式,-
+IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,條件必須包含至少一個信號,-
+IgorZ.Automation.Scripting.Editor.ActionMustBeAction,行動必須是「行動」運算符,-
+IgorZ.Automation.Scripting.Editor.SaveRulesBtn,儲存並關閉,-
+IgorZ.Automation.Scripting.Editor.DiscardChangesBtn,放棄更改,-
+IgorZ.Automation.Scripting.Editor.MoreInfoBtn,閱讀有關編程的內容,-
+IgorZ.Automation.Scripting.Editor.StringConstantType,字串,-
+IgorZ.Automation.Scripting.Editor.NumberConstantType,數字,-

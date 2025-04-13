@@ -1,0 +1,43 @@
+ID,Text,Comment
+LV.WSP.WeatherGroup,天氣,-
+LV.WSP.WeatherGroupDesc,與天氣及預報相關的科學項目,-
+LV.WSP.Ext1,饑魂之圖騰,-
+LV.WSP.Ext1Desc,壞天氣警告提前{0:+#}天發出。,-
+LV.WSP.Ext1Lore,一根簡單的桿子，讓你的海狸可以“嗅”到風，提前獲得天氣提示。,-
+LV.WSP.Ext2,霧織者的錶盤,-
+LV.WSP.Ext2Desc,惡劣天氣的警告提前 {0:+#} 天發出。,-
+LV.WSP.Ext2Lore,一個可以根據濕度和氣壓預測天氣的儀表。,-
+LV.WSP.Ext3,雷霆樹的尖塔,-
+LV.WSP.Ext3Desc,壞天氣的警告每個級別提前 {0:+#} 天發出。,-
+LV.WSP.Ext3Lore,一座高耸的尖塔，可以探測空氣中的電荷。,-
+LV.WSP.PrewarningCost,預警日的每級成本。其他日子均為0。,-
+LV.WSP.Pred1,天氣預報,-
+LV.WSP.Pred1Desc,預測這個周期的惡劣天氣。準確率在第一天為{0:#%}，並且每天增加{1:+#%}。,-
+LV.WSP.Pred1Lore,海狸會參考雲層和風向，隨著日子的推移，它們的預測越來越準確。,-
+LV.WSP.Pred2,星光精準,-
+LV.WSP.Pred2Desc,天氣預報現在在週期的第一天開始具備額外的 {0:+#%} 準確度。,-
+LV.WSP.Pred2Lore,「星星不會說謊—如果你知道怎樣去問它們！」— 凌星者Blink,-
+LV.WSP.Pred3,水文分析,-
+LV.WSP.Pred3Desc,每天的天氣預報增加每個級別{1:+#%}的準確度。,-
+LV.WSP.Pred3Lore,透過研究潮起潮落，河狸每天都在改善他們的天氣預測。,-
+LV.WSP.IncreaseStr,Flowmaster 的導管,-
+LV.WSP.IncreaseStrDesc,允許您增強水源的力量,-
+LV.WSP.IncreaseStrLore,「更多水，更多力量——就是這樣簡單！」— Riverchew Flowmaster,-
+LV.WSP.IncreaseStrFresh,增加淡水來源,-
+LV.WSP.IncreaseStrFreshDesc,將所有淡水來源的強度提高 {0:+#%} 每級（包括在壞潮期間）,-
+LV.WSP.IncreaseStrBad,增加劣質水源,-
+LV.WSP.IncreaseStrBadDesc,每升級增加所有劣質水源的強度 {0:+#%},-
+LV.WSP.DecreaseStr,潮流破壞者之門,-
+LV.WSP.DecreaseStrDesc,允許你減少水源的強度,-
+LV.WSP.DecreaseStrLore,「有時你需要馴服河流，而不是駕馭它。」— Stillwater Tidebreaker,-
+LV.WSP.DecreaseStrFresh,減少淡水資源,-
+LV.WSP.DecreaseStrFreshDesc,將所有淡水來源的強度減少 {0:;#%} 每級,-
+LV.WSP.DecreaseStrBad,減少汙水來源,-
+LV.WSP.DecreaseStrBadDesc,每級減少所有劣質水源的強度{0:#%}。,-
+LV.WSP.StrCostFresh,[成本] 每個淡水源。非活動的水源不計算（例如，在乾旱期間）,-
+LV.WSP.StrCostBad,[成本] 每個劣質水源。非活躍水源不計算（例如：在乾旱期間或已封閉的水源）。,-
+LV.WSP.ForecastText,{0:#%} {1}，持續 {2}-{3}天,-
+LV.WSP.Forecast1DayText,{0:#%} {1}，持續 {2} 天,-
+LV.WSP.DecreaseStrBuffDesc,這座工程奇蹟的水閘馴服了最狂野的河流，平靜了它們的流動以保護我們的土地。,-
+LV.WSP.IncreaseStrBuffDesc,引導自然的力量，這個通道釋放出一股水流，讓河流隨我們的意志彎曲。,-
+LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} 強度,-

@@ -7,6 +7,8 @@ ruRU = "Неограниченный размер карты"
 jaJP = "無制限のマップサイズ"
 frFR = "Taille de carte illimitée"
 deDE = "Unbegrenzte Kartengröße"
+zhHK = "無限制地圖大小"
+plPL = "Nielimitowany rozmiar mapy"
 
 ["LV.TAT.UnlimitedMapSizeDesc"]
 raw = "Remove the default map size limit of 256x256"
@@ -17,6 +19,8 @@ ruRU = "Уберите предельный размер карты 256x256 по
 jaJP = "デフォルトのマップサイズ制限である256x256を削除してください。"
 frFR = "Supprimez la limite de taille de carte par défaut de 256x256."
 deDE = "Entfernen Sie die Standardkartenbeschränkung von 256x256."
+zhHK = "移除預設地圖大小限制256x256"
+plPL = "Usuń domyślny limit rozmiaru mapy 256x256."
 
 ["LV.TAT.GameToMap"]
 raw = "Save game as map"
@@ -27,6 +31,8 @@ ruRU = "Сохранить игру как карту"
 jaJP = "ゲームをマップとして保存する"
 frFR = "Enregistrer la partie en tant que carte"
 deDE = "Spiel speichern als Karte"
+zhHK = "將遊戲另存為地圖"
+plPL = "Zapisz grę jako mapa"
 
 ["LV.TAT.GameToMapDesc"]
 raw = "Allow using your normal game to be saved into maps. The buttons will show up on the top-left corner when you play the game. You can also upload that map to Steam Workshop. NOT in Map Editor."
@@ -37,6 +43,8 @@ ruRU = "Разрешите сохранять вашу обычную игру �
 jaJP = "通常のゲームをマップに保存できるようにしてください。ゲームをプレイしているときに、画面の左上隅にボタンが表示されます。また、そのマップをSteamワークショップにアップロードすることもできます。マップエディターではありません。"
 frFR = "Autorisez l'utilisation de votre partie normale pour être sauvegardée dans des cartes. Les boutons apparaîtront dans le coin supérieur gauche lorsque vous jouerez au jeu. Vous pouvez également télécharger cette carte sur Steam Workshop. PAS dans l'éditeur de cartes."
 deDE = "Erlaube das Speichern deines normalen Spiels in Karten. Die Tasten erscheinen in der oberen linken Ecke, wenn du das Spiel spielst. Du kannst diese Karte auch im Steam Workshop hochladen. NICHT im Karteneditor."
+zhHK = "允許將您的正常遊戲儲存到地圖中。當您遊玩遊戲時，按鈕會出現在左上角。您還可以將該地圖上傳到 Steam 工作坊。不適用於地圖編輯器。"
+plPL = "Zezwól na zapisywanie normalnej gry w mapach. Przycisków trzeba będzie szukać w lewym górnym rogu podczas grania. Możesz również przesłać tę mapę do Steam Workshop. NIE w Edytorze Map."
 
 ["LV.TAT.LockOnSaveMap"]
 raw = "  Revert unlocking buildings"
@@ -47,6 +55,8 @@ ruRU = "Вернуть разблокировку зданий"
 jaJP = "建物のロック解除を元に戻す"
 frFR = "Rétablir le déverrouillage des bâtiments"
 deDE = "Gebäudeentsperrung rückgängig machen"
+zhHK = "恢復解鎖建築"
+plPL = "Przywróć odblokowywanie budynków"
 
 ["LV.TAT.LockOnSaveMapDesc"]
 raw = "When saving a map, revert the buildings to their original locked state. You may have unlocked them while making the map. If you do not check this, the buildings will remain unlocked for players starting a new game."
@@ -57,3 +67,5 @@ ruRU = "При сохранении карты верните здания в и
 jaJP = "地図を保存する際、建物を元のロック状態に戻してください。地図を作成している間に建物のロックを解除している可能性があります。これをチェックしないと、新しいゲームを始めるプレイヤーに対して建物がロック解除されたままとなります。"
 frFR = "Lorsque vous enregistrez une carte, rétablissez les bâtiments dans leur état verrouillé d'origine. Il se peut que vous les ayez déverrouillés en créant la carte. Si vous ne cochez pas cette option, les bâtiments resteront déverrouillés pour les joueurs qui commencent une nouvelle partie."
 deDE = "Beim Speichern einer Karte den Gebäuden ihren ursprünglichen gesperrten Zustand zurückgeben. Möglicherweise haben Sie sie beim Erstellen der Karte entsperrt. Wenn Sie dies nicht überprüfen, bleiben die Gebäude für Spieler, die ein neues Spiel beginnen, entsperrt."
+zhHK = "在保存地圖時，請將建築物恢復到其原來的鎖定狀態。您在製作地圖時可能已經解鎖了它們。如果您不檢查這個選項，這些建築物在開始新遊戲的玩家中將會保持解鎖狀態。"
+plPL = "Podczas zapisywania mapy przywróć budynki do ich pierwotnego zablokowanego stanu. Mogłeś je odblokować podczas tworzenia mapy. Jeśli tego nie zaznaczysz, budynki pozostaną odblokowane dla graczy rozpoczynających nową grę."

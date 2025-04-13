@@ -1,0 +1,41 @@
+ID,Text,Comment
+IgorZ.SmartPower.BatteryCapacity,Ładowanie baterii: {0} / {1},-
+IgorZ.SmartPower.BatteryCharging,Ładowanie baterii: <GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryDischarging,Baterie rozładowują się: <RedHighlight>🡇</RedHighlight>{0} ({1}),-
+IgorZ.SmartPower.BatteryNotUsed,<Bateria nieużywane</Bateria>,-
+IgorZ.SmartPower.BatteryDepleted,<Batery wyczerpane</Batery>,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,Zautomatyzuj ten generator.,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,Utrzymuj ładunek baterii w zakresie {0}% - {1}%,-
+IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,Zastosuj do wszystkich generatorów,-
+IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,Zastosowane do {0} generatorów,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,Wstrzymane z powodu nadmiernej podaży,-
+IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,<YellowHighlight>⏻</YellowHighlight> Brak pracowników w miejscu pracy,-
+IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,Paliwo się skończyło,-
+IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,Brakujące składniki,-
+IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,<YellowHighlight>⏻</YellowHighlight> Zbyt wiele produktów,-
+IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,Tryb oszczędzania energii,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,"Zawiesić, jeśli zbyt mało energii",-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,Minimalna efektywność: {0}%,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,"Zatrzymaj się, jeśli poziom naładowania baterii jest poniżej {0}%",-
+IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,Dotyczy wszystkich takich budynków.,-
+IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,Zgłoszono do {0} budynków,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,Zawieszone w celu oszczędzania energii,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> Niedostateczna moc,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<RedHighlight>⏻</RedHighlight> Niedostateczny poziom naładowania baterii,-
+IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> Wznawianie za {0} minut,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,<YellowHighlight>⏻</YellowHighlight> Zawiesi się za {0} minut,-
+IgorZ.SmartPower.Settings.DebugSection,Debugowanie i rozwiązywanie problemów,-
+IgorZ.SmartPower.Settings.Debug.VerboseLogging,Szczegółowe logowanie,-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,"Logi będą miały więcej przydatnych szczegółów, ale mogą wpłynąć na wydajność gry.",-
+IgorZ.SmartPower.Settings.BatteriesSection,Baterie,-
+IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,Pokaż statystyki baterii,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,Histereza aktywacji konsumentów (godziny),-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,"Zawieszeni konsumenci nie wznowią działania, jeśli nie będą mogli działać na bateriach przez co najmniej określony czas.",-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,Generatory napędzane bobrami,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,Dobre zużywające generatory,-
+IgorZ.SmartPower.Settings.WorkplaceConsumerSection,Warsztaty z miejscem pracy,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,Budynki bezzałogowe,-
+IgorZ.SmartPower.Settings.AttractionConsumerSection,Atrakcje,-
+IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,Pokaż unoszący się ikonę,-
+IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,Opóźnienie wznowienia (minuty),-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,Zawieszenie opóźnienia (minuty),-

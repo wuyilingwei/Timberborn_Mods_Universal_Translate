@@ -1,0 +1,18 @@
+ID,Text,Comment
+LV.SPE.AllFixedDepth,使用固定深度,-
+LV.SPE.AllFixedDepthDesc,所有泵都會有一個固定的最大深度。,-
+LV.SPE.FixedDepth,固定深度,-
+LV.SPE.FixedDepthDesc,所有泵的最大深度的固定深度,-
+LV.SPE.AllMultiplier,使用倍增器,-
+LV.SPE.AllMultiplierDesc,所有泵將使用一個乘數來計算最大深度。,-
+LV.SPE.Multiplier,倍增器,-
+LV.SPE.MultiplierDesc,所有泵的最大深度的乘數,-
+LV.SPE.WaterConversation,水產品轉換率,-
+LV.SPE.WaterConversationDesc,水產品與體積的轉換率（遊戲默認：0.2，意味著水泵需要0.2立方厘米來產生1個水產品，而水排放器每個水產品產生0.2立方厘米）,-
+LV.SPE.MechPumpWater,機械泵的數量 (⚡!),-
+LV.SPE.MechPumpWaterDesc,"機械泵每秒抽水量（遊戲預設：0.25cm³/s）。
+⚡ 注意：更改此數值亦會相應增加或減少功率使用，詳情見下文。",-
+LV.SPE.MechPumpPowerMultiplier,機械泵功率倍增器,-
+LV.SPE.MechPumpPowerDesc,根據預設，這個模組的功率使用量保持在每 0.25cm³ 700HP。使用這個修改器來增加或減少（作弊 :P）該比例。遊戲預設：1倍,-
+LV.SPE.WaterProdTimeMultiplier,水產量時間乘數,-
+LV.SPE.WaterProdTimeMultiplierDesc,水產量的倍增器。例如：遊戲默認為水泵每1水需0.33小時，將此設置為0.5則會變成每1水需0.16.5小時。,-

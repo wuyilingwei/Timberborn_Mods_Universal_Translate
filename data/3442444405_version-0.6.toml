@@ -7,6 +7,8 @@ ruRU = "Включено"
 jaJP = "有効化された"
 frFR = "Activé"
 deDE = "Aktiviert"
+zhHK = "啟用"
+plPL = "Włączone"
 
 ["LV.CAS.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -17,6 +19,8 @@ ruRU = "Включен ли этот мод."
 jaJP = "このモッドが有効かどうか。"
 frFR = "Que ce mod soit activé."
 deDE = "Ob dieses Mod aktiviert ist."
+zhHK = "此模組是否已啟用。"
+plPL = "Czy ten mod jest włączony."
 
 ["LV.CAS.SaveFrequency"]
 raw = "Auto-save frequency (real-life minute)"
@@ -27,6 +31,8 @@ ruRU = "Частота автоматического сохранения (ре
 jaJP = "自動保存の頻度（実際の分）"
 frFR = "Fréquence de sauvegarde automatique (minute réelle)"
 deDE = "Auto-Speicherfrequenz (Echtzeitminuten)"
+zhHK = "自動保存頻率（實際分鐘）"
+plPL = "Częstotliwość automatycznego zapisywania (minuty w rzeczywistości)"
 
 ["LV.CAS.SaveFrequencyDesc"]
 raw = "How often should auto-save saves. Game default: 10"
@@ -37,6 +43,8 @@ ruRU = "Как часто должен срабатывать автосохра
 jaJP = "自動保存はどのくらいの頻度で行われるべきですか。ゲームのデフォルト：10"
 frFR = "À quelle fréquence l'enregistrement automatique doit-il se faire ? Valeur par défaut du jeu : 10."
 deDE = "Wie oft sollte die automatische Speicherung stattfinden? Standardeinstellung des Spiels: 10"
+zhHK = "自動保存應該多久儲存一次？遊戲默認：10秒。"
+plPL = "Jak często powinno być automatyczne zapisywanie? Domyślna wartość gry: 10"
 
 ["LV.CAS.SaveCount"]
 raw = "Auto-save count"
@@ -47,6 +55,8 @@ ruRU = "Количество авто-сохранений"
 jaJP = "自動保存回数"
 frFR = "Nombre de sauvegardes automatiques"
 deDE = "Auto-Speicheranzahl"
+zhHK = "自動儲存次數"
+plPL = "Liczba automatycznych zapisów"
 
 ["LV.CAS.SaveCountDesc"]
 raw = "How many auto-saves should be kept. Game default: 3"
@@ -57,6 +67,8 @@ ruRU = "Сколько автосохранений должно быть сох
 jaJP = "自動保存は何件保持するべきですか。ゲームのデフォルト：3"
 frFR = "Combien de sauvegardes automatiques doivent être conservées ? Par défaut du jeu : 3"
 deDE = "Wie viele automatische Speicherstände sollen behalten werden? Spiele-Standard: 3"
+zhHK = "應該保留多少個自動保存檔？遊戲預設：3"
+plPL = "Ile auto-zapisów powinno być zachowanych. Domyślne ustawienie gry: 3"
 
 ["LV.CAS.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -67,6 +79,8 @@ ruRU = "Дополнительная экономия на предупрежд�
 jaJP = "天候警報に関する追加の保存"
 frFR = "Économie supplémentaire sur l'avertissement météo"
 deDE = "Zusätzliche Einsparungen bei Wetterwarnungen"
+zhHK = "額外儲蓄於天氣警告"
+plPL = "Dodatkowe oszczędności na ostrzeżeniu pogodowym"
 
 ["LV.CAS.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -77,6 +91,8 @@ ruRU = "Когда выдается предупреждение о погоде
 jaJP = "天候警報が発令された際には、「weatherwarning.save」という名前の追加のセーブを作成し、次のサイクルの警報によってのみ上書きされるようにします。このセーブはセーブ数にはカウントされません。"
 frFR = "Lorsqu'un avertissement météorologique est émis, créez une sauvegarde supplémentaire nommée 'weatherwarning.save' qui ne sera écrasée que par l'avertissement du cycle suivant. Cette sauvegarde n'est pas prise en compte dans le nombre de sauvegardes."
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie eine zusätzliche Sicherung namens 'weatherwarning.save', die nur durch die nächste Warnung im Zyklus überschrieben wird. Diese Sicherung wird nicht zur Anzahl der Speicherstände gezählt."
+zhHK = "當氣象警告發出時，請製作一個名為 'weatherwarning.save' 的額外保存，只有在下一個週期的警告覆蓋時才會被覆蓋。這個保存不會計入保存數量。"
+plPL = "Kiedy wydawane jest ostrzeżenie pogodowe, utwórz dodatkowe zapisy o nazwie 'weatherwarning.save', które będą nadpisywane tylko przez ostrzeżenie z następnej cyklu. Ten zapis nie jest liczony w liczbie zapisów."
 
 ["LV.CAS.KeyBindingTriggerAutosave"]
 raw = "Trigger auto-save"
@@ -87,3 +103,5 @@ ruRU = "Включить автоматическое сохранение"
 jaJP = "自動保存をトリガーする"
 frFR = "Déclencher l'enregistrement automatique"
 deDE = "Automatisches Speichern auslösen"
+zhHK = "觸發自動保存"
+plPL = "Wywołaj automatyczne zapisywanie"
