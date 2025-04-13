@@ -7,7 +7,6 @@ ruRU = "Заряд батарей: {0} / {1}"
 jaJP = "バッテリーの充電: {0} / {1}"
 frFR = "Charge des batteries : {0} / {1}"
 deDE = "Batterieladung: {0} / {1}"
-zhHK = "電池充電：{0} / {1}"
 plPL = "Ładowanie baterii: {0} / {1}"
 
 ["IgorZ.SmartPower.BatteryCharging"]
@@ -19,7 +18,6 @@ ruRU = "Зарядка аккумуляторов: <GreenHighlight>🡅</GreenHi
 jaJP = "バッテリー充電中: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 frFR = "Batteries en charge : <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 deDE = "Batterien werden aufgeladen: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
-zhHK = "電池充電中：<GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 plPL = "Ładowanie baterii: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryDischarging"]
@@ -31,7 +29,6 @@ ruRU = "Аккумуляторы разряжаются: <RedHighlight>🡇</Red
 jaJP = "バッテリー放電中: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 frFR = "Batteries déchargées : <RedHighlight>🡇</RedHighlight>{0} ({1})"
 deDE = "Batterien entladen: <RedHighlight>🡇</RedHighlight>{0} ({1})"
-zhHK = "電池放電中：<RedHighlight>🡇</RedHighlight>{0} ({1})"
 plPL = "Rozładowujące się baterie: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryNotUsed"]
@@ -43,7 +40,6 @@ ruRU = "<GreenHighlight>Батареи не использовались</GreenH
 jaJP = "<GreenHighlight>使用されていないバッテリー</GreenHighlight>"
 frFR = "<BatteriesNonUtilisées>"
 deDE = "<GreenHighlight>Batterien nicht verwendet</GreenHighlight>"
-zhHK = "<GreenHighlight>未使用的電池</GreenHighlight>"
 plPL = "<Baterie nieużywane</Baterie>"
 
 ["IgorZ.SmartPower.BatteryDepleted"]
@@ -55,7 +51,6 @@ ruRU = "<RedHighlight>Батареи разряжены</RedHighlight>"
 jaJP = "バッテリーが depleted しています"
 frFR = "<Batteries déchargées>"
 deDE = "<RoteMarkierung>Batterien erschöpft</RoteMarkierung>"
-zhHK = "<RedHighlight>電池已耗盡</RedHighlight>"
 plPL = "<RedHighlight>Wyładowane baterie</RedHighlight>"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator"]
@@ -67,7 +62,6 @@ ruRU = "Автоматизируйте этот генератор."
 jaJP = "このジェネレーターを自動化します。"
 frFR = "Automatiser ce générateur."
 deDE = "Automatisieren Sie diesen Generator."
-zhHK = "自動化這個發電機"
 plPL = "Zautomatyzuj ten generator"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText"]
@@ -79,7 +73,6 @@ ruRU = "Держите заряд батарей в диапазоне от {0}%
 jaJP = "バッテリーの充電を{0}% - {1}%の範囲に保ってください"
 frFR = "Maintenez la charge des batteries dans la plage de {0}% à {1}%."
 deDE = "Halten Sie den Batterieladezustand im Bereich von {0}% - {1}%."
-zhHK = "保持電池電量在 {0}% - {1}% 的範圍內"
 plPL = "Utrzymuj ładunek baterii w zakresie {0}% - {1}%"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators"]
@@ -91,7 +84,6 @@ ruRU = "Применить ко всем генераторам"
 jaJP = "すべての発電機に適用されます。"
 frFR = "Appliquer à tous les générateurs"
 deDE = "Auf alle Generatoren anwenden"
-zhHK = "應用於所有發電機"
 plPL = "Zastosuj do wszystkich generatorów"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators"]
@@ -103,7 +95,6 @@ ruRU = "Применено к {0} генераторам"
 jaJP = "{0} の発電機に適用されました"
 frFR = "Appliqué à {0} générateurs"
 deDE = "Auf {0} Generatoren angewendet"
-zhHK = "應用於 {0} 個發電機"
 plPL = "Zastosowano do {0} generatorów"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus"]
@@ -115,7 +106,6 @@ ruRU = "Приостановлено из-за избытка поставок"
 jaJP = "供給過多のため一時停止されています"
 frFR = "Suspendu en raison d'un excès d'offre"
 deDE = "Ausgesetzt aufgrund übermäßiger Versorgung"
-zhHK = "因供應過剩而暫停"
 plPL = "Wstrzymane z powodu nadmiernej podaży"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus"]
@@ -127,7 +117,6 @@ ruRU = "Нет рабочих на рабочем месте"
 jaJP = "職場に労働者がいません"
 frFR = "<SolidHighlight>⏻</SolidHighlight> Aucun travailleur sur le lieu de travail"
 deDE = "<SolidHighlight>⏻</SolidHighlight> Keine Arbeiter am Arbeitsplatz"
-zhHK = "<SolidHighlight>⏻</SolidHighlight> 工作場所沒有工人"
 plPL = "⏻ Brak pracowników w miejscu pracy"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus"]
@@ -139,7 +128,6 @@ ruRU = "Топливо закончилось."
 jaJP = "燃料が切れました"
 frFR = "Le carburant est épuisé."
 deDE = "Der Treibstoff ist ausgegangen."
-zhHK = "燃料已用完"
 plPL = "Paliwo się skończyło"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoInputStatus"]
@@ -151,7 +139,6 @@ ruRU = "Отсутствующие ингредиенты"
 jaJP = "欠けている材料"
 frFR = "Ingrédients manquants"
 deDE = "⏻ Fehlende Zutaten"
-zhHK = "<SolidHighlight>⏻</SolidHighlight> 缺少的成份"
 plPL = "Brakujące składniki"
 
 ["IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus"]
@@ -163,7 +150,6 @@ ruRU = "Слишком много продуктов"
 jaJP = "製品が多すぎます"
 frFR = "Trop de produits"
 deDE = "Zu viele Produkte"
-zhHK = "太多產品"
 plPL = "Za dużo produktów"
 
 ["IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus"]
@@ -175,7 +161,6 @@ ruRU = "Режим энергосбережения"
 jaJP = "省電力モード"
 frFR = "Mode d'économie d'énergie"
 deDE = "Energiesparmodus"
-zhHK = "省電模式"
 plPL = "Tryb oszczędzania energii"
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower"]
@@ -187,7 +172,6 @@ ruRU = "Приостановить, если недостаточно мощно
 jaJP = "電力が不足している場合は一時停止してください。"
 frFR = "Suspendre si pas assez de puissance"
 deDE = "Aussetzen bei unzureichender Energie"
-zhHK = "如果電力不足則暫停"
 plPL = "Wstrzymaj, jeśli zasilanie jest niewystarczające."
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency"]
@@ -199,7 +183,6 @@ ruRU = "Минимальная эффективность: {0}%"
 jaJP = "最低効率: {0}%"
 frFR = "Efficacité minimale : {0}%"
 deDE = "Mindesteffizienz: {0}%"
-zhHK = "最低效率：{0}%"
 plPL = "Minimalna wydajność: {0}%"
 
 ["IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio"]
@@ -211,7 +194,6 @@ ruRU = "Остановитесь, если заряд батарей ниже {0
 jaJP = "バッテリーの充電が{0}%未満の場合は停止してください。"
 frFR = "Arrêtez si la charge des batteries est inférieure à {0} %"
 deDE = "Stoppen, wenn der Batteriestand unter {0}% liegt."
-zhHK = "如果電池電量低於 {0}%，請停止。"
 plPL = "Zatrzymaj się, jeśli poziom naładowania baterii jest poniżej {0}%."
 
 ["IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings"]
@@ -223,7 +205,6 @@ ruRU = "Применяется ко всем таким зданиям"
 jaJP = "すべてのそのような建物に適用されます"
 frFR = "S'applique à tous ces bâtiments."
 deDE = "Gilt für alle solchen Gebäude."
-zhHK = "適用於所有這類建築"
 plPL = "Stosuje się do wszystkich takich budynków"
 
 ["IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings"]
@@ -235,7 +216,6 @@ ruRU = "Применено к {0} зданиям"
 jaJP = "{0}の建物に適用されました"
 frFR = "Appliqué à {0} bâtiments"
 deDE = "Auf {0} Gebäude angewendet"
-zhHK = "已申請至{0}棣大廈"
 plPL = "Zastosowano do {0} budynków"
 
 ["IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus"]
@@ -247,7 +227,6 @@ ruRU = "Приостановлено для экономии энергии"
 jaJP = "エネルギーを節約するために停止中"
 frFR = "Suspendu pour conserver de l'énergie"
 deDE = "Eingestellt, um Energie zu sparen"
-zhHK = "暫停以節省能源"
 plPL = "Zawieszone w celu oszczędzania energii"
 
 ["IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus"]
@@ -259,7 +238,6 @@ ruRU = "<RedHighlight>⏻</RedHighlight> Недостаточно мощност
 jaJP = "<RedHighlight>⏻</RedHighlight> 電力不足"
 frFR = "<RedHighlight>⏻</RedHighlight> Pas assez de puissance"
 deDE = "<RedHighlight>⏻</RedHighlight> Nicht genug Strom"
-zhHK = "<RedHighlight>⏻</RedHighlight> 功率不足"
 plPL = "<RedHighlight>⏻</RedHighlight> Niewystarczająca moc"
 
 ["IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus"]
@@ -271,7 +249,6 @@ ruRU = "Недостаточно заряда батарей"
 jaJP = "バッテリーの充電が不足しています"
 frFR = "<RedHighlight>⏻</RedHighlight> Pas assez de charge des piles"
 deDE = "<RedHighlight>⏻</RedHighlight> Nicht genug Akkulade"
-zhHK = "電池電量不足"
 plPL = "<RedHighlight>⏻</RedHighlight> Niewystarczający poziom naładowania baterii"
 
 ["IgorZ.SmartPower.Common.MinutesTillResume"]
@@ -283,7 +260,6 @@ ruRU = "<GreenHighlight>⏻</GreenHighlight> Возобновится через
 jaJP = "<GreenHighlight>⏻</GreenHighlight> {0}分後に再開します"
 frFR = "<GreenHighlight>⏻</GreenHighlight> Reprendra dans {0} minutes"
 deDE = "<GreenHighlight>⏻</GreenHighlight> Wieder in {0} Minuten verfügbar"
-zhHK = "<GreenHighlight>⏻</GreenHighlight> 將於 {0} 分鐘後恢復"
 plPL = "<GreenHighlight>⏻</GreenHighlight> Wznawianie za {0} minut"
 
 ["IgorZ.SmartPower.Common.MinutesTillSuspend"]
@@ -295,7 +271,6 @@ ruRU = "<SolidHighlight>⏻</SolidHighlight> Будет приостановле
 jaJP = "<SolidHighlight>⏻</SolidHighlight> {0} 分で一時停止します"
 frFR = "<SolidHighlight>⏻</SolidHighlight> Sera suspendu dans {0} minutes"
 deDE = "<SolidHighlight>⏻</SolidHighlight> Wird in {0} Minuten ausgesetzt"
-zhHK = "<SolidHighlight>⏻</SolidHighlight> 將於 {0} 分鐘後暫停"
 plPL = "<SolidHighlight>⏻</SolidHighlight> Zostanie zawieszone za {0} minut"
 
 ["IgorZ.SmartPower.Settings.DebugSection"]
@@ -307,7 +282,6 @@ ruRU = "Отладка и решение проблем"
 jaJP = "デバッグとトラブルシューティング"
 frFR = "Débogage et dépannage"
 deDE = "Debugging und Fehlerbehebung"
-zhHK = "除錯和故障排除"
 plPL = "Debugowanie i rozwiązywanie problemów"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLogging"]
@@ -319,7 +293,6 @@ ruRU = "Подробное ведение журнала"
 jaJP = "詳細ログ記録"
 frFR = "Journalisation détaillée"
 deDE = "Ausführliches Protokollieren"
-zhHK = "詳細日誌記錄"
 plPL = "Szczegółowe logowanie"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip"]
@@ -331,7 +304,6 @@ ruRU = "Логи будут содержать более полезные да�
 jaJP = "ログにはより有用な詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。"
 frFR = "Les journaux contiendront des détails plus utiles, mais cela pourrait affecter les performances du jeu."
 deDE = "Protokolle enthalten nützlichere Details, können jedoch die Spielleistung beeinträchtigen."
-zhHK = "日誌會有更多有用的細節，但可能會對遊戲性能產生影響。"
 plPL = "Logi będą miały więcej przydatnych szczegółów, ale może to wpłynąć na wydajność gry."
 
 ["IgorZ.SmartPower.Settings.BatteriesSection"]
@@ -343,7 +315,6 @@ ruRU = "Батареи"
 jaJP = "バッテリー"
 frFR = "Batteries"
 deDE = "Batterien"
-zhHK = "電池"
 plPL = "Baterie"
 
 ["IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals"]
@@ -355,7 +326,6 @@ ruRU = "Показать статистику батареи"
 jaJP = "バッテリーの統計を表示する"
 frFR = "Afficher les statistiques de la batterie"
 deDE = "Zeige Batterie-Statistiken an"
-zhHK = "顯示電池統計資料"
 plPL = "Pokaż statystyki baterii"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
@@ -367,7 +337,6 @@ ruRU = "Гистерезис активации потребителей (час
 jaJP = "消費者の活性化ヒステリシス（時間）"
 frFR = "Hystérésis d'activation des consommateurs (heures)"
 deDE = "Verbraucheraktivierungshysteresen (Stunden)"
-zhHK = "消費者激活遲滯（小時）"
 plPL = "Histerezja aktywacji konsumentów (godziny)"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip"]
@@ -379,7 +348,6 @@ ruRU = "Приостановленные потребители не возоб�
 jaJP = "サスペンドされた消費者は、指定された期間中にバッテリーで動作できない場合は再開しません。"
 frFR = "Les consommateurs suspendus ne reprendront pas s'ils ne peuvent pas fonctionner sur batteries pendant au moins la durée spécifiée."
 deDE = "Ausgesetzte Verbraucher werden nicht wieder aufgenommen, wenn sie nicht mindestens die angegebene Dauer mit Batterien betrieben werden können."
-zhHK = "如消費者無法至少在指定期間內用電池運行，則暫停的消費者不會恢復。"
 plPL = "Zawieszeni konsumenci nie wznowią działalności, jeśli nie będą mogli działać na bateriach przez co najmniej określony czas."
 
 ["IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection"]
@@ -391,7 +359,6 @@ ruRU = "Генераторы, работающие на энергии бобр�
 jaJP = "ビーバー駆動の発電機"
 frFR = "Générateurs alimentés par des castors"
 deDE = "Biberbetriebene Generatoren"
-zhHK = "海狸驅動的發電機"
 plPL = "Generatory zasilane przez bobry"
 
 ["IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection"]
@@ -403,7 +370,6 @@ ruRU = "Хорошие потребляющие генераторы"
 jaJP = "良好な消費を行う発電機"
 frFR = "Générateurs à bonne consommation"
 deDE = "Gute Verbrauchsgeneratoren"
-zhHK = "良好消耗的發電機"
 plPL = "Generatorzy o dobrym zużyciu"
 
 ["IgorZ.SmartPower.Settings.WorkplaceConsumerSection"]
@@ -415,7 +381,6 @@ ruRU = "Мастерские с рабочим местом"
 jaJP = "職場でのワークショップ"
 frFR = "Ateliers avec un lieu de travail"
 deDE = "Workshops mit einem Arbeitsplatz"
-zhHK = "帶有工作場所的工作坊"
 plPL = "Warsztaty z miejscem pracy"
 
 ["IgorZ.SmartPower.Settings.UnmannedConsumerSection"]
@@ -427,7 +392,6 @@ ruRU = "Беспилотные мастерские"
 jaJP = "無人作業場"
 frFR = "Ateliers sans occupants"
 deDE = "Unbemannte Werkstätten"
-zhHK = "無人工作坊"
 plPL = "Warsztaty bezzałogowe"
 
 ["IgorZ.SmartPower.Settings.AttractionConsumerSection"]
@@ -439,7 +403,6 @@ ruRU = "Аттракционы"
 jaJP = "アトラクション"
 frFR = "Attractions"
 deDE = "Attraktionen"
-zhHK = "景點"
 plPL = "Atrakcje"
 
 ["IgorZ.SmartPower.Settings.UI.ShowFloatingIcon"]
@@ -451,7 +414,6 @@ ruRU = "Показать плавающую иконку"
 jaJP = "フローティングアイコンを表示する"
 frFR = "Afficher l'icône flottante"
 deDE = "Schwebendes Symbol anzeigen"
-zhHK = "顯示浮動圖標"
 plPL = "Pokaż unoszącą się ikonę"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay"]
@@ -463,7 +425,6 @@ ruRU = "Задержка резюме (минуты)"
 jaJP = "再開遅延（分）"
 frFR = "Retard de reprise (minutes)"
 deDE = "Verzögerung bei der Wiederaufnahme (Minuten)"
-zhHK = "恢復延遲（分鐘）"
 plPL = "Opóźnienie wznowienia (minuty)"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay"]
@@ -475,5 +436,4 @@ ruRU = "Задержка приостановки (минуты)"
 jaJP = "サスペンド遅延（分）"
 frFR = "Suspendre le délai (minutes)"
 deDE = "Aussetzungsverzögerung (Minuten)"
-zhHK = "暫停延遲（分鐘）"
 plPL = "Zawieszenie opóźnienia (minuty)"

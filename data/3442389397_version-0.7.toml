@@ -7,7 +7,6 @@ ruRU = "Научные проекты"
 jaJP = "科学プロジェクト"
 frFR = "Projets scientifiques"
 deDE = "Wissenschaftliche Projekte"
-zhHK = "科學項目"
 plPL = "Projekty naukowe"
 
 ["LV.SP.Welcome"]
@@ -19,7 +18,6 @@ ruRU = "Спасибо, что используете мод на научные
 jaJP = "科学プロジェクトモッドをご利用いただきありがとうございます。この画面ではプロジェクトをアンロックし、管理することができます。画面左上の科学ボタンをクリックするか、ホットキー（デフォルト: Y、キー設定で再割り当て可能）を押すことで開くことができます。"
 frFR = "Merci d'utiliser le mod des Projets Scientifiques. Cet écran est où vous pouvez débloquer et gérer les projets. Vous pouvez l'ouvrir en cliquant sur le bouton Science en haut à gauche de l'écran ou en appuyant sur une touche de raccourci (par défaut : Y, vous pouvez la réaffecter dans les paramètres de raccourcis clavier)."
 deDE = "Vielen Dank, dass Sie das Scientific Projects-Modul verwenden. Dieser Bildschirm ist der Ort, an dem Sie die Projekte freischalten und verwalten können. Sie können ihn öffnen, indem Sie auf die Wissenschafts-Schaltfläche oben links auf dem Bildschirm klicken oder eine Tastenkombination drücken (Standard: Y, Sie können es in den Tasteneinstellungen neu belegen)."
-zhHK = "感謝你使用科學項目模組。這個畫面是你可以解鎖和管理項目的地方。你可以通過點擊螢幕左上角的科學按鈕或按下快速鍵（預設為：Y，可以在鍵位設置中重新綁定）來打開它。"
 plPL = "Dziękujemy za korzystanie z modu Projektów Naukowych. Ten ekran to miejsce, w którym możesz odblokować i zarządzać projektami. Możesz go otworzyć, klikając przycisk Nauka w lewym górnym rogu ekranu lub naciskając skrót klawiszowy (domyślnie: Y, możesz go przypisać ponownie w Ustawieniach Skrótów Klawiszowych)."
 
 ["KeyBinding.ScientificProjectDialog"]
@@ -31,7 +29,6 @@ ruRU = "Экран научных проектов"
 jaJP = "科学プロジェクト画面"
 frFR = "Écran des projets scientifiques"
 deDE = "Wissenschaftliche Projekte Bildschirm"
-zhHK = "科學項目屏幕"
 plPL = "Ekran projektów naukowych"
 
 ["LV.SP.Unlocked"]
@@ -43,7 +40,6 @@ ruRU = "Разблокировано!"
 jaJP = "解除されました！"
 frFR = "Déverrouillé !"
 deDE = "Freigeschaltet!"
-zhHK = "解鎖了！"
 plPL = "Odblokowane!"
 
 ["LV.SP.PreqLocked"]
@@ -55,7 +51,6 @@ ruRU = "Требуется {0} для разблокировки."
 jaJP = "{0}をアンロックするには必要です。"
 frFR = "Nécessite {0} pour déverrouiller."
 deDE = "Erfordert {0}, um freizuschalten."
-zhHK = "需要 {0} 來解鎖。"
 plPL = "Wymaga {0}, aby odblokować."
 
 ["LV.SP.NotEnoughScienceNextDay"]
@@ -67,7 +62,6 @@ ruRU = "У вас недостаточно науки, чтобы оплатит
 jaJP = "次の日のための科学が不足しています。プロジェクトを調整するか、今日の分はスキップしてください。警告：Escキーを押すと、今日のプロジェクトをスキップします。"
 frFR = "Vous n'avez pas assez de science pour payer pour le lendemain. Ajustez vos projets ou passez pour aujourd'hui. Avertissement : appuyer sur Échap passera les projets pour aujourd'hui."
 deDE = "Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie den heutigen Tag. Warnung: Wenn Sie die Esc-Taste drücken, werden die Projekte für heute übersprungen."
-zhHK = "你沒有足夠的科學來支付明天的費用。調整你的項目或者今天跳過。警告：按下 Esc 將跳過今天的項目。"
 plPL = "Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj. Uwaga: naciśnięcie Esc spowoduje pominięcie projektów na dzisiaj."
 
 ["LV.SP.CurrentScience"]
@@ -79,7 +73,6 @@ ruRU = "Текущая наука: {0}"
 jaJP = "現在の科学: {0}"
 frFR = "Science Actuelle : {0}"
 deDE = "Aktuelle Wissenschaft: {0}"
-zhHK = "當前科學：{0}"
 plPL = "Bieżąca nauka: {0}"
 
 ["LV.SP.CurrentSciencePlus"]
@@ -91,7 +84,6 @@ ruRU = "Текущая наука: {0} ({1} с учёта вчера)"
 jaJP = "現在の科学: {0} ({1}は昨日から)"
 frFR = "Science actuelle : {0} ({1} par rapport à hier)"
 deDE = "Aktuelle Wissenschaft: {0} ({1} von gestern)"
-zhHK = "當前科學：{0} （昨日 {1}）"
 plPL = "Aktualna nauka: {0} ({1} z wczoraj)"
 
 ["LV.SP.UnlockErrUnlocked"]
@@ -103,7 +95,6 @@ ruRU = "Этот проект уже разблокирован."
 jaJP = "このプロジェクトはすでにアンロックされています。"
 frFR = "Ce projet est déjà débloqué."
 deDE = "Dieses Projekt ist bereits entsperrt."
-zhHK = "此項目已解鎖"
 plPL = "Ten projekt jest już odblokowany."
 
 ["LV.SP.UnlockErrRequirementLocked"]
@@ -115,7 +106,6 @@ ruRU = "Этот проект требует {0} для разблокировк
 jaJP = "このプロジェクトをアンロックするには{0}が必要です。"
 frFR = "Ce projet nécessite {0} pour être déverrouillé."
 deDE = "Dieses Projekt erfordert {0}, um entsperrt zu werden."
-zhHK = "此項目需要 {0} 來解鎖"
 plPL = "Ten projekt wymaga {0}, aby odblokować."
 
 ["LV.SP.UnlockErrCostLocked"]
@@ -127,7 +117,6 @@ ruRU = "У вас только {0} науки, но вам нужно {1} нау
 jaJP = "あなたは{0}の科学しか持っていませんが、このプロジェクトを解放するには{1}の科学が必要です。"
 frFR = "Vous n'avez que {0} points de science, mais vous avez besoin de {1} points de science pour débloquer ce projet."
 deDE = "Du hast nur {0} Wissenschaft, aber du benötigst {1} Wissenschaft, um dieses Projekt freizuschalten."
-zhHK = "你只有 {0} 科學，但你需要 {1} 科學來解鎖這個項目。"
 plPL = "Masz tylko {0} nauki, ale potrzebujesz {1} nauki, aby odblokować ten projekt."
 
 ["LV.SP.UnlockConfirm"]
@@ -139,7 +128,6 @@ ruRU = "Вы уверены, что хотите разблокировать {0
 jaJP = "{0}を{1}の科学で解除してもよろしいですか？"
 frFR = "Êtes-vous sûr de vouloir débloquer {0} avec {1} science ?"
 deDE = "Sind Sie sicher, dass Sie {0} mit {1} Wissenschaft freischalten möchten?"
-zhHK = "你確定要用 {1} 科學解鎖 {0} 嗎？"
 plPL = "Czy na pewno chcesz odblokować {0} za pomocą {1} nauki?"
 
 ["LV.SP.CustomCost"]
@@ -151,7 +139,6 @@ ruRU = "стоимость за день:"
 jaJP = "1日あたりのコスト："
 frFR = "coût par jour :"
 deDE = "Kosten pro Tag:"
-zhHK = "每日成本："
 plPL = "koszt na dzień:"
 
 ["LV.SP.ScienceStepCost"]
@@ -163,7 +150,6 @@ ruRU = "{0} за уровень"
 jaJP = "{0} ごとにレベル"
 frFR = "{0} par niveau"
 deDE = "{0} pro Level"
-zhHK = "每級 {0}"
 plPL = "{0} za Poziom"
 
 ["LV.SP.CurrentCost"]
@@ -175,7 +161,6 @@ ruRU = "Стоимость следующего дня: {0}/д"
 jaJP = "翌日のコスト: {0}/日"
 frFR = "Coût du lendemain : {0}/j"
 deDE = "Kosten für den nächsten Tag: {0}/d"
-zhHK = "下次日費用：{0}/日"
 plPL = "Koszt następnego dnia: {0}/d"
 
 ["LV.SP.Level"]
@@ -187,7 +172,6 @@ ruRU = "Уровень"
 jaJP = "レベル"
 frFR = "Niveau"
 deDE = "Stufe"
-zhHK = "級別"
 plPL = "Poziom"
 
 ["LV.SP.ActiveLevel"]
@@ -199,7 +183,6 @@ ruRU = "Активный уровень: {0}"
 jaJP = "アクティブレベル: {0}"
 frFR = "Niveau Actif : {0}"
 deDE = "Aktives Level: {0}"
-zhHK = "活動級別：{0}"
 plPL = "Poziom aktywny: {0}"
 
 ["LV.SP.DayCostNotice"]
@@ -211,7 +194,6 @@ ruRU = "Стоимость ежедневной науки вычитается 
 jaJP = "毎日の科学料は、毎日の始まりに差し引かれ、その効果は一日中同じままです。"
 frFR = "Le coût de la science quotidienne est déduit au début de chaque jour et les effets restent les mêmes pendant toute la journée."
 deDE = "Die täglichen Wissenschaftskosten werden zu Beginn jedes Tages abgezogen, und die Auswirkungen bleiben den gesamten Tag über gleich."
-zhHK = "每日科學費用會在每天開始時扣除，效果在整天保持不變。"
 plPL = "Codzienny koszt nauki jest potrącany na początku każdego dnia, a efekty utrzymują się przez cały dzień."
 
 ["LV.SP.NextDayCost"]
@@ -223,7 +205,6 @@ ruRU = "Стоимость следующего дня: {0}"
 jaJP = "翌日の費用: {0}"
 frFR = "Coût du lendemain : {0}"
 deDE = "Kosten für den nächsten Tag: {0}"
-zhHK = "下日費用：{0}"
 plPL = "Koszt następnego dnia: {0}"
 
 ["LV.SP.PayDayCost"]
@@ -235,7 +216,6 @@ ruRU = "Оплата за день"
 jaJP = "日当"
 frFR = "Payer pour la journée"
 deDE = "Zahlung für den Tag"
-zhHK = "日薪"
 plPL = "Płać za dzień"
 
 ["LV.SP.NotEnoughSciencePay"]
@@ -247,7 +227,6 @@ ruRU = "У вас недостаточно науки, чтобы оплатит
 jaJP = "明日分のサイエンスが足りません。プロジェクトを調整するか、今日はスキップしてください。"
 frFR = "Vous n'avez pas assez de science pour payer pour le lendemain. Ajustez vos projets ou passez votre tour aujourd'hui."
 deDE = "Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie heute."
-zhHK = "你沒有足夠的科學來支付明天的開支。調整你的項目或今天先不上。"
 plPL = "Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj."
 
 ["LV.SP.SkipConfirm"]
@@ -259,7 +238,6 @@ ruRU = "Вы уверены, что хотите пропустить проек
 jaJP = "今日はプロジェクトをスキップするつもりですか？"
 frFR = "Es-tu sûr de vouloir sauter les projets pour aujourd'hui ?"
 deDE = "Bist du dir sicher, dass du die Projekte für heute überspringen möchtest?"
-zhHK = "你確定今日要跳過這些項目嗎？"
 plPL = "Czy jesteś pewien, że chcesz dzisiaj pominąć projekty?"
 
 ["LV.SP.SkipToday"]
@@ -271,7 +249,6 @@ ruRU = "Пропустить сегодня"
 jaJP = "今日はスキップしてください。"
 frFR = "Sautez aujourd'hui"
 deDE = "Überspringe heute"
-zhHK = "今日唔好做。"
 plPL = "Pomiń dzisiaj"
 
 ["LV.SP.WrongFaction"]
@@ -283,7 +260,6 @@ ruRU = "Этот проект не может быть разблокирова�
 jaJP = "このプロジェクトはこの派閥によって解除されることはできません。"
 frFR = "Ce projet ne peut pas être débloqué par cette faction."
 deDE = "Dieses Projekt kann von dieser Fraktion nicht freigeschaltet werden."
-zhHK = "這個項目不能被這個派系解鎖"
 plPL = "Ten projekt nie może być odblokowany przez tę frakcję."
 
 ["LV.SP.ReloadNotice"]
@@ -295,7 +271,6 @@ ruRU = "Пожалуйста, сохраните и перезагрузите �
 jaJP = "このプロジェクトを適用するには、ゲームを保存して再読み込みしてください。"
 frFR = "Veuillez sauvegarder et recharger le jeu pour que ce projet prenne effet."
 deDE = "Bitte speichern Sie das Spiel und laden Sie es neu, damit dieses Projekt wirksam wird."
-zhHK = "請保存並重新加載遊戲，以使此項目生效。"
 plPL = "Proszę zapisać grę i ponownie ją załadować, aby te zmiany zaczęły obowiązywać."
 
 ["LV.SP.ReloadNeeded"]
@@ -307,7 +282,6 @@ ruRU = "[Перезагрузка необходима]"
 jaJP = "[再読み込みが必要]"
 frFR = "[Recharge nécessaire]"
 deDE = "[Neu laden erforderlich]"
-zhHK = "[需要重新加載]"
 plPL = "[Potrzebne ponowne załadowanie]"
 
 ["LV.SP.WorkEffGroup"]
@@ -319,7 +293,6 @@ ruRU = "Рабочая эффективность"
 jaJP = "作業効率"
 frFR = "Efficacité au travail"
 deDE = "Arbeitseffizienz"
-zhHK = "工作效率"
 plPL = "Wydajność pracy"
 
 ["LV.SP.WorkEffGroupDesc"]
@@ -331,7 +304,6 @@ ruRU = "Увеличьте рабочую эффективность своей 
 jaJP = "コロニーの作業効率を向上させる"
 frFR = "Augmentez l'efficacité du travail de votre colonie."
 deDE = "Steigern Sie die Arbeitseffizienz für Ihre Kolonie."
-zhHK = "提高你們殖民地的工作效率"
 plPL = "Zwiększ wydajność pracy w swojej kolonii"
 
 ["LV.SP.LogisticGroup"]
@@ -343,7 +315,6 @@ ruRU = "Логистика"
 jaJP = "物流"
 frFR = "Logistique"
 deDE = "Logistik"
-zhHK = "物流"
 plPL = "Logistyka"
 
 ["LV.SP.LogisticGroupDesc"]
@@ -355,7 +326,6 @@ ruRU = "Увеличьте скорость движения и поток ре�
 jaJP = "移動速度と資源の流れを増加させる"
 frFR = "Augmenter la vitesse de mouvement et le flux de ressources."
 deDE = "Erhöhen Sie die Bewegungsgeschwindigkeit und den Fluss von Ressourcen."
-zhHK = "提高移動速度和資源流動"
 plPL = "Zwiększ prędkość ruchu i przepływ zasobów."
 
 ["LV.SP.WorkEffUpgrade1"]
@@ -367,7 +337,6 @@ ruRU = "Инструменты для прецизионной работы"
 jaJP = "精密作業工具"
 frFR = "Outils de travail de précision"
 deDE = "Präzisionswerkzeuge"
-zhHK = "精密工作工具"
 plPL = "Narzędzia do precyzyjnej pracy"
 
 ["LV.SP.WorkEffUpgrade1Eff"]
@@ -379,7 +348,6 @@ ruRU = "Постоянно увеличивает эффективность р�
 jaJP = "すべてのビーバーの作業効率を{0:+#%}恒久的に増加させます。"
 frFR = "Augmente de façon permanente l'efficacité au travail de tous les castors de {0:+#%}."
 deDE = "Erhöht dauerhaft die Arbeitseffizienz aller Bieber um {0:+#%}."
-zhHK = "永久性地提高所有海狸的工作效率 {0:+#%}。"
 plPL = "Trwale zwiększa wydajność pracy wszystkich bobrów o {0:+#%}."
 
 ["LV.SP.WorkEffUpgrade1Lore"]
@@ -391,7 +359,6 @@ ruRU = "После раскопок планов инструментов чел
 jaJP = "人間の道具の計画を掘り起こした後、ビーバーは古代の技術を使って鋭い刃を作り、効率を高めます。"
 frFR = "Après avoir déterré des plans d'outils humains, les castors fabriquent des lames plus aigües avec des astuces du vieux monde, augmentant ainsi l'efficacité."
 deDE = "Nachdem sie die Pläne für Hooman-Werkzeuge ausgegraben haben, fertigen Biber schärfere Klingen mit altmodischen Tricks an, um die Effizienz zu steigern."
-zhHK = "在挖掘出人類工具計劃後，海狸運用古老技術製作更鋒利的刀片，以提高效率。"
 plPL = "Po wykopaniu planów narzędzi ludzkich, bobry wytwarzają ostrzejsze ostrza za pomocą starych sztuczek, zwiększając wydajność."
 
 ["LV.SP.WorkEffUpgrade2"]
@@ -403,7 +370,6 @@ ruRU = "Техническое обслуживание прецизионных
 jaJP = "精密工具のメンテナンス"
 frFR = "Entretien des outils de précision"
 deDE = "Präzisionswerkzeugwartung"
-zhHK = "精密工具維護"
 plPL = "Konserwacja narzędzi precyzyjnych"
 
 ["LV.SP.WorkEffUpgrade2Lore"]
@@ -415,7 +381,6 @@ ruRU = "«Сделал точилку на водной основе — наш�
 jaJP = "「水力駆動の鉋削りを仕掛けた - 道具を常に使える状態に保ち、時間をかけて全ての作業を迅速化する！」 — チゼルジョー・ティンバーチュー"
 frFR = "'J'ai bricolé un taille-crayon alimenté par l'eau - il garde nos outils prêts à ronger, accélère chaque travail au fil du temps !' — Chiseljaw Timberchew"
 deDE = "'Eine wasserbetriebene Schleifmaschine gebaut – hält unsere Werkzeuge bereit zum Nagen, beschleunigt jede Aufgabe über die Zeit!' — Chiseljaw Timberchew"
-zhHK = "「設計了一個水力磨刀器，可以讓我們的工具隨時準備好，隨著時間推進，讓每個工作更快！」— 鑿顎木咬"
 plPL = "'Zbudowałem ostrzałkę napędzaną wodą - utrzymuje nasze narzędzia w gotowości do pracy, przyspiesza każdą robotę z czasem!' — Chiseljaw Timberchew"
 
 ["LV.SP.WorkEffUpgrade2Eff"]
@@ -427,7 +392,6 @@ ruRU = "{0:+#%} дополнительная эффективность рабо
 jaJP = "レベルごとのすべてのビーバーの追加作業効率 {0:+#%}。"
 frFR = "{0:+#%} efficacité de travail supplémentaire de tous les castors par niveau."
 deDE = "{0:+#%} zusätzliche Arbeitsleistung aller Biber pro Level."
-zhHK = "{0:+#%} 所有海狸每個級別的額外工作效率。"
 plPL = "{0:+#%} dodatkowa efektywność pracy wszystkich bobrów na poziomie."
 
 ["LV.SP.WorkEffUpgrade2Cost"]
@@ -439,7 +403,6 @@ ruRU = "[Стоимость] за уровень и {1} за каждые {2} в
 jaJP = "レベルごとの[コスト]と、{2}匹の成体ビーバーごとに{1}（切り上げ）"
 frFR = "[Coût] par niveau, et {1} pour chaque {2} castors adultes (arrondi au supérieur)"
 deDE = "[Kosten] pro Ebene und {1} für jeden {2} erwachsenen Biber (aufgerundet)"
-zhHK = "每級[費用]，以及每{2}隻成熟女獺{1}（向上取整）"
 plPL = "[Koszt] na poziom, oraz {1} za każde {2} dorosłych bobrów (zaokrąglone w górę)"
 
 ["LV.SP.MoveSpeedUpgrade1"]
@@ -451,7 +414,6 @@ ruRU = "Легкие тапочки"
 jaJP = "軽量スリッパ"
 frFR = "Chaussons légers"
 deDE = "Leichte Hausschuhe"
-zhHK = "輕量拖鞋"
 plPL = "Lekkie klapki"
 
 ["LV.SP.MoveSpeedUpgrade1Lore"]
@@ -463,7 +425,6 @@ ruRU = "'Эти тапочки заставляют меня чувствова�
 jaJP = "「このスリッパを履くと、水の上を滑っているような気分になります」 — ウィスカーテイル・クイックポー"
 frFR = "« Ces pantoufles me donnent l'impression de glisser sur l'eau » — Whiskertail Quickpaw"
 deDE = "'Diese Hausschuhe lassen mich fühlen, als würde ich über Wasser gleiten.' — Whiskertail Quickpaw"
-zhHK = "「這雙拖鞋令我感覺就像在水上滑行」— Whiskertail Quickpaw"
 plPL = "'Te klapki sprawiają, że czuję się, jakbym ślizgał się po wodzie' — Whiskertail Quickpaw"
 
 ["LV.SP.MoveSpeedUpgradeEff"]
@@ -475,7 +436,6 @@ ruRU = "Постоянно увеличивает скорость движен�
 jaJP = "すべてのビーバーの移動速度を恒久的に{0:+#%}増加させます（他のプロジェクトと重複します）。"
 frFR = "Augmente définitivement la vitesse de déplacement de tous les castors de {0:+#%} (s'empile avec d'autres projets)."
 deDE = "Erhöht dauerhaft die Bewegungsgeschwindigkeit aller Biber um {0:+#%} (stapelt sich mit anderen Projekten)."
-zhHK = "永久增加所有海狸的移動速度 {0:+#%}（可與其他項目疊加）。"
 plPL = "Na stałe zwiększa prędkość ruchu wszystkich bobrów o {0:+#%} (stakuje się z innymi projektami)."
 
 ["LV.SP.MoveSpeedUpgrade2"]
@@ -487,7 +447,6 @@ ruRU = "Прочные трекинговые ботинки"
 jaJP = "耐久性のあるトレイルブーツ"
 frFR = "Bottes de randonnée durables"
 deDE = "Haltbare Wanderstiefel"
-zhHK = "耐用步道靴"
 plPL = "Wytrzymałe buty turystyczne"
 
 ["LV.SP.MoveSpeedUpgrade2Lore"]
@@ -499,7 +458,6 @@ ruRU = "Жесткие как бобровые зубы, эти ботинки �
 jaJP = "ビーバーの歯のように頑丈なこれらのブーツは、粗い道を滑らかな道に変え、迅速な移動を可能にします。"
 frFR = "Aussi solides que des dents de castor, ces bottes transforment les chemins escarpés en sentiers lisses pour des déplacements rapides."
 deDE = "Hart wie Biberzähne verwandeln diese Stiefel raue Wege in glatte Pfade für schnelles Reisen."
-zhHK = "像海狸的牙齒一樣堅韌，這雙靴子將崎嶇的道路變成平滑的小徑，讓旅行變得迅速。"
 plPL = "Twarde jak zęby bobra, te buty przekształcają trudne ścieżki w gładkie szlaki dla szybkiej podróży."
 
 ["LV.SP.MoveSpeedUpgrade3"]
@@ -511,7 +469,6 @@ ruRU = "Аэродинамическое спринтерское снаряже
 jaJP = "エアロダイナミックスプリントギア"
 frFR = "Équipement de sprint aérodynamique"
 deDE = "Aerodynamische Sprint-Ausrüstung"
-zhHK = "空氣動力學短跑裝備"
 plPL = "Aerodynamiczny sprzęt sprinterski"
 
 ["LV.SP.MoveSpeedUpgrade3Lore"]
@@ -523,7 +480,6 @@ ruRU = "«В этом режиме я не просто бегу; я пушис�
 jaJP = "「このギアでは、私はただ走っているのではなく、純粋な速さのファーリーブラーです！」 — スイフトストリーム・ウィンドランナー"
 frFR = "« Dans cet équipement, je ne fais pas que courir ; je suis un flou poilu de pure vitesse ! » — Swiftstream Windrunner"
 deDE = "'In diesem Gang laufe ich nicht nur; ich bin ein flauschiger Blitz aus purer Geschwindigkeit!' — Swiftstream Windrunner"
-zhHK = "「在這個檔次中，我不僅僅是在跑步；我是純粹速度的毛茸茸模糊！」 — Swiftstream Windrunner"
 plPL = "'W tym biegu nie tylko biegam; jestem futrzanym zarysem czystej prędkości!' — Swiftstream Windrunner"
 
 ["LV.SP.MoveSpeedUpgradeBuff"]
@@ -535,7 +491,6 @@ ruRU = "Скоростные проекты движения"
 jaJP = "移動速度プロジェクト"
 frFR = "Projets de Vitesse de Mouvement"
 deDE = "Bewegungsgeschwindigkeitsprojekte"
-zhHK = "移動速度項目"
 plPL = "Projekty prędkości ruchu"
 
 ["LV.SP.MoveSpeedUpgradeBuffDesc"]
@@ -547,7 +502,6 @@ ruRU = "Ваше превосходное снаряжение позволяе�
 jaJP = "あなたの上位ギアはキャラクターの移動速度を速くします。"
 frFR = "Votre équipement supérieur permet à vos personnages de se déplacer plus vite."
 deDE = "Ihr überlegenes Ausrüstung ermöglicht es Ihren Charakteren, sich schneller zu bewegen."
-zhHK = "你們的高級裝備讓你們的角色移動得更快。"
 plPL = "Twoje lepsze wyposażenie pozwala twoim postaciom poruszać się szybciej."
 
 ["LV.SP.MoveSpeedUpgradeBuffEff"]
@@ -559,7 +513,6 @@ ruRU = "{0:+#%} скорость передвижения от {1}"
 jaJP = "{0:+#%} 移動速度 {1} から"
 frFR = "vitesse de mouvement {0:+#%} depuis {1}"
 deDE = "{0:+#%} Bewegungsgeschwindigkeit von {1}"
-zhHK = "{0:+#%} 移動速度來自 {1}"
 plPL = "{0:+#%} prędkość poruszania się z {1}"
 
 ["LV.SP.WorkEffUpgradeBuff"]
@@ -571,7 +524,6 @@ ruRU = "Проекты по повышению эффективности раб
 jaJP = "作業効率プロジェクト"
 frFR = "Projets d'efficacité au travail"
 deDE = "Arbeitsxadeffizienzxadprojekte"
-zhHK = "工作效率項目"
 plPL = "Projekty Efektywności Pracy"
 
 ["LV.SP.WorkEffUpgradeBuffDesc"]
@@ -583,7 +535,6 @@ ruRU = "Ваши превосходные инструменты позволя�
 jaJP = "あなたの優れたツールは、キャラクターがより効率的に作業できるようにします。"
 frFR = "Vos outils supérieurs permettent à vos personnages de travailler plus efficacement."
 deDE = "Ihre überlegenen Werkzeuge ermöglichen es Ihren Charakteren, effizienter zu arbeiten."
-zhHK = "你高級的工具讓你的角色能更有效率地工作。"
 plPL = "Twoje znakomite narzędzia pozwalają Twoim postaciom pracować wydajniej."
 
 ["LV.SP.WorkEffUpgradeBuffEff"]
@@ -595,7 +546,6 @@ ruRU = "{0:+#%} эффективность работы от {1}"
 jaJP = "{0:+#%} の作業効率 {1} から"
 frFR = "Efficacité du travail de {1} à {0:+#%}"
 deDE = "{0:+#%} Arbeits effizienz von {1}"
-zhHK = "{0:+#%} 工作效率由 {1} 提供"
 plPL = "wydajność pracy na poziomie {0:+#%} z {1}"
 
 ["LV.SP.EmergenciesGroup"]
@@ -607,7 +557,6 @@ ruRU = "Чрезвычайные ситуации"
 jaJP = "緊急事態"
 frFR = "Urgences"
 deDE = "Notfälle"
-zhHK = "緊急情況"
 plPL = "Nagłe wypadki"
 
 ["LV.SP.EmergenciesGroupDesc"]
@@ -619,7 +568,6 @@ ruRU = "В случае опасности нажмите эти большие 
 jaJP = "危険な場合は、この大きな黄色いボタンを押してください。しかし、チャンスは1回だけです。"
 frFR = "En cas de danger, appuyez sur ces gros boutons jaunes. Mais vous n'avez qu'une seule chance."
 deDE = "Im Falle von Gefahr drücken Sie diese großen gelben Knöpfe. Aber Sie haben nur einen Versuch."
-zhHK = "在危險的情況下，按這些大黃色按鈕。但你只有一次機會。"
 plPL = "W przypadku niebezpieczeństwa naciśnij te duże żółte przyciski. Ale masz tylko jedną szansę."
 
 ["LV.SP.EmergencyDrill1"]
@@ -631,7 +579,6 @@ ruRU = "Аварийное мелкозаглубленное бурение"
 jaJP = "緊急浅層掘削"
 frFR = "Forage de secours peu profond"
 deDE = "Notfall-Flachbohrung"
-zhHK = "緊急淺層鑽探"
 plPL = "Nagły Płytki Wiercenie"
 
 ["LV.SP.EmergencyDrill1Desc"]
@@ -643,7 +590,6 @@ ruRU = "Добавьте {0} дней к этому теплому сезону.
 jaJP = "この温暖な季節に{0}日を追加してください。悪天候が来る時にのみ発動できます。"
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque du mauvais temps est prévu."
 deDE = "Füge {0} Tage zu dieser gemäßigten Saison hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter naht."
-zhHK = "將 {0} 天加入這個溫和季節。只能在壞天氣來臨時啟動。"
 plPL = "Dodaj {0} dni do tego sezonu temperaturowego. Może być aktywowane tylko wtedy, gdy nadchodzi zła pogoda."
 
 ["LV.SP.EmergencyDrill1Lore"]
@@ -655,7 +601,6 @@ ruRU = "Нос любопытного бобра, улавливающий вл�
 jaJP = "湿った土に対する好奇心旺盛なビーバーの鼻が、浅い水のポケットに導いた。すぐに利用でき、緊急時には命を救う。"
 frFR = "Le nez curieux d'un castor pour la terre humide a conduit à cette poche d'eau peu profonde - rapide à exploiter, sauvant des vies en cas de besoin."
 deDE = "Eine neugierige Nase eines Bibers für feuchte Erde führte zu dieser flachen Wasserstelle – schnell zu erreichen, lebensrettend in der Not."
-zhHK = "一隻好奇的海狸對潮濕泥土的嗅覺引導它發現了這個淺水袋—容易開採，在緊急時刻能救命。"
 plPL = "Czujny nos bobra do wilgotnej ziemi doprowadził do tej płytkiej kieszeni wodnej - łatwej do wykorzystania, ratującej życie w trudnej sytuacji."
 
 ["LV.SP.EmergencyDrill2"]
@@ -667,7 +612,6 @@ ruRU = "Экстренное глубокое бурение"
 jaJP = "緊急深部掘削"
 frFR = "Forage profonde d'urgence"
 deDE = "Notfall-Tiefbohrung"
-zhHK = "緊急深鑽"
 plPL = "Nagłe głębokie wiercenie"
 
 ["LV.SP.EmergencyDrill2Desc"]
@@ -679,7 +623,6 @@ ruRU = "Добавьте {0} дней к этому теплому сезону.
 jaJP = "この温暖な季節に{0}日を追加します。悪天候が近づいているときのみ、有効化できます。"
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque de mauvais temps est prévu."
 deDE = "Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht."
-zhHK = "將{0}天添加到這個温和的季節。只有在糟糕天氣來臨時才能啓用。"
 plPL = "Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowany tylko w przypadku nadchodzącej złej pogody."
 
 ["LV.SP.EmergencyDrill2Lore"]
@@ -691,7 +634,6 @@ ruRU = "«Мы бурим глубоко, но бурим не дёшево!» �
 jaJP = "「深く掘っていますが、安く掘っているわけではありません！」 — ダイガー・マクドリルフェイスIV"
 frFR = "\"Nous creusons profondément, mais nous ne creusons pas à bon marché !\" — Digger McDrillface IV"
 deDE = "„Wir bohren tief, aber wir bohren nicht billig!“ — Digger McDrillface IV"
-zhHK = "「我們在深鑽，但我們不會便宜鑽！」— Digger McDrillface IV"
 plPL = "„Wiercimy głęboko, ale nie wiercimy tanio!” — Digger McDrillface IV"
 
 ["LV.SP.EmergencyDrill3"]
@@ -703,7 +645,6 @@ ruRU = "Аварийное глубокое бурение"
 jaJP = "緊急深部掘削"
 frFR = "Foreuse d'urgence la plus profonde"
 deDE = "Notfall Tiefbohrung"
-zhHK = "緊急最深鑽探"
 plPL = "Awaryjny Najgłębszy Wiertło"
 
 ["LV.SP.EmergencyDrill3Desc"]
@@ -715,7 +656,6 @@ ruRU = "Добавьте {0} дней к этому теплому сезону.
 jaJP = "この温暖な季節に{0}日を追加します。悪天候が近づいているときのみ発動可能です。"
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque de mauvaises conditions météorologiques arrivent."
 deDE = "Fügen Sie {0} Tage zu dieser milden Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht."
-zhHK = "將 {0} 天添加到這個溫和的季節。只有在惡劣天氣即將來臨時才能啟動。"
 plPL = "Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowane tylko, gdy nadchodzi złea pogoda."
 
 ["LV.SP.EmergencyDrill3Lore"]
@@ -727,7 +667,6 @@ ruRU = "Легенда гласит, что старый Гноуззоб пре
 jaJP = "伝説によれば、古いグナウスはこの最深の井戸を予見した - 空が冷酷になるときの私たちの最後の希望。"
 frFR = "La légende dit que le vieux Gnawtooth a prévu ce puits profond - notre dernier espoir lorsque les cieux deviennent cruels."
 deDE = "Die Legende besagt, dass der alte Gnawtooth diesen tiefsten Brunnen voraussehen konnte - unsere letzte Hoffnung, wenn die Himmel grausam werden."
-zhHK = "傳說老噬齒者預見了這口最深的井 - 當天空變得殘酷時，我們的最後希望。"
 plPL = "Legenda głosi, że stary Gnawtooth przewidział tę najgłębszą studnię - naszą ostatnią nadzieję, gdy niebiosa staną się okrutne."
 
 ["LV.SP.BadWeatherConditionErr"]
@@ -739,7 +678,6 @@ ruRU = "Вы можете активировать это только в том
 jaJP = "悪天候（干ばつや悪潮）が予測されるときにのみ、これを有効にすることができます。"
 frFR = "Vous ne pouvez activer cela que lorsque de mauvaises conditions météorologiques (sécheresse ou marée mauvaise) sont prédites."
 deDE = "Sie können dies nur aktivieren, wenn schlechtes Wetter (Dürre oder schlechter Gezeiten) vorhergesagt wird."
-zhHK = "你只能在預測到惡劣天氣（乾旱或壞潮）即將來臨時啟用這個功能。"
 plPL = "Możesz to aktywować tylko wtedy, gdy przewiduje się nadejście złej pogody (suszy lub złego przypływu)."
 
 ["LV.SP.Wheelbarrows"]
@@ -751,7 +689,6 @@ ruRU = "Тележки"
 jaJP = "手押し車"
 frFR = "Chariots à bras"
 deDE = "Gartenschubkarren"
-zhHK = "手推車"
 plPL = "Wózki ogrodowe"
 
 ["LV.SP.WheelbarrowsLore"]
@@ -763,7 +700,6 @@ ruRU = "Ультимативный спасатель спины, позволя
 jaJP = "究極の腰痛軽減装置で、ビーバーが過負荷の亀のようにゆっくり歩くことなく、丸太を運ぶことができます。"
 frFR = "Le sauveur ultime du dos, permettant aux castors de transporter des bûches sans se déplacer comme des tortues surchargées."
 deDE = "Der ultimative Rückenschoner, der Bibern ermöglicht, Stämme zu schleppen, ohne wie überladene Schildkröten zu watscheln."
-zhHK = "終極背部救星，讓海狸能夠搬運木頭，而不會像超負荷的烏龜那樣搖搖晃晃。"
 plPL = "Ostateczny ratownik kręgosłupa, pozwalający bobrom ciągnąć kłody bez chwiania się jak przeciążone żółwie."
 
 ["LV.SP.WheelbarrowsEff"]
@@ -775,7 +711,6 @@ ruRU = "Бобры и боты больше не получают штрафов
 jaJP = "ビーバーとボットは、持ち運ぶ際に移動速度ペナルティを受けなくなりました。"
 frFR = "Les castors et les robots ne subissent plus de pénalités de vitesse de déplacement lorsqu'ils transportent."
 deDE = "Biber und Bots erhalten keine Bewegungsgeschwindigkeitsstrafen mehr, wenn sie tragen."
-zhHK = "海狸和機械人搬運時不再受到移動速度的懲罰。"
 plPL = "Bobry i boty nie otrzymują już kar za prędkość ruchu podczas noszenia."
 
 ["LV.SP.CarryUpgrade1"]
@@ -787,7 +722,6 @@ ruRU = "Укрепленные переносные сумки"
 jaJP = "強化キャリーパック"
 frFR = "Sacs de transport renforcés"
 deDE = "Verstärkte Tragetaschen"
-zhHK = "強化背包"
 plPL = "Wzmocnione Torby Transportowe"
 
 ["LV.SP.CarryUpgrade1Lore"]
@@ -799,7 +733,6 @@ ruRU = "«Эти пакеты позволяют мне перевозить ц�
 jaJP = "「これらのパックは、森を運ぶことができ、なおかつスナックのためのスペースも確保できる！」 — パックミュール ヘビーロード"
 frFR = "'Ces packs me permettent de transporter une forêt et d'avoir encore de la place pour des en-cas !' — Packmule Heavyload"
 deDE = "'Diese Packs lassen mich einen Wald transportieren und haben trotzdem Platz für Snacks!' — Packmule Heavyload"
-zhHK = "「這些背包讓我可以運送一整片森林，還有空間放零食！」— 職業：重載搬運工"
 plPL = "'Te pakiety pozwalają mi przewozić las i wciąż mieć miejsce na przekąski!' — Packmule Heavyload"
 
 ["LV.SP.CarryUpgrade1Eff"]
@@ -811,7 +744,6 @@ ruRU = "Постоянно увеличивает вместимость боб�
 jaJP = "ビーバーの運搬能力を永久的に{0:+#%}増加させます。"
 frFR = "Augmente définitivement la capacité de transport des castors de {0:+#%}"
 deDE = "Erhöht dauerhaft die Tragfähigkeit der Biber um {0:+#%}"
-zhHK = "永久性增加海狸的負重能力 {0:+#%}"
 plPL = "Na stałe zwiększa pojemność noszenia bobrów o {0:+#%}"
 
 ["LV.SP.CarryBuilderUpgrade"]
@@ -823,7 +755,6 @@ ruRU = "Строительные сани"
 jaJP = "ビルダー用スレッジ"
 frFR = "Traîneaux de constructeur"
 deDE = "Baustellen-Schlitten"
-zhHK = "建築用滑橇"
 plPL = "Sanki budowlane"
 
 ["LV.SP.CarryBuilderUpgradeLore"]
@@ -835,7 +766,6 @@ ruRU = "Делая строительство таким же гладким, к
 jaJP = "建設をよく噛まれた丸太のようにスムーズに進める。"
 frFR = "Rendre la construction aussi fluide qu'une bûche bien mâchée."
 deDE = "Bauarbeiten so reibungslos wie ein gut gekauter Stamm machen."
-zhHK = "讓建築如同咬爛的木頭一樣順暢。"
 plPL = "Sprawianie, by budowa przebiegała tak gładko, jak dobrze przeżuty klocek drewna."
 
 ["LV.SP.CarryBuilderUpgradeEff"]
@@ -847,7 +777,6 @@ ruRU = "{0:+#%} дополнительная грузоподъемность з
 jaJP = "{0:+#%} レベルごとの追加運搬能力 <SolidHighlight>ビルダー</SolidHighlight>（地区センターやビルダーハットの労働者、ビーバーとロボットの両方）用。"
 frFR = "{0:+#%} capacité de transport supplémentaire par niveau pour <SolidHighlight>Constructeurs</SolidHighlight> (travailleurs dans les Centres de District ou les Huts de Constructeurs, à la fois les castors et les bots)."
 deDE = "{0:+#%} zusätzliche Tragfähigkeit pro Level für <SolidHighlight>Bauer</SolidHighlight> (Arbeiter in Stadtzentren oder Bauhütten, sowohl Biber als auch Roboter)."
-zhHK = "每級額外運載能力 {0:+#%} 供 <SolidHighlight>建造者</SolidHighlight> 使用（位於區域中心或建造者小屋的工人，包括海狸和機器人）。"
 plPL = "{0:+#%} dodatkowej nośności na poziom dla <SolidHighlight>Budowniczych</SolidHighlight> (pracowników w Centrach Dzielnic lub Chatkach Budowlanych, zarówno bobrów, jak i robotów)."
 
 ["LV.SP.CarryBuilderUpgradeCost"]
@@ -859,7 +788,6 @@ ruRU = "[Стоимость] за уровень для каждого стро�
 jaJP = "[コスト] 各ビルダーのレベルごとのコスト（切り上げ）"
 frFR = "[Coût] par niveau pour chaque constructeur (arrondi à l'unité supérieure)"
 deDE = "[Kosten] pro Level für jeden Baumeister (aufgerundet)"
-zhHK = "每位建造師的每級成本（向上取整）"
 plPL = "[Koszt] na poziom dla każdego budowniczego (zaokrąglone w górę)"
 
 ["LV.SP.CarryUpgradeBuff"]
@@ -871,7 +799,6 @@ ruRU = "Проекты по грузоподъемности"
 jaJP = "収容能力プロジェクト"
 frFR = "Projets de Capacité de Charge"
 deDE = "Tragfähigkeitsprojekte"
-zhHK = "承載能力項目"
 plPL = "Projekty z zakresu nośności"
 
 ["LV.SP.CarryUpgradeBuffDesc"]
@@ -883,7 +810,6 @@ ruRU = "Ваши улучшенные переноски позволяют ва
 jaJP = "あなたの上司が持つギアは、あなたのキャラクターがより多くを運ぶことを可能にします。"
 frFR = "Vos équipements supérieurs permettent à vos personnages de porter plus."
 deDE = "Ihre überlegene Ausrüstung ermöglicht es Ihren Charakteren, mehr zu tragen."
-zhHK = "你嘅上司所攜帶嘅裝備可以令你嘅角色攜帶更多。"
 plPL = "Twoje ulepszony sprzęt umożliwia twoim postaciom noszenie większej ilości."
 
 ["LV.SP.CarryUpgradeBuffEff"]
@@ -895,7 +821,6 @@ ruRU = "{0:+#%} грузоподъемность от {1}"
 jaJP = "{0:+#%} 積載能力 {1} から"
 frFR = "capacité de charge de {1} de {0:+#%}"
 deDE = "{0:+#%} Tragfähigkeit von {1}"
-zhHK = "{0:+#%} 承載能力來自 {1}"
 plPL = "{0:+#%} zdolność przewozowa od {1}"
 
 ["LV.SP.CarryBuilderBuff"]
@@ -907,7 +832,6 @@ ruRU = "Строительный молоток"
 jaJP = "ビルダー・スレッジ"
 frFR = "Marteau de constructeur"
 deDE = "Bauerhammer"
-zhHK = "建築斧"
 plPL = "Młot budowlany"
 
 ["LV.SP.CarryBuilderBuffDesc"]
@@ -919,7 +843,6 @@ ruRU = "Ваши строители теперь оснащены сани, чт
 jaJP = "あなたの建設者は、より多くを運ぶためにそりを装備しています。"
 frFR = "Vos bâtisseurs sont désormais équipés de traîneaux pour transporter plus."
 deDE = "Ihre Bauarbeiter sind jetzt mit Schlitten ausgestattet, um mehr zu transportieren."
-zhHK = "你的建築工人現在配備了雪橇，可以運載更多。"
 plPL = "Twoi budowniczowie są teraz wyposażeni w sanie, aby móc przenosić więcej."
 
 ["LV.SP.CarryBuilderBuffEff"]
@@ -931,7 +854,6 @@ ruRU = "{0:+#%} грузоподъемность от {1}"
 jaJP = "{0:+#%}の許容限界は{1}からです"
 frFR = "capacité de charge de {1} à {0:+#%}"
 deDE = "{0:+#%} Tragfähigkeit von {1}"
-zhHK = "{0:+#%} 承載能力來自 {1}"
 plPL = "{0:+#%} zdolność przewozowa od {1}"
 
 ["LV.SP.FactionsGroup"]
@@ -943,7 +865,6 @@ ruRU = "Фракции"
 jaJP = "派閥"
 frFR = "Factions"
 deDE = "Fraktionen"
-zhHK = "派系"
 plPL = "Frakcje"
 
 ["LV.SP.FactionsGroupDesc"]
@@ -955,7 +876,6 @@ ruRU = "Уникальные проекты для каждой фракции"
 jaJP = "各派閥のためのユニークなプロジェクト"
 frFR = "Projets uniques pour chaque faction"
 deDE = "Einzigartige Projekte für jede Fraktion"
-zhHK = "每個派系的獨特項目"
 plPL = "Unikalne projekty dla każdej frakcji"
 
 ["LV.SP.FtPlankUpgrade"]
@@ -967,7 +887,6 @@ ruRU = "Пластины с вкраплениями смолы"
 jaJP = "樹脂注入プランク"
 frFR = "Planches infusées de résine"
 deDE = "Harz-Infundierte Planken"
-zhHK = "樹脂浸漬木板"
 plPL = "Deski nasączone żywicą"
 
 ["LV.SP.FtPlankUpgradeLore"]
@@ -979,7 +898,6 @@ ruRU = "Впитывание досок натуральными смолами 
 jaJP = "天然樹脂を使ってプランクを浸透させることで、処理されたプランクの生産量が倍増します - 電力は不要で、自然の力だけです。"
 frFR = "L'infusion de planches avec des résines naturelles double la production de planches traitées - sans électricité, juste la façon de la nature."
 deDE = "Das Durchtränken von Planken mit natürlichen Harzen verdoppelt die Produktionsmenge behandelter Planken - kein Strom notwendig, nur die Art der Natur."
-zhHK = "將木板注入天然樹脂可使處理木板的產量增加一倍 - 無需電力，只需依賴自然的方法。"
 plPL = "Wprowadzenie naturalnych żywic do desek podwaja wydajność desek zabezpieczonych - nie potrzeba energii, wystarczy sposób natury."
 
 ["LV.SP.FtPlankUpgradeEff"]
@@ -991,7 +909,6 @@ ruRU = "Деревообрабатывающая мастерская испол
 jaJP = "木工所は {1:#.###%} の電力を使用し、{0:+#%} の処理済み板材の出力を持っています。"
 frFR = "L'atelier de menuiserie utilise {1:#.###%} de puissance et {0:+#%} de la production de planches traitées."
 deDE = "Die Holzwerkstatt benötigt {1:#.###%} Energie und erzeugt {0:+#%} die behandelten Planken."
-zhHK = "木工坊使用 {1:#.###%} 的能源，以及 {0:+#%} 的處理木板產量。"
 plPL = "Warsztat stolarski zużywa {1:#.###%} energii i {0:+#%} produkcji obrabianych desek."
 
 ["LV.SP.ItSmelterUpgrade"]
@@ -1003,7 +920,6 @@ ruRU = "Перерабатывающий плавильный завод с те
 jaJP = "熱回収冶金炉"
 frFR = "Fourneau de recyclage de chaleur"
 deDE = "Wärmerückgewinnungs-Schmelze"
-zhHK = "熱回收冶煉爐"
 plPL = "Pieca do recyklingu ciepła"
 
 ["LV.SP.ItSmelterUpgradeLore"]
@@ -1015,7 +931,6 @@ ruRU = "Прорыв в дизайне печи удваивает выпуск 
 jaJP = "炉設計の画期的な進展により、追加の電力なしで金属の出力が2倍になり、アイアンティースの独創性を具現化しています。"
 frFR = "Une avancée dans la conception des fours double la production de métal sans power supplémentaire, incarnant l'ingéniosité des Iron Teeth."
 deDE = "Ein Durchbruch im Ofendesign verdoppelt die Metallproduktion ohne zusätzliche Energie und verkörpert die Ingenieurskunst von Iron Teeth."
-zhHK = "一項爐設計的突破使金屬產量在不增加額外電力的情況下翻倍，體現了鐵齒的創意。"
 plPL = "Przełom w projektowaniu pieców podwaja wydajność metalu bez dodatkowej energii, ucieleśniając pomysłowość Żelaznych Zębów."
 
 ["LV.SP.ItSmelterUpgradeEff"]
@@ -1027,7 +942,6 @@ ruRU = "Металлургический завод использует {1:#.##
 jaJP = "精錬所は{1:#.###%}の電力を使用し、金属ブロックの出力を{0:+#%}増加させます。"
 frFR = "Le four utilise {1:#.###%} d'énergie et {0:+#%} de la sortie des blocs de métal."
 deDE = "Der Schmelzofen verwendet {1:#.###%} Energie und {0:+#%} die Metalle Blocks Ausgabe."
-zhHK = "冶煉廠消耗 {1:#.###%} 的電力，並產生 {0:+#%} 的金屬方塊產量。"
 plPL = "Wytwórnia wykorzystuje {1:#.###%} energii i {0:+#%} wydajności Bloków Metalu."
 
 ["LV.SP.BuffLessPowerEff"]
@@ -1039,7 +953,6 @@ ruRU = "{0:#.###%} Использование электроэнергии"
 jaJP = "{0:#.###%} 電力使用量"
 frFR = "{0:#.###%} Utilisation de l'énergie"
 deDE = "{0:#.###%} Energieverbrauch"
-zhHK = "{0:#.###%} 功率使用"
 plPL = "{0:#.###%} Zużycie energii"
 
 ["LV.SP.BuffIncreasedOutput"]
@@ -1051,7 +964,6 @@ ruRU = "{0:+#%} увеличенное выходное значение"
 jaJP = "{0:+#%} 出力が増加しました"
 frFR = "{0:+#%} augmentation de la production"
 deDE = "{0:+#%} erhöhte Ausgabe"
-zhHK = "{0:+#%} 增加輸出"
 plPL = "{0:+#%} zwiększyła produkcję"
 
 ["LV.SP.Filter"]
@@ -1063,7 +975,6 @@ ruRU = "Фильтр"
 jaJP = "フィルター"
 frFR = "Filtre"
 deDE = "Filter"
-zhHK = "過濾器"
 plPL = "Filtruj"
 
 ["LV.SP.Keyword"]
@@ -1075,7 +986,6 @@ ruRU = "Ключевое слово"
 jaJP = "キーワード"
 frFR = "Mot-clé"
 deDE = "Schlüsselwort"
-zhHK = "關鍵詞"
 plPL = "Słowo kluczowe"
 
 ["LV.SP.FilterLocked"]
@@ -1087,7 +997,6 @@ ruRU = "Заблокировано"
 jaJP = "ロックされた"
 frFR = "Verrouillé"
 deDE = "Gesperrt"
-zhHK = "鎖定"
 plPL = "Zablokowane"
 
 ["LV.SP.FilterUnlocked"]
@@ -1099,7 +1008,6 @@ ruRU = "Разблокировано"
 jaJP = "解除されました"
 frFR = "Déverrouillé"
 deDE = "Entsperrt"
-zhHK = "解鎖"
 plPL = "Odblokowane"
 
 ["LV.SP.FilterDaily"]
@@ -1111,7 +1019,6 @@ ruRU = "Ежедневно"
 jaJP = "日刊"
 frFR = "Quotidiennement"
 deDE = "Täglich"
-zhHK = "每日"
 plPL = "Codziennie"
 
 ["LV.SP.FilterOneTime"]
@@ -1123,5 +1030,4 @@ ruRU = "Одноразовый"
 jaJP = "一度きり"
 frFR = "Une seule fois"
 deDE = "Einmalig"
-zhHK = "一次性"
 plPL = "Jednorazowy"
