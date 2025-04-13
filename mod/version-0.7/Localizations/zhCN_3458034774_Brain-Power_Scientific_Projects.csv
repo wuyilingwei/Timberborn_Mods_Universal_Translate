@@ -1,40 +1,40 @@
 ID,Text,Comment
-LV.BPSP.PowersGroup,力量,-
-LV.BPSP.PowersGroupDesc,改善您发电能力的项目,-
-LV.BPSP.WaterWheelUp1,轻柔雾流,-
-LV.BPSP.WaterWheelUpEff,水轮发电的输出功率在一天中从{0:+#%}增加到{1:+#%}。,-
-LV.BPSP.WaterWheelUp1Lore,轻雾轻拂着我们的车轮，让我们在一天中轻松前行。,-
-LV.BPSP.WaterWheelUp2,稳定雾涌,-
-LV.BPSP.WaterWheelUp2Lore,“看那雾气升起——轮子在黄昏时几乎在唱歌！”— Misttail Spinner,-
-LV.BPSP.WaterWheelUp3,浓缩雾发电机,-
-LV.BPSP.WaterWheelUp3Eff,水车的功率全天永久增加 {0:+#%}。,-
-LV.BPSP.WaterWheelUp3Lore,我们已将雾气提炼成一种恒定的力量，始终以最高功率驱动车轮。,-
-LV.BPSP.WaterWheelUpBuffDesc,雾技术为我们的水轮提供了助力。,-
-LV.BPSP.WaterWheelFlowUp1,热流稳定器,-
-LV.BPSP.WaterWheelFlowUp1Eff,水轮功率在有水的情况下永远不会低于{0:+#%}，即使没有水流。如果你的当前功率已经更高，它将不会产生任何作用。,-
-LV.BPSP.WaterWheelFlowUp1Lore,温泉在下面冒泡，推动车轮挑战河流懒散的情绪。,-
-LV.BPSP.WaterWheelFlowUp2,蒸汽增压提升,-
-LV.BPSP.WaterWheelFlowUp2Eff,热流稳定器在每个等级下提供额外的 {0:+#%} 最小值。,-
-LV.BPSP.WaterWheelFlowUp2Cost,每个水轮每级的成本,-
-LV.BPSP.WaterWheelFlowUp2Lore,“更多的热量，更多的蒸汽——车轮不会在牢固的推动下下降！” — 锅炉尾汽匠,-
-LV.BPSP.WaterWheelFlowUpBuffDesc,热能技术帮助我们的水轮在没有水流的情况下仍然发电。,-
-LV.BPSP.PowerOutputMulEff,{0:+#%} 功率输出,-
-LV.BPSP.PowerOutputMulDayEff,{0:+#%} 功率输出（从 {1:+#%} 到 {2:+#%}）,-
-LV.BPSP.PowerOutputFlatEff,从{1}的HP功率输出{0:+#},-
-LV.BPSP.GeneratorStrMinEff,{0:+#%} 当来自 {1} 时的最小功率输出,-
-LV.BPSP.WheelWorkerUp,变速器劳动同步,-
-LV.BPSP.WheelWorkerUpEff,减少大型动力轮工作者的需求 {0}，保持全功率输出。,-
-LV.BPSP.WheelWorkerUpLore,“齿轮现在独自舞动——越来越少的尾巴，却依然雷鸣般的旋转！” — 克兰克尾监管者,-
-LV.BPSP.WheelBotUp,机器人集成轴,-
-LV.BPSP.WheelBotUpEff,允许机器人操作动力轮，而不仅仅是海狸。,-
-LV.BPSP.WheelBotUpLore,“机器人旋转得比尾巴更好——效率是我们的游戏！” — 博尔特旋转机器人大师,-
-LV.BPSP.WindmillHeightUp,高空风压器,-
-LV.BPSP.WindmillHeightUpEff,风车（常规和大型）在其最高点每增加一个高度级别会获得{0:+#%}更多的能量。,-
-LV.BPSP.WindmillHeightUpLore,“我们栖息在高空，品味着让树梢羡慕的微风！”——风潮，微风的守护者,-
-LV.BPSP.WindmillHeightBuffEff,{0:+#%} 每个高度水平的功率,-
-LV.BPSP.WindmillSizeUp,紧凑型风帆,-
-LV.BPSP.WindmillSizeUpEff,风车现在只占据1x1的区域，而不是3x3的区域。,-
-LV.BPSP.WindmillSizeUpLore,民间故事用柳条编织出更紧的帆——占据的土地更少，风的低语更多。,-
-LV.BPSP.SparePowerScience,能量流思维机,-
-LV.BPSP.SparePowerScienceEff,您殖民地中任何未使用的能量都会转化为科学。转化率：{0}HP-小时转换为1科学，向下取整。电池不受影响，并且不会影响该项目的任何计算。,-
-LV.BPSP.SparePowerScienceLore,“额外的瓦特在周围嗡嗡作响？现在它们直接注入我们最聪明的想法！” — Sparkchew Thinkatron,-
+LV.BPSP.PowersGroup,能源升级,-
+LV.BPSP.PowersGroupDesc,提高供能建筑功率的科学项目。,-
+LV.BPSP.WaterWheelUp1,柔和雾流器,-
+LV.BPSP.WaterWheelUpEff,水轮功率随时间提高，从 {0:+#%} 至 {1:+#%}，次日重置。,-
+LV.BPSP.WaterWheelUp1Lore,薄雾轻拂，让我们的水轮终日轻鸣。,-
+LV.BPSP.WaterWheelUp2,平稳雾涌器,-
+LV.BPSP.WaterWheelUp2Lore,徐雾长行，让我们的水轮纵情歌唱。,-
+LV.BPSP.WaterWheelUp3,凝集雾泉器,-
+LV.BPSP.WaterWheelUp3Eff,水轮功率提高 {0:+#%}。,-
+LV.BPSP.WaterWheelUp3Lore,浓雾涌动，让我们的水轮转动不息。,-
+LV.BPSP.WaterWheelUpBuffDesc,先进的雾化技术使聚居地的水轮功率更高。,-
+LV.BPSP.WaterWheelFlowUp1,地热环流仪,-
+LV.BPSP.WaterWheelFlowUp1Eff,浸于水中时，水轮功率不会低于 {0:+#%}。,-
+LV.BPSP.WaterWheelFlowUp1Lore,利用地下温泉余热，形成稳定局部环流，保证水轮基础功率。,-
+LV.BPSP.WaterWheelFlowUp2,蒸汽恒流仪,-
+LV.BPSP.WaterWheelFlowUp2Eff,每级额外提高<color=#FFFF00>地热环流仪</color>提供的基础功率 {0:+#%}。,-
+LV.BPSP.WaterWheelFlowUp2Cost,每级花费 [Cost] 点，每个水轮单独计算。,-
+LV.BPSP.WaterWheelFlowUp2Lore,雾化技术的另一种应用，厚密的蒸汽有效减缓了热量散失。,-
+LV.BPSP.WaterWheelFlowUpBuffDesc,先进的地热技术使聚居地的水轮功率稳定。,-
+LV.BPSP.PowerOutputMulEff,功率: {0:+#%},-
+LV.BPSP.PowerOutputMulDayEff,功率: {0:+#%} (从 {1:+#%} 至 {2:+#%}),-
+LV.BPSP.PowerOutputFlatEff,输出: {0:+#} 马力，来自 {1},-
+LV.BPSP.GeneratorStrMinEff,基础功率: {0:+#%}，来自 {1},-
+LV.BPSP.WheelWorkerUp,能量轮同步,-
+LV.BPSP.WheelWorkerUpEff,大型能量轮所需劳工减少 {0} 名，最大功率不变。,-
+LV.BPSP.WheelWorkerUpLore,铁牙们难以判断这是技术还是锻炼的功劳。,-
+LV.BPSP.WheelBotUp,机关人集成,-
+LV.BPSP.WheelBotUpEff,允许机关人在能量轮上工作。,-
+LV.BPSP.WheelBotUpLore,不要再想什么海狸物理学了，你看它们跑得多开心！,-
+LV.BPSP.WindmillHeightUp,高空型连杆,-
+LV.BPSP.WindmillHeightUpEff,风车功率与顶部所处高度相关，每级高度提高 {0:+#%}。,-
+LV.BPSP.WindmillHeightUpLore,恐高的海狸可以申请换班，总有喜欢俯瞰风景的。,-
+LV.BPSP.WindmillHeightBuffEff,功率: {0:+#%} 每级高度,-
+LV.BPSP.WindmillSizeUp,紧凑型扇叶,-
+LV.BPSP.WindmillSizeUpEff,风车扇叶占地面积从 3x3 缩小至 1x1。,-
+LV.BPSP.WindmillSizeUpLore,神尾们改进了排列方式，制造出更高效的扇叶。,-
+LV.BPSP.SparePowerScience,能源启迪,-
+LV.BPSP.SparePowerScienceEff,供能建筑的多余功率会转化为科学点数，{0} 马力时 = 1 科学点数（向下取整）。,-
+LV.BPSP.SparePowerScienceLore,从能源升级到技术开放，从物质开源到思想开源。,-

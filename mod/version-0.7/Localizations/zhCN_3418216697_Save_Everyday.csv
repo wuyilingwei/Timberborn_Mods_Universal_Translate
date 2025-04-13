@@ -1,9 +1,9 @@
 ID,Text,Comment
-LV.SE.Enabled,启用,-
-LV.SE.EnabledDesc,该模组是否启用。,-
-LV.SE.SaveFrequency,自动保存频率（天）,-
-LV.SE.SaveFrequencyDesc,该 mod 应该多长时间自动保存一次。,-
-LV.SE.SaveCount,自动保存次数,-
-LV.SE.SaveCountDesc,应该保留多少个自动保存的版本。,-
-LV.SE.SaveWeatherWarning,额外保存天气警报,-
-LV.SE.SaveWeatherWarningDesc,当发布天气预警时，创建一个额外的保存文件，名为 'weatherwarning.save'，该文件仅在下一个周期的警告中被覆盖。此保存不计入保存计数。,-
+LV.SE.Enabled,定期存档,-
+LV.SE.EnabledDesc,勾选后，将根据游戏内天数变化定期保存。,-
+LV.SE.SaveFrequency,定期保存频率,-
+LV.SE.SaveFrequencyDesc,定期保存的间隔天数，即每隔多少天保存一次（模组默认：1）。,-
+LV.SE.SaveCount,定期存档数量,-
+LV.SE.SaveCountDesc,可保留的定期存档数量（模组默认：5）。,-
+LV.SE.SaveWeatherWarning,额外存档（周期变化）,-
+LV.SE.SaveWeatherWarningDesc,勾选后，将在恶劣天气预报时自动保存，下一次恶劣天气预报时会自动覆盖保存。,-

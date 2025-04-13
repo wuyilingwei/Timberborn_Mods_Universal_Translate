@@ -1,18 +1,17 @@
 ID,Text,Comment
-LV.SPE.AllFixedDepth,使用固定深度,-
-LV.SPE.AllFixedDepthDesc,所有泵将具有固定的最大深度。,-
-LV.SPE.FixedDepth,固定深度,-
-LV.SPE.FixedDepthDesc,所有泵的最大深度的固定深度,-
-LV.SPE.AllMultiplier,使用乘数,-
-LV.SPE.AllMultiplierDesc,所有泵将使用乘数来计算最大深度。,-
-LV.SPE.Multiplier,乘数,-
-LV.SPE.MultiplierDesc,所有泵最大深度的倍数,-
-LV.SPE.WaterConversation,水产品转化率,-
-LV.SPE.WaterConversationDesc,水产品与体积的转换率（游戏默认值：0.2，意味着水泵每生产1个水产品需消耗0.2cm³，而水排放装置每个水产品产生0.2cm³）,-
-LV.SPE.MechPumpWater,机械泵的数量 (⚡!),-
-LV.SPE.MechPumpWaterDesc,"机械泵每秒抽水的量（游戏默认：0.25cm³/s）。
-⚡ 注意：改变这个值也会相应增加或减少电力使用，见下文。",-
-LV.SPE.MechPumpPowerMultiplier,机械泵功率倍增器,-
-LV.SPE.MechPumpPowerDesc,默认情况下，该模组将功率使用率保持在每0.25立方厘米700马力。使用此修改器来增加或减少（作弊 :P）该比率。游戏默认：1倍,-
-LV.SPE.WaterProdTimeMultiplier,水生产时间倍增器,-
-LV.SPE.WaterProdTimeMultiplierDesc,水生产时间的倍数。例如：游戏默认水泵每1单位水需要0.33小时，将此设置为0.5将使每1单位水所需时间变为0.16.5小时。,-
+LV.SPE.AllFixedDepth,水泵深度定值,-
+LV.SPE.AllFixedDepthDesc,勾选后，可以将所有种类的水泵的最大深度更改为新的固定值。,-
+LV.SPE.FixedDepth,深度定值,-
+LV.SPE.FixedDepthDesc,水泵的最大深度的新固定值。,-
+LV.SPE.AllMultiplier,水泵深度乘数,-
+LV.SPE.AllMultiplierDesc,勾选后，可以将所有种类的水泵的最大深度更改为原来的N倍。,-
+LV.SPE.Multiplier,深度乘数,-
+LV.SPE.MultiplierDesc,水泵的最大深度的乘数（游戏默认：1）。,-
+LV.SPE.WaterConversation,液体转换率,-
+LV.SPE.WaterConversationDesc,液体产物（水、恶水）与抽取体积的转换率（游戏默认：0.2m³，即1单位水相当于0.2m³的水体）。,-
+LV.SPE.MechPumpWater,机械泵流量 (!),-
+LV.SPE.MechPumpWaterDesc,液体机械泵每秒泵送的流量（游戏默认：0.25cms，但游戏中的液体计算速度为2倍，所以实际为0.5cms）。<br>请注意，更改此值也会相应增加或减少液体机械泵的功耗，参见下一项设置。,-
+LV.SPE.MechPumpPowerMultiplier,机械泵功率乘数,-
+LV.SPE.MechPumpPowerDesc,可以将机械液体泵的单位功耗更改为原来的N倍（游戏默认：1，即每0.25cms流量需要消耗1个700马力）。,-
+LV.SPE.WaterProdTimeMultiplier,液体产出时间乘数,-
+LV.SPE.WaterProdTimeMultiplierDesc,可以将所有种类的水泵产出液体的时间更改为原来的N倍（游戏默认：1）。,-

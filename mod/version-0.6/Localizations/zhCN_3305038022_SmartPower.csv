@@ -1,41 +1,41 @@
 ID,Text,Comment
-IgorZ.SmartPower.BatteryCapacity,电池电量：{0} / {1},-
-IgorZ.SmartPower.BatteryCharging,电池正在充电：<GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
-IgorZ.SmartPower.BatteryDischarging,电池正在放电：<RedHighlight>🡇</RedHighlight>{0} ({1}),-
-IgorZ.SmartPower.BatteryNotUsed,<GreenHighlight>未使用的电池</GreenHighlight>,-
-IgorZ.SmartPower.BatteryDepleted,电池耗尽,-
-IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,自动化这个发电机,-
-IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,将电池电量保持在{0}% - {1}%范围内,-
-IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,适用于所有发电机,-
-IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,应用于 {0} 发电机,-
-IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,因供给过剩而暂停,-
-IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,工作场所没有工人,-
-IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,燃料已耗尽,-
-IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,缺少成分,-
-IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,产品太多了,-
-IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,省电模式,-
-IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,如果电力不足则暂停,-
-IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,最低效率: {0}%,-
-IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,如果电池电量低于 {0}%，请停止。,-
-IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,适用于所有此类建筑,-
-IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,已申请{0}栋建筑,-
-IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,暂停以节省能量,-
-IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> 电量不足,-
-IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,电池电量不足,-
-IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> 将在 {0} 分钟后恢复,-
-IgorZ.SmartPower.Common.MinutesTillSuspend,<SolidHighlight>⏻</SolidHighlight> 将在 {0} 分钟后暂停,-
+IgorZ.SmartPower.BatteryCapacity,电池上限/当前：{0} / {1},-
+IgorZ.SmartPower.BatteryCharging,<color=#00FF00>🡅</color> 电池充能 (剩余时间)：{0} ({1}),-
+IgorZ.SmartPower.BatteryDischarging,<color=#FF0000>🡇</color> 电池耗能 (剩余时间)：{0} ({1}),-
+IgorZ.SmartPower.BatteryNotUsed,<color=#FFFF00>⚫</color> 电池未运作,-
+IgorZ.SmartPower.BatteryDepleted,<color=#FF0000>⬛</color> 电池已耗尽,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,让此建筑自动调整运作,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,维持电池容量为 {0}% - {1}%,-
+IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,应用于所有同类建筑,-
+IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,已应用于 {0} 个同类建筑,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,网络供电过剩，已暂停,-
+IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,<color=#FFFF00>⏻</color> 工狸临时离岗,-
+IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,<color=#FFFF00>⏻</color> 建筑缺乏燃料,-
+IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,<color=#FFFF00>⏻</color> 建筑缺乏原料,-
+IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,<color=#FFFF00>⏻</color> 建筑产物已满,-
+IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,节能模式,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,运作效率低于阈值时关闭,-
+IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,运作效率(电力输入/最大值)阈值 : {0}%,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,电池容量低于 {0}% 时关闭,-
+IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,应用于所有同类建筑,-
+IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,已应用于 {0} 个同类建筑,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,网络供电不足，已暂停,-
+IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<color=#FF0000>⏻</color> 运作效率过低,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<color=#FF0000>⏻</color> 电池容量过低,-
+IgorZ.SmartPower.Common.MinutesTillResume,<color=#00FF00>⏻</color> 将在 {0} 分钟后恢复运作,-
+IgorZ.SmartPower.Common.MinutesTillSuspend,<color=#FFFF00>⏻</color> 将在 {0} 分钟后暂停运作,-
 IgorZ.SmartPower.Settings.DebugSection,调试和故障排除,-
 IgorZ.SmartPower.Settings.Debug.VerboseLogging,详细日志记录,-
-IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用的细节，但可能会影响游戏性能。,-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用的详细信息，但可能会影响游戏性能。,-
 IgorZ.SmartPower.Settings.BatteriesSection,电池,-
 IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,显示电池统计信息,-
-IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,消费者激活滞后（小时）,-
-IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,暂停的消费者如果无法在电池上运行至少指定的时间，将不会恢复。,-
-IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,海狸驱动的发电机,-
-IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,良好消费的发电机,-
-IgorZ.SmartPower.Settings.WorkplaceConsumerSection,带有工作场所的研讨会,-
-IgorZ.SmartPower.Settings.UnmannedConsumerSection,无人车间,-
-IgorZ.SmartPower.Settings.AttractionConsumerSection,景点,-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,维持运作时长阈值 (小时),-
+IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,电池容量足以维持耗能建筑运作指定时长后，已暂停的耗能建筑才会恢复运作。,-
+IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,劳工型供能建筑,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,资源型供能建筑,-
+IgorZ.SmartPower.Settings.WorkplaceConsumerSection,有劳工型耗能建筑,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,无劳工型耗能建筑,-
+IgorZ.SmartPower.Settings.AttractionConsumerSection,娱乐型耗能建筑,-
 IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,显示浮动图标,-
-IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,恢复延迟（分钟）,-
-IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,暂停延迟（分钟）,-
+IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,延时恢复 (分钟),-
+IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay,延时暂停 (分钟),-
