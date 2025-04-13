@@ -7,8 +7,6 @@ ruRU = "Откройте вкладку статистики товаров"
 jaJP = "商品統計タブを開く"
 frFR = "Ouvrir l'onglet Statistiques des biens"
 deDE = "Öffne die Registerkarte Warenstatistik"
-zhHK = "打開貨物統計選項卡"
-plPL = "Otwórz zakładkę Statystyki Towarów"
 
 ["eMka.GoodStatistics.BatchControlTabName"]
 raw = "Goods Statistics"
@@ -19,8 +17,6 @@ ruRU = "Статистика товаров"
 jaJP = "商品の統計"
 frFR = "Statistiques des marchandises"
 deDE = "Warenstatistik"
-zhHK = "貨物統計"
-plPL = "Statystyki towarów"
 
 ["eMka.GoodStatistics.DepletionDaysLeft"]
 raw = "Estimated time to depletion: {0}"
@@ -31,8 +27,6 @@ ruRU = "Оценочное время до исчерпания: {0}"
 jaJP = "枯渇までの推定時間: {0}"
 frFR = "Temps estimé jusqu'à l'épuisement : {0}"
 deDE = "Geschätzte Zeit bis zur Erschöpfung: {0}"
-zhHK = "估計耗盡時間：{0}"
-plPL = "Szacowany czas na wyczerpanie: {0}"
 
 ["eMka.GoodStatistics.GoodSampleTime"]
 raw = "Sampled {0} ago"
@@ -43,8 +37,6 @@ ruRU = "Выборка {0} назад"
 jaJP = "{0} 前にサンプリングされました"
 frFR = "Échantillonné il y a {0}"
 deDE = "Vor {0} abgetastet"
-zhHK = "取樣於 {0} 前"
-plPL = "Zebrano {0} temu"
 
 ["eMka.GoodStatistics.GrowingDaysLeft"]
 raw = "Estimated time to fill: {0}"
@@ -55,8 +47,6 @@ ruRU = "Ориентировочное время заполнения: {0}"
 jaJP = "充填予想時間: {0}"
 frFR = "Temps estimé pour remplir : {0}"
 deDE = "Geschätzte Zeit bis zur Ausfüllung: {0}"
-zhHK = "預計填寫時間：{0}"
-plPL = "Szacowany czas wypełnienia: {0}"
 
 ["eMka.GoodStatistics.Settings.AnalyzeGoodsWithoutStockpiles"]
 raw = "Analyze goods without storage"
@@ -67,8 +57,6 @@ ruRU = "Анализ товаров без хранения"
 jaJP = "保管なしで商品を分析する"
 frFR = "Analyser des biens sans stockage."
 deDE = "Waren ohne Lagerung analysieren"
-zhHK = "分析無需儲存的貨物"
-plPL = "Analizuj towary bez magazynowania"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThreshold"]
 raw = "Consecutive micro changes threshold"
@@ -79,8 +67,6 @@ ruRU = "Порог последовательных микроизменений
 jaJP = "連続したマイクロ変化の閾値"
 frFR = "Seuil de micro changements consécutifs"
 deDE = "Schwelle für aufeinanderfolgende Mikromodifikationen"
-zhHK = "連續微變化閾值"
-plPL = "Progowy dla kolejnych mikro zmian"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThresholdTooltip"]
 raw = "Number of consecutive micro changes (below Slow daily change threshold) to consider as a trend"
@@ -91,8 +77,6 @@ ruRU = "Количество последовательных микросмен
 jaJP = "スローデイリーチェンジ閾値以下の連続したマイクロ変化の数をトレンドと見なす。"
 frFR = "Nombre de changements micros consécutifs (en dessous du seuil de changement quotidien lent) à considérer comme une tendance."
 deDE = "Anzahl der aufeinanderfolgenden Mikroänderungen (unterhalb der langsamen täglichen Änderungsgrenze), die als Trend betrachtet werden sollen."
-zhHK = "認為是一個趨勢的連續微小變化次數（低於緩慢日常變化門檻）"
-plPL = "Liczba kolejnych mikro zmian (poniżej progu wolnej codziennej zmiany), które należy uznać za trend"
 
 ["eMka.GoodStatistics.Settings.EMAAnalyzerHeader"]
 raw = "Exponential Moving Average Analyzer"
@@ -103,8 +87,6 @@ ruRU = "Анализатор экспоненциальной скользяще
 jaJP = "指数移動平均分析器"
 frFR = "Analyseur de Moyenne Mobile Exponentielle"
 deDE = "Exponentieller gleitender Durchschnittsanalyzer"
-zhHK = "指數移動平均分析器"
-plPL = "Analizator Wykładniczej Średniej Ruchomej"
 
 ["eMka.GoodStatistics.Settings.FastChangeThreshold"]
 raw = "Fast daily change threshold"
@@ -115,8 +97,6 @@ ruRU = "Порог быстрой ежедневной смены"
 jaJP = "迅速な日次変化の閾値"
 frFR = "Seuil de changement quotidien rapide"
 deDE = "Schnelle tägliche Änderungsgrenze"
-zhHK = "快速每日變化閾值"
-plPL = "Szybki próg codziennej zmiany"
 
 ["eMka.GoodStatistics.Settings.IgnoreGoodsWithStorageLessThan"]
 raw = "Ignore goods with storage less than"
@@ -127,8 +107,6 @@ ruRU = "Игнорировать товары со сроком хранения
 jaJP = "保管が少ない商品を無視する"
 frFR = "Ignorer les marchandises avec un stockage inférieur à"
 deDE = "Ignorieren Sie Waren mit weniger Lagerbestand als"
-zhHK = "忽略儲存少於的貨物"
-plPL = "Zignoruj towary o magazynowaniu poniżej"
 
 ["eMka.GoodStatistics.Settings.ModerateChangeThreshold"]
 raw = "Moderate daily change threshold"
@@ -139,8 +117,6 @@ ruRU = "Умеренный порог изменения в день"
 jaJP = "中程度の日常変化の閾値"
 frFR = "Seuil de changement quotidien modéré"
 deDE = "Mäßiger täglicher Änderungsgrenzwert"
-zhHK = "適度每日變化閾值"
-plPL = "Umiarkowany próg codziennej zmiany"
 
 ["eMka.GoodStatistics.Settings.SamplesPerDay"]
 raw = "Samples per day"
@@ -151,8 +127,6 @@ ruRU = "Образцы в день"
 jaJP = "1日のサンプル数"
 frFR = "Échantillons par jour"
 deDE = "Proben pro Tag"
-zhHK = "每日樣本數"
-plPL = "Próbki dziennie"
 
 ["eMka.GoodStatistics.Settings.SamplesToAnalyze"]
 raw = "Samples to analyze"
@@ -163,8 +137,6 @@ ruRU = "Образцы для анализа"
 jaJP = "分析するサンプル"
 frFR = "Échantillons à analyser"
 deDE = "Proben zur Analyse"
-zhHK = "分析樣本"
-plPL = "Próbki do analizy"
 
 ["eMka.GoodStatistics.Settings.BaseSettings"]
 raw = "Base settings"
@@ -175,8 +147,6 @@ ruRU = "Базовые настройки"
 jaJP = "基本設定"
 frFR = "Paramètres de base"
 deDE = "Basiseinstellungen"
-zhHK = "基本設置"
-plPL = "Ustawienia podstawowe"
 
 ["eMka.GoodStatistics.Settings.ShowTrendsOnTopBar"]
 raw = "Show trends on top bar"
@@ -187,8 +157,6 @@ ruRU = "Показать тренды на верхней панели"
 jaJP = "トップバーにトレンドを表示する"
 frFR = "Afficher les tendances sur la barre supérieure"
 deDE = "Trends in der oberen Leiste anzeigen"
-zhHK = "在頂部欄顯示趨勢"
-plPL = "Pokaż trendy na górnym pasku"
 
 ["eMka.GoodStatistics.Settings.SlowChangeThreshold"]
 raw = "Slow daily change threshold"
@@ -199,5 +167,3 @@ ruRU = "Порог медленного ежедневного изменени�
 jaJP = "ゆっくりした日々の変化の閾値"
 frFR = "Seuil de changement quotidien lent"
 deDE = "Langsame tägliche Änderungsgrenze"
-zhHK = "緩慢日常變化閾值"
-plPL = "Powolny codzienny próg zmiany"

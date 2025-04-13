@@ -7,8 +7,6 @@ ruRU = "Прямой железнодорожный путь"
 jaJP = "真っ直ぐな鉄道線路"
 frFR = "Voie de train droite"
 deDE = "Gerade Bahngleise"
-zhHK = "直線鐵路"
-plPL = "Prosta linia kolejowa"
 
 ["Tobbert.TrackStraight.Description"]
 raw = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -19,8 +17,6 @@ ruRU = "Прямой участок путей. Может быть измене
 jaJP = "真っ直ぐなトラックピース。クリックしてトグルを使用することで、一方通行の信号に変更できます。一方通行の間にトラックセクションを作成し、1台の列車がその上にいることを可能にします（色で示されます）。"
 frFR = "Un élément de voie qui va tout droit. Peut être transformé en signal unidirectionnel en utilisant le commutateur en cliquant dessus. Crée une section de voie entre les voies unidirectionnelles qui permet à un seul train d'y être (indiqué par les couleurs)."
 deDE = "Ein Streckenteil, der gerade verläuft. Kann durch Klicken darauf mit dem Toggle in ein Einbahn-Signal umgewandelt werden. Erzeugt einen Gleisabschnitt zwischen Einbahnstraßen, auf dem sich nur ein einzelner Zug befinden kann (angezeigt durch die Farben)."
-zhHK = "一段直行的軌道。點擊時可以使用切換按鈕將其變更為單向信號。它在單向軌道之間創建了一個軌道區域，允許單一列車在上面行駛（以顏色表示）。"
-plPL = "Prosta sekcja toru. Może być zmieniona na sygnał jednokierunkowy za pomocą przełącznika po kliknięciu na nią. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, pozwalając na obecność jednego pociągu (wskazywane przez kolory)."
 
 ["Tobbert.TrackStraight.FlavorDescription"]
 raw = "Choo! Choo!"
@@ -31,8 +27,6 @@ ruRU = "Чух-чух!"
 jaJP = "チューチュー！"
 frFR = "Choo ! Choo !"
 deDE = "Zug! Zug!"
-zhHK = "嘟！嘟！"
-plPL = "Chu! Chu!"
 
 ["Tobbert.TrackOneWay.DisplayName"]
 raw = "One way signal Track"
@@ -43,8 +37,6 @@ ruRU = "Однонаправленная дорожка сигнала"
 jaJP = "一方向信号トラック"
 frFR = "Piste à sens unique"
 deDE = "Einwegsignalspur"
-zhHK = "單向信號軌道"
-plPL = "Tor sygnałowy w jednym kierunku"
 
 ["Tobbert.TrackOneWay.Description"]
 raw = "Will tell trains that they can only go through the green side. Can be changed back to a straight track by using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -55,8 +47,6 @@ ruRU = "Будет сообщено поездам, что они могут п�
 jaJP = "列車には緑の側しか通れないことを伝えます。クリックしてトグルを使うことで、直線の線路に戻すことができます。一方向間に1つの列車が乗れる線路区間を作成します（色で示されています）。"
 frFR = "Indiquera aux trains qu'ils ne peuvent passer que par le côté vert. Peut être modifié en une voie droite en utilisant le bouton bascule en cliquant dessus. Crée une section de voie entre les sens uniques qui permet à un seul train d'y être (indiqué par les couleurs)."
 deDE = "Wird den Zügen mitteilen, dass sie nur durch die grüne Seite fahren können. Kann durch das Umschalten beim Klicken darauf wieder in ein gerades Gleis zurückgeändert werden. Erstellt einen Gleisabschnitt zwischen einspurigen Strecken, der es einem einzelnen Zug ermöglicht, darauf zu fahren (angezeigt durch die Farben)."
-zhHK = "將會告訴列車它們只能通過綠色的路段。可以透過點擊切換按鈕將其改回直線軌道。在單行道之間創建一段軌道，使得只有一輛列車可以在上面行駛（由顏色指示）。"
-plPL = "Powie, że pociągi mogą przejeżdżać tylko przez zieloną stronę. Może być zmieniony z powrotem na prosty tor, używając przełącznika po kliknięciu na nim. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, który pozwala na przebywanie na nim jednego pociągu (wskazane przez kolory)."
 
 ["Tobbert.TrackOneWay.FlavorDescription"]
 raw = "You... Shall... Pass..."
@@ -67,8 +57,6 @@ ruRU = "Ты... Пройдёшь..."
 jaJP = "あなたは… 通過します…"
 frFR = "Vous... Allez... Passer..."
 deDE = "Du... sollst... passieren..."
-zhHK = "你... 必須... 會... 通過..."
-plPL = "Ty... przejdziesz..."
 
 ["Tobbert.TrackCrossing.DisplayName"]
 raw = "Train Track Crossing"
@@ -79,8 +67,6 @@ ruRU = "Железнодорожный переезд"
 jaJP = "踏切"
 frFR = "Passage à niveau"
 deDE = "Bahnübergang"
-zhHK = "鐵路平交道"
-plPL = "Przejazd kolejowy"
 
 ["Tobbert.TrackCrossing.Description"]
 raw = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
@@ -91,8 +77,6 @@ ruRU = "Бобры могут пересекать пути здесь. Стол
 jaJP = "ビーバーはここで線路を渡ることができます。衝突はパフォーマンスが著しく低下するため、実装されません。"
 frFR = "Les castors peuvent traverser les voies ici. La collision ne sera pas implémentée car la performance en souffrirait trop."
 deDE = "Biber können die Gleise hier überqueren. Kollisionen werden nicht implementiert, da die Leistung zu sehr leiden würde."
-zhHK = "海狸可以在這裡穿越軌道。由於性能會受到太大影響，將不會實施碰撞效果。"
-plPL = "Bobry mogą przechodzić tutaj przez tory. Kolizje nie będą wdrażane, ponieważ wydajność byłaby zbyt niska."
 
 ["Tobbert.TrackCrossing.FlavorDescription"]
 raw = "That train is approaching very fa-"
@@ -103,8 +87,6 @@ ruRU = "Этот поезд приближается очень быстро-"
 jaJP = "その列車は非常に速く接近しています-"
 frFR = "Ce train approche très vite."
 deDE = "Der Zug kommt sehr schnell näher."
-zhHK = "那班火車正快速駛來。"
-plPL = "Ten pociąg nadjeżdża bardzo szybko-"
 
 ["Tobbert.TrackHillStart.DisplayName"]
 raw = "Slope Track"
@@ -115,8 +97,6 @@ ruRU = "Склон трека"
 jaJP = "スロープトラック"
 frFR = "Piste inclinée"
 deDE = "Hangbahn"
-zhHK = "斜坡軌道"
-plPL = "Tor Słanisty"
 
 ["Tobbert.TrackHillStart.Description"]
 raw = "A track that lets trains go up and down."
@@ -127,8 +107,6 @@ ruRU = "Трек, который позволяет поездам подним�
 jaJP = "列車が上下することができるレール。"
 frFR = "Une voie qui permet aux trains de monter et descendre."
 deDE = "Eine Strecke, die es Zügen ermöglicht, auf- und abzufahren."
-zhHK = "一條讓火車上下行駛的軌道。"
-plPL = "Tor, który pozwala pociągom jeździć w górę i w dół."
 
 ["Tobbert.TrackHillStart.FlavorDescription"]
 raw = "Is the train not to heavy?"
@@ -139,8 +117,6 @@ ruRU = "Не слишком ли тяжелый поезд?"
 jaJP = "電車は重すぎませんか？"
 frFR = "Le train n'est pas trop lourd ?"
 deDE = "Ist der Zug nicht zu schwer?"
-zhHK = "火車不是太重嗎？"
-plPL = "Czy pociąg nie jest za ciężki?"
 
 ["Tobbert.TrackCorner1x1.DisplayName"]
 raw = "Corner 1x1 Train Track"
@@ -151,8 +127,6 @@ ruRU = "Уголок 1x1 Железнодорожного пути"
 jaJP = "コーナー1x1の鉄道トラック"
 frFR = "Coin 1x1 rail de train"
 deDE = "Ecke 1x1 Schienenstraße"
-zhHK = "角落 1x1 鐵路軌道"
-plPL = "Rog 1x1 Tor kolejowy"
 
 ["Tobbert.TrackCorner1x1.Description"]
 raw = "A Track Piece that around a corner."
@@ -163,8 +137,6 @@ ruRU = "Участок рельсов, который идет вокруг уг
 jaJP = "角を曲がるトラックの部品。"
 frFR = "Un morceau de rail qui fait un virage."
 deDE = "Ein Gleisstück, das um eine Ecke führt."
-zhHK = "一塊圍著角落的軌道。"
-plPL = "Element toru, który skręca za rogiem."
 
 ["Tobbert.TrackCorner1x1.FlavorDescription"]
 raw = "Might be a little tight."
@@ -175,8 +147,6 @@ ruRU = "Может быть немного тесно."
 jaJP = "少し窮屈かもしれません。"
 frFR = "Ça risque d'être un peu serré."
 deDE = "Könnte ein bisschen eng werden."
-zhHK = "可能會有點緊迫。"
-plPL = "Może być trochę ciasno."
 
 ["Tobbert.TrackCorner2x2.DisplayName"]
 raw = "Corner 2x2 Train Track"
@@ -187,8 +157,6 @@ ruRU = "Угол 2x2 Железнодорожный путь"
 jaJP = "コーナー2x2トレインレール"
 frFR = "Coin 2x2 voie de train"
 deDE = "Ecke 2x2 Schienenstück"
-zhHK = "轉角2x2火車軌道"
-plPL = "Rog światłowodowy 2x2"
 
 ["Tobbert.TrackCorner2x2.Description"]
 raw = "A Track Piece that around a larger corner."
@@ -199,8 +167,6 @@ ruRU = "Элемент пути, который проходит вокруг б
 jaJP = "大きなコーナーに沿ったトラックピース。"
 frFR = "Un morceau de rail qui tourne autour d'un coin plus grand."
 deDE = "Ein Gleisstück, das um eine größere Kurve führt."
-zhHK = "一個圍著較大轉角的軌道片。"
-plPL = "Element torowy, który przechodzi wokół większego zakrętu."
 
 ["Tobbert.TrackCorner2x2.FlavorDescription"]
 raw = "What a nice looking curve."
@@ -211,8 +177,6 @@ ruRU = "Какой красивый изгиб."
 jaJP = "なんて素敵な曲線でしょう。"
 frFR = "Quelle belle courbe."
 deDE = "Was für eine schön aussehende Kurve."
-zhHK = "真是個好看的曲線。"
-plPL = "Co za ładna krzywa."
 
 ["Tobbert.TrackTIntersection1x1.DisplayName"]
 raw = "T intersection Train Track 1x1"
@@ -223,8 +187,6 @@ ruRU = "T перекрёсток Железнодорожный путь 1x1"
 jaJP = "T字交差点 鉄道 線路 1x1"
 frFR = "Intersection en T Voie Ferrée 1x1"
 deDE = "T-Kreuzung Bahngleis 1x1"
-zhHK = "T字交叉口 火車軌道 1x1"
-plPL = "T skrzyżowanie Tor kolejowy 1x1"
 
 ["Tobbert.TrackTIntersection1x1.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -235,8 +197,6 @@ ruRU = "Перекресток в форме буквы Т для поездов
 jaJP = "列車用のT字型の交差点。"
 frFR = "Une intersection en forme de T pour les trains."
 deDE = "Eine Kreuzung in Form eines T für Züge."
-zhHK = "一個呈T型的火車交叉口。"
-plPL = "Skrzyżowanie w kształcie litery T dla pociągów."
 
 ["Tobbert.TrackTIntersection1x1.FlavorDescription"]
 raw = "Which way should I go?"
@@ -247,8 +207,6 @@ ruRU = "Куда мне пойти?"
 jaJP = "どの道を行けばいいですか？"
 frFR = "Par quel chemin devrais-je aller ?"
 deDE = "Welchen Weg soll ich gehen?"
-zhHK = "我應該走邊條路？"
-plPL = "Którą drogę powinienem pójść?"
 
 ["Tobbert.TrackTIntersection2x3.DisplayName"]
 raw = "T intersection Train Track 2x3"
@@ -259,8 +217,6 @@ ruRU = "Т-образный перекресток Железнодорожны�
 jaJP = "T字型交差点 鉄道トラック 2x3"
 frFR = "Intersection en T Voie de train 2x3"
 deDE = "T-Kreuzung Bahngleis 2x3"
-zhHK = "T 形交叉火車軌道 2x3"
-plPL = "Skrzyżowanie T tory kolejowe 2x3"
 
 ["Tobbert.TrackTIntersection2x3.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -271,8 +227,6 @@ ruRU = "Пересечение в форме Т для поездов."
 jaJP = "T字型の交差点（列車用）。"
 frFR = "Une intersection en forme de T pour les trains."
 deDE = "Eine Kreuzung in Form eines T für Züge."
-zhHK = "一個T字形的交叉口供火車使用。"
-plPL = "Skrzyżowanie w formie litery T dla pociągów."
 
 ["Tobbert.TrackTIntersection2x3.FlavorDescription"]
 raw = "Where will those paths lead to?"
@@ -283,8 +237,6 @@ ruRU = "Куда приведут эти пути?"
 jaJP = "それらの道はどこに通じるのでしょうか？"
 frFR = "Où ces chemins mèneront-ils ?"
 deDE = "Wohin werden diese Wege führen?"
-zhHK = "那些道路會通往哪裡？"
-plPL = "Dokąd zaprowadzą te ścieżki?"
 
 ["Tobbert.TrackXIntersection1x1.DisplayName"]
 raw = "X intersection Train Track 1x1"
@@ -295,8 +247,6 @@ ruRU = "Пересечение с железнодорожными путями 
 jaJP = "X交差点 鉄道 線路1x1"
 frFR = "X intersection Piste de train 1x1"
 deDE = "X Schnittstelle Gleis 1x1"
-zhHK = "X 交叉 火車軌道 1x1"
-plPL = "X przecięcie Tory kolejowe 1x1"
 
 ["Tobbert.TrackXIntersection1x1.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -307,8 +257,6 @@ ruRU = "Перекресток в форме X для поездов."
 jaJP = "電車のためのXの形をした交差点。"
 frFR = "Une intersection en forme de X pour les trains."
 deDE = "Eine Kreuzung in Form eines X für Züge."
-zhHK = "一個呈十字形的鐵路交叉口。"
-plPL = "Skrzyżowanie w kształcie litery X dla pociągów."
 
 ["Tobbert.TrackXIntersection1x1.FlavorDescription"]
 raw = "So many options!"
@@ -319,8 +267,6 @@ ruRU = "Так много вариантов!"
 jaJP = "多くの選択肢があります！"
 frFR = "Tant d'options !"
 deDE = "So viele Optionen!"
-zhHK = "有咁多選擇！"
-plPL = "Tak wiele opcji!"
 
 ["Tobbert.TrackXIntersection3x3.DisplayName"]
 raw = "X intersection Train Track 3x3"
@@ -331,8 +277,6 @@ ruRU = "X пересечение Железнодорожных путей 3x3"
 jaJP = "X 交差点 鉄道トラック 3x3"
 frFR = "Intersection X Chemin de fer 3x3"
 deDE = "X Schnittstelle Gleis 3x3"
-zhHK = "X交匯火車軌道 3x3"
-plPL = "X przecięcie Tory kolejowe 3x3"
 
 ["Tobbert.TrackXIntersection3x3.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -343,8 +287,6 @@ ruRU = "Пересечение в форме X для поездов."
 jaJP = "列車用のXの形をした交差点。"
 frFR = "Une intersection en forme de X pour les trains."
 deDE = "Eine Kreuzung in Form eines X für Züge."
-zhHK = "一個呈 X 形的火車交叉口。"
-plPL = "Skrzyżowanie w kształcie X dla pociągów."
 
 ["Tobbert.TrackXIntersection3x3.FlavorDescription"]
 raw = "I just cannot choose where to go..."
@@ -355,8 +297,6 @@ ruRU = "Я просто не могу выбрать, куда поехать...
 jaJP = "どこに行くか決められない…"
 frFR = "Je ne peux tout simplement pas choisir où aller..."
 deDE = "Ich kann mich einfach nicht entscheiden, wohin ich gehen soll..."
-zhHK = "我真係唔知道去邊度好..."
-plPL = "Po prostu nie mogę zdecydować, dokąd iść..."
 
 ["Tobbert.TrackRIntersection2x3.DisplayName"]
 raw = "Switch Train Track 2x3"
@@ -367,8 +307,6 @@ ruRU = "Переключить железнодорожные пути 2х3"
 jaJP = "切り替え線路 2x3"
 frFR = "Bascule de voie 2x3"
 deDE = "Weiche Gleis 2x3"
-zhHK = "轉換鐵路軌道 2x3"
-plPL = "Przełącz tor kolejowy 2x3"
 
 ["Tobbert.TrackRIntersection2x3.Description"]
 raw = "A switch in the form of a R for trains."
@@ -379,8 +317,6 @@ ruRU = "Выключатель в виде R для поездов."
 jaJP = "列車用のRの形をしたスイッチ。"
 frFR = "Un commutateur sous la forme d'un R pour les trains."
 deDE = "Ein Schalter in Form eines R für Züge."
-zhHK = "一個以R形狀的開關，用於火車。"
-plPL = "Przełącznik w formie R dla pociągów."
 
 ["Tobbert.TrackRIntersection2x3.FlavorDescription"]
 raw = "Where R we going?"
@@ -391,8 +327,6 @@ ruRU = "Куда мы идем?"
 jaJP = "どこに行くの？"
 frFR = "Où allons-nous ?"
 deDE = "Wohin gehen wir?"
-zhHK = "我哋要去邊度？"
-plPL = "Dokąd idziemy?"
 
 ["Tobbert.GoodsStation.DisplayName"]
 raw = "Goods station"
@@ -403,8 +337,6 @@ ruRU = "Грузовая станция"
 jaJP = "貨物駅"
 frFR = "gare de marchandises"
 deDE = "Güterbahnhof"
-zhHK = "貨運站"
-plPL = "Stacja towarowa"
 
 ["Tobbert.GoodsStation.Description"]
 raw = "Allows for transportation of goods by trains. A good can either be send or received at a station. Goods received will only be moved to storages that are set to obtain."
@@ -415,8 +347,6 @@ ruRU = "Позволяет транспортировать товары пое�
 jaJP = "貨物を列車で輸送することができます。貨物は駅で送信または受信することができます。受け取った貨物は、取得するように設定された保管場所にのみ移動されます。"
 frFR = "Permet le transport de marchandises par trains. Une marchandise peut être envoyée ou reçue à une station. Les marchandises reçues ne seront déplacées que vers des entrepôts configurés pour les recevoir."
 deDE = "Ermöglicht den Transport von Waren mit Zügen. Eine Ware kann entweder an einem Bahnhof versendet oder empfangen werden. Empfangene Waren werden nur in Lagerräume bewegt, die zum Erhalten eingestellt sind."
-zhHK = "允許貨物藉由火車運輸。一件貨物可以在車站發送或接收。接收的貨物只會被移動到設定為接收的儲存區。"
-plPL = "Umożliwia transport towarów pociągami. Towar może być wysłany lub odebrany na stacji. Odbierane towary będą przesuwane tylko do magazynów, które są ustawione na odbiór."
 
 ["Tobbert.GoodsStation.FlavorDescription"]
 raw = "Look at all the goods it can hold."
@@ -427,8 +357,6 @@ ruRU = "Посмотрите на все товары, которые он мо�
 jaJP = "それが持つことができるすべての品物を見てください。"
 frFR = "Regarde tous les biens qu'elle peut contenir."
 deDE = "Schau dir all die Waren an, die es halten kann."
-zhHK = "看看它可以容納的所有貨物。"
-plPL = "Zobacz wszystkie towary, które może pomieścić."
 
 ["Tobbert.PassengerStation.DisplayName"]
 raw = "Passenger station"
@@ -439,8 +367,6 @@ ruRU = "Пассажирский вокзал"
 jaJP = "乗 passenger 駅"
 frFR = "Gare de passagers"
 deDE = "Bahnhof"
-zhHK = "乘客站"
-plPL = "Dworzec pasażerski"
 
 ["Tobbert.PassengerStation.Description"]
 raw = "This stations allows beavers to get on the train and travel to another station that are connected to each other."
@@ -451,8 +377,6 @@ ruRU = "Эта станция позволяет бобрам садиться �
 jaJP = "この駅ではビーバーが電車に乗って、互いに接続された別の駅へ移動できます。"
 frFR = "Cette station permet aux castors de monter dans le train et de voyager vers une autre station qui est connectée à elle."
 deDE = "Dieser Bahnhof ermöglicht es Bibern, in den Zug einzusteigen und zu einem anderen Bahnhof zu reisen, der mit diesem verbunden ist."
-zhHK = "這個車站讓海狸可以上車，並且前往相互連接的另一個車站。"
-plPL = "Ta stacja umożliwia bobrom wsiadanie do pociągu i podróżowanie do innej stacji, które są ze sobą połączone."
 
 ["Tobbert.PassengerStation.FlavorDescription"]
 raw = "Beaver train!"
@@ -463,8 +387,6 @@ ruRU = "Бобровый поезд!"
 jaJP = "ビーバー列車！"
 frFR = "Train de castor !"
 deDE = "Biberzug!"
-zhHK = "河狸火車！"
-plPL = "Pociąg bobrów!"
 
 ["Tobbert.PassengerStation.DistrictObjectToggle"]
 raw = "Goes across districts:"
@@ -475,8 +397,6 @@ ruRU = "Проходит через районы:"
 jaJP = "地区を越えて行く："
 frFR = "Traverse les districts :"
 deDE = "Geht über die Distrikte hinweg:"
-zhHK = "跨區域："
-plPL = "Przechodzi przez dzielnice:"
 
 ["Tobbert.PassengerStation.DistrictObject"]
 raw = "When enabled will ONLY allow beavers to go passenger stations that also have this setting enabled and are in other districts."
@@ -487,8 +407,6 @@ ruRU = "Когда эта функция включена, бобры смогу
 jaJP = "有効にすると、ビーバーはこの設定が有効で、他の地区にある乗客駅にのみ行けるようになります。"
 frFR = "Lorsqu'il est activé, cela ne permettra uniquement aux castors de se rendre aux stations passagers qui ont également ce paramètre activé et qui se trouvent dans d'autres districts."
 deDE = "Wenn aktiviert, dürfen nur Biber zu Passagierstationen gehen, die ebenfalls diese Einstellung aktiviert haben und sich in anderen Bezirken befinden."
-zhHK = "當啟用時，將僅允許河狸前往啟用了此設置的乘客車站，並且這些車站位於其他區域。"
-plPL = "Gdy jest włączone, tylko bobry będą mogły korzystać z dworców pasażerskich, które również mają włączone to ustawienie i znajdują się w innych dzielnicach."
 
 ["Tobbert.PassengerStation.EmptyStation"]
 raw = "There are currently no passengers waiting."
@@ -499,8 +417,6 @@ ruRU = "В данный момент нет ожидющих пассажиро�
 jaJP = "現在、待機中の乗客はいません。"
 frFR = "Il n'y a actuellement aucun passager en attente."
 deDE = "Derzeit warten keine Passagiere."
-zhHK = "目前沒有乘客在等候。"
-plPL = "Obecnie nie ma pasażerów czekających."
 
 ["Tobbert.WaitingStation.DisplayName"]
 raw = "Waiting Station"
@@ -511,8 +427,6 @@ ruRU = "Станция ожидания"
 jaJP = "待機所"
 frFR = "Station d'attente"
 deDE = "Wartebereich"
-zhHK = "等候站"
-plPL = "Stacja oczekiwania"
 
 ["Tobbert.WaitingStation.Description"]
 raw = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure its not in any crucial paths."
@@ -523,8 +437,6 @@ ruRU = "Поезда могут ждать здесь, когда им нече�
 jaJP = "列車は特に何もすることがないときにここで待機できます。これにより、列車が線路を占有するのを防ぎます。列車はこれを回避できないため、重要な経路には置かないようにしてください。"
 frFR = "Les trains peuvent attendre ici quand ils n'ont rien à faire. Cela empêche les trains d'occuper les voies. Les trains ne peuvent pas se frayer un chemin à cause de cela, alors assurez-vous que ce n'est pas sur des chemins cruciaux."
 deDE = "Züge können hier warten, wenn sie nichts zu tun haben. Dies verhindert, dass Züge die Gleise besetzen. Züge können darüber nicht navigieren, also stelle sicher, dass es sich nicht auf wichtigen Wegen befindet."
-zhHK = "火車在沒有事可做的時候可以在這裡等候。這樣可以防止火車佔用軌道。火車無法在這上面導航，所以請確保它不在任何關鍵路徑上。"
-plPL = "Pociągi mogą tutaj czekać, gdy nie mają nic do zrobienia. Zapobiega to zajmowaniu torów przez pociągi. Pociągi nie mogą przechodzić przez ten obiekt, więc upewnij się, że nie znajduje się on na żadnych kluczowych trasach."
 
 ["Tobbert.WaitingStation.FlavorDescription"]
 raw = "When can I go again?"
@@ -535,8 +447,6 @@ ruRU = "Когда я могу снова пойти?"
 jaJP = "いつまた行けますか？"
 frFR = "Quand puis-je y aller à nouveau ?"
 deDE = "Wann kann ich wieder gehen?"
-zhHK = "我何時可以再去？"
-plPL = "Kiedy mogę znowu pójść?"
 
 ["Tobbert.TrainYard.DisplayName"]
 raw = "Train Yard"
@@ -547,8 +457,6 @@ ruRU = "Депо поездов"
 jaJP = "トレインヤード"
 frFR = "Dépôt de trains"
 deDE = "Bahnhof"
-zhHK = "火車場"
-plPL = "Podwórze kolejowe"
 
 ["Tobbert.TrainYard.Description"]
 raw = "A building that creates trains."
@@ -559,8 +467,6 @@ ruRU = "Здание, где создают поезда."
 jaJP = "列車を作る建物。"
 frFR = "Un bâtiment qui crée des trains."
 deDE = "Ein Gebäude, das Züge herstellt."
-zhHK = "一座製造列車的建築。"
-plPL = "Budynek, który produkuje pociągi."
 
 ["Tobbert.TrainYard.FlavorDescription"]
 raw = "This is where trains are born."
@@ -571,8 +477,6 @@ ruRU = "Здесь рождаются поезда."
 jaJP = "ここが列車が生まれる場所です。"
 frFR = "C'est ici que les trains naissent."
 deDE = "Hier werden Züge geboren."
-zhHK = "這裡是火車的誕生地。"
-plPL = "Tutaj rodzą się pociągi."
 
 ["Tobbert.TrainYard.CostOfTrain"]
 raw = "Cost of 1 train:"
@@ -583,8 +487,6 @@ ruRU = "Стоимость 1 поезда:"
 jaJP = "1台の電車の費用："
 frFR = "Coût d'un train :"
 deDE = "Kosten für 1 Zug:"
-zhHK = "1列車的成本："
-plPL = "Koszt 1 pociągu:"
 
 ["Tobbert.TrainYard.CreateTrain"]
 raw = "Build train"
@@ -595,8 +497,6 @@ ruRU = "Собрать поезд"
 jaJP = "列車を建設する"
 frFR = "Construire un train"
 deDE = "Bahn bauen"
-zhHK = "建造火車"
-plPL = "Zbuduj pociąg"
 
 ["Tobbert.Train.PrefabName"]
 raw = "Train"
@@ -607,8 +507,6 @@ ruRU = "Поезд"
 jaJP = "電車"
 frFR = "train"
 deDE = "Zug"
-zhHK = "火車"
-plPL = "Pociąg"
 
 ["Tobbert.Wagon.PrefabName"]
 raw = "Wagon"
@@ -619,8 +517,6 @@ ruRU = "вагон"
 jaJP = "ワゴン"
 frFR = "Wagon"
 deDE = "Wagen"
-zhHK = "貨車"
-plPL = "Wagon"
 
 ["Tobbert.TrainModel.TrainModel"]
 raw = "Train Model:"
@@ -631,8 +527,6 @@ ruRU = "Обучить модель:"
 jaJP = "トレインモデル："
 frFR = "Modèle d'entraînement :"
 deDE = "Trainmodell:"
-zhHK = "訓練模型："
-plPL = "Model Trenowany:"
 
 ["Tobbert.TrainModel.SmallLog"]
 raw = "Small Log"
@@ -643,8 +537,6 @@ ruRU = "Небольшой журнал"
 jaJP = "小さなログ"
 frFR = "Petit journal"
 deDE = "Kleines Protokoll"
-zhHK = "細小木頭"
-plPL = "Mały dziennik"
 
 ["Tobbert.TrainModel.BigWooden"]
 raw = "Big Wooden"
@@ -655,8 +547,6 @@ ruRU = "Большой деревянный"
 jaJP = "大きな木製"
 frFR = "Grand en bois"
 deDE = "Großes Holz"
-zhHK = "大木頭"
-plPL = "Wielkie Drewniane"
 
 ["Tobbert.WagonModel.WagonModel"]
 raw = "Wagon Model:"
@@ -667,8 +557,6 @@ ruRU = "Модель вагона:"
 jaJP = "ワゴンモデル："
 frFR = "Modèle de wagon :"
 deDE = "Wagenmodell:"
-zhHK = "車輛型號："
-plPL = "Model wagonu:"
 
 ["Tobbert.WagonModel.BoxWagon"]
 raw = "Box Wagon"
@@ -679,8 +567,6 @@ ruRU = "Ящик вагон"
 jaJP = "ボックスワゴン"
 frFR = "Wagon à boîte"
 deDE = "Bollerwagen"
-zhHK = "箱型馬車"
-plPL = "Wóz skrzyniowy"
 
 ["Tobbert.WagonModel.TankWagon"]
 raw = "Tank Wagon"
@@ -691,8 +577,6 @@ ruRU = "Цистерна"
 jaJP = "タンクワゴン"
 frFR = "Wagon-citerne"
 deDE = "Tankwagen"
-zhHK = "罐車"
-plPL = "Cysternowóz"
 
 ["Tobbert.WagonModel.FlatWagon"]
 raw = "Flat Wagon"
@@ -703,8 +587,6 @@ ruRU = "Плоская тележка"
 jaJP = "フラットワゴン"
 frFR = "Wagon plat"
 deDE = "Flachwagen"
-zhHK = "平板車"
-plPL = "Wóz płaski"
 
 ["Tobbert.WagonModel.FlipperWagon"]
 raw = "Gondola Wagon"
@@ -715,8 +597,6 @@ ruRU = "Гондольный вагон"
 jaJP = "ゴンドラワゴン"
 frFR = "Wagon gondole"
 deDE = "Gondelwagen"
-zhHK = "纜車貨車"
-plPL = "Wóz gondolowy"
 
 ["Tobbert.WagonModel.MetalCart"]
 raw = "Metal Cart"
@@ -727,8 +607,6 @@ ruRU = "Металлическая тележка"
 jaJP = "金属製のカート"
 frFR = "Chariot en métal"
 deDE = "Metallwagen"
-zhHK = "金屬手推車"
-plPL = "Wózek metalowy"
 
 ["Tobbert.WagonModel.PassengerWagon"]
 raw = "Passenger Wagon"
@@ -739,8 +617,6 @@ ruRU = "Пассажирский вагон"
 jaJP = "客車"
 frFR = "Wagon de passagers"
 deDE = "Passagierwagen"
-zhHK = "乘客車廂"
-plPL = "Wagon pasażerski"
 
 ["Tobbert.BatchControl.Trains"]
 raw = "Trains"
@@ -751,8 +627,6 @@ ruRU = "Поезда"
 jaJP = "電車"
 frFR = "Trains"
 deDE = "Züge"
-zhHK = "火車"
-plPL = "Pociągi"
 
 ["Tobbert.Train.Length"]
 raw = "Train Length:"
@@ -763,8 +637,6 @@ ruRU = "Длина поезда:"
 jaJP = "列車の長さ："
 frFR = "Longueur du train :"
 deDE = "Zuglänge:"
-zhHK = "列車長度："
-plPL = "Długość pociągu:"
 
 ["Tobbert.Train.Destroy"]
 raw = "Are you sure you want to destroy this train?"
@@ -775,8 +647,6 @@ ruRU = "Вы уверены, что хотите уничтожить этот �
 jaJP = "この列車を破壊してもいいですか？"
 frFR = "Êtes-vous sûr de vouloir détruire ce train ?"
 deDE = "Bist du dir sicher, dass du diesen Zug zerstören möchtest?"
-zhHK = "你確定要摧毀這班列車嗎？"
-plPL = "Czy na pewno chcesz zniszczyć ten pociąg?"
 
 ["Tobbert.GoodsStation.Distribution.Header"]
 raw = "Distributed goods"
@@ -787,8 +657,6 @@ ruRU = "Распределенные товары"
 jaJP = "配布された商品"
 frFR = "Biens distribués"
 deDE = "Verteilte Waren"
-zhHK = "分發商品"
-plPL = "Dobra dystrybuowane"
 
 ["Tobbert.GoodsStation.Distribution.Disabled.Info"]
 raw = "Distribution disabled by distribution settings."
@@ -799,8 +667,6 @@ ruRU = "Распределение отключено настройками р�
 jaJP = "配布設定により配布が無効になっています。"
 frFR = "Distribution désactivée par les paramètres de distribution."
 deDE = "Verteilung durch die Verteilungseinstellungen deaktiviert."
-zhHK = "由於分發設置禁用了分發。"
-plPL = "Dystrybucja wyłączona przez ustawienia dystrybucji."
 
 ["Tobbert.GoodsStation.Distribution.Sending.Info"]
 raw = "Distribution set to sending by distribution settings."
@@ -811,8 +677,6 @@ ruRU = "Распределение настроено на отправку по
 jaJP = "配布設定によって送信の設定が行われます。"
 frFR = "Distribution définie pour l'envoi selon les paramètres de distribution."
 deDE = "Verteilung auf Grundlage der Verteilungseinstellungen festgelegt."
-zhHK = "發送已根據分發設置進行分發。"
-plPL = "Rozkład ustawiony do wysyłania zgodnie z ustawieniami dystrybucji."
 
 ["Tobbert.GoodsStation.Distribution.Receiving.Info"]
 raw = "Distribution set to receiving by distribution settings."
@@ -823,8 +687,6 @@ ruRU = "Распределение установлено для получен�
 jaJP = "配布設定によって受信するように設定された配布。"
 frFR = "La distribution est réglée pour recevoir selon les paramètres de distribution."
 deDE = "Verteilung auf Empfang gemäß den Verteilungseinstellungen festgelegt."
-zhHK = "分發設置根據分發設置接收。"
-plPL = "Ustawienia dystrybucji ustawione na odbiór zgodnie z ustawieniami dystrybucji."
 
 ["Tobbert.BatchControl.GoodsStation"]
 raw = "Goods stations"
@@ -835,8 +697,6 @@ ruRU = "Грузовые станции"
 jaJP = "貨物駅"
 frFR = "Stations de marchandises"
 deDE = "Güterbahnhöfe"
-zhHK = "貨物站"
-plPL = "Stacje towarowe"
 
 ["Tobbert.BatchControl.DistributionDisabledAll"]
 raw = "Disable all distribution"
@@ -847,8 +707,6 @@ ruRU = "Отключить всю дистрибуцию"
 jaJP = "すべての配布を無効にする"
 frFR = "Désactiver toute distribution."
 deDE = "Deaktivieren Sie alle Verteilungen."
-zhHK = "禁用所有分發"
-plPL = "Wyłącz wszystkie dystrybucje."
 
 ["Tobbert.BatchControl.DistributionDisabled"]
 raw = "Distribution disabled"
@@ -859,8 +717,6 @@ ruRU = "Распределение отключено"
 jaJP = "配布が無効になっています"
 frFR = "Distribution désactivée"
 deDE = "Verteilung deaktiviert"
-zhHK = "分發已禁用"
-plPL = "Odmowa dystrybucji"
 
 ["Tobbert.BatchControl.DistributionDisabled.Description"]
 raw = "Completely disable the distribution of this good at this station."
@@ -871,8 +727,6 @@ ruRU = "Полностью отключите распределение это�
 jaJP = "この駅でのこの商品の配布を完全に停止してください。"
 frFR = "Désactivez complètement la distribution de ce produit à cette station."
 deDE = "Deaktivieren Sie die Verteilung dieses Guts an dieser Station vollständig."
-zhHK = "完全禁止在此站分發此商品。"
-plPL = "Całkowicie zablokować dystrybucję tego towaru na tej stacji."
 
 ["Tobbert.BatchControl.DistributionSendingAll"]
 raw = "Allow sending of all goods"
@@ -883,8 +737,6 @@ ruRU = "Разрешите отправку всех товаров"
 jaJP = "すべての商品の発送を許可します。"
 frFR = "Autoriser l'envoi de toutes les marchandises"
 deDE = "Erlauben Sie den Versand aller Waren."
-zhHK = "允許發送所有貨品"
-plPL = "Zezwól na wysyłkę wszystkich towarów."
 
 ["Tobbert.BatchControl.DistributionSending"]
 raw = "Allow sending"
@@ -895,8 +747,6 @@ ruRU = "Разрешить отправку"
 jaJP = "送信を許可する"
 frFR = "Autoriser l'envoi"
 deDE = "Erlauben zu senden"
-zhHK = "允許發送"
-plPL = "Zezwól na wysyłanie"
 
 ["Tobbert.BatchControl.DistributionSending.Description"]
 raw = "Station can send this good to other station. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -907,8 +757,6 @@ ruRU = "Станция может отправить этот товар на д
 jaJP = "ステーションはこの商品を他のステーションに送ることができます。ステーション内に入れることができる最大量は、右側の量によって決まります。"
 frFR = "La station peut envoyer cet article à une autre station. La quantité maximale pouvant être à l'intérieur de la station est déterminée par la quantité à droite."
 deDE = "Die Station kann diese Ware an eine andere Station senden. Die maximale Menge, die sich in der Station befinden kann, wird durch die Menge rechts bestimmt."
-zhHK = "站可以將這個物品發送到其他站。站內最大容量是由右邊的數量決定的。"
-plPL = "Stacja może wysyłać te dobra do innych stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie."
 
 ["Tobbert.BatchControl.DistributionReceivingAll"]
 raw = "Allow receiving of all goods"
@@ -919,8 +767,6 @@ ruRU = "Разрешите прием всех товаров"
 jaJP = "すべての商品の受け取りを許可する"
 frFR = "Permettre la réception de tous les biens"
 deDE = "Erlauben Sie den Empfang aller Waren."
-zhHK = "允許接收所有貨物"
-plPL = "Zezwól na przyjęcie wszystkich towarów."
 
 ["Tobbert.BatchControl.DistributionReceiving"]
 raw = "Allow receiving"
@@ -931,8 +777,6 @@ ruRU = "Разрешить получение"
 jaJP = "受信を許可する"
 frFR = "Autoriser la réception"
 deDE = "Empfang erlauben"
-zhHK = "允許接收"
-plPL = "Zezwól na odbieranie"
 
 ["Tobbert.BatchControl.DistributionReceiving.Description"]
 raw = "Station can receive this good that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -943,8 +787,6 @@ ruRU = "Станция может получать эти грузы, котор
 jaJP = "駅は他の駅から送られるこの商品を受け取ることができます。駅内に入ることができる最大の量は右側の量によって決まります。"
 frFR = "La station peut recevoir cette marchandise envoyée depuis d'autres stations. La quantité maximale pouvant être à l'intérieur de la station est déterminée par le montant à droite."
 deDE = "Die Station kann diese Waren empfangen, die von anderen Stationen gesendet werden. Die maximale Menge, die sich innerhalb der Station befinden kann, wird durch den Betrag rechts bestimmt."
-zhHK = "車站可以接收來自其他車站發送的貨物。車站內可容納的最大數量由右側的數量決定。"
-plPL = "Stacja może odbierać dobre, które są wysyłane z innych stacji. Maksymalna ilość, która może znajdować się wewnątrz stacji, jest określona przez ilość po prawej stronie."
 
 ["Tobbert.BatchControl.DecreaseMaximum"]
 raw = "Decrease max amount of goods"
@@ -955,8 +797,6 @@ ruRU = "Уменьшить максимальное количество тов�
 jaJP = "商品の最大量を減らす"
 frFR = "Diminuer la quantité maximale de marchandises"
 deDE = "Maximale Menge an Waren verringern"
-zhHK = "減少貨物的最大全數量"
-plPL = "Zmniejsz maksymalną ilość towarów."
 
 ["Tobbert.BatchControl.DecreaseMaximum.Description"]
 raw = "Decrease the maximum amount that can be inside the station. Click is -1 and holding shift is -10. Max capacity is 200."
@@ -967,8 +807,6 @@ ruRU = "Уменьшите максимальное количество, кот
 jaJP = "駅内に入る最大量を減らしてください。クリックは-1、シフトを押しながらは-10です。最大容量は200です。"
 frFR = "Réduisez le montant maximum qui peut être à l'intérieur de la station. Un clic correspond à -1 et maintenir la touche majuscule correspond à -10. La capacité maximale est de 200."
 deDE = "Verringern Sie den maximalen Betrag, der sich in der Station befinden kann. Ein Klick ist -1 und das Halten der Shift-Taste ist -10. Die maximale Kapazität beträgt 200."
-zhHK = "減少站內的最大容量。單擊減少1，按住Shift鍵則減少10。最大容量為200。"
-plPL = "Zmniejsz maksymalną ilość, która może znajdować się w stacji. Kliknięcie to -1, a przytrzymanie shift to -10. Maksymalna pojemność to 200."
 
 ["Tobbert.BatchControl.IncreaseMaximum"]
 raw = "Increase max amount of goods"
@@ -979,8 +817,6 @@ ruRU = "Увеличить максимальное количество тов�
 jaJP = "商品の最大数量を増やす"
 frFR = "Augmenter le montant maximum de biens"
 deDE = "Maximalmenge der Waren erhöhen"
-zhHK = "增加商品的最大數量"
-plPL = "Zwiększ maksymalną ilość towarów"
 
 ["Tobbert.BatchControl.IncreaseMaximum.Description"]
 raw = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
@@ -991,8 +827,6 @@ ruRU = "Увеличьте максимальное количество, кот
 jaJP = "駅内に入れる最大数を増やしてください。クリックで+1、Shiftを押しながらで+10です。最大容量は200です。"
 frFR = "Augmentez la quantité maximale pouvant être à l'intérieur de la station. Un clic correspond à +1 et maintenir la touche shift à +10. La capacité maximale est de 200."
 deDE = "Erhöhen Sie die maximale Menge, die sich im Bahnhof befinden kann. Ein Klick ist +1 und das Halten der Umschalttaste ist +10. Die maximale Kapazität beträgt 200."
-zhHK = "增加站內可容納的最大數量。點擊為 +1，按住 Shift 鍵為 +10。最大容量為 200。"
-plPL = "Zwiększ maksymalną liczbę, która może znajdować się w stacji. Kliknięcie to +1, a przytrzymanie klawisza shift to +10. Maksymalna pojemność to 200."
 
 ["Tobbert.TrackSystem.ToggleSectionDivider"]
 raw = "Divides sections:"
@@ -1003,8 +837,6 @@ ruRU = "Делит разделы:"
 jaJP = "セクションを分ける："
 frFR = "Diviser les sections :"
 deDE = "Teilt Abschnitte:"
-zhHK = "劃分部分："
-plPL = "Dzieli sekcje:"
 
 ["Tobbert.TrackSystem.ButtonChangeDirection"]
 raw = "Change direction"
@@ -1015,8 +847,6 @@ ruRU = "Смените направление"
 jaJP = "方向を変える"
 frFR = "Changer de direction"
 deDE = "Richtung ändern"
-zhHK = "轉向"
-plPL = "Zmień kierunek"
 
 ["Tobbert.TrackSystem.CollidingSectionDividers"]
 raw = "Cannot connect 2 Section Dividers"
@@ -1027,8 +857,6 @@ ruRU = "Невозможно соединить 2 разделителя сек�
 jaJP = "2つのセクションディバイダーを接続できません。"
 frFR = "Impossible de connecter 2 séparateurs de section."
 deDE = "Kann 2 Abschnitts-Trennwände nicht verbinden"
-zhHK = "無法連接兩個區段分隔符"
-plPL = "Nie można połączyć 2 separatorów sekcji."
 
 ["Tobbert.ToolGroup.Trains"]
 raw = "Trains"
@@ -1039,8 +867,6 @@ ruRU = "Поезда"
 jaJP = "電車"
 frFR = "Trains"
 deDE = "Züge"
-zhHK = "火車"
-plPL = "Pociągi"
 
 ["Tobbert.TrainYard.PreviewErrorMessage"]
 raw = "Only 1 Train Yard can be build"
@@ -1051,8 +877,6 @@ ruRU = "Можно построить только 1 склад поездов."
 jaJP = "トレインヤードは1つだけ建設できます。"
 frFR = "On ne peut construire qu'un seul dépôt de train."
 deDE = "Es kann nur ein Bahnhofsareal gebaut werden."
-zhHK = "只能建造1個火車場。"
-plPL = "Można zbudować tylko 1 stację towarową."
 
 ["Tobbert.Trains.UnlockPrompt"]
 raw = "You need to unlock {0} to build {1}."
@@ -1063,8 +887,6 @@ ruRU = "Вам нужно разблокировать {0}, чтобы пост�
 jaJP = "{0}を解除する必要があります。{1}を作成するために。"
 frFR = "Vous devez débloquer {0} pour construire {1}."
 deDE = "Sie müssen {0} freischalten, um {1} zu bauen."
-zhHK = "你需要解鎖 {0} 才能建造 {1}。"
-plPL = "Musisz odblokować {0}, aby zbudować {1}."
 
 ["Tobbert.DistributionTrain.MinimumOfItemsToMove"]
 raw = "Minimum of items to move:"
@@ -1075,8 +897,6 @@ ruRU = "Минимальное количество предметов для п
 jaJP = "移動するアイテムの最小数："
 frFR = "Quantité minimum d'articles à déplacer :"
 deDE = "Mindestanzahl an Artikeln, die bewegt werden müssen:"
-zhHK = "最少要搬的物品數量："
-plPL = "Minimalna liczba przedmiotów do przeniesienia:"
 
 ["Tobbert.TrainNavigation.Unstuck"]
 raw = "Turn Around"
@@ -1087,8 +907,6 @@ ruRU = "Развернись"
 jaJP = "振り向いてください"
 frFR = "Tourne-toi"
 deDE = "Dreh dich um"
-zhHK = "轉身"
-plPL = "Obróć się"
 
 ["Tobbert.TrainNavigation.NoWaitingStation"]
 raw = "No available Waiting Station found."
@@ -1099,8 +917,6 @@ ruRU = "Не найдено доступных станций ожидания."
 jaJP = "利用可能な待機所が見つかりませんでした。"
 frFR = "Aucune station d'attente disponible trouvée."
 deDE = "Keine verfügbare Wartestation gefunden."
-zhHK = "未找到可用的等候站。"
-plPL = "Nie znaleziono dostępnej stacji oczekiwania."
 
 ["Tobbert.TrainNavigation.NoWaitingStationShort"]
 raw = "No Waiting Station"
@@ -1111,8 +927,6 @@ ruRU = "Нет станции ожидания"
 jaJP = "待機所なし"
 frFR = "Aucune station d'attente"
 deDE = "Keine Wartestation"
-zhHK = "無候車站"
-plPL = "Brak stacji oczekiwania"
 
 ["Tobbert.TrainDestination.UnconnectedWarning"]
 raw = "Station is not connected to any other station."
@@ -1123,8 +937,6 @@ ruRU = "Станция не подключена ни к одной другой
 jaJP = "駅は他の駅に接続されていません。"
 frFR = "La station n'est connectée à aucune autre station."
 deDE = "Die Station ist mit keiner anderen Station verbunden."
-zhHK = "本站未連接到任何其他車站。"
-plPL = "Stacja nie jest połączona z żadną inną stacją."
 
 ["Tobbert.TrainDestination.UnconnectedWarningShort"]
 raw = "Unconnected station"
@@ -1135,8 +947,6 @@ ruRU = "Неподключенная станция"
 jaJP = "接続されていない駅"
 frFR = "Station non connectée"
 deDE = "Unverbundene Station"
-zhHK = "未連接的車站"
-plPL = "Stacja niepodłączona"
 
 ["Tobbert.ChooChooSettings.Header"]
 raw = "Choo! Choo!"
@@ -1147,8 +957,6 @@ ruRU = "Ту-ту!"
 jaJP = "チューチュー！"
 frFR = "Tchou! Tchou!"
 deDE = "Tuut! Tuut!"
-zhHK = "啤啤！啤啤！"
-plPL = "Ziu! Ziu!"
 
 ["Tobbert.ChooChooSettings.DefaultTrainModel"]
 raw = "Default Train model:"
@@ -1159,8 +967,6 @@ ruRU = "Модель по умолчанию для поезда:"
 jaJP = "デフォルトのトレインモデル："
 frFR = "Modèle d'entraînement par défaut :"
 deDE = "Standardzugmodell:"
-zhHK = "默認火車模型："
-plPL = "Domyślny model pociągu:"
 
 ["Tobbert.ChooChooSettings.DefaultWagonModel"]
 raw = "Default Wagon model:"
@@ -1171,8 +977,6 @@ ruRU = "Модель вагона по умолчанию:"
 jaJP = "デフォルトワゴンモデル："
 frFR = "Modèle de wagon par défaut :"
 deDE = "Standard-Wagenmodell:"
-zhHK = "默認貨車型號："
-plPL = "Domyślny model wagonu:"
 
 ["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
 raw = "Choo! Choo!"
@@ -1183,8 +987,6 @@ ruRU = "Чу! Чу!"
 jaJP = "チューチュー！"
 frFR = "Tchou! Tchou !"
 deDE = "Tschu! Tschu!"
-zhHK = "啵！啵！"
-plPL = "Czuczu! Czuczu!"
 
 ["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
 raw = "Open Goods Stations tab"
@@ -1195,5 +997,3 @@ ruRU = "Откройте вкладку «Станции открытых гру
 jaJP = "貨物駅タブを開く"
 frFR = "Ouvrir l'onglet Stations de marchandises"
 deDE = "Öffnen Sie die Registerkarte „Warenstationen“"
-zhHK = "打開貨物站標籤"
-plPL = "Otwórz zakładkę Stacje towarowe"

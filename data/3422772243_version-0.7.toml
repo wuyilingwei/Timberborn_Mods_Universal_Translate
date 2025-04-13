@@ -7,8 +7,6 @@ ruRU = "Неограниченный размер карты"
 jaJP = "無制限の地図サイズ"
 frFR = "Taille de carte illimitée"
 deDE = "Unbegrenzte Kartenhöhe"
-zhHK = "無限地圖大小"
-plPL = "Nielimitowany rozmiar mapy"
 
 ["LV.TAT.UnlimitedMapSizeDesc"]
 raw = "Remove the default map size limit of 256x256"
@@ -19,8 +17,6 @@ ruRU = "Уберите лимит по умолчанию для размера 
 jaJP = "デフォルトのマップサイズ制限256x256を解除する"
 frFR = "Supprimez la limite de taille de carte par défaut de 256x256."
 deDE = "Entfernen Sie die standardmäßige Kartenbegrenzung von 256x256."
-zhHK = "移除默認地圖大小限制256x256"
-plPL = "Usuń domyślny limit rozmiaru mapy wynoszący 256x256."
 
 ["LV.TAT.GameToMap"]
 raw = "Save game as map"
@@ -31,8 +27,6 @@ ruRU = "Сохранить игру как карту"
 jaJP = "ゲームを地図として保存"
 frFR = "Sauvegarder la partie en tant que carte"
 deDE = "Spiel speichern als Karte"
-zhHK = "將遊戲存檔為地圖"
-plPL = "Zapisz grę jako mapę"
 
 ["LV.TAT.GameToMapDesc"]
 raw = "Allow using your normal game to be saved into maps. The buttons will show up on the top-left corner when you play the game. You can also upload that map to Steam Workshop. NOT in Map Editor."
@@ -43,8 +37,6 @@ ruRU = "Позвольте сохранять вашу обычную игру �
 jaJP = "通常のゲームをマップに保存できるようにしてください。ゲームをプレイすると、ボタンが左上の隅に表示されます。そのマップをSteamワークショップにアップロードすることもできます。マップエディタではありません。"
 frFR = "Autorisez l'utilisation de votre jeu normal pour être sauvegardé dans des cartes. Les boutons apparaîtront dans le coin supérieur gauche lorsque vous jouerez au jeu. Vous pouvez également télécharger cette carte sur le Steam Workshop. PAS dans l'éditeur de cartes."
 deDE = "Erlaube es, dein normales Spiel in Karten zu speichern. Die Schaltflächen erscheinen in der oberen linken Ecke, wenn du das Spiel spielst. Du kannst diese Karte auch im Steam Workshop hochladen. NICHT im Karteneditor."
-zhHK = "允許將你的正常遊戲保存到地圖中。當你玩遊戲時，按鈕會顯示在左上角。你還可以將該地圖上傳到 Steam 工作坊。這不適用於地圖編輯器。"
-plPL = "Zezwól na zapisanie swojej normalnej gry jako mapy. Przycisk pojawi się w lewym górnym rogu podczas grania. Możesz także przesłać tę mapę do Steam Workshop. NIE w Edytorze Map."
 
 ["LV.TAT.LockOnSaveMap"]
 raw = "  Revert unlocking buildings"
@@ -55,8 +47,6 @@ ruRU = "Вернуть разблокировку зданий"
 jaJP = "建物のロック解除を元に戻す"
 frFR = "Restaurer le déblocage des bâtiments"
 deDE = "Die Entsperrung von Gebäuden rückgängig machen"
-zhHK = "恢復解鎖建築"
-plPL = "Przywróć odblokowane budynki"
 
 ["LV.TAT.LockOnSaveMapDesc"]
 raw = "When saving a map, revert the buildings to their original locked state. You may have unlocked them while making the map. If you do not check this, the buildings will remain unlocked for players starting a new game."
@@ -67,8 +57,6 @@ ruRU = "При сохранении карты верните здания в и
 jaJP = "マップを保存する際、建物を元のロック状態に戻してください。マップ作成中に建物のロックを解除しているかもしれません。このチェックを行わないと、新しいゲームを始めるプレイヤーに対して建物が解除されたままとなります。"
 frFR = "Lorsque vous enregistrez une carte, rétablissez les bâtiments à leur état verrouillé d'origine. Vous les avez peut-être déverrouillés en créant la carte. Si vous ne cochez pas cette option, les bâtiments resteront déverrouillés pour les joueurs qui commencent une nouvelle partie."
 deDE = "Beim Speichern einer Karte setzen Sie die Gebäude in ihren ursprünglichen gesperrten Zustand zurück. Sie haben sie möglicherweise beim Erstellen der Karte entsperrt. Wenn Sie dies nicht überprüfen, bleiben die Gebäude für Spieler, die ein neues Spiel beginnen, entsperrt."
-zhHK = "儲存地圖時，請將建築物恢復到它們原本被鎖定的狀態。你可能在製作地圖時解鎖了它們。如果你不檢查這個選項，建築物將對於開始新遊戲的玩家保持解鎖狀態。"
-plPL = "Podczas zapisywania mapy, przywróć budynki do ich pierwotnego zablokowanego stanu. Mogłeś je odblokować podczas tworzenia mapy. Jeśli tego nie zaznaczysz, budynki pozostaną odblokowane dla graczy rozpoczynających nową grę."
 
 ["LV.TAT.DefaultWaterSourceStrength"]
 raw = "Default water source strength"
@@ -79,8 +67,6 @@ ruRU = "Сила источника воды по умолчанию"
 jaJP = "デフォルトの水源の強度"
 frFR = "Force de la source d'eau par défaut"
 deDE = "Standardstärke der Wasserquelle"
-zhHK = "預設水源強度"
-plPL = "Domyślny poziom siły źródła wody"
 
 ["LV.TAT.DefaultWaterSourceStrengthDesc"]
 raw = "The default water source strength when placing water sources in the Map Editor. This applies to both fresh and bad water sources."
@@ -91,5 +77,3 @@ ruRU = "Стандартная сила источника воды при ра�
 jaJP = "マップエディタで水源を配置する際のデフォルトの水源の強さ。これは飲料水源と悪水源の両方に適用されます。"
 frFR = "La force par défaut des sources d'eau lors de la placement des sources d'eau dans l'Éditeur de Carte. Cela s'applique aux sources d'eau douce et aux sources d'eau polluée."
 deDE = "Die Standardstärke der Wasserquellen beim Platzieren von Wasserquellen im Karteneditor. Dies gilt sowohl für frische als auch für schlechte Wasserquellen."
-zhHK = "在地圖編輯器中放置水源時的預設水源強度。這適用於淡水和劣質水源。"
-plPL = "Domyślna siła źródła wody przy umieszczaniu źródeł wodnych w Edytorze Map. Dotyczy to zarówno świeżych, jak i złych źródeł wody."

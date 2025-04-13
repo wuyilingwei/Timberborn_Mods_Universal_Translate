@@ -7,8 +7,6 @@ ruRU = "Установите высоту, когда начинается за�
 jaJP = "干ばつが始まったときの高さを設定する"
 frFR = "Définir la hauteur lorsque la sécheresse commence"
 deDE = "Höhe festlegen, wenn die Dürre beginnt"
-zhHK = "在乾旱開始時設置高度"
-plPL = "Ustaw wysokość, gdy zaczyna się susza."
 
 ["Floodgate.Triggers.EnableOnDroughtEnded"]
 raw = "Set height when drought ends"
@@ -19,8 +17,6 @@ ruRU = "Установите высоту, когда засуха законч�
 jaJP = "干ばつが終わったときの高さを設定する"
 frFR = "Définir la hauteur lorsque la sécheresse se termine"
 deDE = "Die Höhe einstellen, wenn die Dürre endet."
-zhHK = "在乾旱結束時設置高度"
-plPL = "Ustaw wysokość, gdy susza się skończy."
 
 ["Floodgate.Schedule.Enable"]
 raw = "Set height on a schedule"
@@ -31,8 +27,6 @@ ruRU = "Установите высоту по расписанию"
 jaJP = "スケジュールに高さを設定する"
 frFR = "Définir la hauteur sur un emploi du temps"
 deDE = "Höhe nach einem Zeitplan festlegen"
-zhHK = "在日程上設定高度"
-plPL = "Ustaw wysokość w harmonogramie"
 
 ["Floodgate.Schedule.DisableOnDrought"]
 raw = "Disable schedule during drought"
@@ -43,8 +37,6 @@ ruRU = "Отключить расписание во время засухи"
 jaJP = "干ばつ中はスケジュールを無効にする"
 frFR = "Désactiver l'emploi du temps pendant la sécheresse"
 deDE = "Zeitplan während Dürre deaktivieren"
-zhHK = "在乾旱期間禁用排程"
-plPL = "Wyłącz harmonogram podczas suszy"
 
 ["Floodgate.Schedule.DisableOnTemperate"]
 raw = "Disable schedule during temperate"
@@ -55,8 +47,6 @@ ruRU = "Отключить расписание во время температ
 jaJP = "温度の間にスケジュールを無効にする"
 frFR = "Désactiver le programme pendant la période tempérée."
 deDE = "Zeitplan während Temperaturschwankungen deaktivieren"
-zhHK = "在温和时段禁用日程安排"
-plPL = "Wyłącz harmonogram podczas temperatury."
 
 ["Floodgate.Triggers.Time"]
 raw = "Time"
@@ -67,8 +57,6 @@ ruRU = "Время"
 jaJP = "時間"
 frFR = "Temps"
 deDE = "Zeit"
-zhHK = "時間"
-plPL = "Czas"
 
 ["Floodgate.Triggers.Height"]
 raw = "Height"
@@ -79,8 +67,6 @@ ruRU = "Высота"
 jaJP = "高さ"
 frFR = "Hauteur"
 deDE = "Höhe"
-zhHK = "高度"
-plPL = "Wysokość"
 
 ["Floodgate.Triggers.Basic"]
 raw = "Basic"
@@ -91,8 +77,6 @@ ruRU = "Основной"
 jaJP = "基本"
 frFR = "De base"
 deDE = "Grundlegend"
-zhHK = "基本"
-plPL = "Podstawowy"
 
 ["Floodgate.Triggers.Timer"]
 raw = "Timer"
@@ -103,8 +87,6 @@ ruRU = "Таймер"
 jaJP = "タイマー"
 frFR = "Minuteur"
 deDE = "Timer"
-zhHK = "計時器"
-plPL = "Zegar"
 
 ["Floodgate.Triggers.Advanced"]
 raw = "Advanced"
@@ -115,8 +97,6 @@ ruRU = "Продвинутый"
 jaJP = "高度な"
 frFR = "Avancé"
 deDE = "Fortgeschritten"
-zhHK = "高級"
-plPL = "Zaawansowany"
 
 ["Floodgate.Triggers.AttachToStreamGauge"]
 raw = "Attach Stream Gauge"
@@ -127,8 +107,6 @@ ruRU = "Прикрепите потоковый датчик"
 jaJP = "ストリームゲージを取り付ける"
 frFR = "Attacher le dispositif de mesure du débit d'eau"
 deDE = "Anschluss der Stream Gauge"
-zhHK = "附上水流計"
-plPL = "Zainstaluj czujnik przepływu"
 
 ["Floodgate.Triggers.PickStreamGaugeTitle"]
 raw = "Pick a Stream Gauge"
@@ -139,8 +117,6 @@ ruRU = "Выберите потоковый зонд"
 jaJP = "ストリームゲージを選択してください"
 frFR = "Choisissez un limiteur de débit."
 deDE = "Wählen Sie ein Strömungsmessgerät"
-zhHK = "選擇一個河流測流儀"
-plPL = "Wybierz miernik przepływu"
 
 ["Floodgate.Triggers.PickStreamGaugeTip"]
 raw = "No really,pick any."
@@ -151,8 +127,6 @@ ruRU = "Нет, действительно, выбирай любое."
 jaJP = "本当に、どれでも選んでください。"
 frFR = "Non vraiment, choisis n'importe lequel."
 deDE = "Wirklich, wähle einfach eine aus."
-zhHK = "唔好真係，隨便揀一個。"
-plPL = "Nie, naprawdę, wybierz dowolny."
 
 ["Floodgates.Triggers.NoLinks"]
 raw = "No Stream Gauges attached"
@@ -163,8 +137,6 @@ ruRU = "Нет подключенных потоковых датчиков"
 jaJP = "ストリームゲージが取り付けられていません"
 frFR = "Aucun capteur de débit attaché"
 deDE = "Keine Durchflussmessgeräte angeschlossen"
-zhHK = "沒有連接流量測量儀"
-plPL = "Brak podłączonych mierników strumienia"
 
 ["Floodgates.Triggers.NoFloodgateLinks"]
 raw = "No objects linked"
@@ -175,8 +147,6 @@ ruRU = "Нет связанных объектов."
 jaJP = "オブジェクトがリンクされていません"
 frFR = "Aucun objet lié"
 deDE = "Keine Objekte verknüpft"
-zhHK = "沒有連結的物件"
-plPL = "Brak powiązanych obiektów"
 
 ["Floodgates.Triggers.LinkedFloodgates"]
 raw = "Linked objects"
@@ -187,8 +157,6 @@ ruRU = "Связанные объекты"
 jaJP = "リンクされたオブジェクト"
 frFR = "Objets liés"
 deDE = "Verknüpfte Objekte"
-zhHK = "鏈接對象"
-plPL = "Obiekty powiązane"
 
 ["Floodgates.Triggers.Threshold1"]
 raw = "Stream Gauge low threshold"
@@ -199,8 +167,6 @@ ruRU = "Нижний порог измерения уровня потока"
 jaJP = "流量計低閾値"
 frFR = "Seuil bas du capteur de débit"
 deDE = "Strommeservers niedrige Schwelle"
-zhHK = "流量計低閾值"
-plPL = "Próg dolny pomiaru strumienia"
 
 ["Floodgates.Triggers.Threshold2"]
 raw = "Stream Gauge high threshold"
@@ -211,8 +177,6 @@ ruRU = "Высокий порог измерения потока"
 jaJP = "ストリームゲージの高閾値"
 frFR = "Seuil élevé du jauge de flotteur"
 deDE = "Strommessgerät hoher Schwellenwert"
-zhHK = "水流計高閾值"
-plPL = "Wysoki próg pomiaru strumienia"
 
 ["Floodgates.Triggers.HeightWhenBelowThreshold1"]
 raw = "Floodgate height below low threshold"
@@ -223,8 +187,6 @@ ruRU = "Высота затвора ниже нижнего предела"
 jaJP = "洪水ゲートの高さが低い閾値の下にある"
 frFR = "Hauteur de vanne d'inondation en dessous du seuil bas"
 deDE = "Die Höhe der Schleuse unterhalb des niedrigen Schwellenwerts."
-zhHK = "水閘高度低於低閾值"
-plPL = "Wysokość zasuwy powodziowej poniżej niskiego progu"
 
 ["Floodgates.Triggers.HeightWhenAboveThreshold2"]
 raw = "Floodgate height above high threshold"
@@ -235,8 +197,6 @@ ruRU = "Высота затвора над высоким порогом"
 jaJP = "高閾値以上の洪水ゲートの高さ"
 frFR = "Hauteur de la vanne de décharge au-dessus du seuil haut"
 deDE = "Höhe der Schleuse über der hohen Schwelle"
-zhHK = "洪閘高度超出高閾值"
-plPL = "Wysokość wrót powodziowych powyżej wysokiego progu"
 
 ["Floodgate.Triggers.PauseOnDroughtStart"]
 raw = "Pause when drought starts"
@@ -247,8 +207,6 @@ ruRU = "Приостановитесь, когда начинается засу
 jaJP = "干ばつが始まったら休憩する"
 frFR = "Mettre sur pause lorsque la sécheresse commence."
 deDE = "Pause, wenn Dürren beginnen."
-zhHK = "當乾旱開始時暫停"
-plPL = "Pauza, gdy zaczyna się susza."
 
 ["Floodgate.Triggers.UnpauseOnDroughtStart"]
 raw = "Unpause when drought starts"
@@ -259,8 +217,6 @@ ruRU = "Включите снова, когда начнется засуха."
 jaJP = "干ばつが始まったら再開する"
 frFR = "Reprenez lorsque la sécheresse commence"
 deDE = "Wiedereinsetzen, wenn die Dürre beginnt"
-zhHK = "在干旱開始時重新開始"
-plPL = "Wznów, gdy zacznie się susza"
 
 ["Floodgate.Triggers.UnpauseOnTemperateStart"]
 raw = "Unpause when temperate starts"
@@ -271,8 +227,6 @@ ruRU = "Возобновить, когда начнется умеренный �
 jaJP = "温度が始まったら再開します。"
 frFR = "Reprendre lorsque la température commence."
 deDE = "Wiedereinsetzen, wenn die Temperatur beginnt"
-zhHK = "當氣溫開始時解除暫停"
-plPL = "Wznów, gdy zacznie się sezon temperaturowy."
 
 ["Floodgate.Triggers.PauseOnTemperateStart"]
 raw = "Pause when temperate starts"
@@ -283,8 +237,6 @@ ruRU = "Приостановитесь, когда начинается умер
 jaJP = "温度が始まると一時停止する"
 frFR = "Faites une pause lorsque la température commence."
 deDE = "Pause, wenn die Temperatur beginnt."
-zhHK = "當溫度開始時暫停"
-plPL = "Pauza, gdy zaczyna się temperatura"
 
 ["Floodgates.WaterpumpTrigger.Threshold1"]
 raw = "Pause <"
@@ -295,8 +247,6 @@ ruRU = "Пауза <"
 jaJP = "一時停止<"
 frFR = "Pause <"
 deDE = "Pause <"
-zhHK = "暫停 <"
-plPL = "Pauza"
 
 ["Floodgates.WaterpumpTrigger.Threshold2"]
 raw = "Pause >"
@@ -307,8 +257,6 @@ ruRU = "Пауза >"
 jaJP = "ポーズ >"
 frFR = "Pause >"
 deDE = "Pause >"
-zhHK = "暫停 >"
-plPL = "Pauza >"
 
 ["Floodgates.WaterpumpTrigger.Threshold3"]
 raw = "Unpause <"
@@ -319,8 +267,6 @@ ruRU = "Разрешить продолжение"
 jaJP = "再開する"
 frFR = "Reprendre"
 deDE = "Wiedergabe fortsetzen"
-zhHK = "解除暫停 <"
-plPL = "Wznów"
 
 ["Floodgates.WaterpumpTrigger.Threshold4"]
 raw = "Unpause >"
@@ -331,8 +277,6 @@ ruRU = "Возобновить"
 jaJP = "再開する >"
 frFR = "Relancer >"
 deDE = "Wiedergabe fortsetzen >"
-zhHK = "取消暫停 >"
-plPL = "Wznów"
 
 ["Floodgates.WaterpumpTrigger.PauseStartTime"]
 raw = "Pause at"
@@ -343,8 +287,6 @@ ruRU = "Пауза на"
 jaJP = "ポーズを取る"
 frFR = "Pause à"
 deDE = "Pause bei"
-zhHK = "暫停於"
-plPL = "Pauza przy"
 
 ["Floodgates.WaterpumpTrigger.ResumeStartTime"]
 raw = "Resume at"
@@ -355,8 +297,6 @@ ruRU = "Резюме на"
 jaJP = "再開する"
 frFR = "Reprendre à"
 deDE = "Lebenslauf bei"
-zhHK = "重新開始於"
-plPL = "Wznowić na"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringDrought"]
 raw = "Disable during drought"
@@ -367,8 +307,6 @@ ruRU = "Отключить во время засухи"
 jaJP = "干ばつ中は無効にする"
 frFR = "Désactiver pendant la sécheresse"
 deDE = "Während der Dürre deaktivieren"
-zhHK = "在乾旱期間禁用"
-plPL = "Wyłączyć podczas suszy"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringTemperate"]
 raw = "Disable during temperate"
@@ -379,8 +317,6 @@ ruRU = "Отключить во время умеренности"
 jaJP = "温帯中に無効にする"
 frFR = "Désactiver pendant la période tempérée"
 deDE = "Während der gemäßigten Zeit deaktivieren"
-zhHK = "在温带期间禁用"
-plPL = "Wyłącz podczas temperaturowego."
 
 ["Floodgate.Triggers.PauseOnSchedule"]
 raw = "Pause on a schedule"
@@ -391,8 +327,6 @@ ruRU = "Пауза по расписанию"
 jaJP = "スケジュールの一時停止"
 frFR = "Pause sur un horaire"
 deDE = "Pause nach einem Zeitplan"
-zhHK = "按計劃暫停"
-plPL = "Przerwa w harmonogramie"
 
 ["Floodgate.Triggers.EnableOnBadtideStarted"]
 raw = "Set height when badtide starts"
@@ -403,8 +337,6 @@ ruRU = "Установите высоту, когда начинает подн�
 jaJP = "バッドタイドが始まったときの高さを設定する"
 frFR = "Définir la hauteur lorsque la mauvaise marée commence"
 deDE = "Höhe einstellen, wenn die Flut beginnt"
-zhHK = "當壞潮開始時設置高度"
-plPL = "Ustaw wysokość, gdy zaczyna się zła fala."
 
 ["Floodgate.Triggers.EnableOnBadtideEnded"]
 raw = "Set height when badtide ends"
@@ -415,8 +347,6 @@ ruRU = "Установите высоту, когда заканчивается
 jaJP = "干潮が終わったときに高さを設定する"
 frFR = "Définir la hauteur lorsque la marée basse se termine"
 deDE = "Höhe setzen, wenn Niedrigwasser endet"
-zhHK = "在壞潮結束時設置高度"
-plPL = "Ustaw wysokość, gdy kończy się odpływ."
 
 ["Floodgate.Schedule.DisableOnBadtide"]
 raw = "Disable schedule during badtide"
@@ -427,8 +357,6 @@ ruRU = "Отключить расписание во время плохого �
 jaJP = "干潮時にスケジュールを無効にする"
 frFR = "Désactiver l'horaire pendant les mauvaises marées"
 deDE = "Zeitplan während schlechter Tide deaktivieren"
-zhHK = "在低潮期間禁用排程"
-plPL = "Wyłącz harmonogram podczas złej pływy."
 
 ["Floodgates.WaterpumpTrigger.DisableDuringBadtide"]
 raw = "Disable during badtide"
@@ -439,8 +367,6 @@ ruRU = "Отключить во время низкой воды"
 jaJP = "悪潮の間は無効にする"
 frFR = "Désactiver pendant la mauvaise marée"
 deDE = "Während der schlechten Tide deaktivieren"
-zhHK = "在低潮期間禁用"
-plPL = "Wyłącz podczas złej pływy"
 
 ["Floodgate.Triggers.PauseOnBadtideStart"]
 raw = "Pause when badtide starts"
@@ -451,8 +377,6 @@ ruRU = "Пауза, когда начинается прилив."
 jaJP = "悪潮が始まったら一時停止してください。"
 frFR = "Faites une pause lorsque la marée mauvaise commence."
 deDE = "Pause, wenn die Flut beginnt."
-zhHK = "在壞潮開始時暫停"
-plPL = "Zatrzymaj się, gdy zacznie się zły przypływ."
 
 ["Floodgate.Triggers.UnpauseOnBadtideStart"]
 raw = "Unpause when badtide starts"
@@ -463,8 +387,6 @@ ruRU = "Возобновите, когда начнется плохая вол�
 jaJP = "バッドタイドが始まったら再開してください。"
 frFR = "Reprenez lorsque la mauvaise marée commence."
 deDE = "Wiedereinstellen, wenn die schlechte Flut beginnt"
-zhHK = "當壞潮開始時解除暫停"
-plPL = "Wznów, gdy zacznie się zła fala"
 
 ["Floodgates.Triggers.ContaminationThresholdLow"]
 raw = "Contamination low threshold"
@@ -475,8 +397,6 @@ ruRU = "Низкий порог загрязнения"
 jaJP = "汚染低しきい値"
 frFR = "Niveau de contamination faible"
 deDE = "Kontamination Niedrigschwelle"
-zhHK = "污染低閾值"
-plPL = "Niski próg zanieczyszczenia"
 
 ["Floodgates.Triggers.ContaminationThresholdHigh"]
 raw = "Contamination high threshold"
@@ -487,8 +407,6 @@ ruRU = "Высокий порог загрязнения"
 jaJP = "汚染の高い閾値"
 frFR = "Seuil élevé de contamination"
 deDE = "Kontaminationshochwert"
-zhHK = "污染高閾值"
-plPL = "Wysoki próg zanieczyszczenia"
 
 ["Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow"]
 raw = "Set height below low contamination"
@@ -499,8 +417,6 @@ ruRU = "Установите высоту ниже низкого уровня �
 jaJP = "低い汚染の下に高さを設定する"
 frFR = "Définir la hauteur en dessous de faible contamination"
 deDE = "Setze die Höhe unter niedrige Kontamination."
-zhHK = "將高度設置在低污染之下"
-plPL = "Ustaw wysokość poniżej niskiego zanieczyszczenia"
 
 ["Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh"]
 raw = "Set height above high contamination"
@@ -511,8 +427,6 @@ ruRU = "Установите высоту над высокой концентр
 jaJP = "高い汚染の上に高さを設定する"
 frFR = "Définir la hauteur au-dessus de la haute contamination"
 deDE = "Festlegen der Höhe über hoher Kontamination"
-zhHK = "設置高污染之上的高度"
-plPL = "Ustaw wysokość powyżej wysokiej kontaminacji"
 
 ["Floodgates.Triggers.Depth"]
 raw = "Depth"
@@ -523,8 +437,6 @@ ruRU = "Глубина"
 jaJP = "深さ"
 frFR = "Profondeur"
 deDE = "Tiefe"
-zhHK = "深度"
-plPL = "Głębokość"
 
 ["Floodgates.Triggers.Contamination"]
 raw = "Contamination"
@@ -535,8 +447,6 @@ ruRU = "Загрязнение"
 jaJP = "汚染"
 frFR = "Contamination"
 deDE = "Kontamination"
-zhHK = "污染"
-plPL = "Zanieczyszczenie"
 
 ["Floodgates.WaterSourceRegulator.Threshold1"]
 raw = "Close <"
@@ -547,8 +457,6 @@ ruRU = "Закрыть <"
 jaJP = "閉じる"
 frFR = "Fermer <"
 deDE = "Schließen"
-zhHK = "關閉<"
-plPL = "Zamknij <"
 
 ["Floodgates.WaterSourceRegulator.Threshold2"]
 raw = "Close >"
@@ -559,8 +467,6 @@ ruRU = "Закрыть >"
 jaJP = "閉じる"
 frFR = "Fermer >"
 deDE = "Schließen >"
-zhHK = "關閉 >"
-plPL = "Zamknij >"
 
 ["Floodgates.WaterSourceRegulator.Threshold3"]
 raw = "Open <"
@@ -571,8 +477,6 @@ ruRU = "Откройте <"
 jaJP = "開く<"
 frFR = "Ouvrir <"
 deDE = "Öffnen <"
-zhHK = "打開 <"
-plPL = "Otwórz <"
 
 ["Floodgates.WaterSourceRegulator.Threshold4"]
 raw = "Open >"
@@ -583,8 +487,6 @@ ruRU = "Открыть >"
 jaJP = "オープン >"
 frFR = "Ouvrir >"
 deDE = "Öffnen >"
-zhHK = "打開 >"
-plPL = "Otwórz >"
 
 ["Floodgates.WaterSourceRegulator.CloseStartTime"]
 raw = "Close at"
@@ -595,8 +497,6 @@ ruRU = "Закрыть в"
 jaJP = "閉まります at"
 frFR = "Fermer à"
 deDE = "Schließen um"
-zhHK = "關閉於"
-plPL = "Zamknij o"
 
 ["Floodgates.WaterSourceRegulator.OpenStartTime"]
 raw = "Open at"
@@ -607,8 +507,6 @@ ruRU = "Открыть в"
 jaJP = "開く時"
 frFR = "Ouvrir à"
 deDE = "Öffnen bei"
-zhHK = "開放於"
-plPL = "Otwórz o"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringDrought"]
 raw = "Disable during drought"
@@ -619,8 +517,6 @@ ruRU = "Отключить во время засухи"
 jaJP = "干ばつの間は無効にする"
 frFR = "Désactiver pendant la sécheresse"
 deDE = "Während Dürre deaktivieren"
-zhHK = "在旱季期間禁用"
-plPL = "Wyłącz w czasie suszy"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringTemperate"]
 raw = "Disable during temperate"
@@ -631,8 +527,6 @@ ruRU = "Отключить во время умеренного климата"
 jaJP = "温暖な間は無効にする"
 frFR = "Désactiver pendant la saison tempérée"
 deDE = "Deaktivieren während der gemäßigten Temperaturen"
-zhHK = "在氣溫時禁用"
-plPL = "Wyłącz podczas temperaturowych."
 
 ["Floodgate.WaterSourceRegulator.CloseOnDroughtStart"]
 raw = "Close when drought starts"
@@ -643,8 +537,6 @@ ruRU = "Закрыть, когда начинается засуха"
 jaJP = "干ばつが始まると閉じる"
 frFR = "Fermer lorsque la sécheresse commence"
 deDE = "Schließen, wenn die Dürre beginnt."
-zhHK = "在旱季開始時關閉"
-plPL = "Zamknij, gdy zaczyna się susza."
 
 ["Floodgate.WaterSourceRegulator.OpenOnDroughtStart"]
 raw = "Open when drought starts"
@@ -655,8 +547,6 @@ ruRU = "Откройте, когда начнётся засуха"
 jaJP = "干ばつが始まったら開けてください"
 frFR = "Ouvrir lorsque la sécheresse commence"
 deDE = "Öffnen, wenn die Dürre beginnt"
-zhHK = "乾旱開始時打開"
-plPL = "Otwórz, gdy zaczyna się susza"
 
 ["Floodgate.WaterSourceRegulator.OpenOnTemperateStart"]
 raw = "Open when temperate starts"
@@ -667,8 +557,6 @@ ruRU = "Откройте, когда начнется температура."
 jaJP = "気温が上がり始めたときに開けてください"
 frFR = "Ouvrir lorsque la température commence"
 deDE = "Öffnen, wenn die Temperaturen steigen"
-zhHK = "當氣候變暖時打開"
-plPL = "Otwórz, gdy zacznie się temperatura."
 
 ["Floodgate.WaterSourceRegulator.CloseOnTemperateStart"]
 raw = "Close when temperate starts"
@@ -679,8 +567,6 @@ ruRU = "Закройте, когда начинается температура
 jaJP = "温暖が始まったら閉じる"
 frFR = "Fermer lorsque la température commence"
 deDE = "Schließen, wenn die Temperatur beginnt."
-zhHK = "當溫帶開始時關閉"
-plPL = "Zamknij, gdy temperatura zaczyna się podnosić."
 
 ["Floodgate.WaterSourceRegulator.OpenOnBadtideStart"]
 raw = "Open when badtide starts"
@@ -691,8 +577,6 @@ ruRU = "Открой, когда начнется плохая влага"
 jaJP = "悪潮が始まったら開いてください"
 frFR = "Ouvrir quand la marée basse commence"
 deDE = "Öffnen, wenn die schlechte Flut beginnt"
-zhHK = "在壞潮開始時打開"
-plPL = "Otwórz, gdy zacznie się zła fala"
 
 ["Floodgate.WaterSourceRegulator.CloseOnBadtideStart"]
 raw = "Close when badtide starts"
@@ -703,8 +587,6 @@ ruRU = "Закрыть, когда начнется плохая волна."
 jaJP = "悪潮が始まったら閉じてください"
 frFR = "Fermez lorsque la marée basse commence."
 deDE = "Schließen, wenn das Niedrigwasser beginnt."
-zhHK = "在壞潮開始時關閉"
-plPL = "Zamknij, gdy zaczyna się zły przypływ."
 
 ["Floodgate.Schedule.CloseOnSchedule"]
 raw = "Close/Open on a schedule"
@@ -715,8 +597,6 @@ ruRU = "Закрыто/Открыто по расписанию"
 jaJP = "スケジュールに従って閉店/開店します。"
 frFR = "Fermer/Ouvrir selon un horaire"
 deDE = "Geschlossen/Öffnen nach einem Zeitplan"
-zhHK = "按時間表關閉/打開"
-plPL = "Zamknij/Otwórz zgodnie z harmonogramem"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringBadtide"]
 raw = "Disable during badtide"
@@ -727,8 +607,6 @@ ruRU = "Отключить во время плохого прилива"
 jaJP = "バッドタイド中に無効にする"
 frFR = "Désactiver pendant la marée basse"
 deDE = "Deaktivieren während der niedrigen Tide"
-zhHK = "在低潮期間禁用"
-plPL = "Wyłącz podczas złej pływy"
 
 ["Floodgates.Triggers.Empty"]
 raw = ""
@@ -739,5 +617,3 @@ ruRU = ""
 jaJP = ""
 frFR = ""
 deDE = ""
-zhHK = "Error"
-plPL = "Error"

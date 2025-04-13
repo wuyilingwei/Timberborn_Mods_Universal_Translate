@@ -7,8 +7,6 @@ ruRU = "Включить все"
 jaJP = "すべてを有効にする"
 frFR = "Activer Tout"
 deDE = "Alle aktivieren"
-zhHK = "啟用所有"
-plPL = "Włącz wszystko"
 
 ["DAM.EnableAllDesc"]
 raw = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
@@ -19,8 +17,6 @@ ruRU = "Отметьте, чтобы включить все модификац�
 jaJP = "退出時にすべてのモッドを有効にすることを確認してください。再起動が必要で、これは自動的にチェックが外れます。"
 frFR = "Cochez pour activer tous les mods à la sortie. Un redémarrage est nécessaire et cela est automatiquement décoché."
 deDE = "Überprüfen, um alle Mods beim Verlassen zu aktivieren. Ein Neustart ist erforderlich und dies wird automatisch deaktiviert."
-zhHK = "檢查以在退出時啟用所有模組。需要重啟，並且這會自動取消選中。"
-plPL = "Sprawdź, aby włączyć wszystkie mody po wyjściu. Wymagane ponowne uruchomienie, a to zostanie automatycznie odznaczone."
 
 ["DAM.DisableAll"]
 raw = "Disable All"
@@ -31,8 +27,6 @@ ruRU = "Отключить все"
 jaJP = "すべて無効にする"
 frFR = "Désactiver tout"
 deDE = "Alles deaktivieren"
-zhHK = "禁用全部"
-plPL = "Wyłącz wszystko"
 
 ["DAM.DisableAllDesc"]
 raw = "Check to disable all mods upon exit. Restart required and this is automatically unchecked."
@@ -43,8 +37,6 @@ ruRU = "Проверьте, чтобы отключить все моды при
 jaJP = "終了時にすべてのモッドを無効にするチェックボックス。再起動が必要で、自動的にチェックが外れます。"
 frFR = "Cocher pour désactiver tous les mods à la sortie. Un redémarrage est requis et cela est automatiquement décoché."
 deDE = "Überprüfen, um alle Mods beim Beenden zu deaktivieren. Ein Neustart ist erforderlich und dies ist standardmäßig deaktiviert."
-zhHK = "離開時檢查以禁用所有模組。需要重新啟動，並且這會自動取消選中。"
-plPL = "Sprawdź, aby wyłączyć wszystkie mody po wyjściu. Wymagane ponowne uruchomienie, a to opcja jest automatycznie odznaczona."
 
 ["DAM.KeepEnabled"]
 raw = "Keep Enabled"
@@ -55,8 +47,6 @@ ruRU = "Сохранить включенным"
 jaJP = "有効のままにする"
 frFR = "Rester activé"
 deDE = "Aktivieren Sie die Funktion"
-zhHK = "保持啟用"
-plPL = "Zachowaj włączone"
 
 ["DAM.KeepEnabledDesc"]
 raw = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
@@ -67,8 +57,6 @@ ruRU = "Список идентификаторов модов, разделён
 jaJP = "無効にするすべてのチェックボックスがオンの場合に、有効として保持するモッドIDのセミコロン';'区切りリスト。"
 frFR = "Liste d'ID de mod séparés par des points-virgules ';' à conserver activée si \"Désactiver tout\" est coché."
 deDE = "Semikolon ';' getrennte Liste von Mod-IDs, die aktiviert bleiben sollen, wenn \"Alle deaktivieren\" ausgewählt ist."
-zhHK = "如果選擇禁用所有，則用分號 ';' 分隔的模組 ID 列表，這些模組將保持啟用。"
-plPL = "Lista identyfikatorów modów oddzielonych średnikami ';', które należy zachować włączone, jeśli zaznaczone jest \"Wyłącz wszystko\"."
 
 ["DAM.LoadProfile"]
 raw = "Load profile"
@@ -79,8 +67,6 @@ ruRU = "Загрузить профиль"
 jaJP = "プロファイルを読み込む"
 frFR = "Charger le profil"
 deDE = "Profil laden"
-zhHK = "載入個人資料"
-plPL = "Załaduj profil"
 
 ["DAM.LoadProfileDesc"]
 raw = "Enable mods with ids from the 'mods.txt' file. It should be in the mod's folder."
@@ -91,8 +77,6 @@ ruRU = "Включите моды с идентификаторами из фа�
 jaJP = "'mods.txt' ファイルからの ID を持つ MOD を有効にします。それは MOD のフォルダ内にあるべきです。"
 frFR = "Activez les mods avec les identifiants du fichier 'mods.txt'. Il doit être dans le dossier des mods."
 deDE = "Aktivieren Sie Mods mit IDs aus der Datei 'mods.txt'. Sie sollte im Mod-Ordner sein."
-zhHK = "啟用來自「mods.txt」文件中的模組ID。該文件應該放在模組的資料夾內。"
-plPL = "Włącz modyfikacje z identyfikatorami znajdującymi się w pliku 'mods.txt'. Powinien być w folderze moda."
 
 ["DAM.SaveProfile"]
 raw = "Save profile"
@@ -103,8 +87,6 @@ ruRU = "Сохранить профиль"
 jaJP = "プロフィールを保存する"
 frFR = "Enregistrer le profil"
 deDE = "Profil speichern"
-zhHK = "保存個人檔案"
-plPL = "Zapisz profil"
 
 ["DAM.SaveProfileDesc"]
 raw = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
@@ -115,8 +97,6 @@ ruRU = "Сохраните включенные моды в файл 'mods.txt'.
 jaJP = "有効なモッドを'mods.txt'ファイルに保存します。それはモッドのフォルダーにあります。"
 frFR = "Enregistrez les mods activés dans le fichier 'mods.txt'. Il sera dans le dossier du mod."
 deDE = "Speichere aktivierte Mods in der Datei 'mods.txt'. Sie befindet sich im Ordner der Mods."
-zhHK = "將已啟用的模組保存到'mods.txt'文件中。該文件將位於模組的文件夾內。"
-plPL = "Zapisz włączone mody do pliku 'mods.txt'. Będzie on znajdował się w folderze moda."
 
 ["DAM.ViewProfileFolder"]
 raw = "View profile folder"
@@ -127,8 +107,6 @@ ruRU = "Посмотреть папку профиля"
 jaJP = "プロフィールフォルダーを表示"
 frFR = "Afficher le dossier de profil"
 deDE = "Profilordner anzeigen"
-zhHK = "查看個人資料文件夾"
-plPL = "Zobacz folder profilu"
 
 ["DAM.ViewProfileFolderDesc"]
 raw = "Open the folder where the 'mods.txt' file is located."
@@ -139,8 +117,6 @@ ruRU = "Откройте папку, в которой находится фай
 jaJP = "'mods.txt'ファイルがあるフォルダーを開いてください。"
 frFR = "Ouvrez le dossier où se trouve le fichier 'mods.txt'."
 deDE = "Öffne den Ordner, in dem sich die 'mods.txt'-Datei befindet."
-zhHK = "打開包含 'mods.txt' 文件的資料夾。"
-plPL = "Otwórz folder, w którym znajduje się plik 'mods.txt'."
 
 ["DAM.RestartGame"]
 raw = "OK & Restart the game"
@@ -151,5 +127,3 @@ ruRU = "Хорошо и перезапустите игру."
 jaJP = "OK & ゲームを再起動する"
 frFR = "D'accord & Redémarrer le jeu"
 deDE = "OK und das Spiel neu starten"
-zhHK = "確定 & 重新開始遊戲"
-plPL = "OK i zrestartuj grę"
