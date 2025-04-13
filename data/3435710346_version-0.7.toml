@@ -1,7 +1,7 @@
 ["Distribution.ImportAuto.Description"]
 raw = "Import the good only if there is a matching storage, workplace or construction site demand."
 enUS = "Import the goods only if there is a matching demand for storage, workplace, or construction site."
-zhCN = "仅在有匹配的仓储、工作场所或施工现场需求时才进口货物。"
+zhCN = "仅当存在匹配的仓储、工作场所需求或建设工地需求时，才会进口商品。"
 zhTW = "僅在有匹配的儲存、工作場所或施工現場需求時導入貨物。"
 ruRU = "Импортируйте товар только в том случае, если существует соответствующий спрос на склад, рабочее место или строительную площадку."
 jaJP = "需要が一致する保管場所、作業場、または建設現場がある場合のみ、商品を輸入してください。"
@@ -11,7 +11,7 @@ deDE = "Importieren Sie die Ware nur, wenn eine entsprechende Nachfrage nach Lag
 ["Distribution.ImportForced.Description"]
 raw = "Always import the good to the District Crossing even if there is no matching storage, workplace or construction site demand."
 enUS = "Always import the good to the District Crossing even if there is no matching storage, workplace, or construction site demand."
-zhCN = "即使没有匹配的存储、工作场所或施工现场需求，也要始终将良品引入区域交叉点。"
+zhCN = "即使没有匹配的仓储、工作场所需求或建设工地需求，也持续进口物品至地区交汇点。"
 zhTW = "即使沒有符合的儲存、工作場所或施工現場需求，也要始終將良品進口到區域交匯處。"
 ruRU = "Всегда импортируйте товар в Районный Перекресток, даже если нет соответствующего спроса на хранение, рабочее место или строительную площадку."
 jaJP = "常に、該当する保管、作業場、または建設現場の需要がなくても、良品を地区クロッシングに輸入してください。"
@@ -21,7 +21,7 @@ deDE = "Importiere immer die guten Waren in die District Crossing, auch wenn es 
 ["Distribution.ImportGoodTooltip.Importable"]
 raw = "Import enabled by storage, workplace or construction site demand."
 enUS = "Import enabled by demand from storage, workplaces, or construction sites."
-zhCN = "受存储、工作场所或建筑工地需求驱动的进口。"
+zhCN = "根据仓储、工作场所需求和建设工地需求进口。"
 zhTW = "由於儲存、工作場所或建築工地的需求而啟用進口。"
 ruRU = "Импорт осуществляется в зависимости от спроса на хранение, рабочие места или строительные площадки."
 jaJP = "ストレージ、作業場、または建設現場の需要によって有効な輸入。"
@@ -31,7 +31,7 @@ deDE = "Import ermöglicht durch die Nachfrage nach Lagerung, Arbeitsplatz oder 
 ["Distribution.ImportGoodTooltip.NonImportable"]
 raw = "Import blocked by the lack of storage, workplace and construction site demand in this district."
 enUS = "Import blocked by the lack of storage, workplace, and construction site demand in this district."
-zhCN = "由于该地区存储、工作场所和工地需求不足，进口被阻止。"
+zhCN = "该地区没有仓储、工作场所需求或建设工地需求，进口受阻。"
 zhTW = "因為這個區域缺乏儲存空間、工作場所和工地需求，進口受到阻礙。"
 ruRU = "Импорт заблокирован из-за отсутствия хранилищ, рабочих мест и спроса на строительные площадки в этом районе."
 jaJP = "この地区では、倉庫、作業場、建設現場の需要が不足しているため、輸入がブロックされています。"
