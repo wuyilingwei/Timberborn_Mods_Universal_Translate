@@ -6,11 +6,36 @@
 
 ## Join us
 
-First you need a GitHub account, then fill in JOIN US in the issue, and then I will give you editing permissions for the repository.
+```
+Video Games, our passion.
+Creativity. Innovation.
+Our part of life.
+But what if the text doesn't speak your language?
+No...I can't understand...
 
-You can directly use the Github web editor, or any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [Visual Studio Code](https://code.visualstudio.com/download)) to edit and upload your changes.
+*UNKNOWN LANGUAGES*
 
-An automatic script will syncs changes to Steam every hour.
+Look Familiar?
+Scenes like these are happening all over the internet, right now!
+You could be next.
+<- a exciting music ->
+That is unless you make the most important decision of your life.
+Prove to yourself that you have the dedication and skill to bridge language barriers.
+Join...the Translators.
+Become part of an elite force dedicated to expanding the modding universe.
+See the world through new words.
+And spread Each Idea across the globe.
+Become a hero.
+Become a legend.
+
+BECOME A TRANSLATOR.
+```
+
+First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
+
+You can directly use the Github web editor, or any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+
+An automatic script will create the latest language files based on `/data` and `mod updates keys`, and syncs changes to Steam every day.
 
 Notice: Please only change the files in the `/data`. The files in the `/mod` are generated based on the data directory and automatically updated, changes made in it are always directly overwritten.
 
