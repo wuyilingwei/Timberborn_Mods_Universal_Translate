@@ -1,54 +1,54 @@
 ID,Text,Comment
 LV.ARSP.AlternativeRecipesGroup,代替レシピ,-
-LV.ARSP.AlternativeRecipesGroupDesc,製造所の代替レシピをアンロックする,-
+LV.ARSP.AlternativeRecipesGroupDesc,製造所のための代替レシピをアンlockします,-
 LV.ARSP.LockReason,このレシピはまず科学プロジェクトで解除する必要があります。,-
 LV.ARSP.PlankBulkProcessing,プランクバルク処理,-
-LV.ARSP.PlankBulkProcessingLore,「積み上げて、高く、ゆっくり切れ—運ぶためのもっと多くの板だ！」— ブロードアックス・バルクチュー,-
-LV.ARSP.PlankBulkProcessingEff,プランクのバルク処理を解除：{0} 材木 ⇒ {1} プランクを {2} 時間で製材所で,-
-LV.ARSP.DirectLogForging,ダイレクトログフォージング,-
-LV.ARSP.DirectLogForgingLore,ビーバーは、丸太を粗い形にかじり、全く板の工程を飛ばしてそれらを歯車に叩き込むことができることに気付きました。粗削りですが、機能します。,-
-LV.ARSP.DirectLogForgingEff,ダイレクトログフォージング解除: {0} ログ ⇒ {1} ギアを {2} 時間でギア工房で,-
+LV.ARSP.PlankBulkProcessingLore,「高く積んで、ゆっくり切る—運ぶためのより多くの板！」 — ブローダエクス・バルクチュー,-
+LV.ARSP.PlankBulkProcessingEff,プランクの一括処理を解除： {0} 本の丸太 ⇒ {1} 本のプランクを {2} 時間で製材所で作成,-
+LV.ARSP.DirectLogForging,直接ログ偽造,-
+LV.ARSP.DirectLogForgingLore,ビーバーたちは、丸太をざっくりとした形にかじり、ギアにハンマーで叩き込むことができることを発見しました。板の工程を完全にスキップしています。粗末ですが、効果があります。,-
+LV.ARSP.DirectLogForgingEff,ダイレクトログフォージングを解除: {0} のログ ⇒ {1} のギアを {2} 時間でギアワークショップで,-
 LV.ARSP.RapidGearPress,ラピッドギアプレス,-
-LV.ARSP.RapidGearPressLore,プレスを急ぎ、余分な木を積み重ねることで、ビーバーはギアをより早く生産しますが、廃棄物の山も同様に早く増えていきます。,-
-LV.ARSP.RapidGearPressEff,ラピッドギアプレスをアンLOCK: {0} プランク ⇒ {1} ギアを {2} 時間でギアワークショップで,-
-LV.ARSP.HighYieldLogPress,ハイイールド・ログプレス,-
-LV.ARSP.HighYieldLogPressLore,試行錯誤の季節を経て、ビーバーたちは生の丸太を高速で歯車に変える水力駆動のプレスを完成させた—晩秋の類まれな巧妙さの驚きである。,-
-LV.ARSP.HighYieldLogPressEff,高収益ログプレスを解除: {0} ログ ⇒ {1} ギアを {2} 時間でギアワークショップで,-
-LV.ARSP.ResinFiredSmelter,樹脂焼成溶鉱炉,-
-LV.ARSP.ResinFiredSmelterLore,フォークテイルズは、松脂の粘着力を利用して、金属加工のためにゆっくりと安定して燃える炉を作り上げました。,-
-LV.ARSP.ResinFiredSmelterEff,レジン焼成炉をアンロック: {0} スクラップメタル + {1} パインレジン ⇒ {2} メタルブロックを {3} 時間で焼成炉で (フォークテイルズ専用),-
+LV.ARSP.RapidGearPressLore,急いで印刷工場を回し、余分な木材を積み重ねることで、ビーバーはギアをより早く作り出すが、廃棄物の山も同じくらい速く増える。,-
+LV.ARSP.RapidGearPressEff,ラピッドギアプレスを解除：{0} プランク ⇒ {1} ギアを {2} 時間でギアワークショップで,-
+LV.ARSP.HighYieldLogPress,ハイイールドログプレス,-
+LV.ARSP.HighYieldLogPressLore,試行錯誤の末、ビーバーたちは水力プレスを完璧に仕上げ、生の丸太を驚異的な速さで歯車に変えることができるようになった。これは遅い季節の驚くべき創意工夫の成果である。,-
+LV.ARSP.HighYieldLogPressEff,高収益ログプレスを解除: {0} ログ ⇒ {1} ギアを {2} 時間でギア工房で,-
+LV.ARSP.ResinFiredSmelter,樹脂焼成炉,-
+LV.ARSP.ResinFiredSmelterLore,フォークテイルズは、松の樹脂の粘着力を利用して、金属加工のためにゆっくりと安定して燃える溶鉱炉を作り上げました。,-
+LV.ARSP.ResinFiredSmelterEff,樹脂焼成炉のロックを解除: {0} スクラップメタル + {1} パイン樹脂 ⇒ {2} メタルブロックを{3}時間で溶鉱炉で（フォークテイル専用）,-
 LV.ARSP.WoodReinforcedAlloy,木材強化合金,-
-LV.ARSP.WoodReinforcedAlloyLore,「私たちが1枚の板を追加するごとに、金属は強くなる—自然と鉄が一体となる！」 — リーフクロー・メタルウィーバー,-
-LV.ARSP.WoodReinforcedAlloyEff,木材強化合金のロックを解除: {0} スクラップメタル + {1} 加工された板 ⇒ {2} メタルブロックを {3} 時間で溶鉱炉で製造 (フォークテイル専用),-
-LV.ARSP.SteelBoundPlanks,鋼鉄製の板材,-
-LV.ARSP.SteelBoundPlanksLore,アイアンティースの独創性が局面を変えた—金属のスクラップを溶解し、樹脂なしで板を硬化させる結合格子を作り出した。,-
-LV.ARSP.SteelBoundPlanksEff,スチールバウンドプランクのロックを解除：{0} プランク + {1} メタルブロック ⇒ {2} 処理済みプランクが {3} 時間で木工所（アイアンティース専用）で作成されます。,-
+LV.ARSP.WoodReinforcedAlloyLore,「私たちが追加するすべての板とともに、金属はより強くなる—自然と鉄が一体となる！」 — リーフクロー・メタルウィーバー,-
+LV.ARSP.WoodReinforcedAlloyEff,木強化合金のロックを解除: {0} スクラップメタル + {1} 加工板 ⇒ {2} メタルブロックを {3} 時間で溶鉱炉で（フォルクテイルのみ）,-
+LV.ARSP.SteelBoundPlanks,スチール製の束板,-
+LV.ARSP.SteelBoundPlanksLore,アイアンティースの独創性が状況を一変させた—金属のスクラップを溶解して、樹脂なしで板材を硬化させる結合格子を作り上げた。,-
+LV.ARSP.SteelBoundPlanksEff,スチールバウンドプランクを解除：{0} プランク + {1} メタルブロック ⇒ {2} 加工プランクが {3} 時間で木工所（アイアンティースのみ）で作成されます。,-
 LV.ARSP.TimberbotFramework,ティンバーボットフレームワーク,-
-LV.ARSP.TimberbotFrameworkLore,「私たちのボットは今、森の力で踊っています—スチールを超えた道板、フォークテイルズの勝利です！」 — ギアウィスカー・ティンバコグ,-
-LV.ARSP.TimberbotFrameworkEff,ティンバーボットフレームワークを解除してください：フォークテイルは、ボットのパーツに金属ブロックの代わりに処理済みの板を使用できます。また、シャーシにはバイオ燃料ももはや必要ありません。,-
+LV.ARSP.TimberbotFrameworkLore,「我々のボットは今、森の力で踊る—鋼の上に板、フォークテイルズの勝利！」 — ギアウィスカー・ティンバーコグ,-
+LV.ARSP.TimberbotFrameworkEff,ティンバーボットフレームワークを解除：フォルクテイルはボットパーツに金属ブロックの代わりに処理済みの板を使用できます。また、シャーシにはバイオ燃料も必要なくなりました。,-
 LV.ARSP.TimberbotChassis,ティンバーボットシャーシ,-
 LV.ARSP.TimberbotHeads,ティンバーボットヘッド,-
-LV.ARSP.SunflowerBiofuel,ヘリアンシックエンバーブレンド,-
-LV.ARSP.SunflowerBiofuelLore,「ひまわりは川よりも豊かな蜜をもたらす──それを控えめな塊根と混ぜれば、精製所は燃料に満ちた賛美歌を歌う！」 — ヘリアン・ネクタリーン,-
-LV.ARSP.SunflowerBiofuelEff,ヘリアンシックエンバーブレンドを解除する: {0} ポテト + {1} ヒマワリの種 ⇒ {2} バイオ燃料を {3} 時間後に精製所で（フォルクテイル専用）,-
-LV.ARSP.CrudeLogPressExtract,粗いログプレスエキストラクト,-
-LV.ARSP.CrudeLogPressExtractLore,「私たちは丸太を砕き、金属を削り取って、抽出物がだらだらと滴るまで続けます。遅くて乱雑だけど、そのユークの水に触れるよりはましだ！」 — プレスジョー・スクラップチュー,-
-LV.ARSP.CrudeLogPressExtractEff,粗い丸太プレス抽出を解除: {0} 本の丸太 + {1} の歯車 + {2} の廃金属 ⇒ {3} 抽出物が {4} 時間で工業用製材所（鉄の歯のみ）で得られます,-
+LV.ARSP.SunflowerBiofuel,ヘリアンシック・エンバー・ブレンド,-
+LV.ARSP.SunflowerBiofuelLore,「ひまわりは川よりも豊かな蜜を生み出します—それを控えめな根菜と混ぜれば、製油所は燃料たっぷりの賛美歌を歌います！」 — ヘリアン・ネクタリン,-
+LV.ARSP.SunflowerBiofuelEff,ヘリアンシック・エンバー・ブレンドを解放: {0} ポテト + {1} ヒマワリの種 ⇒ {2} バイオ燃料を {3} 時間で精錬所で (フォルクテイルのみ),-
+LV.ARSP.CrudeLogPressExtract,粗製ログプレス抽出物,-
+LV.ARSP.CrudeLogPressExtractLore,「私たちは丸太を砕き、金属をこすり合わせて抽出物が滴るまで—遅くて乱雑だけど、そのユーク水に触れるよりはましだ！」 — プレスジョー・スクラップチュー,-
+LV.ARSP.CrudeLogPressExtractEff,粗い木材プレス抽出を解除: {0} 本の丸太 + {1} 個のギア + {2} 個のスクラップ金属 ⇒ {3} 抽出物を {4} 時間で工業用製材工場で（鉄の歯のみ）,-
 LV.ARSP.DilutedExtract,希釈抽出物,-
-LV.ARSP.DilutedExtractLore,ビーバーは純粋な水と悪水を混ぜることで、泥からより多くの抽出物を引き出します。これは必要から生まれた巧妙な洗い方です。,-
-LV.ARSP.DilutedExtractEff,希釈抽出物を解除: {0} バッドウォーター + {1} 水 + {2} 標本 ⇒ {3} 抽出物を {4} 時間中に遠心分離機で,-
+LV.ARSP.DilutedExtractLore,ピュアウォーターとバッドウォーターをブレンドすることで、ビーバーは泥からより多くのエキスを引き出します。これは必要に迫られた賢いすすぎ方です。,-
+LV.ARSP.DilutedExtractEff,希釈抽出物を解放: {0} バッドウォーター + {1} 水 + {2} 原木 ⇒ {3} 抽出物が {4} 時間で遠心分離機で得られます,-
 LV.ARSP.WaterFilter,水フィルター,-
-LV.ARSP.WaterFilterLore,ビーバーは巧妙な遠心分離機の改良を考案し、処理した板を使用して不純な水をろ過し、スラッジから抽出物と新鮮な水の流れを得ました。,-
-LV.ARSP.WaterFilterEff,水フィルターを解除: {0} 汚水 + {1} 処理済み板 + {2} 板 ⇒ {3} 抽出物 + {4} 水を {5} 時間で土の掘削機で,-
-LV.ARSP.ExtractChargedExplosive,抽出された起爆火薬,-
-LV.ARSP.ExtractChargedExplosiveLore,「抽出物の一滴で、爆風が倍増する—それを噛み締めろ、岩の表面！」 — フリントポー・ブームフォージ,-
-LV.ARSP.ExtractChargedExplosiveEff,抽出された爆薬をアンロック: {0} 抽出 ⇒ {1} 爆薬を {2} 時間で爆薬工場で,-
-LV.ARSP.RapidCanolaCrush,スウィフトシードオイルスナップ,-
-LV.ARSP.RapidCanolaCrushLore,「スピードが全てに勝る—種を素早く挽き、油を流す、無駄が何であれ！」 — ボルトファー・グリースナップ,-
-LV.ARSP.RapidCanolaCrushEff,迅速なカノーラ圧縮を解除: {0} カノーラの種 ⇒ {1} カノーラ油を {2} 時間で油圧プレス（鉄製の歯のみ）で生成,-
-LV.ARSP.PrecisionOilYield,キャノーラエッセンス精製所,-
-LV.ARSP.PrecisionOilYieldLore,アイアンティースは、産業的な精巧さで菜種の種子から最後の一滴まで抽出する緻密なプレス法を完璧にしました。,-
-LV.ARSP.PrecisionOilYieldEff,精密なオイル収率を解放：{0} カノーラの種 + {1} 水 ⇒ {2} カノーラオイルを {3} 時間でオイルプレス（アイアンティースのみ）で生産,-
-LV.ARSP.SunDriedPulpSheets,日干しパルプシート,-
-LV.ARSP.SunDriedPulpSheetsLore,民話は太陽の温もりを利用し、木の丸太とヒマワリの pulpを混ぜて、彼らの土地のように広大な紙のシートを作り上げました。,-
-LV.ARSP.SunDriedPulpSheetsEff,干燥したパルプシートをアンロック：{0} 本の木 + {1} ひまわり ⇒ {2} 紙を {3} 時間で製紙工場で作成（フォルクテイルズのみ）,-
+LV.ARSP.WaterFilterLore,ビーバーは、処理されたプランクを使って悪水をろ過する巧妙な遠心分離器の改良を考案し、スラッジから抽出物とわずかな新鮮な水を得ました。,-
+LV.ARSP.WaterFilterEff,水フィルター解除: {0} 悪水 + {1} 処理済み板 + {2} 板 ⇒ {3} 抽出物 + {4} 水を {5} 時間で土の掘削機で行う,-
+LV.ARSP.ExtractChargedExplosive,抽出された炸薬,-
+LV.ARSP.ExtractChargedExplosiveLore,「一滴の抽出物で、爆発が二倍になる—それをかじりついてみろ、岩の壁！」— フリントパウ・ブームフォージ,-
+LV.ARSP.ExtractChargedExplosiveEff,抽出チャージ爆発物のロック解除: {0} 抽出 ⇒ {1} 爆薬が {2} 時間で爆薬工場にて,-
+LV.ARSP.RapidCanolaCrush,スイフトシードオイルスナップ,-
+LV.ARSP.RapidCanolaCrushLore,「速さが全てに勝る——種を素早く挽き、油を流し、無駄は何でもかまわない！」 — ボルトファー・グリーズナップ,-
+LV.ARSP.RapidCanolaCrushEff,ラピッドキャノーラ圧搾を解除：{0} キャノーラシード ⇒ {1} キャノーラオイルを {2} 時間でオイルプレス（アイアンティースのみ）で作成,-
+LV.ARSP.PrecisionOilYield,カナダ油エッセンス精製所,-
+LV.ARSP.PrecisionOilYieldLore,アイアンティースは緻密な圧搾方法を完成させ、産業的な巧みさでカノーラ種子から最後の一滴まで絞り出しました。,-
+LV.ARSP.PrecisionOilYieldEff,精密オイル収率を解放：{0} カノーラ種 + {1} 水 ⇒ {2} カノーラオイルを {3} 時間でオイルプレス（アイロンティースのみ）,-
+LV.ARSP.SunDriedPulpSheets,天日干しのパルプシート,-
+LV.ARSP.SunDriedPulpSheetsLore,フォルクテールは太陽の温もりを利用し、丸太とひまわりの pulp を混ぜ合わせて、彼らの畑と同じくらい広い紙のシートを作り出しました。,-
+LV.ARSP.SunDriedPulpSheetsEff,干し果実パルプシートを解放: {0} 本の丸太 + {1} 本のひまわり ⇒ {2} 枚の紙を製紙工場で {3} 時間で (フォークテイルズのみ),-
