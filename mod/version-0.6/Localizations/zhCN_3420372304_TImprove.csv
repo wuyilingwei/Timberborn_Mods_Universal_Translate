@@ -1,39 +1,39 @@
 ID,Text,Comment
-LV.TI.EnableFreeCamera,自由相机,-
-LV.TI.EnableFreeCameraDesc,勾选后，解除相机缩放限制。,-
-LV.TI.DisableFog,禁用雾气,-
-LV.TI.DisableFogDesc,勾选后，移除相机拉远时的雾气。,-
-LV.TI.PauseBadWeather,恶劣天气时暂停,-
-LV.TI.PauseBadWeatherDesc,勾选后，当恶劣天气开始时暂停游戏。,-
+LV.TI.EnableFreeCamera,启用自由相机,-
+LV.TI.EnableFreeCameraDesc,解除游戏中的相机限制。,-
+LV.TI.DisableFog,禁用雾效果,-
+LV.TI.DisableFogDesc,移除游戏中的雾。,-
+LV.TI.PauseBadWeather,由于恶劣天气暂停,-
+LV.TI.PauseBadWeatherDesc,在恶劣天气（干旱、潮汐不良）开始时暂停游戏。,-
 LV.TI.ShowCoords,显示坐标,-
-LV.TI.ShowCoordsDesc,勾选后，在右上角显示光标所指地块的坐标。,-
-LV.TI.CoordsLabel,坐标：({0}，{1}，{2}),-
+LV.TI.ShowCoordsDesc,在右上角显示块坐标。Z 是高度。尚不支持更新 7。,-
+LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
 LV.TI.HeightLabel,高度：{0},-
 LV.TI.OnlyShowHeight,仅显示高度,-
-LV.TI.OnlyShowHeightDesc,勾选后，仅显示高度而非完整坐标。,-
-LV.TI.PrioritizeRubbles,优先处理废墟,-
-LV.TI.PrioritizeRubblesDesc,勾选后，自动将废墟的优先级设置为高。,-
-LV.TI.AllDayLight,停止光照变化,-
-LV.TI.AllDayLightDesc,勾选后，将保持选定的光照环境，不再随时间变化。,-
+LV.TI.OnlyShowHeightDesc,仅显示高度，而不是完整坐标。,-
+LV.TI.PrioritizeRubbles,优先处理瓦砾,-
+LV.TI.PrioritizeRubblesDesc,自动将碎石的优先级设置为高。,-
+LV.TI.AllDayLight,没有日光变化,-
+LV.TI.AllDayLightDesc,仅限视觉/UI。所选的日光将始终保持不变，而不是在一天中变化。,-
 LV.TI.ShowGameTime,显示游戏时间,-
-LV.TI.ShowGameTimeDesc,勾选后，在右上角显示当前游戏时间。,-
-LV.TI.EnableSpeedS25,启用0.25倍速度 [Shift+1],-
-LV.TI.EnableSpeedS25Desc,勾选后，可以通过按下Shift+1将游戏速度设置为0.25倍速度。,-
+LV.TI.ShowGameTimeDesc,在右上角显示当前游戏时间。,-
+LV.TI.EnableSpeedS25,启用0.25倍速 [Shift+1],-
+LV.TI.EnableSpeedS25Desc,通过按 Shift+1 解锁游戏中的 0.25x 速度选项。通常，这仅在开发模式中可用。,-
 LV.TI.EnableSpeed4,启用30倍速度 [4],-
-LV.TI.EnableSpeed4Desc,勾选后，可以通过按下4将游戏速度设置为30倍速度。,-
-LV.TI.EnableSpeed5,启用99倍速度 [5] (!),-
-LV.TI.EnableSpeed5Desc,勾选后，可以通过按下5将游戏速度设置为99倍速度。请注意，此速度可能会导致游戏问题，如海狸饿死或渴死。,-
-LV.TI.StaticLight,固定光照,-
-LV.TI.StaticLightDesc,选定的光照环境。,-
+LV.TI.EnableSpeed4Desc,通过按下4，解锁游戏中的第四速度30倍选项。通常，这仅在开发模式下可用。,-
+LV.TI.EnableSpeed5,启用99倍速度[5] (!),-
+LV.TI.EnableSpeed5Desc,在游戏中按下5键解锁第5速度99倍选项。通常，这仅在开发模式下可用。请注意，这个速度不稳定，可能会导致游戏出现问题。有些人说海狸可能会一直感到饥饿和口渴。,-
+LV.TI.StaticLight,静态日光,-
+LV.TI.StaticLightDesc,仅限视觉/UI。这个白昼将始终保持不变。,-
 LV.TI.LightSunrise,日出,-
-LV.TI.LightDay,白天,-
+LV.TI.LightDay,天,-
 LV.TI.LightSunset,日落,-
 LV.TI.LightNight,夜晚,-
 LV.TI.QuickQuit,快速/强制退出 [Ctrl + Shift + Q] (!),-
-LV.TI.QuickQuitDesc,勾选后，可以通过按下Ctrl + Shift + Q立即强制退出游戏。请注意，不会保存游戏状态。,-
-LV.TI.BiggerBuildDragArea,更大的建造拖动区域 (!),-
-LV.TI.BiggerBuildDragAreaDesc,增加建筑物或道路的建造拖动区域大小。请注意，会显著增加加载时间和内存使用。设置为X将使拖动区域从NxN变为(N+X)x(N+X)。只能在主菜单中更改。,-
-LV.TI.AutoClearDeadTrees,立即清除枯树,-
-LV.TI.AutoClearDeadTreesDesc,勾选后，使用“标记资源以拆除”工具时会直接清除枯树，无需海狸操作。,-
-LV.TI.AddRealTimeClock,添加现实时钟,-
-LV.TI.AddRealTimeClockDesc,勾选后，在右上角添加一个显示现实时间的时钟。,-
+LV.TI.QuickQuitDesc,按 Ctrl + Shift + Q 可立即强制退出游戏，终止游戏进程。不会保存任何内容或清理游戏状态。请小心！,-
+LV.TI.BiggerBuildDragArea,更大的拖曳面积 (!),-
+LV.TI.BiggerBuildDragAreaDesc,增加建筑物的拖动区域，例如大坝（默认10x10）或道路（25）。这会显著增加加载时间和内存使用，因此请谨慎使用。例如，将其设置为5将使拖动区域变为15x15的大坝或30条道路。只能在主菜单中进行更改。,-
+LV.TI.AutoClearDeadTrees,立即清除死树,-
+LV.TI.AutoClearDeadTreesDesc,使用“标记资源以进行拆除”工具时，请立即自动清除没有海狸的枯死树木（就像您在其上建造东西一样）。,-
+LV.TI.AddRealTimeClock,添加实时时钟,-
+LV.TI.AddRealTimeClockDesc,在右上角添加一个实时时钟。这对想要在游戏中跟踪时间的玩家很有用。,-

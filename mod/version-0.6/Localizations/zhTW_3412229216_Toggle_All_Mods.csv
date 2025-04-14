@@ -1,14 +1,14 @@
 ID,Text,Comment
 DAM.EnableAll,啟用全部,-
-DAM.EnableAllDesc,檢查以在退出時啟用所有模組。需要重新啟動，這將自動取消選中。,-
-DAM.DisableAll,全部禁用,-
-DAM.DisableAllDesc,退出時檢查以禁用所有模組。需要重新啟動並且這會自動取消勾選。,-
+DAM.EnableAllDesc,檢查以在退出時啟用所有模組。需要重新啟動，並且這會自動取消選中。,-
+DAM.DisableAll,禁用所有,-
+DAM.DisableAllDesc,在退出時檢查以禁用所有模組。需要重啟，此選項會自動取消選取。,-
 DAM.KeepEnabled,保持啟用,-
-DAM.KeepEnabledDesc,如果選擇了「禁用所有」，則保持啟用的模組 ID 的半形分號 ';' 分隔列表。,-
-DAM.LoadProfile,載入個人資料,-
-DAM.LoadProfileDesc,啟用來自'mods.txt'檔案的模組ID。該檔案應位於模組的資料夾中。,-
-DAM.SaveProfile,儲存檔案,-
-DAM.SaveProfileDesc,將啟用的模組儲存到「mods.txt」檔案中。它會在模組的資料夾中。,-
+DAM.KeepEnabledDesc,如果選中“禁用所有”，則保留啟用的 mod ID 的分號 ';' 分隔列表。,-
+DAM.LoadProfile,載入配置檔,-
+DAM.LoadProfileDesc,啟用來自「mods.txt」檔案的模組 ID。該檔案應該位於模組的資料夾中。,-
+DAM.SaveProfile,保存個人資料,-
+DAM.SaveProfileDesc,將已啟用的模組保存到 'mods.txt' 文件中。它會在模組的資料夾裡。,-
 DAM.ViewProfileFolder,查看個人資料夾,-
-DAM.ViewProfileFolderDesc,打開包含 'mods.txt' 文件的資料夾。,-
-DAM.RestartGame,好的並重新開始遊戲,-
+DAM.ViewProfileFolderDesc,打開存放'mods.txt'文件的資料夾。,-
+DAM.RestartGame,好的，重新開始遊戲,-

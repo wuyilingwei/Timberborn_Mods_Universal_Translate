@@ -1,90 +1,90 @@
 ID,Text,Comment
 LV.SP.Title,Wissenschaftliche Projekte,-
-LV.SP.Welcome,"Vielen Dank, dass Sie das Scientific Projects-Modul verwenden. Dieser Bildschirm ist der Ort, an dem Sie die Projekte freischalten und verwalten können. Sie können ihn öffnen, indem Sie auf die Wissenschafts-Schaltfläche oben links auf dem Bildschirm klicken oder eine Tastenkombination drücken (Standard: Y, Sie können es in den Tasteneinstellungen neu belegen).",-
+LV.SP.Welcome,"Vielen Dank, dass Sie das Scientific Projects-Modul verwenden. Dieser Bildschirm ist der Ort, an dem Sie die Projekte freischalten und verwalten können. Sie können ihn öffnen, indem Sie auf die Wissenschafts-Schaltfläche oben links auf dem Bildschirm klicken oder eine Tastenkombination drücken (Standard: Y, Sie können sie in den Tastenbelegungs-Einstellungen neu belegen).",-
 KeyBinding.ScientificProjectDialog,Wissenschaftliche Projekte Bildschirm,-
 LV.SP.Unlocked,Freigeschaltet!,-
-LV.SP.PreqLocked,"Erfordert {0}, um freizuschalten.",-
-LV.SP.NotEnoughScienceNextDay,"Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie den heutigen Tag. Warnung: Wenn Sie die Esc-Taste drücken, werden die Projekte für heute übersprungen.",-
+LV.SP.PreqLocked,"Benötigt {0}, um freigeschaltet zu werden.",-
+LV.SP.NotEnoughScienceNextDay,"Sie haben nicht genug Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie sie für heute. Warnung: Durch Drücken von Esc werden die Projekte für heute übersprungen.",-
 LV.SP.CurrentScience,Aktuelle Wissenschaft: {0},-
 LV.SP.CurrentSciencePlus,Aktuelle Wissenschaft: {0} ({1} von gestern),-
 LV.SP.UnlockErrUnlocked,Dieses Projekt ist bereits entsperrt.,-
-LV.SP.UnlockErrRequirementLocked,"Dieses Projekt erfordert {0}, um entsperrt zu werden.",-
+LV.SP.UnlockErrRequirementLocked,"Dieses Projekt erfordert {0}, um freigeschaltet zu werden.",-
 LV.SP.UnlockErrCostLocked,"Du hast nur {0} Wissenschaft, aber du benötigst {1} Wissenschaft, um dieses Projekt freizuschalten.",-
 LV.SP.UnlockConfirm,"Sind Sie sicher, dass Sie {0} mit {1} Wissenschaft freischalten möchten?",-
 LV.SP.CustomCost,Kosten pro Tag:,-
 LV.SP.ScienceStepCost,{0} pro Level,-
-LV.SP.CurrentCost,Kosten für den nächsten Tag: {0}/d,-
-LV.SP.Level,Stufe,-
+LV.SP.CurrentCost,Nächster Tag Kosten: {0}/d,-
+LV.SP.Level,Ebene,-
 LV.SP.ActiveLevel,Aktives Level: {0},-
-LV.SP.DayCostNotice,"Die täglichen Wissenschaftskosten werden zu Beginn jedes Tages abgezogen, und die Auswirkungen bleiben den gesamten Tag über gleich.",-
-LV.SP.NextDayCost,Kosten für den nächsten Tag: {0},-
+LV.SP.DayCostNotice,Die täglichen Wissenschaftskosten werden zu Beginn eines jeden Tages abgezogen und die Auswirkungen bleiben den ganzen Tag über gleich.,-
+LV.SP.NextDayCost,Nächster Tag Kosten: {0},-
 LV.SP.PayDayCost,Zahlung für den Tag,-
 LV.SP.NotEnoughSciencePay,"Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie heute.",-
-LV.SP.SkipConfirm,"Bist du dir sicher, dass du die Projekte für heute überspringen möchtest?",-
-LV.SP.SkipToday,Überspringe heute,-
+LV.SP.SkipConfirm,"Bist du dir sicher, dass du die Projekte für heute auslassen möchtest?",-
+LV.SP.SkipToday,Heute überspringen.,-
 LV.SP.WrongFaction,Dieses Projekt kann von dieser Fraktion nicht freigeschaltet werden.,-
-LV.SP.ReloadNotice,"Bitte speichern Sie das Spiel und laden Sie es neu, damit dieses Projekt wirksam wird.",-
-LV.SP.ReloadNeeded,[Neu laden erforderlich],-
+LV.SP.ReloadNotice,"Bitte speichern Sie und laden Sie das Spiel neu, damit dieses Projekt wirksam wird.",-
+LV.SP.ReloadNeeded,[Erneutes Laden erforderlich],-
 LV.SP.WorkEffGroup,Arbeitseffizienz,-
 LV.SP.WorkEffGroupDesc,Steigern Sie die Arbeitseffizienz für Ihre Kolonie.,-
 LV.SP.LogisticGroup,Logistik,-
-LV.SP.LogisticGroupDesc,Erhöhen Sie die Bewegungsgeschwindigkeit und den Fluss von Ressourcen.,-
+LV.SP.LogisticGroupDesc,Erhöhe die Bewegungsgeschwindigkeit und den Fluss der Ressourcen.,-
 LV.SP.WorkEffUpgrade1,Präzisionswerkzeuge,-
-LV.SP.WorkEffUpgrade1Eff,Erhöht dauerhaft die Arbeitseffizienz aller Bieber um {0:+#%}.,-
-LV.SP.WorkEffUpgrade1Lore,"Nachdem sie die Pläne für Hooman-Werkzeuge ausgegraben haben, fertigen Biber schärfere Klingen mit altmodischen Tricks an, um die Effizienz zu steigern.",-
-LV.SP.WorkEffUpgrade2,Präzisionswerkzeugwartung,-
-LV.SP.WorkEffUpgrade2Lore,"'Eine wasserbetriebene Schleifmaschine gebaut – hält unsere Werkzeuge bereit zum Nagen, beschleunigt jede Aufgabe über die Zeit!' — Chiseljaw Timberchew",-
-LV.SP.WorkEffUpgrade2Eff,{0:+#%} zusätzliche Arbeitsleistung aller Biber pro Level.,-
-LV.SP.WorkEffUpgrade2Cost,[Kosten] pro Ebene und {1} für jeden {2} erwachsenen Biber (aufgerundet),-
+LV.SP.WorkEffUpgrade1Eff,Erhöht dauerhaft die Arbeitseffizienz aller Biber um {0:+#%}.,-
+LV.SP.WorkEffUpgrade1Lore,"Nachdem sie die Pläne für menschliche Werkzeuge ausgegraben haben, stellen Biber mit altmodischen Tricks schärfere Klingen her, was die Effizienz steigert.",-
+LV.SP.WorkEffUpgrade2,Wartung von Präzisionswerkzeugen,-
+LV.SP.WorkEffUpgrade2Lore,"'Sie haben einen wasserbetriebenen Schärfer gebaut - hält unsere Werkzeuge bereit, beschleunigt jede Aufgabe im Laufe der Zeit!' — Chiseljaw Timberchew",-
+LV.SP.WorkEffUpgrade2Eff,{0:+#%} zusätzliche Arbeitsleistung aller Biber pro Stufe.,-
+LV.SP.WorkEffUpgrade2Cost,[Kosten] pro Stufe und {1} für jede {2} erwachsene Biber (aufgerundet),-
 LV.SP.MoveSpeedUpgrade1,Leichte Hausschuhe,-
-LV.SP.MoveSpeedUpgrade1Lore,"'Diese Hausschuhe lassen mich fühlen, als würde ich über Wasser gleiten.' — Whiskertail Quickpaw",-
+LV.SP.MoveSpeedUpgrade1Lore,"""Diese Hausschuhe lassen mich fühlen, als würde ich über Wasser gleiten."" — Whiskertail Quickpaw",-
 LV.SP.MoveSpeedUpgradeEff,Erhöht dauerhaft die Bewegungsgeschwindigkeit aller Biber um {0:+#%} (stapelt sich mit anderen Projekten).,-
-LV.SP.MoveSpeedUpgrade2,Haltbare Wanderstiefel,-
-LV.SP.MoveSpeedUpgrade2Lore,Hart wie Biberzähne verwandeln diese Stiefel raue Wege in glatte Pfade für schnelles Reisen.,-
-LV.SP.MoveSpeedUpgrade3,Aerodynamische Sprint-Ausrüstung,-
-LV.SP.MoveSpeedUpgrade3Lore,'In diesem Gang laufe ich nicht nur; ich bin ein flauschiger Blitz aus purer Geschwindigkeit!' — Swiftstream Windrunner,-
-LV.SP.MoveSpeedUpgradeBuff,Bewegungsgeschwindigkeitsprojekte,-
-LV.SP.MoveSpeedUpgradeBuffDesc,"Ihr überlegenes Ausrüstung ermöglicht es Ihren Charakteren, sich schneller zu bewegen.",-
-LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} Bewegungsgeschwindigkeit von {1},-
-LV.SP.WorkEffUpgradeBuff,Arbeitsxadeffizienzxadprojekte,-
+LV.SP.MoveSpeedUpgrade2,Haltbare Trailstiefel,-
+LV.SP.MoveSpeedUpgrade2Lore,Hart wie Biberzähne verwandeln diese Stiefel raue Wege in sanfte Pfade für schnelles Reisen.,-
+LV.SP.MoveSpeedUpgrade3,Aerodynamisches Sprint-Equipment,-
+LV.SP.MoveSpeedUpgrade3Lore,'In diesem Gang laufe ich nicht nur; ich bin ein pelziger verschwommener Fleck reiner Geschwindigkeit!' — Swiftstream Windrunner,-
+LV.SP.MoveSpeedUpgradeBuff,Bewegungsgeschwindigkeit Projekte,-
+LV.SP.MoveSpeedUpgradeBuffDesc,"Ihr überlegenes Zubehör ermöglicht es Ihren Charakteren, sich schneller zu bewegen.",-
+LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} Bewegungsstil von {1},-
+LV.SP.WorkEffUpgradeBuff,Arbeitseffizienzprojekte,-
 LV.SP.WorkEffUpgradeBuffDesc,"Ihre überlegenen Werkzeuge ermöglichen es Ihren Charakteren, effizienter zu arbeiten.",-
-LV.SP.WorkEffUpgradeBuffEff,{0:+#%} Arbeits effizienz von {1},-
+LV.SP.WorkEffUpgradeBuffEff,{0:+#%} Arbeitseffizienz von {1},-
 LV.SP.EmergenciesGroup,Notfälle,-
-LV.SP.EmergenciesGroupDesc,Im Falle von Gefahr drücken Sie diese großen gelben Knöpfe. Aber Sie haben nur einen Versuch.,-
-LV.SP.EmergencyDrill1,Notfall-Flachbohrung,-
-LV.SP.EmergencyDrill1Desc,"Füge {0} Tage zu dieser gemäßigten Saison hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter naht.",-
-LV.SP.EmergencyDrill1Lore,"Eine neugierige Nase eines Bibers für feuchte Erde führte zu dieser flachen Wasserstelle – schnell zu erreichen, lebensrettend in der Not.",-
+LV.SP.EmergenciesGroupDesc,Im Falle einer Gefahr drücken Sie diese großen gelben Tasten. Aber Sie haben nur einen Versuch.,-
+LV.SP.EmergencyDrill1,Notfalldurchstoßbohrung,-
+LV.SP.EmergencyDrill1Desc,"Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht.",-
+LV.SP.EmergencyDrill1Lore,"Eine neugierige Nase eines Bibers für feuchte Erde führte zu dieser flachen Wasserstelle - schnell anzapfbar, lebensrettend in der Not.",-
 LV.SP.EmergencyDrill2,Notfall-Tiefbohrung,-
 LV.SP.EmergencyDrill2Desc,"Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht.",-
 LV.SP.EmergencyDrill2Lore,"„Wir bohren tief, aber wir bohren nicht billig!“ — Digger McDrillface IV",-
-LV.SP.EmergencyDrill3,Notfall Tiefbohrung,-
-LV.SP.EmergencyDrill3Desc,"Fügen Sie {0} Tage zu dieser milden Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht.",-
-LV.SP.EmergencyDrill3Lore,"Die Legende besagt, dass der alte Gnawtooth diesen tiefsten Brunnen voraussehen konnte - unsere letzte Hoffnung, wenn die Himmel grausam werden.",-
-LV.SP.BadWeatherConditionErr,"Sie können dies nur aktivieren, wenn schlechtes Wetter (Dürre oder schlechter Gezeiten) vorhergesagt wird.",-
-LV.SP.Wheelbarrows,Gartenschubkarren,-
-LV.SP.WheelbarrowsLore,"Der ultimative Rückenschoner, der Bibern ermöglicht, Stämme zu schleppen, ohne wie überladene Schildkröten zu watscheln.",-
-LV.SP.WheelbarrowsEff,"Biber und Bots erhalten keine Bewegungsgeschwindigkeitsstrafen mehr, wenn sie tragen.",-
+LV.SP.EmergencyDrill3,Notfall-Tiefbohrung,-
+LV.SP.EmergencyDrill3Desc,"Füge {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht.",-
+LV.SP.EmergencyDrill3Lore,"Die Legende besagt, dass der alte Gnawtooth diesen tiefsten Brunnen voraussah - unsere letzte Hoffnung, wenn die Himmel grausam werden.",-
+LV.SP.BadWeatherConditionErr,"Sie können dies nur aktivieren, wenn schlechtes Wetter (Dürre oder schlechte Gezeiten) vorhergesagt wird.",-
+LV.SP.Wheelbarrows,Schubkarren,-
+LV.SP.WheelbarrowsLore,"Der ultimative Rückenschoner, der es Bibern ermöglicht, Stämme zu schleppen, ohne wie überlastete Schildkröten zu watscheln.",-
+LV.SP.WheelbarrowsEff,"Biber und Bots erhalten keine Bewegungsgeschwindigkeitsstrafe mehr, wenn sie tragen.",-
 LV.SP.CarryUpgrade1,Verstärkte Tragetaschen,-
-LV.SP.CarryUpgrade1Lore,'Diese Packs lassen mich einen Wald transportieren und haben trotzdem Platz für Snacks!' — Packmule Heavyload,-
+LV.SP.CarryUpgrade1Lore,"'Diese Packs erlauben es mir, einen Wald zu transportieren und trotzdem Platz für Snacks zu haben!' — Packmule Heavyload",-
 LV.SP.CarryUpgrade1Eff,Erhöht dauerhaft die Tragfähigkeit der Biber um {0:+#%},-
-LV.SP.CarryBuilderUpgrade,Baustellen-Schlitten,-
-LV.SP.CarryBuilderUpgradeLore,Bauarbeiten so reibungslos wie ein gut gekauter Stamm machen.,-
-LV.SP.CarryBuilderUpgradeEff,"{0:+#%} zusätzliche Tragfähigkeit pro Level für <SolidHighlight>Bauer</SolidHighlight> (Arbeiter in Stadtzentren oder Bauhütten, sowohl Biber als auch Roboter).",-
-LV.SP.CarryBuilderUpgradeCost,[Kosten] pro Level für jeden Baumeister (aufgerundet),-
+LV.SP.CarryBuilderUpgrade,Bau-Schlitten,-
+LV.SP.CarryBuilderUpgradeLore,Bauarbeiten so reibungslos wie ein gut gekauter Stamm.,-
+LV.SP.CarryBuilderUpgradeEff,"{0:+#%} zusätzliches transportierbares Volumen pro Level für <SolidHighlight>Bauer</SolidHighlight> (Arbeiter in Bezirkzentren oder Bauhütten, sowohl Biber als auch Roboter).",-
+LV.SP.CarryBuilderUpgradeCost,[Kosten] pro Stufe für jeden Baumeister (aufgerundet),-
 LV.SP.CarryUpgradeBuff,Tragfähigkeitsprojekte,-
-LV.SP.CarryUpgradeBuffDesc,"Ihre überlegene Ausrüstung ermöglicht es Ihren Charakteren, mehr zu tragen.",-
+LV.SP.CarryUpgradeBuffDesc,"Ihre Überlegenentragsausrüstung ermöglicht es Ihren Charakteren, mehr zu tragen.",-
 LV.SP.CarryUpgradeBuffEff,{0:+#%} Tragfähigkeit von {1},-
-LV.SP.CarryBuilderBuff,Bauerhammer,-
-LV.SP.CarryBuilderBuffDesc,"Ihre Bauarbeiter sind jetzt mit Schlitten ausgestattet, um mehr zu transportieren.",-
+LV.SP.CarryBuilderBuff,Bauer Vorschlaghammer,-
+LV.SP.CarryBuilderBuffDesc,"IhreBuilder sind jetzt mit Schlitten ausgestattet, um mehr zu transportieren.",-
 LV.SP.CarryBuilderBuffEff,{0:+#%} Tragfähigkeit von {1},-
 LV.SP.FactionsGroup,Fraktionen,-
 LV.SP.FactionsGroupDesc,Einzigartige Projekte für jede Fraktion,-
-LV.SP.FtPlankUpgrade,Harz-Infundierte Planken,-
-LV.SP.FtPlankUpgradeLore,"Das Durchtränken von Planken mit natürlichen Harzen verdoppelt die Produktionsmenge behandelter Planken - kein Strom notwendig, nur die Art der Natur.",-
-LV.SP.FtPlankUpgradeEff,Die Holzwerkstatt benötigt {1:#.###%} Energie und erzeugt {0:+#%} die behandelten Planken.,-
-LV.SP.ItSmelterUpgrade,Wärmerückgewinnungs-Schmelze,-
-LV.SP.ItSmelterUpgradeLore,Ein Durchbruch im Ofendesign verdoppelt die Metallproduktion ohne zusätzliche Energie und verkörpert die Ingenieurskunst von Iron Teeth.,-
-LV.SP.ItSmelterUpgradeEff,Der Schmelzofen verwendet {1:#.###%} Energie und {0:+#%} die Metalle Blocks Ausgabe.,-
+LV.SP.FtPlankUpgrade,Harz-infundierte Planken,-
+LV.SP.FtPlankUpgradeLore,"Das Infundieren von Brettern mit natürlichen Harzen verdoppelt die Produktion von behandelten Brettern - keine Energie erforderlich, nur die Art der Natur.",-
+LV.SP.FtPlankUpgradeEff,Die Holzwerkstatt verwendet {1:#.###%} Energie und {0:+#%} die Ausgabe von behandeltem Holz.,-
+LV.SP.ItSmelterUpgrade,Wärmerückgewinnende Schmelzanlage,-
+LV.SP.ItSmelterUpgradeLore,Ein Durchbruch im Ofendesign verdoppelt die Metallproduktion ohne zusätzliche Energie und verkörpert die Cleverness von Iron Teeth.,-
+LV.SP.ItSmelterUpgradeEff,Der Schmelzofen benötigt {1:#.###%} Energie und {0:+#%} die Metallblockausgabe.,-
 LV.SP.BuffLessPowerEff,{0:#.###%} Energieverbrauch,-
 LV.SP.BuffIncreasedOutput,{0:+#%} erhöhte Ausgabe,-
 LV.SP.Filter,Filter,-

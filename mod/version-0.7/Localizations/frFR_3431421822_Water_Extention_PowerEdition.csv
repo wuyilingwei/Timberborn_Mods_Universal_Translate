@@ -3,106 +3,107 @@ Knatte.WE_IrrigationExtractFuel.DisplayName,Irrigation avec Tree boost,-
 Knatte.WE_IrrigationFuel.DisplayName,Irrigation,-
 Knatte.IrrigationTower.DisplayName,Tour d'irrigation,-
 Knatte.IrrigationTower.Description,"Irrigue les terres autour de lui.  
-N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.",-
+N'utilise pas d'eau pour les carreaux qu'il ne peut pas irriguer.",-
 Knatte.IrrigationTower.Header,Mode d'irrigation :,-
-Knatte.IrrigationTower.FlavorDescription,"Avec moins d'un tiers de la Terre recouvert d'eau, l'irrigation est devenue indispensable.",-
+Knatte.IrrigationTower.FlavorDescription,"Avec moins d'un tiers de la Terre recouvert d'eau, l'irrigation est devenue une nécessité.",-
 Knatte.IrrigationTowerV2_FT.DisplayName,Tour d'irrigation efficace,-
-Knatte.IrrigationTowerV2_FT.Description,Irrigue plus de terre autour de lui et peut stimuler la croissance des arbres avec de l'extrait. N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.,-
-Knatte.IrrigationTowerV2_IT.DisplayName,Tour d'irrigation motorisée,-
-Knatte.IrrigationTowerV2_IT.Description,"Irrigue autour de lui sans aucun travailleur nécessaire. Pour plus d'utilisation de l'eau, il bloque également la contamination. N'utilise pas d'eau pour les carreaux qu'il ne peut pas irriguer.",-
+Knatte.IrrigationTowerV2_FT.Description,Irrigue plus de terre autour de lui et peut stimuler la croissance des arbres avec l'extrait. N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.,-
+Knatte.IrrigationTowerV2_IT.DisplayName,Tour d'irrigation alimentée,-
+Knatte.IrrigationTowerV2_IT.Description,"Irrigue autour sans aucun ouvrier nécessaire. Pour un usage accru de l'eau, cela bloque également la contamination. N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.",-
 Knatte.IrrigationTowerV2.FlavorDescription,"Avec moins d'un tiers de la Terre recouvert d'eau, l'irrigation est devenue indispensable.",-
 Knatte.BigIrrigationTower.DisplayName,Grande Tour d'Irrigation,-
 Knatte.BigIrrigationTowerIT.Description,"Irrigue encore plus de terres autour d'elle pour moins d'eau.  
 Le tuyau bleu indique le point de départ de l'irrigation.  
 N'utilise pas d'eau pour les tuiles qu'elle ne peut pas irriguer.",-
-Knatte.BigIrrigationTowerFT.Description,"Irrigue encore plus de terres autour de lui pour moins d'eau.  
-Le tuyau jaune indique le point de départ de l'irrigation.  
-N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.",-
-Knatte.BigIrrigationTower.FlavorDescription,Goutte Goutte Tombé.,-
+Knatte.BigIrrigationTowerFT.Description,"Irrigue encore plus de terres autour de lui pour moins d'eau. 
+Le tube jaune indique le point de départ de l'irrigation. 
+N'utilise pas d'eau pour des tuiles qu'il ne peut pas irriguer.",-
+Knatte.BigIrrigationTower.FlavorDescription,Goutte Goutte Tombe.,-
 Knatte.IndWaterTank.DisplayName,Réservoir d'eau industriel,-
-Knatte.IndWaterTank.Description,"Contient plus d'eau et est empilable, mais nécessite du métal.",-
+Knatte.IndWaterTank.Description,Tient plus d'eau et est empilable mais nécessite du métal.,-
 Knatte.Pipe5X.DisplayName,Tuyau 5 Long,-
-Knatte.Pipe10X.DisplayName,Tuyau de 10 mètres de long,-
+Knatte.Pipe10X.DisplayName,Tube de 10 long,-
 Knatte.Pipe15X.DisplayName,Tuyau 15 Long,-
-Knatte.Pipe.Description,Des niveaux de chaque côté du tuyau et un tuyau d'entrée et de sortie. Les niveaux doivent être alimentés mais doivent également agir comme un transfert. Ne placez pas de niveaux en hexagone au-dessus du tuyau de sortie ! Cela provoquera un crash !,-
-Knatte.PipeU5X.DisplayName,Tuyau souterrain 5 long,-
-Knatte.PipeU10X.DisplayName,Tuya Souterraine 10 Long,-
-Knatte.PipeU15X.DisplayName,Tuyau souterrain 15 long,-
-Knatte.PipeU.Description,Des digues des deux côtés du tuyau et un tuyau d'entrée et de sortie. Tuyau allant sous terre entre les digues. Les digues doivent être alimentées mais doivent également agir comme un transfert. Ne placez pas les digues dans l'hexagone au-dessus du tuyau de sortie ! Cela fera planter le système !,-
+Knatte.Pipe.Description,Des écluses des deux côtés du tuyau et un tuyau d'entrée et de sortie. Les écluses doivent être alimentées mais doivent également agir comme un transfert. Ne placez pas d'écluses dans l'hexagone au-dessus du tuyau de sortie ! Cela fera planter le système !,-
+Knatte.PipeU5X.DisplayName,Canalisation souterraine 5 longue,-
+Knatte.PipeU10X.DisplayName,Tube souterrain 10 Long,-
+Knatte.PipeU15X.DisplayName,Tube souterrain 15 long,-
+Knatte.PipeU.Description,Berges des deux côtés du tuyau et un tuyau d'entrée et de sortie. Tuyau passant sous terre entre les berges. Les berges doivent être alimentées mais doivent également servir de transfert. Ne placez pas les berges dans l'hexagone au-dessus du tuyau de sortie ! Cela fera planter !,-
 Knatte.CategoryPipe.DisplayName,Tuyaux droits,-
 Knatte.CategoryPipe.Description,Des tuyaux qui passent au-dessus du sol,-
 Knatte.CategoryPipeU.DisplayName,Tuyaux souterrains,-
-Knatte.CategoryPipeU.Description,Tuyaux qui doivent passer sous terre au niveau du coude.,-
+Knatte.CategoryPipeU.Description,Des tuyaux qui doivent passer sous terre au niveau du coude.,-
 Knatte.CategoryHideWE.DisplayName,Extension d'eau inutilisée,-
 Knatte.Pipe1X.DisplayName,Sortie de tuyau,-
-Knatte.Pipe1X.Description,Deux digues et un tuyau d'entrée et de sortie. Les digues doivent être alimentées mais doivent également servir de transfert. Ne placez pas les digues dans un hexagone au-dessus du tuyau de sortie ! Cela provoquera un plantage !,-
+Knatte.Pipe1X.Description,Deux digues et un tuyau d'entrée et de sortie. Les digues doivent être alimentées mais doivent également agir comme un transfert. Ne placez pas les digues dans l'hexagone au-dessus du tuyau de sortie ! Cela va provoquer un crash !,-
 Knatte.PowerLevee.DisplayName,Manche alimentée,-
-Knatte.PowerLevee.Description,Ligue qui a un arbre à l'intérieur pour alimenter les pompes. À la fois horizontal et vertical.,-
-Knatte.DeepSeaPump.DisplayName,Pompe à eau de DeepSea,-
+Knatte.PowerLevee.Description,Levee avec un puits pour alimenter les pompes. À la fois horizontal et vertical.,-
+Knatte.DeepSeaPump.DisplayName,Pompe à eau DeepSea,-
 Knatte.DeepSeaPump.Description,Pompe pour le fond de la mer,-
-Knatte.DeepSeaPump.FlavorDescription,Une gorgée d'eau fraîche suffit à vous revigorer.,-
-Knatte.UPowerLevee.DisplayName,Manche Universelle Alimentée,-
-Knatte.UPowerLevee.Description,Levée qui a un arbre à l'intérieur pour alimenter des pompes. Connectée de tous les côtés.,-
+Knatte.DeepSeaPump.FlavorDescription,Une gorgée d'eau fraîche suffit à vous dynamiser.,-
+Knatte.UPowerLevee.DisplayName,Manche universelle alimentée,-
+Knatte.UPowerLevee.Description,Levee qui a un arbre dedans pour alimenter les pompes. Connecté de tous les côtés.,-
 Knatte.PipeH1X.DisplayName,Sortie de tuyau (H),-
-Knatte.PipeH1X.Description,Pompe à haut débit Deux digues et un tuyau d'entrée et de sortie. Les digues doivent être alimentées mais aussi agir comme des transferts.,-
+Knatte.PipeH1X.Description,Pompe à fort volume Deux digues et un tuyau d'entrée et de sortie. Les digues doivent être alimentées mais doivent également servir de transfert.,-
 Knatte.LargeWaterWheelLevee.DisplayName,Grande roue à eau avec digue,-
-Knatte.LargeWaterWheelLevee.Description,Roue à eau qui a également une digue incliné pour aider à garder l'eau à l'intérieur des canaux et éviter les débordements.,-
-Knatte.PipeHU5X.DisplayName,Tuyau souterrain 5 Long (H),-
+Knatte.LargeWaterWheelLevee.Description,Roue à eau qui dispose également d'une levée inclinée pour aider à maintenir l'eau à l'intérieur des canaux et éviter le débordement.,-
+Knatte.PipeHU5X.DisplayName,Tuyau souterrain 5 long (H),-
 Knatte.PipeHU10X.DisplayName,Tuyau souterrain 10 long (H),-
-Knatte.PipeHU15X.DisplayName,Tuyau souterrain 15 Long (H),-
-Knatte.PipeHU.Description,Version haute puissance avec des levées de chaque côté du tuyau et un tuyau d'entrée et de sortie. Tuyau passant sous terre entre les levées. Les levées doivent être alimentées mais aussi agir comme des transferts. Ne placez pas les levées dans l'hex au-dessus du tuyau de sortie ! Cela va provoquer un crash !,-
-Knatte.Valve1X.DisplayName,Vanne unidirectionnelle,-
-Knatte.Valve1X.Description,"Vanne unidirectionnelle avec un levee au milieu
-Aucune alimentation nécessaire et ne transfère pas
-Débit maximal de 1,5 cm",-
-Knatte.ValveH1X.DisplayName,Vanne unidirectionnelle (H),-
-Knatte.ValveH1X.Description,Vanne unidirectionnelle à haut débit avec un levee au milieu. Aucune alimentation requise et ne transfère pas.,-
+Knatte.PipeHU15X.DisplayName,Tube souterrain 15 Long (H),-
+Knatte.PipeHU.Description,Version haute puissance avec des levees des deux côtés du tuyau et un tuyau d'entrée et de sortie. Tuyau allant sous terre entre les levees. Les levees doivent être alimentées mais doivent également agir comme un transfert. Ne placez pas les levees dans l'hexagone au-dessus du tuyau de sortie ! Cela fera crasher !,-
+Knatte.Valve1X.DisplayName,Vanne anti-retour,-
+Knatte.Valve1X.Description,"Vanne unidirectionnelle avec un levee au milieu  
+Pas besoin d'alimentation et ne transfère pas  
+Débit maximum de 1,5 cm",-
+Knatte.ValveH1X.DisplayName,Valve unidirectionnelle (H),-
+Knatte.ValveH1X.Description,"Vanne unidirectionnelle de haute capacité avec un canal au milieu  
+Pas besoin d'alimentation et ne transfère pas",-
 Knatte.Aqueduct_S_1X.DisplayName,Aqueduc,-
 Knatte.Aqueduct_S_5X.DisplayName,Aqueduc 5 Long,-
-Knatte.Aqueduct_S.Description,Aqueduc avec un mur d'un côté. Il arrête également l'eau en bas.,-
+Knatte.Aqueduct_S.Description,Aqueduc avec un mur d'un côté. Arrête aussi l'eau en bas.,-
 Knatte.Aqueduct_S.FlavorDescription,À remplir,-
 Knatte.Aqueduct_P_1X.DisplayName,Aqueduc 1x1,-
 Knatte.Aqueduct_P_5X.DisplayName,Aqueduc 1x5 Long,-
-Knatte.Aqueduct_P.Description,Aqueduc avec des murs des deux côtés. Il arrête également l'eau en bas.,-
+Knatte.Aqueduct_P.Description,Aqueduc avec un mur de chaque côté. Arrête aussi l'eau en bas.,-
 Knatte.Aqueduct_P.FlavorDescription,À remplir,-
 Knatte.Aqueduct_Corner.DisplayName,Coin de l'aqueduc,-
-Knatte.Aqueduct_Corner.Description,Aqueduc avec un mur des deux côtés pour créer un coin. Arrête également l'eau au fond.,-
+Knatte.Aqueduct_Corner.Description,Aqueduc avec mur de chaque côté pour créer un coin. Arrête également l'eau en bas.,-
 Knatte.Aqueduct_Corner.FlavorDescription,L'eau est partie à gauche.,-
 Knatte.Aqueduct_Lid_1X.DisplayName,Couvercle d'aqueduc,-
-Knatte.Aqueduct_Lid_5X.DisplayName,Couvercle d'aqueduc 5 long,-
+Knatte.Aqueduct_Lid_5X.DisplayName,Couvercle d'aqueduc 5 Long,-
 Knatte.Aqueduct_Lid.Description,Ajoute un couvercle qui empêche l'eau de s'échapper.,-
-Knatte.Aqueduct_Lid.FlavorDescription,Est-ce déjà un tube ?,-
-Knatte.Aqueduct_Wall.DisplayName,Mur d'aqueduc faux,-
-Knatte.Aqueduct_Wall.Description,Ne bloquez pas l'eau mais cela peut contribuer à l'illusion qu'elle le fait pour des raisons esthétiques aux coins intérieurs.,-
+Knatte.Aqueduct_Lid.FlavorDescription,Est-ce un tuyau déjà ?,-
+Knatte.Aqueduct_Wall.DisplayName,Mur de Dummy d'Aqueduc,-
+Knatte.Aqueduct_Wall.Description,Ne bloquez pas l'eau mais cela peut aider à créer l'illusion qu'elle le fait pour des raisons esthétiques dans les coins intérieurs.,-
 Knatte.Aqueduct_Wall.FlavorDescription,À remplir,-
-Knatte.Aqueduct_Floor_1X1.DisplayName,Plancher de l'aqueduc,-
-Knatte.Aqueduct_Floor_1X5.DisplayName,Aqueduc Étage 1x5,-
+Knatte.Aqueduct_Floor_1X1.DisplayName,Plancher d'aqueduc,-
+Knatte.Aqueduct_Floor_1X5.DisplayName,Aqueduc Sol 1x5,-
 Knatte.Aqueduct_Floor_2X2.DisplayName,Aqueduc Sol 2x2,-
-Knatte.Aqueduct_Floor_3X3.DisplayName,Aqueduc Étage 3x3,-
+Knatte.Aqueduct_Floor_3X3.DisplayName,Aqueduc Sol 3x3,-
 Knatte.Aqueduct_Floor_5X5.DisplayName,Aqueduc Sol 5x5,-
-Knatte.Aqueduct_Floor.Description,Sol en béton imperméable dans le thème des aqueducs,-
+Knatte.Aqueduct_Floor.Description,Sol en béton imperméable dans le thème Aqueduc,-
 Knatte.Aqueduct_Floor.FlavorDescription,Tu ne passeras pas.,-
-Knatte.Aqueduct_Sluice.DisplayName,Sluice d'aqueduc,-
-Knatte.Aqueduct_Sluice.Description,"Un déchargement d'eau unidirectionnel et automatisé, dans le thème Aqueduc et pouvant être placé dans les aqueducs s'il bénéficie d'un support en dessous.",-
-Knatte.Aqueduct_Corner_Int.DisplayName,Coin intérieur d'aqueduc,-
-Knatte.Aqueduct_Corner_Int.Description,Aqueduc avec mur des deux côtés pour créer un coin. Arrête également l'eau en bas.,-
-Knatte.Aqueduct_Corner_Int.FlavorDescription,L'eau est partie vers la gauche.,-
-Knatte.Aqueduct_P_1X_Corner_Int.DisplayName,Aqueduc 1x1 Coin intérieur,-
-Knatte.Aqueduct_P_1X_Corner_Int.Description,Aqueduc avec un mur sur trois côtés pour créer un coin. Arrête également l'eau en bas.,-
-Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,L'eau est partie à gauche.,-
+Knatte.Aqueduct_Sluice.DisplayName,Serrage d'aqueduc,-
+Knatte.Aqueduct_Sluice.Description,Un décharge d'eau automatisée et unidirectionnelle. Dans le thème Aqueduc et pouvant être placé dans des aqueducs s'il a un soutien en dessous.,-
+Knatte.Aqueduct_Corner_Int.DisplayName,Coin Intérieur de l'Aqueduc,-
+Knatte.Aqueduct_Corner_Int.Description,Aqueduc avec un mur des deux côtés pour créer un coin. Arrête également l'eau en bas.,-
+Knatte.Aqueduct_Corner_Int.FlavorDescription,L'eau est partie à gauche.,-
+Knatte.Aqueduct_P_1X_Corner_Int.DisplayName,Aqueduc 1x1 Coin Intérieur,-
+Knatte.Aqueduct_P_1X_Corner_Int.Description,Aqueduc avec un mur sur trois côtés pour créer un coin. Arrête également l'eau au fond.,-
+Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,L'eau va à gauche.,-
 Knatte.Aqueduct_Wall2.DisplayName,Mur d'aqueduc,-
-Knatte.Aqueduct_Wall2.Description,"Bloquez l'eau pour qu'elle n'entre pas dans le même bloc que celui-ci, cela peut être utilisé pour construire des chemins sous-marins.",-
+Knatte.Aqueduct_Wall2.Description,"Bloquez l'eau d'entrer dans le même bloc que celui-ci, cela peut être utilisé pour construire des chemins sous-marins.",-
 Knatte.Aqueduct_Wall2.FlavorDescription,À remplir,-
-Knatte.TurbineSmall.DisplayName,Petite turbine,-
+Knatte.TurbineSmall.DisplayName,Turbine Petite,-
 Knatte.TurbineSmall.Description,Une petite turbine qui génère de l'énergie dans la même direction que l'arbre.,-
-Knatte.TurbineSmall.FlavorDescription,Merci 99Cent et Ymerzeru pour l'inspiration.,-
-Knatte.Aqueduct_Wall3.DisplayName,"Décalage  
-Mur d'aqueduc",-
+Knatte.TurbineSmall.FlavorDescription,Merci à 99Cent et Ymerzeru pour l'inspiration.,-
+Knatte.Aqueduct_Wall3.DisplayName,"Décalage 
+Mur de l'aqueduc",-
 Knatte.Aqueduct_Wall3.Description,Bloquez l'eau pour qu'elle n'entre pas dans le même bloc que le mur.,-
 Knatte.Aqueduct_Wall4.DisplayName,"Double décalage  
-Mur d'aqueduc",-
+Mur aqueduc",-
 Knatte.Aqueduct_Wall4.Description,Bloquez l'eau pour qu'elle n'entre pas dans le même bloc que le mur.,-
 Knatte.Aqueduct_Wall_OffDec.DisplayName,"Décalage  
-Mur d'aqueduc factice",-
-Knatte.Aqueduct_Wall_OffDec2.DisplayName,"Double décalage  
-Mur d'aqueduc factice",-
+Mur de l'aqueduc Dummy",-
+Knatte.Aqueduct_Wall_OffDec2.DisplayName,"Double Décalage  
+Mur d'Aqueduc Dummy",-

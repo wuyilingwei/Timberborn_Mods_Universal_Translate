@@ -1,13 +1,13 @@
 ID,Text,Comment
 CG.TreeGrowthRate,Taux de croissance des arbres,-
 CG.TreeGrowthRateDesc,Multiplicateur pour le temps de croissance des arbres comme les pins ou les chênes (1 pour le défaut du jeu). Peut être réglé en dessous de 1 pour rendre le jeu plus difficile.,-
-CG.CropGrowthRate,Taux de croissance des cultures,-
+CG.CropGrowthRate,Taux de croissance des plantes,-
 CG.CropGrowthRateDesc,Multiplicateur pour le temps de croissance des cultures comme les carottes ou les pommes de terre (1 pour le défaut du jeu). Peut être réglé en dessous de 1 pour rendre le jeu plus difficile.,-
 CG.GatherableGrowthRate,Taux de croissance du produit,-
-CG.GatherableGrowthRateDesc,Multiplicateur pour le temps de croissance des produits comme la résine de pin ou les baies (1 par défaut dans le jeu). Peut être réglé en dessous de 1 pour rendre le jeu plus difficile.,-
-CG.ReproducibleChanceMultiplier,multiplicateur de chance reproductible,-
-CG.ReproducibleChanceMultiplierDesc,"Rendre les arbres plus ou moins susceptibles de se reproduire. Chaque arbre a une chance de 1 à 3 % de se reproduire par heure, selon le type. Le paramètre est fixé à 1 pour conserver les réglages du jeu, et 0 signifie pas de reproduction.",-
+CG.GatherableGrowthRateDesc,Multiplicateur pour la croissance des produits comme la résine de pin ou les baies (1 pour le défaut du jeu). Peut être fixé en dessous de 1 pour rendre le jeu plus difficile.,-
+CG.ReproducibleChanceMultiplier,Multiplicateur de chance reproductible,-
+CG.ReproducibleChanceMultiplierDesc,"Rendre les arbres plus ou moins susceptibles de se reproduire. Chaque arbre a chaque heure une chance de 1 à 3 % de se reproduire, selon le type. Fixer cela à 1 pour conserver les paramètres du jeu et 0 signifie pas de reproduction.",-
 CG.SpreadDistance,Distance de propagation,-
-CG.SpreadDistanceDesc,La distance (en blocs) qu'un arbre peut étendre à un nouveau bloc. 0 signifie pas d'expansion. Par défaut dans le jeu : 1,-
-CG.SpreadVertically,Peut se répandre verticalement.,-
-CG.SpreadVerticallyDesc,"S'il est activé, les arbres peuvent se propager aux blocs au-dessus ou en dessous d'eux (en utilisant la distance de propagation). Valeur par défaut du jeu : faux",-
+CG.SpreadDistanceDesc,La distance (en blocs) qu'un arbre peut s'étendre à un nouveau bloc. 0 signifie aucune propagation. Valeur par défaut du jeu : 1,-
+CG.SpreadVertically,Peut se propager verticalement,-
+CG.SpreadVerticallyDesc,"S'il est activé, les arbres peuvent se propager vers les blocs au-dessus ou en dessous d'eux (en utilisant la Distance de Propagation). Valeur par défaut du jeu : faux.",-

@@ -1,55 +1,55 @@
 ID,Text,Comment
-Tobbert.TrackStraight.DisplayName,Voie de train droite,-
-Tobbert.TrackStraight.Description,Un élément de voie qui va tout droit. Peut être transformé en signal unidirectionnel en utilisant le commutateur en cliquant dessus. Crée une section de voie entre les voies unidirectionnelles qui permet à un seul train d'y être (indiqué par les couleurs).,-
-Tobbert.TrackStraight.FlavorDescription,Choo ! Choo !,-
-Tobbert.TrackOneWay.DisplayName,Piste à sens unique,-
-Tobbert.TrackOneWay.Description,Indiquera aux trains qu'ils ne peuvent passer que par le côté vert. Peut être modifié en une voie droite en utilisant le bouton bascule en cliquant dessus. Crée une section de voie entre les sens uniques qui permet à un seul train d'y être (indiqué par les couleurs).,-
-Tobbert.TrackOneWay.FlavorDescription,Vous... Allez... Passer...,-
-Tobbert.TrackCrossing.DisplayName,Passage à niveau,-
-Tobbert.TrackCrossing.Description,Les castors peuvent traverser les voies ici. La collision ne sera pas implémentée car la performance en souffrirait trop.,-
+Tobbert.TrackStraight.DisplayName,Voie ferrée droite,-
+Tobbert.TrackStraight.Description,Un morceau de rail qui va tout droit. Peut être changé en un signal unidirectionnel en utilisant le bouton bascule en cliquant dessus. Crée une section de rail entre des voies unidirectionnelles qui permet à un seul train d'y être (indiqué par les couleurs).,-
+Tobbert.TrackStraight.FlavorDescription,Ouou ! Ouou !,-
+Tobbert.TrackOneWay.DisplayName,Piste de signal unidirectionnelle,-
+Tobbert.TrackOneWay.Description,Informera les trains qu'ils ne peuvent passer que par le côté vert. Peut être rétabli en une voie droite en utilisant le commutateur en cliquant dessus. Crée une section de voie entre des sens uniques qui permet à un seul train d'y être présent (indiqué par les couleurs).,-
+Tobbert.TrackOneWay.FlavorDescription,Vous... Passerez...,-
+Tobbert.TrackCrossing.DisplayName,Croisement de voies ferrées,-
+Tobbert.TrackCrossing.Description,Les castors peuvent traverser les voies ici. La collision ne sera pas mise en œuvre car les performances souffriraient trop.,-
 Tobbert.TrackCrossing.FlavorDescription,Ce train approche très vite.,-
 Tobbert.TrackHillStart.DisplayName,Piste inclinée,-
 Tobbert.TrackHillStart.Description,Une voie qui permet aux trains de monter et descendre.,-
-Tobbert.TrackHillStart.FlavorDescription,Le train n'est pas trop lourd ?,-
-Tobbert.TrackCorner1x1.DisplayName,Coin 1x1 rail de train,-
-Tobbert.TrackCorner1x1.Description,Un morceau de rail qui fait un virage.,-
-Tobbert.TrackCorner1x1.FlavorDescription,Ça risque d'être un peu serré.,-
-Tobbert.TrackCorner2x2.DisplayName,Coin 2x2 voie de train,-
-Tobbert.TrackCorner2x2.Description,Un morceau de rail qui tourne autour d'un coin plus grand.,-
+Tobbert.TrackHillStart.FlavorDescription,Le train n'est-il pas trop lourd ?,-
+Tobbert.TrackCorner1x1.DisplayName,Coin 1x1 Piste de Train,-
+Tobbert.TrackCorner1x1.Description,Un élément de rail qui tourne à un coin.,-
+Tobbert.TrackCorner1x1.FlavorDescription,Ça pourrait être un peu juste.,-
+Tobbert.TrackCorner2x2.DisplayName,Équinoxe de train 2x2,-
+Tobbert.TrackCorner2x2.Description,Un morceau de rail qui contourne un virage plus large.,-
 Tobbert.TrackCorner2x2.FlavorDescription,Quelle belle courbe.,-
-Tobbert.TrackTIntersection1x1.DisplayName,Intersection en T Voie Ferrée 1x1,-
+Tobbert.TrackTIntersection1x1.DisplayName,Intersection en T Voie ferrée 1x1,-
 Tobbert.TrackTIntersection1x1.Description,Une intersection en forme de T pour les trains.,-
-Tobbert.TrackTIntersection1x1.FlavorDescription,Par quel chemin devrais-je aller ?,-
-Tobbert.TrackTIntersection2x3.DisplayName,Intersection en T Voie de train 2x3,-
+Tobbert.TrackTIntersection1x1.FlavorDescription,Dans quelle direction devrais-je aller ?,-
+Tobbert.TrackTIntersection2x3.DisplayName,Intersection en T Voie ferrée 2x3,-
 Tobbert.TrackTIntersection2x3.Description,Une intersection en forme de T pour les trains.,-
-Tobbert.TrackTIntersection2x3.FlavorDescription,Où ces chemins mèneront-ils ?,-
-Tobbert.TrackXIntersection1x1.DisplayName,X intersection Piste de train 1x1,-
+Tobbert.TrackTIntersection2x3.FlavorDescription,Vers où mèneront ces chemins ?,-
+Tobbert.TrackXIntersection1x1.DisplayName,Intersection X Voie Ferrée 1x1,-
 Tobbert.TrackXIntersection1x1.Description,Une intersection en forme de X pour les trains.,-
 Tobbert.TrackXIntersection1x1.FlavorDescription,Tant d'options !,-
-Tobbert.TrackXIntersection3x3.DisplayName,Intersection X Chemin de fer 3x3,-
+Tobbert.TrackXIntersection3x3.DisplayName,Intersection X Voie Ferrée 3x3,-
 Tobbert.TrackXIntersection3x3.Description,Une intersection en forme de X pour les trains.,-
 Tobbert.TrackXIntersection3x3.FlavorDescription,Je ne peux tout simplement pas choisir où aller...,-
-Tobbert.TrackRIntersection2x3.DisplayName,Bascule de voie 2x3,-
-Tobbert.TrackRIntersection2x3.Description,Un commutateur sous la forme d'un R pour les trains.,-
+Tobbert.TrackRIntersection2x3.DisplayName,Changer le rail de train 2x3,-
+Tobbert.TrackRIntersection2x3.Description,Un aiguillage en forme de R pour les trains.,-
 Tobbert.TrackRIntersection2x3.FlavorDescription,Où allons-nous ?,-
-Tobbert.GoodsStation.DisplayName,gare de marchandises,-
-Tobbert.GoodsStation.Description,Permet le transport de marchandises par trains. Une marchandise peut être envoyée ou reçue à une station. Les marchandises reçues ne seront déplacées que vers des entrepôts configurés pour les recevoir.,-
-Tobbert.GoodsStation.FlavorDescription,Regarde tous les biens qu'elle peut contenir.,-
-Tobbert.PassengerStation.DisplayName,Gare de passagers,-
-Tobbert.PassengerStation.Description,Cette station permet aux castors de monter dans le train et de voyager vers une autre station qui est connectée à elle.,-
+Tobbert.GoodsStation.DisplayName,Gare de marchandises,-
+Tobbert.GoodsStation.Description,Permet le transport de marchandises par trains. Une marchandise peut être envoyée ou reçue à une station. Les marchandises reçues ne seront déplacées que vers des entrepôts qui sont configurés pour les obtenir.,-
+Tobbert.GoodsStation.FlavorDescription,Regardez tous les biens qu'il peut contenir.,-
+Tobbert.PassengerStation.DisplayName,Gare ferroviaire,-
+Tobbert.PassengerStation.Description,Cette station permet aux castors de monter dans le train et de voyager vers une autre station qui est connectée entre elles.,-
 Tobbert.PassengerStation.FlavorDescription,Train de castor !,-
 Tobbert.PassengerStation.DistrictObjectToggle,Traverse les districts :,-
-Tobbert.PassengerStation.DistrictObject,"Lorsqu'il est activé, cela ne permettra uniquement aux castors de se rendre aux stations passagers qui ont également ce paramètre activé et qui se trouvent dans d'autres districts.",-
+Tobbert.PassengerStation.DistrictObject,"Lorsqu'il est activé, il ne permettra AUX CASTORS de se rendre uniquement dans les stations de passagers qui ont également ce paramètre activé et qui se trouvent dans d'autres districts.",-
 Tobbert.PassengerStation.EmptyStation,Il n'y a actuellement aucun passager en attente.,-
 Tobbert.WaitingStation.DisplayName,Station d'attente,-
-Tobbert.WaitingStation.Description,"Les trains peuvent attendre ici quand ils n'ont rien à faire. Cela empêche les trains d'occuper les voies. Les trains ne peuvent pas se frayer un chemin à cause de cela, alors assurez-vous que ce n'est pas sur des chemins cruciaux.",-
+Tobbert.WaitingStation.Description,"Les trains peuvent attendre ici lorsqu'ils n'ont rien à faire. Cela empêche les trains d'occuper les voies. Les trains ne peuvent pas se frayer un chemin au-dessus de cela, donc assurez-vous que ce n'est pas sur des chemins cruciaux.",-
 Tobbert.WaitingStation.FlavorDescription,Quand puis-je y aller à nouveau ?,-
-Tobbert.TrainYard.DisplayName,Dépôt de trains,-
+Tobbert.TrainYard.DisplayName,Dépôt de train,-
 Tobbert.TrainYard.Description,Un bâtiment qui crée des trains.,-
-Tobbert.TrainYard.FlavorDescription,C'est ici que les trains naissent.,-
+Tobbert.TrainYard.FlavorDescription,C'est ici que naissent les trains.,-
 Tobbert.TrainYard.CostOfTrain,Coût d'un train :,-
 Tobbert.TrainYard.CreateTrain,Construire un train,-
-Tobbert.Train.PrefabName,train,-
+Tobbert.Train.PrefabName,Train,-
 Tobbert.Wagon.PrefabName,Wagon,-
 Tobbert.TrainModel.TrainModel,Modèle d'entraînement :,-
 Tobbert.TrainModel.SmallLog,Petit journal,-
@@ -58,7 +58,7 @@ Tobbert.WagonModel.WagonModel,Modèle de wagon :,-
 Tobbert.WagonModel.BoxWagon,Wagon à boîte,-
 Tobbert.WagonModel.TankWagon,Wagon-citerne,-
 Tobbert.WagonModel.FlatWagon,Wagon plat,-
-Tobbert.WagonModel.FlipperWagon,Wagon gondole,-
+Tobbert.WagonModel.FlipperWagon,Wagon gondola,-
 Tobbert.WagonModel.MetalCart,Chariot en métal,-
 Tobbert.WagonModel.PassengerWagon,Wagon de passagers,-
 Tobbert.BatchControl.Trains,Trains,-
@@ -66,36 +66,36 @@ Tobbert.Train.Length,Longueur du train :,-
 Tobbert.Train.Destroy,Êtes-vous sûr de vouloir détruire ce train ?,-
 Tobbert.GoodsStation.Distribution.Header,Biens distribués,-
 Tobbert.GoodsStation.Distribution.Disabled.Info,Distribution désactivée par les paramètres de distribution.,-
-Tobbert.GoodsStation.Distribution.Sending.Info,Distribution définie pour l'envoi selon les paramètres de distribution.,-
-Tobbert.GoodsStation.Distribution.Receiving.Info,La distribution est réglée pour recevoir selon les paramètres de distribution.,-
-Tobbert.BatchControl.GoodsStation,Stations de marchandises,-
-Tobbert.BatchControl.DistributionDisabledAll,Désactiver toute distribution.,-
+Tobbert.GoodsStation.Distribution.Sending.Info,Distribution défini pour l'envoi selon les paramètres de distribution.,-
+Tobbert.GoodsStation.Distribution.Receiving.Info,La distribution est prête à recevoir selon les paramètres de distribution.,-
+Tobbert.BatchControl.GoodsStation,Gares de marchandises,-
+Tobbert.BatchControl.DistributionDisabledAll,Désactiver toute distribution,-
 Tobbert.BatchControl.DistributionDisabled,Distribution désactivée,-
-Tobbert.BatchControl.DistributionDisabled.Description,Désactivez complètement la distribution de ce produit à cette station.,-
+Tobbert.BatchControl.DistributionDisabled.Description,Désactivez complètement la distribution de ce bien à cette station.,-
 Tobbert.BatchControl.DistributionSendingAll,Autoriser l'envoi de toutes les marchandises,-
 Tobbert.BatchControl.DistributionSending,Autoriser l'envoi,-
-Tobbert.BatchControl.DistributionSending.Description,La station peut envoyer cet article à une autre station. La quantité maximale pouvant être à l'intérieur de la station est déterminée par la quantité à droite.,-
-Tobbert.BatchControl.DistributionReceivingAll,Permettre la réception de tous les biens,-
+Tobbert.BatchControl.DistributionSending.Description,La station peut envoyer cette marchandise à une autre station. La quantité maximale qui peut être à l'intérieur de la station est déterminée par la quantité à droite.,-
+Tobbert.BatchControl.DistributionReceivingAll,Autoriser la réception de toutes les marchandises,-
 Tobbert.BatchControl.DistributionReceiving,Autoriser la réception,-
-Tobbert.BatchControl.DistributionReceiving.Description,La station peut recevoir cette marchandise envoyée depuis d'autres stations. La quantité maximale pouvant être à l'intérieur de la station est déterminée par le montant à droite.,-
-Tobbert.BatchControl.DecreaseMaximum,Diminuer la quantité maximale de marchandises,-
-Tobbert.BatchControl.DecreaseMaximum.Description,Réduisez le montant maximum qui peut être à l'intérieur de la station. Un clic correspond à -1 et maintenir la touche majuscule correspond à -10. La capacité maximale est de 200.,-
-Tobbert.BatchControl.IncreaseMaximum,Augmenter le montant maximum de biens,-
-Tobbert.BatchControl.IncreaseMaximum.Description,Augmentez la quantité maximale pouvant être à l'intérieur de la station. Un clic correspond à +1 et maintenir la touche shift à +10. La capacité maximale est de 200.,-
-Tobbert.TrackSystem.ToggleSectionDivider,Diviser les sections :,-
+Tobbert.BatchControl.DistributionReceiving.Description,La station peut recevoir les biens qui sont envoyés depuis d'autres stations. La quantité maximale qui peut être à l'intérieur de la station est déterminée par la quantité à droite.,-
+Tobbert.BatchControl.DecreaseMaximum,Réduire le montant maximal de biens,-
+Tobbert.BatchControl.DecreaseMaximum.Description,Diminuez le montant maximum qui peut être à l'intérieur de la station. Cliquez pour -1 et maintenez Shift pour -10. La capacité maximale est de 200.,-
+Tobbert.BatchControl.IncreaseMaximum,Augmenter le montant maximal de biens,-
+Tobbert.BatchControl.IncreaseMaximum.Description,Augmentez le montant maximum pouvant être à l'intérieur de la station. Un clic est +1 et maintenir la touche shift est +10. La capacité maximale est de 200.,-
+Tobbert.TrackSystem.ToggleSectionDivider,Divise les sections :,-
 Tobbert.TrackSystem.ButtonChangeDirection,Changer de direction,-
-Tobbert.TrackSystem.CollidingSectionDividers,Impossible de connecter 2 séparateurs de section.,-
+Tobbert.TrackSystem.CollidingSectionDividers,Impossible de connecter 2 diviseurs de section.,-
 Tobbert.ToolGroup.Trains,Trains,-
-Tobbert.TrainYard.PreviewErrorMessage,On ne peut construire qu'un seul dépôt de train.,-
+Tobbert.TrainYard.PreviewErrorMessage,Seulement 1 dépôt de train peut être construit.,-
 Tobbert.Trains.UnlockPrompt,Vous devez débloquer {0} pour construire {1}.,-
-Tobbert.DistributionTrain.MinimumOfItemsToMove,Quantité minimum d'articles à déplacer :,-
-Tobbert.TrainNavigation.Unstuck,Tourne-toi,-
+Tobbert.DistributionTrain.MinimumOfItemsToMove,Nombre minimum d'articles à déplacer :,-
+Tobbert.TrainNavigation.Unstuck,Fais demi-tour,-
 Tobbert.TrainNavigation.NoWaitingStation,Aucune station d'attente disponible trouvée.,-
-Tobbert.TrainNavigation.NoWaitingStationShort,Aucune station d'attente,-
-Tobbert.TrainDestination.UnconnectedWarning,La station n'est connectée à aucune autre station.,-
+Tobbert.TrainNavigation.NoWaitingStationShort,Pas de station d'attente,-
+Tobbert.TrainDestination.UnconnectedWarning,La gare n'est connectée à aucune autre gare.,-
 Tobbert.TrainDestination.UnconnectedWarningShort,Station non connectée,-
 Tobbert.ChooChooSettings.Header,Tchou! Tchou!,-
-Tobbert.ChooChooSettings.DefaultTrainModel,Modèle d'entraînement par défaut :,-
+Tobbert.ChooChooSettings.DefaultTrainModel,Modèle de train par défaut :,-
 Tobbert.ChooChooSettings.DefaultWagonModel,Modèle de wagon par défaut :,-
-Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,Tchou! Tchou !,-
-Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,Ouvrir l'onglet Stations de marchandises,-
+Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,Tchou ! Tchou !,-
+Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,Ouvrir l'onglet des stations de marchandises,-

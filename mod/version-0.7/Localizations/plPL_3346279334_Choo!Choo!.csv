@@ -1,101 +1,101 @@
 ID,Text,Comment
 Tobbert.TrackStraight.DisplayName,Prosta linia kolejowa,-
-Tobbert.TrackStraight.Description,"Prosta sekcja toru. Może być zmieniona na sygnał jednokierunkowy za pomocą przełącznika po kliknięciu na nią. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, pozwalając na obecność jednego pociągu (wskazywane przez kolory).",-
-Tobbert.TrackStraight.FlavorDescription,Chu! Chu!,-
-Tobbert.TrackOneWay.DisplayName,Tor sygnałowy w jednym kierunku,-
-Tobbert.TrackOneWay.Description,"Powie, że pociągi mogą przejeżdżać tylko przez zieloną stronę. Może być zmieniony z powrotem na prosty tor, używając przełącznika po kliknięciu na nim. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, który pozwala na przebywanie na nim jednego pociągu (wskazane przez kolory).",-
-Tobbert.TrackOneWay.FlavorDescription,Ty... przejdziesz...,-
+Tobbert.TrackStraight.Description,"Prosta część toru. Może zostać zmieniona na sygnał jednokierunkowy za pomocą przełącznika po kliknięciu na nią. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, na którym może znajdować się tylko jeden pociąg (wskazane kolorem).",-
+Tobbert.TrackStraight.FlavorDescription,Choo! Choo!,-
+Tobbert.TrackOneWay.DisplayName,Tory sygnałowy jednokierunkowy,-
+Tobbert.TrackOneWay.Description,"Powiedzą, że pociągi mogą przejeżdżać tylko przez zieloną stronę. Można to zmienić z powrotem na prosty tor, używając przełącznika po kliknięciu na niego. Tworzy odcinek toru między jedną stroną, który pozwala jednemu pociągowi na pozostanie na nim (zaznaczone kolorami).",-
+Tobbert.TrackOneWay.FlavorDescription,Ty... Możesz... Przejść...,-
 Tobbert.TrackCrossing.DisplayName,Przejazd kolejowy,-
-Tobbert.TrackCrossing.Description,"Bobry mogą przechodzić tutaj przez tory. Kolizje nie będą wdrażane, ponieważ wydajność byłaby zbyt niska.",-
-Tobbert.TrackCrossing.FlavorDescription,Ten pociąg nadjeżdża bardzo szybko-,-
-Tobbert.TrackHillStart.DisplayName,Tor Słanisty,-
-Tobbert.TrackHillStart.Description,"Tor, który pozwala pociągom jeździć w górę i w dół.",-
+Tobbert.TrackCrossing.Description,"Bobry mogą przechodzić przez tory tutaj. Kolizje nie będą wprowadzone, ponieważ wydajność zbyt ucierpi.",-
+Tobbert.TrackCrossing.FlavorDescription,Ten pociąg zbliża się bardzo szyb-,-
+Tobbert.TrackHillStart.DisplayName,Tor nachyłowy,-
+Tobbert.TrackHillStart.Description,"Tor, który umożliwia pociągom poruszanie się w górę i w dół.",-
 Tobbert.TrackHillStart.FlavorDescription,Czy pociąg nie jest za ciężki?,-
 Tobbert.TrackCorner1x1.DisplayName,Rog 1x1 Tor kolejowy,-
-Tobbert.TrackCorner1x1.Description,"Element toru, który skręca za rogiem.",-
+Tobbert.TrackCorner1x1.Description,"Element toru, który zakręca.",-
 Tobbert.TrackCorner1x1.FlavorDescription,Może być trochę ciasno.,-
-Tobbert.TrackCorner2x2.DisplayName,Rog światłowodowy 2x2,-
-Tobbert.TrackCorner2x2.Description,"Element torowy, który przechodzi wokół większego zakrętu.",-
+Tobbert.TrackCorner2x2.DisplayName,Rogówki toru kolejowego 2x2,-
+Tobbert.TrackCorner2x2.Description,"Element toru, który obejmuje większy zakręt.",-
 Tobbert.TrackCorner2x2.FlavorDescription,Co za ładna krzywa.,-
-Tobbert.TrackTIntersection1x1.DisplayName,T skrzyżowanie Tor kolejowy 1x1,-
+Tobbert.TrackTIntersection1x1.DisplayName,T skrzyżowanie tory kolejowe 1x1,-
 Tobbert.TrackTIntersection1x1.Description,Skrzyżowanie w kształcie litery T dla pociągów.,-
-Tobbert.TrackTIntersection1x1.FlavorDescription,Którą drogę powinienem pójść?,-
-Tobbert.TrackTIntersection2x3.DisplayName,Skrzyżowanie T tory kolejowe 2x3,-
-Tobbert.TrackTIntersection2x3.Description,Skrzyżowanie w formie litery T dla pociągów.,-
+Tobbert.TrackTIntersection1x1.FlavorDescription,Którą drogą powinienem iść?,-
+Tobbert.TrackTIntersection2x3.DisplayName,Krzyżówka T tory kolejowe 2x3,-
+Tobbert.TrackTIntersection2x3.Description,Skrzyżowanie w kształcie T dla pociągów.,-
 Tobbert.TrackTIntersection2x3.FlavorDescription,Dokąd zaprowadzą te ścieżki?,-
-Tobbert.TrackXIntersection1x1.DisplayName,X przecięcie Tory kolejowe 1x1,-
-Tobbert.TrackXIntersection1x1.Description,Skrzyżowanie w kształcie litery X dla pociągów.,-
+Tobbert.TrackXIntersection1x1.DisplayName,X przecięcie Toru Kolejowego 1x1,-
+Tobbert.TrackXIntersection1x1.Description,Skrzyżowanie w kształcie X dla pociągów.,-
 Tobbert.TrackXIntersection1x1.FlavorDescription,Tak wiele opcji!,-
-Tobbert.TrackXIntersection3x3.DisplayName,X przecięcie Tory kolejowe 3x3,-
-Tobbert.TrackXIntersection3x3.Description,Skrzyżowanie w kształcie X dla pociągów.,-
+Tobbert.TrackXIntersection3x3.DisplayName,X skrzyżowanie Torów kolejowych 3x3,-
+Tobbert.TrackXIntersection3x3.Description,Krzyżowanie w formie X dla pociągów.,-
 Tobbert.TrackXIntersection3x3.FlavorDescription,"Po prostu nie mogę zdecydować, dokąd iść...",-
-Tobbert.TrackRIntersection2x3.DisplayName,Przełącz tor kolejowy 2x3,-
-Tobbert.TrackRIntersection2x3.Description,Przełącznik w formie R dla pociągów.,-
+Tobbert.TrackRIntersection2x3.DisplayName,Zmień tor kolejowy 2x3,-
+Tobbert.TrackRIntersection2x3.Description,Przełącznik w kształcie litery R dla pociągów.,-
 Tobbert.TrackRIntersection2x3.FlavorDescription,Dokąd idziemy?,-
 Tobbert.GoodsStation.DisplayName,Stacja towarowa,-
-Tobbert.GoodsStation.Description,"Umożliwia transport towarów pociągami. Towar może być wysłany lub odebrany na stacji. Odbierane towary będą przesuwane tylko do magazynów, które są ustawione na odbiór.",-
+Tobbert.GoodsStation.Description,"Pozwala na transport towarów pociągami. Towar może być wysyłany lub odbierany na stacji. Odbierane towary będą przenoszone tylko do magazynów, które są ustawione na odbiór.",-
 Tobbert.GoodsStation.FlavorDescription,"Zobacz wszystkie towary, które może pomieścić.",-
 Tobbert.PassengerStation.DisplayName,Dworzec pasażerski,-
 Tobbert.PassengerStation.Description,"Ta stacja umożliwia bobrom wsiadanie do pociągu i podróżowanie do innej stacji, które są ze sobą połączone.",-
 Tobbert.PassengerStation.FlavorDescription,Pociąg bobrów!,-
 Tobbert.PassengerStation.DistrictObjectToggle,Przechodzi przez dzielnice:,-
-Tobbert.PassengerStation.DistrictObject,"Gdy jest włączone, tylko bobry będą mogły korzystać z dworców pasażerskich, które również mają włączone to ustawienie i znajdują się w innych dzielnicach.",-
-Tobbert.PassengerStation.EmptyStation,Obecnie nie ma pasażerów czekających.,-
+Tobbert.PassengerStation.DistrictObject,"Gdy jest włączone, pozwoli to jedynie bobrom na korzystanie z stacji pasażerskich, które również mają włączone to ustawienie i znajdują się w innych dzielnicach.",-
+Tobbert.PassengerStation.EmptyStation,Obecnie nie ma oczekujących pasażerów.,-
 Tobbert.WaitingStation.DisplayName,Stacja oczekiwania,-
-Tobbert.WaitingStation.Description,"Pociągi mogą tutaj czekać, gdy nie mają nic do zrobienia. Zapobiega to zajmowaniu torów przez pociągi. Pociągi nie mogą przechodzić przez ten obiekt, więc upewnij się, że nie znajduje się on na żadnych kluczowych trasach.",-
+Tobbert.WaitingStation.Description,"Pociągi mogą czekać tutaj, gdy nie mają nic do zrobienia. Zapobiega to zajmowaniu torów przez pociągi. Pociągi nie mogą przechodzić przez to, więc upewnij się, że nie znajduje się to na żadnych kluczowych trasach.",-
 Tobbert.WaitingStation.FlavorDescription,Kiedy mogę znowu pójść?,-
-Tobbert.TrainYard.DisplayName,Podwórze kolejowe,-
-Tobbert.TrainYard.Description,"Budynek, który produkuje pociągi.",-
+Tobbert.TrainYard.DisplayName,Teren kolejowy,-
+Tobbert.TrainYard.Description,"Budynek, który tworzy pociągi.",-
 Tobbert.TrainYard.FlavorDescription,Tutaj rodzą się pociągi.,-
 Tobbert.TrainYard.CostOfTrain,Koszt 1 pociągu:,-
 Tobbert.TrainYard.CreateTrain,Zbuduj pociąg,-
 Tobbert.Train.PrefabName,Pociąg,-
 Tobbert.Wagon.PrefabName,Wagon,-
-Tobbert.TrainModel.TrainModel,Model Trenowany:,-
+Tobbert.TrainModel.TrainModel,Model treningowy:,-
 Tobbert.TrainModel.SmallLog,Mały dziennik,-
-Tobbert.TrainModel.BigWooden,Wielkie Drewniane,-
+Tobbert.TrainModel.BigWooden,Duże Drewniane,-
 Tobbert.WagonModel.WagonModel,Model wagonu:,-
-Tobbert.WagonModel.BoxWagon,Wóz skrzyniowy,-
-Tobbert.WagonModel.TankWagon,Cysternowóz,-
-Tobbert.WagonModel.FlatWagon,Wóz płaski,-
+Tobbert.WagonModel.BoxWagon,Wóz skrzynkowy,-
+Tobbert.WagonModel.TankWagon,Wagon do przewozu cieczy,-
+Tobbert.WagonModel.FlatWagon,Wagon platformowy,-
 Tobbert.WagonModel.FlipperWagon,Wóz gondolowy,-
 Tobbert.WagonModel.MetalCart,Wózek metalowy,-
 Tobbert.WagonModel.PassengerWagon,Wagon pasażerski,-
 Tobbert.BatchControl.Trains,Pociągi,-
 Tobbert.Train.Length,Długość pociągu:,-
 Tobbert.Train.Destroy,Czy na pewno chcesz zniszczyć ten pociąg?,-
-Tobbert.GoodsStation.Distribution.Header,Dobra dystrybuowane,-
+Tobbert.GoodsStation.Distribution.Header,Towary dystrybuowane,-
 Tobbert.GoodsStation.Distribution.Disabled.Info,Dystrybucja wyłączona przez ustawienia dystrybucji.,-
-Tobbert.GoodsStation.Distribution.Sending.Info,Rozkład ustawiony do wysyłania zgodnie z ustawieniami dystrybucji.,-
-Tobbert.GoodsStation.Distribution.Receiving.Info,Ustawienia dystrybucji ustawione na odbiór zgodnie z ustawieniami dystrybucji.,-
+Tobbert.GoodsStation.Distribution.Sending.Info,Ustalenia dystrybucji ustawione do wysyłki zgodnie z ustawieniami dystrybucji.,-
+Tobbert.GoodsStation.Distribution.Receiving.Info,Ustawienia dystrybucji ustawione na odbieranie na podstawie ustawień dystrybucji.,-
 Tobbert.BatchControl.GoodsStation,Stacje towarowe,-
-Tobbert.BatchControl.DistributionDisabledAll,Wyłącz wszystkie dystrybucje.,-
-Tobbert.BatchControl.DistributionDisabled,Odmowa dystrybucji,-
-Tobbert.BatchControl.DistributionDisabled.Description,Całkowicie zablokować dystrybucję tego towaru na tej stacji.,-
-Tobbert.BatchControl.DistributionSendingAll,Zezwól na wysyłkę wszystkich towarów.,-
+Tobbert.BatchControl.DistributionDisabledAll,Wyłącz wszystkie dystrybucje,-
+Tobbert.BatchControl.DistributionDisabled,Rozkład wyłączony,-
+Tobbert.BatchControl.DistributionDisabled.Description,Całkowicie wyłącz dystrybucję tego dobra na tej stacji.,-
+Tobbert.BatchControl.DistributionSendingAll,Zezwól na wysyłkę wszystkich towarów,-
 Tobbert.BatchControl.DistributionSending,Zezwól na wysyłanie,-
-Tobbert.BatchControl.DistributionSending.Description,"Stacja może wysyłać te dobra do innych stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie.",-
-Tobbert.BatchControl.DistributionReceivingAll,Zezwól na przyjęcie wszystkich towarów.,-
+Tobbert.BatchControl.DistributionSending.Description,"Stacja może wysłać ten towar do innej stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie.",-
+Tobbert.BatchControl.DistributionReceivingAll,Zezwolić na odbiór wszystkich towarów,-
 Tobbert.BatchControl.DistributionReceiving,Zezwól na odbieranie,-
-Tobbert.BatchControl.DistributionReceiving.Description,"Stacja może odbierać dobre, które są wysyłane z innych stacji. Maksymalna ilość, która może znajdować się wewnątrz stacji, jest określona przez ilość po prawej stronie.",-
-Tobbert.BatchControl.DecreaseMaximum,Zmniejsz maksymalną ilość towarów.,-
-Tobbert.BatchControl.DecreaseMaximum.Description,"Zmniejsz maksymalną ilość, która może znajdować się w stacji. Kliknięcie to -1, a przytrzymanie shift to -10. Maksymalna pojemność to 200.",-
+Tobbert.BatchControl.DistributionReceiving.Description,"Stacja może odbierać dobra wysyłane z innych stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie.",-
+Tobbert.BatchControl.DecreaseMaximum,Zmniejsz maksymalną ilość towarów,-
+Tobbert.BatchControl.DecreaseMaximum.Description,"Zmniejsz maksymalną ilość, która może być w stacji. Kliknięcie to -1, a przytrzymanie klawisza shift to -10. Maksymalna pojemność wynosi 200.",-
 Tobbert.BatchControl.IncreaseMaximum,Zwiększ maksymalną ilość towarów,-
-Tobbert.BatchControl.IncreaseMaximum.Description,"Zwiększ maksymalną liczbę, która może znajdować się w stacji. Kliknięcie to +1, a przytrzymanie klawisza shift to +10. Maksymalna pojemność to 200.",-
+Tobbert.BatchControl.IncreaseMaximum.Description,"Zwiększ maksymalną ilość, która może znajdować się w stacji. Kliknięcie to +1, a przytrzymanie shift to +10. Maksymalna pojemność to 200.",-
 Tobbert.TrackSystem.ToggleSectionDivider,Dzieli sekcje:,-
 Tobbert.TrackSystem.ButtonChangeDirection,Zmień kierunek,-
 Tobbert.TrackSystem.CollidingSectionDividers,Nie można połączyć 2 separatorów sekcji.,-
 Tobbert.ToolGroup.Trains,Pociągi,-
-Tobbert.TrainYard.PreviewErrorMessage,Można zbudować tylko 1 stację towarową.,-
+Tobbert.TrainYard.PreviewErrorMessage,Można zbudować tylko 1 Zajezdnię Kolejową.,-
 Tobbert.Trains.UnlockPrompt,"Musisz odblokować {0}, aby zbudować {1}.",-
 Tobbert.DistributionTrain.MinimumOfItemsToMove,Minimalna liczba przedmiotów do przeniesienia:,-
-Tobbert.TrainNavigation.Unstuck,Obróć się,-
+Tobbert.TrainNavigation.Unstuck,Odwróć się,-
 Tobbert.TrainNavigation.NoWaitingStation,Nie znaleziono dostępnej stacji oczekiwania.,-
 Tobbert.TrainNavigation.NoWaitingStationShort,Brak stacji oczekiwania,-
 Tobbert.TrainDestination.UnconnectedWarning,Stacja nie jest połączona z żadną inną stacją.,-
 Tobbert.TrainDestination.UnconnectedWarningShort,Stacja niepodłączona,-
-Tobbert.ChooChooSettings.Header,Ziu! Ziu!,-
+Tobbert.ChooChooSettings.Header,Pip! Pip!,-
 Tobbert.ChooChooSettings.DefaultTrainModel,Domyślny model pociągu:,-
 Tobbert.ChooChooSettings.DefaultWagonModel,Domyślny model wagonu:,-
-Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,Czuczu! Czuczu!,-
-Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,Otwórz zakładkę Stacje towarowe,-
+Tobbert.ChooChoo.KeyBindingGroup.ChooChoo,Tuu! Tuu!,-
+Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab,Otwórz zakładkę Stacje Towarowe,-

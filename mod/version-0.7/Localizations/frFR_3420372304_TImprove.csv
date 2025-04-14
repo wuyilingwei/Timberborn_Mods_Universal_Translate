@@ -1,39 +1,39 @@
 ID,Text,Comment
 LV.TI.EnableFreeCamera,Activer la caméra libre,-
-LV.TI.EnableFreeCameraDesc,Retirez les restrictions de caméra dans le jeu.,-
+LV.TI.EnableFreeCameraDesc,Supprimez les restrictions de caméra dans le jeu.,-
 LV.TI.DisableFog,Désactiver le brouillard,-
-LV.TI.DisableFogDesc,Enlevez le brouillard dans le jeu.,-
-LV.TI.PauseBadWeather,Pause sur les intempéries,-
-LV.TI.PauseBadWeatherDesc,"Mettez le jeu en pause lorsque de mauvaises conditions météorologiques (sécheresse, marée basse) commencent.",-
+LV.TI.DisableFogDesc,Retirez le brouillard dans le jeu.,-
+LV.TI.PauseBadWeather,Pause sur le mauvais temps,-
+LV.TI.PauseBadWeatherDesc,"Mettez le jeu sur pause lorsque des intempéries (sécheresse, marée mauvaise) commencent.",-
 LV.TI.ShowCoords,Afficher les coordonnées,-
-LV.TI.ShowCoordsDesc,Afficher les coordonnées du bloc dans le coin supérieur droit. Z est la hauteur. NON DISPONIBLE POUR LA MISE À JOUR 7 ENCORE.,-
-LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
+LV.TI.ShowCoordsDesc,Affichez les coordonnées du bloc dans le coin supérieur droit. Z est la hauteur. NON DISPONIBLE POUR LA MISE À JOUR 7 ENCORE.,-
+LV.TI.CoordsLabel,"(X, Y, Z) : ({0}, {1}, {2})",-
 LV.TI.HeightLabel,Hauteur : {0},-
-LV.TI.OnlyShowHeight,Afficher uniquement la hauteur.,-
-LV.TI.OnlyShowHeightDesc,Afficher uniquement la hauteur au lieu des coordonnées complètes.,-
+LV.TI.OnlyShowHeight,Affichez uniquement la hauteur.,-
+LV.TI.OnlyShowHeightDesc,Affichez uniquement la hauteur au lieu des coordonnées complètes.,-
 LV.TI.PrioritizeRubbles,Priorisez les décombres.,-
-LV.TI.PrioritizeRubblesDesc,Définir automatiquement la priorité des débris sur Élevée.,-
-LV.TI.AllDayLight,Pas de changement d'heure d'été,-
-LV.TI.AllDayLightDesc,Visuel/UI uniquement. La lumière du jour sélectionnée restera tout le temps au lieu de changer pendant la journée.,-
+LV.TI.PrioritizeRubblesDesc,Définir automatiquement la priorité des décombres sur Élevée.,-
+LV.TI.AllDayLight,Aucun changement d'heure solaire,-
+LV.TI.AllDayLightDesc,Visuel/UI uniquement. La lumière du jour sélectionnée restera toujours au lieu de changer au cours de la journée.,-
 LV.TI.ShowGameTime,Afficher le temps de jeu,-
 LV.TI.ShowGameTimeDesc,Affichez le temps de jeu actuel dans le coin supérieur droit.,-
 LV.TI.EnableSpeedS25,"Activer la vitesse 0,25x [Maj+1]",-
-LV.TI.EnableSpeedS25Desc,"Déverrouillez l'option de vitesse 0,25x dans le jeu en appuyant sur Shift+1. Normalement, cela est uniquement disponible en mode développeur.",-
-LV.TI.EnableSpeed4,Activez la vitesse 30x [4],-
-LV.TI.EnableSpeed4Desc,"Déverrouillez l'option de 4ème vitesse 30x dans le jeu en appuyant sur 4. Normalement, cela n'est disponible qu'en mode développeur.",-
-LV.TI.EnableSpeed5,Activer la vitesse 99x [5] (!),-
-LV.TI.EnableSpeed5Desc,"Débloquez l'option de 5ème vitesse 99x dans le jeu en appuyant sur 5. Normalement, cela n'est disponible qu'en mode développeur. Attention, cette vitesse est instable et peut causer des problèmes dans le jeu. Quelqu'un a dit que les castors pourraient rester affamés et assoiffés.",-
+LV.TI.EnableSpeedS25Desc,"Débloquez l'option de vitesse 0,25x dans le jeu en appuyant sur Shift+1. Normalement, cela n'est disponible que dans le mode développeur.",-
+LV.TI.EnableSpeed4,Activer la vitesse 30x [4],-
+LV.TI.EnableSpeed4Desc,"Débloquez l'option de vitesse 30x de 4ème niveau dans le jeu en appuyant sur 4. Normalement, cela n'est disponible qu'en mode développeur.",-
+LV.TI.EnableSpeed5,Activez la vitesse 99x [5] (!),-
+LV.TI.EnableSpeed5Desc,"Débloquez l'option de 5ème vitesse 99x dans le jeu en appuyant sur 5. Normalement, cela est uniquement disponible en mode développeur. Soyez averti que cette vitesse est instable et peut causer des problèmes avec le jeu. Quelqu'un a dit que les castors pourraient rester affamés et assoiffés.",-
 LV.TI.StaticLight,Lumière du jour statique,-
 LV.TI.StaticLightDesc,Visuel/UI uniquement. Cette lumière du jour restera la même tout le temps.,-
 LV.TI.LightSunrise,Lever de soleil,-
 LV.TI.LightDay,Jour,-
 LV.TI.LightSunset,Coucher de soleil,-
 LV.TI.LightNight,Nuit,-
-LV.TI.QuickQuit,Quitter rapidement/Forcer à quitter [Ctrl + Maj + Q] (!),-
-LV.TI.QuickQuitDesc,Appuyez sur Ctrl + Shift + Q pour quitter immédiatement le jeu en tuant le processus du jeu. AUCUNE SAUVEGARDE ou nettoyage de l'état du jeu. Faites attention !,-
-LV.TI.BiggerBuildDragArea,Surface de traînée de construction plus grande (!),-
-LV.TI.BiggerBuildDragAreaDesc,"Augmentez la zone de traînée de construction pour des bâtiments comme les barrages (par défaut 10x10) ou les routes (25). Cela augmente considérablement le temps de chargement et l'utilisation de la mémoire, donc utilisez-le avec prudence. Par exemple : régler cela sur 5 rendra la zone de traînée de 15x15 pour les barrages ou 30 pour les routes. Ne peut être modifié qu'au menu principal.",-
-LV.TI.AutoClearDeadTrees,Éliminez immédiatement les arbres morts.,-
-LV.TI.AutoClearDeadTreesDesc,"Lors de l'utilisation de l'outil 'Marquer les ressources pour démolition', débarrassez-vous automatiquement des arbres morts immédiatement sans castors (comme si vous construisiez des choses dessus).",-
+LV.TI.QuickQuit,Quitter rapidement/forcer la fermeture [Ctrl + Maj + Q] (!),-
+LV.TI.QuickQuitDesc,Appuyez sur Ctrl + Shift + Q pour quitter le jeu immédiatement en tuant le processus du jeu. AUCUNE SAUVEGARDE ou nettoyage de l'état du jeu. Faites attention !,-
+LV.TI.BiggerBuildDragArea,Zone de traînée de construction plus grande (!),-
+LV.TI.BiggerBuildDragAreaDesc,"Augmentez la zone de glissement pour les bâtiments tels que les barrages (par défaut 10x10) ou les routes (25). Cela augmente considérablement le temps de chargement et l'utilisation de la mémoire, donc utilisez-le avec prudence. Exemple : définir cela à 5 rendra la zone de glissement 15x15 pour les barrages ou 30 pour les routes. Ne peut être modifié qu'au menu principal.",-
+LV.TI.AutoClearDeadTrees,Enlevez immédiatement les arbres morts.,-
+LV.TI.AutoClearDeadTreesDesc,"Lors de l'utilisation de l'outil 'Marquer les ressources pour démolition', supprimer automatiquement les arbres morts immédiatement sans castors (comme si vous construisiez des choses dessus).",-
 LV.TI.AddRealTimeClock,Ajouter une horloge en temps réel,-
-LV.TI.AddRealTimeClockDesc,Ajoutez une horloge en temps réel dans le coin supérieur droit. Ceci est utile pour les joueurs qui souhaitent garder une trace du temps pendant qu'ils jouent.,-
+LV.TI.AddRealTimeClockDesc,Ajoutez une horloge en temps réel dans le coin supérieur droit. C'est utile pour les joueurs qui souhaitent garder une trace du temps pendant qu'ils jouent.,-

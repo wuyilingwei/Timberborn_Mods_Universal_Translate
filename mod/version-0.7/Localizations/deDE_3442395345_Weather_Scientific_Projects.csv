@@ -1,43 +1,43 @@
 ID,Text,Comment
 LV.WSP.WeatherGroup,Wetter,-
 LV.WSP.WeatherGroupDesc,Wissenschaftliche Projekte im Zusammenhang mit Wetter und Vorhersage,-
-LV.WSP.Ext1,Galesniffer-Totem,-
-LV.WSP.Ext1Desc,Warnungen vor schlechtem Wetter kommen {0:+#} Tag früher.,-
-LV.WSP.Ext1Lore,"Ein einfacher Pfahl, an dem eure Biber den Wind „erschnüffeln“ können, um frühzeitig Wetterhinweise zu erhalten.",-
-LV.WSP.Ext2,Mistweaver-Uhr,-
-LV.WSP.Ext2Desc,Warnungen vor schlechtem Wetter kommen {0:+#} Tag früher.,-
+LV.WSP.Ext1,Galesniffer-Standarte,-
+LV.WSP.Ext1Desc,Warnungen vor Unwetter kommen {0:+#} Tage früher.,-
+LV.WSP.Ext1Lore,"Ein einfacher Pfahl, an dem Ihre Biber den Wind ""erschnüffeln"" können, um frühzeitig Wetterhinweise zu erhalten.",-
+LV.WSP.Ext2,Mistweaver-Wahlrad,-
+LV.WSP.Ext2Desc,Warnungen vor schlechtem Wetter kommen {0:+#} Tage früher.,-
 LV.WSP.Ext2Lore,"Ein Zifferblatt, das das Wetter basierend auf der Luftfeuchtigkeit und dem Luftdruck vorhersagen kann.",-
-LV.WSP.Ext3,Thunderhub's Spitze,-
-LV.WSP.Ext3Desc,Wetterwarnungen kommen {0:+#} Tag früher pro Stufe.,-
+LV.WSP.Ext3,Thunderhub's Spire,-
+LV.WSP.Ext3Desc,Warnungen vor schlechtem Wetter kommen {0:+#} Tag(e) früher pro Niveau.,-
 LV.WSP.Ext3Lore,"Ein hoher Turm, der die elektrische Ladung in der Luft erkennen kann.",-
-LV.WSP.PrewarningCost,[Kosten] pro Level an Vorwarnungstagen. 0 an allen anderen Tagen.,-
+LV.WSP.PrewarningCost,[Kosten] pro Niveau an Vorwarnungstagen. 0 an allen anderen Tagen.,-
 LV.WSP.Pred1,Wettervorhersage,-
-LV.WSP.Pred1Desc,Sagen Sie das schlechte Wetter dieses Zyklus voraus. Die Genauigkeit beginnt bei {0:#%} am ersten Tag und steigt jeden Tag um {1:+#%} an.,-
-LV.WSP.Pred1Lore,"Biber konsultieren die Wolken und Winde, ihre Vorhersagen schärfen sich mit dem Verlauf der Tage.",-
+LV.WSP.Pred1Desc,Sage das schlechte Wetter dieses Zyklus voraus. Die Genauigkeit beginnt bei {0:#%} am ersten Tag und erhöht sich jeden Tag um {1:+#%}.,-
+LV.WSP.Pred1Lore,"Bieber konsultieren die Wolken und Winde, ihre Vorhersagen schärfen sich, je mehr die Tage vergehen.",-
 LV.WSP.Pred2,Sternenklare Präzision,-
 LV.WSP.Pred2Desc,Die Wettervorhersage beginnt nun mit zusätzlicher {0:+#%} Genauigkeit am ersten Tag des Zyklus.,-
-LV.WSP.Pred2Lore,"„Die Sterne lügen nicht – wenn du weißt, wie man sie fragt!“ — Blink der Sternenbeobachter",-
+LV.WSP.Pred2Lore,"""Die Sterne lügen nicht – wenn du weißt, wie man sie fragt!"" — Blink der Sternengucker",-
 LV.WSP.Pred3,Hydrologische Analyse,-
 LV.WSP.Pred3Desc,Fügen Sie {1:+#%} Genauigkeit pro Level zur Wettervorhersage jeden Tag hinzu.,-
-LV.WSP.Pred3Lore,Durch das Studium der Ebbe und Flut verfeinern Biber täglich ihre Wettervorhersagen.,-
-LV.WSP.IncreaseStr,Flowmaster's Kabelkanal,-
-LV.WSP.IncreaseStrDesc,"Ermöglicht es Ihnen, die Stärke von Wasserquellen zu erhöhen.",-
-LV.WSP.IncreaseStrLore,"'Mehr Wasser, mehr Leistung – so einfach ist das!' — Riverchew Flowmaster",-
+LV.WSP.Pred3Lore,Durch das Studieren des ebb und flut verfeinern Biber täglich ihre Wettervorhersagen.,-
+LV.WSP.IncreaseStr,Flowmaster's Rohrleitung,-
+LV.WSP.IncreaseStrDesc,"Erlauben Sie es Ihnen, die Stärke der Wasserquellen zu erhöhen.",-
+LV.WSP.IncreaseStrLore,"'Mehr Wasser, mehr Macht—so einfach ist das!' — Riverchew Flowmaster",-
 LV.WSP.IncreaseStrFresh,Frischwasserquellen erhöhen,-
-LV.WSP.IncreaseStrFreshDesc,Erhöhe die Stärke aller Süßwasserquellen (einschließlich während der schlechten Gezeiten) um {0:+#%} pro Stufe.,-
-LV.WSP.IncreaseStrBad,Erhöhe schlechte Wasserquellen,-
-LV.WSP.IncreaseStrBadDesc,Erhöhe die Stärke aller schlechten Wasserquellen um {0:+#%} pro Level,-
+LV.WSP.IncreaseStrFreshDesc,Erhöhe die Stärke aller Süßwasserquellen (einschließlich während der Flut) um {0:+#%} pro Level,-
+LV.WSP.IncreaseStrBad,Schlechte Wasserquellen erhöhen,-
+LV.WSP.IncreaseStrBadDesc,Erhöhe die Stärke aller schlechten Wasserquellen um {0:+#%} pro Stufe.,-
 LV.WSP.DecreaseStr,Tidebreaker's Tor,-
-LV.WSP.DecreaseStrDesc,"Erlauben Sie, die Stärke von Wasserquellen zu verringern.",-
-LV.WSP.DecreaseStrLore,"'Manchmal musst du den Fluss zähmen, nicht ihn reiten.' — Stillwater Tidebreaker",-
-LV.WSP.DecreaseStrFresh,Verringerung der Süßwasserquellen,-
-LV.WSP.DecreaseStrFreshDesc,Verringern Sie die Stärke aller Süßwasserquellen um {0:;#%} pro Level.,-
+LV.WSP.DecreaseStrDesc,"Erlauben Sie es, die Stärke von Wasserquellen zu verringern.",-
+LV.WSP.DecreaseStrLore,"„Manchmal musst du den Fluss zähmen, statt ihn zu reiten.“ — Stillwater Tidebreaker",-
+LV.WSP.DecreaseStrFresh,Verringerung der Süßwasservorräte,-
+LV.WSP.DecreaseStrFreshDesc,Verringern Sie die Stärke aller Süßwasserquellen um {0:;#%} pro Stufe.,-
 LV.WSP.DecreaseStrBad,Schlechte Wasserquellen verringern,-
 LV.WSP.DecreaseStrBadDesc,Verringern Sie die Stärke aller schlechten Wasserquellen um {0:#%} pro Level.,-
-LV.WSP.StrCostFresh,[Kosten] pro Süßwasserquelle. Inaktive Quellen zählen nicht (z. B. während einer Dürre),-
-LV.WSP.StrCostBad,[Kosten] pro schlechtem Wasserquelle. Inaktive Quellen zählen nicht (z. B. während Dürre oder versiegelt).,-
+LV.WSP.StrCostFresh,[Kosten] pro Süßwasserquelle. Inaktive Quellen zählen nicht (z. B. während Dürreperioden).,-
+LV.WSP.StrCostBad,[Kosten] pro unzureichender Wasserquelle. Inaktive Quellen zählen nicht (z. B. während einer Dürre oder versiegelte Quellen).,-
 LV.WSP.ForecastText,"{0:#%} {1}, dauert {2}-{3} Tage",-
 LV.WSP.Forecast1DayText,"{0:#%} {1}, dauert {2} Tage",-
 LV.WSP.DecreaseStrBuffDesc,"Ein Wunder der Bibertechnik zähmt dieses Tor die wildesten Flüsse und beruhigt ihren Fluss, um unser Land zu schützen.",-
-LV.WSP.IncreaseStrBuffDesc,"Die Kraft der Natur kanalisierend, entfesselt dieser Leiter eine Welle Wasser und beugt Flüsse unserem Willen.",-
+LV.WSP.IncreaseStrBuffDesc,"Die Macht der Natur kanalisierend, entfesselt dieser Kanal einen Wasserstrom, der Flüsse nach unserem Willen biegt.",-
 LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} Stärke,-

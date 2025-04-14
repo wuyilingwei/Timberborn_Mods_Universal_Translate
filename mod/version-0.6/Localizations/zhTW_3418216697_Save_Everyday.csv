@@ -1,9 +1,9 @@
 ID,Text,Comment
 LV.SE.Enabled,已啟用,-
-LV.SE.EnabledDesc,此模組是否啟用。,-
-LV.SE.SaveFrequency,自動儲存頻率（天）,-
-LV.SE.SaveFrequencyDesc,這個模組應該多久自動保存一次。,-
-LV.SE.SaveCount,自動儲存次數,-
-LV.SE.SaveCountDesc,應該保留多少自動保存紀錄。,-
-LV.SE.SaveWeatherWarning,額外的天氣警告儲蓄,-
-LV.SE.SaveWeatherWarningDesc,當發出氣象警告時，請額外保存一個名為 'weatherwarning.save' 的檔案，此檔案僅在下個週期的警告中被覆寫。此檔案不計入保存計數。,-
+LV.SE.EnabledDesc,此模組是否已啟用。,-
+LV.SE.SaveFrequency,自動保存頻率（天）,-
+LV.SE.SaveFrequencyDesc,這個模組應該多久自動儲存一次。,-
+LV.SE.SaveCount,自動保存計數,-
+LV.SE.SaveCountDesc,應保留多少個自動儲存檔。,-
+LV.SE.SaveWeatherWarning,天氣警告額外保存,-
+LV.SE.SaveWeatherWarningDesc,當氣象警告發布時，請額外儲存一個名為 'weatherwarning.save' 的檔案，只有在下一輪警告時才會被覆蓋。這個儲存不計入儲存次數。,-

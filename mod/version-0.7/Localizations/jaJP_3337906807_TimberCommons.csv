@@ -1,28 +1,28 @@
 ID,Text,Comment
-IgorZ.TimberCommons.WaterTower.Utilization,利用された潜在能力: {0:0.#}%,-
+IgorZ.TimberCommons.WaterTower.Utilization,活用されたポテンシャル: {0:0.#}%,-
 IgorZ.TimberCommons.WaterTower.IrrigatedArea,カバー面積: {0},-
 IgorZ.TimberCommons.WaterTower.EffectiveRange,有効範囲: {0},-
-IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,灌漑できるタイルがありません,-
-IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,成長促進: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
-IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,成長の鈍化：<RedHighlight>🡇</RedHighlight>{0:0.#}%,-
-IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,洪水門の上の深さを閉じる: {0},-
+IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,灌漑できるタイルが見つかりません。,-
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,成長ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,成長の slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,スピルウェイでの深さの上に閉じる: {0},-
 IgorZ.TimberCommons.InjuryProbability,怪我の確率: {0} 毎時,-
 IgorZ.TimberCommons.Settings.TimeAndDurationSection,時間と期間の表現,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,「供給が続く間」を日/時間で表示する,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,「在庫がある限り」を日数/時間で表示する,-
 IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,成長時間を日/時間で表示する,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,レシピの時間を日/時間で表示する,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,より高い精度でレシピの燃料消費を表示する,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,レシピの時間を日／時間として表示する,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,レシピの燃料消費をより高い精度で表示する,-
 IgorZ.TimberCommons.Settings.IrrigationSystemSection,灌漑システム,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,潅水されたタイルを湿潤として表示する,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,タイルが光沢のある緑色（よく潤っている）に見えるべきかどうかを指定します。そうでない場合、ストックロジックはそれらを「ほとんど潤っていない」と表示します。なぜなら、灌漑タワーは基本的な湿度レベルしか提供しないからです。,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,灌漑されたタイルを湿った状態で表示します。,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,タイルが光沢のある緑色（十分に潤いがある）に見えるべきかどうかを指定します。そうでない場合、ストックのロジックでは、灌漑タワーが基本の水分レベルしか提供しないため、タイルは「ほとんど潤っていない」と表示されます。,-
 IgorZ.TimberCommons.Settings.WaterBuildingsSection,水の建物,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,機械ポンプの排水路で最大水位を設定できるようにする,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,液体の滴の越流堤で最大水位を設定できるようにする,-
-IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,現在のスルースの強さを表示してください。,-
-IgorZ.TimberCommons.Settings.InjuryProbabilitySection,怪我の確率,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,右側のパネルに怪我の確率を表示してください。,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,機械ポンプの洩水口で最大水位を設定できるようにしてください。,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,液体のドロップの排水口で最大水位を設定できるようにする,-
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,スルースの現在の強度を表示してください。,-
+IgorZ.TimberCommons.Settings.InjuryProbabilitySection,怪我の可能性,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,右のパネルに傷害の確率を表示してください。,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,ビルのアバターにインジケーターを表示する,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,指標にカーソルを合わせると、怪我の確率が表示されます。,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,インジケーターにマウスを合わせると、怪我の確率が表示されます。,-
 IgorZ.TimberCommons.Settings.DebugSection,デバッグとトラブルシューティング,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLogging,詳細ログ,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,ログにはより役立つ詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLogging,詳細ログ記録,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,ログにはより有用な詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。,-

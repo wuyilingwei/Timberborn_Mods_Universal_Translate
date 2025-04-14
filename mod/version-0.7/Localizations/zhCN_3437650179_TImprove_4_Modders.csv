@@ -1,20 +1,20 @@
 ID,Text,Comment
-LV.TIMod.SwapBuildFinishedModifier,反转建造完成按键方式,-
-LV.TIMod.SwapBuildFinishedModifierDesc,勾选后，反转开发者模式下 Ctrl 键的功能（游戏默认：否，即按住Ctrl放置建筑时会自动完成，逆转后不按住才会自动完成）。,-
-LV.TIMod.NoClearDevFilter,不重置开发者模式过滤器,-
-LV.TIMod.NoClearDevFilterDesc,勾选后，在调用或从收藏中添加/移除过滤器时不重置开发者模式过滤器。,-
-Modding.ThumbnailInfo,如果勾选了“选择上传缩略图”选项，点击刷新以选择模组缩略图。,-
+LV.TIMod.SwapBuildFinishedModifier,交换构建完成修改器,-
+LV.TIMod.SwapBuildFinishedModifierDesc,当启用开发模式时，按住Ctrl放置建筑时，自动完成构建将正常放置建筑以进行施工。,-
+LV.TIMod.NoClearDevFilter,请勿清除开发模式过滤器。,-
+LV.TIMod.NoClearDevFilterDesc,在调用一个或将其添加/移除收藏时，请勿清除开发模式过滤器。,-
+Modding.ThumbnailInfo,点击“刷新”以选择模组缩略图，如果选中了“选择上传缩略图”选项。,-
 LV.TIMod.PickThumbnail,选择上传缩略图,-
-LV.TIMod.PickThumbnailDesc,勾选后，上传模组时选择缩略图，而不是使用“thumbnail.png”。,-
-LV.TIMod.OpenExternalBrowser,始终使用外部浏览器打开,-
-LV.TIMod.OpenExternalBrowserDesc,勾选后，始终使用外部浏览器打开，而不是使用Steam覆盖浏览器。,-
-LV.TIMod.DevModeOnDefault,加载时默认启用开发者模式,-
-LV.TIMod.DevModeOnDefaultDesc,勾选后，加载游戏时默认启用开发者模式。,-
-LV.TIMod.BetterResetLoadOrder,模组排序优化,-
-LV.TIMod.BetterResetLoadOrderDesc,勾选后，“重置加载顺序”会根据模组的启用状态、名称来排序，然后将依赖项排在上面。上传模组时，启用的模组会排在上面。,-
-LV.TIMod.NoExitSave,无保存退出,-
-LV.TIMod.NoExitSaveDesc,退出游戏时不进行自动保存。,-
-LV.TIMod.QuickQuit,启用快速退出 (!),-
-LV.TIMod.QuickQuitDesc,勾选后，按下 Ctrl+Shift+Q 时快速退出游戏。此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
-LV.TIMod.QuickRestart,启用快速重启 (!),-
-LV.TIMod.QuickRestartDesc,勾选后，按下 Ctrl+Shift+R 时快速重启游戏。此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
+LV.TIMod.PickThumbnailDesc,选择一个缩略图作为上传的图片，而不是使用 thumbnail.png。,-
+LV.TIMod.OpenExternalBrowser,始终打开外部浏览器,-
+LV.TIMod.OpenExternalBrowserDesc,始终使用外部浏览器而不是Steam叠加浏览器打开。,-
+LV.TIMod.DevModeOnDefault,在加载时启用开发模式,-
+LV.TIMod.DevModeOnDefaultDesc,默认情况下在加载游戏时启用开发模式。,-
+LV.TIMod.BetterResetLoadOrder,更好的模组组织,-
+LV.TIMod.BetterResetLoadOrderDesc,移动到顶部将模组移到顶部，但在它们的依赖项下面。重置加载顺序按启用、名称排序模组，然后将它们的依赖项排在最上面。启用的模组在上传时会首先显示。,-
+LV.TIMod.NoExitSave,无出路保存,-
+LV.TIMod.NoExitSaveDesc,退出时不要保存游戏。,-
+LV.TIMod.QuickQuit,启用快速/强制退出 [Ctrl Shift Q][!],-
+LV.TIMod.QuickQuitDesc,启用快速退出，按下 [Ctrl Shift Q]。此选项使用 Process.Kill()，因此不会保存。,-
+LV.TIMod.QuickRestart,启用快速重启 [Ctrl Shift R][!],-
+LV.TIMod.QuickRestartDesc,按下 [Ctrl Shift R] 时启用快速重启。此选项使用 Process.Kill()，因此不会保存任何内容。,-

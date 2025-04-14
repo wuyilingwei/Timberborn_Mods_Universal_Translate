@@ -1,39 +1,39 @@
 ID,Text,Comment
-LV.TI.EnableFreeCamera,Aktiviere die freie Kamera,-
-LV.TI.EnableFreeCameraDesc,Entfernen Sie die Kameraeinschränkungen im Spiel.,-
+LV.TI.EnableFreeCamera,Kostenlose Kamera aktivieren,-
+LV.TI.EnableFreeCameraDesc,Entferne die Kameraeinschränkungen im Spiel.,-
 LV.TI.DisableFog,Nebel deaktivieren,-
 LV.TI.DisableFogDesc,Entferne den Nebel im Spiel.,-
 LV.TI.PauseBadWeather,Pause bei schlechtem Wetter,-
-LV.TI.PauseBadWeatherDesc,"Pausiere das Spiel, wenn schlechtes Wetter (Dürre, schlechter Gezeiten) beginnt.",-
-LV.TI.ShowCoords,Zeige Koordinaten,-
+LV.TI.PauseBadWeatherDesc,"Pausiere das Spiel, wenn schlechtes Wetter (Dürre, schlechte Gezeiten) einsetzt.",-
+LV.TI.ShowCoords,Koordinaten anzeigen,-
 LV.TI.ShowCoordsDesc,Zeigen Sie die Blockkoordinaten in der oberen rechten Ecke an. Z ist die Höhe. NOCH NICHT FÜR UPDATE 7 VERFÜGBAR.,-
 LV.TI.CoordsLabel,"(X, Y, Z): ({0}, {1}, {2})",-
 LV.TI.HeightLabel,Höhe: {0},-
 LV.TI.OnlyShowHeight,Nur die Höhe anzeigen,-
-LV.TI.OnlyShowHeightDesc,Zeige nur die Höhe anstelle der vollständigen Koordinaten.,-
+LV.TI.OnlyShowHeightDesc,Zeige nur die Höhe anstelle der gesamten Koordinaten.,-
 LV.TI.PrioritizeRubbles,Priorisieren Sie Trümmer,-
-LV.TI.PrioritizeRubblesDesc,Setzen Sie automatisch die Priorität von Trümmern auf Hoch.,-
-LV.TI.AllDayLight,Keine Zeitumstellung,-
-LV.TI.AllDayLightDesc,"Visuell/UI nur. Das ausgewählte Tageslicht bleibt die ganze Zeit über, anstatt sich während des Tages zu ändern.",-
+LV.TI.PrioritizeRubblesDesc,Setze die Priorität von Trümmern automatisch auf Hoch.,-
+LV.TI.AllDayLight,Keine Tageslichtänderung,-
+LV.TI.AllDayLightDesc,"Visuell/UI nur. Das ausgewählte Tageslicht bleibt die ganze Zeit erhalten, anstatt sich während des Tages zu ändern.",-
 LV.TI.ShowGameTime,Spielzeit anzeigen,-
-LV.TI.ShowGameTimeDesc,Zeigen Sie die aktuelle Spielzeit in der oberen rechten Ecke an.,-
-LV.TI.EnableSpeedS25,"Aktiviere 0,25x Geschwindigkeit [Umschalt+1]",-
+LV.TI.ShowGameTimeDesc,Zeige die aktuelle Spielzeit oben rechts an.,-
+LV.TI.EnableSpeedS25,"Aktivieren Sie 0,25x Geschwindigkeit [Shift+1]",-
 LV.TI.EnableSpeedS25Desc,"Entsperren Sie die 0,25-fache Geschwindigkeitsoption im Spiel, indem Sie Shift+1 drücken. Normalerweise ist dies nur im Entwicklermodus verfügbar.",-
-LV.TI.EnableSpeed4,Aktivieren Sie 30x Geschwindigkeit [4],-
-LV.TI.EnableSpeed4Desc,"Schalte die 4. Geschwindigkeit 30x Option im Spiel frei, indem du die 4 drückst. Normalerweise ist dies nur im Entwicklermodus verfügbar.",-
-LV.TI.EnableSpeed5,Aktivieren Sie die 99-fache Geschwindigkeit [5] (!),-
-LV.TI.EnableSpeed5Desc,"Entsperre die 5. Geschwindigkeits-99x-Option im Spiel, indem du die 5 drückst. Normalerweise ist dies nur im Entwicklermodus verfügbar. Sei gewarnt, dass diese Geschwindigkeit instabil ist und Probleme im Spiel verursachen kann. Jemand hat gesagt, dass Biber hungrig und durstig bleiben könnten.",-
-LV.TI.StaticLight,Statisches Tageslicht,-
-LV.TI.StaticLightDesc,Visual/UI nur. Dieses Tageslicht wird die ganze Zeit gleich bleiben.,-
+LV.TI.EnableSpeed4,Aktivieren Sie 30-fache Geschwindigkeit [4],-
+LV.TI.EnableSpeed4Desc,"Schalte die 4. Geschwindigkeitsoption 30x im Spiel frei, indem du die 4 drückst. Normalerweise ist dies nur im Entwicklermodus verfügbar.",-
+LV.TI.EnableSpeed5,Aktivieren Sie 99-fache Geschwindigkeit [5] (!),-
+LV.TI.EnableSpeed5Desc,"Schalte die 5. Geschwindigkeitsoption 99x im Spiel frei, indem du die 5 drückst. Normalerweise ist dies nur im Entwicklermodus verfügbar. Sei gewarnt, dass diese Geschwindigkeit instabil ist und Probleme mit dem Spiel verursachen kann. Jemand hat gesagt, dass Biber hungrig und durstig bleiben könnten.",-
+LV.TI.StaticLight,Statisches Licht,-
+LV.TI.StaticLightDesc,Visual/UI nur. Dieses Tageslicht wird immer gleich bleiben.,-
 LV.TI.LightSunrise,Sonnenaufgang,-
 LV.TI.LightDay,Tag,-
 LV.TI.LightSunset,Sonnenuntergang,-
 LV.TI.LightNight,Nacht,-
-LV.TI.QuickQuit,Schnell/Zwangsbeenden [Strg + Shift + Q] (!),-
-LV.TI.QuickQuitDesc,"Drücken Sie Strg + Shift + Q, um das Spiel sofort zu beenden, indem Sie den Spielprozess beenden. KEIN SPEICHERN oder Bereinigung des Spielstands. Seien Sie vorsichtig!",-
-LV.TI.BiggerBuildDragArea,Größere Baufläche zur Luftwiderstandsberechnung (!),-
-LV.TI.BiggerBuildDragAreaDesc,"Erhöhe die Ziehbereich für Gebäude wie Dämme (Standard 10x10) oder Straßen (25). Dies erhöht erheblich die Ladezeit und den Speicherverbrauch, also sei vorsichtig. Beispiel: Wenn du dies auf 5 einstellst, wird der Ziehbereich 15x15 Dämme oder 30 Straßen betragen. Kann nur im Hauptmenü geändert werden.",-
-LV.TI.AutoClearDeadTrees,Klare tote Bäume sofort weg.,-
-LV.TI.AutoClearDeadTreesDesc,Beim Verwenden des Werkzeugs „Ressourcen für den Abriss markieren“ sofort abgestorbene Bäume ohne Biber entfernen (als ob man darauf baut).,-
+LV.TI.QuickQuit,Schnell/Erzwingen Beenden [Strg + Umschalt + Q] (!),-
+LV.TI.QuickQuitDesc,"Drücken Sie Strg + Shift + Q, um das Spiel sofort durch Beenden des Spielprozesses zwangsweise zu beenden. KEIN SPIELSTAND oder Bereinigung des Spielstatus. Seien Sie vorsichtig!",-
+LV.TI.BiggerBuildDragArea,Größere Baufläche zum Ziehen (!),-
+LV.TI.BiggerBuildDragAreaDesc,"Erhöhen Sie die Ziehfläche für Gebäude wie Dämme (Standard 10x10) oder Straßen (25). Dies erhöht signifikant die Ladezeit und den Speicherbedarf, daher sollte es vorsichtig verwendet werden. Beispiel: Wenn Sie dies auf 5 setzen, wird die Ziehfläche 15x15 Dämme oder 30 Straßen. Kann nur im Hauptmenü geändert werden.",-
+LV.TI.AutoClearDeadTrees,Fallen Bäume sofort entfernen,-
+LV.TI.AutoClearDeadTreesDesc,Beim Verwenden des Werkzeugs „Ressourcen zur Abrissmarkierung“ sofort abgestorbene Bäume automatisch ohne Biber entfernen (als ob Sie darauf bauen würden).,-
 LV.TI.AddRealTimeClock,Echtzeituhr hinzufügen,-
-LV.TI.AddRealTimeClockDesc,"Fügen Sie eine Echtzeituhr in der oberen rechten Ecke hinzu. Dies ist nützlich für Spieler, die die Zeit während des Spiels im Auge behalten möchten.",-
+LV.TI.AddRealTimeClockDesc,"Fügen Sie eine Echtzeituhr oben rechts ein. Dies ist nützlich für Spieler, die die Zeit beim Spielen im Auge behalten möchten.",-

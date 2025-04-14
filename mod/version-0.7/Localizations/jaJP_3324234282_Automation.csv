@@ -1,133 +1,133 @@
 ID,Text,Comment
 IgorZ.Automation.DebugPickTool.Title,デバッグツール,-
 IgorZ.Automation.DebugPickTool.Description,選択したオブジェクトにコンポーネントを印刷します。,-
-IgorZ.Automation.DebugPickTool.DescriptionHint1,<i>SHIFT</i>を押し続けると、アクセシブルが印刷されます。,-
+IgorZ.Automation.DebugPickTool.DescriptionHint1,<i>SHIFT</i>を押し続けて、アクセシブルを印刷します。,-
 IgorZ.Automation.DebugPickTool.DescriptionHint2,<i>CTRL</i>を押しながらNavMeshのエッジを印刷します。,-
-IgorZ.Automation.DebugFinishNowTool.Title,デバグツールを終了します。,-
-IgorZ.Automation.DebugFinishNowTool.Description,選択した建設物を即座に完成させる。,-
-IgorZ.Automation.ToolGroup.Main.DisplayName,自動化をセットアップする,-
-IgorZ.Automation.ToolGroup.Terrain.DisplayName,地形変更,-
+IgorZ.Automation.DebugFinishNowTool.Title,今すぐデバッグツールを終了します。,-
+IgorZ.Automation.DebugFinishNowTool.Description,選択された建設物を即座に完成させます。,-
+IgorZ.Automation.ToolGroup.Main.DisplayName,自動化の設定,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,地形の変化,-
 IgorZ.Automation.ToolGroup.Water.DisplayName,水の状態,-
-IgorZ.Automation.ToolGroup.Power.DisplayName,電源条件,-
-IgorZ.Automation.ToolGroup.Storage.DisplayName,保管条件,-
-IgorZ.Automation.ToolGroup.Population.DisplayName,人口条件,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,電力条件,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,保存条件,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,人口状況,-
 IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,ダイナマイトを2回爆発させる,-
 IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,ダイナマイトを3回爆発させる,-
 IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,ダイナマイトを4回爆発させる,-
 IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,ダイナマイトを5回爆発させる,-
-IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,ダイナマイトを6回爆破する,-
-IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,このテンプレートは、完成しているかまだ建設中のダイナマイトに適用できます。完成すると、ダイナマイトは自動的に爆発し、新しいダイナマイトの設計図が設置されてさらに深く掘ることができます。,-
-IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,ストレージの容量が50％を超えた場合は、ストレージを空にしてください。,-
-IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,容量が60%を超えた場合、ストレージを空にしてください。,-
-IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,容量が70%以上の場合はストレージを空にしてください。,-
-IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,容量が80％を超えた場合はストレージを空にしてください。,-
-IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,容量が90％を超えた場合、ストレージを空にしてください。,-
-IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,このテンプレートは、1種類の製品を生産し、在庫を持たない建物に適用できます。<i>出力</i> 在庫のレベルが事前に設定された閾値を超えると、その建物は「空」のモードに移行し、商品を迅速に取り除くことができます。,-
+IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,ダイナマイトを6回爆発させる,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,このテンプレートは、完成したダイナマイトやまだ建設中のダイナマイトに適用できます。完成すると、ダイナマイトは自動的に爆発し、新しいダイナマイトの設計図が配置されてさらに深く掘ることができます。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,容量が50％を超える場合は、ストレージを空にしてください。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,ストレージの容量が60%を超えた場合は空にしてください。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,容量が70%を超えた場合はストレージを空にしてください。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,容量が80％を超えた場合は、ストレージを空にしてください。,-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,ストレージの容量が90%以上の場合は、ストレージを空にしてください。,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,このテンプレートは、一種類の製品を生産し、入力在庫がない建物に適用できます。<i>出力</i>の在庫レベルが事前に設定された閾値を超えると、建物は「空」モードに移行し、商品の迅速な除去を促進します。,-
 IgorZ.Automation.EmptyOutputStore.CustomStatus,建物は優先的に空にされています。,-
 IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,干ばつの間の休止,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.Description,干ばつの間に休止する必要がある建物にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,悪潮のときに休む,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.Description,悪潮の間に停止すべき建物にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,穏やかな天候の時に一時停止する,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.Description,温暖な天候の間、停止すべき建物にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,干ばつの間に洪水ゲートを閉じる,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,干ばつが始まったときに閉じるべき floodgates にこのテンプレートを適用します。,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,干ばつ時に排水口を開ける,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,干ばつが始まると開くべき排水口にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,干ばつの間の淡水規制装置,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,干ばつの際に開放される必要がある水管理者にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,悪潮の際は水門を閉める,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,悪潮が始まると閉じる必要がある排水口にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,高潮時に洪水ゲートを開く,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,悪潮が始まるときに開く必要がある洪水ゲートにこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,温暖な天候の間は洪水ゲートを閉じてください,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,気温が上昇する季節が始まると閉じる必要がある排水ゲートにこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,温暖な天候の際に閘門を開ける,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,気温の季節が始まると開放されるべき排水口にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,温暖な天候の際に排水口をわずかに開ける,-
-IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,温暖な季節が始まると、最大高さの0.5mだけ開くべき floodgates にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,干ばつの間に休止すべき建物にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,悪潮の間に休憩する,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,悪潮時に一時停止すべき建物にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,温暖な天候の間に休憩する,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,このテンプレートを、温暖な天候中に停止すべき建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,干ばつの間に堰を閉じる,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,干ばつが始まると閉じるべき洪水ゲートにこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,干ばつの間に水門を開ける,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,干ばつが始まると開くべき洪水ゲートにこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,干ばつ時のオープンウォーター規制,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,干ばつ時に開放される必要がある水調整装置にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,悪潮の際に閉じる洪水ゲート,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,大潮が始まると閉じる必要がある防潮ゲートにこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,悪潮時にフラッドゲートを開放する,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,悪潮が始まると開く必要がある防潮扉にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,穏やかな天候の際は、放水路の扉を閉じてください。,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,気温が上昇する季節が始まると閉じる必要がある防潮扉にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,温暖な天候の際に水門を開ける,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,温暖な季節が始まるときに開く必要があるフラッドゲートにこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,温暖な天候時に少し開いた排水口,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,このテンプレートを、温暖な季節が始まるときに最大高さの0.5m分開くべきフラッドゲートに適用してください。,-
 IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,ボットの人口 +10,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,このテンプレートを、ボットの数が現在のレベルを10ボット超えるまで稼働するべき建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,このテンプレートを、ボットの数が現在のレベルを10体超えるまで運営すべき建物に適用してください。,-
 IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,ボットの人口 +20,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,このテンプレートを、ボットの人口が現在のレベルを20ボット超えるまで稼働するべき建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,このテンプレートを、ロボットの人口が現在のレベルを20ロボット超えるまで稼働すべき建物に適用してください。,-
 IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,ボットの人口 -10,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,このテンプレートを、ボットの個体数が現在のレベルよりも10匹のビーバー減少するまで、停止状態を維持しなければならない建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,このテンプレートを、ボットの人口が現在のレベルよりも10ビーバー少なくなるまで停止しなければならない建物に適用してください。,-
 IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,ボットの人口 -20,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,このテンプレートを、ボットの人口が現在のレベルより20匹のビーバー少なくなるまで停止しなければならない建物に適用してください。,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,ビーバーの個体数が最大に達するまで実行する,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,このテンプレートを、ボットの人口が現在のレベルから20匹のビーバー以下に減少するまで、停止し続ける必要がある建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,ビーバーの個体数が最大になるまで実行してください。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,このテンプレートを、空いているベッドがある限り運営されるべき建物に適用してください。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,ビーバーの個体数 +10,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,ビーバーの個体数が現在のレベルを10匹超えるまで稼働すべき建物にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,ビーバーの個体数が現在のレベルを10匹超えるまで運用する必要がある建物に、このテンプレートを適用してください。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,ビーバーの個体数 +20,-
 IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,ビーバーの個体数が現在のレベルを20匹超えるまで稼働すべき建物にこのテンプレートを適用してください。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,ビーバーの個体数 -10,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,ビーバーの個体数が現在のレベルから10匹下回るまで、一時停止を維持すべき建物にこのテンプレートを適用してください。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,ビーバーの個体数が現在のレベルより10匹低下するまで、一時停止すべき建物にこのテンプレートを適用してください。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,ビーバーの個体数 -20,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,ビーバーの個体数が現在のレベルから20匹減少するまで、停止すべき建物にこのテンプレートを適用してください。,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,ビルダーをブロックしないでください。,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,このテンプレートを、建設現場で建設者の通路を妨げる可能性のある場所に適用してください。注意：建物が同じレベルにない場合、結果は保証されません。,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,このテンプレートを、ビーバーの個体数が現在のレベルより20匹少なくなるまで一時停止しておくべき建物に適用してください。,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,ビルダーをブロックしないでください,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,このテンプレートを、建設現場が建設者の通路を妨げる可能性がある場合に適用してください。注意：建物が同じレベルにない場合は、結果が保証されないことがあります。,-
 IgorZ.Automation.CancelTool.Title,自動化をキャンセルする,-
 IgorZ.Automation.CancelTool.Description,このツールを使用して、建物や建設現場の自動化を整理してください。,-
-IgorZ.Automation.PauseTool.Title,建物を一時停止する,-
-IgorZ.Automation.PauseTool.Description,このツールを使用して、建物や建設現場を一時停止してください。,-
-IgorZ.Automation.ResumeTool.Title,ビルを再開する,-
-IgorZ.Automation.ResumeTool.Description,このツールを使用して、建物や建設現場の一時停止を解除します。,-
+IgorZ.Automation.PauseTool.Title,一時停止ビル,-
+IgorZ.Automation.PauseTool.Description,このツールを使って、建物と建設現場を一時停止します。,-
+IgorZ.Automation.ResumeTool.Title,建物の一時停止を解除する,-
+IgorZ.Automation.ResumeTool.Description,このツールを使って、建物や建設現場の一時停止を解除してください。,-
 IgorZ.Automation.DummyTitle,一般的なタイトル,-
 IgorZ.Automation.DummyDescription,一般的な説明,-
 TimberDev_Utils.Tools.LockSelectTool.SelectingObject,選択中: {0},-
 TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,選択中: {0} (x{1}),-
-TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,エンティティを指し示してクリックして選択を開始します。,-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,エンティティを指してクリックすると、選択を開始できます。,-
 TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,選択を開始するにはクリックしてください: {0},-
-TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,<i>SHIFT</i>を押しながら、1種類のアイテムのみを選択します。,-
-IgorZ.Automation.DetonateDynamiteAction.Description,ダイナマイトを爆破する,-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,<i>SHIFT</i> を押し続けて、1種類のアイテムのみを選択します。,-
+IgorZ.Automation.DetonateDynamiteAction.Description,<YellowHighlight>ダイナマイトを爆発させる</YellowHighlight>,-
 IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,そしてもう一つの<GreenHighlight>{0}回</GreenHighlight>を追加します。,-
 IgorZ.Automation.DroughtEndedCondition.Description,干ばつが終わった,-
-IgorZ.Automation.DroughtStartedCondition.Description,干ばつが始まった,-
+IgorZ.Automation.DroughtStartedCondition.Description,<YellowHighlight>干ばつが始まった</YellowHighlight>,-
 IgorZ.Automation.MarkForEmptyingAction.Description,空のストレージ,-
 IgorZ.Automation.ObjectFinishedCondition.Description,<YellowHighlight>工事完了</YellowHighlight>,-
-IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<YellowHighlight>在庫が{0}%以上</YellowHighlight>,-
+IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<YellowHighlight>出力在庫が{0}%以上</YellowHighlight>,-
 IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<YellowHighlight>在庫が{0}%未満</YellowHighlight>,-
-IgorZ.Automation.PauseAction.Description,<YellowHighlight>建設を一時停止する</YellowHighlight>,-
-IgorZ.Automation.SetFloodgateHeightAction.Description,<YellowHighlight>高さを {0} に設定する</YellowHighlight>,-
-IgorZ.Automation.UnmarkForEmptyingAction.Description,<YellowHighlight>ストレージを空にするのをやめてください</YellowHighlight>,-
-IgorZ.Automation.UnpauseAction.Description,建物の再開,-
-IgorZ.Automation.WaterRegulatorStateActionClose.Description,水調節器を閉じる,-
-IgorZ.Automation.WaterRegulatorStateActionOpen.Description,<YellowHighlight>オープンウォーター レギュレーター</YellowHighlight>,-
+IgorZ.Automation.PauseAction.Description,<YellowHighlight>建設を一時停止</YellowHighlight>,-
+IgorZ.Automation.SetFloodgateHeightAction.Description,<YellowHighlight>高さを {0} に設定</YellowHighlight>,-
+IgorZ.Automation.UnmarkForEmptyingAction.Description,<YellowHighlight>ストレージを空にするのをやめる</YellowHighlight>,-
+IgorZ.Automation.UnpauseAction.Description,<YellowHighlight>ビルドを再開する</YellowHighlight>,-
+IgorZ.Automation.WaterRegulatorStateActionClose.Description,<YellowHighlight>水調整弁を閉じる</YellowHighlight>,-
+IgorZ.Automation.WaterRegulatorStateActionOpen.Description,<YellowHighlight>オープンウォーター規制者</YellowHighlight>,-
 IgorZ.Automation.BadtideEndedCondition.Description,バッドタイドが終了しました,-
 IgorZ.Automation.BadtideStartedCondition.Description,<YellowHighlight>バッドタイドが始まりました</YellowHighlight>,-
-IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<YellowHighlight>地区にいるビーバーは{0}未満です</YellowHighlight>,-
+IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<YellowHighlight>地区内のビーバーは{0}匹未満</YellowHighlight>,-
 IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,<YellowHighlight>地区に{0}匹以上のビーバー</YellowHighlight>,-
-IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<YellowHighlight>地区内のボットが{0}未満</YellowHighlight>,-
+IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<YellowHighlight>地区内のボットが {0} 未満</YellowHighlight>,-
 IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,<YellowHighlight>地区に{0}以上のボット</YellowHighlight>,-
 IgorZ.Automation.PopulationRelativeToMaxArg,最大{0},-
 IgorZ.Automation.PopulationRelativeToCurrentArg,今{0},-
-IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<イエローハイライト>道をふさぐ</イエローハイライト>,-
-IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<イエロー ハイライト>道を塞がない</イエロー ハイライト>,-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<YellowHighlight>道を塞ぐ</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<YellowHighlight>道を塞がない</YellowHighlight>,-
 IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,建設者たちはまだそれに到達できませんが、道が建設中です。,-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,建設者たちはこの場所への道を見つけられません。おそらくここでは何も建設できないでしょう。,-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,到達できない建設現場,-
-IgorZ.Automation.ShowStatusAction.HoldConstruction,<YellowHighlight>完了を保持する</YellowHighlight>,-
-IgorZ.Automation.ShowStatusAction.ResumeConstruction,履歴書作成,-
-IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,他の建物が完成するのを待っています。,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,建設者たちはこの場所への道を見つけられません。ここでは何も建設できないかもしれません。,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,アクセスできない工事現場,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,<YellowHighlight>保留完了</YellowHighlight>,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,<YellowHighlight>履歴書作成</YellowHighlight>,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,他の建物が完成するのを待っている,-
 IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,自動化エラー,-
-IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,一部の自動化ルールは実行できません。,-
-IgorZ.Automation.BlockableBuildingAction.BlockDescription,<YellowHighlight>ブロックビルディング</YellowHighlight>,-
-IgorZ.Automation.BlockableBuildingAction.UnblockDescription,建物のブロック解除,-
-IgorZ.Automation.BlockableBuildingAction.BlockText,他の建物が完成するのを待っています。,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,一部の自動化ルールを実行できません。,-
+IgorZ.Automation.BlockableBuildingAction.BlockDescription,ブロックビルディング,-
+IgorZ.Automation.BlockableBuildingAction.UnblockDescription,<YellowHighlight>建物のブロックを解除する</YellowHighlight>,-
+IgorZ.Automation.BlockableBuildingAction.BlockText,他の建物が終わるのを待っています。,-
 =,Error,-
 IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,自動化ルール：,-
-IgorZ.Automation.AutomationFragment.RuleTextLocKey,もし {0} なら {1},-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,もし {0} ならば {1},-
 IgorZ.Automation.AutomationFragment.AddRulesBtn,自動化ルールを追加する,-
 IgorZ.Automation.AutomationFragment.EditRulesBtn,編集ルール,-
-IgorZ.Automation.AutomationFragment.CopyRulesBtn,コピー規則,-
+IgorZ.Automation.AutomationFragment.CopyRulesBtn,コピールール,-
 IgorZ.Automation.Tool.CopyRules.Title,コピー自動化ルール,-
-IgorZ.Automation.Tool.CopyRules.Text,{0}のルールをコピーする,-
+IgorZ.Automation.Tool.CopyRules.Text,{0} ルールをコピーする,-
 IgorZ.Automation.Scripting.Expressions.AndOperator,と,-
 IgorZ.Automation.Scripting.Expressions.OrOperator,または,-
 IgorZ.Automation.Scripting.Expressions.ParseError,解析エラー,-
 IgorZ.Automation.Scripting.Expressions.RuntimeError,実行時エラー,-
-IgorZ.Automation.Scriptable.Debug.Action.LogStr,ログに文字列を書き込みます: {0},-
-IgorZ.Automation.Scriptable.Debug.Action.LogNum,ログに数字を書き込む: {0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogStr,ログに文字列を書き込む: {0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogNum,ログに数を記録します: {0},-
 IgorZ.Automation.Scriptable.District.Signal.Beavers,地区のビーバー,-
 IgorZ.Automation.Scriptable.District.Signal.Bots,地区のボット,-
 IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,地区のベッド,-
@@ -137,30 +137,30 @@ IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,出力: {0},-
 IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,ストレージを空にし始める,-
 IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,ストレージを空にするのをやめてください。,-
 IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,ストレージは優先的に空にされています。,-
-IgorZ.Automation.Scriptable.Pausable.Action.Pause,建設を一時停止する,-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,建設を中断する,-
 IgorZ.Automation.Scriptable.Pausable.Action.Resume,履歴書作成,-
-IgorZ.Automation.Scriptable.Weather.Signal.Season,季節,-
+IgorZ.Automation.Scriptable.Weather.Signal.Season,シーズン,-
 IgorZ.Automation.Scripting.Editor.DialogHeader,自動化ルール,-
-IgorZ.Automation.Scripting.Editor.ReadMoreLink,申し訳ありませんが、直接リンクを開いて内容を翻訳することはできません。しかし、リンクのテキストや具体的な内容を提供していただければ、その内容を日本語に翻訳することができます。どうぞ、ご指示ください。,-
-IgorZ.Automation.Scripting.Editor.PendingEditsNotification,編集状態にはルールがあります。それをまず完了してください。,-
+IgorZ.Automation.Scripting.Editor.ReadMoreLink,このリンクにはアクセスできないため、指定された内容を翻訳することはできません。リンクの内容を直接入力いただければ、それを翻訳いたします。,-
+IgorZ.Automation.Scripting.Editor.PendingEditsNotification,編集状態にはルールがあります。それらを最初に完了してください。,-
 IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation,保存されていない変更があります。破棄しますか？,-
 IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,スクリプトを追加する,-
 IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,コンストラクタを介してルールを作成する,-
-IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,テンプレートグループ: {0},-
+IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,テンプレートグループ：{0},-
 IgorZ.Automation.Scripting.Editor.DeletedRule,ルールが削除されました,-
-IgorZ.Automation.Scripting.Editor.ResetChangesBtn,変更をリセットする,-
+IgorZ.Automation.Scripting.Editor.ResetChangesBtn,変更をリセット,-
 IgorZ.Automation.Scripting.Editor.EditAsScriptBtn,スクリプト,-
-IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,コンストラクター,-
+IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,コンストラクタ,-
 IgorZ.Automation.Scripting.Editor.TestScriptBtn,テスト,-
 IgorZ.Automation.Scripting.Editor.SaveScriptBtn,保存する,-
-IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,廃棄する,-
-IgorZ.Automation.Scripting.Editor.ConditionLabel,If,-
-IgorZ.Automation.Scripting.Editor.ActionLabel,それでは,-
+IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,破棄する,-
+IgorZ.Automation.Scripting.Editor.ConditionLabel,Error,-
+IgorZ.Automation.Scripting.Editor.ActionLabel,その後,-
 IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,条件はブール式でなければなりません。,-
-IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,条件には少なくとも1つの信号が含まれている必要があります。,-
-IgorZ.Automation.Scripting.Editor.ActionMustBeAction,アクションは「act」オペレーターでなければなりません。,-
+IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,条件には少なくとも1つの信号を含める必要があります。,-
+IgorZ.Automation.Scripting.Editor.ActionMustBeAction,アクションは「act」オペレーターでなければなりません,-
 IgorZ.Automation.Scripting.Editor.SaveRulesBtn,保存して閉じる,-
 IgorZ.Automation.Scripting.Editor.DiscardChangesBtn,変更を破棄する,-
-IgorZ.Automation.Scripting.Editor.MoreInfoBtn,スクリプトについて読む,-
+IgorZ.Automation.Scripting.Editor.MoreInfoBtn,スクリプト作成について読む,-
 IgorZ.Automation.Scripting.Editor.StringConstantType,文字列,-
 IgorZ.Automation.Scripting.Editor.NumberConstantType,番号,-

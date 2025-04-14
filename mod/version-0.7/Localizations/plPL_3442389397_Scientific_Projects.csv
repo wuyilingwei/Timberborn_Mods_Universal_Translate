@@ -1,92 +1,92 @@
 ID,Text,Comment
 LV.SP.Title,Projekty naukowe,-
-LV.SP.Welcome,"Dziękujemy za korzystanie z modu Projektów Naukowych. Ten ekran to miejsce, w którym możesz odblokować i zarządzać projektami. Możesz go otworzyć, klikając przycisk Nauka w lewym górnym rogu ekranu lub naciskając skrót klawiszowy (domyślnie: Y, możesz go przypisać ponownie w Ustawieniach Skrótów Klawiszowych).",-
+LV.SP.Welcome,"Dziękujemy za korzystanie z modyfikacji Projektów Naukowych. Ten ekran to miejsce, w którym możesz odblokować i zarządzać projektami. Możesz go otworzyć, klikając przycisk Nauka w lewym górnym rogu ekranu lub naciskając klawisz skrótu (domyślnie: Y, możesz go zmienić w Ustawieniach Przypisania Klawiszy).",-
 KeyBinding.ScientificProjectDialog,Ekran projektów naukowych,-
 LV.SP.Unlocked,Odblokowane!,-
 LV.SP.PreqLocked,"Wymaga {0}, aby odblokować.",-
-LV.SP.NotEnoughScienceNextDay,"Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj. Uwaga: naciśnięcie Esc spowoduje pominięcie projektów na dzisiaj.",-
-LV.SP.CurrentScience,Bieżąca nauka: {0},-
+LV.SP.NotEnoughScienceNextDay,"Nie masz wystarczającej ilości nauki, aby zapłacić za następny dzień. Dostosuj swoje projekty lub przełóż na dzisiaj. Ostrzeżenie: naciśnięcie klawisza Esc pominie projekty na dzisiaj.",-
+LV.SP.CurrentScience,Aktualna Nauka: {0},-
 LV.SP.CurrentSciencePlus,Aktualna nauka: {0} ({1} z wczoraj),-
 LV.SP.UnlockErrUnlocked,Ten projekt jest już odblokowany.,-
 LV.SP.UnlockErrRequirementLocked,"Ten projekt wymaga {0}, aby odblokować.",-
 LV.SP.UnlockErrCostLocked,"Masz tylko {0} nauki, ale potrzebujesz {1} nauki, aby odblokować ten projekt.",-
 LV.SP.UnlockConfirm,Czy na pewno chcesz odblokować {0} za pomocą {1} nauki?,-
-LV.SP.CustomCost,koszt na dzień:,-
-LV.SP.ScienceStepCost,{0} za Poziom,-
+LV.SP.CustomCost,koszt za dzień:,-
+LV.SP.ScienceStepCost,{0} za poziom,-
 LV.SP.CurrentCost,Koszt następnego dnia: {0}/d,-
 LV.SP.Level,Poziom,-
 LV.SP.ActiveLevel,Poziom aktywny: {0},-
-LV.SP.DayCostNotice,"Codzienny koszt nauki jest potrącany na początku każdego dnia, a efekty utrzymują się przez cały dzień.",-
+LV.SP.DayCostNotice,"Codzienny koszt nauki jest odciągany na początku każdego dnia, a efekty utrzymują się przez cały dzień.",-
 LV.SP.NextDayCost,Koszt następnego dnia: {0},-
-LV.SP.PayDayCost,Płać za dzień,-
+LV.SP.PayDayCost,Płatność za dzień,-
 LV.SP.NotEnoughSciencePay,"Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj.",-
-LV.SP.SkipConfirm,"Czy jesteś pewien, że chcesz dzisiaj pominąć projekty?",-
+LV.SP.SkipConfirm,Czy na pewno chcesz pominąć projekty na dzisiaj?,-
 LV.SP.SkipToday,Pomiń dzisiaj,-
 LV.SP.WrongFaction,Ten projekt nie może być odblokowany przez tę frakcję.,-
-LV.SP.ReloadNotice,"Proszę zapisać grę i ponownie ją załadować, aby te zmiany zaczęły obowiązywać.",-
-LV.SP.ReloadNeeded,[Potrzebne ponowne załadowanie],-
+LV.SP.ReloadNotice,"Proszę zapisać i załadować grę, aby ten projekt miał skutek.",-
+LV.SP.ReloadNeeded,[Wymagana ponowna synchronizacja],-
 LV.SP.WorkEffGroup,Wydajność pracy,-
-LV.SP.WorkEffGroupDesc,Zwiększ wydajność pracy w swojej kolonii,-
+LV.SP.WorkEffGroupDesc,Zwiększ wydajność pracy swojej kolonii,-
 LV.SP.LogisticGroup,Logistyka,-
-LV.SP.LogisticGroupDesc,Zwiększ prędkość ruchu i przepływ zasobów.,-
+LV.SP.LogisticGroupDesc,Zwiększ prędkość ruchu i przepływ zasobów,-
 LV.SP.WorkEffUpgrade1,Narzędzia do precyzyjnej pracy,-
-LV.SP.WorkEffUpgrade1Eff,Trwale zwiększa wydajność pracy wszystkich bobrów o {0:+#%}.,-
-LV.SP.WorkEffUpgrade1Lore,"Po wykopaniu planów narzędzi ludzkich, bobry wytwarzają ostrzejsze ostrza za pomocą starych sztuczek, zwiększając wydajność.",-
-LV.SP.WorkEffUpgrade2,Konserwacja narzędzi precyzyjnych,-
-LV.SP.WorkEffUpgrade2Lore,"'Zbudowałem ostrzałkę napędzaną wodą - utrzymuje nasze narzędzia w gotowości do pracy, przyspiesza każdą robotę z czasem!' — Chiseljaw Timberchew",-
-LV.SP.WorkEffUpgrade2Eff,{0:+#%} dodatkowa efektywność pracy wszystkich bobrów na poziomie.,-
-LV.SP.WorkEffUpgrade2Cost,"[Koszt] na poziom, oraz {1} za każde {2} dorosłych bobrów (zaokrąglone w górę)",-
-LV.SP.MoveSpeedUpgrade1,Lekkie klapki,-
-LV.SP.MoveSpeedUpgrade1Lore,"'Te klapki sprawiają, że czuję się, jakbym ślizgał się po wodzie' — Whiskertail Quickpaw",-
-LV.SP.MoveSpeedUpgradeEff,Na stałe zwiększa prędkość ruchu wszystkich bobrów o {0:+#%} (stakuje się z innymi projektami).,-
-LV.SP.MoveSpeedUpgrade2,Wytrzymałe buty turystyczne,-
-LV.SP.MoveSpeedUpgrade2Lore,"Twarde jak zęby bobra, te buty przekształcają trudne ścieżki w gładkie szlaki dla szybkiej podróży.",-
-LV.SP.MoveSpeedUpgrade3,Aerodynamiczny sprzęt sprinterski,-
-LV.SP.MoveSpeedUpgrade3Lore,'W tym biegu nie tylko biegam; jestem futrzanym zarysem czystej prędkości!' — Swiftstream Windrunner,-
+LV.SP.WorkEffUpgrade1Eff,Na stałe zwiększa efektywność pracy wszystkich bobrów o {0:+#%}.,-
+LV.SP.WorkEffUpgrade1Lore,"Po wykopaniu planów narzędzi dla ludzi, bobry tworzą ostrzejsze ostrza za pomocą starych sztuczek, zwiększając wydajność.",-
+LV.SP.WorkEffUpgrade2,Utrzymanie narzędzi precyzyjnych,-
+LV.SP.WorkEffUpgrade2Lore,"""Podrasowałem węzeł wodny do ostrzenia - utrzymuje nasze narzędzia gotowe do pracy, przyspiesza każdą robotę z czasem!"" — Chiseljaw Timberchew",-
+LV.SP.WorkEffUpgrade2Eff,{0:+#%} dodatkowa wydajność pracy wszystkich bobrów na poziom.,-
+LV.SP.WorkEffUpgrade2Cost,"[Koszt] za poziom, a {1} za każdego {2} dorosłego bobra (zaokrąglone w górę)",-
+LV.SP.MoveSpeedUpgrade1,Lekkie kapcie,-
+LV.SP.MoveSpeedUpgrade1Lore,"'Te kapcie sprawiają, że czuję się jakbym unosił się na wodzie' — Whiskertail Quickpaw",-
+LV.SP.MoveSpeedUpgradeEff,Trwale zwiększa prędkość ruchu wszystkich bobrów o {0:+#%} (stakuje się z innymi projektami).,-
+LV.SP.MoveSpeedUpgrade2,Trwałe bootsy trekkingowe,-
+LV.SP.MoveSpeedUpgrade2Lore,"Twarde jak zęby bobra, te buty przemieniają trudne szlaki w gładkie ścieżki dla szybkiej podróży.",-
+LV.SP.MoveSpeedUpgrade3,Aerodynamicowy sprzęt do sprintu,-
+LV.SP.MoveSpeedUpgrade3Lore,'W tym sprzęcie nie tylko biegam; jestem futrzanym zamglonym strumieniem czystej prędkości!' — Swiftstream Windrunner,-
 LV.SP.MoveSpeedUpgradeBuff,Projekty prędkości ruchu,-
 LV.SP.MoveSpeedUpgradeBuffDesc,Twoje lepsze wyposażenie pozwala twoim postaciom poruszać się szybciej.,-
-LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} prędkość poruszania się z {1},-
-LV.SP.WorkEffUpgradeBuff,Projekty Efektywności Pracy,-
-LV.SP.WorkEffUpgradeBuffDesc,Twoje znakomite narzędzia pozwalają Twoim postaciom pracować wydajniej.,-
-LV.SP.WorkEffUpgradeBuffEff,wydajność pracy na poziomie {0:+#%} z {1},-
+LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} prędkość ruchu z {1},-
+LV.SP.WorkEffUpgradeBuff,Projekty efektywności pracy,-
+LV.SP.WorkEffUpgradeBuffDesc,Twoje doskonałe narzędzia pozwalają twoim postaciom pracować bardziej wydajnie.,-
+LV.SP.WorkEffUpgradeBuffEff,{0:+#%} wydajność pracy od {1},-
 LV.SP.EmergenciesGroup,Nagłe wypadki,-
-LV.SP.EmergenciesGroupDesc,W przypadku niebezpieczeństwa naciśnij te duże żółte przyciski. Ale masz tylko jedną szansę.,-
-LV.SP.EmergencyDrill1,Nagły Płytki Wiercenie,-
-LV.SP.EmergencyDrill1Desc,"Dodaj {0} dni do tego sezonu temperaturowego. Może być aktywowane tylko wtedy, gdy nadchodzi zła pogoda.",-
-LV.SP.EmergencyDrill1Lore,"Czujny nos bobra do wilgotnej ziemi doprowadził do tej płytkiej kieszeni wodnej - łatwej do wykorzystania, ratującej życie w trudnej sytuacji.",-
-LV.SP.EmergencyDrill2,Nagłe głębokie wiercenie,-
-LV.SP.EmergencyDrill2Desc,Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowany tylko w przypadku nadchodzącej złej pogody.,-
+LV.SP.EmergenciesGroupDesc,W przypadku niebezpieczeństwa naciśnij te duże żółte przyciski. Masz tylko jedną szansę.,-
+LV.SP.EmergencyDrill1,Płytka Wiertnica Awaryjna,-
+LV.SP.EmergencyDrill1Desc,Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowana tylko w przypadku nadchodzącej złej pogody.,-
+LV.SP.EmergencyDrill1Lore,"Czujny nos bobra do wilgotnej ziemi doprowadził do tej płytkiej kieszeni wodnej - łatwej do zdobycia, ratującej życie w kryzysowej sytuacji.",-
+LV.SP.EmergencyDrill2,Nagły Głęboki Wiercenie,-
+LV.SP.EmergencyDrill2Desc,"Dodaj {0} dni do tego umiarkowanego sezonu. Może być aktywowane tylko wtedy, gdy zbliża się złe warunki pogodowe.",-
 LV.SP.EmergencyDrill2Lore,"„Wiercimy głęboko, ale nie wiercimy tanio!” — Digger McDrillface IV",-
-LV.SP.EmergencyDrill3,Awaryjny Najgłębszy Wiertło,-
-LV.SP.EmergencyDrill3Desc,"Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowane tylko, gdy nadchodzi złea pogoda.",-
-LV.SP.EmergencyDrill3Lore,"Legenda głosi, że stary Gnawtooth przewidział tę najgłębszą studnię - naszą ostatnią nadzieję, gdy niebiosa staną się okrutne.",-
-LV.SP.BadWeatherConditionErr,"Możesz to aktywować tylko wtedy, gdy przewiduje się nadejście złej pogody (suszy lub złego przypływu).",-
-LV.SP.Wheelbarrows,Wózki ogrodowe,-
-LV.SP.WheelbarrowsLore,"Ostateczny ratownik kręgosłupa, pozwalający bobrom ciągnąć kłody bez chwiania się jak przeciążone żółwie.",-
-LV.SP.WheelbarrowsEff,Bobry i boty nie otrzymują już kar za prędkość ruchu podczas noszenia.,-
-LV.SP.CarryUpgrade1,Wzmocnione Torby Transportowe,-
-LV.SP.CarryUpgrade1Lore,'Te pakiety pozwalają mi przewozić las i wciąż mieć miejsce na przekąski!' — Packmule Heavyload,-
-LV.SP.CarryUpgrade1Eff,Na stałe zwiększa pojemność noszenia bobrów o {0:+#%},-
+LV.SP.EmergencyDrill3,Awaryjne Najgłębsze Wiercenie,-
+LV.SP.EmergencyDrill3Desc,Dodaj {0} dni do tego sezonu temperaturowego. Może być aktywowane tylko w przypadku nadchodzącej złej pogody.,-
+LV.SP.EmergencyDrill3Lore,"Legenda głosi, że stary Gnawtooth przewidział tę najgłębszą studnię - naszą ostatnią nadzieję, gdy niebo stanie się okrutne.",-
+LV.SP.BadWeatherConditionErr,"Możesz to aktywować tylko wtedy, gdy prognozowane są złe warunki pogodowe (susza lub zła pływ)",-
+LV.SP.Wheelbarrows,Taczki,-
+LV.SP.WheelbarrowsLore,"Ostateczny ratownik dla pleców, pozwalający bobrom ciągnąć kłody bez chybotań jak przeciążone żółwie.",-
+LV.SP.WheelbarrowsEff,Bobry i roboty nie otrzymują już kar za prędkość ruchu podczas noszenia.,-
+LV.SP.CarryUpgrade1,Wzmocnione plecaki transportowe,-
+LV.SP.CarryUpgrade1Lore,"""Te pakiety pozwalają mi przewozić las i nadal mieć miejsce na przekąski!"" — Packmule Heavyload",-
+LV.SP.CarryUpgrade1Eff,Trwale zwiększa pojemność noszenia bobrów o {0:+#%},-
 LV.SP.CarryBuilderUpgrade,Sanki budowlane,-
-LV.SP.CarryBuilderUpgradeLore,"Sprawianie, by budowa przebiegała tak gładko, jak dobrze przeżuty klocek drewna.",-
-LV.SP.CarryBuilderUpgradeEff,"{0:+#%} dodatkowej nośności na poziom dla <SolidHighlight>Budowniczych</SolidHighlight> (pracowników w Centrach Dzielnic lub Chatkach Budowlanych, zarówno bobrów, jak i robotów).",-
+LV.SP.CarryBuilderUpgradeLore,"Ułatwienie budowy, tak gładkiej jak dobrze przeżuty bluz.",-
+LV.SP.CarryBuilderUpgradeEff,"{0:+#%} dodatkowej nośności na poziom dla <SolidHighlight>Budowniczych</SolidHighlight> (pracowników w Centrach Dzielnic lub Chatach Budowniczych, zarówno bobrów, jak i robotów).",-
 LV.SP.CarryBuilderUpgradeCost,[Koszt] na poziom dla każdego budowniczego (zaokrąglone w górę),-
-LV.SP.CarryUpgradeBuff,Projekty z zakresu nośności,-
-LV.SP.CarryUpgradeBuffDesc,Twoje ulepszony sprzęt umożliwia twoim postaciom noszenie większej ilości.,-
-LV.SP.CarryUpgradeBuffEff,{0:+#%} zdolność przewozowa od {1},-
-LV.SP.CarryBuilderBuff,Młot budowlany,-
-LV.SP.CarryBuilderBuffDesc,"Twoi budowniczowie są teraz wyposażeni w sanie, aby móc przenosić więcej.",-
-LV.SP.CarryBuilderBuffEff,{0:+#%} zdolność przewozowa od {1},-
+LV.SP.CarryUpgradeBuff,Projekty zdolności przewozowej,-
+LV.SP.CarryUpgradeBuffDesc,Twoje przełożone noszące wyposażenie pozwalają twoim postaciom nosić więcej.,-
+LV.SP.CarryUpgradeBuffEff,nośność {0:+#%} z {1},-
+LV.SP.CarryBuilderBuff,Sledgier budowlany,-
+LV.SP.CarryBuilderBuffDesc,"Twoi budowniczy są teraz wyposażeni w sanie, aby móc przenosić więcej.",-
+LV.SP.CarryBuilderBuffEff,{0:+#%} pojemność przewozowa z {1},-
 LV.SP.FactionsGroup,Frakcje,-
 LV.SP.FactionsGroupDesc,Unikalne projekty dla każdej frakcji,-
-LV.SP.FtPlankUpgrade,Deski nasączone żywicą,-
-LV.SP.FtPlankUpgradeLore,"Wprowadzenie naturalnych żywic do desek podwaja wydajność desek zabezpieczonych - nie potrzeba energii, wystarczy sposób natury.",-
-LV.SP.FtPlankUpgradeEff,Warsztat stolarski zużywa {1:#.###%} energii i {0:+#%} produkcji obrabianych desek.,-
-LV.SP.ItSmelterUpgrade,Pieca do recyklingu ciepła,-
-LV.SP.ItSmelterUpgradeLore,"Przełom w projektowaniu pieców podwaja wydajność metalu bez dodatkowej energii, ucieleśniając pomysłowość Żelaznych Zębów.",-
-LV.SP.ItSmelterUpgradeEff,Wytwórnia wykorzystuje {1:#.###%} energii i {0:+#%} wydajności Bloków Metalu.,-
-LV.SP.BuffLessPowerEff,{0:#.###%} Zużycie energii,-
-LV.SP.BuffIncreasedOutput,{0:+#%} zwiększyła produkcję,-
+LV.SP.FtPlankUpgrade,Deski nasycone żywicą,-
+LV.SP.FtPlankUpgradeLore,"Nasycanie desek naturalnymi żywicami podwaja wydajność desek poddanych obróbce - nie potrzeba energii, tylko naturalny sposób.",-
+LV.SP.FtPlankUpgradeEff,Warsztat stolarski zużywa {1:#.###%} energii i produkuje {0:+#%} przetworzonych desek.,-
+LV.SP.ItSmelterUpgrade,Piecyk przetapialniczy z odzyskiem ciepła,-
+LV.SP.ItSmelterUpgradeLore,"Przełom w projektowaniu pieców podwaja wydajność metalu bez dodatkowej mocy, ucieleśniając pomysłowość Żelaznych Zębów.",-
+LV.SP.ItSmelterUpgradeEff,Piecyk wykorzystuje {1:#.###%} energii i {0:+#%} wyjścia Bloków Metalu.,-
+LV.SP.BuffLessPowerEff,Użycie energii {0:#.###%},-
+LV.SP.BuffIncreasedOutput,{0:+#%} zwiększona produkcja,-
 LV.SP.Filter,Filtruj,-
 LV.SP.Keyword,Słowo kluczowe,-
 LV.SP.FilterLocked,Zablokowane,-

@@ -2,13 +2,13 @@ ID,Text,Comment
 IgorZ.SmartPower.BatteryCapacity,Charge des batteries : {0} / {1},-
 IgorZ.SmartPower.BatteryCharging,Batteries en charge : <GreenHighlight>🡅</GreenHighlight>{0} ({1}),-
 IgorZ.SmartPower.BatteryDischarging,Batteries déchargées : <RedHighlight>🡇</RedHighlight>{0} ({1}),-
-IgorZ.SmartPower.BatteryNotUsed,<BatteriesNonUtilisées>,-
-IgorZ.SmartPower.BatteryDepleted,<Batteries déchargées>,-
-IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,Automatiser ce générateur.,-
-IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,Maintenez la charge des batteries dans la plage de {0}% à {1}%.,-
+IgorZ.SmartPower.BatteryNotUsed,<Batteries non utilisées</Batteries>,-
+IgorZ.SmartPower.BatteryDepleted,<RedHighlight>Batteries épuisées</RedHighlight>,-
+IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator,Automatisez ce générateur.,-
+IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText,Maintenez la charge des batteries entre {0}% et {1}%.,-
 IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators,Appliquer à tous les générateurs,-
 IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators,Appliqué à {0} générateurs,-
-IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,Suspendu en raison d'un excès d'offre,-
+IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus,Suspendu en raison d'un approvisionnement excessif,-
 IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus,<SolidHighlight>⏻</SolidHighlight> Aucun travailleur sur le lieu de travail,-
 IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus,Le carburant est épuisé.,-
 IgorZ.SmartPower.MechanicalBuilding.NoInputStatus,Ingrédients manquants,-
@@ -16,25 +16,25 @@ IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus,Trop de produits,-
 IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus,Mode d'économie d'énergie,-
 IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower,Suspendre si pas assez de puissance,-
 IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency,Efficacité minimale : {0}%,-
-IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,Arrêtez si la charge des batteries est inférieure à {0} %,-
+IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio,Arrêtez si la charge des piles est inférieure à {0} %,-
 IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings,S'applique à tous ces bâtiments.,-
 IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings,Appliqué à {0} bâtiments,-
-IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,Suspendu pour conserver de l'énergie,-
+IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus,Suspendu pour économiser de l'énergie,-
 IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus,<RedHighlight>⏻</RedHighlight> Pas assez de puissance,-
-IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<RedHighlight>⏻</RedHighlight> Pas assez de charge des piles,-
+IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus,<RedHighlight>⏻</RedHighlight> Pas assez de charge de batterie,-
 IgorZ.SmartPower.Common.MinutesTillResume,<GreenHighlight>⏻</GreenHighlight> Reprendra dans {0} minutes,-
 IgorZ.SmartPower.Common.MinutesTillSuspend,<SolidHighlight>⏻</SolidHighlight> Sera suspendu dans {0} minutes,-
 IgorZ.SmartPower.Settings.DebugSection,Débogage et dépannage,-
 IgorZ.SmartPower.Settings.Debug.VerboseLogging,Journalisation détaillée,-
-IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,"Les journaux contiendront des détails plus utiles, mais cela pourrait affecter les performances du jeu.",-
+IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip,"Les journaux auront des détails plus utiles, mais cela peut affecter la performance du jeu.",-
 IgorZ.SmartPower.Settings.BatteriesSection,Batteries,-
 IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals,Afficher les statistiques de la batterie,-
 IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis,Hystérésis d'activation des consommateurs (heures),-
 IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip,Les consommateurs suspendus ne reprendront pas s'ils ne peuvent pas fonctionner sur batteries pendant au moins la durée spécifiée.,-
 IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection,Générateurs alimentés par des castors,-
-IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,Générateurs à bonne consommation,-
+IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection,Générateurs efficaces en consommation,-
 IgorZ.SmartPower.Settings.WorkplaceConsumerSection,Ateliers avec un lieu de travail,-
-IgorZ.SmartPower.Settings.UnmannedConsumerSection,Ateliers sans occupants,-
+IgorZ.SmartPower.Settings.UnmannedConsumerSection,Ateliers sans pilote,-
 IgorZ.SmartPower.Settings.AttractionConsumerSection,Attractions,-
 IgorZ.SmartPower.Settings.UI.ShowFloatingIcon,Afficher l'icône flottante,-
 IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay,Retard de reprise (minutes),-

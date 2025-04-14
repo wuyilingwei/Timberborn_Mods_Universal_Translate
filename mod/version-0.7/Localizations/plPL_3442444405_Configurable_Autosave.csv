@@ -1,10 +1,10 @@
 ID,Text,Comment
 LV.CAS.Enabled,Włączone,-
 LV.CAS.EnabledDesc,Czy ten mod jest włączony.,-
-LV.CAS.SaveFrequency,Częstotliwość automatycznego zapisywania (rzeczywista minuta),-
-LV.CAS.SaveFrequencyDesc,Jak często automatyczne zapisywanie powinno się odbywać? Domyślnie w grze: 10.,-
+LV.CAS.SaveFrequency,Częstotliwość automatycznego zapisywania (minuty rzeczywiste),-
+LV.CAS.SaveFrequencyDesc,Jak często powinno się zapisywać automatycznie? Domyślnie w grze: 10,-
 LV.CAS.SaveCount,Liczba automatycznych zapisów,-
-LV.CAS.SaveCountDesc,Ile automatycznych zapisów powinno być przechowywanych. Domyślne ustawienie gry: 3,-
-LV.CAS.SaveWeatherWarning,Dodatkowa oszczędność na ostrzeżeniu pogodowym,-
-LV.CAS.SaveWeatherWarningDesc,"Gdy wydawane jest ostrzeżenie pogodowe, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które będzie nadpisywane tylko przez ostrzeżenie z następnego cyklu. To zapisanie nie będzie liczone do całkowitej liczby zapisów.",-
+LV.CAS.SaveCountDesc,Ile automatycznych zapisów powinno być zachowanych. Domyślna wartość gry: 3,-
+LV.CAS.SaveWeatherWarning,Dodatkowa oszczędność przy ostrzeżeniu o pogodzie,-
+LV.CAS.SaveWeatherWarningDesc,"Kiedy wydawane jest ostrzeżenie pogodowe, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej cyklu. To zapisanie nie jest uwzględniane w liczbie zapisów.",-
 LV.CAS.KeyBindingTriggerAutosave,Wyzwól automatyczne zapisywanie,-

@@ -1,10 +1,10 @@
 ID,Text,Comment
-LV.CAS.Enabled,自动存档调整,-
-LV.CAS.EnabledDesc,勾选后，游戏默认的自动保存机制可以被下列选项更改。,-
-LV.CAS.SaveFrequency,自动保存频率,-
-LV.CAS.SaveFrequencyDesc,自动保存的间隔时间，即每隔多少分钟保存一次（游戏默认：10）。,-
-LV.CAS.SaveCount,自动存档数量,-
-LV.CAS.SaveCountDesc,可保留的自动存档数量（游戏默认：3）。,-
-LV.CAS.SaveWeatherWarning,额外存档（周期变化）,-
-LV.CAS.SaveWeatherWarningDesc,勾选后，将在恶劣天气预警时自动保存，下一次恶劣天气预警时会自动覆盖保存。,-
-LV.CAS.KeyBindingTriggerAutosave,强制自动保存,-
+LV.CAS.Enabled,已启用,-
+LV.CAS.EnabledDesc,此模组是否已启用。,-
+LV.CAS.SaveFrequency,自动保存频率（实际分钟）,-
+LV.CAS.SaveFrequencyDesc,自动保存应该多久保存一次。游戏默认：10。,-
+LV.CAS.SaveCount,自动保存次数,-
+LV.CAS.SaveCountDesc,应保留多少个自动保存。游戏默认：3,-
+LV.CAS.SaveWeatherWarning,天气预警额外储蓄,-
+LV.CAS.SaveWeatherWarningDesc,当发布天气警报时，创建一个额外的保存文件，命名为 'weatherwarning.save'，该文件仅在下一个周期的警报中被覆盖。此保存文件不计入保存数量。,-
+LV.CAS.KeyBindingTriggerAutosave,触发自动保存,-
