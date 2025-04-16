@@ -1,14 +1,14 @@
 ID,Text,Comment
-DAM.EnableAll,启用所有,-
-DAM.EnableAllDesc,检查以在退出时启用所有模组。需要重新启动，并且这会自动取消勾选。,-
-DAM.DisableAll,禁用全部,-
-DAM.DisableAllDesc,在退出时检查以禁用所有模块。需要重启，且此选项会自动取消勾选。,-
-DAM.KeepEnabled,保持启用,-
-DAM.KeepEnabledDesc,如果选中“禁用所有”，则保持启用的模组ID的分号‘;’分隔列表。,-
-DAM.LoadProfile,加载配置文件,-
-DAM.LoadProfileDesc,启用来自 'mods.txt' 文件的 mod，文件应位于 mod 的文件夹中。,-
-DAM.SaveProfile,保存配置文件,-
-DAM.SaveProfileDesc,将启用的mod保存到'mods.txt'文件中。该文件将位于mod的文件夹中。,-
-DAM.ViewProfileFolder,查看个人资料文件夹,-
-DAM.ViewProfileFolderDesc,打开包含'mods.txt'文件的文件夹。,-
-DAM.RestartGame,好的，重新开始游戏。,-
+DAM.EnableAll,启用全部模组,-
+DAM.EnableAllDesc,勾选后，退出游戏时将启用所有模组。重启游戏后将自动取消勾选。,-
+DAM.DisableAll,禁用全部模组,-
+DAM.DisableAllDesc,勾选后，退出游戏时将禁用所有模组。重启游戏后将自动取消勾选。,-
+DAM.KeepEnabled,保持启用模组,-
+DAM.KeepEnabledDesc,勾选后，如果同时勾选了“禁用全部模组”，列表中的模组将保持启用状态（使用分号“;”分隔模组名称）。,-
+DAM.LoadProfile,加载模组列表,-
+DAM.LoadProfileDesc,从“mods.txt”文件中启用模组名称，此文件应位于模组文件夹中。,-
+DAM.SaveProfile,保存模组列表,-
+DAM.SaveProfileDesc,将已启用的模组保存到“mods.txt”文件中，此文件将位于模组文件夹中。,-
+DAM.ViewProfileFolder,查看列表文件夹,-
+DAM.ViewProfileFolderDesc,打开“mods.txt”文件所在的文件夹。,-
+DAM.RestartGame,重启游戏,-

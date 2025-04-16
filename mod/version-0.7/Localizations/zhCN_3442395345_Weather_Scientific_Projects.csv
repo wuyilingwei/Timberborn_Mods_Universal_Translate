@@ -1,43 +1,43 @@
 ID,Text,Comment
-LV.WSP.WeatherGroup,天气,-
-LV.WSP.WeatherGroupDesc,与天气和预报相关的科学项目,-
-LV.WSP.Ext1,盖尔斯尼弗图腾,-
-LV.WSP.Ext1Desc,不良天气警报提前{0:+#}天发出。,-
-LV.WSP.Ext1Lore,一个简单的杆子，让你的海狸可以“嗅”嗅风，获取早期天气线索。,-
-LV.WSP.Ext2,雾织者的拨轮,-
-LV.WSP.Ext2Desc,恶劣天气的警告提前{0:+#}天发布。,-
-LV.WSP.Ext2Lore,一个可以根据湿度和气压预测天气的表盘。,-
-LV.WSP.Ext3,雷霆中心的尖塔,-
-LV.WSP.Ext3Desc,恶劣天气的警告每个级别提前 {0:+#} 天发布。,-
-LV.WSP.Ext3Lore,一座高耸的尖塔，能够探测空气中的电荷。,-
-LV.WSP.PrewarningCost,预警日每级的[费用]。其他所有日子均为0。,-
+LV.WSP.WeatherGroup,环境调控,-
+LV.WSP.WeatherGroupDesc,与天气和水源相关的环境科学项目。,-
+LV.WSP.Ext1,风嗅图腾,-
+LV.WSP.Ext1Desc,恶劣天气的预警提前 {0:+#} 天。,-
+LV.WSP.Ext1Lore,一根杆子，可以感知风向和风力。,-
+LV.WSP.Ext2,雾织罗盘,-
+LV.WSP.Ext2Desc,恶劣天气的预警提前 {0:+#} 天。,-
+LV.WSP.Ext2Lore,一个罗盘，可以测量湿度和气压。,-
+LV.WSP.Ext3,雷鸣高塔,-
+LV.WSP.Ext3Desc,每级使恶劣天气的预警额外提前 {0:+#} 天。,-
+LV.WSP.Ext3Lore,一座高塔，可以检测空气中的电荷。,-
+LV.WSP.PrewarningCost,每级花费 [Cost] 点（仅在预警前有花费）。,-
 LV.WSP.Pred1,天气预报,-
-LV.WSP.Pred1Desc,预测这一周期的恶劣天气。准确率第一天为 {0:#%}，随后每天增加 {1:+#%}。,-
-LV.WSP.Pred1Lore,海狸观察云朵和风，随着日子的推移，它们的预测越来越准确。,-
-LV.WSP.Pred2,星光精准,-
-LV.WSP.Pred2Desc,天气预报现在在周期的第一天开始，额外的准确率为 {0:+#%}。,-
-LV.WSP.Pred2Lore,“星星不会骗人——如果你知道如何向它们提问！” — 星空观察者布林,-
+LV.WSP.Pred1Desc,预测本周期的恶劣天气。首日准确度 {0:#%}，每天增加 {1:+#%}。,-
+LV.WSP.Pred1Lore,海狸们观察云层和风向，预测准确度随时间推移越发精准。,-
+LV.WSP.Pred2,星象校准,-
+LV.WSP.Pred2Desc,<color=#FFFF00>天气预报</color>的首日准确度额外提高 {0:+#%}。,-
+LV.WSP.Pred2Lore,星辰从不说谎，只需学会提问，一切皆有所答。,-
 LV.WSP.Pred3,水文分析,-
-LV.WSP.Pred3Desc,每天为天气预报增加每级{1:+#%}的准确性。,-
-LV.WSP.Pred3Lore,通过研究潮起潮落，海狸每天都会改善他们的天气预测。,-
-LV.WSP.IncreaseStr,Flowmaster的导管,-
-LV.WSP.IncreaseStrDesc,允许您增强水源的强度,-
-LV.WSP.IncreaseStrLore,“多水，多动力——就这么简单！”——河咬流大师,-
-LV.WSP.IncreaseStrFresh,增加淡水来源,-
-LV.WSP.IncreaseStrFreshDesc,将所有淡水源的强度（包括在坏潮期间）每级提高{0:+#%},-
-LV.WSP.IncreaseStrBad,增加不良水源,-
-LV.WSP.IncreaseStrBadDesc,每级增加所有劣质水源的强度 {0:+#%},-
-LV.WSP.DecreaseStr,潮破门,-
-LV.WSP.DecreaseStrDesc,允许您降低水源的强度,-
-LV.WSP.DecreaseStrLore,“有时你需要驯服河流，而不是顺流而下。” — 静水破潮者,-
-LV.WSP.DecreaseStrFresh,减少淡水源,-
-LV.WSP.DecreaseStrFreshDesc,每级降低所有淡水源的强度 {0:;#%},-
-LV.WSP.DecreaseStrBad,减少不良水源,-
-LV.WSP.DecreaseStrBadDesc,每一级减少所有恶劣水源的强度 {0:#%},-
-LV.WSP.StrCostFresh,[成本] 每个淡水源。非活动源不计算（例如在干旱期间）,-
-LV.WSP.StrCostBad,[成本] 每个劣质水源。非活动水源不计算（如在干旱期间或封闭的水源）,-
+LV.WSP.Pred3Desc,<color=#FFFF00>天气预报</color>的每天增加准确度额外提高 {1:+#%}。,-
+LV.WSP.Pred3Lore,通过研究水流规律，海狸们持续优化天气预报工作流程。,-
+LV.WSP.IncreaseStr,恒流者之管,-
+LV.WSP.IncreaseStrDesc,可以提高水源的强度。,-
+LV.WSP.IncreaseStrLore,水流越大，能量越大，这是很浅显的道理。,-
+LV.WSP.IncreaseStrFresh,增加淡水资源,-
+LV.WSP.IncreaseStrFreshDesc,每级提高所有水源石的强度 {0:+#%}。,-
+LV.WSP.IncreaseStrBad,增加恶水资源,-
+LV.WSP.IncreaseStrBadDesc,每级提高所有恶水源的强度 {0:+#%}。,-
+LV.WSP.DecreaseStr,破潮者之门,-
+LV.WSP.DecreaseStrDesc,可以降低水源的强度。,-
+LV.WSP.DecreaseStrLore,有时候需要的不是随波逐流，而是驯服河流。,-
+LV.WSP.DecreaseStrFresh,减少淡水资源,-
+LV.WSP.DecreaseStrFreshDesc,每级降低所有水源石的强度 {0:#%}。,-
+LV.WSP.DecreaseStrBad,减少恶水资源,-
+LV.WSP.DecreaseStrBadDesc,每级降低所有恶水源的强度 {0:#%}。,-
+LV.WSP.StrCostFresh,每个水源石消耗 [Cost] 点。不活跃的水源不被计入（例如干旱期时的水源）。,-
+LV.WSP.StrCostBad,每个恶水源消耗 [Cost] 点。不活跃的水源不被计入（例如干旱期时或被封堵的水源）。,-
 LV.WSP.ForecastText,{0:#%} {1}，持续 {2}-{3} 天,-
-LV.WSP.Forecast1DayText,{0:#%} {1}，持续 {2}天,-
-LV.WSP.DecreaseStrBuffDesc,这是一项驼动物工程的奇迹，这扇大门驯服了最狂野的河流，平息了它们的流动，以保护我们的土地。,-
-LV.WSP.IncreaseStrBuffDesc,驾驭自然的力量，这个通道释放出一股水流，迫使河流顺应我们的意志。,-
-LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} 力量,-
+LV.WSP.Forecast1DayText,{0:#%} {1}，持续 {2} 天,-
+LV.WSP.DecreaseStrBuffDesc,海狸工程的奇迹，这道闸门驯服了狂野的河流，平息水流以保护我们的土地。,-
+LV.WSP.IncreaseStrBuffDesc,引导自然的力量，这条导管释放出汹涌的水流，征服河流以顺从我们的意志。,-
+LV.WSP.StrBuffEffect,水力: {0:+#%;-#%;0%},-

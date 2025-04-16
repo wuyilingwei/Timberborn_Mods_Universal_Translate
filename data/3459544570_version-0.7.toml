@@ -42,6 +42,17 @@ frFR = "Traitement en vrac de planches"
 deDE = "Plankenmassenausarbeitung"
 plPL = "Przetwarzanie hurtowe desek"
 
+["LV.ARSP.PlankBulkProcessingRecipe"]
+raw = "Planks (Bulk)"
+enUS = "Planks (Bulk)"
+zhCN = "板材（散装）"
+zhTW = "木板（散裝）"
+ruRU = "Доски (оптом)"
+jaJP = "プランク（バルク）"
+frFR = "Planches (En vrac)"
+deDE = "Bretter (Masse)"
+plPL = "Deski (Hurtowe)"
+
 ["LV.ARSP.PlankBulkProcessingLore"]
 raw = "'Stack ‘em high, cut ‘em slow—more planks for the haul!' — Broadaxe Bulkchew"
 enUS = "\"Stack them high, cut them slow—more planks for the haul!\" — Broadaxe Bulkchew"
@@ -54,15 +65,15 @@ deDE = "\"Staple sie hoch, schneide sie langsam – mehr Planken für den Transp
 plPL = "'Układaj je wysoko, tnij powoli—więcej desek na zapas!' — Broadaxe Bulkchew"
 
 ["LV.ARSP.PlankBulkProcessingEff"]
-raw = "Unlock Plank Bulk Processing: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
-enUS = "Unlock Plank Bulk Processing: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
-zhCN = "在木板厂解锁新配方：{0} 原木 ⇒ {1} 木板，耗时 {2} 小时。"
-zhTW = "解鎖木板大宗處理：{0} 原木 ⇒ {1} 木板需 {2} 小時在木材廠完成"
-ruRU = "Разблокировать массовую переработку досок: {0} бревен ⇒ {1} доски за {2} часов на лесопилке"
-jaJP = "プランクの一括処理を解除： {0} 本の丸太 ⇒ {1} 本のプランクを {2} 時間で製材所で作成"
-frFR = "Déverrouiller le traitement en vrac des planches : {0} bûches ⇒ {1} planches en {2} heures dans le scierie"
-deDE = "Entsperren Sie Planke Großverarbeitung: {0} Protokolle ⇒ {1} Planken in {2} Stunden in der Sägewerk"
-plPL = "Odblokuj przetwarzanie desek na dużą skalę: {0} kłód ⇒ {1} desek w {2} godzin w tartaku"
+raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
+enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
+zhCN = "解锁[配方]：{0} 木材 ⇒ {1} 木板，需在木材厂花费 {2} 小时"
+zhTW = "解鎖 [食譜]：{0} 原木 ⇒ {1} 木板，需時 {2} 小時於木工廠完成"
+ruRU = "Разблокировать [Рецепт]: {0} Бревен ⇒ {1} Досок за {2} часов на Лесопилке"
+jaJP = "[レシピ]を解除: {0}の木材 ⇒ {1}の板材を{2}時間で製材所で"
+frFR = "Déverrouillez [Recette] : {0} Bûches ⇒ {1} Planches en {2} heures au Moulin à bois"
+deDE = "Schalte [Rezept] frei: {0} Logs ⇒ {1} Planken in {2} Stunden in der Sägewerk"
+plPL = "Odblokuj [Przepis]: {0} Kłód ⇒ {1} Desek w {2} godzin w Tartaku"
 
 ["LV.ARSP.DirectLogForging"]
 raw = "Direct Log Forging"
@@ -74,6 +85,17 @@ jaJP = "直接ログ偽造"
 frFR = "Forged Logs Directs"
 deDE = "Direktes Log-Forging"
 plPL = "Bezpośrednie fałszowanie dzienników"
+
+["LV.ARSP.DirectLogForgingRecipe"]
+raw = "Gears (Direct)"
+enUS = "Gears (Direct)"
+zhCN = "齿轮 (直接)"
+zhTW = "齒輪（直接）"
+ruRU = "Передачи (Прямые)"
+jaJP = "ギア（ダイレクト）"
+frFR = "Engrenages (Direct)"
+deDE = "Getriebe (Direkt)"
+plPL = "Przekładnie (bezpośrednie)"
 
 ["LV.ARSP.DirectLogForgingLore"]
 raw = "Beavers discovered they could gnaw logs into rough shapes and hammer them into gears, skipping the plank step entirely. It’s crude, but it works."
@@ -87,15 +109,15 @@ deDE = "Biber entdeckten, dass sie Stämme in grobe Formen nagen und sie zu Zahn
 plPL = "Bobry odkryły, że mogą gryźć kłody w surowe kształty i wbić je w zębatki, całkowicie pomijając etap desek. To prymitywne, ale działa."
 
 ["LV.ARSP.DirectLogForgingEff"]
-raw = "Unlock Direct Log Forging: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
-enUS = "Unlock Direct Log Forging: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
-zhCN = "在齿轮工坊解锁新配方：{0} 原木 ⇒ {1} 齿轮，耗时 {2} 小时。"
-zhTW = "解鎖直接日誌鍛造：{0} 日誌 ⇒ {1} 齒輪在齒輪工作坊內需 {2} 小時"
-ruRU = "Разблокировать Прямую Ковку Логов: {0} Логи ⇒ {1} Шестерен за {2} часов в Мастерской Шестерен"
-jaJP = "ダイレクトログフォージングを解除: {0} のログ ⇒ {1} のギアを {2} 時間でギアワークショップで"
-frFR = "Débloquez le forgeage direct de journal : {0} journaux ⇒ {1} engrenages en {2} heures dans l'atelier d'engrenages"
-deDE = "Direktes Log-Forging freischalten: {0} Logs ⇒ {1} Zahnräder in {2} Stunden in der Werkstatt für Zahnräder"
-plPL = "Odblokuj bezpośrednie kucie logów: {0} logów ⇒ {1} zębatek w {2} godzin w warsztacie zębatek"
+raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+zhCN = "解锁 [配方]：{0} 木材 ⇒ {1} 齿轮，在齿轮工作坊中需 {2} 小时"
+zhTW = "解鎖 [食譜]：{0} 原木 ⇒ {1} 齒輪，於齒輪工作坊內需要 {2} 小時"
+ruRU = "Разблокируйте [Рецепт]: {0} Древесина ⇒ {1} Шестерни за {2} часов в Мастерской шестерен."
+jaJP = "ロック解除 [レシピ]: {0} のログ ⇒ {1} のギアを {2} 時間でギアワークショップで"
+frFR = "Débloquez [Recette] : {0} Bûches ⇒ {1} Engrenages en {2} heures dans l'Atelier d'Engrenages"
+deDE = "Schalte [Rezept] frei: {0} Holz ⇒ {1} Zahnräder in {2} Stunden in der Zahnradwerkstatt"
+plPL = "Odblokuj [Przepis]: {0} drzewa ⇒ {1} zębatek w {2} godzin w Warsztacie Zębatek"
 
 ["LV.ARSP.RapidGearPress"]
 raw = "Rapid Gear Press"
@@ -107,6 +129,17 @@ jaJP = "ラピッドギアプレス"
 frFR = "Rapid Gear Press"
 deDE = "Schnellgetriebe Presse"
 plPL = "Szybka Prasa Gears"
+
+["LV.ARSP.RapidGearPressRecipe"]
+raw = "Gears (Rapid)"
+enUS = "Gears (Rapid)"
+zhCN = "齿轮（快速）"
+zhTW = "齒輪（快速）"
+ruRU = "Шестерни (Быстро)"
+jaJP = "ギア（ラピッド）"
+frFR = "Engrenages (Rapide)"
+deDE = "Getriebe (Schnell)"
+plPL = "Przekładnie (Szybkie)"
 
 ["LV.ARSP.RapidGearPressLore"]
 raw = "By rushing the presses and piling on extra wood, beavers churn out gears faster—though the waste pile grows just as quick."
@@ -120,15 +153,15 @@ deDE = "Indem sie die Pressen überstürzen und zusätzliches Holz stapeln, prod
 plPL = "Przez przyspieszenie druku i dodanie dodatkowego drewna, bobry produkują koła zębate szybciej — chociaż stos odpadów rośnie równie szybko."
 
 ["LV.ARSP.RapidGearPressEff"]
-raw = "Unlock Rapid Gear Press: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
-enUS = "Unlock Rapid Gear Press: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
-zhCN = "在齿轮工坊解锁新配方：{0} 木板 ⇒ {1} 齿轮，耗时 {2} 小时。"
-zhTW = "解鎖快速齒輪壓：{0} 塊木板 ⇒ {1} 齒輪在 {2} 小時內於齒輪工作坊中"
-ruRU = "Разблокируйте Быстрый Пресс Шестерен: {0} Доски ⇒ {1} Шестерни за {2} часов в Мастерской Шестерен"
-jaJP = "ラピッドギアプレスを解除：{0} プランク ⇒ {1} ギアを {2} 時間でギアワークショップで"
-frFR = "Déverrouillez le Pressage de Gear Rapide : {0} Planches ⇒ {1} Engrenages en {2} heures dans l'Atelier des Engrenages"
-deDE = "Sperren Sie das Schnellgetriebe-Presse frei: {0} Bretter ⇒ {1} Zahnräder in {2} Stunden in der Gear-Werkstatt"
-plPL = "Odblokuj Szybkie Przełożenie: {0} Deski ⇒ {1} Zębatki w {2} godzin w Warsztacie Zębatek"
+raw = "Unlock [Recipe]: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
+enUS = "Unlock [Recipe]: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
+zhCN = "解锁 [配方]: {0} 木板 ⇒ {1} 齿轮，需 {2} 小时在齿轮车间完成"
+zhTW = "解鎖 [食譜]：{0} 木板 ⇒ {1} 齒輪於 {2} 小時內在齒輪工作坊中"
+ruRU = "Разблокировать [Рецепт]: {0} Доски ⇒ {1} Шестерни за {2} часов в Мастерской шестерен"
+jaJP = "[レシピ]をアンロック: {0}プランク ⇒ {1}ギアを{2}時間でギアワークショップで"
+frFR = "Déverrouillez [Recette] : {0} Planches ⇒ {1} Engrenages dans {2} heures dans l'Atelier d'Engrenages"
+deDE = "Schalte [Rezept] frei: {0} Bretter ⇒ {1} Zahnräder in {2} Stunden in der Zahnradwerkstatt"
+plPL = "Odblokuj [Przepis]: {0} desek ⇒ {1} kół zębatych w {2} godzin w Warsztacie Kół Zębatych"
 
 ["LV.ARSP.HighYieldLogPress"]
 raw = "High-Yield Log Press"
@@ -140,6 +173,17 @@ jaJP = "ハイイールドログプレス"
 frFR = "Presse à levée élevée"
 deDE = "Hochrendite Log-Press"
 plPL = "Wysokowydajny wyciskanie logów"
+
+["LV.ARSP.HighYieldLogPressRecipe"]
+raw = "Gears (High-Yield)"
+enUS = "Gears (High-Yield)"
+zhCN = "齿轮（高产）"
+zhTW = "齒輪（高產量）"
+ruRU = "Зубчатые колеса (высокой доходности)"
+jaJP = "ギア（高収益）"
+frFR = "Engrenages (Rendement Élevé)"
+deDE = "Getriebe (Hochleistungs)"
+plPL = "Zębatki (wysokowydajne)"
 
 ["LV.ARSP.HighYieldLogPressLore"]
 raw = "After seasons of trial, beavers perfected a water-driven press that turns raw logs into gears at breakneck speed—a marvel of late-season ingenuity."
@@ -153,15 +197,15 @@ deDE = "Nach Jahreszeiten des Versuchs perfektionierten Biber eine wassergetrieb
 plPL = "Po sezonach prób bobry udoskonaliły prasę napędzaną wodą, która przekształca surowe kłody w zębatki z zawrotną prędkością — cud późno-sezonowego wynalazczości."
 
 ["LV.ARSP.HighYieldLogPressEff"]
-raw = "Unlock High-Yield Log Press: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
-enUS = "Unlock High-Yield Log Press: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
-zhCN = "在齿轮工坊解锁新配方：{0} 原木 ⇒ {1} 齿轮，耗时 {2} 小时。"
-zhTW = "解鎖高產量木材壓縮器：{0} 根木材 ⇒ {1} 個齒輪，需時 {2} 小時於齒輪作坊完成"
-ruRU = "Разблокируйте высокодоходный лог-пресс: {0} бревен ⇒ {1} механизмов за {2} часов в мастерской механизмов"
-jaJP = "高収益ログプレスを解除: {0} ログ ⇒ {1} ギアを {2} 時間でギア工房で"
-frFR = "Déverrouiller le Log Press à Haut Rendement : {0} Bûches ⇒ {1} Engrenages en {2} heures dans l'Atelier d'Engrenages"
-deDE = "Schalte Hochleistungs-Logpresse frei: {0} Logs ⇒ {1} Zahnräder in {2} Stunden in der Gear-Werkstatt"
-plPL = "Odblokuj Wysokowydajny Prasę do Kłód: {0} Kłód ⇒ {1} Zębatek w ciągu {2} godzin w Warsztacie Zębatek"
+raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+zhCN = "解锁 [配方]: {0} 原木 ⇒ {1} 齿轮在 {2} 小时内在齿轮车间"
+zhTW = "解鎖[食譜]：{0} 木材 ⇒ {1} 齒輪，在齒輪工作坊內需 {2} 小時"
+ruRU = "Разблокировать [Рецепт]: {0} Деревья ⇒ {1} Шестерёнки за {2} часов в Мастерской шестерёнок"
+jaJP = "[レシピ]をアンロック: {0}ログ ⇒ {1}ギアを{2}時間でギアワークショップで"
+frFR = "Déverrouiller [Recette] : {0} Bûches ⇒ {1} Engrenages en {2} heures dans l'Atelier d'Engrenages"
+deDE = "Schalte [Rezept] frei: {0} Holz ⇒ {1} Zahnräder in {2} Stunden in der Getriebewerkstatt"
+plPL = "Odblokuj [Przepis]: {0} Drewna ⇒ {1} Kół zębatych w {2} godzin w Warsztacie Kół Zębatych"
 
 ["LV.ARSP.ResinFiredSmelter"]
 raw = "Resin-Fired Smelter"
@@ -173,6 +217,17 @@ jaJP = "樹脂焼成炉"
 frFR = "Fondeuse à résine"
 deDE = "Harz-geschmolzener Schmelzofen"
 plPL = "Pieca hutnicza do topienia żywicy"
+
+["LV.ARSP.ResinFiredSmelterRecipe"]
+raw = "Metal Blocks (Resin-Fired)"
+enUS = "Metal Blocks (Resin-Fired)"
+zhCN = "金属块（树脂烧制）"
+zhTW = "金屬方塊（樹脂燒製）"
+ruRU = "Металлические блоки (обожжённые смолой)"
+jaJP = "金属ブロック（樹脂焼成）"
+frFR = "Blocs métalliques (brûlés en résine)"
+deDE = "Metallblöcke (Harzgebrannt)"
+plPL = "Bloki metalowe (Wypalane w żywicy)"
 
 ["LV.ARSP.ResinFiredSmelterLore"]
 raw = "Folktails tapped into the sticky power of pine resin, crafting a smelter that burns slow and steady for swift metalwork."
@@ -186,15 +241,15 @@ deDE = "Volksmärchen nutzten die klebrige Kraft von Harz, um einen Schmelzofen 
 plPL = "Folktails wykorzystał lepki urok żywicy sosnowej, tworząc piec, który pali się powoli i równomiernie, idealny do szybkiej obróbki metalu."
 
 ["LV.ARSP.ResinFiredSmelterEff"]
-raw = "Unlock Resin-Fired Smelter: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
-enUS = "Unlock Resin-Fired Smelter: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
-zhCN = "在冶炼所解锁新配方：{0} 金属废料 + {1} 松脂 ⇒ {2} 金属块，耗时 {3} 小时。（神尾专属）"
-zhTW = "解鎖樹脂熔爐：{0} 廢金屬 + {1} 松樹樹脂 ⇒ {2} 金屬區塊在熔爐中需 {3} 小時 (僅限Folktails)"
-ruRU = "Разблокировать печь для металлургии: {0} scrap metal + {1} сосновая смола ⇒ {2} металлические блоки за {3} часов в печи (только Folktails)"
-jaJP = "樹脂焼成炉のロックを解除: {0} スクラップメタル + {1} パイン樹脂 ⇒ {2} メタルブロックを{3}時間で溶鉱炉で（フォークテイル専用）"
-frFR = "Débloquer le four à métaux alimenté au résine : {0} Métal Scrap + {1} Résine de Pin ⇒ {2} Blocs Métalliques en {3} heures dans le four (uniquement Folktails)"
-deDE = "Öffne den harzgefeuerten Schmelzofen: {0} Schrottmetall + {1} Kieferharz ⇒ {2} Metallblöcke in {3} Stunden im Schmelzofen (nur Folktails)"
-plPL = "Odblokuj piec do topienia: {0} Złomu + {1} żywicy sosnowej ⇒ {2} bloków metalu w {3} godzin w piecu (tylko Folktails)"
+raw = "Unlock [Recipe]: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+enUS = "Unlock [Recipe]: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+zhCN = "解锁 [配方]: {0} 废金属 + {1} 松树树脂 ⇒ {2} 金属块在熔炉中需要 {3} 小时 (仅限 Folktails)"
+zhTW = "解鎖 [食譜]: {0} 廢金屬 + {1} 松樹樹脂 ⇒ {2} 金屬區塊在冶煉廠中耗時 {3} 小時（僅限 Folktails）"
+ruRU = "Разблокировать [Рецепт]: {0} Металлолом + {1} Сосновая смола ⇒ {2} Металлические блоки за {3} часов в плавильне (только Фольктейлс)"
+jaJP = "[レシピ]を解除: {0} スクラップメタル + {1} パイン樹脂 ⇒ {2} メタルブロックを {3} 時間で溶鉱炉で (フォークテイルのみ)"
+frFR = "Déverrouiller [Recette] : {0} Métal en déchêts + {1} Résine de pin ⇒ {2} Blocs de métal en {3} heures dans le four (uniquement Folktails)"
+deDE = "Schalte [Rezept] frei: {0} Schrottmetall + {1} Kiefernharz ⇒ {2} Metallblöcke in {3} Stunden im Schmelzofen (nur Folktails)"
+plPL = "Odblokuj [Przepis]: {0} złomu + {1} żywicy sosnowej ⇒ {2} bloków metalu w ciągu {3} godzin w piecu (tylko Folktails)"
 
 ["LV.ARSP.WoodReinforcedAlloy"]
 raw = "Wood-Reinforced Alloy"
@@ -206,6 +261,17 @@ jaJP = "木材強化合金"
 frFR = "Alliage Renforcé par Bois"
 deDE = "Holzverstärktes Metalllegierung"
 plPL = "Alloy wzmacniany drewnem"
+
+["LV.ARSP.WoodReinforcedAlloyRecipe"]
+raw = "Metal Blocks (Wood-Reinforced)"
+enUS = "Metal Blocks (Wood-Reinforced)"
+zhCN = "金属块（木材加固）"
+zhTW = "金屬塊（木質增強）"
+ruRU = "Металлические блоки (усиленные деревом)"
+jaJP = "金属ブロック（木材補強）"
+frFR = "Blocs en métal (renforcés en bois)"
+deDE = "Metallblöcke (Holzverstärkt)"
+plPL = "Bloki metalowe (wzmocnione drewnem)"
 
 ["LV.ARSP.WoodReinforcedAlloyLore"]
 raw = "'With every plank we add, the metal grows stronger—nature and iron as one!' — Leafclaw Metalweaver"
@@ -219,15 +285,15 @@ deDE = "„Mit jeder Planke, die wir hinzufügen, wird das Metall stärker – N
 plPL = "'Z każdym dodanym deska, metal staje się silniejszy — natura i żelazo jako jedno!' — Leafclaw Metalweaver"
 
 ["LV.ARSP.WoodReinforcedAlloyEff"]
-raw = "Unlock Wood-Reinforced Alloy: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
-enUS = "Unlock Wood-Reinforced Alloy: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
-zhCN = "在冶炼所解锁新配方：{0} 金属废料 + {1} 树脂木板 ⇒ {2} 金属块，耗时 {3} 小时。（神尾专属）"
-zhTW = "解鎖木增強合金：{0} 廢金屬 + {1} 處理過的木板 ⇒ {2} 金屬方塊在冶煉爐中需要 {3} 小時（僅限 Folktails）"
-ruRU = "Разблокировать дерево-усиленный сплав: {0} металлолома + {1} обработанных досок ⇒ {2} металлических блоков за {3} часов в плавильне (только для Folktails)"
-jaJP = "木強化合金のロックを解除: {0} スクラップメタル + {1} 加工板 ⇒ {2} メタルブロックを {3} 時間で溶鉱炉で（フォルクテイルのみ）"
-frFR = "Déverrouiller l'alliage renforcé de bois : {0} Métal de récupération + {1} Planches traitées ⇒ {2} Blocs de métal en {3} heures dans le four (Folktails uniquement)"
-deDE = "Holzverstärkten Legierung freischalten: {0} Schrottmetall + {1} behandelter Planken ⇒ {2} Metallblöcke in {3} Stunden im Schmelzofen (nur Folktails)"
-plPL = "Odblokuj stop aluminium wzmacnianego drewnem: {0} metal złomu + {1} obrabiane deski ⇒ {2} bloki metalu w {3} godzin w piecu (tylko Folktails)"
+raw = "Unlock [Recipe]: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+enUS = "Unlock [Recipe]: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+zhCN = "解锁 [食谱]: {0} 废金属 + {1} 处理过的木板 ⇒ {2} 金属块，需时 {3} 小时在熔炉中（仅限 Folktails）"
+zhTW = "解鎖 [食譜]：{0} 廢金屬 + {1} 處理過的木板 ⇒ {2} 金屬塊，需時 {3} 小時於冶煉廠（僅限 Folktails）"
+ruRU = "Разблокируйте [Рецепт]: {0} Ломанный металл + {1} Обработанные доски ⇒ {2} Металлические блоки за {3} часов в Плавильне (только Folktails)"
+jaJP = "[レシピ]を解除: {0} スクラップメタル + {1} 処理された板 ⇒ {2} メタルブロックを {3} 時間で溶鉱炉で (フォークテイルのみ)"
+frFR = "Déverrouiller [Recette] : {0} Métal en morceaux + {1} Planches traitées ⇒ {2} Blocs de métal en {3} heures dans le Fondeur (uniquement Folktails)"
+deDE = "Schalte [Rezept] frei: {0} Schrottmetall + {1} behandeltes Holz ⇒ {2} Metallblöcke in {3} Stunden im Schmelzofen (nur Folktails)"
+plPL = "Odblokuj [Przepis]: {0} Złom + {1} Obrabiane deski ⇒ {2} Bloki metalu w {3} godzin w piecu (tylko Folktails)"
 
 ["LV.ARSP.SteelBoundPlanks"]
 raw = "Steel-Bound Planks"
@@ -239,6 +305,17 @@ jaJP = "スチール製の束板"
 frFR = "Planches Encerclées d'Acier"
 deDE = "Stahlgebundene Planken"
 plPL = "Planki związane ze stalą"
+
+["LV.ARSP.SteelBoundPlanksRecipe"]
+raw = "Treated Planks (Steel-Bound)"
+enUS = "Treated Planks (Steel-Bound)"
+zhCN = "处理过的木板（钢包边）"
+zhTW = "處理過的木板（鋼束）"
+ruRU = "Обработанные доски (обрезанные сталью)"
+jaJP = "処理済みの板材（鋼製束）"
+frFR = "Planches traitées (Liées en acier)"
+deDE = "Behandelte Planken (Stahlbund)"
+plPL = "Deski zabezpieczone (ze stalowym okuciem)"
 
 ["LV.ARSP.SteelBoundPlanksLore"]
 raw = "Iron Teeth ingenuity turned the tables—smelting metal scraps into a binding lattice that hardens planks without a drop of resin."
@@ -252,15 +329,15 @@ deDE = "Die Ingenieurskunst von Iron Teeth hat die Bedingungen geändert – Met
 plPL = "Pomysłowość Żelaznych Zębów odwróciła sytuację — przetapianie metalowych odpadów w wiążącą siatkę, która utwardza deski bez kropli żywicy."
 
 ["LV.ARSP.SteelBoundPlanksEff"]
-raw = "Unlock Steel-Bound Planks: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
-enUS = "Unlock Steel-Bound Planks: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
-zhCN = "在木材工坊解锁新配方：{0} 木板 + {1} 金属块 ⇒ {2} 树脂木板，耗时 {3} 小时。（铁牙专属）"
-zhTW = "解鎖鋼鐵木板：{0} 木板 + {1} 金屬方塊 ⇒ {2} 處理過的木板在木工坊內需 {3} 小時（僅限鐵牙）"
-ruRU = "Разблокировать стальные доски: {0} досок + {1} металлических блоков ⇒ {2} обработанных досок за {3} часов в лесопилке (только Железные Зубы)"
-jaJP = "スチールバウンドプランクを解除：{0} プランク + {1} メタルブロック ⇒ {2} 加工プランクが {3} 時間で木工所（アイアンティースのみ）で作成されます。"
-frFR = "Déverrouiller des Planches Renforcées : {0} Planches + {1} Blocs de Métal ⇒ {2} Planches Traitées en {3} heures dans l'Atelier de Bois (Dents de Fer uniquement)"
-deDE = "Stahlgebundene Planken freischalten: {0} Planken + {1} Metallblöcke ⇒ {2} behandelte Planken in {3} Stunden in der Holzwerkstatt (nur Eisenbeißer)"
-plPL = "Odblokuj deski stalowe: {0} desek + {1} bloków metalu ⇒ {2} obrabianych desek w {3} godzin w Warsztacie Drzewnym (tylko Żelazne Zęby)"
+raw = "Unlock [Recipe]: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
+enUS = "Unlock [Recipe]: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
+zhCN = "解锁 [配方]：{0} 木板 + {1} 金属块 ⇒ {2} 处理过的木板，在木材车间中需花费 {3} 小时（仅限铁齿）"
+zhTW = "解鎖 [食譜]：{0} 木板 + {1} 金屬方塊 ⇒ {2} 處理過的木板，需在木工坊（只有鐵牙）中花費 {3} 小時。"
+ruRU = "Разблокировать [Рецепт]: {0} Доски + {1} Металлические Блоки ⇒ {2} Обработанные Доски за {3} часов в Деревянной Мастерской (только Железные Зубья)"
+jaJP = "[レシピ] を解放: {0} 板 + {1} 金属ブロック ⇒ {2} 加工済み板を {3} 時間で木工所で (アイアンティースのみ)"
+frFR = "Débloquez [Recette] : {0} Planches + {1} Blocs de Métal ⇒ {2} Planches Traitées en {3} heures dans l'Atelier de Bois (Dents de Fer uniquement)"
+deDE = "Schalte [Rezept] frei: {0} Planken + {1} Metallblöcke ⇒ {2} behandelte Planken in {3} Stunden in der Holzwerkstatt (nur Eisenstücke)"
+plPL = "Odblokuj [Przepis]: {0} desek + {1} bloczków metalu ⇒ {2} obrabianych desek w {3} godzin w Warsztacie Drewnianym (tylko Żelazne Zęby)"
 
 ["LV.ARSP.TimberbotFramework"]
 raw = "Timberbot Framework"
@@ -296,26 +373,26 @@ deDE = "Entsperren Sie das Timberbot-Framework: Folktails können behandeltes Ho
 plPL = "Odblokuj Ramę Timberbota: Folktails mogą używać Obrabianych Desek zamiast Bloków Metalowych do swoich części Bota. Biopaliwo nie jest już potrzebne do podwozia."
 
 ["LV.ARSP.TimberbotChassis"]
-raw = "Timberbot Chassis"
-enUS = "Timberbot Chassis"
-zhCN = "机关人主体（木械化框架）"
-zhTW = "木材機器人底盤"
-ruRU = "Шасси Timberbot"
-jaJP = "ティンバーボットシャーシ"
-frFR = "Châssis Timberbot"
-deDE = "Timberbot-Chassis"
-plPL = "Podwozie Timberbot"
+raw = "Bot Chassis (Timberbot)"
+enUS = "Bot Chassis (Timberbot)"
+zhCN = "机器人底盘（木头机器人）"
+zhTW = "機器人底盤（木頭機器人）"
+ruRU = "Шасси бота (Тимбербот)"
+jaJP = "ボットシャーシ（ティンバーボット）"
+frFR = "Châssis de robot (Timberbot)"
+deDE = "Bot-Chassis (Timberbot)"
+plPL = "Podwozie Bota (Timberbot)"
 
 ["LV.ARSP.TimberbotHeads"]
-raw = "Timberbot Heads"
-enUS = "Timberbot Heads"
-zhCN = "机关人头部（木械化框架）"
-zhTW = "木材機器人頭部"
-ruRU = "Деревянные головы Timberbot"
-jaJP = "ティンバーボットヘッド"
-frFR = "Têtes de Timberbot"
-deDE = "Timberbot Köpfe"
-plPL = "Główki Timberbota"
+raw = "Bot Heads (Timberbot)"
+enUS = "Bot Heads (Timberbot)"
+zhCN = "机器人工头（木头机器人）"
+zhTW = "機器人頭（木材機器人）"
+ruRU = "Бот-главы (Тимбербот)"
+jaJP = "ボットヘッズ（ティンバーボット）"
+frFR = "Têtes de Bot (Timberbot)"
+deDE = "Bot-Köpfe (Holzbot)"
+plPL = "Boty Głów (Timberbot)"
 
 ["LV.ARSP.SunflowerBiofuel"]
 raw = "Helianthic Ember Blend"
@@ -327,6 +404,17 @@ jaJP = "ヘリアンシック・エンバー・ブレンド"
 frFR = "Mélange d'Ambre Hélianthique"
 deDE = "Helianthisches Glühfeuer-Mischung"
 plPL = "Helianthowy Napar Żarowy"
+
+["LV.ARSP.SunflowerBiofuelRecipe"]
+raw = "Biofuel (Sunflower)"
+enUS = "Biofuel (Sunflower)"
+zhCN = "生物燃料（向日葵）"
+zhTW = "生物燃料（向日葵）"
+ruRU = "Би топливо (Подсолнечник)"
+jaJP = "バイオ燃料（ヒマワリ）"
+frFR = "Biocarburant (Tournesol)"
+deDE = "Biokraftstoff (Sonnenblume)"
+plPL = "Biopaliwo (Słonecznik)"
 
 ["LV.ARSP.SunflowerBiofuelLore"]
 raw = "'Sunflowers yield a nectar richer than rivers—blend it with a humble tuber, and the refinery sings a fuel-laden hymn!' — Helian Nectarine"
@@ -340,15 +428,15 @@ deDE = "\"Sonnenblumen erzeugen einen Nektar, der reicher ist als Flüsse – mi
 plPL = "'Słoneczniki wydają nektar bogatszy niż rzeki — połącz go z pokornym bulwiastym warzywem, a rafineria zaśpiewa hymn pełen paliwa!' — Helian Nectarine"
 
 ["LV.ARSP.SunflowerBiofuelEff"]
-raw = "Unlock Helianthic Ember Blend: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
-enUS = "Unlock Helianthic Ember Blend: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
-zhCN = "在精炼厂解锁新配方：{0} 土豆 + {1} 葵花籽 ⇒ {2} 生物燃料，耗时 {3} 小时。（神尾专属）"
-zhTW = "解鎖日向火焰混合：{0} 顆馬鈴薯 + {1} 顆向日葵種子 ⇒ {2} 生物燃料需 {3} 小時在煉油廠（僅限民間傳說）"
-ruRU = "Разблокировка смеси Хелиантового Угля: {0} Картофелин + {1} Семян Подсолнечника ⇒ {2} Биоид топлива за {3} часов на Нефтезаводе (только Фолктейлы)"
-jaJP = "ヘリアンシック・エンバー・ブレンドを解放: {0} ポテト + {1} ヒマワリの種 ⇒ {2} バイオ燃料を {3} 時間で精錬所で (フォルクテイルのみ)"
-frFR = "Déverrouiller le mélange d'Ember Helianthique : {0} Pommes de terre + {1} Graines de tournesol ⇒ {2} Biocarburant en {3} heures dans le Raffinage (uniquement Folktails)"
-deDE = "Schalte Helianthic Ember Blend frei: {0} Kartoffeln + {1} Sonnenblumenkerne ⇒ {2} Biokraftstoff in {3} Stunden in der Raffinerie (nur Folktails)"
-plPL = "Odblokuj Mieszankę Helianthic Ember: {0} Ziemniaków + {1} Nasion Słonecznika ⇒ {2} Biopaliwo w {3} godzin w Rafinerii (tylko Folktails)"
+raw = "Unlock [Recipe]: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
+enUS = "Unlock [Recipe]: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
+zhCN = "解锁[配方]：{0}个土豆 + {1}个向日葵种子 ⇒ {2}个生物燃料，需在炼油厂中花费{3}小时（仅限Folktails）"
+zhTW = "解鎖 [食譜]：{0} 個馬鈴薯 + {1} 顆向日葵種子 ⇒ {2} 生物燃料，需 {3} 小時在煉油廠（僅限 Folktails）"
+ruRU = "Разблокировать [Рецепт]: {0} Картофель + {1} Семена подсолнечника ⇒ {2} Биотопливо через {3} часов на Нефтеперерабатывающем заводе (только Фолктейлс)"
+jaJP = "レシピをアンロック: {0} ポテト + {1} ヒマワリの種 ⇒ {2} バイオ燃料を {3} 時間で精製所で (フォークテイル限定)"
+frFR = "Débloquer [Recette] : {0} Pommes de terre + {1} Graines de tournesol ⇒ {2} Biocarburant en {3} heures dans la Raffinerie (Folktails uniquement)"
+deDE = "Schalte [Rezept] frei: {0} Kartoffeln + {1} Sonnenblumenkerne ⇒ {2} Biokraftstoff in {3} Stunden in der Raffinerie (nur Folktails)"
+plPL = "Odblokuj [Przepis]: {0} Ziemniaki + {1} Nasiona słonecznika ⇒ {2} Biopaliwo w {3} godzin w Rafinerii (tylko w Folktails)"
 
 ["LV.ARSP.CrudeLogPressExtract"]
 raw = "Crude Log Press Extract"
@@ -360,6 +448,17 @@ jaJP = "粗製ログプレス抽出物"
 frFR = "Extrait de presse crue"
 deDE = "Rohöl-Press-Extrakt"
 plPL = "Surowy ekstrakt z log pressu"
+
+["LV.ARSP.CrudeLogPressExtractRecipe"]
+raw = "Extract (Crude Press)"
+enUS = "Extract (Crude Press)"
+zhCN = "提取（原油压榨）"
+zhTW = "粗提取 (原油壓榨)"
+ruRU = "Экстракт (Невыжатая пресса)"
+jaJP = "抽出（粗いプレス）"
+frFR = "Extraire (Presse Crude)"
+deDE = "Extrahieren (Rohpressung)"
+plPL = "Ekstrakt (Surowa prasa)"
 
 ["LV.ARSP.CrudeLogPressExtractLore"]
 raw = "'We crush logs and scrape metal ‘til the extract drips out—slow, messy, but it beats touching that yuke water!' — Pressjaw Scrapchew"
@@ -373,15 +472,15 @@ deDE = "„Wir zerstoßen Holz und schaben Metall, bis der Extrakt herausläuft 
 plPL = "'Rozbijamy kłody i skrobimy metal, aż ekstrakt zaczyna kapać - powoli, brudno, ale lepsze to niż dotykanie tej wstrętnej wody!' — Pressjaw Scrapchew"
 
 ["LV.ARSP.CrudeLogPressExtractEff"]
-raw = "Unlock Crude Log Press Extract: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
-enUS = "Unlock Crude Log Press Extract: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
-zhCN = "在木板厂解锁新配方：{0} 原木 + {1} 齿轮 + {2} 金属废料 ⇒ {3} 提取物，耗时 {4} 小时。（铁牙专属）"
-zhTW = "解鎖粗糙木頭壓榨：{0} 樹 Logs + {1} 齒輪 + {2} 廢金屬 ⇒ {3} 提取物在工業鋸木廠需 {4} 小時（僅限鐵牙）"
-ruRU = "Разблокировать К crude Log Press Extract: {0} Бревен + {1} Шестерен + {2} Металлического Лома ⇒ {3} Экстракт за {4} часов на Промышленной Лесопильне (только Железные Зубья)"
-jaJP = "粗い木材プレス抽出を解除: {0} 本の丸太 + {1} 個のギア + {2} 個のスクラップ金属 ⇒ {3} 抽出物を {4} 時間で工業用製材工場で（鉄の歯のみ）"
-frFR = "Déverrouiller l'extraction de journal brut : {0} journaux + {1} rouages + {2} métal récupéré ⇒ {3} extrait en {4} heures dans la scierie industrielle (dents de fer uniquement)"
-deDE = "Schalte rohes Log-Presse-Extrakt frei: {0} Holzstücke + {1} Zahnräder + {2} Schrottmetall ⇒ {3} Extrakt in {4} Stunden in der industriellen Holzfabrik (nur Eisen-Zähne)"
-plPL = "Odblokuj ekstrakt surowego kłody: {0} kłód + {1} zębatki + {2} złomu ⇒ {3} ekstraktu w ciągu {4} godzin w przemysłowej tartaku (tylko Żelazne Zęby)"
+raw = "Unlock [Recipe]: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
+enUS = "Unlock [Recipe]: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
+zhCN = "解锁 [配方]：{0} 根原木 + {1} 个齿轮 + {2} 单位废金属 ⇒ {3} 提取物在工业锯木厂中需 {4} 小时（仅限铁齿）"
+zhTW = "解鎖 [食譜]: {0} 根原木 + {1} 個齒輪 + {2} 塊廢金屬 ⇒ {3} 提取於 {4} 小時後於工業木材廠（僅限鐵齒）"
+ruRU = "Разблокировать [Рецепт]: {0} Бревен + {1} Шестерен + {2} Лом Металла ⇒ {3} Экстракт за {4} часов на Промышленной Лесопилке (только Железные Зубья)"
+jaJP = "レシピ解除：[レシピ]: {0} 本の木 + {1} ギア + {2} スクラップメタル ⇒ {3} エキスを {4} 時間、工業用製材所（アイアンティースのみ）で生成"
+frFR = "Débloquez [Recette] : {0} Bûches + {1} Engrenages + {2} Métal de récupération ⇒ {3} Extract dans {4} heures dans la scierie industrielle (Dents de fer seulement)"
+deDE = "Schalte [Rezept] frei: {0} Holz + {1} Zahnräder + {2} Schrottmetall ⇒ {3} Extrakt in {4} Stunden in der Industriellen Holzfräse (Nur Eisen-Zähne)"
+plPL = "Odblokuj [Przepis]: {0} Kłody + {1} Zębatki + {2} Złom ⇒ {3} Ekstrakt w {4} godzin w Przemysłowej Tartaku (tylko Żelazne Zęby)"
 
 ["LV.ARSP.DilutedExtract"]
 raw = "Diluted Extract"
@@ -393,6 +492,17 @@ jaJP = "希釈抽出物"
 frFR = "Extrait dilué"
 deDE = "Verdünnter Extrakt"
 plPL = "Rozcieńczony ekstrakt"
+
+["LV.ARSP.DilutedExtractRecipe"]
+raw = "Extract (Diluted)"
+enUS = "Extract (Diluted)"
+zhCN = "提取物（稀释）"
+zhTW = "提取（攤薄）"
+ruRU = "Экстракт (разбавленный)"
+jaJP = "抽出物（希釈）"
+frFR = "Extrait (dilué)"
+deDE = "Extrakt (verdünnt)"
+plPL = "Ekstrakt (Rozcieńczony)"
 
 ["LV.ARSP.DilutedExtractLore"]
 raw = "By blending pure water with badwater, beavers tease out more extract from the mire—a clever rinse born of necessity."
@@ -406,15 +516,15 @@ deDE = "Durch die Mischung von reinem Wasser mit schlechtem Wasser extrahieren B
 plPL = "Mieszańce czystej wody ze złą wodą, bobry wydobywają więcej ekstraktu z bagna—sprytne spłukanie zrodzone z konieczności."
 
 ["LV.ARSP.DilutedExtractEff"]
-raw = "Unlock Diluted Extract: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
-enUS = "Unlock Diluted Extract: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
-zhCN = "在离心机解锁新配方：{0} 恶水 + {1} 水 + {2} 原木 ⇒ {3} 提取物，耗时 {4} 小时。"
-zhTW = "解鎖稀釋提取物：{0} 壞水 + {1} 水 + {2} 日誌 ⇒ {3} 提取物在 {4} 小時內在離心機中"
-ruRU = "Разблокировать разбавленный экстракт: {0} Бадвотер + {1} Вода + {2} Лог ⇒ {3} Экстракт через {4} часов в центрифуге"
-jaJP = "希釈抽出物を解放: {0} バッドウォーター + {1} 水 + {2} 原木 ⇒ {3} 抽出物が {4} 時間で遠心分離機で得られます"
-frFR = "Déverrouiller l'Extrait Dilué : {0} Badwater + {1} Eau + {2} Journal ⇒ {3} Extrait en {4} heures dans la Centrifugeuse"
-deDE = "Entsperren Sie verdünnten Extrakt: {0} Badwasser + {1} Wasser + {2} Protokoll ⇒ {3} Extrakt in {4} Stunden im Zentrifuge"
-plPL = "Odblokuj rozcieńczony ekstrakt: {0} Badwater + {1} Woda + {2} Kłoda ⇒ {3} Ekstrakt w ciągu {4} godzin w wirówce"
+raw = "Unlock [Recipe]: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
+enUS = "Unlock [Recipe]: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
+zhCN = "解锁 [配方]：{0} 脏水 + {1} 水 + {2} 原木 ⇒ {3} 提取物，在离心机中 {4} 小时内完成"
+zhTW = "解鎖 [食譜]：{0} 壞水 + {1} 水 + {2} 原木 ⇒ {3} 提取物在 {4} 小時內通過離心機"
+ruRU = "Разблокировать [Рецепт]: {0} Плохая вода + {1} Вода + {2} Бревно ⇒ {3} Экстракт через {4} часов в центрифуге"
+jaJP = "[レシピ]を解除: {0} バッドウォーター + {1} 水 + {2} 丸太 ⇒ {3} 抽出物 {4} 時間で遠心分離機で"
+frFR = "Déverrouiller [Recette] : {0} Badwater + {1} Eau + {2} Bûche ⇒ {3} Extrait en {4} heures dans la Centrifugeuse"
+deDE = "Schalte [Rezept] frei: {0} Badwasser + {1} Wasser + {2} Holz ⇒ {3} Extrakt in {4} Stunden in der Zentrifuge"
+plPL = "Odblokuj [Przepis]: {0} Zła woda + {1} Woda + {2} Kłoda ⇒ {3} Ekstrakt w ciągu {4} godzin w wirówce"
 
 ["LV.ARSP.WaterFilter"]
 raw = "Water Filter"
@@ -426,6 +536,17 @@ jaJP = "水フィルター"
 frFR = "Filtre à eau"
 deDE = "Wasserfilter"
 plPL = "Filtr wody"
+
+["LV.ARSP.WaterFilterRecipe"]
+raw = "Extract (Filtered)"
+enUS = "Extract (Filtered)"
+zhCN = "提取（过滤）"
+zhTW = "提取（已過濾）"
+ruRU = "Извлечь (Фильтрованный)"
+jaJP = "抽出（フィルター済み）"
+frFR = "Extraire (Filtré)"
+deDE = "Extrahieren (Gefiltert)"
+plPL = "Wyodrębnij (Filtrowane)"
 
 ["LV.ARSP.WaterFilterLore"]
 raw = "Beavers devised a clever centrifuge tweak, using treated planks to strain badwater—yielding extract and a trickle of fresh water from the sludge."
@@ -439,15 +560,15 @@ deDE = "Biber entwickelten einen cleveren Drehzellen-Feinschliff, indem sie beha
 plPL = "Bobry opracowały sprytną modyfikację wirówki, wykorzystując strukowane deski do filtrowania zanieczyszczonej wody - uzyskując ekstrakt i strużkę świeżej wody z osadu."
 
 ["LV.ARSP.WaterFilterEff"]
-raw = "Unlock Water Filter: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
-enUS = "Unlock Water Filter: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
-zhCN = "在挖土机解锁新配方：{0} 恶水 + {1} 树脂木板 + {2} 原木 ⇒ {3} 提取物 + {4} 水，耗时 {5} 小时。"
-zhTW = "解鎖水過濾器：{0} 污水 + {1} 處理過的木板 + {2} 原木 ⇒ {3} 提取物 + {4} 水在 {5} 小時內於泥土挖掘機中"
-ruRU = "Разблокировать водяной фильтр: {0} Плохая вода + {1} Очищенная доска + {2} Бревно ⇒ {3} Экстракт + {4} Вода через {5} часов в экскаваторе для Dirt."
-jaJP = "水フィルター解除: {0} 悪水 + {1} 処理済み板 + {2} 板 ⇒ {3} 抽出物 + {4} 水を {5} 時間で土の掘削機で行う"
-frFR = "Déverrouiller le filtre à eau : {0} Eau polluée + {1} Plank traité + {2} Bûche ⇒ {3} Extrait + {4} Eau en {5} heures dans l’Excavateur de terre."
-deDE = "Wasserfilter entsperren: {0} Schmutzwasser + {1} Behandeltes Brett + {2} Stamm ⇒ {3} Extrakt + {4} Wasser in {5} Stunden im Erd-Auskofferer"
-plPL = "Odblokuj filtr wodny: {0} Zła woda + {1} Przetworzona deska + {2} Kłoda ⇒ {3} Ekstrakt + {4} Woda w {5} godzin w Wykoparce ziemnej"
+raw = "Unlock [Recipe]: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
+enUS = "Unlock [Recipe]: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
+zhCN = "解锁[配方]: {0}坏水 + {1}处理过的木板 + {2}原木 ⇒ {3}提取物 + {4}水 在{5}小时内在土壤挖掘机中完成"
+zhTW = "解鎖 [配方]：{0} 壞水 + {1} 處理過的木板 + {2} 原木 ⇒ {3} 萃取物 + {4} 水於 {5} 小時內在泥土挖掘機中。"
+ruRU = "Разблокировать [Рецепт]: {0} Загрязненная вода + {1} Пропитанная доска + {2} Бревно ⇒ {3} Экстракт + {4} Вода за {5} часов в Экскаваторе для земли"
+jaJP = "[レシピ]をアンロック: {0} バッドウォーター + {1} 処理された板材 + {2} 丸太 ⇒ {3} エキス + {4} 水を {5} 時間で土の掘削機で"
+frFR = "Déverrouiller [Recette] : {0} Eau souillée + {1} Planche traitée + {2} Bûche ⇒ {3} Extraire + {4} Eau en {5} heures dans l'Excavateur de terre"
+deDE = "Schalte [Rezept] frei: {0} Schmutzwasser + {1} Behandeltes Brett + {2} Stamm ⇒ {3} Extrakt + {4} Wasser in {5} Stunden im Erd-Aushubgerät"
+plPL = "Odblokuj [Przepis]: {0} Zła woda + {1} Poddana obróbce deska + {2} Kłoda ⇒ {3} Ekstrakt + {4} Woda w ciągu {5} godzin w Wykopniku ziemnym"
 
 ["LV.ARSP.ExtractChargedExplosive"]
 raw = "Extract-Charged Explosive"
@@ -459,6 +580,17 @@ jaJP = "抽出された炸薬"
 frFR = "Explosif chargé d'extraction"
 deDE = "Entnommenes geladenes Explosivmittel"
 plPL = "Wydobyty materiał wybuchowy"
+
+["LV.ARSP.ExtractChargedExplosiveRecipe"]
+raw = "Explosives (Extract-Charged)"
+enUS = "Explosives (Extract-Charged)"
+zhCN = "爆炸物（提取充能）"
+zhTW = "爆炸物（抽取充電）"
+ruRU = "Взрывчатые вещества (Извлеченные заряды)"
+jaJP = "爆薬（抽出充填）"
+frFR = "Explosifs (extrêmement chargés)"
+deDE = "Sprengstoffe (Extrakt-Ladung)"
+plPL = "Materiały wybuchowe (Ładowane wyciągiem)"
 
 ["LV.ARSP.ExtractChargedExplosiveLore"]
 raw = "'One drop of extract, and the blast doubles—gnaw on that, rockface!' — Flintpaw Boomforge"
@@ -472,15 +604,15 @@ deDE = "„Ein Tropfen Extrakt, und die Explosion verdoppelt sich – nag dir da
 plPL = "'Jedna kropla ekstraktu, a wybuch podwaja się—gryź to, skało!' — Flintpaw Boomforge"
 
 ["LV.ARSP.ExtractChargedExplosiveEff"]
-raw = "Unlock Extract-Charged Explosive: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
-enUS = "Unlock Extract-Charged Explosive: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
-zhCN = "在炸药工厂解锁新配方：{0} 提取物 ⇒ {1} 炸药，耗时 {2} 小时。"
-zhTW = "解鎖提取充能炸藥：{0} 提取 ⇒ {1} 炸藥需 {2} 小時在炸藥工廠完成"
-ruRU = "Разблокировать извлеченный заряд взрывчатого вещества: {0} Извлечь ⇒ {1} Взрывчатые вещества за {2} часов на фабрике взрывчатых веществ"
-jaJP = "抽出チャージ爆発物のロック解除: {0} 抽出 ⇒ {1} 爆薬が {2} 時間で爆薬工場にて"
-frFR = "Déverrouiller l'Explosif Chargé d'Extraction : {0} Extraction ⇒ {1} Explosifs en {2} heures dans l'Usine d'Explosifs"
-deDE = "Entsperren Sie den Extraktionsgeladene Explosiv: {0} Extrakt ⇒ {1} Sprengstoffe in {2} Stunden in der Sprengstofffabrik"
-plPL = "Odblokuj ekstrakcyjną naładowaną eksplozję: {0} Ekstrakt ⇒ {1} Eksplozji w {2} godzin w fabryce eksplozji"
+raw = "Unlock [Recipe]: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
+enUS = "Unlock [Recipe]: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
+zhCN = "解锁 [配方]：{0} 提取物 ⇒ {1} 炸药在炸药工厂需要 {2} 小时"
+zhTW = "解鎖 [食譜]：{0} 提取 ⇒ {1} 爆炸物在 {2} 小時內於爆炸物工廠製造"
+ruRU = "Разблокируйте [Рецепт]: {0} Экстракт ⇒ {1} Взрывчатые вещества за {2} часов на Фабрике взрывчатых веществ"
+jaJP = "[レシピ] をアンロック: {0} エキス ⇒ {1} 爆薬が {2} 時間で爆薬工場で完成します"
+frFR = "Déverrouiller [Recette] : {0} Extrait ⇒ {1} Explosifs dans {2} heures dans l'Usine d'Explosifs"
+deDE = "Schalte [Rezept] frei: {0} Extrakt ⇒ {1} Sprengstoffe in {2} Stunden in der Sprengstofffabrik"
+plPL = "Odblokuj [Przepis]: {0} Ekstrakt ⇒ {1} materiały wybuchowe w ciągu {2} godzin w Fabryce Materiałów Wybuchowych"
 
 ["LV.ARSP.RapidCanolaCrush"]
 raw = "Swiftseed Oil Snap"
@@ -492,6 +624,17 @@ jaJP = "スイフトシードオイルスナップ"
 frFR = "Huile de Swiftseed Snap"
 deDE = "Swiftseed-Öl-Schnapp"
 plPL = "Olej z nasion szybkowaru"
+
+["LV.ARSP.RapidCanolaCrushRecipe"]
+raw = "Canola Oil (Rapid)"
+enUS = "Canola Oil (Rapid)"
+zhCN = "菜籽油（快速）"
+zhTW = "菜籽油（快速）"
+ruRU = "Масло канолы (быстрое)"
+jaJP = "キャノーラ油 (迅速)"
+frFR = "Huile de colza (rapide)"
+deDE = "Rapsöl (Rapid)"
+plPL = "Olej rzepakowy (szybki)"
 
 ["LV.ARSP.RapidCanolaCrushLore"]
 raw = "'Speed trumps all—grind the seeds quick, and let the oil flow, waste be what it may!' — Boltfur Greasesnap"
@@ -505,15 +648,15 @@ deDE = "'Schnelligkeit siegt über alles – mahle die Samen schnell, und lass d
 plPL = "'Prędkość zwycięża wszystko - miel nasiona szybko, a niech olej płynie, niech się dzieje, co chce!' — Boltfur Greasesnap"
 
 ["LV.ARSP.RapidCanolaCrushEff"]
-raw = "Unlock Rapid Canola Crush: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
-enUS = "Unlock Rapid Canola Crush: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
-zhCN = "在榨油机解锁新配方：{0} 油菜籽 ⇒ {1} 菜籽油，耗时 {2} 小时。（铁牙专属）"
-zhTW = "解鎖快速油菜壓榨：{0} 油菜籽 ⇒ {1} 油菜油在 {2} 小時內於油壓機中（僅限鐵齒）"
-ruRU = "Разблокировать быстрое давление рапса: {0} семян рапса ⇒ {1} масла рапса за {2} часов в маслобойне (только железные зубья)"
-jaJP = "ラピッドキャノーラ圧搾を解除：{0} キャノーラシード ⇒ {1} キャノーラオイルを {2} 時間でオイルプレス（アイアンティースのみ）で作成"
-frFR = "Déverrouillez le broyage rapide du colza : {0} graines de colza ⇒ {1} huile de colza en {2} heures dans le pressoir à huile (seulement avec dents en fer)"
-deDE = "Schalte die schnelle Rapsverarbeitung frei: {0} Raps-Samen ⇒ {1} Rapsöl in {2} Stunden in der Ölpresse (nur Eisenzähne)"
-plPL = "Odblokuj Szybkie Tłoczenie Rzepaku: {0} Nasion Rzepaku ⇒ {1} Oleju Rzepakowego w {2} godzin w Prasie Tłoczącej (tylko Żelazne Zęby)"
+raw = "Unlock [Recipe]: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
+enUS = "Unlock [Recipe]: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
+zhCN = "解锁 [配方]：{0} 油菜籽 ⇒ {1} 油菜油 在油压机中需要 {2} 小时（仅铁齿）"
+zhTW = "解鎖 [食譜]：{0} 菜籽 ⇒ {1} 菜籽油在 {2} 小時內於油壓機（僅限鐵齒）"
+ruRU = "Разблокировать [Рецепт]: {0} Семена рапса ⇒ {1} Масло рапса за {2} часов в маслопрессе (только с железными зубьями)"
+jaJP = "[レシピ]を解除: {0} 菜種 ⇒ {1} 菜種油を {2} 時間でオイルプレス（アイアンティースのみ）で作成"
+frFR = "Débloquez [Recette] : {0} Graines de colza ⇒ {1} Huile de colza en {2} heures dans la Presse à huile (uniquement avec dents en fer)"
+deDE = "Schalte [Rezept] frei: {0} Raps Samen ⇒ {1} Rapsöl in {2} Stunden in der Ölpressmaschine (nur Eisenzähne)"
+plPL = "Odblokuj [Przepis]: {0} Nasiona rzepaku ⇒ {1} Olej rzepakowy w {2} godzin w Tłoczni (tylko żelazne zęby)"
 
 ["LV.ARSP.PrecisionOilYield"]
 raw = "Canola Essence Refinery"
@@ -525,6 +668,17 @@ jaJP = "カナダ油エッセンス精製所"
 frFR = "Raffinerie d'essence de canola"
 deDE = "Rapsöl-Essenzraffinerie"
 plPL = "Rafineria Esencji Rzepakowej"
+
+["LV.ARSP.PrecisionOilYieldRecipe"]
+raw = "Canola Oil (Precision)"
+enUS = "Canola Oil (Precision)"
+zhCN = "菜籽油（精准）"
+zhTW = "菜籽油（精準）"
+ruRU = "Масло канолы (Точное)"
+jaJP = "キャノーラ油（精密）"
+frFR = "Huile de canola (Précision)"
+deDE = "Rapsöl (Präzision)"
+plPL = "Olej rzepakowy (Precyzyjny)"
 
 ["LV.ARSP.PrecisionOilYieldLore"]
 raw = "Iron Teeth perfected a meticulous pressing method, coaxing every last drop from canola seeds with industrial finesse."
@@ -538,15 +692,15 @@ deDE = "Iron Teeth perfektionierte eine sorgfältige Pressmethode, um jede letzt
 plPL = "Iron Teeth udoskonalił staranną metodę prasowania, wydobywając każdą ostatnią kroplę z nasion rzepaku z przemysłową finezją."
 
 ["LV.ARSP.PrecisionOilYieldEff"]
-raw = "Unlock Precision Oil Yield: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
-enUS = "Unlock Precision Oil Yield: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
-zhCN = "在榨油机解锁新配方：{0} 油菜籽 + {1} 净水 ⇒ {2} 菜籽油，耗时 {3} 小时。（铁牙专属）"
-zhTW = "解鎖精確油產量：{0} 菜籽 + {1} 水 ⇒ {2} 菜油於 {3} 小時內在油壓機中（僅限鐵齒）"
-ruRU = "Разблокируйте точный выход масла: {0} семян рапса + {1} воды ⇒ {2} масла рапса за {3} часов в маслопрессе (только железные зубья)"
-jaJP = "精密オイル収率を解放：{0} カノーラ種 + {1} 水 ⇒ {2} カノーラオイルを {3} 時間でオイルプレス（アイロンティースのみ）"
-frFR = "Déverrouillez le rendement précis en huile : {0} graines de colza + {1} eau ⇒ {2} huile de colza en {3} heures dans la presse à huile (uniquement dents en fer)"
-deDE = "Öffnen Sie den Ertragsfaktor für Präzisionsöl: {0} Raps-Samen + {1} Wasser ⇒ {2} Rapsöl in {3} Stunden in der Ölpresser (nur Eisenzähne)"
-plPL = "Odblokuj wydajność oleju z rzepaku: {0} nasion rzepaku + {1} wody ⇒ {2} oleju rzepakowego w {3} godzin w prasce do oleju (tylko żelazne zęby)"
+raw = "Unlock [Recipe]: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
+enUS = "Unlock [Recipe]: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
+zhCN = "解锁 [食谱]：{0} 油菜种子 + {1} 水 ⇒ {2} 油菜油在油压机（仅限铁齿）中需 {3} 小时"
+zhTW = "解鎖 [食譜]：{0} 油菜籽 + {1} 水 ⇒ {2} 橄欖油 在油壓機 (僅限鐵齒) 中需要 {3} 小時"
+ruRU = "Разблокировать [Рецепт]: {0} семена рапса + {1} вода ⇒ {2} рапсовое масло за {3} часов в маслобойне (только железные зубья)"
+jaJP = "[レシピ]をアンLOCK: {0} 菜種 + {1} 水 ⇒ {2} 菜種油を {3} 時間でオイルプレス（鉄の歯のみ）で作成"
+frFR = "Déverrouiller [Recette] : {0} Graines de colza + {1} Eau ⇒ {2} Huile de colza en {3} heures dans la Presse à huile (seulement pour Dents en fer)"
+deDE = "Entsperren [Rezept]: {0} Raps-Samen + {1} Wasser ⇒ {2} Rapsöl in {3} Stunden in der Ölpresse (nur Eisenzähne)"
+plPL = "Odblokuj [Przepis]: {0} Ziarna rzepaku + {1} Woda ⇒ {2} Olej rzepakowy w {3} godzin w Prasie Olejowej (tylko Żelazne Zęby)"
 
 ["LV.ARSP.SunDriedPulpSheets"]
 raw = "Sun-Dried Pulp Sheets"
@@ -558,6 +712,17 @@ jaJP = "天日干しのパルプシート"
 frFR = "Feuilles de pulpe séchées au soleil"
 deDE = "Sonnengetrocknete Pulpeblätter"
 plPL = "Suszone arkusze pulpy"
+
+["LV.ARSP.SunDriedPulpSheetsRecipe"]
+raw = "Paper (Sun-Dried)"
+enUS = "Paper (Sun-Dried)"
+zhCN = "纸（晒干）"
+zhTW = "紙（陽光乾燥）"
+ruRU = "Бумага (сушёная на солнце)"
+jaJP = "紙（天日干し）"
+frFR = "Papier (sèché au soleil)"
+deDE = "Papier (Sonnentrocknung)"
+plPL = "Papier (Suszony na słońcu)"
 
 ["LV.ARSP.SunDriedPulpSheetsLore"]
 raw = "Folktails harnessed the sun’s warmth, blending logs with sunflower pulp to craft sheets of paper as vast as their fields."
@@ -571,12 +736,12 @@ deDE = "Volksmärchen nutzten die Wärme der Sonne und vermischten Holzstämme m
 plPL = "Bajki ludowe wykorzystywały ciepło słońca, mieszając kłody z miąższem słonecznika, aby stworzyć arkusze papieru tak rozległe, jak ich pola."
 
 ["LV.ARSP.SunDriedPulpSheetsEff"]
-raw = "Unlock Sun-Dried Pulp Sheets: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
-enUS = "Unlock Sun-Dried Pulp Sheets: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
-zhCN = "在造纸厂解锁新配方：{0} 原木 + {1} 向日葵 ⇒ {2} 纸张，耗时 {3} 小时。（神尾专属）"
-zhTW = "解鎖曬乾果泥片：{0} 原木 + {1} 向日葵 ⇒ {2} 紙張於 {3} 小時內在造紙廠（僅限Folktails）"
-ruRU = "Разблокируйте высушенные на солнце целлюлозные листы: {0} Бревен + {1} Подсолнухов ⇒ {2} Бумаги за {3} часов на бумажной фабрике (только в Folktails)"
-jaJP = "干し果実パルプシートを解放: {0} 本の丸太 + {1} 本のひまわり ⇒ {2} 枚の紙を製紙工場で {3} 時間で (フォークテイルズのみ)"
-frFR = "Déverrouillez les Feuilles de Pulpe Séchées au Soleil : {0} Bûches + {1} Tournesols ⇒ {2} Papier en {3} heures dans le Moulin à Papier (Uniquement Folktails)"
-deDE = "Entsperren Sie sonnengetrocknete Papierblätter: {0} Stämme + {1} Sonnenblumen ⇒ {2} Papier in {3} Stunden in der Papiermühle (nur Folktails)"
-plPL = "Odblokuj arkusze suszonej pulpy: {0} kłód + {1} słoneczników ⇒ {2} papieru w {3} godzin w Papierni (tylko Folktails)"
+raw = "Unlock [Recipe]: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
+enUS = "Unlock [Recipe]: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
+zhCN = "解锁[食谱]：{0} 根木材 + {1} 朵向日葵 ⇒ {2} 张纸在 {3} 小时内在制纸厂（仅限Folktails）"
+zhTW = "解鎖 [食譜]：{0} 原木 + {1} 向日葵 ⇒ {2} 紙在 {3} 小時內於造紙廠（僅限 Folktails）"
+ruRU = "Разблокируйте [Рецепт]: {0} Деревянные бревна + {1} Подсолнухи ⇒ {2} Бумага за {3} часов на фабрике бумаги (только Фолктейлы)"
+jaJP = "ロック解除 [レシピ]: {0} 材木 + {1} サンフラワー ⇒ {2} 紙を {3} 時間で製紙工場で（フォークテイル専用）"
+frFR = "Déverrouiller [Recette] : {0} Bûches + {1} Tournesols ⇒ {2} Papier en {3} heures dans le Moulin à Papier (uniquement Folktails)"
+deDE = "Schalte [Rezept] frei: {0} Holz + {1} Sonnenblumen ⇒ {2} Papier in {3} Stunden in der Papiermühle (nur Folktails)"
+plPL = "Odblokuj [Przepis]: {0} Pni + {1} Słoneczników ⇒ {2} Papier w ciągu {3} godzin w Młynie Papierniczym (tylko Folktails)"

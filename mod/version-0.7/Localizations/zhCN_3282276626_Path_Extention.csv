@@ -8,15 +8,15 @@ KnatteTobbert.Tunnel_6.DisplayName,隧道 6x1,-
 KnatteTobbert.Tunnel_7.DisplayName,隧道 7x1,-
 KnatteTobbert.Tunnel_8.DisplayName,隧道 8x1,-
 KnatteTobbert.Tunnel_9.DisplayName,隧道 9x1,-
-KnatteTobbert.Tunnel_1L.DisplayName,堤坝隧道,-
-KnatteTobbert.Tunnel_1L.Description,允许海狸通过堤坝。,-
-KnatteTobbert.Tunnel.Description,允许海狸穿越山脉。,-
-KnatteTobbert.Tunnel.FlavorDiscription,你知道建模和贴图有多难吗？ - KnatteAnka,-
+KnatteTobbert.Tunnel_1L.DisplayName,穿堤隧道,-
+KnatteTobbert.Tunnel_1L.Description,帮助海狸穿过防洪堤。,-
+KnatteTobbert.Tunnel.Description,帮助海狸穿过山岭。,-
+KnatteTobbert.Tunnel.FlavorDiscription,“这里好黑呀！”——海狸宝宝,-
 KnatteTobbert.CategoryTunnel.DisplayName,隧道,-
-KnatteTobbert.CategoryTunnel.Description,山脉之下的隧道,-
+KnatteTobbert.CategoryTunnel.Description,穿过山岭的隧道,-
 KnatteTobbert.CategorySBridges.DisplayName,钢桥,-
-KnatteTobbert.CategorySBridges.Description,山间的桥,-
-KnatteTobbert.CategorySuspensionBridges.DisplayName,悬索桥,-
+KnatteTobbert.CategorySBridges.Description,跨过山岭的桥梁,-
+KnatteTobbert.CategorySuspensionBridges.DisplayName,吊桥,-
 KnatteTobbert.Bridge_1.DisplayName,钢桥 1x1,-
 KnatteTobbert.Bridge_2.DisplayName,钢桥 2x1,-
 KnatteTobbert.Bridge_3.DisplayName,钢桥 3x1,-
@@ -27,43 +27,41 @@ KnatteTobbert.Bridge_7.DisplayName,钢桥 7x1,-
 KnatteTobbert.Bridge_8.DisplayName,钢桥 8x1,-
 KnatteTobbert.Bridge_9.DisplayName,钢桥 9x1,-
 KnatteTobbert.Bridge_10.DisplayName,钢桥 10x1,-
-KnatteTobbert.Bridge.Description,允许在山脉之间的路径、轴和列车,-
-KnatteTobbert.BridgeF.Description,"允许在山间设置路径、轴和列车  
-完整的桥梁，既有起点也有终点",-
-KnatteTobbert.Bridge.FlavorDiscription,嘟嘟,-
-Knatte.SmallGate.DisplayName,小门,-
-Knatte.SmallGate.Description,在两个连接的区域之间平衡商品。每一侧都有一个工人，将商品在小门和该区域的其余部分之间分配。,-
-Knatte.SmallGate.FlavorDescription,更新4中移除的基础游戏物品被重新使用。,-
-Knatte.DecoSmallGate.DisplayName,拱道 U3,-
-Knatte.DecoSmallGate.Description,更新3的装饰拱门,-
-Knatte.MetalPillar.DisplayName,金属柱,-
-Knatte.MetalPillars.DisplayName,金属支柱与支撑架,-
-Knatte.MetalPillar.Description,让它升起,-
-Knatte.MetalPillar.FlavorDescription,“让我们占个位置！” - 努力的海狸,-
+KnatteTobbert.Bridge.Description,帮助海狸跨过山岭。上面可以铺设道路，或者建造传动轴。,-
+KnatteTobbert.BridgeF.Description,帮助海狸跨过山岭。上面可以铺设道路，或者建造传动轴。<br><color=#FFFF00>末端可以继续建造钢桥，或者其他建筑。</color>,-
+KnatteTobbert.Bridge.FlavorDiscription,“这里好高啊！”——海狸宝宝,-
+Knatte.SmallGate.DisplayName,地区交汇门,-
+Knatte.SmallGate.Description,平衡两个相连地区之间的货物。每个地区都有自己的劳工，在地区交汇门和地区的其他地方运送物品。,-
+Knatte.SmallGate.FlavorDescription,地区交汇点，你的老祖宗回来了！,-
+Knatte.DecoSmallGate.DisplayName,拱门,-
+Knatte.DecoSmallGate.Description,一个装饰门，来自海狸的古老年代。,-
+Knatte.MetalPillar.DisplayName,金属支柱,-
+Knatte.MetalPillars.DisplayName,双重金属支柱,-
+Knatte.MetalPillar.Description,用金属建造的平台支柱，可以作为其他建筑的支撑。,-
+Knatte.MetalPillar.FlavorDescription,“来打桩吧！”——海狸建筑工,-
 Knatte.MetalPlatform.DisplayName,金属平台,-
-Knatte.MetalPlatform.Description,一个有四条腿的平台,-
-Knatte.MetalPlatform.FlavorDescription,“这张桌子在目录上看起来小一些。” —Ma' Ngonel,-
+Knatte.MetalPlatform.Description,用金属建造的平台，可以作为桥梁，或者其他建筑的地基。,-
+Knatte.MetalPlatform.FlavorDescription,为什么它的缩略图这么小？,-
 Knatte.MetalPlatform5x3.DisplayName,金属平台 5x3,-
-Knatte.MiddleOverhang3x1.DisplayName,金属中间悬垂 3x1,-
-Knatte.MiddleOverhang4x1.DisplayName,金属中间悬垂 4x1,-
-Knatte.MiddleOverhang5x1.DisplayName,金属中间悬垂 5x1,-
-Knatte.MiddleOverhang7x1.DisplayName,金属中间悬垂 7x1,-
-Knatte.MiddleOverhang.Description,"双向悬垂
-金色标记为柱子位置",-
-Knatte.MiddleOverhang.FlavorDescription,你想走哪条路？,-
-Knatte.ArcOverhang3x1.DisplayName,金属弧形悬臂 3x1,-
-Knatte.ArcOverhang4x1.DisplayName,金属弧悬挑 4x1,-
-Knatte.ArcOverhang5x1.DisplayName,金属弧超出 5x1,-
-Knatte.ArcOverhang6x1.DisplayName,金属弧悬垂 6x1,-
-Knatte.ArcOverhang.Description,每侧有支柱的悬挑结构,-
-Knatte.ArcOverhang.FlavorDescription,“看，看到一个弓形” - 一只海狸幼崽,-
-Knatte.Aque_MetalBigPillarBase.DisplayName,大渡槽金属柱基,-
-Knatte.Aque_MetalBigPillarMid.DisplayName,大水渠金属柱中间,-
-Knatte.Aque_MetalBigPillarTop.DisplayName,大水渠金属柱顶,-
-Knatte.Aque_MetalBigPillar.Description,旧版游戏中的大金属柱子被分成多个部分，可以构建成任意高度。顶部可以有平台和悬垂结构。,-
-Knatte.Aque_MetalBigPillar.FlavorDescription,“这张桌子在目录上看起来更小。” —马·昂奈尔,-
-Knatte.MetalBigPillarBase.DisplayName,大金属柱基座,-
-Knatte.MetalBigPillarMid.DisplayName,大金属柱中间,-
-Knatte.MetalBigPillarTop.DisplayName,大金属柱顶部,-
-Knatte.MetalBigPillar.Description,旧版游戏中的大金属柱子拆分成多个部分，以便可以建造到任何高度。顶部部分可以内部有平台和悬垂物。,-
-Knatte.MetalBigPillar.FlavorDescription,“这张桌子在目录上看起来更小。” —玛·恩贡内尔,-
+Knatte.MiddleOverhang3x1.DisplayName,双向悬挑 3x1,-
+Knatte.MiddleOverhang4x1.DisplayName,双向悬挑 4x1,-
+Knatte.MiddleOverhang5x1.DisplayName,双向悬挑 5x1,-
+Knatte.MiddleOverhang7x1.DisplayName,双向悬挑 7x1,-
+Knatte.MiddleOverhang.Description,朝两个方向突出的平台，可以作为桥梁，或者其他建筑的地基。,-
+Knatte.MiddleOverhang.FlavorDescription,你想去哪边，左边还是右边？,-
+Knatte.ArcOverhang3x1.DisplayName,拱形悬挑 3x1,-
+Knatte.ArcOverhang4x1.DisplayName,拱形悬挑 4x1,-
+Knatte.ArcOverhang5x1.DisplayName,拱形悬挑 5x1,-
+Knatte.ArcOverhang6x1.DisplayName,拱形悬挑 6x1,-
+Knatte.ArcOverhang.Description,两侧都有支柱的平台，可以作为桥梁，或者其他建筑的地基。,-
+Knatte.ArcOverhang.FlavorDescription,摇啊摇，摇到外婆桥。,-
+Knatte.Aque_MetalBigPillarBase.DisplayName,水渠承重柱底座,-
+Knatte.Aque_MetalBigPillarMid.DisplayName,水渠承重柱中段,-
+Knatte.Aque_MetalBigPillarTop.DisplayName,水渠承重柱顶部,-
+Knatte.Aque_MetalBigPillar.Description,坚固的承重柱，根据需要分成了多个结构。使用了水渠材质。<br><color=#FFFF00>顶部结构可以容纳平台和悬挑的支柱部分。</color><br><color=#FF6600>水渠在 Water Extention 模组内。</color>,-
+Knatte.Aque_MetalBigPillar.FlavorDescription,为什么它的缩略图这么小？,-
+Knatte.MetalBigPillarBase.DisplayName,金属承重柱底座,-
+Knatte.MetalBigPillarMid.DisplayName,金属承重柱中段,-
+Knatte.MetalBigPillarTop.DisplayName,金属承重柱顶部,-
+Knatte.MetalBigPillar.Description,坚固的承重柱，根据需要分成了多个结构。<br><color=#FFFF00>顶部结构可以容纳平台和悬挑的支柱部分。</color>,-
+Knatte.MetalBigPillar.FlavorDescription,为什么它的缩略图这么小？,-
