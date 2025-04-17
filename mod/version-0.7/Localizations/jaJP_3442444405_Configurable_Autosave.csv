@@ -8,3 +8,6 @@ LV.CAS.SaveCountDesc,自動保存の数はどのくらい保持すべきです�
 LV.CAS.SaveWeatherWarning,天候警報に関する追加の保存,-
 LV.CAS.SaveWeatherWarningDesc,天候警報が発令されたときは、次のサイクルの警報によってのみ上書きされる「weatherwarning.save」という名前の追加セーブを作成します。このセーブはセーブ数にはカウントされません。,-
 LV.CAS.KeyBindingTriggerAutosave,自動保存をトリガーする,-
+LV.CAS.AutosaveWarning,自動保存の前に警告する,-
+LV.CAS.AutosaveWarningDesc,ゲームが自動保存される少し前に警告を表示します。これは、自動保存時のゲームのカクつきを嫌うプレイヤーにとって便利です。,-
+LV.CAS.AutosaveWarningText,{0}秒後に自動保存が行われます！,-

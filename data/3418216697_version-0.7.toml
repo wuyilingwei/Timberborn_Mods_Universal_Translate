@@ -85,3 +85,47 @@ jaJP = "気象警報が発令されたときは、「weatherwarning.save」と�
 frFR = "Lorsque qu'un avertissement météo est émis, créez une sauvegarde supplémentaire nommée 'weatherwarning.save' qui n'est écrasée que par l'avertissement du cycle suivant. Cette sauvegarde n'est pas prise en compte dans le nombre de sauvegardes."
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie ein zusätzliches Save mit dem Namen 'weatherwarning.save', das nur von der nächsten Warnung des Zyklus überschrieben wird. Dieses Save zählt nicht zur Anzahl der Saves."
 plPL = "Gdy wydany zostaje alert pogodowy, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej rundy. To zapisanie nie jest zaliczane do liczby zapisów."
+
+["LV.SE.AutosaveWarning"]
+raw = "Warn before autosave"
+enUS = "Warn before autosave"
+zhCN = "自动保存前提醒"
+zhTW = "自動儲存前警告"
+ruRU = "Предупреждать перед автосохранением"
+jaJP = "自動保存前に警告する"
+frFR = "Avertir avant l'enregistrement automatique"
+deDE = "Vor dem automatischen Speichern warnen"
+plPL = "Ostrzeż przed automatycznym zapisywaniem"
+
+["LV.SE.AutosaveWarningDesc"]
+raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
+enUS = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering during autosave."
+zhCN = "在游戏自动保存之前显示一个警告。这对不喜欢游戏在自动保存时出现卡顿的玩家很有帮助。"
+zhTW = "在遊戲自動儲存之前顯示警告。這對於不喜歡自動儲存時遊戲卡頓的玩家來說非常有用。"
+ruRU = "Показывайте предупреждение за некоторое время до автоматического сохранения игры. Это полезно для игроков, которым не нравится подтормаживание игры при автоматическом сохранении."
+jaJP = "ゲームが自動保存する前に警告を表示します。これは、自動保存時のゲームのカクつきを嫌うプレイヤーにとって便利です。"
+frFR = "Affichez un avertissement un certain temps avant que le jeu ne sauvegarde automatiquement. Cela est utile pour les joueurs qui n'aiment pas le ralentissement du jeu lors de la sauvegarde automatique."
+deDE = "Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speichert. Dies ist nützlich für Spieler, die Spielruckler beim automatischen Speichern nicht mögen."
+plPL = "Pokaż ostrzeżenie chwilę przed automatycznym zapisem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć w grze podczas automatycznego zapisywania."
+
+["LV.SE.AutosaveWarningText"]
+raw = "Autosave imminent in {0} game hours!"
+enUS = "Autosave imminent in {0} game hours!"
+zhCN = "自动保存即将在 {0} 游戏小时内进行！"
+zhTW = "自動保存即將在 {0} 遊戲小時內發生！"
+ruRU = "Автосохранение скоро в {0} игровых часов!"
+jaJP = "{0} ゲーム時間後に自動保存が近づいています！"
+frFR = "Sauvegarde automatique imminente dans {0} heures de jeu !"
+deDE = "Auto-Speicherung steht in {0} Spielstunden bevor!"
+plPL = "Automatyczne zapisywanie wkrótce w {0} godzinach gry!"
+
+["LV.SE.AutosaveDoneText"]
+raw = "Game autosaved (Save Everyday)!"
+enUS = "Game autosaved (Save Every Day)!"
+zhCN = "游戏已自动保存（每天保存）！"
+zhTW = "遊戲已自動保存（每天保存一次）！"
+ruRU = "Игра автоматически сохранена (Сохранять каждый день)!"
+jaJP = "ゲームが自動保存されました（毎日保存）！"
+frFR = "Jeu sauvegardé automatiquement (Sauvegarder chaque jour) !"
+deDE = "Spiel automatisch gespeichert (Jeden Tag speichern)!"
+plPL = "Gra automatycznie zapisano (Zapisz codziennie)!"
