@@ -8,6 +8,7 @@ jaJP = "樹木の成長率"
 frFR = "Taux de croissance des arbres"
 deDE = "Baumwachstumsrate"
 plPL = "Wskaźnik wzrostu drzew"
+ptBR = "Taxa de crescimento das árvores"
 
 ["CG.TreeGrowthRateDesc"]
 raw = "Multiplier for Tree growth time like Pines or Oaks (1 for game default). Can be set to below 1 to make the game harder."
@@ -19,6 +20,7 @@ jaJP = "松やオークの成長時間の倍率（ゲームのデフォルトは
 frFR = "Multiplicateur pour le temps de croissance des arbres comme les pins ou les chênes (1 pour le défaut du jeu). Peut être réglé en dessous de 1 pour rendre le jeu plus difficile."
 deDE = "Multiplikator für das Baumwachstum wie Kiefern oder Eichen (1 für die Standardwerte des Spiels). Kann auf unter 1 eingestellt werden, um das Spiel schwieriger zu machen."
 plPL = "Mnożnik czasu wzrostu drzew, takich jak sosny lub dęby (1 to domyślna wartość gry). Można ustawić poniżej 1, aby utrudnić grę."
+ptBR = "Multiplicador para o tempo de crescimento das árvores como Pinheiros ou Carvalhos (1 para o padrão do jogo). Pode ser definido abaixo de 1 para tornar o jogo mais difícil."
 
 ["CG.CropGrowthRate"]
 raw = "Crop growth rate"
@@ -30,6 +32,7 @@ jaJP = "作物成長率"
 frFR = "Taux de croissance des plantes"
 deDE = "Wachstumsrate der Pflanzen"
 plPL = "Współczynnik wzrostu roślin"
+ptBR = "Taxa de crescimento de culturas"
 
 ["CG.CropGrowthRateDesc"]
 raw = "Multiplier for Crop growth time like Carrots or Potatoes (1 for game default). Can be set to below 1 to make the game harder."
@@ -41,6 +44,7 @@ jaJP = "作物の成長時間の乗数（人参やジャガイモなど、ゲー
 frFR = "Multiplicateur pour le temps de croissance des cultures comme les carottes ou les pommes de terre (1 pour le défaut du jeu). Peut être réglé en dessous de 1 pour rendre le jeu plus difficile."
 deDE = "Multiplikator für die Wachstumszeit von Pflanzen wie Karotten oder Kartoffeln (1 für die Standardwerte des Spiels). Kann unter 1 eingestellt werden, um das Spiel schwieriger zu machen."
 plPL = "Mnożnik dla czasu wzrostu roślin, takich jak marchewki czy ziemniaki (1 dla domyślnej wartości w grze). Można ustawić poniżej 1, aby utrudnić grę."
+ptBR = "Multiplicador para o tempo de crescimento de culturas como cenouras ou batatas (1 para o padrão do jogo). Pode ser ajustado para menos de 1 para tornar o jogo mais difícil."
 
 ["CG.GatherableGrowthRate"]
 raw = "Product growth rate"
@@ -52,6 +56,7 @@ jaJP = "製品成長率"
 frFR = "Taux de croissance du produit"
 deDE = "Produktwachstumsrate"
 plPL = "Wzrost rate produktu"
+ptBR = "Taxa de crescimento do produto"
 
 ["CG.GatherableGrowthRateDesc"]
 raw = "Multiplier for products growth time like Pine Resin or Berries (1 for game default). Can be set to below 1 to make the game harder."
@@ -63,6 +68,7 @@ jaJP = "製品の成長時間の乗数（デフォルトは1）。ゲームを�
 frFR = "Multiplicateur pour la croissance des produits comme la résine de pin ou les baies (1 pour le défaut du jeu). Peut être fixé en dessous de 1 pour rendre le jeu plus difficile."
 deDE = "Multiplikator für das Wachstum von Produkten wie Kiefernharz oder Beeren (1 für die Standardspieleinstellung). Kann unter 1 eingestellt werden, um das Spiel schwieriger zu gestalten."
 plPL = "Mnożnik dla czasu wzrostu produktów, takich jak żywica sosnowa czy jagody (1 to domyślna wartość w grze). Może być ustawiony poniżej 1, aby uczynić grę trudniejszą."
+ptBR = "Multiplicador para o tempo de crescimento de produtos como Resina de Pinheiro ou Frutas (1 para o padrão do jogo). Pode ser definido abaixo de 1 para dificultar o jogo."
 
 ["CG.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
@@ -74,6 +80,7 @@ jaJP = "再現可能なチャンスマルチプライヤー"
 frFR = "Multiplicateur de chance reproductible"
 deDE = "Reproduzierbarer Chancenmultiplikator"
 plPL = "Reprodukcyjny mnożnik szans"
+ptBR = "Multiplicador de chance reproduzível"
 
 ["CG.ReproducibleChanceMultiplierDesc"]
 raw = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depends on the kind. Setting this to 1 to keep the game's setting and 0 means no reproduction."
@@ -85,6 +92,7 @@ jaJP = "木が繁殖する可能性を増減させます。各木は、種類に
 frFR = "Rendre les arbres plus ou moins susceptibles de se reproduire. Chaque arbre a chaque heure une chance de 1 à 3 % de se reproduire, selon le type. Fixer cela à 1 pour conserver les paramètres du jeu et 0 signifie pas de reproduction."
 deDE = "Mache Bäume weniger oder mehr wahrscheinlich, sich zu reproduzieren. Jeder Baum hat jede Stunde eine 1-3% Chance, sich zu reproduzieren, abhängig von der Art. Dies auf 1 setzen, um die Spieleinstellungen beizubehalten, und 0 bedeutet keine Reproduktion."
 plPL = "Zwiększ lub zmniejsz prawdopodobieństwo reprodukcji drzew. Każde drzewo co godzinę ma 1-3% szans na reprodukcję, w zależności od gatunku. Ustawienie na 1 utrzymuje ustawienia gry, a 0 oznacza brak reprodukcji."
+ptBR = "Faça com que as árvores tenham mais ou menos probabilidade de se reproduzir. Cada árvore, a cada hora, tem uma chance de 1-3% de se reproduzir, dependendo do tipo. Definir isso para 1 mantém a configuração do jogo, e 0 significa que não há reprodução."
 
 ["CG.SpreadDistance"]
 raw = "Spread distance"
@@ -96,6 +104,7 @@ jaJP = "スプレッド距離"
 frFR = "Distance de propagation"
 deDE = "Verbreitungsdistanz"
 plPL = "Odległość rozproszenia"
+ptBR = "Distância de espalhamento"
 
 ["CG.SpreadDistanceDesc"]
 raw = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
@@ -107,6 +116,7 @@ jaJP = "木が新しいブロックに広がることができる距離（ブロ
 frFR = "La distance (en blocs) qu'un arbre peut s'étendre à un nouveau bloc. 0 signifie aucune propagation. Valeur par défaut du jeu : 1"
 deDE = "Die Entfernung (in Blöcken), die ein Baum auf einen neuen Block ausbreiten kann. 0 bedeutet keine Ausbreitung. Standardwert im Spiel: 1"
 plPL = "Odległość (w blokach), którą drzewo może rozprzestrzenić się na nowy blok. 0 oznacza brak rozprzestrzeniania. Domyślna wartość w grze: 1"
+ptBR = "A distância (em quadras) que uma árvore pode se espalhar para um novo bloco. 0 significa nenhum espalhamento. Padrão do jogo: 1"
 
 ["CG.SpreadVertically"]
 raw = "Can spread vertically"
@@ -118,6 +128,7 @@ jaJP = "垂直に広がることができます。"
 frFR = "Peut se propager verticalement"
 deDE = "Kann sich vertikal ausbreiten."
 plPL = "Może rozprzestrzeniać się pionowo."
+ptBR = "Pode se espalhar verticalmente"
 
 ["CG.SpreadVerticallyDesc"]
 raw = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
@@ -129,3 +140,4 @@ jaJP = "有効にすると、木は自分の上または下のブロックに広
 frFR = "S'il est activé, les arbres peuvent se propager vers les blocs au-dessus ou en dessous d'eux (en utilisant la Distance de Propagation). Valeur par défaut du jeu : faux."
 deDE = "Wenn aktiviert, können Bäume auf Blöcke über oder unter sich wachsen (unter Verwendung der Verbreitungsdistanz). Spielstandard: false"
 plPL = "Jeśli włączone, drzewa mogą rozprzestrzeniać się na bloki powyżej lub poniżej nich (używając Odległości Rozprzestrzeniania). Domyślna wartość gry: fałsz"
+ptBR = "Se habilitado, as árvores podem se espalhar para os blocos acima ou abaixo delas (usando a Distância de Espalhamento). Padrão do jogo: falso"

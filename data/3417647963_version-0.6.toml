@@ -8,6 +8,7 @@ jaJP = "高さ制限を変更する"
 frFR = "Modifier la limite de hauteur"
 deDE = "Höhenlimit ändern"
 plPL = "Zmień ograniczenie wysokości"
+ptBR = "Alterar limite de altura"
 
 ["LV.BAsc.ChangeHeightDesc"]
 raw = "Change the height limit of the map. This setting and all others need restart to take effect."
@@ -19,6 +20,7 @@ jaJP = "マップの高さ制限を変更します。この設定と他のすべ
 frFR = "Changez la limite de hauteur de la carte. Ce paramètre et tous les autres nécessitent un redémarrage pour prendre effet."
 deDE = "Ändern Sie das Höhenlimit der Karte. Diese Einstellung und alle anderen benötigen einen Neustart, um wirksam zu werden."
 plPL = "Zmień limit wysokości mapy. Te ustawienia i wszystkie inne wymagają ponownego uruchomienia, aby zaczęły działać."
+ptBR = "Altere o limite de altura do mapa. Esta configuração e todas as outras precisam de reinicialização para entrar em vigor."
 
 ["LV.BAsc.TerrainHeight"]
 raw = "Terrain height limit"
@@ -30,6 +32,7 @@ jaJP = "地形の高さ制限"
 frFR = "Limite de hauteur du terrain"
 deDE = "Höhenlimit des Geländes"
 plPL = "Limit wysokości terenu"
+ptBR = "Limite de altura do terreno"
 
 ["LV.BAsc.TerrainHeightDesc"]
 raw = "The height limit of the terrain. Note: count from 0 (Game default: 22)"
@@ -41,6 +44,7 @@ jaJP = "地形の高さ制限。注：0からカウント（ゲームのデフ�
 frFR = "La limite de hauteur du terrain. Remarque : comptez à partir de 0 (par défaut du jeu : 22)"
 deDE = "Die Höhenbegrenzung des Geländes. Hinweis: Zählen Sie ab 0 (Spielstandard: 22)"
 plPL = "Limit wysokości terenu. Uwaga: liczyć od 0 (domyślnie w grze: 22)"
+ptBR = "O limite de altura do terreno. Nota: conte a partir de 0 (Padrão do jogo: 22)"
 
 ["LV.BAsc.AboveTerrainHeight"]
 raw = "Above terrain height limit"
@@ -52,6 +56,7 @@ jaJP = "地形の高さ制限を超えて"
 frFR = "Au-dessus de la limite de hauteur du terrain"
 deDE = "Über dem Höhenlimit des Geländes"
 plPL = "Powyżej granicy wysokości terenu"
+ptBR = "Acima do limite de altura do terreno"
 
 ["LV.BAsc.AboveTerrainHeightDesc"]
 raw = "The height limit above the terrain limit, i.e. how high you can build (Game default: 10)"
@@ -63,6 +68,7 @@ jaJP = "地形の制限よりも上の高さ制限、つまり建設できる高
 frFR = "La limite de hauteur au-dessus de la limite du terrain, c'est-à-dire quelle est la hauteur maximale à laquelle vous pouvez construire (par défaut du jeu : 10)"
 deDE = "Die Höhenbeschränkung über der Geländegrenze, d.h. wie hoch Sie bauen können (Spielstandard: 10)"
 plPL = "Limit wysokości powyżej limitu terenu, tzn. jak wysoko możesz budować (domyślnie w grze: 10)"
+ptBR = "O limite de altura acima do limite do terreno, ou seja, quão alto você pode construir (Padrão do jogo: 10)"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimit"]
 raw = "[Map Editor]Allow editor brush up to terrain limit"
@@ -74,6 +80,7 @@ jaJP = "[マップエディタ] エディタブラシを地形制限まで許可
 frFR = "[Éditeur de carte]Autoriser le pinceau de l'éditeur jusqu'à la limite de terrain"
 deDE = "[Map-Editor]Brush im Editor bis zur Terrain-Obergrenze erlauben"
 plPL = "[Edytor Map] Pozwól szczotce edytora na przekroczenie limitu terenu"
+ptBR = "[Editor de Mapas]Permitir que o pincel do editor atinja o limite do terreno"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimitDesc"]
 raw = "Allow the editor brush to go up to the terrain limit instead of minus 6 (Game default: 22 - 6 = 16)"
@@ -85,6 +92,7 @@ jaJP = "エディターブラシが terrain 制限まで上昇できるように
 frFR = "Permettre au pinceau de l'éditeur d'atteindre la limite du terrain au lieu de moins 6 (Par défaut dans le jeu : 22 - 6 = 16)"
 deDE = "Erlaube dem Editor-Pinsel, bis zur Geländegrenze zu gehen, anstatt minus 6 (Spielstandard: 22 - 6 = 16)"
 plPL = "Pozwól pędzlowi edytora sięgać do limitu terenu zamiast minus 6 (Domyślnie w grze: 22 - 6 = 16)"
+ptBR = "Permita que o pincel do editor chegue ao limite do terreno em vez de menos 6 (Padrão do jogo: 22 - 6 = 16)"
 
 ["LV.BAsc.FreeCamera"]
 raw = "Free camera"
@@ -96,6 +104,7 @@ jaJP = "無料カメラ"
 frFR = "Caméra gratuite"
 deDE = "Kostenlose Kamera"
 plPL = "Darmowa kamera"
+ptBR = "Câmera livre"
 
 ["LV.BAsc.FreeCameraDesc"]
 raw = "Enable free camera mode, useful when you have built too high"
@@ -107,3 +116,4 @@ jaJP = "フリーカメラモードを有効にすると、高く作りすぎた
 frFR = "Activez le mode caméra libre, utile lorsque vous avez construit trop haut."
 deDE = "Aktivieren Sie den freien Kameramodus, nützlich, wenn Sie zu hoch gebaut haben."
 plPL = "Włącz tryb swobodnej kamery, przydatny, gdy zbudujesz zbyt wysoko."
+ptBR = "Ative o modo de câmera livre, útil quando você construiu muito alto."

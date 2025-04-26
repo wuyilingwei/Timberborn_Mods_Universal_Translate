@@ -8,6 +8,7 @@ jaJP = "マックス・ビーバーズ・マルチプライヤー"
 frFR = "Multiplier de Max Beavers"
 deDE = "Max Beavers Multiplikator"
 plPL = "Mnożnik Maxa Beaversa"
+ptBR = "Multiplicador de Max Beavers"
 
 ["LV.CH.MaxBeaverMulDesc"]
 raw = "Multiply the max beavers a house can have by this value, rounded down but minimum is 1. Game default: 1."
@@ -19,6 +20,7 @@ jaJP = "家が持てる最大ビーバーの数にこの値を掛け、切り捨
 frFR = "Multipliez le nombre maximum de castors qu'une maison peut avoir par cette valeur, arrondi à l'entier inférieur mais le minimum est 1. Paramètre par défaut du jeu : 1."
 deDE = "Multipliziere die maximale Anzahl an Bibern, die ein Haus haben kann, mit diesem Wert, aufgerundet, aber minimum 1. Standard im Spiel: 1."
 plPL = "Pomnóż maksymalną liczbę bobrów, które może mieć dom, przez tę wartość, zaokrąglając w dół, ale minimum wynosi 1. Domyślna wartość w grze: 1."
+ptBR = "Multiplique o máximo de castores que uma casa pode ter por este valor, arredondado para baixo, mas o mínimo é 1. Padrão do jogo: 1."
 
 ["LV.CH.SleepMult"]
 raw = "Sleep Satisfaction Multiplier"
@@ -30,6 +32,7 @@ jaJP = "睡眠満足度乗数"
 frFR = "Multiplicateur de Satisfaction de Sommeil"
 deDE = "Schlafzufriedenheit-Multiplikator"
 plPL = "Mnożnik Satysfakcji Ze Snu"
+ptBR = "Multiplicador de Satisfação do Sono"
 
 ["LV.CH.SleepMultDesc"]
 raw = "Multiply the Sleep need satisfaction by this value. Game default: 1 so at +0.2 per hour (Beaver can have -0.2 to 0.8 Sleep, -0.6 per day)"
@@ -41,6 +44,7 @@ jaJP = "この値を睡眠必要満足度に掛けてください。ゲームの
 frFR = "Multipliez la satisfaction des besoins de sommeil par cette valeur. Par défaut dans le jeu : 1 donc à +0,2 par heure (Le castor peut avoir -0,2 à 0,8 de sommeil, -0,6 par jour)."
 deDE = "Multipliziere die Zufriedenheit des Schlafbedarfs mit diesem Wert. Standardwert des Spiels: 1, also bei +0.2 pro Stunde (Biber kann -0.2 bis 0.8 Schlaf haben, -0.6 pro Tag)"
 plPL = "Pomnóż zaspokojenie potrzeby snu przez tę wartość. Domyślnie w grze: 1, więc przy +0,2 na godzinę (Bóbr może mieć od -0,2 do 0,8 snu, -0,6 na dzień)"
+ptBR = "Multiplique a satisfação da necessidade de sono por este valor. Padrão do jogo: 1, então a +0,2 por hora (O Castor pode ter -0,2 a 0,8 de Sono, -0,6 por dia)"
 
 ["LV.CH.ShelterMult"]
 raw = "Shelter Satisfaction Multiplier"
@@ -52,6 +56,7 @@ jaJP = "シェルター満足度マルチプライヤー"
 frFR = "Multiplicateur de satisfaction de l'abri"
 deDE = "Unterkunftszufriedenheitsmultiplikator"
 plPL = "Mnożnik Satysfakcji Schronienia"
+ptBR = "Multiplicador de Satisfação do Abrigo"
 
 ["LV.CH.ShelterMultDesc"]
 raw = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
@@ -63,6 +68,7 @@ jaJP = "シェルターの必要満足度にこの値を掛けます。ゲーム
 frFR = "Multipliez la satisfaction des besoins en abri par cette valeur. Valeur par défaut du jeu : 1, donc à +0,3 par heure (le castor peut avoir entre -0,2 et 0,8 en abri, -0,3 par jour)."
 deDE = "Multiplizieren Sie die Zufriedenheit des Shelterbedarfs mit diesem Wert. Standardwert im Spiel: 1, also bei +0,3 pro Stunde (Biber kann -0,2 bis 0,8 Shelter haben, -0,3 pro Tag)."
 plPL = "Pomnóż zaspokojenie potrzeb schronienia przez tę wartość. Domyślna wartość w grze: 1, więc przy +0,3 na godzinę (bóbr może mieć -0,2 do 0,8 schronienia, -0,3 na dzień)"
+ptBR = "Multiplique a satisfação da necessidade de abrigo por este valor. Padrão do jogo: 1, então a +0,3 por hora (o Castor pode ter -0,2 a 0,8 de abrigo, -0,3 por dia)."
 
 ["LV.CH.MoveEntranceFloor"]
 raw = "Move Entrances to Floor"
@@ -74,6 +80,7 @@ jaJP = "入り口を階に移動する"
 frFR = "Déplacer les entrées au sol"
 deDE = "Eingänge zum Boden verschieben"
 plPL = "Przenieś wejścia na piętro"
+ptBR = "Mover Entradas para o Piso"
 
 ["LV.CH.MoveEntranceFloorDesc"]
 raw = "Move all the entrances to the first floor (like Double Lodges). Also work for houses added by mods. No graphical change. Game default: no"
@@ -85,6 +92,7 @@ jaJP = "すべての入り口を1階に移動します（ダブルロッジの�
 frFR = "Déplacez toutes les entrées au rez-de-chaussée (comme les Double Lodges). Fonctionne également pour les maisons ajoutées par des mods. Aucun changement graphique. Par défaut dans le jeu : non."
 deDE = "Bewege alle Eingänge in das erste Obergeschoss (wie bei Doppelunterkünften). Funktioniert auch für Häuser, die durch Mods hinzugefügt wurden. Keine grafische Änderung. Spielstandard: nein"
 plPL = "Przenieś wszystkie wejścia na pierwsze piętro (jak Double Lodges). Działa również dla domów dodanych przez mody. Brak zmian graficznych. Domyślne ustawienie gry: nie"
+ptBR = "Mova todas as entradas para o primeiro andar (como os alojamentos duplos). Também funcione para casas adicionadas por mods. Sem alteração gráfica. Padrão do jogo: não"
 
 ["LV.CH.AddOtherFaction"]
 raw = "Add other faction's Housings"
@@ -96,6 +104,7 @@ jaJP = "他の派閥の住宅を追加する"
 frFR = "Ajoutez les habitations des autres factions."
 deDE = "Füge die Unterkünfte der anderen Fraktionen hinzu."
 plPL = "Dodaj mieszkania innych frakcji"
+ptBR = "Adicionar as habitações de outras facções"
 
 ["LV.CH.AddOtherFactionDesc"]
 raw = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
@@ -107,6 +116,7 @@ jaJP = "フォークテイルはアイアンティースの家を建てること
 frFR = "Les contes folkloriques peuvent construire les maisons des Dents de Fer et vice versa. Ne pas travailler pour les maisons ajoutées par des mods. Par défaut du jeu : non."
 deDE = "Folktails können die Häuser der Eisenbeißer bauen und umgekehrt. Arbeiten Sie nicht an Häusern, die durch Mods hinzugefügt wurden. Spielstandard: nein"
 plPL = "Bajki mogą budować domy Żelaznych Zębów i vice versa. Nie działają dla domów dodanych przez mody. Domy domyślne w grze: nie"
+ptBR = "Folktails podem construir as casas de Dentes de Ferro e vice-versa. Não funcionam para casas adicionadas por mods. Padrão do jogo: não."
 
 ["LV.CH.AddProcreation"]
 raw = "  Add Procreation to all Housings"
@@ -118,6 +128,7 @@ jaJP = "すべての住宅に繁殖を追加する"
 frFR = "Ajoutez la Procréation à tous les logements."
 deDE = "Fügen Sie der gesamten Behausung Fortpflanzung hinzu"
 plPL = "Dodaj prokreację do wszystkich mieszkań."
+ptBR = "Adicione Procriação a todas as Moradias"
 
 ["LV.CH.AddProcreationDesc"]
 raw = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings"
@@ -129,6 +140,7 @@ jaJP = "すべてのハウジングに繁殖機能を追加し、フォルクテ
 frFR = "Ajoutez la procréation à tous les logements, afin que les Folktails puissent se reproduire dans les logements des Iron Teeth."
 deDE = "Fügen Sie allen Behausungen Fortpflanzung hinzu, damit Folktails in den Behausungen der Iron Teeth sich fortpflanzen können."
 plPL = "Dodaj rozmnażanie do wszystkich mieszkań, aby Folktails mogły się rozmnażać w mieszkaniach Żelaznych Zębów."
+ptBR = "Adicione a Procriação a todas as Habitações, para que os Folktails possam procriar nas Habitações dos Dentes de Ferro."
 
 ["LV.CH.RemoveProcreation"]
 raw = "  Remove Procreation from all Housings"
@@ -140,6 +152,7 @@ jaJP = "すべての住居から生殖を取り除く"
 frFR = "Supprimer la Procréation de toutes les Habitations"
 deDE = "Entfernen Sie die Fortpflanzung aus allen Wohnungen."
 plPL = "Usuń prokreację ze wszystkich mieszkań."
+ptBR = "Remover Procriação de todas as Habitações"
 
 ["LV.CH.RemoveProcreationDesc"]
 raw = "Remove Procreation from all Housings, so Iron Teeth can not procreate in Folktails' Housings"
@@ -151,3 +164,4 @@ jaJP = "すべての住宅から繁殖を取り除き、アイアンティース
 frFR = "Retirer la procréation de tous les logements, afin que les Dents de Fer ne puissent pas se reproduire dans les logements des Folktails."
 deDE = "Entfernen Sie die Fortpflanzung aus allen Unterkünften, damit Eisen Zähne sich nicht in den Unterkünften der Folktails fortpflanzen können."
 plPL = "Usuń rozmnażanie ze wszystkich mieszkań, aby Żelazne Zęby nie mogły rozmnażać się w mieszkańach Folktails."
+ptBR = "Remova a Procriação de todas as Moradias, para que os Dentes de Ferro não possam procriar nas Moradias de Folktails."

@@ -8,6 +8,7 @@ jaJP = "スワップビルド終了修正子"
 frFR = "Modificateur de finition de l'échange terminé"
 deDE = "Swap-Bau fertiggestellt Modifier"
 plPL = "Zakończony modyfikator wymiany budowy"
+ptBR = "Modificador de Construção de Troca Finalizado"
 
 ["LV.TIMod.SwapBuildFinishedModifierDesc"]
 raw = "When Dev Mode is enabled, auto finish building when placing a building while holding Ctrl would place the building normally for construction"
@@ -19,6 +20,7 @@ jaJP = "デブモードが有効になっているとき、Ctrlを押しなが�
 frFR = "Lorsque le mode développeur est activé, le fait de terminer automatiquement la construction lors de la pose d'un bâtiment tout en maintenant la touche Ctrl enfoncée placerait le bâtiment normalement pour la construction."
 deDE = "Wenn der Entwicklermodus aktiviert ist, würde das automatische Beenden des Bauens beim Platzieren eines Gebäudes mit gedrückter Strg-Taste das Gebäude normal zum Bau platzieren."
 plPL = "Gdy tryb dewelopera jest włączony, automatyczne zakończenie budowy podczas umieszczania budynku z wciśniętym klawiszem Ctrl spowoduje normalne umieszczenie budynku do konstrukcji."
+ptBR = "Quando o Modo de Desenvolvimento está ativado, finalizar automaticamente a construção ao colocar um edifício enquanto se mantém pressionada a tecla Ctrl colocaria o edifício normalmente para construção."
 
 ["LV.TIMod.NoClearDevFilter"]
 raw = "Do not clear Dev Mode filter"
@@ -30,6 +32,7 @@ jaJP = "Dev モードフィルターをクリアしないでください。"
 frFR = "Ne pas effacer le filtre du mode développeur."
 deDE = "Dev-Modus-Filter nicht löschen"
 plPL = "Nie usuwaj filtru trybu dewelopera."
+ptBR = "Não limpe o filtro do Modo de Desenvolvedor."
 
 ["LV.TIMod.NoClearDevFilterDesc"]
 raw = "Do not clear Dev Mode filter when invoking one or adding/removing them from favourites"
@@ -41,6 +44,7 @@ jaJP = "Devモードフィルターを呼び出したり、お気に入りに追
 frFR = "Ne pas effacer le filtre du mode développeur lors de l'invocation de l'un d'eux ou de son ajout/retirement des favoris."
 deDE = "Den Dev-Modus-Filter nicht löschen, wenn man einen hinzufügt oder entfernt."
 plPL = "Nie usuwaj filtra trybu dewelopera podczas wywoływania go lub dodawania/usuwania go z ulubionych."
+ptBR = "Não limpe o filtro do Modo Desenvolvedor ao invocar um ou adicionar/remover favoritos."
 
 ["Modding.ThumbnailInfo"]
 raw = "Click Refresh to pick a mod thumbnail if 'Pick upload thumbnail' option is checked"
@@ -52,6 +56,7 @@ jaJP = "「アップロードサムネイルを選択」オプションがチェ
 frFR = "Cliquez sur Actualiser pour choisir une miniature de mod si l'option 'Choisir la miniature de téléchargement' est cochée."
 deDE = "Klicken Sie auf Aktualisieren, um ein Thumbnail für das Mod auszuwählen, wenn die Option 'Thumbnail für den Upload auswählen' aktiviert ist."
 plPL = "Kliknij Odśwież, aby wybrać miniaturę moda, jeśli opcja 'Wybierz miniaturę przesłania' jest zaznaczona."
+ptBR = "Clique em Atualizar para escolher uma miniatura do mod se a opção 'Escolher miniatura de upload' estiver marcada."
 
 ["LV.TIMod.PickThumbnail"]
 raw = "Pick upload thumbnail"
@@ -63,6 +68,7 @@ jaJP = "サムネイルをアップロードを選択"
 frFR = "Choisir une miniature à télécharger"
 deDE = "Thumbnail hochladen auswählen"
 plPL = "Wybierz miniaturkę do przesłania"
+ptBR = "Escolher miniatura para upload"
 
 ["LV.TIMod.PickThumbnailDesc"]
 raw = "Pick a thumbnail for your upload instead of using thumbnail.png."
@@ -74,6 +80,7 @@ jaJP = "アップロードのサムネイルに thumbnail.png の代わりにサ
 frFR = "Choisissez une miniature pour votre téléchargement au lieu d'utiliser thumbnail.png."
 deDE = "Wählen Sie ein Thumbnail für Ihren Upload anstelle von thumbnail.png."
 plPL = "Wybierz miniaturkę do swojego przesyłu zamiast używać thumbnail.png."
+ptBR = "Escolha uma miniatura para o seu upload em vez de usar thumbnail.png."
 
 ["LV.TIMod.OpenExternalBrowser"]
 raw = "Always open external browser"
@@ -85,6 +92,7 @@ jaJP = "常に外部ブラウザを開く"
 frFR = "Toujours ouvrir le navigateur externe"
 deDE = "Immer externen Browser öffnen"
 plPL = "Zawsze otwieraj zewnętrzną przeglądarkę."
+ptBR = "Sempre abrir navegador externo"
 
 ["LV.TIMod.OpenExternalBrowserDesc"]
 raw = "Always open with external browser instead of Steam overlay browser."
@@ -96,6 +104,7 @@ jaJP = "常にSteamオーバーレイブラウザの代わりに外部ブラウ�
 frFR = "Toujours ouvrir avec un navigateur externe au lieu du navigateur intégré de Steam."
 deDE = "Immer mit dem externen Browser anstelle des Steam-Overlay-Browsers öffnen."
 plPL = "Zawsze otwieraj w zewnętrznej przeglądarce zamiast przeglądarki nakładki Steam."
+ptBR = "Sempre abra com o navegador externo em vez do navegador do Steam."
 
 ["LV.TIMod.DevModeOnDefault"]
 raw = "Enable DevMode on load"
@@ -107,6 +116,7 @@ jaJP = "ロード時にDevModeを有効にします"
 frFR = "Activer le mode développeur au chargement"
 deDE = "Aktivieren Sie den DevMode beim Laden."
 plPL = "Włącz tryb dewelopera podczas ładowania"
+ptBR = "Ativar o Modo de Desenvolvedor no carregamento"
 
 ["LV.TIMod.DevModeOnDefaultDesc"]
 raw = "Enable DevMode by default when loading the game."
@@ -118,6 +128,7 @@ jaJP = "ゲームをロードする際にデフォルトでDevModeを有効に�
 frFR = "Activer le mode développeur par défaut lors du chargement du jeu."
 deDE = "Aktiviere DevMode standardmäßig beim Laden des Spiels."
 plPL = "Włącz tryb dewelopera domyślnie przy ładowaniu gry."
+ptBR = "Ative o Modo de Desenvolvedor por padrão ao carregar o jogo."
 
 ["LV.TIMod.BetterResetLoadOrder"]
 raw = "Better Mod Organizing"
@@ -129,6 +140,7 @@ jaJP = "より良いモッドの整理"
 frFR = "Meilleure organisation des mods"
 deDE = "Bessere Mod-Organisation"
 plPL = "Lepsza organizacja modów"
+ptBR = "Melhor Organização de Mods"
 
 ["LV.TIMod.BetterResetLoadOrderDesc"]
 raw = "Move to top move the mod to top but below their dependencies. Reset Load Order sorts mod by Enabling, Name then bring their dependencies right on top. Enabled mods showed first when uploading."
@@ -140,6 +152,7 @@ jaJP = "トップに移動、モッドを最上部に移動させますが、そ
 frFR = "Déplacer vers le haut déplace le mod en haut mais en dessous de ses dépendances. Réinitialiser l'ordre de chargement trie les mods par activation, nom puis place leurs dépendances juste au-dessus. Les mods activés apparaissent en premier lors du téléchargement."
 deDE = "Verschieben nach oben verschiebt das Mod nach oben, jedoch unterhalb ihrer Abhängigkeiten. Das Zurücksetzen der Lade-Reihenfolge sortiert Mods nach Aktivierung, Name und bringt ihre Abhängigkeiten direkt nach oben. Aktivierte Mods werden zuerst angezeigt, wenn sie hochgeladen werden."
 plPL = "Przenieś na górę przenieś mod na górę, ale poniżej jego zależności. Resetuj kolejność ładowania sortuje mod po włączeniu, nazwie, a następnie przynosi ich zależności na samą górę. Włączone mody wyświetlają się jako pierwsze podczas przesyłania."
+ptBR = "Mover para o topo move o mod para o topo, mas abaixo de suas dependências. Resetar a Ordem de Carregamento classifica o mod por Habilitação, Nome e depois coloca suas dependências logo no topo. Mods habilitados aparecem primeiro ao fazer o upload."
 
 ["LV.TIMod.NoExitSave"]
 raw = "No Exit Save"
@@ -151,6 +164,7 @@ jaJP = "出口なし セーブ"
 frFR = "Pas de sortie, sauvegarder"
 deDE = "Kein Ausgang speichern"
 plPL = "Brak Wyjścia Zapisz"
+ptBR = "Nenhuma Saída Salvar"
 
 ["LV.TIMod.NoExitSaveDesc"]
 raw = "Do not save the game when exiting."
@@ -162,6 +176,7 @@ jaJP = "ゲームを終了する際に保存しないでください。"
 frFR = "Ne pas sauvegarder la partie en quittant."
 deDE = "Das Spiel beim Verlassen nicht speichern."
 plPL = "Nie zapisuj gry podczas wychodzenia."
+ptBR = "Não salve o jogo ao sair."
 
 ["LV.TIMod.QuickQuit"]
 raw = "Enable Quick/Force Quit [Ctrl Shift Q][!]"
@@ -173,6 +188,7 @@ jaJP = "クイック/強制終了を有効にする [Ctrl Shift Q][!]"
 frFR = "Activer la fermeture rapide/forcée [Ctrl Maj Q][!]"
 deDE = "Aktivieren Sie Schnell-/Zwangsbeenden [Strg Umschalt Q][!]"
 plPL = "Włącz szybkie/wymuszone zakończenie [Ctrl Shift Q][!]"
+ptBR = "Ativar Encerramento Rápido/Forçado [Ctrl Shift Q][!]"
 
 ["LV.TIMod.QuickQuitDesc"]
 raw = "Enable quick quit when pressing [Ctrl Shift Q]. This option use Process.Kill() so no save will be made."
@@ -184,6 +200,7 @@ jaJP = "[Ctrl Shift Q]を押すと素早く終了できるようにします。�
 frFR = "Activez la fermeture rapide en appuyant sur [Ctrl Shift Q]. Cette option utilise Process.Kill(), donc aucun enregistrement ne sera effectué."
 deDE = "Aktivieren Sie das schnelle Beenden beim Drücken von [Strg Umschalt Q]. Diese Option verwendet Process.Kill(), daher wird nichts gespeichert."
 plPL = "Włącz szybkie wyjście po naciśnięciu [Ctrl Shift Q]. Ta opcja używa Process.Kill(), więc żadne dane nie będą zapisane."
+ptBR = "Ative a saída rápida ao pressionar [Ctrl Shift Q]. Esta opção usa Process.Kill(), portanto, nenhum salvamento será feito."
 
 ["LV.TIMod.QuickRestart"]
 raw = "Enable Quick Restart [Ctrl Shift R][!]"
@@ -195,6 +212,7 @@ jaJP = "クイック再起動を有効にする [Ctrl Shift R][!]"
 frFR = "Activer le redémarrage rapide [Ctrl Shift R][!]"
 deDE = "Schnellneustart aktivieren [Strg Umschalt R][!]"
 plPL = "Włącz szybkie ponowne uruchomienie [Ctrl Shift R][!]"
+ptBR = "Habilitar Reinício Rápido [Ctrl Shift R][!]"
 
 ["LV.TIMod.QuickRestartDesc"]
 raw = "Enable quick restart when pressing [Ctrl Shift R]. This option use Process.Kill() so no save will be made."
@@ -206,3 +224,4 @@ jaJP = "[Ctrl Shift R]を押すとクイック再起動が有効になります�
 frFR = "Activez le redémarrage rapide en appuyant sur [Ctrl Shift R]. Cette option utilise Process.Kill(), aucune sauvegarde ne sera effectuée."
 deDE = "Aktivieren Sie den schnellen Neustart beim Drücken von [Strg Umschalt R]. Diese Option verwendet Process.Kill(), daher werden keine Speicherdaten erstellt."
 plPL = "Włącz szybkie ponowne uruchomienie po naciśnięciu [Ctrl Shift R]. Ta opcja używa Process.Kill(), więc żadne dane nie będą zapisywane."
+ptBR = "Ative a reinicialização rápida ao pressionar [Ctrl Shift R]. Esta opção usa Process.Kill() e, portanto, nenhum salvamento será feito."

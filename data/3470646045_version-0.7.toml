@@ -8,6 +8,7 @@ jaJP = "地図をリサイズする"
 frFR = "Redimensionner la carte"
 deDE = "Karte skalieren"
 plPL = "Zmień rozmiar mapy"
+ptBR = "Redimensionar mapa"
 
 ["LV.MRe.Size0"]
 raw = "Width (X)"
@@ -19,6 +20,7 @@ jaJP = "幅 (X)"
 frFR = "Largeur (X)"
 deDE = "Breite (X)"
 plPL = "Szerokość (X)"
+ptBR = "Largura (X)"
 
 ["LV.MRe.Size1"]
 raw = "Depth (Y)"
@@ -30,6 +32,7 @@ jaJP = "深さ（Y）"
 frFR = "Profondeur (Y)"
 deDE = "Tiefe (Y)"
 plPL = "Głębokość (Y)"
+ptBR = "Profundidade (Y)"
 
 ["LV.MRe.Size2"]
 raw = "Max Terrain Height (Z1)"
@@ -41,6 +44,7 @@ jaJP = "最大地形高度 (Z1)"
 frFR = "Hauteur maximale du terrain (Z1)"
 deDE = "Maximal Terrainhöhe (Z1)"
 plPL = "Maksymalna wysokość terenu (Z1)"
+ptBR = "Altura Máxima do Terreno (Z1)"
 
 ["LV.MRe.Size3"]
 raw = "Max Above Terrain (Z1+)"
@@ -52,6 +56,7 @@ jaJP = "地上最大高度 (Z1+)"
 frFR = "Altitude maximale au-dessus du sol (Z1+)"
 deDE = "Max über Terrain (Z1+)"
 plPL = "Maksymalna wysokość nad terenem (Z1+)"
+ptBR = "Max Acima do Terreno (Z1+)"
 
 ["LV.MRe.Resize"]
 raw = "Resize"
@@ -63,6 +68,7 @@ jaJP = "サイズ変更"
 frFR = "Redimensionner"
 deDE = "Größe ändern"
 plPL = "Zmień rozmiar"
+ptBR = "Redimensionar"
 
 ["LV.MRe.ExandStrat"]
 raw = "Expand Strategy"
@@ -74,6 +80,7 @@ jaJP = "戦略の拡張"
 frFR = "Stratégie d'expansion"
 deDE = "Strategie erweitern"
 plPL = "Rozszerz strategię"
+ptBR = "Expandir Estratégia"
 
 ["LV.MRe.ExandStratCopy"]
 raw = "Copy edge"
@@ -85,6 +92,7 @@ jaJP = "コピーエッジ"
 frFR = "Bord copié"
 deDE = "Kante kopieren"
 plPL = "Krawędź kopiuj"
+ptBR = "Cópia de borda"
 
 ["LV.MRe.ExandStratMirror"]
 raw = "Mirror"
@@ -96,6 +104,7 @@ jaJP = "鏡"
 frFR = "Miroir"
 deDE = "Spiegel"
 plPL = "Lustro"
+ptBR = "Espelho"
 
 ["LV.MRe.OfferToLoad"]
 raw = "Resized map saved. Do you want to load that save? Note: continuing this session will likely crash the game anyway."
@@ -107,6 +116,7 @@ jaJP = "リサイズされたマップが保存されました。保存を読み
 frFR = "Carte redimensionnée enregistrée. Voulez-vous charger cette sauvegarde ? Remarque : continuer cette session entraînera probablement un crash du jeu de toute façon."
 deDE = "Die verkleinerte Karte wurde gespeichert. Möchtest du dieses Speicherstand laden? Hinweis: Das Fortsetzen dieser Sitzung könnte das Spiel ohnehin zum Absturz bringen."
 plPL = "Zmieniona mapa zapisana. Czy chcesz załadować tę zapisaną wersję? Uwaga: kontynuowanie tej sesji prawdopodobnie i tak spowoduje awarię gry."
+ptBR = "Mapa redimensionado salvo. Você deseja carregar essa gravação? Nota: continuar esta sessão provavelmente fará o jogo travar de qualquer maneira."
 
 ["LV.MRe.ResizeInvalidObj"]
 raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing?"
@@ -118,6 +128,7 @@ jaJP = "マップを縮小する前に、崩壊を防ぐためにその外にあ
 frFR = "Il y a des objets en dehors de la carte après l'avoir réduite. Supprimez tous ces objets avant de réduire pour éviter un plantage ?"
 deDE = "Es gibt Objekte außerhalb der Karte, nachdem du sie verkleinert hast. Entferne alle diese Objekte, bevor du verkleinerst, um Abstürze zu vermeiden."
 plPL = "Są obiekty poza mapą po jej zmniejszeniu. Usuń wszystkie te obiekty przed zmniejszeniem, aby zapobiec awarii."
+ptBR = "Existem objetos fora do mapa depois que você o encolhe. Remova todos esses objetos antes de encolher para evitar travamentos?"
 
 ["LV.MRe.AutoRemove"]
 raw = "Remove them all"
@@ -129,6 +140,7 @@ jaJP = "すべて削除してください。"
 frFR = "Enlevez-les tous."
 deDE = "Entferne sie alle."
 plPL = "Usuń je wszystkie."
+ptBR = "Remova todos eles"
 
 ["LV.MRe.SaveWarning"]
 raw = "<RedHighlight>Remember to save your game before resizing the map! This game session will likely not work anymore after resizing. You should also pause the game before using this.</RedHighlight>"
@@ -140,3 +152,4 @@ jaJP = "<RedHighlight>マップをサイズ変更する前に、ゲームを保�
 frFR = "<RedHighlight>Souvenez-vous de sauvegarder votre partie avant de redimensionner la carte ! Cette session de jeu risque de ne plus fonctionner après le redimensionnement. Vous devriez également mettre le jeu en pause avant d'utiliser cela.</RedHighlight>"
 deDE = "<RedHighlight>Denken Sie daran, Ihr Spiel zu speichern, bevor Sie die Karte ändern! Diese Spielsitzung funktioniert wahrscheinlich nicht mehr nach der Größenänderung. Sie sollten das Spiel auch pausieren, bevor Sie dies verwenden.</RedHighlight>"
 plPL = "<RedHighlight>Pamiętaj, aby zapisać grę przed zmianą rozmiaru mapy! Ta sesja gry prawdopodobnie nie będzie działać po zmianie rozmiaru. Powinieneś również wstrzymać grę przed użyciem tego.</RedHighlight>"
+ptBR = "<RedHighlight>Lembre-se de salvar seu jogo antes de redimensionar o mapa! Esta sessão de jogo provavelmente não funcionará mais após o redimensionamento. Você também deve pausar o jogo antes de usar isso.</RedHighlight>"
