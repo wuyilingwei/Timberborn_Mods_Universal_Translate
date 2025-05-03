@@ -1,0 +1,116 @@
+ID,Text,Comment
+IgorZ.Automation.DebugPickTool.Title,Ferramenta de depuração,-
+IgorZ.Automation.DebugPickTool.Description,Imprime componentes no objeto selecionado.,-
+IgorZ.Automation.DebugPickTool.DescriptionHint1,Segure <i>SHIFT</i> para imprimir Acessível.,-
+IgorZ.Automation.DebugPickTool.DescriptionHint2,Segure <i>CTRL</i> para imprimir as bordas do NavMesh.,-
+IgorZ.Automation.DebugFinishNowTool.Title,Finalizar agora a ferramenta de depuração,-
+IgorZ.Automation.DebugFinishNowTool.Description,Finaliza imediatamente as construções selecionadas.,-
+IgorZ.Automation.ToolGroup.Main.DisplayName,Configurar automação,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,Mudança de terreno,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,Condições da água,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,Condições de potência,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,Condições de armazenamento,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,Condições populacionais,-
+IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Explodir dinamite 2 vezes,-
+IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,Exploda dinamite 3 vezes,-
+IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,Explodir dinamite 4 vezes,-
+IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,Exploda dinamite 5 vezes,-
+IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,Explodir dinamite 6 vezes,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"Este modelo pode ser aplicado a dinamites, seja ela terminada ou ainda em construção. Após a conclusão, a dinamite detonará automaticamente, e um novo projeto de dinamite será colocado para cavar mais fundo.",-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,Esvazie o armazenamento se a capacidade estiver acima de 50%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,Esvazie o armazenamento se a capacidade estiver acima de 60%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,Esvazie o armazenamento se a capacidade estiver acima de 70%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,Esvazie o armazenamento se a capacidade estiver acima de 80%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,Esvazie o armazenamento se a capacidade estiver acima de 90%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"Este modelo pode ser aplicado a edificações que produzem um tipo de produto e não têm estoque de insumos. Se o nível de estoque de <i>produção</i> exceder o limite predeterminado, a edificação entrará em um modo 'vazio', facilitando a rápida remoção de produtos.",-
+IgorZ.Automation.EmptyOutputStore.CustomStatus,O edifício está sendo esvaziado com prioridade.,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pausa durante a seca,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,Aplique este modelo em edifícios que devem permanecer parados durante as secas.,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Pausa durante a maré baixa,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,Aplique este modelo em edifícios que devem permanecer pausados durante as marés altas.,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Pausa durante o tempo temperado,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,Aplique este modelo em edifícios que devem permanecer pausados durante o tempo ameno.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Fechar a comporta durante a seca,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,Aplique este modelo em comportas que devem fechar quando a seca começar.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Abrir comporta durante a seca,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,Aplique este modelo em comportas que devem abrir quando a seca começar.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,Regulador de água aberta durante a seca,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,Aplique este modelo em reguladores de água que precisam estar abertos durante secas.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Fechar comporta durante maré alta,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,Aplique este modelo nas comportas que precisam fechar quando a maré alta começa.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Abra a comporta durante a maré baixa.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,Aplique este modelo nas comportas que precisam se abrir quando a maré baixa termina.,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Fechar a comporta durante o tempo ameno,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,Aplique este template em comportas que precisam fechar quando a seca ou a maré ruim termina.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Abra a comporta durante o clima temperado.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,Aplique este template em comportas que precisam ser abertas quando a seca ou a maré baixa termina.,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,Ponte de inundação levemente aberta durante o tempo ameno,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,"Aplique este modelo em comportas que devem fechar a 0,5 m abaixo do seu máximo quando a seca ou a maré baixa termina.",-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,População de bots no nível +10,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,Aplique este modelo a edifícios que devem estar em funcionamento até que a população de bots exceda o nível atual em 10 bots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,População de bots no nível +20,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,Aplique este modelo a edifícios que devem estar em operação até que a população de bots exceda o nível atual em 20 bots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,População de robôs em nível -10,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,Aplique este modelo a edifícios que devem permanecer pausados até que a população de bots caia 10 castores abaixo do nível atual.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,População de bots no nível -20,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,Aplique este modelo a edifícios que devem permanecer pausados até que a população de robos caia 20 castores abaixo do nível atual.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,Corra até que a população de castores esteja no máximo.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,Aplique este modelo a edifícios que devem estar em funcionamento enquanto houver leitos desocupados.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,População de castores em nível +10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,Aplique este modelo a edifícios que devem estar em funcionamento até que a população de castores exceda o nível atual em 10 castores.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,População de castores em nível +20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,Aplique este modelo aos edifícios que devem estar em funcionamento até que a população de castores exceda o nível atual em 20 castores.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,População de castores em nível -10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,Aplique este modelo a edifícios que devem permanecer pausados até que a população de castores caia 10 castores abaixo do nível atual.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,População de castores em nível -20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,Aplique este modelo a edifícios que devem permanecer pausados até que a população de castores caia 20 castores abaixo do nível atual.,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildeings.DisplayName,Não bloqueie os construtores,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildeings.Description,"Aplique este modelo em canteiros de obras que possam bloquear os caminhos dos construtores. Nota: Resultados não garantidos, especialmente se os edifícios não estiverem no mesmo nível.",-
+IgorZ.Automation.CancelTool.Title,Cancelar automação,-
+IgorZ.Automation.CancelTool.Description,Use esta ferramenta para limpar qualquer automação nos edifícios ou canteiros de obras.,-
+IgorZ.Automation.PauseTool.Title,Edifícios em pausa,-
+IgorZ.Automation.PauseTool.Description,Use esta ferramenta para pausar edifícios e canteiros de obras.,-
+IgorZ.Automation.ResumeTool.Title,Despause os edifícios,-
+IgorZ.Automation.ResumeTool.Description,Use esta ferramenta para retomar construções e canteiros de obras.,-
+IgorZ.Automation.DummyTitle,Título genérico,-
+IgorZ.Automation.DummyDescirption,Descrição genérica,-
+TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Selecionando: {0},-
+TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Selecionando: {0} (x{1}),-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,Aponte para uma entidade e clique para começar a selecionar.,-
+TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,Clique para começar a selecionar: {0},-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,Mantenha <i>SHIFT</i> pressionado para selecionar itens de um único tipo.,-
+IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,Regras de automação:,-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,"Se {0}, então {1}",-
+IgorZ.Automation.DetonateDynamiteAction.Description,detonar dinamite,-
+IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,e adicione outro <GreenHighlight>{0} vezes</GreenHighlight>,-
+IgorZ.Automation.DroughtEndedCondition.Description,<SolidHighlight>seca encerrada</SolidHighlight>,-
+IgorZ.Automation.DroughtStartedCondition.Description,<DestacarSólido>a seca começou</DestacarSólido>,-
+IgorZ.Automation.MarkForEmptyingAction.Description,<SolidHighlight>armazenamento vazio</SolidHighlight>,-
+IgorZ.Automation.ObjectFinishedCondition.Description,<SolidHighlight>construção concluída</SolidHighlight>,-
+IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<SolidHighlight>estoque de saída acima de {0}%</SolidHighlight>,-
+IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<SolidHighlight>estoque de saída abaixo de {0}%</SolidHighlight>,-
+IgorZ.Automation.PauseAction.Description,<pause de construção</pause>,-
+IgorZ.Automation.SetFloodgateHeightAction.Description,<SolidHighlight>definir altura para {0}</SolidHighlight>,-
+IgorZ.Automation.UnmarkForEmptyingAction.Description,<SolidHighlight>pare de esvaziar o armazenamento</SolidHighlight>,-
+IgorZ.Automation.UnpauseAction.Description,<SolidHighlight>retomar construção</SolidHighlight>,-
+IgorZ.Automation.WaterRegulatorStateActionClose.Description,<RealceSólido>fechar regulador de água</RealceSólido>,-
+IgorZ.Automation.WaterRegulatorStateActionOpen.Description,regulador de água aberta,-
+IgorZ.Automation.BadtideEndedCondition.Description,<SolidHighlight>maré baixa encerrada</SolidHighlight>,-
+IgorZ.Automation.BadtideStartedCondition.Description,<badtide começou</badtide>,-
+IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<SolidHighlight>menos de {0} castores no distrito</SolidHighlight>,-
+IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,<SolidHighlight>mais de {0} castores no distrito</SolidHighlight>,-
+IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<SolidHighlight>menos que {0} bots no distrito</SolidHighlight>,-
+IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,<SolidHighlight>mais de {0} bots no distrito</SolidHighlight>,-
+IgorZ.Automation.PopulationRelativeToMaxArg,MÁX{0},-
+IgorZ.Automation.PopulationRelativeToCurrentArg,AGORA{0},-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<SolidHighlight>bloqueia o caminho</SolidHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<SolidHighlight>não bloqueia o caminho</SolidHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Os construtores ainda não conseguem chegar lá, mas um caminho está sendo construído.",-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,Os builders não conseguem encontrar o caminho para este local. Talvez nada possa ser construído aqui.,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Canteiro de obras inacessível,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,<SolidHighlight>manter conclusão</SolidHighlight>,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,<SolidHighlight>construção de currículo</SolidHighlight>,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,Aguardando os outros edifícios terminarem,-
+IgorZ.Automation.BlockableBuildingAction.BlockDescription,construção em blocos,-
+IgorZ.Automation.BlockableBuildingAction.UnblockDescription,<destacarSólido>desbloquear edifício</destacarSólido>,-
+IgorZ.Automation.BlockableBuildingAction.BlockText,Aguardando os outros edifícios terminarem,-

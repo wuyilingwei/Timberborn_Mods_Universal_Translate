@@ -8,6 +8,7 @@ jaJP = "オープン商品統計タブ"
 frFR = "Ouvrir l'onglet Statistiques des biens"
 deDE = "Öffnen Sie den Tab \"Warenstatistiken\""
 plPL = "Otwórz zakładkę Statystyki Towarów"
+ptBR = "Abra a aba de Estatísticas de Mercadorias"
 
 ["eMka.GoodStatistics.BatchControlTabName"]
 raw = "Goods Statistics"
@@ -19,6 +20,7 @@ jaJP = "商品統計"
 frFR = "Statistiques sur les marchandises"
 deDE = "Warenstatistik"
 plPL = "Statystyka towarów"
+ptBR = "Estatísticas de Mercadorias"
 
 ["eMka.GoodStatistics.DepletionDaysLeft"]
 raw = "Estimated time to depletion: {0}"
@@ -30,6 +32,7 @@ jaJP = "推定枯渇時間: {0}"
 frFR = "Temps estimé jusqu'à l'épuisement : {0}"
 deDE = "Geschätzte Zeit bis zur Erschöpfung: {0}"
 plPL = "Szacowany czas do wyczerpania: {0}"
+ptBR = "Tempo estimado até a exaustão: {0}"
 
 ["eMka.GoodStatistics.GoodSampleTime"]
 raw = "Sampled {0} ago"
@@ -41,6 +44,7 @@ jaJP = "{0} 前にサンプリングされました"
 frFR = "Échantillonné il y a {0}"
 deDE = "Vor {0} abgetastet"
 plPL = "Zbadań {0} temu"
+ptBR = "Amostrado {0} atrás"
 
 ["eMka.GoodStatistics.GrowingDaysLeft"]
 raw = "Estimated time to fill: {0}"
@@ -52,6 +56,7 @@ jaJP = "入力待機時間: {0}"
 frFR = "Temps estimé pour le remplissage : {0}"
 deDE = "Geschätzte Zeit bis zur Ausfüllung: {0}"
 plPL = "Szacowany czas na wypełnienie: {0}"
+ptBR = "Tempo estimado para preenchimento: {0}"
 
 ["eMka.GoodStatistics.Settings.AnalyzeGoodsWithoutStockpiles"]
 raw = "Analyze goods without storage"
@@ -63,6 +68,7 @@ jaJP = "保管なしで商品を分析する"
 frFR = "Analyser des biens sans stockage"
 deDE = "Waren ohne Lagerung analysieren"
 plPL = "Analiza towarów bez magazynowania"
+ptBR = "Analisar mercadorias sem armazenamento"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThreshold"]
 raw = "Consecutive micro changes threshold"
@@ -74,6 +80,7 @@ jaJP = "連続マイクロ変化閾値"
 frFR = "Seuil des micro-changements consécutifs"
 deDE = "Schwelle für aufeinanderfolgende Mikroveränderungen"
 plPL = "Próg kolejnych mikro zmian"
+ptBR = "Limite de mudanças micro consecutivas"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThresholdTooltip"]
 raw = "Number of consecutive micro changes (below Slow daily change threshold) to consider as a trend"
@@ -85,6 +92,7 @@ jaJP = "トレンドと見なすための連続するマイクロ変化の回数
 frFR = "Nombre de changements micro consécutifs (en dessous du seuil de changement quotidien lent) à considérer comme une tendance."
 deDE = "Anzahl der aufeinanderfolgenden Mikroveränderungen (unterhalb der langsam täglichen Änderungsgrenze), die als Trend betrachtet werden sollen."
 plPL = "Liczba kolejnych mikro zmian (poniżej progu wolnej codziennej zmiany), które należy uznać za trend."
+ptBR = "Número de mudanças micro consecutivas (abaixo do limite de mudança diária lenta) a serem consideradas como uma tendência."
 
 ["eMka.GoodStatistics.Settings.EMAAnalyzerHeader"]
 raw = "Exponential Moving Average Analyzer"
@@ -96,6 +104,7 @@ jaJP = "指数移動平均アナライザー"
 frFR = "Analyseur de Moyenne Mobile Exponentielle"
 deDE = "Exponentieller gleitender Durchschnittsanalyzer"
 plPL = "Analizator Wykładniczej Średniej Ruchomej"
+ptBR = "Analisador de Média Móvel Exponencial"
 
 ["eMka.GoodStatistics.Settings.FastChangeThreshold"]
 raw = "Fast daily change threshold"
@@ -107,6 +116,7 @@ jaJP = "迅速な日次変化の閾値"
 frFR = "Seuil de changement quotidien rapide"
 deDE = "Schnelle tägliche Änderungsgrenze"
 plPL = "Szybki próg codziennej zmiany"
+ptBR = "Limite de alteração diária rápida"
 
 ["eMka.GoodStatistics.Settings.IgnoreGoodsWithStorageLessThan"]
 raw = "Ignore goods with storage less than"
@@ -118,6 +128,7 @@ jaJP = "保管が未満の品物を無視してください。"
 frFR = "Ignorer les biens avec un stockage inférieur à"
 deDE = "Ignoriere Waren mit weniger als Lagerbestand"
 plPL = "Zignoruj towary z magazynem poniżej"
+ptBR = "Ignore os produtos com armazenamento inferior a"
 
 ["eMka.GoodStatistics.Settings.ModerateChangeThreshold"]
 raw = "Moderate daily change threshold"
@@ -129,6 +140,7 @@ jaJP = "中程度の日次変動閾値"
 frFR = "Seuil de changement quotidien modéré"
 deDE = "Moderate tägliche Veränderungsschwelle"
 plPL = "Umiarkowany codzienny próg zmiany"
+ptBR = "Limite de mudança diária moderada"
 
 ["eMka.GoodStatistics.Settings.SamplesPerDay"]
 raw = "Samples per day"
@@ -140,6 +152,7 @@ jaJP = "1日のサンプル数"
 frFR = "Échantillons par jour"
 deDE = "Proben pro Tag"
 plPL = "Próbki na dzień"
+ptBR = "Amostras por dia"
 
 ["eMka.GoodStatistics.Settings.SamplesToAnalyze"]
 raw = "Samples to analyze"
@@ -151,6 +164,7 @@ jaJP = "分析するサンプル"
 frFR = "Échantillons à analyser"
 deDE = "Proben zur Analyse"
 plPL = "Próbki do analizy"
+ptBR = "Amostras para analisar"
 
 ["eMka.GoodStatistics.Settings.BaseSettings"]
 raw = "Base settings"
@@ -162,6 +176,7 @@ jaJP = "基本設定"
 frFR = "Paramètres de base"
 deDE = "Grundeinstellungen"
 plPL = "Ustawienia podstawowe"
+ptBR = "Configurações básicas"
 
 ["eMka.GoodStatistics.Settings.ShowTrendsOnTopBar"]
 raw = "Show trends on top bar"
@@ -173,6 +188,7 @@ jaJP = "上部バーにトレンドを表示する"
 frFR = "Afficher les tendances dans la barre supérieure"
 deDE = "Trends in der oberen Leiste anzeigen"
 plPL = "Pokaż trendy na górnym pasku"
+ptBR = "Mostrar tendências na barra superior"
 
 ["eMka.GoodStatistics.Settings.SlowChangeThreshold"]
 raw = "Slow daily change threshold"
@@ -184,3 +200,4 @@ jaJP = "遅い日々の変化の閾値"
 frFR = "Seuil de changement quotidien lent"
 deDE = "Langsame tägliche Änderungsgrenze"
 plPL = "Wolny próg codziennej zmiany"
+ptBR = "Limite de mudança diária lenta"

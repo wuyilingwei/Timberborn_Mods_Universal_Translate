@@ -8,6 +8,7 @@ jaJP = "有効化された"
 frFR = "Activé"
 deDE = "Aktiviert"
 plPL = "Włączone"
+ptBR = "Ativado"
 
 ["LV.CAS.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -19,6 +20,7 @@ jaJP = "このモッドが有効かどうか。"
 frFR = "Que ce mod soit activé."
 deDE = "Ob dieses Mod aktiviert ist."
 plPL = "Czy ten mod jest włączony."
+ptBR = "Se este mod está habilitado."
 
 ["LV.CAS.SaveFrequency"]
 raw = "Auto-save frequency (real-life minute)"
@@ -30,6 +32,7 @@ jaJP = "自動保存の頻度（実際の分）"
 frFR = "Fréquence de sauvegarde automatique (minute réelle)"
 deDE = "Auto-Speicherfrequenz (realistische Minute)"
 plPL = "Częstotliwość automatycznego zapisywania (minuty rzeczywiste)"
+ptBR = "Frequência de salvamento automático (minuto da vida real)"
 
 ["LV.CAS.SaveFrequencyDesc"]
 raw = "How often should auto-save saves. Game default: 10"
@@ -41,6 +44,7 @@ jaJP = "自動保存はどのくらいの頻度で行うべきですか？ ゲ�
 frFR = "À quelle fréquence l'enregistrement automatique doit-il être effectué ? Par défaut du jeu : 10."
 deDE = "Wie oft sollte die automatische Speicherung erfolgen? Spielstandard: 10"
 plPL = "Jak często powinno się zapisywać automatycznie? Domyślnie w grze: 10"
+ptBR = "Com que frequência o salvamento automático deve ser feito? Padrão do jogo: 10."
 
 ["LV.CAS.SaveCount"]
 raw = "Auto-save count"
@@ -52,6 +56,7 @@ jaJP = "自動保存回数"
 frFR = "Compte de sauvegarde automatique"
 deDE = "Auto-Speicheranzahl"
 plPL = "Liczba automatycznych zapisów"
+ptBR = "Contagem de salvamentos automáticos"
 
 ["LV.CAS.SaveCountDesc"]
 raw = "How many auto-saves should be kept. Game default: 3"
@@ -63,6 +68,7 @@ jaJP = "自動保存の数はどのくらい保持すべきですか。ゲーム
 frFR = "Combien de sauvegardes automatiques doivent être conservées ? Par défaut, le jeu : 3."
 deDE = "Wie viele automatische Speicherstände sollten aufbewahrt werden? Spielestandard: 3"
 plPL = "Ile automatycznych zapisów powinno być zachowanych. Domyślna wartość gry: 3"
+ptBR = "Quantos salvamentos automáticos devem ser mantidos. Padrão do jogo: 3"
 
 ["LV.CAS.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -74,6 +80,7 @@ jaJP = "天候警報に関する追加の保存"
 frFR = "Économie supplémentaire sur l'avertissement météorologique"
 deDE = "Zusätzliche Einsparungen bei Wetterwarnungen"
 plPL = "Dodatkowa oszczędność przy ostrzeżeniu o pogodzie"
+ptBR = "Economia extra em aviso de tempo severo"
 
 ["LV.CAS.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -85,6 +92,7 @@ jaJP = "天候警報が発令されたときは、次のサイクルの警報に
 frFR = "Lorsque un avis de tempête est publié, créez une sauvegarde supplémentaire nommée 'weatherwarning.save' qui n'est écrasée que par l'avis du cycle suivant. Cette sauvegarde n'est pas comptabilisée dans le nombre de sauvegardes."
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie eine zusätzliche Sicherung mit dem Namen 'weatherwarning.save', die nur von der nächsten Warnung des Zyklus überschrieben wird. Diese Sicherung zählt nicht zur Anzahl der Sicherungen."
 plPL = "Kiedy wydawane jest ostrzeżenie pogodowe, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej cyklu. To zapisanie nie jest uwzględniane w liczbie zapisów."
+ptBR = "Quando um alerta meteorológico é emitido, crie um salvamento extra chamado 'weatherwarning.save' que só será sobrescrito pelo aviso do próximo ciclo. Esse salvamento não conta para a contagem de salvamentos."
 
 ["LV.CAS.KeyBindingTriggerAutosave"]
 raw = "Trigger auto-save"
@@ -96,6 +104,7 @@ jaJP = "自動保存をトリガーする"
 frFR = "Déclencher la sauvegarde automatique"
 deDE = "Automatisches Speichern aktivieren"
 plPL = "Wyzwól automatyczne zapisywanie"
+ptBR = "Ativar salvamento automático"
 
 ["LV.CAS.AutosaveWarning"]
 raw = "Warn before autosave"
@@ -107,6 +116,7 @@ jaJP = "自動保存の前に警告する"
 frFR = "Avertir avant la sauvegarde automatique"
 deDE = "Vor dem automatischen Speichern warnen"
 plPL = "Ostrzeż przed automatycznym zapisywaniem"
+ptBR = "Avisar antes de salvamento automático"
 
 ["LV.CAS.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
@@ -118,6 +128,7 @@ jaJP = "ゲームが自動保存される少し前に警告を表示します。
 frFR = "Afficher un avertissement quelques instants avant que le jeu ne sauvegarde automatiquement. Cela est utile pour les joueurs qui n'aiment pas les saccades pendant la sauvegarde automatique."
 deDE = "Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speichert. Dies ist nützlich für Spieler, die Spielstottern beim automatischen Speichern nicht mögen."
 plPL = "Pokaż ostrzeżenie na pewien czas przed automatycznym zapisaniem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć gry podczas automatycznego zapisu."
+ptBR = "Mostre um aviso algum tempo antes do jogo salvar automaticamente. Isso é útil para jogadores que não gostam de travamentos no jogo durante o salvamento automático."
 
 ["LV.CAS.AutosaveWarningText"]
 raw = "Autosave imminent in {0} seconds!"
@@ -129,3 +140,4 @@ jaJP = "{0}秒後に自動保存が行われます！"
 frFR = "Sauvegarde automatique imminente dans {0} secondes !"
 deDE = "Automatisches Speichern in {0} Sekunden!"
 plPL = "Autosave za {0} sekund!"
+ptBR = "Salvar automaticamente em {0} segundos!"

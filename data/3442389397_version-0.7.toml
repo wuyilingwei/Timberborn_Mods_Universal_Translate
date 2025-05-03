@@ -8,6 +8,7 @@ jaJP = "科学プロジェクト"
 frFR = "Projets scientifiques"
 deDE = "Wissenschaftliche Projekte"
 plPL = "Projekty naukowe"
+ptBR = "Projetos Científicos"
 
 ["LV.SP.Welcome"]
 raw = "Thank you for using Scientific Projects mod. This screen is where you can unlock and manage the projects. You can open it by clicking on the Science button on the top-left of the screen or pressing a hotkey (default: Y, you can rebind it in the Keybindings Settings)."
@@ -19,6 +20,7 @@ jaJP = "Scientific Projectsモッドをご利用いただきありがとうご�
 frFR = "Merci d'utiliser le mod Projets Scientifiques. Cet écran est l'endroit où vous pouvez débloquer et gérer les projets. Vous pouvez l'ouvrir en cliquant sur le bouton Science en haut à gauche de l'écran ou en appuyant sur une touche de raccourci (par défaut : Y, que vous pouvez réaffecter dans les paramètres de raccourcis)."
 deDE = "Vielen Dank, dass Sie das Scientific Projects-Modul verwenden. Dieser Bildschirm ist der Ort, an dem Sie die Projekte freischalten und verwalten können. Sie können ihn öffnen, indem Sie auf die Wissenschafts-Schaltfläche oben links auf dem Bildschirm klicken oder eine Tastenkombination drücken (Standard: Y, Sie können sie in den Tastenbelegungs-Einstellungen neu belegen)."
 plPL = "Dziękujemy za korzystanie z modyfikacji Projektów Naukowych. Ten ekran to miejsce, w którym możesz odblokować i zarządzać projektami. Możesz go otworzyć, klikając przycisk Nauka w lewym górnym rogu ekranu lub naciskając klawisz skrótu (domyślnie: Y, możesz go zmienić w Ustawieniach Przypisania Klawiszy)."
+ptBR = "Obrigado por usar o mod Projetos Científicos. Esta tela é onde você pode desbloquear e gerenciar os projetos. Você pode abri-la clicando no botão Ciência no canto superior esquerdo da tela ou pressionando uma tecla de atalho (padrão: Y, você pode redefinir isso nas Configurações de Teclas)."
 
 ["KeyBinding.ScientificProjectDialog"]
 raw = "Scientific Projects Screen"
@@ -30,6 +32,7 @@ jaJP = "科学プロジェクト画面"
 frFR = "Écran des projets scientifiques"
 deDE = "Wissenschaftliche Projekte Bildschirm"
 plPL = "Ekran projektów naukowych"
+ptBR = "Tela de Projetos Científicos"
 
 ["LV.SP.Unlocked"]
 raw = "Unlocked!"
@@ -41,6 +44,7 @@ jaJP = "アンロックされました！"
 frFR = "Déverrouillé !"
 deDE = "Freigeschaltet!"
 plPL = "Odblokowane!"
+ptBR = "Desbloqueado!"
 
 ["LV.SP.PreqLocked"]
 raw = "Requires {0} to unlock."
@@ -52,6 +56,7 @@ jaJP = "{0} のロックを解除する必要があります。"
 frFR = "Nécessite {0} pour débloquer."
 deDE = "Benötigt {0}, um freigeschaltet zu werden."
 plPL = "Wymaga {0}, aby odblokować."
+ptBR = "Requer {0} para desbloquear."
 
 ["LV.SP.NotEnoughScienceNextDay"]
 raw = "You do not have enough science to pay for the next day. Adjust your projects or skip for today. Warning: pressing Esc will skip the projects for today."
@@ -63,6 +68,7 @@ jaJP = "次の日のための十分な科学がありません。プロジェク
 frFR = "Vous n'avez pas assez de science pour payer pour le lendemain. Ajustez vos projets ou laissez tomber pour aujourd'hui. Avertissement : appuyer sur Échap passera les projets pour aujourd'hui."
 deDE = "Sie haben nicht genug Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie sie für heute. Warnung: Durch Drücken von Esc werden die Projekte für heute übersprungen."
 plPL = "Nie masz wystarczającej ilości nauki, aby zapłacić za następny dzień. Dostosuj swoje projekty lub przełóż na dzisiaj. Ostrzeżenie: naciśnięcie klawisza Esc pominie projekty na dzisiaj."
+ptBR = "Você não tem ciência suficiente para pagar pelo dia seguinte. Ajuste seus projetos ou pule para hoje. Aviso: pressionar Esc pulará os projetos para hoje."
 
 ["LV.SP.CurrentScience"]
 raw = "Current Science: {0}"
@@ -74,6 +80,7 @@ jaJP = "現在の科学: {0}"
 frFR = "Science actuelle : {0}"
 deDE = "Aktuelle Wissenschaft: {0}"
 plPL = "Aktualna Nauka: {0}"
+ptBR = "Ciência Atual: {0}"
 
 ["LV.SP.CurrentSciencePlus"]
 raw = "Current Science: {0} ({1} from yesterday)"
@@ -85,6 +92,7 @@ jaJP = "現在の科学：{0}（昨日から{1}）"
 frFR = "Actualités scientifiques : {0} ({1} d'hier)"
 deDE = "Aktuelle Wissenschaft: {0} ({1} von gestern)"
 plPL = "Aktualna nauka: {0} ({1} z wczoraj)"
+ptBR = "Ciência Atual: {0} ({1} de ontem)"
 
 ["LV.SP.UnlockErrUnlocked"]
 raw = "This project is already unlocked"
@@ -96,6 +104,7 @@ jaJP = "このプロジェクトはすでにロック解除されています。
 frFR = "Ce projet est déjà déverrouillé."
 deDE = "Dieses Projekt ist bereits entsperrt."
 plPL = "Ten projekt jest już odblokowany."
+ptBR = "Este projeto já está desbloqueado."
 
 ["LV.SP.UnlockErrRequirementLocked"]
 raw = "This project requires {0} to unlock"
@@ -107,6 +116,7 @@ jaJP = "このプロジェクトは{0}を解除する必要があります。"
 frFR = "Ce projet nécessite {0} pour se déverrouiller."
 deDE = "Dieses Projekt erfordert {0}, um freigeschaltet zu werden."
 plPL = "Ten projekt wymaga {0}, aby odblokować."
+ptBR = "Este projeto requer {0} para ser desbloqueado."
 
 ["LV.SP.UnlockErrCostLocked"]
 raw = "You have only {0} science, but you need {1} science to unlock this project."
@@ -118,6 +128,7 @@ jaJP = "あなたは{0}の科学しか持っていませんが、このプロジ
 frFR = "Vous n'avez que {0} de science, mais vous avez besoin de {1} de science pour débloquer ce projet."
 deDE = "Du hast nur {0} Wissenschaft, aber du benötigst {1} Wissenschaft, um dieses Projekt freizuschalten."
 plPL = "Masz tylko {0} nauki, ale potrzebujesz {1} nauki, aby odblokować ten projekt."
+ptBR = "Você tem apenas {0} ciência, mas precisa de {1} ciência para desbloquear este projeto."
 
 ["LV.SP.UnlockConfirm"]
 raw = "Are you sure you want to unlock {0} with {1} science?"
@@ -129,6 +140,7 @@ jaJP = "{0}を{1}の科学でアンロックしてもよろしいですか？"
 frFR = "Êtes-vous sûr de vouloir débloquer {0} avec {1} science ?"
 deDE = "Sind Sie sicher, dass Sie {0} mit {1} Wissenschaft freischalten möchten?"
 plPL = "Czy na pewno chcesz odblokować {0} za pomocą {1} nauki?"
+ptBR = "Você tem certeza de que deseja desbloquear {0} com {1} ciência?"
 
 ["LV.SP.CustomCost"]
 raw = "cost per day:"
@@ -140,6 +152,7 @@ jaJP = "1日あたりのコスト："
 frFR = "coût par jour :"
 deDE = "Kosten pro Tag:"
 plPL = "koszt za dzień:"
+ptBR = "custo por dia:"
 
 ["LV.SP.ScienceStepCost"]
 raw = "{0} per Level"
@@ -151,6 +164,7 @@ jaJP = "{0} 毎レベル"
 frFR = "{0} par niveau"
 deDE = "{0} pro Level"
 plPL = "{0} za poziom"
+ptBR = "{0} por Nível"
 
 ["LV.SP.CurrentCost"]
 raw = "Next day cost: {0}/d"
@@ -162,6 +176,7 @@ jaJP = "翌日のコスト: {0}/日"
 frFR = "Coût pour le lendemain : {0}/d"
 deDE = "Nächster Tag Kosten: {0}/d"
 plPL = "Koszt następnego dnia: {0}/d"
+ptBR = "Custo do próximo dia: {0}/d"
 
 ["LV.SP.Level"]
 raw = "Level"
@@ -173,6 +188,7 @@ jaJP = "レベル"
 frFR = "Niveau"
 deDE = "Ebene"
 plPL = "Poziom"
+ptBR = "Nível"
 
 ["LV.SP.ActiveLevel"]
 raw = "Active Level: {0}"
@@ -184,6 +200,7 @@ jaJP = "アクティブレベル: {0}"
 frFR = "Niveau Actif : {0}"
 deDE = "Aktives Level: {0}"
 plPL = "Poziom aktywny: {0}"
+ptBR = "Nível Ativo: {0}"
 
 ["LV.SP.DayCostNotice"]
 raw = "Daily Science cost is deducted at the start of each day and the effects remain the same for the entire day."
@@ -195,6 +212,7 @@ jaJP = "毎日の科学費用は毎日の始めに差し引かれ、その効果
 frFR = "Le coût de la science quotidienne est déduit au début de chaque jour et les effets restent les mêmes pendant toute la journée."
 deDE = "Die täglichen Wissenschaftskosten werden zu Beginn eines jeden Tages abgezogen und die Auswirkungen bleiben den ganzen Tag über gleich."
 plPL = "Codzienny koszt nauki jest odciągany na początku każdego dnia, a efekty utrzymują się przez cały dzień."
+ptBR = "O custo da Ciência Diária é deduzido no início de cada dia e os efeitos permanecem os mesmos durante todo o dia."
 
 ["LV.SP.NextDayCost"]
 raw = "Next day cost: {0}"
@@ -206,6 +224,7 @@ jaJP = "翌日の費用: {0}"
 frFR = "Coût du lendemain : {0}"
 deDE = "Nächster Tag Kosten: {0}"
 plPL = "Koszt następnego dnia: {0}"
+ptBR = "Custo do dia seguinte: {0}"
 
 ["LV.SP.PayDayCost"]
 raw = "Pay for the day"
@@ -217,6 +236,7 @@ jaJP = "日当"
 frFR = "Paiement pour la journée"
 deDE = "Zahlung für den Tag"
 plPL = "Płatność za dzień"
+ptBR = "Pagamento pelo dia"
 
 ["LV.SP.NotEnoughSciencePay"]
 raw = "You do not have enough science to pay for the next day. Adjust your projects or skip for today."
@@ -228,6 +248,7 @@ jaJP = "次の日のための十分な科学がありません。プロジェク
 frFR = "Vous n'avez pas assez de sciences pour payer le lendemain. Ajustez vos projets ou passez votre tour pour aujourd'hui."
 deDE = "Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bezahlen. Passen Sie Ihre Projekte an oder überspringen Sie heute."
 plPL = "Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj."
+ptBR = "Você não tem ciência suficiente para pagar pelo dia seguinte. Ajuste seus projetos ou pule hoje."
 
 ["LV.SP.SkipConfirm"]
 raw = "Are you sure you want to skip the projects for today?"
@@ -239,6 +260,7 @@ jaJP = "今日のプロジェクトをスキップしてもいいですか？"
 frFR = "Êtes-vous sûr de vouloir sauter les projets pour aujourd'hui ?"
 deDE = "Bist du dir sicher, dass du die Projekte für heute auslassen möchtest?"
 plPL = "Czy na pewno chcesz pominąć projekty na dzisiaj?"
+ptBR = "Você tem certeza de que quer pular os projetos por hoje?"
 
 ["LV.SP.SkipToday"]
 raw = "Skip today"
@@ -250,6 +272,7 @@ jaJP = "今日はスキップします。"
 frFR = "Passez aujourd'hui"
 deDE = "Heute überspringen."
 plPL = "Pomiń dzisiaj"
+ptBR = "Pule hoje"
 
 ["LV.SP.WrongFaction"]
 raw = "This project cannot be unlocked by this faction"
@@ -261,6 +284,7 @@ jaJP = "このプロジェクトはこの派閥によって解除することは
 frFR = "Ce projet ne peut pas être débloqué par cette faction."
 deDE = "Dieses Projekt kann von dieser Fraktion nicht freigeschaltet werden."
 plPL = "Ten projekt nie może być odblokowany przez tę frakcję."
+ptBR = "Este projeto não pode ser desbloqueado por esta facção."
 
 ["LV.SP.ReloadNotice"]
 raw = "Please make a save and reload the game for this project to take effect."
@@ -272,6 +296,7 @@ jaJP = "このプロジェクトが反映されるようにゲームを保存し
 frFR = "Veuillez sauvegarder et recharger le jeu pour que ce projet prenne effet."
 deDE = "Bitte speichern Sie und laden Sie das Spiel neu, damit dieses Projekt wirksam wird."
 plPL = "Proszę zapisać i załadować grę, aby ten projekt miał skutek."
+ptBR = "Por favor, salve e recarregue o jogo para que este projeto tenha efeito."
 
 ["LV.SP.ReloadNeeded"]
 raw = "[Reload needed]"
@@ -283,6 +308,7 @@ jaJP = "[再読み込みが必要です]"
 frFR = "[Rechargement nécessaire]"
 deDE = "[Erneutes Laden erforderlich]"
 plPL = "[Wymagana ponowna synchronizacja]"
+ptBR = "[Recarga necessária]"
 
 ["LV.SP.WorkEffGroup"]
 raw = "Work Efficiency"
@@ -294,6 +320,7 @@ jaJP = "作業効率"
 frFR = "Efficacité au travail"
 deDE = "Arbeitseffizienz"
 plPL = "Wydajność pracy"
+ptBR = "Eficiência no Trabalho"
 
 ["LV.SP.WorkEffGroupDesc"]
 raw = "Increase work efficiency for your colony"
@@ -305,6 +332,7 @@ jaJP = "コロニーの作業効率を向上させる"
 frFR = "Augmentez l'efficacité du travail de votre colonie."
 deDE = "Steigern Sie die Arbeitseffizienz für Ihre Kolonie."
 plPL = "Zwiększ wydajność pracy swojej kolonii"
+ptBR = "Aumente a eficiência do trabalho para sua colônia."
 
 ["LV.SP.LogisticGroup"]
 raw = "Logistics"
@@ -316,6 +344,7 @@ jaJP = "物流"
 frFR = "Logistique"
 deDE = "Logistik"
 plPL = "Logistyka"
+ptBR = "Logística"
 
 ["LV.SP.LogisticGroupDesc"]
 raw = "Increase movement speed and the flow of resources"
@@ -327,6 +356,7 @@ jaJP = "移動速度と資源の流れを増加させる"
 frFR = "Augmenter la vitesse de déplacement et le flux des ressources."
 deDE = "Erhöhe die Bewegungsgeschwindigkeit und den Fluss der Ressourcen."
 plPL = "Zwiększ prędkość ruchu i przepływ zasobów"
+ptBR = "Aumentar a velocidade de movimento e o fluxo de recursos"
 
 ["LV.SP.WorkEffUpgrade1"]
 raw = "Precision Work Tools"
@@ -338,6 +368,7 @@ jaJP = "精密作業工具"
 frFR = "Outils de travail de précision"
 deDE = "Präzisionswerkzeuge"
 plPL = "Narzędzia do precyzyjnej pracy"
+ptBR = "Ferramentas de Trabalho de Precisão"
 
 ["LV.SP.WorkEffUpgrade1Eff"]
 raw = "Permanently increases work efficiency of all beavers by {0:+#%}."
@@ -349,6 +380,7 @@ jaJP = "すべてのビーバーの作業効率を永続的に{0:+#%}上昇さ�
 frFR = "Augmente de façon permanente l'efficacité de travail de tous les castors de {0:+#%}."
 deDE = "Erhöht dauerhaft die Arbeitseffizienz aller Biber um {0:+#%}."
 plPL = "Na stałe zwiększa efektywność pracy wszystkich bobrów o {0:+#%}."
+ptBR = "Aumenta permanentemente a eficiência de trabalho de todos os castores em {0:+#%}."
 
 ["LV.SP.WorkEffUpgrade1Lore"]
 raw = "After digging up hooman tool plans, beavers craft sharper blades with old-world tricks, boosting efficiency."
@@ -360,6 +392,7 @@ jaJP = "ヒューマンツールの計画を掘り起こした後、ビーバー
 frFR = "Après avoir déterré des plans d'outils humains, les castors fabriquent des lames plus tranchantes avec des astuces d'antan, améliorant leur efficacité."
 deDE = "Nachdem sie die Pläne für menschliche Werkzeuge ausgegraben haben, stellen Biber mit altmodischen Tricks schärfere Klingen her, was die Effizienz steigert."
 plPL = "Po wykopaniu planów narzędzi dla ludzi, bobry tworzą ostrzejsze ostrza za pomocą starych sztuczek, zwiększając wydajność."
+ptBR = "Após desenterrar planos de ferramentas humanas, os castores fabricam lâminas mais afiadas com truques do velho mundo, aumentando a eficiência."
 
 ["LV.SP.WorkEffUpgrade2"]
 raw = "Precision Tool Maintenance"
@@ -371,6 +404,7 @@ jaJP = "精密工具のメンテナンス"
 frFR = "Entretien des outils de précision"
 deDE = "Wartung von Präzisionswerkzeugen"
 plPL = "Utrzymanie narzędzi precyzyjnych"
+ptBR = "Manutenção de Ferramentas de Precisão"
 
 ["LV.SP.WorkEffUpgrade2Lore"]
 raw = "'Rigged a water-powered sharpener-keeps our tools gnaw-ready, speeds up every job over time!' — Chiseljaw Timberchew"
@@ -382,6 +416,7 @@ jaJP = "「水力駆動の鉋を仕掛けて-私たちの道具を常に準備�
 frFR = "'A monté un taille-crayon à eau - garde nos outils prêts à ronger, accélère chaque travail avec le temps !' — Chiseljaw Timberchew"
 deDE = "'Sie haben einen wasserbetriebenen Schärfer gebaut - hält unsere Werkzeuge bereit, beschleunigt jede Aufgabe im Laufe der Zeit!' — Chiseljaw Timberchew"
 plPL = "\"Podrasowałem węzeł wodny do ostrzenia - utrzymuje nasze narzędzia gotowe do pracy, przyspiesza każdą robotę z czasem!\" — Chiseljaw Timberchew"
+ptBR = "'Inventei um afiador movido a água - mantém nossas ferramentas prontas para mastigar, acelera cada trabalho ao longo do tempo!' — Chiseljaw Timberchew"
 
 ["LV.SP.WorkEffUpgrade2Eff"]
 raw = "{0:+#%} additional work efficiency of all beavers per Level."
@@ -393,6 +428,7 @@ jaJP = "{0:+#%} 各レベルごとのビーバー全体の作業効率の向上�
 frFR = "{0:+#%} efficacité de travail supplémentaire de tous les castors par niveau."
 deDE = "{0:+#%} zusätzliche Arbeitsleistung aller Biber pro Stufe."
 plPL = "{0:+#%} dodatkowa wydajność pracy wszystkich bobrów na poziom."
+ptBR = "{0:+#%} eficiência de trabalho adicional de todas as castores por Nível."
 
 ["LV.SP.WorkEffUpgrade2Cost"]
 raw = "[Cost] per Level, and {1} for every {2} Adult beavers (rounded up)"
@@ -404,6 +440,7 @@ jaJP = "[レベル]につき、{1}と{2}匹の大人のビーバーごとに（�
 frFR = "[Coût] par niveau, et {1} pour chaque {2} castors adultes (arrondi à l'entier supérieur)"
 deDE = "[Kosten] pro Stufe und {1} für jede {2} erwachsene Biber (aufgerundet)"
 plPL = "[Koszt] za poziom, a {1} za każdego {2} dorosłego bobra (zaokrąglone w górę)"
+ptBR = "[Custo] por Nível, e {1} para cada {2} castores adultos (arredondado para cima)"
 
 ["LV.SP.MoveSpeedUpgrade1"]
 raw = "Lightweight Slippers"
@@ -415,6 +452,7 @@ jaJP = "軽量スリッパ"
 frFR = "Chaussons légers"
 deDE = "Leichte Hausschuhe"
 plPL = "Lekkie kapcie"
+ptBR = "Chinelos Leves"
 
 ["LV.SP.MoveSpeedUpgrade1Lore"]
 raw = "'These slippers make me feel like I'm gliding on water' — Whiskertail Quickpaw"
@@ -426,6 +464,7 @@ jaJP = "「このスリッパを履くと、水の上を滑っているような
 frFR = "« Ces chaussons me donnent l'impression de glisser sur l'eau » — Whiskertail Quickpaw"
 deDE = "\"Diese Hausschuhe lassen mich fühlen, als würde ich über Wasser gleiten.\" — Whiskertail Quickpaw"
 plPL = "'Te kapcie sprawiają, że czuję się jakbym unosił się na wodzie' — Whiskertail Quickpaw"
+ptBR = "'Essas pantufas me fazem sentir como se estivesse deslizando sobre a água' — Whiskertail Quickpaw"
 
 ["LV.SP.MoveSpeedUpgradeEff"]
 raw = "Permanently increases movement speed of all beavers by {0:+#%} (stacks with other projects)."
@@ -437,6 +476,7 @@ jaJP = "すべてのビーバーの移動速度を{0:+#%}増加させます（�
 frFR = "Augmente définitivement la vitesse de mouvement de tous les castors de {0:+#%} (s'accumule avec d'autres projets)."
 deDE = "Erhöht dauerhaft die Bewegungsgeschwindigkeit aller Biber um {0:+#%} (stapelt sich mit anderen Projekten)."
 plPL = "Trwale zwiększa prędkość ruchu wszystkich bobrów o {0:+#%} (stakuje się z innymi projektami)."
+ptBR = "Aumenta permanentemente a velocidade de movimento de todos os castores em {0:+#%} (acumula com outros projetos)."
 
 ["LV.SP.MoveSpeedUpgrade2"]
 raw = "Durable Trail Boots"
@@ -448,6 +488,7 @@ jaJP = "耐久性のあるトレイルブーツ"
 frFR = "Bottes de randonnée durables"
 deDE = "Haltbare Trailstiefel"
 plPL = "Trwałe bootsy trekkingowe"
+ptBR = "Botas de Trilha Duráveis"
 
 ["LV.SP.MoveSpeedUpgrade2Lore"]
 raw = "Tough as beaver teeth, these boots turn rugged paths into smooth trails for swift travel."
@@ -459,6 +500,7 @@ jaJP = "ビーバーの歯のように頑丈なこのブーツは、険しい道
 frFR = "Aussi solides que des dents de castor, ces bottes transforment les chemins rugueux en sentiers lisses pour un voyage rapide."
 deDE = "Hart wie Biberzähne verwandeln diese Stiefel raue Wege in sanfte Pfade für schnelles Reisen."
 plPL = "Twarde jak zęby bobra, te buty przemieniają trudne szlaki w gładkie ścieżki dla szybkiej podróży."
+ptBR = "Duras como os dentes de castor, essas botas transformam caminhos acidentados em trilhas suaves para uma viagem rápida."
 
 ["LV.SP.MoveSpeedUpgrade3"]
 raw = "Aerodynamic Sprint Gear"
@@ -470,6 +512,7 @@ jaJP = "エアロダイナミックスプリントギア"
 frFR = "Équipement de Sprint Aérodynamique"
 deDE = "Aerodynamisches Sprint-Equipment"
 plPL = "Aerodynamicowy sprzęt do sprintu"
+ptBR = "Equipamento Aerodinâmico de Sprint"
 
 ["LV.SP.MoveSpeedUpgrade3Lore"]
 raw = "'In this gear, I'm not just running; I'm a furry blur of pure speed!' — Swiftstream Windrunner"
@@ -481,6 +524,7 @@ jaJP = "「このギアでは、私はただ走るのではない。私は純粋
 frFR = "\"Dans cet équipement, je ne cours pas seulement ; je suis un flou poilu de pure vitesse !\" — Swiftstream Windrunner"
 deDE = "'In diesem Gang laufe ich nicht nur; ich bin ein pelziger verschwommener Fleck reiner Geschwindigkeit!' — Swiftstream Windrunner"
 plPL = "'W tym sprzęcie nie tylko biegam; jestem futrzanym zamglonym strumieniem czystej prędkości!' — Swiftstream Windrunner"
+ptBR = "'Com este equipamento, não estou apenas correndo; sou uma confusão peluda de pura velocidade!' — Swiftstream Windrunner"
 
 ["LV.SP.MoveSpeedUpgradeBuff"]
 raw = "Movement Speed Projects"
@@ -492,6 +536,7 @@ jaJP = "移動速度プロジェクト"
 frFR = "Projets de vitesse de mouvement"
 deDE = "Bewegungsgeschwindigkeit Projekte"
 plPL = "Projekty prędkości ruchu"
+ptBR = "Projetos de Velocidade de Movimento"
 
 ["LV.SP.MoveSpeedUpgradeBuffDesc"]
 raw = "Your superior gear allow your characters to move faster."
@@ -503,6 +548,7 @@ jaJP = "あなたの上級ギアはキャラクターの動きを速くします
 frFR = "Votre équipement supérieur permet à vos personnages de se déplacer plus rapidement."
 deDE = "Ihr überlegenes Zubehör ermöglicht es Ihren Charakteren, sich schneller zu bewegen."
 plPL = "Twoje lepsze wyposażenie pozwala twoim postaciom poruszać się szybciej."
+ptBR = "Seu equipamento superior permite que seus personagens se movimentem mais rápido."
 
 ["LV.SP.MoveSpeedUpgradeBuffEff"]
 raw = "{0:+#%} movement speed from {1}"
@@ -514,6 +560,7 @@ jaJP = "{0:+#%} 移動速度が {1} から"
 frFR = "vitesse de mouvement de {1} à {0:+#%}"
 deDE = "{0:+#%} Bewegungsstil von {1}"
 plPL = "{0:+#%} prędkość ruchu z {1}"
+ptBR = "{0:+#%} velocidade de movimento de {1}"
 
 ["LV.SP.WorkEffUpgradeBuff"]
 raw = "Work Efficiency Projects"
@@ -525,6 +572,7 @@ jaJP = "作業効率プロジェクト"
 frFR = "Projets d'efficacité au travail"
 deDE = "Arbeitseffizienzprojekte"
 plPL = "Projekty efektywności pracy"
+ptBR = "Projetos de Eficiência no Trabalho"
 
 ["LV.SP.WorkEffUpgradeBuffDesc"]
 raw = "Your superior tools allow your characters to work more efficiently."
@@ -536,6 +584,7 @@ jaJP = "あなたの優れたツールは、あなたのキャラクターがよ
 frFR = "Vos outils supérieurs permettent à vos personnages de travailler plus efficacement."
 deDE = "Ihre überlegenen Werkzeuge ermöglichen es Ihren Charakteren, effizienter zu arbeiten."
 plPL = "Twoje doskonałe narzędzia pozwalają twoim postaciom pracować bardziej wydajnie."
+ptBR = "Seus ferramentas superiores permitem que seus personagens trabalhem de forma mais eficiente."
 
 ["LV.SP.WorkEffUpgradeBuffEff"]
 raw = "{0:+#%} work efficiency from {1}"
@@ -547,6 +596,7 @@ jaJP = "{0:+#%} 作業効率 {1} から"
 frFR = "Efficacité de travail à partir de {1} {0:+#%}"
 deDE = "{0:+#%} Arbeitseffizienz von {1}"
 plPL = "{0:+#%} wydajność pracy od {1}"
+ptBR = "eficiência de trabalho de {1} {0:+#%}"
 
 ["LV.SP.EmergenciesGroup"]
 raw = "Emergencies"
@@ -558,6 +608,7 @@ jaJP = "緊急事態"
 frFR = "Urgences"
 deDE = "Notfälle"
 plPL = "Nagłe wypadki"
+ptBR = "Emergências"
 
 ["LV.SP.EmergenciesGroupDesc"]
 raw = "In case of peril, press these big yellow buttons. But you get only one shot."
@@ -569,6 +620,7 @@ jaJP = "危険な場合は、これらの大きな黄色のボタンを押して
 frFR = "En cas de danger, appuyez sur ces gros boutons jaunes. Mais vous n'avez qu'une seule chance."
 deDE = "Im Falle einer Gefahr drücken Sie diese großen gelben Tasten. Aber Sie haben nur einen Versuch."
 plPL = "W przypadku niebezpieczeństwa naciśnij te duże żółte przyciski. Masz tylko jedną szansę."
+ptBR = "Em caso de perigo, pressione estes grandes botões amarelos. Mas você só tem uma chance."
 
 ["LV.SP.EmergencyDrill1"]
 raw = "Emergency Shallow Drill"
@@ -580,6 +632,7 @@ jaJP = "緊急浅深 drill"
 frFR = "Forage Peu Profonde Urgente"
 deDE = "Notfalldurchstoßbohrung"
 plPL = "Płytka Wiertnica Awaryjna"
+ptBR = "Furo Superficial de Emergência"
 
 ["LV.SP.EmergencyDrill1Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -591,6 +644,7 @@ jaJP = "この温暖な季節に{0}日を加えます。悪天候が来るとき
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque des intempéries approchent."
 deDE = "Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht."
 plPL = "Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowana tylko w przypadku nadchodzącej złej pogody."
+ptBR = "Adicione {0} dias a esta temporada temperada. Só pode ser ativado quando uma tempestade se aproxima."
 
 ["LV.SP.EmergencyDrill1Lore"]
 raw = "A curious beaver's nose for damp earth led to this shallow water pocket-quick to tap, lifesaving in a pinch."
@@ -602,6 +656,7 @@ jaJP = "湿った土を求める好奇心旺盛なビーバーの鼻が、すぐ
 frFR = "Le nez d'un castor curieux pour la terre humide a conduit à cette poche d'eau peu profonde - rapide à en profiter, essentielle en cas de besoin."
 deDE = "Eine neugierige Nase eines Bibers für feuchte Erde führte zu dieser flachen Wasserstelle - schnell anzapfbar, lebensrettend in der Not."
 plPL = "Czujny nos bobra do wilgotnej ziemi doprowadził do tej płytkiej kieszeni wodnej - łatwej do zdobycia, ratującej życie w kryzysowej sytuacji."
+ptBR = "O nariz curioso de um castor em busca de terra úmida levou a esta poça de água rasa - fácil de acessar, salvadora em um aperto."
 
 ["LV.SP.EmergencyDrill2"]
 raw = "Emergency Deep Drill"
@@ -613,6 +668,7 @@ jaJP = "緊急深層掘削"
 frFR = "Forage profonde d'urgence"
 deDE = "Notfall-Tiefbohrung"
 plPL = "Nagły Głęboki Wiercenie"
+ptBR = "Furo Profundo de Emergência"
 
 ["LV.SP.EmergencyDrill2Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -624,6 +680,7 @@ jaJP = "この温暖な季節に{0}日を追加します。悪天候が近づい
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque de mauvaises conditions météorologiques approchent."
 deDE = "Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht."
 plPL = "Dodaj {0} dni do tego umiarkowanego sezonu. Może być aktywowane tylko wtedy, gdy zbliża się złe warunki pogodowe."
+ptBR = "Adicione {0} dias a esta estação temperada. Só pode ser ativado quando uma tempestade se aproxima."
 
 ["LV.SP.EmergencyDrill2Lore"]
 raw = "'We're drilling deep, but we're not drilling cheap!' — Digger McDrillface IV"
@@ -635,6 +692,7 @@ jaJP = "「私たちは深く掘っているが、安く掘っているわけで
 frFR = "«Nous forons profondément, mais nous ne forons pas à bas prix !» — Digger McDrillface IV"
 deDE = "„Wir bohren tief, aber wir bohren nicht billig!“ — Digger McDrillface IV"
 plPL = "„Wiercimy głęboko, ale nie wiercimy tanio!” — Digger McDrillface IV"
+ptBR = "'Estamos perfurando fundo, mas não estamos perfurando barato!' — Digger McDrillface IV"
 
 ["LV.SP.EmergencyDrill3"]
 raw = "Emergency Deepest Drill"
@@ -646,6 +704,7 @@ jaJP = "緊急深層掘削"
 frFR = "Forage profonde d'urgence"
 deDE = "Notfall-Tiefbohrung"
 plPL = "Awaryjne Najgłębsze Wiercenie"
+ptBR = "Furo de Emergência Mais Profundo"
 
 ["LV.SP.EmergencyDrill3Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -657,6 +716,7 @@ jaJP = "この温暖な季節に{0}日を追加します。悪天候が近づい
 frFR = "Ajoutez {0} jours à cette saison tempérée. Ne peut être activé que lorsque du mauvais temps approche."
 deDE = "Füge {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktiviert werden, wenn schlechtes Wetter bevorsteht."
 plPL = "Dodaj {0} dni do tego sezonu temperaturowego. Może być aktywowane tylko w przypadku nadchodzącej złej pogody."
+ptBR = "Adicione {0} dias a esta temporada temperada. Só pode ser ativado quando um tempo ruim está chegando."
 
 ["LV.SP.EmergencyDrill3Lore"]
 raw = "Legend says old Gnawtooth foresaw this deepest well - our last hope when the skies turn cruel."
@@ -668,6 +728,7 @@ jaJP = "伝説によれば、古いガーノスはこの最深の井戸を予見
 frFR = "La légende dit que le vieux Gnawtooth prévit ce puits profond - notre dernier espoir lorsque les cieux deviennent cruels."
 deDE = "Die Legende besagt, dass der alte Gnawtooth diesen tiefsten Brunnen voraussah - unsere letzte Hoffnung, wenn die Himmel grausam werden."
 plPL = "Legenda głosi, że stary Gnawtooth przewidział tę najgłębszą studnię - naszą ostatnią nadzieję, gdy niebo stanie się okrutne."
+ptBR = "A lenda diz que o velho Gnawtooth previu este poço profundo - nossa última esperança quando os céus se tornarem cruéis."
 
 ["LV.SP.BadWeatherConditionErr"]
 raw = "You can only activate this when bad weather (drought or badtide) is predicted to come"
@@ -679,6 +740,7 @@ jaJP = "悪天候（干ばつまたは悪潮）が予測される場合にのみ
 frFR = "Vous ne pouvez l'activer que lorsque des conditions météorologiques défavorables (sécheresse ou marée mauvaise) sont prévues."
 deDE = "Sie können dies nur aktivieren, wenn schlechtes Wetter (Dürre oder schlechte Gezeiten) vorhergesagt wird."
 plPL = "Możesz to aktywować tylko wtedy, gdy prognozowane są złe warunki pogodowe (susza lub zła pływ)"
+ptBR = "Você só pode ativar isso quando se prevê a chegada de mau tempo (seca ou maré baixa)."
 
 ["LV.SP.Wheelbarrows"]
 raw = "Wheelbarrows"
@@ -690,6 +752,7 @@ jaJP = "手押し車"
 frFR = "Pelles à bras"
 deDE = "Schubkarren"
 plPL = "Taczki"
+ptBR = "Carrinhos de mão"
 
 ["LV.SP.WheelbarrowsLore"]
 raw = "The ultimate back-saver, letting beavers haul logs without waddling like overloaded turtles."
@@ -701,6 +764,7 @@ jaJP = "究極の背負い道具で、ビーバーが overloaded turtles のよ�
 frFR = "Le sauveur de dos ultime, permettant aux castors de transporter des bûches sans se dandiner comme des tortues surchargées."
 deDE = "Der ultimative Rückenschoner, der es Bibern ermöglicht, Stämme zu schleppen, ohne wie überlastete Schildkröten zu watscheln."
 plPL = "Ostateczny ratownik dla pleców, pozwalający bobrom ciągnąć kłody bez chybotań jak przeciążone żółwie."
+ptBR = "O salvador definitivo das costas, permitindo que castores arrastem troncos sem se arrastarem como tartarugas sobrecarregadas."
 
 ["LV.SP.WheelbarrowsEff"]
 raw = "Beavers and bots no longer receive movement speed penalties when carrying."
@@ -712,6 +776,7 @@ jaJP = "ビーバーとボットは、運搬時に移動速度のペナルティ
 frFR = "Les castors et les robots ne subissent plus de pénalités de vitesse de déplacement lorsqu'ils transportent."
 deDE = "Biber und Bots erhalten keine Bewegungsgeschwindigkeitsstrafe mehr, wenn sie tragen."
 plPL = "Bobry i roboty nie otrzymują już kar za prędkość ruchu podczas noszenia."
+ptBR = "Castores e robôs não recebem mais penalidades de velocidade de movimento ao carregar."
 
 ["LV.SP.CarryUpgrade1"]
 raw = "Reinforced Carry Packs"
@@ -723,6 +788,7 @@ jaJP = "強化運搬パック"
 frFR = "Sacs de transport renforcés"
 deDE = "Verstärkte Tragetaschen"
 plPL = "Wzmocnione plecaki transportowe"
+ptBR = "Mochilas Reforçadas"
 
 ["LV.SP.CarryUpgrade1Lore"]
 raw = "'These packs let me haul a forest and still have room for snacks!' — Packmule Heavyload"
@@ -734,6 +800,7 @@ jaJP = "「これらのパックは、森を運びながらスナックのため
 frFR = "« Ces sacs me permettent de transporter une forêt tout en ayant encore de la place pour des en-cas ! » — Packmule Heavyload"
 deDE = "'Diese Packs erlauben es mir, einen Wald zu transportieren und trotzdem Platz für Snacks zu haben!' — Packmule Heavyload"
 plPL = "\"Te pakiety pozwalają mi przewozić las i nadal mieć miejsce na przekąski!\" — Packmule Heavyload"
+ptBR = "\"Esses pacotes me permitem transportar uma floresta e ainda ter espaço para lanches!\" — Packmule Heavyload"
 
 ["LV.SP.CarryUpgrade1Eff"]
 raw = "Permanently increases beavers' carrying capacity by {0:+#%}"
@@ -745,6 +812,7 @@ jaJP = "ビーバーの運搬能力を{0:+#%}永久的に増加させる"
 frFR = "Augmente définitivement la capacité de portage des castors de {0:+#%}"
 deDE = "Erhöht dauerhaft die Tragfähigkeit der Biber um {0:+#%}"
 plPL = "Trwale zwiększa pojemność noszenia bobrów o {0:+#%}"
+ptBR = "Aumenta permanentemente a capacidade de carga dos castores em {0:+#%}"
 
 ["LV.SP.CarryBuilderUpgrade"]
 raw = "Builder Sledges"
@@ -756,6 +824,7 @@ jaJP = "ビルダーソレッジ"
 frFR = "Chariots de construction"
 deDE = "Bau-Schlitten"
 plPL = "Sanki budowlane"
+ptBR = "Ferramentas de Construtor"
 
 ["LV.SP.CarryBuilderUpgradeLore"]
 raw = "Making construction as smooth as a well-chewed log."
@@ -767,6 +836,7 @@ jaJP = "建設をよく噛まれた丸太のようにスムーズに進めるこ
 frFR = "Rendre la construction aussi fluide qu'une bûche bien mâchée."
 deDE = "Bauarbeiten so reibungslos wie ein gut gekauter Stamm."
 plPL = "Ułatwienie budowy, tak gładkiej jak dobrze przeżuty bluz."
+ptBR = "Tornando a construção tão suave quanto uma tora bem mastigada."
 
 ["LV.SP.CarryBuilderUpgradeEff"]
 raw = "{0:+#%} additional carrying capacity per Level for <SolidHighlight>Builders</SolidHighlight> (workers at District Centers or Builder Huts, both beavers and bots)."
@@ -778,6 +848,7 @@ jaJP = "{0:+#%} レベルごとの追加運搬能力、<SolidHighlight>ビルダ
 frFR = "{0:+#%} capacité de transport supplémentaire par Niveau pour <SolidHighlight>Constructeurs</SolidHighlight> (travailleurs dans les Centres de District ou les Cabanes de Constructeurs, tant les castors que les robots)."
 deDE = "{0:+#%} zusätzliches transportierbares Volumen pro Level für <SolidHighlight>Bauer</SolidHighlight> (Arbeiter in Bezirkzentren oder Bauhütten, sowohl Biber als auch Roboter)."
 plPL = "{0:+#%} dodatkowej nośności na poziom dla <SolidHighlight>Budowniczych</SolidHighlight> (pracowników w Centrach Dzielnic lub Chatach Budowniczych, zarówno bobrów, jak i robotów)."
+ptBR = "{0:+#%} capacidade adicional de transporte por nível para <SolidHighlight>Construtores</SolidHighlight> (trabalhadores em Centros de Distrito ou Cabana de Construtores, tanto castores quanto robôs)."
 
 ["LV.SP.CarryBuilderUpgradeCost"]
 raw = "[Cost] per Level for every builder (rounded up)"
@@ -789,6 +860,7 @@ jaJP = "[コスト] 各ビルダーのレベルごとに（切り上げ）"
 frFR = "[Coût] par niveau pour chaque constructeur (arrondi au supérieur)"
 deDE = "[Kosten] pro Stufe für jeden Baumeister (aufgerundet)"
 plPL = "[Koszt] na poziom dla każdego budowniczego (zaokrąglone w górę)"
+ptBR = "[Custo] por Nível para cada construtor (arredondado para cima)"
 
 ["LV.SP.CarryUpgradeBuff"]
 raw = "Carrying Capacity Projects"
@@ -800,6 +872,7 @@ jaJP = "耐載能力プロジェクト"
 frFR = "Projets de capacité de charge"
 deDE = "Tragfähigkeitsprojekte"
 plPL = "Projekty zdolności przewozowej"
+ptBR = "Projetos de Capacidade de Carga"
 
 ["LV.SP.CarryUpgradeBuffDesc"]
 raw = "Your superior carrying gears allow your characters to carry more."
@@ -811,6 +884,7 @@ jaJP = "あなたの上司が持っている装備は、キャラクターがよ
 frFR = "Vos équipements supérieurs permettent à vos personnages de transporter plus."
 deDE = "Ihre Überlegenentragsausrüstung ermöglicht es Ihren Charakteren, mehr zu tragen."
 plPL = "Twoje przełożone noszące wyposażenie pozwalają twoim postaciom nosić więcej."
+ptBR = "Seu equipamento de superior permite que seus personagens carreguem mais."
 
 ["LV.SP.CarryUpgradeBuffEff"]
 raw = "{0:+#%} carrying capacity from {1}"
@@ -822,6 +896,7 @@ jaJP = "{0:+#%} 運搬能力 {1} から"
 frFR = "capacité de charge de {1}"
 deDE = "{0:+#%} Tragfähigkeit von {1}"
 plPL = "nośność {0:+#%} z {1}"
+ptBR = "capacidade de carga {0:+#%} de {1}"
 
 ["LV.SP.CarryBuilderBuff"]
 raw = "Builder Sledge"
@@ -833,6 +908,7 @@ jaJP = "ビルダー・スレッジ"
 frFR = "Marteau de constructeur"
 deDE = "Bauer Vorschlaghammer"
 plPL = "Sledgier budowlany"
+ptBR = "Martelete Construtor"
 
 ["LV.SP.CarryBuilderBuffDesc"]
 raw = "Your builders are now equipped with sledges to carry more."
@@ -844,6 +920,7 @@ jaJP = "あなたの建設作業員は、もっと運ぶためのそりを装備
 frFR = "Vos bâtisseurs sont maintenant équipés de traîneaux pour transporter plus."
 deDE = "IhreBuilder sind jetzt mit Schlitten ausgestattet, um mehr zu transportieren."
 plPL = "Twoi budowniczy są teraz wyposażeni w sanie, aby móc przenosić więcej."
+ptBR = "Seus construtores agora estão equipados com trenós para carregar mais."
 
 ["LV.SP.CarryBuilderBuffEff"]
 raw = "{0:+#%} carrying capacity from {1}"
@@ -855,6 +932,7 @@ jaJP = "{0:+#%} からの収容能力 {1}"
 frFR = "capacité de charge de {1}"
 deDE = "{0:+#%} Tragfähigkeit von {1}"
 plPL = "{0:+#%} pojemność przewozowa z {1}"
+ptBR = "capacidade de carga de {1} {0:+#%}"
 
 ["LV.SP.FactionsGroup"]
 raw = "Factions"
@@ -866,6 +944,7 @@ jaJP = "派閥"
 frFR = "Factions"
 deDE = "Fraktionen"
 plPL = "Frakcje"
+ptBR = "Facções"
 
 ["LV.SP.FactionsGroupDesc"]
 raw = "Unique projects for each faction"
@@ -877,6 +956,7 @@ jaJP = "各派閥のためのユニークなプロジェクト"
 frFR = "Projets uniques pour chaque faction"
 deDE = "Einzigartige Projekte für jede Fraktion"
 plPL = "Unikalne projekty dla każdej frakcji"
+ptBR = "Projetos únicos para cada facção"
 
 ["LV.SP.FtPlankUpgrade"]
 raw = "Resin-Infused Planks"
@@ -888,6 +968,7 @@ jaJP = "レジン注入プランク"
 frFR = "Planches infusées de résine"
 deDE = "Harz-infundierte Planken"
 plPL = "Deski nasycone żywicą"
+ptBR = "Pranchas Infusionadas com Resina"
 
 ["LV.SP.FtPlankUpgradeLore"]
 raw = "Infusing planks with natural resins doubles Treated Plank output - no power needed, just nature's way."
@@ -899,6 +980,7 @@ jaJP = "自然樹脂を浸透させることで、処理されたプランクの
 frFR = "L'imprégnation des planches avec des résines naturelles double la production de planches traitées - pas d'énergie nécessaire, juste la manière de la nature."
 deDE = "Das Infundieren von Brettern mit natürlichen Harzen verdoppelt die Produktion von behandelten Brettern - keine Energie erforderlich, nur die Art der Natur."
 plPL = "Nasycanie desek naturalnymi żywicami podwaja wydajność desek poddanych obróbce - nie potrzeba energii, tylko naturalny sposób."
+ptBR = "Infundir pranchas com resinas naturais dobra a produção de Pranchas Tratadas - sem necessidade de energia, apenas o jeito da natureza."
 
 ["LV.SP.FtPlankUpgradeEff"]
 raw = "Woodworkshop uses {1:#.###%} power and {0:+#%} the Treated Planks output."
@@ -910,6 +992,7 @@ jaJP = "木工所は{1:#.###%}の電力を使用し、{0:+#%}の処理済み木�
 frFR = "L'atelier de bois utilise {1:#.###%} d'énergie et {0:+#%} de la production de planches traitées."
 deDE = "Die Holzwerkstatt verwendet {1:#.###%} Energie und {0:+#%} die Ausgabe von behandeltem Holz."
 plPL = "Warsztat stolarski zużywa {1:#.###%} energii i produkuje {0:+#%} przetworzonych desek."
+ptBR = "A marcenaria utiliza {1:#.###%} de energia e {0:+#%} da produção de tábuas tratadas."
 
 ["LV.SP.ItSmelterUpgrade"]
 raw = "Heat-Recycling Smelter"
@@ -921,6 +1004,7 @@ jaJP = "熱回収製錬炉"
 frFR = "Fourneau de recyclage de chaleur"
 deDE = "Wärmerückgewinnende Schmelzanlage"
 plPL = "Piecyk przetapialniczy z odzyskiem ciepła"
+ptBR = "Fundição de Reciclagem de Calor"
 
 ["LV.SP.ItSmelterUpgradeLore"]
 raw = "A breakthrough in furnace design doubles metal output without extra power, embodying Iron Teeth ingenuity."
@@ -932,6 +1016,7 @@ jaJP = "炉設計のブレークスルーにより、追加の電力なしで金
 frFR = "Une avancée dans la conception de fours double la production de métal sans énergie supplémentaire, incarnant l'ingéniosité des Dents de Fer."
 deDE = "Ein Durchbruch im Ofendesign verdoppelt die Metallproduktion ohne zusätzliche Energie und verkörpert die Cleverness von Iron Teeth."
 plPL = "Przełom w projektowaniu pieców podwaja wydajność metalu bez dodatkowej mocy, ucieleśniając pomysłowość Żelaznych Zębów."
+ptBR = "Um avanço no design de fornos dobra a produção de metal sem energia extra, incorporando a engenhosidade do Ferro Dente."
 
 ["LV.SP.ItSmelterUpgradeEff"]
 raw = "Smelter uses {1:#.###%} power power and {0:+#%} the Metal Blocks output."
@@ -943,6 +1028,7 @@ jaJP = "精錬所は{1:#.###%}の電力を使用し、金属ブロックの出�
 frFR = "Le fébrile utilise {1:#.###%} de puissance et {0:+#%} de production de blocs métalliques."
 deDE = "Der Schmelzofen benötigt {1:#.###%} Energie und {0:+#%} die Metallblockausgabe."
 plPL = "Piecyk wykorzystuje {1:#.###%} energii i {0:+#%} wyjścia Bloków Metalu."
+ptBR = "O fundidor utiliza {1:#.###%} de energia e {0:+#%} na saída de Blocos de Metal."
 
 ["LV.SP.BuffLessPowerEff"]
 raw = "{0:#.###%} Power Usage"
@@ -954,6 +1040,7 @@ jaJP = "{0:#.###%} 電力使用量"
 frFR = "Consommation d'énergie {0:#.###%}"
 deDE = "{0:#.###%} Energieverbrauch"
 plPL = "Użycie energii {0:#.###%}"
+ptBR = "Uso de Energia {0:#.###%}"
 
 ["LV.SP.BuffIncreasedOutput"]
 raw = "{0:+#%} increased Output"
@@ -965,6 +1052,7 @@ jaJP = "{0:+#%} 出力が増加しました"
 frFR = "{0:+#%} a augmenté la production"
 deDE = "{0:+#%} erhöhte Ausgabe"
 plPL = "{0:+#%} zwiększona produkcja"
+ptBR = "{0:+#%} aumento de Saída"
 
 ["LV.SP.Filter"]
 raw = "Filter"
@@ -976,6 +1064,7 @@ jaJP = "フィルター"
 frFR = "Filtre"
 deDE = "Filter"
 plPL = "Filtruj"
+ptBR = "Filtro"
 
 ["LV.SP.Keyword"]
 raw = "Keyword"
@@ -987,6 +1076,7 @@ jaJP = "キーワード"
 frFR = "Mot-clé"
 deDE = "Schlüsselwort"
 plPL = "Słowo kluczowe"
+ptBR = "Palavra-chave"
 
 ["LV.SP.FilterLocked"]
 raw = "Locked"
@@ -998,6 +1088,7 @@ jaJP = "ロックされた"
 frFR = "Verrouillé"
 deDE = "Gesperrt"
 plPL = "Zablokowane"
+ptBR = "Trancado"
 
 ["LV.SP.FilterUnlocked"]
 raw = "Unlocked"
@@ -1009,6 +1100,7 @@ jaJP = "解除されました"
 frFR = "Déverrouillé"
 deDE = "Entsperrt"
 plPL = "Odblokowane"
+ptBR = "Desbloqueado"
 
 ["LV.SP.FilterDaily"]
 raw = "Daily"
@@ -1020,6 +1112,7 @@ jaJP = "日々"
 frFR = "Quotidiennement"
 deDE = "Täglich"
 plPL = "Codziennie"
+ptBR = "Diariamente"
 
 ["LV.SP.FilterOneTime"]
 raw = "One-time"
@@ -1031,3 +1124,4 @@ jaJP = "一度限り"
 frFR = "Une seule fois"
 deDE = "Einmalig"
 plPL = "Jednorazowy"
+ptBR = "Única vez"

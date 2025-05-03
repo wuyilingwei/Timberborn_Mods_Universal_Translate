@@ -8,6 +8,7 @@ jaJP = "最小限の水の汚染"
 frFR = "Contamination minimale de l'eau"
 deDE = "Minimale Wasserverunreinigung"
 plPL = "Minimalne zanieczyszczenie wody"
+ptBR = "Contaminação mínima da água"
 
 ["LV.CI.MinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water stops giving full irrigation. Game default: 0.01, meaning if your water is 1% contaminated or below, it will give full irrigation."
@@ -19,6 +20,7 @@ jaJP = "水が完全な灌漑を提供しなくなる最小水質汚染%: ゲー
 frFR = "Le pourcentage minimum de contamination de l'eau où l'eau cesse de fournir une irrigation complète. Par défaut du jeu : 0,01, ce qui signifie que si votre eau est contaminée à 1 % ou moins, elle fournira une irrigation complète."
 deDE = "Der minimale % Wasserverunreinigung, bei dem Wasser keine volle Bewässerung mehr bietet. Spielstandard: 0,01, was bedeutet, dass Ihr Wasser bei 1 % Verunreinigung oder darunter volle Bewässerung bietet."
 plPL = "Minimalny procent zanieczyszczenia wody, przy którym woda przestaje zapewniać pełne nawodnienie. Domyślnie w grze: 0,01, co oznacza, że jeśli twoja woda ma zanieczyszczenie na poziomie 1% lub poniżej, zapewni pełne nawodnienie."
+ptBR = "O percentual mínimo de contaminação da água onde a irrigação plena para de funcionar. Padrão do jogo: 0,01, o que significa que se a sua água estiver 1% contaminada ou menos, ela proporcionará irrigação plena."
 
 ["LV.CI.MaximumWaterContamination"]
 raw = "Maximum Water Contamination"
@@ -30,6 +32,7 @@ jaJP = "最大水質汚染"
 frFR = "Contamination maximale de l'eau"
 deDE = "Maximale Wasserbelastung"
 plPL = "Maksymalne zanieczyszczenie wody"
+ptBR = "Contaminação Máxima da Água"
 
 ["LV.CI.MaximumWaterContaminationDesc"]
 raw = "The maximum water contamination % where water stops irrigating. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
@@ -41,6 +44,7 @@ jaJP = "水が灌漑を停止する最大水質汚染率。ゲームのデフォ
 frFR = "Le pourcentage maximum de contamination de l'eau au-delà duquel l'irrigation s'arrête. Par défaut dans le jeu : 0,53, ce qui signifie que si votre eau est contaminée à 53 % ou plus, elle n'irriguera pas."
 deDE = "Der maximale Wasserverunreinigungsprozentsatz, bei dem das Bewässern stoppt. Standardwert im Spiel: 0,53, was bedeutet, dass Ihr Wasser bei 53 % oder mehr verunreinigt ist, es nicht bewässert."
 plPL = "Maksymalny procent zanieczyszczenia wody, przy którym nawadnianie przestaje działać. Domyślnie w grze: 0,53, co oznacza, że jeśli woda jest zanieczyszczona w 53% lub więcej, nawadnianie nie będzie działać."
+ptBR = "A porcentagem máxima de contaminação da água onde a irrigação para. Padrão do jogo: 0,53, o que significa que se sua água estiver 53% contaminada ou mais, não irrigará."
 
 ["LV.CI.VerticalSpreadCostMultiplier"]
 raw = "Vertical Spread Cost"
@@ -52,6 +56,7 @@ jaJP = "バーティカルスプレッドコスト"
 frFR = "Coût de l'écart vertical"
 deDE = "Vertikale Spread-Kosten"
 plPL = "Koszt spreadu pionowego"
+ptBR = "Custo do Spread Vertical"
 
 ["LV.CI.VerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water up."
@@ -63,6 +68,7 @@ jaJP = "上方拡張のコスト倍率。ゲームのデフォルト：6、つ�
 frFR = "Le multiplicateur de coût pour l'étalement vers le haut. Valeur par défaut du jeu : 6, ce qui signifie qu'il coûte généralement 6 fois plus cher d'étendre l'eau vers le haut."
 deDE = "Der Kostenmultiplikator für die Aufwärtsverbreitung. Spielstandard: 6, was bedeutet, dass es im Allgemeinen 6-mal mehr kostet, Wasser nach oben zu verbreiten."
 plPL = "Współczynnik kosztów dla rozprzestrzeniania w górę. Domyślne ustawienie gry: 6, co oznacza, że zazwyczaj kosztuje to 6 razy więcej, aby rozprzestrzenić wodę w górę."
+ptBR = "O multiplicador de custo para a disseminação para cima. Valor padrão do jogo: 6, o que significa que geralmente custa 6 vezes mais para espalhar água para cima."
 
 ["LV.CI.MaxSpread"]
 raw = "Max Spread"
@@ -74,6 +80,7 @@ jaJP = "マックススプレッド"
 frFR = "Écart Maximal"
 deDE = "Maximaler Spread"
 plPL = "Maksymalne rozszerzenie"
+ptBR = "Spread Máximo"
 
 ["LV.CI.MaxSpreadDesc"]
 raw = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 blocks will irrigate up to 16 blocks away."
@@ -85,6 +92,7 @@ jaJP = "ブロックでの最大散布距離。ゲームのデフォルト: 16�
 frFR = "La distance maximale de propagation en blocs. Valeur par défaut du jeu : 16, ce qui signifie qu'un bloc saturé de 3x3 irriguera jusqu'à 16 blocs de distance."
 deDE = "Die maximale Verbreitungsdistanz in Blöcken. Standardmäßig im Spiel: 16, was bedeutet, dass ein gesättigtes 3x3-Feld bis zu 16 Blöcke weit bewässern kann."
 plPL = "Maksymalny zasięg na odległość w blokach. Domyślna wartość gry: 16, co oznacza, że nasycone 3x3 bloki będą nawadniać do 16 bloków w odległości."
+ptBR = "A distância máxima de espalhamento em blocos. Padrão do jogo: 16, o que significa que um bloco saturado de 3x3 irrigará até 16 blocos de distância."
 
 ["LV.CI.ContaMinimumWaterContamination"]
 raw = "Minimum Water for Soil Contamination"
@@ -96,6 +104,7 @@ jaJP = "土壌汚染のための最小水分"
 frFR = "Eau minimale pour la contamination du sol"
 deDE = "Minimale Wassermenge für Bodenvergiftung"
 plPL = "Minimalna woda do zanieczyszczenia gleby"
+ptBR = "Água Mínima para Contaminação do Solo"
 
 ["LV.CI.ContaMinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water starts contaminate soil. Game default: 0.5, meaning if your water is 50% contaminated or above, it will start contaminating soil."
@@ -107,6 +116,7 @@ jaJP = "水が土壌を汚染し始める最低水質汚染率%。ゲームの�
 frFR = "Le pourcentage minimum de contamination de l'eau où l'eau commence à contaminer le sol. Par défaut dans le jeu : 0,5, ce qui signifie que si votre eau est contaminée à 50 % ou plus, elle commencera à contaminer le sol."
 deDE = "Der minimale Verschmutzungsgrad des Wassers, ab dem Wasser den Boden zu kontaminieren beginnt. Standard im Spiel: 0,5, das bedeutet, wenn dein Wasser zu 50 % oder mehr verschmutzt ist, beginnt es, den Boden zu kontaminieren."
 plPL = "Minimalny procent zanieczyszczenia wody, przy którym woda zaczyna zanieczyszczać glebę. Domyślnie w grze: 0,5, co oznacza, że jeśli twoja woda jest zanieczyszczona w 50% lub więcej, zacznie zanieczyszczać glebę."
+ptBR = "A porcentagem mínima de contaminação da água onde a água começa a contaminar o solo. Padrão do jogo: 0,5, ou seja, se a sua água estiver 50% contaminada ou mais, começará a contaminar o solo."
 
 ["LV.CI.ContaMaxSpread"]
 raw = "Contamination Max Spread"
@@ -118,6 +128,7 @@ jaJP = "汚染最大広がり"
 frFR = "Contamination Max Spread"
 deDE = "Kontaminationsmaximalausbreitung"
 plPL = "Maksymalne Rozprzestrzenienie Zanieczyszczeń"
+ptBR = "Contaminação Máxima Espalhada"
 
 ["LV.CI.ContaMaxSpreadDesc"]
 raw = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will contaminate blocks up to 7 blocks away."
@@ -129,6 +140,7 @@ jaJP = "汚染された水の最大拡散距離（ブロック単位）。ゲー
 frFR = "La distance maximale de propagation en blocs pour l'eau contaminée. Valeur par défaut du jeu : 7, ce qui signifie que la contamination contaminera des blocs jusqu'à 7 blocs de distance."
 deDE = "Die maximale Ausbreitungsdistanz in Blöcken für kontaminiertes Wasser. Standard im Spiel: 7, was bedeutet, dass die Kontamination Blöcke bis zu 7 Blöcke entfernt kontaminieren wird."
 plPL = "Maksymalna odległość rozprzestrzeniania się w blokach dla zanieczyszczonej wody. Domyślne ustawienie w grze: 7, co oznacza, że zanieczyszczenie zanieczyści bloki w promieniu do 7 bloków."
+ptBR = "A distância máxima de espalhamento em blocos para água contaminada. Padrão do jogo: 7, significando que a contaminação irá contaminar blocos até 7 blocos de distância."
 
 ["LV.CI.ContaVerticalSpreadCostMultiplier"]
 raw = "Contamination Vertical Spread Cost"
@@ -140,6 +152,7 @@ jaJP = "汚染の垂直拡散コスト"
 frFR = "Coût de propagation verticale de la contamination"
 deDE = "Kosten durch vertikale Ausbreitung von Kontamination"
 plPL = "Koszt pionowego rozprzestrzeniania zanieczyszczeń"
+ptBR = "Custo de Espalhamento Vertical de Contaminação"
 
 ["LV.CI.ContaVerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination up."
@@ -151,3 +164,4 @@ jaJP = "汚染の上方拡散に対するコスト乗数。ゲームのデフォ
 frFR = "Le multiplicateur de coût pour la propagation ascendante de la contamination. Valeur par défaut du jeu : 5, ce qui signifie qu'il en coûte généralement 5 fois plus pour propager la contamination vers le haut."
 deDE = "Der Kostenmultiplikator für die Aufwärtsausbreitung von Kontamination. Spielstandard: 5, was bedeutet, dass es normalerweise 5-mal so viel kostet, Kontamination nach oben auszubreiten."
 plPL = "Mnożnik kosztów związany z rozprzestrzenianiem się zanieczyszczeń w górę. Domyślne ustawienie gry: 5, co oznacza, że zwykle kosztuje 5 razy więcej, aby rozprzestrzenić zanieczyszczenie w górę."
+ptBR = "O multiplicador de custo para a propagação ascendente da contaminação. Padrão do jogo: 5, o que significa que geralmente custa 5 vezes mais para propagar a contaminação para cima."

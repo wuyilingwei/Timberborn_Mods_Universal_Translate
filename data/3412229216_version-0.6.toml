@@ -8,6 +8,7 @@ jaJP = "すべて有効にする"
 frFR = "Activer tout"
 deDE = "Alles aktivieren"
 plPL = "Włącz wszystko"
+ptBR = "Ativar Todos"
 
 ["DAM.EnableAllDesc"]
 raw = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
@@ -19,6 +20,7 @@ jaJP = "終了時にすべてのモッドを有効にすることをチェック
 frFR = "Vérifiez pour activer tous les mods à la sortie. Un redémarrage est nécessaire et cela est automatiquement désélectionné."
 deDE = "Überprüfen, um alle Mods beim Verlassen zu aktivieren. Ein Neustart ist erforderlich und dies wird automatisch deaktiviert."
 plPL = "Zaznacz, aby włączyć wszystkie mody po wyjściu. Wymagana jest ponowna uruchamianie, a ta opcja jest automatycznie odznaczana."
+ptBR = "Marque para ativar todos os mods ao sair. Reinício necessário e isso é desmarcado automaticamente."
 
 ["DAM.DisableAll"]
 raw = "Disable All"
@@ -30,6 +32,7 @@ jaJP = "すべて無効にする"
 frFR = "Désactiver tout"
 deDE = "Alle Deaktivieren"
 plPL = "Wyłącz wszystko"
+ptBR = "Desativar tudo"
 
 ["DAM.DisableAllDesc"]
 raw = "Check to disable all mods upon exit. Restart required and this is automatically unchecked."
@@ -41,6 +44,7 @@ jaJP = "終了時にすべてのモッドを無効にするのを確認してく
 frFR = "Vérifiez pour désactiver tous les mods à la sortie. Un redémarrage est nécessaire et ceci est automatiquement décoché."
 deDE = "Überprüfen, um alle Mods beim Beenden zu deaktivieren. Ein Neustart ist erforderlich und dies ist automatisch deaktiviert."
 plPL = "Sprawdź, aby wyłączyć wszystkie mody po wyjściu. Wymagana jest ponowna instalacja, a to jest automatycznie odznaczone."
+ptBR = "Marque para desabilitar todos os mods ao sair. Reinício necessário e isso será desmarcado automaticamente."
 
 ["DAM.KeepEnabled"]
 raw = "Keep Enabled"
@@ -52,6 +56,7 @@ jaJP = "有効のままにする"
 frFR = "Gardez activé"
 deDE = "Aktivieren bleiben"
 plPL = "Zachowaj włączone"
+ptBR = "Mantenha Habilitado"
 
 ["DAM.KeepEnabledDesc"]
 raw = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
@@ -63,6 +68,7 @@ jaJP = "無効にするすべてがチェックされている場合に有効の
 frFR = "Liste d'IDs de mods séparés par des points-virgules ';' à conserver activés si \"Désactiver tout\" est sélectionné."
 deDE = "Halbgeviertel ';' getrennte Liste von Mod-ID(s), die aktiviert bleiben sollen, wenn \"Alle deaktivieren\" ausgewählt ist."
 plPL = "Lista identyfikatorów modów oddzielona średnikami ';', które należy zachować włączone, jeśli opcja Wyłącz wszystkie jest zaznaczona."
+ptBR = "Lista de IDs de mods separados por ponto e vírgula ';' a serem mantidos habilitados se a opção Desativar Todos estiver marcada."
 
 ["DAM.LoadProfile"]
 raw = "Load profile"
@@ -74,6 +80,7 @@ jaJP = "プロファイルを読み込む"
 frFR = "Charger le profil"
 deDE = "Profil laden"
 plPL = "Załaduj profil"
+ptBR = "Carregar perfil"
 
 ["DAM.LoadProfileDesc"]
 raw = "Enable mods with ids from the 'mods.txt' file. It should be in the mod's folder."
@@ -85,6 +92,7 @@ jaJP = "'mods.txt'ファイルからIDを持つMODを有効にしてください
 frFR = "Activez les mods avec les identifiants du fichier 'mods.txt'. Il doit se trouver dans le dossier du mod."
 deDE = "Aktivieren Sie Mods mit IDs aus der Datei 'mods.txt'. Diese sollte im Mod-Ordner liegen."
 plPL = "Włącz mody o identyfikatorach z pliku 'mods.txt'. Powinien on znajdować się w folderze moda."
+ptBR = "Ative os mods com os IDs do arquivo 'mods.txt'. Ele deve estar na pasta do mod."
 
 ["DAM.SaveProfile"]
 raw = "Save profile"
@@ -96,6 +104,7 @@ jaJP = "プロフィールを保存する"
 frFR = "Enregistrer le profil"
 deDE = "Profil speichern"
 plPL = "Zapisz profil"
+ptBR = "Salvar perfil"
 
 ["DAM.SaveProfileDesc"]
 raw = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
@@ -107,6 +116,7 @@ jaJP = "有効なモッドを'mods.txt'ファイルに保存します。モッ�
 frFR = "Enregistrez les mods activés dans le fichier 'mods.txt'. Il sera dans le dossier du mod."
 deDE = "Aktivierte Mods in die Datei 'mods.txt' speichern. Sie befindet sich im Mod-Ordner."
 plPL = "Zapisz włączone mody do pliku 'mods.txt'. Będzie on w folderze moda."
+ptBR = "Salve os mods ativados no arquivo 'mods.txt'. Ele estará na pasta do mod."
 
 ["DAM.ViewProfileFolder"]
 raw = "View profile folder"
@@ -118,6 +128,7 @@ jaJP = "プロフィールフォルダーを表示する"
 frFR = "Voir le dossier de profil"
 deDE = "Profilordner anzeigen"
 plPL = "Zobacz folder profilu"
+ptBR = "Ver pasta do perfil"
 
 ["DAM.ViewProfileFolderDesc"]
 raw = "Open the folder where the 'mods.txt' file is located."
@@ -129,6 +140,7 @@ jaJP = "'mods.txt'ファイルがあるフォルダーを開いてください�
 frFR = "Ouvrez le dossier où se trouve le fichier 'mods.txt'."
 deDE = "Öffnen Sie den Ordner, in dem sich die Datei 'mods.txt' befindet."
 plPL = "Otwórz folder, w którym znajduje się plik 'mods.txt'."
+ptBR = "Abra a pasta onde o arquivo 'mods.txt' está localizado."
 
 ["DAM.RestartGame"]
 raw = "OK & Restart the game"
@@ -140,3 +152,4 @@ jaJP = "OK & ゲームを再開します"
 frFR = "D'accord et redémarrer le jeu"
 deDE = "OK und das Spiel neu starten"
 plPL = "OK i zrestartuj grę"
+ptBR = "OK e reiniciar o jogo"

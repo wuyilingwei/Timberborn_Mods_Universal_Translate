@@ -8,6 +8,7 @@ jaJP = "有効化されました"
 frFR = "Activé"
 deDE = "Aktiviert"
 plPL = "Włączony"
+ptBR = "Habilitado"
 
 ["LV.SE.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -19,6 +20,7 @@ jaJP = "このモッドが有効かどうか。"
 frFR = "Que ce mod soit activé."
 deDE = "Ob dieses Mod aktiviert ist."
 plPL = "Czy ten mod jest włączony."
+ptBR = "Se este mod está ativado."
 
 ["LV.SE.SaveFrequency"]
 raw = "Auto-save frequency (days)"
@@ -30,6 +32,7 @@ jaJP = "自動保存の頻度（日数）"
 frFR = "Fréquence de sauvegarde automatique (jours)"
 deDE = "Auto-Speicherungshäufigkeit (Tage)"
 plPL = "Częstotliwość automatycznego zapisywania (dni)"
+ptBR = "Frequência de salvamento automático (dias)"
 
 ["LV.SE.SaveFrequencyDesc"]
 raw = "How often this mod should auto-save."
@@ -41,6 +44,7 @@ jaJP = "このモッドはどのくらいの頻度で自動保存されるべき
 frFR = "À quelle fréquence ce mod doit-il sauvegarder automatiquement ?"
 deDE = "Wie oft diese Mod automatisch speichern sollte."
 plPL = "Jak często ten mod powinien automatycznie zapisywać."
+ptBR = "Com que frequência este mod deve salvar automaticamente."
 
 ["LV.SE.SaveCount"]
 raw = "Auto-save count"
@@ -52,6 +56,7 @@ jaJP = "自動保存カウント"
 frFR = "Nombre de sauvegardes automatiques"
 deDE = "Auto-Speichern-Zählung"
 plPL = "Liczba automatycznych zapisów"
+ptBR = "Contagem de salvamentos automáticos"
 
 ["LV.SE.SaveCountDesc"]
 raw = "How many auto-saves should be kept."
@@ -63,6 +68,7 @@ jaJP = "自動保存はどのくらい保持するべきですか。"
 frFR = "Combien de sauvegardes automatiques doivent être conservées ?"
 deDE = "Wie viele automatische Sicherungen sollten aufbewahrt werden?"
 plPL = "Ile auto-zapisy powinno być przechowywanych?"
+ptBR = "Quantas salvamentos automáticos devem ser mantidos?"
 
 ["LV.SE.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -74,6 +80,7 @@ jaJP = "天候警報に関する追加の保存"
 frFR = "Économie supplémentaire sur l'alerte météo"
 deDE = "Zusätzliche Einsparungen bei Wetterwarnungen"
 plPL = "Dodatkowa oszczędność na ostrzeżeniu pogodowym"
+ptBR = "Economia extra em aviso de tempo."
 
 ["LV.SE.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -85,6 +92,7 @@ jaJP = "気象警報が発令されたときは、「weatherwarning.save」と�
 frFR = "Lorsque qu'un avertissement météo est émis, créez une sauvegarde supplémentaire nommée 'weatherwarning.save' qui n'est écrasée que par l'avertissement du cycle suivant. Cette sauvegarde n'est pas prise en compte dans le nombre de sauvegardes."
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie ein zusätzliches Save mit dem Namen 'weatherwarning.save', das nur von der nächsten Warnung des Zyklus überschrieben wird. Dieses Save zählt nicht zur Anzahl der Saves."
 plPL = "Gdy wydany zostaje alert pogodowy, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej rundy. To zapisanie nie jest zaliczane do liczby zapisów."
+ptBR = "Quando um aviso meteorológico é emitido, crie uma salvaguarda extra chamada 'weatherwarning.save' que só será sobrescrita pelo aviso do próximo ciclo. Essa salvaguarda não conta para a contagem de salvamentos."
 
 ["LV.SE.AutosaveWarning"]
 raw = "Warn before autosave"
@@ -96,6 +104,7 @@ jaJP = "自動保存前に警告する"
 frFR = "Avertir avant l'enregistrement automatique"
 deDE = "Vor dem automatischen Speichern warnen"
 plPL = "Ostrzeż przed automatycznym zapisywaniem"
+ptBR = "Avisar antes de salvamento automático"
 
 ["LV.SE.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
@@ -107,6 +116,7 @@ jaJP = "ゲームが自動保存する前に警告を表示します。これは
 frFR = "Affichez un avertissement un certain temps avant que le jeu ne sauvegarde automatiquement. Cela est utile pour les joueurs qui n'aiment pas le ralentissement du jeu lors de la sauvegarde automatique."
 deDE = "Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speichert. Dies ist nützlich für Spieler, die Spielruckler beim automatischen Speichern nicht mögen."
 plPL = "Pokaż ostrzeżenie chwilę przed automatycznym zapisem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć w grze podczas automatycznego zapisywania."
+ptBR = "Mostre um aviso algum tempo antes do jogo fazer o salvamento automático. Isso é útil para jogadores que não gostam de travamentos no jogo durante o salvamento automático."
 
 ["LV.SE.AutosaveWarningText"]
 raw = "Autosave imminent in {0} game hours!"
@@ -118,6 +128,7 @@ jaJP = "{0} ゲーム時間後に自動保存が近づいています！"
 frFR = "Sauvegarde automatique imminente dans {0} heures de jeu !"
 deDE = "Auto-Speicherung steht in {0} Spielstunden bevor!"
 plPL = "Automatyczne zapisywanie wkrótce w {0} godzinach gry!"
+ptBR = "Autossalvamento iminente em {0} horas de jogo!"
 
 ["LV.SE.AutosaveDoneText"]
 raw = "Game autosaved (Save Everyday)!"
@@ -129,3 +140,4 @@ jaJP = "ゲームが自動保存されました（毎日保存）！"
 frFR = "Jeu sauvegardé automatiquement (Sauvegarder chaque jour) !"
 deDE = "Spiel automatisch gespeichert (Jeden Tag speichern)!"
 plPL = "Gra automatycznie zapisano (Zapisz codziennie)!"
+ptBR = "Jogo salvo automaticamente (Salvar Todo Dia)!"
