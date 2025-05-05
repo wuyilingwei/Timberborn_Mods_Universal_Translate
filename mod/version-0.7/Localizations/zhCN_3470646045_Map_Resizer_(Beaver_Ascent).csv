@@ -1,14 +1,14 @@
 ID,Text,Comment
 LV.MRe.ResizeMap,调整地图大小,-
-LV.MRe.Size0,宽度 (X),-
-LV.MRe.Size1,深度 (Y),-
+LV.MRe.Size0,地图长度 (X),-
+LV.MRe.Size1,地图宽度 (Y),-
 LV.MRe.Size2,最大地形高度 (Z1),-
-LV.MRe.Size3,最大高于地面 (Z1+),-
+LV.MRe.Size3,最大地上高度 (Z1+),-
 LV.MRe.Resize,调整大小,-
-LV.MRe.ExandStrat,扩展战略,-
+LV.MRe.ExandStrat,地图扩张策略,-
 LV.MRe.ExandStratCopy,复制边缘,-
-LV.MRe.ExandStratMirror,镜子,-
-LV.MRe.OfferToLoad,已保存调整大小的地图。您想加载该保存吗？注意：继续这个会话可能会导致游戏崩溃。,-
-LV.MRe.ResizeInvalidObj,在缩小地图之前，请删除地图外的所有物体，以防止崩溃。,-
-LV.MRe.AutoRemove,全部删除。,-
-LV.MRe.SaveWarning,<RedHighlight>在调整地图大小之前，请记得保存游戏！调整大小后，此游戏会话可能无法再使用。您还应在使用此功能之前暂停游戏。</RedHighlight>,-
+LV.MRe.ExandStratMirror,镜像对称,-
+LV.MRe.OfferToLoad,已将调整大小后的地图保存为新存档，是否需要加载此存档？注意，如果继续当前游戏进程，可能会导致游戏崩溃。,-
+LV.MRe.ResizeInvalidObj,检测到将被缩减的地图部分上存在物体，是否需要删除物体？注意，如果不删除，调整地图大小时可能会导致游戏崩溃。,-
+LV.MRe.AutoRemove,是,-
+LV.MRe.SaveWarning,<color=#FF0000>注意，调整地图大小前，请暂停并保存游戏。调整地图大小后，可能无法继续当前游戏进程。</color>,-
