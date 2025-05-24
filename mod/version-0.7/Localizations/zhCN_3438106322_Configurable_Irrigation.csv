@@ -3,13 +3,13 @@ LV.CI.MinimumWaterContamination,污染程度阈值-灌溉降低,-
 LV.CI.MinimumWaterContaminationDesc,水的灌溉距离开始受影响的污染程度阈值（游戏默认：0.01，即污染程度高于1%时灌溉距离会受污染程度影响）。,-
 LV.CI.MaximumWaterContamination,污染程度阈值-灌溉失效,-
 LV.CI.MaximumWaterContaminationDesc,水的灌溉距离被降低至零的污染程度阈值（游戏默认：0.53，即污染程度高于53%时完全无法灌溉）。,-
-LV.CI.VerticalSpreadCostMultiplier,灌溉垂直传播乘数,-
-LV.CI.VerticalSpreadCostMultiplierDesc,灌溉向上传播的代价乘数（游戏默认：6，即灌溉距离向上传播1格等于水平传播6格）。<br>请注意，向下传播不受此乘数影响。,-
+LV.CI.VerticalSpreadCostMultiplier,灌溉垂直传播倍数,-
+LV.CI.VerticalSpreadCostMultiplierDesc,灌溉向上传播的代价倍数（游戏默认：6，即灌溉距离向上传播1格等于水平传播6格）。<br>请注意，向下传播不受此倍数影响。,-
 LV.CI.MaxSpread,灌溉最大传播距离,-
 LV.CI.MaxSpreadDesc,水的最大灌溉距离（游戏默认：16，即3x3面积的水的水平灌溉距离最远为16格）。,-
 LV.CI.ContaMinimumWaterContamination,污染程度阈值-污染生效,-
 LV.CI.ContaMinimumWaterContaminationDesc,水的污染距离开始生效的污染程度阈值（游戏默认：0.5，即污染程度高于50%时开始污染土地）。,-
 LV.CI.ContaMaxSpread,污染最大传播距离,-
 LV.CI.ContaMaxSpreadDesc,水的最大污染距离（游戏默认：7，即任意面积的水的水平污染距离最远为7格）。,-
-LV.CI.ContaVerticalSpreadCostMultiplier,污染垂直传播乘数,-
-LV.CI.ContaVerticalSpreadCostMultiplierDesc,污染向上传播的代价乘数。（游戏默认：5，即污染向上传播1格等于水平传播5格）。<br>请注意，向下传播不受此乘数影响。,-
+LV.CI.ContaVerticalSpreadCostMultiplier,污染垂直传播倍数,-
+LV.CI.ContaVerticalSpreadCostMultiplierDesc,污染向上传播的代价倍数。（游戏默认：5，即污染向上传播1格等于水平传播5格）。<br>请注意，向下传播不受此倍数影响。,-

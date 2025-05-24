@@ -25,7 +25,7 @@ ptBR = "Carregar automaticamente o último jogo salvo (como clicar no botão Con
 ["LV.QS.AutoContinueShiftToCancel"]
 raw = "  Hold Shift to cancel instead"
 enUS = "Hold Shift to cancel instead."
-zhCN = "按住Shift取消加载"
+zhCN = "  改为按住Shift取消加载"
 zhTW = "按住 Shift 鍵以取消操作"
 ruRU = "Удерживайте Shift, чтобы отменить вместо этого."
 jaJP = "Shiftを押してキャンセルする代わりに。"
@@ -45,3 +45,33 @@ frFR = "Charge toujours la dernière partie sauvegardée à moins que vous ne ma
 deDE = "Lade immer das zuletzt gespeicherte Spiel, es sei denn, du hältst die Shift-Taste während des Spielstarts gedrückt."
 plPL = "Zawsze ładuj ostatnio zapisany stan gry, chyba że przytrzymasz klawisz Shift podczas uruchamiania gry."
 ptBR = "Sempre carregue o último jogo salvo, a menos que você mantenha a tecla Shift pressionada durante o início do jogo."
+
+["LV.QS.AutoLoadMap"]
+raw = "  Auto load Map Editor instead"
+enUS = "  Auto load Map Editor instead"
+zhCN = "  改为自动加载地图编辑器"
+
+["LV.QS.AutoLoadMapDesc"]
+raw = "Automatically load the Map Editor when starting the game, like a Continue button but for Map Editor"
+enUS = "Automatically load the Map Editor when starting the game, like a Continue button but for Map Editor"
+zhCN = "勾选后，在游戏启动时按住Shift键，会自动加载地图编辑器。"
+
+["LV.QS.PromptContinue"]
+raw = "Press Shift to auto Continue"
+enUS = "Press Shift to auto Continue"
+zhCN = "按下Shift键自动加载游戏"
+
+["LV.QS.PromptLoadMap"]
+raw = "Press Shift to auto load Map Editor"
+enUS = "Press Shift to auto load Map Editor"
+zhCN = "按下Shift键自动加载地图编辑器"
+
+["LV.QS.PromptCancelContinue"]
+raw = "Press Shift to cancel auto Continue"
+enUS = "Press Shift to cancel auto Continue"
+zhCN = "按下Shift键取消自动加载游戏"
+
+["LV.QS.PromptCancelLoadMap"]
+raw = "Press Shift to cancel auto load Map Editor"
+enUS = "Press Shift to cancel auto load Map Editor"
+zhCN = "按下Shift键取消自动加载地图编辑器"

@@ -145,7 +145,7 @@ ptBR = "A velocidade base reduzida dos bots (Padrão do jogo: 1,5)"
 ["CBW.CarryingWeightMultiplier"]
 raw = "Carrying weight multiplier"
 enUS = "Carrying weight multiplier"
-zhCN = "承载重量系数"
+zhCN = "承载重量倍数"
 zhTW = "攜帶重量乘數"
 ruRU = "Множитель веса при переноске"
 jaJP = "荷重乗数"
@@ -165,3 +165,23 @@ frFR = "Le multiplicateur pour le poids de portage maximum des castors et des bo
 deDE = "Der Multiplikator für das maximale Traggewicht von Bibern und Robotern (Spielstandard: 1). Hinweis: Tritt erst in Kraft, nachdem ein Speicherstand neu geladen wurde."
 plPL = "Mnożnik maksymalnej wagi przenoszonej przez bobry i roboty (domyślna wartość gry: 1). Uwaga: nie będzie miał wpływu do czasu załadowania zapisu."
 ptBR = "O multiplicador para o peso máximo de carga de castores e bots (Padrão do jogo: 1). Nota: não tem efeito até carregar um salvamento."
+
+["CBW.WorkSpeedMultiplier"]
+raw = "Work speed multiplier"
+enUS = "Work speed multiplier"
+zhCN = "工作速度倍数"
+
+["CBW.WorkSpeedMultiplierDesc"]
+raw = "The multiplier for work speed of beavers (Game default: 1)."
+enUS = "The multiplier for work speed of beavers (Game default: 1)."
+zhCN = "可以将海狸的工作速度更改为原本的N倍（游戏默认：1）。"
+
+["CBW.BotWorkSpeedMultiplier"]
+raw = "Bot work speed multiplier"
+enUS = "Bot work speed multiplier"
+zhCN = "机关人工作速度倍数"
+
+["CBW.BotWorkSpeedMultiplierDesc"]
+raw = "The multiplier for work speed of bots (Game default: 1)."
+enUS = "The multiplier for work speed of bots (Game default: 1)."
+zhCN = "可以将机关人的工作速度更改为原本的N倍（游戏默认：1）。"

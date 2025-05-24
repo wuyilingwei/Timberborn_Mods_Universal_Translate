@@ -1,15 +1,3 @@
-["LV.T4Mods.LegacyWarning"]
-raw = "You have \"Toggle All Mods & Profiles\" mods enabled. You should disable and/or unsubscribe that mod as \"TImprove 4 Mods\" has all the features and is getting updated"
-enUS = "You have \"Toggle All Mods & Profiles\" mods enabled. You should disable and/or unsubscribe from that mod as \"TImprove 4 Mods\" has all the features and is being updated."
-zhCN = "检测到已启用模组“Toggle All Mods & Profiles”，建议禁用或取消订阅此模组，因为新的模组“TImprove 4 Mods”已包含所有功能。"
-zhTW = "您已啟用「切換所有模組和配置」的模組。您應該禁用和/或取消訂閱該模組，因為「TImprove 4 Mods」具備所有功能並且正在更新中。"
-ruRU = "У вас включены моды \"Переключить все моды и профили\". Вы должны отключить и/или отписаться от этого мода, так как \"TImprove 4 Mods\" имеет все функции и регулярно обновляется."
-jaJP = "「すべてのモッドとプロファイルを切り替え」モッドが有効になっています。このモッドを無効にするか、購読を解除してください。「TImprove 4 Mods」にはすべての機能が含まれており、更新されています。"
-frFR = "Vous avez le mod \"Activer tous les mods et profils\" activé. Vous devriez désactiver et/ou vous désabonner de ce mod, car \"TImprove 4 Mods\" possède toutes les fonctionnalités et est en cours de mise à jour."
-deDE = "Sie haben die \"Alle Mods & Profile umschalten\" Mods aktiviert. Sie sollten diesen Mod deaktivieren und/oder davon abmelden, da \"TImprove 4 Mods\" alle Funktionen hat und aktualisiert wird."
-plPL = "Masz włączone mody \"Przełącz wszystkie mody i profile\". Powinieneś wyłączyć i/lub wypisać się z tego moda, ponieważ \"TImprove 4 Mods\" ma wszystkie funkcje i jest aktualizowany."
-ptBR = "Você tem o mod \"Alternar Todos os Mods e Perfis\" ativado. Você deve desabilitar e/ou cancelar a assinatura desse mod, pois o \"TImprove 4 Mods\" possui todos os recursos e está sendo atualizado."
-
 ["LV.T4Mods.EnableAll"]
 raw = "Enable All"
 enUS = "Enable All"
@@ -117,3 +105,53 @@ frFR = "Désactivé"
 deDE = "Behindert"
 plPL = "Niepełnosprawny"
 ptBR = "Desativado"
+
+["LV.T4Mods.CheckForIssue"]
+raw = "Check for issues"
+enUS = "Check for issues"
+zhCN = "排查模组问题"
+
+["LV.T4Mods.NoIssue"]
+raw = "No issue found for your enabled mod list"
+enUS = "No issue found for your enabled mod list"
+zhCN = "当前启用的模组列表未发现问题。"
+
+["LV.T4Mods.IssueObsolete"]
+raw = "The mod {0} is obsolete and should be removed."
+enUS = "The mod {0} is obsolete and should be removed."
+zhCN = "模组 {0} 已过时，建议移除。"
+
+["LV.T4Mods.IssueObsoleteWRep"]
+raw = "The mod {0} is obsolete and should be removed. Use {1} instead."
+enUS = "The mod {0} is obsolete and should be removed. Use {1} instead."
+zhCN = "模组 {0} 已过时，建议移除，可以使用 {1} 替代。"
+
+["LV.T4Mods.IssueObsoleteWRepUrl"]
+raw = "The mod {0} is obsolete and should be removed. Use {1} instead. Do you want to open the mod's page?"
+enUS = "The mod {0} is obsolete and should be removed. Use {1} instead. Do you want to open the mod's page?"
+zhCN = "模组 {0} 已过时，建议移除，可以使用 {1} 替代。是否要打开模组页面？"
+
+["LV.T4Mods.IssueIncomp"]
+raw = "The mod {0} is incompatible with {1}. Reason: {2}."
+enUS = "The mod {0} is incompatible with {1}. Reason: {2}."
+zhCN = "模组 {0} 与 {1} 不兼容。原因：{2}。"
+
+["LV.T4Mods.IncompReasonUnknown"]
+raw = "Unknown"
+enUS = "Unknown"
+zhCN = "未知原因"
+
+["LV.T4Mods.IncompReasonReplace"]
+raw = "Newer mod replaces it"
+enUS = "Newer mod replaces it"
+zhCN = "新版模组已替代"
+
+["LV.T4Mods.IncompReasonConflict"]
+raw = "Conflicts with one another"
+enUS = "Conflicts with one another"
+zhCN = "相互冲突"
+
+["LV.T4Mods.AuthorNote"]
+raw = "The mod author's note: {0}"
+enUS = "The mod author's note: {0}"
+zhCN = "模组作者说明：{0}"

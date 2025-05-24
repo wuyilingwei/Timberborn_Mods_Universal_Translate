@@ -37,7 +37,7 @@ ptBR = "Remover Destaque do Caminho"
 ["LV.T4UI.RemovePathHighlightDesc"]
 raw = "Paths are no longer highlighted when you select a building. You can still see it when selecting a path"
 enUS = "Paths are no longer highlighted when you select a building. You can still see them when selecting a path."
-zhCN = "勾选后，点击建筑时不再在道路上显示路径线，但点击道路时仍会显示。"
+zhCN = "勾选后，选中一个建筑时，不再在道路上显示路径线，但选中道路时仍会显示。"
 zhTW = "當你選擇一棟建築時，路徑不再被高亮顯示。但是在選擇路徑時仍然可以看到它。"
 ruRU = "Дороги больше не выделяются, когда вы выбираете здание. Вы все еще можете их видеть, выбирая путь."
 jaJP = "建物を選択したときにパスがハイライト表示されなくなりました。パスを選択すると、まだ見ることができます。"
@@ -61,7 +61,7 @@ ptBR = "Rede de Energia Destacada"
 ["LV.T4UI.HighlightPowerNetworkDesc"]
 raw = "When you select a building, the power network it is connected to will be highlighted."
 enUS = "When you select a building, the power network it is connected to will be highlighted."
-zhCN = "勾选后，点击建筑时会高亮处于同一传动网络中的所有建筑，而不是仅高亮相邻建筑。"
+zhCN = "勾选后，选中一个建筑时，会高亮处于同一传动网络中的所有建筑，而不是仅高亮相邻建筑。"
 zhTW = "當你選擇一棟建築時，與之相連的電力網絡將被標示出來。"
 ruRU = "Когда вы выбираете здание, электроэнергетическая сеть, к которой оно подключено, будет выделена."
 jaJP = "建物を選択すると、それに接続されている電力ネットワークが強調表示されます。"
@@ -177,3 +177,33 @@ frFR = "Ne cachez jamais les compteurs de matériaux déverrouillés même lorsq
 deDE = "Verstecke niemals die Zähler für freigeschaltete Materialien, selbst wenn du 0 von diesem Material hast."
 plPL = "Nigdy nie ukrywaj liczników odblokowanych materiałów, nawet jeśli masz 0 tego materiału."
 ptBR = "Nunca esconda os contadores de materiais desbloqueados, mesmo quando você tiver 0 desse material."
+
+["LV.T4UI.HighlightSimilar"]
+raw = "Highlight similar objects"
+enUS = "Highlight similar objects"
+zhCN = "高亮同类对象"
+
+["LV.T4UI.HighlightSimilarDesc"]
+raw = "When you select an object, all objects of the same type will be highlighted."
+enUS = "When you select an object, all objects of the same type will be highlighted."
+zhCN = "勾选后，选中一个对象时，所有同类对象都会被高亮显示。"
+
+["LV.T4UI.HighlightSimilarColor"]
+raw = "Highlight similar objects color"
+enUS = "Highlight similar objects color"
+zhCN = "同类对象高亮颜色"
+
+["LV.T4UI.HighlightSimilarColorDesc"]
+raw = "Color of the highlight for similar objects."
+enUS = "Color of the highlight for similar objects."
+zhCN = "同类对象的高亮显示颜色。"
+
+["LV.T4UI.HighlightTubeway"]  
+raw = "Highlight Tubeway path"  
+enUS = "Highlight Tubeway path"  
+zhCN = "高亮管路系统"  
+
+["LV.T4UI.HighlightTubewayDesc"]  
+raw = "Highlight all the connected Tubeways when you select a Tubeway."  
+enUS = "Highlight all the connected Tubeways when you select a Tubeway."  
+zhCN = "勾选后，选中一个管路或管路站时，还会高亮处于同一管路系统中的所有建筑。"

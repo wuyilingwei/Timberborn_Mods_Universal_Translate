@@ -1,7 +1,7 @@
 ["CG.TreeGrowthRate"]
 raw = "Tree growth rate"
 enUS = "Tree growth rate"
-zhCN = "树木成长速度乘数"
+zhCN = "树木成长速度倍数"
 zhTW = "樹木生長速度"
 ruRU = "Скорость роста деревьев"
 jaJP = "樹木の成長率"
@@ -25,7 +25,7 @@ ptBR = "Multiplicador para o tempo de crescimento das árvores como Pinheiros ou
 ["CG.CropGrowthRate"]
 raw = "Crop growth rate"
 enUS = "Crop growth rate"
-zhCN = "作物成长速度乘数"
+zhCN = "作物成长速度倍数"
 zhTW = "作物生長率"
 ruRU = "Темп роста урожая"
 jaJP = "作物成長率"
@@ -49,7 +49,7 @@ ptBR = "Multiplicador para o tempo de crescimento de culturas como cenouras ou b
 ["CG.GatherableGrowthRate"]
 raw = "Product growth rate"
 enUS = "Product growth rate"
-zhCN = "产物成长速度乘数"
+zhCN = "产物成长速度倍数"
 zhTW = "產品成長率"
 ruRU = "Темп роста продукта"
 jaJP = "製品成長率"
@@ -73,7 +73,7 @@ ptBR = "Multiplicador para o tempo de crescimento de produtos como Resina de Pin
 ["CG.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
 enUS = "Reproducible chance multiplier"
-zhCN = "蔓延几率乘数"
+zhCN = "蔓延概率倍数"
 zhTW = "可重複的機會乘數"
 ruRU = "Воспроизводимый множитель шанса"
 jaJP = "再現可能なチャンスマルチプライヤー"
@@ -85,7 +85,7 @@ ptBR = "Multiplicador de chance reproduzível"
 ["CG.ReproducibleChanceMultiplierDesc"]
 raw = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depends on the kind. Setting this to 1 to keep the game's setting and 0 means no reproduction."
 enUS = "Make trees more or less likely to reproduce. Each tree has a 1-3% chance to reproduce every hour, depending on the type. Setting this to 1 maintains the game's settings, while 0 means no reproduction."
-zhCN = "可以将树木的蔓延几率更改为原来的N倍（游戏默认：1，即每小时有1-3%的几率蔓延至相邻方格，具体几率由树木种类决定）。"
+zhCN = "可以将树木的蔓延概率更改为原来的N倍（游戏默认：1，即每小时有1-3%的概率蔓延至相邻方格，具体概率由树木种类决定）。"
 zhTW = "讓樹的繁殖機率增減。每棵樹每小時有1%-3%的機率繁殖，具體取決於樹的種類。將此設置為1以保持遊戲的設定，設置為0則表示不會繁殖。"
 ruRU = "Сделайте деревья более или менее склонными к размножению. Каждое дерево каждый час имеет 1-3% шанс на размножение в зависимости от вида. Установка этого значения на 1 сохраняет настройки игры, а 0 означает отсутствие размножения."
 jaJP = "木が繁殖する可能性を増減させます。各木は、種類に応じて毎時1〜3%の確率で繁殖します。これを1に設定するとゲームの設定を維持し、0は繁殖が行われないことを意味します。"
