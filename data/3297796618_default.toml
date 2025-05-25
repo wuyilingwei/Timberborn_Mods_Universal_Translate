@@ -128,7 +128,7 @@ zhCN = "所有物体"
 ["TerrainTools.Heightmap.Status.Idle"]  
 raw = "Idle"  
 enUS = "Idle"  
-zhCN = "空闲中"  
+zhCN = "等待生成"  
 
 ["TerrainTools.Heightmap.Status.Generating"]  
 raw = "Generating"  
@@ -148,17 +148,17 @@ zhCN = "锁定"
 ["TerrainTools.Heightmap.Slider.LOD"]  
 raw = "Level of detail"  
 enUS = "Level of detail"  
-zhCN = "细节级别"  
+zhCN = "细节 (微地形)"  
 
 ["TerrainTools.Heightmap.Slider.Amplitude"]  
 raw = "Amplitude"  
 enUS = "Amplitude"  
-zhCN = "振幅"  
+zhCN = "振幅 (陡峭程度)"  
 
 ["TerrainTools.Heightmap.Slider.Frequency"]  
 raw = "Frequency"  
 enUS = "Frequency"  
-zhCN = "频率"  
+zhCN = "频率 (山丘数量)"  
 
 ["TerrainTools.Heightmap.Slider.Crest"]  
 raw = "Crest shape"  
@@ -168,7 +168,7 @@ zhCN = "峰顶形状"
 ["TerrainTools.Heightmap.Slider.Base"]  
 raw = "Base shape"  
 enUS = "Base shape"  
-zhCN = "基底形状"  
+zhCN = "峰底形状"  
 
 ["TerrainTools.Heightmap.Slider.Mean"]  
 raw = "Mean height"  
@@ -188,12 +188,12 @@ zhCN = "最大高度"
 ["TerrainTools.Heightmap.Slider.PeriodX"]  
 raw = "Period X"  
 enUS = "Period X"  
-zhCN = "X轴周期"  
+zhCN = "噪声X轴周期"  
 
 ["TerrainTools.Heightmap.Slider.PeriodY"]  
 raw = "Period Y"  
 enUS = "Period Y"  
-zhCN = "Y轴周期"  
+zhCN = "噪声Y轴周期"  
 
 ["TerrainTools.PathPainter.Tool.Title"]  
 raw = "Path Painter"  
