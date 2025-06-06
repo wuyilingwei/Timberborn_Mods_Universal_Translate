@@ -407,28 +407,29 @@ plPL = "Zwiększ obszar przeciągania budowli, takich jak tamy (domyślnie 10x10
 ptBR = "Aumente a área de arrasto de construção para edifícios como Barragens (padrão 10x10) ou Estradas (25). Isso aumenta significativamente o tempo de carregamento e o uso de memória, então use com cautela. Exemplo: definir isso para 5 fará com que a área de arrasto seja 15x15 Barragens ou 30 Estradas. Pode ser alterado apenas no Menu Principal."
 
 ["LV.TI.AutoClearDeadTrees"]
-raw = "Clear dead trees immediately"
-enUS = "Clear dead trees immediately."
-zhCN = "立即清除枯树"
-zhTW = "立即清除枯死的樹木"
-ruRU = "Немедленно уберите мертвые деревья."
-jaJP = "枯れた木をすぐに取り除いてください"
-frFR = "Enlevez immédiatement les arbres morts."
-deDE = "Fallen Bäume sofort entfernen"
-plPL = "Natychmiast usuń martwe drzewa."
-ptBR = "Remova árvores mortas imediatamente."
+raw = "Clear dead stumps"
+enUS = "Clear dead stumps"
+zhCN = "清除枯树"
 
 ["LV.TI.AutoClearDeadTreesDesc"]
-raw = "When using the 'Mark Resources for Demolition' tool, automatically clear dead trees immediately without beavers (as if you are building stuff on it)"
-enUS = "When using the 'Mark Resources for Demolition' tool, automatically clear dead trees immediately without beavers (as if you are building on them)."
-zhCN = "勾选后，使用“标记资源以拆除”工具时会直接清除枯树，无需海狸操作。"
-zhTW = "使用「標記資源以進行拆除」工具時，立即自動清除沒有海狸的枯死樹木（就像在其上建造物品一樣）。"
-ruRU = "При использовании инструмента «Пометить ресурсы на снос» автоматически сносите мертвые деревья сразу, без бобров (как если бы вы строили что-то на этом)."
-jaJP = "「資源を解体のためにマークする」ツールを使用する際、ビーバーなしで枯れた木を即座に自動的に撤去します（まるでその上に建物を建てるかのように）。"
-frFR = "Lors de l'utilisation de l'outil 'Marquer les ressources pour démolition', supprimer automatiquement les arbres morts immédiatement sans castors (comme si vous construisiez des choses dessus)."
-deDE = "Beim Verwenden des Werkzeugs „Ressourcen zur Abrissmarkierung“ sofort abgestorbene Bäume automatisch ohne Biber entfernen (als ob Sie darauf bauen würden)."
-plPL = "Kiedy używasz narzędzia 'Oznacz zasoby do wyburzenia', automatycznie usuń martwe drzewa natychmiast, bez bobrów (jakbyś budował na tym)."
-ptBR = "Ao usar a ferramenta 'Marcar Recursos para Demolição', limpe automaticamente árvores mortas imediatamente, sem castores (como se você estivesse construindo coisas sobre elas)."
+raw = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
+enUS = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
+zhCN = "可以设置是否自动清除已死亡的植物。<br>- 默认：不自动清除<br>- 工具：仅在使用标注拆除工具时清除<br>- 自动：出现时自动清除"
+
+["LV.TI.AutoClearDeadTreesNo"]
+raw = "No"
+enUS = "No"
+zhCN = "默认"
+
+["LV.TI.AutoClearDeadTreesTool"]
+raw = "Tool"
+enUS = "Tool"
+zhCN = "工具"
+
+["LV.TI.AutoClearDeadTreesAuto"]
+raw = "Auto"
+enUS = "Auto"
+zhCN = "自动"
 
 ["LV.TI.AddRealTimeClock"]
 raw = "Add real-time clock"
@@ -453,3 +454,58 @@ frFR = "Ajoutez une horloge en temps réel dans le coin supérieur droit. C'est 
 deDE = "Fügen Sie eine Echtzeituhr oben rechts ein. Dies ist nützlich für Spieler, die die Zeit beim Spielen im Auge behalten möchten."
 plPL = "Dodaj zegar czasu rzeczywistego w prawym górnym rogu. Jest to przydatne dla graczy, którzy chcą śledzić czas podczas gry."
 ptBR = "Adicione um relógio em tempo real no canto superior direito. Isso é útil para os jogadores que querem acompanhar o tempo enquanto jogam."
+
+["LV.TI.DisableShadowRotation"]
+raw = "Disable shadow rotation"
+enUS = "Disable shadow rotation"
+zhCN = "禁用阴影旋转"
+
+["LV.TI.DisableShadowRotationDesc"]
+raw = "This will make shadows static and not rotate with the sun."
+enUS = "This will make shadows static and not rotate with the sun."
+zhCN = "勾选后，将保持当前的阴影方向，不再随光照变化。"
+
+["LV.TI.NewDayAction"]
+raw = "On new day"
+enUS = "On new day"
+zhCN = "日操作"
+
+["LV.TI.NewDayActionDesc"]
+raw = "Choose what to do on a new day:\n- None: do nothing\n- Pause: pause the game\n- Speed 1: set the game speed to 1x"
+enUS = "Choose what to do on a new day:\n- None: do nothing\n- Pause: pause the game\n- Speed 1: set the game speed to 1x"
+zhCN = "可以设置一天开始时是否执行操作。<br>- 默认：不执行任何操作<br>- 暂停：暂停游戏<br>- 速度1：将游戏速度设置为1倍速度"
+
+["LV.TI.NewDayActionNone"]
+raw = "None"
+enUS = "None"
+zhCN = "默认"
+
+["LV.TI.NewDayActionPause"]
+raw = "Pause"
+enUS = "Pause"
+zhCN = "暂停"
+
+["LV.TI.NewDayActionSpeed1"]
+raw = "Speed 1"
+enUS = "Speed 1"
+zhCN = "速度1"
+
+["LV.TI.NewDayAll"]
+raw = "Every day"
+enUS = "Every day"
+zhCN = "每天"
+
+["LV.TI.NewDayWarning"]
+raw = "On weather warning days"
+enUS = "On weather warning days"
+zhCN = "天气预警日"
+
+["LV.TI.NewDayHazard"]
+raw = "On hazardous weather begin days"
+enUS = "On hazardous weather begin days"
+zhCN = "恶劣天气开始日"
+
+["LV.TI.NewDayNewCycle"]
+raw = "On new cycle days"
+enUS = "On new cycle days"
+zhCN = "新周期开始日"

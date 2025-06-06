@@ -1,7 +1,7 @@
 ID,Text,Comment
-jeferson90.progressivedifficulty.settings.headertemperate,温和天气,-
-jeferson90.progressivedifficulty.settings.headerhazardous,恶劣天气,-
-jeferson90.progressivedifficulty.settings.headerbrutal,残酷天气,-
+jeferson90.progressivedifficulty.settings.header.temperate,温和天气,-
+jeferson90.progressivedifficulty.settings.header.hazardous,恶劣天气,-
+jeferson90.progressivedifficulty.settings.header.brutal,残酷天气,-
 jeferson90.progressivedifficulty.settings.hazardous_minimal_coeficient,持续时间下限系数,-
 jeferson90.progressivedifficulty.settings.hazardous_maximum_coeficient,持续时间上限系数,-
 jeferson90.progressivedifficulty.settings.brutal_cycle_enable,启用残酷天气,-
@@ -19,7 +19,7 @@ jeferson90.progressivedifficulty.settings.badtidechance,恶水潮概率,-
 jeferson90.progressivedifficulty.settings.jfloodchance,洪水期概率,-
 jeferson90.progressivedifficulty.settings.badtidehandicap,恶水潮延迟,-
 jeferson90.progressivedifficulty.settings.jfloodhandicap,洪水期延迟,-
-jeferson90.progressivedifficulty.settings.headermain,设置,-
+jeferson90.progressivedifficulty.settings.header.main,设置,-
 Weather.Flood,洪水期,-
 Weather.Notification.FloodApproaching,洪水期即将到来,-
 Weather.Notification.FloodInProgress,洪水期正在发生,-
@@ -28,3 +28,7 @@ Weather.FloodEndedNotification,洪水期已结束,-
 jeferson90.progressivedifficulty.settings.other,其他,-
 jeferson90.progressivedifficulty.settings.evaporation_framework_enable_setting,启用自定义蒸发速度,-
 jeferson90.progressivedifficulty.settings.badtidechance_tooltip,恶劣天气的发生概率，小数对应百分比（恶水潮和洪水期概率之和不足1时，剩余为干旱期概率）。，-
+jeferson90.progressivedifficulty.settings.header.jevaporation,蒸发,-
+jeferson90.progressivedifficulty.settings.jevaporation.enable,启用蒸发,-
+jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip,,-
+jeferson90.progressivedifficulty.settings.jevaporation.multiplier,蒸发系数,-

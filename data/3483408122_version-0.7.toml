@@ -6,7 +6,7 @@ zhCN = "传送枢纽"
 ["LV.Ziporter.ZiporterHubDesc"]
 raw = "The future of transportation is NOW! Two hubs are needed to establish a connection.\n<RedHighlight><b>WARNING:</b> Prepare power ahead of time!</RedHighlight>"
 enUS = "The future of transportation is NOW! Two hubs are needed to establish a connection.\n<RedHighlight><b>WARNING:</b> Prepare power ahead of time!</RedHighlight>"
-zhCN = "基于古代科技的奇异建筑，建立连接后可以互相传送。<br><color=#FF6600>建造完成后，未及时提供能量、长期关闭建筑或拆除建筑都会导致爆炸。</color><br><color=#FF0000>请提前准备充足能量！</color>"
+zhCN = "基于古代科技的奇异建筑，建立连接后可以互相传送。<br><color=#FF6600>建造完成后，能量供应不足、长期关闭建筑或拆除建筑都会导致爆炸。</color><br><color=#FF6600>请提前准备能量供应。</color>"
 
 ["LV.Ziporter.ZiporterHubFlavor"]
 raw = "The beavers salvaged this ridiculously high-tech blueprint from a hooman lab built just before they disappeared."
@@ -31,12 +31,12 @@ zhCN = "稳定器工作中"
 ["LV.Ziporter.WarningDraining"]
 raw = "Stabilizer is being drained due to not enough power. Quickly bring power back up to stabilize it."
 enUS = "Stabilizer is being drained due to not enough power. Quickly bring power back up to stabilize it."
-zhCN = "稳定器正在失效，需要尽快恢复能量供应。"
+zhCN = "稳定器正在失效，尽快恢复能量供应！"
 
 ["LV.Ziporter.WarningDrainingShort"]
 raw = "Draining stabilizer"
 enUS = "Draining stabilizer"
-zhCN = "传送枢纽不稳定"
+zhCN = "传送枢纽即将爆炸"
 
 ["LV.Ziporter.ConnErrAlready"]
 raw = "Connection already established"
@@ -76,9 +76,19 @@ zhCN = "能量低于{0}时将无法维持传送连接"
 ["LV.Ziporter.WarningChargeDraining"]
 raw = "Ziporter charge is going low. Connection will be lost at {0}."
 enUS = "Ziporter charge is going low. Connection will be lost at {0}."
-zhCN = "备用能量正在耗尽，即将无法维持传送连接。"
+zhCN = "备用能量正在下降，即将无法维持传送连接。"
 
 ["LV.Ziporter.WarningChargeDrainingShort"]
 raw = "Ziporter charge low"
 enUS = "Ziporter charge low"
-zhCN = "传送枢纽能量低"
+zhCN = "传送枢纽能量过低"
+
+["LV.Ziporter.WarningChargeDrainingLow"]  
+raw = "Ziporter charge is critically low. Stabilizer is going to be drained."  
+enUS = "Ziporter charge is critically low. Stabilizer is going to be drained."  
+zhCN = "备用能量正在耗尽，即将无法维持稳定器。"
+
+["LV.Ziporter.WarningChargeDrainingLowShort"]  
+raw = "Ziporter charge critical"  
+enUS = "Ziporter charge critical"  
+zhCN = "传送枢纽能量危急"

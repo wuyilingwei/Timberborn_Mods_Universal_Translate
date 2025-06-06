@@ -46,30 +46,6 @@ deDE = "Wege werden nicht mehr hervorgehoben, wenn Sie ein Gebäude auswählen. 
 plPL = "Ścieżki nie są już podświetlane, gdy wybierasz budynek. Możesz je nadal zobaczyć, gdy wybierasz ścieżkę."
 ptBR = "Os caminhos não são mais realçados quando você seleciona um edifício. Você ainda pode vê-los ao selecionar um caminho."
 
-["LV.T4UI.HighlightPowerNetwork"]
-raw = "Highlight Power Network"
-enUS = "Highlight Power Network"
-zhCN = "高亮传动网络"
-zhTW = "高亮電力網絡"
-ruRU = "Выделить энергетическую сеть"
-jaJP = "ハイライトパワーネットワーク"
-frFR = "Mise en avant du réseau électrique"
-deDE = "Hervorheben Sie das Power-Netzwerk"
-plPL = "Podświetl Sieć Mocy"
-ptBR = "Rede de Energia Destacada"
-
-["LV.T4UI.HighlightPowerNetworkDesc"]
-raw = "When you select a building, the power network it is connected to will be highlighted."
-enUS = "When you select a building, the power network it is connected to will be highlighted."
-zhCN = "勾选后，选中一个建筑时，会高亮处于同一传动网络中的所有建筑，而不是仅高亮相邻建筑。"
-zhTW = "當你選擇一棟建築時，與之相連的電力網絡將被標示出來。"
-ruRU = "Когда вы выбираете здание, электроэнергетическая сеть, к которой оно подключено, будет выделена."
-jaJP = "建物を選択すると、それに接続されている電力ネットワークが強調表示されます。"
-frFR = "Lorsque vous sélectionnez un bâtiment, le réseau électrique auquel il est connecté sera mis en surbrillance."
-deDE = "Wenn Sie ein Gebäude auswählen, wird das Stromnetz, mit dem es verbunden ist, hervorgehoben."
-plPL = "Gdy wybierzesz budynek, sieć energetyczna, do której jest podłączony, zostanie podświetlona."
-ptBR = "Ao selecionar um edifício, a rede de energia à qual está conectado será destacada."
-
 ["LV.T4UI.ToolDescPos"]
 raw = "Tool description location"
 enUS = "Tool description location"
@@ -207,3 +183,13 @@ zhCN = "高亮管路系统"
 raw = "Highlight all the connected Tubeways when you select a Tubeway."  
 enUS = "Highlight all the connected Tubeways when you select a Tubeway."  
 zhCN = "勾选后，选中一个管路或管路站时，会高亮处于同一管路系统中的所有建筑。"
+
+["LV.T4UI.DisableShadows"]  
+raw = "Disable shadows"  
+enUS = "Disable shadows"  
+zhCN = "禁用阴影"  
+
+["LV.T4UI.DisableShadowsDesc"]  
+raw = "Disable shadows from the sun."  
+enUS = "Disable shadows from the sun."  
+zhCN = "勾选后，移除物体因光照产生的阴影。"

@@ -33,7 +33,21 @@ LV.TI.QuickQuit,快速/强制退出 [Ctrl + Shift + Q] (!),-
 LV.TI.QuickQuitDesc,勾选后，可以通过按下Ctrl + Shift + Q立即强制退出游戏。请注意，不会保存游戏状态。,-
 LV.TI.BiggerBuildDragArea,更大的建造拖动区域 (!),-
 LV.TI.BiggerBuildDragAreaDesc,增加建筑物或道路的建造拖动区域大小。请注意，会显著增加加载时间和内存使用。设置为X将使拖动区域从NxN变为(N+X)x(N+X)。只能在主菜单中更改。,-
-LV.TI.AutoClearDeadTrees,立即清除枯树,-
-LV.TI.AutoClearDeadTreesDesc,勾选后，使用“标记资源以拆除”工具时会直接清除枯树，无需海狸操作。,-
+LV.TI.AutoClearDeadTrees,清除枯树,-
+LV.TI.AutoClearDeadTreesDesc,可以设置是否自动清除已死亡的植物。<br>- 默认：不自动清除<br>- 工具：仅在使用标注拆除工具时清除<br>- 自动：出现时自动清除,-
+LV.TI.AutoClearDeadTreesNo,默认,-
+LV.TI.AutoClearDeadTreesTool,工具,-
+LV.TI.AutoClearDeadTreesAuto,自动,-
 LV.TI.AddRealTimeClock,添加现实时钟,-
 LV.TI.AddRealTimeClockDesc,勾选后，在右上角添加一个显示现实时间的时钟。,-
+LV.TI.DisableShadowRotation,禁用阴影旋转,-
+LV.TI.DisableShadowRotationDesc,勾选后，将保持当前的阴影方向，不再随光照变化。,-
+LV.TI.NewDayAction,日操作,-
+LV.TI.NewDayActionDesc,可以设置一天开始时是否执行操作。<br>- 默认：不执行任何操作<br>- 暂停：暂停游戏<br>- 速度1：将游戏速度设置为1倍速度,-
+LV.TI.NewDayActionNone,默认,-
+LV.TI.NewDayActionPause,暂停,-
+LV.TI.NewDayActionSpeed1,速度1,-
+LV.TI.NewDayAll,每天,-
+LV.TI.NewDayWarning,天气预警日,-
+LV.TI.NewDayHazard,恶劣天气开始日,-
+LV.TI.NewDayNewCycle,新周期开始日,-

@@ -1593,6 +1593,16 @@ deDE = "Konstruktor"
 plPL = "Konstruktor"
 ptBR = "Construtor"
 
+["IgorZ.Automation.Scripting.Editor.ExportRulesBtn"]
+raw = "Export rules"
+enUS = "Export rules"
+zhCN = "导出规则"
+
+["IgorZ.Automation.Scripting.Editor.ImportRulesBtn"]
+raw = "Import rules"
+enUS = "Import rules"
+zhCN = "导入规则"
+
 ["IgorZ.Automation.Scripting.Editor.MoreInfoBtn"]
 raw = "Read about scripting"
 enUS = "Read about scripting"
@@ -1730,10 +1740,90 @@ deDE = "Es gibt ungespeicherte Änderungen. Möchten Sie diese verwerfen?"
 plPL = "Istnieją niezapisane zmiany. Czy chcesz je odrzucić?"
 ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
 
+["IgorZ.Automation.Scripting.Editor.ExportDialogHeader"]
+raw = "Export automation rules"
+enUS = "Export automation rules"
+zhCN = "导出自动化规则"
+
+["IgorZ.Automation.Scripting.Editor.ImportDialogHeader"]
+raw = "Import automation rules"
+enUS = "Import automation rules"
+zhCN = "导入自动化规则"
+
+["IgorZ.Automation.Scripting.ImportDialog.AllowErrors"]
+raw = "Import with errors"
+enUS = "Import with errors"
+zhCN = "允许错误导入"
+
+["IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules"]
+raw = "Delete existing rules"
+enUS = "Delete existing rules"
+zhCN = "删除现有规则"
+
+["IgorZ.Automation.Scripting.ImportDialog.ReadMore"]
+raw = "Read about imports"
+enUS = "Read about imports"
+zhCN = "了解更多导入信息"
+
+["IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl"]
+raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
+enUS = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
+zhCN = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
+
+["IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules"]
+raw = "Skip failed rules"
+enUS = "Skip failed rules"
+zhCN = "跳过失败规则"
+
+["IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError"]
+raw = "Action not applicable:\n{0}"
+enUS = "Action not applicable:\n{0}"
+zhCN = "操作不适用：{0}"
+
+["IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError"]
+raw = "Condition not applicable:\n{0}"
+enUS = "Condition not applicable:\n{0}"
+zhCN = "条件不适用：{0}"
+
+["IgorZ.Automation.Scripting.ImportRules.ExpectedActionError"]
+raw = "Expected action expression"
+enUS = "Expected action expression"
+zhCN = "需要操作表达式"
+
+["IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError"]
+raw = "Expected condition expression"
+enUS = "Expected condition expression"
+zhCN = "需要条件表达式"
+
+["IgorZ.Automation.Scripting.ImportRules.ImportError"]
+raw = "Error at line {0}: {1}"
+enUS = "Error at line {0}: {1}"
+zhCN = "第{0}行错误：{1}"
+
+["IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError"]
+raw = "Incomplete rule declaration"
+enUS = "Incomplete rule declaration"
+zhCN = "规则声明不完整"
+
+["IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment"]
+raw = "Unclosed multi-line comment"
+enUS = "Unclosed multi-line comment"
+zhCN = "未关闭的多行注释"
+
 ["IgorZ.Automation.Settings.Debug.PathCheckingProfiling"]
 raw = "Log path checking engine statistics"
 enUS = "Log path checking engine statistics"
 zhCN = "记录路径检查引擎统计信息"
+
+["IgorZ.Automation.Settings.Debug.LogSignalSetting"]
+raw = "Log setting signal values"
+enUS = "Log setting signal values"
+zhCN = "记录设置信号值"
+
+["IgorZ.Automation.Settings.Debug.LogSignalPropagating"]
+raw = "Log signal propagation"
+enUS = "Log signal propagation"
+zhCN = "记录信号传播"
 
 ["IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton"]
 raw = "Always show 'Add rules' button"

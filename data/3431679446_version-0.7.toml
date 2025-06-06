@@ -1,14 +1,14 @@
-["jeferson90.progressivedifficulty.settings.headertemperate"]
+["jeferson90.progressivedifficulty.settings.header.temperate"]
 raw = "Temperate"
 enUS = "Temperate"
 zhCN = "温和天气"
 
-["jeferson90.progressivedifficulty.settings.headerhazardous"]
+["jeferson90.progressivedifficulty.settings.header.hazardous"]
 raw = "Hazardous"
 enUS = "Hazardous"
 zhCN = "恶劣天气"
 
-["jeferson90.progressivedifficulty.settings.headerbrutal"]
+["jeferson90.progressivedifficulty.settings.header.brutal"]
 raw = "Brutal"
 enUS = "Brutal"
 zhCN = "残酷天气"
@@ -98,7 +98,7 @@ raw = "Flood handicap"
 enUS = "Flood handicap"
 zhCN = "洪水期延迟"
 
-["jeferson90.progressivedifficulty.settings.headermain"]
+["jeferson90.progressivedifficulty.settings.header.main"]
 raw = "Settings"
 enUS = "Settings"
 zhCN = "设置"
@@ -142,3 +142,23 @@ zhCN = "启用自定义蒸发速度"
 raw = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% and so on.\nRecommended to keep it very low.\n\nIf Badtide chance is 0.5 (50%) and Flood chance is 0.5 (50%), then there will be no Drought Weather\nIf Badtide chance is 0.1 (10%) and Flood chance is 0.2 (20%), there there will be a 70% chance of Drought Weather"
 enUS = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% and so on.\nRecommended to keep it very low.\n\nIf Badtide chance is 0.5 (50%) and Flood chance is 0.5 (50%), then there will be no Drought Weather\nIf Badtide chance is 0.1 (10%) and Flood chance is 0.2 (20%), there there will be a 70% chance of Drought Weather"
 zhCN = "恶劣天气的发生概率，小数对应百分比（恶水潮和洪水期概率之和不足1时，剩余为干旱期概率）"
+
+["jeferson90.progressivedifficulty.settings.header.jevaporation"]
+raw = "Evaporation"
+enUS = "Evaporation"
+zhCN = "蒸发"
+
+["jeferson90.progressivedifficulty.settings.jevaporation.enable"]
+raw = "Enable"
+enUS = "Enable"
+zhCN = "启用蒸发"
+
+["jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip"]
+raw = ""
+enUS = ""
+zhCN = ""
+
+["jeferson90.progressivedifficulty.settings.jevaporation.multiplier"]
+raw = "Multiplier"
+enUS = "Multiplier"
+zhCN = "蒸发系数"
