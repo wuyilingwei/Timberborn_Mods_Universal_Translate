@@ -3,8 +3,6 @@ LV.T4UI.ScrollableEntityPanel,スクロール可能なエンティティパネ�
 LV.T4UI.ScrollableEntityPanelDesc,エンティティパネル（右側のパネル）にスクロールバーを追加してください。多くのモッドがそれに要素を追加する場合に便利です。,-
 LV.T4UI.RemovePathHighlight,パスハイライトを削除する,-
 LV.T4UI.RemovePathHighlightDesc,建物を選択したときにパスがハイライト表示されなくなりました。パスを選択すると、まだ見ることができます。,-
-LV.T4UI.HighlightPowerNetwork,ハイライトパワーネットワーク,-
-LV.T4UI.HighlightPowerNetworkDesc,建物を選択すると、それに接続されている電力ネットワークが強調表示されます。,-
 LV.T4UI.ToolDescPos,ツールの説明場所,-
 LV.T4UI.ToolDescPosDesc,ツール説明パネルの位置を選択してください（ビルド中の中央にあるもの）。ゲームのデフォルト：中央。,-
 LV.T4UI.ToolDescPosLeft,左,-
@@ -15,3 +13,13 @@ LV.T4UI.AutoExpandCounterDesc,"スタート時にすべてのマテリアルカ�
 それらにカーソルを合わせると、自動的に閉じたカウンターが展開されます。",-
 LV.T4UI.NeverHideCounter,解除されたカウンターを隠さないでください。,-
 LV.T4UI.NeverHideCounterDesc,ロック解除された素材カウンターは、その素材が0であっても絶対に隠さないでください。,-
+LV.T4UI.HighlightSimilar,似たような物を強調する,-
+LV.T4UI.HighlightSimilarDesc,オブジェクトを選択すると、同じタイプのすべてのオブジェクトが強調表示されます。,-
+LV.T4UI.HighlightSimilarColor,類似の物体の色を強調する,-
+LV.T4UI.HighlightSimilarColorDesc,類似のオブジェクトのハイライトの色。,-
+LV.T4UI.HighlightTubeway,チューブウェイの道を強調する,-
+LV.T4UI.HighlightTubewayDesc,選択したチューブウェイをハイライトすると、接続されているすべてのチューブウェイが強調表示されます。これは、チューブウェイを選択したときに全体の経路を見るのに役立ちます。,-
+LV.T4UI.HighlightStorage,ハイライト＆セレクトマテリアルビルディング,-
+LV.T4UI.HighlightStorageDesc,マテリアルカウンターにカーソルを合わせると、そのマテリアルを含むすべての建物が強調表示されます。クリックすると、それらの建物を循環できます。代替キー（デフォルト：Shift）を押しながら、選択している地区のみで循環します。,-
+LV.T4UI.DisableShadows,影を無効にする,-
+LV.T4UI.DisableShadowsDesc,太陽の影を無効にする。,-

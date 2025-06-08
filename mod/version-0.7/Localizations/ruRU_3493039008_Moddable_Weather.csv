@@ -1,0 +1,33 @@
+ID,Text,Comment
+LV.MW.WeatherStart,{0} начато,-
+LV.MW.WeatherEnd,{0} закончился,-
+LV.MW.WeatherApproaching,{0} приближается,-
+LV.MW.WeatherInProgress,{0} в процессе,-
+LV.MW.EnableWeather,Включить {0} Погоду,-
+LV.MW.EnableWeatherDesc,Включить {0} погоду,-
+LV.MW.StartCycle,{0} начать цикл,-
+LV.MW.StartCycleDesc,"Минимальный цикл, в котором может происходить {0}",-
+LV.MW.Chance,{0} шанс,-
+LV.MW.ChanceDesc,Вероятность наступления {0},-
+LV.MW.MinDay,{0} минимальный день,-
+LV.MW.MinDayDesc,"Минимальный день, когда может произойти {0}",-
+LV.MW.MaxDay,{0} максимальный день,-
+LV.MW.MaxDayDesc,"Максимальный день, когда может произойти {0}",-
+LV.MW.HandicapPerc,{0} Процент гандикапа,-
+LV.MW.HandicapPercDesc,"Впервые, когда происходит эта погода, её продолжительность умножается на этот процент.",-
+LV.MW.HandicapCycles,Инвалиды на велосипедах,-
+LV.MW.HandicapCyclesDesc,Количество циклов до достижения полной (100%) продолжительности погоды.,-
+LV.MW.Rain,Дождь,-
+LV.MW.Monsoon,Муссон,-
+LV.MW.ShortTemperate,Разочаровывающе короткая температура,-
+LV.MW.ProgressiveTemperate,Прогрессивно сокращающаяся температура,-
+LV.MW.SurprisinglyRefreshing,Удивительно освежающий,-
+LV.MW.RainEffect,Включить эффект дождя,-
+LV.MW.RainEffectDesc,Включите эффект дождя на карте.,-
+LV.MW.MonsoonMultiplier,Максимальный множитель муссона,-
+LV.MW.MonsoonMultiplierDesc,"Максимальный дополнительный множитель для муссонной погоды при максимуме (без учета гандикапа). Это значение зависит от гандикапа, такого как Продолжительность. Значение по умолчанию: 2,5 (250%), что означает, что при отсутствии гандикапа (по умолчанию цикл 5) вся сила водных источников составляет 350%.",-
+LV.MW.Profiles,Профили,-
+LV.MW.ProfilesDesc,Экспорт и импорт настроек для поддерживаемых модифицируемых погод.,-
+LV.MW.ProfileImport,Импорт,-
+LV.MW.ProfileExport,Экспорт,-
+LV.MW.ProfileError,Произошла ошибка: {0},-

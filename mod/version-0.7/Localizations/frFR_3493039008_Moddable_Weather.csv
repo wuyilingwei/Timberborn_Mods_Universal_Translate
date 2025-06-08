@@ -1,0 +1,35 @@
+ID,Text,Comment
+LV.MW.WeatherStart,{0} a commencé,-
+LV.MW.WeatherEnd,{0} terminé,-
+LV.MW.WeatherApproaching,{0} approchant,-
+LV.MW.WeatherInProgress,{0} en cours,-
+LV.MW.EnableWeather,Activer {0} Météo,-
+LV.MW.EnableWeatherDesc,Activer la météo {0},-
+LV.MW.StartCycle,{0} démarrer le cycle,-
+LV.MW.StartCycleDesc,Le cycle minimum que {0} peut occuper.,-
+LV.MW.Chance,{0} chance,-
+LV.MW.ChanceDesc,La probabilité que {0} se produise,-
+LV.MW.MinDay,{0} jour minimum,-
+LV.MW.MinDayDesc,Le jour minimum où {0} peut se produire,-
+LV.MW.MaxDay,{0} jour maximum,-
+LV.MW.MaxDayDesc,Le jour maximum où {0} peut se produire,-
+LV.MW.HandicapPerc,Pourcentage de handicap {0},-
+LV.MW.HandicapPercDesc,"La première fois que ce temps se produit, sa durée est multipliée par ce pourcentage.",-
+LV.MW.HandicapCycles,Vélos pour personnes handicapées,-
+LV.MW.HandicapCyclesDesc,Nombre de cycles jusqu'à ce que la météo atteigne la pleine durée (100%).,-
+LV.MW.Rain,Pluie,-
+LV.MW.Monsoon,Saison des pluies,-
+LV.MW.ShortTemperate,Décevamment de courte durée,-
+LV.MW.ProgressiveTemperate,Raccourcissement progressif de la température,-
+LV.MW.SurprisinglyRefreshing,Surprenante rafraîchissante,-
+LV.MW.RainEffect,Activer l'effet de pluie,-
+LV.MW.RainEffectDesc,Activez l'effet de pluie sur la carte.,-
+LV.MW.MonsoonMultiplier,Multiplicateur maximal de la mousson,-
+LV.MW.MonsoonMultiplierDesc,"Le multiplicateur additionnel maximum pour la météo de la mousson au maximum (sans handicap). 
+Cette valeur est affectée par des handicaps comme la Durée. 
+Valeur par défaut : 2,5 (250 %), ce qui signifie que lorsqu'aucun handicap n'est appliqué (cycle par défaut 5), la force de toutes les sources d'eau est à 350 %.",-
+LV.MW.Profiles,Profils,-
+LV.MW.ProfilesDesc,Exporter et importer des paramètres pour les Météos Moddables prises en charge,-
+LV.MW.ProfileImport,Importer,-
+LV.MW.ProfileExport,Exporter,-
+LV.MW.ProfileError,Il y a eu une erreur : {0},-

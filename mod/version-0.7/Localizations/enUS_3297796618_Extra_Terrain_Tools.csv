@@ -1,7 +1,71 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton,Extra Terrain Tools,-
-TerrainTools.Keybinding.Undo,Terrain Tools - Undo,-
-TerrainTools.Keybinding.FastUndo,Terrain Tools - Undo x 5,-
-TerrainTools.Keybinding.Redo,Terrain Tools - Redo,-
-TerrainTools.Keybinding.FastRedo,Terrain Tools - Redo x 5,-
-TerrainTools.Keybinding.CycleMode,Terrain Tools - Cycle Mode,-
+TerrainTools.ToolGroupButton.Label,Extra Terrain Tools,-
+TerrainTools.KeyBindingGroup.Label,Terrain Tools,-
+TerrainTools.Keybinding.Undo,Undo,-
+TerrainTools.Keybinding.FastUndo,Undo five times.,-
+TerrainTools.Keybinding.Redo,Redo,-
+TerrainTools.Keybinding.FastRedo,Redo five times.,-
+TerrainTools.Keybinding.CycleMode,Cycle Mode,-
+TerrainTools.Common.Button.Apply,Apply,-
+TerrainTools.Common.Button.Reset,Reset,-
+TerrainTools.Heightmap.Tool.Title,Heightmap Generator,-
+TerrainTools.Heightmap.Tool.Warning,Changes affect the entire map.,-
+TerrainTools.Heightmap.Button.Generate,Generate,-
+TerrainTools.Heightmap.Checkbox.ClearObjects,Clear existing objects,-
+TerrainTools.Heightmap.Generate.Hint,Click {0} to update the terrain.,-
+TerrainTools.Heightmap.Generate.Warning,{0} will be removed. This action cannot be undone.,-
+TerrainTools.Heightmap.Clear.WaterSourcesOnly,All water sources,-
+TerrainTools.Heightmap.Clear.All,All objects,-
+TerrainTools.Heightmap.Status.Idle,Idle,-
+TerrainTools.Heightmap.Status.Generating,Generating,-
+TerrainTools.Heightmap.Seed.Label,Seed,-
+TerrainTools.Heightmap.Seed.Lock.Label,Lock,-
+TerrainTools.Heightmap.Slider.LOD,Level of detail,-
+TerrainTools.Heightmap.Slider.Amplitude,Amplitude,-
+TerrainTools.Heightmap.Slider.Frequency,Frequency,-
+TerrainTools.Heightmap.Slider.Crest,Crest shape,-
+TerrainTools.Heightmap.Slider.Base,Base shape,-
+TerrainTools.Heightmap.Slider.Mean,Average height,-
+TerrainTools.Heightmap.Slider.Min,Minimum height,-
+TerrainTools.Heightmap.Slider.Max,Max height,-
+TerrainTools.Heightmap.Slider.PeriodX,Period X,-
+TerrainTools.Heightmap.Slider.PeriodY,Period Y,-
+TerrainTools.PathPainter.Tool.Title,Path Painter,-
+TerrainTools.PathPainter.Tool.Description,Adjust terrain using lines,-
+TerrainTools.PathPainter.Tip.AddMove,{0} = Add or Move points,-
+TerrainTools.PathPainter.Tip.DeleteHovered,Remove hovered point,-
+TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (Hold) = Remove points,-
+TerrainTools.PathPainter.Curve.Button.Line,Line,-
+TerrainTools.PathPainter.Curve.Button.3Points,3 points,-
+TerrainTools.PathPainter.Curve.Button.4Points,4 points,-
+TerrainTools.PathPainter.Curve.Button.Continuous,Continuous,-
+TerrainTools.PathPainter.Curve.Toggle.SingleSegment,Single segment,-
+TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,Smooth endings,-
+TerrainTools.PathPainter.Curve.Slider.Distance,Distance,-
+TerrainTools.PathPainter.ToggleText.Symmetry,Symmetry,-
+TerrainTools.PathPainter.ToggleText.Symmetry.On,Enabled,-
+TerrainTools.PathPainter.ToggleText.Symmetry.Off,Disabled,-
+TerrainTools.PathPainter.Button.ClearAll,Clear path,-
+TerrainTools.Smoothing.Tool.Title,Smoothing Brush,-
+TerrainTools.Smoothing.Slider.Brush.Size,Brush size,-
+TerrainTools.Smoothing.Slider.Sample.Size,Sample size,-
+TerrainTools.Smoothing.Slider.Force,Force,-
+TerrainTools.Smoothing.ToggleGroup.Shape,Brush Shape,-
+TerrainTools.Smoothing.Shape.Square,Square,-
+TerrainTools.Smoothing.Shape.Circle,Circle,-
+TerrainTools.MoundMaker.Tool.Title,Mound Maker,-
+TerrainTools.MoundMaker.Hint.CycleSeed,{0} = Cycle seed,-
+TerrainTools.MoundMaker.Hint.DigMode,{0} (Hold) = Dig Mode,-
+TerrainTools.MoundMaker.Header.Shape,Shape,-
+TerrainTools.MoundMaker.Slider.PeakHeight,Peak height,-
+TerrainTools.MoundMaker.Slider.MaxChange,Max change,-
+TerrainTools.MoundMaker.Header.RadialNoise,Radial Noise,-
+TerrainTools.MoundMaker.Slider.Radial.Scale,Scale,-
+TerrainTools.MoundMaker.Slider.Radial.Frequency,Frequency,-
+TerrainTools.MoundMaker.Slider.Radial.Detail,Detail,-
+TerrainTools.MoundMaker.Header.VerticalNoise,Vertical Noise,-
+TerrainTools.MoundMaker.Slider.Vertical.Amplitude,Amplitude,-
+TerrainTools.MoundMaker.Slider.Vertical.Frequency,Frequency,-
+TerrainTools.MoundMaker.Slider.Vertical.Detail,Detail,-
+TerrainTools.MoundMaker.Checkbox.Randomize,Randomize,-
+TerrainTools.MoundMaker.Seed.Label,Seed,-

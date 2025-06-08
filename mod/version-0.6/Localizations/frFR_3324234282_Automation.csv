@@ -1,116 +1,200 @@
 ID,Text,Comment
-IgorZ.Automation.DebugPickTool.Title,Outil de débogage,-
-IgorZ.Automation.DebugPickTool.Description,Imprime les composants sur l'objet sélectionné.,-
-IgorZ.Automation.DebugPickTool.DescriptionHint1,Maintenez <i>MAJ</i> enfoncé pour imprimer Accessible.,-
-IgorZ.Automation.DebugPickTool.DescriptionHint2,Maintenez <i>CTRL</i> pour imprimer les bords du NavMesh.,-
+IgorZ.Automation.CancelTool.Description,Utilisez cet outil pour nettoyer toute automatisation dans les bâtiments ou sur les chantiers de construction.,-
+IgorZ.Automation.CancelTool.Title,Annuler l'automatisation,-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,<YellowHighlight>bloque le chemin</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<YellowHighlight>ne bloque pas le chemin</YellowHighlight>,-
+IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Les constructeurs ne peuvent pas y accéder pour le moment, mais un chemin est en train d'être construit.",-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Chantier injoignable,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,Les bâtisseurs ne peuvent pas trouver le chemin vers ce site. Peut-être que rien ne peut être construit ici.,-
+IgorZ.Automation.DebugFinishNowTool.Description,Termine immédiatement les constructions sélectionnées.,-
 IgorZ.Automation.DebugFinishNowTool.Title,Terminer maintenant l'outil de débogage,-
-IgorZ.Automation.DebugFinishNowTool.Description,Terminates immédiatement les constructibles sélectionnés.,-
-IgorZ.Automation.ToolGroup.Main.DisplayName,Configurer l'automatisation,-
-IgorZ.Automation.ToolGroup.Terrain.DisplayName,Changement de terrain,-
-IgorZ.Automation.ToolGroup.Water.DisplayName,Conditions de l'eau,-
-IgorZ.Automation.ToolGroup.Power.DisplayName,Conditions de puissance,-
-IgorZ.Automation.ToolGroup.Storage.DisplayName,Conditions de stockage,-
-IgorZ.Automation.ToolGroup.Population.DisplayName,Conditions de population,-
-IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Faire exploser de la dynamite 2 fois,-
-IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,Faire exploser de la dynamite 3 fois,-
+IgorZ.Automation.DebugPickTool.Description,Imprime les composants sur l'objet sélectionné.,-
+IgorZ.Automation.DebugPickTool.DescriptionHint1,Maintenez <i>SHIFT</i> pour imprimer Accessible.,-
+IgorZ.Automation.DebugPickTool.DescriptionHint2,Maintenez <i>CTRL</i> pour imprimer les bords du NavMesh.,-
+IgorZ.Automation.DebugPickTool.Title,Outil de débogage,-
+IgorZ.Automation.PauseTool.Description,Utilisez cet outil pour mettre en pause les bâtiments et les chantiers de construction.,-
+IgorZ.Automation.PauseTool.Title,Immeubles de pause,-
+IgorZ.Automation.ResumeTool.Description,Utilisez cet outil pour réactiver les bâtiments et les chantiers de construction.,-
+IgorZ.Automation.ResumeTool.Title,Reprendre les bâtiments,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,Erreur d'automatisation,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,Certain règles d'automatisation ne peuvent pas être exécutées.,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,En attendant que les autres bâtiments finissent,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,<HighlightJaune>maintenir la réalisation</HighlightJaune>,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,construction de CV,-
+IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Faire exploser de la dynamite 2 fois.,-
+IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,Faire exploser de la dynamite 3 fois.,-
 IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,Faire exploser de la dynamite 4 fois.,-
 IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,Faire exploser de la dynamite 5 fois.,-
-IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,Faire exploser de la dynamite 6 fois,-
-IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"Ce modèle peut être appliqué aux dynamites, qu'elles soient terminées ou encore en construction. Une fois terminé, le dynamite explosera automatiquement, et un nouveau plan de dynamite sera placé pour creuser plus profond.",-
-IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,Vider le stockage si la capacité est supérieure à 50 %.,-
-IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,Videz le stockage si la capacité dépasse 60 %.,-
+IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,Faire exploser de la dynamite 6 fois.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,Appliquez ce modèle sur les écluses qui doivent se fermer lorsque la marée haute commence.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Fermez la vanne lors du début de la marée haute.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,Appliquez ce modèle sur les écluses qui doivent s'ouvrir lorsque la marée montante commence.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Ouvrir les portes du déluge au début de la mauvaise marée,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause pendant les marées basses.,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Pause pendant la mauvaise marée,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner tant qu'il y a des lits inoccupés.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,Faites fonctionner jusqu'à ce que la population de castors soit maximale.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de castors tombe en dessous de 10 castors du niveau actuel.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,Population de castors -10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,Appliquez ce modèle aux bâtiments qui devraient rester en pause jusqu'à ce que la population de castors tombe 20 castors en dessous du niveau actuel.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,Population de castors -20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de castors dépasse le niveau actuel de 10 castors.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,Population de castors +10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de castors dépasse le niveau actuel de 20 castors.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,Population de castors +20,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de bots descende 10 castors en dessous du niveau actuel.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,Population de robots -10,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de castors diminue de 20 en dessous du niveau actuel.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,Population de bots -20,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de bots dépasse le niveau actuel de 10 bots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,Population de robots +10,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de robots dépasse le niveau actuel de 20 robots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,Population de bots +20,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,"Appliquez ce modèle aux chantiers de construction qui peuvent bloquer les chemins des entrepreneurs. Remarque : les résultats ne sont pas garantis, surtout si les bâtiments ne sont pas au même niveau.",-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,Ne bloquez pas les bâtisseurs.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,Appliquez ce modèle aux vannes qui devraient se fermer lorsque la sécheresse commence.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Fermez la vanne de drainage au début de la sécheresse.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,Appliquez ce modèle aux vannes qui devraient s'ouvrir lorsque la sécheresse commence.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Ouvrir les vannes à l'apparition de la sécheresse,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description,Appliquez ce modèle sur les ouvrages de contrôle des flux d'eau (comme <YellowHighlight>Badwater Dome</YellowHighlight> ou <YellowHighlight>Sluice</YellowHighlight>) pour les maintenir ouverts pendant les sécheresses.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName,Contrôle de l'écoulement des eaux ouvertes en période de sécheresse,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause pendant les sécheresses.,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pause pendant la sécheresse,-
+IgorZ.Automation.Tool.tmpl.DynamiteNow.Description,Détone automatiquement la dynamite lorsque la construction est terminée. Ce modèle peut également être appliqué à une dynamite finie.,-
+IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName,Faites exploser la dynamite maintenant.,-
+IgorZ.Automation.Tool.tmpl.EmitSelectedGood.Description,Appliquez ce modèle aux bâtiments qui doivent émettre un signal de la quantité de biens sélectionnée dans le stockage. Le signal peut être utilisé dans les conditions des autres bâtiments.,-
+IgorZ.Automation.Tool.tmpl.EmitSelectedGood.DisplayName,Émettre un signal de bonne sélection,-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,Videz le stockage si la capacité est supérieure à 50 %.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,Videz le stockage si la capacité est supérieure à 60 %.,-
 IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,Videz le stockage si la capacité est supérieure à 70 %.,-
 IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,Videz le stockage si la capacité est supérieure à 80 %.,-
-IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,Videz le stockage si la capacité est supérieure à 90 %.,-
-IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"Ce modèle peut être appliqué aux bâtiments qui produisent un type de bien et n'ont pas de stock d'entrée. Si le niveau de stock de <i>sortie</i> dépasse le seuil prédéterminé, le bâtiment passera en mode 'vide', facilitant ainsi le retrait rapide des biens.",-
-IgorZ.Automation.EmptyOutputStore.CustomStatus,Le bâtiment est vidé sur une base prioritaire.,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pause pendant la sécheresse,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.Description,Appliquez ce modèle aux bâtiments qui devraient rester à l'arrêt pendant les sécheresses.,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Faire une pause pendant la marée basse,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause pendant les mauvaises marées.,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Faire une pause pendant le temps tempéré,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause pendant les saisons tempérés.,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Fermer la vanne pendant la sécheresse,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,Appliquez ce modèle sur des portes d'écluse qui devraient se fermer lorsque la sécheresse commence.,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Ouvrir les vannes pendant la sécheresse,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,Appliquez ce modèle sur les vannes qui devraient s'ouvrir lorsque la sécheresse commence.,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,Régulateur des eaux ouvertes pendant la sécheresse,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,Appliquez ce modèle aux régulateurs de l'eau qui doivent être ouverts pendant les sécheresses.,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Fermez le verrou de la porte pendant la marée basse.,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,Appliquez ce modèle sur les écluses qui doivent se fermer lorsque la marée montante commence.,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Ouvrir les écluses pendant la mauvaise marée,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,Appliquez ce modèle aux vannes d'inondation qui doivent s'ouvrir lorsque la marée basse se termine.,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Fermer la vanne de retenue pendant les temps tempérés.,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,Appliquez ce modèle aux écluses qui doivent se fermer lorsque la sécheresse ou les mauvaises marées se terminent.,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Ouvrir les vannes pendant un temps tempéré,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,Appliquez ce modèle aux vannes qui doivent s'ouvrir lorsque la sécheresse ou la mauvaise marée se termine.,-
-IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,Vanne légèrement ouverte pendant les temps tempérés,-
-IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,"Appliquez ce modèle sur les vannes qui devraient se fermer à 0,5 m en dessous de leur maximum lorsque la sécheresse ou la mauvaise marée se termine.",-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,Population de bots au niveau +10,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de bots soit supérieure au niveau actuel de 10 bots.,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,Population de bots au niveau +20,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de bots dépasse le niveau actuel de 20 bots.,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,Population de bots au niveau -10,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de castors diminue de 10 en dessous du niveau actuel.,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,Population de bots au niveau -20,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de bots tombe 20 castors en dessous du niveau actuel.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,Courir jusqu'à ce que la population de castors atteigne son maximum.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner tant qu'il y a des lits inoccupés.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,Population de castors au niveau +10,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de castors dépasse le niveau actuel de 10 castors.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,Population de castors au niveau +20,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,Appliquez ce modèle aux bâtiments qui devraient fonctionner jusqu'à ce que la population de castors dépasse le niveau actuel de 20 castors.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,Population de castors au niveau -10,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de castors descende de 10 castors en dessous du niveau actuel.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,Population de castors au niveau -20,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,Appliquez ce modèle aux bâtiments qui doivent rester en pause jusqu'à ce que la population de castors diminue de 20 castors en dessous du niveau actuel.,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildeings.DisplayName,Ne bloquez pas les constructeurs.,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildeings.Description,"Appliquez ce modèle aux chantiers qui peuvent bloquer le passage des constructeurs. Remarque : les résultats ne sont pas garantis, surtout si les bâtiments ne sont pas au même niveau.",-
-IgorZ.Automation.CancelTool.Title,Annuler l'automatisation,-
-IgorZ.Automation.CancelTool.Description,Utilisez cet outil pour nettoyer toute automatisation dans les bâtiments ou sur les chantiers de construction.,-
-IgorZ.Automation.PauseTool.Title,Pause bâtiments,-
-IgorZ.Automation.PauseTool.Description,Utilisez cet outil pour suspendre les bâtiments et les chantiers de construction.,-
-IgorZ.Automation.ResumeTool.Title,Relancer les bâtiments,-
-IgorZ.Automation.ResumeTool.Description,Utilisez cet outil pour réactiver les bâtiments et les chantiers de construction.,-
-IgorZ.Automation.DummyTitle,Titre générique,-
-IgorZ.Automation.DummyDescirption,Description générique,-
-TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Sélectionner : {0},-
-TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Sélectionnant : {0} (x{1}),-
-TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,Désignez une entité et cliquez pour commencer à sélectionner,-
-TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,Cliquez pour commencer à sélectionner : {0},-
-TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,Maintenez <i>MAJ</i> enfoncé pour sélectionner des éléments d'un seul type.,-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,Vider le stockage si la capacité est supérieure à 90 %.,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"Ce modèle peut être appliqué aux bâtiments qui produisent des biens et n'ont pas de stock d'entrée. Si le niveau de stock <i>sortant</i> dépasse le seuil prédéterminé, le bâtiment passera en mode 'vide', facilitant ainsi le retrait rapide des biens.",-
+IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description,Appliquez ce modèle aux écluses pour contrôler leur hauteur de manière synchronisée.,-
+IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName,Groupe de vannes de déluge,-
+IgorZ.Automation.Tool.tmpl.PauseConstruction.Description,Appliquez ce modèle aux chantiers qui doivent être suspendus une fois que la progression des travaux atteint 100 %.,-
+IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName,Mettre en pause la construction,-
+IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description,Appliquez ce modèle aux bâtiments qui devraient être priorisés par les transporteurs une fois la construction terminée.,-
+IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName,Prioriser par transporteurs,-
+IgorZ.Automation.Tool.tmpl.StreamGauge.Description,Appliquez ce modèle aux jauges de débit qui doivent émettre un signal sur l'état actuel de l'eau. Les signaux peuvent être utilisés dans les conditions des autres bâtiments.,-
+IgorZ.Automation.Tool.tmpl.StreamGauge.DisplayName,Signal de jauge de courant,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,Appliquez ce modèle aux écluses qui doivent se fermer lorsque la saison tempérée commence.,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Fermez la vannette lors du début des intempéries tempérées.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,Appliquez ce modèle sur les portes d'inondation qui doivent s'ouvrir lorsque la saison tempérée commence.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Ouvrez les vannes lorsque le temps doux commence.,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,Appliquez ce modèle aux bâtiments qui devraient rester en pause pendant les temps tempérés.,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Faire une pause par temps tempéré,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,"Appliquez ce modèle sur les portes d'inondation qui doivent s'ouvrir de 0,5 m de leur hauteur maximale lorsque la saison tempérée commence.",-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,Vanne légèrement ouverte pendant un temps tempéré,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"Ce modèle peut être appliqué aux dynamites, qu'elles soient finies ou en cours de construction. Une fois terminée, la dynamite se déclenchera automatiquement, et un nouveau plan de dynamite sera placé pour creuser plus profondément.",-
+IgorZ.Automation.ToolGroup.Main.DisplayName,Configurer l'automatisation,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,Règles relatives à la population,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,Règles liées à l'alimentation électrique,-
+IgorZ.Automation.ToolGroup.Signals.DisplayName,Règles liées aux signaux,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,Règles liées aux espaces de stockage,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,Règles de changement de terrain,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,Règles liées à la météo,-
+=,=,-
+IgorZ.Automation.AutomationFragment.AddRulesBtn,Ajouter des règles d'automatisation,-
+IgorZ.Automation.AutomationFragment.CopyRulesBtn,Règles de copie,-
+IgorZ.Automation.AutomationFragment.EditRulesBtn,Modifier les règles,-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,Si {0} Alors {1},-
 IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,Règles d'automatisation :,-
-IgorZ.Automation.AutomationFragment.RuleTextLocKey,"Si {0}, alors {1}",-
-IgorZ.Automation.DetonateDynamiteAction.Description,dynamiter de la dynamite,-
-IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,et ajoutez encore <GreenHighlight>{0} fois</GreenHighlight>,-
-IgorZ.Automation.DroughtEndedCondition.Description,la sécheresse est terminée,-
-IgorZ.Automation.DroughtStartedCondition.Description,<SolidHighlight>la sécheresse a commencé</SolidHighlight>,-
-IgorZ.Automation.MarkForEmptyingAction.Description,<SolidHighlight>stock vide</SolidHighlight>,-
-IgorZ.Automation.ObjectFinishedCondition.Description,<SurbrillanceSolide>construction terminée</SurbrillanceSolide>,-
-IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<SolidHighlight>stock de sortie au-dessus de {0}%</SolidHighlight>,-
-IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<SolidHighlight>stock de sortie en dessous de {0}%</SolidHighlight>,-
-IgorZ.Automation.PauseAction.Description,<SolidHighlight>mettre la construction en pause</SolidHighlight>,-
-IgorZ.Automation.SetFloodgateHeightAction.Description,<SolidHighlight>définir la hauteur à {0}</SolidHighlight>,-
-IgorZ.Automation.UnmarkForEmptyingAction.Description, arrêter de vider le stockage,-
-IgorZ.Automation.UnpauseAction.Description,<SolidHighlight>reprendre la construction</SolidHighlight>,-
-IgorZ.Automation.WaterRegulatorStateActionClose.Description,<SolidHighlight>fermer le régulateur d'eau</SolidHighlight>,-
-IgorZ.Automation.WaterRegulatorStateActionOpen.Description,régulateur d'eau ouverte,-
-IgorZ.Automation.BadtideEndedCondition.Description,<SolidHighlight>la marée basse est terminée</SolidHighlight>,-
-IgorZ.Automation.BadtideStartedCondition.Description,<badtide a commencé</SolidHighlight>,-
-IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<SolidHighlight>moins de {0} castors dans le district</SolidHighlight>,-
-IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,<SolidHighlight>plus de {0} castors dans le district</SolidHighlight>,-
-IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,<SolidHighlight>moins de {0} bots dans le district</SolidHighlight>,-
-IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,<SolidHighlight>plus de {0} bots dans le district</SolidHighlight>,-
-IgorZ.Automation.PopulationRelativeToMaxArg,MAX{0},-
-IgorZ.Automation.PopulationRelativeToCurrentArg,MAINTENANT{0},-
-IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,bloque le chemin,-
-IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,<SolidHighlight>ne bloque pas le chemin</SolidHighlight>,-
-IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Les constructeurs ne peuvent pas encore y accéder, mais un chemin est en cours de construction.",-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,Les bâtisseurs ne trouvent pas le chemin vers ce site. Peut-être que rien ne peut être construit ici.,-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Chantier inaccessible,-
-IgorZ.Automation.ShowStatusAction.HoldConstruction,<SolidHighlight>terminer la mise en surbrillance</SolidHighlight>,-
-IgorZ.Automation.ShowStatusAction.ResumeConstruction,construction de CV,-
-IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,En attendant que les autres bâtiments finissent,-
-IgorZ.Automation.BlockableBuildingAction.BlockDescription,construction de blocs,-
-IgorZ.Automation.BlockableBuildingAction.UnblockDescription,débloquer le bâtiment,-
-IgorZ.Automation.BlockableBuildingAction.BlockText,En attendant que les autres bâtiments finissent,-
+IgorZ.Automation.Tool.CopyRules.Text,Copier {0} règles,-
+IgorZ.Automation.Tool.CopyRules.Title,Règles d'automatisation de copie,-
+IgorZ.Automation.Scriptable.Constructable.Signal.Progress,avancement de la construction,-
+IgorZ.Automation.Scriptable.Constructable.Signal.State,état de construction,-
+IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished,Terminé,-
+IgorZ.Automation.Scriptable.Debug.Action.LogNum,écrire un nombre dans les journaux : {0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogStr,écrire une chaîne dans les journaux : {0},-
+IgorZ.Automation.Scriptable.District.Signal.Beavers,castors dans le district,-
+IgorZ.Automation.Scriptable.District.Signal.Bots,bots dans le district,-
+IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,lits dans le district,-
+IgorZ.Automation.Scriptable.Dynamite.Action.Detonate,détonez de la dynamite,-
+IgorZ.Automation.Scriptable.Dynamite.Action.DetonateAndRepeat,dévitez la dynamite et ajoutez encore <GreenHighlight>{0} fois</GreenHighlight>,-
+IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight,réglez la hauteur de la porte sur {0},-
+IgorZ.Automation.Scriptable.Floodgate.Signal.Height,hauteur de la vanne de décharge,-
+IgorZ.Automation.Scriptable.FlowControl.Action.Close,désactiver l'écoulement,-
+IgorZ.Automation.Scriptable.FlowControl.Action.Open,activer le flux,-
+IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,Le stockage est vidé sur une base de priorité.,-
+IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,commencez à vider le stockage,-
+IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,arrête de vider le stockage,-
+IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,{0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,sortie : {0},-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,mettre en pause la construction,-
+IgorZ.Automation.Scriptable.Pausable.Action.Resume,création de CV,-
+IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers,- prioriser par transporteurs,-
+IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers,+ prioriser par transporteurs,-
+IgorZ.Automation.Scriptable.Signals.Action.Set,définir le signal : {0} = {1},-
+IgorZ.Automation.Scriptable.Signals.Signal.Get,signal : {0},-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Contamination,contamination,-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Current,actuel,-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Depth,profondeur,-
+IgorZ.Automation.Scriptable.Weather.Signal.Season,saison,-
+IgorZ.Automation.Scriptable.Workplace.Action.RemoveWorkers,enlever des travailleurs,-
+IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers,attribuer {0} travailleurs,-
+IgorZ.Automation.Scripting.Expressions.AndOperator,et,-
+IgorZ.Automation.Scripting.Expressions.OrOperator,ou,-
+IgorZ.Automation.Scripting.Expressions.ParseError,ERREUR DE PARSAGE,-
+IgorZ.Automation.Scripting.Expressions.RuntimeError,ERREUR D'EXÉCUTION,-
+IgorZ.Automation.Scripting.Editor.ActionLabel,Alors,-
+IgorZ.Automation.Scripting.Editor.ActionMustBeAction,L'action doit être l'opérateur 'act',-
+IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,Ajouter un script,-
+IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,Créer une règle via le constructeur,-
+IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint,(max : {0}),-
+IgorZ.Automation.Scripting.Editor.ConditionLabel,Si,-
+IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,La condition doit être une expression booléenne.,-
+IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,La condition doit contenir au moins un signal.,-
+IgorZ.Automation.Scripting.Editor.DeletedRule,Règle supprimée,-
+IgorZ.Automation.Scripting.Editor.DialogHeader,Règles d'automatisation,-
+IgorZ.Automation.Scripting.Editor.DiscardChangesBtn,Annuler les modifications,-
+IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,Jeter,-
+IgorZ.Automation.Scripting.Editor.EditAsScriptBtn,Scénario,-
+IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,Constructeur,-
+IgorZ.Automation.Scripting.Editor.ExportRulesBtn,Règles d'exportation,-
+IgorZ.Automation.Scripting.Editor.ImportRulesBtn,Règles d'importation,-
+IgorZ.Automation.Scripting.Editor.MoreInfoBtn,Lisez sur le script.,-
+IgorZ.Automation.Scripting.Editor.NumberConstantType,numéro,-
+IgorZ.Automation.Scripting.Editor.PendingEditsNotification,Il y a des règles dans l'état d'édition. Complétez-les d'abord.,-
+IgorZ.Automation.Scripting.Editor.ReadMoreLink,"Je suis désolé, mais je ne peux pas accéder aux liens externes. Cependant, si vous me fournissez le texte que vous souhaitez traduire, je serai ravi de vous aider avec la traduction en français.",-
+IgorZ.Automation.Scripting.Editor.ResetChangesBtn,Réinitialiser les changements,-
+IgorZ.Automation.Scripting.Editor.RulesWithErrorsNotification,Certain règles comportent des erreurs ! Corrigez-les d'abord.,-
+IgorZ.Automation.Scripting.Editor.SaveRulesBtn,Enregistrer et fermer,-
+IgorZ.Automation.Scripting.Editor.SaveScriptBtn,Sauvegarder,-
+IgorZ.Automation.Scripting.Editor.StringConstantType,chaîne,-
+IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,Groupe de modèle : {0},-
+IgorZ.Automation.Scripting.Editor.TestScriptBtn,Test,-
+IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation,Il y a des modifications non enregistrées. Voulez-vous les annuler ?,-
+IgorZ.Automation.Scripting.Editor.ExportDialogHeader,Règles d'automatisation d'exportation,-
+IgorZ.Automation.Scripting.Editor.ImportDialogHeader,Importer des règles d'automatisation,-
+IgorZ.Automation.Scripting.ImportDialog.AllowErrors,Importer avec des erreurs,-
+IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules,Supprimer les règles existantes,-
+IgorZ.Automation.Scripting.ImportDialog.ReadMore,Lisez sur les imports,-
+IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl,"Je suis désolé, mais je ne peux pas accéder aux contenus externes tels que des pages GitHub. Si vous avez un texte spécifique que vous souhaitez traduire, veuillez le copier ici et je serai ravi de vous aider avec la traduction en français.",-
+IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules,Ignorer les règles échouées,-
+IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError,"Action non applicable :  
+{0}",-
+IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError,"Condition non applicable :  
+{0}",-
+IgorZ.Automation.Scripting.ImportRules.ExpectedActionError,Expression d'action attendue,-
+IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError,Expression de condition attendue,-
+IgorZ.Automation.Scripting.ImportRules.ImportError,Erreur à la ligne {0} : {1},-
+IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError,Déclaration de règle incomplète,-
+IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment,Comment multi-ligne non fermé,-
+IgorZ.Automation.Settings.Debug.PathCheckingProfiling,Vérification du chemin de journal des statistiques du moteur,-
+IgorZ.Automation.Settings.Debug.LogSignalSetting,Journaliser les valeurs de signal de réglage,-
+IgorZ.Automation.Settings.Debug.LogSignalPropagating,Propagation du signal logistique,-
+IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton,Afficher toujours le bouton 'Ajouter des règles',-
+IgorZ.Automation.Settings.EntityPanel.Header,Contrôles sur le panneau de construction,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle,Style de la description de règle,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable,Texte,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script,Script,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort,Pseudo-script,-
+TimberDev_Utils.Settings.Debug.VerboseLogging,Journalisation détaillée,-
+TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip,"Les journaux auront des détails plus utiles, mais cela peut affecter les performances du jeu.",-
+TimberDev_Utils.Settings.DebugSection,Débogage et dépannage,-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,Maintenez <i>MAJ</i> enfoncé pour sélectionner des éléments d'un seul type.,-
+TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Sélectionner : {0} (x{1}),-
+TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Sélectionner : {0},-
+TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,Cliquez pour commencer à sélectionner : {0},-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,Pointez sur une entité et cliquez pour commencer à sélectionner,-

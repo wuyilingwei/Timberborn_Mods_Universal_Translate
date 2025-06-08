@@ -2,4 +2,19 @@ ID,Text,Comment
 Tobbert.PipetteTool.DisplayName,ピペット,-
 Tobbert.PipetteTool.Description,建物をクリックすると、その建物の建設モードに入ります。（デフォルトのショートカットは CTRL + クリックです）,-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,ピペットツール,-
-Tobbert.PipetteTool.KeyBinding.PipetteTool,ピペットツール,-
+Tobbert.PipetteTool.KeyBinding.PipetteTool,ピペットツールのキー割り当て,-
+Tobbert.PipetteTool.Setting.Header,ピペットツール設定,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,ペピッティングモード,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"ホールドモード：ピペットツールのキーbindボタンを押し続け、マウス選択ボタンを使用してピペッティングを開始します。  
+プレスモード：ピペットツールのキーbindが押されて離されると、ピペットツールがアクティブになります。  
+ダイレクトモード（キーbind）：この設定により、クリックすることなく直接的にピペッティングが可能になります。上記のキーbindを使用すると、関連する建物に直接切り替わります（Factorioプレイヤー推奨）。  
+ダイレクトモード（ミドルマウスボタン）：この設定により、キーbindを使用せずに直接的にピペッティングが可能になります。ミドルマウスボタンを使用すると、関連する建物に直接切り替わります（Minecraftプレイヤー推奨）。  
+反転モード：建物が選択されているときに、ピペットツールのキーbindを押すと、関連するオブジェクトに切り替わります。",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,マウス選択ボタン,-
+Tobbert.PipetteTool.Setting.HoldMode,ホールドモード,-
+Tobbert.PipetteTool.Setting.PressMode,プレモード,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,ダイレクトモード（キー入力）,-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,ダイレクトモード（中央マウスボタン）,-
+Tobbert.PipetteTool.Setting.ForcePipette,強制ピペッティング,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,別のツールが現在アクティブであっても、ピペッティングツールを強制的に使用します。,-
+Tobbert.PipetteTool.Setting.InvertedMode,反転モード,-

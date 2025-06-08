@@ -2,4 +2,19 @@ ID,Text,Comment
 Tobbert.PipetteTool.DisplayName,Pipeta,-
 Tobbert.PipetteTool.Description,"Kliknij budynek, aby wejść w tryb budowy dla tego budynku. (Domyślny skrót CTRL + KLIK)",-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,Narzędzie pipetowe,-
-Tobbert.PipetteTool.KeyBinding.PipetteTool,Narzędzie pipetowe,-
+Tobbert.PipetteTool.KeyBinding.PipetteTool,Skrót klawiszowy narzędzia pipety,-
+Tobbert.PipetteTool.Setting.Header,Ustawienia narzędzia pipety,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,Tryb pipetowania,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"Tryb Przytrzymania: Przytrzymaj przycisk skrótu narzędzia pipetowego i użyj przycisku wyboru myszy, aby rozpocząć pipetowanie.  
+Tryb Naciśnij: Narzędzie pipetowe jest aktywowane po naciśnięciu i zwolnieniu przycisku skrótu narzędzia pipetowego.  
+Tryb Bezpośredni (Skrót Klawiszowy): Ta opcja pozwala na bezpośrednie pipetowanie bez konieczności klikania. Użycie powyższego skrótu klawiszowego spowoduje natychmiastowe przełączenie do odpowiedniego budynku (zatwierdzone przez graczy Factorio).  
+Tryb Bezpośredni (Środkowy Przycisk Myszy): Ta opcja pozwala na bezpośrednie pipetowanie bez konieczności korzystania ze skrótu klawiszowego. Użycie środkowego przycisku myszy spowoduje natychmiastowe przełączenie do odpowiedniego budynku (zatwierdzone przez graczy Minecraft).  
+Tryb Odwrócony: Gdy budynek jest wybrany, naciśnij skrót klawiszowy narzędzia pipetowego, aby przełączyć odpowiedni obiekt.  ",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,Przycisk wyboru myszy,-
+Tobbert.PipetteTool.Setting.HoldMode,Tryb Hold,-
+Tobbert.PipetteTool.Setting.PressMode,Tryb naciśnięcia,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,Tryb bezpośredni (Skrót klawiaturowy),-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,Tryb bezpośredni (przycisk środkowy myszy),-
+Tobbert.PipetteTool.Setting.ForcePipette,Pipetowanie siłą,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,"Wymusza narzędzie pipetujące, nawet gdy inne narzędzie jest obecnie aktywne.",-
+Tobbert.PipetteTool.Setting.InvertedMode,Tryb odwrotny,-

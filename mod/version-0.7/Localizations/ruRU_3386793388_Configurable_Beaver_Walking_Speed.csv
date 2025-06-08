@@ -6,10 +6,14 @@ CBW.BaseWalkingSpeedDesc,Базовая скорость ходьбы бобро
 CBW.BaseSlowedSpeed,Базовая замедленная скорость,-
 CBW.BaseSlowedSpeedDesc,Базовая замедленная скорость бобров (По умолчанию в игре: 1.5),-
 CBW.DifferentBotSpeed,Разная скорость для ботов,-
-CBW.DifferentBotSpeedDesc,"Если включено, боты будут двигаться с разной скоростью. Это может немного повлиять на производительность.",-
+CBW.DifferentBotSpeedDesc,"Если включено, у ботов будут разные скорости ходьбы и работы. Это может незначительно повлиять на производительность.",-
 CBW.BaseBotWalkingSpeed,Базовая скорость ходьбы для ботов,-
 CBW.BaseBotWalkingSpeedDesc,Базовая скорость ходьбы ботов (По умолчанию в игре: 2.7),-
 CBW.BaseBotSlowedSpeed,Базовая замедленная скорость для ботов,-
 CBW.BaseBotSlowedSpeedDesc,Базовая скорость ботов замедлена (По умолчанию в игре: 1.5),-
 CBW.CarryingWeightMultiplier,Множитель веса при переноске,-
 CBW.CarryingWeightMultiplierDesc,"Множитель для максимального веса, который могут переносить бобры и боты (Игровой по умолчанию: 1). Примечание: не вступает в силу до перезагрузки сохранения.",-
+CBW.WorkSpeedMultiplier,Мультипликатор скорости работы,-
+CBW.WorkSpeedMultiplierDesc,Множитель скорости работы бобров (по умолчанию в игре: 1).,-
+CBW.BotWorkSpeedMultiplier,Множитель скорости работы бота,-
+CBW.BotWorkSpeedMultiplierDesc,Множитель скорости работы ботов (По умолчанию в игре: 1).,-

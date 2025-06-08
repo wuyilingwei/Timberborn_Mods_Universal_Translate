@@ -1,7 +1,71 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton,Dodatkowe narzędzia terenowe,-
-TerrainTools.Keybinding.Undo,Narzędzia terenu - Cofnij,-
-TerrainTools.Keybinding.FastUndo,Narzędzia terenu - Cofnij x 5,-
-TerrainTools.Keybinding.Redo,Narzędzia terenu - Ponów,-
-TerrainTools.Keybinding.FastRedo,Narzędzia terenu - Powtórz x 5,-
-TerrainTools.Keybinding.CycleMode,Narzędzia terenowe - Tryb cyklu,-
+TerrainTools.ToolGroupButton.Label,Dodatkowe Narzędzia Terenowe,-
+TerrainTools.KeyBindingGroup.Label,Narzędzia terenu,-
+TerrainTools.Keybinding.Undo,Cofnij,-
+TerrainTools.Keybinding.FastUndo,Cofnij x 5,-
+TerrainTools.Keybinding.Redo,Zrób to ponownie,-
+TerrainTools.Keybinding.FastRedo,Przerób x 5,-
+TerrainTools.Keybinding.CycleMode,Tryb cyklu,-
+TerrainTools.Common.Button.Apply,Zastosować,-
+TerrainTools.Common.Button.Reset,Resetuj,-
+TerrainTools.Heightmap.Tool.Title,Generator map wysokości,-
+TerrainTools.Heightmap.Tool.Warning,Zmiany wpływają na całą mapę.,-
+TerrainTools.Heightmap.Button.Generate,Generować,-
+TerrainTools.Heightmap.Checkbox.ClearObjects,Wyczyść istniejące obiekty,-
+TerrainTools.Heightmap.Generate.Hint,"Kliknij {0}, aby zaktualizować teren.",-
+TerrainTools.Heightmap.Generate.Warning,{0} zostanie usunięte. Ta akcja nie może być cofnięta.,-
+TerrainTools.Heightmap.Clear.WaterSourcesOnly,Wszystkie źródła wody,-
+TerrainTools.Heightmap.Clear.All,Wszystkie obiekty,-
+TerrainTools.Heightmap.Status.Idle,Bezczynny,-
+TerrainTools.Heightmap.Status.Generating,Generowanie,-
+TerrainTools.Heightmap.Seed.Label,Nasiona,-
+TerrainTools.Heightmap.Seed.Lock.Label,Zamek,-
+TerrainTools.Heightmap.Slider.LOD,Poziom szczegółowości,-
+TerrainTools.Heightmap.Slider.Amplitude,Amplituda,-
+TerrainTools.Heightmap.Slider.Frequency,Częstotliwość,-
+TerrainTools.Heightmap.Slider.Crest,Kształt herbu,-
+TerrainTools.Heightmap.Slider.Base,Podstawowy kształt,-
+TerrainTools.Heightmap.Slider.Mean,Średni wzrost,-
+TerrainTools.Heightmap.Slider.Min,Minimalna wysokość,-
+TerrainTools.Heightmap.Slider.Max,Maksymalna wysokość,-
+TerrainTools.Heightmap.Slider.PeriodX,Okres X,-
+TerrainTools.Heightmap.Slider.PeriodY,Okres Y,-
+TerrainTools.PathPainter.Tool.Title,Malarz Ścieżek,-
+TerrainTools.PathPainter.Tool.Description,Dostosuj teren za pomocą linii,-
+TerrainTools.PathPainter.Tip.AddMove,{0} = Dodaj lub przenieś punkty,-
+TerrainTools.PathPainter.Tip.DeleteHovered,{0} = Usuń najechany punkt,-
+TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (Trzymaj) = Usuń punkty,-
+TerrainTools.PathPainter.Curve.Button.Line,Linia,-
+TerrainTools.PathPainter.Curve.Button.3Points,3 punkty,-
+TerrainTools.PathPainter.Curve.Button.4Points,4 punkty,-
+TerrainTools.PathPainter.Curve.Button.Continuous,Ciągły,-
+TerrainTools.PathPainter.Curve.Toggle.SingleSegment,Pojedynczy segment,-
+TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,Gładkie końce,-
+TerrainTools.PathPainter.Curve.Slider.Distance,Odległość,-
+TerrainTools.PathPainter.ToggleText.Symmetry,Symetria,-
+TerrainTools.PathPainter.ToggleText.Symmetry.On,Włączone,-
+TerrainTools.PathPainter.ToggleText.Symmetry.Off,Niepełnosprawny,-
+TerrainTools.PathPainter.Button.ClearAll,Czysta ścieżka,-
+TerrainTools.Smoothing.Tool.Title,Pędzel wygładzający,-
+TerrainTools.Smoothing.Slider.Brush.Size,Rozmiar pędzla,-
+TerrainTools.Smoothing.Slider.Sample.Size,Wielkość próby,-
+TerrainTools.Smoothing.Slider.Force,Siła,-
+TerrainTools.Smoothing.ToggleGroup.Shape,Kształt pędzla,-
+TerrainTools.Smoothing.Shape.Square,Kwadrat,-
+TerrainTools.Smoothing.Shape.Circle,Koło,-
+TerrainTools.MoundMaker.Tool.Title,Twórca kopców,-
+TerrainTools.MoundMaker.Hint.CycleSeed,{0} = Nasiona cyklu,-
+TerrainTools.MoundMaker.Hint.DigMode,{0} (Przytrzymaj) = Tryb dig,-
+TerrainTools.MoundMaker.Header.Shape,Kształt,-
+TerrainTools.MoundMaker.Slider.PeakHeight,Wysokość szczytu,-
+TerrainTools.MoundMaker.Slider.MaxChange,Maksymalna zmiana,-
+TerrainTools.MoundMaker.Header.RadialNoise,Hałas radialny,-
+TerrainTools.MoundMaker.Slider.Radial.Scale,Waga,-
+TerrainTools.MoundMaker.Slider.Radial.Frequency,Częstotliwość,-
+TerrainTools.MoundMaker.Slider.Radial.Detail,Szczegół,-
+TerrainTools.MoundMaker.Header.VerticalNoise,Hałas pionowy,-
+TerrainTools.MoundMaker.Slider.Vertical.Amplitude,Amplituda,-
+TerrainTools.MoundMaker.Slider.Vertical.Frequency,Częstotliwość,-
+TerrainTools.MoundMaker.Slider.Vertical.Detail,Szczegół,-
+TerrainTools.MoundMaker.Checkbox.Randomize,Losuj,-
+TerrainTools.MoundMaker.Seed.Label,Nasiona,-

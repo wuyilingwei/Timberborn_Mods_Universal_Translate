@@ -2,4 +2,19 @@ ID,Text,Comment
 Tobbert.PipetteTool.DisplayName,Pipeta,-
 Tobbert.PipetteTool.Description,Clique em um edifício para entrar no modo de construção para esse edifício. (Atalho padrão CTRL + CLIQUE),-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,Ferramenta de Pipeta,-
-Tobbert.PipetteTool.KeyBinding.PipetteTool,Ferramenta de Pipeta,-
+Tobbert.PipetteTool.KeyBinding.PipetteTool,Atalho da Ferramenta Pipeta,-
+Tobbert.PipetteTool.Setting.Header,Configurações da Ferramenta de Pipeta,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,Modo de Pipetagem,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"Modo de Segurar: Mantenha pressionado o botão de atalho da Ferramenta Pipeta e use o botão de Seleção do Mouse para começar a pipetar.  
+Modo de Pressionar: A Ferramenta Pipeta é ativada após o botão de atalho da Ferramenta Pipeta ser pressionado e liberado.  
+Modo Direto (Atalho): Esta configuração permite a pipetagem direta sem precisar clicar. Usando o atalho acima, ele irá mudar diretamente para o edifício relevante (aprovado por jogadores de Factorio).  
+Modo Direto (Botão do meio do Mouse): Esta configuração permite a pipetagem direta sem precisar usar o atalho. Usando o Botão do meio do Mouse, ele irá mudar diretamente para o edifício relevante (aprovado por jogadores de Minecraft).  
+Modo Invertido: Quando um edifício é selecionado, pressione o Atalho da Ferramenta Pipeta para mudar o objeto relevante.",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,Botão de Seleção do Mouse,-
+Tobbert.PipetteTool.Setting.HoldMode,Modo de Manutenção,-
+Tobbert.PipetteTool.Setting.PressMode,Modo de Pressione,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,Modo Direto (Atalho),-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,Modo Direto (Botão do Meio do Mouse),-
+Tobbert.PipetteTool.Setting.ForcePipette,Pipetagem Forçada,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,Força a ferramenta de pipetagem mesmo quando outra ferramenta está atualmente ativa.,-
+Tobbert.PipetteTool.Setting.InvertedMode,Modo Invertido,-

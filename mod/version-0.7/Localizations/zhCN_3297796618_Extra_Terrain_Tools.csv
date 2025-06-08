@@ -1,71 +1,71 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton,拓展地形工具,-
-TerrainTools.KeyBindingGroup.Label,拓展地形工具,-
-TerrainTools.Keybinding.Undo,拓展地形工具 - 撤销,-
-TerrainTools.Keybinding.FastUndo,拓展地形工具 - 撤销5次,-
-TerrainTools.Keybinding.Redo,拓展地形工具 - 重做,-
-TerrainTools.Keybinding.FastRedo,拓展地形工具 - 重做5次,-
-TerrainTools.Keybinding.CycleMode,拓展地形工具 - 切换,-
-TerrainTools.Common.Button.Apply,应用,将当前选择的工具和选项应用到地形上的通用按钮
-TerrainTools.Common.Button.Reset,重置,重置当前工具选项的通用按钮
-TerrainTools.Heightmap.Tool.Title,地形生成工具,工具标题
-TerrainTools.Heightmap.Tool.Warning,此工具会影响整个地图。,"警告该工具有全局影响，以橙色显示在工具栏上方"
-TerrainTools.Heightmap.Button.Generate,生成,生成按钮标签
-TerrainTools.Heightmap.Checkbox.ClearObjects,清除地图物体,清除场景中现有物体的复选框标签
-TerrainTools.Heightmap.Generate.Hint,点击{0}更新地形。,"{0}包含加粗显示的生成按钮名称，文本为斜体"
-TerrainTools.Heightmap.Generate.Warning,{0}将被清除。此操作不可撤销。,{0}包含Clear.WaterSourcesOnly或Clear.All的文本
-TerrainTools.Heightmap.Clear.WaterSourcesOnly,所有水源,"清除所有物体模式下的显示文本，文本会以颜色高亮"
-TerrainTools.Heightmap.Clear.All,所有物体,"仅清除水源模式下的显示文本，文本会以颜色高亮"
-TerrainTools.Heightmap.Status.Idle,等待生成,"未生成地图时的状态文本，保持简短"
-TerrainTools.Heightmap.Status.Generating,生成中,"生成地图时的状态文本，保持简短，后面会跟随生成百分比"
-TerrainTools.Heightmap.Seed.Label,种子,"种子可编辑字段的标签，尽量与Seed.Lock.Label长度相同"
-TerrainTools.Heightmap.Seed.Lock.Label,锁定,"锁定种子字段编辑的复选框标签，尽量与Seed.Label长度相同"
-TerrainTools.Heightmap.Slider.LOD,细节 (细微地形),"控制生成器创建表面细节程度的滑块标签"
-TerrainTools.Heightmap.Slider.Amplitude,振幅 (陡峭程度),"控制噪声函数振幅的滑块标签（即山峰/山谷的高度）"
-TerrainTools.Heightmap.Slider.Frequency,频率 (山丘数量),"控制噪声函数频率的滑块标签（即山峰/山谷的数量）"
-TerrainTools.Heightmap.Slider.Crest,峰顶形状,"调整噪声上半部分形状的曲线滑块标签（如山脊形状）"
-TerrainTools.Heightmap.Slider.Base,峰底形状,"调整噪声下半部分形状的曲线滑块标签（如山脚形状）"
-TerrainTools.Heightmap.Slider.Mean,平均高度,"控制平均高度的滑块标签"
-TerrainTools.Heightmap.Slider.Min,最小高度,"控制最小高度的滑块标签"
-TerrainTools.Heightmap.Slider.Max,最大高度,"控制最大高度的滑块标签"
-TerrainTools.Heightmap.Slider.PeriodX,噪声X轴周期,"控制X方向噪声周期的滑块标签"
-TerrainTools.Heightmap.Slider.PeriodY,噪声Y轴周期,"控制Y方向噪声周期的滑块标签"
-TerrainTools.PathPainter.Tool.Title,路径绘制工具,工具标题
-TerrainTools.PathPainter.Tool.Description,沿着绘制的路径调整地形。,"工具描述：允许绘制线条并沿线条调整地形，保持简洁"
-TerrainTools.PathPainter.Tip.AddMove,{0}：添加/移动点,"按键提示，{0}会被替换为对应按键"
-TerrainTools.PathPainter.Tip.DeleteHovered,{0}：删除悬停点,"按键提示，{0}会被替换为对应按键"
-TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (按住)：删除多个点,"按键提示，{0}会被替换为对应按键，需长按实现效果"
-TerrainTools.PathPainter.Curve.Button.Line,直线,进入直线绘制模式的按钮文字
-TerrainTools.PathPainter.Curve.Button.3Points,三点曲线,进入基于3个点(二阶贝塞尔曲线)绘制曲线的按钮文字
-TerrainTools.PathPainter.Curve.Button.4Points,四点曲线,进入基于4个点(三阶贝塞尔曲线)绘制曲线的按钮文字
-TerrainTools.PathPainter.Curve.Button.Continuous,连续曲线,进入通过所有点的曲线绘制模式(Catmul-Rom样条)的按钮文字
-TerrainTools.PathPainter.Curve.Toggle.SingleSegment,单段模式,勾选时用户只能绘制单个线段(基于当前模式)
-TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,平滑端点,勾选时线条末端将被平滑处理
-TerrainTools.PathPainter.Curve.Slider.Distance,绘制距离,控制沿线条绘制地形的距离
-TerrainTools.PathPainter.ToggleText.Symmetry,对称模式,"单字词，启用时左右两侧将完全对称"
-TerrainTools.PathPainter.ToggleText.Symmetry.On,已启用,"单字词，与ToggleText.Symmetry配合表示开启状态"
-TerrainTools.PathPainter.ToggleText.Symmetry.Off,已禁用,"单字词，与ToggleText.Symmetry配合表示关闭状态"
-TerrainTools.PathPainter.Button.ClearAll,清除路径,"清除所有点，路径指代工具名称中的概念"
-TerrainTools.Smoothing.Tool.Title,平滑笔刷工具,工具标题
-TerrainTools.Smoothing.Slider.Brush.Size,笔刷大小,笔刷尺寸
-TerrainTools.Smoothing.Slider.Sample.Size,采样范围,"笔刷采样范围，用于控制平滑处理的影响距离"
-TerrainTools.Smoothing.Slider.Force,笔刷硬度,笔刷对地形的平滑力度
-TerrainTools.Smoothing.ToggleGroup.Shape,笔刷形状,控制笔刷形状的选项组标签
-TerrainTools.Smoothing.Shape.Square,方形,方形笔刷选项
-TerrainTools.Smoothing.Shape.Circle,圆形,圆形笔刷选项
-TerrainTools.MoundMaker.Tool.Title,山丘生成工具,工具标题
-TerrainTools.MoundMaker.Hint.CycleSeed,{0}：更换种子,"更换种子的快捷键提示，{0}会被替换为实际按键"
-TerrainTools.MoundMaker.Hint.DigMode,{0} (按住)：挖掘模式,"进入挖掘模式的快捷键提示，需长按，{0}会被替换为实际按键"
-TerrainTools.MoundMaker.Header.Shape,形状,形状参数类别的标题标签
-TerrainTools.MoundMaker.Slider.PeakHeight,峰顶高度,控制丘顶高度的滑块标签
-TerrainTools.MoundMaker.Slider.MaxChange,变化幅度,控制最大调整幅度的滑块标签
-TerrainTools.MoundMaker.Header.RadialNoise,径向噪波,径向噪波参数类别的标题标签
-TerrainTools.MoundMaker.Slider.Radial.Scale,缩放,"控制径向噪波比例的滑块标签，百分比值"
-TerrainTools.MoundMaker.Slider.Radial.Frequency,频率,控制径向噪波频率的滑块标签
-TerrainTools.MoundMaker.Slider.Radial.Detail,细节,控制径向噪波细节程度的滑块标签
-TerrainTools.MoundMaker.Header.VerticalNoise,垂直噪波,垂直噪波参数类别的标题标签
-TerrainTools.MoundMaker.Slider.Vertical.Amplitude,振幅,"控制垂直噪波振幅的滑块标签，距离单位值"
-TerrainTools.MoundMaker.Slider.Vertical.Frequency,频率,控制垂直噪波频率的滑块标签
-TerrainTools.MoundMaker.Slider.Vertical.Detail,细节,控制垂直噪波细节程度的滑块标签
-TerrainTools.MoundMaker.Checkbox.Randomize,随机化,控制种子自动随机化的复选框标签
-TerrainTools.MoundMaker.Seed.Label,种子,种子显示的标签
+TerrainTools.ToolGroupButton.Label,额外地形工具,-
+TerrainTools.KeyBindingGroup.Label,地形工具,-
+TerrainTools.Keybinding.Undo,撤销,-
+TerrainTools.Keybinding.FastUndo,撤销 x 5,-
+TerrainTools.Keybinding.Redo,重做,-
+TerrainTools.Keybinding.FastRedo,重新做 5 次,-
+TerrainTools.Keybinding.CycleMode,循环模式,-
+TerrainTools.Common.Button.Apply,申请,-
+TerrainTools.Common.Button.Reset,重置,-
+TerrainTools.Heightmap.Tool.Title,高度图生成器,-
+TerrainTools.Heightmap.Tool.Warning,更改会影响整个地图,-
+TerrainTools.Heightmap.Button.Generate,生成,-
+TerrainTools.Heightmap.Checkbox.ClearObjects,清除现有对象,-
+TerrainTools.Heightmap.Generate.Hint,点击 {0} 更新地形。,-
+TerrainTools.Heightmap.Generate.Warning,{0} 将被移除。此操作无法撤销。,-
+TerrainTools.Heightmap.Clear.WaterSourcesOnly,所有水源,-
+TerrainTools.Heightmap.Clear.All,所有物体,-
+TerrainTools.Heightmap.Status.Idle,闲置,-
+TerrainTools.Heightmap.Status.Generating,生成中,-
+TerrainTools.Heightmap.Seed.Label,种子,-
+TerrainTools.Heightmap.Seed.Lock.Label,锁,-
+TerrainTools.Heightmap.Slider.LOD,细节级别,-
+TerrainTools.Heightmap.Slider.Amplitude,振幅,-
+TerrainTools.Heightmap.Slider.Frequency,频率,-
+TerrainTools.Heightmap.Slider.Crest,徽章形状,-
+TerrainTools.Heightmap.Slider.Base,基本形状,-
+TerrainTools.Heightmap.Slider.Mean,平均身高,-
+TerrainTools.Heightmap.Slider.Min,最小高度,-
+TerrainTools.Heightmap.Slider.Max,最大高度,-
+TerrainTools.Heightmap.Slider.PeriodX,时期X,-
+TerrainTools.Heightmap.Slider.PeriodY,期间Y,-
+TerrainTools.PathPainter.Tool.Title,路径画家,-
+TerrainTools.PathPainter.Tool.Description,使用线条调整地形,-
+TerrainTools.PathPainter.Tip.AddMove,{0} = 添加或移动积分,-
+TerrainTools.PathPainter.Tip.DeleteHovered,{0} = 移除悬停点,-
+TerrainTools.PathPainter.Tip.DeleteMultiple,{0}（保持）= 移除积分,-
+TerrainTools.PathPainter.Curve.Button.Line,线路,-
+TerrainTools.PathPainter.Curve.Button.3Points,3个要点,-
+TerrainTools.PathPainter.Curve.Button.4Points,四个要点,-
+TerrainTools.PathPainter.Curve.Button.Continuous,连续的,-
+TerrainTools.PathPainter.Curve.Toggle.SingleSegment,单段,-
+TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,光滑的端点,-
+TerrainTools.PathPainter.Curve.Slider.Distance,距离,-
+TerrainTools.PathPainter.ToggleText.Symmetry,对称性,-
+TerrainTools.PathPainter.ToggleText.Symmetry.On,启用,-
+TerrainTools.PathPainter.ToggleText.Symmetry.Off,禁用,-
+TerrainTools.PathPainter.Button.ClearAll,清晰的路径,-
+TerrainTools.Smoothing.Tool.Title,平滑刷,-
+TerrainTools.Smoothing.Slider.Brush.Size,画笔大小,-
+TerrainTools.Smoothing.Slider.Sample.Size,样本大小,-
+TerrainTools.Smoothing.Slider.Force,力量,-
+TerrainTools.Smoothing.ToggleGroup.Shape,画笔形状,-
+TerrainTools.Smoothing.Shape.Square,正方形,-
+TerrainTools.Smoothing.Shape.Circle,圆圈,-
+TerrainTools.MoundMaker.Tool.Title,土堆制造者,-
+TerrainTools.MoundMaker.Hint.CycleSeed,{0} = 循环种子,-
+TerrainTools.MoundMaker.Hint.DigMode,{0}（保持）= 挖掘模式,-
+TerrainTools.MoundMaker.Header.Shape,形状,-
+TerrainTools.MoundMaker.Slider.PeakHeight,峰高,-
+TerrainTools.MoundMaker.Slider.MaxChange,最大变化,-
+TerrainTools.MoundMaker.Header.RadialNoise,径向噪声,-
+TerrainTools.MoundMaker.Slider.Radial.Scale,规模,-
+TerrainTools.MoundMaker.Slider.Radial.Frequency,频率,-
+TerrainTools.MoundMaker.Slider.Radial.Detail,细节,-
+TerrainTools.MoundMaker.Header.VerticalNoise,垂直噪声,-
+TerrainTools.MoundMaker.Slider.Vertical.Amplitude,振幅,-
+TerrainTools.MoundMaker.Slider.Vertical.Frequency,频率,-
+TerrainTools.MoundMaker.Slider.Vertical.Detail,细节,-
+TerrainTools.MoundMaker.Checkbox.Randomize,随机化,-
+TerrainTools.MoundMaker.Seed.Label,种子,-

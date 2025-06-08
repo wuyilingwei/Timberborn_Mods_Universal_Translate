@@ -2,4 +2,19 @@ ID,Text,Comment
 Tobbert.PipetteTool.DisplayName,Pipette,-
 Tobbert.PipetteTool.Description,"Klicken Sie auf ein Gebäude, um den Konstruktionsmodus für dieses Gebäude zu aktivieren. (Standardverknüpfung STRG + KLICK)",-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,Pipettenwerkzeug,-
-Tobbert.PipetteTool.KeyBinding.PipetteTool,Pipettenwerkzeug,-
+Tobbert.PipetteTool.KeyBinding.PipetteTool,Pipettentool-Tastenkombination,-
+Tobbert.PipetteTool.Setting.Header,Pipettenwerkzeugs Einstellungen,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,Pipettiermodus,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"Haltmodus: Halten Sie die Taste für das Pipettierwerkzeug und verwenden Sie die Maustaste zur Auswahl, um mit dem Pipettieren zu beginnen. 
+Druckmodus: Das Pipettierwerkzeug wird aktiviert, nachdem die Taste für das Pipettierwerkzeug gedrückt und wieder losgelassen wurde. 
+Direktmodus (Tastenkürzel): Diese Einstellung ermöglicht direktes Pipettieren, ohne klicken zu müssen. Mit dem oben genannten Tastenkürzel wird direkt zum entsprechenden Gebäude gewechselt (von Factorio-Spielern genehmigt). 
+Direktmodus (Mittlere Maustaste): Diese Einstellung ermöglicht direktes Pipettieren, ohne das Tastenkürzel verwenden zu müssen. Mit der mittleren Maustaste wird direkt zum entsprechenden Gebäude gewechselt (von Minecraft-Spielern genehmigt). 
+Umgekehrter Modus: Wenn ein Gebäude ausgewählt ist, drücken Sie das Tastenkürzel für das Pipettierwerkzeug, um das entsprechende Objekt zu wechseln.",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,Mausauswahlknopf,-
+Tobbert.PipetteTool.Setting.HoldMode,Halten Modus,-
+Tobbert.PipetteTool.Setting.PressMode,Druckmodus,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,Direktmodus (Tastenkombination),-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,Direktmodus (Mittlere Maustaste),-
+Tobbert.PipetteTool.Setting.ForcePipette,Kraftpipettierung,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,"Zwingt das Pipettierwerkzeug, selbst wenn ein anderes Werkzeug derzeit aktiv ist.",-
+Tobbert.PipetteTool.Setting.InvertedMode,Inversierter Modus,-

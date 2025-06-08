@@ -1,30 +1,36 @@
 ID,Text,Comment
-MapMakerPlants.GiantSequoia.DisplayName,巨杉 3x3,-
-MapMakerPlants.2X2treePlaceholder1.DisplayName,问号 2x2,-
-MapMakerPlants.Brambles.DisplayName,野生荆棘,-
-MapMakerPlants.NewVineV.DisplayName,葡萄藤,-
-MapMakerPlants.NewVineH.DisplayName,葡萄藤,-
-MapMakerPlants.Waterbamboo.DisplayName,巨竹 2x2,-
-MapMakerPlants.Baobab.DisplayName,猴面包树 5x5,-
+MapMakerPlants.GiantSequoia.DisplayName,3x3 巨型红杉,-
+MapMakerPlants.2X2treePlaceholder1.DisplayName,2x2 ??? 树,-
+MapMakerPlants.Brambles.DisplayName,荆棘,-
+MapMakerPlants.NewVineV.DisplayName,藤（竖）,-
+MapMakerPlants.NewVineH.DisplayName,藤蔓（水平）,-
+MapMakerPlants.Waterbamboo.DisplayName,2x2 W.竹子,-
+MapMakerPlants.Baobab.DisplayName,5x5 Baobab,-
 MapMakerPlants.LemonTree.DisplayName,柠檬树,-
-MapMakerPlants.PinkBirch.DisplayName,椿树,-
-MapMakerPlants.RuinedPath.DisplayName,道路残迹,-
-MapMakerPlants.BrokenHouse.DisplayName,原木废墟,-
-MapMakerPlants.PlankRuin.DisplayName,木板废墟,-
-NaturalResource.PinkBirch.DisplayName,椿树,-
+MapMakerPlants.PinkBirch.DisplayName,永盛花,-
+MapMakerPlants.RuinedPath.DisplayName,毁坏的小路,-
+MapMakerPlants.BrokenHouse.DisplayName,破损的房子（木头）,-
+MapMakerPlants.PlankRuin.DisplayName,破旧的房子（木板）,-
+NaturalResource.PinkBirch.DisplayName,永生花,-
 Good.Pumpkin.DisplayName,南瓜,-
-NaturalResource.Waterbamboo.DisplayName,巨竹,-
+NaturalResource.Waterbamboo.DisplayName,难以置信的高竹子,-
 Lapantouflemagic.NewVineH.DisplayName,葡萄藤,-
-MapMakerPlants.CrystalSupport.Description,透明的支撑物，可以堆叠，用于支撑在空中放置的浮空晶体。游玩时方块将不可见且无碰撞体积。,-
-MapMakerPlants.CrystalSupport.DisplayName,透明方块,-
-MPME.FloatingRock.DisplayName,浮空晶体,-
-MPME.FloatingRock.Description,漂浮在空中的神秘晶体，用于支撑空中岛屿。,-
-MPME.FloatingRock.FlavorDescription,这是什么原理？这么多年，这么多游戏，这么多空中岛屿，现在才问这是什么原理？,-
-MapMakerPlants.GearsRuin.DisplayName,齿轮废墟,-
-Building.SkyBadwaterSource.DisplayName,空岛恶水源,-
-Building.SkyWaterSource.DisplayName,空岛水源,-
-Building.VoidSinkHole.DisplayName,吸水透明地板,-
-Building.VoidSinkHole.Description,透明的遮盖物，可以使下方的地面变透明，同时作为负水源吸收周围的水。游玩时标记旗将不可见。,-
-MapMakerPlants.VoidTile.DisplayName,透明地板,-
-MapMakerPlants.VoidTile.Description,透明的遮盖物，可以使下方的地面变透明。,-
-MapMakerPlants.VoidTileLarge.DisplayName,透明地板 9x9 (不可拖动),-
+MapMakerPlants.CrystalSupport.Description,"支持在Z级别1以上放置浮动水晶。  
+可自我堆叠  
+在游戏中将不可见且没有碰撞体积",-
+MapMakerPlants.CrystalSupport.DisplayName,水晶支持,-
+MPME.FloatingRock.DisplayName,浮动水晶,-
+MPME.FloatingRock.Description,在空中漂浮以支撑天空岛，需要基于一些难以理解的原因依靠某物，使用支撑。,-
+MPME.FloatingRock.FlavorDescription,"""它是怎么工作的？""
+哦？哦，现在吗？经过这么多年之后？经过这么多游戏之后？现在你问我这些是怎么工作的吗？",-
+MapMakerPlants.GearsRuin.DisplayName,破损的建筑（齿轮）,-
+Building.SkyBadwaterSource.DisplayName,天空巴德沃特源,-
+Building.SkyWaterSource.DisplayName,天空水源,-
+Building.VoidSinkHole.DisplayName,天坑天空砖块,-
+Building.VoidSinkHole.Description,"在视觉上删除其下方的地面。
+作为一个负水源，删除从岛屿上掉落的水。
+游戏中不会显示这面旗帜。",-
+MapMakerPlants.VoidTile.DisplayName,天空区块,-
+MapMakerPlants.VoidTile.Description,"视觉上删除了它下面的地面。
+在那些你从未想过会看到水的地方。",-
+MapMakerPlants.VoidTileLarge.DisplayName,天空方块 9x9,-

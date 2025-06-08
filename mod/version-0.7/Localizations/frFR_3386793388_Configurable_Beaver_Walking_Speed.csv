@@ -6,10 +6,14 @@ CBW.BaseWalkingSpeedDesc,"La vitesse de marche de base des castors (Par défaut 
 CBW.BaseSlowedSpeed,Vitesse de base ralentie,-
 CBW.BaseSlowedSpeedDesc,"La vitesse de base ralentie des castors (par défaut du jeu : 1,5)",-
 CBW.DifferentBotSpeed,Vitesse différente pour les bots,-
-CBW.DifferentBotSpeedDesc,"Si activé, les bots auront des vitesses de marche différentes. Cela peut avoir un impact mineur sur les performances.",-
+CBW.DifferentBotSpeedDesc,"Si activé, les bots auront des vitesses de marche et de travail différentes. Cela peut avoir un léger impact sur les performances.",-
 CBW.BaseBotWalkingSpeed,Vitesse de marche de base pour les robots.,-
 CBW.BaseBotWalkingSpeedDesc,"La vitesse de marche de base des bots (Valeur par défaut du jeu : 2,7)",-
 CBW.BaseBotSlowedSpeed,Base réduction de la vitesse pour les bots,-
 CBW.BaseBotSlowedSpeedDesc,"La vitesse de base réduite des bots (Par défaut du jeu : 1,5)",-
 CBW.CarryingWeightMultiplier,Multiplicateur de poids porté,-
 CBW.CarryingWeightMultiplierDesc,Le multiplicateur pour le poids de portage maximum des castors et des bots (valeur par défaut du jeu : 1). Remarque : ne prend effet qu'après avoir rechargé une sauvegarde.,-
+CBW.WorkSpeedMultiplier,Multiplicateur de vitesse de travail,-
+CBW.WorkSpeedMultiplierDesc,Le multiplicateur pour la vitesse de travail des castors (Paramètre par défaut du jeu : 1).,-
+CBW.BotWorkSpeedMultiplier,Multiplicateur de vitesse de travail du bot,-
+CBW.BotWorkSpeedMultiplierDesc,Le multiplicateur pour la vitesse de travail des bots (défaut du jeu : 1).,-

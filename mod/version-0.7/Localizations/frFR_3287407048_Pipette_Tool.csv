@@ -2,4 +2,19 @@ ID,Text,Comment
 Tobbert.PipetteTool.DisplayName,Pipette,-
 Tobbert.PipetteTool.Description,Cliquez sur un bâtiment pour entrer en mode construction pour ce bâtiment. (Raccourci par défaut CTRL + CLIC),-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,Outil Pipette,-
-Tobbert.PipetteTool.KeyBinding.PipetteTool,Outil Pipette,-
+Tobbert.PipetteTool.KeyBinding.PipetteTool,Raccourci de l'outil Pipette,-
+Tobbert.PipetteTool.Setting.Header,Paramètres de l'outil pipette,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,Mode de pipetage,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"Mode Maintien : Maintenez enfoncé le bouton de raccourci de l’outil Pipette et utilisez le bouton de sélection de la souris pour commencer à pipetter.  
+Mode Pression : L’outil Pipette s'active après que le raccourci de l’outil Pipette a été pressé et relâché.  
+Mode Direct (Raccourci) : Ce paramètre permet de pipetter directement sans avoir à cliquer. En utilisant le raccourci ci-dessus, cela passera directement au bâtiment pertinent (approuvé par les joueurs de Factorio).  
+Mode Direct (Bouton de la souris du milieu) : Ce paramètre permet de pipetter directement sans avoir à utiliser le raccourci. En utilisant le bouton de la souris du milieu, cela passera directement au bâtiment pertinent (approuvé par les joueurs de Minecraft).  
+Mode Inversé : Lorsqu'un bâtiment est sélectionné, appuyez sur le raccourci de l’outil Pipette pour changer l'objet pertinent.",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,Bouton de sélection de souris,-
+Tobbert.PipetteTool.Setting.HoldMode,Mode de maintien,-
+Tobbert.PipetteTool.Setting.PressMode,Mode Presse,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,Mode Direct (Raccourci),-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,Mode Direct (Bouton du milieu de la souris),-
+Tobbert.PipetteTool.Setting.ForcePipette,Pipetage par force,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,Force l'outil de pipetage même lorsqu'un autre outil est actuellement actif.,-
+Tobbert.PipetteTool.Setting.InvertedMode,Mode inversé,-
