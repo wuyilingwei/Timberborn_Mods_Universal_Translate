@@ -1,4 +1,21 @@
 ID,Text,Comment
+Knatte.WE_IrrigationExtractFuel.DisplayName,Орошение с помощью Tree boost,-
+Knatte.WE_IrrigationFuel.DisplayName,Орошение,-
+Knatte.IrrigationTower.DisplayName,Ирригационная башня,-
+Knatte.IrrigationTower.Description,"Орошает землю вокруг себя. Не использует воду для плитки, которую не может орошать.",-
+Knatte.IrrigationTower.Header,Режим орошения:,-
+Knatte.IrrigationTower.FlavorDescription,"С учетом того, что менее трети Земли покрыто водой, орошение стало необходимостью.",-
+Knatte.IrrigationTowerV2_FT.DisplayName,Эффективная ирригационная башня,-
+Knatte.IrrigationTowerV2_FT.Description,"Орошает больше земли вокруг себя и может способствовать росту деревьев с помощью экстракта. Не использует воду для участков, которые не может орошать.",-
+Knatte.IrrigationTowerV2_IT.DisplayName,Силовой орошающий башня,-
+Knatte.IrrigationTowerV2_IT.Description,"Орошает вокруг без необходимости в работниках. Для большего использования воды также предотвращает загрязнение. Не использует воду для плитки, которую не может орошать.",-
+Knatte.IrrigationTowerV2.FlavorDescription,"С учетом того, что менее трети поверхности Земли покрыто водой, ирригация стала необходимостью.",-
+Knatte.BigIrrigationTower.DisplayName,Большая ирригационная башня,-
+Knatte.BigIrrigationTowerIT.Description,"Орошает еще больше земли вокруг себя за меньшее количество воды.  
+Синяя труба указывает начальную точку орошения.  
+Не использует воду для плит, которые не может орошать.",-
+Knatte.BigIrrigationTowerFT.Description,"Орощает еще большую площадь вокруг себя с меньшим количеством воды. Желтая труба указывает на начальную точку орошения. Не использует воду для плиток, которые не может орошать.",-
+Knatte.BigIrrigationTower.FlavorDescription,Капля капля капля.,-
 Knatte.IndWaterTank.DisplayName,Промышленный водяной резервуар,-
 Knatte.IndWaterTank.Description,"Держит больше воды и является штабелируемым, но требует металл.",-
 Knatte.Pipe5X.DisplayName,Трубопровод 5 длинный,-
@@ -17,11 +34,17 @@ Knatte.CategoryPipeU.Description,"Трубы, которые нужно прол
 Knatte.CategoryHideWE.DisplayName,Неиспользуемое водное расширение,-
 Knatte.Pipe1X.DisplayName,Трубный выход,-
 Knatte.Pipe1X.Description,"Два левого и один входной и выходной трубопровод. Левое необходимо подключить к питанию, но оно также должно действовать как передатчик. Не размещайте левое в шестиугольниках над выходной трубой! Это приведет к сбою!",-
+Knatte.PowerLevee.DisplayName,Приводной рукав,-
+Knatte.PowerLevee.Description,"Наружная дамба с валом для привода насосов. Как горизонтальная, так и вертикальная.",-
 Knatte.DeepSeaPump.DisplayName,Глубоководный насос,-
 Knatte.DeepSeaPump.Description,Помпа для дна моря,-
 Knatte.DeepSeaPump.FlavorDescription,"Глоток свежей воды достаточно, чтобы заряжать вас энергией.",-
+Knatte.UPowerLevee.DisplayName,Универсальный приводной рукав,-
+Knatte.UPowerLevee.Description,"Набережная, в которой есть вал для привода насосов. Подключена со всех сторон.",-
 Knatte.PipeH1X.DisplayName,Трубный выход (Н),-
 Knatte.PipeH1X.Description,"Насос с высоким объемом, два ливня и входная и выходная трубы. Ливни необходимо питать, но они также должны выполнять функцию передачи.",-
+Knatte.LargeWaterWheelLevee.DisplayName,Большое водяное колесо с насыпью,-
+Knatte.LargeWaterWheelLevee.Description,"Водяное колесо, которое также имеет наклоненную насыпь для поддержания воды в каналах и предотвращения ее переполнения.",-
 Knatte.PipeHU5X.DisplayName,Труба подземная 5 длинная (В),-
 Knatte.PipeHU10X.DisplayName,Труба подземная 10 длинная (H),-
 Knatte.PipeHU15X.DisplayName,Труба подземная 15 длинная (Н),-
@@ -66,6 +89,9 @@ Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,Вода УШЛА налево
 Knatte.Aqueduct_Wall2.DisplayName,Акведук Стена,-
 Knatte.Aqueduct_Wall2.Description,"Заблокируйте воду, чтобы она не попадала в тот же блок, что и этот, это можно использовать для постройки подводных путей.",-
 Knatte.Aqueduct_Wall2.FlavorDescription,Для заполнения,-
+Knatte.TurbineSmall.DisplayName,Малый турбин.,-
+Knatte.TurbineSmall.Description,"Небольшая турбина, которая вырабатывает энергию в том же направлении, что и вал.",-
+Knatte.TurbineSmall.FlavorDescription,Спасибо 99Cent и Ymerzeru за вдохновение,-
 Knatte.Aqueduct_Wall3.DisplayName,"Смещение  
 Акведук Стена",-
 Knatte.Aqueduct_Wall3.Description,"Заблокируйте воду, чтобы она не попадала в тот же блок, что и стена.",-

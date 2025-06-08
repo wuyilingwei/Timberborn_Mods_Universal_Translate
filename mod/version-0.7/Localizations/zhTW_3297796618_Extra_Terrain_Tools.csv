@@ -1,71 +1,7 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton.Label,額外地形工具,-
-TerrainTools.KeyBindingGroup.Label,地形工具,-
-TerrainTools.Keybinding.Undo,撤銷,-
-TerrainTools.Keybinding.FastUndo,撤銷 x 5,-
-TerrainTools.Keybinding.Redo,重做,-
-TerrainTools.Keybinding.FastRedo,重新做5次,-
-TerrainTools.Keybinding.CycleMode,自行車模式,-
-TerrainTools.Common.Button.Apply,應用,-
-TerrainTools.Common.Button.Reset,重置,-
-TerrainTools.Heightmap.Tool.Title,高度圖生成器,-
-TerrainTools.Heightmap.Tool.Warning,變更影響整個地圖,-
-TerrainTools.Heightmap.Button.Generate,生成,-
-TerrainTools.Heightmap.Checkbox.ClearObjects,清除現有物件,-
-TerrainTools.Heightmap.Generate.Hint,點擊 {0} 以更新地形。,-
-TerrainTools.Heightmap.Generate.Warning,{0} 將被刪除。此操作無法還原。,-
-TerrainTools.Heightmap.Clear.WaterSourcesOnly,所有水源,-
-TerrainTools.Heightmap.Clear.All,所有物件,-
-TerrainTools.Heightmap.Status.Idle,閒置,-
-TerrainTools.Heightmap.Status.Generating,生成中,-
-TerrainTools.Heightmap.Seed.Label,種子,-
-TerrainTools.Heightmap.Seed.Lock.Label,鎖,-
-TerrainTools.Heightmap.Slider.LOD,細節程度,-
-TerrainTools.Heightmap.Slider.Amplitude,振幅,-
-TerrainTools.Heightmap.Slider.Frequency,頻率,-
-TerrainTools.Heightmap.Slider.Crest,徽章形狀,-
-TerrainTools.Heightmap.Slider.Base,基本形狀,-
-TerrainTools.Heightmap.Slider.Mean,平均身高,-
-TerrainTools.Heightmap.Slider.Min,最小高度,-
-TerrainTools.Heightmap.Slider.Max,最大高度,-
-TerrainTools.Heightmap.Slider.PeriodX,時期 X,-
-TerrainTools.Heightmap.Slider.PeriodY,周期Y,-
-TerrainTools.PathPainter.Tool.Title,路徑畫家,-
-TerrainTools.PathPainter.Tool.Description,使用線條調整地形,-
-TerrainTools.PathPainter.Tip.AddMove,{0} = 添加或移動積分,-
-TerrainTools.PathPainter.Tip.DeleteHovered,{0} = 移除懸停的點,-
-TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (保持) = 移除積分,-
-TerrainTools.PathPainter.Curve.Button.Line,線條,-
-TerrainTools.PathPainter.Curve.Button.3Points,3 點,-
-TerrainTools.PathPainter.Curve.Button.4Points,四點,-
-TerrainTools.PathPainter.Curve.Button.Continuous,連續的,-
-TerrainTools.PathPainter.Curve.Toggle.SingleSegment,單一片段,-
-TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,光滑的端點,-
-TerrainTools.PathPainter.Curve.Slider.Distance,距離,-
-TerrainTools.PathPainter.ToggleText.Symmetry,對稱,-
-TerrainTools.PathPainter.ToggleText.Symmetry.On,啟用,-
-TerrainTools.PathPainter.ToggleText.Symmetry.Off,禁用,-
-TerrainTools.PathPainter.Button.ClearAll,清晰的道路,-
-TerrainTools.Smoothing.Tool.Title,平滑刷,-
-TerrainTools.Smoothing.Slider.Brush.Size,筆刷大小,-
-TerrainTools.Smoothing.Slider.Sample.Size,樣本大小,-
-TerrainTools.Smoothing.Slider.Force,力量,-
-TerrainTools.Smoothing.ToggleGroup.Shape,筆刷形狀,-
-TerrainTools.Smoothing.Shape.Square,正方形,-
-TerrainTools.Smoothing.Shape.Circle,圓圈,-
-TerrainTools.MoundMaker.Tool.Title,堆土者,-
-TerrainTools.MoundMaker.Hint.CycleSeed,{0} = 週期種子,-
-TerrainTools.MoundMaker.Hint.DigMode,{0} (按住) = 挖掘模式,-
-TerrainTools.MoundMaker.Header.Shape,形狀,-
-TerrainTools.MoundMaker.Slider.PeakHeight,峰高,-
-TerrainTools.MoundMaker.Slider.MaxChange,最大變更,-
-TerrainTools.MoundMaker.Header.RadialNoise,徑向噪音,-
-TerrainTools.MoundMaker.Slider.Radial.Scale,比例,-
-TerrainTools.MoundMaker.Slider.Radial.Frequency,頻率,-
-TerrainTools.MoundMaker.Slider.Radial.Detail,詳情,-
-TerrainTools.MoundMaker.Header.VerticalNoise,垂直噪音,-
-TerrainTools.MoundMaker.Slider.Vertical.Amplitude,振幅,-
-TerrainTools.MoundMaker.Slider.Vertical.Frequency,頻率,-
-TerrainTools.MoundMaker.Slider.Vertical.Detail,詳情,-
-TerrainTools.MoundMaker.Checkbox.Randomize,隨機化,-
-TerrainTools.MoundMaker.Seed.Label,種子,-
+TerrainTools.ToolGroupButton,額外地形工具,-
+TerrainTools.Keybinding.Undo,地形工具 - 還原,-
+TerrainTools.Keybinding.FastUndo,地形工具 - 撤銷 x 5,-
+TerrainTools.Keybinding.Redo,地形工具 - 重做,-
+TerrainTools.Keybinding.FastRedo,地形工具 - 重做 x 5,-
+TerrainTools.Keybinding.CycleMode,地形工具 - 循環模式,-

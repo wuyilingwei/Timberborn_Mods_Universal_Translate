@@ -1,4 +1,23 @@
 ID,Text,Comment
+Knatte.WE_IrrigationExtractFuel.DisplayName,Bewässerung mit Tree Boost,-
+Knatte.WE_IrrigationFuel.DisplayName,Bewässerung,-
+Knatte.IrrigationTower.DisplayName,Bewässerungsturm,-
+Knatte.IrrigationTower.Description,"Bewässert das Land um sich herum. Verwendet kein Wasser für Fliesen, die es nicht bewässern kann.",-
+Knatte.IrrigationTower.Header,Bewässerungsmodus:,-
+Knatte.IrrigationTower.FlavorDescription,"Mit weniger als einem Drittel der Erde, das mit Wasser bedeckt ist, wurde Bewässerung notwendig.",-
+Knatte.IrrigationTowerV2_FT.DisplayName,Effizienter Bewässerungsturm,-
+Knatte.IrrigationTowerV2_FT.Description,"Bewässert mehr Land um sich herum und kann das Baumwachstum mit Extrakt steigern. Verwendet kein Wasser für Fliesen, die es nicht bewässern kann.",-
+Knatte.IrrigationTowerV2_IT.DisplayName,Betriebener Bewässerungsturm,-
+Knatte.IrrigationTowerV2_IT.Description,"Bewässert die Umgebung ohne benötigte Arbeiter. Für einen höheren Wasserverbrauch blockiert es auch die Kontamination. Verwendet kein Wasser für Fliesen, die es nicht bewässern kann.",-
+Knatte.IrrigationTowerV2.FlavorDescription,"Bei weniger als einem Drittel der Erdoberfläche, die mit Wasser bedeckt ist, wurde Bewässerung notwendig.",-
+Knatte.BigIrrigationTower.DisplayName,Großer Bewässerungsturm,-
+Knatte.BigIrrigationTowerIT.Description,"Bewässert sogar noch mehr Land darum für weniger Wasser.  
+Der blaue Rohr zeigt den Ausgangspunkt der Bewässerung an.  
+Verwendet kein Wasser für Fliesen, die es nicht bewässern kann.",-
+Knatte.BigIrrigationTowerFT.Description,"Bewässert sogar mehr Land um sich herum mit weniger Wasser. 
+Gelbe Rohre zeigen den Startpunkt der Bewässerung an. 
+Verwendet kein Wasser für Fliesen, die es nicht bewässern kann.",-
+Knatte.BigIrrigationTower.FlavorDescription,Tropf Tropf Tropfen.,-
 Knatte.IndWaterTank.DisplayName,Industrieller Wassertank,-
 Knatte.IndWaterTank.Description,"Hält mehr Wasser und ist stapelbar, benötigt jedoch Metall.",-
 Knatte.Pipe5X.DisplayName,Rohr 5 Lang,-
@@ -17,11 +36,17 @@ Knatte.CategoryPipeU.Description,"Rohre, die an der Biegung unter die Erde gehen
 Knatte.CategoryHideWE.DisplayName,Ungenutzte Wassererweiterung,-
 Knatte.Pipe1X.DisplayName,Rohrauslass,-
 Knatte.Pipe1X.Description,"Zwei Schleusen und ein Ein- und Auslaufrohr. Die Schleusen müssen mit Strom versorgt werden, wirken aber auch als Transfer. Platziere die Schleusen nicht im Hex über dem Auslaufrohr! Es wird abstürzen!",-
+Knatte.PowerLevee.DisplayName,Ermächtigter Ärmel,-
+Knatte.PowerLevee.Description,"Damm, der eine Welle enthält, um Pumpen anzutreiben. Sowohl horizontal als auch vertikal.",-
 Knatte.DeepSeaPump.DisplayName,Tiefsee-Wasserpumpe,-
 Knatte.DeepSeaPump.Description,Pumpe für den Boden des Meeres,-
 Knatte.DeepSeaPump.FlavorDescription,"Ein Schluck frisches Wasser reicht aus, um dir einen Energieschub zu geben.",-
+Knatte.UPowerLevee.DisplayName,Universelle Power-Latzhose,-
+Knatte.UPowerLevee.Description,"Damm, der eine Welle enthält, um Pumpen anzutreiben. Mit allen Seiten verbunden.",-
 Knatte.PipeH1X.DisplayName,Rohrauslass (H),-
 Knatte.PipeH1X.Description,"Hochvolumenpumpe zwei Dämme und ein Ein- und Auslassrohr. Dämme müssen mit Energie versorgt werden, aber auch als Transfer fungieren.",-
+Knatte.LargeWaterWheelLevee.DisplayName,Großes Wasserrad mit Deich,-
+Knatte.LargeWaterWheelLevee.Description,"Wasserrad, das auch eine geneigte Damm hat, um zu helfen, Wasser in den Kanälen zu halten und ein Überlaufen zu verhindern.",-
 Knatte.PipeHU5X.DisplayName,Rohr Unterirdisch 5 Lang (H),-
 Knatte.PipeHU10X.DisplayName,Rohr Unterirdisch 10 Lang (H),-
 Knatte.PipeHU15X.DisplayName,Rohr unterirdisch 15 lang (H),-
@@ -69,6 +94,9 @@ Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,Wasser GO nach links,-
 Knatte.Aqueduct_Wall2.DisplayName,Aquäduktmauer,-
 Knatte.Aqueduct_Wall2.Description,"Blockiere Wasser daran, in denselben Block einzutreten wie dieser, kann verwendet werden, um Unterwasserwege zu bauen.",-
 Knatte.Aqueduct_Wall2.FlavorDescription,Auszufüllen,-
+Knatte.TurbineSmall.DisplayName,Wasserturbine klein,-
+Knatte.TurbineSmall.Description,"Eine kleine Turbine, die Energie in dieselbe Richtung wie die Welle erzeugt.",-
+Knatte.TurbineSmall.FlavorDescription,Danke an 99Cent und Ymerzeru für die Inspiration.,-
 Knatte.Aqueduct_Wall3.DisplayName,"Versatz  
 Aquädukt Wand",-
 Knatte.Aqueduct_Wall3.Description,"Blockiere Wasser, damit es nicht in denselben Block wie die Wand eindringt.",-

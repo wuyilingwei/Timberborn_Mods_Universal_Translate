@@ -1,4 +1,23 @@
 ID,Text,Comment
+Knatte.WE_IrrigationExtractFuel.DisplayName,樹木のブーストでの灌漑,-
+Knatte.WE_IrrigationFuel.DisplayName,灌漑,-
+Knatte.IrrigationTower.DisplayName,灌漑塔,-
+Knatte.IrrigationTower.Description,周囲の土地に灌漑します。灌漑できないタイルのために水を使用しません。,-
+Knatte.IrrigationTower.Header,灌漑モード：,-
+Knatte.IrrigationTower.FlavorDescription,地球の3分の1未満が水に覆われているため、灌漑は必須となりました。,-
+Knatte.IrrigationTowerV2_FT.DisplayName,効率的な灌漑タワー,-
+Knatte.IrrigationTowerV2_FT.Description,周囲のより多くの土地を灌漑し、エキスで樹木の成長を促進できます。灌漑できないタイルには水を使用しません。,-
+Knatte.IrrigationTowerV2_IT.DisplayName,電動灌漑塔,-
+Knatte.IrrigationTowerV2_IT.Description,労働者を必要とせずに周囲を灌漑します。より多くの水を使用するために、汚染を防ぎます。灌漑できないタイルには水を使用しません。,-
+Knatte.IrrigationTowerV2.FlavorDescription,地球の3分の1未満が水で覆われているため、灌漑は不可欠となりました。,-
+Knatte.BigIrrigationTower.DisplayName,大灌漑塔,-
+Knatte.BigIrrigationTowerIT.Description,"周囲の土地をより多く、少ない水で灌漑します。  
+青いパイプは灌漑の開始点を示します。  
+灌漑できないタイルには水を使用しません。",-
+Knatte.BigIrrigationTowerFT.Description,"それは、少ない水で周囲の土地をさらに灌漑します。  
+黄色のパイプは灌漑の開始点を示します。  
+灌漑できないタイルには水を使用しません。",-
+Knatte.BigIrrigationTower.FlavorDescription,ポタポタドロップ。,-
 Knatte.IndWaterTank.DisplayName,産業用水タンク,-
 Knatte.IndWaterTank.Description,より多くの水を保持し、スタッカブルですが、金属を必要とします。,-
 Knatte.Pipe5X.DisplayName,パイプ5長尺,-
@@ -21,11 +40,17 @@ Knatte.CategoryHideWE.DisplayName,未使用の水拡張,-
 Knatte.Pipe1X.DisplayName,パイプ出口,-
 Knatte.Pipe1X.Description,"二つの堤防と入力および出力パイプがあります。堤防は電力を供給する必要がありますが、転送としても機能します。
 出力パイプの上に堤防を六角形で配置しないでください！クラッシュします！",-
+Knatte.PowerLevee.DisplayName,パワードリーブ,-
+Knatte.PowerLevee.Description,ポンプを動かすためのシャフトを備えた堤防。水平および垂直の両方。,-
 Knatte.DeepSeaPump.DisplayName,深海水ポンプ,-
 Knatte.DeepSeaPump.Description,海底ポンプ,-
 Knatte.DeepSeaPump.FlavorDescription,一口の新鮮な水であなたは元気が出ます。,-
+Knatte.UPowerLevee.DisplayName,ユニバーサルパワードスリーブ,-
+Knatte.UPowerLevee.Description,ポンプを動かすためのシャフトがある堤防。すべての側面に接続されています。,-
 Knatte.PipeH1X.DisplayName,パイプ出入口 (H),-
 Knatte.PipeH1X.Description,ハイボリュームポンプ、2つの堤防、および入力と出力のパイプ。堤防は電力を供給する必要がありますが、同時に移送としても機能します。,-
+Knatte.LargeWaterWheelLevee.DisplayName,大きな水車と堤防,-
+Knatte.LargeWaterWheelLevee.Description,水車と傾斜のある堤防があり、水がチャンネル内に留まり、溢れないように助ける。,-
 Knatte.PipeHU5X.DisplayName,地下のパイプ 5本 (H),-
 Knatte.PipeHU10X.DisplayName,地下のパイプ 10 長さ (H),-
 Knatte.PipeHU15X.DisplayName,地下パイプ15長（H）,-
@@ -73,6 +98,9 @@ Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,水は左に行く,-
 Knatte.Aqueduct_Wall2.DisplayName,水道壁,-
 Knatte.Aqueduct_Wall2.Description,このブロックと同じブロックへの水の侵入を防ぐことができ、水中の道を作るのに使用できます。,-
 Knatte.Aqueduct_Wall2.FlavorDescription,記入してください,-
+Knatte.TurbineSmall.DisplayName,小型タービン,-
+Knatte.TurbineSmall.Description,シャフトと同じ方向に電力を生成する小型タービン,-
+Knatte.TurbineSmall.FlavorDescription,99CentさんとYmerzeruさんにインスピレーションをありがとう。,-
 Knatte.Aqueduct_Wall3.DisplayName,"オフセット 
 水道橋の壁",-
 Knatte.Aqueduct_Wall3.Description,水が壁と同じブロックに入るのを防ぐ,-

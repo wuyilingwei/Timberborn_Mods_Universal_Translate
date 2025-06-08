@@ -33,27 +33,7 @@ LV.TI.QuickQuit,Sair Rápido/Sair Forçado [Ctrl + Shift + Q] (!),-
 LV.TI.QuickQuitDesc,"Pressione Ctrl + Shift + Q para sair do jogo imediatamente, encerrando o processo do jogo. NÃO HÁ SALVAMENTO ou limpeza do estado do jogo. Tenha cuidado!",-
 LV.TI.BiggerBuildDragArea,Área de arrasto de construção maior (!),-
 LV.TI.BiggerBuildDragAreaDesc,"Aumente a área de arrasto de construção para edifícios como Barragens (padrão 10x10) ou Estradas (25). Isso aumenta significativamente o tempo de carregamento e o uso de memória, então use com cautela. Exemplo: definir isso para 5 fará com que a área de arrasto seja 15x15 Barragens ou 30 Estradas. Pode ser alterado apenas no Menu Principal.",-
-LV.TI.AutoClearDeadTrees,Remover tocos mortas,-
-LV.TI.AutoClearDeadTreesDesc,"Limpar automaticamente tocos ou arbustos mortos (aqueles que você poderia ter destruído imediatamente construindo sobre):
-- Não: não limpar nada
-- Ferramenta: ao usar a Ferramenta de Demolição
-- Automático: limpar assim que aparecerem",-
-LV.TI.AutoClearDeadTreesNo,Não,-
-LV.TI.AutoClearDeadTreesTool,Ferramenta,-
-LV.TI.AutoClearDeadTreesAuto,Carro,-
+LV.TI.AutoClearDeadTrees,Remova árvores mortas imediatamente.,-
+LV.TI.AutoClearDeadTreesDesc,"Ao usar a ferramenta 'Marcar Recursos para Demolição', limpe automaticamente árvores mortas imediatamente, sem castores (como se você estivesse construindo coisas sobre elas).",-
 LV.TI.AddRealTimeClock,Adicionar relógio em tempo real,-
 LV.TI.AddRealTimeClockDesc,Adicione um relógio em tempo real no canto superior direito. Isso é útil para os jogadores que querem acompanhar o tempo enquanto jogam.,-
-LV.TI.DisableShadowRotation,Desativar a rotação da sombra,-
-LV.TI.DisableShadowRotationDesc,Isso fará com que as sombras sejam estáticas e não girem com o sol.,-
-LV.TI.NewDayAction,Em um novo dia,-
-LV.TI.NewDayActionDesc,"Escolha o que fazer em um novo dia:
-- Nenhum: não fazer nada
-- Pausar: pausar o jogo
-- Velocidade 1: definir a velocidade do jogo para 1x",-
-LV.TI.NewDayActionNone,Nenhum,-
-LV.TI.NewDayActionPause,Pausa,-
-LV.TI.NewDayActionSpeed1,Velocidade 1,-
-LV.TI.NewDayAll,Todo dia,-
-LV.TI.NewDayWarning,Em dias de alerta meteorológico,-
-LV.TI.NewDayHazard,Nos dias de início de clima perigoso,-
-LV.TI.NewDayNewCycle,Em dias de novo ciclo,-

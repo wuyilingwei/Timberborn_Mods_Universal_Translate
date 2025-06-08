@@ -33,27 +33,7 @@ LV.TI.QuickQuit,快速/強制退出 [Ctrl + Shift + Q] (!),-
 LV.TI.QuickQuitDesc,按 Ctrl + Shift + Q 立即強制退出遊戲，並終止遊戲進程。沒有保存或遊戲狀態清理。請小心！,-
 LV.TI.BiggerBuildDragArea,更大的建立拖曳面積 (!),-
 LV.TI.BiggerBuildDragAreaDesc,增加建築物的拖曳區域，例如大壩（默認為10x10）或道路（25）。這會顯著增加加載時間和內存使用量，因此使用時請小心。範例：將此設置為5將使拖曳區域變為15x15的大壩或30條道路。只能在主選單中更改。,-
-LV.TI.AutoClearDeadTrees,清除枯死的樹樁,-
-LV.TI.AutoClearDeadTreesDesc,"自動清除死樹樁或灌木（那些您可以立即通過建造摧毀的）：
-- 不：不清除任何東西
-- 工具：使用拆除工具時
-- 自動：當它們出現時立即清除它們",-
-LV.TI.AutoClearDeadTreesNo,不,-
-LV.TI.AutoClearDeadTreesTool,工具,-
-LV.TI.AutoClearDeadTreesAuto,自動車,-
+LV.TI.AutoClearDeadTrees,立即清除枯死的樹木,-
+LV.TI.AutoClearDeadTreesDesc,使用「標記資源以進行拆除」工具時，立即自動清除沒有海狸的枯死樹木（就像在其上建造物品一樣）。,-
 LV.TI.AddRealTimeClock,添加實時鐘表,-
 LV.TI.AddRealTimeClockDesc,在右上角添加一個實時時鐘。這對於想在遊玩時保持時間掌握的玩家來說非常有用。,-
-LV.TI.DisableShadowRotation,禁用陰影旋轉,-
-LV.TI.DisableShadowRotationDesc,這將使陰影靜態，不會隨著太陽旋轉。,-
-LV.TI.NewDayAction,在新的一天,-
-LV.TI.NewDayActionDesc,"選擇新一天要做的事情：
-- 無：什麼都不做
-- 暫停：暫停遊戲
-- 速度 1：將遊戲速度設置為 1x",-
-LV.TI.NewDayActionNone,無,-
-LV.TI.NewDayActionPause,暫停,-
-LV.TI.NewDayActionSpeed1,速度 1,-
-LV.TI.NewDayAll,每天,-
-LV.TI.NewDayWarning,在氣象警報日,-
-LV.TI.NewDayHazard,在惡劣天氣開始的日子,-
-LV.TI.NewDayNewCycle,在新週期的日子裡,-

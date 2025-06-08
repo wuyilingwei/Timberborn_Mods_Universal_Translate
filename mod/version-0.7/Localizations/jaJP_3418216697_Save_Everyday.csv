@@ -11,7 +11,3 @@ LV.SE.AutosaveWarning,自動保存前に警告する,-
 LV.SE.AutosaveWarningDesc,ゲームが自動保存する前に警告を表示します。これは、自動保存時のゲームのカクつきを嫌うプレイヤーにとって便利です。,-
 LV.SE.AutosaveWarningText,{0} ゲーム時間後に自動保存が近づいています！,-
 LV.SE.AutosaveDoneText,ゲームが自動保存されました（毎日保存）！,-
-LV.SE.AutoSaveFilename,自動保存ファイル名,-
-LV.SE.AutoSaveFilenameDesc,"自動保存のカスタムファイル名。これを使用する場合は、.saveeverydayを末尾に付けて自動削除できるようにしてください。そうしないと、ゲームは保存ファイルを自動的に削除しません。
-サイクル番号には{0}を、サイクル日番号には{1}を、合計日数には{2}を使用してください。例：C{0}_D{1}.saveeveryday。
-デフォルトのファイル名（SaveDay{2}.saveeveryday）を使用するには空白のままにしてください。",-

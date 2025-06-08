@@ -1,71 +1,7 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton.Label,Дополнительные инструменты терраформирования,-
-TerrainTools.KeyBindingGroup.Label,Инструменты для работы с рельефом,-
-TerrainTools.Keybinding.Undo,Отменить,-
-TerrainTools.Keybinding.FastUndo,Отменить x 5,-
-TerrainTools.Keybinding.Redo,Переделай,-
-TerrainTools.Keybinding.FastRedo,Переделать x 5,-
-TerrainTools.Keybinding.CycleMode,Циклический режим,-
-TerrainTools.Common.Button.Apply,Применить,-
-TerrainTools.Common.Button.Reset,Сбросить,-
-TerrainTools.Heightmap.Tool.Title,Генератор высотной карты,-
-TerrainTools.Heightmap.Tool.Warning,Изменения затрагивают всю карту.,-
-TerrainTools.Heightmap.Button.Generate,Сгенерировать,-
-TerrainTools.Heightmap.Checkbox.ClearObjects,Очистить существующие объекты,-
-TerrainTools.Heightmap.Generate.Hint,"Нажмите {0}, чтобы обновить местность.",-
-TerrainTools.Heightmap.Generate.Warning,{0} будет удален. Это действие нельзя отменить.,-
-TerrainTools.Heightmap.Clear.WaterSourcesOnly,Все источники воды,-
-TerrainTools.Heightmap.Clear.All,Все объекты,-
-TerrainTools.Heightmap.Status.Idle,Сидеть без дела,-
-TerrainTools.Heightmap.Status.Generating,Генерация,-
-TerrainTools.Heightmap.Seed.Label,Семя,-
-TerrainTools.Heightmap.Seed.Lock.Label,Замок,-
-TerrainTools.Heightmap.Slider.LOD,Уровень детализации,-
-TerrainTools.Heightmap.Slider.Amplitude,Амплитуда,-
-TerrainTools.Heightmap.Slider.Frequency,Частота,-
-TerrainTools.Heightmap.Slider.Crest,Форма герба,-
-TerrainTools.Heightmap.Slider.Base,Основная форма,-
-TerrainTools.Heightmap.Slider.Mean,Средний рост,-
-TerrainTools.Heightmap.Slider.Min,Минимальная высота,-
-TerrainTools.Heightmap.Slider.Max,Максимальная высота,-
-TerrainTools.Heightmap.Slider.PeriodX,Период X,-
-TerrainTools.Heightmap.Slider.PeriodY,Период Y,-
-TerrainTools.PathPainter.Tool.Title,Путь Краски,-
-TerrainTools.PathPainter.Tool.Description,Настройте рельеф с помощью линий.,-
-TerrainTools.PathPainter.Tip.AddMove,{0} = Добавить или переместить очки,-
-TerrainTools.PathPainter.Tip.DeleteHovered,{0} = Удалить наведенную точку,-
-TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (Держать) = Удалить очки,-
-TerrainTools.PathPainter.Curve.Button.Line,Линия,-
-TerrainTools.PathPainter.Curve.Button.3Points,3 балла,-
-TerrainTools.PathPainter.Curve.Button.4Points,4 пункта,-
-TerrainTools.PathPainter.Curve.Button.Continuous,Непрерывный,-
-TerrainTools.PathPainter.Curve.Toggle.SingleSegment,Одиночный сегмент,-
-TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,Гладкие концы,-
-TerrainTools.PathPainter.Curve.Slider.Distance,Расстояние,-
-TerrainTools.PathPainter.ToggleText.Symmetry,Симметрия,-
-TerrainTools.PathPainter.ToggleText.Symmetry.On,Включено,-
-TerrainTools.PathPainter.ToggleText.Symmetry.Off,Недоступно,-
-TerrainTools.PathPainter.Button.ClearAll,Чистый путь,-
-TerrainTools.Smoothing.Tool.Title,Смягчающая кисть,-
-TerrainTools.Smoothing.Slider.Brush.Size,Размер кисти,-
-TerrainTools.Smoothing.Slider.Sample.Size,Размер выборки,-
-TerrainTools.Smoothing.Slider.Force,Сила,-
-TerrainTools.Smoothing.ToggleGroup.Shape,Форма кисти,-
-TerrainTools.Smoothing.Shape.Square,Квадрат,-
-TerrainTools.Smoothing.Shape.Circle,Круг,-
-TerrainTools.MoundMaker.Tool.Title,Создатель насыпей,-
-TerrainTools.MoundMaker.Hint.CycleSeed,{0} = Цикловое семя,-
-TerrainTools.MoundMaker.Hint.DigMode,{0} (Удерживать) = Режим копания,-
-TerrainTools.MoundMaker.Header.Shape,Форма,-
-TerrainTools.MoundMaker.Slider.PeakHeight,Высота пика,-
-TerrainTools.MoundMaker.Slider.MaxChange,Максимальное изменение,-
-TerrainTools.MoundMaker.Header.RadialNoise,Радиальный шум,-
-TerrainTools.MoundMaker.Slider.Radial.Scale,Масштаб,-
-TerrainTools.MoundMaker.Slider.Radial.Frequency,Частота,-
-TerrainTools.MoundMaker.Slider.Radial.Detail,Деталь,-
-TerrainTools.MoundMaker.Header.VerticalNoise,Вертикальный шум,-
-TerrainTools.MoundMaker.Slider.Vertical.Amplitude,Амплитуда,-
-TerrainTools.MoundMaker.Slider.Vertical.Frequency,Частота,-
-TerrainTools.MoundMaker.Slider.Vertical.Detail,Деталь,-
-TerrainTools.MoundMaker.Checkbox.Randomize,Случайно перемешать,-
-TerrainTools.MoundMaker.Seed.Label,Семя,-
+TerrainTools.ToolGroupButton,Дополнительные инструменты для местности,-
+TerrainTools.Keybinding.Undo,Инструменты местности - Отмена,-
+TerrainTools.Keybinding.FastUndo,Инструменты местности - Отменить x 5,-
+TerrainTools.Keybinding.Redo,Инструменты местности - Повторить,-
+TerrainTools.Keybinding.FastRedo,Инструменты рельефа - Повторить x 5,-
+TerrainTools.Keybinding.CycleMode,Инструменты местности - Циклический режим,-

@@ -1,4 +1,24 @@
 ID,Text,Comment
+Knatte.WE_IrrigationExtractFuel.DisplayName,Irrigação com Tree boost,-
+Knatte.WE_IrrigationFuel.DisplayName,Irrigação,-
+Knatte.IrrigationTower.DisplayName,Torre de Irrigação,-
+Knatte.IrrigationTower.Description,"Irriga a terra ao seu redor.  
+Não usa água para azulejos que não pode irrigar.",-
+Knatte.IrrigationTower.Header,Modo de Irrigação:,-
+Knatte.IrrigationTower.FlavorDescription,"Com menos de um terço da Terra coberto por água, a irrigação se tornou uma necessidade.",-
+Knatte.IrrigationTowerV2_FT.DisplayName,Torre de Irrigação Eficiente,-
+Knatte.IrrigationTowerV2_FT.Description,Irriga mais terras ao seu redor e pode impulsionar o crescimento das árvores com extrato. Não usa água para tiles que não pode irrigar.,-
+Knatte.IrrigationTowerV2_IT.DisplayName,Torre de Irrigação Motorizada,-
+Knatte.IrrigationTowerV2_IT.Description,"Irriga ao redor sem necessidade de trabalhadores. Para um maior uso de água, também bloqueia a contaminação. Não usa água para azulejos que não consegue irrigar.",-
+Knatte.IrrigationTowerV2.FlavorDescription,"Com menos de um terço da Terra coberto por água, a irrigação se tornou uma necessidade.",-
+Knatte.BigIrrigationTower.DisplayName,Grande Torre de Irrigação,-
+Knatte.BigIrrigationTowerIT.Description,"Irriga ainda mais terras ao seu redor com menos água.  
+O tubo azul indica o ponto de partida da irrigação.  
+Não usa água para áreas que não pode irrigar.",-
+Knatte.BigIrrigationTowerFT.Description,"Irriga ainda mais terra ao redor por menos água.  
+O tubo amarelo indica o ponto de partida da irrigação.  
+Não utiliza água para áreas que não pode irrigar.",-
+Knatte.BigIrrigationTower.FlavorDescription,"Cair, Cair, Gotejar.",-
 Knatte.IndWaterTank.DisplayName,Tanque de Água Industrial,-
 Knatte.IndWaterTank.Description,"Aguenta mais água e é empilhável, mas requer metal.",-
 Knatte.Pipe5X.DisplayName,Tubo 5 Longo,-
@@ -19,11 +39,17 @@ Knatte.CategoryPipeU.Description,Tubos que precisam ir para debaixo da terra na 
 Knatte.CategoryHideWE.DisplayName,Extensão de Água Não Utilizada,-
 Knatte.Pipe1X.DisplayName,Saída de Tubo,-
 Knatte.Pipe1X.Description,"Dois diques e um tubo de entrada e saída. Os diques precisam ser alimentados, mas também devem atuar como transferência. Não coloque os diques em hex acima do tubo de saída! Isso causará uma falha!",-
+Knatte.PowerLevee.DisplayName,Mangueira Energizada,-
+Knatte.PowerLevee.Description,Dique que possui um eixo para acionar bombas. Tanto horizontal quanto vertical.,-
 Knatte.DeepSeaPump.DisplayName,Bomba de Água DeepSea,-
 Knatte.DeepSeaPump.Description,Bomba para o fundo do mar,-
 Knatte.DeepSeaPump.FlavorDescription,Um gole de água fresca é suficiente para te animar.,-
+Knatte.UPowerLevee.DisplayName,Mangueira Universal Alimentada,-
+Knatte.UPowerLevee.Description,Dique que possui um eixo para acionar bombas. Conectado em todos os lados.,-
 Knatte.PipeH1X.DisplayName,Saída de Tubo (H),-
 Knatte.PipeH1X.Description,"Bomba de Alto Volume Dois Diques e um tubo de entrada e saída. Os diques precisam ser alimentados, mas também atuar como transferência.",-
+Knatte.LargeWaterWheelLevee.DisplayName,Grande Roda d'Água com Barragem,-
+Knatte.LargeWaterWheelLevee.Description,Roda d'água que também possui uma barragem inclinada para ajudar a manter a água dentro dos canais e evitar transbordamentos.,-
 Knatte.PipeHU5X.DisplayName,Tubo Subterrâneo 5 Longo (H),-
 Knatte.PipeHU10X.DisplayName,Tubulação Subterrânea 10 Longa (H),-
 Knatte.PipeHU15X.DisplayName,Tubo Subterrâneo 15 Longo (H),-
@@ -70,6 +96,9 @@ Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,Água vai para a esquerda,-
 Knatte.Aqueduct_Wall2.DisplayName,Muro do Aqueduto,-
 Knatte.Aqueduct_Wall2.Description,"Bloqueie a água de entrar no mesmo bloco que este, pode ser usado para construir caminhos subaquáticos.",-
 Knatte.Aqueduct_Wall2.FlavorDescription,Para ser preenchido,-
+Knatte.TurbineSmall.DisplayName,Turbina Pequena,-
+Knatte.TurbineSmall.Description,Uma pequena turbina que gera energia na mesma direção que o eixo.,-
+Knatte.TurbineSmall.FlavorDescription,Obrigado 99Cent e Ymerzeru pela inspiração,-
 Knatte.Aqueduct_Wall3.DisplayName,"Deslocamento 
 Muro do aqueduto",-
 Knatte.Aqueduct_Wall3.Description,Bloquear a água de entrar no mesmo bloco que a parede.,-

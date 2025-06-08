@@ -3,6 +3,8 @@ LV.T4UI.ScrollableEntityPanel,Painel de Entidade Rolável,-
 LV.T4UI.ScrollableEntityPanelDesc,Adicione uma barra de rolagem ao painel de entidades (o painel à direita). Útil quando você tem muitos mods que adicionam conteúdo a ele.,-
 LV.T4UI.RemovePathHighlight,Remover Destaque do Caminho,-
 LV.T4UI.RemovePathHighlightDesc,Os caminhos não são mais realçados quando você seleciona um edifício. Você ainda pode vê-los ao selecionar um caminho.,-
+LV.T4UI.HighlightPowerNetwork,Rede de Energia Destacada,-
+LV.T4UI.HighlightPowerNetworkDesc,"Ao selecionar um edifício, a rede de energia à qual está conectado será destacada.",-
 LV.T4UI.ToolDescPos,Descrição da localização da ferramenta,-
 LV.T4UI.ToolDescPosDesc,Escolha um local para o painel de descrição da ferramenta (o que fica no meio quando você está construindo). Padrão do jogo: centro.,-
 LV.T4UI.ToolDescPosLeft,Esquerda,-
@@ -13,13 +15,3 @@ LV.T4UI.AutoExpandCounterDesc,"Feche todos os contadores de material (canto supe
 Expanda automaticamente qualquer contador fechado ao passar o mouse sobre eles.",-
 LV.T4UI.NeverHideCounter,Nunca esconda contadores desbloqueados.,-
 LV.T4UI.NeverHideCounterDesc,"Nunca esconda os contadores de materiais desbloqueados, mesmo quando você tiver 0 desse material.",-
-LV.T4UI.HighlightSimilar,Destacar objetos semelhantes,-
-LV.T4UI.HighlightSimilarDesc,"Quando você seleciona um objeto, todos os objetos do mesmo tipo serão destacados.",-
-LV.T4UI.HighlightSimilarColor,Destacar a cor de objetos semelhantes,-
-LV.T4UI.HighlightSimilarColorDesc,Cor do destaque para objetos semelhantes.,-
-LV.T4UI.HighlightTubeway,Destacar o caminho do tubo,-
-LV.T4UI.HighlightTubewayDesc,Realce todos os Tubeways conectados quando você selecionar um Tubeway. Isso é útil para ver todo o percurso de um Tubeway quando você o seleciona.,-
-LV.T4UI.HighlightStorage,Destacar e Selecionar Materiais de Construção,-
-LV.T4UI.HighlightStorageDesc,Passe o mouse sobre um contador de material para destacar todos os edifícios que contêm esse material. Clicar nele irá alternar entre esses edifícios. Segurando a tecla Alternar (padrão: Shift) para alternar entre eles apenas na seleção do distrito.,-
-LV.T4UI.DisableShadows,Desativar sombras,-
-LV.T4UI.DisableShadowsDesc,Desative as sombras do sol.,-

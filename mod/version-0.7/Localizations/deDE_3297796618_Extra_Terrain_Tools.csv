@@ -1,71 +1,7 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton.Label,Zusätzliche Terrain-Tools,-
-TerrainTools.KeyBindingGroup.Label,Gelände Tools,-
-TerrainTools.Keybinding.Undo,Rückgängig machen,-
-TerrainTools.Keybinding.FastUndo,Rückgängig x 5,-
-TerrainTools.Keybinding.Redo,Wiederholen,-
-TerrainTools.Keybinding.FastRedo,Das fünfmal neu machen.,-
-TerrainTools.Keybinding.CycleMode,Zyklusmodus,-
-TerrainTools.Common.Button.Apply,Bewerben,-
-TerrainTools.Common.Button.Reset,Zurücksetzen,-
-TerrainTools.Heightmap.Tool.Title,Höhengenerator,-
-TerrainTools.Heightmap.Tool.Warning,Änderungen betreffen die gesamte Karte,-
-TerrainTools.Heightmap.Button.Generate,Generieren,-
-TerrainTools.Heightmap.Checkbox.ClearObjects,Vorhandene Objekte löschen,-
-TerrainTools.Heightmap.Generate.Hint,"Klicken Sie {0}, um das Terrain zu aktualisieren.",-
-TerrainTools.Heightmap.Generate.Warning,{0} wird entfernt. Diese Aktion kann nicht rückgängig gemacht werden.,-
-TerrainTools.Heightmap.Clear.WaterSourcesOnly,Alle Wasserquellen,-
-TerrainTools.Heightmap.Clear.All,Alle Objekte,-
-TerrainTools.Heightmap.Status.Idle,Untätig,-
-TerrainTools.Heightmap.Status.Generating,Generierung,-
-TerrainTools.Heightmap.Seed.Label,Samen,-
-TerrainTools.Heightmap.Seed.Lock.Label,Schloss,-
-TerrainTools.Heightmap.Slider.LOD,Detailgrad,-
-TerrainTools.Heightmap.Slider.Amplitude,Amplitude,-
-TerrainTools.Heightmap.Slider.Frequency,Frequenz,-
-TerrainTools.Heightmap.Slider.Crest,Wappenform,-
-TerrainTools.Heightmap.Slider.Base,Basisform,-
-TerrainTools.Heightmap.Slider.Mean,Durchschnittliche Höhe,-
-TerrainTools.Heightmap.Slider.Min,Minimale Höhe,-
-TerrainTools.Heightmap.Slider.Max,Maximale Höhe,-
-TerrainTools.Heightmap.Slider.PeriodX,Periode X,-
-TerrainTools.Heightmap.Slider.PeriodY,Periode Y,-
-TerrainTools.PathPainter.Tool.Title,Pfadmaler,-
-TerrainTools.PathPainter.Tool.Description,Terrain mit Linien anpassen,-
-TerrainTools.PathPainter.Tip.AddMove,{0} = Punkte hinzufügen oder verschieben,-
-TerrainTools.PathPainter.Tip.DeleteHovered,{0} = Hovered Punkt entfernen,-
-TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (Halten) = Punkte entfernen,-
-TerrainTools.PathPainter.Curve.Button.Line,Linie,-
-TerrainTools.PathPainter.Curve.Button.3Points,3 Punkte,-
-TerrainTools.PathPainter.Curve.Button.4Points,4 Punkte,-
-TerrainTools.PathPainter.Curve.Button.Continuous,Kontinuierlich,-
-TerrainTools.PathPainter.Curve.Toggle.SingleSegment,Einzelnes Segment,-
-TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,Sanfte Enden,-
-TerrainTools.PathPainter.Curve.Slider.Distance,Entfernung,-
-TerrainTools.PathPainter.ToggleText.Symmetry,Symmetrie,-
-TerrainTools.PathPainter.ToggleText.Symmetry.On,Aktiviert,-
-TerrainTools.PathPainter.ToggleText.Symmetry.Off,Behindert,-
-TerrainTools.PathPainter.Button.ClearAll,Klarer Weg,-
-TerrainTools.Smoothing.Tool.Title,Glättungsbürste,-
-TerrainTools.Smoothing.Slider.Brush.Size,Pinselgröße,-
-TerrainTools.Smoothing.Slider.Sample.Size,Stichprobengröße,-
-TerrainTools.Smoothing.Slider.Force,Kraft,-
-TerrainTools.Smoothing.ToggleGroup.Shape,Pinselform,-
-TerrainTools.Smoothing.Shape.Square,Quadrat,-
-TerrainTools.Smoothing.Shape.Circle,Kreis,-
-TerrainTools.MoundMaker.Tool.Title,Hügelbauer,-
-TerrainTools.MoundMaker.Hint.CycleSeed,{0} = Zyklus-Saat,-
-TerrainTools.MoundMaker.Hint.DigMode,{0} (Halten) = Grabmodus,-
-TerrainTools.MoundMaker.Header.Shape,Form,-
-TerrainTools.MoundMaker.Slider.PeakHeight,Gipfelhöhe,-
-TerrainTools.MoundMaker.Slider.MaxChange,Max Änderung,-
-TerrainTools.MoundMaker.Header.RadialNoise,Radiales Geräusch,-
-TerrainTools.MoundMaker.Slider.Radial.Scale,Waage,-
-TerrainTools.MoundMaker.Slider.Radial.Frequency,Frequenz,-
-TerrainTools.MoundMaker.Slider.Radial.Detail,Detail,-
-TerrainTools.MoundMaker.Header.VerticalNoise,Vertikaler Lärm,-
-TerrainTools.MoundMaker.Slider.Vertical.Amplitude,Amplitude,-
-TerrainTools.MoundMaker.Slider.Vertical.Frequency,Häufigkeit,-
-TerrainTools.MoundMaker.Slider.Vertical.Detail,Einzelheiten,-
-TerrainTools.MoundMaker.Checkbox.Randomize,Zufällig machen,-
-TerrainTools.MoundMaker.Seed.Label,Saat,-
+TerrainTools.ToolGroupButton,Zusätzliche Terrain-Tools,-
+TerrainTools.Keybinding.Undo,Gelände-Tools - Rückgängig machen,-
+TerrainTools.Keybinding.FastUndo,Terrain-Werkzeuge - Rückgängig x 5,-
+TerrainTools.Keybinding.Redo,Terrain-Tools - Wiederholen,-
+TerrainTools.Keybinding.FastRedo,Geländewerkzeuge - Wiederholen x 5,-
+TerrainTools.Keybinding.CycleMode,Geländewerkzeuge - Zyklusmodus,-

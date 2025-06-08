@@ -1,71 +1,7 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton.Label,Ferramentas de Terreno Extra,-
-TerrainTools.KeyBindingGroup.Label,Ferramentas de Terreno,-
-TerrainTools.Keybinding.Undo,Desfazer,-
-TerrainTools.Keybinding.FastUndo,Desfazer x 5,-
-TerrainTools.Keybinding.Redo,Refazer,-
-TerrainTools.Keybinding.FastRedo,Refazer x 5,-
-TerrainTools.Keybinding.CycleMode,Modo Ciclístico,-
-TerrainTools.Common.Button.Apply,Aplicar,-
-TerrainTools.Common.Button.Reset,Resetar,-
-TerrainTools.Heightmap.Tool.Title,Gerador de Mapas de Altura,-
-TerrainTools.Heightmap.Tool.Warning,As alterações afetam todo o mapa,-
-TerrainTools.Heightmap.Button.Generate,Gerar,-
-TerrainTools.Heightmap.Checkbox.ClearObjects,Limpar objetos existentes,-
-TerrainTools.Heightmap.Generate.Hint,Clique {0} para atualizar o terreno.,-
-TerrainTools.Heightmap.Generate.Warning,{0} será removido. Esta ação não pode ser desfeita.,-
-TerrainTools.Heightmap.Clear.WaterSourcesOnly,Todas as fontes de água,-
-TerrainTools.Heightmap.Clear.All,Todos os objetos,-
-TerrainTools.Heightmap.Status.Idle,Inativo,-
-TerrainTools.Heightmap.Status.Generating,Gerando,-
-TerrainTools.Heightmap.Seed.Label,Semente,-
-TerrainTools.Heightmap.Seed.Lock.Label,Fechar,-
-TerrainTools.Heightmap.Slider.LOD,Nível de detalhe,-
-TerrainTools.Heightmap.Slider.Amplitude,Amplitude,-
-TerrainTools.Heightmap.Slider.Frequency,Frequência,-
-TerrainTools.Heightmap.Slider.Crest,Forma do brasão,-
-TerrainTools.Heightmap.Slider.Base,Forma base,-
-TerrainTools.Heightmap.Slider.Mean,Altura média,-
-TerrainTools.Heightmap.Slider.Min,Altura mínima,-
-TerrainTools.Heightmap.Slider.Max,Altura máxima,-
-TerrainTools.Heightmap.Slider.PeriodX,Período X,-
-TerrainTools.Heightmap.Slider.PeriodY,Período Y,-
-TerrainTools.PathPainter.Tool.Title,Pintor de Caminhos,-
-TerrainTools.PathPainter.Tool.Description,Ajustar o terreno usando linhas,-
-TerrainTools.PathPainter.Tip.AddMove,{0} = Adicionar ou Mover pontos,-
-TerrainTools.PathPainter.Tip.DeleteHovered,{0} = Remover ponto sobre o qual está passando o mouse,-
-TerrainTools.PathPainter.Tip.DeleteMultiple,{0} (Segurar) = Remover pontos,-
-TerrainTools.PathPainter.Curve.Button.Line,Linha,-
-TerrainTools.PathPainter.Curve.Button.3Points,3 pontos,-
-TerrainTools.PathPainter.Curve.Button.4Points,4 pontos,-
-TerrainTools.PathPainter.Curve.Button.Continuous,Contínuo,-
-TerrainTools.PathPainter.Curve.Toggle.SingleSegment,Segmento único,-
-TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,Fins suaves,-
-TerrainTools.PathPainter.Curve.Slider.Distance,Distância,-
-TerrainTools.PathPainter.ToggleText.Symmetry,Simetria,-
-TerrainTools.PathPainter.ToggleText.Symmetry.On,Habilitado,-
-TerrainTools.PathPainter.ToggleText.Symmetry.Off,Desativado,-
-TerrainTools.PathPainter.Button.ClearAll,Caminho claro,-
-TerrainTools.Smoothing.Tool.Title,Pincel de Alisamento,-
-TerrainTools.Smoothing.Slider.Brush.Size,Tamanho do pincel,-
-TerrainTools.Smoothing.Slider.Sample.Size,Tamanho da amostra,-
-TerrainTools.Smoothing.Slider.Force,Força,-
-TerrainTools.Smoothing.ToggleGroup.Shape,Forma do Pincel,-
-TerrainTools.Smoothing.Shape.Square,Quadrado,-
-TerrainTools.Smoothing.Shape.Circle,Círculo,-
-TerrainTools.MoundMaker.Tool.Title,Criador de Montículos,-
-TerrainTools.MoundMaker.Hint.CycleSeed,{0} = Semente de ciclo,-
-TerrainTools.MoundMaker.Hint.DigMode,{0} (Segure) = Modo de Digitação,-
-TerrainTools.MoundMaker.Header.Shape,Forma,-
-TerrainTools.MoundMaker.Slider.PeakHeight,Altura do pico,-
-TerrainTools.MoundMaker.Slider.MaxChange,Mudança máxima,-
-TerrainTools.MoundMaker.Header.RadialNoise,Ruído Radial,-
-TerrainTools.MoundMaker.Slider.Radial.Scale,Escala,-
-TerrainTools.MoundMaker.Slider.Radial.Frequency,Frequência,-
-TerrainTools.MoundMaker.Slider.Radial.Detail,Detalhe,-
-TerrainTools.MoundMaker.Header.VerticalNoise,Ruído Vertical,-
-TerrainTools.MoundMaker.Slider.Vertical.Amplitude,Amplitude,-
-TerrainTools.MoundMaker.Slider.Vertical.Frequency,Frequência,-
-TerrainTools.MoundMaker.Slider.Vertical.Detail,Detalhe,-
-TerrainTools.MoundMaker.Checkbox.Randomize,Aleatorizar,-
-TerrainTools.MoundMaker.Seed.Label,Semente,-
+TerrainTools.ToolGroupButton,Ferramentas de Terreno Extras,-
+TerrainTools.Keybinding.Undo,Ferramentas de Terreno - Desfazer,-
+TerrainTools.Keybinding.FastUndo,Ferramentas de Terreno - Desfazer x 5,-
+TerrainTools.Keybinding.Redo,Ferramentas de Terreno - Refazer,-
+TerrainTools.Keybinding.FastRedo,Ferramentas de Terreno - Refazer x 5,-
+TerrainTools.Keybinding.CycleMode,Ferramentas de Terreno - Modo de Ciclo,-

@@ -33,27 +33,7 @@ LV.TI.QuickQuit,クイック/強制終了 [Ctrl + Shift + Q] (!),-
 LV.TI.QuickQuitDesc,Ctrl + Shift + Q を押して、ゲームプロセスを強制終了して直ちにゲームを終了します。セーブもなく、ゲームの状態のクリーンアップもありません。注意してください！,-
 LV.TI.BiggerBuildDragArea,より大きなビルドドラッグエリア (!),-
 LV.TI.BiggerBuildDragAreaDesc,ダム（デフォルトは10x10）や道路（25）などの建物のビルドドラッグエリアを増やします。これにより、読み込み時間とメモリ使用量が大幅に増加するため、注意して使用してください。例：これを5に設定すると、ドラッグエリアは15x15のダムまたは30の道路になります。メインメニューでのみ変更できます。,-
-LV.TI.AutoClearDeadTrees,枯れた切り株を取り除く,-
-LV.TI.AutoClearDeadTreesDesc,"自動的に枯れた切り株や茂みを削除します（建物で即座に破壊できたもの）：
-- いいえ：何も削除しない
-- ツール：解体ツールを使用する際
-- 自動：出現した瞬間に自動的に削除する",-
-LV.TI.AutoClearDeadTreesNo,いいえ,-
-LV.TI.AutoClearDeadTreesTool,ツール,-
-LV.TI.AutoClearDeadTreesAuto,自動車,-
+LV.TI.AutoClearDeadTrees,枯れた木をすぐに取り除いてください,-
+LV.TI.AutoClearDeadTreesDesc,「資源を解体のためにマークする」ツールを使用する際、ビーバーなしで枯れた木を即座に自動的に撤去します（まるでその上に建物を建てるかのように）。,-
 LV.TI.AddRealTimeClock,リアルタイム時計を追加する,-
 LV.TI.AddRealTimeClockDesc,右上隅に時計を追加します。これは、プレイヤーがプレイ中に時間を把握するのに役立ちます。,-
-LV.TI.DisableShadowRotation,シャドウの回転を無効にする,-
-LV.TI.DisableShadowRotationDesc,これにより影が静的になり、太陽と共に回転しなくなります。,-
-LV.TI.NewDayAction,新しい日が始まる,-
-LV.TI.NewDayActionDesc,"新しい日にすることを選んでください：
-- なし：何もしない
-- 一時停止：ゲームを一時停止する
-- スピード1：ゲームの速度を1倍に設定する",-
-LV.TI.NewDayActionNone,なし,-
-LV.TI.NewDayActionPause,一時停止,-
-LV.TI.NewDayActionSpeed1,速度 1,-
-LV.TI.NewDayAll,毎日,-
-LV.TI.NewDayWarning,天候警報の日には,-
-LV.TI.NewDayHazard,危険な天候が始まる日々,-
-LV.TI.NewDayNewCycle,新しいサイクルの日に,-

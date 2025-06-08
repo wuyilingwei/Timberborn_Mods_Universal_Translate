@@ -1,44 +1,44 @@
 ID,Text,Comment
 Floodgate.Triggers.EnableOnDroughtStarted,Définir la hauteur lorsque la sécheresse commence,-
-Floodgate.Triggers.EnableOnDroughtEnded,Définir la hauteur lorsque la sécheresse se termine.,-
-Floodgate.Schedule.Enable,Définir la hauteur sur un emploi du temps,-
-Floodgate.Schedule.DisableOnDrought,Désactiver l'horaire pendant la sécheresse,-
-Floodgate.Schedule.DisableOnTemperate,Désactiver le programme pendant la période de tempête.,-
+Floodgate.Triggers.EnableOnDroughtEnded,Définir la hauteur lorsque la sécheresse se termine,-
+Floodgate.Schedule.Enable,Définir la hauteur sur un horaire,-
+Floodgate.Schedule.DisableOnDrought,Désactiver le programme pendant la sécheresse,-
+Floodgate.Schedule.DisableOnTemperate,Désactiver le calendrier pendant la température chaude,-
 Floodgate.Triggers.Time,Temps,-
 Floodgate.Triggers.Height,Hauteur,-
 Floodgate.Triggers.Basic,De base,-
-Floodgate.Triggers.Timer,Chronomètre,-
+Floodgate.Triggers.Timer,Minuteur,-
 Floodgate.Triggers.Advanced,Avancé,-
-Floodgate.Triggers.AttachToStreamGauge,Attacher un jauge de débit,-
-Floodgate.Triggers.PickStreamGaugeTitle,Choisissez un débitmètre,-
+Floodgate.Triggers.AttachToStreamGauge,Attacher le limnimètre,-
+Floodgate.Triggers.PickStreamGaugeTitle,Choisissez une station de mesure de débit,-
 Floodgate.Triggers.PickStreamGaugeTip,"Non vraiment, choisis n'importe lequel.",-
-Floodgates.Triggers.NoLinks,Aucun capteur de débit attaché,-
+Floodgates.Triggers.NoLinks,Pas de jauges de débit attachées.,-
 Floodgates.Triggers.NoFloodgateLinks,Aucun objet lié,-
 Floodgates.Triggers.LinkedFloodgates,Objets liés,-
-Floodgates.Triggers.Threshold1,Seuil faible du débit de la rivière,-
-Floodgates.Triggers.Threshold2,Seuil élevé du démarreur de courant,-
-Floodgates.Triggers.HeightWhenBelowThreshold1,Hauteur de la vanne d'écluse en dessous du seuil bas,-
-Floodgates.Triggers.HeightWhenAboveThreshold2,Hauteur de la vanne de décharge au-dessus du seuil supérieur,-
+Floodgates.Triggers.Threshold1,Seuil bas du jauge de débit,-
+Floodgates.Triggers.Threshold2,Seuil élevé du jauge de flux,-
+Floodgates.Triggers.HeightWhenBelowThreshold1,Hauteur de la vanne de retenue en dessous du seuil bas,-
+Floodgates.Triggers.HeightWhenAboveThreshold2,Hauteur de la vanne de décharge au-dessus du seuil élevé,-
 Floodgate.Triggers.PauseOnDroughtStart,Faites une pause lorsque la sécheresse commence.,-
-Floodgate.Triggers.UnpauseOnDroughtStart,Reprenez lorsque la sécheresse commence.,-
-Floodgate.Triggers.UnpauseOnTemperateStart,Reprendre lorsque la température commence.,-
+Floodgate.Triggers.UnpauseOnDroughtStart,Reprendre lorsque la sécheresse commence,-
+Floodgate.Triggers.UnpauseOnTemperateStart,Reprenez lorsque la température commence.,-
 Floodgate.Triggers.PauseOnTemperateStart,Faire une pause lorsque la température commence.,-
 Floodgates.WaterpumpTrigger.Threshold1,Pause <,-
 Floodgates.WaterpumpTrigger.Threshold2,Pause >,-
 Floodgates.WaterpumpTrigger.Threshold3,Reprendre,-
-Floodgates.WaterpumpTrigger.Threshold4,Reprendre >,-
+Floodgates.WaterpumpTrigger.Threshold4,Reprendre,-
 Floodgates.WaterpumpTrigger.PauseStartTime,Pause à,-
 Floodgates.WaterpumpTrigger.ResumeStartTime,Reprendre à,-
 Floodgates.WaterpumpTrigger.DisableDuringDrought,Désactiver pendant la sécheresse,-
-Floodgates.WaterpumpTrigger.DisableDuringTemperate,Désactiver pendant la tempête,-
-Floodgate.Triggers.PauseOnSchedule,Pause selon un calendrier,-
-Floodgate.Triggers.EnableOnBadtideStarted,Définir la hauteur lorsque la marée basse commence,-
+Floodgates.WaterpumpTrigger.DisableDuringTemperate,Désactiver pendant la période tempérée.,-
+Floodgate.Triggers.PauseOnSchedule,Pause sur un horaire,-
+Floodgate.Triggers.EnableOnBadtideStarted,Définir la hauteur lorsque la marée basse commence.,-
 Floodgate.Triggers.EnableOnBadtideEnded,Définir la hauteur lorsque la marée basse se termine.,-
-Floodgate.Schedule.DisableOnBadtide,Désactiver le programme pendant la marée basse.,-
+Floodgate.Schedule.DisableOnBadtide,Désactiver l'horaire pendant les mauvaises marées,-
 Floodgates.WaterpumpTrigger.DisableDuringBadtide,Désactiver pendant la mauvaise marée,-
-Floodgate.Triggers.PauseOnBadtideStart,Faites une pause lorsque la mauvaise marée commence.,-
-Floodgate.Triggers.UnpauseOnBadtideStart,Reprenez lorsque la mauvaise marée commence.,-
-Floodgates.Triggers.ContaminationThresholdLow,Seuil de contamination faible,-
+Floodgate.Triggers.PauseOnBadtideStart,Faites une pause lorsque la marée basse commence.,-
+Floodgate.Triggers.UnpauseOnBadtideStart,Reprendre lorsque la mauvaise marée commence,-
+Floodgates.Triggers.ContaminationThresholdLow,Seuil de contamination bas,-
 Floodgates.Triggers.ContaminationThresholdHigh,Seuil de contamination élevé,-
 Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow,Définir la hauteur en dessous de la faible contamination,-
 Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh,Définir la hauteur au-dessus de la haute contamination,-
@@ -51,13 +51,13 @@ Floodgates.WaterSourceRegulator.Threshold4,Ouvrir >,-
 Floodgates.WaterSourceRegulator.CloseStartTime,Fermer à,-
 Floodgates.WaterSourceRegulator.OpenStartTime,Ouvrir à,-
 Floodgates.WaterSourceRegulator.DisableDuringDrought,Désactiver pendant la sécheresse,-
-Floodgates.WaterSourceRegulator.DisableDuringTemperate,Désactiver pendant la période tempérée.,-
-Floodgate.WaterSourceRegulator.CloseOnDroughtStart,Fermez lorsque la sécheresse commence.,-
-Floodgate.WaterSourceRegulator.OpenOnDroughtStart,Ouvrir lorsque la sécheresse commence,-
-Floodgate.WaterSourceRegulator.OpenOnTemperateStart,Ouvert quand la température commence,-
-Floodgate.WaterSourceRegulator.CloseOnTemperateStart,Fermer lorsque la température commence,-
-Floodgate.WaterSourceRegulator.OpenOnBadtideStart,Ouvrez quand la marée basse commence,-
+Floodgates.WaterSourceRegulator.DisableDuringTemperate,Désactiver pendant la période tempérée,-
+Floodgate.WaterSourceRegulator.CloseOnDroughtStart,Fermer lorsque la sécheresse commence,-
+Floodgate.WaterSourceRegulator.OpenOnDroughtStart,Ouvrez lorsque la sécheresse commence,-
+Floodgate.WaterSourceRegulator.OpenOnTemperateStart,Ouvrez lorsque la température commence.,-
+Floodgate.WaterSourceRegulator.CloseOnTemperateStart,Fermez lorsque la température commence.,-
+Floodgate.WaterSourceRegulator.OpenOnBadtideStart,Ouvre quand la mauvaise marée commence.,-
 Floodgate.WaterSourceRegulator.CloseOnBadtideStart,Fermez lorsque la marée basse commence.,-
-Floodgate.Schedule.CloseOnSchedule,Fermer/Ouvrir selon un emploi du temps,-
-Floodgates.WaterSourceRegulator.DisableDuringBadtide,Désactiver pendant la marée basse,-
-Floodgates.Triggers.Empty,,-
+Floodgate.Schedule.CloseOnSchedule,Fermer/Ouvrir selon un horaire,-
+Floodgates.WaterSourceRegulator.DisableDuringBadtide,Désactiver pendant la mauvaise marée,-
+Floodgates.Triggers.Empty,Error,-

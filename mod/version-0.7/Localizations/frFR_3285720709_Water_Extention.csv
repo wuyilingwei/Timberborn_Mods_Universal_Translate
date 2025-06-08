@@ -1,4 +1,24 @@
 ID,Text,Comment
+Knatte.WE_IrrigationExtractFuel.DisplayName,Irrigation avec Tree boost,-
+Knatte.WE_IrrigationFuel.DisplayName,Irrigation,-
+Knatte.IrrigationTower.DisplayName,Tour d'irrigation,-
+Knatte.IrrigationTower.Description,"Irrigue les terres autour.  
+N'utilise pas d'eau pour les dalles qu'elle ne peut pas irriguer.",-
+Knatte.IrrigationTower.Header,Mode d'irrigation :,-
+Knatte.IrrigationTower.FlavorDescription,"Avec moins d'un tiers de la Terre recouvert d'eau, l'irrigation est devenue nécessaire.",-
+Knatte.IrrigationTowerV2_FT.DisplayName,Tour d'irrigation efficace,-
+Knatte.IrrigationTowerV2_FT.Description,Irrigue plus de terres autour de lui et peut favoriser la croissance des arbres avec un extrait. N'utilise pas d'eau pour des tuiles qu'il ne peut pas irriguer.,-
+Knatte.IrrigationTowerV2_IT.DisplayName,Tour d'irrigation alimentée,-
+Knatte.IrrigationTowerV2_IT.Description,"Irrigue autour de lui sans aucun travailleur nécessaire. Pour un usage accru de l'eau, il bloque également la contamination. N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.",-
+Knatte.IrrigationTowerV2.FlavorDescription,"Avec moins d'un tiers de la Terre recouvert d'eau, l'irrigation est devenue indispensable.",-
+Knatte.BigIrrigationTower.DisplayName,Grande tour d'irrigation,-
+Knatte.BigIrrigationTowerIT.Description,"Irrigue encore plus de terres autour d'elle pour moins d'eau.  
+Le tuyau bleu indique le point de départ de l'irrigation.  
+N'utilise pas d'eau pour les carreaux qu'elle ne peut pas irriguer.",-
+Knatte.BigIrrigationTowerFT.Description,"Irrigue encore plus de terres autour de lui pour moins d'eau. 
+Le tuyau jaune indique le point de départ de l'irrigation. 
+N'utilise pas d'eau pour les tuiles qu'il ne peut pas irriguer.",-
+Knatte.BigIrrigationTower.FlavorDescription,Goutte Goutte Tombée.,-
 Knatte.IndWaterTank.DisplayName,Réservoir d'eau industriel,-
 Knatte.IndWaterTank.Description,Contient plus d'eau et est empilable mais nécessite du métal.,-
 Knatte.Pipe5X.DisplayName,Tuyau 5 Long,-
@@ -19,11 +39,17 @@ Knatte.CategoryPipeU.Description,Des tuyaux qui doivent passer sous terre au niv
 Knatte.CategoryHideWE.DisplayName,Extension d'Eau Non Utilisée,-
 Knatte.Pipe1X.DisplayName,Sortie de tuyau,-
 Knatte.Pipe1X.Description,Deux digues et un tuyau d'entrée et de sortie. Les digues doivent être alimentées mais aussi agir comme un transfert. Ne placez pas les digues en hexagone au-dessus du tuyau de sortie ! Cela va provoquer un crash !,-
+Knatte.PowerLevee.DisplayName,Manche motrice,-
+Knatte.PowerLevee.Description,Levée avec un arbre pour alimenter les pompes. Horizontal et vertical.,-
 Knatte.DeepSeaPump.DisplayName,Pompe à eau DeepSea,-
 Knatte.DeepSeaPump.Description,Pompe pour le fond de la mer,-
 Knatte.DeepSeaPump.FlavorDescription,Une gorgée d'eau fraîche suffit à te dynamiser.,-
+Knatte.UPowerLevee.DisplayName,Manche universelle alimentée,-
+Knatte.UPowerLevee.Description,Levee qui a un arbre à l'intérieur pour alimenter les pompes. Connecté de tous les côtés.,-
 Knatte.PipeH1X.DisplayName,Sortie de tuyau (H),-
 Knatte.PipeH1X.Description,"Pompe à haut débit, deux digues et un tube d'entrée et de sortie. Les digues doivent être alimentées, mais doivent également servir de transfert.",-
+Knatte.LargeWaterWheelLevee.DisplayName,Grande roue à eau avec levée,-
+Knatte.LargeWaterWheelLevee.Description,Une roue à eau qui a également une digue en pente pour aider à maintenir l'eau à l'intérieur des canaux et éviter les débordements.,-
 Knatte.PipeHU5X.DisplayName,Tube souterrain 5 Long (H),-
 Knatte.PipeHU10X.DisplayName,Tuyau souterrain 10 long (H),-
 Knatte.PipeHU15X.DisplayName,Tuyau souterrain 15 Long (H),-
@@ -71,6 +97,9 @@ Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription,L'eau est partie à gauche.,-
 Knatte.Aqueduct_Wall2.DisplayName,Mur d'aqueduc,-
 Knatte.Aqueduct_Wall2.Description,"Bloquer l'eau d'entrer dans le même bloc que celui-ci, peut être utilisé pour construire des chemins sous-marins.",-
 Knatte.Aqueduct_Wall2.FlavorDescription,À remplir,-
+Knatte.TurbineSmall.DisplayName,Petite turbine,-
+Knatte.TurbineSmall.Description,Une petite turbine qui génère de l'énergie dans la même direction que l'arbre.,-
+Knatte.TurbineSmall.FlavorDescription,Merci 99Cent et Ymerzeru pour l'inspiration.,-
 Knatte.Aqueduct_Wall3.DisplayName,"Décalage 
 Mur d'aqueduc",-
 Knatte.Aqueduct_Wall3.Description,Bloquez l'eau pour qu'elle n'entre pas dans le même bloc que le mur.,-

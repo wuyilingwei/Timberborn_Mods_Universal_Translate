@@ -12,6 +12,4 @@ LV.SE.AutosaveWarningDesc,勾选后，游戏定期保存之前会显示一个警
 LV.SE.AutosaveWarningText,注意，即将在 {0} 游戏时后定期保存！,-
 LV.SE.AutosaveDoneText,已定期保存,-
 LV.SE.AutoSaveFilename,定期存档名称,-
-LV.SE.AutoSaveFilenameDesc,"自动保存的自定义文件名。如果您使用此功能，请确保在末尾加上.saveeveryday以自动删除。否则，游戏将不会自动删除保存文件。
-使用 {0} 表示循环次数，{1} 表示循环日，{2} 表示总天数。例如：C{0}_D{1}.saveeveryday。
-如果留空，将使用默认文件名（SaveDay{2}.saveeveryday）。",-
+LV.SE.AutoSaveFilenameDesc,可以更改定期存档的名称，留空则使用模组默认（SaveDay{2}.saveeveryday）。<br>使用“{0}”表示周期数，“{1}”表示周期天数，“{2}”表示总天数。<br>注意，末尾须添加“.saveeveryday”，否则游戏不会自动删除多余的定期存档。,-
