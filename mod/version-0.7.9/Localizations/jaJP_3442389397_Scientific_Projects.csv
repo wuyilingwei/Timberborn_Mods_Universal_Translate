@@ -1,0 +1,95 @@
+ID,Text,Comment
+LV.SP.Title,科学プロジェクト,-
+LV.SP.Welcome,Scientific Projectsモッドをご利用いただきありがとうございます。この画面ではプロジェクトをアンロックし、管理することができます。画面の左上にあるサイエンスボタンをクリックするか、ホットキー（デフォルト: Y、キー設定で再割り当て可能）を押すことで開くことができます。,-
+KeyBinding.ScientificProjectDialog,科学プロジェクト画面,-
+LV.SP.Unlocked,アンロックされました！,-
+LV.SP.PreqLocked,{0} のロックを解除する必要があります。,-
+LV.SP.NotEnoughScienceNextDay,次の日のための十分な科学がありません。プロジェクトを調整するか、今日の分をスキップしてください。警告：Escを押すと、今日のプロジェクトがスキップされます。,-
+LV.SP.CurrentScience,現在の科学: {0},-
+LV.SP.CurrentSciencePlus,現在の科学：{0}（昨日から{1}）,-
+LV.SP.UnlockErrUnlocked,このプロジェクトはすでにロック解除されています。,-
+LV.SP.UnlockErrRequirementLocked,このプロジェクトは{0}を解除する必要があります。,-
+LV.SP.UnlockErrCostLocked,あなたは{0}の科学しか持っていませんが、このプロジェクトを解除するには{1}の科学が必要です。,-
+LV.SP.UnlockConfirm,{0}を{1}の科学でアンロックしてもよろしいですか？,-
+LV.SP.CustomCost,1日あたりのコスト：,-
+LV.SP.ScienceStepCost,{0} 毎レベル,-
+LV.SP.CurrentCost,翌日のコスト: {0}/日,-
+LV.SP.Level,レベル,-
+LV.SP.ActiveLevel,アクティブレベル: {0},-
+LV.SP.DayCostNotice,毎日の科学費用は毎日の始めに差し引かれ、その効果は一日中同じままです。,-
+LV.SP.NextDayCost,翌日の費用: {0},-
+LV.SP.PayDayCost,日当,-
+LV.SP.NotEnoughSciencePay,次の日のための十分な科学がありません。プロジェクトを調整するか、今日は飛ばしてください。,-
+LV.SP.SkipConfirm,今日のプロジェクトをスキップしてもいいですか？,-
+LV.SP.SkipToday,今日はスキップします。,-
+LV.SP.WrongFaction,このプロジェクトはこの派閥によって解除することはできません。,-
+LV.SP.ReloadNotice,このプロジェクトが反映されるようにゲームを保存して再ロードしてください。,-
+LV.SP.ReloadNeeded,[再読み込みが必要です],-
+LV.SP.WorkEffGroup,作業効率,-
+LV.SP.WorkEffGroupDesc,コロニーの作業効率を向上させる,-
+LV.SP.LogisticGroup,物流,-
+LV.SP.LogisticGroupDesc,移動速度と資源の流れを増加させる,-
+LV.SP.WorkEffUpgrade1,精密作業工具,-
+LV.SP.WorkEffUpgrade1Eff,すべてのビーバーの作業効率を永続的に{0:+#%}上昇させます。,-
+LV.SP.WorkEffUpgrade1Lore,ヒューマンツールの計画を掘り起こした後、ビーバーたちは古代のコツを使って鋭い刃を作り、効率を高めます。,-
+LV.SP.WorkEffUpgrade2,精密工具のメンテナンス,-
+LV.SP.WorkEffUpgrade2Lore,「水力駆動の鉋を仕掛けて-私たちの道具を常に準備万端にし、時間が経つにつれてすべての仕事を早める！」 — チゼルジョー・ティンバーチュー,-
+LV.SP.WorkEffUpgrade2Eff,{0:+#%} 各レベルごとのビーバー全体の作業効率の向上。,-
+LV.SP.WorkEffUpgrade2Cost,[レベル]につき、{1}と{2}匹の大人のビーバーごとに（切り上げ）,-
+LV.SP.MoveSpeedUpgrade1,軽量スリッパ,-
+LV.SP.MoveSpeedUpgrade1Lore,「このスリッパを履くと、水の上を滑っているような気分になります」 — ウィスカーテイル・クイックポー,-
+LV.SP.MoveSpeedUpgradeEff,すべてのビーバーの移動速度を{0:+#%}増加させます（他のプロジェクトと重複します）。,-
+LV.SP.MoveSpeedUpgrade2,耐久性のあるトレイルブーツ,-
+LV.SP.MoveSpeedUpgrade2Lore,ビーバーの歯のように頑丈なこのブーツは、険しい道をスムーズな道に変えて、素早い移動を可能にします。,-
+LV.SP.MoveSpeedUpgrade3,エアロダイナミックスプリントギア,-
+LV.SP.MoveSpeedUpgrade3Lore,「このギアでは、私はただ走るのではない。私は純粋なスピードの毛むくじゃらのぼやけだ！」 — スウィフトストリーム・ウィンドランナー,-
+LV.SP.MoveSpeedUpgradeBuff,移動速度プロジェクト,-
+LV.SP.MoveSpeedUpgradeBuffDesc,あなたの上級ギアはキャラクターの動きを速くします。,-
+LV.SP.MoveSpeedUpgradeBuffEff,{0:+#%} 移動速度が {1} から,-
+LV.SP.WorkEffUpgradeBuff,作業効率プロジェクト,-
+LV.SP.WorkEffUpgradeBuffDesc,あなたの優れたツールは、あなたのキャラクターがより効率的に働くことを可能にします。,-
+LV.SP.WorkEffUpgradeBuffEff,{0:+#%} 作業効率 {1} から,-
+LV.SP.EmergenciesGroup,緊急事態,-
+LV.SP.EmergenciesGroupDesc,危険な場合は、これらの大きな黄色のボタンを押してください。しかし、あなたには一度きりのチャンスしかありません。,-
+LV.SP.EmergencyDrill1,緊急浅深 drill,-
+LV.SP.EmergencyDrill1Desc,この温暖な季節に{0}日を加えます。悪天候が来るときのみ有効にできます。,-
+LV.SP.EmergencyDrill1Lore,湿った土を求める好奇心旺盛なビーバーの鼻が、すぐに掘れるこの浅い水のポケットに導いた—ピンチのときに命を救う。,-
+LV.SP.EmergencyDrill2,緊急深層掘削,-
+LV.SP.EmergencyDrill2Desc,この温暖な季節に{0}日を追加します。悪天候が近づいているときのみ有効になります。,-
+LV.SP.EmergencyDrill2Lore,「私たちは深く掘っているが、安く掘っているわけではない！」 — ディガー・マクドリルフェイス IV,-
+LV.SP.EmergencyDrill3,緊急深層掘削,-
+LV.SP.EmergencyDrill3Desc,この温暖な季節に{0}日を追加します。悪天候が近づいているときにのみ有効になります。,-
+LV.SP.EmergencyDrill3Lore,伝説によれば、古いガーノスはこの最深の井戸を予見していました - 空が厳しくなったときの私たちの最後の希望です。,-
+LV.SP.BadWeatherConditionErr,悪天候（干ばつまたは悪潮）が予測される場合にのみ、これを有効にすることができます。,-
+LV.SP.Wheelbarrows,手押し車,-
+LV.SP.WheelbarrowsLore,究極の背負い道具で、ビーバーが overloaded turtles のように waddling することなく、丸太を運ぶことができます。,-
+LV.SP.WheelbarrowsEff,ビーバーとボットは、運搬時に移動速度のペナルティを受けなくなりました。,-
+LV.SP.CarryUpgrade1,強化運搬パック,-
+LV.SP.CarryUpgrade1Lore,「これらのパックは、森を運びながらスナックのためのスペースも確保できるんだ！」 — パックミュール・ヘビーロード,-
+LV.SP.CarryUpgrade1Eff,ビーバーの運搬能力を{0:+#%}永久的に増加させる,-
+LV.SP.CarryBuilderUpgrade,ビルダーソレッジ,-
+LV.SP.CarryBuilderUpgradeLore,建設をよく噛まれた丸太のようにスムーズに進めること。,-
+LV.SP.CarryBuilderUpgradeEff,{0:+#%} レベルごとの追加運搬能力、<SolidHighlight>ビルダー</SolidHighlight>（地区センターまたはビルダーハットでの作業者、ビーバーとロボットの両方）向け。,-
+LV.SP.CarryBuilderUpgradeCost,[コスト] 各ビルダーのレベルごとに（切り上げ）,-
+LV.SP.CarryUpgradeBuff,耐載能力プロジェクト,-
+LV.SP.CarryUpgradeBuffDesc,あなたの上司が持っている装備は、キャラクターがより多くの荷物を持てるようにします。,-
+LV.SP.CarryUpgradeBuffEff,{0:+#%} 運搬能力 {1} から,-
+LV.SP.CarryBuilderBuff,ビルダー・スレッジ,-
+LV.SP.CarryBuilderBuffDesc,あなたの建設作業員は、もっと運ぶためのそりを装備しています。,-
+LV.SP.CarryBuilderBuffEff,{0:+#%} からの収容能力 {1},-
+LV.SP.FactionsGroup,派閥,-
+LV.SP.FactionsGroupDesc,各派閥のためのユニークなプロジェクト,-
+LV.SP.FtPlankUpgrade,レジン注入プランク,-
+LV.SP.FtPlankUpgradeLore,自然樹脂を浸透させることで、処理されたプランクの出力が倍増します - 電力は不要で、ただ自然の力です。,-
+LV.SP.FtPlankUpgradeEff,木工所は{1:#.###%}の電力を使用し、{0:+#%}の処理済み木材の出力を持っています。,-
+LV.SP.ItSmelterUpgrade,熱回収製錬炉,-
+LV.SP.ItSmelterUpgradeLore,炉設計のブレークスルーにより、追加の電力なしで金属の出力が2倍になり、アイアンティースの独創性を体現しています。,-
+LV.SP.ItSmelterUpgradeEff,精錬所は{1:#.###%}の電力を使用し、金属ブロックの出力を{0:+#%}増加させます。,-
+LV.SP.BuffLessPowerEff,{0:#.###%} 電力使用量,-
+LV.SP.BuffIncreasedOutput,{0:+#%} 出力が増加しました,-
+LV.SP.Filter,フィルター,-
+LV.SP.Keyword,キーワード,-
+LV.SP.FilterLocked,ロックされた,-
+LV.SP.FilterUnlocked,解除されました,-
+LV.SP.FilterDaily,日々,-
+LV.SP.FilterOneTime,一度限り,-

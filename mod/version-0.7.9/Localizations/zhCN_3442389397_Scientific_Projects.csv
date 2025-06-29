@@ -1,0 +1,95 @@
+ID,Text,Comment
+LV.SP.Title,科学项目,-
+LV.SP.Welcome,感谢使用科学项目模组！此界面可用于解锁和管理科学项目，你可以通过点击屏幕左上角的科学点数栏或按下快捷键（默认：Y，可在按键设置中重新绑定）来打开它。,-
+KeyBinding.ScientificProjectDialog,科学项目界面,-
+LV.SP.Unlocked,已解锁！,-
+LV.SP.PreqLocked,需要解锁 {0} 才能解锁此项目。,-
+LV.SP.NotEnoughScienceNextDay,科学点数不足，无法支付费用，请调整项目或暂停项目执行。警告：按Esc将暂停今天的项目执行。,-
+LV.SP.CurrentScience,当前科学点数：{0},-
+LV.SP.CurrentSciencePlus,当前科学点数：{0}（昨日变化 {1}）,-
+LV.SP.UnlockErrUnlocked,此项目已解锁。,-
+LV.SP.UnlockErrRequirementLocked,需要解锁 {0} 才能解锁此项目。,-
+LV.SP.UnlockErrCostLocked,科学点数不足，无法解锁此项目。,-
+LV.SP.UnlockConfirm,确定要解锁{0}吗？需要花费 {1} 点科学点数。,-
+LV.SP.CustomCost,每日费用：,-
+LV.SP.ScienceStepCost,每级花费 {0} 点,-
+LV.SP.CurrentCost,项目费用：{0} 点/天,-
+LV.SP.Level,项目等级,-
+LV.SP.ActiveLevel,当前等级：{0},-
+LV.SP.DayCostNotice,项目费用会在每一天开始时进行扣除，项目效果的持续时间为一整天。如果项目发生调整，会从下一天开始按新的费用进行扣除。,-
+LV.SP.NextDayCost,每日项目费用：{0},-
+LV.SP.PayDayCost,支付费用,-
+LV.SP.NotEnoughSciencePay,科学点数不足，无法支付费用。请调整项目或暂停项目执行。,-
+LV.SP.SkipConfirm,确定要暂停今天的项目执行吗？,-
+LV.SP.SkipToday,暂停执行,-
+LV.SP.WrongFaction,此种族无法解锁此项目。,-
+LV.SP.ReloadNotice,请保存游戏并重新加载以使此项目生效。,-
+LV.SP.ReloadNeeded,[需重新加载],-
+LV.SP.WorkEffGroup,工作速度,-
+LV.SP.WorkEffGroupDesc,提高工作速度的科学项目。,-
+LV.SP.LogisticGroup,物资搬运,-
+LV.SP.LogisticGroupDesc,提高移动速度和承载能力的科学项目。,-
+LV.SP.WorkEffUpgrade1,精密工具,-
+LV.SP.WorkEffUpgrade1Eff,提高所有海狸的工作速度 {0:+#%} 。,-
+LV.SP.WorkEffUpgrade1Lore,海狸们挖掘出了旧世界的工艺，打造出更锋利的工具。,-
+LV.SP.WorkEffUpgrade2,精细维护,-
+LV.SP.WorkEffUpgrade2Lore,水力打磨装置，用以保持工具锋利，长期提升工作效率。,-
+LV.SP.WorkEffUpgrade2Eff,每级额外提高所有海狸的工作速度 {0:+#%} 。,-
+LV.SP.WorkEffUpgrade2Cost,每级花费 [Cost] 点，且每只成年海狸额外花费 {1}/{2} 点（费用总和向上取整）。,-
+LV.SP.MoveSpeedUpgrade1,轻便拖鞋,-
+LV.SP.MoveSpeedUpgrade1Lore,轻盈简便的拖鞋，仿佛是在水面上滑行。,-
+LV.SP.MoveSpeedUpgradeEff,提升所有海狸的移动速度 {0:+#%} 。,-
+LV.SP.MoveSpeedUpgrade2,耐用皮靴,-
+LV.SP.MoveSpeedUpgrade2Lore,靴面如牙齿般坚固，崎岖小路也会变成平滑通道。,-
+LV.SP.MoveSpeedUpgrade3,动力跑鞋,-
+LV.SP.MoveSpeedUpgrade3Lore,狸体动力学的产物，让海狸快得像是毛茸茸的闪电。,-
+LV.SP.MoveSpeedUpgradeBuff,移动速度项目,-
+LV.SP.MoveSpeedUpgradeBuffDesc,优良的装备使你的海狸移动速度更快。,-
+LV.SP.MoveSpeedUpgradeBuffEff,移动速度: {0:+#%} ，来自 {1},-
+LV.SP.WorkEffUpgradeBuff,工作速度项目,-
+LV.SP.WorkEffUpgradeBuffDesc,优良的装备使你的海狸工作速度更高。,-
+LV.SP.WorkEffUpgradeBuffEff,工作速度: {0:+#%} ，来自 {1},-
+LV.SP.EmergenciesGroup,紧急援助,-
+LV.SP.EmergenciesGroupDesc,只能使用一次的紧急科学项目。,-
+LV.SP.EmergencyDrill1,紧急浅层钻探,-
+LV.SP.EmergencyDrill1Desc,当前温和期额外增加 {0} 天（只能在恶劣天气预警时使用）。,-
+LV.SP.EmergencyDrill1Lore,某只海狸敏锐的鼻子发现了这个浅层水源——危急时刻能救命。,-
+LV.SP.EmergencyDrill2,紧急中层钻探,-
+LV.SP.EmergencyDrill2Desc,当前温和期额外增加 {0} 天（只能在恶劣天气预警时使用）。,-
+LV.SP.EmergencyDrill2Lore,经过小心谨慎的搜寻，海狸们找到了第二个备用水源。,-
+LV.SP.EmergencyDrill3,紧急深层钻探,-
+LV.SP.EmergencyDrill3Desc,当前温和期额外增加 {0} 天（只能在恶劣天气预警时使用）。,-
+LV.SP.EmergencyDrill3Lore,据说海狸长老预见了这口深井……这是灾难来临时的最后希望。,-
+LV.SP.BadWeatherConditionErr,只能在恶劣天气预警时使用此项目。,-
+LV.SP.Wheelbarrows,独轮手推车,-
+LV.SP.WheelbarrowsLore,终极护背神器，让海狸们不用再像超载乌龟般搬运原木。,-
+LV.SP.WheelbarrowsEff,海狸和机关人搬运物品时，移动速度不再降低。,-
+LV.SP.CarryUpgrade1,强化搬运包,-
+LV.SP.CarryUpgrade1Lore,背包足以装下一整片森林的原木，当然还有好吃的零食。,-
+LV.SP.CarryUpgrade1Eff,增加所有海狸的承载能力 {0:+#%} 。,-
+LV.SP.CarryBuilderUpgrade,建筑工雪橇,-
+LV.SP.CarryBuilderUpgradeLore,让工程建造如同啃过的原木般顺滑。,-
+LV.SP.CarryBuilderUpgradeEff,每级额外增加<color=#00FF00>建筑工</color>的承载能力 {0:+#%} 。,-
+LV.SP.CarryBuilderUpgradeCost,每级花费 [Cost] 点，且每名建筑工额外花费 [Cost] 点（费用总和向上取整）。,-
+LV.SP.CarryUpgradeBuff,承载能力项目,-
+LV.SP.CarryUpgradeBuffDesc,优良的装备使你的海狸承载能力更强。,-
+LV.SP.CarryUpgradeBuffEff,承载能力: {0:+#%} ，来自 {1},-
+LV.SP.CarryBuilderBuff,建筑工项目,-
+LV.SP.CarryBuilderBuffDesc,特制的装备使你的海狸建筑工承载能力更强。,-
+LV.SP.CarryBuilderBuffEff,承载能力: {0:+#%} ，来自 {1},-
+LV.SP.FactionsGroup,种族项目,-
+LV.SP.FactionsGroupDesc,种族独有的专属科学项目。,-
+LV.SP.FtPlankUpgrade,树脂浸渍木板,-
+LV.SP.FtPlankUpgradeLore,神尾的浸渍工艺使木材工坊产量翻倍——纯天然，无污染。,-
+LV.SP.FtPlankUpgradeEff,木材工坊能耗降低 {1:#.###%} ，产量增加 {0:+#%}。,-
+LV.SP.ItSmelterUpgrade,余热回收熔炉,-
+LV.SP.ItSmelterUpgradeLore,重大设计突破使冶炼所产量翻倍，尽显铁牙的巧妙构思。,-
+LV.SP.ItSmelterUpgradeEff,冶炼所能耗降低 {1:#.###%} ，产量增加 {0:+#%}。,-
+LV.SP.BuffLessPowerEff,能耗降低 {0:#.###%},-
+LV.SP.BuffIncreasedOutput,产量增加 {0:+#%},-
+LV.SP.Filter,筛选,-
+LV.SP.Keyword,关键词,-
+LV.SP.FilterLocked,已锁定,-
+LV.SP.FilterUnlocked,已解锁,-
+LV.SP.FilterDaily,每日,-
+LV.SP.FilterOneTime,一次性,-

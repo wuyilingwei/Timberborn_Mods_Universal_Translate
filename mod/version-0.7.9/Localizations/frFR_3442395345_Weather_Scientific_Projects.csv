@@ -1,0 +1,43 @@
+ID,Text,Comment
+LV.WSP.WeatherGroup,Météo,-
+LV.WSP.WeatherGroupDesc,Projets scientifiques liés à la météo et aux prévisions,-
+LV.WSP.Ext1,Totem de Galesniffer,-
+LV.WSP.Ext1Desc,Les avertissements de mauvais temps arrivent {0:+#} jour plus tôt.,-
+LV.WSP.Ext1Lore,Un simple poteau où vos castors peuvent 'flairer' le vent pour des indications météorologiques précoces.,-
+LV.WSP.Ext2,Cadran du Tissebrume,-
+LV.WSP.Ext2Desc,Les avertissements de mauvais temps arrivent {0:+#} jour plus tôt.,-
+LV.WSP.Ext2Lore,Un cadran qui peut prédire le temps en fonction de l'humidité et de la pression atmosphérique.,-
+LV.WSP.Ext3,La Flèche de Thunderhub,-
+LV.WSP.Ext3Desc,Les avertissements de mauvais temps arrivent {0:+#} jour plus tôt par niveau.,-
+LV.WSP.Ext3Lore,Une haute flèche qui peut détecter la charge électrique dans l'air.,-
+LV.WSP.PrewarningCost,[Coût] par niveau lors des jours de pré-alerte. 0 les autres jours.,-
+LV.WSP.Pred1,Prévisions météorologiques,-
+LV.WSP.Pred1Desc,Prédisez le mauvais temps de ce cycle. La précision commence à {0:#%} le premier jour et augmente de {1:+#%} chaque jour.,-
+LV.WSP.Pred1Lore,"Les castors consultent les nuages et les vents, leurs prévisions s'affinant au fil des jours.",-
+LV.WSP.Pred2,Précision Étoilée,-
+LV.WSP.Pred2Desc,Les prévisions météorologiques commencent maintenant avec une précision supplémentaire de {0:+#%} le premier jour du cycle.,-
+LV.WSP.Pred2Lore,« Les étoiles ne mentent pas—si vous savez comment leur poser des questions ! » — Blink le Stargazer,-
+LV.WSP.Pred3,Analyse hydrologique,-
+LV.WSP.Pred3Desc,Ajoutez {1:+#%} de précision par niveau à la prévision météo chaque jour.,-
+LV.WSP.Pred3Lore,"En étudiant les allées et venues, les castors améliorent quotidiennement leurs prévisions météorologiques.",-
+LV.WSP.IncreaseStr,Conduit de Flowmaster,-
+LV.WSP.IncreaseStrDesc,Vous permet d'augmenter la force des sources d'eau.,-
+LV.WSP.IncreaseStrLore,"« Plus d'eau, plus de puissance — aussi simple que ça ! » — Riverchew Flowmaster",-
+LV.WSP.IncreaseStrFresh,Augmenter les sources d'eau douce,-
+LV.WSP.IncreaseStrFreshDesc,Augmentez la force de toutes les sources d'eau douce (y compris pendant les marées de mauvais temps) de {0:+#%} par niveau.,-
+LV.WSP.IncreaseStrBad,Augmenter les sources d'eau polluées,-
+LV.WSP.IncreaseStrBadDesc,Augmentez la force de toutes les mauvaises sources d'eau de {0:+#%} par niveau.,-
+LV.WSP.DecreaseStr,La Porte de Tidebreaker,-
+LV.WSP.DecreaseStrDesc,Vous permet de diminuer la force des sources d'eau.,-
+LV.WSP.DecreaseStrLore,"« Parfois, il faut apprivoiser la rivière, pas la chevaucher. » — Stillwater Tidebreaker",-
+LV.WSP.DecreaseStrFresh,Diminuer les sources d'eau douce,-
+LV.WSP.DecreaseStrFreshDesc,Diminuez la force de toutes les sources d'eau douce de {0:;#%} par niveau.,-
+LV.WSP.DecreaseStrBad,Réduire les sources d'eau mauvaises,-
+LV.WSP.DecreaseStrBadDesc,Diminuez la force de toutes les mauvaises sources d'eau de {0:#%} par niveau.,-
+LV.WSP.StrCostFresh,"[Coût] par source d'eau douce. Les sources inactives ne comptent pas (par exemple, durant une sécheresse)",-
+LV.WSP.StrCostBad,"[Coût] par source d'eau non conforme. Les sources inactives ne sont pas comptées (par exemple, pendant une sécheresse ou celles scellées).",-
+LV.WSP.ForecastText,"{0:#%} {1}, dure {2}-{3} jours",-
+LV.WSP.Forecast1DayText,"{0:#%} {1}, dure {2}j",-
+LV.WSP.DecreaseStrBuffDesc,"Une merveille de l'ingénierie des castors, cette porte apprivoise les rivières les plus sauvages, apaisant leur cours pour protéger nos terres.",-
+LV.WSP.IncreaseStrBuffDesc,"Canalisant la puissance de la nature, ce conduit libère un flot d'eau, pliant les rivières à notre volonté.",-
+LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} Force,-
