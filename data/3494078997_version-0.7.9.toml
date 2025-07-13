@@ -1,0 +1,259 @@
+["ebbflow.settings.enableglobalstrengthreduction"]
+raw = "Enable Global Strength Reduction"
+enUS = "Enable Global Strength Reduction"
+zhCN = "启用全局水力调整"
+
+["ebbflow.settings.enableglobalstrengthreduction.desc"]
+raw = "Enable a global multiplier to adjust the strength of all water sources."
+enUS = "Enable a global multiplier to adjust the strength of all water sources."
+zhCN = "勾选后，水源和恶水源的水力可以被全局调整。"
+
+["ebbflow.settings.globalstrengthmultiplier"]
+raw = "Global Strength Multiplier"
+enUS = "Global Strength Multiplier"
+zhCN = "  全局水力系数"
+
+["ebbflow.settings.globalstrengthmultiplier.desc"]
+raw = "Multiplier for all water sources (e.g., 1.0 = normal, 0.5 = half strength)."
+enUS = "Multiplier for all water sources (e.g., 1.0 = normal, 0.5 = half strength)."
+zhCN = "调整水源和恶水源的水力（模组默认：1；1表示原水力的100%，小于1表示按比例衰减，大于1表示按比例增强）。"
+
+["ebbflow.settings.enabledynamicfluctuations"]
+raw = "Enable Dynamic Fluctuations"
+enUS = "Enable Dynamic Fluctuations"
+zhCN = "启用水力波动"
+
+["ebbflow.settings.enabledynamicfluctuations.desc"]
+raw = "Enable random, temporary strength changes for water sources."
+enUS = "Enable random, temporary strength changes for water sources."
+zhCN = "勾选后，水源和恶水源的水力会发生随机波动。"
+
+["ebbflow.settings.maxaffectedsources"]
+raw = "Max Affected Sources Per Update"
+enUS = "Max Affected Sources Per Update"
+zhCN = "  最大波动数量"
+
+["ebbflow.settings.maxaffectedsources.desc"]
+raw = "Maximum number of water sources that can start new fluctuations each cycle."
+enUS = "Maximum number of water sources that can start new fluctuations each cycle."
+zhCN = "每个轮次内被选中为可能发生随机波动的水源和恶水源的最大数量。"
+
+["ebbflow.settings.chancetoskipfluctuation"]
+raw = "Chance to Skip Fluctuation"
+enUS = "Chance to Skip Fluctuation"
+zhCN = "  无波动概率"
+
+["ebbflow.settings.chancetoskipfluctuation.desc"]
+raw = "Probability to skip starting new fluctuations in a cycle (0.0 = never skip, 1.0 = always skip)."
+enUS = "Probability to skip starting new fluctuations in a cycle (0.0 = never skip, 1.0 = always skip)."
+zhCN = "被选中但不触发新的随机波动的概率（模组默认：0.25，表示25%的概率不触发）。"
+
+["ebbflow.settings.minfluctuationmodifier"]
+raw = "Min Fluctuation Modifier"
+enUS = "Min Fluctuation Modifier"
+zhCN = "  最小波动系数"
+
+["ebbflow.settings.minfluctuationmodifier.desc"]
+raw = "Minimum strength multiplier during a fluctuation (e.g., 0.5 = 50% strength)."
+enUS = "Minimum strength multiplier during a fluctuation (e.g., 0.5 = 50% strength)."
+zhCN = "随机波动时的水力系数的下限（模组默认：0.5，表示原水力的50%）。"
+
+["ebbflow.settings.maxfluctuationmodifier"]
+raw = "Max Fluctuation Modifier"
+enUS = "Max Fluctuation Modifier"
+zhCN = "  最大波动系数"
+
+["ebbflow.settings.maxfluctuationmodifier.desc"]
+raw = "Maximum strength multiplier during a fluctuation (e.g., 2.0 = 200% strength)."
+enUS = "Maximum strength multiplier during a fluctuation (e.g., 2.0 = 200% strength)."
+zhCN = "随机波动时的水力系数的上限（模组默认：3，表示原水力的300%）。"
+
+["ebbflow.settings.fluctuationdurationticks"]
+raw = "Fluctuation Duration (Cycles)"
+enUS = "Fluctuation Duration (Cycles)"
+zhCN = "  波动持续时间（轮次）"
+
+["ebbflow.settings.fluctuationdurationticks.desc"]
+raw = "How long a random water strength fluctuation lasts. A higher number means the fluctuation will last longer. Each cycle is approximately one hour of in-game time."
+enUS = "How long a random water strength fluctuation lasts. A higher number means the fluctuation will last longer. Each cycle is approximately one hour of in-game time."
+zhCN = "随机波动的持续时间（模组默认：6轮次）。"
+
+["ebbflow.settings.enablesourcetoggling"]
+raw = "Enable Source Toggling"
+enUS = "Enable Source Toggling"
+zhCN = "启用水源断流"
+
+["ebbflow.settings.enablesourcetoggling.desc"]
+raw = "Enable water sources to be temporarily turned off."
+enUS = "Enable water sources to be temporarily turned off."
+zhCN = "勾选后，水源和恶水源会发生断流。"
+
+["ebbflow.settings.sourcestodivide"]
+raw = "Sources To Check Denominator"
+enUS = "Sources To Check Denominator"
+zhCN = "  待检测分母数"
+
+["ebbflow.settings.sourcestodivide.desc"]
+raw = "Divides total map sources by this number to determine how many to check for toggling (e.g., 3 = check 1/3 of sources)."
+enUS = "Divides total map sources by this number to determine how many to check for toggling (e.g., 3 = check 1/3 of sources)."
+zhCN = "模组刷新时，会对多少水源和恶水源进行开关检测（模组默认：3，表示检测整个地图1/3的水源和恶水源）。"
+
+["ebbflow.settings.maxsourcestotoggleoff"]
+raw = "Max Sources to Toggle Off"
+enUS = "Max Sources to Toggle Off"
+zhCN = "  最大断流数量"
+
+["ebbflow.settings.maxsourcestotoggleoff.desc"]
+raw = "Maximum number of water sources that can be toggled off per cycle."
+enUS = "Maximum number of water sources that can be toggled off per cycle."
+zhCN = "每个轮次内被选中为可能发生断流的水源和恶水源的最大数量（模组默认：2）。"
+
+["ebbflow.settings.chancetotoggleoff"]
+raw = "Chance to Toggle Off"
+enUS = "Chance to Toggle Off"
+zhCN = "  断流概率"
+
+["ebbflow.settings.chancetotoggleoff.desc"]
+raw = "Probability a checked source will be toggled off (0.0 = never, 1.0 = always)."
+enUS = "Probability a checked source will be toggled off (0.0 = never, 1.0 = always)."
+zhCN = "被选中后发生断流的概率（模组默认：0.5，表示50%的概率断流）。"
+
+["ebbflow.settings.toggleoffstrength"]
+raw = "Toggled-Off Strength"
+enUS = "Toggled-Off Strength"
+zhCN = "  断流系数"
+
+["ebbflow.settings.toggleoffstrength.desc"]
+raw = "Water source strength when toggled off (e.g., 0.15 = 15% of normal)."
+enUS = "Water source strength when toggled off (e.g., 0.15 = 15% of normal)."
+zhCN = "断流时的水力系数（模组默认：0.15，表示原水力的15%）。"
+
+["ebbflow.settings.toggleoffdurationticks"]
+raw = "Toggle-Off Duration (Cycles)"
+enUS = "Toggle-Off Duration (Cycles)"
+zhCN = "  断流持续时间（轮次）"
+
+["ebbflow.settings.toggleoffdurationticks.desc"]
+raw = "Duration sources stay off, in mod update cycles."
+enUS = "Duration sources stay off, in mod update cycles."
+zhCN = "断流的持续时间（模组默认：1轮次）。"
+
+["ebbflow.settings.contaminationlinger"]
+raw = "Contamination Linger (Days)"
+enUS = "Contamination Linger (Days)"
+zhCN = "污染残留时间（天）"
+
+["ebbflow.settings.contaminationlinger.desc"]
+raw = "How long contamination persists in soil, in approximate game days."
+enUS = "How long contamination persists in soil, in approximate game days."
+zhCN = "恶水退去后，土地残留污染的持续时间（模组默认：1天）。"
+
+["ebbflow.settings.enablesludgegeneration"]
+raw = "Enable Sludge Generation"
+enUS = "Enable Sludge Generation"
+zhCN = "启用污泥块生成"
+
+["ebbflow.settings.enablesludgegeneration.desc"]
+raw = "Allow sludge blocks to spawn in contaminated water."
+enUS = "Allow sludge blocks to spawn in contaminated water."
+zhCN = "勾选后，恶水源周围且污染程度为100%的水体区域会生成污泥块（堆砌体）。"
+
+["ebbflow.settings.chancetospawnsludge"]
+raw = "Chance to Spawn Sludge"
+enUS = "Chance to Spawn Sludge"
+zhCN = "  生成概率"
+
+["ebbflow.settings.chancetospawnsludge.desc"]
+raw = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
+enUS = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
+zhCN = "每个轮次内生成污泥块的概率（模组默认：0.15，表示15%的概率生成）。"
+
+["ebbflow.settings.maxsludgeperbadsource"]
+raw = "Max Sludge Per Event"
+enUS = "Max Sludge Per Event"
+zhCN = "  最大污泥块数量"
+
+["ebbflow.settings.maxsludgeperbadsource.desc"]
+raw = "Maximum sludge blocks that can spawn from a single contamination event."
+enUS = "Maximum sludge blocks that can spawn from a single contamination event."
+zhCN = "每次可以生成的最大污泥块数量（模组默认：2）。"
+
+["ebbflow.settings.sludgespawnradius"]
+raw = "Sludge Spawn Radius"
+enUS = "Sludge Spawn Radius"
+zhCN = "  生成半径"
+
+["ebbflow.settings.sludgespawnradius.desc"]
+raw = "Maximum distance from a contamination source where sludge can spawn."
+enUS = "Maximum distance from a contamination source where sludge can spawn."
+zhCN = "恶水源周围可以生成污泥块的区域的半径（模组默认：4）。"
+
+["ebbflow.settings.minwaterdepthforsludge"]
+raw = "Min Water Depth for Sludge"
+enUS = "Min Water Depth for Sludge"
+zhCN = "  最小生成水深"
+
+["ebbflow.settings.minwaterdepthforsludge.desc"]
+raw = "Minimum water depth required for sludge to form (0.2 = 20% of a block height)."
+enUS = "Minimum water depth required for sludge to form (0.2 = 20% of a block height)."
+zhCN = "生成污泥块所需的最小水深（模组默认：0.2米）。"
+
+["ebbflow.settings.allowsludgeinchannels"]
+raw = "Allow Sludge In Flow Channels"
+enUS = "Allow Sludge In Flow Channels"
+zhCN = "  启用河道污泥块生成"
+
+["ebbflow.settings.allowsludgeinchannels.desc"]
+raw = "Allow sludge blocks to spawn in flowing water channels."
+enUS = "Allow sludge blocks to spawn in flowing water channels."
+zhCN = "勾选后，河道等流动水域中也可以生成污泥块。"
+
+["ebbflow.settings.maxadjacentsludge"]
+raw = "Max Adjacent Sludge"
+enUS = "Max Adjacent Sludge"
+zhCN = "  相邻污泥块最大数量"
+
+["ebbflow.settings.maxadjacentsludge.desc"]
+raw = "The maximum number of adjacent sludge blocks allowed before a new one can spawn, to prevent fully blocking rivers."
+enUS = "The maximum number of adjacent sludge blocks allowed before a new one can spawn, to prevent fully blocking rivers."
+zhCN = "生成新的污泥块时允许相邻的最大污泥块数量，超过则此处不能生成(模组默认：1）。"
+
+["ebbflow.settings.updateintervalinticks"]
+raw = "Update Interval (in Ticks)"
+enUS = "Update Interval (in Ticks)"
+zhCN = "模组轮次时间（游戏刻）"
+
+["ebbflow.settings.updateintervalinticks.desc"]
+raw = "How often the mod's main logic cycle runs. Lower values are more frequent but may impact performance. Default is 200."
+enUS = "How often the mod's main logic cycle runs. Lower values are more frequent but may impact performance. Default is 200."
+zhCN = "模组主逻辑的运行频率，每运行一次为1轮次。数值越低，运行越频繁、轮次越短，但可能影响性能（模组默认：200游戏刻，约等于游戏内1小时）。"
+
+["ebbflow.settings.enablebaselinecontamination"]
+raw = "Enable Baseline Contamination"
+enUS = "Enable Baseline Contamination"
+zhCN = "启用基础污染"
+
+["ebbflow.settings.enablebaselinecontamination.desc"]
+raw = "All water sources have 1-4% contamination by default, as truly clean water is rare."
+enUS = "All water sources have 1-4% contamination by default, as truly clean water is rare."
+zhCN = "勾选后，水源的水会带有基础污染。"
+
+["ebbflow.settings.baselinecontaminationmin"]
+raw = "Min Baseline Contamination"
+enUS = "Min Baseline Contamination"
+zhCN = "  最小污染程度"
+
+["ebbflow.settings.baselinecontaminationmin.desc"]
+raw = "Minimum baseline contamination percentage (0.01 = 1%)."
+enUS = "Minimum baseline contamination percentage (0.01 = 1%)."
+zhCN = "基础污染的污染程度下限（模组默认：0.01，表示污染程度1%）。"
+
+["ebbflow.settings.baselinecontaminationmax"]
+raw = "Max Baseline Contamination"
+enUS = "Max Baseline Contamination"
+zhCN = "  最大污染程度"
+
+["ebbflow.settings.baselinecontaminationmax.desc"]
+raw = "Maximum baseline contamination percentage (0.04 = 4%)."
+enUS = "Maximum baseline contamination percentage (0.04 = 4%)."
+zhCN = "基础污染的污染程度上限（模组默认：0.04，表示污染程度4%）。"

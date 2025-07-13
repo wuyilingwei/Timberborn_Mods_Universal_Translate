@@ -10,10 +10,10 @@ LV.TIMod.OpenExternalBrowser,始终使用外部浏览器打开,-
 LV.TIMod.OpenExternalBrowserDesc,勾选后，始终使用外部浏览器打开，而不是使用Steam覆盖浏览器。,-
 LV.TIMod.DevModeOnDefault,加载时默认启用开发者模式,-
 LV.TIMod.DevModeOnDefaultDesc,勾选后，加载游戏时默认启用开发者模式。,-
-LV.TIMod.BetterResetLoadOrder,更好的模组组织,-
-LV.TIMod.BetterResetLoadOrderDesc,移动到顶部将模组移到顶部，但在它们的依赖项下面。重置加载顺序按启用、名称排序模组，然后将它们的依赖项排在最上面。启用的模组在上传时会首先显示。,-
-LV.TIMod.NoExitSave,无出路保存,-
-LV.TIMod.NoExitSaveDesc,退出时不要保存游戏。,-
+LV.TIMod.BetterResetLoadOrder,模组排序优化,-
+LV.TIMod.BetterResetLoadOrderDesc,勾选后，“重置加载顺序”会根据模组的启用状态、名称来排序，然后将依赖项排在上面。上传模组时，启用的模组会排在上面。,-
+LV.TIMod.NoExitSave,无保存退出,-
+LV.TIMod.NoExitSaveDesc,勾选后，退出游戏时不进行自动保存。,-
 LV.TIMod.QuickQuit,启用快速退出 (!),-
 LV.TIMod.QuickQuitDesc,勾选后，按下 Ctrl+Shift+Q 时快速退出游戏。此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
 LV.TIMod.QuickRestart,启用快速重启 (!),-

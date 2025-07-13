@@ -10,10 +10,10 @@ deDE = "Zusätzliche Terrain-Tools"
 plPL = "Dodatkowe narzędzia terenowe"
 ptBR = "Ferramentas de Terreno Extras"
 
-["TerrainTools.KeyBindingGroup.Label"]  
-raw = "Terrain Tools"  
-enUS = "Terrain Tools"  
-zhCN = "拓展地形工具"  
+["TerrainTools.KeyBindingGroup.Label"]
+raw = "Terrain Tools"
+enUS = "Terrain Tools"
+zhCN = "拓展地形工具"
 
 ["TerrainTools.Keybinding.Undo"]
 raw = "Terrain Tools - Undo"
@@ -75,239 +75,239 @@ deDE = "Geländewerkzeuge - Zyklusmodus"
 plPL = "Narzędzia terenowe - Tryb cyklu"
 ptBR = "Ferramentas de Terreno - Modo de Ciclo"
 
-["TerrainTools.Common.Button.Apply"]  
-raw = "Apply"  
-enUS = "Apply"  
-zhCN = "应用"  
+["TerrainTools.Common.Button.Apply"]
+raw = "Apply"
+enUS = "Apply"
+zhCN = "应用"
 
-["TerrainTools.Common.Button.Reset"]  
-raw = "Reset"  
-enUS = "Reset"  
-zhCN = "重置"  
+["TerrainTools.Common.Button.Reset"]
+raw = "Reset"
+enUS = "Reset"
+zhCN = "重置"
 
-["TerrainTools.Heightmap.Tool.Title"]  
-raw = "Heightmap Generator"  
-enUS = "Heightmap Generator"  
-zhCN = "地形生成工具"  
+["TerrainTools.Heightmap.Tool.Title"]
+raw = "Heightmap Generator"
+enUS = "Heightmap Generator"
+zhCN = "地形生成工具"
 
-["TerrainTools.Heightmap.Tool.Warning"]  
-raw = "Changes affect the entire map"  
-enUS = "Changes affect the entire map"  
-zhCN = "此工具会影响整个地图。"  
+["TerrainTools.Heightmap.Tool.Warning"]
+raw = "Changes affect the entire map"
+enUS = "Changes affect the entire map"
+zhCN = "此工具会影响整个地图。"
 
-["TerrainTools.Heightmap.Button.Generate"]  
-raw = "Generate"  
-enUS = "Generate"  
-zhCN = "生成"  
+["TerrainTools.Heightmap.Button.Generate"]
+raw = "Generate"
+enUS = "Generate"
+zhCN = "生成"
 
-["TerrainTools.Heightmap.Checkbox.ClearObjects"]  
-raw = "Clear existing objects"  
-enUS = "Clear existing objects"  
-zhCN = "清除地图物体"  
+["TerrainTools.Heightmap.Checkbox.ClearObjects"]
+raw = "Clear existing objects"
+enUS = "Clear existing objects"
+zhCN = "清除地图物体"
 
-["TerrainTools.Heightmap.Generate.Hint"]  
-raw = "Click {0} to update the terrain."  
-enUS = "Click {0} to update the terrain."  
-zhCN = "点击{0}更新地形。"  
+["TerrainTools.Heightmap.Generate.Hint"]
+raw = "Click {0} to update the terrain."
+enUS = "Click {0} to update the terrain."
+zhCN = "点击{0}更新地形。"
 
-["TerrainTools.Heightmap.Generate.Warning"]  
-raw = "{0} will be removed. This action cannot be undone."  
-enUS = "{0} will be removed. This action cannot be undone."  
-zhCN = "{0}将被清除。此操作不可撤销。"  
+["TerrainTools.Heightmap.Generate.Warning"]
+raw = "{0} will be removed. This action cannot be undone."
+enUS = "{0} will be removed. This action cannot be undone."
+zhCN = "{0}将被清除。此操作不可撤销。"
 
-["TerrainTools.Heightmap.Clear.WaterSourcesOnly"]  
-raw = "All water sources"  
-enUS = "All water sources"  
-zhCN = "所有水源"  
+["TerrainTools.Heightmap.Clear.WaterSourcesOnly"]
+raw = "All water sources"
+enUS = "All water sources"
+zhCN = "所有水源"
 
-["TerrainTools.Heightmap.Clear.All"]  
-raw = "All objects"  
-enUS = "All objects"  
+["TerrainTools.Heightmap.Clear.All"]
+raw = "All objects"
+enUS = "All objects"
 zhCN = "所有物体"
 
-["TerrainTools.Heightmap.Status.Idle"]  
-raw = "Idle"  
-enUS = "Idle"  
-zhCN = "等待生成"  
+["TerrainTools.Heightmap.Status.Idle"]
+raw = "Idle"
+enUS = "Idle"
+zhCN = "等待生成"
 
-["TerrainTools.Heightmap.Status.Generating"]  
-raw = "Generating"  
-enUS = "Generating"  
-zhCN = "生成中"  
+["TerrainTools.Heightmap.Status.Generating"]
+raw = "Generating"
+enUS = "Generating"
+zhCN = "生成中"
 
-["TerrainTools.Heightmap.Seed.Label"]  
-raw = "Seed"  
-enUS = "Seed"  
-zhCN = "种子"  
+["TerrainTools.Heightmap.Seed.Label"]
+raw = "Seed"
+enUS = "Seed"
+zhCN = "种子"
 
-["TerrainTools.Heightmap.Seed.Lock.Label"]  
-raw = "Lock"  
-enUS = "Lock"  
-zhCN = "锁定"  
+["TerrainTools.Heightmap.Seed.Lock.Label"]
+raw = "Lock"
+enUS = "Lock"
+zhCN = "锁定"
 
-["TerrainTools.Heightmap.Slider.LOD"]  
-raw = "Level of detail"  
-enUS = "Level of detail"  
-zhCN = "细节 (细微地形)"  
+["TerrainTools.Heightmap.Slider.LOD"]
+raw = "Level of detail"
+enUS = "Level of detail"
+zhCN = "细节 (细微地形)"
 
-["TerrainTools.Heightmap.Slider.Amplitude"]  
-raw = "Amplitude"  
-enUS = "Amplitude"  
-zhCN = "振幅 (陡峭程度)"  
+["TerrainTools.Heightmap.Slider.Amplitude"]
+raw = "Amplitude"
+enUS = "Amplitude"
+zhCN = "振幅 (陡峭程度)"
 
-["TerrainTools.Heightmap.Slider.Frequency"]  
-raw = "Frequency"  
-enUS = "Frequency"  
-zhCN = "频率 (山丘数量)"  
+["TerrainTools.Heightmap.Slider.Frequency"]
+raw = "Frequency"
+enUS = "Frequency"
+zhCN = "频率 (山丘数量)"
 
-["TerrainTools.Heightmap.Slider.Crest"]  
-raw = "Crest shape"  
-enUS = "Crest shape"  
-zhCN = "峰顶形状"  
+["TerrainTools.Heightmap.Slider.Crest"]
+raw = "Crest shape"
+enUS = "Crest shape"
+zhCN = "峰顶形状"
 
-["TerrainTools.Heightmap.Slider.Base"]  
-raw = "Base shape"  
-enUS = "Base shape"  
-zhCN = "峰底形状"  
+["TerrainTools.Heightmap.Slider.Base"]
+raw = "Base shape"
+enUS = "Base shape"
+zhCN = "峰底形状"
 
-["TerrainTools.Heightmap.Slider.Mean"]  
-raw = "Mean height"  
-enUS = "Mean height"  
-zhCN = "平均高度"  
+["TerrainTools.Heightmap.Slider.Mean"]
+raw = "Mean height"
+enUS = "Mean height"
+zhCN = "平均高度"
 
-["TerrainTools.Heightmap.Slider.Min"]  
-raw = "Min height"  
-enUS = "Min height"  
-zhCN = "最小高度"  
+["TerrainTools.Heightmap.Slider.Min"]
+raw = "Min height"
+enUS = "Min height"
+zhCN = "最小高度"
 
-["TerrainTools.Heightmap.Slider.Max"]  
-raw = "Max height"  
-enUS = "Max height"  
-zhCN = "最大高度"  
+["TerrainTools.Heightmap.Slider.Max"]
+raw = "Max height"
+enUS = "Max height"
+zhCN = "最大高度"
 
-["TerrainTools.Heightmap.Slider.PeriodX"]  
-raw = "Period X"  
-enUS = "Period X"  
-zhCN = "噪声X轴周期"  
+["TerrainTools.Heightmap.Slider.PeriodX"]
+raw = "Period X"
+enUS = "Period X"
+zhCN = "噪声X轴周期"
 
-["TerrainTools.Heightmap.Slider.PeriodY"]  
-raw = "Period Y"  
-enUS = "Period Y"  
-zhCN = "噪声Y轴周期"  
+["TerrainTools.Heightmap.Slider.PeriodY"]
+raw = "Period Y"
+enUS = "Period Y"
+zhCN = "噪声Y轴周期"
 
-["TerrainTools.PathPainter.Tool.Title"]  
-raw = "Path Painter"  
-enUS = "Path Painter"  
-zhCN = "路径绘制工具"  
+["TerrainTools.PathPainter.Tool.Title"]
+raw = "Path Painter"
+enUS = "Path Painter"
+zhCN = "路径绘制工具"
 
-["TerrainTools.PathPainter.Tool.Description"]  
-raw = "Adjust terrain using lines"  
-enUS = "Adjust terrain using lines"  
-zhCN = "沿着绘制的线条调整地形。"  
+["TerrainTools.PathPainter.Tool.Description"]
+raw = "Adjust terrain using lines"
+enUS = "Adjust terrain using lines"
+zhCN = "沿着绘制的线条调整地形。"
 
-["TerrainTools.PathPainter.Tip.AddMove"]  
-raw = "{0} = Add or Move points"  
-enUS = "{0} = Add or Move points"  
-zhCN = "{0}：添加/移动点"  
+["TerrainTools.PathPainter.Tip.AddMove"]
+raw = "{0} = Add or Move points"
+enUS = "{0} = Add or Move points"
+zhCN = "{0}：添加/移动点"
 
-["TerrainTools.PathPainter.Tip.DeleteHovered"]  
-raw = "{0} = Remove hovered point"  
-enUS = "{0} = Remove hovered point"  
-zhCN = "{0}：移除悬停点"  
+["TerrainTools.PathPainter.Tip.DeleteHovered"]
+raw = "{0} = Remove hovered point"
+enUS = "{0} = Remove hovered point"
+zhCN = "{0}：移除悬停点"
 
-["TerrainTools.PathPainter.Tip.DeleteMultiple"]  
-raw = "{0} (Hold) = Remove points"  
-enUS = "{0} (Hold) = Remove points"  
-zhCN = "{0} (按住)：删除多个点"  
+["TerrainTools.PathPainter.Tip.DeleteMultiple"]
+raw = "{0} (Hold) = Remove points"
+enUS = "{0} (Hold) = Remove points"
+zhCN = "{0} (按住)：删除多个点"
 
-["TerrainTools.PathPainter.Curve.Button.Line"]  
-raw = "Line"  
-enUS = "Line"  
-zhCN = "直线"  
+["TerrainTools.PathPainter.Curve.Button.Line"]
+raw = "Line"
+enUS = "Line"
+zhCN = "直线"
 
-["TerrainTools.PathPainter.Curve.Button.3Points"]  
-raw = "3 points"  
-enUS = "3 points"  
-zhCN = "三点曲线"  
+["TerrainTools.PathPainter.Curve.Button.3Points"]
+raw = "3 points"
+enUS = "3 points"
+zhCN = "三点曲线"
 
-["TerrainTools.PathPainter.Curve.Button.4Points"]  
-raw = "4 points"  
-enUS = "4 points"  
-zhCN = "四点曲线"  
+["TerrainTools.PathPainter.Curve.Button.4Points"]
+raw = "4 points"
+enUS = "4 points"
+zhCN = "四点曲线"
 
-["TerrainTools.PathPainter.Curve.Button.Continuous"]  
-raw = "Continuous"  
-enUS = "Continuous"  
-zhCN = "连续曲线"  
+["TerrainTools.PathPainter.Curve.Button.Continuous"]
+raw = "Continuous"
+enUS = "Continuous"
+zhCN = "连续曲线"
 
-["TerrainTools.PathPainter.Curve.Toggle.SingleSegment"]  
-raw = "Single segment"  
-enUS = "Single segment"  
-zhCN = "单段模式"  
+["TerrainTools.PathPainter.Curve.Toggle.SingleSegment"]
+raw = "Single segment"
+enUS = "Single segment"
+zhCN = "单段模式"
 
-["TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps"]  
-raw = "Smooth ends"  
-enUS = "Smooth ends"  
-zhCN = "平滑端点"  
+["TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps"]
+raw = "Smooth ends"
+enUS = "Smooth ends"
+zhCN = "平滑端点"
 
-["TerrainTools.PathPainter.Curve.Slider.Distance"]  
-raw = "Distance"  
-enUS = "Distance"  
-zhCN = "绘制距离"  
+["TerrainTools.PathPainter.Curve.Slider.Distance"]
+raw = "Distance"
+enUS = "Distance"
+zhCN = "绘制距离"
 
-["TerrainTools.PathPainter.ToggleText.Symmetry"]  
-raw = "Symmetry"  
-enUS = "Symmetry"  
-zhCN = "对称模式"  
+["TerrainTools.PathPainter.ToggleText.Symmetry"]
+raw = "Symmetry"
+enUS = "Symmetry"
+zhCN = "对称模式"
 
-["TerrainTools.PathPainter.ToggleText.Symmetry.On"]  
-raw = "Enabled"  
-enUS = "Enabled"  
-zhCN = "已启用"  
+["TerrainTools.PathPainter.ToggleText.Symmetry.On"]
+raw = "Enabled"
+enUS = "Enabled"
+zhCN = "已启用"
 
-["TerrainTools.PathPainter.ToggleText.Symmetry.Off"]  
-raw = "Disabled"  
-enUS = "Disabled"  
-zhCN = "已禁用"  
+["TerrainTools.PathPainter.ToggleText.Symmetry.Off"]
+raw = "Disabled"
+enUS = "Disabled"
+zhCN = "已禁用"
 
-["TerrainTools.PathPainter.Button.ClearAll"]  
-raw = "Clear path"  
-enUS = "Clear path"  
-zhCN = "清除路径"  
+["TerrainTools.PathPainter.Button.ClearAll"]
+raw = "Clear path"
+enUS = "Clear path"
+zhCN = "清除路径"
 
-["TerrainTools.Smoothing.Tool.Title"]  
-raw = "Smoothing Brush"  
-enUS = "Smoothing Brush"  
-zhCN = "平滑笔刷工具"  
+["TerrainTools.Smoothing.Tool.Title"]
+raw = "Smoothing Brush"
+enUS = "Smoothing Brush"
+zhCN = "平滑笔刷工具"
 
-["TerrainTools.Smoothing.Slider.Brush.Size"]  
-raw = "Brush size"  
-enUS = "Brush size"  
-zhCN = "笔刷大小"  
+["TerrainTools.Smoothing.Slider.Brush.Size"]
+raw = "Brush size"
+enUS = "Brush size"
+zhCN = "笔刷大小"
 
-["TerrainTools.Smoothing.Slider.Sample.Size"]  
-raw = "Sample size"  
-enUS = "Sample size"  
-zhCN = "采样范围"  
+["TerrainTools.Smoothing.Slider.Sample.Size"]
+raw = "Sample size"
+enUS = "Sample size"
+zhCN = "采样范围"
 
-["TerrainTools.Smoothing.Slider.Force"]  
-raw = "Force"  
-enUS = "Force"  
-zhCN = "笔刷硬度"  
+["TerrainTools.Smoothing.Slider.Force"]
+raw = "Force"
+enUS = "Force"
+zhCN = "笔刷硬度"
 
-["TerrainTools.Smoothing.ToggleGroup.Shape"]  
-raw = "Brush Shape"  
-enUS = "Brush Shape"  
-zhCN = "笔刷形状"  
+["TerrainTools.Smoothing.ToggleGroup.Shape"]
+raw = "Brush Shape"
+enUS = "Brush Shape"
+zhCN = "笔刷形状"
 
-["TerrainTools.Smoothing.Shape.Square"]  
-raw = "Square"  
-enUS = "Square"  
-zhCN = "方形"  
+["TerrainTools.Smoothing.Shape.Square"]
+raw = "Square"
+enUS = "Square"
+zhCN = "方形"
 
-["TerrainTools.Smoothing.Shape.Circle"]  
-raw = "Circle"  
-enUS = "Circle"  
+["TerrainTools.Smoothing.Shape.Circle"]
+raw = "Circle"
+enUS = "Circle"
 zhCN = "圆形"
 
 ["TerrainTools.MoundMaker.Tool.Title"]

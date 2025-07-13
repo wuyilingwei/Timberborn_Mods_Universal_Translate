@@ -241,7 +241,7 @@ ptBR = "Destacar e Selecionar Materiais de Construção"
 ["LV.T4UI.HighlightStorageDesc"]
 raw = "Hover over a material counter to highlight all buildings that are containing that material.\nClicking it will cycle through those buildings.\nHolding Alternate key (default: Shift) to cycle through them in selecting district only."
 enUS = "Hover over a material counter to highlight all buildings that contain that material. Clicking it will cycle through those buildings. Holding the Alternate key (default: Shift) will cycle through them in selecting district only."
-zhCN = "勾选后，将鼠标悬停在物资详细数量面板各物品上时，会高亮存有此物品的所有建筑；点击物品将循环遍历这些建筑，按住替代键（模组默认：Shift）将仅在选择的地区中循环遍历。"
+zhCN = "勾选后，将鼠标悬停在物资详细数量面板各物品上时，会高亮存有此物品的所有建筑。<br>点击物品将循环遍历这些建筑，按住替代键（模组默认：Shift）将仅在选择的地区中循环遍历。"
 zhTW = "將滑鼠懸停在材料計數器上，以突出顯示所有包含該材料的建築物。   \n點擊它將在這些建築物之間循環。  \n按住替代鍵（默認：Shift）可僅循環選擇區域內的建築物。"
 ruRU = "Наведите курсор на счетчик материала, чтобы выделить все здания, содержащие этот материал. Нажатие на него позволит переключаться между этими зданиями. Удерживайте клавишу Alt (по умолчанию: Shift), чтобы переключаться между ними только в пределах выбранного района."
 jaJP = "マテリアルカウンターにカーソルを合わせると、そのマテリアルを含むすべての建物が強調表示されます。クリックすると、それらの建物を循環できます。代替キー（デフォルト：Shift）を押しながら、選択している地区のみで循環します。"
@@ -273,3 +273,13 @@ frFR = "Désactiver les ombres du soleil."
 deDE = "Deaktiviere Schatten von der Sonne."
 plPL = "Wyłącz cienie od słońca."
 ptBR = "Desative as sombras do sol."
+
+["LV.T4UI.AddNegativeNeeds"]
+raw = "Add buildings' debuff info"
+enUS = "Add buildings' debuff info"
+zhCN = "显示建筑负面效果"
+
+["LV.T4UI.AddNegativeNeedsDesc"]
+raw = "For example, Injury or Bee Sting chance."
+enUS = "For example, Injury or Bee Sting chance."
+zhCN = "勾选后，建筑会显示负面效果（游戏默认：否，只显示正面效果）。"

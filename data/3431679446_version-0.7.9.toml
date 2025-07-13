@@ -121,7 +121,7 @@ zhCN = "洪水期正在发生"
 ["Weather.FloodStartedNotification"]
 raw = "Flood started"
 enUS = "Flood started"
-zhCN = "洪水期开始了"
+zhCN = "洪水期已开始"
 
 ["Weather.FloodEndedNotification"]
 raw = "Flood ended"
@@ -144,21 +144,31 @@ enUS = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% a
 zhCN = "恶劣天气的发生概率，小数对应百分比（恶水潮和洪水期概率之和不足1时，剩余为干旱期概率）"
 
 ["jeferson90.progressivedifficulty.settings.header.jevaporation"]
-raw = "Evaporation"
-enUS = "Evaporation"
-zhCN = "蒸发"
+raw = "Evaporation+Seepage"
+enUS = "Evaporation+Seepage"
+zhCN = "蒸发和渗漏"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.enable"]
 raw = "Enable"
 enUS = "Enable"
-zhCN = "启用蒸发"
+zhCN = "启用"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip"]
-raw = ""
-enUS = ""
-zhCN = ""
+raw = "Enable evaporation and seepage"
+enUS = "Enable evaporation and seepage"
+zhCN = "启用蒸发和渗漏"
 
-["jeferson90.progressivedifficulty.settings.jevaporation.multiplier"]
-raw = "Multiplier"
-enUS = "Multiplier"
+["jeferson90.progressivedifficulty.settings.jevaporation.airevaporation"]
+raw = "Air Evaporation Multiplier"
+enUS = "Air Evaporation Multiplier"
 zhCN = "蒸发系数"
+
+["jeferson90.progressivedifficulty.settings.jevaporation.seepage"]
+raw = "Seepage Multiplier"
+enUS = "Seepage Multiplier"
+zhCN = "渗漏系数"
+
+["jeferson90.progressivedifficulty.settings.header.general"]
+raw = "General"
+enUS = "General"
+zhCN = "通用设置"

@@ -1,0 +1,53 @@
+ID,Text,Comment
+ebbflow.settings.enableglobalstrengthreduction,启用全局水力调整,-
+ebbflow.settings.enableglobalstrengthreduction.desc,勾选后，水源和恶水源的水力可以被全局调整。,-
+ebbflow.settings.globalstrengthmultiplier,  全局水力系数,-
+ebbflow.settings.globalstrengthmultiplier.desc,调整水源和恶水源的水力（模组默认：1；1表示原水力的100%，小于1表示按比例衰减，大于1表示按比例增强）。,-
+ebbflow.settings.enabledynamicfluctuations,启用水力波动,-
+ebbflow.settings.enabledynamicfluctuations.desc,勾选后，水源和恶水源的水力会发生随机波动。,-
+ebbflow.settings.maxaffectedsources,  最大波动数量,-
+ebbflow.settings.maxaffectedsources.desc,每个轮次内被选中为可能发生随机波动的水源和恶水源的最大数量。,-
+ebbflow.settings.chancetoskipfluctuation,  无波动概率,-
+ebbflow.settings.chancetoskipfluctuation.desc,被选中但不触发新的随机波动的概率（模组默认：0.25，表示25%的概率不触发）。,-
+ebbflow.settings.minfluctuationmodifier,  最小波动系数,-
+ebbflow.settings.minfluctuationmodifier.desc,随机波动时的水力系数的下限（模组默认：0.5，表示原水力的50%）。,-
+ebbflow.settings.maxfluctuationmodifier,  最大波动系数,-
+ebbflow.settings.maxfluctuationmodifier.desc,随机波动时的水力系数的上限（模组默认：3，表示原水力的300%）。,-
+ebbflow.settings.fluctuationdurationticks,  波动持续时间（轮次）,-
+ebbflow.settings.fluctuationdurationticks.desc,随机波动的持续时间（模组默认：6轮次）。,-
+ebbflow.settings.enablesourcetoggling,启用水源断流,-
+ebbflow.settings.enablesourcetoggling.desc,勾选后，水源和恶水源会发生断流。,-
+ebbflow.settings.sourcestodivide,  待检测分母数,-
+ebbflow.settings.sourcestodivide.desc,模组刷新时，会对多少水源和恶水源进行开关检测（模组默认：3，表示检测整个地图1/3的水源和恶水源）。,-
+ebbflow.settings.maxsourcestotoggleoff,  最大断流数量,-
+ebbflow.settings.maxsourcestotoggleoff.desc,每个轮次内被选中为可能发生断流的水源和恶水源的最大数量（模组默认：2）。,-
+ebbflow.settings.chancetotoggleoff,  断流概率,-
+ebbflow.settings.chancetotoggleoff.desc,被选中后发生断流的概率（模组默认：0.5，表示50%的概率断流）。,-
+ebbflow.settings.toggleoffstrength,  断流系数,-
+ebbflow.settings.toggleoffstrength.desc,断流时的水力系数（模组默认：0.15，表示原水力的15%）。,-
+ebbflow.settings.toggleoffdurationticks,  断流持续时间（轮次）,-
+ebbflow.settings.toggleoffdurationticks.desc,断流的持续时间（模组默认：1轮次）。,-
+ebbflow.settings.contaminationlinger,污染残留时间（天）,-
+ebbflow.settings.contaminationlinger.desc,恶水退去后，土地残留污染的持续时间（模组默认：1天）。,-
+ebbflow.settings.enablesludgegeneration,启用污泥块生成,-
+ebbflow.settings.enablesludgegeneration.desc,勾选后，恶水源周围且污染程度为100%的水体区域会生成污泥块（堆砌体）。,-
+ebbflow.settings.chancetospawnsludge,  生成概率,-
+ebbflow.settings.chancetospawnsludge.desc,每个轮次内生成污泥块的概率（模组默认：0.15，表示15%的概率生成）。,-
+ebbflow.settings.maxsludgeperbadsource,  最大污泥块数量,-
+ebbflow.settings.maxsludgeperbadsource.desc,每次可以生成的最大污泥块数量（模组默认：2）。,-
+ebbflow.settings.sludgespawnradius,  生成半径,-
+ebbflow.settings.sludgespawnradius.desc,恶水源周围可以生成污泥块的区域的半径（模组默认：4）。,-
+ebbflow.settings.minwaterdepthforsludge,  最小生成水深,-
+ebbflow.settings.minwaterdepthforsludge.desc,生成污泥块所需的最小水深（模组默认：0.2米）。,-
+ebbflow.settings.allowsludgeinchannels,  启用河道污泥块生成,-
+ebbflow.settings.allowsludgeinchannels.desc,勾选后，河道等流动水域中也可以生成污泥块。,-
+ebbflow.settings.maxadjacentsludge,  相邻污泥块最大数量,-
+ebbflow.settings.maxadjacentsludge.desc,生成新的污泥块时允许相邻的最大污泥块数量，超过则此处不能生成(模组默认：1）。,-
+ebbflow.settings.updateintervalinticks,模组轮次时间（游戏刻）,-
+ebbflow.settings.updateintervalinticks.desc,模组主逻辑的运行频率，每运行一次为1轮次。数值越低，运行越频繁、轮次越短，但可能影响性能（模组默认：200游戏刻，约等于游戏内1小时）。,-
+ebbflow.settings.enablebaselinecontamination,启用基础污染,-
+ebbflow.settings.enablebaselinecontamination.desc,勾选后，水源的水会带有基础污染。,-
+ebbflow.settings.baselinecontaminationmin,  最小污染程度,-
+ebbflow.settings.baselinecontaminationmin.desc,基础污染的污染程度下限（模组默认：0.01，表示污染程度1%）。,-
+ebbflow.settings.baselinecontaminationmax,  最大污染程度,-
+ebbflow.settings.baselinecontaminationmax.desc,基础污染的污染程度上限（模组默认：0.04，表示污染程度4%）。,-

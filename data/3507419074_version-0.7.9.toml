@@ -1,0 +1,39 @@
+["evaporation.settings.enablemod"]
+raw = "Enable Mod"
+enUS = "Enable Mod"
+zhCN = "启用遮蔽蒸发"
+
+["evaporation.settings.enablemod.desc"]
+raw = "Toggles the entire mod on or off."
+enUS = "Toggles the entire mod on or off."
+zhCN = "勾选后，水面的蒸发速度可以被下列选项更改。"
+
+["evaporation.settings.coveredevaporationrate"]
+raw = "Covered Evaporation Rate"
+enUS = "Covered Evaporation Rate"
+zhCN = "遮蔽蒸发率"
+
+["evaporation.settings.coveredevaporationrate.desc"]
+raw = "How slow or fast covered water evaporates compared to Vanilla. 100% = vanilla, 1% is 100x slower."
+enUS = "How slow or fast covered water evaporates compared to Vanilla. 100% = vanilla, 1% is 100x slower."
+zhCN = "被遮蔽水面相比于游戏默认的蒸发速度（100%=原版，1%=减慢100倍）。"
+
+["evaporation.settings.maxsearchheight"]
+raw = "Coverage Search Height"
+enUS = "Coverage Search Height"
+zhCN = "遮蔽检测高度"
+
+["evaporation.settings.maxsearchheight.desc"]
+raw = "How high above water to search for cover. Higher values detect taller structures but may impact performance on large maps."
+enUS = "How high above water to search for cover. Higher values detect taller structures but may impact performance on large maps."
+zhCN = "检测水面上是否存在遮蔽物的最大高度。数值越高，遮蔽物可以离水面越高，但在大地图可能影响性能。"
+
+["evaporation.settings.updateinterval"]
+raw = "Check Frequency"
+enUS = "Check Frequency"
+zhCN = "模组检测频率"
+
+["evaporation.settings.updateinterval.desc"]
+raw = "How often to update coverage detection (1=faster, 10=slower). Roughly: 1≈half day, 5≈2 days, 10≈week."
+enUS = "How often to update coverage detection (1=faster, 10=slower). Roughly: 1≈half day, 5≈2 days, 10≈week."
+zhCN = "模组主逻辑的运行频率，即遮蔽检测刷新的间隔（1=较快，10=较慢；1≈半天，5≈2天，10≈1周）。"

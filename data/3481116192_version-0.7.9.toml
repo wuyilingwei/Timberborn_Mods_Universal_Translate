@@ -13,6 +13,11 @@ raw = "Omnibar: Move down"
 enUS = "Omnibar: Move down"
 zhCN = "多功能指令栏：下移"
 
+["LV.OB.KeyBindingOpenToDo"]
+raw = "Omnibar: Manage Todo List"
+enUS = "Omnibar: Manage Todo List"
+zhCN = "多功能栏：管理待办事项列表"
+
 ["LV.OB.Cursor"]
 raw = "Cursor tool"
 enUS = "Cursor tool"
@@ -118,15 +123,40 @@ raw = "Quantity:"
 enUS = "Quantity:"
 zhCN = "数量："
 
+["LV.OB.TodoBuildings"]
+raw = "Buildings"
+enUS = "Buildings"
+zhCN = "建筑列表"
+
+["LV.OB.TodoShowBuildingDetails"]
+raw = "Show building details"
+enUS = "Show building details"
+zhCN = "显示建筑详情"
+
+["LV.OB.Total"]
+raw = "Total"
+enUS = "Total"
+zhCN = "总计"
+
+["LV.OB.Delete"]
+raw = "Delete"
+enUS = "Delete"
+zhCN = "删除"
+
 ["LV.OB.AddToTodoList"]
-raw = "{0}: Add to To Do List"
-enUS = "{0}: Add to To Do List"
-zhCN = "{0}：添加事项到待办列表"
+raw = "Create To Do Entry"
+enUS = "Create To Do Entry"
+zhCN = "新建待办事项"
+
+["LV.OB.AppendToTodoList"]
+raw = "Add to Existing To Do Entry"
+enUS = "Add to Existing To Do Entry"
+zhCN = "添加到现有待办事项"
 
 ["LV.OB.CommandAddTodo"]
 raw = "Add to To Do List"
 enUS = "Add to To Do List"
-zhCN = "添加事项到待办列表"
+zhCN = "添加到待办列表"
 
 ["LV.OB.BatchControlDesc"]
 raw = "Open the {0} Settlement Management"

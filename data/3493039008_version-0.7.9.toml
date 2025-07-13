@@ -1,0 +1,204 @@
+["LV.MW.WeatherStart"]
+raw = "{0} started"
+enUS = "{0} started"
+zhCN = "{0}已开始"
+
+["LV.MW.WeatherEnd"]
+raw = "{0} ended"
+enUS = "{0} ended"
+zhCN = "{0}已结束"
+
+["LV.MW.WeatherApproaching"]
+raw = "{0} approaching"
+enUS = "{0} approaching"
+zhCN = "{0}即将到来"
+
+["LV.MW.WeatherInProgress"]
+raw = "{0} in progress"
+enUS = "{0} in progress"
+zhCN = "{0}正在发生"
+
+["LV.MW.EnableWeather"]
+raw = "Enable {0} Weather"
+enUS = "Enable {0} Weather"
+zhCN = "启用{0}天气"
+
+["LV.MW.EnableWeatherDesc"]
+raw = "Enable {0} weather"
+enUS = "Enable {0} weather"
+zhCN = "勾选后，天气中可能出现{0}。"
+
+["LV.MW.StartCycle"]
+raw = "{0} start cycle"
+enUS = "{0} start cycle"
+zhCN = "{0}起始周期"
+
+["LV.MW.StartCycleDesc"]
+raw = "The minimum cycle that {0} can occur"
+enUS = "The minimum cycle that {0} can occur"
+zhCN = "{0}可能发生的最小周期。"
+
+["LV.MW.Chance"]
+raw = "{0} chance"
+enUS = "{0} chance"
+zhCN = "{0}概率"
+
+["LV.MW.ChanceDesc"]
+raw = "The chance of {0} occurring"
+enUS = "The chance of {0} occurring"
+zhCN = "{0}可能发生的概率。<br>注意，所有天气概率之和不一定为100，每种天气的实际概率为“天气概率/所有天气概率之和”。"
+
+["LV.MW.MinDay"]
+raw = "{0} minimum day"
+enUS = "{0} minimum day"
+zhCN = "{0}最短持续时间"
+
+["LV.MW.MinDayDesc"]
+raw = "The minimum day that {0} can occur"
+enUS = "The minimum day that {0} can occur"
+zhCN = "{0}可能发生的最小天数。"
+
+["LV.MW.MaxDay"]
+raw = "{0} maximum day"
+enUS = "{0} maximum day"
+zhCN = "{0}最长持续时间"
+
+["LV.MW.MaxDayDesc"]
+raw = "The maximum day that {0} can occur"
+enUS = "The maximum day that {0} can occur"
+zhCN = "{0}可能发生的最大天数。"
+
+["LV.MW.HandicapPerc"]
+raw = "{0} Handicap Percentage"
+enUS = "{0} Handicap Percentage"
+zhCN = "{0}初始强度值"
+
+["LV.MW.HandicapPercDesc"]
+raw = "The first time this weather occurs, its duration is multiplied by this percentage."
+enUS = "The first time this weather occurs, its duration is multiplied by this percentage."
+zhCN = "此天气首次发生时，持续时间将乘以此百分比。<br>注意，初始强度值可以小于100（缩短），也可以大于100（延长）。"
+
+["LV.MW.HandicapCycles"]
+raw = "{0} Handicap Cycles"
+enUS = "{0} Handicap Cycles"
+zhCN = "{0}适应频次数"
+
+["LV.MW.HandicapCyclesDesc"]
+raw = "Number of cycles until the weather reaches full (100%) duration."
+enUS = "Number of cycles until the weather reaches full (100%) duration."
+zhCN = "此天气的持续时间恢复原状所需的频次数，即出现多少次后才会从初始强度恢复至满百分比。<br>注意，初始强度值小于100时为由短变长，大于100时为由长变短。"
+
+["LV.MW.Rain"]
+raw = "Rain"
+enUS = "Rain"
+zhCN = "细雨天气"
+
+["LV.MW.Monsoon"]
+raw = "Monsoon"
+enUS = "Monsoon"
+zhCN = "洪涝期"
+
+["LV.MW.ShortTemperate"]
+raw = "Disappointingly Short Temperate"
+enUS = "Disappointingly Short Temperate"
+zhCN = "间歇天气"
+
+["LV.MW.ProgressiveTemperate"]
+raw = "Progressively Shortening Temperate"
+enUS = "Progressively Shortening Temperate"
+zhCN = "递减温和天气"
+
+["LV.MW.SurprisinglyRefreshing"]
+raw = "Surprisingly Refreshing"
+enUS = "Surprisingly Refreshing"
+zhCN = "净水潮"
+
+["LV.MW.RainEffect"]
+raw = "Enable Rain Effect"
+enUS = "Enable Rain Effect"
+zhCN = "启用细雨效果"
+
+["LV.MW.RainEffectDesc"]
+raw = "Enable the rain effect on the map."
+enUS = "Enable the rain effect on the map."
+zhCN = "勾选后，细雨天气时会显示降雨效果。"
+
+["LV.MW.MonsoonMultiplier"]
+raw = "Monsoon maximum multiplier"
+enUS = "Monsoon maximum multiplier"
+zhCN = "洪涝期额外水力倍率"
+
+["LV.MW.MonsoonMultiplierDesc"]
+raw = "The maximum additional multiplier for the monsoon weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
+enUS = "The maximum additional multiplier for the monsoon weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
+zhCN = "洪涝期时水源的额外水力倍率，即水源的水力会变为“水力×(基础倍率+额外倍率)”。<br>注意，此数值受天气初始强度值、适应周期数影响。"
+
+["LV.MW.Profiles"]
+raw = "Profiles"
+enUS = "Profiles"
+zhCN = "预设配置"
+
+["LV.MW.ProfilesDesc"]
+raw = "Export and import settings for supported Moddable Weathers"
+enUS = "Export and import settings for supported Moddable Weathers"
+zhCN = "导入/导出模组的天气参数配置。"
+
+["LV.MW.ProfileImport"]
+raw = "Import"
+enUS = "Import"
+zhCN = "导入配置"
+
+["LV.MW.ProfileExport"]
+raw = "Export"
+enUS = "Export"
+zhCN = "导出配置"
+
+["LV.MW.ProfileError"]
+raw = "There was an error: {0}"
+enUS = "There was an error: {0}"
+zhCN = "发生错误：{0}"
+
+["LV.MW.SingleWeatherMode"]
+raw = "Single Weather mode"
+enUS = "Single Weather mode"
+zhCN = "单一天气模式"
+
+["LV.MW.SWEnable"]
+raw = "Enable Single Weather mode"
+enUS = "Enable Single Weather mode"
+zhCN = "启用单一天气模式"
+
+["LV.MW.SWEnableDesc"]
+raw = "Each cycle may have a chance to only have one kind of weather"
+enUS = "Each cycle may have a chance to only have one kind of weather"
+zhCN = "勾选后，每个周期有一定概率只出现一种天气类型。<br>注意，单一天气模式发生时，天气预警进度条将失效。"
+
+["LV.MW.SWStartCycle"]
+raw = "Single Weather start cycle"
+enUS = "Single Weather start cycle"
+zhCN = "单一天气起始周期"
+
+["LV.MW.SWStartCycleDesc"]
+raw = "The minimum cycle that single weather can occur"
+enUS = "The minimum cycle that single weather can occur"
+zhCN = "单一天气模式可能发生的最小周期。"
+
+["LV.MW.SWChance"]
+raw = "Single Weather chance"
+enUS = "Single Weather chance"
+zhCN = "单一天气概率"
+
+["LV.MW.SWChanceDesc"]
+raw = "The chance of single weather occurring"
+enUS = "The chance of single weather occurring"
+zhCN = "单一天气模式可能发生的概率。"
+
+["LV.MW.SWTemperateChance"]
+raw = "Single Weather Temperate chance"
+enUS = "Single Weather Temperate chance"
+zhCN = "单一温和天气概率"
+
+["LV.MW.SWTemperateChanceDesc"]
+raw = "The chance of single weather being temperate when single weather occurs"
+enUS = "The chance of single weather being temperate when single weather occurs"
+zhCN = "单一天气模式发生时，出现温和类天气的概率。<br>温和类天气：温和天气/递减温和天气、细雨天气、间歇天气<br>恶劣类天气：干旱期、恶水潮、洪涝期、净水潮<br>注意，这里的温和类天气与恶劣类天气的概率之和为100。"
