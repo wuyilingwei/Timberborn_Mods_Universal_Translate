@@ -1,0 +1,53 @@
+ID,Text,Comment
+ebbflow.settings.enableglobalstrengthreduction,Activer la réduction de force globale,-
+ebbflow.settings.enableglobalstrengthreduction.desc,Activez un multiplicateur global pour ajuster la force de toutes les sources d'eau.,-
+ebbflow.settings.globalstrengthmultiplier,Multiplicateur de force global,-
+ebbflow.settings.globalstrengthmultiplier.desc,"Multiplicateur pour toutes les sources d'eau (par exemple, 1,0 = normal, 0,5 = moitié de la force).",-
+ebbflow.settings.enabledynamicfluctuations,Activer les fluctuations dynamiques,-
+ebbflow.settings.enabledynamicfluctuations.desc,Activer des changements de force aléatoires et temporaires pour les sources d'eau.,-
+ebbflow.settings.maxaffectedsources,Sources affectées maximales par mise à jour,-
+ebbflow.settings.maxaffectedsources.desc,Nombre maximum de sources d'eau pouvant déclencher de nouvelles fluctuations à chaque cycle.,-
+ebbflow.settings.chancetoskipfluctuation,Chance de Sauter la Fluctuation,-
+ebbflow.settings.chancetoskipfluctuation.desc,"Probabilité de sauter le début de nouvelles fluctuations dans un cycle (0,0 = jamais sauter, 1,0 = toujours sauter).",-
+ebbflow.settings.minfluctuationmodifier,Modificateur de fluctuation minime,-
+ebbflow.settings.minfluctuationmodifier.desc,"Multiplicateur de force minimum lors d'une fluctuation (par exemple, 0,5 = 50 % de force).",-
+ebbflow.settings.maxfluctuationmodifier,Modificateur de fluctuation max,-
+ebbflow.settings.maxfluctuationmodifier.desc,"Multiplicateur de force maximum pendant une fluctuation (par exemple, 2.0 = 200 % de force).",-
+ebbflow.settings.fluctuationdurationticks,Durée de fluctuation (cycles),-
+ebbflow.settings.fluctuationdurationticks.desc,Combien de temps dure une fluctuation de force de l'eau aléatoire. Un nombre plus élevé signifie que la fluctuation durera plus longtemps. Chaque cycle représente environ une heure de temps de jeu.,-
+ebbflow.settings.enablesourcetoggling,Activer le basculement de la source,-
+ebbflow.settings.enablesourcetoggling.desc,Permettre aux sources d'eau d'être temporairement arrêtées.,-
+ebbflow.settings.sourcestodivide,Sources à vérifier le dénominateur,-
+ebbflow.settings.sourcestodivide.desc,"Divisez le total des sources de la carte par ce nombre pour déterminer combien vérifier pour le basculement (par exemple, 3 = vérifier 1/3 des sources).",-
+ebbflow.settings.maxsourcestotoggleoff,Sources maximales à désactiver,-
+ebbflow.settings.maxsourcestotoggleoff.desc,Nombre maximum de sources d'eau pouvant être désactivées par cycle.,-
+ebbflow.settings.chancetotoggleoff,Chance de désactiver,-
+ebbflow.settings.chancetotoggleoff.desc,"Probabilité qu'une source cochée soit désactivée (0,0 = jamais, 1,0 = toujours).",-
+ebbflow.settings.toggleoffstrength,Force désactivée,-
+ebbflow.settings.toggleoffstrength.desc,"Force de la source d'eau quand elle est désactivée (par exemple, 0,15 = 15 % de normal).",-
+ebbflow.settings.toggleoffdurationticks,Durée d'Extinction (Cycles),-
+ebbflow.settings.toggleoffdurationticks.desc,"La durée pendant laquelle les sources restent désactivées, dans les cycles de mise à jour du mod.",-
+ebbflow.settings.contaminationlinger,Contamination Persistante (Jours),-
+ebbflow.settings.contaminationlinger.desc,"Combien de temps la contamination persiste-t-elle dans le sol, en jours de jeu approximatifs ?",-
+ebbflow.settings.enablesludgegeneration,Activer la génération de boue,-
+ebbflow.settings.enablesludgegeneration.desc,Permettez aux blocs de boue de apparaître dans l'eau contaminée.,-
+ebbflow.settings.chancetospawnsludge,Chance de faire apparaître de la boue,-
+ebbflow.settings.chancetospawnsludge.desc,"Probabilité de faire apparaître des blocs de boue par cycle (0 = jamais, 100 = toujours).",-
+ebbflow.settings.maxsludgeperbadsource,Boues maximales par événement,-
+ebbflow.settings.maxsludgeperbadsource.desc,Nombre maximum de blocs de boue pouvant apparaître à partir d'un seul événement de contamination.,-
+ebbflow.settings.sludgespawnradius,Rayon de Spawn de Boue,-
+ebbflow.settings.sludgespawnradius.desc,Distance maximale d'une source de contamination où les boues peuvent se développer.,-
+ebbflow.settings.minwaterdepthforsludge,Profondeur minimale d'eau pour les boues,-
+ebbflow.settings.minwaterdepthforsludge.desc,"Profondeur minimale d'eau requise pour que le boue se forme (0,2 = 20 % de la hauteur d'un bloc).",-
+ebbflow.settings.allowsludgeinchannels,Autoriser les boues dans les canaux d'écoulement,-
+ebbflow.settings.allowsludgeinchannels.desc,Permettre aux blocs de boue de apparaître dans les canaux d'eau courante.,-
+ebbflow.settings.maxadjacentsludge,Boue Adjacent Maximal,-
+ebbflow.settings.maxadjacentsludge.desc,"Le nombre maximum de blocs de boue adjacents autorisés avant qu'un nouveau puisse apparaître, pour empêcher de bloquer complètement les rivières.",-
+ebbflow.settings.updateintervalinticks,Interval de mise à jour (en ticks),-
+ebbflow.settings.updateintervalinticks.desc,À quelle fréquence le cycle principal de la logique du mod s'exécute-t-il ? Des valeurs plus basses sont plus fréquentes mais peuvent avoir un impact sur les performances. La valeur par défaut est de 200.,-
+ebbflow.settings.enablebaselinecontamination,Activer la contamination de référence,-
+ebbflow.settings.enablebaselinecontamination.desc,"Toutes les sources d'eau ont une contamination de 1 à 4 % par défaut, car l'eau véritablement propre est rare.",-
+ebbflow.settings.baselinecontaminationmin,Contamination minimale de référence,-
+ebbflow.settings.baselinecontaminationmin.desc,"Pourcentage de contamination de base minimum (0,01 = 1 %).",-
+ebbflow.settings.baselinecontaminationmax,Contamination maximale de référence,-
+ebbflow.settings.baselinecontaminationmax.desc,"Pourcentage maximum de contamination de référence (0,04 = 4 %).",-

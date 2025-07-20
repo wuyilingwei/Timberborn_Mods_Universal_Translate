@@ -1,116 +1,212 @@
 ID,Text,Comment
-IgorZ.Automation.DebugPickTool.Title,Debug tool,-
+IgorZ.Automation.CancelTool.Description,Use this tool to clean up any automation on buildings or construction sites.,-
+IgorZ.Automation.CancelTool.Title,Cancel automation,-
+IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,blocks path,-
+IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,doesn't block path,-
+IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Builders can't reach it yet, but a path is being constructed.",-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Unreachable construction site,-
+IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,The builders can't find the way to this site. Maybe nothing can be constructed here.,-
+IgorZ.Automation.DebugFinishNowTool.Description,Immediately finishes the selected buildable items.,-
+IgorZ.Automation.DebugFinishNowTool.Title,Finish now debug tool,-
 IgorZ.Automation.DebugPickTool.Description,Prints components on the selected object.,-
 IgorZ.Automation.DebugPickTool.DescriptionHint1,Hold <i>SHIFT</i> to print Accessible.,-
 IgorZ.Automation.DebugPickTool.DescriptionHint2,Hold <i>CTRL</i> to print NavMesh edges.,-
-IgorZ.Automation.DebugFinishNowTool.Title,Finish the debugging tool now.,-
-IgorZ.Automation.DebugFinishNowTool.Description,Immediately finishes the selected buildable items.,-
-IgorZ.Automation.ToolGroup.Main.DisplayName,Set up automation,-
-IgorZ.Automation.ToolGroup.Terrain.DisplayName,Terrain changing,-
-IgorZ.Automation.ToolGroup.Water.DisplayName,Water conditions,-
-IgorZ.Automation.ToolGroup.Power.DisplayName,Power conditions,-
-IgorZ.Automation.ToolGroup.Storage.DisplayName,Storage conditions,-
-IgorZ.Automation.ToolGroup.Population.DisplayName,Population conditions,-
-IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Detonate dynamite twice.,-
+IgorZ.Automation.DebugPickTool.Title,Debug tool,-
+IgorZ.Automation.PauseTool.Description,Use this tool to pause buildings and construction sites.,-
+IgorZ.Automation.PauseTool.Title,Pause buildings,-
+IgorZ.Automation.ResumeTool.Description,Use this tool to resume buildings and construction sites.,-
+IgorZ.Automation.ResumeTool.Title,Unpause buildings,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,Automation error,-
+IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,Some automation rules cannot be executed.,-
+IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,Waiting for the other buildings to finish.,-
+IgorZ.Automation.ShowStatusAction.HoldConstruction,hold completion,-
+IgorZ.Automation.ShowStatusAction.ResumeConstruction,resume building,-
+IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName,Explode dynamite 2 times,-
 IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,Explode dynamite three times,-
 IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,Explode dynamite four times.,-
 IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,Explode dynamite 5 times,-
 IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,Explode dynamite six times.,-
-IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"This template can be applied to dynamites, whether they are finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper.",-
-IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,Empty the storage if capacity is above 50%.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,Apply this template to floodgates that need to close when the bad tide begins.,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Close the floodgate when the bad tide starts.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,Apply this template to floodgates that need to open when the bad tide begins.,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Open floodgate at the start of low tide.,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,Apply this template to buildings that should remain on hold during bad tides.,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Pause during low tide.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,Apply this template to buildings that should operate as long as there are available beds.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,Run until the beaver population reaches its maximum.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,Apply this template to buildings that should remain paused until the beaver population decreases by 10 beavers below the current level.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,Beaver population -10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,Apply this template to buildings that should remain on hold until the beaver population decreases by 20 beavers below the current level.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,Beaver population -20,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,Apply this template to buildings that should continue operating until the beaver population exceeds the current level by 10 beavers.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,Beaver population +10,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,Apply this template to buildings that should be operational until the beaver population exceeds the current level by 20 beavers.,-
+IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,Beaver population +20,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,Apply this template to buildings that must remain paused until the bot population decreases by 10 beavers below the current level.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,Bot population -10,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level.,-
+IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,Bot population -20,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,Apply this template to buildings that should remain operational until the bot population exceeds the current level by 10 bots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,Bot population +10,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,Apply this template to buildings that should remain operational until the bot population surpasses the current level by 20 bots.,-
+IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,Bot population +20,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,"Apply this template to construction sites that may obstruct builders' paths. Note: Results are not guaranteed, especially if buildings are not at the same elevation.",-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,Don't block builders.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,Apply this template to floodgates that should close when a drought begins.,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Close the floodgate as the drought begins.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,Apply this template to floodgates that should open when a drought begins.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Open floodgate when drought begins,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description,Apply this template to water flow control buildings (like <YellowHighlight>Badwater Dome</YellowHighlight> or <YellowHighlight>Sluice</YellowHighlight>) to keep them open during droughts.,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName,Open water flow control during drought,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,Apply this template to buildings that should remain paused during droughts.,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pause during drought,-
+IgorZ.Automation.Tool.tmpl.DynamiteNow.Description,Automatically detonates the dynamite when the construction is complete. This template can be applied to a finished dynamite as well.,-
+IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName,Explode dynamite now,-
+IgorZ.Automation.Tool.tmpl.EmitSelectedGood.Description,Apply this template to buildings that should emit a signal of the selected good amount in the storage. The signal can be used in conditions on the other buildings.,-
+IgorZ.Automation.Tool.tmpl.EmitSelectedGood.DisplayName,Emit selected good signal,-
+IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName,Empty the storage if the capacity is above 50%.,-
 IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,Empty the storage if the capacity is above 60%.,-
 IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,Empty the storage if the capacity is above 70%.,-
 IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,Empty the storage if the capacity is above 80%.,-
-IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,Empty the storage if the capacity is above 90%.,-
-IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"This template can be applied to buildings that produce one type of good and have no input stock. If the output stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods.",-
-IgorZ.Automation.EmptyOutputStore.CustomStatus,The building is being emptied as a priority.,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,Pause during drought,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.Description,Apply this template to buildings that should remain paused during droughts.,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,Pause during low tide,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.Description,Apply this template to buildings that should remain paused during low tides.,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Pause during mild weather,-
+IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,Empty the storage if capacity is above 90%.,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,"This template can be applied to buildings that produce goods and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods.",-
+IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description,Apply this template to floodgates to control their height in sync.,-
+IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName,Floodgate group,-
+IgorZ.Automation.Tool.tmpl.PauseConstruction.Description,Apply this template to construction sites that should be paused once the construction progress reaches 100%.,-
+IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName,Pause construction,-
+IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description,Apply this template to buildings that should be prioritized by haulers once the construction is complete.,-
+IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName,Prioritize by haulers,-
+IgorZ.Automation.Tool.tmpl.StreamGauge.Description,Apply this template to stream gauges that should emit a signal of the current water condition. The signals can be used in conditions on the other buildings.,-
+IgorZ.Automation.Tool.tmpl.StreamGauge.DisplayName,Stream gauge signal,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,Apply this template to floodgates that need to close when the temperate season starts.,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Close floodgate on temperate weather start,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,Apply this template to floodgates that need to open when the temperate season starts.,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Open floodgate when temperate weather begins.,-
 IgorZ.Automation.Tool.tmpl.TemperatePause.Description,Apply this template to buildings that should remain paused during temperate weather.,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,Close the floodgate during drought.,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,Apply this template to floodgates that should close when drought begins.,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,Open floodgate during drought,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,Apply this template to floodgates that should open when drought begins.,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.DisplayName,Open water regulator during drought,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenWaterRegulator.Description,Apply this template to water regulators that need to be open during droughts.,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,Close floodgate during low tide.,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,Apply this template to floodgates that need to close when the bad tide starts.,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,Open floodgate during low tide.,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,Apply this template to floodgates that need to open when the bad tide ends.,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,Close the floodgate during temperate weather.,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,Apply this template to floodgates that need to close when a drought or bad tide ends.,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,Open floodgate during temperate weather,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,Apply this template to floodgates that need to open when a drought or bad tide ends.,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,Pause during mild weather,-
+IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,Apply this template to floodgates that should open by 0.5m of their maximum height when the temperate season begins.,-
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,Slightly open floodgate during mild weather,-
-IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,Apply this template to floodgates that should close to 0.5m below their maximum when a drought or bad tide ends.,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,Bot population at level +10,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,Apply this template to buildings that should operate until the bot population exceeds the current level by 10 bots.,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,Bot population at level +20.,-
-IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,Apply this template to buildings that should operate until the bot population exceeds the current level by 20 bots.,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName,Bot population at level -10,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description,Apply this template to buildings that must remain paused until the bot population decreases by 10 beavers below the current level.,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName,Bot population at -20 level,-
-IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description,Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,Run until the beaver population is at its maximum.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,Apply this template to buildings that should remain operational as long as there are unoccupied beds.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName,Beaver population at +10 level,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description,Apply this template to buildings that should be operational until the beaver population exceeds the current level by 10 beavers.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName,Beaver population at +20 level,-
-IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description,Apply this template to buildings that should continue operating until the beaver population surpasses the current level by 20 beavers.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName,Beaver population at -10 level,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description,Apply this template to buildings that should remain on hold until the beaver population decreases by 10 beavers below the current level.,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName,Beaver population at -20 level,-
-IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description,Apply this template to buildings that should remain paused until the beaver population decreases by 20 beavers below the current level.,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildeings.DisplayName,Don't block builders,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildeings.Description,"Apply this template to construction sites that may obstruct builders' paths. Note: Results are not guaranteed, especially if buildings are not at the same elevation.",-
-IgorZ.Automation.CancelTool.Title,Cancel automation,-
-IgorZ.Automation.CancelTool.Description,Use this tool to clean up any automation on the buildings or construction sites.,-
-IgorZ.Automation.PauseTool.Title,Pause buildings,-
-IgorZ.Automation.PauseTool.Description,Use this tool to pause buildings and construction sites.,-
-IgorZ.Automation.ResumeTool.Title,Unpause buildings,-
-IgorZ.Automation.ResumeTool.Description,Use this tool to unpause buildings and construction sites.,-
-IgorZ.Automation.DummyTitle,Generic title,-
-IgorZ.Automation.DummyDescirption,Generic description,-
-TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Selecting: {0},-
-TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Selecting: {0} (x{1}),-
-TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,Point to an entity and click to start selecting,-
-TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,Click to start selecting: {0},-
-TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,Hold <i>SHIFT</i> to select items of one type only.,-
+IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,"This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper.",-
+IgorZ.Automation.ToolGroup.Main.DisplayName,Setup automation,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,Population related rules,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,Power-related rules,-
+IgorZ.Automation.ToolGroup.Signals.DisplayName,Signals related rules,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,Storage-related rules,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,Terrain changing rules,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,Weather-related rules,-
+=,=,-
+IgorZ.Automation.Scripting.Error.ValueOutOfRange,ERROR: Value out of range,-
+IgorZ.Automation.Scripting.Error.DivisionByZero,ERROR: Division by zero,-
+IgorZ.Automation.Scripting.Error.BadValue,ERROR: Bad value,-
+IgorZ.Automation.Scripting.Error.InternalError,ERROR: Internal error,-
+IgorZ.Automation.AutomationFragment.AddRulesBtn,Add automation rules,-
+IgorZ.Automation.AutomationFragment.CopyRulesBtn,Copy rules,-
+IgorZ.Automation.AutomationFragment.EditRulesBtn,Edit rules,-
+IgorZ.Automation.AutomationFragment.RuleTextLocKey,If {0} Then {1},-
 IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,Automation rules:,-
-IgorZ.Automation.AutomationFragment.RuleTextLocKey,"If {0}, then {1}",-
-IgorZ.Automation.DetonateDynamiteAction.Description,detonate dynamite,-
-IgorZ.Automation.DetonateDynamiteAction.RepeatCountInfo,and add another <GreenHighlight>{0} times</GreenHighlight>,-
-IgorZ.Automation.DroughtEndedCondition.Description,drought ended,-
-IgorZ.Automation.DroughtStartedCondition.Description,drought started,-
-IgorZ.Automation.MarkForEmptyingAction.Description,empty storage,-
-IgorZ.Automation.ObjectFinishedCondition.Description,construction complete,-
-IgorZ.Automation.OutputStockAboveThresholdCondition.Description,<SolidHighlight>output stock above {0}%</SolidHighlight>,-
-IgorZ.Automation.OutputStockBelowThresholdCondition.Description,<SolidHighlight>output stock below {0}%</SolidHighlight>,-
-IgorZ.Automation.PauseAction.Description,pause building,-
-IgorZ.Automation.SetFloodgateHeightAction.Description,set height to {0},-
-IgorZ.Automation.UnmarkForEmptyingAction.Description,stop emptying storage,-
-IgorZ.Automation.UnpauseAction.Description,unpause building,-
-IgorZ.Automation.WaterRegulatorStateActionClose.Description,close water regulator,-
-IgorZ.Automation.WaterRegulatorStateActionOpen.Description,open water regulator,-
-IgorZ.Automation.BadtideEndedCondition.Description,badtide ended,-
-IgorZ.Automation.BadtideStartedCondition.Description,Badtide started,-
-IgorZ.Automation.BeaverPopulationBelowThresholdCondition.Description,<SolidHighlight>less than {0} beavers in the district</SolidHighlight>,-
-IgorZ.Automation.BeaverPopulationAboveThresholdCondition.Description,more than {0} beavers in district,-
-IgorZ.Automation.BotPopulationBelowThresholdCondition.Description,Less than {0} bots in district,-
-IgorZ.Automation.BotPopulationAboveThresholdCondition.Description,more than {0} bots in the district,-
-IgorZ.Automation.PopulationRelativeToMaxArg,MAX{0},-
-IgorZ.Automation.PopulationRelativeToCurrentArg,NOW{0},-
-IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description,blocks path,-
-IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description,doesn't block path,-
-IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable,"Builders can't reach it yet, but a path is being constructed.",-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus,The builders can't find the way to this site. Maybe nothing can be constructed here.,-
-IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert,Unreachable construction site,-
-IgorZ.Automation.ShowStatusAction.HoldConstruction,hold completion,-
-IgorZ.Automation.ShowStatusAction.ResumeConstruction,resume building,-
-IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText,Waiting for the other buildings to finish.,-
-IgorZ.Automation.BlockableBuildingAction.BlockDescription,block building,-
-IgorZ.Automation.BlockableBuildingAction.UnblockDescription,unblock building,-
-IgorZ.Automation.BlockableBuildingAction.BlockText,Waiting for the other buildings to finish.,-
+IgorZ.Automation.Tool.CopyRules.Text,Copy {0} rules,-
+IgorZ.Automation.Tool.CopyRules.Title,Copy automation rules,-
+IgorZ.Automation.Scriptable.Constructable.Signal.Progress,construction progress,-
+IgorZ.Automation.Scriptable.Constructable.Signal.State,construction state,-
+IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished,Finished,-
+IgorZ.Automation.Scriptable.Debug.Action.LogNum,write a number to logs: {0},-
+IgorZ.Automation.Scriptable.Debug.Action.LogStr,write a string to logs: {0},-
+IgorZ.Automation.Scriptable.Debug.Signal.Ticker,ticker,-
+IgorZ.Automation.Scriptable.District.Signal.Beavers,beavers in the district,-
+IgorZ.Automation.Scriptable.District.Signal.Bots,bots in district,-
+IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,beds in district,-
+IgorZ.Automation.Scriptable.Dynamite.Action.Detonate,detonate dynamite,-
+IgorZ.Automation.Scriptable.Dynamite.Action.DetonateAndRepeat,detonate dynamite and add another <GreenHighlight>{0} times</GreenHighlight>,-
+IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight,set gate height to {0},-
+IgorZ.Automation.Scriptable.Floodgate.Signal.Height,floodgate height,-
+IgorZ.Automation.Scriptable.FlowControl.Action.Close,disable flow,-
+IgorZ.Automation.Scriptable.FlowControl.Action.Open,enable flow,-
+IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,The storage is being emptied on a priority basis.,-
+IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,start emptying storage,-
+IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,stop emptying storage,-
+IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,{0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,output: {0},-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,pause construction,-
+IgorZ.Automation.Scriptable.Pausable.Action.Resume,resume building,-
+IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers,- prioritize by haulers,-
+IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers,+ prioritize by haulers,-
+IgorZ.Automation.Scriptable.Signals.Action.Set,set signal: {0} = {1},-
+IgorZ.Automation.Scriptable.Signals.Signal.Get,signal: {0},-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Contamination,contamination,-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Current,current,-
+IgorZ.Automation.Scriptable.StreamGauge.Signal.Depth,depth,-
+IgorZ.Automation.Scriptable.Weather.Signal.Season,season,-
+IgorZ.Automation.Scriptable.Workplace.Action.RemoveWorkers,remove workers,-
+IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers,assign {0} workers,-
+IgorZ.Automation.Scripting.Expressions.AndOperator,and,-
+IgorZ.Automation.Scripting.Expressions.OrOperator,or,-
+IgorZ.Automation.Scripting.Expressions.ParseError,PARSE ERROR,-
+IgorZ.Automation.Scripting.Editor.ActionLabel,Then,-
+IgorZ.Automation.Scripting.Editor.ActionMustBeAction,Action must be the 'act' operator.,-
+IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,Add script,-
+IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,Create rule using constructor,-
+IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint,(max: {0}),-
+IgorZ.Automation.Scripting.Editor.ConditionLabel,If,-
+IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,Condition must be a boolean expression.,-
+IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,Condition must contain at least one signal.,-
+IgorZ.Automation.Scripting.Editor.DeletedRule,Rule removed,-
+IgorZ.Automation.Scripting.Editor.DialogHeader,Automation rules,-
+IgorZ.Automation.Scripting.Editor.DiscardChangesBtn,Discard changes,-
+IgorZ.Automation.Scripting.Editor.DiscardScriptBtn,Discard,-
+IgorZ.Automation.Scripting.Editor.EditAsScriptBtn,Script,-
+IgorZ.Automation.Scripting.Editor.EditInConstructorBtn,Constructor,-
+IgorZ.Automation.Scripting.Editor.ExportRulesBtn,Export rules,-
+IgorZ.Automation.Scripting.Editor.ImportRulesBtn,Import rules,-
+IgorZ.Automation.Scripting.Editor.MoreInfoBtn,Read about scripting,-
+IgorZ.Automation.Scripting.Editor.NumberConstantType,number,-
+IgorZ.Automation.Scripting.Editor.PendingEditsNotification,There are rules in the editing state. Complete them first.,-
+IgorZ.Automation.Scripting.Editor.ReadMoreLink,https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting),-
+IgorZ.Automation.Scripting.Editor.ResetChangesBtn,Reset changes,-
+IgorZ.Automation.Scripting.Editor.RulesWithErrorsNotification,Some rules have errors! Fix them first.,-
+IgorZ.Automation.Scripting.Editor.SaveRulesBtn,Save and close,-
+IgorZ.Automation.Scripting.Editor.SaveScriptBtn,Save,-
+IgorZ.Automation.Scripting.Editor.StringConstantType,string,-
+IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel,Template group: {0},-
+IgorZ.Automation.Scripting.Editor.TestScriptBtn,Test,-
+IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation,There are unsaved changes. Do you want to discard them?,-
+IgorZ.Automation.Scripting.Editor.ExportDialogHeader,Export automation rules,-
+IgorZ.Automation.Scripting.Editor.ImportDialogHeader,Import automation rules,-
+IgorZ.Automation.Scripting.ImportDialog.AllowErrors,Import with errors,-
+IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules,Delete existing rules,-
+IgorZ.Automation.Scripting.ImportDialog.ReadMore,Read about imports,-
+IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl,https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept,-
+IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules,Skip failed rules,-
+IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError,"Action not applicable:
+{0}",-
+IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError,"Condition not applicable:
+{0}",-
+IgorZ.Automation.Scripting.ImportRules.ExpectedActionError,Expected action expression,-
+IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError,Expected condition expression,-
+IgorZ.Automation.Scripting.ImportRules.ImportError,Error at line {0}: {1},-
+IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError,Incomplete rule declaration,-
+IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment,Unclosed multi-line comment,-
+IgorZ.Automation.Settings.Debug.PathCheckingProfiling,Log path checking engine statistics,-
+IgorZ.Automation.Settings.Debug.LogSignalSetting,Log setting signal values,-
+IgorZ.Automation.Settings.Debug.LogSignalPropagating,Log signal propagation,-
+IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad,Re-evaluate rules on load,-
+IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad,Reset custom signals on load,-
+IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton,Always show 'Add rules' button,-
+IgorZ.Automation.Settings.EntityPanel.Header,Controls on the building panel,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle,Style of the rule description,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable,Text,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script,Script,-
+IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort,Pseudo-script,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions,Evaluate the correct value under the circumstances.,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments,Evaluate values in the action arguments.,-
+IgorZ.Automation.Settings.ScriptEngine.Header,Script engine settings,-
+IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues,Check the argument value at runtime.,-
+IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments,Check arguments with a fixed set of values.,-
+IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize,Signal execution stack size,-
+TimberDev_Utils.Settings.Debug.VerboseLogging,Verbose logging,-
+TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip,"Logs will have more useful details, but it may impact game performance.",-
+TimberDev_Utils.Settings.DebugSection,Debug and troubleshooting,-
+TimberDev_Utils.Tools.LockSelectTool.DescriptionHint,Hold <i>SHIFT</i> to select items of one type only.,-
+TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects,Selecting: {0} (x{1}),-
+TimberDev_Utils.Tools.LockSelectTool.SelectingObject,Selecting: {0},-
+TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt,Click to start selecting: {0},-
+TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt,Point to an entity and click to start selecting.,-

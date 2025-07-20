@@ -1,0 +1,42 @@
+ID,Text,Comment
+LV.MW.WeatherStart,{0} a commencé,-
+LV.MW.WeatherEnd,{0} terminé,-
+LV.MW.WeatherApproaching,{0} approche,-
+LV.MW.WeatherInProgress,{0} en cours,-
+LV.MW.EnableWeather,Activer la météo {0},-
+LV.MW.EnableWeatherDesc,Activer la météo {0},-
+LV.MW.StartCycle,{0} démarrer le cycle,-
+LV.MW.StartCycleDesc,Le cycle minimum que {0} peut effectuer,-
+LV.MW.Chance,{0} chance,-
+LV.MW.ChanceDesc,La chance que {0} se produise,-
+LV.MW.MinDay,{0} jour minimum,-
+LV.MW.MinDayDesc,Le jour minimum où {0} peut se produire,-
+LV.MW.MaxDay,{0} maximum de jour,-
+LV.MW.MaxDayDesc,Le jour maximum où {0} peut se produire,-
+LV.MW.HandicapPerc,Pourcentage de handicap {0},-
+LV.MW.HandicapPercDesc,"La première fois que ce temps se produit, sa durée est multipliée par ce pourcentage.",-
+LV.MW.HandicapCycles,{0} Cycles pour personnes handicapées,-
+LV.MW.HandicapCyclesDesc,Nombre de cycles jusqu'à ce que le temps atteigne la durée complète (100%).,-
+LV.MW.Rain,Pluie,-
+LV.MW.Monsoon,Mousson,-
+LV.MW.ShortTemperate,Décevant tempérament court,-
+LV.MW.ProgressiveTemperate,Raccourcissement progressif de la température,-
+LV.MW.SurprisinglyRefreshing,Surprenante rafraîchissante,-
+LV.MW.RainEffect,Activer l'effet de pluie,-
+LV.MW.RainEffectDesc,Activez l'effet de pluie sur la carte.,-
+LV.MW.MonsoonMultiplier,Multiplicateur maximum de la mousson,-
+LV.MW.MonsoonMultiplierDesc,"Le multiplicateur additionnel maximum pour la météo de la mousson au maximum (sans handicap). Cette valeur est affectée par des handicaps comme la durée. Valeur par défaut : 2,5 (250 %), ce qui signifie que lorsqu'aucun handicap n'est appliqué (cycle par défaut 5), toute la force des sources d'eau est à 350 %.",-
+LV.MW.Profiles,Profils,-
+LV.MW.ProfilesDesc,Exporter et importer des paramètres pour les conditions météorologiques Moddables prises en charge,-
+LV.MW.ProfileImport,Importer,-
+LV.MW.ProfileExport,Exporter,-
+LV.MW.ProfileError,Il y a eu une erreur : {0},-
+LV.MW.SingleWeatherMode,Mode Météo Unique,-
+LV.MW.SWEnable,Activez le mode Météo unique,-
+LV.MW.SWEnableDesc,Chaque cycle peut avoir une chance d'avoir un seul type de temps.,-
+LV.MW.SWStartCycle,Cycle de démarrage de la météo seule,-
+LV.MW.SWStartCycleDesc,Le cycle minimum que peut avoir un temps unique.,-
+LV.MW.SWChance,Chance de temps unique,-
+LV.MW.SWChanceDesc,La probabilité d'un événement météorologique unique se produisant,-
+LV.MW.SWTemperateChance,Chance de temps tempéré unique,-
+LV.MW.SWTemperateChanceDesc,La probabilité qu'une météo unique soit tempérée lorsqu'une météo unique se produit.,-

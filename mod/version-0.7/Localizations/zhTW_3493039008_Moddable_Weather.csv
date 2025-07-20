@@ -1,0 +1,44 @@
+ID,Text,Comment
+LV.MW.WeatherStart,{0} 開始了,-
+LV.MW.WeatherEnd,{0} 結束了,-
+LV.MW.WeatherApproaching,{0} 接近中,-
+LV.MW.WeatherInProgress,{0} 進行中,-
+LV.MW.EnableWeather,啟用 {0} 天氣,-
+LV.MW.EnableWeatherDesc,啟用{0}天氣,-
+LV.MW.StartCycle,{0} 開始循環,-
+LV.MW.StartCycleDesc,{0} 可以出現的最小循環,-
+LV.MW.Chance,{0} 機會,-
+LV.MW.ChanceDesc,{0} 發生的機率,-
+LV.MW.MinDay,{0} 最少天數,-
+LV.MW.MinDayDesc,{0} 可以發生的最早日期,-
+LV.MW.MaxDay,{0} 最大天數,-
+LV.MW.MaxDayDesc,{0} 可能發生的最遲日期,-
+LV.MW.HandicapPerc,{0} 殘障百分比,-
+LV.MW.HandicapPercDesc,當這種天氣第一次出現時，其持續時間會被這個百分比乘以。,-
+LV.MW.HandicapCycles,{0} 特需腳踏車,-
+LV.MW.HandicapCyclesDesc,直至天氣達到完全（100%）持續的循環次數。,-
+LV.MW.Rain,雨,-
+LV.MW.Monsoon,季風,-
+LV.MW.ShortTemperate,令人失望的短暫溫度,-
+LV.MW.ProgressiveTemperate,逐漸縮短的溫帶,-
+LV.MW.SurprisinglyRefreshing,令人驚豔的清新感,-
+LV.MW.RainEffect,啟用雨滴效果,-
+LV.MW.RainEffectDesc,在地圖上啟用雨霧效果。,-
+LV.MW.MonsoonMultiplier,季風最大倍增器,-
+LV.MW.MonsoonMultiplierDesc,"季風天氣的最大額外乘數（不考慮手牌）。  
+此值會受到手牌如持續時間的影響。  
+預設值：2.5（250%），這意味著當沒有應用手牌（預設週期5）時，所有水源的強度為350%。",-
+LV.MW.Profiles,個人資料,-
+LV.MW.ProfilesDesc,匯出和匯入支援的可調式天氣設定,-
+LV.MW.ProfileImport,導入,-
+LV.MW.ProfileExport,出口,-
+LV.MW.ProfileError,發生了一個錯誤：{0},-
+LV.MW.SingleWeatherMode,單一天氣模式,-
+LV.MW.SWEnable,啟用單一天氣模式,-
+LV.MW.SWEnableDesc,每個循環可能只會有一種天氣的機會。,-
+LV.MW.SWStartCycle,單一天氣啟動循環,-
+LV.MW.SWStartCycleDesc,單一天氣出現的最小循環,-
+LV.MW.SWChance,單一天氣機率,-
+LV.MW.SWChanceDesc,單一天氣發生的機會,-
+LV.MW.SWTemperateChance,單一天氣溫和的機率,-
+LV.MW.SWTemperateChanceDesc,單一天氣出現時，該天氣為溫和的機會。,-

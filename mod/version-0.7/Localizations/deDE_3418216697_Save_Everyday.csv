@@ -11,3 +11,5 @@ LV.SE.AutosaveWarning,Vor dem automatischen Speichern warnen,-
 LV.SE.AutosaveWarningDesc,"Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speichert. Dies ist nützlich für Spieler, die Spielruckler beim automatischen Speichern nicht mögen.",-
 LV.SE.AutosaveWarningText,Auto-Speicherung steht in {0} Spielstunden bevor!,-
 LV.SE.AutosaveDoneText,Spiel automatisch gespeichert (Jeden Tag speichern)!,-
+LV.SE.AutoSaveFilename,Auto-Speichern Dateiname,-
+LV.SE.AutoSaveFilenameDesc,"Benutzerdefinierter Dateiname für automatisches Speichern. Wenn Sie dies verwenden, stellen Sie sicher, dass Sie am Ende .saveeveryday hinzufügen, um automatisch zu löschen. Andernfalls wird die Spielstanddatei nicht automatisch gelöscht. Verwenden Sie {0} für die Zyklusnummer und {1} für die Zyklustagnummer und {2} für den Gesamttag. Zum Beispiel: C{0}_D{1}.saveeveryday. Lassen Sie es leer, um den Standarddateinamen (SaveDay{2}.saveeveryday) zu verwenden.",-

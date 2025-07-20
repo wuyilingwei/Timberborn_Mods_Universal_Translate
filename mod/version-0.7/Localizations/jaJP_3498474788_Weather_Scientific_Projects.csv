@@ -1,0 +1,43 @@
+ID,Text,Comment
+LV.WSP.WeatherGroup,天気,-
+LV.WSP.WeatherGroupDesc,天気と予報に関連する科学プロジェクト,-
+LV.WSP.Ext1,ゲイルスニファーのトーテム,-
+LV.WSP.Ext1Desc,悪天候の警報は{0:+#}日前に出されます。,-
+LV.WSP.Ext1Lore,ビーバーが風を「嗅いで」早めの天気のヒントを得るためのシンプルなポール。,-
+LV.WSP.Ext2,ミストウィーバーのダイヤル,-
+LV.WSP.Ext2Desc,悪天候の警告が{0:+#}日前に出されます。,-
+LV.WSP.Ext2Lore,湿度と気圧に基づいて天気を予測できるダイヤル。,-
+LV.WSP.Ext3,サンダーハブの尖塔,-
+LV.WSP.Ext3Desc,悪天候の警告は、レベルごとに{0:+#}日前に出されます。,-
+LV.WSP.Ext3Lore,空中の電荷を検出できる高い尖塔。,-
+LV.WSP.PrewarningCost,前通知日のレベルごとの[コスト]。その他の日は0。,-
+LV.WSP.Pred1,天気予報,-
+LV.WSP.Pred1Desc,この周期の悪天候を予測してください。精度は初日に{0:#%}から始まり、毎日{1:+#%}増加します。,-
+LV.WSP.Pred1Lore,ビーバーは雲と風を頼りにし、日が経つにつれて彼らの予測は鋭くなる。,-
+LV.WSP.Pred2,星明かりの精度,-
+LV.WSP.Pred2Desc,天気予報は、サイクルの初日に追加の{0:+#%}精度で始まります。,-
+LV.WSP.Pred2Lore,「星は嘘をつかない—どう尋ねるかさえ知っていれば！」— ブリンク・ザ・スターゲイザー,-
+LV.WSP.Pred3,水理学的分析,-
+LV.WSP.Pred3Desc,毎日、天気予報にレベルごとに {1:+#%} の精度を追加します。,-
+LV.WSP.Pred3Lore,ビーバーは、潮の干満を研究することで、毎日天気の予想を洗練させています。,-
+LV.WSP.IncreaseStr,フローマスターの導管,-
+LV.WSP.IncreaseStrDesc,水源の強化を可能にします。,-
+LV.WSP.IncreaseStrLore,「もっと水、もっと力—それだけのこと！」 — リバーチュー フローマスター,-
+LV.WSP.IncreaseStrFresh,淡水源の増加,-
+LV.WSP.IncreaseStrFreshDesc,すべての淡水源の強さを（干潮時も含めて）レベルごとに{0:+#%}増加させる。,-
+LV.WSP.IncreaseStrBad,悪い水源を増やす,-
+LV.WSP.IncreaseStrBadDesc,全ての悪い水源の強度をレベルごとに{0:+#%}増加させます。,-
+LV.WSP.DecreaseStr,潮流破りの門,-
+LV.WSP.DecreaseStrDesc,水源の強さを減少させることができます。,-
+LV.WSP.DecreaseStrLore,「時には、川を乗りこなすのではなく、従わせる必要がある。」 — スティルウォーター タイドブレイカー,-
+LV.WSP.DecreaseStrFresh,淡水源の減少,-
+LV.WSP.DecreaseStrFreshDesc,すべての淡水源の強さをレベルごとに{0:;#%}減少させます。,-
+LV.WSP.DecreaseStrBad,悪い水源を減らす,-
+LV.WSP.DecreaseStrBadDesc,すべての悪い水源の強さをレベルごとに{0:#%}減少させる,-
+LV.WSP.StrCostFresh,[コスト] 新鮮な水源ごと。非活性の水源はカウントしません（例えば、干ばつの間など）。,-
+LV.WSP.StrCostBad,[コスト] 不良な水源ごと。無効な水源（例：乾燥時や封印されたもの）はカウントされません。,-
+LV.WSP.ForecastText,{0:#%} {1}、持続時間 {2}-{3}日,-
+LV.WSP.Forecast1DayText,{0:#%} {1}、{2}日間続きます,-
+LV.WSP.DecreaseStrBuffDesc,ビーバーの工学の驚異であるこのゲートは、最も荒々しい川を制御し、その流れを穏やかにして私たちの土地を守ります。,-
+LV.WSP.IncreaseStrBuffDesc,自然の力を引き出すこの導管は、水の奔流を解き放ち、川を我々の意志に曲げる。,-
+LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} 力,-

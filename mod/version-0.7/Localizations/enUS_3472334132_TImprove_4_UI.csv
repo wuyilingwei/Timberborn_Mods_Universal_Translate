@@ -3,8 +3,6 @@ LV.T4UI.ScrollableEntityPanel,Scrollable Entity Panel,-
 LV.T4UI.ScrollableEntityPanelDesc,Add a scroll bar to the entity panel (the panel on the right). It's useful when you have many mods that add items to it.,-
 LV.T4UI.RemovePathHighlight,Remove Path Highlight,-
 LV.T4UI.RemovePathHighlightDesc,Paths are no longer highlighted when you select a building. You can still see them when selecting a path.,-
-LV.T4UI.HighlightPowerNetwork,Highlight Power Network,-
-LV.T4UI.HighlightPowerNetworkDesc,"When you select a building, the power network it is connected to will be highlighted.",-
 LV.T4UI.ToolDescPos,Tool description location,-
 LV.T4UI.ToolDescPosDesc,Choose a location for the tool description panel (the one in the middle when you are building). Game default: center.,-
 LV.T4UI.ToolDescPosLeft,Left,-
@@ -14,3 +12,15 @@ LV.T4UI.AutoExpandCounter,Auto-expand material counters,-
 LV.T4UI.AutoExpandCounterDesc,Close all material counters (top-left corner) on start. Automatically expand any closed counter when you hover over them.,-
 LV.T4UI.NeverHideCounter,Never hide unlocked counters,-
 LV.T4UI.NeverHideCounterDesc,Never hide unlocked material counters even when you have 0 of that material.,-
+LV.T4UI.HighlightSimilar,Highlight similar objects,-
+LV.T4UI.HighlightSimilarDesc,"When you select an object, all objects of the same type will be highlighted.",-
+LV.T4UI.HighlightSimilarColor,Highlight similar objects color,-
+LV.T4UI.HighlightSimilarColorDesc,Color of the highlight for similar objects.,-
+LV.T4UI.HighlightTubeway,Highlight Tubeway path,-
+LV.T4UI.HighlightTubewayDesc,Highlight all the connected Tubeways when you select a Tubeway. This is useful to see the whole path of a Tubeway when you select it.,-
+LV.T4UI.HighlightStorage,Highlight & Select Material Buildings,-
+LV.T4UI.HighlightStorageDesc,Hover over a material counter to highlight all buildings that contain that material. Clicking it will cycle through those buildings. Holding the Alternate key (default: Shift) will cycle through them in selecting district only.,-
+LV.T4UI.DisableShadows,Disable shadows,-
+LV.T4UI.DisableShadowsDesc,Disable shadows from the sun.,-
+LV.T4UI.AddNegativeNeeds,Add buildings' debuff information.,-
+LV.T4UI.AddNegativeNeedsDesc,"For example, the chance of injury or a bee sting.",-

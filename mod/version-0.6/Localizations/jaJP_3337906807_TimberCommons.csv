@@ -1,28 +1,28 @@
 ID,Text,Comment
-IgorZ.TimberCommons.WaterTower.Utilization,活用された潜在能力: {0:0.#}%,-
+IgorZ.TimberCommons.WaterTower.Utilization,利用された可能性: {0:0.#}%,-
 IgorZ.TimberCommons.WaterTower.IrrigatedArea,カバーエリア: {0},-
 IgorZ.TimberCommons.WaterTower.EffectiveRange,有効範囲: {0},-
 IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,灌漑するための到達可能なタイルがありません,-
-IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,成長促進: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
-IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,成長の減速: <RedHighlight>🡇</RedHighlight>{0:0.#}%,-
-IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,スピルウェイでの深さ以上の閉じ込み: {0},-
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,成長の促進: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,成長の鈍化: <RedHighlight>🡇</RedHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,スピルウェイでの深さを超えた閉鎖: {0},-
 IgorZ.TimberCommons.InjuryProbability,怪我の確率: {0} 毎時,-
 IgorZ.TimberCommons.Settings.TimeAndDurationSection,時間と期間の表現,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,在庫の残りを日数/時間で表示してください。,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,成長時間を日/時間として表示する,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,レシピの所要時間を日/時間として表示する,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,レシピの燃料消費量をより高精度で表示する,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,「供給が続く限り」を日数/時間で表示する,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,成長時間を日/時間で表示します。,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,レシピの時間を日/時間として表示してください。,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,レシピの燃料消費をより高い精度で表示する,-
 IgorZ.TimberCommons.Settings.IrrigationSystemSection,灌漑システム,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,灌漑されたタイルを十分に潤湿された状態で表示してください。,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,タイルがつやのある緑色（十分に潤いのある状態）に見えるべきかどうかを指定します。そうでない場合、灌漑塔は基本的な湿度レベルしか提供しないため、在庫ロジックはそれらを「ほとんど潤いがない」と表示します。,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,灌漑されたタイルを湿った状態で表示してください。,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,タイルが光沢のある緑色（十分に潤っている）に見えるべきかどうかを指定します。そうでない場合、ストックロジックはそれらを「ほとんど潤っていない」と表示します。なぜなら、灌漑塔は基本的な湿度レベルしか提供しないからです。,-
 IgorZ.TimberCommons.Settings.WaterBuildingsSection,水の建物,-
 IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,機械ポンプの排水路で最大水位を設定できるようにします。,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,液体の滴のスピルウェイで最大水位を設定できるようにする,-
-IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,スルース内の現在の強度を表示する,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,液体のドロップの排水路での最大水位を設定することを許可します。,-
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,スルースの現在の強度を示す,-
 IgorZ.TimberCommons.Settings.InjuryProbabilitySection,怪我の確率,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,右のパネルに怪我の確率を表示してください。,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,ビルのアバターにインジケーターを表示する,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,指標の上にカーソルを合わせると、負傷の確率が表示されます。,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,建物のアバターにインジケーターを表示する,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,インジケーターにカーソルを合わせると、怪我の確率が表示されます。,-
 IgorZ.TimberCommons.Settings.DebugSection,デバッグとトラブルシューティング,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLogging,冗長ログ,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLogging,詳細ログ,-
 IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,ログにはより有用な詳細が含まれますが、ゲームのパフォーマンスに影響を与える可能性があります。,-

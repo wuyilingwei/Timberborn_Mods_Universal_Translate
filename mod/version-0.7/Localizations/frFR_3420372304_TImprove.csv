@@ -33,7 +33,27 @@ LV.TI.QuickQuit,Quitter rapidement/forcer la fermeture [Ctrl + Maj + Q] (!),-
 LV.TI.QuickQuitDesc,Appuyez sur Ctrl + Shift + Q pour quitter le jeu immédiatement en tuant le processus du jeu. AUCUNE SAUVEGARDE ou nettoyage de l'état du jeu. Faites attention !,-
 LV.TI.BiggerBuildDragArea,Zone de traînée de construction plus grande (!),-
 LV.TI.BiggerBuildDragAreaDesc,"Augmentez la zone de glissement pour les bâtiments tels que les barrages (par défaut 10x10) ou les routes (25). Cela augmente considérablement le temps de chargement et l'utilisation de la mémoire, donc utilisez-le avec prudence. Exemple : définir cela à 5 rendra la zone de glissement 15x15 pour les barrages ou 30 pour les routes. Ne peut être modifié qu'au menu principal.",-
-LV.TI.AutoClearDeadTrees,Enlevez immédiatement les arbres morts.,-
-LV.TI.AutoClearDeadTreesDesc,"Lors de l'utilisation de l'outil 'Marquer les ressources pour démolition', supprimer automatiquement les arbres morts immédiatement sans castors (comme si vous construisiez des choses dessus).",-
+LV.TI.AutoClearDeadTrees,Éliminer les souches mortes,-
+LV.TI.AutoClearDeadTreesDesc,"Effacer automatiquement les souches ou buissons morts (ceux que vous auriez pu détruire immédiatement en construisant par-dessus) :
+- Non : ne rien effacer
+- Outil : lors de l'utilisation de l'outil de démolition
+- Automatique : effacez-les simplement dès qu'ils apparaissent",-
+LV.TI.AutoClearDeadTreesNo,Non,-
+LV.TI.AutoClearDeadTreesTool,Outil,-
+LV.TI.AutoClearDeadTreesAuto,Auto,-
 LV.TI.AddRealTimeClock,Ajouter une horloge en temps réel,-
 LV.TI.AddRealTimeClockDesc,Ajoutez une horloge en temps réel dans le coin supérieur droit. C'est utile pour les joueurs qui souhaitent garder une trace du temps pendant qu'ils jouent.,-
+LV.TI.DisableShadowRotation,Désactiver la rotation de l'ombre,-
+LV.TI.DisableShadowRotationDesc,Cela rendra les ombres statiques et ne les fera pas tourner avec le soleil.,-
+LV.TI.NewDayAction,Un nouveau jour,-
+LV.TI.NewDayActionDesc,"Choisissez quoi faire pour cette nouvelle journée :
+- Rien : ne rien faire
+- Pause : mettre le jeu en pause
+- Vitesse 1 : régler la vitesse du jeu à 1x",-
+LV.TI.NewDayActionNone,Aucun,-
+LV.TI.NewDayActionPause,Pause,-
+LV.TI.NewDayActionSpeed1,Vitesse 1,-
+LV.TI.NewDayAll,Chaque jour,-
+LV.TI.NewDayWarning,Lors des jours d'alerte météorologique,-
+LV.TI.NewDayHazard,Lors des jours de temps dangereux,-
+LV.TI.NewDayNewCycle,Lors des nouveaux jours de cycle,-

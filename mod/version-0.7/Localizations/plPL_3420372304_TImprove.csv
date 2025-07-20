@@ -33,7 +33,27 @@ LV.TI.QuickQuit,Szybkie/Wymuszone Zamykanie [Ctrl + Shift + Q] (!),-
 LV.TI.QuickQuitDesc,"Naciśnij Ctrl + Shift + Q, aby natychmiast wymusić zakończenie gry, zabijając proces gry. BEZ ZAPISU ani czyszczenia stanu gry. Uważaj!",-
 LV.TI.BiggerBuildDragArea,Większa powierzchnia oporu powietrza (!),-
 LV.TI.BiggerBuildDragAreaDesc,"Zwiększ obszar przeciągania budowli, takich jak tamy (domyślnie 10x10) lub drogi (25). Znacząco zwiększa to czas ładowania i zużycie pamięci, dlatego należy używać tego ostrożnie. Na przykład ustawienie tego na 5 sprawi, że obszar przeciągania wyniesie 15x15 tam lub 30 dróg. Może być zmieniane tylko w menu głównym.",-
-LV.TI.AutoClearDeadTrees,Natychmiast usuń martwe drzewa.,-
-LV.TI.AutoClearDeadTreesDesc,"Kiedy używasz narzędzia 'Oznacz zasoby do wyburzenia', automatycznie usuń martwe drzewa natychmiast, bez bobrów (jakbyś budował na tym).",-
+LV.TI.AutoClearDeadTrees,Usuń martwe pnie.,-
+LV.TI.AutoClearDeadTreesDesc,"Automatycznie usuwaj martwe pniaki lub krzaki (te, które mogłeś zniszczyć od razu, budując na ich miejscu):
+- Nie: nie usuwaj nic
+- Narzędzie: używając narzędzia do burzenia
+- Automatycznie: po prostu usuwaj je w momencie, gdy się pojawią",-
+LV.TI.AutoClearDeadTreesNo,Nie,-
+LV.TI.AutoClearDeadTreesTool,Narzędzie,-
+LV.TI.AutoClearDeadTreesAuto,Samochód,-
 LV.TI.AddRealTimeClock,Dodaj zegar czasu rzeczywistego,-
 LV.TI.AddRealTimeClockDesc,"Dodaj zegar czasu rzeczywistego w prawym górnym rogu. Jest to przydatne dla graczy, którzy chcą śledzić czas podczas gry.",-
+LV.TI.DisableShadowRotation,Wyłącz rotację cienia,-
+LV.TI.DisableShadowRotationDesc,"To sprawi, że cienie będą statyczne i nie będą obracać się wraz z słońcem.",-
+LV.TI.NewDayAction,W nowym dniu,-
+LV.TI.NewDayActionDesc,"Wybierz, co zrobić w nowym dniu:
+- Nic: nie rób nic
+- Pauza: wstrzymaj grę
+- Szybkość 1: ustaw prędkość gry na 1x",-
+LV.TI.NewDayActionNone,Brak,-
+LV.TI.NewDayActionPause,Pauza,-
+LV.TI.NewDayActionSpeed1,Prędkość 1,-
+LV.TI.NewDayAll,Codziennie,-
+LV.TI.NewDayWarning,W dni żółtej ostrzeżenia pogodowego,-
+LV.TI.NewDayHazard,W dniu rozpoczęcia niebezpiecznej pogody,-
+LV.TI.NewDayNewCycle,W nowych dniach cyklu,-

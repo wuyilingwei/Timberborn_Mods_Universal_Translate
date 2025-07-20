@@ -1,23 +1,23 @@
 ID,Text,Comment
 IgorZ.TimberCommons.WaterTower.Utilization,Potentiel utilisé : {0:0.#}%,-
 IgorZ.TimberCommons.WaterTower.IrrigatedArea,Zone couverte : {0},-
-IgorZ.TimberCommons.WaterTower.EffectiveRange,Plage effective : {0},-
-IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,Aucun carreau accessible à irriguer,-
-IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,Croissance boost : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.WaterTower.EffectiveRange,Portée efficace : {0},-
+IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,Aucune tuile accessible à irriguer,-
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,Augmentation de la croissance : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
 IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,Ralentissement de la croissance : <RedHighlight>🡇</RedHighlight>{0:0.#}%,-
 IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,Fermer au-dessus de la profondeur au déversoir : {0},-
 IgorZ.TimberCommons.InjuryProbability,Probabilité de blessure : {0} chaque heure,-
 IgorZ.TimberCommons.Settings.TimeAndDurationSection,Représentation du temps et de la durée,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,Afficher 'stock disponible' en jours/heures.,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,"Afficher ""stock disponible"" en jours/heures.",-
 IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,Afficher le temps de croissance en jours/heures,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,Afficher le temps de cuisson des recettes en jours/heures.,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,Afficher le temps des recettes en jours/heures.,-
 IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,Afficher la consommation de carburant de la recette avec une précision accrue.,-
 IgorZ.TimberCommons.Settings.IrrigationSystemSection,Système d'irrigation,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,Afficher les carreaux irrigués ainsi que ceuxhumidifiés.,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,"Spécifie si les tuiles doivent avoir l'apparence d'un vert brillant (bien hydraté). Sinon, la logique par défaut les affichera comme 'à peine hydratées', car les tours d'irrigation ne fournissent que le niveau d'humidité de base.",-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,Afficher les carreaux irrigués ainsi que les humidifiés.,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,"Spécifie si les tuiles doivent avoir un aspect brillant et vert (bien hydrates). Sinon, la logique par défaut les affichera comme 'à peine hydratées' puisque les tours d'irrigation ne donnent que le niveau d'humidité de base.",-
 IgorZ.TimberCommons.Settings.WaterBuildingsSection,Bâtiments aquatiques,-
 IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,Permettre de régler le niveau d'eau maximal au déversoir des pompes mécaniques.,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,Permettre de définir le niveau d'eau maximum au déversoir des chutes de liquide.,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,Autoriser le réglage du niveau d'eau maximal au déversoir des gouttes liquides.,-
 IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,Afficher la force actuelle dans la vanne.,-
 IgorZ.TimberCommons.Settings.InjuryProbabilitySection,Probabilité de blessure,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,Afficher la probabilité de blessure dans le panneau de droite.,-
@@ -25,4 +25,4 @@ IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,Afficher l'indicat
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,Survolez l'indicateur pour voir la probabilité de blessure.,-
 IgorZ.TimberCommons.Settings.DebugSection,Débogage et dépannage,-
 IgorZ.TimberCommons.Settings.Debug.VerboseLogging,Journalisation détaillée,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,"Les journaux auront des détails plus utiles, mais cela peut affecter les performances du jeu.",-
+IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,"Les journaux contiendront des détails plus utiles, mais cela pourrait affecter les performances du jeu.",-

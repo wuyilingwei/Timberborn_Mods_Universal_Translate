@@ -11,3 +11,5 @@ LV.SE.AutosaveWarning,Ostrzeż przed automatycznym zapisywaniem,-
 LV.SE.AutosaveWarningDesc,"Pokaż ostrzeżenie chwilę przed automatycznym zapisem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć w grze podczas automatycznego zapisywania.",-
 LV.SE.AutosaveWarningText,Automatyczne zapisywanie wkrótce w {0} godzinach gry!,-
 LV.SE.AutosaveDoneText,Gra automatycznie zapisano (Zapisz codziennie)!,-
+LV.SE.AutoSaveFilename,Nazwa pliku automatycznego zapisu,-
+LV.SE.AutoSaveFilenameDesc,"Niestandardowa nazwa pliku dla automatycznych zapisów. Jeśli to robisz, upewnij się, że na końcu dodasz .saveeveryday, aby automatycznie usunąć. W przeciwnym razie gra nie usunie pliku zapisu automatycznie. Użyj {0} dla numeru cyklu, {1} dla numeru dnia cyklu i {2} dla łącznej liczby dni. Na przykład: C{0}_D{1}.saveeveryday. Pozostaw puste, aby użyć domyślnej nazwy pliku (SaveDay{2}.saveeveryday).",-

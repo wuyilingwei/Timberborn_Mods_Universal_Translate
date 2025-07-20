@@ -3,3 +3,18 @@ Tobbert.PipetteTool.DisplayName,移液管,-
 Tobbert.PipetteTool.Description,單擊建築物以進入該建築物的建造模式。（默認快捷鍵 CTRL + 單擊）,-
 Tobbert.PipetteTool.KeyBindingGroup.PipetteTool,吸管工具,-
 Tobbert.PipetteTool.KeyBinding.PipetteTool,滴管工具,-
+Tobbert.PipetteTool.Setting.Header,移液器工具設定,-
+Tobbert.PipetteTool.Setting.PipetteToolMode,移液模式,-
+Tobbert.PipetteTool.Setting.PipetteToolModeToolTip,"保持模式：按住移液管工具的快捷鍵，並使用滑鼠選擇按鈕開始移液。  
+按壓模式：在按下並釋放移液管工具快捷鍵後，移液管工具被啟動。  
+直接模式（快捷鍵）：此設置允許直接移液而無需點擊。使用上面的快捷鍵將直接切換到相關建築（經過 Factorio 玩家批准）。  
+直接模式（中鍵）：此設置允許直接移液而無需使用快捷鍵。使用中鍵將直接切換到相關建築（經過 Minecraft 玩家批准）。  
+反轉模式：當選擇一個建築時，按下移液管工具快捷鍵以切換到相關物件。",-
+Tobbert.PipetteTool.Setting.MouseSelectionButton,滑鼠選擇按鈕,-
+Tobbert.PipetteTool.Setting.HoldMode,保持模式,-
+Tobbert.PipetteTool.Setting.PressMode,按壓模式,-
+Tobbert.PipetteTool.Setting.DirectModeKeyBind,直連模式（快捷鍵）,-
+Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton,直接模式（中鍵）,-
+Tobbert.PipetteTool.Setting.ForcePipette,強制移液,-
+Tobbert.PipetteTool.Setting.ForcePipetteTooltip,強制使用移液工具，即使其他工具當前處於活動狀態。,-
+Tobbert.PipetteTool.Setting.InvertedMode,反向模式,-

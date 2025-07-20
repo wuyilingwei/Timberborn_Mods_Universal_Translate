@@ -27,9 +27,9 @@ IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,四次引爆,-
 IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,五次引爆,-
 IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,六次引爆,-
 IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,此规则适用于闸门，会在恶水潮开始时完全关闭。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,恶水潮时关闸,-
+IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,在坏潮开始时关闭闸门,-
 IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,此规则适用于闸门，会在恶水潮开始时完全打开。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,恶水潮时开闸,-
+IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,在恶潮开始时打开闸门,-
 IgorZ.Automation.Tool.tmpl.BadtidePause.Description,此规则适用于建筑，会在恶水潮开始时关闭或停止建造，在恶水潮结束时启用或开始建造。,-
 IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,恶水潮时关闭,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量达到当前床位上限。应用此规则后，新增加的床位不会被计算在内。,-
@@ -50,17 +50,17 @@ IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description,此规则适用于机关人�
 IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName,机关人数量增加10,-
 IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description,此规则适用于机关人组装厂，会自动启停来保持机关人数量高于当前数量20只。,-
 IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName,机关人数量增加20,-
-IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,此规则适用于待建造建筑，会根据是否堵塞其他建筑自动暂停建造或恢复建造。（可能存在bug，尤其是当建筑不在同一平面上时）,-
+IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description,将此模板应用于可能阻塞建筑工人路径的工地。注意：结果不保证，尤其是在建筑物不在同一水平的情况下。,-
 IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName,建筑防堵塞,-
 IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description,此规则适用于闸门，会在干旱期开始时完全关闭。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,干旱期时关闸,-
+IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName,在干旱开始时关闭洪水闸门,-
 IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,此规则适用于闸门，会在干旱期开始时完全打开。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,干旱期时开闸,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description,此规则适用于水闸和恶水建筑，会在干旱期开始时打开，在干旱期结束时关闭。,-
-IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName,干旱期时打开水利装置,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,干旱开始时打开泄洪闸,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description,在水流控制建筑（如<YellowHighlight>巴德沃特圆顶</YellowHighlight>或<YellowHighlight>闸门</YellowHighlight>）上应用此模板，以便在干旱期间保持其开放。,-
+IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName,干旱期间的开放水流控制,-
 IgorZ.Automation.Tool.tmpl.DroughtPause.Description,此规则适用于建筑，会在干旱期开始时关闭或停止建造，在干旱期结束时启用或开始建造。,-
 IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,干旱期时关闭,-
-IgorZ.Automation.Tool.tmpl.DynamiteNow.Description,此规则适用于炸弹，建造完成后会自动引爆。,
+IgorZ.Automation.Tool.tmpl.DynamiteNow.Description,此规则适用于炸弹，建造完成后会自动引爆。,-
 IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName,立即引爆,-
 IgorZ.Automation.Tool.tmpl.EmitSelectedGood.Description,此规则适用于仓储建筑，可以发送仓储物品数量信号，用于其他建筑的自动化规则判断。,-
 IgorZ.Automation.Tool.tmpl.EmitSelectedGood.DisplayName,物品数量信号,-
@@ -69,31 +69,36 @@ IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName,产物库存高于60%时清�
 IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName,产物库存高于70%时清理,-
 IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName,产物库存高于80%时清理,-
 IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName,产物库存高于90%时清理,-
-IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,此规则适用于不需要原料的生产建筑，如果产物库存高于预定阈值，则进入清理状态，直至产物库存降低至预定阈值。,-
+IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description,该模板可以应用于生产商品且没有输入库存的建筑。如果<i>产出</i>库存水平超过预定阈值，建筑将切换到“空”模式，以便快速移除商品。,-
 IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description,此规则适用于闸门，可以同步控制高度。,-
 IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName,闸门组,-
 IgorZ.Automation.Tool.tmpl.PauseConstruction.Description,此规则适用于待建造建筑，建造进度达到100%后会自动暂停。,-
 IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName,等待验收,-
-IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description,此规则适用于待建造建筑，建造完成后会自动勾选"让搬运工优先此建筑"。,-
+IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description,此规则适用于待建造建筑，建造完成后会自动勾选“让搬运工优先此建筑”。,-
 IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName,搬运优先,-
 IgorZ.Automation.Tool.tmpl.StreamGauge.Description,此规则适用于水流计，可以发送当前水流状况信号，用于其他建筑的自动化规则判断。,-
 IgorZ.Automation.Tool.tmpl.StreamGauge.DisplayName,水流状况信号,-
 IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,此规则适用于闸门，会在温和期开始时完全关闭。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,温和期时关闸,-
+IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,关闭温带天气开始的闸门,-
 IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,此规则适用于闸门，会在温和期开始时完全打开。需要与其他闸门自动化规则配合使用。,-
-IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,温和期时开闸,-
+IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,在温带天气开始时打开闸门,-
 IgorZ.Automation.Tool.tmpl.TemperatePause.Description,此规则适用于建筑，会在干旱期结束时关闭或停止建造，在干旱期开始时启用或开始建造。,-
 IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,非干旱期时关闭,-
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,此规则适用于闸门，会在温和期开始时部分打开，可通过高度为0.5米。需要与其他闸门自动化规则配合使用。,-
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,温和期时部分开闸,-
 IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,此规则适用于炸弹，建造完成后会自动引爆，随后放置新的炸弹并再次引爆，直至达到预定次数。,-
 IgorZ.Automation.ToolGroup.Main.DisplayName,自动化工具,-
-IgorZ.Automation.ToolGroup.Population.DisplayName,人口自动化,-
-IgorZ.Automation.ToolGroup.Power.DisplayName,启停自动化,-
-IgorZ.Automation.ToolGroup.Signals.DisplayName,信号自动化,
-IgorZ.Automation.ToolGroup.Storage.DisplayName,库存自动化,-
-IgorZ.Automation.ToolGroup.Terrain.DisplayName,炸弹自动化,-
-IgorZ.Automation.ToolGroup.Water.DisplayName,建筑和闸门自动化,-
+IgorZ.Automation.ToolGroup.Population.DisplayName,与人口相关的规则,-
+IgorZ.Automation.ToolGroup.Power.DisplayName,电力相关规则,-
+IgorZ.Automation.ToolGroup.Signals.DisplayName,信号自动化,-
+IgorZ.Automation.ToolGroup.Storage.DisplayName,与存储相关的规则,-
+IgorZ.Automation.ToolGroup.Terrain.DisplayName,地形变化规则,-
+IgorZ.Automation.ToolGroup.Water.DisplayName,天气相关规则,-
+=,=,-
+IgorZ.Automation.Scripting.Error.ValueOutOfRange,错误：值超出范围,-
+IgorZ.Automation.Scripting.Error.DivisionByZero,错误：除以零,-
+IgorZ.Automation.Scripting.Error.BadValue,错误：无效值,-
+IgorZ.Automation.Scripting.Error.InternalError,错误：内部错误,-
 IgorZ.Automation.AutomationFragment.AddRulesBtn,添加自动化规则,-
 IgorZ.Automation.AutomationFragment.CopyRulesBtn,复制规则,-
 IgorZ.Automation.AutomationFragment.EditRulesBtn,编辑规则,-
@@ -106,6 +111,7 @@ IgorZ.Automation.Scriptable.Constructable.Signal.State,建造状态,-
 IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished,已完成,-
 IgorZ.Automation.Scriptable.Debug.Action.LogNum,将数字写入日志：{0},-
 IgorZ.Automation.Scriptable.Debug.Action.LogStr,将字符串写入日志：{0},-
+IgorZ.Automation.Scriptable.Debug.Signal.Ticker,股票代码,-
 IgorZ.Automation.Scriptable.District.Signal.Beavers,地区海狸数量,-
 IgorZ.Automation.Scriptable.District.Signal.Bots,地区机关人数量,-
 IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,地区床位数,-
@@ -118,7 +124,7 @@ IgorZ.Automation.Scriptable.FlowControl.Action.Open,开启设施,-
 IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus,此仓库正在被优先清空。,-
 IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,开始清空库存,-
 IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,停止清空库存,-
-IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,输入物品：{0},-
+IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,{0},-
 IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,输出物品：{0},-
 IgorZ.Automation.Scriptable.Pausable.Action.Pause,暂停建筑,-
 IgorZ.Automation.Scriptable.Pausable.Action.Resume,恢复建筑,-
@@ -132,15 +138,14 @@ IgorZ.Automation.Scriptable.StreamGauge.Signal.Depth,水深,-
 IgorZ.Automation.Scriptable.Weather.Signal.Season,天气,-
 IgorZ.Automation.Scriptable.Workplace.Action.RemoveWorkers,移除所有劳工,-
 IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers,分配 {0} 名劳工,-
-IgorZ.Automation.Scripting.Expressions.AndOperator,且,-
+IgorZ.Automation.Scripting.Expressions.AndOperator,和,-
 IgorZ.Automation.Scripting.Expressions.OrOperator,或,-
 IgorZ.Automation.Scripting.Expressions.ParseError,解析错误,-
-IgorZ.Automation.Scripting.Expressions.RuntimeError,运行错误,-
 IgorZ.Automation.Scripting.Editor.ActionLabel,那么,-
 IgorZ.Automation.Scripting.Editor.ActionMustBeAction,动作必须是'act'操作符,-
 IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,通过添加脚本创建规则,-
 IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn,通过构造器创建规则,-
-IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint,"(最大值: {0})",-
+IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint,(最大值: {0}),-
 IgorZ.Automation.Scripting.Editor.ConditionLabel,如果,-
 IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean,条件必须是布尔表达式,-
 IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals,条件必须包含至少一个信号,-
@@ -171,9 +176,9 @@ IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules,删除现有规则,-
 IgorZ.Automation.Scripting.ImportDialog.ReadMore,了解更多导入信息,-
 IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl,https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept,-
 IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules,跳过失败规则,-
-IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError,动作不适用：{0},-
+IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError,操作不适用：{0},-
 IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError,条件不适用：{0},-
-IgorZ.Automation.Scripting.ImportRules.ExpectedActionError,需要动作表达式,-
+IgorZ.Automation.Scripting.ImportRules.ExpectedActionError,需要操作表达式,-
 IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError,需要条件表达式,-
 IgorZ.Automation.Scripting.ImportRules.ImportError,第{0}行错误：{1},-
 IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError,规则声明不完整,-
@@ -181,12 +186,20 @@ IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment,未关闭的多�
 IgorZ.Automation.Settings.Debug.PathCheckingProfiling,记录路径检查引擎统计信息,-
 IgorZ.Automation.Settings.Debug.LogSignalSetting,记录设置信号值,-
 IgorZ.Automation.Settings.Debug.LogSignalPropagating,记录信号传播,-
+IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad,重新评估负载规则,-
+IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad,在加载时重置自定义信号,-
 IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton,始终显示“添加自动化规则”按钮,-
 IgorZ.Automation.Settings.EntityPanel.Header,建筑详情面板控件,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle,规则描述格式,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable,文本,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script,脚本,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort,伪脚本,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions,在条件中评估右值,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments,评估操作参数中的值,-
+IgorZ.Automation.Settings.ScriptEngine.Header,脚本引擎设置,-
+IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues,在运行时检查参数值,-
+IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments,检查具有固定值集合的参数,-
+IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize,信号执行堆栈大小,-
 TimberDev_Utils.Settings.Debug.VerboseLogging,详细日志记录,-
 TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用细节，但可能会影响游戏性能。,-
 TimberDev_Utils.Settings.DebugSection,调试和故障排除,-

@@ -1,0 +1,53 @@
+ID,Text,Comment
+ebbflow.settings.enableglobalstrengthreduction,Включить глобальное сокращение мощностью,-
+ebbflow.settings.enableglobalstrengthreduction.desc,Включите глобальный множитель для настройки силы всех источников воды.,-
+ebbflow.settings.globalstrengthmultiplier,Глобальный множитель силы,-
+ebbflow.settings.globalstrengthmultiplier.desc,"Множитель для всех водных источников (например, 1.0 = нормально, 0.5 = половина силы).",-
+ebbflow.settings.enabledynamicfluctuations,Включить динамические колебания,-
+ebbflow.settings.enabledynamicfluctuations.desc,"Включите случайные, временные изменения силы для водоемов.",-
+ebbflow.settings.maxaffectedsources,Максимальное количество затронутых источников на одно обновление,-
+ebbflow.settings.maxaffectedsources.desc,"Максимальное количество источников воды, которые могут начинать новые колебания в каждом цикле.",-
+ebbflow.settings.chancetoskipfluctuation,Шанс пропустить колебания,-
+ebbflow.settings.chancetoskipfluctuation.desc,"Вероятность пропустить начало новых колебаний в цикле (0.0 = никогда не пропускать, 1.0 = всегда пропускать).",-
+ebbflow.settings.minfluctuationmodifier,Минимальный модификатор флуктуаций,-
+ebbflow.settings.minfluctuationmodifier.desc,"Минимальный множитель силы во время колебания (например, 0.5 = 50% силы).",-
+ebbflow.settings.maxfluctuationmodifier,Максимальный модификатор колебаний,-
+ebbflow.settings.maxfluctuationmodifier.desc,"Максимальный множитель силы во время колебания (например, 2.0 = 200% силы).",-
+ebbflow.settings.fluctuationdurationticks,Продолжительность колебаний (Циклы),-
+ebbflow.settings.fluctuationdurationticks.desc,"Как долго длится случайное колебание силы воды. Более высокое число означает, что колебание будет длиться дольше. Каждый цикл составляет примерно один час игрового времени.",-
+ebbflow.settings.enablesourcetoggling,Включить переключение источников,-
+ebbflow.settings.enablesourcetoggling.desc,Включите возможность временно отключать источники воды.,-
+ebbflow.settings.sourcestodivide,Источники для проверки знаменателя,-
+ebbflow.settings.sourcestodivide.desc,"Разделите общее количество источников карты на это число, чтобы определить, сколько из них проверять для переключения (например, 3 = проверять 1/3 источников).",-
+ebbflow.settings.maxsourcestotoggleoff,Максимальное количество источников для отключения,-
+ebbflow.settings.maxsourcestotoggleoff.desc,"Максимальное количество источников воды, которые можно отключить за один цикл.",-
+ebbflow.settings.chancetotoggleoff,Шанс отключить,-
+ebbflow.settings.chancetotoggleoff.desc,"Вероятность того, что отмеченный источник будет отключен (0.0 = никогда, 1.0 = всегда).",-
+ebbflow.settings.toggleoffstrength,Выключенная сила,-
+ebbflow.settings.toggleoffstrength.desc,"Сила источника воды при отключении (например, 0,15 = 15% от нормы).",-
+ebbflow.settings.toggleoffdurationticks,Время отключения (Циклы),-
+ebbflow.settings.toggleoffdurationticks.desc,Источники длительности остаются отключенными в циклах обновления мода.,-
+ebbflow.settings.contaminationlinger,Загрязнение продолжается (дни),-
+ebbflow.settings.contaminationlinger.desc,"Сколько времени загрязнение сохраняется в грунте, в приблизительных игровых днях?",-
+ebbflow.settings.enablesludgegeneration,Включить генерацию ила,-
+ebbflow.settings.enablesludgegeneration.desc,Разрешите появление иловых блоков в загрязненной воде.,-
+ebbflow.settings.chancetospawnsludge,Шанс появления иллюстрации,-
+ebbflow.settings.chancetospawnsludge.desc,"Вероятность появления слизи за цикл (0 = никогда, 100 = всегда).",-
+ebbflow.settings.maxsludgeperbadsource,Максимальное количество шлама на событие,-
+ebbflow.settings.maxsludgeperbadsource.desc,"Максимальное количество слякотных блоков, которые могут появиться в результате одного события загрязнения.",-
+ebbflow.settings.sludgespawnradius,Радиус появления ила,-
+ebbflow.settings.sludgespawnradius.desc,"Максимальное расстояние от источника загрязнения, где может появляться ил.",-
+ebbflow.settings.minwaterdepthforsludge,Минимальная глубина воды для осадка,-
+ebbflow.settings.minwaterdepthforsludge.desc,"Минимальная глубина воды, необходимая для образования осадка (0,2 = 20% высоты блока).",-
+ebbflow.settings.allowsludgeinchannels,Разрешить осадок в каналах потока,-
+ebbflow.settings.allowsludgeinchannels.desc,Позволить блокам ила спавниться в протекающих водных каналах.,-
+ebbflow.settings.maxadjacentsludge,Максимальная соседняя слякоть,-
+ebbflow.settings.maxadjacentsludge.desc,"Максимальное число соседних слюдяных блоков, разрешенное перед тем, как может появиться новый, чтобы предотвратить полное блокирование рек.",-
+ebbflow.settings.updateintervalinticks,Интервал обновления (в тиках),-
+ebbflow.settings.updateintervalinticks.desc,"С какой частотой выполняется основной логический цикл мода. Более низкие значения приводят к более частому выполнению, но могут повлиять на производительность. Значение по умолчанию - 200.",-
+ebbflow.settings.enablebaselinecontamination,Включить загрязнение базы данных,-
+ebbflow.settings.enablebaselinecontamination.desc,"Все источники воды по умолчанию имеют загрязнение на уровне 1-4%, так как действительно чистая вода встречается редко.",-
+ebbflow.settings.baselinecontaminationmin,Минимальное загрязнение базовой линии,-
+ebbflow.settings.baselinecontaminationmin.desc,"Минимальный базовый процент загрязнения (0,01 = 1%).",-
+ebbflow.settings.baselinecontaminationmax,Максимальное загрязнение основы,-
+ebbflow.settings.baselinecontaminationmax.desc,"Максимальный процент загрязнения базового уровня (0,04 = 4%).",-

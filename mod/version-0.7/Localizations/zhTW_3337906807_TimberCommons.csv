@@ -1,28 +1,28 @@
 ID,Text,Comment
-IgorZ.TimberCommons.WaterTower.Utilization,已利用潛力：{0:0.#}%,-
+IgorZ.TimberCommons.WaterTower.Utilization,利用潛力：{0:0.#}%,-
 IgorZ.TimberCommons.WaterTower.IrrigatedArea,覆蓋面積：{0},-
 IgorZ.TimberCommons.WaterTower.EffectiveRange,有效範圍：{0},-
 IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,沒有可灌溉的可達磚塊,-
-IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,增長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
+IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,成長增長：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
 IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,增長放緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%,-
 IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,在溢洪道上方的深度關閉：{0},-
-IgorZ.TimberCommons.InjuryProbability,受傷概率：每小時{0},-
+IgorZ.TimberCommons.InjuryProbability,受傷機率：每小時 {0},-
 IgorZ.TimberCommons.Settings.TimeAndDurationSection,時間和持續時間表示法,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,顯示「供應持續時間」為天/小時,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,顯示「供應剩餘」的天數/小時數,-
 IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,顯示生長時間為天/小時,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,將食譜時間顯示為天/小時,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,顯示食譜燃料消耗的更高精度,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,顯示食譜時間為天/小時,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,顯示配方燃料消耗的更高精度,-
 IgorZ.TimberCommons.Settings.IrrigationSystemSection,灌溉系統,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,顯示灌溉的磁磚以及保持濕潤的磁磚,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,指定瓷磚是否應該看起來閃亮的綠色（滋潤良好）。否則，默認邏輯會顯示它們為“幾乎沒有滋潤”，因為灌溉塔僅提供基本的水分水平。,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,顯示灌溉的瓷磚以及保濕的瓷磚,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,指定瓷磚是否應該呈現閃亮的綠色（潤澤良好）。否則，系統的邏輯將顯示它們為「幾乎沒有滋潤」，因為灌溉塔僅提供基本的水分水平。,-
 IgorZ.TimberCommons.Settings.WaterBuildingsSection,水上建築,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,允許在機械泵的溢洪道設置最高水位。,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,允許在液滴溢洪道設置最大水位。,-
-IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,顯示水閘的當前流量強度,-
-IgorZ.TimberCommons.Settings.InjuryProbabilitySection,受傷概率,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,在右側面板顯示受傷的機率,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,在建築物的虛擬形象上顯示指標,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,允許設定機械泵的溢流口最大水位,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,允許在液滴溢流口設置最大水位。,-
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,顯示排水口的當前強度,-
+IgorZ.TimberCommons.Settings.InjuryProbabilitySection,受傷機率,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,在右側面板顯示受傷概率,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,在建築物的化身上顯示指標,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,將滑鼠懸停在指標上以查看受傷機率,-
-IgorZ.TimberCommons.Settings.DebugSection,除錯和故障排除,-
+IgorZ.TimberCommons.Settings.DebugSection,調試和故障排除,-
 IgorZ.TimberCommons.Settings.Debug.VerboseLogging,詳細日誌記錄,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,日誌將包含更多有用的細節，但這可能會影響遊戲性能。,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,日誌將包含更多有用的細節，但可能會影響遊戲性能。,-

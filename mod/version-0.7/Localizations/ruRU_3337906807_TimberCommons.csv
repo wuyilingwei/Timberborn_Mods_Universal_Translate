@@ -1,28 +1,28 @@
 ID,Text,Comment
 IgorZ.TimberCommons.WaterTower.Utilization,Использованный потенциал: {0:0.#}%,-
-IgorZ.TimberCommons.WaterTower.IrrigatedArea,Площадь покрытия: {0},-
+IgorZ.TimberCommons.WaterTower.IrrigatedArea,Заслуживаемая площадь: {0},-
 IgorZ.TimberCommons.WaterTower.EffectiveRange,Эффективный диапазон: {0},-
 IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate,Нет доступных плиток для орошения,-
 IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile,Увеличение роста: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%,-
 IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile,Замедление роста: <RedHighlight>🡇</RedHighlight>{0:0.#}%,-
-IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,Закрыть выше уровня на водосбросе: {0},-
+IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream,Закрыть над уровнем воды на водосливе: {0},-
 IgorZ.TimberCommons.InjuryProbability,Вероятность травмы: {0} каждый час,-
 IgorZ.TimberCommons.Settings.TimeAndDurationSection,Представление времени и продолжительности,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,Показать 'осталось запасов' в днях/часах,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,Покажите время роста в днях/часах.,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,Покажите время приготовления рецептов в днях/часах.,-
-IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,Покажите потребление топлива по рецепту с большей точностью.,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft,"Покажите ""доступные запасы"" в днях/часах",-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime,Показать время роста в днях/часах,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration,Отображайте время рецептов в днях/часах.,-
+IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes,Показать расход топлива рецепта с более высокой точностью.,-
 IgorZ.TimberCommons.Settings.IrrigationSystemSection,Система орошения,-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,"Покажите орошаемые плитки, а также увлажненные.",-
-IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,"Указывает, должны ли плитки выглядеть блестящими зелеными (хорошо увлажненными). В противном случае стандартная логика покажет их как «едва увлажненные», так как башни орошения обеспечивают только базовый уровень влажности.",-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers,Покажите орошаемые плитки как хорошо увлажненные.,-
+IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip,"Указывает, должны ли плитки выглядеть блестящими зелеными (хорошо увлажненными). В противном случае стандартная логика покажет их как 'едва увлажненные', так как башни орошения дают только базовый уровень влаги.",-
 IgorZ.TimberCommons.Settings.WaterBuildingsSection,Водные здания,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,Разрешите устанавливать максимальный уровень воды на водосливе механических насосов.,-
-IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,Позвольте установить максимальный уровень воды на водосливе жидких капель.,-
-IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,Покажите текущее усилие в шлюзе.,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps,Разрешить установку максимального уровня воды на водосливе механических насосов.,-
+IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps,Позвольте установить максимальный уровень воды на водосливе капель жидкости.,-
+IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice,Покажите текущую силу в затворе.,-
 IgorZ.TimberCommons.Settings.InjuryProbabilitySection,Вероятность травмы,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment,Показать вероятность травмы в правой панели,-
 IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint,Покажите индикатор на аватаре здания.,-
-IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,"Наведите курсор на индикатор, чтобы увидеть вероятность травмы.",-
-IgorZ.TimberCommons.Settings.DebugSection,Отладка и устранение неполадок,-
-IgorZ.TimberCommons.Settings.Debug.VerboseLogging,Подробное ведение журнала,-
+IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip,"Наведите курсор на индикатор, чтобы увидеть вероятность травмы",-
+IgorZ.TimberCommons.Settings.DebugSection,Отладка и устранение неисправностей,-
+IgorZ.TimberCommons.Settings.Debug.VerboseLogging,Подробный журнал регистрации,-
 IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip,"Логи будут содержать более полезные детали, но это может повлиять на производительность игры.",-

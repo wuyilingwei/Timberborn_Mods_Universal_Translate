@@ -1,7 +1,71 @@
 ID,Text,Comment
-TerrainTools.ToolGroupButton,エクストラテレインツール,-
-TerrainTools.Keybinding.Undo,地形ツール - 元に戻す,-
-TerrainTools.Keybinding.FastUndo,地形ツール - 元に戻す x 5,-
-TerrainTools.Keybinding.Redo,地形ツール - やり直し,-
-TerrainTools.Keybinding.FastRedo,地形ツール - やり直し x 5,-
-TerrainTools.Keybinding.CycleMode,地形ツール - サイクルモード,-
+TerrainTools.ToolGroupButton.Label,エクストラ地形ツール,-
+TerrainTools.KeyBindingGroup.Label,地形ツール,-
+TerrainTools.Keybinding.Undo,元に戻す,-
+TerrainTools.Keybinding.FastUndo,元に戻す x 5,-
+TerrainTools.Keybinding.Redo,やり直す,-
+TerrainTools.Keybinding.FastRedo,やり直し x 5,-
+TerrainTools.Keybinding.CycleMode,サイクルモード,-
+TerrainTools.Common.Button.Apply,適用する,-
+TerrainTools.Common.Button.Reset,リセット,-
+TerrainTools.Heightmap.Tool.Title,ハイトマップジェネレーター,-
+TerrainTools.Heightmap.Tool.Warning,変更は全体のマップに影響します。,-
+TerrainTools.Heightmap.Button.Generate,生成する,-
+TerrainTools.Heightmap.Checkbox.ClearObjects,既存のオブジェクトを削除する,-
+TerrainTools.Heightmap.Generate.Hint,{0}をクリックして地形を更新します。,-
+TerrainTools.Heightmap.Generate.Warning,{0}は削除されます。この操作は元に戻せません。,-
+TerrainTools.Heightmap.Clear.WaterSourcesOnly,すべての水源,-
+TerrainTools.Heightmap.Clear.All,すべてのオブジェクト,-
+TerrainTools.Heightmap.Status.Idle,アイドル,-
+TerrainTools.Heightmap.Status.Generating,生成中,-
+TerrainTools.Heightmap.Seed.Label,種子,-
+TerrainTools.Heightmap.Seed.Lock.Label,ロック,-
+TerrainTools.Heightmap.Slider.LOD,詳細レベル,-
+TerrainTools.Heightmap.Slider.Amplitude,振幅,-
+TerrainTools.Heightmap.Slider.Frequency,周波数,-
+TerrainTools.Heightmap.Slider.Crest,紋章の形状,-
+TerrainTools.Heightmap.Slider.Base,基本形状,-
+TerrainTools.Heightmap.Slider.Mean,平均身長,-
+TerrainTools.Heightmap.Slider.Min,最小高さ,-
+TerrainTools.Heightmap.Slider.Max,最大高さ,-
+TerrainTools.Heightmap.Slider.PeriodX,期間X,-
+TerrainTools.Heightmap.Slider.PeriodY,期間Y,-
+TerrainTools.PathPainter.Tool.Title,パスペインター,-
+TerrainTools.PathPainter.Tool.Description,ラインを使って地形を調整する,-
+TerrainTools.PathPainter.Tip.AddMove,{0} = ポイントを追加または移動する,-
+TerrainTools.PathPainter.Tip.DeleteHovered,{0} = ホバーされたポイントを削除する,-
+TerrainTools.PathPainter.Tip.DeleteMultiple,{0}（ホールド）= ポイントを削除,-
+TerrainTools.PathPainter.Curve.Button.Line,ライン,-
+TerrainTools.PathPainter.Curve.Button.3Points,3ポイント,-
+TerrainTools.PathPainter.Curve.Button.4Points,4ポイント,-
+TerrainTools.PathPainter.Curve.Button.Continuous,継続的な,-
+TerrainTools.PathPainter.Curve.Toggle.SingleSegment,シングルセグメント,-
+TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps,滑らかな端,-
+TerrainTools.PathPainter.Curve.Slider.Distance,距離,-
+TerrainTools.PathPainter.ToggleText.Symmetry,対称性,-
+TerrainTools.PathPainter.ToggleText.Symmetry.On,有効化された,-
+TerrainTools.PathPainter.ToggleText.Symmetry.Off,無効な,-
+TerrainTools.PathPainter.Button.ClearAll,クリアな道,-
+TerrainTools.Smoothing.Tool.Title,スムージングブラシ,-
+TerrainTools.Smoothing.Slider.Brush.Size,ブラシのサイズ,-
+TerrainTools.Smoothing.Slider.Sample.Size,サンプルサイズ,-
+TerrainTools.Smoothing.Slider.Force,力,-
+TerrainTools.Smoothing.ToggleGroup.Shape,ブラシの形状,-
+TerrainTools.Smoothing.Shape.Square,正方形,-
+TerrainTools.Smoothing.Shape.Circle,サークル,-
+TerrainTools.MoundMaker.Tool.Title, mound maker ,-
+TerrainTools.MoundMaker.Hint.CycleSeed,{0} = サイクルシード,-
+TerrainTools.MoundMaker.Hint.DigMode,{0}（ホールド）= 掘削モード,-
+TerrainTools.MoundMaker.Header.Shape,形状,-
+TerrainTools.MoundMaker.Slider.PeakHeight,ピークの高さ,-
+TerrainTools.MoundMaker.Slider.MaxChange,最大の変更,-
+TerrainTools.MoundMaker.Header.RadialNoise,ラジアルノイズ,-
+TerrainTools.MoundMaker.Slider.Radial.Scale,スケール,-
+TerrainTools.MoundMaker.Slider.Radial.Frequency,周波数,-
+TerrainTools.MoundMaker.Slider.Radial.Detail,詳細,-
+TerrainTools.MoundMaker.Header.VerticalNoise,垂直ノイズ,-
+TerrainTools.MoundMaker.Slider.Vertical.Amplitude,振幅,-
+TerrainTools.MoundMaker.Slider.Vertical.Frequency,周波数,-
+TerrainTools.MoundMaker.Slider.Vertical.Detail,詳細,-
+TerrainTools.MoundMaker.Checkbox.Randomize,ランダム化する,-
+TerrainTools.MoundMaker.Seed.Label,種子,-
