@@ -6,22 +6,22 @@ zhCN = "枯树优先级"
 ["cutdeadtreesfirst.settings.mode.tooltip"]
 raw = "Determines how dead trees are prioritized for cutting"
 enUS = "Determines how dead trees are prioritized for cutting"
-zhCN = "设置已死亡树木的砍伐优先级。"
+zhCN = "设置已死亡树木的砍伐优先级。<br>- 默认：无特定优先级<br>- 标记：优先砍伐，但仅限砍伐区域内<br>- 扩展：优先砍伐，且无需标记区域"
 
 ["cutdeadtreesfirst.settings.mode.off"]
 raw = "Off"
 enUS = "Off"
-zhCN = "游戏默认"
+zhCN = "默认"
 
 ["cutdeadtreesfirst.settings.mode.designatedonly"]
 raw = "Designated Only"
 enUS = "Designated Only"
-zhCN = "优先（需标记）"
+zhCN = "标记"
 
 ["cutdeadtreesfirst.settings.mode.expanded"]
 raw = "Expanded"
 enUS = "Expanded"
-zhCN = "优先（无需标记）"
+zhCN = "扩展"
 
 ["cutdeadtreesfirst.settings.species"]
 raw = "Tree Species Priority"
@@ -31,22 +31,22 @@ zhCN = "树种优先级"
 ["cutdeadtreesfirst.settings.species.tooltip"]
 raw = "Prioritize specific tree species (dead trees always have highest priority)"
 enUS = "Prioritize specific tree species (dead trees always have highest priority)"
-zhCN = "设置树种的砍伐优先级，已死亡树木除外。"
+zhCN = "设置树种的砍伐优先级，已死亡树木除外。<br>- 默认：无特定优先级<br>- 橡树/桦树/橡树和桦树：优先砍伐对应树种，但仅限砍伐区域内"
 
 ["cutdeadtreesfirst.settings.species.none"]
 raw = "None"
 enUS = "None"
-zhCN = "游戏默认"
+zhCN = "默认"
 
 ["cutdeadtreesfirst.settings.species.oak"]
 raw = "Oak Trees"
 enUS = "Oak Trees"
-zhCN = "橡树优先"
+zhCN = "橡树"
 
 ["cutdeadtreesfirst.settings.species.birch"]
 raw = "Birch Trees"
 enUS = "Birch Trees"
-zhCN = "桦树优先"
+zhCN = "桦树"
 
 ["cutdeadtreesfirst.settings.species.oakandbirch"]
 raw = "Oak & Birch Trees"

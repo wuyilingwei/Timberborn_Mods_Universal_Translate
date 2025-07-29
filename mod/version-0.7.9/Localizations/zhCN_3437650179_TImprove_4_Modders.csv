@@ -1,6 +1,6 @@
 ID,Text,Comment
 LV.TIMod.SwapBuildFinishedModifier,反转建造完成按键方式,-
-LV.TIMod.SwapBuildFinishedModifierDesc,勾选后，反转开发者模式下 Ctrl 键的功能（游戏默认：否，即按住Ctrl放置建筑时会自动完成，逆转后不按住才会自动完成）。,-
+LV.TIMod.SwapBuildFinishedModifierDesc,勾选后，反转开发者模式下Ctrl键的功能（游戏默认：否，即按住Ctrl放置建筑时会自动完成，逆转后不按住才会自动完成）。,-
 LV.TIMod.NoClearDevFilter,不重置开发者模式过滤器,-
 LV.TIMod.NoClearDevFilterDesc,勾选后，在调用或从收藏中添加/移除过滤器时不重置开发者模式过滤器。,-
 Modding.ThumbnailInfo,如果勾选了“选择上传缩略图”选项，点击刷新以选择模组缩略图。,-
@@ -14,7 +14,7 @@ LV.TIMod.BetterResetLoadOrder,模组排序优化,-
 LV.TIMod.BetterResetLoadOrderDesc,勾选后，“重置加载顺序”会根据模组的启用状态、名称来排序，然后将依赖项排在上面。上传模组时，启用的模组会排在上面。,-
 LV.TIMod.NoExitSave,无保存退出,-
 LV.TIMod.NoExitSaveDesc,勾选后，退出游戏时不进行自动保存。,-
-LV.TIMod.QuickQuit,启用快速退出 (!),-
-LV.TIMod.QuickQuitDesc,勾选后，按下 Ctrl+Shift+Q 时快速退出游戏。此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
-LV.TIMod.QuickRestart,启用快速重启 (!),-
-LV.TIMod.QuickRestartDesc,勾选后，按下 Ctrl+Shift+R 时快速重启游戏。此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
+LV.TIMod.QuickQuit,启用快速退出,-
+LV.TIMod.QuickQuitDesc,勾选后，可以通过按下快捷键（Ctrl+Shift+Q）快速退出游戏。<br>注意，此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-
+LV.TIMod.QuickRestart,启用快速重启,-
+LV.TIMod.QuickRestartDesc,勾选后，可以通过按下快捷键（Ctrl+Shift+R）快速重启游戏。<br>注意，此选项使用“Process.Kill()”关闭进程，因此不会自动存档。,-

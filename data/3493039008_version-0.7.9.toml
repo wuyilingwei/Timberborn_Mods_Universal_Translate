@@ -26,7 +26,7 @@ zhCN = "启用{0}"
 ["LV.MW.EnableWeatherDesc"]
 raw = "Enable {0} weather"
 enUS = "Enable {0} weather"
-zhCN = "勾选后，天气中可能出现{0}。"
+zhCN = "勾选后，天气中可能出现{0}。<br>- 温和天气/干旱期/恶水潮：与游戏默认天气一致<br>- 细雨天气：属于温和类天气，所有土地都被灌溉<br>- 递减温和天气：属于温和类天气，但持续时间随周期变短<br>- 间歇天气：属于温和类天气，但持续时间非常短暂<br>- 洪涝期：属于恶劣类天气，所有水源的水力都会增大<br>- 净水潮：属于恶劣类天气，但所有水源都出净水<br>- 血汛潮：属于恶劣类天气，所有水源都出恶水，且水力增大（需要模组“Redsurge”）"
 
 ["LV.MW.StartCycle"]
 raw = "{0} start cycle"
@@ -201,4 +201,4 @@ zhCN = "单一温和类天气概率"
 ["LV.MW.SWTemperateChanceDesc"]
 raw = "The chance of single weather being temperate when single weather occurs"
 enUS = "The chance of single weather being temperate when single weather occurs"
-zhCN = "单一天气模式发生时，出现温和类天气的概率。<br>温和类天气：温和天气/递减温和天气、细雨天气、间歇天气<br>恶劣类天气：干旱期、恶水潮、洪涝期、净水潮<br>注意，这里的温和类天气与恶劣类天气的概率之和为100。"
+zhCN = "单一天气模式发生时，出现温和类天气的概率。<br>注意，这里的温和类天气与恶劣类天气相对，概率之和为100。"

@@ -4,7 +4,7 @@ LV.MW.WeatherEnd,{0}已结束,-
 LV.MW.WeatherApproaching,{0}即将到来,-
 LV.MW.WeatherInProgress,{0}正在发生,-
 LV.MW.EnableWeather,启用{0},-
-LV.MW.EnableWeatherDesc,勾选后，天气中可能出现{0}。,-
+LV.MW.EnableWeatherDesc,勾选后，天气中可能出现{0}。<br>- 温和天气/干旱期/恶水潮：与游戏默认天气一致<br>- 细雨天气：属于温和类天气，所有土地都被灌溉<br>- 递减温和天气：属于温和类天气，但持续时间随周期变短<br>- 间歇天气：属于温和类天气，但持续时间非常短暂<br>- 洪涝期：属于恶劣类天气，所有水源的水力都会增大<br>- 净水潮：属于恶劣类天气，但所有水源都出净水<br>- 血汛潮：属于恶劣类天气，所有水源都出恶水，且水力增大（需要模组“Redsurge”）,-
 LV.MW.StartCycle,{0}起始周期,-
 LV.MW.StartCycleDesc,{0}可能发生的最小周期。,-
 LV.MW.Chance,{0}概率,-
@@ -25,7 +25,7 @@ LV.MW.SurprisinglyRefreshing,净水潮,-
 LV.MW.RainEffect,启用细雨效果,-
 LV.MW.RainEffectDesc,勾选后，细雨天气时会显示降雨效果。,-
 LV.MW.MonsoonMultiplier,洪涝期额外水力倍率,-
-LV.MW.MonsoonMultiplierDesc,洪涝期时水源的额外水力倍率，即水源的水力会变为“水力×(基础倍率+额外倍率)”。<br>注意，此数值受天气初始强度值、适应周期数影响。,-
+LV.MW.MonsoonMultiplierDesc,洪涝期时水源的额外水力倍率，即水源的水力会变为“水力×(1+额外倍率)”。<br>注意，此数值受天气初始强度值、适应周期数影响。,-
 LV.MW.Profiles,预设配置,-
 LV.MW.ProfilesDesc,导入/导出模组的天气参数配置。,-
 LV.MW.ProfileImport,导入配置,-
@@ -39,4 +39,4 @@ LV.MW.SWStartCycleDesc,单一天气模式可能发生的最小周期。,-
 LV.MW.SWChance,单一天气概率,-
 LV.MW.SWChanceDesc,单一天气模式可能发生的概率。,-
 LV.MW.SWTemperateChance,单一温和类天气概率,-
-LV.MW.SWTemperateChanceDesc,单一天气模式发生时，出现温和类天气的概率。<br>温和类天气：温和天气/递减温和天气、细雨天气、间歇天气<br>恶劣类天气：干旱期、恶水潮、洪涝期、净水潮<br>注意，这里的温和类天气与恶劣类天气的概率之和为100。,-
+LV.MW.SWTemperateChanceDesc,单一天气模式发生时，出现温和类天气的概率。<br>注意，这里的温和类天气与恶劣类天气相对，概率之和为100。,-
