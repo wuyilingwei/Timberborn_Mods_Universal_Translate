@@ -1,0 +1,63 @@
+ID,Text,Comment
+Floodgate.Triggers.EnableOnDroughtStarted,"Установите высоту, когда начинается засуха.",-
+Floodgate.Triggers.EnableOnDroughtEnded,"Установите высоту, когда заканчивается засуха.",-
+Floodgate.Schedule.Enable,Установите высоту по расписанию,-
+Floodgate.Schedule.DisableOnDrought,Отключить график во время засухи,-
+Floodgate.Schedule.DisableOnTemperate,Отключить расписание во время переходных периодов,-
+Floodgate.Triggers.Time,Время,-
+Floodgate.Triggers.Height,Рост,-
+Floodgate.Triggers.Basic,Основной,-
+Floodgate.Triggers.Timer,Таймер,-
+Floodgate.Triggers.Advanced,Расширенный,-
+Floodgate.Triggers.AttachToStreamGauge,Прикрепить потоковый датчик,-
+Floodgate.Triggers.PickStreamGaugeTitle,Выберите ручной измеритель потока,-
+Floodgate.Triggers.PickStreamGaugeTip,"На самом деле, выбирай любой.",-
+Floodgates.Triggers.NoLinks,Нет прикрепленных измерителей потока,-
+Floodgates.Triggers.NoFloodgateLinks,Нет связанных объектов,-
+Floodgates.Triggers.LinkedFloodgates,Связанные объекты,-
+Floodgates.Triggers.Threshold1,Нижний порог потока,-
+Floodgates.Triggers.Threshold2,Пороговое значение высокого уровня потока,-
+Floodgates.Triggers.HeightWhenBelowThreshold1,Высота затвора ниже низкого порога,-
+Floodgates.Triggers.HeightWhenAboveThreshold2,Высота затвора над высоким порогом,-
+Floodgate.Triggers.PauseOnDroughtStart,"Приостановитесь, когда начинается засуха.",-
+Floodgate.Triggers.UnpauseOnDroughtStart,"Возобновить, когда начнется засуха.",-
+Floodgate.Triggers.UnpauseOnTemperateStart,"Возобновить, когда начнется температура",-
+Floodgate.Triggers.PauseOnTemperateStart,"Пауза, когда начинается температура",-
+Floodgates.WaterpumpTrigger.Threshold1,Пауза <,-
+Floodgates.WaterpumpTrigger.Threshold2,Пауза >,-
+Floodgates.WaterpumpTrigger.Threshold3,Возобновить,-
+Floodgates.WaterpumpTrigger.Threshold4,Продолжить >,-
+Floodgates.WaterpumpTrigger.PauseStartTime,Пауза на,-
+Floodgates.WaterpumpTrigger.ResumeStartTime,Резюме на,-
+Floodgates.WaterpumpTrigger.DisableDuringDrought,Отключить во время засухи,-
+Floodgates.WaterpumpTrigger.DisableDuringTemperate,Отключить во время умеренного климата,-
+Floodgate.Triggers.PauseOnSchedule,Пауза по расписанию,-
+Floodgate.Triggers.EnableOnBadtideStarted,"Установите высоту, когда начинается прилив.",-
+Floodgate.Triggers.EnableOnBadtideEnded,"Установите высоту, когда плохой отлив закончится.",-
+Floodgate.Schedule.DisableOnBadtide,Отключить расписание во время плохого прилива.,-
+Floodgates.WaterpumpTrigger.DisableDuringBadtide,Отключить во время плохого прилива,-
+Floodgate.Triggers.PauseOnBadtideStart,"Приостановите, когда начинается плохая волна.",-
+Floodgate.Triggers.UnpauseOnBadtideStart,"Разблокируйте, когда начинается плохое течение.",-
+Floodgates.Triggers.ContaminationThresholdLow,Низкий порог загрязнения,-
+Floodgates.Triggers.ContaminationThresholdHigh,Высокий порог загрязнения,-
+Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow,Установить высоту ниже низкого уровня загрязнения,-
+Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh,Установите высоту над высоким уровнем загрязнения,-
+Floodgates.Triggers.Depth,Глубина,-
+Floodgates.Triggers.Contamination,Загрязнение,-
+Floodgates.WaterSourceRegulator.Threshold1,Закрыть <,-
+Floodgates.WaterSourceRegulator.Threshold2,Закрыть >,-
+Floodgates.WaterSourceRegulator.Threshold3,Открыть <,-
+Floodgates.WaterSourceRegulator.Threshold4,Открыть >,-
+Floodgates.WaterSourceRegulator.CloseStartTime,Закрыто в,-
+Floodgates.WaterSourceRegulator.OpenStartTime,Открыть в,-
+Floodgates.WaterSourceRegulator.DisableDuringDrought,Отключить в период засухи,-
+Floodgates.WaterSourceRegulator.DisableDuringTemperate,Отключить во время умеренного климата,-
+Floodgate.WaterSourceRegulator.CloseOnDroughtStart,"Закройте, когда начинается засуха.",-
+Floodgate.WaterSourceRegulator.OpenOnDroughtStart,"Откройте, когда начинается засуха",-
+Floodgate.WaterSourceRegulator.OpenOnTemperateStart,"Откройте, когда начнется теплая погода",-
+Floodgate.WaterSourceRegulator.CloseOnTemperateStart,"Закройте, когда начнется температура.",-
+Floodgate.WaterSourceRegulator.OpenOnBadtideStart,"Откройте, когда начнется плохой прилив.",-
+Floodgate.WaterSourceRegulator.CloseOnBadtideStart,"Закройте, когда начнется плохой прилив.",-
+Floodgate.Schedule.CloseOnSchedule,Закрытие/открытие по расписанию,-
+Floodgates.WaterSourceRegulator.DisableDuringBadtide,Отключить во время плохой отливки,-
+Floodgates.Triggers.Empty,Error,-

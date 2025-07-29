@@ -1,0 +1,43 @@
+ID,Text,Comment
+LV.WSP.WeatherGroup,Clima,-
+LV.WSP.WeatherGroupDesc,Projetos científicos relacionados ao clima e previsão do tempo.,-
+LV.WSP.Ext1,Totem do Galesniffer,-
+LV.WSP.Ext1Desc,Avisos de mau tempo chegam {0:+#} dia antes.,-
+LV.WSP.Ext1Lore,Um mastro simples onde seus castores podem 'sentir' o vento para dicas precoces sobre o tempo.,-
+LV.WSP.Ext2,Relógio do Tecelão de Névoa,-
+LV.WSP.Ext2Desc,Avisos de mau tempo chegam {0:+#} dia antes.,-
+LV.WSP.Ext2Lore,Um mostrador que pode prever o tempo com base na umidade e na pressão do ar.,-
+LV.WSP.Ext3,Pico do Thunderhub,-
+LV.WSP.Ext3Desc,Os avisos de mau tempo chegam {0:+#} dia(s) antes por Nível.,-
+LV.WSP.Ext3Lore,Uma torre alta que pode detectar a carga elétrica no ar.,-
+LV.WSP.PrewarningCost,[Custo] por Nível nos dias de pré-aviso. 0 em todos os outros dias.,-
+LV.WSP.Pred1,Previsão do Tempo,-
+LV.WSP.Pred1Desc,Prevê o mau tempo deste ciclo. A precisão começa em {0:#%} no primeiro dia e aumenta em {1:+#%} a cada dia.,-
+LV.WSP.Pred1Lore,"Os castores consultam as nuvens e os ventos, suas previsões se tornando mais precisas à medida que os dias passam.",-
+LV.WSP.Pred2,Precisão Estrelada,-
+LV.WSP.Pred2Desc,A previsão do tempo agora começa com uma precisão adicional de {0:+#%} no primeiro dia do ciclo.,-
+LV.WSP.Pred2Lore,"""As estrelas não mentem — se você souber como perguntar!"" — Blink o Observador de Estrelas",-
+LV.WSP.Pred3,Análise Hidrológica,-
+LV.WSP.Pred3Desc,Adicione {1:+#%} de precisão por nível à previsão do tempo todos os dias.,-
+LV.WSP.Pred3Lore,"Ao estudar a maré e o fluxo, os castores aprimoram suas previsões do tempo diariamente.",-
+LV.WSP.IncreaseStr,Conduíte do Flowmaster,-
+LV.WSP.IncreaseStrDesc,Permitir que você aumente a força das fontes de água.,-
+LV.WSP.IncreaseStrLore,"'Mais água, mais potência — simples assim!' — Riverchew Flowmaster",-
+LV.WSP.IncreaseStrFresh,Aumentar as fontes de água doce,-
+LV.WSP.IncreaseStrFreshDesc,Aumente a Força de todas as fontes de água doce (incluindo durante as Marés Baixas) em {0:+#%} por Nível.,-
+LV.WSP.IncreaseStrBad,Aumentar fontes de água contaminada,-
+LV.WSP.IncreaseStrBadDesc,Aumente a Força de todas as fontes de água ruins em {0:+#%} por Nível,-
+LV.WSP.DecreaseStr,Portal do Tidebreaker,-
+LV.WSP.DecreaseStrDesc,Permitir que você diminua a força das fontes de água.,-
+LV.WSP.DecreaseStrLore,"""Às vezes você precisa domar o rio, não montá-lo."" — Stillwater Tidebreaker",-
+LV.WSP.DecreaseStrFresh,Diminuir fontes de água doce,-
+LV.WSP.DecreaseStrFreshDesc,Diminua a Força de todas as fontes de água doce em {0:;#%} por Nível,-
+LV.WSP.DecreaseStrBad,Diminuir fontes de água ruins,-
+LV.WSP.DecreaseStrBadDesc,Diminua a Força de todas as fontes de água ruim em {0:#%} por Nível.,-
+LV.WSP.StrCostFresh,"[Custo] por fonte de água doce. Fontes inativas não contam (por exemplo, durante a seca)",-
+LV.WSP.StrCostBad,"[Custo] por fonte de água ruim. Fontes inativas não contam (por exemplo, durante secas ou aquelas seladas)",-
+LV.WSP.ForecastText,"{0:#%} {1}, dura {2}-{3}d",-
+LV.WSP.Forecast1DayText,"{0:#%} {1}, dura {2}d",-
+LV.WSP.DecreaseStrBuffDesc,"Uma maravilha da engenharia dos castores, este portão doma os rios mais selvagens, acalmando seu fluxo para proteger nossas terras.",-
+LV.WSP.IncreaseStrBuffDesc,"Canalizando o poder da natureza, este conduto libera um jorro de água, moldando rios à nossa vontade.",-
+LV.WSP.StrBuffEffect,{0:+#%;-#%;0%} Força,-

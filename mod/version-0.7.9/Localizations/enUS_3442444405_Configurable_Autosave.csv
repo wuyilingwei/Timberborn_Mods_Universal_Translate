@@ -1,0 +1,13 @@
+ID,Text,Comment
+LV.CAS.Enabled,Enabled,-
+LV.CAS.EnabledDesc,Whether this mod is enabled.,-
+LV.CAS.SaveFrequency,Auto-save frequency (real-life minute),-
+LV.CAS.SaveFrequencyDesc,How often should auto-save be set? Game default: 10.,-
+LV.CAS.SaveCount,Auto-save count,-
+LV.CAS.SaveCountDesc,How many auto-saves should be kept? Game default: 3,-
+LV.CAS.SaveWeatherWarning,Extra savings on weather warning,-
+LV.CAS.SaveWeatherWarningDesc,"When a weather warning is issued, create an additional save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save does not count towards the save total.",-
+LV.CAS.KeyBindingTriggerAutosave,Trigger auto-save,-
+LV.CAS.AutosaveWarning,Warn before autosaving,-
+LV.CAS.AutosaveWarningDesc,Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering during autosave.,-
+LV.CAS.AutosaveWarningText,Autosave imminent in {0} seconds!,-
