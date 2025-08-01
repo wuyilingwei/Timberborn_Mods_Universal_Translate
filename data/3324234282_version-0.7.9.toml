@@ -1047,6 +1047,26 @@ deDE = "Wasserbedingungen"
 plPL = "Warunki wodne"
 ptBR = "Condições da água"
 
+["IgorZ.Automation.Scripting.Error.ValueOutOfRange"]
+raw = "ERROR: Value out of range"
+enUS = "ERROR: Value out of range"
+zhCN = "错误：数值超出范围"
+
+["IgorZ.Automation.Scripting.Error.DivisionByZero"]
+raw = "ERROR: Division by zero"
+enUS = "ERROR: Division by zero"
+zhCN = "错误：除数为零"
+
+["IgorZ.Automation.Scripting.Error.BadValue"]
+raw = "ERROR: Bad value"
+enUS = "ERROR: Bad value"
+zhCN = "错误：无效值"
+
+["IgorZ.Automation.Scripting.Error.InternalError"]
+raw = "ERROR: Internal error"
+enUS = "ERROR: Internal error"
+zhCN = "错误：内部错误"
+
 ["IgorZ.Automation.AutomationFragment.AddRulesBtn"]
 raw = "Add automation rules"
 enUS = "Add automation rules"
@@ -1169,6 +1189,11 @@ frFR = "écrire une chaîne dans les journaux : {0}"
 deDE = "schreibe eine Zeichenfolge in die Protokolle: {0}"
 plPL = "zapisz ciąg do dzienników: {0}"
 ptBR = "escreva uma string nos logs: {0}"
+
+["IgorZ.Automation.Scriptable.Debug.Signal.Ticker"]
+raw = "ticker"
+enUS = "ticker"
+zhCN = "计时器"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Beavers"]
 raw = "beavers in district"
@@ -1419,18 +1444,6 @@ frFR = "ERREUR D'ANALYSE"
 deDE = "PARSE FEHLER"
 plPL = "BŁĄD PARSE'OWANIA"
 ptBR = "ERRO DE ANÁLISE"
-
-["IgorZ.Automation.Scripting.Expressions.RuntimeError"]
-raw = "RUNTIME ERROR"
-enUS = "RUNTIME ERROR"
-zhCN = "运行错误"
-zhTW = "執行時錯誤"
-ruRU = "ОШИБКА ВЫПОЛНЕНИЯ"
-jaJP = "実行時エラー"
-frFR = "ERREUR D'EXÉCUTION"
-deDE = "Laufzeitfehler"
-plPL = "BŁĄD W CZASIE WYKONANIA"
-ptBR = "ERRO DE RUNTIME"
 
 ["IgorZ.Automation.Scripting.Editor.ActionLabel"]
 raw = "Then"
@@ -1825,6 +1838,16 @@ raw = "Log signal propagation"
 enUS = "Log signal propagation"
 zhCN = "记录信号传播"
 
+["IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad"]
+raw = "Re-evaluate rules on load"
+enUS = "Re-evaluate rules on load"
+zhCN = "加载时重新评估规则"
+
+["IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad"]
+raw = "Reset custom signals on load"
+enUS = "Reset custom signals on load"
+zhCN = "加载时重置自定义信号"
+
 ["IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton"]
 raw = "Always show 'Add rules' button"
 enUS = "Always show 'Add rules' button"
@@ -1854,6 +1877,36 @@ zhCN = "脚本"
 raw = "Pseudo-script"
 enUS = "Pseudo-script"
 zhCN = "伪脚本"
+
+["IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions"]
+raw = "Evaluate the right value in conditions"
+enUS = "Evaluate the right value in conditions"
+zhCN = "评估条件中的右侧值"
+
+["IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments"]
+raw = "Evaluate values in the action arguments"
+enUS = "Evaluate values in the action arguments"
+zhCN = "评估动作参数中的值"
+
+["IgorZ.Automation.Settings.ScriptEngine.Header"]
+raw = "Script engine settings"
+enUS = "Script engine settings"
+zhCN = "脚本引擎设置"
+
+["IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues"]
+raw = "Check argument value in runtime"
+enUS = "Check argument value in runtime"
+zhCN = "运行时检查参数值"
+
+["IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments"]
+raw = "Check arguments with fixed set of values"
+enUS = "Check arguments with fixed set of values"
+zhCN = "检查具有固定值集合的参数"
+
+["IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize"]
+raw = "Signal execution stack size"
+enUS = "Signal execution stack size"
+zhCN = "信号执行堆栈大小"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"

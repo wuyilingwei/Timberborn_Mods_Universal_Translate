@@ -119,21 +119,28 @@ plPL = "Zmieniona mapa zapisana. Czy chcesz załadować tę zapisaną wersję? U
 ptBR = "Mapa redimensionado salvo. Você deseja carregar essa gravação? Nota: continuar esta sessão provavelmente fará o jogo travar de qualquer maneira."
 
 ["LV.MRe.ResizeInvalidObj"]
-raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing?"
-enUS = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing?"
-zhCN = "检测到将被缩减的地图部分上存在物体，是否需要删除物体？注意，如果不删除，调整地图大小时可能会导致游戏崩溃。"
-zhTW = "在縮小地圖之前，請移除所有地圖外的物體，以防止崩潰？"
-ruRU = "За пределами карты появляются объекты после того, как вы уменьшаете ее. Удалите все эти объекты перед уменьшением, чтобы предотвратить сбой?"
-jaJP = "マップを縮小する前に、崩壊を防ぐためにその外にあるすべてのオブジェクトを削除してくださいか？"
-frFR = "Il y a des objets en dehors de la carte après l'avoir réduite. Supprimez tous ces objets avant de réduire pour éviter un plantage ?"
-deDE = "Es gibt Objekte außerhalb der Karte, nachdem du sie verkleinert hast. Entferne alle diese Objekte, bevor du verkleinerst, um Abstürze zu vermeiden."
-plPL = "Są obiekty poza mapą po jej zmniejszeniu. Usuń wszystkie te obiekty przed zmniejszeniem, aby zapobiec awarii."
-ptBR = "Existem objetos fora do mapa depois que você o encolhe. Remova todos esses objetos antes de encolher para evitar travamentos?"
+raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects, you need to come back here to resize again)"
+enUS = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects; you need to come back here to resize again.)"
+zhCN = "检测到将被缩减的地图部分上存在物体，是否需要先删除物体？注意，如果不删除，后续调整地图大小时可能会导致游戏崩溃。"
+zhTW = "在縮小地圖之前，請刪除所有地圖外的物體，以防止崩潰。（此操作僅會刪除物體，您需要返回此處再次調整大小）"
+ruRU = "Есть объекты за пределами карты после ее уменьшения. Удалите все эти объекты перед уменьшением, чтобы избежать сбоев? (Это действие только удалит объекты, вам нужно вернуться сюда, чтобы изменить размер снова)"
+jaJP = "マップを縮小した後に外にあるオブジェクトがあります。クラッシュを防ぐために、縮小する前にそれらのオブジェクトをすべて削除してください。このアクションはオブジェクトを削除するだけで、再度サイズ変更するためにはここに戻る必要があります。"
+frFR = "Il y a des objets en dehors de la carte après l'avoir réduite. Supprimez tous ces objets avant de réduire pour éviter un crash ? (Cette action ne fera que supprimer les objets, vous devrez revenir ici pour redimensionner à nouveau)"
+deDE = "Es gibt Objekte außerhalb der Karte, nachdem du sie verkleinert hast. Entferne alle diese Objekte, bevor du sie verkleinerst, um Abstürze zu vermeiden? (Diese Aktion entfernt nur die Objekte, du musst hierher zurückkommen, um erneut zu skalieren.)"
+plPL = "Są obiekty poza mapą po jej pomniejszeniu. Usuń wszystkie te obiekty przed pomniejszeniem, aby zapobiec awarii. (Ta czynność usunie tylko obiekty, musisz wrócić tutaj, aby ponownie zmienić rozmiar.)"
+ptBR = "Existem objetos fora do mapa depois que você o reduz. Remova todos esses objetos antes de reduzir para evitar uma falha? (Esta ação só removerá os objetos, você precisará voltar aqui para redimensionar novamente)"
 
 ["LV.MRe.SeeInvalidObj"]
 raw = "See invalid object"
 enUS = "See invalid object"
 zhCN = "查看阻碍物体"
+zhTW = "查看無效物件"
+ruRU = "Просмотр недействительного объекта"
+jaJP = "無効なオブジェクトを確認してください"
+frFR = "Voir objet invalide"
+deDE = "Siehe ungültiges Objekt"
+plPL = "Zobacz niezwiązaną (lub nieprawidłową) rzecz"
+ptBR = "Veja objeto inválido"
 
 ["LV.MRe.AutoRemove"]
 raw = "Remove them all"

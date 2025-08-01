@@ -94,6 +94,10 @@ IgorZ.Automation.ToolGroup.Signals.DisplayName,信号自动化,-
 IgorZ.Automation.ToolGroup.Storage.DisplayName,库存自动化,-
 IgorZ.Automation.ToolGroup.Terrain.DisplayName,炸弹自动化,-
 IgorZ.Automation.ToolGroup.Water.DisplayName,建筑和闸门自动化,-
+IgorZ.Automation.Scripting.Error.ValueOutOfRange,错误：数值超出范围,-
+IgorZ.Automation.Scripting.Error.DivisionByZero,错误：除数为零,-
+IgorZ.Automation.Scripting.Error.BadValue,错误：无效值,-
+IgorZ.Automation.Scripting.Error.InternalError,错误：内部错误,-
 IgorZ.Automation.AutomationFragment.AddRulesBtn,添加自动化规则,-
 IgorZ.Automation.AutomationFragment.CopyRulesBtn,复制规则,-
 IgorZ.Automation.AutomationFragment.EditRulesBtn,编辑规则,-
@@ -106,6 +110,7 @@ IgorZ.Automation.Scriptable.Constructable.Signal.State,建造状态,-
 IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished,已完成,-
 IgorZ.Automation.Scriptable.Debug.Action.LogNum,将数字写入日志：{0},-
 IgorZ.Automation.Scriptable.Debug.Action.LogStr,将字符串写入日志：{0},-
+IgorZ.Automation.Scriptable.Debug.Signal.Ticker,计数器,-
 IgorZ.Automation.Scriptable.District.Signal.Beavers,地区海狸数量,-
 IgorZ.Automation.Scriptable.District.Signal.Bots,地区机关人数量,-
 IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds,地区床位数,-
@@ -135,7 +140,6 @@ IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers,分配 {0} 名劳工,-
 IgorZ.Automation.Scripting.Expressions.AndOperator,且,-
 IgorZ.Automation.Scripting.Expressions.OrOperator,或,-
 IgorZ.Automation.Scripting.Expressions.ParseError,解析错误,-
-IgorZ.Automation.Scripting.Expressions.RuntimeError,运行错误,-
 IgorZ.Automation.Scripting.Editor.ActionLabel,那么,-
 IgorZ.Automation.Scripting.Editor.ActionMustBeAction,动作必须是'act'操作符,-
 IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn,通过添加脚本创建规则,-
@@ -181,12 +185,20 @@ IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment,未关闭的多�
 IgorZ.Automation.Settings.Debug.PathCheckingProfiling,记录路径检查引擎统计信息,-
 IgorZ.Automation.Settings.Debug.LogSignalSetting,记录设置信号值,-
 IgorZ.Automation.Settings.Debug.LogSignalPropagating,记录信号传播,-
+IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad,加载时重新评估规则,-
+IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad,加载时重置自定义信号,-
 IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton,始终显示“添加自动化规则”按钮,-
 IgorZ.Automation.Settings.EntityPanel.Header,建筑详情面板控件,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle,规则描述格式,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable,文本,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script,脚本,-
 IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort,伪脚本,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions,评估条件中的右侧值,-
+IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments,评估动作参数中的值,-
+IgorZ.Automation.Settings.ScriptEngine.Header,脚本引擎设置,-
+IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues,运行时检查参数值,-
+IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments,检查具有固定值集合的参数,-
+IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize,信号执行堆栈大小,-
 TimberDev_Utils.Settings.Debug.VerboseLogging,详细日志记录,-
 TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip,日志将包含更多有用细节，但可能会影响游戏性能。,-
 TimberDev_Utils.Settings.DebugSection,调试和故障排除,-
