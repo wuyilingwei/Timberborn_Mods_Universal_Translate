@@ -3,3 +3,13 @@ LV.MWSb.Skyblight,污尘期,-
 LV.MWSb.SkyblightStrength,污尘强度,-
 LV.MWSb.SkyblightStrengthDesc,污尘向水中散播污染的速度（模组默认：5‰/游戏刻，即每个游戏刻（0.6秒）约有千分之五的净水转变成恶水）。<br>注意，对于封闭的稳定水体，恶尘污染散播较快；对于开放的流动水体，散播速度较慢。,-
 LV.MWSb.Badrain,蚀雨期,-
+LV.MWSb.BadrainLimitMoisture,灌溉受阻,-
+LV.MWSb.BadrainLimitMoistureDesc,勾选后，蚀雨期发生时，土地更难被灌溉。,-
+LV.MWSb.BadrainMoistureRange,最大灌溉距离,-
+LV.MWSb.BadrainMoistureRangeDesc,蚀雨期发生时，土地的最大灌溉距离。,-
+LV.MWSb.BadrainContamination,污染侵蚀,-
+LV.MWSb.BadrainContaminationDesc,勾选后，蚀雨期发生时，土地会被周期性污染。,-
+LV.MWSb.BadrainContaminationDuration,污染持续时间,-
+LV.MWSb.BadrainContaminationDurationDesc,蚀雨期发生时，每次污染的持续时间（模组默认：0.01天，即0.24小时，但土地的污染会残留4小时，所以实际上是4.24小时，约0.17天）。,-
+LV.MWSb.BadrainClearDuration,污染间隔时间,-
+LV.MWSb.BadrainClearDurationDesc,蚀雨期发生时，污染的间隔时间（模组默认：0.5天，即12小时，但土地的污染会残留4小时，所以实际上是8小时，约0.33天）。,-
