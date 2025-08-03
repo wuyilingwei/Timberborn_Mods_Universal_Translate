@@ -46,6 +46,7 @@ LV.TI.Clock24,使用24小时制,-
 LV.TI.Clock24Desc,勾选后，启用“显示现实时间”时，使用24小时制。,-
 LV.TI.DisableShadowRotation,禁用阴影旋转,-
 LV.TI.DisableShadowRotationDesc,勾选后，将保持当前的阴影方向，不再随光照变化。,-
+LV.TI.AutoSpped,自动调速,-
 LV.TI.NewDayAction,日操作,-
 LV.TI.NewDayActionDesc,可以设置一天开始时是否执行操作。<br>- 默认：不执行任何操作<br>- 暂停：暂停游戏<br>- 速度1：将游戏速度设置为1倍速度,-
 LV.TI.NewDayActionNone,默认,-
@@ -55,3 +56,7 @@ LV.TI.NewDayAll,每天,-
 LV.TI.NewDayWarning,天气预警日,-
 LV.TI.NewDayHazard,恶劣天气开始日,-
 LV.TI.NewDayNewCycle,新周期开始日,-
+LV.TI.SpeedOnShiftEnd,下班操作,-
+LV.TI.SpeedOnShiftEndDesc,可以设置每天工作时间结束时是否执行操作。,-
+LV.TI.Nothing,无操作,-
+LV.TI.SetSpeed,设置为速度 {0} (x{1}),-

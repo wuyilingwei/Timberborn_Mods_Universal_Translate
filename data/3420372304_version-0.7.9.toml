@@ -534,6 +534,11 @@ deDE = "Dadurch werden die Schatten statisch und drehen sich nicht mit der Sonne
 plPL = "To sprawi, że cienie będą statyczne i nie będą obracać się wraz z słońcem."
 ptBR = "Isso fará com que as sombras sejam estáticas e não girem com o sol."
 
+["LV.TI.AutoSpeed"]
+raw = "Auto-speed"
+enUS = "Auto-speed"
+zhCN = "自动调速"
+
 ["LV.TI.NewDayAction"]
 raw = "On new day"
 enUS = "On new day"
@@ -641,3 +646,23 @@ frFR = "Lors des nouveaux jours de cycle"
 deDE = "An neuen Zyklustagen"
 plPL = "W nowych dniach cyklu"
 ptBR = "Nos dias de novo ciclo"
+
+["LV.TI.SpeedOnShiftEnd"]
+raw = "On Shift end"
+enUS = "On Shift end"
+zhCN = "下班操作"
+
+["LV.TI.SpeedOnShiftEndDesc"]
+raw = "Change the game speed when the shift (work) time ends every day"
+enUS = "Change the game speed when the shift (work) time ends every day"
+zhCN = "可以设置每天工作时间结束时是否执行操作。"
+
+["LV.TI.Nothing"]
+raw = "Do nothing"
+enUS = "Do nothing"
+zhCN = "无操作"
+
+["LV.TI.SetSpeed"]
+raw = "Set to speed {0} (x{1})"
+enUS = "Set to speed {0} (x{1})"
+zhCN = "设置为速度 {0} (x{1})"
