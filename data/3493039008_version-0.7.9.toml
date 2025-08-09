@@ -489,3 +489,43 @@ frFR = "La probabilité qu'une météo unique soit tempérée lorsqu'une météo
 deDE = "Die Wahrscheinlichkeit, dass das Wetter bei einem einzelnen Wetterereignis gemäßigt ist, wenn ein einzelnes Wetterereignis auftritt."
 plPL = "Szansa, że pojedyncza pogoda będzie umiarkowana, gdy wystąpi pojedyncza pogoda."
 ptBR = "A chance de o clima ser temperado quando o clima é único."
+
+["LV.MW.TemperateDesc"]
+raw = "The game default temperate weather, no effect."
+enUS = "The game default temperate weather, no effect."
+zhCN = "游戏默认的温和类天气，风和日丽，绿意盎然。<br>- 无特殊影响。"
+
+["LV.MW.DroughtDesc"]
+raw = "The game default hazardous drought weather, water sources stop producing water."
+enUS = "The game default hazardous drought weather, water sources stop producing water."
+zhCN = "游戏默认的恶劣类天气，干旱与酷热让河水断流，土地龟裂。<br>- 所有水源停止出水。"
+
+["LV.MW.BadtideDesc"]
+raw = "The game default hazardous bad tide weather, all water sources produce badwater."
+enUS = "The game default hazardous bad tide weather, all water sources produce badwater."
+zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的水源亦被污染。<br>- 所有水源都会流出恶水。"
+
+["LV.MW.RainDesc"]
+raw = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
+enUS = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
+zhCN = "模组扩展的温和类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。"
+
+["LV.MW.MonsoonDesc"]
+raw = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
+enUS = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
+zhCN = "模组扩展的恶劣类天气，洪水自河流上游奔涌而来，四处泛滥。<br>- 所有水源的水力都会额外增加250%（模组默认，可更改），但不超过游戏限制。"
+
+["LV.MW.ShortTemperateDesc"]
+raw = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
+enUS = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
+zhCN = "模组扩展的温和类天气，晴天转瞬即逝，预兆着连续的天灾。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
+
+["LV.MW.ProgressiveTemperateDesc"]
+raw = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
+enUS = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
+zhCN = "模组扩展的温和类天气，平静的日子逐渐缩短，那是气候变化的痕迹。<br>- 持续时间随周期变短（不建议与温和天气同时启用）。"
+
+["LV.MW.SurprisinglyRefreshingDesc"]
+raw = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
+enUS = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
+zhCN = "模组扩展的“恶劣类”天气，清水从恶水源流出，但只是一个恶劣的玩笑。<br>- 所有水源都会流出净水。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
