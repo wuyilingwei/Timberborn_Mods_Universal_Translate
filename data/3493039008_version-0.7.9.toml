@@ -61,7 +61,7 @@ ptBR = "Ativar o tempo {0}"
 ["LV.MW.EnableWeatherDesc"]
 raw = "Enable {0} weather"
 enUS = "Enable {0} weather"
-zhCN = "勾选后，天气中可能出现{0}。\n- 温和天气/干旱期/恶水潮：与游戏默认天气一致\n- 细雨天气：属于温和类天气，所有土地都被灌溉\n- 递减温和天气：属于温和类天气，但持续时间随周期变短\n- 间歇天气：属于温和类天气，但持续时间非常短暂\n- 洪涝期：属于恶劣类天气，所有水源的水力都会增大\n- 净水潮：属于恶劣类天气，但所有水源都出净水\n- 血汛潮：属于恶劣类天气，所有水源都出恶水，且水力增大（需在模组“Redsurge”中设置）\n- 污尘期：属于恶劣类天气，所有液体水会逐渐变成恶水（需在模组“Skyblight & Badrain Weather”中设置）\n- 蚀雨期：属于恶劣类天气，所有液体水会逐渐变成恶水，且土地也会受影响（需在模组“Skyblight & Badrain Weather”中设置）"
+zhCN = "勾选后，天气中可能出现{0}。"
 zhTW = "啟用{0}天氣"
 ruRU = "Включить погоду {0}"
 jaJP = "{0}の天気を有効にする"
@@ -508,7 +508,7 @@ zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的
 ["LV.MW.RainDesc"]
 raw = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
 enUS = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
-zhCN = "模组扩展的温和类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。"
+zhCN = "模组扩展的温和类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉，而且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。"
 
 ["LV.MW.MonsoonDesc"]
 raw = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
@@ -523,7 +523,7 @@ zhCN = "模组扩展的温和类天气，晴天转瞬即逝，预兆着连续的
 ["LV.MW.ProgressiveTemperateDesc"]
 raw = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
 enUS = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
-zhCN = "模组扩展的温和类天气，平静的日子逐渐缩短，那是气候变化的痕迹。<br>- 持续时间随周期变短（不建议与温和天气同时启用）。"
+zhCN = "模组扩展的温和类天气，平静的日子逐渐缩短，留下气候变化的痕迹。<br>- 持续时间随周期变短（不建议与温和天气同时启用）。"
 
 ["LV.MW.SurprisinglyRefreshingDesc"]
 raw = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
