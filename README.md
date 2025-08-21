@@ -33,7 +33,7 @@ BECOME A TRANSLATOR.
 
 First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
 
-You can directly use the Github web editor, or any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+You can directly use the [Github codespaces web editor](https://github.com/codespaces/new), or any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
 
 An automatic script will create the latest language files based on `/data` and `mod updates keys`, and syncs changes to Steam every day.
 
