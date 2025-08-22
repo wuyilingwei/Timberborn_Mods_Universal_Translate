@@ -289,9 +289,9 @@ enUS = "Loose Dirt"
 zhCN = "松散土块"
 
 ["Building.LooseDirt.Description"]
-raw = "Dirt ready to be collected by beavers working at the Digger Flag"
-enUS = "Dirt ready to be collected by beavers working at the Digger Flag"
-zhCN = "可由海狸挖掘工收集的泥土。"
+raw = "Terrain ready to be further demolished. Drops dirt when removed."
+enUS = "Terrain ready to be further demolished. Drops dirt when removed."
+zhCN = "堆积的泥土。可以拆除。"
 
 ["Building.LooseDirt.FlavorDescription"]
 raw = "Digging the whole day through!"
@@ -306,7 +306,7 @@ zhCN = "松动泥土"
 ["Building.LoosenDirt.Description"]
 raw = "Convert this terrain tile into Loose Dirt to be collected by beavers.\nCan only be used on the surface."
 enUS = "Convert this terrain tile into Loose Dirt to be collected by beavers.\nCan only be used on the surface."
-zhCN = "将地形块转化为可收集的松散土块。<br>仅限地表使用。"
+zhCN = "将地形块转化为松散土块，可以收集泥土。"
 
 ["Building.RemoveDirt.DisplayName"]
 raw = "Remove Terrain"
@@ -316,7 +316,7 @@ zhCN = "移除地形"
 ["Building.RemoveDirt.Description"]
 raw = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
 enUS = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
-zhCN = "将地形块完全移除。<br>• <RedHighlight>警告：</RedHighlight>依赖此地形块的物体会坍塌！"
+zhCN = "将地形块完全移除。<br>• <RedHighlight>警告：</RedHighlight>依赖此地形块的物体会坍塌消失！"
 
 ["Building.LumberPress.DisplayName"]
 raw = "Lumber Press"
