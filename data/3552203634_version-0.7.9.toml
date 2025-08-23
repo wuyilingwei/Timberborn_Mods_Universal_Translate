@@ -146,7 +146,7 @@ zhCN = "杈道"
 ["Building.Branch.Description"]
 raw = "A Branch. It can connect to the side of many Tree-style buildings. Some buildings will want to connect to Branches rather than Paths."
 enUS = "A Branch. It can connect to the side of many Tree-style buildings. Some buildings will want to connect to Branches rather than Paths."
-zhCN = "连接多种树干建筑侧面的通道。部分建筑倾向于连接杈道而非道路。"
+zhCN = "连接树干建筑的通道，连接处会自动开门。<br><color=#FFA500>部分建筑倾向于与杈道连接，而非道路。</color>"
 
 ["Building.Branch.Bridge.DisplayName"]
 raw = "Branch Bridge"
@@ -161,7 +161,7 @@ zhCN = "入口杈道"
 ["Building.Branch.Entrance.Description"]
 raw = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
 enUS = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
-zhCN = "带有道路连接点的杈道。允许海狸在道路与杈道之间通行。"
+zhCN = "可以与道路连接，互相通行。"
 
 ["Building.TreeTrunk.Side.DisplayName"]
 raw = "Treetrunk Side Block"
@@ -181,12 +181,12 @@ zhCN = "用于填补树状结构空隙的装饰性方块。"
 ["Building.TreeTrunk.Branch.DisplayName"]
 raw = "Treetrunk Side Block with Branch access"
 enUS = "Treetrunk Side Block with Branch access"
-zhCN = "树干杈道填充块"
+zhCN = "树干通道填充块"
 
 ["Building.TreeTrunk.Branch.Description"]
 raw = "A Treetrunk Side Block with a Door on one side, and Branch connection on the other. This allows beavers to pass between Paths (or the tree central access shaft) and a Branch."
 enUS = "A Treetrunk Side Block with a Door on one side, and Branch connection on the other. This allows beavers to pass between Paths (or the tree central access shaft) and a Branch."
-zhCN = "带有内部通道的填充块，另一侧可以连接杈道。允许海狸在道路（或树心通道）与杈道之间通行。"
+zhCN = "带有内部通道，背面可以与杈道连接，互相通行。"
 
 ["Building.Grinder.DisplayName"]
 raw = "Grinder"
@@ -316,7 +316,7 @@ zhCN = "移除地形"
 ["Building.RemoveDirt.Description"]
 raw = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
 enUS = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
-zhCN = "将地形块完全移除。<br>• <RedHighlight>警告：</RedHighlight>依赖此地形块的物体会坍塌消失！"
+zhCN = "将地形块完全移除。<br>• <color=#FF4C4C>崩塌：</color>依赖此地形块的物体会崩塌！"
 
 ["Building.LumberPress.DisplayName"]
 raw = "Lumber Press"

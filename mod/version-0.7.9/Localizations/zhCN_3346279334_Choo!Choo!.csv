@@ -1,9 +1,9 @@
 ID,Text,Comment
 Tobbert.TrackStraight.DisplayName,直线轨道,-
-Tobbert.TrackStraight.Description,火车直线前进的轨道，可以切换为单向轨道。<br><color=#FFFF00>互相连接的轨道组成轨道段，有相同颜色。</color><br><color=#FF6600>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
+Tobbert.TrackStraight.Description,火车直线前进的轨道，可以切换为单向轨道。<br><color=#FFFF1A>互相连接的轨道组成轨道段，有相同颜色。</color><br><color=#FFA500>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
 Tobbert.TrackStraight.FlavorDescription,“嘟嘟——”（火车鸣笛声）,-
 Tobbert.TrackOneWay.DisplayName,单向轨道,-
-Tobbert.TrackOneWay.Description,火车按路标方向通行的轨道，可以切换为直线轨道。<br><color=#FFFF00>单向轨道会分隔不同轨道段，以颜色区分。</color><br><color=#FF6600>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
+Tobbert.TrackOneWay.Description,火车按路标方向通行的轨道，可以切换为直线轨道。<br><color=#FFFF1A>单向轨道会分隔不同轨道段，以颜色区分。</color><br><color=#FFA500>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>,-
 Tobbert.TrackOneWay.FlavorDescription,逆行扣3分，罚款200元！,-
 Tobbert.TrackCrossing.DisplayName,可穿越轨道,-
 Tobbert.TrackCrossing.Description,海狸可以在这里穿过轨道。,-
@@ -33,7 +33,7 @@ Tobbert.TrackRIntersection2x3.DisplayName,分岔轨道 2x3,-
 Tobbert.TrackRIntersection2x3.Description,用于分岔的轨道。,-
 Tobbert.TrackRIntersection2x3.FlavorDescription,这到底是分岔还是汇合？,-
 Tobbert.GoodsStation.DisplayName,货物站,-
-Tobbert.GoodsStation.Description,在货物站分发和接收物品，并通过火车运送。<br><color=#FFFF00>分发：搬运工将物品从非“获取”状态的储存建筑搬至货物站，由火车运送至其他货物站。<br>接收：火车将物品运送至货物站，由搬运工搬至“获取”状态的储存建筑。</color><br><color=#FF6600>货物站与单向轨道直接连接可能导致其无法被正确识别，请间隔至少一节轨道后再设置单向轨道。</color>,-
+Tobbert.GoodsStation.Description,在货物站分发和接收物品，并通过火车运送。<br><color=#FFFF1A>分发：搬运工将物品从非“获取”状态的储存建筑搬至货物站，由火车运送至其他货物站。<br>接收：火车将物品运送至货物站，由搬运工搬至“获取”状态的储存建筑。</color><br><color=#FFA500>货物站与单向轨道直接连接可能导致其无法被正确识别，请间隔至少一节轨道后再设置单向轨道。</color>,-
 Tobbert.GoodsStation.FlavorDescription,铁路物流！,-
 Tobbert.PassengerStation.DisplayName,乘客站,-
 Tobbert.PassengerStation.Description,允许通过火车运送海狸，海狸可以通过火车前往另一个乘客站。,-
@@ -42,7 +42,7 @@ Tobbert.PassengerStation.DistrictObjectToggle,跨地区,-
 Tobbert.PassengerStation.DistrictObject,启用后，只允许海狸前往同样启用此设置且属于其他地区中心的乘客站。,-
 Tobbert.PassengerStation.EmptyStation,目前没有乘客等待。,-
 Tobbert.WaitingStation.DisplayName,等候站,-
-Tobbert.WaitingStation.Description,火车没有运送任务时会在这里等待，防止占用轨道。<br><color=#FFFF00>等候站不会被火车视作可用于运送物品的轨道。</color><br><color=#FF6600>建议与运送轨道并联，或者自身头尾相连后再与运送轨道连接。</color>,-
+Tobbert.WaitingStation.Description,火车没有运送任务时会在这里等待，防止占用轨道。<br><color=#FFFF1A>等候站不会被火车视作可用于运送物品的轨道。</color><br><color=#FFA500>建议与运送轨道并联，或者自身头尾相连后再与运送轨道连接。</color>,-
 Tobbert.WaitingStation.FlavorDescription,等待发车中。,-
 Tobbert.TrainYard.DisplayName,造车站,-
 Tobbert.TrainYard.Description,用于建造火车的车站。,-

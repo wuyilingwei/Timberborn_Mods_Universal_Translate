@@ -28,15 +28,15 @@ Building.DoubleFloodgate.Flat.DisplayName,平顶双重闸门,-
 Building.TripleFloodgate.Flat.DisplayName,平顶三重闸门,-
 Building.Floodgate.Flat.Description,改进的闸门，去掉了多余的顶部结构，可以在上面建造其他建筑。,-
 Building.Branch.DisplayName,杈道,-
-Building.Branch.Description,连接多种树干建筑侧面的通道。部分建筑倾向于连接杈道而非道路。,-
+Building.Branch.Description,连接树干建筑的通道，连接处会自动开门。<br><color=#FFA500>部分建筑倾向于与杈道连接，而非道路。</color>,-
 Building.Branch.Bridge.DisplayName,吊桥杈道,-
 Building.Branch.Entrance.DisplayName,入口杈道,-
-Building.Branch.Entrance.Description,带有道路连接点的杈道。允许海狸在道路与杈道之间通行。,-
+Building.Branch.Entrance.Description,可以与道路连接，互相通行。,-
 Building.TreeTrunk.Side.DisplayName,树干侧面填充块,-
 Building.TreeTrunk.Corner.DisplayName,树干转角填充块,-
 Building.TreeTrunk.Description,用于填补树状结构空隙的装饰性方块。,-
-Building.TreeTrunk.Branch.DisplayName,树干杈道填充块,-
-Building.TreeTrunk.Branch.Description,带有内部通道的填充块，另一侧可以连接杈道。允许海狸在道路（或树心通道）与杈道之间通行。,-
+Building.TreeTrunk.Branch.DisplayName,树干通道填充块,-
+Building.TreeTrunk.Branch.Description,带有内部通道，背面可以与杈道连接，互相通行。,-
 Building.Grinder.DisplayName,粉碎机,-
 Building.Grinder.Description,将金属废料加工成金属块。,-
 Building.DirtExcavator.FlavorDescription.LeafCoats,树根是最具侵略性的。,-
@@ -62,7 +62,7 @@ Building.LooseDirt.FlavorDescription,我可以挖上一整天！,-
 Building.LoosenDirt.DisplayName,松动泥土,-
 Building.LoosenDirt.Description,将地形块转化为松散土块，可以收集泥土。,-
 Building.RemoveDirt.DisplayName,移除地形,-
-Building.RemoveDirt.Description,将地形块完全移除。<br>• <RedHighlight>警告：</RedHighlight>依赖此地形块的物体会坍塌消失！,-
+Building.RemoveDirt.Description,将地形块完全移除。<br>• <color=#FF4C4C>崩塌：</color>依赖此地形块的物体会崩塌！,-
 Building.LumberPress.DisplayName,胶合厂,-
 Building.LumberPress.Description,将树枝粘合成粗木材或木板。,-
 Building.LumberPress.FlavorDescription,比砍伐树木更环保的选择。,-
