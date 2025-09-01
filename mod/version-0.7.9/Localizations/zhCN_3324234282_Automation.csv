@@ -12,9 +12,9 @@ IgorZ.Automation.DebugPickTool.Description,在日志中输出选定对象上的�
 IgorZ.Automation.DebugPickTool.DescriptionHint1,按住Shift以输出可访问性。,-
 IgorZ.Automation.DebugPickTool.DescriptionHint2,按住Ctrl以输出导航网格边缘。,-
 IgorZ.Automation.DebugPickTool.Title,调试工具,-
-IgorZ.Automation.PauseTool.Description,关闭建筑或停止建造建筑。,-
+IgorZ.Automation.PauseTool.Description,关闭建筑或停止建造。,-
 IgorZ.Automation.PauseTool.Title,关闭建筑,-
-IgorZ.Automation.ResumeTool.Description,启用建筑或开始建造建筑。,-
+IgorZ.Automation.ResumeTool.Description,启用建筑或开始建造。,-
 IgorZ.Automation.ResumeTool.Title,启用建筑,-
 IgorZ.Automation.ShowStatusAction.AutomationErrorAlert,自动化错误,-
 IgorZ.Automation.ShowStatusAction.AutomationErrorDescription,部分自动化规则无法执行。,-
@@ -30,7 +30,7 @@ IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,此规则适用于�
 IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,恶水潮时关闸,-
 IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,此规则适用于闸门，会在恶水潮开始时完全打开。需要与其他闸门自动化规则配合使用。,-
 IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName,恶水潮时开闸,-
-IgorZ.Automation.Tool.tmpl.BadtidePause.Description,此规则适用于建筑，会在恶水潮开始时关闭或停止建造，在恶水潮结束时启用或开始建造。,-
+IgorZ.Automation.Tool.tmpl.BadtidePause.Description,此规则适用于建筑，会在恶水潮开始时关闭，在恶水潮结束时启用。,-
 IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName,恶水潮时关闭,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description,此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量达到当前床位上限。应用此规则后，新增加的床位不会被计算在内。,-
 IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName,海狸数量增加至上限,-
@@ -58,7 +58,7 @@ IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description,此规则适用于�
 IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName,干旱期时开闸,-
 IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description,此规则适用于水闸和恶水建筑，会在干旱期开始时打开，在干旱期结束时关闭。,-
 IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName,干旱期时打开水利装置,-
-IgorZ.Automation.Tool.tmpl.DroughtPause.Description,此规则适用于建筑，会在干旱期开始时关闭或停止建造，在干旱期结束时启用或开始建造。,-
+IgorZ.Automation.Tool.tmpl.DroughtPause.Description,此规则适用于建筑，会在干旱期开始时关闭，在干旱期结束时启用。,-
 IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName,干旱期时关闭,-
 IgorZ.Automation.Tool.tmpl.DynamiteNow.Description,此规则适用于炸弹，建造完成后会自动引爆。,-
 IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName,立即引爆,-
@@ -82,7 +82,7 @@ IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description,此规则适用�
 IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName,温和期时关闸,-
 IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description,此规则适用于闸门，会在温和期开始时完全打开。需要与其他闸门自动化规则配合使用。,-
 IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName,温和期时开闸,-
-IgorZ.Automation.Tool.tmpl.TemperatePause.Description,此规则适用于建筑，会在干旱期结束时关闭或停止建造，在干旱期开始时启用或开始建造。,-
+IgorZ.Automation.Tool.tmpl.TemperatePause.Description,此规则适用于建筑，会在干旱期结束时关闭，在干旱期开始时启用。,-
 IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName,非干旱期时关闭,-
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,此规则适用于闸门，会在温和期开始时部分打开，可通过高度为0.5米。需要与其他闸门自动化规则配合使用。,-
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,温和期时部分开闸,-
@@ -125,8 +125,8 @@ IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock,开始清空库�
 IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock,停止清空库存,-
 IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,输入物品：{0},-
 IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,输出物品：{0},-
-IgorZ.Automation.Scriptable.Pausable.Action.Pause,暂停建筑,-
-IgorZ.Automation.Scriptable.Pausable.Action.Resume,恢复建筑,-
+IgorZ.Automation.Scriptable.Pausable.Action.Pause,关闭建筑,-
+IgorZ.Automation.Scriptable.Pausable.Action.Resume,启用建筑,-
 IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers,取消搬运优先,-
 IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers,设置搬运优先,-
 IgorZ.Automation.Scriptable.Signals.Action.Set,设置信号: {0} = {1},-
