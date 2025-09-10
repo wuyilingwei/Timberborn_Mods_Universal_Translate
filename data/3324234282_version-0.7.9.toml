@@ -322,6 +322,36 @@ deDE = "Dynamit 6 Mal explodieren"
 plPL = "Wybuchnij dynamit 6 razy"
 ptBR = "Exploda dinamite 6 vezes."
 
+["IgorZ.Automation.Tool.tmpl.RunIf1PlusCollectables.DisplayName"]
+raw = "Run if there are collectables"
+enUS = "Run if there are collectables"
+zhCN = "可收集物品≥1时运行"
+
+["IgorZ.Automation.Tool.tmpl.RunIf2PlusCollectables.DisplayName"]
+raw = "Run if there are 2 or more collectables"
+enUS = "Run if there are 2 or more collectables"
+zhCN = "可收集物品≥2时运行"
+
+["IgorZ.Automation.Tool.tmpl.RunIf3PlusCollectables.DisplayName"]
+raw = "Run if there are 3 or more collectables"
+enUS = "Run if there are 3 or more collectables"
+zhCN = "可收集物品≥3时运行"
+
+["IgorZ.Automation.Tool.tmpl.RunIf4PlusCollectables.DisplayName"]
+raw = "Run if there are 4 or more collectables"
+enUS = "Run if there are 4 or more collectables"
+zhCN = "可收集物品≥4时运行"
+
+["IgorZ.Automation.Tool.tmpl.RunIf5PlusCollectables.DisplayName"]
+raw = "Run if there are 5 or more collectables"
+enUS = "Run if there are 5 or more collectables"
+zhCN = "可收集物品≥5时运行"
+
+["IgorZ.Automation.Tool.tmpl.HasCollectables.Description"]
+raw = "Apply this template to buildings that should be running as long as there are cuttable or gatherable items in the range of the building that can be collected."
+enUS = "Apply this template to buildings that should be running as long as there are cuttable or gatherable items in the range of the building that can be collected."
+zhCN = "此规则适用于收集型建筑，会在工作范围内的可收集物品（砍伐、采集、收割等）达到一定数量时启用，否则关闭。"
+
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when badtide starts."
 enUS = "Apply this template to floodgates that need to close when the bad tide begins."
@@ -842,6 +872,16 @@ raw = "Pause construction"
 enUS = "Pause construction"
 zhCN = "等待验收"
 
+["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.Description"]
+raw = "Apply this template to buildings that should be running as long as there are planting spots in the range of the building."
+enUS = "Apply this template to buildings that should be running as long as there are planting spots in the range of the building."
+zhCN = "此规则适用于种植型建筑，会在工作范围内存在可种植区域（作物、灌木、树木等）时启用，否则关闭。"
+
+["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.DisplayName"]
+raw = "Run if something can be planted"
+enUS = "Run if something can be planted"
+zhCN = "有可种植区域时运行"
+
 ["IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description"]
 raw = "Apply this template to buildings that should be prioritized by haulers once the construction is complete."
 enUS = "Apply this template to buildings that should be prioritized by haulers once the construction is complete."
@@ -981,6 +1021,11 @@ frFR = "Configurer l'automatisation"
 deDE = "Automatisierung einrichten"
 plPL = "Ustaw automatyzację"
 ptBR = "Configurar automação"
+
+["IgorZ.Automation.ToolGroup.Planting.DisplayName"]
+raw = "Planting and gathering related rules"
+enUS = "Planting and gathering related rules"
+zhCN = "采集和种植自动化"
 
 ["IgorZ.Automation.ToolGroup.Population.DisplayName"]
 raw = "Population conditions"
@@ -1151,6 +1196,11 @@ deDE = "Automatisierungsregeln kopieren"
 plPL = "Kopiuj zasady automatyzacji"
 ptBR = "Copiar regras de automação"
 
+["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
+raw = "ready for collection"
+enUS = "ready for collection"
+zhCN = "可收集物品"
+
 ["IgorZ.Automation.Scriptable.Constructable.Signal.Progress"]
 raw = "construction progress"
 enUS = "construction progress"
@@ -1189,6 +1239,16 @@ frFR = "écrire une chaîne dans les journaux : {0}"
 deDE = "schreibe eine Zeichenfolge in die Protokolle: {0}"
 plPL = "zapisz ciąg do dzienników: {0}"
 ptBR = "escreva uma string nos logs: {0}"
+
+["IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockCapacityTracker"]
+raw = "district stock capacity: {0}"
+enUS = "district stock capacity: {0}"
+zhCN = "地区库存容量：{0}"
+
+["IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockTracker"]
+raw = "district stock: {0}"
+enUS = "district stock: {0}"
+zhCN = "地区库存：{0}"
 
 ["IgorZ.Automation.Scriptable.Debug.Signal.Ticker"]
 raw = "ticker"
@@ -1351,6 +1411,11 @@ frFR = "création de CV"
 deDE = "Lebenslauf erstellen"
 plPL = "tworzenie CV"
 ptBR = "construção de currículo"
+
+["IgorZ.Automation.Scriptable.Plantable.Signal.SpotsReady"]
+raw = "ready to plant"
+enUS = "ready to plant"
+zhCN = "可种植区域"
 
 ["IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers"]
 raw = "- prioritize by haulers"

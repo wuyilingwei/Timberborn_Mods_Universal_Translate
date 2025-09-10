@@ -26,6 +26,12 @@ IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName,三次引爆,-
 IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName,四次引爆,-
 IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName,五次引爆,-
 IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName,六次引爆,-
+IgorZ.Automation.Tool.tmpl.RunIf1PlusCollectables.DisplayName,可收集物品≥1时运行,-
+IgorZ.Automation.Tool.tmpl.RunIf2PlusCollectables.DisplayName,可收集物品≥2时运行,-
+IgorZ.Automation.Tool.tmpl.RunIf3PlusCollectables.DisplayName,可收集物品≥3时运行,-
+IgorZ.Automation.Tool.tmpl.RunIf4PlusCollectables.DisplayName,可收集物品≥4时运行,-
+IgorZ.Automation.Tool.tmpl.RunIf5PlusCollectables.DisplayName,可收集物品≥5时运行,-
+IgorZ.Automation.Tool.tmpl.HasCollectables.Description,此规则适用于收集型建筑，会在工作范围内的可收集物品（砍伐、采集、收割等）达到一定数量时启用，否则关闭。,-
 IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description,此规则适用于闸门，会在恶水潮开始时完全关闭。需要与其他闸门自动化规则配合使用。,-
 IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName,恶水潮时关闸,-
 IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description,此规则适用于闸门，会在恶水潮开始时完全打开。需要与其他闸门自动化规则配合使用。,-
@@ -74,6 +80,8 @@ IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description,此规则适用于闸门�
 IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName,闸门组,-
 IgorZ.Automation.Tool.tmpl.PauseConstruction.Description,此规则适用于待建造建筑，建造进度达到100%后会自动暂停。,-
 IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName,等待验收,-
+IgorZ.Automation.Tool.tmpl.RunIfCanPlan.Description,此规则适用于种植型建筑，会在工作范围内存在可种植区域（作物、灌木、树木等）时启用，否则关闭。,-
+IgorZ.Automation.Tool.tmpl.RunIfCanPlan.DisplayName,有可种植区域时运行,-
 IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description,此规则适用于待建造建筑，建造完成后会自动勾选"让搬运工优先此建筑"。,-
 IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName,搬运优先,-
 IgorZ.Automation.Tool.tmpl.StreamGauge.Description,此规则适用于水流计，可以发送当前水流状况信号，用于其他建筑的自动化规则判断。,-
@@ -88,6 +96,7 @@ IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description,此规则适�
 IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName,温和期时部分开闸,-
 IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description,此规则适用于炸弹，建造完成后会自动引爆，随后放置新的炸弹并再次引爆，直至达到预定次数。,-
 IgorZ.Automation.ToolGroup.Main.DisplayName,自动化工具,-
+IgorZ.Automation.ToolGroup.Planting.DisplayName,采集和种植自动化,-
 IgorZ.Automation.ToolGroup.Population.DisplayName,人口自动化,-
 IgorZ.Automation.ToolGroup.Power.DisplayName,启停自动化,-
 IgorZ.Automation.ToolGroup.Signals.DisplayName,信号自动化,-
@@ -105,11 +114,14 @@ IgorZ.Automation.AutomationFragment.RuleTextLocKey,如果{0}，那么{1}。,-
 IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey,自动化规则：,-
 IgorZ.Automation.Tool.CopyRules.Text,复制{0}条规则,-
 IgorZ.Automation.Tool.CopyRules.Title,复制自动化规则,-
+IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady,可收集物品,-
 IgorZ.Automation.Scriptable.Constructable.Signal.Progress,建造进度,-
 IgorZ.Automation.Scriptable.Constructable.Signal.State,建造状态,-
 IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished,已完成,-
 IgorZ.Automation.Scriptable.Debug.Action.LogNum,将数字写入日志：{0},-
 IgorZ.Automation.Scriptable.Debug.Action.LogStr,将字符串写入日志：{0},-
+IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockCapacityTracker,地区库存容量：{0},-
+IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockTracker,地区库存：{0},-
 IgorZ.Automation.Scriptable.Debug.Signal.Ticker,计数器,-
 IgorZ.Automation.Scriptable.District.Signal.Beavers,地区海狸数量,-
 IgorZ.Automation.Scriptable.District.Signal.Bots,地区机关人数量,-
@@ -127,6 +139,7 @@ IgorZ.Automation.Scriptable.Inventory.Signal.InputGood,输入物品：{0},-
 IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood,输出物品：{0},-
 IgorZ.Automation.Scriptable.Pausable.Action.Pause,关闭建筑,-
 IgorZ.Automation.Scriptable.Pausable.Action.Resume,启用建筑,-
+IgorZ.Automation.Scriptable.Plantable.Signal.SpotsReady,可种植区域,-
 IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers,取消搬运优先,-
 IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers,设置搬运优先,-
 IgorZ.Automation.Scriptable.Signals.Action.Set,设置信号: {0} = {1},-

@@ -7,6 +7,86 @@ LV.T4UX.ShiftToDeleteAll,删除所有建筑,-
 LV.T4UX.ShiftToDeleteAllDesc,勾选后，按住功能键时会切换为删除所有建筑，而不仅是同类建筑。,-
 LV.T4UX.ConfirmUndo,部分建筑正在进行中或已完成，确定要撤销建造吗？,-
 LV.T4UX.RecentToolHotkey,最近使用的工具,-
-LV.T4UX.UndoCount,撤销次数,-
-LV.T4UX.UndoCountDesc,可以连续执行多少次撤销建造操作。,-
+LV.T4UX.UndoCount,撤销建造次数,-
+LV.T4UX.UndoCountDesc,可以使用快捷键（模组默认：Ctrl+Z）连续执行多少次撤销建造操作。,-
 LV.T4UX.UndoEmpty,没有更多可撤销的操作,-
+LV.T4UX.CollapseEntityPanel,详情面板折叠按钮,-
+LV.T4UX.CollapseEntityPanelDesc,勾选后，给详情面板（右侧面板）增加折叠按钮。可以隐藏次要内容，只保留主要内容。,-
+LV.T4UX.CollapseEntityPanelGlobal, 全局折叠状态,-
+LV.T4UX.CollapseEntityPanelGlobalDesc,勾选后，使详情面板的折叠状态全局生效，而不是仅在此存档内生效。,-
+LV.T4UX.ShowDynamiteDestruction,显示炸弹破坏范围,-
+LV.T4UX.ShowDynamiteDestructionDesc,勾选后，选择炸弹时，高亮将被此炸弹破坏或崩塌的地形和建筑。<br>注意，如果是大量炸弹依次引爆，则需要使用模组“Macro Management”选择所有待引爆炸弹，才会显示最终将被破坏的范围。<br>注意，如果启用了模组“Multi-directional Dynamite”，则此功能始终生效，无需勾选此选项。,-
+LV.T4UX.UpdateText,'可折叠详情面板'和'显示炸弹破坏范围'是本次更新的新选项，默认启用。详情请参阅模组说明。,-
+Name_AdjustableStrengthPowerGeneratorFragment,能量发生器（开发者模式）,-
+Name_AdulthoodFragment,成长状态,-
+Name_AttractionFragment,游客信息,-
+Name_AttractionLoadRateFragment,人气信息,-
+Name_BatteryFragment,容量状态,-
+Name_BeaverBuildingsFragment,关联建筑信息,-
+Name_BehaviorManagerDebugFragment,Behavior Debug,-
+Name_BonusManagerDebugFragment,Bonus Debug,-
+Name_BreedingPodFragment,繁殖舱状态,-
+Name_BuildingHPFragment,Building HP,-
+Name_CharacterControlFragment,Character Control Debug,-
+Name_ConstructionSiteDebugFragment,Construction Debug,-
+Name_ConstructionSiteFragment,建造状态,-
+Name_DemolishableFragment,拆除,-
+Name_DemolishablePriorityFragment,拆除优先度,-
+Name_DeteriorableDebugFragment,Decay Debug,-
+Name_DeteriorableFragment,Durability,-
+Name_DistrictCenterFragment,地区中心管理,-
+Name_DistrictCrossingInventoryFragment,跨地区库存,-
+Name_DwellingDebugFragment,Dwelling Debug,-
+Name_DwellingUserFragment,居民信息,-
+Name_DyingNaturalResourceFragment,植物状态,-
+Name_DynamiteFragment,炸弹设置,-
+Name_FarmHouseFragment,农屋设置,-
+Name_FloodgateFragment,闸门设置,-
+Name_ForesterFragment,林木工设置,-
+Name_GatherableFragment,收集,-
+Name_GatherablePrioritizerFragment,收集优先度,-
+Name_GoodCarrierFragment,搬运状态,-
+Name_GoodConsumingBuildingFragment,消耗状态,-
+Name_GoodStackFragment,堆放状态,-
+Name_GrowableFragment,生长状态,-
+Name_HaulCandidateDebugFragment,Haul Debug,-
+Name_HaulCandidateFragment,搬运,-
+Name_InventoryDebugFragment,Inventory Debug,-
+Name_ManufactoryFragment,工厂信息,-
+Name_ManufactoryInventoryFragment,工作场所库存,-
+Name_ManufactoryTogglableRecipesFragment,配方设置,-
+Name_MechanicalNodeFragment,能量节点信息,-
+Name_MMFragment,宏管理,-
+Name_MultiSelectFragment,多选设置,-
+Name_PlantablePrioritizerFragment,种植优先度,-
+Name_ProductionProgressFragment,进度信息,-
+Name_ProductivityFragment,生产效率信息,-
+Name_RecoveredGoodStackFragment,瓦砾堆信息,-
+Name_RenovationStockpileFragment,翻新库存,-
+Name_RuinFragment,废墟库存,-
+Name_ScienceNeedingBuildingFragment,科学点数状态,-
+Name_SimpleOutputInventoryFragment,旗帜库存,-
+Name_SluiceFragment,水闸设置,-
+Name_StatusListFragment,状态信息,-
+Name_StockpileGoodColumnVisualizerDebugFragment,Stock Debug,-
+Name_StockpileInventoryDebugFragment,Inventory Debug,-
+Name_StockpileInventoryFragment,仓储,-
+Name_StockpilePriorityFragment,仓储优先度,-
+Name_StreamGaugeFragment,水流计监测信息,-
+Name_TailDecalSupplierFragment,细节装饰设置,-
+Name_WaterInputDepthFragment,深度设置,-
+Name_WaterMoverFragment,液体泵设置,-
+Name_WaterSourceFragment,水源（开发者模式）,-
+Name_WaterSourceRegulatorFragment,恶水建筑设置,-
+Name_WellbeingFragment,康乐度信息,-
+Name_WindGaugeFragment,风速计监测信息,-
+Name_WirelessCoilFragment,能量线圈网络,-
+Name_WonderDebugFragment,Wonder Debug,-
+Name_WonderFragment,奇观库存,-
+Name_WorkplaceFragment,工作场所信息,-
+Name_WorkshopDebugFragment,Workshop Debug,-
+Name_ZiplineTowerFragment,滑索设置,-
+Name_DistrictCenterFragment_DistrictCenterInventoryFragment,地区中心库存,-
+Name_SluiceFragment_Automation,水闸自动化设置,-
+Name_SluiceFragment_WaterInfo,水闸监测信息,-
+Name_BreedingPodFragment_BreedingPodInventoryFragment,繁殖舱库存,-
