@@ -1,0 +1,524 @@
+["LV.BHP.EnableMaintenance"]
+raw = "Enable maintenance"
+enUS = "Enable maintenance"
+zhCN = "启用建筑损耗"
+
+["LV.BHP.EnableMaintenanceDesc"]
+raw = "Buildings will deteriorate over time and require maintenance to keep them functional.\nDoes not affect unfinished buildings.\nCan only be changed on the Main Menu."
+enUS = "Buildings will deteriorate over time and require maintenance to keep them functional.\nDoes not affect unfinished buildings.\nCan only be changed on the Main Menu."
+zhCN = "勾选后，建筑会逐渐损失生命值。对建造中的建筑无影响。只能在主菜单中更改。"
+
+["LV.BHP.MaintenanceHPDays"]
+raw = "Maintenance days per HP"
+enUS = "Maintenance days per HP"
+zhCN = "损耗速率"
+
+["LV.BHP.MaintenanceHPDaysDesc"]
+raw = "How many days before 1HP is lost due to maintenance."
+enUS = "How many days before 1HP is lost due to maintenance."
+zhCN = "建筑损失 1 点生命值所需的天数。"
+
+["LV.BHP.EnableMaterialDurability"]
+raw = "Enable material Durability"
+enUS = "Enable material Durability"
+zhCN = "启用建材强化"
+
+["LV.BHP.EnableMaterialDurabilityDesc"]
+raw = "Buildings will gain Durability from materials used in their construction.\n<RedHighlight>WARNING:</RedHighlight> Disabling this also removes invulnerability from buildings without cost.\nCan only be changed on the Main Menu."
+enUS = "Buildings will gain Durability from materials used in their construction.\n<RedHighlight>WARNING:</RedHighlight> Disabling this also removes invulnerability from buildings without cost.\nCan only be changed on the Main Menu."
+zhCN = "勾选后，建筑会从建筑材料中获得额外生命值上限。只能在主菜单中更改。<br>注意：禁用此功能会同时移除无成本建筑（如地区中心、伐木工旗帜）的无敌状态。"
+
+["LV.BHP.AutoRepair"]
+raw = "Auto-repair"
+enUS = "Auto-repair"
+zhCN = "自动修复"
+
+["LV.BHP.AutoRepairHP"]
+raw = "HP% threshold"
+enUS = "HP% threshold"
+zhCN = "修复阈值"
+
+["LV.BHP.HPTooltip"]
+raw = "HP: {0}\nDurability: {1}\n{2}"
+enUS = "HP: {0}\nDurability: {1}\n{2}"
+zhCN = "生命值：{0}<br>生命值上限：{1}<br>{2}"
+
+["LV.BHP.HPTooltipDurability"]
+raw = "• {0} from {1}"
+enUS = "• {0} from {1}"
+zhCN = "• {0} 来自 {1}"
+
+["LV.BHP.HPTooltipInvul"]
+raw = "• Invulnerability from {0}"
+enUS = "• Invulnerability from {0}"
+zhCN = "• 无敌状态 来自 {0}"
+
+["LV.BHP.MaterialDurability"]
+raw = "Construction materials"
+enUS = "Construction materials"
+zhCN = "建筑材料"
+
+["LV.BHP.HP"]
+raw = "HP: {0} / {1}"
+enUS = "HP: {0} / {1}"
+zhCN = "生命值：{0} / {1}"
+
+["LV.BHP.HPInvul"]
+raw = "HP: {0} / {1}, Invulnerable"
+enUS = "HP: {0} / {1}, Invulnerable"
+zhCN = "生命值：{0} / {1}，无敌"
+
+["LV.BHP.Repair"]
+raw = "Repair"
+enUS = "Repair"
+zhCN = "修复"
+
+["LV.BHP.EnableWarnLowHp"]
+raw = "Low building HP warning"
+enUS = "Low building HP warning"
+zhCN = "启用受损警告"
+
+["LV.BHP.EnableWarnLowHpDesc"]
+raw = "Show a warning when a building's HP is low.\nNote: if a building max HP is below the threshold, the warning is only shown if the building is damaged."
+enUS = "Show a warning when a building's HP is low.\nNote: if a building max HP is below the threshold, the warning is only shown if the building is damaged."
+zhCN = "勾选后，建筑生命值过低时会显示警告。<br>注意：如果建筑生命值上限低于阈值，则仅在建筑受损时显示警告。"
+
+["LV.BHP.LowHpThreshold"]
+raw = "Low HP threshold"
+enUS = "Low HP threshold"
+zhCN = "受损阈值"
+
+["LV.BHP.LowHpThresholdDesc"]
+raw = "The HP threshold below which a warning will be shown."
+enUS = "The HP threshold below which a warning will be shown."
+zhCN = "建筑生命值低于此阈值时会显示警告。"
+
+["LV.BHP.EnableWarnLowHpPerc"]
+raw = "Low building HP percentage warning"
+enUS = "Low building HP percentage warning"
+zhCN = "启用受损警告（百分比）"
+
+["LV.BHP.EnableWarnLowHpPercDesc"]
+raw = "Show a warning when a building's HP is below a certain percentage."
+enUS = "Show a warning when a building's HP is below a certain percentage."
+zhCN = "勾选后，建筑生命值百分比过低时会显示警告。"
+
+["LV.BHP.LowHpPercThreshold"]
+raw = "Low HP percentage threshold"
+enUS = "Low HP percentage threshold"
+zhCN = "受损阈值（百分比）"
+
+["LV.BHP.LowHpPercThresholdDesc"]
+raw = "The HP percentage threshold below which a warning will be shown."
+enUS = "The HP percentage threshold below which a warning will be shown."
+zhCN = "建筑生命值百分比低于此阈值时会显示警告。"
+
+["LV.BHP.LowHpWarningTitle"]
+raw = "Building is badly damaged"
+enUS = "Building is badly damaged"
+zhCN = "建筑严重受损"
+
+["LV.BHP.LowHpWarningDesc"]
+raw = "The building may be destroyed if further damaged. Consider repairing it."
+enUS = "The building may be destroyed if further damaged. Consider repairing it."
+zhCN = "这座建筑如果继续受损，可能会被摧毁。请考虑进行修复。"
+
+["LV.BHP.AutoRepairOn"]
+raw = "Auto-repair enabled on placement"
+enUS = "Auto-repair enabled on placement"
+zhCN = "启用自动修复"
+
+["LV.BHP.AutoRepairOnDesc"]
+raw = "Auto-repair will be enabled when placing buildings."
+enUS = "Auto-repair will be enabled when placing buildings."
+zhCN = "勾选后，放置新的待建造建筑时会默认启用建筑的自动修复功能，并设置默认的修复阈值。"
+
+["LV.BHP.AutoRepairDefaultThreshold"]
+raw = "Auto-repair default threshold"
+enUS = "Auto-repair default threshold"
+zhCN = "修复阈值"
+
+["LV.BHP.AutoRepairDefaultThresholdDesc"]
+raw = "The default HP threshold for auto-repair when placing buildings."
+enUS = "The default HP threshold for auto-repair when placing buildings."
+zhCN = "建筑生命值百分比低于此阈值时会开始自动修复。"
+
+["LV.BHP.RepairGroup"]
+raw = "Repair"
+enUS = "Repair"
+zhCN = "修复"
+
+["LV.BHP.RepairReno"]
+raw = "Repair"
+enUS = "Repair"
+zhCN = "破损修复"
+
+["LV.BHP.RepairRenoDesc"]
+raw = "Repair the building to restore its HP. You can choose how much you want to repair it and it always takes [Days]d to finish."
+enUS = "Repair the building to restore its HP. You can choose how much you want to repair it and it always takes [Days]d to finish."
+zhCN = "修复建筑以恢复其生命值。可以选择修复量，但所需时间固定为 [Days] 天。"
+
+["LV.BHP.RepairRenoFlavor"]
+raw = "A patch here, a beam there, good as new!"
+enUS = "A patch here, a beam there, good as new!"
+zhCN = "这里补一下，那里加根梁，焕然一新！"
+
+["LV.BHP.Renovations"]
+raw = "Renovations"
+enUS = "Renovations"
+zhCN = "整修项目"
+
+["LV.BHP.Renovate"]
+raw = "Renovate building"
+enUS = "Renovate building"
+zhCN = "整修建筑"
+
+["LV.BHP.NoRenovation"]
+raw = "No renovation available for this building."
+enUS = "No renovation available for this building."
+zhCN = "此建筑无可用整修项目。"
+
+["LV.BHP.ReinforceGroup"]
+raw = "Reinforcement"
+enUS = "Reinforcement"
+zhCN = "加固"
+
+["LV.BHP.ReinforceEff"]
+raw = "Increases building Durability by {0:+0}."
+enUS = "Increases building Durability by {0:+0}."
+zhCN = "增加建筑生命值上限 {0:+0}。"
+
+["LV.BHP.Reinforce1"]
+raw = "Wooden Reinforcement"
+enUS = "Wooden Reinforcement"
+zhCN = "木质支撑"
+
+["LV.BHP.Reinforce1Desc"]
+raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
+
+["LV.BHP.Reinforce1Flavor"]
+raw = "A few extra beams and braces — sometimes all you need is more wood."
+enUS = "A few extra beams and braces — sometimes all you need is more wood."
+zhCN = "几根额外的梁和支架——有时候你只需要更多木头。"
+
+["LV.BHP.Reinforce2"]
+raw = "Ironclad Frames"
+enUS = "Ironclad Frames"
+zhCN = "铁质框架"
+
+["LV.BHP.Reinforce2Desc"]
+raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
+
+["LV.BHP.Reinforce2Flavor"]
+raw = "Iron bones for wooden homes. Stronger, heavier... squeakier."
+enUS = "Iron bones for wooden homes. Stronger, heavier... squeakier."
+zhCN = "木质房屋的铁质骨头，更坚固、更沉重……也更吱嘎作响。"
+
+["LV.BHP.Reinforce3"]
+raw = "Timber-Steel Fusion Reinforcement"
+enUS = "Timber-Steel Fusion Reinforcement"
+zhCN = "木铁融合卯榫"
+
+["LV.BHP.Reinforce3Desc"]
+raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
+
+["LV.BHP.Reinforce3Flavor"]
+raw = "Wood and steel, bound together in stubborn harmony."
+enUS = "Wood and steel, bound together in stubborn harmony."
+zhCN = "木材与钢铁，在固执的和谐中结合在一起。"
+
+["LV.BHP.ReinforceInvul"]
+raw = "Project Amberwall"
+enUS = "Project Amberwall"
+zhCN = "琥珀化涂层"
+
+["LV.BHP.ReinforceInvulDesc"]
+raw = "Temporarily makes the building invulnerable for {0} days."
+enUS = "Temporarily makes the building invulnerable for {0} days."
+zhCN = "使建筑进入无敌状态，持续 {0} 天。"
+
+["LV.BHP.ReinforceInvulFlavor"]
+raw = "A golden coat of resin, sealing every crack until nothing gets through."
+enUS = "A golden coat of resin, sealing every crack until nothing gets through."
+zhCN = "在墙壁上刷一层特制金色树脂，密封每道裂缝直至无懈可击。"
+
+["LV.BHP.ReinforceGear"]
+raw = "Metal Gear Solid"
+enUS = "Metal Gear Solid"
+zhCN = "强化齿轮"
+
+["LV.BHP.ReinforceGearDesc"]
+raw = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
+enUS = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
+zhCN = "增加建筑生命值上限 {0:+0}，如果是工厂，则额外增加生产力 {1:+0%}。"
+
+["LV.BHP.ReinforceGearFlavor"]
+raw = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
+enUS = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
+zhCN = "重型齿轮，用实心金属加固，内含纸皮箱。"
+
+["LV.BHP.NoNeedRepair"]
+raw = "Building does not need repairs."
+enUS = "Building does not need repairs."
+zhCN = "建筑目前无需修复。"
+
+["LV.BHP.NoReinforcement"]
+raw = "No reinforcement yet"
+enUS = "No reinforcement yet"
+zhCN = "建筑尚未有加固项目。"
+
+["LV.BHP.HigherReinforce"]
+raw = "Higher reinforcement is already applied."
+enUS = "Higher reinforcement is already applied."
+zhCN = " 已有更高级的加固项目生效中。"
+
+["LV.BHP.RenoTime"]
+raw = "⏱️ Renovation time: {0} days"
+enUS = "⏱️ Renovation time: {0} days"
+zhCN = "⏱️ 整修时间：{0} 天"
+
+["LV.BHP.RenoPriority"]
+raw = "Renovation materials priority:"
+enUS = "Renovation materials priority:"
+zhCN = "整修材料优先度："
+
+["LV.BHP.RenoPriorityShort"]
+raw = "Materials"
+enUS = "Materials"
+zhCN = "整修材料"
+
+["LV.BHP.AlreadyActive"]
+raw = "Renovation is already active."
+enUS = "Renovation is already active."
+zhCN = "此整修项目已在进行中。"
+
+["LV.BHP.NoGearBuilding"]
+raw = "This renovation is only for buildings that use gears"
+enUS = "This renovation is only for buildings that use gears"
+zhCN = "此整修项目仅适用于使用齿轮建造的建筑。"
+
+["LV.BHP.RenovationNote"]
+raw = "When started, the building will start gathering materials and the time only counts down when all materials are collected.\nOnly one renovation can be active at a time. You can cancel it at any time but no materials will be refunded once gathered."
+enUS = "When started, the building will start gathering materials and the time only counts down when all materials are collected.\nOnly one renovation can be active at a time. You can cancel it at any time but no materials will be refunded once gathered."
+zhCN = "整修开始后，建筑会先获取所有材料，再开始施工。<br>只能同时进行一项整修项目。可以随时取消整修，特殊情况除外。已获取的材料不会退还。"
+
+["LV.BHP.StartRenovation"]
+raw = "Start this renovation"
+enUS = "Start this renovation"
+zhCN = "开始整修"
+
+[Empty]
+raw = ""
+enUS = ""
+zhCN = ""
+
+["LV.BHP.RepairAmount"]
+raw = "Repair amount:"
+enUS = "Repair amount:"
+zhCN = "修复量："
+
+["LV.BHP.RepairHP"]
+raw = "Repairing {0:+0%}HP, after repair it will have {1} + {2} = {3}HP."
+enUS = "Repairing {0:+0%}HP, after repair it will have {1} + {2} = {3}HP."
+zhCN = "恢复建筑生命值 {0:+0%}，修复后将拥有 {1} + {2} = {3} 生命值。"
+
+["LV.BHP.SupplyRenovation"]
+raw = "Supply materials for renovations"
+enUS = "Supply materials for renovations"
+zhCN = "允许供应整修材料"
+
+["LV.BHP.SupplyPriority"]
+raw = "Supply priority"
+enUS = "Supply priority"
+zhCN = "供应优先度"
+
+["LV.BHP.CancelReno"]
+raw = "Cancel renovation"
+enUS = "Cancel renovation"
+zhCN = "取消整修"
+
+["LV.BHP.CancelRenoConfirm"]
+raw = "Are you sure you want to cancel the renovation? No materials will be refunded."
+enUS = "Are you sure you want to cancel the renovation? No materials will be refunded."
+zhCN = "确定要取消整修吗？材料将不会退还。"
+
+["LV.BHP.CancelRenoYes"]
+raw = "Yes, cancel renovation"
+enUS = "Yes, cancel renovation"
+zhCN = "是，取消整修"
+
+["LV.BHP.CancelNo"]
+raw = "No, keep renovating"
+enUS = "No, keep renovating"
+zhCN = "否，继续整修"
+
+["LV.BHP.CurrentRenovation"]
+raw = "Current renovation: {0}"
+enUS = "Current renovation: {0}"
+zhCN = "当前整修：{0}"
+
+["LV.BHP.WaitingForMaterial"]
+raw = "Waiting for materials"
+enUS = "Waiting for materials"
+zhCN = "等待材料中"
+
+["LV.BHP.NoMaterialShort"]
+raw = "Renovation lacks materials"
+enUS = "Renovation lacks materials"
+zhCN = "整修材料不足。"
+
+["LV.BHP.NoCancel"]
+raw = "<RedHighlight>This renovation CANNOT BE CANCELLED once started.</RedHighlight>"
+enUS = "<RedHighlight>This renovation CANNOT BE CANCELLED once started.</RedHighlight>"
+zhCN = "<color=#FF4C4C>此整修项目一旦开始就无法取消。</color>"
+
+["LV.BHP.CompletedReno"]
+raw = "Completed renovations"
+enUS = "Completed renovations"
+zhCN = "整修记录"
+
+["LV.BHP.ActiveReno"]
+raw = "<YellowHighlight>Active</YellowHighlight>"
+enUS = "<YellowHighlight>Active</YellowHighlight>"
+zhCN = "<color=#FFFF1A>生效中</color>"
+
+["LV.BHP.RenoLog"]
+raw = "<YellowHighlight>Completion log</YellowHighlight>"
+enUS = "<YellowHighlight>Completion log</YellowHighlight>"
+zhCN = "<color=#FFFF1A>已完成</color>"
+
+["LV.BHP.RenoLogEntry"]
+raw = "• {0}: {1}d ago"
+enUS = "• {0}: {1}d ago"
+zhCN = "• {0}：{1} 天前"
+
+["LV.BHP.None"]
+raw = "None"
+enUS = "None"
+zhCN = "无"
+
+["LV.BHP.BaseDurability"]
+raw = "Base HP: {0}"
+enUS = "Base HP: {0}"
+zhCN = "基础生命值：{0}"
+
+["LV.BHP.BaseDurabilityWithInvul"]
+raw = "Base HP: {0} (Invulnerable)"
+enUS = "Base HP: {0} (Invulnerable)"
+zhCN = "基础生命值：{0}（无敌）"
+
+["LV.BHP.ProductionGroup"]
+raw = "Production"
+enUS = "Production"
+zhCN = "生产"
+
+["LV.BHP.ProdOverdrive"]
+raw = "Production Overdrive"
+enUS = "Production Overdrive"
+zhCN = "生产过载"
+
+["LV.BHP.ProdOverdriveDesc"]
+raw = "Increases the building Productivity by {0:+0%} but it loses {1}HP every hour for {2:0.0} days.\nAfter that, Productivity is reduced by {3:0%} for {4:0.0} days."
+enUS = "Increases the building Productivity by {0:+0%} but it loses {1}HP every hour for {2:0.0} days.\nAfter that, Productivity is reduced by {3:0%} for {4:0.0} days."
+zhCN = "增加建筑生产力 {0:+0%}，但每小时损失 {1} 点生命值，持续 {2:0.0} 天。过载结束后，降低建筑生产力 {3:0%}，持续 {4:0.0} 天。"
+
+["LV.BHP.ProdOverdriveFlavor"]
+raw = "The forebeavers wrote in their notes: 'Temporary efficiency boost.' They did not mention the smell of smoke."
+enUS = "The forebeavers wrote in their notes: 'Temporary efficiency boost.' They did not mention the smell of smoke."
+zhCN = "临时效率有所提升——工作周报是这么写的，但他们没写闻到了烟味！"
+
+["LV.BHP.NotWorkplace"]
+raw = "This renovation is only for Workplace buildings (buildings that have workers)"
+enUS = "This renovation is only for Workplace buildings (buildings that have workers)"
+zhCN = "此整修项目仅适用于劳工型建筑（需要雇佣海狸的建筑）。"
+
+["LV.BHP.HousingGroup"]
+raw = "Housing"
+enUS = "Housing"
+zhCN = "住房"
+
+["LV.BHP.DwellingDecorative"]
+raw = "Decorative Carvings"
+enUS = "Decorative Carvings"
+zhCN = "装饰雕刻"
+
+["LV.BHP.DwellingDecorativeDesc"]
+raw = "Beavers living in this dwelling gain 'Decorative Carvings' need boost"
+enUS = "Beavers living in this dwelling gain 'Decorative Carvings' need boost"
+zhCN = "居住的海狸可以满足“装饰雕刻”需求，获得康乐度加成。"
+
+["LV.BHP.DwellingDecorativeFlavor"]
+raw = "'Every log tells a story now, though some look more like teeth marks than art.'"
+enUS = "'Every log tells a story now, though some look more like teeth marks than art.'"
+zhCN = "现在每根木头都讲述一个故事，尽管有些看起来更像是牙印而不是艺术。"
+
+["LV.BHP.NotDwelling"]
+raw = "This renovation is only for Housing buildings"
+enUS = "This renovation is only for Housing buildings"
+zhCN = "此整修项目仅适用于住房建筑。"
+
+["LV.BHP.ActiveEffects"]
+raw = "Active effects"
+enUS = "Active effects"
+zhCN = "整修效果"
+
+["LV.BHP.ActiveEffect"]
+raw = "• <i>{0}</i>\n{1}"
+enUS = "• <i>{0}</i>\n{1}"
+zhCN = "• <i>{0}</i><br>{1}"
+
+["LV.BHP.ActiveEffectTime"]
+raw = "{0:0.00}d remaining"
+enUS = "{0:0.00}d remaining"
+zhCN = "剩余 {0:0.00} 天"
+
+["LV.BHP.ProdOverdriveFirstPhase"]
+raw = "Production Overdrive (Overdrive phase)"
+enUS = "Production Overdrive (Overdrive phase)"
+zhCN = "生产过载（过载阶段）"
+
+["LV.BHP.ProdOverdriveSecondPhase"]
+raw = "Production Overdrive (Cooldown phase)"
+enUS = "Production Overdrive (Cooldown phase)"
+zhCN = "生产过载（冷却阶段）"
+
+["LV.BHP.ProdOverdriveFirstPhaseDesc"]
+raw = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
+enUS = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
+zhCN = "生产力提升 {0:+0%}，但每小时损失 {1} 点生命值。此阶段结束后进入冷却。"
+
+["LV.BHP.ProdOverdriveSecondPhaseDesc"]
+raw = "Productivity is reduced by {0:0%}."
+enUS = "Productivity is reduced by {0:0%}."
+zhCN = "生产力降低 {0:0%}。此阶段结束后恢复正常。"
+
+["LV.BHP.RenovationDecreasePriorityHotKey"]
+raw = "Decrease renovation priority"
+enUS = "Decrease renovation priority"
+zhCN = "降低整修优先级"
+
+["LV.BHP.RenovationIncreasePriorityHotKey"]
+raw = "Increase renovation priority"
+enUS = "Increase renovation priority"
+zhCN = "提高整修优先级"
+
+["LV.BHP.RenovationStockpileDecreasePriorityHotKey"]
+raw = "Decrease renovation stockpile priority"
+enUS = "Decrease renovation stockpile priority"
+zhCN = "降低整修储备优先级"
+
+["LV.BHP.RenovationStockpileIncreasePriorityHotKey"]
+raw = "Increase renovation stockpile priority"
+enUS = "Increase renovation stockpile priority"
+zhCN = "提高整修储备优先级"
+
+["LV.BHP.UpdateText"]
+raw = "<b>Stockpile/Storage supply for Renovation is now OPT-OUT</b>\nSorry about the confusion caused by the description on Renovation description. I should have put it higher.\nNevertheless, after the current update, all Storage will supply materials for renovation by default. You need to uncheck it if you want to opt-out instead of opt-in like before.\nAgain, I want to clarify <b>how material supply for renovation works:</b>\n- You do <b>NOT</b> need Builders or Haulers.\n- All materials will be taken <b>instantly</b> from any Storage building that has Supply materials for renovations\" checked. It is not taken gradually but at once when all materials are available."
+enUS = "<b>Stockpile/Storage supply for Renovation is now OPT-OUT</b>\nSorry about the confusion caused by the description on Renovation description. I should have put it higher.\nNevertheless, after the current update, all Storage will supply materials for renovation by default. You need to uncheck it if you want to opt-out instead of opt-in like before.\nAgain, I want to clarify <b>how material supply for renovation works:</b>\n- You do <b>NOT</b> need Builders or Haulers.\n- All materials will be taken <b>instantly</b> from any Storage building that has Supply materials for renovations\" checked. It is not taken gradually but at once when all materials are available."
+zhCN = "<b>整修的储备/仓储供应现已改为选择关闭</b>\n很抱歉整修描述造成的混淆。我本应将其放在更显眼的位置。\n在当前更新后，所有仓储建筑默认供应整修材料。如果您想排除某些仓储建筑，需要手动取消勾选，而不是像之前那样选择开启。\n再次澄清<b>整修材料供应的工作原理：</b>\n- 您<b>不需要</b>建筑工或搬运工。\n- 所有材料将<b>立即</b>从任何勾选了“供应整修材料”的仓储建筑中获取。材料不是逐渐取用，而是在全部可用时一次性获取。"
