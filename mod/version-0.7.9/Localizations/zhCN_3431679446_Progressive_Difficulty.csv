@@ -29,8 +29,9 @@ jeferson90.progressivedifficulty.settings.other,其他,-
 jeferson90.progressivedifficulty.settings.evaporation_framework_enable_setting,启用自定义蒸发速度,-
 jeferson90.progressivedifficulty.settings.badtidechance_tooltip,恶劣天气的发生概率，小数对应百分比。<br>恶水潮和洪水期概率之和不足1时，剩余为干旱期概率。,-
 jeferson90.progressivedifficulty.settings.header.jevaporation,渗漏和蒸发,-
-jeferson90.progressivedifficulty.settings.jevaporation.enable,启用,-
+jeferson90.progressivedifficulty.settings.jevaporation.enable,启用渗漏和蒸发,-
 jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip,勾选后，启用液体渗漏和蒸发，会使液面下降速度按照规则随机变化。<br>液体渗漏：受渗漏系数影响，通过模组预设的达西定律计算获得。<br>- 渗漏系数为0时，相当于禁用液体渗漏。<br>液体蒸发：受蒸发系数影响，基于模组预设的太阳辐射、相对湿度和游戏原本的风力，通过模组预设的彭曼公式计算获得。<br>- 太阳辐射、相对湿度与当前天气有关，并且会随机变化。大致上，干旱期蒸发强度大，恶水潮、洪水期反之。,-
 jeferson90.progressivedifficulty.settings.jevaporation.airevaporation,蒸发系数,-
 jeferson90.progressivedifficulty.settings.jevaporation.seepage,渗漏系数,-
 jeferson90.progressivedifficulty.settings.header.general,通用设置,-
+jeferson90.progressivedifficulty.settings.header.randomizer,天气随机设置,-

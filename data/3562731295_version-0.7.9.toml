@@ -6,7 +6,7 @@ zhCN = "地震期"
 ["LV.EQ.EarthquakeDesc"]
 raw = "Hazardous weather: Randomly damages buildings and causes water surge."
 enUS = "Hazardous weather: Randomly damages buildings and causes water surge."
-zhCN = "模组扩展的恶劣类天气，大地发出怒吼，像是要再次摧毁文明与秩序。<br>- 在随机区域内，地面猛烈震动，造成如下影响：<br>  建筑受损，部分建筑暂停运行；工地坍塌，施工进度重置。<br>  仓储物品部分丢失；仓储炸药和露天炸弹全部被引爆，并摧毁所在仓库。<br>  海狸和机关人有概率受伤或受损。<br>- 在全图范围内，水域发生潮涌，水面高度急剧上升。<br>- 在整个地震期内可能会发生多次地震。"
+zhCN = "模组扩展的恶劣类天气，大地发出怒吼，像是要再次摧毁文明与秩序。<br>- 在随机区域内，地面猛烈震动，造成如下影响：<br>  建筑受损，部分建筑暂停运行；工地坍塌，施工进度重置。<br>  仓储崩散，部分物品（25~50%）丢失。<br>引线着火，仓储炸药和露天炸弹被引爆，并摧毁所在仓库。<br>  海狸和机关人被波及，有概率受伤或受损。<br>- 在全图范围内，水域发生潮涌，水面高度急剧上升。<br>- 在整个地震期内会发生多次地震。"
 
 ["LV.EQ.MinStr"]
 raw = "Minimum strength"
@@ -36,7 +36,7 @@ zhCN = "潮涌强度"
 ["LV.EQ.SurgeStrDesc"]
 raw = "All water 'expands' by this amount (%) when Earthquake surge happens"
 enUS = "All water 'expands' by this amount (%) when Earthquake surge happens"
-zhCN = "地震引发潮涌时，所有水域水面上升的幅度（%）。"
+zhCN = "地震引发潮涌时，所有水域水面上升的幅度。"
 
 ["LV.EQ.MinFreq"]
 raw = "Minimum frequency (days)"
@@ -96,7 +96,7 @@ zhCN = "• {0} 个炸药仓库被摧毁。"
 ["LV.EQ.ItemsLostNotf"]
 raw = "• Items spilled from storage:"
 enUS = "• Items spilled from storage:"
-zhCN = "• 仓储物品丢失："
+zhCN = "• 仓储物品崩散："
 
 ["LV.EQ.ItemLostNotf"]
 raw = "• {0} {1} spilled from storage."
@@ -141,7 +141,7 @@ zhCN = "减震结构"
 ["LV.EQ.EqImmunityDesc"]
 raw = "Immune to earthquake damage for the next {0} hits."
 enUS = "Immune to earthquake damage for the next {0} hits."
-zhCN = "使建筑不受到地震伤害，持续 {0} 次。"
+zhCN = "使建筑免疫地震伤害，持续 {0} 次。"
 
 ["LV.EQ.EqImmunityFlavor"]
 raw = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
@@ -156,7 +156,7 @@ zhCN = "共态技术"
 ["LV.EQ.EqDurabilityDesc"]
 raw = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
 enUS = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
-zhCN = "下一次地震发生时，使建筑不受到地震伤害，并增加建筑耐久度 {0:+0%}。此项目仅能生效一次。"
+zhCN = "下一次地震发生时，使建筑免疫地震伤害，并增加建筑生命值上限 {0:+0%}。此项目仅能生效一次。"
 
 ["LV.EQ.EqDurabilityFlavor"]
 raw = "Builders boast that their work only grows stronger when the ground gets rowdy."
@@ -171,12 +171,12 @@ zhCN = "加固仓储"
 ["LV.EQ.EqPileReinforcedDesc"]
 raw = "Prevents stored goods from spilling during earthquakes."
 enUS = "Prevents stored goods from spilling during earthquakes."
-zhCN = "防止储存的物品受到地震影响而丢失。"
+zhCN = "防止储存的物品受到地震影响。"
 
 ["LV.EQ.EqPileReinforcedFlavor"]
 raw = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
 enUS = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
-zhCN = "沉重的支撑和更紧密的捆绑确保物资不会因震动而松散。"
+zhCN = "沉重的支撑和更紧密的捆绑确保物资不会因震动而崩散。"
 
 ["LV.EQ.EqPileReinforcedErr"]
 raw = "This renovation can only be applied to storage buildings."
@@ -201,7 +201,7 @@ zhCN = "{0}（生效）"
 ["LV.EQ.EqDurabilityActiveDesc"]
 raw = "Durability increased by {0:+0%}."
 enUS = "Durability increased by {0:+0%}."
-zhCN = "建筑耐久度增加 {0:+0%}。"
+zhCN = "增加建筑生命值上限 {0:+0%}。"
 
 ["LV.EQ.InjuryChance"]
 raw = "Injury chance (%)"
