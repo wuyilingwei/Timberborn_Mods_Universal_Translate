@@ -1,8 +1,12 @@
-# [Timberborn Mods Universial Translate](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
+# Timberborn Mods Universial Translate
 
 ![](thumbnail.png)
 
-**This repository store i18n files for Timberborn's creative workshop mods.**
+Get mod?
+
+ - [Download From Github Release](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases/latest)
+
+ - [Subscribe On Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
 
 ## Join us
 
@@ -33,11 +37,9 @@ BECOME A TRANSLATOR.
 
 First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
 
-You can directly use the [Github codespaces web editor](https://github.com/codespaces/new), or any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
 
 An automatic script will create the latest language files based on `/data` and `mod updates keys`, and syncs changes to Steam every day.
-
-Notice: Please only change the files in the `/data`. The files in the `/mod` are generated based on the data directory and automatically updated, changes made in it are always directly overwritten.
 
 For the source code of the relevant program, please visit https://github.com/wuyilingwei/Timberborn_Tools
 
