@@ -6,7 +6,7 @@ Get mod?
 
  - [Download From Github Release](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases/latest)
 
- - [Subscribe On Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
+ - [Subscribe On Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
 
 ## Join us
 
