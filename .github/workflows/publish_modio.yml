@@ -24,9 +24,9 @@ jobs:
         run: |
           echo "Using Version: $VERSION"
 
-          wget "https://github.com/${{ github.repository }}/releases/download/${VERSION}/${VERSION#v}.zip" -O $VERSION.zip
+          wget "https://github.com/${{ github.repository }}/releases/download/${VERSION}/${VERSION#v}.zip" -O ${VERSION}.zip
 
-          ls -la $VERSION.zip
+          ls -la ${VERSION}.zip
 
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
@@ -36,4 +36,4 @@ jobs:
           game: 3659
           mod: 5238039
           version: ${{ env.VERSION }}
-          path: $VERSION.zip
+          path: ${VERSION}.zip
