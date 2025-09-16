@@ -8,16 +8,23 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
+      - name: Get latest release version
+        run: |
+          VERSION=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r .tag_name)
+          echo "Latest Version: $VERSION"
+
+          # Ensure VERSION matches the release asset naming convention
+          if [[ ! "$VERSION" =~ ^v ]]; then
+            VERSION="v$VERSION"
+          fi
+
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Download release asset
         run: |
-          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
-            VERSION=${GITHUB_REF#refs/tags/}
-          else
-            VERSION=${GITHUB_REF_NAME}
-          fi
-          echo "Version: $VERSION"
+          echo "Using Version: $VERSION"
 
-          wget "https://github.com/${{ github.repository }}/releases/download/${VERSION}/${VERSION}.zip" -O $VERSION.zip
+          wget "https://github.com/${{ github.repository }}/releases/download/${VERSION}/${VERSION#v}.zip" -O $VERSION.zip
 
           ls -la $VERSION.zip
 
@@ -28,5 +35,5 @@ jobs:
           token: ${{ secrets.MODIO_TOKEN }}
           game: timberborn
           mod: 5238039
-          version: ${{ steps.metadata.outputs.VERSION }}
+          version: ${{ env.VERSION }}
           path: $VERSION.zip
