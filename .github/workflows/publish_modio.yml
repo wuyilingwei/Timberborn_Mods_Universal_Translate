@@ -33,7 +33,7 @@ jobs:
       - uses: nickelc/upload-to-modio@v2.1.0
         with:
           token: ${{ secrets.MODIO_TOKEN }}
-          game: timberborn
+          game: 3659
           mod: 5238039
           version: ${{ env.VERSION }}
           path: $VERSION.zip
