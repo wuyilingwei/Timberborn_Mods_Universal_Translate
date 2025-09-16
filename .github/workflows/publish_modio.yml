@@ -1,0 +1,27 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Download release asset
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "Version: $VERSION"
+
+          wget "https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${VERSION}.zip" -O $VERSION.zip
+
+          ls -la $VERSION.zip
+
+          echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+
+      - uses: nickelc/upload-to-modio@v2.1.0
+        with:
+          token: ${{ secrets.MODIO_TOKEN }}
+          game: timberborn
+          mod: 5238039
+          version: ${{ steps.metadata.outputs.VERSION }}
+          path: $VERSION.zip
