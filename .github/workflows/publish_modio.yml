@@ -10,10 +10,14 @@ jobs:
     steps:
       - name: Download release asset
         run: |
-          VERSION=${GITHUB_REF#refs/tags/v}
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            VERSION=${GITHUB_REF#refs/tags/}
+          else
+            VERSION=${GITHUB_REF_NAME}
+          fi
           echo "Version: $VERSION"
 
-          wget "https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${VERSION}.zip" -O $VERSION.zip
+          wget "https://github.com/${{ github.repository }}/releases/download/${VERSION}/${VERSION}.zip" -O $VERSION.zip
 
           ls -la $VERSION.zip
 
