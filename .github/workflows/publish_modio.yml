@@ -36,4 +36,4 @@ jobs:
           game: 3659
           mod: 5238039
           version: ${{ env.VERSION }}
-          path: ${VERSION}.zip
+          path: ${{ env.VERSION }}.zip
