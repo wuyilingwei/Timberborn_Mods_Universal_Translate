@@ -12,7 +12,7 @@ Full Support:
 
 Other distribution:
 
- - [Subscribe On Mod.io](https://mod.io/g/timberborn/m/mods-universial-translate)
+ - [Download From Mod.io](https://mod.io/g/timberborn/m/mods-universal-translate)
 
 ## Join us
 
