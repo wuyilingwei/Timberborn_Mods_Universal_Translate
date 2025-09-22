@@ -83,10 +83,35 @@ raw = "Show the terrain and buildings that would be destroyed when selecting a D
 enUS = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
 zhCN = "勾选后，选择炸弹时，高亮将被此炸弹破坏或崩塌的地形和建筑。<br>注意，如果是大量炸弹依次引爆，则需要使用模组“Macro Management”选择所有待引爆炸弹，才会显示最终将被破坏的范围。<br>注意，如果启用了模组“Multi-directional Dynamite”，则此功能始终生效，无需勾选此选项。"
 
-["LV.T4UX.UpdateText"]
-raw = "'Collapsible entity panels' and 'Show Dynamite destruction' are the new options in this update and are enabled by default. Please see the mod's description for the details."
-enUS = "'Collapsible entity panels' and 'Show Dynamite destruction' are the new options in this update and are enabled by default. Please see the mod's description for the details."
-zhCN = "'可折叠详情面板'和'显示炸弹破坏范围'是本次更新的新选项，默认启用。详情请参阅模组说明。"
+["LV.T4UX.UpdateText730"]
+raw = "Added 'Warning about idle workers' option. You can disable it for each workplace type separately or disable the entire option in the Mod Settings."
+enUS = "Added 'Warning about idle workers' option. You can disable it for each workplace type separately or disable the entire option in the Mod Settings."
+zhCN = "新增“闲置工人警告”选项。您可以为每种工作场所类型单独禁用此警告，或在模组设置中完全禁用该选项。"
+
+["LV.T4UX.WorkerIdleWarning"]
+raw = "Warning about idle workers"
+enUS = "Warning about idle workers"
+zhCN = "闲置劳工警告"
+
+["LV.T4UX.WorkerIdleWarningDesc"]
+raw = "Add a warning when a worker has no work to do at a workplace"
+enUS = "Add a warning when a worker has no work to do at a workplace"
+zhCN = "勾选后，工作场所的劳工无事可做时会显示警告。"
+
+["LV.T4UX.WorkerIdleWarningDisable"]
+raw = "Disable idle warning for all {0}"
+enUS = "Disable idle warning for all {0}"
+zhCN = "禁用所有{0}的闲置警告"
+
+["LV.T4UX.WorkerIdleStatus"]
+raw = "There are workers with nothing to do"
+enUS = "There are workers with nothing to do"
+zhCN = "有劳工无事可做"
+
+["LV.T4UX.WorkerIdleStatusShort"]
+raw = "Idle worker"
+enUS = "Idle worker"
+zhCN = "闲置劳工"
 
 [Name_AdjustableStrengthPowerGeneratorFragment]
 raw = "Dev Power Generator"

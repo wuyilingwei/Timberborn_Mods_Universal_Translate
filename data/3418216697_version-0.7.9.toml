@@ -165,3 +165,13 @@ frFR = "Nom de fichier personnalisé pour les sauvegardes automatiques. Si vous 
 deDE = "Benutzerdefinierter Dateiname für automatisches Speichern. Wenn Sie dies verwenden, stellen Sie sicher, dass Sie am Ende .saveeveryday hinzufügen, um automatisch zu löschen. Andernfalls wird die Spielstanddatei nicht automatisch gelöscht. Verwenden Sie {0} für die Zyklusnummer und {1} für die Zyklustagnummer und {2} für den Gesamttag. Zum Beispiel: C{0}_D{1}.saveeveryday. Lassen Sie es leer, um den Standarddateinamen (SaveDay{2}.saveeveryday) zu verwenden."
 plPL = "Niestandardowa nazwa pliku dla automatycznych zapisów. Jeśli to robisz, upewnij się, że na końcu dodasz .saveeveryday, aby automatycznie usunąć. W przeciwnym razie gra nie usunie pliku zapisu automatycznie. Użyj {0} dla numeru cyklu, {1} dla numeru dnia cyklu i {2} dla łącznej liczby dni. Na przykład: C{0}_D{1}.saveeveryday. Pozostaw puste, aby użyć domyślnej nazwy pliku (SaveDay{2}.saveeveryday)."
 ptBR = "Nome de arquivo personalizado para salvamentos automáticos. Se você usar isso, certifique-se de colocar .saveeveryday no final para exclusão automática. Caso contrário, o jogo não excluirá o arquivo de salvamento automaticamente. Use {0} para o número do ciclo, {1} para o número do dia do ciclo e {2} para o total de dias. Por exemplo: C{0}_D{1}.saveeveryday. Deixe em branco para usar o nome de arquivo padrão (SaveDay{2}.saveeveryday)."
+
+["LV.SE.MakeFirstCycleDaySave"]
+raw = "Special first cycle day"
+enUS = "Special first cycle day"
+zhCN = "特殊首日存档"
+
+["LV.SE.MakeFirstCycleDaySaveDesc"]
+raw = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
+enUS = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
+zhCN = "勾选后，将在每个周期开始时（周期第1天）创建特殊存档。此存档具有特殊名称且不会被自动删除。"
