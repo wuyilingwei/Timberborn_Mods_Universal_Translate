@@ -1,0 +1,59 @@
+["LV.SGT.SamplingFreq"]
+raw = "Sampling frequency (hour)"
+enUS = "Sampling frequency (hour)"
+zhCN = "采样频率"
+
+["LV.SGT.SamplingFreqDesc"]
+raw = "How often the stream gauge depth is recorded."
+enUS = "How often the stream gauge depth is recorded."
+zhCN = "水流计记录水深的间隔时间（游戏时）。"
+
+["LV.SGT.SamplingCount"]
+raw = "Number of samples"
+enUS = "Number of samples"
+zhCN = "样本数量"
+
+["LV.SGT.SamplingCountDesc"]
+raw = "How many samples are kept."
+enUS = "How many samples are kept."
+zhCN = "水流计保留水深记录的数量。"
+
+["LV.SGT.SamplesPerBar"]
+raw = "Samples per bar"
+enUS = "Samples per bar"
+zhCN = "每格样本数"
+
+["LV.SGT.SamplesPerBarDesc"]
+raw = "How many samples are represented by each bar in the graph."
+enUS = "How many samples are represented by each bar in the graph."
+zhCN = "详情面板的记录表中，每格代表的样本数量。"
+
+["LV.SGT.LowestDepth"]
+raw = "Lowest depth: {0:0.00}"
+enUS = "Lowest depth: {0:0.00}"
+zhCN = "最小深度：{0:0.00}"
+
+["LV.SGT.TooltipNoData"]
+raw = "No data"
+enUS = "No data"
+zhCN = "无数据"
+
+["LV.SGT.TooltipLine"]
+raw = "• {1:0.00} ({0:0.00}d ago)"
+enUS = "• {1:0.00} ({0:0.00}d ago)"
+zhCN = "• {1:0.00}（{0:0.00} 天前）"
+
+["LV.SGT.TooltipAvg"]
+raw = "Average: {0:0.00}"
+enUS = "Average: {0:0.00}"
+zhCN = "平均深度：{0:0.00}"
+
+["LV.SGT.DataHighest"]
+raw = "Tracked highest: {0:0.00}"
+enUS = "Tracked highest: {0:0.00}"
+zhCN = "历史最大深度：{0:0.00}"
+
+[Name_StreamGaugeTrackerFragment]
+raw = "Stream Gauge Tracker"
+enUS = "Stream Gauge Tracker"
+zhCN = "水流计记录"
