@@ -268,6 +268,21 @@ raw = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
 enUS = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
 zhCN = "重型齿轮，用实心金属加固，内含纸皮箱。"
 
+["LV.BHP.ReinforceGearEffDurability"]
+raw = "▶ Durability increased by {0:+0}."
+enUS = "▶ Durability increased by {0:+0}."
+zhCN = "  生命值上限: {0:+0}"
+
+["LV.BHP.ReinforceGearEffProductivity"]
+raw = "▶ Productivity increased by {0:+0%}."
+enUS = "▶ Productivity increased by {0:+0%}."
+zhCN = "  生产力: {0:+0%}"
+
+["LV.BHP.ReinforceGearWorkerEff"]
+raw = "{0:+0%} Working Speed"
+enUS = "{0:+0%} Working Speed"
+zhCN = "  工作速度: {0:+0%}"
+
 ["LV.BHP.NoNeedRepair"]
 raw = "Building does not need repairs."
 enUS = "Building does not need repairs."
@@ -301,7 +316,7 @@ zhCN = "整修材料"
 ["LV.BHP.AlreadyActive"]
 raw = "Renovation is already active."
 enUS = "Renovation is already active."
-zhCN = "此整修项目已在进行中。"
+zhCN = "此整修项目已启用。"
 
 ["LV.BHP.NoGearBuilding"]
 raw = "This renovation is only for buildings that use gears"
@@ -523,7 +538,17 @@ raw = "Increase renovation stockpile priority"
 enUS = "Increase renovation stockpile priority"
 zhCN = "提高整修储备优先级"
 
-["LV.BHP.UpdateText"]
-raw = "<b>Stockpile/Storage supply for Renovation is now OPT-OUT</b>\nSorry about the confusion caused by the description on Renovation description. I should have put it higher.\nNevertheless, after the current update, all Storage will supply materials for renovation by default. You need to uncheck it if you want to opt-out instead of opt-in like before.\nAgain, I want to clarify <b>how material supply for renovation works:</b>\n- You do <b>NOT</b> need Builders or Haulers.\n- All materials will be taken <b>instantly</b> from any Storage building that has Supply materials for renovations\" checked. It is not taken gradually but at once when all materials are available."
-enUS = "<b>Stockpile/Storage supply for Renovation is now OPT-OUT</b>\nSorry about the confusion caused by the description on Renovation description. I should have put it higher.\nNevertheless, after the current update, all Storage will supply materials for renovation by default. You need to uncheck it if you want to opt-out instead of opt-in like before.\nAgain, I want to clarify <b>how material supply for renovation works:</b>\n- You do <b>NOT</b> need Builders or Haulers.\n- All materials will be taken <b>instantly</b> from any Storage building that has Supply materials for renovations\" checked. It is not taken gradually but at once when all materials are available."
-zhCN = "<b>整修的储备/仓储供应现已改为选择关闭</b>\n很抱歉整修描述造成的混淆。我本应将其放在更显眼的位置。\n在当前更新后，所有仓储建筑默认供应整修材料。如果您想排除某些仓储建筑，需要手动取消勾选，而不是像之前那样选择开启。\n再次澄清<b>整修材料供应的工作原理：</b>\n- 您<b>不需要</b>建筑工或搬运工。\n- 所有材料将<b>立即</b>从任何勾选了“供应整修材料”的仓储建筑中获取。材料不是逐渐取用，而是在全部可用时一次性获取。"
+["LV.BHP.ProdOverdriveWorkerDesc"]
+raw = "{0:+0%;-0%} due to workplace's Overdrive"
+enUS = "{0:+0%;-0%} due to workplace's Overdrive"
+zhCN = "  工作速度: {0:+0%;-0%}"
+
+["LV.BHP.ShowUnavailables"]
+raw = "Show unavailable renovations"
+enUS = "Show unavailable renovations"
+zhCN = "显示当前不可用的整修项目"
+
+["LV.BHP.UpdateText710"]
+raw = "This is a big update that migrates this mod to Moddable Timberborn.\nThere is no new feature except minor UI change but performance is greatly improved and all effects are now gathered together in one place thanks to Moddable Timberborn."
+enUS = "This is a big update that migrates this mod to Moddable Timberborn.\nThere is no new feature except minor UI change but performance is greatly improved and all effects are now gathered together in one place thanks to Moddable Timberborn."
+zhCN = "这是一个重大更新，将本模组迁移至Moddable Timberborn。<br>除细微UI调整外无新增功能，但性能大幅提升，且得益于Moddable Timberborn，所有效果现在都集中在一处显示。"
