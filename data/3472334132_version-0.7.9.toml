@@ -318,7 +318,17 @@ raw = "Disable pause icons on all {0}"
 enUS = "Disable pause icons on all {0}"
 zhCN = "禁用所有{0}的暂停图标"
 
-["LV.T4UI.Update7_10_1"]
-raw = "This update adds an option to disable the pause icon on top of buildings.\nIf you don't like the option clustering the UI, you can disable it in the mod settings."
-enUS = "This update adds an option to disable the pause icon on top of buildings.\nIf you don't like the option clustering the UI, you can disable it in the mod settings."
-zhCN = "本次更新增加了禁用建筑顶部暂停图标的选项。<br>如果您觉得此选项使界面过于拥挤，可以在模组设置中禁用它。"
+["LV.T4UI.AutoCollapseManagementGroups"]
+raw = "Auto-collapse management groups"
+enUS = "Auto-collapse management groups"
+zhCN = "自动折叠管理分组"
+
+["LV.T4UI.AutoCollapseManagementGroupsDesc"]
+raw = "When opening the management panel, automatically collapse all groups (like Population, Workplaces, etc.)"
+enUS = "When opening the management panel, automatically collapse all groups (like Population, Workplaces, etc.)"
+zhCN = "勾选后，打开选项卡面板时自动折叠所有分组（如人口、工作场所等）。"
+
+["LV.T4UI.Update7_10_2"]
+raw = "This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings."
+enUS = "This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings."
+zhCN = "本次更新为管理面板（F1 -> F5，如人口、工作场所等）添加了可折叠分组功能。您也可以在模组设置中启用自动折叠。"

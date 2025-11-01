@@ -41,12 +41,12 @@ zhCN = "因需求而生，为整洁而精。杂乱所在处，必有打包机。
 ["LV.Pkg.Unpacker"]
 raw = "Unpackager"
 enUS = "Unpackager"
-zhCN = "解包机"
+zhCN = "拆包机"
 
 ["LV.Pkg.UnpackerDesc"]
 raw = "Unpacks a package back into 10× individual goods."
 enUS = "Unpacks a package back into 10× individual goods."
-zhCN = "将包裹拆解还原成十个物品"
+zhCN = "将包裹拆解还原成十个物品。"
 
 ["LV.Pkg.UnpackerFlavor"]
 raw = "Nothing delights a beaver more than unboxing the unexpected."
@@ -56,9 +56,109 @@ zhCN = "没有什么比拆开未知包裹更让海狸欣喜的了。"
 ["LV.Pkg.RecipePack"]
 raw = "Pack {0}"
 enUS = "Pack {0}"
-zhCN = "打包{0}"
+zhCN = "打包 {0}"
 
 ["LV.Pkg.RecipeUnpack"]
 raw = "Unpack {0}"
 enUS = "Unpack {0}"
-zhCN = "解包{0}"
+zhCN = "拆包 {0}"
+
+["LV.Pkg.BulkCrate"]
+raw = "Bulk Crate"
+enUS = "Bulk Crate"
+zhCN = "板条箱"
+
+["LV.Pkg.BulkCratePlural"]
+raw = "Bulk Crates"
+enUS = "Bulk Crates"
+zhCN = "板条箱"
+
+["LV.Pkg.LiquidBarrel"]
+raw = "Liquid Barrel"
+enUS = "Liquid Barrel"
+zhCN = "密封桶"
+
+["LV.Pkg.LiquidBarrelPlural"]
+raw = "Liquid Barrels"
+enUS = "Liquid Barrels"
+zhCN = "密封桶"
+
+["LV.Pkg.Option10"]
+raw = "Enable 10× Packaging"
+enUS = "Enable 10× Packaging"
+zhCN = "启用10倍包装"
+
+["LV.Pkg.Option10Desc"]
+raw = "Allows packing 10× of goods into a single item"
+enUS = "Allows packing 10× of goods into a single item"
+zhCN = "勾选后，允许将十个物品打包成一个包裹。"
+
+["LV.Pkg.OptionCrate"]
+raw = "Enable Bulk Crates (Pile → Warehouse)"
+enUS = "Enable Bulk Crates (Pile → Warehouse)"
+zhCN = "启用板条箱（材料堆→仓库）"
+
+["LV.Pkg.OptionCrateDesc"]
+raw = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
+enUS = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
+zhCN = "勾选后，允许将材料堆的大型资源打包成板条箱，可以在仓库中存储。"
+
+["LV.Pkg.OptionBarrel"]
+raw = "Enable Liquid Barrels (Tank → Warehouse)"
+enUS = "Enable Liquid Barrels (Tank → Warehouse)"
+zhCN = "启用密封桶（储水罐→仓库）"
+
+["LV.Pkg.OptionBarrelDesc"]
+raw = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
+enUS = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
+zhCN = "勾选后，允许将储水罐的液体打包成密封桶，可以在仓库中存储。"
+
+["LV.Pkg.PackagedCrateName"]
+raw = "{0} ×10 Crated"
+enUS = "{0} ×10 Crated"
+zhCN = "{0} ×10 箱装"
+
+["LV.Pkg.PackagedCrateNamePlural"]
+raw = "{0} ×10 Crated"
+enUS = "{0} ×10 Crated"
+zhCN = "{0} ×10 箱装"
+
+["LV.Pkg.PackagedBarrelName"]
+raw = "{0} ×10 Barreled"
+enUS = "{0} ×10 Barreled"
+zhCN = "{0} ×10 桶装"
+
+["LV.Pkg.PackagedBarrelNamePlural"]
+raw = "{0} ×10 Barreled"
+enUS = "{0} ×10 Barreled"
+zhCN = "{0} ×10 桶装"
+
+["LV.Pkg.RecipePackCrate"]
+raw = "Pack & Crate {0}"
+enUS = "Pack & Crate {0}"
+zhCN = "打包并装箱 {0}"
+
+["LV.Pkg.RecipeUnpackCrate"]
+raw = "Uncrate {0}"
+enUS = "Uncrate {0}"
+zhCN = "拆箱 {0}"
+
+["LV.Pkg.RecipePackBarrel"]
+raw = "Pack & Barrel {0}"
+enUS = "Pack & Barrel {0}"
+zhCN = "打包并装桶 {0}"
+
+["LV.Pkg.RecipeUnpackBarrel"]
+raw = "Unbarrel {0}"
+enUS = "Unbarrel {0}"
+zhCN = "拆桶 {0}"
+
+["LV.Pkg.TransformedGoodGroup"]
+raw = "Crated & Barreled Goods"
+enUS = "Crated & Barreled Goods"
+zhCN = "箱装和桶装物品"
+
+["LV.Pkg.Update710"]
+raw = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
+enUS = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
+zhCN = "本次更新为您提供两个新增选项：板条箱和密封桶，以便您能在仓库中存储材料堆和储水罐的物品。查看Steam或Mod.io上的模组说明以获取更多详情。"

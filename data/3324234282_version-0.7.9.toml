@@ -1112,70 +1112,80 @@ raw = "ERROR: Internal error"
 enUS = "ERROR: Internal error"
 zhCN = "错误：内部错误"
 
-["IgorZ.Automation.AutomationFragment.AddRulesBtn"]
-raw = "Add automation rules"
-enUS = "Add automation rules"
-zhCN = "添加自动化规则"
-zhTW = "新增自動化規則"
-ruRU = "Добавить правила автоматизации"
-jaJP = "自動化ルールを追加する"
-frFR = "Ajouter des règles d'automatisation"
-deDE = "Automatisierungsregeln hinzufügen"
-plPL = "Dodaj zasady automatyzacji"
-ptBR = "Adicionar regras de automação"
+["IgorZ.Automation.AutomationFragment.AndMoreRow"]
+raw = "...and {0} more rules..."
+enUS = "...and {0} more rules..."
+zhCN = "...还有 {0} 条规则..."
 
-["IgorZ.Automation.AutomationFragment.CopyRulesBtn"]
-raw = "Copy rules"
-enUS = "Copy rules"
-zhCN = "复制规则"
-zhTW = "複製規則"
-ruRU = "Правила копирования"
-jaJP = "コピールール"
-frFR = "Règles de copie"
-deDE = "Kopierregeln"
-plPL = "Zasady kopiowania"
-ptBR = "Regras de cópia"
+["IgorZ.Automation.AutomationFragment.BuildingSignalSource"]
+raw = "{0} ({1})"
+enUS = "{0} ({1})"
+zhCN = "{0}（{1}）"
 
-["IgorZ.Automation.AutomationFragment.EditRulesBtn"]
-raw = "Edit rules"
-enUS = "Edit rules"
-zhCN = "编辑规则"
-zhTW = "編輯規則"
-ruRU = "Правила редактирования"
-jaJP = "編集ルール"
-frFR = "Modifier les règles"
-deDE = "Bearbeitungsregeln"
-plPL = "Zasady edytowania"
-ptBR = "Editar regras"
+["IgorZ.Automation.AutomationFragment.ClearRulesBtnHint"]
+raw = "Clear all rules"
+enUS = "Clear all rules"
+zhCN = "清除所有规则"
 
-["IgorZ.Automation.AutomationFragment.RuleTextLocKey"]
-raw = "If {0}\nThen {1}"
-enUS = "If {0} Then {1}"
-zhCN = "如果{0}，那么{1}。"
-zhTW = "如果 {0} 那麼 {1}"
-ruRU = "Если {0} Тогда {1}"
-jaJP = "もし {0} ならば {1}"
-frFR = "Si {0}  \nAlors {1}"
-deDE = "Wenn {0} Dann {1}"
-plPL = "Jeśli {0} To {1}"
-ptBR = "Se {0} Então {1}"
+["IgorZ.Automation.AutomationFragment.ClearSignalsBtnHint"]
+raw = "Clear all signals mappings"
+enUS = "Clear all signals mappings"
+zhCN = "清除所有信号映射"
 
-["IgorZ.Automation.AutomationFragment.RulesAreaCaptionTextLocKey"]
-raw = "Automation rules:"
-enUS = "Automation rules:"
-zhCN = "自动化规则："
-zhTW = "自動化規則："
-ruRU = "Правила автоматизации:"
-jaJP = "自動化ルール："
-frFR = "Règles d'automatisation :"
-deDE = "Automatisierungsregeln:"
-plPL = "Zasady automatyzacji:"
-ptBR = "Regras de automação:"
+["IgorZ.Automation.AutomationFragment.CopyRulesBtnHint"]
+raw = "Copy rules to another building"
+enUS = "Copy rules to another building"
+zhCN = "复制规则到其他建筑"
+
+["IgorZ.Automation.AutomationFragment.CopySignalsBtnHint"]
+raw = "Copy signals mappings to another building"
+enUS = "Copy signals mappings to another building"
+zhCN = "复制信号映射到其他建筑"
+
+["IgorZ.Automation.AutomationFragment.ExportRulesBtnHint"]
+raw = "Export rules and signals as text"
+enUS = "Export rules and signals as text"
+zhCN = "导出规则和信号为文本"
+
+["IgorZ.Automation.AutomationFragment.ImportRulesBtnHint"]
+raw = "Import rules and signals from text"
+enUS = "Import rules and signals from text"
+zhCN = "从文本导入规则和信号"
+
+["IgorZ.Automation.AutomationFragment.RuleActionText"]
+raw = "Then {0}"
+enUS = "Then {0}"
+zhCN = "则 {0}"
+
+["IgorZ.Automation.AutomationFragment.RuleConditionText"]
+raw = "If {0},"
+enUS = "If {0},"
+zhCN = "如果 {0}，"
+
+["IgorZ.Automation.AutomationFragment.RulesCountText"]
+raw = "Rules: {0}"
+enUS = "Rules: {0}"
+zhCN = "规则：{0}"
+
+["IgorZ.Automation.AutomationFragment.SetupRulesBtnHint"]
+raw = "Setup rules"
+enUS = "Setup rules"
+zhCN = "设置规则"
+
+["IgorZ.Automation.AutomationFragment.SetupSignalsBtnHint"]
+raw = "Setup signals that will be visible to the other buildings"
+enUS = "Setup signals that will be visible to the other buildings"
+zhCN = "设置对其他建筑可见的信号"
+
+["IgorZ.Automation.AutomationFragment.SignalsCountText"]
+raw = "Signals: {0}/{1}"
+enUS = "Signals: {0}/{1}"
+zhCN = "信号：{0}/{1}"
 
 ["IgorZ.Automation.Tool.CopyRules.Text"]
 raw = "Copy {0} rules"
 enUS = "Copy {0} rules"
-zhCN = "复制{0}条规则"
+zhCN = "复制 {0} 条规则"
 zhTW = "複製 {0} 條規則"
 ruRU = "Скопируйте {0} правила"
 jaJP = "{0} ルールをコピーする"
@@ -1806,6 +1816,16 @@ deDE = "Test"
 plPL = "Test"
 ptBR = "Teste"
 
+["IgorZ.Automation.Scripting.SignalsEditor.DialogHeader"]
+raw = "Setup building signals"
+enUS = "Setup building signals"
+zhCN = "设置建筑信号"
+
+["IgorZ.Automation.Scripting.SignalsEditor.BadSignalNameMsg"]
+raw = "❌ Bad signal name!/nThe name must start with a letter and contain only letters, digits, and dots."
+enUS = "❌ Bad signal name!/nThe name must start with a letter and contain only letters, digits, and dots."
+zhCN = "❌ 信号名称无效！<br>名称必须以字母开头，且只能包含字母、数字和点号。"
+
 ["IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation"]
 raw = "There are unsaved changes. Do you want to discard them?"
 enUS = "There are unsaved changes. Do you want to discard them?"
@@ -1953,6 +1973,11 @@ raw = "Evaluate values in the action arguments"
 enUS = "Evaluate values in the action arguments"
 zhCN = "评估动作参数中的值"
 
+["IgorZ.Automation.Settings.EntityPanel.MaxRulesShown"]
+raw = "Number of rules to show in panel"
+enUS = "Number of rules to show in panel"
+zhCN = "面板中显示的规则数量"
+
 ["IgorZ.Automation.Settings.ScriptEngine.Header"]
 raw = "Script engine settings"
 enUS = "Script engine settings"
@@ -2047,3 +2072,8 @@ frFR = "Cliquez sur une entité et cliquez pour commencer à sélectionner."
 deDE = "Zeigen Sie auf eine Entität und klicken Sie, um die Auswahl zu starten."
 plPL = "Wskaż obiekt i kliknij, aby rozpocząć wybieranie."
 ptBR = "Aponte para uma entidade e clique para começar a selecionar"
+
+["TimberDev_UI.AbstractDialog.UnsavedChangesConfirmation"]
+raw = "There are unsaved changes. Do you want to discard them?"
+enUS = "There are unsaved changes. Do you want to discard them?"
+zhCN = "存在未保存的更改，确定要放弃吗？"

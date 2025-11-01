@@ -166,7 +166,7 @@ zhCN = "修复建筑以恢复其生命值。可以调整修复量，但整修时
 ["LV.BHP.RepairRenoFlavor"]
 raw = "A patch here, a beam there, good as new!"
 enUS = "A patch here, a beam there, good as new!"
-zhCN = "这里补一下，那里加根梁，焕然一新！"
+zhCN = "这里补颗钉，那里加根梁，焕然一新！"
 
 ["LV.BHP.Renovations"]
 raw = "Renovations"
@@ -271,17 +271,17 @@ zhCN = "重型齿轮，用实心金属加固，内含纸皮箱。"
 ["LV.BHP.ReinforceGearEffDurability"]
 raw = "▶ Durability increased by {0:+0}."
 enUS = "▶ Durability increased by {0:+0}."
-zhCN = "  生命值上限: {0:+0}"
+zhCN = "|  生命值上限: {0:+0}"
 
 ["LV.BHP.ReinforceGearEffProductivity"]
 raw = "▶ Productivity increased by {0:+0%}."
 enUS = "▶ Productivity increased by {0:+0%}."
-zhCN = "  生产力: {0:+0%}"
+zhCN = "|  生产力: {0:+0%}"
 
 ["LV.BHP.ReinforceGearWorkerEff"]
 raw = "{0:+0%} Working Speed"
 enUS = "{0:+0%} Working Speed"
-zhCN = "  工作速度: {0:+0%}"
+zhCN = "|  工作速度: {0:+0%}"
 
 ["LV.BHP.NoNeedRepair"]
 raw = "Building does not need repairs."
@@ -335,8 +335,8 @@ zhCN = "开始整修"
 
 [Empty]
 raw = ""
-enUS = ""
-zhCN = ""
+enUS = "\"\""
+zhCN = "\"\""
 
 ["LV.BHP.RepairAmount"]
 raw = "Repair amount:"
@@ -426,12 +426,12 @@ zhCN = "无"
 ["LV.BHP.BaseDurability"]
 raw = "Base HP: {0}"
 enUS = "Base HP: {0}"
-zhCN = "基础生命值：{0}"
+zhCN = "● 基础生命值：{0}"
 
 ["LV.BHP.BaseDurabilityWithInvul"]
 raw = "Base HP: {0} (Invulnerable)"
 enUS = "Base HP: {0} (Invulnerable)"
-zhCN = "基础生命值：{0}（无敌）"
+zhCN = "● 基础生命值：{0}（无敌）"
 
 ["LV.BHP.ProductionGroup"]
 raw = "Production"
@@ -541,7 +541,7 @@ zhCN = "提高整修储备优先级"
 ["LV.BHP.ProdOverdriveWorkerDesc"]
 raw = "{0:+0%;-0%} due to workplace's Overdrive"
 enUS = "{0:+0%;-0%} due to workplace's Overdrive"
-zhCN = "  工作速度: {0:+0%;-0%}"
+zhCN = "|  工作速度: {0:+0%;-0%}"
 
 ["LV.BHP.ShowUnavailables"]
 raw = "Show unavailable renovations"

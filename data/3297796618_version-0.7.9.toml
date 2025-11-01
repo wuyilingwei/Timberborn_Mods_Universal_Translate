@@ -1,4 +1,4 @@
-["TerrainTools.ToolGroupButton"]
+["TerrainTools.ToolGroupButton.Label"]
 raw = "Extra Terrain Tools"
 enUS = "Extra Terrain Tools"
 zhCN = "拓展地形工具"
@@ -37,7 +37,7 @@ ptBR = "Desfazer"
 ["TerrainTools.Keybinding.FastUndo"]
 raw = "Undo x 5"
 enUS = "Undo x 5"
-zhCN = "撤销5次"
+zhCN = "撤销 5 次"
 zhTW = "撤消 x 5"
 ruRU = "Отменить x 5"
 jaJP = "元に戻す x 5"
@@ -61,7 +61,7 @@ ptBR = "Refazer"
 ["TerrainTools.Keybinding.FastRedo"]
 raw = "Redo x 5"
 enUS = "Redo five times."
-zhCN = "重做5次"
+zhCN = "重做 5 次"
 zhTW = "重做 x 5"
 ruRU = "Переделай x 5"
 jaJP = "やり直し x 5"
@@ -81,6 +81,81 @@ frFR = "Mode Vélo"
 deDE = "Zyklusmodus"
 plPL = "Tryb cyklu"
 ptBR = "Modo Ciclo"
+
+["TerrainTools.Keybinding.Selection.PosUp"]
+raw = "Move Selection Up"
+enUS = "Move Selection Up"
+zhCN = "升高选区"
+
+["TerrainTools.Keybinding.Selection.PosDown"]
+raw = "Move Selection Down"
+enUS = "Move Selection Down"
+zhCN = "降低选区"
+
+["TerrainTools.Keybinding.Selection.PosForward"]
+raw = "Move Selection Forward"
+enUS = "Move Selection Forward"
+zhCN = "向上移动选区"
+
+["TerrainTools.Keybinding.Selection.PosBack"]
+raw = "Move Selection Back"
+enUS = "Move Selection Back"
+zhCN = "向下移动选区"
+
+["TerrainTools.Keybinding.Selection.PosLeft"]
+raw = "Move Selection Left"
+enUS = "Move Selection Left"
+zhCN = "向左移动选区"
+
+["TerrainTools.Keybinding.Selection.PosRight"]
+raw = "Move Selection Right"
+enUS = "Move Selection Right"
+zhCN = "向右移动选区"
+
+["TerrainTools.Keybinding.Selection.HeightUp"]
+raw = "Raise Selection Height"
+enUS = "Raise Selection Height"
+zhCN = "增加选区高度"
+
+["TerrainTools.Keybinding.Selection.HeightDown"]
+raw = "Lower Selection Height"
+enUS = "Lower Selection Height"
+zhCN = "减少选区高度"
+
+["TerrainTools.Keybinding.Selection.Copy"]
+raw = "Copy Selection"
+enUS = "Copy Selection"
+zhCN = "复制选区"
+
+["TerrainTools.Keybinding.Selection.Cut"]
+raw = "Cut Selection"
+enUS = "Cut Selection"
+zhCN = "剪切选区"
+
+["TerrainTools.Keybinding.Selection.Paste"]
+raw = "Paste Selection"
+enUS = "Paste Selection"
+zhCN = "粘贴选区"
+
+["TerrainTools.Keybinding.Selection.RotateCW"]
+raw = "Rotate Selection CW"
+enUS = "Rotate Selection CW"
+zhCN = "顺时针旋转选区"
+
+["TerrainTools.Keybinding.Selection.RotateCCW"]
+raw = "Rotate Selection CCW"
+enUS = "Rotate Selection CCW"
+zhCN = "逆时针旋转选区"
+
+["TerrainTools.Keybinding.Selection.Flip"]
+raw = "Flip Selection"
+enUS = "Flip Selection"
+zhCN = "翻转选区"
+
+["TerrainTools.Keybinding.Selection.Reset"]
+raw = "Reset Selection"
+enUS = "Reset Selection"
+zhCN = "重置选区"
 
 ["TerrainTools.Common.Button.Apply"]
 raw = "Apply"
@@ -385,7 +460,7 @@ ptBR = "Pintor de Caminhos"
 ["TerrainTools.PathPainter.Tool.Description"]
 raw = "Adjust terrain using lines"
 enUS = "Adjust terrain using lines"
-zhCN = "沿着绘制的线条调整地形。"
+zhCN = "沿着绘制的路径调整地形。"
 zhTW = "使用線條調整地形"
 ruRU = "Настройте рельеф с помощью линий"
 jaJP = "ラインを使って地形を調整する"
@@ -409,7 +484,7 @@ ptBR = "Adicionar ou Mover pontos"
 ["TerrainTools.PathPainter.Tip.DeleteHovered"]
 raw = "{0} = Remove hovered point"
 enUS = "{0} = Remove hovered point"
-zhCN = "{0}：移除悬停点"
+zhCN = "{0}：删除悬停点"
 zhTW = "{0} = 移除懸停的點"
 ruRU = "{0} = Удалить наведенную точку"
 jaJP = "{0} = ホバーされたポイントを削除する"
@@ -661,7 +736,7 @@ ptBR = "Construtor de Montículos"
 ["TerrainTools.MoundMaker.Hint.CycleSeed"]
 raw = "{0} = Cycle seed"
 enUS = "{0} = Cycle seed"
-zhCN = "{0} = 更换种子"
+zhCN = "{0}：更换种子"
 zhTW = "{0} = 循環種子"
 ruRU = "{0} = Циклическое семя"
 jaJP = "{0} = サイクルシード"
@@ -837,3 +912,138 @@ frFR = "Graine"
 deDE = "Samen"
 plPL = "Nasiona"
 ptBR = "Semente"
+
+["TerrainTools.CloneTool.Title"]
+raw = "Selection Editor"
+enUS = "Selection Editor"
+zhCN = "选区编辑工具"
+
+["TerrainTools.CloneTool.Description"]
+raw = "Copy, Cut, Rotate, Flip and Paste"
+enUS = "Copy, Cut, Rotate, Flip and Paste"
+zhCN = "复制、剪切、旋转、翻转与粘贴。"
+
+["TerrainTools.CloneTool.InputGroup.Select"]
+raw = "Select area"
+enUS = "Select area"
+zhCN = "选择区域"
+
+["TerrainTools.CloneTool.InputGroup.Cancel"]
+raw = "Cancel"
+enUS = "Cancel"
+zhCN = "取消"
+
+["TerrainTools.CloneTool.InputGroup.HeightSelect"]
+raw = "Select height"
+enUS = "Select height"
+zhCN = "选择高度"
+
+["TerrainTools.CloneTool.InputGroup.Confirm"]
+raw = "Confirm"
+enUS = "Confirm"
+zhCN = "确认"
+
+["TerrainTools.CloneTool.InputGroup.MoveSelection"]
+raw = "Move"
+enUS = "Move"
+zhCN = "移动"
+
+["TerrainTools.CloneTool.InputGroup.Cut"]
+raw = "Cut"
+enUS = "Cut"
+zhCN = "剪切"
+
+["TerrainTools.CloneTool.InputGroup.Copy"]
+raw = "Copy"
+enUS = "Copy"
+zhCN = "复制"
+
+["TerrainTools.CloneTool.InputGroup.Paste"]
+raw = "Paste"
+enUS = "Paste"
+zhCN = "粘贴"
+
+["TerrainTools.CloneTool.InputGroup.Rotate"]
+raw = "Rotate"
+enUS = "Rotate"
+zhCN = "旋转"
+
+["TerrainTools.CloneTool.InputGroup.Flip"]
+raw = "Flip"
+enUS = "Flip"
+zhCN = "翻转"
+
+["TerrainTools.CloneTool.InputGroup.PositionTrim"]
+raw = "Trim position"
+enUS = "Trim position"
+zhCN = "修改位置"
+
+["TerrainTools.CloneTool.InputGroup.HeightTrim"]
+raw = "Trim height"
+enUS = "Trim height"
+zhCN = "修改高度"
+
+["TerrainTools.CloneTool.InputGroup.Reset"]
+raw = "Reset"
+enUS = "Reset"
+zhCN = "重置"
+
+["TerrainTools.CloneTool.InputDesciption.LeftClick"]
+raw = "Left click"
+enUS = "Left click"
+zhCN = "点击左键"
+
+["TerrainTools.CloneTool.InputDesciption.RightClick"]
+raw = "Right click"
+enUS = "Right click"
+zhCN = "点击右键"
+
+["TerrainTools.CloneTool.InputDesciption.ClickAndDrag"]
+raw = "Click and drag"
+enUS = "Click and drag"
+zhCN = "点击并拖动"
+
+["TerrainTools.CloneTool.InputDesciption.MouseScroll"]
+raw = "Mouse scroll"
+enUS = "Mouse scroll"
+zhCN = "鼠标滚轮"
+
+["TerrainTools.CloneTool.InputDesciption.Hold"]
+raw = "Hold"
+enUS = "Hold"
+zhCN = "按住"
+
+["TerrainTools.CloneTool.ToolTip.Start"]
+raw = "Select base"
+enUS = "Select base"
+zhCN = "选区基底"
+
+["TerrainTools.CloneTool.ToolTip.Base"]
+raw = "Select base"
+enUS = "Select base"
+zhCN = "选区基底"
+
+["TerrainTools.CloneTool.ToolTip.Height"]
+raw = "Select height"
+enUS = "Select height"
+zhCN = "选区高度"
+
+["TerrainTools.CloneTool.ToolTip.MoveApply"]
+raw = "Selection complete"
+enUS = "Selection complete"
+zhCN = "选区编辑"
+
+["TerrainTools.CloneTool.Error.NoText"]
+raw = "Error - No text"
+enUS = "Error - No text"
+zhCN = "错误-无文本"
+
+["TerrainTools.CloneTool.Option.IncludeAirBlocks"]
+raw = "Copy empty blocks"
+enUS = "Copy empty blocks"
+zhCN = "复制空方块"
+
+["TerrainTools.CloneTool.Option.IncludeStackedBlocks"]
+raw = "Copy stacked objects"
+enUS = "Copy stacked objects"
+zhCN = "复制堆叠物体"
