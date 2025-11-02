@@ -191,7 +191,7 @@ zhCN = "加固"
 ["LV.BHP.ReinforceEff"]
 raw = "Increases building Durability by {0:+0}."
 enUS = "Increases building Durability by {0:+0}."
-zhCN = "增加建筑生命值上限 {0:+0}。"
+zhCN = "|  建筑生命值上限: {0:+0}"
 
 ["LV.BHP.Reinforce1"]
 raw = "Wooden Reinforcement"
@@ -246,7 +246,7 @@ zhCN = "琥珀化涂层"
 ["LV.BHP.ReinforceInvulDesc"]
 raw = "Temporarily makes the building invulnerable for {0} days."
 enUS = "Temporarily makes the building invulnerable for {0} days."
-zhCN = "使建筑进入无敌状态，持续 {0} 天。"
+zhCN = "建筑进入无敌状态，持续 {0} 天。"
 
 ["LV.BHP.ReinforceInvulFlavor"]
 raw = "A golden coat of resin, sealing every crack until nothing gets through."
@@ -261,7 +261,7 @@ zhCN = "强化齿轮"
 ["LV.BHP.ReinforceGearDesc"]
 raw = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
 enUS = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
-zhCN = "增加建筑生命值上限 {0:+0}，如果是工厂，则额外增加生产力 {1:+0%}。"
+zhCN = "增加建筑生命值上限 {0:+0}，如果是工厂，则额外增加建筑生产力 {1:+0%}。"
 
 ["LV.BHP.ReinforceGearFlavor"]
 raw = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
@@ -271,12 +271,12 @@ zhCN = "重型齿轮，用实心金属加固，内含纸皮箱。"
 ["LV.BHP.ReinforceGearEffDurability"]
 raw = "▶ Durability increased by {0:+0}."
 enUS = "▶ Durability increased by {0:+0}."
-zhCN = "|  生命值上限: {0:+0}"
+zhCN = "|  建筑生命值上限: {0:+0}"
 
 ["LV.BHP.ReinforceGearEffProductivity"]
 raw = "▶ Productivity increased by {0:+0%}."
 enUS = "▶ Productivity increased by {0:+0%}."
-zhCN = "|  生产力: {0:+0%}"
+zhCN = "|  建筑生产力: {0:+0%}"
 
 ["LV.BHP.ReinforceGearWorkerEff"]
 raw = "{0:+0%} Working Speed"
@@ -496,7 +496,7 @@ zhCN = "• <i>{0}</i><br>{1}"
 ["LV.BHP.ActiveEffectTime"]
 raw = "{0:0.00}d remaining"
 enUS = "{0:0.00}d remaining"
-zhCN = "剩余 {0:0.00} 天"
+zhCN = "⏱️ 剩余 {0:0.00} 天"
 
 ["LV.BHP.ProdOverdriveFirstPhase"]
 raw = "Production Overdrive (Overdrive phase)"
@@ -511,12 +511,12 @@ zhCN = "生产过载（冷却阶段）"
 ["LV.BHP.ProdOverdriveFirstPhaseDesc"]
 raw = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
 enUS = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
-zhCN = "生产力提升 {0:+0%}，但每小时损失 {1} 点生命值。此阶段结束后进入冷却。"
+zhCN = "建筑生产力提升 {0:+0%}，每小时损失 {1} 点生命值。过载结束后进入冷却。"
 
 ["LV.BHP.ProdOverdriveSecondPhaseDesc"]
 raw = "Productivity is reduced by {0:0%}."
 enUS = "Productivity is reduced by {0:0%}."
-zhCN = "生产力降低 {0:0%}。此阶段结束后恢复正常。"
+zhCN = "建筑生产力降低 {0:0%}。冷却结束后恢复正常。"
 
 ["LV.BHP.RenovationDecreasePriorityHotKey"]
 raw = "Decrease renovation priority"
