@@ -1,0 +1,234 @@
+["LV.EQ.Earthquake"]
+raw = "Earthquake"
+enUS = "Earthquake"
+zhCN = "地震期"
+
+["LV.EQ.EarthquakeDesc"]
+raw = "Hazardous weather: Randomly damages buildings and causes water surge."
+enUS = "Hazardous weather: Randomly damages buildings and causes water surge."
+zhCN = "模组扩展的恶劣类天气，大地发出怒吼，像是要再次摧毁文明与秩序。<br>- 在随机区域内，地面猛烈震动，造成如下影响：<br>  建筑受损，部分建筑暂停运行；工地坍塌，施工进度重置。<br>  仓储崩散，部分物品（25~50%）丢失。<br>  引线着火，仓储炸药和露天炸弹被引爆，并摧毁所在仓库。<br>  海狸和机关人被波及，有概率受伤或受损。<br>- 在全图范围内，水域发生潮涌，水面高度急剧上升。<br>- 在整个地震期内会发生多次地震。"
+
+["LV.EQ.MinStr"]
+raw = "Minimum strength"
+enUS = "Minimum strength"
+zhCN = "最小震动强度"
+
+["LV.EQ.MinStrDesc"]
+raw = "The minimum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+enUS = "The minimum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+zhCN = "地震造成震动时，范围内建筑生命值受到地震伤害的最小值。<br>注意，此数值受天气初始强度值、适应周期数影响。"
+
+["LV.EQ.MaxStr"]
+raw = "Maximum strength"
+enUS = "Maximum strength"
+zhCN = "最大震动强度"
+
+["LV.EQ.MaxStrDesc"]
+raw = "The maximum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+enUS = "The maximum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+zhCN = "地震造成震动时，范围内建筑生命值受到地震伤害的最大值。<br>注意，此数值受天气初始强度值、适应周期数影响。"
+
+["LV.EQ.SurgeStr"]
+raw = "Water surge strength"
+enUS = "Water surge strength"
+zhCN = "潮涌强度"
+
+["LV.EQ.SurgeStrDesc"]
+raw = "All water 'expands' by this amount (%) when Earthquake surge happens"
+enUS = "All water 'expands' by this amount (%) when Earthquake surge happens"
+zhCN = "地震引发潮涌时，所有水域水面上升的幅度。"
+
+["LV.EQ.MinFreq"]
+raw = "Minimum frequency (days)"
+enUS = "Minimum frequency (days)"
+zhCN = "最小间隔"
+
+["LV.EQ.MinFreqDesc"]
+raw = "The minimum time between Earthquake hits, in days"
+enUS = "The minimum time between Earthquake hits, in days"
+zhCN = "每次地震之间的最小间隔天数。"
+
+["LV.EQ.MaxFreq"]
+raw = "Maximum frequency (days)"
+enUS = "Maximum frequency (days)"
+zhCN = "最大间隔"
+
+["LV.EQ.MaxFreqDesc"]
+raw = "The maximum time between Earthquake hits, in days"
+enUS = "The maximum time between Earthquake hits, in days"
+zhCN = "每次地震之间的最大间隔天数。"
+
+["LV.EQ.DamageStatus"]
+raw = "The building was recently damaged by earthquake and being blocked."
+enUS = "The building was recently damaged by earthquake and being blocked."
+zhCN = "这座建筑在地震中受损，已被临时封锁。"
+
+["LV.EQ.DamageStatusShort"]
+raw = "Damaged by earthquake"
+enUS = "Damaged by earthquake"
+zhCN = "建筑遭受地震"
+
+["LV.EQ.ResultNotification"]
+raw = "An earthquake just hit your colony around ({0}, {1}):\n{2}"
+enUS = "An earthquake just hit your colony around ({0}, {1}):\n{2}"
+zhCN = "地震监测部测定，坐标（{0}，{1}）发生地震，灾情如下：<br>{2}"
+
+["LV.EQ.BuildingDamageNotf"]
+raw = "• {0} buildings damaged."
+enUS = "• {0} buildings damaged."
+zhCN = "• {0} 座建筑受损。"
+
+["LV.EQ.ConstructionDamageNotf"]
+raw = "• {0} constructions set back."
+enUS = "• {0} constructions set back."
+zhCN = "• {0} 处工地坍塌。"
+
+["LV.EQ.ExplosivesNotf"]
+raw = "• {0} explosives detonated."
+enUS = "• {0} explosives detonated."
+zhCN = "• {0} 个炸弹被引爆。"
+
+["LV.EQ.ExplosiveStorageNotf"]
+raw = "• {0} explosive storage destroyed."
+enUS = "• {0} explosive storage destroyed."
+zhCN = "• {0} 个炸药仓库被摧毁。"
+
+["LV.EQ.ItemsLostNotf"]
+raw = "• Items spilled from storage:"
+enUS = "• Items spilled from storage:"
+zhCN = "• 仓储物品崩散丢失："
+
+["LV.EQ.ItemLostNotf"]
+raw = "• {0} {1} spilled from storage."
+enUS = "• {0} {1} spilled from storage."
+zhCN = "• {0} {1}"
+
+["LV.EQ.BeaversInjuredNotf"]
+raw = "• {0} beavers injured."
+enUS = "• {0} beavers injured."
+zhCN = "• {0} 只海狸受伤。"
+
+["LV.EQ.BotsDamagedNotf"]
+raw = "• {0} bots damaged."
+enUS = "• {0} bots damaged."
+zhCN = "• {0} 个机关人受损。"
+
+["LV.EQ.RenoEqGroup"]
+raw = "Earthquake"
+enUS = "Earthquake"
+zhCN = "防震"
+
+["LV.EQ.EqDamageReduction"]
+raw = "Reinforced Foundations"
+enUS = "Reinforced Foundations"
+zhCN = "稳定地基"
+
+["LV.EQ.EqDamageReductionDesc"]
+raw = "Permanently reduces earthquake damage by {0:0%}."
+enUS = "Permanently reduces earthquake damage by {0:0%}."
+zhCN = "减少建筑受到的地震伤害 {0:0%}。"
+
+["LV.EQ.EqDamageReductionFlavor"]
+raw = "The floor beams are interlocked and cross-braced, distributing seismic stress throughout the structure."
+enUS = "The floor beams are interlocked and cross-braced, distributing seismic stress throughout the structure."
+zhCN = "地板横梁相互锁扣并交叉支撑，将地震应力分散到整个地基结构。"
+
+["LV.EQ.EqImmunity"]
+raw = "Shock-Absorbing Structure"
+enUS = "Shock-Absorbing Structure"
+zhCN = "减震结构"
+
+["LV.EQ.EqImmunityDesc"]
+raw = "Immune to earthquake damage for the next {0} hits."
+enUS = "Immune to earthquake damage for the next {0} hits."
+zhCN = "使建筑免疫地震伤害，持续 {0} 次。"
+
+["LV.EQ.EqImmunityFlavor"]
+raw = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
+enUS = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
+zhCN = "楔入房屋的原木组成弹簧缓冲系统，使地震时的震动降至可承受范围。此项目仅能生效一次。"
+
+["LV.EQ.EqDurability"]
+raw = "Seismic Symbiosis"
+enUS = "Seismic Symbiosis"
+zhCN = "共态技术"
+
+["LV.EQ.EqDurabilityDesc"]
+raw = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
+enUS = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
+zhCN = "下一次地震发生时，使建筑免疫地震伤害，并增加建筑生命值上限 {0:+0%}。此项目仅能生效一次。"
+
+["LV.EQ.EqDurabilityFlavor"]
+raw = "Builders boast that their work only grows stronger when the ground gets rowdy."
+enUS = "Builders boast that their work only grows stronger when the ground gets rowdy."
+zhCN = "特殊的建造工艺，预留的空隙会借助地震完成拼合，使建筑变得更坚固。"
+
+["LV.EQ.EqPileReinforced"]
+raw = "Reinforced Storage"
+enUS = "Reinforced Storage"
+zhCN = "加固仓储"
+
+["LV.EQ.EqPileReinforcedDesc"]
+raw = "Prevents stored goods from spilling during earthquakes."
+enUS = "Prevents stored goods from spilling during earthquakes."
+zhCN = "防止储存的物品受到地震影响。"
+
+["LV.EQ.EqPileReinforcedFlavor"]
+raw = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
+enUS = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
+zhCN = "沉重的支撑和更紧密的捆绑确保物资不会因震动而崩散。"
+
+["LV.EQ.EqPileReinforcedErr"]
+raw = "This renovation can only be applied to storage buildings."
+enUS = "This renovation can only be applied to storage buildings."
+zhCN = "此整修项目仅适用于仓储建筑。"
+
+["LV.EQ.EqImmunityStatus"]
+raw = "The next {0} earthquake hits will not affect this building."
+enUS = "The next {0} earthquake hits will not affect this building."
+zhCN = "地震无法影响此建筑，剩余 {0} 次。"
+
+["LV.EQ.EqDurabilityDormant"]
+raw = "{0} (Dormant)"
+enUS = "{0} (Dormant)"
+zhCN = "{0}（休眠）"
+
+["LV.EQ.EqDurabilityActive"]
+raw = "{0} (Active)"
+enUS = "{0} (Active)"
+zhCN = "{0}（生效）"
+
+["LV.EQ.EqDurabilityActiveDesc"]
+raw = "Durability increased by {0:+0%}."
+enUS = "Durability increased by {0:+0%}."
+zhCN = "增加建筑生命值上限 {0:+0%}。"
+
+["LV.EQ.InjuryChance"]
+raw = "Injury chance (%)"
+enUS = "Injury chance (%)"
+zhCN = "受伤概率"
+
+["LV.EQ.InjuryChanceDesc"]
+raw = "The chance that beavers get injured and bots get damaged when inside the earthquake hit area"
+enUS = "The chance that beavers get injured and bots get damaged when inside the earthquake hit area"
+zhCN = "地震造成震动时，范围内海狸受伤和机关人受损（耐久度下降）的概率。"
+
+["LV.EQ.BotDurabilityLoss"]
+raw = "Bot durability loss (%)"
+enUS = "Bot durability loss (%)"
+zhCN = "机关人受损量"
+
+["LV.EQ.BotDurabilityLossDesc"]
+raw = "The amount of durability bots lose when damaged by earthquake"
+enUS = "The amount of durability bots lose when damaged by earthquake"
+zhCN = "机关人受损时耐久度下降的百分比。"
+
+["LV.EQ.EqBlocked"]
+raw = "Blocked by Earthquake"
+enUS = "Blocked by Earthquake"
+zhCN = "临时封锁"
+
+["LV.EQ.EqBlockedDesc"]
+raw = "What a mess! This building was recently damaged by earthquake and need to be cleaned up. Certain function may be blocked until then."
+enUS = "What a mess! This building was recently damaged by earthquake and need to be cleaned up. Certain function may be blocked until then."
+zhCN = "此建筑受到地震影响，正在紧急检查。检查完成前某些功能可能会被封锁。"

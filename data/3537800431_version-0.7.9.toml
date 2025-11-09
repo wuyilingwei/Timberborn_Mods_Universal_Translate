@@ -1,0 +1,84 @@
+["LV.MWSb.Skyblight"]
+raw = "Skyblight"
+enUS = "Skyblight"
+zhCN = "污尘期"
+
+["LV.MWSb.SkyblightStrength"]
+raw = "Blight Strength"
+enUS = "Blight Strength"
+zhCN = "污尘强度"
+
+["LV.MWSb.SkyblightStrengthDesc"]
+raw = "How fast the blight spreads into the water (0.1%/tick).\nEach game tick (0.6s), a part of water is made into badwater.\nFor example, at default 0.5%, your reservoir without any new fresh water in\nwill become 100% contaminated after 120s (about half a game day)."
+enUS = "How fast the blight spreads into the water (0.1%/tick).\nEach game tick (0.6s), a part of water is made into badwater.\nFor example, at default 0.5%, your reservoir without any new fresh water in\nwill become 100% contaminated after 120s (about half a game day)."
+zhCN = "污尘向水中散播污染的速度（模组默认：0.1%/游戏刻，即每个游戏刻（0.6秒）约有千分之一的净水转变成恶水）。<br>注意，对于封闭的稳定水体，恶尘污染散播较快；对于开放的流动水体，散播速度较慢。"
+
+["LV.MWSb.Badrain"]
+raw = "Badrain"
+enUS = "Badrain"
+zhCN = "浊雨期"
+
+["LV.MWSb.BadrainLimitMoisture"]
+raw = "Limit Moisture Range"
+enUS = "Limit Moisture Range"
+zhCN = "灌溉受阻"
+
+["LV.MWSb.BadrainLimitMoistureDesc"]
+raw = "Limit the range your land get moisture when badrain is active."
+enUS = "Limit the range your land get moisture when badrain is active."
+zhCN = "勾选后，浊雨期发生时，土地更难被灌溉。"
+
+["LV.MWSb.BadrainMoistureRange"]
+raw = "Limited Moisture Range"
+enUS = "Limited Moisture Range"
+zhCN = "最大灌溉距离"
+
+["LV.MWSb.BadrainMoistureRangeDesc"]
+raw = "The maximum moisture range when badrain is active."
+enUS = "The maximum moisture range when badrain is active."
+zhCN = "浊雨期发生时，土地的最大灌溉距离。"
+
+["LV.MWSb.BadrainContamination"]
+raw = "Frequent land contamination"
+enUS = "Frequent land contamination"
+zhCN = "污染侵蚀"
+
+["LV.MWSb.BadrainContaminationDesc"]
+raw = "Contaminate the land every now and then when badrain is active."
+enUS = "Contaminate the land every now and then when badrain is active."
+zhCN = "勾选后，浊雨期发生时，土地会被周期性污染。"
+
+["LV.MWSb.BadrainContaminationDuration"]
+raw = "Contamination Duration"
+enUS = "Contamination Duration"
+zhCN = "污染持续时间"
+
+["LV.MWSb.BadrainContaminationDurationDesc"]
+raw = "How long the land is contaminated (days) when badrain is active."
+enUS = "How long the land is contaminated (days) when badrain is active."
+zhCN = "浊雨期发生时，每次污染的持续时间（模组默认：0.01天，即0.24小时，但土地的污染会残留4小时，所以实际上是4.24小时，约0.17天）。"
+
+["LV.MWSb.BadrainClearDuration"]
+raw = "Clear Duration"
+enUS = "Clear Duration"
+zhCN = "污染间隔时间"
+
+["LV.MWSb.BadrainClearDurationDesc"]
+raw = "How long the land is clear of contamination (days) when badrain is active."
+enUS = "How long the land is clear of contamination (days) when badrain is active."
+zhCN = "浊雨期发生时，污染的间隔时间（模组默认：0.5天，即12小时，但土地的污染会残留4小时，所以实际上是8小时，约0.33天）。"
+
+["LV.MWSb.Update704"]
+raw = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
+enUS = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
+zhCN = "污尘强度设置单位已修改为%（原为‰）。<br>默认值已修改为0.1%（原为5‰，即0.5%）。"
+
+["LV.MWSb.SkyblightDesc"]
+raw = "Hazardous weather: All water get contaminated over time. Does not affect waters in storage (Tanks)."
+enUS = "Hazardous weather: All water get contaminated over time. Does not affect waters in storage (Tanks)."
+zhCN = "模组扩展的恶劣类天气，被污染的尘埃在空中弥漫，向河流渗透。<br>- 所有水会逐渐变成恶水，储水罐的水不受影响。"
+
+["LV.MWSb.BadrainDesc"]
+raw = "Hazardous weather: Same effect as Skyblight and selectable additional effects:\n- Limit Moisture Range: your land can only carry moisture to a much smaller range.\n- Contaminate Land: the land will be contaminated every now and then."
+enUS = "Hazardous weather: Same effect as Skyblight and selectable additional effects:\n- Limit Moisture Range: your land can only carry moisture to a much smaller range.\n- Contaminate Land: the land will be contaminated every now and then."
+zhCN = "模组扩展的恶劣类天气，浑浊的雨水冲刷一切，土地逐渐变得异常。<br>- 所有水会逐渐变成恶水，储水罐的水不受影响。<br>- 可选额外效果：土地更难被灌溉、土地会被周期性污染。"

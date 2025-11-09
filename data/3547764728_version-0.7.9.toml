@@ -1,0 +1,484 @@
+["LV.T4UX.KeybindingGroup"]
+raw = "TImprove 4 UX"
+enUS = "TImprove 4 UX"
+zhCN = "TImprove 4 UX"
+
+["LV.T4UX.UndoHotkey"]
+raw = "Undo building"
+enUS = "Undo building"
+zhCN = "撤销建造"
+
+["LV.T4UX.ShiftToDelete"]
+raw = "Shift to delete"
+enUS = "Shift to delete"
+zhCN = "删除同类建筑"
+
+["LV.T4UX.ShiftToDeleteDesc"]
+raw = "Hold the Alternate Action (default Shift) while choosing building tool\nto delete this kind of building instead"
+enUS = "Hold the Alternate Action (default Shift) while choosing building tool\nto delete this kind of building instead"
+zhCN = "勾选后，选择建筑工具时，按住功能键（游戏默认：Shift）可切换为删除同类建筑。<br>注意，功能键可在“按键绑定”→“用户界面”→“其他按键功能”中更改。"
+
+["LV.T4UX.ShiftToDeleteAll"]
+raw = "Delete all kinds of buildings"
+enUS = "Delete all kinds of buildings"
+zhCN = "删除所有建筑"
+
+["LV.T4UX.ShiftToDeleteAllDesc"]
+raw = "While holding the Alternate Action, delete all kinds of buildings instead of just this kind"
+enUS = "While holding the Alternate Action, delete all kinds of buildings instead of just this kind"
+zhCN = "勾选后，按住功能键时会切换为删除所有建筑，而不仅是同类建筑。"
+
+["LV.T4UX.ConfirmUndo"]
+raw = "Some buildings were already in progress or done, are you sure you want to undo the building?"
+enUS = "Some buildings were already in progress or done, are you sure you want to undo the building?"
+zhCN = "部分建筑正在进行中或已完成，确定要撤销建造吗？"
+
+["LV.T4UX.RecentToolHotkey"]
+raw = "Recent tool"
+enUS = "Recent tool"
+zhCN = "最近使用的工具"
+
+["LV.T4UX.UndoCount"]
+raw = "Undo count"
+enUS = "Undo count"
+zhCN = "撤销建造次数"
+
+["LV.T4UX.UndoCountDesc"]
+raw = "How many Undo building action you can perform in a row"
+enUS = "How many Undo building action you can perform in a row"
+zhCN = "可以使用快捷键（模组默认：Ctrl+Z）连续执行多少次撤销建造操作。"
+
+["LV.T4UX.UndoEmpty"]
+raw = "No more undo actions available"
+enUS = "No more undo actions available"
+zhCN = "没有更多可撤销的操作"
+
+["LV.T4UX.CollapseEntityPanel"]
+raw = "Collapsible entity panels"
+enUS = "Collapsible entity panels"
+zhCN = "详情面板折叠按钮"
+
+["LV.T4UX.CollapseEntityPanelDesc"]
+raw = "Make the entity panels (the info panels to the right when you select a building) collapsible.\nCan only be changed from the Main Menu"
+enUS = "Make the entity panels (the info panels to the right when you select a building) collapsible.\nCan only be changed from the Main Menu"
+zhCN = "勾选后，给详情面板（右侧面板）增加折叠按钮。可以隐藏次要内容，只保留主要内容。"
+
+["LV.T4UX.CollapseEntityPanelGlobal"]
+raw = "Global collapse state"
+enUS = "Global collapse state"
+zhCN = " 全局折叠状态"
+
+["LV.T4UX.CollapseEntityPanelGlobalDesc"]
+raw = "Make the collapse state saved globally instead of per save"
+enUS = "Make the collapse state saved globally instead of per save"
+zhCN = "勾选后，使详情面板的折叠状态全局生效，而不是仅在此存档内生效。"
+
+["LV.T4UX.ShowDynamiteDestruction"]
+raw = "Show Dynamite destruction"
+enUS = "Show Dynamite destruction"
+zhCN = "显示炸弹破坏范围"
+
+["LV.T4UX.ShowDynamiteDestructionDesc"]
+raw = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
+enUS = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
+zhCN = "勾选后，选择炸弹时，高亮将被此炸弹破坏或崩塌的地形和建筑。<br>注意，如果是大量炸弹依次引爆，则需要使用模组“Macro Management”选择所有待引爆炸弹，才会显示最终将被破坏的范围。<br>注意，如果启用了模组“Multi-directional Dynamite”，则此功能始终生效，无需勾选此选项。"
+
+["LV.T4UX.UpdateText740"]
+raw = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+enUS = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+zhCN = "- 新增'复制建筑'功能。在使用默认（光标）工具时，中键点击（鼠标3键，可重新绑定）建筑可快速切换到该建筑工具。随后还可按住Shift键使用'Shift键删除'功能删除匹配的建筑。<br>- 以下功能现可在地图编辑器中工作：最近使用的工具、可折叠实体面板以及新增的复制建筑功能。<br>- 修复了在模组设置中禁用闲置工人警告无效的问题。<br>- 修复了最近使用工具快捷键无效的问题。"
+
+["LV.T4UX.WorkerIdleWarning"]
+raw = "Warning about idle workers"
+enUS = "Warning about idle workers"
+zhCN = "闲置劳工警告"
+
+["LV.T4UX.WorkerIdleWarningDesc"]
+raw = "Add a warning when a worker has no work to do at a workplace"
+enUS = "Add a warning when a worker has no work to do at a workplace"
+zhCN = "勾选后，工作场所的劳工无事可做时会显示警告。可以用建筑详情面板上显示的“禁用闲置警告”选项取消警告。"
+
+["LV.T4UX.WorkerIdleWarningDisable"]
+raw = "Disable idle warning for all {0}"
+enUS = "Disable idle warning for all {0}"
+zhCN = "禁用所有{0}的闲置警告"
+
+["LV.T4UX.WorkerIdleStatus"]
+raw = "There are workers with nothing to do"
+enUS = "There are workers with nothing to do"
+zhCN = "有劳工无事可做"
+
+["LV.T4UX.WorkerIdleStatusShort"]
+raw = "Idle worker"
+enUS = "Idle worker"
+zhCN = "闲置劳工"
+
+["LV.T4UX.CopyHotkey"]
+raw = "Copy building"
+enUS = "Copy building"
+zhCN = "复制建筑"
+
+[Name_AdjustableStrengthPowerGeneratorFragment]
+raw = "Dev Power Generator"
+enUS = "Dev Power Generator"
+zhCN = "能量发生器（开发者模式）"
+
+[Name_AdulthoodFragment]
+raw = "Adulthood"
+enUS = "Adulthood"
+zhCN = "成长状态"
+
+[Name_AttractionFragment]
+raw = "Visitors"
+enUS = "Visitors"
+zhCN = "游客信息"
+
+[Name_AttractionLoadRateFragment]
+raw = "Popularity"
+enUS = "Popularity"
+zhCN = "人气信息"
+
+[Name_BatteryFragment]
+raw = "Battery"
+enUS = "Battery"
+zhCN = "容量状态"
+
+[Name_BeaverBuildingsFragment]
+raw = "Related Buildings"
+enUS = "Related Buildings"
+zhCN = "关联建筑信息"
+
+[Name_BehaviorManagerDebugFragment]
+raw = "Behavior Debug"
+enUS = "Behavior Debug"
+zhCN = "Behavior Debug"
+
+[Name_BonusManagerDebugFragment]
+raw = "Bonus Debug"
+enUS = "Bonus Debug"
+zhCN = "Bonus Debug"
+
+[Name_BreedingPodFragment]
+raw = "Breeding Pod"
+enUS = "Breeding Pod"
+zhCN = "繁殖舱状态"
+
+[Name_BuildingHPFragment]
+raw = "Building HP"
+enUS = "Building HP"
+zhCN = "建筑生命值信息"
+
+[Name_CharacterControlFragment]
+raw = "Character Control Debug"
+enUS = "Character Control Debug"
+zhCN = "Character Control Debug"
+
+[Name_ConstructionSiteDebugFragment]
+raw = "Construction Debug"
+enUS = "Construction Debug"
+zhCN = "Construction Debug"
+
+[Name_ConstructionSiteFragment]
+raw = "Construction Site"
+enUS = "Construction Site"
+zhCN = "建造状态"
+
+[Name_DemolishableFragment]
+raw = "Demolition"
+enUS = "Demolition"
+zhCN = "拆除"
+
+[Name_DemolishablePriorityFragment]
+raw = "Demolition Priority"
+enUS = "Demolition Priority"
+zhCN = "拆除优先度"
+
+[Name_DeteriorableDebugFragment]
+raw = "Decay Debug"
+enUS = "Decay Debug"
+zhCN = "Decay Debug"
+
+[Name_DeteriorableFragment]
+raw = "Durability"
+enUS = "Durability"
+zhCN = "耐久度状态"
+
+[Name_DistrictCenterFragment]
+raw = "District Center"
+enUS = "District Center"
+zhCN = "地区中心管理"
+
+[Name_DistrictCrossingInventoryFragment]
+raw = "Crossing Inventory"
+enUS = "Crossing Inventory"
+zhCN = "跨地区库存"
+
+[Name_DwellingDebugFragment]
+raw = "Dwelling Debug"
+enUS = "Dwelling Debug"
+zhCN = "Dwelling Debug"
+
+[Name_DwellingUserFragment]
+raw = "Residents"
+enUS = "Residents"
+zhCN = "居民信息"
+
+[Name_DyingNaturalResourceFragment]
+raw = "Plant Status"
+enUS = "Plant Status"
+zhCN = "植物状态"
+
+[Name_DynamiteFragment]
+raw = "Dynamite"
+enUS = "Dynamite"
+zhCN = "炸弹设置"
+
+[Name_FarmHouseFragment]
+raw = "Farmhouse"
+enUS = "Farmhouse"
+zhCN = "农屋设置"
+
+[Name_FloodgateFragment]
+raw = "Floodgate"
+enUS = "Floodgate"
+zhCN = "闸门设置"
+
+[Name_ForesterFragment]
+raw = "Forester"
+enUS = "Forester"
+zhCN = "林木工设置"
+
+[Name_GatherableFragment]
+raw = "Gatherable"
+enUS = "Gatherable"
+zhCN = "收集"
+
+[Name_GatherablePrioritizerFragment]
+raw = "Gather Priority"
+enUS = "Gather Priority"
+zhCN = "收集优先度"
+
+[Name_GoodCarrierFragment]
+raw = "Carrier"
+enUS = "Carrier"
+zhCN = "搬运状态"
+
+[Name_GoodConsumingBuildingFragment]
+raw = "Consuming"
+enUS = "Consuming"
+zhCN = "消耗状态"
+
+[Name_GoodStackFragment]
+raw = "Goods Stack"
+enUS = "Goods Stack"
+zhCN = "堆放状态"
+
+[Name_GrowableFragment]
+raw = "Growth"
+enUS = "Growth"
+zhCN = "生长状态"
+
+[Name_HaulCandidateDebugFragment]
+raw = "Haul Debug"
+enUS = "Haul Debug"
+zhCN = "Haul Debug"
+
+[Name_HaulCandidateFragment]
+raw = "Hauling"
+enUS = "Hauling"
+zhCN = "搬运"
+
+[Name_InventoryDebugFragment]
+raw = "Inventory Debug"
+enUS = "Inventory Debug"
+zhCN = "Inventory Debug"
+
+[Name_ManufactoryFragment]
+raw = "Manufactory"
+enUS = "Manufactory"
+zhCN = "工厂信息"
+
+[Name_ManufactoryInventoryFragment]
+raw = "Workshop Inventory"
+enUS = "Workshop Inventory"
+zhCN = "生产库存"
+
+[Name_ManufactoryTogglableRecipesFragment]
+raw = "Recipes"
+enUS = "Recipes"
+zhCN = "配方设置"
+
+[Name_MechanicalNodeFragment]
+raw = "Power Node"
+enUS = "Power Node"
+zhCN = "能量节点信息"
+
+[Name_MMFragment]
+raw = "Macro-management"
+enUS = "Macro-management"
+zhCN = "宏管理"
+
+[Name_MultiSelectFragment]
+raw = "Multi-Select"
+enUS = "Multi-Select"
+zhCN = "多选设置"
+
+[Name_PlantablePrioritizerFragment]
+raw = "Plant Priority"
+enUS = "Plant Priority"
+zhCN = "种植优先度"
+
+[Name_ProductionProgressFragment]
+raw = "Progress"
+enUS = "Progress"
+zhCN = "进度信息"
+
+[Name_ProductivityFragment]
+raw = "Productivity"
+enUS = "Productivity"
+zhCN = "生产效率信息"
+
+[Name_RecoveredGoodStackFragment]
+raw = "Recovered Goods"
+enUS = "Recovered Goods"
+zhCN = "瓦砾堆信息"
+
+[Name_RenovationStockpileFragment]
+raw = "Renovation Stockpile"
+enUS = "Renovation Stockpile"
+zhCN = "整修储备设置"
+
+[Name_RuinFragment]
+raw = "Ruin"
+enUS = "Ruin"
+zhCN = "废墟"
+
+[Name_ScienceNeedingBuildingFragment]
+raw = "Science Needed"
+enUS = "Science Needed"
+zhCN = "科学点数状态"
+
+[Name_SimpleOutputInventoryFragment]
+raw = "Inventory"
+enUS = "Inventory"
+zhCN = "收集库存"
+
+[Name_SluiceFragment]
+raw = "Sluice"
+enUS = "Sluice"
+zhCN = "水闸设置"
+
+[Name_StatusListFragment]
+raw = "Status"
+enUS = "Status"
+zhCN = "状态信息"
+
+[Name_StockpileGoodColumnVisualizerDebugFragment]
+raw = "Stock Debug"
+enUS = "Stock Debug"
+zhCN = "Stock Debug"
+
+[Name_StockpileInventoryDebugFragment]
+raw = "Inventory Debug"
+enUS = "Inventory Debug"
+zhCN = "Inventory Debug"
+
+[Name_StockpileInventoryFragment]
+raw = "Stockpile"
+enUS = "Stockpile"
+zhCN = "仓储"
+
+[Name_StockpilePriorityFragment]
+raw = "Stockpile Priority"
+enUS = "Stockpile Priority"
+zhCN = "仓储设置"
+
+[Name_StreamGaugeFragment]
+raw = "Stream Gauge"
+enUS = "Stream Gauge"
+zhCN = "水流计监测信息"
+
+[Name_TailDecalSupplierFragment]
+raw = "Tail Decal"
+enUS = "Tail Decal"
+zhCN = "细节装饰设置"
+
+[Name_WaterInputDepthFragment]
+raw = "Water Depth"
+enUS = "Water Depth"
+zhCN = "深度设置"
+
+[Name_WaterMoverFragment]
+raw = "Fluid Pump"
+enUS = "Fluid Pump"
+zhCN = "液体泵设置"
+
+[Name_WaterSourceFragment]
+raw = "Water Source (Dev)"
+enUS = "Water Source (Dev)"
+zhCN = "水源（开发者模式）"
+
+[Name_WaterSourceRegulatorFragment]
+raw = "Flow Regulator"
+enUS = "Flow Regulator"
+zhCN = "恶水建筑设置"
+
+[Name_WellbeingFragment]
+raw = "Wellbeing"
+enUS = "Wellbeing"
+zhCN = "康乐度信息"
+
+[Name_WindGaugeFragment]
+raw = "Wind Gauge"
+enUS = "Wind Gauge"
+zhCN = "风速计监测信息"
+
+[Name_WirelessCoilFragment]
+raw = "Wireless Coil"
+enUS = "Wireless Coil"
+zhCN = "能量线圈网络"
+
+[Name_WonderDebugFragment]
+raw = "Wonder Debug"
+enUS = "Wonder Debug"
+zhCN = "Wonder Debug"
+
+[Name_WonderFragment]
+raw = "Wonder"
+enUS = "Wonder"
+zhCN = "奇观库存"
+
+[Name_WorkplaceFragment]
+raw = "Workplace"
+enUS = "Workplace"
+zhCN = "工作场所信息"
+
+[Name_WorkshopDebugFragment]
+raw = "Workshop Debug"
+enUS = "Workshop Debug"
+zhCN = "Workshop Debug"
+
+[Name_ZiplineTowerFragment]
+raw = "Zipline Tower"
+enUS = "Zipline Tower"
+zhCN = "滑索设置"
+
+[Name_DistrictCenterFragment_DistrictCenterInventoryFragment]
+raw = "Inventory"
+enUS = "Inventory"
+zhCN = "地区中心库存"
+
+[Name_SluiceFragment_Automation]
+raw = "Sluice Automation"
+enUS = "Sluice Automation"
+zhCN = "水闸自动化设置"
+
+[Name_SluiceFragment_WaterInfo]
+raw = "Sluice Water Info"
+enUS = "Sluice Water Info"
+zhCN = "水闸监测信息"
+
+[Name_BreedingPodFragment_BreedingPodInventoryFragment]
+raw = "Inventory"
+enUS = "Inventory"
+zhCN = "繁殖舱库存"

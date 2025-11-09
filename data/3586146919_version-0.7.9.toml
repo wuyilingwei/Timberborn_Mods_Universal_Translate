@@ -1,0 +1,154 @@
+["LV.BL.BeavlineGroup"]
+raw = "Beavline Logistics"
+enUS = "Beavline Logistics"
+zhCN = "物流线"
+
+["LV.BL.BeavlineOut"]
+raw = "Beavline Output"
+enUS = "Beavline Output"
+zhCN = "物流输出口"
+
+["LV.BL.BeavlineOutDesc"]
+raw = "Sends goods to connected Beavline Inputs."
+enUS = "Sends goods to connected Beavline Inputs."
+zhCN = "在建筑上启用输出口功能，可以将物品送至与其连接的物流输入口建筑。"
+
+["LV.BL.BeavlineOutFlavor"]
+raw = "No detours, no delays. Just pure Beavline speed."
+enUS = "No detours, no delays. Just pure Beavline speed."
+zhCN = "没有绕路，没有延迟，这就是海狸物流线。"
+
+["LV.BL.BeavlineOutSpeed"]
+raw = "Beavline Output Express"
+enUS = "Beavline Output Express"
+zhCN = "物流高速输出口"
+
+["LV.BL.BeavlineOutSpeedDesc"]
+raw = "Increase the speed of Beavline Output by {0:+0%}"
+enUS = "Increase the speed of Beavline Output by {0:+0%}"
+zhCN = "提升物流输出口的输出速度 {0:+0%}。"
+
+["LV.BL.BeavlineOutSpeedFlavor"]
+raw = "Guaranteed delivery before the next dam break."
+enUS = "Guaranteed delivery before the next dam break."
+zhCN = "海狸次日达，您的最佳选择。"
+
+["LV.BL.BeavlineIn"]
+raw = "Beavline Input"
+enUS = "Beavline Input"
+zhCN = "物流输入口"
+
+["LV.BL.BeavlineInDesc"]
+raw = "Receives goods from connected Beavline Outputs."
+enUS = "Receives goods from connected Beavline Outputs."
+zhCN = "在建筑上启用输入口功能，可以从与其连接的物流输出口建筑接收物品。"
+
+["LV.BL.BeavlineInFlavor"]
+raw = "Your delivery has Beavlined its way here."
+enUS = "Your delivery has Beavlined its way here."
+zhCN = "您的货物已送达，请注意签收。"
+
+["LV.BL.BeavlineBalancer"]
+raw = "Beavline Storage Balancer"
+enUS = "Beavline Storage Balancer"
+zhCN = "物流平衡器"
+
+["LV.BL.BeavlineBalancerDesc"]
+raw = "Automatically evens out goods of the same type across all connected storages. Works independently from Beavline Input and Output. It happens every hour and there is no limit on the amount of goods it can move."
+enUS = "Automatically evens out goods of the same type across all connected storages. Works independently from Beavline Input and Output. It happens every hour and there is no limit on the amount of goods it can move."
+zhCN = "在建筑上启用平衡器功能，可以将物品在与其连接的同类建筑之间传输，自动平衡库存，每小时执行一次。如果关闭此功能，则此建筑的库存不参与自动平衡，仅作为物品传输的中转。"
+
+["LV.BL.BeavlineBalancerFlavor"]
+raw = "'Perfectly balanced, as all stockpiles should be.' — Damnos Titanus"
+enUS = "'Perfectly balanced, as all stockpiles should be.' — Damnos Titanus"
+zhCN = "完美且平衡，正如万事万物应有的状态。"
+
+["LV.BL.FilterGoods"]
+raw = "Filter goods: {0}"
+enUS = "Filter goods: {0}"
+zhCN = "物流筛选：{0}"
+
+["LV.BL.ChangeFilter"]
+raw = "Change filter"
+enUS = "Change filter"
+zhCN = "更改筛选器"
+
+["LV.BL.FilterAll"]
+raw = "All"
+enUS = "All"
+zhCN = "全部允许"
+
+["LV.BL.DisableToggle"]
+raw = "Disabled"
+enUS = "Disabled"
+zhCN = "禁用此功能"
+
+["LV.BL.ConnectedTo"]
+raw = "Connected to:"
+enUS = "Connected to:"
+zhCN = "连接："
+
+["LV.BL.Disabled"]
+raw = "<RedHighlight>[Disabled]</RedHighlight>"
+enUS = "<RedHighlight>[Disabled]</RedHighlight>"
+zhCN = "<color=#FF4C4C>[已禁用]</color>"
+
+["LV.BL.ErrInvalidBuilding"]
+raw = "This building cannot be connected to Beavline."
+enUS = "This building cannot be connected to Beavline."
+zhCN = "此建筑无法连接到物流线。"
+
+["LV.BL.ErrNoInput"]
+raw = "This building cannot receive goods"
+enUS = "This building cannot receive goods"
+zhCN = "此建筑无法接收物品。"
+
+["LV.BL.ErrNoOutput"]
+raw = "This building cannot send goods"
+enUS = "This building cannot send goods"
+zhCN = "此建筑无法发送物品。"
+
+["LV.BL.SelectAll"]
+raw = "Select All"
+enUS = "Select All"
+zhCN = "全选"
+
+["LV.BL.SelectNone"]
+raw = "Select None"
+enUS = "Select None"
+zhCN = "全不选"
+
+["LV.BL.OutputSpeed"]
+raw = "Output speed: {0:0.#} items/day"
+enUS = "Output speed: {0:0.#} items/day"
+zhCN = "输出速度：{0:0.#} 件/天"
+
+["LV.BL.ErrStockpileOnly"]
+raw = "This renovation can only be built on stockpiles (Piles, Warehouses and Tanks)."
+enUS = "This renovation can only be built on stockpiles (Piles, Warehouses and Tanks)."
+zhCN = "此整修项目仅适用于仓储建筑（材料堆、仓库和储水罐）。"
+
+["LV.BL.RemoveEntranceWarning"]
+raw = "Remove entrance warning"
+enUS = "Remove entrance warning"
+zhCN = "移除“建筑未连接”警告"
+
+["LV.BL.DisableBalancer"]
+raw = "Disable Beavline Balancer"
+enUS = "Disable Beavline Balancer"
+zhCN = "关闭“物流平衡器”功能"
+
+["LV.BL.ErrNeedOutput"]
+raw = "Can only be built on buildings with Beavline Output."
+enUS = "Can only be built on buildings with Beavline Output."
+zhCN = "此整修项目仅适用于已启用“物流输出口”的建筑。"
+
+[Name_BeavlineFragment]
+raw = "Beavline"
+enUS = "Beavline"
+zhCN = "物流出入"
+
+[Name_StockpileBalancerFragment]
+raw = "Beavline Stockpile"
+enUS = "Beavline Stockpile"
+zhCN = "物流平衡"
