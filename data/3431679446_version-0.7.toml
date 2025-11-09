@@ -1,0 +1,164 @@
+["jeferson90.progressivedifficulty.settings.header.temperate"]
+raw = "Temperate"
+enUS = "Temperate"
+zhCN = "温和天气"
+
+["jeferson90.progressivedifficulty.settings.header.hazardous"]
+raw = "Hazardous"
+enUS = "Hazardous"
+zhCN = "恶劣天气"
+
+["jeferson90.progressivedifficulty.settings.header.brutal"]
+raw = "Brutal"
+enUS = "Brutal"
+zhCN = "残酷天气"
+
+["jeferson90.progressivedifficulty.settings.hazardous_minimal_coeficient"]
+raw = "Minimal Multiplier"
+enUS = "Minimal Multiplier"
+zhCN = "持续时间下限系数"
+
+["jeferson90.progressivedifficulty.settings.hazardous_maximum_coeficient"]
+raw = "Maximum Multiplier"
+enUS = "Maximum Multiplier"
+zhCN = "持续时间上限系数"
+
+["jeferson90.progressivedifficulty.settings.brutal_cycle_enable"]
+raw = "Enable Brutal Cycle"
+enUS = "Enable Brutal Cycle"
+zhCN = "启用残酷天气"
+
+["jeferson90.progressivedifficulty.settings.brutal_cycle_enable_tooltip"]
+raw = "Brutal Cycle happens one time at any random hazardous cycle inside the range established"
+enUS = "Brutal Cycle happens one time at any random hazardous cycle inside the range established"
+zhCN = "残酷天气会在设定范围内随机取代一次恶劣天气。"
+
+["jeferson90.progressivedifficulty.settings.brutal_cycle_range"]
+raw = "Range"
+enUS = "Range"
+zhCN = "范围"
+
+["jeferson90.progressivedifficulty.settings.brutal_cycle_range_tooltip"]
+raw = "Between this range, a Brutal Cycle is guaranteed to happen.\nFor example:\nfor a value of 10, a Brutal Cycle is guaranteed to occurs after cycle 9\nSo between Cycle 10 and 19 it will occur one time, between Cycle 20 and 29 one more time and so on\n---\nfor a value of 13, a Brutal Cycle is guaranteed to occurs after cycle 12\nSo between Cycle 13 and 25 it will occur one time, between Cycle 26 and 39 one more time and so on"
+enUS = "Between this range, a Brutal Cycle is guaranteed to happen.\nFor example:\nfor a value of 10, a Brutal Cycle is guaranteed to occurs after cycle 9\nSo between Cycle 10 and 19 it will occur one time, between Cycle 20 and 29 one more time and so on\n---\nfor a value of 13, a Brutal Cycle is guaranteed to occurs after cycle 12\nSo between Cycle 13 and 25 it will occur one time, between Cycle 26 and 39 one more time and so on"
+zhCN = "从第N个周期开始，每N个周期内必定发生一次残酷天气。"
+
+["jeferson90.progressivedifficulty.settings.brutal_coeficient"]
+raw = "Brutal Cycle Multiplier"
+enUS = "Brutal Cycle Multiplier"
+zhCN = "持续时间附加系数"
+
+["jeferson90.progressivedifficulty.settings.temperate_handicap"]
+raw = "Temperate equation delay in cycles"
+enUS = "Temperate equation delay in cycles"
+zhCN = "温和天气延迟周期数"
+
+["jeferson90.progressivedifficulty.settings.temperate_minimal_coeficient"]
+raw = "Minimal Multiplier"
+enUS = "Minimal Multiplier"
+zhCN = "持续时间下限乘数"
+
+["jeferson90.progressivedifficulty.settings.temperate_maximum_coeficient"]
+raw = "Maximum Multiplier"
+enUS = "Maximum Multiplier"
+zhCN = "持续时间上限乘数"
+
+["jeferson90.progressivedifficulty.settings.temperate_min_max_coeficient_tooltip"]
+raw = "The temperate cycle duration is now proportional to the next hazardous cycle duration."
+enUS = "The temperate cycle duration is now proportional to the next hazardous cycle duration."
+zhCN = "温和期的持续时间将与下一个恶劣天气的持续时间相关，上下限由系数决定。"
+
+["jeferson90.progressivedifficulty.settings.temperate_min_days"]
+raw = "Minimum days"
+enUS = "Minimum days"
+zhCN = "最小持续时间"
+
+["jeferson90.progressivedifficulty.settings.temperate_min_days_tooltip"]
+raw = "Minimum days of temperate weather"
+enUS = "Minimum days of temperate weather"
+zhCN = "温和天气的最小持续时间。"
+
+["jeferson90.progressivedifficulty.settings.badtidechance"]
+raw = "Badtide chance"
+enUS = "Badtide chance"
+zhCN = "恶水潮概率"
+
+["jeferson90.progressivedifficulty.settings.jfloodchance"]
+raw = "Flood chance"
+enUS = "Flood chance"
+zhCN = "洪水期概率"
+
+["jeferson90.progressivedifficulty.settings.badtidehandicap"]
+raw = "Badtide handicap"
+enUS = "Badtide handicap"
+zhCN = "恶水潮延迟"
+
+["jeferson90.progressivedifficulty.settings.jfloodhandicap"]
+raw = "Flood handicap"
+enUS = "Flood handicap"
+zhCN = "洪水期延迟"
+
+["jeferson90.progressivedifficulty.settings.header.main"]
+raw = "Settings"
+enUS = "Settings"
+zhCN = "设置"
+
+["Weather.Flood"]
+raw = "Flood"
+enUS = "Flood"
+zhCN = "洪水期"
+
+["Weather.Notification.FloodApproaching"]
+raw = "Flood approaching"
+enUS = "Flood approaching"
+zhCN = "洪水期即将到来"
+
+["Weather.Notification.FloodInProgress"]
+raw = "Flood in progress"
+enUS = "Flood in progress"
+zhCN = "洪水期正在发生"
+
+["Weather.FloodStartedNotification"]
+raw = "Flood started"
+enUS = "Flood started"
+zhCN = "洪水期开始了"
+
+["Weather.FloodEndedNotification"]
+raw = "Flood ended"
+enUS = "Flood ended"
+zhCN = "洪水期已结束"
+
+["jeferson90.progressivedifficulty.settings.other"]
+raw = "Others"
+enUS = "Others"
+zhCN = "其他"
+
+["jeferson90.progressivedifficulty.settings.evaporation_framework_enable_setting"]
+raw = "Enable Custom Evaporation"
+enUS = "Enable Custom Evaporation"
+zhCN = "启用自定义蒸发速度"
+
+["jeferson90.progressivedifficulty.settings.badtidechance_tooltip"]
+raw = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% and so on.\nRecommended to keep it very low.\n\nIf Badtide chance is 0.5 (50%) and Flood chance is 0.5 (50%), then there will be no Drought Weather\nIf Badtide chance is 0.1 (10%) and Flood chance is 0.2 (20%), there there will be a 70% chance of Drought Weather"
+enUS = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% and so on.\nRecommended to keep it very low.\n\nIf Badtide chance is 0.5 (50%) and Flood chance is 0.5 (50%), then there will be no Drought Weather\nIf Badtide chance is 0.1 (10%) and Flood chance is 0.2 (20%), there there will be a 70% chance of Drought Weather"
+zhCN = "恶劣天气的发生概率，小数对应百分比（恶水潮和洪水期概率之和不足1时，剩余为干旱期概率）"
+
+["jeferson90.progressivedifficulty.settings.header.jevaporation"]
+raw = "Evaporation"
+enUS = "Evaporation"
+zhCN = "蒸发"
+
+["jeferson90.progressivedifficulty.settings.jevaporation.enable"]
+raw = "Enable"
+enUS = "Enable"
+zhCN = "启用蒸发"
+
+["jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip"]
+raw = ""
+enUS = ""
+zhCN = ""
+
+["jeferson90.progressivedifficulty.settings.jevaporation.multiplier"]
+raw = "Multiplier"
+enUS = "Multiplier"
+zhCN = "蒸发系数"
