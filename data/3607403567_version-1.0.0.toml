@@ -1,0 +1,129 @@
+["LV.CPl.PlacementSect"]
+raw = "Placement options:"
+enUS = "Placement options:"
+zhCN = "<b>种植选项：</b>"
+
+["LV.CPl.RemoveCorner"]
+raw = "Remove corner occupation"
+enUS = "Remove corner occupation"
+zhCN = "移除角落占用"
+
+["LV.CPl.RemoveCornerDesc"]
+raw = "Allows building structures such as Platforms over plants."
+enUS = "Allows building structures such as Platforms over plants."
+zhCN = "勾选后，可以在植物上建造平台等结构建筑。"
+
+["LV.CPl.RemovePath"]
+raw = "Remove path occupation"
+enUS = "Remove path occupation"
+zhCN = "移除路径占用"
+
+["LV.CPl.RemovePathDesc"]
+raw = "Allows building Paths through plants."
+enUS = "Allows building Paths through plants."
+zhCN = "勾选后，可以在植物上铺设道路。"
+
+["LV.CPl.WithoutGround"]
+raw = "Plant without ground"
+enUS = "Plant without ground"
+zhCN = "无地面种植"
+
+["LV.CPl.WithoutGroundDesc"]
+raw = "Allows planting directly on roofs and platforms without soil. These plants receive irrigation and contamination from the land below."
+enUS = "Allows planting directly on roofs and platforms without soil. These plants receive irrigation and contamination from the land below."
+zhCN = "勾选后，可以直接在屋顶和平台上种植，无需泥土；植物的灌溉或污染受正下方的土地影响。"
+
+["LV.CPl.NoConUp"]
+raw = "> No contamination up (cheater :P)"
+enUS = "> No contamination up (cheater :P)"
+zhCN = "> 无污染上渗"
+
+["LV.CPl.NoConUpDesc"]
+raw = "Prevents land contamination from being brought up. Enables planting trees or crops on platforms even if the land below is unsuitable."
+enUS = "Prevents land contamination from being brought up. Enables planting trees or crops on platforms even if the land below is unsuitable."
+zhCN = "勾选后，屋顶和平台上种植的植物默认被灌溉，不再受正下方土地影响。"
+
+["LV.CPl.GrowthSect"]
+raw = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Rate ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
+enUS = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Rate ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
+zhCN = "<b>生长选项：</b>除了产出数量倍数以外，其他参数设为低于默认（×1）可以降低难度。示例：<br>- 种植时间倍数×0.5：种植橡树耗时 1小时→0.5小时<br>- 生长速度倍数×0.5：土豆成熟耗时 5天→2.5天<br>- 产出数量倍数×1.5：每棵胡萝卜有 3个→4个<br>- 收获时间倍数×0.5：砍伐橡树耗时 2小时→1小时<br>- 拆除时间倍数×0.5：拆除松树耗时 1.2小时→0.6小时"
+
+["LV.CPl.PlantingTime"]
+raw = "Planting time multiplier"
+enUS = "Planting time multiplier"
+zhCN = "种植时间倍数"
+
+["LV.CPl.PlantingTimeDesc"]
+raw = "Multiplier for time taken to plant."
+enUS = "Multiplier for time taken to plant."
+zhCN = "可以将种植所需时间更改为原来的N倍（游戏默认：x1）。"
+
+["LV.CPl.GrowthRate"]
+raw = "Growth rate multiplier"
+enUS = "Growth rate multiplier"
+zhCN = "生长速度倍数"
+
+["LV.CPl.GrowthRateDesc"]
+raw = "Multiplier for growth time."
+enUS = "Multiplier for growth time."
+zhCN = "可以将生长速度更改为原来的N倍（游戏默认：x1）。"
+
+["LV.CPl.OutputMul"]
+raw = "Output multiplier"
+enUS = "Output multiplier"
+zhCN = "产出数量倍数"
+
+["LV.CPl.OutputMulDesc"]
+raw = "Multiplier for output (rounded down)."
+enUS = "Multiplier for output (rounded down)."
+zhCN = "可以将产出数量更改为原来的N倍，向下取整（游戏默认：x1）。"
+
+["LV.CPl.HarvestTime"]
+raw = "Harvest time multiplier"
+enUS = "Harvest time multiplier"
+zhCN = "收获时间倍数"
+
+["LV.CPl.HarvestTimeDesc"]
+raw = "Multiplier for time taken to harvest/cut down."
+enUS = "Multiplier for time taken to harvest/cut down."
+zhCN = "可以将采集、砍伐所需时间更改为原来的N倍（游戏默认：x1）。"
+
+["LV.CPl.DemolishTime"]
+raw = "Demolishing time multiplier"
+enUS = "Demolishing time multiplier"
+zhCN = "拆除时间倍数"
+
+["LV.CPl.DemolishTimeDesc"]
+raw = "Multiplier for time taken to demolish."
+enUS = "Multiplier for time taken to demolish."
+zhCN = "可以将拆除所需时间更改为原来的N倍（游戏默认：x1）。"
+
+["LV.CPl.TreeSect"]
+raw = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
+enUS = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
+zhCN = "林业植物：由林木工种植，砍伐后可以获得原木的植物（如桦树、松树）。"
+
+["LV.CPl.CropSect"]
+raw = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
+enUS = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
+zhCN = "农业植物：由农民或林木工种植，提供食物的其他植物（如胡萝卜、浆果丛）。"
+
+["LV.CPl.ProductSect"]
+raw = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
+enUS = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
+zhCN = "再生产物：植物成熟后继续生长，收获后可以再生的资源（如浆果、松脂）。"
+
+["LV.CPl.AllSect"]
+raw = "For all plants:"
+enUS = "For all plants:"
+zhCN = "全局设置："
+
+["LV.CPl.ReproducibleChanceMultiplier"]
+raw = "Reproducible chance multiplier"
+enUS = "Reproducible chance multiplier"
+zhCN = "蔓延概率倍数"
+
+["LV.CPl.ReproducibleChanceMultiplierDesc"]
+raw = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
+enUS = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
+zhCN = "可以将树木的蔓延概率更改为原来的N倍（游戏默认：x1，即每小时有1-3%的概率蔓延至相邻方格，具体概率取决于树木种类）。"
