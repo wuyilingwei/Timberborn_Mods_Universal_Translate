@@ -56,30 +56,6 @@ deDE = "Entferne den Nebel im Spiel."
 plPL = "Usuń mgłę w grze."
 ptBR = "Remova a neblina no jogo."
 
-["LV.TI.PauseBadWeather"]
-raw = "Pause on bad weather"
-enUS = "Pause on bad weather"
-zhCN = "恶劣天气时暂停"
-zhTW = "因惡劣天氣暫停"
-ruRU = "Пауза из-за плохой погоды"
-jaJP = "悪天候を一時停止する"
-frFR = "Pause sur le mauvais temps"
-deDE = "Pause bei schlechtem Wetter"
-plPL = "Przerwa w złej pogodzie"
-ptBR = "Pausa em caso de mau tempo"
-
-["LV.TI.PauseBadWeatherDesc"]
-raw = "Pause the game when bad weather (drought, bad tide) starts."
-enUS = "Pause the game when bad weather (drought, poor tide) begins."
-zhCN = "勾选后，当恶劣天气开始时暂停游戏。"
-zhTW = "在惡劣天氣（乾旱、潮汐不佳）開始時暫停遊戲。"
-ruRU = "Приостановите игру, когда начнется плохая погода (засуха, плохие приливы)."
-jaJP = "悪天候（干ばつや悪潮）が始まったら、ゲームを一時停止してください。"
-frFR = "Mettez le jeu sur pause lorsque des intempéries (sécheresse, marée mauvaise) commencent."
-deDE = "Pausiere das Spiel, wenn schlechtes Wetter (Dürre, schlechte Gezeiten) einsetzt."
-plPL = "Wstrzymaj grę, gdy zacznie się zła pogoda (susza, niekorzystny przypływ)."
-ptBR = "Pausar o jogo quando o mau tempo (seca, maré ruim) começar."
-
 ["LV.TI.ShowCoords"]
 raw = "Show coordinates"
 enUS = "Show coordinates"
@@ -131,7 +107,7 @@ ptBR = "Altura: {0}"
 ["LV.TI.OnlyShowHeight"]
 raw = "  Only show the height"
 enUS = "Only show the height."
-zhCN = "仅显示高度"
+zhCN = "> 仅显示高度"
 zhTW = "僅顯示高度"
 ruRU = "Показывать только высоту"
 jaJP = "高さだけを表示してください。"
@@ -176,30 +152,6 @@ deDE = "Setze die Priorität von Trümmern automatisch auf Hoch."
 plPL = "Automatycznie ustaw priorytet gruzów na wysoki."
 ptBR = "Defina automaticamente a prioridade dos entulhos como Alta."
 
-["LV.TI.AllDayLight"]
-raw = "No daylight change"
-enUS = "No daylight saving time change"
-zhCN = "停止光照变化"
-zhTW = "沒有日光變化"
-ruRU = "Нет изменения света дня"
-jaJP = "日照の変更なし"
-frFR = "Aucun changement d'heure solaire"
-deDE = "Keine Tageslichtänderung"
-plPL = "Brak zmiany czasu letniego"
-ptBR = "Sem mudança de horário de verão"
-
-["LV.TI.AllDayLightDesc"]
-raw = "Visual/UI only. Selected daylight will stay all the time instead of changing during the day."
-enUS = "Visual/UI only. The selected daylight will remain constant instead of changing throughout the day."
-zhCN = "勾选后，将保持选定的光照环境，不再随时间变化。"
-zhTW = "僅限視覺/界面。選定的日光將始終保持不變，而不會隨著天氣變化。"
-ruRU = "Визуально/интерфейсно только. Выбранный дневной свет будет оставаться постоянным вместо изменения в течение дня."
-jaJP = "視覚/UIのみ。選択した昼光は、日中に変わることなく常にそのまま維持されます。"
-frFR = "Visuel/UI uniquement. La lumière du jour sélectionnée restera toujours au lieu de changer au cours de la journée."
-deDE = "Visuell/UI nur. Das ausgewählte Tageslicht bleibt die ganze Zeit erhalten, anstatt sich während des Tages zu ändern."
-plPL = "Wyłącznie wizualny/interfejs użytkownika. Wybrany tryb dzienny będzie trwał cały czas zamiast zmieniać się w ciągu dnia."
-ptBR = "Visual/UI apenas. A luz do dia selecionada permanecerá o tempo todo em vez de mudar durante o dia."
-
 ["LV.TI.ShowGameTime"]
 raw = "Show game time"
 enUS = "Show game time"
@@ -239,7 +191,7 @@ ptBR = "Habilitar velocidade 0,25x [Shift+1]"
 ["LV.TI.EnableSpeedS25Desc"]
 raw = "Unlock the 0.25x speed option in the game by pressing Shift+1. Normally, this is only available in Dev Mode."
 enUS = "Unlock the 0.25x speed option in the game by pressing Shift+1. Normally, this is only available in Dev Mode."
-zhCN = "勾选后，可以通过按下快捷键（Shift+数字键1）将游戏速度设置为0.25倍速度。"
+zhCN = "勾选后，可以通过按下快捷键（Shift+数字键1）将游戏速度设置为0.25倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。"
 zhTW = "透過按下 Shift+1 解鎖遊戲中的 0.25x 速度選項。通常，這僅在開發模式中可用。"
 ruRU = "Разблокируйте опцию скорости 0,25x в игре, нажав Shift+1. Обычно это доступно только в режиме разработчика."
 jaJP = "ゲームで0.25倍速オプションを解除するには、Shift+1を押してください。通常、これはデバイザーモードでのみ利用可能です。"
@@ -263,7 +215,7 @@ ptBR = "Ativar velocidade 30x [4]"
 ["LV.TI.EnableSpeed4Desc"]
 raw = "Unlock the 4th speed 30x option in the game by pressing 4. Normally, this is only available in Dev Mode."
 enUS = "Unlock the 4th speed 30x option in the game by pressing 4. Normally, this is only available in Dev Mode."
-zhCN = "勾选后，可以通过按下快捷键（数字键4）将游戏速度设置为30倍速度。"
+zhCN = "勾选后，可以通过按下快捷键（数字键4）将游戏速度设置为30倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。"
 zhTW = "透過按下4鍵來解鎖遊戲中的第四快速30倍選項。通常這僅在開發者模式中可用。"
 ruRU = "Разблокируйте опцию 30x 4-й скорости в игре, нажав 4. Обычно она доступна только в режиме разработчика."
 jaJP = "ゲーム内で4を押して4番目のスピード30倍オプションを解除します。通常、これは開発モードでのみ利用可能です。"
@@ -287,7 +239,7 @@ ptBR = "Ativar velocidade 99x [5] (!)"
 ["LV.TI.EnableSpeed5Desc"]
 raw = "Unlock the 5th speed 99x option in the game by pressing 5. Normally, this is only available in Dev Mode. Be warned that this speed is unstable and may cause issues with the game. Somebody said beavers may stay hungry and thirsty."
 enUS = "Unlock the 5th speed 99x option in the game by pressing 5. Normally, this is only available in Dev Mode. Be warned that this speed is unstable and may cause issues with the game. Someone mentioned that beavers may remain hungry and thirsty."
-zhCN = "勾选后，可以通过按下快捷键（数字键5）将游戏速度设置为99倍速度。<br>注意，此速度可能会导致游戏问题，如海狸饿死或渴死。"
+zhCN = "勾选后，可以通过按下快捷键（数字键5）将游戏速度设置为99倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。<br>注意，此速度可能会导致游戏问题，如海狸饿死或渴死。"
 zhTW = "在遊戲中按下 5 鍵解鎖第五速度 99x 選項。通常，這只在開發模式下可用。請注意，這個速度不穩定，可能會導致遊戲出現問題。有些人說海狸可能會保持飢餓和口渴。"
 ruRU = "Разблокируйте 5-ю скорость 99x в игре, нажав 5. Обычно эта опция доступна только в режиме разработчика. Будьте осторожны, эта скорость нестабильна и может вызвать проблемы с игрой. Кто-то сказал, что бобры могут оставаться голодными и жаждущими."
 jaJP = "ゲーム内で5を押すことで、5番目の速度99倍オプションをアンロックします。通常、これは開発モードでのみ利用可能です。この速度は不安定で、ゲームに問題を引き起こす可能性があるため、注意が必要です。誰かがビーバーが空腹や渇きのままでいる可能性があると言っていました。"
@@ -311,7 +263,7 @@ ptBR = "Luz do dia estática"
 ["LV.TI.StaticLightDesc"]
 raw = "Visual/UI only. This daylight will stay the same all the time."
 enUS = "Visual/UI only. This daylight will remain constant at all times."
-zhCN = "选定的光照环境。"
+zhCN = "可以设置是否将光照固定为特殊方向。"
 zhTW = "視覺/UI 只有。這種日光將始終保持不變。"
 ruRU = "Только визуальный интерфейс. Этот дневной свет будет оставаться одинаковым всё время."
 jaJP = "ビジュアル/UIのみ。この昼間は常に同じままです。"
@@ -319,6 +271,11 @@ frFR = "Visuel/UI uniquement. Cette lumière du jour restera la même tout le te
 deDE = "Visual/UI nur. Dieses Tageslicht wird immer gleich bleiben."
 plPL = "Wyłącznie wizualne/UI. To światło dzienne pozostanie takie samo przez cały czas."
 ptBR = "Visual/UI apenas. Esta iluminação diurna permanecerá a mesma o tempo todo."
+
+["LV.TI.LightNone"]
+raw = "None"
+enUS = "None"
+zhCN = "无"
 
 ["LV.TI.LightSunrise"]
 raw = "Sunrise"
@@ -407,7 +364,7 @@ ptBR = "Área de arrasto de construção maior (!)"
 ["LV.TI.BiggerBuildDragAreaDesc"]
 raw = "Increase the build drag area for buildings like Dams (default 10x10) or Roads (25). This significantly increases the load time and memory usage so use it with caution. Example: setting this to 5 will make the drag area 15x15 Dams or 30 Roads. Can only be changed at the Main Menu"
 enUS = "Increase the build drag area for buildings like Dams (default 10x10) or Roads (25). This significantly increases the load time and memory usage, so use it with caution. For example, setting this to 5 will make the drag area 15x15 for Dams or 30 for Roads. This can only be changed at the Main Menu."
-zhCN = "可以增加建筑物或道路的建造拖动区域大小。只能在主菜单中更改。<br>设置为X将使拖动区域从NxN变为(N+X)x(N+X)。<br>注意，会显著增加加载时间和内存使用。"
+zhCN = "可以增加建筑物或道路的建造拖动区域大小。设置为 X 将使拖动区域从 NxN 变为 (N+X)x(N+X)。<br>可以随时修改；如果在游戏中修改，则需重新加载存档。<br>注意，会显著增加加载时间和内存使用。"
 zhTW = "增加建築物的拖曳區域，例如大壩（默認為10x10）或道路（25）。這會顯著增加加載時間和內存使用量，因此使用時請小心。範例：將此設置為5將使拖曳區域變為15x15的大壩或30條道路。只能在主選單中更改。"
 ruRU = "Увеличьте область перетаскивания для зданий, таких как дамбы (по умолчанию 10x10) или дороги (25). Это значительно увеличивает время загрузки и использование памяти, поэтому используйте это с осторожностью. Пример: установка этого значения на 5 сделает область перетаскивания 15x15 для дамб или 30 для дорог. Изменить можно только в главном меню."
 jaJP = "ダム（デフォルトは10x10）や道路（25）などの建物のビルドドラッグエリアを増やします。これにより、読み込み時間とメモリ使用量が大幅に増加するため、注意して使用してください。例：これを5に設定すると、ドラッグエリアは15x15のダムまたは30の道路になります。メインメニューでのみ変更できます。"
@@ -431,7 +388,7 @@ ptBR = "Limpar tocos mortos"
 ["LV.TI.AutoClearDeadTreesDesc"]
 raw = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
 enUS = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
-zhCN = "可以设置是否自动清除树桩和植物残骸（已死亡的树苗、灌木、作物等）。<br>- 默认：不自动清除<br>- 工具：仅在使用标注拆除工具时清除<br>- 自动：出现时自动清除"
+zhCN = "勾选后，自动清除树桩和植物残骸（已死亡的作物、灌木、树苗等）。"
 zhTW = "自動清除死樹樁或灌木叢（那些您可以立即通過在其上建築來摧毀的）：\n- 否：不要清除任何東西\n- 工具：使用拆除工具時\n- 自動：當它們出現時立即清除"
 ruRU = "Автоматически очищать мертвые пни или кусты (те, которые вы могли бы уничтожить сразу, построив на их месте):\n- Нет: не очищать ничего\n- Инструмент: при использовании инструмента сноса\n- Авто: просто очищать их сразу, как только они появятся"
 jaJP = "自動的に枯れた切り株や茂みを取り除く（すぐに建物を建てることで破壊できたもの）：\n- いいえ：何も取り除かない\n- ツール：解体ツールを使用する際\n- 自動：出現した瞬間にただ取り除く"
@@ -439,42 +396,6 @@ frFR = "Effacer automatiquement les souches ou buissons morts (ceux que vous aur
 deDE = "Tote Baumstümpfe oder Büsche automatisch entfernen (diese hätten Sie sofort durch Überbauen zerstören können):\n- Nein: nichts entfernen\n- Werkzeug: beim Einsatz des Abbruchwerkzeugs\n- Auto: einfach sofort entfernen, wenn sie erscheinen"
 plPL = "Automatycznie usuwaj martwe pniaki lub krzaki (te, które mogłeś zniszczyć od razu, budując na ich miejscu):\n- Nie: nie usuwaj nic\n- Narzędzie: używając narzędzia do burzenia\n- Automatycznie: po prostu usuwaj je w momencie, gdy się pojawią"
 ptBR = "Limpar automaticamente tocos ou arbustos mortos (aqueles que você poderia ter destruído imediatamente construindo sobre eles):\n- Não: não limpe nada\n- Ferramenta: ao usar a Ferramenta de Demolição\n- Automático: apenas limpe-os assim que aparecerem"
-
-["LV.TI.AutoClearDeadTreesNo"]
-raw = "No"
-enUS = "No"
-zhCN = "默认"
-zhTW = "不"
-ruRU = "Нет"
-jaJP = "いいえ"
-frFR = "Non"
-deDE = "Nein"
-plPL = "Nie"
-ptBR = "Não"
-
-["LV.TI.AutoClearDeadTreesTool"]
-raw = "Tool"
-enUS = "Tool"
-zhCN = "工具"
-zhTW = "工具"
-ruRU = "Инструмент"
-jaJP = "ツール"
-frFR = "Outil"
-deDE = "Werkzeug"
-plPL = "Narzędzie"
-ptBR = "Ferramenta"
-
-["LV.TI.AutoClearDeadTreesAuto"]
-raw = "Auto"
-enUS = "Auto"
-zhCN = "自动"
-zhTW = "自動車"
-ruRU = "Авто"
-jaJP = "オート"
-frFR = "Auto"
-deDE = "Auto"
-plPL = "Samochód"
-ptBR = "Carro"
 
 ["LV.TI.AddRealTimeClock"]
 raw = "Add real-time clock"
@@ -503,36 +424,12 @@ ptBR = "Adicione um relógio em tempo real no canto superior direito. Isso é ú
 ["LV.TI.Clock24"]
 raw = "Use 24-hour format"
 enUS = "Use 24-hour format"
-zhCN = "使用24小时制"
+zhCN = "> 使用24小时制"
 
 ["LV.TI.Clock24Desc"]
 raw = "Use 24-hour format for the real-time clock (17:30 instead of 05:30)."
 enUS = "Use 24-hour format for the real-time clock (17:30 instead of 05:30)."
 zhCN = "勾选后，启用“显示现实时间”时，使用24小时制。"
-
-["LV.TI.DisableShadowRotation"]
-raw = "Disable shadow rotation"
-enUS = "Disable shadow rotation"
-zhCN = "禁用阴影旋转"
-zhTW = "禁用陰影旋轉"
-ruRU = "Отключить вращение тени"
-jaJP = "影の回転を無効にする"
-frFR = "Désactiver la rotation de l'ombre"
-deDE = "Schattenrotation deaktivieren"
-plPL = "Wyłącz rotację cienia"
-ptBR = "Desativar a rotação da sombra"
-
-["LV.TI.DisableShadowRotationDesc"]
-raw = "This will make shadows static and not rotate with the sun."
-enUS = "This will make shadows static and not rotate with the sun."
-zhCN = "勾选后，将保持当前的阴影方向，不再随光照变化。"
-zhTW = "這將使陰影靜態，不會隨著太陽旋轉。"
-ruRU = "Это сделает тени статичными и они не будут вращаться вместе с солнцем."
-jaJP = "これにより、影が静的になり、太陽とともに回転しなくなります。"
-frFR = "Cela rendra les ombres statiques et ne les fera pas tourner avec le soleil."
-deDE = "Dadurch werden die Schatten statisch und drehen sich nicht mit der Sonne."
-plPL = "To sprawi, że cienie będą statyczne i nie będą obracać się wraz z słońcem."
-ptBR = "Isso fará com que as sombras sejam estáticas e não girem com o sol."
 
 ["LV.TI.AutoSpeed"]
 raw = "Auto-speed"

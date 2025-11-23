@@ -133,7 +133,7 @@ ptBR = "Quantidade de bomba mecânica (⚡!)"
 ["LV.SPE.MechPumpWaterDesc"]
 raw = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly, see below."
 enUS = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s). ⚡ Note: changing this also increases or decreases power usage accordingly, see below."
-zhCN = "可以更改液体机械泵每秒泵送的流量（游戏默认：0.25cms，但游戏中的液体计算速度为2倍，所以实际为0.5cms，即每秒0.5立方米）。<br>注意，更改此值也会相应增加或减少液体机械泵的功耗，详见相应设置。"
+zhCN = "可以更改液体机械泵每秒泵送的流量（游戏默认：0.25cms，每秒0.5立方米）。<br>注意，更改此值也会相应增加或减少液体机械泵的功耗，详见相应设置。"
 zhTW = "每秒機械泵抽水的量（遊戲預設：0.25cm³/s）。  \n⚡ 注意：更改此數值也會相應地增加或減少耗電量，詳情見下文。"
 ruRU = "Количество воды в секунду, которую перекачивает механический насос (по умолчанию в игре: 0,25 см³/с).  \n⚡ Примечание: изменение этого параметра также соответственно увеличивает или уменьшает потребление энергии, см. ниже."
 jaJP = "機械ポンプが1秒間にポンプする水の量（ゲームのデフォルト：0.25cm³/s）。  \n⚡ 注意：これを変更すると、電力の使用量もそれに応じて増加または減少します。以下を参照してください。"
@@ -141,6 +141,16 @@ frFR = "La quantité d'eau par seconde que la pompe mécanique pompe (valeur par
 deDE = "Die Menge an Wasser pro Sekunde, die die mechanische Pumpe fördert (Spielstandard: 0,25 cm³/s).  \n⚡ Hinweis: Eine Änderung hiervon erhöht oder verringert auch den Stromverbrauch entsprechend, siehe unten."
 plPL = "Ilość wody na sekundę, którą pompuje pompa mechaniczna (domyślnie w grze: 0,25 cm³/s).  \n⚡ Uwaga: zmiana tej wartości również zwiększa lub zmniejsza zużycie energii odpowiednio, patrz poniżej."
 ptBR = "A quantidade de água por segundo que a bomba mecânica bomba (padrão do jogo: 0,25 cm³/s).  \n⚡ Nota: alterar isso também aumenta ou diminui o consumo de energia de acordo, veja abaixo."
+
+["LV.SPE.MechPumpWaterMul"]
+raw = "Mechanical pump amount multiplier (⚡!)"
+enUS = "Mechanical pump amount multiplier (⚡!)"
+zhCN = "机械泵流量倍数"
+
+["LV.SPE.MechPumpWaterMulDesc"]
+raw = "The multiplier for the amount of water per second that the mechanical pump pumps (Game default: 1x = 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly.\nNote: don't increase this too much (> x2) as the pump can only take water from 1 cube anyway."
+enUS = "The multiplier for the amount of water per second that the mechanical pump pumps (Game default: 1x = 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly.\nNote: don't increase this too much (> x2) as the pump can only take water from 1 cube anyway."
+zhCN = "可以将机械液体泵每秒泵送的流量更改为原来的N倍（游戏默认：1，即0.25cms，每秒0.25立方米）。<br>注意，更改此值也会相应增加或减少液体机械泵的功耗，详见相应设置。<br>注意，不建议倍数过大（>2倍），因为液体泵只能从一格抽水。"
 
 ["LV.SPE.MechPumpPowerMultiplier"]
 raw = "Mechanical pump power multiplier"
@@ -157,7 +167,7 @@ ptBR = "Multiplicador de potência da bomba mecânica"
 ["LV.SPE.MechPumpPowerDesc"]
 raw = "By default, this mod keeps the power usage at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheater :P) that ratio. Game default: 1x"
 enUS = "By default, this mod keeps the power usage at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheater :P) that ratio. Game default: 1x"
-zhCN = "可以将机械液体泵的单位功耗更改为原来的N倍（游戏默认：1，即每0.25cms流量需要消耗1个单位的马力，即700马力）。"
+zhCN = "可以将机械液体泵的单位功耗更改为原来的N倍（游戏默认：1，即每0.25cms流量需要消耗1个单位的马力，即700马力）。<br>注意，机械泵流量的修改也会影响机械泵功率，所以还需乘以机械泵流量对应的倍数。"
 zhTW = "默認情況下，此模組將功率使用保持在每0.25立方厘米700馬力。使用此修飾符來增加或減少（作弊 :P）該比例。遊戲默認值：1倍"
 ruRU = "По умолчанию этот мод удерживает потребление энергии на уровне 700HP на 0,25 см³. Используйте этот модификатор, чтобы увеличить или уменьшить (жульничая :P) это соотношение. Игровое значение по умолчанию: 1x"
 jaJP = "デフォルトでは、このモッドは0.25cm³あたり700HPの電力使用量を保持します。この修飾子を使用して、その比率を増減（ずるい :P）させてください。ゲームのデフォルト: 1x"
