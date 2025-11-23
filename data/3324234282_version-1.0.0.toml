@@ -1508,6 +1508,11 @@ deDE = "oder"
 plPL = "lub"
 ptBR = "ou"
 
+["IgorZ.Automation.Scripting.Expressions.NotOperator"]
+raw = "NOT"
+enUS = "NOT"
+zhCN = "非"
+
 ["IgorZ.Automation.Scripting.Expressions.ParseError"]
 raw = "PARSE ERROR"
 enUS = "PARSE ERROR"
@@ -1876,12 +1881,12 @@ zhCN = "跳过失败规则"
 ["IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError"]
 raw = "Action not applicable:\n{0}"
 enUS = "Action not applicable:\n{0}"
-zhCN = "操作不适用：{0}"
+zhCN = "操作不适用：<br>{0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError"]
 raw = "Condition not applicable:\n{0}"
 enUS = "Condition not applicable:\n{0}"
-zhCN = "条件不适用：{0}"
+zhCN = "条件不适用：<br>{0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ExpectedActionError"]
 raw = "Expected action expression"
@@ -1977,6 +1982,31 @@ zhCN = "评估动作参数中的值"
 raw = "Number of rules to show in panel"
 enUS = "Number of rules to show in panel"
 zhCN = "面板中显示的规则数量"
+
+["IgorZ.Automation.Settings.ScriptEditor.Header"]
+raw = "Script editor"
+enUS = "Script editor"
+zhCN = "脚本编辑器"
+
+["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntax"]
+raw = "Default expressions syntax"
+enUS = "Default expressions syntax"
+zhCN = "默认表达式语法"
+
+["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxLisp"]
+raw = "Lisp-style"
+enUS = "Lisp-style"
+zhCN = "Lisp格式"
+
+["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxPython"]
+raw = "Python-style"
+enUS = "Python-style"
+zhCN = "Python格式"
+
+["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxTooltip"]
+raw = "Syntax can be overridden in the expression body by adding prefix '#PY' for Python or '#LP' for Lisp."
+enUS = "Syntax can be overridden in the expression body by adding prefix '#PY' for Python or '#LP' for Lisp."
+zhCN = "可通过在表达式主体中添加前缀'#PY'（Python）或'#LP'（Lisp）来覆盖语法设置。"
 
 ["IgorZ.Automation.Settings.ScriptEngine.Header"]
 raw = "Script engine settings"
