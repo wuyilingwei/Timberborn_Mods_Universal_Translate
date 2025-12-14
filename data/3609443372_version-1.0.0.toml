@@ -1,0 +1,49 @@
+["ModSetting.TWAllWeatherDrill.NormalWeatherScale"]
+raw = "Temperate flow rate"
+enUS = "Temperate flow rate"
+zhCN = "温和天气水流量"
+
+["ModSetting.TWAllWeatherDrill.NormalWeatherScaleDesc"]
+raw = "Scale applied to water flow during temperate weather. Vanilla value = 1"
+enUS = "Scale applied to water flow during temperate weather. Vanilla value = 1"
+zhCN = "温和天气时含水层的水流强度相对于水力的倍率（游戏默认：1）。"
+
+["ModSetting.TWAllWeatherDrill.BadtideWeatherScale"]
+raw = "Badtide flow rate"
+enUS = "Badtide flow rate"
+zhCN = "恶水潮水流量"
+
+["ModSetting.TWAllWeatherDrill.BadtideWeatherScaleDesc"]
+raw = "Scale applied to water flow during badtide weather. Vanilla value = 0"
+enUS = "Scale applied to water flow during badtide weather. Vanilla value = 0"
+zhCN = "恶水潮时含水层的水流强度相对于水力的倍率（游戏默认：0）。"
+
+["ModSetting.TWAllWeatherDrill.DroughtWeatherScale"]
+raw = "Drought flow rate"
+enUS = "Drought flow rate"
+zhCN = "干旱期水流量"
+
+["ModSetting.TWAllWeatherDrill.DroughtWeatherScaleDesc"]
+raw = "Scale applied to water flow during drought weather. Vanilla value = 0"
+enUS = "Scale applied to water flow during drought weather. Vanilla value = 0"
+zhCN = "干旱期时含水层的水流强度相对于水力的倍率（游戏默认：0）。"
+
+["ModSetting.TWAllWeatherDrill.OtherWeatherScale"]
+raw = "Unrecognized weather flow rate"
+enUS = "Unrecognized weather flow rate"
+zhCN = "未知天气水流量"
+
+["ModSetting.TWAllWeatherDrill.OtherWeatherScaleDesc"]
+raw = "Scale applied to water flow during hazardous weather that is not a drought or a badtide (This hopefully catches most modded weather). Vanilla value = 0"
+enUS = "Scale applied to water flow during hazardous weather that is not a drought or a badtide (This hopefully catches most modded weather). Vanilla value = 0"
+zhCN = "非干旱期或恶水潮的恶劣天气时含水层的水流强度相对于水力的倍率（用于兼容其他模组添加的天气）（游戏默认：0）。"
+
+["ModSetting.TWAllWeatherDrill.PowerScale"]
+raw = "Drill power requirement"
+enUS = "Drill power requirement"
+zhCN = "钻井能耗需求"
+
+["ModSetting.TWAllWeatherDrill.PowerScaleDesc"]
+raw = "Scale applied to drill power needs. Vanilla value = 1"
+enUS = "Scale applied to drill power needs. Vanilla value = 1"
+zhCN = "可以将含水层钻井的能耗更改为原本的N倍（游戏默认：1）。"
