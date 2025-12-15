@@ -1,3 +1,68 @@
+["ModSetting.TWMarket.ShowStatusIcons"]
+raw = "Show status icons"
+enUS = "Show status icons"
+zhCN = "显示状态图标"
+
+["ModSetting.TWMarket.ShowStatusIconsDesc"]
+raw = "Markets will show a status icon if their buy/sell conditions are unmet"
+enUS = "Markets will show a status icon if their buy/sell conditions are unmet"
+zhCN = "勾选后，如果设置的买卖条件未满足，将在市场上方显示状态图标。"
+
+["UI.TW.Market.BuyWhen"]
+raw = "Buy when"
+enUS = "Buy when"
+zhCN = "购买时机"
+
+["UI.TW.Market.SellWhen"]
+raw = "Sell when"
+enUS = "Sell when"
+zhCN = "出售时机"
+
+["UI.TW.Market.BuyControl.Always"]
+raw = "Always"
+enUS = "Always"
+zhCN = "持续购买"
+
+["UI.TW.Market.SellControl.Always"]
+raw = "Always"
+enUS = "Always"
+zhCN = "持续出售"
+
+["UI.TW.Market.BuyControl.LessThanHalf"]
+raw = "Less than half"
+enUS = "Less than half"
+zhCN = "低于半数库存量时"
+
+["UI.TW.Market.SellControl.MoreThanHalf"]
+raw = "More than half"
+enUS = "More than half"
+zhCN = "高于半数库存量时"
+
+["UI.TW.Market.BuyControl.LessThanValue"]
+raw = "Less than setpoint"
+enUS = "Less than setpoint"
+zhCN = "低于设定值时"
+
+["UI.TW.Market.SellControl.MoreThanValue"]
+raw = "More than setpoint"
+enUS = "More than setpoint"
+zhCN = "高于设定值时"
+
+["UI.TW.Market.BuySlider"]
+raw = "Setpoint:"
+enUS = "Setpoint:"
+zhCN = "设定值："
+
+["UI.TW.Market.SellSlider"]
+raw = "Setpoint:"
+enUS = "Setpoint:"
+zhCN = "设定值："
+
+["UI.TW.Market.ControlBlocked"]
+raw = "Buy / Sell condition unmet"
+enUS = "Buy / Sell condition unmet"
+zhCN = "买卖条件未满足"
+
 ["Good.TWShiny.DisplayName"]
 raw = "Shiny"
 enUS = "Shiny"
@@ -39,8 +104,8 @@ enUS = "Export Market"
 zhCN = "出口市场"
 
 ["Building.TWMarketSell.Description"]
-raw = "Sell to cat merchants. Cats are sneaky; they only leave when when the player isn’t looking."
-enUS = "Sell to cat merchants. Cats are sneaky; they only leave when when the player isn’t looking."
+raw = "Sell to cat merchants. Cats are sneaky; they only leave when the player isn’t looking."
+enUS = "Sell to cat merchants. Cats are sneaky; they only leave when the player isn’t looking."
 zhCN = "向旅行猫商出售商品。猫族很狡猾，他们的商队只会在不注意的时候离开。"
 
 ["Building.TWMarketSell.FlavorDescription"]
@@ -48,112 +113,172 @@ raw = "“The things we do for a few shinies...”"
 enUS = "“The things we do for a few shinies...”"
 zhCN = "“为了几个闪亮币，我们可真拼……”"
 
-["Good.TWBuyWater.DisplayName"]
+["Building.TWMarketBuyFood.DisplayName"]
+raw = "Food Import Market"
+enUS = "Food Import Market"
+zhCN = "食品进口市场"
+
+["Building.TWMarketBuyFood.Description"]
+raw = "Buy food from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
+enUS = "Buy food from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
+zhCN = "向旅行猫商购买食品。猫族很狡猾；他们的商队只会在不注意的时候出现。"
+
+["Building.TWMarketBuyFood.FlavorDescription"]
+raw = "“Tastes better than gold, but not as pretty.”"
+enUS = "“Tastes better than gold, but not as pretty.”"
+zhCN = "“比黄金美味，但没黄金闪亮。”"
+
+["Recipe.TWBuyWater"]
 raw = "Buy Water"
 enUS = "Buy Water"
 zhCN = "购买水"
 
-["Good.TWBuyLogs.DisplayName"]
+["Recipe.TWBuyLog"]
 raw = "Buy Logs"
 enUS = "Buy Logs"
 zhCN = "购买原木"
 
-["Good.TWBuyPineResin.DisplayName"]
+["Recipe.TWBuyPineResin"]
 raw = "Buy Pine Resin"
 enUS = "Buy Pine Resin"
 zhCN = "购买松脂"
 
-["Good.TWBuyExplosives.DisplayName"]
+["Recipe.TWBuyExplosives"]
 raw = "Buy Explosives"
 enUS = "Buy Explosives"
 zhCN = "购买炸药"
 
-["Good.TWBuyCarrots.DisplayName"]
+["Recipe.TWBuyCarrot"]
 raw = "Buy Carrots"
 enUS = "Buy Carrots"
 zhCN = "购买胡萝卜"
 
-["Good.TWBuyBerries.DisplayName"]
+["Recipe.TWBuyBerries"]
 raw = "Buy Berries"
 enUS = "Buy Berries"
 zhCN = "购买浆果"
 
-["Good.TWSellBerries.DisplayName"]
+["Recipe.TWSellBerries"]
 raw = "Sell Berries"
 enUS = "Sell Berries"
 zhCN = "出售浆果"
 
-["Good.TWBuyCorn.DisplayName"]
+["Recipe.TWBuyCorn"]
 raw = "Buy Corn"
 enUS = "Buy Corn"
 zhCN = "购买玉米"
 
-["Good.TWSellCornRations.DisplayName"]
+["Recipe.TWSellCornRation"]
 raw = "Sell Corn Rations"
 enUS = "Sell Corn Rations"
 zhCN = "出售玉米口粮"
 
-["Good.TWBuyWheatFlour.DisplayName"]
+["Recipe.TWBuyWheatFlour"]
 raw = "Buy Wheat Flour"
 enUS = "Buy Wheat Flour"
 zhCN = "购买小麦面粉"
 
-["Good.TWBuyAntidote.DisplayName"]
+["Recipe.TWBuyAntidote"]
 raw = "Buy Antidote"
 enUS = "Buy Antidote"
 zhCN = "购买解毒剂"
 
-["Good.TWBuyAlmondBark.DisplayName"]
+["Recipe.TWBuyAlmondBark"]
 raw = "Buy Almond Bark"
 enUS = "Buy Almond Bark"
 zhCN = "购买能量块"
 
-["Good.TWBuyCoffeeBeans.DisplayName"]
+["Recipe.TWBuyCoffeeBean"]
 raw = "Buy Coffee Beans"
 enUS = "Buy Coffee Beans"
 zhCN = "购买咖啡豆"
 
-["Good.TWBuyKohlrabies.DisplayName"]
+["Recipe.TWBuyKohlrabi"]
 raw = "Buy Kohlrabies"
 enUS = "Buy Kohlrabies"
 zhCN = "购买大头菜"
 
-["Good.TWBuyScrapMetal.DisplayName"]
+["Recipe.TWBuyScrapMetal"]
 raw = "Buy Scrap Metal"
 enUS = "Buy Scrap Metal"
 zhCN = "购买金属废料"
 
-["Good.TWSellAntidote.DisplayName"]
+["Recipe.TWSellAntidote"]
 raw = "Sell Antidote"
 enUS = "Sell Antidote"
 zhCN = "出售解毒剂"
 
-["Good.TWSellExplosives.DisplayName"]
+["Recipe.TWSellExplosives"]
 raw = "Sell Explosives"
 enUS = "Sell Explosives"
 zhCN = "出售炸药"
 
-["Good.TWSellExtract.DisplayName"]
+["Recipe.TWSellExtract"]
 raw = "Sell Extract"
 enUS = "Sell Extract"
 zhCN = "出售提取"
 
-["Good.TWSellMetalBlocks.DisplayName"]
+["Recipe.TWSellMetalBlock"]
 raw = "Sell Metal Blocks"
 enUS = "Sell Metal Blocks"
 zhCN = "出售金属块"
 
-["Good.TWSellTreatedPlanks.DisplayName"]
+["Recipe.TWSellTreatedPlank"]
 raw = "Sell Treated Planks"
 enUS = "Sell Treated Planks"
 zhCN = "出售树脂木板"
 
-["Good.TWSellWheatFlour.DisplayName"]
+["Recipe.TWSellWheatFlour"]
 raw = "Sell Wheat Flour"
 enUS = "Sell Wheat Flour"
 zhCN = "出售小麦面粉"
 
-["Good.TWSellCoffeeBeans.DisplayName"]
+["Recipe.TWSellCoffeeBean"]
 raw = "Sell Coffee Beans"
 enUS = "Sell Coffee Beans"
 zhCN = "出售咖啡豆"
+
+["Recipe.TWBuyCattailRoot"]
+raw = "Buy Cattail Roots"
+enUS = "Buy Cattail Roots"
+zhCN = "购买青荷根"
+
+["Recipe.TWBuyCanolaSeeds"]
+raw = "Buy Canola Seeds"
+enUS = "Buy Canola Seeds"
+zhCN = "购买油菜籽"
+
+["Recipe.TWBuyCassava"]
+raw = "Buy Cassava"
+enUS = "Buy Cassava"
+zhCN = "购买木薯"
+
+["Recipe.TWBuyChestnut"]
+raw = "Buy Chestnuts"
+enUS = "Buy Chestnuts"
+zhCN = "购买栗子"
+
+["Recipe.TWBuyMushroom"]
+raw = "Buy Mushrooms"
+enUS = "Buy Mushrooms"
+zhCN = "购买蘑菇"
+
+["Recipe.TWBuyPotato"]
+raw = "Buy Potatoes"
+enUS = "Buy Potatoes"
+zhCN = "购买土豆"
+
+["Recipe.TWBuySoybean"]
+raw = "Buy Soybeans"
+enUS = "Buy Soybeans"
+zhCN = "购买大豆"
+
+["Recipe.TWBuySunflowerSeeds"]
+raw = "Buy Sunflower Seeds"
+enUS = "Buy Sunflower Seeds"
+zhCN = "购买葵花籽"
+
+["Recipe.TWBuySciencePoints"]
+raw = "Buy Science Points"
+enUS = "Buy Science Points"
+zhCN = "购买科学点数"
