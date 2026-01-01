@@ -1,0 +1,114 @@
+["UI.TW.SimpleWorkshopControl.WorkshopControlMode"]
+raw = "Control:"
+enUS = "Control:"
+zhCN = "启停规则："
+
+["UI.TW.SimpleWorkshopControl.ActiveWhen"]
+raw = "Active when"
+enUS = "Active when"
+zhCN = "运行条件："
+
+["UI.TW.SimpleWorkshopControl.And"]
+raw = "And"
+enUS = "And"
+zhCN = "与"
+
+["UI.TW.SimpleWorkshopControl.Hide"]
+raw = "Hide"
+enUS = "Hide"
+zhCN = "隐藏"
+
+["UI.TW.SimpleWorkshopControl.Or"]
+raw = "Or"
+enUS = "Or"
+zhCN = "或"
+
+["UI.TW.SimpleWorkshopControl.ControlMode.None"]
+raw = "None"
+enUS = "None"
+zhCN = "无"
+
+["UI.TW.SimpleWorkshopControl.ControlMode.OneRule"]
+raw = "One rule"
+enUS = "One rule"
+zhCN = "单一规则"
+
+["UI.TW.SimpleWorkshopControl.ControlMode.OneAndTwo"]
+raw = "One and two"
+enUS = "One and two"
+zhCN = "规则一且规则二"
+
+["UI.TW.SimpleWorkshopControl.ControlMode.OneOrTwo"]
+raw = "One or two"
+enUS = "One or two"
+zhCN = "规则一或规则二"
+
+["UI.TW.SimpleWorkshopControl.Blocked"]
+raw = "Workshop control condition unmet"
+enUS = "Workshop control condition unmet"
+zhCN = "此建筑未满足运行条件，暂时关闭。"
+
+["UI.TW.SimpleWorkshopControl.SciencePoints"]
+raw = "Science Points"
+enUS = "Science Points"
+zhCN = "科学点数"
+
+["UI.TW.SimpleWorkshopControl.BotPopulation"]
+raw = "Bot Population"
+enUS = "Bot Population"
+zhCN = "机关人数量"
+
+["UI.TW.SimpleWorkshopControl.BeaverPopulation"]
+raw = "Beaver Population"
+enUS = "Beaver Population"
+zhCN = "海狸数量"
+
+["UI.TW.SimpleWorkshopControl.ALessThanSetpoint"]
+raw = "Less than setpoint"
+enUS = "Less than setpoint"
+zhCN = "低于设定值"
+
+["UI.TW.SimpleWorkshopControl.AMoreThanSetpoint"]
+raw = "More than setpoint"
+enUS = "More than setpoint"
+zhCN = "高于设定值"
+
+["UI.TW.SimpleWorkshopControl.ALessThanPercent"]
+raw = "Less than % of capacity"
+enUS = "Less than % of capacity"
+zhCN = "低于库存百分比"
+
+["UI.TW.SimpleWorkshopControl.AMoreThanPercent"]
+raw = "More than % of capacity"
+enUS = "More than % of capacity"
+zhCN = "高于库存百分比"
+
+["UI.TW.SimpleWorkshopControl.ALessThanB"]
+raw = "Less than item"
+enUS = "Less than item"
+zhCN = "低于某物品"
+
+["UI.TW.SimpleWorkshopControl.AMoreThanB"]
+raw = "More than item"
+enUS = "More than item"
+zhCN = "高于某物品"
+
+["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
+raw = "Show Status Icons"
+enUS = "Show Status Icons"
+zhCN = "显示状态图标"
+
+["ModSetting.TWSimpleWorkshopControl.ShowStatusIconsDesc"]
+raw = "A status icon will appear above blocked buildings"
+enUS = "A status icon will appear above blocked buildings"
+zhCN = "勾选后，会在未满足运行条件的建筑上方显示状态图标。"
+
+["ModSetting.TWSimpleWorkshopControl.DeadzoneScale"]
+raw = "Dead Zone Scale"
+enUS = "Dead Zone Scale"
+zhCN = "死区范围缩放"
+
+["ModSetting.TWSimpleWorkshopControl.DeadzoneScaleDesc"]
+raw = "The 'more than' control settings use a dead zone to avoid loops. The dead zone is multiplied by this number. Increase it if you have trouble with workshops cycling on and off rapidly when beavers remove goods from warehouses."
+enUS = "The 'more than' control settings use a dead zone to avoid loops. The dead zone is multiplied by this number. Increase it if you have trouble with workshops cycling on and off rapidly when beavers remove goods from warehouses."
+zhCN = "“高于”类运行条件使用死区来避免循环。死区范围会乘上此数值。如果海狸取出物品时频繁激活运行条件，请增大此数值。"
