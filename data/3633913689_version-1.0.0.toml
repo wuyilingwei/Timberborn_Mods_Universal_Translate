@@ -1,52 +1,22 @@
-["UI.TW.SimpleWorkshopControl.WorkshopControlMode"]
-raw = "Control:"
-enUS = "Control:"
-zhCN = "启停规则："
-
-["UI.TW.SimpleWorkshopControl.ActiveWhen"]
-raw = "Active when"
-enUS = "Active when"
-zhCN = "运行条件："
-
-["UI.TW.SimpleWorkshopControl.And"]
-raw = "And"
-enUS = "And"
-zhCN = "与"
-
-["UI.TW.SimpleWorkshopControl.Hide"]
-raw = "Hide"
-enUS = "Hide"
-zhCN = "隐藏"
-
-["UI.TW.SimpleWorkshopControl.Or"]
-raw = "Or"
-enUS = "Or"
-zhCN = "或"
-
-["UI.TW.SimpleWorkshopControl.ControlMode.None"]
-raw = "None"
-enUS = "None"
-zhCN = "无"
-
-["UI.TW.SimpleWorkshopControl.ControlMode.OneRule"]
-raw = "One rule"
-enUS = "One rule"
-zhCN = "单一规则"
-
-["UI.TW.SimpleWorkshopControl.ControlMode.OneAndTwo"]
-raw = "One and two"
-enUS = "One and two"
-zhCN = "规则一且规则二"
-
-["UI.TW.SimpleWorkshopControl.ControlMode.OneOrTwo"]
-raw = "One or two"
-enUS = "One or two"
-zhCN = "规则一或规则二"
-
 ["UI.TW.SimpleWorkshopControl.Blocked"]
-raw = "Workshop control condition unmet"
-enUS = "Workshop control condition unmet"
-zhCN = "此建筑未满足运行条件，暂时关闭。"
+raw = "Multiple control conditions unmet"
+enUS = "Multiple control conditions unmet"
+zhCN = "多项控制条件未满足。"
+
+["UI.TW.SimpleWorkshopControl.BlockedInput"]
+raw = "Auto Ingredients condition unmet"
+enUS = "Auto Ingredients condition unmet"
+zhCN = "原料控制条件未满足。"
+
+["UI.TW.SimpleWorkshopControl.BlockedProduct"]
+raw = "Auto Products condition unmet"
+enUS = "Auto Products condition unmet"
+zhCN = "产物控制条件未满足。"
+
+["UI.TW.SimpleWorkshopControl.BlockedUser"]
+raw = "User control condition unmet"
+enUS = "User control condition unmet"
+zhCN = "自定义控制条件未满足。"
 
 ["UI.TW.SimpleWorkshopControl.SciencePoints"]
 raw = "Science Points"
@@ -63,35 +33,60 @@ raw = "Beaver Population"
 enUS = "Beaver Population"
 zhCN = "海狸数量"
 
-["UI.TW.SimpleWorkshopControl.ALessThanSetpoint"]
-raw = "Less than setpoint"
-enUS = "Less than setpoint"
-zhCN = "低于设定值"
+["UI.TW.SimpleWorkshopControl.WorkshopControls"]
+raw = "Workshop Controls"
+enUS = "Workshop Controls"
+zhCN = "工作启停控制"
 
-["UI.TW.SimpleWorkshopControl.AMoreThanSetpoint"]
-raw = "More than setpoint"
-enUS = "More than setpoint"
-zhCN = "高于设定值"
+["UI.TW.SimpleWorkshopControl.Hide"]
+raw = "Hide"
+enUS = "Hide"
+zhCN = "隐藏"
 
-["UI.TW.SimpleWorkshopControl.ALessThanPercent"]
-raw = "Less than % of capacity"
-enUS = "Less than % of capacity"
-zhCN = "低于库存百分比"
+["UI.TW.SimpleWorkshopControl.RequireInputs"]
+raw = "Auto Ingredients"
+enUS = "Auto Ingredients"
+zhCN = "受原料控制"
 
-["UI.TW.SimpleWorkshopControl.AMoreThanPercent"]
-raw = "More than % of capacity"
-enUS = "More than % of capacity"
-zhCN = "高于库存百分比"
+["UI.TW.SimpleWorkshopControl.UseAutoProducts"]
+raw = "Auto Products"
+enUS = "Auto Products"
+zhCN = "受产物控制"
 
-["UI.TW.SimpleWorkshopControl.ALessThanB"]
-raw = "Less than item"
-enUS = "Less than item"
-zhCN = "低于某物品"
+["UI.TW.SimpleWorkshopControl.Controller"]
+raw = "Control input"
+enUS = "Control input"
+zhCN = "自定义控制"
 
-["UI.TW.SimpleWorkshopControl.AMoreThanB"]
-raw = "More than item"
-enUS = "More than item"
-zhCN = "高于某物品"
+["UI.TW.SimpleWorkshopControl.RangeType"]
+raw = "Scale"
+enUS = "Scale"
+zhCN = "阈值"
+
+["UI.TW.SimpleWorkshopControl.Start"]
+raw = "Start"
+enUS = "Start"
+zhCN = "启用"
+
+["UI.TW.SimpleWorkshopControl.Stop"]
+raw = "Stop"
+enUS = "Stop"
+zhCN = "关停"
+
+["UI.TW.SimpleWorkshopControl.NullGoodId"]
+raw = "None"
+enUS = "None"
+zhCN = "无"
+
+["UI.TW.SimpleWorkshopControl.Percent"]
+raw = "Percent"
+enUS = "Percent"
+zhCN = "百分比"
+
+["UI.TW.SimpleWorkshopControl.Value"]
+raw = "Value"
+enUS = "Value"
+zhCN = "数值"
 
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
 raw = "Show Status Icons"
@@ -101,14 +96,49 @@ zhCN = "显示状态图标"
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIconsDesc"]
 raw = "A status icon will appear above blocked buildings"
 enUS = "A status icon will appear above blocked buildings"
-zhCN = "勾选后，会在未满足运行条件的建筑上方显示状态图标。"
+zhCN = "勾选后，会在控制条件未满足的建筑上方显示状态图标。"
 
-["ModSetting.TWSimpleWorkshopControl.DeadzoneScale"]
-raw = "Dead Zone Scale"
-enUS = "Dead Zone Scale"
-zhCN = "死区范围缩放"
+["ModSetting.TWSimpleWorkshopControl.Spacer"]
+raw = " "
+enUS = " "
+zhCN = " "
 
-["ModSetting.TWSimpleWorkshopControl.DeadzoneScaleDesc"]
-raw = "The 'more than' control settings use a dead zone to avoid loops. The dead zone is multiplied by this number. Increase it if you have trouble with workshops cycling on and off rapidly when beavers remove goods from warehouses."
-enUS = "The 'more than' control settings use a dead zone to avoid loops. The dead zone is multiplied by this number. Increase it if you have trouble with workshops cycling on and off rapidly when beavers remove goods from warehouses."
-zhCN = "“高于”类运行条件使用死区来避免循环。死区范围会乘上此数值。如果海狸取出物品时频繁激活运行条件，请增大此数值。"
+["ModSetting.TWSimpleWorkshopControl.RequireInputsDefault"]
+raw = "Auto Ingredients Default"
+enUS = "Auto Ingredients Default"
+zhCN = "原料控制默认设置"
+
+["ModSetting.TWSimpleWorkshopControl.RequireInputsDefaultDesc"]
+raw = "Newly constructed buildings will have their Auto Ingredients set to this"
+enUS = "Newly constructed buildings will have their Auto Ingredients set to this"
+zhCN = "勾选后，新建建筑的“受原料控制”选项将默认启用。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在升至配方所需数量的指定倍数时启用。，"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementMultiplier"]
+raw = "Auto Ingredients Multiplier"
+enUS = "Auto Ingredients Multiplier"
+zhCN = "原料控制条件阈值（倍数）"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementMultiplierDesc"]
+raw = "Buildings disabled by the Auto Ingredients toggle will need global inventory of each of their ingredients to reach the recipe requirement multiplied by this value to turn back on. Valid range 0 - 100"
+enUS = "Buildings disabled by the Auto Ingredients toggle will need global inventory of each of their ingredients to reach the recipe requirement multiplied by this value to turn back on. Valid range 0 - 100"
+zhCN = "因“受原料控制”而关闭的建筑，其原料的全局库存需达到配方所需数量乘以此倍数后，才会重新启用。有效范围0~100。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在升至配方所需数量的指定倍数时启用。"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsDefault"]
+raw = "Auto Products Default"
+enUS = "Auto Products Default"
+zhCN = "产物控制默认设置"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsDefaultDesc"]
+raw = "Newly constructed buildings will have their Auto Products set to this"
+enUS = "Newly constructed buildings will have their Auto Products set to this"
+zhCN = "勾选后，新建建筑的“受产物控制”选项将默认启用。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在降至满值的指定百分比时启用。"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductSetpoint"]
+raw = "Auto Product Setpoint"
+enUS = "Auto Product Setpoint"
+zhCN = "产物控制条件阈值（百分比）"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductSetpointDesc"]
+raw = "Inventory of products must fall below this percent of capacity before Auto Products buildings will activate. Valid range 0 - 100"
+enUS = "Inventory of products must fall below this percent of capacity before Auto Products buildings will activate. Valid range 0 - 100"
+zhCN = "因“受产物控制”而关闭的建筑，其产物的全局库存需低于库存最大值乘以此百分比后，才会重新启用。有效范围0~100。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在降至满值的指定百分比时启用。"

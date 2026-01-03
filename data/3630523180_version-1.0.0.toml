@@ -1,0 +1,469 @@
+["LV.MW.WeatherStart"]
+raw = "{0} started"
+enUS = "{0} started"
+zhCN = "{0}已开始"
+
+["LV.MW.WeatherEnd"]
+raw = "{0} ended"
+enUS = "{0} ended"
+zhCN = "{0}已结束"
+
+["LV.MW.WeatherApproaching"]
+raw = "{0} approaching"
+enUS = "{0} approaching"
+zhCN = "{0}即将到来"
+
+["LV.MW.WeatherInProgress"]
+raw = "{0} in progress"
+enUS = "{0} in progress"
+zhCN = "{0}正在发生"
+
+["LV.MW.EnableWeather"]
+raw = "Enable"
+enUS = "Enable"
+zhCN = "启用"
+
+["LV.MW.EnableWeatherDesc"]
+raw = "Whether this weather is allowed to appear."
+enUS = "Whether this weather is allowed to appear."
+zhCN = "勾选后，此天气可能会发生。"
+
+["LV.MW.StartCycle"]
+raw = "Start cycle"
+enUS = "Start cycle"
+zhCN = "起始周期"
+
+["LV.MW.StartCycleDesc"]
+raw = "The minimum cycle that this weather can occur"
+enUS = "The minimum cycle that this weather can occur"
+zhCN = "此天气可能发生的最早周期。"
+
+["LV.MW.Chance"]
+raw = "Chance"
+enUS = "Chance"
+zhCN = "发生概率"
+
+["LV.MW.ChanceDesc"]
+raw = "Weighted chance of this weather occurring when rolling for weather"
+enUS = "Weighted chance of this weather occurring when rolling for weather"
+zhCN = "此天气可能发生的概率。<br><color=#FFFF1A>根据此天气所属的类型（舒适类/恶劣类），其实际发生概率为“此天气发生概率/此类型天气发生概率之和”。</color>"
+
+["LV.MW.MinDay"]
+raw = "Minimum day"
+enUS = "Minimum day"
+zhCN = "最短持续时间"
+
+["LV.MW.MinDayDesc"]
+raw = "The minimum day when this weather occurs."
+enUS = "The minimum day when this weather occurs."
+zhCN = "此天气可能发生的最小天数。"
+
+["LV.MW.MaxDay"]
+raw = "Maximum day"
+enUS = "Maximum day"
+zhCN = "最长持续时间"
+
+["LV.MW.MaxDayDesc"]
+raw = "The maximum day when this weather occurs."
+enUS = "The maximum day when this weather occurs."
+zhCN = "此天气可能发生的最大天数。"
+
+["LV.MW.HandicapPerc"]
+raw = "Handicap Percentage"
+enUS = "Handicap Percentage"
+zhCN = "初始强度值"
+
+["LV.MW.HandicapPercDesc"]
+raw = "The first time this weather occurs, its duration is multiplied by this percentage."
+enUS = "The first time this weather occurs, its duration is multiplied by this percentage."
+zhCN = "此天气首次发生时，天气强度（如持续时间）将乘以此百分比。<br><color=#FFFF1A>初始强度值可以小于100（初始时更弱），也可以大于100（初始时更强）。</color>"
+
+["LV.MW.HandicapCycles"]
+raw = "Handicap Cycles"
+enUS = "Handicap Cycles"
+zhCN = "适应频次数"
+
+["LV.MW.HandicapCyclesDesc"]
+raw = "Number of cycles until the weather reaches full (100%) duration."
+enUS = "Number of cycles until the weather reaches full (100%) duration."
+zhCN = "此天气多次发生后，天气强度（如持续时间）将从初始强度恢复至满百分比。<br><color=#FFFF1A>适应频次数为0时，初始强度值将失效。</color>"
+
+["LV.MW.Rain"]
+raw = "Rain"
+enUS = "Rain"
+zhCN = "细雨天气"
+
+["LV.MW.Monsoon"]
+raw = "Monsoon"
+enUS = "Monsoon"
+zhCN = "洪涝期"
+
+["LV.MW.SurprisinglyRefreshing"]
+raw = "Surprisingly Refreshing"
+enUS = "Surprisingly Refreshing"
+zhCN = "净水潮"
+
+["LV.MW.MonsoonMultiplier"]
+raw = "Monsoon maximum multiplier"
+enUS = "Monsoon maximum multiplier"
+zhCN = "洪涝期水力倍率"
+
+["LV.MW.MonsoonMultiplierDesc"]
+raw = "The maximum additional multiplier for the monsoon weather at maximum. This value is affected by handicap like Duration.\nDefault value: 350(%) meaning when no handicap is applied (default cycle 5), all water sources strength is at 350%."
+enUS = "The maximum additional multiplier for the monsoon weather at maximum. This value is affected by handicap like Duration.\nDefault value: 350(%) meaning when no handicap is applied (default cycle 5), all water sources strength is at 350%."
+zhCN = "洪涝期时水源的水力倍率，即水源的水力会变为“默认水力×倍率”。<br><color=#FFFF1A>此倍率与持续时间类似，受初始强度值、适应频次数影响。</color>"
+
+["LV.MW.Profiles"]
+raw = "Profiles"
+enUS = "Profiles"
+zhCN = "预设配置"
+
+["LV.MW.ProfilesDesc"]
+raw = "Export and import settings. It's recommended to make a save then reload it after importing settings to ensure everything is applied correctly."
+enUS = "Export and import settings. It's recommended to make a save then reload it after importing settings to ensure everything is applied correctly."
+zhCN = "导入/导出模组的天气参数配置。<br><color=#FFFF1A>导入配置后建议保存游戏并重新加载，以确保所有参数配置正确生效。</color>"
+
+["LV.MW.ProfileImport"]
+raw = "Import"
+enUS = "Import"
+zhCN = "导入配置"
+
+["LV.MW.ProfileExport"]
+raw = "Export"
+enUS = "Export"
+zhCN = "导出配置"
+
+["LV.MW.ProfileError"]
+raw = "There was an error: {0}"
+enUS = "There was an error: {0}"
+zhCN = "发生错误：{0}"
+
+["LV.MW.TemperateDesc"]
+raw = "The game's default temperate weather. No effects."
+enUS = "The game's default temperate weather. No effects."
+zhCN = "游戏默认的舒适类天气，风和日丽，绿意盎然。<br>- 无特殊影响。"
+
+["LV.MW.DroughtDesc"]
+raw = "The game's default hazardous drought weather. Water sources stop producing water."
+enUS = "The game's default hazardous drought weather. Water sources stop producing water."
+zhCN = "游戏默认的恶劣类天气，干旱与酷热让河水断流，土地龟裂。<br>- 所有水源停止出水。"
+
+["LV.MW.BadtideDesc"]
+raw = "The game's default hazardous bad tide weather. All water sources produce badwater."
+enUS = "The game's default hazardous bad tide weather. All water sources produce badwater."
+zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的水源亦被污染。<br>- 所有水源都会流出恶水。"
+
+["LV.MW.RainDesc"]
+raw = "Benign weather. Effects:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate season (default settings)"
+enUS = "Benign weather. Effects:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate season (default settings)"
+zhCN = "模组扩展的舒适类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉，而且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。<br>- 持续时间比温和天气短25%（模组默认，可更改）。"
+
+["LV.MW.MonsoonDesc"]
+raw = "Hazardous weather. All water sources increase their output, at 350% maximum with handicap applied. Configurable via the Monsoon modifier."
+enUS = "Hazardous weather. All water sources increase their output, at 350% maximum with handicap applied. Configurable via the Monsoon modifier."
+zhCN = "模组扩展的恶劣类天气，洪水自河流上游奔涌而来，四处泛滥。<br>- 所有水源的水力都会增加至350%（模组默认，可更改），但不超过游戏限制。"
+
+["LV.MW.SurprisinglyRefreshingDesc"]
+raw = "'Hazardous' weather with no negative effect. All water sources produce fresh water. Very short."
+enUS = "'Hazardous' weather with no negative effect. All water sources produce fresh water. Very short."
+zhCN = "模组扩展的“恶劣类”天气，清水从恶水源流出，仿佛是一个恶劣的玩笑。<br>- 所有水源都会流出净水。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
+
+["LV.MW.EnableModifier"]
+raw = "Enable {0} Weather Modifier"
+enUS = "Enable {0} Weather Modifier"
+zhCN = "启用{0}天气效果"
+
+["LV.MW.EnableModifierDesc"]
+raw = "Enable the {0} weather modifier"
+enUS = "Enable the {0} weather modifier"
+zhCN = "勾选后，启用{0}天气效果。"
+
+["LV.MW.AssociatedWeathers"]
+raw = "Associated Weathers:"
+enUS = "Associated Weathers:"
+zhCN = "可影响天气："
+
+["LV.MW.AssociatedWeathersDesc"]
+raw = "The weathers that will be affected by this modifier"
+enUS = "The weathers that will be affected by this modifier"
+zhCN = "此天气效果可以影响的天气。"
+
+["LV.MW.EmptyBenignWeather"]
+raw = "No Benign Weather"
+enUS = "No Benign Weather"
+zhCN = "无舒适类天气"
+
+["LV.MW.EmptyHazardousWeather"]
+raw = "No Hazardous Weather"
+enUS = "No Hazardous Weather"
+zhCN = "无恶劣类天气"
+
+["LV.MW.ModifierWeatherSettings"]
+raw = "Weather Settings"
+enUS = "Weather Settings"
+zhCN = "天气设置"
+
+["LV.MW.ModifierForWeather"]
+raw = "For weather {0}:"
+enUS = "For weather {0}:"
+zhCN = "对于{0}天气："
+
+["LV.MW.ModifierWeatherEnabled"]
+raw = "Enabled"
+enUS = "Enabled"
+zhCN = "启用"
+
+["LV.MW.ModifierWeatherEnabledDesc"]
+raw = "Whether this modifier can appear for this weather"
+enUS = "Whether this modifier can appear for this weather"
+zhCN = "勾选后，此效果可能会在此天气中出现。"
+
+["LV.MW.ModifierWeatherChance"]
+raw = "Chance"
+enUS = "Chance"
+zhCN = "出现概率"
+
+["LV.MW.ModifierWeatherChanceDesc"]
+raw = "Chance of this modifier occurring when this weather occurs"
+enUS = "Chance of this modifier occurring when this weather occurs"
+zhCN = "此效果可能在此天气中出现的概率。"
+
+["LV.MW.ModifierStartCycle"]
+raw = "Start Cycle"
+enUS = "Start Cycle"
+zhCN = "起始周期"
+
+["LV.MW.ModifierStartCycleDesc"]
+raw = "The minimum cycle that this modifier can occur for this weather"
+enUS = "The minimum cycle that this modifier can occur for this weather"
+zhCN = "此效果可能在此天气中出现的最早周期。"
+
+["LV.MW.ShowSettings"]
+raw = "Weather Settings"
+enUS = "Weather Settings"
+zhCN = "天气设置"
+
+["LV.MW.SettingsNote"]
+raw = "Settings changes will not take effect until the next weather cycle.\n<YellowHighlight>- You should make a save before editing.\n- You should make a save and reload that save after editing.</YellowHighlight>"
+enUS = "Settings changes will not take effect until the next weather cycle.\n<YellowHighlight>- You should make a save before editing.\n- You should make a save and reload that save after editing.</YellowHighlight>"
+zhCN = "参数配置更改后，将在下一个天气周期生效。<br><color=#FFFF1A>更改配置前建议保存游戏。<br>更改配置后建议保存并重新加载存档。</color>"
+
+["LV.MW.Filters"]
+raw = "Filters:"
+enUS = "Filters:"
+zhCN = "过滤器："
+
+["LV.MW.BenignWeather"]
+raw = "Benign Weather"
+enUS = "Benign Weather"
+zhCN = "舒适类天气"
+
+["LV.MW.HazardousWeather"]
+raw = "Hazardous Weather"
+enUS = "Hazardous Weather"
+zhCN = "恶劣类天气"
+
+["LV.MW.Weathers"]
+raw = "Weathers"
+enUS = "Weathers"
+zhCN = "天气类型"
+
+["LV.MW.WeatherModifiers"]
+raw = "Weather Modifiers"
+enUS = "Weather Modifiers"
+zhCN = "天气效果调整"
+
+["LV.MW.NoSettings"]
+raw = "This weather has no settings to configure."
+enUS = "This weather has no settings to configure."
+zhCN = "此天气无可设置参数。"
+
+["LV.MW.BadtideModifier"]
+raw = "Badtide"
+enUS = "Badtide"
+zhCN = "恶水潮效果"
+
+["LV.MW.BadtideModifierDesc"]
+raw = "All water sources produce badwater."
+enUS = "All water sources produce badwater."
+zhCN = "所有水源都会流出恶水。"
+
+["LV.MW.DroughtModifier"]
+raw = "Drought"
+enUS = "Drought"
+zhCN = "干旱期效果"
+
+["LV.MW.DroughtModifierDesc"]
+raw = "All water sources stop producing water."
+enUS = "All water sources stop producing water."
+zhCN = "所有水源停止出水。"
+
+["LV.MW.RainModifier"]
+raw = "Rain"
+enUS = "Rain"
+zhCN = "细雨天气效果"
+
+["LV.MW.RainModifierDesc"]
+raw = "All tiles are watered, no land contamination occurs, and applies Wet Fur when Beavers are not in buildings."
+enUS = "All tiles are watered, no land contamination occurs, and applies Wet Fur when Beavers are not in buildings."
+zhCN = "所有土地都被灌溉，不会受到恶水污染，海狸在室外时会增加“湿润的毛发”康乐值。"
+
+["LV.MW.MonsoonModifier"]
+raw = "Monsoon"
+enUS = "Monsoon"
+zhCN = "洪涝期效果"
+
+["LV.MW.MonsoonModifierDesc"]
+raw = "All water sources increase their output, up to a maximum."
+enUS = "All water sources increase their output, up to a maximum."
+zhCN = "所有水源的水力都会增加，但不超过游戏限制。"
+
+["LV.MW.RefreshingModifier"]
+raw = "Refreshing"
+enUS = "Refreshing"
+zhCN = "净水潮效果"
+
+["LV.MW.RefreshingModifierDesc"]
+raw = "All water sources produce fresh water."
+enUS = "All water sources produce fresh water."
+zhCN = "所有水源都会流出净水。"
+
+["LV.MW.NewStageNotf"]
+raw = "Cycle {0}, Stage {1} begins"
+enUS = "Cycle {0}, Stage {1} begins"
+zhCN = "周期 {0}，第 {1} 阶段"
+
+["LV.MW.EffNotf"]
+raw = "Effects: {0}"
+enUS = "Effects: {0}"
+zhCN = "效果：{0}"
+
+["LV.MW.RainEff"]
+raw = "Rain visual effect"
+enUS = "Rain visual effect"
+zhCN = "降雨效果设置"
+
+["LV.MW.RainEffDesc"]
+raw = "Change the rain visual effects settings. These settings do not affect gameplay. The rain effect is shared between many weathers. These settings are global (not per-save) and are not exported/imported with profiles.\n\nYou can adjust or disable the Rain effect at any time but to re-enable, please reload your save."
+enUS = "Change the rain visual effects settings. These settings do not affect gameplay. The rain effect is shared between many weathers. These settings are global (not per-save) and are not exported/imported with profiles.\n\nYou can adjust or disable the Rain effect at any time but to re-enable, please reload your save."
+zhCN = "可以设置降雨的视觉效果。<br><color=#FFFF1A>降雨效果被多个天气类型共享，对天气实际效果无影响。<br>降雨效果为全局性设置（全部存档共用），无法随配置文件导出/导入。<br>可以随时调整或禁用降雨效果，如需重新启用，请重新加载存档。</color>"
+
+["LV.MW.RainEffEnable"]
+raw = "Enable effects"
+enUS = "Enable effects"
+zhCN = "启用降雨效果"
+
+["LV.MW.RainEffIntensity"]
+raw = "Rain intensity"
+enUS = "Rain intensity"
+zhCN = "降雨强度"
+
+["LV.MW.RainEffIntensityDesc"]
+raw = "Adjust the intensity of the rain visual effects (particles per map cell). Default 0.2."
+enUS = "Adjust the intensity of the rain visual effects (particles per map cell). Default 0.2."
+zhCN = "降雨视觉效果的强度，即每个地图格子上的雨滴粒子数（模组默认：0.2）。"
+
+["LV.MW.RainEffMaxParticles"]
+raw = "Max Rain particles"
+enUS = "Max Rain particles"
+zhCN = "雨滴粒子数上限"
+
+["LV.MW.RainEffMaxParticlesDesc"]
+raw = "Adjust the maximum number of rain particles on screen. Default 1000."
+enUS = "Adjust the maximum number of rain particles on screen. Default 1000."
+zhCN = "屏幕上同时显示的雨滴粒子的最大数量（模组默认：1000）。"
+
+["LV.MW.SettingsDisabled"]
+raw = "<RedHighlight>[Disabled]</RedHighlight>"
+enUS = "<RedHighlight>[Disabled]</RedHighlight>"
+zhCN = "<color=#FF4C4C>[未启用]</color>"
+
+["LV.MW.UnknownWeather"]
+raw = "Unknown weather Id: {0}"
+enUS = "Unknown weather Id: {0}"
+zhCN = "未知天气 ID: {0}"
+
+["LV.MW.SettingsLocked"]
+raw = "<RedHighlight>[Weather-locked]</RedHighlight>"
+enUS = "<RedHighlight>[Weather-locked]</RedHighlight>"
+zhCN = "<color=#FF4C4C>[已锁定]</color>"
+
+["LV.MW.CycleStages"]
+raw = "Cycle Stages"
+enUS = "Cycle Stages"
+zhCN = "周期阶段设置"
+
+["LV.MW.CycleStagesDesc"]
+raw = "Configure the different stages of each cycle. With this mod, you can have as many stages in each cycle as you want."
+enUS = "Configure the different stages of each cycle. With this mod, you can have as many stages in each cycle as you want."
+zhCN = "可以设置天气周期中的不同阶段。<br><color=#FFFF1A>此模组可以在一个周期中设置多个阶段，而不是游戏默认的“舒适->恶劣”双阶段。</color>"
+
+["LV.MW.StageAdd"]
+raw = "Add Stage"
+enUS = "Add Stage"
+zhCN = "添加阶段"
+
+["LV.MW.StageRemove"]
+raw = "Remove Stage"
+enUS = "Remove Stage"
+zhCN = "移除阶段"
+
+["LV.MW.StageUp"]
+raw = "Move Up"
+enUS = "Move Up"
+zhCN = "上移"
+
+["LV.MW.StageDown"]
+raw = "Move Down"
+enUS = "Move Down"
+zhCN = "下移"
+
+["LV.MW.StageSkipChance"]
+raw = "Skip chance (%)"
+enUS = "Skip chance (%)"
+zhCN = "跳过概率(%)"
+
+["LV.MW.StageSkipChanceDesc"]
+raw = "The chance of this stage being skipped when deciding a cycle"
+enUS = "The chance of this stage being skipped when deciding a cycle"
+zhCN = "此阶段在周期生成时被跳过的概率。"
+
+["LV.MW.StageBenignChance"]
+raw = "Benign weather chance"
+enUS = "Benign weather chance"
+zhCN = "舒适类天气概率(%)"
+
+["LV.MW.StageBenignChanceDesc"]
+raw = "The chance of benign weather occurring during this stage"
+enUS = "The chance of benign weather occurring during this stage"
+zhCN = "此阶段发生舒适类天气的概率。"
+
+["LV.MW.LengthMul"]
+raw = "Length Multiplier (%)"
+enUS = "Length Multiplier (%)"
+zhCN = "持续时间倍率(%)"
+
+["LV.MW.LengthMulDesc"]
+raw = "Once the weather duration is decided, this stage multiplies that duration by this value"
+enUS = "Once the weather duration is decided, this stage multiplies that duration by this value"
+zhCN = "此阶段的天气持续时间会乘以此倍率。"
+
+["LV.MW.StageIndex"]
+raw = "Stage {0}"
+enUS = "Stage {0}"
+zhCN = "阶段 {0}"
+
+["LV.MW.GenericSettings"]
+raw = "General Settings"
+enUS = "General Settings"
+zhCN = "常规设置"
+
+["LV.MW.AlwaysShowHazDur"]
+raw = "Always show hazardous weather duration"
+enUS = "Always show hazardous weather duration"
+zhCN = "显示恶劣类天气持续时间"
+
+["LV.MW.AlwaysShowHazDurDesc"]
+raw = "If enabled, the hazardous weather duration will always be shown in the weather panel (the game's default behavior). If disabled, you only know 3 days in advance before the next weather starts."
+enUS = "If enabled, the hazardous weather duration will always be shown in the weather panel (the game's default behavior). If disabled, you only know 3 days in advance before the next weather starts."
+zhCN = "勾选后，恶劣类天气的持续时间将始终显示在天气面板中（游戏默认：是）。<br>如果取消勾选，则只能在天气结束前3天得知。"
