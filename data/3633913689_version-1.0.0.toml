@@ -54,8 +54,8 @@ enUS = "Auto Products"
 zhCN = "受产物控制"
 
 ["UI.TW.SimpleWorkshopControl.Controller"]
-raw = "Control input"
-enUS = "Control input"
+raw = "User Control"
+enUS = "User Control"
 zhCN = "自定义控制"
 
 ["UI.TW.SimpleWorkshopControl.RangeType"]
@@ -81,16 +81,16 @@ zhCN = "无"
 ["UI.TW.SimpleWorkshopControl.Percent"]
 raw = "Percent"
 enUS = "Percent"
-zhCN = "百分比"
+zhCN = "全局库存百分比"
 
 ["UI.TW.SimpleWorkshopControl.Value"]
 raw = "Value"
 enUS = "Value"
-zhCN = "数值"
+zhCN = "全局库存数值"
 
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
-raw = "Show Status Icons"
-enUS = "Show Status Icons"
+raw = "Show status icons"
+enUS = "Show status icons"
 zhCN = "显示状态图标"
 
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIconsDesc"]
@@ -104,41 +104,91 @@ enUS = " "
 zhCN = " "
 
 ["ModSetting.TWSimpleWorkshopControl.RequireInputsDefault"]
-raw = "Auto Ingredients Default"
-enUS = "Auto Ingredients Default"
+raw = "Auto ingredients default"
+enUS = "Auto ingredients default"
 zhCN = "原料控制默认设置"
 
 ["ModSetting.TWSimpleWorkshopControl.RequireInputsDefaultDesc"]
-raw = "Newly constructed buildings will have their Auto Ingredients set to this"
-enUS = "Newly constructed buildings will have their Auto Ingredients set to this"
-zhCN = "勾选后，新建建筑的“受原料控制”选项将默认启用。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在升至配方所需数量的指定倍数时启用。"
-
-["ModSetting.TWSimpleWorkshopControl.RecipeRequirementMultiplier"]
-raw = "Auto Ingredients Multiplier"
-enUS = "Auto Ingredients Multiplier"
-zhCN = "原料控制条件阈值（倍数）"
-
-["ModSetting.TWSimpleWorkshopControl.RecipeRequirementMultiplierDesc"]
-raw = "Buildings disabled by the Auto Ingredients toggle will need global inventory of each of their ingredients to reach the recipe requirement multiplied by this value to turn back on. Valid range 0 - 100"
-enUS = "Buildings disabled by the Auto Ingredients toggle will need global inventory of each of their ingredients to reach the recipe requirement multiplied by this value to turn back on. Valid range 0 - 100"
-zhCN = "因“受原料控制”而关闭的建筑，其原料的全局库存需达到配方所需数量乘以此倍数后，才会重新启用。有效范围0~100。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在升至配方所需数量的指定倍数时启用。"
+raw = "Newly constructed buildings will start with Auto Ingredients enabled"
+enUS = "Newly constructed buildings will start with Auto Ingredients enabled"
+zhCN = "勾选后，新建建筑的“受原料控制”选项将默认启用。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在所有原料升至配方所需数量的指定倍数时启用。"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsDefault"]
-raw = "Auto Products Default"
-enUS = "Auto Products Default"
+raw = "Auto products default"
+enUS = "Auto products default"
 zhCN = "产物控制默认设置"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsDefaultDesc"]
-raw = "Newly constructed buildings will have their Auto Products set to this"
-enUS = "Newly constructed buildings will have their Auto Products set to this"
-zhCN = "勾选后，新建建筑的“受产物控制”选项将默认启用。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在降至满值的指定百分比时启用。"
+raw = "Newly constructed buildings will start with Auto Products enabled"
+enUS = "Newly constructed buildings will start with Auto Products enabled"
+zhCN = "勾选后，新建建筑的“受产物控制”选项将默认启用。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在所有产物降至满值的指定百分比时启用。"
 
-["ModSetting.TWSimpleWorkshopControl.AutoProductSetpoint"]
-raw = "Auto Product Setpoint"
-enUS = "Auto Product Setpoint"
-zhCN = "产物控制条件阈值（百分比）"
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStart"]
+raw = "Auto ingredient Start default"
+enUS = "Auto ingredient Start default"
+zhCN = "原料控制建筑启动阈值"
 
-["ModSetting.TWSimpleWorkshopControl.AutoProductSetpointDesc"]
-raw = "Inventory of products must fall below this percent of capacity before Auto Products buildings will activate. Valid range 0 - 100"
-enUS = "Inventory of products must fall below this percent of capacity before Auto Products buildings will activate. Valid range 0 - 100"
-zhCN = "因“受产物控制”而关闭的建筑，其产物的全局库存需低于库存最大值乘以此百分比后，才会重新启用。有效范围0~100。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在降至满值的指定百分比时启用。"
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStartDesc"]
+raw = "Auto Ingredient buildings will start when all ingredients have reached this percent of global capacity"
+enUS = "Auto Ingredient buildings will start when all ingredients have reached this percent of global capacity"
+zhCN = "当所有原料高于此全局库存百分比时，“受原料控制”建筑将启用"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStop"]
+raw = "Auto ingredient Stop default"
+enUS = "Auto ingredient Stop default"
+zhCN = "原料控制建筑关停阈值"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStopDesc"]
+raw = "Auto Ingredient buildings will stop when any ingredient falls below this percent of global capacity"
+enUS = "Auto Ingredient buildings will stop when any ingredient falls below this percent of global capacity"
+zhCN = "当任何原料低于此全局库存百分比时，“受原料控制”建筑将关停"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStart"]
+raw = "Auto product Start default"
+enUS = "Auto product Start default"
+zhCN = "产物控制建筑启动阈值"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStartDesc"]
+raw = "Auto product buildings will start when all products have been below this percent of global capacity"
+enUS = "Auto product buildings will start when all products have been below this percent of global capacity"
+zhCN = "当所有产物低于此全局库存百分比时，“受产物控制”建筑将启用"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStop"]
+raw = "Auto product Stop default"
+enUS = "Auto product Stop default"
+zhCN = "产物控制建筑关停阈值"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStopDesc"]
+raw = "Auto product buidlings will stop when any product is above this percent of global capacity"
+enUS = "Auto product buidlings will stop when any product is above this percent of global capacity"
+zhCN = "当任何产物高于此全局库存百分比时，“受产物控制”建筑将关停"
+
+["ModSetting.TWSimpleWorkshopControl.UIMinHeight"]
+raw = "Min UI height"
+enUS = "Min UI height"
+zhCN = "界面最小高度"
+
+["ModSetting.TWSimpleWorkshopControl.UIMinHeightDesc"]
+raw = "Controls how much room the control fragment can use in the entity panel"
+enUS = "Controls how much room the control fragment can use in the entity panel"
+zhCN = "可以调整此模组界面在详情面板中的最小高度。"
+
+["ModSetting.TWSimpleWorkshopControl.UIMaxHeight"]
+raw = "Max UI height"
+enUS = "Max UI height"
+zhCN = "界面最大高度"
+
+["ModSetting.TWSimpleWorkshopControl.UIMaxHeightDesc"]
+raw = "Controls how much room the control fragment can use in the entity panel"
+enUS = "Controls how much room the control fragment can use in the entity panel"
+zhCN = "可以调整此模组界面在详情面板中的最大高度。"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingAutoSliders"]
+raw = "Per-building auto sliders"
+enUS = "Per-building auto sliders"
+zhCN = "单独设置控制阈值"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingAutoSlidersDesc"]
+raw = "When checked, the start/stop values for each building can be chosen in-game. When unchecked, all buildings will use the mod-setting defaults."
+enUS = "When checked, the start/stop values for each building can be chosen in-game. When unchecked, all buildings will use the mod-setting defaults."
+zhCN = "勾选后，可以单独设置每栋建筑的启用/关停阈值。如果未勾选，则所有建筑将使用模组设置的默认阈值。"

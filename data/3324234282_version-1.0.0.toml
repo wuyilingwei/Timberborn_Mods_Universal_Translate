@@ -1157,7 +1157,7 @@ zhCN = "已完成"
 ["IgorZ.Automation.Scriptable.Debug.Action.LogNum"]
 raw = "write a number to logs: {0}"
 enUS = "write a number to logs: {0}"
-zhCN = "将数字写入日志：{0}"
+zhCN = "向日志写入数字：{0}"
 zhTW = "寫入數字至日誌：{0}"
 ruRU = "записать число в логи: {0}"
 jaJP = "ログに数を記録します: {0}"
@@ -1169,7 +1169,7 @@ ptBR = "escrever um número nos logs: {0}"
 ["IgorZ.Automation.Scriptable.Debug.Action.LogStr"]
 raw = "write a string to logs: {0}"
 enUS = "write a string to logs: {0}"
-zhCN = "将字符串写入日志：{0}"
+zhCN = "向日志写入字符串：{0}"
 zhTW = "寫入日誌：{0}"
 ruRU = "запишите строку в логи: {0}"
 jaJP = "ログに文字列を書き込む: {0}"
@@ -1178,20 +1178,29 @@ deDE = "schreibe eine Zeichenfolge in die Protokolle: {0}"
 plPL = "zapisz ciąg do dzienników: {0}"
 ptBR = "escreva uma string nos logs: {0}"
 
-["IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockCapacityTracker"]
-raw = "district stock capacity: {0}"
-enUS = "district stock capacity: {0}"
-zhCN = "地区库存容量：{0}"
-
-["IgorZ.Automation.Scriptable.Debug.Signal.DistrictStockTracker"]
-raw = "district stock: {0}"
-enUS = "district stock: {0}"
-zhCN = "地区库存：{0}"
+["IgorZ.Automation.Scriptable.Debug.Action.Log"]
+raw = "write to logs: '{0}'"
+enUS = "write to logs: '{0}'"
+zhCN = "向日志写入：{0}"
+zhTW = "寫入日誌：'{0}'"
+ruRU = "записать в журнал: '{0}'"
+jaJP = "ログに書き込む：'{0}'"
+frFR = "écrire dans les journaux : '{0}'"
+deDE = "in die Protokolle schreiben: '{0}'"
+plPL = "zapisz do dzienników: '{0}'"
+ptBR = "escrever nos logs: '{0}'"
 
 ["IgorZ.Automation.Scriptable.Debug.Signal.Ticker"]
 raw = "ticker"
 enUS = "ticker"
 zhCN = "计时器"
+zhTW = "計時器"
+ruRU = "счетчик"
+jaJP = "タイマー"
+frFR = "compteur"
+deDE = "Ticker"
+plPL = "tiker"
+ptBR = "temporizador"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Beavers"]
 raw = "beavers in district"
@@ -1228,6 +1237,30 @@ frFR = "lits dans le district"
 deDE = "Betten im Bezirk"
 plPL = "łóżka w dzielnicy"
 ptBR = "camas no distrito"
+
+["IgorZ.Automation.Scriptable.District.Signal.ResourceCapacity"]
+raw = "district capacity: {0}"
+enUS = "district capacity: {0}"
+zhCN = "地区库存上限：{0}"
+zhTW = "區域容量：{0}"
+ruRU = "вместимость района: {0}"
+jaJP = "地区容量：{0}"
+frFR = "capacité du district : {0}"
+deDE = "Bezirkskapazität: {0}"
+plPL = "pojemność dzielnicy: {0}"
+ptBR = "capacidade do distrito: {0}"
+
+["IgorZ.Automation.Scriptable.District.Signal.ResourceStock"]
+raw = "district stock: {0}"
+enUS = "district stock: {0}"
+zhCN = "地区库存量：{0}"
+zhTW = "區域庫存：{0}"
+ruRU = "запас района: {0}"
+jaJP = "地区在庫：{0}"
+frFR = "stock du district : {0}"
+deDE = "Bezirksbestand: {0}"
+plPL = "zapas dzielnicy: {0}"
+ptBR = "estoque do distrito: {0}"
 
 ["IgorZ.Automation.Scriptable.Dynamite.Action.Detonate"]
 raw = "detonate dynamite"
@@ -1865,11 +1898,6 @@ zhCN = "加载时重新评估规则"
 raw = "Reset custom signals on load"
 enUS = "Reset custom signals on load"
 zhCN = "加载时重置自定义信号"
-
-["IgorZ.Automation.Settings.EntityPanel.AlwaysShowAddRulesButton"]
-raw = "Always show 'Add rules' button"
-enUS = "Always show 'Add rules' button"
-zhCN = "始终显示“添加自动化规则”按钮"
 
 ["IgorZ.Automation.Settings.EntityPanel.Header"]
 raw = "Controls on the building panel"
