@@ -31,22 +31,21 @@ jobs:
             VERSION="v${{ inputs.version }}"
             VERSION_NUMBER="${{ inputs.version }}"
           else
-            # Get latest release version with proper error handling
-            HTTP_CODE=$(curl -s -o /tmp/release.json -w "%{http_code}" https://api.github.com/repos/${{ github.repository }}/releases/latest)
-            
-            if [ "$HTTP_CODE" -ne 200 ]; then
-              echo "Error: Failed to get latest release (HTTP $HTTP_CODE)"
+            # Read version from repository's info/version.txt
+            if [ ! -f "info/version.txt" ]; then
+              echo "Error: info/version.txt not found in repository"
               exit 1
             fi
             
-            VERSION=$(jq -r .tag_name /tmp/release.json)
-            if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
-              echo "Error: Failed to parse version from release data"
+            VERSION_NUMBER=$(cat info/version.txt | tr -d '\n\r ')
+            
+            if [ -z "$VERSION_NUMBER" ]; then
+              echo "Error: info/version.txt is empty"
               exit 1
             fi
             
-            VERSION_NUMBER="${VERSION#v}"
-            rm -f /tmp/release.json
+            VERSION="v${VERSION_NUMBER}"
+            echo "Read version from repository: $VERSION_NUMBER"
           fi
           
           echo "Version to publish: $VERSION"
@@ -59,22 +58,17 @@ jobs:
         run: |
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
           
-          # Try to get package from local repository first
+          # Get package from local repository
           if [ -f "releases/${VERSION_NUMBER}.zip" ]; then
             echo "Found release package in repository: releases/${VERSION_NUMBER}.zip"
             cp "releases/${VERSION_NUMBER}.zip" release.zip
           else
-            echo "Package not found locally, downloading from GitHub release..."
-            
-            # Download from GitHub release
-            DOWNLOAD_URL="https://github.com/${{ github.repository }}/releases/download/${{ steps.version.outputs.VERSION }}/${VERSION_NUMBER}.zip"
-            
-            if wget -q "$DOWNLOAD_URL" -O release.zip; then
-              echo "Successfully downloaded from GitHub release"
-            else
-              echo "Error: Failed to download release package from $DOWNLOAD_URL"
-              exit 1
-            fi
+            echo "Error: Package not found in repository at releases/${VERSION_NUMBER}.zip"
+            echo ""
+            echo "The package should be available in the repository after the build workflow completes."
+            echo "If you're running this manually, ensure the build workflow has run successfully"
+            echo "and committed the package to the releases/ directory."
+            exit 1
           fi
           
           # Verify the file exists and has content
