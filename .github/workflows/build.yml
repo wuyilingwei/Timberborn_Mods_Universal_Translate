@@ -231,10 +231,21 @@ jobs:
           if [ -f "$PYTHON_LOG_FILE" ]; then
             echo "Processing build log..."
             
-            # Read the full log content
-            PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
+            # Check log file size (limit to 50KB for release notes)
+            LOG_SIZE=$(wc -c < "$PYTHON_LOG_FILE")
+            MAX_LOG_SIZE=51200  # 50KB
+            
+            if [ "$LOG_SIZE" -gt "$MAX_LOG_SIZE" ]; then
+              echo "Warning: Log file is large ($LOG_SIZE bytes), truncating to last 50KB for release notes"
+              PYTHON_LOG_CONTENT=$(tail -c "$MAX_LOG_SIZE" "$PYTHON_LOG_FILE")
+              PYTHON_LOG_CONTENT="... (log truncated, showing last 50KB)\n$PYTHON_LOG_CONTENT"
+            else
+              # Read the full log content
+              PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
+            fi
             
             # Extract error lines (lines containing [ERROR])
+            # The Python script outputs errors in format: [ERROR] message
             ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" || echo "")
             
             if [ -n "$ERROR_LINES" ]; then
@@ -243,7 +254,7 @@ jobs:
           Automated Update to $NEW_VERSION
           
           <details>
-          <summary>Building Log (Occur Error)</summary>
+          <summary>Build Log (Errors Occurred)</summary>
           
           **Error Messages:**
           \`\`\`
@@ -267,7 +278,7 @@ jobs:
           Automated Update to $NEW_VERSION
           
           <details>
-          <summary>Building Log</summary>
+          <summary>Build Log</summary>
           
           No errors found during conversion.
           
