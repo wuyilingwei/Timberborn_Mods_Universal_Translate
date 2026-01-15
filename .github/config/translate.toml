@@ -3,10 +3,10 @@
 
 [rate_limiter]
 # Maximum requests per minute (RPM)
-max_requests_per_minute = 10
+max_requests_per_minute = 4000
 
 # Number of concurrent translation threads
-max_threads = 5
+max_threads = 50
 
 [llm]
 # LLM model to use for translation
