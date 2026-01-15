@@ -144,12 +144,12 @@ jobs:
           # Create mod directory structure
           mkdir -p mod/Localizations
           
-          # Run conversion script and capture output
-          PYTHON_LOG_FILE="python_conversion.log"
-          python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1 | tee "$PYTHON_LOG_FILE"
+          # Define log file path and store in environment for later steps
+          LOG_FILE="python_conversion.log"
+          echo "PYTHON_LOG_FILE=$LOG_FILE" >> $GITHUB_ENV
           
-          # Store log file path for later use
-          echo "PYTHON_LOG_FILE=$PYTHON_LOG_FILE" >> $GITHUB_ENV
+          # Run conversion script and capture output
+          python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1 | tee "$LOG_FILE"
           
           echo "TOML to CSV conversion completed"
 
@@ -231,14 +231,14 @@ jobs:
           if [ -f "$PYTHON_LOG_FILE" ]; then
             echo "Processing build log..."
             
-            # Check log file size (limit to 50KB for release notes)
-            LOG_SIZE=$(wc -c < "$PYTHON_LOG_FILE")
-            MAX_LOG_SIZE=51200  # 50KB
+            # Check log file size (limit to 1000 lines for release notes)
+            LOG_LINES=$(wc -l < "$PYTHON_LOG_FILE")
+            MAX_LOG_LINES=1000
             
-            if [ "$LOG_SIZE" -gt "$MAX_LOG_SIZE" ]; then
-              echo "Warning: Log file is large ($LOG_SIZE bytes), truncating to last 50KB for release notes"
-              # Use printf for proper string handling
-              PYTHON_LOG_CONTENT=$(printf "... (log truncated, showing last 50KB)\n\n%s" "$(tail -c "$MAX_LOG_SIZE" "$PYTHON_LOG_FILE")")
+            if [ "$LOG_LINES" -gt "$MAX_LOG_LINES" ]; then
+              echo "Warning: Log file is large ($LOG_LINES lines), truncating to last $MAX_LOG_LINES lines for release notes"
+              # Use tail with line count to avoid breaking UTF-8 characters
+              PYTHON_LOG_CONTENT=$(printf "... (log truncated, showing last %s lines)\n\n%s" "$MAX_LOG_LINES" "$(tail -n "$MAX_LOG_LINES" "$PYTHON_LOG_FILE")")
             else
               # Read the full log content
               PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
