@@ -29,7 +29,8 @@ LANGUAGE_NAMES = {
     "frFR": "French",
     "deDE": "German",
     "plPL": "Polish",
-    "ptBR": "Brazilian Portuguese"
+    "ptBR": "Brazilian Portuguese",
+    "koKR": "Korean"
 }
 
 
