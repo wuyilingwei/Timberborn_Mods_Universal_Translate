@@ -8,9 +8,6 @@ on:
   schedule:
     # Run daily at 02:00 UTC to process new translations
     - cron: '0 2 * * *'
-  push:
-    paths:
-      - 'data/*.toml'
 
 jobs:
   translate:
@@ -21,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ssh-key: ${{ secrets.DEPLOY_TOKEN }}
           persist-credentials: true
       
       - name: Set up Python
