@@ -177,6 +177,25 @@ jobs:
           version: ${{ env.VERSION }}
           path: release.zip
 
+      # TODO: Steam Workshop Publishing
+      # Steam Workshop publishing is not yet implemented in this workflow.
+      # The original script.sh included Steam Workshop upload functionality (lines 165-192).
+      # 
+      # To implement Steam Workshop publishing:
+      # 1. Set up SteamCMD in a GitHub Actions environment (consider using a self-hosted runner)
+      # 2. Add STEAM_USERNAME and STEAM_PASSWORD as repository secrets
+      # 3. Create workshop.vdf configuration file with:
+      #    - appid: 1062090
+      #    - publishedfileid: 3346918947
+      #    - contentfolder: path to release package
+      #    - changenote: release version
+      # 4. Run SteamCMD with workshop_build_item command
+      # 5. Add error handling with continue-on-error: true
+      # 6. Update the "Check publication results" step to include Steam Workshop status
+      #
+      # Note: Steam Workshop publishing requires SteamCMD and Steam authentication,
+      # which may be better suited for a self-hosted runner or separate workflow.
+
       - name: Check publication results
         run: |
           HAS_ERRORS=false
