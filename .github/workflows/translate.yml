@@ -1,0 +1,59 @@
+name: Auto Translate Mods
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run daily at 02:00 UTC to process new translations
+    - cron: '0 2 * * *'
+  push:
+    paths:
+      - 'data/*.toml'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r .github/scripts/requirements.txt
+      
+      - name: Run translation
+        env:
+          LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
+        run: |
+          python .github/scripts/translate_mods.py \
+            --config .github/config/translate.toml \
+            --data-dir data \
+            --lang-file info/languages.txt \
+            --verbose
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet data/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "chore: Auto-translate mod entries [skip ci]"
+          git push
