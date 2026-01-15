@@ -1,0 +1,22 @@
+# Translation Configuration
+# Rate limiting configuration to prevent API rejection
+
+[rate_limiter]
+# Maximum requests per minute (RPM)
+max_requests_per_minute = 10
+
+# Number of concurrent translation threads
+max_threads = 5
+
+[llm]
+# LLM model to use for translation
+model = "gpt-4o-mini"
+
+# API endpoint (OpenAI-compatible)
+api_url = "https://api.openai.com/v1/chat/completions"
+
+# Minimum text length to translate
+min_length = 1
+
+# Maximum text length to translate
+max_length = 5000
