@@ -238,42 +238,50 @@ jobs:
             ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" || echo "")
             
             if [ -n "$ERROR_LINES" ]; then
-              RELEASE_NOTES="$RELEASE_NOTES
-
-<details>
-<summary>Building Log (Occur Error)</summary>
-
-**Error Messages:**
-\`\`\`
-$ERROR_LINES
-\`\`\`
-
-<details>
-<summary>Full Log</summary>
-
-\`\`\`
-$PYTHON_LOG_CONTENT
-\`\`\`
-</details>
-
-</details>"
+              # Create release notes with error log
+              RELEASE_NOTES=$(cat <<EOF
+          Automated Update to $NEW_VERSION
+          
+          <details>
+          <summary>Building Log (Occur Error)</summary>
+          
+          **Error Messages:**
+          \`\`\`
+          $ERROR_LINES
+          \`\`\`
+          
+          <details>
+          <summary>Full Log</summary>
+          
+          \`\`\`
+          $PYTHON_LOG_CONTENT
+          \`\`\`
+          </details>
+          
+          </details>
+          EOF
+          )
             else
-              RELEASE_NOTES="$RELEASE_NOTES
-
-<details>
-<summary>Building Log</summary>
-
-No errors found during conversion.
-
-<details>
-<summary>Full Log</summary>
-
-\`\`\`
-$PYTHON_LOG_CONTENT
-\`\`\`
-</details>
-
-</details>"
+              # Create release notes with success log
+              RELEASE_NOTES=$(cat <<EOF
+          Automated Update to $NEW_VERSION
+          
+          <details>
+          <summary>Building Log</summary>
+          
+          No errors found during conversion.
+          
+          <details>
+          <summary>Full Log</summary>
+          
+          \`\`\`
+          $PYTHON_LOG_CONTENT
+          \`\`\`
+          </details>
+          
+          </details>
+          EOF
+          )
             fi
           fi
           
