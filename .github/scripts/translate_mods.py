@@ -8,6 +8,7 @@ This script processes TOML files and translates missing language entries using L
 import os
 import sys
 import toml
+import time
 import logging
 import argparse
 from pathlib import Path
@@ -325,10 +326,23 @@ def process_all_files(
     translator: TranslatorLLM,
     target_languages: List[str],
     max_threads: int = 1,
-    dry_run: bool = False
+    dry_run: bool = False,
+    max_time: Optional[int] = None
 ) -> None:
-    """Process all TOML files in the data directory"""
+    """
+    Process all TOML files in the data directory
+    
+    Args:
+        data_dir: Directory containing TOML files
+        translator: Translator instance
+        target_languages: List of target language codes
+        max_threads: Maximum number of concurrent threads
+        dry_run: If True, don't write changes
+        max_time: Maximum processing time in seconds. If set, stops taking new entries when time is up.
+    """
     logger = logging.getLogger("process_all_files")
+    
+    start_time = time.time()
     
     # Find all TOML files
     toml_files = list(Path(data_dir).glob("*.toml"))
@@ -357,6 +371,15 @@ def process_all_files(
             }
             
             for future in as_completed(futures):
+                # Check timeout before processing result
+                if max_time and (time.time() - start_time) >= max_time:
+                    logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of new files.")
+                    # Cancel remaining futures
+                    for f in futures:
+                        if not f.done():
+                            f.cancel()
+                    break
+                
                 toml_file = futures[future]
                 try:
                     translations, entries = future.result()
@@ -368,6 +391,12 @@ def process_all_files(
         # Process files sequentially
         logger.info("Processing files sequentially")
         for toml_file in toml_files:
+            # Check timeout before processing each file
+            if max_time and (time.time() - start_time) >= max_time:
+                logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of remaining files.")
+                logger.info(f"Processed {len(toml_files) - toml_files.index(toml_file)} of {len(toml_files)} files before timeout")
+                break
+            
             try:
                 translations, entries = process_toml_file(
                     str(toml_file),
@@ -422,6 +451,11 @@ def main():
     parser.add_argument(
         "--log-file",
         help="Path to log file (default: no file output, only console)"
+    )
+    parser.add_argument(
+        "--max-time",
+        type=int,
+        help="Maximum processing time in seconds. Script will stop taking new entries when time is up."
     )
     
     args = parser.parse_args()
@@ -498,13 +532,17 @@ def main():
         if args.dry_run:
             logger.info("DRY RUN MODE - No changes will be made")
         
+        if args.max_time:
+            logger.info(f"Maximum processing time: {args.max_time} seconds")
+        
         # Process all files
         process_all_files(
             data_dir=args.data_dir,
             translator=translator,
             target_languages=target_languages,
             max_threads=max_threads,
-            dry_run=args.dry_run
+            dry_run=args.dry_run,
+            max_time=args.max_time
         )
         
         logger.info("All done!")

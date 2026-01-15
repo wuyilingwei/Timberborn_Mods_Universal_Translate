@@ -38,40 +38,6 @@ jobs:
         run: |
           pip install -r .github/scripts/requirements.txt
       
-      - name: Pull latest changes with conflict handling
-        id: pull_changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # Pull with rebase to avoid merge commits
-          if git pull --rebase origin main; then
-            echo "pull_success=true" >> $GITHUB_OUTPUT
-            echo "Successfully pulled latest changes"
-          else
-            echo "pull_success=false" >> $GITHUB_OUTPUT
-            echo "Merge conflict detected"
-            
-            # Check for conflicts
-            CONFLICTED_FILES=$(git diff --name-only --diff-filter=U)
-            if [ -n "$CONFLICTED_FILES" ]; then
-              echo "Conflicted files:"
-              echo "$CONFLICTED_FILES"
-              
-              # Abort the rebase
-              git rebase --abort
-              
-              # For each conflicted file, use ours (keep local changes)
-              for file in $CONFLICTED_FILES; do
-                if [ -f "$file" ]; then
-                  echo "Keeping local version of $file"
-                  git checkout --ours "$file"
-                  git add "$file"
-                fi
-              done
-            fi
-          fi
-      
       - name: Run translation with timeout
         id: translate
         env:
@@ -82,17 +48,16 @@ jobs:
           # Remove old log if exists
           rm -f "$LOG_FILE"
           
-          # Run translation with 5-minute timeout
-          timeout 300 python .github/scripts/translate_mods.py \
+          # Run translation with graceful 5-minute timeout
+          # Script will stop taking new entries when time is up
+          python .github/scripts/translate_mods.py \
             --config .github/config/translate.toml \
             --data-dir data \
-            --log-file "$LOG_FILE" || EXIT_CODE=$?
+            --log-file "$LOG_FILE" \
+            --max-time 300 || EXIT_CODE=$?
           
           # Check exit code
-          if [ "${EXIT_CODE:-0}" -eq 124 ]; then
-            echo "Translation timed out after 5 minutes"
-            echo "timed_out=true" >> $GITHUB_OUTPUT
-          elif [ "${EXIT_CODE:-0}" -ne 0 ]; then
+          if [ "${EXIT_CODE:-0}" -ne 0 ]; then
             echo "Translation failed with exit code $EXIT_CODE"
             echo "failed=true" >> $GITHUB_OUTPUT
             exit 1
@@ -110,7 +75,7 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
       
-      - name: Commit and push changes
+      - name: Commit and push changes with conflict handling
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -149,11 +114,3 @@ jobs:
               fi
             fi
           done
-      
-      - name: Trigger retry if timed out
-        if: steps.translate.outputs.timed_out == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Translation timed out, triggering retry..."
-          gh workflow run translate.yml -f retry=true
