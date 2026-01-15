@@ -12,8 +12,7 @@ import logging
 import argparse
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Dict, List, Optional, Set
-import secrets  # For accessing LLM_TOKEN
+from typing import Dict, List, Optional, Set, Tuple
 
 # Add util to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
@@ -80,7 +79,7 @@ def build_translation_prompt(
     current_translation: Optional[str] = None,
     field_prompt: Optional[str] = None,
     specific_prompt: Optional[str] = None
-) -> tuple[str, str]:
+) -> Tuple[str, str]:
     """
     Build system and user prompts for translation
     
@@ -377,17 +376,17 @@ def main():
         # Get API token
         api_token = args.api_token
         if not api_token:
-            # Try to get from secrets module
+            # Try environment variable first
+            api_token = os.environ.get('LLM_TOKEN') or os.environ.get('OPENAI_API_KEY')
+        
+        if not api_token:
+            # Try to get from secrets module (if it exists and has LLM_TOKEN attribute)
             try:
                 import secrets as secrets_module
                 if hasattr(secrets_module, 'LLM_TOKEN'):
                     api_token = secrets_module.LLM_TOKEN
             except (ImportError, AttributeError):
                 pass
-        
-        if not api_token:
-            # Try environment variable
-            api_token = os.environ.get('LLM_TOKEN') or os.environ.get('OPENAI_API_KEY')
         
         if not api_token:
             logger.error("API token not found. Please provide via --api-token, secrets.LLM_TOKEN, or LLM_TOKEN/OPENAI_API_KEY environment variable")
