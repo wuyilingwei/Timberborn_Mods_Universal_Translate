@@ -5,6 +5,12 @@ permissions:
 
 on:
   workflow_dispatch:
+    inputs:
+      retry:
+        description: 'Is this a retry after timeout?'
+        required: false
+        default: 'false'
+        type: string
   schedule:
     # Run daily at 02:00 UTC to process new translations
     - cron: '0 2 * * *'
@@ -12,6 +18,7 @@ on:
 jobs:
   translate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
       - name: Checkout repository
@@ -31,26 +38,79 @@ jobs:
         run: |
           pip install -r .github/scripts/requirements.txt
       
-      - name: Run translation
+      - name: Run translation with timeout
+        id: translate
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
         run: |
+          LOG_FILE=".github/log/translation.log"
+          
+          # Remove old log if exists
+          rm -f "$LOG_FILE"
+          
+          # Run translation with graceful 5-minute timeout
+          # Script will stop taking new entries when time is up
           python .github/scripts/translate_mods.py \
             --config .github/config/translate.toml \
             --data-dir data \
-            --lang-file info/languages.txt \
-            --verbose
+            --log-file "$LOG_FILE" \
+            --max-time 300 || EXIT_CODE=$?
+          
+          # Check exit code
+          if [ "${EXIT_CODE:-0}" -ne 0 ]; then
+            echo "Translation failed with exit code $EXIT_CODE"
+            echo "failed=true" >> $GITHUB_OUTPUT
+            exit 1
+          else
+            echo "Translation completed successfully"
+            echo "completed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet data/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+          if git diff --quiet data/ .github/log/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
       
-      - name: Commit and push changes
+      - name: Commit and push changes with conflict handling
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+          git add data/ .github/log/
           git commit -m "chore: Auto-translate mod entries [skip ci]"
-          git push
+          
+          # Push with retry logic and conflict handling
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            if git push; then
+              echo "Successfully pushed changes"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Push failed, pulling and retrying ($RETRY_COUNT/$MAX_RETRIES)..."
+                
+                # Pull with rebase
+                if ! git pull --rebase origin main; then
+                  # Handle conflicts by keeping our version
+                  CONFLICTED_FILES=$(git diff --name-only --diff-filter=U)
+                  if [ -n "$CONFLICTED_FILES" ]; then
+                    echo "Resolving conflicts by keeping our changes"
+                    git rebase --abort
+                    git pull origin main --strategy-option=ours || true
+                  fi
+                fi
+                
+                sleep 2
+              else
+                echo "Error: Failed to push changes after $MAX_RETRIES attempts"
+                echo "Giving up on this file's changes to avoid blocking future runs"
+                exit 0  # Exit gracefully to not block future runs
+              fi
+            fi
+          done
