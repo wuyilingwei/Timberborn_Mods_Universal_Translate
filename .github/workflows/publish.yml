@@ -84,6 +84,7 @@ jobs:
       - name: Publish to all platforms
         env:
           MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
+          STEAM_TOKEN: ${{ secrets.STEAM_TOKEN }}
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
           
@@ -102,7 +103,11 @@ jobs:
             echo "⚠️  mod.io: Token not configured (will be skipped)"
           fi
           
-          # TODO: Add other platform checks here
+          if [ -n "$STEAM_TOKEN" ]; then
+            echo "✓ Steam Workshop: Configured"
+          else
+            echo "⚠️  Steam Workshop: Token not configured (will be skipped)"
+          fi
           
           echo ""
           echo "Note: Actual publishing will be performed in subsequent steps"
@@ -122,24 +127,54 @@ jobs:
           version: ${{ env.VERSION }}
           path: release.zip
 
-      # TODO: Steam Workshop Publishing
-      # Steam Workshop publishing is not yet implemented in this workflow.
-      # The original script.sh included Steam Workshop upload functionality (lines 165-192).
-      # 
-      # To implement Steam Workshop publishing:
-      # 1. Set up SteamCMD in a GitHub Actions environment (consider using a self-hosted runner)
-      # 2. Add STEAM_USERNAME and STEAM_PASSWORD as repository secrets
-      # 3. Create workshop.vdf configuration file with:
-      #    - appid: 1062090
-      #    - publishedfileid: 3346918947
-      #    - contentfolder: path to release package
-      #    - changenote: release version
-      # 4. Run SteamCMD with workshop_build_item command
-      # 5. Add error handling with continue-on-error: true
-      # 6. Update the "Check publication results" step to include Steam Workshop status
-      #
-      # Note: Steam Workshop publishing requires SteamCMD and Steam authentication,
-      # which may be better suited for a self-hosted runner or separate workflow.
+      - name: Upload package for Steam Workshop
+        if: ${{ env.STEAM_TOKEN != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: workshop-package
+          path: release.zip
+          retention-days: 1
+
+      - name: Publish to Steam Workshop
+        if: ${{ env.STEAM_TOKEN != '' }}
+        env:
+          STEAM_TOKEN: ${{ secrets.STEAM_TOKEN }}
+        continue-on-error: true
+        id: steam_upload
+        run: |
+          VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
+          CHANGENOTE="Automated Update to ${VERSION_NUMBER}"
+          
+          # Use GitHub raw URL for the package
+          ZIP_URL="https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/raw/refs/heads/main/releases/newest.zip"
+          
+          echo "Uploading to Steam Workshop via API..."
+          echo "App ID: 1062090"
+          echo "Published File ID: 3346918947"
+          echo "Version: $VERSION_NUMBER"
+          echo "Change Note: $CHANGENOTE"
+          echo "Package URL: $ZIP_URL"
+          
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST "https://steam.wuyilingwei.com/workshop/upload" \
+            -H "Authorization: Bearer $STEAM_TOKEN" \
+            -F "appid=1062090" \
+            -F "publishedfileid=3346918947" \
+            -F "zip_url=$ZIP_URL" \
+            -F "changenote=$CHANGENOTE")
+          
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          RESPONSE_BODY=$(echo "$RESPONSE" | sed '$d')
+          
+          echo "API Response Status: $HTTP_CODE"
+          echo "API Response Body: $RESPONSE_BODY"
+          
+          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+            echo "✓ Steam Workshop upload successful"
+            exit 0
+          else
+            echo "✗ Steam Workshop upload failed (HTTP $HTTP_CODE)"
+            exit 1
+          fi
 
       - name: Check publication results
         run: |
@@ -155,7 +190,15 @@ jobs:
             echo "⚠️  mod.io skipped (token not configured)"
           fi
           
-          # Add checks for other platforms here as they are added
+          # Check Steam Workshop result
+          if [ "${{ steps.steam_upload.outcome }}" = "failure" ]; then
+            echo "✗ Steam Workshop publication failed"
+            HAS_ERRORS=true
+          elif [ "${{ steps.steam_upload.outcome }}" = "success" ]; then
+            echo "✓ Steam Workshop publication succeeded"
+          elif [ -z "${{ secrets.STEAM_TOKEN }}" ]; then
+            echo "⚠️  Steam Workshop skipped (token not configured)"
+          fi
           
           echo ""
           if [ "$HAS_ERRORS" = true ]; then
