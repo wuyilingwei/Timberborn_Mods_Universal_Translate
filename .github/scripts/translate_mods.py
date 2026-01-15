@@ -122,26 +122,40 @@ def translate_entry(
     entry: Dict,
     target_lang: str,
     mod_name: str,
-    field_prompt: Optional[str] = None
+    field_prompt: Optional[str] = None,
+    force_translate: bool = False
 ) -> Optional[str]:
     """
     Translate a single entry for a specific language
+    
+    Args:
+        force_translate: If True, translate even if translation exists
     
     Returns:
         Translated text or None if translation not needed/failed
     """
     logger = logging.getLogger("translate_entry")
     
-    # Check if translation is needed
-    if "new" not in entry:
-        # No 'new' field means no update needed
+    # Determine the text to translate
+    has_new_field = "new" in entry
+    has_translation = target_lang in entry and entry.get(target_lang)
+    
+    # Skip if translation exists and no update needed (unless forced)
+    if not has_new_field and has_translation and not force_translate:
         return None
     
-    new_text = entry.get("new")
-    # Check for None but allow empty strings (which are valid translations)
-    if new_text is None:
-        logger.warning(f"Entry {key} has 'new' field but value is None")
-        return None
+    # Determine source text: use "new" if available, otherwise use "raw"
+    if has_new_field:
+        text_to_translate = entry.get("new")
+        if text_to_translate is None:
+            logger.warning(f"Entry {key} has 'new' field but value is None")
+            return None
+    else:
+        # Missing translation case - use raw text
+        text_to_translate = entry.get("raw")
+        if not text_to_translate:
+            logger.warning(f"Entry {key} has no 'raw' or 'new' field to translate from")
+            return None
     
     # Get context information
     raw = entry.get("raw")
@@ -151,10 +165,10 @@ def translate_entry(
     # Build prompts
     system_prompt, user_prompt = build_translation_prompt(
         key=key,
-        new_text=new_text,
+        new_text=text_to_translate,
         mod_name=mod_name,
         target_language=target_lang,
-        raw=raw,
+        raw=raw if has_new_field else None,  # Only include old text if updating
         current_translation=current_translation,
         field_prompt=field_prompt,
         specific_prompt=specific_prompt
@@ -163,7 +177,7 @@ def translate_entry(
     # Translate
     logger.info(f"Translating {key} to {target_lang}")
     translation = translator.translate(
-        text=new_text,
+        text=text_to_translate,
         target_language=target_lang,
         system_prompt=system_prompt,
         user_prompt=user_prompt
@@ -208,20 +222,33 @@ def process_toml_file(
     for key, entry in data.items():
         if not isinstance(entry, dict):
             continue
-            
-        # Check if this entry has a "new" field
-        if "new" not in entry:
+        
+        # Check if this entry needs translation
+        # 1. Has "new" field - needs retranslation
+        # 2. Missing translations for some languages
+        has_new_field = "new" in entry
+        missing_languages = [lang for lang in target_languages if lang not in entry or not entry.get(lang)]
+        
+        if not has_new_field and not missing_languages:
+            # Nothing to translate
             continue
         
         entries_processed += 1
-        logger.info(f"Processing entry: {key}")
+        
+        if has_new_field:
+            logger.info(f"Processing entry with 'new' field: {key}")
+            # Translate for all languages when "new" field exists
+            languages_to_translate = target_languages
+        else:
+            logger.info(f"Processing entry with missing translations: {key} (missing: {', '.join(missing_languages)})")
+            # Only translate missing languages
+            languages_to_translate = missing_languages
         
         # Translate for each target language
         all_translations_successful = True
         new_translations = {}
         
-        for lang in target_languages:
-            # Translate for each target language since 'new' field indicates update needed
+        for lang in languages_to_translate:
             translation = translate_entry(
                 translator=translator,
                 key=key,
@@ -240,15 +267,16 @@ def process_toml_file(
         
         # Update entry if translations were successful
         if new_translations and not dry_run:
-            # Update raw field with new text
-            entry["raw"] = entry["new"]
+            # If has "new" field, update raw field with new text
+            if has_new_field:
+                entry["raw"] = entry["new"]
             
             # Update translations
             for lang, translation in new_translations.items():
                 entry[lang] = translation
             
-            # Remove "new" field after successful translation
-            if all_translations_successful:
+            # Remove "new" field after successful translation (only if all languages translated)
+            if has_new_field and all_translations_successful:
                 del entry["new"]
                 logger.info(f"Completed translation for {key}, removed 'new' field")
             
