@@ -83,87 +83,35 @@ jobs:
             exit 1
           fi
           
-          echo "Release package ready: release.zip ($(stat -f%z release.zip 2>/dev/null || stat -c%s release.zip) bytes)"
+          FILE_SIZE=$(wc -c < release.zip)
+          echo "Release package ready: release.zip ($FILE_SIZE bytes)"
 
       - name: Publish to all platforms
         env:
           MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
-          ERRORS=""
-          SUCCESS_COUNT=0
-          TOTAL_COUNT=0
           
           echo "=========================================="
-          echo "Starting publication to all platforms"
+          echo "Preparing publication to all platforms"
           echo "Version: $VERSION"
+          echo "Package: release.zip"
           echo "=========================================="
-          
-          # Platform 1: mod.io
           echo ""
-          echo "Publishing to mod.io..."
-          TOTAL_COUNT=$((TOTAL_COUNT + 1))
+          echo "Platform configuration:"
           
-          if [ -z "$MODIO_TOKEN" ]; then
-            echo "⚠️  Warning: MODIO_TOKEN not set, skipping mod.io"
-            ERRORS="${ERRORS}\n- mod.io: Token not configured"
+          # Check platform availability
+          if [ -n "$MODIO_TOKEN" ]; then
+            echo "✓ mod.io: Configured"
           else
-            # Create a temporary directory for mod.io action
-            mkdir -p /tmp/modio-publish
-            cp release.zip /tmp/modio-publish/
-            
-            # Use the mod.io upload action
-            # Note: This is a placeholder - the actual implementation would use the action
-            # For now, we'll simulate it with a script
-            echo "  Game ID: 3659"
-            echo "  Mod ID: 5238039"
-            echo "  Version: $VERSION"
-            echo "  Package: release.zip"
-            
-            # Simulate mod.io upload (replace with actual action in real workflow)
-            if [ -f "release.zip" ]; then
-              echo "✓ mod.io: Ready to publish (action will be called)"
-              SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
-              # In real implementation, handle mod.io action errors here
-            else
-              echo "✗ mod.io: Release package not found"
-              ERRORS="${ERRORS}\n- mod.io: Release package not found"
-            fi
+            echo "⚠️  mod.io: Token not configured (will be skipped)"
           fi
           
-          # Future platforms can be added here following the same pattern
-          # Platform 2: Example Platform
-          # echo ""
-          # echo "Publishing to Example Platform..."
-          # TOTAL_COUNT=$((TOTAL_COUNT + 1))
-          # if some_condition; then
-          #   SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
-          # else
-          #   ERRORS="${ERRORS}\n- Example Platform: Error message"
-          # fi
+          # TODO: Add other platform checks here
           
           echo ""
-          echo "=========================================="
-          echo "Publication Summary"
-          echo "=========================================="
-          echo "Successful: $SUCCESS_COUNT/$TOTAL_COUNT platforms"
-          
-          if [ -n "$ERRORS" ]; then
-            echo ""
-            echo "Errors encountered:"
-            echo -e "$ERRORS"
-            echo ""
-            echo "⚠️  Some platforms failed, but continuing..."
-          else
-            echo "✓ All platforms published successfully"
-          fi
-          
-          # Store results for next step
-          echo "$SUCCESS_COUNT" > /tmp/success_count.txt
-          echo "$TOTAL_COUNT" > /tmp/total_count.txt
-          if [ -n "$ERRORS" ]; then
-            echo -e "$ERRORS" > /tmp/errors.txt
-          fi
+          echo "Note: Actual publishing will be performed in subsequent steps"
+          echo "      with individual error handling for each platform."
 
       - name: Upload to mod.io
         if: env.MODIO_TOKEN != ''
