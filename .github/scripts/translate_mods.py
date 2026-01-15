@@ -164,7 +164,7 @@ def translate_entry(
         new_text=text_to_translate,
         mod_name=mod_name,
         target_language=target_lang,
-        raw=raw if has_new_field else None,  # Only include old text if updating
+        raw=raw if has_new_field and raw != text_to_translate else None,  # Only show old text if different from new
         current_translation=current_translation,
         field_prompt=field_prompt,
         specific_prompt=specific_prompt
