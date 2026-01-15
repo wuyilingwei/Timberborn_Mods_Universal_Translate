@@ -32,7 +32,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install toml requests
+          pip install -r requirements.txt
       
       - name: Run translation
         env:
