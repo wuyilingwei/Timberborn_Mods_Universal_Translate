@@ -106,7 +106,9 @@ jobs:
           fi
           
           NEW_VERSION="${YEAR}.${MONTH}.${PATCH}"
-          echo "New version: $NEW_VERSION"
+          echo "=========================================="
+          echo "Building Version: $NEW_VERSION"
+          echo "=========================================="
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
           
           # Update version.txt
@@ -134,11 +136,20 @@ jobs:
       - name: Convert TOML to CSV
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          echo "=========================================="
+          echo "Converting TOML to CSV - Version: $NEW_VERSION"
+          echo "=========================================="
+          
           # Create mod directory structure
           mkdir -p mod/Localizations
           
-          # Run conversion script
-          python3 .github/scripts/convert_toml_to_csv.py data mod
+          # Run conversion script and capture output
+          PYTHON_LOG_FILE="python_conversion.log"
+          python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1 | tee "$PYTHON_LOG_FILE"
+          
+          # Store log file path for later use
+          echo "PYTHON_LOG_FILE=$PYTHON_LOG_FILE" >> $GITHUB_ENV
           
           echo "TOML to CSV conversion completed"
 
@@ -216,6 +227,56 @@ jobs:
           # Create release notes
           RELEASE_NOTES="Automated Update to $NEW_VERSION"
           
+          # Add build log if available
+          if [ -f "$PYTHON_LOG_FILE" ]; then
+            echo "Processing build log..."
+            
+            # Read the full log content
+            PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
+            
+            # Extract error lines (lines containing [ERROR])
+            ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" || echo "")
+            
+            if [ -n "$ERROR_LINES" ]; then
+              RELEASE_NOTES="$RELEASE_NOTES
+
+<details>
+<summary>Building Log (Occur Error)</summary>
+
+**Error Messages:**
+\`\`\`
+$ERROR_LINES
+\`\`\`
+
+<details>
+<summary>Full Log</summary>
+
+\`\`\`
+$PYTHON_LOG_CONTENT
+\`\`\`
+</details>
+
+</details>"
+            else
+              RELEASE_NOTES="$RELEASE_NOTES
+
+<details>
+<summary>Building Log</summary>
+
+No errors found during conversion.
+
+<details>
+<summary>Full Log</summary>
+
+\`\`\`
+$PYTHON_LOG_CONTENT
+\`\`\`
+</details>
+
+</details>"
+            fi
+          fi
+          
           # Create GitHub release
           if [ "$IS_PRERELEASE" = "true" ]; then
             gh release create "$GIT_TAG" \
@@ -233,6 +294,12 @@ jobs:
           fi
           
           echo "GitHub Release $GIT_TAG created"
+          
+          # Clean up log file
+          if [ -f "$PYTHON_LOG_FILE" ]; then
+            echo "Cleaning up Python log file..."
+            rm -f "$PYTHON_LOG_FILE"
+          fi
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
