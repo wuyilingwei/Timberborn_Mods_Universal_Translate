@@ -58,12 +58,13 @@ jobs:
         run: |
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
           
-          # Get package from local repository
-          if [ -f "releases/${VERSION_NUMBER}.zip" ]; then
-            echo "Found release package in repository: releases/${VERSION_NUMBER}.zip"
-            cp "releases/${VERSION_NUMBER}.zip" release.zip
+          # Get package from local repository with fixed name
+          if [ -f "releases/newest.zip" ]; then
+            echo "Found release package in repository: releases/newest.zip"
+            echo "Version to publish: $VERSION_NUMBER"
+            cp "releases/newest.zip" release.zip
           else
-            echo "Error: Package not found in repository at releases/${VERSION_NUMBER}.zip"
+            echo "Error: Package not found in repository at releases/newest.zip"
             echo ""
             echo "The package should be available in the repository after the build workflow completes."
             echo "If you're running this manually, ensure the build workflow has run successfully"

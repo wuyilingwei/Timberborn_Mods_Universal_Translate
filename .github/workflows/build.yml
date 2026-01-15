@@ -181,15 +181,18 @@ jobs:
             cp info/workshop_data.json "$RELEASE_DIR"/
           fi
           
-          # Create zip file
+          # Create zip file with versioned name for GitHub release
           zip -r "${NEW_VERSION}.zip" "$RELEASE_DIR"
           
-          # Save package to repository releases directory
+          # Save package to repository releases directory with fixed name
           mkdir -p releases
-          cp "${NEW_VERSION}.zip" "releases/${NEW_VERSION}.zip"
+          # Remove all old files in releases directory (including .gitkeep)
+          rm -f releases/*
+          # Save with fixed name 'newest.zip'
+          cp "${NEW_VERSION}.zip" "releases/newest.zip"
           
           echo "Release package created: ${NEW_VERSION}.zip"
-          echo "Package saved to releases/${NEW_VERSION}.zip"
+          echo "Package saved to releases/newest.zip (fixed name)"
 
       - name: Create GitHub Release
         if: steps.check_changes.outputs.should_build == 'true'
