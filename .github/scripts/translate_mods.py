@@ -122,14 +122,10 @@ def translate_entry(
     entry: Dict,
     target_lang: str,
     mod_name: str,
-    field_prompt: Optional[str] = None,
-    force_translate: bool = False
+    field_prompt: Optional[str] = None
 ) -> Optional[str]:
     """
     Translate a single entry for a specific language
-    
-    Args:
-        force_translate: If True, translate even if translation exists
     
     Returns:
         Translated text or None if translation not needed/failed
@@ -140,8 +136,8 @@ def translate_entry(
     has_new_field = "new" in entry
     has_translation = target_lang in entry and entry.get(target_lang)
     
-    # Skip if translation exists and no update needed (unless forced)
-    if not has_new_field and has_translation and not force_translate:
+    # Skip if translation exists and no update needed
+    if not has_new_field and has_translation:
         return None
     
     # Determine source text: use "new" if available, otherwise use "raw"
