@@ -40,6 +40,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.DEPLOY_TOKEN }}
 
       - name: Check for data directory changes
         id: check_changes
@@ -106,7 +107,9 @@ jobs:
           fi
           
           NEW_VERSION="${YEAR}.${MONTH}.${PATCH}"
-          echo "New version: $NEW_VERSION"
+          echo "=========================================="
+          echo "Building Version: $NEW_VERSION"
+          echo "=========================================="
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
           
           # Update version.txt
@@ -134,11 +137,20 @@ jobs:
       - name: Convert TOML to CSV
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          echo "=========================================="
+          echo "Converting TOML to CSV - Version: $NEW_VERSION"
+          echo "=========================================="
+          
           # Create mod directory structure
           mkdir -p mod/Localizations
           
-          # Run conversion script
-          python3 .github/scripts/convert_toml_to_csv.py data mod
+          # Define log file path and store in environment for later steps
+          LOG_FILE="python_conversion.log"
+          echo "PYTHON_LOG_FILE=$LOG_FILE" >> $GITHUB_ENV
+          
+          # Run conversion script and capture output
+          python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1 | tee "$LOG_FILE"
           
           echo "TOML to CSV conversion completed"
 
@@ -216,6 +228,82 @@ jobs:
           # Create release notes
           RELEASE_NOTES="Automated Update to $NEW_VERSION"
           
+          # Add build log if available
+          if [ -f "$PYTHON_LOG_FILE" ]; then
+            echo "Processing build log..."
+            
+            # Check log file size (limit to 1000 lines for release notes)
+            LOG_LINES=$(wc -l < "$PYTHON_LOG_FILE")
+            MAX_LOG_LINES=1000
+            
+            if [ "$LOG_LINES" -gt "$MAX_LOG_LINES" ]; then
+              echo "Warning: Log file is large ($LOG_LINES lines), truncating to last $MAX_LOG_LINES lines for release notes"
+              # Use tail with line count to avoid breaking UTF-8 characters
+              PYTHON_LOG_CONTENT=$(printf "... (log truncated, showing last %s lines)\n\n%s" "$MAX_LOG_LINES" "$(tail -n "$MAX_LOG_LINES" "$PYTHON_LOG_FILE")")
+            else
+              # Read the full log content
+              PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
+            fi
+            
+            # Extract error lines containing [ERROR] prefix (case-sensitive)
+            # The Python script outputs errors in format: [ERROR] message
+            # Only lines with the exact [ERROR] prefix are captured
+            ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" 2>/dev/null)
+            
+            # Escape backticks in log content to prevent markdown code block issues
+            PYTHON_LOG_CONTENT=$(echo "$PYTHON_LOG_CONTENT" | sed 's/`/\\`/g')
+            if [ -n "$ERROR_LINES" ]; then
+              ERROR_LINES=$(echo "$ERROR_LINES" | sed 's/`/\\`/g')
+            fi
+            
+            if [ -n "$ERROR_LINES" ]; then
+              # Create release notes with error log
+              RELEASE_NOTES=$(cat <<EOF
+          Automated Update to $NEW_VERSION
+          
+          <details>
+          <summary>Build Log (Errors Occurred)</summary>
+          
+          **Error Messages:**
+          \`\`\`
+          $ERROR_LINES
+          \`\`\`
+          
+          <details>
+          <summary>Full Log</summary>
+          
+          \`\`\`
+          $PYTHON_LOG_CONTENT
+          \`\`\`
+          </details>
+          
+          </details>
+          EOF
+          )
+            else
+              # Create release notes with success log
+              RELEASE_NOTES=$(cat <<EOF
+          Automated Update to $NEW_VERSION
+          
+          <details>
+          <summary>Build Log</summary>
+          
+          No errors found during conversion.
+          
+          <details>
+          <summary>Full Log</summary>
+          
+          \`\`\`
+          $PYTHON_LOG_CONTENT
+          \`\`\`
+          </details>
+          
+          </details>
+          EOF
+          )
+            fi
+          fi
+          
           # Create GitHub release
           if [ "$IS_PRERELEASE" = "true" ]; then
             gh release create "$GIT_TAG" \
@@ -233,6 +321,12 @@ jobs:
           fi
           
           echo "GitHub Release $GIT_TAG created"
+          
+          # Clean up log file
+          if [ -f "$PYTHON_LOG_FILE" ]; then
+            echo "Cleaning up Python log file..."
+            rm -f "$PYTHON_LOG_FILE"
+          fi
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'

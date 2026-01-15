@@ -2,9 +2,9 @@
 
 ![](info/thumbnail.png)
 
-<!--START_SECTION:version-->
-
-<!--END_SECTION:version-->
+<!-- VERSION_START -->
+Version: 2026.1.3
+<!-- VERSION_END -->
 
 ### **Get mod?**
 
