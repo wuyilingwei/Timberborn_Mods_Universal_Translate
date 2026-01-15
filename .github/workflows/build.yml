@@ -237,23 +237,23 @@ jobs:
             
             if [ "$LOG_SIZE" -gt "$MAX_LOG_SIZE" ]; then
               echo "Warning: Log file is large ($LOG_SIZE bytes), truncating to last 50KB for release notes"
-              TRUNCATED_CONTENT=$(tail -c "$MAX_LOG_SIZE" "$PYTHON_LOG_FILE")
-              PYTHON_LOG_CONTENT="... (log truncated, showing last 50KB)
-          $TRUNCATED_CONTENT"
+              # Use printf for proper string handling
+              PYTHON_LOG_CONTENT=$(printf "... (log truncated, showing last 50KB)\n\n%s" "$(tail -c "$MAX_LOG_SIZE" "$PYTHON_LOG_FILE")")
             else
               # Read the full log content
               PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
             fi
             
-            # Extract error lines (lines containing [ERROR])
+            # Extract error lines containing [ERROR] prefix (case-sensitive)
             # The Python script outputs errors in format: [ERROR] message
+            # Only lines with the exact [ERROR] prefix are captured
             ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" 2>/dev/null)
             
-            # Escape backticks in log content to prevent markdown issues
+            # Escape backticks in log content to prevent markdown code block issues
+            PYTHON_LOG_CONTENT=$(echo "$PYTHON_LOG_CONTENT" | sed 's/`/\\`/g')
             if [ -n "$ERROR_LINES" ]; then
               ERROR_LINES=$(echo "$ERROR_LINES" | sed 's/`/\\`/g')
             fi
-            PYTHON_LOG_CONTENT=$(echo "$PYTHON_LOG_CONTENT" | sed 's/`/\\`/g')
             
             if [ -n "$ERROR_LINES" ]; then
               # Create release notes with error log
