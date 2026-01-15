@@ -18,9 +18,14 @@ on:
           - release
           - prerelease
       force_build:
-        description: 'Force build even if no data changes'
+        description: 'Force build even if no data changes?'
         required: false
         default: false
+        type: boolean
+      publish:
+        description: 'Publish to third-party platforms?'
+        required: false
+        default: true
         type: boolean
 
 jobs:
@@ -264,7 +269,12 @@ jobs:
 
   publish:
     needs: check-and-build
-    if: needs.check-and-build.outputs.should_build == 'true' && (github.event_name == 'schedule' || github.event.inputs.release_type != 'prerelease')
+    if: needs.check-and-build.outputs.should_build == 'true' && (
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' &&
+       github.event.inputs.release_type != 'prerelease' &&
+       github.event.inputs.publish == 'true')
+    )
     uses: ./.github/workflows/publish.yml
     with:
       version: ${{ needs.check-and-build.outputs.new_version }}
