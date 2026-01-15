@@ -133,9 +133,13 @@ def translate_entry(
     logger = logging.getLogger("translate_entry")
     
     # Check if translation is needed
-    new_text = entry.get("new")
-    if not new_text:
+    if "new" not in entry:
         # No 'new' field means no update needed
+        return None
+    
+    new_text = entry.get("new")
+    if not new_text and new_text != "":  # Allow empty strings
+        logger.warning(f"Entry {key} has 'new' field but value is None")
         return None
     
     # Get context information
@@ -216,8 +220,7 @@ def process_toml_file(
         new_translations = {}
         
         for lang in target_languages:
-            # Skip if language already has translation and we're not updating
-            # But we need to translate since there's a "new" field
+            # Translate for each target language since 'new' field indicates update needed
             translation = translate_entry(
                 translator=translator,
                 key=key,
