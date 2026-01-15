@@ -218,115 +218,46 @@ jobs:
         run: |
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           GIT_TAG="v${NEW_VERSION}"
-          
+
           # Determine if this is a prerelease (only for manual dispatch, schedule is always release)
           IS_PRERELEASE="false"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
             IS_PRERELEASE="true"
           fi
-          
-          # Create release notes
-          RELEASE_NOTES="Automated Update to $NEW_VERSION"
-          
-          # Add build log if available
-          if [ -f "$PYTHON_LOG_FILE" ]; then
-            echo "Processing build log..."
-            
-            # Check log file size (limit to 1000 lines for release notes)
-            LOG_LINES=$(wc -l < "$PYTHON_LOG_FILE")
-            MAX_LOG_LINES=1000
-            
-            if [ "$LOG_LINES" -gt "$MAX_LOG_LINES" ]; then
-              echo "Warning: Log file is large ($LOG_LINES lines), truncating to last $MAX_LOG_LINES lines for release notes"
-              # Use tail with line count to avoid breaking UTF-8 characters
-              PYTHON_LOG_CONTENT=$(printf "... (log truncated, showing last %s lines)\n\n%s" "$MAX_LOG_LINES" "$(tail -n "$MAX_LOG_LINES" "$PYTHON_LOG_FILE")")
-            else
-              # Read the full log content
-              PYTHON_LOG_CONTENT=$(cat "$PYTHON_LOG_FILE")
-            fi
-            
-            # Extract error lines containing [ERROR] prefix (case-sensitive)
-            # The Python script outputs errors in format: [ERROR] message
-            # Only lines with the exact [ERROR] prefix are captured
-            ERROR_LINES=$(grep "\[ERROR\]" "$PYTHON_LOG_FILE" 2>/dev/null)
-            
-            # Escape backticks in log content to prevent markdown code block issues
-            PYTHON_LOG_CONTENT=$(echo "$PYTHON_LOG_CONTENT" | sed 's/`/\\`/g')
-            if [ -n "$ERROR_LINES" ]; then
-              ERROR_LINES=$(echo "$ERROR_LINES" | sed 's/`/\\`/g')
-            fi
-            
-            if [ -n "$ERROR_LINES" ]; then
-              # Create release notes with error log
-              RELEASE_NOTES=$(cat <<EOF
-          Automated Update to $NEW_VERSION
-          
-          <details>
-          <summary>Build Log (Errors Occurred)</summary>
-          
-          **Error Messages:**
-          \`\`\`
-          $ERROR_LINES
-          \`\`\`
-          
-          <details>
-          <summary>Full Log</summary>
-          
-          \`\`\`
-          $PYTHON_LOG_CONTENT
-          \`\`\`
-          </details>
-          
-          </details>
-          EOF
-          )
-            else
-              # Create release notes with success log
-              RELEASE_NOTES=$(cat <<EOF
-          Automated Update to $NEW_VERSION
-          
-          <details>
-          <summary>Build Log</summary>
-          
-          No errors found during conversion.
-          
-          <details>
-          <summary>Full Log</summary>
-          
-          \`\`\`
-          $PYTHON_LOG_CONTENT
-          \`\`\`
-          </details>
-          
-          </details>
-          EOF
-          )
-            fi
+
+          # Prepare release notes file (simpler and YAML-safe)
+          RELEASE_NOTES_FILE="release_notes.md"
+          echo "Automated Update to $NEW_VERSION" > "$RELEASE_NOTES_FILE"
+          echo >> "$RELEASE_NOTES_FILE"
+
+          # Append build log if available
+          if [ -n "${PYTHON_LOG_FILE:-}" ] && [ -f "$PYTHON_LOG_FILE" ]; then
+            echo "<details>" >> "$RELEASE_NOTES_FILE"
+            echo "<summary>Build Log</summary>" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
+            echo '```' >> "$RELEASE_NOTES_FILE"
+            cat "$PYTHON_LOG_FILE" >> "$RELEASE_NOTES_FILE"
+            echo '```' >> "$RELEASE_NOTES_FILE"
+            echo "</details>" >> "$RELEASE_NOTES_FILE"
           fi
-          
+
           # Create GitHub release
           if [ "$IS_PRERELEASE" = "true" ]; then
             gh release create "$GIT_TAG" \
               --repo "${{ github.repository }}" \
               --title "$GIT_TAG" \
-              --notes "$RELEASE_NOTES" \
+              --notes-file "$RELEASE_NOTES_FILE" \
               --prerelease \
               "${NEW_VERSION}.zip"
           else
             gh release create "$GIT_TAG" \
               --repo "${{ github.repository }}" \
               --title "$GIT_TAG" \
-              --notes "$RELEASE_NOTES" \
+              --notes-file "$RELEASE_NOTES_FILE" \
               "${NEW_VERSION}.zip"
           fi
-          
+
           echo "GitHub Release $GIT_TAG created"
-          
-          # Clean up log file
-          if [ -f "$PYTHON_LOG_FILE" ]; then
-            echo "Cleaning up Python log file..."
-            rm -f "$PYTHON_LOG_FILE"
-          fi
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
