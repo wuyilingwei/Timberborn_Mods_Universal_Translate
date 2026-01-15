@@ -2,17 +2,7 @@ name: Publish to Third-Party Platforms
 
 on:
   workflow_call:
-    inputs:
-      version:
-        description: 'Version to publish (without v prefix)'
-        required: true
-        type: string
   workflow_dispatch:
-    inputs:
-      version:
-        description: 'Version to publish (without v prefix, leave empty for latest)'
-        required: false
-        type: string
 
 jobs:
   publish-platforms:
@@ -27,26 +17,21 @@ jobs:
       - name: Determine version
         id: version
         run: |
-          if [ -n "${{ inputs.version }}" ]; then
-            VERSION="v${{ inputs.version }}"
-            VERSION_NUMBER="${{ inputs.version }}"
-          else
-            # Read version from repository's info/version.txt
-            if [ ! -f "info/version.txt" ]; then
-              echo "Error: info/version.txt not found in repository"
-              exit 1
-            fi
-            
-            VERSION_NUMBER=$(cat info/version.txt | tr -d '\n\r ')
-            
-            if [ -z "$VERSION_NUMBER" ]; then
-              echo "Error: info/version.txt is empty"
-              exit 1
-            fi
-            
-            VERSION="v${VERSION_NUMBER}"
-            echo "Read version from repository: $VERSION_NUMBER"
+          # Read version from repository's info/version.txt
+          if [ ! -f "info/version.txt" ]; then
+            echo "Error: info/version.txt not found in repository"
+            exit 1
           fi
+          
+          VERSION_NUMBER=$(cat info/version.txt | tr -d '\n\r ')
+          
+          if [ -z "$VERSION_NUMBER" ]; then
+            echo "Error: info/version.txt is empty"
+            exit 1
+          fi
+          
+          VERSION="v${VERSION_NUMBER}"
+          echo "Read version from repository: $VERSION_NUMBER"
           
           echo "Version to publish: $VERSION"
           echo "VERSION=$VERSION" >> $GITHUB_ENV
@@ -126,14 +111,6 @@ jobs:
           mod: 5238039
           version: ${{ env.VERSION }}
           path: release.zip
-
-      - name: Upload package for Steam Workshop
-        if: ${{ env.STEAM_TOKEN != '' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: workshop-package
-          path: release.zip
-          retention-days: 1
 
       - name: Publish to Steam Workshop
         if: ${{ env.STEAM_TOKEN != '' }}
