@@ -1,0 +1,219 @@
+name: Build and Release
+
+on:
+  schedule:
+    # Run daily at 08:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: 'Release type'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+          - release
+          - prerelease
+      force_build:
+        description: 'Force build even if no data changes'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  check-and-build:
+    runs-on: ubuntu-latest
+    outputs:
+      should_build: ${{ steps.check_changes.outputs.should_build }}
+      new_version: ${{ steps.version.outputs.new_version }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for data directory changes
+        id: check_changes
+        run: |
+          # Check if version.txt exists and get the commit where it was last modified
+          if [ -f "info/version.txt" ]; then
+            LAST_BUILD_COMMIT=$(git log -1 --format=%H -- info/version.txt 2>/dev/null || echo "")
+            echo "Last build commit: $LAST_BUILD_COMMIT"
+          else
+            LAST_BUILD_COMMIT=""
+            echo "No version.txt found, this is the first build"
+          fi
+          
+          if [ -z "$LAST_BUILD_COMMIT" ]; then
+            echo "No previous build found, will build"
+            echo "should_build=true" >> $GITHUB_OUTPUT
+          else
+            # Check if data directory has changed since last version.txt update
+            CHANGES=$(git diff --name-only $LAST_BUILD_COMMIT HEAD -- data/ 2>/dev/null || echo "")
+            if [ -n "$CHANGES" ]; then
+              echo "Data directory has changes since last build:"
+              echo "$CHANGES"
+              echo "should_build=true" >> $GITHUB_OUTPUT
+            else
+              echo "No changes in data directory since last build"
+              echo "should_build=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+          
+          # Override if force_build is true
+          if [ "${{ github.event.inputs.force_build }}" = "true" ]; then
+            echo "Force build enabled"
+            echo "should_build=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate version number
+        id: version
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          # Generate semantic version: year.month.patch
+          YEAR=$(date +%Y)
+          MONTH=$(date +%-m)
+          
+          # Read current version from version.txt
+          if [ -f "info/version.txt" ]; then
+            CURRENT_VERSION=$(cat info/version.txt)
+            echo "Current version: $CURRENT_VERSION"
+            
+            # Extract year, month, patch from current version
+            CURRENT_YEAR=$(echo $CURRENT_VERSION | cut -d. -f1)
+            CURRENT_MONTH=$(echo $CURRENT_VERSION | cut -d. -f2)
+            CURRENT_PATCH=$(echo $CURRENT_VERSION | cut -d. -f3)
+            
+            # If year or month changed, reset patch to 0, otherwise increment
+            if [ "$YEAR" != "$CURRENT_YEAR" ] || [ "$MONTH" != "$CURRENT_MONTH" ]; then
+              PATCH=0
+            else
+              PATCH=$((CURRENT_PATCH + 1))
+            fi
+          else
+            # First version
+            PATCH=0
+          fi
+          
+          NEW_VERSION="${YEAR}.${MONTH}.${PATCH}"
+          echo "New version: $NEW_VERSION"
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+          
+          # Update version.txt
+          echo "$NEW_VERSION" > info/version.txt
+
+      - name: Set up Python
+        if: steps.check_changes.outputs.should_build == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          pip install toml
+
+      - name: Convert TOML to CSV
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          # Create mod directory structure
+          mkdir -p mod/Localizations
+          
+          # Run conversion script
+          python3 .github/scripts/convert_toml_to_csv.py data mod
+          
+          echo "TOML to CSV conversion completed"
+
+      - name: Update manifest version
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          
+          # Update manifest.json with new version
+          if [ -f "info/manifest.json" ]; then
+            # Extract current version and update to new version
+            sed -i "s/\"Version\": \"[^\"]*\"/\"Version\": \"$NEW_VERSION\"/" info/manifest.json
+            echo "Updated manifest.json to version $NEW_VERSION"
+          fi
+
+      - name: Create release package
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          RELEASE_DIR="Timberborn_Mods_Universal_Translate"
+          
+          # Create release directory
+          mkdir -p "$RELEASE_DIR"
+          
+          # Copy mod files
+          if [ -d "mod" ] && [ "$(ls -A mod)" ]; then
+            cp -r mod/* "$RELEASE_DIR"/
+          fi
+          
+          # Copy info files (but not version.txt)
+          cp info/thumbnail.png "$RELEASE_DIR"/
+          cp info/manifest.json "$RELEASE_DIR"/
+          cp info/License.txt "$RELEASE_DIR"/
+          
+          # Copy workshop_data.json if it exists
+          if [ -f "info/workshop_data.json" ]; then
+            cp info/workshop_data.json "$RELEASE_DIR"/
+          fi
+          
+          # Create zip file
+          zip -r "${NEW_VERSION}.zip" "$RELEASE_DIR"
+          
+          echo "Release package created: ${NEW_VERSION}.zip"
+
+      - name: Create GitHub Release
+        if: steps.check_changes.outputs.should_build == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          GIT_TAG="v${NEW_VERSION}"
+          
+          # Determine if this is a prerelease
+          IS_PRERELEASE="false"
+          if [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
+            IS_PRERELEASE="true"
+          fi
+          
+          # Create release notes
+          RELEASE_NOTES="Automated Update to $NEW_VERSION"
+          
+          # Create GitHub release
+          if [ "$IS_PRERELEASE" = "true" ]; then
+            gh release create "$GIT_TAG" \
+              --repo "${{ github.repository }}" \
+              --title "$GIT_TAG" \
+              --notes "$RELEASE_NOTES" \
+              --prerelease \
+              "${NEW_VERSION}.zip"
+          else
+            gh release create "$GIT_TAG" \
+              --repo "${{ github.repository }}" \
+              --title "$GIT_TAG" \
+              --notes "$RELEASE_NOTES" \
+              "${NEW_VERSION}.zip"
+          fi
+          
+          echo "GitHub Release $GIT_TAG created"
+
+      - name: Commit version update
+        if: steps.check_changes.outputs.should_build == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add info/version.txt info/manifest.json
+          git commit -m "Update version to ${{ steps.version.outputs.new_version }}" || echo "No changes to commit"
+          git push || echo "No changes to push"
+
+  publish:
+    needs: check-and-build
+    if: needs.check-and-build.outputs.should_build == 'true' && github.event.inputs.release_type != 'prerelease'
+    uses: ./.github/workflows/publish.yml
+    with:
+      version: ${{ needs.check-and-build.outputs.new_version }}
+    secrets: inherit
