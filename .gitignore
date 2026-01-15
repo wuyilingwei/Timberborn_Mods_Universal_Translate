@@ -1,6 +1,8 @@
 # Build artifacts
 mod/
 *.zip
+# Keep release packages in releases directory
+!releases/*.zip
 
 # Python cache
 __pycache__/

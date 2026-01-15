@@ -50,7 +50,7 @@ jobs:
             echo "should_build=true" >> $GITHUB_OUTPUT
           else
             # Check if data directory has changed since last version.txt update
-            CHANGES=$(git diff --name-only $LAST_BUILD_COMMIT HEAD -- data/ 2>/dev/null || echo "")
+            CHANGES=$(git diff --name-only "$LAST_BUILD_COMMIT" HEAD -- data/ 2>/dev/null || echo "")
             if [ -n "$CHANGES" ]; then
               echo "Data directory has changes since last build:"
               echo "$CHANGES"
@@ -115,8 +115,13 @@ jobs:
         run: |
           # Install Python dependencies
           pip install -r .github/scripts/requirements.txt
-          # Ensure jq is installed (usually pre-installed on GitHub runners)
-          sudo apt-get update && sudo apt-get install -y jq || true
+          # Ensure jq is installed (check first to avoid unnecessary updates)
+          if ! command -v jq &> /dev/null; then
+            echo "jq not found, installing..."
+            sudo apt-get update && sudo apt-get install -y jq
+          else
+            echo "jq is already installed"
+          fi
 
       - name: Convert TOML to CSV
         if: steps.check_changes.outputs.should_build == 'true'
@@ -137,9 +142,16 @@ jobs:
           # Update manifest.json with new version using jq for safer JSON manipulation
           if [ -f "info/manifest.json" ]; then
             # Use jq to safely update the Version field
-            jq --arg version "$NEW_VERSION" '.Version = $version' info/manifest.json > info/manifest.json.tmp
-            mv info/manifest.json.tmp info/manifest.json
-            echo "Updated manifest.json to version $NEW_VERSION"
+            TMP_FILE=$(mktemp)
+            jq --arg version "$NEW_VERSION" '.Version = $version' info/manifest.json > "$TMP_FILE"
+            if [ $? -eq 0 ]; then
+              mv "$TMP_FILE" info/manifest.json
+              echo "Updated manifest.json to version $NEW_VERSION"
+            else
+              echo "Error: Failed to update manifest.json"
+              rm -f "$TMP_FILE"
+              exit 1
+            fi
           fi
 
       - name: Create release package
@@ -169,7 +181,12 @@ jobs:
           # Create zip file
           zip -r "${NEW_VERSION}.zip" "$RELEASE_DIR"
           
+          # Save package to repository releases directory
+          mkdir -p releases
+          cp "${NEW_VERSION}.zip" "releases/${NEW_VERSION}.zip"
+          
           echo "Release package created: ${NEW_VERSION}.zip"
+          echo "Package saved to releases/${NEW_VERSION}.zip"
 
       - name: Create GitHub Release
         if: steps.check_changes.outputs.should_build == 'true'
@@ -211,9 +228,33 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add info/version.txt info/manifest.json
-          git commit -m "Update version to ${{ steps.version.outputs.new_version }}" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          git add info/version.txt info/manifest.json releases/
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update version to ${{ steps.version.outputs.new_version }} and add release package"
+            
+            # Push with retry logic
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              if git push; then
+                echo "Successfully pushed changes"
+                break
+              else
+                RETRY_COUNT=$((RETRY_COUNT + 1))
+                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                  echo "Push failed, retrying ($RETRY_COUNT/$MAX_RETRIES)..."
+                  sleep 2
+                else
+                  echo "Error: Failed to push changes after $MAX_RETRIES attempts"
+                  exit 1
+                fi
+              fi
+            done
+          fi
 
   publish:
     needs: check-and-build
