@@ -174,9 +174,9 @@ jobs:
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           GIT_TAG="v${NEW_VERSION}"
           
-          # Determine if this is a prerelease
+          # Determine if this is a prerelease (only for manual dispatch, schedule is always release)
           IS_PRERELEASE="false"
-          if [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
             IS_PRERELEASE="true"
           fi
           
@@ -212,7 +212,7 @@ jobs:
 
   publish:
     needs: check-and-build
-    if: needs.check-and-build.outputs.should_build == 'true' && github.event.inputs.release_type != 'prerelease'
+    if: needs.check-and-build.outputs.should_build == 'true' && (github.event_name == 'schedule' || github.event.inputs.release_type != 'prerelease')
     uses: ./.github/workflows/publish.yml
     with:
       version: ${{ needs.check-and-build.outputs.new_version }}
