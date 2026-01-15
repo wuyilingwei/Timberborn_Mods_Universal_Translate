@@ -138,7 +138,8 @@ def translate_entry(
         return None
     
     new_text = entry.get("new")
-    if not new_text and new_text != "":  # Allow empty strings
+    # Check for None but allow empty strings (which are valid translations)
+    if new_text is None:
         logger.warning(f"Entry {key} has 'new' field but value is None")
         return None
     

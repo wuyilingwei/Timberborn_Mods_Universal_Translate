@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 The system requires an OpenAI-compatible API token. Provide it in one of these ways:
 
-1. **secrets module**: Define `secrets.LLM_TOKEN` in your Python environment
+1. **User-defined secrets module**: Create a `secrets.py` file with `LLM_TOKEN` variable (note: this is a user-defined module, not Python's built-in cryptographic secrets module)
 2. **Environment variable**: Set `LLM_TOKEN` or `OPENAI_API_KEY`
 3. **Command line**: Use `--api-token` argument
 
