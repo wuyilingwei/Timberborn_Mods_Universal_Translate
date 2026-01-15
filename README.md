@@ -1,6 +1,8 @@
 # Timberborn Mods Universial Translate
 
+<!-- VERSION_START -->
 Version: 2026.1.3
+<!-- VERSION_END -->
 
 ![](thumbnail.png)
 
