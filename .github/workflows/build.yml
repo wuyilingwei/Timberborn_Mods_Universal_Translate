@@ -112,7 +112,7 @@ jobs:
       - name: Install Python dependencies
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
-          pip install toml
+          pip install -r .github/scripts/requirements.txt
 
       - name: Convert TOML to CSV
         if: steps.check_changes.outputs.should_build == 'true'
