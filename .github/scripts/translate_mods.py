@@ -172,7 +172,7 @@ def process_toml_file(
     translator: TranslatorLLM,
     target_languages: List[str],
     dry_run: bool = False
-) -> tuple[int, int]:
+) -> Tuple[int, int]:
     """
     Process a single TOML file and translate missing entries
     
