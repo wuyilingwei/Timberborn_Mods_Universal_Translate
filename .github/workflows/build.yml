@@ -186,8 +186,8 @@ jobs:
           
           # Save package to repository releases directory with fixed name
           mkdir -p releases
-          # Remove all old files in releases directory (including .gitkeep)
-          rm -f releases/*
+          # Remove all old release files to keep only the newest
+          rm -f releases/*.zip
           # Save with fixed name 'newest.zip'
           cp "${NEW_VERSION}.zip" "releases/newest.zip"
           
