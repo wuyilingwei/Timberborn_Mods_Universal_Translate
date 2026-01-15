@@ -1,16 +1,20 @@
 # Timberborn Mods Universial Translate
 
-![](thumbnail.png)
+![](info/thumbnail.png)
 
-**Get mod?**
+<!--START_SECTION:version-->
 
-Full Support:
+<!--END_SECTION:version-->
+
+### **Get mod?**
+
+#### Full Support:
 
  - [Download From Github Release](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases/latest)
 
  - [Subscribe On Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
 
-Other distribution:
+#### Other distribution:
 
  - [Download From Mod.io](https://mod.io/g/timberborn/m/mods-universal-translate)
 
