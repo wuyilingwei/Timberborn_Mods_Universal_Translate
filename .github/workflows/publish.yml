@@ -109,12 +109,14 @@ jobs:
           echo "      with individual error handling for each platform."
 
       - name: Upload to mod.io
-        if: env.MODIO_TOKEN != ''
+        if: ${{ env.MODIO_TOKEN != '' }}
+        env:
+          MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
         uses: nickelc/upload-to-modio@v2.1.0
         continue-on-error: true
         id: modio_upload
         with:
-          token: ${{ secrets.MODIO_TOKEN }}
+          token: ${{ env.MODIO_TOKEN }}
           game: 3659
           mod: 5238039
           version: ${{ env.VERSION }}
