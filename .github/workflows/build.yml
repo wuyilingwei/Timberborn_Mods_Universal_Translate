@@ -73,7 +73,8 @@ jobs:
         run: |
           # Generate semantic version: year.month.patch
           YEAR=$(date +%Y)
-          MONTH=$(date +%-m)
+          MONTH=$(date +%m)
+          MONTH=${MONTH#0}  # Remove leading zero for portability
           
           # Read current version from version.txt
           if [ -f "info/version.txt" ]; then
@@ -109,10 +110,13 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
+          # Install Python dependencies
           pip install -r .github/scripts/requirements.txt
+          # Ensure jq is installed (usually pre-installed on GitHub runners)
+          sudo apt-get update && sudo apt-get install -y jq || true
 
       - name: Convert TOML to CSV
         if: steps.check_changes.outputs.should_build == 'true'
@@ -130,10 +134,11 @@ jobs:
         run: |
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           
-          # Update manifest.json with new version
+          # Update manifest.json with new version using jq for safer JSON manipulation
           if [ -f "info/manifest.json" ]; then
-            # Extract current version and update to new version
-            sed -i "s/\"Version\": \"[^\"]*\"/\"Version\": \"$NEW_VERSION\"/" info/manifest.json
+            # Use jq to safely update the Version field
+            jq --arg version "$NEW_VERSION" '.Version = $version' info/manifest.json > info/manifest.json.tmp
+            mv info/manifest.json.tmp info/manifest.json
             echo "Updated manifest.json to version $NEW_VERSION"
           fi
 
