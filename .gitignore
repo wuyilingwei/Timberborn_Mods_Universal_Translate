@@ -1,0 +1,28 @@
+# Build artifacts
+mod/
+*.zip
+# Keep release packages in releases directory
+!releases/*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
