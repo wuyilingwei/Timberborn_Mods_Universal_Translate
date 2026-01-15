@@ -5,6 +5,12 @@ permissions:
 
 on:
   workflow_dispatch:
+    inputs:
+      retry:
+        description: 'Is this a retry after timeout?'
+        required: false
+        default: 'false'
+        type: string
   schedule:
     # Run daily at 02:00 UTC to process new translations
     - cron: '0 2 * * *'
@@ -12,6 +18,7 @@ on:
 jobs:
   translate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
       - name: Checkout repository
@@ -31,26 +38,122 @@ jobs:
         run: |
           pip install -r .github/scripts/requirements.txt
       
-      - name: Run translation
+      - name: Pull latest changes with conflict handling
+        id: pull_changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Pull with rebase to avoid merge commits
+          if git pull --rebase origin main; then
+            echo "pull_success=true" >> $GITHUB_OUTPUT
+            echo "Successfully pulled latest changes"
+          else
+            echo "pull_success=false" >> $GITHUB_OUTPUT
+            echo "Merge conflict detected"
+            
+            # Check for conflicts
+            CONFLICTED_FILES=$(git diff --name-only --diff-filter=U)
+            if [ -n "$CONFLICTED_FILES" ]; then
+              echo "Conflicted files:"
+              echo "$CONFLICTED_FILES"
+              
+              # Abort the rebase
+              git rebase --abort
+              
+              # For each conflicted file, use ours (keep local changes)
+              for file in $CONFLICTED_FILES; do
+                if [ -f "$file" ]; then
+                  echo "Keeping local version of $file"
+                  git checkout --ours "$file"
+                  git add "$file"
+                fi
+              done
+            fi
+          fi
+      
+      - name: Run translation with timeout
+        id: translate
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
         run: |
-          python .github/scripts/translate_mods.py \
+          LOG_FILE=".github/log/translation.log"
+          
+          # Remove old log if exists
+          rm -f "$LOG_FILE"
+          
+          # Run translation with 5-minute timeout
+          timeout 300 python .github/scripts/translate_mods.py \
             --config .github/config/translate.toml \
             --data-dir data \
-            --lang-file info/languages.txt \
-            --verbose
+            --log-file "$LOG_FILE" || EXIT_CODE=$?
+          
+          # Check exit code
+          if [ "${EXIT_CODE:-0}" -eq 124 ]; then
+            echo "Translation timed out after 5 minutes"
+            echo "timed_out=true" >> $GITHUB_OUTPUT
+          elif [ "${EXIT_CODE:-0}" -ne 0 ]; then
+            echo "Translation failed with exit code $EXIT_CODE"
+            echo "failed=true" >> $GITHUB_OUTPUT
+            exit 1
+          else
+            echo "Translation completed successfully"
+            echo "completed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet data/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+          if git diff --quiet data/ .github/log/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
+          git add data/ .github/log/
           git commit -m "chore: Auto-translate mod entries [skip ci]"
-          git push
+          
+          # Push with retry logic and conflict handling
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            if git push; then
+              echo "Successfully pushed changes"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Push failed, pulling and retrying ($RETRY_COUNT/$MAX_RETRIES)..."
+                
+                # Pull with rebase
+                if ! git pull --rebase origin main; then
+                  # Handle conflicts by keeping our version
+                  CONFLICTED_FILES=$(git diff --name-only --diff-filter=U)
+                  if [ -n "$CONFLICTED_FILES" ]; then
+                    echo "Resolving conflicts by keeping our changes"
+                    git rebase --abort
+                    git pull origin main --strategy-option=ours || true
+                  fi
+                fi
+                
+                sleep 2
+              else
+                echo "Error: Failed to push changes after $MAX_RETRIES attempts"
+                echo "Giving up on this file's changes to avoid blocking future runs"
+                exit 0  # Exit gracefully to not block future runs
+              fi
+            fi
+          done
+      
+      - name: Trigger retry if timed out
+        if: steps.translate.outputs.timed_out == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Translation timed out, triggering retry..."
+          gh workflow run translate.yml -f retry=true

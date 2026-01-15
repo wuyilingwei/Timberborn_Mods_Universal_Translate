@@ -33,11 +33,12 @@ LANGUAGE_NAMES = {
 }
 
 
-def setup_logging(verbose: bool = False) -> None:
+def setup_logging(log_level: str = "INFO") -> None:
     """Setup logging configuration"""
-    level = logging.DEBUG if verbose else logging.INFO
+    # Convert string to logging level
+    numeric_level = getattr(logging, log_level.upper(), logging.INFO)
     logging.basicConfig(
-        level=level,
+        level=numeric_level,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
@@ -54,17 +55,12 @@ def load_config(config_path: str) -> Dict:
     return config
 
 
-def load_target_languages(lang_file: str) -> List[str]:
-    """Load target languages from languages.txt"""
-    if not os.path.exists(lang_file):
-        raise FileNotFoundError(f"Languages file not found: {lang_file}")
+def load_target_languages(config: Dict) -> List[str]:
+    """Load target languages from configuration"""
+    languages = config.get("languages", {}).get("supported", [])
     
-    with open(lang_file, 'r', encoding='utf-8') as f:
-        content = f.read().strip()
-        # Parse format: "1. enUS, zhCN, zhTW, ..."
-        if content.startswith("1. "):
-            content = content[3:]
-        languages = [lang.strip() for lang in content.split(',')]
+    if not languages:
+        raise ValueError("No languages defined in configuration")
     
     logging.info(f"Target languages: {', '.join(languages)}")
     return languages
@@ -114,6 +110,34 @@ def build_translation_prompt(
     user_prompt = " - ".join(prompt_parts)
     
     return system_prompt, user_prompt
+
+
+def strip_extra_quotes(text: str, reference_text: str) -> str:
+    """
+    Strip extra quotes from translated text if the reference doesn't have them.
+    
+    This handles cases where LLM adds extra quotes like:
+    - raw: "Mostly helpful billboards" -> zhTW: '"大多數有幫助的廣告牌"'
+    
+    Args:
+        text: Translated text that might have extra quotes
+        reference_text: Reference text (usually raw field) to check quote pattern
+        
+    Returns:
+        Text with extra quotes removed if appropriate
+    """
+    if not text or not reference_text:
+        return text
+    
+    # Check if reference text starts and ends with quotes
+    ref_has_quotes = reference_text.startswith('"') and reference_text.endswith('"')
+    
+    # If translation has quotes but reference doesn't, remove them
+    if not ref_has_quotes and text.startswith('"') and text.endswith('"') and len(text) > 2:
+        # Remove leading and trailing quotes
+        text = text[1:-1]
+    
+    return text
 
 
 def translate_entry(
@@ -178,6 +202,11 @@ def translate_entry(
         system_prompt=system_prompt,
         user_prompt=user_prompt
     )
+    
+    # Strip extra quotes if present and not in original
+    if translation:
+        reference_text = raw if raw else text_to_translate
+        translation = strip_extra_quotes(translation, reference_text)
     
     return translation
 
@@ -373,7 +402,7 @@ def main():
     parser.add_argument(
         "--lang-file",
         default="info/languages.txt",
-        help="File containing target languages"
+        help="File containing target languages (deprecated, use config file instead)"
     )
     parser.add_argument(
         "--api-token",
@@ -387,19 +416,41 @@ def main():
     parser.add_argument(
         "--verbose",
         action="store_true",
-        help="Enable verbose logging"
+        help="Enable verbose logging (overrides config log level)"
+    )
+    parser.add_argument(
+        "--log-file",
+        help="Path to log file (default: no file output, only console)"
     )
     
     args = parser.parse_args()
     
-    # Setup logging
-    setup_logging(args.verbose)
-    logger = logging.getLogger("main")
-    
     try:
-        # Load configuration
-        logger.info("Loading configuration...")
+        # Load configuration first
         config = load_config(args.config)
+        
+        # Setup logging with config-based or command-line level
+        log_config = config.get("logging", {})
+        if args.verbose:
+            log_level = "DEBUG"
+        else:
+            log_level = log_config.get("level", "INFO")
+        
+        setup_logging(log_level)
+        logger = logging.getLogger("main")
+        
+        # Add file handler if log file specified
+        if args.log_file:
+            file_handler = logging.FileHandler(args.log_file, mode='w', encoding='utf-8')
+            file_handler.setLevel(getattr(logging, log_level.upper(), logging.INFO))
+            file_handler.setFormatter(
+                logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                                  datefmt='%Y-%m-%d %H:%M:%S')
+            )
+            logging.getLogger().addHandler(file_handler)
+            logger.info(f"Logging to file: {args.log_file}")
+        
+        logger.info("Loading configuration...")
         
         # Get API token
         api_token = args.api_token
@@ -420,9 +471,9 @@ def main():
             logger.error("API token not found. Please provide via --api-token, secrets.LLM_TOKEN, or LLM_TOKEN/OPENAI_API_KEY environment variable")
             sys.exit(1)
         
-        # Load target languages
+        # Load target languages from config (with fallback to lang_file for backward compatibility)
         logger.info("Loading target languages...")
-        target_languages = load_target_languages(args.lang_file)
+        target_languages = load_target_languages(config)
         
         # Initialize translator
         logger.info("Initializing translator...")
