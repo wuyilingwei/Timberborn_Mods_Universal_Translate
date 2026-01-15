@@ -1,8 +1,6 @@
 # Timberborn Mods Universial Translate
 
-![Version](https://img.shields.io/github/v/release/wuyilingwei/Timberborn_Mods_Universal_Translate?label=version)
-![Build Status](https://img.shields.io/github/actions/workflow/status/wuyilingwei/Timberborn_Mods_Universal_Translate/build.yml?branch=main)
-![License](https://img.shields.io/github/license/wuyilingwei/Timberborn_Mods_Universal_Translate)
+Version: 2026.1.3
 
 ![](thumbnail.png)
 
