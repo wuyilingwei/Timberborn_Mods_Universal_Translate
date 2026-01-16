@@ -9,6 +9,7 @@ frFR = "Global Science2Power™️ (S2P) Surmultiplicateur"
 deDE = "Global Science2Power™️ (S2P) Übersteuerung"
 plPL = "Global Science2Power™️ (S2P) Overdrive"
 ptBR = "Global Science2Power™️ (S2P) Overdrive"
+koKR = "글로벌 사이언스2파워™️ (S2P) 오버드라이브"
 
 ["LV.LGP.CurrentMul"]
 raw = "Current Overdrive: x{0}P at {1}S/h"
@@ -21,6 +22,7 @@ frFR = "Surmultiplication actuelle : x{0}P à {1}S/h"
 deDE = "Aktueller Überdruck: x{0}P bei {1}S/h"
 plPL = "Bieżący nadmiar: x{0}P przy {1}S/h"
 ptBR = "Overdrive Atual: x{0}P a {1}S/h"
+koKR = "현재 오버드라이브: x{0}P에서 {1}S/h"
 
 ["LV.LGP.SetMul"]
 raw = "Target Overdrive: x{0}P at {1}S/h"
@@ -33,6 +35,7 @@ frFR = "Cible Overdrive : x{0}P à {1}S/h"
 deDE = "Zielüberlastung: x{0}P bei {1}S/h"
 plPL = "Cel Przyspieszenia: x{0}P przy {1}S/h"
 ptBR = "Alvo Overdrive: x{0}P a {1}S/h"
+koKR = "목표 오버드라이브: x{0}P에서 {1}S/h"
 
 ["LV.LGP.PrevCost"]
 raw = "Prev: x{0}P cost: {1}S/h"
@@ -45,6 +48,7 @@ frFR = "Précédent : x{0}P coût : {1}S/h"
 deDE = "Prev: x{0}P Kosten: {1}S/h"
 plPL = "Poprzednie: x{0}P koszt: {1}S/godz"
 ptBR = "Prev: x{0}P custo: {1}S/h"
+koKR = "이전: x{0}P 비용: {1}S/h"
 
 ["LV.LGP.NextCost"]
 raw = "Next: x{0}P cost: {1}S/h"
@@ -57,6 +61,7 @@ frFR = "Suivant : x{0}P coût : {1}S/h"
 deDE = "Nächste: x{0}P Kosten: {1}S/h"
 plPL = "Następnie: x{0}P koszt: {1}S/h"
 ptBR = "Próximo: x{0}P custo: {1}S/h"
+koKR = "다음: x{0}P 비용: {1}S/h"
 
 ["LV.LGP.NoPrev"]
 raw = "Prev: Already at minimum multiplication"
@@ -69,6 +74,7 @@ frFR = "Déjà au minimum de multiplication"
 deDE = "Bereits auf dem Mindestmultiplikationswert."
 plPL = "Już przy minimalnym mnożeniu"
 ptBR = "Já no mínimo de multiplicação"
+koKR = "이전: 이미 최소 곱셈에 도달했습니다."
 
 ["LV.LGP.NoNext"]
 raw = "Next: Already at maximum multiplication"
@@ -81,6 +87,7 @@ frFR = "Suite : Déjà au maximum de la multiplication"
 deDE = "Nächste: Bereits bei maximaler Vervielfältigung"
 plPL = "Następnie: Już przy maksymalnym mnożeniu"
 ptBR = "Próximo: Já na multiplicação máxima"
+koKR = "다음: 이미 최대 배수에 도달했습니다."
 
 ["LV.LGP.NoScience"]
 raw = "Not enough Science!"
@@ -93,6 +100,7 @@ frFR = "Pas assez de science !"
 deDE = "Nicht genug Wissenschaft!"
 plPL = "Za mało nauki!"
 ptBR = "Não há ciência suficiente!"
+koKR = "과학이 부족합니다!"
 
 ["LV.LGP.BaseCost"]
 raw = "Base Science cost"
@@ -105,6 +113,7 @@ frFR = "Coût de la science de base"
 deDE = "Basiswissenschaftskosten"
 plPL = "Koszt podstawowej nauki"
 ptBR = "Custo da Ciência Base"
+koKR = "기본 과학 비용"
 
 ["LV.LGP.BaseCostDesc"]
 raw = "The base science cost for calculation. It is the start value for a custom Fibonacci sequence. Default: 10. Don't be cheap :P"
@@ -117,6 +126,7 @@ frFR = "Le coût scientifique de base pour le calcul. C'est la valeur de départ
 deDE = "Die Basiswissenschaftskosten für die Berechnung. Es ist der Startwert für eine benutzerdefinierte Fibonacci-Sequenz. Standard: 10. Sei nicht geizig :P"
 plPL = "Podstawowy koszt naukowy do obliczeń. Jest to wartość startowa dla niestandardowej sekwencji Fibonacciego. Domyślnie: 10. Nie bądź skąpy :P"
 ptBR = "O custo base da ciência para cálculo. É o valor inicial para uma sequência de Fibonacci personalizada. Padrão: 10. Não seja mão de vaca :P"
+koKR = "기본 과학 비용 계산. 사용자 정의 피보나치 수열의 시작값입니다. 기본값: 10. 쪼들리지 마세요 :P"
 
 ["LV.LGP.MaxMul"]
 raw = "Max multiplication"
@@ -129,6 +139,7 @@ frFR = "Multiplication maximale"
 deDE = "Maximalmultiplikation"
 plPL = "Maksymalne mnożenie"
 ptBR = "Max multiplicação"
+koKR = "최대 배수"
 
 ["LV.LGP.MaxMulDesc"]
 raw = "The maximum power multiplication you can apply. Default: 10."
@@ -141,3 +152,4 @@ frFR = "La multiplication maximale de puissance que vous pouvez appliquer. Par d
 deDE = "Die maximale Leistungssteigerung, die Sie anwenden können. Standard: 10."
 plPL = "Maksymalne mnożenie mocy, które możesz zastosować. Domyślnie: 10."
 ptBR = "A multiplicação máxima de potência que você pode aplicar. Padrão: 10."
+koKR = "적용할 수 있는 최대 전력 배수. 기본값: 10."

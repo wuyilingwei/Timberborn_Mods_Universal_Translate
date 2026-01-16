@@ -9,6 +9,7 @@ frFR = "Redimensionner la carte"
 deDE = "Karte skalieren"
 plPL = "Zmień rozmiar mapy"
 ptBR = "Redimensionar mapa"
+koKR = "맵 크기 조정"
 
 ["LV.MRe.Size0"]
 raw = "Width (X)"
@@ -21,6 +22,7 @@ frFR = "Largeur (X)"
 deDE = "Breite (X)"
 plPL = "Szerokość (X)"
 ptBR = "Largura (X)"
+koKR = "너비 (X)"
 
 ["LV.MRe.Size1"]
 raw = "Breadth (Y)"
@@ -33,6 +35,7 @@ frFR = "Profondeur (Y)"
 deDE = "Tiefe (Y)"
 plPL = "Głębokość (Y)"
 ptBR = "Profundidade (Y)"
+koKR = "폭 (Y)"
 
 ["LV.MRe.Size2"]
 raw = "Max Terrain Height (Z1)"
@@ -45,6 +48,7 @@ frFR = "Hauteur maximale du terrain (Z1)"
 deDE = "Maximal Terrainhöhe (Z1)"
 plPL = "Maksymalna wysokość terenu (Z1)"
 ptBR = "Altura Máxima do Terreno (Z1)"
+koKR = "최대 지형 높이 (Z1)"
 
 ["LV.MRe.Size3"]
 raw = "Max Above Terrain (Z1+)"
@@ -57,6 +61,7 @@ frFR = "Altitude maximale au-dessus du sol (Z1+)"
 deDE = "Max über Terrain (Z1+)"
 plPL = "Maksymalna wysokość nad terenem (Z1+)"
 ptBR = "Max Acima do Terreno (Z1+)"
+koKR = "지형 위 최대 (Z1+)"
 
 ["LV.MRe.Resize"]
 raw = "Resize"
@@ -69,6 +74,7 @@ frFR = "Redimensionner"
 deDE = "Größe ändern"
 plPL = "Zmień rozmiar"
 ptBR = "Redimensionar"
+koKR = "크기 조절"
 
 ["LV.MRe.ExandStrat"]
 raw = "Expand Strategy"
@@ -81,6 +87,7 @@ frFR = "Stratégie d'expansion"
 deDE = "Strategie erweitern"
 plPL = "Rozszerz strategię"
 ptBR = "Expandir Estratégia"
+koKR = "전략 확장"
 
 ["LV.MRe.ExandStratCopy"]
 raw = "Copy edge"
@@ -93,6 +100,7 @@ frFR = "Bord copié"
 deDE = "Kante kopieren"
 plPL = "Krawędź kopiuj"
 ptBR = "Cópia de borda"
+koKR = "가장자리 복사"
 
 ["LV.MRe.ExandStratMirror"]
 raw = "Mirror"
@@ -105,6 +113,7 @@ frFR = "Miroir"
 deDE = "Spiegel"
 plPL = "Lustro"
 ptBR = "Espelho"
+koKR = "거울"
 
 ["LV.MRe.OfferToLoad"]
 raw = "Resized map saved. Do you want to load that save? Note: continuing this session will likely crash the game anyway."
@@ -117,6 +126,7 @@ frFR = "Carte redimensionnée enregistrée. Voulez-vous charger cette sauvegarde
 deDE = "Die verkleinerte Karte wurde gespeichert. Möchtest du dieses Speicherstand laden? Hinweis: Das Fortsetzen dieser Sitzung könnte das Spiel ohnehin zum Absturz bringen."
 plPL = "Zmieniona mapa zapisana. Czy chcesz załadować tę zapisaną wersję? Uwaga: kontynuowanie tej sesji prawdopodobnie i tak spowoduje awarię gry."
 ptBR = "Mapa redimensionado salvo. Você deseja carregar essa gravação? Nota: continuar esta sessão provavelmente fará o jogo travar de qualquer maneira."
+koKR = "크기가 조정된 맵이 저장되었습니다. 해당 저장을 로드하시겠습니까? 참고: 이 세션을 계속하면 게임이 충돌할 가능성이 높습니다."
 
 ["LV.MRe.ResizeInvalidObj"]
 raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects, you need to come back here to resize again)"
@@ -129,6 +139,7 @@ frFR = "Il y a des objets en dehors de la carte après l'avoir réduite. Supprim
 deDE = "Es gibt Objekte außerhalb der Karte, nachdem du sie verkleinert hast. Entferne alle diese Objekte, bevor du sie verkleinerst, um Abstürze zu vermeiden? (Diese Aktion entfernt nur die Objekte, du musst hierher zurückkommen, um erneut zu skalieren.)"
 plPL = "Są obiekty poza mapą po jej pomniejszeniu. Usuń wszystkie te obiekty przed pomniejszeniem, aby zapobiec awarii. (Ta czynność usunie tylko obiekty, musisz wrócić tutaj, aby ponownie zmienić rozmiar.)"
 ptBR = "Existem objetos fora do mapa depois que você o reduz. Remova todos esses objetos antes de reduzir para evitar uma falha? (Esta ação só removerá os objetos, você precisará voltar aqui para redimensionar novamente)"
+koKR = "크기 조정 후 맵 밖에 객체가 있습니다. 충돌을 방지하기 위해 크기를 줄이기 전에 해당 객체를 모두 제거하시겠습니까? (이 작업은 객체만 제거하며, 다시 크기를 조정하려면 이곳으로 돌아와야 합니다)"
 
 ["LV.MRe.SeeInvalidObj"]
 raw = "See invalid object"
@@ -141,6 +152,7 @@ frFR = "Voir objet invalide"
 deDE = "Siehe ungültiges Objekt"
 plPL = "Zobacz niezwiązaną (lub nieprawidłową) rzecz"
 ptBR = "Veja objeto inválido"
+koKR = "잘못된 객체 보기"
 
 ["LV.MRe.AutoRemove"]
 raw = "Remove them all"
@@ -153,6 +165,7 @@ frFR = "Enlevez-les tous."
 deDE = "Entferne sie alle."
 plPL = "Usuń je wszystkie."
 ptBR = "Remova todos eles"
+koKR = "모두 제거하기"
 
 ["LV.MRe.SaveWarning"]
 raw = "<RedHighlight>Remember to save your game before resizing the map! This game session will likely not work anymore after resizing. You should also pause the game before using this.</RedHighlight>"
@@ -165,3 +178,4 @@ frFR = "<RedHighlight>Souvenez-vous de sauvegarder votre partie avant de redimen
 deDE = "<RedHighlight>Denken Sie daran, Ihr Spiel zu speichern, bevor Sie die Karte ändern! Diese Spielsitzung funktioniert wahrscheinlich nicht mehr nach der Größenänderung. Sie sollten das Spiel auch pausieren, bevor Sie dies verwenden.</RedHighlight>"
 plPL = "<RedHighlight>Pamiętaj, aby zapisać grę przed zmianą rozmiaru mapy! Ta sesja gry prawdopodobnie nie będzie działać po zmianie rozmiaru. Powinieneś również wstrzymać grę przed użyciem tego.</RedHighlight>"
 ptBR = "<RedHighlight>Lembre-se de salvar seu jogo antes de redimensionar o mapa! Esta sessão de jogo provavelmente não funcionará mais após o redimensionamento. Você também deve pausar o jogo antes de usar isso.</RedHighlight>"
+koKR = "<RedHighlight>지도를 크기 변경하기 전에 게임을 저장하는 것을 잊지 마세요! 크기 변경 후 이 게임 세션은 더 이상 작동하지 않을 가능성이 높습니다. 사용하기 전에 게임을 일시 정지하는 것이 좋습니다.</RedHighlight>"

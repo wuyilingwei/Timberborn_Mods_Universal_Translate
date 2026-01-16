@@ -9,6 +9,7 @@ frFR = "Porte"
 deDE = "Tor"
 plPL = "Bramka"
 ptBR = "Portão"
+koKR = "문"
 
 ["LV.Gate.GateDesc"]
 raw = "A road that can be closed."
@@ -21,6 +22,7 @@ frFR = "Une route qui peut être fermée."
 deDE = "Eine Straße, die gesperrt werden kann."
 plPL = "Droga, która może być zamknięta."
 ptBR = "Uma estrada que pode ser fechada."
+koKR = "닫을 수 있는 도로입니다."
 
 ["LV.Gate.GateFlavor"]
 raw = "They called me mad when I blocked the road with a floodgate. Now they call me 'Sir.'\" — Beavrick"
@@ -33,6 +35,7 @@ frFR = "« Ils m'ont traité de fou quand j'ai bloqué la route avec un clapet. 
 deDE = "„Sie nannten mich verrückt, als ich die Straße mit einem Schleusentor blockierte. Jetzt nennen sie mich ‚Sir‘.“ — Beavrick"
 plPL = "\"Nazywali mnie szalonym, gdy zablokowałem drogę grodzicą. Teraz nazywają mnie 'panem'.\" — Beavrick"
 ptBR = "\"Eles me chamaram de louco quando bloqueei a estrada com uma comporta. Agora eles me chamam de 'Senhor'.\" — Beavrick"
+koKR = "\"내가 홍수문으로 도로를 막았을 때 그들은 나를 미쳤다고 불렀습니다. 이제 그들은 나를 '세상 모든 이가 인정하는 분'이라고 부릅니다.\" — 비버릭"
 
 ["LV.Gate.Closed"]
 raw = "Closed"
@@ -45,13 +48,30 @@ frFR = "Fermé"
 deDE = "Geschlossen"
 plPL = "Zamknięte"
 ptBR = "Fechado"
+koKR = "닫힘"
 
 ["LV.Gate.AutoCloseHaz"]
 raw = "Auto close on Hazardous weather"
 enUS = "Auto close on Hazardous weather"
 zhCN = "恶劣天气时自动关闭"
+zhTW = "自動關閉於危險天氣"
+ruRU = "Автоматическое закрытие при неблагоприятной погоде"
+jaJP = "危険な天候時に自動閉鎖"
+frFR = "Fermeture automatique en cas de conditions météorologiques dangereuses"
+deDE = "Automatisches Schließen bei gefährlichem Wetter"
+plPL = "Automatyczne zamykanie w przypadku niebezpiecznej pogody"
+ptBR = "Fechamento automático em condições climáticas perigosas"
+koKR = "위험한 날씨에서 자동으로 닫기"
 
 ["LV.Gate.AutoCloseBadtide"]
 raw = "Auto close on Badtide"
 enUS = "Auto close on Badtide"
 zhCN = "恶水潮时自动关闭"
+zhTW = "在惡潮時自動關閉"
+ruRU = "Автозакрытие при плохом уровне воды"
+jaJP = "「悪潮時に自動閉鎖」"
+frFR = "Fermeture automatique lors de la marée basse"
+deDE = "Automatisches Schließen bei Schlechtwetter"
+plPL = "Automatyczne zamykanie przy złej fali"
+ptBR = "Fechamento automático em Maré Ruim"
+koKR = "역조 시 자동 닫힘"

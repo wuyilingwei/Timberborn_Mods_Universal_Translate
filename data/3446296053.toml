@@ -9,6 +9,7 @@ frFR = "Multiplier de Max Beavers"
 deDE = "Max Beavers Multiplikator"
 plPL = "Mnożnik Maxa Beaversa"
 ptBR = "Multiplicador de Max Beavers"
+koKR = "최대 비버 배율"
 
 ["LV.CH.MaxBeaverMulDesc"]
 raw = "Multiply the max beavers a house can have by this value, rounded down but minimum is 1. Game default: 1."
@@ -21,6 +22,7 @@ frFR = "Multipliez le nombre maximum de castors qu'une maison peut avoir par cet
 deDE = "Multipliziere die maximale Anzahl an Bibern, die ein Haus haben kann, mit diesem Wert, aufgerundet, aber minimum 1. Standard im Spiel: 1."
 plPL = "Pomnóż maksymalną liczbę bobrów, które może mieć dom, przez tę wartość, zaokrąglając w dół, ale minimum wynosi 1. Domyślna wartość w grze: 1."
 ptBR = "Multiplique o máximo de castores que uma casa pode ter por este valor, arredondado para baixo, mas o mínimo é 1. Padrão do jogo: 1."
+koKR = "최대 비버 수를 이 값만큼 곱하십시오. 소수점 아래는 내림 처리되지만 최소값은 1입니다. 게임 기본값: 1."
 
 ["LV.CH.SleepMult"]
 raw = "Sleep Satisfaction Multiplier"
@@ -33,6 +35,7 @@ frFR = "Multiplicateur de Satisfaction de Sommeil"
 deDE = "Schlafzufriedenheit-Multiplikator"
 plPL = "Mnożnik Satysfakcji Ze Snu"
 ptBR = "Multiplicador de Satisfação do Sono"
+koKR = "수면 만족도 배수기"
 
 ["LV.CH.SleepMultDesc"]
 raw = "Multiply the Sleep need satisfaction by this value. Game default: 1 so at +0.2 per hour (Beaver can have -0.2 to 0.8 Sleep, -0.6 per day)"
@@ -45,6 +48,7 @@ frFR = "Multipliez la satisfaction des besoins de sommeil par cette valeur. Par 
 deDE = "Multipliziere die Zufriedenheit des Schlafbedarfs mit diesem Wert. Standardwert des Spiels: 1, also bei +0.2 pro Stunde (Biber kann -0.2 bis 0.8 Schlaf haben, -0.6 pro Tag)"
 plPL = "Pomnóż zaspokojenie potrzeby snu przez tę wartość. Domyślnie w grze: 1, więc przy +0,2 na godzinę (Bóbr może mieć od -0,2 do 0,8 snu, -0,6 na dzień)"
 ptBR = "Multiplique a satisfação da necessidade de sono por este valor. Padrão do jogo: 1, então a +0,2 por hora (O Castor pode ter -0,2 a 0,8 de Sono, -0,6 por dia)"
+koKR = "슬픔 필요 만족도를 이 값으로 곱하십시오. 게임 기본값: 1이므로 시간당 +0.2로 (비버는 -0.2에서 0.8까지의 수면을 가질 수 있으며, 하루에 -0.6입니다)"
 
 ["LV.CH.ShelterMult"]
 raw = "Shelter Satisfaction Multiplier"
@@ -57,6 +61,7 @@ frFR = "Multiplicateur de satisfaction de l'abri"
 deDE = "Unterkunftszufriedenheitsmultiplikator"
 plPL = "Mnożnik Satysfakcji Schronienia"
 ptBR = "Multiplicador de Satisfação do Abrigo"
+koKR = "대피소 만족도 곱셈기"
 
 ["LV.CH.ShelterMultDesc"]
 raw = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
@@ -69,6 +74,7 @@ frFR = "Multipliez la satisfaction des besoins en abri par cette valeur. Valeur 
 deDE = "Multiplizieren Sie die Zufriedenheit des Shelterbedarfs mit diesem Wert. Standardwert im Spiel: 1, also bei +0,3 pro Stunde (Biber kann -0,2 bis 0,8 Shelter haben, -0,3 pro Tag)."
 plPL = "Pomnóż zaspokojenie potrzeb schronienia przez tę wartość. Domyślna wartość w grze: 1, więc przy +0,3 na godzinę (bóbr może mieć -0,2 do 0,8 schronienia, -0,3 na dzień)"
 ptBR = "Multiplique a satisfação da necessidade de abrigo por este valor. Padrão do jogo: 1, então a +0,3 por hora (o Castor pode ter -0,2 a 0,8 de abrigo, -0,3 por dia)."
+koKR = "이 값을 곱하여 대피소 필요 충족도를 증가시킵니다. 게임 기본값: 1이므로 시간당 +0.3 (비버는 -0.2에서 0.8의 대피소를 가질 수 있으며, 하루에 -0.3)"
 
 ["LV.CH.MoveEntranceFloor"]
 raw = "Move Entrances to Floor"
@@ -81,6 +87,7 @@ frFR = "Déplacer les entrées au sol"
 deDE = "Eingänge zum Boden verschieben"
 plPL = "Przenieś wejścia na piętro"
 ptBR = "Mover Entradas para o Piso"
+koKR = "바닥으로 입구 이동"
 
 ["LV.CH.MoveEntranceFloorDesc"]
 raw = "Move all the entrances to the first floor (like Double Lodges). Also work for houses added by mods. No graphical change. Game default: no"
@@ -93,6 +100,7 @@ frFR = "Déplacez toutes les entrées au rez-de-chaussée (comme les Double Lodg
 deDE = "Bewege alle Eingänge in das erste Obergeschoss (wie bei Doppelunterkünften). Funktioniert auch für Häuser, die durch Mods hinzugefügt wurden. Keine grafische Änderung. Spielstandard: nein"
 plPL = "Przenieś wszystkie wejścia na pierwsze piętro (jak Double Lodges). Działa również dla domów dodanych przez mody. Brak zmian graficznych. Domyślne ustawienie gry: nie"
 ptBR = "Mova todas as entradas para o primeiro andar (como os alojamentos duplos). Também funcione para casas adicionadas por mods. Sem alteração gráfica. Padrão do jogo: não"
+koKR = "모든 입구를 1층으로 이동합니다(더블 로지와 같은). 모드로 추가된 집에도 적용됩니다. 그래픽 변화 없음. 게임 기본값: 아니오"
 
 ["LV.CH.AddOtherFaction"]
 raw = "Add other faction's Housings"
@@ -105,6 +113,7 @@ frFR = "Ajoutez les habitations des autres factions."
 deDE = "Füge die Unterkünfte der anderen Fraktionen hinzu."
 plPL = "Dodaj mieszkania innych frakcji"
 ptBR = "Adicionar as habitações de outras facções"
+koKR = "다른 진영의 주거지 추가"
 
 ["LV.CH.AddOtherFactionDesc"]
 raw = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
@@ -117,6 +126,7 @@ frFR = "Les contes folkloriques peuvent construire les maisons des Dents de Fer 
 deDE = "Folktails können die Häuser der Eisenbeißer bauen und umgekehrt. Arbeiten Sie nicht an Häusern, die durch Mods hinzugefügt wurden. Spielstandard: nein"
 plPL = "Bajki mogą budować domy Żelaznych Zębów i vice versa. Nie działają dla domów dodanych przez mody. Domy domyślne w grze: nie"
 ptBR = "Folktails podem construir as casas de Dentes de Ferro e vice-versa. Não funcionam para casas adicionadas por mods. Padrão do jogo: não."
+koKR = "포크테일은 아이언 이빨의 집을 지을 수 있으며 그 반대도 가능합니다. 모드로 추가된 집에는 적용되지 않습니다. 게임 기본값: 아니오"
 
 ["LV.CH.AddProcreation"]
 raw = "  Add Procreation to all Housings"
@@ -129,6 +139,7 @@ frFR = "Ajoutez la Procréation à tous les logements."
 deDE = "Fügen Sie der gesamten Behausung Fortpflanzung hinzu"
 plPL = "Dodaj prokreację do wszystkich mieszkań."
 ptBR = "Adicione Procriação a todas as Moradias"
+koKR = "모든 주택에 번식을 추가합니다"
 
 ["LV.CH.AddProcreationDesc"]
 raw = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings"
@@ -141,6 +152,7 @@ frFR = "Ajoutez la procréation à tous les logements, afin que les Folktails pu
 deDE = "Fügen Sie allen Behausungen Fortpflanzung hinzu, damit Folktails in den Behausungen der Iron Teeth sich fortpflanzen können."
 plPL = "Dodaj rozmnażanie do wszystkich mieszkań, aby Folktails mogły się rozmnażać w mieszkaniach Żelaznych Zębów."
 ptBR = "Adicione a Procriação a todas as Habitações, para que os Folktails possam procriar nas Habitações dos Dentes de Ferro."
+koKR = "모든 주택에 번식을 추가하여 Folktails가 Iron Teeth의 주택에서 번식할 수 있도록 합니다."
 
 ["LV.CH.RemoveProcreation"]
 raw = "  Remove Procreation from all Housings"
@@ -153,6 +165,7 @@ frFR = "Supprimer la Procréation de toutes les Habitations"
 deDE = "Entfernen Sie die Fortpflanzung aus allen Wohnungen."
 plPL = "Usuń prokreację ze wszystkich mieszkań."
 ptBR = "Remover Procriação de todas as Habitações"
+koKR = "모든 주택에서 번식 제거"
 
 ["LV.CH.RemoveProcreationDesc"]
 raw = "Remove Procreation from all Housings, so Iron Teeth can not procreate in Folktails' Housings"
@@ -165,6 +178,7 @@ frFR = "Retirer la procréation de tous les logements, afin que les Dents de Fer
 deDE = "Entfernen Sie die Fortpflanzung aus allen Unterkünften, damit Eisen Zähne sich nicht in den Unterkünften der Folktails fortpflanzen können."
 plPL = "Usuń rozmnażanie ze wszystkich mieszkań, aby Żelazne Zęby nie mogły rozmnażać się w mieszkańach Folktails."
 ptBR = "Remova a Procriação de todas as Moradias, para que os Dentes de Ferro não possam procriar nas Moradias de Folktails."
+koKR = "모든 주택에서 번식을 제거하여 아이언 티스가 포크테일의 주택에서 번식할 수 없게 합니다."
 
 ["LV.CH.MaxBeaverAdd"]
 raw = "Max Beavers Addition"
@@ -177,6 +191,7 @@ frFR = "Ajout de Max Beavers"
 deDE = "Max Biber Ergänzung"
 plPL = "Dodanie Maxa Bobrów"
 ptBR = "Adição de Max Beavers"
+koKR = "최대 비버 추가"
 
 ["LV.CH.MaxBeaverAddDesc"]
 raw = "Add this value to the max beavers a house can have AFTER multiplying.\nCan be negative. The final minimum value is still 1."
@@ -189,3 +204,4 @@ frFR = "Ajoutez cette valeur au nombre maximum de castors qu'une maison peut avo
 deDE = "Fügen Sie diesen Wert zu der maximalen Anzahl von Bibern hinzu, die ein Haus haben kann, nachdem er multipliziert wurde. Er kann negativ sein. Der endgültige Mindestwert beträgt weiterhin 1."
 plPL = "Dodaj tę wartość do maksymalnej liczby bobrów, jaką może mieć dom, PO pomnożeniu. Może być ujemna. Ostateczna minimalna wartość to nadal 1."
 ptBR = "Adicione este valor ao máximo de castores que uma casa pode ter DEPOIS de multiplicar. Pode ser negativo. O valor mínimo final ainda é 1."
+koKR = "최대 비버 수에 이 값을 추가합니다. 이는 곱셈 후에 적용됩니다.\n음수일 수 있습니다. 최종 최소 값은 여전히 1입니다."

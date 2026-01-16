@@ -9,6 +9,7 @@ frFR = "Voie ferrée droite"
 deDE = "Gerade Bahnstrecke"
 plPL = "Prosta linia kolejowa"
 ptBR = "Trilho de Trem Reto"
+koKR = "직선 기차 트랙"
 
 ["Tobbert.TrackStraight.Description"]
 raw = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -21,6 +22,7 @@ frFR = "Un morceau de rail qui va tout droit. Peut être changé en un signal un
 deDE = "Ein Gleisstück, das gerade verläuft. Kann durch Klicken darauf in ein Einrichtungsignal umgeschaltet werden. Erstellt einen Gleisabschnitt zwischen Einbahnstrecken, der es einem einzelnen Zug ermöglicht, darauf zu fahren (angezeigt durch die Farben)."
 plPL = "Prosta część toru. Może zostać zmieniona na sygnał jednokierunkowy za pomocą przełącznika po kliknięciu na nią. Tworzy odcinek toru pomiędzy torami jednokierunkowymi, na którym może znajdować się tylko jeden pociąg (wskazane kolorem)."
 ptBR = "Um trecho de trilho que vai em linha reta. Pode ser alterado para um sinal de mão única usando o botão alternar ao clicar nele. Cria uma seção de trilho entre vias de mão única que permite que apenas um trem esteja nela (indicado pelas cores)."
+koKR = "직선으로 되어 있는 트랙 조각입니다. 클릭 시 전환을 통해 일방 통행 신호로 변경할 수 있습니다. 색상으로 표시되는 단일 기차가 있을 수 있는 일방 통행 구간을 생성합니다."
 
 ["Tobbert.TrackStraight.FlavorDescription"]
 raw = "Choo! Choo!"
@@ -33,6 +35,7 @@ frFR = "Ouou ! Ouou !"
 deDE = "Zug! Zug!"
 plPL = "Choo! Choo!"
 ptBR = "Tchuu! Tchuu!"
+koKR = "촤촤!"
 
 ["Tobbert.TrackOneWay.DisplayName"]
 raw = "One way signal Track"
@@ -45,6 +48,7 @@ frFR = "Piste de signal unidirectionnelle"
 deDE = "Einwegsignalverfolgung"
 plPL = "Tory sygnałowy jednokierunkowy"
 ptBR = "Faixa de sinal unidirecional"
+koKR = "일방통행 신호 트랙"
 
 ["Tobbert.TrackOneWay.Description"]
 raw = "Will tell trains that they can only go through the green side. Can be changed back to a straight track by using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -57,6 +61,7 @@ frFR = "Informera les trains qu'ils ne peuvent passer que par le côté vert. Pe
 deDE = "Wird den Zügen mitteilen, dass sie nur durch die grüne Seite fahren können. Kann durch Umschalten beim Klicken darauf wieder in eine gerade Strecke geändert werden. Erstellt einen Gleisabschnitt zwischen Einbahnstraßen, der es einem einzelnen Zug ermöglicht, darauf zu sein (angezeigt durch die Farben)."
 plPL = "Powiedzą, że pociągi mogą przejeżdżać tylko przez zieloną stronę. Można to zmienić z powrotem na prosty tor, używając przełącznika po kliknięciu na niego. Tworzy odcinek toru między jedną stroną, który pozwala jednemu pociągowi na pozostanie na nim (zaznaczone kolorami)."
 ptBR = "Direi aos trens que eles podem passar apenas pelo lado verde. Pode ser revertido para um trilho reto usando o interruptor ao clicar nele. Cria uma seção de trilho entre as vias únicas que permite que um único trem esteja nela (indicado pelas cores)."
+koKR = "기차가 초록색 측면으로만 이동할 수 있음을 알립니다. 클릭할 때 토글을 사용하여 직선 트랙으로 되돌릴 수 있습니다. 하나의 기차만 그 위에 있을 수 있도록 하는 일방통행 사이의 트랙 섹션을 생성합니다(색상으로 표시됨)."
 
 ["Tobbert.TrackOneWay.FlavorDescription"]
 raw = "You... Shall... Pass..."
@@ -69,6 +74,7 @@ frFR = "Vous... Passerez..."
 deDE = "Du... sollst... gehen..."
 plPL = "Ty... Możesz... Przejść..."
 ptBR = "Você... Passará..."
+koKR = "너... 지나가야... 한다..."
 
 ["Tobbert.TrackCrossing.DisplayName"]
 raw = "Train Track Crossing"
@@ -81,6 +87,7 @@ frFR = "Croisement de voies ferrées"
 deDE = "Bahnübergang"
 plPL = "Przejazd kolejowy"
 ptBR = "Cruzamento de Trilhos de Trem"
+koKR = "기차 선로 교차로"
 
 ["Tobbert.TrackCrossing.Description"]
 raw = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
@@ -93,6 +100,7 @@ frFR = "Les castors peuvent traverser les voies ici. La collision ne sera pas mi
 deDE = "Biber können hier die Gleise überqueren. Kollisionen werden nicht implementiert, da die Leistung zu sehr darunter leiden würde."
 plPL = "Bobry mogą przechodzić przez tory tutaj. Kolizje nie będą wprowadzone, ponieważ wydajność zbyt ucierpi."
 ptBR = "Os castores podem atravessar os trilhos aqui. A colisão não será implementada, pois o desempenho sofrerá muito."
+koKR = "비버는 여기서 선로를 가로지를 수 있습니다. 충돌은 구현되지 않으며, 성능이 너무 저하될 것입니다."
 
 ["Tobbert.TrackCrossing.FlavorDescription"]
 raw = "That train is approaching very fa-"
@@ -105,6 +113,7 @@ frFR = "Ce train approche très vite."
 deDE = "Der Zug nähert sich sehr schn-"
 plPL = "Ten pociąg zbliża się bardzo szyb-"
 ptBR = "Aquele trem está se aproximando muito rápido."
+koKR = "그 기차가 매우 빠르게 다가오고 있어-"
 
 ["Tobbert.TrackHillStart.DisplayName"]
 raw = "Slope Track"
@@ -117,6 +126,7 @@ frFR = "Piste inclinée"
 deDE = "Hangbahn"
 plPL = "Tor nachyłowy"
 ptBR = "Pista de Inclinação"
+koKR = "경사선"
 
 ["Tobbert.TrackHillStart.Description"]
 raw = "A track that lets trains go up and down."
@@ -129,6 +139,7 @@ frFR = "Une voie qui permet aux trains de monter et descendre."
 deDE = "Eine Strecke, die Züge auf und ab fahren lässt."
 plPL = "Tor, który umożliwia pociągom poruszanie się w górę i w dół."
 ptBR = "Uma pista que permite que trens subam e desçam."
+koKR = "기차가 위아래로 이동할 수 있는 트랙입니다."
 
 ["Tobbert.TrackHillStart.FlavorDescription"]
 raw = "Is the train not to heavy?"
@@ -141,6 +152,7 @@ frFR = "Le train n'est-il pas trop lourd ?"
 deDE = "Ist der Zug nicht zu schwer?"
 plPL = "Czy pociąg nie jest za ciężki?"
 ptBR = "O trem não é muito pesado?"
+koKR = "기차가 너무 무겁지 않나요?"
 
 ["Tobbert.TrackCorner1x1.DisplayName"]
 raw = "Corner 1x1 Train Track"
@@ -153,6 +165,7 @@ frFR = "Coin 1x1 Piste de Train"
 deDE = "Eck 1x1 Bahnschiene"
 plPL = "Rog 1x1 Tor kolejowy"
 ptBR = "Trilho de Trem de Canto 1x1"
+koKR = "코너 1x1 기차 트랙"
 
 ["Tobbert.TrackCorner1x1.Description"]
 raw = "A Track Piece that around a corner."
@@ -165,6 +178,7 @@ frFR = "Un élément de rail qui tourne à un coin."
 deDE = "Ein Gleisstück, das um eine Ecke verläuft."
 plPL = "Element toru, który zakręca."
 ptBR = "Uma peça de trilho que contorna uma esquina."
+koKR = "모퉁이를 도는 트랙 조각."
 
 ["Tobbert.TrackCorner1x1.FlavorDescription"]
 raw = "Might be a little tight."
@@ -177,6 +191,7 @@ frFR = "Ça pourrait être un peu juste."
 deDE = "Könnte ein bisschen eng werden."
 plPL = "Może być trochę ciasno."
 ptBR = "Pode ser um pouco apertado."
+koKR = "조금 비좁을 수도 있습니다."
 
 ["Tobbert.TrackCorner2x2.DisplayName"]
 raw = "Corner 2x2 Train Track"
@@ -189,6 +204,7 @@ frFR = "Équinoxe de train 2x2"
 deDE = "Eck 2x2 Zugschiene"
 plPL = "Rogówki toru kolejowego 2x2"
 ptBR = "Trilho de Trem de Canto 2x2"
+koKR = "모서리 2x2 기차 트랙"
 
 ["Tobbert.TrackCorner2x2.Description"]
 raw = "A Track Piece that around a larger corner."
@@ -201,6 +217,7 @@ frFR = "Un morceau de rail qui contourne un virage plus large."
 deDE = "Ein Gleisstück, das um eine größere Ecke führt."
 plPL = "Element toru, który obejmuje większy zakręt."
 ptBR = "Uma peça de trilho que contorna uma curva maior."
+koKR = "더 큰 모퉁이를 둘러싼 트랙 조각."
 
 ["Tobbert.TrackCorner2x2.FlavorDescription"]
 raw = "What a nice looking curve."
@@ -213,6 +230,7 @@ frFR = "Quelle belle courbe."
 deDE = "Was für eine schön aussehende Kurve."
 plPL = "Co za ładna krzywa."
 ptBR = "Que curva bonita."
+koKR = "정말 멋진 곡선이네."
 
 ["Tobbert.TrackTIntersection1x1.DisplayName"]
 raw = "T intersection Train Track 1x1"
@@ -225,6 +243,7 @@ frFR = "Intersection en T Voie ferrée 1x1"
 deDE = "T-Kreuzung Bahnlinie 1x1"
 plPL = "T skrzyżowanie tory kolejowe 1x1"
 ptBR = "Interseção em T Trilho de Trem 1x1"
+koKR = "T형 교차로 기차 선로 1x1"
 
 ["Tobbert.TrackTIntersection1x1.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -237,6 +256,7 @@ frFR = "Une intersection en forme de T pour les trains."
 deDE = "Eine T-förmige Kreuzung für Züge."
 plPL = "Skrzyżowanie w kształcie litery T dla pociągów."
 ptBR = "Uma interseção em forma de T para trens."
+koKR = "기차를 위한 T자 형태의 교차로."
 
 ["Tobbert.TrackTIntersection1x1.FlavorDescription"]
 raw = "Which way should I go?"
@@ -249,6 +269,7 @@ frFR = "Dans quelle direction devrais-je aller ?"
 deDE = "Welchen Weg sollte ich gehen?"
 plPL = "Którą drogą powinienem iść?"
 ptBR = "Qual caminho eu devo seguir?"
+koKR = "어느 쪽으로 가야 할까요?"
 
 ["Tobbert.TrackTIntersection2x3.DisplayName"]
 raw = "T intersection Train Track 2x3"
@@ -261,6 +282,7 @@ frFR = "Intersection en T Voie ferrée 2x3"
 deDE = "T-Kreuzung Gleis 2x3"
 plPL = "Krzyżówka T tory kolejowe 2x3"
 ptBR = "T interseção Trilha de Trem 2x3"
+koKR = "T자 교차로 기차 트랙 2x3"
 
 ["Tobbert.TrackTIntersection2x3.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -273,6 +295,7 @@ frFR = "Une intersection en forme de T pour les trains."
 deDE = "Eine T-förmige Kreuzung für Züge."
 plPL = "Skrzyżowanie w kształcie T dla pociągów."
 ptBR = "Uma interseção em forma de T para trens."
+koKR = "기차를 위한 T자 형태의 교차로."
 
 ["Tobbert.TrackTIntersection2x3.FlavorDescription"]
 raw = "Where will those paths lead to?"
@@ -285,6 +308,7 @@ frFR = "Vers où mèneront ces chemins ?"
 deDE = "Wohin werden diese Wege führen?"
 plPL = "Dokąd zaprowadzą te ścieżki?"
 ptBR = "Para onde aqueles caminhos levarão?"
+koKR = "그 길들은 어디로 이어질까요?"
 
 ["Tobbert.TrackXIntersection1x1.DisplayName"]
 raw = "X intersection Train Track 1x1"
@@ -297,6 +321,7 @@ frFR = "Intersection X Voie Ferrée 1x1"
 deDE = "X Schnittstelle Gleis 1x1"
 plPL = "X przecięcie Toru Kolejowego 1x1"
 ptBR = "X interseção Trilho do Trem 1x1"
+koKR = "X 교차로 기차 선로 1x1"
 
 ["Tobbert.TrackXIntersection1x1.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -309,6 +334,7 @@ frFR = "Une intersection en forme de X pour les trains."
 deDE = "Eine Kreuzung in Form eines X für Züge."
 plPL = "Skrzyżowanie w kształcie X dla pociągów."
 ptBR = "Uma interseção em forma de X para trens."
+koKR = "기차를 위한 X형 교차로입니다."
 
 ["Tobbert.TrackXIntersection1x1.FlavorDescription"]
 raw = "So many options!"
@@ -321,6 +347,7 @@ frFR = "Tant d'options !"
 deDE = "So viele Optionen!"
 plPL = "Tak wiele opcji!"
 ptBR = "Tantas opções!"
+koKR = "많은 선택지!"
 
 ["Tobbert.TrackXIntersection3x3.DisplayName"]
 raw = "X intersection Train Track 3x3"
@@ -333,6 +360,7 @@ frFR = "Intersection X Voie Ferrée 3x3"
 deDE = "X Schnittstelle Bahnstrecke 3x3"
 plPL = "X skrzyżowanie Torów kolejowych 3x3"
 ptBR = "X interseção Trilho do Trem 3x3"
+koKR = "X 교차로 기차 선로 3x3"
 
 ["Tobbert.TrackXIntersection3x3.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -345,6 +373,7 @@ frFR = "Une intersection en forme de X pour les trains."
 deDE = "Eine Kreuzung in Form eines X für Züge."
 plPL = "Krzyżowanie w formie X dla pociągów."
 ptBR = "Uma interseção na forma de um X para trens."
+koKR = "기차용 X자 형태의 교차로입니다."
 
 ["Tobbert.TrackXIntersection3x3.FlavorDescription"]
 raw = "I just cannot choose where to go..."
@@ -357,6 +386,7 @@ frFR = "Je ne peux tout simplement pas choisir où aller..."
 deDE = "Ich kann mich einfach nicht entscheiden, wohin ich gehen soll..."
 plPL = "Po prostu nie mogę zdecydować, dokąd iść..."
 ptBR = "Eu simplesmente não consigo escolher para onde ir..."
+koKR = "어디로 가야 할지 도무지 선택할 수가 없어요..."
 
 ["Tobbert.TrackRIntersection2x3.DisplayName"]
 raw = "Switch Train Track 2x3"
@@ -369,6 +399,7 @@ frFR = "Changer le rail de train 2x3"
 deDE = "Wechseln Sie die Eisenbahnschiene 2x3"
 plPL = "Zmień tor kolejowy 2x3"
 ptBR = "Trocar Trilhos do Trem 2x3"
+koKR = "스위치 기차 트랙 2x3"
 
 ["Tobbert.TrackRIntersection2x3.Description"]
 raw = "A switch in the form of a R for trains."
@@ -381,6 +412,7 @@ frFR = "Un aiguillage en forme de R pour les trains."
 deDE = "Ein Weichen in Form eines R für Züge."
 plPL = "Przełącznik w kształcie litery R dla pociągów."
 ptBR = "Um desvios na forma de uma R para trens."
+koKR = "기차용 R 형태의 스위치입니다."
 
 ["Tobbert.TrackRIntersection2x3.FlavorDescription"]
 raw = "Where R we going?"
@@ -393,6 +425,7 @@ frFR = "Où allons-nous ?"
 deDE = "Wohin gehen wir?"
 plPL = "Dokąd idziemy?"
 ptBR = "Para onde estamos indo?"
+koKR = "우리는 어디로 가고 있나요?"
 
 ["Tobbert.GoodsStation.DisplayName"]
 raw = "Goods station"
@@ -405,6 +438,7 @@ frFR = "Gare de marchandises"
 deDE = "Güterbahnhof"
 plPL = "Stacja towarowa"
 ptBR = "Estação de carga"
+koKR = "물류역"
 
 ["Tobbert.GoodsStation.Description"]
 raw = "Allows for transportation of goods by trains. A good can either be send or received at a station. Goods received will only be moved to storages that are set to obtain."
@@ -417,6 +451,7 @@ frFR = "Permet le transport de marchandises par trains. Une marchandise peut êt
 deDE = "Ermöglicht den Transport von Gütern mit Zügen. Ein Gut kann entweder an einem Bahnhof versendet oder empfangen werden. Eingehende Güter werden nur in Lager bewegt, die für den Empfang eingerichtet sind."
 plPL = "Pozwala na transport towarów pociągami. Towar może być wysyłany lub odbierany na stacji. Odbierane towary będą przenoszone tylko do magazynów, które są ustawione na odbiór."
 ptBR = "Permite o transporte de mercadorias por trens. Uma mercadoria pode ser enviada ou recebida em uma estação. As mercadorias recebidas serão movidas apenas para os armazenamentos que estão configurados para receber."
+koKR = "기차를 통한 물품 운송을 허용합니다. 물품은 역에서 발송되거나 수신될 수 있습니다. 수신된 물품은 설정된 저장소로만 이동됩니다."
 
 ["Tobbert.GoodsStation.FlavorDescription"]
 raw = "Look at all the goods it can hold."
@@ -429,6 +464,7 @@ frFR = "Regardez tous les biens qu'il peut contenir."
 deDE = "Schau dir all die Waren an, die es halten kann."
 plPL = "Zobacz wszystkie towary, które może pomieścić."
 ptBR = "Veja todos os bens que ele pode conter."
+koKR = "저것이 얼마나 많은 물건을 담을 수 있는지 보세요."
 
 ["Tobbert.PassengerStation.DisplayName"]
 raw = "Passenger station"
@@ -441,6 +477,7 @@ frFR = "Gare ferroviaire"
 deDE = "Bahnhof"
 plPL = "Dworzec pasażerski"
 ptBR = "Estação de passageiros"
+koKR = " passenger station"
 
 ["Tobbert.PassengerStation.Description"]
 raw = "This stations allows beavers to get on the train and travel to another station that are connected to each other."
@@ -453,6 +490,7 @@ frFR = "Cette station permet aux castors de monter dans le train et de voyager v
 deDE = "Diese Station ermöglicht es Bibern, in den Zug zu steigen und zu einer anderen Station zu reisen, die miteinander verbunden sind."
 plPL = "Ta stacja umożliwia bobrom wsiadanie do pociągu i podróżowanie do innej stacji, które są ze sobą połączone."
 ptBR = "Esta estação permite que os castores embarquem no trem e viajem para outra estação que está conectada a ela."
+koKR = "이 역은 비버들이 기차에 타고 서로 연결된 다른 역으로 여행할 수 있게 해줍니다."
 
 ["Tobbert.PassengerStation.FlavorDescription"]
 raw = "Beaver train!"
@@ -465,6 +503,7 @@ frFR = "Train de castor !"
 deDE = "Biberzug!"
 plPL = "Pociąg bobrów!"
 ptBR = "Trem do castor!"
+koKR = "비버 기차!"
 
 ["Tobbert.PassengerStation.DistrictObjectToggle"]
 raw = "Goes across districts:"
@@ -477,6 +516,7 @@ frFR = "Traverse les districts :"
 deDE = "Geht über Bezirke hinweg:"
 plPL = "Przechodzi przez dzielnice:"
 ptBR = "Cruza distritos:"
+koKR = "구역을 가로지릅니다:"
 
 ["Tobbert.PassengerStation.DistrictObject"]
 raw = "When enabled will ONLY allow beavers to go passenger stations that also have this setting enabled and are in other districts."
@@ -489,6 +529,7 @@ frFR = "Lorsqu'il est activé, il ne permettra AUX CASTORS de se rendre uniqueme
 deDE = "Wenn aktiviert, wird es NUR erlauben, dass Biber zu Passagierstationen gehen, die ebenfalls diese Einstellung aktiviert haben und in anderen Bezirken liegen."
 plPL = "Gdy jest włączone, pozwoli to jedynie bobrom na korzystanie z stacji pasażerskich, które również mają włączone to ustawienie i znajdują się w innych dzielnicach."
 ptBR = "Quando ativado, permitirá que apenas castores acessem estações de passageiros que também tenham esta configuração ativada e estejam em outros distritos."
+koKR = "활성화되면 이 설정이 활성화되고 다른 구역에 있는 여객역으로만 비버가 이동할 수 있습니다."
 
 ["Tobbert.PassengerStation.EmptyStation"]
 raw = "There are currently no passengers waiting."
@@ -501,6 +542,7 @@ frFR = "Il n'y a actuellement aucun passager en attente."
 deDE = "Derzeit warten keine Passagiere."
 plPL = "Obecnie nie ma oczekujących pasażerów."
 ptBR = "Atualmente, não há passageiros esperando."
+koKR = "현재 대기 중인 승객이 없습니다."
 
 ["Tobbert.WaitingStation.DisplayName"]
 raw = "Waiting Station"
@@ -513,6 +555,7 @@ frFR = "Station d'attente"
 deDE = "Wartestation"
 plPL = "Stacja oczekiwania"
 ptBR = "Estação de Espera"
+koKR = "대기소"
 
 ["Tobbert.WaitingStation.Description"]
 raw = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure its not in any crucial paths."
@@ -525,6 +568,7 @@ frFR = "Les trains peuvent attendre ici lorsqu'ils n'ont rien à faire. Cela emp
 deDE = "Züge können hier warten, wenn sie nichts zu tun haben. Dies verhindert, dass Züge die Gleise blockieren. Züge können darüber nicht navigieren, also stellen Sie sicher, dass es sich nicht auf wichtigen Wegen befindet."
 plPL = "Pociągi mogą czekać tutaj, gdy nie mają nic do zrobienia. Zapobiega to zajmowaniu torów przez pociągi. Pociągi nie mogą przechodzić przez to, więc upewnij się, że nie znajduje się to na żadnych kluczowych trasach."
 ptBR = "Os trens podem esperar aqui quando não têm nada a fazer. Isso evita que os trens ocupem os trilhos. Os trens não conseguem encontrar caminho por cima disso, então certifique-se de que não esteja em nenhum caminho crucial."
+koKR = "기차는 할 일이 없을 때 여기에서 대기할 수 있습니다. 이는 기차가 트랙을 점유하지 않도록 방지합니다. 기차는 이 위를 경로 탐색할 수 없으므로, 중요한 경로에 위치하지 않도록 하세요."
 
 ["Tobbert.WaitingStation.FlavorDescription"]
 raw = "When can I go again?"
@@ -537,6 +581,7 @@ frFR = "Quand puis-je y aller à nouveau ?"
 deDE = "Wann kann ich wieder gehen?"
 plPL = "Kiedy mogę znowu pójść?"
 ptBR = "Quando posso ir de novo?"
+koKR = "다시 언제 갈 수 있지?"
 
 ["Tobbert.TrainYard.DisplayName"]
 raw = "Train Yard"
@@ -549,6 +594,7 @@ frFR = "Dépôt de train"
 deDE = "Bahnhof"
 plPL = "Teren kolejowy"
 ptBR = "Pátio de Carga"
+koKR = "기차 마당"
 
 ["Tobbert.TrainYard.Description"]
 raw = "A building that creates trains."
@@ -561,6 +607,7 @@ frFR = "Un bâtiment qui crée des trains."
 deDE = "Ein Gebäude, das Züge herstellt."
 plPL = "Budynek, który tworzy pociągi."
 ptBR = "Um edifício que cria trens."
+koKR = "기차를 만드는 건물입니다."
 
 ["Tobbert.TrainYard.FlavorDescription"]
 raw = "This is where trains are born."
@@ -573,6 +620,7 @@ frFR = "C'est ici que naissent les trains."
 deDE = "Hier ist der Ort, an dem Züge geboren werden."
 plPL = "Tutaj rodzą się pociągi."
 ptBR = "É aqui que os trens nascem."
+koKR = "여기가 기차가 태어나는 곳입니다."
 
 ["Tobbert.TrainYard.CostOfTrain"]
 raw = "Cost of 1 train:"
@@ -585,6 +633,7 @@ frFR = "Coût d'un train :"
 deDE = "Kosten für 1 Zug:"
 plPL = "Koszt 1 pociągu:"
 ptBR = "Custo de 1 trem:"
+koKR = "기차 1대의 비용:"
 
 ["Tobbert.TrainYard.CreateTrain"]
 raw = "Build train"
@@ -597,6 +646,7 @@ frFR = "Construire un train"
 deDE = "Zug bauen"
 plPL = "Zbuduj pociąg"
 ptBR = "Construir trem"
+koKR = "기차 건설"
 
 ["Tobbert.Train.PrefabName"]
 raw = "Train"
@@ -609,6 +659,7 @@ frFR = "Train"
 deDE = "Zug"
 plPL = "Pociąg"
 ptBR = "Trem"
+koKR = "기차"
 
 ["Tobbert.Wagon.PrefabName"]
 raw = "Wagon"
@@ -621,6 +672,7 @@ frFR = "Wagon"
 deDE = "Wagen"
 plPL = "Wagon"
 ptBR = "Vagão"
+koKR = "마차"
 
 ["Tobbert.TrainModel.TrainModel"]
 raw = "Train Model:"
@@ -633,6 +685,7 @@ frFR = "Modèle d'entraînement :"
 deDE = "Modell trainieren:"
 plPL = "Model treningowy:"
 ptBR = "Modelo de Trem:"
+koKR = "기차 모델:"
 
 ["Tobbert.TrainModel.SmallLog"]
 raw = "Small Log"
@@ -645,6 +698,7 @@ frFR = "Petit journal"
 deDE = "Kleines Protokoll"
 plPL = "Mały dziennik"
 ptBR = "Pequeno Logradouro"
+koKR = "작은 통나무"
 
 ["Tobbert.TrainModel.BigWooden"]
 raw = "Big Wooden"
@@ -657,6 +711,7 @@ frFR = "Grand en bois"
 deDE = "Großes Holz"
 plPL = "Duże Drewniane"
 ptBR = "Grande Madeira"
+koKR = "큰 나무"
 
 ["Tobbert.WagonModel.WagonModel"]
 raw = "Wagon Model:"
@@ -669,6 +724,7 @@ frFR = "Modèle de wagon :"
 deDE = "Wagenmodell:"
 plPL = "Model wagonu:"
 ptBR = "Modelo de vagão:"
+koKR = "Wagon Model:\" in Korean is \"짐차 모델:"
 
 ["Tobbert.WagonModel.BoxWagon"]
 raw = "Box Wagon"
@@ -681,6 +737,7 @@ frFR = "Wagon à boîte"
 deDE = "Kastenwagen"
 plPL = "Wóz skrzynkowy"
 ptBR = "Carroça de Carga"
+koKR = "박스 짐마차"
 
 ["Tobbert.WagonModel.TankWagon"]
 raw = "Tank Wagon"
@@ -693,6 +750,7 @@ frFR = "Wagon-citerne"
 deDE = "Tankwagen"
 plPL = "Wagon do przewozu cieczy"
 ptBR = "Caminhão-tanque"
+koKR = "탱크 수송차"
 
 ["Tobbert.WagonModel.FlatWagon"]
 raw = "Flat Wagon"
@@ -705,6 +763,7 @@ frFR = "Wagon plat"
 deDE = "Flachwagen"
 plPL = "Wagon platformowy"
 ptBR = "Vagão Plano"
+koKR = "평평한 마차"
 
 ["Tobbert.WagonModel.FlipperWagon"]
 raw = "Gondola Wagon"
@@ -717,6 +776,7 @@ frFR = "Wagon gondola"
 deDE = "Gondelwagen"
 plPL = "Wóz gondolowy"
 ptBR = "Vagão Gôndola"
+koKR = "곤돌라 마차"
 
 ["Tobbert.WagonModel.MetalCart"]
 raw = "Metal Cart"
@@ -729,6 +789,7 @@ frFR = "Chariot en métal"
 deDE = "Metallwagen"
 plPL = "Wózek metalowy"
 ptBR = "Carrinho de Metal"
+koKR = "금속 카트"
 
 ["Tobbert.WagonModel.PassengerWagon"]
 raw = "Passenger Wagon"
@@ -741,6 +802,7 @@ frFR = "Wagon de passagers"
 deDE = "Personenwagen"
 plPL = "Wagon pasażerski"
 ptBR = "Vagão de Passageiros"
+koKR = "승객 차량"
 
 ["Tobbert.BatchControl.Trains"]
 raw = "Trains"
@@ -753,6 +815,7 @@ frFR = "Trains"
 deDE = "Züge"
 plPL = "Pociągi"
 ptBR = "Trens"
+koKR = "기차"
 
 ["Tobbert.Train.Length"]
 raw = "Train Length:"
@@ -765,6 +828,7 @@ frFR = "Longueur du train :"
 deDE = "Zuglänge:"
 plPL = "Długość pociągu:"
 ptBR = "Comprimento do Trem:"
+koKR = "기차 길이:"
 
 ["Tobbert.Train.Destroy"]
 raw = "Are you sure you want to destroy this train?"
@@ -777,6 +841,7 @@ frFR = "Êtes-vous sûr de vouloir détruire ce train ?"
 deDE = "Bist du dir sicher, dass du diesen Zug zerstören möchtest?"
 plPL = "Czy na pewno chcesz zniszczyć ten pociąg?"
 ptBR = "Você tem certeza de que deseja destruir este trem?"
+koKR = "이 기차를 파괴하시겠습니까?"
 
 ["Tobbert.GoodsStation.Distribution.Header"]
 raw = "Distributed goods"
@@ -789,6 +854,7 @@ frFR = "Biens distribués"
 deDE = "Verteilte Waren"
 plPL = "Towary dystrybuowane"
 ptBR = "Produtos distribuídos"
+koKR = "분배된 상품"
 
 ["Tobbert.GoodsStation.Distribution.Disabled.Info"]
 raw = "Distribution disabled by distribution settings."
@@ -801,6 +867,7 @@ frFR = "Distribution désactivée par les paramètres de distribution."
 deDE = "Verteilung durch die Verteilungseinstellungen deaktiviert."
 plPL = "Dystrybucja wyłączona przez ustawienia dystrybucji."
 ptBR = "Distribuição desativada pelas configurações de distribuição."
+koKR = "배급 설정에 의해 배급이 비활성화되었습니다."
 
 ["Tobbert.GoodsStation.Distribution.Sending.Info"]
 raw = "Distribution set to sending by distribution settings."
@@ -813,6 +880,7 @@ frFR = "Distribution défini pour l'envoi selon les paramètres de distribution.
 deDE = "Verteilung auf Basis der Verteilungseinstellungen festgelegt."
 plPL = "Ustalenia dystrybucji ustawione do wysyłki zgodnie z ustawieniami dystrybucji."
 ptBR = "Distribuição definida para envio por configurações de distribuição."
+koKR = "배포 설정에 따라 전송으로 설정됨."
 
 ["Tobbert.GoodsStation.Distribution.Receiving.Info"]
 raw = "Distribution set to receiving by distribution settings."
@@ -825,6 +893,7 @@ frFR = "La distribution est prête à recevoir selon les paramètres de distribu
 deDE = "Die Verteilung ist auf Empfang gemäß den Verteilungseinstellungen eingestellt."
 plPL = "Ustawienia dystrybucji ustawione na odbieranie na podstawie ustawień dystrybucji."
 ptBR = "Distribuição definida para recebimento pelas configurações de distribuição."
+koKR = "배급 설정에 따라 수령으로 설정됨."
 
 ["Tobbert.BatchControl.GoodsStation"]
 raw = "Goods stations"
@@ -837,6 +906,7 @@ frFR = "Gares de marchandises"
 deDE = "Güterbahnhöfe"
 plPL = "Stacje towarowe"
 ptBR = "Estações de carga"
+koKR = "물품역"
 
 ["Tobbert.BatchControl.DistributionDisabledAll"]
 raw = "Disable all distribution"
@@ -849,6 +919,7 @@ frFR = "Désactiver toute distribution"
 deDE = "Deaktivieren Sie alle Verteilungen."
 plPL = "Wyłącz wszystkie dystrybucje"
 ptBR = "Desativar toda a distribuição"
+koKR = "모든 배포 비활성화"
 
 ["Tobbert.BatchControl.DistributionDisabled"]
 raw = "Distribution disabled"
@@ -861,6 +932,7 @@ frFR = "Distribution désactivée"
 deDE = "Verteilung deaktiviert"
 plPL = "Rozkład wyłączony"
 ptBR = "Distribuição desativada"
+koKR = "배포 비활성화"
 
 ["Tobbert.BatchControl.DistributionDisabled.Description"]
 raw = "Completely disable the distribution of this good at this station."
@@ -873,6 +945,7 @@ frFR = "Désactivez complètement la distribution de ce bien à cette station."
 deDE = "Deaktivieren Sie die Verteilung dieses Gutes an dieser Station vollständig."
 plPL = "Całkowicie wyłącz dystrybucję tego dobra na tej stacji."
 ptBR = "Desative completamente a distribuição deste produto nesta estação."
+koKR = "이 시설에서 이 상품의 배급을 완전히 비활성화합니다."
 
 ["Tobbert.BatchControl.DistributionSendingAll"]
 raw = "Allow sending of all goods"
@@ -885,6 +958,7 @@ frFR = "Autoriser l'envoi de toutes les marchandises"
 deDE = "Erlauben Sie den Versand aller Waren."
 plPL = "Zezwól na wysyłkę wszystkich towarów"
 ptBR = "Permitir o envio de todas as mercadorias"
+koKR = "모든 상품 발송 허용"
 
 ["Tobbert.BatchControl.DistributionSending"]
 raw = "Allow sending"
@@ -897,6 +971,7 @@ frFR = "Autoriser l'envoi"
 deDE = "Erlauben Sie das Senden"
 plPL = "Zezwól na wysyłanie"
 ptBR = "Permitir envio"
+koKR = "전송 허용"
 
 ["Tobbert.BatchControl.DistributionSending.Description"]
 raw = "Station can send this good to other station. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -909,6 +984,7 @@ frFR = "La station peut envoyer cette marchandise à une autre station. La quant
 deDE = "Die Station kann dieses Gut zu einer anderen Station senden. Die maximale Menge, die sich in der Station befinden kann, wird durch die Menge rechts davon bestimmt."
 plPL = "Stacja może wysłać ten towar do innej stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie."
 ptBR = "A estação pode enviar este produto para outra estação. A quantidade máxima que pode estar dentro da estação é determinada pela quantidade à direita."
+koKR = "이 역은 이 물품을 다른 역으로 보낼 수 있습니다. 역 내부에 있을 수 있는 최대 수량은 오른쪽에 있는 수량에 의해 결정됩니다."
 
 ["Tobbert.BatchControl.DistributionReceivingAll"]
 raw = "Allow receiving of all goods"
@@ -921,6 +997,7 @@ frFR = "Autoriser la réception de toutes les marchandises"
 deDE = "Erlauben Sie den Empfang aller Waren"
 plPL = "Zezwolić na odbiór wszystkich towarów"
 ptBR = "Permitir o recebimento de todos os produtos"
+koKR = "모든 물품 수령 허용"
 
 ["Tobbert.BatchControl.DistributionReceiving"]
 raw = "Allow receiving"
@@ -933,6 +1010,7 @@ frFR = "Autoriser la réception"
 deDE = "Erlauben Sie den Empfang"
 plPL = "Zezwól na odbieranie"
 ptBR = "Permitir recebimento"
+koKR = "수신 허용"
 
 ["Tobbert.BatchControl.DistributionReceiving.Description"]
 raw = "Station can receive this good that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -945,6 +1023,7 @@ frFR = "La station peut recevoir les biens qui sont envoyés depuis d'autres sta
 deDE = "Die Station kann diese Waren empfangen, die von anderen Stationen gesendet werden. Die maximale Menge, die sich in der Station befinden kann, wird durch die Menge auf der rechten Seite bestimmt."
 plPL = "Stacja może odbierać dobra wysyłane z innych stacji. Maksymalna ilość, która może znajdować się w stacji, jest określona przez ilość po prawej stronie."
 ptBR = "A estação pode receber esses bens que são enviados de outras estações. A quantidade máxima que pode estar dentro da estação é determinada pela quantidade à direita."
+koKR = "이 역은 다른 역에서 보내는 이 물품을 받을 수 있습니다. 역 안에 들어올 수 있는 최대 양은 오른쪽의 양에 의해 결정됩니다."
 
 ["Tobbert.BatchControl.DecreaseMaximum"]
 raw = "Decrease max amount of goods"
@@ -957,6 +1036,7 @@ frFR = "Réduire le montant maximal de biens"
 deDE = "Maximale Menge an Waren verringern"
 plPL = "Zmniejsz maksymalną ilość towarów"
 ptBR = "Diminuir a quantidade máxima de mercadorias"
+koKR = "최대 물품 수량 줄이기"
 
 ["Tobbert.BatchControl.DecreaseMaximum.Description"]
 raw = "Decrease the maximum amount that can be inside the station. Click is -1 and holding shift is -10. Max capacity is 200."
@@ -969,6 +1049,7 @@ frFR = "Diminuez le montant maximum qui peut être à l'intérieur de la station
 deDE = "Verringern Sie den maximalen Betrag, der sich im Bahnhof befinden kann. Ein Klick entspricht -1 und das Halten der Umschalttaste entspricht -10. Die maximale Kapazität beträgt 200."
 plPL = "Zmniejsz maksymalną ilość, która może być w stacji. Kliknięcie to -1, a przytrzymanie klawisza shift to -10. Maksymalna pojemność wynosi 200."
 ptBR = "Diminua a quantidade máxima que pode estar dentro da estação. Clicar é -1 e segurar shift é -10. A capacidade máxima é 200."
+koKR = "정거장 내부에 있을 수 있는 최대 수량을 감소시킵니다. 클릭 시 -1, Shift 키를 누르고 있으면 -10이 감소합니다. 최대 용량은 200입니다."
 
 ["Tobbert.BatchControl.IncreaseMaximum"]
 raw = "Increase max amount of goods"
@@ -981,6 +1062,7 @@ frFR = "Augmenter le montant maximal de biens"
 deDE = "Maximale Menge an Waren erhöhen"
 plPL = "Zwiększ maksymalną ilość towarów"
 ptBR = "Aumentar a quantidade máxima de mercadorias"
+koKR = "최대 자산 수량 증가"
 
 ["Tobbert.BatchControl.IncreaseMaximum.Description"]
 raw = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
@@ -993,6 +1075,7 @@ frFR = "Augmentez le montant maximum pouvant être à l'intérieur de la station
 deDE = "Erhöhen Sie den maximalen Betrag, der sich im Bahnhof befinden kann. Ein Klick ist +1 und das Halten der Umschalttaste ist +10. Die maximale Kapazität beträgt 200."
 plPL = "Zwiększ maksymalną ilość, która może znajdować się w stacji. Kliknięcie to +1, a przytrzymanie shift to +10. Maksymalna pojemność to 200."
 ptBR = "Aumente a quantidade máxima que pode estar dentro da estação. Clicar é +1 e segurar shift é +10. A capacidade máxima é 200."
+koKR = "정거장 내부에 들어갈 수 있는 최대 양을 늘립니다. 클릭 시 +1, Shift를 누르고 있을 때 +10입니다. 최대 용량은 200입니다."
 
 ["Tobbert.TrackSystem.ToggleSectionDivider"]
 raw = "Divides sections:"
@@ -1005,6 +1088,7 @@ frFR = "Divise les sections :"
 deDE = "Teilt Abschnitte:"
 plPL = "Dzieli sekcje:"
 ptBR = "Divide seções:"
+koKR = "구역 나누기:"
 
 ["Tobbert.TrackSystem.ButtonChangeDirection"]
 raw = "Change direction"
@@ -1017,6 +1101,7 @@ frFR = "Changer de direction"
 deDE = "Richtung ändern"
 plPL = "Zmień kierunek"
 ptBR = "Mude de direção"
+koKR = "방향 변경"
 
 ["Tobbert.TrackSystem.CollidingSectionDividers"]
 raw = "Cannot connect 2 Section Dividers"
@@ -1029,6 +1114,7 @@ frFR = "Impossible de connecter 2 diviseurs de section."
 deDE = "Kann 2 Abschnitts-Trenner nicht verbinden"
 plPL = "Nie można połączyć 2 separatorów sekcji."
 ptBR = "Não é possível conectar 2 divisores de seção."
+koKR = "두 개의 섹션 구분자를 연결할 수 없습니다"
 
 ["Tobbert.ToolGroup.Trains"]
 raw = "Trains"
@@ -1041,6 +1127,7 @@ frFR = "Trains"
 deDE = "Züge"
 plPL = "Pociągi"
 ptBR = "Trens"
+koKR = "기차"
 
 ["Tobbert.TrainYard.PreviewErrorMessage"]
 raw = "Only 1 Train Yard can be build"
@@ -1053,6 +1140,7 @@ frFR = "Seulement 1 dépôt de train peut être construit."
 deDE = "Es kann nur ein Zugdepot gebaut werden."
 plPL = "Można zbudować tylko 1 Zajezdnię Kolejową."
 ptBR = "Somente 1 Pátio de Trem pode ser construído."
+koKR = "기차 마당은 하나만 건설할 수 있습니다."
 
 ["Tobbert.Trains.UnlockPrompt"]
 raw = "You need to unlock {0} to build {1}."
@@ -1065,6 +1153,7 @@ frFR = "Vous devez débloquer {0} pour construire {1}."
 deDE = "Sie müssen {0} freischalten, um {1} zu bauen."
 plPL = "Musisz odblokować {0}, aby zbudować {1}."
 ptBR = "Você precisa desbloquear {0} para construir {1}."
+koKR = "{0}를 잠금 해제해야 {1}을(를) 건설할 수 있습니다."
 
 ["Tobbert.DistributionTrain.MinimumOfItemsToMove"]
 raw = "Minimum of items to move:"
@@ -1077,6 +1166,7 @@ frFR = "Nombre minimum d'articles à déplacer :"
 deDE = "Mindestens Anzahl der zu bewegenden Artikel:"
 plPL = "Minimalna liczba przedmiotów do przeniesienia:"
 ptBR = "Mínimo de itens a serem movidos:"
+koKR = "이동할 항목의 최소 수:"
 
 ["Tobbert.TrainNavigation.Unstuck"]
 raw = "Turn Around"
@@ -1089,6 +1179,7 @@ frFR = "Fais demi-tour"
 deDE = "Dreh dich um"
 plPL = "Odwróć się"
 ptBR = "Vire-se"
+koKR = "돌아가다"
 
 ["Tobbert.TrainNavigation.NoWaitingStation"]
 raw = "No available Waiting Station found."
@@ -1101,6 +1192,7 @@ frFR = "Aucune station d'attente disponible trouvée."
 deDE = "Keine verfügbare Wartestation gefunden."
 plPL = "Nie znaleziono dostępnej stacji oczekiwania."
 ptBR = "Nenhuma Estação de Espera disponível encontrada."
+koKR = "사용 가능한 대기소를 찾을 수 없습니다."
 
 ["Tobbert.TrainNavigation.NoWaitingStationShort"]
 raw = "No Waiting Station"
@@ -1113,6 +1205,7 @@ frFR = "Pas de station d'attente"
 deDE = "Keine Wartestation"
 plPL = "Brak stacji oczekiwania"
 ptBR = "Estação Sem Espera"
+koKR = "대기소 없음"
 
 ["Tobbert.TrainDestination.UnconnectedWarning"]
 raw = "Station is not connected to any other station."
@@ -1125,6 +1218,7 @@ frFR = "La gare n'est connectée à aucune autre gare."
 deDE = "Die Station ist mit keiner anderen Station verbunden."
 plPL = "Stacja nie jest połączona z żadną inną stacją."
 ptBR = "A estação não está conectada a nenhuma outra estação."
+koKR = "역이 다른 어떤 역과도 연결되어 있지 않습니다."
 
 ["Tobbert.TrainDestination.UnconnectedWarningShort"]
 raw = "Unconnected station"
@@ -1137,6 +1231,7 @@ frFR = "Station non connectée"
 deDE = "Unverbundene Station"
 plPL = "Stacja niepodłączona"
 ptBR = "Estação desconectada"
+koKR = "연결되지 않은 정류장"
 
 ["Tobbert.ChooChooSettings.Header"]
 raw = "Choo! Choo!"
@@ -1149,6 +1244,7 @@ frFR = "Tchou! Tchou!"
 deDE = "Zug! Zug!"
 plPL = "Pip! Pip!"
 ptBR = "Tchu! Tchu!"
+koKR = "투! 투!"
 
 ["Tobbert.ChooChooSettings.DefaultTrainModel"]
 raw = "Default Train model:"
@@ -1161,6 +1257,7 @@ frFR = "Modèle de train par défaut :"
 deDE = "Standard-Zugmodell:"
 plPL = "Domyślny model pociągu:"
 ptBR = "Modelo de trem padrão:"
+koKR = "기본 기차 모델:"
 
 ["Tobbert.ChooChooSettings.DefaultWagonModel"]
 raw = "Default Wagon model:"
@@ -1173,6 +1270,7 @@ frFR = "Modèle de wagon par défaut :"
 deDE = "Standard-Wagenmodell:"
 plPL = "Domyślny model wagonu:"
 ptBR = "Modelo padrão de caminhão:"
+koKR = "기본 마차 모델:"
 
 ["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
 raw = "Choo! Choo!"
@@ -1185,6 +1283,7 @@ frFR = "Tchou ! Tchou !"
 deDE = "Pfeif! Pfeif!"
 plPL = "Tuu! Tuu!"
 ptBR = "Tô! Tô!"
+koKR = "치르릉! 치르릉!"
 
 ["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
 raw = "Open Goods Stations tab"
@@ -1197,3 +1296,4 @@ frFR = "Ouvrir l'onglet des stations de marchandises"
 deDE = "Öffnen Sie die Registerkarte Warenbahnhöfe"
 plPL = "Otwórz zakładkę Stacje Towarowe"
 ptBR = "Abra a aba Estações de Bens"
+koKR = "상품 역 탭 열기"

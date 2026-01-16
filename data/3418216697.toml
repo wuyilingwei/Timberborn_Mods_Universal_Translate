@@ -9,6 +9,7 @@ frFR = "Activé"
 deDE = "Aktiviert"
 plPL = "Włączony"
 ptBR = "Habilitado"
+koKR = "활성화됨"
 
 ["LV.SE.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -21,6 +22,7 @@ frFR = "Que ce mod soit activé."
 deDE = "Ob dieses Mod aktiviert ist."
 plPL = "Czy ten mod jest włączony."
 ptBR = "Se este mod está ativado."
+koKR = "이 모드가 활성화되어 있는지 여부."
 
 ["LV.SE.SaveFrequency"]
 raw = "Auto-save frequency (days)"
@@ -33,6 +35,7 @@ frFR = "Fréquence de sauvegarde automatique (jours)"
 deDE = "Auto-Speicherungshäufigkeit (Tage)"
 plPL = "Częstotliwość automatycznego zapisywania (dni)"
 ptBR = "Frequência de salvamento automático (dias)"
+koKR = "자동 저장 빈도(일)"
 
 ["LV.SE.SaveFrequencyDesc"]
 raw = "How often this mod should auto-save."
@@ -45,6 +48,7 @@ frFR = "À quelle fréquence ce mod doit-il sauvegarder automatiquement ?"
 deDE = "Wie oft diese Mod automatisch speichern sollte."
 plPL = "Jak często ten mod powinien automatycznie zapisywać."
 ptBR = "Com que frequência este mod deve salvar automaticamente."
+koKR = "이 모드가 얼마나 자주 자동 저장되어야 하는지."
 
 ["LV.SE.SaveCount"]
 raw = "Auto-save count"
@@ -57,6 +61,7 @@ frFR = "Nombre de sauvegardes automatiques"
 deDE = "Auto-Speichern-Zählung"
 plPL = "Liczba automatycznych zapisów"
 ptBR = "Contagem de salvamentos automáticos"
+koKR = "자동 저장 횟수"
 
 ["LV.SE.SaveCountDesc"]
 raw = "How many auto-saves should be kept."
@@ -69,6 +74,7 @@ frFR = "Combien de sauvegardes automatiques doivent être conservées ?"
 deDE = "Wie viele automatische Sicherungen sollten aufbewahrt werden?"
 plPL = "Ile auto-zapisy powinno być przechowywanych?"
 ptBR = "Quantas salvamentos automáticos devem ser mantidos?"
+koKR = "자동 저장을 몇 개 보관해야 하는지."
 
 ["LV.SE.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -81,6 +87,7 @@ frFR = "Économie supplémentaire sur l'alerte météo"
 deDE = "Zusätzliche Einsparungen bei Wetterwarnungen"
 plPL = "Dodatkowa oszczędność na ostrzeżeniu pogodowym"
 ptBR = "Economia extra em aviso de tempo."
+koKR = "날씨 경고에 대한 추가 저장"
 
 ["LV.SE.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -93,6 +100,7 @@ frFR = "Lorsque qu'un avertissement météo est émis, créez une sauvegarde sup
 deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie ein zusätzliches Save mit dem Namen 'weatherwarning.save', das nur von der nächsten Warnung des Zyklus überschrieben wird. Dieses Save zählt nicht zur Anzahl der Saves."
 plPL = "Gdy wydany zostaje alert pogodowy, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej rundy. To zapisanie nie jest zaliczane do liczby zapisów."
 ptBR = "Quando um aviso meteorológico é emitido, crie uma salvaguarda extra chamada 'weatherwarning.save' que só será sobrescrita pelo aviso do próximo ciclo. Essa salvaguarda não conta para a contagem de salvamentos."
+koKR = "날씨 경고가 발령될 때, 'weatherwarning.save'라는 이름의 추가 저장을 생성하며, 이 저장은 다음 사이클의 경고로만 덮어씌워집니다. 이 저장은 저장 개수에 포함되지 않습니다."
 
 ["LV.SE.AutosaveWarning"]
 raw = "Warn before autosave"
@@ -105,6 +113,7 @@ frFR = "Avertir avant l'enregistrement automatique"
 deDE = "Vor dem automatischen Speichern warnen"
 plPL = "Ostrzeż przed automatycznym zapisywaniem"
 ptBR = "Avisar antes de salvamento automático"
+koKR = "자동 저장 전에 경고"
 
 ["LV.SE.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
@@ -117,6 +126,7 @@ frFR = "Affichez un avertissement un certain temps avant que le jeu ne sauvegard
 deDE = "Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speichert. Dies ist nützlich für Spieler, die Spielruckler beim automatischen Speichern nicht mögen."
 plPL = "Pokaż ostrzeżenie chwilę przed automatycznym zapisem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć w grze podczas automatycznego zapisywania."
 ptBR = "Mostre um aviso algum tempo antes do jogo fazer o salvamento automático. Isso é útil para jogadores que não gostam de travamentos no jogo durante o salvamento automático."
+koKR = "게임이 자동 저장되기 전에 미리 경고를 표시합니다. 이는 자동 저장 시 게임이 끊기는 것을 싫어하는 플레이어에게 유용합니다."
 
 ["LV.SE.AutosaveWarningText"]
 raw = "Autosave imminent in {0} game hours!"
@@ -129,6 +139,7 @@ frFR = "Sauvegarde automatique imminente dans {0} heures de jeu !"
 deDE = "Auto-Speicherung steht in {0} Spielstunden bevor!"
 plPL = "Automatyczne zapisywanie wkrótce w {0} godzinach gry!"
 ptBR = "Autossalvamento iminente em {0} horas de jogo!"
+koKR = "자동 저장이 {0} 시간 후에 진행됩니다!"
 
 ["LV.SE.AutosaveDoneText"]
 raw = "Game autosaved (Save Everyday)!"
@@ -141,6 +152,7 @@ frFR = "Jeu sauvegardé automatiquement (Sauvegarder chaque jour) !"
 deDE = "Spiel automatisch gespeichert (Jeden Tag speichern)!"
 plPL = "Gra automatycznie zapisano (Zapisz codziennie)!"
 ptBR = "Jogo salvo automaticamente (Salvar Todo Dia)!"
+koKR = "게임이 자동 저장되었습니다 (매일 저장)!"
 
 ["LV.SE.AutoSaveFilename"]
 raw = "Auto-save filename"
@@ -153,6 +165,7 @@ frFR = "Nom de fichier de sauvegarde automatique"
 deDE = "Auto-Speichern Dateiname"
 plPL = "Nazwa pliku automatycznego zapisu"
 ptBR = "Nome do arquivo de salvamento automático"
+koKR = "자동 저장 파일 이름"
 
 ["LV.SE.AutoSaveFilenameDesc"]
 raw = "Custom filename for auto-saves. If you use this,\nmake sure to put .saveeveryday at the end to auto delete. If not, the game will not delete the save file automatically.\nUse {0} for cycle number and {1} for cycle day number and {2} for total day. For example: C{0}_D{1}.saveeveryday.\nLeave empty to use the default filename (SaveDay{2}.saveeveryday)."
@@ -165,13 +178,30 @@ frFR = "Nom de fichier personnalisé pour les sauvegardes automatiques. Si vous 
 deDE = "Benutzerdefinierter Dateiname für automatisches Speichern. Wenn Sie dies verwenden, stellen Sie sicher, dass Sie am Ende .saveeveryday hinzufügen, um automatisch zu löschen. Andernfalls wird die Spielstanddatei nicht automatisch gelöscht. Verwenden Sie {0} für die Zyklusnummer und {1} für die Zyklustagnummer und {2} für den Gesamttag. Zum Beispiel: C{0}_D{1}.saveeveryday. Lassen Sie es leer, um den Standarddateinamen (SaveDay{2}.saveeveryday) zu verwenden."
 plPL = "Niestandardowa nazwa pliku dla automatycznych zapisów. Jeśli to robisz, upewnij się, że na końcu dodasz .saveeveryday, aby automatycznie usunąć. W przeciwnym razie gra nie usunie pliku zapisu automatycznie. Użyj {0} dla numeru cyklu, {1} dla numeru dnia cyklu i {2} dla łącznej liczby dni. Na przykład: C{0}_D{1}.saveeveryday. Pozostaw puste, aby użyć domyślnej nazwy pliku (SaveDay{2}.saveeveryday)."
 ptBR = "Nome de arquivo personalizado para salvamentos automáticos. Se você usar isso, certifique-se de colocar .saveeveryday no final para exclusão automática. Caso contrário, o jogo não excluirá o arquivo de salvamento automaticamente. Use {0} para o número do ciclo, {1} para o número do dia do ciclo e {2} para o total de dias. Por exemplo: C{0}_D{1}.saveeveryday. Deixe em branco para usar o nome de arquivo padrão (SaveDay{2}.saveeveryday)."
+koKR = "자동 저장을 위한 사용자 지정 파일 이름입니다. 이를 사용할 경우, 자동 삭제를 위해 끝에 .saveeveryday를 꼭 추가하세요. 그렇지 않으면 게임이 저장 파일을 자동으로 삭제하지 않습니다. {0}은 사이클 번호, {1}은 사이클 일수, {2}는 총 일수를 나타냅니다. 예: C{0}_D{1}.saveeveryday. 기본 파일 이름(SaveDay{2}.saveeveryday)을 사용하려면 비워두세요."
 
 ["LV.SE.MakeFirstCycleDaySave"]
 raw = "Special first cycle day"
 enUS = "Special first cycle day"
 zhCN = "特殊首日存档"
+zhTW = "特別的第一個循環日"
+ruRU = "Специальный день первого цикла"
+jaJP = "特別な初サイクル日のため"
+frFR = "Jour spécial du premier cycle"
+deDE = "Besonderer erster Zyklustag"
+plPL = "Specjalny dzień pierwszego cyklu"
+ptBR = "Dia especial do primeiro ciclo"
+koKR = "특별한 첫 번째 사이클 날"
 
 ["LV.SE.MakeFirstCycleDaySaveDesc"]
 raw = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
 enUS = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
 zhCN = "勾选后，将在每个周期开始时（周期第1天）创建特殊存档。此存档具有特殊名称且不会被自动删除。"
+zhTW = "在每個循環的開始（循環第1天）進行特殊保存。此保存具有特殊名稱，並不會自動刪除。"
+ruRU = "Сделать специальное сохранение в начале каждого цикла (день цикла 1). Это сохранение имеет особое название и не удаляется автоматически."
+jaJP = "各サイクルの開始時（サイクル日1）に特別なセーブを作成します。このセーブには特別な名前が付けられ、自動削除されることはありません。"
+frFR = "Faites une sauvegarde spéciale au début de chaque cycle (jour de cycle 1). Cette sauvegarde a un nom spécial et n'est pas supprimée automatiquement."
+deDE = "Erstelle einen speziellen Speicherstand zu Beginn jedes Zyklus (Zyklustag 1). Dieser Speicherstand hat einen besonderen Namen und wird nicht automatisch gelöscht."
+plPL = "Zrób specjalny zapis na początku każdego cyklu (dzień cyklu 1). Ten zapis ma specjalną nazwę i nie jest automatycznie usuwany."
+ptBR = "Faça um salvamento especial no início de cada ciclo (dia de ciclo 1). Este salvamento tem um nome especial e não é excluído automaticamente."
+koKR = "각 사이클의 시작(사이클 1일)에 특별한 저장을 만듭니다. 이 저장은 특별한 이름이 있으며 자동으로 삭제되지 않습니다."
