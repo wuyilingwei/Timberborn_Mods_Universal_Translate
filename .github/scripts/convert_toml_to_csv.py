@@ -31,10 +31,11 @@ def convert_toml_to_csv(data_dir, mod_dir):
                 
                 # 收集所有语言代码
                 all_languages = set()
+                keep_text_areas = {"raw", "prompt"}
                 for key, translations in data.items():
                     if isinstance(translations, dict):
                         for lang_code in translations.keys():
-                            if lang_code != "raw":
+                            if lang_code not in keep_text_areas:
                                 all_languages.add(lang_code)
                 
                 # 为每种语言生成 CSV 文件
