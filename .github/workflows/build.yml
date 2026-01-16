@@ -297,6 +297,4 @@ jobs:
     needs: check-and-build
     if: needs.check-and-build.outputs.should_build == 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.release_type != 'prerelease' && github.event.inputs.publish == 'true'))
     uses: ./.github/workflows/publish.yml
-    with:
-      version: ${{ needs.check-and-build.outputs.new_version }}
     secrets: inherit
