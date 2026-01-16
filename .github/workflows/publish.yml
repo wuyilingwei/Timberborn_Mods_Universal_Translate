@@ -72,6 +72,34 @@ jobs:
           FILE_SIZE=$(wc -c < release.zip)
           echo "Release package ready: release.zip ($FILE_SIZE bytes)"
 
+      - name: Load changelog
+        id: changelog
+        run: |
+          # Read changelog from info/changelog.md
+          if [ -f "info/changelog.md" ]; then
+            echo "Found changelog file: info/changelog.md"
+            
+            # Read first 500 characters for change notes (platform limitations)
+            CHANGELOG_CONTENT=$(head -c 500 "info/changelog.md" | sed 's/["\]/\\&/g' | tr '\n' ' ')
+            
+            # Also create a short summary for platforms with character limits
+            VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
+            SHORT_CHANGELOG="Release $VERSION_NUMBER: $(grep -m 1 '📄\|✏️\|🗑️' info/changelog.md | head -1 | sed 's/^[[:space:]]*//' || echo 'Automated update with mod translations and data changes.')"
+            
+            echo "changelog_content=$CHANGELOG_CONTENT" >> $GITHUB_OUTPUT
+            echo "short_changelog=$SHORT_CHANGELOG" >> $GITHUB_OUTPUT
+            echo "has_changelog=true" >> $GITHUB_OUTPUT
+            
+            echo "Changelog loaded successfully"
+          else
+            echo "Warning: changelog.md not found, using default message"
+            VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
+            DEFAULT_MSG="Automated Update to $VERSION_NUMBER"
+            echo "changelog_content=$DEFAULT_MSG" >> $GITHUB_OUTPUT
+            echo "short_changelog=$DEFAULT_MSG" >> $GITHUB_OUTPUT
+            echo "has_changelog=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Publish to all platforms
         env:
           MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
@@ -126,7 +154,15 @@ jobs:
         id: steam_upload
         run: |
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
-          CHANGENOTE="Automated Update to ${VERSION_NUMBER}"
+          
+          # Use changelog content or fallback to default
+          if [ "${{ steps.changelog.outputs.has_changelog }}" = "true" ]; then
+            CHANGENOTE="${{ steps.changelog.outputs.short_changelog }}"
+            echo "Using changelog content for change note"
+          else
+            CHANGENOTE="Automated Update to ${VERSION_NUMBER}"
+            echo "Using default change note"
+          fi
           
           # Use GitHub raw URL for the package
           ZIP_URL="https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/raw/refs/heads/main/releases/newest.zip"
