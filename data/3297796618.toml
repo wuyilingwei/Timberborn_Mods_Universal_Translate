@@ -9,6 +9,7 @@ frFR = "Outils de terrain supplémentaires"
 deDE = "Zusätzliche Terrain-Tools"
 plPL = "Dodatkowe narzędzia terenowe"
 ptBR = "Ferramentas de Terreno Extras"
+koKR = "추가 지형 도구"
 
 ["TerrainTools.KeyBindingGroup.Label"]
 raw = "Terrain Tools"
@@ -21,6 +22,7 @@ frFR = "Outils de terrain"
 deDE = "Terrainanalyse-Tools"
 plPL = "Narzędzia terenowe"
 ptBR = "Ferramentas de Terreno"
+koKR = "지형 도구"
 
 ["TerrainTools.Keybinding.Undo"]
 raw = "Undo"
@@ -33,6 +35,7 @@ frFR = "Annuler"
 deDE = "Rückgängig machen"
 plPL = "Cofnij"
 ptBR = "Desfazer"
+koKR = "되돌리기"
 
 ["TerrainTools.Keybinding.FastUndo"]
 raw = "Undo x 5"
@@ -45,6 +48,7 @@ frFR = "Annuler x 5"
 deDE = "Rückgängig x 5"
 plPL = "Cofnij x 5"
 ptBR = "Desfazer x 5"
+koKR = "되돌리기 x 5"
 
 ["TerrainTools.Keybinding.Redo"]
 raw = "Redo"
@@ -57,6 +61,7 @@ frFR = "Refaites."
 deDE = "Überarbeiten"
 plPL = "Przerób to"
 ptBR = "Refazer"
+koKR = "다시 실행"
 
 ["TerrainTools.Keybinding.FastRedo"]
 raw = "Redo x 5"
@@ -69,6 +74,7 @@ frFR = "Refais x 5"
 deDE = "Wiederhole x 5"
 plPL = "Zrób to ponownie x 5"
 ptBR = "Refazer x 5"
+koKR = "다시 실행 x 5"
 
 ["TerrainTools.Keybinding.CycleMode"]
 raw = "Cycle Mode"
@@ -81,81 +87,202 @@ frFR = "Mode Vélo"
 deDE = "Zyklusmodus"
 plPL = "Tryb cyklu"
 ptBR = "Modo Ciclo"
+koKR = "주기 모드"
 
 ["TerrainTools.Keybinding.Selection.PosUp"]
 raw = "Move Selection Up"
 enUS = "Move Selection Up"
 zhCN = "升高选区"
+zhTW = "選擇向上移動"
+ruRU = "Переместить выделение вверх"
+jaJP = "選択を上に移動"
+frFR = "Déplacer la sélection vers le haut"
+deDE = "Auswahl nach oben verschieben"
+plPL = "Przesuń zaznaczenie w górę"
+ptBR = "Mover Seleção Para Cima"
+koKR = "선택 영역 위로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosDown"]
 raw = "Move Selection Down"
 enUS = "Move Selection Down"
 zhCN = "降低选区"
+zhTW = "向下移動選擇"
+ruRU = "Переместить выделение вниз"
+jaJP = "選択を下に移動"
+frFR = "Déplacer la sélection vers le bas"
+deDE = "Auswahl nach unten verschieben"
+plPL = "Przesuń zaznaczenie w dół"
+ptBR = "Mover Seleção para Baixo"
+koKR = "선택 아래로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosForward"]
 raw = "Move Selection Forward"
 enUS = "Move Selection Forward"
 zhCN = "向上移动选区"
+zhTW = "移動選擇向前"
+ruRU = "Переместить выделение вперед"
+jaJP = "選択を前に移動"
+frFR = "Déplacer la sélection vers l'avant"
+deDE = "Auswahl nach vorne bewegen"
+plPL = "Przesuń wybór do przodu"
+ptBR = "Mover Seleção para Frente"
+koKR = "선택을 앞으로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosBack"]
 raw = "Move Selection Back"
 enUS = "Move Selection Back"
 zhCN = "向下移动选区"
+zhTW = "移動選擇回去"
+ruRU = "Переместить выделение назад"
+jaJP = "選択を後ろに移動"
+frFR = "Déplacer la sélection en arrière"
+deDE = "Auswahl zurückbewegen"
+plPL = "Przesuń zaznaczenie w tył"
+ptBR = "Mover Seleção para Trás"
+koKR = "선택을 뒤로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosLeft"]
 raw = "Move Selection Left"
 enUS = "Move Selection Left"
 zhCN = "向左移动选区"
+zhTW = "向左移動選擇"
+ruRU = "Переместить выделение влево"
+jaJP = "選択を左に移動"
+frFR = "Déplacer la sélection à gauche"
+deDE = "Auswahl nach Links verschieben"
+plPL = "Przesuń wybór w lewo"
+ptBR = "Mover Seleção para a Esquerda"
+koKR = "선택 이동 왼쪽"
 
 ["TerrainTools.Keybinding.Selection.PosRight"]
 raw = "Move Selection Right"
 enUS = "Move Selection Right"
 zhCN = "向右移动选区"
+zhTW = "向右移動選擇"
+ruRU = "Переместить выделение вправо"
+jaJP = "選択を右に移動"
+frFR = "Déplacer la sélection à droite"
+deDE = "Auswahl nach Rechts verschieben"
+plPL = "Przesuń wybór w prawo"
+ptBR = "Mover Seleção para a Direita"
+koKR = "선택 이동 오른쪽"
 
 ["TerrainTools.Keybinding.Selection.HeightUp"]
 raw = "Raise Selection Height"
 enUS = "Raise Selection Height"
 zhCN = "增加选区高度"
+zhTW = "提高選擇高度"
+ruRU = "Поднять высоту выделения"
+jaJP = "選択高さを上げる"
+frFR = "Augmenter la hauteur de la sélection"
+deDE = "Auswahlhöhe erhöhen"
+plPL = "Podnieś wysokość zaznaczenia"
+ptBR = "Elevar Altura da Seleção"
+koKR = "선택 높이 올리기"
 
 ["TerrainTools.Keybinding.Selection.HeightDown"]
 raw = "Lower Selection Height"
 enUS = "Lower Selection Height"
 zhCN = "减少选区高度"
+zhTW = "降低選擇高度"
+ruRU = "Снижать высоту выделения"
+jaJP = "選択高さを下げる"
+frFR = "Abaisser la hauteur de sélection"
+deDE = "Auswahlhöhe senken"
+plPL = "Obniż wysokość zaznaczenia"
+ptBR = "Diminuir Altura da Seleção"
+koKR = "선택 높이 낮추기"
 
 ["TerrainTools.Keybinding.Selection.Copy"]
 raw = "Copy Selection"
 enUS = "Copy Selection"
 zhCN = "复制选区"
+zhTW = "複製選取範圍"
+ruRU = "Скопировать выбор"
+jaJP = "選択をコピー"
+frFR = "Copier la sélection"
+deDE = "Auswahl kopieren"
+plPL = "Skopiuj Zaznaczenie"
+ptBR = "Copiar Seleção"
+koKR = "선택 복사"
 
 ["TerrainTools.Keybinding.Selection.Cut"]
 raw = "Cut Selection"
 enUS = "Cut Selection"
 zhCN = "剪切选区"
+zhTW = "剪切選取"
+ruRU = "Выделение на срез"
+jaJP = "選択を切り取る"
+frFR = "Couper la sélection"
+deDE = "Auswahl schneiden"
+plPL = "Wytnij Zaznaczenie"
+ptBR = "Cortar Seleção"
+koKR = "선택 잘라내기"
 
 ["TerrainTools.Keybinding.Selection.Paste"]
 raw = "Paste Selection"
 enUS = "Paste Selection"
 zhCN = "粘贴选区"
+zhTW = "粘貼選取"
+ruRU = "Вставить выделение"
+jaJP = "選択を貼り付け"
+frFR = "Coller la sélection"
+deDE = "Auswahl einfügen"
+plPL = "Wklej Zaznaczenie"
+ptBR = "Colar Seleção"
+koKR = "선택 붙여넣기"
 
 ["TerrainTools.Keybinding.Selection.RotateCW"]
 raw = "Rotate Selection CW"
 enUS = "Rotate Selection CW"
 zhCN = "顺时针旋转选区"
+zhTW = "旋轉選擇順時針"
+ruRU = "Повернуть выделение по часовой стрелке"
+frFR = "Faire pivoter la sélection dans le sens des aiguilles d'une montre"
+deDE = "Auswahl im Uhrzeigersinn drehen"
+plPL = "Obróć wybór w prawo"
+ptBR = "Girar Seleção Horário"
+koKR = "선택 회전 시계 방향"
+jaJP = "選択を時計回りに回転"
 
 ["TerrainTools.Keybinding.Selection.RotateCCW"]
 raw = "Rotate Selection CCW"
 enUS = "Rotate Selection CCW"
 zhCN = "逆时针旋转选区"
+zhTW = "逆時針旋轉選擇"
+ruRU = "Повернуть выделение против часовой стрелки"
+jaJP = "選択を反時計回りに回転"
+frFR = "Faire pivoter la sélection dans le sens antihoraire"
+deDE = "Auswahl gegen den Uhrzeigersinn rotieren"
+plPL = "Obróć zaznaczenie w lewo"
+ptBR = "Girar Seleção Anticlic"
+koKR = "선택 회전 반시계 방향"
 
 ["TerrainTools.Keybinding.Selection.Flip"]
 raw = "Flip Selection"
 enUS = "Flip Selection"
 zhCN = "翻转选区"
+zhTW = "翻轉選擇"
+ruRU = "Перевернуть выделение"
+jaJP = "選択を反転"
+frFR = "Retourner la sélection"
+deDE = "Auswahl umkehren"
+plPL = "Obróć zaznaczenie"
+ptBR = "Virar Seleção"
+koKR = "선택 뒤집기"
 
 ["TerrainTools.Keybinding.Selection.Reset"]
 raw = "Reset Selection"
 enUS = "Reset Selection"
 zhCN = "重置选区"
+zhTW = "重置選擇"
+ruRU = "Сброс выбора"
+jaJP = "選択をリセット"
+frFR = "Réinitialiser la sélection"
+deDE = "Auswahl zurücksetzen"
+plPL = "Resetuj wybór"
+ptBR = "Redefinir Seleção"
+koKR = "선택 초기화"
 
 ["TerrainTools.Common.Button.Apply"]
 raw = "Apply"
@@ -168,6 +295,7 @@ frFR = "Appliquer"
 deDE = "Bewerben"
 plPL = "Zastosować"
 ptBR = "Aplicar"
+koKR = "적용"
 
 ["TerrainTools.Common.Button.Reset"]
 raw = "Reset"
@@ -180,6 +308,7 @@ frFR = "Réinitialiser"
 deDE = "Zurücksetzen"
 plPL = "Resetować"
 ptBR = "Redefinir"
+koKR = "재설정"
 
 ["TerrainTools.Heightmap.Tool.Title"]
 raw = "Heightmap Generator"
@@ -192,6 +321,7 @@ frFR = "Générateur de carte de hauteur"
 deDE = "Höhenkarten-Generator"
 plPL = "Generator map wysokości"
 ptBR = "Gerador de Mapas de Altura"
+koKR = "높이 맵 생성기"
 
 ["TerrainTools.Heightmap.Tool.Warning"]
 raw = "Changes affect the entire map"
@@ -204,6 +334,7 @@ frFR = "Les changements affectent l'ensemble de la carte."
 deDE = "Änderungen betreffen die gesamte Karte."
 plPL = "Zmiany wpływają na całą mapę"
 ptBR = "As mudanças afetam todo o mapa"
+koKR = "변경 사항은 전체 맵에 영향을 미칩니다"
 
 ["TerrainTools.Heightmap.Button.Generate"]
 raw = "Generate"
@@ -216,6 +347,7 @@ frFR = "Générer"
 deDE = "Generieren"
 plPL = "Wygeneruj"
 ptBR = "Gerar"
+koKR = "생성"
 
 ["TerrainTools.Heightmap.Checkbox.ClearObjects"]
 raw = "Clear existing objects"
@@ -228,6 +360,7 @@ frFR = "Effacer les objets existants"
 deDE = "Vorhandene Objekte löschen"
 plPL = "Wyczyść istniejące obiekty"
 ptBR = "Limpar objetos existentes"
+koKR = "기존 객체 지우기"
 
 ["TerrainTools.Heightmap.Generate.Hint"]
 raw = "Click {0} to update the terrain."
@@ -240,6 +373,7 @@ frFR = "Cliquez sur {0} pour mettre à jour le terrain."
 deDE = "Klicken Sie {0}, um das Terrain zu aktualisieren."
 plPL = "Kliknij {0}, aby zaktualizować teren."
 ptBR = "Clique {0} para atualizar o terreno."
+koKR = "지형을 업데이트하려면 {0}을(를) 클릭하세요."
 
 ["TerrainTools.Heightmap.Generate.Warning"]
 raw = "{0} will be removed. This action cannot be undone."
@@ -252,6 +386,7 @@ frFR = "{0} sera supprimé. Cette action ne peut pas être annulée."
 deDE = "{0} wird entfernt. Diese Aktion kann nicht rückgängig gemacht werden."
 plPL = "{0} zostanie usunięty. Ta operacja nie może zostać cofnięta."
 ptBR = "{0} será removido. Esta ação não pode ser desfeita."
+koKR = "{0}가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다."
 
 ["TerrainTools.Heightmap.Clear.WaterSourcesOnly"]
 raw = "All water sources"
@@ -264,6 +399,7 @@ frFR = "Toutes les sources d'eau"
 deDE = "Alle Wasserquellen"
 plPL = "Wszystkie źródła wody"
 ptBR = "Todas as fontes de água"
+koKR = "모든 수원"
 
 ["TerrainTools.Heightmap.Clear.All"]
 raw = "All objects"
@@ -276,6 +412,7 @@ frFR = "Tous les objets"
 deDE = "Alle Objekte"
 plPL = "Wszystkie obiekty"
 ptBR = "Todos os objetos"
+koKR = "모든 객체"
 
 ["TerrainTools.Heightmap.Status.Idle"]
 raw = "Idle"
@@ -288,6 +425,7 @@ frFR = "Inactif"
 deDE = "Leerlauf"
 plPL = "Bezczynny"
 ptBR = "Ocioso"
+koKR = "대기 중"
 
 ["TerrainTools.Heightmap.Status.Generating"]
 raw = "Generating"
@@ -300,6 +438,7 @@ frFR = "Génération"
 deDE = "Generierung"
 plPL = "Generowanie"
 ptBR = "Gerando"
+koKR = "생성 중"
 
 ["TerrainTools.Heightmap.Seed.Label"]
 raw = "Seed"
@@ -312,6 +451,7 @@ frFR = "Graine"
 deDE = "Samen"
 plPL = "Nasiona"
 ptBR = "Semente"
+koKR = "씨앗"
 
 ["TerrainTools.Heightmap.Seed.Lock.Label"]
 raw = "Lock"
@@ -324,6 +464,7 @@ frFR = "Verrouiller"
 deDE = "Schloss"
 plPL = "Zamek"
 ptBR = "Trancar"
+koKR = "잠금"
 
 ["TerrainTools.Heightmap.Slider.LOD"]
 raw = "Level of detail"
@@ -336,6 +477,7 @@ frFR = "Niveau de détail"
 deDE = "Detaillierungsgrad"
 plPL = "Poziom szczegółowości"
 ptBR = "Nível de detalhe"
+koKR = "세부 수준"
 
 ["TerrainTools.Heightmap.Slider.Amplitude"]
 raw = "Amplitude"
@@ -348,6 +490,7 @@ frFR = "Amplitude"
 deDE = "Amplitude"
 plPL = "Amplituda"
 ptBR = "Amplitude"
+koKR = "진폭"
 
 ["TerrainTools.Heightmap.Slider.Frequency"]
 raw = "Frequency"
@@ -360,6 +503,7 @@ frFR = "Fréquence"
 deDE = "Frequenz"
 plPL = "Częstotliwość"
 ptBR = "Frequência"
+koKR = "주파수"
 
 ["TerrainTools.Heightmap.Slider.Crest"]
 raw = "Crest shape"
@@ -372,6 +516,7 @@ frFR = "Forme de crête"
 deDE = "Wappenform"
 plPL = "Kształt herbu"
 ptBR = "Forma de brasão"
+koKR = "정점 형태"
 
 ["TerrainTools.Heightmap.Slider.Base"]
 raw = "Base shape"
@@ -384,6 +529,7 @@ frFR = "Forme de base"
 deDE = "Grundform"
 plPL = "Podstawowy kształt"
 ptBR = "Forma base"
+koKR = "기본 형태"
 
 ["TerrainTools.Heightmap.Slider.Mean"]
 raw = "Mean height"
@@ -396,6 +542,7 @@ frFR = "Hauteur moyenne"
 deDE = "Durchschnittliche Höhe"
 plPL = "Średni wzrost"
 ptBR = "Altura média"
+koKR = "평균 높이"
 
 ["TerrainTools.Heightmap.Slider.Min"]
 raw = "Min height"
@@ -408,6 +555,7 @@ frFR = "Hauteur minimale"
 deDE = "Mindesthöhe"
 plPL = "Minimalna wysokość"
 ptBR = "Altura mínima"
+koKR = "최소 높이"
 
 ["TerrainTools.Heightmap.Slider.Max"]
 raw = "Max height"
@@ -420,6 +568,7 @@ frFR = "Hauteur maximale"
 deDE = "Maximale Höhe"
 plPL = "Maksymalna wysokość"
 ptBR = "Altura máxima"
+koKR = "최대 높이"
 
 ["TerrainTools.Heightmap.Slider.PeriodX"]
 raw = "Period X"
@@ -432,6 +581,7 @@ frFR = "Période X"
 deDE = "Periode X"
 plPL = "Okres X"
 ptBR = "Período X"
+koKR = "주기 X"
 
 ["TerrainTools.Heightmap.Slider.PeriodY"]
 raw = "Period Y"
@@ -444,6 +594,7 @@ frFR = "Période Y"
 deDE = "Periode Y"
 plPL = "Okres Y"
 ptBR = "Período Y"
+koKR = "주기 Y"
 
 ["TerrainTools.PathPainter.Tool.Title"]
 raw = "Path Painter"
@@ -456,6 +607,7 @@ frFR = "Peintre de chemin"
 deDE = "Pfadmaler"
 plPL = "Malowanie Ścieżek"
 ptBR = "Pintor de Caminhos"
+koKR = "경로 그리기 도구"
 
 ["TerrainTools.PathPainter.Tool.Description"]
 raw = "Adjust terrain using lines"
@@ -468,6 +620,7 @@ frFR = "Ajuster le terrain en utilisant des lignes"
 deDE = "Terrain mit Linien anpassen"
 plPL = "Dostosuj teren przy użyciu linii"
 ptBR = "Ajustar o terreno usando linhas"
+koKR = "선을 사용하여 지형을 조정하세요"
 
 ["TerrainTools.PathPainter.Tip.AddMove"]
 raw = "{0} = Add or Move points"
@@ -480,6 +633,7 @@ frFR = "{0} = Ajouter ou déplacer des points"
 deDE = "{0} = Punkte hinzufügen oder verschieben"
 plPL = "{0} = Dodaj lub przenieś punkty"
 ptBR = "Adicionar ou Mover pontos"
+koKR = "{0} = 점 추가 또는 이동"
 
 ["TerrainTools.PathPainter.Tip.DeleteHovered"]
 raw = "{0} = Remove hovered point"
@@ -492,6 +646,7 @@ frFR = "{0} = Supprimer le point survolé"
 deDE = "{0} = Hovered Punkt entfernen"
 plPL = "{0} = Usuń najechany punkt"
 ptBR = "{0} = Remover ponto destacado"
+koKR = "{0} = 호버된 포인트 제거"
 
 ["TerrainTools.PathPainter.Tip.DeleteMultiple"]
 raw = "{0} (Hold) = Remove points"
@@ -504,6 +659,7 @@ frFR = "{0} (Maintenir) = Retirer des points"
 deDE = "{0} (Halten) = Punkte entfernen"
 plPL = "{0} (Przytrzymaj) = Usuń punkty"
 ptBR = "{0} (Segurar) = Remover pontos"
+koKR = "{0} (길게 누르기) = 포인트 삭제"
 
 ["TerrainTools.PathPainter.Curve.Button.Line"]
 raw = "Line"
@@ -516,6 +672,7 @@ frFR = "Ligne"
 deDE = "Linie"
 plPL = "Linia"
 ptBR = "Linha"
+koKR = "라인"
 
 ["TerrainTools.PathPainter.Curve.Button.3Points"]
 raw = "3 points"
@@ -528,6 +685,7 @@ frFR = "3 points"
 deDE = "3 Punkte"
 plPL = "3 punkty"
 ptBR = "3 pontos"
+koKR = "3 포인트"
 
 ["TerrainTools.PathPainter.Curve.Button.4Points"]
 raw = "4 points"
@@ -540,6 +698,7 @@ frFR = "4 points"
 deDE = "4 Punkte"
 plPL = "4 punkty"
 ptBR = "4 pontos"
+koKR = "4점"
 
 ["TerrainTools.PathPainter.Curve.Button.Continuous"]
 raw = "Continuous"
@@ -552,6 +711,7 @@ frFR = "Continu continu"
 deDE = "Fortlaufend"
 plPL = "Ciągły"
 ptBR = "Contínuo"
+koKR = "연속적"
 
 ["TerrainTools.PathPainter.Curve.Toggle.SingleSegment"]
 raw = "Single segment"
@@ -564,6 +724,7 @@ frFR = "Segment unique"
 deDE = "Einzelnes Segment"
 plPL = "Pojedynczy segment"
 ptBR = "Segmento único"
+koKR = "단일 세그먼트"
 
 ["TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps"]
 raw = "Smooth ends"
@@ -576,6 +737,7 @@ frFR = "Fins lisses"
 deDE = "Glatte Enden"
 plPL = "Gładkie końce"
 ptBR = "Fins suaves"
+koKR = "부드러운 끝"
 
 ["TerrainTools.PathPainter.Curve.Slider.Distance"]
 raw = "Distance"
@@ -588,6 +750,7 @@ frFR = "Distance"
 deDE = "Entfernung"
 plPL = "Odległość"
 ptBR = "Distância"
+koKR = "거리"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry"]
 raw = "Symmetry"
@@ -600,6 +763,7 @@ frFR = "Symétrie"
 deDE = "Symmetrie"
 plPL = "Symetria"
 ptBR = "Simetria"
+koKR = "대칭"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry.On"]
 raw = "Enabled"
@@ -612,6 +776,7 @@ frFR = "Activé"
 deDE = "Aktiviert"
 plPL = "Włączony"
 ptBR = "Ativado"
+koKR = "활성화됨"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry.Off"]
 raw = "Disabled"
@@ -624,6 +789,7 @@ frFR = "Désactivé"
 deDE = "Behindert"
 plPL = "Niepełnosprawny"
 ptBR = "Desativado"
+koKR = "비활성화"
 
 ["TerrainTools.PathPainter.Button.ClearAll"]
 raw = "Clear path"
@@ -636,6 +802,7 @@ frFR = "Chemin dégagé"
 deDE = "Freier Weg"
 plPL = "Czysta ścieżka"
 ptBR = "Caminho claro"
+koKR = "경로 지우기"
 
 ["TerrainTools.Smoothing.Tool.Title"]
 raw = "Smoothing Brush"
@@ -648,6 +815,7 @@ frFR = "Brosse à lisser"
 deDE = "Glättungsbürste"
 plPL = "Szczotka wygładzająca"
 ptBR = "Escova de Alisamento"
+koKR = "부드럽게 하는 붓"
 
 ["TerrainTools.Smoothing.Slider.Brush.Size"]
 raw = "Brush size"
@@ -660,6 +828,7 @@ frFR = "Taille du pinceau"
 deDE = "Pinselgröße"
 plPL = "Rozmiar pędzla"
 ptBR = "Tamanho do pincel"
+koKR = "붓 크기"
 
 ["TerrainTools.Smoothing.Slider.Sample.Size"]
 raw = "Sample size"
@@ -672,6 +841,7 @@ frFR = "Taille de l'échantillon"
 deDE = "Stichprobengröße"
 plPL = "Wielkość próbki"
 ptBR = "Tamanho da amostra"
+koKR = "샘플 크기"
 
 ["TerrainTools.Smoothing.Slider.Force"]
 raw = "Force"
@@ -684,6 +854,7 @@ frFR = "Force"
 deDE = "Kraft"
 plPL = "Siła"
 ptBR = "Força"
+koKR = "힘"
 
 ["TerrainTools.Smoothing.ToggleGroup.Shape"]
 raw = "Brush Shape"
@@ -696,6 +867,7 @@ frFR = "Forme de pinceau"
 deDE = "Pinsel Form"
 plPL = "Kształt pędzla"
 ptBR = "Forma do Pincel"
+koKR = "브러시 모양"
 
 ["TerrainTools.Smoothing.Shape.Square"]
 raw = "Square"
@@ -708,6 +880,7 @@ frFR = "Carré"
 deDE = "Quadrat"
 plPL = "Kwadrat"
 ptBR = "Quadrado"
+koKR = "정사각형"
 
 ["TerrainTools.Smoothing.Shape.Circle"]
 raw = "Circle"
@@ -720,6 +893,7 @@ frFR = "Cercle"
 deDE = "Kreis"
 plPL = "Koło"
 ptBR = "Círculo"
+koKR = "원형"
 
 ["TerrainTools.MoundMaker.Tool.Title"]
 raw = "Mound Maker"
@@ -732,6 +906,7 @@ frFR = "Créateur de tumulus"
 deDE = "Hügelbauer"
 plPL = "Twórca kopców"
 ptBR = "Construtor de Montículos"
+koKR = "언덕 제작기"
 
 ["TerrainTools.MoundMaker.Hint.CycleSeed"]
 raw = "{0} = Cycle seed"
@@ -744,6 +919,7 @@ frFR = "{0} = Semence de cycle"
 deDE = "{0} = Zyklus-Samen"
 plPL = "{0} = Ziarno cyklu"
 ptBR = "{0} = Semente de ciclo"
+koKR = "{0} = 사이클 시드"
 
 ["TerrainTools.MoundMaker.Hint.DigMode"]
 raw = "{0} (Hold) = Dig Mode"
@@ -756,6 +932,7 @@ frFR = "{0} (Maintenir) = Mode de creusage"
 deDE = "{0} (Halten) = Dig-Modus"
 plPL = "{0} (Trzymaj) = Tryb Dig"
 ptBR = "{0} (Segurar) = Modo de Digitação"
+koKR = "{0} (길게 누르기) = 굴착 모드"
 
 ["TerrainTools.MoundMaker.Header.Shape"]
 raw = "Shape"
@@ -768,6 +945,7 @@ frFR = "Forme"
 deDE = "Form"
 plPL = "Kształt"
 ptBR = "Forma"
+koKR = "형태"
 
 ["TerrainTools.MoundMaker.Slider.PeakHeight"]
 raw = "Peak height"
@@ -780,6 +958,7 @@ frFR = "Hauteur de sommet"
 deDE = "Gipfelhöhe"
 plPL = "Wysokość szczytu"
 ptBR = "Altura do pico"
+koKR = "정점 높이"
 
 ["TerrainTools.MoundMaker.Slider.MaxChange"]
 raw = "Max change"
@@ -792,6 +971,7 @@ frFR = "Max changer"
 deDE = "Max ändern"
 plPL = "Maksymalna zmiana"
 ptBR = "Mudança máxima"
+koKR = "최대 변화"
 
 ["TerrainTools.MoundMaker.Header.RadialNoise"]
 raw = "Radial Noise"
@@ -804,6 +984,7 @@ frFR = "Bruit radial"
 deDE = "Radialrauschen"
 plPL = "Hałas promienisty"
 ptBR = "Ruído Radial"
+koKR = "방사형 소음"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Scale"]
 raw = "Scale"
@@ -816,6 +997,7 @@ frFR = "Échelle"
 deDE = "Skala"
 plPL = "Skala"
 ptBR = "Escala"
+koKR = "크기"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Frequency"]
 raw = "Frequency"
@@ -828,6 +1010,7 @@ frFR = "Fréquence"
 deDE = "Frequenz"
 plPL = "Częstotliwość"
 ptBR = "Frequência"
+koKR = "주파수"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Detail"]
 raw = "Detail"
@@ -840,6 +1023,7 @@ frFR = "Détail"
 deDE = "Details"
 plPL = "Szczegół"
 ptBR = "Detalhe"
+koKR = "상세"
 
 ["TerrainTools.MoundMaker.Header.VerticalNoise"]
 raw = "Vertical Noise"
@@ -852,6 +1036,7 @@ frFR = "Bruit vertical"
 deDE = "Vertikales Rauschen"
 plPL = "Hałas pionowy"
 ptBR = "Ruído Vertical"
+koKR = "수직 소음"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Amplitude"]
 raw = "Amplitude"
@@ -864,6 +1049,7 @@ frFR = "Amplitude"
 deDE = "Amplitude"
 plPL = "Amplituda"
 ptBR = "Amplitude"
+koKR = "진폭"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Frequency"]
 raw = "Frequency"
@@ -876,6 +1062,7 @@ frFR = "Fréquence"
 deDE = "Frequenz"
 plPL = "Częstotliwość"
 ptBR = "Frequência"
+koKR = "주파수"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Detail"]
 raw = "Detail"
@@ -888,6 +1075,7 @@ frFR = "Détail"
 deDE = "Detail"
 plPL = "Szczegół"
 ptBR = "Detalhe"
+koKR = "세부 사항"
 
 ["TerrainTools.MoundMaker.Checkbox.Randomize"]
 raw = "Randomize"
@@ -900,6 +1088,7 @@ frFR = "Aléatoire"
 deDE = "Zufällig machen"
 plPL = "Zrandomizować"
 ptBR = "Aleatorizar"
+koKR = "무작위화"
 
 ["TerrainTools.MoundMaker.Seed.Label"]
 raw = "Seed"
@@ -912,138 +1101,355 @@ frFR = "Graine"
 deDE = "Samen"
 plPL = "Nasiona"
 ptBR = "Semente"
+koKR = "씨앗"
 
 ["TerrainTools.CloneTool.Title"]
 raw = "Selection Editor"
 enUS = "Selection Editor"
 zhCN = "选区编辑工具"
+zhTW = "選擇編輯器"
+ruRU = "Редактор выделения"
+jaJP = "選択エディタ"
+frFR = "Éditeur de Sélection"
+deDE = "Auswahl-Editor"
+plPL = "Edytor Zaznaczenia"
+ptBR = "Editor de Seleção"
+koKR = "선택 편집기"
 
 ["TerrainTools.CloneTool.Description"]
 raw = "Copy, Cut, Rotate, Flip and Paste"
 enUS = "Copy, Cut, Rotate, Flip and Paste"
 zhCN = "复制、剪切、旋转、翻转与粘贴。"
+zhTW = "複製、剪切、旋轉、翻轉和粘貼"
+ruRU = "Копировать, Вырезать, Повернуть, Отразить и Вставить"
+jaJP = "コピー、カット、回転、反転、貼り付け"
+frFR = "Copier, Couper, Faire pivoter, Retourner et Coller"
+deDE = " Kopieren, Ausschneiden, Drehen, Wenden und Einfügen"
+plPL = "Kopiuj, Wytnij, Obróć, Odwróć i Wklej"
+ptBR = "Copiar, Cortar, Girar, Virar e Colar"
+koKR = "복사, 자르기, 회전, 뒤집기 및 붙여넣기"
 
 ["TerrainTools.CloneTool.InputGroup.Select"]
 raw = "Select area"
 enUS = "Select area"
 zhCN = "选择区域"
+zhTW = "選擇區域"
+ruRU = "Выбрать территорию"
+jaJP = "エリアを選択"
+frFR = " sélectionner la zone "
+deDE = "Bereich auswählen"
+plPL = "Wybierz obszar"
+ptBR = "Selecionar área"
+koKR = "지역 선택"
 
 ["TerrainTools.CloneTool.InputGroup.Cancel"]
 raw = "Cancel"
 enUS = "Cancel"
 zhCN = "取消"
+zhTW = "取消"
+ruRU = "Отменить"
+jaJP = "キャンセル"
+frFR = "Annuler"
+deDE = "Abbrechen"
+plPL = "Anuluj"
+ptBR = "Cancelar"
+koKR = "취소"
 
 ["TerrainTools.CloneTool.InputGroup.HeightSelect"]
 raw = "Select height"
 enUS = "Select height"
 zhCN = "选择高度"
+zhTW = "選擇高度"
+ruRU = "Выбрать высоту"
+jaJP = "高さを選択"
+frFR = "Choisir la hauteur"
+deDE = " Höhe auswählen"
+plPL = "Wybierz wysokość"
+ptBR = "Selecionar altura"
+koKR = "높이 선택"
 
 ["TerrainTools.CloneTool.InputGroup.Confirm"]
 raw = "Confirm"
 enUS = "Confirm"
 zhCN = "确认"
+zhTW = "確認"
+ruRU = "Подтвердить"
+jaJP = "確認"
+frFR = "Confirmer"
+deDE = "Bestätigen"
+plPL = "Potwierdź"
+ptBR = "Confirmar"
+koKR = "확인"
 
 ["TerrainTools.CloneTool.InputGroup.MoveSelection"]
 raw = "Move"
 enUS = "Move"
 zhCN = "移动"
+zhTW = "移動"
+ruRU = "Переместить"
+jaJP = "移動"
+frFR = "Déplacer"
+deDE = "Bewege"
+plPL = "Przenieś"
+ptBR = "Mover"
+koKR = "이동"
 
 ["TerrainTools.CloneTool.InputGroup.Cut"]
 raw = "Cut"
 enUS = "Cut"
 zhCN = "剪切"
+zhTW = "切割"
+ruRU = "Вырезать"
+jaJP = "カット"
+frFR = "Couper"
+deDE = "Schneiden"
+plPL = "Niechaj"
+ptBR = "Desbastar"
+koKR = "컷"
 
 ["TerrainTools.CloneTool.InputGroup.Copy"]
 raw = "Copy"
 enUS = "Copy"
 zhCN = "复制"
+zhTW = "複製"
+ruRU = "Копировать"
+jaJP = "コピー"
+frFR = "Copier"
+deDE = "Kopieren"
+plPL = "Kopiuj"
+ptBR = "Cópia"
+koKR = "복사"
 
 ["TerrainTools.CloneTool.InputGroup.Paste"]
 raw = "Paste"
 enUS = "Paste"
 zhCN = "粘贴"
+zhTW = "粘貼"
+ruRU = "Вставить"
+jaJP = "貼り付け"
+frFR = "Coller"
+deDE = "Einfügen"
+plPL = "Wklej"
+ptBR = "Colar"
+koKR = "붙여넣기"
 
 ["TerrainTools.CloneTool.InputGroup.Rotate"]
 raw = "Rotate"
 enUS = "Rotate"
 zhCN = "旋转"
+zhTW = "旋轉"
+ruRU = "Поворот"
+jaJP = "回転"
+frFR = "Faire pivoter"
+deDE = "Rotieren"
+plPL = "Obróć"
+ptBR = "Rotacionar"
+koKR = "회전"
 
 ["TerrainTools.CloneTool.InputGroup.Flip"]
 raw = "Flip"
 enUS = "Flip"
 zhCN = "翻转"
+zhTW = "翻轉"
+ruRU = "Перевернуть"
+jaJP = "反転"
+frFR = "Retourner"
+deDE = "Umdrehen"
+plPL = "Odwróć"
+ptBR = "Virar"
+koKR = "뒤집기"
 
 ["TerrainTools.CloneTool.InputGroup.PositionTrim"]
 raw = "Trim position"
 enUS = "Trim position"
 zhCN = "修改位置"
+zhTW = "修剪位置"
+ruRU = "Обрезка позиции"
+jaJP = "位置調整"
+frFR = "« Rognage de position »"
+deDE = "Position zuschneiden"
+plPL = "Przytnij pozycję"
+ptBR = "Recortar posição"
+koKR = "위치 다듬기"
 
 ["TerrainTools.CloneTool.InputGroup.HeightTrim"]
 raw = "Trim height"
 enUS = "Trim height"
 zhCN = "修改高度"
+zhTW = "修剪高度"
+ruRU = "Обрезка высоты"
+jaJP = "高さトリム"
+frFR = "Rogner la hauteur"
+deDE = "Höhenanpassung"
+plPL = "Przycinanie wysokości"
+ptBR = "Altura de corte"
+koKR = "높이 다듬기"
 
 ["TerrainTools.CloneTool.InputGroup.Reset"]
 raw = "Reset"
 enUS = "Reset"
 zhCN = "重置"
+zhTW = "重置"
+ruRU = "Сброс"
+jaJP = "リセット"
+frFR = "Réinitialiser"
+deDE = "Zurücksetzen"
+plPL = "Resetuj"
+ptBR = "Redefinir"
+koKR = "리셋"
 
 ["TerrainTools.CloneTool.InputDesciption.LeftClick"]
 raw = "Left click"
 enUS = "Left click"
 zhCN = "点击左键"
+zhTW = "左鍵点击"
+ruRU = "Левый клик"
+jaJP = "左クリック"
+frFR = "Clic gauche"
+deDE = "Linksklick"
+plPL = "Lewe kliknięcie"
+ptBR = "Clique esquerdo"
+koKR = "왼쪽 클릭"
 
 ["TerrainTools.CloneTool.InputDesciption.RightClick"]
 raw = "Right click"
 enUS = "Right click"
 zhCN = "点击右键"
+zhTW = "右鍵單擊"
+ruRU = "Правая кнопка мыши"
+jaJP = "右クリック"
+frFR = "Clique droit"
+deDE = "Rechtsklick"
+plPL = "Kliknij prawym przyciskiem myszy"
+ptBR = "Clique com o botão direito"
+koKR = "오른쪽 클릭"
 
 ["TerrainTools.CloneTool.InputDesciption.ClickAndDrag"]
 raw = "Click and drag"
 enUS = "Click and drag"
 zhCN = "点击并拖动"
+zhTW = "「單擊並拖動」"
+ruRU = "Нажмите и удерживайте"
+jaJP = "クリックしてドラッグ"
+frFR = "Cliquez et faites glisser"
+deDE = "Klicken und ziehen"
+plPL = "Kliknij i przeciągnij"
+ptBR = "Clique e arraste"
+koKR = "클릭하고 드래그"
 
 ["TerrainTools.CloneTool.InputDesciption.MouseScroll"]
 raw = "Mouse scroll"
 enUS = "Mouse scroll"
 zhCN = "鼠标滚轮"
+zhTW = "滑鼠滾輪"
+ruRU = "Прокрутка мыши"
+jaJP = "マウススクロール"
+frFR = "Défilement de la souris"
+deDE = "Maus scrolle"
+plPL = "Przewijanie myszą"
+ptBR = "Rolagem do mouse"
+koKR = "마우스 스크롤"
 
 ["TerrainTools.CloneTool.InputDesciption.Hold"]
 raw = "Hold"
 enUS = "Hold"
 zhCN = "按住"
+zhTW = "按住"
+ruRU = "Удерживать"
+jaJP = "ホールド"
+frFR = "Maintenir"
+deDE = "Halten"
+plPL = "Trzymaj"
+ptBR = "Segurar"
+koKR = "길게 누르기"
 
 ["TerrainTools.CloneTool.ToolTip.Start"]
 raw = "Select base"
 enUS = "Select base"
 zhCN = "选区基底"
+zhTW = "選擇基底"
+ruRU = "Выбрать основу"
+jaJP = "「ベースを選択」"
+frFR = "Sélectionner la base"
+deDE = "Basis auswählen"
+plPL = "Wybierz podstawę"
+ptBR = "Selecionar base"
+koKR = "기본 선택"
 
 ["TerrainTools.CloneTool.ToolTip.Base"]
 raw = "Select base"
 enUS = "Select base"
 zhCN = "选区基底"
+zhTW = "選擇基礎"
+ruRU = "Выбрать базу"
+jaJP = "基盤を選択"
+frFR = " sélectionner la base"
+deDE = "Basis auswählen"
+plPL = "Wybierz bazę"
+ptBR = "Selecionar base"
+koKR = "기본 선택"
 
 ["TerrainTools.CloneTool.ToolTip.Height"]
 raw = "Select height"
 enUS = "Select height"
 zhCN = "选区高度"
+zhTW = "選擇高度"
+ruRU = "Выбрать высоту"
+jaJP = "高さを選択"
+frFR = "Sélectionner la hauteur"
+deDE = "Wählen Sie die Höhe"
+plPL = "Wybierz wysokość"
+ptBR = "Selecionar altura"
+koKR = "높이 선택"
 
 ["TerrainTools.CloneTool.ToolTip.MoveApply"]
 raw = "Selection complete"
 enUS = "Selection complete"
 zhCN = "选区编辑"
+zhTW = "「選擇完成」"
+ruRU = "Выбор завершен"
+jaJP = "選択完了"
+frFR = "Sélection terminée"
+deDE = "Auswahl abgeschlossen"
+plPL = "Wybór zakończony"
+ptBR = "Seleção concluída"
+koKR = "선택 완료"
 
 ["TerrainTools.CloneTool.Error.NoText"]
 raw = "Error - No text"
 enUS = "Error - No text"
 zhCN = "错误-无文本"
+zhTW = "錯誤 - 無文本"
+ruRU = "Ошибка - Нет текста"
+jaJP = "エラー - テキストがありません"
+frFR = "Erreur - Pas de texte"
+deDE = "Fehler - Kein Text"
+plPL = "Błąd - Brak tekstu"
+ptBR = "Erro - Sem texto"
+koKR = "오류 - 텍스트 없음"
 
 ["TerrainTools.CloneTool.Option.IncludeAirBlocks"]
 raw = "Copy empty blocks"
 enUS = "Copy empty blocks"
 zhCN = "复制空方块"
+zhTW = "複製空白方塊"
+ruRU = "Копировать пустые блоки"
+jaJP = "空のブロックをコピー"
+frFR = "Copier les blocs vides"
+deDE = "Leere Blöcke kopieren"
+plPL = "Kopiuj puste bloki"
+ptBR = "Copiar blocos vazios"
+koKR = "빈 블록 복사"
 
 ["TerrainTools.CloneTool.Option.IncludeStackedBlocks"]
 raw = "Copy stacked objects"
 enUS = "Copy stacked objects"
 zhCN = "复制堆叠物体"
+zhTW = "複製堆疊物件"
+ruRU = "Копировать сложенные объекты"
+jaJP = "積み重ねられたオブジェクトをコピー"
+frFR = "Copier les objets empilés"
+deDE = "Gestapelte Objekte kopieren"
+plPL = "Skopiuj nałożone obiekty"
+ptBR = "Copiar objetos empilhados"
+koKR = "쌓인 물체 복사"

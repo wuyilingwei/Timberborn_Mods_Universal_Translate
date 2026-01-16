@@ -228,19 +228,87 @@ jobs:
 
           # Prepare release notes file (simpler and YAML-safe)
           RELEASE_NOTES_FILE="release_notes.md"
-          echo "Automated Update to $NEW_VERSION" > "$RELEASE_NOTES_FILE"
+          
+          # Get last build commit for comparison
+          if [ -f "info/version.txt" ]; then
+            # Get the commit where version.txt was last modified (before current changes)
+            LAST_BUILD_COMMIT=$(git log --skip=1 -1 --format=%H -- info/version.txt 2>/dev/null || echo "")
+            echo "Last build commit: $LAST_BUILD_COMMIT"
+          else
+            LAST_BUILD_COMMIT=""
+            echo "No version.txt found, this is the first build"
+          fi
+          
+          # Create changelog header
+          echo "# Release $NEW_VERSION" > "$RELEASE_NOTES_FILE"
           echo >> "$RELEASE_NOTES_FILE"
+          echo "Automated update with new mod translations and data changes." >> "$RELEASE_NOTES_FILE"
+          echo >> "$RELEASE_NOTES_FILE"
+          
+          # Generate changelog
+          echo "## 📝 Changelog" >> "$RELEASE_NOTES_FILE"
+          echo >> "$RELEASE_NOTES_FILE"
+          
+          if [ -n "$LAST_BUILD_COMMIT" ]; then
+            # Get changes since last build
+            ADDED_FILES=$(git diff --name-status "$LAST_BUILD_COMMIT" HEAD -- data/ | grep "^A" | wc -l)
+            MODIFIED_FILES=$(git diff --name-status "$LAST_BUILD_COMMIT" HEAD -- data/ | grep "^M" | wc -l)
+            DELETED_FILES=$(git diff --name-status "$LAST_BUILD_COMMIT" HEAD -- data/ | grep "^D" | wc -l)
+            
+            echo "### 📊 Data Changes" >> "$RELEASE_NOTES_FILE"
+            echo "- 📄 **$ADDED_FILES** new mod entries added" >> "$RELEASE_NOTES_FILE"
+            echo "- ✏️ **$MODIFIED_FILES** mod entries updated" >> "$RELEASE_NOTES_FILE"
+            if [ "$DELETED_FILES" -gt 0 ]; then
+              echo "- 🗑️ **$DELETED_FILES** mod entries removed" >> "$RELEASE_NOTES_FILE"
+            fi
+            echo >> "$RELEASE_NOTES_FILE"
+            
+            # Get previous version tag for comparison
+            PREV_TAG=$(git tag --list --sort=-version:refname "v*" | grep -v "v${NEW_VERSION}" | head -1 2>/dev/null || echo "")
+            echo "Previous tag: $PREV_TAG"
+            if [ -n "$PREV_TAG" ]; then
+              echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG}...v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
+            else
+              echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
+            fi
+            echo >> "$RELEASE_NOTES_FILE"
+            
+            # Show total mod count
+            TOTAL_MODS=$(find data/ -name "*.toml" -type f | wc -l)
+            echo "### 📈 Statistics" >> "$RELEASE_NOTES_FILE"
+            echo "- 🎯 **$TOTAL_MODS** total mods in database" >> "$RELEASE_NOTES_FILE"
+            echo "- 📅 Built on $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
+          else
+            echo "### 🎉 Initial Release" >> "$RELEASE_NOTES_FILE"
+            TOTAL_MODS=$(find data/ -name "*.toml" -type f | wc -l)
+            echo "- 🎯 **$TOTAL_MODS** mods included in initial release" >> "$RELEASE_NOTES_FILE"
+            echo "- 📅 Built on $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
+            
+            # Even for initial release, try to show full changelog
+            echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
+          fi
 
           # Append build log if available
           if [ -n "${PYTHON_LOG_FILE:-}" ] && [ -f "$PYTHON_LOG_FILE" ]; then
-            echo "<details>" >> "$RELEASE_NOTES_FILE"
-            echo "<summary>Build Log</summary>" >> "$RELEASE_NOTES_FILE"
+            echo "## 🔧 Build Details" >> "$RELEASE_NOTES_FILE"
             echo >> "$RELEASE_NOTES_FILE"
-            echo '```' >> "$RELEASE_NOTES_FILE"
+            echo "<details>" >> "$RELEASE_NOTES_FILE"
+            echo "<summary>📋 View Build Log</summary>" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
+            echo '```log' >> "$RELEASE_NOTES_FILE"
             cat "$PYTHON_LOG_FILE" >> "$RELEASE_NOTES_FILE"
             echo '```' >> "$RELEASE_NOTES_FILE"
             echo "</details>" >> "$RELEASE_NOTES_FILE"
+            echo >> "$RELEASE_NOTES_FILE"
           fi
+          
+          # Save changelog to info/changelog.md for other platforms
+          cp "$RELEASE_NOTES_FILE" "info/changelog.md"
+          
+          echo "Changelog saved to: info/changelog.md"
 
           # Create GitHub release
           if [ "$IS_PRERELEASE" = "true" ]; then
@@ -265,7 +333,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add info/version.txt info/manifest.json releases/
+          git add info/version.txt info/manifest.json info/changelog.md releases/
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
@@ -297,6 +365,4 @@ jobs:
     needs: check-and-build
     if: needs.check-and-build.outputs.should_build == 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.release_type != 'prerelease' && github.event.inputs.publish == 'true'))
     uses: ./.github/workflows/publish.yml
-    with:
-      version: ${{ needs.check-and-build.outputs.new_version }}
     secrets: inherit

@@ -9,6 +9,7 @@ frFR = "{0} a commencé"
 deDE = "{0} gestartet"
 plPL = "{0} rozpoczął"
 ptBR = "{0} começou"
+koKR = "{0}가 시작되었습니다"
 
 ["LV.MW.WeatherEnd"]
 raw = "{0} ended"
@@ -21,6 +22,7 @@ frFR = "{0} terminé"
 deDE = "{0} beendet"
 plPL = "{0} zakończone"
 ptBR = "{0} finalizado"
+koKR = "{0} 종료됨"
 
 ["LV.MW.WeatherApproaching"]
 raw = "{0} approaching"
@@ -33,6 +35,7 @@ frFR = "{0} approche"
 deDE = "{0} nähert sich"
 plPL = "{0} zbliża się"
 ptBR = "{0} se aproximando"
+koKR = "{0} 접근 중"
 
 ["LV.MW.WeatherInProgress"]
 raw = "{0} in progress"
@@ -45,6 +48,7 @@ frFR = "{0} en cours"
 deDE = "{0} in Bearbeitung"
 plPL = "{0} w trakcie"
 ptBR = "{0} em andamento"
+koKR = "{0} 진행 중"
 
 ["LV.MW.EnableWeather"]
 raw = "Enable {0} Weather"
@@ -57,6 +61,7 @@ frFR = "Activer la météo {0}"
 deDE = "Aktiviere {0} Wetter"
 plPL = "Włącz {0} pogodę"
 ptBR = "Ativar o tempo {0}"
+koKR = "{0} 날씨 활성화"
 
 ["LV.MW.EnableWeatherDesc"]
 raw = "Enable {0} weather"
@@ -69,6 +74,7 @@ frFR = "Activer la météo {0}"
 deDE = "Aktivieren Sie {0} Wetter"
 plPL = "Włącz pogodę {0}"
 ptBR = "Ativar o clima {0}"
+koKR = "{0} 날씨 활성화"
 
 ["LV.MW.StartCycle"]
 raw = "{0} start cycle"
@@ -81,6 +87,7 @@ frFR = "{0} démarrer le cycle"
 deDE = "{0} startzyklus"
 plPL = "{0} rozpocznij cykl"
 ptBR = "{0} iniciar ciclo"
+koKR = "{0} 주기 시작"
 
 ["LV.MW.StartCycleDesc"]
 raw = "The minimum cycle that {0} can occur"
@@ -93,6 +100,7 @@ frFR = "Le cycle minimum que {0} peut effectuer"
 deDE = "Der minimum Zyklus, der {0} auftreten kann"
 plPL = "Minimalny cykl, w którym może wystąpić {0}"
 ptBR = "O ciclo mínimo que {0} pode ocorrer"
+koKR = "{0}이(가) 발생할 수 있는 최소 사이클"
 
 ["LV.MW.Chance"]
 raw = "{0} chance"
@@ -105,6 +113,7 @@ frFR = "{0} chance"
 deDE = "{0} Chance"
 plPL = "{0} szansy"
 ptBR = "{0} chance"
+koKR = "{0} 확률"
 
 ["LV.MW.ChanceDesc"]
 raw = "The chance of {0} occurring"
@@ -117,6 +126,7 @@ frFR = "La chance que {0} se produise"
 deDE = "Die Wahrscheinlichkeit, dass {0} eintritt"
 plPL = "Szansa na wystąpienie {0}"
 ptBR = "A chance de {0} ocorrer"
+koKR = "{0}가 발생할 확률"
 
 ["LV.MW.MinDay"]
 raw = "{0} minimum day"
@@ -129,6 +139,7 @@ frFR = "{0} jour minimum"
 deDE = "{0} Mindesttag"
 plPL = "{0} minimalny dzień"
 ptBR = "{0} dia mínimo"
+koKR = "{0} 최소 일"
 
 ["LV.MW.MinDayDesc"]
 raw = "The minimum day that {0} can occur"
@@ -141,6 +152,7 @@ frFR = "Le jour minimum où {0} peut se produire"
 deDE = "Der früheste Tag, an dem {0} auftreten kann"
 plPL = "Minimalny dzień, w którym może wystąpić {0}"
 ptBR = "O dia mínimo em que {0} pode ocorrer"
+koKR = "{0}가 발생할 수 있는 최소 일"
 
 ["LV.MW.MaxDay"]
 raw = "{0} maximum day"
@@ -153,6 +165,7 @@ frFR = "{0} maximum de jour"
 deDE = "{0} maximaler Tag"
 plPL = "{0} maksymalny dzień"
 ptBR = "{0} dia máximo"
+koKR = "{0} 최대 일"
 
 ["LV.MW.MaxDayDesc"]
 raw = "The maximum day that {0} can occur"
@@ -165,6 +178,7 @@ frFR = "Le jour maximum où {0} peut se produire"
 deDE = "Der späteste Tag, an dem {0} auftreten kann"
 plPL = "Maksymalny dzień, w którym może wystąpić {0}"
 ptBR = "O dia máximo que {0} pode ocorrer"
+koKR = "{0}이(가) 발생할 수 있는 최대 날"
 
 ["LV.MW.HandicapPerc"]
 raw = "{0} Handicap Percentage"
@@ -177,6 +191,7 @@ frFR = "Pourcentage de handicap {0}"
 deDE = "{0} Handicap-Prozentsatz"
 plPL = "{0} Procent niepełnosprawności"
 ptBR = "{0} Percentual de Handicap"
+koKR = "{0} 핸디캡 백분율"
 
 ["LV.MW.HandicapPercDesc"]
 raw = "The first time this weather occurs, its duration is multiplied by this percentage."
@@ -189,6 +204,7 @@ frFR = "La première fois que ce temps se produit, sa durée est multipliée par
 deDE = "Beim ersten Auftreten dieses Wetters wird seine Dauer mit diesem Prozentsatz multipliziert."
 plPL = "Po raz pierwszy, gdy ten rodzaj pogody występuje, jego czas trwania jest mnożony przez ten odsetek."
 ptBR = "A primeira vez que este clima ocorre, sua duração é multiplicada por essa porcentagem."
+koKR = "이 날씨가 처음 발생할 때, 지속 시간이 이 비율로 곱해집니다."
 
 ["LV.MW.HandicapCycles"]
 raw = "{0} Handicap Cycles"
@@ -201,6 +217,7 @@ frFR = "{0} Cycles pour personnes handicapées"
 deDE = "{0} Handicap-Fahrräder"
 plPL = "Rowery ręczne {0}"
 ptBR = "Ciclos de Deficiência {0}"
+koKR = "{0} 장애인 사이클"
 
 ["LV.MW.HandicapCyclesDesc"]
 raw = "Number of cycles until the weather reaches full (100%) duration."
@@ -213,6 +230,7 @@ frFR = "Nombre de cycles jusqu'à ce que le temps atteigne la durée complète (
 deDE = "Anzahl der Zyklen, bis das Wetter eine volle (100%) Dauer erreicht."
 plPL = "Liczba cykli, aż pogoda osiągnie pełną (100%) trwałość."
 ptBR = "Número de ciclos até que o clima atinja a duração total (100%)."
+koKR = "날씨가 완전 (100%) 지속 시간에 도달할 때까지의 사이클 수."
 
 ["LV.MW.Rain"]
 raw = "Rain"
@@ -225,6 +243,7 @@ frFR = "Pluie"
 deDE = "Regen"
 plPL = "Deszcz"
 ptBR = "Chuva"
+koKR = "비"
 
 ["LV.MW.Monsoon"]
 raw = "Monsoon"
@@ -237,6 +256,7 @@ frFR = "Mousson"
 deDE = "Monsun"
 plPL = "Monsun"
 ptBR = "Monção"
+koKR = "몬순"
 
 ["LV.MW.ShortTemperate"]
 raw = "Disappointingly Short Temperate"
@@ -249,6 +269,7 @@ frFR = "Décevant tempérament court"
 deDE = "Enttäuschend kurze Temperatur"
 plPL = "Rozczarowująco Krótki Temperament"
 ptBR = "Desapontadoramente Curto Temperado"
+koKR = "실망스럽게 짧은 온대"
 
 ["LV.MW.ProgressiveTemperate"]
 raw = "Progressively Shortening Temperate"
@@ -261,6 +282,7 @@ frFR = "Raccourcissement progressif de la température"
 deDE = "Fortschreitend verkürzendes Temperament"
 plPL = "Stopniowo skracający się klimat umiarkowany"
 ptBR = "Temperatura Progressivamente Encurtada"
+koKR = "점진적으로 짧아지는 온대"
 
 ["LV.MW.SurprisinglyRefreshing"]
 raw = "Surprisingly Refreshing"
@@ -273,6 +295,7 @@ frFR = "Surprenante rafraîchissante"
 deDE = "Überraschend erfrischend"
 plPL = "Zaskakująco orzeźwiający"
 ptBR = "Surpreendentemente Refrescante"
+koKR = "놀라울 정도로 상쾌함"
 
 ["LV.MW.RainEffect"]
 raw = "Enable Rain Effect"
@@ -285,6 +308,7 @@ frFR = "Activer l'effet de pluie"
 deDE = "Regeneffekt aktivieren"
 plPL = "Włącz efekt deszczu"
 ptBR = "Ativar Efeito de Chuva"
+koKR = "비 효과 활성화"
 
 ["LV.MW.RainEffectDesc"]
 raw = "Enable the rain effect on the map."
@@ -297,6 +321,7 @@ frFR = "Activez l'effet de pluie sur la carte."
 deDE = "Aktivieren Sie den Regeneffekt auf der Karte."
 plPL = "Włącz efekt deszczu na mapie."
 ptBR = "Ative o efeito de chuva no mapa."
+koKR = "맵에서 비 효과를 활성화 합니다."
 
 ["LV.MW.MonsoonMultiplier"]
 raw = "Monsoon maximum multiplier"
@@ -309,6 +334,7 @@ frFR = "Multiplicateur maximum de la mousson"
 deDE = "Monsun-Maximummultiplikator"
 plPL = "Maksymalny mnożnik monsunowy"
 ptBR = "multiplicador máximo da monção"
+koKR = "몽순 최대 배수"
 
 ["LV.MW.MonsoonMultiplierDesc"]
 raw = "The maximum additional multiplier for the monsoon weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
@@ -321,6 +347,7 @@ frFR = "Le multiplicateur additionnel maximum pour la météo de la mousson au m
 deDE = "Der maximale zusätzliche Multiplikator für das Monsunwetter beträgt maximal (kein Handicap). Dieser Wert wird durch Handicap wie Dauer beeinflusst. Standardwert: 2,5 (250 %), was bedeutet, dass bei Nichtanwendung von Handicap (Standardzyklus 5) die Stärke aller Wasserquellen bei 350 % liegt."
 plPL = "Maksymalny dodatkowy mnożnik dla warunków monsunowych przy maksimum (bez handicapu). Ta wartość jest wpływana przez handicap, taki jak Czas trwania. Wartość domyślna: 2,5 (250%), co oznacza, że przy braku zastosowanego handicapu (domyślny cykl 5) siła wszystkich źródeł wody wynosi 350%."
 ptBR = "O multiplicador adicional máximo para o clima de monção no máximo (sem penalização). Este valor é afetado por penalizações como Duração. Valor padrão: 2,5 (250%), o que significa que, quando nenhuma penalização é aplicada (ciclo padrão 5), a força de todas as fontes de água está em 350%."
+koKR = "최대 추가 곱셈 비율은 장애물 없이 최대 몬순 날씨에 대한 것입니다. 이 값은 지속 시간과 같은 장애물의 영향을 받습니다. 기본값: 2.5 (250%)는 장애물이 적용되지 않을 때 (기본 사이클 5) 모든 수원 강도가 350%임을 의미합니다."
 
 ["LV.MW.Profiles"]
 raw = "Profiles"
@@ -333,6 +360,7 @@ frFR = "Profils"
 deDE = "Profilee"
 plPL = "Profilety"
 ptBR = "Perfis"
+koKR = "프로필"
 
 ["LV.MW.ProfilesDesc"]
 raw = "Export and import settings for supported Moddable Weathers"
@@ -345,6 +373,7 @@ frFR = "Exporter et importer des paramètres pour les conditions météorologiqu
 deDE = "Export- und Import-Einstellungen für unterstützte Moddable Weathers"
 plPL = "Eksportuj i importuj ustawienia dla obsługiwanych Moddable Weathers"
 ptBR = "Exportar e importar configurações para Climas Moddáveis suportados"
+koKR = "지원되는 모드 가능한 날씨에 대한 설정 내보내기 및 가져오기"
 
 ["LV.MW.ProfileImport"]
 raw = "Import"
@@ -357,6 +386,7 @@ frFR = "Importer"
 deDE = "Importieren"
 plPL = "Importuj"
 ptBR = "Importar"
+koKR = "가져오기"
 
 ["LV.MW.ProfileExport"]
 raw = "Export"
@@ -369,6 +399,7 @@ frFR = "Exporter"
 deDE = "Exportieren"
 plPL = "Eksportować"
 ptBR = "Exportar"
+koKR = "내보내기"
 
 ["LV.MW.ProfileError"]
 raw = "There was an error: {0}"
@@ -381,6 +412,7 @@ frFR = "Il y a eu une erreur : {0}"
 deDE = "Es gab einen Fehler: {0}"
 plPL = "Wystąpił błąd: {0}"
 ptBR = "Ocorreu um erro: {0}"
+koKR = "오류가 발생했습니다: {0}"
 
 ["LV.MW.SingleWeatherMode"]
 raw = "Single Weather mode"
@@ -393,6 +425,7 @@ frFR = "Mode Météo Unique"
 deDE = "Einzelne Wetteranzeige"
 plPL = "Jednolity tryb pogodowy"
 ptBR = "Modo de Clima Único"
+koKR = "단일 날씨 모드"
 
 ["LV.MW.SWEnable"]
 raw = "Enable Single Weather mode"
@@ -405,6 +438,7 @@ frFR = "Activez le mode Météo unique"
 deDE = "Aktivieren Sie den Einzelwettermodus."
 plPL = "Włącz tryb pojedynczej pogody"
 ptBR = "Ativar modo de clima único"
+koKR = "단일 날씨 모드 활성화"
 
 ["LV.MW.SWEnableDesc"]
 raw = "Each cycle may have a chance to only have one kind of weather"
@@ -417,6 +451,7 @@ frFR = "Chaque cycle peut avoir une chance d'avoir un seul type de temps."
 deDE = "Jeder Zyklus könnte die Möglichkeit haben, nur eine Art von Wetter zu haben."
 plPL = "Każdy cykl może mieć szansę na wystąpienie tylko jednego rodzaju pogody."
 ptBR = "Cada ciclo pode ter a chance de ter apenas um tipo de clima."
+koKR = "각 주기는 한 종류의 날씨만 발생할 확률이 있습니다."
 
 ["LV.MW.SWStartCycle"]
 raw = "Single Weather start cycle"
@@ -429,6 +464,7 @@ frFR = "Cycle de démarrage de la météo seule"
 deDE = "Einzelner Wetterstartzyklus"
 plPL = "Pojedynczy cykl pogodowy"
 ptBR = "Ciclo de início do clima único"
+koKR = "단일 날씨 시작 주기"
 
 ["LV.MW.SWStartCycleDesc"]
 raw = "The minimum cycle that single weather can occur"
@@ -441,6 +477,7 @@ frFR = "Le cycle minimum que peut avoir un temps unique."
 deDE = "Der minimale Zyklus, in dem einzelnes Wetter auftreten kann."
 plPL = "Minimalny cykl, w którym może wystąpić pojedyncza pogoda"
 ptBR = "O ciclo mínimo em que um único clima pode ocorrer"
+koKR = "단일 날씨가 발생할 수 있는 최소 주기"
 
 ["LV.MW.SWChance"]
 raw = "Single Weather chance"
@@ -453,6 +490,7 @@ frFR = "Chance de temps unique"
 deDE = "Einzelne Wetterchance"
 plPL = "Pojedyncza szansa na pogodę"
 ptBR = "Chance de tempo único"
+koKR = "단일 날씨 확률"
 
 ["LV.MW.SWChanceDesc"]
 raw = "The chance of single weather occurring"
@@ -465,6 +503,7 @@ frFR = "La probabilité d'un événement météorologique unique se produisant"
 deDE = "Die Wahrscheinlichkeit, dass einzelnes Wetter auftritt."
 plPL = "Szansa na wystąpienie pojedynczej pogody"
 ptBR = "A chance de ocorrência de um único clima"
+koKR = "단일 날씨가 발생할 확률"
 
 ["LV.MW.SWTemperateChance"]
 raw = "Single Weather Temperate chance"
@@ -477,6 +516,7 @@ frFR = "Chance de temps tempéré unique"
 deDE = "Einzelnes Wetter gemäßigte Chance"
 plPL = "Pojedyncza szansa na pogodę umiarkowaną"
 ptBR = "Chance de clima temperado único"
+koKR = "단일 기후 온대 확률"
 
 ["LV.MW.SWTemperateChanceDesc"]
 raw = "The chance of single weather being temperate when single weather occurs"
@@ -489,43 +529,108 @@ frFR = "La probabilité qu'une météo unique soit tempérée lorsqu'une météo
 deDE = "Die Wahrscheinlichkeit, dass das Wetter bei einem einzelnen Wetterereignis gemäßigt ist, wenn ein einzelnes Wetterereignis auftritt."
 plPL = "Szansa, że pojedyncza pogoda będzie umiarkowana, gdy wystąpi pojedyncza pogoda."
 ptBR = "A chance de o clima ser temperado quando o clima é único."
+koKR = "단일 날씨가 발생할 때 온화한 날씨가 될 확률"
 
 ["LV.MW.TemperateDesc"]
 raw = "The game default temperate weather, no effect."
 enUS = "The game default temperate weather, no effect."
 zhCN = "游戏默认的温和类天气，风和日丽，绿意盎然。<br>- 无特殊影响。"
+zhTW = "遊戲默認的溫帶天氣，無任何效果。"
+ruRU = "Стандартная умеренная погода в игре, без эффекта."
+jaJP = "ゲームのデフォルトの温帯天候、影響なし。"
+frFR = "La météo tempérée par défaut du jeu, sans effet."
+deDE = "Standard-temperiertes Wetter im Spiel, keine Auswirkungen."
+plPL = "Domyślnie umiarkowana pogoda w grze, brak efektu."
+ptBR = "O clima temperado padrão do jogo, sem efeito."
+koKR = "게임 기본 온대 날씨, 영향 없음."
 
 ["LV.MW.DroughtDesc"]
 raw = "The game default hazardous drought weather, water sources stop producing water."
 enUS = "The game default hazardous drought weather, water sources stop producing water."
 zhCN = "游戏默认的恶劣类天气，干旱与酷热让河水断流，土地龟裂。<br>- 所有水源停止出水。"
+zhTW = "遊戲預設的危險乾旱天氣，水源停止產水。"
+ruRU = "По умолчанию опасная засуха в игре, источники воды перестают производить воду."
+jaJP = "ゲームのデフォルトの危険な干ばつ天候、水源が水の生産を停止します。"
+frFR = "La sécheresse dangereuse par défaut du jeu, les sources d'eau cessent de produire de l'eau."
+deDE = "Der standardmäßige gefährliche Dürre-Wetterzustand des Spiels, Wasserquellen hören auf, Wasser zu produzieren."
+plPL = "Domyślnie niebezpieczna susza w grze, źródła wody przestają produkować wodę."
+ptBR = "A trovoada de seca perigosa padrão do jogo, as fontes de água param de produzir água."
+koKR = "게임 기본 위험한 가뭄 날씨, 물 공급원에서 물 생산이 중단됩니다."
 
 ["LV.MW.BadtideDesc"]
 raw = "The game default hazardous bad tide weather, all water sources produce badwater."
 enUS = "The game default hazardous bad tide weather, all water sources produce badwater."
 zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的水源亦被污染。<br>- 所有水源都会流出恶水。"
+zhTW = "遊戲預設的危險壞潮天氣，所有水源產生壞水。"
+ruRU = "Ключ названия: LV.MW.BadtideDesc - Новый текст для перевода: \"Игровая дефолтная опасная погода с плохим приливом, все водные источники производят загрязненную воду.\""
+jaJP = "ゲームのデフォルトの危険な悪潮天候、すべての水源は悪水を生成します。"
+frFR = "Le jeu a une tempête de marée dangereuse par défaut, toutes les sources d'eau produisent de l'eau contaminée."
+deDE = "Der standardmäßige gefährliche schlechte Gezeitenwetter im Spiel, alle Wasserquellen produzieren Schlechtes Wasser."
+plPL = "Domyślny niebezpieczny efekt złej pływającej pogody w grze, wszystkie źródła wody produkują złą wodę."
+ptBR = "O clima perigoso de maré negativa padrão do jogo, todas as fontes de água produzem água ruim."
+koKR = "게임 기본 위험한 나쁜 조수 날씨, 모든 수원에서 나쁜 물이 생성됩니다."
 
 ["LV.MW.RainDesc"]
 raw = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
 enUS = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
 zhCN = "模组扩展的温和类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉，而且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。"
+zhTW = "溫帶天氣：\n- 所有格子都會被灑水，且不會發生土地污染。\n- 當海狸不在建築物內時，會給予濕毛皮效果。\n- 比通常的溫帶季節短 25%（默認設置）。"
+ruRU = "Умеренный климат:\n- Все участки поливаются, и загрязнение земли не происходит.\n- Применяется Влажный Мех, когда Бобры не находятся в зданиях.\n- На 25% короче, чем обычный умеренный сезон (настройки по умолчанию)."
+jaJP = "温帯気候：\n- 全てのタイルが水やりされ、土地の汚染は発生しません。\n- ビーバーが建物にいないとき、湿った毛皮が適用されます。\n- 通常の温帯季節より25%短くなります（デフォルト設定）。"
+frFR = "Météo tempérée :\n- Tous les carrés sont arrosés et aucune contamination des terres ne se produit.\n- Applique la fourrure humide lorsque les castors ne sont pas dans les bâtiments.\n- 25 % plus court que la raison tempérée habituelle (paramètres par défaut)"
+deDE = "Gemäßes Wetter:\n- Alle Fliesen sind bewässert und es tritt keine Bodenverschmutzung auf.\n- Wendet Nasses Fell an, wenn Biber sich nicht in den Gebäuden befinden.\n- 25% kürzer als die übliche gemäßigte Saison (Standardeinstellungen)"
+plPL = "Temperate weather:\n- Wszystkie kafelki są nawadniane, a zanieczyszczenie gruntów nie występuje.\n- Zastosowanie Mokrego Futra, gdy Bobry nie znajdują się w budynkach.\n- O 25% krótszy niż zwykły umiarkowany sezon (ustawienia domyślne)"
+ptBR = "Clima temperado:\n- Todos os tiles são regados e não ocorre contaminação do solo.\n- Aplica Pelo Úmido quando os Castores não estão nos edifícios.\n- 25% mais curto do que o motivo temperado usual (configurações padrão)"
+koKR = "온대 날씨:\n- 모든 타일에 물이 공급되고 토양 오염이 발생하지 않습니다.\n- 비버가 건물에 없으면 젖은 모피 효과가 적용됩니다.\n- 일반적인 온대 사유보다 25% 짧습니다 (기본 설정)."
 
 ["LV.MW.MonsoonDesc"]
 raw = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
 enUS = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
 zhCN = "模组扩展的恶劣类天气，洪水自河流上游奔涌而来，四处泛滥。<br>- 所有水源的水力都会额外增加250%（模组默认，可更改），但不超过游戏限制。"
+zhTW = "危險天氣：\n- 所有水源的產出提高至350%（或可配置）的最大值。\n- 這一減益也適用於額外的產出。"
+ruRU = "Опасная погода:\n- Все источники воды увеличивают свою продуктивность до 350% (или настраиваемого) максимума.\n- Ухудшение условий также применяется к дополнительному выходу."
+jaJP = "危険な天候：\n- すべての水源は出力を350%（または設定可能）最大で増加します。\n- ハンデは追加出力にも適用されます。"
+frFR = "Conditions météorologiques dangereuses :\n- Toutes les sources d'eau augmentent leur production, à 350% (ou configurable) maximum.\n- Le handicap s'applique également à la production supplémentaire."
+deDE = "Gefährliches Wetter:\n- Alle Wasserquellen steigern ihre Produktion auf 350% (oder konfigurierbar) Maximum.\n- Die Einschränkung gilt auch für die zusätzliche Produktion."
+plPL = "Niebezpieczna pogoda:\n- Wszystkie źródła wody zwiększają swoją produkcję do 350% (lub konfigurowanej) maksymalnie.\n- Utrudnienia dotyczą również dodatkowej produkcji."
+ptBR = "Tempo perigoso:\n- Todas as fontes de água aumentam sua produção em 350% (ou configurável) no máximo.\n- A penalização se aplica à produção extra também."
+koKR = "위험한 날씨:\n- 모든 수원에서 최대 350% (또는 설정 가능)로 산출량이 증가합니다.\n- 추가 산출량에도 불리한 조건이 적용됩니다."
 
 ["LV.MW.ShortTemperateDesc"]
 raw = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
 enUS = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
 zhCN = "模组扩展的温和类天气，晴天转瞬即逝，预兆着连续的天灾。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
+zhTW = "溫帶天氣：一個非常短的溫帶季節，因此你需要連續面對兩個危險的季節。"
+ruRU = "Умеренный климат: очень короткий умеренный сезон, поэтому вам придется справляться с двумя опасными сезонами подряд."
+jaJP = "温暖な気候：非常に短い温暖季があるため、連続して2つの危険な季節に対処する必要があります。"
+frFR = "Temps tempéré : une saison tempérée très courte, vous devrez donc faire face à deux saisons dangereuses consécutives."
+deDE = "Gemäßigte Wetter: Eine sehr kurze gemäßigte Saison, sodass Sie mit zwei gefährlichen Jahreszeiten hintereinander umgehen müssen."
+plPL = "Pogoda umiarkowana: bardzo krótki sezon umiarkowany, więc będziesz musiał stawić czoła dwóm niebezpiecznym sezonowi z rzędu."
+ptBR = "Clima temperado: uma temporada temperada muito curta, então você precisará lidar com duas temporadas perigosas seguidas."
+koKR = "온대 날씨: 매우 짧은 온대 계절이므로 두 개의 위험한 계절을 연속으로 경험해야 합니다."
 
 ["LV.MW.ProgressiveTemperateDesc"]
 raw = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
 enUS = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
 zhCN = "模组扩展的温和类天气，平静的日子逐渐缩短，留下气候变化的痕迹。<br>- 持续时间随周期变短（不建议与温和天气同时启用）。"
+zhTW = "溫帶天氣一開始與遊戲的正常天氣相似，但逐漸變得越來越短。"
+ruRU = "Умеренная погода, которая начинается как обычная в игре, но становится всё короче и короче."
+jaJP = "穏やかな天候はゲームの通常のものから始まりますが、次第に短くなっていきます。"
+frFR = "Météo tempérée qui commence comme celle du jeu normal mais qui devient de plus en plus courte."
+deDE = "Gemäßigtes Wetter, das wie das normale Wetter des Spiels beginnt, aber immer kürzer wird."
+plPL = "Umiarkowana pogoda, która zaczyna się jak normalna w grze, ale staje się coraz krótsza."
+ptBR = "Clima temperado que começa como o normal do jogo, mas vai ficando cada vez mais curto."
+koKR = "게임의 일반적인 날씨처럼 시작되지만 점점 짧아지는 온대 날씨."
 
 ["LV.MW.SurprisinglyRefreshingDesc"]
 raw = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
 enUS = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
 zhCN = "模组扩展的“恶劣类”天气，清水从恶水源流出，但只是一个恶劣的玩笑。<br>- 所有水源都会流出净水。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
+zhTW = "「‘危險’天氣：沒有不良影響。所有水源產生淡水。非常短。」"
+ruRU = "«Опасная» погода: Никакого плохого эффекта. Все источники воды производят пресную воду. Очень коротко."
+jaJP = "「『危険な』天候：悪影響なし。すべての水源が新鮮な水を生産します。非常に短い。」"
+frFR = "Clé : LV.MW.SurprisinglyRefreshingDesc - Texte traduit : \"'Météo 'incroyablement rafraîchissante' : Pas d'effet négatif. Toutes les sources d'eau produisent de l'eau potable. Très court.\""
+deDE = "'Gefährliches' Wetter: Keine negativen Effekte. Alle Wasserquellen produzieren frisches Wasser. Sehr kurz."
+plPL = "'Niebezpieczna' pogoda: Brak złych skutków. Wszystkie źródła wody produkują świeżą wodę. Bardzo krótko."
+ptBR = "'Tempo 'Perigoso': Nenhum efeito negativo. Todas as fontes de água produzem água potável. Muito curto."
+koKR = "'위험한' 날씨: 나쁜 영향 없음. 모든 수원에서 깨끗한 물이 생성됩니다. 매우 짧습니다."

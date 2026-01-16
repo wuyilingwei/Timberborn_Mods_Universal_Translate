@@ -9,6 +9,7 @@ frFR = "Puissance"
 deDE = "Macht"
 plPL = "Moc"
 ptBR = "Poder"
+koKR = "전력"
 
 ["LV.BPSP.PowersGroupDesc"]
 raw = "Projects that improve your power generation"
@@ -21,6 +22,7 @@ frFR = "Projets qui améliorent votre production d'énergie"
 deDE = "Projekte, die Ihre Stromerzeugung verbessern"
 plPL = "Projekty, które poprawiają generację energii"
 ptBR = "Projetos que melhoram a sua geração de energia"
+koKR = "전력 생성 능력을 향상시키는 프로젝트"
 
 ["LV.BPSP.WaterWheelUp1"]
 raw = "Gentle Mist Flow"
@@ -33,6 +35,7 @@ frFR = "Flux de brume douce"
 deDE = "Sanfter Nebelfluss"
 plPL = "Delikatny strumień mgły"
 ptBR = "Fluxo de Névoa Suave"
+koKR = "부드러운 안개 흐름"
 
 ["LV.BPSP.WaterWheelUpEff"]
 raw = "Water Wheel power output increases from {0:+#%} to {1:+#%} over the course of the day."
@@ -45,6 +48,7 @@ frFR = "La production d'énergie de la roue à eau augmente de {0:+#%} à {1:+#%
 deDE = "Die Leistung des Wasserrades steigt im Laufe des Tages von {0:+#%} auf {1:+#%}."
 plPL = "Moc wyjściowa koła wodnego wzrasta z {0:+#%} do {1:+#%} w ciągu dnia."
 ptBR = "A produção de energia da roda d'água aumenta de {0:+#%} para {1:+#%} ao longo do dia."
+koKR = "물 바퀴의 전력 출력이 하루 동안 {0:+#%}에서 {1:+#%}로 증가합니다."
 
 ["LV.BPSP.WaterWheelUp1Lore"]
 raw = "A light mist lifts our wheels just enough to hum through the day."
@@ -57,6 +61,7 @@ frFR = "Une légère brume soulève nos roues juste assez pour faire vibrer la j
 deDE = "Ein leichter Nebel hebt unsere Räder gerade genug an, um den Tag hindurch zu summen."
 plPL = "Lekka mgła unosi nasze koła wystarczająco, aby szumieć przez cały dzień."
 ptBR = "Uma leve névoa levanta nossas rodas apenas o suficiente para zumbir ao longo do dia."
+koKR = "가벼운 안개가 우리의 수차를 살짝 들어올려 하루 종일 윙윙거리게 합니다."
 
 ["LV.BPSP.WaterWheelUp2"]
 raw = "Steady Mist Surge"
@@ -69,6 +74,7 @@ frFR = "Vague de brume constante"
 deDE = "Stetiger Nebelstoß"
 plPL = "Stały Wzrost Mgiełki"
 ptBR = "Surto de Névoa Constante"
+koKR = "안정적인 안개 급류"
 
 ["LV.BPSP.WaterWheelUp2Lore"]
 raw = "'Look at that mist kick in—wheels practically sing by dusk!' — Misttail Spinner"
@@ -81,6 +87,7 @@ frFR = "«Regarde cette brume entrer — les roues chantent pratiquement au cré
 deDE = "„Schau dir an, wie der Nebel einsetzt – die Räder singen praktisch im Dämmerlicht!“ — Misttail Spinner"
 plPL = "„Zobacz, jak mgła się zaciąga – koła praktycznie śpiewają o zmierzchu!” — Misttail Spinner"
 ptBR = "\"Olhe aquela neblina entrando—as rodas praticamente cantam ao anoitecer!\" — Misttail Spinner"
+koKR = "'안개가 드리워지는 걸 봐—바퀴들이 거의 저녁에 노래하네!' — 미스트테일 스피너"
 
 ["LV.BPSP.WaterWheelUp3"]
 raw = "Concentrated Mist Dynamo"
@@ -93,6 +100,7 @@ frFR = "Dynamo à brouillard concentré"
 deDE = "Konzentrierter Nebel-Dynamo"
 plPL = "Konsolidowana dynamo mgły"
 ptBR = "Dínamo de Névoa Concentrada"
+koKR = "집중된 안개 다이나모"
 
 ["LV.BPSP.WaterWheelUp3Eff"]
 raw = "Water Wheel power is permanently increased by {0:+#%} all day."
@@ -105,6 +113,7 @@ frFR = "La puissance de la roue à eau est augmentée de manière permanente de 
 deDE = "Die Leistung des Wasserrads wird den ganzen Tag über dauerhaft um {0:+#%} erhöht."
 plPL = "Moc Koła Wodnego jest trwale zwiększona o {0:+#%} przez cały dzień."
 ptBR = "O poder da roda d'água é permanentemente aumentado em {0:+#%} durante todo o dia."
+koKR = "물 바퀴의 힘은 하루 종일 {0:+#%}만큼 영구적으로 증가합니다."
 
 ["LV.BPSP.WaterWheelUp3Lore"]
 raw = "We've distilled the mist into a constant force, driving wheels at peak power always."
@@ -117,11 +126,20 @@ frFR = "Nous avons distillé la brume en une force constante, faisant tourner le
 deDE = "Wir haben den Nebel in eine konstante Kraft destilliert, die die Räder immer mit voller Leistung antreibt."
 plPL = "Skondensowaliśmy mgłę w stałą siłę, napędzając koła zawsze z maksymalną mocą."
 ptBR = "Destilamos a névoa em uma força constante, acionando as rodas com potência máxima o tempo todo."
+koKR = "우리는 안개를 고정된 힘으로 정제하여 항상 최대 출력으로 바퀴를 구동합니다."
 
 ["LV.BPSP.WaterWheelUpBuffDesc"]
 raw = "{0:+#%} power output./nMist technology gives a boost to our Water Wheels."
 enUS = "{0:+#%} power output./nMist technology gives a boost to our water wheels."
 zhCN = "|  输出功率: {0:+#%}<br>先进的雾化技术使聚居地的水轮更加高效。"
+zhTW = "{0:+#%} 的功率輸出。/n霧技術為我們的水車提供增益。"
+ruRU = "{0:+#%} выход мощности./nТехнология тумана дает усиление нашим водяным колесам."
+jaJP = "{0:+#%} の出力。/n霧の技術が我々の水車にブーストを与えます。"
+frFR = "{0:+#%} de production d'énergie./nLa technologie Mist donne un coup de pouce à nos roues hydrauliques."
+deDE = "{0:+#%} Energieausstoß./nMist-Technologie gibt unseren Wasserrädern einen Schub."
+plPL = "{0:+#%} wydajności mocy./nTechnologia mgły zwiększa moc naszych Kołowrotków wodnych."
+ptBR = "{0:+#%} de produção de energia./nA tecnologia de névoa dá um impulso às nossas Rodas d'Água."
+koKR = "{0:+#%} 전력 출력./n안개 기술이 우리의 수차에 힘을 더해줍니다."
 
 ["LV.BPSP.WaterWheelFlowUp1"]
 raw = "Thermal Flow Stabilizer"
@@ -134,6 +152,7 @@ frFR = "Stabilisateur de flux thermique"
 deDE = "Thermischer Flussstabilisator"
 plPL = "Stabilizator przepływu termicznego"
 ptBR = "Estabilizador de Fluxo Térmico"
+koKR = "열 흐름 안정기"
 
 ["LV.BPSP.WaterWheelFlowUp1Eff"]
 raw = "Water Wheel power never drops below {0:+#%} as long as there is water, even with no current. It does nothing if your current power is already higher."
@@ -146,6 +165,7 @@ frFR = "La puissance de la roue à eau ne descend jamais en dessous de {0:+#%} t
 deDE = "Die Kraft des Wasserrades fällt niemals unter {0:+#%}, solange Wasser vorhanden ist, selbst ohne Strömung. Es hat keine Wirkung, wenn Ihre aktuelle Leistung bereits höher ist."
 plPL = "Moc koła wodnego nigdy nie spada poniżej {0:+#%}, o ile jest woda, nawet bez prądu. Nie działa, jeśli twoja obecna moc jest już wyższa."
 ptBR = "A potência da roda d'água nunca cai abaixo de {0:+#%} enquanto houver água, mesmo sem corrente. Não faz nada se a sua potência atual já for maior."
+koKR = "수조가 있는 한, 물레방아의 힘은 {0:+#%} 이하로 떨어지지 않으며, 물의 흐름이 없더라도 마찬가지입니다. 현재 힘이 이미 더 높으면 아무것도 하지 않습니다."
 
 ["LV.BPSP.WaterWheelFlowUp1Lore"]
 raw = "Hot springs bubble beneath, nudging wheels to defy the river’s lazy moods."
@@ -158,6 +178,7 @@ frFR = "Les sources chaudes bouillonnent en dessous, poussant les roues à défi
 deDE = "Heißwasserquellen blubbern darunter und drücken die Räder dazu, sich den faulen Launen des Flusses zu widersetzen."
 plPL = "Gorące źródła bulgoczą poniżej, nęcąc koła do sprzeciwienia się leniwym nastrojom rzeki."
 ptBR = "As águas termais borbulham abaixo, empurrando as rodas a desafiar os humores preguiçosos do rio."
+koKR = "온천이 아래에서 부글부글 끓어올라 수차가 강의 게으른 기분에 맞서게 합니다."
 
 ["LV.BPSP.WaterWheelFlowUp2"]
 raw = "Steam-Charged Boost"
@@ -170,6 +191,7 @@ frFR = "Amélioration à vapeur"
 deDE = "Dampfunterstützter Boost"
 plPL = "Zwiększenie na parę"
 ptBR = "Impulso Carregado a Vapor"
+koKR = "증기 충전 부스트"
 
 ["LV.BPSP.WaterWheelFlowUp2Eff"]
 raw = "Thermal Flow Stabilizer gives an additional {0:+#%} minimum per Level."
@@ -182,6 +204,7 @@ frFR = "Le stabilisateur de flux thermique offre un minimum supplémentaire de {
 deDE = "Thermischer Flussstabilisator bietet ein zusätzliches {0:+#%} Minimum pro Stufe."
 plPL = "Stabilizator przepływu termicznego zapewnia dodatkowe {0:+#%} minimum na poziom."
 ptBR = "O Estabilizador de Fluxo Térmico oferece um adicional de {0:+#%} mínimo por Nível."
+koKR = "열 유동 안정 장치는 레벨당 추가 {0:+#%} 최소치를 제공합니다."
 
 ["LV.BPSP.WaterWheelFlowUp2Cost"]
 raw = "[Cost] per Level per Water Wheel"
@@ -194,6 +217,7 @@ frFR = "[Coût] par niveau par roue à eau"
 deDE = "[Kosten] pro Stufe pro Wasserrad"
 plPL = "[Koszt] na poziom za koło wodne"
 ptBR = "[Custo] por Nível por Roda d'Água"
+koKR = "[수위당 수차당 비용]"
 
 ["LV.BPSP.WaterWheelFlowUp2Lore"]
 raw = "'More heat, more steam—wheels won't dip below a solid push!' — Boilertail Steamwright"
@@ -206,11 +230,20 @@ frFR = "'Plus de chaleur, plus de vapeur—les roues ne plongeront pas sans une 
 deDE = "'Mehr Wärme, mehr Dampf – die Räder werden ohne einen kräftigen Schub nicht sinken!' — Boilertail Steamwright"
 plPL = "„Więcej ciepła, więcej pary — koła nie zsuną się poniżej solidnego pchnięcia!” — Boilertail Steamwright"
 ptBR = "'Mais calor, mais vapor—as rodas não vão descer abaixo de um empurrão sólido!' — Boilertail Steamwright"
+koKR = "'더 많은 열, 더 많은 증기—바퀴는 확고한 추진력 아래로 내려가지 않을 것이다!' — 보일러테일 증기공"
 
 ["LV.BPSP.WaterWheelFlowUpBuffDesc"]
 raw = "{0:+#%} minimum power output when there is water.{0:+#%} minimum power output when there is water./nThermal technologies help our Water Wheels produce power even when there is no current."
 enUS = "{0:+#%} minimum power output when there is water./nThermal technologies help our Water Wheels generate power even when there is no current."
 zhCN = "|  最低功率: {0:+#%}（浸于水中）<br>先进的热泉技术使聚居地的水轮更加稳定。"
+zhTW = "{0:+#%} 當有水時的最小功率輸出。{0:+#%} 當有水時的最小功率輸出。/n熱能技術幫助我們的水輪在沒有水流的情況下仍然產生能量。"
+ruRU = "{0:+#%} минимальная мощность, когда есть вода.{0:+#%} минимальная мощность, когда есть вода./nТермальные технологии помогают нашим Водяным Колесам производить энергию даже при отсутствии потока."
+jaJP = "{0:+#%} 水があるときの最小出力です。{0:+#%} 水があるときの最小出力です。/n熱技術は、流れがないときでも私たちの水車が電力を生み出すのに役立ちます。"
+frFR = "{0:+#%} production d'énergie minimale en présence d'eau.{0:+#%} production d'énergie minimale en présence d'eau./nLes technologies thermiques aident nos Roues à Eau à produire de l'énergie même lorsqu'il n'y a pas de courant."
+deDE = "{0:+#%} minimale Stromausgabe, wenn Wasser vorhanden ist.{0:+#%} minimale Stromausgabe, wenn Wasser vorhanden ist./nThermische Technologien helfen unseren Wasserrädern, auch ohne Strömung Strom zu erzeugen."
+plPL = "{0:+#%} minimalna moc wyjściowa, gdy jest woda.{0:+#%} minimalna moc wyjściowa, gdy jest woda./nTechnologie termalne pomagają naszym Kołom Wodnym w produkcji energii, nawet gdy nie ma prądu."
+ptBR = "{0:+#%} produção mínima de energia quando há água.{0:+#%} produção mínima de energia quando há água./nTecnologias térmicas ajudam nossas Rodas d'Água a gerar energia mesmo quando não há corrente."
+koKR = "{0:+#%} 물이 있을 때 최소 전력 출력입니다.{0:+#%} 물이 있을 때 최소 전력 출력입니다./n열 기술은 우리 수차가 전류가 없어도 전력을 생성할 수 있도록 도와줍니다."
 
 ["LV.BPSP.PowerOutputMulEff"]
 raw = "{0:+#%} power output"
@@ -223,6 +256,7 @@ frFR = "sortie de puissance {0:+#%}"
 deDE = "{0:+#%} Leistungsausgabe"
 plPL = "{0:+#%} moc wyjściowa"
 ptBR = "{0:+#%} saída de potência"
+koKR = "{0:+#%} 전력 출력"
 
 ["LV.BPSP.PowerOutputMulDayEff"]
 raw = "{0:+#%} power output (from {1:+#%} to {2:+#%})"
@@ -235,6 +269,7 @@ frFR = "{0:+#%} production d'énergie (de {1:+#%} à {2:+#%})"
 deDE = "{0:+#%} Leistungsausgabe (von {1:+#%} bis {2:+#%})"
 plPL = "{0:+#%} moc wyjściowa (od {1:+#%} do {2:+#%})"
 ptBR = "{0:+#%} produção de energia (de {1:+#%} a {2:+#%})"
+koKR = "{0:+#%} 전력 출력 (from {1:+#%} to {2:+#%})"
 
 ["LV.BPSP.PowerOutputFlatEff"]
 raw = "{0:+#}HP power output from {1}"
@@ -247,6 +282,7 @@ frFR = "Puissance de sortie en HP de {1}"
 deDE = "{0:+#}HP Leistungsabgabe von {1}"
 plPL = "{0:+#}Moc wyjściowa HP z {1}"
 ptBR = "Potência de saída do HP de {1}"
+koKR = "{0:+#}HP 전력 출력에서 {1}"
 
 ["LV.BPSP.GeneratorStrMinEff"]
 raw = "{0:+#%} Minimum power output when there is water from {1}"
@@ -259,6 +295,7 @@ frFR = "{0:+#%} Puissance de sortie minimale lorsqu'il y a de l'eau de {1}"
 deDE = "{0:+#%} Minimale Leistungsausgabe, wenn Wasser von {1} vorhanden ist."
 plPL = "{0:+#%} Minimal moc wyjściowy, gdy jest woda z {1}"
 ptBR = "{0:+#%} Potência mínima de saída quando houver água de {1}"
+koKR = "{0:+#%} 물이 있을 때 {1}의 최소 전력 출력"
 
 ["LV.BPSP.WheelWorkerUp"]
 raw = "Gearshift Labor Sync"
@@ -271,6 +308,7 @@ frFR = "Synchronisation du travail de changement de vitesse"
 deDE = "Gangumschaltarbeitsynchronisierung"
 plPL = "Synchronizacja pracy zmiany biegów"
 ptBR = "Sincronização de Trabalho da Alavanca de Câmbio"
+koKR = "기어 시프트 노동 동기화"
 
 ["LV.BPSP.WheelWorkerUpEff"]
 raw = "Reduces Large Power Wheel Worker need by {0}, maintains full power output."
@@ -283,6 +321,7 @@ frFR = "Réduit le besoin en grands travailleurs de roue à puissance par {0}, m
 deDE = "Reduziert den Bedarf an großen Elektrowerkern um {0} und hält die volle Leistungsabgabe aufrecht."
 plPL = "Zmniejsza potrzebę dużego operatora wózków zasilających o {0}, utrzymując pełną moc wyjściową."
 ptBR = "Reduz a necessidade de grandes trabalhadores de roda de potência em {0}, mantendo a saída de potência total."
+koKR = "대형 전력 바퀴 작업자 필요량을 {0}만큼 줄이며, 전체 전력 출력을 유지합니다."
 
 ["LV.BPSP.WheelWorkerUpLore"]
 raw = "'Gears dance alone now—fewer tails, same thunderous spin!' — Clanktail Overseer"
@@ -295,6 +334,7 @@ frFR = "'Les engrenages dansent seuls maintenant—moins de queues, même tourbi
 deDE = "'Zahnräder tanzen jetzt allein – weniger Schwänze, der gleiche donnernde Dreh!' — Clanktail Aufseher"
 plPL = "\"Zębatki tańczą teraz same — mniej ogonów, ten sam grzmiący obrót!\" — Nadzorca Clanktail"
 ptBR = "\"As engrenagens dançam sozinhas agora—menos caudas, mesmo giro estrondoso!\" — Supervisor Clanktail"
+koKR = "'기어들이 이제 혼자 춤을 춰요—꼬리가 줄어들었지만, 같은 요란한 회전!' — 클랭크테일 감독관"
 
 ["LV.BPSP.WheelBotUp"]
 raw = "Bot-Integrated Axles"
@@ -307,6 +347,7 @@ frFR = "Essieux intégrés au bot"
 deDE = "Bot-integrierte Achsen"
 plPL = "Osie zintegrowane z botem"
 ptBR = "Eixos Integrados com Botão"
+koKR = "봇 통합 축"
 
 ["LV.BPSP.WheelBotUpEff"]
 raw = "Allows Bots to operate Power Wheels instead of only Beavers."
@@ -319,6 +360,7 @@ frFR = "Permet aux robots de faire fonctionner des Power Wheels au lieu des seul
 deDE = "Ermöglicht es Bots, Power Wheels zu betreiben, anstatt nur Bibern."
 plPL = "Pozwala botom na obsługę Power Wheels zamiast tylko bobrów."
 ptBR = "Permite que Bots operem Power Wheels em vez de apenas Castores."
+koKR = "로봇이 비버가 아닌 파워 휠을 작동할 수 있도록 허용합니다."
 
 ["LV.BPSP.WheelBotUpLore"]
 raw = "'Bots spin better than tails ever could—efficiency’s our game!' — Boltwhirr Botmaster"
@@ -331,6 +373,7 @@ frFR = "« Les robots tournent mieux que ne le pourraient jamais les queues — 
 deDE = "'Bots spin besser als es Schwänze jemals könnten – Effizienz ist unser Spiel!' — Boltwhirr Botmaster"
 plPL = "'Boty kręcą się lepiej niż ogony kiedykolwiek mogły - efektywność to nasza gra!' — Mistrz Botów Boltwhirr"
 ptBR = "'Bots giram melhor do que caudas algum dia poderiam — a eficiência é o nosso jogo!' — Boltwhirr Botmaster"
+koKR = "'봇들은 꼬리보다 더 잘 돌지—효율성이 우리의 게임이야!' — 볼트휘르 봇마스터"
 
 ["LV.BPSP.WindmillHeightUp"]
 raw = "High-Altitude Gust Harness"
@@ -343,6 +386,7 @@ frFR = "Harnais de rafale en haute altitude"
 deDE = "Hochaltitude-Gust-Harness"
 plPL = "Harnais do podmuchów na dużych wysokościach"
 ptBR = "Arnês de Rajada em Alta Altitude"
+koKR = "고고도 돌풍 harness"
 
 ["LV.BPSP.WindmillHeightUpEff"]
 raw = "Windmills (Regular and Large) get {0:+#%} more power for each height level at their tallest point."
@@ -355,6 +399,7 @@ frFR = "Les éoliennes (normales et grandes) obtiennent {0:+#%} de puissance sup
 deDE = "Windmühlen (Normal und Groß) erhalten {0:+#%} mehr Energie für jede Höhenstufe an ihrem höchsten Punkt."
 plPL = "Wiatraki (zwykłe i duże) otrzymują {0:+#%} więcej mocy za każdy poziom wysokości na ich najwyższym punkcie."
 ptBR = "Os moinhos de vento (Regulares e Grandes) recebem {0:+#%} mais poder para cada nível de altura em seu ponto mais alto."
+koKR = "풍차(일반 및 대형)는 가장 높은 지점에서 각 높이 레벨마다 {0:+#%} 더 많은 전력을 얻습니다."
 
 ["LV.BPSP.WindmillHeightUpLore"]
 raw = "'Skyward we perch, sipping gusts the treetops envy!' — Leafwhirl, Keeper of Breezes"
@@ -367,6 +412,7 @@ frFR = "« Vers le ciel, nous nous perchons, sirotant des rafales que les cimes 
 deDE = "„Himmelhoch sitzen wir und nippen an Bögen, die die Baumwipfel beneiden!“ — Blattwirbel, Hüter der Brisen"
 plPL = "'Na niebie ptakujemy, popijając podmuchy, których zazdroszczą nam korony drzew!' — Liścik, Opiekun Powiewów"
 ptBR = "\"Em direção ao céu nos equilibramos, saboreando as rajadas que as copas das árvores invejam!\" — Leafwhirl, Guardião das Brisas"
+koKR = "'하늘을 향해 우리는 앉아, 나뭇가지들이 부러워할 바람을 음미한다!' — 리프휘를, 바람의 수호자"
 
 ["LV.BPSP.WindmillHeightBuffEff"]
 raw = "{0:+#%} power per height level"
@@ -379,6 +425,7 @@ frFR = "puissance par niveau de hauteur {0:+#%}"
 deDE = "{0:+#%} Leistung pro Höhenstufe"
 plPL = "{0:+#%} moc na poziomie wysokości"
 ptBR = "poder por nível de altura {0:+#%}"
+koKR = "{0:+#%} 높이 수준당 전력"
 
 ["LV.BPSP.WindmillSizeUp"]
 raw = "Compact Wind Sails"
@@ -391,6 +438,7 @@ frFR = "Voiles de vent compactes"
 deDE = "Kompakte Windsäulen"
 plPL = "Kompaktowe żagle wiatrowe"
 ptBR = "Velas de Vento Compactas"
+koKR = "콤팩트 풍차돛"
 
 ["LV.BPSP.WindmillSizeUpEff"]
 raw = "Windmills now only occupy 1x1 instead of a 3x3 area."
@@ -403,6 +451,7 @@ frFR = "Les éoliennes occupent désormais une superficie de 1x1 au lieu de 3x3.
 deDE = "Windmühlen nehmen jetzt nur noch eine Fläche von 1x1 statt 3x3 ein."
 plPL = "Wiatraki zajmują teraz tylko obszar 1x1 zamiast 3x3."
 ptBR = "Os moinhos de vento agora ocupam apenas 1x1 em vez de uma área de 3x3."
+koKR = "풍차는 이제 3x3 구역 대신 1x1만 차지합니다."
 
 ["LV.BPSP.WindmillSizeUpLore"]
 raw = "Folktails wove tighter sails from willow threads—less ground claimed, more whispers of wind."
@@ -415,6 +464,7 @@ frFR = "Les contes populaires tissaient des voiles plus serrées à partir de fi
 deDE = "Volksmärchen webten straffere Segel aus Weidenfäden – weniger Boden beansprucht, mehr Windgeflüster."
 plPL = "Bajki tkane z witek wierzbowych mocniej wypełniały żagle — mniej zajętej ziemi, więcej szeptów wiatru."
 ptBR = "Contos populares teceram velas mais apertadas com fios de salgueiro—menos solo reivindicado, mais sussurros do vento."
+koKR = "민속 이야기들은 버드나무 실로 더 작은 세일을 꽉 조여 짰습니다—더 적은 땅을 차지하며, 바람의 속삭임이 더 많아졌습니다."
 
 ["LV.BPSP.SparePowerScience"]
 raw = "Power Flux Thinkatron"
@@ -427,6 +477,7 @@ frFR = "Flux de puissance Thinkatron"
 deDE = "Power Flux Denkatron"
 plPL = "Mocowy Flux Thinkatron"
 ptBR = "Fluxo de Poder Thinkatron"
+koKR = "전력 흐름 싱크라톤"
 
 ["LV.BPSP.SparePowerScienceEff"]
 raw = "Any unused power throughout your colony is converted into science. Conversion rate: {0}HP-hour to 1 Science, rounded down. Batteries are not affected and do not affect any calculation of this project."
@@ -439,6 +490,7 @@ frFR = "Tout pouvoir inutilisé dans votre colonie est converti en science. Taux
 deDE = "Jede ungenutzte Energie in Ihrer Kolonie wird in Wissenschaft umgewandelt. Umrechnungsrate: {0}HP-Stunde zu 1 Wissenschaft, abgerundet. Batterien sind nicht betroffen und beeinflussen nicht die Berechnung dieses Projekts."
 plPL = "Każda niewykorzystana energia w twojej kolonii jest przekształcana w naukę. Stawka konwersji: {0}HP-godzina na 1 naukę, zaokrąglone w dół. Akumulatory nie są uwzględniane i nie wpływają na żadne obliczenia tego projektu."
 ptBR = "Qualquer poder não utilizado em sua colônia é convertido em ciência. Taxa de conversão: {0}HP-hora para 1 Ciência, arredondado para baixo. Baterias não são afetadas e não afetam nenhum cálculo deste projeto."
+koKR = "여러분의 식민지에서 사용되지 않는 모든 전력은 과학으로 전환됩니다. 전환 비율: {0}HP-시간당 1 과학, 내림하여 반올림합니다. 배터리는 영향을 받지 않으며 이 프로젝트의 계산에 영향을 주지 않습니다."
 
 ["LV.BPSP.SparePowerScienceLore"]
 raw = "'Extra watts buzzing around? Now they zap straight into our cleverest ideas!' — Sparkchew Thinkatron"
@@ -451,13 +503,30 @@ frFR = "'Des watts supplémentaires qui bourdonnent autour ? Maintenant, ils se 
 deDE = "'Extra Wattstunden summen herum? Jetzt fließen sie direkt in unsere cleversten Ideen!' — Sparkchew Thinkatron"
 plPL = "'Extra waty brzęczą wokół? Teraz wkraczają prosto do naszych najcleverniejszych pomysłów!' — Sparkchew Thinkatron"
 ptBR = "'Watt extra zumbindo por aí? Agora eles vão direto para nossas ideias mais inteligentes!' — Sparkchew Thinkatron"
+koKR = "'추가 전력이 돌아다니고 있나요? 이제 그들은 우리의 가장 영리한 아이디어로 직빵으로 들어옵니다!' — 스파크츄 신타트론"
 
 ["LV.BPSP.SparePowerDesc"]
 raw = "{0} science pending from unused power. {1:0.00}h remaining."
 enUS = "{0} science pending from unused power. {1:0.00}h remaining."
 zhCN = "|  科学点数: {0}（多余功率）⏱️ 剩余 {1:0.00} 小时"
+zhTW = "{0} 科學待用於未使用的電力。還剩 {1:0.00} 小時。"
+ruRU = "{0} науки ожидают от неиспользованной энергии. Осталось {1:0.00}ч."
+jaJP = "{0} 未使用の電力からの科学が保留中です。残り {1:0.00} 時間。"
+frFR = "{0} science en attente de puissance inutilisée. {1:0.00}h restantes."
+deDE = "{0} Wissenschaft aus ungenutzter Energie ausstehend. {1:0.00}h verbleibend."
+plPL = "{0} nauki do zdobycia z niewykorzystanej energii. Pozostało {1:0.00}h."
+ptBR = "{0} ciência pendente de energia não utilizada. {1:0.00}h restantes."
+koKR = "{0} 과학이 사용되지 않은 전력에서 대기 중입니다. {1:0.00}시간 남았습니다."
 
 ["LV.BPSP.WindmillHeightUpDesc"]
 raw = "{0:+#%} power from {1} height."
 enUS = "{0:+#%} power from {1} height."
 zhCN = "|  输出功率: {0:+#%} 来自 {1} 高度"
+zhTW = "{0:+#%} 來自 {1} 高度的能量。"
+ruRU = "{0:+#%} мощности с высоты {1}."
+jaJP = "{0:+#%} 高さからの {1} 力。"
+frFR = "{0:+#%} de puissance à partir de {1} hauteur."
+deDE = "{0:+#%} Energie aus {1} Höhe."
+plPL = "{0:+#%} mocy z {1} wysokości."
+ptBR = "{0:+#%} de poder da altura {1}."
+koKR = "{0:+#%} 높이에서 {1}의 전력."

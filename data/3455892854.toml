@@ -9,6 +9,7 @@ frFR = "Essayez de supprimer les doublons (Redémarrage nécessaire)"
 deDE = "Versuchen Sie, Duplikate zu entfernen (Neustart erforderlich)."
 plPL = "Spróbuj usunąć duplikaty (wymagany restart)"
 ptBR = "Tente remover duplicatas (Reinicialização necessária)"
+koKR = "중복 제거 시도하기 (재시작 필요)"
 
 ["LV.CFac.RemoveDupDesc"]
 raw = "Try to remove buildings with similar names when all factions have them (like Path or Platforms)"
@@ -21,6 +22,7 @@ frFR = "Essayez de supprimer les bâtiments avec des noms similaires lorsque tou
 deDE = "Versuche, Gebäude mit ähnlichen Namen zu entfernen, wenn alle Fraktionen sie haben (wie Pfad oder Plattformen)."
 plPL = "Spróbuj usunąć budynki o podobnych nazwach, gdy wszystkie frakcje je posiadają (jak Ścieżki lub Platformy)."
 ptBR = "Tente remover edifícios com nomes semelhantes quando todas as facções os tiverem (como Caminho ou Plataformas)"
+koKR = "모든 진영에 동일한 이름의 건물이 있을 경우(예: 경로 또는 플랫폼) 비슷한 이름을 가진 건물을 제거해 보세요."
 
 ["LV.CFac.AddPlants"]
 raw = "Add plants (Crops & Trees)"
@@ -33,6 +35,7 @@ frFR = "Ajouter des plantes (cultures et arbres)"
 deDE = "Füge Pflanzen hinzu (Gewächse und Bäume)"
 plPL = "Dodaj rośliny (uprawy i drzewa)"
 ptBR = "Adicionar plantas (Culturas e Árvores)"
+koKR = "식물 추가 (농작물 및 나무)"
 
 ["LV.CFac.AddPlantsDesc"]
 raw = "You can grow crops and trees of other factions. You must add the Folktails' Aquatic Farmhouse to all other factions to prevent crash."
@@ -45,6 +48,7 @@ frFR = "Vous pouvez cultiver des récoltes et des arbres d'autres factions. Vous
 deDE = "Sie können Pflanzen und Bäume anderer Fraktionen anbauen. Sie müssen das Aquatische Bauernhaus der Folktails zu allen anderen Fraktionen hinzufügen, um Abstürze zu vermeiden."
 plPL = "Możesz uprawiać rośliny i drzewa innych frakcji. Musisz dodać Wodny Dom Folktails do wszystkich innych frakcji, aby zapobiec awarii."
 ptBR = "Você pode cultivar plantas e árvores de outras facções. Você deve adicionar a Casa de Fazenda Aquática dos Folktails a todas as outras facções para evitar falhas."
+koKR = "다른 세력의 작물과 나무를 재배할 수 있습니다. 충돌을 방지하려면 모든 다른 세력에 Folktails의 수생 농가를 추가해야 합니다."
 
 ["LV.CFac.AddPlantsNotif"]
 raw = "You must add Aquatic Farmhouse to Iron Teeth or it will crash when loading for Iron Teeth."
@@ -57,6 +61,7 @@ frFR = "Vous devez ajouter Aquatic Farmhouse à Iron Teeth sinon cela échouera 
 deDE = "Sie müssen Aquatic Farmhouse zu Iron Teeth hinzufügen, da es sonst beim Laden für Iron Teeth abstürzt."
 plPL = "Musisz dodać Aquatic Farmhouse do Iron Teeth, w przeciwnym razie nastąpi awaria podczas ładowania dla Iron Teeth."
 ptBR = "Você deve adicionar Aquatic Farmhouse ao Iron Teeth ou ele vai travar ao carregar para o Iron Teeth."
+koKR = "아이언 티스를 위해 수상 농장을 추가해야 하며, 그렇지 않으면 아이언 티스를 로드할 때 충돌이 발생합니다."
 
 ["LV.CFac.NoBotNeeds"]
 raw = "Don't add Bot's needs"
@@ -69,6 +74,7 @@ frFR = "Ne pas ajouter les besoins du bot."
 deDE = "Fügen Sie nicht die Bedürfnisse des Bots hinzu."
 plPL = "Nie dodawaj potrzeb bota."
 ptBR = "Não adicione as necessidades do Bot."
+koKR = "봇의 필요를 추가하지 않음"
 
 ["LV.CFac.NoBotNeedsDesc"]
 raw = "Don't add Bot's needs to other factions (Biofuel and Energy)\nYou must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
@@ -81,6 +87,7 @@ frFR = "N'ajoutez pas les besoins des Bots aux autres factions (Biocarburant et 
 deDE = "Fügen Sie den Bedürfnissen des Bots keine anderen Fraktionen (Biokraftstoff und Energie) hinzu. Sie dürfen kein Biokraftstoffproduktionsgebäude (Raffinerie) zu den Iron Teeth hinzufügen, da das Spiel beim Bau abstürzen würde."
 plPL = "Nie dodawaj potrzeb Bota do innych frakcji (Biopaliwo i Energia).\nNie wolno dodawać budynku produkcji biopaliwa (Rafineria) do Żelaznych Zębów, ponieważ gra zawiesi się przy jego budowie."
 ptBR = "Não adicione as necessidades do Bot a outras facções (Biocombustível e Energia). Você não deve adicionar o edifício de produção de biocombustível (Refinaria) aos Dentes de Ferro ou o jogo travará ao construí-lo."
+koKR = "봇의 필요를 다른 진영(바이오 연료와 에너지)에 추가하지 마세요. 철 이빨 진영에 바이오 연료 생산 건물(정제소)을 추가하면 건물 건설 시 게임이 충돌합니다."
 
 ["LV.CFac.NoBotNeedsNotif"]
 raw = "You must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
@@ -93,3 +100,4 @@ frFR = "Vous ne devez pas ajouter de bâtiment de production de biocarburants (r
 deDE = "Sie dürfen kein Biokraftstoffproduktionsgebäude (Raffinerie) zu den Iron Teeth hinzufügen, da das Spiel beim Bau abstürzen würde."
 plPL = "Nie wolno dodawać budynku produkcji biopaliwa (rafinerii) do Żelaznych Zębów, ponieważ gra zawiesi się podczas jego budowy."
 ptBR = "Você não deve adicionar o prédio de produção de biocombustível (Refinaria) aos Dentes de Ferro, ou o jogo irá travar ao construir."
+koKR = "철니에 바이오 연료 생산 건물(정제소)을 추가하면 건물을 세울 때 게임이 충돌하므로 추가해서는 안 됩니다."

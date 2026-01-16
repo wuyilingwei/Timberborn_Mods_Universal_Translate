@@ -9,6 +9,7 @@ frFR = "Pipette"
 deDE = "Pipette"
 plPL = "Pipeta"
 ptBR = "Pipeta"
+koKR = "파이프렛"
 
 ["Tobbert.PipetteTool.Description"]
 raw = "Click a building to enter construction mode for that building. (Default Shortcut CTRL + CLICK)"
@@ -21,6 +22,7 @@ frFR = "Cliquez sur un bâtiment pour entrer en mode construction pour ce bâtim
 deDE = "Klicken Sie auf ein Gebäude, um den Konstruktionsmodus für dieses Gebäude zu aktivieren. (Standardverknüpfung STRG + KLICK)"
 plPL = "Kliknij budynek, aby wejść w tryb budowy dla tego budynku. (Domyślny skrót CTRL + KLIK)"
 ptBR = "Clique em um edifício para entrar no modo de construção para esse edifício. (Atalho padrão CTRL + CLIQUE)"
+koKR = "건물을 클릭하여 해당 건물의 건설 모드에 들어갑니다. (기본 단축키 CTRL + 클릭)"
 
 ["Tobbert.PipetteTool.KeyBindingGroup.PipetteTool"]
 raw = "Pipette Tool"
@@ -33,6 +35,7 @@ frFR = "Outil Pipette"
 deDE = "Pipettenwerkzeug"
 plPL = "Narzędzie pipetowe"
 ptBR = "Ferramenta de Pipeta"
+koKR = "피펫 도구"
 
 ["Tobbert.PipetteTool.KeyBinding.PipetteTool"]
 raw = "Pipette Tool Keybind"
@@ -45,6 +48,7 @@ frFR = "Outil Pipette"
 deDE = "Pipettenwerkzeug"
 plPL = "Narzędzie pipetowe"
 ptBR = "Ferramenta de Pipeta"
+koKR = "파이펫 도구 키 바인드"
 
 ["Tobbert.PipetteTool.Setting.Header"]
 raw = "Pipette Tool Settings"
@@ -57,6 +61,7 @@ frFR = "Paramètres de l'outil Pipette"
 deDE = "Pipettiereinstellungen"
 plPL = "Ustawienia narzędzia pipetki"
 ptBR = "Configurações da Ferramenta de Pipeta"
+koKR = "피펫 도구 설정"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolMode"]
 raw = "Pipetting Mode"
@@ -69,6 +74,7 @@ frFR = "Mode de pipetage"
 deDE = "Pipettiermodus"
 plPL = "Tryb pipetowania"
 ptBR = "Modo de Pipetagem"
+koKR = "삽입 모드"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolModeToolTip"]
 raw = "Hold Mode: Hold the Pipette Tool Keybind button and use the Mouse Selection button to start pipetting.\nPress Mode: Pipette Tool is activated after the Pipette Tool Keybind is pressed and released.\nDirect Mode (Key Bind): This setting allows for direct pipetting without having to click. Using the key bind above it will directly switch to the relevant building (Factorio player approved).\nDirect Mode (Middle Mouse Button): This setting allows for direct pipetting without having to use the Key bind. Using the Middle Mouse Button will directly switch to the relevant building (Minecraft player approved).\nInverted Mode: When a building is selected, press the Pipette Tool Key Bind to switch the relevant object."
@@ -81,6 +87,7 @@ frFR = "Mode Maintien : Maintenez le bouton de raccourci de l'outil Pipette et u
 deDE = "Halten-Modus: Halten Sie die Taste für das Pipettenwerkzeug und verwenden Sie die Maustaste für die Auswahl, um mit dem Pipettieren zu beginnen.  \nDrücken-Modus: Das Pipettenwerkzeug wird aktiviert, nachdem die Taste für das Pipettenwerkzeug gedrückt und losgelassen wurde.  \nDirektmodus (Tastenkombination): Diese Einstellung ermöglicht direktes Pipettieren, ohne klicken zu müssen. Mit der oben genannten Tastenkombination wird direkt zum relevanten Gebäude gewechselt (von Factorio-Spielern genehmigt).  \nDirektmodus (Mittlere Maustaste): Diese Einstellung ermöglicht direktes Pipettieren, ohne die Tastenkombination verwenden zu müssen. Mit der mittleren Maustaste wird direkt zum relevanten Gebäude gewechselt (von Minecraft-Spielern genehmigt).  \nUmkehrmodus: Wenn ein Gebäude ausgewählt ist, drücken Sie die Tastenkombination für das Pipettenwerkzeug, um das relevante Objekt zu wechseln."
 plPL = "Tryb Trzymania: Przytrzymaj przycisk skrótu narzędzia pipetowego i użyj przycisku wyboru myszy, aby rozpocząć pipetowanie.  \nTryb Naciśnięcia: Narzędzie pipetowe jest aktywowane po naciśnięciu i zwolnieniu przycisku skrótu narzędzia pipetowego.  \nTryb Bezpośredni (Skrót): To ustawienie umożliwia bezpośrednie pipetowanie bez konieczności klikania. Używając powyższego skrótu, przełączysz się bezpośrednio na odpowiedni budynek (zaakceptowane przez graczy Factorio).  \nTryb Bezpośredni (Przycisk Środkowy Myszy): To ustawienie umożliwia bezpośrednie pipetowanie bez użycia skrótu. Używając przycisku środkowego myszy, przełączysz się bezpośrednio na odpowiedni budynek (zaakceptowane przez graczy Minecraft).  \nTryb Odwrócony: Gdy budynek jest wybrany, naciśnij skrót narzędzia pipetowego, aby przełączyć odpowiedni obiekt.  "
 ptBR = "Modo de Manter: Mantenha o botão de atalho da Ferramenta de Pipeta pressionado e use o botão de Seleção do Mouse para começar a pipetar.  \nModo de Pressionar: A Ferramenta de Pipeta é ativada após o botão de atalho da Ferramenta de Pipeta ser pressionado e solto.  \nModo Direto (Atalho): Esta configuração permite pipetagem direta sem precisar clicar. Usar o atalho acima mudará diretamente para o prédio relevante (aprovado por jogadores de Factorio).  \nModo Direto (Botão do Meio do Mouse): Esta configuração permite pipetagem direta sem precisar usar o atalho. Usar o Botão do Meio do Mouse mudará diretamente para o prédio relevante (aprovado por jogadores de Minecraft).  \nModo Invertido: Quando um prédio está selecionado, pressione o Atalho da Ferramenta de Pipeta para trocar o objeto relevante."
+koKR = "홀드 모드: 파이펫 도구 키 바인드 버튼을 누르고 마우스 선택 버튼을 사용하여 파이펫을 시작하세요.  \n프레스 모드: 파이펫 도구 키 바인드가 눌러지고 해제된 후 파이펫 도구가 활성화됩니다.  \n직접 모드 (키 바인드): 이 설정은 클릭 없이 직접 파이펫을 가능하게 합니다. 위의 키 바인드를 사용하면 관련 건물로 직접 전환됩니다 (팩토리오 플레이어 승인).  \n직접 모드 (중간 마우스 버튼): 이 설정은 키 바인드를 사용하지 않고 직접 파이펫을 가능하게 합니다. 중간 마우스 버튼을 사용하면 관련 건물로 직접 전환됩니다 (마인크래프트 플레이어 승인).  \n반전 모드: 건물이 선택된 상태에서 파이펫 도구 키 바인드를 눌러 관련 객체로 전환합니다."
 
 ["Tobbert.PipetteTool.Setting.MouseSelectionButton"]
 raw = "Mouse Selection Button"
@@ -93,6 +100,7 @@ frFR = "Bouton de sélection de la souris"
 deDE = "Mausauswahlknopf"
 plPL = "Przycisk wyboru myszy"
 ptBR = "Botão de Seleção do Mouse"
+koKR = "마우스 선택 버튼"
 
 ["Tobbert.PipetteTool.Setting.HoldMode"]
 raw = "Hold Mode"
@@ -105,6 +113,7 @@ frFR = "Mode de maintien"
 deDE = "Halten-Modus"
 plPL = "Tryb Hold"
 ptBR = "Modo de Espera"
+koKR = "홀드 모드"
 
 ["Tobbert.PipetteTool.Setting.PressMode"]
 raw = "Press Mode"
@@ -117,6 +126,7 @@ frFR = "Mode Presse"
 deDE = "Druckmodus"
 plPL = "Tryb naciśnij"
 ptBR = "Modo do Pressione"
+koKR = "프레스 모드"
 
 ["Tobbert.PipetteTool.Setting.DirectModeKeyBind"]
 raw = "Direct Mode (Keybind)"
@@ -129,6 +139,7 @@ frFR = "Mode Direct (Touche de raccourci)"
 deDE = "Direktmodus (Tastenkombination)"
 plPL = "Tryb bezpośredni (Skrót klawiszowy)"
 ptBR = "Modo Direto (Atalho)"
+koKR = "직접 모드 (키바인드)"
 
 ["Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton"]
 raw = "Direct Mode (Middle Mouse Button)"
@@ -141,6 +152,7 @@ frFR = "Mode Direct (Bouton central de la souris)"
 deDE = "Direktmodus (Mittlere Maustaste)"
 plPL = "Tryb bezpośredni (środkowy przycisk myszy)"
 ptBR = "Modo Direto (Botão do Meio do Mouse)"
+koKR = "직접 모드 (중간 마우스 버튼)"
 
 ["Tobbert.PipetteTool.Setting.ForcePipette"]
 raw = "Force Pipetting"
@@ -153,6 +165,7 @@ frFR = "Pipetage forcé"
 deDE = "Kraftpipettieren"
 plPL = "Pipetowanie wymuszone"
 ptBR = "Força de pipetagem"
+koKR = "강제 피펫"
 
 ["Tobbert.PipetteTool.Setting.ForcePipetteTooltip"]
 raw = "Forces the pipetting tool even when another tool is currently active."
@@ -165,6 +178,7 @@ frFR = "Force l'outil de pipetage même lorsqu'un autre outil est actuellement a
 deDE = "Zwingt das Pipettierwerkzeug, selbst wenn ein anderes Werkzeug derzeit aktiv ist."
 plPL = "Wymusza użycie narzędzia pipetującego, nawet gdy inne narzędzie jest obecnie aktywne."
 ptBR = "Força a ferramenta de pipetagem mesmo quando outra ferramenta está ativa."
+koKR = "현재 다른 도구가 활성화되어 있어도 피펫 도구를 강제로 사용합니다."
 
 ["Tobbert.PipetteTool.Setting.InvertedMode"]
 raw = "Inverted Mode"
@@ -177,3 +191,4 @@ frFR = "Mode inversé"
 deDE = "Invertierter Modus"
 plPL = "Tryb odwrócony"
 ptBR = "Modo Invertido"
+koKR = "반전 모드"

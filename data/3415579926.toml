@@ -9,6 +9,7 @@ frFR = "Illimité au-dessus"
 deDE = "Unbegrenzt Oben"
 plPL = "Nielimitowany powyżej"
 ptBR = "Ilimitado Acima"
+koKR = "무제한 위"
 
 ["EBR.UnlimitedAboveDesc"]
 raw = "Builders can always build above themselves (Game default: no)"
@@ -21,6 +22,7 @@ frFR = "Les constructeurs peuvent toujours construire au-dessus d'eux-mêmes (D�
 deDE = "Bauer können immer über sich selbst bauen (Spielstandard: nein)"
 plPL = "Budowniczowie mogą zawsze budować ponad sobą (Domyślnie w grze: nie)"
 ptBR = "Construtores podem sempre construir acima de si mesmos (Padrão do jogo: não)"
+koKR = "건설자는 항상 자신 위에 건물을 지을 수 있습니다 (게임 기본 설정: 아니오)"
 
 ["EBR.UnlimitedBelow"]
 raw = "Unlimited Below"
@@ -33,6 +35,7 @@ frFR = "Illimité ci-dessous"
 deDE = "Unbegrenzt darunter"
 plPL = "Nielimitowany poniżej"
 ptBR = "Ilimitado Abaixo"
+koKR = "무제한 아래"
 
 ["EBR.UnlimitedBelowDesc"]
 raw = "Builders can always build below themselves (Game default: yes)"
@@ -45,6 +48,7 @@ frFR = "Les constructeurs peuvent toujours construire en dessous d'eux-mêmes (P
 deDE = "Bauer können immer unter sich bauen (Spielstandard: ja)"
 plPL = "Budowniczowie zawsze mogą budować poniżej siebie (Domyślne ustawienie gry: tak)"
 ptBR = "Os construtores podem sempre construir abaixo de si mesmos (Padrão do jogo: sim)"
+koKR = "건축가는 항상 자신 아래에 건설할 수 있습니다 (게임 기본값: 예)"
 
 ["EBR.RangeAbove"]
 raw = "Range Above"
@@ -57,6 +61,7 @@ frFR = "Plage supérieure"
 deDE = "Bereich oben"
 plPL = "Zakres powyżej"
 ptBR = "Faixa Acima"
+koKR = "범위 초과"
 
 ["EBR.RangeAboveDesc"]
 raw = "Builders can build up to this many tiles above themselves (Game default: 1)"
@@ -69,6 +74,7 @@ frFR = "Les bâtisseurs peuvent construire jusqu'à ce nombre de tuiles au-dessu
 deDE = "Bauer können bis zu dieser Anzahl von Kacheln über sich selbst bauen (Spielstandard: 1)"
 plPL = "Budowniczowie mogą zbudować do tej liczby płytek nad sobą (Domyślna wartość w grze: 1)"
 ptBR = "Os construtores podem construir até este número de azulejos acima de si mesmos (padrão do jogo: 1)"
+koKR = "건축가는 자신 위에 최대 이만큼의 타일을 건설할 수 있습니다 (게임 기본값: 1)"
 
 ["EBR.RangeBelow"]
 raw = "Range Below"
@@ -81,6 +87,7 @@ frFR = "Gamme inférieure"
 deDE = "Bereich unten"
 plPL = "Zakres poniżej"
 ptBR = "Faixa Abaixo"
+koKR = "범위 이하"
 
 ["EBR.RangeBelowDesc"]
 raw = "Builders can build up to this many tiles below themselves (Game default: Infinite)"
@@ -93,13 +100,30 @@ frFR = "Les constructeurs peuvent construire jusqu'à ce nombre de tuiles en des
 deDE = "Baumeister können bis zu dieser Anzahl von Fliesen unter sich bauen (Spielstandard: Unendlich)"
 plPL = "Budowniczowie mogą budować do tej liczby kafelków poniżej siebie (domyślnie w grze: nieskończoność)"
 ptBR = "Os construtores podem construir até este número de azulejos abaixo de si mesmos (Padrão do jogo: Infinito)"
+koKR = "건축자는 자신 아래에 이만큼의 타일을 건설할 수 있습니다 (게임 기본값: 무한)"
 
 ["LV.EBR.ExtendDemolish"]
 raw = "Extend Demolision Range"
 enUS = "Extend Demolision Range"
 zhCN = "扩展拆除范围"
+zhTW = "擴展拆除範圍"
+ruRU = "Увеличить радиус сноса"
+jaJP = "範囲を延長するデモリション"
+frFR = "Étendre la portée de démolition"
+deDE = "Erweitere den Abrissbereich"
+plPL = "Zwiększ zasięg wyburzenia"
+ptBR = "Extender Raio de Demolição"
+koKR = "철거 범위 확장"
 
 ["LV.EBR.ExtendDemolishDesc"]
 raw = "Allow extending demolision range with the same settings as building range"
 enUS = "Allow extending demolision range with the same settings as building range"
 zhCN = "勾选后，对建造范围的更改也会同时应用于拆除范围。"
+zhTW = "允許在與建築範圍相同的設置下擴展拆除範圍。"
+ruRU = "Разрешить расширение диапазона сноса с такими же настройками, как у диапазона строительства"
+jaJP = "建物の範囲と同じ設定で解体範囲を延長することを許可します。"
+frFR = "Permet d'étendre la portée de démolition avec les mêmes paramètres que la portée de construction"
+deDE = "Ermöglicht das Erweitern des Abrissbereichs mit denselben Einstellungen wie der Baubereich"
+plPL = "Zezwól na rozszerzenie zasięgu wyburzenia z tymi samymi ustawieniami, co zasięg budowania"
+ptBR = "Permitir estender o alcance de demolição com as mesmas configurações que o alcance de construção"
+koKR = "건물 범위와 동일한 설정으로 철거 범위를 확장할 수 있습니다."

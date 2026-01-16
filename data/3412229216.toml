@@ -9,6 +9,7 @@ frFR = "Activer tout"
 deDE = "Alle aktivieren"
 plPL = "Włącz wszystkie"
 ptBR = "Ativar Todos"
+koKR = "모두 활성화"
 
 ["DAM.EnableAllDesc"]
 raw = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
@@ -21,6 +22,7 @@ frFR = "Cochez pour activer tous les mods à la sortie. Un redémarrage est néc
 deDE = "Überprüfen, um alle Mods beim Verlassen zu aktivieren. Ein Neustart ist erforderlich, und dies wird automatisch deaktiviert."
 plPL = "Zaznacz, aby włączyć wszystkie mody po wyjściu. Wymagane ponowne uruchomienie, a to jest automatycznie odznaczone."
 ptBR = "Verifique para ativar todos os mods ao sair. É necessário reiniciar e isso será desmarcado automaticamente."
+koKR = "모두 사용 설정 확인 - \"종료 시 모든 모드를 활성화하려면 체크하세요. 재시작이 필요하며, 이 옵션은 자동으로 선택 해제됩니다.\""
 
 ["DAM.DisableAll"]
 raw = "Disable All"
@@ -33,6 +35,7 @@ frFR = "Désactiver tout"
 deDE = "Alles deaktivieren"
 plPL = "Wyłącz wszystko"
 ptBR = "Desativar Tudo"
+koKR = "모두 비활성화"
 
 ["DAM.DisableAllDesc"]
 raw = "Check to disable all mods upon exit. Restart required and this is automatically unchecked."
@@ -45,6 +48,7 @@ frFR = "Cochez pour désactiver tous les mods lors de la sortie. Un redémarrage
 deDE = "Überprüfen, um alle Mods beim Verlassen zu deaktivieren. Ein Neustart ist erforderlich und dies wird automatisch deaktiviert."
 plPL = "Sprawdź, aby wyłączyć wszystkie mody po wyjściu. Wymagane jest ponowne uruchomienie, a to pole zostanie automatycznie odznaczone."
 ptBR = "Marque para desativar todos os mods ao sair. Reinício necessário e isso é desmarcado automaticamente."
+koKR = "게임을 종료할 때 모든 모드를 비활성화하려면 체크하십시오. 재시작이 필요하며, 이 옵션은 자동으로 선택 해제됩니다."
 
 ["DAM.KeepEnabled"]
 raw = "Keep Enabled"
@@ -57,6 +61,7 @@ frFR = "Rester activé"
 deDE = "Aktiviert bleiben"
 plPL = "Zachowaj włączone"
 ptBR = "Mantenha ativado"
+koKR = "활성화 유지"
 
 ["DAM.KeepEnabledDesc"]
 raw = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
@@ -69,6 +74,7 @@ frFR = "Liste d'IDs de mod séparés par des points-virgules ';' à conserver ac
 deDE = "Semikolon ';' getrennte Liste von Mod-IDs, die aktiviert bleiben sollen, wenn \"Alle deaktivieren\" ausgewählt ist."
 plPL = "Lista identyfikatorów modów oddzielona średnikami ';', które mają pozostać włączone, jeśli zaznaczono opcję \"Wyłącz wszystkie\"."
 ptBR = "Lista de IDs de mods separados por ponto e vírgula ';' a serem mantidos habilitados se a opção Desabilitar Todos estiver marcada."
+koKR = "모든 비활성화가 체크되었을 경우 유지할 모드 ID의 세미콜론 ';'으로 구분된 목록입니다."
 
 ["DAM.LoadProfile"]
 raw = "Load profile"
@@ -81,6 +87,7 @@ frFR = "Charger le profil"
 deDE = "Profil laden"
 plPL = "Załaduj profil"
 ptBR = "Carregar perfil"
+koKR = "프로필 불러오기"
 
 ["DAM.LoadProfileDesc"]
 raw = "Enable mods with ids from the 'mods.txt' file. It should be in the mod's folder."
@@ -93,6 +100,7 @@ frFR = "Activez les mods avec les identifiants du fichier 'mods.txt'. Il doit ê
 deDE = "Aktivieren Sie Mods mit IDs aus der Datei 'mods.txt'. Sie sollte sich im Mod-Ordner befinden."
 plPL = "Włącz mody o identyfikatorach z pliku 'mods.txt'. Powinien znajdować się w folderze moda."
 ptBR = "Ative os mods com os IDs do arquivo 'mods.txt'. Ele deve estar na pasta do mod."
+koKR = "모드의 폴더에 있어야 하는 'mods.txt' 파일의 ID를 사용하여 모드를 활성화합니다."
 
 ["DAM.SaveProfile"]
 raw = "Save profile"
@@ -105,6 +113,7 @@ frFR = "Enregistrer le profil"
 deDE = "Profil speichern"
 plPL = "Zapisz profil"
 ptBR = "Salvar perfil"
+koKR = "프로필 저장"
 
 ["DAM.SaveProfileDesc"]
 raw = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
@@ -117,6 +126,7 @@ frFR = "Enregistrez les mods activés dans le fichier 'mods.txt'. Il se trouvera
 deDE = "Speichern Sie aktivierte Mods in der Datei 'mods.txt'. Sie wird im Mod-Ordner sein."
 plPL = "Zapisz włączone mody do pliku 'mods.txt'. Będzie on w folderze moda."
 ptBR = "Salve os mods habilitados no arquivo 'mods.txt'. Ele estará na pasta do mod."
+koKR = "활성화된 모드를 'mods.txt' 파일에 저장합니다. 이 파일은 모드의 폴더에 있습니다."
 
 ["DAM.ViewProfileFolder"]
 raw = "View profile folder"
@@ -129,6 +139,7 @@ frFR = "Voir le dossier de profil"
 deDE = "Profilordner anzeigen"
 plPL = "Zobacz folder profilu"
 ptBR = "Visualizar pasta de perfil"
+koKR = "프로필 폴더 보기"
 
 ["DAM.ViewProfileFolderDesc"]
 raw = "Open the folder where the 'mods.txt' file is located."
@@ -141,6 +152,7 @@ frFR = "Ouvrez le dossier où se trouve le fichier 'mods.txt'."
 deDE = "Öffnen Sie den Ordner, in dem sich die Datei 'mods.txt' befindet."
 plPL = "Otwórz folder, w którym znajduje się plik 'mods.txt'."
 ptBR = "Abra a pasta onde o arquivo 'mods.txt' está localizado."
+koKR = "‘mods.txt’ 파일이 위치한 폴더를 엽니다."
 
 ["DAM.RestartGame"]
 raw = "OK & Restart the game"
@@ -153,3 +165,4 @@ frFR = "D'accord et redémarrer le jeu"
 deDE = "OK und das Spiel neu starten"
 plPL = "OK i uruchom ponownie grę"
 ptBR = "OK e reinicie o jogo"
+koKR = "확인 및 게임 재시작"
