@@ -212,20 +212,11 @@ jobs:
           echo "Release package created: ${NEW_VERSION}.zip"
           echo "Package saved to releases/newest.zip (fixed name)"
 
-      - name: Create GitHub Release
+      - name: Prepare release notes
         if: steps.check_changes.outputs.should_build == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
-          GIT_TAG="v${NEW_VERSION}"
-
-          # Determine if this is a prerelease (only for manual dispatch, schedule is always release)
-          IS_PRERELEASE="false"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
-            IS_PRERELEASE="true"
-          fi
-
+          
           # Prepare release notes file (simpler and YAML-safe)
           RELEASE_NOTES_FILE="release_notes.md"
           
@@ -263,16 +254,6 @@ jobs:
             fi
             echo >> "$RELEASE_NOTES_FILE"
             
-            # Get previous version tag for comparison
-            PREV_TAG=$(git tag --list --sort=-version:refname "v*" | grep -v "v${NEW_VERSION}" | head -1 2>/dev/null || echo "")
-            echo "Previous tag: $PREV_TAG"
-            if [ -n "$PREV_TAG" ]; then
-              echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG}...v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
-            else
-              echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
-            fi
-            echo >> "$RELEASE_NOTES_FILE"
-            
             # Show total mod count
             TOTAL_MODS=$(find data/ -name "*.toml" -type f | wc -l)
             echo "### 📈 Statistics" >> "$RELEASE_NOTES_FILE"
@@ -284,10 +265,6 @@ jobs:
             TOTAL_MODS=$(find data/ -name "*.toml" -type f | wc -l)
             echo "- 🎯 **$TOTAL_MODS** mods included in initial release" >> "$RELEASE_NOTES_FILE"
             echo "- 📅 Built on $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$RELEASE_NOTES_FILE"
-            echo >> "$RELEASE_NOTES_FILE"
-            
-            # Even for initial release, try to show full changelog
-            echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
             echo >> "$RELEASE_NOTES_FILE"
           fi
 
@@ -309,24 +286,6 @@ jobs:
           cp "$RELEASE_NOTES_FILE" "info/changelog.md"
           
           echo "Changelog saved to: info/changelog.md"
-
-          # Create GitHub release
-          if [ "$IS_PRERELEASE" = "true" ]; then
-            gh release create "$GIT_TAG" \
-              --repo "${{ github.repository }}" \
-              --title "$GIT_TAG" \
-              --notes-file "$RELEASE_NOTES_FILE" \
-              --prerelease \
-              "${NEW_VERSION}.zip"
-          else
-            gh release create "$GIT_TAG" \
-              --repo "${{ github.repository }}" \
-              --title "$GIT_TAG" \
-              --notes-file "$RELEASE_NOTES_FILE" \
-              "${NEW_VERSION}.zip"
-          fi
-
-          echo "GitHub Release $GIT_TAG created"
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
@@ -360,6 +319,52 @@ jobs:
               fi
             done
           fi
+
+      - name: Create GitHub Release
+        if: steps.check_changes.outputs.should_build == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEW_VERSION="${{ steps.version.outputs.new_version }}"
+          GIT_TAG="v${NEW_VERSION}"
+
+          # Determine if this is a prerelease (only for manual dispatch, schedule is always release)
+          IS_PRERELEASE="false"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
+            IS_PRERELEASE="true"
+          fi
+
+          # Update changelog with proper links now that we have the final commit
+          RELEASE_NOTES_FILE="release_notes.md"
+          
+          # Get previous version tag for comparison (now we can do this correctly)
+          PREV_TAG=$(git tag --list --sort=-version:refname "v*" | head -1 2>/dev/null || echo "")
+          echo "Previous tag: $PREV_TAG"
+          
+          # Add full changelog link to the notes
+          if [ -n "$PREV_TAG" ]; then
+            echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${PREV_TAG}...v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
+          else
+            echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
+          fi
+
+          # Create GitHub release
+          if [ "$IS_PRERELEASE" = "true" ]; then
+            gh release create "$GIT_TAG" \
+              --repo "${{ github.repository }}" \
+              --title "$GIT_TAG" \
+              --notes-file "$RELEASE_NOTES_FILE" \
+              --prerelease \
+              "${NEW_VERSION}.zip"
+          else
+            gh release create "$GIT_TAG" \
+              --repo "${{ github.repository }}" \
+              --title "$GIT_TAG" \
+              --notes-file "$RELEASE_NOTES_FILE" \
+              "${NEW_VERSION}.zip"
+          fi
+
+          echo "GitHub Release $GIT_TAG created"
 
   publish:
     needs: check-and-build
