@@ -5,12 +5,6 @@ permissions:
 
 on:
   workflow_dispatch:
-    inputs:
-      retry:
-        description: 'Is this a retry after timeout?'
-        required: false
-        default: 'false'
-        type: string
   schedule:
     # Run daily at 02:00 UTC to process new translations
     - cron: '0 2 * * *'
@@ -18,7 +12,6 @@ on:
 jobs:
   translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     
     steps:
       - name: Checkout repository
@@ -38,7 +31,7 @@ jobs:
         run: |
           pip install -r .github/scripts/requirements.txt
       
-      - name: Run translation with timeout
+      - name: Run translation
         id: translate
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
@@ -48,13 +41,11 @@ jobs:
           # Remove old log if exists
           rm -f "$LOG_FILE"
           
-          # Run translation with graceful 5-minute timeout
-          # Script will stop taking new entries when time is up
+          # Run translation without time limit
           python .github/scripts/translate_mods.py \
             --config .github/config/translate.toml \
             --data-dir data \
-            --log-file "$LOG_FILE" \
-            --max-time 300 || EXIT_CODE=$?
+            --log-file "$LOG_FILE" || EXIT_CODE=$?
           
           # Check exit code
           if [ "${EXIT_CODE:-0}" -ne 0 ]; then
