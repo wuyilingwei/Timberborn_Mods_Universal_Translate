@@ -58,7 +58,13 @@ def convert_toml_to_csv(data_dir, mod_dir):
                                     empty_entries_count += 1
                                     print(f"[Warning] Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 else:
-                                    writer.writerow([translation_key, translation_text, "-"])
+                                    # 如果文本以空格开头，为其添加双引号以防止游戏忽略前导空格
+                                    processed_text = translation_text
+                                    if translation_text.startswith(' '):
+                                        processed_text = f'"{translation_text}"'
+                                        print(f"[Info] Added quotes to preserve leading space for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                    
+                                    writer.writerow([translation_key, processed_text, "-"])
                     
                     if empty_entries_count > 0:
                         print(f"[Info] Skipped {empty_entries_count} empty entries for {lang_code} in {file_name}")
