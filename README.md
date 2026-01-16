@@ -2,10 +2,6 @@
 
 ![](info/thumbnail.png)
 
-<!-- VERSION_START -->
-Version: 2026.1.3
-<!-- VERSION_END -->
-
 ### **Get mod?**
 
 #### Full Support:
