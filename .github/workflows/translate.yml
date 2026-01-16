@@ -38,6 +38,9 @@ jobs:
         run: |
           LOG_FILE=".github/log/translation.log"
           
+          # Create log directory if it doesn't exist
+          mkdir -p "$(dirname "$LOG_FILE")"
+          
           # Remove old log if exists
           rm -f "$LOG_FILE"
           
