@@ -30,6 +30,7 @@ on:
 
 jobs:
   check-and-build:
+    if: github.event_name == 'schedule' || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
     runs-on: ubuntu-latest
     outputs:
       should_build: ${{ steps.check_changes.outputs.should_build }}
