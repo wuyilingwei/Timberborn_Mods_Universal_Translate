@@ -6,8 +6,8 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    # Run daily at 02:00 UTC to process new translations
-    - cron: '0 2 * * *'
+    # Run daily at 07:00 UTC to process new translations
+    - cron: '0 7 * * *'
 
 jobs:
   translate:
