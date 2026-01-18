@@ -19,7 +19,6 @@ koKR = "Korean"
 [build]
 protect_string_ids_file = "enUS.txt"
 extra_protect_string_ids = ["Beaver.NamePool"]
-meta_keys = ["raw", "prompt", "new", "name", "field_prompt"]
 
 [rate_limiter]
 # Maximum requests per minute (RPM)
