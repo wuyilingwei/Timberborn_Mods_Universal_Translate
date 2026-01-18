@@ -20,19 +20,13 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
 from translator import TranslatorLLM
 
 
-# Language code to full name mapping
-LANGUAGE_NAMES = {
-    "enUS": "English (US)",
-    "zhCN": "Simplified Chinese",
-    "zhTW": "Traditional Chinese",
-    "ruRU": "Russian",
-    "jaJP": "Japanese",
-    "frFR": "French",
-    "deDE": "German",
-    "plPL": "Polish",
-    "ptBR": "Brazilian Portuguese",
-    "koKR": "Korean"
-}
+# Global variable to store language names loaded from config
+LANGUAGE_NAMES = {}
+
+
+def load_language_names_from_config(config: Dict) -> Dict[str, str]:
+    """Load language code to full name mapping from configuration"""
+    return config.get("languages", {}).get("locale_names", {})
 
 
 def setup_logging(log_level: str = "INFO") -> None:
@@ -421,7 +415,7 @@ def main():
     )
     parser.add_argument(
         "--config",
-        default=".github/config/translate.toml",
+        default=".github/config/config.toml",
         help="Path to configuration file"
     )
     parser.add_argument(
@@ -463,6 +457,10 @@ def main():
     try:
         # Load configuration first
         config = load_config(args.config)
+        
+        # Load language names from config
+        global LANGUAGE_NAMES
+        LANGUAGE_NAMES = load_language_names_from_config(config)
         
         # Setup logging with config-based or command-line level
         log_config = config.get("logging", {})

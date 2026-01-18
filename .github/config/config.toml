@@ -1,0 +1,46 @@
+
+[languages]
+# Supported languages for translation
+# Format: language_code (e.g., "enUS", "zhCN", "zhTW", etc.)
+supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR"]
+
+[languages.locale_names]
+enUS = "English (US)"
+zhCN = "Simplified Chinese"
+zhTW = "Traditional Chinese"
+ruRU = "Russian"
+jaJP = "Japanese"
+frFR = "French"
+deDE = "German"
+plPL = "Polish"
+ptBR = "Brazilian Portuguese"
+koKR = "Korean"
+
+[build]
+protect_string_ids_file = "enUS.txt"
+extra_protect_string_ids = ["Beaver.NamePool"]
+meta_keys = ["raw", "prompt", "new", "name", "field_prompt"]
+
+[rate_limiter]
+# Maximum requests per minute (RPM)
+max_requests_per_minute = 4000
+
+# Number of concurrent translation threads
+max_threads = 50
+
+[llm]
+# LLM model to use for translation
+model = "gpt-4o-mini"
+
+# API endpoint (OpenAI-compatible)
+api_url = "https://api.openai.com/v1/chat/completions"
+
+# Minimum text length to translate
+min_length = 1
+
+# Maximum text length to translate
+max_length = 5000
+
+[logging]
+# Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+level = "INFO"

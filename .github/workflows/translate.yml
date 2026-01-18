@@ -47,7 +47,7 @@ jobs:
           
           # Run translation without time limit
           python .github/scripts/translate_mods.py \
-            --config .github/config/translate.toml \
+            --config .github/config/config.toml \
             --data-dir data \
             --log-file "$LOG_FILE" || EXIT_CODE=$?
           
