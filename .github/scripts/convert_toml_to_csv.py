@@ -7,23 +7,57 @@ import toml
 import csv
 import shutil
 import sys
+import logging
 from pathlib import Path
 
 
-def load_config(config_path=".github/config/config.toml"):
+def setup_logger():
+    """Setup logger with console and file handlers"""
+    logger = logging.getLogger('toml_converter')
+    logger.setLevel(logging.INFO)
+    
+    # Remove existing handlers to avoid duplicates
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+    
+    # Console handler for all messages
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(logging.INFO)
+    console_formatter = logging.Formatter('[%(levelname)s] %(message)s')
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
+    
+    # File handler for warnings and errors only
+    warnings_errors_file = 'conversion_warnings_errors.log'
+    file_handler = logging.FileHandler(warnings_errors_file, mode='w', encoding='utf-8')
+    file_handler.setLevel(logging.WARNING)
+    file_formatter = logging.Formatter('[%(levelname)s] %(message)s')
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
+    
+    return logger, warnings_errors_file
+
+
+def load_config(config_path=".github/config/config.toml", logger=None):
     """Load configuration from TOML file"""
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             return toml.load(f)
     except FileNotFoundError:
-        print(f"[ERROR] Configuration file not found: {config_path}")
+        if logger:
+            logger.error(f"Configuration file not found: {config_path}")
+        else:
+            print(f"[ERROR] Configuration file not found: {config_path}")
         return {}
     except Exception as e:
-        print(f"[ERROR] Failed to load configuration: {e}")
+        if logger:
+            logger.error(f"Failed to load configuration: {e}")
+        else:
+            print(f"[ERROR] Failed to load configuration: {e}")
         return {}
 
 
-def load_protected_fields_from_csv(csv_path):
+def load_protected_fields_from_csv(csv_path, logger=None):
     """Load protected field IDs from CSV file"""
     protected_fields = set()
     try:
@@ -32,15 +66,24 @@ def load_protected_fields_from_csv(csv_path):
             for row in reader:
                 if 'ID' in row and row['ID'].strip():
                     protected_fields.add(row['ID'].strip())
-        print(f"[Info] Loaded {len(protected_fields)} protected fields from {csv_path}")
+        if logger:
+            logger.info(f"Loaded {len(protected_fields)} protected fields from {csv_path}")
+        else:
+            print(f"[Info] Loaded {len(protected_fields)} protected fields from {csv_path}")
     except FileNotFoundError:
-        print(f"[WARNING] Protected strings file not found: {csv_path}")
+        if logger:
+            logger.warning(f"Protected strings file not found: {csv_path}")
+        else:
+            print(f"[WARNING] Protected strings file not found: {csv_path}")
     except Exception as e:
-        print(f"[ERROR] Failed to load protected fields from {csv_path}: {e}")
+        if logger:
+            logger.error(f"Failed to load protected fields from {csv_path}: {e}")
+        else:
+            print(f"[ERROR] Failed to load protected fields from {csv_path}: {e}")
     return protected_fields
 
 
-def get_protected_fields(config):
+def get_protected_fields(config, logger=None):
     """Get all protected fields from config and CSV file"""
     protected_fields = set()
     
@@ -55,42 +98,54 @@ def get_protected_fields(config):
     protect_file = build_config.get("protect_string_ids_file")
     if protect_file:
         csv_path = f".github/config/{protect_file}"
-        csv_protected_fields = load_protected_fields_from_csv(csv_path)
+        csv_protected_fields = load_protected_fields_from_csv(csv_path, logger)
         protected_fields.update(csv_protected_fields)
     
-    print(f"[Info] Total protected fields: {len(protected_fields)}")
+    if logger:
+        logger.info(f"Total protected fields: {len(protected_fields)}")
+    else:
+        print(f"[Info] Total protected fields: {len(protected_fields)}")
     return protected_fields
 
 
-def get_supported_languages(config):
+def get_supported_languages(config, logger=None):
     """Get supported languages from config"""
     languages = config.get("languages", {}).get("supported", [])
     if not languages:
-        print("[WARNING] No supported languages found in config, using fallback list")
+        if logger:
+            logger.warning("No supported languages found in config, using fallback list")
+        else:
+            print("[WARNING] No supported languages found in config, using fallback list")
         languages = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR"]
     
-    print(f"[Info] Using languages: {', '.join(languages)}")
+    if logger:
+        logger.info(f"Using languages: {', '.join(languages)}")
+    else:
+        print(f"[Info] Using languages: {', '.join(languages)}")
     return set(languages)
 
 
 def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.toml"):
     """将TOML文件转换为CSV文件"""
     
-    # Load configuration
-    config = load_config(config_path)
-    if not config:
-        print("[ERROR] Failed to load configuration, exiting")
-        return
+    # Setup logger
+    logger, warnings_errors_file = setup_logger()
     
-    protected_fields = get_protected_fields(config)
-    supported_languages = get_supported_languages(config)
+    # Load configuration
+    config = load_config(config_path, logger)
+    if not config:
+        logger.error("Failed to load configuration, exiting")
+        return warnings_errors_file
+    
+    protected_fields = get_protected_fields(config, logger)
+    supported_languages = get_supported_languages(config, logger)
 
     for file_name in os.listdir(data_dir):
         if file_name.endswith(".toml"):
             # 提取 mod_id（不再区分版本）
             match = re.search(r"(\d+)\.toml", file_name)
             if not match:
-                print(f"Skipping file {file_name}: does not match expected pattern")
+                logger.warning(f"Skipping file {file_name}: does not match expected pattern")
                 continue
             mod_id = match.group(1)
             
@@ -115,7 +170,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                 all_languages = available_languages
                 
                 if not all_languages:
-                    print(f"[Info] No supported language translations found in {file_name}")
+                    logger.info(f"No supported language translations found in {file_name}")
                     continue
                 
                 # 为每种语言生成 CSV 文件
@@ -137,23 +192,26 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                                 # 检查空字符串并输出警告
                                 if not translation_text or not translation_text.strip():
                                     empty_entries_count += 1
-                                    print(f"[Warning] Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                    logger.warning(f"Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 else:
                                     # 如果文本以空格开头，为其添加双引号以防止游戏忽略前导空格
                                     processed_text = translation_text
                                     if translation_text.startswith(' '):
                                         processed_text = f'"{translation_text}"'
-                                        print(f"[Info] Added quotes to preserve leading space for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                        logger.info(f"Added quotes to preserve leading space for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                     
                                     writer.writerow([translation_key, processed_text, "-"])
                     
                     if empty_entries_count > 0:
-                        print(f"[Info] Skipped {empty_entries_count} empty entries for {lang_code} in {file_name}")
+                        logger.info(f"Skipped {empty_entries_count} empty entries for {lang_code} in {file_name}")
                     
                     generated_files.append((csv_file_name, csv_path))
                         
             except Exception as e:
-                print(f"[ERROR] Failed to process {toml_path}: {e}")
+                logger.error(f"Failed to process {toml_path}: {e}")
+    
+    return warnings_errors_file
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3 or len(sys.argv) > 4:
@@ -164,4 +222,7 @@ if __name__ == "__main__":
     mod_dir = sys.argv[2]
     config_path = sys.argv[3] if len(sys.argv) > 3 else ".github/config/config.toml"
     
-    convert_toml_to_csv(data_dir, mod_dir, config_path)
+    warnings_errors_file = convert_toml_to_csv(data_dir, mod_dir, config_path)
+    
+    # Print the warnings/errors file path for the workflow to use
+    print(f"WARNINGS_ERRORS_FILE={warnings_errors_file}")

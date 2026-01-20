@@ -147,13 +147,28 @@ jobs:
           # Create mod directory structure
           mkdir -p mod/Localizations
           
-          # Define log file path and store in environment for later steps
-          LOG_FILE="python_conversion.log"
-          echo "PYTHON_LOG_FILE=$LOG_FILE" >> $GITHUB_ENV
+          # Run conversion script - Python will handle logging
+          CONVERSION_OUTPUT=$(python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1)
+          echo "$CONVERSION_OUTPUT"
           
-          # Run conversion script and capture output
-          python3 .github/scripts/convert_toml_to_csv.py data mod 2>&1 | tee "$LOG_FILE"
+          # Extract warnings/errors file path from Python output
+          WARNINGS_ERRORS_FILE=$(echo "$CONVERSION_OUTPUT" | grep "WARNINGS_ERRORS_FILE=" | cut -d'=' -f2)
+          if [ -n "$WARNINGS_ERRORS_FILE" ]; then
+            echo "PYTHON_LOG_FILE=$WARNINGS_ERRORS_FILE" >> $GITHUB_ENV
+            echo "Warnings/errors logged to: $WARNINGS_ERRORS_FILE"
+            
+            # Show summary if file has content
+            if [ -f "$WARNINGS_ERRORS_FILE" ] && [ -s "$WARNINGS_ERRORS_FILE" ]; then
+              ISSUES_COUNT=$(wc -l < "$WARNINGS_ERRORS_FILE")
+              echo "Found $ISSUES_COUNT warnings/errors for release notes"
+            else
+              echo "No warnings or errors found"
+            fi
+          else
+            echo "Warning: Could not determine warnings/errors file path"
+          fi
           
+          echo "=========================================="
           echo "TOML to CSV conversion completed"
 
       - name: Update manifest version
@@ -165,7 +180,6 @@ jobs:
           if [ -f "info/manifest.json" ]; then
             # Use jq to safely update the Version field
             TMP_FILE=$(mktemp)
-            jq --arg version "$NEW_VERSION" '.Version = $version' info/manifest.json > "$TMP_FILE"
             if [ $? -eq 0 ]; then
               mv "$TMP_FILE" info/manifest.json
               echo "Updated manifest.json to version $NEW_VERSION"
@@ -269,18 +283,23 @@ jobs:
             echo >> "$RELEASE_NOTES_FILE"
           fi
 
-          # Append build log if available
+          # Append filtered build log (warnings and errors only) if available
           if [ -n "${PYTHON_LOG_FILE:-}" ] && [ -f "$PYTHON_LOG_FILE" ]; then
-            echo "## 🔧 Build Details" >> "$RELEASE_NOTES_FILE"
-            echo >> "$RELEASE_NOTES_FILE"
-            echo "<details>" >> "$RELEASE_NOTES_FILE"
-            echo "<summary>📋 View Build Log</summary>" >> "$RELEASE_NOTES_FILE"
-            echo >> "$RELEASE_NOTES_FILE"
-            echo '```log' >> "$RELEASE_NOTES_FILE"
-            cat "$PYTHON_LOG_FILE" >> "$RELEASE_NOTES_FILE"
-            echo '```' >> "$RELEASE_NOTES_FILE"
-            echo "</details>" >> "$RELEASE_NOTES_FILE"
-            echo >> "$RELEASE_NOTES_FILE"
+            # Check if there are any warnings or errors to include
+            if [ -s "$PYTHON_LOG_FILE" ] && [ "$(cat "$PYTHON_LOG_FILE")" != "No warnings or errors found during conversion" ]; then
+              echo "## ⚠️ Build Issues" >> "$RELEASE_NOTES_FILE"
+              echo >> "$RELEASE_NOTES_FILE"
+              echo "The following warnings and errors were found during conversion:" >> "$RELEASE_NOTES_FILE"
+              echo >> "$RELEASE_NOTES_FILE"
+              echo "<details>" >> "$RELEASE_NOTES_FILE"
+              echo "<summary>📋 View Issues</summary>" >> "$RELEASE_NOTES_FILE"
+              echo >> "$RELEASE_NOTES_FILE"
+              echo '```log' >> "$RELEASE_NOTES_FILE"
+              cat "$PYTHON_LOG_FILE" >> "$RELEASE_NOTES_FILE"
+              echo '```' >> "$RELEASE_NOTES_FILE"
+              echo "</details>" >> "$RELEASE_NOTES_FILE"
+              echo >> "$RELEASE_NOTES_FILE"
+            fi
           fi
           
           # Save changelog to info/changelog.md for other platforms
