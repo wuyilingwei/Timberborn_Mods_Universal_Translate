@@ -57,3 +57,34 @@ The content that is not accepted for translation is:
 
  - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified.
  - Any content that violates public order and morals will not be translated to avoid potential problems. This includes but is not limited to: racial discrimination, adult content, etc.
+
+## Translation Features
+
+### Glossary Support
+
+The translation system now supports a glossary file (`glossary.toml`) for consistent translation of key terms. The glossary provides direct mappings for game-specific vocabulary like "Timberborn", "Beaver", "District", etc.
+
+**How it works:**
+- The glossary is automatically loaded and applied during translation
+- Terms in the glossary are replaced in translations when a "new" field is being processed
+- You can add more terms to `glossary.toml` following the existing format
+
+**Example glossary entry:**
+```toml
+["Timberborn"]
+zhCN = "海狸浮生记"
+zhTW = "海狸浮生記"
+# ... other languages
+```
+
+### Optimized Multi-threading
+
+Translation processing has been optimized for better performance:
+
+- **Per-language parallelization**: When translating a single mod, all languages are now processed in parallel
+- **Faster single-mod translation**: Ideal for quick updates to individual mods
+- **Configurable**: Use `--max-threads` to control file-level parallelization if needed
+
+### Licensing
+
+Scripts and build files in the `.github` directory are licensed under the [ANTI-LABOR EXPLOITATION LICENSE 1.1 in combination with GNU General Public License v3.0](/.github/LICENSE). This ensures ethical use and protection of contributors' rights.
