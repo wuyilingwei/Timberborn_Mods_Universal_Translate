@@ -70,6 +70,13 @@ The translation system supports both global and mod-local glossaries for consist
 - Terms are replaced in the source text BEFORE LLM translation (preprocessing)
 - Replacements are done from longest to shortest to avoid partial replacements
 
+**Advanced Glossary Features:**
+1. **Automatic Replacement**: Exact matches are replaced with translations before LLM
+2. **Fuzzy Matching**: Terms with 10+ characters allow up to 2 character differences (e.g., "SpecalResource" matches "SpecialResource")
+3. **Hint Generation**: When a term has no translation for target language, provides reference from first available language in priority order
+4. **Skip Hints Flag**: Prevent hints for specific terms (e.g., proper names that shouldn't show alternatives)
+5. **Language Priority**: Hints show only the first available language from config order (e.g., if zhCN available, won't show zhTW)
+
 **Mod-Local Glossary:**
 - Individual mods can define their own glossary terms in a `[_meta]` section
 - Local glossary terms override global glossary (when there's a conflict)
@@ -85,14 +92,16 @@ prompt = "Optional extra hints"  # No field_ prefix
 # Optional: Override mod name if needed
 # name = "Different Display Name"
 
-# Optional: Additional prompts (not used by translation script)
-# prompt = "Extra translation hints"
-
 # Mod-local glossary - overrides global glossary terms
 [_meta.glossary."CustomTerm"]
 zhCN = "自定义术语"
 zhTW = "自訂術語"
 # Only define the languages you need
+
+# Advanced: Skip hints for proper names
+[_meta.glossary."ProperName"]
+skip_hints = true
+translations = { zhCN = "专有名称" }
 
 ["ModEntry.Key"]
 raw = "Some text with CustomTerm"
@@ -107,6 +116,14 @@ zhCN = "海狸浮生记"
 zhTW = "海狸浮生記"
 # ... other languages
 ```
+
+**How It Works:**
+1. Source text: `"Build Timberborn with Beaver"`
+2. Exact matches replaced: `"Build 海狸浮生记 with 海狸"` (for zhCN)
+3. If term has no zhCN translation, add hint: `Term "Example" in enUS: Example Text`
+4. Fuzzy matches (10+ chars) add hints: `Term "SpecialResource" (fuzzy match) in zhCN: 特殊资源`
+5. Preprocessed text + hints sent to LLM for translation
+
 
 ### Optimized Multi-threading
 

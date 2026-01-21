@@ -3,6 +3,17 @@
 # Format: ["term_in_english"]
 #         language_code = "translated_term"
 #
+# Advanced features:
+# - Partial language definitions: Only define languages you need
+# - Fuzzy matching: For terms with 10+ characters, allows up to 2 character differences
+# - skip_hints flag: Prevent hints for specific terms (e.g., proper names)
+# - Language priority: Hints show only the first available language from config order
+#
+# Example with skip_hints (for proper names that shouldn't show hints):
+# ["ProperName"]
+# skip_hints = true
+# translations = { zhCN = "专有名称", zhTW = "專有名稱" }
+#
 # Note: Individual mods can override these with mod-local glossaries.
 # See README for details on mod-local glossary structure.
 

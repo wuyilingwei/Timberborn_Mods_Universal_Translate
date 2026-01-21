@@ -130,7 +130,144 @@ def merge_glossaries(global_glossary: Dict[str, Dict[str, str]],
     return merged
 
 
-def apply_glossary_to_source(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
+def fuzzy_match_term(text: str, term: str, tolerance: int = 2) -> bool:
+    """
+    Check if a term fuzzy matches text with a given tolerance
+    For terms with 10+ characters, allows up to 'tolerance' character differences
+    
+    Args:
+        text: Text to search in
+        term: Term to match
+        tolerance: Maximum character differences allowed (default: 2)
+        
+    Returns:
+        True if fuzzy match found, False otherwise
+    """
+    if len(term) < 10:
+        # Only exact match for short terms
+        return term in text
+    
+    # For longer terms, check fuzzy match
+    from difflib import SequenceMatcher
+    
+    # Check if term appears with minor variations
+    text_lower = text.lower()
+    term_lower = term.lower()
+    
+    # Try to find the term or similar substring
+    for i in range(len(text) - len(term) + tolerance + 1):
+        for length in range(max(len(term) - tolerance, 1), len(term) + tolerance + 1):
+            if i + length > len(text):
+                continue
+            substring = text[i:i+length]
+            
+            # Calculate similarity
+            matcher = SequenceMatcher(None, term_lower, substring.lower())
+            ratio = matcher.ratio()
+            
+            # If very similar (allowing for tolerance characters difference)
+            max_diff = tolerance / len(term)
+            if ratio >= (1 - max_diff):
+                return True
+    
+    return False
+
+
+def generate_glossary_hints(
+    text: str,
+    target_language: str,
+    glossary: Dict[str, Dict[str, str]],
+    language_priority: List[str],
+    fuzzy_tolerance: int = 2
+) -> Tuple[str, List[str]]:
+    """
+    Apply glossary replacements and generate hints for missing translations
+    
+    Args:
+        text: Source text to process
+        target_language: Target language code
+        glossary: Glossary dictionary with English keys and translations
+        language_priority: Ordered list of languages (only show first available)
+        fuzzy_tolerance: Tolerance for fuzzy matching (default: 2 characters)
+        
+    Returns:
+        Tuple of (preprocessed_text, list of glossary hints)
+    """
+    if not glossary or not text:
+        return text, []
+    
+    # Sort terms by length (longest first) to avoid partial replacements
+    sorted_terms = sorted(glossary.keys(), key=len, reverse=True)
+    
+    result = text
+    hints = []
+    processed_terms = set()
+    
+    for term in sorted_terms:
+        term_data = glossary.get(term, {})
+        
+        # Skip if this is a dictionary with special flags
+        skip_hints = False
+        translations = {}
+        
+        # Check if term_data has special structure with 'translations' key
+        if isinstance(term_data, dict):
+            if 'skip_hints' in term_data:
+                skip_hints = term_data.get('skip_hints', False)
+                translations = term_data.get('translations', {})
+            else:
+                # Regular format: term_data is the translations dict
+                translations = term_data
+        
+        # Check for exact match
+        if term in text:
+            if target_language in translations:
+                # Exact match with translation available - replace
+                result = result.replace(term, translations[target_language])
+                processed_terms.add(term)
+            elif not skip_hints and translations:
+                # Exact match but no translation for target language - add hint
+                # Only show the first available language from priority list
+                first_available = None
+                for lang in language_priority:
+                    if lang in translations:
+                        first_available = lang
+                        break
+                
+                if first_available:
+                    hint = f'Term "{term}" in {first_available}: {translations[first_available]}'
+                    hints.append(hint)
+                    processed_terms.add(term)
+        
+        # Check for fuzzy match (only for longer terms not already processed)
+        elif len(term) >= 10 and term not in processed_terms:
+            if fuzzy_match_term(text, term, fuzzy_tolerance):
+                # Fuzzy match found - add as hint (don't replace)
+                if target_language in translations:
+                    hint = f'Term "{term}" (fuzzy match) translates to "{translations[target_language]}" in {target_language}'
+                    hints.append(hint)
+                elif not skip_hints and translations:
+                    # Only show the first available language from priority list
+                    first_available = None
+                    for lang in language_priority:
+                        if lang in translations:
+                            first_available = lang
+                            break
+                    
+                    if first_available:
+                        hint = f'Term "{term}" (fuzzy match) in {first_available}: {translations[first_available]}'
+                        hints.append(hint)
+                processed_terms.add(term)
+    
+    return result, hints
+
+
+def apply_glossary_to_source(
+    text: str, 
+    target_language: str, 
+    glossary: Dict[str, Dict[str, str]],
+    language_priority: Optional[List[str]] = None
+) -> str:
     """
     Apply glossary replacements to source text before translation
     Replaces English glossary terms with their target language translations
@@ -140,6 +277,7 @@ def apply_glossary_to_source(text: str, target_language: str, glossary: Dict[str
         text: Source text to process (in English)
         target_language: Target language code for glossary lookup
         glossary: Glossary dictionary with English keys and language translations
+        language_priority: Ordered list of languages for hint priority
         
     Returns:
         Text with English glossary terms replaced with target language translations
@@ -147,17 +285,12 @@ def apply_glossary_to_source(text: str, target_language: str, glossary: Dict[str
     if not glossary or not text:
         return text
     
-    # Sort terms by length (longest first) to avoid partial replacements
-    sorted_terms = sorted(glossary.keys(), key=len, reverse=True)
+    # Use the new generate_glossary_hints function but only return preprocessed text
+    if language_priority is None:
+        language_priority = [target_language]
     
-    result = text
-    for term in sorted_terms:
-        translations = glossary.get(term, {})
-        if target_language in translations:
-            # Replace English term with target language translation
-            result = result.replace(term, translations[target_language])
-    
-    return result
+    preprocessed_text, _ = generate_glossary_hints(text, target_language, glossary, language_priority)
+    return preprocessed_text
 
 
 def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
@@ -196,10 +329,14 @@ def build_translation_prompt(
     raw: Optional[str] = None,
     current_translation: Optional[str] = None,
     prompt: Optional[str] = None,
-    specific_prompt: Optional[str] = None
+    specific_prompt: Optional[str] = None,
+    glossary_hints: Optional[List[str]] = None
 ) -> Tuple[str, str]:
     """
     Build system and user prompts for translation
+    
+    Args:
+        glossary_hints: Optional list of glossary hints to include in prompt
     
     Returns:
         Tuple of (system_prompt, user_prompt)
@@ -228,6 +365,11 @@ def build_translation_prompt(
     
     if specific_prompt:
         prompt_parts.append(f'Specific Note: {specific_prompt}')
+    
+    # Add glossary hints if available
+    if glossary_hints:
+        for hint in glossary_hints:
+            prompt_parts.append(f'Glossary Reference: {hint}')
     
     user_prompt = " - ".join(prompt_parts)
     
@@ -269,7 +411,8 @@ def translate_entry(
     target_lang: str,
     mod_name: str,
     prompt: Optional[str] = None,
-    glossary: Optional[Dict[str, Dict[str, str]]] = None
+    glossary: Optional[Dict[str, Dict[str, str]]] = None,
+    language_priority: Optional[List[str]] = None
 ) -> Optional[str]:
     """
     Translate a single entry for a specific language
@@ -277,6 +420,7 @@ def translate_entry(
     Args:
         prompt: Optional prompt hint for translation context
         glossary: Optional merged glossary (global + local) to apply before translation
+        language_priority: Ordered list of languages for glossary hint priority
     
     Returns:
         Translated text or None if translation not needed/failed
@@ -304,19 +448,33 @@ def translate_entry(
             logger.warning(f"Entry {key} has no 'raw' or 'new' field to translate from")
             return None
     
-    # Apply glossary to source text BEFORE translation (if translating a "new" field)
+    # Apply glossary to source text BEFORE translation with hints (if translating a "new" field)
     preprocessed_text = text_to_translate
+    glossary_hints = []
+    
     if has_new_field and glossary:
-        preprocessed_text = apply_glossary_to_source(text_to_translate, target_lang, glossary)
+        if language_priority is None:
+            language_priority = [target_lang]
+        
+        preprocessed_text, glossary_hints = generate_glossary_hints(
+            text_to_translate, 
+            target_lang, 
+            glossary,
+            language_priority
+        )
+        
         if preprocessed_text != text_to_translate:
             logger.debug(f"Glossary preprocessing for {target_lang}: '{text_to_translate}' -> '{preprocessed_text}'")
+        
+        if glossary_hints:
+            logger.debug(f"Generated {len(glossary_hints)} glossary hints for {key}")
     
     # Get context information
     raw = entry.get("raw")
     current_translation = entry.get(target_lang)
     specific_prompt = entry.get("prompt")
     
-    # Build prompts
+    # Build prompts with glossary hints
     system_prompt, user_prompt = build_translation_prompt(
         key=key,
         new_text=preprocessed_text,  # Use preprocessed text with glossary applied
@@ -325,7 +483,8 @@ def translate_entry(
         raw=raw if has_new_field and raw != text_to_translate else None,  # Only show old text if different from new
         current_translation=current_translation,
         prompt=prompt,
-        specific_prompt=specific_prompt
+        specific_prompt=specific_prompt,
+        glossary_hints=glossary_hints if glossary_hints else None
     )
     
     # Translate with preprocessed text
@@ -432,7 +591,8 @@ def process_toml_file(
                     target_lang=lang,
                     mod_name=mod_name,
                     prompt=prompt,  # Changed from field_prompt to prompt
-                    glossary=merged_glossary
+                    glossary=merged_glossary,
+                    language_priority=target_languages
                 ): lang
                 for lang in languages_to_translate
             }
