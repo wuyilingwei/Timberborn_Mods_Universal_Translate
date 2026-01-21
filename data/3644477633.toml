@@ -1,1 +1,17 @@
-name = "Unknown"
+name = "Construction Notifier"
+
+["LV.CSN.NotifyToggle"]
+new = "Notify on completion"
+status = "normal"
+
+["LV.CSN.NotifyMsg"]
+new = "Construction of {0} has completed."
+status = "normal"
+
+["LV.CSN.SelectFocus"]
+new = "Select and focus"
+status = "normal"
+
+["LV.CSN.NonBlocking"]
+new = "Non-blocking notification"
+status = "normal"

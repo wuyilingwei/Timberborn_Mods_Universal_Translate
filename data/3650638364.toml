@@ -1,1 +1,329 @@
-name = "Unknown"
+name = "Blueprint Relics"
+
+[Name_BlueprintRelicFragment]
+new = "Blueprint Relic"
+status = "normal"
+
+["LV.BRe.SmallBuildingName"]
+new = "Small Blueprint Relic"
+status = "normal"
+
+["LV.BRe.MediumBuildingName"]
+new = "Medium Blueprint Relic"
+status = "normal"
+
+["LV.BRe.LargeBuildingName"]
+new = "Large Blueprint Relic"
+status = "normal"
+
+["LV.BRe.BuildingDesc"]
+new = "Ancient technology that can be excavated to unlock alternate recipes."
+status = "normal"
+
+["LV.BRe.BuildingFlavor"]
+new = "Apparently, hoomans labeled everything."
+status = "normal"
+
+["LV.BRe.SpawnNotif"]
+new = "A {0} has been discovered!"
+status = "normal"
+
+["LV.BRe.ExpiresIn"]
+new = "Relic expires in {0}d"
+status = "normal"
+
+["LV.BRe.ConnectPrompt"]
+new = "Connect this relic to a district path to excavate it."
+status = "normal"
+
+["LV.BRe.PauseExcavation"]
+new = "Pause: do not collect resources."
+status = "normal"
+
+["LV.BRe.Connected"]
+new = "This relic is being excavated with resources from {0}"
+status = "normal"
+
+["LV.BRe.ExcSteps"]
+new = "{0}/{1} steps completed."
+status = "normal"
+
+["LV.BRe.CurrStep"]
+new = "Excavating: {0}d remaining"
+status = "normal"
+
+["LV.BRe.ExcInfo"]
+new = "While a relic is being excavated, the expiration timer is paused. Each step requires:"
+status = "normal"
+
+["LV.BRe.Negotiate"]
+new = "Negotiate requirements"
+status = "normal"
+
+["LV.BRe.NegotiateConfirm"]
+new = "Are you sure you want to <b>negotiate</b> the excavation requirements?\nThe cost will be changed but <RedHighlight>any progress made so far will be lost</RedHighlight>.\nAfter negotiation, you cannot make another one for {0} days."
+status = "normal"
+
+["LV.BRe.NegotiateCooldown"]
+new = "Negotiation cooldown: {0}h"
+status = "normal"
+
+["LV.BRe.RelicExpired"]
+new = "The {0} has expired."
+status = "normal"
+
+["LV.BRe.StatusNoMaterial"]
+new = "Missing required materials."
+status = "normal"
+
+["LV.BRe.StatusNoMaterialShort"]
+new = "Excavation lacks materials"
+status = "normal"
+
+["LV.BRe.StatusExcavationFinished"]
+new = "Excavation finished, you can collect your reward!"
+status = "normal"
+
+["LV.BRe.StatusExcavationFinishedShort"]
+new = "Blueprint ready!"
+status = "normal"
+
+["LV.BRe.ChooseReward"]
+new = "Choose your reward"
+status = "normal"
+
+["LV.BRe.DigMore"]
+new = "Dig deeper"
+status = "normal"
+
+["LV.BRe.DigMoreDesc"]
+new = "Abandon the current rewards and excavate again to discover new ones. <RedHighlight>All excavation steps must be completed again</RedHighlight>."
+status = "normal"
+
+["LV.BRe.DigConfirm"]
+new = "Are you sure you want to abandon the current rewards and excavate again? <RedHighlight>All excavation progress will be reset</RedHighlight>."
+status = "normal"
+
+["LV.BRe.RewardUnlock"]
+new = "New recipe"
+status = "normal"
+
+["LV.BRe.RewardCapacity"]
+new = "Capacity upgrade"
+status = "normal"
+
+["LV.BRe.RewardTimeReduction"]
+new = "Time reduction"
+status = "normal"
+
+["LV.BRe.RewardOutput"]
+new = "Output increase"
+status = "normal"
+
+["LV.BRe.RewardScience"]
+new = "Bonus Science"
+status = "normal"
+
+["LV.BRe.Rarity_Common"]
+new = "Common"
+status = "normal"
+
+["LV.BRe.Rarity_Uncommon"]
+new = "Uncommon"
+status = "normal"
+
+["LV.BRe.Rarity_Rare"]
+new = "Rare"
+status = "normal"
+
+["LV.BRe.RecipeTitle"]
+new = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
+status = "normal"
+
+["LV.BRe.ConfirmReward"]
+new = "Confirm your reward"
+status = "normal"
+
+["LV.BRe.RecipeHours"]
+new = "🕘 {0}h"
+status = "normal"
+
+["LV.BRe.RecipeCapacity"]
+new = "Capacity: {0} cycles:"
+status = "normal"
+
+["LV.BRe.RecipeUpgrading"]
+new = "Upgraded stat:"
+status = "normal"
+
+["LV.BRe.RecipeCurrent"]
+new = "Current stat:"
+status = "normal"
+
+["LV.BRe.ScienceRewardDesc"]
+new = "Gain <YellowHighlight>{0} Science</YellowHighlight>."
+status = "normal"
+
+["LV.BRe.CapacityUpgradeDesc"]
+new = "Increase the recipe capacity by <b>{0:+0%}</b>."
+status = "normal"
+
+["LV.BRe.TimeReductionDesc"]
+new = "Reduce the recipe time by <b>{0:-0%}</b>."
+status = "normal"
+
+["LV.BRe.OutputIncreaseDesc"]
+new = "Increase a recipe output by <b>{0:+0}</b>."
+status = "normal"
+
+["LV.BRe.UnlockRecipes"]
+new = "Unlocked recipes"
+status = "normal"
+
+["LV.BRe.UpgradedRecipes"]
+new = "Upgraded recipes"
+status = "normal"
+
+["LV.BRe.FuelCapacity"]
+new = "Fuel capacity: {0}"
+status = "normal"
+
+["LV.BRe.OpenUpgradeDialog"]
+new = "All unlocked"
+status = "normal"
+
+["LV.BRe.OpenUpgradeDialogHotKey"]
+new = "View Blueprint Relic Upgrades"
+status = "normal"
+
+["LV.BRe.OpenUpgradeDialogTitle"]
+new = "Blueprint Relic Upgrades"
+status = "normal"
+
+["LV.BRe.NoUpgrades"]
+new = "No upgrades unlocked"
+status = "normal"
+
+["LV.BRe.NoRecipes"]
+new = "No recipes unlocked"
+status = "normal"
+
+["LV.BRe.Recipe.WetPlank"]
+new = "Wet Plank"
+status = "normal"
+
+["LV.BRe.Recipe.PressurePressedExtract"]
+new = "Pressure Pressed Extract"
+status = "normal"
+
+["LV.BRe.Recipe.RoughCutGears"]
+new = "Rough-Cut Gears"
+status = "normal"
+
+["LV.BRe.Recipe.DirectGear"]
+new = "Direct Gear"
+status = "normal"
+
+["LV.BRe.Recipe.HardenedGears"]
+new = "Resin-hardened Gears"
+status = "normal"
+
+["LV.BRe.Recipe.StarchAssistedPaper"]
+new = "Starch-Assisted Paper"
+status = "normal"
+
+["LV.BRe.Recipe.ReclaimedLog"]
+new = "Reclaimed Log"
+status = "normal"
+
+["LV.BRe.Recipe.KilnDriedPlanks"]
+new = "Kiln-Dried Planks"
+status = "normal"
+
+["LV.BRe.Recipe.FermentedCasting"]
+new = "Fermented Casting"
+status = "normal"
+
+["LV.BRe.Recipe.ChemflameSmelting"]
+new = "Chemflame Smelting"
+status = "normal"
+
+["LV.BRe.Recipe.LaminatedCasting"]
+new = "Laminated Casting"
+status = "normal"
+
+["LV.BRe.Recipe.GreaseInjectedCasting"]
+new = "Grease-Injected Casting"
+status = "normal"
+
+["LV.BRe.Recipe.VacuumConcentration"]
+new = "Vacuum Concentration"
+status = "normal"
+
+["LV.BRe.Recipe.IntegratedChemicalProcessing"]
+new = "Integrated Chemical Processing"
+status = "normal"
+
+["LV.BRe.Recipe.BoilingExtract"]
+new = "Boiling Extract"
+status = "normal"
+
+["LV.BRe.Recipe.ExtractFueledExplosives"]
+new = "Golnor's Extract-Fueled Explosives"
+status = "normal"
+
+["LV.BRe.Recipe.IronchemPlank"]
+new = "Ironchem Plank"
+status = "normal"
+
+["LV.BRe.Recipe.CarefulReclamation"]
+new = "Careful Reclamation Treatment"
+status = "normal"
+
+["LV.BRe.Recipe.MillworkIntegration"]
+new = "Millwork Integration"
+status = "normal"
+
+["LV.BRe.Recipe.CaffeinatedEggplantRation"]
+new = "Caffeinated Eggplant Ration"
+status = "normal"
+
+["LV.BRe.Recipe.CaffeinatedAlgaeRation"]
+new = "Caffeinated Algae Ration"
+status = "normal"
+
+["LV.BRe.Recipe.CaffeinatedCornRation"]
+new = "Caffeinated Corn Ration"
+status = "normal"
+
+["LV.BRe.Recipe.SawdustBread"]
+new = "Sawdust Bread"
+status = "normal"
+
+["LV.BRe.Recipe.FlatBread"]
+new = "Flat Bread"
+status = "normal"
+
+["LV.BRe.Recipe.RoastedCattail"]
+new = "Roasted Cattail"
+status = "normal"
+
+["LV.BRe.Recipe.GrandForestBarbecue"]
+new = "Grand Forest Barbecue"
+status = "normal"
+
+["LV.BRe.Recipe.MixedGrainBaking"]
+new = "Mixed Grain Baking"
+status = "normal"
+
+["LV.BRe.Recipe.CornBoostedCanolaOil"]
+new = "Corn-Boosted Canola Oil"
+status = "normal"
+
+["LV.BRe.Recipe.CornCutCoffee"]
+new = "Corn-Cut Coffee"
+status = "normal"
+
+["LV.BRe.Recipe.DilutedCanolaOil"]
+new = "Diluted Canola Oil"
+status = "normal"
