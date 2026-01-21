@@ -1,4 +1,4 @@
-name = "Unknown"
+name = "Simple Workshop Control"
 
 ["UI.TW.SimpleWorkshopControl.Blocked"]
 raw = "Multiple control conditions unmet"
@@ -56,6 +56,14 @@ plPL = "Warunki kontroli użytkownika nie zostały spełnione"
 ptBR = "Condição de controle do usuário não atendida"
 koKR = "사용자 제어 조건이 충족되지 않음"
 
+["UI.TW.SimpleWorkshopControl.BlockedPlanting"]
+new = "Auto Planting condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedHarvest"]
+new = "Nothing suitable to harvest"
+status = "normal"
+
 ["UI.TW.SimpleWorkshopControl.SciencePoints"]
 raw = "Science Points"
 status = "abandoned"
@@ -97,6 +105,22 @@ deDE = "Castorpopulation"
 plPL = "Populacja Bobrów"
 ptBR = "População de Castores"
 koKR = "비버 인구"
+
+["UI.TW.SimpleWorkshopControl.BeaverGlobalPopulation"]
+new = "Beaver Pop, Global"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BeaverDistrictPopulation"]
+new = "Beaver Pop, District"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BotGlobalPopulation"]
+new = "Bot Pop, Global"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BotDistrictPopulation"]
+new = "Bot Pop, District"
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.WorkshopControls"]
 raw = "Workshop Controls"
@@ -156,6 +180,7 @@ koKR = "자동 제품"
 
 ["UI.TW.SimpleWorkshopControl.Controller"]
 raw = "User Control"
+new = "User Control:"
 status = "abandoned"
 enUS = "User Control"
 zhCN = "自定义控制"
@@ -168,47 +193,13 @@ plPL = "Kontrola Użytkownika"
 ptBR = "Controle do Usuário"
 koKR = "사용자 제어"
 
-["UI.TW.SimpleWorkshopControl.RangeType"]
-raw = "Scale"
-status = "abandoned"
-enUS = "Scale"
-zhCN = "阈值"
-zhTW = "比例"
-ruRU = "Масштаб"
-jaJP = "スケール"
-frFR = "Échelle"
-deDE = "Skala"
-plPL = "Skala"
-ptBR = "Escala"
-koKR = "배율"
+["UI.TW.SimpleWorkshopControl.AutoPlanting"]
+new = "Auto Planting"
+status = "normal"
 
-["UI.TW.SimpleWorkshopControl.Start"]
-raw = "Start"
-status = "abandoned"
-enUS = "Start"
-zhCN = "启用"
-zhTW = "開始"
-ruRU = "Начать"
-jaJP = "始める"
-frFR = "Commencer"
-deDE = "Start"
-plPL = "Start"
-ptBR = "Iniciar"
-koKR = "시작"
-
-["UI.TW.SimpleWorkshopControl.Stop"]
-raw = "Stop"
-status = "abandoned"
-enUS = "Stop"
-zhCN = "关停"
-zhTW = "停止"
-ruRU = "Стоп"
-jaJP = "停止"
-frFR = "Arrêter"
-deDE = "Stopp"
-plPL = "Zatrzymaj"
-ptBR = "Parar"
-koKR = "중지"
+["UI.TW.SimpleWorkshopControl.UseHarvestCheck"]
+new = "Check harvestable"
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.NullGoodId"]
 raw = "None"
@@ -252,6 +243,78 @@ plPL = "Wartość"
 ptBR = "Valor"
 koKR = "값"
 
+["UI.TW.SimpleWorkshopControl.Invert"]
+new = "Invert"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Start"]
+raw = "Start"
+status = "abandoned"
+enUS = "Start"
+zhCN = "启用"
+zhTW = "開始"
+ruRU = "Начать"
+jaJP = "始める"
+frFR = "Commencer"
+deDE = "Start"
+plPL = "Start"
+ptBR = "Iniciar"
+koKR = "시작"
+
+["UI.TW.SimpleWorkshopControl.Stop"]
+raw = "Stop"
+status = "abandoned"
+enUS = "Stop"
+zhCN = "关停"
+zhTW = "停止"
+ruRU = "Стоп"
+jaJP = "停止"
+frFR = "Arrêter"
+deDE = "Stopp"
+plPL = "Zatrzymaj"
+ptBR = "Parar"
+koKR = "중지"
+
+["UI.TW.SimpleWorkshopControl.CurrentStock"]
+new = "Stock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Capacity"]
+new = "Capacity"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.InfoHeader"]
+new = "Workshop Control Info"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtOrBelow"]
+new = "at or below"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtOrAbove"]
+new = "at or above"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Below"]
+new = "below"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Above"]
+new = "above"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.ZeroCapacityProductWarning"]
+new = "! Zero capacity product; building will run until private storage is full."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.ZeroCapacityIngredientWarning"]
+new = "! Zero capacity ingredient; control will compare available goods to recipe needs rather than to percent of capacity (applies to all ingredients)."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.GlobalInventoryFallback"]
+new = "No district available. Using global inventory."
+status = "normal"
+
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
 raw = "Show status icons"
 status = "abandoned"
@@ -279,6 +342,10 @@ deDE = "Ein Statussymbol wird über blockierten Gebäuden angezeigt."
 plPL = "Ikona statusu pojawi się nad zablokowanymi budynkami"
 ptBR = "Um ícone de status aparecerá acima dos edifícios bloqueados"
 koKR = "차단된 건물 위에 상태 아이콘이 나타납니다."
+
+["ModSetting.TWSimpleWorkshopControl.Spacer"]
+new = " "
+status = "normal"
 
 ["ModSetting.TWSimpleWorkshopControl.RequireInputsDefault"]
 raw = "Auto ingredients default"
@@ -338,6 +405,7 @@ koKR = "신축된 건물은 자동 제품 기능이 활성화된 상태로 시�
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStart"]
 raw = "Auto ingredient Start default"
+new = "Auto ingredients Start default"
 status = "abandoned"
 enUS = "Auto ingredient Start default"
 zhCN = "原料控制建筑启动阈值"
@@ -366,6 +434,7 @@ koKR = "자동 재료 건물은 모든 재료가 글로벌 용량의 이 비율�
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStop"]
 raw = "Auto ingredient Stop default"
+new = "Auto ingredients Stop default"
 status = "abandoned"
 enUS = "Auto ingredient Stop default"
 zhCN = "原料控制建筑关停阈值"
@@ -394,6 +463,7 @@ koKR = "자동 재료 건물은 모든 재료가 전역 용량의 이 비율 이
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStart"]
 raw = "Auto product Start default"
+new = "Auto products Start default"
 status = "abandoned"
 enUS = "Auto product Start default"
 zhCN = "产物控制建筑启动阈值"
@@ -422,6 +492,7 @@ koKR = "자동 제품 건물은 모든 제품이 전 세계 용량의 이 백분
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStop"]
 raw = "Auto product Stop default"
+new = "Auto products Stop default"
 status = "abandoned"
 enUS = "Auto product Stop default"
 zhCN = "产物控制建筑关停阈值"
@@ -436,6 +507,7 @@ koKR = "자동 제품 중지 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStopDesc"]
 raw = "Auto product buidlings will stop when any product is above this percent of global capacity"
+new = "Auto product buildings will stop when any product is above this percent of global capacity"
 status = "abandoned"
 enUS = "Auto product buidlings will stop when any product is above this percent of global capacity"
 zhCN = "当任何产物高于此全局库存百分比时，“受产物控制”建筑将关停"
@@ -503,6 +575,232 @@ deDE = "Steuert, wie viel Platz der Steuerungsbereich im Entitäten-Panel nutzen
 plPL = "Kontroluje, ile miejsca fragment kontrolny może wykorzystać w panelu encji."
 ptBR = "Controla quanto espaço o fragmento de controle pode usar no painel da entidade"
 koKR = "엔티티 패널에서 제어 조각이 사용할 수 있는 공간의 양을 조절합니다."
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefault"]
+new = "Auto planting default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefaultDesc"]
+new = "Newly constructed buildings will start with Auto Planting enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoPlantingCooldown"]
+new = "Cooldown:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.HarvestCheckCooldown"]
+new = "Cooldown:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseGlobalInventory"]
+new = "Global Inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GlobalInventory"]
+new = "Use global inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GlobalInventoryDesc"]
+new = "Use global inventory rather than district inventory."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventory"]
+new = "Per-building global inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventoryDesc"]
+new = "Select global or district inventory on each building. The 'use global inventory' setting above this one will be used as the default for new buildings."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GoodsMax"]
+new = "Goods slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GoodsMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PopulationMax"]
+new = "Population slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PopulationMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceMax"]
+new = "Science slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldown"]
+new = "Check harvestable cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldownDesc"]
+new = "Default number of beaver-hours to keep the building active after there are no harvestable plants."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.harvestCheckDefault"]
+new = "Check harvestable default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.HarvestCheckDefaultDesc"]
+new = "Newly constructed buildings will start with Check Harvestable enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HarvestCheckToggle"]
+new = "Turn off when nothing to harvest"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HarvestCooldown"]
+new = "Remain active this long after harvest is done (in beaver-hours)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.IncreaseUI"]
+new = "Increase UI height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.DecreaseUI"]
+new = "Decrease UI height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HideUI"]
+new = "Hide workshop behavior controls"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.ShowBehaviorInfo"]
+new = "Show behavior debug info"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseGlobalInventory"]
+new = "Compare global or district inventory"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoPlantingToggle"]
+new = "Turn building on and off when there is planting to do"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoPlantingCooldown"]
+new = "Remain active this long after planting is done (in beaver-hours)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsToggle"]
+new = "Turn building off when ingredients are low"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.ShowSettings"]
+new = "Show settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HideSettings"]
+new = "Hide settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoProductsToggle"]
+new = "Turn building off when products above Stop"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserControlInputChannel"]
+new = "Input channel to use for user-control behavior"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserControlInvert"]
+new = "Swap the Start and Stop positions"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserPercentDropdown"]
+new = "Choose if Start and Stop are a percentage or an absolute number"
+status = "normal"
+
+["UI.TW.UI.TT.Start"]
+new = "Start"
+status = "normal"
+
+["UI.TW.UI.TT.Stop"]
+new = "Stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseToolTips"]
+new = "Show Tooltips"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseToolTipsDesc"]
+new = "Show small help windows when hovering over controls (like this one! =^.^= )"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldown"]
+new = "Farm planting cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldownDesc"]
+new = "How many beaver-hours auto planting farms will remain active after the last planting job is finished."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldown"]
+new = "Forester planting cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldownDesc"]
+new = "How many beaver-hours auto planting foresters will remain active after the last planting job is finished."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplier"]
+new = "Auto ingredients zero-cap scale"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplierDesc"]
+new = "When there is no storage capacity for a resource, auto ingredients will check available stock against the recipe amount multipled by this number (rather than against a percentage of storage capacity)."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuel"]
+new = "Include fuel"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuelDesc"]
+new = "Fuel will be included as a required ingredient."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoProductsZeroCapWarning"]
+new = "No storage building for product(s). Using zero-capacity rules (click for info)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsZeroCapWarning"]
+new = "No storage building for ingredient(s). Using zero-capacity rules (click for info)"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefault"]
+new = "Harvest prioritizer default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefaultDesc"]
+new = "Newly constructed buildings will start with Harvest Prioritizer enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsePriorityHarvest"]
+new = "Harvest prioritizer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UsePriorityHarvestToggle"]
+new = "Automatically set the priortized resource to the most needed."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.RangeType"]
+raw = "Scale"
+status = "abandoned"
+enUS = "Scale"
+zhCN = "阈值"
+zhTW = "比例"
+ruRU = "Масштаб"
+jaJP = "スケール"
+frFR = "Échelle"
+deDE = "Skala"
+plPL = "Skala"
+ptBR = "Escala"
+koKR = "배율"
 
 ["ModSetting.TWSimpleWorkshopControl.PerBuildingAutoSliders"]
 raw = "Per-building auto sliders"
