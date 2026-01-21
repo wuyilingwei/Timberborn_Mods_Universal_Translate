@@ -1,5 +1,8 @@
+name = "Population Control"
+
 ["LV.Pop.PopControl"]
 raw = "Population Control"
+status = "normal"
 enUS = "Population Control"
 zhCN = "计划生育"
 zhTW = "人口控制"
@@ -13,6 +16,7 @@ koKR = "인구 조절"
 
 ["LV.Pop.Scope"]
 raw = "Global or District"
+status = "normal"
 enUS = "Global or District"
 zhCN = "全局/限定地区"
 zhTW = "全球或區域"
@@ -26,6 +30,7 @@ koKR = "전국 또는 지역"
 
 ["LV.Pop.Global"]
 raw = "Global"
+status = "normal"
 enUS = "Global"
 zhCN = "全局"
 zhTW = "全球"
@@ -39,6 +44,7 @@ koKR = "글로벌"
 
 ["LV.Pop.LimitBeavers"]
 raw = "Limit Beavers"
+status = "normal"
 enUS = "Limit Beavers"
 zhCN = "限制海狸数量"
 zhTW = "限制海狸"
@@ -52,6 +58,7 @@ koKR = "비버 제한"
 
 ["LV.Pop.LimitBots"]
 raw = "Limit Bots"
+status = "normal"
 enUS = "Limit Bots"
 zhCN = "限制机关人数量"
 zhTW = "限制機器人"
@@ -65,6 +72,7 @@ koKR = "봇 제한"
 
 ["LV.Pop.PopBlocked"]
 raw = "Blocked by Population Control"
+status = "normal"
 enUS = "Blocked by Population Control"
 zhCN = "因计划生育而暂停运行"
 zhTW = "被人口控制阻擋"

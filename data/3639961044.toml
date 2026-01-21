@@ -1,5 +1,8 @@
+name = "Unknown"
+
 ["LV.MRec.Locked"]
 raw = "[Locked] {0}"
+status = "abandoned"
 enUS = "[Locked] {0}"
 zhCN = "[未解锁] {0}"
 zhTW = "[鎖定]{0}"
@@ -13,6 +16,7 @@ koKR = "[잠금 해제됨] {0}"
 
 ["LV.MRec.LockedCensor"]
 raw = "[Locked] [Secret Recipe]"
+status = "abandoned"
 enUS = "[Locked] [Secret Recipe]"
 zhCN = "[未解锁] [秘密配方]"
 zhTW = "[鎖定] [秘密配方]"
@@ -26,6 +30,7 @@ koKR = "[잠금] [비밀 레시피]"
 
 ["LV.MRec.DefaultReason"]
 raw = "The recipe is not unlocked."
+status = "abandoned"
 enUS = "The recipe is not unlocked."
 zhCN = "此配方未解锁。"
 zhTW = "這個食譜尚未解鎖。"

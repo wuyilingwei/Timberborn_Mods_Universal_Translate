@@ -1,5 +1,8 @@
+name = "Configurable Top Bar"
+
 ["LV.CTB.Ungrouped"]
 raw = "Ungrouped"
+status = "normal"
 enUS = "Ungrouped"
 zhCN = "未分组"
 zhTW = "未分組"
@@ -13,6 +16,7 @@ koKR = "그룹이 아님"
 
 ["LV.CTB.Id"]
 raw = "Id:"
+status = "normal"
 enUS = "Id:"
 zhCN = "ID（必须为英文，且不能与其他分组重复）："
 zhTW = "識別碼："
@@ -26,6 +30,7 @@ koKR = "아이디:"
 
 ["LV.CTB.Name"]
 raw = "Name:"
+status = "normal"
 enUS = "Name:"
 zhCN = "名称："
 zhTW = "名稱："
@@ -39,6 +44,7 @@ koKR = "이름:"
 
 ["LV.CTB.Icon"]
 raw = "Icon:"
+status = "normal"
 enUS = "Icon:"
 zhCN = "图标："
 zhTW = "圖示："
@@ -52,6 +58,7 @@ koKR = "아이콘:"
 
 ["LV.CTB.GoodList"]
 raw = "Goods:"
+status = "normal"
 enUS = "Goods:"
 zhCN = "物品："
 zhTW = "貨物："
@@ -65,6 +72,7 @@ koKR = "상품:"
 
 ["LV.CTB.SelectIcon"]
 raw = "Select icon"
+status = "normal"
 enUS = "Select icon"
 zhCN = "选择图标"
 zhTW = "選擇圖標"
@@ -78,6 +86,7 @@ koKR = "아이콘 선택"
 
 ["LV.CTB.GroupHeader"]
 raw = "Group: {0} ({1})"
+status = "normal"
 enUS = "Group: {0} ({1})"
 zhCN = "分组：{0}（{1}）"
 zhTW = "群組: {0} ({1})"
@@ -91,6 +100,7 @@ koKR = "그룹: {0} ({1})"
 
 ["LV.CTB.GoodGroups"]
 raw = "Good Groups"
+status = "normal"
 enUS = "Good Groups"
 zhCN = "分组图标"
 zhTW = "良好群體"
@@ -104,6 +114,7 @@ koKR = "좋은 그룹"
 
 ["LV.CTB.Goods"]
 raw = "Goods"
+status = "normal"
 enUS = "Goods"
 zhCN = "物品图标"
 zhTW = "商品"
@@ -117,6 +128,7 @@ koKR = "상품"
 
 ["LV.CTB.Filter"]
 raw = "Filter"
+status = "normal"
 enUS = "Filter"
 zhCN = "筛选（请使用英文）："
 zhTW = "過濾器"
@@ -130,6 +142,7 @@ koKR = "필터"
 
 ["LV.CTB.AddGroup"]
 raw = "Add Group"
+status = "normal"
 enUS = "Add Group"
 zhCN = "添加分组"
 zhTW = "新增群組"
@@ -143,6 +156,7 @@ koKR = "그룹 추가"
 
 ["LV.CTB.DeleteGroup"]
 raw = "Delete Group"
+status = "normal"
 enUS = "Delete Group"
 zhCN = "删除分组"
 zhTW = "刪除群組"
@@ -156,6 +170,7 @@ koKR = "그룹 삭제"
 
 ["LV.CTB.MoveHere"]
 raw = "Move selected goods here"
+status = "normal"
 enUS = "Move selected goods here"
 zhCN = "将选中的物品移至此分组"
 zhTW = "將選定的物品移至此處"
@@ -169,6 +184,7 @@ koKR = "선택한 물품을 여기로 이동"
 
 ["LV.CTB.NewGroup"]
 raw = "Unnamed group"
+status = "normal"
 enUS = "Unnamed group"
 zhCN = "未命名分组"
 zhTW = "“未命名的群組”"
@@ -182,6 +198,7 @@ koKR = "이름 없는 그룹"
 
 ["LV.CTB.DeleteConfirm"]
 raw = "Are you sure you want to delete the group '{0}'?\nAll goods in this group will be moved to 'Ungrouped'."
+status = "normal"
 enUS = "Are you sure you want to delete the group '{0}'?\nAll goods in this group will be moved to 'Ungrouped'."
 zhCN = "确定要删除分组“{0}”吗？此分组中的所有物品将被移至“未分组”。"
 zhTW = "您確定要刪除群組「{0}」嗎？\n該群組中的所有物品將會移動到「未分組」。"
@@ -195,6 +212,7 @@ koKR = "그룹 '{0}'를 정말 삭제하시겠습니까? 이 그룹의 모든 �
 
 ["LV.CTB.ResetNotice"]
 raw = "Settings was reset. Please restart the game so the mod can reinitialize properly."
+status = "normal"
 enUS = "Settings was reset. Please restart the game so the mod can reinitialize properly."
 zhCN = "所有设置已重置。请重启游戏以便模组重新初始化。"
 zhTW = "設定已重置。請重新啟動遊戲以便模組能夠正確重新初始化。"

@@ -1,5 +1,8 @@
+name = "MoreGroups"
+
 ["Knatte.Subgroup_MGShafts.DisplayName"]
 raw = "Shafts"
+status = "normal"
 enUS = "Shafts"
 zhCN = "传动轴"
 zhTW = "軸"
@@ -13,6 +16,7 @@ koKR = "샤프트"
 
 ["Knatte.Subgroup_MGPower.DisplayName"]
 raw = "Power Generators"
+status = "normal"
 enUS = "Power Generators"
 zhCN = "供能建筑"
 zhTW = "發電機"
@@ -26,6 +30,7 @@ koKR = "전력 생성기"
 
 ["Knatte.Subgroup_MGPiles.DisplayName"]
 raw = "Piles"
+status = "normal"
 enUS = "Hemorrhoids"
 zhCN = "材料堆"
 zhTW = "痔瘡"
@@ -39,6 +44,7 @@ koKR = "더미"
 
 ["Knatte.Subgroup_MGWarehouses.DisplayName"]
 raw = "Warehouses"
+status = "normal"
 enUS = "Warehouses"
 zhCN = "仓库"
 zhTW = "倉庫"
@@ -52,6 +58,7 @@ koKR = "창고"
 
 ["Knatte.Subgroup_MGTanks.DisplayName"]
 raw = "Tanks"
+status = "normal"
 enUS = "Tanks"
 zhCN = "储水罐"
 zhTW = "储水罐"
@@ -65,6 +72,7 @@ koKR = "탱크"
 
 ["Knatte.Subgroup_MGAqueduct.DisplayName"]
 raw = "Aqueducts"
+status = "normal"
 enUS = "Aqueducts"
 zhCN = "水渠"
 zhTW = "水渠"
@@ -78,6 +86,7 @@ koKR = "수로"
 
 ["Knatte.Subgroup_MGFloodgates.DisplayName"]
 raw = "Floodgates"
+status = "normal"
 enUS = "Floodgates"
 zhCN = "闸门"
 zhTW = "洪水闸門"
@@ -91,6 +100,7 @@ koKR = "홍수문"
 
 ["Knatte.Subgroup_MGAqueduct_Floors.DisplayName"]
 raw = "Aqueduct Floors"
+status = "normal"
 enUS = "Aqueduct Floors"
 zhCN = "水渠地板"
 zhTW = "水渠地板"
@@ -104,6 +114,7 @@ koKR = "수로 바닥"
 
 ["Knatte.Subgroup_MGDynamite.DisplayName"]
 raw = "Dynamites"
+status = "normal"
 enUS = "Dynamites"
 zhCN = "炸弹"
 zhTW = "炸藥"
@@ -117,6 +128,7 @@ koKR = "다이너마이트"
 
 ["Knatte.Subgroup_MGRoofs.DisplayName"]
 raw = "Roofs"
+status = "normal"
 enUS = "Roofs"
 zhCN = "屋顶"
 zhTW = "屋頂"
@@ -130,6 +142,7 @@ koKR = "지붕"
 
 ["Knatte.Subgroup_MGLevees.DisplayName"]
 raw = "Levees"
+status = "normal"
 enUS = "Levees"
 zhCN = "堤坝"
 zhTW = "堤壩"
@@ -143,6 +156,7 @@ koKR = "제방"
 
 ["Knatte.Subgroup_MGPipe.DisplayName"]
 raw = "Pipes"
+status = "normal"
 enUS = "Pipes"
 zhCN = "水管"
 zhTW = "管道"
@@ -154,8 +168,13 @@ plPL = "Rury"
 ptBR = "Tubos"
 koKR = "파이프"
 
+["//"]
+new = "//Paths"
+status = "normal"
+
 ["Knatte.Subgroup_MGMetalPlatform.DisplayName"]
 raw = "Metal Platforms"
+status = "normal"
 enUS = "Metal Platforms"
 zhCN = "金属平台"
 zhTW = "金屬平台"
@@ -169,6 +188,7 @@ koKR = "메탈 플랫폼"
 
 ["Knatte.Subgroup_MGMetalOverhang.DisplayName"]
 raw = "Metal Overhangs"
+status = "normal"
 enUS = "Metal Overhangs"
 zhCN = "金属悬挑"
 zhTW = "金屬懸挑"
@@ -182,6 +202,7 @@ koKR = "금속 돌출부"
 
 ["Knatte.Subgroup_MGBigMetalPillar.DisplayName"]
 raw = "Big Metal Pillars"
+status = "normal"
 enUS = "Big Metal Pillars"
 zhCN = "金属支撑柱"
 zhTW = "大型金屬支柱"
@@ -195,6 +216,7 @@ koKR = "대형 금속 기둥"
 
 ["Knatte.Subgroup_MGOverhangs.DisplayName"]
 raw = "Overhangs"
+status = "normal"
 enUS = "Overhangs"
 zhCN = "悬挑"
 zhTW = "懸挑"
@@ -208,6 +230,7 @@ koKR = "오버행"
 
 ["Knatte.Subgroup_MGZiplines.DisplayName"]
 raw = "Ziplines"
+status = "normal"
 enUS = "Ziplines"
 zhCN = "滑索"
 zhTW = "滑索"
@@ -221,6 +244,7 @@ koKR = "짚라인"
 
 ["Knatte.Subgroup_MGArchs.DisplayName"]
 raw = "Archs"
+status = "normal"
 enUS = "Archs"
 zhCN = "拱门"
 zhTW = "拱門"
@@ -234,6 +258,7 @@ koKR = "아치"
 
 ["Knatte.Subgroup_MGTubeways.DisplayName"]
 raw = "Tubeways"
+status = "normal"
 enUS = "Tubeways"
 zhCN = "管路"
 zhTW = "管路"
@@ -247,6 +272,7 @@ koKR = "튜브웨이"
 
 ["Knatte.Subgroup_MGBridges.DisplayName"]
 raw = "Suspension Bridges"
+status = "normal"
 enUS = "Suspension Bridges"
 zhCN = "吊桥"
 zhTW = "懸索橋"
@@ -260,6 +286,7 @@ koKR = "현수교"
 
 ["Knatte.Subgroup_MGPillars.DisplayName"]
 raw = "Pillars"
+status = "normal"
 enUS = "Pillars"
 zhCN = "支柱"
 zhTW = "支柱"
@@ -273,6 +300,7 @@ koKR = "기둥"
 
 ["Knatte.Subgroup_MGPlatforms.DisplayName"]
 raw = "Platforms"
+status = "normal"
 enUS = "Platforms"
 zhCN = "平台"
 zhTW = "平台"
@@ -286,6 +314,7 @@ koKR = "플랫폼"
 
 ["Knatte.Subgroup_MGStaircase.DisplayName"]
 raw = "Staircases"
+status = "normal"
 enUS = "Staircases"
 zhCN = "楼梯"
 zhTW = "樓梯"

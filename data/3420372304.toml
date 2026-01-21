@@ -1,5 +1,8 @@
+name = "TImprove"
+
 ["LV.TI.EnableFreeCamera"]
 raw = "Enable free camera"
+status = "normal"
 enUS = "Enable free camera"
 zhCN = "自由相机"
 zhTW = "啟用自由相機"
@@ -13,6 +16,7 @@ koKR = "자유 카메라 활성화"
 
 ["LV.TI.EnableFreeCameraDesc"]
 raw = "Remove the camera restrictions in the game."
+status = "normal"
 enUS = "Remove the camera restrictions in the game."
 zhCN = "勾选后，解除相机缩放限制。"
 zhTW = "移除遊戲中的相機限制。"
@@ -26,6 +30,7 @@ koKR = "게임에서 카메라 제한을 제거합니다."
 
 ["LV.TI.FreeCameraLockAngle"]
 raw = "Lock free camera angle"
+status = "normal"
 enUS = "Lock free camera angle"
 zhCN = "锁定自由相机角度"
 zhTW = "鎖定自由相機角度"
@@ -39,6 +44,7 @@ koKR = "자유 카메라 각도 잠금"
 
 ["LV.TI.FreeCameraLockAngleDesc"]
 raw = "When free camera is on, the vertical angle is still locked."
+status = "normal"
 enUS = "When free camera is on, the vertical angle is still locked."
 zhCN = "勾选后，启用“自由相机”时，相机角度范围仍保持锁定。"
 zhTW = "當自由相機開啟時，垂直角度仍然被鎖定。"
@@ -52,6 +58,7 @@ koKR = "프리 카메라가 켜져 있을 때, 수직 각도가 여전히 잠겨
 
 ["LV.TI.DisableFog"]
 raw = "Disable fog"
+status = "normal"
 enUS = "Disable fog"
 zhCN = "禁用雾气"
 zhTW = "禁用霧氣"
@@ -65,6 +72,7 @@ koKR = "안개 비활성화"
 
 ["LV.TI.DisableFogDesc"]
 raw = "Remove the fog in the game."
+status = "normal"
 enUS = "Remove the fog in the game."
 zhCN = "勾选后，移除相机拉远时的雾气。"
 zhTW = "在遊戲中移除霧氣。"
@@ -78,6 +86,7 @@ koKR = "게임의 안개를 제거합니다."
 
 ["LV.TI.ShowCoords"]
 raw = "Show coordinates"
+status = "normal"
 enUS = "Show coordinates"
 zhCN = "显示坐标"
 zhTW = "顯示坐標"
@@ -91,6 +100,8 @@ koKR = "좌표 표시"
 
 ["LV.TI.ShowCoordsDesc"]
 raw = "Show the block coordinates in the top right corner. Z is the height. NOT AVAILABLE FOR UPDATE 7 YET."
+new = "Show the block coordinates in the top right corner. Z is the height."
+status = "normal"
 enUS = "Show the block coordinates in the top right corner. Z is the height. NOT AVAILABLE FOR UPDATE 7 YET."
 zhCN = "勾选后，在右上角显示光标所指地块的坐标。"
 zhTW = "在右上角顯示區塊座標。Z 是高度。更新 7 尚不可用。"
@@ -104,6 +115,7 @@ koKR = "오른쪽 상단 코너에 블록 좌표를 표시합니다. Z는 높이
 
 ["LV.TI.CoordsLabel"]
 raw = "(X, Y, Z): ({0}, {1}, {2})"
+status = "normal"
 enUS = "(X, Y, Z): ({0}, {1}, {2})"
 zhCN = "坐标：({0}，{1}，{2})"
 zhTW = "(X, Y, Z): ({0}, {1}, {2})"
@@ -117,6 +129,7 @@ koKR = "(X, Y, Z): ({0}, {1}, {2})"
 
 ["LV.TI.HeightLabel"]
 raw = "Height: {0}"
+status = "normal"
 enUS = "Height: {0}"
 zhCN = "高度：{0}"
 zhTW = "高度: {0}"
@@ -130,6 +143,8 @@ koKR = "높이: {0}"
 
 ["LV.TI.OnlyShowHeight"]
 raw = "  Only show the height"
+new = "- Only show the height"
+status = "normal"
 enUS = "Only show the height."
 zhCN = "> 仅显示高度"
 zhTW = "僅顯示高度"
@@ -143,6 +158,7 @@ koKR = "높이만 표시"
 
 ["LV.TI.OnlyShowHeightDesc"]
 raw = "Show only the height instead of the full coordinates."
+status = "normal"
 enUS = "Show only the height instead of the full coordinates."
 zhCN = "勾选后，仅显示高度而非完整坐标。"
 zhTW = "僅顯示高度，而不顯示完整坐標。"
@@ -156,6 +172,7 @@ koKR = "전체 좌표 대신 높이만 표시합니다."
 
 ["LV.TI.PrioritizeRubbles"]
 raw = "Prioritize rubbles"
+status = "normal"
 enUS = "Prioritize rubble"
 zhCN = "优先处理瓦砾堆"
 zhTW = "優先考慮瓦礫"
@@ -169,6 +186,7 @@ koKR = "잔해 우선 순위"
 
 ["LV.TI.PrioritizeRubblesDesc"]
 raw = "Automatically set rubbles' priority to High."
+status = "normal"
 enUS = "Automatically set rubble's priority to High."
 zhCN = "勾选后，自动将瓦砾堆的优先级设置为高。"
 zhTW = "自動將碎石的優先順序設置為高。"
@@ -182,6 +200,7 @@ koKR = "잔해의 우선 순위를 자동으로 높음으로 설정합니다."
 
 ["LV.TI.ShowGameTime"]
 raw = "Show game time"
+status = "normal"
 enUS = "Show game time"
 zhCN = "显示游戏时间"
 zhTW = "顯示遊戲時間"
@@ -195,6 +214,7 @@ koKR = "게임 시간 표시"
 
 ["LV.TI.ShowGameTimeDesc"]
 raw = "Show the current game time in the top right corner."
+status = "normal"
 enUS = "Show the current game time in the top right corner."
 zhCN = "勾选后，在右上角周期天数栏显示当前游戏时间。"
 zhTW = "在右上角顯示當前遊戲時間。"
@@ -208,6 +228,7 @@ koKR = "오른쪽 상단에 현재 게임 시간을 표시합니다."
 
 ["LV.TI.EnableSpeedS25"]
 raw = "Enable 0.25x speed [Shift+1]"
+status = "normal"
 enUS = "Enable 0.25x speed [Shift+1]"
 zhCN = "启用0.25倍速度 [Shift+1]"
 zhTW = "啟用 0.25x 速度 [Shift+1]"
@@ -221,6 +242,8 @@ koKR = "0.25배 속도 활성화 [Shift+1]"
 
 ["LV.TI.EnableSpeedS25Desc"]
 raw = "Unlock the 0.25x speed option in the game by pressing Shift+1. Normally, this is only available in Dev Mode."
+new = "Unlock the 0.25x speed option in the game by pressing Shift+1.\nNormally, this is only available in Dev Mode."
+status = "normal"
 enUS = "Unlock the 0.25x speed option in the game by pressing Shift+1. Normally, this is only available in Dev Mode."
 zhCN = "勾选后，可以通过按下快捷键（Shift+数字键1）将游戏速度设置为0.25倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。"
 zhTW = "透過按下 Shift+1 解鎖遊戲中的 0.25x 速度選項。通常，這僅在開發模式中可用。"
@@ -234,6 +257,7 @@ koKR = "게임에서 Shift+1을 눌러 0.25배 속도 옵션을 활성화하세�
 
 ["LV.TI.EnableSpeed4"]
 raw = "Enable 30x speed [4]"
+status = "normal"
 enUS = "Enable 30x speed [4]"
 zhCN = "启用30倍速度 [4]"
 zhTW = "啟用30倍速度 [4]"
@@ -247,6 +271,8 @@ koKR = "30배 속도 활성화 [4]"
 
 ["LV.TI.EnableSpeed4Desc"]
 raw = "Unlock the 4th speed 30x option in the game by pressing 4. Normally, this is only available in Dev Mode."
+new = "Unlock the 4th speed 30x option in the game by pressing 4.\nNormally, this is only available in Dev Mode."
+status = "normal"
 enUS = "Unlock the 4th speed 30x option in the game by pressing 4. Normally, this is only available in Dev Mode."
 zhCN = "勾选后，可以通过按下快捷键（数字键4）将游戏速度设置为30倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。"
 zhTW = "透過按下4鍵來解鎖遊戲中的第四快速30倍選項。通常這僅在開發者模式中可用。"
@@ -260,6 +286,7 @@ koKR = "4번을 눌러 게임에서 4번째 속도 30배 옵션을 잠금 해제
 
 ["LV.TI.EnableSpeed5"]
 raw = "Enable 99x speed [5] (!)"
+status = "normal"
 enUS = "Enable 99x speed [5] (!)"
 zhCN = "启用99倍速度 [5]"
 zhTW = "啟用99倍速度 [5] (!)"
@@ -273,6 +300,8 @@ koKR = "99배 속도 활성화 [5] (!)"
 
 ["LV.TI.EnableSpeed5Desc"]
 raw = "Unlock the 5th speed 99x option in the game by pressing 5. Normally, this is only available in Dev Mode. Be warned that this speed is unstable and may cause issues with the game. Somebody said beavers may stay hungry and thirsty."
+new = "Unlock the 5th speed 99x option in the game by pressing 5.\nNormally, this is only available in Dev Mode.\n<RedHighlight>Be warned that this speed is unstable and may cause issues with the game. Somebody said beavers may stay hungry and thirsty.</RedHighlight>"
+status = "normal"
 enUS = "Unlock the 5th speed 99x option in the game by pressing 5. Normally, this is only available in Dev Mode. Be warned that this speed is unstable and may cause issues with the game. Someone mentioned that beavers may remain hungry and thirsty."
 zhCN = "勾选后，可以通过按下快捷键（数字键5）将游戏速度设置为99倍速度。<br>不启用此模组时，只能在开发者模式下使用此速度。<br>注意，此速度可能会导致游戏问题，如海狸饿死或渴死。"
 zhTW = "在遊戲中按下 5 鍵解鎖第五速度 99x 選項。通常，這只在開發模式下可用。請注意，這個速度不穩定，可能會導致遊戲出現問題。有些人說海狸可能會保持飢餓和口渴。"
@@ -286,6 +315,8 @@ koKR = "5단계 속도 99배 옵션을 게임에서 5를 눌러 잠금 해제하
 
 ["LV.TI.StaticLight"]
 raw = "  Static daylight"
+new = "Static sky and sun light"
+status = "normal"
 enUS = "Static daylight"
 zhCN = "固定光照"
 zhTW = "靜態日光"
@@ -299,6 +330,8 @@ koKR = "정적 주간광원"
 
 ["LV.TI.StaticLightDesc"]
 raw = "Visual/UI only. This daylight will stay the same all the time."
+new = "Visual/UI only. This light and position for sun and sky will stay the same all the time."
+status = "normal"
 enUS = "Visual/UI only. This daylight will remain constant at all times."
 zhCN = "可以设置是否将光照固定为特殊方向。"
 zhTW = "視覺/UI 只有。這種日光將始終保持不變。"
@@ -312,6 +345,7 @@ koKR = "시각/UI 전용. 이 낮빛은 항상 동일하게 유지됩니다."
 
 ["LV.TI.LightNone"]
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -325,6 +359,7 @@ koKR = "없음"
 
 ["LV.TI.LightSunrise"]
 raw = "Sunrise"
+status = "normal"
 enUS = "Sunrise"
 zhCN = "日出"
 zhTW = "日出"
@@ -338,6 +373,7 @@ koKR = "해돋이"
 
 ["LV.TI.LightDay"]
 raw = "Day"
+status = "normal"
 enUS = "Day"
 zhCN = "白天"
 zhTW = "日"
@@ -351,6 +387,7 @@ koKR = "일"
 
 ["LV.TI.LightSunset"]
 raw = "Sunset"
+status = "normal"
 enUS = "Sunset"
 zhCN = "日落"
 zhTW = "日落"
@@ -364,6 +401,7 @@ koKR = "해질녘"
 
 ["LV.TI.LightNight"]
 raw = "Night"
+status = "normal"
 enUS = "Night"
 zhCN = "夜晚"
 zhTW = "夜晚"
@@ -377,6 +415,7 @@ koKR = "밤"
 
 ["LV.TI.QuickQuit"]
 raw = "Quick/Force Quit [Ctrl + Shift + Q] (!)"
+status = "normal"
 enUS = "Quick/Force Quit [Ctrl + Shift + Q] (!)"
 zhCN = "启用快速退出 [Ctrl+Shift+Q]"
 zhTW = "快速/強制退出 [Ctrl + Shift + Q] (!)"
@@ -390,6 +429,7 @@ koKR = "빠른/강제 종료 [Ctrl + Shift + Q] (!)"
 
 ["LV.TI.QuickQuitDesc"]
 raw = "Press Ctrl + Shift + Q to force exit the game immediately by killing the game process. NO SAVE or game state clean up. Be careful!"
+status = "normal"
 enUS = "Press Ctrl + Shift + Q to immediately force exit the game by terminating the game process. NO SAVE or game state cleanup. Be careful!"
 zhCN = "勾选后，可以通过按下快捷键（Ctrl+Shift+Q）快速退出游戏。<br>注意，执行此操作时不会自动存档。"
 zhTW = "按 Ctrl + Shift + Q 立即強制退出遊戲，並終止遊戲進程。沒有保存或遊戲狀態清理。請小心！"
@@ -403,6 +443,7 @@ koKR = "게임 프로세스를 강제로 종료하여 즉시 게임을 종료하
 
 ["LV.TI.BiggerBuildDragArea"]
 raw = "Bigger build drag area (!)"
+status = "normal"
 enUS = "Bigger build drag area (!)"
 zhCN = "更大的建造拖动区域"
 zhTW = "更大的建立拖曳面積 (!)"
@@ -416,6 +457,8 @@ koKR = "더 큰 건설 드래그 영역 (!)"
 
 ["LV.TI.BiggerBuildDragAreaDesc"]
 raw = "Increase the build drag area for buildings like Dams (default 10x10) or Roads (25). This significantly increases the load time and memory usage so use it with caution. Example: setting this to 5 will make the drag area 15x15 Dams or 30 Roads. Can only be changed at the Main Menu"
+new = "Increase the build drag area for buildings like Dams (default 10x10) or Roads (25).\nThis significantly increases the load time and memory usage so use it with caution.\nExample: setting this to 5 will make the drag area 15x15 Dams or 30 Roads.\nCan only be changed at anytime <b>but need to reload a save to take effect.</b>"
+status = "normal"
 enUS = "Increase the build drag area for buildings like Dams (default 10x10) or Roads (25). This significantly increases the load time and memory usage, so use it with caution. For example, setting this to 5 will make the drag area 15x15 for Dams or 30 for Roads. This can only be changed at the Main Menu."
 zhCN = "可以增加建筑物或道路的建造拖动区域大小。设置为 X 将使拖动区域从 NxN 变为 (N+X)x(N+X)。<br>可以随时修改；如果在游戏中修改，则需重新加载存档。<br>注意，会显著增加加载时间和内存使用。"
 zhTW = "增加建築物的拖曳區域，例如大壩（默認為10x10）或道路（25）。這會顯著增加加載時間和內存使用量，因此使用時請小心。範例：將此設置為5將使拖曳區域變為15x15的大壩或30條道路。只能在主選單中更改。"
@@ -429,6 +472,8 @@ koKR = "건물의 빌드 드래그 영역을 댐(기본 10x10)이나 도로(25)�
 
 ["LV.TI.AutoClearDeadTrees"]
 raw = "Clear dead stumps"
+new = "Auto clear dead stumps"
+status = "normal"
 enUS = "Clear dead stumps"
 zhCN = "清除植物残骸"
 zhTW = "清除枯樹樁"
@@ -442,6 +487,8 @@ koKR = "죽은 그루터기 제거"
 
 ["LV.TI.AutoClearDeadTreesDesc"]
 raw = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
+new = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over)."
+status = "normal"
 enUS = "Automatically clear dead stumps or bushes (those that you could have destroyed immediately by building over):\n- No: do not clear anything\n- Tool: when using Demolishing Tool\n- Auto: just clear them right when they appear"
 zhCN = "勾选后，自动清除树桩和植物残骸（已死亡的作物、灌木、树苗等）。"
 zhTW = "自動清除死樹樁或灌木叢（那些您可以立即通過在其上建築來摧毀的）：\n- 否：不要清除任何東西\n- 工具：使用拆除工具時\n- 自動：當它們出現時立即清除"
@@ -455,6 +502,7 @@ koKR = "자동으로 죽은 그루터기나 덤불을 제거합니다(건물을 
 
 ["LV.TI.AddRealTimeClock"]
 raw = "Add real-time clock"
+status = "normal"
 enUS = "Add real-time clock"
 zhCN = "显示现实时间"
 zhTW = "添加實時鐘表"
@@ -468,6 +516,7 @@ koKR = "실시간 시계 추가"
 
 ["LV.TI.AddRealTimeClockDesc"]
 raw = "Add a real-time clock in the top right corner. This is useful for players who want to keep track of the time while playing."
+status = "normal"
 enUS = "Add a real-time clock in the top right corner. This is useful for players who want to keep track of the time while playing."
 zhCN = "勾选后，在右上角工作时长栏显示现实时间。"
 zhTW = "在右上角添加一個實時時鐘。這對於想在遊玩時保持時間掌握的玩家來說非常有用。"
@@ -481,6 +530,8 @@ koKR = "오른쪽 상단 코너에 실시간 시계를 추가합니다. 이는 �
 
 ["LV.TI.Clock24"]
 raw = "Use 24-hour format"
+new = "- Use 24-hour format"
+status = "normal"
 enUS = "Use 24-hour format"
 zhCN = "> 使用24小时制"
 zhTW = "使用24小時格式"
@@ -494,6 +545,7 @@ koKR = "24시간 형식 사용"
 
 ["LV.TI.Clock24Desc"]
 raw = "Use 24-hour format for the real-time clock (17:30 instead of 05:30)."
+status = "normal"
 enUS = "Use 24-hour format for the real-time clock (17:30 instead of 05:30)."
 zhCN = "勾选后，启用“显示现实时间”时，使用24小时制。"
 zhTW = "使用24小時格式顯示實時時鐘（17:30而不是05:30）"
@@ -505,21 +557,13 @@ plPL = "Użyj formatu 24-godzinnego dla zegara czasu rzeczywistego (17:30 zamias
 ptBR = "Use o formato de 24 horas para o relógio em tempo real (17:30 em vez de 05:30)."
 koKR = "실시간 시계에 24시간 형식을 사용하세요 (05:30 대신 17:30)."
 
-["LV.TI.AutoSpeed"]
-raw = "Auto-speed"
-enUS = "Auto-speed"
-zhCN = "自动调速"
-zhTW = "自動速度"
-ruRU = "Автоскорость"
-jaJP = "オートスピード"
-frFR = "Vitesse automatique"
-deDE = "Automatische Geschwindigkeit"
-plPL = "Auto-prędkość"
-ptBR = "Velocidade automática"
-koKR = "자동 속도"
+["LV.TI.AutoSpped"]
+new = "Auto-speed"
+status = "normal"
 
 ["LV.TI.NewDayAction"]
 raw = "On new day"
+status = "normal"
 enUS = "On new day"
 zhCN = "日操作"
 zhTW = "在新的一天"
@@ -533,6 +577,7 @@ koKR = "새로운 하루에"
 
 ["LV.TI.NewDayActionDesc"]
 raw = "Choose what to do on a new day:\n- None: do nothing\n- Pause: pause the game\n- Speed 1: set the game speed to 1x"
+status = "normal"
 enUS = "Choose what to do on a new day:\n- None: do nothing\n- Pause: pause the game\n- Speed 1: set the game speed to 1x"
 zhCN = "可以设置一天开始时是否执行操作。<br>- 默认：不执行任何操作<br>- 暂停：暂停游戏<br>- 速度1：将游戏速度设置为1倍速度"
 zhTW = "選擇新一天的行動：\n- 無：什麼都不做\n- 暫停：暫停遊戲\n- 速度1：將遊戲速度設置為1x"
@@ -546,6 +591,7 @@ koKR = "새로운 날에 할 일을 선택하세요:\n- 없음: 아무 것도 �
 
 ["LV.TI.NewDayActionNone"]
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "默认"
 zhTW = "無"
@@ -559,6 +605,7 @@ koKR = "없음"
 
 ["LV.TI.NewDayActionPause"]
 raw = "Pause"
+status = "normal"
 enUS = "Pause"
 zhCN = "暂停"
 zhTW = "暫停"
@@ -572,6 +619,7 @@ koKR = "일시 정지"
 
 ["LV.TI.NewDayActionSpeed1"]
 raw = "Speed 1"
+status = "normal"
 enUS = "Speed 1"
 zhCN = "速度1"
 zhTW = "速度 1"
@@ -585,6 +633,7 @@ koKR = "속도 1"
 
 ["LV.TI.NewDayAll"]
 raw = "Every day"
+status = "normal"
 enUS = "Every day"
 zhCN = "每天"
 zhTW = "每天"
@@ -598,6 +647,7 @@ koKR = "매일"
 
 ["LV.TI.NewDayWarning"]
 raw = "On weather warning days"
+status = "normal"
 enUS = "On weather warning days"
 zhCN = "天气预警日"
 zhTW = "在氣象警報日"
@@ -611,6 +661,7 @@ koKR = "날씨 경고일에"
 
 ["LV.TI.NewDayHazard"]
 raw = "On hazardous weather begin days"
+status = "normal"
 enUS = "On hazardous weather begin days"
 zhCN = "恶劣天气开始日"
 zhTW = "在危險天氣開始的日子"
@@ -624,6 +675,7 @@ koKR = "위험한 날씨가 시작될 때"
 
 ["LV.TI.NewDayNewCycle"]
 raw = "On new cycle days"
+status = "normal"
 enUS = "On new cycle days"
 zhCN = "新周期开始日"
 zhTW = "在新週期的日子里"
@@ -637,6 +689,7 @@ koKR = "새로운 주기의 날에"
 
 ["LV.TI.SpeedOnShiftEnd"]
 raw = "On Shift end"
+status = "normal"
 enUS = "On Shift end"
 zhCN = "下班操作"
 zhTW = "班次結束時"
@@ -650,6 +703,7 @@ koKR = "교대 종료 시"
 
 ["LV.TI.SpeedOnShiftEndDesc"]
 raw = "Change the game speed when the shift (work) time ends every day"
+status = "normal"
 enUS = "Change the game speed when the shift (work) time ends every day"
 zhCN = "可以设置每天工作时间结束时是否执行操作。"
 zhTW = "每天當輪班（工作）時間結束時改變遊戲速度"
@@ -663,6 +717,7 @@ koKR = "매일 교대(작업) 시간이 끝날 때 게임 속도를 변경합니
 
 ["LV.TI.Nothing"]
 raw = "Do nothing"
+status = "normal"
 enUS = "Do nothing"
 zhCN = "无操作"
 zhTW = "什麼都不做"
@@ -676,6 +731,7 @@ koKR = "아무것도 하지 않기"
 
 ["LV.TI.SetSpeed"]
 raw = "Set to speed {0} (x{1})"
+status = "normal"
 enUS = "Set to speed {0} (x{1})"
 zhCN = "设置为速度 {0} (x{1})"
 zhTW = "設置速度 {0} (x{1})"
@@ -686,3 +742,17 @@ deDE = "Auf Geschwindigkeit {0} (x{1}) einstellen"
 plPL = "Ustaw na prędkość {0} (x{1})"
 ptBR = "Definir para a velocidade {0} (x{1})"
 koKR = "속도 {0} (x{1})로 설정"
+
+["LV.TI.AutoSpeed"]
+raw = "Auto-speed"
+status = "abandoned"
+enUS = "Auto-speed"
+zhCN = "自动调速"
+zhTW = "自動速度"
+ruRU = "Автоскорость"
+jaJP = "オートスピード"
+frFR = "Vitesse automatique"
+deDE = "Automatische Geschwindigkeit"
+plPL = "Auto-prędkość"
+ptBR = "Velocidade automática"
+koKR = "자동 속도"

@@ -1,5 +1,8 @@
+name = "Configurable Faction (Faction Mixer)"
+
 ["LV.CFac.RemoveDup"]
 raw = "Try removing duplicates (Restart required)"
+status = "normal"
 enUS = "Try removing duplicates (Restart required)"
 zhCN = "尝试移除重复建筑（需要重启游戏）"
 zhTW = "嘗試刪除重複項目（需要重新啟動）"
@@ -13,6 +16,7 @@ koKR = "중복 제거 시도하기 (재시작 필요)"
 
 ["LV.CFac.RemoveDupDesc"]
 raw = "Try to remove buildings with similar names when all factions have them (like Path or Platforms)"
+status = "normal"
 enUS = "Try to remove buildings with similar names when all factions have them (like Path or Platforms)."
 zhCN = "当所有种族都拥有类似建筑时（例如道路或平台），尝试移除名称重复的建筑。"
 zhTW = "嘗試移除所有派系擁有相似名稱的建築（如小徑或平台）。"
@@ -26,6 +30,7 @@ koKR = "모든 진영에 동일한 이름의 건물이 있을 경우(예: 경로
 
 ["LV.CFac.AddPlants"]
 raw = "Add plants (Crops & Trees)"
+status = "normal"
 enUS = "Add plants (Crops & Trees)"
 zhCN = "添加植物（作物和树木）"
 zhTW = "添加植物（農作物和樹木）"
@@ -39,6 +44,7 @@ koKR = "식물 추가 (농작물 및 나무)"
 
 ["LV.CFac.AddPlantsDesc"]
 raw = "You can grow crops and trees of other factions. You must add the Folktails' Aquatic Farmhouse to all other factions to prevent crash."
+status = "normal"
 enUS = "You can grow crops and trees from other factions. You must add the Folktails' Aquatic Farmhouse to all other factions to prevent a crash."
 zhCN = "允许种植其他种族的作物和树木。<br>注意，必须将水生农屋添加到所有其他种族中，以防止游戏崩溃。"
 zhTW = "您可以種植其他派系的農作物和樹木。您必須將Folktails的水生農舍添加到所有其他派系以防止崩潰。"
@@ -52,6 +58,7 @@ koKR = "다른 세력의 작물과 나무를 재배할 수 있습니다. 충돌�
 
 ["LV.CFac.AddPlantsNotif"]
 raw = "You must add Aquatic Farmhouse to Iron Teeth or it will crash when loading for Iron Teeth."
+status = "normal"
 enUS = "You must add Aquatic Farmhouse to Iron Teeth or it will crash when loading for Iron Teeth."
 zhCN = "必须将水生农屋添加到铁牙种族中，否则在加载铁牙种族时会游戏崩溃。"
 zhTW = "您必須將水上農舍添加到鐵牙，否則在加載鐵牙時會崩潰。"
@@ -65,6 +72,7 @@ koKR = "아이언 티스를 위해 수상 농장을 추가해야 하며, 그렇�
 
 ["LV.CFac.NoBotNeeds"]
 raw = "Don't add Bot's needs"
+status = "normal"
 enUS = "Don't add Bot's needs"
 zhCN = "不添加机关人需求"
 zhTW = "不要添加機器人的需求"
@@ -78,6 +86,7 @@ koKR = "봇의 필요를 추가하지 않음"
 
 ["LV.CFac.NoBotNeedsDesc"]
 raw = "Don't add Bot's needs to other factions (Biofuel and Energy)\nYou must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
+status = "normal"
 enUS = "Don't add Bot's needs to other factions (Biofuel and Energy)\nYou must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
 zhCN = "不添加其他种族的机关人需求（生物燃料、充电）。<br>注意，禁止将精炼厂添加到铁牙种族中，否则在建造时会游戏崩溃。"
 zhTW = "不要將機器人的需求加入其他派系（生物燃料和能源）。  \n您必須不要將生物燃料生產建築（煉油廠）加入鐵牙派系，否則遊戲在建造時會崩潰。"
@@ -91,6 +100,7 @@ koKR = "봇의 필요를 다른 진영(바이오 연료와 에너지)에 추가�
 
 ["LV.CFac.NoBotNeedsNotif"]
 raw = "You must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
+status = "normal"
 enUS = "You must not add Biofuel production building (Refinery) to Iron Teeth or the game would crash on building it."
 zhCN = "禁止将精炼厂添加到铁牙种族中，否则在建造时会游戏崩溃。"
 zhTW = "您不得將生物燃料生產建築（煉油廠）添加到鐵牙派系，否則在建造時遊戲將崩潰。"

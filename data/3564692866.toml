@@ -1,5 +1,8 @@
+name = "Satisfactidy (Rubble Edition)"
+
 ["LV.RSa.CleanUpAll"]
 raw = "Clean up all Rubbles NOW!"
+status = "normal"
 enUS = "Clean up all Rubbles NOW!"
 zhCN = "立即清理所有瓦砾堆"
 zhTW = "立即清理所有碎片！"
@@ -13,6 +16,7 @@ koKR = "모든 잔해를 지금 정리하세요!"
 
 ["LV.RSa.NotEnoughSpace"]
 raw = "There is not enough storage to put these in:\n{0}"
+status = "normal"
 enUS = "There is not enough storage to put these in:\n{0}"
 zhCN = "没有足够的空间储存以下物品：<br>{0}"
 zhTW = "沒有足夠的存儲空間來放置這些：\n{0}"
@@ -26,6 +30,7 @@ koKR = "이러한 것을 보관할 충분한 공간이 없습니다: {0}"
 
 ["LV.RSa.Item"]
 raw = "• {0} {1}"
+status = "normal"
 enUS = "• {0} {1}"
 zhCN = "• {0} {1}"
 zhTW = "• {0} {1}"
@@ -39,6 +44,7 @@ koKR = "• {0} {1}"
 
 ["LV.RSa.DiscardRemaining"]
 raw = "Discard remaining"
+status = "normal"
 enUS = "Discard remaining"
 zhCN = "丢弃剩余物品"
 zhTW = "丟棄剩餘物品"
@@ -52,6 +58,7 @@ koKR = "남은 것 버리기"
 
 ["LV.RSa.DiscardConfirm"]
 raw = "Are you sure you want to discard the remaining items? The following items will be lost and cannot be undone:\n{0}"
+status = "normal"
 enUS = "Are you sure you want to discard the remaining items? The following items will be lost and cannot be undone:\n{0}"
 zhCN = "确定要丢弃吗？以下物品将被丢弃且无法撤销：<br>{0}"
 zhTW = "您確定要放棄剩餘的物品嗎？以下物品將會丟失，且無法恢復：\n{0}"

@@ -1,5 +1,8 @@
+name = "Scientific Projects"
+
 ["LV.SP.Title"]
 raw = "Scientific Projects"
+status = "normal"
 enUS = "Scientific Projects"
 zhCN = "科学项目"
 zhTW = "科學專案"
@@ -13,6 +16,7 @@ koKR = "과학적 프로젝트"
 
 ["LV.SP.Welcome"]
 raw = "Thank you for using Scientific Projects mod. This screen is where you can unlock and manage the projects. You can open it by clicking on the Science button on the top-left of the screen or pressing a hotkey (default: Y, you can rebind it in the Keybindings Settings)."
+status = "normal"
 enUS = "Thank you for using the Scientific Projects mod. This screen is where you can unlock and manage the projects. You can open it by clicking on the Science button in the top-left corner of the screen or by pressing a hotkey (default: Y, which you can rebind in the Keybindings Settings)."
 zhCN = "感谢使用科学项目模组！此界面可用于解锁和管理科学项目，你可以通过点击屏幕左上角的科学点数栏或按下快捷键（默认：Y，可在按键设置中重新绑定）来打开它。"
 zhTW = "感謝您使用科學專案模組。這個畫面是您可以解鎖和管理專案的地方。您可以通過點擊螢幕左上角的科學按鈕或按快捷鍵（預設：Y，您可以在按鍵設定中重新綁定）來打開它。"
@@ -26,6 +30,7 @@ koKR = "과학 프로젝트 모드를 사용해 주셔서 감사합니다. 이 �
 
 ["KeyBinding.ScientificProjectDialog"]
 raw = "Scientific Projects Screen"
+status = "normal"
 enUS = "Scientific Projects Screen"
 zhCN = "科学项目界面"
 zhTW = "科學專案螢幕"
@@ -39,6 +44,7 @@ koKR = "과학 프로젝트 화면"
 
 ["LV.SP.Unlocked"]
 raw = "<b>Unlocked!</b>"
+status = "normal"
 enUS = "<b>Unlocked!</b>"
 zhCN = "<b>已解锁！</b>"
 zhTW = "<b>解鎖了！</b>"
@@ -52,6 +58,7 @@ koKR = "<b>잠금 해제!</b>"
 
 ["LV.SP.PreqLocked"]
 raw = "<RedHighlight>Requires {0} to unlock.</RedHighlight>"
+status = "normal"
 enUS = "<RedHighlight>Requires {0} to unlock.</RedHighlight>"
 zhCN = "<color=#FF4C4C>需要解锁 {0} 才能解锁此项目。</color>"
 zhTW = "<RedHighlight>需要 {0} 來解鎖。</RedHighlight>"
@@ -65,6 +72,7 @@ koKR = "<RedHighlight>{0}을(를) 잠금 해제하는 데 필요합니다.</RedH
 
 ["LV.SP.NotEnoughScienceNextDay"]
 raw = "<RedHighlight>You do not have enough science to pay for the next day. Adjust your projects or skip for today. Warning: pressing Esc will skip the projects for today.</RedHighlight>"
+status = "normal"
 enUS = "<RedHighlight>You do not have enough science to pay for the next day. Adjust your projects or skip for today. Warning: pressing Esc will skip the projects for today.</RedHighlight>"
 zhCN = "<color=#FF4C4C>科学点数不足，无法支付费用，请调整项目或暂停项目执行。警告：按Esc将暂停今天的项目执行。</color>"
 zhTW = "<RedHighlight>您沒有足夠的科學來支付明天的費用。請調整您的項目或今天跳過。警告：按下Esc將跳過今天的項目。</RedHighlight>"
@@ -78,6 +86,7 @@ koKR = "<RedHighlight>다음 날을 위해 지불할 충분한 과학이 없습�
 
 ["LV.SP.CurrentScience"]
 raw = "Current Science: {0}"
+status = "normal"
 enUS = "Current Science: {0}"
 zhCN = "当前科学点数：{0}"
 zhTW = "當前科學：{0}"
@@ -91,6 +100,7 @@ koKR = "현재 과학: {0}"
 
 ["LV.SP.CurrentSciencePlus"]
 raw = "Current Science: {0} ({1} from yesterday)"
+status = "normal"
 enUS = "Current Science: {0} ({1} from yesterday)"
 zhCN = "当前科学点数：{0}（昨日变化 {1}）"
 zhTW = "當前科學：{0} ({1}來自昨天)"
@@ -104,6 +114,7 @@ koKR = "현재 과학: {0} ({1} 어제보다)"
 
 ["LV.SP.UnlockErrUnlocked"]
 raw = "This project is already unlocked"
+status = "normal"
 enUS = "This project is already unlocked"
 zhCN = "此项目已解锁。"
 zhTW = "此專案已經解鎖"
@@ -117,6 +128,7 @@ koKR = "이 프로젝트는 이미 잠금 해제되었습니다."
 
 ["LV.SP.UnlockErrRequirementLocked"]
 raw = "This project requires {0} to unlock"
+status = "normal"
 enUS = "This project requires {0} to unlock."
 zhCN = "需要解锁 {0} 才能解锁此项目。"
 zhTW = "此專案需要 {0} 來解鎖"
@@ -130,6 +142,7 @@ koKR = "이 프로젝트는 잠금을 해제하기 위해 {0}가 필요합니다
 
 ["LV.SP.UnlockErrCostLocked"]
 raw = "You have only {0} science, but you need {1} science to unlock this project."
+status = "normal"
 enUS = "You have only {0} science, but you need {1} science to unlock this project."
 zhCN = "科学点数不足，无法解锁此项目。"
 zhTW = "您只有 {0} 科學，但您需要 {1} 科學才能解鎖此項目。"
@@ -143,6 +156,7 @@ koKR = "당신은 {0} 과학만 가지고 있지만, 이 프로젝트를 잠금 
 
 ["LV.SP.UnlockConfirm"]
 raw = "Are you sure you want to unlock {0} with {1} science?"
+status = "normal"
 enUS = "Are you sure you want to unlock {0} with {1} science?"
 zhCN = "确定要解锁{0}吗？需要花费 {1} 点科学点数。"
 zhTW = "您確定要用 {1} 科學來解鎖 {0} 嗎？"
@@ -156,6 +170,7 @@ koKR = "{1} 과학으로 {0} 를 잠금 해제 하시겠습니까?"
 
 ["LV.SP.CustomCost"]
 raw = "cost per day:"
+status = "normal"
 enUS = "cost per day:"
 zhCN = "每日费用："
 zhTW = "每日費用："
@@ -169,6 +184,7 @@ koKR = "일일 비용:"
 
 ["LV.SP.ScienceStepCost"]
 raw = "{0} per Level"
+status = "normal"
 enUS = "{0} per Level"
 zhCN = "每级花费 {0} 点"
 zhTW = "每個級別 {0}"
@@ -182,6 +198,7 @@ koKR = "{0}당 레벨"
 
 ["LV.SP.CurrentCost"]
 raw = "Next day cost: {0}/d"
+status = "normal"
 enUS = "Next day cost: {0}/d"
 zhCN = "项目费用：{0} 点/天"
 zhTW = "下一天的費用: {0}/天"
@@ -195,6 +212,7 @@ koKR = "다음 날 비용: {0}/일"
 
 ["LV.SP.Level"]
 raw = "Level"
+status = "normal"
 enUS = "Level"
 zhCN = "项目等级"
 zhTW = "等級"
@@ -208,6 +226,7 @@ koKR = "레벨"
 
 ["LV.SP.ActiveLevel"]
 raw = "Active Level: {0}"
+status = "normal"
 enUS = "Active Level: {0}"
 zhCN = "当前等级：{0}"
 zhTW = "活動級別：{0}"
@@ -221,6 +240,8 @@ koKR = "활성 레벨: {0}"
 
 ["LV.SP.DayCostNotice"]
 raw = "Daily Science cost is deducted at the start of each day and the effects remain the same for the entire day."
+new = "Some projects cost a daily amount instead of an one-time unlock. Daily Science cost is deducted at the start of each day and the effects remain the same for the entire day. You can adjust the level of these projects (for the next day) using the slider."
+status = "normal"
 enUS = "Daily Science costs are deducted at the start of each day, and the effects remain the same for the entire day."
 zhCN = "项目费用会在每一天开始时进行扣除，项目效果的持续时间为一整天。如果项目发生调整，会从下一天开始按新的费用进行扣除。"
 zhTW = "每日科學費用會在每天開始時扣除，並且效果會保持整天不變。"
@@ -234,6 +255,7 @@ koKR = "매일 과학 비용은 매일 시작 시 차감되며, 효과는 하루
 
 ["LV.SP.NextDayCost"]
 raw = "Next day cost: {0}"
+status = "normal"
 enUS = "Next day cost: {0}"
 zhCN = "每日项目费用：{0}"
 zhTW = "隔天的費用：{0}"
@@ -247,6 +269,7 @@ koKR = "다음 날 비용: {0}"
 
 ["LV.SP.PayDayCost"]
 raw = "Pay for the day"
+status = "normal"
 enUS = "Pay for the day"
 zhCN = "支付费用"
 zhTW = "日薪"
@@ -260,6 +283,7 @@ koKR = "하루 비용 지불"
 
 ["LV.SP.NotEnoughSciencePay"]
 raw = "You do not have enough science to pay for the next day. Adjust your projects or skip for today."
+status = "normal"
 enUS = "You do not have enough resources to cover the next day. Adjust your projects or skip for today."
 zhCN = "科学点数不足，无法支付费用。请调整项目或暂停项目执行。"
 zhTW = "您沒有足夠的科學來支付明天的費用。請調整您的專案或今天跳過。"
@@ -273,6 +297,7 @@ koKR = "다음 날 비용을 지불할 만큼의 과학이 부족합니다. 프�
 
 ["LV.SP.SkipConfirm"]
 raw = "Are you sure you want to skip the projects for today?"
+status = "normal"
 enUS = "Are you sure you want to skip the projects for today?"
 zhCN = "确定要暂停今天的项目执行吗？"
 zhTW = "你確定今天要跳過這些專案嗎？"
@@ -286,6 +311,7 @@ koKR = "오늘의 프로젝트를 건너뛰겠습니까?"
 
 ["LV.SP.SkipToday"]
 raw = "Skip today"
+status = "normal"
 enUS = "Skip today"
 zhCN = "暂停执行"
 zhTW = "跳過今天"
@@ -299,6 +325,7 @@ koKR = "오늘 건너뛰기"
 
 ["LV.SP.WrongFaction"]
 raw = "This project cannot be unlocked by this faction"
+status = "normal"
 enUS = "This project cannot be unlocked by this faction."
 zhCN = "此种族无法解锁此项目。"
 zhTW = "這個專案無法被該派系解鎖。"
@@ -312,6 +339,7 @@ koKR = "이 프로젝트는 이 세력에 의해 잠금 해제될 수 없습니�
 
 ["LV.SP.ReloadNotice"]
 raw = "Please make a save and reload the game for this project to take effect."
+status = "normal"
 enUS = "Please save and reload the game for this project to take effect."
 zhCN = "请保存游戏并重新加载以使此项目生效。"
 zhTW = "請保存並重新載入遊戲以使此專案生效。"
@@ -325,6 +353,7 @@ koKR = "이 프로젝트가 적용되려면 저장하고 게임을 다시 로드
 
 ["LV.SP.ReloadNeeded"]
 raw = "[Reload needed]"
+status = "normal"
 enUS = "[Reload needed]"
 zhCN = "[需重新加载游戏]"
 zhTW = "[需要重新加載]"
@@ -338,6 +367,7 @@ koKR = "[재로드 필요]"
 
 ["LV.SP.WorkEffGroup"]
 raw = "Work Efficiency"
+status = "normal"
 enUS = "Work Efficiency"
 zhCN = "工作速度"
 zhTW = "工作效率"
@@ -351,6 +381,7 @@ koKR = "작업 효율성"
 
 ["LV.SP.WorkEffGroupDesc"]
 raw = "Increase work efficiency for your colony"
+status = "normal"
 enUS = "Increase work efficiency for your colony."
 zhCN = "提高海狸工作速度的科学项目。"
 zhTW = "提高您的殖民地的工作效率"
@@ -364,6 +395,7 @@ koKR = "당신의 식민지 작업 효율성을 높이세요"
 
 ["LV.SP.LogisticGroup"]
 raw = "Logistics"
+status = "normal"
 enUS = "Logistics"
 zhCN = "物资搬运"
 zhTW = "物流"
@@ -377,6 +409,7 @@ koKR = "물류"
 
 ["LV.SP.LogisticGroupDesc"]
 raw = "Increase movement speed and the flow of resources"
+status = "normal"
 enUS = "Increase movement speed and the flow of resources"
 zhCN = "提高海狸移动速度和承载能力的科学项目。"
 zhTW = "增加移動速度和資源流通量"
@@ -390,6 +423,7 @@ koKR = "이동 속도와 자원의 흐름을 증가시킵니다."
 
 ["LV.SP.BuffEffGeneric"]
 raw = "▶ {0:+0;-0;0} from {1}"
+status = "normal"
 enUS = "▶ {0:+0;-0;0} from {1}"
 zhCN = "|-  {0:+0;-0;0} 来自 {1}"
 zhTW = "▶ {0:+0;-0;0} 來自 {1}"
@@ -403,6 +437,7 @@ koKR = "▶ {0:+0;-0;0} (으)로부터 {1}"
 
 ["LV.SP.BuffEffGenericPerc"]
 raw = "▶ {0:+#%;-#%;0} from {1}"
+status = "normal"
 enUS = "▶ {0:+#%;-#%;0} from {1}"
 zhCN = "|-  {0:+#%;-#%;0} 来自 {1}"
 zhTW = "▶ {0:+#%;-#%;0} 來自 {1}"
@@ -416,6 +451,7 @@ koKR = "▶ {0:+#%;-#%;0} from {1}"
 
 ["LV.SP.WorkEffUpgrade1"]
 raw = "Precision Work Tools"
+status = "normal"
 enUS = "Precision Work Tools"
 zhCN = "精密工具"
 zhTW = "精密工作工具"
@@ -429,6 +465,7 @@ koKR = "정밀 작업 도구"
 
 ["LV.SP.WorkEffUpgrade1Eff"]
 raw = "Permanently increases work efficiency of all beavers by {0:+#%}."
+status = "normal"
 enUS = "Permanently increases the work efficiency of all beavers by {0:+#%}."
 zhCN = "提高所有海狸的工作速度 {0:+#%} 。"
 zhTW = "永久提高所有海狸的工作效率 {0:+#%}。"
@@ -442,6 +479,7 @@ koKR = "모든 비버의 작업 효율을 {0:+#%}만큼 영구적으로 증가�
 
 ["LV.SP.WorkEffUpgrade1Lore"]
 raw = "After digging up hooman tool plans, beavers craft sharper blades with old-world tricks, boosting efficiency."
+status = "normal"
 enUS = "After uncovering human tool plans, beavers create sharper blades using old-world techniques, enhancing efficiency."
 zhCN = "海狸们挖掘出了旧世界的工艺，打造出更锋利的工具。"
 zhTW = "在挖掘人類工具計劃後，海狸利用古老技巧製作更鋒利的刀片，提高效率。"
@@ -455,6 +493,7 @@ koKR = "인간 도구 계획을 발굴한 후, 비버들은 구세대의 기술�
 
 ["LV.SP.WorkEffUpgrade2"]
 raw = "Precision Tool Maintenance"
+status = "normal"
 enUS = "Precision Tool Maintenance"
 zhCN = "精细维护"
 zhTW = "精密工具維護"
@@ -468,6 +507,7 @@ koKR = "정밀 도구 유지보수"
 
 ["LV.SP.WorkEffUpgrade2Lore"]
 raw = "'Rigged a water-powered sharpener-keeps our tools gnaw-ready, speeds up every job over time!' — Chiseljaw Timberchew"
+status = "normal"
 enUS = "\"Rigged a water-powered sharpener - keeps our tools ready to gnaw, speeds up every job over time!\" — Chiseljaw Timberchew"
 zhCN = "水力打磨装置，用以保持工具锋利，长期提升工作效率。"
 zhTW = "「改裝了一個水力驅動的磨刀器—讓我們的工具隨時能用，隨著時間推進提升每項工作的效率！」— 鑿牙木齧"
@@ -481,6 +521,7 @@ koKR = "'물력으로 작동하는 연마기를 조작했습니다 - 우리의 �
 
 ["LV.SP.WorkEffUpgrade2Eff"]
 raw = "{0:+#%} additional work efficiency of all beavers per Level."
+status = "normal"
 enUS = "{0:+#%} additional work efficiency of all beavers per Level."
 zhCN = "每级额外提高所有海狸的工作速度 {0:+#%} 。"
 zhTW = "每個等級的所有海狸工作效率增加 {0:+#%}。"
@@ -494,6 +535,7 @@ koKR = "{0:+#%} 모든 비버의 작업 효율성이 레벨당 추가됩니다."
 
 ["LV.SP.WorkEffUpgrade2Cost"]
 raw = "[Cost] per Level, and {1} for every {2} Adult beavers (rounded up)"
+status = "normal"
 enUS = "[Cost] per Level, and {1} for every {2} adult beavers (rounded up)"
 zhCN = "每级花费 [Cost] 点，且每只成年海狸额外花费 {1}/{2} 点（费用总和向上取整）。"
 zhTW = "每個等級的[費用]，以及每{2}隻成年海狸{1}（向上取整）"
@@ -507,6 +549,7 @@ koKR = "[레벨당 비용] 및 성인 비버 {2}마리당 {1} (반올림)"
 
 ["LV.SP.MoveSpeedUpgrade1"]
 raw = "Lightweight Slippers"
+status = "normal"
 enUS = "Lightweight Slippers"
 zhCN = "轻便拖鞋"
 zhTW = "輕便拖鞋"
@@ -520,6 +563,7 @@ koKR = "경량 슬리퍼"
 
 ["LV.SP.MoveSpeedUpgrade1Lore"]
 raw = "'These slippers make me feel like I'm gliding on water' — Whiskertail Quickpaw"
+status = "normal"
 enUS = "'These slippers make me feel like I'm gliding on water' — Whiskertail Quickpaw"
 zhCN = "轻盈简便的拖鞋，仿佛是在水面上滑行。"
 zhTW = "「這雙拖鞋讓我感覺像是在水面上滑行。」— 威斯克泰爾·快爪"
@@ -533,6 +577,7 @@ koKR = "'이 슬리퍼를 신고 있으면 물 위를 미끄러지는 것 같은
 
 ["LV.SP.MoveSpeedUpgradeEff"]
 raw = "Permanently increases movement speed of all beavers by {0:+#%} (stacks with other projects)."
+status = "normal"
 enUS = "Permanently increases movement speed of all beavers by {0:+#%} (stacks with other projects)."
 zhCN = "提升所有海狸的移动速度 {0:+#%} 。"
 zhTW = "永久增加所有海狸的移動速度 {0:+#%}（與其他項目堆疊）。"
@@ -546,6 +591,7 @@ koKR = "모든 비버의 이동 속도를 {0:+#%}만큼 영구적으로 증가�
 
 ["LV.SP.MoveSpeedUpgrade2"]
 raw = "Durable Trail Boots"
+status = "normal"
 enUS = "Durable Trail Boots"
 zhCN = "耐用皮靴"
 zhTW = "耐磨登山靴"
@@ -559,6 +605,7 @@ koKR = "내구성이 뛰어난 트레일 부츠"
 
 ["LV.SP.MoveSpeedUpgrade2Lore"]
 raw = "Tough as beaver teeth, these boots turn rugged paths into smooth trails for swift travel."
+status = "normal"
 enUS = "Tough as beaver teeth, these boots turn rugged paths into smooth trails for swift travel."
 zhCN = "靴面如牙齿般坚固，崎岖小路也会变成平滑通道。"
 zhTW = "像海狸牙齒一樣堅韌，這些靴子將崎嶇的小路變成平坦的步道，讓旅行變得迅速。"
@@ -572,6 +619,7 @@ koKR = "비버의 이처럼 단단한 이 부츠는 험난한 길을 부드러�
 
 ["LV.SP.MoveSpeedUpgrade3"]
 raw = "Aerodynamic Sprint Gear"
+status = "normal"
 enUS = "Aerodynamic Sprint Gear"
 zhCN = "动力跑鞋"
 zhTW = "空氣動力學衝刺裝備"
@@ -585,6 +633,7 @@ koKR = "공기역학적 스프린트 장비"
 
 ["LV.SP.MoveSpeedUpgrade3Lore"]
 raw = "'In this gear, I'm not just running; I'm a furry blur of pure speed!' — Swiftstream Windrunner"
+status = "normal"
 enUS = "'In this gear, I'm not just running; I'm a furry blur of pure speed!' — Swiftstream Windrunner"
 zhCN = "狸体动力学的产物，让海狸快得像是毛茸茸的闪电。"
 zhTW = "「在這個齒輪中，我不僅僅是在跑步；我是一道純粹速度的毛茸茸模糊影！」— 迅流風馳"
@@ -598,6 +647,7 @@ koKR = "'이 장비를 입고 있는 나는 단순히 달리는 것이 아니라
 
 ["LV.SP.MoveSpeedUpgradeBuff"]
 raw = "Movement Speed Projects"
+status = "normal"
 enUS = "Movement Speed Projects"
 zhCN = "移动速度项目"
 zhTW = "移動速度專案"
@@ -611,6 +661,8 @@ koKR = "이동 속도 프로젝트"
 
 ["LV.SP.MoveSpeedUpgradeBuffDesc"]
 raw = "{0:+#%} Movement Speed/nYour superior gear allow your characters to move faster."
+new = "{0:+#%} Movement Speed\nYour superior gear allow your characters to move faster."
+status = "normal"
 enUS = "{0:+#%} Movement Speed/nYour superior gear allow your characters to move faster."
 zhCN = "|  移动速度: {0:+#%}<br>优良的装备使你的海狸移动速度更快。"
 zhTW = "{0:+#%} 移動速度/n 您的高級裝備允許您的角色更快地移動。"
@@ -624,6 +676,7 @@ koKR = "{0:+#%} 이동 속도/n당신의 고급 장비 덕분에 캐릭터가 �
 
 ["LV.SP.WorkEffUpgradeBuff"]
 raw = "Work Efficiency Projects"
+status = "normal"
 enUS = "Work Efficiency Projects"
 zhCN = "工作速度项目"
 zhTW = "工作效率專案"
@@ -637,6 +690,8 @@ koKR = "작업 효율성 프로젝트"
 
 ["LV.SP.WorkEffUpgradeBuffDesc"]
 raw = "{0:+#%} Working Speed/nYour superior tools allow your characters to work more efficiently."
+new = "{0:+#%} Working Speed\nYour superior tools allow your characters to work more efficiently."
+status = "normal"
 enUS = "{0:+#%} Working Speed/nYour superior tools allow your characters to work more efficiently."
 zhCN = "|  工作速度: {0:+#%}<br>优良的装备使你的海狸工作速度更高。"
 zhTW = "{0:+#%} 工作速度/n 您的高級工具使您的角色能夠更有效率地工作。"
@@ -650,6 +705,7 @@ koKR = "{0:+#%} 작업 속도/n당신의 뛰어난 도구는 캐릭터들이 더
 
 ["LV.SP.EmergenciesGroup"]
 raw = "Emergencies"
+status = "normal"
 enUS = "Emergencies"
 zhCN = "紧急援助"
 zhTW = "緊急情況"
@@ -663,6 +719,7 @@ koKR = "비상사태"
 
 ["LV.SP.EmergenciesGroupDesc"]
 raw = "In case of peril, press these big yellow buttons. But you get only one shot."
+status = "normal"
 enUS = "In case of danger, press these big yellow buttons. But you only get one chance."
 zhCN = "只能使用一次的紧急科学项目。"
 zhTW = "在危險時，按下這些大黃色按鈕。但你只有一次機會。"
@@ -676,6 +733,7 @@ koKR = "위험이 닥치면 이 큰 노란 버튼을 눌러주세요. 하지만 
 
 ["LV.SP.EmergencyDrill1"]
 raw = "Emergency Shallow Drill"
+status = "normal"
 enUS = "Emergency Shallow Drill"
 zhCN = "紧急浅层钻探"
 zhTW = "緊急淺井鑽探"
@@ -689,6 +747,7 @@ koKR = "비상 얕은 드릴"
 
 ["LV.SP.EmergencyDrill1Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
+status = "normal"
 enUS = "Add {0} days to this temperate season. Can only be activated when bad weather is approaching."
 zhCN = "当前天气额外增加 {0} 天（只能在恶劣天气预警时使用）。"
 zhTW = "將 {0} 天添加到這個溫和季節。只能在壞天氣來臨時啟用。"
@@ -702,6 +761,7 @@ koKR = "{0}일을 이 온대 계절에 추가합니다. 나쁜 날씨가 오고 
 
 ["LV.SP.EmergencyDrill1Lore"]
 raw = "A curious beaver's nose for damp earth led to this shallow water pocket-quick to tap, lifesaving in a pinch."
+status = "normal"
 enUS = "A curious beaver's nose for damp earth led to this shallow water pocket—quick to tap, lifesaving in a pinch."
 zhCN = "某只海狸敏锐的鼻子发现了这个浅层水源——危急时刻能救命。"
 zhTW = "一隻好奇的海狸對潮濕土壤的嗅覺引導它發現了這個淺水坑——迅速可取，在緊急情況下可以救命。"
@@ -715,6 +775,7 @@ koKR = "호기심 많은 비버의 촉수는 축축한 땅으로 이어졌고, �
 
 ["LV.SP.EmergencyDrill2"]
 raw = "Emergency Deep Drill"
+status = "normal"
 enUS = "Emergency Deep Drill"
 zhCN = "紧急中层钻探"
 zhTW = "緊急深鑽"
@@ -728,6 +789,7 @@ koKR = "긴급 심층 드릴"
 
 ["LV.SP.EmergencyDrill2Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
+status = "normal"
 enUS = "Add {0} days to this temperate season. Can only be activated when bad weather is approaching."
 zhCN = "当前天气额外增加 {0} 天（只能在恶劣天气预警时使用）。"
 zhTW = "將{0}天添加到這個溫和的季節。只有在壞天氣即將來臨時才能啟動。"
@@ -741,6 +803,7 @@ koKR = "{0}일을 이 온대 시즌에 추가합니다. 악천후가 올 때만 
 
 ["LV.SP.EmergencyDrill2Lore"]
 raw = "'We're drilling deep, but we're not drilling cheap!' — Digger McDrillface IV"
+status = "normal"
 enUS = "'We're drilling deep, but we're not drilling cheap!' — Digger McDrillface IV"
 zhCN = "经过小心谨慎的搜寻，海狸们找到了第二个备用水源。"
 zhTW = "「我們在深處鑽探，但我們不是在廉價鑽探！」— 鑽頭麥克·德瑞爾四世"
@@ -754,6 +817,7 @@ koKR = "'우리는 깊게 뚫고 있지만, 저렴하게 뚫지는 않는다!' �
 
 ["LV.SP.EmergencyDrill3"]
 raw = "Emergency Deepest Drill"
+status = "normal"
 enUS = "Emergency Deepest Drill"
 zhCN = "紧急深层钻探"
 zhTW = "緊急深鑽"
@@ -767,6 +831,7 @@ koKR = "비상 심층 드릴"
 
 ["LV.SP.EmergencyDrill3Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
+status = "normal"
 enUS = "Add {0} days to this temperate season. Can only be activated when bad weather is approaching."
 zhCN = "当前天气额外增加 {0} 天（只能在恶劣天气预警时使用）。"
 zhTW = "將{0}天添加到這個溫和的季節。僅在壞天氣即將來臨時才能啟動。"
@@ -780,6 +845,7 @@ koKR = "{0}일을 이 온대 시즌에 추가합니다. 악천후가 올 때만 
 
 ["LV.SP.EmergencyDrill3Lore"]
 raw = "Legend says old Gnawtooth foresaw this deepest well - our last hope when the skies turn cruel."
+status = "normal"
 enUS = "Legend says old Gnawtooth foresaw this deepest well - our last hope when the skies turn cruel."
 zhCN = "据说海狸长老预见了这口深井……这是灾难来临时的最后希望。"
 zhTW = "傳說古老的咬齒者預見了這口最深的井——我們在天空變得殘酷時的最後希望。"
@@ -793,6 +859,7 @@ koKR = "전설에 따르면, 오래된 이빨Gnawtooth가 이 가장 깊은 우�
 
 ["LV.SP.BadWeatherConditionErr"]
 raw = "You can only activate this when bad weather (drought or badtide) is predicted to come"
+status = "normal"
 enUS = "You can only activate this when bad weather (drought or low tide) is predicted to come."
 zhCN = "只能在恶劣天气预警时使用此项目。"
 zhTW = "您只能在預測會來臨壞天氣（乾旱或惡潮）時啟用此功能。"
@@ -806,6 +873,7 @@ koKR = "악천후(가뭄 또는 나쁜 조류)가 올 것으로 예측될 때만
 
 ["LV.SP.Wheelbarrows"]
 raw = "Wheelbarrows"
+status = "normal"
 enUS = "Wheelbarrows"
 zhCN = "独轮手推车"
 zhTW = "手推車"
@@ -819,6 +887,7 @@ koKR = "손수레"
 
 ["LV.SP.WheelbarrowsLore"]
 raw = "The ultimate back-saver, letting beavers haul logs without waddling like overloaded turtles."
+status = "normal"
 enUS = "The ultimate back-saver, allowing beavers to haul logs without waddling like overloaded turtles."
 zhCN = "终极护背神器，让海狸们不用再像超载乌龟般搬运原木。"
 zhTW = "終極救背助手，讓海狸能夠搬運原木，而不會像超載的烏龜一樣搖晃行走。"
@@ -832,6 +901,7 @@ koKR = "궁극적인 허리 보호 장치로, 비버들이 과부하에 걸린 �
 
 ["LV.SP.WheelbarrowsEff"]
 raw = "Beavers and bots no longer receive movement speed penalties when carrying."
+status = "normal"
 enUS = "Beavers and bots no longer receive movement speed penalties when carrying."
 zhCN = "海狸和机关人搬运物品时，移动速度不再降低。"
 zhTW = "海狸和機器人攜帶時不再受到移動速度懲罰。"
@@ -845,6 +915,7 @@ koKR = "비버와 로봇은 더 이상 운반 시 이동 속도 페널티를 받
 
 ["LV.SP.CarryUpgrade1"]
 raw = "Reinforced Carry Packs"
+status = "normal"
 enUS = "Reinforced Carry Packs"
 zhCN = "强化搬运包"
 zhTW = "加強型攜帶包"
@@ -858,6 +929,7 @@ koKR = "강화된 운반 팩"
 
 ["LV.SP.CarryUpgrade1Lore"]
 raw = "'These packs let me haul a forest and still have room for snacks!' — Packmule Heavyload"
+status = "normal"
 enUS = "'These packs let me haul a forest and still have room for snacks!' — Packmule Heavyload"
 zhCN = "背包足以装下一整片森林的原木，当然还有好吃的零食。"
 zhTW = "「這些包可以讓我搬運一整片森林，還有空間放零食！」— 包子重載"
@@ -871,6 +943,7 @@ koKR = "'이 배낭들은 내가 숲을 운반하고도 간식 공간을 남길 
 
 ["LV.SP.CarryUpgrade1Eff"]
 raw = "Permanently increases beavers' carrying capacity by {0:+#%}"
+status = "normal"
 enUS = "Permanently increases beavers' carrying capacity by {0:+#%}"
 zhCN = "增加所有海狸的承载能力 {0:+#%} 。"
 zhTW = "永久增加海狸的承載能力 {0:+#%}"
@@ -884,6 +957,7 @@ koKR = "비버의 운반 능력을 영구적으로 {0:+#%} 증가시킵니다."
 
 ["LV.SP.CarryBuilderUpgrade"]
 raw = "Builder Sledges"
+status = "normal"
 enUS = "Builder Sledges"
 zhCN = "建筑工雪橇"
 zhTW = "建築滑橇"
@@ -897,6 +971,7 @@ koKR = "건축가 썰매"
 
 ["LV.SP.CarryBuilderUpgradeLore"]
 raw = "Making construction as smooth as a well-chewed log."
+status = "normal"
 enUS = "Making construction as smooth as a well-chewed log."
 zhCN = "让工程建造如同打磨过的原木般顺滑。"
 zhTW = "使建設像咀嚼過的木材一樣順利。"
@@ -910,6 +985,8 @@ koKR = "잘 씹힌 통나무처럼 건설을 매끄럽게 만들기."
 
 ["LV.SP.CarryBuilderUpgradeEff"]
 raw = "{0:+#%} additional carrying capacity per Level for <SolidHighlight>Builders</SolidHighlight> (workers at District Centers or Builder Huts, both beavers and bots)."
+new = "{0:+#%} additional carrying capacity per Level for <YellowHighlight>Builders</YellowHighlight> (workers at District Centers or Builder Huts, both beavers and bots)."
+status = "normal"
 enUS = "{0:+#%} additional carrying capacity per Level for <SolidHighlight>Builders</SolidHighlight> (workers at District Centers or Builder Huts, both beavers and bots)."
 zhCN = "每级额外增加海狸建筑工的承载能力 {0:+#%} 。"
 zhTW = "每個級別對於<SolidHighlight>建築者</SolidHighlight>（地區中心或建築工棚的工人，包括海狸和機器人）額外增加 {0:+#%} 的承載能力。"
@@ -923,6 +1000,7 @@ koKR = "{0:+#%} 추가 운반 용량 레벨당 <SolidHighlight>건축가</SolidH
 
 ["LV.SP.CarryBuilderUpgradeCost"]
 raw = "[Cost] per Level for every builder (rounded up)"
+status = "normal"
 enUS = "[Cost] per Level for each builder (rounded up)"
 zhCN = "每级花费 [Cost] 点，且每名建筑工额外花费 [Cost] 点（费用总和向上取整）。"
 zhTW = "每位建築師每級的成本（向上取整）"
@@ -936,6 +1014,7 @@ koKR = "[모든 건축가의 레벨당 비용(올림)]"
 
 ["LV.SP.CarryUpgradeBuff"]
 raw = "Carrying Capacity Projects"
+status = "normal"
 enUS = "Carrying Capacity Projects"
 zhCN = "承载能力项目"
 zhTW = "承載能力專案"
@@ -949,6 +1028,8 @@ koKR = "운반 용량 프로젝트"
 
 ["LV.SP.CarryUpgradeBuffDesc"]
 raw = "{0:+#%} Carrying Capacity/nYour superior carrying gears allow your characters to carry more."
+new = "{0:+#%} Carrying Capacity\nYour superior carrying gears allow your characters to carry more."
+status = "normal"
 enUS = "{0:+#%} Carrying Capacity/nYour superior carrying gears allow your characters to carry more."
 zhCN = "|  承载能力: {0:+#%}<br>优良的装备使你的海狸承载能力更强。"
 zhTW = "{0:+#%} 负重能力/n 您的高级负重装备使您的角色能够携带更多。"
@@ -962,6 +1043,7 @@ koKR = "{0:+#%} 수송 능력/n귀하의 우수한 수송 장비는 캐릭터가
 
 ["LV.SP.CarryBuilderBuff"]
 raw = "Builder Sledge"
+status = "normal"
 enUS = "Builder Sledge"
 zhCN = "建筑工项目"
 zhTW = "建築者錘"
@@ -975,6 +1057,7 @@ koKR = "건설자 썰매"
 
 ["LV.SP.CarryBuilderBuffDesc"]
 raw = "Your builders are now equipped with sledges to carry more."
+status = "normal"
 enUS = "Your builders are now equipped with sleds to carry more."
 zhCN = "特制的装备使你的海狸建筑工承载能力更强。"
 zhTW = "您的建築工人現在配備了雪橇以便能攜帶更多。"
@@ -988,6 +1071,7 @@ koKR = "당신의 건설자들은 이제 더 많은 물건을 운반할 수 있�
 
 ["LV.SP.CarryBuilderBuffEff"]
 raw = "{0:+#%} carrying capacity from {1}"
+status = "normal"
 enUS = "{0:+#%} carrying capacity from {1}"
 zhCN = "|  承载能力: {0:+#%} 来自 {1}"
 zhTW = "{0:+#%} 繁載能力來自 {1}"
@@ -1001,6 +1085,7 @@ koKR = "{0:+#%} 수용량 {1}에서"
 
 ["LV.SP.FactionsGroup"]
 raw = "Factions"
+status = "normal"
 enUS = "Factions"
 zhCN = "种族项目"
 zhTW = "派系"
@@ -1014,6 +1099,7 @@ koKR = "세력"
 
 ["LV.SP.FactionsGroupDesc"]
 raw = "Unique projects for each faction"
+status = "normal"
 enUS = "Unique projects for each faction"
 zhCN = "种族独有的专属科学项目。"
 zhTW = "每個派系的獨特專案"
@@ -1027,6 +1113,7 @@ koKR = "각 파벌을 위한 독특한 프로젝트"
 
 ["LV.SP.FtPlankUpgrade"]
 raw = "Resin-Infused Planks"
+status = "normal"
 enUS = "Resin-Infused Planks"
 zhCN = "树脂浸渍木板"
 zhTW = "樹脂浸漬木板"
@@ -1040,6 +1127,7 @@ koKR = "수지 함유 판자"
 
 ["LV.SP.FtPlankUpgradeLore"]
 raw = "Infusing planks with natural resins doubles Treated Plank output - no power needed, just nature's way."
+status = "normal"
 enUS = "Infusing planks with natural resins doubles treated plank output - no power needed, just nature's way."
 zhCN = "神尾的浸渍工艺使木材工坊产量翻倍——纯天然，无污染。"
 zhTW = "用天然樹脂浸泡木板可使經處理木板的產量翻倍 - 無需電力，只需靠大自然的方式。"
@@ -1053,6 +1141,7 @@ koKR = "자연 수지로 플랭크를 주입하면 처리된 플랭크 출력이
 
 ["LV.SP.FtPlankUpgradeEffNew"]
 raw = "Woodworkshop no longer uses power and double Treated Planks output."
+status = "normal"
 enUS = "Woodworkshop no longer uses power and double Treated Planks output."
 zhCN = "木材工坊无需能量，产量翻倍。"
 zhTW = "木工坊不再消耗電力，且雙倍處理過的木板產出。"
@@ -1066,6 +1155,7 @@ koKR = "목재 작업장은 더 이상 전력을 사용하지 않으며, 처리�
 
 ["LV.SP.ItSmelterUpgrade"]
 raw = "Heat-Recycling Smelter"
+status = "normal"
 enUS = "Heat-Recycling Smelter"
 zhCN = "余热回收熔炉"
 zhTW = "熱回收冶煉爐"
@@ -1079,6 +1169,7 @@ koKR = "열 재활용 제련소"
 
 ["LV.SP.ItSmelterUpgradeLore"]
 raw = "A breakthrough in furnace design doubles metal output without extra power, embodying Iron Teeth ingenuity."
+status = "normal"
 enUS = "A breakthrough in furnace design doubles metal output without extra power, showcasing Iron Teeth ingenuity."
 zhCN = "重大设计突破使冶炼所产量翻倍，尽显铁牙的巧妙构思。"
 zhTW = "一項爐設計的突破使金屬產量翻倍而不需要額外的能源，體現了鐵齒的創意。"
@@ -1092,6 +1183,8 @@ koKR = "새로운 용광로 설계의 혁신이 추가 전력 없이 금속 생�
 
 ["LV.SP.ItSmelterUpgradeEffNew"]
 raw = "Smelter no longe ruses power and double the Metal Blocks output."
+new = "Smelter no longer uses power and double the Metal Blocks output."
+status = "normal"
 enUS = "Smelter no longe ruses power and double the Metal Blocks output."
 zhCN = "冶炼所无需能量，产量翻倍。"
 zhTW = "冶煉爐不再消耗電力並且金屬方塊的產量是以前的兩倍。"
@@ -1105,6 +1198,7 @@ koKR = "제련소는 더 이상 전력을 사용하지 않으며 금속 블록 �
 
 ["LV.SP.BuffLessPowerEff"]
 raw = "{0:#.###%} Power Usage"
+status = "normal"
 enUS = "{0:#.###%} Power Usage"
 zhCN = "|  能耗降低 {0:#.###%}"
 zhTW = "{0:#.###%} 電力使用量"
@@ -1118,6 +1212,7 @@ koKR = "{0:#.###%} 전력 사용량"
 
 ["LV.SP.BuffIncreasedOutput"]
 raw = "{0:+#%} increased Output"
+status = "normal"
 enUS = "{0:+#%} increased Output"
 zhCN = "|  产量增加 {0:+#%}"
 zhTW = "{0:+#%} 增加的輸出"
@@ -1131,6 +1226,7 @@ koKR = "{0:+#%} 출력 증가"
 
 ["LV.SP.Filter"]
 raw = "Filter"
+status = "normal"
 enUS = "Filter"
 zhCN = "筛选"
 zhTW = "過濾器"
@@ -1144,6 +1240,7 @@ koKR = "필터"
 
 ["LV.SP.Keyword"]
 raw = "Keyword"
+status = "normal"
 enUS = "Keyword"
 zhCN = "关键词"
 zhTW = "關鍵字"
@@ -1157,6 +1254,7 @@ koKR = "키워드"
 
 ["LV.SP.FilterLocked"]
 raw = "Locked"
+status = "normal"
 enUS = "Locked"
 zhCN = "已锁定"
 zhTW = "鎖定"
@@ -1170,6 +1268,7 @@ koKR = "잠김"
 
 ["LV.SP.FilterUnlocked"]
 raw = "Unlocked"
+status = "normal"
 enUS = "Unlocked"
 zhCN = "已解锁"
 zhTW = "解鎖"
@@ -1183,6 +1282,7 @@ koKR = "잠금 해제"
 
 ["LV.SP.FilterDaily"]
 raw = "Daily"
+status = "normal"
 enUS = "Daily"
 zhCN = "每日"
 zhTW = "每日"
@@ -1196,6 +1296,7 @@ koKR = "일일"
 
 ["LV.SP.FilterOneTime"]
 raw = "One-time"
+status = "normal"
 enUS = "One-time"
 zhCN = "一次性"
 zhTW = "一次性"
@@ -1209,6 +1310,8 @@ koKR = "일회성"
 
 ["LV.SP.CarryBuilderUpgradeBuildingDesc"]
 raw = "{0:+#} Carrying Capacity for workers at this building"
+new = "{0:+#%} Carrying Capacity for workers at this building"
+status = "normal"
 enUS = "{0:+#} Carrying Capacity for workers at this building"
 zhCN = "|  承载能力: {0:+#%}（仅限此建筑劳工）"
 zhTW = "{0:+#} 此建築物工人的攜帶能力"
@@ -1222,6 +1325,7 @@ koKR = "{0:+#} 이 건물에서 일하는 직원의 운반 용량"
 
 ["LV.SP.UpdateNote740"]
 raw = "This is a big update! While you will not see many new features but the UI was revamped, the code was completely rewritten using Moddable Timberborn instead of Buff & Debuff System with great performance improvements. Expansion mods that used Moddable Bindito no longer needs it as well! Please make sure all other mods are updated to the latest versions as well!"
+status = "normal"
 enUS = "This is a big update! While you will not see many new features but the UI was revamped, the code was completely rewritten using Moddable Timberborn instead of Buff & Debuff System with great performance improvements. Expansion mods that used Moddable Bindito no longer needs it as well! Please make sure all other mods are updated to the latest versions as well!"
 zhCN = "这是一个重大更新！虽然您不会看到太多新功能，但UI已重新设计，代码使用Moddable Timberborn完全重写，替代了原有的增益与减益系统，性能大幅提升。使用Moddable Bindito的扩展模组也不再需要它了！请确保所有其他模组也已更新至最新版本！"
 zhTW = "這是一個重大更新！雖然你不會看到許多新功能，但使用者介面已經重新設計，程式碼也完全重寫，採用了可修改的Timberborn，而不是增益與減益系統，並帶來了顯著的性能提升。使用可修改的Bindito的擴展模組也不再需要它！請確保所有其他模組也更新到最新版本！"

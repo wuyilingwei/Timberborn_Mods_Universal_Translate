@@ -1,0 +1,121 @@
+name = "TImprove 4 Achievements"
+
+["LV.T4A.AchievementsHelper"]
+new = "Achivements Helper"
+status = "normal"
+
+["LV.T4A.Unavailable"]
+new = "<RedHighlight>This achievement is unavailable during this game.</RedHighlight>"
+status = "normal"
+
+["LV.T4A.HintStep"]
+new = "Hint {0}: {1}"
+status = "normal"
+
+["LV.T4A.HintAction"]
+new = "Show Hint {0}"
+status = "normal"
+
+["LV.T4A.ShowSecret"]
+new = "Show secret achievement info"
+status = "normal"
+
+["LV.T4A.ShowSecretConfirm"]
+new = "Are you sure you want to reveal the secret achievement information?"
+status = "normal"
+
+["LV.T4A.PlantTree.Step0"]
+new = "Show planted tree count"
+status = "normal"
+
+["LV.T4A.PlantTree.Msg0"]
+new = "Trees planted: {0}/{1}"
+status = "normal"
+
+["LV.T4A.BuildAll.Step0"]
+new = "Show remaining count of building types to build"
+status = "normal"
+
+["LV.T4A.BuildAll.Msg0"]
+new = "Remaining building types to build: {0}"
+status = "normal"
+
+["LV.T4A.BuildAll.Step1"]
+new = "List missing building types"
+status = "normal"
+
+["LV.T4A.BuildAll.Msg1"]
+new = "{0} buildings you need to build:\n{1}"
+status = "normal"
+
+["LV.T4A.WorkAllDay.Step0"]
+new = "Show current 24h work day streak"
+status = "normal"
+
+["LV.T4A.WorkAllDay.Msg0"]
+new = "Current 24h work day streak: {0:0.0}/{1}d"
+status = "normal"
+
+["LV.T4A.GeneratePower.Step0"]
+new = "Show current power generated with only specified source"
+status = "normal"
+
+["LV.T4A.GeneratePower.Msg0"]
+new = "Current power generated with only {0}: {1}/{2}"
+status = "normal"
+
+["LV.T4A.BuildManyHedges.Step0"]
+new = "Show current built hedges count"
+status = "normal"
+
+["LV.T4A.BuildManyHedges.Msg0"]
+new = "Hedges built: {0}/{1}"
+status = "normal"
+
+["LV.T4A.ExplodeDynamiteInSingleDay.Step0"]
+new = "Show current exploded dynamite count today"
+status = "normal"
+
+["LV.T4A.ExplodeDynamiteInSingleDay.Msg0"]
+new = "Dynamite exploded today: {0}/{1}"
+status = "normal"
+
+["LV.T4A.PlugBadwaterSource.Step0"]
+new = "Show plugged badwater sources count and total"
+status = "normal"
+
+["LV.T4A.PlugBadwaterSource.Msg0"]
+new = "Badwater sources plugged: {0}/{1}"
+status = "normal"
+
+["LV.T4A.ProducePlanksInDay.Step0"]
+new = "Show current produced planks count today"
+status = "normal"
+
+["LV.T4A.ProducePlanksInDay.Msg0"]
+new = "Planks produced today: {0}/{1}"
+status = "normal"
+
+["LV.T4A.BatteryChargeStorage.Step0"]
+new = "Show current battery charge stored"
+status = "normal"
+
+["LV.T4A.BatteryChargeStorage.Msg0"]
+new = "Battery charge stored: {0}/{1} HP"
+status = "normal"
+
+["LV.T4A.ZiplineNetworkLength.Step0"]
+new = "Show current longest zipline network length"
+status = "normal"
+
+["LV.T4A.ZiplineNetworkLength.Msg0"]
+new = "Longest zipline network length: {0:0.0}/{1:0} m"
+status = "normal"
+
+["LV.T4A.LargeTubewayNetwork.Step0"]
+new = "Show current built Station and Tubeway segments count"
+status = "normal"
+
+["LV.T4A.LargeTubewayNetwork.Msg0"]
+new = "- Station built: {0}/{1}\n- Tubeway segments built: {2}/{3}"
+status = "normal"

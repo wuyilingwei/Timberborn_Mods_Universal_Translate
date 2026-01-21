@@ -1,5 +1,8 @@
+name = "Booster Juice"
+
 ["Cordial.Good.Fertilizer.DisplayName"]
 raw = "Tree Fertilizer"
+status = "normal"
 enUS = "Tree Fertilizer"
 zhCN = "树木肥料"
 zhTW = "樹木肥料"
@@ -13,6 +16,7 @@ koKR = "나무 비료"
 
 ["Cordial.Good.Fertilizer.PluralDisplayName"]
 raw = "Tree Fertilizers"
+status = "normal"
 enUS = "Tree Fertilizers"
 zhCN = "树木肥料"
 zhTW = "樹木肥料"
@@ -26,6 +30,7 @@ koKR = "나무 비료"
 
 ["Cordial.Fertilizer.Mild"]
 raw = "Tree Fertilizer"
+status = "normal"
 enUS = "Tree Fertilizer"
 zhCN = "树木肥料"
 zhTW = "樹木肥料"
@@ -39,6 +44,7 @@ koKR = "나무 비료"
 
 ["Cordial.Fertilizer.Strong"]
 raw = "Tree Fertilizer"
+status = "normal"
 enUS = "Tree Fertilizer"
 zhCN = "树木肥料（高效）"
 zhTW = "樹木肥料"
@@ -52,6 +58,7 @@ koKR = "나무 비료"
 
 ["Cordial.Building.Chemist.Description"]
 raw = "Cooks chemical concotions"
+status = "normal"
 enUS = "Cooks chemical concoctions"
 zhCN = "将原料混合后制成肥料，可以促进树木和产出物生长。<br><color=#FFA500>肥料供应处可以使用肥料。</color>"
 zhTW = "廚師化學混合物"
@@ -65,6 +72,7 @@ koKR = "화학 혼합물을 요리합니다"
 
 ["Cordial.Building.Chemist.DisplayName"]
 raw = "Chemist"
+status = "normal"
 enUS = "Chemist"
 zhCN = "堆肥房"
 zhTW = "化學家"
@@ -78,6 +86,7 @@ koKR = "화학자"
 
 ["Cordial.Building.Chemist.FlavorDescription"]
 raw = "The fantastical apparatus inside is used strictly for scientific purposes."
+status = "normal"
 enUS = "The fantastical apparatus inside is used strictly for scientific purposes."
 zhCN = "所有装置必须严格用于科学目的。"
 zhTW = "裡面的奇幻裝置僅用於科學目的。"
@@ -91,6 +100,7 @@ koKR = "안에 있는 환상적인 장치는 철저히 과학적 목적을 위�
 
 ["Cordial.Building.FertilizerDump.Description"]
 raw = "Distributes fertilizer to planted trees"
+status = "normal"
 enUS = "Distributes fertilizer to planted trees."
 zhCN = "给周围的树木供应肥料，可以促进树木和产出物生长。<br><color=#FFA500>堆肥房可以制作肥料。</color>"
 zhTW = "為種植的樹木施肥"
@@ -104,6 +114,7 @@ koKR = "심어진 나무에 비료를 분배합니다."
 
 ["Cordial.Building.FertilizerDump.DisplayName"]
 raw = "Fertilizer Dump"
+status = "normal"
 enUS = "Fertilizer Dump"
 zhCN = "肥料供应处"
 zhTW = "肥料傾倒區"
@@ -117,6 +128,7 @@ koKR = "비료 덤프"
 
 ["Cordial.Building.FertilizerDump.FlavorDescription"]
 raw = "Fertilizer for trees improves growth and yield."
+status = "normal"
 enUS = "Fertilizer for trees improves growth and yield."
 zhCN = "树木肥料可以提高生长速度和产量。"
 zhTW = "樹木的肥料可以改善生長和產量。"
@@ -130,6 +142,7 @@ koKR = "나무를 위한 비료는 성장과 수확을 향상시킵니다."
 
 ["Cordial.Building.FertilizerDump.Consumption"]
 raw = "Fertilizer consumption"
+status = "normal"
 enUS = "Fertilizer consumption"
 zhCN = "肥料消耗:"
 zhTW = "肥料消耗"
@@ -143,6 +156,7 @@ koKR = "비료 소비"
 
 ["Cordial.Building.FertilizerDump.TreeCount"]
 raw = "Trees affected"
+status = "normal"
 enUS = "Trees affected"
 zhCN = "已生效树木/范围内树木"
 zhTW = "受影響的樹木"
@@ -156,6 +170,7 @@ koKR = "영향을 받은 나무"
 
 ["Cordial.Building.FertilizerDump.FertilizeYield"]
 raw = "Apply fertilizer to tree gatherables"
+status = "normal"
 enUS = "Apply fertilizer to tree collectibles."
 zhCN = "对树木的产出物使用肥料"
 zhTW = "給樹木可收集物施肥"
@@ -169,6 +184,7 @@ koKR = "나무 자원을 위한 비료를 적용하세요"
 
 ["Cordial.TreeFragment.Title"]
 raw = "Growth is influenced by fertilizer."
+status = "normal"
 enUS = "Growth is influenced by fertilizer."
 zhCN = "此树木受到肥料影响"
 zhTW = "生長受到肥料的影響。"
@@ -182,6 +198,7 @@ koKR = "성장은 비료에 의해 영향을 받습니다."
 
 ["Cordial.TreeFragment.GrowthDaily"]
 raw = "Daily growth increased by"
+status = "normal"
 enUS = "Daily growth increased by"
 zhCN = "每日生长速度增加"
 zhTW = "日增長增加了"
@@ -195,6 +212,7 @@ koKR = "매일 성장 증가"
 
 ["Cordial.TreeFragment.GrowthAverage"]
 raw = "Average growth decreased by"
+status = "normal"
 enUS = "Average growth decreased by"
 zhCN = "平均生长时间减少"
 zhTW = "平均增長減少了"
@@ -208,6 +226,7 @@ koKR = "평균 성장 감소"
 
 ["Cordial.TreeFragment.YieldAverage"]
 raw = "Average yield growth decreased by"
+status = "normal"
 enUS = "The average yield growth decreased by"
 zhCN = "平均产出时间减少"
 zhTW = "平均產量增長減少了"
@@ -221,6 +240,7 @@ koKR = "평균 수확량 증가가 감소했습니다."
 
 ["Cordial.Unit.Days"]
 raw = "days"
+status = "normal"
 enUS = "days"
 zhCN = "天"
 zhTW = "天數"
@@ -234,6 +254,7 @@ koKR = "일"
 
 ["Cordial.Unit.PerHour"]
 raw = "/h"
+status = "normal"
 enUS = "Error"
 zhCN = "/小时"
 zhTW = "Error"

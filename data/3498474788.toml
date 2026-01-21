@@ -1,5 +1,8 @@
+name = "Weather Scientific Projects"
+
 ["LV.WSP.WeatherGroup"]
 raw = "Weather"
+status = "normal"
 enUS = "Weather"
 zhCN = "环境调控"
 zhTW = "天氣"
@@ -13,6 +16,7 @@ koKR = "날씨"
 
 ["LV.WSP.WeatherGroupDesc"]
 raw = "Scientific projects related to the weather & forecast"
+status = "normal"
 enUS = "Scientific projects related to the weather & forecast"
 zhCN = "与天气和水源相关的自然科学项目。"
 zhTW = "與天氣和預報相關的科學項目"
@@ -26,6 +30,7 @@ koKR = "날씨 및 예보와 관련된 과학 프로젝트"
 
 ["LV.WSP.Ext1"]
 raw = "Galesniffer's Totem"
+status = "normal"
 enUS = "Galesniffer's Totem"
 zhCN = "风嗅图腾"
 zhTW = "加雷斯尼弗的圖騰"
@@ -39,6 +44,8 @@ koKR = "갈레스니퍼의 토템"
 
 ["LV.WSP.Ext1Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier."
+new = "Warnings of the next weather come {0:+#} day earlier."
+status = "normal"
 enUS = "Warnings of bad weather come {0:+#} day earlier."
 zhCN = "恶劣天气的预警提前 {0:+#} 天。"
 zhTW = "壞天氣的警告提前{0:+#}天發佈。"
@@ -52,6 +59,7 @@ koKR = "나쁜 날씨 경고가 {0:+#}일 더 일찍 옵니다."
 
 ["LV.WSP.Ext1Lore"]
 raw = "A simple pole where your beavers can 'sniff' the wind for early weather hints."
+status = "normal"
 enUS = "A simple pole where your beavers can 'sniff' the wind for early weather hints."
 zhCN = "一根杆子，可以感知风向和风力。"
 zhTW = "一根簡單的桿子，讓你的海狸可以「嗅」風，以獲取早期的天氣線索。"
@@ -65,6 +73,7 @@ koKR = "비버들이 날씨에 대한 조Hints를 조기에 감지할 수 있도
 
 ["LV.WSP.Ext2"]
 raw = "Mistweaver's Dial"
+status = "normal"
 enUS = "Mistweaver's Dial"
 zhCN = "雾织罗盘"
 zhTW = "懸雲師的表盤"
@@ -78,6 +87,8 @@ koKR = "안개 엮는 자의 다이얼"
 
 ["LV.WSP.Ext2Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier."
+new = "Warnings of the next weather come {0:+#} day earlier."
+status = "normal"
 enUS = "Warnings of bad weather come {0:+#} day earlier."
 zhCN = "恶劣天气的预警提前 {0:+#} 天。"
 zhTW = "壞天氣的警告提前 {0:+#} 天發出。"
@@ -91,6 +102,7 @@ koKR = "악천후 경고가 {0:+#}일 빨리 도착합니다."
 
 ["LV.WSP.Ext2Lore"]
 raw = "A dial that can predict the weather based on the humidity and air pressure."
+status = "normal"
 enUS = "A dial that can predict the weather based on the humidity and air pressure."
 zhCN = "一个罗盘，可以测量湿度和气压。"
 zhTW = "一個可以根據濕度和氣壓預測天氣的儀表。"
@@ -104,6 +116,7 @@ koKR = "습도와 기압을 기반으로 날씨를 예측할 수 있는 다이�
 
 ["LV.WSP.Ext3"]
 raw = "Thunderhub's Spire"
+status = "normal"
 enUS = "Thunderhub's Spire"
 zhCN = "雷鸣高塔"
 zhTW = "雷霆中心的尖塔"
@@ -117,6 +130,8 @@ koKR = "썬더허브의 첨탑"
 
 ["LV.WSP.Ext3Desc"]
 raw = "Warnings of bad weather come {0:+#} day earlier per Level."
+new = "Warnings of the next weather come {0:+#} day earlier per Level."
+status = "normal"
 enUS = "Warnings of bad weather come {0:+#} day earlier per Level."
 zhCN = "每级使恶劣天气的预警额外提前 {0:+#} 天。"
 zhTW = "壞天氣的警告每個等級提前 {0:+#} 天發出。"
@@ -130,6 +145,7 @@ koKR = "레벨당 나쁜 날씨 경고가 {0:+#}일 더 일찍 옵니다."
 
 ["LV.WSP.Ext3Lore"]
 raw = "A tall spire that can detect the electric charge in the air."
+status = "normal"
 enUS = "A tall spire that can detect the electric charge in the air."
 zhCN = "一座高塔，可以检测空气中的电荷。"
 zhTW = "一根可以探測空氣中電荷的高尖塔。"
@@ -143,6 +159,7 @@ koKR = "공기 중의 전하를 감지할 수 있는 높은 첨탑입니다."
 
 ["LV.WSP.PrewarningCost"]
 raw = "[Cost] per Level on pre-warning days. 0 on all other days."
+status = "normal"
 enUS = "[Cost] per Level on pre-warning days. 0 on all other days."
 zhCN = "每级花费 [Cost] 点（仅在预警前有花费）。"
 zhTW = "預警日的每級成本為0，其他日子則為0。"
@@ -156,6 +173,7 @@ koKR = "[경고 전 날] 레벨당 [비용]. 다른 모든 날은 0."
 
 ["LV.WSP.Pred1"]
 raw = "Weather Forecasting"
+status = "normal"
 enUS = "Weather Forecasting"
 zhCN = "天气预报"
 zhTW = "天氣預報"
@@ -169,6 +187,8 @@ koKR = "날씨 예측"
 
 ["LV.WSP.Pred1Desc"]
 raw = "Predict the bad weather of this cycle. The accuracy starts at {0:#%} at the first day and increases by {1:+#%} every day."
+new = "Predict the next weather. The accuracy starts at {0:#%} at the first day and increases by {1:+#%} every day."
+status = "normal"
 enUS = "Predict the bad weather of this cycle. The accuracy starts at {0:#%} at the first day and increases by {1:+#%} every day."
 zhCN = "预测本周期的恶劣天气。首日准确度 {0:#%}，每天增加 {1:+#%}。"
 zhTW = "預測這個周期的不良天氣。準確度在第一天為 {0:#%}，並且每天增加 {1:+#%}。"
@@ -182,6 +202,7 @@ koKR = "이번 주기의 악천후를 예측합니다. 첫날에 정확도는 {0
 
 ["LV.WSP.Pred1Lore"]
 raw = "Beavers consult the clouds and winds, their predictions sharpening as the days pass."
+status = "normal"
 enUS = "Beavers consult the clouds and winds, their predictions sharpening as the days pass."
 zhCN = "海狸们观察云层和风向，预测准确度随时间推移越发精准。"
 zhTW = "海狸們與雲彩和風對話，隨著日子流逝，他們的預測變得越來越準確。"
@@ -195,6 +216,7 @@ koKR = "비버들은 구름과 바람을 참조하며 날이 갈수록 그들의
 
 ["LV.WSP.Pred2"]
 raw = "Starlit Precision"
+status = "normal"
 enUS = "Starlit Precision"
 zhCN = "星象校准"
 zhTW = "星光精準"
@@ -208,6 +230,8 @@ koKR = "별빛 정밀도"
 
 ["LV.WSP.Pred2Desc"]
 raw = "Weather Forecasting now starts with additional {0:+#%} accuracy on the first day of the cycle."
+new = "Weather Forecasting now starts with additional {0:+#%} accuracy on the first day of the stage."
+status = "normal"
 enUS = "Weather Forecasting now starts with additional {0:+#%} accuracy on the first day of the cycle."
 zhCN = "<i>天气预报</i>的首日准确度额外提高 {0:+#%}。"
 zhTW = "天氣預報現在在循環的第一天開始時具有額外的 {0:+#%} 準確性。"
@@ -221,6 +245,7 @@ koKR = "날씨 예보는 이제 주기의 첫 번째 날에 추가 {0:+#%} 정�
 
 ["LV.WSP.Pred2Lore"]
 raw = "'The stars don't lie—if you know how to ask them!' — Blink the Stargazer"
+status = "normal"
 enUS = "'The stars don't lie—if you know how to ask them!' — Blink the Stargazer"
 zhCN = "星辰从不说谎，只需学会提问，一切皆有所答。"
 zhTW = "「星星不會說謊——如果你知道怎麼去詢問它們！」— 盲人星空觀察者"
@@ -234,6 +259,7 @@ koKR = "\"별은 거짓말하지 않아—그들에게 물어보는 방법만 �
 
 ["LV.WSP.Pred3"]
 raw = "Hydrological Analysis"
+status = "normal"
 enUS = "Hydrological Analysis"
 zhCN = "水文分析"
 zhTW = "水文分析"
@@ -247,6 +273,7 @@ koKR = "수리 분석"
 
 ["LV.WSP.Pred3Desc"]
 raw = "Add {1:+#%} accuracy per Level to Weather Forecasting everyday."
+status = "normal"
 enUS = "Add {1:+#%} accuracy per Level to Weather Forecasting everyday."
 zhCN = "<i>天气预报</i>的每天增加准确度额外提高 {1:+#%}。"
 zhTW = "每天將天氣預報的準確度提高 {1:+#%} 每個等級。"
@@ -260,6 +287,7 @@ koKR = "매일 날씨 예측에 레벨당 {1:+#%}의 정확도를 추가합니�
 
 ["LV.WSP.Pred3Lore"]
 raw = "By studying the ebb and flow, beavers refine their weather guesses daily."
+status = "normal"
 enUS = "By studying the ebb and flow, beavers refine their weather guesses daily."
 zhCN = "通过研究水流规律，海狸们持续优化天气预报工作流程。"
 zhTW = "通過研究潮起潮落，海狸每天都能精煉出更準確的天氣預測。"
@@ -273,6 +301,7 @@ koKR = "조수의 흐름을 연구함으로써, 비버들은 매일 날씨 예�
 
 ["LV.WSP.IncreaseStr"]
 raw = "Flowmaster's Conduit"
+status = "normal"
 enUS = "Flowmaster's Conduit"
 zhCN = "恒流者之管"
 zhTW = "Flowmaster的導管"
@@ -286,6 +315,7 @@ koKR = "흐름 장인의 수로"
 
 ["LV.WSP.IncreaseStrDesc"]
 raw = "Allow you to increase the strength of Water sources"
+status = "normal"
 enUS = "Allow you to increase the strength of Water sources"
 zhCN = "可以提高水源的强度。"
 zhTW = "允許您增強水源的力量"
@@ -299,6 +329,7 @@ koKR = "물 근원의 강도를 증가시킬 수 있습니다."
 
 ["LV.WSP.IncreaseStrLore"]
 raw = "'More water, more power—simple as that!' — Riverchew Flowmaster"
+status = "normal"
 enUS = "'More water, more power—simple as that!' — Riverchew Flowmaster"
 zhCN = "水流越大，能量越大，这是很浅显的道理。"
 zhTW = "「更多水，更多力量——就這麼簡單！」— 河流掌控者"
@@ -312,6 +343,7 @@ koKR = "'물을 더 많이, 힘을 더 많이—그게 전부다!' — 리버추
 
 ["LV.WSP.IncreaseStrFresh"]
 raw = "Increase fresh water sources"
+status = "normal"
 enUS = "Increase fresh water sources"
 zhCN = "增加淡水资源"
 zhTW = "增加淡水來源"
@@ -325,6 +357,7 @@ koKR = "담수원 증가"
 
 ["LV.WSP.IncreaseStrFreshDesc"]
 raw = "Increase the Strength of all fresh water sources (including during Badtides) by {0:+#%} per Level"
+status = "normal"
 enUS = "Increase the Strength of all fresh water sources (including during Badtides) by {0:+#%} per Level"
 zhCN = "每级提高所有水源的强度 {0:+#%}。"
 zhTW = "每個等級將所有淡水來源（包括壞潮期間）的強度提高 {0:+#%}"
@@ -338,6 +371,7 @@ koKR = "모든 담수원의 강도를 {0:+#%}씩 레벨당 증가시킵니다 (�
 
 ["LV.WSP.IncreaseStrBad"]
 raw = "Increase bad water sources"
+status = "normal"
 enUS = "Increase bad water sources"
 zhCN = "增加恶水资源"
 zhTW = "增加有害水源"
@@ -351,6 +385,7 @@ koKR = "나쁜 수원 증가"
 
 ["LV.WSP.IncreaseStrBadDesc"]
 raw = "Increase the Strength of all bad water sources by {0:+#%} per Level"
+status = "normal"
 enUS = "Increase the Strength of all bad water sources by {0:+#%} per Level"
 zhCN = "每级提高所有恶水源的强度 {0:+#%}。"
 zhTW = "每個等級會使所有劣質水源的強度增加 {0:+#%}"
@@ -364,6 +399,7 @@ koKR = "모든 나쁜 수원지의 강도를 레벨당 {0:+#%}만큼 증가시�
 
 ["LV.WSP.DecreaseStr"]
 raw = "Tidebreaker's Gate"
+status = "normal"
 enUS = "Tidebreaker's Gate"
 zhCN = "破潮者之门"
 zhTW = "潮流破壞者之門"
@@ -377,6 +413,7 @@ koKR = "조수 파괴자의 문"
 
 ["LV.WSP.DecreaseStrDesc"]
 raw = "Allow you to decrease the strength of Water sources"
+status = "normal"
 enUS = "Allow you to decrease the strength of Water sources"
 zhCN = "可以降低水源的强度。"
 zhTW = "允許你減少水源的強度"
@@ -390,6 +427,7 @@ koKR = "물의 출처 강도를 감소시킬 수 있습니다."
 
 ["LV.WSP.DecreaseStrLore"]
 raw = "'Sometimes you need to tame the river, not ride it.' — Stillwater Tidebreaker"
+status = "normal"
 enUS = "'Sometimes you need to tame the river, not ride it.' — Stillwater Tidebreaker"
 zhCN = "有时候需要的不是随波逐流，而是驯服河流。"
 zhTW = "「有時候，你需要馴服河流，而不是馳騁於其上。」— 靜水破潮者"
@@ -403,6 +441,7 @@ koKR = "'때로는 강을 타는 것이 아니라 길들여야 한다.' — 스�
 
 ["LV.WSP.DecreaseStrFresh"]
 raw = "Decrease fresh water sources"
+status = "normal"
 enUS = "Decrease fresh water sources"
 zhCN = "减少淡水资源"
 zhTW = "減少淡水資源"
@@ -416,6 +455,7 @@ koKR = "신선한 물 공급원 감소"
 
 ["LV.WSP.DecreaseStrFreshDesc"]
 raw = "Decrease the Strength of all fresh water sources by {0:;#%} per Level"
+status = "normal"
 enUS = "Decrease the Strength of all fresh water sources by {0:;#%} per Level"
 zhCN = "每级降低所有水源的强度 {0:#%}。"
 zhTW = "將所有淡水源的強度降低 {0:;#%} 每級"
@@ -429,6 +469,7 @@ koKR = "레벨당 모든 담수원들의 강도를 {0:;#%}만큼 감소시킵니
 
 ["LV.WSP.DecreaseStrBad"]
 raw = "Decrease bad water sources"
+status = "normal"
 enUS = "Decrease bad water sources"
 zhCN = "减少恶水资源"
 zhTW = "減少不良水源"
@@ -442,6 +483,7 @@ koKR = "나쁜 수원 감소"
 
 ["LV.WSP.DecreaseStrBadDesc"]
 raw = "Decrease the Strength of all bad water sources by {0:#%} per Level"
+status = "normal"
 enUS = "Decrease the Strength of all bad water sources by {0:#%} per Level"
 zhCN = "每级降低所有恶水源的强度 {0:#%}。"
 zhTW = "將所有不良水源的強度減少 {0:#%} 每個等級"
@@ -455,6 +497,7 @@ koKR = "레벨당 모든 나쁜 물 소스의 강도를 {0:#%}만큼 감소시�
 
 ["LV.WSP.StrCostFresh"]
 raw = "[Cost] per fresh water source. Inactive sources do not count (for e.g. during drought)"
+status = "normal"
 enUS = "[Cost] per fresh water source. Inactive sources do not count (for e.g. during drought)"
 zhCN = "每个水源消耗 [Cost] 点。不活跃的水源不被计入（例如干旱期时的水源）。"
 zhTW = "每個淡水源的[成本]。非活躍的水源不計算（例如在乾旱期間）。"
@@ -468,6 +511,7 @@ koKR = "[신선한 물 공급원]당 [비용]. 비활성 공급원은 포함되�
 
 ["LV.WSP.StrCostBad"]
 raw = "[Cost] per bad water source. Inactive sources do not count (for e.g. during drought or sealed ones)"
+status = "normal"
 enUS = "[Cost] per bad water source. Inactive sources do not count (for e.g. during drought or sealed ones)"
 zhCN = "每个恶水源消耗 [Cost] 点。不活跃的恶水源不被计入（例如干旱期时或被建筑封堵的恶水源）。"
 zhTW = "[成本] 每個不良水源。不活動的水源不計算（例如：在乾旱期間或被封閉的水源）。"
@@ -481,6 +525,7 @@ koKR = "[비용] 나쁜 물 공급원당. 비활성 공급원은 계산에 포�
 
 ["LV.WSP.ForecastText"]
 raw = "{0:#%} {1}, lasts {2}-{3}d"
+status = "normal"
 enUS = "{0:#%} {1}, lasts {2}-{3}d"
 zhCN = "{0:#%} {1}，持续 {2}-{3} 天"
 zhTW = "{0:#%} {1}，持續 {2}-{3} 天"
@@ -494,6 +539,7 @@ koKR = "{0:#%} {1}, 지속 시간 {2}-{3}일"
 
 ["LV.WSP.Forecast1DayText"]
 raw = "{0:#%} {1}, lasts {2}d"
+status = "normal"
 enUS = "{0:#%} {1}, lasts {2}d"
 zhCN = "{0:#%} {1}，持续 {2} 天"
 zhTW = "{0:#%} {1}，持續 {2}天"
@@ -507,6 +553,7 @@ koKR = "{0:#%} {1}, 지속됨 {2}일"
 
 ["LV.WSP.DecreaseStrBuffDesc"]
 raw = "A marvel of beaver engineering, this gate tames the wildest rivers, calming their flow to protect our lands."
+status = "normal"
 enUS = "A marvel of beaver engineering, this gate tames the wildest rivers, calming their flow to protect our lands."
 zhCN = "土木工程的奇迹，这道闸门驯服了狂野的河流，平息水流以保护我们的土地。"
 zhTW = "一個海狸工程的奇蹟，這扇大門馴服了最狂野的河流，平息它們的流動以保護我們的土地。"
@@ -520,6 +567,7 @@ koKR = "비버 공학의 경이로움, 이 게이트는 가장 거친 강을 길
 
 ["LV.WSP.IncreaseStrBuffDesc"]
 raw = "Channeling nature's might, this conduit unleashes a surge of water, bending rivers to our will."
+status = "normal"
 enUS = "Channeling nature's might, this conduit unleashes a surge of water, bending rivers to our will."
 zhCN = "征服自然的力量，这条导管释放出汹涌的水流，征服河流以顺从我们的意志。"
 zhTW = "通過自然的力量，這個通道釋放出水流的沖擊，將河流彎曲到我們的意志之下。"
@@ -533,6 +581,7 @@ koKR = "자연의 힘을 끌어내며, 이 통로는 물의 힘을 발산하여 
 
 ["LV.WSP.StrBuffEffect"]
 raw = "{0:+#%;-#%;0%} Strength"
+status = "normal"
 enUS = "{0:+#%;-#%;0%} Strength"
 zhCN = "水力: {0:+#%;-#%;0%}"
 zhTW = "{0:+#%;-#%;0%} 力量"

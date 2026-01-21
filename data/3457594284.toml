@@ -1,5 +1,8 @@
+name = "Underground Sluices"
+
 ["Building.UndergroundSluice.Description"]
 raw = "Tunnel through terrain, replacing it with a Sluice. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through the terrain, replacing it with a sluice. Use the layer tool to see beneath the terrain or structures."
 zhCN = "在地形中挖掘隧道，并用水闸替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "在地形中挖隧道，用水閘取而代之。使用圖層工具以查看地形或結構下方。"
@@ -13,6 +16,7 @@ koKR = "지하 수문을 통해 지형을 터널로 만들고, 이를 수문으�
 
 ["Building.UndergroundSluice.DisplayName"]
 raw = "Underground sluice"
+status = "normal"
 enUS = "Underground sluice"
 zhCN = "水闸隧道"
 zhTW = "地下溝渠"

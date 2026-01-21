@@ -1,5 +1,8 @@
+name = "Save Everyday"
+
 ["LV.SE.Enabled"]
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "定期存档"
 zhTW = "已啟用"
@@ -13,6 +16,8 @@ koKR = "활성화됨"
 
 ["LV.SE.EnabledDesc"]
 raw = "Whether this mod is enabled."
+new = "Whether to save every x days or not. Does not affect 'special first cycle day' and 'extra save on weather warning' options."
+status = "normal"
 enUS = "Whether this mod is enabled."
 zhCN = "勾选后，将根据游戏内天数变化定期保存。"
 zhTW = "此模組是否已啟用。"
@@ -26,6 +31,7 @@ koKR = "이 모드가 활성화되어 있는지 여부."
 
 ["LV.SE.SaveFrequency"]
 raw = "Auto-save frequency (days)"
+status = "normal"
 enUS = "Auto-save frequency (days)"
 zhCN = "定期保存频率"
 zhTW = "自動儲存頻率（天）"
@@ -39,6 +45,7 @@ koKR = "자동 저장 빈도(일)"
 
 ["LV.SE.SaveFrequencyDesc"]
 raw = "How often this mod should auto-save."
+status = "normal"
 enUS = "How often should this mod auto-save?"
 zhCN = "定期保存的间隔天数，即每隔多少天保存一次（模组默认：1）。"
 zhTW = "這個模組應該多久自動儲存一次。"
@@ -52,6 +59,7 @@ koKR = "이 모드가 얼마나 자주 자동 저장되어야 하는지."
 
 ["LV.SE.SaveCount"]
 raw = "Auto-save count"
+status = "normal"
 enUS = "Auto-save count"
 zhCN = "定期存档数量"
 zhTW = "自動儲存次數"
@@ -65,6 +73,7 @@ koKR = "자동 저장 횟수"
 
 ["LV.SE.SaveCountDesc"]
 raw = "How many auto-saves should be kept."
+status = "normal"
 enUS = "How many auto-saves should be kept?"
 zhCN = "可保留的定期存档数量（模组默认：5）。"
 zhTW = "應保留多少個自動保存的檔案。"
@@ -78,6 +87,7 @@ koKR = "자동 저장을 몇 개 보관해야 하는지."
 
 ["LV.SE.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
+status = "normal"
 enUS = "Extra savings on weather warnings"
 zhCN = "额外存档（周期变化）"
 zhTW = "額外節省天氣警報的費用"
@@ -91,6 +101,7 @@ koKR = "날씨 경고에 대한 추가 저장"
 
 ["LV.SE.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+status = "normal"
 enUS = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save does not count towards the save count."
 zhCN = "勾选后，将在恶劣天气预警时自动保存，下一次恶劣天气预警时会自动覆盖保存。"
 zhTW = "當發布氣象警報時，請額外保存一個名為 'weatherwarning.save' 的檔案，該檔案僅在下一個循環的警報中被覆蓋。該保存不計入保存計數。"
@@ -104,6 +115,7 @@ koKR = "날씨 경고가 발령될 때, 'weatherwarning.save'라는 이름의 �
 
 ["LV.SE.AutosaveWarning"]
 raw = "Warn before autosave"
+status = "normal"
 enUS = "Warn before autosave"
 zhCN = "自动保存前警告"
 zhTW = "自動儲存前警告"
@@ -117,6 +129,7 @@ koKR = "자동 저장 전에 경고"
 
 ["LV.SE.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
+status = "normal"
 enUS = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering during autosave."
 zhCN = "勾选后，游戏定期保存之前会显示一个警告，以提示即将发生游戏卡顿。"
 zhTW = "在遊戲自動儲存之前顯示警告。這對於不喜歡自動儲存時遊戲卡頓的玩家來說非常有用。"
@@ -130,6 +143,7 @@ koKR = "게임이 자동 저장되기 전에 미리 경고를 표시합니다. �
 
 ["LV.SE.AutosaveWarningText"]
 raw = "Autosave imminent in {0} game hours!"
+status = "normal"
 enUS = "Autosave imminent in {0} game hours!"
 zhCN = "注意，即将在 {0} 游戏时后定期保存！"
 zhTW = "自動保存即將在 {0} 遊戲小時內發生！"
@@ -143,6 +157,7 @@ koKR = "자동 저장이 {0} 시간 후에 진행됩니다!"
 
 ["LV.SE.AutosaveDoneText"]
 raw = "Game autosaved (Save Everyday)!"
+status = "normal"
 enUS = "Game autosaved (Save Every Day)!"
 zhCN = "已定期保存"
 zhTW = "遊戲已自動保存（每天保存一次）！"
@@ -156,6 +171,7 @@ koKR = "게임이 자동 저장되었습니다 (매일 저장)!"
 
 ["LV.SE.AutoSaveFilename"]
 raw = "Auto-save filename"
+status = "normal"
 enUS = "Auto-save filename"
 zhCN = "定期存档名称"
 zhTW = "自動儲存檔案名稱"
@@ -169,6 +185,7 @@ koKR = "자동 저장 파일 이름"
 
 ["LV.SE.AutoSaveFilenameDesc"]
 raw = "Custom filename for auto-saves. If you use this,\nmake sure to put .saveeveryday at the end to auto delete. If not, the game will not delete the save file automatically.\nUse {0} for cycle number and {1} for cycle day number and {2} for total day. For example: C{0}_D{1}.saveeveryday.\nLeave empty to use the default filename (SaveDay{2}.saveeveryday)."
+status = "normal"
 enUS = "Custom filename for auto-saves. If you use this, make sure to put .saveeveryday at the end to enable auto deletion. If not, the game will not automatically delete the save file. Use {0} for cycle number, {1} for cycle day number, and {2} for total days. For example: C{0}_D{1}.saveeveryday. Leave empty to use the default filename (SaveDay{2}.saveeveryday)."
 zhCN = "可以更改定期存档的名称，留空则使用模组默认（SaveDay{2}.saveeveryday）。<br>使用“{0}”表示周期数，“{1}”表示周期天数，“{2}”表示总天数。<br>注意，末尾须添加“.saveeveryday”，否则游戏不会自动删除多余的定期存档。"
 zhTW = "自動保存的自定義檔名。如果您使用此選項，請確保在末尾加上 .saveeveryday，以便自動刪除。如果沒有，遊戲將不會自動刪除保存檔案。使用 {0} 作為循環編號，{1} 作為循環天數，{2} 作為總天數。例如：C{0}_D{1}.saveeveryday。留空將使用預設檔名（SaveDay{2}.saveeveryday）。"
@@ -182,6 +199,7 @@ koKR = "자동 저장을 위한 사용자 지정 파일 이름입니다. 이를 
 
 ["LV.SE.MakeFirstCycleDaySave"]
 raw = "Special first cycle day"
+status = "normal"
 enUS = "Special first cycle day"
 zhCN = "特殊首日存档"
 zhTW = "特別的第一個循環日"
@@ -195,6 +213,7 @@ koKR = "특별한 첫 번째 사이클 날"
 
 ["LV.SE.MakeFirstCycleDaySaveDesc"]
 raw = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
+status = "normal"
 enUS = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
 zhCN = "勾选后，将在每个周期开始时（周期第1天）创建特殊存档。此存档具有特殊名称且不会被自动删除。"
 zhTW = "在每個循環的開始（循環第1天）進行特殊保存。此保存具有特殊名稱，並不會自動刪除。"

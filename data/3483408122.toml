@@ -1,5 +1,8 @@
+name = "Ziporter"
+
 ["LV.Ziporter.ZiporterHubName"]
 raw = "Ziporter Hub"
+status = "normal"
 enUS = "Ziporter Hub"
 zhCN = "传送枢纽"
 zhTW = "Ziporter Hub"
@@ -13,6 +16,7 @@ koKR = "지포터 허브"
 
 ["LV.Ziporter.ZiporterHubDesc"]
 raw = "The future of transportation is NOW! Two hubs are needed to establish a connection.\n<RedHighlight><b>WARNING:</b> Prepare power ahead of time!</RedHighlight>"
+status = "normal"
 enUS = "The future of transportation is NOW! Two hubs are needed to establish a connection.\n<RedHighlight><b>WARNING:</b> Prepare power ahead of time!</RedHighlight>"
 zhCN = "基于古代科技的奇异建筑，需要稳定的能量供应，建立连接后可以互相传送。<br><color=#FFA500>能量不足、长期关闭或拆除建筑会导致爆炸。</color>"
 zhTW = "交通的未來就是現在！需要兩個樞紐來建立連接。\n<RedHighlight><b>警告：</b>請提前準備電力！</RedHighlight>"
@@ -26,6 +30,7 @@ koKR = "교통의 미래는 지금입니다! 연결을 설정하려면 두 개�
 
 ["LV.Ziporter.ZiporterHubFlavor"]
 raw = "The beavers salvaged this ridiculously high-tech blueprint from a hooman lab built just before they disappeared."
+status = "normal"
 enUS = "The beavers salvaged this ridiculously high-tech blueprint from a hooman lab built just before they disappeared."
 zhCN = "海狸从人类最后的实验室中发掘出了这个伟大的蓝图，这将是交通运输的未来。"
 zhTW = "海狸們從一個人在消失前不久建造的實驗室中獲得了這份荒謬的高科技藍圖。"
@@ -39,6 +44,7 @@ koKR = "비버들은 그들이 사라지기 직전에 지어진 인간 연구소
 
 ["LV.Ziporter.StabilizerUse"]
 raw = "Stabilizer is being used"
+status = "normal"
 enUS = "Stabilizer is being used"
 zhCN = "稳定器失效中"
 zhTW = "穩定器正在使用中"
@@ -52,6 +58,7 @@ koKR = "안정기가 사용 중입니다"
 
 ["LV.Ziporter.StabilizerCharging"]
 raw = "Stabilizer is charging"
+status = "normal"
 enUS = "Stabilizer is charging"
 zhCN = "稳定器充能中"
 zhTW = "穩定器正在充電"
@@ -65,6 +72,7 @@ koKR = "스테이빌라이저 충전 중"
 
 ["LV.Ziporter.StabilizerStable"]
 raw = "Stabilizer stable"
+status = "normal"
 enUS = "Stabilizer stable"
 zhCN = "稳定器工作中"
 zhTW = "穩定器穩定"
@@ -78,6 +86,7 @@ koKR = "안정기 안정적인"
 
 ["LV.Ziporter.WarningDraining"]
 raw = "Stabilizer is being drained due to not enough power. Quickly bring power back up to stabilize it."
+status = "normal"
 enUS = "Stabilizer is being drained due to not enough power. Quickly bring power back up to stabilize it."
 zhCN = "稳定器正在失效，尽快恢复能量供应！"
 zhTW = "穩定器因為電力不足而被排空。請迅速提高電力以穩定它。"
@@ -91,6 +100,7 @@ koKR = "전력이 부족하여 스태빌라이저가 충전되고 있습니다. 
 
 ["LV.Ziporter.WarningDrainingShort"]
 raw = "Draining stabilizer"
+status = "normal"
 enUS = "Draining stabilizer"
 zhCN = "传送枢纽即将爆炸"
 zhTW = "排水穩定劑"
@@ -104,6 +114,7 @@ koKR = "배수 안정장치"
 
 ["LV.Ziporter.ConnErrAlready"]
 raw = "Connection already established"
+status = "normal"
 enUS = "Connection already established"
 zhCN = "连接已建立"
 zhTW = "連線已經建立"
@@ -117,6 +128,7 @@ koKR = "이미 연결이 설정되었습니다"
 
 ["LV.Ziporter.ConnErrSelf"]
 raw = "Cannot connect to self"
+status = "normal"
 enUS = "Cannot connect to self"
 zhCN = "无法连接自身"
 zhTW = "無法連接到自己"
@@ -130,6 +142,7 @@ koKR = "자신에게 연결할 수 없습니다"
 
 ["LV.Ziporter.ConnectHub"]
 raw = "Connect Ziporter"
+status = "normal"
 enUS = "Connect Ziporter"
 zhCN = "选择传送枢纽"
 zhTW = "連接 Ziporter"
@@ -143,6 +156,7 @@ koKR = "Ziporter 연결"
 
 ["LV.Ziporter.ConnectionNone"]
 raw = "No connecting hub selected"
+status = "normal"
 enUS = "No connecting hub selected"
 zhCN = "未建立传送连接"
 zhTW = "未選擇連接樞紐"
@@ -156,6 +170,7 @@ koKR = "연결 허브가 선택되지 않았습니다"
 
 ["LV.Ziporter.ConnectionEstablishing"]
 raw = "Connection will be established at {0}HP charge"
+status = "normal"
 enUS = "Connection will be established at {0}HP charge"
 zhCN = "能量高于{0}时将重新建立传送连接"
 zhTW = "連接會在 {0}HP 充電時建立"
@@ -169,6 +184,7 @@ koKR = "연결이 {0}HP 충전 시에 설정됩니다"
 
 ["LV.Ziporter.ConnectionEstablished"]
 raw = "Connection established"
+status = "normal"
 enUS = "Connection established"
 zhCN = "已建立传送连接"
 zhTW = "連接已建立"
@@ -182,6 +198,7 @@ koKR = "연결이 설정되었습니다"
 
 ["LV.Ziporter.ConnectionLosing"]
 raw = "Connection will be lost at {0}HP charge"
+status = "normal"
 enUS = "Connection will be lost at {0}HP charge"
 zhCN = "能量低于{0}时将无法维持传送连接"
 zhTW = "在 {0}HP 電量下將會失去連接"
@@ -195,6 +212,7 @@ koKR = "연결이 {0}HP 충전에 끊길 것입니다."
 
 ["LV.Ziporter.WarningChargeDraining"]
 raw = "Ziporter charge is going low. Connection will be lost at {0}."
+status = "normal"
 enUS = "Ziporter charge is going low. Connection will be lost at {0}."
 zhCN = "备用能量正在下降，即将无法维持传送连接。"
 zhTW = "Ziporter 的電量即將耗盡。連接將在 {0} 失效。"
@@ -208,6 +226,7 @@ koKR = "Ziporter의 충전이 낮아지고 있습니다. 연결은 {0}시에 끊
 
 ["LV.Ziporter.WarningChargeDrainingShort"]
 raw = "Ziporter charge low"
+status = "normal"
 enUS = "Ziporter charge low"
 zhCN = "传送枢纽能量过低"
 zhTW = "Ziporter 收費低"
@@ -221,6 +240,7 @@ koKR = "지포터 충전 낮음"
 
 ["LV.Ziporter.WarningChargeDrainingLow"]
 raw = "Ziporter charge is critically low. Stabilizer is going to be drained."
+status = "normal"
 enUS = "Ziporter charge is critically low. Stabilizer is going to be drained."
 zhCN = "备用能量正在耗尽，即将无法维持稳定器。"
 zhTW = "Ziporter 的電量極低。穩定器即將耗盡。"
@@ -234,6 +254,7 @@ koKR = "Ziporter 충전이 심각하게 낮습니다. 안정기가 방전될 예
 
 ["LV.Ziporter.WarningChargeDrainingLowShort"]
 raw = "Ziporter charge critical"
+status = "normal"
 enUS = "Ziporter charge critical"
 zhCN = "传送枢纽能量危急"
 zhTW = "Ziporter 充電危急"
@@ -247,6 +268,7 @@ koKR = "Ziporter 충전 기상 악화"
 
 [Name_ZiporterFragment]
 raw = "Ziporter"
+status = "normal"
 enUS = "Ziporter"
 zhCN = "传送枢纽"
 zhTW = "Ziporter"

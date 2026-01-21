@@ -1,5 +1,8 @@
+name = "Packager"
+
 ["LV.Pkg.PackagedName"]
 raw = "Packaged {0}"
+status = "normal"
 enUS = "Packaged {0}"
 zhCN = "{0}包裹"
 zhTW = "打包 {0}"
@@ -13,6 +16,7 @@ koKR = "포장된 {0}"
 
 ["LV.Pkg.PackagedNamePlural"]
 raw = "Packaged {0}"
+status = "normal"
 enUS = "Packaged {0}"
 zhCN = "{0}包裹"
 zhTW = "打包 {0}"
@@ -26,6 +30,7 @@ koKR = "포장된 {0}"
 
 ["LV.Pkg.Packager"]
 raw = "Packager"
+status = "normal"
 enUS = "Packager"
 zhCN = "打包机"
 zhTW = "包裝者"
@@ -39,6 +44,7 @@ koKR = "포장기"
 
 ["LV.Pkg.PackagerDesc"]
 raw = "Combines 10x of any supported good into a single package"
+status = "normal"
 enUS = "Combines 10x of any supported item into a single package."
 zhCN = "将十个物品打包成一个包裹。"
 zhTW = "將任何支持的商品的10倍合併成一個包裝"
@@ -52,6 +58,7 @@ koKR = "지원되는 모든 상품 10개를 하나의 패키지로 만듭니다"
 
 ["LV.Pkg.PackagerFlavor"]
 raw = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
+status = "normal"
 enUS = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
 zhCN = "因需求而生，为整洁而精。杂乱所在处，必有打包机。"
 zhTW = "源於需求，由愛整潔的人完善。雜亂之處，就有打包工具。"
@@ -65,6 +72,7 @@ koKR = "필요에서 태어나, 깔끔한 사람들에 의해 완성되었다. �
 
 ["LV.Pkg.Unpacker"]
 raw = "Unpackager"
+status = "normal"
 enUS = "Unpackager"
 zhCN = "解包机"
 zhTW = "解壓縮器"
@@ -78,6 +86,7 @@ koKR = "해체기"
 
 ["LV.Pkg.UnpackerDesc"]
 raw = "Unpacks a package back into 10x individual goods."
+status = "normal"
 enUS = "Unpacks a package back into 10 individual items."
 zhCN = "将包裹拆解还原成十个物品。"
 zhTW = "將一包拆分為十件單獨商品。"
@@ -91,6 +100,7 @@ koKR = "패키지를 10개의 개별 상품으로 다시 풉니다."
 
 ["LV.Pkg.UnpackerFlavor"]
 raw = "Nothing delights a beaver more than unboxing the unexpected."
+status = "normal"
 enUS = "Nothing delights a beaver more than unboxing the unexpected."
 zhCN = "没有什么比拆开未知包裹更让海狸欣喜的了。"
 zhTW = "沒有什麼比拆箱意外更讓海狸開心的了。"
@@ -104,6 +114,7 @@ koKR = "예상치 못한 것을 언박싱하는 것보다 거베르를 더 기�
 
 ["LV.Pkg.RecipePack"]
 raw = "Pack {0}"
+status = "normal"
 enUS = "Pack {0}"
 zhCN = "打包{0}"
 zhTW = "包 {0}"
@@ -117,6 +128,7 @@ koKR = "팩 {0}"
 
 ["LV.Pkg.RecipeUnpack"]
 raw = "Unpack {0}"
+status = "normal"
 enUS = "Unpack {0}"
 zhCN = "解包{0}"
 zhTW = "解除打包 {0}"

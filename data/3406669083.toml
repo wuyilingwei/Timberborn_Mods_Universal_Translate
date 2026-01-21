@@ -1,5 +1,8 @@
+name = "Healthy Beavers"
+
 ["HB.BrokenTeeth"]
 raw = "Disable Broken Teeth"
+status = "normal"
 enUS = "Disable Broken Teeth"
 zhCN = "禁用断牙"
 zhTW = "禁用損壞牙齒"
@@ -13,6 +16,7 @@ koKR = "부서진 이빨 비활성화"
 
 ["HB.BrokenTeethDesc"]
 raw = "Disable Broken Teeth"
+status = "normal"
 enUS = "Disable Broken Teeth"
 zhCN = "勾选后，海狸不会断牙。"
 zhTW = "禁用斷牙"
@@ -26,6 +30,7 @@ koKR = "부서진 이빨 비활성화"
 
 ["HB.BeeSting"]
 raw = "Disable Bee Sting"
+status = "normal"
 enUS = "Disable Bee Sting"
 zhCN = "禁用蜇伤"
 zhTW = "禁用蜜蜂蜇刺"
@@ -39,6 +44,7 @@ koKR = "벌침 비활성화"
 
 ["HB.BeeStingDesc"]
 raw = "Disable Bee Sting"
+status = "normal"
 enUS = "Disable bee sting"
 zhCN = "勾选后，海狸不会被蜜蜂蜇伤。"
 zhTW = "禁用蜜蜂刺"
@@ -52,6 +58,7 @@ koKR = "벌침 비활성화"
 
 ["HB.BadwaterContamination"]
 raw = "Disable Badwater Contamination"
+status = "normal"
 enUS = "Disable Badwater Contamination"
 zhCN = "禁用污染"
 zhTW = "禁用壞水污染"
@@ -65,6 +72,7 @@ koKR = "불순물 오염 비활성화"
 
 ["HB.BadwaterContaminationDesc"]
 raw = "Disable Badwater Contamination, beavers still get unwell when contacted with Badwater but it won't get contaminated."
+status = "normal"
 enUS = "Disable Badwater Contamination; beavers still become unwell when exposed to Badwater, but it will not become contaminated."
 zhCN = "勾选后，海狸不会被恶水污染，但仍会感到不舒服。"
 zhTW = "禁用壞水污染，當接觸到壞水時，海狸仍然會感到不適，但不會被污染。"
@@ -78,6 +86,7 @@ koKR = "불량 수역 오염 비활성화, 비버는 여전히 불량 수역과 
 
 ["HB.Injury"]
 raw = "Disable Injury"
+status = "normal"
 enUS = "Disable Injury"
 zhCN = "禁用受伤"
 zhTW = "禁用受傷"
@@ -91,6 +100,7 @@ koKR = "부상 비활성화"
 
 ["HB.InjuryDesc"]
 raw = "Disable Injury"
+status = "normal"
 enUS = "Disable Injury"
 zhCN = "勾选后，海狸不会受伤。"
 zhTW = "禁用受傷"

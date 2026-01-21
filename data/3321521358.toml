@@ -1,5 +1,8 @@
+name = "Goods Statistics"
+
 ["eMka.GoodStatistics.BatchControlKeyBinding"]
 raw = "Open Goods Statistics tab"
+status = "normal"
 enUS = "Open Goods Statistics tab"
 zhCN = "打开物资统计选项卡"
 zhTW = "開啟商品統計標籤"
@@ -13,6 +16,7 @@ koKR = "상품 통계 탭 열기"
 
 ["eMka.GoodStatistics.BatchControlTabName"]
 raw = "Goods Statistics"
+status = "normal"
 enUS = "Goods Statistics"
 zhCN = "物资统计"
 zhTW = "商品統計"
@@ -26,6 +30,7 @@ koKR = "상품 통계"
 
 ["eMka.GoodStatistics.DepletionDaysLeft"]
 raw = "Estimated time to depletion: {0}"
+status = "normal"
 enUS = "Estimated time to depletion: {0}"
 zhCN = "预计耗尽时间：{0}"
 zhTW = "預估耗盡時間：{0}"
@@ -39,6 +44,7 @@ koKR = "고갈 예상 시간: {0}"
 
 ["eMka.GoodStatistics.GoodSampleTime"]
 raw = "Sampled {0} ago"
+status = "normal"
 enUS = "Sampled {0} ago"
 zhCN = "采样时间：{0} 前"
 zhTW = "取樣於 {0} 前"
@@ -52,6 +58,7 @@ koKR = "{0} 전에 샘플링됨"
 
 ["eMka.GoodStatistics.GrowingDaysLeft"]
 raw = "Estimated time to fill: {0}"
+status = "normal"
 enUS = "Estimated time to fill: {0}"
 zhCN = "预计填满时间：{0}"
 zhTW = "預估填寫時間：{0}"
@@ -65,6 +72,7 @@ koKR = "예상 채우기 시간: {0}"
 
 ["eMka.GoodStatistics.Settings.AnalyzeGoodsWithoutStockpiles"]
 raw = "Analyze goods without storage"
+status = "normal"
 enUS = "Analyze goods without storage."
 zhCN = "分析没有库存的物资"
 zhTW = "分析無儲存的貨物"
@@ -78,6 +86,7 @@ koKR = "저장소 없이 상품 분석"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThreshold"]
 raw = "Consecutive micro changes threshold"
+status = "normal"
 enUS = "Consecutive micro changes threshold"
 zhCN = "微速阈值（连续微小变化量）"
 zhTW = "連續微變化閾值"
@@ -91,6 +100,7 @@ koKR = "연속 미세 변화 임계값"
 
 ["eMka.GoodStatistics.Settings.ConsecutiveMicroChangesThresholdTooltip"]
 raw = "Number of consecutive micro changes (below Slow daily change threshold) to consider as a trend"
+status = "normal"
 enUS = "Number of consecutive micro changes (below the slow daily change threshold) to consider as a trend."
 zhCN = "将物资的连续微小变化（变化量小于慢速阈值）也视为变化趋势所需的有效样本数"
 zhTW = "要視為趨勢的連續微調變化次數（低於緩慢日常變化閾值）"
@@ -104,6 +114,7 @@ koKR = "연속적인 마이크로 변화 수(느린 일일 변화 임계값 이�
 
 ["eMka.GoodStatistics.Settings.EMAAnalyzerHeader"]
 raw = "Exponential Moving Average Analyzer"
+status = "normal"
 enUS = "Exponential Moving Average Analyzer"
 zhCN = "物资变化速度分析设置"
 zhTW = "指數移動平均分析器"
@@ -117,6 +128,7 @@ koKR = "지수 이동 평균 분석기"
 
 ["eMka.GoodStatistics.Settings.FastChangeThreshold"]
 raw = "Fast daily change threshold"
+status = "normal"
 enUS = "Fast daily change threshold"
 zhCN = "快速阈值（每日变化量）"
 zhTW = "快速的每日變化閾值"
@@ -130,6 +142,7 @@ koKR = "빠른 일일 변동 한계"
 
 ["eMka.GoodStatistics.Settings.IgnoreGoodsWithStorageLessThan"]
 raw = "Ignore goods with storage less than"
+status = "normal"
 enUS = "Ignore goods with storage less than"
 zhCN = "忽略库存少于该数量的物资"
 zhTW = "忽略庫存少於的商品"
@@ -143,6 +156,7 @@ koKR = "저장 용량이 부족한 상품 무시"
 
 ["eMka.GoodStatistics.Settings.ModerateChangeThreshold"]
 raw = "Moderate daily change threshold"
+status = "normal"
 enUS = "Moderate daily change threshold"
 zhCN = "中速阈值（每日变化量）"
 zhTW = "適度的每日變化閾值"
@@ -156,6 +170,7 @@ koKR = "중간 일일 변화 임계값"
 
 ["eMka.GoodStatistics.Settings.SamplesPerDay"]
 raw = "Samples per day"
+status = "normal"
 enUS = "Samples per day"
 zhCN = "每天采样次数"
 zhTW = "每日樣本數"
@@ -169,6 +184,7 @@ koKR = "일일 샘플 수"
 
 ["eMka.GoodStatistics.Settings.SamplesToAnalyze"]
 raw = "Samples to analyze"
+status = "normal"
 enUS = "Samples to analyze"
 zhCN = "参与分析的样本数"
 zhTW = "待分析的樣本"
@@ -182,6 +198,7 @@ koKR = "분석할 샘플"
 
 ["eMka.GoodStatistics.Settings.BaseSettings"]
 raw = "Base settings"
+status = "normal"
 enUS = "Base settings"
 zhCN = "基本设置"
 zhTW = "基本設定"
@@ -195,6 +212,7 @@ koKR = "기본 설정"
 
 ["eMka.GoodStatistics.Settings.ShowTrendsOnTopBar"]
 raw = "Show trends on top bar"
+status = "normal"
 enUS = "Show trends on the top bar."
 zhCN = "在物资栏显示变化趋势"
 zhTW = "在上方顯示趨勢"
@@ -208,6 +226,7 @@ koKR = "상단 막대에 트렌드 표시"
 
 ["eMka.GoodStatistics.Settings.SlowChangeThreshold"]
 raw = "Slow daily change threshold"
+status = "normal"
 enUS = "Slow daily change threshold"
 zhCN = "慢速阈值（每日变化量）"
 zhTW = "緩慢的每日變化閾值"

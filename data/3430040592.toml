@@ -1,5 +1,8 @@
+name = "Super Cursor"
+
 ["LV.SC.Nothing"]
 raw = "No beaver land"
+status = "normal"
 enUS = "No beaver land"
 zhCN = "无海狸领地"
 zhTW = "沒有河狸的土地"
@@ -13,6 +16,7 @@ koKR = "비버 땅 없음"
 
 ["LV.SC.Stockpile"]
 raw = "Stockpile"
+status = "normal"
 enUS = "Stockpile"
 zhCN = "库存"
 zhTW = "囤積"
@@ -26,6 +30,7 @@ koKR = "재고량"
 
 ["LV.SC.Coord"]
 raw = "Height: {0} - (X, Y): ({1}, {2})"
+status = "normal"
 enUS = "Height: {0} - (X, Y): ({1}, {2})"
 zhCN = "高度：{0}，(X，Y)：({1}，{2})"
 zhTW = "高度: {0} - (X, Y): ({1}, {2})"
@@ -39,6 +44,7 @@ koKR = "높이: {0} - (X, Y): ({1}, {2})"
 
 ["LV.SC.Water"]
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -52,6 +58,7 @@ koKR = "물"
 
 ["LV.SC.WaterDepth"]
 raw = "  Depth: {0}cm"
+status = "normal"
 enUS = "Depth: {0}cm"
 zhCN = "  水深：{0} 米"
 zhTW = "深度：{0}厘米"
@@ -65,6 +72,7 @@ koKR = " 깊이: {0}cm"
 
 ["LV.SC.WaterDepthFrom"]
 raw = "  Depth: {0}cm ({1}cm from here)"
+status = "normal"
 enUS = "Depth: {0}cm ({1}cm from here)"
 zhCN = "  水深：{0} 米（距此处 {1} 米）"
 zhTW = "深度：{0}公分（距離此處{1}公分）"
@@ -78,6 +86,7 @@ koKR = " 깊이: {0}cm ({1}cm 여기서부터)"
 
 ["LV.SC.WaterCurrent"]
 raw = "  Current: {0}cm³/s"
+status = "normal"
 enUS = "Current: {0}cm³/s"
 zhCN = "  流量：每秒 {0} 立方米"
 zhTW = "當前：{0}立方厘米/秒"
@@ -91,6 +100,7 @@ koKR = "유량: {0}cm³/s"
 
 ["LV.SC.WaterContamination"]
 raw = "  Contamination: {0}%"
+status = "normal"
 enUS = "Contamination: {0}%"
 zhCN = "  污染程度：{0}%"
 zhTW = "污染程度: {0}%"
@@ -104,6 +114,7 @@ koKR = "오염: {0}%"
 
 ["LV.SC.Dwellers"]
 raw = "Adult: {0}, Children: {1}"
+status = "normal"
 enUS = "Adult: {0}, Children: {1}"
 zhCN = "成年：{0}，幼年：{1}"
 zhTW = "成人: {0}, 兒童: {1}"
@@ -117,6 +128,7 @@ koKR = "성인: {0}, 아이: {1}"
 
 ["LV.SC.WaterSpecifiedStrength"]
 raw = "  Strength: {0} (usually {1})"
+status = "normal"
 enUS = "Strength: {0} (usually {1})"
 zhCN = "  水力：{0}（通常为 {1}）"
 zhTW = " 力量：{0}（通常為 {1}）"
@@ -130,6 +142,7 @@ koKR = "강도: {0} (보통 {1})"
 
 ["LV.SC.WaterStrength"]
 raw = "  Strength: {0}"
+status = "normal"
 enUS = "  Strength: {0}"
 zhCN = "  水力：{0}"
 zhTW = "力量: {0}"
@@ -143,6 +156,7 @@ koKR = "힘: {0}"
 
 ["LV.SC.BeaverChildGrow"]
 raw = "Growing: {0}/{1} ({2}%)"
+status = "normal"
 enUS = "Growing: {0}/{1} ({2}%)"
 zhCN = "成长中：{0}/{1}（{2}%）"
 zhTW = "成長中: {0}/{1} ({2}%)"
@@ -156,6 +170,7 @@ koKR = "성장 중: {0}/{1} ({2}%)"
 
 ["LV.SC.BlockStat"]
 raw = "Moisture: {0} blocks, Contamination: {1}%"
+status = "normal"
 enUS = "Moisture: {0} blocks, Contamination: {1}%"
 zhCN = "湿度：{0} 格，污度：{1}%"
 zhTW = "濕度：{0} 塊，污染度：{1}%"
@@ -169,6 +184,7 @@ koKR = "습기: {0} 블록, 오염: {1}%"
 
 ["LV.SC.KeyBinding"]
 raw = "Super Cursor"
+status = "normal"
 enUS = "Super Cursor"
 zhCN = "全息光标"
 zhTW = "超級游標"

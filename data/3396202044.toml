@@ -1,5 +1,8 @@
+name = "Configurable Growth [U6 + U7 Feb25 ✅]"
+
 ["CG.TreeGrowthRate"]
 raw = "Tree growth rate"
+status = "normal"
 enUS = "Tree growth rate"
 zhCN = "树木成长速度倍数"
 zhTW = "樹木生長速度"
@@ -13,6 +16,7 @@ koKR = "나무 성장 속도"
 
 ["CG.TreeGrowthRateDesc"]
 raw = "Multiplier for Tree growth time like Pines or Oaks (1 for game default). Can be set to below 1 to make the game harder."
+status = "normal"
 enUS = "Multiplier for tree growth time like pines or oaks (1 for game default). Can be set to below 1 to make the game harder."
 zhCN = "可以将树木的成长速度更改为原来的N倍（游戏默认：1）。"
 zhTW = "樹木生長時間的倍數，例如松樹或橡樹（遊戲預設為1）。可以設置為低於1以增加遊戲難度。"
@@ -26,6 +30,7 @@ koKR = "소나무나 참나무와 같은 나무 성장 시간에 대한 배율(�
 
 ["CG.CropGrowthRate"]
 raw = "Crop growth rate"
+status = "normal"
 enUS = "Crop growth rate"
 zhCN = "作物成长速度倍数"
 zhTW = "作物生長率"
@@ -39,6 +44,7 @@ koKR = "작물 성장률"
 
 ["CG.CropGrowthRateDesc"]
 raw = "Multiplier for Crop growth time like Carrots or Potatoes (1 for game default). Can be set to below 1 to make the game harder."
+status = "normal"
 enUS = "Multiplier for crop growth time like carrots or potatoes (1 for game default). Can be set below 1 to make the game harder."
 zhCN = "可以将作物的成长速度更改为原来的N倍（游戏默认：1）。"
 zhTW = "作物生長時間的倍數，例如胡蘿蔔或土豆（遊戲默認為1）。可以設置為低於1，以增加遊戲難度。"
@@ -52,6 +58,7 @@ koKR = "농작물 성장 시간에 대한 배수, 예: 당근이나 감자 (게�
 
 ["CG.GatherableGrowthRate"]
 raw = "Product growth rate"
+status = "normal"
 enUS = "Product growth rate"
 zhCN = "产物成长速度倍数"
 zhTW = "產品成長率"
@@ -65,6 +72,7 @@ koKR = "제품 성장률"
 
 ["CG.GatherableGrowthRateDesc"]
 raw = "Multiplier for products growth time like Pine Resin or Berries (1 for game default). Can be set to below 1 to make the game harder."
+status = "normal"
 enUS = "Multiplier for product growth time like Pine Resin or Berries (1 is the game default). It can be set to below 1 to make the game harder."
 zhCN = "可以将树木产出物的成长速度更改为原本的N倍（游戏默认：1）。"
 zhTW = "產品增長時間的倍數，例如松脂或漿果（遊戲默認為1）。可以設置為低於1以增加遊戲難度。"
@@ -78,6 +86,7 @@ koKR = "제품 성장 시간에 대한 배수, 예를 들어 소나무 수지나
 
 ["CG.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
+status = "normal"
 enUS = "Reproducible chance multiplier"
 zhCN = "蔓延概率倍数"
 zhTW = "可重複的機會乘數"
@@ -91,6 +100,7 @@ koKR = "재현 가능성 배수"
 
 ["CG.ReproducibleChanceMultiplierDesc"]
 raw = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depends on the kind. Setting this to 1 to keep the game's setting and 0 means no reproduction."
+status = "normal"
 enUS = "Make trees more or less likely to reproduce. Each tree has a 1-3% chance to reproduce every hour, depending on the type. Setting this to 1 maintains the game's settings, while 0 means no reproduction."
 zhCN = "可以将树木的蔓延概率更改为原来的N倍（游戏默认：1，即每小时有1-3%的概率蔓延至相邻方格，具体概率取决于树木种类）。"
 zhTW = "讓樹的繁殖機率增減。每棵樹每小時有1%-3%的機率繁殖，具體取決於樹的種類。將此設置為1以保持遊戲的設定，設置為0則表示不會繁殖。"
@@ -104,6 +114,7 @@ koKR = "나무가 번식할 가능성을 높이거나 낮추세요. 각 나무�
 
 ["CG.SpreadDistance"]
 raw = "Spread distance"
+status = "normal"
 enUS = "Spread distance"
 zhCN = "蔓延距离"
 zhTW = "擴散距離"
@@ -117,6 +128,7 @@ koKR = "전파 거리"
 
 ["CG.SpreadDistanceDesc"]
 raw = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
+status = "normal"
 enUS = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
 zhCN = "可以更改树木的单次可蔓延距离，即每次产生的新树苗可以离树木多少格（游戏默认：1）。"
 zhTW = "樹木可以擴散到新區塊的距離（以區塊計算）。0表示不擴散。遊戲預設值：1"
@@ -130,6 +142,7 @@ koKR = "나무가 새로운 블록으로 퍼지는 거리(블록 기준). 0은 �
 
 ["CG.SpreadVertically"]
 raw = "Can spread vertically"
+status = "normal"
 enUS = "Can spread vertically"
 zhCN = "垂直蔓延"
 zhTW = "可以垂直擴散"
@@ -143,6 +156,7 @@ koKR = "수직으로 퍼질 수 있음"
 
 ["CG.SpreadVerticallyDesc"]
 raw = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
+status = "normal"
 enUS = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
 zhCN = "勾选后，树木可以蔓延至上方或下方的方块（游戏默认：否）。"
 zhTW = "如果啟用，樹木可以擴展到它們上下的方塊（使用擴展距離）。遊戲默認：關閉"

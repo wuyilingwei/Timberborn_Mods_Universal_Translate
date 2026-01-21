@@ -1,5 +1,8 @@
+name = "Configurable Daisugi Forestry"
+
 ["LV.DF.BirchDays"]
 raw = "Birch Days"
+status = "normal"
 enUS = "Birch Days"
 zhCN = "桦树再生时间"
 zhTW = "白樺日"
@@ -13,6 +16,7 @@ koKR = "자작나무의 날"
 
 ["LV.DF.BirchDaysDesc"]
 raw = "How many days after mature that birch trees will give Daisugi Logs"
+status = "normal"
 enUS = "How many days after mature that birch trees will give Daisugi Logs"
 zhCN = "可以更改桦树成熟后产出再生原木所需的时间（天）。"
 zhTW = "成熟後幾天白樺樹會給予大杉木材"
@@ -26,6 +30,7 @@ koKR = "자작나무가 다 자란 후 얼마나 많은 날이 지나야 다이�
 
 ["LV.DF.BirchLogs"]
 raw = "Birch Logs"
+status = "normal"
 enUS = "Birch Logs"
 zhCN = "桦树再生量"
 zhTW = "白樺木材"
@@ -39,6 +44,7 @@ koKR = "자작나무 통나무"
 
 ["LV.DF.BirchLogsDesc"]
 raw = "How many logs a birch tree will give when harvested for Daisugi Logs"
+status = "normal"
 enUS = "How many logs a birch tree will give when harvested for Daisugi Logs"
 zhCN = "可以更改桦树每次产出再生原木的数量。"
 zhTW = "樺樹在收獲為 Daisugi 木材時會產生多少根樹幹"
@@ -52,6 +58,7 @@ koKR = "다이수기 통나무를 수확할 때 자작나무가 주는 로그의
 
 ["LV.DF.BirchHarvest"]
 raw = "Birch Harvest Time"
+status = "normal"
 enUS = "Birch Harvest Time"
 zhCN = "桦树采集耗时"
 zhTW = "樺樹收穫時間"
@@ -65,6 +72,7 @@ koKR = "자작나무 수확 시간"
 
 ["LV.DF.BirchHarvestDesc"]
 raw = "How long (hours) does it take to harvest a birch tree for Daisugi Logs"
+status = "normal"
 enUS = "How long (hours) does it take to harvest a birch tree for Daisugi Logs"
 zhCN = "可以更改在桦树上采集再生原木所需的时间（小时）。"
 zhTW = "採伐一棵樺樹以獲取大杉木材需要多長時間（小時）"
@@ -78,6 +86,7 @@ koKR = "자작나무를 다이스기 로그로 수확하는 데 걸리는 시간
 
 ["LV.DF.BirchPlank"]
 raw = "Birch Produces Planks"
+status = "normal"
 enUS = "Birch Produces Planks"
 zhCN = "桦树产出木板"
 zhTW = "白樺製作木板"
@@ -91,6 +100,7 @@ koKR = "자작나무로 판자를 생산합니다"
 
 ["LV.DF.BirchPlankDesc"]
 raw = "If enabled, birch trees will produce planks instead of logs when harvested for Daisugi Logs"
+status = "normal"
 enUS = "If enabled, birch trees will produce planks instead of logs when harvested for Daisugi Logs"
 zhCN = "勾选后，桦树会直接产出再生木板，而不是再生原木。"
 zhTW = "如果啟用，白樺樹在被收割以獲取大杉木時將生產木板而不是原木。"
@@ -104,6 +114,7 @@ koKR = "활성화되면 자작나무는 다이스기 통나무를 수확할 때 
 
 ["LV.DF.OakDays"]
 raw = "Oak Days"
+status = "normal"
 enUS = "Oak Days"
 zhCN = "橡树再生时间"
 zhTW = "橡樹日"
@@ -117,6 +128,7 @@ koKR = "참나무의 날"
 
 ["LV.DF.OakDaysDesc"]
 raw = "How many days after mature that oak trees will give Daisugi Logs"
+status = "normal"
 enUS = "How many days after mature that oak trees will give Daisugi Logs"
 zhCN = "可以更改橡树成熟后产出再生原木所需的时间（天）。"
 zhTW = "成熟後，橡樹會在多少天後提供大杉木材？"
@@ -130,6 +142,7 @@ koKR = "참나무가 성숙한 후 며칠이 지나야 다이스기 로그를 �
 
 ["LV.DF.OakLogs"]
 raw = "Oak Logs"
+status = "normal"
 enUS = "Oak Logs"
 zhCN = "橡树再生量"
 zhTW = "橡木原木"
@@ -143,6 +156,7 @@ koKR = "참나무 통나무"
 
 ["LV.DF.OakLogsDesc"]
 raw = "How many logs an oak tree will give when harvested for Daisugi Logs"
+status = "normal"
 enUS = "How many logs an oak tree will give when harvested for Daisugi Logs"
 zhCN = "可以更改橡树每次产出再生原木的数量。"
 zhTW = "橡樹被收穫為大杉木材時，將產出多少根木頭"
@@ -156,6 +170,7 @@ koKR = "다이-su기 로그를 위해 수확할 때 참나무가 주는 통나�
 
 ["LV.DF.OakHarvest"]
 raw = "Oak Harvest Time"
+status = "normal"
 enUS = "Oak Harvest Time"
 zhCN = "橡树采集耗时"
 zhTW = "橡樹收穫時間"
@@ -169,6 +184,7 @@ koKR = "참나무 수확 시간"
 
 ["LV.DF.OakHarvestDesc"]
 raw = "How long (hours) does it take to harvest an oak tree for Daisugi Logs"
+status = "normal"
 enUS = "How long (hours) does it take to harvest an oak tree for Daisugi Logs"
 zhCN = "可以更改在橡树上采集再生原木所需的时间（小时）。"
 zhTW = "採收一棵橡樹以獲得大木（Daisugi Logs）需要多長時間（小時）?"
@@ -182,6 +198,7 @@ koKR = "다이수기 로그를 위해 오크 나무를 수확하는 데 얼마�
 
 ["LV.DF.OakPlank"]
 raw = "Oak Produces Planks"
+status = "normal"
 enUS = "Oak Produces Planks"
 zhCN = "橡树产出木板"
 zhTW = "橡木生產木板"
@@ -195,6 +212,7 @@ koKR = "참나무가 판자를 생산합니다"
 
 ["LV.DF.OakPlankDesc"]
 raw = "If enabled, oak trees will produce planks instead of logs when harvested for Daisugi Logs"
+status = "normal"
 enUS = "If enabled, oak trees will produce planks instead of logs when harvested for Daisugi Logs"
 zhCN = "勾选后，橡树会直接产出再生木板，而不是再生原木。"
 zhTW = "如果啟用，橡樹在被採伐以獲得大杉木材時將產生木板而不是原木。"
@@ -208,6 +226,7 @@ koKR = "활성화되면, 떡갈나무는 다이스기 로그를 위해 수확할
 
 ["LV.DF.ChangeSettingsNote"]
 raw = "You can change the settings manually or use these difficulty templates at any time but you need to reload the save if you are changing it mid-game."
+status = "normal"
 enUS = "You can change the settings manually or use these difficulty templates at any time but you need to reload the save if you are changing it mid-game."
 zhCN = "可以随时调整难度或具体参数；如果在游戏中修改，则需重新加载存档。"
 zhTW = "您可以隨時手動更改設置或使用這些難度範本，但如果您在遊戲中途更改設置，則需要重新加載存檔。"

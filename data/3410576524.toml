@@ -1,5 +1,8 @@
+name = "Bob Platforms Extended"
+
 ["ToolGroups.Platforms"]
 raw = "Platforms and Overhangs"
+status = "normal"
 enUS = "Platforms and Overhangs"
 zhCN = "平台和悬挑"
 zhTW = "平台和突出部分"
@@ -13,6 +16,7 @@ koKR = "플랫폼과 돌출부"
 
 ["Building.Overhang7x1.DisplayName"]
 raw = "Overhang 7x1"
+status = "normal"
 enUS = "Overhang 7x1"
 zhCN = "悬挑 7x1"
 zhTW = "突出部分 7x1"
@@ -26,6 +30,7 @@ koKR = "오버행 7x1"
 
 ["Building.Overhang3x1.Centered.DisplayName"]
 raw = "Overhang 3x1 Centered"
+status = "normal"
 enUS = "Overhang 3x1 Centered"
 zhCN = "双向悬挑 3x1"
 zhTW = "超出 3x1 中心對齊"
@@ -39,6 +44,7 @@ koKR = "3x1 중앙 돌출부"
 
 ["Building.Overhang5x1.Centered.DisplayName"]
 raw = "Overhang 5x1 Centered"
+status = "normal"
 enUS = "Overhang 5x1 Centered"
 zhCN = "双向悬挑 5x1"
 zhTW = "懸垂 5x1 中心對齊"
@@ -52,6 +58,7 @@ koKR = "오버행 5x1 중앙"
 
 ["Building.Overhang7x1.Centered.DisplayName"]
 raw = "Overhang 7x1 Centered"
+status = "normal"
 enUS = "Overhang 7x1 Centered"
 zhCN = "双向悬挑 7x1"
 zhTW = "懸挑 7x1 中心排列"
@@ -63,8 +70,13 @@ plPL = "Wysunięcie 7x1 Wyśrodkowane"
 ptBR = "Saliente 7x1 Centralizado"
 koKR = "중앙 정렬된 돌출부 7x1"
 
+["Building.MetalPlatform.DisplayName"]
+new = "Metal Platform 1x1"
+status = "normal"
+
 ["Building.MetalPlatform7x7.DisplayName"]
 raw = "Metal Platform 7x7"
+status = "normal"
 enUS = "Metal Platform 7x7"
 zhCN = "金属平台 7x7"
 zhTW = "金屬平台 7x7"
@@ -78,6 +90,7 @@ koKR = "금속 플랫폼 7x7"
 
 ["Building.MetalPlatform7x7.Ladder.DisplayName"]
 raw = "Metal Platform 7x7 with Ladder"
+status = "normal"
 enUS = "Metal Platform 7x7 with Ladder"
 zhCN = "中空金属平台 7x7"
 zhTW = "帶梯子的7x7金屬平台"
@@ -91,6 +104,7 @@ koKR = "사다리가 있는 7x7 금속 플랫폼"
 
 ["Building.SuspensionBridge7x1.DisplayName"]
 raw = "Suspension Bridge 7x1"
+status = "normal"
 enUS = "Suspension Bridge 7x1"
 zhCN = "吊桥 7x1"
 zhTW = "懸索橋 7x1"
@@ -104,6 +118,7 @@ koKR = "현수교 7x1"
 
 ["Building.SuspensionBridge8x1.DisplayName"]
 raw = "Suspension Bridge 8x1"
+status = "normal"
 enUS = "Suspension Bridge 8x1"
 zhCN = "吊桥 8x1"
 zhTW = "懸索橋 8x1"

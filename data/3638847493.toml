@@ -1,5 +1,8 @@
+name = "Atlas Modpack"
+
 ["Building.Brewery.Description"]
 raw = "Brew fruits, seeds and crops to a delicious tea."
+status = "normal"
 enUS = "Brew fruits, seeds and crops to a delicious tea."
 zhCN = "将水果、种子和作物酿造成茶。"
 zhTW = "將水果、種子和作物釀造成美味的茶。"
@@ -13,6 +16,7 @@ koKR = "과일, 씨앗 및 농작물을 맛있는 차로 양조하세요."
 
 ["Building.Brewery.DisplayName"]
 raw = "Brewery"
+status = "normal"
 enUS = "Brewery"
 zhCN = "酿茶坊"
 zhTW = "釀酒廠"
@@ -26,6 +30,7 @@ koKR = "양조장"
 
 ["Building.Brewery.FlavorDescription"]
 raw = "Tea time everyone."
+status = "normal"
 enUS = "Tea time everyone."
 zhCN = "喂！三点几咧，饮茶先啦！"
 zhTW = "大家都來喝茶時間。"
@@ -39,6 +44,7 @@ koKR = "모두 차를 마시는 시간입니다."
 
 ["Building.JamStove.Description"]
 raw = "Boils berries into jam for further processing."
+status = "normal"
 enUS = "Boils berries into jam for further processing."
 zhCN = "将果实熬成果酱以供进一步加工。"
 zhTW = "將漿果煮成果醬以便進一步加工。"
@@ -52,6 +58,7 @@ koKR = "베리를 잼으로 끓여 추가 가공을 합니다."
 
 ["Building.JamStove.DisplayName"]
 raw = "Jam Stove"
+status = "normal"
 enUS = "Jam Stove"
 zhCN = "制酱房"
 zhTW = "果醬爐"
@@ -65,6 +72,7 @@ koKR = "잼 스토브"
 
 ["Building.JamStove.FlavorDescription"]
 raw = "The pot had to be closed up after too many sweet-toothed beavers have been tempted by the delicious jam."
+status = "normal"
 enUS = "The pot had to be closed up after too many sweet-toothed beavers have been tempted by the delicious jam."
 zhCN = "由于太多海狸忍不住偷吃果酱，锅具必须保持封闭。"
 zhTW = "鍋子必須蓋上，因為有太多愛吃甜食的海狸被美味的果醬所誘惑。"
@@ -78,6 +86,7 @@ koKR = "너무 많은 단 것을 좋아하는 비버들이 맛있는 잼에 유�
 
 ["Building.MealPrepHut.Description"]
 raw = "Assorts food into certain meal sets."
+status = "normal"
 enUS = "Assorts food into certain meal sets."
 zhCN = "将食物分拣成特定的套餐。"
 zhTW = "將食物分成特定的餐點組合。"
@@ -91,6 +100,7 @@ koKR = "음식을 특정 식사 세트로 분류합니다."
 
 ["Building.MealPrepHut.DisplayName"]
 raw = "Meal Prep Hut"
+status = "normal"
 enUS = "Meal Prep Hut"
 zhCN = "备餐房"
 zhTW = "餐食準備小屋"
@@ -104,6 +114,7 @@ koKR = "식사 준비 오두막"
 
 ["Building.MealPrepHut.FlavorDescription"]
 raw = "Time to prepare a lot of meals."
+status = "normal"
 enUS = "Time to prepare a lot of meals."
 zhCN = "是时候准备打包大量餐食了。"
 zhTW = "該準備大量餐點的時間了。"
@@ -117,6 +128,7 @@ koKR = "많은 식사를 준비할 시간입니다."
 
 ["Building.MedicalBedBeeSting.Description"]
 raw = "Boosted Bee Sting healing."
+status = "normal"
 enUS = "Boosted Bee Sting healing."
 zhCN = "增强对蜜蜂蜇伤的治疗效果。"
 zhTW = "「提升蜜蜂叮咬的治療效果。」"
@@ -130,6 +142,7 @@ koKR = "벌쏘임 치료 증가."
 
 ["Building.MedicalBedBeeSting.DisplayName"]
 raw = "Medical Bed - Bee Sting"
+status = "normal"
 enUS = "Medical Bed - Bee Sting"
 zhCN = "蜇伤医疗床"
 zhTW = "醫療床 - 蜜蜂螫"
@@ -143,6 +156,7 @@ koKR = "의료 침대 - 벌 브랜드"
 
 ["Building.MedicalBedBeeSting.FlavorDescription"]
 raw = "Getting Stung by a bee is annoying."
+status = "normal"
 enUS = "Getting Stung by a bee is annoying."
 zhCN = "“被蜜蜂蜇伤真的很烦狸！”——小松"
 zhTW = "被蜜蜂蛰到真是令人討厭。"
@@ -156,6 +170,7 @@ koKR = "벌에 쏘이는 것은 짜증납니다."
 
 ["Building.MedicalBedInjury.Description"]
 raw = "Boosted injury healing."
+status = "normal"
 enUS = "Boosted injury healing."
 zhCN = "增强对工作受伤的治疗效果。"
 zhTW = "提高受傷癒合速度。"
@@ -169,6 +184,7 @@ koKR = "상처 치유 향상."
 
 ["Building.MedicalBedInjury.DisplayName"]
 raw = "Medical Bed - Injury"
+status = "normal"
 enUS = "Medical Bed - Injury"
 zhCN = "受伤医疗床"
 zhTW = "醫療床 - 受傷"
@@ -182,6 +198,7 @@ koKR = "의료용 침대 - 부상"
 
 ["Building.MedicalBedInjury.FlavorDescription"]
 raw = "Injuries do happen."
+status = "normal"
 enUS = "Injuries do happen."
 zhCN = "“啊！我重伤倒地了，要护士抱抱！”——小松"
 zhTW = "傷害確實會發生。"
@@ -193,34 +210,9 @@ plPL = "Wypadki się zdarzają."
 ptBR = "Lesões acontecem."
 koKR = "부상은 발생할 수 있습니다."
 
-["Good.BakedPotatoFries.DisplayName"]
-raw = "Baked Potato Fries"
-enUS = "Baked Potato Fries"
-zhCN = "焗土豆条"
-zhTW = "焗馬鈴薯條"
-ruRU = "Запеченный картофель фри"
-jaJP = "ベイクドポテトフライ"
-frFR = "Frites de Pommes de Terre Baked"
-deDE = "Gebratene Kartoffelstäbchen"
-plPL = "Frytki z pieczonych ziemniaków"
-ptBR = "Batatas Fritas de Batata Assada"
-koKR = "구운 감자튀김"
-
-["Good.BakedPotatoFries.PluralDisplayName"]
-raw = "Baked Potato Fries"
-enUS = "Baked Potato Fries"
-zhCN = "焗土豆条"
-zhTW = "烤馬鈴薯條"
-ruRU = "Запечённый картофель фри"
-jaJP = "焼きポテトフライ"
-frFR = "Frites de pommes de terre au four"
-deDE = "\"Baked Potato Fries\" in German is \"Ofenkartoffel-Pommes\"."
-plPL = "Frytki z pieczonych ziemniaków"
-ptBR = "Batatas Fritas de Batata Assada"
-koKR = "구운 감자 튀김"
-
 ["Good.BeeStingRemedy.DisplayName"]
 raw = "Bee Sting Remedy"
+status = "normal"
 enUS = "Bee Sting Remedy"
 zhCN = "止痒剂"
 zhTW = "蜜蜂蜇傷解藥"
@@ -234,6 +226,7 @@ koKR = "벌 쏘임 치료제"
 
 ["Good.BeeStingRemedy.PluralDisplayName"]
 raw = "Bee Sting Remedies"
+status = "normal"
 enUS = "Bee Sting Remedies"
 zhCN = "止痒剂"
 zhTW = "蜜蜂刺療法"
@@ -247,6 +240,7 @@ koKR = "벌침 치료제"
 
 ["Good.BerryBun.DisplayName"]
 raw = "Berry Buns"
+status = "normal"
 enUS = "Berry Buns"
 zhCN = "浆果圆面包"
 zhTW = "莓果包"
@@ -260,6 +254,7 @@ koKR = "베리 번"
 
 ["Good.BerryBun.PluralDisplayName"]
 raw = "Berry Buns"
+status = "normal"
 enUS = "Berry Buns"
 zhCN = "浆果圆面包"
 zhTW = "莓果鬆餅"
@@ -273,6 +268,7 @@ koKR = "베리 번"
 
 ["Good.BerryJam.DisplayName"]
 raw = "Berry jam"
+status = "normal"
 enUS = "Berry jam"
 zhCN = "浆果酱"
 zhTW = "莓果果醬"
@@ -286,6 +282,7 @@ koKR = "베리 잼"
 
 ["Good.BerryJam.PluralDisplayName"]
 raw = "Berry jam"
+status = "normal"
 enUS = "Berry jam"
 zhCN = "浆果酱"
 zhTW = "莓果醬"
@@ -299,6 +296,7 @@ koKR = "베리 잼"
 
 ["Good.BerryMuffin.DisplayName"]
 raw = "Berry Muffin"
+status = "normal"
 enUS = "Berry Muffin"
 zhCN = "浆果松糕"
 zhTW = "莓果鬆餅"
@@ -312,6 +310,7 @@ koKR = "베리 머핀"
 
 ["Good.BerryMuffin.PluralDisplayName"]
 raw = "Berry Muffins"
+status = "normal"
 enUS = "Berry Muffins"
 zhCN = "浆果松糕"
 zhTW = "莓果瑪芬"
@@ -325,6 +324,7 @@ koKR = "베리 머핀"
 
 ["Good.BerryPie.DisplayName"]
 raw = "Berry Pie"
+status = "normal"
 enUS = "Berry Pie"
 zhCN = "浆果派"
 zhTW = "莓果派"
@@ -338,6 +338,7 @@ koKR = "베리 파이"
 
 ["Good.BerryPie.PluralDisplayName"]
 raw = "Berry Pies"
+status = "normal"
 enUS = "Berry Pies"
 zhCN = "浆果派"
 zhTW = "莓果派"
@@ -351,6 +352,7 @@ koKR = "베리 파이"
 
 ["Good.BerryTea.DisplayName"]
 raw = "Berry Tea"
+status = "normal"
 enUS = "Berry Tea"
 zhCN = "浆果茶"
 zhTW = "莓果茶"
@@ -364,6 +366,7 @@ koKR = "베리 차"
 
 ["Good.BerryTea.PluralDisplayName"]
 raw = "Berry Tea"
+status = "normal"
 enUS = "Berry Tea"
 zhCN = "浆果茶"
 zhTW = "莓果茶"
@@ -377,6 +380,7 @@ koKR = "베리 차"
 
 ["Good.CBJSandwich.DisplayName"]
 raw = "CB&J Sandwich"
+status = "normal"
 enUS = "CB&J Sandwich"
 zhCN = "夹酱三明治"
 zhTW = "花生醬與果醬三明治"
@@ -390,6 +394,7 @@ koKR = "CB&J 샌드위치"
 
 ["Good.CBJSandwich.PluralDisplayName"]
 raw = "CB&J Sandwiches"
+status = "normal"
 enUS = "CB&J Sandwiches"
 zhCN = "夹酱三明治"
 zhTW = "花生醬與果醬三明治"
@@ -403,6 +408,7 @@ koKR = "CB&J 샌드위치"
 
 ["Good.CarrotCake.DisplayName"]
 raw = "Carrot Cake"
+status = "normal"
 enUS = "Carrot Cake"
 zhCN = "胡萝卜软糕"
 zhTW = "胡蘿蔔蛋糕"
@@ -416,6 +422,7 @@ koKR = "당근 케이크"
 
 ["Good.CarrotCake.PluralDisplayName"]
 raw = "Carrot Cakes"
+status = "normal"
 enUS = "Carrot Cakes"
 zhCN = "胡萝卜软糕"
 zhTW = "胡蘿蔔蛋糕"
@@ -429,6 +436,7 @@ koKR = "당근 케이크"
 
 ["Good.CarrotTea.DisplayName"]
 raw = "Carrot Tea"
+status = "normal"
 enUS = "Carrot Tea"
 zhCN = "胡萝卜茶"
 zhTW = "胡蘿蔔茶"
@@ -442,6 +450,7 @@ koKR = "당근 차"
 
 ["Good.CarrotTea.PluralDisplayName"]
 raw = "Carrot Tea"
+status = "normal"
 enUS = "Carrot Tea"
 zhCN = "胡萝卜茶"
 zhTW = "胡蘿蔔茶"
@@ -455,6 +464,7 @@ koKR = "당근 차"
 
 ["Good.CassavaCake.DisplayName"]
 raw = "Cassava Cake"
+status = "normal"
 enUS = "Cassava Cake"
 zhCN = "木薯饼"
 zhTW = "木薯蛋糕"
@@ -468,6 +478,7 @@ koKR = "카사바 케이크"
 
 ["Good.CassavaCake.PluralDisplayName"]
 raw = "Cassava Cakes"
+status = "normal"
 enUS = "Cassava Cakes"
 zhCN = "木薯饼"
 zhTW = "木薯蛋糕"
@@ -481,6 +492,7 @@ koKR = "카사바 케이크들"
 
 ["Good.ChestnutButter.DisplayName"]
 raw = "Chestnut Butter"
+status = "normal"
 enUS = "Chestnut Butter"
 zhCN = "栗子酱"
 zhTW = "栗子奶油"
@@ -494,6 +506,7 @@ koKR = "밤 버터"
 
 ["Good.ChestnutButter.PluralDisplayName"]
 raw = "Chestnut Butter"
+status = "normal"
 enUS = "Chestnut Butter"
 zhCN = "栗子酱"
 zhTW = "栗子醬"
@@ -507,6 +520,7 @@ koKR = "밤 버터"
 
 ["Good.CornCoffee.DisplayName"]
 raw = "Corn Coffee"
+status = "normal"
 enUS = "Corn Coffee"
 zhCN = "玉米咖啡"
 zhTW = "玉米咖啡"
@@ -520,6 +534,7 @@ koKR = "옥수수 커피"
 
 ["Good.CornCoffee.PluralDisplayName"]
 raw = "Corn Coffee"
+status = "normal"
 enUS = "Corn Coffee"
 zhCN = "玉米咖啡"
 zhTW = "玉米咖啡"
@@ -533,6 +548,7 @@ koKR = "옥수수 커피"
 
 ["Good.DandelionTea.DisplayName"]
 raw = "Dandelion Tea"
+status = "normal"
 enUS = "Dandelion Tea"
 zhCN = "蒲公英茶"
 zhTW = "蒲公英茶"
@@ -546,6 +562,7 @@ koKR = "민들레 차"
 
 ["Good.DandelionTea.PluralDisplayName"]
 raw = "Dandelion Tea"
+status = "normal"
 enUS = "Dandelion Tea"
 zhCN = "蒲公英茶"
 zhTW = "蒲公英茶"
@@ -559,6 +576,7 @@ koKR = "민들레 차"
 
 ["Good.FermentedBerries.DisplayName"]
 raw = "Fermented Berries"
+status = "normal"
 enUS = "Fermented Berries"
 zhCN = "发酵浆果"
 zhTW = "發酵漿果"
@@ -572,6 +590,7 @@ koKR = "발효된 베리"
 
 ["Good.FermentedBerries.PluralDisplayName"]
 raw = "Fermented Berries"
+status = "normal"
 enUS = "Fermented Berries"
 zhCN = "发酵浆果"
 zhTW = "發酵漿果"
@@ -585,6 +604,7 @@ koKR = "발효 베리"
 
 ["Good.FermentedCorn.DisplayName"]
 raw = "Fermented Corn"
+status = "normal"
 enUS = "Fermented Corn"
 zhCN = "发酵玉米"
 zhTW = "發酵玉米"
@@ -598,6 +618,7 @@ koKR = "발효된 옥수수"
 
 ["Good.FermentedCorn.PluralDisplayName"]
 raw = "Fermented Corn"
+status = "normal"
 enUS = "Fermented Corn"
 zhCN = "发酵玉米"
 zhTW = "發酵玉米"
@@ -611,6 +632,7 @@ koKR = "발효 옥수수"
 
 ["Good.FermentedEggplant.DisplayName"]
 raw = "Fermented Eggplant"
+status = "normal"
 enUS = "Fermented Eggplant"
 zhCN = "发酵茄子"
 zhTW = "醃製茄子"
@@ -624,6 +646,7 @@ koKR = "발효 된 가지"
 
 ["Good.FermentedEggplant.PluralDisplayName"]
 raw = "Fermented Eggplant"
+status = "normal"
 enUS = "Fermented Eggplant"
 zhCN = "发酵茄子"
 zhTW = "發酵的茄子"
@@ -637,6 +660,7 @@ koKR = "발효된 가지"
 
 ["Good.GrilledCarrot.DisplayName"]
 raw = "Grilled Carrot"
+status = "normal"
 enUS = "Grilled Carrot"
 zhCN = "烤胡萝卜"
 zhTW = "烤胡蘿蔔"
@@ -650,6 +674,7 @@ koKR = "구운 당근"
 
 ["Good.GrilledCarrot.PluralDisplayName"]
 raw = "Grilled Carrot"
+status = "normal"
 enUS = "Grilled Carrot"
 zhCN = "烤胡萝卜"
 zhTW = "烤胡蘿蔔"
@@ -663,6 +688,7 @@ koKR = "구운 당근"
 
 ["Good.GrilledSunflowerSeeds.DisplayName"]
 raw = "Grilled Sunflower Seed"
+status = "normal"
 enUS = "Grilled Sunflower Seed"
 zhCN = "烤葵花籽"
 zhTW = "烤向日葵種子"
@@ -676,6 +702,7 @@ koKR = "구운 해바라기 씨앗"
 
 ["Good.GrilledSunflowerSeeds.PluralDisplayName"]
 raw = "Grilled Sunflower Seeds"
+status = "normal"
 enUS = "Grilled Sunflower Seeds"
 zhCN = "烤葵花籽"
 zhTW = "烤向日葵種子"
@@ -687,8 +714,17 @@ plPL = "Grillowane Nasiona Słonecznika"
 ptBR = "Sementes de Girassol Grelhadas"
 koKR = "구운 해바라기 씨앗"
 
+["Good.GrilledWaffle.DisplayName"]
+new = "Grilled Waffle"
+status = "normal"
+
+["Good.GrilledWaffle.PluralDisplayName"]
+new = "Grilled Waffle"
+status = "normal"
+
 ["Good.HealingBandage.DisplayName"]
 raw = "Healing Bandage"
+status = "normal"
 enUS = "Healing Bandage"
 zhCN = "疗伤绷带"
 zhTW = "療傷繃帶"
@@ -702,6 +738,7 @@ koKR = "치유 붕대"
 
 ["Good.HealingBandage.PluralDisplayName"]
 raw = "Healing Bandages"
+status = "normal"
 enUS = "Healing Bandages"
 zhCN = "疗伤绷带"
 zhTW = "療傷繃帶"
@@ -715,6 +752,7 @@ koKR = "치유 붕대"
 
 ["Good.HealingBrew.DisplayName"]
 raw = "Healing Brew"
+status = "normal"
 enUS = "Healing Brew"
 zhCN = "疗伤剂"
 zhTW = "療癒飲品"
@@ -728,6 +766,7 @@ koKR = "치유 맥주"
 
 ["Good.HealingBrew.PluralDisplayName"]
 raw = "Healing Brew"
+status = "normal"
 enUS = "Healing Brew"
 zhCN = "疗伤剂"
 zhTW = "療癒飲品"
@@ -741,6 +780,7 @@ koKR = "치유 음료"
 
 ["Good.MangroveFruitCoffee.DisplayName"]
 raw = "Mangrove Fruit Coffee"
+status = "normal"
 enUS = "Mangrove Fruit Coffee"
 zhCN = "红树果实咖啡"
 zhTW = "紅樹果咖啡"
@@ -754,6 +794,7 @@ koKR = "망그로브 과일 커피"
 
 ["Good.MangroveFruitCoffee.PluralDisplayName"]
 raw = "Mangrove Fruit Coffee"
+status = "normal"
 enUS = "Mangrove Fruit Coffee"
 zhCN = "红树果实咖啡"
 zhTW = "紅樹林果咖啡"
@@ -767,6 +808,7 @@ koKR = "망그로브 과일 커피"
 
 ["Good.MealBox.DisplayName"]
 raw = "Meal Box"
+status = "normal"
 enUS = "Meal Box"
 zhCN = "餐盒"
 zhTW = "餐盒"
@@ -780,6 +822,7 @@ koKR = "식사 상자"
 
 ["Good.MealBox.PluralDisplayName"]
 raw = "Meal Boxes"
+status = "normal"
 enUS = "Meal Boxes"
 zhCN = "餐盒"
 zhTW = "餐盒"
@@ -793,6 +836,7 @@ koKR = "식사 상자들"
 
 ["Good.MealFTSet1.DisplayName"]
 raw = "Fresh Meal Set 1"
+status = "normal"
 enUS = "Fresh Meal Set 1"
 zhCN = "新鲜套餐 1"
 zhTW = "新鮮餐點套裝 1"
@@ -806,6 +850,7 @@ koKR = "신선한 식사 세트 1"
 
 ["Good.MealFTSet1.PluralDisplayName"]
 raw = "Fresh Meals Set 1"
+status = "normal"
 enUS = "Fresh Meals Set 1"
 zhCN = "新鲜套餐 1"
 zhTW = "新鮮餐點組 1"
@@ -819,6 +864,7 @@ koKR = "신선한 식사 세트 1"
 
 ["Good.MealFTSet2.DisplayName"]
 raw = "Fresh Meal Set 2"
+status = "normal"
 enUS = "Fresh Meal Set 2"
 zhCN = "新鲜套餐 2"
 zhTW = "新鮮餐點套裝 2"
@@ -832,6 +878,7 @@ koKR = "신선한 식사 세트 2"
 
 ["Good.MealFTSet2.PluralDisplayName"]
 raw = "Fresh Meals Set 2"
+status = "normal"
 enUS = "Fresh Meals Set 2"
 zhCN = "新鲜套餐 2"
 zhTW = "新鮮餐點套件2"
@@ -845,6 +892,7 @@ koKR = "신선한 식사 세트 2"
 
 ["Good.MealFTSet3.DisplayName"]
 raw = "Fresh Meal Set 3"
+status = "normal"
 enUS = "Fresh Meal Set 3"
 zhCN = "新鲜套餐 3"
 zhTW = "新鮮餐點套裝 3"
@@ -858,6 +906,7 @@ koKR = "신선한 식사 세트 3"
 
 ["Good.MealFTSet3.PluralDisplayName"]
 raw = "Fresh Meals Set 3"
+status = "normal"
 enUS = "Fresh Meals Set 3"
 zhCN = "新鲜套餐 3"
 zhTW = "新鮮餐點套裝 3"
@@ -871,6 +920,7 @@ koKR = "신선한 식사 세트 3"
 
 ["Good.MealFTSet4.DisplayName"]
 raw = "Fresh Meal Set 4"
+status = "normal"
 enUS = "Fresh Meal Set 4"
 zhCN = "新鲜套餐 4"
 zhTW = "新鮮餐點套裝 4"
@@ -884,6 +934,7 @@ koKR = "신선한 식사 세트 4"
 
 ["Good.MealFTSet4.PluralDisplayName"]
 raw = "Fresh Meals Set 4"
+status = "normal"
 enUS = "Fresh Meals Set 4"
 zhCN = "新鲜套餐 4"
 zhTW = "新鮮餐點套裝4"
@@ -897,6 +948,7 @@ koKR = " 신선한 식사 세트 4"
 
 ["Good.MealFTSet5.DisplayName"]
 raw = "Fresh Meal Set 5"
+status = "normal"
 enUS = "Fresh Meal Set 5"
 zhCN = "新鲜套餐 5"
 zhTW = "新鮮餐點套裝5"
@@ -910,6 +962,7 @@ koKR = "신선한 식사 세트 5"
 
 ["Good.MealFTSet5.PluralDisplayName"]
 raw = "Fresh Meals Set 5"
+status = "normal"
 enUS = "Fresh Meals Set 5"
 zhCN = "新鲜套餐 5"
 zhTW = "新鮮餐點套裝 5"
@@ -923,6 +976,7 @@ koKR = "신선한 식사 세트 5"
 
 ["Good.MealITSet1.DisplayName"]
 raw = "Express Meal Set 1"
+status = "normal"
 enUS = "Express Meal Set 1"
 zhCN = "快捷套餐 1"
 zhTW = "快餐套餐 1"
@@ -936,6 +990,7 @@ koKR = "즉석 식사 세트 1"
 
 ["Good.MealITSet1.PluralDisplayName"]
 raw = " Express Meals Set 1"
+status = "normal"
 enUS = " Express Meals Set 1"
 zhCN = "快捷套餐 1"
 zhTW = "快速餐點套裝 1"
@@ -949,6 +1004,7 @@ koKR = "간편 식사 세트 1"
 
 ["Good.MealITSet2.DisplayName"]
 raw = "Express Meal Set 2"
+status = "normal"
 enUS = "Express Meal Set 2"
 zhCN = "快捷套餐 2"
 zhTW = "速食餐套餐 2"
@@ -962,6 +1018,7 @@ koKR = "즉석 식사 세트 2"
 
 ["Good.MealITSet2.PluralDisplayName"]
 raw = " Express Meals Set 2"
+status = "normal"
 enUS = " Express Meals Set 2"
 zhCN = "快捷套餐 2"
 zhTW = "快速餐點套裝 2"
@@ -975,6 +1032,7 @@ koKR = "즉석 식사 세트 2"
 
 ["Good.MealITSet3.DisplayName"]
 raw = "Express Meal Set 3"
+status = "normal"
 enUS = "Express Meal Set 3"
 zhCN = "快捷套餐 3"
 zhTW = "快餐套餐3"
@@ -988,6 +1046,7 @@ koKR = "즉석 식사 세트 3"
 
 ["Good.MealITSet3.PluralDisplayName"]
 raw = " Express Meals Set 3"
+status = "normal"
 enUS = " Express Meals Set 3"
 zhCN = "快捷套餐 3"
 zhTW = "「速食餐組3」"
@@ -1001,6 +1060,7 @@ koKR = "익스프레스 식사 세트 3"
 
 ["Good.MealITSet4.DisplayName"]
 raw = "Express Meal Set 4"
+status = "normal"
 enUS = "Express Meal Set 4"
 zhCN = "快捷套餐 4"
 zhTW = "快速餐點套裝 4"
@@ -1014,6 +1074,7 @@ koKR = "익스프레스 밀 세트 4"
 
 ["Good.MealITSet4.PluralDisplayName"]
 raw = " Express Meals Set 4"
+status = "normal"
 enUS = " Express Meals Set 4"
 zhCN = "快捷套餐 4"
 zhTW = "快捷餐套餐4"
@@ -1027,6 +1088,7 @@ koKR = "즉석 식사 세트 4"
 
 ["Good.MealITSet5.DisplayName"]
 raw = "Express Meal Set 5"
+status = "normal"
 enUS = "Express Meal Set 5"
 zhCN = "快捷套餐 5"
 zhTW = "快餐套餐5"
@@ -1040,6 +1102,7 @@ koKR = "익스프레스 식사 세트 5"
 
 ["Good.MealITSet5.PluralDisplayName"]
 raw = " Express Meals Set 5"
+status = "normal"
 enUS = " Express Meals Set 5"
 zhCN = "快捷套餐 5"
 zhTW = "快餐套裝 5"
@@ -1051,34 +1114,17 @@ plPL = "Zestaw ekspresowych posiłków 5"
 ptBR = "Conjunto de Refeições Rápidas 5"
 koKR = "즉석 식사 세트 5"
 
-["Good.RoastedCarrot.DisplayName"]
-raw = "Roasted Carrot"
-enUS = "Roasted Carrot"
-zhCN = "烤胡萝卜"
-zhTW = "烤胡蘿蔔"
-ruRU = "Жареная морковь"
-jaJP = "焼きニンジン"
-frFR = "Carotte rôtie"
-deDE = "Geröstete Karotte"
-plPL = "Pieczona Marchewka"
-ptBR = "Batata Doce Assada"
-koKR = "로스트 당근"
+["Good.PotatoWedge.DisplayName"]
+new = "Potato Wedge"
+status = "normal"
 
-["Good.RoastedCarrot.PluralDisplayName"]
-raw = "Roasted Carrot"
-enUS = "Roasted Carrot"
-zhCN = "烤胡萝卜"
-zhTW = "烤胡蘿蔔"
-ruRU = "Жареная Морковь"
-jaJP = "ローストキャロット"
-frFR = "Carottes rôties"
-deDE = "Geröstete Karotte"
-plPL = "Pieczona Marchewka"
-ptBR = " cenouras assadas"
-koKR = "구운 당근"
+["Good.PotatoWedge.PluralDisplayName"]
+new = "Potato Wedges"
+status = "normal"
 
 ["Good.RoastedKohlrabi.DisplayName"]
 raw = "Roasted Kohlrabi"
+status = "normal"
 enUS = "Roasted Kohlrabi"
 zhCN = "烤大头菜"
 zhTW = "烤蘿蔔"
@@ -1092,6 +1138,7 @@ koKR = "구운 콜라비"
 
 ["Good.RoastedKohlrabi.PluralDisplayName"]
 raw = "Roasted Kohlrabies"
+status = "normal"
 enUS = "Roasted Kohlrabies"
 zhCN = "烤大头菜"
 zhTW = "烤甘藍菜"
@@ -1105,6 +1152,7 @@ koKR = "구운 콜라비들"
 
 ["Good.RoastedMushroom.DisplayName"]
 raw = "Roasted Mushroom"
+status = "normal"
 enUS = "Roasted Mushroom"
 zhCN = "烤蘑菇"
 zhTW = "燒烤蘑菇"
@@ -1118,6 +1166,7 @@ koKR = "구운 버섯"
 
 ["Good.RoastedMushroom.PluralDisplayName"]
 raw = "Roasted Mushrooms"
+status = "normal"
 enUS = "Roasted Mushrooms"
 zhCN = "烤蘑菇"
 zhTW = "烤香菇"
@@ -1131,6 +1180,7 @@ koKR = "구운 버섯"
 
 ["Good.SoyCoffee.DisplayName"]
 raw = "Soy Coffee"
+status = "normal"
 enUS = "Soy Coffee"
 zhCN = "大豆咖啡"
 zhTW = "豆漿咖啡"
@@ -1144,6 +1194,7 @@ koKR = "콩 커피"
 
 ["Good.SoyCoffee.PluralDisplayName"]
 raw = "Soy Coffee"
+status = "normal"
 enUS = "Soy Coffee"
 zhCN = "大豆咖啡"
 zhTW = "豆漿咖啡"
@@ -1155,34 +1206,9 @@ plPL = "Słodka Kawa Sojowa"
 ptBR = "Leite de Soja"
 koKR = "콩커피"
 
-["Good.SpadderdockWaffle.DisplayName"]
-raw = "Spadderdock Waffle"
-enUS = "Spadderdock Waffle"
-zhCN = "青荷根华夫饼"
-zhTW = "斯帕德多克鬆餅"
-ruRU = "Вафля Спаддердока"
-jaJP = "スパッダーロックワッフル"
-frFR = "Gaufre de Spadderdock"
-deDE = "Spadderdock Waffel"
-plPL = "Wafel Spadderdock"
-ptBR = "Waffle de Spadderdock"
-koKR = "스패더독 와플"
-
-["Good.SpadderdockWaffle.PluralDisplayName"]
-raw = "Spadderdock Waffle"
-enUS = "Spadderdock Waffle"
-zhCN = "青荷根华夫饼"
-zhTW = "斯帕德羅克華夫"
-ruRU = "Спаддердок Вафля"
-jaJP = "スパデロックワッフル"
-frFR = "Waffle de Spadderdock"
-deDE = "Spadderdock Waffel"
-plPL = "Waffle Spadderdock"
-ptBR = "Waffle de Spadderdock"
-koKR = "스패더독 와플"
-
 ["Good.SunflowerTea.DisplayName"]
 raw = "Sunflower Tea"
+status = "normal"
 enUS = "Sunflower Tea"
 zhCN = "葵花籽茶"
 zhTW = "向日葵茶"
@@ -1196,6 +1222,7 @@ koKR = "해바라기 차"
 
 ["Good.SunflowerTea.PluralDisplayName"]
 raw = "Sunflower Tea"
+status = "normal"
 enUS = "Sunflower Tea"
 zhCN = "葵花籽茶"
 zhTW = "向日葵茶"
@@ -1206,3 +1233,87 @@ deDE = "Sonnenblumentee"
 plPL = "Herbata Słonecznikowa"
 ptBR = "Chá de Girassol"
 koKR = "해바라기 차"
+
+["Good.BakedPotatoFries.DisplayName"]
+raw = "Baked Potato Fries"
+status = "abandoned"
+enUS = "Baked Potato Fries"
+zhCN = "焗土豆条"
+zhTW = "焗馬鈴薯條"
+ruRU = "Запеченный картофель фри"
+jaJP = "ベイクドポテトフライ"
+frFR = "Frites de Pommes de Terre Baked"
+deDE = "Gebratene Kartoffelstäbchen"
+plPL = "Frytki z pieczonych ziemniaków"
+ptBR = "Batatas Fritas de Batata Assada"
+koKR = "구운 감자튀김"
+
+["Good.BakedPotatoFries.PluralDisplayName"]
+raw = "Baked Potato Fries"
+status = "abandoned"
+enUS = "Baked Potato Fries"
+zhCN = "焗土豆条"
+zhTW = "烤馬鈴薯條"
+ruRU = "Запечённый картофель фри"
+jaJP = "焼きポテトフライ"
+frFR = "Frites de pommes de terre au four"
+deDE = "\"Baked Potato Fries\" in German is \"Ofenkartoffel-Pommes\"."
+plPL = "Frytki z pieczonych ziemniaków"
+ptBR = "Batatas Fritas de Batata Assada"
+koKR = "구운 감자 튀김"
+
+["Good.RoastedCarrot.DisplayName"]
+raw = "Roasted Carrot"
+status = "abandoned"
+enUS = "Roasted Carrot"
+zhCN = "烤胡萝卜"
+zhTW = "烤胡蘿蔔"
+ruRU = "Жареная морковь"
+jaJP = "焼きニンジン"
+frFR = "Carotte rôtie"
+deDE = "Geröstete Karotte"
+plPL = "Pieczona Marchewka"
+ptBR = "Batata Doce Assada"
+koKR = "로스트 당근"
+
+["Good.RoastedCarrot.PluralDisplayName"]
+raw = "Roasted Carrot"
+status = "abandoned"
+enUS = "Roasted Carrot"
+zhCN = "烤胡萝卜"
+zhTW = "烤胡蘿蔔"
+ruRU = "Жареная Морковь"
+jaJP = "ローストキャロット"
+frFR = "Carottes rôties"
+deDE = "Geröstete Karotte"
+plPL = "Pieczona Marchewka"
+ptBR = " cenouras assadas"
+koKR = "구운 당근"
+
+["Good.SpadderdockWaffle.DisplayName"]
+raw = "Spadderdock Waffle"
+status = "abandoned"
+enUS = "Spadderdock Waffle"
+zhCN = "青荷根华夫饼"
+zhTW = "斯帕德多克鬆餅"
+ruRU = "Вафля Спаддердока"
+jaJP = "スパッダーロックワッフル"
+frFR = "Gaufre de Spadderdock"
+deDE = "Spadderdock Waffel"
+plPL = "Wafel Spadderdock"
+ptBR = "Waffle de Spadderdock"
+koKR = "스패더독 와플"
+
+["Good.SpadderdockWaffle.PluralDisplayName"]
+raw = "Spadderdock Waffle"
+status = "abandoned"
+enUS = "Spadderdock Waffle"
+zhCN = "青荷根华夫饼"
+zhTW = "斯帕德羅克華夫"
+ruRU = "Спаддердок Вафля"
+jaJP = "スパデロックワッフル"
+frFR = "Waffle de Spadderdock"
+deDE = "Spadderdock Waffel"
+plPL = "Waffle Spadderdock"
+ptBR = "Waffle de Spadderdock"
+koKR = "스패더독 와플"

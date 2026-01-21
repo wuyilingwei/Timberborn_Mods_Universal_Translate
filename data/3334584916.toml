@@ -1,5 +1,8 @@
+name = "Cutter Tool"
+
 ["Cordial.CutterTool.DisplayName"]
 raw = "Mark configured tree cutting area"
+status = "normal"
 enUS = "Mark configured the tree cutting area."
 zhCN = "自定义标记树木砍伐区域"
 zhTW = "馬克配置了砍樹區域"
@@ -13,6 +16,7 @@ koKR = "설정된 나무 베기 영역 표시"
 
 ["Cordial.CutterTool.Description"]
 raw = " Use this tool to mark configured areas and/or tree types to cut down"
+status = "normal"
 enUS = "Use this tool to mark configured areas and/or tree types to be cut down."
 zhCN = "使用此工具来自定义标记要砍伐树木的区域。"
 zhTW = "使用此工具標記已配置的區域和/或要砍伐的樹種"
@@ -26,6 +30,7 @@ koKR = "이 도구를 사용하여 나무를 자를 영역 및/또는 나무 종
 
 ["Cordial.CutterTool.CutterToolPanel.Title"]
 raw = " Cutter Tool Configuration"
+status = "normal"
 enUS = "Cutter Tool Configuration"
 zhCN = "自定义砍伐设置"
 zhTW = "切割工具配置"
@@ -39,6 +44,7 @@ koKR = "Cutter Tool 설정"
 
 ["Cordial.CutterTool.CutterToolPanel.Description"]
 raw = " Configure tree types to be cut and/or cutting selection area"
+status = "normal"
 enUS = "Configure tree types for cutting and/or cutting selection area."
 zhCN = "对砍伐区域和砍伐树木种类进行设置。"
 zhTW = "配置砍伐樹種和/或砍伐選擇區域"
@@ -52,6 +58,7 @@ koKR = "베어 낼 나무 유형 및/또는 베어 낼 선택 영역을 구성�
 
 ["Cordial.CutterTool.CutterToolPanel.AreaConfig.Pattern01"]
 raw = " All"
+status = "normal"
 enUS = "All"
 zhCN = "区域-全部"
 zhTW = "所有"
@@ -65,6 +72,7 @@ koKR = "모두"
 
 ["Cordial.CutterTool.CutterToolPanel.AreaConfig.Pattern02"]
 raw = " Checkered"
+status = "normal"
 enUS = "Checkered"
 zhCN = "区域-棋盘状"
 zhTW = "格子圖案"
@@ -78,6 +86,7 @@ koKR = "체크 무늬"
 
 ["Cordial.CutterTool.CutterToolPanel.AreaConfig.Pattern03"]
 raw = " Lines X"
+status = "normal"
 enUS = "Lines X"
 zhCN = "区域-X轴"
 zhTW = "線 X"
@@ -91,6 +100,7 @@ koKR = "선 X"
 
 ["Cordial.CutterTool.CutterToolPanel.AreaConfig.Pattern04"]
 raw = " Lines Y"
+status = "normal"
 enUS = "Lines Y"
 zhCN = "区域-Y轴"
 zhTW = "線 Y"
@@ -104,6 +114,7 @@ koKR = "선 Y"
 
 ["Cordial.CutterTool.CutterToolPanel.TreeConfig.TreeAll"]
 raw = " All tree types"
+status = "normal"
 enUS = "All tree types"
 zhCN = "所有树木种类"
 zhTW = "所有樹種"
@@ -117,6 +128,7 @@ koKR = "모든 나무 종류"
 
 ["Cordial.CutterTool.CutterToolPanel.TreeConfig.TreeMark"]
 raw = " Mark trees only"
+status = "normal"
 enUS = "Mark trees only"
 zhCN = "仅标记有树木区域"
 zhTW = "只標記樹木"
@@ -130,6 +142,7 @@ koKR = "나무만 표시"
 
 ["Cordial.CutterTool.CutterToolPanel.TreeConfig.IgnoreStump"]
 raw = " Ignore stumps"
+status = "normal"
 enUS = "Ignore stumps"
 zhCN = " 忽略树桩区域"
 zhTW = "忽略樹樁"
@@ -143,6 +156,7 @@ koKR = " 그루터기 무시"
 
 ["Cordial.CutterTool.CutterToolPanel.TreeConfig.ClearCut"]
 raw = " Clear mismatched cutting area"
+status = "normal"
 enUS = "Clear the mismatched cutting area."
 zhCN = "清除不匹配的砍伐区域"
 zhTW = "清除不匹配的切割區域"
@@ -156,6 +170,7 @@ koKR = "불일치하는 벌목 구역 지우기"
 
 ["Cordial.CutterTool.CutterToolPanel.TreeConfig.IgnoreDeadSapling"]
 raw = " Ignore dead saplings"
+status = "normal"
 enUS = "Ignore dead saplings."
 zhCN = "忽略已死亡的未成熟树木"
 zhTW = "忽略枯死的幼苗"

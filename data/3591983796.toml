@@ -1,5 +1,8 @@
+name = "Billboards"
+
 ["ToolGroups.Billboards"]
 raw = "Mostly helpfull billboards"
+status = "normal"
 enUS = "Mostly helpfull billboards"
 zhCN = "广告牌"
 zhTW = "大多數有用的廣告牌"
@@ -13,6 +16,7 @@ koKR = "대부분 유용한 광고판"
 
 ["Lapantouflemagic.Billboard.Description"]
 raw = "A certainly useful message to display"
+status = "normal"
 enUS = "A certainly useful message to display"
 zhCN = "展示一条实用信息。"
 zhTW = "一則確實有用的訊息來展示"
@@ -26,6 +30,7 @@ koKR = "표시할 확실히 유용한 메시지"
 
 ["Lapantouflemagic.VitalBillboard.Description"]
 raw = "Actually important important information for the Whitepaws"
+status = "normal"
 enUS = "Actually important important information for the Whitepaws"
 zhCN = "展示白爪种族的重要知识。"
 zhTW = "對於白爪來說，實際上非常重要的重要資訊"
@@ -39,6 +44,7 @@ koKR = "화이트파우스에게 실제로 중요한 중요 정보를 제공합�
 
 ["Lapantouflemagic.ComuBillboard.Description"]
 raw = "A shameless add for an other mod"
+status = "normal"
 enUS = "A shameless add for an other mod"
 zhCN = "宣传其他模组。"
 zhTW = "一個毫不害臊的其他模組廣告"
@@ -52,6 +58,7 @@ koKR = "다른 모드에 대한 부끄러운 광고"
 
 ["Lapantouflemagic.Commuboardgroup.DisplayName"]
 raw = "Modding community billboards"
+status = "normal"
 enUS = "Modding community billboards"
 zhCN = "模组广告牌"
 zhTW = "「模組社群公告牌」"
@@ -65,6 +72,7 @@ koKR = "모딩 커뮤니티 광고판"
 
 ["Lapantouflemagic.Lolboards.DisplayName"]
 raw = "You won't regret this"
+status = "normal"
 enUS = "You won't regret this"
 zhCN = "怪奇广告牌"
 zhTW = "「你不會後悔的」"
@@ -78,6 +86,7 @@ koKR = "이 선택을 후회하지 않을 거예요"
 
 ["Lapantouflemagic.VitalboardGroup.DisplayName"]
 raw = "Important information for the\nWhitepaws"
+status = "normal"
 enUS = "Important information for the\nWhitepaws"
 zhCN = "白爪知识广告牌"
 zhTW = "「白爪的重要資訊」"
@@ -91,6 +100,7 @@ koKR = "화이트파우스에 대한 중요한 정보"
 
 ["Lapantouflemagic.Foodboardgroup.DisplayName"]
 raw = "Food-related billboards. Some have actual effects"
+status = "normal"
 enUS = "Food-related billboards. Some have actual effects"
 zhCN = "食物广告牌"
 zhTW = "食物相關的廣告牌。一些具有實際效果"
@@ -104,6 +114,7 @@ koKR = "음식 관련 광고판. 일부는 실제 효과가 있습니다."
 
 ["Billboards.Glory.DisplayName"]
 raw = "Glory"
+status = "normal"
 enUS = "Glory"
 zhCN = "法兰西的荣光"
 zhTW = "榮耀"
@@ -117,6 +128,7 @@ koKR = "영광"
 
 ["Billboards.Power.DisplayName"]
 raw = "Power"
+status = "normal"
 enUS = "Power"
 zhCN = "奇迹"
 zhTW = "電力"
@@ -130,6 +142,7 @@ koKR = "전력"
 
 ["Billboards.PowerDeath.DisplayName"]
 raw = " was eaten by a hungry monster"
+status = "normal"
 enUS = " was eaten by a hungry monster"
 zhCN = "作为奇迹的代价，消失了。"
 zhTW = "「被一隻饑餓的怪物吃掉了」"
@@ -143,6 +156,7 @@ koKR = "배고픈 괴물에게 잡아먹혔습니다"
 
 ["Lapantouflemagic.Carrotboard.DisplayName"]
 raw = "Carrot billboard"
+status = "normal"
 enUS = "Carrot billboard"
 zhCN = "胡萝卜广告牌"
 zhTW = "胡蘿蔔廣告牌"
@@ -156,6 +170,7 @@ koKR = "당근 광고판"
 
 ["Lapantouflemagic.Carrotboard.Description"]
 raw = "Makes nearby beavers more likely to eat carrots\n<color=red>This REDUCES the carrot need</color>\nwhich means beavers will eat more carrots to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat carrots\n<color=red>This REDUCES the carrot need</color>\nwhich means beavers will eat more carrots to fill it up"
 zhCN = "让周围的海狸更想吃胡萝卜。<br><color=#FF66FF>胡萝卜消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃胡蘿蔔  \n<color=red>這會減少對胡蘿蔔的需求</color>  \n這意味著海狸會吃更多的胡蘿蔔來填補需求"
@@ -169,6 +184,7 @@ koKR = "주변 비버들이 당근을 먹을 확률을 높입니다\n<color=red>
 
 ["Lapantouflemagic.Potatoboard.DisplayName"]
 raw = "Potato billboard"
+status = "normal"
 enUS = "Potato billboard"
 zhCN = "土豆广告牌"
 zhTW = "馬鈴薯廣告牌"
@@ -180,8 +196,13 @@ plPL = "Billboard ziemniaczany"
 ptBR = "Placa de batata"
 koKR = "감자 광고판"
 
+["which means beavers will eat more carrots to fill it up\""]
+new = "-"
+status = "normal"
+
 ["Lapantouflemagic.Potatoboard.Description"]
 raw = "Makes nearby beavers more likely to eat potatoes\n<color=red>This REDUCES the potato need</color>\nwhich means beavers will eat more potatoes to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat potatoes\n<color=red>This REDUCES the potato need</color>\nwhich means beavers will eat more potatoes to fill it up"
 zhCN = "让周围的海狸更想吃土豆。<br><color=#FF66FF>土豆消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃土豆\n<color=red>這會減少對土豆的需求</color>\n這意味著海狸會吃更多的土豆來填補這個需求"
@@ -195,6 +216,7 @@ koKR = "근처의 비버들이 감자를 먹을 가능성을 높입니다\n<colo
 
 ["Lapantouflemagic.Shroomboard.DisplayName"]
 raw = "Mushroom billboard"
+status = "normal"
 enUS = "Mushroom billboard"
 zhCN = "蘑菇广告牌"
 zhTW = "蘑菇廣告牌"
@@ -208,6 +230,7 @@ koKR = "버섯 게시판"
 
 ["Lapantouflemagic.Shroomboard.Description"]
 raw = "Makes nearby beavers more likely to eat mushrooms\n<color=red>This REDUCES the mushroom need</color>\nwhich means beavers will eat more mushroom to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat mushrooms\n<color=red>This REDUCES the mushroom need</color>\nwhich means beavers will eat more mushroom to fill it up"
 zhCN = "让周围的海狸更想吃蘑菇。<br><color=#FF66FF>蘑菇消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃蘑菇\n<color=red>這會減少蘑菇需求</color>\n這意味著海狸會吃更多的蘑菇來填補它"
@@ -221,6 +244,7 @@ koKR = "주변 비버들이 버섯을 먹을 가능성을 높입니다.\n<color=
 
 ["Lapantouflemagic.Sunboard.DisplayName"]
 raw = "Sunflower billboard"
+status = "normal"
 enUS = "Sunflower billboard"
 zhCN = "向日葵广告牌"
 zhTW = "向日葵廣告牌"
@@ -234,6 +258,7 @@ koKR = "해바라기 광고판"
 
 ["Lapantouflemagic.Sunboard.Description"]
 raw = "Makes nearby beavers more likely to eat sunflower seeds\n<color=red>This REDUCES the sunflower seed need</color>\nwhich means beavers will eat more sunflower seeds to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat sunflower seeds\n<color=red>This REDUCES the sunflower seed need</color>\nwhich means beavers will eat more sunflower seeds to fill it up"
 zhCN = "让周围的海狸更想吃葵花籽。<br><color=#FF66FF>葵花籽消耗增加。</color>"
 zhTW = "使附近的海狸更可能吃向日葵種子  \n<color=red>這會降低向日葵種子的需求</color>  \n這意味著海狸將吃更多的向日葵種子來填補這個需求"
@@ -247,6 +272,7 @@ koKR = "주변의 비버들이 해바라기 씨를 먹을 가능성을 높입니
 
 ["Lapantouflemagic.Wheatboard.DisplayName"]
 raw = "Wheat billboard"
+status = "normal"
 enUS = "Wheat billboard"
 zhCN = "小麦广告牌"
 zhTW = "小麥廣告牌"
@@ -260,6 +286,7 @@ koKR = "밀 광고판"
 
 ["Lapantouflemagic.Wheatboard.Description"]
 raw = "Makes nearby beavers more likely to eat bread\n<color=red>This REDUCES the bread need</color>\nwhich means beavers will eat more bread to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat bread\n<color=red>This REDUCES the bread need</color>\nwhich means beavers will eat more bread to fill it up"
 zhCN = "让周围的海狸更想吃面包。<br><color=#FF66FF>面包消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃麵包\n<color=red>這會減少對麵包的需求</color>\n這意味著海狸會吃更多的麵包來滿足需求"
@@ -273,6 +300,7 @@ koKR = "주변 비버들이 빵을 먹을 가능성을 높입니다\n<color=red>
 
 ["Lapantouflemagic.Cattailboard.DisplayName"]
 raw = "Cattail billboard"
+status = "normal"
 enUS = "Cattail billboard"
 zhCN = "猫尾巴草广告牌"
 zhTW = "蘆葦廣告牌"
@@ -286,6 +314,7 @@ koKR = "갈대 광고판"
 
 ["Lapantouflemagic.Cattailboard.Description"]
 raw = "Makes nearby beavers more likely to eat Cattail crackers\n<color=red>This REDUCES the Cattail cracker need</color>\nwhich means beavers will eat more cattail crackers to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat Cattail crackers\n<color=red>This REDUCES the Cattail cracker need</color>\nwhich means beavers will eat more cattail crackers to fill it up"
 zhCN = "让周围的海狸更想吃猫尾巴草饼干。<br><color=#FF66FF>猫尾巴草饼干消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃蘆葦餅乾\n<color=red>這會減少對蘆葦餅乾的需求</color>\n這意味著海狸將會吃更多的蘆葦餅乾來填補需求"
@@ -299,6 +328,7 @@ koKR = "인근 비버들이 부들 과자를 더 많이 먹도록 만듭니다.\
 
 ["Lapantouflemagic.Spadderdockboard.DisplayName"]
 raw = "Spadderdock billboard"
+status = "normal"
 enUS = "Spadderdock billboard"
 zhCN = "青荷根广告牌"
 zhTW = "水生植物廣告牌"
@@ -312,6 +342,7 @@ koKR = "스파더독 광고판"
 
 ["Lapantouflemagic.Spadderdockboard.Description"]
 raw = "Makes nearby beavers more likely to eat Spadderdock\n<color=red>This REDUCES the Spadderdock need</color>\nwhich means beavers will eat more spadderdock to fill it up"
+status = "normal"
 enUS = "Makes nearby beavers more likely to eat Spadderdock\n<color=red>This REDUCES the Spadderdock need</color>\nwhich means beavers will eat more spadderdock to fill it up"
 zhCN = "让周围的海狸更想吃烤青荷根。<br><color=#FF66FF>烤青荷根消耗增加。</color>"
 zhTW = "使附近的海狸更有可能吃Spadderdock  \n<color=red>這會降低Spadderdock的需求</color>  \n這意味著海狸將會吃更多的Spadderdock來填補需求"
@@ -325,6 +356,7 @@ koKR = "주변 비버들이 스패더독을 먹을 확률을 높입니다.\n<col
 
 ["Lapantouflemagic.Carrotboard_deco.DisplayName"]
 raw = "Decorative carrot billboard"
+status = "normal"
 enUS = "Decorative carrot billboard"
 zhCN = "胡萝卜广告牌"
 zhTW = "裝飾性胡蘿蔔廣告牌"
@@ -338,6 +370,7 @@ koKR = "장식 당근 게시판"
 
 ["Lapantouflemagic.Carrotboard_deco.Description"]
 raw = "Just to make your farms look nice"
+status = "normal"
 enUS = "Just to make your farms look nice"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "只是為了讓你的農場看起來更美觀"
@@ -351,6 +384,7 @@ koKR = "농장을 보기 좋게 만들기 위해"
 
 ["Lapantouflemagic.Potatoboard_deco.DisplayName"]
 raw = "Decorative potato billboard"
+status = "normal"
 enUS = "Decorative potato billboard"
 zhCN = "土豆广告牌"
 zhTW = "裝飾性馬鈴薯廣告牌"
@@ -364,6 +398,7 @@ koKR = "장식 감자 광고판"
 
 ["Lapantouflemagic.Potatoboard_deco.Description"]
 raw = "Just to make your farms look nice"
+status = "normal"
 enUS = "Just to make your farms look nice"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "只是讓你的農場看起來更漂亮"
@@ -377,6 +412,7 @@ koKR = "농장이 멋져 보이도록 하기 위해서입니다"
 
 ["Lapantouflemagic.Shroomboard_deco.DisplayName"]
 raw = "Decorative mushroom billboard"
+status = "normal"
 enUS = "Decorative mushroom billboard"
 zhCN = "蘑菇广告牌"
 zhTW = "裝飾性蘑菇廣告牌"
@@ -390,6 +426,7 @@ koKR = "장식용 버섯 광고판"
 
 ["Lapantouflemagic.Shroomboard_deco.Description"]
 raw = "Just to make your farms look nice"
+status = "normal"
 enUS = "Just to make your farms look nice"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "只是讓你的農場看起來漂亮"
@@ -403,6 +440,7 @@ koKR = "농장을 보기 좋게 꾸미기 위해서입니다."
 
 ["Lapantouflemagic.Sunboard_deco.DisplayName"]
 raw = "Decorative sunflower billboard"
+status = "normal"
 enUS = "Decorative sunflower billboard"
 zhCN = "向日葵广告牌"
 zhTW = "裝飾向日葵告示牌"
@@ -416,6 +454,7 @@ koKR = "장식용 해바라기 광고판"
 
 ["Lapantouflemagic.Sunboard_deco.Description"]
 raw = "Just to make your farms look nice\nWho ever had too much of those anyway ?"
+status = "normal"
 enUS = "Just to make your farms look nice\nWho ever had too much of those anyway ?"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "只是為了讓你的農場看起來漂亮\n誰會覺得這些太多呢？"
@@ -429,6 +468,7 @@ koKR = "그저 당신의 농장을 더 멋지게 보이게 하기 위해서입�
 
 ["Lapantouflemagic.Wheatboard_deco.DisplayName"]
 raw = "Decorative wheat billboard"
+status = "normal"
 enUS = "Decorative wheat billboard"
 zhCN = "小麦广告牌"
 zhTW = "裝飾性小麥廣告牌"
@@ -442,6 +482,7 @@ koKR = "장식용 밀 광고판"
 
 ["Lapantouflemagic.Wheatboard_deco.Description"]
 raw = "I hope they can make proper baguettes"
+status = "normal"
 enUS = "I hope they can make proper baguettes"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "「我希望他們能做出合適的法棍麵包。」"
@@ -455,6 +496,7 @@ koKR = "그들이 제대로 된 바게트를 만들 수 있길 바란다"
 
 ["Lapantouflemagic.Cattailboard_deco.DisplayName"]
 raw = "Decorative cattail billboard"
+status = "normal"
 enUS = "Decorative cattail billboard"
 zhCN = "猫尾巴草广告牌"
 zhTW = "裝飾性香蒲廣告牌"
@@ -468,6 +510,7 @@ koKR = "장식용 타로겟 광고판"
 
 ["Lapantouflemagic.Cattailboard_deco.Description"]
 raw = "I kind of want to eat one now"
+status = "normal"
 enUS = "I kind of want to eat one now"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "我現在有點想吃一個。"
@@ -481,6 +524,7 @@ koKR = "지금 하나 먹고 싶어."
 
 ["Lapantouflemagic.Spadderdockboard_deco.DisplayName"]
 raw = "Decorative spadderdock billboard"
+status = "normal"
 enUS = "Decorative spadderdock billboard"
 zhCN = "青荷根广告牌"
 zhTW = "裝飾性水生植物廣告牌"
@@ -494,6 +538,7 @@ koKR = "장식용 스패더독 광고판"
 
 ["Lapantouflemagic.Spadderdockboard_deco.Description"]
 raw = "Just to make your farms look nice"
+status = "normal"
 enUS = "Just to make your farms look nice"
 zhCN = "一个可以装饰农场的广告牌。"
 zhTW = "只是讓你的農場看起來漂亮"
@@ -507,6 +552,7 @@ koKR = "당신의 농장을 아름답게 꾸며주기 위해"
 
 ["Lapantouflemagic.BadorderBoard.DisplayName"]
 raw = "Wrong order"
+status = "normal"
 enUS = "Wrong order"
 zhCN = "“先拆后建 (×)”"
 zhTW = "錯誤的訂單"
@@ -520,6 +566,7 @@ koKR = "잘못된 주문"
 
 ["Lapantouflemagic.GoodorderBoard.DisplayName"]
 raw = "Right order"
+status = "normal"
 enUS = "Right order"
 zhCN = "“先建后拆 (√)”"
 zhTW = "正確秩序"
@@ -533,6 +580,7 @@ koKR = "올바른 순서"
 
 ["Lapantouflemagic.AwfulBoard.DisplayName"]
 raw = "About awful stew"
+status = "normal"
 enUS = "About awful stew"
 zhCN = "“乱炖杀人事件”"
 zhTW = "關於可怕的燉菜"
@@ -546,6 +594,7 @@ koKR = "끔찍한 스튜에 대하여"
 
 ["Lapantouflemagic.Watertight1Board.DisplayName"]
 raw = "Building watertightness"
+status = "normal"
 enUS = "Building watertightness"
 zhCN = "“建筑防水性能”"
 zhTW = "“建造防水性”"
@@ -559,6 +608,7 @@ koKR = "수밀성 건축하기"
 
 ["Lapantouflemagic.PileplatformBoard.DisplayName"]
 raw = "You can do that"
+status = "normal"
 enUS = "You can do that"
 zhCN = "“建筑神奇特性”"
 zhTW = "你可以這麼做"
@@ -572,6 +622,7 @@ koKR = "그것을 할 수 있습니다"
 
 ["Lapantouflemagic.MathBoard1.DisplayName"]
 raw = "How to not starve"
+status = "normal"
 enUS = "How to not starve"
 zhCN = "“如何不被饿死”"
 zhTW = "如何不挨餓"
@@ -585,6 +636,7 @@ koKR = "굶주리지 않는 방법"
 
 ["Lapantouflemagic.MathBoard2.DisplayName"]
 raw = "How to not die of thirst"
+status = "normal"
 enUS = "How to not die of thirst"
 zhCN = "“如何不被渴死”"
 zhTW = "如何不因口渴而死"
@@ -598,6 +650,7 @@ koKR = "갈증으로 죽지 않는 방법"
 
 ["Lapantouflemagic.ShaftBoard.DisplayName"]
 raw = "How to connect power"
+status = "normal"
 enUS = "How to connect power"
 zhCN = "“传动专用接口”"
 zhTW = "如何連接電力"
@@ -611,6 +664,7 @@ koKR = "전력 연결 방법"
 
 ["Lapantouflemagic.FarmUpgradeBoard.DisplayName"]
 raw = "Farm upgrade board"
+status = "normal"
 enUS = "Farm upgrade board"
 zhCN = "“阁楼式升级”"
 zhTW = "農場升級面板"
@@ -624,6 +678,7 @@ koKR = "농장 업그레이드 보드"
 
 ["Lapantouflemagic.WaterpumpUpgradeBoard.DisplayName"]
 raw = "Waterpump upgrade board"
+status = "normal"
 enUS = "Waterpump upgrade board"
 zhCN = "“水泵升级”"
 zhTW = "水泵升級板"
@@ -637,6 +692,7 @@ koKR = "물펌프 업그레이드 보드"
 
 ["Lapantouflemagic.GiantTankBoard.DisplayName"]
 raw = "Giant buried tank board"
+status = "normal"
 enUS = "Giant buried tank board"
 zhCN = "“建造地下储罐”"
 zhTW = "巨型埋藏坦克板"
@@ -650,6 +706,7 @@ koKR = "거대한 매립 탱크 보드"
 
 ["Lapantouflemagic.MediumMineBoard.DisplayName"]
 raw = "Medium mine board"
+status = "normal"
 enUS = "Medium mine board"
 zhCN = "“建造大型矿洞”"
 zhTW = "中型礦板"
@@ -663,6 +720,7 @@ koKR = "중간 광산 보드"
 
 ["Lapantouflemagic.SmallMineBoard.DisplayName"]
 raw = "Small mine board"
+status = "normal"
 enUS = "Small mine board"
 zhCN = "“建造小型矿洞”"
 zhTW = "小礦板"
@@ -676,6 +734,7 @@ koKR = "소규모 광산 판넬"
 
 ["Lapantouflemagic.Billboard1.DisplayName"]
 raw = "Too easy ?"
+status = "normal"
 enUS = "Too easy ?"
 zhCN = "觉得太难？"
 zhTW = "「太簡單了嗎？」"
@@ -689,6 +748,7 @@ koKR = "너무 쉬워?"
 
 ["Lapantouflemagic.Billboard2.DisplayName"]
 raw = "Will be back"
+status = "normal"
 enUS = "Will be back"
 zhCN = "“经典蓝屏”"
 zhTW = "將會回來"
@@ -702,6 +762,7 @@ koKR = "곧 돌아올 것입니다"
 
 ["Lapantouflemagic.Billboard3.DisplayName"]
 raw = "He did"
+status = "normal"
 enUS = "He did"
 zhCN = "“这很海狸”"
 zhTW = "「他做了」"
@@ -715,6 +776,7 @@ koKR = "그가 했다"
 
 ["Lapantouflemagic.Billboard4.DisplayName"]
 raw = "No I'm not"
+status = "normal"
 enUS = "No I'm not"
 zhCN = "“走向机械化”"
 zhTW = "不，我不是"
@@ -728,6 +790,7 @@ koKR = "아니요, 저는 그렇지 않아요"
 
 ["Lapantouflemagic.Billboard5.DisplayName"]
 raw = "Perfect summary"
+status = "normal"
 enUS = "Perfect summary"
 zhCN = "“如果没用，你咬我啊”"
 zhTW = "完美的總結"
@@ -741,6 +804,7 @@ koKR = "완벽한 요약"
 
 ["Lapantouflemagic.Billboard6.DisplayName"]
 raw = "Our lords and saviors"
+status = "normal"
 enUS = "Our lords and saviors"
 zhCN = "“凡我弟子，喵喵喵喵”"
 zhTW = "我們的領主和救世主"
@@ -754,6 +818,7 @@ koKR = "우리의 주님과 구원자들"
 
 ["Lapantouflemagic.Billboard7.DisplayName"]
 raw = "Go ahead, try"
+status = "normal"
 enUS = "Go ahead, try"
 zhCN = "“前有绝景，辐气满满”"
 zhTW = "來吧，試試看"
@@ -767,6 +832,7 @@ koKR = "가세요, 시도해 보세요"
 
 ["Lapantouflemagic.Billboard8.DisplayName"]
 raw = "Fancy"
+status = "normal"
 enUS = "Fancy"
 zhCN = "“私人领地，禁止通行”"
 zhTW = "華麗"
@@ -780,6 +846,7 @@ koKR = "화려한"
 
 ["Lapantouflemagic.Billboard9.DisplayName"]
 raw = "Not in Australia"
+status = "normal"
 enUS = "Not in Australia"
 zhCN = "“看着倒请，误错本文”"
 zhTW = "不在澳洲"
@@ -793,6 +860,7 @@ koKR = "호주에 없음"
 
 ["Lapantouflemagic.Billboard10.DisplayName"]
 raw = "Just in case"
+status = "normal"
 enUS = "Just in case"
 zhCN = "“如何辨认海狸”"
 zhTW = "以備不時之需"
@@ -806,6 +874,7 @@ koKR = "혹시 모르니"
 
 ["Lapantouflemagic.Billboard11.DisplayName"]
 raw = "Kaplowie"
+status = "normal"
 enUS = "Kaplowie"
 zhCN = "“艺术就是爆炸”"
 zhTW = "卡普洛威"
@@ -819,6 +888,7 @@ koKR = "카플로위"
 
 ["Lapantouflemagic.Billboard12.DisplayName"]
 raw = "The greatest human"
+status = "normal"
 enUS = "The greatest human"
 zhCN = "《拿破仑穿越阿尔卑斯山》"
 zhTW = "「最偉大的人類」"
@@ -832,6 +902,7 @@ koKR = "위대한 인간"
 
 ["Lapantouflemagic.Billboard13.DisplayName"]
 raw = "I'm sure that will work"
+status = "normal"
 enUS = "I'm sure that will work"
 zhCN = "“这不海狸”"
 zhTW = "我相信這會有效"
@@ -845,6 +916,7 @@ koKR = "그럴 것이라고 확신해요"
 
 ["Lapantouflemagic.Billboard14.DisplayName"]
 raw = "We all do"
+status = "normal"
 enUS = "We all do"
 zhCN = "“大力出帕瓦”"
 zhTW = "我們大家都這樣做"
@@ -858,6 +930,7 @@ koKR = "우리 모두 그래"
 
 ["Lapantouflemagic.Billboard15.DisplayName"]
 raw = "Modding might help"
+status = "normal"
 enUS = "Modding might help"
 zhCN = "“海狸球计划”"
 zhTW = "模組可能會有所幫助"
@@ -871,6 +944,7 @@ koKR = "모딩이 도움이 될 수 있습니다"
 
 ["Lapantouflemagic.Billboard16.DisplayName"]
 raw = "Billboard N°16"
+status = "normal"
 enUS = "Billboard N°16"
 zhCN = "Billboard N°16"
 zhTW = "廣告牌 N°16"
@@ -884,6 +958,7 @@ koKR = "광고판 N°16"
 
 ["Lapantouflemagic.Billboard17.DisplayName"]
 raw = "Billboard N°17"
+status = "normal"
 enUS = "Billboard N°17"
 zhCN = "Billboard N°17"
 zhTW = "廣告牌 N°17"
@@ -897,6 +972,7 @@ koKR = "광고판 N°17"
 
 ["Lapantouflemagic.Billboard18.DisplayName"]
 raw = "Billboard N°18"
+status = "normal"
 enUS = "Billboard N°18"
 zhCN = "Billboard N°18"
 zhTW = "廣告牌 N°18"
@@ -910,6 +986,7 @@ koKR = "빌보드 N°18"
 
 ["Lapantouflemagic.Billboard19.DisplayName"]
 raw = "Billboard N°19"
+status = "normal"
 enUS = "Billboard N°19"
 zhCN = "Billboard N°19"
 zhTW = "廣告牌第19號"
@@ -923,6 +1000,7 @@ koKR = "광고판 N°19"
 
 ["Lapantouflemagic.CautionModdersBoard.DisplayName"]
 raw = "Caution modders sign by Thorlak"
+status = "normal"
 enUS = "Caution modders sign by Thorlak"
 zhCN = "警示标志模组广告牌"
 zhTW = "Thorlak 的警告模組者標誌"
@@ -936,6 +1014,7 @@ koKR = "Thorlak 제작자 주의 표지판"
 
 ["Lapantouflemagic.ChoochooBoard.DisplayName"]
 raw = "ChooChoo mod by Tobbert"
+status = "normal"
 enUS = "ChooChoo mod by Tobbert"
 zhCN = "火车模组广告牌"
 zhTW = "“由Tobbert製作的ChooChoo模組”"
@@ -949,6 +1028,7 @@ koKR = "토베르트의 추추 모드"
 
 ["Lapantouflemagic.LadderBoard.DisplayName"]
 raw = "Ladder by Tobbert"
+status = "normal"
 enUS = "Ladder by Tobbert"
 zhCN = "直梯模组广告牌"
 zhTW = "托伯特的梯子"
@@ -962,6 +1042,7 @@ koKR = "토버트의 사다리"
 
 ["Lapantouflemagic.MoreplatformsBoard.DisplayName"]
 raw = "More Platforms by Tobbert, sign by Anythin"
+status = "normal"
 enUS = "More Platforms by Tobbert, sign by Anythin"
 zhCN = "平台拓展模组广告牌"
 zhTW = "Tobbert的更多平台，由Anythin簽署"
@@ -975,6 +1056,7 @@ koKR = "토베르트의 더 많은 플랫폼, 애니씽의 서명"
 
 ["Lapantouflemagic.PathextensionBoard.DisplayName"]
 raw = "Path Extention by Knatte_Anka"
+status = "normal"
 enUS = "Path Extention by Knatte_Anka"
 zhCN = "道路拓展模组广告牌"
 zhTW = "Knatte_Anka 的路徑擴展"
@@ -988,6 +1070,7 @@ koKR = "Knatte_Anka의 경로 확장"
 
 ["Lapantouflemagic.VillagesquareBoard.DisplayName"]
 raw = "Village square by Lapantouflemagic (me)"
+status = "normal"
 enUS = "Village square by Lapantouflemagic (me)"
 zhCN = "乡村广场模组广告牌"
 zhTW = "「Lapantouflemagic（我）的村莊廣場」"
@@ -1001,6 +1084,7 @@ koKR = "Lapantouflemagic의 마을 광장 (저)"
 
 ["Lapantouflemagic.VillagesquareBoard.Description"]
 raw = "I haven't worked on this in ages"
+status = "normal"
 enUS = "I haven't worked on this in ages"
 zhCN = "一个宣传推广模组的广告牌……怎么没做完？"
 zhTW = "「我好久沒在這上面工作了。」"
@@ -1014,6 +1098,7 @@ koKR = "오래동안 이 작업을 하지 않았어요"
 
 ["Lapantouflemagic.Waterbeaverboard.DisplayName"]
 raw = "Water beavers Overhaul by Lapantouflemagic (me)"
+status = "normal"
 enUS = "Water beavers Overhaul by Lapantouflemagic (me)"
 zhCN = "白爪模组广告牌"
 zhTW = "水海狸改造由Lapantouflemagic（我）"
@@ -1027,6 +1112,7 @@ koKR = "Lapantouflemagic(내가 만든) 물 비버 개편"
 
 ["Lapantouflemagic.WaterextensionBoard.DisplayName"]
 raw = "Path Extention by Knatte_Anka"
+status = "normal"
 enUS = "Path Extention by Knatte_Anka"
 zhCN = "水利拓展模组广告牌"
 zhTW = "由 Knatte_Anka 開發的路徑延伸"
@@ -1040,6 +1126,7 @@ koKR = "Knatte_Anka의 경로 확장"
 
 ["Lapantouflemagic.CategorybuttonBoard.DisplayName"]
 raw = "Category Button by Tobbert"
+status = "normal"
 enUS = "Category Button by Tobbert"
 zhCN = "分类按钮模组广告牌"
 zhTW = "托伯特的類別按鈕"
@@ -1053,6 +1140,7 @@ koKR = "토베르트의 카테고리 버튼"
 
 ["Lapantouflemagic.CategorybuttonBoard.Description"]
 raw = "I can only imagine your pain if you are reading this without this mod"
+status = "normal"
 enUS = "I can only imagine your pain if you are reading this without this mod"
 zhCN = "如果你没有用这个模组……我敬你是个汉子。"
 zhTW = "如果你在沒有這個模組的情況下閱讀這個，我只能想像你的痛苦。"
@@ -1066,6 +1154,7 @@ koKR = "이 모드를 설치하지 않고 이 글을 읽고 있다면 당신의 
 
 ["Lapantouflemagic.BillboardBoard.DisplayName"]
 raw = "Billboards by Lapantouflemagic (me)"
+status = "normal"
 enUS = "Billboards by Lapantouflemagic (me)"
 zhCN = "广告牌模组广告牌"
 zhTW = "由Lapantouflemagic（我）製作的廣告牌"
@@ -1079,6 +1168,7 @@ koKR = "Lapantouflemagic (저) 의 광고판"
 
 ["Lapantouflemagic.BillboardBoard.Description"]
 raw = "It's a boardception !"
+status = "normal"
 enUS = "It's a boardception !"
 zhCN = "一个宣传广告牌模组的广告牌……怎么复读了？"
 zhTW = "「這是一個板子裡的板子！」"
@@ -1092,6 +1182,7 @@ koKR = "보드ception입니다!"
 
 ["Lapantouflemagic.SteelBoard.DisplayName"]
 raw = "How to get more anvils"
+status = "normal"
 enUS = "How to get more anvils"
 zhCN = "“如何获取铁砧”"
 zhTW = "如何獲得更多鐵砧"
@@ -1105,6 +1196,7 @@ koKR = "더 많은 모루를 얻는 방법"
 
 ["Lapantouflemagic.POWER.Description"]
 raw = "Terrible consequences may ensue"
+status = "normal"
 enUS = "Terrible consequences may ensue"
 zhCN = "但后果可能很严重。"
 zhTW = "可能會產生可怕的後果"
@@ -1118,6 +1210,7 @@ koKR = "끔찍한 결과가 초래될 수 있습니다."
 
 ["Lapantouflemagic.WashingMashine.DisplayName"]
 raw = "Wash those beavers"
+status = "normal"
 enUS = "Wash those beavers"
 zhCN = "“海狸清洗计划”"
 zhTW = "洗刷那些海狸"
@@ -1131,6 +1224,7 @@ koKR = "비버를 씻기세요"
 
 ["Lapantouflemagic.ModularUpgradeBoard.DisplayName"]
 raw = "Modular Upgrades"
+status = "normal"
 enUS = "Modular Upgrades"
 zhCN = "“塔台式升级”"
 zhTW = "模組升級"

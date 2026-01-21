@@ -1,5 +1,8 @@
+name = "Configurable Explosives"
+
 ["LV.CE.MaxDepth"]
 raw = "Max Depth of {0}"
+status = "normal"
 enUS = "Max Depth of {0}"
 zhCN = "{0} 的最大爆炸深度"
 zhTW = "{0} 的最大深度"
@@ -13,6 +16,7 @@ koKR = "{0}의 최대 깊이"
 
 ["LV.CE.NoCostIncrease"]
 raw = "No cost increase (cheater :P)"
+status = "normal"
 enUS = "No cost increase (cheater :P)"
 zhCN = "魔法炸弹（不增加费用）"
 zhTW = "沒有成本增加（騙子 :P）"
@@ -26,6 +30,7 @@ koKR = "비용 증가 없음 (치트 :P)"
 
 ["LV.CE.NoCostIncreaseDesc"]
 raw = "Do not increase the science and construction cost when you increase the Max depth"
+status = "normal"
 enUS = "Do not increase the science and construction cost when you increase the max depth."
 zhCN = "勾选后，增加炸弹的最大深度时，不增加解锁需要的科学点数和施工成本。"
 zhTW = "當你增加最大深度時，不要增加科學和建設成本。"
@@ -39,6 +44,7 @@ koKR = "최대 깊이를 증가시킬 때 과학 및 건설 비용을 증가시�
 
 ["LV.CE.Delay"]
 raw = "Detonation Delay"
+status = "normal"
 enUS = "Detonation Delay"
 zhCN = "爆炸延迟"
 zhTW = "引爆延遲"
@@ -52,6 +58,7 @@ koKR = "폭발 지연"
 
 ["LV.CE.DelayDisplay"]
 raw = "{0}s"
+status = "normal"
 enUS = "{0}s"
 zhCN = "{0} 秒"
 zhTW = "{0}s"
@@ -65,6 +72,7 @@ koKR = "{0}초"
 
 ["LV.CE.Depth"]
 raw = "Detonation Depth"
+status = "normal"
 enUS = "Detonation Depth"
 zhCN = "爆炸深度"
 zhTW = "引爆深度"
@@ -78,6 +86,7 @@ koKR = "폭발 깊이"
 
 ["LV.CE.DepthDisplay"]
 raw = "{0} blocks"
+status = "normal"
 enUS = "{0} blocks"
 zhCN = "{0} 格"
 zhTW = "{0} 塊"
@@ -91,6 +100,7 @@ koKR = "{0} 블록"
 
 ["LV.CE.TriggerRadius"]
 raw = "Trigger radius"
+status = "normal"
 enUS = "Trigger radius"
 zhCN = "触发半径"
 zhTW = "觸發半徑"
@@ -104,6 +114,7 @@ koKR = "트리거 반경"
 
 ["LV.CE.TriggerRadiusDisplay"]
 raw = "{0} blocks"
+status = "normal"
 enUS = "{0} blocks"
 zhCN = "{0} 格"
 zhTW = "{0} 個區塊"
@@ -117,6 +128,7 @@ koKR = "{0} 블록"
 
 ["LV.CE.DetonateIn"]
 raw = "Detonate in {0}/{1}s"
+status = "normal"
 enUS = "Detonate in {0}/{1}s"
 zhCN = "在 {0}/{1} 秒后引爆"
 zhTW = "在 {0}/{1} 秒內引爆"
@@ -130,6 +142,7 @@ koKR = "{0}/{1}초 후 폭파"
 
 ["LV.CE.Copy"]
 raw = "Copy to others"
+status = "normal"
 enUS = "Copy to others"
 zhCN = "复制设置至其他炸弹"
 zhTW = "複製給其他人"
@@ -143,6 +156,7 @@ koKR = "다른 사람에게 복사"
 
 ["LV.CE.MakeTemplate"]
 raw = "Make template"
+status = "normal"
 enUS = "Make template"
 zhCN = "保存设置为炸弹模板"
 zhTW = "製作模板"
@@ -156,6 +170,7 @@ koKR = "템플릿 만들기"
 
 [Name_ConfigurableDynamiteFragment]
 raw = "Configurable Dynamite"
+status = "normal"
 enUS = "Configurable Dynamite"
 zhCN = "自定义炸弹"
 zhTW = "可配置炸藥"

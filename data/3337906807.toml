@@ -1,5 +1,8 @@
+name = "TimberCommons"
+
 ["IgorZ.TimberCommons.WaterTower.Utilization"]
 raw = "Utilized potential: {0:0.#}%"
+status = "normal"
 enUS = "Utilized potential: {0:0.#}%"
 zhCN = "灌溉效率：{0:0.#}%"
 zhTW = "已利用潛力：{0:0.#}%"
@@ -13,6 +16,7 @@ koKR = "활용 가능한 잠재력: {0:0.#}%"
 
 ["IgorZ.TimberCommons.WaterTower.IrrigatedArea"]
 raw = "Covered area: {0}"
+status = "normal"
 enUS = "Covered area: {0}"
 zhCN = "灌溉面积：{0}"
 zhTW = "覆蓋面積：{0}"
@@ -26,6 +30,7 @@ koKR = "범위: {0}"
 
 ["IgorZ.TimberCommons.WaterTower.EffectiveRange"]
 raw = "Effective range: {0}"
+status = "normal"
 enUS = "Effective range: {0}"
 zhCN = "灌溉半径：{0}"
 zhTW = "有效範圍：{0}"
@@ -39,6 +44,7 @@ koKR = "효과 범위: {0}"
 
 ["IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate"]
 raw = "No reachable tiles to irrigate"
+status = "normal"
 enUS = "No reachable tiles to irrigate."
 zhCN = "没有可灌溉的土地"
 zhTW = "沒有可灌溉的可達磚塊"
@@ -52,6 +58,7 @@ koKR = "관개할 수 있는 도달 가능한 타일이 없습니다"
 
 ["IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile"]
 raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+status = "normal"
 enUS = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 zhCN = "生长加速：<color=#59FF61>🡅</color>{0:0.#}%"
 zhTW = "增長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
@@ -65,6 +72,7 @@ koKR = "성장 강화: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 
 ["IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile"]
 raw = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+status = "normal"
 enUS = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 zhCN = "生长减缓：<color=#FF4C4C>🡇</color>{0:0.#}%"
 zhTW = "增長放緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
@@ -78,6 +86,7 @@ koKR = "성장 둔화: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 
 ["IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream"]
 raw = "Close above depth at spillway: {0}"
+status = "normal"
 enUS = "Close above depth at spillway: {0}"
 zhCN = "出水口高于此深度时关闭：{0}"
 zhTW = "在溢洪道上方的深度關閉：{0}"
@@ -91,6 +100,7 @@ koKR = "낙수구 위의 깊이를 닫습니다: {0}"
 
 ["IgorZ.TimberCommons.InjuryProbability"]
 raw = "Injury probability: {0} every hour"
+status = "normal"
 enUS = "Injury probability: {0} every hour"
 zhCN = "受伤概率：{0}/小时"
 zhTW = "受傷概率：每小時{0}"
@@ -104,6 +114,7 @@ koKR = "부상 확률: 매시간 {0}"
 
 ["IgorZ.TimberCommons.InjuryProbabilityDaily"]
 raw = "Injury probability: {0} during the day"
+status = "normal"
 enUS = "Injury probability: {0} during the day"
 zhCN = "受伤概率：{0}/天"
 zhTW = "受傷概率：每天{0}"
@@ -117,6 +128,7 @@ koKR = "부상 확률: {0} 낮 동안"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDurationSection"]
 raw = "Time and duration representation"
+status = "normal"
 enUS = "Time and duration representation"
 zhCN = "数字精度"
 zhTW = "時間和持續時間表示法"
@@ -130,6 +142,7 @@ koKR = "시간 및 기간 표현"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft"]
 raw = "Show 'supply lasts' as days/hours"
+status = "normal"
 enUS = "Show 'supply lasts' as days/hours."
 zhCN = "用天/小时表示供应持续时间"
 zhTW = "顯示「供應持續時間」為天/小時"
@@ -143,6 +156,7 @@ koKR = "소모 기간을 일/시간으로 보여주기"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime"]
 raw = "Show grow time as days/hours"
+status = "normal"
 enUS = "Show grow time as days/hours"
 zhCN = "用天/小时表示生长时间"
 zhTW = "顯示生長時間為天/小時"
@@ -156,6 +170,7 @@ koKR = "성장 시간을 일/시간으로 표시"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration"]
 raw = "Show recipes time as days/hours"
+status = "normal"
 enUS = "Show recipes time as days/hours."
 zhCN = "用天/小时表示配方持续时间"
 zhTW = "將食譜時間顯示為天/小時"
@@ -169,6 +184,7 @@ koKR = "레시피 시간을 일/시간으로 표시"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes"]
 raw = "Show recipe fuel consumption with a higher precision"
+status = "normal"
 enUS = "Show recipe fuel consumption with higher precision."
 zhCN = "提高配方燃料消耗的数字精度"
 zhTW = "顯示食譜燃料消耗的更高精度"
@@ -182,6 +198,7 @@ koKR = "연료 소비량을 더 높은 정확도로 표시"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystemSection"]
 raw = "Irrigation system"
+status = "normal"
 enUS = "Irrigation system"
 zhCN = "灌溉塔"
 zhTW = "灌溉系統"
@@ -195,6 +212,7 @@ koKR = "관개 시스템"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers"]
 raw = "Show irrigated tiles as well moisturized"
+status = "normal"
 enUS = "Show irrigated tiles as well as moisturized."
 zhCN = "将被灌溉塔影响的土地显示成完全湿润的效果"
 zhTW = "顯示灌溉的磁磚以及保持濕潤的磁磚"
@@ -208,6 +226,7 @@ koKR = "관개된 타일을 잘 촉촉하게 표시"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip"]
 raw = "Specifies whether the tiles should look shiny green (well moisturized). Otherwise, the stock logic\nwill show them as 'barely moisturized' since the irrigation towers give only the base moisture level."
+status = "normal"
 enUS = "Specifies whether the tiles should appear shiny green (well moisturized). Otherwise, the default logic will display them as 'barely moisturized' since the irrigation towers provide only the base moisture level."
 zhCN = "完全湿润的效果为绿色草地，半湿润的效果为半干草地。<br>默认情况下，被灌溉塔影响的土地会显示为半湿润的效果。"
 zhTW = "指定瓷磚是否應該看起來閃亮的綠色（滋潤良好）。否則，默認邏輯會顯示它們為“幾乎沒有滋潤”，因為灌溉塔僅提供基本的水分水平。"
@@ -221,6 +240,7 @@ koKR = "타일이 반짝이는 초록색(잘 수분이 공급된 상태)으로 �
 
 ["IgorZ.TimberCommons.Settings.WaterBuildingsSection"]
 raw = "Water buildings"
+status = "normal"
 enUS = "Water buildings"
 zhCN = "水利建筑"
 zhTW = "水上建築"
@@ -234,6 +254,7 @@ koKR = "물 건물"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps"]
 raw = "Allow setting maximum water level at the spillway of the mechanical pumps"
+status = "normal"
 enUS = "Allow setting the maximum water level at the spillway of the mechanical pumps."
 zhCN = "可修改机械水泵出水口最高水位"
 zhTW = "允許在機械泵的溢洪道設置最高水位。"
@@ -247,6 +268,7 @@ koKR = "기계 펌프의 배수구에서 최대 수위 설정 허용"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps"]
 raw = "Allow setting maximum water level at the spillway of the liquid drops"
+status = "normal"
 enUS = "Allow setting the maximum water level at the spillway of the liquid drops."
 zhCN = "可修改液体排放处出水口最高水位"
 zhTW = "允許在液滴溢洪道設置最大水位。"
@@ -260,6 +282,7 @@ koKR = "액체 낙하의 배수구에서 최대 수위 설정 허용"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
 raw = "Show current strength in sluice"
+status = "normal"
 enUS = "Show current strength in sluice."
 zhCN = "显示水闸的水流速度"
 zhTW = "顯示水閘的當前流量強度"
@@ -273,6 +296,7 @@ koKR = "수문에서 현재 강도를 표시"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbabilitySection"]
 raw = "Injury probability"
+status = "normal"
 enUS = "Injury probability"
 zhCN = "受伤概率"
 zhTW = "受傷概率"
@@ -286,6 +310,7 @@ koKR = "부상 확률"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment"]
 raw = "Show injury probability in the right panel"
+status = "normal"
 enUS = "Show injury probability in the right panel."
 zhCN = "在建筑详情面板显示受伤概率"
 zhTW = "在右側面板顯示受傷的機率"
@@ -299,6 +324,7 @@ koKR = "오른쪽 패널에 부상 확률 표시"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint"]
 raw = "Show indicator on the building avatar"
+status = "normal"
 enUS = "Show indicator on the building avatar."
 zhCN = "在建筑图标上显示指示器"
 zhTW = "在建築物的虛擬形象上顯示指標"
@@ -312,6 +338,7 @@ koKR = "건물 아바타에 표시기 표시"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip"]
 raw = "Hover over the indicator to see the injury probability"
+status = "normal"
 enUS = "Hover over the indicator to see the injury probability."
 zhCN = "将鼠标悬停在指示器上可以查看受伤概率"
 zhTW = "將滑鼠懸停在指標上以查看受傷機率"
@@ -325,6 +352,7 @@ koKR = "표시기를 마우스 오버하면 부상 확률을 확인할 수 있�
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAsDailyProbability"]
 raw = "Show daily probabilities"
+status = "normal"
 enUS = "Show daily probabilities"
 zhCN = "显示每天概率"
 zhTW = "顯示每日概率"
@@ -336,8 +364,25 @@ plPL = "Pokaż dzienne prawdopodobieństwa"
 ptBR = "Mostrar probabilidades diárias"
 koKR = "일일 확률 표시"
 
+["="]
+new = "="
+status = "normal"
+
+["TimberDev_Utils.Settings.DebugSection"]
+new = "Debug and troubleshooting"
+status = "normal"
+
+["TimberDev_Utils.Settings.Debug.VerboseLogging"]
+new = "Verbose logging"
+status = "normal"
+
+["TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip"]
+new = "Logs will have more useful details, but it may impact game performance."
+status = "normal"
+
 ["IgorZ.TimberCommons.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
+status = "abandoned"
 enUS = "Debugging and troubleshooting"
 zhCN = "调试与故障排除"
 zhTW = "除錯和故障排除"
@@ -351,6 +396,7 @@ koKR = "디버그 및 문제 해결"
 
 ["IgorZ.TimberCommons.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
+status = "abandoned"
 enUS = "Verbose logging"
 zhCN = "详细日志记录"
 zhTW = "詳細日誌記錄"
@@ -364,6 +410,7 @@ koKR = "상세 로깅"
 
 ["IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
+status = "abandoned"
 enUS = "Logs will have more useful details, but they may impact game performance."
 zhCN = "日志将包含更多有用的细节，但可能影响游戏性能。"
 zhTW = "日誌將包含更多有用的細節，但這可能會影響遊戲性能。"

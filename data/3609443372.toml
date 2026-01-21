@@ -1,5 +1,8 @@
+name = "All Weather Drill"
+
 ["ModSetting.TWAllWeatherDrill.NormalWeatherScale"]
 raw = "Temperate flow rate"
+status = "normal"
 enUS = "Temperate flow rate"
 zhCN = "温和天气水流量"
 zhTW = "温带流量"
@@ -13,6 +16,7 @@ koKR = "온대 유량 비율"
 
 ["ModSetting.TWAllWeatherDrill.NormalWeatherScaleDesc"]
 raw = "Scale applied to water flow during temperate weather. Vanilla value = 1"
+status = "normal"
 enUS = "Scale applied to water flow during temperate weather. Vanilla value = 1"
 zhCN = "温和天气时含水层的水流强度相对于水力的倍率（游戏默认：1）。"
 zhTW = "在温带天气期间应用于水流的缩放。原版值 = 1"
@@ -26,6 +30,7 @@ koKR = "온대 날씨 동안 물의 흐름에 적용되는 비율. 기본값 = 1
 
 ["ModSetting.TWAllWeatherDrill.BadtideWeatherScale"]
 raw = "Badtide flow rate"
+status = "normal"
 enUS = "Badtide flow rate"
 zhCN = "恶水潮水流量"
 zhTW = "「壞潮流量」"
@@ -39,6 +44,7 @@ koKR = "나쁜 조수 유속"
 
 ["ModSetting.TWAllWeatherDrill.BadtideWeatherScaleDesc"]
 raw = "Scale applied to water flow during badtide weather. Vanilla value = 0"
+status = "normal"
 enUS = "Scale applied to water flow during badtide weather. Vanilla value = 0"
 zhCN = "恶水潮时含水层的水流强度相对于水力的倍率（游戏默认：0）。"
 zhTW = "在壞潮天氣期間應用於水流的比例。原版值 = 0"
@@ -52,6 +58,7 @@ koKR = "악조 날씨 동안 수역 흐름에 적용되는 스케일. 기본 값
 
 ["ModSetting.TWAllWeatherDrill.DroughtWeatherScale"]
 raw = "Drought flow rate"
+status = "normal"
 enUS = "Drought flow rate"
 zhCN = "干旱期水流量"
 zhTW = "旱災流速"
@@ -65,6 +72,7 @@ koKR = "가뭄 유량"
 
 ["ModSetting.TWAllWeatherDrill.DroughtWeatherScaleDesc"]
 raw = "Scale applied to water flow during drought weather. Vanilla value = 0"
+status = "normal"
 enUS = "Scale applied to water flow during drought weather. Vanilla value = 0"
 zhCN = "干旱期时含水层的水流强度相对于水力的倍率（游戏默认：0）。"
 zhTW = "在乾旱天氣期間應用於水流的比例。原版值 = 0"
@@ -78,6 +86,7 @@ koKR = "가뭄 날씨 동안 물 흐름에 적용되는 비율. 기본값 = 0"
 
 ["ModSetting.TWAllWeatherDrill.OtherWeatherScale"]
 raw = "Unrecognized weather flow rate"
+status = "normal"
 enUS = "Unrecognized weather flow rate"
 zhCN = "未知天气水流量"
 zhTW = "未識別的天氣流量速率"
@@ -91,6 +100,7 @@ koKR = "인식되지 않는 기상 유량"
 
 ["ModSetting.TWAllWeatherDrill.OtherWeatherScaleDesc"]
 raw = "Scale applied to water flow during hazardous weather that is not a drought or a badtide (This hopefully catches most modded weather). Vanilla value = 0"
+status = "normal"
 enUS = "Scale applied to water flow during hazardous weather that is not a drought or a badtide (This hopefully catches most modded weather). Vanilla value = 0"
 zhCN = "非干旱期或恶水潮的恶劣天气时含水层的水流强度相对于水力的倍率（用于兼容其他模组添加的天气）（游戏默认：0）。"
 zhTW = "在危險天氣下（不包括乾旱或潮汐災害）對水流應用的比例（希望這能涵蓋大多數模組化的天氣）。原版值 = 0"
@@ -104,6 +114,7 @@ koKR = "가뭄이나 나쁜 조수 상태가 아닌 위험한 날씨 동안 물 
 
 ["ModSetting.TWAllWeatherDrill.PowerScale"]
 raw = "Drill power requirement"
+status = "normal"
 enUS = "Drill power requirement"
 zhCN = "钻井能耗需求"
 zhTW = "鑽孔所需的功率"
@@ -117,6 +128,7 @@ koKR = "드릴 전력 요구 사항"
 
 ["ModSetting.TWAllWeatherDrill.PowerScaleDesc"]
 raw = "Scale applied to drill power needs. Vanilla value = 1"
+status = "normal"
 enUS = "Scale applied to drill power needs. Vanilla value = 1"
 zhCN = "可以将含水层钻井的能耗更改为原本的N倍（游戏默认：1）。"
 zhTW = "應用於鑽頭所需功率的比例。原始值 = 1"

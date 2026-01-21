@@ -1,5 +1,8 @@
+name = "Mod Settings"
+
 ["ModSettingsBox.GameNotChangeable"]
 raw = "Can't be changed during the game."
+status = "normal"
 enUS = "Can't be changed during the game."
 zhCN = "游戏过程中无法更改。"
 zhTW = "遊戲中無法更改。"
@@ -13,6 +16,7 @@ koKR = "게임 진행 중에는 변경할 수 없습니다."
 
 ["ModSettingsBox.MainMenuNotChangeable"]
 raw = "Can't be changed in main menu."
+status = "normal"
 enUS = "Can't be changed in the main menu."
 zhCN = "主菜单中无法更改。"
 zhTW = "無法在主選單中更改。"
@@ -26,6 +30,7 @@ koKR = "메인 메뉴에서 변경할 수 없습니다."
 
 ["ModSettingsBox.MapEditorNotChangeable"]
 raw = "Can't be changed in the map editor."
+status = "normal"
 enUS = "Can't be changed in the map editor."
 zhCN = "地图编辑器中无法更改。"
 zhTW = "無法在地圖編輯器中更改。"
@@ -39,6 +44,7 @@ koKR = "맵 편집기에서 변경할 수 없습니다."
 
 ["ModSettingsBox.ResetMessage"]
 raw = "Do you want to reset all settings to default?"
+status = "normal"
 enUS = "Do you want to reset all settings to default?"
 zhCN = "要将所有设置重置为默认值吗？"
 zhTW = "您想将所有设置重置为默认值吗？"
@@ -52,6 +58,7 @@ koKR = "모든 설정을 기본값으로 재설정하시겠습니까?"
 
 ["ModSettingsBox.ResetToDefault"]
 raw = "Reset to default"
+status = "normal"
 enUS = "Reset to default"
 zhCN = "重置为默认值"
 zhTW = "重設為預設值"

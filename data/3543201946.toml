@@ -1,5 +1,8 @@
+name = "Airlock Chamber"
+
 ["LV.AC.AirlockChamber"]
 raw = "Airlock Chamber"
+status = "normal"
 enUS = "Airlock Chamber"
 zhCN = "气密通道"
 zhTW = "氣閘舱"
@@ -13,6 +16,7 @@ koKR = "기밀 챔버"
 
 ["LV.AC.AirlockChamberDesc"]
 raw = "Block water but allow two-way passage."
+status = "normal"
 enUS = "Block water but allow two-way passage."
 zhCN = "允许双向通行，能完全阻断水流。"
 zhTW = "阻擋水流，但允許雙向通行。"
@@ -26,6 +30,7 @@ koKR = "물은 차단하지만 양방향 통행을 허용합니다."
 
 ["LV.AC.AirlockChamberFlavor"]
 raw = "Reverse-engineered from a submerged vault labeled 'Do Not Open When Wet'"
+status = "normal"
 enUS = "Reverse-engineered from a submerged vault labeled 'Do Not Open When Wet'"
 zhCN = "源自一个标有“潮湿时请勿开启”的水下设施。"
 zhTW = "反向工程自一個標示為「潮濕時勿開啟」的淹沒保險庫"
@@ -39,6 +44,7 @@ koKR = "\"젖어있을 때 열지 마십시오\"라는 라벨이 붙은 가라�
 
 ["LV.AC.AirlockChamber4"]
 raw = "6-way Airlock Chamber"
+status = "normal"
 enUS = "6-way Airlock Chamber"
 zhCN = "六向气密通道"
 zhTW = "六通道氣閘室"
@@ -52,6 +58,7 @@ koKR = "6방향 공기 잠금 챔버"
 
 ["LV.AC.AirlockChamber4Desc"]
 raw = "Block water but allow six-way passage."
+status = "normal"
 enUS = "Block water but allow six-way passage."
 zhCN = "允许六向通行，能完全阻断水流。"
 zhTW = "阻擋水流但允許六向通行。"
@@ -65,6 +72,7 @@ koKR = "물은 차단하지만 여섯 방향으로 통행을 허용합니다."
 
 ["LV.AC.AirlockChamber4Flavor"]
 raw = "Schröbeaver principle: path and puddle states collapse only when you peek."
+status = "normal"
 enUS = "Schröbeaver principle: path and puddle states collapse only when you peek."
 zhCN = "薛定谔海狸原理：只有观测时才能确定路径方向。"
 zhTW = "施羅貝瓦原則：路徑和水坑狀態僅在你窺視時崩潰。"

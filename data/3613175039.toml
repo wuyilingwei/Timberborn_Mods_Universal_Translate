@@ -1,0 +1,513 @@
+name = "Moddable Timberborn Achievements"
+
+["LV.MTA.Achievements"]
+new = "Achievements"
+status = "normal"
+
+["LV.MTA.Secret"]
+new = "<color=#D3D3D3><i>This achievement is a mystery.</i></color>"
+status = "normal"
+
+["LV.MTA.UnlockNotifHeader"]
+new = "New Achievement unlocked!"
+status = "normal"
+
+["LV.MTA.GroupTitle"]
+new = "{0} ({1}/{2} unlocked)"
+status = "normal"
+
+["LV.MTA.UnlockedAchTitle"]
+new = "<i><GreenHighlight>{0} - Unlocked!</GreenHighlight></i>"
+status = "normal"
+
+["LV.MTA.SecretAchTitle"]
+new = "{0} [SECRET]"
+status = "normal"
+
+["LV.MTA.ShowAchievementDialogHotkey"]
+new = "Show Achievements Dialog"
+status = "normal"
+
+["LV.MTA.GroupSteam"]
+new = "Steam"
+status = "normal"
+
+["LV.MTA.AchName_PLANT_5000_TREES"]
+new = "Beaver-made Forest"
+status = "normal"
+
+["LV.MTA.AchDesc_PLANT_5000_TREES"]
+new = "Plant 5,000 trees during a single playthrough."
+status = "normal"
+
+["LV.MTA.AchName_PLANT_1000_TREES"]
+new = "Beaver-made Thicket"
+status = "normal"
+
+["LV.MTA.AchDesc_PLANT_1000_TREES"]
+new = "Plant 1,000 trees during a single playthrough."
+status = "normal"
+
+["LV.MTA.AchName_PLANT_10000_TREES"]
+new = "Beaver-made Wilderness"
+status = "normal"
+
+["LV.MTA.AchDesc_PLANT_10000_TREES"]
+new = "Plant 10,000 trees during a single playthrough."
+status = "normal"
+
+["LV.MTA.AchName_BORN_BEAVER_AFTER_BEAVER_EXTINCTION"]
+new = "Castor Posthumus"
+status = "normal"
+
+["LV.MTA.AchDesc_BORN_BEAVER_AFTER_BEAVER_EXTINCTION"]
+new = "As Iron Teeth, have a beaver born after the beaver population drops to 0."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_CAMPFIRE"]
+new = "Crackling with Ideas"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_CAMPFIRE"]
+new = "Build a Campfire."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_BOT"]
+new = "Created in Beaver’s Image"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_BOT"]
+new = "Build a bot."
+status = "normal"
+
+["LV.MTA.AchName_INJURED_JUST_BORN_BEAVER"]
+new = "Desert of the Real"
+status = "normal"
+
+["LV.MTA.AchDesc_INJURED_JUST_BORN_BEAVER"]
+new = "As Iron Teeth, have a beaver be born from an Advanced Breeding Pod and get injured on the same day."
+status = "normal"
+
+["LV.MTA.AchName_WORK_ALL_DAY_FOR_WEEK"]
+new = "Endless Crunch"
+status = "normal"
+
+["LV.MTA.AchDesc_WORK_ALL_DAY_FOR_WEEK"]
+new = "Have a 24-hour work time for 7 days in a row."
+status = "normal"
+
+["LV.MTA.AchName_GENERATE_POWER_WITH_POWER_WHEELS_ONLY"]
+new = "Enough to Power a Car Battery"
+status = "normal"
+
+["LV.MTA.AchDesc_GENERATE_POWER_WITH_POWER_WHEELS_ONLY"]
+new = "Generate 2,000 hp using only power wheels in a single power network."
+status = "normal"
+
+["LV.MTA.AchName_PLUG_ANY_BADWATER_SOURCE"]
+new = "Fixed a Leak"
+status = "normal"
+
+["LV.MTA.AchDesc_PLUG_ANY_BADWATER_SOURCE"]
+new = "Cover a badwater source on the map using one of the dedicated buildings."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_EVERY_STRUCTURE_FOLKTAILS"]
+new = "Folktails Master Builder"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_EVERY_STRUCTURE_FOLKTAILS"]
+new = "Build one of every building and structure available to Folktails."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_STACKED_HYDROPONIC_GARDENS"]
+new = "Hanging Gardens"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_STACKED_HYDROPONIC_GARDENS"]
+new = "As Iron Teeth, build 8 Hydroponic Gardens stacked upon each other."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_MANY_HEDGES"]
+new = "Hedge Fund"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_MANY_HEDGES"]
+new = "As Folktails, build 200 Hedges on one map."
+status = "normal"
+
+["LV.MTA.AchName_EXPLODE_DYNAMITE_IN_SINGLE_DAY"]
+new = "I Am Become Deaf"
+status = "normal"
+
+["LV.MTA.AchDesc_EXPLODE_DYNAMITE_IN_SINGLE_DAY"]
+new = "Explode 200 dynamite in a single day."
+status = "normal"
+
+["LV.MTA.AchName_UNLOCK_IRON_TEETH"]
+new = "Iron Teeth at the Ready"
+status = "normal"
+
+["LV.MTA.AchDesc_UNLOCK_IRON_TEETH"]
+new = "Unlock the Iron Teeth faction."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_EVERY_STRUCTURE_IRONTEETH"]
+new = "Iron Teeth Master Builder"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_EVERY_STRUCTURE_IRONTEETH"]
+new = "Build one of every building and structure available to Iron Teeth."
+status = "normal"
+
+["LV.MTA.AchName_DEMOLISH_AND_REBUILD"]
+new = "It Happens."
+status = "normal"
+
+["LV.MTA.AchDesc_DEMOLISH_AND_REBUILD"]
+new = "Demolish a building and place an identical one in its place right afterwards."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_DAM"]
+new = "It's an Instinct"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_DAM"]
+new = "Build a Dam."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_50_CYCLES"]
+new = "Legendary Pioneer"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_50_CYCLES"]
+new = "Survive 50 cycles on one map."
+status = "normal"
+
+["LV.MTA.AchName_GENERATE_POWER_WITH_WATER_WHEELS_ONLY"]
+new = "Mastered the Flow"
+status = "normal"
+
+["LV.MTA.AchDesc_GENERATE_POWER_WITH_WATER_WHEELS_ONLY"]
+new = "Generate 10,000 hp using only water wheels in a single power network."
+status = "normal"
+
+["LV.MTA.AchName_ACTIVATE_WONDER_FOLKTAILS"]
+new = "Ninety-nine Balloons and Counting"
+status = "normal"
+
+["LV.MTA.AchDesc_ACTIVATE_WONDER_FOLKTAILS"]
+new = "Build and launch the wonder as Folktails."
+status = "normal"
+
+["LV.MTA.AchName_PLUG_ALL_BADWATER_SOURCES"]
+new = "No More Leaks"
+status = "normal"
+
+["LV.MTA.AchDesc_PLUG_ALL_BADWATER_SOURCES"]
+new = "Cap all badwater sources on the map using the dedicated buildings."
+status = "normal"
+
+["LV.MTA.AchName_BADTIDE_STREAK"]
+new = "Not Again!"
+status = "normal"
+
+["LV.MTA.AchDesc_BADTIDE_STREAK"]
+new = "Experience two badtides in a row."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_BADTIDE"]
+new = "Not Bad!"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_BADTIDE"]
+new = "Survive your first badtide."
+status = "normal"
+
+["LV.MTA.AchName_BEAVER_STUNG_BY_BEE"]
+new = "Not the Bees!"
+status = "normal"
+
+["LV.MTA.AchDesc_BEAVER_STUNG_BY_BEE"]
+new = "As Folktails, have a beaver be stung by a bee."
+status = "normal"
+
+["LV.MTA.AchName_REACH_POPULATION_OF_250_BEAVERS"]
+new = "One Big Colony"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_POPULATION_OF_250_BEAVERS"]
+new = "Reach a population of 250 beavers."
+status = "normal"
+
+["LV.MTA.AchName_REACH_POPULATION_OF_100_BEAVERS"]
+new = "One Big Family"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_POPULATION_OF_100_BEAVERS"]
+new = "Reach a population of 100 beavers."
+status = "normal"
+
+["LV.MTA.AchName_REACH_POPULATION_OF_500_BEAVERS"]
+new = "One Big... Horde?"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_POPULATION_OF_500_BEAVERS"]
+new = "Reach a population of 500 beavers."
+status = "normal"
+
+["LV.MTA.AchName_EXPLODE_UNIT_WITH_DYNAMITE"]
+new = "Oops!"
+status = "normal"
+
+["LV.MTA.AchDesc_EXPLODE_UNIT_WITH_DYNAMITE"]
+new = "Explode a unit using dynamite."
+status = "normal"
+
+["LV.MTA.AchName_ACTIVATE_MULTIPLE_WONDERS"]
+new = "Overachiever"
+status = "normal"
+
+["LV.MTA.AchDesc_ACTIVATE_MULTIPLE_WONDERS"]
+new = "Launch three wonders at the same time."
+status = "normal"
+
+["LV.MTA.AchName_PRODUCE_PLANKS_IN_DAY"]
+new = "Plankster"
+status = "normal"
+
+["LV.MTA.AchDesc_PRODUCE_PLANKS_IN_DAY"]
+new = "As Iron Teeth, produce 500 Planks in a single day."
+status = "normal"
+
+["LV.MTA.AchName_BATTERY_CHARGE_STORAGE"]
+new = "Power Around the Clock"
+status = "normal"
+
+["LV.MTA.AchDesc_BATTERY_CHARGE_STORAGE"]
+new = "Store at least 655,321 hph worth of power using Gravity Batteries."
+status = "normal"
+
+["LV.MTA.AchName_BEAVER_DIES_HUNGRY_THIRSTY_INJURED_SICK"]
+new = "Quadfecta of Misery"
+status = "normal"
+
+["LV.MTA.AchDesc_BEAVER_DIES_HUNGRY_THIRSTY_INJURED_SICK"]
+new = "Have a beaver die while being affected by injury, contamination, hunger, and thirst."
+status = "normal"
+
+["LV.MTA.AchName_WORKING_REFINERY_FOR_EACH_RECIPE"]
+new = "Refined Refinement"
+status = "normal"
+
+["LV.MTA.AchDesc_WORKING_REFINERY_FOR_EACH_RECIPE"]
+new = "As Folktails, have working Refineries producing each available recipe."
+status = "normal"
+
+["LV.MTA.AchName_PLACE_DYNAMITE_AT_BOTTOM"]
+new = "Rock Bottom"
+status = "normal"
+
+["LV.MTA.AchDesc_PLACE_DYNAMITE_AT_BOTTOM"]
+new = "Attempt placing dynamite at the bottom of the map."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_WONDER_BEFORE_CYCLE"]
+new = "Rush B-eaver!"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_WONDER_BEFORE_CYCLE"]
+new = "Build a wonder before cycle 15 ends."
+status = "normal"
+
+["LV.MTA.AchName_ZIPLINE_NETWORK_LENGTH"]
+new = "Shaka Bra!"
+status = "normal"
+
+["LV.MTA.AchDesc_ZIPLINE_NETWORK_LENGTH"]
+new = "As Folktails, have a zipline network with a combined length of 1 kilometer."
+status = "normal"
+
+["LV.MTA.AchName_REACH_BUILD_HEIGHT_LIMIT"]
+new = "Sky Is the Limit"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_BUILD_HEIGHT_LIMIT"]
+new = "Build a structure at the highest allowed height."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_DROUGHT"]
+new = "Smell of Water in the Morning"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_DROUGHT"]
+new = "Survive your first drought."
+status = "normal"
+
+["LV.MTA.AchName_REACH_MAX_AVERAGE_WELLBEING_POPULATED"]
+new = "Smile, everybeaver!"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_MAX_AVERAGE_WELLBEING_POPULATED"]
+new = "Have the maximum possible average well-being with a beaver population of at least 100."
+status = "normal"
+
+["LV.MTA.AchName_ACTIVATE_WONDER_IRONTEETH"]
+new = "So Long, and Thanks for the Coffee!"
+status = "normal"
+
+["LV.MTA.AchDesc_ACTIVATE_WONDER_IRONTEETH"]
+new = "Build and launch the wonder as Iron Teeth."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_10_CYCLES"]
+new = "Survival 101"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_10_CYCLES"]
+new = "Survive 10 cycles on one map."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_5_CYCLES"]
+new = "Survivor"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_5_CYCLES"]
+new = "Survive 5 cycles on one map."
+status = "normal"
+
+["LV.MTA.AchName_MAPLE_PASTRY_ONLY"]
+new = "Sweet Teeth"
+status = "normal"
+
+["LV.MTA.AchDesc_MAPLE_PASTRY_ONLY"]
+new = "As Folktails, have 1,000 Maple Pastries and no other food at the end of a day."
+status = "normal"
+
+["LV.MTA.AchName_REACH_4_AVERAGE_WELLBEING"]
+new = "That's... Acceptable"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_4_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 4."
+status = "normal"
+
+["LV.MTA.AchName_REACH_50_AVERAGE_WELLBEING"]
+new = "That's... Amazing"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_50_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 50."
+status = "normal"
+
+["LV.MTA.AchName_REACH_40_AVERAGE_WELLBEING"]
+new = "That's... Awesome"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_40_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 40."
+status = "normal"
+
+["LV.MTA.AchName_REACH_30_AVERAGE_WELLBEING"]
+new = "That's... Good"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_30_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 30."
+status = "normal"
+
+["LV.MTA.AchName_REACH_60_AVERAGE_WELLBEING"]
+new = "That's... Incredible"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_60_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 60."
+status = "normal"
+
+["LV.MTA.AchName_REACH_20_AVERAGE_WELLBEING"]
+new = "That's... Nice"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_20_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 20."
+status = "normal"
+
+["LV.MTA.AchName_REACH_10_AVERAGE_WELLBEING"]
+new = "That's... Okay"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_10_AVERAGE_WELLBEING"]
+new = "Reach average well-being of 10."
+status = "normal"
+
+["LV.MTA.AchName_REACH_MAX_AVERAGE_WELLBEING"]
+new = "That's... Paradise!"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_MAX_AVERAGE_WELLBEING"]
+new = "Reach max average well-being."
+status = "normal"
+
+["LV.MTA.AchName_CONAN"]
+new = "The Barbarian"
+status = "normal"
+
+["LV.MTA.AchDesc_CONAN"]
+new = "As Iron Teeth, have a beaver named Conan work alone on a Large Power Wheel."
+status = "normal"
+
+["LV.MTA.AchName_BUILD_BOT_AFTER_BEAVER_EXTINCTION"]
+new = "Time of the Bots"
+status = "normal"
+
+["LV.MTA.AchDesc_BUILD_BOT_AFTER_BEAVER_EXTINCTION"]
+new = "Make a bot after beavers go extinct."
+status = "normal"
+
+["LV.MTA.AchName_LARGE_TUBEWAY_NETWORK"]
+new = "Tube City"
+status = "normal"
+
+["LV.MTA.AchDesc_LARGE_TUBEWAY_NETWORK"]
+new = "As Iron Teeth, have at least 10 Tubeway Stations and 1,000 Tubeways."
+status = "normal"
+
+["LV.MTA.AchName_REACH_POPULATION_WITHOUT_DWELLINGS"]
+new = "Unnecessary Expenses"
+status = "normal"
+
+["LV.MTA.AchDesc_REACH_POPULATION_WITHOUT_DWELLINGS"]
+new = "As Iron Teeth, reach a beaver population of 200 without building any housing."
+status = "normal"
+
+["LV.MTA.AchName_SURVIVE_20_CYCLES"]
+new = "Wasteland Expert"
+status = "normal"
+
+["LV.MTA.AchDesc_SURVIVE_20_CYCLES"]
+new = "Survive 20 cycles on one map."
+status = "normal"
+
+["LV.MTA.AchName_CURE_CONTAMINATED_BEAVER"]
+new = "We Have the Technology"
+status = "normal"
+
+["LV.MTA.AchDesc_CURE_CONTAMINATED_BEAVER"]
+new = "Cure a contaminated beaver."
+status = "normal"
+
+["LV.MTA.AchName_FLOOD_BUILDING"]
+new = "Wet Floor"
+status = "normal"
+
+["LV.MTA.AchDesc_FLOOD_BUILDING"]
+new = "Flood a building."
+status = "normal"
+
+["LV.MTA.AchName_GENERATE_POWER_WITH_WIND_TURBINES_ONLY"]
+new = "Windy Day"
+status = "normal"
+
+["LV.MTA.AchDesc_GENERATE_POWER_WITH_WIND_TURBINES_ONLY"]
+new = "As Folktails, generate 10,000 hp using only wind turbines in a single power network."
+status = "normal"

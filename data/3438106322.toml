@@ -1,5 +1,8 @@
+name = "Configurable Irrigation"
+
 ["LV.CI.MinimumWaterContamination"]
 raw = "Minimum Water Contamination"
+status = "normal"
 enUS = "Minimum Water Contamination"
 zhCN = "污染程度阈值-灌溉降低"
 zhTW = "最低水污染"
@@ -13,6 +16,7 @@ koKR = "최소 수분 오염"
 
 ["LV.CI.MinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water stops giving full irrigation. Game default: 0.01, meaning if your water is 1% contaminated or below, it will give full irrigation."
+status = "normal"
 enUS = "The minimum water contamination percentage at which water stops providing full irrigation. Default in the game: 0.01, meaning if your water is 1% contaminated or below, it will provide full irrigation."
 zhCN = "可以更改水的灌溉距离开始受影响的污染程度阈值（游戏默认：0.01，即污染程度高于1%时灌溉距离会受污染程度影响）。"
 zhTW = "水的最低污染百分比，當水的污染程度超過此值時，將無法提供完整的灌溉。遊戲預設值：0.01，這意味著如果你的水污染達到1%或以下，則將提供完整的灌溉。"
@@ -26,6 +30,7 @@ koKR = "최소 물 오염 %는 물이 완전한 관개를 제공하는 것을 �
 
 ["LV.CI.MaximumWaterContamination"]
 raw = "Maximum Water Contamination"
+status = "normal"
 enUS = "Maximum Water Contamination"
 zhCN = "污染程度阈值-灌溉失效"
 zhTW = "最大水污染"
@@ -39,6 +44,7 @@ koKR = "최대 수질 오염"
 
 ["LV.CI.MaximumWaterContaminationDesc"]
 raw = "The maximum water contamination % where water stops irrigating. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
+status = "normal"
 enUS = "The maximum percentage of water contamination where irrigation stops. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
 zhCN = "可以更改水的灌溉距离被降低至零的污染程度阈值（游戏默认：0.53，即污染程度高于53%时完全无法灌溉）。"
 zhTW = "最大水污染百分比，超過此值將停止灌溉。遊戲默認值：0.53，意味著如果你的水污染率達到或超過53%，將不會進行灌溉。"
@@ -52,6 +58,7 @@ koKR = "최대 물 오염 %로, 물이 관개를 중단하는 지점입니다. �
 
 ["LV.CI.VerticalSpreadCostMultiplier"]
 raw = "Vertical Spread Cost"
+status = "normal"
 enUS = "Vertical Spread Cost"
 zhCN = "灌溉垂直传播倍数"
 zhTW = "垂直差價成本"
@@ -65,6 +72,7 @@ koKR = "수직 확산 비용"
 
 ["LV.CI.VerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water up."
+status = "normal"
 enUS = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water upward."
 zhCN = "可以更改灌溉向上传播的代价倍数（游戏默认：6，即灌溉距离向上传播1格等于水平传播6格）。<br>注意，向下传播不受此倍数影响。"
 zhTW = "向上擴散的成本倍數。遊戲預設：6，這意味著向上擴散水的成本通常是原來的6倍。"
@@ -78,6 +86,7 @@ koKR = "위쪽 확산을 위한 비용 배수기. 게임 기본값: 6, 즉 물�
 
 ["LV.CI.MaxSpread"]
 raw = "Max Spread"
+status = "normal"
 enUS = "Max Spread"
 zhCN = "灌溉最大传播距离"
 zhTW = "最大差價"
@@ -91,6 +100,7 @@ koKR = "최대 확산"
 
 ["LV.CI.MaxSpreadDesc"]
 raw = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 blocks will irrigate up to 16 blocks away."
+status = "normal"
 enUS = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 area will irrigate up to 16 blocks away."
 zhCN = "可以更改水的最大灌溉距离（游戏默认：16，即3x3面积的水的水平灌溉距离最远为16格）。"
 zhTW = "最大擴散距離（以方塊為單位）。遊戲預設值：16，這意味著一個飽和的3x3區域可以灌溉最遠16個方塊。"
@@ -104,6 +114,7 @@ koKR = "최대 확산 거리(블록 단위). 게임 기본값: 16, 즉 포화된
 
 ["LV.CI.ContaMinimumWaterContamination"]
 raw = "Minimum Water for Soil Contamination"
+status = "normal"
 enUS = "Minimum Water for Soil Contamination"
 zhCN = "污染程度阈值-污染生效"
 zhTW = "最小水量以促進土壤污染"
@@ -117,6 +128,7 @@ koKR = "토양 오염을 위한 최소 물량"
 
 ["LV.CI.ContaMinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water starts contaminate soil. Game default: 0.5, meaning if your water is 50% contaminated or above, it will start contaminating soil."
+status = "normal"
 enUS = "The minimum water contamination percentage at which water begins to contaminate soil is 0.5%, meaning if your water is 50% contaminated or above, it will start contaminating the soil."
 zhCN = "可以更改水的污染距离开始生效的污染程度阈值（游戏默认：0.5，即污染程度高于50%时开始污染土地）。"
 zhTW = "水開始污染土壤的最低污染百分比。遊戲默認值：0.5，這意味著如果你的水污染達到50%或以上，它將開始污染土壤。"
@@ -130,6 +142,7 @@ koKR = "물 오염이 토양을 오염시키기 시작하는 최소 물 오염 %
 
 ["LV.CI.ContaMaxSpread"]
 raw = "Contamination Max Spread"
+status = "normal"
 enUS = "Max Spread Contamination"
 zhCN = "污染最大传播距离"
 zhTW = "汙染最大擴散"
@@ -143,6 +156,7 @@ koKR = "오염 최대 확산"
 
 ["LV.CI.ContaMaxSpreadDesc"]
 raw = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will contaminate blocks up to 7 blocks away."
+status = "normal"
 enUS = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will contaminate blocks up to 7 blocks away."
 zhCN = "可以更改水的最大污染距离（游戏默认：7，即任意面积的水的水平污染距离最远为7格）。"
 zhTW = "污染水的最大擴散距離（以方塊計算）。遊戲預設值：7，這意味著污染將會擴散到最多7個方塊的距離。"
@@ -156,6 +170,7 @@ koKR = "오염된 물의 최대 전파 거리(블록 단위). 게임 기본값: 
 
 ["LV.CI.ContaVerticalSpreadCostMultiplier"]
 raw = "Contamination Vertical Spread Cost"
+status = "normal"
 enUS = "Contamination Vertical Spread Cost"
 zhCN = "污染垂直传播倍数"
 zhTW = "污染垂直擴散成本"
@@ -169,6 +184,7 @@ koKR = "오염 수직 확산 비용"
 
 ["LV.CI.ContaVerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination up."
+status = "normal"
 enUS = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination upward."
 zhCN = "可以更改污染向上传播的代价倍数。（游戏默认：5，即污染向上传播1格等于水平传播5格）。<br>注意，向下传播不受此倍数影响。"
 zhTW = "污染向上擴散的成本倍率。遊戲預設值：5，這意味著向上擴散污染的成本通常是正常的5倍。"

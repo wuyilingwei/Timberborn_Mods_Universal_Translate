@@ -1,5 +1,8 @@
+name = "Configurable Housing"
+
 ["LV.CH.MaxBeaverMul"]
 raw = "Max Beavers Multiplier"
+status = "normal"
 enUS = "Max Beavers Multiplier"
 zhCN = "居民倍数"
 zhTW = "最大海狸乘數"
@@ -13,6 +16,7 @@ koKR = "최대 비버 배율"
 
 ["LV.CH.MaxBeaverMulDesc"]
 raw = "Multiply the max beavers a house can have by this value, rounded down but minimum is 1. Game default: 1."
+status = "normal"
 enUS = "Multiply the maximum number of beavers a house can hold by this value, rounding down, but the minimum is 1. Default in the game: 1."
 zhCN = "可以将住房可容纳的居民数更改为原来的N倍，向下取整（游戏默认：1）。"
 zhTW = "將房子可以擁有的最大海狸數乘以此數值，結果向下取整，但最小為1。遊戲默認：1。"
@@ -26,6 +30,7 @@ koKR = "최대 비버 수를 이 값만큼 곱하십시오. 소수점 아래는 
 
 ["LV.CH.SleepMult"]
 raw = "Sleep Satisfaction Multiplier"
+status = "normal"
 enUS = "Sleep Satisfaction Multiplier"
 zhCN = "睡眠康乐度倍数"
 zhTW = "睡眠滿意度倍增器"
@@ -39,6 +44,7 @@ koKR = "수면 만족도 배수기"
 
 ["LV.CH.SleepMultDesc"]
 raw = "Multiply the Sleep need satisfaction by this value. Game default: 1 so at +0.2 per hour (Beaver can have -0.2 to 0.8 Sleep, -0.6 per day)"
+status = "normal"
 enUS = "Multiply the satisfaction of sleep needs by this value. Default in the game: 1, so at +0.2 per hour (Beaver can have -0.2 to 0.8 sleep, -0.6 per day)."
 zhCN = "可以将住房提供的睡眠康乐度更改为原来的N倍（游戏默认：1，即每小时+0.2；海狸的睡眠康乐度范围为-0.2~0.8，每天-0.6）。"
 zhTW = "將睡眠需求滿足度乘以此數值。遊戲默認值：1，因此每小時增加0.2（海狸的睡眠可以在-0.2到0.8之間，減少0.6每天）。"
@@ -52,6 +58,7 @@ koKR = "슬픔 필요 만족도를 이 값으로 곱하십시오. 게임 기본�
 
 ["LV.CH.ShelterMult"]
 raw = "Shelter Satisfaction Multiplier"
+status = "normal"
 enUS = "Shelter Satisfaction Multiplier"
 zhCN = "住所康乐度倍数"
 zhTW = "庇護所滿意度乘數"
@@ -65,6 +72,7 @@ koKR = "대피소 만족도 곱셈기"
 
 ["LV.CH.ShelterMultDesc"]
 raw = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
+status = "normal"
 enUS = "Multiply the satisfaction of shelter needs by this value. Game default: 1, so at +0.3 per hour (a Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)."
 zhCN = "可以将住房提供的住所康乐度更改为原来的N倍（游戏默认：1，即每小时+0.3；海狸的住所康乐度范围为-0.2~0.8，每天-0.3）。"
 zhTW = "將庇護所需求滿足度乘以此值。遊戲預設值：1，所以每小時增加0.3（海狸可以有-0.2到0.8的庇護所，每天減少0.3）"
@@ -78,6 +86,7 @@ koKR = "이 값을 곱하여 대피소 필요 충족도를 증가시킵니다. �
 
 ["LV.CH.MoveEntranceFloor"]
 raw = "Move Entrances to Floor"
+status = "normal"
 enUS = "Move Entrances to Floor"
 zhCN = "住房入口移至一层"
 zhTW = "將入口移至樓層"
@@ -91,6 +100,7 @@ koKR = "바닥으로 입구 이동"
 
 ["LV.CH.MoveEntranceFloorDesc"]
 raw = "Move all the entrances to the first floor (like Double Lodges). Also work for houses added by mods. No graphical change. Game default: no"
+status = "normal"
 enUS = "Move all entrances to the first floor (like Double Lodges). Also apply this to houses added by mods. No graphical change. Game default: no."
 zhCN = "勾选后，将所有住房的入口移至一层（如双重木屋），但外表没有变化，也适用于模组添加的住房（游戏默认：否）。"
 zhTW = "將所有入口移至一樓（如雙重小屋）。也適用於模組添加的房屋。無圖形變化。遊戲默認：否"
@@ -104,6 +114,7 @@ koKR = "모든 입구를 1층으로 이동합니다(더블 로지와 같은). �
 
 ["LV.CH.AddOtherFaction"]
 raw = "Add other faction's Housings"
+status = "normal"
 enUS = "Add housing from other factions."
 zhCN = "启用其他种族住房"
 zhTW = "添加其他派系的住房"
@@ -117,6 +128,7 @@ koKR = "다른 진영의 주거지 추가"
 
 ["LV.CH.AddOtherFactionDesc"]
 raw = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
+status = "normal"
 enUS = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
 zhCN = "勾选后，神尾可以建造铁牙的住房，反之亦然，但不适用于模组添加的住房（游戏默认：否）。"
 zhTW = "民間傳說可以建造鐵牙的房屋，反之亦然。不要為由模組添加的房屋工作。遊戲默認：否"
@@ -130,6 +142,7 @@ koKR = "포크테일은 아이언 이빨의 집을 지을 수 있으며 그 반�
 
 ["LV.CH.AddProcreation"]
 raw = "  Add Procreation to all Housings"
+status = "normal"
 enUS = "Add Procreation to all Housing."
 zhCN = "  启用住房繁殖功能"
 zhTW = "將繁殖功能添加到所有住房中"
@@ -143,6 +156,7 @@ koKR = "모든 주택에 번식을 추가합니다"
 
 ["LV.CH.AddProcreationDesc"]
 raw = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings"
+status = "normal"
 enUS = "Add procreation to all housings, so Folktails can procreate in Iron Teeth's housings."
 zhCN = "勾选后，在所有住房中启用繁殖功能，以允许神尾在铁牙住房中自然繁殖。"
 zhTW = "將繁殖添加到所有住房中，以便Folktails可以在Iron Teeth的住房中繁殖。"
@@ -156,6 +170,7 @@ koKR = "모든 주택에 번식을 추가하여 Folktails가 Iron Teeth의 주�
 
 ["LV.CH.RemoveProcreation"]
 raw = "  Remove Procreation from all Housings"
+status = "normal"
 enUS = "Remove Procreation from all Housing"
 zhCN = "  禁止住房繁殖功能"
 zhTW = "移除所有房屋中的繁殖功能"
@@ -169,6 +184,7 @@ koKR = "모든 주택에서 번식 제거"
 
 ["LV.CH.RemoveProcreationDesc"]
 raw = "Remove Procreation from all Housings, so Iron Teeth can not procreate in Folktails' Housings"
+status = "normal"
 enUS = "Remove procreation from all housings, so Iron Teeth cannot procreate in Folktails' housings."
 zhCN = "勾选后，在所有住房中禁用繁殖功能，以防止铁牙在神尾住房中自然繁殖。"
 zhTW = "將所有住宅中的繁衍行為移除，這樣鐵齒就無法在民間故事的住宅中繁殖。"
@@ -182,6 +198,7 @@ koKR = "모든 주택에서 번식을 제거하여 아이언 티스가 포크테
 
 ["LV.CH.MaxBeaverAdd"]
 raw = "Max Beavers Addition"
+status = "normal"
 enUS = "Max Beavers Addition"
 zhCN = "居民加数"
 zhTW = "麥克斯·比弗斯加法"
@@ -195,6 +212,7 @@ koKR = "최대 비버 추가"
 
 ["LV.CH.MaxBeaverAddDesc"]
 raw = "Add this value to the max beavers a house can have AFTER multiplying.\nCan be negative. The final minimum value is still 1."
+status = "normal"
 enUS = "Add this value to the max beavers a house can have AFTER multiplying.\nCan be negative. The final minimum value is still 1."
 zhCN = "可以在应用“居民倍数”后额外增加或减少居民数，最终值不会小于1。"
 zhTW = "在乘法運算後，將此數值添加到一個房子最多可以擁有的海狸數量。這個數值可以是負數。最終的最小值仍然是 1。"

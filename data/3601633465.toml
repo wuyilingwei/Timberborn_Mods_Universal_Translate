@@ -1,5 +1,8 @@
+name = "Market"
+
 ["ModSetting.TWMarket.ShowStatusIcons"]
 raw = "Show status icons"
+status = "normal"
 enUS = "Show status icons"
 zhCN = "显示状态图标"
 zhTW = "顯示狀態圖示"
@@ -13,6 +16,7 @@ koKR = "상태 아이콘 표시"
 
 ["ModSetting.TWMarket.ShowStatusIconsDesc"]
 raw = "Markets will show a status icon if their buy/sell conditions are unmet"
+status = "normal"
 enUS = "Markets will show a status icon if their buy/sell conditions are unmet"
 zhCN = "勾选后，如果设置的买卖条件未满足，将在市场上方显示状态图标。"
 zhTW = "市場將顯示狀態圖標，如果其買入/賣出條件未滿足。"
@@ -26,6 +30,7 @@ koKR = "시장에서는 구매/판매 조건이 충족되지 않을 경우 상�
 
 ["UI.TW.Market.BuyWhen"]
 raw = "Buy when"
+status = "normal"
 enUS = "Buy when"
 zhCN = "购买时机"
 zhTW = "購買時"
@@ -39,6 +44,7 @@ koKR = "구매 시"
 
 ["UI.TW.Market.SellWhen"]
 raw = "Sell when"
+status = "normal"
 enUS = "Sell when"
 zhCN = "出售时机"
 zhTW = "出售時"
@@ -52,6 +58,7 @@ koKR = "판매 시"
 
 ["UI.TW.Market.BuyControl.Always"]
 raw = "Always"
+status = "normal"
 enUS = "Always"
 zhCN = "持续购买"
 zhTW = "始終"
@@ -65,6 +72,7 @@ koKR = "항상"
 
 ["UI.TW.Market.SellControl.Always"]
 raw = "Always"
+status = "normal"
 enUS = "Always"
 zhCN = "持续出售"
 zhTW = "始終"
@@ -78,6 +86,7 @@ koKR = "항상"
 
 ["UI.TW.Market.BuyControl.LessThanHalf"]
 raw = "Less than half"
+status = "normal"
 enUS = "Less than half"
 zhCN = "低于半数库存量时"
 zhTW = "少於一半"
@@ -91,6 +100,7 @@ koKR = "반 이하"
 
 ["UI.TW.Market.SellControl.MoreThanHalf"]
 raw = "More than half"
+status = "normal"
 enUS = "More than half"
 zhCN = "高于半数库存量时"
 zhTW = "超過一半"
@@ -104,6 +114,7 @@ koKR = "절반 이상"
 
 ["UI.TW.Market.BuyControl.LessThanValue"]
 raw = "Less than setpoint"
+status = "normal"
 enUS = "Less than setpoint"
 zhCN = "低于设定值时"
 zhTW = "低於設定值"
@@ -117,6 +128,7 @@ koKR = "설정값 미만"
 
 ["UI.TW.Market.SellControl.MoreThanValue"]
 raw = "More than setpoint"
+status = "normal"
 enUS = "More than setpoint"
 zhCN = "高于设定值时"
 zhTW = "超過設置值"
@@ -130,6 +142,7 @@ koKR = "설정값 초과"
 
 ["UI.TW.Market.BuySlider"]
 raw = "Setpoint:"
+status = "normal"
 enUS = "Setpoint:"
 zhCN = "设定值："
 zhTW = "設置點："
@@ -143,6 +156,7 @@ koKR = "설정점:"
 
 ["UI.TW.Market.SellSlider"]
 raw = "Setpoint:"
+status = "normal"
 enUS = "Setpoint:"
 zhCN = "设定值："
 zhTW = "設定點："
@@ -156,6 +170,7 @@ koKR = "설정 지점:"
 
 ["UI.TW.Market.ControlBlocked"]
 raw = "Buy / Sell condition unmet"
+status = "normal"
 enUS = "Buy / Sell condition unmet"
 zhCN = "买卖条件未满足"
 zhTW = "購買/出售條件不符合"
@@ -169,6 +184,7 @@ koKR = "구매/판매 조건이 충족되지 않음"
 
 ["Good.TWShiny.DisplayName"]
 raw = "Shiny"
+status = "normal"
 enUS = "Shiny"
 zhCN = "闪亮币"
 zhTW = "閃亮"
@@ -182,6 +198,7 @@ koKR = "반짝임"
 
 ["Good.TWShiny.PluralDisplayName"]
 raw = "Shinies"
+status = "normal"
 enUS = "Shinies"
 zhCN = "闪亮币"
 zhTW = "「閃亮物」"
@@ -195,6 +212,7 @@ koKR = "빛나는 것들"
 
 ["Good.TWAlmondBark.DisplayName"]
 raw = "Almond Bark"
+status = "normal"
 enUS = "Almond Bark"
 zhCN = "能量块"
 zhTW = "杏仁皮"
@@ -208,6 +226,7 @@ koKR = "아몬드 껍질"
 
 ["Good.TWAlmondBark.PluralDisplayName"]
 raw = "Almond Bark"
+status = "normal"
 enUS = "Almond Bark"
 zhCN = "能量块"
 zhTW = "杏仁樹皮"
@@ -221,6 +240,7 @@ koKR = "아몬드 껍질"
 
 ["Building.TWMarketBuy.DisplayName"]
 raw = "Import Market"
+status = "normal"
 enUS = "Import Market"
 zhCN = "进口市场"
 zhTW = "「進口市場」"
@@ -234,6 +254,7 @@ koKR = "수입 시장"
 
 ["Building.TWMarketBuy.Description"]
 raw = "Buy from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
+status = "normal"
 enUS = "Buy from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
 zhCN = "向旅行猫商购买商品。猫族很狡猾，他们的商队只会在不注意的时候出现。"
 zhTW = "「向貓商人購買物品。貓咪們狡猾；他們的商隊只有在玩家不注意時才會到達。」"
@@ -247,6 +268,7 @@ koKR = "고양이 상인에게서 구매합니다. 고양이는 교활하므로 
 
 ["Building.TWMarketBuy.FlavorDescription"]
 raw = "“Never let them see how many shinies you have.”"
+status = "normal"
 enUS = "“Never let them see how many shinies you have.”"
 zhCN = "“永远别让他们知道你有多少个闪亮币。”"
 zhTW = "「永遠不要讓他們看到你有多少閃亮的東西。」"
@@ -260,6 +282,7 @@ koKR = "“결코 그들에게 네가 얼마나 많은 반짝이를 가지고 �
 
 ["Building.TWMarketSell.DisplayName"]
 raw = "Export Market"
+status = "normal"
 enUS = "Export Market"
 zhCN = "出口市场"
 zhTW = "出口市場"
@@ -273,6 +296,7 @@ koKR = "수출 시장"
 
 ["Building.TWMarketSell.Description"]
 raw = "Sell to cat merchants. Cats are sneaky; they only leave when the player isn’t looking."
+status = "normal"
 enUS = "Sell to cat merchants. Cats are sneaky; they only leave when the player isn’t looking."
 zhCN = "向旅行猫商出售商品。猫族很狡猾，他们的商队只会在不注意的时候离开。"
 zhTW = "出售給貓商人。貓咪非常狡猾；當玩家不注意時它們才會離開。"
@@ -286,6 +310,7 @@ koKR = "고양이 상인에게 판매하십시오. 고양이는 교활하므로 
 
 ["Building.TWMarketSell.FlavorDescription"]
 raw = "“The things we do for a few shinies...”"
+status = "normal"
 enUS = "“The things we do for a few shinies...”"
 zhCN = "“为了几个闪亮币，我们可真拼……”"
 zhTW = "「我們為了幾個閃亮的東西而做的事…」"
@@ -299,6 +324,7 @@ koKR = "“몇 개의 반짝이를 위해 우리가 하는 일들…”"
 
 ["Building.TWMarketBuyFood.DisplayName"]
 raw = "Food Import Market"
+status = "normal"
 enUS = "Food Import Market"
 zhCN = "食品进口市场"
 zhTW = "食品進口市場"
@@ -312,6 +338,7 @@ koKR = "식품 수입 시장"
 
 ["Building.TWMarketBuyFood.Description"]
 raw = "Buy food from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
+status = "normal"
 enUS = "Buy food from cat merchants. Cats are sneaky; their caravans only arrive when the player isn’t looking."
 zhCN = "向旅行猫商购买食品。猫族很狡猾；他们的商队只会在不注意的时候出现。"
 zhTW = "從貓商人那裡購買食物。貓咪是狡猾的；他們的商隊只有在玩家不注意時才會抵達。"
@@ -325,6 +352,7 @@ koKR = "고양이 상인에게서 음식을 구매하세요. 고양이는 교활
 
 ["Building.TWMarketBuyFood.FlavorDescription"]
 raw = "“Tastes better than gold, but not as pretty.”"
+status = "normal"
 enUS = "“Tastes better than gold, but not as pretty.”"
 zhCN = "“比黄金美味，但没黄金闪亮。”"
 zhTW = "“比黃金好吃，但不如黃金漂亮。”"
@@ -338,6 +366,7 @@ koKR = "“금보다 맛이 더 좋지만, 그만큼 예쁘지 않다.”"
 
 ["Recipe.TWBuyWater"]
 raw = "Buy Water"
+status = "normal"
 enUS = "Buy Water"
 zhCN = "购买水"
 zhTW = "購買水"
@@ -351,6 +380,7 @@ koKR = "물 구매"
 
 ["Recipe.TWBuyLog"]
 raw = "Buy Logs"
+status = "normal"
 enUS = "Buy Logs"
 zhCN = "购买原木"
 zhTW = "購買木材"
@@ -364,6 +394,7 @@ koKR = "통나무 구매"
 
 ["Recipe.TWBuyPineResin"]
 raw = "Buy Pine Resin"
+status = "normal"
 enUS = "Buy Pine Resin"
 zhCN = "购买松脂"
 zhTW = "購買松樹樹脂"
@@ -377,6 +408,7 @@ koKR = "소나무 수지 구매"
 
 ["Recipe.TWBuyExplosives"]
 raw = "Buy Explosives"
+status = "normal"
 enUS = "Buy Explosives"
 zhCN = "购买炸药"
 zhTW = "購買爆炸物"
@@ -390,6 +422,7 @@ koKR = "폭발물 구매"
 
 ["Recipe.TWBuyCarrot"]
 raw = "Buy Carrots"
+status = "normal"
 enUS = "Buy Carrots"
 zhCN = "购买胡萝卜"
 zhTW = "購買胡蘿蔔"
@@ -403,6 +436,7 @@ koKR = "당근 구매"
 
 ["Recipe.TWBuyBerries"]
 raw = "Buy Berries"
+status = "normal"
 enUS = "Buy Berries"
 zhCN = "购买浆果"
 zhTW = "購買莓果"
@@ -416,6 +450,7 @@ koKR = "베리 구매하기"
 
 ["Recipe.TWSellBerries"]
 raw = "Sell Berries"
+status = "normal"
 enUS = "Sell Berries"
 zhCN = "出售浆果"
 zhTW = "出售莓果"
@@ -429,6 +464,7 @@ koKR = "베리 판매"
 
 ["Recipe.TWBuyCorn"]
 raw = "Buy Corn"
+status = "normal"
 enUS = "Buy Corn"
 zhCN = "购买玉米"
 zhTW = "購買玉米"
@@ -442,6 +478,7 @@ koKR = "옥수수 구매"
 
 ["Recipe.TWSellCornRation"]
 raw = "Sell Corn Rations"
+status = "normal"
 enUS = "Sell Corn Rations"
 zhCN = "出售玉米口粮"
 zhTW = "出售玉米配給"
@@ -455,6 +492,7 @@ koKR = "옥수수 배급 판매"
 
 ["Recipe.TWBuyWheatFlour"]
 raw = "Buy Wheat Flour"
+status = "normal"
 enUS = "Buy Wheat Flour"
 zhCN = "购买小麦面粉"
 zhTW = "購買小麥粉"
@@ -468,6 +506,7 @@ koKR = "밀가루 구매"
 
 ["Recipe.TWBuyAntidote"]
 raw = "Buy Antidote"
+status = "normal"
 enUS = "Buy Antidote"
 zhCN = "购买解毒剂"
 zhTW = "購買解毒劑"
@@ -481,6 +520,7 @@ koKR = "항체 구매"
 
 ["Recipe.TWBuyAlmondBark"]
 raw = "Buy Almond Bark"
+status = "normal"
 enUS = "Buy Almond Bark"
 zhCN = "购买能量块"
 zhTW = "購買杏仁巧克力"
@@ -494,6 +534,7 @@ koKR = "아몬드 껍질 구매"
 
 ["Recipe.TWBuyCoffeeBean"]
 raw = "Buy Coffee Beans"
+status = "normal"
 enUS = "Buy Coffee Beans"
 zhCN = "购买咖啡豆"
 zhTW = "購買咖啡豆"
@@ -507,6 +548,7 @@ koKR = "커피 콩 구매하기"
 
 ["Recipe.TWBuyKohlrabi"]
 raw = "Buy Kohlrabies"
+status = "normal"
 enUS = "Buy Kohlrabies"
 zhCN = "购买大头菜"
 zhTW = "購買球莖甘藍"
@@ -520,6 +562,7 @@ koKR = "콜라비 구매하기"
 
 ["Recipe.TWBuyScrapMetal"]
 raw = "Buy Scrap Metal"
+status = "normal"
 enUS = "Buy Scrap Metal"
 zhCN = "购买金属废料"
 zhTW = "購買廢金屬"
@@ -533,6 +576,7 @@ koKR = "고철 구매"
 
 ["Recipe.TWSellAntidote"]
 raw = "Sell Antidote"
+status = "normal"
 enUS = "Sell Antidote"
 zhCN = "出售解毒剂"
 zhTW = "出售解藥"
@@ -546,6 +590,7 @@ koKR = "해독제 판매"
 
 ["Recipe.TWSellExplosives"]
 raw = "Sell Explosives"
+status = "normal"
 enUS = "Sell Explosives"
 zhCN = "出售炸药"
 zhTW = "出售爆炸物"
@@ -559,6 +604,7 @@ koKR = "폭발물 판매"
 
 ["Recipe.TWSellExtract"]
 raw = "Sell Extract"
+status = "normal"
 enUS = "Sell Extract"
 zhCN = "出售提取"
 zhTW = "出售提取物"
@@ -572,6 +618,7 @@ koKR = "추출물 판매"
 
 ["Recipe.TWSellMetalBlock"]
 raw = "Sell Metal Blocks"
+status = "normal"
 enUS = "Sell Metal Blocks"
 zhCN = "出售金属块"
 zhTW = "出售金屬方塊"
@@ -585,6 +632,7 @@ koKR = "금속 블록 판매"
 
 ["Recipe.TWSellTreatedPlank"]
 raw = "Sell Treated Planks"
+status = "normal"
 enUS = "Sell Treated Planks"
 zhCN = "出售树脂木板"
 zhTW = "出售處理過的木板"
@@ -598,6 +646,7 @@ koKR = "처리된 판자를 판매"
 
 ["Recipe.TWSellWheatFlour"]
 raw = "Sell Wheat Flour"
+status = "normal"
 enUS = "Sell Wheat Flour"
 zhCN = "出售小麦面粉"
 zhTW = "出售小麥粉"
@@ -611,6 +660,7 @@ koKR = "밀가루 판매"
 
 ["Recipe.TWSellCoffeeBean"]
 raw = "Sell Coffee Beans"
+status = "normal"
 enUS = "Sell Coffee Beans"
 zhCN = "出售咖啡豆"
 zhTW = "販售咖啡豆"
@@ -624,6 +674,7 @@ koKR = "커피 원두 판매"
 
 ["Recipe.TWBuyCattailRoot"]
 raw = "Buy Cattail Roots"
+status = "normal"
 enUS = "Buy Cattail Roots"
 zhCN = "购买青荷根"
 zhTW = "購買茭白根"
@@ -637,6 +688,7 @@ koKR = "엉겅퀴 뿌리 구매"
 
 ["Recipe.TWBuyCanolaSeeds"]
 raw = "Buy Canola Seeds"
+status = "normal"
 enUS = "Buy Canola Seeds"
 zhCN = "购买油菜籽"
 zhTW = "購買油菜種子"
@@ -650,6 +702,7 @@ koKR = "유채씨앗 구매"
 
 ["Recipe.TWBuyCassava"]
 raw = "Buy Cassava"
+status = "normal"
 enUS = "Buy Cassava"
 zhCN = "购买木薯"
 zhTW = "購買木薯"
@@ -663,6 +716,7 @@ koKR = "카사바 구매"
 
 ["Recipe.TWBuyChestnut"]
 raw = "Buy Chestnuts"
+status = "normal"
 enUS = "Buy Chestnuts"
 zhCN = "购买栗子"
 zhTW = "購買栗子"
@@ -676,6 +730,7 @@ koKR = "밤사슴 구매하기"
 
 ["Recipe.TWBuyMushroom"]
 raw = "Buy Mushrooms"
+status = "normal"
 enUS = "Buy Mushrooms"
 zhCN = "购买蘑菇"
 zhTW = "購買蘑菇"
@@ -689,6 +744,7 @@ koKR = "버섯 구매"
 
 ["Recipe.TWBuyPotato"]
 raw = "Buy Potatoes"
+status = "normal"
 enUS = "Buy Potatoes"
 zhCN = "购买土豆"
 zhTW = "購買馬鈴薯"
@@ -702,6 +758,7 @@ koKR = "감자 구매"
 
 ["Recipe.TWBuySoybean"]
 raw = "Buy Soybeans"
+status = "normal"
 enUS = "Buy Soybeans"
 zhCN = "购买大豆"
 zhTW = "購買大豆"
@@ -715,6 +772,7 @@ koKR = "콩 사기"
 
 ["Recipe.TWBuySunflowerSeeds"]
 raw = "Buy Sunflower Seeds"
+status = "normal"
 enUS = "Buy Sunflower Seeds"
 zhCN = "购买葵花籽"
 zhTW = "購買向日葵種子"
@@ -728,6 +786,7 @@ koKR = "해바라기 씨 구매"
 
 ["Recipe.TWBuySciencePoints"]
 raw = "Buy Science Points"
+status = "normal"
 enUS = "Buy Science Points"
 zhCN = "购买科学点数"
 zhTW = "購買科學點數"
@@ -738,3 +797,15 @@ deDE = "Kaufe Wissenschaftspunkte"
 plPL = "Zakup Punktów Nauki"
 ptBR = "Comprar Pontos de Ciência"
 koKR = "과학 점수 구매"
+
+["Recipe.TWBuyMapleSyrup"]
+new = "Buy Maple Syrup"
+status = "normal"
+
+["Recipe.TWSellCarrot"]
+new = "Sell Carrots"
+status = "normal"
+
+["Recipe.TWSellPlank"]
+new = "Sell Planks"
+status = "normal"

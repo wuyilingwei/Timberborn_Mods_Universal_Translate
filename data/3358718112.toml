@@ -1,5 +1,8 @@
+name = "ExtendedFloodgates"
+
 ["Knatte.WaterAlarm.DisplayName"]
 raw = "Water Alarm"
+status = "normal"
 enUS = "Water Alarm"
 zhCN = "枯竭警报水流计"
 zhTW = "水警報"
@@ -13,6 +16,7 @@ koKR = "물 경고"
 
 ["Knatte.WaterAlarm.Description"]
 raw = "A combined Streamgauge and Water Alarm that will give a warning if it has no water."
+status = "normal"
 enUS = "A combined stream gauge and water alarm that will provide a warning if there is no water."
 zhCN = "测量水深、流量和恶水污染，水流枯竭时会发出警报。"
 zhTW = "一個集成的水流計和水位警報裝置，當水位過低時會發出警告。"
@@ -26,6 +30,7 @@ koKR = "결합된 수위계와 수위 알람으로, 물이 없을 경우 경고�
 
 ["Knatte.WaterAlarm.FlavorDescription"]
 raw = "Ring Ring"
+status = "normal"
 enUS = "Ring Ring"
 zhCN = "“叮咚叮咚——”（警报声）"
 zhTW = "叮叮"
@@ -37,8 +42,13 @@ plPL = "Dzwonek Dzwonek"
 ptBR = "Toc Toc"
 koKR = "링 링"
 
+["//"]
+new = "//"
+status = "normal"
+
 ["Knatte.WaterAlarm11.DisplayName"]
 raw = "Stream Gauge 11 High"
+status = "normal"
 enUS = "Stream Gauge 11 High"
 zhCN = "超高水流计"
 zhTW = "流量計11高"
@@ -52,6 +62,7 @@ koKR = "하천 게이지 11 높음"
 
 ["Knatte.WaterAlarm11.Description"]
 raw = "A Big Streamgauge."
+status = "normal"
 enUS = "A Big Stream Gauge."
 zhCN = "测量水深、流量和恶水污染，有11米高。"
 zhTW = "一個大溪流測量器。"
@@ -65,6 +76,7 @@ koKR = "큰 스트림 게이지."
 
 ["Knatte.WaterAlarm11.FlavorDescription"]
 raw = "Mario Jump"
+status = "normal"
 enUS = "Mario Jump"
 zhCN = "“呀呼！”（跳跃声）"
 zhTW = "瑪莉歐跳躍"
@@ -78,6 +90,7 @@ koKR = "마리오 점프"
 
 ["Knatte.MetalFloodgate.DisplayName"]
 raw = "Metal Flood gate"
+status = "normal"
 enUS = "Metal flood gate"
 zhCN = "金属闸门"
 zhTW = "金屬防洪閘"
@@ -91,6 +104,7 @@ koKR = "금속 홍수 관문"
 
 ["Knatte.MetalFloodgate.Description"]
 raw = "Bigger better Flood gate that can be stacked stuff on top"
+status = "normal"
 enUS = "Bigger, better floodgate that can have items stacked on top."
 zhCN = "金属材质的闸门，阻挡一定高度的水位，高度可调节。"
 zhTW = "更大更好的洪水閘門，能夠在上面堆放物品。"
@@ -104,6 +118,7 @@ koKR = "더 크고 더 나은 홍수 게이트로, 위에 물건을 쌓을 수 �
 
 ["Knatte.Floodgate.DisplayName"]
 raw = "Metal Flood gates"
+status = "normal"
 enUS = "Metal floodgates"
 zhCN = "金属闸门"
 zhTW = "金屬防洪閘門"
@@ -117,6 +132,7 @@ koKR = "금속 홍수 게이트"
 
 ["Knatte.MetalFloodgate1.DisplayName"]
 raw = "Metal Flood gate 1 High"
+status = "normal"
 enUS = "Metal Flood gate 1 High"
 zhCN = "金属闸门"
 zhTW = "金屬防洪閘門 1格高"
@@ -130,6 +146,7 @@ koKR = "금속 홍수 문 1 고상"
 
 ["Knatte.MetalFloodgate2.DisplayName"]
 raw = "Metal Flood gate 2 High"
+status = "normal"
 enUS = "Metal Flood Gate 2 High"
 zhCN = "双重金属闸门"
 zhTW = "金屬洪水閘 2 高"
@@ -143,6 +160,7 @@ koKR = "금속 홍수 게이트 2 고"
 
 ["Knatte.MetalFloodgate3.DisplayName"]
 raw = "Metal Flood gate 3 High"
+status = "normal"
 enUS = "Metal Flood Gate 3 High"
 zhCN = "三重金属闸门"
 zhTW = "金屬洪水閘 3 高"
@@ -156,6 +174,7 @@ koKR = "금속 홍수 게이트 3 고급"
 
 ["Knatte.MetalFloodgate4.DisplayName"]
 raw = "Metal Flood gate 4 High"
+status = "normal"
 enUS = "Metal Flood Gate 4 High"
 zhCN = "四重金属闸门"
 zhTW = "金屬閘門 4 高"
@@ -169,6 +188,7 @@ koKR = "메탈 범람 방지 게이트 4 하이"
 
 ["Knatte.MetalFloodgate5.DisplayName"]
 raw = "Metal Flood gate 5 High"
+status = "normal"
 enUS = "Metal Flood Gate 5 High"
 zhCN = "五重金属闸门"
 zhTW = "金屬洪水閘 5 高"
@@ -182,6 +202,7 @@ koKR = "금속 홍수 게이트 5 높음"
 
 ["Knatte.MetalFloodgate6.DisplayName"]
 raw = "Metal Flood gate 6 High"
+status = "normal"
 enUS = "Metal Flood Gate 6 High"
 zhCN = "六重金属闸门"
 zhTW = "金屬防洪閘 6 高"
@@ -195,6 +216,7 @@ koKR = "금속 홍수 게이트 6 고"
 
 ["Knatte.MetalFloodgate7.DisplayName"]
 raw = "Metal Flood gate 7 High"
+status = "normal"
 enUS = "Metal Flood Gate 7 High"
 zhCN = "七重金属闸门"
 zhTW = "金屬洪水閘 7 高"
@@ -208,6 +230,7 @@ koKR = "금속 홍수 게이트 7 고"
 
 ["Knatte.MetalFloodgate8.DisplayName"]
 raw = "Metal Flood gate 8 High"
+status = "normal"
 enUS = "Metal flood gate 8 high"
 zhCN = "八重金属闸门"
 zhTW = "金屬防洪閘 8 高"
@@ -221,6 +244,7 @@ koKR = "메탈 홍수 방지 게이트 8 고"
 
 ["Knatte.MetalFloodgate9.DisplayName"]
 raw = "Metal Flood gate 9 High"
+status = "normal"
 enUS = "Metal Flood Gate 9 High"
 zhCN = "九重金属闸门"
 zhTW = "金屬洪水閘 9 高"
@@ -234,6 +258,7 @@ koKR = "금속 홍수 게이트 9 하이"
 
 ["Knatte.MetalFloodgate10.DisplayName"]
 raw = "Metal Flood gate 10 High"
+status = "normal"
 enUS = "Metal Flood Gate 10 High"
 zhCN = "十重金属闸门"
 zhTW = "金屬閘門 10 高"
@@ -247,6 +272,7 @@ koKR = "금속 홍수 게이트 10 높은"
 
 ["Knatte.Aqueduct_MetalFloodgate.DisplayName"]
 raw = "Aqueduct Metal Flood gate 1 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 1 High"
 zhCN = "水渠闸门"
 zhTW = "水道金屬閘門 1 高"
@@ -260,6 +286,7 @@ koKR = "수로 금속 홍수 게이트 1 고"
 
 ["Knatte.Aqueduct_MetalFloodgate.Description"]
 raw = "Bigger better Flood gate that can be stacked stuff on top in Aqueduct theme"
+status = "normal"
 enUS = "Bigger, better flood gate that can have items stacked on top in an aqueduct theme."
 zhCN = "阻挡一定高度的水位，高度可调节。使用了水渠材质。<br><color=#FFA500>水渠在 Water Extention 模组内。</color>"
 zhTW = "更大更好的洪水閘門，可以在水道主題中堆疊物品。"
@@ -273,6 +300,7 @@ koKR = "더 크고 더 나은 홍수 게이트로, 수로 테마에서 그 위�
 
 ["Knatte.Aqueduct_Floodgate.DisplayName"]
 raw = "Aqueduct style Metal Flood gates"
+status = "normal"
 enUS = "Aqueduct style metal flood gates"
 zhCN = "水渠闸门"
 zhTW = "水道風格金屬洪水閘門"
@@ -286,6 +314,7 @@ koKR = "수로 스타일 금속 방수문"
 
 ["Knatte.Aqueduct_MetalFloodgate2.DisplayName"]
 raw = "Aqueduct Metal Flood gate 2 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 2 High"
 zhCN = "双重水渠闸门"
 zhTW = "水道金屬洪水閘門 2 高"
@@ -299,6 +328,7 @@ koKR = "수로 금속 홍수 게이트 2 높음"
 
 ["Knatte.Aqueduct_MetalFloodgate3.DisplayName"]
 raw = "Aqueduct Metal Flood gate 3 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 3 High"
 zhCN = "三重水渠闸门"
 zhTW = "水道金屬閘門 3 高"
@@ -312,6 +342,7 @@ koKR = "수로 금속 수문 3급"
 
 ["Knatte.Aqueduct_MetalFloodgate4.DisplayName"]
 raw = "Aqueduct Metal Flood gate 4 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 4 High"
 zhCN = "四重水渠闸门"
 zhTW = "水道金屬洪水閘門 4 高"
@@ -325,6 +356,7 @@ koKR = "수로 금속 차수문 4 고"
 
 ["Knatte.Aqueduct_MetalFloodgate5.DisplayName"]
 raw = "Aqueduct Metal Flood gate 5 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 5 High"
 zhCN = "五重水渠闸门"
 zhTW = "水道金屬閘門5高"
@@ -338,6 +370,7 @@ koKR = "수로 금속 홍수조절 장치 5 고"
 
 ["Knatte.Aqueduct_MetalFloodgate6.DisplayName"]
 raw = "Aqueduct Metal Flood gate 6 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 6 High"
 zhCN = "六重水渠闸门"
 zhTW = "水道金屬閘門 6 高"
@@ -351,6 +384,7 @@ koKR = "수로 금속 홍수 게이트 6 고"
 
 ["Knatte.Aqueduct_MetalFloodgate7.DisplayName"]
 raw = "Aqueduct Metal Flood gate 7 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 7 High"
 zhCN = "七重水渠闸门"
 zhTW = "水道金屬閘門 7 高"
@@ -364,6 +398,7 @@ koKR = "수로 메탈 홍수 게이트 7 고급"
 
 ["Knatte.Aqueduct_MetalFloodgate8.DisplayName"]
 raw = "Aqueduct Metal Flood gate 8 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 8 High"
 zhCN = "八重水渠闸门"
 zhTW = "水道金屬閘門 8 高"
@@ -377,6 +412,7 @@ koKR = "수로 금속 홍수 게이트 8 고급"
 
 ["Knatte.Aqueduct_MetalFloodgate9.DisplayName"]
 raw = "Aqueduct Metal Flood gate 9 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 9 High"
 zhCN = "九重水渠闸门"
 zhTW = "水道金屬閘門 9 高"
@@ -390,6 +426,7 @@ koKR = "수로 금속 홍수 게이트 9 고"
 
 ["Knatte.Aqueduct_MetalFloodgate10.DisplayName"]
 raw = "Aqueduct Metal Flood gate 10 High"
+status = "normal"
 enUS = "Aqueduct Metal Flood Gate 10 High"
 zhCN = "十重水渠闸门"
 zhTW = "水道金屬閘門 10 高"

@@ -1,5 +1,8 @@
+name = "OldGopher_Pipe"
+
 ["OldGopher.Building.PipeBox.DisplayName"]
 raw = "Box with pipe"
+status = "normal"
 enUS = "Box with pipe"
 zhCN = "开孔防洪堤"
 zhTW = "帶管的盒子"
@@ -13,6 +16,7 @@ koKR = "파이프가 있는 박스"
 
 ["OldGopher.Building.PipeStraight.DisplayName"]
 raw = "Pipe Straight"
+status = "normal"
 enUS = "Pipe Straight"
 zhCN = "直线水管"
 zhTW = "管道直通"
@@ -26,6 +30,7 @@ koKR = "직선 파이프"
 
 ["OldGopher.Building.PipeTurn.DisplayName"]
 raw = "Pipe Turn"
+status = "normal"
 enUS = "Pipe Turn"
 zhCN = "水管弯角"
 zhTW = "管道轉彎"
@@ -39,6 +44,7 @@ koKR = "파이프 회전"
 
 ["OldGopher.Building.PipeTIntersection.DisplayName"]
 raw = "Pipe T Intersection"
+status = "normal"
 enUS = "Pipe T Intersection"
 zhCN = "水管 T 型接口"
 zhTW = "管道 T 形交叉口"
@@ -52,6 +58,7 @@ koKR = "파이프 T 교차로"
 
 ["OldGopher.Building.PipeXIntersection.DisplayName"]
 raw = "Pipe X Intersection"
+status = "normal"
 enUS = "Pipe X Intersection"
 zhCN = "水管 X 型接口"
 zhTW = "管道 X 交集"
@@ -65,6 +72,7 @@ koKR = "파이프 X 교차로"
 
 ["OldGopher.Building.PipeUpward.DisplayName"]
 raw = "Upward Pipe"
+status = "normal"
 enUS = "Upward Pipe"
 zhCN = "上行水管"
 zhTW = "向上管道"
@@ -78,6 +86,7 @@ koKR = "상향 파이프"
 
 ["OldGopher.Building.PipeVertical.DisplayName"]
 raw = "Vertical Pipe"
+status = "normal"
 enUS = "Vertical Pipe"
 zhCN = "垂直水管"
 zhTW = "垂直管道"
@@ -91,6 +100,7 @@ koKR = "수직 파이프"
 
 ["OldGopher.Building.PipeDownward.DisplayName"]
 raw = "Downward Pipe"
+status = "normal"
 enUS = "Downward Pipe"
 zhCN = "下行水管"
 zhTW = "下行管道"
@@ -104,6 +114,7 @@ koKR = "하향 배관"
 
 ["OldGopher.Building.PipeBox.Description"]
 raw = "A pipe in a waterproof block."
+status = "normal"
 enUS = "A pipe in a waterproof block."
 zhCN = "中间带有水管的防洪堤。"
 zhTW = "一根在防水塊中的管子。"
@@ -117,6 +128,7 @@ koKR = "방수 블록에 있는 파이프입니다."
 
 ["OldGopher.Building.PipeValve.DisplayName"]
 raw = "Pipe Valve"
+status = "normal"
 enUS = "Pipe Valve"
 zhCN = "水管阀"
 zhTW = "管閥"
@@ -130,6 +142,7 @@ koKR = "파이프 밸브"
 
 ["OldGopher.Building.PipeValve.Description"]
 raw = "Dump water when not submerged."
+status = "normal"
 enUS = "Dump water when not submerged."
 zhCN = "将液体排出水管外，水位高于水管阀时会停止。"
 zhTW = "當沒有被淹沒時，排出水。"
@@ -143,6 +156,7 @@ koKR = "잠기지 않을 때 물을 배출합니다."
 
 ["OldGopher.Building.PipeWaterPump.DisplayName"]
 raw = "Box with Water Pump"
+status = "normal"
 enUS = "Box with Water Pump"
 zhCN = "水管泵"
 zhTW = "水泵盒"
@@ -156,6 +170,7 @@ koKR = "수돗물 펌프가 있는 상자"
 
 ["OldGopher.Building.PipeWaterPump.Description"]
 raw = "Transfers water using power up to a maximum depth of 6."
+status = "normal"
 enUS = "Transfers water using power up to a maximum depth of 6."
 zhCN = "改进的机械液体泵，能单向输送液体，方向可变。<br><color=#FFA500>液体出口与入口的相对高度不能高于 6 米，否则无法输送至该出口。</color><br><color=#FF4C4C>Bug：模组未完善，拖动放置会游戏崩溃。</color>"
 zhTW = "在最深可達6的深度下，使用動力轉移水。"
@@ -169,6 +184,7 @@ koKR = "최대 6 깊이까지 전력을 사용하여 물을 전달합니다."
 
 ["OldGopher.Building.PipeWaterPump.TakeToPipe"]
 raw = "Take water to the pipes."
+status = "normal"
 enUS = "Take water to the pipes."
 zhCN = "状态：抽入水管内"
 zhTW = "把水引入管道。"
@@ -182,6 +198,7 @@ koKR = "물 파이프로 옮기기."
 
 ["OldGopher.Building.PipeWaterPump.TakeFromPipe"]
 raw = "Take water from the pipes."
+status = "normal"
 enUS = "Take water from the pipes."
 zhCN = "状态：排出水管外"
 zhTW = "從水管中取水。"
@@ -195,6 +212,7 @@ koKR = "파이프에서 물을 가져옵니다."
 
 ["OldGopher.Building.PipeGeneric.Description"]
 raw = "Transfers water."
+status = "normal"
 enUS = "Transfers water."
 zhCN = "能输送液体。"
 zhTW = "轉移水分。"
@@ -208,6 +226,7 @@ koKR = "물을 전달합니다."
 
 ["OldGopher.Building.PipeGeneric.Blocked.Short"]
 raw = "pipe blocked"
+status = "normal"
 enUS = "pipe blocked"
 zhCN = "水管被堵塞"
 zhTW = "管道阻塞"
@@ -221,6 +240,8 @@ koKR = "파이프 차단됨"
 
 ["OldGopher.Building.PipeGeneric.Blocked"]
 raw = "Some pipe entrance is blocked by another OldGopher.Building or terrain. Connect only with another pipe."
+new = "Some pipe entrance is blocked by another building or terrain. Connect only with another pipe."
+status = "normal"
 enUS = "Some pipe entrances are blocked by another OldGopher.Building or terrain. Connect only with another pipe."
 zhCN = "水管被建筑或地形堵塞，无法连接。"
 zhTW = "某些管道入口被其他建築物或地形阻塞。只可與另一根管道連接。"
@@ -234,6 +255,7 @@ koKR = "일부 파이프 입구가 다른 OldGopher.Building 또는 지형에 �
 
 ["OldGopher.Building.WaterShield.DisplayName"]
 raw = "Water Shield"
+status = "normal"
 enUS = "Water Shield"
 zhCN = "屏障发生器"
 zhTW = "水盾"
@@ -247,6 +269,7 @@ koKR = "물 방패"
 
 ["OldGopher.Building.WaterShield.Description"]
 raw = "Powerful machine that repel water when powered. take care to don't get submerged by lack of power."
+status = "normal"
 enUS = "Powerful machine that repels water when powered. Be careful not to get submerged due to lack of power."
 zhCN = "采用了未知科技的强大机器，运作时会产生不可见的屏障，阻断周围水流。<br><color=#FFA500>阻断范围为 15x15，高度为 5 米。</color>"
 zhTW = "強大的機器，通過供電來排斥水。當電力不足時，請小心不要被淹沒。"

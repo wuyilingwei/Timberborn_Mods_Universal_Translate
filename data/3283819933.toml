@@ -1,5 +1,8 @@
+name = "zxuiji -m- Greedy Builders"
+
 ["GreedyBuilders.biofuel"]
 raw = "Biofuel"
+status = "normal"
 enUS = "Biofuel"
 zhCN = "生物燃料"
 zhTW = "生物燃料"
@@ -13,6 +16,7 @@ koKR = "바이오연료"
 
 ["GreedyBuilders.displayname"]
 raw = "Greedy Builders"
+status = "normal"
 enUS = "Greedy Builders"
 zhCN = "双种族"
 zhTW = "貪婪建築師"
@@ -26,6 +30,7 @@ koKR = "탐욕스러운 건축가"
 
 ["GreedyBuilders.description"]
 raw = "The greed of these beavers leaves their tools in a mess..."
+status = "normal"
 enUS = "The greed of these beavers leaves their tools in a mess..."
 zhCN = "经过友好磋商，神尾与铁牙决定建立共同居住示范区，尝试走出一条可持续发展的道路。<br>神尾种族的绿色环保与铁牙种族的科学工艺在这里实现了和谐交融。<br>座右铭：<i>绿水青山就是金山银山。</i>"
 zhTW = "這些海狸的貪婪使他們的工具一團糟……"
@@ -39,6 +44,8 @@ koKR = "이 비버들의 탐욕은 그들의 도구를 엉망으로 남깁니다
 
 [GreedyBots]
 raw = "GreedyBot #"
+new = "GreedyBot #{0}"
+status = "normal"
 enUS = "GreedyBot #"
 zhCN = "混动机关人 {0}"
 zhTW = "貪婪機器人 #"
@@ -52,6 +59,7 @@ koKR = "탐욕스러운 봇 #"
 
 ["GreedyBuilders.WonderCompletion.Message"]
 raw = "Well done!"
+status = "normal"
 enUS = "Well done!"
 zhCN = "非常出色！你充分理解了示范区的宗旨，使用先进的技术实现环保的理念，同时达成了两个部族的巅峰。"
 zhTW = "做得好！"
@@ -65,6 +73,7 @@ koKR = "잘했어요!"
 
 ["GreedyBuilders.WonderCompletion.Flavour"]
 raw = "That was quite the effort wasn't it? :D"
+status = "normal"
 enUS = "That was quite the effort wasn't it? :D"
 zhCN = "神尾与铁牙坚信，总有一天能将两项奇观工程结合，让拓荒海狸们带着种子前往远方，治愈这颗星球。"
 zhTW = "那可真是一番努力，不是嗎？ :D"
@@ -78,6 +87,7 @@ koKR = "그건 정말 대단한 노력이었죠, 그렇죠? :D"
 
 ["GreedyBuilders.GameOver.Message"]
 raw = "...How did you?"
+status = "normal"
 enUS = "...How did you?"
 zhCN = "很可惜，你没能成功统合两个种族的科技路线。"
 zhTW = "...你怎麼做到的？"
@@ -91,6 +101,7 @@ koKR = "...어떻게 하셨나요?"
 
 ["GreedyBuilders.GameOver.Flavour"]
 raw = "Come on, you can do better than that!"
+status = "normal"
 enUS = "Come on, you can do better than that!"
 zhCN = "示范区失败了，神尾和铁牙再次分道扬镳。故事结束了。"
 zhTW = "來吧，你可以做得更好！"

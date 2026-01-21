@@ -1,5 +1,8 @@
+name = "Delete That Thing"
+
 ["Cordial.DeleteThatThing.DisplayName"]
 raw = "Delete that thing"
+status = "normal"
 enUS = "Delete that thing."
 zhCN = "拆除或删除指定物体"
 zhTW = "刪除那個東西"
@@ -13,6 +16,7 @@ koKR = "그것 삭제하기"
 
 ["Cordial.DeleteThatThing.Description"]
 raw = "This tool deletes all selected objects of the same type"
+status = "normal"
 enUS = "This tool deletes all selected objects of the same type."
 zhCN = "使用此工具拆除或删除指定物体。鼠标框选范围时，第一个被选中的物体为要拆除或删除的指定物体。"
 zhTW = "此工具會刪除所有選定的相同類型物件。"
@@ -26,6 +30,7 @@ koKR = "이 도구는 같은 유형의 모든 선택된 객체를 삭제합니�
 
 ["Cordial.DeleteThatThing.Prompt.Abort"]
 raw = "Not all selected objects could be deleted. Something is likely placed on top of an object."
+status = "normal"
 enUS = "Not all selected objects could be deleted. Something is likely placed on top of an object."
 zhCN = "部分指定物体无法被拆除或删除，比如此物体上方放置了其他物体。"
 zhTW = "並非所有選擇的物件都能被刪除。可能有物件放置在某個物件上方。"
@@ -39,6 +44,7 @@ koKR = "선택한 모든 개체를 삭제할 수 없습니다. 무언가가 개�
 
 ["Cordial.DeleteThatThing.Prompt.Stump"]
 raw = "A tree stump has been selected. This will only mark stumps for demolition. Do you wish to continue?"
+status = "normal"
 enUS = "A tree stump has been selected. This will only mark stumps for demolition. Do you wish to continue?"
 zhCN = "指定的物体为树桩，将标注为要拆除的资源，确定要标注吗？"
 zhTW = "已選擇樹樁。這將僅標記樹樁以進行拆除。您是否希望繼續？"
@@ -52,6 +58,7 @@ koKR = "나무 그루터기가 선택되었습니다. 이는 그루터기를 철
 
 ["Cordial.DeleteThatThing.Prompt.DeadTree"]
 raw = "A dead tree has been selected. This will only mark dead trees for demolition. Do you wish to continue?"
+status = "normal"
 enUS = "A dead tree has been selected. This will only mark dead trees for demolition. Do you wish to continue?"
 zhCN = "指定的物体为已死亡的树木，将标注为要拆除的资源，确定要标注吗？"
 zhTW = "已選定一棵枯死的樹。這將僅標記枯死的樹進行拆除。您是否希望繼續？"

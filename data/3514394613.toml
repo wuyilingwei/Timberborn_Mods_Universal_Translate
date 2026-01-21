@@ -1,5 +1,8 @@
+name = "HydroForma Projects"
+
 ["LV.HF.HydroFormaGroup"]
 raw = "HydroForma™ Corp."
+status = "normal"
 enUS = "HydroForma™ Corp."
 zhCN = "自然改造"
 zhTW = "HydroForma™公司"
@@ -13,6 +16,7 @@ koKR = "하이드로포르마™ 코퍼레이션"
 
 ["LV.HF.HydroFormaGroupDesc"]
 raw = "A pioneering mega-corp reshaping landscapes with cutting-edge hydroengineering marvels."
+status = "normal"
 enUS = "A pioneering mega-corp reshaping landscapes with cutting-edge hydroengineering marvels."
 zhCN = "与水利和地形相关的工程科学项目，由水力形构™集团研发。"
 zhTW = "一家開創性的巨型企業正在通過尖端水利工程奇蹟重塑地貌。"
@@ -26,6 +30,7 @@ koKR = "최첨단 수리 공학 경이로움으로 풍경을 재편하는 선구
 
 ["LV.HF.DamUpgrade"]
 raw = "Pressure Gate Module"
+status = "normal"
 enUS = "Pressure Gate Module"
 zhCN = "水压密闭模块"
 zhTW = "壓力閘模組"
@@ -39,6 +44,7 @@ koKR = "압력 게이트 모듈"
 
 ["LV.HF.DamUpgradeEff"]
 raw = "Allows Dams to be manually closed completely, stopping all water flow."
+status = "normal"
 enUS = "Allows Dams to be manually closed completely, stopping all water flow."
 zhCN = "水坝可以被手动关闭，完全阻断水流。"
 zhTW = "允許大壩完全手動關閉，停止所有水流。"
@@ -52,6 +58,7 @@ koKR = "댐을 수동으로 완전히 폐쇄할 수 있어 모든 물 흐름을 
 
 ["LV.HF.DamUpgradeLore"]
 raw = "Seamless integration of HydroForma™'s patented FlowLock™ tech, because control is everything."
+status = "normal"
 enUS = "Seamless integration of HydroForma™'s patented FlowLock™ tech, because control is everything."
 zhCN = "水力形构™技术专利，无缝水密组合技术——掌控即是一切。"
 zhTW = "HydroForma™ 專利的 FlowLock™ 技術無縫整合，因為控制就是一切。"
@@ -65,6 +72,7 @@ koKR = "모든 것이 통제에 달려 있기 때문에 HydroForma™의 특허�
 
 ["LV.HF.LeveeUpgrade"]
 raw = "Power Conduction Core"
+status = "normal"
 enUS = "Power Conduction Core"
 zhCN = "机械传动套件"
 zhTW = "電力導電核心"
@@ -78,6 +86,7 @@ koKR = "전력 전도 코어"
 
 ["LV.HF.LeveeUpgradeEff"]
 raw = "Allows Levees to transmit power."
+status = "normal"
 enUS = "Allows Levees to transmit power."
 zhCN = "防洪堤可以传输能量。"
 zhTW = "允許堤防傳輸電力。"
@@ -91,6 +100,8 @@ koKR = "제방이 전력을 전송할 수 있도록 합니다."
 
 ["LV.HF.LeveeUpgradeLore"]
 raw = "'A few copper rods and a lot of ingenuity. Now the current flows where the river can't.' —xa0Wattsonxa0Longtooth"
+new = "'A few copper rods and a lot of ingenuity. Now the current flows where the river can't.' —xa0Wattsonxa0Longtooth"
+status = "normal"
 enUS = "'A few copper rods and a lot of ingenuity. Now the current flows where the river can't.' —xa0Wattsonxa0Longtooth"
 zhCN = "几根金属加上无限创意，如今能量比河流更加自由。"
 zhTW = "「幾根銅棒和大量的智慧。現在電流流向了河流無法到達的地方。」 — 瓦特森·長牙"
@@ -104,6 +115,7 @@ koKR = "'몇 개의 구리봉과 많은 독창성. 이제 강이 흐르지 못�
 
 ["LV.HF.FloodgateUpgrade"]
 raw = "Auto-Regulator Unit"
+status = "normal"
 enUS = "Auto-Regulator Unit"
 zhCN = "高度调节装置"
 zhTW = "自動調節器單元"
@@ -117,6 +129,7 @@ koKR = "자동 조절 장치"
 
 ["LV.HF.FloodgateUpgradeEff"]
 raw = "Automatically adjusts Floodgate height during weather conditions."
+status = "normal"
 enUS = "Automatically adjusts Floodgate height during weather conditions."
 zhCN = "闸门可以根据当前天气自动调节高度。"
 zhTW = "在天氣條件下自動調整洪水閘的高度。"
@@ -130,6 +143,8 @@ koKR = "날씨 조건에 따라 홍수 방지 게이트 높이를 자동으로 �
 
 ["LV.HF.FloodgateUpgradeLore"]
 raw = "Looks automatic, but it's just Snipsxa0Mudwhistle on watch duty with a lever and a chart."
+new = "Looks automatic, but it's just Snipsxa0Mudwhistle on watch duty with a lever and a chart."
+status = "normal"
 enUS = "Looks automatic, but it's just Snipsxa0Mudwhistle on watch duty with a lever and a chart."
 zhCN = "看似全自动，实则是操纵杆、检查单和值班表的功劳。"
 zhTW = "看起來很自動，但實際上只是 Snips Mudwhistle 在值班，手邊有一個槓桿和一張圖表。"
@@ -143,6 +158,7 @@ koKR = "자동처럼 보이지만, 사실 이는 Snips Mudwhistle이 레버와 �
 
 ["LV.HF.SluiceUpgrade"]
 raw = "Source-Level Sensor"
+status = "normal"
 enUS = "Source-Level Sensor"
 zhCN = "水位传感浮标"
 zhTW = "源級傳感器"
@@ -156,6 +172,7 @@ koKR = "수위 센서"
 
 ["LV.HF.SluiceUpgradeEff"]
 raw = "Automatically opens the Sluice based on upstream water level."
+status = "normal"
 enUS = "Automatically opens the Sluice based on upstream water level."
 zhCN = "水闸可以根据上游水位自动开启。"
 zhTW = "根據上游水位自動打開閘門。"
@@ -169,6 +186,7 @@ koKR = "상류 수위에 따라 자동으로 수문을 엽니다."
 
 ["LV.HF.SluiceUpgradeLore"]
 raw = "The crown jewel of HydroForma™ engineering - because real control doesn't ask, it decides."
+status = "normal"
 enUS = "The crown jewel of HydroForma™ engineering - because real control doesn't ask, it decides."
 zhCN = "水力形构™工程专利，精准水位监测工程——真正的掌控从不询问，只做决定。"
 zhTW = "HydroForma™ 工程的瑰寶 - 因為真正的控制不詢問，它會做出決定。"
@@ -182,6 +200,7 @@ koKR = "HydroForma™ 엔지니어링의 정수 - 진정한 제어는 묻지 않
 
 ["LV.HF.ImpermeableFloorUpgrade"]
 raw = "Anti‑Grav™ Deck"
+status = "normal"
 enUS = "Anti‑Grav™ Deck"
 zhCN = "重力逆转材料"
 zhTW = "研發贊助™方案"
@@ -195,6 +214,7 @@ koKR = "항중력™ 갑판"
 
 ["LV.HF.ImpermeableFloorUpgradeEff"]
 raw = "Impermeable Floors can be built without support or attached directly to terrain. They function as paths with 4× movement speed. Due to anti-gravity behavior, you get no material refund when destroying floating ones, they just lift themselves up to space."
+status = "normal"
 enUS = "Impermeable Floors can be built without support or attached directly to terrain. They function as paths with 4× movement speed. Due to anti-gravity behavior, you get no material refund when destroying floating ones, they just lift themselves up to space."
 zhCN = "防渗地板可以作为道路使用，大幅提高海狸的移动速度 +400%，而且建造完成后便无需支撑。但是拆除后无法回收任何材料。"
 zhTW = "<YellowHighlight>目前沒有任何效果。</YellowHighlight> 早期支持者在該升級正式發布之前，能以折扣的科學成本解鎖此升級。"
@@ -208,6 +228,7 @@ koKR = "방수 바닥은 지지 없이 건설할 수 있으며, 지형에 직접
 
 ["LV.HF.ImpermeableFloorUpgradeLore"]
 raw = "Originally prototyped as a lightweight solar semiconductor panel, the material refused to stay put and floated into the air. HydroForma™ quickly rebranded the mishap as a cutting-edge high-speed walkway."
+status = "normal"
 enUS = "Originally prototyped as a lightweight solar semiconductor panel, the material refused to stay put and floated into the air. HydroForma™ quickly rebranded the mishap as a cutting-edge high-speed walkway."
 zhCN = "据小道消息，该材料最初计划用于太阳能板，但随后发生严重事故，产生了无法理解的反重力性质。为了安抚广大赞助者，水力形构™公关部迅速将其包装成一种全新产品。"
 zhTW = "「您的支持鋪平了道路——字面上。最終功能可能會有所變更。不予退款。是的，『贊助』是商標。」—xa0HydroForma™xa0公關部"
@@ -221,6 +242,7 @@ koKR = "원래 경량 태양열 반도체 패널로 개발되었으나, 이 재�
 
 ["LV.HF.DirtExcavatorUpgrade"]
 raw = "BurrowBot™ System"
+status = "normal"
 enUS = "BurrowBot™ System"
 zhCN = "操作辅助仪表台"
 zhTW = "BurrowBot™ 系統"
@@ -234,6 +256,8 @@ koKR = "벌로봇™ 시스템"
 
 ["LV.HF.DirtExcavatorUpgradeEff"]
 raw = "Reduces the workforce required to operate this building to just 1."
+new = "Reduces the workforce required to operate the Dirt Excavator to just 1."
+status = "normal"
 enUS = "Reduces the workforce required to operate this building to just 1."
 zhCN = "挖土机的劳工岗位数量减至 1。"
 zhTW = "將操作此建築所需的工作人員減少至僅1人。"
@@ -247,6 +271,8 @@ koKR = "이 건물을 운영하는 데 필요한 인력을 단 1명으로 줄입
 
 ["LV.HF.DirtExcavatorUpgradeLore"]
 raw = "'Fired my last digger. The machine never chews sticks on the job.' —xa0Clayexa0Broadtail"
+new = "'Fired my last digger. The machine never chews sticks on the job.' —xa0Clayexa0Broadtail"
+status = "normal"
 enUS = "'Fired my last digger. The machine never chews sticks on the job.' —xa0Clayexa0Broadtail"
 zhCN = "最好能把最后一狸也优化掉，机器可不会上班偷懒嚼树枝。"
 zhTW = "\"解僱了我最後一台挖掘機。這台機器在工作時從來不咬樹枝。\" — Claye Broadtail"
@@ -260,6 +286,7 @@ koKR = "'마지막 굴착기를 해고했어. 그 기계는 일하는 동안 나
 
 ["LV.HF.TerrainBlockUpgrade1"]
 raw = "Deep Anchor Framework"
+status = "normal"
 enUS = "Deep Anchor Framework"
 zhCN = "深层锚固框架组"
 zhTW = "深層錨框架"
@@ -273,6 +300,7 @@ koKR = "깊은 앵커 프레임워크"
 
 ["LV.HF.TerrainBlockUpgradeEff"]
 raw = "{0:+0} maximum unsupported Terrain Blocks."
+status = "normal"
 enUS = "{0:+0} maximum unsupported Terrain Blocks."
 zhCN = "地形块无支撑向外延伸的距离增加 {0:+0} 。"
 zhTW = "{0:+0} 最大不支援的地形區塊。"
@@ -286,6 +314,8 @@ koKR = "{0:+0} 최대 지원되지 않는 지형 블록."
 
 ["LV.HF.TerrainBlockUpgrade1Lore"]
 raw = "'Perfectly safe. Rigorously tested. Now, please sign this waiver before purchasing.' —xa0HydroForma™xa0Legal"
+new = "'Perfectly safe. Rigorously tested. Now, please sign this waiver before purchasing.' —xa0HydroForma™xa0Legal"
+status = "normal"
 enUS = "'Perfectly safe. Rigorously tested. Now, please sign this waiver before purchasing.' —xa0HydroForma™xa0Legal"
 zhCN = "“此技术已通过测试，绝对安全。如需购买，请签署免责声明。”——水力形构™法务部"
 zhTW = "「完全安全。經過嚴格測試。現在，請在購買之前簽署這份免責聲明。」— HydroForma™ 法律"
@@ -299,6 +329,7 @@ koKR = "'완전히 안전합니다. 철저하게 테스트되었습니다. 이�
 
 ["LV.HF.TerrainBlockUpgrade2"]
 raw = "Substrata Stress Extender"
+status = "normal"
 enUS = "Substrata Stress Extender"
 zhCN = "底层扩展联锁器"
 zhTW = "底層應力延伸器"
@@ -312,6 +343,8 @@ koKR = "지층 스트레스 연장기"
 
 ["LV.HF.TerrainBlockUpgrade2Lore"]
 raw = "'Unrelated to last cycle's incident.' —xa0HydroForma™xa0Trustxa0&xa0Transparencyxa0Division"
+new = "'Unrelated to last cycle's incident.' —xa0HydroForma™xa0Trustxa0&xa0Transparencyxa0Division"
+status = "normal"
 enUS = "'Unrelated to last cycle's incident.' —xa0HydroForma™xa0Trustxa0&xa0Transparencyxa0Division"
 zhCN = "“郑重声明，这项新技术的推出与之前的事件无关。”——水力形构™审查部"
 zhTW = "「與上個循環的事件無關。」—xa0HydroForma™xa0信任與透明度部門"
@@ -325,6 +358,7 @@ koKR = "'지난 주기의 사건과 관련이 없습니다.' — HydroForma™ �
 
 ["LV.HF.BarrierUpgrade"]
 raw = "Surface™ Access Coating"
+status = "normal"
 enUS = "Surface™ Access Coating"
 zhCN = "表面通行防护网"
 zhTW = "表面™ 接觸塗層"
@@ -338,6 +372,7 @@ koKR = "표면™ 접근 코팅"
 
 ["LV.HF.BarrierUpgradeEff"]
 raw = "Allows paths to be built <s>on top of</s> beneath Contamination and Irrigation Barriers."
+status = "normal"
 enUS = "Allows paths to be built <s>on top of</s> beneath Contamination and Irrigation Barriers."
 zhCN = "污染屏障和灌溉屏障下方可以建造道路。"
 zhTW = "允許在污染和灌溉屏障下建造路徑。"
@@ -351,6 +386,8 @@ koKR = "오염 및 관개 장치 아래에 경로를 건설할 수 있습니다.
 
 ["LV.HF.BarrierUpgradeLore"]
 raw = "'SURFACE Access Coating? More like subterranean sardine. <b>*Bonk*</b>' —xa0Anxa0unfortunatelyxa0tallxa0visitor"
+new = "'SURFACE Access Coating? More like subterranean sardine. <b>*Bonk*</b>' —xa0Anxa0unfortunatelyxa0tallxa0visitor"
+status = "normal"
 enUS = "'SURFACE Access Coating? More like subterranean sardine. <b>*Bonk*</b>' —xa0Anxa0unfortunatelyxa0tallxa0visitor"
 zhCN = "“对那些声称‘表面通行’是虚假宣传的媒体，我们表示严重谴责！”——水力形构™宣传部"
 zhTW = "「表面接觸塗層？更像是地下沙丁魚。<b>*碰碰*</b>」 — 一位不幸的高個子訪客"
@@ -364,6 +401,7 @@ koKR = "'표면 접근 코팅? 더 나아가 지하 정어리 같다. <b>*똭*</
 
 ["LV.HF.StreamGaugeUpgrade"]
 raw = "DepthSense™ Array"
+status = "normal"
 enUS = "DepthSense™ Array"
 zhCN = "多重穿透感知阵列"
 zhTW = "DepthSense™ 陣列"
@@ -377,6 +415,7 @@ koKR = "깊이감지™ 배열"
 
 ["LV.HF.StreamGaugeUpgradeEff"]
 raw = "Stream Gauges now detect water depth to the soil beneath their own tile and can measure volume."
+status = "normal"
 enUS = "Stream Gauges now detect water depth to the soil beneath their own tile and can measure volume."
 zhCN = "水流计高于水面时也可以测量下方的水深，还可以测量水体体积（水流计与水面之间存在阻挡水流的物体时测量失效）。"
 zhTW = "流量計現在能夠檢測到其自身瓷磚下的水深，並且可以測量體積。"
@@ -390,6 +429,7 @@ koKR = "수로 게이지는 이제 자신의 타일 아래 토양의 수심을 �
 
 ["LV.HF.StreamGaugeUpgradeLore"]
 raw = "HydroForma™'s DepthSense™ sees beneath the surface - no permission required."
+status = "normal"
 enUS = "HydroForma™'s DepthSense™ sees beneath the surface - no permission required."
 zhCN = "“我们的尖端感知技术能穿透障碍，无需许可。”——水力形构™安全部"
 zhTW = "HydroForma™ 的 DepthSense™ 可以透視表面 - 不需要許可。"
@@ -403,6 +443,7 @@ koKR = "HydroForma™의 DepthSense™는 표면 아래를 바라봅니다 - 허
 
 ["LV.HF.Closed"]
 raw = "Closed"
+status = "normal"
 enUS = "Closed"
 zhCN = "关闭水坝"
 zhTW = "關閉"
@@ -416,6 +457,7 @@ koKR = "닫힘"
 
 ["LV.HF.DamSync"]
 raw = "Synchronize with adjacent Dams"
+status = "normal"
 enUS = "Synchronize with adjacent Dams"
 zhCN = "与相邻的水坝同步"
 zhTW = "與相鄰的水壩同步"
@@ -429,6 +471,7 @@ koKR = "인접 댐과 동기화하기"
 
 ["LV.HF.FloodgateSetOnHaz"]
 raw = "Set Height on Hazardous weather"
+status = "normal"
 enUS = "Set Height on Hazardous weather"
 zhCN = "恶劣天气时设置高度为"
 zhTW = "在惡劣天氣下設置高度"
@@ -442,6 +485,7 @@ koKR = "위험한 날씨에서 높이 설정"
 
 ["LV.HF.FloodgateSetOnNewCycle"]
 raw = "Set Height on New Cycle"
+status = "normal"
 enUS = "Set Height on New Cycle"
 zhCN = "周期开始时设置高度为"
 zhTW = "在新週期上設置高度"
@@ -455,6 +499,7 @@ koKR = "새 주기에 높이 설정"
 
 ["LV.HF.SluiceOpenUpstream"]
 raw = "Open above upstream depth:"
+status = "normal"
 enUS = "Open above upstream depth:"
 zhCN = "在该上游水深以上开启："
 zhTW = "打開上述上游深度："
@@ -468,6 +513,7 @@ koKR = "상류 깊이 위 열기:"
 
 ["LV.HF.SluiceUpstreamDepth"]
 raw = "Upstream depth:"
+status = "normal"
 enUS = "Upstream depth:"
 zhCN = "上游水深"
 zhTW = "上游深度："
@@ -481,6 +527,7 @@ koKR = "상류 깊이:"
 
 ["LV.HF.SGBottomDepth"]
 raw = "Depth from soil: {0:0.00}m ({1:0.00}m from base Z = {2})"
+status = "normal"
 enUS = "Depth from soil: {0:0.00}m ({1:0.00}m from base Z = {2})"
 zhCN = "水面：离地{0:0.00}米，离基准面 (Z = {2}) {1:0.00}米"
 zhTW = "土壤深度：{0:0.00}公尺（距離基底 Z = {2} 為 {1:0.00}公尺）"
@@ -494,6 +541,7 @@ koKR = "토양 깊이: {0:0.00}m ({1:0.00}m, 기준 Z = {2})"
 
 ["LV.HF.SGMeasureVolume"]
 raw = "Measure volume:"
+status = "normal"
 enUS = "Measure volume:"
 zhCN = "测量水体体积："
 zhTW = "測量體積："
@@ -507,6 +555,7 @@ koKR = "부피 측정:"
 
 ["LV.HF.SGMeasureVolumeFullCube"]
 raw = "Use reservoir measurement strategy"
+status = "normal"
 enUS = "Use reservoir measurement strategy"
 zhCN = "使用水库测量策略"
 zhTW = "使用水庫測量策略"
@@ -520,6 +569,7 @@ koKR = "저수지 측정 전략 사용"
 
 ["LV.HF.SGMeasureVolumeResult"]
 raw = "Volume: {0:0.00}m³, counted from {1} cubes {2} days ago"
+status = "normal"
 enUS = "Volume: {0:0.00}m³, counted from {1} cubes {2} days ago"
 zhCN = "水体体积：{0:0.00}立方米，测量时间：{2}天前，测量范围：{1}个方块"
 zhTW = "體積：{0:0.00}立方米，來自{1}個立方體，{2}天前計算的"
@@ -533,6 +583,7 @@ koKR = "부피: {0:0.00}m³, {2}일 전 {1}개의 큐브에서 측정됨"
 
 [Name_DamGateFragment]
 raw = "Dam Pressure Gate"
+status = "normal"
 enUS = "Dam Pressure Gate"
 zhCN = "水压密闭模块"
 zhTW = "壩壓力閘"
@@ -546,6 +597,7 @@ koKR = "댐 압력 게이트"
 
 [Name_FloodgateAutoFragment]
 raw = "Floodgate Auto-Regulator"
+status = "normal"
 enUS = "Floodgate Auto-Regulator"
 zhCN = "高度调节装置"
 zhTW = "「洪水閘自動調節器」"
@@ -559,6 +611,7 @@ koKR = "홍수문 자동 조절기"
 
 [Name_StreamGaugeUpgradeFragment]
 raw = "Stream Gauge DepthSense™"
+status = "normal"
 enUS = "Stream Gauge DepthSense™"
 zhCN = "多重穿透感知阵列"
 zhTW = "溪流測量深度感應™"

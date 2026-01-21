@@ -1,5 +1,8 @@
+name = "Configurable Plants"
+
 ["LV.CPl.PlacementSect"]
 raw = "Placement options:"
+status = "normal"
 enUS = "Placement options:"
 zhCN = "<b>种植选项：</b>可以修改植物的种植条件。"
 zhTW = "放置選項："
@@ -13,6 +16,7 @@ koKR = "배치 옵션:"
 
 ["LV.CPl.RemoveCorner"]
 raw = "Remove corner occupation"
+status = "normal"
 enUS = "Remove corner occupation"
 zhCN = "移除角落占用"
 zhTW = "移除角落佔據"
@@ -26,6 +30,7 @@ koKR = "코너 점유 제거"
 
 ["LV.CPl.RemoveCornerDesc"]
 raw = "Allows building structures such as Platforms over plants."
+status = "normal"
 enUS = "Allows building structures such as Platforms over plants."
 zhCN = "勾选后，可以将植物种植在平台、悬挑等建筑下。"
 zhTW = "允許在植物上建造如平台等結構。"
@@ -39,6 +44,7 @@ koKR = "식물 위에 플랫폼과 같은 구조물을 건설할 수 있습니�
 
 ["LV.CPl.RemovePath"]
 raw = "Remove path occupation"
+status = "normal"
 enUS = "Remove path occupation"
 zhCN = "移除路径占用"
 zhTW = "移除道路佔用"
@@ -52,6 +58,7 @@ koKR = "경로 점유 제거"
 
 ["LV.CPl.RemovePathDesc"]
 raw = "Allows building Paths through plants."
+status = "normal"
 enUS = "Allows building Paths through plants."
 zhCN = "勾选后，可以将植物种植在道路上。"
 zhTW = "允許在植物中建造小徑。"
@@ -65,6 +72,7 @@ koKR = "식물을 통해 경로를 건설할 수 있습니다."
 
 ["LV.CPl.WithoutGround"]
 raw = "Plant without ground"
+status = "normal"
 enUS = "Plant without ground"
 zhCN = "无地面种植"
 zhTW = "無地栽植"
@@ -78,6 +86,7 @@ koKR = "지면 없는 식물"
 
 ["LV.CPl.WithoutGroundDesc"]
 raw = "Allows planting directly on roofs and platforms without soil. These plants receive irrigation and contamination from the land below."
+status = "normal"
 enUS = "Allows planting directly on roofs and platforms without soil. These plants receive irrigation and contamination from the land below."
 zhCN = "勾选后，可以将植物种植在屋顶、平台等建筑上，无需泥土；植物的灌溉或污染受正下方的土地影响。"
 zhTW = "允許在沒有土壤的屋頂和平台上直接種植。這些植物會接收到下面土地的灌溉和污染。"
@@ -91,6 +100,7 @@ koKR = "이 식물들은 토양 없이 지붕과 플랫폼에 직접 심을 수 
 
 ["LV.CPl.NoConUp"]
 raw = "> No contamination up (cheater :P)"
+status = "normal"
 enUS = "> No contamination up (cheater :P)"
 zhCN = "> 无污染上渗"
 zhTW = "> 無污染提升 (作弊者 :P)"
@@ -104,6 +114,7 @@ koKR = "> 오염 증가 없음 (치터 :P)"
 
 ["LV.CPl.NoConUpDesc"]
 raw = "Prevents land contamination from being brought up. Enables planting trees or crops on platforms even if the land below is unsuitable."
+status = "normal"
 enUS = "Prevents land contamination from being brought up. Enables planting trees or crops on platforms even if the land below is unsuitable."
 zhCN = "勾选后，在建筑上种植的植物默认被灌溉，不再受正下方土地影响。"
 zhTW = "防止土地污染被帶上來。即使下方土地不合適，也能在平台上種植樹木或作物。"
@@ -117,6 +128,7 @@ koKR = "토양 오염이 발생하는 것을 방지합니다. 아래의 토지�
 
 ["LV.CPl.GrowthSect"]
 raw = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Rate ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
+status = "normal"
 enUS = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Rate ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
 zhCN = "<b>生长选项：</b>可以修改植物的生长参数。除了产出数量倍数以外，其他参数设为低于默认（×1）可以降低难度。示例：<br>- 种植时间倍数×0.5：种植橡树耗时 1小时→0.5小时<br>- 生长速度倍数×0.5：土豆成熟耗时 5天→2.5天<br>- 产出数量倍数×1.5：每棵胡萝卜有 3个→4个<br>- 收获时间倍数×0.5：砍伐橡树耗时 2小时→1小时<br>- 拆除时间倍数×0.5：拆除松树耗时 1.2小时→0.6小时"
 zhTW = "<b>成長選項：</b> 將以下設置低於預設值 ×1 以降低難度，但產出倍數除外。例子：\n- 種植時間倍數 ×0.5：種植橡樹 1 小時 → 0.5 小時。\n- 成長速度 ×0.5：馬鈴薯在 5 天內生長 → 2.5 天。\n- 產出倍數 ×1.5：胡蘿蔔產量從 3 → 4。\n- 收穫時間倍數 ×0.5：砍伐橡樹 2 小時 → 1 小時。\n- 拆除時間倍數 ×0.5：拆除松樹 1.2 小時 → 0.6 小時。"
@@ -130,6 +142,7 @@ koKR = "<b>성장 옵션:</b> 기본값 ×1 아래로 설정하여 Output Multip
 
 ["LV.CPl.PlantingTime"]
 raw = "Planting time multiplier"
+status = "normal"
 enUS = "Planting time multiplier"
 zhCN = "种植时间倍数"
 zhTW = "種植時間倍數"
@@ -143,6 +156,7 @@ koKR = "식재 시간 배수기"
 
 ["LV.CPl.PlantingTimeDesc"]
 raw = "Multiplier for time taken to plant."
+status = "normal"
 enUS = "Multiplier for time taken to plant."
 zhCN = "可以将种植所需时间更改为原来的N倍（游戏默认：x1）。"
 zhTW = "種植所需時間的乘數。"
@@ -156,6 +170,7 @@ koKR = "식재하는 데 걸리는 시간의 배수."
 
 ["LV.CPl.GrowthRate"]
 raw = "Growth rate multiplier"
+status = "normal"
 enUS = "Growth rate multiplier"
 zhCN = "生长速度倍数"
 zhTW = "增長率倍率"
@@ -169,6 +184,7 @@ koKR = "성장률 배율"
 
 ["LV.CPl.GrowthRateDesc"]
 raw = "Multiplier for growth time."
+status = "normal"
 enUS = "Multiplier for growth time."
 zhCN = "可以将生长速度更改为原来的N倍（游戏默认：x1）。"
 zhTW = "成長時間的倍增器。"
@@ -182,6 +198,7 @@ koKR = "성장 시간에 대한 배수."
 
 ["LV.CPl.OutputMul"]
 raw = "Output multiplier"
+status = "normal"
 enUS = "Output multiplier"
 zhCN = "产出数量倍数"
 zhTW = "輸出乘數"
@@ -195,6 +212,7 @@ koKR = "출력 배수"
 
 ["LV.CPl.OutputMulDesc"]
 raw = "Multiplier for output (rounded down)."
+status = "normal"
 enUS = "Multiplier for output (rounded down)."
 zhCN = "可以将产出数量更改为原来的N倍，向下取整（游戏默认：x1）。"
 zhTW = "輸出乘數（向下取整）。"
@@ -208,6 +226,7 @@ koKR = "출력용 배수 (내림)."
 
 ["LV.CPl.HarvestTime"]
 raw = "Harvest time multiplier"
+status = "normal"
 enUS = "Harvest time multiplier"
 zhCN = "收获时间倍数"
 zhTW = "採收時間倍率"
@@ -221,6 +240,7 @@ koKR = "수확 시간 배율"
 
 ["LV.CPl.HarvestTimeDesc"]
 raw = "Multiplier for time taken to harvest/cut down."
+status = "normal"
 enUS = "Multiplier for time taken to harvest/cut down."
 zhCN = "可以将采集、砍伐所需时间更改为原来的N倍（游戏默认：x1）。"
 zhTW = "收割/砍伐所需時間的倍數。"
@@ -234,6 +254,7 @@ koKR = "수확/벌목에 소요되는 시간의 배수입니다."
 
 ["LV.CPl.DemolishTime"]
 raw = "Demolishing time multiplier"
+status = "normal"
 enUS = "Demolishing time multiplier"
 zhCN = "拆除时间倍数"
 zhTW = "拆除時間倍增器"
@@ -247,6 +268,7 @@ koKR = "철거 시간 배율"
 
 ["LV.CPl.DemolishTimeDesc"]
 raw = "Multiplier for time taken to demolish."
+status = "normal"
 enUS = "Multiplier for time taken to demolish."
 zhCN = "可以将拆除所需时间更改为原来的N倍（游戏默认：x1）。"
 zhTW = "“拆除所需時間的倍數。”"
@@ -260,6 +282,7 @@ koKR = "철거하는 데 걸리는 시간의 배율입니다."
 
 ["LV.CPl.TreeSect"]
 raw = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
+status = "normal"
 enUS = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
 zhCN = "林业植物：由林木工种植，砍伐后可以获得原木的植物（如桦树、松树）。"
 zhTW = "樹木選項：<b>提供木材的植物</b>，由樹林管理者種植（例如：松樹、橡樹）。"
@@ -273,6 +296,7 @@ koKR = "나무 옵션: <b>목재를 제공하는 식물</b>로, 수목 관리자
 
 ["LV.CPl.CropSect"]
 raw = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
+status = "normal"
 enUS = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
 zhCN = "农业植物：由农民或林木工种植，提供食物的其他植物（如胡萝卜、浆果丛、咖啡树）。"
 zhTW = "作物選項：所有由農民或林務員種植的其他植物（例如胡蘿蔔、藍莓和蒲公英<b>灌木</b>）。"
@@ -286,6 +310,7 @@ koKR = "작물 옵션: 농부나 산림감독이 심는 모든 다른 식물(예
 
 ["LV.CPl.ProductSect"]
 raw = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
+status = "normal"
 enUS = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
 zhCN = "再生产物：植物成熟后继续生长，收获后可以再生的资源（如浆果、松脂、枫糖浆）。"
 zhTW = "產品選項：<b>在成熟植物上生長的產品</b>（例如：松樹樹脂、藍莓）。"
@@ -299,6 +324,7 @@ koKR = "제품 옵션: <b>성숙한 식물</b>에서 자라는 <b>제품</b> (�
 
 ["LV.CPl.AllSect"]
 raw = "For all plants:"
+status = "normal"
 enUS = "For all plants:"
 zhCN = "全局设置："
 zhTW = "對於所有植物："
@@ -312,6 +338,7 @@ koKR = "모든 식물에 대해:"
 
 ["LV.CPl.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
+status = "normal"
 enUS = "Reproducible chance multiplier"
 zhCN = "蔓延概率倍数"
 zhTW = "可重現機率乘數"
@@ -325,6 +352,7 @@ koKR = "재생 가능 확률 배수"
 
 ["LV.CPl.ReproducibleChanceMultiplierDesc"]
 raw = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
+status = "normal"
 enUS = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
 zhCN = "可以将树木的蔓延概率更改为原来的N倍（游戏默认：x1，即每小时有1-3%的概率蔓延至相邻方格，具体概率取决于树木种类）。"
 zhTW = "調整每小時樹木繁殖的機率（預設：根據樹種在1%至3%之間）。  \n預設：×1。×0禁用繁殖。範例：×2使得基礎繁殖機率為3%的松樹繁殖機率提升至6%。"

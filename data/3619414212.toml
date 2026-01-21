@@ -1,5 +1,8 @@
+name = "CustomTools"
+
 ["IgorZ.CustomTools.ToolGroup.Main.DisplayName"]
 raw = "Tools"
+status = "normal"
 enUS = "Tools"
 zhCN = "自定义工具"
 zhTW = "工具"
@@ -13,6 +16,7 @@ koKR = "도구"
 
 ["IgorZ.CustomTools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
+status = "normal"
 enUS = "Hold <i>SHIFT</i> to select items of one type only."
 zhCN = "按住Shift可以只选取特定建筑。"
 zhTW = "按住 <i>SHIFT</i> 鍵以僅選取單一類型的物品。"
@@ -26,6 +30,7 @@ koKR = "<i>SHIFT</i> 키를 누르고 있으면 한 종류의 아이템만 선�
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
+status = "normal"
 enUS = "Selecting: {0} (x{1})"
 zhCN = "已选取 : {0} (x{1})"
 zhTW = "選擇中：{0} (x{1})"
@@ -39,6 +44,7 @@ koKR = "선택 중: {0} (x{1})"
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
+status = "normal"
 enUS = "Selecting: {0}"
 zhCN = "已选取 : {0}"
 zhTW = "選擇中：{0}"
@@ -52,6 +58,7 @@ koKR = "선택 중: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
+status = "normal"
 enUS = "Click to start selecting: {0}"
 zhCN = "单击并拖动以选取 : {0}"
 zhTW = "點擊開始選擇: {0}"
@@ -65,6 +72,7 @@ koKR = "선택을 시작하려면 클릭하세요: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
+status = "normal"
 enUS = "Point to an entity and click to start selecting"
 zhCN = "指向一个建筑并单击以选取其同类建筑"
 zhTW = "指向一個實體並點擊以開始選擇"
@@ -78,6 +86,7 @@ koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Description"]
 raw = "Immediately finishes the selected constructables."
+status = "normal"
 enUS = "Immediately finishes the selected constructables."
 zhCN = "立即完成选定的待建造建筑"
 zhTW = "立即完成所選建築物。"
@@ -91,6 +100,7 @@ koKR = "선택한 건축물을 즉시 완료합니다."
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Title"]
 raw = "Finish now debug tool"
+status = "normal"
 enUS = "Finish now debug tool"
 zhCN = "完成建筑"
 zhTW = "立即完成除錯工具"
@@ -104,6 +114,7 @@ koKR = "지금 디버그 도구 완료"
 
 ["IgorZ.CustomTools.PauseTool.Description"]
 raw = "Use this tool to pause buildings and construction sites."
+status = "normal"
 enUS = "Use this tool to pause buildings and construction sites."
 zhCN = "使用此工具关闭建筑或停止建造。"
 zhTW = "使用此工具暫停建築和施工現場。"
@@ -117,6 +128,7 @@ koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지합�
 
 ["IgorZ.CustomTools.PauseTool.Title"]
 raw = "Pause buildings"
+status = "normal"
 enUS = "Pause buildings"
 zhCN = "关闭建筑"
 zhTW = "暫停建築"
@@ -130,6 +142,7 @@ koKR = "건물 일시 정지"
 
 ["IgorZ.CustomTools.ResumeTool.Description"]
 raw = "Use this tool to unpause buildings and construction sites."
+status = "normal"
 enUS = "Use this tool to unpause buildings and construction sites."
 zhCN = "使用此工具启用建筑或开始建造。"
 zhTW = "使用此工具可重新啟用建築物和施工現場。"
@@ -143,6 +156,7 @@ koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지 해�
 
 ["IgorZ.CustomTools.ResumeTool.Title"]
 raw = "Unpause buildings"
+status = "normal"
 enUS = "Unpause buildings"
 zhCN = "启用建筑"
 zhTW = "恢復建築"
@@ -154,8 +168,13 @@ plPL = "Wznów budynki"
 ptBR = "Reativar construções"
 koKR = "건물 다시 시작하기"
 
+["="]
+new = "="
+status = "normal"
+
 ["IgorZ.CustomTools.KeyBindingGroup"]
 raw = "CustomTools Mod"
+status = "normal"
 enUS = "CustomTools Mod"
 zhCN = "自定义工具模组"
 zhTW = "自訂工具模組"

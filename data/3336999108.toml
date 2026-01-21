@@ -1,5 +1,8 @@
+name = "Forest Tool"
+
 ["Cordial.ForestTool.DisplayName"]
 raw = "ForestTool"
+status = "normal"
 enUS = "ForestTool"
 zhCN = "自定义混合种植"
 zhTW = "森林工具"
@@ -13,6 +16,7 @@ koKR = "숲 도구"
 
 ["Cordial.ForestTool.Description"]
 raw = "Configurable tool for planting mixed forests."
+status = "normal"
 enUS = "Configurable tool for planting mixed forests."
 zhCN = "使用此工具来自定义混合种植树木与灌木。"
 zhTW = "可配置的混合森林種植工具。"
@@ -26,6 +30,8 @@ koKR = "혼합 숲을 심기 위한 구성 가능한 도구."
 
 ["Coridal.ForestTool.Requirement"]
 raw = "Required Building: <SolidHighlight>{0}</SolidHighlight>"
+new = "Required Building: {0}"
+status = "normal"
 enUS = "Required Building: <SolidHighlight>{0}</SolidHighlight>"
 zhCN = "所需建筑 : {0}"
 zhTW = "所需建築：<SolidHighlight>{0}</SolidHighlight>"
@@ -39,6 +45,7 @@ koKR = "필수 건물: <SolidHighlight>{0}</SolidHighlight>"
 
 ["Cordial.ForestTool.ForestToolPanel.Title"]
 raw = "Forest Tool Configuration"
+status = "normal"
 enUS = "Forest Tool Configuration"
 zhCN = "自定义种植设置"
 zhTW = "林業工具配置"
@@ -52,6 +59,7 @@ koKR = "숲 도구 구성"
 
 ["Cordial.ForestTool.ForestToolPanel.Description"]
 raw = "Configure tree types and spots to be planted"
+status = "normal"
 enUS = "Configure tree types and planting locations."
 zhCN = "对混合种植的树木与灌木的种类和区域进行设置"
 zhTW = "配置樹種和種植位置"
@@ -65,6 +73,7 @@ koKR = "나무 종류와 심을 장소를 구성합니다"
 
 ["Cordial.ForestTool.ForestToolPanel.ToggleTreeAll"]
 raw = "All forestry plant types"
+status = "normal"
 enUS = "All types of forestry plants"
 zhCN = "所有树木与灌木种类"
 zhTW = "所有林業植物類型"
@@ -78,6 +87,7 @@ koKR = "모든 임업 식물 유형"
 
 ["Cordial.ForestTool.ForestToolPanel.ToggleEmpty"]
 raw = "Allow clearings"
+status = "normal"
 enUS = "Allow clearings"
 zhCN = "随机区域留空"
 zhTW = "允許清理"
@@ -91,6 +101,8 @@ koKR = "공터 허용"
 
 ["Cordial.ForestTool.ForestToolError.Description"]
 raw = "You need to unlock <SolidHighlight>{0}</SolidHighlight> to plant trees."
+new = "You need to unlock {0} to plant trees."
+status = "normal"
 enUS = "You need to unlock <SolidHighlight>{0}</SolidHighlight> to plant trees."
 zhCN = "需要解锁{0}才能种植树木与灌木。"
 zhTW = "您需要解鎖<SolidHighlight>{0}</SolidHighlight>才能種植樹木。"
@@ -104,6 +116,7 @@ koKR = "나무를 심으려면 <SolidHighlight>{0}</SolidHighlight>를 잠금 �
 
 ["Cordial.ForestTool.BuildingLock"]
 raw = "This building is locked:"
+status = "normal"
 enUS = "This building is locked."
 zhCN = "此建筑未解锁："
 zhTW = "這棟建築已鎖上："
@@ -117,6 +130,7 @@ koKR = "이 건물은 잠겨 있습니다:"
 
 ["Cordial.ForestTool.SpecLock"]
 raw = "This specification is missing:"
+status = "normal"
 enUS = "This specification is missing:"
 zhCN = "缺少该规格："
 zhTW = "此規範缺失："

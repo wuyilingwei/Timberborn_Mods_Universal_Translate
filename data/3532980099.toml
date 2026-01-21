@@ -1,5 +1,8 @@
+name = "Benchmark & Optimizer"
+
 ["LV.BO.EnableBenchmark"]
 raw = "Enable benchmarking"
+status = "normal"
 enUS = "Enable benchmarking"
 zhCN = "启用性能测试"
 zhTW = "啟用基準測試"
@@ -13,6 +16,7 @@ koKR = "벤치마킹 활성화"
 
 ["LV.BO.EnableBenchmarkDesc"]
 raw = "Show the Benchmark UI (in game: Esc -> Benchmark).\nCertain code are injected to the game and will cause the game to run slower.\nPlease restart the game after changing this setting."
+status = "normal"
 enUS = "Show the Benchmark UI (in game: Esc -> Benchmark).\nCertain code are injected to the game and will cause the game to run slower.\nPlease restart the game after changing this setting."
 zhCN = "显示性能测试界面（游戏中按ESC→性能测试）。<br>某些代码将被注入游戏，可能导致运行变慢。<br>修改此设置后请重启游戏。"
 zhTW = "顯示基準測試用戶界面（遊戲中：Esc -> 基準測試）。\n某些代碼會被注入到遊戲中，並將導致遊戲運行變慢。\n更改此設置後請重新啟動遊戲。"
@@ -26,6 +30,7 @@ koKR = "벤치마크 UI를 표시합니다 (게임 내: Esc -> 벤치마크).  \
 
 ["LV.BO.WellKnownTasks"]
 raw = "Well-known tasks"
+status = "normal"
 enUS = "Well-known tasks"
 zhCN = "常见任务"
 zhTW = "知名任務"
@@ -39,6 +44,7 @@ koKR = "잘 알려진 작업"
 
 ["LV.BO.OtherTasks"]
 raw = "Other tasks"
+status = "normal"
 enUS = "Other tasks"
 zhCN = "其他任务"
 zhTW = "其他任務"
@@ -52,6 +58,7 @@ koKR = "기타 작업"
 
 ["LV.BO.WellKnown_BehaviorManager"]
 raw = "Control the actions of your characters. One of the top performance hogs.\nDelaying this would cause characters to not change their actions immediately.\nI would <b>not recommend</b> delaying this without testing as it may reduce your worker's productivity."
+status = "normal"
 enUS = "Control the actions of your characters. One of the top performance hogs.\nDelaying this would cause characters to not change their actions immediately.\nI would <b>not recommend</b> delaying this without testing as it may reduce your worker's productivity."
 zhCN = "控制角色行为。主要性能消耗源之一。<br>延迟此项会导致角色行为不能立即更新。<br><b>不建议</b>未经测试就延迟此项，可能降低工人效率。"
 zhTW = "控制角色的行動。這是性能消耗的主要原因之一。\n延遲這個將導致角色無法立即改變行動。\n我<b>不建議</b>在未經測試的情況下延遲這個，因為這可能會降低你的工作效率。"
@@ -65,6 +72,7 @@ koKR = "키 이름: LV.BO.WellKnown_BehaviorManager - 번역할 새 텍스트: \
 
 ["LV.BO.WellKnown_NavMeshObserver"]
 raw = "Control the pathfinding of your characters when they move.\nDelaying this may cause characters to not react to pathfinding changes immediately."
+status = "normal"
 enUS = "Control the pathfinding of your characters when they move.\nDelaying this may cause characters to not react to pathfinding changes immediately."
 zhCN = "控制角色移动时的寻路系统。<br>延迟此项可能会导致角色不能立即响应寻路变化。"
 zhTW = "控制角色移動時的路徑尋找。\n延遲此操作可能會導致角色無法立即對路徑尋找的變化做出反應。"
@@ -78,6 +86,7 @@ koKR = "캐릭터가 이동할 때 경로 탐색을 제어합니다. 이를 지�
 
 ["LV.BO.WellKnown_ConstructionSite"]
 raw = "Control the finishing of the construction of your buildings.\nDelaying this would cause buildings that are supposed to be finished to not finish immediately."
+status = "normal"
 enUS = "Control the finishing of the construction of your buildings.\nDelaying this would cause buildings that are supposed to be finished to not finish immediately."
 zhCN = "控制建筑完工判定。<br>延迟此项会导致已完成的建筑不能立即竣工。"
 zhTW = "控制您建築物建設的完成。延遲將導致本應立即完成的建築物未能及時完成。"
@@ -91,6 +100,7 @@ koKR = "건물 건설 완료를 제어하세요.\n이를 지연하면 완공 예
 
 ["LV.BO.WellKnown_BuilderJobReachabilityStatus"]
 raw = "Control the reachability of the Builder Job.\nDelaying this would cause the Builders status to not be able to reach the construction site immediately."
+status = "normal"
 enUS = "Control the reachability of the Builder Job.\nDelaying this would cause the Builders status to not be able to reach the construction site immediately."
 zhCN = "控制建造工作的可达性判定。<br>延迟此项会导致建造状态不能立即更新。"
 zhTW = "控制建造者工作的可達性。\n延遲這一點會導致建造者的狀態無法立即到達施工現場。"
@@ -104,6 +114,7 @@ koKR = "건설 작업의 접근 가능성을 제어합니다. 이 작업을 지�
 
 ["LV.BO.WellKnown_ResourceCountingService"]
 raw = "Control the counting of resources in the game.\nDelaying this would cause the resource counters to not be updated as frequent."
+status = "normal"
 enUS = "Control the counting of resources in the game.\nDelaying this would cause the resource counters to not be updated as frequent."
 zhCN = "控制游戏资源统计。<br>延迟此项会导致资源计数器更新频率降低。"
 zhTW = "控制遊戲中資源的計算。延遲此操作會導致資源計數器更新的頻率降低。"
@@ -117,6 +128,7 @@ koKR = "게임 내 자원 수집을 제어합니다.\n이 설정을 지연하면
 
 ["LV.BO.Benchmark"]
 raw = "Benchmark"
+status = "normal"
 enUS = "Benchmark"
 zhCN = "性能测试"
 zhTW = "基準測試"
@@ -130,6 +142,7 @@ koKR = "벤치마크"
 
 ["LV.BO.BenchmarkRunning"]
 raw = "Benchmark is running ({0}s left).\nYou should not have paused the game until it finishes to avoid skewing the results.\nYou can stop it now and try again later."
+status = "normal"
 enUS = "Benchmark is running ({0}s left).\nYou should not have paused the game until it finishes to avoid skewing the results.\nYou can stop it now and try again later."
 zhCN = "性能测试运行中（剩余{0}秒）。<br>测试完成前请勿暂停游戏，以免影响结果。<br>可以停止测试，稍后再试。"
 zhTW = "基準測試正在進行中（剩餘 {0} 秒）。\n您不應該在完成之前暫停遊戲，以避免影響結果。\n您現在可以停止它，稍後再試。"
@@ -143,6 +156,7 @@ koKR = "벤치마크가 실행 중입니다 ({0}초 남음).\n결과 왜곡을 �
 
 ["LV.BO.BmTime"]
 raw = "Benchmark duration (real-life seconds)"
+status = "normal"
 enUS = "Benchmark duration (real-life seconds)"
 zhCN = "测试时长（现实秒数）"
 zhTW = "基準測試持續時間（實際秒數）"
@@ -156,6 +170,7 @@ koKR = "기준 시간 (실제 초)"
 
 ["LV.BO.StartBm"]
 raw = "Start Benchmark"
+status = "normal"
 enUS = "Start Benchmark"
 zhCN = "开始测试"
 zhTW = "開始基準測試"
@@ -169,6 +184,7 @@ koKR = "벤치마크 시작"
 
 ["LV.BO.BmInfo"]
 raw = "Measure how long each components takes to run.\nChoose the duration to gather data for.\nAfter clicking 'Start Benchmark', <b>try not to pause the game</b> until it finishes to avoid skewing the results.\nYou can, however, change the game speed to any speed you want to know the performance at.\nIf the game is paused, it will be automatically resumed once you click this button.\nAfter the benchmark is finished, this dialog will automatically open again."
+status = "normal"
 enUS = "Measure how long each components takes to run.\nChoose the duration to gather data for.\nAfter clicking 'Start Benchmark', <b>try not to pause the game</b> until it finishes to avoid skewing the results.\nYou can, however, change the game speed to any speed you want to know the performance at.\nIf the game is paused, it will be automatically resumed once you click this button.\nAfter the benchmark is finished, this dialog will automatically open again."
 zhCN = "测量各组件运行耗时。<br>选择数据采集时长。<br>点击“开始测试”后，测试完成前<b>请勿暂停游戏</b>，以免影响结果。<br>可以调整游戏速度，来测试不同速度下的性能。<br>如果游戏已暂停，点击按钮将自动恢复。<br>测试完成后，将自动再次打开此窗口。"
 zhTW = "測量每個組件運行所需的時間。  \n選擇收集數據的持續時間。  \n在點擊「開始基準測試」後，<b>盡量不要暫停遊戲</b>，以避免影響結果。  \n不過，你可以將遊戲速度改為任何你想知道性能的速度。  \n如果遊戲已暫停，點擊此按鈕後將自動恢復。  \n基準測試完成後，這個對話框將自動再次打開。"
@@ -182,6 +198,7 @@ koKR = "각 구성 요소가 작동하는 시간을 측정하십시오.\n데이�
 
 ["LV.BO.EndBm"]
 raw = "End Benchmark now"
+status = "normal"
 enUS = "End Benchmark now"
 zhCN = "立即结束测试"
 zhTW = "立即結束基準測試"
@@ -195,6 +212,7 @@ koKR = "벤치마크 종료 지금"
 
 ["LV.BO.Import"]
 raw = "Import"
+status = "normal"
 enUS = "Import"
 zhCN = "导入"
 zhTW = "導入"
@@ -208,6 +226,7 @@ koKR = "수입"
 
 ["LV.BO.Export"]
 raw = "Export"
+status = "normal"
 enUS = "Export"
 zhCN = "导出"
 zhTW = "出口"

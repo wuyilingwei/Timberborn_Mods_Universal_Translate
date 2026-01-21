@@ -1,5 +1,8 @@
+name = "Fireworks"
+
 ["kulesz.Building.FireworkLauncher.DisplayName"]
 raw = "Firework Launcher"
+status = "normal"
 enUS = "Firework Launcher"
 zhCN = "烟花发射器"
 zhTW = "煙火發射器"
@@ -13,6 +16,7 @@ koKR = "폭죽 발사기"
 
 ["kulesz.Building.FireworkLauncher.Description"]
 raw = "Launches fireworks."
+status = "normal"
 enUS = "Launches fireworks."
 zhCN = "发射烟花。"
 zhTW = "發射煙火。"
@@ -26,6 +30,7 @@ koKR = "불꽃놀이를 발사합니다."
 
 ["kulesz.Building.FireworkLauncher.FlavorDescription"]
 raw = "Look at the sky!"
+status = "normal"
 enUS = "Look at the sky!"
 zhCN = "看天空！"
 zhTW = "看天空！"
@@ -39,6 +44,7 @@ koKR = "하늘을 봐!"
 
 ["kulesz.Fireworks.AdvancedSettings"]
 raw = "Show advanced settings"
+status = "normal"
 enUS = "Show advanced settings"
 zhCN = "连续发射设置"
 zhTW = "顯示進階設定"
@@ -52,6 +58,7 @@ koKR = "고급 설정 표시"
 
 ["kulesz.Fireworks.Button.Launch"]
 raw = "Launch"
+status = "normal"
 enUS = "Launch"
 zhCN = "发射烟花"
 zhTW = "啟動"
@@ -65,6 +72,7 @@ koKR = "발사"
 
 ["kulesz.Fireworks.Button.LaunchAll"]
 raw = "Launch all ready"
+status = "normal"
 enUS = "Launch all ready"
 zhCN = "发射全部就绪烟花"
 zhTW = "發射所有已準備好"
@@ -78,6 +86,7 @@ koKR = "준비된 모든 발사"
 
 ["kulesz.Fireworks.Button.LaunchInProgress"]
 raw = "Shots left: {0} (next in {1}s)"
+status = "normal"
 enUS = "Shots left: {0} (next in {1}s)"
 zhCN = "剩余次数：{0}（倒计时：{1}秒）"
 zhTW = "剩餘發射次數：{0}（下一次在{1}秒後）"
@@ -91,6 +100,7 @@ koKR = "발사 중: {0}발 남음 (다음 발사는 {1}초 후)"
 
 ["kulesz.Fireworks.ExtraTime"]
 raw = "Extra flight time [s]"
+status = "normal"
 enUS = "Extra flight time [s]"
 zhCN = "额外飞行时间（秒）"
 zhTW = "額外飛行時間 [秒]"
@@ -104,6 +114,7 @@ koKR = "추가 비행 시간 [s]"
 
 ["kulesz.Fireworks.Heading.Header"]
 raw = "Heading [°]"
+status = "normal"
 enUS = "Heading [°]"
 zhCN = "水平朝向（°）"
 zhTW = "標題 [°]"
@@ -117,6 +128,7 @@ koKR = "제목 [°]"
 
 ["kulesz.Fireworks.HeadingChange"]
 raw = "Heading change after each shot [°]"
+status = "normal"
 enUS = "Heading change after each shot [°]"
 zhCN = "每次发射后水平朝向变化（°）"
 zhTW = "每次射擊後的方向變化 [°]"
@@ -130,6 +142,7 @@ koKR = "각 발사 후 방향 변화 [°]"
 
 ["kulesz.Fireworks.LaunchDelay"]
 raw = "Launch delay [s]"
+status = "normal"
 enUS = "Launch delay [s]"
 zhCN = "发射延迟（秒）"
 zhTW = "發射延遲 [秒]"
@@ -143,6 +156,7 @@ koKR = "발사 지연 [초]"
 
 ["kulesz.Fireworks.Pitch.Header"]
 raw = "Pitch [°]"
+status = "normal"
 enUS = "Pitch [°]"
 zhCN = "俯仰角度（°）"
 zhTW = "音高 [°]"
@@ -156,6 +170,7 @@ koKR = "피치 [°]"
 
 ["kulesz.Fireworks.PitchChange"]
 raw = "Pitch change after each shot [°]"
+status = "normal"
 enUS = "Pitch change after each shot [°]"
 zhCN = "每次发射后俯仰角度变化（°）"
 zhTW = "每次發射後的音調變化 [°]"
@@ -169,6 +184,7 @@ koKR = "각 발사 후 피치 변화 [°]"
 
 ["kulesz.Fireworks.ShotCount"]
 raw = "Firework count"
+status = "normal"
 enUS = "Firework count"
 zhCN = "发射次数"
 zhTW = "煙火數量"
@@ -182,6 +198,7 @@ koKR = "폭죽 수"
 
 ["kulesz.Fireworks.ShotInterval"]
 raw = "Shot interval [s]"
+status = "normal"
 enUS = "Shot interval [s]"
 zhCN = "发射间隔（秒）"
 zhTW = "發射間隔 [秒]"
@@ -195,6 +212,7 @@ koKR = "발사 간격 [초]"
 
 ["kulesz.Fireworks.Type"]
 raw = "Type"
+status = "normal"
 enUS = "Type"
 zhCN = "烟花类型"
 zhTW = "類型"
@@ -208,6 +226,7 @@ koKR = "타입"
 
 ["kulesz.Fireworks.Type.CometBlue"]
 raw = "Comet (blue)"
+status = "normal"
 enUS = "Comet (blue)"
 zhCN = "彗星型（蓝）"
 zhTW = "彗星（藍色）"
@@ -221,6 +240,7 @@ koKR = "코멧 (파란색)"
 
 ["kulesz.Fireworks.Type.CometRed"]
 raw = "Comet (red)"
+status = "normal"
 enUS = "Comet (red)"
 zhCN = "彗星型（红）"
 zhTW = "彗星（紅色）"
@@ -234,6 +254,7 @@ koKR = "혜성 (붉은색)"
 
 ["kulesz.Fireworks.Type.CometWhite"]
 raw = "Comet (white)"
+status = "normal"
 enUS = "Comet (white)"
 zhCN = "彗星型（白）"
 zhTW = "彗星（白色）"
@@ -247,6 +268,7 @@ koKR = "혜성 (흰색)"
 
 ["kulesz.Fireworks.Type.Fish"]
 raw = "Fish"
+status = "normal"
 enUS = "Fish"
 zhCN = "游鱼型"
 zhTW = "魚"
@@ -260,6 +282,7 @@ koKR = "물고기"
 
 ["kulesz.Fireworks.Type.Sparks"]
 raw = "Sparks"
+status = "normal"
 enUS = "Sparks"
 zhCN = "火花型"
 zhTW = "火花"
@@ -273,6 +296,7 @@ koKR = "스파크"
 
 ["kulesz.Fireworks.Type.KamuroBlue"]
 raw = "Kamuro (blue)"
+status = "normal"
 enUS = "Kamuro (blue)"
 zhCN = "冠菊型（蓝）"
 zhTW = "神樂（藍色）"
@@ -286,6 +310,7 @@ koKR = "카무로 (파랑)"
 
 ["kulesz.Fireworks.Type.KamuroOrange"]
 raw = "Kamuro (orange)"
+status = "normal"
 enUS = "Kamuro (orange)"
 zhCN = "冠菊型（橙）"
 zhTW = "神樂 (橙色)"
@@ -299,6 +324,7 @@ koKR = "카무로 (오렌지)"
 
 ["kulesz.Fireworks.Type.KamuroPink"]
 raw = "Kamuro (pink)"
+status = "normal"
 enUS = "Kamuro (pink)"
 zhCN = "冠菊型（粉）"
 zhTW = "神樂 (粉紅)"
@@ -312,6 +338,7 @@ koKR = "카무로 (핑크)"
 
 ["kulesz.Fireworks.Type.KamuroRed"]
 raw = "Kamuro (red)"
+status = "normal"
 enUS = "Kamuro (red)"
 zhCN = "冠菊型（红）"
 zhTW = "神樂（紅色）"
@@ -325,6 +352,7 @@ koKR = "카무로 (빨강)"
 
 ["kulesz.Fireworks.Type.KamuroWhite"]
 raw = "Kamuro (white)"
+status = "normal"
 enUS = "Kamuro (white)"
 zhCN = "冠菊型（白）"
 zhTW = "華麗白色(神無)"
@@ -338,6 +366,7 @@ koKR = "카무로 (흰색)"
 
 ["kulesz.Fireworks.Type.PalmBlue"]
 raw = "Palm (blue)"
+status = "normal"
 enUS = "Palm (blue)"
 zhCN = "棕榈型（蓝）"
 zhTW = "棕櫚（藍色）"
@@ -351,6 +380,7 @@ koKR = "팔므 (파란색)"
 
 ["kulesz.Fireworks.Type.PalmGold"]
 raw = "Palm (gold)"
+status = "normal"
 enUS = "Palm (gold)"
 zhCN = "棕榈型（金）"
 zhTW = "金棕櫚"
@@ -364,6 +394,7 @@ koKR = "야자수 (금)"
 
 ["kulesz.Fireworks.Type.PalmGreen"]
 raw = "Palm (green)"
+status = "normal"
 enUS = "Palm (green)"
 zhCN = "棕榈型（绿）"
 zhTW = "棕櫚（綠色）"
@@ -377,6 +408,7 @@ koKR = "야자수 (녹색)"
 
 ["kulesz.Fireworks.Type.PeonyRedBlue"]
 raw = "Peony (red & blue)"
+status = "normal"
 enUS = "Peony (red & blue)"
 zhCN = "牡丹型（红蓝）"
 zhTW = "牡丹花（紅色與藍色）"
@@ -390,6 +422,7 @@ koKR = "피오니 (빨강 & 파랑)"
 
 ["kulesz.Fireworks.Type.PeonyViolet"]
 raw = "Peony (violet)"
+status = "normal"
 enUS = "Peony (violet)"
 zhCN = "牡丹型（紫）"
 zhTW = "紫色牡丹"
@@ -403,6 +436,7 @@ koKR = "작품명: \"작약 (보라색)\""
 
 ["kulesz.Fireworks.Type.PeonyYellowGreen"]
 raw = "Peony (yellow & green)"
+status = "normal"
 enUS = "Peony (yellow & green)"
 zhCN = "牡丹型（黄绿）"
 zhTW = "牡丹花（黃色與綠色）"
@@ -416,6 +450,7 @@ koKR = "작약 (노란색 & 초록색)"
 
 ["kulesz.Fireworks.Type.Willow"]
 raw = "Willow"
+status = "normal"
 enUS = "Willow"
 zhCN = "柳树型"
 zhTW = "柳"
@@ -429,6 +464,7 @@ koKR = "버드나무"
 
 ["kulesz.KeyBinding.LaunchAll"]
 raw = "Launch all"
+status = "normal"
 enUS = "Launch all"
 zhCN = "全部发射"
 zhTW = "啟動全部"
@@ -442,6 +478,7 @@ koKR = "모두 발사"
 
 ["kulesz.KeyBindingGroup.Fireworks"]
 raw = "Fireworks"
+status = "normal"
 enUS = "Fireworks"
 zhCN = "烟花功能"
 zhTW = "煙火"
@@ -455,6 +492,7 @@ koKR = "폭죽"
 
 ["kulesz.Status.Fireworks.NotFull"]
 raw = "No explosives in stock to launch fireworks."
+status = "normal"
 enUS = "No explosives in stock to launch fireworks."
 zhCN = "临时库存炸药不足，无法发射烟花。"
 zhTW = "庫存中沒有可發射煙火的爆炸物。"

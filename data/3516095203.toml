@@ -1,5 +1,8 @@
+name = "Beaver Jukebox"
+
 ["LV.BJb.OpenFolder"]
 raw = "Open override folder"
+status = "normal"
 enUS = "Open override folder"
 zhCN = "打开覆盖文件夹"
 zhTW = "打開覆蓋資料夾"
@@ -13,6 +16,7 @@ koKR = "오버라이드 폴더 열기"
 
 ["LV.BJb.Muted"]
 raw = "Muted"
+status = "normal"
 enUS = "Muted"
 zhCN = "已静音"
 zhTW = "靜音"
@@ -26,6 +30,7 @@ koKR = "음소거됨"
 
 ["LV.BJb.ToggleMute"]
 raw = "Toggle mute"
+status = "normal"
 enUS = "Toggle mute"
 zhCN = "切换为静音"
 zhTW = "切換靜音"
@@ -39,6 +44,7 @@ koKR = "음소거 전환"
 
 ["LV.BJb.PlayOriginal"]
 raw = "Play original"
+status = "normal"
 enUS = "Play original"
 zhCN = "播放原声"
 zhTW = "播放原聲帶"
@@ -52,6 +58,7 @@ koKR = "원본 재생"
 
 ["LV.BJb.Play"]
 raw = "Play"
+status = "normal"
 enUS = "Play"
 zhCN = "播放"
 zhTW = "播放"
@@ -65,6 +72,7 @@ koKR = "플레이"
 
 ["LV.BJb.Replaced"]
 raw = "Replaced"
+status = "normal"
 enUS = "Replaced"
 zhCN = "已替换"
 zhTW = "替換"
@@ -78,6 +86,7 @@ koKR = "교체됨"
 
 ["LV.BJb.Restore"]
 raw = "Restore to original"
+status = "normal"
 enUS = "Restore to original"
 zhCN = "恢复原声"
 zhTW = "恢復到原始狀態"
@@ -91,6 +100,7 @@ koKR = "원래 상태로 복원"
 
 ["LV.BJb.Replace"]
 raw = "Replace"
+status = "normal"
 enUS = "Replace"
 zhCN = "替换"
 zhTW = "替換"
@@ -104,6 +114,7 @@ koKR = "교체"
 
 ["LV.BJb.StopAll"]
 raw = "Stop all playing"
+status = "normal"
 enUS = "Stop all playing"
 zhCN = "停止所有播放"
 zhTW = "停止所有遊戲"
@@ -117,6 +128,7 @@ koKR = "모두 멈추기"
 
 ["LV.BJb.Filter"]
 raw = "Filter"
+status = "normal"
 enUS = "Filter"
 zhCN = "筛选"
 zhTW = "濾網"

@@ -1,5 +1,8 @@
+name = "TImprove 4 Mods"
+
 ["LV.T4Mods.EnableAll"]
 raw = "Enable All"
+status = "normal"
 enUS = "Enable All"
 zhCN = "启用全部模组"
 zhTW = "啟用所有功能"
@@ -13,6 +16,7 @@ koKR = "모두 활성화"
 
 ["LV.T4Mods.DisableAll"]
 raw = "Disable All"
+status = "normal"
 enUS = "Disable All"
 zhCN = "禁用全部模组"
 zhTW = "禁用所有"
@@ -26,6 +30,7 @@ koKR = "모두 비활성화"
 
 ["LV.T4Mods.ConfirmEnableAll"]
 raw = "Are you sure you want to enable all mods?"
+status = "normal"
 enUS = "Are you sure you want to enable all mods?"
 zhCN = "确定要启用所有模组吗？"
 zhTW = "您確定要啟用所有模組嗎？"
@@ -39,6 +44,7 @@ koKR = "모든 모드를 활성화 하시겠습니까?"
 
 ["LV.T4Mods.ConfirmDisableAll"]
 raw = "Are you sure you want to disable all mods?"
+status = "normal"
 enUS = "Are you sure you want to disable all mods?"
 zhCN = "确定要禁用所有模组吗？"
 zhTW = "您是否確定要禁用所有模組？"
@@ -52,6 +58,7 @@ koKR = "모든 모드를 비활성화 하시겠습니까?"
 
 ["LV.T4Mods.LoadProfile"]
 raw = "Load profile"
+status = "normal"
 enUS = "Load profile"
 zhCN = "加载模组列表"
 zhTW = "載入個人檔案"
@@ -65,6 +72,7 @@ koKR = "프로필 로드"
 
 ["LV.T4Mods.SaveProfile"]
 raw = "Save profile"
+status = "normal"
 enUS = "Save profile"
 zhCN = "保存模组列表"
 zhTW = "保存個人資料"
@@ -78,6 +86,7 @@ koKR = "프로필 저장"
 
 ["LV.T4Mods.RestartGame"]
 raw = "OK & Restart the game"
+status = "normal"
 enUS = "OK & Restart the game"
 zhCN = "重启游戏"
 zhTW = "確定 & 重新開始遊戲"
@@ -91,6 +100,7 @@ koKR = "확인 및 게임 재시작"
 
 ["LV.T4Mods.Enabled"]
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "已启用"
 zhTW = "啟用"
@@ -104,6 +114,7 @@ koKR = "활성화됨"
 
 ["LV.T4Mods.Disabled"]
 raw = "Disabled"
+status = "normal"
 enUS = "Disabled"
 zhCN = "已禁用"
 zhTW = "禁用"
@@ -117,6 +128,7 @@ koKR = "비활성화됨"
 
 ["LV.T4Mods.CheckForIssue"]
 raw = "Check for issues"
+status = "normal"
 enUS = "Check for issues"
 zhCN = "排查模组问题"
 zhTW = "檢查問題"
@@ -130,6 +142,7 @@ koKR = "문제 확인"
 
 ["LV.T4Mods.NoIssue"]
 raw = "No issue found for your enabled mod list"
+status = "normal"
 enUS = "No issue found for your enabled mod list"
 zhCN = "当前启用的模组列表未发现问题。"
 zhTW = "您的啟用模組列表中未發現任何問題"
@@ -143,6 +156,7 @@ koKR = "활성화된 모드 목록에서 문제가 발견되지 않았습니다.
 
 ["LV.T4Mods.IssueObsolete"]
 raw = "The mod {0} is obsolete and should be removed."
+status = "normal"
 enUS = "The mod {0} is obsolete and should be removed."
 zhCN = "模组 {0} 已过时，建议移除。"
 zhTW = "模組 {0} 已經過時，應該被移除。"
@@ -156,6 +170,7 @@ koKR = "모드 {0}는 더 이상 사용되지 않으며 제거해야 합니다."
 
 ["LV.T4Mods.IssueObsoleteWRep"]
 raw = "The mod {0} is obsolete and should be removed. Use {1} instead."
+status = "normal"
 enUS = "The mod {0} is obsolete and should be removed. Use {1} instead."
 zhCN = "模组 {0} 已过时，建议移除，可以使用 {1} 替代。"
 zhTW = "模組 {0} 已過時，應該移除。請改用 {1}。"
@@ -169,6 +184,7 @@ koKR = "모드 {0}는 구식이며 제거해야 합니다. 대신 {1}을(를) �
 
 ["LV.T4Mods.IssueObsoleteWRepUrl"]
 raw = "The mod {0} is obsolete and should be removed. Use {1} instead. Do you want to open the mod's page?"
+status = "normal"
 enUS = "The mod {0} is obsolete and should be removed. Use {1} instead. Do you want to open the mod's page?"
 zhCN = "模组 {0} 已过时，建议移除，可以使用 {1} 替代。是否要打开模组页面？"
 zhTW = "模組 {0} 已過時，應該被移除。請改用 {1}。您想要打開該模組的頁面嗎？"
@@ -182,6 +198,7 @@ koKR = "모드 {0}는 더 이상 사용되지 않으므로 삭제해야 합니�
 
 ["LV.T4Mods.IssueIncomp"]
 raw = "The mod {0} is incompatible with {1}. Reason: {2}."
+status = "normal"
 enUS = "The mod {0} is incompatible with {1}. Reason: {2}."
 zhCN = "模组 {0} 与 {1} 不兼容。原因：{2}。"
 zhTW = "模組 {0} 與 {1} 不相容。原因：{2}。"
@@ -195,6 +212,7 @@ koKR = "모드 {0}은(는) {1}과(와) 호환되지 않습니다. 이유: {2}."
 
 ["LV.T4Mods.IncompReasonUnknown"]
 raw = "Unknown"
+status = "normal"
 enUS = "Unknown"
 zhCN = "未知原因"
 zhTW = "未知"
@@ -208,6 +226,7 @@ koKR = "불명"
 
 ["LV.T4Mods.IncompReasonReplace"]
 raw = "Newer mod replaces it"
+status = "normal"
 enUS = "Newer mod replaces it"
 zhCN = "新版模组已替代"
 zhTW = "較新的模組取代了它"
@@ -221,6 +240,7 @@ koKR = "더 새로운 모드가 이를 대체합니다"
 
 ["LV.T4Mods.IncompReasonConflict"]
 raw = "Conflicts with one another"
+status = "normal"
 enUS = "Conflicts with one another"
 zhCN = "相互冲突"
 zhTW = "相互衝突"
@@ -234,6 +254,7 @@ koKR = "서로 충돌합니다"
 
 ["LV.T4Mods.AuthorNote"]
 raw = "The mod author's note: {0}"
+status = "normal"
 enUS = "The mod author's note: {0}"
 zhCN = "模组作者说明：“{0}”"
 zhTW = "模組作者備註：{0}"

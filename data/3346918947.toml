@@ -1,5 +1,16 @@
+name = "Mods Universal Translate"
+
+["Building.ShantySpeaker.Description"]
+new = "Plays a work song that assists the beavers with their daily tasks."
+status = "normal"
+
+["Building.ShantySpeaker.DisplayName"]
+new = "Shanty Speaker"
+status = "normal"
+
 ["Need.Bench.DisplayName"]
 raw = "Müde"
+status = "abandoned"
 enUS = "Tired"
 zhCN = "疲倦"
 zhTW = "累"
@@ -13,6 +24,7 @@ koKR = "피곤한"
 
 ["Need.Bench.CriticalDescription"]
 raw = "Muss auf der Bank sitzen."
+status = "abandoned"
 enUS = "Must sit on the bench."
 zhCN = "需要在长椅上休息。"
 zhTW = "必須坐在長椅上。"
@@ -26,6 +38,7 @@ koKR = "벤치에 앉아야 합니다."
 
 ["Status.Need.Tired.Short"]
 raw = "Der Biber ist müde."
+status = "abandoned"
 enUS = "The beaver is tired."
 zhCN = "海狸很疲倦"
 zhTW = "海狸很累。"

@@ -1,5 +1,8 @@
+name = "Quick Start"
+
 ["LV.QS.AutoContinueShift"]
 raw = "Auto load by holding Shift"
+status = "normal"
 enUS = "Auto load by holding Shift"
 zhCN = "按住Shift自动加载"
 zhTW = "按住 Shift，自動加載"
@@ -13,6 +16,7 @@ koKR = "Shift 키를 눌러 자동 로드"
 
 ["LV.QS.AutoContinueShiftDesc"]
 raw = "Automatically load the last saved game (like clicking the Continue button) when holding Shift during the game start."
+status = "normal"
 enUS = "Automatically load the last saved game (like clicking the Continue button) when holding Shift during game startup."
 zhCN = "勾选后，在游戏启动时按住Shift键，会自动加载最后一次保存的游戏（类似于“继续游戏”）。"
 zhTW = "在遊戲開始時按住 Shift 鍵，自動加載最後保存的遊戲（就像點擊繼續按鈕一樣）。"
@@ -26,6 +30,7 @@ koKR = "게임 시작 시 Shift 키를 누르고 있을 때 마지막 저장된 
 
 ["LV.QS.AutoContinueShiftToCancel"]
 raw = "  Hold Shift to cancel instead"
+status = "normal"
 enUS = "Hold Shift to cancel instead."
 zhCN = "  改为按住Shift取消加载"
 zhTW = "按住 Shift 鍵以取消操作"
@@ -39,6 +44,7 @@ koKR = "Shift 키를 눌러 취소하세요"
 
 ["LV.QS.AutoContinueShiftToCancelDesc"]
 raw = "Always load the last save unless you hold Shift during the game start."
+status = "normal"
 enUS = "Always load the last save unless you hold Shift during the game start."
 zhCN = "勾选后，除非在游戏启动时按住Shift键，否则会自动加载最后一次保存的游戏。"
 zhTW = "總是載入最近保存的遊戲，除非在遊戲開始時按住 Shift 鍵。"
@@ -52,6 +58,7 @@ koKR = "게임 시작 중에 Shift 키를 누르고 있지 않는 한 마지막 
 
 ["LV.QS.AutoLoadMap"]
 raw = "  Auto load Map Editor instead"
+status = "normal"
 enUS = "  Auto load Map Editor instead"
 zhCN = "  改为自动加载地图编辑器"
 zhTW = "自動載入地圖編輯器取而代之"
@@ -65,6 +72,7 @@ koKR = "대신 맵 편집기를 자동 로드"
 
 ["LV.QS.AutoLoadMapDesc"]
 raw = "Automatically load the Map Editor when starting the game, like a Continue button but for Map Editor"
+status = "normal"
 enUS = "Automatically load the Map Editor when starting the game, like a Continue button but for Map Editor"
 zhCN = "勾选后，在游戏启动时按住Shift键，会自动加载地图编辑器。"
 zhTW = "在啟動遊戲時自動加載地圖編輯器，就像一個但用於地圖編輯器的繼續按鈕。"
@@ -78,6 +86,7 @@ koKR = "게임 시작 시 맵 편집기를 자동으로 로드합니다. Continu
 
 ["LV.QS.PromptContinue"]
 raw = "Press Shift to auto Continue"
+status = "normal"
 enUS = "Press Shift to auto Continue"
 zhCN = "按下Shift键自动加载游戏"
 zhTW = "按下 Shift 鍵自動繼續"
@@ -91,6 +100,7 @@ koKR = "Shift를 눌러 자동 계속 진행"
 
 ["LV.QS.PromptLoadMap"]
 raw = "Press Shift to auto load Map Editor"
+status = "normal"
 enUS = "Press Shift to auto load Map Editor"
 zhCN = "按下Shift键自动加载地图编辑器"
 zhTW = "按住 Shift 鍵自動加載地圖編輯器"
@@ -104,6 +114,7 @@ koKR = "Shift를 눌러 맵 편집기를 자동 로드합니다."
 
 ["LV.QS.PromptCancelContinue"]
 raw = "Press Shift to cancel auto Continue"
+status = "normal"
 enUS = "Press Shift to cancel auto Continue"
 zhCN = "按下Shift键取消自动加载游戏"
 zhTW = "按下 Shift 取消自動繼續"
@@ -117,6 +128,7 @@ koKR = "자동 계속을 취소하려면 Shift 키를 눌러주세요"
 
 ["LV.QS.PromptCancelLoadMap"]
 raw = "Press Shift to cancel auto load Map Editor"
+status = "normal"
 enUS = "Press Shift to cancel auto load Map Editor"
 zhCN = "按下Shift键取消自动加载地图编辑器"
 zhTW = "按住 Shift 鍵取消自動加載地圖編輯器"

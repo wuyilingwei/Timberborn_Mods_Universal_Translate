@@ -1,5 +1,8 @@
+name = "Stream Gauge Volume"
+
 ["LV.SGV.Volume"]
 raw = "Volume: {0}"
+status = "normal"
 enUS = "Volume: {0}"
 zhCN = "水体体积：{0}"
 zhTW = "音量: {0}"
@@ -13,6 +16,7 @@ koKR = "볼륨: {0}"
 
 ["LV.SGV.CellsCount"]
 raw = "Counted in {0} blocks"
+status = "normal"
 enUS = "Counted in {0} blocks"
 zhCN = "水体涉及的方块：{0}"
 zhTW = "計算在 {0} 區塊中"
@@ -26,6 +30,7 @@ koKR = "{0} 블록으로 계산됨"
 
 ["LV.SGV.Measure"]
 raw = "Measure volume"
+status = "normal"
 enUS = "Measure volume"
 zhCN = "测量水体体积"
 zhTW = "測量體積"

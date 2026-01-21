@@ -1,5 +1,8 @@
+name = "The Architects Toolkit"
+
 ["LV.TAT.UnlimitedMapSize"]
 raw = "Unlimited map size"
+status = "normal"
 enUS = "Unlimited map size"
 zhCN = "无限地图大小"
 zhTW = "無限制的地圖大小"
@@ -13,6 +16,7 @@ koKR = "무제한 지도 크기"
 
 ["LV.TAT.UnlimitedMapSizeDesc"]
 raw = "Remove the default map size limit of 256x256"
+status = "normal"
 enUS = "Remove the default map size limit of 256x256."
 zhCN = "勾选后，解除默认的256x256地图大小限制。"
 zhTW = "移除預設的地圖大小限制256x256"
@@ -26,6 +30,7 @@ koKR = "기본 맵 크기 제한 256x256을 해제합니다."
 
 ["LV.TAT.GameToMap"]
 raw = "Save game as map"
+status = "normal"
 enUS = "Save game as map"
 zhCN = "将游戏保存为地图"
 zhTW = "將遊戲儲存為地圖"
@@ -39,6 +44,7 @@ koKR = "맵으로 게임 저장"
 
 ["LV.TAT.GameToMapDesc"]
 raw = "Allow using your normal game to be saved into maps. The buttons will show up on the top-left corner when you play the game. You can also upload that map to Steam Workshop. NOT in Map Editor."
+status = "normal"
 enUS = "Allow saving your normal game into maps. The buttons will appear in the top-left corner while you play the game. You can also upload that map to the Steam Workshop. NOT in Map Editor."
 zhCN = "勾选后，游玩时会在左上角显示相关按钮，可以将正常游戏保存为带有建筑的地图，其他玩家游玩此地图时无需安装此模组。<br>注意，保存的地图不适用于地图编辑器。"
 zhTW = "允許將您正常的遊戲儲存到地圖中。當您玩遊戲時，按鈕將顯示在左上角。您也可以將該地圖上傳到 Steam 工作坊。不是在地圖編輯器中。"
@@ -52,6 +58,7 @@ koKR = "게임을 맵으로 저장할 수 있도록 허용합니다. 게임을 �
 
 ["LV.TAT.LockOnSaveMap"]
 raw = "  Revert unlocking buildings"
+status = "normal"
 enUS = "Revert unlocking buildings"
 zhCN = "恢复锁定建筑"
 zhTW = "恢復解鎖建築物"
@@ -65,6 +72,7 @@ koKR = "건물 잠금 해제 되돌리기"
 
 ["LV.TAT.LockOnSaveMapDesc"]
 raw = "When saving a map, revert the buildings to their original locked state. You may have unlocked them while making the map. If you do not check this, the buildings will remain unlocked for players starting a new game."
+status = "normal"
 enUS = "When saving a map, revert the buildings to their original locked state. You may have unlocked them while making the map. If you do not check this, the buildings will remain unlocked for players starting a new game."
 zhCN = "勾选后，保存游戏地图时，将已解锁的建筑重新锁定，其他玩家游玩此地图时需要重新解锁。"
 zhTW = "在保存地圖時，將建築物恢復到其原始鎖定狀態。您可能在製作地圖時已經解鎖了它們。如果不勾選此選項，建築物將對開始新遊戲的玩家保持解鎖狀態。"
@@ -78,6 +86,7 @@ koKR = "지도 저장 시 건물을 원래 잠금 상태로 되돌립니다. 지
 
 ["LV.TAT.DefaultWaterSourceStrength"]
 raw = "Default water source strength"
+status = "normal"
 enUS = "Default water source strength"
 zhCN = "默认水源强度"
 zhTW = "預設水源強度"
@@ -91,6 +100,7 @@ koKR = "기본 물 공급원 강도"
 
 ["LV.TAT.DefaultWaterSourceStrengthDesc"]
 raw = "The default water source strength when placing water sources in the Map Editor. This applies to both fresh and bad water sources."
+status = "normal"
 enUS = "The default water source strength when placing water sources in the Map Editor. This applies to both fresh and contaminated water sources."
 zhCN = "在地图编辑器中放置水源时的默认水力大小，适用于水源石和恶水源。"
 zhTW = "在地圖編輯器中放置水源時的預設水源強度。這適用於新鮮水源和劣質水源。"
@@ -104,6 +114,7 @@ koKR = "지도 편집기에 물 공급원을 배치할 때의 기본 물 공급�
 
 ["LV.TAT.CopyObjects"]
 raw = "Copy objects"
+status = "normal"
 enUS = "Copy objects"
 zhCN = "镜像复制物体"
 zhTW = "複製物件"
@@ -117,6 +128,7 @@ koKR = "물체 복사"
 
 ["LV.TAT.Size0"]
 raw = "Width (X):"
+status = "normal"
 enUS = "Width (X):"
 zhCN = "镜像点位置 (X):"
 zhTW = "寬度 (X)："
@@ -130,6 +142,7 @@ koKR = "너비 (X):"
 
 ["LV.TAT.Size1"]
 raw = "Breath (Y):"
+status = "normal"
 enUS = "Breath (Y):"
 zhCN = "镜像点位置 (Y):"
 zhTW = "呼吸 (Y):"

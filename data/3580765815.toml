@@ -1,5 +1,8 @@
+name = "Packager Builder"
+
 ["LV.Pkg.BuildPackager"]
 raw = "Build Packager Mod"
+status = "normal"
 enUS = "Build Packager Mod"
 zhCN = "构建Packager模组"
 zhTW = "建造包裝器模組"
@@ -13,6 +16,7 @@ koKR = "빌드 패키저 모드"
 
 ["LV.Pkg.BuiltDone"]
 raw = "'Packager' mod built. Please restart the game and enable the built mod.\n<RedHighlight>Do not disable this mod.</RedHighlight>\nIf you want to build the mod again (for example, after changing mods that give/remove items), simply disable the built mod and the button will appear again."
+status = "normal"
 enUS = "'Packager' mod built. Please restart the game and enable the built mod.\n<RedHighlight>Do not disable this mod.</RedHighlight>\nIf you want to build the mod again (for example, after changing mods that give/remove items), simply disable the built mod and the button will appear again."
 zhCN = "Packager模组已构建。请重启游戏，并启用已构建的模组。<br><color=#FF4C4C>警告：</color>启用Packager模组时，请勿禁用此模组。<br>若需重新构建Packager模组（例如在更改提供/移除物品的模组后），请先禁用已构建的模组并重启游戏，按钮将再次出现。"
 zhTW = "「'包裝器'模組已建立。請重新啟動遊戲並開啟已建立的模組。\n<RedHighlight>請勿停用此模組。</RedHighlight>\n如果您想重新建立模組（例如，在更改給予/移除物品的模組之後），只需停用已建立的模組，按鈕將再次出現。」"
@@ -26,6 +30,7 @@ koKR = "‘패키저’ 모드가 생성되었습니다. 게임을 재시작하�
 
 ["LV.Pkg.Restart"]
 raw = "Restart"
+status = "normal"
 enUS = "Restart"
 zhCN = "重启"
 zhTW = "重啟"
@@ -39,6 +44,7 @@ koKR = "재시작"
 
 ["LV.Pkg.PackagedName"]
 raw = "{0} ×10"
+status = "normal"
 enUS = "{0} ×10"
 zhCN = "{0} ×10"
 zhTW = "{0} ×10"
@@ -52,6 +58,7 @@ koKR = "{0} ×10"
 
 ["LV.Pkg.PackagedNamePlural"]
 raw = "{0} ×10"
+status = "normal"
 enUS = "{0} ×10"
 zhCN = "{0} ×10"
 zhTW = "{0} ×10"
@@ -65,6 +72,7 @@ koKR = "{0} ×10"
 
 ["LV.Pkg.Packager"]
 raw = "Packager"
+status = "normal"
 enUS = "Packager"
 zhCN = "打包机"
 zhTW = "包裝器"
@@ -78,6 +86,7 @@ koKR = "패키저"
 
 ["LV.Pkg.PackagerDesc"]
 raw = "Combines 10× of any supported good into a single package"
+status = "normal"
 enUS = "Combines 10× of any supported good into a single package"
 zhCN = "将十个物品打包成一个包裹。"
 zhTW = "將10個任何支持的物品組合成一個包裝"
@@ -91,6 +100,7 @@ koKR = "지원되는 모든 아이템 10개를 하나의 패키지로 결합합�
 
 ["LV.Pkg.PackagerFlavor"]
 raw = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
+status = "normal"
 enUS = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
 zhCN = "因需求而生，为整洁而精。杂乱所在处，必有打包机。"
 zhTW = "源自需求，經由愛整潔者完善。在凌亂中，總有一個打包者。"
@@ -104,6 +114,7 @@ koKR = "필요에서 태어나, 깔끔을 추구하는 이들에 의해 완성�
 
 ["LV.Pkg.Unpacker"]
 raw = "Unpackager"
+status = "normal"
 enUS = "Unpackager"
 zhCN = "拆包机"
 zhTW = "解包者"
@@ -117,6 +128,7 @@ koKR = "언팩커"
 
 ["LV.Pkg.UnpackerDesc"]
 raw = "Unpacks a package back into 10× individual goods."
+status = "normal"
 enUS = "Unpacks a package back into 10× individual goods."
 zhCN = "将包裹拆解还原成十个物品。"
 zhTW = "將包裹拆解為10個單獨物品。"
@@ -130,6 +142,7 @@ koKR = "패키지를 10개의 개별 품목으로 다시 풀어냅니다."
 
 ["LV.Pkg.UnpackerFlavor"]
 raw = "Nothing delights a beaver more than unboxing the unexpected."
+status = "normal"
 enUS = "Nothing delights a beaver more than unboxing the unexpected."
 zhCN = "没有什么比拆开未知包裹更让海狸欣喜的了。"
 zhTW = "沒有什麼比意外的開箱更讓海狸感到高興的了。"
@@ -143,6 +156,7 @@ koKR = "예상치 못한 것을 포장 해제하는 것만큼 비버를 기쁘�
 
 ["LV.Pkg.RecipePack"]
 raw = "Pack {0}"
+status = "normal"
 enUS = "Pack {0}"
 zhCN = "打包 {0}"
 zhTW = "包 {0}"
@@ -156,6 +170,7 @@ koKR = "팩 {0}"
 
 ["LV.Pkg.RecipeUnpack"]
 raw = "Unpack {0}"
+status = "normal"
 enUS = "Unpack {0}"
 zhCN = "拆包 {0}"
 zhTW = "解壓縮 {0}"
@@ -169,6 +184,7 @@ koKR = "{0} 풀기"
 
 ["LV.Pkg.BulkCrate"]
 raw = "Bulk Crate"
+status = "normal"
 enUS = "Bulk Crate"
 zhCN = "板条箱"
 zhTW = "大宗箱"
@@ -182,6 +198,7 @@ koKR = "벌크 상자"
 
 ["LV.Pkg.BulkCratePlural"]
 raw = "Bulk Crates"
+status = "normal"
 enUS = "Bulk Crates"
 zhCN = "板条箱"
 zhTW = "大量箱子"
@@ -195,6 +212,7 @@ koKR = "대형 상자"
 
 ["LV.Pkg.LiquidBarrel"]
 raw = "Liquid Barrel"
+status = "normal"
 enUS = "Liquid Barrel"
 zhCN = "密封桶"
 zhTW = "液體桶"
@@ -208,6 +226,7 @@ koKR = "액체 통"
 
 ["LV.Pkg.LiquidBarrelPlural"]
 raw = "Liquid Barrels"
+status = "normal"
 enUS = "Liquid Barrels"
 zhCN = "密封桶"
 zhTW = "液體桶"
@@ -221,6 +240,7 @@ koKR = "액체 배럴"
 
 ["LV.Pkg.Option10"]
 raw = "Enable 10× Packaging"
+status = "normal"
 enUS = "Enable 10× Packaging"
 zhCN = "启用10倍包装"
 zhTW = "啟用10×包裝"
@@ -234,6 +254,7 @@ koKR = "10배 포장 활성화"
 
 ["LV.Pkg.Option10Desc"]
 raw = "Allows packing 10× of goods into a single item"
+status = "normal"
 enUS = "Allows packing 10× of goods into a single item"
 zhCN = "勾选后，允许将十个物品打包成一个包裹。"
 zhTW = "允許將10×的貨物打包成單一物品"
@@ -247,6 +268,7 @@ koKR = "상품 10개를 단일 아이템으로 포장할 수 있습니다."
 
 ["LV.Pkg.OptionCrate"]
 raw = "Enable Bulk Crates (Pile → Warehouse)"
+status = "normal"
 enUS = "Enable Bulk Crates (Pile → Warehouse)"
 zhCN = "启用板条箱（材料堆→仓库）"
 zhTW = "啟用大宗貨箱（堆積 → 倉庫）"
@@ -260,6 +282,7 @@ koKR = "대량 크레이트 활성화 (더미 → 창고)"
 
 ["LV.Pkg.OptionCrateDesc"]
 raw = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
+status = "normal"
 enUS = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
 zhCN = "勾选后，允许将材料堆的大型资源打包成板条箱，可以在仓库中存储。"
 zhTW = "允許將堆積物品包裝成大宗箱，以便在倉庫中儲存"
@@ -273,6 +296,7 @@ koKR = "창고에 보관하기 위해 무더기 상품을 대형 상자에 포�
 
 ["LV.Pkg.OptionBarrel"]
 raw = "Enable Liquid Barrels (Tank → Warehouse)"
+status = "normal"
 enUS = "Enable Liquid Barrels (Tank → Warehouse)"
 zhCN = "启用密封桶（储水罐→仓库）"
 zhTW = "啟用液體桶（槽 → 倉庫）"
@@ -286,6 +310,7 @@ koKR = "액체 배럴 활성화 (탱크 → 창고)"
 
 ["LV.Pkg.OptionBarrelDesc"]
 raw = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
+status = "normal"
 enUS = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
 zhCN = "勾选后，允许将储水罐的液体打包成密封桶，可以在仓库中存储。"
 zhTW = "允許將坦克液體包裝成液體桶以便在倉庫中存儲"
@@ -299,6 +324,7 @@ koKR = "창고에 보관하기 위해 탱크 액체를 액체 드럼에 포장�
 
 ["LV.Pkg.PackagedCrateName"]
 raw = "{0} ×10 Crated"
+status = "normal"
 enUS = "{0} ×10 Crated"
 zhCN = "{0} ×10 箱装"
 zhTW = "{0} ×10 包裝箱"
@@ -312,6 +338,7 @@ koKR = "{0} ×10 포장된 상자"
 
 ["LV.Pkg.PackagedCrateNamePlural"]
 raw = "{0} ×10 Crated"
+status = "normal"
 enUS = "{0} ×10 Crated"
 zhCN = "{0} ×10 箱装"
 zhTW = "{0} ×10 包裝箱"
@@ -325,6 +352,7 @@ koKR = "{0} ×10 포장된"
 
 ["LV.Pkg.PackagedBarrelName"]
 raw = "{0} ×10 Barreled"
+status = "normal"
 enUS = "{0} ×10 Barreled"
 zhCN = "{0} ×10 桶装"
 zhTW = "{0} ×10 裝桶"
@@ -338,6 +366,7 @@ koKR = "{0} ×10 통에 담긴"
 
 ["LV.Pkg.PackagedBarrelNamePlural"]
 raw = "{0} ×10 Barreled"
+status = "normal"
 enUS = "{0} ×10 Barreled"
 zhCN = "{0} ×10 桶装"
 zhTW = "{0} ×10 裝桶"
@@ -351,6 +380,7 @@ koKR = "{0} ×10 통에 담긴"
 
 ["LV.Pkg.RecipePackCrate"]
 raw = "Pack & Crate {0}"
+status = "normal"
 enUS = "Pack & Crate {0}"
 zhCN = "打包并装箱 {0}"
 zhTW = "包裝與箱子 {0}"
@@ -364,6 +394,7 @@ koKR = "포장 및 상자 {0}"
 
 ["LV.Pkg.RecipeUnpackCrate"]
 raw = "Uncrate {0}"
+status = "normal"
 enUS = "Uncrate {0}"
 zhCN = "拆箱 {0}"
 zhTW = "開箱 {0}"
@@ -377,6 +408,7 @@ koKR = "상자 열기 {0}"
 
 ["LV.Pkg.RecipePackBarrel"]
 raw = "Pack & Barrel {0}"
+status = "normal"
 enUS = "Pack & Barrel {0}"
 zhCN = "打包并装桶 {0}"
 zhTW = "包裝與桶 {0}"
@@ -390,6 +422,7 @@ koKR = "포장하고 배럴 {0}"
 
 ["LV.Pkg.RecipeUnpackBarrel"]
 raw = "Unbarrel {0}"
+status = "normal"
 enUS = "Unbarrel {0}"
 zhCN = "拆桶 {0}"
 zhTW = "拆開桶裝 {0}"
@@ -403,6 +436,7 @@ koKR = "통에서 빼내기 {0}"
 
 ["LV.Pkg.TransformedGoodGroup"]
 raw = "Crated & Barreled Goods"
+status = "normal"
 enUS = "Crated & Barreled Goods"
 zhCN = "箱装和桶装物品"
 zhTW = "包裝與裝桶產品"
@@ -416,6 +450,7 @@ koKR = "상자 및 통에 담긴 상품"
 
 ["LV.Pkg.Update710"]
 raw = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
+status = "normal"
 enUS = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
 zhCN = "本次更新为您提供两个新增选项：板条箱和密封桶，以便您能在仓库中存储材料堆和储水罐的物品。查看Steam或Mod.io上的模组说明以获取更多详情。"
 zhTW = "此更新為您提供了兩個新的附加選項：大宗箱和液體桶，以便您可以在倉庫中儲存堆積和罐裝物品。請查看Steam或Mod.io上的模組描述以獲取更多詳細資訊。"

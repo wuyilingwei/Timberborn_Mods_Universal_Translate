@@ -1,5 +1,8 @@
+name = "Dirt"
+
 ["Good.EcologicalPlank.PluralDisplayName"]
 raw = "Produce planks recovering sawdust"
+status = "normal"
 enUS = "Produce planks from reclaimed sawdust."
 zhCN = "木板+泥土"
 zhTW = "製作回收鋸屑的木板"
@@ -13,6 +16,7 @@ koKR = "톱밥을 회수하는 판자를 생산합니다"
 
 ["Good.Dust.PluralDisplayName"]
 raw = "Produce dirt"
+status = "normal"
 enUS = "Produce dirt"
 zhCN = "泥土"
 zhTW = "產生污垢"
@@ -26,6 +30,7 @@ koKR = "흙 생산"
 
 ["Grease.CriticalDescription"]
 raw = "Need grease to work"
+status = "normal"
 enUS = "Need grease to operate."
 zhCN = "需要松脂才能运作。"
 zhTW = "需要潤滑脂才能工作"
@@ -39,6 +44,7 @@ koKR = "작동하려면 기름이 필요합니다"
 
 ["Need.Grease.DeathMessage"]
 raw = "Rusted due to lack of grease"
+status = "normal"
 enUS = "Rusted because of lack of grease."
 zhCN = "由于缺乏松脂而生锈。"
 zhTW = "因缺乏潤滑油而生鏽"
@@ -52,6 +58,7 @@ koKR = "그리스 부족으로 녹슨"
 
 ["Building.NaturalOverhang1.Description"]
 raw = "A protruding rock platform which can act as a bridge or a foundation for other buildings."
+status = "normal"
 enUS = "A protruding rock platform that can serve as a bridge or a foundation for other buildings."
 zhCN = "经过艰苦研究，海狸们可以用泥土仿造自然悬挑了。"
 zhTW = "一個突出的岩石平台，可以作為橋樑或其他建築的基礎。"
@@ -65,6 +72,7 @@ koKR = "다른 건물의 다리나 기초로 사용할 수 있는 돌출된 바�
 
 ["Building.NaturalOverhang12.Description"]
 raw = "A protruding rock which can act as a foundation for other buildings. Stops water and leaking."
+status = "normal"
 enUS = "A protruding rock that can serve as a foundation for other buildings. It prevents water and leaks."
 zhCN = "虽然很相似，但这个是可以拆掉的建筑，不能种地。"
 zhTW = "一塊突出的大岩石，可以作為其他建築的基礎。防止水分和滲漏。"
@@ -78,6 +86,7 @@ koKR = "다른 건물의 기초로 사용할 수 있는 돌출된 바위입니�
 
 ["Building.NaturalOverhang1x11.DisplayName"]
 raw = "Stone Wall 1x1"
+status = "normal"
 enUS = "Stone Wall 1x1"
 zhCN = "岩石块"
 zhTW = "石牆 1x1"
@@ -91,6 +100,7 @@ koKR = "1x1 돌 벽"
 
 ["Building.NaturalOverhang2x11.DisplayName"]
 raw = "Stone Overhang 2x1"
+status = "normal"
 enUS = "Stone Overhang 2x1"
 zhCN = "岩石悬挑 2x1"
 zhTW = "石頭懸崖 2x1"
@@ -104,6 +114,7 @@ koKR = "돌 돌출부 2x1"
 
 ["Building.NaturalOverhang3x11.DisplayName"]
 raw = "Stone Overhang 3x1"
+status = "normal"
 enUS = "Stone Overhang 3x1"
 zhCN = "岩石悬挑 3x1"
 zhTW = "石頭懸臂 3x1"
@@ -117,6 +128,7 @@ koKR = "석재 돌출부 3x1"
 
 ["Building.NaturalOverhang4x11.DisplayName"]
 raw = "Stone Overhang 4x1"
+status = "normal"
 enUS = "Stone Overhang 4x1"
 zhCN = "岩石悬挑 4x1"
 zhTW = "石頭懸挑 4x1"
@@ -130,6 +142,7 @@ koKR = "석재 돌출부 4x1"
 
 ["Building.LumberMill.ToggleLabel"]
 raw = "Recipe:"
+status = "normal"
 enUS = "Recipe:"
 zhCN = "配方："
 zhTW = "食譜："

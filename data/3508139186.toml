@@ -1,5 +1,8 @@
+name = "Redsurge (Badtide Monsoon)"
+
 ["LV.MWRS.Redsurge"]
 raw = "Redsurge"
+status = "normal"
 enUS = "Redsurge"
 zhCN = "血汛潮"
 zhTW = "紅潮"
@@ -13,6 +16,7 @@ koKR = "레드서지"
 
 ["LV.MWRS.RedsurgeMultiplier"]
 raw = "Redsurge maximum multiplier"
+status = "normal"
 enUS = "Redsurge maximum multiplier"
 zhCN = "血汛潮最大倍率"
 zhTW = "Redsurge 最大乘數"
@@ -26,6 +30,7 @@ koKR = "레드서지 최대 배수"
 
 ["LV.MWRS.RedsurgeMultiplierDesc"]
 raw = "The maximum additional multiplier for the Redsurge weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
+status = "normal"
 enUS = "The maximum additional multiplier for the Redsurge weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
 zhCN = "血汛潮时水源的额外水力倍率，即水源的水力会变为“水力×(基础倍率+额外倍率)”。<br>注意，此数值受天气初始强度值、适应周期数影响。"
 zhTW = "在最大情況下，紅潮天氣的最大額外乘數（無障礙）。這個數值會受到像持續時間這樣的障礙影響。默認值：2.5（250%），這意味著當不應用障礙時（默認周期為5），所有水源的強度為350%。"
@@ -39,6 +44,7 @@ koKR = "레드서지 날씨에서 최대 추가 배율 (핸디캡 없음)입니�
 
 ["LV.MWRS.RedsurgeDesc"]
 raw = "Hazardous weather: Combined effect of Monsoon and Badtide."
+status = "normal"
 enUS = "Hazardous weather: Combined effect of Monsoon and Badtide."
 zhCN = "模组扩展的恶劣类天气，狂暴的恶水赤红如血，所过之处再无生机。<br>- 所有水源都会流出恶水。<br>- 所有水源的水力都会额外增加300%（模组默认，可更改），但不超过游戏限制。"
 zhTW = "危險天氣：季風與壞潮的聯合影響。"

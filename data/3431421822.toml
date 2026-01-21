@@ -1,5 +1,8 @@
+name = "Water Extention PowerEdition"
+
 ["Knatte.PowerLevee.DisplayName"]
 raw = "Powered Leeve"
+status = "normal"
 enUS = "Powered Sleeve"
 zhCN = "四向传动防洪堤"
 zhTW = "動力袖"
@@ -13,6 +16,7 @@ koKR = "전력 리프"
 
 ["Knatte.PowerLevee.Description"]
 raw = "Levee that has shaft in it to power pumps.\nBoth Horizontal and vertical"
+status = "normal"
 enUS = "Levee that has a shaft in it to power pumps. Both horizontal and vertical."
 zhCN = "能在四个方向上传输能量的防洪堤。"
 zhTW = "有軸心的堤壩以供給泵使用。包括水平和垂直兩種。"
@@ -26,6 +30,7 @@ koKR = "펌프를 작동시키기 위해 샤프트가 있는 제방입니다. �
 
 ["Knatte.UPowerLevee.DisplayName"]
 raw = "Universal Powered Leeve"
+status = "normal"
 enUS = "Universal Powered Sleeve"
 zhCN = "六向传动防洪堤"
 zhTW = "通用電源袖子"
@@ -39,6 +44,7 @@ koKR = "유니버설 전력 레벨"
 
 ["Knatte.UPowerLevee.Description"]
 raw = "Levee that has shaft in it to power pumps.\nConnected to all sides"
+status = "normal"
 enUS = "Levee that has a shaft in it to power pumps. Connected to all sides."
 zhCN = "能在所有方向上传输能量的防洪堤。"
 zhTW = "有軸的堤防用來驅動泵浦。連接到所有側面"
@@ -52,6 +58,7 @@ koKR = "펌프를 작동시키기 위한 수로가 있는 제방. 모든 면에 
 
 ["Knatte.LargeWaterWheelLevee.DisplayName"]
 raw = "Large Water Wheel with Levee"
+status = "normal"
 enUS = "Large Water Wheel with Levee"
 zhCN = "防洪大水轮"
 zhTW = "大型水車與堤防"
@@ -65,6 +72,7 @@ koKR = "제방이 있는 대형 수차"
 
 ["Knatte.LargeWaterWheelLevee.Description"]
 raw = "Water wheel that also has a sloped Levee to help keep water inside channels and not overspill"
+status = "normal"
 enUS = "Water wheel that also has a sloped levee to help keep water inside channels and prevent overspill."
 zhCN = "在侧面支撑上加装了防洪堤的大水轮，上面可以建造平台。"
 zhTW = "水車，還有一個傾斜的堤防，以幫助保持水流在渠道內，不至於溢出。"
@@ -78,6 +86,7 @@ koKR = "물의 흐름을 유지하고 넘치지 않도록 돕는 경사진 둑�
 
 ["Knatte.TurbineSmall.DisplayName"]
 raw = "Turbine Small"
+status = "normal"
 enUS = "Small Turbine"
 zhCN = "小型涡轮机"
 zhTW = "小型渦輪機"
@@ -91,6 +100,7 @@ koKR = "소형 터빈"
 
 ["Knatte.TurbineSmall.Description"]
 raw = "A small turbine that generates power in the same direction as the shaft"
+status = "normal"
 enUS = "A small turbine that generates power in the same direction as the shaft."
 zhCN = "一种新型机械，水流方向需要与转轴平行。"
 zhTW = "一個小型渦輪發電機，按照軸的相同方向發電。"
@@ -104,6 +114,7 @@ koKR = "축과 동일한 방향으로 전력을 생성하는 작은 터빈"
 
 ["Knatte.TurbineSmall.FlavorDescription"]
 raw = "Thanks 99Cent and Ymerzeru for inspiration"
+status = "normal"
 enUS = "Thanks 99Cent and Ymerzeru for the inspiration."
 zhCN = "有没有更大一点的？"
 zhTW = "感謝99Cent和Ymerzeru的啟發"
@@ -117,6 +128,7 @@ koKR = "영감을 주신 99Cent와 Ymerzeru에게 감사합니다."
 
 ["Knatte.TurbineBig.DisplayName"]
 raw = "Turbine Big"
+status = "normal"
 enUS = "Turbine Big"
 zhCN = "大型涡轮机"
 zhTW = "大型渦輪機"
@@ -130,6 +142,7 @@ koKR = "대형 터빈"
 
 ["Knatte.TurbineBig.Description"]
 raw = "A big turbine that generates power in the same direction as the shaft"
+status = "normal"
 enUS = "A big turbine that generates power in the same direction as the shaft"
 zhCN = "一种新型机械，水流方向需要与转轴平行。"
 zhTW = "一種大型渦輪機，其發電方向與轉軸方向一致"
@@ -143,6 +156,7 @@ koKR = "축과 같은 방향으로 전력을 생성하는 큰 터빈"
 
 ["Knatte.TurbineBig.FlavorDescription"]
 raw = "Go big or go home"
+status = "normal"
 enUS = "Go big or go home"
 zhCN = "要么做大，要么回家。"
 zhTW = "要麼做大，要麼回家"

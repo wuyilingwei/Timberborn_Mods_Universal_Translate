@@ -1,5 +1,8 @@
+name = "Unknown"
+
 ["LV.MW.WeatherStart"]
 raw = "{0} started"
+status = "abandoned"
 enUS = "{0} started"
 zhCN = "{0}已开始"
 zhTW = "{0} 開始了"
@@ -13,6 +16,7 @@ koKR = "{0} 시작됨"
 
 ["LV.MW.WeatherEnd"]
 raw = "{0} ended"
+status = "abandoned"
 enUS = "{0} ended"
 zhCN = "{0}已结束"
 zhTW = "{0} 結束了"
@@ -26,6 +30,7 @@ koKR = "{0} 종료"
 
 ["LV.MW.WeatherApproaching"]
 raw = "{0} approaching"
+status = "abandoned"
 enUS = "{0} approaching"
 zhCN = "{0}即将到来"
 zhTW = "{0} 接近中"
@@ -39,6 +44,7 @@ koKR = "{0} 다가오는 중"
 
 ["LV.MW.WeatherInProgress"]
 raw = "{0} in progress"
+status = "abandoned"
 enUS = "{0} in progress"
 zhCN = "{0}正在发生"
 zhTW = "{0} 進行中"
@@ -52,6 +58,7 @@ koKR = "{0} 진행 중"
 
 ["LV.MW.EnableWeather"]
 raw = "Enable"
+status = "abandoned"
 enUS = "Enable"
 zhCN = "启用"
 zhTW = "啟用"
@@ -65,6 +72,7 @@ koKR = "사용 가능"
 
 ["LV.MW.EnableWeatherDesc"]
 raw = "Whether this weather is allowed to appear."
+status = "abandoned"
 enUS = "Whether this weather is allowed to appear."
 zhCN = "勾选后，此天气可能会发生。"
 zhTW = "是否允許此天氣出現。"
@@ -78,6 +86,7 @@ koKR = "이 날씨가 나타나는 것이 허용되는지 여부."
 
 ["LV.MW.StartCycle"]
 raw = "Start cycle"
+status = "abandoned"
 enUS = "Start cycle"
 zhCN = "起始周期"
 zhTW = "開始週期"
@@ -91,6 +100,7 @@ koKR = "주기 시작"
 
 ["LV.MW.StartCycleDesc"]
 raw = "The minimum cycle that this weather can occur"
+status = "abandoned"
 enUS = "The minimum cycle that this weather can occur"
 zhCN = "此天气可能发生的最早周期。"
 zhTW = "此氣候可能發生的最小週期"
@@ -104,6 +114,7 @@ koKR = "이 날씨가 발생할 수 있는 최소 주기"
 
 ["LV.MW.Chance"]
 raw = "Chance"
+status = "abandoned"
 enUS = "Chance"
 zhCN = "发生概率"
 zhTW = "機會"
@@ -117,6 +128,7 @@ koKR = "확률"
 
 ["LV.MW.ChanceDesc"]
 raw = "Weighted chance of this weather occurring when rolling for weather"
+status = "abandoned"
 enUS = "Weighted chance of this weather occurring when rolling for weather"
 zhCN = "此天气可能发生的概率。<br><color=#FFFF1A>根据此天气所属的类型（舒适类/恶劣类），其实际发生概率为“此天气发生概率/此类型天气发生概率之和”。</color>"
 zhTW = "這種天氣在進行天氣擲骰時出現的加權機率"
@@ -130,6 +142,7 @@ koKR = "날씨를 결정할 때 이 날씨가 발생할 확률의 가중치"
 
 ["LV.MW.MinDay"]
 raw = "Minimum day"
+status = "abandoned"
 enUS = "Minimum day"
 zhCN = "最短持续时间"
 zhTW = "最少天數"
@@ -143,6 +156,7 @@ koKR = "최소 일수"
 
 ["LV.MW.MinDayDesc"]
 raw = "The minimum day when this weather occurs."
+status = "abandoned"
 enUS = "The minimum day when this weather occurs."
 zhCN = "此天气可能发生的最小天数。"
 zhTW = "此天氣發生的最早日子。"
@@ -156,6 +170,7 @@ koKR = "이 날씨가 발생하는 최소 일수입니다."
 
 ["LV.MW.MaxDay"]
 raw = "Maximum day"
+status = "abandoned"
 enUS = "Maximum day"
 zhCN = "最长持续时间"
 zhTW = "最大日數"
@@ -169,6 +184,7 @@ koKR = "최대 일수"
 
 ["LV.MW.MaxDayDesc"]
 raw = "The maximum day when this weather occurs."
+status = "abandoned"
 enUS = "The maximum day when this weather occurs."
 zhCN = "此天气可能发生的最大天数。"
 zhTW = "此氣候出現的最長天數。"
@@ -182,6 +198,7 @@ koKR = "이 날씨가 발생하는 최대 일수입니다."
 
 ["LV.MW.HandicapPerc"]
 raw = "Handicap Percentage"
+status = "abandoned"
 enUS = "Handicap Percentage"
 zhCN = "初始强度值"
 zhTW = "傷殘百分比"
@@ -195,6 +212,7 @@ koKR = "장애물 비율"
 
 ["LV.MW.HandicapPercDesc"]
 raw = "The first time this weather occurs, its duration is multiplied by this percentage."
+status = "abandoned"
 enUS = "The first time this weather occurs, its duration is multiplied by this percentage."
 zhCN = "此天气首次发生时，天气强度（如持续时间）将乘以此百分比。<br><color=#FFFF1A>初始强度值可以小于100（初始时更弱），也可以大于100（初始时更强）。</color>"
 zhTW = "此天氣首次發生時，其持續時間將乘以此百分比。"
@@ -208,6 +226,7 @@ koKR = "이 날씨가 처음 발생할 때, 지속시간은 이 비율만큼 곱
 
 ["LV.MW.HandicapCycles"]
 raw = "Handicap Cycles"
+status = "abandoned"
 enUS = "Handicap Cycles"
 zhCN = "适应频次数"
 zhTW = "殘障自行車"
@@ -221,6 +240,7 @@ koKR = "장애인 주기기"
 
 ["LV.MW.HandicapCyclesDesc"]
 raw = "Number of cycles until the weather reaches full (100%) duration."
+status = "abandoned"
 enUS = "Number of cycles until the weather reaches full (100%) duration."
 zhCN = "此天气多次发生后，天气强度（如持续时间）将从初始强度恢复至满百分比。<br><color=#FFFF1A>适应频次数为0时，初始强度值将失效。</color>"
 zhTW = "直到天氣達到全時（100%）持續時間的周期數。"
@@ -234,6 +254,7 @@ koKR = "날씨가 완전(100%) 지속 시간에 도달할 때까지의 사이클
 
 ["LV.MW.Rain"]
 raw = "Rain"
+status = "abandoned"
 enUS = "Rain"
 zhCN = "细雨天气"
 zhTW = "雨"
@@ -247,6 +268,7 @@ koKR = "비"
 
 ["LV.MW.Monsoon"]
 raw = "Monsoon"
+status = "abandoned"
 enUS = "Monsoon"
 zhCN = "洪涝期"
 zhTW = "季風"
@@ -260,6 +282,7 @@ koKR = "몬순"
 
 ["LV.MW.SurprisinglyRefreshing"]
 raw = "Surprisingly Refreshing"
+status = "abandoned"
 enUS = "Surprisingly Refreshing"
 zhCN = "净水潮"
 zhTW = "令人驚訝的清新感"
@@ -273,6 +296,7 @@ koKR = "놀랍도록 상쾌한"
 
 ["LV.MW.MonsoonMultiplier"]
 raw = "Monsoon maximum multiplier"
+status = "abandoned"
 enUS = "Monsoon maximum multiplier"
 zhCN = "洪涝期水力倍率"
 zhTW = "季風最大倍數"
@@ -286,6 +310,7 @@ koKR = "우기 최대 배수"
 
 ["LV.MW.MonsoonMultiplierDesc"]
 raw = "The maximum additional multiplier for the monsoon weather at maximum. This value is affected by handicap like Duration.\nDefault value: 350(%) meaning when no handicap is applied (default cycle 5), all water sources strength is at 350%."
+status = "abandoned"
 enUS = "The maximum additional multiplier for the monsoon weather at maximum. This value is affected by handicap like Duration.\nDefault value: 350(%) meaning when no handicap is applied (default cycle 5), all water sources strength is at 350%."
 zhCN = "洪涝期时水源的水力倍率，即水源的水力会变为“默认水力×倍率”。<br><color=#FFFF1A>此倍率与持续时间类似，受初始强度值、适应频次数影响。</color>"
 zhTW = "\"潮濤天氣的最大額外乘數。此數值會受到如持續時間等懲罰的影響。預設值：350(%)，意即在不施加懲罰的情況下（預設循環5），所有水源的強度為350%。”"
@@ -299,6 +324,7 @@ koKR = "최대 추가 멀티플라이어는 최대의 몬순 날씨에 대한 �
 
 ["LV.MW.Profiles"]
 raw = "Profiles"
+status = "abandoned"
 enUS = "Profiles"
 zhCN = "预设配置"
 zhTW = "檔案"
@@ -312,6 +338,7 @@ koKR = "프로필"
 
 ["LV.MW.ProfilesDesc"]
 raw = "Export and import settings. It's recommended to make a save then reload it after importing settings to ensure everything is applied correctly."
+status = "abandoned"
 enUS = "Export and import settings. It's recommended to make a save then reload it after importing settings to ensure everything is applied correctly."
 zhCN = "导入/导出模组的天气参数配置。<br><color=#FFFF1A>导入配置后建议保存游戏并重新加载，以确保所有参数配置正确生效。</color>"
 zhTW = "導出和導入設置。建議先保存遊戲，然後在導入設置後重新加載，以確保所有設置正確應用。"
@@ -325,6 +352,7 @@ koKR = "설정 내보내기 및 가져오기. 설정을 가져온 후 모든 것
 
 ["LV.MW.ProfileImport"]
 raw = "Import"
+status = "abandoned"
 enUS = "Import"
 zhCN = "导入配置"
 zhTW = "導入"
@@ -338,6 +366,7 @@ koKR = "가져오기"
 
 ["LV.MW.ProfileExport"]
 raw = "Export"
+status = "abandoned"
 enUS = "Export"
 zhCN = "导出配置"
 zhTW = "匯出"
@@ -351,6 +380,7 @@ koKR = "내보내기"
 
 ["LV.MW.ProfileError"]
 raw = "There was an error: {0}"
+status = "abandoned"
 enUS = "There was an error: {0}"
 zhCN = "发生错误：{0}"
 zhTW = "發生錯誤：{0}"
@@ -364,6 +394,7 @@ koKR = "오류가 발생했습니다: {0}"
 
 ["LV.MW.TemperateDesc"]
 raw = "The game's default temperate weather. No effects."
+status = "abandoned"
 enUS = "The game's default temperate weather. No effects."
 zhCN = "游戏默认的舒适类天气，风和日丽，绿意盎然。<br>- 无特殊影响。"
 zhTW = "遊戲的預設溫帶天氣。沒有效果。"
@@ -377,6 +408,7 @@ koKR = "게임의 기본 온대 날씨. 효과 없음."
 
 ["LV.MW.DroughtDesc"]
 raw = "The game's default hazardous drought weather. Water sources stop producing water."
+status = "abandoned"
 enUS = "The game's default hazardous drought weather. Water sources stop producing water."
 zhCN = "游戏默认的恶劣类天气，干旱与酷热让河水断流，土地龟裂。<br>- 所有水源停止出水。"
 zhTW = "遊戲預設的危險乾旱天氣。水源停止產水。"
@@ -390,6 +422,7 @@ koKR = "게임의 기본 위험한 가뭄 날씨. 수원지가 물을 생산하�
 
 ["LV.MW.BadtideDesc"]
 raw = "The game's default hazardous bad tide weather. All water sources produce badwater."
+status = "abandoned"
 enUS = "The game's default hazardous bad tide weather. All water sources produce badwater."
 zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的水源亦被污染。<br>- 所有水源都会流出恶水。"
 zhTW = "遊戲預設的危險壞潮天氣。所有水源都會產生壞水。"
@@ -403,6 +436,7 @@ koKR = "게임의 기본 유해한 나쁜 조수 날씨. 모든 수원에서 나
 
 ["LV.MW.RainDesc"]
 raw = "Benign weather. Effects:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate season (default settings)"
+status = "abandoned"
 enUS = "Benign weather. Effects:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate season (default settings)"
 zhCN = "模组扩展的舒适类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉，而且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。<br>- 持续时间比温和天气短25%（模组默认，可更改）。"
 zhTW = "友善的天氣。效果：\n- 所有區域都被澆水，且不會發生土地污染。\n- 在河狸不在建築物內時，會施加濕毛效果。\n- 比通常的溫帶季節短25%（默認設置）。"
@@ -416,6 +450,7 @@ koKR = "온화한 날씨. 효과:\n- 모든 타일이 물을 받고 토양 오�
 
 ["LV.MW.MonsoonDesc"]
 raw = "Hazardous weather. All water sources increase their output, at 350% maximum with handicap applied. Configurable via the Monsoon modifier."
+status = "abandoned"
 enUS = "Hazardous weather. All water sources increase their output, at 350% maximum with handicap applied. Configurable via the Monsoon modifier."
 zhCN = "模组扩展的恶劣类天气，洪水自河流上游奔涌而来，四处泛滥。<br>- 所有水源的水力都会增加至350%（模组默认，可更改），但不超过游戏限制。"
 zhTW = "危險天氣。所有水源的產出增加，最高可達350%，並應用障礙。可通過季風修飾符進行配置。"
@@ -429,6 +464,7 @@ koKR = "위험한 날씨. 모든 물 공급원이 최대 350%로 출력이 증�
 
 ["LV.MW.SurprisinglyRefreshingDesc"]
 raw = "'Hazardous' weather with no negative effect. All water sources produce fresh water. Very short."
+status = "abandoned"
 enUS = "'Hazardous' weather with no negative effect. All water sources produce fresh water. Very short."
 zhCN = "模组扩展的“恶劣类”天气，清水从恶水源流出，仿佛是一个恶劣的玩笑。<br>- 所有水源都会流出净水。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
 zhTW = "「‘危險’的天氣但沒有負面影響。所有水源產生淡水。非常簡短。」"
@@ -442,6 +478,7 @@ koKR = "부정적인 영향이 없는 '위험한' 날씨. 모든 수원에서 �
 
 ["LV.MW.EnableModifier"]
 raw = "Enable {0} Weather Modifier"
+status = "abandoned"
 enUS = "Enable {0} Weather Modifier"
 zhCN = "启用{0}天气效果"
 zhTW = "啟用 {0} 天氣修正器"
@@ -455,6 +492,7 @@ koKR = "{0} 날씨 수정자 활성화"
 
 ["LV.MW.EnableModifierDesc"]
 raw = "Enable the {0} weather modifier"
+status = "abandoned"
 enUS = "Enable the {0} weather modifier"
 zhCN = "勾选后，启用{0}天气效果。"
 zhTW = "啟用 {0} 天氣修飾符"
@@ -468,6 +506,7 @@ koKR = "{0} 날씨 수정자를 활성화합니다."
 
 ["LV.MW.AssociatedWeathers"]
 raw = "Associated Weathers:"
+status = "abandoned"
 enUS = "Associated Weathers:"
 zhCN = "可影响天气："
 zhTW = "相關天氣："
@@ -481,6 +520,7 @@ koKR = "관련 날씨:"
 
 ["LV.MW.AssociatedWeathersDesc"]
 raw = "The weathers that will be affected by this modifier"
+status = "abandoned"
 enUS = "The weathers that will be affected by this modifier"
 zhCN = "此天气效果可以影响的天气。"
 zhTW = "將受到此修飾符影響的天氣"
@@ -494,6 +534,7 @@ koKR = "이 수정자로 영향을 받을 날씨"
 
 ["LV.MW.EmptyBenignWeather"]
 raw = "No Benign Weather"
+status = "abandoned"
 enUS = "No Benign Weather"
 zhCN = "无舒适类天气"
 zhTW = "無良性天氣"
@@ -507,6 +548,7 @@ koKR = "주요 이름: LV.MW.EmptyBenignWeather - 새로 번역할 텍스트: \"
 
 ["LV.MW.EmptyHazardousWeather"]
 raw = "No Hazardous Weather"
+status = "abandoned"
 enUS = "No Hazardous Weather"
 zhCN = "无恶劣类天气"
 zhTW = "無危險天氣"
@@ -520,6 +562,7 @@ koKR = "위험한 날씨 없음"
 
 ["LV.MW.ModifierWeatherSettings"]
 raw = "Weather Settings"
+status = "abandoned"
 enUS = "Weather Settings"
 zhCN = "天气设置"
 zhTW = "「天氣設定」"
@@ -533,6 +576,7 @@ koKR = "날씨 설정"
 
 ["LV.MW.ModifierForWeather"]
 raw = "For weather {0}:"
+status = "abandoned"
 enUS = "For weather {0}:"
 zhCN = "对于{0}天气："
 zhTW = "天氣 {0}："
@@ -546,6 +590,7 @@ koKR = "날씨 {0}에 대해:"
 
 ["LV.MW.ModifierWeatherEnabled"]
 raw = "Enabled"
+status = "abandoned"
 enUS = "Enabled"
 zhCN = "启用"
 zhTW = "啟用"
@@ -559,6 +604,7 @@ koKR = "활성화됨"
 
 ["LV.MW.ModifierWeatherEnabledDesc"]
 raw = "Whether this modifier can appear for this weather"
+status = "abandoned"
 enUS = "Whether this modifier can appear for this weather"
 zhCN = "勾选后，此效果可能会在此天气中出现。"
 zhTW = "“此修飾符是否可以在此天氣中出現”"
@@ -572,6 +618,7 @@ koKR = "이 수정자가 이 날씨에 나타날 수 있는지 여부"
 
 ["LV.MW.ModifierWeatherChance"]
 raw = "Chance"
+status = "abandoned"
 enUS = "Chance"
 zhCN = "出现概率"
 zhTW = "機率"
@@ -585,6 +632,7 @@ koKR = "확률"
 
 ["LV.MW.ModifierWeatherChanceDesc"]
 raw = "Chance of this modifier occurring when this weather occurs"
+status = "abandoned"
 enUS = "Chance of this modifier occurring when this weather occurs"
 zhCN = "此效果可能在此天气中出现的概率。"
 zhTW = "當此天氣發生時，此修飾符發生的機率"
@@ -598,6 +646,7 @@ koKR = "이 날씨가 발생할 때 이 수정자의 발생 확률"
 
 ["LV.MW.ModifierStartCycle"]
 raw = "Start Cycle"
+status = "abandoned"
 enUS = "Start Cycle"
 zhCN = "起始周期"
 zhTW = "開始週期"
@@ -611,6 +660,7 @@ koKR = "주기 시작"
 
 ["LV.MW.ModifierStartCycleDesc"]
 raw = "The minimum cycle that this modifier can occur for this weather"
+status = "abandoned"
 enUS = "The minimum cycle that this modifier can occur for this weather"
 zhCN = "此效果可能在此天气中出现的最早周期。"
 zhTW = "此修飾符在此天氣下最小可發生的周期"
@@ -624,6 +674,7 @@ koKR = "이 날씨에 대해 이 수정기가 발생할 수 있는 최소 사이
 
 ["LV.MW.ShowSettings"]
 raw = "Weather Settings"
+status = "abandoned"
 enUS = "Weather Settings"
 zhCN = "天气设置"
 zhTW = "天氣設定"
@@ -637,6 +688,7 @@ koKR = "날씨 설정"
 
 ["LV.MW.SettingsNote"]
 raw = "Settings changes will not take effect until the next weather cycle.\n<YellowHighlight>- You should make a save before editing.\n- You should make a save and reload that save after editing.</YellowHighlight>"
+status = "abandoned"
 enUS = "Settings changes will not take effect until the next weather cycle.\n<YellowHighlight>- You should make a save before editing.\n- You should make a save and reload that save after editing.</YellowHighlight>"
 zhCN = "参数配置更改后，将在下一个天气周期生效。<br><color=#FFFF1A>更改配置前建议保存游戏。<br>更改配置后建议保存并重新加载存档。</color>"
 zhTW = "設定變更在下個天氣週期之前不會生效。\n<YellowHighlight>- 編輯之前應該先保存遊戲。\n- 編輯之後應該保存並重新加載該存檔。</YellowHighlight>"
@@ -650,6 +702,7 @@ koKR = "설정 변경은 다음 날씨 주기가 끝날 때까지 적용되지 �
 
 ["LV.MW.Filters"]
 raw = "Filters:"
+status = "abandoned"
 enUS = "Filters:"
 zhCN = "过滤器："
 zhTW = "過濾器："
@@ -663,6 +716,7 @@ koKR = "필터:"
 
 ["LV.MW.BenignWeather"]
 raw = "Benign Weather"
+status = "abandoned"
 enUS = "Benign Weather"
 zhCN = "舒适类天气"
 zhTW = "良好天氣"
@@ -676,6 +730,7 @@ koKR = "온화한 날씨"
 
 ["LV.MW.HazardousWeather"]
 raw = "Hazardous Weather"
+status = "abandoned"
 enUS = "Hazardous Weather"
 zhCN = "恶劣类天气"
 zhTW = "危險天氣"
@@ -689,6 +744,7 @@ koKR = "위험한 날씨"
 
 ["LV.MW.Weathers"]
 raw = "Weathers"
+status = "abandoned"
 enUS = "Weathers"
 zhCN = "天气种类"
 zhTW = "天氣"
@@ -702,6 +758,7 @@ koKR = "날씨"
 
 ["LV.MW.WeatherModifiers"]
 raw = "Weather Modifiers"
+status = "abandoned"
 enUS = "Weather Modifiers"
 zhCN = "天气效果调整"
 zhTW = "天氣調整器"
@@ -715,6 +772,7 @@ koKR = "날씨 조정기"
 
 ["LV.MW.NoSettings"]
 raw = "This weather has no settings to configure."
+status = "abandoned"
 enUS = "This weather has no settings to configure."
 zhCN = "此天气无可设置参数。"
 zhTW = "此天氣沒有可配置的設置。"
@@ -728,6 +786,7 @@ koKR = "이 날씨에는 구성할 설정이 없습니다."
 
 ["LV.MW.BadtideModifier"]
 raw = "Badtide"
+status = "abandoned"
 enUS = "Badtide"
 zhCN = "恶水潮效果"
 zhTW = "壞潮"
@@ -741,6 +800,7 @@ koKR = "역조"
 
 ["LV.MW.BadtideModifierDesc"]
 raw = "All water sources produce badwater."
+status = "abandoned"
 enUS = "All water sources produce badwater."
 zhCN = "所有水源都会流出恶水。"
 zhTW = "所有水源會產生污水。"
@@ -754,6 +814,7 @@ koKR = "모든 물 공급원이 나쁜 물을 생성합니다."
 
 ["LV.MW.DroughtModifier"]
 raw = "Drought"
+status = "abandoned"
 enUS = "Drought"
 zhCN = "干旱期效果"
 zhTW = "乾旱"
@@ -767,6 +828,7 @@ koKR = "가뭄"
 
 ["LV.MW.DroughtModifierDesc"]
 raw = "All water sources stop producing water."
+status = "abandoned"
 enUS = "All water sources stop producing water."
 zhCN = "所有水源停止出水。"
 zhTW = "所有水源停止產生水。"
@@ -780,6 +842,7 @@ koKR = "모든 수원에서 물 생산이 중단됩니다."
 
 ["LV.MW.RainModifier"]
 raw = "Rain"
+status = "abandoned"
 enUS = "Rain"
 zhCN = "细雨天气效果"
 zhTW = "雨"
@@ -793,6 +856,7 @@ koKR = "비"
 
 ["LV.MW.RainModifierDesc"]
 raw = "All tiles are watered, no land contamination occurs, and applies Wet Fur when Beavers are not in buildings."
+status = "abandoned"
 enUS = "All tiles are watered, no land contamination occurs, and applies Wet Fur when Beavers are not in buildings."
 zhCN = "所有土地都被灌溉，不会受到恶水污染，海狸在室外时会增加“湿润的毛发”康乐值。"
 zhTW = "所有瓦片都被澆水，不會發生土地污染，並且當海狸不在建築物內時會施加濕毛皮效果。"
@@ -806,6 +870,7 @@ koKR = "모든 타일에 물이 공급되며, 토양 오염이 발생하지 않�
 
 ["LV.MW.MonsoonModifier"]
 raw = "Monsoon"
+status = "abandoned"
 enUS = "Monsoon"
 zhCN = "洪涝期效果"
 zhTW = "季風"
@@ -819,6 +884,7 @@ koKR = "몬순"
 
 ["LV.MW.MonsoonModifierDesc"]
 raw = "All water sources increase their output, up to a maximum."
+status = "abandoned"
 enUS = "All water sources increase their output, up to a maximum."
 zhCN = "所有水源的水力都会增加，但不超过游戏限制。"
 zhTW = "所有水源的產出增加，最多達到上限。"
@@ -832,6 +898,7 @@ koKR = "모든 수원은 출력이 최대 한도까지 증가합니다."
 
 ["LV.MW.RefreshingModifier"]
 raw = "Refreshing"
+status = "abandoned"
 enUS = "Refreshing"
 zhCN = "净水潮效果"
 zhTW = "清新"
@@ -845,6 +912,7 @@ koKR = "상쾌한"
 
 ["LV.MW.RefreshingModifierDesc"]
 raw = "All water sources produce fresh water."
+status = "abandoned"
 enUS = "All water sources produce fresh water."
 zhCN = "所有水源都会流出净水。"
 zhTW = "所有水源都產生淡水。"
@@ -858,6 +926,7 @@ koKR = "모든 물 공급원이 신선한 물을 생성합니다."
 
 ["LV.MW.NewStageNotf"]
 raw = "Cycle {0}, Stage {1} begins"
+status = "abandoned"
 enUS = "Cycle {0}, Stage {1} begins"
 zhCN = "周期 {0}，第 {1} 阶段"
 zhTW = "第 {0} 週期，階段 {1} 開始"
@@ -871,6 +940,7 @@ koKR = "주기 {0}, 단계 {1} 시작"
 
 ["LV.MW.EffNotf"]
 raw = "Effects: {0}"
+status = "abandoned"
 enUS = "Effects: {0}"
 zhCN = "效果：{0}"
 zhTW = "效果：{0}"
@@ -884,6 +954,7 @@ koKR = "효과: {0}"
 
 ["LV.MW.RainEff"]
 raw = "Rain visual effect"
+status = "abandoned"
 enUS = "Rain visual effect"
 zhCN = "降雨效果设置"
 zhTW = "雨的視覺效果"
@@ -897,6 +968,7 @@ koKR = "비 시각 효과"
 
 ["LV.MW.RainEffDesc"]
 raw = "Change the rain visual effects settings. These settings do not affect gameplay. The rain effect is shared between many weathers. These settings are global (not per-save) and are not exported/imported with profiles.\n\nYou can adjust or disable the Rain effect at any time but to re-enable, please reload your save."
+status = "abandoned"
 enUS = "Change the rain visual effects settings. These settings do not affect gameplay. The rain effect is shared between many weathers. These settings are global (not per-save) and are not exported/imported with profiles.\n\nYou can adjust or disable the Rain effect at any time but to re-enable, please reload your save."
 zhCN = "可以设置降雨的视觉效果。<br><color=#FFFF1A>降雨效果被多个天气共享，对天气实际效果无影响。<br>降雨效果为全局性设置（全部存档共用），无法随配置文件导出/导入。<br>可以随时调整或禁用降雨效果，如需重新启用，请重新加载存档。</color>"
 zhTW = "更改雨水視覺效果設定。這些設定不會影響遊戲玩法。雨水效果在多種天氣之間共享。這些設定是全局的（不是每個存檔）並且不會與個人檔案一起匯出/匯入。\n\n您可以隨時調整或禁用雨水效果，但要重新啟用，請重新載入您的存檔。"
@@ -910,6 +982,7 @@ koKR = "비 오는 시각 효과 설정을 변경합니다. 이 설정은 게임
 
 ["LV.MW.RainEffEnable"]
 raw = "Enable effects"
+status = "abandoned"
 enUS = "Enable effects"
 zhCN = "启用降雨效果"
 zhTW = "啟用效果"
@@ -923,6 +996,7 @@ koKR = "효과 활성화"
 
 ["LV.MW.RainEffIntensity"]
 raw = "Rain intensity"
+status = "abandoned"
 enUS = "Rain intensity"
 zhCN = "降雨强度"
 zhTW = "降雨強度"
@@ -936,6 +1010,7 @@ koKR = "비 강도"
 
 ["LV.MW.RainEffIntensityDesc"]
 raw = "Adjust the intensity of the rain visual effects (particles per map cell). Default 0.2."
+status = "abandoned"
 enUS = "Adjust the intensity of the rain visual effects (particles per map cell). Default 0.2."
 zhCN = "降雨视觉效果的强度，即每个地图格子上的雨滴粒子数（模组默认：0.2）。"
 zhTW = "「調整雨的視覺效果強度（每個地圖單元的粒子數量）。預設值 0.2。」"
@@ -949,6 +1024,7 @@ koKR = "비 시각 효과의 강도를 조정합니다 (맵 셀당 입자 수). 
 
 ["LV.MW.RainEffMaxParticles"]
 raw = "Max Rain particles"
+status = "abandoned"
 enUS = "Max Rain particles"
 zhCN = "雨滴粒子数上限"
 zhTW = "最大雨粒數"
@@ -962,6 +1038,7 @@ koKR = "최대 비 입자"
 
 ["LV.MW.RainEffMaxParticlesDesc"]
 raw = "Adjust the maximum number of rain particles on screen. Default 1000."
+status = "abandoned"
 enUS = "Adjust the maximum number of rain particles on screen. Default 1000."
 zhCN = "屏幕上同时显示的雨滴粒子的最大数量（模组默认：1000）。"
 zhTW = "調整螢幕上雨滴的最大數量。預設為 1000。"
@@ -975,6 +1052,7 @@ koKR = "화면에 표시할 최대 비 내림 입자 수를 조정합니다. 기
 
 ["LV.MW.SettingsDisabled"]
 raw = "<RedHighlight>[Disabled]</RedHighlight>"
+status = "abandoned"
 enUS = "<RedHighlight>[Disabled]</RedHighlight>"
 zhCN = "<color=#FF4C4C>[未启用]</color>"
 zhTW = "<RedHighlight>[已禁用]</RedHighlight>"
@@ -988,6 +1066,7 @@ koKR = "<RedHighlight>[비활성화됨]</RedHighlight>"
 
 ["LV.MW.UnknownWeather"]
 raw = "Unknown weather Id: {0}"
+status = "abandoned"
 enUS = "Unknown weather Id: {0}"
 zhCN = "未知天气 ID: {0}"
 zhTW = "未知天氣 ID: {0}"
@@ -1001,6 +1080,7 @@ koKR = "알 수 없는 날씨 ID: {0}"
 
 ["LV.MW.SettingsLocked"]
 raw = "<RedHighlight>[Weather-locked]</RedHighlight>"
+status = "abandoned"
 enUS = "<RedHighlight>[Weather-locked]</RedHighlight>"
 zhCN = "<color=#FF4C4C>[已锁定]</color>"
 zhTW = "<RedHighlight>[天氣鎖定]</RedHighlight>"
@@ -1014,6 +1094,7 @@ koKR = "<RedHighlight>[날씨 잠금]</RedHighlight>"
 
 ["LV.MW.CycleStages"]
 raw = "Cycle Stages"
+status = "abandoned"
 enUS = "Cycle Stages"
 zhCN = "周期阶段设置"
 zhTW = "循環階段"
@@ -1027,6 +1108,7 @@ koKR = "주기 단계"
 
 ["LV.MW.CycleStagesDesc"]
 raw = "Configure the different stages of each cycle. With this mod, you can have as many stages in each cycle as you want."
+status = "abandoned"
 enUS = "Configure the different stages of each cycle. With this mod, you can have as many stages in each cycle as you want."
 zhCN = "可以设置天气周期中的不同阶段。<br><color=#FFFF1A>此模组可以在一个周期中设置多个阶段，而不是游戏默认的“舒适->恶劣”双阶段。</color>"
 zhTW = "配置每個循環的不同階段。使用這個模組，您可以在每個循環中擁有任意數量的階段。"
@@ -1040,6 +1122,7 @@ koKR = "각 사이클의 다양한 단계를 구성합니다. 이 모드를 사�
 
 ["LV.MW.StageAdd"]
 raw = "Add Stage"
+status = "abandoned"
 enUS = "Add Stage"
 zhCN = "添加阶段"
 zhTW = "新增階段"
@@ -1053,6 +1136,7 @@ koKR = "단계 추가"
 
 ["LV.MW.StageRemove"]
 raw = "Remove Stage"
+status = "abandoned"
 enUS = "Remove Stage"
 zhCN = "移除阶段"
 zhTW = "移除階段"
@@ -1066,6 +1150,7 @@ koKR = "단계 제거"
 
 ["LV.MW.StageUp"]
 raw = "Move Up"
+status = "abandoned"
 enUS = "Move Up"
 zhCN = "上移"
 zhTW = "向上移動"
@@ -1079,6 +1164,7 @@ koKR = "올리기"
 
 ["LV.MW.StageDown"]
 raw = "Move Down"
+status = "abandoned"
 enUS = "Move Down"
 zhCN = "下移"
 zhTW = "向下移動"
@@ -1092,6 +1178,7 @@ koKR = "아래로 이동"
 
 ["LV.MW.StageSkipChance"]
 raw = "Skip chance (%)"
+status = "abandoned"
 enUS = "Skip chance (%)"
 zhCN = "跳过概率(%)"
 zhTW = "跳過機率 (%)"
@@ -1105,6 +1192,7 @@ koKR = "건너뛰기 확률 (%)"
 
 ["LV.MW.StageSkipChanceDesc"]
 raw = "The chance of this stage being skipped when deciding a cycle"
+status = "abandoned"
 enUS = "The chance of this stage being skipped when deciding a cycle"
 zhCN = "此阶段在周期生成时被跳过的概率。"
 zhTW = "此階段在決定循環時被跳過的機率"
@@ -1118,6 +1206,7 @@ koKR = "주기를 결정할 때 이 단계가 건너뛰어질 확률"
 
 ["LV.MW.StageBenignChance"]
 raw = "Benign weather chance"
+status = "abandoned"
 enUS = "Benign weather chance"
 zhCN = "舒适类天气概率(%)"
 zhTW = "良好天氣機率"
@@ -1131,6 +1220,7 @@ koKR = "온화한 날씨 확률"
 
 ["LV.MW.StageBenignChanceDesc"]
 raw = "The chance of benign weather occurring during this stage"
+status = "abandoned"
 enUS = "The chance of benign weather occurring during this stage"
 zhCN = "此阶段发生舒适类天气的概率。"
 zhTW = "此階段發生良性天氣的機率"
@@ -1144,6 +1234,7 @@ koKR = "이 단계에서 온화한 날씨가 발생할 확률"
 
 ["LV.MW.LengthMul"]
 raw = "Length Multiplier (%)"
+status = "abandoned"
 enUS = "Length Multiplier (%)"
 zhCN = "持续时间倍率(%)"
 zhTW = "長度倍增器 (%)"
@@ -1157,6 +1248,7 @@ koKR = "길이 배수 (%)"
 
 ["LV.MW.LengthMulDesc"]
 raw = "Once the weather duration is decided, this stage multiplies that duration by this value"
+status = "abandoned"
 enUS = "Once the weather duration is decided, this stage multiplies that duration by this value"
 zhCN = "此阶段的天气持续时间会乘以此倍率。"
 zhTW = "一旦天氣持續時間確定，這個階段會將該持續時間乘以這個值。"
@@ -1170,6 +1262,7 @@ koKR = "날씨 지속 시간이 결정되면, 이 단계는 해당 지속 시간
 
 ["LV.MW.StageIndex"]
 raw = "Stage {0}"
+status = "abandoned"
 enUS = "Stage {0}"
 zhCN = "阶段 {0}"
 zhTW = "階段 {0}"
@@ -1183,6 +1276,7 @@ koKR = "단계 {0}"
 
 ["LV.MW.GenericSettings"]
 raw = "General Settings"
+status = "abandoned"
 enUS = "General Settings"
 zhCN = "常规设置"
 zhTW = "一般設定"
@@ -1196,6 +1290,7 @@ koKR = "일반 설정"
 
 ["LV.MW.AlwaysShowHazDur"]
 raw = "Always show hazardous weather duration"
+status = "abandoned"
 enUS = "Always show hazardous weather duration"
 zhCN = "显示恶劣类天气持续时间"
 zhTW = "始終顯示危險天氣持續時間"
@@ -1209,6 +1304,7 @@ koKR = "위험한 날씨 지속 시간 항상 표시"
 
 ["LV.MW.AlwaysShowHazDurDesc"]
 raw = "If enabled, the hazardous weather duration will always be shown in the weather panel (the game's default behavior). If disabled, you only know 3 days in advance before the next weather starts."
+status = "abandoned"
 enUS = "If enabled, the hazardous weather duration will always be shown in the weather panel (the game's default behavior). If disabled, you only know 3 days in advance before the next weather starts."
 zhCN = "勾选后，恶劣类天气的持续时间将始终显示在天气面板中（游戏默认：是）。<br>如果取消勾选，则只能在天气结束前3天得知。"
 zhTW = "如果啟用，有害天氣的持續時間將始終顯示在天氣面板中（遊戲的預設行為）。如果禁用，您只能提前3天知道下一個天氣開始的時間。"

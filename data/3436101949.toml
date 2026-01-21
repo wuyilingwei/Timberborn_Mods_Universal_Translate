@@ -1,5 +1,8 @@
+name = "Buff & Debuff Demo"
+
 ["LV.BuffDebuffDemo.PositiveBuff"]
 raw = "Positive of the day"
+status = "normal"
 enUS = "Positive of the day"
 zhCN = "今日的正面效果"
 zhTW = "今日正能量"
@@ -13,6 +16,7 @@ koKR = "오늘의 긍정 효과"
 
 ["LV.BuffDebuffDemo.PositiveBuffDesc"]
 raw = "Your beavers are feeling good today"
+status = "normal"
 enUS = "Your beavers are feeling good today."
 zhCN = "你的海狸今天感觉良好"
 zhTW = "你的海狸今天感覺很好"
@@ -26,6 +30,7 @@ koKR = "오늘 당신의 비버들이 기분이 좋습니다"
 
 ["LV.BuffDebuffDemo.NegativeBuff"]
 raw = "Negative of the day"
+status = "normal"
 enUS = "Negative of the day"
 zhCN = "今日的负面效果"
 zhTW = "今日負面情緒"
@@ -39,6 +44,7 @@ koKR = "오늘의 부정적인 효과"
 
 ["LV.BuffDebuffDemo.NegativeBuffDesc"]
 raw = "Your beavers are feeling bad today"
+status = "normal"
 enUS = "Your beavers are feeling unwell today."
 zhCN = "你的海狸今天感觉不好"
 zhTW = "你的海狸今天感到不舒服。"
@@ -52,6 +58,7 @@ koKR = "당신의 비버들이 오늘 기분이 좋지 않습니다"
 
 ["LV.BuffDebuffDemo.LuckyBuff"]
 raw = "Random boost"
+status = "normal"
 enUS = "Random boost"
 zhCN = "随机增益"
 zhTW = "隨機增強"
@@ -65,6 +72,7 @@ koKR = "무작위 버프"
 
 ["LV.BuffDebuffDemo.LuckyBuffDesc"]
 raw = "Your beavers are feeling lucky (or unlucky) today"
+status = "normal"
 enUS = "Your beavers are feeling lucky (or unlucky) today."
 zhCN = "你的海狸今天感觉幸运（或不幸）"
 zhTW = "你的海狸今天感覺運氣很好（或很差）"
@@ -78,6 +86,7 @@ koKR = "오늘 너의 비버들은 행운을 느끼고 있어 (혹은 불행을 
 
 ["LV.BuffDebuffDemo.SpeedBuffEffectDesc"]
 raw = "Movement speed: {0}"
+status = "normal"
 enUS = "Movement speed: {0}"
 zhCN = "移动速度: {0}"
 zhTW = "移動速度：{0}"

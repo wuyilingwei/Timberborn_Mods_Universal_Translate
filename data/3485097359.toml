@@ -1,5 +1,8 @@
+name = "Configurable Building Range"
+
 ["LV.CBldR.ResourceBuildingsRange"]
 raw = "Resource Buildings Ranges"
+status = "normal"
 enUS = "Resource Buildings Ranges"
 zhCN = "资源采集范围"
 zhTW = "資源建築範圍"
@@ -13,6 +16,7 @@ koKR = "자원 건물 범위"
 
 ["LV.CBldR.ResourceBuildingsRangeDesc"]
 raw = "The range of resource gathering buildings. Game default: 20."
+status = "normal"
 enUS = "The range of resource gathering buildings. Game default: 20."
 zhCN = "可以更改工作场所允许采集资源的最大范围（游戏默认：20，工作场所门口为起点）。"
 zhTW = "資源採集建築的範圍。遊戲預設：20。"
@@ -26,6 +30,7 @@ koKR = "자원 수집 건물의 범위. 게임 기본값: 20."
 
 ["LV.CBldR.DistrictTerrainRange"]
 raw = "District Terrain Ranges"
+status = "normal"
 enUS = "District Terrain Ranges"
 zhCN = "建造区域范围"
 zhTW = "區域地形範圍"
@@ -39,6 +44,7 @@ koKR = "구역 지형 범위"
 
 ["LV.CBldR.DistrictTerrainRangeDesc"]
 raw = "The range of District Center 'overflow'. Game default: 10"
+status = "normal"
 enUS = "The range of District Center 'overflow'. Game default: 10"
 zhCN = "可以更改建筑工小屋和地区中心允许建造建筑的最大范围（游戏默认：10，道路任意位置为起点）。"
 zhTW = "區域中心的「溢出」範圍。遊戲預設：10"

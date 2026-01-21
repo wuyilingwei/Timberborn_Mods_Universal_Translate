@@ -1,5 +1,8 @@
+name = "Minimap"
+
 ["eMka.Minimap.Settings.BlockObjectColor"]
 raw = "Object"
+status = "normal"
 enUS = "Object"
 zhCN = "物体"
 zhTW = "物體"
@@ -13,6 +16,7 @@ koKR = "객체"
 
 ["eMka.Minimap.Settings.BuildingColor"]
 raw = "Building"
+status = "normal"
 enUS = "Building"
 zhCN = "建筑"
 zhTW = "建築"
@@ -26,6 +30,7 @@ koKR = "건물"
 
 ["eMka.Minimap.Settings.ChunkSize"]
 raw = "Chunk size"
+status = "normal"
 enUS = "Chunk size"
 zhCN = "区块大小"
 zhTW = "區塊大小"
@@ -39,6 +44,7 @@ koKR = "청크 크기"
 
 ["eMka.Minimap.Settings.ChunkSizeTooltip"]
 raw = "The size of the chunks that the minimap is divided into for rendering.\nLower values will cause the minimap to render slower, but may help with performance issues."
+status = "normal"
 enUS = "The size of the chunks that the minimap is divided into for rendering. Lower values will cause the minimap to render slower, but may help with performance issues."
 zhCN = "小地图划分为渲染区块的大小。<br>较小的值会降低地图渲染速度，但可能减小性能占用。"
 zhTW = "迷你地圖分割的塊大小以進行渲染。較低的數值將導致迷你地圖渲染速度變慢，但可能有助於解決性能問題。"
@@ -52,6 +58,7 @@ koKR = "미니맵이 렌더링을 위해 나누어지는 청크의 크기입니�
 
 ["eMka.Minimap.Settings.Colors"]
 raw = "Colors"
+status = "normal"
 enUS = "Colors"
 zhCN = "颜色"
 zhTW = "顏色"
@@ -65,6 +72,7 @@ koKR = "색상"
 
 ["eMka.Minimap.Settings.DeadPlantColor"]
 raw = "Dead plant"
+status = "normal"
 enUS = "Dead plant"
 zhCN = "作物&灌木-已死亡"
 zhTW = "死去的植物"
@@ -78,6 +86,7 @@ koKR = "죽은 식물"
 
 ["eMka.Minimap.Settings.DeadTreeColor"]
 raw = "Dead tree"
+status = "normal"
 enUS = "Dead tree"
 zhCN = "树木-已死亡"
 zhTW = "枯樹"
@@ -91,6 +100,7 @@ koKR = "고사목"
 
 ["eMka.Minimap.Settings.DeepBadwaterColor"]
 raw = "Deep badwater"
+status = "normal"
 enUS = "Deep badwater"
 zhCN = "恶水-最深处"
 zhTW = "深壞水"
@@ -104,6 +114,7 @@ koKR = "깊은 오염수"
 
 ["eMka.Minimap.Settings.DeepWaterColor"]
 raw = "Deep water"
+status = "normal"
 enUS = "Deep water"
 zhCN = "水-最深处"
 zhTW = "深水"
@@ -117,6 +128,7 @@ koKR = "깊은 물"
 
 ["eMka.Minimap.Settings.DisableSize"]
 raw = "Don't show minimap for maps with sides smaller than"
+status = "normal"
 enUS = "Don't show minimap for maps with sides smaller than"
 zhCN = "不要显示边长小于以下值的地图的小地图"
 zhTW = "對於邊長小於的地圖，不顯示迷你地圖。"
@@ -130,6 +142,7 @@ koKR = "옆면이 더 작은 지도의 미니맵을 표시하지 않기"
 
 ["eMka.Minimap.Settings.GeneralSettings"]
 raw = "General"
+status = "normal"
 enUS = "General"
 zhCN = "常规设置"
 zhTW = "一般"
@@ -143,6 +156,7 @@ koKR = "일반"
 
 ["eMka.Minimap.Settings.HighestGrassColor"]
 raw = "Highest grass"
+status = "normal"
 enUS = "Tallest grass"
 zhCN = "草地-最高处"
 zhTW = "最高的草"
@@ -156,6 +170,7 @@ koKR = "가장 높은 풀"
 
 ["eMka.Minimap.Settings.HighestTerrainColor"]
 raw = "Highest terrain"
+status = "normal"
 enUS = "Highest terrain"
 zhCN = "旱地-最高处"
 zhTW = "最高地形"
@@ -169,6 +184,7 @@ koKR = "가장 높은 지형"
 
 ["eMka.Minimap.Settings.LowestGrassColor"]
 raw = "Lowest grass"
+status = "normal"
 enUS = "Lowest grass"
 zhCN = "草地-最低处"
 zhTW = "最低的草"
@@ -182,6 +198,7 @@ koKR = "가장 낮은 풀"
 
 ["eMka.Minimap.Settings.LowestTerrainColor"]
 raw = "Lowest terrain"
+status = "normal"
 enUS = "Lowest terrain"
 zhCN = "旱地-最低处"
 zhTW = "最低地形"
@@ -195,6 +212,7 @@ koKR = "최저 지형"
 
 ["eMka.Minimap.Settings.MinimapRotation"]
 raw = "Rotate minimap"
+status = "normal"
 enUS = "Rotate minimap"
 zhCN = "旋转小地图"
 zhTW = "旋轉小地圖"
@@ -208,6 +226,7 @@ koKR = "미니맵 회전"
 
 ["eMka.Minimap.Settings.MinimapRotationHeader"]
 raw = "Minimap rotation"
+status = "normal"
 enUS = "Minimap rotation"
 zhCN = "地图方向"
 zhTW = "小地圖旋轉"
@@ -221,6 +240,7 @@ koKR = "미니맵 회전"
 
 ["eMka.Minimap.Settings.PathColor"]
 raw = "Path"
+status = "normal"
 enUS = "Path"
 zhCN = "道路"
 zhTW = "路徑"
@@ -234,6 +254,7 @@ koKR = "경로"
 
 ["eMka.Minimap.Settings.PlantColor"]
 raw = "Plant"
+status = "normal"
 enUS = "Plant"
 zhCN = "作物&灌木"
 zhTW = "植物"
@@ -247,6 +268,7 @@ koKR = "식물"
 
 ["eMka.Minimap.Settings.ShallowBadwaterColor"]
 raw = "Shallow badwater"
+status = "normal"
 enUS = "Shallow bad water"
 zhCN = "恶水-最浅处"
 zhTW = "淺層壞水"
@@ -260,6 +282,7 @@ koKR = "얕은 오염된 물"
 
 ["eMka.Minimap.Settings.ShallowWaterColor"]
 raw = "Shallow water"
+status = "normal"
 enUS = "Shallow water"
 zhCN = "水-最浅处"
 zhTW = "淺水"
@@ -273,6 +296,7 @@ koKR = "얕은 물"
 
 ["eMka.Minimap.Settings.TreeColor"]
 raw = "Tree"
+status = "normal"
 enUS = "Tree"
 zhCN = "树木"
 zhTW = "樹"
@@ -286,6 +310,7 @@ koKR = "나무"
 
 ["eMka.Minimap.Settings.WaterPlantColor"]
 raw = "Water plant"
+status = "normal"
 enUS = "Water plant"
 zhCN = "水生作物"
 zhTW = "水生植物"

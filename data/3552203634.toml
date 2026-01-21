@@ -1,5 +1,8 @@
+name = "Leaf Coats (Early Access)"
+
 ["Faction.LeafCoats.DisplayName"]
 raw = "Leaf Coats"
+status = "normal"
 enUS = "Leaf Coats"
 zhCN = "叶纹"
 zhTW = "葉衣"
@@ -13,6 +16,8 @@ koKR = "잎 코트"
 
 ["Faction.LeafCoats.Description"]
 raw = "The Emberpelts have an affinity for trees and plantlife in general. They like to build in a way that mimics nature, including an expansive structure that resembles a giant tree.\nTheir motto: <i>The way of the Tree.</i>"
+new = "The Leaf Coats have an affinity for trees and plantlife in general. They like to build in a way that mimics nature, including an expansive structure that resembles a giant tree.\nTheir motto: <i>The way of the Tree.</i>"
+status = "normal"
 enUS = "The Emberpelts have an affinity for trees and plantlife in general. They like to build in a way that mimics nature, including an expansive structure that resembles a giant tree.\nTheir motto: <i>The way of the Tree.</i>"
 zhCN = "叶纹种族对树木和植物有着天然的亲和力。他们喜欢以模仿自然的方式来建造，创造出类似巨树的扩展结构。<br>座右铭：<i>自然之道，就在其中。</i>"
 zhTW = "火焰皮毛族對樹木和植物生命有著深厚的情感。他們喜歡以模仿自然的方式建造，包括一個類似於巨樹的宏大結構。\n他們的座右銘：<i>樹之道。</i>"
@@ -26,6 +31,7 @@ koKR = "엠버펠트는 나무와 식물에 대한 친화력이 있습니다. �
 
 ["Bot.DisplayName.LeafCoats"]
 raw = "Treebot {0}"
+status = "normal"
 enUS = "Treebot {0}"
 zhCN = "森林机关人 {0}"
 zhTW = "樹機器人 {0}"
@@ -39,6 +45,8 @@ koKR = "트리봇 {0}"
 
 ["Building.DistrictCenter.FlavorDescription.LeafCoats"]
 raw = "The way of the Tree.\" —LeafCoats motto"
+new = "\"The way of the Tree.\" —LeafCoats motto"
+status = "normal"
 enUS = "The way of the Tree.\" —LeafCoats motto"
 zhCN = "“自然之道，就在其中。”——叶纹族座右铭"
 zhTW = "「樹的道路。」 — 樹葉外套座右銘"
@@ -52,6 +60,7 @@ koKR = "\"나무의 길.\" —LeafCoats 모토"
 
 ["Building.Levee.Curved.DisplayName"]
 raw = "Curved Levee"
+status = "normal"
 enUS = "Curved Levee"
 zhCN = "转角防洪堤"
 zhTW = "曲線堤防"
@@ -65,6 +74,7 @@ koKR = "구부러진 제방"
 
 ["Building.HousingUnit.Small.LeafCoats.DisplayName"]
 raw = "Small Housing Unit"
+status = "normal"
 enUS = "Small Housing Unit"
 zhCN = "小型树屋"
 zhTW = "小型住宅單位"
@@ -78,6 +88,7 @@ koKR = "소형 주택 유닛"
 
 ["Building.HousingUnit.Small.LeafCoats.FlavorDescription"]
 raw = "It's better than sleeping on the ground."
+status = "normal"
 enUS = "It's better than sleeping on the ground."
 zhCN = "总比睡在地上强。"
 zhTW = "這比睡在地上要好。"
@@ -91,6 +102,7 @@ koKR = "땅에서 자는 것보다 나아요."
 
 ["Building.HousingUnit.Medium.LeafCoats.DisplayName"]
 raw = "Medium Housing Unit"
+status = "normal"
 enUS = "Medium Housing Unit"
 zhCN = "中型树屋"
 zhTW = "中型住房單位"
@@ -104,6 +116,7 @@ koKR = "중간 주택 단위"
 
 ["Building.HousingUnit.Medium.LeafCoats.FlavorDescription"]
 raw = "A starter home."
+status = "normal"
 enUS = "A starter home."
 zhCN = "入门级住宅。"
 zhTW = "一個入門住宅。"
@@ -117,6 +130,7 @@ koKR = "초기 주택."
 
 ["Building.HousingUnit.LeafCoats.DisplayName"]
 raw = "Housing Unit"
+status = "normal"
 enUS = "Housing Unit"
 zhCN = "树屋"
 zhTW = "住宅單位"
@@ -130,6 +144,7 @@ koKR = "주거 유닛"
 
 ["Building.HousingUnit.LeafCoats.Description"]
 raw = "A Housing Unit shaped like a slice of tree trunk"
+status = "normal"
 enUS = "A Housing Unit shaped like a slice of tree trunk"
 zhCN = "模仿树木的房子。"
 zhTW = "形狀如樹幹切片的住宅單位"
@@ -143,6 +158,7 @@ koKR = "나무 줄기 조각처럼 생긴 주거 유닛"
 
 ["Building.HousingUnit.LeafCoats.FlavorDescription"]
 raw = "The sky's the limit!"
+status = "normal"
 enUS = "The sky's the limit!"
 zhCN = "没有最高只有更高！"
 zhTW = "「天空才是極限！」"
@@ -156,6 +172,7 @@ koKR = "하늘이 한계다!"
 
 ["Building.HousingUnit.Double.LeafCoats.DisplayName"]
 raw = "Double Housing Unit"
+status = "normal"
 enUS = "Double Housing Unit"
 zhCN = "双层树屋"
 zhTW = "雙層住宅單位"
@@ -169,6 +186,7 @@ koKR = "이중 주거 유닛"
 
 ["Building.HousingUnit.Double.LeafCoats.Description"]
 raw = "It's like two of them on top of each other."
+status = "normal"
 enUS = "It's like two of them on top of each other."
 zhCN = "模仿树木的大房子。"
 zhTW = "就像兩個重疊在一起。"
@@ -182,6 +200,7 @@ koKR = "서로 겹쳐 있는 두 개처럼 보입니다."
 
 ["Building.HousingUnit.Double.LeafCoats.FlavorDescription"]
 raw = "Bigger! Taller!"
+status = "normal"
 enUS = "Bigger! Taller!"
 zhCN = "更大！更高！更好！"
 zhTW = "更大！更高！"
@@ -195,6 +214,7 @@ koKR = "더 크고! 더 높이!"
 
 ["Building.MediumPile.DisplayName"]
 raw = "Medium Pile"
+status = "normal"
 enUS = "Medium Pile"
 zhCN = "中型材料堆"
 zhTW = "中型堆積區"
@@ -208,6 +228,7 @@ koKR = "중간 더미"
 
 ["Building.Path2.LeafCoats.DisplayName"]
 raw = "Path with railings"
+status = "normal"
 enUS = "Path with railings"
 zhCN = "护栏道路"
 zhTW = "有欄杆的道路"
@@ -221,6 +242,7 @@ koKR = "난간이 있는 길"
 
 ["Building.Path2.LeafCoats.Description"]
 raw = "This version of path always has railings."
+status = "normal"
 enUS = "This version of path always has railings."
 zhCN = "带有护栏的道路。"
 zhTW = "此版本的道路始終帶有護欄。"
@@ -234,6 +256,7 @@ koKR = "이 버전의 경로는 항상 난간이 있습니다."
 
 ["Building.Path3.LeafCoats.DisplayName"]
 raw = "Path railings"
+status = "normal"
 enUS = "Path railings"
 zhCN = "护栏小路"
 zhTW = "「小徑護欄」"
@@ -247,6 +270,7 @@ koKR = "길 가드레일"
 
 ["Building.Path3.LeafCoats.Description"]
 raw = "This version of path only has railings."
+status = "normal"
 enUS = "This version of path only has railings."
 zhCN = "只有护栏的小路。"
 zhTW = "這個版本的小徑只有欄杆。"
@@ -260,6 +284,7 @@ koKR = "이 경로 버전에는 난간만 있습니다."
 
 ["Building.Path4.LeafCoats.DisplayName"]
 raw = "Path with Hedge"
+status = "normal"
 enUS = "Path with Hedge"
 zhCN = "树篱道路"
 zhTW = "有樹籬的小路"
@@ -273,6 +298,7 @@ koKR = "헤지 있는 길"
 
 ["Building.Path4.LeafCoats.Description"]
 raw = "This version of path had a hedge border."
+status = "normal"
 enUS = "This version of path had a hedge border."
 zhCN = "带有树篱护栏的道路。"
 zhTW = "此版本的人行道有樹籬邊界。"
@@ -286,6 +312,7 @@ koKR = "이 경로 버전은 생울타리 경계가 있습니다."
 
 ["Building.Path5.LeafCoats.DisplayName"]
 raw = "Hedge Path"
+status = "normal"
 enUS = "Hedge Path"
 zhCN = "树篱小路"
 zhTW = "樹籬小徑"
@@ -299,6 +326,7 @@ koKR = "헤지 경로"
 
 ["Building.Path5.LeafCoats.Description"]
 raw = "This version of path is only a hedge border."
+status = "normal"
 enUS = "This version of path is only a hedge border."
 zhCN = "只有树篱护栏的小路。"
 zhTW = "這種路徑的版本僅為樹籬邊界。"
@@ -312,6 +340,7 @@ koKR = "이 경로 버전은 단지 울타리 경계입니다."
 
 ["Building.Floodgate.Flat.DisplayName"]
 raw = "Flat top Floodgate"
+status = "normal"
 enUS = "Flat top Floodgate"
 zhCN = "平顶闸门"
 zhTW = "平頂洪水閘"
@@ -325,6 +354,7 @@ koKR = "평평한 꼭대기 홍수 게이트"
 
 ["Building.DoubleFloodgate.Flat.DisplayName"]
 raw = "Flat top Double Floodgate"
+status = "normal"
 enUS = "Flat top Double Floodgate"
 zhCN = "平顶双重闸门"
 zhTW = "平頂雙重水閘"
@@ -338,6 +368,7 @@ koKR = "평평한 상단의 이중 수문"
 
 ["Building.TripleFloodgate.Flat.DisplayName"]
 raw = "Flat top Triple Floodgate"
+status = "normal"
 enUS = "Flat top Triple Floodgate"
 zhCN = "平顶三重闸门"
 zhTW = "平頂三重洪水閘"
@@ -351,6 +382,7 @@ koKR = "평평한 상단의 삼중 홍수 게이트"
 
 ["Building.Floodgate.Flat.Description"]
 raw = "Blocks water up to an adjustable height. A new more compact design to allow you to build on top of them."
+status = "normal"
 enUS = "Blocks water up to an adjustable height. A new more compact design to allow you to build on top of them."
 zhCN = "改进的闸门，去掉了多余的顶部结构，可以在上面建造其他建筑。"
 zhTW = "可以阻擋水上升至可調整的高度。新的更緊湊設計，允許您在其上方建造。"
@@ -364,6 +396,7 @@ koKR = "조정 가능한 높이까지 물을 막습니다. 그 위에 건설할 
 
 ["Building.Branch.DisplayName"]
 raw = "Branch"
+status = "normal"
 enUS = "Branch"
 zhCN = "杈道"
 zhTW = "樹枝"
@@ -377,6 +410,7 @@ koKR = "가지"
 
 ["Building.Branch.Description"]
 raw = "A Branch. It can connect to the side of many Tree-style buildings. Some buildings will want to connect to Branches rather than Paths."
+status = "normal"
 enUS = "A Branch. It can connect to the side of many Tree-style buildings. Some buildings will want to connect to Branches rather than Paths."
 zhCN = "连接树干建筑的通道，连接处会自动开门。<br><color=#FFA500>部分建筑倾向于与杈道连接，而非道路。</color>"
 zhTW = "一個分支。它可以連接到許多樹型建築的側面。一些建築會希望連接到分支而不是小路。"
@@ -390,6 +424,7 @@ koKR = "가지입니다. 많은 나무 스타일 건물의 측면에 연결될 �
 
 ["Building.Branch.Bridge.DisplayName"]
 raw = "Branch Bridge"
+status = "normal"
 enUS = "Branch Bridge"
 zhCN = "吊桥杈道"
 zhTW = "樹枝橋"
@@ -403,6 +438,7 @@ koKR = "가지 다리"
 
 ["Building.Branch.Entrance.DisplayName"]
 raw = "Branch Entrance"
+status = "normal"
 enUS = "Branch Entrance"
 zhCN = "入口杈道"
 zhTW = "枝幹入口"
@@ -416,6 +452,7 @@ koKR = "가지 입구"
 
 ["Building.Branch.Entrance.Description"]
 raw = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
+status = "normal"
 enUS = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
 zhCN = "可以与道路连接，互相通行。"
 zhTW = "一個帶有道路連接的樹枝部分。這允許海狸在道路和樹枝之間通行。"
@@ -429,6 +466,7 @@ koKR = "지점 연결이 있는 가지 조각입니다. 이렇게 하면 비버�
 
 ["Building.TreeTrunk.Side.DisplayName"]
 raw = "Treetrunk Side Block"
+status = "normal"
 enUS = "Treetrunk Side Block"
 zhCN = "树干侧面填充块"
 zhTW = "樹幹側面區塊"
@@ -442,6 +480,7 @@ koKR = "나무줄기 측면 블록"
 
 ["Building.TreeTrunk.Corner.DisplayName"]
 raw = "Treetrunk Corner Block"
+status = "normal"
 enUS = "Treetrunk Corner Block"
 zhCN = "树干转角填充块"
 zhTW = "樹幹角落區塊"
@@ -455,6 +494,7 @@ koKR = "나무 기둥 모서리 블록"
 
 ["Building.TreeTrunk.Description"]
 raw = "A decorative block to fill gaps in the tree structure"
+status = "normal"
 enUS = "A decorative block to fill gaps in the tree structure"
 zhCN = "用于填补树状结构空隙的装饰性方块。"
 zhTW = "“用於填補樹木結構間隙的裝飾性區塊”"
@@ -468,6 +508,7 @@ koKR = "나무 구조의 틈을 메우기 위한 장식 블록"
 
 ["Building.TreeTrunk.Branch.DisplayName"]
 raw = "Treetrunk Side Block with Branch access"
+status = "normal"
 enUS = "Treetrunk Side Block with Branch access"
 zhCN = "树干通道填充块"
 zhTW = "帶有樹枝通道的樹幹側邊區塊"
@@ -481,6 +522,7 @@ koKR = "가지 접근이 가능한 나무줄기 측면 블록"
 
 ["Building.TreeTrunk.Branch.Description"]
 raw = "A Treetrunk Side Block with a Door on one side, and Branch connection on the other. This allows beavers to pass between Paths (or the tree central access shaft) and a Branch."
+status = "normal"
 enUS = "A Treetrunk Side Block with a Door on one side, and Branch connection on the other. This allows beavers to pass between Paths (or the tree central access shaft) and a Branch."
 zhCN = "带有内部通道，背面可以与杈道连接，互相通行。"
 zhTW = "樹幹側塊，單側有門，另一側有樹枝連接。這使得海狸可以在小路（或樹木中央通道）和樹枝之間通行。"
@@ -494,6 +536,7 @@ koKR = "한쪽에는 문이 있는 나무 줄기 측면 블록이며, 다른 한
 
 ["Building.Grinder.DisplayName"]
 raw = "Grinder"
+status = "normal"
 enUS = "Grinder"
 zhCN = "粉碎机"
 zhTW = "磨坊"
@@ -507,6 +550,7 @@ koKR = "분쇄기"
 
 ["Building.Grinder.Description"]
 raw = "Grinds scrap metal into metal blocks."
+status = "normal"
 enUS = "Grinds scrap metal into metal blocks."
 zhCN = "将金属废料加工成金属块。"
 zhTW = "將廢金屬研磨成金屬方塊。"
@@ -520,6 +564,7 @@ koKR = "폐금속을 금속 블록으로 간다."
 
 ["Building.DirtExcavator.FlavorDescription.LeafCoats"]
 raw = "The most agressive tree root"
+status = "normal"
 enUS = "The most agressive tree root"
 zhCN = "树根是最具侵略性的。"
 zhTW = "最具侵略性的樹根"
@@ -533,6 +578,7 @@ koKR = "가장 공격적인 나무 뿌리"
 
 ["Building.PowerDam.DisplayName"]
 raw = "Power Dam"
+status = "normal"
 enUS = "Power Dam"
 zhCN = "动力水坝"
 zhTW = "電力大壩"
@@ -546,6 +592,8 @@ koKR = "전력 댐"
 
 ["Building.PowerDam.Description"]
 raw = "A Dam with a built in Water Wheel to generate Power"
+new = "A Dam with a built in Water Wheel to generate Power.\nPower Shaft connections are only at the sides opposite expected water flow direction."
+status = "normal"
 enUS = "A Dam with a built in Water Wheel to generate Power"
 zhCN = "利用顶部的水流推动内置水轮产生能量。需注意方向。"
 zhTW = "「一座配備水輪的水壩，用於發電」"
@@ -559,6 +607,7 @@ koKR = "전력을 생성하기 위한 수차가 내장된 댐"
 
 ["Building.PowerLevee.DisplayName"]
 raw = "Power Levee"
+status = "normal"
 enUS = "Power Levee"
 zhCN = "传动防洪堤"
 zhTW = "動力堤防"
@@ -572,6 +621,7 @@ koKR = "전력 제방"
 
 ["Building.PowerLevee.Description"]
 raw = "A Levee with an internal Power Shaft"
+status = "normal"
 enUS = "A Levee with an internal Power Shaft"
 zhCN = "通过内置传动轴传输能量。"
 zhTW = "內部有動力軸的堤壩"
@@ -585,6 +635,7 @@ koKR = "내부 전력 샤프트가 있는 제방"
 
 ["Building.VerticalPowerShaftTunnel.DisplayName"]
 raw = "Vertical Power Shaft Tunnel"
+status = "normal"
 enUS = "Vertical Power Shaft Tunnel"
 zhCN = "垂直能量传动轴隧道"
 zhTW = "垂直動力軸隧道"
@@ -598,6 +649,7 @@ koKR = "수직 전력 샤프트 터널"
 
 ["Building.LeveeTunnel.DisplayName"]
 raw = "Levee Tunnel"
+status = "normal"
 enUS = "Levee Tunnel"
 zhCN = "防洪堤隧道"
 zhTW = "堤壩隧道"
@@ -611,6 +663,7 @@ koKR = "제방 터널"
 
 ["Building.PowerLeveeTunnel.DisplayName"]
 raw = "Power Levee Tunnel"
+status = "normal"
 enUS = "Power Levee Tunnel"
 zhCN = "传动防洪堤隧道"
 zhTW = "動力堤道"
@@ -624,6 +677,7 @@ koKR = "전력 제방 터널"
 
 ["Building.TunnelOther.Description"]
 raw = "Tunnels through terrain, replacing it with another building. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnels through terrain, replacing it with another building. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用其他建筑替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "隧道穿越地形，並用另一個建築取代它。使用圖層工具查看地形或結構下方。"
@@ -637,6 +691,7 @@ koKR = "지형을 관통하는 터널로, 다른 건물로 교체됩니다. 지�
 
 ["Building.PowerTreadmill.DisplayName"]
 raw = "Power Treadmill"
+status = "normal"
 enUS = "Power Treadmill"
 zhCN = "能量踏板"
 zhTW = "動力跑步機"
@@ -650,6 +705,7 @@ koKR = "전력 런닝머신"
 
 ["Building.Garden.DisplayName"]
 raw = "Garden"
+status = "normal"
 enUS = "Garden"
 zhCN = "花园"
 zhTW = "花園"
@@ -663,6 +719,7 @@ koKR = "정원"
 
 ["Building.ObservationTerrace.DisplayName"]
 raw = "Observation Terrace"
+status = "normal"
 enUS = "Observation Terrace"
 zhCN = "观景台"
 zhTW = "觀景台"
@@ -676,6 +733,7 @@ koKR = "관찰 테라스"
 
 ["Building.Plaza.DisplayName"]
 raw = "Plaza"
+status = "normal"
 enUS = "Plaza"
 zhCN = "广场"
 zhTW = "廣場"
@@ -689,6 +747,7 @@ koKR = "광장"
 
 ["Building.PruningFlag.DisplayName"]
 raw = "Pruning Flag"
+status = "normal"
 enUS = "Pruning Flag"
 zhCN = "修剪工旗帜"
 zhTW = "修剪旗標"
@@ -702,6 +761,7 @@ koKR = "전정 깃발"
 
 ["Building.DiggerFlag.DisplayName"]
 raw = "Digger Flag"
+status = "normal"
 enUS = "Digger Flag"
 zhCN = "挖掘工旗帜"
 zhTW = "挖掘旗幟"
@@ -715,6 +775,7 @@ koKR = "발굴기 깃발"
 
 ["Building.DiggerFlag.Description"]
 raw = "Collects Dirt from Loose Dirt."
+status = "normal"
 enUS = "Collects Dirt from Loose Dirt."
 zhCN = "从松散土块中收集泥土。"
 zhTW = "從鬆散的泥土中收集泥土。"
@@ -728,6 +789,7 @@ koKR = "느슨한 흙에서 흙을 수집합니다."
 
 ["Building.DiggerFlag.FlavorDescription"]
 raw = "Doesn't put the dirt in jars"
+status = "normal"
 enUS = "Doesn't put the dirt in jars"
 zhCN = "不要把泥土装进罐子里。"
 zhTW = "「不把土放在罐子裡」"
@@ -741,6 +803,7 @@ koKR = "흙을 병에 담지 않습니다"
 
 ["Building.LooseDirt.DisplayName"]
 raw = "Loose Dirt"
+status = "normal"
 enUS = "Loose Dirt"
 zhCN = "松散土块"
 zhTW = "鬆土"
@@ -754,6 +817,7 @@ koKR = "느슨한 흙"
 
 ["Building.LooseDirt.Description"]
 raw = "Terrain ready to be further demolished. Drops dirt when removed."
+status = "normal"
 enUS = "Terrain ready to be further demolished. Drops dirt when removed."
 zhCN = "堆积的泥土。可以拆除。"
 zhTW = "地形已準備好進一步拆除。移除時會掉落泥土。"
@@ -767,6 +831,7 @@ koKR = "추가로 철거할 준비가 된 지형. 제거할 때 흙이 떨어집
 
 ["Building.LooseDirt.FlavorDescription"]
 raw = "Digging the whole day through!"
+status = "normal"
 enUS = "Digging the whole day through!"
 zhCN = "我可以挖上一整天！"
 zhTW = "整天挖掘！"
@@ -780,6 +845,7 @@ koKR = "하루 종일 땅을 파고 있어요!"
 
 ["Building.LoosenDirt.DisplayName"]
 raw = "Loosen Terrain"
+status = "normal"
 enUS = "Loosen Terrain"
 zhCN = "松动泥土"
 zhTW = "鬆動地形"
@@ -793,6 +859,8 @@ koKR = "“지형 느슨하게 하기”"
 
 ["Building.LoosenDirt.Description"]
 raw = "Convert this terrain tile into Loose Dirt to be collected by beavers.\nCan only be used on the surface."
+new = "Convert this terrain block into Loose Dirt, which can then be removed.\nCan only be used on the surface."
+status = "normal"
 enUS = "Convert this terrain tile into Loose Dirt to be collected by beavers.\nCan only be used on the surface."
 zhCN = "将地形块转化为松散土块，可以收集泥土。"
 zhTW = "將此地形瓦片轉換為鬆土，供海狸收集。僅可用於表面。"
@@ -806,6 +874,7 @@ koKR = "지형 타일을 느슨한 흙으로 변환하여 비버들이 수집할
 
 ["Building.RemoveDirt.DisplayName"]
 raw = "Remove Terrain"
+status = "normal"
 enUS = "Remove Terrain"
 zhCN = "移除地形"
 zhTW = "移除地形"
@@ -819,6 +888,8 @@ koKR = "지형 제거"
 
 ["Building.RemoveDirt.Description"]
 raw = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
+new = "Beavers will remove this terrain block.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain block will collapse!"
+status = "normal"
 enUS = "Beavers will remove this terrain tile.\n• <RedHighlight>Warning:</RedHighlight> Objects supported by this terrain tile will collapse!"
 zhCN = "将地形块完全移除。<br>● <color=#FF4C4C>崩塌：</color>必须依赖此地形块的物体会同时崩塌！"
 zhTW = "海狸將移除此地形方塊。\n• <RedHighlight>警告：</RedHighlight> 支撐在此地形方塊上的物體將會崩塌！"
@@ -832,6 +903,7 @@ koKR = "비버가 이 지형 타일을 제거합니다.\n• <RedHighlight>경�
 
 ["Building.LumberPress.DisplayName"]
 raw = "Lumber Press"
+status = "normal"
 enUS = "Lumber Press"
 zhCN = "胶合厂"
 zhTW = "木材壓榨機"
@@ -845,6 +917,8 @@ koKR = "목재 프레스"
 
 ["Building.LumberPress.Description"]
 raw = "Glues Branches together into Branches or Planks."
+new = "Glues Branches together into artificial Logs or Planks."
+status = "normal"
 enUS = "Glues Branches together into Branches or Planks."
 zhCN = "将树枝粘合成粗木材或木板。"
 zhTW = "將樹枝黏合成樹枝或木板。"
@@ -858,6 +932,7 @@ koKR = "가지들을 함께 붙여 나무가지나 판자로 만듭니다."
 
 ["Building.LumberPress.FlavorDescription"]
 raw = "A healthy alternative to tree murder"
+status = "normal"
 enUS = "A healthy alternative to tree murder"
 zhCN = "比砍伐树木更环保的选择。"
 zhTW = "「樹木屠殺的健康替代品」"
@@ -871,6 +946,7 @@ koKR = "나무를 죽이는 것에 대한 건강한 대안"
 
 ["Building.ToolFactory.DisplayName"]
 raw = "Tool Factory"
+status = "normal"
 enUS = "Tool Factory"
 zhCN = "工具厂"
 zhTW = "工具工廠"
@@ -884,6 +960,7 @@ koKR = "도구 공장"
 
 ["Building.ToolFactory.Description"]
 raw = "For creating terraforming tools."
+status = "normal"
 enUS = "For creating terraforming tools."
 zhCN = "制造地形改造工具。"
 zhTW = "用於製作土地改造工具。"
@@ -897,6 +974,7 @@ koKR = "지형 조정 도구를 만들기 위한 것입니다."
 
 ["Building.FoodProcessor.DisplayName"]
 raw = "Food Processor"
+status = "normal"
 enUS = "Food Processor"
 zhCN = "食品厂"
 zhTW = "食物加工機"
@@ -910,6 +988,7 @@ koKR = "식품 가공기"
 
 ["Building.FoodProcessor.Description"]
 raw = "Processes ingredients into food."
+status = "normal"
 enUS = "Processes ingredients into food."
 zhCN = "将原料加工成食物。"
 zhTW = "將原料加工成食物。"
@@ -923,6 +1002,7 @@ koKR = "재료를 음식으로 가공합니다."
 
 ["Building.Pile.DisplayName"]
 raw = "Pile"
+status = "normal"
 enUS = "Pile"
 zhCN = "材料堆"
 zhTW = "堆"
@@ -936,6 +1016,7 @@ koKR = "더미"
 
 ["Building.Warehouse.DisplayName"]
 raw = "Warehouse"
+status = "normal"
 enUS = "Warehouse"
 zhCN = "仓库"
 zhTW = "倉庫"
@@ -949,6 +1030,7 @@ koKR = "창고"
 
 ["Building.DecorativeFloor.DisplayName"]
 raw = "Decorative Floor"
+status = "normal"
 enUS = "Decorative Floor"
 zhCN = "装饰地板"
 zhTW = "裝飾地板"
@@ -962,6 +1044,7 @@ koKR = "장식 바닥"
 
 ["Building.DecorativeFloor.Description"]
 raw = "Purely decorative floor panelling."
+status = "normal"
 enUS = "Purely decorative floor panelling."
 zhCN = "纯粹的装饰性地板。"
 zhTW = "純粹的裝飾性地板鋪設。"
@@ -975,6 +1058,7 @@ koKR = "순전히 장식용 바닥 판넬입니다."
 
 ["Building.LeveeZiplineBeam.DisplayName"]
 raw = "Levee with Zipline Beam"
+status = "normal"
 enUS = "Levee with Zipline Beam"
 zhCN = "滑索悬梁"
 zhTW = "帶有滑索樑的堤防"
@@ -988,6 +1072,7 @@ koKR = "짚라인 빔이 있는 제방"
 
 ["Building.BotAssembler.Description.LeafCoats"]
 raw = "Assembles autonomous bots, who can assist beavers in their everyday tasks.\nDesigned to be placed on top of the Bot Part Factory when built in the tree."
+status = "normal"
 enUS = "Assembles autonomous bots, who can assist beavers in their everyday tasks.\nDesigned to be placed on top of the Bot Part Factory when built in the tree."
 zhCN = "组装自动机关人，其可以协助海狸完成日常的工作。<br><color=#FFA500>建造树状结构时，可以与机关人部件工厂组合。</color>"
 zhTW = "組裝自動化機器人，能協助海狸處理日常任務。建造時設計為放置在機器零件工廠上方。"
@@ -1001,6 +1086,7 @@ koKR = "자율 봇을 조립하여 비버들이 일상적인 작업을 도와줄
 
 ["Tobbert.Ladder.DisplayName"]
 raw = "Ladder"
+status = "normal"
 enUS = "Ladder"
 zhCN = "垂直楼梯"
 zhTW = "梯子"
@@ -1014,6 +1100,7 @@ koKR = "사다리"
 
 ["Tobbert.Ladder.Description"]
 raw = "A platform that has a ladder inside."
+status = "normal"
 enUS = "A platform that has a ladder inside."
 zhCN = "能垂直上下的楼梯。<br><color=#FFFF1A>梯子背面会隔断道路连接。</color>"
 zhTW = "內部有梯子的平臺。"
@@ -1027,6 +1114,8 @@ koKR = "사다리가 있는 플랫폼."
 
 ["Tobbert.Ladder.FlavorDiscription"]
 raw = "'But how are they supposed to hold their items?' -Pmduda"
+new = "''But how are they supposed to hold their items?'' -Pmduda"
+status = "normal"
 enUS = "'But how are they supposed to hold their items?' -Pmduda"
 zhCN = "他们要怎么抱着东西爬上爬下？"
 zhTW = "「‘但他們應該怎麼拿著他們的物品?’ -Pmduda」"
@@ -1040,6 +1129,7 @@ koKR = "'하지만 물건을 어떻게 들고 있어야 하지?' -Pmduda"
 
 ["Good.Leaf.DisplayName"]
 raw = "Leaf"
+status = "normal"
 enUS = "Leaf"
 zhCN = "树叶"
 zhTW = "葉子"
@@ -1053,6 +1143,7 @@ koKR = "잎"
 
 ["Good.Leaf.PluralDisplayName"]
 raw = "Leaves"
+status = "normal"
 enUS = "Leaves"
 zhCN = "树叶"
 zhTW = "葉子"
@@ -1066,6 +1157,7 @@ koKR = "잎사귀"
 
 ["Good.Bark.DisplayName"]
 raw = "Bark"
+status = "normal"
 enUS = "Bark"
 zhCN = "树皮"
 zhTW = "樹皮"
@@ -1079,6 +1171,7 @@ koKR = "나무껍질"
 
 ["Good.Bark.PluralDisplayName"]
 raw = "Bark"
+status = "normal"
 enUS = "Bark"
 zhCN = "树皮"
 zhTW = "樹皮"
@@ -1092,6 +1185,7 @@ koKR = "껍질"
 
 ["Good.Branch.DisplayName"]
 raw = "Branch"
+status = "normal"
 enUS = "Branch"
 zhCN = "树枝"
 zhTW = "樹枝"
@@ -1105,6 +1199,7 @@ koKR = "가지"
 
 ["Good.Branch.PluralDisplayName"]
 raw = "Branches"
+status = "normal"
 enUS = "Branches"
 zhCN = "树枝"
 zhTW = "樹枝"
@@ -1118,6 +1213,7 @@ koKR = "가지"
 
 ["Good.Shovel.DisplayName"]
 raw = "Shovel"
+status = "normal"
 enUS = "Shovel"
 zhCN = "铲子"
 zhTW = "鐵鍬"
@@ -1131,6 +1227,7 @@ koKR = "삽"
 
 ["Good.Shovel.PluralDisplayName"]
 raw = "Shovels"
+status = "normal"
 enUS = "Shovels"
 zhCN = "铲子"
 zhTW = "鐵鍬們"
@@ -1144,6 +1241,7 @@ koKR = "삽들"
 
 ["Good.Apple.DisplayName"]
 raw = "Apple"
+status = "normal"
 enUS = "Apple"
 zhCN = "苹果"
 zhTW = "蘋果"
@@ -1157,6 +1255,7 @@ koKR = "사과"
 
 ["Good.Apple.PluralDisplayName"]
 raw = "Apples"
+status = "normal"
 enUS = "Apples"
 zhCN = "苹果"
 zhTW = "蘋果們"
@@ -1170,6 +1269,7 @@ koKR = "사과들"
 
 ["Good.Lubricant.DisplayName"]
 raw = "Lubricant"
+status = "normal"
 enUS = "Lubricant"
 zhCN = "防锈剂"
 zhTW = "潤滑油"
@@ -1183,6 +1283,7 @@ koKR = "윤활유"
 
 ["Good.Lubricant.PluralDisplayName"]
 raw = "Lubricant"
+status = "normal"
 enUS = "Lubricant"
 zhCN = "防锈剂"
 zhTW = "潤滑油"
@@ -1196,6 +1297,8 @@ koKR = "윤활유"
 
 ["Good.ChestnutFlour.DisplayName"]
 raw = "ChestnutFlour"
+new = "Chestnut Flour"
+status = "normal"
 enUS = "ChestnutFlour"
 zhCN = "栗子粉"
 zhTW = "栗子粉"
@@ -1209,6 +1312,8 @@ koKR = "밤가루"
 
 ["Good.ChestnutFlour.PluralDisplayName"]
 raw = "ChestnutFlour"
+new = "Chestnut Flour"
+status = "normal"
 enUS = "ChestnutFlour"
 zhCN = "栗子粉"
 zhTW = "栗子粉"
@@ -1222,6 +1327,7 @@ koKR = "밤가루"
 
 ["Good.FermentedChestnut.DisplayName"]
 raw = "Fermented Chestnut"
+status = "normal"
 enUS = "Fermented Chestnut"
 zhCN = "发酵栗子"
 zhTW = "發酵栗子"
@@ -1235,6 +1341,7 @@ koKR = "발효 밤"
 
 ["Good.FermentedChestnut.PluralDisplayName"]
 raw = "Fermented Chestnuts"
+status = "normal"
 enUS = "Fermented Chestnuts"
 zhCN = "发酵栗子"
 zhTW = "發酵栗子"
@@ -1248,6 +1355,7 @@ koKR = "발효된 밤"
 
 ["Good.FermentedDandelion.DisplayName"]
 raw = "Fermented Dandelion"
+status = "normal"
 enUS = "Fermented Dandelion"
 zhCN = "发酵蒲公英"
 zhTW = "發酵的蒲公英"
@@ -1261,6 +1369,7 @@ koKR = "발효된 민들레"
 
 ["Good.FermentedDandelion.PluralDisplayName"]
 raw = "Fermented Dandelions"
+status = "normal"
 enUS = "Fermented Dandelions"
 zhCN = "发酵蒲公英"
 zhTW = "發酵蒲公英"
@@ -1274,6 +1383,7 @@ koKR = "발효된 민들레"
 
 ["Good.FermentedFruit.DisplayName"]
 raw = "Fermented Fruit"
+status = "normal"
 enUS = "Fermented Fruit"
 zhCN = "发酵水果"
 zhTW = "發酵水果"
@@ -1287,6 +1397,7 @@ koKR = "발효 과일"
 
 ["Good.FermentedFruit.PluralDisplayName"]
 raw = "Fermented Fruit"
+status = "normal"
 enUS = "Fermented Fruit"
 zhCN = "发酵水果"
 zhTW = "發酵水果"
@@ -1300,6 +1411,7 @@ koKR = "발효 과일"
 
 ["Good.Grapes.DisplayName"]
 raw = "Grapes"
+status = "normal"
 enUS = "Grapes"
 zhCN = "葡萄"
 zhTW = "葡萄"
@@ -1313,6 +1425,7 @@ koKR = "포도"
 
 ["Good.Grapes.PluralDisplayName"]
 raw = "Grapes"
+status = "normal"
 enUS = "Grapes"
 zhCN = "葡萄"
 zhTW = "葡萄"
@@ -1326,6 +1439,8 @@ koKR = "포도"
 
 ["Good.FancyApples.DisplayName"]
 raw = "FancyApple"
+new = "Fancy Apple"
+status = "normal"
 enUS = "FancyApple"
 zhCN = "水果蜜饯"
 zhTW = "華麗蘋果"
@@ -1339,6 +1454,8 @@ koKR = "화려한사과"
 
 ["Good.FancyApples.PluralDisplayName"]
 raw = "FancyApples"
+new = "Fancy Apples"
+status = "normal"
 enUS = "FancyApples"
 zhCN = "水果蜜饯"
 zhTW = "華麗蘋果"
@@ -1352,6 +1469,8 @@ koKR = "환상적인 사과"
 
 ["Good.FruitSalad.DisplayName"]
 raw = "FruitSalad"
+new = "Fruit Salad"
+status = "normal"
 enUS = "FruitSalad"
 zhCN = "水果沙拉"
 zhTW = "水果沙拉"
@@ -1365,6 +1484,8 @@ koKR = "과일 샐러드"
 
 ["Good.FruitSalad.PluralDisplayName"]
 raw = "FruitSalad"
+new = "Fruit Salad"
+status = "normal"
 enUS = "FruitSalad"
 zhCN = "水果沙拉"
 zhTW = "水果沙拉"
@@ -1378,6 +1499,7 @@ koKR = "과일 샐러드"
 
 ["NaturalResource.AppleTree.DisplayName"]
 raw = "Apple Tree"
+status = "normal"
 enUS = "Apple Tree"
 zhCN = "苹果树"
 zhTW = "蘋果樹"
@@ -1391,6 +1513,7 @@ koKR = "사과나무"
 
 ["NaturalResource.AppleTree.FlavorDescription"]
 raw = "The seeds were brought by travelers from faraway lands."
+status = "normal"
 enUS = "The seeds were brought by travelers from faraway lands."
 zhCN = "种子是来自遥远土地的旅行者带来的。"
 zhTW = "種子是由來自遙遠土地的旅行者帶來的。"
@@ -1404,6 +1527,7 @@ koKR = "씨앗은 먼 땅의 여행자들에 의해 가져왔습니다."
 
 ["NaturalResource.GrapeVine.DisplayName"]
 raw = "Grape Vine"
+status = "normal"
 enUS = "Grape Vine"
 zhCN = "葡萄藤"
 zhTW = "葡萄藤"
@@ -1417,6 +1541,7 @@ koKR = "포도 덩굴"
 
 ["NaturalResource.GrapeVine.FlavorDescription"]
 raw = "Grapes are a great upgrade from berries."
+status = "normal"
 enUS = "Grapes are a great upgrade from berries."
 zhCN = "葡萄是浆果的绝佳升级版。"
 zhTW = "葡萄是比漿果更好的升級選擇。"
@@ -1430,6 +1555,7 @@ koKR = "포도는 베리보다 훌륭한 업그레이드입니다."
 
 ["ToolGroups.Platforms"]
 raw = "Platforms and Overhangs"
+status = "normal"
 enUS = "Platforms and Overhangs"
 zhCN = "平台和悬挑"
 zhTW = "平台和懸臂"
@@ -1443,6 +1569,7 @@ koKR = "플랫폼과 돌출부"
 
 ["ToolGroups.TreeBuildings"]
 raw = "Tree Structure"
+status = "normal"
 enUS = "Tree Structure"
 zhCN = "树状结构"
 zhTW = "樹木結構"
@@ -1456,6 +1583,7 @@ koKR = "나무 구조"
 
 ["ToolGroups.Industry"]
 raw = "Industry"
+status = "normal"
 enUS = "Industry"
 zhCN = "工业"
 zhTW = "工業"
@@ -1469,6 +1597,7 @@ koKR = "산업"
 
 ["ToolGroups.Bridges"]
 raw = "Bridges"
+status = "normal"
 enUS = "Bridges"
 zhCN = "桥梁"
 zhTW = "橋樑"
@@ -1482,6 +1611,7 @@ koKR = "다리"
 
 ["Zipline.DisplayName"]
 raw = "Ziplines"
+status = "normal"
 enUS = "Ziplines"
 zhCN = "滑索"
 zhTW = "滑索"
@@ -1495,6 +1625,7 @@ koKR = "짚라인"
 
 ["NaturalResource.Eucalyptus.DisplayName"]
 raw = "Eucalyptus"
+status = "normal"
 enUS = "Eucalyptus"
 zhCN = "桉树"
 zhTW = "「桉樹」"
@@ -1508,6 +1639,7 @@ koKR = "유칼립투스"
 
 ["NaturalResource.Eucalyptus.FlavorDescription"]
 raw = "Eucalyptus trees shed bark, lets put it to good use!"
+status = "normal"
 enUS = "Eucalyptus trees shed bark, lets put it to good use!"
 zhCN = "桉树会脱落树皮，让我们好好利用吧。"
 zhTW = "桉樹會脫落樹皮，讓我們好好利用它吧！"
@@ -1521,6 +1653,7 @@ koKR = "유칼립투스 나무는 껍질을 벗겨내므로, 이를 잘 활용�
 
 ["NaturalResource.Willow.DisplayName"]
 raw = "Willow"
+status = "normal"
 enUS = "Willow"
 zhCN = "柳树"
 zhTW = "柳樹"
@@ -1534,6 +1667,7 @@ koKR = "버드나무"
 
 ["NaturalResource.Willow.FlavorDescription"]
 raw = "Willow treese produce lots of branches, and should be pruned regularly."
+status = "normal"
 enUS = "Willow treese produce lots of branches, and should be pruned regularly."
 zhCN = "柳树会产生大量树枝，需要定期修剪"
 zhTW = "「柳樹會產生大量的樹枝，應定期進行修剪。」"
@@ -1547,6 +1681,7 @@ koKR = "버드나무 나무는 많은 가지를 생산하므로 정기적으로 
 
 ["Need.PlantMurderer.DisplayName"]
 raw = "Plant Murderer"
+status = "normal"
 enUS = "Plant Murderer"
 zhCN = "植物杀手"
 zhTW = "植物殺手"
@@ -1560,6 +1695,7 @@ koKR = "식물 살인자"
 
 ["Building.MetalPlatform3x3.Ladder.DisplayName"]
 raw = "Metal Platform 3x3 with Ladder"
+status = "normal"
 enUS = "Metal Platform 3x3 with Ladder"
 zhCN = "中空金属平台 3x3"
 zhTW = "帶梯子的3x3金屬平台"
@@ -1573,6 +1709,7 @@ koKR = "사다리가 있는 3x3 금속 플랫폼"
 
 ["Building.MetalPlatform5x5.Ladder.DisplayName"]
 raw = "Metal Platform 5x5 with Ladder"
+status = "normal"
 enUS = "Metal Platform 5x5 with Ladder"
 zhCN = "中空金属平台 5x5"
 zhTW = "帶梯子的5x5金屬平台"
@@ -1586,6 +1723,7 @@ koKR = "사다리가 있는 5x5 메탈 플랫폼"
 
 ["Building.MetalPlatform.DisplayName"]
 raw = "Metal Platform"
+status = "normal"
 enUS = "Metal Platform"
 zhCN = "金属平台"
 zhTW = "金屬平台"
@@ -1599,6 +1737,7 @@ koKR = "금속 플랫폼"
 
 ["Building.DistrictGate.Description"]
 raw = "Separates districts."
+status = "normal"
 enUS = "Separates districts."
 zhCN = "分隔两个相连地区之间的道路。"
 zhTW = "「區域之間的分隔。」"
@@ -1612,6 +1751,7 @@ koKR = "구역을 구분합니다."
 
 ["Building.DistrictGate.DisplayName"]
 raw = "District Gate"
+status = "normal"
 enUS = "District Gate"
 zhCN = "地区交界门"
 zhTW = "區域門"
@@ -1625,6 +1765,7 @@ koKR = "구역 게이트"
 
 ["Building.DistrictGate.FlavorDescription"]
 raw = "You must gather your supplies before venturing forth."
+status = "normal"
 enUS = "You must gather your supplies before venturing forth."
 zhCN = "出征前，需要集结你的补给。"
 zhTW = "「在冒險之前，你必須收集好你的物資。」"
@@ -1638,6 +1779,7 @@ koKR = "앞으로 나아가기 전에 자원을 모아야 합니다."
 
 ["Building.Dam.Top.DisplayName"]
 raw = "Decorative Dam Top"
+status = "normal"
 enUS = "Decorative Dam Top"
 zhCN = "堤坝装饰"
 zhTW = "裝飾性大壩頂部"
@@ -1651,6 +1793,7 @@ koKR = "장식용 댐 상단"
 
 ["Building.Dam.Top.Description"]
 raw = "A piece of Decoration similar to the top of a Floodgate."
+status = "normal"
 enUS = "A piece of Decoration similar to the top of a Floodgate."
 zhCN = "类似于闸门顶部的装饰性结构。"
 zhTW = "「一個裝飾品，類似於洪水閘的頂部。」"
@@ -1664,6 +1807,7 @@ koKR = "홍수 게이트의 상단과 유사한 장식 조각입니다."
 
 ["Building.MetalLantern.DisplayName"]
 raw = "Metal Lantern"
+status = "normal"
 enUS = "Metal Lantern"
 zhCN = "金属灯"
 zhTW = "金屬燈籠"
@@ -1677,6 +1821,7 @@ koKR = "금속 랜턴"
 
 ["Building.MetalGate.DisplayName"]
 raw = "Metal Gate"
+status = "normal"
 enUS = "Metal Gate"
 zhCN = "金属拱门"
 zhTW = "金屬門"
@@ -1690,6 +1835,7 @@ koKR = "금속 게이트"
 
 ["Building.MetalGate.Description"]
 raw = "A Gate for the Metal fence."
+status = "normal"
 enUS = "A Gate for the Metal fence."
 zhCN = "在金属围栏上使用的拱门。"
 zhTW = "金屬圍籬的大門。"
@@ -1703,6 +1849,7 @@ koKR = "금속 울타리를 위한 게이트입니다."
 
 ["Need.Greenery.DisplayName"]
 raw = "Greenery"
+status = "normal"
 enUS = "Greenery"
 zhCN = "绿化植被"
 zhTW = "綠意"
@@ -1716,6 +1863,7 @@ koKR = "녹지"
 
 ["Building.HedgeGate.DisplayName"]
 raw = "Hedge Gate"
+status = "normal"
 enUS = "Hedge Gate"
 zhCN = "树篱拱门"
 zhTW = "籬笆門"
@@ -1729,6 +1877,7 @@ koKR = "헤지 게이트"
 
 ["Building.HedgeGate.Description"]
 raw = "A Gate for the Hedge."
+status = "normal"
 enUS = "A Gate for the Hedge."
 zhCN = "在树篱上使用的拱门。"
 zhTW = "樹籬門"
@@ -1742,6 +1891,7 @@ koKR = "울타리를 위한 게이트."
 
 ["Building.ArchBanner.DisplayName"]
 raw = "Arch Banner"
+status = "normal"
 enUS = "Arch Banner"
 zhCN = "拱形旗帜"
 zhTW = "拱門橫幅"
@@ -1755,6 +1905,7 @@ koKR = "아치 배너"
 
 ["Building.LadderTunnel.DisplayName"]
 raw = "Ladder Tunnel"
+status = "normal"
 enUS = "Ladder Tunnel"
 zhCN = "垂直楼梯隧道"
 zhTW = "梯子隧道"
@@ -1768,6 +1919,7 @@ koKR = "사다리 터널"
 
 ["Building.GathererHut.DisplayName"]
 raw = "GathererHut"
+status = "normal"
 enUS = "GathererHut"
 zhCN = "采集工小屋"
 zhTW = "採集小屋"

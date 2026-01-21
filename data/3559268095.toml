@@ -1,5 +1,8 @@
+name = "Building HP & Renovation"
+
 ["LV.BHP.EnableMaintenance"]
 raw = "Enable maintenance"
+status = "normal"
 enUS = "Enable maintenance"
 zhCN = "启用建筑损耗"
 zhTW = "啟用維護"
@@ -13,6 +16,7 @@ koKR = "유지보수 활성화"
 
 ["LV.BHP.EnableMaintenanceDesc"]
 raw = "Buildings will deteriorate over time and require maintenance to keep them functional.\nDoes not affect unfinished buildings.\nCan only be changed on the Main Menu."
+status = "normal"
 enUS = "Buildings will deteriorate over time and require maintenance to keep them functional.\nDoes not affect unfinished buildings.\nCan only be changed on the Main Menu."
 zhCN = "勾选后，建筑会逐渐损失生命值。对建造中的建筑无影响。只能在主菜单中更改。"
 zhTW = "建築隨著時間推移會逐漸退化，需要維護以保持其正常運作。\n不影響未完成的建築。\n僅能在主菜單中更改。"
@@ -26,6 +30,7 @@ koKR = "건물은 시간이 지남에 따라 노후되며 기능을 유지하기
 
 ["LV.BHP.MaintenanceHPDays"]
 raw = "Maintenance days per HP"
+status = "normal"
 enUS = "Maintenance days per HP"
 zhCN = "损耗速率"
 zhTW = "「每個 HP 的維護天數」"
@@ -39,6 +44,7 @@ koKR = "HP당 유지보수 일수"
 
 ["LV.BHP.MaintenanceHPDaysDesc"]
 raw = "How many days before 1HP is lost due to maintenance."
+status = "normal"
 enUS = "How many days before 1HP is lost due to maintenance."
 zhCN = "建筑损失 1 点生命值所需的天数。"
 zhTW = "在因維護而損失1HP之前有多少天。"
@@ -52,6 +58,7 @@ koKR = "유지 관리로 인해 1HP가 잃어버리기까지 며칠 남았습니
 
 ["LV.BHP.EnableMaterialDurability"]
 raw = "Enable material Durability"
+status = "normal"
 enUS = "Enable material Durability"
 zhCN = "启用建材强化"
 zhTW = "啟用材料耐久性"
@@ -65,6 +72,7 @@ koKR = "재료 내구성 활성화"
 
 ["LV.BHP.EnableMaterialDurabilityDesc"]
 raw = "Buildings will gain Durability from materials used in their construction.\n<RedHighlight>WARNING:</RedHighlight> Disabling this also removes invulnerability from buildings without cost.\nCan only be changed on the Main Menu."
+status = "normal"
 enUS = "Buildings will gain Durability from materials used in their construction.\n<RedHighlight>WARNING:</RedHighlight> Disabling this also removes invulnerability from buildings without cost.\nCan only be changed on the Main Menu."
 zhCN = "勾选后，建筑会从建筑材料中获得额外生命值上限。只能在主菜单中更改。<br>注意：禁用此功能会同时移除无成本建筑（如地区中心、伐木工旗帜）的无敌状态。"
 zhTW = "建築物將從其建造所使用的材料中獲得耐久度。\n<RedHighlight>警告：</RedHighlight>禁用此功能將會讓建築物在沒有成本的情況下失去不受損的能力。\n此選項僅能在主菜單中更改。"
@@ -78,6 +86,7 @@ koKR = "건물은 건축에 사용된 재료로 내구성을 얻습니다.  \n<�
 
 ["LV.BHP.AutoRepair"]
 raw = "Auto-repair"
+status = "normal"
 enUS = "Auto-repair"
 zhCN = "自动修复"
 zhTW = "自動修復"
@@ -91,6 +100,7 @@ koKR = "자동 수리"
 
 ["LV.BHP.AutoRepairHP"]
 raw = "HP% threshold"
+status = "normal"
 enUS = "HP% threshold"
 zhCN = "修复阈值"
 zhTW = "HP% 閾值"
@@ -104,6 +114,7 @@ koKR = "HP% 임계값"
 
 ["LV.BHP.HPTooltip"]
 raw = "HP: {0}\nDurability: {1}\n{2}"
+status = "normal"
 enUS = "HP: {0}\nDurability: {1}\n{2}"
 zhCN = "生命值：{0}<br>生命值上限：{1}<br>{2}"
 zhTW = "生命值: {0}\n耐久度: {1}\n{2}"
@@ -117,6 +128,8 @@ koKR = "HP: {0}  \n내구성: {1}  \n{2}"
 
 ["LV.BHP.HPTooltipDurability"]
 raw = "• {0} from {1}"
+new = "▶ {0} from {1}"
+status = "normal"
 enUS = "• {0} from {1}"
 zhCN = "• {0} 来自 {1}"
 zhTW = "• {0} 來自 {1}"
@@ -130,6 +143,8 @@ koKR = "• {0} / {1}"
 
 ["LV.BHP.HPTooltipInvul"]
 raw = "• Invulnerability from {0}"
+new = "▶ Invulnerability from {0}"
+status = "normal"
 enUS = "• Invulnerability from {0}"
 zhCN = "• 无敌状态 来自 {0}"
 zhTW = "「• 免疫來自 {0}」"
@@ -143,6 +158,7 @@ koKR = "• {0}로부터 무적"
 
 ["LV.BHP.MaterialDurability"]
 raw = "Construction materials"
+status = "normal"
 enUS = "Construction materials"
 zhCN = "建筑材料"
 zhTW = "建築材料"
@@ -156,6 +172,7 @@ koKR = "건축 자재"
 
 ["LV.BHP.HP"]
 raw = "HP: {0} / {1}"
+status = "normal"
 enUS = "HP: {0} / {1}"
 zhCN = "生命值：{0} / {1}"
 zhTW = "HP: {0} / {1}"
@@ -169,6 +186,7 @@ koKR = "HP: {0} / {1}"
 
 ["LV.BHP.HPInvul"]
 raw = "HP: {0} / {1}, Invulnerable"
+status = "normal"
 enUS = "HP: {0} / {1}, Invulnerable"
 zhCN = "生命值：{0} / {1}，无敌"
 zhTW = "HP: {0} / {1}，無敵"
@@ -182,6 +200,7 @@ koKR = "HP: {0} / {1}, 무적"
 
 ["LV.BHP.Repair"]
 raw = "Repair"
+status = "normal"
 enUS = "Repair"
 zhCN = "修复"
 zhTW = "修理"
@@ -195,6 +214,7 @@ koKR = "수리"
 
 ["LV.BHP.BaseDurabilityTooltip"]
 raw = "Base Durability"
+status = "normal"
 enUS = "Base Durability"
 zhCN = "基础值"
 zhTW = "基本耐久度"
@@ -208,6 +228,7 @@ koKR = "기본 내구성"
 
 ["LV.BHP.EnableWarnLowHp"]
 raw = "Low building HP warning"
+status = "normal"
 enUS = "Low building HP warning"
 zhCN = "启用受损警告"
 zhTW = "建築生命值低警告"
@@ -221,6 +242,7 @@ koKR = "건물 HP 경고 낮음"
 
 ["LV.BHP.EnableWarnLowHpDesc"]
 raw = "Show a warning when a building's HP is low.\nNote: if a building max HP is below the threshold, the warning is only shown if the building is damaged."
+status = "normal"
 enUS = "Show a warning when a building's HP is low.\nNote: if a building max HP is below the threshold, the warning is only shown if the building is damaged."
 zhCN = "勾选后，建筑生命值过低时会显示警告。<br>注意：如果建筑生命值上限低于阈值，则仅在建筑受损时显示警告。"
 zhTW = "顯示當建築物的生命值低時的警告。  \n注意：如果建築物的最大生命值低於閾值，則只有在建築物受損時才會顯示警告。"
@@ -234,6 +256,7 @@ koKR = "건물의 HP가 낮을 때 경고를 표시합니다.  \n참고: 건물�
 
 ["LV.BHP.LowHpThreshold"]
 raw = "Low HP threshold"
+status = "normal"
 enUS = "Low HP threshold"
 zhCN = "受损阈值"
 zhTW = "低生命值閾值"
@@ -247,6 +270,7 @@ koKR = "저체력 임계값"
 
 ["LV.BHP.LowHpThresholdDesc"]
 raw = "The HP threshold below which a warning will be shown."
+status = "normal"
 enUS = "The HP threshold below which a warning will be shown."
 zhCN = "建筑生命值低于此阈值时会显示警告。"
 zhTW = "當生命值低於此閾值時，將顯示警告。"
@@ -260,6 +284,7 @@ koKR = "경고가 표시되는 HP 기준치입니다."
 
 ["LV.BHP.EnableWarnLowHpPerc"]
 raw = "Low building HP percentage warning"
+status = "normal"
 enUS = "Low building HP percentage warning"
 zhCN = "启用受损警告（百分比）"
 zhTW = "低建築生命值百分比警告"
@@ -273,6 +298,7 @@ koKR = "건물 HP 비율 경고"
 
 ["LV.BHP.EnableWarnLowHpPercDesc"]
 raw = "Show a warning when a building's HP is below a certain percentage."
+status = "normal"
 enUS = "Show a warning when a building's HP is below a certain percentage."
 zhCN = "勾选后，建筑生命值百分比过低时会显示警告。"
 zhTW = "當建築物的生命值低於某個百分比時顯示警告。"
@@ -286,6 +312,7 @@ koKR = "건물의 HP가 특정 비율 이하일 때 경고를 표시합니다."
 
 ["LV.BHP.LowHpPercThreshold"]
 raw = "Low HP percentage threshold"
+status = "normal"
 enUS = "Low HP percentage threshold"
 zhCN = "受损阈值（百分比）"
 zhTW = "低生命值百分比閾值"
@@ -299,6 +326,7 @@ koKR = "낮은 HP 비율 임계값"
 
 ["LV.BHP.LowHpPercThresholdDesc"]
 raw = "The HP percentage threshold below which a warning will be shown."
+status = "normal"
 enUS = "The HP percentage threshold below which a warning will be shown."
 zhCN = "建筑生命值百分比低于此阈值时会显示警告。"
 zhTW = "HP百分比閾值，低於此值將顯示警告。"
@@ -312,6 +340,7 @@ koKR = "경고가 표시될 HP 백분율 기준선입니다."
 
 ["LV.BHP.LowHpWarningTitle"]
 raw = "Building is badly damaged"
+status = "normal"
 enUS = "Building is badly damaged"
 zhCN = "建筑严重受损"
 zhTW = "建築損壞嚴重"
@@ -325,6 +354,7 @@ koKR = "건물이 심각하게 손상되었습니다"
 
 ["LV.BHP.LowHpWarningDesc"]
 raw = "The building may be destroyed if further damaged. Consider repairing it."
+status = "normal"
 enUS = "The building may be destroyed if further damaged. Consider repairing it."
 zhCN = "这座建筑如果继续受损，可能会被摧毁。请考虑进行修复。"
 zhTW = "該建築物如果進一步受損可能會被摧毀。考慮修復它。"
@@ -338,6 +368,7 @@ koKR = "건물이 추가 손상을 입으면 파괴될 수 있습니다. 수리�
 
 ["LV.BHP.AutoRepairOn"]
 raw = "Auto-repair enabled on placement"
+status = "normal"
 enUS = "Auto-repair enabled on placement"
 zhCN = "启用自动修复"
 zhTW = "“自動修復在放置時啟用”"
@@ -351,6 +382,7 @@ koKR = "배치 시 자동 수리 활성화됨"
 
 ["LV.BHP.AutoRepairOnDesc"]
 raw = "Auto-repair will be enabled when placing buildings."
+status = "normal"
 enUS = "Auto-repair will be enabled when placing buildings."
 zhCN = "勾选后，放置新的待建造建筑时会默认启用建筑的自动修复功能，并设置默认的修复阈值。"
 zhTW = "自動修復將在放置建築時啟用。"
@@ -364,6 +396,7 @@ koKR = "건물 배치 시 자동 수리가 활성화됩니다."
 
 ["LV.BHP.AutoRepairDefaultThreshold"]
 raw = "Auto-repair default threshold"
+status = "normal"
 enUS = "Auto-repair default threshold"
 zhCN = "修复阈值"
 zhTW = "自動修復預設門檻"
@@ -377,6 +410,7 @@ koKR = "자동 수리 기본 임계값"
 
 ["LV.BHP.AutoRepairDefaultThresholdDesc"]
 raw = "The default HP threshold for auto-repair when placing buildings."
+status = "normal"
 enUS = "The default HP threshold for auto-repair when placing buildings."
 zhCN = "建筑生命值百分比低于此阈值时会开始自动修复。"
 zhTW = "“建築物放置時自動修復的預設HP閾值。”"
@@ -390,6 +424,7 @@ koKR = "건물을 배치할 때 자동 수리를 위한 기본 HP 임계값입�
 
 ["LV.BHP.RepairGroup"]
 raw = "Repair"
+status = "normal"
 enUS = "Repair"
 zhCN = "修复"
 zhTW = "修理"
@@ -403,6 +438,7 @@ koKR = "수리"
 
 ["LV.BHP.RepairReno"]
 raw = "Repair"
+status = "normal"
 enUS = "Repair"
 zhCN = "破损修复"
 zhTW = "修理"
@@ -416,6 +452,7 @@ koKR = "수리"
 
 ["LV.BHP.RepairRenoDesc"]
 raw = "Repair the building to restore its HP. You can choose how much you want to repair it and it always takes [Days]d to finish."
+status = "normal"
 enUS = "Repair the building to restore its HP. You can choose how much you want to repair it and it always takes [Days]d to finish."
 zhCN = "修复建筑以恢复其生命值。可以调整修复量，但整修时间固定为 [Days] 天。"
 zhTW = "修復建築以恢復其生命值。您可以選擇想要修復的數量，修復始終需要[Days]天才能完成。"
@@ -429,6 +466,7 @@ koKR = "건물을 수리하여 HP를 복원하세요. 수리할 양을 선택할
 
 ["LV.BHP.RepairRenoFlavor"]
 raw = "A patch here, a beam there, good as new!"
+status = "normal"
 enUS = "A patch here, a beam there, good as new!"
 zhCN = "这里补颗钉，那里加根梁，焕然一新！"
 zhTW = "這裡補一道，那裡加一根，焕然一新！"
@@ -442,6 +480,7 @@ koKR = "여기 패치 하나, 저기 빔 하나, 새것처럼 좋아!"
 
 ["LV.BHP.Renovations"]
 raw = "Renovations"
+status = "normal"
 enUS = "Renovations"
 zhCN = "整修项目"
 zhTW = "翻新"
@@ -455,6 +494,7 @@ koKR = "개조"
 
 ["LV.BHP.Renovate"]
 raw = "Renovate building"
+status = "normal"
 enUS = "Renovate building"
 zhCN = "整修建筑"
 zhTW = "翻新建築"
@@ -468,6 +508,7 @@ koKR = "건물 개조"
 
 ["LV.BHP.NoRenovation"]
 raw = "No renovation available for this building."
+status = "normal"
 enUS = "No renovation available for this building."
 zhCN = "此建筑无可用整修项目。"
 zhTW = "這棟建築無法進行翻新。"
@@ -481,6 +522,7 @@ koKR = "이 건물은 리노베이션이 불가능합니다."
 
 ["LV.BHP.ReinforceGroup"]
 raw = "Reinforcement"
+status = "normal"
 enUS = "Reinforcement"
 zhCN = "加固"
 zhTW = "強化"
@@ -494,6 +536,7 @@ koKR = "강화"
 
 ["LV.BHP.ReinforceEff"]
 raw = "Increases building Durability by {0:+0}."
+status = "normal"
 enUS = "Increases building Durability by {0:+0}."
 zhCN = "|  建筑生命值上限: {0:+0}"
 zhTW = "增加建築耐久度 {0:+0}。"
@@ -507,6 +550,7 @@ koKR = "건물 내구성이 {0:+0}만큼 증가합니다."
 
 ["LV.BHP.Reinforce1"]
 raw = "Wooden Reinforcement"
+status = "normal"
 enUS = "Wooden Reinforcement"
 zhCN = "木质支撑"
 zhTW = "木質加強件"
@@ -520,6 +564,7 @@ koKR = "목재 보강"
 
 ["LV.BHP.Reinforce1Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+status = "normal"
 enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
 zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
 zhTW = "提高建築耐久度 {0:+0}。同時只能活躍一種強化類型。"
@@ -533,6 +578,7 @@ koKR = "건물 내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나�
 
 ["LV.BHP.Reinforce1Flavor"]
 raw = "A few extra beams and braces — sometimes all you need is more wood."
+status = "normal"
 enUS = "A few extra beams and braces — sometimes all you need is more wood."
 zhCN = "几根额外的梁和支架——有时候你只需要更多木头。"
 zhTW = "幾根額外的樑柱 — 有時你需要的只是更多的木材。"
@@ -546,6 +592,7 @@ koKR = "조금 더 많은 기둥과 보강재 — 때로는 필요한 것이 더
 
 ["LV.BHP.Reinforce2"]
 raw = "Ironclad Frames"
+status = "normal"
 enUS = "Ironclad Frames"
 zhCN = "铁质框架"
 zhTW = "鐵甲框架"
@@ -559,6 +606,7 @@ koKR = "강철 프레임"
 
 ["LV.BHP.Reinforce2Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+status = "normal"
 enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
 zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
 zhTW = "提升建築的耐久度 {0:+0}。同時只能有一種強化效果啟用。"
@@ -572,6 +620,7 @@ koKR = "내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나의 보�
 
 ["LV.BHP.Reinforce2Flavor"]
 raw = "Iron bones for wooden homes. Stronger, heavier... squeakier."
+status = "normal"
 enUS = "Iron bones for wooden homes. Stronger, heavier... squeakier."
 zhCN = "木质房屋的铁质骨头，更坚固、更沉重……也更吱嘎作响。"
 zhTW = "為木製房屋增強鐵骨。更強、更重……更吱吱作響。"
@@ -585,6 +634,7 @@ koKR = "나무 집을 위한 철제 뼈. 더 강하고, 더 무겁고... 더 삐
 
 ["LV.BHP.Reinforce3"]
 raw = "Timber-Steel Fusion Reinforcement"
+status = "normal"
 enUS = "Timber-Steel Fusion Reinforcement"
 zhCN = "木铁融合卯榫"
 zhTW = "木鋼融合加固"
@@ -598,6 +648,7 @@ koKR = "목재-강철 융합 보강"
 
 ["LV.BHP.Reinforce3Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
+status = "normal"
 enUS = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
 zhCN = "增加建筑生命值上限 {0:+0}。高级的加固项目会覆盖低级的效果。"
 zhTW = "「將建築耐久度提高 {0:+0}。同一時間只能有一種加固類型生效。」"
@@ -611,6 +662,7 @@ koKR = "내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나의 강�
 
 ["LV.BHP.Reinforce3Flavor"]
 raw = "Wood and steel, bound together in stubborn harmony."
+status = "normal"
 enUS = "Wood and steel, bound together in stubborn harmony."
 zhCN = "木材与钢铁，在固执的和谐中结合在一起。"
 zhTW = "「木材與鋼鐵，堅韌和諧地結合在一起。」"
@@ -624,6 +676,7 @@ koKR = "나무와 강철, 고집스러운 조화로 묶여 있다."
 
 ["LV.BHP.ReinforceInvul"]
 raw = "Project Amberwall"
+status = "normal"
 enUS = "Project Amberwall"
 zhCN = "琥珀化涂层"
 zhTW = "「琥珀牆計劃」"
@@ -637,6 +690,7 @@ koKR = "프로젝트 앰버월"
 
 ["LV.BHP.ReinforceInvulDesc"]
 raw = "Temporarily makes the building invulnerable for {0} days."
+status = "normal"
 enUS = "Temporarily makes the building invulnerable for {0} days."
 zhCN = "建筑进入无敌状态，持续 {0} 天。"
 zhTW = "暫時使建築在{0}天內變得無法被摧毀。"
@@ -650,6 +704,7 @@ koKR = "건물을 {0}일 동안 일시적으로 무적 상태로 만듭니다."
 
 ["LV.BHP.ReinforceInvulFlavor"]
 raw = "A golden coat of resin, sealing every crack until nothing gets through."
+status = "normal"
 enUS = "A golden coat of resin, sealing every crack until nothing gets through."
 zhCN = "在墙壁上刷一层特制金色树脂，密封每道裂缝直至无懈可击。"
 zhTW = "一層金色樹脂，封住每一條裂縫，直到沒有任何東西可以進入。"
@@ -663,6 +718,7 @@ koKR = "모든 틈을 봉인하여 아무것도 통과하지 못하도록 하는
 
 ["LV.BHP.ReinforceGear"]
 raw = "Metal Gear Solid"
+status = "normal"
 enUS = "Metal Gear Solid"
 zhCN = "强化齿轮"
 zhTW = "金屬齒輪奧德賽"
@@ -676,6 +732,7 @@ koKR = "메탈 기어 솔리드"
 
 ["LV.BHP.ReinforceGearDesc"]
 raw = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
+status = "normal"
 enUS = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
 zhCN = "增加建筑生命值上限 {0:+0}，如果是工厂，则额外增加建筑生产力 {1:+0%}。"
 zhTW = "增加建築耐久度 {0:+0} 和如果是工廠則增加生產力 {1:+0%}。"
@@ -689,6 +746,7 @@ koKR = "건물 내구도를 {0:+0} 증가시키고, 그것이 제조업체일 �
 
 ["LV.BHP.ReinforceGearFlavor"]
 raw = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
+status = "normal"
 enUS = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
 zhCN = "重型齿轮，用实心金属加固，内含纸皮箱。"
 zhTW = "重型齒輪，使用堅固的金屬加強。附贈紙箱。"
@@ -702,6 +760,7 @@ koKR = "튼튼한 금속으로 보강된 중량급 기어. 골판지 상자 포�
 
 ["LV.BHP.ReinforceGearEffDurability"]
 raw = "▶ Durability increased by {0:+0}."
+status = "normal"
 enUS = "▶ Durability increased by {0:+0}."
 zhCN = "|  建筑生命值上限: {0:+0}"
 zhTW = "▶ 耐久度增加 {0:+0}。"
@@ -715,6 +774,7 @@ koKR = "▶ 내구성이 {0:+0} 만큼 증가했습니다."
 
 ["LV.BHP.ReinforceGearEffProductivity"]
 raw = "▶ Productivity increased by {0:+0%}."
+status = "normal"
 enUS = "▶ Productivity increased by {0:+0%}."
 zhCN = "|  建筑生产力: {0:+0%}"
 zhTW = "▶ 生產力增加了 {0:+0%}。"
@@ -728,6 +788,7 @@ koKR = "▶ 생산성 증가 {0:+0%}."
 
 ["LV.BHP.ReinforceGearWorkerEff"]
 raw = "{0:+0%} Working Speed"
+status = "normal"
 enUS = "{0:+0%} Working Speed"
 zhCN = "|  工作速度: {0:+0%}"
 zhTW = "{0:+0%} 工作速度"
@@ -741,6 +802,7 @@ koKR = "{0:+0%} 작업 속도"
 
 ["LV.BHP.NoNeedRepair"]
 raw = "Building does not need repairs."
+status = "normal"
 enUS = "Building does not need repairs."
 zhCN = "建筑目前无需修复。"
 zhTW = "建築物不需要修理。"
@@ -754,6 +816,7 @@ koKR = "건물은 수리가 필요 없습니다."
 
 ["LV.BHP.NoReinforcement"]
 raw = "No reinforcement yet"
+status = "normal"
 enUS = "No reinforcement yet"
 zhCN = "建筑尚未有加固项目。"
 zhTW = "尚未加固"
@@ -767,6 +830,7 @@ koKR = "아직 보강이 없습니다"
 
 ["LV.BHP.HigherReinforce"]
 raw = "Higher reinforcement is already applied."
+status = "normal"
 enUS = "Higher reinforcement is already applied."
 zhCN = " 已有更高级的加固项目生效中。"
 zhTW = "已經應用更高的加強。"
@@ -780,6 +844,7 @@ koKR = "더 높은 보강이 이미 적용되었습니다."
 
 ["LV.BHP.RenoTime"]
 raw = "⏱️ Renovation time: {0} days"
+status = "normal"
 enUS = "⏱️ Renovation time: {0} days"
 zhCN = "⏱️ 整修时间：{0} 天"
 zhTW = "⏱️ 裝修時間：{0} 天"
@@ -793,6 +858,7 @@ koKR = "⏱️ 개조 시간: {0}일"
 
 ["LV.BHP.RenoPriority"]
 raw = "Renovation materials priority:"
+status = "normal"
 enUS = "Renovation materials priority:"
 zhCN = "整修材料优先度："
 zhTW = "翻新材料優先級："
@@ -806,6 +872,7 @@ koKR = "개조 자재 우선순위:"
 
 ["LV.BHP.RenoPriorityShort"]
 raw = "Materials"
+status = "normal"
 enUS = "Materials"
 zhCN = "整修材料"
 zhTW = "材料"
@@ -819,6 +886,7 @@ koKR = "재료"
 
 ["LV.BHP.AlreadyActive"]
 raw = "Renovation is already active."
+status = "normal"
 enUS = "Renovation is already active."
 zhCN = "此整修项目已启用。"
 zhTW = "翻新已經啟動。"
@@ -832,6 +900,7 @@ koKR = "개조가 이미 활성화되어 있습니다."
 
 ["LV.BHP.NoGearBuilding"]
 raw = "This renovation is only for buildings that use gears"
+status = "normal"
 enUS = "This renovation is only for buildings that use gears"
 zhCN = "此整修项目仅适用于使用齿轮建造的建筑。"
 zhTW = "這次翻新僅適用於使用齒輪的建築。"
@@ -845,6 +914,8 @@ koKR = "이 개조는 기어를 사용하는 건물에만 해당됩니다."
 
 ["LV.BHP.RenovationNote"]
 raw = "When started, the building will start gathering materials and the time only counts down when all materials are collected.\nOnly one renovation can be active at a time. You can cancel it at any time but no materials will be refunded once gathered."
+new = "- Once started, the building will start gathering materials and the time only counts down when all materials are collected.\n- Collecting materials and renovating does <b>NOT</b> require Builders or Haulers. They are done automatically. However, materials are only taken once all materials are available in the stockpiles, it cannot be taken gradually.\n- Only one renovation can be active at a time for each building. You can cancel it at any time (except certain renovations) but no materials will be refunded once gathered."
+status = "normal"
 enUS = "When started, the building will start gathering materials and the time only counts down when all materials are collected.\nOnly one renovation can be active at a time. You can cancel it at any time but no materials will be refunded once gathered."
 zhCN = "整修开始后，建筑会先获取所有材料，再开始施工。<br>只能同时进行一项整修项目。可以随时取消整修，特殊情况除外。已获取的材料不会退还。"
 zhTW = "當開始時，建築物將開始收集材料，只有在所有材料收集完畢後，時間才會倒計時。一次只能有一個翻新進行。您可以隨時取消，但一旦收集的材料將不會退還。"
@@ -858,6 +929,7 @@ koKR = "시작하면 건물이 자재를 모으기 시작하며, 모든 자재�
 
 ["LV.BHP.StartRenovation"]
 raw = "Start this renovation"
+status = "normal"
 enUS = "Start this renovation"
 zhCN = "开始整修"
 zhTW = "開始這項翻新"
@@ -869,8 +941,13 @@ plPL = "Rozpocznij tę renowację"
 ptBR = "Iniciar esta renovação"
 koKR = "이 개조를 시작하세요"
 
+[Empty]
+new = ""
+status = "normal"
+
 ["LV.BHP.RepairAmount"]
 raw = "Repair amount:"
+status = "normal"
 enUS = "Repair amount:"
 zhCN = "修复量："
 zhTW = "修復數量："
@@ -884,6 +961,7 @@ koKR = "수리 양:"
 
 ["LV.BHP.RepairHP"]
 raw = "Repairing {0:+0%}HP, after repair it will have {1} + {2} = {3}HP."
+status = "normal"
 enUS = "Repairing {0:+0%}HP, after repair it will have {1} + {2} = {3}HP."
 zhCN = "恢复建筑生命值 {0:+0%}，修复后将拥有 {1} + {2} = {3} 生命值。"
 zhTW = "修復 {0:+0%} 生命值，修復後將擁有 {1} + {2} = {3} 生命值。"
@@ -897,6 +975,7 @@ koKR = "{0:+0%}HP를 수리 중이며, 수리 후에는 {1} + {2} = {3}HP가 됩
 
 ["LV.BHP.SupplyRenovation"]
 raw = "Supply materials for renovations"
+status = "normal"
 enUS = "Supply materials for renovations"
 zhCN = "允许供应整修材料"
 zhTW = "供應翻修材料"
@@ -910,6 +989,7 @@ koKR = "개조를 위한 자재 공급"
 
 ["LV.BHP.SupplyPriority"]
 raw = "Supply priority"
+status = "normal"
 enUS = "Supply priority"
 zhCN = "供应优先度"
 zhTW = "供應優先權"
@@ -923,6 +1003,7 @@ koKR = "공급 우선순위"
 
 ["LV.BHP.CancelReno"]
 raw = "Cancel renovation"
+status = "normal"
 enUS = "Cancel renovation"
 zhCN = "取消整修"
 zhTW = "取消翻新"
@@ -936,6 +1017,7 @@ koKR = "개조 취소"
 
 ["LV.BHP.CancelRenoConfirm"]
 raw = "Are you sure you want to cancel the renovation? No materials will be refunded."
+status = "normal"
 enUS = "Are you sure you want to cancel the renovation? No materials will be refunded."
 zhCN = "确定要取消整修吗？材料将不会退还。"
 zhTW = "您確定要取消裝修嗎？沒有材料會被退還。"
@@ -949,6 +1031,7 @@ koKR = "정말로 개조를 취소하시겠습니까? 환불되는 자재는 없
 
 ["LV.BHP.CancelRenoYes"]
 raw = "Yes, cancel renovation"
+status = "normal"
 enUS = "Yes, cancel renovation"
 zhCN = "是，取消整修"
 zhTW = "是的，取消翻修"
@@ -962,6 +1045,7 @@ koKR = "네, 개보수를 취소합니다"
 
 ["LV.BHP.CancelNo"]
 raw = "No, keep renovating"
+status = "normal"
 enUS = "No, keep renovating"
 zhCN = "否，继续整修"
 zhTW = "不，繼續翻新"
@@ -975,6 +1059,7 @@ koKR = "아니요, 개조를 계속하세요"
 
 ["LV.BHP.CurrentRenovation"]
 raw = "Current renovation: {0}"
+status = "normal"
 enUS = "Current renovation: {0}"
 zhCN = "当前整修：{0}"
 zhTW = "當前翻新: {0}"
@@ -988,6 +1073,7 @@ koKR = "현재 개조: {0}"
 
 ["LV.BHP.WaitingForMaterial"]
 raw = "Waiting for materials"
+status = "normal"
 enUS = "Waiting for materials"
 zhCN = "等待材料中"
 zhTW = "等待材料中"
@@ -1001,6 +1087,7 @@ koKR = "자재 대기 중"
 
 ["LV.BHP.NoMaterialShort"]
 raw = "Renovation lacks materials"
+status = "normal"
 enUS = "Renovation lacks materials"
 zhCN = "整修材料不足。"
 zhTW = "翻新缺乏材料"
@@ -1014,6 +1101,7 @@ koKR = "개조에 자재가 부족합니다"
 
 ["LV.BHP.NoCancel"]
 raw = "<RedHighlight>This renovation CANNOT BE CANCELLED once started.</RedHighlight>"
+status = "normal"
 enUS = "<RedHighlight>This renovation CANNOT BE CANCELLED once started.</RedHighlight>"
 zhCN = "<color=#FF4C4C>此整修项目一旦开始就无法取消。</color>"
 zhTW = "<RedHighlight>一旦開始，此項翻修將無法取消。</RedHighlight>"
@@ -1027,6 +1115,7 @@ koKR = "<RedHighlight>이 개조는 시작 후 취소할 수 없습니다.</RedH
 
 ["LV.BHP.CompletedReno"]
 raw = "Completed renovations"
+status = "normal"
 enUS = "Completed renovations"
 zhCN = "整修记录"
 zhTW = "完成翻修"
@@ -1040,6 +1129,7 @@ koKR = "개조 완료"
 
 ["LV.BHP.ActiveReno"]
 raw = "<YellowHighlight>Active</YellowHighlight>"
+status = "normal"
 enUS = "<YellowHighlight>Active</YellowHighlight>"
 zhCN = "<color=#FFFF1A>生效中</color>"
 zhTW = "<黃標>活躍</黃標>"
@@ -1053,6 +1143,7 @@ koKR = "<노란 하이라이트>활성</노란 하이라이트>"
 
 ["LV.BHP.RenoLog"]
 raw = "<YellowHighlight>Completion log</YellowHighlight>"
+status = "normal"
 enUS = "<YellowHighlight>Completion log</YellowHighlight>"
 zhCN = "<color=#FFFF1A>已完成</color>"
 zhTW = "<YellowHighlight>完成日志</YellowHighlight>"
@@ -1066,6 +1157,8 @@ koKR = "<YellowHighlight>완료 로그</YellowHighlight>"
 
 ["LV.BHP.RenoLogEntry"]
 raw = "• {0}: {1}d ago"
+new = "▶ {0}: {1}d ago"
+status = "normal"
 enUS = "• {0}: {1}d ago"
 zhCN = "• {0}：{1} 天前"
 zhTW = "• {0}: {1}天前"
@@ -1079,6 +1172,7 @@ koKR = "• {0}: {1}일 전"
 
 ["LV.BHP.None"]
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -1092,6 +1186,7 @@ koKR = "없음"
 
 ["LV.BHP.BaseDurability"]
 raw = "Base HP: {0}"
+status = "normal"
 enUS = "Base HP: {0}"
 zhCN = "● 基础生命值：{0}"
 zhTW = "基本生命值: {0}"
@@ -1105,6 +1200,7 @@ koKR = "기본 HP: {0}"
 
 ["LV.BHP.BaseDurabilityWithInvul"]
 raw = "Base HP: {0} (Invulnerable)"
+status = "normal"
 enUS = "Base HP: {0} (Invulnerable)"
 zhCN = "● 基础生命值：{0}（无敌）"
 zhTW = "基礎生命值：{0}（無敵）"
@@ -1118,6 +1214,7 @@ koKR = "기본 HP: {0} (무적)"
 
 ["LV.BHP.ProductionGroup"]
 raw = "Production"
+status = "normal"
 enUS = "Production"
 zhCN = "生产"
 zhTW = "生產"
@@ -1131,6 +1228,7 @@ koKR = "생산"
 
 ["LV.BHP.ProdOverdrive"]
 raw = "Production Overdrive"
+status = "normal"
 enUS = "Production Overdrive"
 zhCN = "生产过载"
 zhTW = "生產過載"
@@ -1144,6 +1242,7 @@ koKR = "생산 오버드라이브"
 
 ["LV.BHP.ProdOverdriveDesc"]
 raw = "Increases the building Productivity by {0:+0%} but it loses {1}HP every hour for {2:0.0} days.\nAfter that, Productivity is reduced by {3:0%} for {4:0.0} days."
+status = "normal"
 enUS = "Increases the building Productivity by {0:+0%} but it loses {1}HP every hour for {2:0.0} days.\nAfter that, Productivity is reduced by {3:0%} for {4:0.0} days."
 zhCN = "增加建筑生产力 {0:+0%}，但每小时损失 {1} 点生命值，持续 {2:0.0} 天。过载结束后，降低建筑生产力 {3:0%}，持续 {4:0.0} 天。"
 zhTW = "提高建築物的生產力{0:+0%}，但每小時損失{1}點生命值，持續{2:0.0}天。\n之後，生產力降低{3:0%}，持續{4:0.0}天。"
@@ -1157,6 +1256,7 @@ koKR = "건물의 생산성이 {0:+0%} 증가하지만 매 시간마다 {1}HP를
 
 ["LV.BHP.ProdOverdriveFlavor"]
 raw = "The forebeavers wrote in their notes: 'Temporary efficiency boost.' They did not mention the smell of smoke."
+status = "normal"
 enUS = "The forebeavers wrote in their notes: 'Temporary efficiency boost.' They did not mention the smell of smoke."
 zhCN = "临时效率有所提升——工作周报是这么写的，但他们没写闻到了烟味！"
 zhTW = "古代海狸在他們的筆記中寫道：'暫時的效率提升。' 他們沒有提到煙的氣味。"
@@ -1170,6 +1270,7 @@ koKR = "선조 비버들은 그들의 노트에 이렇게 적었습니다: '일�
 
 ["LV.BHP.NotWorkplace"]
 raw = "This renovation is only for Workplace buildings (buildings that have workers)"
+status = "normal"
 enUS = "This renovation is only for Workplace buildings (buildings that have workers)"
 zhCN = "此整修项目仅适用于劳工型建筑（需要雇佣海狸的建筑）。"
 zhTW = "此翻新僅適用於工作場所建築（有員工的建築）"
@@ -1183,6 +1284,7 @@ koKR = "이 개조는 작업장 건물(근로자가 있는 건물)만을 위한 
 
 ["LV.BHP.HousingGroup"]
 raw = "Housing"
+status = "normal"
 enUS = "Housing"
 zhCN = "住房"
 zhTW = "住宅"
@@ -1196,6 +1298,7 @@ koKR = "주택"
 
 ["LV.BHP.DwellingDecorative"]
 raw = "Decorative Carvings"
+status = "normal"
 enUS = "Decorative Carvings"
 zhCN = "装饰雕刻"
 zhTW = "裝飾雕刻"
@@ -1209,6 +1312,7 @@ koKR = "장식 조각"
 
 ["LV.BHP.DwellingDecorativeDesc"]
 raw = "Beavers living in this dwelling gain 'Decorative Carvings' need boost"
+status = "normal"
 enUS = "Beavers living in this dwelling gain 'Decorative Carvings' need boost"
 zhCN = "居住的海狸可以满足“装饰雕刻”需求，获得康乐度加成。"
 zhTW = "住在這個居所的海狸將獲得「裝飾雕刻」的需求提升"
@@ -1222,6 +1326,7 @@ koKR = "이 주택에 거주하는 비버는 '장식 조각' 필요도가 증가
 
 ["LV.BHP.DwellingDecorativeFlavor"]
 raw = "'Every log tells a story now, though some look more like teeth marks than art.'"
+status = "normal"
 enUS = "'Every log tells a story now, though some look more like teeth marks than art.'"
 zhCN = "现在每根木头都讲述一个故事，尽管有些看起来更像是牙印而不是艺术。"
 zhTW = "「每根木頭現在都有故事可講，雖然有些看起來更像是牙齒的痕跡，而不是藝術。」"
@@ -1235,6 +1340,7 @@ koKR = "'모든 나무토막은 이제 이야기를 들려줍니다. 하지만 �
 
 ["LV.BHP.NotDwelling"]
 raw = "This renovation is only for Housing buildings"
+status = "normal"
 enUS = "This renovation is only for Housing buildings"
 zhCN = "此整修项目仅适用于住房建筑。"
 zhTW = "此項翻新僅適用於住宅建築"
@@ -1248,6 +1354,7 @@ koKR = "이 개조는 주거 건물 전용입니다."
 
 ["LV.BHP.ActiveEffects"]
 raw = "Active effects"
+status = "normal"
 enUS = "Active effects"
 zhCN = "整修效果"
 zhTW = "有效效果"
@@ -1261,6 +1368,8 @@ koKR = "활성 효과"
 
 ["LV.BHP.ActiveEffect"]
 raw = "• <i>{0}</i>\n{1}"
+new = "▶ <i>{0}</i>\n{1}"
+status = "normal"
 enUS = "• <i>{0}</i>\n{1}"
 zhCN = "• <i>{0}</i><br>{1}"
 zhTW = "• <i>{0}</i>\n{1}"
@@ -1274,6 +1383,7 @@ koKR = "• <i>{0}</i>  \n{1}"
 
 ["LV.BHP.ActiveEffectTime"]
 raw = "{0:0.00}d remaining"
+status = "normal"
 enUS = "{0:0.00}d remaining"
 zhCN = "⏱️ 剩余 {0:0.00} 天"
 zhTW = "{0:0.00}天剩餘"
@@ -1287,6 +1397,7 @@ koKR = "{0:0.00}일 남음"
 
 ["LV.BHP.ProdOverdriveFirstPhase"]
 raw = "Production Overdrive (Overdrive phase)"
+status = "normal"
 enUS = "Production Overdrive (Overdrive phase)"
 zhCN = "生产过载（过载阶段）"
 zhTW = "生產增壓（增壓階段）"
@@ -1300,6 +1411,7 @@ koKR = "생산 오버드라이브 (오버드라이브 단계)"
 
 ["LV.BHP.ProdOverdriveSecondPhase"]
 raw = "Production Overdrive (Cooldown phase)"
+status = "normal"
 enUS = "Production Overdrive (Cooldown phase)"
 zhCN = "生产过载（冷却阶段）"
 zhTW = "生產超頻（冷卻階段）"
@@ -1313,6 +1425,7 @@ koKR = "생산 오버드라이브 (쿨다운 단계)"
 
 ["LV.BHP.ProdOverdriveFirstPhaseDesc"]
 raw = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
+status = "normal"
 enUS = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
 zhCN = "建筑生产力提升 {0:+0%}，每小时损失 {1} 点生命值。过载结束后进入冷却。"
 zhTW = "提高生產力 {0:+0%}，但建築每小時損失 {1}HP。在此之後，進入冷卻期。"
@@ -1326,6 +1439,7 @@ koKR = "생산성을 {0:+0%} 증가시키지만, 건물이 매시간 {1}HP를 �
 
 ["LV.BHP.ProdOverdriveSecondPhaseDesc"]
 raw = "Productivity is reduced by {0:0%}."
+status = "normal"
 enUS = "Productivity is reduced by {0:0%}."
 zhCN = "建筑生产力降低 {0:0%}。冷却结束后恢复正常。"
 zhTW = "生產力降低了 {0:0%}。"
@@ -1339,6 +1453,7 @@ koKR = "생산성이 {0:0%}만큼 감소합니다."
 
 ["LV.BHP.RenovationDecreasePriorityHotKey"]
 raw = "Decrease renovation priority"
+status = "normal"
 enUS = "Decrease renovation priority"
 zhCN = "降低整修优先级"
 zhTW = "降低翻新優先級"
@@ -1352,6 +1467,7 @@ koKR = "개조 우선순위 낮추기"
 
 ["LV.BHP.RenovationIncreasePriorityHotKey"]
 raw = "Increase renovation priority"
+status = "normal"
 enUS = "Increase renovation priority"
 zhCN = "提高整修优先级"
 zhTW = "提高翻新優先級"
@@ -1365,6 +1481,7 @@ koKR = "개조 우선순위 증가"
 
 ["LV.BHP.RenovationStockpileDecreasePriorityHotKey"]
 raw = "Decrease renovation stockpile priority"
+status = "normal"
 enUS = "Decrease renovation stockpile priority"
 zhCN = "降低整修储备优先级"
 zhTW = "降低翻修儲備優先權"
@@ -1378,6 +1495,7 @@ koKR = "개조 재고 우선순위 낮추기"
 
 ["LV.BHP.RenovationStockpileIncreasePriorityHotKey"]
 raw = "Increase renovation stockpile priority"
+status = "normal"
 enUS = "Increase renovation stockpile priority"
 zhCN = "提高整修储备优先级"
 zhTW = "增加翻新儲存優先級"
@@ -1391,6 +1509,7 @@ koKR = "개조 재고 우선순위 증가"
 
 ["LV.BHP.ProdOverdriveWorkerDesc"]
 raw = "{0:+0%;-0%} due to workplace's Overdrive"
+status = "normal"
 enUS = "{0:+0%;-0%} due to workplace's Overdrive"
 zhCN = "|  工作速度: {0:+0%;-0%}"
 zhTW = "{0:+0%;-0%} 因為工作場所的超載"
@@ -1404,6 +1523,7 @@ koKR = "{0:+0%;-0%} 작업장의 오버드라이브로 인한"
 
 ["LV.BHP.ShowUnavailables"]
 raw = "Show unavailable renovations"
+status = "normal"
 enUS = "Show unavailable renovations"
 zhCN = "显示当前不可用的整修项目"
 zhTW = "顯示不可用的改建"
@@ -1417,6 +1537,7 @@ koKR = "사용할 수 없는 개조 내용 보기"
 
 ["LV.BHP.UpdateText710"]
 raw = "This is a big update that migrates this mod to Moddable Timberborn.\nThere is no new feature except minor UI change but performance is greatly improved and all effects are now gathered together in one place thanks to Moddable Timberborn."
+status = "normal"
 enUS = "This is a big update that migrates this mod to Moddable Timberborn.\nThere is no new feature except minor UI change but performance is greatly improved and all effects are now gathered together in one place thanks to Moddable Timberborn."
 zhCN = "这是一个重大更新，将本模组迁移至Moddable Timberborn。<br>除细微UI调整外无新增功能，但性能大幅提升，且得益于Moddable Timberborn，所有效果现在都集中在一处显示。"
 zhTW = "這是一個重要的更新，將這個模組移植到可修改的《Timberborn》中。\n除了輕微的使用者介面變更外，沒有新增的功能，但性能有了大幅提升，所有效果現在都得以集中在一個地方，這要歸功於可修改的《Timberborn》。"

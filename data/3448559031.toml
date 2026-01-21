@@ -1,5 +1,8 @@
+name = "Colorful Beavers"
+
 ["LV.CBv.Title"]
 raw = "Colorful Beavers"
+status = "normal"
 enUS = "Colorful Beavers"
 zhCN = "多彩海狸"
 zhTW = "五彩斑斕的河狸"
@@ -13,6 +16,7 @@ koKR = "다채로운 비버"
 
 ["LV.CBv.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -26,6 +30,7 @@ koKR = "재설정"
 
 ["LV.CBv.ResetAll"]
 raw = "Reset all"
+status = "normal"
 enUS = "Reset all"
 zhCN = "重置全部"
 zhTW = "重置所有設定"
@@ -39,6 +44,7 @@ koKR = "모두 초기화"
 
 ["LV.CBv.ResetAllConfirm"]
 raw = "Are you sure to re-assign colors to all beavers and bots according to the current settings?"
+status = "normal"
 enUS = "Are you sure you want to reassign colors to all beavers and bots according to the current settings?"
 zhCN = "确定要根据当前设置重新为所有海狸和机器人分配颜色吗？"
 zhTW = "您確定要根據當前設定重新分配所有海狸和機器人的顏色嗎？"
@@ -52,6 +58,7 @@ koKR = "현재 설정에 따라 모든 비버와 로봇의 색상을 다시 지�
 
 ["LV.CBv.KeybindingCopy"]
 raw = "Copy Beaver color"
+status = "normal"
 enUS = "Copy Beaver color"
 zhCN = "复制海狸颜色"
 zhTW = "複製河狸顏色"
@@ -65,6 +72,7 @@ koKR = "비버 색상 복사"
 
 ["LV.CBv.KeybindingPaste"]
 raw = "Paste Beaver color"
+status = "normal"
 enUS = "Paste Beaver color"
 zhCN = "粘贴海狸颜色"
 zhTW = "刺蝟的顏色"
@@ -78,6 +86,7 @@ koKR = "비버 색상 붙여넣기"
 
 ["LV.CBv.AssignNamed"]
 raw = "Assign name-based color"
+status = "normal"
 enUS = "Assign color based on name"
 zhCN = "分配基于名称的颜色"
 zhTW = "分配基於名稱的顏色"
@@ -91,6 +100,7 @@ koKR = "이름 기반 색상 할당"
 
 ["LV.CBv.AssignNamedDesc"]
 raw = "Some beavers with special names will have specific colors. Editable file located at: Documents\\Timberborn\\ColorfulBeavers\\ColorNames.txt"
+status = "normal"
 enUS = "Some beavers with special names will have specific colors. Editable file located at: Documents\\Timberborn\\ColorfulBeavers\\ColorNames.txt"
 zhCN = "某些具有特殊名称的海狸将拥有特定颜色。可编辑文件位于：Documents\\Timberborn\\ColorfulBeavers\\ColorNames.txt"
 zhTW = "一些有特殊名稱的海狸將會有特定的顏色。可編輯的檔案位於：Documents\\Timberborn\\ColorfulBeavers\\ColorNames.txt"
@@ -104,6 +114,7 @@ koKR = "특별한 이름을 가진 일부 비버는 특정 색상을 가집니�
 
 ["LV.CBv.AssignRandom"]
 raw = "Assign random color"
+status = "normal"
 enUS = "Assign random color"
 zhCN = "分配随机颜色"
 zhTW = "隨機分配顏色"
@@ -117,6 +128,7 @@ koKR = "랜덤 색상 지정"
 
 ["LV.CBv.AssignRandomDesc"]
 raw = "Assign a random color to every beaver. Editable color list at: Documents\\Timberborn\\ColorfulBeavers\\RandomColors.txt"
+status = "normal"
 enUS = "Assign a random color to each beaver. Editable color list at: Documents\\Timberborn\\ColorfulBeavers\\RandomColors.txt"
 zhCN = "为每只海狸分配随机颜色。可编辑颜色列表位于：Documents\\Timberborn\\ColorfulBeavers\\RandomColors.txt"
 zhTW = "為每只海狸分配隨機顏色。可編輯顏色列表位於：Documents\\Timberborn\\ColorfulBeavers\\RandomColors.txt"
@@ -130,6 +142,7 @@ koKR = "모든 비버에게 무작위 색상을 지정합니다. 수정 가능�
 
 ["LV.CBv.ApplyToBot"]
 raw = "  Apply to bot"
+status = "normal"
 enUS = "Apply to bot"
 zhCN = "应用于机关人"
 zhTW = "申請機器人"
@@ -143,6 +156,7 @@ koKR = "봇에 적용"
 
 ["LV.CBv.ApplyToBotDesc"]
 raw = "Apply random color to the bots as well."
+status = "normal"
 enUS = "Apply random color to the bots as well."
 zhCN = "同时为机关人分配随机颜色。"
 zhTW = "也要隨機給機器人上色。"

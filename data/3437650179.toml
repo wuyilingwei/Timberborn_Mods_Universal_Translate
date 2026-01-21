@@ -1,5 +1,8 @@
+name = "TImprove 4 Modders"
+
 ["LV.TIMod.SwapBuildFinishedModifier"]
 raw = "Swap Build Finished Modifier"
+status = "normal"
 enUS = "Swap Build Finished Modifier"
 zhCN = "反转建造完成按键方式"
 zhTW = "交換建造完成修飾符"
@@ -13,6 +16,7 @@ koKR = "건설 완료 변환기"
 
 ["LV.TIMod.SwapBuildFinishedModifierDesc"]
 raw = "When Dev Mode is enabled, auto finish building when placing a building while holding Ctrl would place the building normally for construction"
+status = "normal"
 enUS = "When Dev Mode is enabled, auto-finish building when placing a structure while holding Ctrl would place the building normally for construction."
 zhCN = "勾选后，反转开发者模式下Ctrl键的功能（游戏默认：否，即按住Ctrl放置建筑时会自动完成，逆转后不按住才会自动完成）。"
 zhTW = "當開啟開發模式時，按住Ctrl放置建築物時，自動完成建造的功能會正常地將建築物放置為施工。"
@@ -26,6 +30,7 @@ koKR = "개발 모드가 활성화되면, Ctrl 키를 누른 채로 건물을 �
 
 ["LV.TIMod.NoClearDevFilter"]
 raw = "Do not clear Dev Mode filter"
+status = "normal"
 enUS = "Do not clear Dev Mode filter"
 zhCN = "不重置开发者模式过滤器"
 zhTW = "請勿清除開發模式過濾器"
@@ -39,6 +44,7 @@ koKR = "개발 모드 필터를 지우지 마십시오"
 
 ["LV.TIMod.NoClearDevFilterDesc"]
 raw = "Do not clear Dev Mode filter when invoking one or adding/removing them from favourites"
+status = "normal"
 enUS = "Do not clear the Dev Mode filter when invoking one or adding/removing it from favorites."
 zhCN = "勾选后，在调用或从收藏中添加/移除过滤器时不重置开发者模式过滤器。"
 zhTW = "在調用開發者模式過濾器或將其添加/移除至最愛時，請勿清除開發者模式過濾器。"
@@ -52,6 +58,7 @@ koKR = "즐겨찾기에서 하나를 추가/제거할 때 개발자 모드 필�
 
 ["Modding.ThumbnailInfo"]
 raw = "Click Refresh to pick a mod thumbnail if 'Pick upload thumbnail' option is checked"
+status = "normal"
 enUS = "Click Refresh to select a mod thumbnail if the 'Pick upload thumbnail' option is checked."
 zhCN = "如果勾选了“选择上传缩略图”选项，点击刷新以选择模组缩略图。"
 zhTW = "如果勾選了「選擇上傳縮圖」選項，請點擊刷新以選擇模組縮圖。"
@@ -65,6 +72,7 @@ koKR = "일치되는 썸네일 선택을 위해 '업로드 썸네일 선택' 옵
 
 ["LV.TIMod.PickThumbnail"]
 raw = "Pick upload thumbnail"
+status = "normal"
 enUS = "Pick upload thumbnail"
 zhCN = "选择上传缩略图"
 zhTW = "選擇上傳縮圖"
@@ -78,6 +86,7 @@ koKR = "업로드 썸네일 선택"
 
 ["LV.TIMod.PickThumbnailDesc"]
 raw = "Pick a thumbnail for your upload instead of using thumbnail.png."
+status = "normal"
 enUS = "Pick a thumbnail for your upload instead of using thumbnail.png."
 zhCN = "勾选后，上传模组时选择缩略图，而不是使用“thumbnail.png”。"
 zhTW = "請選擇一個縮圖作為您的上傳，而不是使用 thumbnail.png。"
@@ -91,6 +100,7 @@ koKR = "thumbnail.png 대신 업로드용 썸네일을 선택하세요."
 
 ["LV.TIMod.OpenExternalBrowser"]
 raw = "Always open external browser"
+status = "normal"
 enUS = "Always open external browser."
 zhCN = "始终使用外部浏览器打开"
 zhTW = "始終在外部瀏覽器中打開"
@@ -104,6 +114,7 @@ koKR = "항상 외부 브라우저 열기"
 
 ["LV.TIMod.OpenExternalBrowserDesc"]
 raw = "Always open with external browser instead of Steam overlay browser."
+status = "normal"
 enUS = "Always open with an external browser instead of the Steam overlay browser."
 zhCN = "勾选后，始终使用外部浏览器打开，而不是使用Steam覆盖浏览器。"
 zhTW = "總是使用外部瀏覽器而不是 Steam 覆蓋瀏覽器。"
@@ -117,6 +128,7 @@ koKR = "항상 스팀 오버레이 브라우저 대신 외부 브라우저로 �
 
 ["LV.TIMod.DevModeOnDefault"]
 raw = "Enable DevMode on load"
+status = "normal"
 enUS = "Enable DevMode on load"
 zhCN = "加载时默认启用开发者模式"
 zhTW = "啟用開發模式於加載時"
@@ -130,6 +142,7 @@ koKR = "로드 시 DevMode 활성화"
 
 ["LV.TIMod.DevModeOnDefaultDesc"]
 raw = "Enable DevMode by default when loading the game."
+status = "normal"
 enUS = "Enable DevMode by default when loading the game."
 zhCN = "勾选后，加载游戏时默认启用开发者模式。"
 zhTW = "默認情況下在加載遊戲時啟用開發者模式。"
@@ -143,6 +156,7 @@ koKR = "게임 로딩 시 기본적으로 개발자 모드를 활성화합니다
 
 ["LV.TIMod.BetterResetLoadOrder"]
 raw = "Better Mod Organizing"
+status = "normal"
 enUS = "Better Mod Organizing"
 zhCN = "模组排序优化"
 zhTW = "更好的模組整理"
@@ -156,6 +170,7 @@ koKR = "더 나은 모드 조직"
 
 ["LV.TIMod.BetterResetLoadOrderDesc"]
 raw = "Move to top move the mod to top but below their dependencies. Reset Load Order sorts mod by Enabling, Name then bring their dependencies right on top. Enabled mods showed first when uploading."
+status = "normal"
 enUS = "Move to top moves the mod to the top but below its dependencies. Reset Load Order sorts mods by Enabled, Name, then brings their dependencies right on top. Enabled mods are shown first when uploading."
 zhCN = "勾选后，“重置加载顺序”会根据模组的启用状态、名称来排序，然后将依赖项排在上面。上传模组时，启用的模组会排在上面。"
 zhTW = "將模組移至頂部，但在其依賴項之下。重置加載順序根據啟用狀態、名稱對模組進行排序，然後將其依賴項置於最上方。上傳時會首先顯示已啟用的模組。"
@@ -169,6 +184,7 @@ koKR = "상단으로 이동은 모드를 최상단으로 이동시키지만 그�
 
 ["LV.TIMod.NoExitSave"]
 raw = "No Exit Save"
+status = "normal"
 enUS = "No Exit Save"
 zhCN = "无保存退出"
 zhTW = "無出路保存"
@@ -182,6 +198,7 @@ koKR = "저장 없음 종료"
 
 ["LV.TIMod.NoExitSaveDesc"]
 raw = "Do not save the game when exiting."
+status = "normal"
 enUS = "Do not save the game when exiting."
 zhCN = "勾选后，退出游戏时不进行自动保存。"
 zhTW = "退出時不要保存遊戲。"
@@ -195,6 +212,7 @@ koKR = "게임을 종료할 때 저장하지 않습니다."
 
 ["LV.TIMod.QuickQuit"]
 raw = "Enable Quick/Force Quit [Ctrl Shift Q][!]"
+status = "normal"
 enUS = "Enable Quick/Force Quit [Ctrl Shift Q][!]"
 zhCN = "启用快速退出"
 zhTW = "啟用快速/強制退出 [Ctrl Shift Q][!]"
@@ -208,6 +226,7 @@ koKR = "빠른/강제 종료 활성화 [Ctrl Shift Q][!]"
 
 ["LV.TIMod.QuickQuitDesc"]
 raw = "Enable quick quit when pressing [Ctrl Shift Q]. This option use Process.Kill() so no save will be made."
+status = "normal"
 enUS = "Enable quick quit when pressing [Ctrl Shift Q]. This option uses Process.Kill(), so no save will be made."
 zhCN = "勾选后，可以通过按下快捷键（Ctrl+Shift+Q）快速退出游戏。<br>注意，此选项使用“Process.Kill()”关闭进程，因此不会自动存档。"
 zhTW = "啟用在按下 [Ctrl Shift Q] 時快速退出。此選項使用 Process.Kill()，因此不會儲存任何資料。"
@@ -221,6 +240,7 @@ koKR = "[Ctrl Shift Q]를 눌러 빠른 종료를 활성화합니다. 이 옵션
 
 ["LV.TIMod.QuickRestart"]
 raw = "Enable Quick Restart [Ctrl Shift R][!]"
+status = "normal"
 enUS = "Enable Quick Restart [Ctrl Shift R][!]"
 zhCN = "启用快速重启"
 zhTW = "啟用快速重啟 [Ctrl Shift R][!]"
@@ -234,6 +254,7 @@ koKR = "빠른 재시작 활성화 [Ctrl Shift R][!]"
 
 ["LV.TIMod.QuickRestartDesc"]
 raw = "Enable quick restart when pressing [Ctrl Shift R]. This option use Process.Kill() so no save will be made."
+status = "normal"
 enUS = "Enable quick restart when pressing [Ctrl Shift R]. This option uses Process.Kill() so no save will be made."
 zhCN = "勾选后，可以通过按下快捷键（Ctrl+Shift+R）快速重启游戏。<br>注意，此选项使用“Process.Kill()”关闭进程，因此不会自动存档。"
 zhTW = "按下 [Ctrl Shift R] 時啟用快速重啟。此選項使用 Process.Kill()，因此不會進行任何儲存。"
@@ -247,6 +268,7 @@ koKR = "[Ctrl Shift R]를 눌렀을 때 빠른 재시작을 활성화합니다. 
 
 ["LV.TIMod.AutoSkipLoadModCompat"]
 raw = "Auto skip Mod Incompatibility box"
+status = "normal"
 enUS = "Auto skip Mod Incompatibility box"
 zhCN = "自动跳过模组不兼容提示框"
 zhTW = "自動跳過模組不兼容框"
@@ -260,6 +282,7 @@ koKR = "모드 비호환성 상자 자동 건너뛰기"
 
 ["LV.TIMod.AutoSkipLoadModCompatDesc"]
 raw = "Automatically skip the Mod Incompatibility box after 3s when loading a save."
+status = "normal"
 enUS = "Automatically skip the Mod Incompatibility box after 3s when loading a save."
 zhCN = "勾选后，加载存档时会在模组不兼容提示框出现3秒后自动跳过。"
 zhTW = "載入存檔後，於 3 秒後自動跳過模組不相容提示框。"

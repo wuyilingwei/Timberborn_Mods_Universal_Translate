@@ -1,5 +1,8 @@
+name = "Map Resizer"
+
 ["LV.MRe.ResizeMap"]
 raw = "Resize map"
+status = "normal"
 enUS = "Resize map"
 zhCN = "调整地图大小"
 zhTW = "調整地圖大小"
@@ -13,6 +16,7 @@ koKR = "맵 크기 조정"
 
 ["LV.MRe.Size0"]
 raw = "Width (X)"
+status = "normal"
 enUS = "Width (X)"
 zhCN = "地图长度 (X)"
 zhTW = "寬度 (X)"
@@ -26,6 +30,7 @@ koKR = "너비 (X)"
 
 ["LV.MRe.Size1"]
 raw = "Breadth (Y)"
+status = "normal"
 enUS = "Breadth (Y)"
 zhCN = "地图宽度 (Y)"
 zhTW = "深度 (Y)"
@@ -39,6 +44,7 @@ koKR = "폭 (Y)"
 
 ["LV.MRe.Size2"]
 raw = "Max Terrain Height (Z1)"
+status = "normal"
 enUS = "Max Terrain Height (Z1)"
 zhCN = "最大地形高度 (Z1)"
 zhTW = "最大地形高度 (Z1)"
@@ -52,6 +58,7 @@ koKR = "최대 지형 높이 (Z1)"
 
 ["LV.MRe.Size3"]
 raw = "Max Above Terrain (Z1+)"
+status = "normal"
 enUS = "Max Above Terrain (Z1+)"
 zhCN = "最大地上高度 (Z1+)"
 zhTW = "最大地面高度 (Z1+)"
@@ -65,6 +72,7 @@ koKR = "지형 위 최대 (Z1+)"
 
 ["LV.MRe.Resize"]
 raw = "Resize"
+status = "normal"
 enUS = "Resize"
 zhCN = "调整大小"
 zhTW = "調整大小"
@@ -78,6 +86,7 @@ koKR = "크기 조절"
 
 ["LV.MRe.ExandStrat"]
 raw = "Expand Strategy"
+status = "normal"
 enUS = "Expand Strategy"
 zhCN = "地图扩张策略"
 zhTW = "擴展策略"
@@ -91,6 +100,7 @@ koKR = "전략 확장"
 
 ["LV.MRe.ExandStratCopy"]
 raw = "Copy edge"
+status = "normal"
 enUS = "Copy edge"
 zhCN = "复制边缘"
 zhTW = "複製邊緣"
@@ -104,6 +114,7 @@ koKR = "가장자리 복사"
 
 ["LV.MRe.ExandStratMirror"]
 raw = "Mirror"
+status = "normal"
 enUS = "Mirror"
 zhCN = "镜像对称"
 zhTW = "鏡子"
@@ -117,6 +128,7 @@ koKR = "거울"
 
 ["LV.MRe.OfferToLoad"]
 raw = "Resized map saved. Do you want to load that save? Note: continuing this session will likely crash the game anyway."
+status = "normal"
 enUS = "Resized map saved. Do you want to load that save? Note: continuing this session will likely crash the game anyway."
 zhCN = "已将调整大小后的地图保存为新存档，是否需要加载此存档？注意，如果继续当前游戏进程，可能会导致游戏崩溃。"
 zhTW = "已儲存調整大小的地圖。您想加載該儲檔嗎？注意：繼續此會話可能仍會導致遊戲崩潰。"
@@ -130,6 +142,7 @@ koKR = "크기가 조정된 맵이 저장되었습니다. 해당 저장을 로�
 
 ["LV.MRe.ResizeInvalidObj"]
 raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects, you need to come back here to resize again)"
+status = "normal"
 enUS = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects; you need to come back here to resize again.)"
 zhCN = "检测到将被缩减的地图部分上存在物体，是否需要先删除物体？注意，如果不删除，后续调整地图大小时可能会导致游戏崩溃。"
 zhTW = "在縮小地圖之前，請刪除所有地圖外的物體，以防止崩潰。（此操作僅會刪除物體，您需要返回此處再次調整大小）"
@@ -143,6 +156,7 @@ koKR = "크기 조정 후 맵 밖에 객체가 있습니다. 충돌을 방지하
 
 ["LV.MRe.SeeInvalidObj"]
 raw = "See invalid object"
+status = "normal"
 enUS = "See invalid object"
 zhCN = "查看阻碍物体"
 zhTW = "查看無效物件"
@@ -156,6 +170,7 @@ koKR = "잘못된 객체 보기"
 
 ["LV.MRe.AutoRemove"]
 raw = "Remove them all"
+status = "normal"
 enUS = "Remove them all."
 zhCN = "删除所有物体"
 zhTW = "把它們全部移除"
@@ -169,6 +184,7 @@ koKR = "모두 제거하기"
 
 ["LV.MRe.SaveWarning"]
 raw = "<RedHighlight>Remember to save your game before resizing the map! This game session will likely not work anymore after resizing. You should also pause the game before using this.</RedHighlight>"
+status = "normal"
 enUS = "Remember to save your game before resizing the map! This game session will likely not work anymore after resizing. You should also pause the game before using this."
 zhCN = "<color=#FF4C4C>注意，调整地图大小前，请暂停并保存游戏。调整地图大小后，可能无法继续当前游戏进程。</color>"
 zhTW = "<RedHighlight>記得在調整地圖大小之前保存遊戲！這個遊戲會話在調整後可能不再正常運作。在使用這個功能之前，你也應該暫停遊戲。</RedHighlight>"

@@ -1,5 +1,8 @@
+name = "Prometheus Exporter"
+
 ["rwslinkman.PrometheusExporter.Settings.SamplesPerDay"]
 raw = "Samples per day"
+status = "normal"
 enUS = "Samples per day"
 zhCN = "每天样本数量"
 zhTW = "每天樣本數"
@@ -13,6 +16,7 @@ koKR = "일일 샘플 수"
 
 ["rwslinkman.PrometheusExporter.Settings.HttpPort"]
 raw = "Exporter HTTP port"
+status = "normal"
 enUS = "Exporter HTTP port"
 zhCN = "导出HTTP端口"
 zhTW = "出口 HTTP 端口"

@@ -1,5 +1,8 @@
+name = "Automation"
+
 ["IgorZ.Automation.CancelTool.Description"]
 raw = "Use this tool to clean up any automation on the buildings or construction sites."
+status = "normal"
 enUS = "Use this tool to clean up any automation on buildings or construction sites."
 zhCN = "清除建筑上的所有自动化规则。"
 zhTW = "使用這個工具來清理任何建築物或工地上的自動化設備。"
@@ -13,6 +16,7 @@ koKR = "이 도구를 사용하여 건물이나 건설 현장의 자동화를 �
 
 ["IgorZ.Automation.CancelTool.Title"]
 raw = "Cancel automation"
+status = "normal"
 enUS = "Cancel automation"
 zhCN = "取消自动化"
 zhTW = "取消自動化"
@@ -26,6 +30,7 @@ koKR = "자동화 취소"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description"]
 raw = "<YellowHighlight>blocks path</YellowHighlight>"
+status = "normal"
 enUS = "blocks path"
 zhCN = "<color=#FFFF1A>会堵塞路径</color>"
 zhTW = "<YellowHighlight>阻擋道路</YellowHighlight>"
@@ -39,6 +44,7 @@ koKR = "<YellowHighlight>경로를 차단합니다</YellowHighlight>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description"]
 raw = "<YellowHighlight>doesn't block path</YellowHighlight>"
+status = "normal"
 enUS = "doesn't block path"
 zhCN = "<color=#FFFF1A>不会堵塞路径</color>"
 zhTW = "<YellowHighlight>不會阻擋路徑</YellowHighlight>"
@@ -52,6 +58,7 @@ koKR = "<YellowHighlight>경로를 차단하지 않음</YellowHighlight>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable"]
 raw = "Builders can't reach it yet, but a path is being constructed"
+status = "normal"
 enUS = "Builders can't reach it yet, but a path is being constructed."
 zhCN = "建筑被堵塞了，建筑工暂时无法到达。"
 zhTW = "建築工人還不能到達那裡，但一條道路正在建造中。"
@@ -65,6 +72,7 @@ koKR = "건축가들이 아직 도달할 수 없지만, 경로가 건설되고 �
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert"]
 raw = "Unreachable construction site"
+status = "normal"
 enUS = "Unreachable construction site"
 zhCN = "建筑被堵塞"
 zhTW = "無法到達的建築工地"
@@ -78,6 +86,7 @@ koKR = "접근할 수 없는 건설 현장"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus"]
 raw = "The builders can't find the way to this site. Maybe nothing can be constructed here"
+status = "normal"
 enUS = "The builders can't find the way to this site. Maybe nothing can be constructed here."
 zhCN = "建筑被堵塞了，建筑工无法到达。"
 zhTW = "建築工人找不到到這個地點的路。也許在這裡無法建造任何東西。"
@@ -91,6 +100,7 @@ koKR = "건설자들이 이 장소로 가는 길을 찾을 수 없습니다. 아
 
 ["IgorZ.Automation.DebugPickTool.Description"]
 raw = "Prints components on the selected object."
+status = "normal"
 enUS = "Prints components on the selected object."
 zhCN = "在日志中输出选定对象上的组件。"
 zhTW = "在選定的物件上印刷元件。"
@@ -104,6 +114,7 @@ koKR = "선택한 개체에 구성 요소를 인쇄합니다."
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint1"]
 raw = "Hold <i>SHIFT</i> to print Accessible."
+status = "normal"
 enUS = "Hold <i>SHIFT</i> to print Accessible."
 zhCN = "按住Shift以输出可访问性。"
 zhTW = "按住 <i>SHIFT</i> 鍵以打印可訪問。"
@@ -117,6 +128,7 @@ koKR = "<i>SHIFT</i>키를 눌러 접근 가능하다고 인쇄하세요."
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint2"]
 raw = "Hold <i>CTRL</i> to print NavMesh edges."
+status = "normal"
 enUS = "Hold <i>CTRL</i> to print NavMesh edges."
 zhCN = "按住Ctrl以输出导航网格边缘。"
 zhTW = "按住 <i>CTRL</i> 以列印 NavMesh 邊緣。"
@@ -130,6 +142,7 @@ koKR = "<i>CTRL</i> 키를 누르고 있으면 NavMesh 엣지를 인쇄합니다
 
 ["IgorZ.Automation.DebugPickTool.Title"]
 raw = "Debug tool"
+status = "normal"
 enUS = "Debug tool"
 zhCN = "调试工具"
 zhTW = "除錯工具"
@@ -143,6 +156,7 @@ koKR = "디버그 도구"
 
 ["IgorZ.Automation.ShowStatusAction.AutomationErrorAlert"]
 raw = "Automation error"
+status = "normal"
 enUS = "Automation error"
 zhCN = "自动化错误"
 zhTW = "自動化錯誤"
@@ -156,6 +170,7 @@ koKR = "자동화 오류"
 
 ["IgorZ.Automation.ShowStatusAction.AutomationErrorDescription"]
 raw = "Some automation rules cannot be executed"
+status = "normal"
 enUS = "Some automation rules cannot be executed."
 zhCN = "部分自动化规则无法执行。"
 zhTW = "某些自動化規則無法執行"
@@ -169,6 +184,7 @@ koKR = "일부 자동화 규칙을 실행할 수 없습니다."
 
 ["IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText"]
 raw = "Waiting for the other buildings to finish"
+status = "normal"
 enUS = "Waiting for the other buildings to finish."
 zhCN = "等待其他建筑建造完成。"
 zhTW = "等待其他建築完成"
@@ -182,6 +198,7 @@ koKR = "다른 건물들이 완료되기를 기다리는 중"
 
 ["IgorZ.Automation.ShowStatusAction.HoldConstruction"]
 raw = "<YellowHighlight>hold completion</YellowHighlight>"
+status = "normal"
 enUS = "hold completion"
 zhCN = "<color=#FFFF1A>暂停建造</color>"
 zhTW = "<YellowHighlight>保持完成</YellowHighlight>"
@@ -195,6 +212,7 @@ koKR = "<YellowHighlight>완공 보류</YellowHighlight>"
 
 ["IgorZ.Automation.ShowStatusAction.ResumeConstruction"]
 raw = "<YellowHighlight>resume building</YellowHighlight>"
+status = "normal"
 enUS = "resume building"
 zhCN = "<color=#FFFF1A>恢复建造</color>"
 zhTW = "<YellowHighlight>履歷建構</YellowHighlight>"
@@ -208,6 +226,7 @@ koKR = "<노란색 강조>건축 재개</노란색 강조>"
 
 ["IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 2 times"
+status = "normal"
 enUS = "Explode dynamite 2 times"
 zhCN = "二次引爆"
 zhTW = "炸藥爆炸2次"
@@ -221,6 +240,7 @@ koKR = "다이너마이트를 2번 폭발시키기"
 
 ["IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 3 times"
+status = "normal"
 enUS = "Explode dynamite three times"
 zhCN = "三次引爆"
 zhTW = "引爆炸藥三次"
@@ -234,6 +254,7 @@ koKR = "다이너마이트를 3번 폭발시키기"
 
 ["IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 4 times"
+status = "normal"
 enUS = "Explode dynamite four times."
 zhCN = "四次引爆"
 zhTW = "炸藥爆炸四次"
@@ -247,6 +268,7 @@ koKR = "다이너마이트를 4번 폭발시킵니다"
 
 ["IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 5 times"
+status = "normal"
 enUS = "Explode dynamite 5 times"
 zhCN = "五次引爆"
 zhTW = "引爆炸藥五次"
@@ -260,6 +282,7 @@ koKR = "다이너마이트 5회 폭발"
 
 ["IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 6 times"
+status = "normal"
 enUS = "Explode dynamite six times."
 zhCN = "六次引爆"
 zhTW = "引爆炸藥六次"
@@ -273,6 +296,7 @@ koKR = "다이너마이트를 6번 폭발시키기"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf1PlusCollectables.DisplayName"]
 raw = "Run if there are collectables"
+status = "normal"
 enUS = "Run if there are collectables"
 zhCN = "可收集物品≥1时运行"
 zhTW = "當有可收集物時運行"
@@ -286,6 +310,7 @@ koKR = "수집 가능한 항목이 있을 경우 실행"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf2PlusCollectables.DisplayName"]
 raw = "Run if there are 2 or more collectables"
+status = "normal"
 enUS = "Run if there are 2 or more collectables"
 zhCN = "可收集物品≥2时运行"
 zhTW = "當有兩個或更多可收集物時運行"
@@ -299,6 +324,7 @@ koKR = "2개 이상의 수집 아이템이 있을 경우 실행"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf3PlusCollectables.DisplayName"]
 raw = "Run if there are 3 or more collectables"
+status = "normal"
 enUS = "Run if there are 3 or more collectables"
 zhCN = "可收集物品≥3时运行"
 zhTW = "如果有三個或更多可收集物則運行"
@@ -312,6 +338,7 @@ koKR = "수집 가능한 아이템이 3개 이상일 때 실행"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf4PlusCollectables.DisplayName"]
 raw = "Run if there are 4 or more collectables"
+status = "normal"
 enUS = "Run if there are 4 or more collectables"
 zhCN = "可收集物品≥4时运行"
 zhTW = "當有4個或更多可收集物品時運行"
@@ -325,6 +352,7 @@ koKR = "수집 가능한 아이템이 4개 이상일 때 실행"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf5PlusCollectables.DisplayName"]
 raw = "Run if there are 5 or more collectables"
+status = "normal"
 enUS = "Run if there are 5 or more collectables"
 zhCN = "可收集物品≥5时运行"
 zhTW = "如果有5個或更多可收集物，則運行"
@@ -338,6 +366,7 @@ koKR = "수집 가능한 아이템이 5개 이상일 경우 실행"
 
 ["IgorZ.Automation.Tool.tmpl.HasCollectables.Description"]
 raw = "Apply this template to buildings that should be running as long as there are cuttable or gatherable items in the range of the building that can be collected."
+status = "normal"
 enUS = "Apply this template to buildings that should be running as long as there are cuttable or gatherable items in the range of the building that can be collected."
 zhCN = "此规则适用于收集型建筑，会在工作范围内的可收集物品（砍伐、采集、收割等）达到一定数量时启用，否则关闭。"
 zhTW = "將此模板應用於應該在範圍內有可砍伐或可收集物品的建築，這些物品可以被收集，這樣建築就會持續運行。"
@@ -351,6 +380,7 @@ koKR = "이 템플릿은 수확할 수 있는 아이템이 건물의 범위 내�
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when badtide starts."
+status = "normal"
 enUS = "Apply this template to floodgates that need to close when the bad tide begins."
 zhCN = "此规则适用于闸门，会在恶水潮开始时完全关闭。需要与其他闸门自动化规则配合使用。"
 zhTW = "對於需要在壞潮開始時關閉的防洪閘門，請應用此模板。"
@@ -364,6 +394,8 @@ koKR = "이 템플릿을 나쁜 조수가 시작될 때 닫아야 하는 수문�
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName"]
 raw = "Close floodgate during badtide"
+new = "Close floodgate on badtide start"
+status = "normal"
 enUS = "Close floodgate during bad tide."
 zhCN = "恶水潮时关闸"
 zhTW = "在壞潮時關閉閘門"
@@ -377,6 +409,7 @@ koKR = "나쁜 조수 동안 수문 닫기"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when badtide starts."
+status = "normal"
 enUS = "Apply this template to floodgates that need to open when the bad tide begins."
 zhCN = "此规则适用于闸门，会在恶水潮开始时完全打开。需要与其他闸门自动化规则配合使用。"
 zhTW = "將此模板應用於在壞潮開始時需要打開的洪水閘。"
@@ -390,6 +423,8 @@ koKR = "나쁜 조수가 시작될 때 열어야 하는 홍수문에 이 템플�
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName"]
 raw = "Open floodgate during badtide"
+new = "Open floodgate on badtide start"
+status = "normal"
 enUS = "Open floodgate during low tide"
 zhCN = "恶水潮时开闸"
 zhTW = "在壞潮期間打開水閘"
@@ -403,6 +438,7 @@ koKR = "악성 조수 동안 수문 열기"
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.Description"]
 raw = "Apply this template on buildings that should stay paused during badtides."
+status = "normal"
 enUS = "Apply this template to buildings that should remain on hold during bad tides."
 zhCN = "此规则适用于建筑，会在恶水潮开始时关闭，在恶水潮结束时启用。"
 zhTW = "將此模板應用於在惡潮期間應保持暫停的建築物。"
@@ -416,6 +452,7 @@ koKR = "악조 동안 일시 정지해야 하는 건물에 이 템플릿을 적�
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName"]
 raw = "Pause during badtide"
+status = "normal"
 enUS = "Pause during low tide."
 zhCN = "恶水潮时关闭"
 zhTW = "在壞潮期間暫停"
@@ -429,6 +466,7 @@ koKR = "악성 조수 동안 일시 중지"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description"]
 raw = "Apply this template to buildings that should be running as long as there are unoccupied beds."
+status = "normal"
 enUS = "Apply this template to buildings that should operate as long as there are available beds."
 zhCN = "此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量达到当前床位上限。应用此规则后，新增加的床位不会被计算在内。"
 zhTW = "將此模板應用於應持續運行的建築，只要還有空床位。"
@@ -442,6 +480,7 @@ koKR = "빈 침대가 있는 한 이 템플릿을 건물에 적용하여 작동�
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName"]
 raw = "Run until beaver population is at max"
+status = "normal"
 enUS = "Run until the beaver population reaches its maximum."
 zhCN = "海狸数量增加至上限"
 zhTW = "運行直到海狸人口達到上限"
@@ -455,6 +494,7 @@ koKR = "비버 인구가 최대에 도달할 때까지 실행"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 10 beavers below the current level."
+status = "normal"
 enUS = "Apply this template to buildings that should remain paused until the beaver population decreases by 10 beavers below the current level."
 zhCN = "此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量低于当前数量10只。"
 zhTW = "將此模板應用於應保持暫停的建築，直到海狸數量下降至當前水平以下10隻海狸。"
@@ -468,6 +508,7 @@ koKR = "이 템플릿을 적용하여 현재 수준보다 10마리의 비버 수
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName"]
 raw = "Beaver population -10"
+status = "normal"
 enUS = "Beaver population -10"
 zhCN = "海狸数量减少10"
 zhTW = "河狸數量 -10"
@@ -481,6 +522,7 @@ koKR = "비버 개체수 -10"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 20 beavers below the current level."
+status = "normal"
 enUS = "Apply this template to buildings that should remain on hold until the beaver population decreases by 20 beavers below the current level."
 zhCN = "此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量低于当前数量20只。"
 zhTW = "將此模板應用於應保持暫停的建築，直到海狸人口減少至目前水平以下20只海狸。"
@@ -494,6 +536,7 @@ koKR = "현재 수준보다 20마리의 비버 수가 줄어들 때까지 대기
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName"]
 raw = "Beaver population -20"
+status = "normal"
 enUS = "Beaver population -20"
 zhCN = "海狸数量减少20"
 zhTW = "海狸數量 -20"
@@ -507,6 +550,7 @@ koKR = "너구리 개체수 -20"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 10 beavers."
+status = "normal"
 enUS = "Apply this template to buildings that should continue operating until the beaver population exceeds the current level by 10 beavers."
 zhCN = "此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量高于当前数量10只。"
 zhTW = "將此模板應用於應該運行的建築，直到海狸數量超過當前水平 10 隻海狸為止。"
@@ -520,6 +564,7 @@ koKR = "현재 비버 인구 수준을 10마리 초과할 때까지 가동되어
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName"]
 raw = "Beaver population +10"
+status = "normal"
 enUS = "Beaver population +10"
 zhCN = "海狸数量增加10"
 zhTW = "河狸數量 +10"
@@ -533,6 +578,7 @@ koKR = "비버 개체수 +10"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 20 beavers."
+status = "normal"
 enUS = "Apply this template to buildings that should be operational until the beaver population exceeds the current level by 20 beavers."
 zhCN = "此规则适用于繁殖舱和先进繁殖舱，会自动启停来保持海狸数量高于当前数量20只。"
 zhTW = "將此模板應用於那些在鴨嘴獸數量超過當前水平20隻之前應該運行的建築物。"
@@ -546,6 +592,7 @@ koKR = "이 템플릿을 비버 인구가 현재 수준을 20마리 초과할 �
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName"]
 raw = "Beaver population +20"
+status = "normal"
 enUS = "Beaver population +20"
 zhCN = "海狸数量增加20"
 zhTW = "河狸數量 +20"
@@ -559,6 +606,7 @@ koKR = "비버 개체수 +20"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 10 beavers below the current level."
+status = "normal"
 enUS = "Apply this template to buildings that must remain paused until the bot population decreases by 10 beavers below the current level."
 zhCN = "此规则适用于机关人组装厂，会自动启停来保持机关人数量低于当前数量20只。"
 zhTW = "將此範本應用於必須暫停的建築，直到機器人數量下降至當前水平的10隻海狸以下。"
@@ -572,6 +620,7 @@ koKR = "이 템플릿은 봇 인구가 현재 수준에서 10마리 비버가 �
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName"]
 raw = "Bot population -10"
+status = "normal"
 enUS = "Bot population -10"
 zhCN = "机关人数量减少10"
 zhTW = "機器人數量 -10"
@@ -585,6 +634,7 @@ koKR = "봇 인구 -10"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level."
+status = "normal"
 enUS = "Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level."
 zhCN = "此规则适用于机关人组装厂，会自动启停来保持机关人数量低于当前数量20只。"
 zhTW = "將此模板應用於必須保持暫停的建築，直到機器人數量下降至比當前水平少20只海狸。"
@@ -598,6 +648,7 @@ koKR = "이 템플릿을 봇 인구가 현재 수준보다 20마리 비버가 �
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName"]
 raw = "Bot population -20"
+status = "normal"
 enUS = "Bot population -20"
 zhCN = "机关人数量减少20"
 zhTW = "機器人數量 -20"
@@ -611,6 +662,7 @@ koKR = "봇 인구 -20"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 10 bots."
+status = "normal"
 enUS = "Apply this template to buildings that should remain operational until the bot population exceeds the current level by 10 bots."
 zhCN = "此规则适用于机关人组装厂，会自动启停来保持机关人数量高于当前数量10只。"
 zhTW = "將此模板應用於應該運行的建築，直到機器人數量超過當前水平的10台機器人為止。"
@@ -624,6 +676,7 @@ koKR = "이 템플릿은 봇 인구가 현재 수준보다 10 봇 초과할 때�
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName"]
 raw = "Bot population +10"
+status = "normal"
 enUS = "Bot population +10"
 zhCN = "机关人数量增加10"
 zhTW = "機器人數量 +10"
@@ -637,6 +690,7 @@ koKR = "봇 인구 +10"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 20 bots."
+status = "normal"
 enUS = "Apply this template to buildings that should remain operational until the bot population surpasses the current level by 20 bots."
 zhCN = "此规则适用于机关人组装厂，会自动启停来保持机关人数量高于当前数量20只。"
 zhTW = "將此範本應用於那些在機器人數量超過當前水準 20 個機器人之前應繼續運行的建築。"
@@ -650,6 +704,7 @@ koKR = "이 템플릿은 로봇 인구가 현재 수준을 20대 초과할 때�
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName"]
 raw = "Bot population +20"
+status = "normal"
 enUS = "Bot population +20"
 zhCN = "机关人数量增加20"
 zhTW = "機器人數量 +20"
@@ -663,6 +718,8 @@ koKR = "봇 인구 +20"
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description"]
 raw = "Apply this template to construction sites that may block builders' paths. Note: Results not guaranteed, especially if buildings are not at the same level."
+new = "Apply this template to construction sites that may block builders' paths. Note: Results not guaranteed, especially if buildings aren't at the same level."
+status = "normal"
 enUS = "Apply this template to construction sites that may block builders' paths. Note: Results not guaranteed, especially if buildings are not at the same level."
 zhCN = "此规则适用于待建造建筑，会根据是否堵塞其他建筑自动暂停建造或恢复建造。（可能存在bug，尤其是当建筑不在同一平面上时）"
 zhTW = "將此模板應用於可能阻礙建築工人通行的工地。注意：結果不保證，尤其是在建築物不在同一水平時。"
@@ -676,6 +733,7 @@ koKR = "이 템플릿을 건축 작업장에 적용하여 건설자의 경로를
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName"]
 raw = "Don't block builders"
+status = "normal"
 enUS = "Don't block builders."
 zhCN = "建筑防堵塞"
 zhTW = "不要阻礙建築工人"
@@ -689,6 +747,7 @@ koKR = "건축가를 막지 마세요"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that should close when drought starts."
+status = "normal"
 enUS = "Apply this template to floodgates that should close when a drought begins."
 zhCN = "此规则适用于闸门，会在干旱期开始时完全关闭。需要与其他闸门自动化规则配合使用。"
 zhTW = "將此模板應用於應在乾旱開始時關閉的防洪閘。"
@@ -702,6 +761,8 @@ koKR = "가뭄이 시작될 때 닫아야 하는 수문에 이 템플릿을 적�
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName"]
 raw = "Close floodgate during drought"
+new = "Close floodgate on drought start"
+status = "normal"
 enUS = "Close floodgate during drought."
 zhCN = "干旱期时关闸"
 zhTW = "在乾旱期間關閉洪水閘門"
@@ -715,6 +776,7 @@ koKR = "가뭄 동안 수문 닫기"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should open when drought starts."
+status = "normal"
 enUS = "Apply this template to floodgates that should open when a drought begins."
 zhCN = "此规则适用于闸门，会在干旱期开始时完全打开。需要与其他闸门自动化规则配合使用。"
 zhTW = "在乾旱開始時應該打開的防洪閘門上應用此模板。"
@@ -728,6 +790,8 @@ koKR = "가뭄이 시작될 때 열려야 하는 홍수 방지 문에 이 템플
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName"]
 raw = "Open floodgate during drought"
+new = "Open floodgate on drought start"
+status = "normal"
 enUS = "Open floodgate during drought"
 zhCN = "干旱期时开闸"
 zhTW = "在乾旱期間開放水閘"
@@ -741,6 +805,8 @@ koKR = "가뭄 동안 수문 열기"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description"]
 raw = "Apply this template on water regulators that need to be open during droughts."
+new = "Apply this template on water flow control buildings (like <YellowHighlight>Badwater Dome</YellowHighlight> or <YellowHighlight>Sluice</YellowHighlight>) to keep them open during droughts."
+status = "normal"
 enUS = "Apply this template to water regulators that need to be open during droughts."
 zhCN = "此规则适用于水闸和恶水建筑，会在干旱期开始时打开，在干旱期结束时关闭。"
 zhTW = "應用此模板於在乾旱期間需開放的水利監管機構。"
@@ -754,6 +820,8 @@ koKR = "이 템플릿을 가뭄 동안 열어야 하는 수자원 조절기에 �
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName"]
 raw = "Open water regulator during drought"
+new = "Open water flow control during drought"
+status = "normal"
 enUS = "Open water regulations during drought."
 zhCN = "干旱期时打开水利装置"
 zhTW = "乾旱期間的開放水域監管者"
@@ -767,6 +835,7 @@ koKR = "가뭄 동안 수로 조절기"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.Description"]
 raw = "Apply this template on buildings that should stay paused during droughts."
+status = "normal"
 enUS = "Apply this template to buildings that should remain paused during droughts."
 zhCN = "此规则适用于建筑，会在干旱期开始时关闭，在干旱期结束时启用。"
 zhTW = "將此模板應用於在乾旱期間應保持暫停的建築。"
@@ -780,6 +849,7 @@ koKR = "이 템플릿을 가뭄 동안 일시 중지해야 하는 건물에 적�
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName"]
 raw = "Pause during drought"
+status = "normal"
 enUS = "Pause during drought"
 zhCN = "干旱期时关闭"
 zhTW = "在旱季期間暫停"
@@ -793,6 +863,7 @@ koKR = "가뭄 동안 일시정지"
 
 ["IgorZ.Automation.Tool.tmpl.DynamiteNow.Description"]
 raw = "Automatically detonates the dynamite when the construction is complete. This template can be applied to a finished dynamite as well."
+status = "normal"
 enUS = "Automatically detonates the dynamite when the construction is complete. This template can be applied to a finished dynamite as well."
 zhCN = "此规则适用于炸弹，建造完成后会自动引爆。"
 zhTW = "在建設完成後自動引爆炸藥。這個模板也可以應用於已完成的炸藥。"
@@ -806,6 +877,7 @@ koKR = "건설이 완료되면 다이너마이트가 자동으로 폭발합니�
 
 ["IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName"]
 raw = "Explode dynamite now"
+status = "normal"
 enUS = "Explode dynamite now"
 zhCN = "立即引爆"
 zhTW = "立即引爆炸藥"
@@ -819,6 +891,7 @@ koKR = "지금 다이너마이트 폭발시키기"
 
 ["IgorZ.Automation.Tool.tmpl.EmitSelectedGood.Description"]
 raw = "Apply this template to buildings that should emit a signal of the selected good amount in the storage. The signal can be used in conditions on the other buildings."
+status = "normal"
 enUS = "Apply this template to buildings that should emit a signal of the selected good amount in the storage. The signal can be used in conditions on the other buildings."
 zhCN = "此规则适用于仓储建筑，可以发送仓储物品数量信号，用于其他建筑的自动化规则判断。"
 zhTW = "將此模板應用於應該發出存儲中所選商品數量信號的建築物。該信號可用於其他建築物的條件中。"
@@ -832,6 +905,7 @@ koKR = "이 템플릿을 사용하여 선택한 상품의 양을 저장고에서
 
 ["IgorZ.Automation.Tool.tmpl.EmitSelectedGood.DisplayName"]
 raw = "Emit selected good signal"
+status = "normal"
 enUS = "Emit selected good signal"
 zhCN = "物品数量信号"
 zhTW = "發送所選商品信號"
@@ -845,6 +919,7 @@ koKR = "선택된 상품 신호 방출"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName"]
 raw = "Empty the storage if capacity is above 50%"
+status = "normal"
 enUS = "Empty the storage if the capacity is above 50%."
 zhCN = "产物库存高于50%时清理"
 zhTW = "如果容量超過 50%，請清空儲存空間。"
@@ -858,6 +933,7 @@ koKR = "저장소의 용량이 50% 이상일 경우 비우기"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName"]
 raw = "Empty the storage if capacity is above 60%"
+status = "normal"
 enUS = "Empty the storage if the capacity is above 60%."
 zhCN = "产物库存高于60%时清理"
 zhTW = "如果容量超過60%，請清空存儲。"
@@ -871,6 +947,7 @@ koKR = "저장소의 용량이 60%를 넘으면 비우기"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName"]
 raw = "Empty the storage if capacity is above 70%"
+status = "normal"
 enUS = "Empty the storage if the capacity is above 70%."
 zhCN = "产物库存高于70%时清理"
 zhTW = "如果容量超過70%，請清空儲存空間。"
@@ -884,6 +961,7 @@ koKR = "용량이 70%를 초과하면 저장소 비우기"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName"]
 raw = "Empty the storage if capacity is above 80%"
+status = "normal"
 enUS = "Empty the storage if the capacity is above 80%."
 zhCN = "产物库存高于80%时清理"
 zhTW = "如果容量超過80%，請清空儲存空間。"
@@ -897,6 +975,7 @@ koKR = "저장 용량이 80%를 초과하면 비우기"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName"]
 raw = "Empty the storage if capacity is above 90%"
+status = "normal"
 enUS = "Empty the storage if capacity is above 90%."
 zhCN = "产物库存高于90%时清理"
 zhTW = "如果容量超過 90%，請清空存儲。"
@@ -910,6 +989,8 @@ koKR = "저장소 용량이 90% 이상일 때 비우기"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description"]
 raw = "This template can be applied to building that produce one type of good and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
+new = "This template can be applied to building that produce goods and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
+status = "normal"
 enUS = "This template can be applied to buildings that produce one type of good and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
 zhCN = "此规则适用于不需要原料的生产建筑，如果产物库存高于预定阈值，则进入清理状态，直至产物库存降低至预定阈值。"
 zhTW = "該模板可應用於生產一種商品且沒有投入庫存的建築。如果<i>產出</i>庫存水平超過預定閾值，建築將轉換為“空置”模式，以促進商品的快速移除。"
@@ -923,6 +1004,7 @@ koKR = "이 템플릿은 하나의 유형의 재화를 생산하고 입력 재�
 
 ["IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description"]
 raw = "Apply this template to floodgates to control their height in sync."
+status = "normal"
 enUS = "Apply this template to floodgates to control their height in sync."
 zhCN = "此规则适用于闸门，可以同步控制高度。"
 zhTW = "將此模板應用於洪水閘門，以同步控制其高度。"
@@ -936,6 +1018,7 @@ koKR = "이 템플릿을 홍수 게이트에 적용하여 높이를 동기화하
 
 ["IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName"]
 raw = "Floodgate group"
+status = "normal"
 enUS = "Floodgate group"
 zhCN = "闸门组"
 zhTW = "閘門組"
@@ -949,6 +1032,7 @@ koKR = "홍수문 그룹"
 
 ["IgorZ.Automation.Tool.tmpl.PauseConstruction.Description"]
 raw = "Apply this template to construction sites that should be paused once the construction progress reaches 100%."
+status = "normal"
 enUS = "Apply this template to construction sites that should be paused once the construction progress reaches 100%."
 zhCN = "此规则适用于待建造建筑，建造进度达到100%后会自动暂停。"
 zhTW = "將此模板應用於當建設進度達到100%時應該暫停的建設工地。"
@@ -962,6 +1046,7 @@ koKR = "고급 설정이 완료되면 100%의 건설 진행 상황에 도달한 
 
 ["IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName"]
 raw = "Pause construction"
+status = "normal"
 enUS = "Pause construction"
 zhCN = "等待验收"
 zhTW = "暫停建設"
@@ -975,6 +1060,7 @@ koKR = "건설 일시 중지"
 
 ["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.Description"]
 raw = "Apply this template to buildings that should be running as long as there are planting spots in the range of the building."
+status = "normal"
 enUS = "Apply this template to buildings that should be running as long as there are planting spots in the range of the building."
 zhCN = "此规则适用于种植型建筑，会在工作范围内存在可种植区域（作物、灌木、树木等）时启用，否则关闭。"
 zhTW = "將此模板應用於在建築範圍內有種植點的情況下應持續運行的建築。"
@@ -988,6 +1074,7 @@ koKR = "건물이 있는 범위 내에 식재 공간이 있는 한 이 템플릿
 
 ["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.DisplayName"]
 raw = "Run if something can be planted"
+status = "normal"
 enUS = "Run if something can be planted"
 zhCN = "有可种植区域时运行"
 zhTW = "如果能夠種植則運行"
@@ -1001,6 +1088,7 @@ koKR = "무언가를 심을 수 있으면 실행"
 
 ["IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description"]
 raw = "Apply this template to buildings that should be prioritized by haulers once the construction is complete."
+status = "normal"
 enUS = "Apply this template to buildings that should be prioritized by haulers once the construction is complete."
 zhCN = "此规则适用于待建造建筑，建造完成后会自动勾选“让搬运工优先此建筑”。"
 zhTW = "將此模板應用於建築物，這些建築在施工完成後應由運輸工優先處理。"
@@ -1014,6 +1102,7 @@ koKR = "완공 후 하청인들이 우선적으로 처리해야 할 건물에 �
 
 ["IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName"]
 raw = "Prioritize by haulers"
+status = "normal"
 enUS = "Prioritize by haulers"
 zhCN = "搬运优先"
 zhTW = "「優先考慮搬運工」"
@@ -1027,6 +1116,7 @@ koKR = "운반자를 통한 우선 순위 지정"
 
 ["IgorZ.Automation.Tool.tmpl.StreamGauge.Description"]
 raw = "Apply this template to stream gauges that should emit a signal of the current water condition. The signals can be used in conditions on the other buildings."
+status = "normal"
 enUS = "Apply this template to stream gauges that should emit a signal of the current water condition. The signals can be used in conditions on the other buildings."
 zhCN = "此规则适用于水流计，可以发送当前水流状况信号，用于其他建筑的自动化规则判断。"
 zhTW = "將此模板應用於應該發出當前水情況信號的水流儀。這些信號可用於其他建築物的條件中。"
@@ -1040,6 +1130,7 @@ koKR = "이 템플릿을 현재 물 상태의 신호를 방출해야 하는 개�
 
 ["IgorZ.Automation.Tool.tmpl.StreamGauge.DisplayName"]
 raw = "Stream gauge signal"
+status = "normal"
 enUS = "Stream gauge signal"
 zhCN = "水流状况信号"
 zhTW = "水流儀信號"
@@ -1053,6 +1144,7 @@ koKR = "하천 게이지 신호"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when temperate season starts."
+status = "normal"
 enUS = "Apply this template to floodgates that need to close when the temperate season starts."
 zhCN = "此规则适用于闸门，会在温和期开始时完全关闭。需要与其他闸门自动化规则配合使用。"
 zhTW = "在溫帶季節開始時，應用此模板於需要關閉的閘門。"
@@ -1066,6 +1158,8 @@ koKR = "이 템플릿을 온대 계절이 시작될 때 닫아야 하는 수문�
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName"]
 raw = "Close floodgate during temperate weather"
+new = "Close floodgate on temperate weather start"
+status = "normal"
 enUS = "Close the floodgate during mild weather."
 zhCN = "温和期时关闸"
 zhTW = "在溫帶天氣時關閉閘門"
@@ -1079,6 +1173,7 @@ koKR = "온화한 날씨에 홍수게이트 닫기"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when temperate season starts."
+status = "normal"
 enUS = "Apply this template to floodgates that need to open when the temperate season starts."
 zhCN = "此规则适用于闸门，会在温和期开始时完全打开。需要与其他闸门自动化规则配合使用。"
 zhTW = "在溫帶季節開始時，需要開啟的洪水閘門應用此模板。"
@@ -1092,6 +1187,8 @@ koKR = "온화한 계절이 시작될 때 열어야 하는 수문에 이 템플�
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName"]
 raw = "Open floodgate during temperate weather"
+new = "Open floodgate on temperate weather start"
+status = "normal"
 enUS = "Open floodgate during temperate weather"
 zhCN = "温和期时开闸"
 zhTW = "在温和天气时打开闸门"
@@ -1105,6 +1202,7 @@ koKR = "온대 날씨에 수문 열기"
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.Description"]
 raw = "Apply this template on buildings that should stay paused during temperate weather."
+status = "normal"
 enUS = "Apply this template to buildings that should remain paused during temperate weather."
 zhCN = "此规则适用于建筑，会在干旱期结束时关闭，在干旱期开始时启用。"
 zhTW = "在温和天气期间，适用此模板于应保持暂停的建筑物。"
@@ -1118,6 +1216,7 @@ koKR = "온화한 날씨 동안 정지 상태를 유지해야 하는 건물에 �
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName"]
 raw = "Pause during temperate weather"
+status = "normal"
 enUS = "Pause during mild weather"
 zhCN = "非干旱期时关闭"
 zhTW = "在温和的天气中暂停"
@@ -1131,6 +1230,7 @@ koKR = "온화한 날씨 동안 일시 정지"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should open by 0.5m of their max height when the temperate season starts."
+status = "normal"
 enUS = "Apply this template to floodgates that should open by 0.5m of their maximum height when the temperate season begins."
 zhCN = "此规则适用于闸门，会在温和期开始时部分打开，可通过高度为0.5米。需要与其他闸门自动化规则配合使用。"
 zhTW = "將此模板應用於應在溫暖季節開始時以最大高度的0.5米打開的洪水閘門。"
@@ -1144,6 +1244,7 @@ koKR = "온대 계절이 시작될 때 최대 높이의 0.5m만큼 열어야 하
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName"]
 raw = "Slightly open floodgate during temperate weather"
+status = "normal"
 enUS = "Slightly open floodgate during mild weather"
 zhCN = "温和期时部分开闸"
 zhTW = "在溫和天氣時稍微打開閘門"
@@ -1157,6 +1258,7 @@ koKR = "온화한 날씨에 약간 열려 있는 수문"
 
 ["IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description"]
 raw = "This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper."
+status = "normal"
 enUS = "This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper."
 zhCN = "此规则适用于炸弹，建造完成后会自动引爆，随后放置新的炸弹并再次引爆，直至达到预定次数。"
 zhTW = "這個模板可以應用於炸藥，無論它是已完成還是仍在建造中。完成後，炸藥將自動引爆，並會放置新的炸藥藍圖以進一步挖掘。"
@@ -1170,6 +1272,7 @@ koKR = "이 템플릿은 완공 여부에 관계없이 다이너마이트에 적
 
 ["IgorZ.Automation.ToolGroup.Main.DisplayName"]
 raw = "Setup automation"
+status = "normal"
 enUS = "Setup automation"
 zhCN = "自动化工具"
 zhTW = "設置自動化"
@@ -1183,6 +1286,7 @@ koKR = "자동화 설정"
 
 ["IgorZ.Automation.ToolGroup.Planting.DisplayName"]
 raw = "Planting and gathering related rules"
+status = "normal"
 enUS = "Planting and gathering related rules"
 zhCN = "采集和种植自动化"
 zhTW = "與種植和收集相關的規則"
@@ -1196,6 +1300,8 @@ koKR = "심기 및 수집 관련 규칙"
 
 ["IgorZ.Automation.ToolGroup.Population.DisplayName"]
 raw = "Population conditions"
+new = "Population related rules"
+status = "normal"
 enUS = "Population conditions"
 zhCN = "人口自动化"
 zhTW = "人口狀況"
@@ -1209,6 +1315,8 @@ koKR = "인구 상황"
 
 ["IgorZ.Automation.ToolGroup.Power.DisplayName"]
 raw = "Power conditions"
+new = "Power related rules"
+status = "normal"
 enUS = "Power conditions"
 zhCN = "启停自动化"
 zhTW = "電源條件"
@@ -1222,6 +1330,7 @@ koKR = "전력 조건"
 
 ["IgorZ.Automation.ToolGroup.Signals.DisplayName"]
 raw = "Signals related rules"
+status = "normal"
 enUS = "Signals related rules"
 zhCN = "信号自动化"
 zhTW = "信號相關規則"
@@ -1235,6 +1344,8 @@ koKR = "신호 관련 규칙"
 
 ["IgorZ.Automation.ToolGroup.Storage.DisplayName"]
 raw = "Storages conditions"
+new = "Storages related rules"
+status = "normal"
 enUS = "Storage conditions"
 zhCN = "库存自动化"
 zhTW = "儲存條件"
@@ -1248,6 +1359,8 @@ koKR = "저장소 조건"
 
 ["IgorZ.Automation.ToolGroup.Terrain.DisplayName"]
 raw = "Terrain changing"
+new = "Terrain changing rules"
+status = "normal"
 enUS = "Terrain changing"
 zhCN = "炸弹自动化"
 zhTW = "地形變化"
@@ -1261,6 +1374,8 @@ koKR = "지형 변경"
 
 ["IgorZ.Automation.ToolGroup.Water.DisplayName"]
 raw = "Water conditions"
+new = "Weather related rules"
+status = "normal"
 enUS = "Water conditions"
 zhCN = "建筑和闸门自动化"
 zhTW = "水質條件"
@@ -1272,8 +1387,13 @@ plPL = "Warunki wodne"
 ptBR = "Condições da água"
 koKR = "물 상태"
 
+["="]
+new = "="
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Error.ValueOutOfRange"]
 raw = "ERROR: Value out of range"
+status = "normal"
 enUS = "ERROR: Value out of range"
 zhCN = "错误：数值超出范围"
 zhTW = "錯誤：值超出範圍"
@@ -1287,6 +1407,7 @@ koKR = "오류: 범위를 벗어난 값"
 
 ["IgorZ.Automation.Scripting.Error.DivisionByZero"]
 raw = "ERROR: Division by zero"
+status = "normal"
 enUS = "ERROR: Division by zero"
 zhCN = "错误：除数为零"
 zhTW = "錯誤：除以零"
@@ -1300,6 +1421,7 @@ koKR = "오류: 0으로 나누기"
 
 ["IgorZ.Automation.Scripting.Error.BadValue"]
 raw = "ERROR: Bad value"
+status = "normal"
 enUS = "ERROR: Bad value"
 zhCN = "错误：无效值"
 zhTW = "錯誤：值不正確"
@@ -1313,6 +1435,7 @@ koKR = "오류: 잘못된 값"
 
 ["IgorZ.Automation.Scripting.Error.InternalError"]
 raw = "ERROR: Internal error"
+status = "normal"
 enUS = "ERROR: Internal error"
 zhCN = "错误：内部错误"
 zhTW = "錯誤：內部錯誤"
@@ -1326,6 +1449,7 @@ koKR = "오류: 내부 오류"
 
 ["IgorZ.Automation.AutomationFragment.AndMoreRow"]
 raw = "...and {0} more rules..."
+status = "normal"
 enUS = "...and {0} more rules..."
 zhCN = "...还有 {0} 条规则..."
 zhTW = "「...還有 {0} 條規則...」"
@@ -1339,6 +1463,7 @@ koKR = "...그리고 {0}개의 규칙이 더 있습니다..."
 
 ["IgorZ.Automation.AutomationFragment.BuildingSignalSource"]
 raw = "{0} ({1})"
+status = "normal"
 enUS = "{0} ({1})"
 zhCN = "{0}（{1}）"
 zhTW = "{0} ({1})"
@@ -1352,6 +1477,7 @@ koKR = "{0} ({1})"
 
 ["IgorZ.Automation.AutomationFragment.ClearRulesBtnHint"]
 raw = "Clear all rules"
+status = "normal"
 enUS = "Clear all rules"
 zhCN = "清除所有规则"
 zhTW = "清除所有規則"
@@ -1365,6 +1491,7 @@ koKR = "모든 규칙 지우기"
 
 ["IgorZ.Automation.AutomationFragment.ClearSignalsBtnHint"]
 raw = "Clear all signals mappings"
+status = "normal"
 enUS = "Clear all signals mappings"
 zhCN = "清除所有信号映射"
 zhTW = "清除所有信號映射"
@@ -1378,6 +1505,7 @@ koKR = "모든 신호 매핑 지우기"
 
 ["IgorZ.Automation.AutomationFragment.CopyRulesBtnHint"]
 raw = "Copy rules to another building"
+status = "normal"
 enUS = "Copy rules to another building"
 zhCN = "复制规则到其他建筑"
 zhTW = "複製規則到另一個建築"
@@ -1391,6 +1519,7 @@ koKR = "규칙을 다른 건물로 복사"
 
 ["IgorZ.Automation.AutomationFragment.CopySignalsBtnHint"]
 raw = "Copy signals mappings to another building"
+status = "normal"
 enUS = "Copy signals mappings to another building"
 zhCN = "复制信号映射到其他建筑"
 zhTW = "將信號映射複製到另一座建築"
@@ -1404,6 +1533,7 @@ koKR = "신호 맵을 다른 건물로 복사"
 
 ["IgorZ.Automation.AutomationFragment.ExportRulesBtnHint"]
 raw = "Export rules and signals as text"
+status = "normal"
 enUS = "Export rules and signals as text"
 zhCN = "导出规则和信号为文本"
 zhTW = "將規則和信號導出為文本"
@@ -1417,6 +1547,7 @@ koKR = "규칙 및 신호를 텍스트로 내보내기"
 
 ["IgorZ.Automation.AutomationFragment.ImportRulesBtnHint"]
 raw = "Import rules and signals from text"
+status = "normal"
 enUS = "Import rules and signals from text"
 zhCN = "从文本导入规则和信号"
 zhTW = "匯入文本中的規則和信號"
@@ -1430,6 +1561,7 @@ koKR = "텍스트에서 규칙 및 신호 가져오기"
 
 ["IgorZ.Automation.AutomationFragment.RuleActionText"]
 raw = "Then {0}"
+status = "normal"
 enUS = "Then {0}"
 zhCN = "则 {0}"
 zhTW = "然後 {0}"
@@ -1443,6 +1575,7 @@ koKR = "그럼 {0}"
 
 ["IgorZ.Automation.AutomationFragment.RuleConditionText"]
 raw = "If {0},"
+status = "normal"
 enUS = "If {0},"
 zhCN = "如果 {0}，"
 zhTW = "如果{0}，"
@@ -1456,6 +1589,7 @@ koKR = "만약 {0}이라면,"
 
 ["IgorZ.Automation.AutomationFragment.RulesCountText"]
 raw = "Rules: {0}"
+status = "normal"
 enUS = "Rules: {0}"
 zhCN = "规则：{0}"
 zhTW = "規則: {0}"
@@ -1469,6 +1603,7 @@ koKR = "규칙: {0}"
 
 ["IgorZ.Automation.AutomationFragment.SetupRulesBtnHint"]
 raw = "Setup rules"
+status = "normal"
 enUS = "Setup rules"
 zhCN = "设置规则"
 zhTW = "設置規則"
@@ -1482,6 +1617,7 @@ koKR = "규칙 설정"
 
 ["IgorZ.Automation.AutomationFragment.SetupSignalsBtnHint"]
 raw = "Setup signals that will be visible to the other buildings"
+status = "normal"
 enUS = "Setup signals that will be visible to the other buildings"
 zhCN = "设置对其他建筑可见的信号"
 zhTW = "設置將對其他建築可見的信號"
@@ -1495,6 +1631,7 @@ koKR = "다른 건물에 보일 신호를 설정합니다"
 
 ["IgorZ.Automation.AutomationFragment.SignalsCountText"]
 raw = "Signals: {0}/{1}"
+status = "normal"
 enUS = "Signals: {0}/{1}"
 zhCN = "信号：{0}/{1}"
 zhTW = "信號：{0}/{1}"
@@ -1508,6 +1645,7 @@ koKR = "신호: {0}/{1}"
 
 ["IgorZ.Automation.Tool.CopyRules.Text"]
 raw = "Copy {0} rules"
+status = "normal"
 enUS = "Copy {0} rules"
 zhCN = "复制 {0} 条规则"
 zhTW = "複製 {0} 條規則"
@@ -1521,6 +1659,7 @@ koKR = "{0} 규칙 복사"
 
 ["IgorZ.Automation.Tool.CopyRules.Title"]
 raw = "Copy automation rules"
+status = "normal"
 enUS = "Copy automation rules"
 zhCN = "复制自动化规则"
 zhTW = "複製自動化規則"
@@ -1534,6 +1673,7 @@ koKR = "자동화 규칙 복사"
 
 ["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
 raw = "ready for collection"
+status = "normal"
 enUS = "ready for collection"
 zhCN = "可收集物品"
 zhTW = "可以收集"
@@ -1547,6 +1687,7 @@ koKR = "수집 준비 완료"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.Progress"]
 raw = "construction progress"
+status = "normal"
 enUS = "construction progress"
 zhCN = "建造进度"
 zhTW = "施工進度"
@@ -1560,6 +1701,7 @@ koKR = "건설 진행 상황"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.State"]
 raw = "construction state"
+status = "normal"
 enUS = "construction state"
 zhCN = "建造状态"
 zhTW = "建設狀態"
@@ -1573,6 +1715,7 @@ koKR = "건설 상태"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished"]
 raw = "Finished"
+status = "normal"
 enUS = "Finished"
 zhCN = "已完成"
 zhTW = "完成"
@@ -1586,6 +1729,7 @@ koKR = "완료"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.LogNum"]
 raw = "write a number to logs: {0}"
+status = "normal"
 enUS = "write a number to logs: {0}"
 zhCN = "向日志写入数字：{0}"
 zhTW = "寫入數字至日誌：{0}"
@@ -1599,6 +1743,8 @@ koKR = "로그에 숫자를 기록합니다: {0}"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.LogStr"]
 raw = "write a string to logs: {0}"
+new = "write a string to logs: '{0}'"
+status = "normal"
 enUS = "write a string to logs: {0}"
 zhCN = "向日志写入字符串：{0}"
 zhTW = "寫入日誌：{0}"
@@ -1612,6 +1758,7 @@ koKR = "로그에 문자열 작성: {0}"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.Log"]
 raw = "write to logs: '{0}'"
+status = "normal"
 enUS = "write to logs: '{0}'"
 zhCN = "向日志写入：{0}"
 zhTW = "寫入日誌：'{0}'"
@@ -1625,6 +1772,7 @@ koKR = "로그에 기록: '{0}'"
 
 ["IgorZ.Automation.Scriptable.Debug.Signal.Ticker"]
 raw = "ticker"
+status = "normal"
 enUS = "ticker"
 zhCN = "计时器"
 zhTW = "計時器"
@@ -1638,6 +1786,7 @@ koKR = "티커"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Beavers"]
 raw = "beavers in district"
+status = "normal"
 enUS = "beavers in the district"
 zhCN = "地区海狸数量"
 zhTW = "區域內的海狸"
@@ -1651,6 +1800,7 @@ koKR = "구역의 비버"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Bots"]
 raw = "bots in district"
+status = "normal"
 enUS = "bots in district"
 zhCN = "地区机关人数量"
 zhTW = "區域中的機器人"
@@ -1664,6 +1814,7 @@ koKR = "구역 내 로봇"
 
 ["IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds"]
 raw = "beds in district"
+status = "normal"
 enUS = "beds in district"
 zhCN = "地区床位数"
 zhTW = "區域內的床位"
@@ -1677,6 +1828,7 @@ koKR = "지구의 침대 수"
 
 ["IgorZ.Automation.Scriptable.District.Signal.ResourceCapacity"]
 raw = "district capacity: {0}"
+status = "normal"
 enUS = "district capacity: {0}"
 zhCN = "地区库存上限：{0}"
 zhTW = "區域容量：{0}"
@@ -1690,6 +1842,7 @@ koKR = "구역 용량: {0}"
 
 ["IgorZ.Automation.Scriptable.District.Signal.ResourceStock"]
 raw = "district stock: {0}"
+status = "normal"
 enUS = "district stock: {0}"
 zhCN = "地区库存量：{0}"
 zhTW = "區域庫存：{0}"
@@ -1703,6 +1856,7 @@ koKR = "지역 자산: {0}"
 
 ["IgorZ.Automation.Scriptable.Dynamite.Action.Detonate"]
 raw = "detonate dynamite"
+status = "normal"
 enUS = "detonate dynamite"
 zhCN = "引爆炸弹"
 zhTW = "引爆炸藥"
@@ -1716,6 +1870,7 @@ koKR = "다이너마이트 폭파"
 
 ["IgorZ.Automation.Scriptable.Dynamite.Action.DetonateAndRepeat"]
 raw = "detonate dynamite and add another <GreenHighlight>{0} times</GreenHighlight>"
+status = "normal"
 enUS = "detonate dynamite and add another <GreenHighlight>{0} times</GreenHighlight>"
 zhCN = "引爆炸弹并再放置<color=#59FF61>{0}次</color>"
 zhTW = "引爆炸藥並再次添加 <GreenHighlight>{0} 次</GreenHighlight>"
@@ -1729,6 +1884,7 @@ koKR = "다이너마이트를 폭파하고 <GreenHighlight>{0}회</GreenHighligh
 
 ["IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight"]
 raw = "set gate height to {0}"
+status = "normal"
 enUS = "set gate height to {0}"
 zhCN = "设置闸门高度为{0}"
 zhTW = "將閘門高度設置為 {0}"
@@ -1742,6 +1898,7 @@ koKR = "게이트 높이를 {0}으로 설정"
 
 ["IgorZ.Automation.Scriptable.Floodgate.Signal.Height"]
 raw = "floodgate height"
+status = "normal"
 enUS = "floodgate height"
 zhCN = "闸门高度"
 zhTW = "「防洪門高度」"
@@ -1755,6 +1912,7 @@ koKR = "홍수문 높이"
 
 ["IgorZ.Automation.Scriptable.FlowControl.Action.Close"]
 raw = "disable flow"
+status = "normal"
 enUS = "disable flow"
 zhCN = "关闭设施"
 zhTW = "禁用流程"
@@ -1768,6 +1926,7 @@ koKR = "흐름 비활성화"
 
 ["IgorZ.Automation.Scriptable.FlowControl.Action.Open"]
 raw = "enable flow"
+status = "normal"
 enUS = "enable flow"
 zhCN = "开启设施"
 zhTW = "啟用流程"
@@ -1781,6 +1940,7 @@ koKR = "흐름 활성화"
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus"]
 raw = "The storage is being emptied on a priority basis."
+status = "normal"
 enUS = "The storage is being emptied on a priority basis."
 zhCN = "此仓库正在被优先清空。"
 zhTW = "儲存空間正在優先清空中。"
@@ -1794,6 +1954,7 @@ koKR = "저장소가 우선적으로 비워지고 있습니다."
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock"]
 raw = "start emptying storage"
+status = "normal"
 enUS = "start emptying storage"
 zhCN = "开始清空库存"
 zhTW = "開始清空存儲空間"
@@ -1807,6 +1968,7 @@ koKR = "저장소 비우기 시작"
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock"]
 raw = "stop emptying storage"
+status = "normal"
 enUS = "stop emptying storage"
 zhCN = "停止清空库存"
 zhTW = "停止清空儲存空間"
@@ -1820,6 +1982,8 @@ koKR = "저장소 비우기 중지"
 
 ["IgorZ.Automation.Scriptable.Inventory.Signal.InputGood"]
 raw = "inout: {0}"
+new = "input: {0}"
+status = "normal"
 enUS = "{0}"
 zhCN = "输入物品：{0}"
 zhTW = "輸入: {0}"
@@ -1833,6 +1997,7 @@ koKR = "입력: {0}"
 
 ["IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood"]
 raw = "output: {0}"
+status = "normal"
 enUS = "output: {0}"
 zhCN = "输出物品：{0}"
 zhTW = "輸出：{0}"
@@ -1844,8 +2009,13 @@ plPL = "{0}"
 ptBR = "{0}"
 koKR = "출력: {0}"
 
+["IgorZ.Automation.Scriptable.Manufactory.Action.SetRecipe"]
+new = "set recipe: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Pausable.Action.Pause"]
 raw = "pause building"
+status = "normal"
 enUS = "pause construction"
 zhCN = "关闭建筑"
 zhTW = "暫停建設"
@@ -1859,6 +2029,7 @@ koKR = "건물 일시정지"
 
 ["IgorZ.Automation.Scriptable.Pausable.Action.Resume"]
 raw = "resume building"
+status = "normal"
 enUS = "resume building"
 zhCN = "启用建筑"
 zhTW = "履歷建置"
@@ -1872,6 +2043,7 @@ koKR = "건축 재개"
 
 ["IgorZ.Automation.Scriptable.Plantable.Signal.SpotsReady"]
 raw = "ready to plant"
+status = "normal"
 enUS = "ready to plant"
 zhCN = "可种植区域"
 zhTW = "準備種植"
@@ -1885,6 +2057,7 @@ koKR = "심을 준비 완료"
 
 ["IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers"]
 raw = "- prioritize by haulers"
+status = "normal"
 enUS = "- prioritize by haulers"
 zhCN = "取消搬运优先"
 zhTW = "- 按搬運工優先處理"
@@ -1898,6 +2071,7 @@ koKR = "- 수거꾼으로 우선순위 지정"
 
 ["IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers"]
 raw = "+ prioritize by haulers"
+status = "normal"
 enUS = "+ prioritize by haulers"
 zhCN = "设置搬运优先"
 zhTW = "+ 按運輸工人優先"
@@ -1911,6 +2085,7 @@ koKR = "+ 수거인에 따라 우선순위 지정"
 
 ["IgorZ.Automation.Scriptable.Signals.Action.Set"]
 raw = "set signal: {0} = {1}"
+status = "normal"
 enUS = "set signal: {0} = {1}"
 zhCN = "设置信号: {0} = {1}"
 zhTW = "設置信號: {0} = {1}"
@@ -1924,6 +2099,7 @@ koKR = "신호 설정: {0} = {1}"
 
 ["IgorZ.Automation.Scriptable.Signals.Signal.Get"]
 raw = "signal: {0}"
+status = "normal"
 enUS = "signal: {0}"
 zhCN = "信号: {0}"
 zhTW = "信號: {0}"
@@ -1937,6 +2113,7 @@ koKR = "신호: {0}"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Contamination"]
 raw = "contamination"
+status = "normal"
 enUS = "contamination"
 zhCN = "污染程度"
 zhTW = "污染"
@@ -1950,6 +2127,7 @@ koKR = "오염"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Current"]
 raw = "current"
+status = "normal"
 enUS = "current"
 zhCN = "流量"
 zhTW = "目前"
@@ -1963,6 +2141,7 @@ koKR = "현재"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Depth"]
 raw = "depth"
+status = "normal"
 enUS = "depth"
 zhCN = "水深"
 zhTW = "深度"
@@ -1976,6 +2155,7 @@ koKR = "깊이"
 
 ["IgorZ.Automation.Scriptable.Weather.Signal.Season"]
 raw = "season"
+status = "normal"
 enUS = "season"
 zhCN = "天气"
 zhTW = "季節"
@@ -1989,6 +2169,7 @@ koKR = "계절"
 
 ["IgorZ.Automation.Scriptable.Workplace.Action.RemoveWorkers"]
 raw = "remove workers"
+status = "normal"
 enUS = "remove workers"
 zhCN = "移除所有劳工"
 zhTW = "移除工人"
@@ -2002,6 +2183,7 @@ koKR = "직원 제거"
 
 ["IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers"]
 raw = "assign {0} workers"
+status = "normal"
 enUS = "assign {0} workers"
 zhCN = "分配 {0} 名劳工"
 zhTW = "「指派 {0} 名工人」"
@@ -2015,6 +2197,8 @@ koKR = "{0}명의 작업자를 배정합니다"
 
 ["IgorZ.Automation.Scripting.Expressions.AndOperator"]
 raw = " and "
+new = "and"
+status = "normal"
 enUS = "and"
 zhCN = "且"
 zhTW = "和"
@@ -2028,6 +2212,8 @@ koKR = " 그리고 "
 
 ["IgorZ.Automation.Scripting.Expressions.OrOperator"]
 raw = " or "
+new = "or"
+status = "normal"
 enUS = "or"
 zhCN = "或"
 zhTW = "或"
@@ -2041,6 +2227,7 @@ koKR = " 또는 "
 
 ["IgorZ.Automation.Scripting.Expressions.NotOperator"]
 raw = "NOT"
+status = "normal"
 enUS = "NOT"
 zhCN = "非"
 zhTW = "非"
@@ -2054,6 +2241,7 @@ koKR = "부정"
 
 ["IgorZ.Automation.Scripting.Expressions.ParseError"]
 raw = "PARSE ERROR"
+status = "normal"
 enUS = "PARSE ERROR"
 zhCN = "解析错误"
 zhTW = "解析錯誤"
@@ -2067,6 +2255,7 @@ koKR = "파싱 오류"
 
 ["IgorZ.Automation.Scripting.Editor.ActionLabel"]
 raw = "Then"
+status = "normal"
 enUS = "Then"
 zhCN = "那么"
 zhTW = "然後"
@@ -2080,6 +2269,7 @@ koKR = "그러면"
 
 ["IgorZ.Automation.Scripting.Editor.ActionMustBeAction"]
 raw = "Action must be the 'act' operator"
+status = "normal"
 enUS = "Action must be the 'act' operator."
 zhCN = "动作必须是'act'操作符"
 zhTW = "操作必須是 “act” 操作符。"
@@ -2093,6 +2283,7 @@ koKR = "동작은 'act' 연산자여야 합니다"
 
 ["IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn"]
 raw = "Add script"
+status = "normal"
 enUS = "Add script"
 zhCN = "通过添加脚本创建规则"
 zhTW = "添加腳本"
@@ -2106,6 +2297,7 @@ koKR = "스크립트 추가"
 
 ["IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn"]
 raw = "Create rule via constructor"
+status = "normal"
 enUS = "Create rule using constructor"
 zhCN = "通过构造器创建规则"
 zhTW = "通過構造函數創建規則"
@@ -2119,6 +2311,7 @@ koKR = "생성자 통해 규칙 만들기"
 
 ["IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint"]
 raw = "(max: {0})"
+status = "normal"
 enUS = "(max: {0})"
 zhCN = "(最大值: {0})"
 zhTW = "（最大值：{0}）"
@@ -2132,6 +2325,7 @@ koKR = "(max: {0})"
 
 ["IgorZ.Automation.Scripting.Editor.ConditionLabel"]
 raw = "If"
+status = "normal"
 enUS = "If"
 zhCN = "如果"
 zhTW = "如果"
@@ -2145,6 +2339,7 @@ koKR = "만약"
 
 ["IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean"]
 raw = "Condition must be a boolean expression"
+status = "normal"
 enUS = "Condition must be a boolean expression."
 zhCN = "条件必须是布尔表达式"
 zhTW = "條件必須是布林表達式"
@@ -2158,6 +2353,7 @@ koKR = "조건은 불리언 표현이어야 합니다."
 
 ["IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals"]
 raw = "Condition must contain at least one signal"
+status = "normal"
 enUS = "Condition must contain at least one signal."
 zhCN = "条件必须包含至少一个信号"
 zhTW = "條件必須至少包含一個信號"
@@ -2171,6 +2367,7 @@ koKR = "조건은 최소한 하나의 신호를 포함해야 합니다"
 
 ["IgorZ.Automation.Scripting.Editor.DeletedRule"]
 raw = "Rule removed"
+status = "normal"
 enUS = "Rule removed"
 zhCN = "规则已删除"
 zhTW = "規則已移除"
@@ -2184,6 +2381,7 @@ koKR = "규칙이 제거되었습니다"
 
 ["IgorZ.Automation.Scripting.Editor.DialogHeader"]
 raw = "Automation rules"
+status = "normal"
 enUS = "Automation rules"
 zhCN = "自动化规则"
 zhTW = "自動化規則"
@@ -2197,6 +2395,7 @@ koKR = "자동화 규칙"
 
 ["IgorZ.Automation.Scripting.Editor.DiscardChangesBtn"]
 raw = "Discard changes"
+status = "normal"
 enUS = "Discard changes"
 zhCN = "放弃更改"
 zhTW = "放棄更改"
@@ -2210,6 +2409,7 @@ koKR = "변경 내용 취소"
 
 ["IgorZ.Automation.Scripting.Editor.DiscardScriptBtn"]
 raw = "Discard"
+status = "normal"
 enUS = "Discard"
 zhCN = "放弃"
 zhTW = "丟棄"
@@ -2223,6 +2423,7 @@ koKR = "버리기"
 
 ["IgorZ.Automation.Scripting.Editor.EditAsScriptBtn"]
 raw = "Script"
+status = "normal"
 enUS = "Script"
 zhCN = "脚本"
 zhTW = "劇本"
@@ -2236,6 +2437,7 @@ koKR = "스크립트"
 
 ["IgorZ.Automation.Scripting.Editor.EditInConstructorBtn"]
 raw = "Constructor"
+status = "normal"
 enUS = "Constructor"
 zhCN = "构造器"
 zhTW = "建構函數"
@@ -2249,6 +2451,7 @@ koKR = "생성자"
 
 ["IgorZ.Automation.Scripting.Editor.ExportRulesBtn"]
 raw = "Export rules"
+status = "normal"
 enUS = "Export rules"
 zhCN = "导出规则"
 zhTW = "導出規則"
@@ -2262,6 +2465,7 @@ koKR = "규칙 내보내기"
 
 ["IgorZ.Automation.Scripting.Editor.ImportRulesBtn"]
 raw = "Import rules"
+status = "normal"
 enUS = "Import rules"
 zhCN = "导入规则"
 zhTW = "導入規則"
@@ -2275,6 +2479,7 @@ koKR = "규칙 가져오기"
 
 ["IgorZ.Automation.Scripting.Editor.MoreInfoBtn"]
 raw = "Read about scripting"
+status = "normal"
 enUS = "Read about scripting"
 zhCN = "阅读脚本说明"
 zhTW = "閱讀腳本編寫相關內容"
@@ -2288,6 +2493,7 @@ koKR = "스크립팅에 대해 읽기"
 
 ["IgorZ.Automation.Scripting.Editor.NumberConstantType"]
 raw = "number"
+status = "normal"
 enUS = "number"
 zhCN = "数字"
 zhTW = "數字"
@@ -2301,6 +2507,7 @@ koKR = "숫자"
 
 ["IgorZ.Automation.Scripting.Editor.PendingEditsNotification"]
 raw = "There are rules in the editing state. Complete them first."
+status = "normal"
 enUS = "There are rules in the editing state. Complete them first."
 zhCN = "存在编辑中的规则，请先完成编辑。"
 zhTW = "在編輯狀態中有規則。請先完成它們。"
@@ -2314,6 +2521,7 @@ koKR = "편집 상태에서 규칙이 있습니다. 먼저 이들을 완료하�
 
 ["IgorZ.Automation.Scripting.Editor.ReadMoreLink"]
 raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
+status = "normal"
 enUS = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 zhCN = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 zhTW = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
@@ -2327,6 +2535,7 @@ koKR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 
 ["IgorZ.Automation.Scripting.Editor.ResetChangesBtn"]
 raw = "Reset changes"
+status = "normal"
 enUS = "Reset changes"
 zhCN = "重置更改"
 zhTW = "重置變更"
@@ -2340,6 +2549,7 @@ koKR = "변경 사항 초기화"
 
 ["IgorZ.Automation.Scripting.Editor.RulesWithErrorsNotification"]
 raw = "Some rules have errors! Fix them first."
+status = "normal"
 enUS = "Some rules have errors! Fix them first."
 zhCN = "存在不正确的规则，请先完成修正。"
 zhTW = "某些規則有錯誤！請先修正它們。"
@@ -2353,6 +2563,7 @@ koKR = "일부 규칙에 오류가 있습니다! 먼저 수정해 주세요."
 
 ["IgorZ.Automation.Scripting.Editor.SaveRulesBtn"]
 raw = "Save and close"
+status = "normal"
 enUS = "Save and close"
 zhCN = "保存并关闭"
 zhTW = "儲存並關閉"
@@ -2366,6 +2577,7 @@ koKR = "저장하고 닫기"
 
 ["IgorZ.Automation.Scripting.Editor.SaveScriptBtn"]
 raw = "Save"
+status = "normal"
 enUS = "Save"
 zhCN = "保存"
 zhTW = "保存"
@@ -2379,6 +2591,7 @@ koKR = "저장"
 
 ["IgorZ.Automation.Scripting.Editor.StringConstantType"]
 raw = "string"
+status = "normal"
 enUS = "string"
 zhCN = "字符串"
 zhTW = "字串"
@@ -2392,6 +2605,7 @@ koKR = "문자열"
 
 ["IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel"]
 raw = "Template group: {0}"
+status = "normal"
 enUS = "Template group: {0}"
 zhCN = "模板分组：{0}"
 zhTW = "模板群組：{0}"
@@ -2405,6 +2619,7 @@ koKR = "템플릿 그룹: {0}"
 
 ["IgorZ.Automation.Scripting.Editor.TestScriptBtn"]
 raw = "Test"
+status = "normal"
 enUS = "Test"
 zhCN = "测试"
 zhTW = "測試"
@@ -2418,6 +2633,7 @@ koKR = "테스트"
 
 ["IgorZ.Automation.Scripting.SignalsEditor.DialogHeader"]
 raw = "Setup building signals"
+status = "normal"
 enUS = "Setup building signals"
 zhCN = "设置建筑信号"
 zhTW = "設置建築信號"
@@ -2431,6 +2647,8 @@ koKR = "건물 신호 설정"
 
 ["IgorZ.Automation.Scripting.SignalsEditor.BadSignalNameMsg"]
 raw = "❌ Bad signal name!/nThe name must start with a letter and contain only letters, digits, and dots."
+new = "❌ Bad signal name!\nThe name must start with a letter and contain only letters, digits, and dots."
+status = "normal"
 enUS = "❌ Bad signal name!/nThe name must start with a letter and contain only letters, digits, and dots."
 zhCN = "❌ 信号名称无效！<br>名称必须以字母开头，且只能包含字母、数字和点号。"
 zhTW = "❌ 錯誤的信號名稱！/n名稱必須以字母開頭，並且只能包含字母、數字和點。"
@@ -2442,21 +2660,9 @@ plPL = "❌ Zła nazwa sygnału!/nNazwa musi zaczynać się od litery i zawiera�
 ptBR = "❌ Nome de sinal inválido!/nO nome deve começar com uma letra e conter apenas letras, dígitos e pontos."
 koKR = "❌ 잘못된 신호 이름!/n이름은 문자로 시작해야 하며, 문자, 숫자 및 점만 포함할 수 있습니다."
 
-["IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation"]
-raw = "There are unsaved changes. Do you want to discard them?"
-enUS = "There are unsaved changes. Do you want to discard them?"
-zhCN = "存在未保存的更改，确定要放弃吗？"
-zhTW = "有未儲存的變更。你想要放棄它們嗎？"
-ruRU = "Есть несохраненные изменения. Вы хотите отменить их?"
-jaJP = "保存されていない変更があります。破棄しますか？"
-frFR = "Il y a des modifications non sauvegardées. Voulez-vous les annuler ?"
-deDE = "Es gibt ungespeicherte Änderungen. Möchten Sie diese verwerfen?"
-plPL = "Istnieją niezapisane zmiany. Czy chcesz je odrzucić?"
-ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
-koKR = "변경 사항이 저장되지 않았습니다. 이를 버리시겠습니까?"
-
 ["IgorZ.Automation.Scripting.Editor.ExportDialogHeader"]
 raw = "Export automation rules"
+status = "normal"
 enUS = "Export automation rules"
 zhCN = "导出自动化规则"
 zhTW = "導出自動化規則"
@@ -2470,6 +2676,7 @@ koKR = "자동화 규칙 내보내기"
 
 ["IgorZ.Automation.Scripting.Editor.ImportDialogHeader"]
 raw = "Import automation rules"
+status = "normal"
 enUS = "Import automation rules"
 zhCN = "导入自动化规则"
 zhTW = "導入自動化規則"
@@ -2483,6 +2690,7 @@ koKR = "자동화 규칙 가져오기"
 
 ["IgorZ.Automation.Scripting.ImportDialog.AllowErrors"]
 raw = "Import with errors"
+status = "normal"
 enUS = "Import with errors"
 zhCN = "允许错误导入"
 zhTW = "「允許錯誤導入」"
@@ -2496,6 +2704,7 @@ koKR = "오류가 있는 상태로 가져오기"
 
 ["IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules"]
 raw = "Delete existing rules"
+status = "normal"
 enUS = "Delete existing rules"
 zhCN = "删除现有规则"
 zhTW = "刪除現有規則"
@@ -2509,6 +2718,7 @@ koKR = "기존 규칙 삭제"
 
 ["IgorZ.Automation.Scripting.ImportDialog.ReadMore"]
 raw = "Read about imports"
+status = "normal"
 enUS = "Read about imports"
 zhCN = "了解更多导入信息"
 zhTW = "了解導入內容"
@@ -2522,6 +2732,7 @@ koKR = "수입에 대해 읽기"
 
 ["IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl"]
 raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
+status = "normal"
 enUS = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
 zhCN = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
 zhTW = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
@@ -2535,6 +2746,7 @@ koKR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-c
 
 ["IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules"]
 raw = "Skip failed rules"
+status = "normal"
 enUS = "Skip failed rules"
 zhCN = "跳过失败规则"
 zhTW = "跳過失敗的規則"
@@ -2548,6 +2760,7 @@ koKR = "실패한 규칙 건너뛰기"
 
 ["IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError"]
 raw = "Action not applicable:\n{0}"
+status = "normal"
 enUS = "Action not applicable:\n{0}"
 zhCN = "操作不适用：<br>{0}"
 zhTW = "動作不適用：\n{0}"
@@ -2561,6 +2774,7 @@ koKR = "적용할 수 없는 작업:\n{0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError"]
 raw = "Condition not applicable:\n{0}"
+status = "normal"
 enUS = "Condition not applicable:\n{0}"
 zhCN = "条件不适用：<br>{0}"
 zhTW = "條件不適用：\n{0}"
@@ -2574,6 +2788,7 @@ koKR = "조건이 적용되지 않음:  \n{0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ExpectedActionError"]
 raw = "Expected action expression"
+status = "normal"
 enUS = "Expected action expression"
 zhCN = "需要操作表达式"
 zhTW = "預期的行動表達式"
@@ -2587,6 +2802,7 @@ koKR = "예상된 작업 표현"
 
 ["IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError"]
 raw = "Expected condition expression"
+status = "normal"
 enUS = "Expected condition expression"
 zhCN = "需要条件表达式"
 zhTW = "預期條件表達式"
@@ -2600,6 +2816,7 @@ koKR = "예상 조건 표현"
 
 ["IgorZ.Automation.Scripting.ImportRules.ImportError"]
 raw = "Error at line {0}: {1}"
+status = "normal"
 enUS = "Error at line {0}: {1}"
 zhCN = "第{0}行错误：{1}"
 zhTW = "第 {0} 行錯誤：{1}"
@@ -2613,6 +2830,7 @@ koKR = "라인 {0}에서 오류: {1}"
 
 ["IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError"]
 raw = "Incomplete rule declaration"
+status = "normal"
 enUS = "Incomplete rule declaration"
 zhCN = "规则声明不完整"
 zhTW = "不完整的規則聲明"
@@ -2626,6 +2844,7 @@ koKR = "불완전한 규칙 선언"
 
 ["IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment"]
 raw = "Unclosed multi-line comment"
+status = "normal"
 enUS = "Unclosed multi-line comment"
 zhCN = "未关闭的多行注释"
 zhTW = "未關閉的多行註解"
@@ -2639,6 +2858,7 @@ koKR = "닫히지 않은 여러 줄 주석"
 
 ["IgorZ.Automation.Settings.Debug.PathCheckingProfiling"]
 raw = "Log path checking engine statistics"
+status = "normal"
 enUS = "Log path checking engine statistics"
 zhCN = "记录路径检查引擎统计信息"
 zhTW = "記錄路徑檢查引擎統計資訊"
@@ -2652,6 +2872,7 @@ koKR = "경로 검사 엔진 통계 기록"
 
 ["IgorZ.Automation.Settings.Debug.LogSignalSetting"]
 raw = "Log setting signal values"
+status = "normal"
 enUS = "Log setting signal values"
 zhCN = "记录设置信号值"
 zhTW = "記錄設定信號值"
@@ -2665,6 +2886,7 @@ koKR = "신호 값 로그 설정"
 
 ["IgorZ.Automation.Settings.Debug.LogSignalPropagating"]
 raw = "Log signal propagation"
+status = "normal"
 enUS = "Log signal propagation"
 zhCN = "记录信号传播"
 zhTW = "記錄信號傳播"
@@ -2678,6 +2900,7 @@ koKR = "신호 전파 기록"
 
 ["IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad"]
 raw = "Re-evaluate rules on load"
+status = "normal"
 enUS = "Re-evaluate rules on load"
 zhCN = "加载时重新评估规则"
 zhTW = "在載入時重新評估規則"
@@ -2691,6 +2914,7 @@ koKR = "로드 시 규칙 재평가"
 
 ["IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad"]
 raw = "Reset custom signals on load"
+status = "normal"
 enUS = "Reset custom signals on load"
 zhCN = "加载时重置自定义信号"
 zhTW = "在加載時重置自定義信號"
@@ -2704,6 +2928,7 @@ koKR = "로드 시 사용자 정의 신호 초기화"
 
 ["IgorZ.Automation.Settings.EntityPanel.Header"]
 raw = "Controls on the building panel"
+status = "normal"
 enUS = "Controls on the building panel"
 zhCN = "建筑详情面板控件"
 zhTW = "建築面板上的控制項"
@@ -2717,6 +2942,7 @@ koKR = "건물 패널의 컨트롤"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle"]
 raw = "Style of the rule description"
+status = "normal"
 enUS = "Style of the rule description"
 zhCN = "规则描述格式"
 zhTW = "規則描述的樣式"
@@ -2730,6 +2956,7 @@ koKR = "규칙 설명의 스타일"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable"]
 raw = "Text"
+status = "normal"
 enUS = "Text"
 zhCN = "文本"
 zhTW = "文字"
@@ -2743,6 +2970,7 @@ koKR = "텍스트"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script"]
 raw = "Script"
+status = "normal"
 enUS = "Script"
 zhCN = "脚本"
 zhTW = "腳本"
@@ -2756,6 +2984,7 @@ koKR = "스크립트"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort"]
 raw = "Pseudo-script"
+status = "normal"
 enUS = "Pseudo-script"
 zhCN = "伪脚本"
 zhTW = "偽腳本"
@@ -2769,6 +2998,7 @@ koKR = "의사 스크립트"
 
 ["IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions"]
 raw = "Evaluate the right value in conditions"
+status = "normal"
 enUS = "Evaluate the right value in conditions"
 zhCN = "评估条件中的右侧值"
 zhTW = "在條件中評估正確的值"
@@ -2782,6 +3012,7 @@ koKR = "조건에서 올바른 값을 평가하세요"
 
 ["IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments"]
 raw = "Evaluate values in the action arguments"
+status = "normal"
 enUS = "Evaluate values in the action arguments"
 zhCN = "评估动作参数中的值"
 zhTW = "在動作參數中評估值"
@@ -2795,6 +3026,7 @@ koKR = "행동 인수에서 값을 평가합니다"
 
 ["IgorZ.Automation.Settings.EntityPanel.MaxRulesShown"]
 raw = "Number of rules to show in panel"
+status = "normal"
 enUS = "Number of rules to show in panel"
 zhCN = "面板中显示的规则数量"
 zhTW = "面板中顯示的規則數量"
@@ -2808,6 +3040,7 @@ koKR = "패널에 표시할 규칙 수"
 
 ["IgorZ.Automation.Settings.ScriptEditor.Header"]
 raw = "Script editor"
+status = "normal"
 enUS = "Script editor"
 zhCN = "脚本编辑器"
 zhTW = "腳本編輯器"
@@ -2821,6 +3054,7 @@ koKR = "스크립트 편집기"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntax"]
 raw = "Default expressions syntax"
+status = "normal"
 enUS = "Default expressions syntax"
 zhCN = "默认表达式语法"
 zhTW = "預設表達式語法"
@@ -2834,6 +3068,7 @@ koKR = "기본 표현 구문"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxLisp"]
 raw = "Lisp-style"
+status = "normal"
 enUS = "Lisp-style"
 zhCN = "Lisp格式"
 zhTW = "「Lisp風格」"
@@ -2847,6 +3082,7 @@ koKR = "Lisp 스타일"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxPython"]
 raw = "Python-style"
+status = "normal"
 enUS = "Python-style"
 zhCN = "Python格式"
 zhTW = "Python樣式"
@@ -2860,6 +3096,7 @@ koKR = "파이썬 스타일"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxTooltip"]
 raw = "Syntax can be overridden in the expression body by adding prefix '#PY' for Python or '#LP' for Lisp."
+status = "normal"
 enUS = "Syntax can be overridden in the expression body by adding prefix '#PY' for Python or '#LP' for Lisp."
 zhCN = "可通过在表达式主体中添加前缀'#PY'（Python）或'#LP'（Lisp）来覆盖语法设置。"
 zhTW = "語法可以在表達式主體中通過添加前綴 '#PY' 來覆蓋 Python，或添加前綴 '#LP' 來覆蓋 Lisp。"
@@ -2873,6 +3110,7 @@ koKR = "구문은 표현식 본문에서 '#PY'를 추가하여 Python으로, 또
 
 ["IgorZ.Automation.Settings.ScriptEngine.Header"]
 raw = "Script engine settings"
+status = "normal"
 enUS = "Script engine settings"
 zhCN = "脚本引擎设置"
 zhTW = "腳本引擎設定"
@@ -2886,6 +3124,7 @@ koKR = "스크립트 엔진 설정"
 
 ["IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues"]
 raw = "Check argument value in runtime"
+status = "normal"
 enUS = "Check argument value in runtime"
 zhCN = "运行时检查参数值"
 zhTW = "在運行時檢查參數值"
@@ -2899,6 +3138,7 @@ koKR = "실행 중 인수 값 확인"
 
 ["IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments"]
 raw = "Check arguments with fixed set of values"
+status = "normal"
 enUS = "Check arguments with fixed set of values"
 zhCN = "检查具有固定值集合的参数"
 zhTW = "檢查具有固定值集合的參數"
@@ -2912,6 +3152,7 @@ koKR = "고정된 값 집합으로 인수 확인"
 
 ["IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize"]
 raw = "Signal execution stack size"
+status = "normal"
 enUS = "Signal execution stack size"
 zhCN = "信号执行堆栈大小"
 zhTW = "信號執行堆棧大小"
@@ -2925,6 +3166,7 @@ koKR = "신호 실행 스택 크기"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
+status = "normal"
 enUS = "Verbose logging"
 zhCN = "详细日志记录"
 zhTW = "詳細日誌記錄"
@@ -2938,6 +3180,7 @@ koKR = "자세한 로깅"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
+status = "normal"
 enUS = "Logs will have more useful details, but it may impact game performance."
 zhCN = "日志将包含更多有用细节，但可能会影响游戏性能。"
 zhTW = "日誌將包含更多有用的細節，但可能會影響遊戲性能。"
@@ -2951,6 +3194,7 @@ koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능�
 
 ["TimberDev_Utils.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
+status = "normal"
 enUS = "Debug and troubleshooting"
 zhCN = "调试和故障排除"
 zhTW = "除錯與故障排除"
@@ -2964,6 +3208,7 @@ koKR = "디버그 및 문제 해결"
 
 ["TimberDev_Utils.Tools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
+status = "normal"
 enUS = "Hold <i>SHIFT</i> to select items of one type only."
 zhCN = "按住Shift可以只选取特定建筑。"
 zhTW = "按住 <i>SHIFT</i> 鍵以僅選擇同一類型的項目。"
@@ -2977,6 +3222,7 @@ koKR = "<i>SHIFT</i>키를 눌러 한 종류의 아이템만 선택하세요."
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
+status = "normal"
 enUS = "Selecting: {0} (x{1})"
 zhCN = "已选取 : {0} (x{1})"
 zhTW = "選擇中：{0} (x{1})"
@@ -2990,6 +3236,7 @@ koKR = "선택 중: {0} (x{1})"
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
+status = "normal"
 enUS = "Selecting: {0}"
 zhCN = "已选取 : {0}"
 zhTW = "選擇：{0}"
@@ -3003,6 +3250,7 @@ koKR = "선택 중: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
+status = "normal"
 enUS = "Click to start selecting: {0}"
 zhCN = "单击并拖动以选取 : {0}"
 zhTW = "點擊開始選擇：{0}"
@@ -3016,6 +3264,7 @@ koKR = "선택하기 시작하려면 클릭: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
+status = "normal"
 enUS = "Point to an entity and click to start selecting."
 zhCN = "指向一个建筑并单击以选取其同类建筑"
 zhTW = "指向一個實體並單擊開始選擇"
@@ -3029,6 +3278,7 @@ koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
 
 ["TimberDev_UI.AbstractDialog.UnsavedChangesConfirmation"]
 raw = "There are unsaved changes. Do you want to discard them?"
+status = "normal"
 enUS = "There are unsaved changes. Do you want to discard them?"
 zhCN = "存在未保存的更改，确定要放弃吗？"
 zhTW = "有未保存的變更。您想要放棄它們嗎？"
@@ -3039,3 +3289,17 @@ deDE = "Es gibt nicht gespeicherte Änderungen. Möchten Sie diese verwerfen?"
 plPL = "Masz niezapisane zmiany. Czy chcesz je odrzucić?"
 ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
 koKR = "저장되지 않은 변경 사항이 있습니다. 이를 버리시겠습니까?"
+
+["IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation"]
+raw = "There are unsaved changes. Do you want to discard them?"
+status = "abandoned"
+enUS = "There are unsaved changes. Do you want to discard them?"
+zhCN = "存在未保存的更改，确定要放弃吗？"
+zhTW = "有未儲存的變更。你想要放棄它們嗎？"
+ruRU = "Есть несохраненные изменения. Вы хотите отменить их?"
+jaJP = "保存されていない変更があります。破棄しますか？"
+frFR = "Il y a des modifications non sauvegardées. Voulez-vous les annuler ?"
+deDE = "Es gibt ungespeicherte Änderungen. Möchten Sie diese verwerfen?"
+plPL = "Istnieją niezapisane zmiany. Czy chcesz je odrzucić?"
+ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
+koKR = "변경 사항이 저장되지 않았습니다. 이를 버리시겠습니까?"

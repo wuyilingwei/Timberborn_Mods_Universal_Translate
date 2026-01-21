@@ -1,5 +1,8 @@
+name = "Bee Sting Configuration"
+
 ["beestingconfiguration.settings.mode"]
 raw = "Bee Sting Mode"
+status = "normal"
 enUS = "Bee Sting Mode"
 zhCN = "蜜蜂蜇伤模式"
 zhTW = "蜜蜂刺擊模式"
@@ -13,6 +16,7 @@ koKR = "벌 침 모드"
 
 ["beestingconfiguration.settings.mode.tooltip"]
 raw = "Determines the behavior of bee stings."
+status = "normal"
 enUS = "Determines the behavior of bee stings."
 zhCN = "可以更改蜜蜂蜇伤状态及其效果。"
 zhTW = "決定蜜蜂蜇傷的行為。"
@@ -26,6 +30,7 @@ koKR = "벌침의 동작을 결정합니다."
 
 ["beestingconfiguration.settings.mode.off"]
 raw = "Off (No bee stings)"
+status = "normal"
 enUS = "Off (No bee stings)"
 zhCN = "无蜇伤"
 zhTW = "關閉（沒有蜜蜂叮咬）"
@@ -39,6 +44,7 @@ koKR = "꺼짐 (벌 쏘임 없음)"
 
 ["beestingconfiguration.settings.mode.vanilla"]
 raw = "Vanilla (default)"
+status = "normal"
 enUS = "Vanilla (default)"
 zhCN = "游戏默认"
 zhTW = "香草 (預設)"
@@ -52,6 +58,7 @@ koKR = "바닐라 (기본값)"
 
 ["beestingconfiguration.settings.mode.morestings"]
 raw = "Beavers <3 bee stings. (Bees sting more often)"
+status = "normal"
 enUS = "Beavers <3 bee stings. (Bees sting more often)"
 zhCN = "频繁蜇伤：更容易被蛰"
 zhTW = "海狸 <3 蜜蜂螫傷。（蜜蜂更常螫人）"
@@ -65,6 +72,7 @@ koKR = "비버는 <3 벌 스팅을 좋아합니다. (벌이 더 자주 쏘습니
 
 ["beestingconfiguration.settings.mode.stackingstings"]
 raw = "Stacking Speedy Stings"
+status = "normal"
 enUS = "Stacking Speedy Stings"
 zhCN = "急速蜇伤：被蛰后移动速度+10%"
 zhTW = "堆疊快速刺擊"
@@ -78,6 +86,7 @@ koKR = "빠른 쏘임 중첩"
 
 ["beestingconfiguration.settings.mode.beneficialstings"]
 raw = "Beneficial stings (+1 instead of -1 modifier)"
+status = "normal"
 enUS = "Beneficial stings (+1 instead of -1 modifier)"
 zhCN = "幸福蜇伤：被蛰后康乐度+1"
 zhTW = "有益的刺痛（+1而不是-1調整）"
@@ -91,6 +100,7 @@ koKR = "유익한 쏘임 (+1 대신 -1 수정치)"
 
 ["beestingconfiguration.settings.stackcount"]
 raw = "Maximum Stacks"
+status = "normal"
 enUS = "Maximum Stacks"
 zhCN = "最大蜇伤层数"
 zhTW = "最大堆疊數"
@@ -104,6 +114,7 @@ koKR = "최대 스택"
 
 ["beestingconfiguration.settings.stackcount.tooltip"]
 raw = "Maximum number of bee sting stacks (also grants 10% speed per stack)."
+status = "normal"
 enUS = "Maximum number of bee sting stacks (also grants 10% speed per stack)."
 zhCN = "选择“急速蜇伤”时，允许蜜蜂蜇伤状态叠加的最大层数。"
 zhTW = "蜜蜂刺的最大堆疊數（每堆疊還會增益10%速度）。"

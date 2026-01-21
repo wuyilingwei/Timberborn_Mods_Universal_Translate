@@ -1,5 +1,8 @@
+name = "Moddable and Unlockable Recipe"
+
 ["LV.UR.InferiorTreating"]
 raw = "Inferior Treating"
+status = "normal"
 enUS = "Inferior Treating"
 zhCN = "树脂木板（低产）"
 zhTW = "劣質對待"
@@ -13,6 +16,7 @@ koKR = "열악한 처리"
 
 ["LV.UR.InferiorTreatingLock"]
 raw = "Unlock Tapper Shack to unlock {0} recipe."
+status = "normal"
 enUS = "Unlock Tapper Shack to unlock the {0} recipe."
 zhCN = "需要解锁树液工小屋才能解锁{0}配方。"
 zhTW = "解鎖 Tapper Shack 以解鎖 {0} 食譜。"

@@ -1,5 +1,8 @@
+name = "Gate"
+
 ["LV.Gate.Gate"]
 raw = "Gate"
+status = "normal"
 enUS = "Gate"
 zhCN = "升降门"
 zhTW = "閘門"
@@ -13,6 +16,7 @@ koKR = "문"
 
 ["LV.Gate.GateDesc"]
 raw = "A road that can be closed."
+status = "normal"
 enUS = "A road that can be closed."
 zhCN = "可以关闭的道路设施。"
 zhTW = "一條可以封閉的道路。"
@@ -26,6 +30,8 @@ koKR = "닫을 수 있는 도로입니다."
 
 ["LV.Gate.GateFlavor"]
 raw = "They called me mad when I blocked the road with a floodgate. Now they call me 'Sir.'\" — Beavrick"
+new = "\"They called me mad when I blocked the road with a floodgate. Now they call me 'Sir.'\" — Beavrick"
+status = "normal"
 enUS = "They called me mad when I blocked the road with a floodgate. Now they call me 'Sir.'\" — Beavrick"
 zhCN = "当年他们叫我疯子，现在他们都尊称我为先生！"
 zhTW = "「當我用閘門封鎖道路時，他們叫我瘋子。現在他們叫我「先生」。 — 比弗里克」"
@@ -39,6 +45,7 @@ koKR = "\"내가 홍수문으로 도로를 막았을 때 그들은 나를 미쳤
 
 ["LV.Gate.Closed"]
 raw = "Closed"
+status = "normal"
 enUS = "Closed"
 zhCN = "已关闭"
 zhTW = "關閉"
@@ -52,6 +59,7 @@ koKR = "닫힘"
 
 ["LV.Gate.AutoCloseHaz"]
 raw = "Auto close on Hazardous weather"
+status = "normal"
 enUS = "Auto close on Hazardous weather"
 zhCN = "恶劣天气时自动关闭"
 zhTW = "自動關閉於危險天氣"
@@ -65,6 +73,7 @@ koKR = "위험한 날씨에서 자동으로 닫기"
 
 ["LV.Gate.AutoCloseBadtide"]
 raw = "Auto close on Badtide"
+status = "normal"
 enUS = "Auto close on Badtide"
 zhCN = "恶水潮时自动关闭"
 zhTW = "在惡潮時自動關閉"
@@ -75,3 +84,7 @@ deDE = "Automatisches Schließen bei Schlechtwetter"
 plPL = "Automatyczne zamykanie przy złej fali"
 ptBR = "Fechamento automático em Maré Ruim"
 koKR = "역조 시 자동 닫힘"
+
+[Name_GateEntityPanelFragment]
+new = "Gate"
+status = "normal"

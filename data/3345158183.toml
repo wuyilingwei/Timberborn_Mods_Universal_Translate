@@ -1,5 +1,8 @@
+name = "Half Roofs"
+
 ["Building.HalfRoof1x1.DisplayName"]
 raw = "Half Roof 1x1"
+status = "normal"
 enUS = "Half Roof 1x1"
 zhCN = "倾斜屋顶 1x1"
 zhTW = "半屋頂 1x1"
@@ -13,6 +16,7 @@ koKR = "1x1 반 지붕"
 
 ["Building.HalfRoof1x2.DisplayName"]
 raw = "Half Roof 1x2"
+status = "normal"
 enUS = "Half Roof 1x2"
 zhCN = "倾斜屋顶 1x2"
 zhTW = "半屋頂 1x2"
@@ -26,6 +30,7 @@ koKR = "반쪽 지붕 1x2"
 
 ["Building.HalfRoof2x1.DisplayName"]
 raw = "Half Roof 2x1"
+status = "normal"
 enUS = "Half Roof 2x1"
 zhCN = "倾斜屋顶 2x1"
 zhTW = "半屋頂 2x1"
@@ -39,6 +44,7 @@ koKR = "반지붕 2x1"
 
 ["Building.HalfRoof2x2.DisplayName"]
 raw = "Half Roof 2x2"
+status = "normal"
 enUS = "Half Roof 2x2"
 zhCN = "倾斜屋顶 2x2"
 zhTW = "半屋頂 2x2"
@@ -49,3 +55,7 @@ deDE = "Halbes Dach 2x2"
 plPL = "Połowa dachu 2x2"
 ptBR = "Meia Cobertura 2x2"
 koKR = "반지붕 2x2"
+
+["Building.HalfRoof.FlavorDescription"]
+new = "This roof doesn’t just compete-it sets the standard across your neighborhood."
+status = "normal"

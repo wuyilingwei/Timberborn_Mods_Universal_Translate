@@ -1,5 +1,8 @@
+name = "Edit Save Difficulty"
+
 ["LV.ESD.ChangeDifficulty"]
 raw = "Change difficulty"
+status = "normal"
 enUS = "Change difficulty"
 zhCN = "难度编辑器"
 zhTW = "變更難度"
@@ -13,6 +16,7 @@ koKR = "난이도 변경"
 
 ["LV.ESD.SaveWarning"]
 raw = "Be sure to save your game before performing this action."
+status = "normal"
 enUS = "Be sure to save your game before performing this action."
 zhCN = "执行此操作前请确保已保存游戏。"
 zhTW = "請確保在執行此操作之前儲存遊戲。"
@@ -26,6 +30,7 @@ koKR = "이 작업을 수행하기 전에 게임을 저장하는 것을 잊지 �
 
 ["LV.ESD.Changed"]
 raw = "Parameters set. Please make a save and reload the game with that save to apply the changes."
+status = "normal"
 enUS = "Parameters set. Please make a save and reload the game with that save to apply the changes."
 zhCN = "参数已设置，请保存游戏并重新加载此存档以应用更改。"
 zhTW = "參數已設定。請保存並重新載入遊戲以應用這些變更。"

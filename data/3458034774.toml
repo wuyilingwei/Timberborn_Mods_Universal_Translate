@@ -1,5 +1,8 @@
+name = "Brain-Power Scientific Projects"
+
 ["LV.BPSP.PowersGroup"]
 raw = "Power"
+status = "normal"
 enUS = "Power"
 zhCN = "能源升级"
 zhTW = "力量"
@@ -13,6 +16,7 @@ koKR = "전력"
 
 ["LV.BPSP.PowersGroupDesc"]
 raw = "Projects that improve your power generation"
+status = "normal"
 enUS = "Projects that enhance your power generation"
 zhCN = "提高供能建筑功率的能源科学项目。"
 zhTW = "改善您的發電的項目"
@@ -26,6 +30,7 @@ koKR = "전력 생성 능력을 향상시키는 프로젝트"
 
 ["LV.BPSP.WaterWheelUp1"]
 raw = "Gentle Mist Flow"
+status = "normal"
 enUS = "Gentle Mist Flow"
 zhCN = "柔和雾流器"
 zhTW = "柔和霧流"
@@ -39,6 +44,7 @@ koKR = "부드러운 안개 흐름"
 
 ["LV.BPSP.WaterWheelUpEff"]
 raw = "Water Wheel power output increases from {0:+#%} to {1:+#%} over the course of the day."
+status = "normal"
 enUS = "Water Wheel power output increases from {0:+#%} to {1:+#%} over the course of the day."
 zhCN = "水轮获得额外功率，每天从 {0:+#%} 至 {1:+#%}，次日重置。"
 zhTW = "水車的功率輸出在一天內從 {0:+#%} 增加到 {1:+#%}。"
@@ -52,6 +58,7 @@ koKR = "물 바퀴의 전력 출력이 하루 동안 {0:+#%}에서 {1:+#%}로 �
 
 ["LV.BPSP.WaterWheelUp1Lore"]
 raw = "A light mist lifts our wheels just enough to hum through the day."
+status = "normal"
 enUS = "A light mist lifts our wheels just enough to hum through the day."
 zhCN = "薄雾轻拂，让我们的水轮终日轻鸣。"
 zhTW = "一層輕霧輕輕撫過我們的輪胎，讓我們在一天中愉悅地駛過。"
@@ -65,6 +72,7 @@ koKR = "가벼운 안개가 우리의 수차를 살짝 들어올려 하루 종�
 
 ["LV.BPSP.WaterWheelUp2"]
 raw = "Steady Mist Surge"
+status = "normal"
 enUS = "Steady Mist Surge"
 zhCN = "平稳雾涌器"
 zhTW = "穩定霧浪"
@@ -78,6 +86,7 @@ koKR = "안정적인 안개 급류"
 
 ["LV.BPSP.WaterWheelUp2Lore"]
 raw = "'Look at that mist kick in—wheels practically sing by dusk!' — Misttail Spinner"
+status = "normal"
 enUS = "\"Look at that mist kick in—wheels practically sing by dusk!\" — Misttail Spinner"
 zhCN = "徐雾长行，让我们的水轮纵情歌唱。"
 zhTW = "「看那薄霧出現—輪子在黃昏時幾乎在歌唱！」 — Misttail Spinner"
@@ -91,6 +100,7 @@ koKR = "'안개가 드리워지는 걸 봐—바퀴들이 거의 저녁에 노�
 
 ["LV.BPSP.WaterWheelUp3"]
 raw = "Concentrated Mist Dynamo"
+status = "normal"
 enUS = "Concentrated Mist Dynamo"
 zhCN = "凝集雾泉器"
 zhTW = "濃縮霧發電機"
@@ -104,6 +114,7 @@ koKR = "집중된 안개 다이나모"
 
 ["LV.BPSP.WaterWheelUp3Eff"]
 raw = "Water Wheel power is permanently increased by {0:+#%} all day."
+status = "normal"
 enUS = "Water Wheel power is permanently increased by {0:+#%} all day."
 zhCN = "水轮获得额外功率 {0:+#%}。"
 zhTW = "水車的電力全天永久增加 {0:+#%}。"
@@ -117,6 +128,7 @@ koKR = "물 바퀴의 힘은 하루 종일 {0:+#%}만큼 영구적으로 증가�
 
 ["LV.BPSP.WaterWheelUp3Lore"]
 raw = "We've distilled the mist into a constant force, driving wheels at peak power always."
+status = "normal"
 enUS = "We've distilled the mist into a constant force, driving the wheels at peak power always."
 zhCN = "浓雾涌动，让我们的水轮转动不息。"
 zhTW = "我們已經將霧氣提煉成一種恆定的力量，始終驅動車輪達到最高功率。"
@@ -130,6 +142,8 @@ koKR = "우리는 안개를 고정된 힘으로 정제하여 항상 최대 출�
 
 ["LV.BPSP.WaterWheelUpBuffDesc"]
 raw = "{0:+#%} power output./nMist technology gives a boost to our Water Wheels."
+new = "{0:+#%} power output.\nMist technology gives a boost to our Water Wheels."
+status = "normal"
 enUS = "{0:+#%} power output./nMist technology gives a boost to our water wheels."
 zhCN = "|  输出功率: {0:+#%}<br>先进的雾化技术使聚居地的水轮更加高效。"
 zhTW = "{0:+#%} 的功率輸出。/n霧技術為我們的水車提供增益。"
@@ -143,6 +157,7 @@ koKR = "{0:+#%} 전력 출력./n안개 기술이 우리의 수차에 힘을 더�
 
 ["LV.BPSP.WaterWheelFlowUp1"]
 raw = "Thermal Flow Stabilizer"
+status = "normal"
 enUS = "Thermal Flow Stabilizer"
 zhCN = "地热环流仪"
 zhTW = "熱流穩定器"
@@ -156,6 +171,7 @@ koKR = "열 흐름 안정기"
 
 ["LV.BPSP.WaterWheelFlowUp1Eff"]
 raw = "Water Wheel power never drops below {0:+#%} as long as there is water, even with no current. It does nothing if your current power is already higher."
+status = "normal"
 enUS = "Water Wheel power never drops below {0:+#%} as long as there is water, even with no current. It does nothing if your current power is already higher."
 zhCN = "浸于水中时，水轮不会低于最低功率 {0:+#%}。"
 zhTW = "水車的功率在有水的情況下始終不會低於 {0:+#%}，即使沒有水流。如果你當前的功率已經更高，則不會有任何作用。"
@@ -169,6 +185,7 @@ koKR = "수조가 있는 한, 물레방아의 힘은 {0:+#%} 이하로 떨어지
 
 ["LV.BPSP.WaterWheelFlowUp1Lore"]
 raw = "Hot springs bubble beneath, nudging wheels to defy the river’s lazy moods."
+status = "normal"
 enUS = "Hot springs bubble beneath, nudging wheels to defy the river’s lazy moods."
 zhCN = "利用地下温泉余热，形成稳定局部环流，保证水轮最低功率。"
 zhTW = "溫泉在下方冒泡，推動車輪挑戰河流懶惰的情緒。"
@@ -182,6 +199,7 @@ koKR = "온천이 아래에서 부글부글 끓어올라 수차가 강의 게으
 
 ["LV.BPSP.WaterWheelFlowUp2"]
 raw = "Steam-Charged Boost"
+status = "normal"
 enUS = "Steam-Charged Boost"
 zhCN = "蒸汽恒流仪"
 zhTW = "蒸汽充能加速"
@@ -195,6 +213,7 @@ koKR = "증기 충전 부스트"
 
 ["LV.BPSP.WaterWheelFlowUp2Eff"]
 raw = "Thermal Flow Stabilizer gives an additional {0:+#%} minimum per Level."
+status = "normal"
 enUS = "Thermal Flow Stabilizer provides an additional {0:+#%} minimum per level."
 zhCN = "每级额外提高<i>地热环流仪</i>提供的最低功率 {0:+#%}。"
 zhTW = "熱流穩定器在每一級提供額外的 {0:+#%} 最低值。"
@@ -208,6 +227,7 @@ koKR = "열 유동 안정 장치는 레벨당 추가 {0:+#%} 최소치를 제공
 
 ["LV.BPSP.WaterWheelFlowUp2Cost"]
 raw = "[Cost] per Level per Water Wheel"
+status = "normal"
 enUS = "[Cost] per Level per Water Wheel"
 zhCN = "每级花费 [Cost] 点，每个水轮单独计算。"
 zhTW = "每個水輪每級的[成本]"
@@ -221,6 +241,7 @@ koKR = "[수위당 수차당 비용]"
 
 ["LV.BPSP.WaterWheelFlowUp2Lore"]
 raw = "'More heat, more steam—wheels won't dip below a solid push!' — Boilertail Steamwright"
+status = "normal"
 enUS = "\"More heat, more steam—wheels won't dip below a solid push!\" — Boilertail Steamwright"
 zhCN = "雾化技术的另一种应用，厚密的蒸汽有效减缓了热量散失。"
 zhTW = "「更多熱量，更多蒸汽——車輪不會在穩固的推動下下沉！」 — 鍋尾蒸汽工"
@@ -234,6 +255,8 @@ koKR = "'더 많은 열, 더 많은 증기—바퀴는 확고한 추진력 아�
 
 ["LV.BPSP.WaterWheelFlowUpBuffDesc"]
 raw = "{0:+#%} minimum power output when there is water.{0:+#%} minimum power output when there is water./nThermal technologies help our Water Wheels produce power even when there is no current."
+new = "{0:+#%} minimum power output when there is water.\nThermal technologies help our Water Wheels produce power even when there is no current."
+status = "normal"
 enUS = "{0:+#%} minimum power output when there is water./nThermal technologies help our Water Wheels generate power even when there is no current."
 zhCN = "|  最低功率: {0:+#%}（浸于水中）<br>先进的热泉技术使聚居地的水轮更加稳定。"
 zhTW = "{0:+#%} 當有水時的最小功率輸出。{0:+#%} 當有水時的最小功率輸出。/n熱能技術幫助我們的水輪在沒有水流的情況下仍然產生能量。"
@@ -247,6 +270,7 @@ koKR = "{0:+#%} 물이 있을 때 최소 전력 출력입니다.{0:+#%} 물이 �
 
 ["LV.BPSP.PowerOutputMulEff"]
 raw = "{0:+#%} power output"
+status = "normal"
 enUS = "{0:+#%} power output"
 zhCN = "|  输出功率: {0:+#%}"
 zhTW = "{0:+#%} 功率輸出"
@@ -260,6 +284,7 @@ koKR = "{0:+#%} 전력 출력"
 
 ["LV.BPSP.PowerOutputMulDayEff"]
 raw = "{0:+#%} power output (from {1:+#%} to {2:+#%})"
+status = "normal"
 enUS = "{0:+#%} power output (from {1:+#%} to {2:+#%})"
 zhCN = "|  输出功率: {0:+#%}（从 {1:+#%} 至 {2:+#%}）"
 zhTW = "{0:+#%} 功率輸出（從 {1:+#%} 到 {2:+#%}）"
@@ -273,6 +298,7 @@ koKR = "{0:+#%} 전력 출력 (from {1:+#%} to {2:+#%})"
 
 ["LV.BPSP.PowerOutputFlatEff"]
 raw = "{0:+#}HP power output from {1}"
+status = "normal"
 enUS = "{0:+#}HP power output from {1}"
 zhCN = "|  输出能量: {0:+#} 马力 来自 {1}"
 zhTW = "{0:+#}HP 輸出功率來自 {1}"
@@ -286,6 +312,7 @@ koKR = "{0:+#}HP 전력 출력에서 {1}"
 
 ["LV.BPSP.GeneratorStrMinEff"]
 raw = "{0:+#%} Minimum power output when there is water from {1}"
+status = "normal"
 enUS = "{0:+#%} Minimum power output when there is water from {1}"
 zhCN = "|  最低功率: {0:+#%} 来自 {1}（浸于水中）"
 zhTW = "當從 {1} 有水時的最低功率輸出 {0:+#%}"
@@ -299,6 +326,7 @@ koKR = "{0:+#%} 물이 있을 때 {1}의 최소 전력 출력"
 
 ["LV.BPSP.WheelWorkerUp"]
 raw = "Gearshift Labor Sync"
+status = "normal"
 enUS = "Gearshift Labor Sync"
 zhCN = "能量轮同步"
 zhTW = "換擋勞動同步"
@@ -312,6 +340,7 @@ koKR = "기어 시프트 노동 동기화"
 
 ["LV.BPSP.WheelWorkerUpEff"]
 raw = "Reduces Large Power Wheel Worker need by {0}, maintains full power output."
+status = "normal"
 enUS = "Reduces the need for large power wheel workers by {0}, while maintaining full power output."
 zhCN = "大型能量轮所需劳工减少 {0} 名，最大功率不变。"
 zhTW = "降低大型動力輪操作員需求 {0}，保持全功率輸出。"
@@ -325,6 +354,7 @@ koKR = "대형 전력 바퀴 작업자 필요량을 {0}만큼 줄이며, 전체 
 
 ["LV.BPSP.WheelWorkerUpLore"]
 raw = "'Gears dance alone now—fewer tails, same thunderous spin!' — Clanktail Overseer"
+status = "normal"
 enUS = "'Gears dance alone now—fewer tails, same thunderous spin!' — Clanktail Overseer"
 zhCN = "铁牙们难以判断这是技术还是锻炼的功劳。"
 zhTW = "「齒輪現在獨自舞動——尾巴減少，雷霆般的旋轉仍在！」—— 克蘭克尾監督"
@@ -338,6 +368,7 @@ koKR = "'기어들이 이제 혼자 춤을 춰요—꼬리가 줄어들었지만
 
 ["LV.BPSP.WheelBotUp"]
 raw = "Bot-Integrated Axles"
+status = "normal"
 enUS = "Bot-Integrated Axles"
 zhCN = "机关人集成"
 zhTW = "機器人整合的軸承"
@@ -351,6 +382,7 @@ koKR = "봇 통합 축"
 
 ["LV.BPSP.WheelBotUpEff"]
 raw = "Allows Bots to operate Power Wheels instead of only Beavers."
+status = "normal"
 enUS = "Allows bots to operate Power Wheels instead of just beavers."
 zhCN = "允许机关人在能量轮上工作。"
 zhTW = "允許機器人操作電動小車，而不僅僅是海狸。"
@@ -364,6 +396,7 @@ koKR = "로봇이 비버가 아닌 파워 휠을 작동할 수 있도록 허용�
 
 ["LV.BPSP.WheelBotUpLore"]
 raw = "'Bots spin better than tails ever could—efficiency’s our game!' — Boltwhirr Botmaster"
+status = "normal"
 enUS = "\"Bots spin better than tails ever could—efficiency’s our game!\" — Boltwhirr Botmaster"
 zhCN = "不要再想什么海狸物理学了，你看它们跑得多开心！"
 zhTW = "「機器人轉動的效率比任何尾巴都要好——效率才是我們的遊戲！」 — Boltwhirr Botmaster"
@@ -377,6 +410,7 @@ koKR = "'봇들은 꼬리보다 더 잘 돌지—효율성이 우리의 게임�
 
 ["LV.BPSP.WindmillHeightUp"]
 raw = "High-Altitude Gust Harness"
+status = "normal"
 enUS = "High-Altitude Gust Harness"
 zhCN = "高空型连杆"
 zhTW = "高海拔氣流鞍座"
@@ -390,6 +424,8 @@ koKR = "고고도 돌풍 harness"
 
 ["LV.BPSP.WindmillHeightUpEff"]
 raw = "Windmills (Regular and Large) get {0:+#%} more power for each height level at their tallest point."
+new = "Wind turbines (Regular and Large) get {0:+#%} more power for each height level at their tallest point."
+status = "normal"
 enUS = "Windmills (Regular and Large) gain {0:+#%} more power for each height level at their tallest point."
 zhCN = "风车获得额外功率，与顶部所处高度相关，每级高度 {0:+#%}。"
 zhTW = "風車（普通和大型）在其最高點每提高一個高度層級可獲得 {0:+#%} 的額外功率。"
@@ -403,6 +439,7 @@ koKR = "풍차(일반 및 대형)는 가장 높은 지점에서 각 높이 레�
 
 ["LV.BPSP.WindmillHeightUpLore"]
 raw = "'Skyward we perch, sipping gusts the treetops envy!' — Leafwhirl, Keeper of Breezes"
+status = "normal"
 enUS = "\"Skyward we perch, sipping gusts the treetops envy!\" — Leafwhirl, Keeper of Breezes"
 zhCN = "恐高的海狸可以申请换班，总有喜欢俯瞰风景的。"
 zhTW = "「我們棲息在空中，品嚐著讓樹梢都嫉妒的風！」— 氣流守護者 葉旋"
@@ -416,6 +453,7 @@ koKR = "'하늘을 향해 우리는 앉아, 나뭇가지들이 부러워할 바�
 
 ["LV.BPSP.WindmillHeightBuffEff"]
 raw = "{0:+#%} power per height level"
+status = "normal"
 enUS = "{0:+#%} power per height level"
 zhCN = "|  输出功率: {0:+#%} 每级高度"
 zhTW = "{0:+#%} 每個高度層級的功率"
@@ -429,6 +467,7 @@ koKR = "{0:+#%} 높이 수준당 전력"
 
 ["LV.BPSP.WindmillSizeUp"]
 raw = "Compact Wind Sails"
+status = "normal"
 enUS = "Compact Wind Sails"
 zhCN = "紧凑型扇叶"
 zhTW = "緊湊風帆"
@@ -442,6 +481,8 @@ koKR = "콤팩트 풍차돛"
 
 ["LV.BPSP.WindmillSizeUpEff"]
 raw = "Windmills now only occupy 1x1 instead of a 3x3 area."
+new = "Wind turbines now only occupy 1x1 instead of a 3x3 area."
+status = "normal"
 enUS = "Windmills now only occupy a 1x1 area instead of a 3x3 area."
 zhCN = "风车扇叶占地面积从 3x3 缩小至 1x1，外观不变。"
 zhTW = "風車現在只佔據1x1的區域，而不是3x3的區域。"
@@ -455,6 +496,7 @@ koKR = "풍차는 이제 3x3 구역 대신 1x1만 차지합니다."
 
 ["LV.BPSP.WindmillSizeUpLore"]
 raw = "Folktails wove tighter sails from willow threads—less ground claimed, more whispers of wind."
+status = "normal"
 enUS = "Folktails wove tighter sails from willow threads—less land claimed, more whispers of wind."
 zhCN = "神尾们改进了排列方式，制造出更高效的扇叶。"
 zhTW = "民間傳說用柳條編織出更緊的帆—佔據的土地更少，耳邊風的低語更多。"
@@ -468,6 +510,7 @@ koKR = "민속 이야기들은 버드나무 실로 더 작은 세일을 꽉 조�
 
 ["LV.BPSP.SparePowerScience"]
 raw = "Power Flux Thinkatron"
+status = "normal"
 enUS = "Power Flux Thinkatron"
 zhCN = "能源启迪"
 zhTW = "能量流動思考器"
@@ -481,6 +524,7 @@ koKR = "전력 흐름 싱크라톤"
 
 ["LV.BPSP.SparePowerScienceEff"]
 raw = "Any unused power throughout your colony is converted into science. Conversion rate: {0}HP-hour to 1 Science, rounded down. Batteries are not affected and do not affect any calculation of this project."
+status = "normal"
 enUS = "Any unused power throughout your colony is converted into science. Conversion rate: {0}HP-hour to 1 Science, rounded down. Batteries are not affected and do not influence any calculations for this project."
 zhCN = "供能建筑的多余功率会转化为科学点数，{0} 马力时 = 1 科学点数（向下取整）。"
 zhTW = "任何在你的殖民地中未使用的能量都會轉換為科學。轉換率：{0}HP-小時轉換為1科學，向下取整。電池不受影響，也不影響此項目的任何計算。"
@@ -494,6 +538,7 @@ koKR = "여러분의 식민지에서 사용되지 않는 모든 전력은 과학
 
 ["LV.BPSP.SparePowerScienceLore"]
 raw = "'Extra watts buzzing around? Now they zap straight into our cleverest ideas!' — Sparkchew Thinkatron"
+status = "normal"
 enUS = "\"Extra watts buzzing around? Now they zap straight into our cleverest ideas!\" — Sparkchew Thinkatron"
 zhCN = "从能源升级到技术开放，从物质开源到思想开源。"
 zhTW = "「額外的瓦數在周圍嗡嗡作響？現在它們直接進入我們最聰明的想法！」— Sparkchew Thinkatron"
@@ -507,6 +552,7 @@ koKR = "'추가 전력이 돌아다니고 있나요? 이제 그들은 우리의 
 
 ["LV.BPSP.SparePowerDesc"]
 raw = "{0} science pending from unused power. {1:0.00}h remaining."
+status = "normal"
 enUS = "{0} science pending from unused power. {1:0.00}h remaining."
 zhCN = "|  科学点数: {0}（多余功率）⏱️ 剩余 {1:0.00} 小时"
 zhTW = "{0} 科學待用於未使用的電力。還剩 {1:0.00} 小時。"
@@ -520,6 +566,7 @@ koKR = "{0} 과학이 사용되지 않은 전력에서 대기 중입니다. {1:0
 
 ["LV.BPSP.WindmillHeightUpDesc"]
 raw = "{0:+#%} power from {1} height."
+status = "normal"
 enUS = "{0:+#%} power from {1} height."
 zhCN = "|  输出功率: {0:+#%} 来自 {1} 高度"
 zhTW = "{0:+#%} 來自 {1} 高度的能量。"

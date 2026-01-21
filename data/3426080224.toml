@@ -1,5 +1,8 @@
+name = "Configurable Tubeway & Zipline"
+
 ["LV.CTZ.TubewaySpeed"]
 raw = "Tubeway bonus speed"
+status = "normal"
 enUS = "Tubeway bonus speed"
 zhCN = "管路速度加成"
 zhTW = "Tubeway 獎金速度"
@@ -13,6 +16,7 @@ koKR = "튜브웨이 보너스 속도"
 
 ["LV.CTZ.TubewaySpeedDesc"]
 raw = "The bonus speed of the tubeway (Game default: 300%)"
+status = "normal"
 enUS = "The bonus speed of the tubeway (Game default: 300%)"
 zhCN = "可以更改管路的移动速度加成（游戏默认：+300%）。"
 zhTW = "隧道的加速獎勵（遊戲預設：300%）"
@@ -26,6 +30,7 @@ koKR = "튜브웨이의 보너스 속도 (게임 기본값: 300%)"
 
 ["LV.CTZ.ZiplineSpeed"]
 raw = "Zipline bonus speed"
+status = "normal"
 enUS = "Zipline bonus speed"
 zhCN = "滑索速度加成"
 zhTW = "滑索獎金速度"
@@ -39,6 +44,7 @@ koKR = "짚라인 보너스 속도"
 
 ["LV.CTZ.ZiplineSpeedDesc"]
 raw = "The speed of the zipline (Game default: 150%)"
+status = "normal"
 enUS = "The speed of the zipline (Game default: 150%)"
 zhCN = "可以更改滑索的移动速度加成（游戏默认：+150%）。"
 zhTW = "滑索的速度（遊戲預設：150%）"
@@ -52,6 +58,7 @@ koKR = "짚라인의 속도 (게임 기본값: 150%)"
 
 ["LV.CTZ.ZiplineSpeedMaxCon"]
 raw = "Zipline max connection"
+status = "normal"
 enUS = "Zipline maximum connection"
 zhCN = "滑索最大连接数"
 zhTW = "滑索最大連接數"
@@ -65,6 +72,7 @@ koKR = "짚라인 최대 연결"
 
 ["LV.CTZ.ZiplineSpeedMaxConDesc"]
 raw = "The maximum number of connections a zipline can have (Game default: 2)"
+status = "normal"
 enUS = "The maximum number of connections a zipline can have (Game default: 2)"
 zhCN = "可以更改滑索的最大连接数（游戏默认：2）。"
 zhTW = "滑索可以擁有的最大連接數（遊戲預設：2）"
@@ -78,6 +86,7 @@ koKR = "짚라인이 가질 수 있는 최대 연결 수 (게임 기본값: 2)"
 
 ["LV.CTZ.ZiplineSpeedMaxDistance"]
 raw = "Zipline max distance"
+status = "normal"
 enUS = "Zipline maximum distance"
 zhCN = "滑索最大距离值"
 zhTW = "滑索最長距離"
@@ -91,6 +100,7 @@ koKR = "지퍼라인 최대 거리"
 
 ["LV.CTZ.ZiplineSpeedMaxDistanceDesc"]
 raw = "The maximum distance a zipline can have (Game default: 30)"
+status = "normal"
 enUS = "The maximum distance a zipline can have (Game default: 30)"
 zhCN = "可以更改滑索的最大距离值（游戏默认：30）。"
 zhTW = "拉索滑行繩的最大距離（遊戲預設：30）"
@@ -104,6 +114,7 @@ koKR = "지퍼라인이 가질 수 있는 최대 거리 (게임 기본값: 30)"
 
 ["LV.CTZ.ZiplineSpeedMaxInclination"]
 raw = "Zipline cable max inclination"
+status = "normal"
 enUS = "Zipline cable maximum slope"
 zhCN = "滑索最大倾斜度"
 zhTW = "滑索纜繞最大傾斜度"
@@ -117,6 +128,7 @@ koKR = "짚라인 케이블 최대 경사"
 
 ["LV.CTZ.ZiplineSpeedMaxInclinationDesc"]
 raw = "The maximum inclination of the zipline cable (Game default: 50)"
+status = "normal"
 enUS = "The maximum inclination of the zipline cable (Game default: 50)"
 zhCN = "可以更改滑索的最大倾斜度（游戏默认：50）。"
 zhTW = "滑索電纜的最大傾斜度（遊戲預設：50）"
@@ -130,6 +142,7 @@ koKR = "집라인 케이블의 최대 경사도 (게임 기본값: 50)"
 
 ["LV.CTZ.ZiplineThroughObstacles"]
 raw = "Zipline through obstacles"
+status = "normal"
 enUS = "Zip through obstacles"
 zhCN = "滑索穿过障碍物"
 zhTW = "穿越障礙的滑索"
@@ -143,6 +156,7 @@ koKR = "장애물을 통과하는 집라인"
 
 ["LV.CTZ.ZiplineThroughObstaclesDesc"]
 raw = "Allow ziplines to go through obstacles (Game default: false)"
+status = "normal"
 enUS = "Allow ziplines to go through obstacles (Game default: false)"
 zhCN = "勾选后，允许滑索穿过障碍物（游戏默认：否）。"
 zhTW = "允許滑索穿越障礙物（遊戲預設：關閉）"
@@ -156,6 +170,7 @@ koKR = "장애물을 통과하는 집라인 허용 (게임 기본값: 거짓)"
 
 ["LV.CTZ.ZiplineForIronTeeth"]
 raw = "Zipline for Iron Teeth"
+status = "normal"
 enUS = "Zipline for Iron Teeth"
 zhCN = "铁牙滑索"
 zhTW = "鐵齒滑索"
@@ -169,6 +184,7 @@ koKR = "아이언 틀을 위한 집라인"
 
 ["LV.CTZ.ZiplineForIronTeethDesc"]
 raw = "Let the Iron Teeth build Ziplines (Game default: false). Also let them build Ziporter if you have that mod installed."
+status = "normal"
 enUS = "Let the Iron Teeth build Ziplines (Game default: false). Also, allow them to build Ziporter if you have that mod installed."
 zhCN = "勾选后，允许铁牙种族建造滑索（游戏默认：否）。<br>如果启用了模组“Ziporter”，也允许铁牙种族建造传送枢纽。"
 zhTW = "讓鐵牙建立滑索（遊戲預設：關閉）"
@@ -182,6 +198,7 @@ koKR = "철니가 집라인을 건설할 수 있게 하세요 (게임 기본값:
 
 ["LV.CTZ.TubewayForFolktails"]
 raw = "Tubeway for Folktails"
+status = "normal"
 enUS = "Tubeway for Folktales"
 zhCN = "神尾管路"
 zhTW = "民俗故事的管道"
@@ -195,6 +212,7 @@ koKR = "포크테일을 위한 튜브웨이"
 
 ["LV.CTZ.TubewayForFolktailsDesc"]
 raw = "Let the Folktails build Tubeways (Game default: false)"
+status = "normal"
 enUS = "Let the Folktails build Tubeways (Game default: false)"
 zhCN = "勾选后，允许神尾种族建造管路（游戏默认：否）。"
 zhTW = "讓民間故事幫助建造管道 (遊戲預設：關閉)"
@@ -208,6 +226,7 @@ koKR = "Folktails가 튜브웨이를 건설할 수 있게 하세요 (게임 기�
 
 ["LV.CTZ.NoWaterPenalty"]
 raw = "No water speed penalty"
+status = "normal"
 enUS = "No penalty for water speed"
 zhCN = "关闭水中速度修正"
 zhTW = "無水速罰分"
@@ -221,6 +240,7 @@ koKR = "물 속도 페널티 없음"
 
 ["LV.CTZ.NoWaterPenaltyDesc"]
 raw = "No speed penalty when going in the water (Game default: false)"
+status = "normal"
 enUS = "No speed penalty when entering the water (Game default: false)"
 zhCN = "勾选后，关闭海狸在水中移动时的速度修正，不再降低30%（游戏默认：否）。"
 zhTW = "進入水中的時候不會有速度懲罰（遊戲預設：否）"

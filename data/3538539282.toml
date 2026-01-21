@@ -1,5 +1,8 @@
+name = "Configurable Power Lines"
+
 ["LV.CPL.MaxConnections"]
 raw = "Maximum Connections"
+status = "normal"
 enUS = "Maximum Connections"
 zhCN = "能量线缆最大连接数"
 zhTW = "最大連接數"
@@ -13,6 +16,7 @@ koKR = "최대 연결 수"
 
 ["LV.CPL.MaxConnectionsDesc"]
 raw = "Maximum number of connections allowed for power line buildings. Default: 4."
+status = "normal"
 enUS = "Maximum number of connections allowed for power line buildings. Default: 4."
 zhCN = "可以更改能量线缆的最大连接数（原模组默认：4）。"
 zhTW = "電力線建築所允許的最大連接數。預設：4。"
@@ -26,6 +30,7 @@ koKR = "전력선 건물에 허용되는 최대 연결 수. 기본값: 4."
 
 ["LV.CPL.MaxDistance"]
 raw = "Maximum Distance"
+status = "normal"
 enUS = "Maximum Distance"
 zhCN = "能量线缆最大距离值"
 zhTW = "最大距離"
@@ -39,6 +44,7 @@ koKR = "최대 거리"
 
 ["LV.CPL.MaxDistanceDesc"]
 raw = "Maximum distance allowed for power line cable. Default: 50, this mod defaults to 100."
+status = "normal"
 enUS = "Maximum distance allowed for power line cable. Default: 50, this mod defaults to 100."
 zhCN = "可以更改能量线缆的最大距离值（原模组默认：50；此模组默认：100）。"
 zhTW = "電力線纜線允許的最大距離。默認值：50，該模組默認為100。"
@@ -52,6 +58,7 @@ koKR = "전력선 케이블에 대해 허용되는 최대 거리. 기본값: 50,
 
 ["LV.CPL.MaxInclination"]
 raw = "Maximum Inclination"
+status = "normal"
 enUS = "Maximum Inclination"
 zhCN = "能量线缆最大倾斜度"
 zhTW = "最大傾斜度"
@@ -65,6 +72,7 @@ koKR = "최대 경사"
 
 ["LV.CPL.MaxInclinationDesc"]
 raw = "Maximum inclination allowed for power line cable. Default: 75 degrees."
+status = "normal"
 enUS = "Maximum inclination allowed for power line cable. Default: 75 degrees."
 zhCN = "可以更改能量线缆的最大倾斜度（原模组默认：75）。"
 zhTW = "電力線纜的最大傾斜度。預設值：75度。"
@@ -78,6 +86,7 @@ koKR = "전선 케이블에 허용되는 최대 경사. 기본값: 75도."
 
 ["LV.CPL.PowerlineThroughObstacles"]
 raw = "Powerline Through Obstacles"
+status = "normal"
 enUS = "Powerline Through Obstacles"
 zhCN = "能量线缆穿过障碍物"
 zhTW = "穿越障礙的電力線"
@@ -91,6 +100,7 @@ koKR = "장애물을 통한 전력선"
 
 ["LV.CPL.PowerlineThroughObstaclesDesc"]
 raw = "Allow power lines to pass through obstacles such as buildings and trees."
+status = "normal"
 enUS = "Allow power lines to pass through obstacles such as buildings and trees."
 zhCN = "勾选后，允许能量线缆穿过障碍物（原模组默认：否）。"
 zhTW = "允許電力線穿過建築物和樹木等障礙物。"

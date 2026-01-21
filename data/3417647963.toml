@@ -1,5 +1,8 @@
+name = "Beaver's Ascent"
+
 ["LV.BAsc.ChangeHeight"]
 raw = "Change height limit"
+status = "normal"
 enUS = "Change height limit"
 zhCN = "更改高度限制"
 zhTW = "更改高度限制"
@@ -13,6 +16,7 @@ koKR = "높이 제한 변경"
 
 ["LV.BAsc.ChangeHeightDesc"]
 raw = "Change the height limit of the map. This setting and all others need restart to take effect."
+status = "normal"
 enUS = "Change the height limit of the map. This setting and all others require a restart to take effect."
 zhCN = "勾选后，启用下列选项，可以更改地图的高度限制。"
 zhTW = "更改地圖的高度限制。此設定以及其他所有設定需要重新啟動才能生效。"
@@ -26,6 +30,7 @@ koKR = "맵의 높이 제한을 변경합니다. 이 설정과 다른 모든 설
 
 ["LV.BAsc.TerrainHeight"]
 raw = "Terrain height limit"
+status = "normal"
 enUS = "Terrain height limit"
 zhCN = "地形高度上限"
 zhTW = "地形高度限制"
@@ -39,6 +44,7 @@ koKR = "지형 높이 제한"
 
 ["LV.BAsc.TerrainHeightDesc"]
 raw = "The height limit of the terrain. Note: count from 0 (Game default: 22)"
+status = "normal"
 enUS = "The height limit of the terrain. Note: count from 0 (Game default: 22)"
 zhCN = "可以更改地形的高度上限（游戏默认：22）。"
 zhTW = "地形的高度限制。注意：從 0 開始計算（遊戲默認：22）"
@@ -52,6 +58,7 @@ koKR = "지형의 높이 한계. 주의: 0부터 계산하십시오 (게임 기�
 
 ["LV.BAsc.AboveTerrainHeight"]
 raw = "Above terrain height limit"
+status = "normal"
 enUS = "Above terrain height limit"
 zhCN = "建筑高度上限"
 zhTW = "超過地形高度限制"
@@ -65,6 +72,7 @@ koKR = "지면 높이 제한 초과"
 
 ["LV.BAsc.AboveTerrainHeightDesc"]
 raw = "The height limit above the terrain limit, i.e. how high you can build (Game default: 10)"
+status = "normal"
 enUS = "The height limit above the terrain limit, i.e. how high you can build (Game default: 10)"
 zhCN = "可以更改建筑的高度上限，即建筑可以高于地形高度上限的高度（游戏默认：10）。"
 zhTW = "超出地形限制的高度限制，即你可以建造的最高高度（遊戲預設：10）"
@@ -78,6 +86,7 @@ koKR = "지면 제한 위의 높이 제한, 즉 건물을 얼마나 높게 지�
 
 ["LV.BAsc.AllowEditorUpToTerrainLimit"]
 raw = "[Map Editor]Allow editor brush up to terrain limit"
+status = "normal"
 enUS = "[Map Editor] Allow editor brush up to terrain limit"
 zhCN = "解除地形高度笔刷限制"
 zhTW = "[地圖編輯器]允許編輯器刷子達到地形限制"
@@ -91,6 +100,7 @@ koKR = "[맵 편집기]편집 브러시를 지형 한계까지 허용"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimitDesc"]
 raw = "Allow the editor brush to go up to the terrain limit instead of minus 6 (Game default: 22 - 6 = 16)"
+status = "normal"
 enUS = "Allow the editor brush to go up to the terrain limit instead of minus 6 (Game default: 22 - 6 = 16)"
 zhCN = "勾选后，地图编辑器中的地形高度笔刷可以达到地形限制，而不是减6（游戏默认：22－6＝16）。"
 zhTW = "允許編輯器筆刷上升至地形限制，而不是減去6（遊戲默認值：22 - 6 = 16）"
@@ -104,6 +114,7 @@ koKR = "편집기 브러시가 지형 한계까지 이동할 수 있도록 허�
 
 ["LV.BAsc.FreeCamera"]
 raw = "Free camera"
+status = "normal"
 enUS = "Free camera"
 zhCN = "自由相机"
 zhTW = "自由相機"
@@ -117,6 +128,7 @@ koKR = "자유 카메라"
 
 ["LV.BAsc.FreeCameraDesc"]
 raw = "Enable free camera mode, useful when you have built too high"
+status = "normal"
 enUS = "Enable free camera mode, useful when you have built too high."
 zhCN = "勾选后，解除相机缩放限制。"
 zhTW = "啟用自由相機模式，當你建得太高時很有用。"

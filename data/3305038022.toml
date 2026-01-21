@@ -1,5 +1,8 @@
+name = "SmartPower"
+
 ["IgorZ.SmartPower.BatteryCapacity"]
 raw = "Batteries charge: {0} / {1}"
+status = "normal"
 enUS = "Batteries charge: {0} / {1}"
 zhCN = "电池上限/当前：{0} / {1}"
 zhTW = "電池充電：{0} / {1}"
@@ -13,6 +16,7 @@ koKR = "배터리 충전량: {0} / {1}"
 
 ["IgorZ.SmartPower.BatteryCharging"]
 raw = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+status = "normal"
 enUS = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 zhCN = "<color=#59FF61>🡅</color> 电池充能 (剩余时间)：{0} ({1})"
 zhTW = "電池充電中：<GreenHighlight>🡅</GreenHighlight>{0} ({1})"
@@ -26,6 +30,7 @@ koKR = "배터리 충전 중: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryDischarging"]
 raw = "Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+status = "normal"
 enUS = "Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 zhCN = "<color=#FF4C4C>🡇</color> 电池耗能 (剩余时间)：{0} ({1})"
 zhTW = "電池放電中：<RedHighlight>🡇</RedHighlight>{0} ({1})"
@@ -39,6 +44,7 @@ koKR = "배터리 방전 중: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryNotUsed"]
 raw = "<GreenHighlight>Batteries not used</GreenHighlight>"
+status = "normal"
 enUS = "Batteries not used"
 zhCN = "<color=#FFFF1A>⚫</color> 电池未运作"
 zhTW = "<GreenHighlight>未使用的電池</GreenHighlight>"
@@ -52,6 +58,7 @@ koKR = "<GreenHighlight>배터리 미사용</GreenHighlight>"
 
 ["IgorZ.SmartPower.BatteryDepleted"]
 raw = "<RedHighlight>Batteries depleted</RedHighlight>"
+status = "normal"
 enUS = "Batteries depleted"
 zhCN = "<color=#FF4C4C>⬛</color> 电池已耗尽"
 zhTW = "<RedHighlight>電池電量耗盡</RedHighlight>"
@@ -65,6 +72,7 @@ koKR = "<RedHighlight>배터리가 방전되었습니다</RedHighlight>"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator"]
 raw = "Automate this generator"
+status = "normal"
 enUS = "Automate this generator"
 zhCN = "让此建筑自动调整运作"
 zhTW = "自動化這個生成器"
@@ -78,6 +86,7 @@ koKR = "이 발전기를 자동화하십시오"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText"]
 raw = "Keep batteries charge in range {0}% - {1}%"
+status = "normal"
 enUS = "Keep battery charge in the range {0}% - {1}%."
 zhCN = "维持电池容量为 {0}% - {1}%"
 zhTW = "將電池電量保持在 {0}% - {1}% 之間"
@@ -91,6 +100,7 @@ koKR = "배터리 충전을 {0}% - {1}% 범위로 유지합니다."
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators"]
 raw = "Apply to all generators"
+status = "normal"
 enUS = "Apply to all generators."
 zhCN = "应用于所有同类建筑"
 zhTW = "適用於所有發電機"
@@ -104,6 +114,7 @@ koKR = "모든 발전기에 적용"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators"]
 raw = "Applied to {0} generators"
+status = "normal"
 enUS = "Applied to {0} generators"
 zhCN = "已应用于 {0} 个同类建筑"
 zhTW = "應用於 {0} 個發電機"
@@ -117,6 +128,7 @@ koKR = "{0} 발전기에 적용됨"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus"]
 raw = "Suspended due to excessive supply"
+status = "normal"
 enUS = "Suspended due to excessive supply"
 zhCN = "网络供电过剩，已暂停"
 zhTW = "因供應過剩而暫停"
@@ -130,6 +142,7 @@ koKR = "공급 과다로 인하여 일시 중단됨"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> No workers at workplace"
+status = "normal"
 enUS = "No workers at workplace"
 zhCN = "<color=#FFFF1A>⏻</color> 工狸临时离岗"
 zhTW = "<YellowHighlight>⏻</YellowHighlight> 工作場所沒有工作人員"
@@ -143,6 +156,7 @@ koKR = "<YellowHighlight>⏻</YellowHighlight> 작업장에 근무자가 없습�
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Fuel has run out"
+status = "normal"
 enUS = "Fuel has run out"
 zhCN = "<color=#FFFF1A>⏻</color> 建筑缺乏燃料"
 zhTW = "燃料已經耗盡"
@@ -156,6 +170,7 @@ koKR = "<YellowHighlight>⏻</YellowHighlight> 연료가 바닥났습니다"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoInputStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Missing ingredients"
+status = "normal"
 enUS = "Missing ingredients"
 zhCN = "<color=#FFFF1A>⏻</color> 建筑缺乏原料"
 zhTW = "缺少成分"
@@ -169,6 +184,7 @@ koKR = "<YellowHighlight>⏻</YellowHighlight> 필요한 재료가 없습니다"
 
 ["IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Too much products"
+status = "normal"
 enUS = "Too many products"
 zhCN = "<color=#FFFF1A>⏻</color> 建筑产物已满"
 zhTW = "<YellowHighlight>⏻</YellowHighlight> 太多產品"
@@ -182,6 +198,7 @@ koKR = "<YellowHighlight>⏻</YellowHighlight> 제품이 너무 많습니다"
 
 ["IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus"]
 raw = "Power saving mode"
+status = "normal"
 enUS = "Power saving mode"
 zhCN = "节能模式"
 zhTW = "省電模式"
@@ -195,6 +212,7 @@ koKR = "전력 절약 모드"
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower"]
 raw = "Suspend if not enough power"
+status = "normal"
 enUS = "Suspend if there is not enough power."
 zhCN = "运作效率低于阈值时关闭"
 zhTW = "如果電力不足則暫停使用。"
@@ -208,6 +226,7 @@ koKR = "전력이 부족하면 일시 중지"
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency"]
 raw = "Minimum efficiency: {0}%"
+status = "normal"
 enUS = "Minimum efficiency: {0}%"
 zhCN = "运作效率(电力输入/最大值)阈值 : {0}%"
 zhTW = "最低效率：{0}%"
@@ -221,6 +240,7 @@ koKR = "최소 효율: {0}%"
 
 ["IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio"]
 raw = "Stop if batteries charge is below {0}%"
+status = "normal"
 enUS = "Stop if battery charge is below {0}%."
 zhCN = "电池容量低于 {0}% 时关闭"
 zhTW = "當電池電量低於 {0}% 時停止。"
@@ -234,6 +254,7 @@ koKR = "배터리 충전이 {0}% 미만일 경우 중지"
 
 ["IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings"]
 raw = "Apply to all such buildings"
+status = "normal"
 enUS = "Apply to all such buildings."
 zhCN = "应用于所有同类建筑"
 zhTW = "適用於所有這類建築"
@@ -247,6 +268,7 @@ koKR = "모든 해당 건물에 적용"
 
 ["IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings"]
 raw = "Applied to {0} buildings"
+status = "normal"
 enUS = "Applied to {0} buildings"
 zhCN = "已应用于 {0} 个同类建筑"
 zhTW = "已應用於 {0} 棟建築"
@@ -260,6 +282,7 @@ koKR = "{0} 개 건물에 적용됨"
 
 ["IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus"]
 raw = "Suspended to conserve energy"
+status = "normal"
 enUS = "Suspended to conserve energy"
 zhCN = "网络供电不足，已暂停"
 zhTW = "暫停以節省能源"
@@ -273,6 +296,7 @@ koKR = "에너지를 절약하기 위해 일시 중단됨"
 
 ["IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus"]
 raw = "<RedHighlight>⏻</RedHighlight> Not enough power"
+status = "normal"
 enUS = "Not enough power"
 zhCN = "<color=#FF4C4C>⏻</color> 运作效率过低"
 zhTW = "<RedHighlight>⏻</RedHighlight> 電力不足"
@@ -286,6 +310,7 @@ koKR = "<RedHighlight>⏻</RedHighlight> 전력이 부족합니다"
 
 ["IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus"]
 raw = "<RedHighlight>⏻</RedHighlight> Not enough batteries charge"
+status = "normal"
 enUS = "Not enough battery charge"
 zhCN = "<color=#FF4C4C>⏻</color> 电池容量过低"
 zhTW = "<RedHighlight>⏻</RedHighlight> 電池電量不足"
@@ -299,6 +324,7 @@ koKR = "<RedHighlight>⏻</RedHighlight> 배터리 충전 부족"
 
 ["IgorZ.SmartPower.Common.MinutesTillResume"]
 raw = "<GreenHighlight>⏻</GreenHighlight> Will resume in {0} minutes"
+status = "normal"
 enUS = "<GreenHighlight>⏻</GreenHighlight> Will resume in {0} minutes"
 zhCN = "<color=#59FF61>⏻</color> 将在 {0} 分钟后恢复运作"
 zhTW = "<GreenHighlight>⏻</GreenHighlight> 將在 {0} 分鐘後恢復"
@@ -312,6 +338,7 @@ koKR = "<GreenHighlight>⏻</GreenHighlight> {0}분 후에 재개됩니다"
 
 ["IgorZ.SmartPower.Common.MinutesTillSuspend"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Will suspend in {0} minutes"
+status = "normal"
 enUS = "<YellowHighlight>⏻</YellowHighlight> Will suspend in {0} minutes"
 zhCN = "<color=#FFFF1A>⏻</color> 将在 {0} 分钟后暂停运作"
 zhTW = "<YellowHighlight>⏻</YellowHighlight> 將在 {0} 分鐘後暫停"
@@ -325,6 +352,7 @@ koKR = "<YellowHighlight>⏻</YellowHighlight> {0}분 후 일시 중지됩니다
 
 ["IgorZ.SmartPower.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
+status = "normal"
 enUS = "Debugging and troubleshooting"
 zhCN = "调试和故障排除"
 zhTW = "除錯和故障排除"
@@ -338,6 +366,7 @@ koKR = "디버그 및 문제 해결"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
+status = "normal"
 enUS = "Verbose logging"
 zhCN = "详细日志记录"
 zhTW = "詳細日誌記錄"
@@ -351,6 +380,7 @@ koKR = "상세 로깅"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
+status = "normal"
 enUS = "Logs will have more useful details, but they may affect game performance."
 zhCN = "日志将包含更多有用的详细信息，但可能会影响游戏性能。"
 zhTW = "日誌會有更有用的細節，但可能會影響遊戲性能。"
@@ -364,6 +394,7 @@ koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능�
 
 ["IgorZ.SmartPower.Settings.BatteriesSection"]
 raw = "Batteries"
+status = "normal"
 enUS = "Batteries"
 zhCN = "电池"
 zhTW = "電池"
@@ -377,6 +408,7 @@ koKR = "배터리"
 
 ["IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals"]
 raw = "Show battery stats"
+status = "normal"
 enUS = "Show battery statistics"
 zhCN = "显示电池统计信息"
 zhTW = "顯示電池統計資訊"
@@ -390,6 +422,7 @@ koKR = "배터리 상태 표시"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
 raw = "Consumers activation hysteresis (hours)"
+status = "normal"
 enUS = "Consumers activation hysteresis (hours)"
 zhCN = "维持运作时长阈值 (小时)"
 zhTW = "消費者啟動滯後（小時）"
@@ -403,6 +436,7 @@ koKR = "소비자 활성화 히스테리시스 (시간)"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip"]
 raw = "Suspended consumers will not resume if they cannot run on batteries for at least the specified duration."
+status = "normal"
 enUS = "Suspended consumers will not resume if they cannot operate on batteries for at least the specified duration."
 zhCN = "电池容量足以维持耗能建筑运作指定时长后，已暂停的耗能建筑才会恢复运作。"
 zhTW = "如果無法至少在指定時間內使用電池供電，則暫停的消費者將不會恢復運行。"
@@ -416,6 +450,7 @@ koKR = "정해진 기간 동안 배터리로 작동할 수 없는 경우 일시 
 
 ["IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection"]
 raw = "Beaver-powered generators"
+status = "normal"
 enUS = "Beaver-powered generators"
 zhCN = "劳工型供能建筑"
 zhTW = "海狸驅動的發電機"
@@ -429,6 +464,7 @@ koKR = "비버 동력 발전기"
 
 ["IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection"]
 raw = "Good-consuming generators"
+status = "normal"
 enUS = "Good-consuming generators"
 zhCN = "资源型供能建筑"
 zhTW = "良好的消費型發電機"
@@ -442,6 +478,7 @@ koKR = "우수 소비 발전기"
 
 ["IgorZ.SmartPower.Settings.WorkplaceConsumerSection"]
 raw = "Workshops with a workplace"
+status = "normal"
 enUS = "Workshops with a workplace"
 zhCN = "有劳工型耗能建筑"
 zhTW = "有工作場所的工作坊"
@@ -455,6 +492,7 @@ koKR = "작업장이 있는 작업실"
 
 ["IgorZ.SmartPower.Settings.UnmannedConsumerSection"]
 raw = "Unmanned buildings"
+status = "normal"
 enUS = "Unmanned buildings"
 zhCN = "无劳工型耗能建筑"
 zhTW = "無人建築"
@@ -468,6 +506,7 @@ koKR = "무인 건물"
 
 ["IgorZ.SmartPower.Settings.AttractionConsumerSection"]
 raw = "Attractions"
+status = "normal"
 enUS = "Attractions"
 zhCN = "娱乐型耗能建筑"
 zhTW = "景點"
@@ -481,6 +520,7 @@ koKR = "명소"
 
 ["IgorZ.SmartPower.Settings.UI.ShowFloatingIcon"]
 raw = "Show floating icon"
+status = "normal"
 enUS = "Show floating icon"
 zhCN = "显示浮动图标"
 zhTW = "顯示浮動圖標"
@@ -494,6 +534,7 @@ koKR = "떠 있는 아이콘 표시"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay"]
 raw = "Resume delay (minutes)"
+status = "normal"
 enUS = "Resume delay (minutes)"
 zhCN = "延时恢复 (分钟)"
 zhTW = "恢復延遲（分鐘）"
@@ -507,6 +548,7 @@ koKR = "재개 지연 (분)"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay"]
 raw = "Suspend delay (minutes)"
+status = "normal"
 enUS = "Suspend delay (minutes)"
 zhCN = "延时暂停 (分钟)"
 zhTW = "暫停延遲（分鐘）"

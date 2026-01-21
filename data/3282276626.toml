@@ -1,5 +1,8 @@
+name = "Path Extention"
+
 ["KnatteTobbert.Tunnel_1.DisplayName"]
 raw = "Tunnel 1x1"
+status = "normal"
 enUS = "Tunnel 1x1"
 zhCN = "隧道 1x1"
 zhTW = "隧道 1x1"
@@ -13,6 +16,7 @@ koKR = "터널 1x1"
 
 ["KnatteTobbert.Tunnel_2.DisplayName"]
 raw = "Tunnel 2x1"
+status = "normal"
 enUS = "Tunnel 2x1"
 zhCN = "隧道 2x1"
 zhTW = "隧道 2x1"
@@ -26,6 +30,7 @@ koKR = "터널 2x1"
 
 ["KnatteTobbert.Tunnel_3.DisplayName"]
 raw = "Tunnel 3x1"
+status = "normal"
 enUS = "Tunnel 3x1"
 zhCN = "隧道 3x1"
 zhTW = "隧道 3x1"
@@ -39,6 +44,7 @@ koKR = "터널 3x1"
 
 ["KnatteTobbert.Tunnel_4.DisplayName"]
 raw = "Tunnel 4x1"
+status = "normal"
 enUS = "Tunnel 4x1"
 zhCN = "隧道 4x1"
 zhTW = "隧道 4x1"
@@ -52,6 +58,7 @@ koKR = "터널 4x1"
 
 ["KnatteTobbert.Tunnel_5.DisplayName"]
 raw = "Tunnel 5x1"
+status = "normal"
 enUS = "Tunnel 5x1"
 zhCN = "隧道 5x1"
 zhTW = "隧道 5x1"
@@ -65,6 +72,7 @@ koKR = "터널 5x1"
 
 ["KnatteTobbert.Tunnel_6.DisplayName"]
 raw = "Tunnel 6x1"
+status = "normal"
 enUS = "Tunnel 6x1"
 zhCN = "隧道 6x1"
 zhTW = "隧道 6x1"
@@ -78,6 +86,7 @@ koKR = "터널 6x1"
 
 ["KnatteTobbert.Tunnel_7.DisplayName"]
 raw = "Tunnel 7x1"
+status = "normal"
 enUS = "Tunnel 7x1"
 zhCN = "隧道 7x1"
 zhTW = "隧道 7x1"
@@ -91,6 +100,7 @@ koKR = "터널 7x1"
 
 ["KnatteTobbert.Tunnel_8.DisplayName"]
 raw = "Tunnel 8x1"
+status = "normal"
 enUS = "Tunnel 8x1"
 zhCN = "隧道 8x1"
 zhTW = "隧道 8x1"
@@ -104,6 +114,7 @@ koKR = "터널 8x1"
 
 ["KnatteTobbert.Tunnel_9.DisplayName"]
 raw = "Tunnel 9x1"
+status = "normal"
 enUS = "Tunnel 9x1"
 zhCN = "隧道 9x1"
 zhTW = "隧道 9x1"
@@ -117,6 +128,7 @@ koKR = "터널 9x1"
 
 ["KnatteTobbert.Tunnel_1L.DisplayName"]
 raw = "Tunnel Thrue Levee"
+status = "normal"
 enUS = "Tunnel Through Levee"
 zhCN = "穿堤隧道"
 zhTW = "隧道穿越堤防"
@@ -130,6 +142,7 @@ koKR = "제방을 관통하는 터널"
 
 ["KnatteTobbert.Tunnel_1L.Description"]
 raw = "Allows beavers to pass through Levees."
+status = "normal"
 enUS = "Allows beavers to pass through levees."
 zhCN = "帮助海狸穿过防洪堤。"
 zhTW = "允許水獺通過堤防。"
@@ -143,6 +156,7 @@ koKR = "제방을 통과할 수 있는 비버를 허용합니다."
 
 ["KnatteTobbert.Tunnel.Description"]
 raw = "Allows beavers to pass through mountains."
+status = "normal"
 enUS = "Allows beavers to pass through mountains."
 zhCN = "帮助海狸穿过山岭。"
 zhTW = "允許海狸穿越山脈。"
@@ -156,6 +170,7 @@ koKR = "비버가 산을 통과할 수 있게 해줍니다."
 
 ["KnatteTobbert.Tunnel.FlavorDiscription"]
 raw = "Do you know how hard it is to Model and Texture? - KnatteAnka"
+status = "normal"
 enUS = "Do you know how hard it is to model and texture? - KnatteAnka"
 zhCN = "“这里好黑呀！”——海狸宝宝"
 zhTW = "你知道建模和貼圖有多難嗎？ - KnatteAnka"
@@ -167,34 +182,21 @@ plPL = "Czy wiesz, jak trudno jest modelować i teksturować? - KnatteAnka"
 ptBR = "Você sabe como é difícil modelar e texturizar? - KnatteAnka"
 koKR = "모델링과 텍스처링이 얼마나 어려운지 알고 있나요? - KnatteAnka"
 
-["Knatte.Subgroup_PE_MetalPlatform.DisplayName"]
-raw = "Metal Platforms"
-enUS = "Metal Platforms"
-zhCN = "金属平台"
-zhTW = "金屬平台"
-ruRU = "Металлические платформы"
-jaJP = "金属プラットフォーム"
-frFR = "Plateformes métalliques"
-deDE = "Metallplattformen"
-plPL = "Metalowe platformy"
-ptBR = "Plataformas de metal"
-koKR = "금속 플랫폼"
+["//"]
+new = "//"
+status = "normal"
 
-["Knatte.Subgroup_PE_MetalOverhang.DisplayName"]
-raw = "Metal Overhangs"
-enUS = "Metal Overhangs"
-zhCN = "金属悬挑"
-zhTW = "金屬懸挑"
-ruRU = "Металлические выступы"
-jaJP = "金属オーバーハング"
-frFR = "Surplombs métalliques"
-deDE = "Metallüberhänge"
-plPL = "Metalowe nawisy"
-ptBR = "Beirais de metal"
-koKR = "금속 돌출부"
+["Knatte.Subgroup_MGMetalPlatform.DisplayName"]
+new = "Metal Platforms"
+status = "normal"
+
+["Knatte.Subgroup_MGMetalOverhang.DisplayName"]
+new = "Metal Overhangs"
+status = "normal"
 
 ["Knatte.SubGroup_PE_Tunnel.DisplayName"]
 raw = "Tunnels"
+status = "normal"
 enUS = "Tunnels"
 zhCN = "隧道"
 zhTW = "隧道"
@@ -208,6 +210,7 @@ koKR = "터널"
 
 ["Knatte.SubGroup_PE_SBridges.DisplayName"]
 raw = "Steel Bridges"
+status = "normal"
 enUS = "Steel Bridges"
 zhCN = "钢桥"
 zhTW = "鋼橋"
@@ -221,6 +224,7 @@ koKR = "강철 다리"
 
 ["Knatte.SubGroup_PE_BigMetalPillar.DisplayName"]
 raw = "Big Metal Pillars"
+status = "normal"
 enUS = "Big Metal Pillars"
 zhCN = "金属支撑柱"
 zhTW = "大型金屬支柱"
@@ -234,6 +238,7 @@ koKR = "대형 금속 기둥"
 
 ["KnatteTobbert.Bridge_1.DisplayName"]
 raw = "Steel Bridge 1x1"
+status = "normal"
 enUS = "Steel Bridge 1x1"
 zhCN = "钢桥 1x1"
 zhTW = "鋼橋 1x1"
@@ -247,6 +252,7 @@ koKR = "강철 다리 1x1"
 
 ["KnatteTobbert.Bridge_2.DisplayName"]
 raw = "Steel Bridge 2x1"
+status = "normal"
 enUS = "Steel Bridge 2x1"
 zhCN = "钢桥 2x1"
 zhTW = "鋼橋 2x1"
@@ -260,6 +266,7 @@ koKR = "강철 다리 2x1"
 
 ["KnatteTobbert.Bridge_3.DisplayName"]
 raw = "Steel Bridge 3x1"
+status = "normal"
 enUS = "Steel Bridge 3x1"
 zhCN = "钢桥 3x1"
 zhTW = "鋼橋 3x1"
@@ -273,6 +280,7 @@ koKR = "강철 다리 3x1"
 
 ["KnatteTobbert.Bridge_4.DisplayName"]
 raw = "Steel Bridge 4x1"
+status = "normal"
 enUS = "Steel Bridge 4x1"
 zhCN = "钢桥 4x1"
 zhTW = "鋼橋 4x1"
@@ -286,6 +294,7 @@ koKR = "강철 다리 4x1"
 
 ["KnatteTobbert.Bridge_5.DisplayName"]
 raw = "Steel Bridge 5x1"
+status = "normal"
 enUS = "Steel Bridge 5x1"
 zhCN = "钢桥 5x1"
 zhTW = "鋼橋 5x1"
@@ -299,6 +308,7 @@ koKR = "강철 다리 5x1"
 
 ["KnatteTobbert.Bridge_6.DisplayName"]
 raw = "Steel Bridge 6x1"
+status = "normal"
 enUS = "Steel Bridge 6x1"
 zhCN = "钢桥 6x1"
 zhTW = "鋼橋 6x1"
@@ -312,6 +322,7 @@ koKR = "강철 교량 6x1"
 
 ["KnatteTobbert.Bridge_7.DisplayName"]
 raw = "Steel Bridge 7x1"
+status = "normal"
 enUS = "Steel Bridge 7x1"
 zhCN = "钢桥 7x1"
 zhTW = "鋼橋 7x1"
@@ -325,6 +336,7 @@ koKR = "강철 다리 7x1"
 
 ["KnatteTobbert.Bridge_8.DisplayName"]
 raw = "Steel Bridge 8x1"
+status = "normal"
 enUS = "Steel Bridge 8x1"
 zhCN = "钢桥 8x1"
 zhTW = "鋼橋 8x1"
@@ -338,6 +350,7 @@ koKR = "강철 다리 8x1"
 
 ["KnatteTobbert.Bridge_9.DisplayName"]
 raw = "Steel Bridge 9x1"
+status = "normal"
 enUS = "Steel Bridge 9x1"
 zhCN = "钢桥 9x1"
 zhTW = "鋼橋 9x1"
@@ -351,6 +364,7 @@ koKR = "강철 다리 9x1"
 
 ["KnatteTobbert.Bridge_10.DisplayName"]
 raw = "Steel Bridge 10x1"
+status = "normal"
 enUS = "Steel Bridge 10x1"
 zhCN = "钢桥 10x1"
 zhTW = "鋼橋 10x1"
@@ -364,6 +378,7 @@ koKR = "강철 다리 10x1"
 
 ["KnatteTobbert.Bridge.Description"]
 raw = "Allows Path,Shafts and trains between mountains"
+status = "normal"
 enUS = "Allows paths, shafts, and trains between mountains"
 zhCN = "帮助海狸跨过山岭。上面可以铺设道路，或者建造传动轴。"
 zhTW = "允許在山脈之間建立小徑、軸和火車。"
@@ -377,6 +392,7 @@ koKR = "산 사이에 경로, 샤프트 및 기차를 허용합니다."
 
 ["KnatteTobbert.BridgeF.Description"]
 raw = "Allows Path,Shafts and trains between mountains\nComplete bridge with both start and finish"
+status = "normal"
 enUS = "Allows paths, shafts, and trains between mountains.  \nComplete bridge with both start and finish."
 zhCN = "帮助海狸跨过山岭。上面可以铺设道路，或者建造传动轴。<br><color=#FFFF1A>末端可以继续建造钢桥，或者其他建筑。</color>"
 zhTW = "允許在山間的路徑、軸和列車\n完整的橋樑，具有起點和終點"
@@ -390,6 +406,7 @@ koKR = "산간의 경로, 샤프트 및 기차를 허용합니다.\n시작과 �
 
 ["KnatteTobbert.Bridge.FlavorDiscription"]
 raw = "Choo Choo"
+status = "normal"
 enUS = "Choo Choo"
 zhCN = "“这里好高啊！”——海狸宝宝"
 zhTW = "啾啾"
@@ -403,6 +420,7 @@ koKR = "치치"
 
 ["Knatte.SmallGate.DisplayName"]
 raw = "Small Gate"
+status = "normal"
 enUS = "Small Gate"
 zhCN = "地区交汇门"
 zhTW = "小門"
@@ -416,6 +434,7 @@ koKR = "작은 게이트"
 
 ["Knatte.SmallGate.Description"]
 raw = "Balances goods between the two connected districts. Each side has one worker that distribute goods between the Small Gate and the rest of the district."
+status = "normal"
 enUS = "Balances goods between the two connected districts. Each side has one worker who distributes goods between the Small Gate and the rest of the district."
 zhCN = "平衡两个相连地区之间的货物。每个地区都有自己的劳工，在地区交汇门和地区的其他地方运送物品。"
 zhTW = "在兩個相連的區域之間平衡貨物。每一側都有一名工人負責在小門和該區域的其餘部分之間分配貨物。"
@@ -429,6 +448,7 @@ koKR = "연결된 두 구역 간의 물품을 조정합니다. 각 쪽에는 작
 
 ["Knatte.SmallGate.FlavorDescription"]
 raw = "Basegame item removed from update 4 is reused"
+status = "normal"
 enUS = "Base game item removed from update 4 is reused."
 zhCN = "地区交汇点，你的老祖宗回来了！"
 zhTW = "從更新 4 中移除的基礎遊戲物品被重新使用。"
@@ -442,6 +462,7 @@ koKR = "업데이트 4에서 제거된 기본 게임 아이템이 재사용됩�
 
 ["Knatte.DecoSmallGate.DisplayName"]
 raw = "Arcway U3"
+status = "normal"
 enUS = "Arcway U3"
 zhCN = "拱门"
 zhTW = "弧道 U3"
@@ -455,6 +476,7 @@ koKR = "아크웨이 U3"
 
 ["Knatte.DecoSmallGate.Description"]
 raw = "Decoration Arcway from Update 3"
+status = "normal"
 enUS = "Decoration Arcway from Update 3"
 zhCN = "一个装饰门，来自海狸的古老年代。"
 zhTW = "更新3的裝飾拱門"
@@ -468,6 +490,7 @@ koKR = "업데이트 3의 장식 아치웨이"
 
 ["Knatte.MetalPillar.DisplayName"]
 raw = "Metal Pillar"
+status = "normal"
 enUS = "Metal Pillar"
 zhCN = "金属支柱"
 zhTW = "金屬柱"
@@ -481,6 +504,7 @@ koKR = "금속 기둥"
 
 ["Knatte.MetalPillars.DisplayName"]
 raw = "Metal Pillar With Brace"
+status = "normal"
 enUS = "Metal Pillar With Brace"
 zhCN = "双重金属支柱"
 zhTW = "金屬支柱帶支撐"
@@ -494,6 +518,7 @@ koKR = "지지대가 있는 금속 기둥"
 
 ["Knatte.MetalPillar.Description"]
 raw = "Let it Rise"
+status = "normal"
 enUS = "Let it Rise"
 zhCN = "用金属建造的平台支柱，可以作为其他建筑的支撑。"
 zhTW = "讓它升起"
@@ -507,6 +532,7 @@ koKR = "올라가게 하세요"
 
 ["Knatte.MetalPillar.FlavorDescription"]
 raw = "\"Let's stake a spot!\" - Industrious beaver"
+status = "normal"
 enUS = "\"Let's stake a spot!\" - Industrious beaver"
 zhCN = "“来打桩吧！”——海狸建筑工"
 zhTW = "「讓我們佔個位置！」 - 勤勞的海狸"
@@ -520,6 +546,7 @@ koKR = "\"자리를 정하자!\" - 부지런한 비버"
 
 ["Knatte.MetalPlatform.DisplayName"]
 raw = "Metal Platform"
+status = "normal"
 enUS = "Metal Platform"
 zhCN = "金属平台"
 zhTW = "金屬平台"
@@ -533,6 +560,7 @@ koKR = "금속 플랫폼"
 
 ["Knatte.MetalPlatform.Description"]
 raw = "A platform with 4 legs"
+status = "normal"
 enUS = "A platform with four legs"
 zhCN = "用金属建造的平台，可以作为桥梁，或者其他建筑的地基。"
 zhTW = "一個有四條腿的平台"
@@ -546,6 +574,7 @@ koKR = "4개의 다리가 있는 플랫폼"
 
 ["Knatte.MetalPlatform.FlavorDescription"]
 raw = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
+status = "normal"
 enUS = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
 zhCN = "为什么它的缩略图这么小？"
 zhTW = "「這張桌子在目錄中看起來比較小。」— 馬·恩戈內爾"
@@ -559,6 +588,7 @@ koKR = "\"이 테이블은 카탈로그에서 더 작아 보였어요.\" —마'
 
 ["Knatte.MetalPlatform5x3.DisplayName"]
 raw = "Metal Platform 5x3"
+status = "normal"
 enUS = "Metal Platform 5x3"
 zhCN = "金属平台 5x3"
 zhTW = "金屬平台 5x3"
@@ -572,6 +602,7 @@ koKR = "금속 플랫폼 5x3"
 
 ["Knatte.MiddleOverhang3x1.DisplayName"]
 raw = "Metal Middle Overhang 3x1"
+status = "normal"
 enUS = "Metal Middle Overhang 3x1"
 zhCN = "双向悬挑 3x1"
 zhTW = "金屬中間伸出 3x1"
@@ -585,6 +616,7 @@ koKR = "메탈 중간 돌출 3x1"
 
 ["Knatte.MiddleOverhang4x1.DisplayName"]
 raw = "Metal Middle Overhang 4x1"
+status = "normal"
 enUS = "Metal Middle Overhang 4x1"
 zhCN = "双向悬挑 4x1"
 zhTW = "金屬中間懸垂 4x1"
@@ -598,6 +630,7 @@ koKR = "금속 중간 돌출부 4x1"
 
 ["Knatte.MiddleOverhang5x1.DisplayName"]
 raw = "Metal Middle Overhang 5x1"
+status = "normal"
 enUS = "Metal Middle Overhang 5x1"
 zhCN = "双向悬挑 5x1"
 zhTW = "金屬中間懸挑 5x1"
@@ -611,6 +644,7 @@ koKR = "금속 중앙 돌출부 5x1"
 
 ["Knatte.MiddleOverhang7x1.DisplayName"]
 raw = "Metal Middle Overhang 7x1"
+status = "normal"
 enUS = "Metal Middle Overhang 7x1"
 zhCN = "双向悬挑 7x1"
 zhTW = "金屬中間懸垂 7x1"
@@ -624,6 +658,7 @@ koKR = "금속 중간 돌출부 7x1"
 
 ["Knatte.MiddleOverhang.Description"]
 raw = "Overhang that goes at 2 directions\nGold marking is Pillar location"
+status = "normal"
 enUS = "Overhang that extends in two directions  \nGold marking indicates Pillar location"
 zhCN = "朝两个方向突出的平台，可以作为桥梁，或者其他建筑的地基。"
 zhTW = "雙向懸臂\n金色標記是柱子位置"
@@ -637,6 +672,7 @@ koKR = "두 방향으로 나가는 오버행\n금색 표시는 기둥 위치입�
 
 ["Knatte.MiddleOverhang.FlavorDescription"]
 raw = "Which way do you want to go?"
+status = "normal"
 enUS = "Which way do you want to go?"
 zhCN = "你想去哪边，左边还是右边？"
 zhTW = "你想去哪個方向？"
@@ -650,6 +686,7 @@ koKR = "어느 쪽으로 가고 싶으신가요?"
 
 ["Knatte.ArcOverhang3x1.DisplayName"]
 raw = "Metal Arc Overhang 3x1"
+status = "normal"
 enUS = "Metal Arc Overhang 3x1"
 zhCN = "拱形悬挑 3x1"
 zhTW = "金屬弧形突出 3x1"
@@ -663,6 +700,7 @@ koKR = "메탈 아크 오버행 3x1"
 
 ["Knatte.ArcOverhang4x1.DisplayName"]
 raw = "Metal Arc Overhang 4x1"
+status = "normal"
 enUS = "Metal Arc Overhang 4x1"
 zhCN = "拱形悬挑 4x1"
 zhTW = "金屬弧突出 4x1"
@@ -676,6 +714,7 @@ koKR = "금속 아크 오버행 4x1"
 
 ["Knatte.ArcOverhang5x1.DisplayName"]
 raw = "Metal Arc Overhang 5x1"
+status = "normal"
 enUS = "Metal Arc Overhang 5x1"
 zhCN = "拱形悬挑 5x1"
 zhTW = "金屬弧懸臂 5x1"
@@ -689,6 +728,7 @@ koKR = "금속 아크 오버행 5x1"
 
 ["Knatte.ArcOverhang6x1.DisplayName"]
 raw = "Metal Arc Overhang 6x1"
+status = "normal"
 enUS = "Metal Arc Overhang 6x1"
 zhCN = "拱形悬挑 6x1"
 zhTW = "金屬弧懸垂 6x1"
@@ -702,6 +742,7 @@ koKR = "금속 아크 오버행 6x1"
 
 ["Knatte.ArcOverhang.Description"]
 raw = "Overhang with pillar on each side"
+status = "normal"
 enUS = "Overhang with a pillar on each side"
 zhCN = "两侧都有支柱的平台，可以作为桥梁，或者其他建筑的地基。"
 zhTW = "兩側有柱的突出部分"
@@ -715,6 +756,7 @@ koKR = "양쪽에 기둥이 있는 돌출부"
 
 ["Knatte.ArcOverhang.FlavorDescription"]
 raw = "\"Look look an Arc\" - a Beaver kit"
+status = "normal"
 enUS = "\"Look look an Arc\" - a Beaver kit"
 zhCN = "摇啊摇，摇到外婆桥。"
 zhTW = "「看！看！一個弓形！」- 一隻海狸幼崽"
@@ -728,6 +770,7 @@ koKR = "\"바라봐, 아크야\" - 비버 키트"
 
 ["Knatte.Aque_MetalBigPillarBase.DisplayName"]
 raw = "Big Aqueduct Metal Pillar Base"
+status = "normal"
 enUS = "Big Aqueduct Metal Pillar Base"
 zhCN = "水渠支撑柱底座"
 zhTW = "大型水渠金屬柱基底"
@@ -741,6 +784,7 @@ koKR = "대형 수로 금속 기둥 기반"
 
 ["Knatte.Aque_MetalBigPillarMid.DisplayName"]
 raw = "Big Aqueduct Metal Pillar Middle"
+status = "normal"
 enUS = "Big Aqueduct Metal Pillar Middle"
 zhCN = "水渠支撑柱中段"
 zhTW = "大水道金屬柱中間"
@@ -754,6 +798,7 @@ koKR = "큰 수로 금속 기둥 중간"
 
 ["Knatte.Aque_MetalBigPillarTop.DisplayName"]
 raw = "Big Aqueduct Metal Pillar Top"
+status = "normal"
 enUS = "Big Aqueduct Metal Pillar Top"
 zhCN = "水渠支撑柱顶部"
 zhTW = "大水道金屬柱頂"
@@ -767,6 +812,7 @@ koKR = "대 수로 금속 기둥 상단"
 
 ["Knatte.Aque_MetalBigPillar.Description"]
 raw = "Big metal pillar from old version of game split in multiple pieces so it can be built to any height\nTop piece can have platforms and overhangs inside it"
+status = "normal"
 enUS = "Big metal pillar from the old version of the game split into multiple pieces so it can be built to any height. The top piece can have platforms and overhangs inside it."
 zhCN = "坚固的柱子，根据需要分成了多个结构。使用了水渠材质。<br><color=#FFFF1A>顶部结构可以容纳平台和悬挑的支柱部分。</color><br><color=#FFA500>水渠在 Water Extention 模组内。</color>"
 zhTW = "大型金屬柱子來自舊版遊戲，分成多個部分，可以建造成任何高度。頂部部分可以有平台和懸臂在裡面。"
@@ -780,6 +826,7 @@ koKR = "구버전의 게임에서 여러 조각으로 나뉘어진 큰 금속 �
 
 ["Knatte.Aque_MetalBigPillar.FlavorDescription"]
 raw = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
+status = "normal"
 enUS = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
 zhCN = "为什么它的缩略图这么小？"
 zhTW = "「這張桌子在目錄上看起來比較小。」— 馬·恩戈內爾"
@@ -793,6 +840,7 @@ koKR = "\"이 테이블은 카탈로그에서 더 작아 보였어요.\" —마'
 
 ["Knatte.MetalBigPillarBase.DisplayName"]
 raw = "Big Metal Pillar Base"
+status = "normal"
 enUS = "Big Metal Pillar Base"
 zhCN = "金属支撑柱底座"
 zhTW = "大金屬柱基座"
@@ -806,6 +854,7 @@ koKR = "큰 금속 기둥 받침대"
 
 ["Knatte.MetalBigPillarMid.DisplayName"]
 raw = "Big Metal Pillar Middle"
+status = "normal"
 enUS = "Big Metal Pillar Middle"
 zhCN = "金属支撑柱中段"
 zhTW = "大金屬柱中間"
@@ -819,6 +868,7 @@ koKR = "대형 금속 기둥 중앙"
 
 ["Knatte.MetalBigPillarTop.DisplayName"]
 raw = "Big Metal Pillar Top"
+status = "normal"
 enUS = "Big Metal Pillar Top"
 zhCN = "金属支撑柱顶部"
 zhTW = "大金屬柱頂"
@@ -832,6 +882,7 @@ koKR = "큰 금속 기둥 끝"
 
 ["Knatte.MetalBigPillar.Description"]
 raw = "Big metal pillar from old version of game split in multiple pieces so it can be built to any height\nTop piece can have platforms and overhangs inside it"
+status = "normal"
 enUS = "Big metal pillar from the old version of the game split into multiple pieces so it can be built to any height. The top piece can have platforms and overhangs inside it."
 zhCN = "坚固的柱子，根据需要分成了多个结构。<br><color=#FFFF1A>顶部结构可以容纳平台和悬挑的支柱部分。</color>"
 zhTW = "大型金屬柱子來自舊版遊戲，分成多個部分，以便可以搭建成任何高度。頂部部分可以內有平台和懸臂。"
@@ -845,6 +896,7 @@ koKR = "구식 게임에서 여러 조각으로 나뉜 큰 금속 기둥으로, 
 
 ["Knatte.MetalBigPillar.FlavorDescription"]
 raw = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
+status = "normal"
 enUS = "\"This table looked smaller in the catalog.\" —Ma' Ngonel"
 zhCN = "为什么它的缩略图这么小？"
 zhTW = "「這張桌子在目錄中看起來比較小。」— 瑪·恩戈內爾"
@@ -855,3 +907,31 @@ deDE = "\"Dieser Tisch sah im Katalog kleiner aus.\" —Ma' Ngonel"
 plPL = "\"Ta tabela wyglądała na mniejszą w katalogu.\" —Ma' Ngonel"
 ptBR = "\"Esta mesa parecia menor no catálogo.\" —Ma' Ngonel"
 koKR = "\"이 테이블은 카탈로그에서 더 작게 보였어요.\" —Ma' Ngonel"
+
+["Knatte.Subgroup_PE_MetalPlatform.DisplayName"]
+raw = "Metal Platforms"
+status = "abandoned"
+enUS = "Metal Platforms"
+zhCN = "金属平台"
+zhTW = "金屬平台"
+ruRU = "Металлические платформы"
+jaJP = "金属プラットフォーム"
+frFR = "Plateformes métalliques"
+deDE = "Metallplattformen"
+plPL = "Metalowe platformy"
+ptBR = "Plataformas de metal"
+koKR = "금속 플랫폼"
+
+["Knatte.Subgroup_PE_MetalOverhang.DisplayName"]
+raw = "Metal Overhangs"
+status = "abandoned"
+enUS = "Metal Overhangs"
+zhCN = "金属悬挑"
+zhTW = "金屬懸挑"
+ruRU = "Металлические выступы"
+jaJP = "金属オーバーハング"
+frFR = "Surplombs métalliques"
+deDE = "Metallüberhänge"
+plPL = "Metalowe nawisy"
+ptBR = "Beirais de metal"
+koKR = "금속 돌출부"

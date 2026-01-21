@@ -1,5 +1,8 @@
+name = "Omni Bar & Todo List"
+
 ["LV.OB.KeyBindingOpen"]
 raw = "Omnibar: Open"
+status = "normal"
 enUS = "Omnibar: Open"
 zhCN = "多功能指令栏：打开"
 zhTW = "Omnibar：打開"
@@ -13,6 +16,7 @@ koKR = "옴니바: 열기"
 
 ["LV.OB.KeyBindingUp"]
 raw = "Omnibar: Move up"
+status = "normal"
 enUS = "Omnibar: Move up"
 zhCN = "多功能指令栏：上移"
 zhTW = "Omnibar：向上移動"
@@ -26,6 +30,7 @@ koKR = "옴니바: 위로 이동"
 
 ["LV.OB.KeyBindingDown"]
 raw = "Omnibar: Move down"
+status = "normal"
 enUS = "Omnibar: Move down"
 zhCN = "多功能指令栏：下移"
 zhTW = "全能欄：向下移動"
@@ -39,6 +44,7 @@ koKR = "옴니바: 아래로 이동"
 
 ["LV.OB.KeyBindingOpenToDo"]
 raw = "Omnibar: Manage Todo List"
+status = "normal"
 enUS = "Omnibar: Manage Todo List"
 zhCN = "多功能栏：管理待办事项列表"
 zhTW = "Omnibar：管理待辦清單"
@@ -52,6 +58,7 @@ koKR = "옴니바: 할 일 목록 관리"
 
 ["LV.OB.Cursor"]
 raw = "Cursor tool"
+status = "normal"
 enUS = "Cursor tool"
 zhCN = "光标工具"
 zhTW = "游標工具"
@@ -65,6 +72,7 @@ koKR = "커서 도구"
 
 ["LV.OB.TodoList"]
 raw = "Todo List"
+status = "normal"
 enUS = "Todo List"
 zhCN = "待办列表"
 zhTW = "待辦事項清單"
@@ -78,6 +86,7 @@ koKR = "작업 목록"
 
 ["LV.OB.TodoListEmpty"]
 raw = "No entry"
+status = "normal"
 enUS = "No entry"
 zhCN = "无关注事项"
 zhTW = "禁止入內"
@@ -91,6 +100,7 @@ koKR = "항목 없음"
 
 ["LV.OB.ManageTodo"]
 raw = "Manage"
+status = "normal"
 enUS = "Manage"
 zhCN = "管理事项"
 zhTW = "管理"
@@ -104,6 +114,7 @@ koKR = "관리"
 
 ["LV.OB.TodoListAdd"]
 raw = "Add new"
+status = "normal"
 enUS = "Add new"
 zhCN = "新增事项"
 zhTW = "新增"
@@ -117,6 +128,7 @@ koKR = "새로 추가"
 
 ["LV.OB.TodoListRemove"]
 raw = "Remove"
+status = "normal"
 enUS = "Remove"
 zhCN = "移除事项"
 zhTW = "移除"
@@ -130,6 +142,7 @@ koKR = "제거하다"
 
 ["LV.OB.TodoListCompleted"]
 raw = "Completed"
+status = "normal"
 enUS = "Completed"
 zhCN = "已完成（Completed）"
 zhTW = "已完成"
@@ -143,6 +156,7 @@ koKR = "완료됨"
 
 ["LV.OB.TodoListCompletedNote"]
 raw = "Check to mark this item as completed"
+status = "normal"
 enUS = "Check to mark this item as completed"
 zhCN = "勾选以标记此事项为已完成"
 zhTW = "檢查以標記此項目為已完成"
@@ -156,6 +170,7 @@ koKR = "이 항목을 완료로 표시하려면 체크하세요"
 
 ["LV.OB.TodoListPinned"]
 raw = "Pinned"
+status = "normal"
 enUS = "Pinned"
 zhCN = "关注（Pinned）"
 zhTW = "固定的"
@@ -169,6 +184,7 @@ koKR = "고정됨"
 
 ["LV.OB.TodoListPinnedNote"]
 raw = "Check to show this item on your list"
+status = "normal"
 enUS = "Check to show this item on your list"
 zhCN = "勾选以在列表中显示此事项"
 zhTW = "檢查以顯示此項目在您的清單中"
@@ -182,6 +198,7 @@ koKR = "리스트에 이 항목을 표시하려면 체크하세요"
 
 ["LV.OB.ClearCompleted"]
 raw = "Clear completed"
+status = "normal"
 enUS = "Clear completed"
 zhCN = "清除已完成事项"
 zhTW = "已完成清除"
@@ -195,6 +212,7 @@ koKR = "완료된 항목 지우기"
 
 ["LV.OB.NoItemSelected"]
 raw = "Please select an entry"
+status = "normal"
 enUS = "Please select an entry"
 zhCN = "请选择一个事项。"
 zhTW = "請選擇一個項目"
@@ -208,6 +226,7 @@ koKR = "항목을 선택해 주세요"
 
 ["LV.OB.RemoveConfirm"]
 raw = "Are you sure you want to remove this entry?"
+status = "normal"
 enUS = "Are you sure you want to remove this entry?"
 zhCN = "确定要移除此事项吗？"
 zhTW = "您確定要刪除這個項目嗎？"
@@ -221,6 +240,7 @@ koKR = "이 항목을 제거하시겠습니까?"
 
 ["LV.OB.ClearCompletedConfirm"]
 raw = "Are you sure you want to clear completed entries?"
+status = "normal"
 enUS = "Are you sure you want to clear completed entries?"
 zhCN = "确定要移除已完成的事项吗？"
 zhTW = "您確定要清除已完成的條目嗎？"
@@ -234,6 +254,7 @@ koKR = "완료된 항목을 삭제하시겠습니까?"
 
 ["LV.OB.NewEntryTitle"]
 raw = "Untitled"
+status = "normal"
 enUS = "Untitled"
 zhCN = "未命名"
 zhTW = "無標題"
@@ -247,6 +268,7 @@ koKR = "제목 없음"
 
 ["LV.OB.TodoTitle"]
 raw = "Title"
+status = "normal"
 enUS = "Title"
 zhCN = "标题"
 zhTW = "標題"
@@ -260,6 +282,7 @@ koKR = "제목"
 
 ["LV.OB.TodoNote"]
 raw = "Note"
+status = "normal"
 enUS = "Note"
 zhCN = "备注"
 zhTW = "注意"
@@ -273,6 +296,7 @@ koKR = "노트"
 
 ["LV.OB.TodoTimer"]
 raw = "Timer"
+status = "normal"
 enUS = "Timer"
 zhCN = "计时器（Timer）"
 zhTW = "計時器"
@@ -286,6 +310,7 @@ koKR = "타이머"
 
 ["LV.OB.TodoTimerReset"]
 raw = "Reset timer"
+status = "normal"
 enUS = "Reset timer"
 zhCN = "重置计时器"
 zhTW = "重置計時器"
@@ -299,6 +324,7 @@ koKR = "타이머 초기화"
 
 ["LV.OB.TodoBuilding"]
 raw = "Building"
+status = "normal"
 enUS = "Building"
 zhCN = "建筑"
 zhTW = "建築"
@@ -312,6 +338,7 @@ koKR = "건물"
 
 ["LV.OB.TodoBuildingQuantity"]
 raw = "Quantity:"
+status = "normal"
 enUS = "Quantity:"
 zhCN = "数量："
 zhTW = "數量："
@@ -325,6 +352,7 @@ koKR = "수량:"
 
 ["LV.OB.TodoBuildings"]
 raw = "Buildings"
+status = "normal"
 enUS = "Buildings"
 zhCN = "建筑列表"
 zhTW = "建築物"
@@ -338,6 +366,7 @@ koKR = "건물"
 
 ["LV.OB.TodoShowBuildingDetails"]
 raw = "Show building details"
+status = "normal"
 enUS = "Show building details"
 zhCN = "显示建筑详情"
 zhTW = "顯示建築詳細資訊"
@@ -351,6 +380,7 @@ koKR = "건물 세부정보 보기"
 
 ["LV.OB.Total"]
 raw = "Total"
+status = "normal"
 enUS = "Total"
 zhCN = "总计"
 zhTW = "總計"
@@ -364,6 +394,7 @@ koKR = "총합"
 
 ["LV.OB.Delete"]
 raw = "Delete"
+status = "normal"
 enUS = "Delete"
 zhCN = "删除"
 zhTW = "刪除"
@@ -377,6 +408,7 @@ koKR = "삭제"
 
 ["LV.OB.AddToTodoList"]
 raw = "Create To Do Entry"
+status = "normal"
 enUS = "Create To Do Entry"
 zhCN = "新建待办事项"
 zhTW = "建立待辦事項條目"
@@ -390,6 +422,7 @@ koKR = "할 일 항목 생성"
 
 ["LV.OB.AppendToTodoList"]
 raw = "Add to Existing To Do Entry"
+status = "normal"
 enUS = "Add to Existing To Do Entry"
 zhCN = "添加到现有待办事项"
 zhTW = "新增到現有的待辦事項條目"
@@ -403,6 +436,7 @@ koKR = "기존 할 일 항목에 추가"
 
 ["LV.OB.CommandAddTodo"]
 raw = "Add to To Do List"
+status = "normal"
 enUS = "Add to To Do List"
 zhCN = "添加到待办列表"
 zhTW = "加入待辦事項清單"
@@ -416,6 +450,7 @@ koKR = "할 일 목록에 추가"
 
 ["LV.OB.BatchControlDesc"]
 raw = "Open the {0} Settlement Management"
+status = "normal"
 enUS = "Open the {0} Settlement Management"
 zhCN = "打开{0}选项卡"
 zhTW = "打開 {0} 結算管理"
@@ -429,6 +464,7 @@ koKR = "{0} 정착지 관리 열기"
 
 ["LV.OB.CommandDescManage"]
 raw = "Open settlement managements (e.g /manage Housing)"
+status = "normal"
 enUS = "Open settlement managements (e.g /manage Housing)"
 zhCN = "打开聚居地面板。（例如：/manage 住房）"
 zhTW = "開放結算管理（例如 /manage Housing）"
@@ -442,6 +478,7 @@ koKR = "정착지 관리 열기 (예: /manage Housing)"
 
 ["LV.OB.CommandDescMath"]
 raw = "Quick in-game calculator (e.g =1+2^3)"
+status = "normal"
 enUS = "Quick in-game calculator (e.g =1+2^3)"
 zhCN = "快速游戏内计算器。（例如：=1+2^3）"
 zhTW = "快速的遊戲內計算器（例如 =1+2^3）"
@@ -455,6 +492,7 @@ koKR = "게임 내 빠른 계산기 (예: =1+2^3)"
 
 ["LV.OB.CommandDescFind"]
 raw = "Find a beaver, bot or anything by name. Can be used with \"More Naming\" mod."
+status = "normal"
 enUS = "Find a beaver, bot or anything by name. Can be used with \"More Naming\" mod."
 zhCN = "按名称查找海狸、机关人或其他内容。可与“More Naming”模组配合使用。"
 zhTW = "找到一只名為海狸的動物、機器人或任何東西。可以與「更多命名」模組一起使用。"
@@ -468,6 +506,7 @@ koKR = "이름으로 비버, 로봇 또는 어떤 것이라도 찾으십시오. 
 
 ["LV.OB.CommandDescTodo"]
 raw = "Add a To Do List item. Syntax: {0} [{1}] [To Do Title]"
+status = "normal"
 enUS = "Add a To Do List item. Syntax: {0} [{1}] [To Do Title]"
 zhCN = "添加事项到待办列表。（例如：{0} [{1}][To Do Title (待办标题)]"
 zhTW = "添加待辦事項。語法: {0} [{1}] [待辦標題]"

@@ -1,5 +1,8 @@
+name = "5 More Mins Ma!"
+
 ["LV.FMM.MaxDelay"]
 raw = "Maximum delayed wake up"
+status = "normal"
 enUS = "Maximum delayed wake up"
 zhCN = "最长赖床时间"
 zhTW = "最大延遲鬧鐘響起時間"
@@ -13,6 +16,7 @@ koKR = "최대 지연 깨우기"
 
 ["LV.FMM.MaxDelayDesc"]
 raw = "Maximum time (in hours) that beavers can wake up after morning."
+status = "normal"
 enUS = "Maximum time (in hours) that beavers can wake up after morning."
 zhCN = "海狸早上延迟出门的时间上限（模组默认：1小时）。"
 zhTW = "獺可以在早晨之後醒來的最長時間（以小時計）。"
@@ -26,6 +30,7 @@ koKR = "비버들이 아침 이후에 깨어날 수 있는 최대 시간(시간 
 
 ["LV.FMM.MinDelay"]
 raw = "Minimum delayed wake up"
+status = "normal"
 enUS = "Minimum delayed wake up"
 zhCN = "最短赖床时间"
 zhTW = "最少延遲喚醒時間"
@@ -39,6 +44,7 @@ koKR = "최소 지연 기상"
 
 ["LV.FMM.MinDelayDesc"]
 raw = "Minimum time (in hours) that beavers can wake up after morning."
+status = "normal"
 enUS = "Minimum time (in hours) that beavers can wake up after morning."
 zhCN = "海狸早上延迟出门的时间下限（模组默认：0小时）。"
 zhTW = "海狸在早晨醒來後的最短時間（以小時計）。"

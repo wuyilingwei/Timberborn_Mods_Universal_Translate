@@ -1,5 +1,8 @@
+name = "Overhang Levee"
+
 ["Building.OverhangLevee.Description"]
 raw = "Levee to make Overhang base watertight."
+status = "normal"
 enUS = "Levee to make Overhang base watertight."
 zhCN = "用于在悬挑底部阻断水流的特殊防洪堤。"
 zhTW = "堤防以使懸臂基座防水。"
@@ -13,6 +16,7 @@ koKR = "오버행 기반을 방수 처리하는 제방."
 
 ["Building.OverhangLevee.DisplayName"]
 raw = "Overhang Levee"
+status = "normal"
 enUS = "Overhang Levee"
 zhCN = "悬挑防洪堤"
 zhTW = "懸垂堤防"
@@ -24,8 +28,13 @@ plPL = "Wyniesiony wał przeciwpowodziowy"
 ptBR = "Dique de Sobrecarga"
 koKR = "돌출 제방"
 
+["Buildings.UnsuitableMiddleBuilding"]
+new = "This building needs to be built under one of {0}"
+status = "normal"
+
 ["Buildings.UnsuitableTopBuilding"]
 raw = "This building needs to be built under one of {0}"
+status = "abandoned"
 enUS = "This building needs to be built under one of {0}"
 zhCN = "必须放在{0}下方。"
 zhTW = "這座建築需要在其中一個 {0} 之下建造。"

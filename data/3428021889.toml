@@ -1,5 +1,8 @@
+name = "Configurable Pumps"
+
 ["LV.SPE.AllFixedDepth"]
 raw = "Use fixed depth"
+status = "normal"
 enUS = "Use fixed depth"
 zhCN = "水泵深度定值"
 zhTW = "使用固定深度"
@@ -13,6 +16,7 @@ koKR = "고정 깊이 사용"
 
 ["LV.SPE.AllFixedDepthDesc"]
 raw = "All pumps will have a fixed maximum depth"
+status = "normal"
 enUS = "All pumps will have a fixed maximum depth."
 zhCN = "勾选后，启用下列选项，可以将所有种类的水泵的最大深度更改为固定值。"
 zhTW = "所有泵將有一個固定的最大深度。"
@@ -26,6 +30,7 @@ koKR = "모든 펌프는 고정된 최대 깊이를 가집니다."
 
 ["LV.SPE.FixedDepth"]
 raw = "Fixed depth"
+status = "normal"
 enUS = "Fixed depth"
 zhCN = "深度定值"
 zhTW = "固定深度"
@@ -39,6 +44,7 @@ koKR = "고정 깊이"
 
 ["LV.SPE.FixedDepthDesc"]
 raw = "The fixed depth for all pump maximum depths"
+status = "normal"
 enUS = "The fixed depth for all pump maximum depths."
 zhCN = "可以将所有种类的水泵的最大深度更改为固定值。"
 zhTW = "所有泵的最大深度固定深度"
@@ -52,6 +58,7 @@ koKR = "모든 펌프 최대 깊이에 대한 고정 깊이"
 
 ["LV.SPE.AllMultiplier"]
 raw = "Use multiplier"
+status = "normal"
 enUS = "Use multiplier"
 zhCN = "水泵深度倍数"
 zhTW = "使用乘數"
@@ -65,6 +72,7 @@ koKR = "배율 사용"
 
 ["LV.SPE.AllMultiplierDesc"]
 raw = "All pumps will use a multiplier for maximum depth"
+status = "normal"
 enUS = "All pumps will use a multiplier for maximum depth."
 zhCN = "勾选后，启用下列选项，可以将所有种类的水泵的最大深度更改为原来的N倍。"
 zhTW = "所有泵浦將使用乘數來計算最大深度。"
@@ -78,6 +86,7 @@ koKR = "모든 펌프는 최대 깊이에 대한 배수를 사용합니다"
 
 ["LV.SPE.Multiplier"]
 raw = "Multiplier"
+status = "normal"
 enUS = "Multiplier"
 zhCN = "深度倍数"
 zhTW = "乘數"
@@ -91,6 +100,7 @@ koKR = "배수기"
 
 ["LV.SPE.MultiplierDesc"]
 raw = "The multiplier for all pump maximum depths"
+status = "normal"
 enUS = "The multiplier for all pump maximum depths"
 zhCN = "可以将所有种类的水泵的最大深度更改为原来的N倍（游戏默认：1）。"
 zhTW = "所有泵最大深度的乘數"
@@ -104,6 +114,7 @@ koKR = "모든 펌프 최대 깊이에 대한 배수기"
 
 ["LV.SPE.WaterConversation"]
 raw = "Water product conversion rate"
+status = "normal"
 enUS = "Water product conversion rate"
 zhCN = "液体转换率"
 zhTW = "水產品轉換率"
@@ -117,6 +128,8 @@ koKR = "물 제품 전환 비율"
 
 ["LV.SPE.WaterConversationDesc"]
 raw = "The conversion rate for water product vs. volume (Game default: 0.2, meaning Water Pumps take 0.2cm³ to produce 1 Water product and Water Dumps produce 0.2cm³ per Water product)"
+new = "The conversion rate for water product vs. volume.\nGame default: 0.2, meaning Water Pumps take 0.2m³ to produce 1 Water product and Water Dumps produce 0.2m³ per Water product"
+status = "normal"
 enUS = "The conversion rate for water product vs. volume (Game default: 0.2, meaning Water Pumps require 0.2cm³ to produce 1 water product and Water Dumps generate 0.2cm³ per water product)"
 zhCN = "可以更改液体产物（水、恶水）与抽取体积的转换率（游戏默认：0.2m³，即1单位水相当于0.2m³的水体）。"
 zhTW = "水產品與體積的轉換率（遊戲預設：0.2，意味著水泵需要 0.2cm³ 來生產 1 個水產品，而水排放器每個水產品產生 0.2cm³）"
@@ -130,6 +143,7 @@ koKR = "수조 제품과 부피 간의 변환 비율(게임 기본값: 0.2, 즉 
 
 ["LV.SPE.MechPumpWater"]
 raw = "Mechanical pump amount (⚡!)"
+status = "normal"
 enUS = "Mechanical pump amount (⚡!)"
 zhCN = "机械泵流量"
 zhTW = "機械泵數量 (⚡!)"
@@ -143,6 +157,8 @@ koKR = "기계 펌프 양 (⚡!)"
 
 ["LV.SPE.MechPumpWaterDesc"]
 raw = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly, see below."
+new = "The amount of water per second that the mechanical pump pumps (Game default: 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly, see below."
+status = "normal"
 enUS = "The amount of water per second that the mechanical pump pumps (Game default: 0.25cm³/s). ⚡ Note: changing this also increases or decreases power usage accordingly, see below."
 zhCN = "可以更改液体机械泵每秒泵送的流量（游戏默认：0.25cms，每秒0.5立方米）。<br>注意，更改此值也会相应增加或减少液体机械泵的功耗，详见相应设置。"
 zhTW = "每秒機械泵抽水的量（遊戲預設：0.25cm³/s）。  \n⚡ 注意：更改此數值也會相應地增加或減少耗電量，詳情見下文。"
@@ -156,6 +172,7 @@ koKR = "기계 펌프가 초당 펌프하는 물의 양 (게임 기본값: 0.25c
 
 ["LV.SPE.MechPumpWaterMul"]
 raw = "Mechanical pump amount multiplier (⚡!)"
+status = "normal"
 enUS = "Mechanical pump amount multiplier (⚡!)"
 zhCN = "机械泵流量倍数"
 zhTW = "機械泵水量倍增器 (⚡!)"
@@ -169,6 +186,7 @@ koKR = "기계 펌프 양 배수기 (⚡!)"
 
 ["LV.SPE.MechPumpWaterMulDesc"]
 raw = "The multiplier for the amount of water per second that the mechanical pump pumps (Game default: 1x = 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly.\nNote: don't increase this too much (> x2) as the pump can only take water from 1 cube anyway."
+status = "normal"
 enUS = "The multiplier for the amount of water per second that the mechanical pump pumps (Game default: 1x = 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly.\nNote: don't increase this too much (> x2) as the pump can only take water from 1 cube anyway."
 zhCN = "可以将机械液体泵每秒泵送的流量更改为原来的N倍（游戏默认：1，即0.25cms，每秒0.25立方米）。<br>注意，更改此值也会相应增加或减少液体机械泵的功耗，详见相应设置。<br>注意，不建议倍数过大（>2倍），因为液体泵只能从一格抽水。"
 zhTW = "關鍵名稱：LV.SPE.MechPumpWaterMulDesc - 新文本翻譯：「機械泵每秒抽水量的倍數（遊戲默認值：1倍 = 0.25立方米/秒）。\n⚡ 注意：更改此值會相應增加或減少電力消耗。\n注意：不要將此值調得太高（> 2倍），因為泵每次只能從1個立方體抽水。」"
@@ -182,6 +200,7 @@ koKR = "기계 펌프가 초당 펌프질하는 물의 양에 대한 배수기 (
 
 ["LV.SPE.MechPumpPowerMultiplier"]
 raw = "Mechanical pump power multiplier"
+status = "normal"
 enUS = "Mechanical pump power multiplier"
 zhCN = "机械泵功率倍数"
 zhTW = "機械泵功率倍增器"
@@ -195,6 +214,8 @@ koKR = "기계 펌프 전력 배율"
 
 ["LV.SPE.MechPumpPowerDesc"]
 raw = "By default, this mod keeps the power usage at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheater :P) that ratio. Game default: 1x"
+new = "When you increase or decrease the mechanical pump water amount, the power usage is also adjusted accordingly.\nYou can, however, change the power usage multiplier here to make it use more or less (cheating :P) power than the default calculation.\nFor example, setting Water amount to x2 while setting this to x0.5 will make the pump use the same power as default, but pump double the water."
+status = "normal"
 enUS = "By default, this mod keeps the power usage at 700HP per 0.25cm³. Use this modifier to increase or decrease (cheater :P) that ratio. Game default: 1x"
 zhCN = "可以将机械液体泵的单位功耗更改为原来的N倍（游戏默认：1，即每0.25cms流量需要消耗1个单位的马力，即700马力）。<br>注意，机械泵流量的修改也会影响机械泵功率，所以还需乘以机械泵流量对应的倍数。"
 zhTW = "默認情況下，此模組將功率使用保持在每0.25立方厘米700馬力。使用此修飾符來增加或減少（作弊 :P）該比例。遊戲默認值：1倍"
@@ -208,6 +229,7 @@ koKR = "기본적으로 이 모드는 0.25cm³당 700HP의 전력 사용량을 �
 
 ["LV.SPE.WaterProdTimeMultiplier"]
 raw = "Water production time multiplier"
+status = "normal"
 enUS = "Water production time multiplier"
 zhCN = "液体产出时间倍数"
 zhTW = "水生產時間乘數"
@@ -221,6 +243,8 @@ koKR = "물 생산 시간 배율"
 
 ["LV.SPE.WaterProdTimeMultiplierDesc"]
 raw = "The multiplier for water production time. For example: Game default 0.33 hour for 1 Water for Water Pumps, setting this to 0.5 will make it 0.16.5 hour for 1 Water"
+new = "The multiplier for water production time (higher is harder). Game default 1x = 0.33 hour for 1 Water for Water Pumps. Setting this to 0.5 will make it produce 1 water in 0.165 hour while setting it to 2 will make it produce 1 water in 0.66 hour."
+status = "normal"
 enUS = "The multiplier for water production time. For example: the game default is 0.33 hours for 1 Water from Water Pumps; setting this to 0.5 will make it 0.16.5 hours for 1 Water."
 zhCN = "可以将所有种类的水泵产出液体的时间更改为原来的N倍（游戏默认：1）。"
 zhTW = "水產量生產時間的倍數。例如：遊戲默認為水泵生產1水需要0.33小時，將其設置為0.5將使1水的生產時間變為0.16.5小時。"

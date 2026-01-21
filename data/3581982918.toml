@@ -1,5 +1,8 @@
+name = "Configurable Fun!"
+
 ["LV.CFun.PointMul"]
 raw = "Effect multiplier"
+status = "normal"
 enUS = "Effect multiplier"
 zhCN = "效果倍数"
 zhTW = "效果乘數"
@@ -13,6 +16,7 @@ koKR = "효과 배수"
 
 ["LV.CFun.PointMulDesc"]
 raw = "How fast the Need point increases for Attraction buildings.\n1 is the game default, higher is faster (easier), lower is slower (harder)."
+status = "normal"
 enUS = "How fast the Need point increases for Attraction buildings.\n1 is the game default, higher is faster (easier), lower is slower (harder)."
 zhCN = "可以将建筑的影响效率更改为原本的N倍（游戏默认：1）。"
 zhTW = "關鍵名稱：LV.CFun.PointMulDesc - 新翻譯文本：“吸引建築物的需求點增加速度。  \n1 是遊戲預設值，數值越高越快（更容易），數值越低越慢（更困難）。”"
@@ -26,6 +30,7 @@ koKR = "매력 건물에 대한 필요 포인트가 증가하는 속도입니다
 
 ["LV.CFun.CapacityMul"]
 raw = "Capacity multiplier"
+status = "normal"
 enUS = "Capacity multiplier"
 zhCN = "游客倍数"
 zhTW = "容量增益倍率"
@@ -39,6 +44,7 @@ koKR = "용량 배수기"
 
 ["LV.CFun.CapacityMulDesc"]
 raw = "Multiply the capacity of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more capacity (easier), lower is less capacity (harder).\nFor example, 1.5 means Campfire (default 5 spots) would have 7 spots."
+status = "normal"
 enUS = "Multiply the capacity of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more capacity (easier), lower is less capacity (harder).\nFor example, 1.5 means Campfire (default 5 spots) would have 7 spots."
 zhCN = "可以将建筑的游客数更改为原本的N倍（游戏默认：1），向下取整且最小为1。"
 zhTW = "乘以吸引建築物的容量。向下取整，最低為 1。\n1 是遊戲的預設值，更高則容量更大（更容易），更低則容量更小（更困難）。\n例如，1.5 意味著篝火（預設 5 個位置）將擁有 7 個位置。"
@@ -52,6 +58,7 @@ koKR = "어트랙션 건물의 용량을 곱합니다. 최소 1로 내림 처리
 
 ["LV.CFun.CapacityAdd"]
 raw = "Capacity addition"
+status = "normal"
 enUS = "Capacity addition"
 zhCN = "游客加数"
 zhTW = "容量增加"
@@ -65,6 +72,7 @@ koKR = "용량 추가"
 
 ["LV.CFun.CapacityAddDesc"]
 raw = "Add to the capacity of Attraction buildings. After multiplication."
+status = "normal"
 enUS = "Add to the capacity of Attraction buildings. After multiplication."
 zhCN = "可以在应用“容量倍数”后额外增加或减少游客数。"
 zhTW = "增加吸引建築的容量。在乘法之後。"
@@ -78,6 +86,7 @@ koKR = "매력 건물의 용량을 추가합니다. 곱셈 이후."
 
 ["LV.CFun.RangeMul"]
 raw = "Range multiplier"
+status = "normal"
 enUS = "Range multiplier"
 zhCN = "范围倍数"
 zhTW = "範圍乘數"
@@ -91,6 +100,7 @@ koKR = "범위 곱셈기"
 
 ["LV.CFun.RangeMulDesc"]
 raw = "Multiply the range of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more range (easier), lower is less range (harder).\nFor example, 1.5 means Farmer Monument (default 7 tiles range) would have 10 tiles range."
+status = "normal"
 enUS = "Multiply the range of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more range (easier), lower is less range (harder).\nFor example, 1.5 means Farmer Monument (default 7 tiles range) would have 10 tiles range."
 zhCN = "可以将建筑的影响范围更改为原本的N倍（游戏默认：1），向下取整且最小为1。"
 zhTW = "關鍵名稱：LV.CFun.RangeMulDesc - 新文本翻譯：\"增加吸引建築的範圍。向下取整，最小為1。 1是遊戲的默認值，更高代表範圍更大（更容易），更低則代表範圍更小（更困難）。例如，1.5意味著農民紀念碑（默認範圍為7個格子）將有10個格子的範圍。\""
@@ -104,6 +114,7 @@ koKR = "매력 건물의 범위를 곱합니다. 최소 1로 내림 처리됩니
 
 ["LV.CFun.RangeAdd"]
 raw = "Range addition"
+status = "normal"
 enUS = "Range addition"
 zhCN = "范围加数"
 zhTW = "範圍相加"
@@ -117,6 +128,7 @@ koKR = "범위 추가"
 
 ["LV.CFun.RangeAddDesc"]
 raw = "Add to the range of Attraction buildings. After multiplication."
+status = "normal"
 enUS = "Add to the range of Attraction buildings. After multiplication."
 zhCN = "可以在应用“范围倍数”后额外增加或减少影响范围。"
 zhTW = "將吸引建築的範圍增加。在乘法之後。"

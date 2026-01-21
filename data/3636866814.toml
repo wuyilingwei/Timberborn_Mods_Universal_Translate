@@ -1,5 +1,8 @@
+name = "Unknown"
+
 ["BeaverStatistics.TabName"]
 raw = "Beaver Productivity"
+status = "abandoned"
 enUS = "Beaver Productivity"
 zhCN = "工作效率"
 zhTW = "「海狸生產力」"
@@ -13,6 +16,7 @@ koKR = "비버 생산성"
 
 ["BeaverStatistics.KeyBinding"]
 raw = "Beaver Productivity Tab"
+status = "abandoned"
 enUS = "Beaver Productivity Tab"
 zhCN = "打开工作效率选项卡"
 zhTW = "「河狸生產力選項卡」"
@@ -26,6 +30,7 @@ koKR = "비버 생산성 탭"
 
 ["BeaverStatistics.Settings.Header"]
 raw = "Beaver Statistics Settings"
+status = "abandoned"
 enUS = "Beaver Statistics Settings"
 zhCN = "工作效率统计设置"
 zhTW = "海狸統計設置"
@@ -39,6 +44,7 @@ koKR = "비버 통계 설정"
 
 ["BeaverStatistics.Settings.UpdateInterval"]
 raw = "Update Interval (% of day)"
+status = "abandoned"
 enUS = "Update Interval (% of day)"
 zhCN = "更新间隔（%）"
 zhTW = "更新間隔（% 的一天）"
@@ -52,6 +58,7 @@ koKR = "업데이트 간격 (% 하루 기준)"
 
 ["BeaverStatistics.Settings.UpdateInterval.Tooltip"]
 raw = "How often to update statistics for long-running activities. 1% = 14.4min, 10% = 2.4hrs, 100% = 24hrs"
+status = "abandoned"
 enUS = "How often to update statistics for long-running activities. 1% = 14.4min, 10% = 2.4hrs, 100% = 24hrs"
 zhCN = "统计较长耗时行为数据的更新频率，以游戏中的一天为基准（1% = 0.24小时，10% = 2.4小时，100% = 24小时）。"
 zhTW = "“多長時間更新一次長期活動的統計數據。1% = 14.4分鐘，10% = 2.4小時，100% = 24小時”"
@@ -65,6 +72,7 @@ koKR = "장기 활동에 대한 통계를 얼마나 자주 업데이트할지 �
 
 ["BeaverStatistics.Settings.YellowThreshold"]
 raw = "Yellow Warning Threshold (%)"
+status = "abandoned"
 enUS = "Yellow Warning Threshold (%)"
 zhCN = "黄色警告阈值（%）"
 zhTW = "黃色警告閾值 (%)"
@@ -78,6 +86,7 @@ koKR = "노란 경고 임계값 (%)"
 
 ["BeaverStatistics.Settings.YellowThreshold.Tooltip"]
 raw = "Behaviors taking more than this percentage will be shown in yellow"
+status = "abandoned"
 enUS = "Behaviors taking more than this percentage will be shown in yellow"
 zhCN = "耗时超过此百分比的行为将显示为黄色。"
 zhTW = "超過此百分比的行為將以黃色顯示"
@@ -91,6 +100,7 @@ koKR = "이 비율을 초과하는 행동은 노란색으로 표시됩니다."
 
 ["BeaverStatistics.Settings.RedThreshold"]
 raw = "Red Alert Threshold (%)"
+status = "abandoned"
 enUS = "Red Alert Threshold (%)"
 zhCN = "红色警报阈值（%）"
 zhTW = "紅色警報閾值 (%)"
@@ -104,6 +114,7 @@ koKR = "적색 경고 임계값 (%)"
 
 ["BeaverStatistics.Settings.RedThreshold.Tooltip"]
 raw = "Behaviors taking more than this percentage will be shown in red"
+status = "abandoned"
 enUS = "Behaviors taking more than this percentage will be shown in red"
 zhCN = "耗时超过此百分比的行为将显示为红色。"
 zhTW = "超過此百分比的行為將顯示為紅色"
@@ -117,6 +128,7 @@ koKR = "이 비율을 초과하는 행동은 빨간색으로 표시됩니다."
 
 ["BeaverStatistics.Behavior.WanderRootBehavior"]
 raw = "Wander"
+status = "abandoned"
 enUS = "Wander"
 zhCN = "闲逛"
 zhTW = "徘徊"
@@ -130,6 +142,7 @@ koKR = "방황"
 
 ["BeaverStatistics.Behavior.CarryRootBehavior"]
 raw = "Carry"
+status = "abandoned"
 enUS = "Carry"
 zhCN = "搬运"
 zhTW = "攜帶"
@@ -143,6 +156,7 @@ koKR = "운반"
 
 ["BeaverStatistics.Behavior.CharacterControlRootBehavior"]
 raw = "Controlled"
+status = "abandoned"
 enUS = "Controlled"
 zhCN = "受控"
 zhTW = "控制中"
@@ -156,6 +170,7 @@ koKR = "제어됨"
 
 ["BeaverStatistics.Behavior.DeadRootBehavior"]
 raw = "Dead"
+status = "abandoned"
 enUS = "Dead"
 zhCN = "死亡"
 zhTW = "死亡"
@@ -169,6 +184,7 @@ koKR = "죽음"
 
 ["BeaverStatistics.Behavior.DieRootBehavior"]
 raw = "Dying"
+status = "abandoned"
 enUS = "Dying"
 zhCN = "濒死"
 zhTW = "垂死"
@@ -182,6 +198,7 @@ koKR = "죽음"
 
 ["BeaverStatistics.Behavior.ContaminateRootBehavior"]
 raw = "Contaminated"
+status = "abandoned"
 enUS = "Contaminated"
 zhCN = "受污染"
 zhTW = "已污染"
@@ -195,6 +212,7 @@ koKR = "오염됨"
 
 ["BeaverStatistics.Behavior.CriticalNeederRootBehavior"]
 raw = "Critical Need"
+status = "abandoned"
 enUS = "Critical Need"
 zhCN = "紧急需求"
 zhTW = "「緊急需求」"
@@ -208,6 +226,7 @@ koKR = "결정적 필요"
 
 ["BeaverStatistics.Behavior.StrandedRootBehavior"]
 raw = "Stranded"
+status = "abandoned"
 enUS = "Stranded"
 zhCN = "被困"
 zhTW = "孤立"
@@ -221,6 +240,7 @@ koKR = "좌초된"
 
 ["BeaverStatistics.Behavior.WorkerRootBehavior"]
 raw = "Worker"
+status = "abandoned"
 enUS = "Worker"
 zhCN = "工作"
 zhTW = "工人"
@@ -234,6 +254,7 @@ koKR = "작업자"
 
 ["BeaverStatistics.Behavior.NeederRootBehavior"]
 raw = "Need"
+status = "abandoned"
 enUS = "Need"
 zhCN = "需求"
 zhTW = "需求"
@@ -247,6 +268,7 @@ koKR = "필요"
 
 ["BeaverStatistics.Behavior.SleepNeedBehavior"]
 raw = "Sleep Need"
+status = "abandoned"
 enUS = "Sleep Need"
 zhCN = "睡眠需求"
 zhTW = "睡眠需求"
@@ -260,6 +282,7 @@ koKR = "수면 필요"
 
 ["BeaverStatistics.Behavior.ChildRootBehavior"]
 raw = "Child"
+status = "abandoned"
 enUS = "Child"
 zhCN = "幼崽"
 zhTW = "幼崽"
@@ -273,6 +296,7 @@ koKR = "어린이"
 
 ["BeaverStatistics.Behavior.BuilderHubWorkplaceBehavior"]
 raw = "Builder Hub Work"
+status = "abandoned"
 enUS = "Builder Hub Work"
 zhCN = "建筑工中转工作"
 zhTW = "建造者中心工作"
@@ -286,6 +310,7 @@ koKR = "건축가 허브 작업"
 
 ["BeaverStatistics.Behavior.BuildBehavior"]
 raw = "Building"
+status = "abandoned"
 enUS = "Building"
 zhCN = "建造建筑"
 zhTW = "建築中"
@@ -299,6 +324,7 @@ koKR = "건축 중"
 
 ["BeaverStatistics.Behavior.EmptyInventoriesWorkplaceBehavior"]
 raw = "Emptying Inventories"
+status = "abandoned"
 enUS = "Emptying Inventories"
 zhCN = "清空库存"
 zhTW = "清空庫存"
@@ -312,6 +338,7 @@ koKR = "재고 비우기"
 
 ["BeaverStatistics.Behavior.FarmHouseGoodStackRetrieverWorkplaceBehavior"]
 raw = "Farm House Retrieval"
+status = "abandoned"
 enUS = "Farm House Retrieval"
 zhCN = "农屋取物"
 zhTW = "農house取回"
@@ -325,6 +352,7 @@ koKR = "농가 회수"
 
 ["BeaverStatistics.Behavior.FillInputWorkplaceBehavior"]
 raw = "Filling Input"
+status = "abandoned"
 enUS = "Filling Input"
 zhCN = "补充原料"
 zhTW = "填充輸入"
@@ -338,6 +366,7 @@ koKR = "입력 채우기"
 
 ["BeaverStatistics.Behavior.LumberjackFlagWorkplaceBehavior"]
 raw = "Lumberjack Work"
+status = "abandoned"
 enUS = "Lumberjack Work"
 zhCN = "伐木工工作"
 zhTW = "「樵夫工作」"
@@ -351,6 +380,7 @@ koKR = "벌목작업"
 
 ["BeaverStatistics.Behavior.GatherWorkplaceBehavior"]
 raw = "Gathering"
+status = "abandoned"
 enUS = "Gathering"
 zhCN = "采集"
 zhTW = "收集中"
@@ -364,6 +394,7 @@ koKR = "수집 중"
 
 ["BeaverStatistics.Behavior.FarmHouseGoodStackRetrieverBehavior"]
 raw = "Farm House Retrieval"
+status = "abandoned"
 enUS = "Farm House Retrieval"
 zhCN = "取走农屋物品"
 zhTW = "農舍回收"
@@ -377,6 +408,7 @@ koKR = "농장 집 회수"
 
 ["BeaverStatistics.Behavior.HaulWorkplaceBehavior"]
 raw = "Hauling"
+status = "abandoned"
 enUS = "Hauling"
 zhCN = "拖运"
 zhTW = "搬運"
@@ -390,6 +422,7 @@ koKR = "운반"
 
 ["BeaverStatistics.Behavior.TimberborneWorkplaceBehavior"]
 raw = "Workplace"
+status = "abandoned"
 enUS = "Workplace"
 zhCN = "工作场所"
 zhTW = "工作場所"
@@ -403,6 +436,7 @@ koKR = "작업장"
 
 ["BeaverStatistics.Behavior.PlanterWorkplaceBehavior"]
 raw = "Planting"
+status = "abandoned"
 enUS = "Planting"
 zhCN = "种植"
 zhTW = "栽種"
@@ -416,6 +450,7 @@ koKR = "식재"
 
 ["BeaverStatistics.Behavior.RecoveredGoodStackRetrievingBehavior"]
 raw = "Recovering Goods"
+status = "abandoned"
 enUS = "Recovering Goods"
 zhCN = "回收物资"
 zhTW = "回收物品"
@@ -429,6 +464,7 @@ koKR = "물품 회수"
 
 ["BeaverStatistics.Behavior.ScavengerWorkplaceBehavior"]
 raw = "Scavenging"
+status = "abandoned"
 enUS = "Scavenging"
 zhCN = "拾荒"
 zhTW = "scavenging - \"搜刮\""
@@ -442,6 +478,7 @@ koKR = "채집"
 
 ["BeaverStatistics.Behavior.WaitInsideIdlyWorkplaceBehavior"]
 raw = "Waiting Idly"
+status = "abandoned"
 enUS = "Waiting Idly"
 zhCN = "空闲（停滞）"
 zhTW = "靜候中"
@@ -455,6 +492,7 @@ koKR = "가만히 기다리기"
 
 ["BeaverStatistics.Behavior.YieldRemoverBehavior"]
 raw = "Removing Yield"
+status = "abandoned"
 enUS = "Removing Yield"
 zhCN = "收获"
 zhTW = "移除產量"
@@ -468,6 +506,7 @@ koKR = "수확 제거"
 
 ["BeaverStatistics.Behavior.ProduceWorkplaceBehavior"]
 raw = "Producing"
+status = "abandoned"
 enUS = "Producing"
 zhCN = "生产"
 zhTW = "生產中"
@@ -481,6 +520,7 @@ koKR = "생산 중"
 
 ["BeaverStatistics.Behavior.WorkWorkplaceBehavior"]
 raw = "Work"
+status = "abandoned"
 enUS = "Work"
 zhCN = "工作"
 zhTW = "工作"
@@ -494,6 +534,7 @@ koKR = "일"
 
 ["BeaverStatistics.Behavior.WaitForInactiveWonderWorkplaceBehavior"]
 raw = "Waiting for Wonder"
+status = "abandoned"
 enUS = "Waiting for Wonder"
 zhCN = "等待奇观启动"
 zhTW = "等待奇迹"
@@ -507,6 +548,7 @@ koKR = "경이로움 대기 중"
 
 ["BeaverStatistics.Behavior.SupplyGoodWorkplaceBehavior"]
 raw = "Supplying Goods"
+status = "abandoned"
 enUS = "Supplying Goods"
 zhCN = "供应物资"
 zhTW = "供應貨物"
@@ -520,6 +562,7 @@ koKR = "물품 공급"
 
 ["BeaverStatistics.Behavior.ObtainGoodWorkplaceBehavior"]
 raw = "Obtaining Goods"
+status = "abandoned"
 enUS = "Obtaining Goods"
 zhCN = "获取物资"
 zhTW = "獲得貨物"
@@ -533,6 +576,7 @@ koKR = "물건 획득"
 
 ["BeaverStatistics.Behavior.BringNutrientWorkplaceBehavior"]
 raw = "Bringing Nutrients"
+status = "abandoned"
 enUS = "Bringing Nutrients"
 zhCN = "运送养分"
 zhTW = "攜帶營養"
@@ -546,6 +590,7 @@ koKR = "영양분 가져오기"
 
 ["BeaverStatistics.Behavior.LaborWorkplaceBehavior"]
 raw = "Laboring"
+status = "abandoned"
 enUS = "Laboring"
 zhCN = "劳作"
 zhTW = "「勞動中」"
@@ -559,6 +604,7 @@ koKR = "노동 중"
 
 ["BeaverStatistics.Behavior.FarmHouseWorkplaceBehavior"]
 raw = "Farm House Work"
+status = "abandoned"
 enUS = "Farm House Work"
 zhCN = "农屋工作"
 zhTW = "農舍工作"
@@ -572,6 +618,7 @@ koKR = "농가 작업"
 
 ["BeaverStatistics.Behavior.EmptyOutputWorkplaceBehavior"]
 raw = "Emptying Output"
+status = "abandoned"
 enUS = "Emptying Output"
 zhCN = "清空产物"
 zhTW = "清空輸出"
@@ -585,6 +632,7 @@ koKR = "출력 비우기"
 
 ["BeaverStatistics.Behavior.RemoveUnwantedStockWorkplaceBehavior"]
 raw = "Removing Unwanted Stock"
+status = "abandoned"
 enUS = "Removing Unwanted Stock"
 zhCN = "移除多余库存"
 zhTW = "移除不必要的庫存"
@@ -598,6 +646,7 @@ koKR = "원치 않는 재고 제거"
 
 ["BeaverStatistics.Behavior.DistrictCrossingWorkplaceBehavior"]
 raw = "District Crossing"
+status = "abandoned"
 enUS = "District Crossing"
 zhCN = "跨越地区"
 zhTW = "區域穿越"
@@ -611,6 +660,7 @@ koKR = "구역 교차"
 
 ["BeaverStatistics.Behavior.AttractionNeed"]
 raw = "Attraction Need"
+status = "abandoned"
 enUS = "Attraction Need"
 zhCN = "娱乐需求"
 zhTW = "吸引需求"
@@ -624,6 +674,7 @@ koKR = "끌림 필요"
 
 ["BeaverStatistics.Behavior.InventoryNeed"]
 raw = "Inventory Need"
+status = "abandoned"
 enUS = "Inventory Need"
 zhCN = "进食需求"
 zhTW = "庫存需求"
@@ -637,6 +688,7 @@ koKR = "재고 필요"
 
 ["BeaverStatistics.Executor.WalkToPositionExecutor"]
 raw = "Walking to Position"
+status = "abandoned"
 enUS = "Walking to Position"
 zhCN = "行走至位置"
 zhTW = "走向位置"
@@ -650,6 +702,7 @@ koKR = "위치로 이동 중"
 
 ["BeaverStatistics.Executor.WalkInsideExecutor"]
 raw = "Walking Inside"
+status = "abandoned"
 enUS = "Walking Inside"
 zhCN = "行走于建筑内"
 zhTW = "走在裡面"
@@ -663,6 +716,7 @@ koKR = "실내 걷기"
 
 ["BeaverStatistics.Executor.ApplyEffectExecutor"]
 raw = "Applying Effect"
+status = "abandoned"
 enUS = "Applying Effect"
 zhCN = "施加效果/补充需求中"
 zhTW = "應用效果"
@@ -676,6 +730,7 @@ koKR = "효과 적용 중"
 
 ["BeaverStatistics.Executor.WalkToAccessibleExecutor"]
 raw = "Walking to Target"
+status = "abandoned"
 enUS = "Walking to Target"
 zhCN = "行走至目标"
 zhTW = "行走至目標"
@@ -689,6 +744,7 @@ koKR = "목표로 걸어가기"
 
 ["BeaverStatistics.Executor.AnimateExecutor"]
 raw = "Animating"
+status = "abandoned"
 enUS = "Animating"
 zhCN = "播放动画"
 zhTW = "動畫中"
@@ -702,6 +758,7 @@ koKR = "애니메이션 중"
 
 ["BeaverStatistics.Executor.WaitExecutor"]
 raw = "Waiting"
+status = "abandoned"
 enUS = "Waiting"
 zhCN = "发呆中"
 zhTW = "等待"
@@ -715,6 +772,7 @@ koKR = "대기 중"
 
 ["BeaverStatistics.Executor.WorkExecutor"]
 raw = "Working"
+status = "abandoned"
 enUS = "Working"
 zhCN = "工作中"
 zhTW = "「工作中」"
@@ -728,6 +786,7 @@ koKR = "작업 중"
 
 ["BeaverStatistics.Executor.ProduceExecutor"]
 raw = "Producing"
+status = "abandoned"
 enUS = "Producing"
 zhCN = "生产中"
 zhTW = "生產中"
@@ -741,6 +800,7 @@ koKR = "생산 중"
 
 ["BeaverStatistics.Executor.PlantExecutor"]
 raw = "Planting"
+status = "abandoned"
 enUS = "Planting"
 zhCN = "种植中"
 zhTW = "種植"
@@ -754,6 +814,7 @@ koKR = "식물 심기"
 
 ["BeaverStatistics.Executor.WalkToReservableExecutor"]
 raw = "Walking to Reservable"
+status = "abandoned"
 enUS = "Walking to Reservable"
 zhCN = "行走至收获对象"
 zhTW = "走向可儲備地點"
@@ -767,6 +828,7 @@ koKR = "예약 가능 장소로 걷는 중"
 
 ["BeaverStatistics.Executor.RemoveYieldExecutor"]
 raw = "Harvesting"
+status = "abandoned"
 enUS = "Harvesting"
 zhCN = "收获中"
 zhTW = "收穫"
@@ -780,6 +842,7 @@ koKR = "수확 중"
 
 ["BeaverStatistics.Executor.BuildExecutor"]
 raw = "Building"
+status = "abandoned"
 enUS = "Building"
 zhCN = "建造中"
 zhTW = "建築中"
@@ -793,6 +856,7 @@ koKR = "건축 중"
 
 ["BeaverStatistics.Executor.DemolishExecutor"]
 raw = "Demolishing"
+status = "abandoned"
 enUS = "Demolishing"
 zhCN = "拆除中"
 zhTW = "拆除中"

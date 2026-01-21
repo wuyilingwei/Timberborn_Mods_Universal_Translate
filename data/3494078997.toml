@@ -1,5 +1,8 @@
+name = "Ebb and Flow"
+
 ["ebbflow.settings.enableglobalstrengthreduction"]
 raw = "Enable Global Strength Reduction"
+status = "normal"
 enUS = "Enable Global Strength Reduction"
 zhCN = "启用全局水力调整"
 zhTW = "啟用全域強度降低"
@@ -13,6 +16,7 @@ koKR = "전역 강도 감소 활성화"
 
 ["ebbflow.settings.enableglobalstrengthreduction.desc"]
 raw = "Enable a global multiplier to adjust the strength of all water sources."
+status = "normal"
 enUS = "Enable a global multiplier to adjust the strength of all water sources."
 zhCN = "勾选后，水源和恶水源的水力可以被全局调整。"
 zhTW = "啟用一個全球倍增器來調整所有水源的強度。"
@@ -26,6 +30,7 @@ koKR = "모든 수원(水源)의 강도를 조절할 수 있는 글로벌 배율
 
 ["ebbflow.settings.globalstrengthmultiplier"]
 raw = "Global Strength Multiplier"
+status = "normal"
 enUS = "Global Strength Multiplier"
 zhCN = "  全局水力系数"
 zhTW = "全球力量倍增器"
@@ -39,6 +44,7 @@ koKR = "전역 힘 배수"
 
 ["ebbflow.settings.globalstrengthmultiplier.desc"]
 raw = "Multiplier for all water sources (e.g., 1.0 = normal, 0.5 = half strength)."
+status = "normal"
 enUS = "Multiplier for all water sources (e.g., 1.0 = normal, 0.5 = half strength)."
 zhCN = "调整水源和恶水源的水力（模组默认：1；1表示原水力的100%，小于1表示按比例衰减，大于1表示按比例增强）。"
 zhTW = "所有水源的倍增器（例如，1.0 = 正常，0.5 = 半強度）。"
@@ -52,6 +58,7 @@ koKR = "모든 수원에 대한 배수 곱셈기 (예: 1.0 = 일반, 0.5 = 절�
 
 ["ebbflow.settings.enabledynamicfluctuations"]
 raw = "Enable Dynamic Fluctuations"
+status = "normal"
 enUS = "Enable Dynamic Fluctuations"
 zhCN = "启用水力波动"
 zhTW = "啟用動態波動"
@@ -65,6 +72,7 @@ koKR = "동적 변동 활성화"
 
 ["ebbflow.settings.enabledynamicfluctuations.desc"]
 raw = "Enable random, temporary strength changes for water sources."
+status = "normal"
 enUS = "Enable random, temporary strength changes for water sources."
 zhCN = "勾选后，水源和恶水源的水力会发生随机波动。"
 zhTW = "啟用水源隨機且暫時的強度變化。"
@@ -78,6 +86,7 @@ koKR = "수원에 대한 임의의 일시적인 강도 변화를 활성화합니
 
 ["ebbflow.settings.maxaffectedsources"]
 raw = "Max Affected Sources Per Update"
+status = "normal"
 enUS = "Max Affected Sources Per Update"
 zhCN = "  最大波动数量"
 zhTW = "每次更新的最大受影響來源數量"
@@ -91,6 +100,7 @@ koKR = "최대 업데이트당 영향을 받는 소스"
 
 ["ebbflow.settings.maxaffectedsources.desc"]
 raw = "Maximum number of water sources that can start new fluctuations each cycle."
+status = "normal"
 enUS = "Maximum number of water sources that can start new fluctuations each cycle."
 zhCN = "每个轮次内被选中为可能发生随机波动的水源和恶水源的最大数量。"
 zhTW = "每個週期可以開始新波動的最大水源數量。"
@@ -104,6 +114,7 @@ koKR = "각 사이클에서 새로운 변동을 시작할 수 있는 최대 수�
 
 ["ebbflow.settings.chancetoskipfluctuation"]
 raw = "Chance to Skip Fluctuation"
+status = "normal"
 enUS = "Chance to Skip Fluctuation"
 zhCN = "  无波动概率"
 zhTW = "跳過波動的機會"
@@ -117,6 +128,7 @@ koKR = "변동 건너뛸 확률"
 
 ["ebbflow.settings.chancetoskipfluctuation.desc"]
 raw = "Probability to skip starting new fluctuations in a cycle (0.0 = never skip, 1.0 = always skip)."
+status = "normal"
 enUS = "Probability to skip starting new fluctuations in a cycle (0.0 = never skip, 1.0 = always skip)."
 zhCN = "被选中但不触发新的随机波动的概率（模组默认：0.25，表示25%的概率不触发）。"
 zhTW = "在周期中跳過開始新波動的概率（0.0 = 永不跳過，1.0 = 總是跳過）。"
@@ -130,6 +142,7 @@ koKR = "주기에서 새로운 변동을 건너뛸 확률 (0.0 = 절대 건너�
 
 ["ebbflow.settings.minfluctuationmodifier"]
 raw = "Min Fluctuation Modifier"
+status = "normal"
 enUS = "Min Fluctuation Modifier"
 zhCN = "  最小波动系数"
 zhTW = "最小波動修正器"
@@ -143,6 +156,7 @@ koKR = "최소 변동 수정자"
 
 ["ebbflow.settings.minfluctuationmodifier.desc"]
 raw = "Minimum strength multiplier during a fluctuation (e.g., 0.5 = 50% strength)."
+status = "normal"
 enUS = "Minimum strength multiplier during a fluctuation (e.g., 0.5 = 50% strength)."
 zhCN = "随机波动时的水力系数的下限（模组默认：0.5，表示原水力的50%）。"
 zhTW = "波動期間的最小強度乘數（例如，0.5 = 50% 強度）。"
@@ -156,6 +170,7 @@ koKR = "변동 중 최소 강도 배율 (예: 0.5 = 50% 강도)."
 
 ["ebbflow.settings.maxfluctuationmodifier"]
 raw = "Max Fluctuation Modifier"
+status = "normal"
 enUS = "Max Fluctuation Modifier"
 zhCN = "  最大波动系数"
 zhTW = "最大波動修正器"
@@ -169,6 +184,7 @@ koKR = "최대 변동 수정자"
 
 ["ebbflow.settings.maxfluctuationmodifier.desc"]
 raw = "Maximum strength multiplier during a fluctuation (e.g., 2.0 = 200% strength)."
+status = "normal"
 enUS = "Maximum strength multiplier during a fluctuation (e.g., 2.0 = 200% strength)."
 zhCN = "随机波动时的水力系数的上限（模组默认：3，表示原水力的300%）。"
 zhTW = "波動期間的最大強度倍增器（例如，2.0 = 200% 的強度）。"
@@ -182,6 +198,7 @@ koKR = "변동 중 최대 강도 배수 (예: 2.0 = 200% 강도)"
 
 ["ebbflow.settings.fluctuationdurationticks"]
 raw = "Fluctuation Duration (Cycles)"
+status = "normal"
 enUS = "Fluctuation Duration (Cycles)"
 zhCN = "  波动持续时间（轮次）"
 zhTW = "波動持續時間（周期）"
@@ -195,6 +212,7 @@ koKR = "변동 지속 시간 (주기)"
 
 ["ebbflow.settings.fluctuationdurationticks.desc"]
 raw = "How long a random water strength fluctuation lasts. A higher number means the fluctuation will last longer. Each cycle is approximately one hour of in-game time."
+status = "normal"
 enUS = "How long a random water strength fluctuation lasts. A higher number means the fluctuation will last longer. Each cycle is approximately one hour of in-game time."
 zhCN = "随机波动的持续时间（模组默认：6轮次）。"
 zhTW = "隨機水強度波動持續的時間。數字越高，波動持續的時間越長。每個循環約為遊戲內的一小時。"
@@ -208,6 +226,7 @@ koKR = "무작위 물의 세기 변동이 지속되는 시간. 숫자가 클수�
 
 ["ebbflow.settings.enablesourcetoggling"]
 raw = "Enable Source Toggling"
+status = "normal"
 enUS = "Enable Source Toggling"
 zhCN = "启用水源断流"
 zhTW = "啟用來源切換"
@@ -221,6 +240,7 @@ koKR = "소스 전환 활성화"
 
 ["ebbflow.settings.enablesourcetoggling.desc"]
 raw = "Enable water sources to be temporarily turned off."
+status = "normal"
 enUS = "Enable water sources to be temporarily turned off."
 zhCN = "勾选后，水源和恶水源会发生断流。"
 zhTW = "啟用水源暫時關閉的功能。"
@@ -234,6 +254,7 @@ koKR = "물 공급원을 일시적으로 끌 수 있도록 설정합니다."
 
 ["ebbflow.settings.sourcestodivide"]
 raw = "Sources To Check Denominator"
+status = "normal"
 enUS = "Sources To Check Denominator"
 zhCN = "  待检测分母数"
 zhTW = "檢查分母的來源"
@@ -247,6 +268,7 @@ koKR = "검사할 출처 분모"
 
 ["ebbflow.settings.sourcestodivide.desc"]
 raw = "Divides total map sources by this number to determine how many to check for toggling (e.g., 3 = check 1/3 of sources)."
+status = "normal"
 enUS = "Divides total map sources by this number to determine how many to check for toggling (e.g., 3 = check 1/3 of sources)."
 zhCN = "模组刷新时，会对多少水源和恶水源进行开关检测（模组默认：3，表示检测整个地图1/3的水源和恶水源）。"
 zhTW = "將總地圖來源除以這個數字，以確定要檢查多少個以進行切換（例如，3 = 檢查1/3的來源）。"
@@ -260,6 +282,7 @@ koKR = "이 숫자로 총 맵 소스를 나누어 전환 여부를 확인할 소
 
 ["ebbflow.settings.maxsourcestotoggleoff"]
 raw = "Max Sources to Toggle Off"
+status = "normal"
 enUS = "Max Sources to Toggle Off"
 zhCN = "  最大断流数量"
 zhTW = "最大來源關閉數量"
@@ -273,6 +296,7 @@ koKR = "끄기 위한 최대 소스 수"
 
 ["ebbflow.settings.maxsourcestotoggleoff.desc"]
 raw = "Maximum number of water sources that can be toggled off per cycle."
+status = "normal"
 enUS = "Maximum number of water sources that can be toggled off per cycle."
 zhCN = "每个轮次内被选中为可能发生断流的水源和恶水源的最大数量（模组默认：2）。"
 zhTW = "每個週期內可以關閉的水源最大數量。"
@@ -286,6 +310,7 @@ koKR = "사이클당 끌 수 있는 최대 물 공급원 수."
 
 ["ebbflow.settings.chancetotoggleoff"]
 raw = "Chance to Toggle Off"
+status = "normal"
 enUS = "Chance to Toggle Off"
 zhCN = "  断流概率"
 zhTW = "切換關閉的機會"
@@ -299,6 +324,7 @@ koKR = "꺼질 확률"
 
 ["ebbflow.settings.chancetotoggleoff.desc"]
 raw = "Probability a checked source will be toggled off (0.0 = never, 1.0 = always)."
+status = "normal"
 enUS = "Probability a checked source will be toggled off (0.0 = never, 1.0 = always)."
 zhCN = "被选中后发生断流的概率（模组默认：0.5，表示50%的概率断流）。"
 zhTW = "檢查的來源被關閉的機率（0.0 = 從不，1.0 = 總是）。"
@@ -312,6 +338,7 @@ koKR = "체크된 소스가 꺼질 확률 (0.0 = 절대 꺼지지 않음, 1.0 = 
 
 ["ebbflow.settings.toggleoffstrength"]
 raw = "Toggled-Off Strength"
+status = "normal"
 enUS = "Toggled-Off Strength"
 zhCN = "  断流系数"
 zhTW = "關閉的強度"
@@ -325,6 +352,7 @@ koKR = "꺼짐 강도"
 
 ["ebbflow.settings.toggleoffstrength.desc"]
 raw = "Water source strength when toggled off (e.g., 0.15 = 15% of normal)."
+status = "normal"
 enUS = "Water source strength when toggled off (e.g., 0.15 = 15% of normal)."
 zhCN = "断流时的水力系数（模组默认：0.15，表示原水力的15%）。"
 zhTW = "水源強度在關閉時（例如，0.15 = 正常的15%）。"
@@ -338,6 +366,7 @@ koKR = "꺼졌을 때의 수원 강도 (예: 0.15 = 정상의 15%)."
 
 ["ebbflow.settings.toggleoffdurationticks"]
 raw = "Toggle-Off Duration (Cycles)"
+status = "normal"
 enUS = "Toggle-Off Duration (Cycles)"
 zhCN = "  断流持续时间（轮次）"
 zhTW = "關閉持續時間（循環）"
@@ -351,6 +380,7 @@ koKR = "전환 해제 기간 (주기)"
 
 ["ebbflow.settings.toggleoffdurationticks.desc"]
 raw = "Duration sources stay off, in mod update cycles."
+status = "normal"
 enUS = "Duration sources stay off, in mod update cycles."
 zhCN = "断流的持续时间（模组默认：1轮次）。"
 zhTW = "持續時間來源在模組更新週期中保持關閉。"
@@ -364,6 +394,7 @@ koKR = "지속 시간 소스는 모드 업데이트 주기 동안 꺼져 있습�
 
 ["ebbflow.settings.contaminationlinger"]
 raw = "Contamination Linger (Days)"
+status = "normal"
 enUS = "Contamination Linger (Days)"
 zhCN = "污染残留时间（天）"
 zhTW = "污染殘留（天數）"
@@ -377,6 +408,7 @@ koKR = "오염 지속 (일)"
 
 ["ebbflow.settings.contaminationlinger.desc"]
 raw = "How long contamination persists in soil, in approximate game days."
+status = "normal"
 enUS = "How long contamination persists in soil, in approximate game days."
 zhCN = "恶水退去后，土地残留污染的持续时间（模组默认：1天）。"
 zhTW = "土壤中的污染物大約會持續多久，遊戲天數大致上。"
@@ -390,6 +422,7 @@ koKR = "오염이 토양에 남아 있는 기간, 대략적인 게임 일수로.
 
 ["ebbflow.settings.enablesludgegeneration"]
 raw = "Enable Sludge Generation"
+status = "normal"
 enUS = "Enable Sludge Generation"
 zhCN = "启用污泥块生成"
 zhTW = "啟用污泥生成"
@@ -403,6 +436,7 @@ koKR = "슬러지 생성 활성화"
 
 ["ebbflow.settings.enablesludgegeneration.desc"]
 raw = "Allow sludge blocks to spawn in contaminated water."
+status = "normal"
 enUS = "Allow sludge blocks to spawn in contaminated water."
 zhCN = "勾选后，恶水源周围且污染程度为100%的水体区域会生成污泥块（堆砌体）。"
 zhTW = "允許污泥塊在污染水中生成。"
@@ -416,6 +450,7 @@ koKR = "오염된 물에서 슬러지 블록이 생성될 수 있도록 허용�
 
 ["ebbflow.settings.chancetospawnsludge"]
 raw = "Chance to Spawn Sludge"
+status = "normal"
 enUS = "Chance to Spawn Sludge"
 zhCN = "  生成概率"
 zhTW = "生成污泥的機率"
@@ -429,6 +464,7 @@ koKR = "슬러지 생성 확률"
 
 ["ebbflow.settings.chancetospawnsludge.desc"]
 raw = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
+status = "normal"
 enUS = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
 zhCN = "每个轮次内生成污泥块的概率（模组默认：0.15，表示15%的概率生成）。"
 zhTW = "每個循環產生污泥方塊的概率（0 = 絕對不會，100 = 總是）。"
@@ -442,6 +478,7 @@ koKR = "주기마다 슬러지 블록이 생성될 확률 (0 = 절대 생성되�
 
 ["ebbflow.settings.maxsludgeperbadsource"]
 raw = "Max Sludge Per Event"
+status = "normal"
 enUS = "Max Sludge Per Event"
 zhCN = "  最大污泥块数量"
 zhTW = "每次事件的最大污泥量"
@@ -455,6 +492,7 @@ koKR = "이벤트당 최대 슬러지"
 
 ["ebbflow.settings.maxsludgeperbadsource.desc"]
 raw = "Maximum sludge blocks that can spawn from a single contamination event."
+status = "normal"
 enUS = "Maximum sludge blocks that can spawn from a single contamination event."
 zhCN = "每次可以生成的最大污泥块数量（模组默认：2）。"
 zhTW = "單次汙染事件中可以生成的最大污泥塊。"
@@ -468,6 +506,7 @@ koKR = "단일 오염 사건에서 생성될 수 있는 최대 슬러지 블록 
 
 ["ebbflow.settings.sludgespawnradius"]
 raw = "Sludge Spawn Radius"
+status = "normal"
 enUS = "Sludge Spawn Radius"
 zhCN = "  生成半径"
 zhTW = "污泥產生半徑"
@@ -481,6 +520,7 @@ koKR = "슬러지 생성 반경"
 
 ["ebbflow.settings.sludgespawnradius.desc"]
 raw = "Maximum distance from a contamination source where sludge can spawn."
+status = "normal"
 enUS = "Maximum distance from a contamination source where sludge can spawn."
 zhCN = "恶水源周围可以生成污泥块的区域的半径（模组默认：4）。"
 zhTW = "從污染源到污泥孵化的最遠距離。"
@@ -494,6 +534,7 @@ koKR = "오염원에서 슬러지가 생성될 수 있는 최대 거리입니다
 
 ["ebbflow.settings.minwaterdepthforsludge"]
 raw = "Min Water Depth for Sludge"
+status = "normal"
 enUS = "Min Water Depth for Sludge"
 zhCN = "  最小生成水深"
 zhTW = "污泥最小水深"
@@ -507,6 +548,7 @@ koKR = "슬러지를 위한 최소 수심"
 
 ["ebbflow.settings.minwaterdepthforsludge.desc"]
 raw = "Minimum water depth required for sludge to form (0.2 = 20% of a block height)."
+status = "normal"
 enUS = "Minimum water depth required for sludge to form (0.2 = 20% of a block height)."
 zhCN = "生成污泥块所需的最小水深（模组默认：0.2米）。"
 zhTW = "形成污泥所需的最小水深（0.2 = 占區塊高度的20%）。"
@@ -520,6 +562,7 @@ koKR = "슬러지가 형성되기 위해 필요한 최소 물 깊이(0.2 = 블�
 
 ["ebbflow.settings.allowsludgeinchannels"]
 raw = "Allow Sludge In Flow Channels"
+status = "normal"
 enUS = "Allow Sludge In Flow Channels"
 zhCN = "  启用河道污泥块生成"
 zhTW = "允許污泥進入流道"
@@ -533,6 +576,7 @@ koKR = "흐름 채널에 슬러지 허용"
 
 ["ebbflow.settings.allowsludgeinchannels.desc"]
 raw = "Allow sludge blocks to spawn in flowing water channels."
+status = "normal"
 enUS = "Allow sludge blocks to spawn in flowing water channels."
 zhCN = "勾选后，河道等流动水域中也可以生成污泥块。"
 zhTW = "允許污泥塊在流動的水道中生成。"
@@ -546,6 +590,7 @@ koKR = "흐르는 물 채널에서 슬러지 블록의 생성을 허용합니다
 
 ["ebbflow.settings.maxadjacentsludge"]
 raw = "Max Adjacent Sludge"
+status = "normal"
 enUS = "Max Adjacent Sludge"
 zhCN = "  相邻污泥块最大数量"
 zhTW = "最大相鄰污泥"
@@ -559,6 +604,7 @@ koKR = "최대 인접 슬러지"
 
 ["ebbflow.settings.maxadjacentsludge.desc"]
 raw = "The maximum number of adjacent sludge blocks allowed before a new one can spawn, to prevent fully blocking rivers."
+status = "normal"
 enUS = "The maximum number of adjacent sludge blocks allowed before a new one can spawn, to prevent fully blocking rivers."
 zhCN = "生成新的污泥块时允许相邻的最大污泥块数量，超过则此处不能生成(模组默认：1）。"
 zhTW = "允許在新污泥塊生成之前相鄰污泥塊的最大數量，以防止完全阻塞河流。"
@@ -572,6 +618,7 @@ koKR = "새 슬러지 블록이 생성되기 전에 허용되는 최대 인접 �
 
 ["ebbflow.settings.updateintervalinticks"]
 raw = "Update Interval (in Ticks)"
+status = "normal"
 enUS = "Update Interval (in Ticks)"
 zhCN = "模组轮次时间（游戏刻）"
 zhTW = "更新間隔（以刻度為單位）"
@@ -585,6 +632,7 @@ koKR = "업데이트 간격 (틱 단위)"
 
 ["ebbflow.settings.updateintervalinticks.desc"]
 raw = "How often the mod's main logic cycle runs. Lower values are more frequent but may impact performance. Default is 200."
+status = "normal"
 enUS = "How often the mod's main logic cycle runs. Lower values are more frequent but may impact performance. Default is 200."
 zhCN = "模组主逻辑的运行频率，每运行一次为1轮次。数值越低，运行越频繁、轮次越短，但可能影响性能（模组默认：200游戏刻，约等于游戏内1小时）。"
 zhTW = "模組的主要邏輯循環運行的頻率。較低的值會更頻繁，但可能會影響性能。默認值為200。"
@@ -598,6 +646,7 @@ koKR = "모드의 주요 로직 주기가 얼마나 자주 실행되는지를 �
 
 ["ebbflow.settings.enablebaselinecontamination"]
 raw = "Enable Baseline Contamination"
+status = "normal"
 enUS = "Enable Baseline Contamination"
 zhCN = "启用基础污染"
 zhTW = "啟用基線污染"
@@ -611,6 +660,7 @@ koKR = "기본 오염 활성화"
 
 ["ebbflow.settings.enablebaselinecontamination.desc"]
 raw = "All water sources have 1-4% contamination by default, as truly clean water is rare."
+status = "normal"
 enUS = "All water sources have 1-4% contamination by default, as truly clean water is rare."
 zhCN = "勾选后，水源的水会带有基础污染。"
 zhTW = "所有水源的污染物默認為1-4％，因為真正乾淨的水是罕見的。"
@@ -624,6 +674,7 @@ koKR = "모든 수원은 기본적으로 1-4%의 오염이 있으며, 진정으�
 
 ["ebbflow.settings.baselinecontaminationmin"]
 raw = "Min Baseline Contamination"
+status = "normal"
 enUS = "Min Baseline Contamination"
 zhCN = "  最小污染程度"
 zhTW = "最小基準污染"
@@ -637,6 +688,7 @@ koKR = "최소 기준 오염"
 
 ["ebbflow.settings.baselinecontaminationmin.desc"]
 raw = "Minimum baseline contamination percentage (0.01 = 1%)."
+status = "normal"
 enUS = "Minimum baseline contamination percentage (0.01 = 1%)."
 zhCN = "基础污染的污染程度下限（模组默认：0.01，表示污染程度1%）。"
 zhTW = "最低基線污染百分比（0.01 = 1%）。"
@@ -650,6 +702,7 @@ koKR = "최소 기준 오염 비율(0.01 = 1%)."
 
 ["ebbflow.settings.baselinecontaminationmax"]
 raw = "Max Baseline Contamination"
+status = "normal"
 enUS = "Max Baseline Contamination"
 zhCN = "  最大污染程度"
 zhTW = "最大基線污染"
@@ -663,6 +716,7 @@ koKR = "최대 기준 오염"
 
 ["ebbflow.settings.baselinecontaminationmax.desc"]
 raw = "Maximum baseline contamination percentage (0.04 = 4%)."
+status = "normal"
 enUS = "Maximum baseline contamination percentage (0.04 = 4%)."
 zhCN = "基础污染的污染程度上限（模组默认：0.04，表示污染程度4%）。"
 zhTW = "最大基線污染百分比（0.04 = 4%）。"

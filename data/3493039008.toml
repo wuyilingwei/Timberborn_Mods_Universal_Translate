@@ -1,5 +1,8 @@
+name = "Moddable Weather"
+
 ["LV.MW.WeatherStart"]
 raw = "{0} started"
+status = "normal"
 enUS = "{0} started"
 zhCN = "{0}已开始"
 zhTW = "{0} 開始了"
@@ -13,6 +16,7 @@ koKR = "{0}가 시작되었습니다"
 
 ["LV.MW.WeatherEnd"]
 raw = "{0} ended"
+status = "normal"
 enUS = "{0} ended"
 zhCN = "{0}已结束"
 zhTW = "{0} 結束了"
@@ -26,6 +30,7 @@ koKR = "{0} 종료됨"
 
 ["LV.MW.WeatherApproaching"]
 raw = "{0} approaching"
+status = "normal"
 enUS = "{0} approaching"
 zhCN = "{0}即将到来"
 zhTW = "{0} 接近中"
@@ -39,6 +44,7 @@ koKR = "{0} 접근 중"
 
 ["LV.MW.WeatherInProgress"]
 raw = "{0} in progress"
+status = "normal"
 enUS = "{0} in progress"
 zhCN = "{0}正在发生"
 zhTW = "{0} 進行中"
@@ -52,6 +58,7 @@ koKR = "{0} 진행 중"
 
 ["LV.MW.EnableWeather"]
 raw = "Enable {0} Weather"
+status = "normal"
 enUS = "Enable {0} Weather"
 zhCN = "启用{0}"
 zhTW = "啟用 {0} 天氣"
@@ -65,6 +72,7 @@ koKR = "{0} 날씨 활성화"
 
 ["LV.MW.EnableWeatherDesc"]
 raw = "Enable {0} weather"
+status = "normal"
 enUS = "Enable {0} weather"
 zhCN = "勾选后，天气中可能出现{0}。"
 zhTW = "啟用{0}天氣"
@@ -78,6 +86,7 @@ koKR = "{0} 날씨 활성화"
 
 ["LV.MW.StartCycle"]
 raw = "{0} start cycle"
+status = "normal"
 enUS = "{0} start cycle"
 zhCN = "{0}起始周期"
 zhTW = "{0} 開始循環"
@@ -91,6 +100,7 @@ koKR = "{0} 주기 시작"
 
 ["LV.MW.StartCycleDesc"]
 raw = "The minimum cycle that {0} can occur"
+status = "normal"
 enUS = "The minimum cycle that {0} can occur"
 zhCN = "{0}可能发生的最小周期。"
 zhTW = "{0} 可以出現的最小循環"
@@ -104,6 +114,7 @@ koKR = "{0}이(가) 발생할 수 있는 최소 사이클"
 
 ["LV.MW.Chance"]
 raw = "{0} chance"
+status = "normal"
 enUS = "{0} chance"
 zhCN = "{0}概率"
 zhTW = "{0} 機會"
@@ -117,6 +128,7 @@ koKR = "{0} 확률"
 
 ["LV.MW.ChanceDesc"]
 raw = "The chance of {0} occurring"
+status = "normal"
 enUS = "The chance of {0} occurring"
 zhCN = "{0}可能发生的概率。<br>注意，所有天气概率之和不一定为100，每种天气的实际概率为“天气概率/所有天气概率之和”。"
 zhTW = "{0} 發生的機率"
@@ -130,6 +142,7 @@ koKR = "{0}가 발생할 확률"
 
 ["LV.MW.MinDay"]
 raw = "{0} minimum day"
+status = "normal"
 enUS = "{0} minimum day"
 zhCN = "{0}最短持续时间"
 zhTW = "{0} 最少天數"
@@ -143,6 +156,7 @@ koKR = "{0} 최소 일"
 
 ["LV.MW.MinDayDesc"]
 raw = "The minimum day that {0} can occur"
+status = "normal"
 enUS = "The minimum day that {0} can occur"
 zhCN = "{0}可能发生的最小天数。"
 zhTW = "{0} 可以發生的最早日期"
@@ -156,6 +170,7 @@ koKR = "{0}가 발생할 수 있는 최소 일"
 
 ["LV.MW.MaxDay"]
 raw = "{0} maximum day"
+status = "normal"
 enUS = "{0} maximum day"
 zhCN = "{0}最长持续时间"
 zhTW = "{0} 最大天數"
@@ -169,6 +184,7 @@ koKR = "{0} 최대 일"
 
 ["LV.MW.MaxDayDesc"]
 raw = "The maximum day that {0} can occur"
+status = "normal"
 enUS = "The maximum day that {0} can occur"
 zhCN = "{0}可能发生的最大天数。"
 zhTW = "{0} 可能發生的最遲日期"
@@ -182,6 +198,7 @@ koKR = "{0}이(가) 발생할 수 있는 최대 날"
 
 ["LV.MW.HandicapPerc"]
 raw = "{0} Handicap Percentage"
+status = "normal"
 enUS = "{0} Handicap Percentage"
 zhCN = "{0}初始强度值"
 zhTW = "{0} 殘障百分比"
@@ -195,6 +212,7 @@ koKR = "{0} 핸디캡 백분율"
 
 ["LV.MW.HandicapPercDesc"]
 raw = "The first time this weather occurs, its duration is multiplied by this percentage."
+status = "normal"
 enUS = "The first time this weather occurs, its duration is multiplied by this percentage."
 zhCN = "此天气首次发生时，持续时间将乘以此百分比。<br>初始强度值可以小于100（缩短），也可以大于100（延长）。"
 zhTW = "當這種天氣第一次出現時，其持續時間會被這個百分比乘以。"
@@ -208,6 +226,7 @@ koKR = "이 날씨가 처음 발생할 때, 지속 시간이 이 비율로 곱�
 
 ["LV.MW.HandicapCycles"]
 raw = "{0} Handicap Cycles"
+status = "normal"
 enUS = "{0} Handicap Cycles"
 zhCN = "{0}适应频次数"
 zhTW = "{0} 特需腳踏車"
@@ -221,6 +240,7 @@ koKR = "{0} 장애인 사이클"
 
 ["LV.MW.HandicapCyclesDesc"]
 raw = "Number of cycles until the weather reaches full (100%) duration."
+status = "normal"
 enUS = "Number of cycles until the weather reaches full (100%) duration."
 zhCN = "此天气的持续时间恢复原状所需的频次数，即出现多少次后才会从初始强度恢复至满百分比。<br>初始强度值小于100时为由短变长，大于100时为由长变短。<br>注意，适应频次数为0时，初始强度值将失效。"
 zhTW = "直至天氣達到完全（100%）持續的循環次數。"
@@ -234,6 +254,7 @@ koKR = "날씨가 완전 (100%) 지속 시간에 도달할 때까지의 사이�
 
 ["LV.MW.Rain"]
 raw = "Rain"
+status = "normal"
 enUS = "Rain"
 zhCN = "细雨天气"
 zhTW = "雨"
@@ -247,6 +268,7 @@ koKR = "비"
 
 ["LV.MW.Monsoon"]
 raw = "Monsoon"
+status = "normal"
 enUS = "Monsoon"
 zhCN = "洪涝期"
 zhTW = "季風"
@@ -260,6 +282,7 @@ koKR = "몬순"
 
 ["LV.MW.ShortTemperate"]
 raw = "Disappointingly Short Temperate"
+status = "normal"
 enUS = "Disappointingly Short Temperate"
 zhCN = "间歇天气"
 zhTW = "令人失望的短暫溫度"
@@ -273,6 +296,7 @@ koKR = "실망스럽게 짧은 온대"
 
 ["LV.MW.ProgressiveTemperate"]
 raw = "Progressively Shortening Temperate"
+status = "normal"
 enUS = "Progressively Shortening Temperate"
 zhCN = "递减温和天气"
 zhTW = "逐漸縮短的溫帶"
@@ -286,6 +310,7 @@ koKR = "점진적으로 짧아지는 온대"
 
 ["LV.MW.SurprisinglyRefreshing"]
 raw = "Surprisingly Refreshing"
+status = "normal"
 enUS = "Surprisingly Refreshing"
 zhCN = "净水潮"
 zhTW = "令人驚豔的清新感"
@@ -299,6 +324,7 @@ koKR = "놀라울 정도로 상쾌함"
 
 ["LV.MW.RainEffect"]
 raw = "Enable Rain Effect"
+status = "normal"
 enUS = "Enable Rain Effect"
 zhCN = "启用细雨效果"
 zhTW = "啟用雨滴效果"
@@ -312,6 +338,7 @@ koKR = "비 효과 활성화"
 
 ["LV.MW.RainEffectDesc"]
 raw = "Enable the rain effect on the map."
+status = "normal"
 enUS = "Enable the rain effect on the map."
 zhCN = "勾选后，细雨天气时会显示降雨效果。"
 zhTW = "在地圖上啟用雨霧效果。"
@@ -325,6 +352,7 @@ koKR = "맵에서 비 효과를 활성화 합니다."
 
 ["LV.MW.MonsoonMultiplier"]
 raw = "Monsoon maximum multiplier"
+status = "normal"
 enUS = "Monsoon maximum multiplier"
 zhCN = "洪涝期额外水力倍率"
 zhTW = "季風最大倍增器"
@@ -338,6 +366,7 @@ koKR = "몽순 최대 배수"
 
 ["LV.MW.MonsoonMultiplierDesc"]
 raw = "The maximum additional multiplier for the monsoon weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
+status = "normal"
 enUS = "The maximum additional multiplier for the monsoon weather at maximum (no handicap).\nThis value is affected by handicap like Duration.\nDefault value: 2.5 (250%) meaning when no handicap is applied (default cycle 5),\nall water sources strength is at 350%."
 zhCN = "洪涝期时水源的额外水力倍率，即水源的水力会变为“水力×(基础倍率+额外倍率)”。<br>注意，此数值受天气初始强度值、适应频次数影响。"
 zhTW = "季風天氣的最大額外乘數（不考慮手牌）。  \n此值會受到手牌如持續時間的影響。  \n預設值：2.5（250%），這意味著當沒有應用手牌（預設週期5）時，所有水源的強度為350%。"
@@ -351,6 +380,7 @@ koKR = "최대 추가 곱셈 비율은 장애물 없이 최대 몬순 날씨에 
 
 ["LV.MW.Profiles"]
 raw = "Profiles"
+status = "normal"
 enUS = "Profiles"
 zhCN = "预设配置"
 zhTW = "個人資料"
@@ -364,6 +394,7 @@ koKR = "프로필"
 
 ["LV.MW.ProfilesDesc"]
 raw = "Export and import settings for supported Moddable Weathers"
+status = "normal"
 enUS = "Export and import settings for supported Moddable Weathers"
 zhCN = "导入/导出模组的天气参数配置。"
 zhTW = "匯出和匯入支援的可調式天氣設定"
@@ -377,6 +408,7 @@ koKR = "지원되는 모드 가능한 날씨에 대한 설정 내보내기 및 �
 
 ["LV.MW.ProfileImport"]
 raw = "Import"
+status = "normal"
 enUS = "Import"
 zhCN = "导入配置"
 zhTW = "導入"
@@ -390,6 +422,7 @@ koKR = "가져오기"
 
 ["LV.MW.ProfileExport"]
 raw = "Export"
+status = "normal"
 enUS = "Export"
 zhCN = "导出配置"
 zhTW = "出口"
@@ -403,6 +436,7 @@ koKR = "내보내기"
 
 ["LV.MW.ProfileError"]
 raw = "There was an error: {0}"
+status = "normal"
 enUS = "There was an error: {0}"
 zhCN = "发生错误：{0}"
 zhTW = "發生了一個錯誤：{0}"
@@ -416,6 +450,7 @@ koKR = "오류가 발생했습니다: {0}"
 
 ["LV.MW.SingleWeatherMode"]
 raw = "Single Weather mode"
+status = "normal"
 enUS = "Single Weather mode"
 zhCN = "单一天气模式"
 zhTW = "單一天氣模式"
@@ -429,6 +464,7 @@ koKR = "단일 날씨 모드"
 
 ["LV.MW.SWEnable"]
 raw = "Enable Single Weather mode"
+status = "normal"
 enUS = "Enable Single Weather mode"
 zhCN = "启用单一天气模式"
 zhTW = "啟用單一天氣模式"
@@ -442,6 +478,7 @@ koKR = "단일 날씨 모드 활성화"
 
 ["LV.MW.SWEnableDesc"]
 raw = "Each cycle may have a chance to only have one kind of weather"
+status = "normal"
 enUS = "Each cycle may have a chance to only have one kind of weather"
 zhCN = "勾选后，每个周期有一定概率只出现一种天气类型。<br>注意，单一天气模式发生时，天气预警进度条将失效。"
 zhTW = "每個循環可能只會有一種天氣的機會。"
@@ -455,6 +492,7 @@ koKR = "각 주기는 한 종류의 날씨만 발생할 확률이 있습니다."
 
 ["LV.MW.SWStartCycle"]
 raw = "Single Weather start cycle"
+status = "normal"
 enUS = "Single Weather start cycle"
 zhCN = "单一天气起始周期"
 zhTW = "單一天氣啟動循環"
@@ -468,6 +506,7 @@ koKR = "단일 날씨 시작 주기"
 
 ["LV.MW.SWStartCycleDesc"]
 raw = "The minimum cycle that single weather can occur"
+status = "normal"
 enUS = "The minimum cycle that single weather can occur"
 zhCN = "单一天气模式可能发生的最小周期。"
 zhTW = "單一天氣出現的最小循環"
@@ -481,6 +520,7 @@ koKR = "단일 날씨가 발생할 수 있는 최소 주기"
 
 ["LV.MW.SWChance"]
 raw = "Single Weather chance"
+status = "normal"
 enUS = "Single Weather chance"
 zhCN = "单一天气概率"
 zhTW = "單一天氣機率"
@@ -494,6 +534,7 @@ koKR = "단일 날씨 확률"
 
 ["LV.MW.SWChanceDesc"]
 raw = "The chance of single weather occurring"
+status = "normal"
 enUS = "The chance of single weather occurring"
 zhCN = "单一天气模式可能发生的概率。"
 zhTW = "單一天氣發生的機會"
@@ -507,6 +548,7 @@ koKR = "단일 날씨가 발생할 확률"
 
 ["LV.MW.SWTemperateChance"]
 raw = "Single Weather Temperate chance"
+status = "normal"
 enUS = "Single Weather Temperate chance"
 zhCN = "单一温和类天气概率"
 zhTW = "單一天氣溫和的機率"
@@ -520,6 +562,7 @@ koKR = "단일 기후 온대 확률"
 
 ["LV.MW.SWTemperateChanceDesc"]
 raw = "The chance of single weather being temperate when single weather occurs"
+status = "normal"
 enUS = "The chance of single weather being temperate when single weather occurs"
 zhCN = "单一天气模式发生时，出现温和类天气的概率。<br>注意，这里的温和类天气与恶劣类天气相对，概率之和为100。"
 zhTW = "單一天氣出現時，該天氣為溫和的機會。"
@@ -533,6 +576,7 @@ koKR = "단일 날씨가 발생할 때 온화한 날씨가 될 확률"
 
 ["LV.MW.TemperateDesc"]
 raw = "The game default temperate weather, no effect."
+status = "normal"
 enUS = "The game default temperate weather, no effect."
 zhCN = "游戏默认的温和类天气，风和日丽，绿意盎然。<br>- 无特殊影响。"
 zhTW = "遊戲默認的溫帶天氣，無任何效果。"
@@ -546,6 +590,7 @@ koKR = "게임 기본 온대 날씨, 영향 없음."
 
 ["LV.MW.DroughtDesc"]
 raw = "The game default hazardous drought weather, water sources stop producing water."
+status = "normal"
 enUS = "The game default hazardous drought weather, water sources stop producing water."
 zhCN = "游戏默认的恶劣类天气，干旱与酷热让河水断流，土地龟裂。<br>- 所有水源停止出水。"
 zhTW = "遊戲預設的危險乾旱天氣，水源停止產水。"
@@ -559,6 +604,7 @@ koKR = "게임 기본 위험한 가뭄 날씨, 물 공급원에서 물 생산이
 
 ["LV.MW.BadtideDesc"]
 raw = "The game default hazardous bad tide weather, all water sources produce badwater."
+status = "normal"
 enUS = "The game default hazardous bad tide weather, all water sources produce badwater."
 zhCN = "游戏默认的恶劣类天气，地下的恶水发生渗漏，干净的水源亦被污染。<br>- 所有水源都会流出恶水。"
 zhTW = "遊戲預設的危險壞潮天氣，所有水源產生壞水。"
@@ -572,6 +618,7 @@ koKR = "게임 기본 위험한 나쁜 조수 날씨, 모든 수원에서 나쁜
 
 ["LV.MW.RainDesc"]
 raw = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
+status = "normal"
 enUS = "Temperate weather:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate reason (default settings)"
 zhCN = "模组扩展的温和类天气，清澈的雨水带来希望，也带来欢乐。<br>- 所有土地都被灌溉，而且不会受到恶水污染。<br>- 海狸在室外时会增加“湿润的毛发”康乐值。"
 zhTW = "溫帶天氣：\n- 所有格子都會被灑水，且不會發生土地污染。\n- 當海狸不在建築物內時，會給予濕毛皮效果。\n- 比通常的溫帶季節短 25%（默認設置）。"
@@ -585,6 +632,7 @@ koKR = "온대 날씨:\n- 모든 타일에 물이 공급되고 토양 오염이 
 
 ["LV.MW.MonsoonDesc"]
 raw = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
+status = "normal"
 enUS = "Hazardous weather:\n- All water sources increase their output, at 350% (or configurable) maximum.\n- Handicap applies to the extra output as well."
 zhCN = "模组扩展的恶劣类天气，洪水自河流上游奔涌而来，四处泛滥。<br>- 所有水源的水力都会额外增加250%（模组默认，可更改），但不超过游戏限制。"
 zhTW = "危險天氣：\n- 所有水源的產出提高至350%（或可配置）的最大值。\n- 這一減益也適用於額外的產出。"
@@ -598,6 +646,7 @@ koKR = "위험한 날씨:\n- 모든 수원에서 최대 350% (또는 설정 가�
 
 ["LV.MW.ShortTemperateDesc"]
 raw = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
+status = "normal"
 enUS = "Temperate weather: a very short Temperate season so you will need to deal with two hazardous seasons in a row."
 zhCN = "模组扩展的温和类天气，晴天转瞬即逝，预兆着连续的天灾。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
 zhTW = "溫帶天氣：一個非常短的溫帶季節，因此你需要連續面對兩個危險的季節。"
@@ -611,6 +660,7 @@ koKR = "온대 날씨: 매우 짧은 온대 계절이므로 두 개의 위험한
 
 ["LV.MW.ProgressiveTemperateDesc"]
 raw = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
+status = "normal"
 enUS = "Temperate weather that starts like the game's normal one but it gets shorter and shorter."
 zhCN = "模组扩展的温和类天气，平静的日子逐渐缩短，留下气候变化的痕迹。<br>- 持续时间随周期变短（不建议与温和天气同时启用）。"
 zhTW = "溫帶天氣一開始與遊戲的正常天氣相似，但逐漸變得越來越短。"
@@ -624,6 +674,7 @@ koKR = "게임의 일반적인 날씨처럼 시작되지만 점점 짧아지는 
 
 ["LV.MW.SurprisinglyRefreshingDesc"]
 raw = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
+status = "normal"
 enUS = "'Hazardous' weather: No bad effect. All water sources produce fresh water. Very short."
 zhCN = "模组扩展的“恶劣类”天气，清水从恶水源流出，但只是一个恶劣的玩笑。<br>- 所有水源都会流出净水。<br>- 持续时间极短，只有1~2天（模组默认，可更改）。"
 zhTW = "「‘危險’天氣：沒有不良影響。所有水源產生淡水。非常短。」"

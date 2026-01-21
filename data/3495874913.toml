@@ -1,5 +1,8 @@
+name = "Cut Dead Trees First"
+
 ["cutdeadtreesfirst.settings.mode"]
 raw = "Prioritization Mode"
+status = "normal"
 enUS = "Prioritization Mode"
 zhCN = "枯树优先级"
 zhTW = "優先模式"
@@ -13,6 +16,7 @@ koKR = "우선 순위 모드"
 
 ["cutdeadtreesfirst.settings.mode.tooltip"]
 raw = "Determines how dead trees are prioritized for cutting"
+status = "normal"
 enUS = "Determines how dead trees are prioritized for cutting"
 zhCN = "设置已死亡树木的砍伐优先级。<br>- 默认：无特定优先级<br>- 标记：优先砍伐，但仅限砍伐区域内<br>- 扩展：优先砍伐，且无需标记区域"
 zhTW = "確定死亡樹木的砍伐優先順序"
@@ -26,6 +30,7 @@ koKR = "죽은 나무가 잘리는 우선 순위를 결정합니다."
 
 ["cutdeadtreesfirst.settings.mode.off"]
 raw = "Off"
+status = "normal"
 enUS = "Off"
 zhCN = "默认"
 zhTW = "關閉"
@@ -39,6 +44,7 @@ koKR = "끄기"
 
 ["cutdeadtreesfirst.settings.mode.designatedonly"]
 raw = "Designated Only"
+status = "normal"
 enUS = "Designated Only"
 zhCN = "标记"
 zhTW = "僅限指定"
@@ -52,6 +58,7 @@ koKR = "지정된 것만"
 
 ["cutdeadtreesfirst.settings.mode.expanded"]
 raw = "Expanded"
+status = "normal"
 enUS = "Expanded"
 zhCN = "扩展"
 zhTW = "擴展的"
@@ -65,6 +72,7 @@ koKR = "확장됨"
 
 ["cutdeadtreesfirst.settings.species"]
 raw = "Tree Species Priority"
+status = "normal"
 enUS = "Tree Species Priority"
 zhCN = "树种优先级"
 zhTW = "樹種優先級"
@@ -78,6 +86,7 @@ koKR = "나무 종류 우선순위"
 
 ["cutdeadtreesfirst.settings.species.tooltip"]
 raw = "Prioritize specific tree species (dead trees always have highest priority)"
+status = "normal"
 enUS = "Prioritize specific tree species (dead trees always have highest priority)"
 zhCN = "设置树种的砍伐优先级，已死亡树木除外。<br>- 默认：无特定优先级<br>- 橡树/桦树/橡树和桦树：优先砍伐对应树种，但仅限砍伐区域内"
 zhTW = "優先考慮特定樹種（死樹始終具有最高優先權）"
@@ -91,6 +100,7 @@ koKR = "특정 나무 종류를 우선시합니다 (죽은 나무는 항상 가�
 
 ["cutdeadtreesfirst.settings.species.none"]
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "默认"
 zhTW = "沒有"
@@ -104,6 +114,7 @@ koKR = "없음"
 
 ["cutdeadtreesfirst.settings.species.oak"]
 raw = "Oak Trees"
+status = "normal"
 enUS = "Oak Trees"
 zhCN = "橡树"
 zhTW = "橡樹"
@@ -117,6 +128,7 @@ koKR = "참나무"
 
 ["cutdeadtreesfirst.settings.species.birch"]
 raw = "Birch Trees"
+status = "normal"
 enUS = "Birch Trees"
 zhCN = "桦树"
 zhTW = "白樺樹"
@@ -130,6 +142,7 @@ koKR = "자작나무"
 
 ["cutdeadtreesfirst.settings.species.oakandbirch"]
 raw = "Oak & Birch Trees"
+status = "normal"
 enUS = "Oak & Birch Trees"
 zhCN = "橡树和桦树"
 zhTW = "橡樹與白樺樹"

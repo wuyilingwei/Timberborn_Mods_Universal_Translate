@@ -1,5 +1,8 @@
+name = "zxuiji -m- AquaCadre"
+
 ["Cadre.Group.AquaPiles.DisplayName"]
 raw = "Aqua Piles"
+status = "normal"
 enUS = "Aqua Piles"
 zhCN = "防水材料堆"
 zhTW = "水堆"
@@ -13,6 +16,7 @@ koKR = "아쿠아 파일"
 
 ["Cadre.Group.AquaTanks.DisplayName"]
 raw = "Aqua Tanks"
+status = "normal"
 enUS = "Aqua Tanks"
 zhCN = "防水储水罐"
 zhTW = "水箱"
@@ -26,6 +30,7 @@ koKR = "물탱크"
 
 ["Cadre.Group.AquaWarehouses.DisplayName"]
 raw = "Aqua Warehouses"
+status = "normal"
 enUS = "Aqua Warehouses"
 zhCN = "防水仓库"
 zhTW = "水倉庫"
@@ -39,6 +44,7 @@ koKR = "수중 창고"
 
 ["Cadre.LogLadder.DisplayName"]
 raw = "Log Ladder"
+status = "normal"
 enUS = "Log Ladder"
 zhCN = "攀爬柱"
 zhTW = "木頭梯"
@@ -52,6 +58,7 @@ koKR = "통나무 사다리"
 
 ["Cadre.LogLadder.Description"]
 raw = "Log that the beavers gnawed at to make climable"
+status = "normal"
 enUS = "Log that the beavers gnawed at to make climable"
 zhCN = "海狸啃过的原木，便于上下移动。<br><color=#FFA500>建造叠放的攀爬柱时，需要每隔 2 米高度给海狸提供可站立的地方。</color>"
 zhTW = "「河狸啃咬過的樹幹，讓其變得可攀爬」"
@@ -65,6 +72,7 @@ koKR = "비버들이 오르기 위해 갉아먹은 통"
 
 ["Cadre.LogLadder.FlavorDescription"]
 raw = "Of course they washed it the river afterwards"
+status = "normal"
 enUS = "Of course they washed it the river afterwards"
 zhCN = "当然，这根柱子已经被清洗干净了。"
 zhTW = "當然他們之後把它在河裡洗了。"
@@ -78,6 +86,7 @@ koKR = "물론 그들은 이후에 강에서 씻었습니다."
 
 ["Cadre.Gyser.DisplayName"]
 raw = "Gyser"
+status = "normal"
 enUS = "Gyser"
 zhCN = "地下泉"
 zhTW = "噴泉"
@@ -91,6 +100,7 @@ koKR = "간헐천"
 
 ["Cadre.Gyser.Description"]
 raw = "Filtered water from deep underground"
+status = "normal"
 enUS = "Filtered water from deep underground"
 zhCN = "从地下抽取并过滤海狸饮用的水。"
 zhTW = "來自深埋地下的過濾水"
@@ -104,6 +114,7 @@ koKR = "깊은 지하에서 걸러진 물"
 
 ["Cadre.Gyser.FlavorDescription"]
 raw = "Is a bit...volatile"
+status = "normal"
 enUS = "Is a bit...volatile"
 zhCN = "这算是不稳定呢，还是稳定呢？"
 zhTW = "有點...不穩定"
@@ -117,6 +128,7 @@ koKR = "조금...불안정하다"
 
 ["Cadre.FloodMaker.DisplayName"]
 raw = "Flood Maker"
+status = "normal"
 enUS = "Flood Maker"
 zhCN = "机械液体排放处"
 zhTW = "洪水製造者"
@@ -130,6 +142,7 @@ koKR = "홍수 생성기"
 
 ["Cadre.FloodMaker.Description"]
 raw = "Powered fluid dumping"
+status = "normal"
 enUS = "Powered fluid dumping"
 zhCN = "消耗能量，排放液体。"
 zhTW = "「動力液體傾倒」"
@@ -143,6 +156,7 @@ koKR = "전력 액체 쏟기"
 
 ["Cadre.FloodMaker.FlavorDescription"]
 raw = "Reliable floods from your local mech :D"
+status = "normal"
 enUS = "Reliable floods from your local mech :D"
 zhCN = "专门用于制造海狸喜欢的岸边波浪。"
 zhTW = "來自您當地機械的可靠洪水 :D"
@@ -156,6 +170,7 @@ koKR = "당신의 지역 기계로부터의 신뢰할 수 있는 홍수 :D"
 
 ["Cadre.SmallAquaPile.DisplayName"]
 raw = "Small Aqua Pile"
+status = "normal"
 enUS = "Small Aqua Pile"
 zhCN = "防水小型材料堆"
 zhTW = "小型水堆"
@@ -169,6 +184,7 @@ koKR = "작은 수면 더미"
 
 ["Cadre.SmallAquaPile.Description"]
 raw = "Small Pile that can be placed underwater"
+status = "normal"
 enUS = "Small Pile that can be placed underwater"
 zhCN = "储存大型资源，可以放置在水下。"
 zhTW = "可放置於水下的小堆"
@@ -180,21 +196,13 @@ plPL = "Mała sterta, którą można umieścić pod wodą"
 ptBR = "Pilhagem pequena que pode ser colocada debaixo d'água"
 koKR = "물속에 배치할 수 있는 작은 더미"
 
-["Cadre.SmallAquaPile.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "把东西放进水里？这个……有点超纲了。"
-zhTW = "「民尾與鐵牙之間和平條約的結果」"
-ruRU = "Результат мира между Фолктейлами и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.SmallAquaPile.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.MediumAquaPile.DisplayName"]
 raw = "Medium Aqua Pile"
+status = "normal"
 enUS = "Medium Aqua Pile"
 zhCN = "防水大型材料堆"
 zhTW = "中型水堆"
@@ -208,6 +216,7 @@ koKR = "중간 수조 더미"
 
 ["Cadre.MediumAquaPile.Description"]
 raw = "Medium Pile that can be placed underwater"
+status = "normal"
 enUS = "Medium Pile that can be placed underwater"
 zhCN = "储存大型资源，可以放置在水下。"
 zhTW = "可以放置在水下的中型堆"
@@ -219,21 +228,13 @@ plPL = "Średni stos, który można umieścić pod wodą"
 ptBR = "Pilha Média que pode ser colocada debaixo d'água"
 koKR = "물속에 배치할 수 있는 중간 더미"
 
-["Cadre.MediumAquaPile.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "既能充分利用水下空间，又能更好地去偷吃……我是说，取用原木。"
-zhTW = "「民尾與鐵牙之間和平條約的結果」"
-ruRU = "Результат мирного договора между Легендонами и Железными Зубами"
-jaJP = "「フォルクテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "민족의 꼬리와 철 이빨 사이의 평화 조약의 결과"
+["Cadre.MediumAquaPile.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.BuriedAquaPile.DisplayName"]
 raw = "Buried Aqua Pile"
+status = "normal"
 enUS = "Buried Aqua Pile"
 zhCN = "防水地下材料堆"
 zhTW = "埋藏的水堆"
@@ -247,6 +248,7 @@ koKR = "매립된 수중 더미"
 
 ["Cadre.BuriedAquaPile.Description"]
 raw = "Deeper Underground Pile that can be placed underwater"
+status = "normal"
 enUS = "Deeper Underground Pile that can be placed underwater"
 zhCN = "储存大型资源，可以放置在水下。"
 zhTW = "可以放置在水下的更深地下堆積"
@@ -260,6 +262,7 @@ koKR = "물속에 놓을 수 있는 깊은 지하 더미"
 
 ["Cadre.BuriedAquaPile.FlavorDescription"]
 raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
 zhCN = "“我不喜欢湿漉漉地跑上跑下。”——海狸搬运工。"
 zhTW = "「Folktails與IronTeeth之間和平條約的結果」"
@@ -273,6 +276,7 @@ koKR = "전설의 꼬리와 철니 사이의 평화 조약의 결과"
 
 ["Cadre.SmallAquaTank.DisplayName"]
 raw = "Small Aqua Tank"
+status = "normal"
 enUS = "Small Aqua Tank"
 zhCN = "防水小型储水罐"
 zhTW = "小型水箱"
@@ -286,6 +290,7 @@ koKR = "소형 수조"
 
 ["Cadre.SmallAquaTank.Description"]
 raw = "Small Tank that can be placed underwater"
+status = "normal"
 enUS = "Small Tank that can be placed underwater"
 zhCN = "储存液体，可以放置在水下。"
 zhTW = "可以放置在水下的小型水箱"
@@ -297,21 +302,13 @@ plPL = "Mały zbiornik, który można umieścić pod wodą"
 ptBR = "Tanque pequeno que pode ser colocado debaixo d'água"
 koKR = "물속에 배치할 수 있는 작은 탱크"
 
-["Cadre.SmallAquaTank.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "必要的时候，海狸也要学会珍惜每一寸空间。"
-zhTW = "民尾與鋼牙之間和平條約的結果"
-ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.SmallAquaTank.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.MediumAquaTank.DisplayName"]
 raw = "Medium Aqua Tank"
+status = "normal"
 enUS = "Medium Aqua Tank"
 zhCN = "防水中型储水罐"
 zhTW = "中型水箱"
@@ -325,6 +322,7 @@ koKR = "중간 수조"
 
 ["Cadre.MediumAquaTank.Description"]
 raw = "Medium Tank that can be placed underwater"
+status = "normal"
 enUS = "Medium Tank that can be placed underwater"
 zhCN = "储存液体，可以放置在水下。"
 zhTW = "可以放置在水下的中型水箱"
@@ -336,21 +334,13 @@ plPL = "Średni zbiornik, który można umieścić pod wodą."
 ptBR = "Tanque Médio que pode ser colocado debaixo d'água"
 koKR = "수중에 배치할 수 있는 중간 크기의 탱크"
 
-["Cadre.MediumAquaTank.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "粗心的海狸会在喝水的时候喝到更多的水。"
-zhTW = "「Folktails 與 IronTeeth 之間和平條約的成果」"
-ruRU = "Результат мирного договора между Народными хвостами и Железными зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の成果」"
-frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.MediumAquaTank.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.LargeAquaTank.DisplayName"]
 raw = "Large Aqua Tank"
+status = "normal"
 enUS = "Large Aqua Tank"
 zhCN = "防水大型储水罐"
 zhTW = "大型水桶"
@@ -364,6 +354,7 @@ koKR = "대형 수조"
 
 ["Cadre.LargeAquaTank.Description"]
 raw = "Large Tank that can be placed underwater"
+status = "normal"
 enUS = "Large Tank that can be placed underwater"
 zhCN = "储存液体，可以放置在水下。"
 zhTW = "可放置在水下的大型水箱"
@@ -375,21 +366,13 @@ plPL = "Duży zbiornik, który można umieścić pod wodą"
 ptBR = "Tanque grande que pode ser colocado embaixo d'água"
 koKR = "물속에 배치할 수 있는 대형 탱크"
 
-["Cadre.LargeAquaTank.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "所以说，把水存在水里，这是不是不太对？。"
-zhTW = "民尾與鐵牙之間和平條約的成果"
-ruRU = "Результат мирного договора между Лесными хвостами и Железными зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "„Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth“"
-plPL = "Rezultat Traktatu Pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "폴크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.LargeAquaTank.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.SmallAquaWarehouse.DisplayName"]
 raw = "Small Aqua Warehouse"
+status = "normal"
 enUS = "Small Aqua Warehouse"
 zhCN = "防水小型仓库"
 zhTW = "小型水庫"
@@ -403,6 +386,7 @@ koKR = "작은 수조 창고"
 
 ["Cadre.SmallAquaWarehouse.Description"]
 raw = "Small Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Small Warehouse that can be placed underwater"
 zhCN = "储存物品，可以放置在水下。"
 zhTW = "可以放置在水下的小型倉庫"
@@ -414,21 +398,13 @@ plPL = "Mały magazyn, który można umieścić pod wodą"
 ptBR = "Pequeno Armazém que pode ser colocado debaixo d'água"
 koKR = "물속에 배치할 수 있는 작은 창고"
 
-["Cadre.SmallAquaWarehouse.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "如果把炸药存放在水里，还能正常使用吗？"
-zhTW = "伏耳尾與鐵牙之間和平條約的成果"
-ruRU = "Результат мирного договора между Лесными и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.SmallAquaWarehouse.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.MediumAquaWarehouse.DisplayName"]
 raw = "Medium Aqua Warehouse"
+status = "normal"
 enUS = "Medium Aqua Warehouse"
 zhCN = "防水中型仓库"
 zhTW = "中型水庫"
@@ -442,6 +418,7 @@ koKR = "중형 수조 창고"
 
 ["Cadre.MediumAquaWarehouse.Description"]
 raw = "Medium Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Medium Warehouse that can be placed underwater"
 zhCN = "储存物品，可以放置在水下。"
 zhTW = "可放置於水下的中型倉庫"
@@ -453,21 +430,13 @@ plPL = "Średni magazyn, który można umieścić pod wodą"
 ptBR = "Armazém médio que pode ser colocado debaixo d'água"
 koKR = "물속에 배치할 수 있는 중형 창고"
 
-["Cadre.MediumAquaWarehouse.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "如何更好地防水，是海狸科学家钻研的课题之一。"
-zhTW = "「民尾和鐵牙之間和平條約的成果」"
-ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの間の和平条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.MediumAquaWarehouse.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.LargeAquaWarehouse.DisplayName"]
 raw = "Large Aqua Warehouse"
+status = "normal"
 enUS = "Large Aqua Warehouse"
 zhCN = "防水大型仓库"
 zhTW = "大型水庫"
@@ -481,6 +450,7 @@ koKR = "대형 수경창고"
 
 ["Cadre.LargeAquaWarehouse.Description"]
 raw = "Large Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Large Warehouse that can be placed underwater"
 zhCN = "储存物品，可以放置在水下。"
 zhTW = "可以放置在水下的大型倉庫"
@@ -492,21 +462,13 @@ plPL = "Duży magazyn, który można umieścić pod wodą"
 ptBR = "Grande Armazém que pode ser colocado debaixo d'água"
 koKR = "수중에 배치할 수 있는 대형 창고"
 
-["Cadre.LargeAquaWarehouse.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "优秀的防水框架，代价是里面挤得无法通行。"
-zhTW = "「民尾族與鐵牙族之間和平條約的結果」"
-ruRU = "Результат мира между Народными Хвостиками и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
-frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Rezultat traktatu pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "Folktails와 IronTeeth 간의 평화 조약의 결과"
+["Cadre.LargeAquaWarehouse.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.AquaNumberCruncher.DisplayName"]
 raw = "Aqua Number Cruncher (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Number Cruncher (DO NOT BUILD - CRASHES GAME)"
 zhCN = "防水数算机械"
 zhTW = "水中數字計算器（請勿建造 - 遊戲會崩潰）"
@@ -520,6 +482,7 @@ koKR = "수경 수치 처리기 (건설 금지 - 게임 충돌 발생)"
 
 ["Cadre.AquaNumberCruncher.Description"]
 raw = "Number Cruncher that can be operates better underwater"
+status = "normal"
 enUS = "Number Cruncher that can be operates better underwater"
 zhCN = "能在水下操作，且更加高效。<br><color=#FF4C4C>Bug：模组未完善，建造会导致游戏崩溃。</color>"
 zhTW = "「可以在水下更好運作的數字計算器」"
@@ -531,21 +494,13 @@ plPL = "Zgrabiarka, która może lepiej działać pod wodą"
 ptBR = "Calculadora que pode operar melhor debaixo d'água"
 koKR = "수중에서 더 잘 작동하는 숫자 처리기"
 
-["Cadre.AquaNumberCruncher.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "更好的冷却方式……并没有提高计算性能。"
-zhTW = "「民尾與鐵齒之間和平條約的結果」"
-ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
-jaJP = "「民の尾と鉄の歯との間の平和条約の結果」"
-frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik Traktatu Pokojowego pomiędzy Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "Folktails와 IronTeeth 간의 평화 조약 결과"
+["Cadre.AquaNumberCruncher.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.AquaWaterWheel.DisplayName"]
 raw = "Aqua Water Wheel (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Water Wheel (DO NOT BUILD - CRASHES GAME)"
 zhCN = "防水水轮"
 zhTW = "水輪（請勿建造 - 會導致遊戲崩潰）"
@@ -559,6 +514,7 @@ koKR = "수중 물레방아 (설치 금지 - 게임 충돌)"
 
 ["Cadre.AquaWaterWheel.Description"]
 raw = "Water Wheel that can be placed underwater"
+status = "normal"
 enUS = "Water Wheel that can be placed underwater"
 zhCN = "可以放置在水下的水轮。<br><color=#FF4C4C>Bug：模组未完善，建造会导致游戏崩溃。</color>"
 zhTW = "可以放置在水下的水車"
@@ -570,21 +526,13 @@ plPL = "Koło wodne, które można umieścić pod wodą"
 ptBR = "Roda d'água que pode ser colocada debaixo d'água"
 koKR = "수중에 배치할 수 있는 수차"
 
-["Cadre.AquaWaterWheel.FlavorDescription"]
-raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
-zhCN = "相同的水流方向却能让水轮转起来，这怎么可能？"
-zhTW = "「人民尾與鐵牙之間和平條約的結果」"
-ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
-jaJP = "「フォークテイルとアイアンティースの平和条約の結果」"
-frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
-deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
-plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
-ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
-koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+["Cadre.AquaWaterWheel.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 
 ["Cadre.AquaCompactWaterWheel.DisplayName"]
 raw = "Aqua Compact Water Wheel (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Compact Water Wheel (DO NOT BUILD - CRASHES GAME)"
 zhCN = "防水紧凑水轮"
 zhTW = "水輪發電機（請勿建造 - 會導致遊戲崩潰）"
@@ -598,6 +546,7 @@ koKR = "아쿠아 콤팩트 수력발전기 (건설 금지 - 게임 충돌)"
 
 ["Cadre.AquaCompactWaterWheel.Description"]
 raw = "Compact Water Wheel that can be placed underCompactWater"
+status = "normal"
 enUS = "Compact Water Wheel that can be placed underCompactWater"
 zhCN = "可以放置在水下的紧凑水轮。<br><color=#FF4C4C>Bug：模组未完善，建造会导致游戏崩溃。</color>"
 zhTW = "緊湊水輪，可以放置在緊湊水域下"
@@ -609,8 +558,153 @@ plPL = "Kompaktowe Koło Wodne, które można umieścić pod Kompaktową Wodą"
 ptBR = "Roda d'água compacta que pode ser colocada sob ÁguaCompacta."
 koKR = "CompactWater 아래에 배치할 수 있는 콤팩트 수차입니다."
 
+["Cadre.AquaCompactWaterWheel.FlavourDescription"]
+new = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
+
+["Cadre.SmallAquaPile.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "把东西放进水里？这个……有点超纲了。"
+zhTW = "「民尾與鐵牙之間和平條約的結果」"
+ruRU = "Результат мира между Фолктейлами и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.MediumAquaPile.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "既能充分利用水下空间，又能更好地去偷吃……我是说，取用原木。"
+zhTW = "「民尾與鐵牙之間和平條約的結果」"
+ruRU = "Результат мирного договора между Легендонами и Железными Зубами"
+jaJP = "「フォルクテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "민족의 꼬리와 철 이빨 사이의 평화 조약의 결과"
+
+["Cadre.SmallAquaTank.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "必要的时候，海狸也要学会珍惜每一寸空间。"
+zhTW = "民尾與鋼牙之間和平條約的結果"
+ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.MediumAquaTank.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "粗心的海狸会在喝水的时候喝到更多的水。"
+zhTW = "「Folktails 與 IronTeeth 之間和平條約的成果」"
+ruRU = "Результат мирного договора между Народными хвостами и Железными зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の成果」"
+frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.LargeAquaTank.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "所以说，把水存在水里，这是不是不太对？。"
+zhTW = "民尾與鐵牙之間和平條約的成果"
+ruRU = "Результат мирного договора между Лесными хвостами и Железными зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "„Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth“"
+plPL = "Rezultat Traktatu Pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "폴크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.SmallAquaWarehouse.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "如果把炸药存放在水里，还能正常使用吗？"
+zhTW = "伏耳尾與鐵牙之間和平條約的成果"
+ruRU = "Результат мирного договора между Лесными и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik Traktatu Pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.MediumAquaWarehouse.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "如何更好地防水，是海狸科学家钻研的课题之一。"
+zhTW = "「民尾和鐵牙之間和平條約的成果」"
+ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの間の和平条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
+["Cadre.LargeAquaWarehouse.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "优秀的防水框架，代价是里面挤得无法通行。"
+zhTW = "「民尾族與鐵牙族之間和平條約的結果」"
+ruRU = "Результат мира между Народными Хвостиками и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの間の平和条約の結果」"
+frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Rezultat traktatu pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "Folktails와 IronTeeth 간의 평화 조약의 결과"
+
+["Cadre.AquaNumberCruncher.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "更好的冷却方式……并没有提高计算性能。"
+zhTW = "「民尾與鐵齒之間和平條約的結果」"
+ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
+jaJP = "「民の尾と鉄の歯との間の平和条約の結果」"
+frFR = "Résultat du traité de paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik Traktatu Pokojowego pomiędzy Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "Folktails와 IronTeeth 간의 평화 조약 결과"
+
+["Cadre.AquaWaterWheel.FlavorDescription"]
+raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
+enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+zhCN = "相同的水流方向却能让水轮转起来，这怎么可能？"
+zhTW = "「人民尾與鐵牙之間和平條約的結果」"
+ruRU = "Результат мирного договора между Фолктейлами и Железными Зубами"
+jaJP = "「フォークテイルとアイアンティースの平和条約の結果」"
+frFR = "Résultat du Traité de Paix entre les Folktails et les IronTeeth"
+deDE = "Ergebnis des Friedensvertrags zwischen den Folktails und den IronTeeth"
+plPL = "Wynik traktatu pokojowego między Folktails a IronTeeth"
+ptBR = "Resultado do Tratado de Paz entre os Folktails e os IronTeeth"
+koKR = "포크테일과 아이언티스 간의 평화 조약의 결과"
+
 ["Cadre.AquaCompactWaterWheel.FlavorDescription"]
 raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "abandoned"
 enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
 zhCN = "防水的水轮？你是在说一个笑话吗？"
 zhTW = "「民尾與鐵牙之間和平條約的結果」"

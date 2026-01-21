@@ -1,5 +1,8 @@
+name = "Hue & Turn"
+
 ["LV.HNT.Title"]
 raw = "Hue & Turn"
+status = "normal"
 enUS = "Hue & Turn"
 zhCN = "颜色与旋转"
 zhTW = "顏色與轉向"
@@ -13,6 +16,7 @@ koKR = "색조 & 회전"
 
 ["LV.HNT.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -26,6 +30,7 @@ koKR = "리셋"
 
 ["LV.HNT.KeybindingCopy"]
 raw = "Copy Hue & Turn"
+status = "normal"
 enUS = "Copy Hue & Turn"
 zhCN = "复制物品颜色与旋转状态"
 zhTW = "複製色相與旋轉"
@@ -39,6 +44,7 @@ koKR = "색상 복사 및 회전"
 
 ["LV.HNT.KeybindingPaste"]
 raw = "Paste Hue & Turn"
+status = "normal"
 enUS = "Paste Hue & Turn"
 zhCN = "粘贴物品颜色与旋转状态"
 zhTW = "粘貼色調與旋轉"
@@ -52,6 +58,7 @@ koKR = "색상 붙여넣기 및 회전"
 
 ["LV.HNT.Color"]
 raw = "Color"
+status = "normal"
 enUS = "Color"
 zhCN = "颜色"
 zhTW = "顏色"
@@ -65,6 +72,7 @@ koKR = "색상"
 
 ["LV.HNT.FluidColor"]
 raw = "Fluid Color"
+status = "normal"
 enUS = "Fluid Color"
 zhCN = "液体颜色"
 zhTW = "流體顏色"
@@ -78,6 +86,7 @@ koKR = "유체 색상"
 
 ["LV.HNT.Rotation"]
 raw = "Rotation"
+status = "normal"
 enUS = "Rotation"
 zhCN = "旋转"
 zhTW = "旋轉"
@@ -91,6 +100,7 @@ koKR = "회전"
 
 ["LV.HNT.RotationPivot"]
 raw = "Rotation Pivot"
+status = "normal"
 enUS = "Rotation Pivot"
 zhCN = "旋转轴（Y轴）平移"
 zhTW = "旋轉樞紐"
@@ -104,6 +114,7 @@ koKR = "회전 중심"
 
 ["LV.HNT.Advanced"]
 raw = "Toggle Advanced options"
+status = "normal"
 enUS = "Toggle Advanced options"
 zhCN = "打开高级选项"
 zhTW = "切換高級選項"
@@ -117,6 +128,7 @@ koKR = "고급 옵션 전환"
 
 ["LV.HNT.Translate"]
 raw = "Translate"
+status = "normal"
 enUS = "Please provide the text you would like me to translate."
 zhCN = "位置平移"
 zhTW = "請提供要翻譯的文本。"
@@ -130,6 +142,7 @@ koKR = "번역하다"
 
 ["LV.HNT.ToAll"]
 raw = "To all {0}:"
+status = "normal"
 enUS = "To all {0}:"
 zhCN = "在所有 {0} 上："
 zhTW = "致所有 {0}:"
@@ -143,6 +156,7 @@ koKR = "모든 {0}에게:"
 
 ["LV.HNT.AllConfirm"]
 raw = "Are you sure?"
+status = "normal"
 enUS = "Are you sure?"
 zhCN = "确定要执行此操作吗？"
 zhTW = "你確定嗎？"
@@ -156,6 +170,7 @@ koKR = "확실합니까?"
 
 ["LV.HNT.ColorAll"]
 raw = "Use this color"
+status = "normal"
 enUS = "Use this color."
 zhCN = "应用此颜色"
 zhTW = "使用這個顏色"
@@ -169,6 +184,7 @@ koKR = "이 색상 사용"
 
 ["LV.HNT.ApplyAll"]
 raw = "Use these settings"
+status = "normal"
 enUS = "Use these settings."
 zhCN = "应用此设置"
 zhTW = "使用這些設定"
@@ -182,6 +198,7 @@ koKR = "이 설정 사용"
 
 ["LV.HNT.RotateRandomAll"]
 raw = "Randomize rotation"
+status = "normal"
 enUS = "Randomize rotation"
 zhCN = "随机旋转"
 zhTW = "隨機旋轉"
@@ -195,6 +212,7 @@ koKR = "회전 무작위화"
 
 ["LV.HNT.ResetAll"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -208,6 +226,7 @@ koKR = "재설정"
 
 ["LV.HNT.Scale"]
 raw = "Scale"
+status = "normal"
 enUS = "Scale"
 zhCN = "缩放"
 zhTW = "規模"
@@ -221,6 +240,7 @@ koKR = "저울"
 
 ["LV.HNT.RotationX"]
 raw = "Rotation X"
+status = "normal"
 enUS = "Rotation X"
 zhCN = "翻滚（X轴）"
 zhTW = "旋轉 X"
@@ -234,6 +254,7 @@ koKR = "회전 X"
 
 ["LV.HNT.RotationZ"]
 raw = "Rotation Z"
+status = "normal"
 enUS = "Rotation Z"
 zhCN = "翻滚（Z轴）"
 zhTW = "Z 旋轉"
@@ -247,6 +268,7 @@ koKR = "회전 Z"
 
 ["LV.HNT.Positioning"]
 raw = "Positioning"
+status = "normal"
 enUS = "Positioning"
 zhCN = "位置调整"
 zhTW = "定位"
@@ -260,6 +282,7 @@ koKR = "위치 지정"
 
 ["LV.HNT.Transparency"]
 raw = "Transparency"
+status = "normal"
 enUS = "Transparency"
 zhCN = "透明度"
 zhTW = "透明度"

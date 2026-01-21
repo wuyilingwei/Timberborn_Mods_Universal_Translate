@@ -1,5 +1,8 @@
+name = "Hospital"
+
 ["LV.Hospt.DoubleBed"]
 raw = "Double Medical Bed"
+status = "normal"
 enUS = "Double Medical Bed"
 zhCN = "双人医疗床"
 zhTW = "雙人醫療床"
@@ -13,6 +16,7 @@ koKR = "더블 의료 침대"
 
 ["LV.Hospt.DoubleBedDesc"]
 raw = "A spot where two injured beavers come to rest."
+status = "normal"
 enUS = "A spot where two injured beavers come to rest."
 zhCN = "可供两名受伤海狸休息的地方。"
 zhTW = "兩隻受傷的海狸休息的地方。"
@@ -26,6 +30,7 @@ koKR = "두 마리의 다친 비버가 쉴 수 있는 장소."
 
 ["LV.Hospt.DoubleBedFlavor"]
 raw = "\"I call dibs on the left side!\" —Sawbuck"
+status = "normal"
 enUS = "\"I call dibs on the left side!\" —Sawbuck"
 zhCN = "“嘿，小心点，你挤到我了！”——小松"
 zhTW = "「我占左邊的位子！」—Sawbuck"
@@ -39,6 +44,7 @@ koKR = "\"나는 왼쪽 자리를 차지할게!\" —소벅"
 
 ["LV.Hospt.Hospital"]
 raw = "Hospital"
+status = "normal"
 enUS = "Hospital"
 zhCN = "医院"
 zhTW = "醫院"
@@ -52,6 +58,7 @@ koKR = "병원"
 
 ["LV.Hospt.HospitalDesc"]
 raw = "A place where beavers can rest and recover from injuries."
+status = "normal"
 enUS = "A place where beavers can rest and recover from injuries."
 zhCN = "海狸接受专门治疗的地方。"
 zhTW = "一個海狸可以休息和從傷害中恢復的地方。"
@@ -65,6 +72,7 @@ koKR = "비버들이 휴식을 취하고 부상에서 회복할 수 있는 곳�
 
 ["LV.Hospt.HospitalFlavor"]
 raw = "\"Nurse! I think I have splinters... everywhere.\" —Splinty"
+status = "normal"
 enUS = "\"Nurse! I think I have splinters... everywhere.\" —Splinty"
 zhCN = "“护士，我觉得我浑身都被木刺扎到了……”——小松"
 zhTW = "「護士！我想我到處都有刺...。」—Splinty"

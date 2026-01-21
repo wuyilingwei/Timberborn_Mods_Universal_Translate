@@ -1,5 +1,8 @@
+name = "Wireless Coil"
+
 ["LV.WiC.WirelessCoil"]
 raw = "Wireless Coil"
+status = "normal"
 enUS = "Wireless Coil"
 zhCN = "能量线圈"
 zhTW = "無線線圈"
@@ -13,6 +16,7 @@ koKR = "무선 코일"
 
 ["LV.WiC.WirelessCoilDesc"]
 raw = "Transmit power without physical connections over a short range."
+status = "normal"
 enUS = "Transmit power without physical connections over a short range."
 zhCN = "在短距离内无线传输能量。"
 zhTW = "在短距離內無需物理連接即可傳輸電力。"
@@ -26,6 +30,7 @@ koKR = "물리적 연결 없이 짧은 거리에서 전력을 전송합니다."
 
 ["LV.WiC.WirelessCoilFlavor"]
 raw = "Hoomans called it 'Wi-Fi' back then. We're still not sure how it powered their Beep Bricks, but they always stayed close to it."
+status = "normal"
 enUS = "Hoomans called it 'Wi-Fi' back then. We're still not sure how it powered their Beep Bricks, but they always stayed close to it."
 zhCN = "人类好像把这个叫做“WiFi”，但看起来传输的不是能量，那他们用来干嘛？"
 zhTW = "人類稱它為「無線網路」那個時候。我們仍然不確定它是如何為他們的「嗶嗶磚」供電的，但它們總是保持在附近。"
@@ -39,6 +44,7 @@ koKR = "인간들은 그것을 그 당시 '와이파이'라고 불렀습니다. 
 
 ["LV.WiC.Range"]
 raw = "Range: {0}"
+status = "normal"
 enUS = "Range: {0}"
 zhCN = "范围：{0}"
 zhTW = "範圍：{0}"
@@ -52,6 +58,7 @@ koKR = "범위: {0}"
 
 ["LV.WiC.InRange"]
 raw = "Coils in range:"
+status = "normal"
 enUS = "Coils in range:"
 zhCN = "范围内线圈："
 zhTW = "範圍內的線圈："

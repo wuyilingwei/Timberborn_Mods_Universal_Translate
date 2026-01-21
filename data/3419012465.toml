@@ -1,5 +1,8 @@
+name = "Science2Power™️ Overdrive"
+
 ["LV.LGP.ScienceOverdrive"]
 raw = "Global Science2Power™️ (S2P) Overdrive"
+status = "normal"
 enUS = "Global Science2Power™️ (S2P) Overdrive"
 zhCN = "<b>超载技术 - 能量倍增</b>"
 zhTW = "全球科學2能™️ (S2P) 超速運行"
@@ -13,6 +16,7 @@ koKR = "글로벌 사이언스2파워™️ (S2P) 오버드라이브"
 
 ["LV.LGP.CurrentMul"]
 raw = "Current Overdrive: x{0}P at {1}S/h"
+status = "normal"
 enUS = "Current Overdrive: x{0}P at {1}S/h"
 zhCN = "当前倍数：{0}倍（每小时消耗{1}科学点数）"
 zhTW = "當前超速：x{0}P 在 {1}S/h"
@@ -26,6 +30,7 @@ koKR = "현재 오버드라이브: x{0}P에서 {1}S/h"
 
 ["LV.LGP.SetMul"]
 raw = "Target Overdrive: x{0}P at {1}S/h"
+status = "normal"
 enUS = "Target Overdrive: x{0}P at {1}S/h"
 zhCN = "目标倍数：{0}倍（每小时消耗{1}科学点数）"
 zhTW = "目標超速：x{0}P 在 {1}S/h"
@@ -39,6 +44,7 @@ koKR = "목표 오버드라이브: x{0}P에서 {1}S/h"
 
 ["LV.LGP.PrevCost"]
 raw = "Prev: x{0}P cost: {1}S/h"
+status = "normal"
 enUS = "Prev: x{0}P cost: {1}S/h"
 zhCN = "上一级：{0}倍（每小时消耗{1}科学点数）"
 zhTW = "前：x{0}P 成本：{1}S/小時"
@@ -52,6 +58,7 @@ koKR = "이전: x{0}P 비용: {1}S/h"
 
 ["LV.LGP.NextCost"]
 raw = "Next: x{0}P cost: {1}S/h"
+status = "normal"
 enUS = "Next: x{0}P cost: {1}S/h"
 zhCN = "下一级：{0}倍（每小时消耗{1}科学点数）"
 zhTW = "下一步：x{0}P 成本：{1}S/h"
@@ -65,6 +72,7 @@ koKR = "다음: x{0}P 비용: {1}S/h"
 
 ["LV.LGP.NoPrev"]
 raw = "Prev: Already at minimum multiplication"
+status = "normal"
 enUS = "Already at minimum multiplication"
 zhCN = "上一级：已达到最小倍数"
 zhTW = "已達最低乘數"
@@ -78,6 +86,7 @@ koKR = "이전: 이미 최소 곱셈에 도달했습니다."
 
 ["LV.LGP.NoNext"]
 raw = "Next: Already at maximum multiplication"
+status = "normal"
 enUS = "Next: Already at maximum multiplication"
 zhCN = "下一级：已达到最大倍数"
 zhTW = "下一步：已達到最大倍增"
@@ -91,6 +100,7 @@ koKR = "다음: 이미 최대 배수에 도달했습니다."
 
 ["LV.LGP.NoScience"]
 raw = "Not enough Science!"
+status = "normal"
 enUS = "Not enough science!"
 zhCN = "<color=#FFFF1A>科学点数不足！</color>"
 zhTW = "不夠科學！"
@@ -104,6 +114,7 @@ koKR = "과학이 부족합니다!"
 
 ["LV.LGP.BaseCost"]
 raw = "Base Science cost"
+status = "normal"
 enUS = "Base Science cost"
 zhCN = "科学点数基础消耗"
 zhTW = "基礎科學成本"
@@ -117,6 +128,7 @@ koKR = "기본 과학 비용"
 
 ["LV.LGP.BaseCostDesc"]
 raw = "The base science cost for calculation. It is the start value for a custom Fibonacci sequence. Default: 10. Don't be cheap :P"
+status = "normal"
 enUS = "The base science cost for calculation. It is the starting value for a custom Fibonacci sequence. Default: 10. Don't be cheap :P"
 zhCN = "科学点数的基础消耗值，每一级的消耗值为“对应的斐波那契数×基础消耗值”（模组默认：10）。"
 zhTW = "計算的基本科學成本。它是自定義斐波那契數列的起始值。預設值：10。別小氣 :P"
@@ -130,6 +142,7 @@ koKR = "기본 과학 비용 계산. 사용자 정의 피보나치 수열의 시
 
 ["LV.LGP.MaxMul"]
 raw = "Max multiplication"
+status = "normal"
 enUS = "Max multiplication"
 zhCN = "最大倍数"
 zhTW = "最大乘法"
@@ -143,6 +156,7 @@ koKR = "최대 배수"
 
 ["LV.LGP.MaxMulDesc"]
 raw = "The maximum power multiplication you can apply. Default: 10."
+status = "normal"
 enUS = "The maximum power multiplication you can apply. Default: 10."
 zhCN = "可应用的最大能量倍数（模组默认：10）。"
 zhTW = "您可以應用的最大功率倍增。預設值：10。"

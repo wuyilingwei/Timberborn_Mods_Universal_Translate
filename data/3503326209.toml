@@ -1,5 +1,8 @@
+name = "Macro Management"
+
 ["LV.MacM.KeyBindingCopy"]
 raw = "Macro Management: Build another"
+status = "normal"
 enUS = "Macro Management: Build another"
 zhCN = "宏管理：复制建造"
 zhTW = "宏觀管理：建立另一個"
@@ -13,6 +16,7 @@ koKR = "매크로 관리: 다른 건설"
 
 ["LV.MacM.KeyBindingSelectAll"]
 raw = "Macro Management: Select all"
+status = "normal"
 enUS = "Macro Management: Select all"
 zhCN = "宏管理：全局选择"
 zhTW = "宏觀管理：全選"
@@ -26,6 +30,7 @@ koKR = "매크로 관리: 모두 선택"
 
 ["LV.MacM.KeyBindingSelectDistr"]
 raw = "Macro Management: Select in district"
+status = "normal"
 enUS = "Macro Management: Select in district"
 zhCN = "宏管理：在地区中选择"
 zhTW = "宏觀管理：在區域內選擇"
@@ -39,6 +44,7 @@ koKR = "매크로 관리: 구역 내 선택"
 
 ["LV.MacM.BuildAnother"]
 raw = "Build another {0}"
+status = "normal"
 enUS = "Build another {0}"
 zhCN = "复制建造 {0}"
 zhTW = "建造另一個 {0}"
@@ -52,6 +58,7 @@ koKR = "다른 {0} 건설하기"
 
 ["LV.MacM.Select"]
 raw = "Select {0}:"
+status = "normal"
 enUS = "Select {0}:"
 zhCN = "选择 {0}："
 zhTW = "選擇 {0}："
@@ -65,6 +72,7 @@ koKR = "선택 {0}:"
 
 ["LV.MacM.SelectDistrict"]
 raw = "In District '{0}'"
+status = "normal"
 enUS = "In District '{0}'"
 zhCN = "在地区 {0} 中选择"
 zhTW = "在 '{0}' 區域"
@@ -78,6 +86,7 @@ koKR = "'{0}' 지구에서"
 
 ["LV.MacM.NoDistrict"]
 raw = "No District"
+status = "normal"
 enUS = "No District"
 zhCN = "无地区划分"
 zhTW = "無轄區"
@@ -91,6 +100,7 @@ koKR = "구역 없음"
 
 ["LV.MacM.SelectAll"]
 raw = "Everywhere"
+status = "normal"
 enUS = "Everywhere"
 zhCN = "全局选择"
 zhTW = "到處"
@@ -104,6 +114,7 @@ koKR = "모든 곳"
 
 ["LV.MacM.SelectPaused"]
 raw = "Paused"
+status = "normal"
 enUS = "Paused"
 zhCN = "已关闭"
 zhTW = "暫停"
@@ -117,6 +128,7 @@ koKR = "일시 정지"
 
 ["LV.MacM.SelectRunning"]
 raw = "Running"
+status = "normal"
 enUS = "Running"
 zhCN = "运行中"
 zhTW = "跑步"
@@ -130,6 +142,7 @@ koKR = "운영"
 
 ["LV.MacM.StockpileWarning"]
 raw = "Warning: you are about to change Items for <b>ALL</b> ({0}) selected storage buildings. Are you sure?"
+status = "normal"
 enUS = "Warning: you are about to change Items for <b>ALL</b> ({0}) selected storage buildings. Are you sure?"
 zhCN = "即将修改<b>所有</b>（{0}个）选中建筑的物品配置。确定要继续吗？"
 zhTW = "警告：您即將更改<b>所有</b> ({0}) 選定儲存建築的物品。您確定嗎？"
@@ -143,6 +156,7 @@ koKR = "경고: <b>모든</b> ({0}) 선택된 저장 건물의 아이템을 변�
 
 ["LV.MacM.ManufactoryWarning"]
 raw = "Warning: you are about to change Recipes for <b>ALL</b> ({0}) selected buildings. Are you sure?"
+status = "normal"
 enUS = "Warning: you are about to change Recipes for <b>ALL</b> ({0}) selected buildings. Are you sure?"
 zhCN = "即将修改<b>所有</b>（{0}个）选中建筑的生产配方。确定要继续吗？"
 zhTW = "警告：您即將更改<b>所有</b>（{0}）選定建築物的配方。您確定嗎？"
@@ -156,6 +170,7 @@ koKR = "경고: 선택한 <b>모든</b> ({0}) 건물의 레시피를 변경하�
 
 ["LV.MacM.PickArea"]
 raw = "Pick an Area"
+status = "normal"
 enUS = "Pick an Area"
 zhCN = "在指定区域中选择"
 zhTW = "選擇區域"
@@ -169,6 +184,7 @@ koKR = "영역 선택"
 
 ["LV.MacM.KeyBindingPickArea"]
 raw = "Macro Management: Pick an Area"
+status = "normal"
 enUS = "Macro Management: Pick an Area"
 zhCN = "宏管理：区域选择"
 zhTW = "宏管理：選擇區域"
@@ -182,6 +198,7 @@ koKR = "매크로 관리: 영역 선택"
 
 ["LV.MacM.DetonateWarning"]
 raw = "Warning: you are about to detonate <b>ALL</b> ({0}) selected dynamites. Are you sure?"
+status = "normal"
 enUS = "Warning: you are about to detonate <b>ALL</b> ({0}) selected dynamites. Are you sure?"
 zhCN = "即将引爆<b>所有</b>（{0}个）选择的炸药。确定要这么做吗？"
 zhTW = "警告：您即將引爆 <b>所有</b> ({0}) 選中的炸藥。您確定嗎？"

@@ -1,5 +1,8 @@
+name = "Evaporation"
+
 ["evaporation.settings.enablemod"]
 raw = "Enable Mod"
+status = "normal"
 enUS = "Enable Mod"
 zhCN = "启用遮蔽蒸发"
 zhTW = "啟用模組"
@@ -13,6 +16,7 @@ koKR = "모드 활성화"
 
 ["evaporation.settings.enablemod.desc"]
 raw = "Toggles the entire mod on or off."
+status = "normal"
 enUS = "Toggles the entire mod on or off."
 zhCN = "勾选后，启用下列选项，可以更改水面的蒸发速度。"
 zhTW = "開關整個模組的開啟或關閉。"
@@ -26,6 +30,7 @@ koKR = "모드 전체를 켜거나 끕니다."
 
 ["evaporation.settings.coveredevaporationrate"]
 raw = "Covered Evaporation Rate"
+status = "normal"
 enUS = "Covered Evaporation Rate"
 zhCN = "遮蔽蒸发率"
 zhTW = "覆蓋蒸發率"
@@ -39,6 +44,7 @@ koKR = "덮인 증발 속도"
 
 ["evaporation.settings.coveredevaporationrate.desc"]
 raw = "How slow or fast covered water evaporates compared to Vanilla. 100% = vanilla, 1% is 100x slower."
+status = "normal"
 enUS = "How slow or fast covered water evaporates compared to Vanilla. 100% = vanilla, 1% is 100x slower."
 zhCN = "被遮蔽水面相比于游戏默认的蒸发速度（100%=原版，1%=减慢100倍）。"
 zhTW = "與香草相比，蓋住的水蒸發得多慢或多快。100% = 香草，1% 是 100 倍慢。"
@@ -52,6 +58,7 @@ koKR = "덮인 물이 바닐라와 비교하여 얼마나 느리게 또는 빠�
 
 ["evaporation.settings.maxsearchheight"]
 raw = "Coverage Search Height"
+status = "normal"
 enUS = "Coverage Search Height"
 zhCN = "遮蔽检测高度"
 zhTW = "覆蓋搜尋高度"
@@ -65,6 +72,7 @@ koKR = "커버리지 탐색 높이"
 
 ["evaporation.settings.maxsearchheight.desc"]
 raw = "How high above water to search for cover. Higher values detect taller structures but may impact performance on large maps."
+status = "normal"
 enUS = "How high above water to search for cover. Higher values detect taller structures but may impact performance on large maps."
 zhCN = "检测水面上是否存在遮蔽物的最大高度。数值越高，遮蔽物可以离水面越高，但在大地图可能影响性能。"
 zhTW = "搜索掩護的水面高度應為多高。較高的數值可以檢測到較高的結構，但可能會影響在大地圖上的性能。"
@@ -78,6 +86,7 @@ koKR = "물 위에서 덮개를 검색하는 높이. 더 높은 값은 더 높�
 
 ["evaporation.settings.updateinterval"]
 raw = "Check Frequency"
+status = "normal"
 enUS = "Check Frequency"
 zhCN = "模组检测频率"
 zhTW = "檢查頻率"
@@ -91,6 +100,7 @@ koKR = "확인 빈도"
 
 ["evaporation.settings.updateinterval.desc"]
 raw = "How often to update coverage detection (1=faster, 10=slower). Roughly: 1≈half day, 5≈2 days, 10≈week."
+status = "normal"
 enUS = "How often to update coverage detection (1=faster, 10=slower). Roughly: 1≈half day, 5≈2 days, 10≈week."
 zhCN = "模组主逻辑的运行频率，即遮蔽检测刷新的间隔（1=较快，10=较慢；1≈半天，5≈2天，10≈1周）。"
 zhTW = "更新覆蓋檢測的頻率應該如何？（1=較快，10=較慢）。大致上：1≈半天，5≈2天，10≈一週。"

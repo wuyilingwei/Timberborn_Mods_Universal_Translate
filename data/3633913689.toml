@@ -1,5 +1,8 @@
+name = "Unknown"
+
 ["UI.TW.SimpleWorkshopControl.Blocked"]
 raw = "Multiple control conditions unmet"
+status = "abandoned"
 enUS = "Multiple control conditions unmet"
 zhCN = "多项控制条件未满足。"
 zhTW = "多個控制條件未滿足"
@@ -13,6 +16,7 @@ koKR = "여러 제어 조건이 충족되지 않음"
 
 ["UI.TW.SimpleWorkshopControl.BlockedInput"]
 raw = "Auto Ingredients condition unmet"
+status = "abandoned"
 enUS = "Auto Ingredients condition unmet"
 zhCN = "原料控制条件未满足。"
 zhTW = "自動原料條件未滿足"
@@ -26,6 +30,7 @@ koKR = "자동 재료 조건 불충족"
 
 ["UI.TW.SimpleWorkshopControl.BlockedProduct"]
 raw = "Auto Products condition unmet"
+status = "abandoned"
 enUS = "Auto Products condition unmet"
 zhCN = "产物控制条件未满足。"
 zhTW = "自動產品條件未滿足"
@@ -39,6 +44,7 @@ koKR = "자동 제품 조건 충족되지 않음"
 
 ["UI.TW.SimpleWorkshopControl.BlockedUser"]
 raw = "User control condition unmet"
+status = "abandoned"
 enUS = "User control condition unmet"
 zhCN = "自定义控制条件未满足。"
 zhTW = "使用者控制條件未滿足"
@@ -52,6 +58,7 @@ koKR = "사용자 제어 조건이 충족되지 않음"
 
 ["UI.TW.SimpleWorkshopControl.SciencePoints"]
 raw = "Science Points"
+status = "abandoned"
 enUS = "Science Points"
 zhCN = "科学点数"
 zhTW = "「科學點數」"
@@ -65,6 +72,7 @@ koKR = "과학 점수"
 
 ["UI.TW.SimpleWorkshopControl.BotPopulation"]
 raw = "Bot Population"
+status = "abandoned"
 enUS = "Bot Population"
 zhCN = "机关人数量"
 zhTW = "機器人數量"
@@ -78,6 +86,7 @@ koKR = "로봇 인구"
 
 ["UI.TW.SimpleWorkshopControl.BeaverPopulation"]
 raw = "Beaver Population"
+status = "abandoned"
 enUS = "Beaver Population"
 zhCN = "海狸数量"
 zhTW = "海狸人口"
@@ -91,6 +100,7 @@ koKR = "비버 인구"
 
 ["UI.TW.SimpleWorkshopControl.WorkshopControls"]
 raw = "Workshop Controls"
+status = "abandoned"
 enUS = "Workshop Controls"
 zhCN = "工作启停控制"
 zhTW = "工作坊控制器"
@@ -104,6 +114,7 @@ koKR = "작업장 조작부"
 
 ["UI.TW.SimpleWorkshopControl.Hide"]
 raw = "Hide"
+status = "abandoned"
 enUS = "Hide"
 zhCN = "隐藏"
 zhTW = "隱藏"
@@ -117,6 +128,7 @@ koKR = "숨기기"
 
 ["UI.TW.SimpleWorkshopControl.RequireInputs"]
 raw = "Auto Ingredients"
+status = "abandoned"
 enUS = "Auto Ingredients"
 zhCN = "受原料控制"
 zhTW = "自動原料"
@@ -130,6 +142,7 @@ koKR = "자동 재료"
 
 ["UI.TW.SimpleWorkshopControl.UseAutoProducts"]
 raw = "Auto Products"
+status = "abandoned"
 enUS = "Auto Products"
 zhCN = "受产物控制"
 zhTW = "自動產品"
@@ -143,6 +156,7 @@ koKR = "자동 제품"
 
 ["UI.TW.SimpleWorkshopControl.Controller"]
 raw = "User Control"
+status = "abandoned"
 enUS = "User Control"
 zhCN = "自定义控制"
 zhTW = "用戶控制"
@@ -156,6 +170,7 @@ koKR = "사용자 제어"
 
 ["UI.TW.SimpleWorkshopControl.RangeType"]
 raw = "Scale"
+status = "abandoned"
 enUS = "Scale"
 zhCN = "阈值"
 zhTW = "比例"
@@ -169,6 +184,7 @@ koKR = "배율"
 
 ["UI.TW.SimpleWorkshopControl.Start"]
 raw = "Start"
+status = "abandoned"
 enUS = "Start"
 zhCN = "启用"
 zhTW = "開始"
@@ -182,6 +198,7 @@ koKR = "시작"
 
 ["UI.TW.SimpleWorkshopControl.Stop"]
 raw = "Stop"
+status = "abandoned"
 enUS = "Stop"
 zhCN = "关停"
 zhTW = "停止"
@@ -195,6 +212,7 @@ koKR = "중지"
 
 ["UI.TW.SimpleWorkshopControl.NullGoodId"]
 raw = "None"
+status = "abandoned"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -208,6 +226,7 @@ koKR = "없음"
 
 ["UI.TW.SimpleWorkshopControl.Percent"]
 raw = "Percent"
+status = "abandoned"
 enUS = "Percent"
 zhCN = "全局库存百分比"
 zhTW = "百分比"
@@ -221,6 +240,7 @@ koKR = "퍼센트"
 
 ["UI.TW.SimpleWorkshopControl.Value"]
 raw = "Value"
+status = "abandoned"
 enUS = "Value"
 zhCN = "全局库存数值"
 zhTW = "值"
@@ -234,6 +254,7 @@ koKR = "값"
 
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
 raw = "Show status icons"
+status = "abandoned"
 enUS = "Show status icons"
 zhCN = "显示状态图标"
 zhTW = "顯示狀態圖示"
@@ -247,6 +268,7 @@ koKR = "상태 아이콘 표시"
 
 ["ModSetting.TWSimpleWorkshopControl.ShowStatusIconsDesc"]
 raw = "A status icon will appear above blocked buildings"
+status = "abandoned"
 enUS = "A status icon will appear above blocked buildings"
 zhCN = "勾选后，会在控制条件未满足的建筑上方显示状态图标。"
 zhTW = "被阻擋建築物上方將顯示狀態圖標"
@@ -260,6 +282,7 @@ koKR = "차단된 건물 위에 상태 아이콘이 나타납니다."
 
 ["ModSetting.TWSimpleWorkshopControl.RequireInputsDefault"]
 raw = "Auto ingredients default"
+status = "abandoned"
 enUS = "Auto ingredients default"
 zhCN = "原料控制默认设置"
 zhTW = "自動材料預設"
@@ -273,6 +296,7 @@ koKR = "자동 재료 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.RequireInputsDefaultDesc"]
 raw = "Newly constructed buildings will start with Auto Ingredients enabled"
+status = "abandoned"
 enUS = "Newly constructed buildings will start with Auto Ingredients enabled"
 zhCN = "勾选后，新建建筑的“受原料控制”选项将默认启用。<br>受原料控制：此工作场所会在配方中任一原料的全局库存降至0时关闭，并在所有原料升至配方所需数量的指定倍数时启用。"
 zhTW = "新建的建築將預設啟用自動材料選項"
@@ -286,6 +310,7 @@ koKR = "새로 건설된 건물은 자동 재료가 활성화된 상태로 시�
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsDefault"]
 raw = "Auto products default"
+status = "abandoned"
 enUS = "Auto products default"
 zhCN = "产物控制默认设置"
 zhTW = "自動產品預設"
@@ -299,6 +324,7 @@ koKR = "자동 제품 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsDefaultDesc"]
 raw = "Newly constructed buildings will start with Auto Products enabled"
+status = "abandoned"
 enUS = "Newly constructed buildings will start with Auto Products enabled"
 zhCN = "勾选后，新建建筑的“受产物控制”选项将默认启用。<br>受产物控制：此工作场所会在配方中任一产物的全局库存升至满值时关闭，并在所有产物降至满值的指定百分比时启用。"
 zhTW = "新建築物將啟用自動產品功能"
@@ -312,6 +338,7 @@ koKR = "신축된 건물은 자동 제품 기능이 활성화된 상태로 시�
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStart"]
 raw = "Auto ingredient Start default"
+status = "abandoned"
 enUS = "Auto ingredient Start default"
 zhCN = "原料控制建筑启动阈值"
 zhTW = "自動原料開始預設"
@@ -325,6 +352,7 @@ koKR = "자동 재료 시작 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStartDesc"]
 raw = "Auto Ingredient buildings will start when all ingredients have reached this percent of global capacity"
+status = "abandoned"
 enUS = "Auto Ingredient buildings will start when all ingredients have reached this percent of global capacity"
 zhCN = "当所有原料高于此全局库存百分比时，“受原料控制”建筑将启用"
 zhTW = "自動成分建築將在所有成分達到全球容量的此百分比時啟動"
@@ -338,6 +366,7 @@ koKR = "자동 재료 건물은 모든 재료가 글로벌 용량의 이 비율�
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStop"]
 raw = "Auto ingredient Stop default"
+status = "abandoned"
 enUS = "Auto ingredient Stop default"
 zhCN = "原料控制建筑关停阈值"
 zhTW = "自動成分停止預設"
@@ -351,6 +380,7 @@ koKR = "자동 재료 정지 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStopDesc"]
 raw = "Auto Ingredient buildings will stop when any ingredient falls below this percent of global capacity"
+status = "abandoned"
 enUS = "Auto Ingredient buildings will stop when any ingredient falls below this percent of global capacity"
 zhCN = "当任何原料低于此全局库存百分比时，“受原料控制”建筑将关停"
 zhTW = "自動原料建築在任何原料低於全球容量的這個百分比時將停止運作"
@@ -364,6 +394,7 @@ koKR = "자동 재료 건물은 모든 재료가 전역 용량의 이 비율 이
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStart"]
 raw = "Auto product Start default"
+status = "abandoned"
 enUS = "Auto product Start default"
 zhCN = "产物控制建筑启动阈值"
 zhTW = "自動產品啟動默認"
@@ -377,6 +408,7 @@ koKR = "자동 제품 시작 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStartDesc"]
 raw = "Auto product buildings will start when all products have been below this percent of global capacity"
+status = "abandoned"
 enUS = "Auto product buildings will start when all products have been below this percent of global capacity"
 zhCN = "当所有产物低于此全局库存百分比时，“受产物控制”建筑将启用"
 zhTW = "自動產品建築將在所有產品低於全球容量的這個百分比時開始運作。"
@@ -390,6 +422,7 @@ koKR = "자동 제품 건물은 모든 제품이 전 세계 용량의 이 백분
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStop"]
 raw = "Auto product Stop default"
+status = "abandoned"
 enUS = "Auto product Stop default"
 zhCN = "产物控制建筑关停阈值"
 zhTW = "自動產品停止默認值"
@@ -403,6 +436,7 @@ koKR = "자동 제품 중지 기본값"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductStopDesc"]
 raw = "Auto product buidlings will stop when any product is above this percent of global capacity"
+status = "abandoned"
 enUS = "Auto product buidlings will stop when any product is above this percent of global capacity"
 zhCN = "当任何产物高于此全局库存百分比时，“受产物控制”建筑将关停"
 zhTW = "自動產品建築會在任何產品超過全球容量的這個百分比時停止。"
@@ -416,6 +450,7 @@ koKR = "자동 제품 건물은 어떤 제품이 전 세계 용량의 이 비율
 
 ["ModSetting.TWSimpleWorkshopControl.UIMinHeight"]
 raw = "Min UI height"
+status = "abandoned"
 enUS = "Min UI height"
 zhCN = "界面最小高度"
 zhTW = "最小 UI 高度"
@@ -429,6 +464,7 @@ koKR = "최소 UI 높이"
 
 ["ModSetting.TWSimpleWorkshopControl.UIMinHeightDesc"]
 raw = "Controls how much room the control fragment can use in the entity panel"
+status = "abandoned"
 enUS = "Controls how much room the control fragment can use in the entity panel"
 zhCN = "可以调整此模组界面在详情面板中的最小高度。"
 zhTW = "控制控制片段在實體面板中可以使用的空間大小"
@@ -442,6 +478,7 @@ koKR = "제어 조각이 엔티티 패널에서 얼마나 많은 공간을 사�
 
 ["ModSetting.TWSimpleWorkshopControl.UIMaxHeight"]
 raw = "Max UI height"
+status = "abandoned"
 enUS = "Max UI height"
 zhCN = "界面最大高度"
 zhTW = "最大 UI 高度"
@@ -455,6 +492,7 @@ koKR = "최대 UI 높이"
 
 ["ModSetting.TWSimpleWorkshopControl.UIMaxHeightDesc"]
 raw = "Controls how much room the control fragment can use in the entity panel"
+status = "abandoned"
 enUS = "Controls how much room the control fragment can use in the entity panel"
 zhCN = "可以调整此模组界面在详情面板中的最大高度。"
 zhTW = "控制控制碎片在實體面板中可以使用的空間大小"
@@ -468,6 +506,7 @@ koKR = "엔티티 패널에서 제어 조각이 사용할 수 있는 공간의 �
 
 ["ModSetting.TWSimpleWorkshopControl.PerBuildingAutoSliders"]
 raw = "Per-building auto sliders"
+status = "abandoned"
 enUS = "Per-building auto sliders"
 zhCN = "单独设置控制阈值"
 zhTW = "每棟建築自動滑動條"
@@ -481,6 +520,7 @@ koKR = "건물당 자동 슬라이더"
 
 ["ModSetting.TWSimpleWorkshopControl.PerBuildingAutoSlidersDesc"]
 raw = "When checked, the start/stop values for each building can be chosen in-game. When unchecked, all buildings will use the mod-setting defaults."
+status = "abandoned"
 enUS = "When checked, the start/stop values for each building can be chosen in-game. When unchecked, all buildings will use the mod-setting defaults."
 zhCN = "勾选后，可以单独设置每栋建筑的启用/关停阈值。如果未勾选，则所有建筑将使用模组设置的默认阈值。"
 zhTW = "當勾選時，可以在遊戲中為每座建築選擇啟動/停止值。當未勾選時，所有建築將使用模組設定的預設值。"

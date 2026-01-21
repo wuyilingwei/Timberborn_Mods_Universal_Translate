@@ -1,5 +1,8 @@
+name = "Configurable Beaver Stats"
+
 ["CBW.ChangeWalkingSpeed"]
 raw = "Change walking speed"
+status = "normal"
 enUS = "Change walking speed"
 zhCN = "更改移动速度"
 zhTW = "改變行走速度"
@@ -13,6 +16,7 @@ koKR = "걷기 속도 변경"
 
 ["CBW.ChangeWalkingSpeedDesc"]
 raw = "If enabled, the walking speed of beavers and bots will be changed."
+status = "normal"
 enUS = "If enabled, the walking speed of beavers and bots will be modified."
 zhCN = "勾选后，启用下列选项，可以更改海狸和机关人的移动速度。"
 zhTW = "如果啟用，海狸和機器人的行走速度將會改變。"
@@ -26,6 +30,7 @@ koKR = "사용으로 설정하면 비버와 로봇의 걷는 속도가 변경됩
 
 ["CBW.BaseWalkingSpeed"]
 raw = "Base walking speed"
+status = "normal"
 enUS = "Base walking speed"
 zhCN = "基础移动速度"
 zhTW = "基本行走速度"
@@ -39,6 +44,7 @@ koKR = "기본 걷기 속도"
 
 ["CBW.BaseWalkingSpeedDesc"]
 raw = "The base walking speed of beavers (Game default: 2.7)"
+status = "normal"
 enUS = "The base walking speed of beavers (Game default: 2.7)"
 zhCN = "可以更改海狸的基础移动速度（游戏默认：2.7）。"
 zhTW = "海狸的基本行走速度（遊戲預設：2.7）"
@@ -52,6 +58,7 @@ koKR = "비버의 기본 걷기 속도입니다 (게임 기본값: 2.7)"
 
 ["CBW.BaseSlowedSpeed"]
 raw = "Base slowed speed"
+status = "normal"
 enUS = "Base slowed speed"
 zhCN = "基础负重速度"
 zhTW = "基礎減速速度"
@@ -65,6 +72,7 @@ koKR = "기본 감소 속도"
 
 ["CBW.BaseSlowedSpeedDesc"]
 raw = "The base slowed speed of beavers (Game default: 1.5)"
+status = "normal"
 enUS = "The base speed of beavers has been reduced (Game default: 1.5)."
 zhCN = "可以更改海狸携带物品时的基础移动速度（游戏默认：1.5）。"
 zhTW = "海狸的基礎減速（遊戲默認值：1.5）"
@@ -78,6 +86,8 @@ koKR = "비버의 기본 느린 속도 (게임 기본값: 1.5)"
 
 ["CBW.DifferentBotSpeed"]
 raw = "Different speed for bots"
+new = "Different stats for bots"
+status = "normal"
 enUS = "Different speed for bots"
 zhCN = "机关人不同速度"
 zhTW = "機器人的不同速度"
@@ -91,6 +101,8 @@ koKR = "봇의 다른 속도"
 
 ["CBW.DifferentBotSpeedDesc"]
 raw = "If enabled, bots will have different walking and working speeds. May have a minor performance impact."
+new = "If enabled, bots will have different stats. May have a minor performance impact."
+status = "normal"
 enUS = "If enabled, bots will have different walking and working speeds. May have a minor performance impact."
 zhCN = "勾选后，启用下列选项，可以单独更改机关人的移动速度。<br>可能会对性能产生轻微影响。"
 zhTW = "如果啟用，機器人的行走速度將會不同。可能會對性能產生輕微影響。"
@@ -104,6 +116,7 @@ koKR = "활성화하면, 봇이 걷는 속도와 작업 속도가 달라집니�
 
 ["CBW.BaseBotWalkingSpeed"]
 raw = "Base walking speed for bots"
+status = "normal"
 enUS = "Base walking speed for bots"
 zhCN = "机关人基础移动速度"
 zhTW = "機器人的基本行走速度"
@@ -117,6 +130,7 @@ koKR = "봇의 기본 보행 속도"
 
 ["CBW.BaseBotWalkingSpeedDesc"]
 raw = "The base walking speed of bots (Game default: 2.7)"
+status = "normal"
 enUS = "The base walking speed of bots (Game default: 2.7)"
 zhCN = "可以更改机关人的基础移动速度（游戏默认：2.7）。"
 zhTW = "機器人的基本行走速度（遊戲預設：2.7）"
@@ -130,6 +144,7 @@ koKR = "봇의 기본 이동 속도 (게임 기본값: 2.7)"
 
 ["CBW.BaseBotSlowedSpeed"]
 raw = "Base slowed speed for bots"
+status = "normal"
 enUS = "Base slowed speed for bots"
 zhCN = "机关人基础负重速度"
 zhTW = "為機器人降低基礎速度"
@@ -143,6 +158,7 @@ koKR = "봇의 기본 감속 속도"
 
 ["CBW.BaseBotSlowedSpeedDesc"]
 raw = "The base slowed speed of bots (Game default: 1.5)"
+status = "normal"
 enUS = "The base speed of bots has been reduced (Game default: 1.5)."
 zhCN = "可以更改机关人携带物品时的基础移动速度（游戏默认：1.5）。"
 zhTW = "機器人的基本減速 (遊戲預設：1.5)"
@@ -156,6 +172,7 @@ koKR = "봇의 기본 느려진 속도 (게임 기본값: 1.5)"
 
 ["CBW.CarryingWeightMultiplier"]
 raw = "Carrying weight multiplier"
+status = "normal"
 enUS = "Carrying weight multiplier"
 zhCN = "承载重量倍数"
 zhTW = "攜帶重量乘數"
@@ -169,6 +186,7 @@ koKR = "운반 중량 배수"
 
 ["CBW.CarryingWeightMultiplierDesc"]
 raw = "The multiplier for max carrying weight of beavers and bots (Game default: 1). Note: does not take effect until reloading a save."
+status = "normal"
 enUS = "The multiplier for the maximum carrying weight of beavers and bots (Game default: 1). Note: does not take effect until reloading a save."
 zhCN = "可以将海狸和机关人的承载重量更改为原本的N倍（游戏默认：1）。"
 zhTW = "最大承載重量的影響因素，適用於海狸和機器人（遊戲默認值：1）。注：在重新加載存檔之前不會生效。"
@@ -182,6 +200,7 @@ koKR = "비버와 로봇의 최대 수송 중량에 대한 배수기(게임 기�
 
 ["CBW.WorkSpeedMultiplier"]
 raw = "Work speed multiplier"
+status = "normal"
 enUS = "Work speed multiplier"
 zhCN = "工作速度倍数"
 zhTW = "工作速度倍率"
@@ -195,6 +214,7 @@ koKR = "작업 속도 배율"
 
 ["CBW.WorkSpeedMultiplierDesc"]
 raw = "The multiplier for work speed of beavers (Game default: 1)."
+status = "normal"
 enUS = "The multiplier for work speed of beavers (Game default: 1)."
 zhCN = "可以将海狸的工作速度更改为原本的N倍（游戏默认：1）。"
 zhTW = "海狸工作速度的乘數（遊戲預設：1）。"
@@ -208,6 +228,7 @@ koKR = "비버의 작업 속도 배수 (게임 기본값: 1)."
 
 ["CBW.BotWorkSpeedMultiplier"]
 raw = "Bot work speed multiplier"
+status = "normal"
 enUS = "Bot work speed multiplier"
 zhCN = "机关人工作速度倍数"
 zhTW = "機器人工作速度倍增器"
@@ -221,6 +242,7 @@ koKR = "봇 작업 속도 배수"
 
 ["CBW.BotWorkSpeedMultiplierDesc"]
 raw = "The multiplier for work speed of bots (Game default: 1)."
+status = "normal"
 enUS = "The multiplier for work speed of bots (Game default: 1)."
 zhCN = "可以将机关人的工作速度更改为原本的N倍（游戏默认：1）。"
 zhTW = "機器人工作速度的乘數（遊戲預設：1）。"
@@ -234,6 +256,7 @@ koKR = "봇의 작업 속도 배율 (게임 기본값: 1)."
 
 ["CBW.BotCarryingWeightMultiplier"]
 raw = "Bot carrying weight multiplier"
+status = "normal"
 enUS = "Bot carrying weight multiplier"
 zhCN = "机关人承载重量倍数"
 zhTW = "機器人搬運重量倍數"
@@ -247,6 +270,7 @@ koKR = "봇 짐 운반 가중치 배수기"
 
 ["CBW.BotCarryingWeightMultiplierDesc"]
 raw = "The multiplier for max carrying weight of bots (Game default: 1)."
+status = "normal"
 enUS = "The multiplier for max carrying weight of bots (Game default: 1)."
 zhCN = "可以将机关人的承载重量更改为原本的N倍（游戏默认：1）。"
 zhTW = "機器人最大攜帶重量的倍數 (遊戲預設：1)。"

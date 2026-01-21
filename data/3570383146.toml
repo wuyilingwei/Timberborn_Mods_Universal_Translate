@@ -1,5 +1,8 @@
+name = "Building Decals"
+
 ["LV.BDl.PickDecal"]
 raw = "Pick a decal"
+status = "normal"
 enUS = "Pick a decal"
 zhCN = "选择贴花"
 zhTW = "選擇一個貼圖"
@@ -13,6 +16,7 @@ koKR = "데칼 선택하기"
 
 ["LV.BDl.Filter"]
 raw = "Filter"
+status = "normal"
 enUS = "Filter"
 zhCN = "筛选"
 zhTW = "過濾器"
@@ -26,6 +30,7 @@ koKR = "필터"
 
 ["LV.BDl.Reload"]
 raw = "Reload decals"
+status = "normal"
 enUS = "Reload decals"
 zhCN = "重新加载贴花"
 zhTW = "重新載入貼紙"
@@ -39,6 +44,7 @@ koKR = "재장전 데칼"
 
 ["LV.BDl.BrowseDir"]
 raw = "Browse directory"
+status = "normal"
 enUS = "Browse directory"
 zhCN = "浏览目录"
 zhTW = "瀏覽目錄"
@@ -52,6 +58,7 @@ koKR = "디렉토리 탐색"
 
 ["LV.BDl.Position"]
 raw = "Position [{0}, {1}, {2}]"
+status = "normal"
 enUS = "Position [{0}, {1}, {2}]"
 zhCN = "位置 [{0}，{1}，{2}]"
 zhTW = "位置 [{0}, {1}, {2}]"
@@ -65,6 +72,7 @@ koKR = "위치 [{0}, {1}, {2}]"
 
 ["LV.BDl.Rotation"]
 raw = "Rotation [{0}, {1}, {2}]"
+status = "normal"
 enUS = "Rotation [{0}, {1}, {2}]"
 zhCN = "旋转 [{0}，{1}，{2}]"
 zhTW = "旋轉 [{0}, {1}, {2}]"
@@ -78,6 +86,7 @@ koKR = "회전 [{0}, {1}, {2}]"
 
 ["LV.BDl.Scale"]
 raw = "Scale [{0}]"
+status = "normal"
 enUS = "Scale [{0}]"
 zhCN = "缩放 [{0}]"
 zhTW = "縮放 [{0}]"
@@ -91,6 +100,7 @@ koKR = "스케일 [{0}]"
 
 ["LV.BDl.Color"]
 raw = "Color [{0}, {1}, {2}]"
+status = "normal"
 enUS = "Color [{0}, {1}, {2}]"
 zhCN = "颜色 [{0}，{1}，{2}]"
 zhTW = "顏色 [{0}, {1}, {2}]"
@@ -104,6 +114,7 @@ koKR = "색상 [{0}, {1}, {2}]"
 
 ["LV.BDl.FlipX"]
 raw = "Flip X"
+status = "normal"
 enUS = "Flip X"
 zhCN = "水平翻转"
 zhTW = "翻轉 X"
@@ -117,6 +128,7 @@ koKR = "X축 뒤집기"
 
 ["LV.BDl.FlipY"]
 raw = "Flip Y"
+status = "normal"
 enUS = "Flip Y"
 zhCN = "垂直翻转"
 zhTW = "翻轉 Y"
@@ -130,6 +142,7 @@ koKR = "Y축 뒤집기"
 
 ["LV.BDl.Add"]
 raw = "Add decal"
+status = "normal"
 enUS = "Add decal"
 zhCN = "添加贴花"
 zhTW = "新增貼圖"
@@ -143,6 +156,7 @@ koKR = "데칼 추가"
 
 ["LV.BDl.Change"]
 raw = "Change decal"
+status = "normal"
 enUS = "Change decal"
 zhCN = "更换贴花"
 zhTW = "更改貼花"
@@ -156,6 +170,7 @@ koKR = "디칼 변경"
 
 ["LV.BDl.Remove"]
 raw = "Remove decal"
+status = "normal"
 enUS = "Remove decal"
 zhCN = "移除贴花"
 zhTW = "移除貼花"
@@ -169,6 +184,7 @@ koKR = "스티커 제거"
 
 ["LV.BDl.RemoveConfirm"]
 raw = "Are you sure you want to remove this decal?"
+status = "normal"
 enUS = "Are you sure you want to remove this decal?"
 zhCN = "确定要移除此贴花吗？"
 zhTW = "您確定要移除這個貼圖嗎？"
@@ -182,6 +198,7 @@ koKR = "이 데칼을 제거하시겠습니까?"
 
 ["LV.BDl.DecalName"]
 raw = "Decal {0} [{1}]"
+status = "normal"
 enUS = "Decal {0} [{1}]"
 zhCN = "贴花 {0} [{1}]"
 zhTW = "裝飾貼圖 {0} [{1}]"
@@ -195,6 +212,7 @@ koKR = "데칼 {0} [{1}]"
 
 ["LV.BDl.PosTemplate"]
 raw = "Position"
+status = "normal"
 enUS = "Position"
 zhCN = "位置模板"
 zhTW = "位置"
@@ -208,6 +226,7 @@ koKR = "위치"
 
 ["LV.BDl.PosCustom"]
 raw = "Select a template"
+status = "normal"
 enUS = "Select a template"
 zhCN = "选择模板"
 zhTW = "選擇一個模板"
@@ -221,6 +240,7 @@ koKR = "템플릿 선택"
 
 ["LV.BDl.PosTop"]
 raw = "Top"
+status = "normal"
 enUS = "Top"
 zhCN = "顶部"
 zhTW = "頂部"
@@ -234,6 +254,7 @@ koKR = "상단"
 
 ["LV.BDl.PosFront"]
 raw = "Front"
+status = "normal"
 enUS = "Front"
 zhCN = "正面"
 zhTW = "前面"
@@ -247,6 +268,7 @@ koKR = "앞담장"
 
 ["LV.BDl.PosRight"]
 raw = "Right"
+status = "normal"
 enUS = "Right"
 zhCN = "右侧"
 zhTW = "右"
@@ -260,6 +282,7 @@ koKR = "오른쪽"
 
 ["LV.BDl.PosBack"]
 raw = "Back"
+status = "normal"
 enUS = "Back"
 zhCN = "背面"
 zhTW = "返回"
@@ -273,6 +296,7 @@ koKR = "뒤로"
 
 ["LV.BDl.PosLeft"]
 raw = "Left"
+status = "normal"
 enUS = "Left"
 zhCN = "左侧"
 zhTW = "左側"
@@ -286,6 +310,7 @@ koKR = "왼쪽"
 
 ["LV.BDl.PosFloor"]
 raw = "Floor"
+status = "normal"
 enUS = "Floor"
 zhCN = "地面"
 zhTW = "地板"
@@ -299,6 +324,7 @@ koKR = "바닥"
 
 ["LV.BDl.KeyBindingCopy"]
 raw = "Building Decals: Copy"
+status = "normal"
 enUS = "Building Decals: Copy"
 zhCN = "建筑贴花：复制"
 zhTW = "建築貼紙：複製"
@@ -312,6 +338,7 @@ koKR = "건물 장식: 복사"
 
 ["LV.BDl.KeyBindingPaste"]
 raw = "Building Decals: Paste"
+status = "normal"
 enUS = "Building Decals: Paste"
 zhCN = "建筑贴花：粘贴"
 zhTW = "建築標誌：粘貼"
@@ -325,6 +352,7 @@ koKR = "건물 장식: 붙여넣기"
 
 ["LV.BDl.CopyNotf"]
 raw = "Decal copied"
+status = "normal"
 enUS = "Decal copied"
 zhCN = "贴花已复制"
 zhTW = "貼圖已複製"
@@ -338,6 +366,7 @@ koKR = "디칼이 복사되었습니다"
 
 ["LV.BDl.CopyOneNotf"]
 raw = "This building has multiple decals. Only the first one was copied. To copy a specific decal, use the Copy button in that decal's panel."
+status = "normal"
 enUS = "This building has multiple decals. Only the first one was copied. To copy a specific decal, use the Copy button in that decal's panel."
 zhCN = "此建筑有多个贴花，仅复制第一个贴花。要复制特定贴花，请使用该贴花面板中的复制按钮。"
 zhTW = "這座建築有多個貼圖。只有第一個被複製。要複製特定的貼圖，請使用該貼圖面板中的複製按鈕。"
@@ -351,6 +380,7 @@ koKR = "이 건물에는 여러 개의 데칼이 있습니다. 첫 번째만 복
 
 ["LV.BDl.CopyButton"]
 raw = "Copy"
+status = "normal"
 enUS = "Copy"
 zhCN = "复制"
 zhTW = "複製"
@@ -364,6 +394,7 @@ koKR = "복사"
 
 ["LV.BDl.PasteButton"]
 raw = "Paste"
+status = "normal"
 enUS = "Paste"
 zhCN = "粘贴"
 zhTW = "粘貼"
@@ -377,6 +408,7 @@ koKR = "붙여넣기"
 
 ["LV.BDl.NoDecal"]
 raw = "The building has no decal to copy."
+status = "normal"
 enUS = "The building has no decal to copy."
 zhCN = "此建筑没有可复制的贴花。"
 zhTW = "該建築沒有可複製的貼圖。"
@@ -390,6 +422,7 @@ koKR = "건물에 복사할 데칼이 없습니다."
 
 [Name_BuildingDecalFragment]
 raw = "Building Decals"
+status = "normal"
 enUS = "Building Decals"
 zhCN = "建筑贴花"
 zhTW = "建築標貼"

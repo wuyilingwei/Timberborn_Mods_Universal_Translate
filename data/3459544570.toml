@@ -1,5 +1,8 @@
+name = "Alternative Recipes Scientific Projects"
+
 ["LV.ARSP.AlternativeRecipesGroup"]
 raw = "Alternative Recipes"
+status = "normal"
 enUS = "Alternative Recipes"
 zhCN = "配方改良"
 zhTW = "替代食譜"
@@ -13,6 +16,7 @@ koKR = "대체 레시피"
 
 ["LV.ARSP.AlternativeRecipesGroupDesc"]
 raw = "Unlock alternative recipes for your manufactories"
+status = "normal"
 enUS = "Unlock alternative recipes for your factories."
 zhCN = "解锁更多替代配方的生产科学项目。"
 zhTW = "解鎖您工廠的替代食譜"
@@ -26,6 +30,7 @@ koKR = "제조 시설을 위한 대체 레시피를 잠금 해제하세요"
 
 ["LV.ARSP.LockReason"]
 raw = "You need to unlock this recipe in the Scientific Projects first"
+status = "normal"
 enUS = "You need to unlock this recipe in the Scientific Projects first."
 zhCN = "需要在科学项目中解锁此配方。"
 zhTW = "您需要先在科學專案中解鎖這個食譜。"
@@ -39,6 +44,7 @@ koKR = "먼저 과학 프로젝트에서 이 레시피를 잠금 해제해야 �
 
 ["LV.ARSP.PlankBulkProcessing"]
 raw = "Plank Bulk Processing"
+status = "normal"
 enUS = "Plank Bulk Processing"
 zhCN = "木板 - 并行切削法"
 zhTW = "木板大宗處理"
@@ -52,6 +58,7 @@ koKR = "판자 대량 가공"
 
 ["LV.ARSP.PlankBulkProcessingRecipe"]
 raw = "Planks (Bulk)"
+status = "normal"
 enUS = "Planks (Bulk)"
 zhCN = "木板（多产）"
 zhTW = "木板（散裝）"
@@ -65,6 +72,7 @@ koKR = "판자 (벌크)"
 
 ["LV.ARSP.PlankBulkProcessingLore"]
 raw = "'Stack ‘em high, cut ‘em slow—more planks for the haul!' — Broadaxe Bulkchew"
+status = "normal"
 enUS = "\"Stack them high, cut them slow—more planks for the haul!\" — Broadaxe Bulkchew"
 zhCN = "海狸们并排原木，慢速切削，有效提高了木板产量。"
 zhTW = "「堆得高，高得慢——更多的木板用於運輸！」—博拉斧·大咀"
@@ -78,6 +86,8 @@ koKR = "'높이 쌓고, 천천히 자르라 — 더 많은 판자를 가져오�
 
 ["LV.ARSP.PlankBulkProcessingEff"]
 raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
+new = "Unlock [Recipe]: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill, <RedHighlight>NOTE:</RedHighlight> Storage is only enough for one cycle of production."
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Planks in {2} hours in the Lumbermill"
 zhCN = "在木板厂解锁 [Recipe]：{0} 原木 ⇒ {1} 木板，耗时 {2} 小时。"
 zhTW = "解鎖 [食譜]：{0} 原木 ⇒ {1} 木板，需時 {2} 小時於木工廠完成"
@@ -91,6 +101,7 @@ koKR = "[레시피] 잠금 해제: {0} 개의 통나무 ⇒ {1} 개의 판재를
 
 ["LV.ARSP.DirectLogForging"]
 raw = "Direct Log Forging"
+status = "normal"
 enUS = "Direct Log Forging"
 zhCN = "齿轮 - 慢速打磨法"
 zhTW = "直接日誌伪造"
@@ -104,6 +115,7 @@ koKR = "직접 목재 가공"
 
 ["LV.ARSP.DirectLogForgingRecipe"]
 raw = "Gears (Direct)"
+status = "normal"
 enUS = "Gears (Direct)"
 zhCN = "齿轮（低产）"
 zhTW = "齒輪（直接）"
@@ -117,6 +129,7 @@ koKR = "기어 (직접)"
 
 ["LV.ARSP.DirectLogForgingLore"]
 raw = "Beavers discovered they could gnaw logs into rough shapes and hammer them into gears, skipping the plank step entirely. It’s crude, but it works."
+status = "normal"
 enUS = "Beavers discovered they could gnaw logs into rough shapes and hammer them into gears, skipping the plank step entirely. It’s crude, but it works."
 zhCN = "海狸们发现啃咬打磨原木也能直接制成齿轮，虽然粗糙，但很实用。"
 zhTW = "海狸發現牠們可以咬食樹幹成粗略形狀，並將它們敲打成齒輪，完全省略了木板這一步。這雖然粗糙，但有效。"
@@ -130,6 +143,7 @@ koKR = "비버들은 통나무를 거칠게 깎아 기어로 두들길 수 있�
 
 ["LV.ARSP.DirectLogForgingEff"]
 raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
 zhCN = "在齿轮工坊解锁 [Recipe]：{0} 原木 ⇒ {1} 齿轮，耗时 {2} 小时。"
 zhTW = "解鎖 [食譜]：{0} 原木 ⇒ {1} 齒輪，於齒輪工作坊內需要 {2} 小時"
@@ -143,6 +157,7 @@ koKR = "[레시피] 잠금 해제: {0} 나무 ⇒ {1} 기어를 {2} 시간 안�
 
 ["LV.ARSP.RapidGearPress"]
 raw = "Rapid Gear Press"
+status = "normal"
 enUS = "Rapid Gear Press"
 zhCN = "齿轮 - 堆叠切削法"
 zhTW = "快速齒輪出版社"
@@ -156,6 +171,7 @@ koKR = "신속 기어 프레스"
 
 ["LV.ARSP.RapidGearPressRecipe"]
 raw = "Gears (Rapid)"
+status = "normal"
 enUS = "Gears (Rapid)"
 zhCN = "齿轮（快速）"
 zhTW = "齒輪（快速）"
@@ -169,6 +185,7 @@ koKR = "조율 (신속)"
 
 ["LV.ARSP.RapidGearPressLore"]
 raw = "By rushing the presses and piling on extra wood, beavers churn out gears faster—though the waste pile grows just as quick."
+status = "normal"
 enUS = "By rushing the presses and piling on extra wood, beavers churn out gears faster—though the waste pile grows just as quickly."
 zhCN = "通过快速冲压和额外堆叠，海狸们能更快地生产齿轮——但次品率也上升了。"
 zhTW = "通過急於運行印刷機並增加額外的木材，河狸能更快地生產齒輪——儘管廢料堆也同樣快速增長。"
@@ -182,6 +199,7 @@ koKR = "프레스를 서두르고 추가 나무를 쌓음으로써, 비버들은
 
 ["LV.ARSP.RapidGearPressEff"]
 raw = "Unlock [Recipe]: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Planks ⇒ {1} Gears in {2} hours in the Gear Workshop"
 zhCN = "在齿轮工坊解锁 [Recipe]：{0} 木板 ⇒ {1} 齿轮，耗时 {2} 小时。"
 zhTW = "解鎖 [食譜]：{0} 木板 ⇒ {1} 齒輪於 {2} 小時內在齒輪工作坊中"
@@ -195,6 +213,7 @@ koKR = "[레시피] 잠금 해제: {0} 목재 ⇒ {1} 기어를 {2} 시간 내�
 
 ["LV.ARSP.HighYieldLogPress"]
 raw = "High-Yield Log Press"
+status = "normal"
 enUS = "High-Yield Log Press"
 zhCN = "齿轮 - 高速冲压法"
 zhTW = "高產量杠鈴壓肩"
@@ -208,6 +227,7 @@ koKR = "고수익 나무 압축기"
 
 ["LV.ARSP.HighYieldLogPressRecipe"]
 raw = "Gears (High-Yield)"
+status = "normal"
 enUS = "Gears (High-Yield)"
 zhCN = "齿轮（高产）"
 zhTW = "齒輪（高產量）"
@@ -221,6 +241,7 @@ koKR = "기어 (고수익)"
 
 ["LV.ARSP.HighYieldLogPressLore"]
 raw = "After seasons of trial, beavers perfected a water-driven press that turns raw logs into gears at breakneck speed—a marvel of late-season ingenuity."
+status = "normal"
 enUS = "After seasons of trial, beavers perfected a water-driven press that turns raw logs into gears at breakneck speed—a marvel of late-season ingenuity."
 zhCN = "经过多次试验，海狸们完善了水力冲压技术，能以惊人速度将原木直接变成齿轮。"
 zhTW = "經過幾季的試驗，海狸們完善了一種水力驅動的壓榨機，以驚人的速度將原木轉化為齒輪，這是一項晚季創意的奇蹟。"
@@ -234,6 +255,7 @@ koKR = "한 시즌의 시험 끝에, 비버들은 원시 로그를 빠른 속도
 
 ["LV.ARSP.HighYieldLogPressEff"]
 raw = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Logs ⇒ {1} Gears in {2} hours in the Gear Workshop"
 zhCN = "在齿轮工坊解锁 [Recipe]：{0} 原木 ⇒ {1} 齿轮，耗时 {2} 小时。"
 zhTW = "解鎖[食譜]：{0} 木材 ⇒ {1} 齒輪，在齒輪工作坊內需 {2} 小時"
@@ -247,6 +269,7 @@ koKR = "[레시피] 잠금 해제: {0} 개의 나무 ⇒ {1} 개의 기어를 {2
 
 ["LV.ARSP.ResinFiredSmelter"]
 raw = "Resin-Fired Smelter"
+status = "normal"
 enUS = "Resin-Fired Smelter"
 zhCN = "金属块 - 松脂隔热法"
 zhTW = "樹脂熔煉爐"
@@ -260,6 +283,7 @@ koKR = "수지 연료 제련소"
 
 ["LV.ARSP.ResinFiredSmelterRecipe"]
 raw = "Metal Blocks (Resin-Fired)"
+status = "normal"
 enUS = "Metal Blocks (Resin-Fired)"
 zhCN = "金属块（松脂）"
 zhTW = "金屬方塊（樹脂燒製）"
@@ -273,6 +297,7 @@ koKR = "금속 블록 (수지 소성)"
 
 ["LV.ARSP.ResinFiredSmelterLore"]
 raw = "Folktails tapped into the sticky power of pine resin, crafting a smelter that burns slow and steady for swift metalwork."
+status = "normal"
 enUS = "Folktails tapped into the sticky power of pine resin, crafting a smelter that burns slow and steady for swift metalwork."
 zhCN = "神尾们发现了松脂的隔热性，建造出温度稳定的冶炼炉，实现快速金属加工。"
 zhTW = "Folktails 利用松樹樹脂的粘稠特性，製作出一種慢而穩定燃燒的熔爐，以便快速進行金屬加工。"
@@ -286,6 +311,7 @@ koKR = "포크테일은 소나무 수지의 끈적한 힘을 활용하여 빠른
 
 ["LV.ARSP.ResinFiredSmelterEff"]
 raw = "Unlock [Recipe]: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Scrap Metal + {1} Pine Resin ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
 zhCN = "在冶炼所解锁 [Recipe]：{0} 金属废料 + {1} 松脂 ⇒ {2} 金属块，耗时 {3} 小时。（神尾专属）"
 zhTW = "解鎖 [食譜]: {0} 廢金屬 + {1} 松樹樹脂 ⇒ {2} 金屬區塊在冶煉廠中耗時 {3} 小時（僅限 Folktails）"
@@ -299,6 +325,7 @@ koKR = "잠금 해제 [레시피]: {0} 고철 + {1} 솔수지 ⇒ {2} 금속 블
 
 ["LV.ARSP.WoodReinforcedAlloy"]
 raw = "Wood-Reinforced Alloy"
+status = "normal"
 enUS = "Wood-Reinforced Alloy"
 zhCN = "金属块 - 木材强化法"
 zhTW = "木質增強合金"
@@ -312,6 +339,7 @@ koKR = "목재 보강 합금"
 
 ["LV.ARSP.WoodReinforcedAlloyRecipe"]
 raw = "Metal Blocks (Wood-Reinforced)"
+status = "normal"
 enUS = "Metal Blocks (Wood-Reinforced)"
 zhCN = "金属块（树脂木板）"
 zhTW = "金屬塊（木質增強）"
@@ -325,6 +353,7 @@ koKR = "목재 보강 금속 블록"
 
 ["LV.ARSP.WoodReinforcedAlloyLore"]
 raw = "'With every plank we add, the metal grows stronger—nature and iron as one!' — Leafclaw Metalweaver"
+status = "normal"
 enUS = "'With every plank we add, the metal grows stronger—nature and iron as one!' — Leafclaw Metalweaver"
 zhCN = "神尾们将树脂木板作为金属块的内芯，使金属块强度大大提升。"
 zhTW = "「隨著每一塊木板的添加，金屬變得更加堅固——自然與鐵結合為一！」—葉爪金屬編織者"
@@ -338,6 +367,7 @@ koKR = "'우리가 추가하는 각 판자가 생겨날수록 금속은 더욱 �
 
 ["LV.ARSP.WoodReinforcedAlloyEff"]
 raw = "Unlock [Recipe]: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Scrap Metal + {1} Treated Planks ⇒ {2} Metal Blocks in {3} hours in the Smelter (Folktails only)"
 zhCN = "在冶炼所解锁 [Recipe]：{0} 金属废料 + {1} 树脂木板 ⇒ {2} 金属块，耗时 {3} 小时。（神尾专属）"
 zhTW = "解鎖 [食譜]：{0} 廢金屬 + {1} 處理過的木板 ⇒ {2} 金屬塊，需時 {3} 小時於冶煉廠（僅限 Folktails）"
@@ -351,6 +381,7 @@ koKR = "[레시피] 잠금 해제: {0} 스크랩 메탈 + {1} 처리된 판자 �
 
 ["LV.ARSP.SteelBoundPlanks"]
 raw = "Steel-Bound Planks"
+status = "normal"
 enUS = "Steel-Bound Planks"
 zhCN = "树脂木板 - 金属强化法"
 zhTW = "鋼束木板"
@@ -364,6 +395,7 @@ koKR = "강철로 묶인 판재"
 
 ["LV.ARSP.SteelBoundPlanksRecipe"]
 raw = "Treated Planks (Steel-Bound)"
+status = "normal"
 enUS = "Treated Planks (Steel-Bound)"
 zhCN = "树脂木板（金属块）"
 zhTW = "處理過的木板（鋼束）"
@@ -377,6 +409,7 @@ koKR = "처리된 판자 (강제된)"
 
 ["LV.ARSP.SteelBoundPlanksLore"]
 raw = "Iron Teeth ingenuity turned the tables—smelting metal scraps into a binding lattice that hardens planks without a drop of resin."
+status = "normal"
 enUS = "Iron Teeth ingenuity turned the tables—smelting metal scraps into a binding lattice that hardens planks without a drop of resin."
 zhCN = "铁牙们将金属块制成加固网格，无需一滴松脂就能强化木板硬度。"
 zhTW = "鐵牙的巧思翻轉了局面——將金屬廢料熔煉成堅固的格子，能夠使木板在不需要一滴樹脂的情況下硬化。"
@@ -390,6 +423,7 @@ koKR = "철 이빨의 독창성이 상황을 뒤바꿨습니다. 금속 조각�
 
 ["LV.ARSP.SteelBoundPlanksEff"]
 raw = "Unlock [Recipe]: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Planks + {1} Metal Blocks ⇒ {2} Treated Planks in {3} hours in the Wood Workshop (Iron Teeth only)"
 zhCN = "在木材工坊解锁 [Recipe]：{0} 木板 + {1} 金属块 ⇒ {2} 树脂木板，耗时 {3} 小时。（铁牙专属）"
 zhTW = "解鎖 [食譜]：{0} 木板 + {1} 金屬方塊 ⇒ {2} 處理過的木板，需在木工坊（只有鐵牙）中花費 {3} 小時。"
@@ -403,6 +437,7 @@ koKR = "잠금 해제 [레시피]: {0} 판자 + {1} 금속 블록 ⇒ {2} 처리
 
 ["LV.ARSP.TimberbotFramework"]
 raw = "Timberbot Framework"
+status = "normal"
 enUS = "Timberbot Framework"
 zhCN = "机关人部件 - 木械化框架"
 zhTW = "木材机器人框架"
@@ -416,6 +451,7 @@ koKR = "팀버봇 프레임워크"
 
 ["LV.ARSP.TimberbotFrameworkLore"]
 raw = "'Our bots now dance with the strength of the forest—planks over steel, a Folktails triumph!' — Gearwhisker Timbercog"
+status = "normal"
 enUS = "\"Our bots now dance with the strength of the forest—planks over steel, a Folktails triumph!\" — Gearwhisker Timbercog"
 zhCN = "为了让机关人也学会亲近自然，神尾种族决定抛弃所有钢铁和金属的部件。"
 zhTW = "「我們的機器人現在以森林的力量舞動—用木板替代鋼鐵，這是Folktails的勝利！」— Gearwhisker Timbercog"
@@ -429,6 +465,7 @@ koKR = "'우리의 봇들은 이제 숲의 힘으로 춤을 춘다—강철보�
 
 ["LV.ARSP.TimberbotFrameworkEff"]
 raw = "Unlock Timberbot Framework: Folktails can use Treated Planks instead of Metal Blocks for their Bot parts. Biofuel is also no longer needed for the Chassis."
+status = "normal"
 enUS = "Unlock Timberbot Framework: Folktails can use Treated Planks instead of Metal Blocks for their Bot parts. Biofuel is also no longer needed for the Chassis."
 zhCN = "在部件厂解锁 机关人部件（木械化）：用树脂木板替代金属块制造机关人部件，且机关人主体不再需要生物燃料。（神尾专属）"
 zhTW = "解鎖木材機器人框架：民間故事可以使用處理過的木板作為機器人部件，而底盤不再需要生物燃料。"
@@ -442,6 +479,7 @@ koKR = "목록 이름: LV.ARSP.TimberbotFrameworkEff - 번역할 새로운 텍�
 
 ["LV.ARSP.TimberbotChassis"]
 raw = "Bot Chassis (Timberbot)"
+status = "normal"
 enUS = "Bot Chassis (Timberbot)"
 zhCN = "机关人主体（木械化）"
 zhTW = "機器人底盤（木頭機器人）"
@@ -455,6 +493,7 @@ koKR = "봇 섀시 (팀버봇)"
 
 ["LV.ARSP.TimberbotHeads"]
 raw = "Bot Heads (Timberbot)"
+status = "normal"
 enUS = "Bot Heads (Timberbot)"
 zhCN = "机关人头部（木械化）"
 zhTW = "機器人頭（木材機器人）"
@@ -468,6 +507,7 @@ koKR = "봇 헤드 (팀버봇)"
 
 ["LV.ARSP.SunflowerBiofuel"]
 raw = "Helianthic Ember Blend"
+status = "normal"
 enUS = "Helianthic Ember Blend"
 zhCN = "生物燃料 - 葵花油基法"
 zhTW = "向日葵熔融混合"
@@ -481,6 +521,7 @@ koKR = "해바라기 화염 혼합물"
 
 ["LV.ARSP.SunflowerBiofuelRecipe"]
 raw = "Biofuel (Sunflower)"
+status = "normal"
 enUS = "Biofuel (Sunflower)"
 zhCN = "生物燃料（土豆葵花籽）"
 zhTW = "生物燃料（向日葵）"
@@ -494,6 +535,7 @@ koKR = "바이오연료 (해바라기)"
 
 ["LV.ARSP.SunflowerBiofuelLore"]
 raw = "'Sunflowers yield a nectar richer than rivers—blend it with a humble tuber, and the refinery sings a fuel-laden hymn!' — Helian Nectarine"
+status = "normal"
 enUS = "\"Sunflowers yield a nectar richer than rivers—blend it with a humble tuber, and the refinery sings a fuel-laden hymn!\" — Helian Nectarine"
 zhCN = "向日葵赠予神尾种族的不仅是美味的食物，更是具有丰厚能量的原材料。"
 zhTW = "「向日葵產出的花蜜比河流更為豐富——將它與一種卑微的塊根混合，煉油廠便唱出一首充滿燃料的聖歌！」——海莉安·蜜果"
@@ -507,6 +549,7 @@ koKR = "'해바라기는 강보다 더 풍부한 꿀을 생산합니다—겸손
 
 ["LV.ARSP.SunflowerBiofuelEff"]
 raw = "Unlock [Recipe]: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Potatoes + {1} Sunflower Seeds ⇒ {2} Biofuel in {3} hours in the Refinery (Folktails only)"
 zhCN = "在精炼厂解锁 [Recipe]：{0} 土豆 + {1} 葵花籽 ⇒ {2} 生物燃料，耗时 {3} 小时。（神尾专属）"
 zhTW = "解鎖 [食譜]：{0} 個馬鈴薯 + {1} 顆向日葵種子 ⇒ {2} 生物燃料，需 {3} 小時在煉油廠（僅限 Folktails）"
@@ -520,6 +563,7 @@ koKR = "레시피 잠금 해제: {0} 감자 + {1} 해바라기 씨 ⇒ {2} 바�
 
 ["LV.ARSP.CrudeLogPressExtract"]
 raw = "Crude Log Press Extract"
+status = "normal"
 enUS = "Crude Log Press Extract"
 zhCN = "提取物 - 压榨渗液法"
 zhTW = "原油日記提取物"
@@ -533,6 +577,7 @@ koKR = "원목 프레스 추출물"
 
 ["LV.ARSP.CrudeLogPressExtractRecipe"]
 raw = "Extract (Crude Press)"
+status = "normal"
 enUS = "Extract (Crude Press)"
 zhCN = "提取物（压榨）"
 zhTW = "粗提取 (原油壓榨)"
@@ -546,6 +591,7 @@ koKR = "추출 (원시 프레스)"
 
 ["LV.ARSP.CrudeLogPressExtractLore"]
 raw = "'We crush logs and scrape metal ‘til the extract drips out—slow, messy, but it beats touching that yuke water!' — Pressjaw Scrapchew"
+status = "normal"
 enUS = "\"We crush logs and scrape metal until the extract drips out—slow, messy, but it beats touching that yuke water!\" — Pressjaw Scrapchew"
 zhCN = "渗入土地的恶水虽然会污染环境，却也让铁牙种族更方便地获得提取物。"
 zhTW = "「我們壓碎木頭，刮取金屬，直到萃取液滴出來——緩慢、凌亂，但總比碰到那可怕的水好！」——普雷斯喬·斯克拉普丘"
@@ -559,6 +605,8 @@ koKR = "'우리는 통나무를 부수고 금속을 긁어내어 추출물이 �
 
 ["LV.ARSP.CrudeLogPressExtractEff"]
 raw = "Unlock [Recipe]: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
+new = "Unlock [Recipe]: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Gear Workshop (Iron Teeth only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Logs + {1} Gears + {2} Scrap Metal ⇒ {3} Extract in {4} hours in the Industrial Lumbermill (Iron Teeth only)"
 zhCN = "在齿轮工坊解锁 [Recipe]：{0} 原木 + {1} 齿轮 + {2} 金属废料 ⇒ {3} 提取物，耗时 {4} 小时。（铁牙专属）"
 zhTW = "解鎖 [食譜]: {0} 根原木 + {1} 個齒輪 + {2} 塊廢金屬 ⇒ {3} 提取於 {4} 小時後於工業木材廠（僅限鐵齒）"
@@ -572,6 +620,7 @@ koKR = "[레시피] 잠금 해제: {0} 나무 + {1} 기어 + {2} 스크랩 금�
 
 ["LV.ARSP.DilutedExtract"]
 raw = "Diluted Extract"
+status = "normal"
 enUS = "Diluted Extract"
 zhCN = "提取物 - 稀释吸附法"
 zhTW = "稀釋萃取液"
@@ -585,6 +634,7 @@ koKR = "희석 추출물"
 
 ["LV.ARSP.DilutedExtractRecipe"]
 raw = "Extract (Diluted)"
+status = "normal"
 enUS = "Extract (Diluted)"
 zhCN = "提取物（稀释）"
 zhTW = "提取（攤薄）"
@@ -598,6 +648,7 @@ koKR = "추출물 (희석)"
 
 ["LV.ARSP.DilutedExtractLore"]
 raw = "By blending pure water with badwater, beavers tease out more extract from the mire—a clever rinse born of necessity."
+status = "normal"
 enUS = "By blending pure water with bad water, beavers extract more from the mire—a clever rinse born of necessity."
 zhCN = "海狸们巧妙地将净水与恶水混合，提高吸附效率，获得更多提取物。"
 zhTW = "通過將純水與壞水混合，海狸從泥沼中提取出更多的精華——這是一種出於必要而生的巧妙沖洗。"
@@ -611,6 +662,7 @@ koKR = "정수와 오수를 혼합하여 비버들은 수렁에서 더 많은 �
 
 ["LV.ARSP.DilutedExtractEff"]
 raw = "Unlock [Recipe]: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Badwater + {1} Water + {2} Log ⇒ {3} Extract in {4} hours in the Centrifuge"
 zhCN = "在离心机解锁 [Recipe]：{0} 恶水 + {1} 水 + {2} 原木 ⇒ {3} 提取物，耗时 {4} 小时。"
 zhTW = "解鎖 [食譜]：{0} 壞水 + {1} 水 + {2} 原木 ⇒ {3} 提取物在 {4} 小時內通過離心機"
@@ -624,6 +676,7 @@ koKR = "잠금 해제 [레시피]: {0} 불량수 + {1} 물 + {2} 나무 ⇒ {3} 
 
 ["LV.ARSP.WaterFilter"]
 raw = "Water Filter"
+status = "normal"
 enUS = "Water Filter"
 zhCN = "提取物 - 过滤分离法"
 zhTW = "水濾器"
@@ -637,6 +690,7 @@ koKR = "물 필터"
 
 ["LV.ARSP.WaterFilterRecipe"]
 raw = "Extract (Filtered)"
+status = "normal"
 enUS = "Extract (Filtered)"
 zhCN = "提取物（过滤）"
 zhTW = "提取（已過濾）"
@@ -650,6 +704,7 @@ koKR = "추출 (필터링됨)"
 
 ["LV.ARSP.WaterFilterLore"]
 raw = "Beavers devised a clever centrifuge tweak, using treated planks to strain badwater—yielding extract and a trickle of fresh water from the sludge."
+status = "normal"
 enUS = "Beavers devised a clever centrifuge tweak, using treated planks to strain bad water—yielding extract and a trickle of fresh water from the sludge."
 zhCN = "海狸们采用了新的吸附材料，从恶水中分离出提取物的同时，还能产生少量净水。"
 zhTW = "海狸設計了一種巧妙的離心機調整，利用處理過的木板過濾污染水，從污泥中提取出精華和涓涓細流的潔淨水。"
@@ -663,6 +718,8 @@ koKR = "비버들은 처리된 판자를 사용하여 나쁜 물을 걸러내는
 
 ["LV.ARSP.WaterFilterEff"]
 raw = "Unlock [Recipe]: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
+new = "Unlock [Recipe]: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Centrifuge"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Badwater + {1} Treated Plank + {2} Log ⇒ {3} Extract + {4} Water in {5} hours in the Dirt Excavator"
 zhCN = "在离心机解锁 [Recipe]：{0} 恶水 + {1} 树脂木板 + {2} 原木 ⇒ {3} 提取物 + {4} 水，耗时 {5} 小时。"
 zhTW = "解鎖 [配方]：{0} 壞水 + {1} 處理過的木板 + {2} 原木 ⇒ {3} 萃取物 + {4} 水於 {5} 小時內在泥土挖掘機中。"
@@ -676,6 +733,7 @@ koKR = "레시피 잠금 해제: {0} 나쁜 물 + {1} 처리된 판자 + {2} 통
 
 ["LV.ARSP.ExtractChargedExplosive"]
 raw = "Extract-Charged Explosive"
+status = "normal"
 enUS = "Extract-Charged Explosive"
 zhCN = "炸药 - 提取还原法"
 zhTW = "提取炸藥"
@@ -689,6 +747,7 @@ koKR = "추출-충전 폭발물"
 
 ["LV.ARSP.ExtractChargedExplosiveRecipe"]
 raw = "Explosives (Extract-Charged)"
+status = "normal"
 enUS = "Explosives (Extract-Charged)"
 zhCN = "炸药（提取物）"
 zhTW = "爆炸物（抽取充電）"
@@ -702,6 +761,7 @@ koKR = "폭발물 (추출-충전)"
 
 ["LV.ARSP.ExtractChargedExplosiveLore"]
 raw = "'One drop of extract, and the blast doubles—gnaw on that, rockface!' — Flintpaw Boomforge"
+status = "normal"
 enUS = "\"One drop of extract, and the blast doubles—gnaw on that, rockface!\" — Flintpaw Boomforge"
 zhCN = "将提取物重加工为炸药的技术，让海狸们实现了炸药自由。"
 zhTW = "「一滴提取物，威力就加倍——咬著這個吧，岩石面！」——弗林特爪 龍鑄"
@@ -715,6 +775,7 @@ koKR = "‘한 방울의 추출물이면 폭발력이 두 배로 늘어난다—
 
 ["LV.ARSP.ExtractChargedExplosiveEff"]
 raw = "Unlock [Recipe]: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Extract ⇒ {1} Explosives in {2} hours in the Explosives Factory"
 zhCN = "在炸药工厂解锁 [Recipe]：{0} 提取物 ⇒ {1} 炸药，耗时 {2} 小时。"
 zhTW = "解鎖 [食譜]：{0} 提取 ⇒ {1} 爆炸物在 {2} 小時內於爆炸物工廠製造"
@@ -728,6 +789,7 @@ koKR = "잠금 해제 [조리법]: {0} 추출물 ⇒ {1} 폭발물, 폭발물 �
 
 ["LV.ARSP.RapidCanolaCrush"]
 raw = "Swiftseed Oil Snap"
+status = "normal"
 enUS = "Swiftseed Oil Snap"
 zhCN = "菜籽油 - 快速榨取法"
 zhTW = "速籽油快照"
@@ -741,6 +803,7 @@ koKR = "신속한 씨앗 기름 스냅"
 
 ["LV.ARSP.RapidCanolaCrushRecipe"]
 raw = "Canola Oil (Rapid)"
+status = "normal"
 enUS = "Canola Oil (Rapid)"
 zhCN = "菜籽油（快速）"
 zhTW = "菜籽油（快速）"
@@ -754,6 +817,7 @@ koKR = "유채유 (신속)"
 
 ["LV.ARSP.RapidCanolaCrushLore"]
 raw = "'Speed trumps all—grind the seeds quick, and let the oil flow, waste be what it may!' — Boltfur Greasesnap"
+status = "normal"
 enUS = "\"Speed trumps all—grind the seeds quick, and let the oil flow, waste be what it may!\" — Boltfur Greasesnap"
 zhCN = "铁牙们为了快速获得菜籽油，不得不狠心浪费一部分原材料。"
 zhTW = "「速度至上——快速研磨種子，讓油流出，浪費則無所謂！」——波爾特弗·油脂彈"
@@ -767,6 +831,7 @@ koKR = "\"속도가 모든 것을 이긴다—씨앗을 빨리 갈아버리고, 
 
 ["LV.ARSP.RapidCanolaCrushEff"]
 raw = "Unlock [Recipe]: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Canola Seeds ⇒ {1} Canola Oil in {2} hours in the Oil Press (Iron Teeth only)"
 zhCN = "在榨油机解锁 [Recipe]：{0} 油菜籽 ⇒ {1} 菜籽油，耗时 {2} 小时。（铁牙专属）"
 zhTW = "解鎖 [食譜]：{0} 菜籽 ⇒ {1} 菜籽油在 {2} 小時內於油壓機（僅限鐵齒）"
@@ -780,6 +845,7 @@ koKR = "[레시피] 잠금 해제: {0} 유채 씨앗 ⇒ {1} 유채유, 오일 �
 
 ["LV.ARSP.PrecisionOilYield"]
 raw = "Canola Essence Refinery"
+status = "normal"
 enUS = "Canola Essence Refinery"
 zhCN = "菜籽油 - 精细榨取法"
 zhTW = "菜籽油精華煉油廠"
@@ -793,6 +859,7 @@ koKR = "유채 에센스 정제소"
 
 ["LV.ARSP.PrecisionOilYieldRecipe"]
 raw = "Canola Oil (Precision)"
+status = "normal"
 enUS = "Canola Oil (Precision)"
 zhCN = "菜籽油（精细）"
 zhTW = "菜籽油（精準）"
@@ -806,6 +873,7 @@ koKR = "정밀 카놀라유"
 
 ["LV.ARSP.PrecisionOilYieldLore"]
 raw = "Iron Teeth perfected a meticulous pressing method, coaxing every last drop from canola seeds with industrial finesse."
+status = "normal"
 enUS = "Iron Teeth perfected a meticulous pressing method, coaxing every last drop from canola seeds with industrial finesse."
 zhCN = "铁牙们完善了精密压榨技术，以工业级精度从油菜籽中榨取最后一滴油。"
 zhTW = "鐵齒完美掌握了一種精細的壓榨方法，以工業技術榨取油菜籽中的每一滴油。"
@@ -819,6 +887,7 @@ koKR = "아이언 티스는 정교한 압착 방법을 완벽하게 다듬어, �
 
 ["LV.ARSP.PrecisionOilYieldEff"]
 raw = "Unlock [Recipe]: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Canola Seeds + {1} Water ⇒ {2} Canola Oil in {3} hours in the Oil Press (Iron Teeth only)"
 zhCN = "在榨油机解锁 [Recipe]：{0} 油菜籽 + {1} 水 ⇒ {2} 菜籽油，耗时 {3} 小时。（铁牙专属）"
 zhTW = "解鎖 [食譜]：{0} 油菜籽 + {1} 水 ⇒ {2} 橄欖油 在油壓機 (僅限鐵齒) 中需要 {3} 小時"
@@ -832,6 +901,7 @@ koKR = "[레시피] 잠금 해제: {0} 유채 씨앗 + {1} 물 ⇒ {2} 유채 �
 
 ["LV.ARSP.SunDriedPulpSheets"]
 raw = "Sun-Dried Pulp Sheets"
+status = "normal"
 enUS = "Sun-Dried Pulp Sheets"
 zhCN = "纸 - 光热速干法"
 zhTW = "日曬果肉片"
@@ -845,6 +915,7 @@ koKR = "햇볕에 말린 펄프 시트"
 
 ["LV.ARSP.SunDriedPulpSheetsRecipe"]
 raw = "Paper (Sun-Dried)"
+status = "normal"
 enUS = "Paper (Sun-Dried)"
 zhCN = "纸（葵花籽）"
 zhTW = "紙（陽光乾燥）"
@@ -858,6 +929,7 @@ koKR = "종이 (햇볕에 말린)"
 
 ["LV.ARSP.SunDriedPulpSheetsLore"]
 raw = "Folktails harnessed the sun’s warmth, blending logs with sunflower pulp to craft sheets of paper as vast as their fields."
+status = "normal"
 enUS = "Folktails harnessed the sun’s warmth, blending logs with sunflower pulp to craft sheets of paper as vast as their fields."
 zhCN = "神尾们利用阳光的热能，混合原木与葵花籽浆，制作出更加优良的纸板。"
 zhTW = "民間故事利用陽光的溫暖，將原木與葵花漿混合，製作出與他們的田野一樣廣闊的紙張。"
@@ -871,6 +943,7 @@ koKR = "민속 이야기꾼들은 태양의 따뜻함을 이용하여 통나무�
 
 ["LV.ARSP.SunDriedPulpSheetsEff"]
 raw = "Unlock [Recipe]: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
+status = "normal"
 enUS = "Unlock [Recipe]: {0} Logs + {1} Sunflowers ⇒ {2} Paper in {3} hours in the Paper Mill (Folktails only)"
 zhCN = "在造纸厂解锁 [Recipe]：{0} 原木 + {1} 葵花籽 ⇒ {2} 纸，耗时 {3} 小时。（神尾专属）"
 zhTW = "解鎖 [食譜]：{0} 原木 + {1} 向日葵 ⇒ {2} 紙在 {3} 小時內於造紙廠（僅限 Folktails）"

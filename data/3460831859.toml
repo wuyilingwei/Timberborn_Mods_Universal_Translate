@@ -1,5 +1,8 @@
+name = "Micro Management"
+
 ["LV.MM.AssignHouse"]
 raw = "Assign housing"
+status = "normal"
 enUS = "Assign housing"
 zhCN = "分配指定住房"
 zhTW = "分配住房"
@@ -13,6 +16,7 @@ koKR = "주택 배정"
 
 ["LV.MM.AssignWorkplace"]
 raw = "Assign workplace"
+status = "normal"
 enUS = "Assign workplace"
 zhCN = "分配指定工作场所"
 zhTW = "分配工作場所"
@@ -26,6 +30,7 @@ koKR = "작업장 할당"
 
 ["LV.MM.UnassignHouse"]
 raw = "Unassign housing"
+status = "normal"
 enUS = "Unassign housing"
 zhCN = "取消分配住房"
 zhTW = "取消分配住房"
@@ -39,6 +44,7 @@ koKR = "주택 해제"
 
 ["LV.MM.UnassignWorkplace"]
 raw = "Unassign workplace"
+status = "normal"
 enUS = "Unassign workplace"
 zhCN = "取消分配工作场所"
 zhTW = "取消工作場所分配"
@@ -52,6 +58,7 @@ koKR = "작업장 해제"
 
 ["LV.MM.AssignDistrict"]
 raw = "Assign district"
+status = "normal"
 enUS = "Assign district"
 zhCN = "分配指定地区"
 zhTW = "指派地區"
@@ -65,6 +72,7 @@ koKR = "구역 할당"
 
 ["LV.MM.PickDwelling"]
 raw = "Pick a house"
+status = "normal"
 enUS = "Choose a house."
 zhCN = "选择一间住房。"
 zhTW = "挑選一間房子"
@@ -78,6 +86,7 @@ koKR = "집을 선택하세요"
 
 ["LV.MM.PickWorkplace"]
 raw = "Pick a workplace"
+status = "normal"
 enUS = "Choose a workplace."
 zhCN = "选择一个工作场所。"
 zhTW = "選擇一個工作場所"
@@ -91,6 +100,7 @@ koKR = "작업장을 선택하세요"
 
 ["LV.MM.PickDistrict"]
 raw = "Pick a district"
+status = "normal"
 enUS = "Choose a district."
 zhCN = "选择一个地区中心。"
 zhTW = "選擇一個區域"
@@ -104,6 +114,7 @@ koKR = "구역 선택"
 
 ["LV.MM.ErrNoDistrict"]
 raw = "The selected building does not belong to a district"
+status = "normal"
 enUS = "The selected building does not belong to a district."
 zhCN = "所选建筑不属于任何地区。"
 zhTW = "所選建築不屬於任何區域"
@@ -117,6 +128,7 @@ koKR = "선택한 건물은 구역에 속하지 않습니다."
 
 ["LV.MM.SendAll"]
 raw = "Send here:"
+status = "normal"
 enUS = "Send here:"
 zhCN = "迁移到此地区："
 zhTW = "發送到這裡："
@@ -130,6 +142,7 @@ koKR = "여기로 보내기:"
 
 ["LV.MM.SendSick"]
 raw = "All contaminated beavers"
+status = "normal"
 enUS = "All contaminated beavers"
 zhCN = "所有被污染的海狸"
 zhTW = "所有受污染的海狸"
@@ -143,6 +156,7 @@ koKR = "모든 오염된 비버"
 
 ["LV.MM.SendInjured"]
 raw = "All injured beavers"
+status = "normal"
 enUS = "All injured beavers"
 zhCN = "所有受伤的海狸"
 zhTW = "所有受傷的海狸"
@@ -156,6 +170,7 @@ koKR = "모든 부상당한 비버"
 
 ["LV.MM.SendHomeless"]
 raw = "All homeless beavers"
+status = "normal"
 enUS = "All homeless beavers"
 zhCN = "所有无家可归的海狸"
 zhTW = "所有無家可歸的海狸"
@@ -169,6 +184,7 @@ koKR = "모든 집 없는 비버"
 
 ["LV.MM.SendUnemployed"]
 raw = "All unemployed beavers"
+status = "normal"
 enUS = "All unemployed beavers"
 zhCN = "所有无工作的海狸"
 zhTW = "所有失業的海狸"
@@ -182,6 +198,7 @@ koKR = "모든 실업자 비버"
 
 ["LV.MM.SendStuck"]
 raw = "All stuck beavers"
+status = "normal"
 enUS = "All stuck beavers"
 zhCN = "所有迷路的海狸"
 zhTW = "所有被困的海狸"
@@ -195,6 +212,7 @@ koKR = "모든 갇힌 비버들"
 
 ["LV.MM.SendAllConfirm"]
 raw = "You are about to send {0} beavers to {1} ({2} are already in). Are you sure?"
+status = "normal"
 enUS = "You are about to send {0} beavers to {1} ({2} are already in). Are you sure?"
 zhCN = "正在将 {0} 只海狸迁移至 {1}（其中 {2} 只已在此地区）。确定要这么做吗？"
 zhTW = "您即將將 {0} 隻海狸發送到 {1}（目前已有 {2} 隻在內）。您確定嗎？"
@@ -208,6 +226,7 @@ koKR = "당신은 {1}에 {0} 마리 비버를 보내려고 합니다 ({2} 마리
 
 ["LV.MM.SendAllNoBeavers"]
 raw = "There are no beavers to send"
+status = "normal"
 enUS = "There are no beavers to send"
 zhCN = "没有可迁移的海狸。"
 zhTW = "沒有可以送的海狸。"

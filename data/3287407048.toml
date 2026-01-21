@@ -1,5 +1,8 @@
+name = "Pipette Tool"
+
 ["Tobbert.PipetteTool.DisplayName"]
 raw = "Pipette"
+status = "normal"
 enUS = "Pipette"
 zhCN = "吸管工具"
 zhTW = "移液管"
@@ -13,6 +16,7 @@ koKR = "파이프렛"
 
 ["Tobbert.PipetteTool.Description"]
 raw = "Click a building to enter construction mode for that building. (Default Shortcut CTRL + CLICK)"
+status = "normal"
 enUS = "Click a building to enter construction mode for that building. (Default Shortcut CTRL + CLICK)"
 zhCN = "点击一个建筑后，将其作为当前的待建造建筑。<br>● 快捷键：Ctrl+左键（可在模组设置中修改）"
 zhTW = "單擊建築物以進入該建築物的建造模式。（默認快捷鍵 CTRL + 單擊）"
@@ -26,6 +30,7 @@ koKR = "건물을 클릭하여 해당 건물의 건설 모드에 들어갑니다
 
 ["Tobbert.PipetteTool.KeyBindingGroup.PipetteTool"]
 raw = "Pipette Tool"
+status = "normal"
 enUS = "Pipette Tool"
 zhCN = "吸管工具"
 zhTW = "吸管工具"
@@ -39,6 +44,7 @@ koKR = "피펫 도구"
 
 ["Tobbert.PipetteTool.KeyBinding.PipetteTool"]
 raw = "Pipette Tool Keybind"
+status = "normal"
 enUS = "Pipette Tool Keybind"
 zhCN = "吸管工具"
 zhTW = "滴管工具"
@@ -52,6 +58,7 @@ koKR = "파이펫 도구 키 바인드"
 
 ["Tobbert.PipetteTool.Setting.Header"]
 raw = "Pipette Tool Settings"
+status = "normal"
 enUS = "Pipette Tool Settings"
 zhCN = "吸管工具设置"
 zhTW = "移液器工具設定"
@@ -65,6 +72,7 @@ koKR = "피펫 도구 설정"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolMode"]
 raw = "Pipetting Mode"
+status = "normal"
 enUS = "Pipetting Mode"
 zhCN = "吸管工具模式"
 zhTW = "移液模式"
@@ -78,6 +86,7 @@ koKR = "삽입 모드"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolModeToolTip"]
 raw = "Hold Mode: Hold the Pipette Tool Keybind button and use the Mouse Selection button to start pipetting.\nPress Mode: Pipette Tool is activated after the Pipette Tool Keybind is pressed and released.\nDirect Mode (Key Bind): This setting allows for direct pipetting without having to click. Using the key bind above it will directly switch to the relevant building (Factorio player approved).\nDirect Mode (Middle Mouse Button): This setting allows for direct pipetting without having to use the Key bind. Using the Middle Mouse Button will directly switch to the relevant building (Minecraft player approved).\nInverted Mode: When a building is selected, press the Pipette Tool Key Bind to switch the relevant object."
+status = "normal"
 enUS = "Hold Mode: Hold the Pipette Tool Keybind button and use the Mouse Selection button to start pipetting.\nPress Mode: Pipette Tool is activated after the Pipette Tool Keybind is pressed and released.\nDirect Mode (Key Bind): This setting allows for direct pipetting without having to click. Using the key bind above it will directly switch to the relevant building (Factorio player approved).\nDirect Mode (Middle Mouse Button): This setting allows for direct pipetting without having to use the Key bind. Using the Middle Mouse Button will directly switch to the relevant building (Minecraft player approved).\nInverted Mode: When a building is selected, press the Pipette Tool Key Bind to switch the relevant object."
 zhCN = "- 按住模式：按住快捷键时进入吸管工具，点击建筑进行吸取<br>- 按下模式：按下并释放快捷键后进入吸管工具，点击建筑进行吸取<br>- 直接模式（按键绑定）：按下并释放快捷键后直接吸取（Factorio玩家首选）<br>直接模式（鼠标中键）：按下并释放鼠标中键后直接吸取（Minecraft玩家首选）<br>反转模式：点击一个建筑后，按下快捷键进行吸取"
 zhTW = "保持模式：按住移液管工具的快捷鍵，並使用滑鼠選擇按鈕開始移液。  \n按壓模式：在按下並釋放移液管工具快捷鍵後，移液管工具被啟動。  \n直接模式（快捷鍵）：此設置允許直接移液而無需點擊。使用上面的快捷鍵將直接切換到相關建築（經過 Factorio 玩家批准）。  \n直接模式（中鍵）：此設置允許直接移液而無需使用快捷鍵。使用中鍵將直接切換到相關建築（經過 Minecraft 玩家批准）。  \n反轉模式：當選擇一個建築時，按下移液管工具快捷鍵以切換到相關物件。"
@@ -91,6 +100,7 @@ koKR = "홀드 모드: 파이펫 도구 키 바인드 버튼을 누르고 마우
 
 ["Tobbert.PipetteTool.Setting.MouseSelectionButton"]
 raw = "Mouse Selection Button"
+status = "normal"
 enUS = "Mouse Selection Button"
 zhCN = "鼠标点击按钮"
 zhTW = "滑鼠選擇按鈕"
@@ -104,6 +114,7 @@ koKR = "마우스 선택 버튼"
 
 ["Tobbert.PipetteTool.Setting.HoldMode"]
 raw = "Hold Mode"
+status = "normal"
 enUS = "Hold Mode"
 zhCN = "按住模式"
 zhTW = "保持模式"
@@ -117,6 +128,7 @@ koKR = "홀드 모드"
 
 ["Tobbert.PipetteTool.Setting.PressMode"]
 raw = "Press Mode"
+status = "normal"
 enUS = "Press Mode"
 zhCN = "按下模式"
 zhTW = "按壓模式"
@@ -130,6 +142,7 @@ koKR = "프레스 모드"
 
 ["Tobbert.PipetteTool.Setting.DirectModeKeyBind"]
 raw = "Direct Mode (Keybind)"
+status = "normal"
 enUS = "Direct Mode (Keybind)"
 zhCN = "直接模式（按键绑定）"
 zhTW = "直連模式（快捷鍵）"
@@ -143,6 +156,7 @@ koKR = "직접 모드 (키바인드)"
 
 ["Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton"]
 raw = "Direct Mode (Middle Mouse Button)"
+status = "normal"
 enUS = "Direct Mode (Middle Mouse Button)"
 zhCN = "直接模式（鼠标中键）"
 zhTW = "直接模式（中鍵）"
@@ -156,6 +170,7 @@ koKR = "직접 모드 (중간 마우스 버튼)"
 
 ["Tobbert.PipetteTool.Setting.ForcePipette"]
 raw = "Force Pipetting"
+status = "normal"
 enUS = "Force Pipetting"
 zhCN = "强制吸取"
 zhTW = "強制移液"
@@ -169,6 +184,7 @@ koKR = "강제 피펫"
 
 ["Tobbert.PipetteTool.Setting.ForcePipetteTooltip"]
 raw = "Forces the pipetting tool even when another tool is currently active."
+status = "normal"
 enUS = "Forces the pipetting tool even when another tool is currently active."
 zhCN = "强制使用吸管工具，即使当前正在使用其他工具。"
 zhTW = "強制使用移液工具，即使其他工具當前處於活動狀態。"
@@ -182,6 +198,7 @@ koKR = "현재 다른 도구가 활성화되어 있어도 피펫 도구를 강�
 
 ["Tobbert.PipetteTool.Setting.InvertedMode"]
 raw = "Inverted Mode"
+status = "normal"
 enUS = "Inverted Mode"
 zhCN = "反转模式"
 zhTW = "反向模式"

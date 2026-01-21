@@ -1,5 +1,8 @@
+name = "TimberUi"
+
 ["LV.TimberUi.DisableCameraShake"]
 raw = "Disable camera shake"
+status = "normal"
 enUS = "Disable camera shake"
 zhCN = "禁用相机抖动"
 zhTW = "禁用相機晃動"
@@ -13,6 +16,7 @@ koKR = "카메라 흔들림 비활성화"
 
 ["LV.TimberUi.UpdateMessage"]
 raw = "<b>{0} was updated to v{1}</b>:\n{2}"
+status = "normal"
 enUS = "<b>{0} was updated to v{1}</b>:\n{2}"
 zhCN = "<b>{0} 已更新至 v{1}</b>：<br>{2}"
 zhTW = "<b>{0} 已更新至 v{1}</b>：\n{2}"
@@ -26,6 +30,7 @@ koKR = "<b>{0}가 v{1}로 업데이트되었습니다</b>:\\n{2}"
 
 ["LV.TimberUi.UpdateDismiss"]
 raw = "Don't show again"
+status = "normal"
 enUS = "Don't show again"
 zhCN = "不再显示"
 zhTW = "不要再顯示了"
@@ -39,6 +44,7 @@ koKR = "다시 표시하지 않기"
 
 ["LV.TimberUi.UpdateRemind"]
 raw = "Remind me later"
+status = "normal"
 enUS = "Remind me later"
 zhCN = "稍后提醒"
 zhTW = "稍後提醒我"

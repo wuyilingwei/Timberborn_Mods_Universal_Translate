@@ -1,5 +1,8 @@
+name = "Configurable & Moddable Lights"
+
 ["LV.RL.Title"]
 raw = "Real Lights"
+status = "normal"
 enUS = "Real Lights"
 zhCN = "多彩光源"
 zhTW = "真實燈光"
@@ -13,6 +16,7 @@ koKR = "실제 조명"
 
 ["LV.RL.ForceOff"]
 raw = "Turn off"
+status = "normal"
 enUS = "Turn off"
 zhCN = "关闭照明"
 zhTW = "關閉"
@@ -26,6 +30,7 @@ koKR = "끄기"
 
 ["LV.RL.ForceOffAll"]
 raw = "Turn off for all {0}"
+status = "normal"
 enUS = "Turn off for all {0}"
 zhCN = "关闭所有{0}的照明"
 zhTW = "為所有 {0} 關閉"
@@ -39,6 +44,7 @@ koKR = "모든 {0}의 전원을 끄기"
 
 ["LV.RL.ForceNightLight"]
 raw = "Force Night light on"
+status = "normal"
 enUS = "Force Night Light On"
 zhCN = "白天开启照明"
 zhTW = "強制開啟夜間模式"
@@ -52,6 +58,7 @@ koKR = "야간 조명 강제 활성화"
 
 ["LV.RL.LightConfig"]
 raw = "Light {0}:"
+status = "normal"
 enUS = "Light {0}:"
 zhCN = "光源{0}："
 zhTW = "光 {0}:"
@@ -65,6 +72,7 @@ koKR = "조명 {0}:"
 
 ["LV.RL.Intensity"]
 raw = "Intensity"
+status = "normal"
 enUS = "Intensity"
 zhCN = "强度"
 zhTW = "強度"
@@ -78,6 +86,7 @@ koKR = "강도"
 
 ["LV.RL.Color"]
 raw = "Color"
+status = "normal"
 enUS = "Color"
 zhCN = "颜色"
 zhTW = "顏色"
@@ -91,6 +100,7 @@ koKR = "색상"
 
 ["LV.RL.Range"]
 raw = "Range"
+status = "normal"
 enUS = "Range"
 zhCN = "范围"
 zhTW = "範圍"
@@ -104,6 +114,7 @@ koKR = "범위"
 
 ["LV.RL.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重設"
@@ -117,6 +128,7 @@ koKR = "재설정"
 
 ["LV.RL.Shadow"]
 raw = "Shadow"
+status = "normal"
 enUS = "Shadow"
 zhCN = "阴影"
 zhTW = "影子"
@@ -130,6 +142,7 @@ koKR = "그림자"
 
 ["LV.RL.KeybindingCopy"]
 raw = "Copy Light settings"
+status = "normal"
 enUS = "Copy Light settings"
 zhCN = "复制光源设置"
 zhTW = "複製光源設定"
@@ -143,6 +156,7 @@ koKR = "조명 설정 복사"
 
 ["LV.RL.KeybindingPaste"]
 raw = "Paste Light settings"
+status = "normal"
 enUS = "Paste Light settings"
 zhCN = "粘贴光源设置"
 zhTW = "粘貼光線設置"
@@ -156,6 +170,7 @@ koKR = "빛 설정 붙여넣기"
 
 ["LV.RL.ChangeColor"]
 raw = "Change color"
+status = "normal"
 enUS = "Change color"
 zhCN = "更改颜色"
 zhTW = "更改顏色"
@@ -169,6 +184,7 @@ koKR = "색상 변경"
 
 ["LV.RL.MoreOptions"]
 raw = "More options"
+status = "normal"
 enUS = "More options"
 zhCN = "更多选项"
 zhTW = "更多選項"
@@ -182,6 +198,7 @@ koKR = "더 많은 옵션"
 
 [Name_RealLightsFragment]
 raw = "Real Lights"
+status = "normal"
 enUS = "Real Lights"
 zhCN = "多彩光源"
 zhTW = "真實燈光"

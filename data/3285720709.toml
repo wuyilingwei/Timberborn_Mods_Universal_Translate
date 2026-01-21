@@ -1,5 +1,8 @@
+name = "Water Extention"
+
 ["Knatte.IndWaterTank.DisplayName"]
 raw = "Industrial Water Tank"
+status = "normal"
 enUS = "Industrial Water Tank"
 zhCN = "大型工业储水箱"
 zhTW = "工業水箱"
@@ -13,6 +16,7 @@ koKR = "산업용 물탱크"
 
 ["Knatte.IndWaterTank.Description"]
 raw = "Holds more water and is Stackable but requires metal"
+status = "normal"
 enUS = "Holds more water and is stackable but requires metal."
 zhCN = "储存液体，可以在上面建造其他建筑。<br><color=#FFA500>部分建筑表面能传输能量。</color>"
 zhTW = "容量較大且可堆疊，但需要金屬。"
@@ -26,6 +30,7 @@ koKR = "더 많은 물을 저장할 수 있으며 쌓을 수 있지만 금속이
 
 ["Knatte.Pipe5X.DisplayName"]
 raw = "Pipe 5 Long"
+status = "normal"
 enUS = "Pipe 5 Long"
 zhCN = "输送泵 5x1"
 zhTW = "管道5長"
@@ -39,6 +44,7 @@ koKR = "파이프 5 길이"
 
 ["Knatte.Pipe10X.DisplayName"]
 raw = "Pipe 10 Long"
+status = "normal"
 enUS = "Pipe 10 Long"
 zhCN = "输送泵 10x1"
 zhTW = "管子10長"
@@ -52,6 +58,7 @@ koKR = "파이프 10 롱"
 
 ["Knatte.Pipe15X.DisplayName"]
 raw = "Pipe 15 Long"
+status = "normal"
 enUS = "Pipe 15 Long"
 zhCN = "输送泵 15x1"
 zhTW = "15英尺長的管子"
@@ -65,6 +72,7 @@ koKR = "파이프 15 롱"
 
 ["Knatte.Pipe.Description"]
 raw = "Levees on both sides of the pipe and a input and output pipe. Leeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
+status = "normal"
 enUS = "Levees on both sides of the pipe and an input and output pipe. Levees need to be powered but also act as transfer. Do not place Levees in hex above the Output Pipe! It will crash!"
 zhCN = "改进的机械液体泵，能单向输送液体，水位高于出口时会停止运作。<br><color=#FFA500>防洪堤部分能传输能量；最大流量每秒 0.4 立方米。</color><br><color=#FF4C4C>禁止在出口上方一格建造防洪堤或其他防水建筑，否则会游戏崩溃。</color>"
 zhTW = "在管道兩側設置壩體，並有一個輸入管和一個輸出管。壩體需要有電力供應，但也必須能作為傳輸介質。請勿將壩體放置在輸出管上方的六邊形中！這樣會導致崩潰！"
@@ -78,6 +86,7 @@ koKR = "파이프 양쪽에 레벨이 있고, 입력 및 출력 파이프가 있
 
 ["Knatte.PipeU5X.DisplayName"]
 raw = "Pipe Underground 5 Long"
+status = "normal"
 enUS = "Pipe Underground 5 Long"
 zhCN = "地下输送泵 5x1"
 zhTW = "地下管道 5 長"
@@ -91,6 +100,7 @@ koKR = "지하 파이프 5 길이"
 
 ["Knatte.PipeU10X.DisplayName"]
 raw = "Pipe Underground 10 Long"
+status = "normal"
 enUS = "Underground Pipe 10 Long"
 zhCN = "地下输送泵 10x1"
 zhTW = "地下管道 10 長"
@@ -104,6 +114,7 @@ koKR = "땅속 파이프 10길이"
 
 ["Knatte.PipeU15X.DisplayName"]
 raw = "Pipe Underground 15 Long"
+status = "normal"
 enUS = "Pipe Underground 15 Long"
 zhCN = "地下输送泵 15x1"
 zhTW = "地下管道15長"
@@ -117,6 +128,7 @@ koKR = "지하 15미터 길이의 파이프"
 
 ["Knatte.PipeU.Description"]
 raw = "Levees on both sides of the pipe and a input and output pipe.\nPipe going underground between Levees\nLeeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
+status = "normal"
 enUS = "Levees on both sides of the pipe and an input and output pipe. Pipe going underground between levees. Levees need to be powered but also act as a transfer. Do not place levees in hex above the output pipe! It will crash!"
 zhCN = "改进的机械液体泵，能单向输送液体，输送管道位于地下，水位高于出口时会停止运作。<br><color=#FFA500>防洪堤部分能传输能量；最大流量每秒 0.4 立方米。</color><br><color=#FF4C4C>禁止在出口上方一格建造防洪堤或其他防水建筑，否则会游戏崩溃。</color>"
 zhTW = "兩側有堤防和一個進水管及一個出水管。管道在堤防之間埋入地下。堤防需要供電，並且也需作為轉移。請不要在輸出管上方的六邊形中放置堤防！這會導致崩潰！"
@@ -128,8 +140,13 @@ plPL = "Wały po obu stronach rury oraz rura wejściowa i wyjściowa.  \nRura pr
 ptBR = "Barragens de ambos os lados do tubo e um tubo de entrada e saída.  \nTubo indo para baixo entre as barragens.  \nAs barragens precisam ser alimentadas, mas também atuar como transferência.  \nNão coloque as barragens no hex acima do tubo de saída! Isso causará uma falha!"
 koKR = "파이프 양쪽에 제방이 있고 입력 및 출력 파이프가 있습니다.\n제방 사이로 땅속에 있는 파이프\n제방은 전원이 필요하지만 전송 역할도 합니다.\n출력 파이프 위의 육각형에 제방을 배치하지 마세요! 크래시가 발생합니다!"
 
+["//"]
+new = "//"
+status = "normal"
+
 ["Knatte.CategoryPipe.DisplayName"]
 raw = "Straight Pipes"
+status = "normal"
 enUS = "Straight Pipes"
 zhCN = "输送泵"
 zhTW = "直管"
@@ -143,6 +160,7 @@ koKR = "직선 관"
 
 ["Knatte.CategoryPipe.Description"]
 raw = "Pipes that go overground"
+status = "normal"
 enUS = "Pipes that run above ground"
 zhCN = "能单向输送液体。"
 zhTW = "地面上的管道"
@@ -156,6 +174,7 @@ koKR = "지상에 놓인 파이프"
 
 ["Knatte.CategoryPipeU.DisplayName"]
 raw = "Underground Pipes"
+status = "normal"
 enUS = "Underground Pipes"
 zhCN = "地下输送泵"
 zhTW = "地下管道"
@@ -169,6 +188,7 @@ koKR = "지하 파이프"
 
 ["Knatte.CategoryPipeU.Description"]
 raw = "Pipes that need to go underground at the bend"
+status = "normal"
 enUS = "Pipes that need to go underground at the bend"
 zhCN = "能单向输送液体，输送管道位于地下。"
 zhTW = "需要在彎道處埋入地下的管道"
@@ -182,6 +202,7 @@ koKR = "구부어진 부분에서 지하로 가야 하는 파이프"
 
 ["Knatte.CategoryHideWE.DisplayName"]
 raw = "Unused Water Extention"
+status = "normal"
 enUS = "Unused Water Extension"
 zhCN = "未使用的水利拓展建筑"
 zhTW = "未使用的水延伸"
@@ -195,6 +216,7 @@ koKR = "사용하지 않는 물 확장"
 
 ["Knatte.CategoryAquaduct.DisplayName"]
 raw = "Aquaducts"
+status = "normal"
 enUS = "Aquaducts"
 zhCN = "水渠"
 zhTW = "渡槽"
@@ -208,6 +230,7 @@ koKR = "수로"
 
 ["Knatte.CategoryAquaduct_Floors.DisplayName"]
 raw = "Aquaduct Floors"
+status = "normal"
 enUS = "Aquaduct Floors"
 zhCN = "水渠地板"
 zhTW = "渡槽地板"
@@ -221,6 +244,7 @@ koKR = "수로 바닥"
 
 ["Knatte.Pipe1X.DisplayName"]
 raw = "Pipe Outlet"
+status = "normal"
 enUS = "Pipe Outlet"
 zhCN = "输送泵"
 zhTW = "管道出口"
@@ -234,6 +258,7 @@ koKR = "파이프 출구"
 
 ["Knatte.Pipe1X.Description"]
 raw = "Two Levees and a input and output pipe. Leeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
+status = "normal"
 enUS = "Two Levees and an input and output pipe. Levees need to be powered but also act as transfer. Do not place Levees in hex above the Output Pipe! It will crash!"
 zhCN = "改进的机械液体泵，能单向输送液体，水位高于出口时会停止运作。<br><color=#FFA500>防洪堤部分能传输能量；最大流量每秒 0.4 立方米。</color><br><color=#FF4C4C>禁止在出口上方一格建造防洪堤或其他防水建筑，否则会游戏崩溃。</color>"
 zhTW = "兩個堤防和一個進出口管道。堤防需要供電，但也要作為傳輸使用。不要將堤防放置在輸出管道上方的六邊形內！這樣會崩潰！"
@@ -247,6 +272,7 @@ koKR = "두 개의 둑과 입력 및 출력 파이프. 둑은 전원이 필요�
 
 ["Knatte.DeepSeaPump.DisplayName"]
 raw = "DeepSea Water Pump"
+status = "normal"
 enUS = "DeepSea Water Pump"
 zhCN = "水底泵"
 zhTW = "深海水泵"
@@ -260,6 +286,7 @@ koKR = "심해수 펌프"
 
 ["Knatte.DeepSeaPump.Description"]
 raw = "Pump for the bottom of the Sea"
+status = "normal"
 enUS = "Pump for the bottom of the sea"
 zhCN = "使用机器从水底抽取并过滤供海狸饮用的水。恶水污染会降低其抽取速度。<br><color=#FFA500>圆柱两端能传输能量。</color>"
 zhTW = "海底抽水泵"
@@ -273,6 +300,7 @@ koKR = "바다 바닥을 위한 펌프"
 
 ["Knatte.DeepSeaPump.FlavorDescription"]
 raw = "A gulp of fresh water is enough to pump you up."
+status = "normal"
 enUS = "A gulp of fresh water is enough to boost your energy."
 zhCN = "喝一口来自深处的淡水，让你随时脉动回来。"
 zhTW = "一口新鮮的水足以讓你充滿活力。"
@@ -286,6 +314,7 @@ koKR = "신선한 물 한 모금이면 당신을 활기차게 만들어 줍니�
 
 ["Knatte.PipeH1X.DisplayName"]
 raw = "Pipe Outlet (H)"
+status = "normal"
 enUS = "Pipe Outlet (H)"
 zhCN = "高位输送泵"
 zhTW = "管道出口 (H)"
@@ -299,6 +328,7 @@ koKR = "파이프 출구 (H)"
 
 ["Knatte.PipeH1X.Description"]
 raw = "High Volume Pump Two Levees and a input and output pipe.\nLeeve need to be powered but also act as transfer"
+status = "normal"
 enUS = "High Volume Pump Two Levees and an input and output pipe. Levees need to be powered but also act as transfer."
 zhCN = "改进的机械液体泵，能单向输送液体，出口较高，水位高于出口时会停止运作。<br><color=#FFA500>防洪堤部分能传输能量；最大流量每秒 1.2 立方米。</color><br><color=#FF4C4C>禁止在出口上方一格建造防洪堤或其他防水建筑，否则会游戏崩溃。</color>"
 zhTW = "高容量泵，兩個壩一道進水管和一道出水管。壩需要通電，但同時也要作為轉移使用。"
@@ -312,6 +342,7 @@ koKR = "대용량 펌프 두 개의 제방과 입력 및 출력 파이프. 제�
 
 ["Knatte.PipeHU5X.DisplayName"]
 raw = "Pipe Underground 5 Long (H)"
+status = "normal"
 enUS = "Pipe Underground 5 Long (H)"
 zhCN = "高位地下输送泵 5x1"
 zhTW = "地下管道 5 長 (H)"
@@ -325,6 +356,7 @@ koKR = "파이프 지하 5m 길이 (H)"
 
 ["Knatte.PipeHU10X.DisplayName"]
 raw = "Pipe Underground 10 Long (H)"
+status = "normal"
 enUS = "Pipe Underground 10 Long (H)"
 zhCN = "高位地下输送泵 10x1"
 zhTW = "地下管道 10 長 (H)"
@@ -338,6 +370,7 @@ koKR = "파이프 지하 10 길이 (H)"
 
 ["Knatte.PipeHU15X.DisplayName"]
 raw = "Pipe Underground 15 Long (H)"
+status = "normal"
 enUS = "Pipe Underground 15 Long (H)"
 zhCN = "高位地下输送泵 15x1"
 zhTW = "地下管道 15 長 (H)"
@@ -351,6 +384,7 @@ koKR = "파이프 지하 15길이 (H)"
 
 ["Knatte.PipeHU.Description"]
 raw = "High Power version with a Levees on both sides of the pipe and a input and output pipe.\nPipe going underground between Levees\nLeeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
+status = "normal"
 enUS = "High Power version with levees on both sides of the pipe and an input and output pipe. The pipe goes underground between the levees. Levees need to be powered but also act as transfer. Do not place levees in hex above the output pipe! It will crash!"
 zhCN = "改进的机械液体泵，能单向输送液体，输送管道位于地下，出口较高，水位高于出口时会停止运作。<br><color=#FFA500>防洪堤部分能传输能量；最大流量每秒 1.2 立方米。</color><br><color=#FF4C4C>禁止在出口上方一格建造防洪堤或其他防水建筑，否则会游戏崩溃。</color>"
 zhTW = "高功率版本，管道兩側有堤防，並且有進口管和出口管。  \n管道在堤防之間埋入地下。  \n堤防需要供電，但也要作為轉運。  \n請勿在出口管上方的六邊形放置堤防！這樣會崩潰！"
@@ -364,6 +398,7 @@ koKR = "파이프 양쪽에 제방이 있는 고출력 버전으로, 입력 및 
 
 ["Knatte.Valve1X.DisplayName"]
 raw = "OneWay Valve"
+status = "normal"
 enUS = "One-way valve"
 zhCN = "输送阀"
 zhTW = "單向閥"
@@ -377,6 +412,7 @@ koKR = "일방향 밸브"
 
 ["Knatte.Valve1X.Description"]
 raw = "Oneway Valve with levee in the middle\nNo power needed and does not transfer\n1.5cms max flow"
+status = "normal"
 enUS = "One-way valve with a levee in the middle. No power needed and does not transfer. Maximum flow of 1.5 cm."
 zhCN = "能单向流过液体，两侧水位达到阈值或相等时会停止运作，取消水位检测可以解除部分限制。<br><color=#FFA500>最大流量可调节，上限为每秒 1.5 立方米，出口水位阈值为高于 0.6 米，进口水位阈值为低于 0.2 米（相对于单向阀平面）。</color>"
 zhTW = "中間有堤壩的單向閥\n不需要電力且不會轉移\n最大流量1.5厘米"
@@ -390,6 +426,7 @@ koKR = "중간에 제방이 있는 일방통행 밸브  \n전력 필요 없으�
 
 ["Knatte.ValveH1X.DisplayName"]
 raw = "OneWay Valve (H)"
+status = "normal"
 enUS = "One-Way Valve (H)"
 zhCN = "高位输送阀"
 zhTW = "單向閥 (H)"
@@ -403,6 +440,7 @@ koKR = "일방향 밸브 (H)"
 
 ["Knatte.ValveH1X.Description"]
 raw = "High Volume Oneway Valve with levee in the middle\nNo power needed and does not transfer"
+status = "normal"
 enUS = "High Volume One-way Valve with a levee in the middle  \nNo power needed and does not transfer"
 zhCN = "能单向流过液体，出口较高，两侧水位达到阈值或相等时会停止运作，取消水位检测可以解除部分限制。<br><color=#FFA500>最大流量可调节，上限为每秒 3 立方米，出口水位阈值为高于 1.8 米，进口水位阈值为低于 0.2 米（相对于单向阀平面）。</color>"
 zhTW = "中間有堤壩的大流量單向閥  \n不需要電力，且不會轉移"
@@ -416,6 +454,7 @@ koKR = "중간에 제방이 있는 고용량 일방향 밸브\n전력이 필요 
 
 ["Knatte.Aqueduct_S_1X.DisplayName"]
 raw = "Aqueduct"
+status = "normal"
 enUS = "Aqueduct"
 zhCN = "单侧水渠 1x1"
 zhTW = "自來水道"
@@ -429,6 +468,7 @@ koKR = "수로"
 
 ["Knatte.Aqueduct_S_5X.DisplayName"]
 raw = "Aqueduct 5 Long"
+status = "normal"
 enUS = "Aqueduct 5 Long"
 zhCN = "单侧水渠 5x1"
 zhTW = "水道 5 長"
@@ -442,6 +482,7 @@ koKR = "5 길이 수로"
 
 ["Knatte.Aqueduct_S.Description"]
 raw = "Aqueduct with wall on one side. Also Stops water at the bottom."
+status = "normal"
 enUS = "Aqueduct with a wall on one side. It also stops water at the bottom."
 zhCN = "组合式的水渠结构，只有一侧有围墙。底部可以防止水渗漏。"
 zhTW = "一側有牆的引水道。也能在底部攔住水。"
@@ -455,6 +496,7 @@ koKR = "측면에 벽이 있는 수로. 또한 바닥에서 물을 멈춥니다.
 
 ["Knatte.Aqueduct_S.FlavorDescription"]
 raw = "To be filled"
+status = "normal"
 enUS = "To be filled"
 zhCN = "等待液体填充……不过要先围起来。"
 zhTW = "待填寫"
@@ -468,6 +510,7 @@ koKR = "채워질 예정"
 
 ["Knatte.Aqueduct_P_1X.DisplayName"]
 raw = "Aqueduct 1x1"
+status = "normal"
 enUS = "Aqueduct 1x1"
 zhCN = "水渠 1x1"
 zhTW = "水道 1x1"
@@ -481,6 +524,7 @@ koKR = "수로 1x1"
 
 ["Knatte.Aqueduct_P_5X.DisplayName"]
 raw = "Aqueduct 1x5 Long"
+status = "normal"
 enUS = "Aqueduct 1x5 Long"
 zhCN = "水渠 5x1"
 zhTW = "水渠 1x5 長"
@@ -494,6 +538,7 @@ koKR = "수로 1x5 대형"
 
 ["Knatte.Aqueduct_P.Description"]
 raw = "Aqueduct with wall on Both sides. Also Stops water at the bottom."
+status = "normal"
 enUS = "Aqueduct with walls on both sides. Also prevents water at the bottom."
 zhCN = "组合式的水渠结构，两侧都有围墙。底部可以防止水渗漏。"
 zhTW = "雙側有牆的水道。底部也能阻止水流。"
@@ -507,6 +552,7 @@ koKR = "양쪽에 벽이 있는 수로. 또한 바닥에서 물을 멈춥니다.
 
 ["Knatte.Aqueduct_P.FlavorDescription"]
 raw = "To be filled"
+status = "normal"
 enUS = "To be filled"
 zhCN = "等待液体填充……"
 zhTW = "待填寫"
@@ -520,6 +566,7 @@ koKR = "채워질 것입니다"
 
 ["Knatte.Aqueduct_Corner.DisplayName"]
 raw = "Aqueduct Corner"
+status = "normal"
 enUS = "Aqueduct Corner"
 zhCN = "水渠外转角"
 zhTW = "水道角"
@@ -533,6 +580,7 @@ koKR = "Aqueduct Corner\"의 번역: \"수로 모서리"
 
 ["Knatte.Aqueduct_Corner.Description"]
 raw = "Aqueduct with wall on two sides to create a corner. Also Stops water at the bottom."
+status = "normal"
 enUS = "Aqueduct with walls on two sides to create a corner. It also stops water at the bottom."
 zhCN = "组合式的水渠结构，用两面围墙组成外转角。底部可以防止水渗漏。"
 zhTW = "兩側有牆的渡槽，形成一個轉角。也可以在底部停水。"
@@ -546,6 +594,7 @@ koKR = "두 면에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥
 
 ["Knatte.Aqueduct_Corner.FlavorDescription"]
 raw = "Water GO left"
+status = "normal"
 enUS = "Water went left."
 zhCN = "左转还是右转？"
 zhTW = "水往左走"
@@ -559,6 +608,7 @@ koKR = "물이 왼쪽으로 간다"
 
 ["Knatte.Aqueduct_Lid_1X.DisplayName"]
 raw = "Aqueduct Lid"
+status = "normal"
 enUS = "Aqueduct Lid"
 zhCN = "水渠盖板 1x1"
 zhTW = "水渠蓋"
@@ -572,6 +622,7 @@ koKR = "수로 덮개"
 
 ["Knatte.Aqueduct_Lid_5X.DisplayName"]
 raw = "Aqueduct Lid 5 Long"
+status = "normal"
 enUS = "Aqueduct Lid 5 Long"
 zhCN = "水渠盖板 5x1"
 zhTW = "水道蓋 5 長"
@@ -585,6 +636,7 @@ koKR = "수로 덮개 5 긴"
 
 ["Knatte.Aqueduct_Lid.Description"]
 raw = "Adds a lid that block water from ecaping"
+status = "normal"
 enUS = "Adds a lid that blocks water from escaping."
 zhCN = "水渠顶部的盖板，可以阻挡水流。"
 zhTW = "添加一個蓋子，防止水流出。"
@@ -598,6 +650,7 @@ koKR = "물의 유출을 막는 뚜껑을 추가합니다."
 
 ["Knatte.Aqueduct_Lid.FlavorDescription"]
 raw = "Is it a Pipe yet"
+status = "normal"
 enUS = "Is it a pipe yet?"
 zhCN = "嗯……水渠封起来后，是不是应该叫水管？"
 zhTW = "它現在是管子了嗎？"
@@ -611,6 +664,7 @@ koKR = "이제 파이프인가요?"
 
 ["Knatte.Aqueduct_Wall.DisplayName"]
 raw = "Aqueduct Wall Dummy"
+status = "normal"
 enUS = "Aqueduct Wall Dummy"
 zhCN = "水渠装饰墙"
 zhTW = "渡槽牆假人"
@@ -624,6 +678,7 @@ koKR = "수로 벽 더미"
 
 ["Knatte.Aqueduct_Wall.Description"]
 raw = "Do not block water but may help the Illusion that it does for aesthetics to inner corners."
+status = "normal"
 enUS = "Do not block water, but it may help create the illusion that it does for aesthetics in the inner corners."
 zhCN = "水渠侧面的围墙，但不能阻挡水流，仅供美观。"
 zhTW = "不要阻擋水，但可以幫助維持它在內部角落的美觀假象。"
@@ -637,6 +692,7 @@ koKR = "물의 흐름을 차단하지 않지만 내부 코너의 미적 효과�
 
 ["Knatte.Aqueduct_Wall.FlavorDescription"]
 raw = "To be filled"
+status = "normal"
 enUS = "To be filled"
 zhCN = "这算是浪费材料吗？"
 zhTW = "待填寫"
@@ -650,6 +706,7 @@ koKR = "채워질 예정"
 
 ["Knatte.Aqueduct_Floor_1X1.DisplayName"]
 raw = "Aqueduct Floor"
+status = "normal"
 enUS = "Aqueduct Floor"
 zhCN = "水渠地板 1x1"
 zhTW = "水道地板"
@@ -663,6 +720,7 @@ koKR = "수로 바닥"
 
 ["Knatte.Aqueduct_Floor_1X5.DisplayName"]
 raw = "Aqueduct Floor 1x5"
+status = "normal"
 enUS = "Aqueduct Floor 1x5"
 zhCN = "水渠地板 5x1"
 zhTW = "水道一層 1x5"
@@ -676,6 +734,7 @@ koKR = "수로 바닥 1x5"
 
 ["Knatte.Aqueduct_Floor_2X2.DisplayName"]
 raw = "Aqueduct Floor 2x2"
+status = "normal"
 enUS = "Aqueduct Floor 2x2"
 zhCN = "水渠地板 2x2"
 zhTW = "水渠地板 2x2"
@@ -689,6 +748,7 @@ koKR = "수로 바닥 2x2"
 
 ["Knatte.Aqueduct_Floor_3X3.DisplayName"]
 raw = "Aqueduct Floor 3x3"
+status = "normal"
 enUS = "Aqueduct Floor 3x3"
 zhCN = "水渠地板 3x3"
 zhTW = "水道 地板 3x3"
@@ -702,6 +762,7 @@ koKR = "수로 바닥 3x3"
 
 ["Knatte.Aqueduct_Floor_5X5.DisplayName"]
 raw = "Aqueduct Floor 5x5"
+status = "normal"
 enUS = "Aqueduct Floor 5x5"
 zhCN = "水渠地板 5x5"
 zhTW = "水道 第五層 5x5"
@@ -715,6 +776,7 @@ koKR = "수로 바닥 5x5"
 
 ["Knatte.Aqueduct_Floor.Description"]
 raw = "Impermeable floor in Aqueduct theme"
+status = "normal"
 enUS = "Impermeable floor in Aqueduct theme"
 zhCN = "水渠底部的地板，可以防止水渗漏。"
 zhTW = "水道主題的防水地板"
@@ -728,6 +790,7 @@ koKR = "수로 테마의 방수 바닥"
 
 ["Knatte.Aqueduct_Floor.FlavorDescription"]
 raw = "You shall not pass"
+status = "normal"
 enUS = "You shall not pass."
 zhCN = "所以为什么要涂成黑色？"
 zhTW = "你不能通行"
@@ -741,6 +804,7 @@ koKR = "당신은 통과할 수 없습니다"
 
 ["Knatte.Aqueduct_Sluice.DisplayName"]
 raw = "Aqueduct Sluice"
+status = "normal"
 enUS = "Aqueduct Sluice"
 zhCN = "水渠水闸"
 zhTW = "水道閘"
@@ -754,6 +818,7 @@ koKR = "수로 슬루스"
 
 ["Knatte.Aqueduct_Sluice.Description"]
 raw = "A unidirectional, automated water discharge. in Aqueduct theme and placeable in Aqueducts if it has support under."
+status = "normal"
 enUS = "A unidirectional, automated water discharge in the Aqueduct theme, and it can be placed in Aqueducts if it has support underneath."
 zhCN = "与水渠配套的水闸，可以单向自动排水。"
 zhTW = "單向自動排水。在高架渠主題中，並且如果有支撐，可以放置在高架渠中。"
@@ -767,6 +832,7 @@ koKR = "일방향 자동 물 배출 장치. 수로 테마이며 지지가 있는
 
 ["Knatte.Aqueduct_Corner_Int.DisplayName"]
 raw = "Aqueduct Inner Corner"
+status = "normal"
 enUS = "Aqueduct Inner Corner"
 zhCN = "单侧水渠内转角"
 zhTW = "水道內角"
@@ -780,6 +846,7 @@ koKR = "수로 내부 코너"
 
 ["Knatte.Aqueduct_Corner_Int.Description"]
 raw = "Aqueduct with wall on two sides to create a corner. Also Stops water at the bottom."
+status = "normal"
 enUS = "Aqueduct with walls on two sides to create a corner. Also stops water at the bottom."
 zhCN = "组合式的水渠结构，用两面围墙组成内转角。底部可以防止水渗漏。"
 zhTW = "水道兩側有牆以形成角落。還可以在底部阻擋水。"
@@ -793,6 +860,7 @@ koKR = "두 쪽에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥
 
 ["Knatte.Aqueduct_Corner_Int.FlavorDescription"]
 raw = "Water GO left"
+status = "normal"
 enUS = "Water went left."
 zhCN = "你选择哪边？"
 zhTW = "水朝左走"
@@ -806,6 +874,7 @@ koKR = "물은 왼쪽으로 간다"
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.DisplayName"]
 raw = "Aqueduct 1x1 Inner Corner"
+status = "normal"
 enUS = "Aqueduct 1x1 Inner Corner"
 zhCN = "水渠内转角"
 zhTW = "水渠 1x1 內角"
@@ -819,6 +888,7 @@ koKR = "\"Aqueduct 1x1 Inner Corner\"의 번역은 \"수로 1x1 내부 코너\"�
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.Description"]
 raw = "Aqueduct with wall on three sides to create a corner. Also Stops water at the bottom."
+status = "normal"
 enUS = "Aqueduct with a wall on three sides to create a corner. It also stops water at the bottom."
 zhCN = "组合式的水渠结构，用三面围墙组成内转角。底部可以防止水渗漏。"
 zhTW = "三面有牆的引水道形成一個角落。也在底部阻止水流。"
@@ -832,6 +902,7 @@ koKR = "세 면에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription"]
 raw = "Water GO left"
+status = "normal"
 enUS = "Water went left."
 zhCN = "右转还是左转？"
 zhTW = "水往左邊去"
@@ -845,6 +916,7 @@ koKR = "물은 왼쪽으로 갑니다"
 
 ["Knatte.Aqueduct_Wall2.DisplayName"]
 raw = "Aqueduct Wall"
+status = "normal"
 enUS = "Aqueduct Wall"
 zhCN = "水渠围墙"
 zhTW = "引水道牆"
@@ -858,6 +930,7 @@ koKR = "수로 벽"
 
 ["Knatte.Aqueduct_Wall2.Description"]
 raw = "Block water from enter the same block as this, can be used to build underwater paths"
+status = "normal"
 enUS = "Block water from entering the same block as this; it can be used to build underwater paths."
 zhCN = "水渠侧面的围墙，可以阻挡水流。"
 zhTW = "阻擋水進入與此相同的區塊，可用於建造水下通道"
@@ -871,6 +944,7 @@ koKR = "이 블록과 같은 블록에 물이 들어오는 것을 차단하며, 
 
 ["Knatte.Aqueduct_Wall2.FlavorDescription"]
 raw = "To be filled"
+status = "normal"
 enUS = "To be filled"
 zhCN = "把水挡在外面和围在里面好像都差不多？"
 zhTW = "待填寫"
@@ -884,6 +958,7 @@ koKR = "채워질 예정입니다"
 
 ["Knatte.Aqueduct_Wall3.DisplayName"]
 raw = "Offset \nAqueduct Wall"
+status = "normal"
 enUS = "Offset Aqueduct Wall"
 zhCN = "偏移水渠围墙"
 zhTW = "偏置\n渡槽牆"
@@ -897,6 +972,7 @@ koKR = "오프셋 수로 벽"
 
 ["Knatte.Aqueduct_Wall3.Description"]
 raw = "Block water from enter the same block as wall"
+status = "normal"
 enUS = "Block water from entering the same block as the wall."
 zhCN = "水渠侧面的围墙，可以阻挡水流。"
 zhTW = "阻止水進入與牆壁相同的區塊。"
@@ -910,6 +986,7 @@ koKR = "벽과 같은 블록으로 물이 들어오는 것을 차단합니다."
 
 ["Knatte.Aqueduct_Wall4.DisplayName"]
 raw = "Double offset \nAqueduct Wall"
+status = "normal"
 enUS = "Double offset  \nAqueduct Wall"
 zhCN = "偏移双侧水渠围墙"
 zhTW = "雙偏移\n高架渠牆"
@@ -923,6 +1000,7 @@ koKR = "이중 오프셋 수로 벽"
 
 ["Knatte.Aqueduct_Wall4.Description"]
 raw = "Block water from enter the same block as wall"
+status = "normal"
 enUS = "Block water from entering the same block as the wall."
 zhCN = "水渠侧面的围墙，可以阻挡水流。"
 zhTW = "阻止水進入與牆同一區塊的區塊。"
@@ -936,6 +1014,7 @@ koKR = "벽과 같은 블록에 물이 들어오는 것을 막습니다."
 
 ["Knatte.Aqueduct_Wall_OffDec.DisplayName"]
 raw = "Offset \nAqueduct Wall Dummy"
+status = "normal"
 enUS = "Offset  \nAqueduct Wall Dummy"
 zhCN = "偏移水渠装饰墙"
 zhTW = "偏移 水道牆假人"
@@ -949,6 +1028,7 @@ koKR = "오프셋 수로 벽 더미"
 
 ["Knatte.Aqueduct_Wall_OffDec2.DisplayName"]
 raw = "Offset Double\nAqueduct Wall Dummy"
+status = "normal"
 enUS = "Offset Double\nAqueduct Wall Dummy"
 zhCN = "偏移双侧水渠装饰墙"
 zhTW = "偏移雙重  \n水道牆假人"

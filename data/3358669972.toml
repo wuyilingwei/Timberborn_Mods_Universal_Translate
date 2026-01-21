@@ -1,5 +1,8 @@
+name = "Tool Finder"
+
 ["FilterTools.Filter"]
 raw = "Tool Name Filter"
+status = "normal"
 enUS = "Tool Name Filter"
 zhCN = "输入关键词以从工具栏中进行检索"
 zhTW = "工具名稱篩選器"
@@ -13,6 +16,7 @@ koKR = "도구 이름 필터"
 
 ["KeyBinding.FilterTools"]
 raw = "Filter tools"
+status = "normal"
 enUS = "Filter tools"
 zhCN = "工具检索"
 zhTW = "過濾工具"

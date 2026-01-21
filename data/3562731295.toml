@@ -1,5 +1,8 @@
+name = "Earthquake Weather"
+
 ["LV.EQ.Earthquake"]
 raw = "Earthquake"
+status = "normal"
 enUS = "Earthquake"
 zhCN = "地震期"
 zhTW = "地震"
@@ -13,6 +16,8 @@ koKR = "지진"
 
 ["LV.EQ.EarthquakeDesc"]
 raw = "Hazardous weather: Randomly damages buildings and causes water surge."
+new = "Hazardous weather: during this weather, quakes strike every now and then. Each quake strikes:\nA random area and causes:\n- Damage to buildings and may block certain functions for a while\n- Constructions are reset (materials are not lost)\n- Explosives detonate\n- Items may spill from storage buildings. If the building contains explosives, the whole content is lost and the building is destroyed.\n- Beavers and bots inside the hit area may get injured/damaged.\nAcross the map:\n- All water expands by a certain percentage"
+status = "normal"
 enUS = "Hazardous weather: Randomly damages buildings and causes water surge."
 zhCN = "模组扩展的恶劣类天气，大地发出怒吼，像是要再次摧毁文明与秩序。<br>- 在随机区域内，地面猛烈震动，造成如下影响：<br>  建筑受损，部分建筑暂停运行；工地坍塌，施工进度重置。<br>  仓储崩散，部分物品（25~50%）丢失。<br>  引线着火，仓储炸药和露天炸弹被引爆，并摧毁所在仓库。<br>  海狸和机关人被波及，有概率受伤或受损。<br>- 在全图范围内，水域发生潮涌，水面高度急剧上升。<br>- 在整个地震期内会发生多次地震。"
 zhTW = "危險天氣：隨機損壞建築並引發水災。"
@@ -26,6 +31,7 @@ koKR = "위험한 날씨: 건물을 무작위로 파손시키고 물의 급증�
 
 ["LV.EQ.MinStr"]
 raw = "Minimum strength"
+status = "normal"
 enUS = "Minimum strength"
 zhCN = "最小震动强度"
 zhTW = "最小強度"
@@ -39,6 +45,7 @@ koKR = "최소 강도"
 
 ["LV.EQ.MinStrDesc"]
 raw = "The minimum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+status = "normal"
 enUS = "The minimum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
 zhCN = "地震造成震动时，范围内建筑生命值受到地震伤害的最小值。<br>注意，此数值受天气初始强度值、适应周期数影响。"
 zhTW = "地震的最小強度。它對建築物造成的傷害點數。受到障礙的影響。"
@@ -52,6 +59,7 @@ koKR = "지진의 최소 강도. 건물에 줄 수 있는 HP의 양. 핸디캡�
 
 ["LV.EQ.MaxStr"]
 raw = "Maximum strength"
+status = "normal"
 enUS = "Maximum strength"
 zhCN = "最大震动强度"
 zhTW = "最大力量"
@@ -65,6 +73,7 @@ koKR = "최대 힘"
 
 ["LV.EQ.MaxStrDesc"]
 raw = "The maximum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
+status = "normal"
 enUS = "The maximum strength of the Earthquake. The amount of HP it can deal to buildings.\nAffected by Handicap."
 zhCN = "地震造成震动时，范围内建筑生命值受到地震伤害的最大值。<br>注意，此数值受天气初始强度值、适应周期数影响。"
 zhTW = "地震的最大強度。它對建築物造成的生命值傷害量。受 handicap 影響。"
@@ -78,6 +87,7 @@ koKR = "지진의 최대 강도. 건물에 가할 수 있는 HP 양.\n핸디캡�
 
 ["LV.EQ.SurgeStr"]
 raw = "Water surge strength"
+status = "normal"
 enUS = "Water surge strength"
 zhCN = "潮涌强度"
 zhTW = "水流湧動強度"
@@ -91,6 +101,7 @@ koKR = "물 물결 강도"
 
 ["LV.EQ.SurgeStrDesc"]
 raw = "All water 'expands' by this amount (%) when Earthquake surge happens"
+status = "normal"
 enUS = "All water 'expands' by this amount (%) when Earthquake surge happens"
 zhCN = "地震引发潮涌时，所有水域水面上升的幅度。"
 zhTW = "所有水在地震浪潮發生時會「擴展」這個數量(%)"
@@ -104,6 +115,7 @@ koKR = "지진 급증이 발생할 때 모든 물은 이 양(%)만큼 '확장'�
 
 ["LV.EQ.MinFreq"]
 raw = "Minimum frequency (days)"
+status = "normal"
 enUS = "Minimum frequency (days)"
 zhCN = "最小间隔"
 zhTW = "最小頻率（天數）"
@@ -117,6 +129,7 @@ koKR = "최소 주파수 (일)"
 
 ["LV.EQ.MinFreqDesc"]
 raw = "The minimum time between Earthquake hits, in days"
+status = "normal"
 enUS = "The minimum time between Earthquake hits, in days"
 zhCN = "每次地震之间的最小间隔天数。"
 zhTW = "地震發生之間的最小時間，以天為單位"
@@ -130,6 +143,7 @@ koKR = "지진 발생 간 최소 시간(일 단위)"
 
 ["LV.EQ.MaxFreq"]
 raw = "Maximum frequency (days)"
+status = "normal"
 enUS = "Maximum frequency (days)"
 zhCN = "最大间隔"
 zhTW = "最大頻率（天）"
@@ -143,6 +157,7 @@ koKR = "최대 주파수 (일)"
 
 ["LV.EQ.MaxFreqDesc"]
 raw = "The maximum time between Earthquake hits, in days"
+status = "normal"
 enUS = "The maximum time between Earthquake hits, in days"
 zhCN = "每次地震之间的最大间隔天数。"
 zhTW = "地震衝擊之間的最大時間，以天數計算"
@@ -156,6 +171,7 @@ koKR = "지진 발생 간 최대 시간, 일 수 기준"
 
 ["LV.EQ.DamageStatus"]
 raw = "The building was recently damaged by earthquake and being blocked."
+status = "normal"
 enUS = "The building was recently damaged by earthquake and being blocked."
 zhCN = "这座建筑在地震中受损，已被临时封锁。"
 zhTW = "這座建築最近因地震而受損，並被阻擋。"
@@ -169,6 +185,7 @@ koKR = "건물이 최근에 지진으로 피해를 입었고, 차단된 상태�
 
 ["LV.EQ.DamageStatusShort"]
 raw = "Damaged by earthquake"
+status = "normal"
 enUS = "Damaged by earthquake"
 zhCN = "建筑遭受地震"
 zhTW = "受到地震損害"
@@ -182,6 +199,7 @@ koKR = "지진으로 피해를 입음"
 
 ["LV.EQ.ResultNotification"]
 raw = "An earthquake just hit your colony around ({0}, {1}):\n{2}"
+status = "normal"
 enUS = "An earthquake just hit your colony around ({0}, {1}):\n{2}"
 zhCN = "地震监测部测定，坐标（{0}，{1}）发生地震，灾情如下：<br>{2}"
 zhTW = "地震剛剛襲擊了你的殖民地，位置大約在 ({0}, {1})：\n{2}"
@@ -195,6 +213,7 @@ koKR = "지진이 당신의 식민지 ({0}, {1}) 근처에서 발생했습니다
 
 ["LV.EQ.BuildingDamageNotf"]
 raw = "• {0} buildings damaged."
+status = "normal"
 enUS = "• {0} buildings damaged."
 zhCN = "• {0} 座建筑受损。"
 zhTW = "• {0} 建築物受損。"
@@ -208,6 +227,7 @@ koKR = "• {0} 건물이 손상되었습니다."
 
 ["LV.EQ.ConstructionDamageNotf"]
 raw = "• {0} constructions set back."
+status = "normal"
 enUS = "• {0} constructions set back."
 zhCN = "• {0} 处工地坍塌。"
 zhTW = "• {0} 建築物被延遲。"
@@ -221,6 +241,7 @@ koKR = "• {0} 건물이 지연되었습니다."
 
 ["LV.EQ.ExplosivesNotf"]
 raw = "• {0} explosives detonated."
+status = "normal"
 enUS = "• {0} explosives detonated."
 zhCN = "• {0} 个炸弹被引爆。"
 zhTW = "• {0} 顆炸藥引爆。"
@@ -234,6 +255,7 @@ koKR = "• {0} 폭발물이 폭발했습니다."
 
 ["LV.EQ.ExplosiveStorageNotf"]
 raw = "• {0} explosive storage destroyed."
+status = "normal"
 enUS = "• {0} explosive storage destroyed."
 zhCN = "• {0} 个炸药仓库被摧毁。"
 zhTW = "• {0} 爆炸物存儲摧毀了。"
@@ -247,6 +269,7 @@ koKR = "• {0} 폭발물 창고가 파괴되었습니다."
 
 ["LV.EQ.ItemsLostNotf"]
 raw = "• Items spilled from storage:"
+status = "normal"
 enUS = "• Items spilled from storage:"
 zhCN = "• 仓储物品崩散丢失："
 zhTW = "• 從儲存中溢出的物品："
@@ -260,6 +283,8 @@ koKR = "• 창고에서 쏟아진 아이템:"
 
 ["LV.EQ.ItemLostNotf"]
 raw = "• {0} {1} spilled from storage."
+new = "• {0} {1}"
+status = "normal"
 enUS = "• {0} {1} spilled from storage."
 zhCN = "• {0} {1}"
 zhTW = "• {0} {1} 從儲存中溢出。"
@@ -273,6 +298,7 @@ koKR = "• {0} {1}이(가) 저장소에서 쏟아졌습니다."
 
 ["LV.EQ.BeaversInjuredNotf"]
 raw = "• {0} beavers injured."
+status = "normal"
 enUS = "• {0} beavers injured."
 zhCN = "• {0} 只海狸受伤。"
 zhTW = "• {0} 只海狸受傷。"
@@ -286,6 +312,7 @@ koKR = "• {0} 해머리부상당한 비버."
 
 ["LV.EQ.BotsDamagedNotf"]
 raw = "• {0} bots damaged."
+status = "normal"
 enUS = "• {0} bots damaged."
 zhCN = "• {0} 个机关人受损。"
 zhTW = "• {0} 機器人受損。"
@@ -299,6 +326,7 @@ koKR = "• {0} 로봇이 손상되었습니다."
 
 ["LV.EQ.RenoEqGroup"]
 raw = "Earthquake"
+status = "normal"
 enUS = "Earthquake"
 zhCN = "防震"
 zhTW = "地震"
@@ -312,6 +340,7 @@ koKR = "지진"
 
 ["LV.EQ.EqDamageReduction"]
 raw = "Reinforced Foundations"
+status = "normal"
 enUS = "Reinforced Foundations"
 zhCN = "稳定地基"
 zhTW = "加強基礎"
@@ -325,6 +354,7 @@ koKR = "강화된 기초"
 
 ["LV.EQ.EqDamageReductionDesc"]
 raw = "Permanently reduces earthquake damage by {0:0%}."
+status = "normal"
 enUS = "Permanently reduces earthquake damage by {0:0%}."
 zhCN = "减少建筑受到的地震伤害 {0:0%}。"
 zhTW = "永久降低地震傷害 {0:0%}。"
@@ -338,6 +368,7 @@ koKR = "지진 피해를 {0:0%}만큼 영구적으로 감소시킵니다."
 
 ["LV.EQ.EqDamageReductionFlavor"]
 raw = "The floor beams are interlocked and cross-braced, distributing seismic stress throughout the structure."
+status = "normal"
 enUS = "The floor beams are interlocked and cross-braced, distributing seismic stress throughout the structure."
 zhCN = "地板横梁相互锁扣并交叉支撑，将地震应力分散到整个地基结构。"
 zhTW = "地板梁交錯並相互支撐，將地震壓力分散到整個結構中。"
@@ -351,6 +382,7 @@ koKR = "바닥 빔이 서로 연결되고 교차 보강되어, 구조 전체에 
 
 ["LV.EQ.EqImmunity"]
 raw = "Shock-Absorbing Structure"
+status = "normal"
 enUS = "Shock-Absorbing Structure"
 zhCN = "减震结构"
 zhTW = "「防震結構」"
@@ -364,6 +396,7 @@ koKR = "충격 흡수 구조물"
 
 ["LV.EQ.EqImmunityDesc"]
 raw = "Immune to earthquake damage for the next {0} hits."
+status = "normal"
 enUS = "Immune to earthquake damage for the next {0} hits."
 zhCN = "使建筑免疫地震伤害，持续 {0} 次。"
 zhTW = "在接下來的 {0} 次攻擊中，免疫地震傷害。"
@@ -377,6 +410,7 @@ koKR = "다음 {0}회의 타격 동안 지진 피해에 면역이 됩니다."
 
 ["LV.EQ.EqImmunityFlavor"]
 raw = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
+status = "normal"
 enUS = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
 zhCN = "楔入房屋的原木组成弹簧缓冲系统，使地震时的震动降至可承受范围。此项目仅能生效一次。"
 zhTW = "被壓緊的木頭如彈簧般，當地面震動時整個地方都會彈起來。好玩，但安全！"
@@ -390,6 +424,7 @@ koKR = "스프링처럼 끼인 통나무들이 땅이 흔들릴 때 전체가 �
 
 ["LV.EQ.EqDurability"]
 raw = "Seismic Symbiosis"
+status = "normal"
 enUS = "Seismic Symbiosis"
 zhCN = "共态技术"
 zhTW = "地震共生"
@@ -403,6 +438,7 @@ koKR = "지진 공생"
 
 ["LV.EQ.EqDurabilityDesc"]
 raw = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
+status = "normal"
 enUS = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
 zhCN = "下一次地震发生时，使建筑免疫地震伤害，并增加建筑生命值上限 {0:+0%}。此项目仅能生效一次。"
 zhTW = "當下一次地震發生時，將永久提升此建築的耐久度 {0:+0%}。此效果只能應用一次。並且提供對此次撞擊的免疫。"
@@ -416,6 +452,7 @@ koKR = "다음 지진이 발생할 때, 이 건물의 내구성을 영구적으�
 
 ["LV.EQ.EqDurabilityFlavor"]
 raw = "Builders boast that their work only grows stronger when the ground gets rowdy."
+status = "normal"
 enUS = "Builders boast that their work only grows stronger when the ground gets rowdy."
 zhCN = "特殊的建造工艺，预留的空隙会借助地震完成拼合，使建筑变得更坚固。"
 zhTW = "「建築者們自豪地宣稱，當土地變得動盪時，他們的作品只會變得更堅固。」"
@@ -429,6 +466,7 @@ koKR = "건축가들은 땅이 요동치면 그들의 작업이 더 강해진다
 
 ["LV.EQ.EqPileReinforced"]
 raw = "Reinforced Storage"
+status = "normal"
 enUS = "Reinforced Storage"
 zhCN = "加固仓储"
 zhTW = "強化儲存"
@@ -442,6 +480,7 @@ koKR = "강화 저장소"
 
 ["LV.EQ.EqPileReinforcedDesc"]
 raw = "Prevents stored goods from spilling during earthquakes."
+status = "normal"
 enUS = "Prevents stored goods from spilling during earthquakes."
 zhCN = "防止储存的物品受到地震影响。"
 zhTW = "防止儲存的物品在地震期間溢出。"
@@ -455,6 +494,7 @@ koKR = "지진 동안 보관된 물품이 쏟아지는 것을 방지합니다."
 
 ["LV.EQ.EqPileReinforcedFlavor"]
 raw = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
+status = "normal"
 enUS = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
 zhCN = "沉重的支撑和更紧密的捆绑确保物资不会因震动而崩散。"
 zhTW = "重型支撐和更緊的綁縛能在地面震動時防止物資鬆動。"
@@ -468,6 +508,7 @@ koKR = "강력한 보강과 더 조밀한 결속이 지면이 흔들릴 때 자�
 
 ["LV.EQ.EqPileReinforcedErr"]
 raw = "This renovation can only be applied to storage buildings."
+status = "normal"
 enUS = "This renovation can only be applied to storage buildings."
 zhCN = "此整修项目仅适用于仓储建筑。"
 zhTW = "此改造只能應用於儲存建築。"
@@ -481,6 +522,7 @@ koKR = "이 개조는 저장 건물에만 적용될 수 있습니다."
 
 ["LV.EQ.EqImmunityStatus"]
 raw = "The next {0} earthquake hits will not affect this building."
+status = "normal"
 enUS = "The next {0} earthquake hits will not affect this building."
 zhCN = "地震无法影响此建筑，剩余 {0} 次。"
 zhTW = "接下來的 {0} 次地震將不會影響這座建築。"
@@ -494,6 +536,7 @@ koKR = "다음 {0} 번의 지진이 이 건물에 영향을 미치지 않습니�
 
 ["LV.EQ.EqDurabilityDormant"]
 raw = "{0} (Dormant)"
+status = "normal"
 enUS = "{0} (Dormant)"
 zhCN = "{0}（休眠）"
 zhTW = "{0} (靜止)"
@@ -507,6 +550,7 @@ koKR = "{0} (휴면)"
 
 ["LV.EQ.EqDurabilityActive"]
 raw = "{0} (Active)"
+status = "normal"
 enUS = "{0} (Active)"
 zhCN = "{0}（生效）"
 zhTW = "{0}（啟用中）"
@@ -520,6 +564,7 @@ koKR = "{0} (활성)"
 
 ["LV.EQ.EqDurabilityActiveDesc"]
 raw = "Durability increased by {0:+0%}."
+status = "normal"
 enUS = "Durability increased by {0:+0%}."
 zhCN = "增加建筑生命值上限 {0:+0%}。"
 zhTW = "耐久度增加 {0:+0%}。"
@@ -533,6 +578,7 @@ koKR = "내구도가 {0:+0%}만큼 증가했습니다."
 
 ["LV.EQ.InjuryChance"]
 raw = "Injury chance (%)"
+status = "normal"
 enUS = "Injury chance (%)"
 zhCN = "受伤概率"
 zhTW = "受傷機率 (%)"
@@ -546,6 +592,7 @@ koKR = "부상 확률 (%)"
 
 ["LV.EQ.InjuryChanceDesc"]
 raw = "The chance that beavers get injured and bots get damaged when inside the earthquake hit area"
+status = "normal"
 enUS = "The chance that beavers get injured and bots get damaged when inside the earthquake hit area"
 zhCN = "地震造成震动时，范围内海狸受伤和机关人受损（耐久度下降）的概率。"
 zhTW = "水獺受傷和機器人在地震影響區域內受損的機率"
@@ -559,6 +606,7 @@ koKR = "지진 피해 지역에 있을 때 비버가 다치고 로봇이 손상�
 
 ["LV.EQ.BotDurabilityLoss"]
 raw = "Bot durability loss (%)"
+status = "normal"
 enUS = "Bot durability loss (%)"
 zhCN = "机关人受损量"
 zhTW = "機器人耐久度損失 (%)"
@@ -572,6 +620,7 @@ koKR = "봇 내구도 손실 (%)"
 
 ["LV.EQ.BotDurabilityLossDesc"]
 raw = "The amount of durability bots lose when damaged by earthquake"
+status = "normal"
 enUS = "The amount of durability bots lose when damaged by earthquake"
 zhCN = "机关人受损时耐久度下降的百分比。"
 zhTW = "機器人在地震中受損時損失的耐久度數量"
@@ -585,6 +634,7 @@ koKR = "지진으로 피해를 입었을 때 로봇이 잃는 내구성의 양"
 
 ["LV.EQ.EqBlocked"]
 raw = "Blocked by Earthquake"
+status = "normal"
 enUS = "Blocked by Earthquake"
 zhCN = "临时封锁"
 zhTW = "被地震阻擋"
@@ -598,6 +648,7 @@ koKR = "지진으로 차단됨"
 
 ["LV.EQ.EqBlockedDesc"]
 raw = "What a mess! This building was recently damaged by earthquake and need to be cleaned up. Certain function may be blocked until then."
+status = "normal"
 enUS = "What a mess! This building was recently damaged by earthquake and need to be cleaned up. Certain function may be blocked until then."
 zhCN = "此建筑受到地震影响，正在紧急检查。检查完成前某些功能可能会被封锁。"
 zhTW = "真是一團糟！這棟建築最近受到了地震的損壞，需要進行清理。在此之前，某些功能可能會被阻止使用。"

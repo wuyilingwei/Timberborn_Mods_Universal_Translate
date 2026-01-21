@@ -1,5 +1,8 @@
+name = "More Tunnels"
+
 ["ToolGroups.Tunneling"]
 raw = "Tunneling"
+status = "normal"
 enUS = "Tunneling"
 zhCN = "隧道挖掘"
 zhTW = "隧道挖掘"
@@ -13,6 +16,7 @@ koKR = "굴착"
 
 ["Building.VerticalTubewayTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Vertical Tubeway. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Vertical Tubeway. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用垂直管路替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "通過地形挖掘隧道，將其替換為垂直管道。使用層工具查看地下或結構下方的情況。"
@@ -26,6 +30,7 @@ koKR = "지형을 뚫고 지나가는 수직 튜브 경로로 교체합니다. �
 
 ["Building.VerticalTubewayTunnel.DisplayName"]
 raw = "Vertical Tubeway Tunnel"
+status = "normal"
 enUS = "Vertical Tubeway Tunnel"
 zhCN = "垂直管路隧道"
 zhTW = "垂直管道隧道"
@@ -39,6 +44,7 @@ koKR = "수직 튜브웨이 터널"
 
 ["Building.VerticalPowerShaftTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Vertical Power Shaft. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Vertical Power Shaft. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用垂直能量传动轴替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "「穿越地形的隧道，取而代之的是垂直動力軸。使用圖層工具以查看地下的地形或結構。」"
@@ -52,6 +58,7 @@ koKR = "지형을 관통하는 터널을 만들어 수직 전력 샤프트로 �
 
 ["Building.VerticalPowerShaftTunnel.DisplayName"]
 raw = "Vertical Power Shaft Tunnel"
+status = "normal"
 enUS = "Vertical Power Shaft Tunnel"
 zhCN = "垂直能量传动轴隧道"
 zhTW = "垂直動力軸隧道"
@@ -65,6 +72,7 @@ koKR = "수직 전력 샤프트 터널"
 
 ["Building.PathTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Path only. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Path only. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用道路替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "隧道穿越地形，僅用小徑替代它。使用圖層工具查看地形或結構下方的情況。"
@@ -78,6 +86,7 @@ koKR = "지형을 통과하는 터널을 만들고, 그 위에 경로만 남깁�
 
 ["Building.PathTunnel.DisplayName"]
 raw = "Path only Tunnel"
+status = "normal"
 enUS = "Path only Tunnel"
 zhCN = "道路隧道"
 zhTW = "只通行於小徑的隧道"
@@ -91,6 +100,7 @@ koKR = "오직 길 터널"
 
 ["Building.PathPlatformTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Platform and a Path. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Platform and a Path. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用平台和道路替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "在地形中挖掘隧道，並用平台和道路取代它。使用圖層工具查看地形或結構下的情況。"
@@ -104,6 +114,7 @@ koKR = "지형을 통과하는 터널을 만들고, 그것을 플랫폼과 경�
 
 ["Building.PathPlatformTunnel.DisplayName"]
 raw = "Path under Platform Tunnel"
+status = "normal"
 enUS = "Path under Platform Tunnel"
 zhCN = "道路隧道"
 zhTW = "平台隧道下的道路"
@@ -117,6 +128,7 @@ koKR = "플랫폼 터널 아래의 길"
 
 ["Building.TubewayPlatformTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Platform and a Tubeway. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Platform and a Tubeway. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用平台和管路替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "隧道穿越地形，將其替換為平台和管道。使用層級工具查看地形或結構下方。"
@@ -130,6 +142,7 @@ koKR = "지형을 관통하여 플랫폼과 튜브웨이로 교체합니다. 지
 
 ["Building.TubewayPlatformTunnel.DisplayName"]
 raw = "Tubeway under Platform Tunnel"
+status = "normal"
 enUS = "Tubeway under Platform Tunnel"
 zhCN = "管路隧道"
 zhTW = "平台下的管道隧道"
@@ -143,6 +156,7 @@ koKR = "플랫폼 아래 튜브 터널"
 
 ["Building.PowerShaftPlatformTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Platform and a Power Shaft. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Platform and a Power Shaft. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用平台和能量传动轴替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "在地形中挖掘隧道，替換為平台和動力軸。使用圖層工具查看地形或建築物下方。"
@@ -156,6 +170,7 @@ koKR = "지형을 관통하여 플랫폼과 파워 샤프트로 교체합니다.
 
 ["Building.PowerShaftPlatformTunnel.DisplayName"]
 raw = "Power Shaft under Platform Tunnel"
+status = "normal"
 enUS = "Power Shaft under Platform Tunnel"
 zhCN = "能量传动轴隧道"
 zhTW = "平台隧道下的動力軸"
@@ -169,6 +184,7 @@ koKR = "플랫폼 터널 아래의 전력 축"
 
 ["Building.LadderformTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with a Ladder. Use the layer tool to see under terrain or structures."
+status = "normal"
 enUS = "Tunnel through terrain, replacing it with a Ladder. Use the layer tool to see under terrain or structures."
 zhCN = "在地形中挖掘隧道，并用垂直楼梯替代原有地形。使用图层工具可查看地形或建筑下方的结构。"
 zhTW = "通過地形挖掘隧道，將其替換為梯子。使用層工具查看地形或結構下方的情況。"
@@ -182,6 +198,7 @@ koKR = "지형을 관통하는 터널을 만들고, 이를 사다리로 대체�
 
 ["Building.LadderformTunnel.DisplayName"]
 raw = "Ladder Tunnel"
+status = "normal"
 enUS = "Ladder Tunnel"
 zhCN = "垂直楼梯隧道"
 zhTW = "梯子隧道"

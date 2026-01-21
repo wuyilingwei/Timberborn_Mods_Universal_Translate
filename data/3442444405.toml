@@ -1,5 +1,8 @@
+name = "Configurable Autosave"
+
 ["LV.CAS.Enabled"]
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "自动存档调整"
 zhTW = "已啟用"
@@ -13,6 +16,7 @@ koKR = "활성화됨"
 
 ["LV.CAS.EnabledDesc"]
 raw = "Whether this mod is enabled."
+status = "normal"
 enUS = "Whether this mod is enabled."
 zhCN = "勾选后，游戏默认的自动保存机制可以被下列选项更改。"
 zhTW = "此模組是否已啟用。"
@@ -26,6 +30,7 @@ koKR = "이 모드가 활성화되어 있는지 여부."
 
 ["LV.CAS.SaveFrequency"]
 raw = "Auto-save frequency (real-life minute)"
+status = "normal"
 enUS = "Auto-save frequency (real-life minute)"
 zhCN = "自动保存频率"
 zhTW = "自動儲存頻率（實際分鐘）"
@@ -39,6 +44,7 @@ koKR = "자동 저장 주기 (실제 분)"
 
 ["LV.CAS.SaveFrequencyDesc"]
 raw = "How often should auto-save saves. Game default: 10"
+status = "normal"
 enUS = "How often should auto-save be set? Game default: 10."
 zhCN = "自动保存的间隔时间，即每隔多少分钟保存一次（游戏默认：10）。"
 zhTW = "自動儲存應該多頻繁進行一次。遊戲默認：10。"
@@ -52,6 +58,7 @@ koKR = "자동 저장이 얼마나 자주 저장되어야 합니까? 게임 기�
 
 ["LV.CAS.SaveCount"]
 raw = "Auto-save count"
+status = "normal"
 enUS = "Auto-save count"
 zhCN = "自动存档数量"
 zhTW = "自動儲存次數"
@@ -65,6 +72,7 @@ koKR = "자동 저장 개수"
 
 ["LV.CAS.SaveCountDesc"]
 raw = "How many auto-saves should be kept. Game default: 3"
+status = "normal"
 enUS = "How many auto-saves should be kept? Game default: 3"
 zhCN = "可保留的自动存档数量（游戏默认：3）。"
 zhTW = "應該保留多少個自動保存？遊戲預設：3"
@@ -78,6 +86,7 @@ koKR = "자동 저장을 몇 개 보관해야 하는지입니다. 게임 기본�
 
 ["LV.CAS.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
+status = "normal"
 enUS = "Extra savings on weather warning"
 zhCN = "额外存档（周期变化）"
 zhTW = "額外的天氣警告節省"
@@ -91,6 +100,7 @@ koKR = "날씨 경고 시 추가 저장"
 
 ["LV.CAS.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
+status = "normal"
 enUS = "When a weather warning is issued, create an additional save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save does not count towards the save total."
 zhCN = "勾选后，将在恶劣天气预警时自动保存，下一次恶劣天气预警时会自动覆盖保存。"
 zhTW = "當發佈天氣警報時，請額外保存一個名為 'weatherwarning.save' 的文件，該文件僅在下個週期的警報覆蓋時被覆蓋。這個保存不計入保存次數。"
@@ -104,6 +114,7 @@ koKR = "날씨 경고가 발효되면 'weatherwarning.save'라는 이름의 추�
 
 ["LV.CAS.KeyBindingTriggerAutosave"]
 raw = "Trigger auto-save"
+status = "normal"
 enUS = "Trigger auto-save"
 zhCN = "强制自动保存"
 zhTW = "觸發自動保存"
@@ -117,6 +128,7 @@ koKR = "자동 저장 실행"
 
 ["LV.CAS.AutosaveWarning"]
 raw = "Warn before autosave"
+status = "normal"
 enUS = "Warn before autosaving"
 zhCN = "自动保存前警告"
 zhTW = "自動保存前警告"
@@ -130,6 +142,7 @@ koKR = "자동 저장 전에 경고"
 
 ["LV.CAS.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
+status = "normal"
 enUS = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering during autosave."
 zhCN = "勾选后，游戏自动保存之前会显示一个警告，以提示即将发生游戏卡顿。"
 zhTW = "在遊戲自動存檔之前顯示警告。這對於那些不喜歡遊戲在自動存檔時出現卡頓的玩家來說很有用。"
@@ -143,6 +156,7 @@ koKR = "자동 저장 전에 미리 경고를 표시합니다. 이는 자동 저
 
 ["LV.CAS.AutosaveWarningText"]
 raw = "Autosave imminent in {0} seconds!"
+status = "normal"
 enUS = "Autosave imminent in {0} seconds!"
 zhCN = "注意，即将在 {0} 秒后自动保存！"
 zhTW = "{0} 秒後即將自動儲存！"

@@ -1,0 +1,181 @@
+name = "[1.0 Beta] BeaverBuddies - Multiplayer Co-Op"
+
+["BeaverBuddies.Menu.JoinCoopGame"]
+new = "Join co-op game"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.EnterIp"]
+new = "Enter the global IP address or domain name of the Host:"
+status = "normal"
+
+["BeaverBuddies.FirstTimer.Message"]
+new = "It looks like this is your first time using BeaverBuddies. We recommend taking a quick look through our guide to make sure you are set up to play. Would you like to do that now?"
+status = "normal"
+
+["BeaverBuddies.Saving.HostCoopGame"]
+new = "Host co-op game"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.ConnectionFailedMessageWithError"]
+new = "Joining failed with error:\n{0}\nWould you like to open the troubleshooting guide?"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.ConnectionFailedMessage"]
+new = "Failed to connect to Host. Would you like to open the troubleshooting guide?"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.Message"]
+new = "A connected player desynced and cannot continue playing - sorry about that! The Host should hit Rehost and, AFTER that, the Client should Reconnect. You may need to restart the game if problems persist. Before reloading, would you like to file a bug report to help us fix this issue?"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.FailedToRehostMessage"]
+new = "Failed to Rehost. Manually save and Host again."
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.SaveAndRehostButton"]
+new = "Save and Rehost"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.WaitForRehostButton"]
+new = "Reconnect (wait for Rehost)"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.PostBugReportButton"]
+new = "Post Bug Report"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation1"]
+new = "Starting Location - Player 1"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation2"]
+new = "Starting Location - Player 2"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation3"]
+new = "Starting Location - Player 3"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation4"]
+new = "Starting Location - Player 4"
+status = "normal"
+
+["BeaverBuddies.NewGame.MaxStartingLocations"]
+new = "Max Starting Locations"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ReportSuccess"]
+new = "Success!"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ReportFailed"]
+new = "Failed :("
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ConsentAgreement"]
+new = "Yes, I agree"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.TracingEnabled"]
+new = "Enabled"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.EnableTracing"]
+new = "Enable Logging"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.NeedToEnableTracing"]
+new = "In order to report this desync, *all players* must first enable more detailed logging by pressing Enable Logging, below. If another desync occurs, you will then be able to post a detailed, automated bug report. Logging mode may cause some lag, but it will only be active until you restart the game."
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ConsentMessage"]
+new = "Consent to Share Usage Data\n\nBy choosing to share your data, you agree to send the following information from your gameplay session to the developers of this mod:\n\n- Log Data: Information automatically collected during your gameplay session, such as game events and user interactions.\n- Save File: Your current game save file.\n\nWe strive to maintain your privacy by keeping this data largely anonymous. However, because the data is collected as-is, it may inadvertently include details that could identify you (such as file paths or usernames). The developers will not attempt to identify you using this information.\n\nYour Choices:\n- If you agree, this data will be sent securely to the developers and used to improve the mod.\n- If you do not agree, no data will be sent, and your gameplay will continue without any changes.\n\nBy proceeding, you confirm that you are at least the legal age of digital consent in your country of residence.\n\nDo you agree to share your data with the developers of this mod?"
+status = "normal"
+
+["BeaverBuddies.Settings.ClientConnectionAddress"]
+new = "Client Connection Address"
+status = "normal"
+
+["BeaverBuddies.Settings.ClientConnectionAddress.Tooltip"]
+new = "Default IP address used when connecting to a Host."
+status = "normal"
+
+["BeaverBuddies.Settings.Port"]
+new = "Port"
+status = "normal"
+
+["BeaverBuddies.Settings.Port.Tooltip"]
+new = "Port used when hosting or joining a game. This should match a forwaded port for the host."
+status = "normal"
+
+["BeaverBuddies.Settings.SilenceLogging"]
+new = "Silence Logging"
+status = "normal"
+
+["BeaverBuddies.Settings.SilenceLogging.Tooltip"]
+new = "Prevent this mod from logging to the player log file (except warnings and errors).\nThis setting is indended for developers."
+status = "normal"
+
+["BeaverBuddies.Settings.ShowFirstTimerMessage"]
+new = "Show First Timer Message"
+status = "normal"
+
+["BeaverBuddies.Settings.AlwaysTrace"]
+new = "Always Use Detailed Logging"
+status = "normal"
+
+["BeaverBuddies.Settings.AlwaysTrace.Tooltip"]
+new = "When enabled, the game will always use detailed logging, which enables you to submit desync reports on the first occurrence without manually enabling detailed logging.\nNote that all players must have the setting enabled. \nThis setting will cause some lag and is not recommended for most players."
+status = "normal"
+
+["BeaverBuddies.Settings.ReportingConsent"]
+new = "Consent to Reporting"
+status = "normal"
+
+["BeaverBuddies.Settings.EnableSteamConnection"]
+new = "Enable Steam Networking"
+status = "normal"
+
+["BeaverBuddies.Settings.EnableSteamConnection.Tooltip"]
+new = "Allows players to join your games via Steam's peer-to-peer networking.\nPlayers will still be able to join via port forwarding.\nNote: This feature may not work if your network does not support peer-to-peer connections.\nAdditionally, peer-to-peer connections may be slower than direct connections."
+status = "normal"
+
+["BeaverBuddies.Settings.FriendsCanJoinSteamGame"]
+new = "Allow Friends to Join Directly via Steam"
+status = "normal"
+
+["BeaverBuddies.Settings.FriendsCanJoinSteamGame.Tooltip"]
+new = "When enabled, your friends can join your game directly via Steam without you inviting them."
+status = "normal"
+
+["BeaverBuddies.Host.ConnectedClients"]
+new = "Wait for clients to connect...\nCurrently connected clients:"
+status = "normal"
+
+["BeaverBuddies.Host.DirectConnectClient"]
+new = "Direct Connect Client"
+status = "normal"
+
+["BeaverBuddies.Host.StartGame"]
+new = "Start Game"
+status = "normal"
+
+["BeaverBuddies.Host.InviteFriends"]
+new = "Invite Friends"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Success"]
+new = "Joined! Receiving map..."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.InvalidFormat"]
+new = "Invalid address format. Could not parse port."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.InvalidAddress"]
+new = "Address was not a valid IP address.\nAttempted to resolve it as a host name, but it did not resolve to an IP address."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.CouldNotConnect"]
+new = "Could not connect to Host. Please check the address and port, and make sure the Host is hosting and has port forwarded if needed. Error details:"
+status = "normal"

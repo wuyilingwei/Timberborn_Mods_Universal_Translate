@@ -1,5 +1,8 @@
+name = "Extended Builder Reach"
+
 ["EBR.UnlimitedAbove"]
 raw = "Unlimited Above"
+status = "normal"
 enUS = "Unlimited Above"
 zhCN = "无限向上建造"
 zhTW = "無限之上"
@@ -13,6 +16,7 @@ koKR = "무제한 위"
 
 ["EBR.UnlimitedAboveDesc"]
 raw = "Builders can always build above themselves (Game default: no)"
+status = "normal"
 enUS = "Builders can always build above themselves (Game default: no)"
 zhCN = "勾选后，建筑工可以不受范围限制地向上方建造（游戏默认：否）。"
 zhTW = "建築者總是可以建造超過自身的高處（遊戲默認：否）"
@@ -26,6 +30,7 @@ koKR = "건설자는 항상 자신 위에 건물을 지을 수 있습니다 (게
 
 ["EBR.UnlimitedBelow"]
 raw = "Unlimited Below"
+status = "normal"
 enUS = "Unlimited Below"
 zhCN = "无限向下建造"
 zhTW = "無限制 以下"
@@ -39,6 +44,7 @@ koKR = "무제한 아래"
 
 ["EBR.UnlimitedBelowDesc"]
 raw = "Builders can always build below themselves (Game default: yes)"
+status = "normal"
 enUS = "Builders can always build below themselves (Game default: yes)"
 zhCN = "勾选后，建筑工可以不受范围限制地向下方建造（游戏默认：是）。"
 zhTW = "建築者總是可以在自己之下建造（遊戲預設：是）"
@@ -52,6 +58,7 @@ koKR = "건축가는 항상 자신 아래에 건설할 수 있습니다 (게임 
 
 ["EBR.RangeAbove"]
 raw = "Range Above"
+status = "normal"
 enUS = "Range Above"
 zhCN = "向上建造范围"
 zhTW = "範圍以上"
@@ -65,6 +72,7 @@ koKR = "범위 초과"
 
 ["EBR.RangeAboveDesc"]
 raw = "Builders can build up to this many tiles above themselves (Game default: 1)"
+status = "normal"
 enUS = "Builders can build up to this many tiles above themselves (Game default: 1)"
 zhCN = "可以更改建筑工向上方建造的最大格数范围（游戏默认：1）。"
 zhTW = "建造者可以在自己上方建造多達這麼多的磚塊（遊戲預設：1）"
@@ -78,6 +86,7 @@ koKR = "건축가는 자신 위에 최대 이만큼의 타일을 건설할 수 �
 
 ["EBR.RangeBelow"]
 raw = "Range Below"
+status = "normal"
 enUS = "Range Below"
 zhCN = "向下建造范围"
 zhTW = "範圍以下"
@@ -91,6 +100,7 @@ koKR = "범위 이하"
 
 ["EBR.RangeBelowDesc"]
 raw = "Builders can build up to this many tiles below themselves (Game default: Infinite)"
+status = "normal"
 enUS = "Builders can build up to this many tiles below themselves (Game default: Infinite)"
 zhCN = "可以更改建筑工向下方建造的最大格数范围（游戏默认：无限）。"
 zhTW = "建築者可以在自己下方建造最多這麼多的磚塊 (遊戲預設：無限)"
@@ -104,6 +114,7 @@ koKR = "건축자는 자신 아래에 이만큼의 타일을 건설할 수 있�
 
 ["LV.EBR.ExtendDemolish"]
 raw = "Extend Demolision Range"
+status = "normal"
 enUS = "Extend Demolision Range"
 zhCN = "扩展拆除范围"
 zhTW = "擴展拆除範圍"
@@ -117,6 +128,7 @@ koKR = "철거 범위 확장"
 
 ["LV.EBR.ExtendDemolishDesc"]
 raw = "Allow extending demolision range with the same settings as building range"
+status = "normal"
 enUS = "Allow extending demolision range with the same settings as building range"
 zhCN = "勾选后，对建造范围的更改也会同时应用于拆除范围。"
 zhTW = "允許在與建築範圍相同的設置下擴展拆除範圍。"

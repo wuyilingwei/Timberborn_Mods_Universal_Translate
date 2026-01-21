@@ -1,5 +1,8 @@
+name = "Planting Override"
+
 ["Cordial.Building.Forester.Description"]
 raw = "Force planting of:"
+status = "normal"
 enUS = "Force planting of:"
 zhCN = "强制种植："
 zhTW = "強制種植："
@@ -13,6 +16,7 @@ koKR = "다음을 강제로 심기:"
 
 ["Cordial.ForesterUpdate.Fragment.NoUpdateOption"]
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "沒有"
@@ -26,6 +30,7 @@ koKR = "없음"
 
 ["Cordial.PlantingOverrideTool.Crop.DisplayName"]
 raw = "Crop Planting Override Tool"
+status = "normal"
 enUS = "Crop Planting Override Tool"
 zhCN = "作物覆盖种植"
 zhTW = "作物種植覆蓋工具"
@@ -39,6 +44,7 @@ koKR = "작물 심기 재정의 도구"
 
 ["Cordial.PlantingOverrideTool.Crop.Description"]
 raw = "Override planting of existing crops"
+status = "normal"
 enUS = "Override planting of existing crops"
 zhCN = "现有作物被收割后会使用指定作物进行替换。"
 zhTW = "覆蓋現有作物的種植"
@@ -52,6 +58,7 @@ koKR = "기존 작물의 심기를 재정의합니다."
 
 ["Cordial.PlantingOverrideTool.Tree.DisplayName"]
 raw = "Forestry Planting Override Tool"
+status = "normal"
 enUS = "Forestry Planting Override Tool"
 zhCN = "树木覆盖种植"
 zhTW = "林業植樹覆蓋工具"
@@ -65,6 +72,7 @@ koKR = "임업 식재 오버라이드 도구"
 
 ["Cordial.PlantingOverrideTool.Tree.Description"]
 raw = "Override planting of existing trees or bushes"
+status = "normal"
 enUS = "Override planting of existing trees or bushes"
 zhCN = "现有树木被砍伐后会使用指定树木进行替换。"
 zhTW = "覆蓋現有樹木或灌木的種植"
@@ -78,6 +86,7 @@ koKR = "기존 나무나 덤불의 식재를 덮어쓰기합니다."
 
 ["Cordial.PlantingOverrideTool.PlantingOverrideToolPanel.Title"]
 raw = "Planting Override Configuration"
+status = "normal"
 enUS = "Planting Override Configuration"
 zhCN = "覆盖种植设置"
 zhTW = "植栽覆蓋配置"
@@ -91,6 +100,7 @@ koKR = "식물 재배 오버라이드 설정"
 
 ["Cordial.PlantingOverrideTool.PlantingOverrideToolPanel.Description"]
 raw = "Replace existing plant with:"
+status = "normal"
 enUS = "Replace existing plant with:"
 zhCN = "使用该植物替换现有植物："
 zhTW = "更換現有植物為："
@@ -104,6 +114,7 @@ koKR = "기존 식물을 교체:"
 
 ["Cordial.PlantingOverrideTool.PlantingOverrideToolPanel.CuttingAreaRemove"]
 raw = "Disable cutting area after planting"
+status = "normal"
 enUS = "Disable cutting area after planting"
 zhCN = "替换植物后取消砍伐区域"
 zhTW = "種植後禁用切割區域"
@@ -117,6 +128,7 @@ koKR = "심은 후 절단 영역 비활성화"
 
 ["Cordial.PlantBeehiveTool.DisplayName"]
 raw = "Beehive Override"
+status = "normal"
 enUS = "Beehive Override"
 zhCN = "蜂箱替换"
 zhTW = "蜂巢覆蓋"
@@ -130,6 +142,7 @@ koKR = "벌통 오버라이드"
 
 ["Cordial.PlantBeehiveTool.Description"]
 raw = "Replace a plant with a beehive"
+status = "normal"
 enUS = "Replace a plant with a beehive."
 zhCN = "现有植物消失后会在此处建造蜂箱。"
 zhTW = "將植物替換為蜂巢"
@@ -143,6 +156,7 @@ koKR = "식물을 벌통으로 교체합니다."
 
 ["Cordial.PlantingOverrideTool.FactionLock"]
 raw = "This tool is not available for:"
+status = "normal"
 enUS = "This tool is not available for:"
 zhCN = "此工具不可用于："
 zhTW = "此工具不適用於："
@@ -156,6 +170,7 @@ koKR = "이 도구는 다음을 위해 사용할 수 없습니다:"
 
 ["Cordial.PlantingOverrideTool.BuildingLock"]
 raw = "This building is locked:"
+status = "normal"
 enUS = "This building is locked."
 zhCN = "此建筑未解锁："
 zhTW = "這棟建築物是鎖上的："
@@ -169,6 +184,7 @@ koKR = "이 건물은 잠겨 있습니다:"
 
 ["Cordial.PlantingOverrideTool.SpecLock"]
 raw = "This specification is missing:"
+status = "normal"
 enUS = "This specification is missing:"
 zhCN = "此规格缺失："
 zhTW = "此規範缺失："

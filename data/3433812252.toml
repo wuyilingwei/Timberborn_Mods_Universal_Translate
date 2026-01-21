@@ -1,5 +1,8 @@
+name = "Global Wellbeing"
+
 ["LV.GW.WellbeingBuff"]
 raw = "Global Wellbeing ({0})"
+status = "normal"
 enUS = "Global Wellbeing ({0})"
 zhCN = "全局平均康乐度 ({0})"
 zhTW = "全球福祉 ({0})"
@@ -13,6 +16,7 @@ koKR = "글로벌 웰빙 ({0})"
 
 ["LV.GW.WellbeingBuffDesc"]
 raw = "The morale of your colony can really affect the productivity of your colonists."
+status = "normal"
 enUS = "The morale of your colony can significantly impact the productivity of your colonists."
 zhCN = "你的海狸被全局康乐度影响，获得了额外的增益！"
 zhTW = "你殖民地的士氣會真正影響你殖民者的生產力。"
@@ -26,6 +30,7 @@ koKR = "당신의 식민지의 사기는 식민지 주민들의 생산성에 정
 
 ["LV.GW.Bonus"]
 raw = "{0}: {1}% (Next at {2}: {3}%)"
+status = "normal"
 enUS = "{0}: {1}% (Next at {2}: {3}%)"
 zhCN = "{0}: {1}% (下个等级 康乐度 {2}: {3}%)"
 zhTW = "{0}: {1}% (下次於 {2}: {3}%)"
@@ -39,6 +44,7 @@ koKR = "{0}: {1}% (다음은 {2}: {3}%)"
 
 ["LV.GW.BonusEnd"]
 raw = "{0}: {1}% (Maximum achieved!)"
+status = "normal"
 enUS = "{0}: {1}% (Maximum achieved!)"
 zhCN = "{0}: {1}% (已达到最大等级！)"
 zhTW = "{0}: {1}%（達到最大值！）"
@@ -52,6 +58,7 @@ koKR = "{0}: {1}% (최대 달성!)"
 
 ["LV.GW.NewScoreBuff"]
 raw = "New Highscore!"
+status = "normal"
 enUS = "New High Score!"
 zhCN = "新的康乐度高分！"
 zhTW = "新高分！"
@@ -65,6 +72,7 @@ koKR = "새로운 최고 점수!"
 
 ["LV.GW.NewScoreBuffDesc"]
 raw = "Your beavers are happier than ever!"
+status = "normal"
 enUS = "Your beavers are happier than ever!"
 zhCN = "你的海狸被康乐度高分影响，获得了临时的增益！"
 zhTW = "你的海狸比以往任何時候都更快樂！"
@@ -78,6 +86,7 @@ koKR = "당신의 비버들은 그 어느 때보다 행복합니다!"
 
 ["LV.GW.NewScoreBuffMs"]
 raw = "{0} Movement Speed"
+status = "normal"
 enUS = "{0} Movement Speed"
 zhCN = "移动速度: {0}"
 zhTW = "{0} 移動速度"

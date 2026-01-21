@@ -1,5 +1,8 @@
+name = "Stream Gauge Tracker"
+
 ["LV.SGT.SamplingFreq"]
 raw = "Sampling frequency (hour)"
+status = "normal"
 enUS = "Sampling frequency (hour)"
 zhCN = "采样频率"
 zhTW = "取樣頻率（小時）"
@@ -13,6 +16,7 @@ koKR = "샘플링 주파수 (시간)"
 
 ["LV.SGT.SamplingFreqDesc"]
 raw = "How often the stream gauge depth is recorded."
+status = "normal"
 enUS = "How often the stream gauge depth is recorded."
 zhCN = "水流计记录水深的间隔时间（游戏时）。"
 zhTW = "“流量計深度記錄的頻率。”"
@@ -26,6 +30,7 @@ koKR = "스트림 게이지 깊이가 얼마나 자주 기록되는지."
 
 ["LV.SGT.SamplingCount"]
 raw = "Number of samples"
+status = "normal"
 enUS = "Number of samples"
 zhCN = "样本数量"
 zhTW = "樣本數量"
@@ -39,6 +44,7 @@ koKR = "샘플 수"
 
 ["LV.SGT.SamplingCountDesc"]
 raw = "How many samples are kept."
+status = "normal"
 enUS = "How many samples are kept."
 zhCN = "水流计保留水深记录的数量。"
 zhTW = "保留多少樣本。"
@@ -52,6 +58,7 @@ koKR = "몇 개의 샘플이 유지됩니까?"
 
 ["LV.SGT.SamplesPerBar"]
 raw = "Samples per bar"
+status = "normal"
 enUS = "Samples per bar"
 zhCN = "每格样本数"
 zhTW = "每條音軌的樣本數"
@@ -65,6 +72,7 @@ koKR = "바당 샘플 수"
 
 ["LV.SGT.SamplesPerBarDesc"]
 raw = "How many samples are represented by each bar in the graph."
+status = "normal"
 enUS = "How many samples are represented by each bar in the graph."
 zhCN = "详情面板的记录表中，每格代表的样本数量。"
 zhTW = "每個圖表中的條形代表多少樣本。"
@@ -78,6 +86,7 @@ koKR = "그래프의 각 막대가 나타내는 샘플 수입니다."
 
 ["LV.SGT.LowestDepth"]
 raw = "Lowest depth: {0:0.00}"
+status = "normal"
 enUS = "Lowest depth: {0:0.00}"
 zhCN = "最小深度：{0:0.00}"
 zhTW = "最低深度: {0:0.00}"
@@ -91,6 +100,7 @@ koKR = "가장 낮은 깊이: {0:0.00}"
 
 ["LV.SGT.TooltipNoData"]
 raw = "No data"
+status = "normal"
 enUS = "No data"
 zhCN = "无数据"
 zhTW = "無資料"
@@ -104,6 +114,7 @@ koKR = "데이터 없음"
 
 ["LV.SGT.TooltipLine"]
 raw = "• {1:0.00} ({0:0.00}d ago)"
+status = "normal"
 enUS = "• {1:0.00} ({0:0.00}d ago)"
 zhCN = "• {1:0.00}（{0:0.00} 天前）"
 zhTW = "• {1:0.00}（{0:0.00}天前）"
@@ -117,6 +128,7 @@ koKR = "• {1:0.00} ({0:0.00}일 전)"
 
 ["LV.SGT.TooltipAvg"]
 raw = "Average: {0:0.00}"
+status = "normal"
 enUS = "Average: {0:0.00}"
 zhCN = "平均深度：{0:0.00}"
 zhTW = "平均值：{0:0.00}"
@@ -130,6 +142,7 @@ koKR = "평균: {0:0.00}"
 
 ["LV.SGT.DataHighest"]
 raw = "Tracked highest: {0:0.00}"
+status = "normal"
 enUS = "Tracked highest: {0:0.00}"
 zhCN = "历史最大深度：{0:0.00}"
 zhTW = "跟蹤最高值：{0:0.00}"
@@ -143,6 +156,7 @@ koKR = "측정된 최고: {0:0.00}"
 
 [Name_StreamGaugeTrackerFragment]
 raw = "Stream Gauge Tracker"
+status = "normal"
 enUS = "Stream Gauge Tracker"
 zhCN = "水流计记录"
 zhTW = "水流計量追蹤器"

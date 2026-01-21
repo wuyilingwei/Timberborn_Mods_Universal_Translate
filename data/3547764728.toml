@@ -1,5 +1,8 @@
+name = "TImprove 4 UX"
+
 ["LV.T4UX.KeybindingGroup"]
 raw = "TImprove 4 UX"
+status = "normal"
 enUS = "TImprove 4 UX"
 zhCN = "TImprove 4 UX"
 zhTW = "T改善 4 用户体验"
@@ -13,6 +16,7 @@ koKR = "TImprove 4 UX\"의 번역: \"T개선 4 UX"
 
 ["LV.T4UX.UndoHotkey"]
 raw = "Undo building"
+status = "normal"
 enUS = "Undo building"
 zhCN = "撤销建造"
 zhTW = "撤回建築"
@@ -26,6 +30,7 @@ koKR = "건물 되돌리기"
 
 ["LV.T4UX.ShiftToDelete"]
 raw = "Shift to delete"
+status = "normal"
 enUS = "Shift to delete"
 zhCN = "删除同类建筑"
 zhTW = "「按住 Shift 鍵以刪除」"
@@ -39,6 +44,7 @@ koKR = "삭제하려면 Shift 키를 누르세요"
 
 ["LV.T4UX.ShiftToDeleteDesc"]
 raw = "Hold the Alternate Action (default Shift) while choosing building tool\nto delete this kind of building instead"
+status = "normal"
 enUS = "Hold the Alternate Action (default Shift) while choosing building tool\nto delete this kind of building instead"
 zhCN = "勾选后，选择建筑工具时，按住功能键（游戏默认：Shift）可切换为删除同类建筑。<br>注意，功能键可在“按键绑定”→“用户界面”→“其他按键功能”中更改。"
 zhTW = "按住替代動作（默認為Shift）同時選擇建築工具，以刪除這種類型的建築。"
@@ -52,6 +58,7 @@ koKR = "이 종류의 건물을 삭제하려면 건축 도구를 선택하는 �
 
 ["LV.T4UX.ShiftToDeleteAll"]
 raw = "Delete all kinds of buildings"
+status = "normal"
 enUS = "Delete all kinds of buildings"
 zhCN = "> 删除所有建筑"
 zhTW = "刪除所有類型的建築"
@@ -65,6 +72,7 @@ koKR = "모든 종류의 건물 삭제"
 
 ["LV.T4UX.ShiftToDeleteAllDesc"]
 raw = "While holding the Alternate Action, delete all kinds of buildings instead of just this kind"
+status = "normal"
 enUS = "While holding the Alternate Action, delete all kinds of buildings instead of just this kind"
 zhCN = "勾选后，按住功能键时会切换为删除所有建筑，而不仅是同类建筑。"
 zhTW = "在按住替代行動的同時，刪除所有類型的建築，而不僅僅是這一種"
@@ -78,6 +86,7 @@ koKR = "대체 행동을 유지하는 동안 이 종류뿐만 아니라 모든 �
 
 ["LV.T4UX.ConfirmUndo"]
 raw = "Some buildings were already in progress or done, are you sure you want to undo the building?"
+status = "normal"
 enUS = "Some buildings were already in progress or done, are you sure you want to undo the building?"
 zhCN = "部分建筑正在进行中或已完成，确定要撤销建造吗？"
 zhTW = "某些建築已經在進行中或已完成，您確定要撤銷這項建築嗎？"
@@ -91,6 +100,7 @@ koKR = "일부 건물이 이미 진행 중이거나 완료되었습니다. 건�
 
 ["LV.T4UX.RecentToolHotkey"]
 raw = "Recent tool"
+status = "normal"
 enUS = "Recent tool"
 zhCN = "最近使用的工具"
 zhTW = "最近工具"
@@ -104,6 +114,7 @@ koKR = "최근 도구"
 
 ["LV.T4UX.UndoCount"]
 raw = "Undo count"
+status = "normal"
 enUS = "Undo count"
 zhCN = "撤销建造次数"
 zhTW = "撤銷次數"
@@ -117,6 +128,7 @@ koKR = "되돌리기 횟수"
 
 ["LV.T4UX.UndoCountDesc"]
 raw = "How many Undo building action you can perform in a row"
+status = "normal"
 enUS = "How many Undo building action you can perform in a row"
 zhCN = "可以使用快捷键（模组默认：Ctrl+Z）连续执行多少次撤销建造操作。"
 zhTW = "“您可以連續執行多少次撤銷建築動作”"
@@ -130,6 +142,7 @@ koKR = "연속으로 수행할 수 있는 건물 철회 행동의 횟수"
 
 ["LV.T4UX.UndoEmpty"]
 raw = "No more undo actions available"
+status = "normal"
 enUS = "No more undo actions available"
 zhCN = "没有更多可撤销的操作"
 zhTW = "沒有更多的撤銷操作可用"
@@ -143,6 +156,7 @@ koKR = "더 이상 실행할 수 있는 실행 취소 작업이 없습니다."
 
 ["LV.T4UX.CollapseEntityPanel"]
 raw = "Collapsible entity panels"
+status = "normal"
 enUS = "Collapsible entity panels"
 zhCN = "详情面板折叠按钮"
 zhTW = "可摺疊實體面板"
@@ -156,6 +170,7 @@ koKR = "접을 수 있는 개체 패널"
 
 ["LV.T4UX.CollapseEntityPanelDesc"]
 raw = "Make the entity panels (the info panels to the right when you select a building) collapsible.\nCan only be changed from the Main Menu"
+status = "normal"
 enUS = "Make the entity panels (the info panels to the right when you select a building) collapsible.\nCan only be changed from the Main Menu"
 zhCN = "勾选后，给详情面板（右侧面板）增加折叠按钮。可以隐藏次要内容，只保留主要内容。"
 zhTW = "使實體面板（選擇建築時右側的信息面板）可以收起。 只能從主菜單進行更改。"
@@ -169,6 +184,7 @@ koKR = "엔티티 패널(건물을 선택했을 때 오른쪽에 표시되는 �
 
 ["LV.T4UX.CollapseEntityPanelGlobal"]
 raw = "Global collapse state"
+status = "normal"
 enUS = "Global collapse state"
 zhCN = "> 全局折叠状态"
 zhTW = "全球崩壞狀態"
@@ -182,6 +198,7 @@ koKR = "전체 붕괴 상태"
 
 ["LV.T4UX.CollapseEntityPanelGlobalDesc"]
 raw = "Make the collapse state saved globally instead of per save"
+status = "normal"
 enUS = "Make the collapse state saved globally instead of per save"
 zhCN = "勾选后，使详情面板的折叠状态全局生效，而不是仅在此存档内生效。"
 zhTW = "將崩潰狀態儲存為全局，而不是每個存檔"
@@ -195,6 +212,7 @@ koKR = "붕괴 상태를 저장할 때마다가 아닌 전체적으로 저장되
 
 ["LV.T4UX.ShowDynamiteDestruction"]
 raw = "Show Dynamite destruction"
+status = "normal"
 enUS = "Show Dynamite destruction"
 zhCN = "显示炸弹破坏范围"
 zhTW = "顯示炸藥摧毀"
@@ -208,6 +226,7 @@ koKR = "다이너마이트 파괴 표시"
 
 ["LV.T4UX.ShowDynamiteDestructionDesc"]
 raw = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
+status = "normal"
 enUS = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
 zhCN = "勾选后，选择炸弹时，高亮将被此炸弹破坏或崩塌的地形和建筑。<br>注意，如果是大量炸弹依次引爆，则需要使用模组“Macro Management”选择所有待引爆炸弹，才会显示最终将被破坏的范围。<br>注意，如果启用了模组“Multi-directional Dynamite”，则此功能始终生效，无需勾选此选项。"
 zhTW = "顯示選擇炸藥時會被摧毀的地形和建築。如果您啟用了多方向炸藥模塊，則不需要此選項，該模塊將始終啟用此選項。"
@@ -221,6 +240,7 @@ koKR = "다이너마이트를 선택할 때 파괴될 지형과 건물을 표시
 
 ["LV.T4UX.UpdateText740"]
 raw = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+status = "normal"
 enUS = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
 zhCN = "- 新增'复制建筑'功能。在使用默认（光标）工具时，中键点击（鼠标3键，可重新绑定）建筑可快速切换到该建筑工具。随后还可按住Shift键使用'Shift键删除'功能删除匹配的建筑。<br>- 以下功能现可在地图编辑器中工作：最近使用的工具、可折叠实体面板以及新增的复制建筑功能。<br>- 修复了在模组设置中禁用闲置工人警告无效的问题。<br>- 修复了最近使用工具快捷键无效的问题。"
 zhTW = "- 新增「複製建築」功能。在默認（游標）工具下，使用中鍵點擊（滑鼠 3，可重新綁定）建築，以快速切換到該建築工具。然後您也可以按住 Shift 來使用「Shift 刪除」功能刪除匹配的建築。\n- 以下功能現在在地圖編輯器中可用：最近工具、可摺疊的實體面板和最近新增的複製建築。\n- 修正了來自模組設置的閒置工作者警告無法關閉的問題。\n- 修正了最近工具熱鍵無法使用的問題。"
@@ -234,6 +254,7 @@ koKR = "- '건물 복사' 기능이 추가 되었습니다. 기본(커서) 도�
 
 ["LV.T4UX.WorkerIdleWarning"]
 raw = "Warning about idle workers"
+status = "normal"
 enUS = "Warning about idle workers"
 zhCN = "闲置劳工警告"
 zhTW = "“閒置工人的警告”"
@@ -247,6 +268,7 @@ koKR = "대기 중인 작업자에 대한 경고"
 
 ["LV.T4UX.WorkerIdleWarningDesc"]
 raw = "Add a warning when a worker has no work to do at a workplace"
+status = "normal"
 enUS = "Add a warning when a worker has no work to do at a workplace"
 zhCN = "勾选后，工作场所的劳工无事可做时会显示警告。可以用建筑详情面板上显示的“禁用闲置警告”选项取消警告。"
 zhTW = "當工作人員在工作場所沒有工作時增加警告"
@@ -260,6 +282,7 @@ koKR = "작업자가 작업장에 할 일이 없을 때 경고를 추가하십�
 
 ["LV.T4UX.WorkerIdleWarningDisable"]
 raw = "Disable idle warning for all {0}"
+status = "normal"
 enUS = "Disable idle warning for all {0}"
 zhCN = "禁用所有{0}的闲置警告"
 zhTW = "禁用所有 {0} 的閒置警告"
@@ -273,6 +296,7 @@ koKR = "모든 {0}에 대한 대기 경고 비활성화"
 
 ["LV.T4UX.WorkerIdleStatus"]
 raw = "There are workers with nothing to do"
+status = "normal"
 enUS = "There are workers with nothing to do"
 zhCN = "有劳工无事可做"
 zhTW = "有工人無事可做"
@@ -286,6 +310,7 @@ koKR = "할 일이 없는 근로자가 있습니다"
 
 ["LV.T4UX.WorkerIdleStatusShort"]
 raw = "Idle worker"
+status = "normal"
 enUS = "Idle worker"
 zhCN = "闲置劳工"
 zhTW = "空閒的工人"
@@ -299,6 +324,7 @@ koKR = "대기 중인 작업자"
 
 ["LV.T4UX.CopyHotkey"]
 raw = "Copy building"
+status = "normal"
 enUS = "Copy building"
 zhCN = "复制建筑"
 zhTW = "複製建築"
@@ -312,6 +338,7 @@ koKR = "건물 복사"
 
 ["LV.T4UX.RotateCordinalLeft"]
 raw = "Cardinal Rotate Left"
+status = "normal"
 enUS = "Cardinal Rotate Left"
 zhCN = "向左旋转镜头并摆正"
 zhTW = "朝向左旋"
@@ -325,6 +352,7 @@ koKR = "좌회전하는 기본 방향"
 
 ["LV.T4UX.RotateCordinalRight"]
 raw = "Cardinal Rotate Right"
+status = "normal"
 enUS = "Cardinal Rotate Right"
 zhCN = "向右旋转镜头并摆正"
 zhTW = "正交旋轉右"
@@ -338,6 +366,7 @@ koKR = "북극 시계 방향 회전"
 
 [Name_AdjustableStrengthPowerGeneratorFragment]
 raw = "Dev Power Generator"
+status = "normal"
 enUS = "Dev Power Generator"
 zhCN = "能量发生器（开发者模式）"
 zhTW = "開發者動力發電機"
@@ -351,6 +380,7 @@ koKR = "개발자 전력 생성기"
 
 [Name_AdulthoodFragment]
 raw = "Adulthood"
+status = "normal"
 enUS = "Adulthood"
 zhCN = "成长状态"
 zhTW = "成年"
@@ -364,6 +394,7 @@ koKR = "성년기"
 
 [Name_AttractionFragment]
 raw = "Visitors"
+status = "normal"
 enUS = "Visitors"
 zhCN = "游客信息"
 zhTW = "訪客"
@@ -377,6 +408,7 @@ koKR = "방문객"
 
 [Name_AttractionLoadRateFragment]
 raw = "Popularity"
+status = "normal"
 enUS = "Popularity"
 zhCN = "人气信息"
 zhTW = "人氣"
@@ -390,6 +422,7 @@ koKR = "인기도"
 
 [Name_BatteryFragment]
 raw = "Battery"
+status = "normal"
 enUS = "Battery"
 zhCN = "容量状态"
 zhTW = "電池"
@@ -403,6 +436,7 @@ koKR = "배터리"
 
 [Name_BeaverBuildingsFragment]
 raw = "Related Buildings"
+status = "normal"
 enUS = "Related Buildings"
 zhCN = "关联建筑信息"
 zhTW = "相關建築"
@@ -416,6 +450,7 @@ koKR = "관련 건물"
 
 [Name_BehaviorManagerDebugFragment]
 raw = "Behavior Debug"
+status = "normal"
 enUS = "Behavior Debug"
 zhCN = "Behavior Debug"
 zhTW = "行為除錯"
@@ -429,6 +464,7 @@ koKR = "행동 디버그"
 
 [Name_BonusManagerDebugFragment]
 raw = "Bonus Debug"
+status = "normal"
 enUS = "Bonus Debug"
 zhCN = "Bonus Debug"
 zhTW = "獎勵除錯"
@@ -442,6 +478,7 @@ koKR = "보너스 디버그"
 
 [Name_BreedingPodFragment]
 raw = "Breeding Pod"
+status = "normal"
 enUS = "Breeding Pod"
 zhCN = "繁殖舱状态"
 zhTW = "繁殖艙"
@@ -455,6 +492,7 @@ koKR = "번식 포드"
 
 [Name_BuildingHPFragment]
 raw = "Building HP"
+status = "normal"
 enUS = "Building HP"
 zhCN = "建筑生命值信息"
 zhTW = "建築生命值"
@@ -468,6 +506,7 @@ koKR = "건물 HP"
 
 [Name_CharacterControlFragment]
 raw = "Character Control Debug"
+status = "normal"
 enUS = "Character Control Debug"
 zhCN = "Character Control Debug"
 zhTW = "角色控制除錯"
@@ -481,6 +520,7 @@ koKR = "캐릭터 제어 디버그"
 
 [Name_ConstructionSiteDebugFragment]
 raw = "Construction Debug"
+status = "normal"
 enUS = "Construction Debug"
 zhCN = "Construction Debug"
 zhTW = "建設除錯"
@@ -494,6 +534,7 @@ koKR = "건설 디버그"
 
 [Name_ConstructionSiteFragment]
 raw = "Construction Site"
+status = "normal"
 enUS = "Construction Site"
 zhCN = "建造状态"
 zhTW = "建築工地"
@@ -507,6 +548,7 @@ koKR = "건설 현장"
 
 [Name_DemolishableFragment]
 raw = "Demolition"
+status = "normal"
 enUS = "Demolition"
 zhCN = "拆除"
 zhTW = "拆除"
@@ -520,6 +562,7 @@ koKR = "철거"
 
 [Name_DemolishablePriorityFragment]
 raw = "Demolition Priority"
+status = "normal"
 enUS = "Demolition Priority"
 zhCN = "拆除优先度"
 zhTW = "拆除優先級"
@@ -533,6 +576,7 @@ koKR = "철거 우선 순위"
 
 [Name_DeteriorableDebugFragment]
 raw = "Decay Debug"
+status = "normal"
 enUS = "Decay Debug"
 zhCN = "Decay Debug"
 zhTW = "衰變除錯"
@@ -546,6 +590,7 @@ koKR = "부패 디버그"
 
 [Name_DeteriorableFragment]
 raw = "Durability"
+status = "normal"
 enUS = "Durability"
 zhCN = "耐久度状态"
 zhTW = "耐久度"
@@ -559,6 +604,7 @@ koKR = "내구성"
 
 [Name_DistrictCenterFragment]
 raw = "District Center"
+status = "normal"
 enUS = "District Center"
 zhCN = "地区中心管理"
 zhTW = "區域中心"
@@ -572,6 +618,7 @@ koKR = "구역 센터"
 
 [Name_DistrictCrossingInventoryFragment]
 raw = "Crossing Inventory"
+status = "normal"
 enUS = "Crossing Inventory"
 zhCN = "跨地区库存"
 zhTW = "交叉庫存"
@@ -585,6 +632,7 @@ koKR = "교차 재고"
 
 [Name_DwellingDebugFragment]
 raw = "Dwelling Debug"
+status = "normal"
 enUS = "Dwelling Debug"
 zhCN = "Dwelling Debug"
 zhTW = "居住除錯"
@@ -598,6 +646,7 @@ koKR = "거주지 디버그"
 
 [Name_DwellingUserFragment]
 raw = "Residents"
+status = "normal"
 enUS = "Residents"
 zhCN = "居民信息"
 zhTW = "居民"
@@ -611,6 +660,7 @@ koKR = "거주자"
 
 [Name_DyingNaturalResourceFragment]
 raw = "Plant Status"
+status = "normal"
 enUS = "Plant Status"
 zhCN = "植物状态"
 zhTW = "植物狀態"
@@ -624,6 +674,7 @@ koKR = "식물 상태"
 
 [Name_DynamiteFragment]
 raw = "Dynamite"
+status = "normal"
 enUS = "Dynamite"
 zhCN = "炸弹设置"
 zhTW = "炸藥"
@@ -637,6 +688,7 @@ koKR = "다이너마이트"
 
 [Name_FarmHouseFragment]
 raw = "Farmhouse"
+status = "normal"
 enUS = "Farmhouse"
 zhCN = "农屋设置"
 zhTW = "農舍"
@@ -650,6 +702,7 @@ koKR = "농가"
 
 [Name_FloodgateFragment]
 raw = "Floodgate"
+status = "normal"
 enUS = "Floodgate"
 zhCN = "闸门设置"
 zhTW = "閘門"
@@ -663,6 +716,7 @@ koKR = "홍수문"
 
 [Name_ForesterFragment]
 raw = "Forester"
+status = "normal"
 enUS = "Forester"
 zhCN = "林木工设置"
 zhTW = "伐木工"
@@ -676,6 +730,7 @@ koKR = "임업자"
 
 [Name_GatherableFragment]
 raw = "Gatherable"
+status = "normal"
 enUS = "Gatherable"
 zhCN = "收集"
 zhTW = "可收集的"
@@ -689,6 +744,7 @@ koKR = "채집 가능"
 
 [Name_GatherablePrioritizerFragment]
 raw = "Gather Priority"
+status = "normal"
 enUS = "Gather Priority"
 zhCN = "收集优先度"
 zhTW = "收集優先級"
@@ -702,6 +758,7 @@ koKR = "수집 우선 순위"
 
 [Name_GoodCarrierFragment]
 raw = "Carrier"
+status = "normal"
 enUS = "Carrier"
 zhCN = "搬运状态"
 zhTW = "承運人"
@@ -715,6 +772,7 @@ koKR = "운반자"
 
 [Name_GoodConsumingBuildingFragment]
 raw = "Consuming"
+status = "normal"
 enUS = "Consuming"
 zhCN = "消耗状态"
 zhTW = "消耗中"
@@ -728,6 +786,7 @@ koKR = "소비하는"
 
 [Name_GoodStackFragment]
 raw = "Goods Stack"
+status = "normal"
 enUS = "Goods Stack"
 zhCN = "堆放状态"
 zhTW = "貨物堆"
@@ -741,6 +800,7 @@ koKR = "물품 묶음"
 
 [Name_GrowableFragment]
 raw = "Growth"
+status = "normal"
 enUS = "Growth"
 zhCN = "生长状态"
 zhTW = "生長"
@@ -754,6 +814,7 @@ koKR = "성장"
 
 [Name_HaulCandidateDebugFragment]
 raw = "Haul Debug"
+status = "normal"
 enUS = "Haul Debug"
 zhCN = "Haul Debug"
 zhTW = "運送調試"
@@ -767,6 +828,7 @@ koKR = "운반 디버그"
 
 [Name_HaulCandidateFragment]
 raw = "Hauling"
+status = "normal"
 enUS = "Hauling"
 zhCN = "搬运"
 zhTW = "運輸"
@@ -780,6 +842,7 @@ koKR = "운반 중"
 
 [Name_InventoryDebugFragment]
 raw = "Inventory Debug"
+status = "normal"
 enUS = "Inventory Debug"
 zhCN = "Inventory Debug"
 zhTW = "庫存除錯"
@@ -793,6 +856,7 @@ koKR = "인벤토리 디버그"
 
 [Name_ManufactoryFragment]
 raw = "Manufactory"
+status = "normal"
 enUS = "Manufactory"
 zhCN = "工厂信息"
 zhTW = "工廠"
@@ -806,6 +870,7 @@ koKR = "제작소"
 
 [Name_ManufactoryInventoryFragment]
 raw = "Workshop Inventory"
+status = "normal"
 enUS = "Workshop Inventory"
 zhCN = "生产库存"
 zhTW = "工作坊庫存"
@@ -819,6 +884,7 @@ koKR = "작업장 인벤토리"
 
 [Name_ManufactoryTogglableRecipesFragment]
 raw = "Recipes"
+status = "normal"
 enUS = "Recipes"
 zhCN = "配方设置"
 zhTW = "食譜"
@@ -832,6 +898,7 @@ koKR = "레시피"
 
 [Name_MechanicalNodeFragment]
 raw = "Power Node"
+status = "normal"
 enUS = "Power Node"
 zhCN = "能量节点信息"
 zhTW = "電力節點"
@@ -845,6 +912,7 @@ koKR = "전력 노드"
 
 [Name_MMFragment]
 raw = "Macro-management"
+status = "normal"
 enUS = "Macro-management"
 zhCN = "宏管理"
 zhTW = "宏觀管理"
@@ -858,6 +926,7 @@ koKR = "매크로 관리"
 
 [Name_MultiSelectFragment]
 raw = "Multi-Select"
+status = "normal"
 enUS = "Multi-Select"
 zhCN = "多选设置"
 zhTW = "多重選擇"
@@ -871,6 +940,7 @@ koKR = "다중 선택"
 
 [Name_PlantablePrioritizerFragment]
 raw = "Plant Priority"
+status = "normal"
 enUS = "Plant Priority"
 zhCN = "种植优先度"
 zhTW = "植物優先級"
@@ -884,6 +954,7 @@ koKR = "식물 우선순위"
 
 [Name_ProductionProgressFragment]
 raw = "Progress"
+status = "normal"
 enUS = "Progress"
 zhCN = "进度信息"
 zhTW = "進度"
@@ -897,6 +968,7 @@ koKR = "진행 상황"
 
 [Name_ProductivityFragment]
 raw = "Productivity"
+status = "normal"
 enUS = "Productivity"
 zhCN = "生产效率信息"
 zhTW = "生產力"
@@ -910,6 +982,7 @@ koKR = "생산성"
 
 [Name_RecoveredGoodStackFragment]
 raw = "Recovered Goods"
+status = "normal"
 enUS = "Recovered Goods"
 zhCN = "瓦砾堆信息"
 zhTW = "回收物品"
@@ -923,6 +996,7 @@ koKR = "회수된 자산"
 
 [Name_RenovationStockpileFragment]
 raw = "Renovation Stockpile"
+status = "normal"
 enUS = "Renovation Stockpile"
 zhCN = "整修储备设置"
 zhTW = "翻修儲藏室"
@@ -936,6 +1010,7 @@ koKR = "개조 저장소"
 
 [Name_RuinFragment]
 raw = "Ruin"
+status = "normal"
 enUS = "Ruin"
 zhCN = "废墟"
 zhTW = "廢墟"
@@ -949,6 +1024,7 @@ koKR = "유적"
 
 [Name_ScienceNeedingBuildingFragment]
 raw = "Science Needed"
+status = "normal"
 enUS = "Science Needed"
 zhCN = "科学点数状态"
 zhTW = "科學需求"
@@ -962,6 +1038,7 @@ koKR = "필요한 과학"
 
 [Name_SimpleOutputInventoryFragment]
 raw = "Inventory"
+status = "normal"
 enUS = "Inventory"
 zhCN = "收集库存"
 zhTW = "物品欄"
@@ -975,6 +1052,7 @@ koKR = "인벤토리"
 
 [Name_SluiceFragment]
 raw = "Sluice"
+status = "normal"
 enUS = "Sluice"
 zhCN = "水闸设置"
 zhTW = "水閘"
@@ -988,6 +1066,7 @@ koKR = "수로"
 
 [Name_StatusListFragment]
 raw = "Status"
+status = "normal"
 enUS = "Status"
 zhCN = "状态信息"
 zhTW = "狀態"
@@ -1001,6 +1080,7 @@ koKR = "상태"
 
 [Name_StockpileGoodColumnVisualizerDebugFragment]
 raw = "Stock Debug"
+status = "normal"
 enUS = "Stock Debug"
 zhCN = "Stock Debug"
 zhTW = "庫存調試"
@@ -1014,6 +1094,7 @@ koKR = "재고 디버그"
 
 [Name_StockpileInventoryDebugFragment]
 raw = "Inventory Debug"
+status = "normal"
 enUS = "Inventory Debug"
 zhCN = "Inventory Debug"
 zhTW = "庫存除錯"
@@ -1027,6 +1108,7 @@ koKR = "인벤토리 디버그"
 
 [Name_StockpileInventoryFragment]
 raw = "Stockpile"
+status = "normal"
 enUS = "Stockpile"
 zhCN = "仓储"
 zhTW = "儲藏"
@@ -1040,6 +1122,7 @@ koKR = "재고 창고"
 
 [Name_StockpilePriorityFragment]
 raw = "Stockpile Priority"
+status = "normal"
 enUS = "Stockpile Priority"
 zhCN = "仓储设置"
 zhTW = "儲存優先級"
@@ -1053,6 +1136,7 @@ koKR = "재고 우선순위"
 
 [Name_StreamGaugeFragment]
 raw = "Stream Gauge"
+status = "normal"
 enUS = "Stream Gauge"
 zhCN = "水流计监测信息"
 zhTW = "溪流計"
@@ -1066,6 +1150,7 @@ koKR = "수위계"
 
 [Name_TailDecalSupplierFragment]
 raw = "Tail Decal"
+status = "normal"
 enUS = "Tail Decal"
 zhCN = "细节装饰设置"
 zhTW = "尾部貼圖"
@@ -1079,6 +1164,7 @@ koKR = "꼬리 데칼"
 
 [Name_WaterInputDepthFragment]
 raw = "Water Depth"
+status = "normal"
 enUS = "Water Depth"
 zhCN = "深度设置"
 zhTW = "水深"
@@ -1092,6 +1178,7 @@ koKR = "수심"
 
 [Name_WaterMoverFragment]
 raw = "Fluid Pump"
+status = "normal"
 enUS = "Fluid Pump"
 zhCN = "液体泵设置"
 zhTW = "流體泵"
@@ -1105,6 +1192,7 @@ koKR = "유체 펌프"
 
 [Name_WaterSourceFragment]
 raw = "Water Source (Dev)"
+status = "normal"
 enUS = "Water Source (Dev)"
 zhCN = "水源（开发者模式）"
 zhTW = "水源（開發者）"
@@ -1118,6 +1206,7 @@ koKR = "수원 (개발)"
 
 [Name_WaterSourceRegulatorFragment]
 raw = "Flow Regulator"
+status = "normal"
 enUS = "Flow Regulator"
 zhCN = "恶水建筑设置"
 zhTW = "流量調節器"
@@ -1131,6 +1220,7 @@ koKR = "흐름 조절기"
 
 [Name_WellbeingFragment]
 raw = "Wellbeing"
+status = "normal"
 enUS = "Wellbeing"
 zhCN = "康乐度信息"
 zhTW = "福祉"
@@ -1144,6 +1234,7 @@ koKR = "웰빙"
 
 [Name_WindGaugeFragment]
 raw = "Wind Gauge"
+status = "normal"
 enUS = "Wind Gauge"
 zhCN = "风速计监测信息"
 zhTW = "風向計"
@@ -1157,6 +1248,7 @@ koKR = "풍속계"
 
 [Name_WirelessCoilFragment]
 raw = "Wireless Coil"
+status = "normal"
 enUS = "Wireless Coil"
 zhCN = "能量线圈网络"
 zhTW = "無線線圈"
@@ -1170,6 +1262,7 @@ koKR = "무선 코일"
 
 [Name_WonderDebugFragment]
 raw = "Wonder Debug"
+status = "normal"
 enUS = "Wonder Debug"
 zhCN = "Wonder Debug"
 zhTW = "奇觀除錯"
@@ -1183,6 +1276,7 @@ koKR = "원더 디버그"
 
 [Name_WonderFragment]
 raw = "Wonder"
+status = "normal"
 enUS = "Wonder"
 zhCN = "奇观库存"
 zhTW = "奇蹟"
@@ -1196,6 +1290,7 @@ koKR = "신비"
 
 [Name_WorkplaceFragment]
 raw = "Workplace"
+status = "normal"
 enUS = "Workplace"
 zhCN = "工作场所信息"
 zhTW = "工作場所"
@@ -1209,6 +1304,7 @@ koKR = "직장"
 
 [Name_WorkshopDebugFragment]
 raw = "Workshop Debug"
+status = "normal"
 enUS = "Workshop Debug"
 zhCN = "Workshop Debug"
 zhTW = "工作坊除錯"
@@ -1222,6 +1318,7 @@ koKR = "작업장 디버그"
 
 [Name_ZiplineTowerFragment]
 raw = "Zipline Tower"
+status = "normal"
 enUS = "Zipline Tower"
 zhCN = "滑索设置"
 zhTW = "滑索塔"
@@ -1235,6 +1332,7 @@ koKR = "짚라인 타워"
 
 [Name_DistrictCenterFragment_DistrictCenterInventoryFragment]
 raw = "Inventory"
+status = "normal"
 enUS = "Inventory"
 zhCN = "地区中心库存"
 zhTW = "庫存"
@@ -1248,6 +1346,7 @@ koKR = "인벤토리"
 
 [Name_SluiceFragment_Automation]
 raw = "Sluice Automation"
+status = "normal"
 enUS = "Sluice Automation"
 zhCN = "水闸自动化设置"
 zhTW = "閘門自動化"
@@ -1261,6 +1360,7 @@ koKR = "슬루스 자동화"
 
 [Name_SluiceFragment_WaterInfo]
 raw = "Sluice Water Info"
+status = "normal"
 enUS = "Sluice Water Info"
 zhCN = "水闸监测信息"
 zhTW = "水閘水資訊"
@@ -1274,6 +1374,7 @@ koKR = "수로 수위 정보"
 
 [Name_BreedingPodFragment_BreedingPodInventoryFragment]
 raw = "Inventory"
+status = "normal"
 enUS = "Inventory"
 zhCN = "繁殖舱库存"
 zhTW = "庫存"
@@ -1287,6 +1388,7 @@ koKR = "인벤토리"
 
 [Name_WorkplaceShiftFragment]
 raw = "Shift Time"
+status = "normal"
 enUS = "Shift Time"
 zhCN = "工作时间"
 zhTW = "班次時間"
@@ -1300,6 +1402,7 @@ koKR = "근무 시간"
 
 [Name_UnstableCoreFragment]
 raw = "Unstable Core"
+status = "normal"
 enUS = "Unstable Core"
 zhCN = "不稳定核心"
 zhTW = "不穩定核心"
@@ -1313,6 +1416,7 @@ koKR = "불안정한 코어"
 
 [Name_DecalSupplierFragment]
 raw = "Decal Supplier"
+status = "normal"
 enUS = "Decal Supplier"
 zhCN = "贴花供应"
 zhTW = "裝飾供應商"
@@ -1326,6 +1430,7 @@ koKR = "데칼 공급업체"
 
 [Name_TimedComponentActivatorSettingsFragment]
 raw = "Timed Component Activator Settings"
+status = "normal"
 enUS = "Timed Component Activator Settings"
 zhCN = "定时激活设置"
 zhTW = "定時元件啟動器設定"
@@ -1339,6 +1444,7 @@ koKR = "시간 구성 요소 활성화기 설정"
 
 [Name_BlueprintDebugFragment]
 raw = "Blueprint Debug"
+status = "normal"
 enUS = "Blueprint Debug"
 zhCN = "Blueprint Debug"
 zhTW = "藍圖調試"
@@ -1352,6 +1458,7 @@ koKR = "청사진 디버그"
 
 [Name_UnstableCoreDebugFragment]
 raw = "Unstable Core Debug"
+status = "normal"
 enUS = "Unstable Core Debug"
 zhCN = "Unstable Core Debug"
 zhTW = "不穩定核心除錯"
@@ -1365,6 +1472,7 @@ koKR = "불안정한 코어 디버그"
 
 [Name_FlippableDecalFragment]
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -1378,6 +1486,7 @@ koKR = "[접히지_마세요]"
 
 [Name_RecoveredGoodStackDisintegrationFragment]
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -1391,6 +1500,7 @@ koKR = "[DO_NOT_COLLAPSE]"
 
 [Name_SluiceFragment_SynchronizeWrapper]
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -1404,6 +1514,7 @@ koKR = "[DO_NOT_COLLAPSE]"
 
 [Name_TailDecalSupplierFragment_]
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -1417,6 +1528,7 @@ koKR = "[확장하지 마십시오]"
 
 [Name_DecalSupplierFragment_]
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[請勿收合]"
@@ -1427,3 +1539,11 @@ deDE = "[NICHT_ZUSAMMENFALLEN]"
 plPL = "[NIE_ZWINĘJ]"
 ptBR = "[NÃO_DUSE_FRAQUEJAR]"
 koKR = "[DO_NOT_COLLAPSE]"
+
+[Name_WeathervaneFragment]
+new = "[DO_NOT_COLLAPSE]"
+status = "normal"
+
+[Name_BuildingSoundControllerFragment]
+new = "[DO_NOT_COLLAPSE]"
+status = "normal"

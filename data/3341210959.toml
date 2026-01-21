@@ -1,5 +1,8 @@
+name = "SimpleFloodgateTriggers"
+
 ["Floodgate.Triggers.EnableOnDroughtStarted"]
 raw = "Set height when drought starts"
+status = "normal"
 enUS = "Set height when drought begins."
 zhCN = "干旱期开始时设置高度"
 zhTW = "設定乾旱開始時的高度"
@@ -13,6 +16,7 @@ koKR = "가뭄이 시작될 때 높이 설정"
 
 ["Floodgate.Triggers.EnableOnDroughtEnded"]
 raw = "Set height when drought ends"
+status = "normal"
 enUS = "Set height when the drought ends."
 zhCN = "干旱期结束时设置高度"
 zhTW = "在乾旱結束時設定高度"
@@ -26,6 +30,7 @@ koKR = "가뭄이 끝날 때 높이 설정"
 
 ["Floodgate.Schedule.Enable"]
 raw = "Set height on a schedule"
+status = "normal"
 enUS = "Set height on a schedule"
 zhCN = "按照时刻表设置高度"
 zhTW = "設置排程的高度"
@@ -39,6 +44,7 @@ koKR = "일정에 따라 높이 설정"
 
 ["Floodgate.Schedule.DisableOnDrought"]
 raw = "Disable schedule during drought"
+status = "normal"
 enUS = "Disable schedule during drought"
 zhCN = "干旱期时禁用此设置"
 zhTW = "在乾旱期間停用排程"
@@ -52,6 +58,7 @@ koKR = "가뭄 동안 일정 비활성화"
 
 ["Floodgate.Schedule.DisableOnTemperate"]
 raw = "Disable schedule during temperate"
+status = "normal"
 enUS = "Disable schedule during temperate"
 zhCN = "温和天气时禁用此设置"
 zhTW = "在溫度期間禁用計劃"
@@ -65,6 +72,7 @@ koKR = "온화한 날씨 동안 일정 비활성화"
 
 ["Floodgate.Triggers.Time"]
 raw = "Time"
+status = "normal"
 enUS = "Time"
 zhCN = "时刻"
 zhTW = "時間"
@@ -78,6 +86,7 @@ koKR = "시간"
 
 ["Floodgate.Triggers.Height"]
 raw = "Height"
+status = "normal"
 enUS = "Height"
 zhCN = "高度"
 zhTW = "高度"
@@ -91,6 +100,7 @@ koKR = "높이"
 
 ["Floodgate.Triggers.Basic"]
 raw = "Basic"
+status = "normal"
 enUS = "Basic"
 zhCN = "基本"
 zhTW = "基本"
@@ -104,6 +114,7 @@ koKR = "기본"
 
 ["Floodgate.Triggers.Timer"]
 raw = "Timer"
+status = "normal"
 enUS = "Timer"
 zhCN = "定时"
 zhTW = "計時器"
@@ -117,6 +128,7 @@ koKR = "타이머"
 
 ["Floodgate.Triggers.Advanced"]
 raw = "Advanced"
+status = "normal"
 enUS = "Advanced"
 zhCN = "进阶"
 zhTW = "先進"
@@ -130,6 +142,7 @@ koKR = "고급"
 
 ["Floodgate.Triggers.AttachToStreamGauge"]
 raw = "Attach Stream Gauge"
+status = "normal"
 enUS = "Attach Stream Gauge"
 zhCN = "绑定水流计"
 zhTW = "附加流量計"
@@ -143,6 +156,7 @@ koKR = "유량계 부착"
 
 ["Floodgate.Triggers.PickStreamGaugeTitle"]
 raw = "Pick a Stream Gauge"
+status = "normal"
 enUS = "Pick a Stream Gauge"
 zhCN = "选择一个水流计"
 zhTW = "選擇一個水位計"
@@ -156,6 +170,7 @@ koKR = "수위 게이지 선택"
 
 ["Floodgate.Triggers.PickStreamGaugeTip"]
 raw = "No really,pick any."
+status = "normal"
 enUS = "No really, choose any."
 zhCN = "可以选择任何一个水流计。"
 zhTW = "不，真的，隨便選一個。"
@@ -169,6 +184,7 @@ koKR = "정말이에요, 아무거나 선택하세요."
 
 ["Floodgates.Triggers.NoLinks"]
 raw = "No Stream Gauges attached"
+status = "normal"
 enUS = "No stream gauges attached."
 zhCN = "未绑定水流计"
 zhTW = "未連接流量計"
@@ -182,6 +198,7 @@ koKR = "연결된 수위계가 없습니다"
 
 ["Floodgates.Triggers.NoFloodgateLinks"]
 raw = "No objects linked"
+status = "normal"
 enUS = "No objects linked"
 zhCN = "未与建筑绑定"
 zhTW = "沒有連結的物件"
@@ -195,6 +212,7 @@ koKR = "링크된 객체 없음"
 
 ["Floodgates.Triggers.LinkedFloodgates"]
 raw = "Linked objects"
+status = "normal"
 enUS = "Linked objects"
 zhCN = "绑定的建筑"
 zhTW = "連結物件"
@@ -208,6 +226,7 @@ koKR = "연결된 객체"
 
 ["Floodgates.Triggers.Threshold1"]
 raw = "Stream Gauge low threshold"
+status = "normal"
 enUS = "Stream gauge low threshold"
 zhCN = "水深下限值"
 zhTW = "流量計低閾值"
@@ -221,6 +240,7 @@ koKR = "하천 게이지 저하 한계"
 
 ["Floodgates.Triggers.Threshold2"]
 raw = "Stream Gauge high threshold"
+status = "normal"
 enUS = "Stream gauge high threshold"
 zhCN = "水深上限值"
 zhTW = "流量計高閾值"
@@ -234,6 +254,7 @@ koKR = "하천 게이지 고수위"
 
 ["Floodgates.Triggers.HeightWhenBelowThreshold1"]
 raw = "Floodgate height below low threshold"
+status = "normal"
 enUS = "Floodgate height below low threshold"
 zhCN = "低于下限值时设置高度为"
 zhTW = "閘門高度低於下限閾值"
@@ -247,6 +268,7 @@ koKR = "저수지 높이가 낮은 기준 이하"
 
 ["Floodgates.Triggers.HeightWhenAboveThreshold2"]
 raw = "Floodgate height above high threshold"
+status = "normal"
 enUS = "Floodgate height above high threshold"
 zhCN = "高于上限值时设置高度为"
 zhTW = "洪水閘門高於高閾值的高度"
@@ -260,6 +282,7 @@ koKR = "높은 임계값 이상의 수문 높이"
 
 ["Floodgate.Triggers.PauseOnDroughtStart"]
 raw = "Pause when drought starts"
+status = "normal"
 enUS = "Pause when drought begins."
 zhCN = "干旱期开始时关闭"
 zhTW = "在乾旱開始時暫停"
@@ -273,6 +296,7 @@ koKR = "가뭄이 시작될 때 일시 정지"
 
 ["Floodgate.Triggers.UnpauseOnDroughtStart"]
 raw = "Unpause when drought starts"
+status = "normal"
 enUS = "Unpause when the drought starts."
 zhCN = "干旱期开始时启用"
 zhTW = "在乾旱開始時解除暫停"
@@ -286,6 +310,7 @@ koKR = "가뭄이 시작될 때 일시 정지 해제"
 
 ["Floodgate.Triggers.UnpauseOnTemperateStart"]
 raw = "Unpause when temperate starts"
+status = "normal"
 enUS = "Unpause when temperate begins."
 zhCN = "温和天气开始时启用"
 zhTW = "當氣溫開始時重新啟動"
@@ -299,6 +324,7 @@ koKR = "온대가 시작되면 일시정지 해제"
 
 ["Floodgate.Triggers.PauseOnTemperateStart"]
 raw = "Pause when temperate starts"
+status = "normal"
 enUS = "Pause when temperature starts"
 zhCN = "温和天气开始时关闭"
 zhTW = "當溫帶開始時暫停"
@@ -312,6 +338,7 @@ koKR = "온대 기후 시작 시 일시 정지"
 
 ["Floodgates.WaterpumpTrigger.Threshold1"]
 raw = "Pause <"
+status = "normal"
 enUS = "Pause"
 zhCN = "关闭 <"
 zhTW = "暫停 <"
@@ -325,6 +352,7 @@ koKR = "일시 정지 <"
 
 ["Floodgates.WaterpumpTrigger.Threshold2"]
 raw = "Pause >"
+status = "normal"
 enUS = "Pause"
 zhCN = "关闭 >"
 zhTW = "暫停 >"
@@ -338,6 +366,7 @@ koKR = "일시 정지 >"
 
 ["Floodgates.WaterpumpTrigger.Threshold3"]
 raw = "Unpause <"
+status = "normal"
 enUS = "Unpause"
 zhCN = "启用 <"
 zhTW = "解除暫停"
@@ -351,6 +380,7 @@ koKR = "일시중지 해제 <"
 
 ["Floodgates.WaterpumpTrigger.Threshold4"]
 raw = "Unpause >"
+status = "normal"
 enUS = "Unpause"
 zhCN = "启用 >"
 zhTW = "解除暫停 >"
@@ -364,6 +394,7 @@ koKR = "일시정지 해제 >"
 
 ["Floodgates.WaterpumpTrigger.PauseStartTime"]
 raw = "Pause at"
+status = "normal"
 enUS = "Pause at"
 zhCN = "关闭的时刻"
 zhTW = "暫停在"
@@ -377,6 +408,7 @@ koKR = "일시 정지 시간"
 
 ["Floodgates.WaterpumpTrigger.ResumeStartTime"]
 raw = "Resume at"
+status = "normal"
 enUS = "Resume at"
 zhCN = "启用的时刻"
 zhTW = "繼續於"
@@ -390,6 +422,7 @@ koKR = "재개 시"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringDrought"]
 raw = "Disable during drought"
+status = "normal"
 enUS = "Disable during drought"
 zhCN = "干旱期时禁用此设置"
 zhTW = "在乾旱期間禁用"
@@ -403,6 +436,7 @@ koKR = "가뭄 중 비활성화"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringTemperate"]
 raw = "Disable during temperate"
+status = "normal"
 enUS = "Disable during temperate"
 zhCN = "温和天气时禁用此设置"
 zhTW = "在溫帶期間禁用"
@@ -416,6 +450,7 @@ koKR = "온도 조절 중 비활성화"
 
 ["Floodgate.Triggers.PauseOnSchedule"]
 raw = "Pause on a schedule"
+status = "normal"
 enUS = "Pause on a schedule"
 zhCN = "按照时刻表关闭和启用"
 zhTW = "按計劃暫停"
@@ -429,6 +464,7 @@ koKR = "일정에 따라 일시 정지"
 
 ["Floodgate.Triggers.EnableOnBadtideStarted"]
 raw = "Set height when badtide starts"
+status = "normal"
 enUS = "Set height when bad tide starts"
 zhCN = "恶水潮开始时设置高度"
 zhTW = "在壞潮開始時設置高度"
@@ -442,6 +478,7 @@ koKR = "불어난 물이 시작될 때 높이 설정"
 
 ["Floodgate.Triggers.EnableOnBadtideEnded"]
 raw = "Set height when badtide ends"
+status = "normal"
 enUS = "Set height when bad tide ends"
 zhCN = "恶水潮结束时设置高度"
 zhTW = "在潮汐結束時設置高度"
@@ -455,6 +492,7 @@ koKR = "악조가 끝날 때 높이를 설정합니다"
 
 ["Floodgate.Schedule.DisableOnBadtide"]
 raw = "Disable schedule during badtide"
+status = "normal"
 enUS = "Disable schedule during low tide."
 zhCN = "恶水潮时禁用此设置"
 zhTW = "在壞潮期間禁用排程"
@@ -468,6 +506,7 @@ koKR = "나쁜 조수 중에는 일정 비활성화"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringBadtide"]
 raw = "Disable during badtide"
+status = "normal"
 enUS = "Disable during bad tide"
 zhCN = "恶水潮时禁用此设置"
 zhTW = "在低潮期間關閉"
@@ -481,6 +520,7 @@ koKR = "악潮 시 비활성화"
 
 ["Floodgate.Triggers.PauseOnBadtideStart"]
 raw = "Pause when badtide starts"
+status = "normal"
 enUS = "Pause when the bad tide starts."
 zhCN = "恶水潮开始时关闭"
 zhTW = "當壞潮開始時暫停"
@@ -494,6 +534,7 @@ koKR = "나쁜 조수가 시작될 때 일시 정지"
 
 ["Floodgate.Triggers.UnpauseOnBadtideStart"]
 raw = "Unpause when badtide starts"
+status = "normal"
 enUS = "Unpause when bad tide starts"
 zhCN = "恶水潮开始时启用"
 zhTW = "當壞潮開始時重新開始播放"
@@ -507,6 +548,7 @@ koKR = "악조가 시작될 때 일시중지 해제"
 
 ["Floodgates.Triggers.ContaminationThresholdLow"]
 raw = "Contamination low threshold"
+status = "normal"
 enUS = "Low threshold for contamination"
 zhCN = "污染程度下限值"
 zhTW = "污染低閾值"
@@ -520,6 +562,7 @@ koKR = "오염 저하 한계"
 
 ["Floodgates.Triggers.ContaminationThresholdHigh"]
 raw = "Contamination high threshold"
+status = "normal"
 enUS = "High threshold for contamination"
 zhCN = "污染程度上限值"
 zhTW = "污染高閾值"
@@ -533,6 +576,7 @@ koKR = "오염 고 한계"
 
 ["Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow"]
 raw = "Set height below low contamination"
+status = "normal"
 enUS = "Set height below low contamination"
 zhCN = "低于下限值时设置高度为"
 zhTW = "將高度設置在低污染以下"
@@ -546,6 +590,7 @@ koKR = "낮은 오염 기준 이하로 높이 설정"
 
 ["Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh"]
 raw = "Set height above high contamination"
+status = "normal"
 enUS = "Set height above high contamination"
 zhCN = "高于上限值时设置高度为"
 zhTW = "設定高污染的高度"
@@ -559,6 +604,7 @@ koKR = "높은 오염 기준 이상에서의 높이 설정"
 
 ["Floodgates.Triggers.Depth"]
 raw = "Depth"
+status = "normal"
 enUS = "Depth"
 zhCN = "水深"
 zhTW = "深度"
@@ -572,6 +618,7 @@ koKR = "깊이"
 
 ["Floodgates.Triggers.Contamination"]
 raw = "Contamination"
+status = "normal"
 enUS = "Contamination"
 zhCN = "污染程度"
 zhTW = "污染"
@@ -585,6 +632,7 @@ koKR = "오염"
 
 ["Floodgates.WaterSourceRegulator.Threshold1"]
 raw = "Close <"
+status = "normal"
 enUS = "Close"
 zhCN = "关闭 <"
 zhTW = "關閉 <"
@@ -598,6 +646,7 @@ koKR = "닫다 <"
 
 ["Floodgates.WaterSourceRegulator.Threshold2"]
 raw = "Close >"
+status = "normal"
 enUS = "Close"
 zhCN = "关闭 >"
 zhTW = "關閉 >"
@@ -611,6 +660,7 @@ koKR = "닫기 >"
 
 ["Floodgates.WaterSourceRegulator.Threshold3"]
 raw = "Open <"
+status = "normal"
 enUS = "Open <"
 zhCN = "开启 <"
 zhTW = "開啟 <"
@@ -624,6 +674,7 @@ koKR = "열기 <"
 
 ["Floodgates.WaterSourceRegulator.Threshold4"]
 raw = "Open >"
+status = "normal"
 enUS = "Open"
 zhCN = "开启 >"
 zhTW = "開啟 >"
@@ -637,6 +688,7 @@ koKR = "열기 >"
 
 ["Floodgates.WaterSourceRegulator.CloseStartTime"]
 raw = "Close at"
+status = "normal"
 enUS = "Close at"
 zhCN = "关闭的时刻"
 zhTW = "關閉於"
@@ -650,6 +702,7 @@ koKR = "닫기 시간"
 
 ["Floodgates.WaterSourceRegulator.OpenStartTime"]
 raw = "Open at"
+status = "normal"
 enUS = "Open at"
 zhCN = "开启的时刻"
 zhTW = "打開於"
@@ -663,6 +716,7 @@ koKR = "열기"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringDrought"]
 raw = "Disable during drought"
+status = "normal"
 enUS = "Disable during drought"
 zhCN = "干旱期时禁用此设置"
 zhTW = "在乾旱期間禁用"
@@ -676,6 +730,7 @@ koKR = "가뭄 중 비활성화"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringTemperate"]
 raw = "Disable during temperate"
+status = "normal"
 enUS = "Disable during temperate"
 zhCN = "温和天气时禁用此设置"
 zhTW = "在温带期间禁用"
@@ -689,6 +744,7 @@ koKR = "온대 기간 동안 비활성화"
 
 ["Floodgate.WaterSourceRegulator.CloseOnDroughtStart"]
 raw = "Close when drought starts"
+status = "normal"
 enUS = "Close when drought begins."
 zhCN = "干旱期开始时关闭"
 zhTW = "在乾旱開始時關閉"
@@ -702,6 +758,7 @@ koKR = "가뭄이 시작될 때 닫기"
 
 ["Floodgate.WaterSourceRegulator.OpenOnDroughtStart"]
 raw = "Open when drought starts"
+status = "normal"
 enUS = "Open when the drought begins."
 zhCN = "干旱期开始时开启"
 zhTW = "乾旱開始時打開"
@@ -715,6 +772,7 @@ koKR = "가뭄이 시작될 때 열기"
 
 ["Floodgate.WaterSourceRegulator.OpenOnTemperateStart"]
 raw = "Open when temperate starts"
+status = "normal"
 enUS = "Open when the temperature starts."
 zhCN = "温和天气开始时开启"
 zhTW = "當氣候開始變暖時打開"
@@ -728,6 +786,7 @@ koKR = "온대 시작 시 열림"
 
 ["Floodgate.WaterSourceRegulator.CloseOnTemperateStart"]
 raw = "Close when temperate starts"
+status = "normal"
 enUS = "Close when the temperature rises."
 zhCN = "温和天气开始时关闭"
 zhTW = "當氣溫開始上升時關閉"
@@ -741,6 +800,7 @@ koKR = "온도가 시작되면 닫기"
 
 ["Floodgate.WaterSourceRegulator.OpenOnBadtideStart"]
 raw = "Open when badtide starts"
+status = "normal"
 enUS = "Open when the bad tide starts."
 zhCN = "恶水潮开始时开启"
 zhTW = "壞潮開始時打開"
@@ -754,6 +814,7 @@ koKR = "나쁜 조수가 시작될 때 열림"
 
 ["Floodgate.WaterSourceRegulator.CloseOnBadtideStart"]
 raw = "Close when badtide starts"
+status = "normal"
 enUS = "Close when the bad tide starts."
 zhCN = "恶水潮开始时关闭"
 zhTW = "在惡潮開始時關閉"
@@ -767,6 +828,7 @@ koKR = "악조가 시작될 때 닫기"
 
 ["Floodgate.Schedule.CloseOnSchedule"]
 raw = "Close/Open on a schedule"
+status = "normal"
 enUS = "Close/Open on a schedule"
 zhCN = "按照时刻表关闭和开启"
 zhTW = "按計劃關閉/開啟"
@@ -780,6 +842,7 @@ koKR = "일정에 따라 닫기/열기"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringBadtide"]
 raw = "Disable during badtide"
+status = "normal"
 enUS = "Disable during bad tide"
 zhCN = "恶水潮时禁用此设置"
 zhTW = "在壞潮期間禁用"
@@ -790,3 +853,7 @@ deDE = "Während der schlechten Tide deaktivieren"
 plPL = "Wyłącz w czasie złej pływu"
 ptBR = "Desabilitar durante a maré baixa"
 koKR = "나쁜 조수 동안 비활성화"
+
+["Floodgates.Triggers.Empty"]
+new = ""
+status = "normal"

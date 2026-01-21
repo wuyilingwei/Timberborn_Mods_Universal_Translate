@@ -1,5 +1,8 @@
+name = "Vertical Farming (Configurable Plants)"
+
 ["LV.VF.RemoveCorner"]
 raw = "Remove corner occupation"
+status = "normal"
 enUS = "Remove corner occupation"
 zhCN = "移除角落占用"
 zhTW = "移除角落佔用"
@@ -13,6 +16,7 @@ koKR = "코너 점유 제거"
 
 ["LV.VF.RemoveCornerDesc"]
 raw = "Allow you to build structures like Platforms over plants"
+status = "normal"
 enUS = "Allows you to build structures like platforms over plants."
 zhCN = "勾选后，可以在植物上建造平台等结构建筑。"
 zhTW = "讓您在植物上建立像平台的結構"
@@ -26,6 +30,7 @@ koKR = "식물 위에 플랫폼과 같은 구조물을 건설할 수 있습니�
 
 ["LV.VF.RemovePath"]
 raw = "Remove path occupation"
+status = "normal"
 enUS = "Remove path obstruction"
 zhCN = "移除路径占用"
 zhTW = "移除路徑佔用"
@@ -39,6 +44,7 @@ koKR = "경로 점유 제거"
 
 ["LV.VF.RemovePathDesc"]
 raw = "Allow you to build Paths through plants"
+status = "normal"
 enUS = "Allow you to build paths through plants"
 zhCN = "勾选后，可以在植物上铺设道路。"
 zhTW = "允許您透過植物建造小徑"
@@ -52,6 +58,7 @@ koKR = "식물을 통해 길을 건설할 수 있습니다"
 
 ["LV.VF.WithoutGround"]
 raw = "Plant without ground"
+status = "normal"
 enUS = "Plant without soil"
 zhCN = "无地面种植"
 zhTW = "無土栽培"
@@ -65,6 +72,7 @@ koKR = "땅 없이 심기"
 
 ["LV.VF.WithoutGroundDesc"]
 raw = "Allow placement on roofs and platforms directly without soil. Those plants get irrigation (moisture) and contamination from the land under it."
+status = "normal"
 enUS = "Allow placement on roofs and platforms directly without soil. Those plants receive irrigation (moisture) and contaminants from the land beneath them."
 zhCN = "勾选后，可以直接在屋顶和平台上种植，无需泥土；植物的灌溉或污染受正下方的土地影响。"
 zhTW = "允許直接在屋頂和平台上放置，而不需要土壤。這些植物會從其下方的土地獲得灌溉（濕氣）和污染。"
@@ -78,6 +86,7 @@ koKR = "토양 없이 지붕과 플랫폼에 직접 배치할 수 있습니다. 
 
 ["LV.VF.NoConUp"]
 raw = "  No contamination up (cheater :P)"
+status = "normal"
 enUS = "No contamination up (cheater :P)"
 zhCN = "无污染上涌"
 zhTW = "沒有污染 (作弊者 :P)"
@@ -91,6 +100,7 @@ koKR = "오염 없음 (치트 :P)"
 
 ["LV.VF.NoConUpDesc"]
 raw = "Do not bring land contamination up, which means you can plant trees or crops on platforms while you can not on the land below"
+status = "normal"
 enUS = "Do not mention land contamination, which means you can plant trees or crops on platforms while you cannot on the land below."
 zhCN = "勾选后，屋顶和平台上种植的植物默认被灌溉，不再受正下方土地影响。"
 zhTW = "不要提到土地污染，這意味著你可以在平台上種植樹木或作物，而不能在下面的土地上種植。"

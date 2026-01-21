@@ -1,5 +1,8 @@
+name = "Configurable Game Speed"
+
 ["LV.CGS.Speed"]
 raw = "Speed {0}"
+status = "normal"
 enUS = "Speed {0}"
 zhCN = "速度 {0}"
 zhTW = "速度 {0}"
@@ -13,6 +16,7 @@ koKR = "속도 {0}"
 
 ["LV.CGS.SpeedDev"]
 raw = "This speed is available in Dev Mode or through other mods only."
+status = "normal"
 enUS = "This speed is available only in Dev Mode or through other mods."
 zhCN = "此速度仅可在开发者模式下或其他模组中通过快捷键使用。"
 zhTW = "這個速度僅在開發模式或透過其他模組時可用。"
@@ -26,6 +30,7 @@ koKR = "이 속도는 개발 모드 또는 다른 모드를 통해서만 사용�
 
 ["LV.CGS.SpeedSlow"]
 raw = "Slow Speed"
+status = "normal"
 enUS = "Slow Speed"
 zhCN = "慢速"
 zhTW = "慢速"
@@ -39,6 +44,7 @@ koKR = "느린 속도"
 
 ["LV.CGS.SpeedSlowDesc"]
 raw = "Default x0.25 speed, normally available only in Dev Mode with hotkey Shift + 1"
+status = "normal"
 enUS = "Default x0.25 speed, normally available only in Dev Mode with the hotkey Shift + 1."
 zhCN = "默认x0.25速度，此速度仅可在开发者模式下通过快捷键 Shift + 1 使用。"
 zhTW = "預設 x0.25 速度，通常只有在開發模式下可用，熱鍵是 Shift + 1"

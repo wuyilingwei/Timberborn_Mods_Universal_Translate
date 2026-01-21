@@ -1,5 +1,8 @@
+name = "Stable Core"
+
 ["LV.StC.StableCoreName"]
 raw = "Stable Core"
+status = "normal"
 enUS = "Stable Core"
 zhCN = "稳定核心"
 zhTW = "穩定核心"
@@ -13,6 +16,7 @@ koKR = "안정된 코어"
 
 ["LV.StC.StableCoreDesc"]
 raw = "A stablized core that can be armed at any time and will detonat after a long delay"
+status = "normal"
 enUS = "A stablized core that can be armed at any time and will detonat after a long delay"
 zhCN = "一个稳定的装置，激活一段时间后才会引爆。"
 zhTW = "一個穩定的核心，可以隨時裝備，並在長時間延遲後引爆。"
@@ -26,6 +30,8 @@ koKR = "언제든지 장착할 수 있는 안정화된 코어로, 긴 지연 후
 
 ["LV.StC.StableCoreFlavor"]
 raw = "'Still blows my mind how hoomans thought ‘unstable’ was a feature.' —xa0Beaverton"
+new = "'Still blows my mind how hoomans thought ‘unstable’ was a feature.' —xa0Beaverton"
+status = "normal"
 enUS = "'Still blows my mind how hoomans thought ‘unstable’ was a feature.' —xa0Beaverton"
 zhCN = "“人类居然认为‘不稳定’是一种特性，真让我震惊。”——海狸科学家"
 zhTW = "「讓我驚訝的是，人類竟然認為『不穩定』是一個特性。」 — 皮卡頓"
@@ -39,6 +45,7 @@ koKR = "'불안정하다'는 것이 특징이라고 인간들이 생각한 게 �
 
 ["LV.StC.Arm"]
 raw = "Arm"
+status = "normal"
 enUS = "Arm"
 zhCN = "激活"
 zhTW = "臂"
@@ -52,6 +59,7 @@ koKR = "팔"
 
 ["LV.StC.ArmDesc"]
 raw = "After arming, the Stable Core will explode in {0:0.0} days. Once armed, the count-down cannot be stopped."
+status = "normal"
 enUS = "After arming, the Stable Core will explode in {0:0.0} days. Once armed, the count-down cannot be stopped."
 zhCN = "激活后，稳定核心将在 {0:0.0} 天后爆炸。一旦激活，倒计时无法中止。"
 zhTW = "武裝後，穩定核心將在 {0:0.0} 天內爆炸。一旦武裝，倒計時將無法停止。"
@@ -65,6 +73,7 @@ koKR = "무장 후, 스테이블 코어는 {0:0.0}일 안에 폭발합니다. �
 
 ["LV.StC.NoDelete"]
 raw = "Cannot destroy a Stable Core"
+status = "normal"
 enUS = "Cannot destroy a Stable Core"
 zhCN = "无法销毁稳定核心。"
 zhTW = "無法摧毀穩定核心"
@@ -78,6 +87,7 @@ koKR = "스테이بل 코어를 파괴할 수 없습니다"
 
 ["LV.StC.Armed"]
 raw = "Core armed"
+status = "normal"
 enUS = "Core armed"
 zhCN = "核心已激活。"
 zhTW = "核心武裝"
@@ -91,6 +101,7 @@ koKR = "핵심 무장"
 
 [Name_StableCoreFragment]
 raw = "Stable Core"
+status = "normal"
 enUS = "Stable Core"
 zhCN = "稳定核心"
 zhTW = "穩定核心"

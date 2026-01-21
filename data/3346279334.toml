@@ -1,5 +1,8 @@
+name = "Choo!Choo!"
+
 ["Tobbert.TrackStraight.DisplayName"]
 raw = "Straight Train Track"
+status = "normal"
 enUS = "Straight Train Track"
 zhCN = "直线轨道"
 zhTW = "直線火車軌道"
@@ -13,6 +16,7 @@ koKR = "직선 기차 트랙"
 
 ["Tobbert.TrackStraight.Description"]
 raw = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
+status = "normal"
 enUS = "A track piece that goes straight. It can be changed to a one-way signal using the toggle when clicked on. It creates a track section between one-ways that allows a single train to be on it (indicated by the colors)."
 zhCN = "火车直线前进的轨道，可以切换为单向轨道。<br><color=#FFFF1A>互相连接的轨道组成轨道段，有相同颜色。</color><br><color=#FFA500>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>"
 zhTW = "一段直行的軌道片。點擊時可以通過開關變更為單行信號。創建一個單行之間的軌道區段，允許一列列車在上面行駛（以顏色表示）。"
@@ -26,6 +30,7 @@ koKR = "직선으로 되어 있는 트랙 조각입니다. 클릭 시 전환을 
 
 ["Tobbert.TrackStraight.FlavorDescription"]
 raw = "Choo! Choo!"
+status = "normal"
 enUS = "Choo! Choo!"
 zhCN = "“嘟嘟——”（火车鸣笛声）"
 zhTW = "啾！啾！"
@@ -39,6 +44,7 @@ koKR = "촤촤!"
 
 ["Tobbert.TrackOneWay.DisplayName"]
 raw = "One way signal Track"
+status = "normal"
 enUS = "One-way signal track"
 zhCN = "单向轨道"
 zhTW = "單向信號軌道"
@@ -52,6 +58,7 @@ koKR = "일방통행 신호 트랙"
 
 ["Tobbert.TrackOneWay.Description"]
 raw = "Will tell trains that they can only go through the green side. Can be changed back to a straight track by using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
+status = "normal"
 enUS = "Will inform trains that they can only pass through the green side. It can be switched back to a straight track by using the toggle when clicking on it. It creates a track section between one-way tracks that allows a single train to be on it (indicated by the colors)."
 zhCN = "火车按路标方向通行的轨道，可以切换为直线轨道。<br><color=#FFFF1A>单向轨道会分隔不同轨道段，以颜色区分。</color><br><color=#FFA500>每个轨道段上只能有一辆火车通行，其他火车会在轨道段前依次等待。</color>"
 zhTW = "將告訴火車只能通過綠色的路段。點擊開關可以將其改回直線軌道。在單行道之間創建一段軌道，使得只有一列火車可以在上面行駛（由顏色顯示）。"
@@ -65,6 +72,7 @@ koKR = "기차가 초록색 측면으로만 이동할 수 있음을 알립니다
 
 ["Tobbert.TrackOneWay.FlavorDescription"]
 raw = "You... Shall... Pass..."
+status = "normal"
 enUS = "You... Shall... Pass..."
 zhCN = "逆行扣3分，罚款200元！"
 zhTW = "你…將…通過…"
@@ -78,6 +86,7 @@ koKR = "너... 지나가야... 한다..."
 
 ["Tobbert.TrackCrossing.DisplayName"]
 raw = "Train Track Crossing"
+status = "normal"
 enUS = "Train Track Crossing"
 zhCN = "可穿越轨道"
 zhTW = "火車軌道交叉口"
@@ -91,6 +100,7 @@ koKR = "기차 선로 교차로"
 
 ["Tobbert.TrackCrossing.Description"]
 raw = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
+status = "normal"
 enUS = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
 zhCN = "海狸可以在这里穿过轨道。"
 zhTW = "水獺可以在這裡穿越軌道。由於性能會受到太大影響，因此不會實現碰撞。"
@@ -104,6 +114,7 @@ koKR = "비버는 여기서 선로를 가로지를 수 있습니다. 충돌은 �
 
 ["Tobbert.TrackCrossing.FlavorDescription"]
 raw = "That train is approaching very fa-"
+status = "normal"
 enUS = "That train is approaching very fast."
 zhCN = "“诶诶你看，火车开过来——砰！"
 zhTW = "那列火車正快速接近-"
@@ -117,6 +128,7 @@ koKR = "그 기차가 매우 빠르게 다가오고 있어-"
 
 ["Tobbert.TrackHillStart.DisplayName"]
 raw = "Slope Track"
+status = "normal"
 enUS = "Slope Track"
 zhCN = "斜坡轨道"
 zhTW = "斜坡道"
@@ -130,6 +142,7 @@ koKR = "경사선"
 
 ["Tobbert.TrackHillStart.Description"]
 raw = "A track that lets trains go up and down."
+status = "normal"
 enUS = "A track that allows trains to ascend and descend."
 zhCN = "用于上下坡的轨道。"
 zhTW = "一條讓火車上下行駛的軌道。"
@@ -143,6 +156,7 @@ koKR = "기차가 위아래로 이동할 수 있는 트랙입니다."
 
 ["Tobbert.TrackHillStart.FlavorDescription"]
 raw = "Is the train not to heavy?"
+status = "normal"
 enUS = "Is the train not too heavy?"
 zhCN = "这辆火车没有超重吧？"
 zhTW = "火車不會太重嗎？"
@@ -156,6 +170,7 @@ koKR = "기차가 너무 무겁지 않나요?"
 
 ["Tobbert.TrackCorner1x1.DisplayName"]
 raw = "Corner 1x1 Train Track"
+status = "normal"
 enUS = "Corner 1x1 Train Track"
 zhCN = "转弯轨道 1x1"
 zhTW = "角落 1x1 鐵道"
@@ -169,6 +184,7 @@ koKR = "코너 1x1 기차 트랙"
 
 ["Tobbert.TrackCorner1x1.Description"]
 raw = "A Track Piece that around a corner."
+status = "normal"
 enUS = "A track piece that goes around a corner."
 zhCN = "用于转弯的轨道。"
 zhTW = "一個轉角的軌道片。"
@@ -182,6 +198,7 @@ koKR = "모퉁이를 도는 트랙 조각."
 
 ["Tobbert.TrackCorner1x1.FlavorDescription"]
 raw = "Might be a little tight."
+status = "normal"
 enUS = "Might be a little tight."
 zhCN = "好急的弯，逮虾户！"
 zhTW = "可能會有點緊。"
@@ -195,6 +212,7 @@ koKR = "조금 비좁을 수도 있습니다."
 
 ["Tobbert.TrackCorner2x2.DisplayName"]
 raw = "Corner 2x2 Train Track"
+status = "normal"
 enUS = "Corner 2x2 Train Track"
 zhCN = "转弯轨道 2x2"
 zhTW = "轉角 2x2 鐵路軌道"
@@ -208,6 +226,7 @@ koKR = "모서리 2x2 기차 트랙"
 
 ["Tobbert.TrackCorner2x2.Description"]
 raw = "A Track Piece that around a larger corner."
+status = "normal"
 enUS = "A track piece that goes around a larger corner."
 zhCN = "用于转弯的轨道，占地面积更大。"
 zhTW = "一段圍繞較大轉彎的軌道。"
@@ -221,6 +240,7 @@ koKR = "더 큰 모퉁이를 둘러싼 트랙 조각."
 
 ["Tobbert.TrackCorner2x2.FlavorDescription"]
 raw = "What a nice looking curve."
+status = "normal"
 enUS = "What a nice looking curve."
 zhCN = "噢，多么漂亮的曲线！"
 zhTW = "多麼好看的曲線。"
@@ -234,6 +254,7 @@ koKR = "정말 멋진 곡선이네."
 
 ["Tobbert.TrackTIntersection1x1.DisplayName"]
 raw = "T intersection Train Track 1x1"
+status = "normal"
 enUS = "T intersection Train Track 1x1"
 zhCN = "T 型交叉轨道 1x1"
 zhTW = "T字形交岔口火車軌道 1x1"
@@ -247,6 +268,7 @@ koKR = "T형 교차로 기차 선로 1x1"
 
 ["Tobbert.TrackTIntersection1x1.Description"]
 raw = "A intersection in the form of a T for trains."
+status = "normal"
 enUS = "A T-shaped intersection for trains."
 zhCN = "用于交叉汇合的轨道。"
 zhTW = "一個呈T形的火車交叉口。"
@@ -260,6 +282,7 @@ koKR = "기차를 위한 T자 형태의 교차로."
 
 ["Tobbert.TrackTIntersection1x1.FlavorDescription"]
 raw = "Which way should I go?"
+status = "normal"
 enUS = "Which way should I go?"
 zhCN = "我从哪里来？"
 zhTW = "我應該走哪條路？"
@@ -273,6 +296,7 @@ koKR = "어느 쪽으로 가야 할까요?"
 
 ["Tobbert.TrackTIntersection2x3.DisplayName"]
 raw = "T intersection Train Track 2x3"
+status = "normal"
 enUS = "T intersection Train Track 2x3"
 zhCN = "T 型交叉轨道 2x3"
 zhTW = "T 形交叉火車軌道 2x3"
@@ -286,6 +310,7 @@ koKR = "T자 교차로 기차 트랙 2x3"
 
 ["Tobbert.TrackTIntersection2x3.Description"]
 raw = "A intersection in the form of a T for trains."
+status = "normal"
 enUS = "A T-shaped intersection for trains."
 zhCN = "用于交叉汇合的轨道，占地面积更大。"
 zhTW = "一個以T字形交叉的火車路口。"
@@ -299,6 +324,7 @@ koKR = "기차를 위한 T자 형태의 교차로."
 
 ["Tobbert.TrackTIntersection2x3.FlavorDescription"]
 raw = "Where will those paths lead to?"
+status = "normal"
 enUS = "Where will those paths lead?"
 zhCN = "我要到哪里去？"
 zhTW = "那些道路將通向哪裡？"
@@ -312,6 +338,7 @@ koKR = "그 길들은 어디로 이어질까요?"
 
 ["Tobbert.TrackXIntersection1x1.DisplayName"]
 raw = "X intersection Train Track 1x1"
+status = "normal"
 enUS = "X intersection Train Track 1x1"
 zhCN = "X 型交叉轨道 1x1"
 zhTW = "X 交叉火車軌道 1x1"
@@ -325,6 +352,7 @@ koKR = "X 교차로 기차 선로 1x1"
 
 ["Tobbert.TrackXIntersection1x1.Description"]
 raw = "A intersection in the form of a X for trains."
+status = "normal"
 enUS = "A railroad crossing in the shape of an X for trains."
 zhCN = "用于交叉汇合的轨道。"
 zhTW = "一個形狀像X的火車交叉口。"
@@ -338,6 +366,7 @@ koKR = "기차를 위한 X형 교차로입니다."
 
 ["Tobbert.TrackXIntersection1x1.FlavorDescription"]
 raw = "So many options!"
+status = "normal"
 enUS = "So many options!"
 zhCN = "更多的选择。"
 zhTW = "這麼多選擇！"
@@ -351,6 +380,7 @@ koKR = "많은 선택지!"
 
 ["Tobbert.TrackXIntersection3x3.DisplayName"]
 raw = "X intersection Train Track 3x3"
+status = "normal"
 enUS = "X intersection Train Track 3x3"
 zhCN = "X 型交叉轨道 3x3"
 zhTW = "X 交叉火車軌道 3x3"
@@ -364,6 +394,7 @@ koKR = "X 교차로 기차 선로 3x3"
 
 ["Tobbert.TrackXIntersection3x3.Description"]
 raw = "A intersection in the form of a X for trains."
+status = "normal"
 enUS = "A railroad crossing in the shape of an X for trains."
 zhCN = "用于交叉汇合的轨道，占地面积更大。"
 zhTW = "一個以 X 形交叉的鐵路交接口。"
@@ -377,6 +408,7 @@ koKR = "기차용 X자 형태의 교차로입니다."
 
 ["Tobbert.TrackXIntersection3x3.FlavorDescription"]
 raw = "I just cannot choose where to go..."
+status = "normal"
 enUS = "I just cannot choose where to go..."
 zhCN = "更多的迷茫。"
 zhTW = "我就是無法決定要去哪裡..."
@@ -390,6 +422,7 @@ koKR = "어디로 가야 할지 도무지 선택할 수가 없어요..."
 
 ["Tobbert.TrackRIntersection2x3.DisplayName"]
 raw = "Switch Train Track 2x3"
+status = "normal"
 enUS = "Switch Train Track 2x3"
 zhCN = "分岔轨道 2x3"
 zhTW = "切換火車軌道 2x3"
@@ -403,6 +436,7 @@ koKR = "스위치 기차 트랙 2x3"
 
 ["Tobbert.TrackRIntersection2x3.Description"]
 raw = "A switch in the form of a R for trains."
+status = "normal"
 enUS = "A switch in the form of an R for trains."
 zhCN = "用于分岔的轨道。"
 zhTW = "一個以R形狀的開關，適用於火車。"
@@ -416,6 +450,7 @@ koKR = "기차용 R 형태의 스위치입니다."
 
 ["Tobbert.TrackRIntersection2x3.FlavorDescription"]
 raw = "Where R we going?"
+status = "normal"
 enUS = "Where are we going?"
 zhCN = "这到底是分岔还是汇合？"
 zhTW = "我們要去哪裡？"
@@ -429,6 +464,7 @@ koKR = "우리는 어디로 가고 있나요?"
 
 ["Tobbert.GoodsStation.DisplayName"]
 raw = "Goods station"
+status = "normal"
 enUS = "Freight station"
 zhCN = "货物站"
 zhTW = "貨物站"
@@ -442,6 +478,7 @@ koKR = "물류역"
 
 ["Tobbert.GoodsStation.Description"]
 raw = "Allows for transportation of goods by trains. A good can either be send or received at a station. Goods received will only be moved to storages that are set to obtain."
+status = "normal"
 enUS = "Allows for the transportation of goods by trains. A good can either be sent or received at a station. Goods received will only be moved to storage that is designated to obtain."
 zhCN = "在货物站分发和接收物品，并通过火车运送。<br><color=#FFFF1A>分发：搬运工将物品从非“获取”状态的储存建筑搬至货物站，由火车运送至其他货物站。<br>接收：火车将物品运送至货物站，由搬运工搬至“获取”状态的储存建筑。</color><br><color=#FFA500>货物站与单向轨道直接连接可能导致其无法被正确识别，请间隔至少一节轨道后再设置单向轨道。</color>"
 zhTW = "允許通過火車運輸貨物。貨物可以在車站發送或接收。接收的貨物將僅移動到被設置為接收的儲存區。"
@@ -455,6 +492,7 @@ koKR = "기차를 통한 물품 운송을 허용합니다. 물품은 역에서 �
 
 ["Tobbert.GoodsStation.FlavorDescription"]
 raw = "Look at all the goods it can hold."
+status = "normal"
 enUS = "Look at all the goods it can hold."
 zhCN = "铁路物流！"
 zhTW = "看看它能容納的所有貨物。"
@@ -468,6 +506,7 @@ koKR = "저것이 얼마나 많은 물건을 담을 수 있는지 보세요."
 
 ["Tobbert.PassengerStation.DisplayName"]
 raw = "Passenger station"
+status = "normal"
 enUS = "Passenger station"
 zhCN = "乘客站"
 zhTW = "客運站"
@@ -481,6 +520,7 @@ koKR = " passenger station"
 
 ["Tobbert.PassengerStation.Description"]
 raw = "This stations allows beavers to get on the train and travel to another station that are connected to each other."
+status = "normal"
 enUS = "This station allows beavers to get on the train and travel to another station that is connected to it."
 zhCN = "允许通过火车运送海狸，海狸可以通过火车前往另一个乘客站。"
 zhTW = "這個車站允許海狸上車，並前往彼此相連的另一個車站。"
@@ -494,6 +534,7 @@ koKR = "이 역은 비버들이 기차에 타고 서로 연결된 다른 역으�
 
 ["Tobbert.PassengerStation.FlavorDescription"]
 raw = "Beaver train!"
+status = "normal"
 enUS = "Beaver train!"
 zhCN = "铁路客运！"
 zhTW = "海狸火車！"
@@ -507,6 +548,7 @@ koKR = "비버 기차!"
 
 ["Tobbert.PassengerStation.DistrictObjectToggle"]
 raw = "Goes across districts:"
+status = "normal"
 enUS = "Goes across districts:"
 zhCN = "跨地区"
 zhTW = "跨區域："
@@ -520,6 +562,7 @@ koKR = "구역을 가로지릅니다:"
 
 ["Tobbert.PassengerStation.DistrictObject"]
 raw = "When enabled will ONLY allow beavers to go passenger stations that also have this setting enabled and are in other districts."
+status = "normal"
 enUS = "When enabled, it will ONLY allow beavers to go to passenger stations that also have this setting enabled and are in other districts."
 zhCN = "启用后，只允许海狸前往同样启用此设置且属于其他地区中心的乘客站。"
 zhTW = "啟用時，只會允許海狸進入具備此設定並且位於其他區域的乘客站。"
@@ -533,6 +576,7 @@ koKR = "활성화되면 이 설정이 활성화되고 다른 구역에 있는 �
 
 ["Tobbert.PassengerStation.EmptyStation"]
 raw = "There are currently no passengers waiting."
+status = "normal"
 enUS = "There are currently no passengers waiting."
 zhCN = "目前没有乘客等待。"
 zhTW = "目前沒有乘客在等待。"
@@ -546,6 +590,7 @@ koKR = "현재 대기 중인 승객이 없습니다."
 
 ["Tobbert.WaitingStation.DisplayName"]
 raw = "Waiting Station"
+status = "normal"
 enUS = "Waiting Station"
 zhCN = "等候站"
 zhTW = "候車站"
@@ -559,6 +604,7 @@ koKR = "대기소"
 
 ["Tobbert.WaitingStation.Description"]
 raw = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure its not in any crucial paths."
+status = "normal"
 enUS = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot navigate over this, so make sure it's not in any crucial paths."
 zhCN = "火车没有运送任务时会在这里等待，防止占用轨道。<br><color=#FFFF1A>等候站不会被火车视作可用于运送物品的轨道。</color><br><color=#FFA500>建议与运送轨道并联，或者自身头尾相连后再与运送轨道连接。</color>"
 zhTW = "火車在這裡可以等候，當它們沒有事情要做時。這可以防止火車佔用軌道。火車無法繞行過這個地方，所以請確保它不在任何關鍵路徑上。"
@@ -572,6 +618,7 @@ koKR = "기차는 할 일이 없을 때 여기에서 대기할 수 있습니다.
 
 ["Tobbert.WaitingStation.FlavorDescription"]
 raw = "When can I go again?"
+status = "normal"
 enUS = "When can I go again?"
 zhCN = "等待发车中。"
 zhTW = "我什麼時候可以再去？"
@@ -585,6 +632,7 @@ koKR = "다시 언제 갈 수 있지?"
 
 ["Tobbert.TrainYard.DisplayName"]
 raw = "Train Yard"
+status = "normal"
 enUS = "Train Yard"
 zhCN = "造车站"
 zhTW = "火車場"
@@ -598,6 +646,7 @@ koKR = "기차 마당"
 
 ["Tobbert.TrainYard.Description"]
 raw = "A building that creates trains."
+status = "normal"
 enUS = "A building that produces trains."
 zhCN = "用于建造火车的车站。"
 zhTW = "一座製造火車的建築。"
@@ -611,6 +660,7 @@ koKR = "기차를 만드는 건물입니다."
 
 ["Tobbert.TrainYard.FlavorDescription"]
 raw = "This is where trains are born."
+status = "normal"
 enUS = "This is where trains are born."
 zhCN = "这里就是火车的诞生地。"
 zhTW = "這裡是火車誕生的地方。"
@@ -624,6 +674,7 @@ koKR = "여기가 기차가 태어나는 곳입니다."
 
 ["Tobbert.TrainYard.CostOfTrain"]
 raw = "Cost of 1 train:"
+status = "normal"
 enUS = "Cost of 1 train:"
 zhCN = "每辆火车需要: "
 zhTW = "一列火車的成本："
@@ -637,6 +688,7 @@ koKR = "기차 1대의 비용:"
 
 ["Tobbert.TrainYard.CreateTrain"]
 raw = "Build train"
+status = "normal"
 enUS = "Build train"
 zhCN = "建造火车"
 zhTW = "建造火車"
@@ -650,6 +702,7 @@ koKR = "기차 건설"
 
 ["Tobbert.Train.PrefabName"]
 raw = "Train"
+status = "normal"
 enUS = "Train"
 zhCN = "火车"
 zhTW = "火車"
@@ -663,6 +716,7 @@ koKR = "기차"
 
 ["Tobbert.Wagon.PrefabName"]
 raw = "Wagon"
+status = "normal"
 enUS = "Wagon"
 zhCN = "车厢"
 zhTW = "貨車"
@@ -676,6 +730,7 @@ koKR = "마차"
 
 ["Tobbert.TrainModel.TrainModel"]
 raw = "Train Model:"
+status = "normal"
 enUS = "Train Model:"
 zhCN = "车头样式:"
 zhTW = "訓練模型："
@@ -689,6 +744,7 @@ koKR = "기차 모델:"
 
 ["Tobbert.TrainModel.SmallLog"]
 raw = "Small Log"
+status = "normal"
 enUS = "Small Log"
 zhCN = "简易车头"
 zhTW = "小木頭"
@@ -702,6 +758,7 @@ koKR = "작은 통나무"
 
 ["Tobbert.TrainModel.BigWooden"]
 raw = "Big Wooden"
+status = "normal"
 enUS = "Big Wooden"
 zhCN = "豪华车头"
 zhTW = "大木頭"
@@ -715,6 +772,7 @@ koKR = "큰 나무"
 
 ["Tobbert.WagonModel.WagonModel"]
 raw = "Wagon Model:"
+status = "normal"
 enUS = "Wagon Model:"
 zhCN = "车厢样式:"
 zhTW = "貨車型號："
@@ -728,6 +786,7 @@ koKR = "Wagon Model:\" in Korean is \"짐차 모델:"
 
 ["Tobbert.WagonModel.BoxWagon"]
 raw = "Box Wagon"
+status = "normal"
 enUS = "Box Wagon"
 zhCN = "货运车厢"
 zhTW = "箱式貨車"
@@ -741,6 +800,7 @@ koKR = "박스 짐마차"
 
 ["Tobbert.WagonModel.TankWagon"]
 raw = "Tank Wagon"
+status = "normal"
 enUS = "Tank Wagon"
 zhCN = "槽罐车厢"
 zhTW = "罐車"
@@ -754,6 +814,7 @@ koKR = "탱크 수송차"
 
 ["Tobbert.WagonModel.FlatWagon"]
 raw = "Flat Wagon"
+status = "normal"
 enUS = "Flat Wagon"
 zhCN = "平板车厢"
 zhTW = "平車"
@@ -767,6 +828,7 @@ koKR = "평평한 마차"
 
 ["Tobbert.WagonModel.FlipperWagon"]
 raw = "Gondola Wagon"
+status = "normal"
 enUS = "Gondola Wagon"
 zhCN = "煤运车厢"
 zhTW = "缆车货车"
@@ -780,6 +842,7 @@ koKR = "곤돌라 마차"
 
 ["Tobbert.WagonModel.MetalCart"]
 raw = "Metal Cart"
+status = "normal"
 enUS = "Metal Cart"
 zhCN = "矿运车厢"
 zhTW = "金屬手推車"
@@ -793,6 +856,7 @@ koKR = "금속 카트"
 
 ["Tobbert.WagonModel.PassengerWagon"]
 raw = "Passenger Wagon"
+status = "normal"
 enUS = "Passenger Car"
 zhCN = "客运车厢"
 zhTW = "客運車廂"
@@ -806,6 +870,7 @@ koKR = "승객 차량"
 
 ["Tobbert.BatchControl.Trains"]
 raw = "Trains"
+status = "normal"
 enUS = "Trains"
 zhCN = "火车"
 zhTW = "火車"
@@ -819,6 +884,7 @@ koKR = "기차"
 
 ["Tobbert.Train.Length"]
 raw = "Train Length:"
+status = "normal"
 enUS = "Train Length:"
 zhCN = "火车长度: "
 zhTW = "列車長度："
@@ -832,6 +898,7 @@ koKR = "기차 길이:"
 
 ["Tobbert.Train.Destroy"]
 raw = "Are you sure you want to destroy this train?"
+status = "normal"
 enUS = "Are you sure you want to destroy this train?"
 zhCN = "确定要拆除选中的火车吗？"
 zhTW = "你確定要摧毀這列火車嗎？"
@@ -845,6 +912,7 @@ koKR = "이 기차를 파괴하시겠습니까?"
 
 ["Tobbert.GoodsStation.Distribution.Header"]
 raw = "Distributed goods"
+status = "normal"
 enUS = "Distributed goods"
 zhCN = "货物分发与接收"
 zhTW = "分配商品"
@@ -858,6 +926,7 @@ koKR = "분배된 상품"
 
 ["Tobbert.GoodsStation.Distribution.Disabled.Info"]
 raw = "Distribution disabled by distribution settings."
+status = "normal"
 enUS = "Distribution disabled by distribution settings."
 zhCN = "已在选项卡禁用。"
 zhTW = "因發佈設定而停用發佈功能。"
@@ -871,6 +940,7 @@ koKR = "배급 설정에 의해 배급이 비활성화되었습니다."
 
 ["Tobbert.GoodsStation.Distribution.Sending.Info"]
 raw = "Distribution set to sending by distribution settings."
+status = "normal"
 enUS = "Distribution configured to send according to distribution settings."
 zhCN = "已在选项卡设置为分发。"
 zhTW = "根據分配設定設定的發送分配。"
@@ -884,6 +954,7 @@ koKR = "배포 설정에 따라 전송으로 설정됨."
 
 ["Tobbert.GoodsStation.Distribution.Receiving.Info"]
 raw = "Distribution set to receiving by distribution settings."
+status = "normal"
 enUS = "Distribution set to receive according to distribution settings."
 zhCN = "已在选项卡设置为接收。"
 zhTW = "分配設置為根據分配設置接收。"
@@ -897,6 +968,7 @@ koKR = "배급 설정에 따라 수령으로 설정됨."
 
 ["Tobbert.BatchControl.GoodsStation"]
 raw = "Goods stations"
+status = "normal"
 enUS = "Goods stations"
 zhCN = "轨道运送"
 zhTW = "貨物站"
@@ -910,6 +982,7 @@ koKR = "물품역"
 
 ["Tobbert.BatchControl.DistributionDisabledAll"]
 raw = "Disable all distribution"
+status = "normal"
 enUS = "Disable all distribution"
 zhCN = "禁用所有分发与接收"
 zhTW = "禁用所有分發"
@@ -923,6 +996,7 @@ koKR = "모든 배포 비활성화"
 
 ["Tobbert.BatchControl.DistributionDisabled"]
 raw = "Distribution disabled"
+status = "normal"
 enUS = "Distribution disabled"
 zhCN = "禁用分发与接收"
 zhTW = "分發已禁用"
@@ -936,6 +1010,7 @@ koKR = "배포 비활성화"
 
 ["Tobbert.BatchControl.DistributionDisabled.Description"]
 raw = "Completely disable the distribution of this good at this station."
+status = "normal"
 enUS = "Completely disable the distribution of this product at this station."
 zhCN = "完全禁止在车站分发与接收此货物"
 zhTW = "在此站點完全停止該商品的分發。"
@@ -949,6 +1024,7 @@ koKR = "이 시설에서 이 상품의 배급을 완전히 비활성화합니다
 
 ["Tobbert.BatchControl.DistributionSendingAll"]
 raw = "Allow sending of all goods"
+status = "normal"
 enUS = "Allow the sending of all goods."
 zhCN = "允许所有分发"
 zhTW = "允許發送所有貨物"
@@ -962,6 +1038,7 @@ koKR = "모든 상품 발송 허용"
 
 ["Tobbert.BatchControl.DistributionSending"]
 raw = "Allow sending"
+status = "normal"
 enUS = "Allow sending"
 zhCN = "允许分发"
 zhTW = "允許發送"
@@ -975,6 +1052,7 @@ koKR = "전송 허용"
 
 ["Tobbert.BatchControl.DistributionSending.Description"]
 raw = "Station can send this good to other station. The maximum amount that can be inside the station is determined by the amount to the right."
+status = "normal"
 enUS = "The station can send this good to another station. The maximum amount that can be inside the station is determined by the amount to the right."
 zhCN = "允许车站将此货物分发到其他车站。站内货物存放上限由右侧数量决定。"
 zhTW = "站台可以將這個貨物發送到其他站台。站內最多可以容納的數量由右側的數量決定。"
@@ -988,6 +1066,7 @@ koKR = "이 역은 이 물품을 다른 역으로 보낼 수 있습니다. 역 �
 
 ["Tobbert.BatchControl.DistributionReceivingAll"]
 raw = "Allow receiving of all goods"
+status = "normal"
 enUS = "Allow the receipt of all goods."
 zhCN = "允许所有接收"
 zhTW = "允許接收所有貨物"
@@ -1001,6 +1080,7 @@ koKR = "모든 물품 수령 허용"
 
 ["Tobbert.BatchControl.DistributionReceiving"]
 raw = "Allow receiving"
+status = "normal"
 enUS = "Allow receiving"
 zhCN = "允许接收"
 zhTW = "允許接收"
@@ -1014,6 +1094,7 @@ koKR = "수신 허용"
 
 ["Tobbert.BatchControl.DistributionReceiving.Description"]
 raw = "Station can receive this good that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
+status = "normal"
 enUS = "The station can receive the goods that are sent from other stations. The maximum amount that can be inside the station is determined by the amount on the right."
 zhCN = "允许车站从其他车站接收此货物。站内货物存放上限由右侧数量决定。"
 zhTW = "車站可以接收從其他車站發送過來的貨物。車站內部的最大容量由右側的數量決定。"
@@ -1027,6 +1108,7 @@ koKR = "이 역은 다른 역에서 보내는 이 물품을 받을 수 있습니
 
 ["Tobbert.BatchControl.DecreaseMaximum"]
 raw = "Decrease max amount of goods"
+status = "normal"
 enUS = "Decrease maximum amount of goods"
 zhCN = "减少货物上限"
 zhTW = "減少商品的最大數量"
@@ -1040,6 +1122,7 @@ koKR = "최대 물품 수량 줄이기"
 
 ["Tobbert.BatchControl.DecreaseMaximum.Description"]
 raw = "Decrease the maximum amount that can be inside the station. Click is -1 and holding shift is -10. Max capacity is 200."
+status = "normal"
 enUS = "Decrease the maximum amount that can be inside the station. Clicking is -1 and holding shift is -10. Max capacity is 200."
 zhCN = "减少站内货物存放上限。<br>（单击：-1；按住shift：-10；最大上限为200）"
 zhTW = "減少站內的最大容納人數。點擊為-1，按住Shift為-10。最大容量為200。"
@@ -1053,6 +1136,7 @@ koKR = "정거장 내부에 있을 수 있는 최대 수량을 감소시킵니�
 
 ["Tobbert.BatchControl.IncreaseMaximum"]
 raw = "Increase max amount of goods"
+status = "normal"
 enUS = "Increase maximum amount of goods"
 zhCN = "增加货物上限"
 zhTW = "增加商品的最大數量"
@@ -1066,6 +1150,7 @@ koKR = "최대 자산 수량 증가"
 
 ["Tobbert.BatchControl.IncreaseMaximum.Description"]
 raw = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
+status = "normal"
 enUS = "Increase the maximum amount that can be inside the station. Clicking increases it by +1, and holding shift increases it by +10. The maximum capacity is 200."
 zhCN = "增加站内货物存放上限。<br>（单击：+1；按住shift：+10；最大上限为200）"
 zhTW = "增加車站內部的最大容量。點擊為 +1，按住 Shift 為 +10。最大容量為 200。"
@@ -1079,6 +1164,7 @@ koKR = "정거장 내부에 들어갈 수 있는 최대 양을 늘립니다. 클
 
 ["Tobbert.TrackSystem.ToggleSectionDivider"]
 raw = "Divides sections:"
+status = "normal"
 enUS = "Divides sections:"
 zhCN = "轨道切换"
 zhTW = "劃分區段："
@@ -1092,6 +1178,7 @@ koKR = "구역 나누기:"
 
 ["Tobbert.TrackSystem.ButtonChangeDirection"]
 raw = "Change direction"
+status = "normal"
 enUS = "Change direction"
 zhCN = "改变通行方向"
 zhTW = "改變方向"
@@ -1105,6 +1192,7 @@ koKR = "방향 변경"
 
 ["Tobbert.TrackSystem.CollidingSectionDividers"]
 raw = "Cannot connect 2 Section Dividers"
+status = "normal"
 enUS = "Cannot connect 2 section dividers"
 zhCN = "两个单向轨道之间不能直接连接"
 zhTW = "無法連接 2 節分隔符"
@@ -1118,6 +1206,7 @@ koKR = "두 개의 섹션 구분자를 연결할 수 없습니다"
 
 ["Tobbert.ToolGroup.Trains"]
 raw = "Trains"
+status = "normal"
 enUS = "Trains"
 zhCN = "火车"
 zhTW = "列車"
@@ -1131,6 +1220,7 @@ koKR = "기차"
 
 ["Tobbert.TrainYard.PreviewErrorMessage"]
 raw = "Only 1 Train Yard can be build"
+status = "normal"
 enUS = "Only 1 Train Yard can be built."
 zhCN = "只能建造一个造车站。"
 zhTW = "只能建造一個火車場"
@@ -1144,6 +1234,7 @@ koKR = "기차 마당은 하나만 건설할 수 있습니다."
 
 ["Tobbert.Trains.UnlockPrompt"]
 raw = "You need to unlock {0} to build {1}."
+status = "normal"
 enUS = "You need to unlock {0} to build {1}."
 zhCN = "需要解锁{0}才能建造{1}。"
 zhTW = "您需要解鎖 {0} 來建造 {1}。"
@@ -1157,6 +1248,7 @@ koKR = "{0}를 잠금 해제해야 {1}을(를) 건설할 수 있습니다."
 
 ["Tobbert.DistributionTrain.MinimumOfItemsToMove"]
 raw = "Minimum of items to move:"
+status = "normal"
 enUS = "Minimum number of items to move:"
 zhCN = "运送货物的最小数量: "
 zhTW = "最少搬運的物品數量："
@@ -1170,6 +1262,7 @@ koKR = "이동할 항목의 최소 수:"
 
 ["Tobbert.TrainNavigation.Unstuck"]
 raw = "Turn Around"
+status = "normal"
 enUS = "Turn Around"
 zhCN = "掉头"
 zhTW = "轉身"
@@ -1183,6 +1276,7 @@ koKR = "돌아가다"
 
 ["Tobbert.TrainNavigation.NoWaitingStation"]
 raw = "No available Waiting Station found."
+status = "normal"
 enUS = "No available Waiting Station found."
 zhCN = "没有可用的等候站。"
 zhTW = "未找到可用的等待站。"
@@ -1196,6 +1290,7 @@ koKR = "사용 가능한 대기소를 찾을 수 없습니다."
 
 ["Tobbert.TrainNavigation.NoWaitingStationShort"]
 raw = "No Waiting Station"
+status = "normal"
 enUS = "No Waiting Station"
 zhCN = "缺乏等候站"
 zhTW = "無候車站"
@@ -1209,6 +1304,7 @@ koKR = "대기소 없음"
 
 ["Tobbert.TrainDestination.UnconnectedWarning"]
 raw = "Station is not connected to any other station."
+status = "normal"
 enUS = "The station is not connected to any other station."
 zhCN = "未与其他站点互相连接。"
 zhTW = "車站未連接到任何其他車站。"
@@ -1222,6 +1318,7 @@ koKR = "역이 다른 어떤 역과도 연결되어 있지 않습니다."
 
 ["Tobbert.TrainDestination.UnconnectedWarningShort"]
 raw = "Unconnected station"
+status = "normal"
 enUS = "Unconnected station"
 zhCN = "站点未连接"
 zhTW = "未連接的車站"
@@ -1235,6 +1332,7 @@ koKR = "연결되지 않은 정류장"
 
 ["Tobbert.ChooChooSettings.Header"]
 raw = "Choo! Choo!"
+status = "normal"
 enUS = "Choo! Choo!"
 zhCN = "火车设置"
 zhTW = "啾！啾！"
@@ -1248,6 +1346,7 @@ koKR = "투! 투!"
 
 ["Tobbert.ChooChooSettings.DefaultTrainModel"]
 raw = "Default Train model:"
+status = "normal"
 enUS = "Default Train model:"
 zhCN = "默认车头样式: "
 zhTW = "預設列車模型："
@@ -1261,6 +1360,7 @@ koKR = "기본 기차 모델:"
 
 ["Tobbert.ChooChooSettings.DefaultWagonModel"]
 raw = "Default Wagon model:"
+status = "normal"
 enUS = "Default Wagon model:"
 zhCN = "默认车厢样式: "
 zhTW = "默認貨車模型："
@@ -1274,6 +1374,7 @@ koKR = "기본 마차 모델:"
 
 ["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
 raw = "Choo! Choo!"
+status = "normal"
 enUS = "Choo! Choo!"
 zhCN = "聚居地面板-轨道运送"
 zhTW = "啾！啾！"
@@ -1287,6 +1388,7 @@ koKR = "치르릉! 치르릉!"
 
 ["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
 raw = "Open Goods Stations tab"
+status = "normal"
 enUS = "Open Goods Stations tab"
 zhCN = "打开轨道运送选项卡"
 zhTW = "打開貨物站標籤"

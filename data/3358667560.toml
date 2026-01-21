@@ -1,5 +1,8 @@
+name = "Steam Update Buttons"
+
 ["SteamUpdateButtons.UpdateMod"]
 raw = "Update this mod"
+status = "normal"
 enUS = "Update this mod"
 zhCN = "更新此模组"
 zhTW = "更新此模組"
@@ -13,6 +16,7 @@ koKR = "이 모드 업데이트"
 
 ["SteamUpdateButtons.UpdateAllMods"]
 raw = "Update all Steam mods"
+status = "normal"
 enUS = "Update all Steam mods"
 zhCN = "更新所有创意工坊模组"
 zhTW = "更新所有Steam模組"
@@ -26,6 +30,7 @@ koKR = "모든 Steam 모드 업데이트"
 
 ["SteamUpdateButtons.UpdatesAvailable"]
 raw = "{0} Steam updates available"
+status = "normal"
 enUS = "{0} Steam updates available"
 zhCN = "有 {0} 个更新可用"
 zhTW = "{0} Steam 更新可用"

@@ -1,5 +1,8 @@
+name = "Weather Editor"
+
 ["LV.WEdit.WeatherEditor"]
 raw = "Weather Editor"
+status = "normal"
 enUS = "Weather Editor"
 zhCN = "天气编辑器"
 zhTW = "天氣編輯器"
@@ -13,6 +16,7 @@ koKR = "날씨 편집기"
 
 ["LV.WEdit.CurrentWeather"]
 raw = "Current weather"
+status = "normal"
 enUS = "Current weather"
 zhCN = "当前天气"
 zhTW = "當前天氣"
@@ -26,6 +30,7 @@ koKR = "현재 날씨"
 
 ["LV.WEdit.NoModdableWeather"]
 raw = "No Moddable Weather"
+status = "normal"
 enUS = "No Moddable Weather"
 zhCN = "未启用模组“Moddable Weather”"
 zhTW = "無法修改的天氣"
@@ -39,6 +44,7 @@ koKR = "비가 수정할 수 없는 날씨"
 
 ["LV.WEdit.Duration"]
 raw = "Duration (days)"
+status = "normal"
 enUS = "Duration (days)"
 zhCN = "持续时间（天）"
 zhTW = "持續時間（天數）"
@@ -52,6 +58,7 @@ koKR = "지속 시간 (일)"
 
 ["LV.WEdit.HazardousWeather"]
 raw = "Hazardous Weather"
+status = "normal"
 enUS = "Hazardous Weather"
 zhCN = "恶劣天气"
 zhTW = "危險天氣"
@@ -65,6 +72,7 @@ koKR = "위험한 날씨"
 
 ["LV.WEdit.NextCycle"]
 raw = "Next Cycle"
+status = "normal"
 enUS = "Next Cycle"
 zhCN = "下一周期"
 zhTW = "下一個週期"
@@ -78,6 +86,7 @@ koKR = "다음 사이클"
 
 ["LV.WEdit.SingleModeTemperate"]
 raw = "Single Mode Weather is Temperate"
+status = "normal"
 enUS = "Single Mode Weather is Temperate"
 zhCN = "设置单一天气模式为单一温和天气"
 zhTW = "單人模式天氣是溫和的"
@@ -91,6 +100,7 @@ koKR = "단일 모드 날씨는 온화합니다"
 
 ["LV.WEdit.SaveWarning"]
 raw = "Make a backup save before proceeding with this!"
+status = "normal"
 enUS = "Make a backup save before proceeding with this!"
 zhCN = "注意，继续操作前请先保存游戏！"
 zhTW = "在繼續之前請先備份存檔！"
@@ -104,6 +114,7 @@ koKR = "이전에 백업 저장을 만들어 두세요!"
 
 ["LV.WEdit.Edit"]
 raw = "Edit Weather"
+status = "normal"
 enUS = "Edit Weather"
 zhCN = "编辑天气"
 zhTW = "編輯天氣"
@@ -117,6 +128,7 @@ koKR = "날씨 편집"
 
 ["LV.WEdit.DurationNonNeg"]
 raw = "Duration must be a non-negative number"
+status = "normal"
 enUS = "Duration must be a non-negative number"
 zhCN = "持续时间必须为非负数"
 zhTW = "持續時間必須是非負數字"
@@ -130,6 +142,7 @@ koKR = "지속 시간은 0 이상의 숫자가 되어야 합니다."
 
 ["LV.WEdit.AskToLoad"]
 raw = "The edited weather was saved.\nDo you want to load that save?\n(Keep playing with this session may cause issues)"
+status = "normal"
 enUS = "The edited weather was saved.\nDo you want to load that save?\n(Keep playing with this session may cause issues)"
 zhCN = "天气编辑已保存。是否加载此存档？注意，继续当前游玩进程可能会导致游戏崩溃。"
 zhTW = "編輯的天氣已儲存。  \n您想要載入該儲存檔嗎？  \n（繼續在此會話中遊玩可能會導致問題）"
@@ -143,6 +156,7 @@ koKR = "편집된 날씨가 저장되었습니다.\n이 저장을 불러오시�
 
 ["LV.WEdit.NoWeather"]
 raw = "[No Weather]"
+status = "normal"
 enUS = "[No Weather]"
 zhCN = "[无天气]"
 zhTW = "[無天氣]"

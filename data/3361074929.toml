@@ -1,5 +1,8 @@
+name = "FPP Camera"
+
 ["kulesz.FPPCamera.KeyBinding.Jump"]
 raw = "Jump"
+status = "normal"
 enUS = "Jump"
 zhCN = "跳跃"
 zhTW = "跳躍"
@@ -13,6 +16,7 @@ koKR = "점프"
 
 ["kulesz.FPPCamera.KeyBinding.MoveBackward"]
 raw = "Move backward"
+status = "normal"
 enUS = "Move backward"
 zhCN = "向后移动"
 zhTW = "向後移動"
@@ -26,6 +30,7 @@ koKR = "뒤로 이동"
 
 ["kulesz.FPPCamera.KeyBinding.MoveForward"]
 raw = "Move forward"
+status = "normal"
 enUS = "Move forward"
 zhCN = "向前移动"
 zhTW = "向前走"
@@ -39,6 +44,7 @@ koKR = "앞으로 이동"
 
 ["kulesz.FPPCamera.KeyBinding.MoveLeft"]
 raw = "Move left"
+status = "normal"
 enUS = "Move left"
 zhCN = "向左移动"
 zhTW = "向左移動"
@@ -52,6 +58,7 @@ koKR = "왼쪽으로 이동"
 
 ["kulesz.FPPCamera.KeyBinding.MoveRight"]
 raw = "Move right"
+status = "normal"
 enUS = "Move right"
 zhCN = "向右移动"
 zhTW = "向右移動"
@@ -65,6 +72,7 @@ koKR = "오른쪽으로 이동"
 
 ["kulesz.FPPCamera.KeyBinding.Run"]
 raw = "Run"
+status = "normal"
 enUS = "Run"
 zhCN = "奔跑"
 zhTW = "跑"
@@ -78,6 +86,7 @@ koKR = "달리기"
 
 ["kulesz.FPPCamera.KeyBindingGroup"]
 raw = "FPP Camera"
+status = "normal"
 enUS = "FPP Camera"
 zhCN = "第一人称相机"
 zhTW = "FPP相機"
@@ -91,6 +100,7 @@ koKR = "1인칭 카메라"
 
 ["kulesz.FPPCamera.Settings.CameraSway"]
 raw = "Camera sway"
+status = "normal"
 enUS = "Camera shake"
 zhCN = "相机摇晃"
 zhTW = "相機搖晃"
@@ -104,6 +114,7 @@ koKR = "카메라 흔들림"
 
 ["kulesz.FPPCamera.Settings.FOV"]
 raw = "Field of view"
+status = "normal"
 enUS = "Field of view"
 zhCN = "视野范围"
 zhTW = "視野範圍"
@@ -117,6 +128,7 @@ koKR = "시야 범위"
 
 ["kulesz.FPPCamera.Settings.HorizontalSensitivity"]
 raw = "Horizontal sensitivity"
+status = "normal"
 enUS = "Horizontal sensitivity"
 zhCN = "水平灵敏度"
 zhTW = "水平敏感度"
@@ -128,8 +140,13 @@ plPL = "Czułość pozioma"
 ptBR = "Sensibilidade horizontal"
 koKR = "수평 감도"
 
+["kulesz.FPPCamera.Settings.InvertVerticalRotation"]
+new = "Invert vertical rotation"
+status = "normal"
+
 ["kulesz.FPPCamera.Settings.VerticalSensitivity"]
 raw = "Vertical sensitivity"
+status = "normal"
 enUS = "Vertical sensitivity"
 zhCN = "垂直灵敏度"
 zhTW = "垂直敏感度"

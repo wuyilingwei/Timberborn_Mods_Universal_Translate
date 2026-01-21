@@ -1,5 +1,8 @@
+name = "Configurable Faction (Faction Mixer)"
+
 ["LV.CFac.FromFaction"]
 raw = "From {0}"
+status = "normal"
 enUS = "From {0}"
 zhCN = "来自 {0} 种族"
 zhTW = "來自 {0}"
@@ -13,6 +16,7 @@ koKR = "{0}로부터"
 
 ["LV.CFac.ValidatePlanter"]
 raw = "Another planter for {0} already exists."
+status = "normal"
 enUS = "Another planter for {0} already exists."
 zhCN = "已存在 {0} 的另一个对应种植建筑。"
 zhTW = "已經存在另一個針對 {0} 的種植器。"
@@ -26,6 +30,7 @@ koKR = "{0}에 대한 다른 식물 재배기가 이미 존재합니다."
 
 ["LV.CFac.GoodLocked"]
 raw = "Good {0} is needed by a building."
+status = "normal"
 enUS = "Good {0} is needed by a building."
 zhCN = "有建筑需要 {0} 物品。"
 zhTW = "一座建築需要良好的 {0}。"
@@ -39,6 +44,7 @@ koKR = "건물에 필요한 자원 {0}입니다."
 
 ["LV.CFac.NeedLocked"]
 raw = "Need {0} is needed by a building or a good."
+status = "normal"
 enUS = "Need {0} is needed by a building or a good."
 zhCN = "有建筑或物品需要 {0} 需求。"
 zhTW = "需要 {0} 用於建築或商品。"
@@ -52,6 +58,7 @@ koKR = "건물이나 자원에 필요로 하는 {0}이 필요합니다."
 
 ["LV.CFac.Faction"]
 raw = "Faction: Pick which items to add to this faction"
+status = "normal"
 enUS = "Faction: Pick which items to add to this faction"
 zhCN = "种族：选择要添加到此种族的对象"
 zhTW = "派系：選擇要添加到此派系的物品"
@@ -65,6 +72,7 @@ koKR = "파벌: 이 파벌에 추가할 아이템을 선택하세요."
 
 ["LV.CFac.Filters"]
 raw = "Filters"
+status = "normal"
 enUS = "Filters"
 zhCN = "筛选"
 zhTW = "濾鏡"
@@ -78,6 +86,7 @@ koKR = "필터"
 
 ["LV.CFac.FilterCheck"]
 raw = "Checked"
+status = "normal"
 enUS = "Checked"
 zhCN = "已勾选"
 zhTW = "檢查過了"
@@ -91,6 +100,7 @@ koKR = "체크됨"
 
 ["LV.CFac.FilterUncheck"]
 raw = "Unchecked"
+status = "normal"
 enUS = "Unchecked"
 zhCN = "未勾选"
 zhTW = "未檢查"
@@ -104,6 +114,7 @@ koKR = "체크 해제"
 
 ["LV.CFac.Buildings"]
 raw = "Buildings"
+status = "normal"
 enUS = "Buildings"
 zhCN = "建筑"
 zhTW = "建築物"
@@ -117,6 +128,7 @@ koKR = "건물"
 
 ["LV.CFac.Plants"]
 raw = "Plants"
+status = "normal"
 enUS = "Plants"
 zhCN = "植物"
 zhTW = "植物"
@@ -130,6 +142,7 @@ koKR = "식물"
 
 ["LV.CFac.Goods"]
 raw = "Goods"
+status = "normal"
 enUS = "Goods"
 zhCN = "物品"
 zhTW = "貨物"
@@ -143,6 +156,7 @@ koKR = "상품"
 
 ["LV.CFac.Needs"]
 raw = "Needs"
+status = "normal"
 enUS = "Needs"
 zhCN = "需求"
 zhTW = "需求"
@@ -156,6 +170,7 @@ koKR = "필요사항"
 
 ["LV.CFac.PlanterGroup"]
 raw = "Planter group: {0}"
+status = "normal"
 enUS = "Planter group: {0}"
 zhCN = "种植分组：{0}"
 zhTW = "種植者群組: {0}"
@@ -169,6 +184,7 @@ koKR = "식재 그룹: {0}"
 
 ["LV.CFac.HideSimilar"]
 raw = "Hide similar buildings"
+status = "normal"
 enUS = "Hide similar buildings"
 zhCN = "隐藏相似建筑"
 zhTW = "隱藏相似建築"
@@ -182,6 +198,7 @@ koKR = "유사 건물 숨기기"
 
 ["LV.CFac.ShowFolder"]
 raw = "Open settings folder"
+status = "normal"
 enUS = "Open settings folder"
 zhCN = "打开配置文件夹"
 zhTW = "打開設置資料夾"
@@ -193,21 +210,9 @@ plPL = "Otwórz folder ustawień"
 ptBR = "Abra a pasta de configurações"
 koKR = "설정 폴더 열기"
 
-["LV.CFac.UpdateNotify"]
-raw = "There was a major change to this mod. Please read the mod description for the new instructions. Thank you!"
-enUS = "There was a major change to this mod. Please read the mod description for the new instructions. Thank you!"
-zhCN = "此模组有重大更新，请阅读模组描述以获取新说明，谢谢！"
-zhTW = "這個模組有重大變更。請閱讀模組描述以獲取新指示。謝謝！"
-ruRU = "В этом моде произошли значительные изменения. Пожалуйста, ознакомьтесь с описанием мода для получения новых инструкций. Спасибо!"
-jaJP = "このモッドに大きな変更がありました。新しい指示についてはモッドの説明をお読みください。ありがとうございます！"
-frFR = "Il y a eu un changement majeur dans ce mod. Veuillez lire la description du mod pour les nouvelles instructions. Merci !"
-deDE = "Es gab eine große Änderung an diesem Mod. Bitte lesen Sie die Mod-Beschreibung für die neuen Anweisungen. Danke!"
-plPL = "Nastąpiła istotna zmiana w tym modzie. Proszę przeczytać opis moda w celu zapoznania się z nowymi instrukcjami. Dziękuję!"
-ptBR = "Houve uma mudança significativa neste mod. Por favor, leia a descrição do mod para as novas instruções. Obrigado!"
-koKR = "이 모드에 중요한 변경 사항이 있었습니다. 새로운 지침은 모드 설명을 읽어주시기 바랍니다. 감사합니다!"
-
 ["LV.CFac.NeedPlanter"]
 raw = "You have chosen a plant or crop in the group {0} but did not choose any building to grow it.\nPlease make sure to choose such building (usually in the Food or Wood group) to add or the game will crash."
+status = "normal"
 enUS = "You have chosen a plant or crop in the group {0} but did not choose any building to grow it.\nPlease make sure to choose such building (usually in the Food or Wood group) to add or the game will crash."
 zhCN = "当前选择的植物属于 {0} 分组，但未选择对应的种植建筑。<br>请确保选择对应的种植建筑（通常在“建筑”对象的“食物”或“木材”类别中），否则会导致游戏崩溃。"
 zhTW = "您已選擇了{0}組中的植物或作物，但未選擇任何建築來種植它。請確保選擇這樣的建築（通常在食品或木材組中）以添加，否則遊戲將崩潰。"
@@ -218,3 +223,37 @@ deDE = "Sie haben eine Pflanze oder ein Feld im Bereich {0} ausgewählt, aber ke
 plPL = "Wybrałeś roślinę lub uprawę w grupie {0}, ale nie wybrałeś żadnego budynku do jej uprawy. Proszę upewnij się, że wybierzesz taki budynek (zwykle w grupie Żywności lub Drewna), aby go dodać, inaczej gra się zawiesi."
 ptBR = "Você escolheu uma planta ou cultura do grupo {0}, mas não escolheu nenhum prédio para cultivá-la. Por favor, certifique-se de escolher um prédio desse tipo (geralmente no grupo Alimentos ou Madeira) para adicionar, ou o jogo irá travar."
 koKR = "당신은 그룹 {0}에서 식물이나 농작물을 선택했지만, 재배할 건물을 선택하지 않았습니다. \n식량 또는 목재 그룹에 있는 그러한 건물을 선택해야 추가할 수 있습니다. 그렇지 않으면 게임이 크래시됩니다."
+
+["LV.CFac.ExportToMod"]
+new = "Export to mod"
+status = "normal"
+
+["LV.CFac.ExportToModDesc"]
+new = "Click the above button to export the current configuration into a standalone mod.\nThat mod would then work by itself without this mod.\nIn fact, you must disable either this mod or the exported mod to avoid conflicts."
+status = "normal"
+
+["LV.CFac.ConflictWarning"]
+new = "<b>WARNING:</b> You have both this mod and an exported mod active.\nPlease use only one because you will have conflicting data no matter which purpose/mod you need"
+status = "normal"
+
+["LV.CFac.ModExported"]
+new = "The mod has been exported.\nPlease <b>disable this mod</b> and use the exported '{0}' mod.\nIf you want to reconfigure this mod, remember to disable that mod."
+status = "normal"
+
+["LV.CFac.Update730"]
+new = "This mod now support exporting into a standalone mod if you have the optional mod <b>TimberMod Builder</b>.\nThe intention is to support mods like TimberApi. Please read the updated mod description for more info.\nIf you do not care about that, you can ignore this message, there is no change to the current functionality."
+status = "normal"
+
+["LV.CFac.UpdateNotify"]
+raw = "There was a major change to this mod. Please read the mod description for the new instructions. Thank you!"
+status = "abandoned"
+enUS = "There was a major change to this mod. Please read the mod description for the new instructions. Thank you!"
+zhCN = "此模组有重大更新，请阅读模组描述以获取新说明，谢谢！"
+zhTW = "這個模組有重大變更。請閱讀模組描述以獲取新指示。謝謝！"
+ruRU = "В этом моде произошли значительные изменения. Пожалуйста, ознакомьтесь с описанием мода для получения новых инструкций. Спасибо!"
+jaJP = "このモッドに大きな変更がありました。新しい指示についてはモッドの説明をお読みください。ありがとうございます！"
+frFR = "Il y a eu un changement majeur dans ce mod. Veuillez lire la description du mod pour les nouvelles instructions. Merci !"
+deDE = "Es gab eine große Änderung an diesem Mod. Bitte lesen Sie die Mod-Beschreibung für die neuen Anweisungen. Danke!"
+plPL = "Nastąpiła istotna zmiana w tym modzie. Proszę przeczytać opis moda w celu zapoznania się z nowymi instrukcjami. Dziękuję!"
+ptBR = "Houve uma mudança significativa neste mod. Por favor, leia a descrição do mod para as novas instruções. Obrigado!"
+koKR = "이 모드에 중요한 변경 사항이 있었습니다. 새로운 지침은 모드 설명을 읽어주시기 바랍니다. 감사합니다!"

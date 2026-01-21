@@ -1,5 +1,8 @@
+name = "DamDecorations_DecorationExtention"
+
 ["Knatte.ToolGroup.DecorationBlocks"]
 raw = "Decoration Blocks"
+status = "normal"
 enUS = "Decoration Blocks"
 zhCN = "装饰块"
 zhTW = "裝飾方塊"
@@ -13,6 +16,7 @@ koKR = "장식 블록"
 
 ["Knatte.DE_RMCorner.DisplayName"]
 raw = "Decoration Metal Corner"
+status = "normal"
 enUS = "Decoration Metal Corner"
 zhCN = "铁质三棱锥装饰块 1x1"
 zhTW = "裝飾金屬角落"
@@ -26,6 +30,7 @@ koKR = "장식 금속 모서리"
 
 ["Knatte.DE_RMCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓有肋金屬壩變得有角。"
@@ -39,6 +44,7 @@ koKR = "리브드 메탈 댐을 코너에 두세요."
 
 ["Knatte.DE_RMCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -50,8 +56,13 @@ plPL = "Nie blokuje wody"
 ptBR = "Não Bloqueia Água"
 koKR = "물 차단 안 함"
 
+["//"]
+new = "//"
+status = "normal"
+
 ["Knatte.DE_RMSQCorner.DisplayName"]
 raw = "Decoration Metal Square Corner"
+status = "normal"
 enUS = "Decoration Metal Square Corner"
 zhCN = "铁质四棱锥装饰块 1x1"
 zhTW = "裝飾金屬方角"
@@ -65,6 +76,7 @@ koKR = "장식 금속 정사각형 모서리"
 
 ["Knatte.DE_RMSQCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩變得有角。"
@@ -78,6 +90,7 @@ koKR = "골짐이 있는 금속 댐은 코너로 되어 있습니다."
 
 ["Knatte.DE_RMSQCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -91,6 +104,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMDiagonal.DisplayName"]
 raw = "Decoration Metal Diagonal"
+status = "normal"
 enUS = "Decoration Metal Diagonal"
 zhCN = "铁质三棱柱装饰块"
 zhTW = "裝飾金屬對角線"
@@ -104,6 +118,7 @@ koKR = "장식 금속 대각선"
 
 ["Knatte.DE_RMDiagonal.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the side."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩移到一邊。"
@@ -117,6 +132,7 @@ koKR = "늑호 금속 댐을 옆으로 가게 하세요."
 
 ["Knatte.DE_RMDiagonal.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不阻擋水分"
@@ -130,6 +146,7 @@ koKR = "물 차단 불가능"
 
 ["Knatte.DE_RMDiagonalW.DisplayName"]
 raw = "Leeve Diagonal"
+status = "normal"
 enUS = "Leave Diagonal"
 zhCN = "铁质三棱柱防洪堤"
 zhTW = "離開對角線"
@@ -143,6 +160,7 @@ koKR = "대각선 리브"
 
 ["Knatte.DE_RMDiagonalW.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the side."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓波紋金屬壩移到一側。"
@@ -156,6 +174,7 @@ koKR = "플라스틱 금속 댐을 옆으로 놓으세요."
 
 ["Knatte.DE_RMDiagonalW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass"
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -169,6 +188,7 @@ koKR = "물이 통과하지 못합니다"
 
 ["Knatte.DE_RMInvCorner.DisplayName"]
 raw = "Decoration Metal Internal Corner"
+status = "normal"
 enUS = "Decoration Metal Internal Corner"
 zhCN = "铁质截角装饰块 1x1"
 zhTW = "裝飾金屬內角"
@@ -182,6 +202,7 @@ koKR = "장식 금속 내부 코너"
 
 ["Knatte.DE_RMInvCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓鋼筋金屬壩角落化。"
@@ -195,6 +216,7 @@ koKR = "립이 있는 금속 댐을 모서리에 배치하십시오."
 
 ["Knatte.DE_RMInvCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -208,6 +230,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMInvCornerW.DisplayName"]
 raw = "Leeve Internal Corner"
+status = "normal"
 enUS = "Leave Internal Corner"
 zhCN = "铁质截角防洪堤 1x1"
 zhTW = "留空內角"
@@ -221,6 +244,7 @@ koKR = "내부 코너 유지"
 
 ["Knatte.DE_RMInvCornerW.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓肋狀金屬壩變得有角。"
@@ -234,6 +258,7 @@ koKR = "리브드 메탈 댐을 모서리에 배치하세요."
 
 ["Knatte.DE_RMInvCornerW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -247,6 +272,7 @@ koKR = "물은 지나가지 않습니다"
 
 ["Knatte.DE_RMSlope.DisplayName"]
 raw = "Decoration Metal Slope"
+status = "normal"
 enUS = "Decoration Metal Slope"
 zhCN = "铁质斜坡装饰块 1x1"
 zhTW = "裝飾金屬坡道"
@@ -260,6 +286,7 @@ koKR = "장식 금속 경사"
 
 ["Knatte.DE_RMSlope.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩傾斜。"
@@ -273,6 +300,7 @@ koKR = "리브 메탈 댐을 경사지게 하세요."
 
 ["Knatte.DE_RMSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不阻擋水分"
@@ -286,6 +314,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMCornerSlope.DisplayName"]
 raw = "Decoration Metal Slope Corner"
+status = "normal"
 enUS = "Decoration Metal Slope Corner"
 zhCN = "铁质凹棱装饰块 1x1"
 zhTW = "裝飾金屬斜角"
@@ -299,6 +328,7 @@ koKR = "장식 금속 경사 코너"
 
 ["Knatte.DE_RMCornerSlope.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩轉角。"
@@ -312,6 +342,7 @@ koKR = "능선 금속 댐을 모서리로 하세요."
 
 ["Knatte.DE_RMCornerSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -325,6 +356,7 @@ koKR = "물 차단 안 됨"
 
 ["Knatte.DE_RMSquare.DisplayName"]
 raw = "Decoration Metal Cube"
+status = "normal"
 enUS = "Decoration Metal Cube"
 zhCN = "铁质装饰块 1x1"
 zhTW = "裝飾金屬立方體"
@@ -338,6 +370,7 @@ koKR = "장식 금속 큐브"
 
 ["Knatte.DE_RMSquare.Description"]
 raw = "Dam the Ribbed metal Square"
+status = "normal"
 enUS = "Dam the Ribbed Metal Square"
 zhCN = "不能阻断水流。"
 zhTW = "該肋紋金屬方塊"
@@ -351,6 +384,7 @@ koKR = "리브드 메탈 사각형 댐"
 
 ["Knatte.DE_RMSquare.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "不阻擋水"
@@ -364,6 +398,7 @@ koKR = "물 차단 안함"
 
 ["Knatte.DE_RMSquare2W.DisplayName"]
 raw = "Metal Levee 2x2"
+status = "normal"
 enUS = "Metal Levee 2x2"
 zhCN = "铁质防洪堤 2x2"
 zhTW = "金屬堤防 2x2"
@@ -377,6 +412,7 @@ koKR = "금속 제방 2x2"
 
 ["Knatte.DE_RMSquare3W.DisplayName"]
 raw = "Metal Levee 3x3"
+status = "normal"
 enUS = "Metal Flood Barrier 3x3"
 zhCN = "铁质防洪堤 3x3"
 zhTW = "金屬防洪堤 3x3"
@@ -390,6 +426,7 @@ koKR = "금속 방수제 3x3"
 
 ["Knatte.DE_RMSquareW.Description"]
 raw = "Dam let it be big in Ribbed metal"
+status = "normal"
 enUS = "Let it be big in ribbed metal."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓它在波紋金屬中變得巨大"
@@ -403,6 +440,7 @@ koKR = "댐은 리브 메탈로 크게 만들어 주세요."
 
 ["Knatte.DE_RMSquareW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "“要建的数量少了，但要用的材料多了？”——海狸建筑工"
 zhTW = "水不會通過"
@@ -416,6 +454,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_RMSquareW1x1.DisplayName"]
 raw = "Metal Levee 1x1"
+status = "normal"
 enUS = "Metal Levee 1x1"
 zhCN = "铁质防洪堤 1x1"
 zhTW = "金屬堤壩 1x1"
@@ -429,6 +468,7 @@ koKR = "금속 제방 1x1"
 
 ["Knatte.DE_RMSquareW1x2.DisplayName"]
 raw = "Metal Levee 1x2"
+status = "normal"
 enUS = "Metal Levee 1x2"
 zhCN = "铁质防洪堤 1x2"
 zhTW = "金屬堤壩 1x2"
@@ -442,6 +482,7 @@ koKR = "금속 제방 1x2"
 
 ["Knatte.DE_RMSquareW1x3.DisplayName"]
 raw = "Metal Levee 1x3"
+status = "normal"
 enUS = "Metal Levee 1x3"
 zhCN = "铁质防洪堤 1x3"
 zhTW = "金屬堤防 1x3"
@@ -455,6 +496,7 @@ koKR = "메탈 레비 1x3"
 
 ["Knatte.DE_RMSquareW2x1.DisplayName"]
 raw = "Metal Levee 2x1"
+status = "normal"
 enUS = "Metal Levee 2x1"
 zhCN = "铁质防洪堤 2x1"
 zhTW = "金屬堤壩 2x1"
@@ -468,6 +510,7 @@ koKR = "금속 두둑 2x1"
 
 ["Knatte.DE_RMSquareW2x3.DisplayName"]
 raw = "Metal Levee 2x3"
+status = "normal"
 enUS = "Metal Dam 2x3"
 zhCN = "铁质防洪堤 2x3"
 zhTW = "金屬堤壩 2x3"
@@ -481,6 +524,7 @@ koKR = "금속 제방 2x3"
 
 ["Knatte.DE_RMSquareW3x1.DisplayName"]
 raw = "Metal Levee 3x1"
+status = "normal"
 enUS = "Metal Levee 3x1"
 zhCN = "铁质防洪堤 3x1"
 zhTW = "金屬堤防 3x1"
@@ -494,6 +538,7 @@ koKR = "금속 제방 3x1"
 
 ["Knatte.DE_RMSquareW3x2.DisplayName"]
 raw = "Metal Levee 3x2"
+status = "normal"
 enUS = "Metal Levee 3x2"
 zhCN = "铁质防洪堤 3x2"
 zhTW = "金屬護堤 3x2"
@@ -507,6 +552,7 @@ koKR = "금속 제방 3x2"
 
 ["Knatte.DE_RMCorner2X.DisplayName"]
 raw = "Decoration Metal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Corner Double Height"
 zhCN = "铁质三棱锥装饰块 2x1"
 zhTW = "裝飾金屬角落  \n雙層高度"
@@ -520,6 +566,7 @@ koKR = "장식 금속 코너 이중 높이"
 
 ["Knatte.DE_RMCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬大壩變為角落。"
@@ -533,6 +580,7 @@ koKR = "리브드 메탈 댐을 코너로 만드세요."
 
 ["Knatte.DE_RMCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -546,6 +594,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMSQCorner2X.DisplayName"]
 raw = "Decoration Metal Square Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Square Corner Double Height"
 zhCN = "铁质四棱锥装饰块 2x1"
 zhTW = "裝飾金屬方角 雙重高度"
@@ -559,6 +608,7 @@ koKR = "장식 금속 사각 모서리 두 배 높이"
 
 ["Knatte.DE_RMSQCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩變成鴨嘴型。"
@@ -572,6 +622,7 @@ koKR = "굽은 리브드 메탈 댐을 만들자."
 
 ["Knatte.DE_RMSQCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -585,6 +636,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMDiagonal2X.DisplayName"]
 raw = "Decoration Metal Diagonal \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Diagonal Double Height"
 zhCN = "铁质三棱柱装饰块 2x1"
 zhTW = "裝飾金屬對角線\n雙高度"
@@ -598,6 +650,7 @@ koKR = "장식 금속 대각선 이중 높이"
 
 ["Knatte.DE_RMDiagonal2X.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the side."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋紋金屬阻堤靠向一邊。"
@@ -611,6 +664,7 @@ koKR = "리브드 메탈 댐을 옆으로 이동시키세요."
 
 ["Knatte.DE_RMDiagonal2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不會阻擋水"
@@ -624,6 +678,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMInvCornerS2X.DisplayName"]
 raw = "Decoration Metal Internal Corner Side Platform Double Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Side Platform Double Height"
 zhCN = "铁质带平台截角装饰块 2x1"
 zhTW = "裝飾金屬內角側平台雙高"
@@ -637,6 +692,7 @@ koKR = "장식용 금속 내부 코너 사이드 플랫폼 더블 높이"
 
 ["Knatte.DE_RMInvCornerS2X.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side and have Platform."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam shift to the side and have a platform."
 zhCN = "不同形状的装饰块，顶部有平台，不能阻断水流。"
 zhTW = "讓有紋理的金屬壩移到一旁並設置平台。"
@@ -650,6 +706,7 @@ koKR = "리브 금속 댐을 옆으로 두고 플랫폼을 만들어보세요."
 
 ["Knatte.DE_RMInvCornerS2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "平台很稳固，完美符合需求。"
 zhTW = "不會阻擋水"
@@ -663,6 +720,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMInvCorner2X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Double Height"
 zhCN = "铁质截角装饰块 2x1"
 zhTW = "裝飾金屬內角 \n雙高度"
@@ -676,6 +734,7 @@ koKR = "장식 금속 내부 모서리 이중 높이"
 
 ["Knatte.DE_RMInvCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩成角。"
@@ -689,6 +748,7 @@ koKR = "리브 메탈 댐을 코너로 만드세요."
 
 ["Knatte.DE_RMInvCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -702,6 +762,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMInvCornerW2X.DisplayName"]
 raw = "Metal Levee Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Internal Corner  \nDouble Height"
 zhCN = "铁质截角防洪堤 2x1"
 zhTW = "金屬堤內角\n雙倍高度"
@@ -715,6 +776,7 @@ koKR = "금속 제방 내부 코너 2배 높이"
 
 ["Knatte.DE_RMInvCornerW2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓波紋金屬壩變得有角。"
@@ -728,6 +790,7 @@ koKR = "리브드 메탈 댐을 모서리로 만드세요."
 
 ["Knatte.DE_RMInvCornerW2X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -741,6 +804,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_RMSlope2X.DisplayName"]
 raw = "Decoration Metal Slope \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope  \nDouble Height"
 zhCN = "铁质斜坡装饰块 2x1"
 zhTW = "裝飾金屬斜坡  \n雙倍高度"
@@ -754,6 +818,7 @@ koKR = "장식 금속 경사 이중 높이"
 
 ["Knatte.DE_RMSlope2X.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓有肋金屬壩呈斜坡狀。"
@@ -767,6 +832,7 @@ koKR = "리브 메탈 댐을 경사지게 하세요."
 
 ["Knatte.DE_RMSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不阻擋水"
@@ -780,6 +846,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMCornerSlope2X.DisplayName"]
 raw = "Decoration Metal Slope Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope Corner Double Height"
 zhCN = "铁质凹棱装饰块 2x1"
 zhTW = "裝飾金屬斜角 \n雙高度"
@@ -793,6 +860,7 @@ koKR = "장식 금속 경사 코너 이중 높이"
 
 ["Knatte.DE_RMCornerSlope2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩變角。"
@@ -806,6 +874,7 @@ koKR = " ribbed 금속 댐을 코너로 설정하십시오."
 
 ["Knatte.DE_RMCornerSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水分"
@@ -819,6 +888,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMCorner3X.DisplayName"]
 raw = "Decoration Metal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Corner Triple Height"
 zhCN = "铁质三/四棱锥装饰块 3x1"
 zhTW = "裝飾金屬角落  \n三倍高度"
@@ -832,6 +902,7 @@ koKR = "장식 금속 코너 삼배 높이"
 
 ["Knatte.DE_RMCorner3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩成為有角的。"
@@ -845,6 +916,7 @@ koKR = "리브드 메탈 댐을 모서리로 하세요."
 
 ["Knatte.DE_RMCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -858,6 +930,7 @@ koKR = "물 방해하지 않음"
 
 ["Knatte.DE_RMInvCorner3X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Triple Height"
 zhCN = "铁质截角/凹棱装饰块 3x1"
 zhTW = "裝飾金屬內角\n三倍高度"
@@ -871,6 +944,7 @@ koKR = "장식 금속 내부 모서리 삼중 높이"
 
 ["Knatte.DE_RMInvCorner3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩轉角。"
@@ -884,6 +958,7 @@ koKR = "리브 메탈 댐을 코너로 정렬하세요."
 
 ["Knatte.DE_RMInvCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -897,6 +972,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMSlope3X.DisplayName"]
 raw = "Decoration Metal Slope Tripple Height"
+status = "normal"
 enUS = "Decoration Metal Slope Triple Height"
 zhCN = "铁质斜坡装饰块 3x1"
 zhTW = "裝飾金屬坡道三重高度"
@@ -910,6 +986,7 @@ koKR = "장식 금속 경사 세 배 높이"
 
 ["Knatte.DE_RMSlope3X.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩傾斜。"
@@ -923,6 +1000,7 @@ koKR = "리브가 있는 금속 댐을 경사로 만들기."
 
 ["Knatte.DE_RMSlope3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不防水"
@@ -936,6 +1014,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_RMInvCornerW3X.DisplayName"]
 raw = "Leeve Internal Corner Tripple Height"
+status = "normal"
 enUS = "Leave Internal Corner Triple Height"
 zhCN = "铁质截角防洪堤 3x1"
 zhTW = "李夫內部角落三倍高度"
@@ -949,6 +1028,7 @@ koKR = "리브 내부 코너 트리플 높이"
 
 ["Knatte.DE_RMInvCornerW3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓波紋金屬壩轉角。"
@@ -962,6 +1042,7 @@ koKR = "홈이 있는 금속 댐을 코너로 만드세요."
 
 ["Knatte.DE_RMInvCornerW3X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -975,6 +1056,7 @@ koKR = "물이 통과하지 않습니다"
 
 ["Knatte.DE_RMSlopeW_1.DisplayName"]
 raw = "Metal Levee Slope"
+status = "normal"
 enUS = "Metal Levee Slope"
 zhCN = "铁质斜坡防洪堤 1x1"
 zhTW = "金屬堤壩坡面"
@@ -988,6 +1070,7 @@ koKR = "금속 제방 경사"
 
 ["Knatte.DE_RMSlopeW_2.DisplayName"]
 raw = "Metal Levee Slope \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nDouble Height"
 zhCN = "铁质斜坡防洪堤 2x1"
 zhTW = "金屬堤防坡度  \n雙層高度"
@@ -1001,6 +1084,7 @@ koKR = "금속 제방 경사 이중 높이"
 
 ["Knatte.DE_RMSlopeW_3.DisplayName"]
 raw = "Metal Levee Slope \nTripple Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nTriple Height"
 zhCN = "铁质斜坡防洪堤 3x1"
 zhTW = "金屬堤岸斜坡  \n三倍高度"
@@ -1014,6 +1098,7 @@ koKR = "금속 제방 경사 삼중 높이"
 
 ["Knatte.DE_RMSlopeW.Description"]
 raw = "Ribbed Metal Slope that block water in full block"
+status = "normal"
 enUS = "Ribbed metal slope that blocks water in a full block."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "波紋金屬斜坡，完全阻擋水流"
@@ -1027,6 +1112,7 @@ koKR = "물리적으로 완전한 블록으로 물을 차단하는 리브드 메
 
 ["Knatte.DE_RMSlopeW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的外立面。"
 zhTW = "水不會通過"
@@ -1040,6 +1126,7 @@ koKR = "물은 통과하지 않는다"
 
 ["Knatte.DE_RMSlopeS.DisplayName"]
 raw = "Decoration Metal Stair"
+status = "normal"
 enUS = "Metal Stair Decoration"
 zhCN = "铁质楼梯装饰块"
 zhTW = "裝飾金屬樓梯"
@@ -1053,6 +1140,7 @@ koKR = "장식용 금속 계단"
 
 ["Knatte.DE_RMSlopeS.Description"]
 raw = "Let the Ribbed Metal Dam be Stepped on."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Stepped on."
 zhCN = "带有楼梯的三角形装饰块，不能阻断水流。"
 zhTW = "讓有肋金屬壩被踩踏。"
@@ -1066,6 +1154,7 @@ koKR = "리브 메탈 댐을 밟아보세요."
 
 ["Knatte.DE_RMSlopeS.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能在下面玩捉迷藏了……"
 zhTW = "不會堵塞水分"
@@ -1079,6 +1168,7 @@ koKR = "물 차단 안함"
 
 ["Knatte.DE_RMToolGroup.Decoration"]
 raw = "Decoration Blocks"
+status = "normal"
 enUS = "Decoration Blocks"
 zhCN = "装饰块"
 zhTW = "裝飾方塊"
@@ -1092,6 +1182,7 @@ koKR = "장식 블록"
 
 ["Knatte.DE_RMCategoryDam.DisplayName"]
 raw = "Ribbed Metal Decoration"
+status = "normal"
 enUS = "Ribbed Metal Decoration"
 zhCN = "铁质多边形装饰块"
 zhTW = "肋紋金屬裝飾"
@@ -1105,6 +1196,7 @@ koKR = "골이 있는 금속 장식"
 
 ["Knatte.DE_RMCategoryDam.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不抗水"
@@ -1118,6 +1210,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMCategoryLevees.DisplayName"]
 raw = "Shaped Ribbed Metal Levees"
+status = "normal"
 enUS = "Shaped Ribbed Metal Levees"
 zhCN = "铁质多边形防洪堤"
 zhTW = "成型波紋金屬護堤"
@@ -1131,6 +1224,7 @@ koKR = "형태가 있는 리브 메탈 제방"
 
 ["Knatte.DE_RMCategoryLeveesSQ.DisplayName"]
 raw = "Square Ribbed Metal Levees"
+status = "normal"
 enUS = "Square Ribbed Metal Levees"
 zhCN = "铁质方形防洪堤"
 zhTW = "方形肋條金屬堤防"
@@ -1144,6 +1238,7 @@ koKR = "네모난 주름진 금속 제방"
 
 ["Knatte.DE_RMCategoryDam2.DisplayName"]
 raw = "Ribbed Metal Decoration"
+status = "normal"
 enUS = "Ribbed Metal Decoration"
 zhCN = "铁质悬挑装饰块"
 zhTW = "波紋金屬裝飾"
@@ -1157,6 +1252,7 @@ koKR = "리브 금속 장식"
 
 ["Knatte.DE_RMCategoryDamSQ.DisplayName"]
 raw = "Ribbed Metal Decoration SQ"
+status = "normal"
 enUS = "Ribbed Metal Decoration SQ"
 zhCN = "铁质方形装饰块"
 zhTW = "肋狀金屬裝飾SQ"
@@ -1170,6 +1266,7 @@ koKR = "리브 메탈 장식 SQ"
 
 ["Knatte.DE_RMCategoryDam2.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不防水"
@@ -1183,6 +1280,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_RMDoubleInvSlope.DisplayName"]
 raw = "Metal Double Inverted Slope"
+status = "normal"
 enUS = "Metal Double Inverted Slope"
 zhCN = "铁质倒勾悬挑装饰块 1x3"
 zhTW = "金屬雙重倒斜坡"
@@ -1196,6 +1294,7 @@ koKR = "금속 이중 역경사"
 
 ["Knatte.DE_RMDoubleInvSlope.Description"]
 raw = "Ribbed Metal Levee and inverted Slope Combo"
+status = "normal"
 enUS = "Ribbed Metal Levee and Inverted Slope Combo"
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "波紋金屬堤壩與反斜坡組合"
@@ -1209,6 +1308,7 @@ koKR = "리브 금속 제방과 역경사 조합"
 
 ["Knatte.DE_RMDoubleInvSlope.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"
@@ -1222,6 +1322,7 @@ koKR = "다리를 놓자"
 
 ["Knatte.DE_RMSquare1x2.DisplayName"]
 raw = "Decoration Metal Cube 1x2"
+status = "normal"
 enUS = "Decoration Metal Cube 1x2"
 zhCN = "铁质装饰块 1x2"
 zhTW = "裝飾金屬立方體 1x2"
@@ -1235,6 +1336,7 @@ koKR = "장식 금속 큐브 1x2"
 
 ["Knatte.DE_RMSquare1x3.DisplayName"]
 raw = "Decoration Metal Cube 1x3"
+status = "normal"
 enUS = "Decoration Metal Cube 1x3"
 zhCN = "铁质装饰块 1x3"
 zhTW = "裝飾金屬立方體 1x3"
@@ -1248,6 +1350,7 @@ koKR = "장식 금속 큐브 1x3"
 
 ["Knatte.DE_RMSquare_B.Description"]
 raw = "Ribbed Metal Square that can stick out but does not block water."
+status = "normal"
 enUS = "Ribbed metal square that can protrude but does not obstruct water."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "可突出但不阻擋水的紋理金屬方塊。"
@@ -1261,6 +1364,7 @@ koKR = "물이 막히지 않지만 튀어나올 수 있는 리브 메탈 사각�
 
 ["Knatte.DE_RMSquare_B.FlavorDescription"]
 raw = "Look it floats"
+status = "normal"
 enUS = "Look, it floats."
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "看，它在浮著。"
@@ -1274,6 +1378,7 @@ koKR = "봐, 떠내려가!"
 
 ["Knatte.DE_RMInvSlope1x1.DisplayName"]
 raw = "Metal Inverted Slope 1x1"
+status = "normal"
 enUS = "Metal Inverted Slope 1x1"
 zhCN = "铁质悬挑装饰块 1x2"
 zhTW = "金屬反向斜坡 1x1"
@@ -1287,6 +1392,7 @@ koKR = "금속 역슬로프 1x1"
 
 ["Knatte.DE_RMInvSlope1x2.DisplayName"]
 raw = "Metal Inverted Slope 1x2"
+status = "normal"
 enUS = "Metal Inverted Slope 1x2"
 zhCN = "铁质悬挑装饰块 1x3"
 zhTW = "金屬倒斜坡 1x2"
@@ -1300,6 +1406,7 @@ koKR = "금속 반전 경사 1x2"
 
 ["Knatte.DE_RMInvSlope1x3.DisplayName"]
 raw = "Metal Inverted Slope 1x3"
+status = "normal"
 enUS = "Metal Inverted Slope 1x3"
 zhCN = "铁质悬挑装饰块 1x4"
 zhTW = "金屬倒坡 1x3"
@@ -1313,6 +1420,7 @@ koKR = "금속 역 슬로프 1x3"
 
 ["Knatte.DE_RMInvSlope2x1.DisplayName"]
 raw = "Metal Inverted Slope 2x1"
+status = "normal"
 enUS = "Metal Inverted Slope 2x1"
 zhCN = "铁质悬挑装饰块 2x2"
 zhTW = "金屬倒斜坡 2x1"
@@ -1326,6 +1434,7 @@ koKR = "메탈 인버티드 슬로프 2x1"
 
 ["Knatte.DE_RMInvSlope.Description"]
 raw = "Ribbed Metal Square that can stick out but does not block water."
+status = "normal"
 enUS = "Ribbed metal square that can protrude but does not obstruct water."
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "凸起金屬方形，可以伸出但不會阻擋水。"
@@ -1339,6 +1448,7 @@ koKR = "물은 차단하지 않지만 튀어나올 수 있는 능선이 있는 �
 
 ["Knatte.DE_RMInvSlope.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go"
 zhCN = "恐高者禁止攀登。"
 zhTW = "我們出發吧"
@@ -1352,6 +1462,7 @@ koKR = "나가자"
 
 ["Knatte.DE_RMInvTrapezium1x1.DisplayName"]
 raw = "Inverted Trapezium 1x1"
+status = "normal"
 enUS = "Inverted Trapezium 1x1"
 zhCN = "铁质双向悬挑装饰块 1x3"
 zhTW = "倒梯形 1x1"
@@ -1365,6 +1476,7 @@ koKR = "뒤집힌 사다리꼴 1x1"
 
 ["Knatte.DE_RMBlockDecoration.DisplaynameLocKey"]
 raw = "Beautiful Dam"
+status = "normal"
 enUS = "Beautiful Dam"
 zhCN = "大坝景观"
 zhTW = "美麗的大壩"
@@ -1378,6 +1490,7 @@ koKR = "아름다운 댐"
 
 ["Knatte.DE_RMInvSlopeW1x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x1"
 zhCN = "铁质悬挑防洪堤 1x2"
 zhTW = "反向金屬堤壩坡度 1x1"
@@ -1391,6 +1504,7 @@ koKR = "뒤집힌 금속 제방 경사 1x1"
 
 ["Knatte.DE_RMInvSlopeW1x2.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x2"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x2"
 zhCN = "铁质悬挑防洪堤 1x3"
 zhTW = "倒置金屬堤壩坡度 1x2"
@@ -1404,6 +1518,7 @@ koKR = "역방향 금속 제방 경사 1x2"
 
 ["Knatte.DE_RMInvSlopeW1x3.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x3"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x3"
 zhCN = "铁质悬挑防洪堤 1x4"
 zhTW = "倒置金屬堤坡 1x3"
@@ -1417,6 +1532,7 @@ koKR = "뒤집힌 금속 제방 경사 1x3"
 
 ["Knatte.DE_RMInvSlopeW2x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 2x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 2x1"
 zhCN = "铁质悬挑防洪堤 2x2"
 zhTW = "反向金屬堤坡 2x1"
@@ -1430,6 +1546,7 @@ koKR = "뒤집힌 금속 제방 경사 2x1"
 
 ["Knatte.DE_RMInvSlopeW.Description"]
 raw = "Ribbed Metal Square that can stick out. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor"
+status = "normal"
 enUS = "Ribbed metal square that can protrude. Placement hex block allows water to flow in; other blocks can only interact from the top/bottom like a built-in impermeable floor."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "可以突出顯示的橫紋金屬方塊。 \n放置的六邊形方塊可從上方/下方排水，其他方塊則類似於內建的不透水地板。"
@@ -1443,6 +1560,7 @@ koKR = "돌출될 수 있는 리브 메탈 사각형. \n위쪽/아래쪽에서�
 
 ["Knatte.DE_RMInvSlopeW.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go"
 zhCN = "适合用在大坝的顶部或底部。"
 zhTW = "我們出發了"
@@ -1456,6 +1574,7 @@ koKR = "나가자"
 
 ["Knatte.DE_RMInvTrapeziumW1x1.DisplayName"]
 raw = "Inverted Trapezium Metal Levee 1x1"
+status = "normal"
 enUS = "Inverted Trapezium Metal Levee 1x1"
 zhCN = "铁质双向悬挑防洪堤 1x3"
 zhTW = "倒梯形金屬堤壩 1x1"
@@ -1469,6 +1588,7 @@ koKR = "역 트라페지움 금속 제방 1x1"
 
 ["Knatte.DE_RMDoubleInvSlopeW.Description"]
 raw = "Ribbed Metal Square that sticks out on both sides. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor"
+status = "normal"
 enUS = "Ribbed metal square that extends on both sides. Placement hex block allows water, while other blocks are only accessible from top/bottom like a built-in impermeable floor."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "兩側突出帶肋金屬方塊。放置六角塊的所有水，其他方塊僅從上/下方，如同內建的防水地板。"
@@ -1482,6 +1602,7 @@ koKR = "양쪽으로 튀어나온 홈이 있는 금속 정사각형입니다. �
 
 ["Knatte.DE_RMDoubleInvSlopeW.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"
@@ -1495,6 +1616,7 @@ koKR = "다리를 건설하자"
 
 ["Knatte.DE_SMCorner.DisplayName"]
 raw = "Decoration Metal Corner"
+status = "normal"
 enUS = "Decoration Metal Corner"
 zhCN = "无纹铁质三棱锥装饰块 1x1"
 zhTW = "裝飾金屬角落"
@@ -1508,6 +1630,7 @@ koKR = "장식 금속 모서리"
 
 ["Knatte.DE_SMCorner.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩有轉角。"
@@ -1521,6 +1644,7 @@ koKR = "부드러운 금속 댐을 코너로 만드세요."
 
 ["Knatte.DE_SMCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -1534,6 +1658,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_SMSQCorner.DisplayName"]
 raw = "Decoration Metal Square Corner"
+status = "normal"
 enUS = "Decoration Metal Square Corner"
 zhCN = "无纹铁质四棱锥装饰块 1x1"
 zhTW = "裝飾用金屬方角"
@@ -1547,6 +1672,7 @@ koKR = "장식 금속 정사각형 모서리"
 
 ["Knatte.DE_SMSQCorner.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬壩被角落化。"
@@ -1560,6 +1686,7 @@ koKR = "부드러운 금속 댐을 코너로 만드세요."
 
 ["Knatte.DE_SMSQCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -1573,6 +1700,7 @@ koKR = "물의 흐름을 막지 않습니다"
 
 ["Knatte.DE_SMDiagonal.DisplayName"]
 raw = "Decoration Metal Diagonal"
+status = "normal"
 enUS = "Metal Diagonal Decoration"
 zhCN = "无纹铁质三棱柱装饰块"
 zhTW = "裝飾金屬斜紋"
@@ -1586,6 +1714,7 @@ koKR = "장식 금속 대각선"
 
 ["Knatte.DE_SMDiagonal.Description"]
 raw = "Let the Smooth Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the Smooth Metal Dam go to the Side."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩移到一旁。"
@@ -1599,6 +1728,7 @@ koKR = "부드러운 금속 댐을 옆으로 이동하십시오."
 
 ["Knatte.DE_SMDiagonal.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不防水"
@@ -1612,6 +1742,7 @@ koKR = "물을 차단하지 않습니다"
 
 ["Knatte.DE_SMDiagonalW.DisplayName"]
 raw = "Leeve Diagonal"
+status = "normal"
 enUS = "Diagonal Leave"
 zhCN = "无纹铁质三棱柱防洪堤"
 zhTW = "留斜線"
@@ -1625,6 +1756,7 @@ koKR = "비탈 위에"
 
 ["Knatte.DE_SMDiagonalW.Description"]
 raw = "Let the Smooth Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the Smooth Metal Dam move to the side."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓平滑金屬堤側移。"
@@ -1638,6 +1770,7 @@ koKR = "부드러운 금속 댐을 옆으로 가게 하세요."
 
 ["Knatte.DE_SMDiagonalW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水將不會通過"
@@ -1651,6 +1784,7 @@ koKR = "물은 지나가지 않습니다"
 
 ["Knatte.DE_SMInvCorner.DisplayName"]
 raw = "Decoration Metal Internal Corner"
+status = "normal"
 enUS = "Decoration Metal Internal Corner"
 zhCN = "无纹铁质截角装饰块 1x1"
 zhTW = "裝飾金屬內角"
@@ -1664,6 +1798,7 @@ koKR = "장식 금속 내부 모서리"
 
 ["Knatte.DE_SMInvCorner.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓平滑金屬壩被角落包圍。"
@@ -1677,6 +1812,7 @@ koKR = "부드러운 금속 댐을 모서리로 만드세요."
 
 ["Knatte.DE_SMInvCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -1690,6 +1826,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_SMInvCornerW.DisplayName"]
 raw = "Leeve Internal Corner"
+status = "normal"
 enUS = "Leave Internal Corner"
 zhCN = "无纹铁质截角防洪堤 1x1"
 zhTW = "留內角"
@@ -1703,6 +1840,7 @@ koKR = "리브 내부 코너"
 
 ["Knatte.DE_SMInvCornerW.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓平滑金屬圍牆被角落化。"
@@ -1716,6 +1854,7 @@ koKR = "부드러운 금속 댐을 모서리로 설정하세요."
 
 ["Knatte.DE_SMInvCornerW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -1729,6 +1868,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_SMSlope.DisplayName"]
 raw = "Decoration Metal Slope"
+status = "normal"
 enUS = "Decoration Metal Slope"
 zhCN = "无纹铁质斜坡装饰块 1x1"
 zhTW = "裝飾金屬斜面"
@@ -1742,6 +1882,7 @@ koKR = "장식 금속 경사"
 
 ["Knatte.DE_SMSlope.Description"]
 raw = "Let the Smooth Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the smooth metal dam be sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩傾斜。"
@@ -1755,6 +1896,7 @@ koKR = "부드러운 금속 댐이 경사지도록 하십시오."
 
 ["Knatte.DE_SMSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不阻擋水"
@@ -1768,6 +1910,7 @@ koKR = "물을 차단하지 않습니다"
 
 ["Knatte.DE_SMCornerSlope.DisplayName"]
 raw = "Decoration Metal Slope Corner"
+status = "normal"
 enUS = "Decoration Metal Slope Corner"
 zhCN = "无纹铁质凹棱装饰块 1x1"
 zhTW = "裝飾金屬斜角"
@@ -1781,6 +1924,7 @@ koKR = "장식 금속 경사 모서리"
 
 ["Knatte.DE_SMCornerSlope.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬圍牆成為拐角。"
@@ -1794,6 +1938,7 @@ koKR = "부드러운 금속 댐을 모서리로 만드세요."
 
 ["Knatte.DE_SMCornerSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -1807,6 +1952,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMSquare.DisplayName"]
 raw = "Decoration Metal Cube"
+status = "normal"
 enUS = "Decoration Metal Cube"
 zhCN = "无纹铁质装饰块 1x1"
 zhTW = "裝飾金屬立方體"
@@ -1820,6 +1966,7 @@ koKR = "장식 금속 큐브"
 
 ["Knatte.DE_SMSquare.Description"]
 raw = "Dam the Smooth metal Square"
+status = "normal"
 enUS = "Dam the smooth metal square."
 zhCN = "不能阻断水流。"
 zhTW = "該光滑的金屬方塊"
@@ -1833,6 +1980,7 @@ koKR = "부드러운 금속 정사각형 댐"
 
 ["Knatte.DE_SMSquare.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "不會阻擋水"
@@ -1846,6 +1994,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_SMSquare2W.DisplayName"]
 raw = "Metal Levee 2x2"
+status = "normal"
 enUS = "Metal Levee 2x2"
 zhCN = "无纹铁质防洪堤 2x2"
 zhTW = "金屬堤壩 2x2"
@@ -1859,6 +2008,7 @@ koKR = "금속 제방 2x2"
 
 ["Knatte.DE_SMSquare3W.DisplayName"]
 raw = "Metal Levee 3x3"
+status = "normal"
 enUS = "Metal Levee 3x3"
 zhCN = "无纹铁质防洪堤 3x3"
 zhTW = "金屬堤防 3x3"
@@ -1872,6 +2022,7 @@ koKR = "메탈 제방 3x3"
 
 ["Knatte.DE_SMSquareW.Description"]
 raw = "Dam let it be big in Smooth metal"
+status = "normal"
 enUS = "Let it be big in smooth metal."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓它在光滑的金屬中變得巨大"
@@ -1885,6 +2036,7 @@ koKR = "제방을 부드러운 금속으로 크게 만들어주세요"
 
 ["Knatte.DE_SMSquareW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "“要建的数量少了，但要用的材料多了？”——海狸建筑工"
 zhTW = "水不會通過"
@@ -1898,6 +2050,7 @@ koKR = "물이 지나가지 않을 것입니다"
 
 ["Knatte.DE_SMSquareW1x1.DisplayName"]
 raw = "Metal Levee 1x1"
+status = "normal"
 enUS = "Metal Levee 1x1"
 zhCN = "无纹铁质防洪堤 1x1"
 zhTW = "金屬堤壩 1x1"
@@ -1911,6 +2064,7 @@ koKR = "금속 제방 1x1"
 
 ["Knatte.DE_SMSquareW1x2.DisplayName"]
 raw = "Metal Levee 1x2"
+status = "normal"
 enUS = "Metal Levee 1x2"
 zhCN = "无纹铁质防洪堤 1x2"
 zhTW = "金屬堤壩 1x2"
@@ -1924,6 +2078,7 @@ koKR = "금속 제방 1x2"
 
 ["Knatte.DE_SMSquareW1x3.DisplayName"]
 raw = "Metal Levee 1x3"
+status = "normal"
 enUS = "Metal Levee 1x3"
 zhCN = "无纹铁质防洪堤 1x3"
 zhTW = "金屬堤防 1x3"
@@ -1937,6 +2092,7 @@ koKR = "금속 제방 1x3"
 
 ["Knatte.DE_SMSquareW2x1.DisplayName"]
 raw = "Metal Levee 2x1"
+status = "normal"
 enUS = "Metal Levee 2x1"
 zhCN = "无纹铁质防洪堤 2x1"
 zhTW = "金屬堤壩 2x1"
@@ -1950,6 +2106,7 @@ koKR = "금속 제방 2x1"
 
 ["Knatte.DE_SMSquareW2x3.DisplayName"]
 raw = "Metal Levee 2x3"
+status = "normal"
 enUS = "Metal Levee 2x3"
 zhCN = "无纹铁质防洪堤 2x3"
 zhTW = "金屬堤壩 2x3"
@@ -1963,6 +2120,7 @@ koKR = "금속 제방 2x3"
 
 ["Knatte.DE_SMSquareW3x1.DisplayName"]
 raw = "Metal Levee 3x1"
+status = "normal"
 enUS = "Metal Levee 3x1"
 zhCN = "无纹铁质防洪堤 3x1"
 zhTW = "金屬堤壩 3x1"
@@ -1976,6 +2134,7 @@ koKR = "금속 제방 3x1"
 
 ["Knatte.DE_SMSquareW3x2.DisplayName"]
 raw = "Metal Levee 3x2"
+status = "normal"
 enUS = "Metal Levee 3x2"
 zhCN = "无纹铁质防洪堤 3x2"
 zhTW = "金屬堤防 3x2"
@@ -1989,6 +2148,7 @@ koKR = "금속 제방 3x2"
 
 ["Knatte.DE_SMCorner2X.DisplayName"]
 raw = "Decoration Metal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Corner  \nDouble Height"
 zhCN = "无纹铁质三棱锥装饰块 2x1"
 zhTW = "裝飾金屬角落 \n雙高度"
@@ -2002,6 +2162,7 @@ koKR = "장식 메탈 코너 이중 높이"
 
 ["Knatte.DE_SMCorner2X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩被轉角處理。"
@@ -2015,6 +2176,7 @@ koKR = "부드러운 금속 댐을 모서리에 두세요."
 
 ["Knatte.DE_SMCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -2028,6 +2190,7 @@ koKR = "물 차단 안함"
 
 ["Knatte.DE_SMSQCorner2X.DisplayName"]
 raw = "Decoration Metal Square Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Square Corner  \nDouble Height"
 zhCN = "无纹铁质四棱锥装饰块 2x1"
 zhTW = "裝飾金屬方角 雙高度"
@@ -2041,6 +2204,7 @@ koKR = "장식 금속 정사각형 코너 \n이중 높이"
 
 ["Knatte.DE_SMSQCorner2X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Positioned at the Corners."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬壩變得有角。"
@@ -2054,6 +2218,7 @@ koKR = "부드러운 금속 댐이 모서리에 위치하게 하세요."
 
 ["Knatte.DE_SMSQCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -2067,6 +2232,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMDiagonal2X.DisplayName"]
 raw = "Decoration Metal Diagonal \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Diagonal Double Height"
 zhCN = "无纹铁质三棱柱装饰块 2x1"
 zhTW = "裝飾金屬對角線 \n雙高度"
@@ -2080,6 +2246,7 @@ koKR = "장식 금속 대각선 이중 높이"
 
 ["Knatte.DE_SMDiagonal2X.Description"]
 raw = "Let the Smooth Metal Dam go to the Side."
+status = "normal"
 enUS = "Let the smooth metal dam go to the side."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬堤壩移到一旁。"
@@ -2093,6 +2260,7 @@ koKR = "부드러운 금속 댐이 옆으로 가게 하세요."
 
 ["Knatte.DE_SMDiagonal2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不防水"
@@ -2106,6 +2274,7 @@ koKR = "물을 차단하지 않습니다"
 
 ["Knatte.DE_SMInvCornerS2X.DisplayName"]
 raw = "Decoration Metal Internal Corner Side Platform Double Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Side Platform Double Height"
 zhCN = "无纹铁质带平台截角装饰块 2x1"
 zhTW = "裝飾金屬內角邊平台雙高度"
@@ -2119,6 +2288,7 @@ koKR = "장식 금속 내부 모서리 측면 플랫폼 더블 높이"
 
 ["Knatte.DE_SMInvCornerS2X.Description"]
 raw = "Let the Smooth Metal Dam go to the Side and have Platform."
+status = "normal"
 enUS = "Let the Smooth Metal Dam shift to the side and have a platform."
 zhCN = "不同形状的装饰块，顶部有平台，不能阻断水流。"
 zhTW = "讓光滑的金屬圍牆移到一旁，並設置平台。"
@@ -2132,6 +2302,7 @@ koKR = "부드러운 금속 댐을 옆으로 보내고 플랫폼을 마련하세
 
 ["Knatte.DE_SMInvCornerS2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "平台很稳固，完美符合需求。"
 zhTW = "不防水"
@@ -2145,6 +2316,7 @@ koKR = "물 차단 불가"
 
 ["Knatte.DE_SMInvCorner2X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner  \nDouble Height"
 zhCN = "无纹铁质截角装饰块 2x1"
 zhTW = "裝飾金屬內角  \n雙高"
@@ -2158,6 +2330,7 @@ koKR = "장식 금속 내부 코너 이중 높이"
 
 ["Knatte.DE_SMInvCorner2X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩邊緣化。"
@@ -2171,6 +2344,7 @@ koKR = "매끄러운 금속 댐을 모서리로 만들어라."
 
 ["Knatte.DE_SMInvCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水分"
@@ -2184,6 +2358,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMInvCornerW2X.DisplayName"]
 raw = "Metal Levee Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Internal Corner Double Height"
 zhCN = "无纹铁质截角防洪堤 2x1"
 zhTW = "金屬堤壩內角 雙倍高度"
@@ -2197,6 +2372,7 @@ koKR = "금속 제방 내부 모서리 이중 높이"
 
 ["Knatte.DE_SMInvCornerW2X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓光滑金屬壩變得有角。"
@@ -2210,6 +2386,7 @@ koKR = "부드러운 금속 댐을 코너로 만드세요."
 
 ["Knatte.DE_SMInvCornerW2X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -2223,6 +2400,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_SMSlope2X.DisplayName"]
 raw = "Decoration Metal Slope \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope \nDouble Height"
 zhCN = "无纹铁质斜坡装饰块 2x1"
 zhTW = "裝飾金屬斜坡 \n雙層高度"
@@ -2236,6 +2414,7 @@ koKR = "장식 금속 경사 이중 높이"
 
 ["Knatte.DE_SMSlope2X.Description"]
 raw = "Let the Smooth Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬水壩呈傾斜狀。"
@@ -2249,6 +2428,7 @@ koKR = "부드러운 메탈 댐을 경사지게 하세요."
 
 ["Knatte.DE_SMSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不防水"
@@ -2262,6 +2442,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMCornerSlope2X.DisplayName"]
 raw = "Decoration Metal Slope Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope Corner  \nDouble Height"
 zhCN = "无纹铁质凹棱装饰块 2x1"
 zhTW = "裝飾金屬斜角 \n雙高度"
@@ -2275,6 +2456,7 @@ koKR = "장식 금속 경사 코너 이중 높이"
 
 ["Knatte.DE_SMCornerSlope2X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬堤壩被角落化。"
@@ -2288,6 +2470,7 @@ koKR = "부드러운 금속 댐을 코너로 만들어라."
 
 ["Knatte.DE_SMCornerSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -2301,6 +2484,7 @@ koKR = "물이 차단되지 않음"
 
 ["Knatte.DE_SMCorner3X.DisplayName"]
 raw = "Decoration Metal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Corner  \nTriple Height"
 zhCN = "无纹铁质三/四棱锥装饰块 3x1"
 zhTW = "裝飾金屬角落 \n三重高度"
@@ -2314,6 +2498,7 @@ koKR = "장식 금속 모서리  \n삼중 높이"
 
 ["Knatte.DE_SMCorner3X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬壩被包圍。"
@@ -2327,6 +2512,7 @@ koKR = "부드러운 금속 댐을 모서리로 만드세요."
 
 ["Knatte.DE_SMCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -2340,6 +2526,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMInvCorner3X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Triple Height"
 zhCN = "无纹铁质截角/凹棱装饰块 3x1"
 zhTW = "裝飾金屬內角\n三重高度"
@@ -2353,6 +2540,7 @@ koKR = "장식 금속 내부 코너 삼중 높이"
 
 ["Knatte.DE_SMInvCorner3X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓光滑金屬壩變得有邊角。"
@@ -2366,6 +2554,7 @@ koKR = "부드러운 금속 댐을 코너로 배치하세요."
 
 ["Knatte.DE_SMInvCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -2379,6 +2568,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMSlope3X.DisplayName"]
 raw = "Decoration Metal Slope Tripple Height"
+status = "normal"
 enUS = "Decoration Metal Slope Triple Height"
 zhCN = "无纹铁质斜坡装饰块 3x1"
 zhTW = "裝飾金屬斜坡三重高度"
@@ -2392,6 +2582,7 @@ koKR = "장식 금속 경사 3배 높이"
 
 ["Knatte.DE_SMSlope3X.Description"]
 raw = "Let the Smooth Metal Dam be Sloped."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Sloped."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓平滑金屬壩傾斜。"
@@ -2405,6 +2596,7 @@ koKR = "부드러운 금속 댐을 경사지게 하세요."
 
 ["Knatte.DE_SMSlope3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不阻擋水"
@@ -2418,6 +2610,7 @@ koKR = "물이 막히지 않음"
 
 ["Knatte.DE_SMInvCornerW3X.DisplayName"]
 raw = "Leeve Internal Corner Tripple Height"
+status = "normal"
 enUS = "Leave Internal Corner Triple Height"
 zhCN = "无纹铁质截角防洪堤 3x1"
 zhTW = "李維內角三重高度"
@@ -2431,6 +2624,7 @@ koKR = "리브 내부 코너 삼중 높이"
 
 ["Knatte.DE_SMInvCornerW3X.Description"]
 raw = "Let the Smooth Metal Dam be Cornered."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Cornered."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓平滑金屬壩變得有角。"
@@ -2444,6 +2638,7 @@ koKR = "부드러운 금속 댐을 모서리로 하세요."
 
 ["Knatte.DE_SMInvCornerW3X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -2457,6 +2652,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_SMSlopeW_1.DisplayName"]
 raw = "Metal Levee Slope"
+status = "normal"
 enUS = "Metal Levee Slope"
 zhCN = "无纹铁质斜坡防洪堤 1x1"
 zhTW = "金屬堤坡"
@@ -2470,6 +2666,7 @@ koKR = "금속 제방 경사"
 
 ["Knatte.DE_SMSlopeW_2.DisplayName"]
 raw = "Metal Levee Slope \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nDouble Height"
 zhCN = "无纹铁质斜坡防洪堤 2x1"
 zhTW = "金屬堤坡 雙高度"
@@ -2483,6 +2680,7 @@ koKR = "금속 제방 경사 이중 높이"
 
 ["Knatte.DE_SMSlopeW_3.DisplayName"]
 raw = "Metal Levee Slope \nTripple Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nTriple Height"
 zhCN = "无纹铁质斜坡防洪堤 3x1"
 zhTW = "金屬堤坡 \n三倍高度"
@@ -2496,6 +2694,7 @@ koKR = "메탈 제방 경사 삼배 높이"
 
 ["Knatte.DE_SMSlopeW.Description"]
 raw = "Smooth Metal Slope that block water in full block"
+status = "normal"
 enUS = "Smooth Metal Slope that blocks water in a full block"
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "平滑金屬坡道，完全阻擋水流的全方塊"
@@ -2509,6 +2708,7 @@ koKR = "물에 완전히 차단되는 매끄러운 금속 경사"
 
 ["Knatte.DE_SMSlopeW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass"
 zhCN = "适合用在大坝的外立面。"
 zhTW = "水不會通過"
@@ -2522,6 +2722,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_SMSlopeS.DisplayName"]
 raw = "Decoration Metal Stair"
+status = "normal"
 enUS = "Decoration Metal Stair"
 zhCN = "无纹铁质楼梯装饰块"
 zhTW = "裝飾金屬階梯"
@@ -2535,6 +2736,7 @@ koKR = "장식 금속 계단"
 
 ["Knatte.DE_SMSlopeS.Description"]
 raw = "Let the Smooth Metal Dam be Stepped on."
+status = "normal"
 enUS = "Let the Smooth Metal Dam be Stepped on."
 zhCN = "带有楼梯的三角形装饰块，不能阻断水流。"
 zhTW = "讓光滑的金屬圍堰被踩踏。"
@@ -2548,6 +2750,7 @@ koKR = "매끄러운 금속 댐을 딛어 보세요."
 
 ["Knatte.DE_SMSlopeS.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "不能在下面玩捉迷藏了……"
 zhTW = "不阻擋水"
@@ -2561,6 +2764,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_SMToolGroup.Decoration"]
 raw = "Decoration Blocks"
+status = "normal"
 enUS = "Decoration Blocks"
 zhCN = "装饰块"
 zhTW = "裝飾方塊"
@@ -2574,6 +2778,7 @@ koKR = "장식 블록"
 
 ["Knatte.DE_SMCategoryDam.DisplayName"]
 raw = "Smooth Metal Decoration"
+status = "normal"
 enUS = "Smooth Metal Decoration"
 zhCN = "无纹铁质多边形装饰块"
 zhTW = "光滑金屬裝飾"
@@ -2587,6 +2792,7 @@ koKR = "부드러운 금속 장식"
 
 ["Knatte.DE_SMCategoryDam.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不防水"
@@ -2600,6 +2806,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_SMCategoryLevees.DisplayName"]
 raw = "Shaped Smooth Metal Levees"
+status = "normal"
 enUS = "Shaped Smooth Metal Levees"
 zhCN = "无纹铁质多边形防洪堤"
 zhTW = "造型光滑金屬堤防"
@@ -2613,6 +2820,8 @@ koKR = "형태가 있는 매끈한 금속 제방"
 
 ["Knatte.DE_SMCategoryLeveesSQ.DisplayName"]
 raw = "Square Smooth Metal Levees "
+new = "Square Smooth Metal Levees"
+status = "normal"
 enUS = "Square Smooth Metal Levees"
 zhCN = "无纹铁质方形防洪堤"
 zhTW = "方形平滑金屬堤防"
@@ -2626,6 +2835,7 @@ koKR = "정사각형 매끄러운 금속 제방"
 
 ["Knatte.DE_SMCategoryDam2.DisplayName"]
 raw = "Smooth Metal Decoration"
+status = "normal"
 enUS = "Smooth Metal Decoration"
 zhCN = "无纹铁质悬挑装饰块"
 zhTW = "光滑金屬裝飾"
@@ -2639,6 +2849,7 @@ koKR = "부드러운 금속 장식"
 
 ["Knatte.DE_SMCategoryDamSQ.DisplayName"]
 raw = "Smooth Metal Decoration SQ"
+status = "normal"
 enUS = "Smooth Metal Decoration SQ"
 zhCN = "无纹铁质方形装饰块"
 zhTW = "光滑金屬裝飾SQ"
@@ -2652,6 +2863,7 @@ koKR = "부드러운 금속 장식 SQ"
 
 ["Knatte.DE_SMCategoryDam2.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不阻擋水"
@@ -2665,6 +2877,7 @@ koKR = "물 차단 안함"
 
 ["Knatte.DE_SMDoubleInvSlope.DisplayName"]
 raw = "Metal Double Inverted Slope"
+status = "normal"
 enUS = "Metal Double Inverted Slope"
 zhCN = "无纹铁质倒勾悬挑装饰块 1x3"
 zhTW = "金屬雙向倒坡"
@@ -2678,6 +2891,7 @@ koKR = "금속 이중 반전 경사"
 
 ["Knatte.DE_SMDoubleInvSlope.Description"]
 raw = "Smooth Metal Levee and inverted Slope Combo"
+status = "normal"
 enUS = "Smooth Metal Levee and Inverted Slope Combo"
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "平滑金屬堤防與倒坡組合"
@@ -2691,6 +2905,7 @@ koKR = "부드러운 금속 제방 및 역경사 조합"
 
 ["Knatte.DE_SMDoubleInvSlope.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"
@@ -2704,6 +2919,7 @@ koKR = "다리를 놓자"
 
 ["Knatte.DE_SMSquare1x2.DisplayName"]
 raw = "Decoration Metal Cube 1x2"
+status = "normal"
 enUS = "Decoration Metal Cube 1x2"
 zhCN = "无纹铁质装饰块 1x2"
 zhTW = "裝飾金屬立方體 1x2"
@@ -2717,6 +2933,7 @@ koKR = "장식 금속 큐브 1x2"
 
 ["Knatte.DE_SMSquare1x3.DisplayName"]
 raw = "Decoration Metal Cube 1x3"
+status = "normal"
 enUS = "Decoration Metal Cube 1x3"
 zhCN = "无纹铁质装饰块 1x3"
 zhTW = "裝飾金屬立方體 1x3"
@@ -2730,6 +2947,7 @@ koKR = "장식 금속 큐브 1x3"
 
 ["Knatte.DE_SMSquare_B.Description"]
 raw = "Smooth Metal Square that can stick out but does not block water."
+status = "normal"
 enUS = "Smooth metal square that can protrude but does not obstruct water."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "光滑的金屬方塊，可以突出但不會阻擋水流。"
@@ -2743,6 +2961,7 @@ koKR = "물이 막히지 않지만 튀어나올 수 있는 매끄러운 금속 �
 
 ["Knatte.DE_SMSquare_B.FlavorDescription"]
 raw = "Look it floats"
+status = "normal"
 enUS = "Look, it floats."
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "看，這漂浮著！"
@@ -2756,6 +2975,7 @@ koKR = "떠 있어요"
 
 ["Knatte.DE_SMInvSlope1x1.DisplayName"]
 raw = "Metal Inverted Slope 1x1"
+status = "normal"
 enUS = "Metal Inverted Slope 1x1"
 zhCN = "无纹铁质悬挑装饰块 1x2"
 zhTW = "金屬反向斜坡 1x1"
@@ -2769,6 +2989,7 @@ koKR = "금속 역슬로프 1x1"
 
 ["Knatte.DE_SMInvSlope1x2.DisplayName"]
 raw = "Metal Inverted Slope 1x2"
+status = "normal"
 enUS = "Metal Inverted Slope 1x2"
 zhCN = "无纹铁质悬挑装饰块 1x3"
 zhTW = "金屬倒斜坡 1x2"
@@ -2782,6 +3003,7 @@ koKR = "금속 인버티드 슬로프 1x2"
 
 ["Knatte.DE_SMInvSlope1x3.DisplayName"]
 raw = "Metal Inverted Slope 1x3"
+status = "normal"
 enUS = "Metal Inverted Slope 1x3"
 zhCN = "无纹铁质悬挑装饰块 1x4"
 zhTW = "金屬倒斜坡 1x3"
@@ -2795,6 +3017,7 @@ koKR = "금속 뒤집힌 경사 1x3"
 
 ["Knatte.DE_SMInvSlope2x1.DisplayName"]
 raw = "Metal Inverted Slope 2x1"
+status = "normal"
 enUS = "Metal Inverted Slope 2x1"
 zhCN = "无纹铁质悬挑装饰块 2x2"
 zhTW = "金屬倒坡 2x1"
@@ -2808,6 +3031,7 @@ koKR = "금속 역경사 2x1"
 
 ["Knatte.DE_SMInvSlope.Description"]
 raw = "Smooth Metal Square that can stick out but does not block water."
+status = "normal"
 enUS = "Smooth metal square that can protrude but does not obstruct water."
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "光滑的金屬方塊，可以突出但不會阻擋水。"
@@ -2821,6 +3045,7 @@ koKR = "물은 차단하지 않지만 튀어나올 수 있는 매끄러운 금�
 
 ["Knatte.DE_SMInvSlope.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go."
 zhCN = "恐高者禁止攀登。"
 zhTW = "出發了"
@@ -2834,6 +3059,7 @@ koKR = "밖으로 나갑니다"
 
 ["Knatte.DE_SMInvTrapezium1x1.DisplayName"]
 raw = "Inverted Trapezium 1x1"
+status = "normal"
 enUS = "Inverted Trapezium 1x1"
 zhCN = "无纹铁质双向悬挑装饰块 1x3"
 zhTW = "倒置梯形 1x1"
@@ -2847,6 +3073,7 @@ koKR = "역 트래펠리움 1x1"
 
 ["Knatte.DE_SMBlockDecoration.DisplaynameLocKey"]
 raw = "Beautiful Dam"
+status = "normal"
 enUS = "Beautiful Dam"
 zhCN = "大坝景观"
 zhTW = "美麗的大壩"
@@ -2860,6 +3087,7 @@ koKR = "아름다운 댐"
 
 ["Knatte.DE_SMInvSlopeW1x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x1"
 zhCN = "无纹铁质悬挑防洪堤 1x2"
 zhTW = "倒置金屬堤坡 1x1"
@@ -2873,6 +3101,7 @@ koKR = "거꾸로 된 금속 둑 경사 1x1"
 
 ["Knatte.DE_SMInvSlopeW1x2.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x2"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x2"
 zhCN = "无纹铁质悬挑防洪堤 1x3"
 zhTW = "倒置金屬堤岸斜坡 1x2"
@@ -2886,6 +3115,7 @@ koKR = "역방향 금속 제방 경사 1x2"
 
 ["Knatte.DE_SMInvSlopeW1x3.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x3"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x3"
 zhCN = "无纹铁质悬挑防洪堤 1x4"
 zhTW = "反向金屬堤防坡度 1x3"
@@ -2899,6 +3129,7 @@ koKR = "뒤집어진 금속 제방 경사 1x3"
 
 ["Knatte.DE_SMInvSlopeW2x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 2x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 2x1"
 zhCN = "无纹铁质悬挑防洪堤 2x2"
 zhTW = "倒置金屬堤坡 2x1"
@@ -2912,6 +3143,7 @@ koKR = "역전된 금속 제방 경사 2x1"
 
 ["Knatte.DE_SMInvSlopeW.Description"]
 raw = "Smooth Metal Square that can stick out. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor"
+status = "normal"
 enUS = "Smooth metal square that can protrude. Placement hex block for all water, other blocks only from the top/bottom like a built-in impermeable floor."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "光滑金屬方塊可以突出。 \n放置六角塊，所有水和其他方塊僅能從上下進入，就像一個內建的防水地板。"
@@ -2925,6 +3157,7 @@ koKR = "매끈한 금속 정사각형으로, 튀어나올 수 있습니다. \n�
 
 ["Knatte.DE_SMInvSlopeW.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go"
 zhCN = "适合用在大坝的顶部或底部。"
 zhTW = "我們出發了"
@@ -2938,6 +3171,7 @@ koKR = "나갑니다"
 
 ["Knatte.DE_SMInvTrapeziumW1x1.DisplayName"]
 raw = "Inverted Trapezium Metal Levee 1x1"
+status = "normal"
 enUS = "Inverted Trapezium Metal Levee 1x1"
 zhCN = "无纹铁质双向悬挑防洪堤 1x3"
 zhTW = "倒梯形金屬堤壩 1x1"
@@ -2951,6 +3185,7 @@ koKR = "역삼각형 금속 제방 1x1"
 
 ["Knatte.DE_SMDoubleInvSlopeW.Description"]
 raw = "Smooth Metal Square that sticks out on both sides. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor"
+status = "normal"
 enUS = "Smooth metal square that protrudes on both sides. Placement hex block allows water on all sides while other blocks only interact from the top/bottom, similar to a built-in impermeable floor."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "光滑的金屬方塊，兩側突出。 \n放置六邊形區塊，所有水只能從上/下進入，像一個內建的防水地板。"
@@ -2964,6 +3199,7 @@ koKR = "양쪽으로 튀어나온 매끄러운 금속 사각형. 배치용 헥�
 
 ["Knatte.DE_SMDoubleInvSlopeW.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"
@@ -2977,6 +3213,7 @@ koKR = "다리 건설하자"
 
 ["Knatte.DE_A_RMCorner.DisplayName"]
 raw = "Decoration Metal Corner"
+status = "normal"
 enUS = "Decoration Metal Corner"
 zhCN = "水渠三棱锥装饰块 1x1"
 zhTW = "裝飾金屬角落"
@@ -2990,6 +3227,7 @@ koKR = "장식 금속 모서리"
 
 ["Knatte.DE_A_RMCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩變得有角落。\n以高架橋風格。"
@@ -3003,6 +3241,7 @@ koKR = "리브드 메탈 댐을 코너에 두세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不防水"
@@ -3016,6 +3255,7 @@ koKR = "물 차단하지 않음"
 
 ["Knatte.DE_A_RMSQCorner.DisplayName"]
 raw = "Decoration Metal Square Corner"
+status = "normal"
 enUS = "Metal Square Corner Decoration"
 zhCN = "水渠四棱锥装饰块 1x1"
 zhTW = "裝飾金屬方角"
@@ -3029,6 +3269,7 @@ koKR = "장식 금속 네모 코너"
 
 ["Knatte.DE_A_RMSQCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓有肋金屬壩成為轉角。\n以水渠風格。"
@@ -3042,6 +3283,7 @@ koKR = "리브 메탈 댐이 코너에 위치하게 하세요. 아쿠educt 스�
 
 ["Knatte.DE_A_RMSQCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -3055,6 +3297,7 @@ koKR = "물을 차단하지 않습니다"
 
 ["Knatte.DE_A_RMDiagonal.DisplayName"]
 raw = "Decoration Metal Diagonal"
+status = "normal"
 enUS = "Decoration Metal Diagonal"
 zhCN = "水渠三棱柱装饰块"
 zhTW = "裝飾金屬對角線"
@@ -3068,6 +3311,7 @@ koKR = "장식 금속 대각선"
 
 ["Knatte.DE_A_RMDiagonal.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the Side. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬閘門向一側移動。以水道風格。"
@@ -3081,6 +3325,7 @@ koKR = "리브 메탈 댐을 옆으로 이동시킵니다. 아쿠에덕트 스�
 
 ["Knatte.DE_A_RMDiagonal.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不防水"
@@ -3094,6 +3339,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMDiagonalW.DisplayName"]
 raw = "Leeve Diagonal"
+status = "normal"
 enUS = "Leave Diagonal"
 zhCN = "水渠三棱柱防洪堤"
 zhTW = "留斜線"
@@ -3107,6 +3353,7 @@ koKR = "사선 레벨"
 
 ["Knatte.DE_A_RMDiagonalW.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the Side. In Aqueduct Style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓有肋金屬閘門移到旁邊。  \n以渡槽風格。"
@@ -3120,6 +3367,7 @@ koKR = "능선이 있는 금속 댐을 옆으로 이동하세요.\n수로 스타
 
 ["Knatte.DE_A_RMDiagonalW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -3133,6 +3381,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_A_RMInvCorner.DisplayName"]
 raw = "Decoration Metal Internal Corner"
+status = "normal"
 enUS = "Decoration Metal Internal Corner"
 zhCN = "水渠截角装饰块 1x1"
 zhTW = "裝飾金屬內角"
@@ -3146,6 +3395,7 @@ koKR = "장식 금속 내부 코너"
 
 ["Knatte.DE_A_RMInvCorner.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩成為拐角。以水道風格。"
@@ -3159,6 +3409,7 @@ koKR = "리브드 메탈 댐을 코너로 만들어라. 수로 스타일로."
 
 ["Knatte.DE_A_RMInvCorner.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -3172,6 +3423,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMInvCornerW.DisplayName"]
 raw = "Leeve Internal Corner"
+status = "normal"
 enUS = "Leave Internal Corner"
 zhCN = "水渠截角防洪堤 1x1"
 zhTW = "留意內角"
@@ -3185,6 +3437,7 @@ koKR = "리브 내부 코너"
 
 ["Knatte.DE_A_RMInvCornerW.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓肋骨金屬壩成為角落。\n以高架渠風格。"
@@ -3198,6 +3451,7 @@ koKR = "리브가 있는 금속 댐이 모서리로 배치되도록 하세요. �
 
 ["Knatte.DE_A_RMInvCornerW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -3211,6 +3465,7 @@ koKR = "물이 지나가지 않습니다"
 
 ["Knatte.DE_A_RMSlope.DisplayName"]
 raw = "Decoration Metal Slope"
+status = "normal"
 enUS = "Decoration Metal Slope"
 zhCN = "水渠斜坡装饰块 1x1"
 zhTW = "裝飾金屬斜坡"
@@ -3224,6 +3479,7 @@ koKR = "장식 금속 경사"
 
 ["Knatte.DE_A_RMSlope.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Sloped. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩呈斜坡形狀。以水道風格為主。"
@@ -3237,6 +3493,7 @@ koKR = "능형 금속 댐을 경사지게 만드세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不防水"
@@ -3250,6 +3507,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMCornerSlope.DisplayName"]
 raw = "Decoration Metal Slope Corner"
+status = "normal"
 enUS = "Decoration Metal Sloped Corner"
 zhCN = "水渠凹棱装饰块 1x1"
 zhTW = "裝飾金屬斜角"
@@ -3263,6 +3521,7 @@ koKR = "장식 금속 경사 코너"
 
 ["Knatte.DE_A_RMCornerSlope.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Corned. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓有紋理的金屬壩成為拐角。以高架水道風格。"
@@ -3276,6 +3535,7 @@ koKR = "레바드 메탈 댐을 코너로 설정하세요. 아쿠educt 스타일
 
 ["Knatte.DE_A_RMCornerSlope.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -3289,6 +3549,7 @@ koKR = "물 막지 않음"
 
 ["Knatte.DE_A_RMSquare.DisplayName"]
 raw = "Decoration Metal Cube"
+status = "normal"
 enUS = "Decoration Metal Cube"
 zhCN = "水渠装饰块 1x1"
 zhTW = "裝飾金屬立方體"
@@ -3302,6 +3563,7 @@ koKR = "장식 금속 큐브"
 
 ["Knatte.DE_A_RMSquare.Description"]
 raw = "Dam the Ribbed metal Square\nIn Aqueduct Style."
+status = "normal"
 enUS = "Dam the Ribbed Metal Square in Aqueduct Style."
 zhCN = "不能阻断水流。"
 zhTW = "壩的波紋金屬方塊  \n以水道風格。"
@@ -3315,6 +3577,7 @@ koKR = "리브 메탈 사각형 제방 수로 스타일로."
 
 ["Knatte.DE_A_RMSquare.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water."
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "不防水"
@@ -3328,6 +3591,7 @@ koKR = "물 차단하지 않음"
 
 ["Knatte.DE_A_RMSquare2W.DisplayName"]
 raw = "Metal Levee 2x2"
+status = "normal"
 enUS = "Metal Levee 2x2"
 zhCN = "水渠防洪堤 2x2"
 zhTW = "金屬堤壩 2x2"
@@ -3341,6 +3605,7 @@ koKR = "메탈 제방 2x2"
 
 ["Knatte.DE_A_RMSquare3W.DisplayName"]
 raw = "Metal Levee 3x3"
+status = "normal"
 enUS = "Metal Levee 3x3"
 zhCN = "水渠防洪堤 3x3"
 zhTW = "金屬堤壩 3x3"
@@ -3354,6 +3619,7 @@ koKR = "금속 제방 3x3"
 
 ["Knatte.DE_A_RMSquareW.Description"]
 raw = "Dam let it be big in Ribbed metal\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let it be big in ribbed metal in aqueduct style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓它在管道風格中用肋狀金屬變得大。"
@@ -3367,6 +3633,7 @@ koKR = "댐을 리브 금속으로 크게 만들어주세요. 수로 스타일�
 
 ["Knatte.DE_A_RMSquareW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "“要建的数量少了，但要用的材料多了？”——海狸建筑工"
 zhTW = "水不會通過"
@@ -3380,6 +3647,7 @@ koKR = "물은 통과하지 않습니다"
 
 ["Knatte.DE_A_RMSquareW1x1.DisplayName"]
 raw = "Metal Levee 1x1"
+status = "normal"
 enUS = "Metal Levee 1x1"
 zhCN = "水渠防洪堤 1x1"
 zhTW = "金屬壩 1x1"
@@ -3393,6 +3661,7 @@ koKR = "금속 제방 1x1"
 
 ["Knatte.DE_A_RMSquareW1x2.DisplayName"]
 raw = "Metal Levee 1x2"
+status = "normal"
 enUS = "Metal Levee 1x2"
 zhCN = "水渠防洪堤 1x2"
 zhTW = "金屬堤壩 1x2"
@@ -3406,6 +3675,7 @@ koKR = "금속 제방 1x2"
 
 ["Knatte.DE_A_RMSquareW1x3.DisplayName"]
 raw = "Metal Levee 1x3"
+status = "normal"
 enUS = "Metal Levee 1x3"
 zhCN = "水渠防洪堤 1x3"
 zhTW = "金屬堤壩 1x3"
@@ -3419,6 +3689,7 @@ koKR = "금속 제방 1x3"
 
 ["Knatte.DE_A_RMSquareW2x1.DisplayName"]
 raw = "Metal Levee 2x1"
+status = "normal"
 enUS = "Metal Levee 2x1"
 zhCN = "水渠防洪堤 2x1"
 zhTW = "金屬堤防 2x1"
@@ -3432,6 +3703,7 @@ koKR = "금속 제방 2x1"
 
 ["Knatte.DE_A_RMSquareW2x3.DisplayName"]
 raw = "Metal Levee 2x3"
+status = "normal"
 enUS = "Metal Levee 2x3"
 zhCN = "水渠防洪堤 2x3"
 zhTW = "金屬堤壩 2x3"
@@ -3445,6 +3717,7 @@ koKR = "금속 제방 2x3"
 
 ["Knatte.DE_A_RMSquareW3x1.DisplayName"]
 raw = "Metal Levee 3x1"
+status = "normal"
 enUS = "Metal Levee 3x1"
 zhCN = "水渠防洪堤 3x1"
 zhTW = "金屬堤壩 3x1"
@@ -3458,6 +3731,7 @@ koKR = "금속 레베 3x1"
 
 ["Knatte.DE_A_RMSquareW3x2.DisplayName"]
 raw = "Metal Levee 3x2"
+status = "normal"
 enUS = "Metal Levee 3x2"
 zhCN = "水渠防洪堤 3x2"
 zhTW = "金屬堤壩 3x2"
@@ -3471,6 +3745,7 @@ koKR = "금속 제방 3x2"
 
 ["Knatte.DE_A_RMCorner2X.DisplayName"]
 raw = "Decoration Metal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Corner  \nDouble Height"
 zhCN = "水渠三棱锥装饰块 2x1"
 zhTW = "裝飾金屬角落\n雙層高度"
@@ -3484,6 +3759,7 @@ koKR = "장식 금속 코너 두 배 높이"
 
 ["Knatte.DE_A_RMCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩轉角。\n採水道風格。"
@@ -3497,6 +3773,7 @@ koKR = "리브 메탈 댐을 코너에 두세요. 아쿠educt 스타일로."
 
 ["Knatte.DE_A_RMCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -3510,6 +3787,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMSQCorner2X.DisplayName"]
 raw = "Decoration Metal Square Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Square Corner\nDouble Height"
 zhCN = "水渠四棱锥装饰块 2x1"
 zhTW = "裝飾金屬方角 \n雙重高度"
@@ -3523,6 +3801,7 @@ koKR = "장식 금속 정사각형 코너 더블 높이"
 
 ["Knatte.DE_A_RMSQCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩成為拐角狀。\n以渡槽風格。"
@@ -3536,6 +3815,7 @@ koKR = "따라서 리브드 메탈 댐이 코너에 위치하도록 하세요. �
 
 ["Knatte.DE_A_RMSQCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -3549,6 +3829,7 @@ koKR = "물을 차단하지 않습니다"
 
 ["Knatte.DE_A_RMDiagonal2X.DisplayName"]
 raw = "Decoration Metal Diagonal \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Diagonal Double Height"
 zhCN = "水渠三棱柱装饰块 2x1"
 zhTW = "裝飾金屬對角線 \n雙高度"
@@ -3562,6 +3843,7 @@ koKR = "장식 금속 대각선 이중 높이"
 
 ["Knatte.DE_A_RMDiagonal2X.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the Side. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩移到一旁。以水道的風格。"
@@ -3575,6 +3857,7 @@ koKR = "리브 메탈 댐을 옆으로 이동시키세요. 아쿠엑트 스타�
 
 ["Knatte.DE_A_RMDiagonal2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "体积减半，所以材料也减半。"
 zhTW = "不阻擋水分"
@@ -3588,6 +3871,7 @@ koKR = "물 차단하지 않음"
 
 ["Knatte.DE_A_RMInvCornerS2X.DisplayName"]
 raw = "Decoration Metal Internal Corner Side Platform Double Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner Side Platform Double Height"
 zhCN = "水渠带平台截角装饰块 2x1"
 zhTW = "裝飾金屬內角側平台雙高度"
@@ -3601,6 +3885,7 @@ koKR = "장식 금속 내부 모서리 측면 플랫폼 이중 높이"
 
 ["Knatte.DE_A_RMInvCornerS2X.Description"]
 raw = "Let the Ribbed Metal Dam go to the Side and have Platform.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam go to the side and have a platform. In aqueduct style."
 zhCN = "不同形状的装饰块，顶部有平台，不能阻断水流。"
 zhTW = "讓波紋金屬壩移到側邊並擁有平台。\n以引水道風格。"
@@ -3614,6 +3899,7 @@ koKR = "ribbed metal dam을 옆으로 두고 플랫폼을 만드세요. 수로 �
 
 ["Knatte.DE_A_RMInvCornerS2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "平台很稳固，完美符合需求。"
 zhTW = "不阻擋水"
@@ -3627,6 +3913,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMInvCorner2X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner \nDouble Height"
 zhCN = "水渠截角装饰块 2x1"
 zhTW = "裝飾金屬內角 \n雙高"
@@ -3640,6 +3927,7 @@ koKR = "장식 금속 내부 코너 이중 높이"
 
 ["Knatte.DE_A_RMInvCorner2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩變成拐角。\n以引水道風格。"
@@ -3653,6 +3941,7 @@ koKR = "골지 금속 댐을 코너로 만드세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMInvCorner2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水"
@@ -3666,6 +3955,7 @@ koKR = "물 차단하지 않음"
 
 ["Knatte.DE_A_RMInvCornerW2X.DisplayName"]
 raw = "Metal Levee Internal Corner \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Internal Corner Double Height"
 zhCN = "水渠截角防洪堤 2x1"
 zhTW = "金屬堤防內角  \n雙倍高度"
@@ -3679,6 +3969,7 @@ koKR = "금속 제방 내부 코너 이중 높이"
 
 ["Knatte.DE_A_RMInvCornerW2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓波紋金屬壩變得有角。以渡槽風格。"
@@ -3692,6 +3983,7 @@ koKR = "리브드 메탈 댐을 코너로 만들기.\n수로 스타일로."
 
 ["Knatte.DE_A_RMInvCornerW2X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -3705,6 +3997,7 @@ koKR = "물이 흐르지 않습니다"
 
 ["Knatte.DE_A_RMSlope2X.DisplayName"]
 raw = "Decoration Metal Slope \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope  \nDouble Height"
 zhCN = "水渠斜坡装饰块 2x1"
 zhTW = "裝飾金屬坡度  \n雙層高度"
@@ -3718,6 +4011,7 @@ koKR = "장식 금속 경사 두 배 높이"
 
 ["Knatte.DE_A_RMSlope2X.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Sloped. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩傾斜。以引水道風格。"
@@ -3731,6 +4025,7 @@ koKR = "리브드 메탈 댐을 경사진 형태로 만드세요. 아쿠에덕�
 
 ["Knatte.DE_A_RMSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不防水"
@@ -3744,6 +4039,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMCornerSlope2X.DisplayName"]
 raw = "Decoration Metal Slope Corner \nDouble Height"
+status = "normal"
 enUS = "Decoration Metal Slope Corner \nDouble Height"
 zhCN = "水渠凹棱装饰块 2x1"
 zhTW = "裝飾金屬斜角 雙重高度"
@@ -3757,6 +4053,7 @@ koKR = "장식용 금속 경사 코너 이중 높이"
 
 ["Knatte.DE_A_RMCornerSlope2X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬水壩成為拐角。\n以高架水道風格。"
@@ -3770,6 +4067,7 @@ koKR = "리브가 있는 금속 댐을 구부리세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMCornerSlope2X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不阻擋水分"
@@ -3783,6 +4081,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMCorner3X.DisplayName"]
 raw = "Decoration Metal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Corner\nTriple Height"
 zhCN = "水渠三/四棱锥装饰块 3x1"
 zhTW = "裝飾金屬角落 三重高度"
@@ -3796,6 +4095,7 @@ koKR = "장식 금속 코너 삼배 높이"
 
 ["Knatte.DE_A_RMCorner3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩變得棱角分明。以水道風格。"
@@ -3809,6 +4109,7 @@ koKR = " ribbed metal dam이 코너가 되게 하세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可千万不能摔在这上面。"
 zhTW = "不阻擋水"
@@ -3822,6 +4123,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMInvCorner3X.DisplayName"]
 raw = "Decoration Metal Internal Corner \nTripple Height"
+status = "normal"
 enUS = "Decoration Metal Internal Corner\nTriple Height"
 zhCN = "水渠截角/凹棱装饰块 3x1"
 zhTW = "裝飾金屬內角  \n三重高度"
@@ -3835,6 +4137,7 @@ koKR = "장식 금속 내부 코너 트리플 높이"
 
 ["Knatte.DE_A_RMInvCorner3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩轉角。\n採水道風格。"
@@ -3848,6 +4151,7 @@ koKR = "리브드 메탈 댐을 코너로 만들어보세요. 아쿠아덕트 �
 
 ["Knatte.DE_A_RMInvCorner3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "摔在这上面还算安全。"
 zhTW = "不防水"
@@ -3861,6 +4165,7 @@ koKR = "물을 차단하지 않음"
 
 ["Knatte.DE_A_RMSlope3X.DisplayName"]
 raw = "Decoration Metal Slope Tripple Height"
+status = "normal"
 enUS = "Decoration Metal Sloped Triple Height"
 zhCN = "水渠斜坡装饰块 3x1"
 zhTW = "裝飾金屬坡道三重高度"
@@ -3874,6 +4179,7 @@ koKR = "장식 금속 경사 삼중 높이"
 
 ["Knatte.DE_A_RMSlope3X.Description"]
 raw = "Let the Ribbed Metal Dam be Sloped.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Sloped. In Aqueduct Style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "讓波紋金屬壩呈斜坡狀。  \n以水道風格。"
@@ -3887,6 +4193,7 @@ koKR = "리브 메탈 댐을 경사 지게 하세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMSlope3X.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "可以在上面滑滑梯！"
 zhTW = "不阻擋水"
@@ -3900,6 +4207,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMInvCornerW3X.DisplayName"]
 raw = "Leeve Internal Corner Tripple Height"
+status = "normal"
 enUS = "Leave Internal Corner Triple Height"
 zhCN = "水渠截角防洪堤 3x1"
 zhTW = "李維內部角落三倍高度"
@@ -3913,6 +4221,7 @@ koKR = "내부 코너 트리플 높이"
 
 ["Knatte.DE_A_RMInvCornerW3X.Description"]
 raw = "Let the Ribbed Metal Dam be Cornered.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Cornered.  \nIn Aqueduct Style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "讓有脊金屬壩變角落。\n以渡槽風格。"
@@ -3926,6 +4235,7 @@ koKR = "리브드 메탈 댐을 코너에 두세요. 수로 스타일로."
 
 ["Knatte.DE_A_RMInvCornerW3X.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的转角处。"
 zhTW = "水不會通過"
@@ -3939,6 +4249,7 @@ koKR = "물은 지나가지 않습니다"
 
 ["Knatte.DE_A_RMSlopeW_1.DisplayName"]
 raw = "Metal Levee Slope"
+status = "normal"
 enUS = "Metal Levee Slope"
 zhCN = "水渠斜坡防洪堤 1x1"
 zhTW = "金屬堤坡"
@@ -3952,6 +4263,7 @@ koKR = "금속 둑 경사"
 
 ["Knatte.DE_A_RMSlopeW_2.DisplayName"]
 raw = "Metal Levee Slope \nDouble Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nDouble Height"
 zhCN = "水渠斜坡防洪堤 2x1"
 zhTW = "金屬堤坡\n雙重高度"
@@ -3965,6 +4277,7 @@ koKR = "금속 제방 경사 이중 높이"
 
 ["Knatte.DE_A_RMSlopeW_3.DisplayName"]
 raw = "Metal Levee Slope \nTripple Height"
+status = "normal"
 enUS = "Metal Levee Slope  \nTriple Height"
 zhCN = "水渠斜坡防洪堤 3x1"
 zhTW = "金屬堤防坡度  \n三重高度"
@@ -3978,6 +4291,7 @@ koKR = "금속 제방 경사 트리플 높이"
 
 ["Knatte.DE_A_RMSlopeW.Description"]
 raw = "Ribbed Metal Slope that block water in full block\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed Metal Slope that blocks water in a full block  \nIn Aqueduct Style."
 zhCN = "不同形状的防洪堤，能完全阻断水流。"
 zhTW = "帶肋金屬坡道，完全阻擋水流，以水道風格設計。"
@@ -3991,6 +4305,7 @@ koKR = "물의 흐름을 완전히 차단하는 골풀 금속 경사\n수로 스
 
 ["Knatte.DE_A_RMSlopeW.FlavorDescription"]
 raw = "Water will not Pass"
+status = "normal"
 enUS = "Water will not pass."
 zhCN = "适合用在大坝的外立面。"
 zhTW = "水不會通過"
@@ -4004,6 +4319,7 @@ koKR = "물이 통과하지 않습니다"
 
 ["Knatte.DE_A_RMSlopeS.DisplayName"]
 raw = "Decoration Metal Stair"
+status = "normal"
 enUS = "Metal Stair Decoration"
 zhCN = "水渠楼梯装饰块"
 zhTW = "裝飾金屬樓梯"
@@ -4017,6 +4333,7 @@ koKR = "장식 금속 계단"
 
 ["Knatte.DE_A_RMSlopeS.Description"]
 raw = "Let the Ribbed Metal Dam be Stepped on.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Let the Ribbed Metal Dam be Stepped on. In Aqueduct Style."
 zhCN = "带有楼梯的三角形装饰块，不能阻断水流。"
 zhTW = "讓肋狀金屬壩被踩踏。以水道風格。"
@@ -4030,6 +4347,7 @@ koKR = "리브 메탈 댐을 밟아보세요. 아쿠에덕트 스타일로."
 
 ["Knatte.DE_A_RMSlopeS.FlavorDescription"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能在下面玩捉迷藏了……"
 zhTW = "不阻擋水分"
@@ -4043,6 +4361,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMToolGroup.Decoration"]
 raw = "Decoration Blocks"
+status = "normal"
 enUS = "Decoration Blocks"
 zhCN = "装饰块"
 zhTW = "裝飾方塊"
@@ -4056,6 +4375,7 @@ koKR = "장식 블록"
 
 ["Knatte.DE_A_RMCategoryDam.DisplayName"]
 raw = "Aqueduct Metal Decoration"
+status = "normal"
 enUS = "Aqueduct Metal Decoration"
 zhCN = "水渠多边形装饰块"
 zhTW = "水道金屬裝飾"
@@ -4069,6 +4389,7 @@ koKR = "수로 금속 장식"
 
 ["Knatte.DE_A_RMCategoryDam.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不阻擋水"
@@ -4082,6 +4403,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMCategoryLevees.DisplayName"]
 raw = "Shaped Aqueduct Metal Levees"
+status = "normal"
 enUS = "Shaped Aqueduct Metal Levees"
 zhCN = "水渠多边形防洪堤"
 zhTW = "成形的渡槽金屬堤岸"
@@ -4095,6 +4417,7 @@ koKR = "형태가 있는 수로 금속 제방"
 
 ["Knatte.DE_A_RMCategoryLeveesSQ.DisplayName"]
 raw = "Square Aqueduct Metal Levees"
+status = "normal"
 enUS = "Square Aqueduct Metal Levees"
 zhCN = "水渠方形防洪堤"
 zhTW = "方形水道金屬堤防"
@@ -4108,6 +4431,7 @@ koKR = "정사각형 수로 금속 제방"
 
 ["Knatte.DE_A_RMCategoryDam2.DisplayName"]
 raw = "Aqueduct Metal Decoration"
+status = "normal"
 enUS = "Aqueduct Metal Decoration"
 zhCN = "水渠悬挑装饰块"
 zhTW = "水道金屬裝飾"
@@ -4121,6 +4445,7 @@ koKR = "수로 금속 장식"
 
 ["Knatte.DE_A_RMCategoryDamSQ.DisplayName"]
 raw = "Aqueduct Metal Decoration SQ"
+status = "normal"
 enUS = "Aqueduct Metal Decoration SQ"
 zhCN = "水渠方形装饰块"
 zhTW = "渡槽金屬裝飾SQ"
@@ -4134,6 +4459,7 @@ koKR = "수로 금속 장식 SQ"
 
 ["Knatte.DE_A_RMCategoryDam2.Des"]
 raw = "Does not Block Water"
+status = "normal"
 enUS = "Does not block water"
 zhCN = "不能阻断水流。"
 zhTW = "不防水"
@@ -4147,6 +4473,7 @@ koKR = "물 차단 안 함"
 
 ["Knatte.DE_A_RMDoubleInvSlope.DisplayName"]
 raw = "Metal Double Inverted Slope"
+status = "normal"
 enUS = "Metal Double Inverted Slope"
 zhCN = "水渠倒勾悬挑装饰块 1x3"
 zhTW = "金屬雙倒斜坡"
@@ -4160,6 +4487,7 @@ koKR = "금속 이중 역방향 경사"
 
 ["Knatte.DE_A_RMDoubleInvSlope.Description"]
 raw = "Ribbed Metal Levee and inverted Slope Combo\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed Metal Levee and Inverted Slope Combo in Aqueduct Style."
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "肋紋金屬堤壩與反向坡道組合  \n以水道風格設計。"
@@ -4173,6 +4501,7 @@ koKR = "홈이 있는 금속 제방과 뒤집힌 경사 조합\n수로 스타일
 
 ["Knatte.DE_A_RMDoubleInvSlope.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"
@@ -4186,6 +4515,7 @@ koKR = "다리를 건설하자"
 
 ["Knatte.DE_A_RMSquare1x2.DisplayName"]
 raw = "Decoration Metal Cube 1x2"
+status = "normal"
 enUS = "Decoration Metal Cube 1x2"
 zhCN = "水渠装饰块 1x2"
 zhTW = "裝飾金屬立方體 1x2"
@@ -4199,6 +4529,7 @@ koKR = "장식 금속 큐브 1x2"
 
 ["Knatte.DE_A_RMSquare1x3.DisplayName"]
 raw = "Decoration Metal Cube 1x3"
+status = "normal"
 enUS = "Decoration Metal Cube 1x3"
 zhCN = "水渠装饰块 1x3"
 zhTW = "裝飾金屬立方體 1x3"
@@ -4212,6 +4543,7 @@ koKR = "장식 금속 큐브 1x3"
 
 ["Knatte.DE_A_RMSquare_B.Description"]
 raw = "Ribbed Metal Square that can stick out but does not block water.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed metal square that can protrude but does not obstruct water. In aqueduct style."
 zhCN = "不同形状的装饰块，不能阻断水流。"
 zhTW = "可突出但不阻擋水的肋狀金屬方塊。以高架渠風格呈現。"
@@ -4225,6 +4557,7 @@ koKR = "물은 차단하지 않지만 튀어나올 수 있는 골지 금속 정�
 
 ["Knatte.DE_A_RMSquare_B.FlavorDescription"]
 raw = "Look it floats"
+status = "normal"
 enUS = "Look, it floats."
 zhCN = "“明明一模一样，为什么会漏水呢？”——海狸建筑工"
 zhTW = "看，它漂浮著。"
@@ -4238,6 +4571,7 @@ koKR = "봐, 떠 있어"
 
 ["Knatte.DE_A_RMInvSlope1x1.DisplayName"]
 raw = "Metal Inverted Slope 1x1"
+status = "normal"
 enUS = "Metal Inverted Slope 1x1"
 zhCN = "水渠悬挑装饰块 1x2"
 zhTW = "金屬倒坡 1x1"
@@ -4251,6 +4585,7 @@ koKR = "금속 반전 슬로프 1x1"
 
 ["Knatte.DE_A_RMInvSlope1x2.DisplayName"]
 raw = "Metal Inverted Slope 1x2"
+status = "normal"
 enUS = "Metal Inverted Slope 1x2"
 zhCN = "水渠悬挑装饰块 1x3"
 zhTW = "金屬倒斜坡 1x2"
@@ -4264,6 +4599,7 @@ koKR = "금속 역슬로프 1x2"
 
 ["Knatte.DE_A_RMInvSlope1x3.DisplayName"]
 raw = "Metal Inverted Slope 1x3"
+status = "normal"
 enUS = "Metal Inverted Slope 1x3"
 zhCN = "水渠悬挑装饰块 1x4"
 zhTW = "金屬倒斜坡 1x3"
@@ -4277,6 +4613,7 @@ koKR = "금속 역 경사 1x3"
 
 ["Knatte.DE_A_RMInvSlope2x1.DisplayName"]
 raw = "Metal Inverted Slope 2x1"
+status = "normal"
 enUS = "Metal Inverted Slope 2x1"
 zhCN = "水渠悬挑装饰块 2x2"
 zhTW = "金屬倒斜坡 2x1"
@@ -4290,6 +4627,7 @@ koKR = "금속 뒤집힌 경사 2x1"
 
 ["Knatte.DE_A_RMInvSlope.Description"]
 raw = "Ribbed Metal Square that can stick out but does not block water.\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed metal square that can protrude without blocking water. In aqueduct style."
 zhCN = "不同形状的装饰块，部分悬空，不能阻断水流。"
 zhTW = "可以突出但不阻擋水的肋紋金屬方塊。  \n以水道風格設計。"
@@ -4303,6 +4641,7 @@ koKR = "물이 차단되지 않지만 튀어나올 수 있는 골판지 금속 �
 
 ["Knatte.DE_A_RMInvSlope.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go"
 zhCN = "恐高者禁止攀登。"
 zhTW = "我們出去了"
@@ -4316,6 +4655,7 @@ koKR = "나가자"
 
 ["Knatte.DE_A_RMInvTrapezium1x1.DisplayName"]
 raw = "Inverted Trapezium 1x1"
+status = "normal"
 enUS = "Inverted Trapezium 1x1"
 zhCN = "水渠双向悬挑装饰块 1x3"
 zhTW = "倒梯形 1x1"
@@ -4329,6 +4669,7 @@ koKR = "역삼각형 1x1"
 
 ["Knatte.DE_A_RMBlockDecoration.DisplaynameLocKey"]
 raw = "Beautiful Dam"
+status = "normal"
 enUS = "Beautiful Dam"
 zhCN = "大坝景观"
 zhTW = "美麗的水壩"
@@ -4342,6 +4683,7 @@ koKR = "아름다운 댐"
 
 ["Knatte.DE_A_RMInvSlopeW1x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x1"
 zhCN = "水渠悬挑防洪堤 1x2"
 zhTW = "倒置金屬堤坡 1x1"
@@ -4355,6 +4697,7 @@ koKR = "뒤집힌 금속 제방 경사 1x1"
 
 ["Knatte.DE_A_RMInvSlopeW1x2.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x2"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x2"
 zhCN = "水渠悬挑防洪堤 1x3"
 zhTW = "倒置金屬堤坡 1x2"
@@ -4368,6 +4711,7 @@ koKR = "역방향 금속 제방 경사 1x2"
 
 ["Knatte.DE_A_RMInvSlopeW1x3.DisplayName"]
 raw = "Inverted Metal Levee Slope 1x3"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 1x3"
 zhCN = "水渠悬挑防洪堤 1x4"
 zhTW = "反向金屬堤坡 1x3"
@@ -4381,6 +4725,7 @@ koKR = "뒤집힌 금속 제방 경사 1x3"
 
 ["Knatte.DE_A_RMInvSlopeW2x1.DisplayName"]
 raw = "Inverted Metal Levee Slope 2x1"
+status = "normal"
 enUS = "Inverted Metal Levee Slope 2x1"
 zhCN = "水渠悬挑防洪堤 2x2"
 zhTW = "倒置金屬堤岸坡度 2x1"
@@ -4394,6 +4739,7 @@ koKR = "역방향 금속 제방 경사 2x1"
 
 ["Knatte.DE_A_RMInvSlopeW.Description"]
 raw = "Ribbed Metal Square that can stick out. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed metal square that can protrude.  \nPlacement hex block allows water, while other blocks only accept it from the top/bottom, like a built-in impermeable floor.  \nIn aqueduct style."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "可以突出來的凹槽金屬方塊。\n在水道風格中，放置的六角塊可以讓水流入，其他方塊僅限於從上下進入，就像一個內建的防水地板。"
@@ -4407,6 +4753,7 @@ koKR = "튀어나올 수 있는 주름진 금속 사각형. \n배치 헥스 블�
 
 ["Knatte.DE_A_RMInvSlopeW.FlavorDescription"]
 raw = "Out we go"
+status = "normal"
 enUS = "Out we go"
 zhCN = "适合用在大坝的顶部或底部。"
 zhTW = "我們出發吧"
@@ -4420,6 +4767,7 @@ koKR = "나가자"
 
 ["Knatte.DE_A_RMInvTrapeziumW1x1.DisplayName"]
 raw = "Inverted Trapezium Metal Levee 1x1"
+status = "normal"
 enUS = "Inverted Trapezium Metal Levee 1x1"
 zhCN = "水渠双向悬挑防洪堤 1x3"
 zhTW = "倒梯形金屬堤壩 1x1"
@@ -4433,6 +4781,7 @@ koKR = "역탑형 금속 제방 1x1"
 
 ["Knatte.DE_A_RMDoubleInvSlopeW.Description"]
 raw = "Ribbed Metal Square that sticks out on both sides. \nPlacment hex block all water other blocks only from top/bottom like a built in Impermeable Floor\nIn Aqueduct Style."
+status = "normal"
 enUS = "Ribbed metal square that sticks out on both sides. Placement hex block allows water through, but other blocks only from top/bottom like a built-in impermeable floor, in aqueduct style."
 zhCN = "不同形状的防洪堤，部分悬空，能完全阻断水流。"
 zhTW = "凸出的肋狀金屬方塊。\n放置六角塊，所有水只能從上下進入，像是內建的防水地板。\n以水道風格設計。"
@@ -4446,6 +4795,7 @@ koKR = "양면이 protruding된 리브 메탈 스퀘어입니다. 배치 시 육
 
 ["Knatte.DE_A_RMDoubleInvSlopeW.FlavorDescription"]
 raw = "Lets build an Bridge"
+status = "normal"
 enUS = "Let's build a bridge."
 zhCN = "恐高者禁止攀登。"
 zhTW = "讓我們建造一座橋。"

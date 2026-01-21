@@ -1,5 +1,8 @@
+name = "MorePlants ! MapEditor"
+
 ["MapMakerPlants.GiantSequoia.DisplayName"]
 raw = "3x3 Giant sequoia"
+status = "normal"
 enUS = "3x3 Giant Sequoia"
 zhCN = "巨杉"
 zhTW = "3x3 巨型紅杉"
@@ -13,6 +16,7 @@ koKR = "3x3 자이언트 세쿼이아"
 
 ["MapMakerPlants.2X2treePlaceholder1.DisplayName"]
 raw = "2x2 ??? tree"
+status = "normal"
 enUS = "2x2 ??? tree"
 zhCN = "问号"
 zhTW = "2x2 ??? 樹"
@@ -26,6 +30,7 @@ koKR = "2x2 ??? 나무"
 
 ["MapMakerPlants.Brambles.DisplayName"]
 raw = "Brambles"
+status = "normal"
 enUS = "Brambles"
 zhCN = "野生荆棘"
 zhTW = "荊棘"
@@ -39,6 +44,7 @@ koKR = "가시덤불"
 
 ["MapMakerPlants.NewVineV.DisplayName"]
 raw = "Vines (vertical)"
+status = "normal"
 enUS = "Vines (vertical)"
 zhCN = "葡萄藤"
 zhTW = "藤蔓 (垂直)"
@@ -52,6 +58,7 @@ koKR = "덩굴 (수직)"
 
 ["MapMakerPlants.NewVineH.DisplayName"]
 raw = "Vines (Horizontal)"
+status = "normal"
 enUS = "Vines (Horizontal)"
 zhCN = "葡萄藤"
 zhTW = "葡萄藤（橫向）"
@@ -65,6 +72,7 @@ koKR = "수평 덩굴"
 
 ["MapMakerPlants.Waterbamboo.DisplayName"]
 raw = "2x2 W.bamboo"
+status = "normal"
 enUS = "2x2 W.bamboo"
 zhCN = "巨竹"
 zhTW = "2x2 兔竹"
@@ -78,6 +86,7 @@ koKR = "2x2 수맥"
 
 ["MapMakerPlants.Baobab.DisplayName"]
 raw = "5x5 Baobab"
+status = "normal"
 enUS = "5x5 Baobab"
 zhCN = "猴面包树"
 zhTW = "5x5 八寶樹"
@@ -91,6 +100,7 @@ koKR = "5x5 바오밥"
 
 ["MapMakerPlants.LemonTree.DisplayName"]
 raw = "LemonTree"
+status = "normal"
 enUS = "Lemon Tree"
 zhCN = "柠檬树"
 zhTW = "檸檬樹"
@@ -104,6 +114,7 @@ koKR = "레몬나무"
 
 ["MapMakerPlants.PinkBirch.DisplayName"]
 raw = "Everblossom"
+status = "normal"
 enUS = "Everblossom"
 zhCN = "椿树"
 zhTW = "永恆之花"
@@ -117,6 +128,7 @@ koKR = "영원한 꽃"
 
 ["MapMakerPlants.RuinedPath.DisplayName"]
 raw = "Ruined path"
+status = "normal"
 enUS = "Ruined path"
 zhCN = "道路残迹"
 zhTW = "毀壞的道路"
@@ -130,6 +142,7 @@ koKR = "파괴된 길"
 
 ["MapMakerPlants.BrokenHouse.DisplayName"]
 raw = "Broken house (logs)"
+status = "normal"
 enUS = "Broken house (logs)"
 zhCN = "原木废墟"
 zhTW = "破屋（木頭）"
@@ -143,6 +156,7 @@ koKR = "부서진 집 (통나무)"
 
 ["MapMakerPlants.PlankRuin.DisplayName"]
 raw = "Broken house (Planks)"
+status = "normal"
 enUS = "Broken house (Planks)"
 zhCN = "木板废墟"
 zhTW = "破屋（木板）"
@@ -156,6 +170,7 @@ koKR = "부서진 집 (널판지)"
 
 ["NaturalResource.PinkBirch.DisplayName"]
 raw = "Everblossom"
+status = "normal"
 enUS = "Everblossom"
 zhCN = "椿树"
 zhTW = "永盛花"
@@ -169,6 +184,7 @@ koKR = "영원한 꽃"
 
 ["Good.Pumpkin.DisplayName"]
 raw = "Pumpkin"
+status = "normal"
 enUS = "Pumpkin"
 zhCN = "南瓜"
 zhTW = "南瓜"
@@ -182,6 +198,7 @@ koKR = "호박"
 
 ["NaturalResource.Waterbamboo.DisplayName"]
 raw = "Unbelievably tall bamboo"
+status = "normal"
 enUS = "Unbelievably tall bamboo"
 zhCN = "巨竹"
 zhTW = "難以置信的高竹子"
@@ -195,6 +212,7 @@ koKR = "믿을 수 없을 만큼 높은 대나무"
 
 ["Lapantouflemagic.NewVineH.DisplayName"]
 raw = "Grape Vine"
+status = "normal"
 enUS = "Grape Vine"
 zhCN = "葡萄藤"
 zhTW = "葡萄藤"
@@ -208,6 +226,7 @@ koKR = "포도 덩굴"
 
 ["MapMakerPlants.CrystalSupport.Description"]
 raw = "Support necessary to placefloating cristals above Z-level 1.\nSelf-stackable\nWill be invisible and have no hitbox when playing"
+status = "normal"
 enUS = "Support necessary to placefloating cristals above Z-level 1.\nSelf-stackable\nWill be invisible and have no hitbox when playing"
 zhCN = "透明的支撑物，可以堆叠，用于支撑在空中放置的浮空晶体。游玩时方块将不可见且无碰撞体积。"
 zhTW = "支援在Z級別1以上放置浮動晶體。  \n可自我堆疊  \n在遊玩時將隱形並且不會有碰撞盒"
@@ -221,6 +240,7 @@ koKR = "Z-레벨 1 위에 떠 있는 수정 결정을 배치하는 데 필요한
 
 ["MapMakerPlants.CrystalSupport.DisplayName"]
 raw = "Crystal Support"
+status = "normal"
 enUS = "Crystal Support"
 zhCN = "透明方块"
 zhTW = "水晶支援"
@@ -234,6 +254,7 @@ koKR = "크리스탈 서포트"
 
 ["MPME.FloatingRock.DisplayName"]
 raw = "Floating Crystal"
+status = "normal"
 enUS = "Floating Crystal"
 zhCN = "浮空晶体"
 zhTW = "漂浮的水晶"
@@ -247,6 +268,7 @@ koKR = "떠다니는 크리스탈"
 
 ["MPME.FloatingRock.Description"]
 raw = "Floats in the sky to support a sky island\nrequires to rest on something for incomprehensible reasons, use the support"
+status = "normal"
 enUS = "Floats in the sky to support a sky island\nrequires to rest on something for incomprehensible reasons, use the support"
 zhCN = "漂浮在空中的神秘晶体，用于支撑空中岛屿。"
 zhTW = "懸浮在空中以支撐空中島嶼。"
@@ -260,6 +282,8 @@ koKR = "하늘 섬을 지탱하기 위해 하늘에 떠 있는 물체입니다. 
 
 ["MPME.FloatingRock.FlavorDescription"]
 raw = "\"How does it worksxa0?\"\nOhxa0? Oh, nowxa0? After all these yearsxa0? After all these gamesxa0? Now you ask ME how those workxa0?"
+new = "\"How does it worksxa0?\"\nOhxa0? Oh, nowxa0? After all these yearsxa0? After all these gamesxa0? Now you ask ME how those workxa0?"
+status = "normal"
 enUS = "\"How does it worksxa0?\"\nOhxa0? Oh, nowxa0? After all these yearsxa0? After all these gamesxa0? Now you ask ME how those workxa0?"
 zhCN = "这是什么原理？这么多年，这么多游戏，这么多空中岛屿，现在才问这是什么原理？"
 zhTW = "\"這個是怎麼運作的？\"\n哦？哦，現在？經過這麼多年？經過這麼多遊戲？現在你問我這些是怎麼運作的？"
@@ -273,6 +297,7 @@ koKR = "어떻게 작동하나요?\"\n\"어? 어, 이제? 이 모든 세월이 �
 
 ["MapMakerPlants.GearsRuin.DisplayName"]
 raw = "Broken building (Gears)"
+status = "normal"
 enUS = "Broken building (Gears)"
 zhCN = "齿轮废墟"
 zhTW = "破損的建築（齒輪）"
@@ -286,6 +311,7 @@ koKR = "부서진 건물 (기어)"
 
 ["Building.SkyBadwaterSource.DisplayName"]
 raw = "Sky Badwater Source"
+status = "normal"
 enUS = "Sky Badwater Source"
 zhCN = "空岛恶水源"
 zhTW = "天空壞水源"
@@ -299,6 +325,7 @@ koKR = "하늘 불순수 원천"
 
 ["Building.SkyWaterSource.DisplayName"]
 raw = "Sky Water Source"
+status = "normal"
 enUS = "Sky Water Source"
 zhCN = "空岛水源"
 zhTW = "天空水源"
@@ -312,6 +339,7 @@ koKR = "하늘 물 공급원"
 
 ["Building.VoidSinkHole.DisplayName"]
 raw = "Sinkhole sky block"
+status = "normal"
 enUS = "Sinkhole sky block"
 zhCN = "吸水透明地板"
 zhTW = "天坑空島"
@@ -325,6 +353,7 @@ koKR = "싱크홀 하늘 블록"
 
 ["Building.VoidSinkHole.Description"]
 raw = "Visually deletes the ground under it.\nActs as a negative water source to delete water falling off the islands\nThe flag won’t be visible in-game"
+status = "normal"
 enUS = "Visually deletes the ground under it.\nActs as a negative water source to delete water falling off the islands\nThe flag won’t be visible in-game"
 zhCN = "透明的遮盖物，可以使下方的地面变透明，同时作为负水源吸收周围的水。游玩时标记旗将不可见。"
 zhTW = "在視覺上刪除其下方的地面。  \n作為一個負水源，刪除從島嶼上掉落的水。  \n遊戲中將不會顯示這面旗幟。"
@@ -338,6 +367,7 @@ koKR = "시각적으로 그 아래의 땅을 삭제합니다. 섬에서 떨어�
 
 ["MapMakerPlants.VoidTile.DisplayName"]
 raw = "Sky block"
+status = "normal"
 enUS = "Sky block"
 zhCN = "透明地板"
 zhTW = "天空方塊"
@@ -351,6 +381,7 @@ koKR = "하늘 블록"
 
 ["MapMakerPlants.VoidTile.Description"]
 raw = "Visually deletes the ground under it.\nFor places where you don’t ever expect to see water."
+status = "normal"
 enUS = "Visually deletes the ground under it.\nFor places where you don’t ever expect to see water."
 zhCN = "透明的遮盖物，可以使下方的地面变透明。"
 zhTW = "在其下方視覺上刪除地面。對於那些你永遠不會期待見到水的地方。"
@@ -364,6 +395,7 @@ koKR = "그 아래의 땅을 시각적으로 삭제합니다. 물이 결코 나�
 
 ["MapMakerPlants.VoidTileLarge.DisplayName"]
 raw = "Sky block 9x9"
+status = "normal"
 enUS = "Sky block 9x9"
 zhCN = "透明地板 9x9 (不可拖动)"
 zhTW = "天空方塊 9x9"

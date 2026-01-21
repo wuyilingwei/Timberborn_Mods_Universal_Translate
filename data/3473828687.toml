@@ -1,5 +1,8 @@
+name = "TimberLapse"
+
 ["argargablar.TimberLapse.ModName"]
 raw = "TimberLapse"
+status = "normal"
 enUS = "TimberLapse"
 zhCN = "延时拍摄"
 zhTW = "木材延時攝影"
@@ -13,6 +16,7 @@ koKR = "TimberLapse"
 
 ["argargablar.TimberLapse.Settings.Menu"]
 raw = "TimberLapse Settings"
+status = "normal"
 enUS = "TimberLapse Settings"
 zhCN = "延时拍摄设置"
 zhTW = "木材延時設定"
@@ -26,6 +30,7 @@ koKR = "팀버랩스 설정"
 
 ["argargablar.TimberLapse.OutputDir"]
 raw = "Output Directory"
+status = "normal"
 enUS = "Output Directory"
 zhCN = "输出目录位置"
 zhTW = "輸出目錄"
@@ -39,6 +44,7 @@ koKR = "출력 디렉토리"
 
 ["argargablar.TimberLapse.OutputFormat"]
 raw = "Output Format"
+status = "normal"
 enUS = "Output Format"
 zhCN = "输出图像格式"
 zhTW = "輸出格式"
@@ -52,6 +58,7 @@ koKR = "출력 형식"
 
 ["argargablar.TimberLapse.Resolution"]
 raw = "Output Resolution"
+status = "normal"
 enUS = "Output Resolution"
 zhCN = "输出图像分辨率"
 zhTW = "輸出解析度"
@@ -65,6 +72,7 @@ koKR = "출력 해상도"
 
 ["argargablar.TimberLapse.UseCustomResolution"]
 raw = "Use Custom Resolution"
+status = "normal"
 enUS = "Use Custom Resolution"
 zhCN = "使用自定义分辨率"
 zhTW = "使用自訂解析度"
@@ -78,6 +86,7 @@ koKR = "사용자 정의 해상도 사용"
 
 ["argargablar.TimberLapse.CustomResWidth"]
 raw = "Custom Width"
+status = "normal"
 enUS = "Custom Width"
 zhCN = "自定义宽度"
 zhTW = "自訂寬度"
@@ -91,6 +100,7 @@ koKR = "사용자 정의 너비"
 
 ["argargablar.TimberLapse.CustomResHeight"]
 raw = "Custom Height"
+status = "normal"
 enUS = "Custom Height"
 zhCN = "自定义高度"
 zhTW = "自訂高度"
@@ -104,6 +114,7 @@ koKR = "맞춤 높이"
 
 ["argargablar.TimberLapse.Verbose"]
 raw = "Verbose Logging"
+status = "normal"
 enUS = "Verbose Logging"
 zhCN = "详细日志记录"
 zhTW = "詳細日誌記錄"
@@ -117,6 +128,7 @@ koKR = "상세 로깅"
 
 ["argargablar.TimberLapse.Frequency"]
 raw = "Timelapse Frequency"
+status = "normal"
 enUS = "Timelapse Frequency"
 zhCN = "延时拍摄频率"
 zhTW = "延時攝影頻率"
@@ -130,6 +142,7 @@ koKR = "타임랩스 빈도"
 
 ["argargablar.TimberLapse.Frequency.1h"]
 raw = "1 Hour"
+status = "normal"
 enUS = "1 hour"
 zhCN = "1小时"
 zhTW = "1小時"
@@ -143,6 +156,7 @@ koKR = "1시간"
 
 ["argargablar.TimberLapse.Frequency.2h"]
 raw = "2 Hours"
+status = "normal"
 enUS = "2 Hours"
 zhCN = "2小时"
 zhTW = "2小時"
@@ -156,6 +170,7 @@ koKR = "2시간"
 
 ["argargablar.TimberLapse.Frequency.4h"]
 raw = "4 Hours"
+status = "normal"
 enUS = "4 Hours"
 zhCN = "4小时"
 zhTW = "4小時"
@@ -169,6 +184,7 @@ koKR = "4시간"
 
 ["argargablar.TimberLapse.Frequency.6h"]
 raw = "6 Hours"
+status = "normal"
 enUS = "6 Hours"
 zhCN = "6小时"
 zhTW = "6 小時"
@@ -182,6 +198,7 @@ koKR = "6시간"
 
 ["argargablar.TimberLapse.Frequency.8h"]
 raw = "8 Hours"
+status = "normal"
 enUS = "8 Hours"
 zhCN = "8小时"
 zhTW = "8小時"
@@ -195,6 +212,7 @@ koKR = "8시간"
 
 ["argargablar.TimberLapse.Frequency.hd"]
 raw = "12 Hours"
+status = "normal"
 enUS = "12 Hours"
 zhCN = "12小时"
 zhTW = "12 小時"
@@ -208,6 +226,7 @@ koKR = "12시간"
 
 ["argargablar.TimberLapse.Frequency.1d"]
 raw = "1 Day"
+status = "normal"
 enUS = "1 Day"
 zhCN = "1天"
 zhTW = "1 天"
@@ -221,6 +240,7 @@ koKR = "1일"
 
 ["argargablar.TimberLapse.Frequency.2d"]
 raw = "2 Days"
+status = "normal"
 enUS = "2 Days"
 zhCN = "2天"
 zhTW = "2 天"
@@ -234,6 +254,7 @@ koKR = "2일"
 
 ["argargablar.TimberLapse.Frequency.es"]
 raw = "Each Season"
+status = "normal"
 enUS = "Each Season"
 zhCN = "每个天气"
 zhTW = "每個季節"
@@ -247,6 +268,7 @@ koKR = "각 계절"
 
 ["argargablar.TimberLapse.Frequency.ec"]
 raw = "Each Cycle"
+status = "normal"
 enUS = "Each Cycle"
 zhCN = "每个周期"
 zhTW = "每個循環"
@@ -260,6 +282,7 @@ koKR = "각 주기"
 
 ["argargablar.TimberLapse.DefaultCamera"]
 raw = "My Camera"
+status = "normal"
 enUS = "My Camera"
 zhCN = "我的相机"
 zhTW = "我的相機"
@@ -273,6 +296,7 @@ koKR = "내 카메라"
 
 ["argargablar.TimberLapse.Enable"]
 raw = "Enable TimberLapse"
+status = "normal"
 enUS = "Enable TimberLapse"
 zhCN = "启用延时拍摄"
 zhTW = "啟用 TimberLapse"
@@ -286,6 +310,7 @@ koKR = "TimberLapse 활성화"
 
 ["argargablar.TimberLapse.SetCameras"]
 raw = "Set Up Cameras"
+status = "normal"
 enUS = "Set Up Cameras"
 zhCN = "设置相机位置"
 zhTW = "設置相機"
@@ -299,6 +324,7 @@ koKR = "카메라 설정"
 
 ["argargablar.TimberLapse.ManualScreenshot"]
 raw = "Screenshot"
+status = "normal"
 enUS = "Screenshot"
 zhCN = "拍摄"
 zhTW = "螢幕截圖"
@@ -312,6 +338,7 @@ koKR = "스크린샷"
 
 ["argargablar.TimberLapse.ManualScreenshotTip"]
 raw = "Take a manual screenshot with the selected camera"
+status = "normal"
 enUS = "Take a manual screenshot with the selected camera."
 zhCN = "使用选定的相机位置手动拍摄。"
 zhTW = "使用所選相機手動截圖"
@@ -325,6 +352,7 @@ koKR = "선택한 카메라로 수동 스크린샷을 찍으세요"
 
 ["argargablar.TimberLapse.OpenSettings"]
 raw = "Settings"
+status = "normal"
 enUS = "Settings"
 zhCN = "设置"
 zhTW = "設置"
@@ -338,6 +366,7 @@ koKR = "설정"
 
 ["argargablar.TimberLapse.QuickNotif.Success"]
 raw = "Screenshot Captured"
+status = "normal"
 enUS = "Screenshot Captured"
 zhCN = "拍摄成功"
 zhTW = "截圖已捕獲"
@@ -351,6 +380,7 @@ koKR = "스크린샷 캡처됨"
 
 ["argargablar.TimberLapse.QuickNotif.Failure"]
 raw = "Screenshot Failed"
+status = "normal"
 enUS = "Screenshot failed."
 zhCN = "拍摄失败"
 zhTW = "截圖失敗"
@@ -364,6 +394,7 @@ koKR = "스크린샷 실패"
 
 ["argargablar.TimberLapse.ModSettingBox"]
 raw = "More Settings"
+status = "normal"
 enUS = "More Settings"
 zhCN = "更多设置"
 zhTW = "更多設定"
@@ -377,6 +408,7 @@ koKR = "더 많은 설정"
 
 ["argargablar.TimberLapse.CameraConfig.Header"]
 raw = "TimberLapse Cameras"
+status = "normal"
 enUS = "TimberLapse Cameras"
 zhCN = "延时拍摄相机"
 zhTW = "木材延時攝影機"
@@ -390,6 +422,7 @@ koKR = "팀버랩스 카메라"
 
 ["argargablar.TimberLapse.CameraConfig.Rename"]
 raw = "Rename"
+status = "normal"
 enUS = "Rename"
 zhCN = "重命名"
 zhTW = "重命名"
@@ -403,6 +436,7 @@ koKR = "이름 바꾸기"
 
 ["argargablar.TimberLapse.CameraConfig.RenameTip"]
 raw = "Rename the selected camera."
+status = "normal"
 enUS = "Rename the selected camera."
 zhCN = "重命名选定的相机位置。"
 zhTW = "重新命名所選擇的相機。"
@@ -416,6 +450,7 @@ koKR = "선택한 카메라의 이름을 변경하세요."
 
 ["argargablar.TimberLapse.CameraConfig.SetView"]
 raw = "Set Camera"
+status = "normal"
 enUS = "Set Camera"
 zhCN = "保存相机位置"
 zhTW = "設置相機"
@@ -429,6 +464,7 @@ koKR = "카메라 설정"
 
 ["argargablar.TimberLapse.CameraConfig.SetViewTip"]
 raw = "Set the selected camera to the player's view."
+status = "normal"
 enUS = "Set the selected camera to the player's view."
 zhCN = "用当前视角覆盖保存选定的相机位置。"
 zhTW = "將所選的攝影機設置為玩家的視角。"
@@ -442,6 +478,7 @@ koKR = "선택한 카메라를 플레이어의 시점으로 설정합니다."
 
 ["argargablar.TimberLapse.CameraConfig.CheckView"]
 raw = "View Camera"
+status = "normal"
 enUS = "View Camera"
 zhCN = "查看相机位置"
 zhTW = "查看相機"
@@ -455,6 +492,7 @@ koKR = "보기 카메라"
 
 ["argargablar.TimberLapse.CameraConfig.CheckViewTip"]
 raw = "Move the game camera to the selected camera's saved view."
+status = "normal"
 enUS = "Move the game camera to the saved view of the selected camera."
 zhCN = "将当前视角移动到选定的相机位置。"
 zhTW = "將遊戲相機移動到選定相機的儲存視角。"
@@ -468,6 +506,7 @@ koKR = "선택한 카메라의 저장된 시점으로 게임 카메라를 이동
 
 ["argargablar.TimberLapse.CameraConfig.AddCameraTip"]
 raw = "Add a new camera"
+status = "normal"
 enUS = "Add a new camera"
 zhCN = "添加新的相机位置。"
 zhTW = "添加新相機"
@@ -481,6 +520,7 @@ koKR = "새 카메라 추가"
 
 ["argargablar.TimberLapse.CameraConfig.RemoveCameraTip"]
 raw = "Delete the delected camera"
+status = "normal"
 enUS = "Delete the selected camera."
 zhCN = "删除选定的相机位置。"
 zhTW = "刪除已刪除的相機"
@@ -494,6 +534,7 @@ koKR = "선택한 카메라를 삭제합니다."
 
 ["argargablar.TimberLapse.CameraFoV"]
 raw = "Field Of View"
+status = "normal"
 enUS = "Field of View"
 zhCN = "视角范围"
 zhTW = "視野範圍"
@@ -507,6 +548,7 @@ koKR = "시야 범위"
 
 ["argargablar.TimberLapse.CameraFreeMode"]
 raw = "Free Camera Mode: ON || Fog: OFF"
+status = "normal"
 enUS = "Free Camera Mode: ON || Fog: OFF"
 zhCN = "自由相机模式：开启 || 雾：关闭"
 zhTW = "自由相機模式：開啟 || 霧：關閉"
@@ -520,6 +562,7 @@ koKR = "자유 카메라 모드: 켬 || 안개: 끔"
 
 ["argargablar.TimberLapse.KeyBinding.AllManual"]
 raw = "Screenshot (All Cameras)"
+status = "normal"
 enUS = "Screenshot (All Cameras)"
 zhCN = "拍摄（所有相机位置）"
 zhTW = "螢幕截圖（所有相機）"

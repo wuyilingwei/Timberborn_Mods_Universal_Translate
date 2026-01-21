@@ -1,5 +1,8 @@
+name = "Toggle All Mods"
+
 ["DAM.EnableAll"]
 raw = "Enable All"
+status = "normal"
 enUS = "Enable All"
 zhCN = "启用全部模组"
 zhTW = "啟用全部"
@@ -13,6 +16,7 @@ koKR = "모두 활성화"
 
 ["DAM.EnableAllDesc"]
 raw = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
+status = "normal"
 enUS = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
 zhCN = "勾选后，退出游戏时将启用所有模组。重启游戏后将自动取消勾选。"
 zhTW = "檢查以在退出時啟用所有模組。需要重新啟動，此選項將自動取消勾選。"
@@ -26,6 +30,7 @@ koKR = "모두 사용 설정 확인 - \"종료 시 모든 모드를 활성화하
 
 ["DAM.DisableAll"]
 raw = "Disable All"
+status = "normal"
 enUS = "Disable All"
 zhCN = "禁用全部模组"
 zhTW = "禁用所有"
@@ -39,6 +44,7 @@ koKR = "모두 비활성화"
 
 ["DAM.DisableAllDesc"]
 raw = "Check to disable all mods upon exit. Restart required and this is automatically unchecked."
+status = "normal"
 enUS = "Check to disable all mods upon exit. A restart is required and this is automatically unchecked."
 zhCN = "勾选后，退出游戏时将禁用所有模组。重启游戏后将自动取消勾选。"
 zhTW = "在退出時檢查以禁用所有模組。需要重新啟動，這會自動取消選中。"
@@ -52,6 +58,7 @@ koKR = "게임을 종료할 때 모든 모드를 비활성화하려면 체크하
 
 ["DAM.KeepEnabled"]
 raw = "Keep Enabled"
+status = "normal"
 enUS = "Keep Enabled"
 zhCN = "保持启用模组"
 zhTW = "保持啟用"
@@ -65,6 +72,7 @@ koKR = "활성화 유지"
 
 ["DAM.KeepEnabledDesc"]
 raw = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
+status = "normal"
 enUS = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
 zhCN = "勾选后，如果同时勾选了“禁用全部模组”，列表中的模组将保持启用状态（使用分号“;”分隔模组名称）。"
 zhTW = "如果選擇了「禁用所有」，則保留啟用的模組 ID 的分號 ';' 分隔清單。"
@@ -78,6 +86,7 @@ koKR = "모든 비활성화가 체크되었을 경우 유지할 모드 ID의 세
 
 ["DAM.LoadProfile"]
 raw = "Load profile"
+status = "normal"
 enUS = "Load profile"
 zhCN = "加载模组列表"
 zhTW = "載入配置檔"
@@ -91,6 +100,7 @@ koKR = "프로필 불러오기"
 
 ["DAM.LoadProfileDesc"]
 raw = "Enable mods with ids from the 'mods.txt' file. It should be in the mod's folder."
+status = "normal"
 enUS = "Enable mods with IDs from the 'mods.txt' file. It should be in the mod's folder."
 zhCN = "从“mods.txt”文件中启用模组名称，此文件应位于模组文件夹中。"
 zhTW = "啟用來自 'mods.txt' 文件中的 ID 的模組。該文件應位於模組的資料夾中。"
@@ -104,6 +114,7 @@ koKR = "모드의 폴더에 있어야 하는 'mods.txt' 파일의 ID를 사용�
 
 ["DAM.SaveProfile"]
 raw = "Save profile"
+status = "normal"
 enUS = "Save profile"
 zhCN = "保存模组列表"
 zhTW = "保存檔案"
@@ -117,6 +128,7 @@ koKR = "프로필 저장"
 
 ["DAM.SaveProfileDesc"]
 raw = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
+status = "normal"
 enUS = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
 zhCN = "将已启用的模组保存到“mods.txt”文件中，此文件将位于模组文件夹中。"
 zhTW = "將啟用的模組保存至 'mods.txt' 文件。該文件將位於模組的資料夾中。"
@@ -130,6 +142,7 @@ koKR = "활성화된 모드를 'mods.txt' 파일에 저장합니다. 이 파일�
 
 ["DAM.ViewProfileFolder"]
 raw = "View profile folder"
+status = "normal"
 enUS = "View profile folder"
 zhCN = "查看列表文件夹"
 zhTW = "查看個人資料資料夾"
@@ -143,6 +156,7 @@ koKR = "프로필 폴더 보기"
 
 ["DAM.ViewProfileFolderDesc"]
 raw = "Open the folder where the 'mods.txt' file is located."
+status = "normal"
 enUS = "Open the folder where the 'mods.txt' file is located."
 zhCN = "打开“mods.txt”文件所在的文件夹。"
 zhTW = "打開包含 'mods.txt' 文件的資料夾。"
@@ -156,6 +170,7 @@ koKR = "‘mods.txt’ 파일이 위치한 폴더를 엽니다."
 
 ["DAM.RestartGame"]
 raw = "OK & Restart the game"
+status = "normal"
 enUS = "OK & Restart the game"
 zhCN = "重启游戏"
 zhTW = "好的 & 重新開始遊戲"

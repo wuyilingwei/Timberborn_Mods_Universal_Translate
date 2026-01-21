@@ -1,5 +1,8 @@
+name = "Configurable Workplace"
+
 ["LV.CWk.BuildingShift"]
 raw = "Workplace-specific shift"
+status = "normal"
 enUS = "Workplace-specific shift"
 zhCN = "独立工作时长"
 zhTW = "工作場所特定班次"
@@ -13,6 +16,7 @@ koKR = "작업장 전용 교대"
 
 ["LV.CWk.BuildingShiftDesc"]
 raw = "Enable setting a specific shift for this workplace."
+status = "normal"
 enUS = "Enable setting a specific shift for this workplace."
 zhCN = "勾选后，可以为工作场所设置独立的工作时长，不跟随全局设置。"
 zhTW = "為這個工作場所啟用特定班次的設置。"
@@ -26,6 +30,7 @@ koKR = "이 작업장에 대해 특정 근무 시간을 설정할 수 있습니�
 
 ["LV.CWk.MaxWorkerMul"]
 raw = "Max Worker Multiplier"
+status = "normal"
 enUS = "Max Worker Multiplier"
 zhCN = "劳工倍数"
 zhTW = "最大工作者倍增器"
@@ -39,6 +44,7 @@ koKR = "최대 작업자 배율"
 
 ["LV.CWk.MaxWorkerMulDesc"]
 raw = "Multiply the max worker count by this value. Rounded down but to minimum of 1."
+status = "normal"
 enUS = "Multiply the maximum worker count by this value. Round down, but the minimum should be 1."
 zhCN = "可以将工作场所的劳工数更改为原来的N倍，向下取整（游戏默认：1）。"
 zhTW = "將最大工作人員數量乘以此值。向下取整，但最小為1。"
@@ -52,6 +58,7 @@ koKR = "최대 근무자 수를 이 값으로 곱합니다. 아래로 반올림�
 
 ["LV.CWk.BotEverywhere"]
 raw = "Bot Everywhere"
+status = "normal"
 enUS = "Bot Everywhere"
 zhCN = "全岗位机关人"
 zhTW = "到處都是機器人"
@@ -65,6 +72,7 @@ koKR = "봇 어디에나"
 
 ["LV.CWk.BotEverywhereDesc"]
 raw = "Bots will be able to work in any workplace."
+status = "normal"
 enUS = "Bots will be able to work in any workplace."
 zhCN = "勾选后，可以让机关人在任何工作场所工作。"
 zhTW = "機器人將能夠在任何工作場所工作。"
@@ -78,6 +86,7 @@ koKR = "봇은 모든 직장에서 작업할 수 있습니다."
 
 ["LV.CWk.EnableShift"]
 raw = "Building-specific shift"
+status = "normal"
 enUS = "Building-specific shift"
 zhCN = "独立工作时长"
 zhTW = "建築特定的班次"
@@ -91,6 +100,7 @@ koKR = "건물별 전환"
 
 ["LV.CWk.ShiftHours"]
 raw = "Shift hours:"
+status = "normal"
 enUS = "Shift hours:"
 zhCN = "工作时长："
 zhTW = "班次時間："
@@ -104,6 +114,7 @@ koKR = "근무 시간:"
 
 ["LV.CWk.LunchBreakStart"]
 raw = "Lunch break start:"
+status = "normal"
 enUS = "Lunch break start:"
 zhCN = "午休开始："
 zhTW = "午餐時間開始："
@@ -117,6 +128,7 @@ koKR = "점심 시간 시작:"
 
 ["LV.CWk.LunchBreakEnd"]
 raw = "Lunch break end:"
+status = "normal"
 enUS = "Lunch break end:"
 zhCN = "午休结束："
 zhTW = "午休結束："

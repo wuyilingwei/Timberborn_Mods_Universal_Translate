@@ -1,5 +1,8 @@
+name = "Multi-directional Dynamite"
+
 ["LV.DDy.DirectionDown"]
 raw = "Forward"
+status = "normal"
 enUS = "Forward"
 zhCN = "前"
 zhTW = "前進"
@@ -13,6 +16,7 @@ koKR = "앞으로"
 
 ["LV.DDy.DirectionLeft"]
 raw = "Left"
+status = "normal"
 enUS = "Left"
 zhCN = "左"
 zhTW = "左轉"
@@ -26,6 +30,7 @@ koKR = "왼쪽"
 
 ["LV.DDy.DirectionUp"]
 raw = "Backward"
+status = "normal"
 enUS = "Backward"
 zhCN = "后"
 zhTW = "向後"
@@ -39,6 +44,7 @@ koKR = "뒤로"
 
 ["LV.DDy.DirectionRight"]
 raw = "Right"
+status = "normal"
 enUS = "Right"
 zhCN = "右"
 zhTW = "右邊"
@@ -52,6 +58,7 @@ koKR = "우측"
 
 ["LV.DDy.DirectionBottom"]
 raw = "Below"
+status = "normal"
 enUS = "Below"
 zhCN = "下"
 zhTW = "下方"
@@ -65,6 +72,7 @@ koKR = "아래"
 
 ["LV.DDy.DirectionTop"]
 raw = "Above"
+status = "normal"
 enUS = "Above"
 zhCN = "上"
 zhTW = "上方"
@@ -78,6 +86,7 @@ koKR = "위쪽"
 
 ["LV.DDy.Direction"]
 raw = "Direction"
+status = "normal"
 enUS = "Direction"
 zhCN = "爆破方向"
 zhTW = "方向"
@@ -91,6 +100,7 @@ koKR = "방향"
 
 ["LV.DDy.DoNotTriggerNeighbor"]
 raw = "Do not trigger neighbor dynamites"
+status = "normal"
 enUS = "Do not trigger neighbor dynamites"
 zhCN = "不引爆相邻炸弹"
 zhTW = "不要觸發鄰近的炸藥"
@@ -104,6 +114,7 @@ koKR = "이웃 다이너마이트를 발동시키지 마십시오."
 
 [Name_DirectionalDynamiteFragment]
 raw = "Directional Dynamite"
+status = "normal"
 enUS = "Directional Dynamite"
 zhCN = "定向炸弹"
 zhTW = "方向性炸藥"

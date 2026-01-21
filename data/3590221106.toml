@@ -1,5 +1,8 @@
+name = "Colorful Ziplines"
+
 ["LV.CZ.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -13,6 +16,7 @@ koKR = "리셋"
 
 ["LV.CZ.ConnectionLabel"]
 raw = "• To {0}"
+status = "normal"
 enUS = "• To {0}"
 zhCN = "• 连接至 {0}"
 zhTW = "• 到 {0}"
@@ -26,6 +30,7 @@ koKR = "• {0}에 대해"
 
 ["LV.CZ.ApplyAll"]
 raw = "Apply to all ziplines:"
+status = "normal"
 enUS = "Apply to all ziplines:"
 zhCN = "应用于："
 zhTW = "套用至所有索道："
@@ -39,6 +44,7 @@ koKR = "모든 짚라인에 적용:"
 
 ["LV.CZ.InBuilding"]
 raw = "Connected to this building"
+status = "normal"
 enUS = "Connected to this building"
 zhCN = "连接至此建筑的滑索"
 zhTW = "連接到這個建築"
@@ -52,6 +58,7 @@ koKR = "이 건물에 연결됨"
 
 ["LV.CZ.All"]
 raw = "All ziplines"
+status = "normal"
 enUS = "All ziplines"
 zhCN = "所有滑索"
 zhTW = "所有繩索滑道"
@@ -65,6 +72,7 @@ koKR = "모든 집라인"
 
 ["LV.CZ.ConfirmAll"]
 raw = "Are you sure you want to apply this setting to all ziplines?"
+status = "normal"
 enUS = "Are you sure you want to apply this setting to all ziplines?"
 zhCN = "确认将此设置应用于所有滑索？"
 zhTW = "您確定要將此設置應用於所有滑索嗎？"
@@ -78,6 +86,7 @@ koKR = "모든 집라인에 이 설정을 적용하시겠습니까?"
 
 [Name_ColorfulZiplineFragment]
 raw = "Colorful Zipline"
+status = "normal"
 enUS = "Colorful Zipline"
 zhCN = "多彩滑索"
 zhTW = "色彩繽紛的滑索"

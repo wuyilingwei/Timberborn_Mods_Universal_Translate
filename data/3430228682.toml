@@ -1,5 +1,8 @@
+name = "Employment Manager"
+
 ["Ximsa.EmploymentAutomation.PowerToggle"]
 raw = "Automate power"
+status = "normal"
 enUS = "Automate power"
 zhCN = "工作条件： <color=#FFFF1A>⚡</color> 能量（储能百分比&供能百分比）"
 zhTW = "自動化電力"
@@ -13,6 +16,7 @@ koKR = "전력 자동화"
 
 ["Ximsa.EmploymentAutomation.ProductToggle"]
 raw = "Automate products"
+status = "normal"
 enUS = "Automate products"
 zhCN = "工作条件： <color=#59FF61>◀</color> 产物（地区库存百分比）"
 zhTW = "自動化產品"
@@ -26,6 +30,7 @@ koKR = "제품 자동화"
 
 ["Ximsa.EmploymentAutomation.IngredientToggle"]
 raw = "Automate ingredients"
+status = "normal"
 enUS = "Automate ingredients"
 zhCN = "工作条件： <color=#FF4C4C>▶</color> 原料（地区库存百分比）"
 zhTW = "自動化成分"
@@ -39,6 +44,7 @@ koKR = "재료 자동화"
 
 ["Ximsa.EmploymentAutomation.None"]
 raw = "-"
+status = "normal"
 enUS = "Error"
 zhCN = "-"
 zhTW = "Error"
@@ -52,6 +58,7 @@ koKR = "-"
 
 ["Ximsa.EmploymentAutomation.BuildingPaused"]
 raw = "Building paused by employment automation"
+status = "normal"
 enUS = "Building paused due to employment automation"
 zhCN = "工作条件不符，已暂停"
 zhTW = "因就業自動化而暫停建設"

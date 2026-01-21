@@ -1,5 +1,8 @@
+name = "Pin"
+
 ["LV.Pin.PinName"]
 raw = "Pin"
+status = "normal"
 enUS = "Pin"
 zhCN = "图钉标记"
 zhTW = "釘子"
@@ -13,6 +16,7 @@ koKR = "핀"
 
 ["LV.Pin.PinDesc"]
 raw = "Mark a location on the map with a customizable pin."
+status = "normal"
 enUS = "Mark a location on the map with a customizable pin."
 zhCN = "使用可自定义的图钉在地图上标记位置。"
 zhTW = "在地圖上用可自訂的圖釘標記一個位置。"
@@ -26,6 +30,8 @@ koKR = "사용자가 설정 가능한 핀으로 지도에 위치를 표시합니
 
 ["LV.Pin.PinFlavor"]
 raw = "'I don't remember why I put a pin here, I just know it's important.' —xa0Anonymous"
+new = "'I don't remember why I put a pin here, I just know it's important.' —xa0Anonymous"
+status = "normal"
 enUS = "'I don't remember why I put a pin here, I just know it's important.' —xa0Anonymous"
 zhCN = "“我不记得为什么在这里钉了个图钉，只知道它很重要。”——匿名狸士"
 zhTW = "「我不記得為什麼我把針放在這裡，我只知道它很重要。」— 匿名"
@@ -39,6 +45,7 @@ koKR = "'여기 핀을 꽂은 이유는 기억나지 않지만, 그것이 중요
 
 ["LV.Pin.NewPinText"]
 raw = "New Pin"
+status = "normal"
 enUS = "New Pin"
 zhCN = "新图钉"
 zhTW = "新釘子"
@@ -52,6 +59,7 @@ koKR = "새 핀"
 
 ["LV.Pin.ChangeLabel"]
 raw = "Change Label"
+status = "normal"
 enUS = "Change Label"
 zhCN = "更改标签"
 zhTW = "更改標籤"
@@ -65,6 +73,7 @@ koKR = "라벨 변경"
 
 ["LV.Pin.ChangeColor"]
 raw = "Change Color"
+status = "normal"
 enUS = "Change Color"
 zhCN = "更改颜色"
 zhTW = "變更顏色"
@@ -78,6 +87,7 @@ koKR = "색상 변경"
 
 ["LV.Pin.Height"]
 raw = "Pin height"
+status = "normal"
 enUS = "Pin height"
 zhCN = "图钉高度"
 zhTW = "釘子高度"
@@ -91,6 +101,7 @@ koKR = "핀 높이"
 
 ["LV.Pin.LabelPrompt"]
 raw = "Enter new label text:"
+status = "normal"
 enUS = "Enter new label text:"
 zhCN = "输入新的标签文本："
 zhTW = "輸入新的標籤文本："
@@ -104,6 +115,7 @@ koKR = "새 레이블 텍스트를 입력하세요:"
 
 ["LV.Pin.Pins"]
 raw = "Pins"
+status = "normal"
 enUS = "Pins"
 zhCN = "图钉"
 zhTW = "針腳"
@@ -117,6 +129,7 @@ koKR = "핀"
 
 ["LV.Pin.PinsTab"]
 raw = "Open Pins tab"
+status = "normal"
 enUS = "Open Pins tab"
 zhCN = "打开图钉选项卡"
 zhTW = "打開釘選標籤"
@@ -130,6 +143,7 @@ koKR = "핀 탭 열기"
 
 ["LV.Pin.TogglePins"]
 raw = "Toggle Pins"
+status = "normal"
 enUS = "Toggle Pins"
 zhCN = "切换图钉显示"
 zhTW = "切換釘子"
@@ -143,6 +157,7 @@ koKR = "핀 전환"
 
 [Name_PinFragment]
 raw = "Pin"
+status = "normal"
 enUS = "Pin"
 zhCN = "图钉"
 zhTW = "釘"

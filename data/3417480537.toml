@@ -1,5 +1,8 @@
+name = "Faster Configurable Storages"
+
 ["LV.FCS.CapacityMultipler"]
 raw = "Capacity Multiplier"
+status = "normal"
 enUS = "Capacity Multiplier"
 zhCN = "仓储容量倍数"
 zhTW = "容量倍增器"
@@ -13,6 +16,7 @@ koKR = "용량 배수기"
 
 ["LV.FCS.CapacityMultiplerDesc"]
 raw = "The multiplier applied to the capacity of all the storage buildings. Settings it below 1 to make the game harder by reducing the capacity. You will not lose the items in the storage when reducing the capacity but you have to remove the excess items manually."
+status = "normal"
 enUS = "The multiplier applied to the capacity of all the storage buildings. Setting it below 1 makes the game harder by reducing the capacity. You will not lose the items in storage when reducing the capacity, but you have to remove the excess items manually."
 zhCN = "可以将仓储建筑的容量更改为原本的N倍（游戏默认：1）。"
 zhTW = "應用於所有儲存建築容量的乘數。將其設置為低於1以通過減少容量來提高遊戲難度。減少容量時，你不會失去儲存中的物品，但必須手動移除多餘的物品。"

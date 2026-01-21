@@ -1,5 +1,8 @@
+name = "Extra Terrain Tools"
+
 ["TerrainTools.ToolGroupButton.Label"]
 raw = "Extra Terrain Tools"
+status = "normal"
 enUS = "Extra Terrain Tools"
 zhCN = "拓展地形工具"
 zhTW = "額外地形工具"
@@ -13,6 +16,7 @@ koKR = "추가 지형 도구"
 
 ["TerrainTools.KeyBindingGroup.Label"]
 raw = "Terrain Tools"
+status = "normal"
 enUS = "Terrain Tools"
 zhCN = "拓展地形工具"
 zhTW = "地形工具"
@@ -26,6 +30,7 @@ koKR = "지형 도구"
 
 ["TerrainTools.Keybinding.Undo"]
 raw = "Undo"
+status = "normal"
 enUS = "Undo"
 zhCN = "撤销"
 zhTW = "撤銷"
@@ -39,6 +44,7 @@ koKR = "되돌리기"
 
 ["TerrainTools.Keybinding.FastUndo"]
 raw = "Undo x 5"
+status = "normal"
 enUS = "Undo x 5"
 zhCN = "撤销 5 次"
 zhTW = "撤消 x 5"
@@ -52,6 +58,7 @@ koKR = "되돌리기 x 5"
 
 ["TerrainTools.Keybinding.Redo"]
 raw = "Redo"
+status = "normal"
 enUS = "Redo"
 zhCN = "重做"
 zhTW = "重新做"
@@ -65,6 +72,7 @@ koKR = "다시 실행"
 
 ["TerrainTools.Keybinding.FastRedo"]
 raw = "Redo x 5"
+status = "normal"
 enUS = "Redo five times."
 zhCN = "重做 5 次"
 zhTW = "重做 x 5"
@@ -78,6 +86,7 @@ koKR = "다시 실행 x 5"
 
 ["TerrainTools.Keybinding.CycleMode"]
 raw = "Cycle Mode"
+status = "normal"
 enUS = "Cycle Mode"
 zhCN = "循环模式"
 zhTW = "循環模式"
@@ -91,6 +100,7 @@ koKR = "주기 모드"
 
 ["TerrainTools.Keybinding.Selection.PosUp"]
 raw = "Move Selection Up"
+status = "normal"
 enUS = "Move Selection Up"
 zhCN = "升高选区"
 zhTW = "選擇向上移動"
@@ -104,6 +114,7 @@ koKR = "선택 영역 위로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosDown"]
 raw = "Move Selection Down"
+status = "normal"
 enUS = "Move Selection Down"
 zhCN = "降低选区"
 zhTW = "向下移動選擇"
@@ -117,6 +128,7 @@ koKR = "선택 아래로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosForward"]
 raw = "Move Selection Forward"
+status = "normal"
 enUS = "Move Selection Forward"
 zhCN = "向上移动选区"
 zhTW = "移動選擇向前"
@@ -130,6 +142,7 @@ koKR = "선택을 앞으로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosBack"]
 raw = "Move Selection Back"
+status = "normal"
 enUS = "Move Selection Back"
 zhCN = "向下移动选区"
 zhTW = "移動選擇回去"
@@ -143,6 +156,7 @@ koKR = "선택을 뒤로 이동"
 
 ["TerrainTools.Keybinding.Selection.PosLeft"]
 raw = "Move Selection Left"
+status = "normal"
 enUS = "Move Selection Left"
 zhCN = "向左移动选区"
 zhTW = "向左移動選擇"
@@ -156,6 +170,7 @@ koKR = "선택 이동 왼쪽"
 
 ["TerrainTools.Keybinding.Selection.PosRight"]
 raw = "Move Selection Right"
+status = "normal"
 enUS = "Move Selection Right"
 zhCN = "向右移动选区"
 zhTW = "向右移動選擇"
@@ -169,6 +184,7 @@ koKR = "선택 이동 오른쪽"
 
 ["TerrainTools.Keybinding.Selection.HeightUp"]
 raw = "Raise Selection Height"
+status = "normal"
 enUS = "Raise Selection Height"
 zhCN = "增加选区高度"
 zhTW = "提高選擇高度"
@@ -182,6 +198,7 @@ koKR = "선택 높이 올리기"
 
 ["TerrainTools.Keybinding.Selection.HeightDown"]
 raw = "Lower Selection Height"
+status = "normal"
 enUS = "Lower Selection Height"
 zhCN = "减少选区高度"
 zhTW = "降低選擇高度"
@@ -195,6 +212,7 @@ koKR = "선택 높이 낮추기"
 
 ["TerrainTools.Keybinding.Selection.Copy"]
 raw = "Copy Selection"
+status = "normal"
 enUS = "Copy Selection"
 zhCN = "复制选区"
 zhTW = "複製選取範圍"
@@ -208,6 +226,7 @@ koKR = "선택 복사"
 
 ["TerrainTools.Keybinding.Selection.Cut"]
 raw = "Cut Selection"
+status = "normal"
 enUS = "Cut Selection"
 zhCN = "剪切选区"
 zhTW = "剪切選取"
@@ -221,6 +240,7 @@ koKR = "선택 잘라내기"
 
 ["TerrainTools.Keybinding.Selection.Paste"]
 raw = "Paste Selection"
+status = "normal"
 enUS = "Paste Selection"
 zhCN = "粘贴选区"
 zhTW = "粘貼選取"
@@ -234,6 +254,7 @@ koKR = "선택 붙여넣기"
 
 ["TerrainTools.Keybinding.Selection.RotateCW"]
 raw = "Rotate Selection CW"
+status = "normal"
 enUS = "Rotate Selection CW"
 zhCN = "顺时针旋转选区"
 zhTW = "旋轉選擇順時針"
@@ -247,6 +268,7 @@ jaJP = "選択を時計回りに回転"
 
 ["TerrainTools.Keybinding.Selection.RotateCCW"]
 raw = "Rotate Selection CCW"
+status = "normal"
 enUS = "Rotate Selection CCW"
 zhCN = "逆时针旋转选区"
 zhTW = "逆時針旋轉選擇"
@@ -260,6 +282,7 @@ koKR = "선택 회전 반시계 방향"
 
 ["TerrainTools.Keybinding.Selection.Flip"]
 raw = "Flip Selection"
+status = "normal"
 enUS = "Flip Selection"
 zhCN = "翻转选区"
 zhTW = "翻轉選擇"
@@ -273,6 +296,7 @@ koKR = "선택 뒤집기"
 
 ["TerrainTools.Keybinding.Selection.Reset"]
 raw = "Reset Selection"
+status = "normal"
 enUS = "Reset Selection"
 zhCN = "重置选区"
 zhTW = "重置選擇"
@@ -286,6 +310,7 @@ koKR = "선택 초기화"
 
 ["TerrainTools.Common.Button.Apply"]
 raw = "Apply"
+status = "normal"
 enUS = "Apply"
 zhCN = "应用"
 zhTW = "應用"
@@ -299,6 +324,7 @@ koKR = "적용"
 
 ["TerrainTools.Common.Button.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -312,6 +338,7 @@ koKR = "재설정"
 
 ["TerrainTools.Heightmap.Tool.Title"]
 raw = "Heightmap Generator"
+status = "normal"
 enUS = "Heightmap Generator"
 zhCN = "地形生成工具"
 zhTW = "高度圖生成器"
@@ -325,6 +352,7 @@ koKR = "높이 맵 생성기"
 
 ["TerrainTools.Heightmap.Tool.Warning"]
 raw = "Changes affect the entire map"
+status = "normal"
 enUS = "Changes affect the entire map"
 zhCN = "此工具会影响整个地图。"
 zhTW = "變更影響整個地圖"
@@ -338,6 +366,7 @@ koKR = "변경 사항은 전체 맵에 영향을 미칩니다"
 
 ["TerrainTools.Heightmap.Button.Generate"]
 raw = "Generate"
+status = "normal"
 enUS = "Generate"
 zhCN = "生成"
 zhTW = "生成"
@@ -351,6 +380,7 @@ koKR = "생성"
 
 ["TerrainTools.Heightmap.Checkbox.ClearObjects"]
 raw = "Clear existing objects"
+status = "normal"
 enUS = "Clear existing objects"
 zhCN = "清除地图物体"
 zhTW = "清除現有物件"
@@ -364,6 +394,7 @@ koKR = "기존 객체 지우기"
 
 ["TerrainTools.Heightmap.Generate.Hint"]
 raw = "Click {0} to update the terrain."
+status = "normal"
 enUS = "Click {0} to update the terrain."
 zhCN = "点击{0}更新地形。"
 zhTW = "點擊 {0} 以更新地形。"
@@ -377,6 +408,7 @@ koKR = "지형을 업데이트하려면 {0}을(를) 클릭하세요."
 
 ["TerrainTools.Heightmap.Generate.Warning"]
 raw = "{0} will be removed. This action cannot be undone."
+status = "normal"
 enUS = "{0} will be removed. This action cannot be undone."
 zhCN = "{0}将被清除。此操作不可撤销。"
 zhTW = "{0} 將會被移除。此操作無法恢復。"
@@ -390,6 +422,7 @@ koKR = "{0}가 삭제됩니다. 이 작업은 실행 취소할 수 없습니다.
 
 ["TerrainTools.Heightmap.Clear.WaterSourcesOnly"]
 raw = "All water sources"
+status = "normal"
 enUS = "All water sources"
 zhCN = "所有水源"
 zhTW = "所有水源"
@@ -403,6 +436,7 @@ koKR = "모든 수원"
 
 ["TerrainTools.Heightmap.Clear.All"]
 raw = "All objects"
+status = "normal"
 enUS = "All objects"
 zhCN = "所有物体"
 zhTW = "所有物體"
@@ -416,6 +450,7 @@ koKR = "모든 객체"
 
 ["TerrainTools.Heightmap.Status.Idle"]
 raw = "Idle"
+status = "normal"
 enUS = "Idle"
 zhCN = "等待生成"
 zhTW = "閒置"
@@ -429,6 +464,7 @@ koKR = "대기 중"
 
 ["TerrainTools.Heightmap.Status.Generating"]
 raw = "Generating"
+status = "normal"
 enUS = "Generating"
 zhCN = "生成中"
 zhTW = "生成中"
@@ -442,6 +478,7 @@ koKR = "생성 중"
 
 ["TerrainTools.Heightmap.Seed.Label"]
 raw = "Seed"
+status = "normal"
 enUS = "Seed"
 zhCN = "种子"
 zhTW = "種子"
@@ -455,6 +492,7 @@ koKR = "씨앗"
 
 ["TerrainTools.Heightmap.Seed.Lock.Label"]
 raw = "Lock"
+status = "normal"
 enUS = "Lock"
 zhCN = "锁定"
 zhTW = "鎖"
@@ -468,6 +506,7 @@ koKR = "잠금"
 
 ["TerrainTools.Heightmap.Slider.LOD"]
 raw = "Level of detail"
+status = "normal"
 enUS = "Level of detail"
 zhCN = "细节 (细微地形)"
 zhTW = "細節程度"
@@ -481,6 +520,7 @@ koKR = "세부 수준"
 
 ["TerrainTools.Heightmap.Slider.Amplitude"]
 raw = "Amplitude"
+status = "normal"
 enUS = "Amplitude"
 zhCN = "振幅 (陡峭程度)"
 zhTW = "振幅"
@@ -494,6 +534,7 @@ koKR = "진폭"
 
 ["TerrainTools.Heightmap.Slider.Frequency"]
 raw = "Frequency"
+status = "normal"
 enUS = "Frequency"
 zhCN = "频率 (山峰数量)"
 zhTW = "頻率"
@@ -507,6 +548,7 @@ koKR = "주파수"
 
 ["TerrainTools.Heightmap.Slider.Crest"]
 raw = "Crest shape"
+status = "normal"
 enUS = "Crest shape"
 zhCN = "峰顶形状"
 zhTW = "徽章形狀"
@@ -520,6 +562,7 @@ koKR = "정점 형태"
 
 ["TerrainTools.Heightmap.Slider.Base"]
 raw = "Base shape"
+status = "normal"
 enUS = "Base shape"
 zhCN = "峰底形状"
 zhTW = "基本形狀"
@@ -533,6 +576,7 @@ koKR = "기본 형태"
 
 ["TerrainTools.Heightmap.Slider.Mean"]
 raw = "Mean height"
+status = "normal"
 enUS = "Mean height"
 zhCN = "平均高度"
 zhTW = "平均身高"
@@ -546,6 +590,7 @@ koKR = "평균 높이"
 
 ["TerrainTools.Heightmap.Slider.Min"]
 raw = "Min height"
+status = "normal"
 enUS = "Min height"
 zhCN = "最小高度"
 zhTW = "最小高度"
@@ -559,6 +604,7 @@ koKR = "최소 높이"
 
 ["TerrainTools.Heightmap.Slider.Max"]
 raw = "Max height"
+status = "normal"
 enUS = "Max height"
 zhCN = "最大高度"
 zhTW = "最大高度"
@@ -572,6 +618,7 @@ koKR = "최대 높이"
 
 ["TerrainTools.Heightmap.Slider.PeriodX"]
 raw = "Period X"
+status = "normal"
 enUS = "Period X"
 zhCN = "噪声X轴周期"
 zhTW = "時期 X"
@@ -585,6 +632,7 @@ koKR = "주기 X"
 
 ["TerrainTools.Heightmap.Slider.PeriodY"]
 raw = "Period Y"
+status = "normal"
 enUS = "Period Y"
 zhCN = "噪声Y轴周期"
 zhTW = "Y 期"
@@ -598,6 +646,7 @@ koKR = "주기 Y"
 
 ["TerrainTools.PathPainter.Tool.Title"]
 raw = "Path Painter"
+status = "normal"
 enUS = "Path Painter"
 zhCN = "路径绘制工具"
 zhTW = "路徑畫師"
@@ -611,6 +660,7 @@ koKR = "경로 그리기 도구"
 
 ["TerrainTools.PathPainter.Tool.Description"]
 raw = "Adjust terrain using lines"
+status = "normal"
 enUS = "Adjust terrain using lines"
 zhCN = "沿着绘制的路径调整地形。"
 zhTW = "使用線條調整地形"
@@ -624,6 +674,7 @@ koKR = "선을 사용하여 지형을 조정하세요"
 
 ["TerrainTools.PathPainter.Tip.AddMove"]
 raw = "{0} = Add or Move points"
+status = "normal"
 enUS = "{0} = Add or Move points"
 zhCN = "{0}：添加/移动点"
 zhTW = "{0} = 添加或移動點數"
@@ -637,6 +688,7 @@ koKR = "{0} = 점 추가 또는 이동"
 
 ["TerrainTools.PathPainter.Tip.DeleteHovered"]
 raw = "{0} = Remove hovered point"
+status = "normal"
 enUS = "{0} = Remove hovered point"
 zhCN = "{0}：删除悬停点"
 zhTW = "{0} = 移除懸停的點"
@@ -650,6 +702,7 @@ koKR = "{0} = 호버된 포인트 제거"
 
 ["TerrainTools.PathPainter.Tip.DeleteMultiple"]
 raw = "{0} (Hold) = Remove points"
+status = "normal"
 enUS = "{0} (Hold) = Remove points"
 zhCN = "{0} (按住)：删除多个点"
 zhTW = "{0} (保持) = 移除積分"
@@ -663,6 +716,7 @@ koKR = "{0} (길게 누르기) = 포인트 삭제"
 
 ["TerrainTools.PathPainter.Curve.Button.Line"]
 raw = "Line"
+status = "normal"
 enUS = "Line"
 zhCN = "直线"
 zhTW = "線條"
@@ -676,6 +730,7 @@ koKR = "라인"
 
 ["TerrainTools.PathPainter.Curve.Button.3Points"]
 raw = "3 points"
+status = "normal"
 enUS = "3 points"
 zhCN = "三点曲线"
 zhTW = "三個要點"
@@ -689,6 +744,7 @@ koKR = "3 포인트"
 
 ["TerrainTools.PathPainter.Curve.Button.4Points"]
 raw = "4 points"
+status = "normal"
 enUS = "4 points"
 zhCN = "四点曲线"
 zhTW = "4分"
@@ -702,6 +758,7 @@ koKR = "4점"
 
 ["TerrainTools.PathPainter.Curve.Button.Continuous"]
 raw = "Continuous"
+status = "normal"
 enUS = "Continuous"
 zhCN = "连续曲线"
 zhTW = "持續的"
@@ -715,6 +772,7 @@ koKR = "연속적"
 
 ["TerrainTools.PathPainter.Curve.Toggle.SingleSegment"]
 raw = "Single segment"
+status = "normal"
 enUS = "Single segment"
 zhCN = "单段模式"
 zhTW = "單一段落"
@@ -728,6 +786,7 @@ koKR = "단일 세그먼트"
 
 ["TerrainTools.PathPainter.Curve.Toggle.DrawEndCaps"]
 raw = "Smooth ends"
+status = "normal"
 enUS = "Smooth ends"
 zhCN = "平滑端点"
 zhTW = "光滑的結尾"
@@ -741,6 +800,7 @@ koKR = "부드러운 끝"
 
 ["TerrainTools.PathPainter.Curve.Slider.Distance"]
 raw = "Distance"
+status = "normal"
 enUS = "Distance"
 zhCN = "绘制距离"
 zhTW = "距離"
@@ -754,6 +814,7 @@ koKR = "거리"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry"]
 raw = "Symmetry"
+status = "normal"
 enUS = "Symmetry"
 zhCN = "对称模式"
 zhTW = "對稱"
@@ -767,6 +828,7 @@ koKR = "대칭"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry.On"]
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "已启用"
 zhTW = "啟用"
@@ -780,6 +842,7 @@ koKR = "활성화됨"
 
 ["TerrainTools.PathPainter.ToggleText.Symmetry.Off"]
 raw = "Disabled"
+status = "normal"
 enUS = "Disabled"
 zhCN = "已禁用"
 zhTW = "禁用"
@@ -793,6 +856,7 @@ koKR = "비활성화"
 
 ["TerrainTools.PathPainter.Button.ClearAll"]
 raw = "Clear path"
+status = "normal"
 enUS = "Clear path"
 zhCN = "清除路径"
 zhTW = "清晰的道路"
@@ -806,6 +870,7 @@ koKR = "경로 지우기"
 
 ["TerrainTools.Smoothing.Tool.Title"]
 raw = "Smoothing Brush"
+status = "normal"
 enUS = "Smoothing Brush"
 zhCN = "平滑笔刷工具"
 zhTW = "平滑刷"
@@ -819,6 +884,7 @@ koKR = "부드럽게 하는 붓"
 
 ["TerrainTools.Smoothing.Slider.Brush.Size"]
 raw = "Brush size"
+status = "normal"
 enUS = "Brush size"
 zhCN = "笔刷大小"
 zhTW = "刷子大小"
@@ -832,6 +898,7 @@ koKR = "붓 크기"
 
 ["TerrainTools.Smoothing.Slider.Sample.Size"]
 raw = "Sample size"
+status = "normal"
 enUS = "Sample size"
 zhCN = "采样范围"
 zhTW = "樣本大小"
@@ -845,6 +912,7 @@ koKR = "샘플 크기"
 
 ["TerrainTools.Smoothing.Slider.Force"]
 raw = "Force"
+status = "normal"
 enUS = "Force"
 zhCN = "笔刷硬度"
 zhTW = "力"
@@ -858,6 +926,7 @@ koKR = "힘"
 
 ["TerrainTools.Smoothing.ToggleGroup.Shape"]
 raw = "Brush Shape"
+status = "normal"
 enUS = "Brush Shape"
 zhCN = "笔刷形状"
 zhTW = "刷子形狀"
@@ -871,6 +940,7 @@ koKR = "브러시 모양"
 
 ["TerrainTools.Smoothing.Shape.Square"]
 raw = "Square"
+status = "normal"
 enUS = "Square"
 zhCN = "方形"
 zhTW = "正方形"
@@ -884,6 +954,7 @@ koKR = "정사각형"
 
 ["TerrainTools.Smoothing.Shape.Circle"]
 raw = "Circle"
+status = "normal"
 enUS = "Circle"
 zhCN = "圆形"
 zhTW = "圓圈"
@@ -897,6 +968,7 @@ koKR = "원형"
 
 ["TerrainTools.MoundMaker.Tool.Title"]
 raw = "Mound Maker"
+status = "normal"
 enUS = "Mound Maker"
 zhCN = "山丘生成工具"
 zhTW = "土堆製造者"
@@ -910,6 +982,7 @@ koKR = "언덕 제작기"
 
 ["TerrainTools.MoundMaker.Hint.CycleSeed"]
 raw = "{0} = Cycle seed"
+status = "normal"
 enUS = "{0} = Cycle seed"
 zhCN = "{0}：更换种子"
 zhTW = "{0} = 循環種子"
@@ -923,6 +996,7 @@ koKR = "{0} = 사이클 시드"
 
 ["TerrainTools.MoundMaker.Hint.DigMode"]
 raw = "{0} (Hold) = Dig Mode"
+status = "normal"
 enUS = "{0} (Hold) = Dig Mode"
 zhCN = "{0} (按住)：挖掘模式"
 zhTW = "{0} (保持) = 挖掘模式"
@@ -936,6 +1010,7 @@ koKR = "{0} (길게 누르기) = 굴착 모드"
 
 ["TerrainTools.MoundMaker.Header.Shape"]
 raw = "Shape"
+status = "normal"
 enUS = "Shape"
 zhCN = "形状"
 zhTW = "形狀"
@@ -949,6 +1024,7 @@ koKR = "형태"
 
 ["TerrainTools.MoundMaker.Slider.PeakHeight"]
 raw = "Peak height"
+status = "normal"
 enUS = "Peak height"
 zhCN = "峰顶高度"
 zhTW = "高峰高度"
@@ -962,6 +1038,7 @@ koKR = "정점 높이"
 
 ["TerrainTools.MoundMaker.Slider.MaxChange"]
 raw = "Max change"
+status = "normal"
 enUS = "Max change"
 zhCN = "变化幅度"
 zhTW = "最大變更"
@@ -975,6 +1052,7 @@ koKR = "최대 변화"
 
 ["TerrainTools.MoundMaker.Header.RadialNoise"]
 raw = "Radial Noise"
+status = "normal"
 enUS = "Radial Noise"
 zhCN = "径向噪波"
 zhTW = "徑向噪音"
@@ -988,6 +1066,7 @@ koKR = "방사형 소음"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Scale"]
 raw = "Scale"
+status = "normal"
 enUS = "Scale"
 zhCN = "缩放"
 zhTW = "比例尺"
@@ -1001,6 +1080,7 @@ koKR = "크기"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Frequency"]
 raw = "Frequency"
+status = "normal"
 enUS = "Frequency"
 zhCN = "频率"
 zhTW = "頻率"
@@ -1014,6 +1094,7 @@ koKR = "주파수"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Detail"]
 raw = "Detail"
+status = "normal"
 enUS = "Detail"
 zhCN = "细节"
 zhTW = "詳細資訊"
@@ -1027,6 +1108,7 @@ koKR = "상세"
 
 ["TerrainTools.MoundMaker.Header.VerticalNoise"]
 raw = "Vertical Noise"
+status = "normal"
 enUS = "Vertical Noise"
 zhCN = "垂直噪波"
 zhTW = "垂直噪音"
@@ -1040,6 +1122,7 @@ koKR = "수직 소음"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Amplitude"]
 raw = "Amplitude"
+status = "normal"
 enUS = "Amplitude"
 zhCN = "振幅"
 zhTW = "振幅"
@@ -1053,6 +1136,7 @@ koKR = "진폭"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Frequency"]
 raw = "Frequency"
+status = "normal"
 enUS = "Frequency"
 zhCN = "频率"
 zhTW = "頻率"
@@ -1066,6 +1150,7 @@ koKR = "주파수"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Detail"]
 raw = "Detail"
+status = "normal"
 enUS = "Detail"
 zhCN = "细节"
 zhTW = "詳細資訊"
@@ -1079,6 +1164,7 @@ koKR = "세부 사항"
 
 ["TerrainTools.MoundMaker.Checkbox.Randomize"]
 raw = "Randomize"
+status = "normal"
 enUS = "Randomize"
 zhCN = "随机化"
 zhTW = "隨機化"
@@ -1092,6 +1178,7 @@ koKR = "무작위화"
 
 ["TerrainTools.MoundMaker.Seed.Label"]
 raw = "Seed"
+status = "normal"
 enUS = "Seed"
 zhCN = "种子"
 zhTW = "種子"
@@ -1105,6 +1192,7 @@ koKR = "씨앗"
 
 ["TerrainTools.CloneTool.Title"]
 raw = "Selection Editor"
+status = "normal"
 enUS = "Selection Editor"
 zhCN = "选区编辑工具"
 zhTW = "選擇編輯器"
@@ -1118,6 +1206,7 @@ koKR = "선택 편집기"
 
 ["TerrainTools.CloneTool.Description"]
 raw = "Copy, Cut, Rotate, Flip and Paste"
+status = "normal"
 enUS = "Copy, Cut, Rotate, Flip and Paste"
 zhCN = "复制、剪切、旋转、翻转与粘贴。"
 zhTW = "複製、剪切、旋轉、翻轉和粘貼"
@@ -1131,6 +1220,7 @@ koKR = "복사, 자르기, 회전, 뒤집기 및 붙여넣기"
 
 ["TerrainTools.CloneTool.InputGroup.Select"]
 raw = "Select area"
+status = "normal"
 enUS = "Select area"
 zhCN = "选择区域"
 zhTW = "選擇區域"
@@ -1144,6 +1234,7 @@ koKR = "지역 선택"
 
 ["TerrainTools.CloneTool.InputGroup.Cancel"]
 raw = "Cancel"
+status = "normal"
 enUS = "Cancel"
 zhCN = "取消"
 zhTW = "取消"
@@ -1157,6 +1248,7 @@ koKR = "취소"
 
 ["TerrainTools.CloneTool.InputGroup.HeightSelect"]
 raw = "Select height"
+status = "normal"
 enUS = "Select height"
 zhCN = "选择高度"
 zhTW = "選擇高度"
@@ -1170,6 +1262,7 @@ koKR = "높이 선택"
 
 ["TerrainTools.CloneTool.InputGroup.Confirm"]
 raw = "Confirm"
+status = "normal"
 enUS = "Confirm"
 zhCN = "确认"
 zhTW = "確認"
@@ -1183,6 +1276,7 @@ koKR = "확인"
 
 ["TerrainTools.CloneTool.InputGroup.MoveSelection"]
 raw = "Move"
+status = "normal"
 enUS = "Move"
 zhCN = "移动"
 zhTW = "移動"
@@ -1196,6 +1290,7 @@ koKR = "이동"
 
 ["TerrainTools.CloneTool.InputGroup.Cut"]
 raw = "Cut"
+status = "normal"
 enUS = "Cut"
 zhCN = "剪切"
 zhTW = "切割"
@@ -1209,6 +1304,7 @@ koKR = "컷"
 
 ["TerrainTools.CloneTool.InputGroup.Copy"]
 raw = "Copy"
+status = "normal"
 enUS = "Copy"
 zhCN = "复制"
 zhTW = "複製"
@@ -1222,6 +1318,7 @@ koKR = "복사"
 
 ["TerrainTools.CloneTool.InputGroup.Paste"]
 raw = "Paste"
+status = "normal"
 enUS = "Paste"
 zhCN = "粘贴"
 zhTW = "粘貼"
@@ -1235,6 +1332,7 @@ koKR = "붙여넣기"
 
 ["TerrainTools.CloneTool.InputGroup.Rotate"]
 raw = "Rotate"
+status = "normal"
 enUS = "Rotate"
 zhCN = "旋转"
 zhTW = "旋轉"
@@ -1248,6 +1346,7 @@ koKR = "회전"
 
 ["TerrainTools.CloneTool.InputGroup.Flip"]
 raw = "Flip"
+status = "normal"
 enUS = "Flip"
 zhCN = "翻转"
 zhTW = "翻轉"
@@ -1261,6 +1360,7 @@ koKR = "뒤집기"
 
 ["TerrainTools.CloneTool.InputGroup.PositionTrim"]
 raw = "Trim position"
+status = "normal"
 enUS = "Trim position"
 zhCN = "修改位置"
 zhTW = "修剪位置"
@@ -1274,6 +1374,7 @@ koKR = "위치 다듬기"
 
 ["TerrainTools.CloneTool.InputGroup.HeightTrim"]
 raw = "Trim height"
+status = "normal"
 enUS = "Trim height"
 zhCN = "修改高度"
 zhTW = "修剪高度"
@@ -1287,6 +1388,7 @@ koKR = "높이 다듬기"
 
 ["TerrainTools.CloneTool.InputGroup.Reset"]
 raw = "Reset"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重置"
@@ -1300,6 +1402,7 @@ koKR = "리셋"
 
 ["TerrainTools.CloneTool.InputDesciption.LeftClick"]
 raw = "Left click"
+status = "normal"
 enUS = "Left click"
 zhCN = "点击左键"
 zhTW = "左鍵点击"
@@ -1313,6 +1416,7 @@ koKR = "왼쪽 클릭"
 
 ["TerrainTools.CloneTool.InputDesciption.RightClick"]
 raw = "Right click"
+status = "normal"
 enUS = "Right click"
 zhCN = "点击右键"
 zhTW = "右鍵單擊"
@@ -1326,6 +1430,7 @@ koKR = "오른쪽 클릭"
 
 ["TerrainTools.CloneTool.InputDesciption.ClickAndDrag"]
 raw = "Click and drag"
+status = "normal"
 enUS = "Click and drag"
 zhCN = "点击并拖动"
 zhTW = "「單擊並拖動」"
@@ -1339,6 +1444,7 @@ koKR = "클릭하고 드래그"
 
 ["TerrainTools.CloneTool.InputDesciption.MouseScroll"]
 raw = "Mouse scroll"
+status = "normal"
 enUS = "Mouse scroll"
 zhCN = "鼠标滚轮"
 zhTW = "滑鼠滾輪"
@@ -1352,6 +1458,7 @@ koKR = "마우스 스크롤"
 
 ["TerrainTools.CloneTool.InputDesciption.Hold"]
 raw = "Hold"
+status = "normal"
 enUS = "Hold"
 zhCN = "按住"
 zhTW = "按住"
@@ -1365,6 +1472,7 @@ koKR = "길게 누르기"
 
 ["TerrainTools.CloneTool.ToolTip.Start"]
 raw = "Select base"
+status = "normal"
 enUS = "Select base"
 zhCN = "选区基底"
 zhTW = "選擇基底"
@@ -1378,6 +1486,7 @@ koKR = "기본 선택"
 
 ["TerrainTools.CloneTool.ToolTip.Base"]
 raw = "Select base"
+status = "normal"
 enUS = "Select base"
 zhCN = "选区基底"
 zhTW = "選擇基礎"
@@ -1391,6 +1500,7 @@ koKR = "기본 선택"
 
 ["TerrainTools.CloneTool.ToolTip.Height"]
 raw = "Select height"
+status = "normal"
 enUS = "Select height"
 zhCN = "选区高度"
 zhTW = "選擇高度"
@@ -1404,6 +1514,7 @@ koKR = "높이 선택"
 
 ["TerrainTools.CloneTool.ToolTip.MoveApply"]
 raw = "Selection complete"
+status = "normal"
 enUS = "Selection complete"
 zhCN = "选区编辑"
 zhTW = "「選擇完成」"
@@ -1417,6 +1528,7 @@ koKR = "선택 완료"
 
 ["TerrainTools.CloneTool.Error.NoText"]
 raw = "Error - No text"
+status = "normal"
 enUS = "Error - No text"
 zhCN = "错误-无文本"
 zhTW = "錯誤 - 無文本"
@@ -1430,6 +1542,7 @@ koKR = "오류 - 텍스트 없음"
 
 ["TerrainTools.CloneTool.Option.IncludeAirBlocks"]
 raw = "Copy empty blocks"
+status = "normal"
 enUS = "Copy empty blocks"
 zhCN = "复制空方块"
 zhTW = "複製空白方塊"
@@ -1443,6 +1556,7 @@ koKR = "빈 블록 복사"
 
 ["TerrainTools.CloneTool.Option.IncludeStackedBlocks"]
 raw = "Copy stacked objects"
+status = "normal"
 enUS = "Copy stacked objects"
 zhCN = "复制堆叠物体"
 zhTW = "複製堆疊物件"

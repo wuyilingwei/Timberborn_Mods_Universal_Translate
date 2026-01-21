@@ -1,5 +1,8 @@
+name = "Goods Tracing"
+
 ["sp1um.GoodTracing.InputBatchControlTabName"]
 raw = "Good consumption"
+status = "normal"
 enUS = "Good consumption"
 zhCN = "物资消耗"
 zhTW = "良好的消費"
@@ -13,6 +16,7 @@ koKR = "좋은 소비"
 
 ["sp1um.GoodTracing.InputBatchControlKeyBinding"]
 raw = "Open good consumption tab"
+status = "normal"
 enUS = "Open the good consumption tab."
 zhCN = "打开物资消耗标签"
 zhTW = "打開良好消費標籤"
@@ -26,6 +30,7 @@ koKR = "좋은 소비 탭 열기"
 
 ["sp1um.GoodTracing.OutputBatchControlTabName"]
 raw = "Good production"
+status = "normal"
 enUS = "Good production"
 zhCN = "物资生产"
 zhTW = "良好的生產"
@@ -39,6 +44,7 @@ koKR = "좋은 생산"
 
 ["sp1um.GoodTracing.OutputBatchControlKeyBinding"]
 raw = "Open good production tab"
+status = "normal"
 enUS = "Open good production tab"
 zhCN = "打开物资生产标签"
 zhTW = "打開良好生產標籤"
@@ -52,6 +58,7 @@ koKR = "양호한 생산 탭 열기"
 
 ["sp1um.GoodTracing.BatchControlTabShowPaused"]
 raw = "Show paused buildings"
+status = "normal"
 enUS = "Show paused buildings"
 zhCN = "显示已关闭建筑"
 zhTW = "顯示暫停的建築物"
@@ -65,6 +72,7 @@ koKR = "일시 중지된 건물 표시"
 
 ["sp1um.GoodTracing.BatchControlTabShowConstruction"]
 raw = "Show construction sites"
+status = "normal"
 enUS = "Show construction sites."
 zhCN = "显示待建筑工地"
 zhTW = "顯示建築工地"

@@ -1,5 +1,8 @@
+name = "Mark All Trees"
+
 ["CAT.Enabled"]
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "全图标记砍伐"
 zhTW = "啟用"
@@ -13,6 +16,7 @@ koKR = "활성화됨"
 
 ["CAT.EnabledDesc"]
 raw = "Mark all the map as 'cuttable' area when loading a save with this mod for the first time (including a new game)"
+status = "normal"
 enUS = "Mark all the map as 'cuttable' area when loading a save with this mod for the first time (including a new game)."
 zhCN = "勾选后，首次加载带有此模组的存档或新游戏时，将对整个地图标记树木砍伐区域。"
 zhTW = "在第一次加載此模組的存檔時（包括新遊戲），將所有地圖標記為「可切割」區域。"
@@ -26,6 +30,7 @@ koKR = "이 모드를 처음 사용하여 저장을 로드할 때 모든 맵을 
 
 ["CAT.AlwaysEnabled"]
 raw = "Always Enabled"
+status = "normal"
 enUS = "Always Enabled"
 zhCN = "再次标记砍伐"
 zhTW = "始終啟用"
@@ -39,6 +44,7 @@ koKR = "항상 활성화"
 
 ["CAT.AlwaysEnabledDesc"]
 raw = "Mark all the map as 'cuttable' area when loading a save with this mod even if it was already activated before. Automatically uncheck once you load a save."
+status = "normal"
 enUS = "Mark all the map as a 'cuttable' area when loading a save with this mod, even if it was already activated before. It will automatically uncheck once you load a save."
 zhCN = "勾选后，加载带有此模组的存档时，即使之前已激活过，也会对整个地图标记树木砍伐区域。加载存档后将自动取消勾选。"
 zhTW = "在載入此模組的存檔時，將所有地圖標記為「可切割」區域，即使它之前已經啟用。載入存檔後自動取消選中。"

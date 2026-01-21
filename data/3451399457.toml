@@ -1,5 +1,8 @@
+name = "No Build Restriction"
+
 ["LV.NBR.RemoveGroundOnly"]
 raw = "Remove Ground-only restriction"
+status = "normal"
 enUS = "Remove Ground-only restriction"
 zhCN = "移除仅地面限制"
 zhTW = "移除僅限地面限制"
@@ -13,6 +16,7 @@ koKR = "지면 전용 제한 제거"
 
 ["LV.NBR.RemoveGroundOnlyDesc"]
 raw = "Remove the restriction for Ground-only buildings (like Campfire)"
+status = "normal"
 enUS = "Remove the restriction for Ground-only buildings (like Campfire)"
 zhCN = "勾选后，去除建筑的“仅地面”限制。"
 zhTW = "移除僅限地面建築（如營火）的限制"
@@ -26,6 +30,7 @@ koKR = "지면 전용 건물(예: 캠프파이어)에 대한 제한을 제거합
 
 ["LV.NBR.RemoveRoofOnly"]
 raw = "Remove Roof-only restriction"
+status = "normal"
 enUS = "Remove roof-only restriction"
 zhCN = "移除仅屋顶限制"
 zhTW = "移除僅限於屋頂的限制"
@@ -39,6 +44,7 @@ koKR = "지붕만 제거 제한 해제"
 
 ["LV.NBR.RemoveRoofOnlyDesc"]
 raw = "Remove the restriction for Roof-only buildings (like Rooftop Terrace)"
+status = "normal"
 enUS = "Remove the restriction for roof-only buildings (like rooftop terrace)."
 zhCN = "勾选后，去除建筑的“高于地面”限制。"
 zhTW = "移除僅限於屋頂建築（如屋頂露台）的限制"
@@ -52,6 +58,7 @@ koKR = "지붕만 있는 건물(예: 옥상 테라스)의 제한을 제거합니
 
 ["LV.NBR.PlatformOver1x1"]
 raw = "Platforms over 1x1"
+status = "normal"
 enUS = "Platforms over 1x1"
 zhCN = "小型建筑上建平台"
 zhTW = "超過 1x1 的平台"
@@ -65,6 +72,7 @@ koKR = "1x1 크기 이상의 플랫폼"
 
 ["LV.NBR.PlatformOver1x1Desc"]
 raw = "You can always build platforms over 1x1 buildings (for example you can now build a Double Platform over a Lumberjack Flag)"
+status = "normal"
 enUS = "You can always build platforms over 1x1 buildings (for example, you can now build a Double Platform over a Lumberjack Flag)."
 zhCN = "勾选后，可以在 1x1 建筑上方建造平台（例如可以在伐木工旗帜上建造双重平台）。"
 zhTW = "您始終可以在 1x1 建築上搭建平台（例如，您現在可以在伐木工旗幟上搭建雙層平台）"
@@ -78,6 +86,7 @@ koKR = "1x1 건물 위에 플랫폼을 항상 건설할 수 있습니다(예를 
 
 ["LV.NBR.AlwaysSolid"]
 raw = "All solid"
+status = "normal"
 enUS = "All solid"
 zhCN = "建筑实体化"
 zhTW = "一切都很好"
@@ -91,6 +100,7 @@ koKR = "모두 단단함"
 
 ["LV.NBR.AlwaysSolidDesc"]
 raw = "All buildings are solid and can be placed on top"
+status = "normal"
 enUS = "All buildings are solid and can be placed on top."
 zhCN = "勾选后，建筑的碰撞箱变为实体，并且可以直接叠放（例如可以叠放树篱）。"
 zhTW = "所有建築物都是堅固的，可以放置在上面。"
@@ -104,6 +114,7 @@ koKR = "모든 건물이 단단하며 위에 배치할 수 있습니다."
 
 ["LV.NBR.AllowFlooded"]
 raw = "No more flooded buildings"
+status = "normal"
 enUS = "No more flooded buildings"
 zhCN = "建筑不淹没"
 zhTW = "不再有淹水的建築"
@@ -117,6 +128,7 @@ koKR = "더 이상 침수된 건물이 없습니다"
 
 ["LV.NBR.AllowFloodedDesc"]
 raw = "Buildings no longer get flooded"
+status = "normal"
 enUS = "Buildings no longer flood."
 zhCN = "勾选后，建筑不会被水淹没。"
 zhTW = "建築物不再淹水。"
@@ -130,6 +142,7 @@ koKR = "건물이 더 이상 홍수에 침수되지 않습니다"
 
 ["LV.NBR.SuperStructure"]
 raw = "Super foundation"
+status = "normal"
 enUS = "Super foundation"
 zhCN = "建筑超级地基"
 zhTW = "超級底妝"
@@ -143,6 +156,7 @@ koKR = "슈퍼 기초"
 
 ["LV.NBR.SuperStructureDesc"]
 raw = "Any building with an entrance can be built with the entrance on the ground only"
+status = "normal"
 enUS = "Any building with an entrance can only be constructed with the entrance at ground level."
 zhCN = "勾选后，建筑只需要有一格支撑就可以建造（有入口建筑：入口所处方块；无入口建筑：建筑中心方块）。"
 zhTW = "任何有入口的建築物都可以僅在地面上建造入口。"
@@ -156,6 +170,7 @@ koKR = "입구가 있는 모든 건물은 입구가 땅에만 위치하도록 �
 
 ["LV.NBR.MagicStructure"]
 raw = "  Magical foundation"
+status = "normal"
 enUS = "Magical foundation"
 zhCN = "  建筑魔法地基"
 zhTW = "魔法基礎"
@@ -169,6 +184,7 @@ koKR = "마법의 기초"
 
 ["LV.NBR.MagicStructureDesc"]
 raw = "Your building does not need any support at all. It can just float on the air. You may still need to build the scaffolding to be able to put the buildings, then remove them."
+status = "normal"
 enUS = "Your building does not need any support at all. It can just float in the air. You may still need to build the scaffolding to be able to place the buildings and then remove them."
 zhCN = "勾选后，建筑不需要任何支撑结构（放置待建造建筑后，用于临时支撑的平台等建筑可以被拆除）。"
 zhTW = "您的建築根本不需要任何支撐。它可以在空中漂浮。您可能仍然需要搭建腳手架，以便能夠放置建築物，然後再將其移除。"
@@ -182,6 +198,7 @@ koKR = "당신의 건물은 전혀 지지대가 필요하지 않습니다. 공�
 
 ["LV.NBR.HangingStructure"]
 raw = "  Hanging structure"
+status = "normal"
 enUS = "Hanging structure"
 zhCN = "    建筑悬挑"
 zhTW = "懸掛結構"
@@ -195,6 +212,7 @@ koKR = "매달린 구조물"
 
 ["LV.NBR.HangingStructureDesc"]
 raw = "You can build buildings hanging next to each other similar to terrain. Require Magic Structure."
+status = "normal"
 enUS = "You can construct buildings that hang next to each other, similar to the terrain. Requires Magic Structure."
 zhCN = "勾选后，建筑可以构建与地形悬挑类似的结构（在建筑侧面延伸）。<br>注意，需要勾选“建筑魔法地基”。"
 zhTW = "您可以建造相鄰懸掛的建築物，類似於地形。需要魔法結構。"
@@ -208,6 +226,7 @@ koKR = "지형처럼 서로 옆에 걸쳐 건물을 건설할 수 있습니다. 
 
 ["LV.NBR.SuperHangingTerrain"]
 raw = "Super hanging terrain"
+status = "normal"
 enUS = "Super hanging terrain"
 zhCN = "地形超级悬挑"
 zhTW = "超懸空地形"
@@ -221,6 +240,7 @@ koKR = "슈퍼 매달린 지형"
 
 ["LV.NBR.SuperHangingTerrainDesc"]
 raw = "You can exceed the 3 hanging terrain limit to 50 (not higher due to performance impact)"
+status = "normal"
 enUS = "You can exceed the limit of 3 hanging terrains up to 50 (not higher due to performance impact)."
 zhCN = "勾选后，地形悬挑的限制从3格提高至50格（超过50格会影响游戏性能）。"
 zhTW = "您可以將懸掛地形的限制從3提高至50（不可以更高，因為會影響性能）。"
@@ -234,6 +254,7 @@ koKR = "당신은 성능 영향으로 인해 3개의 매달린 지형 한도를 
 
 ["LV.NBR.NoBottomOfMap"]
 raw = "Remove terrain-to-bottom restriction"
+status = "normal"
 enUS = "Remove terrain-to-bottom restriction"
 zhCN = "移除深度无穷限制"
 zhTW = "移除地形到底部的限制"
@@ -247,6 +268,7 @@ koKR = "하단 제한 제거"
 
 ["LV.NBR.NoBottomOfMapDesc"]
 raw = "Remove the restriction of 'continuous terrain down to the bottom of the map' (Underground Ruins and Water sources)"
+status = "normal"
 enUS = "Remove the restriction of 'continuous terrain down to the bottom of the map' (Underground Ruins and Water sources)."
 zhCN = "勾选后，移除物体的“地下深度：无穷”限制（水源、恶水源、地下废墟）。"
 zhTW = "移除「連續地形延伸至地圖底部」的限制（地下遺跡和水源）"

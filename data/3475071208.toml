@@ -1,5 +1,8 @@
+name = "Configurable Lifetime"
+
 ["LV.CLt.BeaverLifeMul"]
 raw = "Beaver Aging Multiplier"
+status = "normal"
 enUS = "Beaver Aging Multiplier"
 zhCN = "海狸衰老速度倍数"
 zhTW = "海狸老化乘數"
@@ -13,6 +16,7 @@ koKR = "비버 노화 배수기"
 
 ["LV.CLt.BeaverLifeMulDesc"]
 raw = "Adult Beavers' aging is multiplied by this value, similar to a \"Life expectancy\" bonus.\nNote: higher is harder as beavers will age faster.\nSetting to 0 means beavers will never age."
+status = "normal"
 enUS = "Adult Beavers' aging is multiplied by this value, similar to a \"Life expectancy\" bonus.\nNote: higher is harder as beavers will age faster.\nSetting to 0 means beavers will never age."
 zhCN = "可以将成年海狸的衰老速度更改为原本的N倍，使其更快衰老，设为0则永不衰老。"
 zhTW = "成年海狸的老化速度會乘以這個值，類似於「壽命預期」的加成。  \n注意：數值越高，老化速度越快。  \n設置為0意味著海狸將永遠不會老化。"
@@ -26,6 +30,7 @@ koKR = "성체 비버의 노화는 이 값에 의해 곱해지며, ‘기대 수
 
 ["LV.CLt.ChildhoodDaysMul"]
 raw = "Childhood Growth Multiplier"
+status = "normal"
 enUS = "Childhood Growth Multiplier"
 zhCN = "幼狸成长速度倍数"
 zhTW = "童年成長倍增器"
@@ -39,6 +44,7 @@ koKR = "어린 시절 성장 배율"
 
 ["LV.CLt.ChildhoodDaysMulDesc"]
 raw = "Children Beavers' childhood growth is multiplied by this value, similar to a \"Growth speed\" bonus.\nNote: higher is easier as young beavers will grow faster.\nSetting to 0 means children will never grow."
+status = "normal"
 enUS = "Children Beavers' childhood growth is multiplied by this value, similar to a \"Growth speed\" bonus.\nNote: higher is easier as young beavers will grow faster.\nSetting to 0 means children will never grow."
 zhCN = "可以将幼年海狸的成长速度更改为原本的N倍，使其更快成长，设为0则永不成长。"
 zhTW = "小兒童海狸的成長速度會乘以這個值，類似於一個「成長速度」的獎勵。  \n注意：較高的數值會使年輕的海狸成長得更快。  \n設置為 0 意味著小孩將永遠不會成長。"
@@ -52,6 +58,7 @@ koKR = "어린 비버의 성장률은 이 값에 의해 배가 되며, 이는 '�
 
 ["LV.CLt.BotLifeMul"]
 raw = "Bot Deterioration Multiplier"
+status = "normal"
 enUS = "Bot Deterioration Multiplier"
 zhCN = "机关人毁坏速度倍数"
 zhTW = "機器人劣化乘數"
@@ -65,6 +72,7 @@ koKR = "봇 노화 배수기"
 
 ["LV.CLt.BotLifeMulDesc"]
 raw = "Bots' deterioration is multiplied by this value, similar to a \"Life expectancy\" bonus.\nNote: higher is harder as bots will deteriorate faster.\nSetting to 0 means bots will never deteriorate."
+status = "normal"
 enUS = "Bots' deterioration is multiplied by this value, similar to a \"Life expectancy\" bonus.\nNote: higher is harder as bots will deteriorate faster.\nSetting to 0 means bots will never deteriorate."
 zhCN = "可以将机关人的毁坏速度更改为原本的N倍，使其更快毁坏，设为0则永不毁坏。"
 zhTW = "機器人的衰退速度會乘以這個數值，類似於「壽命預期」的獎勵。\n注意：數值越高，難度越大，因為機器人會更快衰退。\n設定為0則意味著機器人將永遠不會衰退。"
