@@ -1,5 +1,3 @@
-name = "SimpleFloodgateTriggers"
-
 ["Floodgate.Triggers.EnableOnDroughtStarted"]
 raw = "Set height when drought starts"
 status = "normal"
@@ -857,3 +855,6 @@ koKR = "나쁜 조수 동안 비활성화"
 ["Floodgates.Triggers.Empty"]
 new = ""
 status = "normal"
+
+[_meta]
+name = "SimpleFloodgateTriggers"

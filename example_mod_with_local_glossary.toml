@@ -1,16 +1,10 @@
 # Example mod TOML demonstrating the new mod-local glossary structure
 # This file shows how to use both global and local glossaries
 
-name = "Example Mod"
-prompt = "Game UI elements"  # Changed from field_prompt to prompt
-
 # Metadata section - uses underscore prefix to avoid conflicts with translation keys
 [_meta]
-# Optional: Override mod name if different from top-level
-# name = "Different Display Name"
-
-# Optional: Additional prompts (not used by translation script)
-# prompt = "This mod uses technical terminology"
+name = "Example Mod"
+prompt = "Game UI elements"
 
 # Mod-local glossary - these terms override global glossary
 [_meta.glossary."CustomBuilding"]
@@ -36,7 +30,7 @@ frFR = "Bâtiment personnalisé"
 deDE = "Benutzerdefiniertes Gebäude"
 plPL = "Niestandardowy budynek"
 ptBR = "Edifício Personalizado"
-koKR = "사용자 지정 건물"
+koKR = "사용자 지定 건물"
 
 ["Resource.SpecialResource.DisplayName"]
 raw = "SpecialResource"

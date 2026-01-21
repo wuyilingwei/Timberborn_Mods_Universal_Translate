@@ -7,13 +7,10 @@ Each mod's translations are stored in a TOML file with the following structure:
 ### Basic Structure
 
 ```toml
+# Metadata section for mod configuration
+[_meta]
 name = "Mod Name"
 prompt = "Optional translation hints"
-
-[_meta]
-# Optional metadata section
-# name = "Override mod name"
-# prompt = "Extra translation hints"
 
 # Mod-local glossary
 [_meta.glossary."CustomTerm"]
@@ -39,17 +36,12 @@ koKR = "Korean translation"
 
 ### Field Descriptions
 
-#### Top-level Fields
-
-- **name**: (Optional) Mod name
-- **prompt**: (Optional) General translation hints for the mod
-
 #### `[_meta]` Section
 
 The `_meta` section contains metadata that doesn't conflict with translation keys:
 
-- **name**: Override mod name
-- **prompt**: Additional translation hints
+- **name**: Mod name (required)
+- **prompt**: Optional translation hints for the mod
 - **glossary**: Mod-specific glossary entries
 
 ##### Glossary Structure
