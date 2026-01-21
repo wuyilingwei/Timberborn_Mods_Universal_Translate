@@ -41,22 +41,12 @@ Become a legend.
 BECOME A TRANSLATOR.
 ```
 
-First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
+Want to contribute? See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on how to join and our translation rules.
 
-You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+## Documentation
 
-An automatic script will create the latest language CSV files based on `/data`, publish every day.
-
-## Our rules
-
-It uses both of AI and manual work, with AI responsible for providing translation support as quickly as possible and reducing workload, and manual work for proofreading and modification.
-
-We are not responsible for the accuracy of the translated text.
-
-The content that is not accepted for translation is:
-
- - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified.
- - Any content that violates public order and morals will not be translated to avoid potential problems. This includes but is not limited to: racial discrimination, adult content, etc.
+- [Contributing Guide](docs/CONTRIBUTING.md) - How to join and contribution rules
+- [Data Structure](docs/DATA_STRUCTURE.md) - TOML file structure and translation workflow
 
 ## Translation Features
 
@@ -72,10 +62,11 @@ The translation system supports both global and mod-local glossaries for consist
 
 **Advanced Glossary Features:**
 1. **Automatic Replacement**: Exact matches are replaced with translations before LLM
-2. **Fuzzy Matching**: Terms with 10+ characters allow up to 2 character differences (e.g., "SpecalResource" matches "SpecialResource")
+2. **Fuzzy Matching**: Terms with 10+ characters allow configurable character differences (default: 2, e.g., "SpecalResource" matches "SpecialResource")
 3. **Hint Generation**: When a term has no translation for target language, provides reference from first available language in priority order
 4. **Skip Hints Flag**: Prevent hints for specific terms (e.g., proper names that shouldn't show alternatives)
 5. **Language Priority**: Hints show only the first available language from config order (e.g., if zhCN available, won't show zhTW)
+6. **Configurable Fuzzy Tolerance**: Each term can have its own fuzzy matching tolerance
 
 **Mod-Local Glossary:**
 - Individual mods can define their own glossary terms in a `[_meta]` section
@@ -102,6 +93,11 @@ zhTW = "自訂術語"
 [_meta.glossary."ProperName"]
 skip_hints = true
 translations = { zhCN = "专有名称" }
+
+# Advanced: Custom fuzzy tolerance
+[_meta.glossary."LongTermWithTypos"]
+fuzzy_tolerance = 3  # Allow up to 3 character differences
+zhCN = "容易拼错的长术语"
 
 ["ModEntry.Key"]
 raw = "Some text with CustomTerm"

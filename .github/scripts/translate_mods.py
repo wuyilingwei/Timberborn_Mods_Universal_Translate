@@ -178,7 +178,7 @@ def generate_glossary_hints(
     target_language: str,
     glossary: Dict[str, Dict[str, str]],
     language_priority: List[str],
-    fuzzy_tolerance: int = 2
+    default_fuzzy_tolerance: int = 2
 ) -> Tuple[str, List[str]]:
     """
     Apply glossary replacements and generate hints for missing translations
@@ -188,7 +188,7 @@ def generate_glossary_hints(
         target_language: Target language code
         glossary: Glossary dictionary with English keys and translations
         language_priority: Ordered list of languages (only show first available)
-        fuzzy_tolerance: Tolerance for fuzzy matching (default: 2 characters)
+        default_fuzzy_tolerance: Default tolerance for fuzzy matching (default: 2 characters)
         
     Returns:
         Tuple of (preprocessed_text, list of glossary hints)
@@ -208,6 +208,7 @@ def generate_glossary_hints(
         
         # Skip if this is a dictionary with special flags
         skip_hints = False
+        fuzzy_tolerance = default_fuzzy_tolerance
         translations = {}
         
         # Check if term_data has special structure with 'translations' key
@@ -215,6 +216,11 @@ def generate_glossary_hints(
             if 'skip_hints' in term_data:
                 skip_hints = term_data.get('skip_hints', False)
                 translations = term_data.get('translations', {})
+            elif 'fuzzy_tolerance' in term_data:
+                # Has custom fuzzy_tolerance
+                fuzzy_tolerance = term_data.get('fuzzy_tolerance', default_fuzzy_tolerance)
+                # Remove special keys to get translations
+                translations = {k: v for k, v in term_data.items() if k not in ['skip_hints', 'fuzzy_tolerance']}
             else:
                 # Regular format: term_data is the translations dict
                 translations = term_data
