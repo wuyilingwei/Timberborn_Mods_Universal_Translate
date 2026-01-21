@@ -43,7 +43,7 @@ def test_prompt_building():
         target_language="jaJP",
         raw="An old building description",
         current_translation="古い建物の説明",
-        field_prompt="These are building descriptions",
+        prompt="These are building descriptions",  # Changed from field_prompt to prompt
         specific_prompt="Keep translation formal"
     )
     print(f"System: {sys_prompt}")
@@ -58,7 +58,7 @@ def test_prompt_building():
         mod_name="New Mod",
         target_language="frFR",
         raw="Basic Feature",
-        field_prompt="UI elements"
+        prompt="UI elements"  # Changed from field_prompt to prompt
     )
     print(f"System: {sys_prompt}")
     print(f"User: {user_prompt}")

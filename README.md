@@ -67,17 +67,18 @@ The translation system supports both global and mod-local glossaries for consist
 **Global Glossary (`glossary.toml`):**
 - Provides direct mappings for common game-specific vocabulary like "Timberborn", "Beaver", "District", etc.
 - Applied to all mods during translation
-- Terms are replaced after LLM translation when processing "new" fields
+- Terms are replaced in the source text BEFORE LLM translation (preprocessing)
+- Replacements are done from longest to shortest to avoid partial replacements
 
 **Mod-Local Glossary:**
-- Individual mods can define their own glossary terms in a `[mod_local]` section
+- Individual mods can define their own glossary terms in a `[_meta]` section
 - Local glossary terms override global glossary (when there's a conflict)
 - Supports partial language definitions (you don't need to define all languages)
 
 **Example mod TOML structure with local glossary:**
 ```toml
 name = "My Mod"
-field_prompt = "Optional extra hints"
+prompt = "Optional extra hints"  # No field_ prefix
 
 # Metadata section for mod-specific configuration
 [_meta]

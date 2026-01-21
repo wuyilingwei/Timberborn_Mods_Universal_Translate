@@ -168,7 +168,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                 available_languages = set()
                 for key, translations in data.items():
                     # Skip metadata sections
-                    if key in ["name", "field_prompt", "_meta"]:
+                    if key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
                         continue
                     if isinstance(translations, dict):
                         for lang_code in translations.keys():
@@ -197,7 +197,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                         # 遍历所有翻译条目
                         for translation_key, translations in data.items():
                             # Skip metadata sections
-                            if translation_key in ["name", "field_prompt", "_meta"]:
+                            if translation_key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
                                 continue
                             if isinstance(translations, dict) and lang_code in translations:
                                 translation_text = translations[lang_code]

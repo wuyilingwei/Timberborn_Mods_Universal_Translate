@@ -130,12 +130,42 @@ def merge_glossaries(global_glossary: Dict[str, Dict[str, str]],
     return merged
 
 
-def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
+def apply_glossary_to_source(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
     """
-    Apply glossary replacements to text for a specific language
+    Apply glossary replacements to source text before translation
+    Replaces English glossary terms with their target language translations
+    Terms are replaced from longest to shortest to avoid partial replacements
     
     Args:
-        text: Text to process
+        text: Source text to process (in English)
+        target_language: Target language code for glossary lookup
+        glossary: Glossary dictionary with English keys and language translations
+        
+    Returns:
+        Text with English glossary terms replaced with target language translations
+    """
+    if not glossary or not text:
+        return text
+    
+    # Sort terms by length (longest first) to avoid partial replacements
+    sorted_terms = sorted(glossary.keys(), key=len, reverse=True)
+    
+    result = text
+    for term in sorted_terms:
+        translations = glossary.get(term, {})
+        if target_language in translations:
+            # Replace English term with target language translation
+            result = result.replace(term, translations[target_language])
+    
+    return result
+
+
+def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
+    """
+    Apply glossary replacements to translated text for a specific language
+    
+    Args:
+        text: Text to process (translated text)
         target_language: Target language code
         glossary: Glossary dictionary (can be merged global+local)
         
@@ -145,8 +175,12 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     if not glossary or not text:
         return text
     
+    # Sort terms by length (longest first) to avoid partial replacements
+    sorted_terms = sorted(glossary.keys(), key=len, reverse=True)
+    
     result = text
-    for term, translations in glossary.items():
+    for term in sorted_terms:
+        translations = glossary[term]
         if target_language in translations:
             # Replace term with translation (case-sensitive)
             result = result.replace(term, translations[target_language])
@@ -161,7 +195,7 @@ def build_translation_prompt(
     target_language: str,
     raw: Optional[str] = None,
     current_translation: Optional[str] = None,
-    field_prompt: Optional[str] = None,
+    prompt: Optional[str] = None,
     specific_prompt: Optional[str] = None
 ) -> Tuple[str, str]:
     """
@@ -189,8 +223,8 @@ def build_translation_prompt(
     if current_translation:
         prompt_parts.append(f'Current Translation: "{current_translation}"')
     
-    if field_prompt:
-        prompt_parts.append(f'Field Hint: {field_prompt}')
+    if prompt:
+        prompt_parts.append(f'Field Hint: {prompt}')
     
     if specific_prompt:
         prompt_parts.append(f'Specific Note: {specific_prompt}')
@@ -234,14 +268,15 @@ def translate_entry(
     entry: Dict,
     target_lang: str,
     mod_name: str,
-    field_prompt: Optional[str] = None,
+    prompt: Optional[str] = None,
     glossary: Optional[Dict[str, Dict[str, str]]] = None
 ) -> Optional[str]:
     """
     Translate a single entry for a specific language
     
     Args:
-        glossary: Optional merged glossary (global + local) to apply after translation
+        prompt: Optional prompt hint for translation context
+        glossary: Optional merged glossary (global + local) to apply before translation
     
     Returns:
         Translated text or None if translation not needed/failed
@@ -269,6 +304,13 @@ def translate_entry(
             logger.warning(f"Entry {key} has no 'raw' or 'new' field to translate from")
             return None
     
+    # Apply glossary to source text BEFORE translation (if translating a "new" field)
+    preprocessed_text = text_to_translate
+    if has_new_field and glossary:
+        preprocessed_text = apply_glossary_to_source(text_to_translate, target_lang, glossary)
+        if preprocessed_text != text_to_translate:
+            logger.debug(f"Glossary preprocessing for {target_lang}: '{text_to_translate}' -> '{preprocessed_text}'")
+    
     # Get context information
     raw = entry.get("raw")
     current_translation = entry.get(target_lang)
@@ -277,19 +319,19 @@ def translate_entry(
     # Build prompts
     system_prompt, user_prompt = build_translation_prompt(
         key=key,
-        new_text=text_to_translate,
+        new_text=preprocessed_text,  # Use preprocessed text with glossary applied
         mod_name=mod_name,
         target_language=target_lang,
         raw=raw if has_new_field and raw != text_to_translate else None,  # Only show old text if different from new
         current_translation=current_translation,
-        field_prompt=field_prompt,
+        prompt=prompt,
         specific_prompt=specific_prompt
     )
     
-    # Translate
+    # Translate with preprocessed text
     logger.info(f"Translating {key} to {target_lang}")
     translation = translator.translate(
-        text=text_to_translate,
+        text=preprocessed_text,  # Send preprocessed text to LLM
         target_language=target_lang,
         system_prompt=system_prompt,
         user_prompt=user_prompt
@@ -299,10 +341,6 @@ def translate_entry(
     if translation:
         reference_text = raw if raw else text_to_translate
         translation = strip_extra_quotes(translation, reference_text)
-        
-        # Apply glossary replacements if provided and translating a "new" field
-        if has_new_field and glossary:
-            translation = apply_glossary(translation, target_lang, glossary)
     
     return translation
 
@@ -333,7 +371,7 @@ def process_toml_file(
     
     # Extract mod metadata
     mod_name = data.get("name", filename.replace('.toml', ''))
-    field_prompt = data.get("field_prompt")
+    prompt = data.get("prompt")  # Changed from field_prompt to prompt
     
     # Extract mod-local glossary from _meta section
     meta_section = data.get("_meta", {})
@@ -351,7 +389,7 @@ def process_toml_file(
     # Process each entry
     for key, entry in data.items():
         # Skip metadata sections
-        if key in ["name", "field_prompt", "_meta"]:
+        if key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
             continue
         
         if not isinstance(entry, dict):
@@ -393,7 +431,7 @@ def process_toml_file(
                     entry=entry,
                     target_lang=lang,
                     mod_name=mod_name,
-                    field_prompt=field_prompt,
+                    prompt=prompt,  # Changed from field_prompt to prompt
                     glossary=merged_glossary
                 ): lang
                 for lang in languages_to_translate

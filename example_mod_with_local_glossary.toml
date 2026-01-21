@@ -2,7 +2,7 @@
 # This file shows how to use both global and local glossaries
 
 name = "Example Mod"
-field_prompt = "Game UI elements"
+prompt = "Game UI elements"  # Changed from field_prompt to prompt
 
 # Metadata section - uses underscore prefix to avoid conflicts with translation keys
 [_meta]
@@ -42,5 +42,5 @@ koKR = "사용자 지정 건물"
 raw = "SpecialResource"
 status = "normal"
 enUS = "SpecialResource"
-# When "new" field is added, glossary will be applied
+# When "new" field is added, glossary will be applied BEFORE translation
 # new = "Updated SpecialResource"
