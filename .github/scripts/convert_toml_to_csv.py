@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: (ALE-1.1 AND GPL-3.0-only)
+# Copyright (c) 2022-2025 wuyilingwei
+#
+# This file is licensed under the ANTI-LABOR EXPLOITATION LICENSE 1.1
+# in combination with GNU General Public License v3.0.
+# See .github/LICENSE for full license text.
 
 import os
 import re

@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: (ALE-1.1 AND GPL-3.0-only)
+# Copyright (c) 2022-2025 wuyilingwei
+#
+# This file is licensed under the ANTI-LABOR EXPLOITATION LICENSE 1.1
+# in combination with GNU General Public License v3.0.
+# See .github/LICENSE for full license text.
 """
 Automated translation script for Timberborn mods
 This script processes TOML files and translates missing language entries using LLM
@@ -22,6 +28,9 @@ from translator import TranslatorLLM
 
 # Global variable to store language names loaded from config
 LANGUAGE_NAMES = {}
+
+# Global variable to store glossary
+GLOSSARY = {}
 
 
 def load_language_names_from_config(config: Dict) -> Dict[str, str]:
@@ -60,6 +69,57 @@ def load_target_languages(config: Dict) -> List[str]:
     
     logging.info(f"Target languages: {', '.join(languages)}")
     return languages
+
+
+def load_glossary(glossary_path: str) -> Dict[str, Dict[str, str]]:
+    """
+    Load glossary from TOML file
+    
+    Args:
+        glossary_path: Path to glossary.toml file
+        
+    Returns:
+        Dictionary mapping terms to their translations in different languages
+        Format: {"Term": {"zhCN": "翻译", "zhTW": "翻譯", ...}}
+    """
+    logger = logging.getLogger("load_glossary")
+    
+    if not os.path.exists(glossary_path):
+        logger.warning(f"Glossary file not found: {glossary_path}")
+        return {}
+    
+    try:
+        with open(glossary_path, 'r', encoding='utf-8') as f:
+            glossary = toml.load(f)
+        logger.info(f"Loaded glossary with {len(glossary)} terms")
+        return glossary
+    except Exception as e:
+        logger.error(f"Failed to load glossary: {e}")
+        return {}
+
+
+def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
+    """
+    Apply glossary replacements to text for a specific language
+    
+    Args:
+        text: Text to process
+        target_language: Target language code
+        glossary: Glossary dictionary
+        
+    Returns:
+        Text with glossary terms replaced
+    """
+    if not glossary or not text:
+        return text
+    
+    result = text
+    for term, translations in glossary.items():
+        if target_language in translations:
+            # Replace term with translation (case-sensitive)
+            result = result.replace(term, translations[target_language])
+    
+    return result
 
 
 def build_translation_prompt(
@@ -203,6 +263,10 @@ def translate_entry(
     if translation:
         reference_text = raw if raw else text_to_translate
         translation = strip_extra_quotes(translation, reference_text)
+        
+        # Apply glossary replacements if translating a "new" field
+        if has_new_field and GLOSSARY:
+            translation = apply_glossary(translation, target_lang, GLOSSARY)
     
     return translation
 
@@ -265,26 +329,40 @@ def process_toml_file(
             # Only translate missing languages
             languages_to_translate = missing_languages
         
-        # Translate for each target language
+        # Translate for each target language in parallel
         all_translations_successful = True
         new_translations = {}
         
-        for lang in languages_to_translate:
-            translation = translate_entry(
-                translator=translator,
-                key=key,
-                entry=entry,
-                target_lang=lang,
-                mod_name=mod_name,
-                field_prompt=field_prompt
-            )
+        # Use ThreadPoolExecutor to parallelize translation by language
+        with ThreadPoolExecutor(max_workers=min(len(languages_to_translate), 10)) as executor:
+            # Submit translation tasks for all languages
+            future_to_lang = {
+                executor.submit(
+                    translate_entry,
+                    translator=translator,
+                    key=key,
+                    entry=entry,
+                    target_lang=lang,
+                    mod_name=mod_name,
+                    field_prompt=field_prompt
+                ): lang
+                for lang in languages_to_translate
+            }
             
-            if translation:
-                new_translations[lang] = translation
-                translations_made += 1
-            else:
-                logger.warning(f"Failed to translate {key} to {lang}")
-                all_translations_successful = False
+            # Collect results as they complete
+            for future in as_completed(future_to_lang):
+                lang = future_to_lang[future]
+                try:
+                    translation = future.result()
+                    if translation:
+                        new_translations[lang] = translation
+                        translations_made += 1
+                    else:
+                        logger.warning(f"Failed to translate {key} to {lang}")
+                        all_translations_successful = False
+                except Exception as e:
+                    logger.error(f"Error translating {key} to {lang}: {e}")
+                    all_translations_successful = False
         
         # Update entry if translations were successful
         if new_translations and not dry_run:
@@ -326,11 +404,17 @@ def process_all_files(
     """
     Process all TOML files in the data directory
     
+    Note: With the optimized multi-threading structure, translations within each mod
+    are parallelized by language. The max_threads parameter controls whether files
+    themselves are also processed in parallel (max_threads > 1) or sequentially 
+    (max_threads = 1). For best single-mod performance, use max_threads = 1 which
+    allows maximum parallelization of languages within the mod.
+    
     Args:
         data_dir: Directory containing TOML files
         translator: Translator instance
         target_languages: List of target language codes
-        max_threads: Maximum number of concurrent threads
+        max_threads: Maximum number of concurrent file processing threads
         dry_run: If True, don't write changes
         max_time: Maximum processing time in seconds. If set, stops taking new entries when time is up.
     """
@@ -451,6 +535,11 @@ def main():
         type=int,
         help="Maximum processing time in seconds. Script will stop taking new entries when time is up."
     )
+    parser.add_argument(
+        "--glossary",
+        default="glossary.toml",
+        help="Path to glossary file (default: glossary.toml)"
+    )
     
     args = parser.parse_args()
     
@@ -461,6 +550,11 @@ def main():
         # Load language names from config
         global LANGUAGE_NAMES
         LANGUAGE_NAMES = load_language_names_from_config(config)
+        
+        # Load glossary
+        global GLOSSARY
+        glossary_path = args.glossary
+        GLOSSARY = load_glossary(glossary_path)
         
         # Setup logging with config-based or command-line level
         log_config = config.get("logging", {})
