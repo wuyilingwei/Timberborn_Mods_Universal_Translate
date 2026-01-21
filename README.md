@@ -62,14 +62,44 @@ The content that is not accepted for translation is:
 
 ### Glossary Support
 
-The translation system now supports a glossary file (`glossary.toml`) for consistent translation of key terms. The glossary provides direct mappings for game-specific vocabulary like "Timberborn", "Beaver", "District", etc.
+The translation system supports both global and mod-local glossaries for consistent translation of key terms.
 
-**How it works:**
-- The glossary is automatically loaded and applied during translation
-- Terms in the glossary are replaced in translations when a "new" field is being processed
-- You can add more terms to `glossary.toml` following the existing format
+**Global Glossary (`glossary.toml`):**
+- Provides direct mappings for common game-specific vocabulary like "Timberborn", "Beaver", "District", etc.
+- Applied to all mods during translation
+- Terms are replaced after LLM translation when processing "new" fields
 
-**Example glossary entry:**
+**Mod-Local Glossary:**
+- Individual mods can define their own glossary terms in a `[mod_local]` section
+- Local glossary terms override global glossary (when there's a conflict)
+- Supports partial language definitions (you don't need to define all languages)
+
+**Example mod TOML structure with local glossary:**
+```toml
+name = "My Mod"
+field_prompt = "Optional extra hints"
+
+# Metadata section for mod-specific configuration
+[_meta]
+# Optional: Override mod name if needed
+# name = "Different Display Name"
+
+# Optional: Additional prompts (not used by translation script)
+# prompt = "Extra translation hints"
+
+# Mod-local glossary - overrides global glossary terms
+[_meta.glossary."CustomTerm"]
+zhCN = "自定义术语"
+zhTW = "自訂術語"
+# Only define the languages you need
+
+["ModEntry.Key"]
+raw = "Some text with CustomTerm"
+status = "normal"
+# ... translations
+```
+
+**Global glossary entry example:**
 ```toml
 ["Timberborn"]
 zhCN = "海狸浮生记"

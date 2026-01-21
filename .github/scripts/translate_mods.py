@@ -98,6 +98,38 @@ def load_glossary(glossary_path: str) -> Dict[str, Dict[str, str]]:
         return {}
 
 
+def merge_glossaries(global_glossary: Dict[str, Dict[str, str]], 
+                     local_glossary: Dict[str, Dict[str, str]]) -> Dict[str, Dict[str, str]]:
+    """
+    Merge global and local glossaries, with local taking priority
+    
+    Args:
+        global_glossary: Global glossary dictionary
+        local_glossary: Local (mod-specific) glossary dictionary
+        
+    Returns:
+        Merged glossary with local terms overriding global terms
+    """
+    if not global_glossary:
+        return local_glossary or {}
+    if not local_glossary:
+        return global_glossary
+    
+    # Start with a copy of global glossary
+    merged = dict(global_glossary)
+    
+    # Override with local glossary terms
+    for term, translations in local_glossary.items():
+        if term in merged:
+            # Merge translations for existing term (local overrides global per language)
+            merged[term] = {**merged[term], **translations}
+        else:
+            # Add new term from local glossary
+            merged[term] = translations
+    
+    return merged
+
+
 def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str, str]]) -> str:
     """
     Apply glossary replacements to text for a specific language
@@ -105,7 +137,7 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     Args:
         text: Text to process
         target_language: Target language code
-        glossary: Glossary dictionary
+        glossary: Glossary dictionary (can be merged global+local)
         
     Returns:
         Text with glossary terms replaced
@@ -202,10 +234,14 @@ def translate_entry(
     entry: Dict,
     target_lang: str,
     mod_name: str,
-    field_prompt: Optional[str] = None
+    field_prompt: Optional[str] = None,
+    glossary: Optional[Dict[str, Dict[str, str]]] = None
 ) -> Optional[str]:
     """
     Translate a single entry for a specific language
+    
+    Args:
+        glossary: Optional merged glossary (global + local) to apply after translation
     
     Returns:
         Translated text or None if translation not needed/failed
@@ -264,9 +300,9 @@ def translate_entry(
         reference_text = raw if raw else text_to_translate
         translation = strip_extra_quotes(translation, reference_text)
         
-        # Apply glossary replacements if translating a "new" field
-        if has_new_field and GLOSSARY:
-            translation = apply_glossary(translation, target_lang, GLOSSARY)
+        # Apply glossary replacements if provided and translating a "new" field
+        if has_new_field and glossary:
+            translation = apply_glossary(translation, target_lang, glossary)
     
     return translation
 
@@ -299,12 +335,25 @@ def process_toml_file(
     mod_name = data.get("name", filename.replace('.toml', ''))
     field_prompt = data.get("field_prompt")
     
+    # Extract mod-local glossary from _meta section
+    meta_section = data.get("_meta", {})
+    local_glossary = meta_section.get("glossary", {})
+    
+    # Merge global and local glossaries (local takes priority)
+    merged_glossary = merge_glossaries(GLOSSARY, local_glossary)
+    if local_glossary:
+        logger.info(f"Using {len(local_glossary)} local glossary terms for {filename}")
+    
     translations_made = 0
     entries_processed = 0
     modified = False
     
     # Process each entry
     for key, entry in data.items():
+        # Skip metadata sections
+        if key in ["name", "field_prompt", "_meta"]:
+            continue
+        
         if not isinstance(entry, dict):
             continue
         
@@ -344,7 +393,8 @@ def process_toml_file(
                     entry=entry,
                     target_lang=lang,
                     mod_name=mod_name,
-                    field_prompt=field_prompt
+                    field_prompt=field_prompt,
+                    glossary=merged_glossary
                 ): lang
                 for lang in languages_to_translate
             }
