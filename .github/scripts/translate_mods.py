@@ -534,10 +534,10 @@ def process_toml_file(
         logger.error(f"Failed to load {filename}: {e}")
         return 0, 0
     
-    # Extract mod metadata from _meta section (new structure) or top-level (legacy)
+    # Extract mod metadata from _meta section (always required now)
     meta_section = data.get("_meta", {})
-    mod_name = meta_section.get("name") or data.get("name", filename.replace('.toml', ''))
-    prompt = meta_section.get("prompt") or data.get("prompt")
+    mod_name = meta_section.get("name", filename.replace('.toml', ''))
+    prompt = meta_section.get("prompt")
     
     # Extract mod-local glossary from _meta section
     local_glossary = meta_section.get("glossary", {})

@@ -1,3 +1,6 @@
+[_meta]
+name = "Configurable Lifetime"
+
 ["LV.CLt.BeaverLifeMul"]
 raw = "Beaver Aging Multiplier"
 status = "normal"
@@ -81,6 +84,3 @@ deDE = "Die Verschlechterung der Bots wird mit diesem Wert multipliziert, ähnli
 plPL = "Degradacja botów jest mnożona przez tę wartość, podobnie jak bonus do \"oczekiwanej długości życia\". \nUwaga: wyższa wartość oznacza większą trudność, ponieważ boty będą się degradować szybciej. \nUstawienie na 0 oznacza, że boty nigdy się nie zepsują."
 ptBR = "A deterioração dos robôs é multiplicada por este valor, semelhante a um bônus de \"Expectativa de vida\".  \nNota: quanto maior, mais difícil, pois os robôs irão se deteriorar mais rapidamente.  \nDefinir para 0 significa que os robôs nunca se deteriorarão."
 koKR = "봇의 소멸 속도가 이 값에 의해 곱해지며, 이는 '기대 수명' 보너스와 유사합니다.  \n참고: 값이 높을수록 어려워지며, 봇이 더 빨리 소멸합니다.  \n0으로 설정하면 봇은 절대 소멸하지 않습니다."
-
-[_meta]
-name = "Configurable Lifetime"
