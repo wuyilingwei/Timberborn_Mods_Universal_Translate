@@ -6,13 +6,12 @@
 
 #### Full Support:
 
- - [Download From Github Release](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases/latest)
-
- - [Subscribe On Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
+- [Download From Github Release](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases/latest)
+- [Subscribe On Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947)
 
 #### Other distribution:
 
- - [Download From Mod.io](https://mod.io/g/timberborn/m/mods-universal-translate)
+- [Download From Mod.io](https://mod.io/g/timberborn/m/mods-universal-translate)
 
 ## Join us
 
@@ -48,10 +47,8 @@ Want to contribute? See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on h
 - [Contributing Guide](docs/CONTRIBUTING.md) - How to join and contribution rules
 - [Data Structure](docs/DATA_STRUCTURE.md) - TOML file structure and translation workflow
 
-## Translation Features
+### License
 
-See [docs/DATA_STRUCTURE.md](docs/DATA_STRUCTURE.md) for detailed information about the translation system features and glossary support.
+Data files in the `data` directory are licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International License](/License.txt)
 
-### Licensing
-
-Scripts and build files in the `.github` directory are licensed under the [ANTI-LABOR EXPLOITATION LICENSE 1.1 in combination with GNU General Public License v3.0](/.github/LICENSE). This ensures ethical use and protection of contributors' rights.
+Scripts and build files in the `.github` directory are licensed under the [ANTI-LABOR EXPLOITATION LICENSE 1.1 in combination with GNU General Public License v3.0](/.github/LICENSE).
