@@ -197,15 +197,25 @@ jobs:
           
           # Update manifest.json with new version using jq for safer JSON manipulation
           if [ -f "info/manifest.json" ]; then
-            # Use jq to safely update the Version field
-            TMP_FILE=$(mktemp)
-            if [ $? -eq 0 ]; then
-              mv "$TMP_FILE" info/manifest.json
-              echo "Updated manifest.json to version $NEW_VERSION"
+            # Ensure manifest.json is valid JSON before updating
+            if jq -e . info/manifest.json > /dev/null 2>&1; then
+              # Use jq to safely update the Version field without losing other content
+              TMP_FILE=$(mktemp)
+              if [ $? -eq 0 ]; then
+                if jq --arg ver "$NEW_VERSION" '.Version = $ver' info/manifest.json > "$TMP_FILE"; then
+                  mv "$TMP_FILE" info/manifest.json
+                  echo "Updated manifest.json to version $NEW_VERSION"
+                else
+                  echo "Error: jq failed to update manifest.json"
+                  rm -f "$TMP_FILE"
+                  exit 1
+                fi
+              else
+                echo "Error: Failed to create temporary file"
+                exit 1
+              fi
             else
-              echo "Error: Failed to update manifest.json"
-              rm -f "$TMP_FILE"
-              exit 1
+              echo "Warning: info/manifest.json is invalid or empty JSON; skipping version update to avoid data loss"
             fi
           fi
 
