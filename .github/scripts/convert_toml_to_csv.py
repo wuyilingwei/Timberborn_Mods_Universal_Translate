@@ -204,7 +204,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                             # Skip protected fields
                             if translation_key in protected_fields:
                                 protected_entries_count += 1
-                                logger.info(f"Skipped protected field '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                logger.warning(f"Skipped protected field '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 continue
                             
                             if isinstance(translations, dict) and lang_code in translations:
