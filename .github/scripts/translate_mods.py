@@ -503,8 +503,15 @@ def translate_entry(
         user_prompt=user_prompt
     )
     
-    # Strip extra quotes if present and not in original
-    if translation:
+    # Validate translation result
+    # Empty translation is only valid if the original raw text is also empty
+    if translation is not None:
+        if not translation and raw and raw.strip():
+            # Translation is empty but original text is not - invalid result
+            logger.warning(f"Translation returned empty for non-empty original text in {key}")
+            return None
+        
+        # Strip extra quotes if present and not in original
         reference_text = raw if raw else text_to_translate
         translation = strip_extra_quotes(translation, reference_text)
     
@@ -609,7 +616,8 @@ def process_toml_file(
                 lang = future_to_lang[future]
                 try:
                     translation = future.result()
-                    if translation:
+                    # Accept translation if it's not None (empty string is valid if raw is also empty)
+                    if translation is not None:
                         new_translations[lang] = translation
                         translations_made += 1
                     else:
