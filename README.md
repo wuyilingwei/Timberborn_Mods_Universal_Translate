@@ -41,19 +41,17 @@ Become a legend.
 BECOME A TRANSLATOR.
 ```
 
-First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
+Want to contribute? See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on how to join and our translation rules.
 
-You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+## Documentation
 
-An automatic script will create the latest language CSV files based on `/data`, publish every day.
+- [Contributing Guide](docs/CONTRIBUTING.md) - How to join and contribution rules
+- [Data Structure](docs/DATA_STRUCTURE.md) - TOML file structure and translation workflow
 
-## Our rules
+## Translation Features
 
-It uses both of AI and manual work, with AI responsible for providing translation support as quickly as possible and reducing workload, and manual work for proofreading and modification.
+See [docs/DATA_STRUCTURE.md](docs/DATA_STRUCTURE.md) for detailed information about the translation system features and glossary support.
 
-We are not responsible for the accuracy of the translated text.
+### Licensing
 
-The content that is not accepted for translation is:
-
- - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified.
- - Any content that violates public order and morals will not be translated to avoid potential problems. This includes but is not limited to: racial discrimination, adult content, etc.
+Scripts and build files in the `.github` directory are licensed under the [ANTI-LABOR EXPLOITATION LICENSE 1.1 in combination with GNU General Public License v3.0](/.github/LICENSE). This ensures ethical use and protection of contributors' rights.

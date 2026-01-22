@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: (ALE-1.1 AND GPL-3.0-only)
+# Copyright (c) 2022-2025 wuyilingwei
+#
+# This file is licensed under the ANTI-LABOR EXPLOITATION LICENSE 1.1
+# in combination with GNU General Public License v3.0.
+# See .github/LICENSE for full license text.
 
 import os
 import re
@@ -161,6 +167,9 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                 # 使用配置中的支持语言列表，并检查TOML中哪些语言有翻译
                 available_languages = set()
                 for key, translations in data.items():
+                    # Skip metadata sections
+                    if key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
+                        continue
                     if isinstance(translations, dict):
                         for lang_code in translations.keys():
                             if lang_code in supported_languages:
@@ -187,6 +196,9 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                         
                         # 遍历所有翻译条目
                         for translation_key, translations in data.items():
+                            # Skip metadata sections
+                            if translation_key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
+                                continue
                             if isinstance(translations, dict) and lang_code in translations:
                                 translation_text = translations[lang_code]
                                 # 检查空字符串并输出警告

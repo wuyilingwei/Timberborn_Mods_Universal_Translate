@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# SPDX-License-Identifier: (ALE-1.1 AND GPL-3.0-only)
+# Copyright (c) 2022-2025 wuyilingwei
+#
+# This file is licensed under the ANTI-LABOR EXPLOITATION LICENSE 1.1
+# in combination with GNU General Public License v3.0.
+# See .github/LICENSE for full license text.
 """
 Test script for translation prompt building
 """
@@ -37,7 +43,7 @@ def test_prompt_building():
         target_language="jaJP",
         raw="An old building description",
         current_translation="古い建物の説明",
-        field_prompt="These are building descriptions",
+        prompt="These are building descriptions",  # Changed from field_prompt to prompt
         specific_prompt="Keep translation formal"
     )
     print(f"System: {sys_prompt}")
@@ -52,7 +58,7 @@ def test_prompt_building():
         mod_name="New Mod",
         target_language="frFR",
         raw="Basic Feature",
-        field_prompt="UI elements"
+        prompt="UI elements"  # Changed from field_prompt to prompt
     )
     print(f"System: {sys_prompt}")
     print(f"User: {user_prompt}")

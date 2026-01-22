@@ -1,0 +1,57 @@
+# Global Glossary for key vocabulary terms
+# This file provides direct translations for commonly used game-specific terms
+# Format: ["term_in_english"]
+#         language_code = "translated_term"
+#
+# Advanced features:
+# - Partial language definitions: Only define languages you need
+# - Fuzzy matching: For terms with 10+ characters, allows character differences (configurable)
+# - skip_hints flag: Prevent hints for specific terms (e.g., proper names)
+# - fuzzy_tolerance: Number of character differences allowed (default: 2)
+# - Language priority: Hints show only the first available language from config order
+#
+# Example with skip_hints (for proper names that shouldn't show hints):
+# ["ProperName"]
+# skip_hints = true
+# translations = { zhCN = "专有名称", zhTW = "專有名稱" }
+#
+# Example with custom fuzzy_tolerance:
+# ["LongTermName"]
+# fuzzy_tolerance = 3
+# zhCN = "长期名称"
+#
+# Note: Individual mods can override these with mod-local glossaries.
+# See README for details on mod-local glossary structure.
+
+["Timberborn"]
+zhCN = "海狸浮生记"
+zhTW = "海狸浮生記"
+ruRU = "Timberborn"
+jaJP = "ティンバーボーン"
+frFR = "Timberborn"
+deDE = "Timberborn"
+plPL = "Timberborn"
+ptBR = "Timberborn"
+koKR = "팀버본"
+
+["Beaver"]
+zhCN = "海狸"
+zhTW = "海狸"
+ruRU = "Бобёр"
+jaJP = "ビーバー"
+frFR = "Castor"
+deDE = "Biber"
+plPL = "Bóbr"
+ptBR = "Castor"
+koKR = "비버"
+
+["District"]
+zhCN = "区域"
+zhTW = "區域"
+ruRU = "Район"
+jaJP = "地区"
+frFR = "District"
+deDE = "Bezirk"
+plPL = "Dzielnica"
+ptBR = "Distrito"
+koKR = "지구"
