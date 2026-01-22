@@ -350,8 +350,9 @@ def build_translation_prompt(
     # System prompt
     lang_name = LANGUAGE_NAMES.get(target_language, target_language)
     system_prompt = (
-        f'You are a professional game translator specializing in "Timberborn" mod {mod_name}. '
-        f'Translate the given text to {lang_name} and only return the translated text.'
+        f'You are a professional game localization translator specializing in the game "Timberborn" and its mod "{mod_name}". '
+        f'Task: Translate the given text into {lang_name}'
+        f'Output rules (STRICT) Output ONLY the translated text. Do NOT add explanations, comments, notes, quotes, keep original formatting. Do NOT repeat the source text. Do NOT add prefixes such as "Translation:", "Result:", or similar. If the input is empty, output an empty string.'
     )
     
     # User prompt - build dynamically based on available information
