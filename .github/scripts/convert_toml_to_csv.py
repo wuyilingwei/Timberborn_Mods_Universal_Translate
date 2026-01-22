@@ -189,6 +189,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                     csv_path = os.path.join(output_dir, csv_file_name)
                     
                     empty_entries_count = 0
+                    protected_entries_count = 0
                     
                     with open(csv_path, "w", encoding="utf-8", newline="") as csv_file:
                         writer = csv.writer(csv_file)
@@ -199,6 +200,13 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                             # Skip metadata sections
                             if translation_key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
                                 continue
+                            
+                            # Skip protected fields
+                            if translation_key in protected_fields:
+                                protected_entries_count += 1
+                                logger.info(f"Skipped protected field '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                continue
+                            
                             if isinstance(translations, dict) and lang_code in translations:
                                 translation_text = translations[lang_code]
                                 # 检查空字符串并输出警告
@@ -216,6 +224,9 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                     
                     if empty_entries_count > 0:
                         logger.info(f"Skipped {empty_entries_count} empty entries for {lang_code} in {file_name}")
+                    
+                    if protected_entries_count > 0:
+                        logger.info(f"Skipped {protected_entries_count} protected fields for {lang_code} in {file_name}")
                     
                     generated_files.append((csv_file_name, csv_path))
                         
