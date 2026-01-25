@@ -22,7 +22,7 @@ Our part of life.
 But what if the text doesn't speak your language?
 No...I can't understand...
 
-*UNKNOWN LANGUAGES*
+*あ你ЖشཀAλΩאकßπaم𐎀ꙮ々ܐगΔに𐌰شགאΩ々*
 
 Look Familiar?
 Scenes like these are happening all over the internet, right now!
