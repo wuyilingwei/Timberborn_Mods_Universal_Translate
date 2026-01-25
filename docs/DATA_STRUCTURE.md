@@ -66,7 +66,7 @@ Each translation entry uses a key in the format `["Category.Item.Field"]`:
 - **raw**: Original English text from the mod
 - **status**: Translation status
   - `normal`: Active translation
-  - `old`: Deprecated translation
+  - `old`: The mod retains this key value in older versions.
   - `abandon`: Abandoned/unused
 - **new**: Updated text that triggers retranslation (removed after translation completes)
 - **prompt**: Entry-specific translation hints
