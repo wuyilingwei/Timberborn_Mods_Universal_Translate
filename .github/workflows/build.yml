@@ -99,8 +99,8 @@ jobs:
             CURRENT_MONTH=$(echo $CURRENT_VERSION | cut -d. -f2)
             CURRENT_DPATCH=$(echo $CURRENT_VERSION | cut -d. -f3)
             
-            # Extract day and patch from dpatch (format: dp or ddp where d/dd=day, p=patch 1-9)
-            # Since patch is always single digit (1-9), we take last character as patch
+            # Extract day and patch from dpatch (format: dp or ddp where d/dd=day, p=patch 0-9)
+            # Since patch is always single digit (0-9), we take last character as patch
             CURRENT_PATCH_NUM=${CURRENT_DPATCH: -1}
             CURRENT_DAY=${CURRENT_DPATCH%?}  # Remove last character to get day part
             
@@ -108,20 +108,20 @@ jobs:
             CURRENT_DAY=$((CURRENT_DAY))
             CURRENT_PATCH_NUM=$((CURRENT_PATCH_NUM))
             
-            # If year, month, or day changed, reset patch to 1, otherwise increment
+            # If year, month, or day changed, reset patch to 0, otherwise increment
             if [ "$YEAR" != "$CURRENT_YEAR" ] || [ "$MONTH" != "$CURRENT_MONTH" ] || [ "$DAY" != "$CURRENT_DAY" ]; then
-              PATCH_NUM=1
+              PATCH_NUM=0
             else
               PATCH_NUM=$((CURRENT_PATCH_NUM + 1))
-              # Ensure patch number stays within 1-9
+              # Ensure patch number stays within 0-9
               if [ $PATCH_NUM -gt 9 ]; then
-                echo "Warning: Daily patch limit (9) reached, resetting to 1"
-                PATCH_NUM=1
+                echo "Warning: Daily patch limit (9) reached, resetting to 9"
+                PATCH_NUM=9
               fi
             fi
           else
             # First version
-            PATCH_NUM=1
+            PATCH_NUM=0
           fi
           
           # Combine day (without leading zero) and patch number
