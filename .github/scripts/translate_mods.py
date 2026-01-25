@@ -436,7 +436,14 @@ def translate_entry(
     
     # Determine the text to translate
     has_new_field = "new" in entry
-    has_translation = target_lang in entry and entry.get(target_lang)
+    raw_text = entry.get("raw", "")
+    
+    # Check if translation exists for this language
+    # Empty string is valid translation if raw text is also empty
+    has_translation = target_lang in entry and (
+        entry.get(target_lang) or 
+        (entry.get(target_lang) == "" and raw_text.strip() == "")
+    )
     
     # Skip if translation exists and no update needed
     if not has_new_field and has_translation:
@@ -451,9 +458,12 @@ def translate_entry(
     else:
         # Missing translation case - use raw text
         text_to_translate = entry.get("raw")
-        if not text_to_translate:
+        if text_to_translate is None:
             logger.warning(f"Entry {key} has no 'raw' or 'new' field to translate from")
             return None
+        # If raw text is empty, return empty string (valid empty translation)
+        if not text_to_translate.strip():
+            return ""
     
     # Apply glossary to source text BEFORE translation with hints (if translating a "new" field)
     preprocessed_text = text_to_translate
@@ -570,9 +580,17 @@ def process_toml_file(
         
         # Check if this entry needs translation
         # 1. Has "new" field - needs retranslation
-        # 2. Missing translations for some languages
+        # 2. Missing translations for some languages (but not if raw text is empty)
         has_new_field = "new" in entry
-        missing_languages = [lang for lang in target_languages if lang not in entry or not entry.get(lang)]
+        raw_text = entry.get("raw", "")
+        
+        # Only consider a language missing if:
+        # - The language field doesn't exist or is empty/None
+        # - AND the raw text is not empty (empty raw text = valid empty translation)
+        missing_languages = [
+            lang for lang in target_languages 
+            if (lang not in entry or not entry.get(lang)) and raw_text and raw_text.strip()
+        ]
         
         if not has_new_field and not missing_languages:
             # Nothing to translate
