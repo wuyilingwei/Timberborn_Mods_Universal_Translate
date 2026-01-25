@@ -204,7 +204,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                             # Skip protected fields
                             if translation_key in protected_fields:
                                 protected_entries_count += 1
-                                logger.warning(f"Skipped protected field '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                logger.info(f"Skipped protected field '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 continue
                             
                             if isinstance(translations, dict) and lang_code in translations:
@@ -212,7 +212,7 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                                 # 检查空字符串并输出警告
                                 if not translation_text or not translation_text.strip():
                                     empty_entries_count += 1
-                                    logger.warning(f"Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
+                                    logger.info(f"Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 else:
                                     # 如果文本以空格开头，为其添加双引号以防止游戏忽略前导空格
                                     processed_text = translation_text
