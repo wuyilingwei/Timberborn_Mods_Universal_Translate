@@ -4,6 +4,8 @@
 
 Each mod's translations are stored in a TOML file with the following structure:
 
+If you don't know what a TOML file is, please take one minute to read this document: https://toml.io
+
 ### Basic Structure
 
 ```toml
@@ -63,7 +65,7 @@ zhCN = "高级术语"
 
 Each translation entry uses a key in the format `["Category.Item.Field"]`:
 
-- **raw**: Original English text from the mod
+- **raw**: Original text (Most of time, it's English) from the mod
 - **status**: Translation status
   - `normal`: Active translation
   - `old`: The mod retains this key value in older versions.
@@ -71,6 +73,8 @@ Each translation entry uses a key in the format `["Category.Item.Field"]`:
 - **new**: Updated text that triggers retranslation (removed after translation completes)
 - **prompt**: Entry-specific translation hints
 - **Language codes**: Translations for each supported language
+
+Hint: Most of time, you only need change prompt and translations.
 
 ### Supported Languages
 
