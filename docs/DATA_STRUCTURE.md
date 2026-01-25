@@ -145,3 +145,90 @@ The glossary system supports:
 - **Language priority**: Hints show only first available language
 
 See [README.md](../README.md) for more details on glossary features.
+
+
+## Global Glossary System
+
+The global glossary (`glossary.toml`) provides translations for commonly used game-specific terms that appear across multiple mods. This reduces translation workload and ensures consistency.
+
+### Key Features
+
+#### Case-Insensitive Matching
+
+The glossary system uses **case-insensitive matching**, meaning you only need to define one entry per term:
+
+```toml
+# This single entry matches all case variations:
+["tank"]
+zhCN = "水罐"
+zhTW = "水罐"
+
+# Matches: "tank", "Tank", "TANK", "tAnK", etc.
+```
+
+**Benefits:**
+- No need for duplicate entries like `["tank"]` and `["Tank"]
+- Simplified maintenance
+- Consistent translations across case variations
+
+#### Fuzzy Matching
+
+For terms with 10+ characters, the system allows character differences (default: 2 characters):
+
+```toml
+["Construction"]
+zhCN = "建设"
+# Also matches: "Consruction" (missing 't'), "Constructoin" (transposed 'io')
+
+# Custom tolerance
+["Infrastructure"]
+fuzzy_tolerance = 3
+zhCN = "基础设施"
+# Allows up to 3 character differences
+```
+
+#### Special Options
+
+```toml
+# Skip translation hints (for proper names)
+["Timberborn"]
+skip_hints = true
+zhCN = "海狸浮生记"
+zhTW = "海狸浮生記"
+
+# Custom fuzzy tolerance
+["VeryLongTermName"]
+fuzzy_tolerance = 4
+zhCN = "很长的术语名称"
+
+# New format with explicit structure (optional)
+["ModernTerm"]
+skip_hints = false
+fuzzy_tolerance = 2
+translations = { zhCN = "现代术语", zhTW = "現代術語" }
+```
+
+### Priority System
+
+1. **Mod-local glossary** (`[_meta.glossary]`) takes highest priority
+2. **Global glossary** (`glossary.toml`) provides fallback translations
+3. **Translation hints** show available alternatives when target language is missing
+
+### Usage Examples
+
+#### Before Translation (Source Text)
+```
+"The Tank needs maintenance"
+```
+
+#### After Glossary Processing
+```
+"The 水罐 needs maintenance"  # zhCN
+"The 水罐 needs maintenance"  # zhTW
+```
+
+#### Translation Hints
+When a glossary term exists but lacks the target language:
+```
+Term "pump" in zhCN: 水泵
+```

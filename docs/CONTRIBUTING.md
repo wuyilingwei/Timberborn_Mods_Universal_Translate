@@ -8,6 +8,31 @@ You can use any git software (such as [Github desktop](https://github.com/apps/d
 
 An automatic script will create the latest language CSV files based on `/data`, publish every day.
 
+## Contributing to Translations
+
+### Mod Translations
+Edit the appropriate TOML files in the `/data` directory. See [DATA_STRUCTURE.md](DATA_STRUCTURE.md) for detailed format documentation.
+
+### Global Glossary
+The global glossary (`glossary.toml`) provides translations for common game terms used across multiple mods:
+
+- **Add new terms**: Common words that appear in many mods (e.g., "tank", "pump", "building")
+- **Use lowercase**: Terms are case-insensitive, so define only lowercase versions
+- **Proper names**: Add `skip_hints = true` for game-specific names (e.g., "Timberborn", "Folktails")
+- **Consistency**: Ensure translations match existing style and terminology
+
+Example:
+```toml
+["water"]
+zhCN = "水"
+zhTW = "水"
+
+["Timberborn"]  
+skip_hints = true
+zhCN = "海狸浮生记"
+zhTW = "海狸浮生記"
+```
+
 ## Our rules
 
 It uses both of AI and manual work, with AI responsible for providing translation support as quickly as possible and reducing workload, and manual work for proofreading and modification.

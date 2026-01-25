@@ -132,7 +132,7 @@ def merge_glossaries(global_glossary: Dict[str, Dict[str, str]],
 
 def fuzzy_match_term(text: str, term: str, tolerance: int = 2) -> bool:
     """
-    Check if a term fuzzy matches text with a given tolerance
+    Check if a term fuzzy matches text with a given tolerance (case-insensitive)
     For terms with 10+ characters, allows up to 'tolerance' character differences
     
     Args:
@@ -144,10 +144,12 @@ def fuzzy_match_term(text: str, term: str, tolerance: int = 2) -> bool:
         True if fuzzy match found, False otherwise
     """
     if len(term) < 10:
-        # Only exact match for short terms
-        return term in text
+        # Only exact match for short terms (case-insensitive)
+        import re
+        pattern = re.compile(re.escape(term), re.IGNORECASE)
+        return pattern.search(text) is not None
     
-    # For longer terms, check fuzzy match
+    # For longer terms, check fuzzy match (case-insensitive)
     from difflib import SequenceMatcher
     
     # Check if term appears with minor variations
@@ -225,11 +227,15 @@ def generate_glossary_hints(
                 # Regular format: term_data is the translations dict
                 translations = term_data
         
-        # Check for exact match
-        if term in text:
+        # Check for exact match (case-insensitive)
+        import re
+        pattern = re.compile(re.escape(term), re.IGNORECASE)
+        match = pattern.search(text)
+        
+        if match:
             if target_language in translations:
-                # Exact match with translation available - replace
-                result = result.replace(term, translations[target_language])
+                # Exact match with translation available - replace (case-insensitive)
+                result = pattern.sub(translations[target_language], result)
                 processed_terms.add(term)
             elif not skip_hints and translations:
                 # Exact match but no translation for target language - add hint
@@ -319,10 +325,21 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     
     result = text
     for term in sorted_terms:
-        translations = glossary[term]
-        if target_language in translations:
-            # Replace term with translation (case-sensitive)
-            result = result.replace(term, translations[target_language])
+        translations = glossary.get(term, {})
+        
+        # Handle both old format and new format with special keys
+        if isinstance(translations, dict) and 'translations' in translations:
+            # New format with skip_hints, fuzzy_tolerance etc.
+            actual_translations = translations.get('translations', {})
+        else:
+            # Old format or regular translations dict
+            actual_translations = {k: v for k, v in translations.items() if k not in ['skip_hints', 'fuzzy_tolerance']}
+        
+        if target_language in actual_translations:
+            # Case-insensitive replacement while preserving original case
+            import re
+            pattern = re.compile(re.escape(term), re.IGNORECASE)
+            result = pattern.sub(actual_translations[target_language], result)
     
     return result
 

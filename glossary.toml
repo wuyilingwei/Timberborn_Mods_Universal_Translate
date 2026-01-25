@@ -1,27 +1,11 @@
-# Global Glossary for key vocabulary terms
+# Global Glossary for Timberborn Mods Universal Translate
 # This file provides direct translations for commonly used game-specific terms
+# 
 # Format: ["term_in_english"]
 #         language_code = "translated_term"
 #
-# Advanced features:
-# - Partial language definitions: Only define languages you need
-# - Fuzzy matching: For terms with 10+ characters, allows character differences (configurable)
-# - skip_hints flag: Prevent hints for specific terms (e.g., proper names)
-# - fuzzy_tolerance: Number of character differences allowed (default: 2)
-# - Language priority: Hints show only the first available language from config order
-#
-# Example with skip_hints (for proper names that shouldn't show hints):
-# ["ProperName"]
-# skip_hints = true
-# translations = { zhCN = "专有名称", zhTW = "專有名稱" }
-#
-# Example with custom fuzzy_tolerance:
-# ["LongTermName"]
-# fuzzy_tolerance = 3
-# zhCN = "长期名称"
-#
-# Note: Individual mods can override these with mod-local glossaries.
-# See README for details on mod-local glossary structure.
+# Features: Case-insensitive matching, fuzzy matching, mod-local overrides
+# For detailed documentation, see docs/DATA_STRUCTURE.md
 
 ["Timberborn"]
 skip_hints = true
