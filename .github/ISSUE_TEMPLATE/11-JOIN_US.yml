@@ -10,15 +10,6 @@ body:
         Thanks for applying to join us! Before joining, there are some brief questions.
         These informations are just for learn about your experience, it will not affect the approval.
         Note: Due to time zones, it takes about 0-24 hours to process your application, but you can create a branch, make changes in your own branch first, and then publish them by open a pull request.
-  - type: checkboxes
-    id: Experience
-    attributes:
-      label: Experience
-      options:
-        - label: I known how to use GitHub
-        - label: I known how the mod works
-        - label: I can code in Python
-        - label: I known how LLM works.
   - type: input
     attributes:
       label: Languages you have knowledge of
