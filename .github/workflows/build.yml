@@ -355,6 +355,7 @@ jobs:
         with:
           message: "Update version to ${{ steps.version.outputs.new_version }} and add release package"
           max-retries: 3
+          if-no-commit: info
           files: |
             .github/data/version.txt
             .github/data/manifest.json

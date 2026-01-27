@@ -72,10 +72,12 @@ jobs:
       
       - name: Commit and push changes
         if: steps.check_changes.outputs.has_changes == 'true'
+        continue-on-error: true
         uses: iarekylew00t/verified-bot-commit@v2
         with:
           message: "chore: Auto-translate mod entries [skip ci]"
           max-retries: 3
+          if-no-commit: info
           files: |
             data/**
             .github/log/**
