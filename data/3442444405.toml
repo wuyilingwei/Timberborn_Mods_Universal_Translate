@@ -14,6 +14,7 @@ deDE = "Aktiviert"
 plPL = "Włączone"
 ptBR = "Ativado"
 koKR = "활성화됨"
+csCZ = "Povoleno"
 
 ["LV.CAS.EnabledDesc"]
 raw = "Whether this mod is enabled."
@@ -28,6 +29,7 @@ deDE = "Ob dieses Mod aktiviert ist."
 plPL = "Czy ten mod jest włączony."
 ptBR = "Se este mod está habilitado."
 koKR = "이 모드가 활성화되어 있는지 여부."
+csCZ = "Zda je tento mod povolen."
 
 ["LV.CAS.SaveFrequency"]
 raw = "Auto-save frequency (real-life minute)"
@@ -42,6 +44,7 @@ deDE = "Auto-Speicherfrequenz (realistische Minute)"
 plPL = "Częstotliwość automatycznego zapisywania (minuty rzeczywiste)"
 ptBR = "Frequência de salvamento automático (minuto da vida real)"
 koKR = "자동 저장 주기 (실제 분)"
+csCZ = "Frekvence automatického ukládání (minuta v reálném čase)"
 
 ["LV.CAS.SaveFrequencyDesc"]
 raw = "How often should auto-save saves. Game default: 10"
@@ -56,6 +59,7 @@ deDE = "Wie oft sollte die automatische Speicherung erfolgen? Spielstandard: 10"
 plPL = "Jak często powinno się zapisywać automatycznie? Domyślnie w grze: 10"
 ptBR = "Com que frequência o salvamento automático deve ser feito? Padrão do jogo: 10."
 koKR = "자동 저장이 얼마나 자주 저장되어야 합니까? 게임 기본값: 10"
+csCZ = "Jak často by měla automatická úložná funkce ukládat. Výchozí hodnota hry: 10"
 
 ["LV.CAS.SaveCount"]
 raw = "Auto-save count"
@@ -70,6 +74,7 @@ deDE = "Auto-Speicheranzahl"
 plPL = "Liczba automatycznych zapisów"
 ptBR = "Contagem de salvamentos automáticos"
 koKR = "자동 저장 개수"
+csCZ = "Počet automatických ukládání"
 
 ["LV.CAS.SaveCountDesc"]
 raw = "How many auto-saves should be kept. Game default: 3"
@@ -84,6 +89,7 @@ deDE = "Wie viele automatische Speicherstände sollten aufbewahrt werden? Spiele
 plPL = "Ile automatycznych zapisów powinno być zachowanych. Domyślna wartość gry: 3"
 ptBR = "Quantos salvamentos automáticos devem ser mantidos. Padrão do jogo: 3"
 koKR = "자동 저장을 몇 개 보관해야 하는지입니다. 게임 기본값: 3"
+csCZ = "Kolik automatických záloh by mělo být uchováváno. Výchozí nastavení hry: 3"
 
 ["LV.CAS.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -98,6 +104,7 @@ deDE = "Zusätzliche Einsparungen bei Wetterwarnungen"
 plPL = "Dodatkowa oszczędność przy ostrzeżeniu o pogodzie"
 ptBR = "Economia extra em aviso de tempo severo"
 koKR = "날씨 경고 시 추가 저장"
+csCZ = "Doplňková záloha při varování o počasí"
 
 ["LV.CAS.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -112,6 +119,7 @@ deDE = "Wenn eine Wetterwarnung ausgegeben wird, erstellen Sie eine zusätzliche
 plPL = "Kiedy wydawane jest ostrzeżenie pogodowe, utwórz dodatkowe zapisanie o nazwie 'weatherwarning.save', które jest nadpisywane tylko przez ostrzeżenie z następnej cyklu. To zapisanie nie jest uwzględniane w liczbie zapisów."
 ptBR = "Quando um alerta meteorológico é emitido, crie um salvamento extra chamado 'weatherwarning.save' que só será sobrescrito pelo aviso do próximo ciclo. Esse salvamento não conta para a contagem de salvamentos."
 koKR = "날씨 경고가 발효되면 'weatherwarning.save'라는 이름의 추가 저장을 만듭니다. 이 저장은 다음 주기의 경고로만 덮어쓰기 됩니다. 이 저장은 저장 수에 포함되지 않습니다."
+csCZ = "Když je vydáno varování před nepřízní počasí, vytvořte extra uložení s názvem 'weatherwarning.save', které je přepsáno pouze varováním z příštího cyklu. Toto uložení se nepočítá do celkového počtu uložených pozic."
 
 ["LV.CAS.KeyBindingTriggerAutosave"]
 raw = "Trigger auto-save"
@@ -126,6 +134,7 @@ deDE = "Automatisches Speichern aktivieren"
 plPL = "Wyzwól automatyczne zapisywanie"
 ptBR = "Ativar salvamento automático"
 koKR = "자동 저장 실행"
+csCZ = "Spustit automatické ukládání"
 
 ["LV.CAS.AutosaveWarning"]
 raw = "Warn before autosave"
@@ -140,6 +149,7 @@ deDE = "Vor dem automatischen Speichern warnen"
 plPL = "Ostrzeż przed automatycznym zapisywaniem"
 ptBR = "Avisar antes de salvamento automático"
 koKR = "자동 저장 전에 경고"
+csCZ = "Varovat před automatickým uložením"
 
 ["LV.CAS.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
@@ -154,6 +164,7 @@ deDE = "Zeigen Sie eine Warnung einige Zeit bevor das Spiel automatisch speicher
 plPL = "Pokaż ostrzeżenie na pewien czas przed automatycznym zapisaniem gry. Jest to przydatne dla graczy, którzy nie lubią zacięć gry podczas automatycznego zapisu."
 ptBR = "Mostre um aviso algum tempo antes do jogo salvar automaticamente. Isso é útil para jogadores que não gostam de travamentos no jogo durante o salvamento automático."
 koKR = "자동 저장 전에 미리 경고를 표시합니다. 이는 자동 저장 시 게임이 멈추는 것을 싫어하는 플레이어에게 유용합니다."
+csCZ = "Zobrazit upozornění nějakou dobu před tím, než hra provede automatické uložení. To je užitečné pro hráče, kteří nemají rádi trhání hry při automatickém uložení."
 
 ["LV.CAS.AutosaveWarningText"]
 raw = "Autosave imminent in {0} seconds!"
@@ -168,3 +179,4 @@ deDE = "Automatisches Speichern in {0} Sekunden!"
 plPL = "Autosave za {0} sekund!"
 ptBR = "Salvar automaticamente em {0} segundos!"
 koKR = "자동 저장이 {0}초 후에 임박했습니다!"
+csCZ = "Automatické ukládání za {0} sekund!"

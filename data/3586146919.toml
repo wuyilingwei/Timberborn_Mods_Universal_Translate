@@ -14,6 +14,7 @@ deDE = "Beavline Logistik"
 plPL = "Logistyka Beavline"
 ptBR = "Logística Beavline"
 koKR = "비버라인 물류"
+csCZ = "Beavline Logistics"
 
 ["LV.BL.BeavlineOut"]
 raw = "Beavline Output"
@@ -28,6 +29,7 @@ deDE = "Beavline-Ausgang"
 plPL = "Wyjście Beavline"
 ptBR = "Saída Beavline"
 koKR = "비벌라인 출력"
+csCZ = "Beavline Výstup"
 
 ["LV.BL.BeavlineOutDesc"]
 raw = "Sends goods to connected Beavline Inputs."
@@ -42,6 +44,7 @@ deDE = "Sendet Waren an verbundene Beavline-Eingänge."
 plPL = "Wysyła towary do podłączonych wejść Beavline."
 ptBR = "Envia mercadorias para Entradas de Beavline conectadas."
 koKR = "연결된 비벌라인 입력으로 상품을 전송합니다."
+csCZ = "Posílá zboží do připojených vstupů Beavline."
 
 ["LV.BL.BeavlineOutFlavor"]
 raw = "No detours, no delays. Just pure Beavline speed."
@@ -56,6 +59,7 @@ deDE = "Keine Umwege, keine Verzögerungen. Nur pure Beavline-Geschwindigkeit."
 plPL = "„Bez objazdów, bez opóźnień. Tylko czysta prędkość Beavline.”"
 ptBR = "Sem desvios, sem atrasos. Apenas a pura velocidade Beavline."
 koKR = "우회로 없이, 지체 없이. 오직 순수한 비버라인 속도만."
+csCZ = "Žádné objížďky, žádné zpoždění. Jen čistá Beavline rychlost."
 
 ["LV.BL.BeavlineOutSpeed"]
 raw = "Beavline Output Express"
@@ -70,6 +74,7 @@ deDE = "Beavline-Ausgang Express"
 plPL = "Ekspresowy Wyrzut Beavline"
 ptBR = "Saída Expressa Beavline"
 koKR = "비버라인 출력 특급"
+csCZ = "Beavline Výstup Expres"
 
 ["LV.BL.BeavlineOutSpeedDesc"]
 raw = "Increase the speed of Beavline Output by {0:+0%}"
@@ -84,6 +89,7 @@ deDE = "Erhöhen Sie die Geschwindigkeit der Beavline-Ausgabe um {0:+0%}"
 plPL = "Zwiększ prędkość wyjścia Beavline o {0:+0%}"
 ptBR = "Aumenta a velocidade de saída do Beavline em {0:+0%}"
 koKR = "비버라인 출력 속도를 {0:+0%}만큼 증가시킵니다."
+csCZ = "Zvyšte rychlost výstupu Beavline o {0:+0%}"
 
 ["LV.BL.BeavlineOutSpeedFlavor"]
 raw = "Guaranteed delivery before the next dam break."
@@ -98,6 +104,7 @@ deDE = "Garantierte Lieferung vor dem nächsten Dammbruch."
 plPL = "Gwarantowana dostawa przed następnym przełomem tamy."
 ptBR = "Entrega garantida antes da próxima quebra da barragem."
 koKR = "다음 댐 붕괴 전에 보장된 배송."
+csCZ = "Zaručené doručení před dalším prolomením hráze."
 
 ["LV.BL.BeavlineIn"]
 raw = "Beavline Input"
@@ -112,6 +119,7 @@ deDE = "Beavline-Eingang"
 plPL = "Zasilanie Beavline"
 ptBR = "Entrada Beavline"
 koKR = "비버라인 입력"
+csCZ = "Beavline Vstup"
 
 ["LV.BL.BeavlineInDesc"]
 raw = "Receives goods from connected Beavline Outputs."
@@ -126,6 +134,7 @@ deDE = "Erhält Waren von angeschlossenen Beavline-Ausgängen."
 plPL = "Odbiera towary z podłączonych wyjść Beavline."
 ptBR = "Recebe mercadorias dos Saídas Beavline conectadas."
 koKR = "연결된 비버라인 출력에서 상품을 받습니다."
+csCZ = "Přijímá zboží z připojených Beavline výstupů."
 
 ["LV.BL.BeavlineInFlavor"]
 raw = "Your delivery has Beavlined its way here."
@@ -140,6 +149,7 @@ deDE = "„Ihre Lieferung hat sich auf Beavline-Art auf den Weg hierher gemacht.
 plPL = "Twoja dostawa Beavlowała się tutaj."
 ptBR = "Sua entrega chegou ao estilo Beavline."
 koKR = "귀하의 배송이 비버라인을 타고 여기 도착했습니다."
+csCZ = "Vaše dodávka se dostala sem pomocí Beavline."
 
 ["LV.BL.BeavlineBalancer"]
 raw = "Beavline Storage Balancer"
@@ -154,6 +164,7 @@ deDE = "Speicher-Balancer für Biberlinien"
 plPL = "Balansownik Magazynowy Beavline"
 ptBR = "Balanceador de Armazenamento Beavline"
 koKR = "비버라인 저장 균형기"
+csCZ = "Beavline Skladový Vyvážeč"
 
 ["LV.BL.BeavlineBalancerDesc"]
 raw = "Automatically evens out goods of the same type across all connected storages. Works independently from Beavline Input and Output. It runs every hour with no limit on the amount of goods moved."
@@ -168,6 +179,7 @@ deDE = "Automatische Gleichmäßigkeit von Waren desselben Typs über alle verbu
 plPL = "Automatycznie wyrównuje towary tego samego typu we wszystkich połączonych magazynach. Działa niezależnie od wejścia i wyjścia Beavline. Działa co godzinę bez limitu na ilość przenoszonych towarów."
 ptBR = "Equilibra automaticamente os bens do mesmo tipo em todos os armazéns conectados. Funciona independentemente da Entrada e Saída Beavline. Ele é executado a cada hora sem limite na quantidade de bens movidos."
 koKR = "연결된 모든 저장소에서 같은 종류의 물품을 자동으로 균형을 맞춥니다. Beavline 입출력과는 독립적으로 작동합니다. 매 시간마다 실행되며 이동할 수 있는 물품의 양에 제한이 없습니다."
+csCZ = "Automaticky vyrovnává zboží stejného typu ve všech připojených skladech. Pracuje nezávisle na Beavline Input a Output. Funguje každou hodinu bez omezení na množství přesunutého zboží."
 
 ["LV.BL.BeavlineBalancerFlavor"]
 raw = "'Perfectly balanced, as all stockpiles should be.' —xa0Damnosxa0Titanus"
@@ -182,6 +194,7 @@ deDE = "„Perfekt ausgewogen, wie es alle Lagerbestände sein sollten.“ —xa
 plPL = "'Perfekcyjnie wyważone, jak wszystkie zapasy powinny być.' —xa0Damnosxa0Titanus"
 ptBR = "'Perfeitamente equilibrado, como todos os armazéns deveriam ser.' — Damnos Titanus"
 koKR = "\"완벽하게 균형 잡힌, 모든 재고가 그래야 하죠.\" — 다므노스 타이타누스"
+csCZ = "'Dokonale vyvážené, jak by všechny sklady měly být.' —xa0Damnosxa0Titanus"
 
 ["LV.BL.FilterGoods"]
 raw = "Filter goods: {0}"
@@ -196,6 +209,7 @@ deDE = "Filtergüter: {0}"
 plPL = "Filtruj towary: {0}"
 ptBR = "Filtrar bens: {0}"
 koKR = "재고 필터: {0}"
+csCZ = "Filtrovat zboží: {0}"
 
 ["LV.BL.ChangeFilter"]
 raw = "Change filter"
@@ -210,6 +224,7 @@ deDE = "Filter ändern"
 plPL = "Zmień filtr"
 ptBR = "Alterar filtro"
 koKR = "필터 변경"
+csCZ = "Změnit filtr"
 
 ["LV.BL.FilterAll"]
 raw = "All"
@@ -224,6 +239,7 @@ deDE = "Alle"
 plPL = "wszystkie"
 ptBR = "Todos"
 koKR = "모두"
+csCZ = "Vše"
 
 ["LV.BL.DisableToggle"]
 raw = "Disabled"
@@ -238,6 +254,7 @@ deDE = "Deaktiviert"
 plPL = "Wyłączone"
 ptBR = "Desativado"
 koKR = "비활성화됨"
+csCZ = "Zakázáno"
 
 ["LV.BL.ConnectedTo"]
 raw = "Connected to:"
@@ -252,6 +269,7 @@ deDE = "Verbunden mit:"
 plPL = "Połączono z:"
 ptBR = "Conectado a:"
 koKR = "연결됨:"
+csCZ = "Propojeno s:"
 
 ["LV.BL.Disabled"]
 raw = "<RedHighlight>[Disabled]</RedHighlight>"
@@ -266,6 +284,7 @@ deDE = "<RotHervorheben>[Deaktiviert]</RotHervorheben>"
 plPL = "<RedHighlight>[Wyłączone]</RedHighlight>"
 ptBR = "<RedHighlight>[Desativado]</RedHighlight>"
 koKR = "<RedHighlight>[비활성화됨]</RedHighlight>"
+csCZ = "<ČervenýZvýraznit>[Zakázáno]</ČervenýZvýraznit>"
 
 ["LV.BL.ErrInvalidBuilding"]
 raw = "This building cannot be connected to Beavline."
@@ -280,6 +299,7 @@ deDE = "Dieses Gebäude kann nicht mit der Beavline verbunden werden."
 plPL = "Ten budynek nie może być połączony z Beavline."
 ptBR = "Este edifício não pode ser conectado à Beavline."
 koKR = "이 건물은 비버라인에 연결할 수 없습니다."
+csCZ = "Tato budova nemůže být spojena s Beavline."
 
 ["LV.BL.ErrNoInput"]
 raw = "This building cannot receive goods"
@@ -294,6 +314,7 @@ deDE = "Dieses Gebäude kann keine Waren empfangen."
 plPL = "Ten budynek nie może przyjmować towarów"
 ptBR = "Este edifício não pode receber mercadorias"
 koKR = "이 건물은 물품을 받을 수 없습니다."
+csCZ = "Tato budova nemůže přijímat zboží."
 
 ["LV.BL.ErrNoOutput"]
 raw = "This building cannot send goods"
@@ -308,6 +329,7 @@ deDE = "Dieses Gebäude kann keine Waren versenden."
 plPL = "Ten budynek nie może wysyłać towarów"
 ptBR = "Este edifício não pode enviar mercadorias."
 koKR = "이 건물은 상품을 보낼 수 없습니다."
+csCZ = "Tato budova nemůže posílat zboží"
 
 ["LV.BL.SelectAll"]
 raw = "Select All"
@@ -322,6 +344,7 @@ deDE = "Alle Auswählen"
 plPL = "Wybierz wszystko"
 ptBR = "Selecionar Tudo"
 koKR = "모두 선택"
+csCZ = "Vybrat vše"
 
 ["LV.BL.SelectNone"]
 raw = "Select None"
@@ -336,6 +359,7 @@ deDE = "Auswahl aufheben"
 plPL = "Nie wybieraj żadnego"
 ptBR = "Selecionar Nenhum"
 koKR = "선택하지 않음"
+csCZ = "Žádný"
 
 ["LV.BL.OutputSpeed"]
 raw = "Output speed: {0:0.#} items/day"
@@ -350,6 +374,7 @@ deDE = "Ausgabegeschwindigkeit: {0:0.#} Artikel/Tag"
 plPL = "Prędkość wyjściowa: {0:0.#} przedmiotów/dzień"
 ptBR = "Velocidade de saída: {0:0.#} itens/dia"
 koKR = "출력 속도: {0:0.#} 아이템/일"
+csCZ = "Rychlost výstupu: {0:0.#} položek/den"
 
 ["LV.BL.ErrStockpileOnly"]
 raw = "This renovation can only be built on stockpiles (Piles, Warehouses and Tanks)."
@@ -364,6 +389,7 @@ deDE = "Diese Renovierung kann nur auf Lagerstätten (Haufen, Lagerhäuser und T
 plPL = "Ten remont można zrealizować tylko na składowiskach (stosy, magazyny i zbiorniki)."
 ptBR = "Essa reforma só pode ser construída em depósitos (Pilhas, Armazéns e Tanques)."
 koKR = "이 개조는 재고창고(더미, 창고 및 탱크)에서만 건설할 수 있습니다."
+csCZ = "Tuto renovaci lze stavět pouze na skladovacích místech (Sklady, Úložiště a Nádrže)."
 
 ["LV.BL.RemoveEntranceWarning"]
 raw = "Remove entrance warning"
@@ -378,6 +404,7 @@ deDE = "Eingangswarnung entfernen"
 plPL = "Usuń ostrzeżenie o wejściu"
 ptBR = "Aviso de remoção de entrada"
 koKR = "입구 경고 제거"
+csCZ = "Odstranit varování při vstupu"
 
 ["LV.BL.DisableBalancer"]
 raw = "Disable Beavline Balancer"
@@ -392,6 +419,7 @@ deDE = "Beavline-Balancer deaktivieren"
 plPL = "Wyłącz Balansator Beavline"
 ptBR = "Desativar Balancer Beavline"
 koKR = "비버라인 균형 조정기 비활성화"
+csCZ = "Deaktivovat Beavline Balancer"
 
 ["LV.BL.ErrNeedOutput"]
 raw = "Can only be built on buildings with Beavline Output."
@@ -406,6 +434,7 @@ deDE = "Kann nur auf Gebäuden mit Biberlinie-Ausgang gebaut werden."
 plPL = "Można budować tylko na budynkach z wyjściem Beavline."
 ptBR = "Pode ser construído apenas em edifícios com Saída Beavline."
 koKR = "비버라인 출력이 있는 건물 위에만 건설할 수 있습니다."
+csCZ = "Lze postavit pouze na budovách s výstupem Beavline."
 
 [Name_BeavlineFragment]
 raw = "Beavline"
@@ -420,6 +449,7 @@ deDE = "Beavline"
 plPL = "Beavline"
 ptBR = "Beavline"
 koKR = "비버라인"
+csCZ = "Beavline"
 
 [Name_StockpileBalancerFragment]
 raw = "Beavline Stockpile"
@@ -434,3 +464,4 @@ deDE = "Beavline Lager"
 plPL = "Zapas Beavline"
 ptBR = "Estoque Beavline"
 koKR = "비버라인 재고창고"
+csCZ = "Beavline Sklad"

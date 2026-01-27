@@ -14,6 +14,7 @@ deDE = "Bauplan Relikt"
 plPL = "Relikt Planu"
 ptBR = "Relíquia de Planta"
 koKR = "청사진 유물"
+csCZ = "Blueprint Relic"
 
 ["LV.BRe.SmallBuildingName"]
 status = "normal"
@@ -28,6 +29,7 @@ deDE = "Kleine Blaupause-Relikte"
 plPL = "Mały Relikt Planu"
 ptBR = "Pequena Relíquia de Projeto"
 koKR = "소형 청사진 유물"
+csCZ = "Malá reliéfní blueprint"
 
 ["LV.BRe.MediumBuildingName"]
 status = "normal"
@@ -42,6 +44,7 @@ deDE = "Mittlere Bauplanscherbe"
 plPL = "Średni Relikt Planów"
 ptBR = "Relíquia de Planta Média"
 koKR = "중형 청사진 유물"
+csCZ = "Střední plánová relikvie"
 
 ["LV.BRe.LargeBuildingName"]
 status = "normal"
@@ -56,6 +59,7 @@ deDE = "Große Bauplan-Relikte"
 plPL = "Duża Relikwia Planu"
 ptBR = "Relíquia de Projeto Grande"
 koKR = "큰 청사진 유물"
+csCZ = "Velká relikvie modulu"
 
 ["LV.BRe.BuildingDesc"]
 status = "normal"
@@ -70,6 +74,7 @@ deDE = "Uralte Technologie, die ausgegraben werden kann, um alternative Rezepte 
 plPL = "Starożytna technologia, którą można wykopać, aby odblokować alternatywne przepisy."
 ptBR = " Tecnologia antiga que pode ser escavada para desbloquear receitas alternativas."
 koKR = "대체 레시피를 잠금 해제하기 위해 발굴할 수 있는 고대 기술."
+csCZ = "Starověká technologie, kterou lze vykopat k odemknutí alternativních receptů."
 
 ["LV.BRe.BuildingFlavor"]
 status = "normal"
@@ -84,6 +89,7 @@ deDE = "Offenbar haben die Menschen alles beschriftet."
 plPL = "Najwyraźniej, ludzie oznaczyli wszystko."
 ptBR = "Apparently, hoomans labeled everything.\" translates to:\n\n\"Aparentemente, os hoomans rotularam tudo."
 koKR = "명백히, 인간들이 모든 것을 라벨링했다."
+csCZ = "Zřejmě, že lidé vše označili."
 
 ["LV.BRe.SpawnNotif"]
 status = "normal"
@@ -98,6 +104,7 @@ deDE = "Ein {0} wurde entdeckt!"
 plPL = "Znaleziono {0}!"
 ptBR = "Um {0} foi descoberto!"
 koKR = "{0}가 발견되었습니다!"
+csCZ = "„Byl objeven {0}!“"
 
 ["LV.BRe.ExpiresIn"]
 status = "normal"
@@ -112,6 +119,7 @@ deDE = "Relikt verfällt in {0} Tagen"
 plPL = "Relikt wygasa za {0}d"
 ptBR = "Relíquia expira em {0}d"
 koKR = "유물은 {0}일 후에 만료됩니다"
+csCZ = "Relikvie vyprší za {0}d"
 
 ["LV.BRe.ConnectPrompt"]
 status = "normal"
@@ -126,6 +134,7 @@ deDE = "Verbinde dieses Relikt mit einem Bezirksweg, um es auszuheben."
 plPL = "Podłącz ten relikt do ścieżki w dzielnicy, aby go wykopać."
 ptBR = "Conecte esta relíquia a um caminho de distrito para desapropriá-la."
 koKR = "이 유물을 발굴하려면 이 유물을 지구 길에 연결하세요."
+csCZ = "Připojte tento relikt k cestičce v distriktu, abyste ho vykopali."
 
 ["LV.BRe.PauseExcavation"]
 status = "normal"
@@ -140,6 +149,7 @@ deDE = "Pause: keine Ressourcen sammeln."
 plPL = "Pause: nie zbieraj zasobów."
 ptBR = "Pausar: não coletar recursos."
 koKR = "일시 중지: 자원을 수집하지 않습니다."
+csCZ = "Pauza: neshromážďovat zdroje."
 
 ["LV.BRe.Connected"]
 status = "normal"
@@ -154,6 +164,7 @@ deDE = "Diese Reliquie wird mit Ressourcen aus {0} ausgegraben."
 plPL = "Ta relikwia jest wydobywana z zasobów {0}"
 ptBR = "Esta relíquia está sendo escavada com recursos de {0}"
 koKR = "이 유물은 {0}의 자원으로 발굴되고 있습니다."
+csCZ = "Tento relikviář je vykopáván pomocí zdrojů z {0}"
 
 ["LV.BRe.ExcSteps"]
 status = "normal"
@@ -168,6 +179,7 @@ deDE = "{0}/{1} Schritte abgeschlossen."
 plPL = "{0}/{1} kroków ukończonych."
 ptBR = "{0}/{1} etapas concluídas."
 koKR = "{0}/{1} 단계 완료."
+csCZ = "{0}/{1} kroků dokončeno."
 
 ["LV.BRe.CurrStep"]
 status = "normal"
@@ -182,6 +194,7 @@ deDE = "Ausgrabung: {0}d verbleibend"
 plPL = "Ekspolatacja: pozostało {0}d"
 ptBR = "Escavando: {0}d restantes"
 koKR = "발굴 중: {0}일 남음"
+csCZ = "Výkop: {0}d zbývá"
 
 ["LV.BRe.ExcInfo"]
 status = "normal"
@@ -196,6 +209,7 @@ deDE = "Während ein Relikt ausgegraben wird, wird der Ablaufzeitgeber pausiert.
 plPL = "Podczas gdy relikt jest wydobywany, timer wygaśnięcia jest wstrzymany. Każdy krok wymaga:"
 ptBR = "Enquanto uma relíquia está sendo escavada, o temporizador de expiração é pausado. Cada etapa requer:"
 koKR = "유물 발굴 중에는 만료 타이머가 일시 정지됩니다. 각 단계에는 다음이 필요합니다:"
+csCZ = "Dokud je relikvie vykopávána, časovač vypršení platnosti je pozastaven. Každý krok vyžaduje:"
 
 ["LV.BRe.Negotiate"]
 status = "normal"
@@ -210,6 +224,7 @@ deDE = "Verhandlungsanforderungen"
 plPL = "Negocjować wymagania"
 ptBR = "Negociar requisitos"
 koKR = "요구 사항 협상"
+csCZ = "Jednat o požadavcích"
 
 ["LV.BRe.NegotiateConfirm"]
 status = "normal"
@@ -224,6 +239,7 @@ deDE = "Bist du sicher, dass du die <b>Verhandlungs</b>anforderungen für die Au
 plPL = "Czy na pewno chcesz <b>negocjować</b> wymagania dotyczące wykopu? Koszt zostanie zmieniony, ale <RedHighlight>wszelkie dotychczasowe postępy zostaną utracone</RedHighlight>. Po negocjacji nie będziesz mógł przeprowadzić kolejnej przez {0} dni."
 ptBR = "Você tem certeza de que deseja <b>negociar</b> os requisitos de escavação? O custo será alterado, mas <RedHighlight>todo o progresso feito até agora será perdido</RedHighlight>. Após a negociação, você não poderá fazer outra por {0} dias."
 koKR = "발굴 요구 사항을 <b>협상</b> 하시겠습니까?\n비용이 변경되지만 <RedHighlight>지금까지 진행된 모든 진행 상황이 손실됩니다</RedHighlight>.\n협상이 끝난 후에는 {0}일 동안 다시 협상할 수 없습니다."
+csCZ = "Jste si jisti, že chcete <b>vyjednávat</b> o požadavcích na vykopávky? Náklady se změní, ale <RedHighlight>veškerý dosavadní pokrok bude ztracen</RedHighlight>. Po vyjednávání již nebudete moci učinit další vyjednávání po dobu {0} dnů."
 
 ["LV.BRe.NegotiateCooldown"]
 status = "normal"
@@ -238,6 +254,7 @@ deDE = "Verhandlungsabklingzeit: {0}h"
 plPL = "Czas ochłodzenia negocjacji: {0}h"
 ptBR = "Tempo de recarga da negociação: {0}h"
 koKR = "협상 쿨타임: {0}시간"
+csCZ = "Čas na obnovení vyjednávání: {0}h"
 
 ["LV.BRe.RelicExpired"]
 status = "normal"
@@ -252,6 +269,7 @@ deDE = "„Die {0} ist abgelaufen.“"
 plPL = "{0} wygasł."
 ptBR = "O {0} expirou."
 koKR = "{0}의 유효 기간이 만료되었습니다."
+csCZ = "{0} vypršel."
 
 ["LV.BRe.StatusNoMaterial"]
 status = "normal"
@@ -266,6 +284,7 @@ deDE = "Fehlende erforderliche Materialien."
 plPL = "Brak wymaganych materiałów."
 ptBR = "Faltando materiais necessários."
 koKR = "필요한 자재가 누락되었습니다."
+csCZ = "Chybí požadované materiály."
 
 ["LV.BRe.StatusNoMaterialShort"]
 status = "normal"
@@ -280,6 +299,7 @@ deDE = "Die Ausgrabung hat keine Materialien"
 plPL = "Brakuje materiałów do wykopu"
 ptBR = "Excavação carece de materiais"
 koKR = "발굴에 재료가 부족합니다"
+csCZ = "Odstranění chybí materiály"
 
 ["LV.BRe.StatusExcavationFinished"]
 status = "normal"
@@ -294,6 +314,7 @@ deDE = "„Ausgrabung abgeschlossen, Sie können Ihre Belohnung abholen!“"
 plPL = "Zabieg wykopaliskowy zakończony, możesz odebrać swoją nagrodę!"
 ptBR = "Escavação concluída, você pode coletar sua recompensa!"
 koKR = "발굴이 완료되었습니다. 보상을 수집할 수 있습니다!"
+csCZ = "Vrtná práce dokončena, můžete si vyzvednout svou odměnu!"
 
 ["LV.BRe.StatusExcavationFinishedShort"]
 status = "normal"
@@ -308,6 +329,7 @@ deDE = "Bauplan bereit!"
 plPL = "Blueprint gotowy!"
 ptBR = "Blueprint pronto!"
 koKR = "청사진 준비 완료!"
+csCZ = "Blueprint hotový!"
 
 ["LV.BRe.ChooseReward"]
 status = "normal"
@@ -322,6 +344,7 @@ deDE = "Wähle deine Belohnung"
 plPL = "Wybierz swoją nagrodę"
 ptBR = "Escolha sua recompensa"
 koKR = "보상을 선택하세요"
+csCZ = "Vyberte si svou odměnu"
 
 ["LV.BRe.DigMore"]
 status = "normal"
@@ -336,6 +359,7 @@ deDE = "Gräbt tiefer"
 plPL = "Rób głębsze wykopy"
 ptBR = "Escave mais fundo"
 koKR = "더 깊이 파세요"
+csCZ = "Rýt hlouběji"
 
 ["LV.BRe.DigMoreDesc"]
 status = "normal"
@@ -350,6 +374,7 @@ deDE = "Verlasse die aktuellen Belohnungen und grabe erneut, um neue zu entdecke
 plPL = "Porzuć obecne nagrody i wykopuj ponownie, aby odkryć nowe. <RedHighlight>Wszystkie kroki wykopów muszą zostać wykonane ponownie</RedHighlight>."
 ptBR = "Desista das recompensas atuais e escave novamente para descobrir novas. <RedHighlight>Todas as etapas de escavação devem ser completadas novamente</RedHighlight>."
 koKR = "현재 보상을 포기하고 새로운 보상을 찾기 위해 다시 발굴하십시오. <RedHighlight>모든 발굴 단계를 다시 완료해야 합니다</RedHighlight>."
+csCZ = "Vzdát se aktuálních odměn a vykopat znovu, abyste objevili nové. <RedHighlight>Všechny kroky vykopávání musí být dokončeny znovu</RedHighlight>."
 
 ["LV.BRe.DigConfirm"]
 status = "normal"
@@ -364,6 +389,7 @@ deDE = "Bist du sicher, dass du die aktuellen Belohnungen aufgeben und erneut au
 plPL = "Czy na pewno chcesz zrezygnować z aktualnych nagród i wykopać ponownie? <RedHighlight>Cały postęp wykopów zostanie zresetowany</RedHighlight>."
 ptBR = "Você tem certeza de que deseja abandonar as recompensas atuais e escavar novamente? <RedHighlight>Todo o progresso de escavação será reiniciado</RedHighlight>."
 koKR = "현재 보상을 포기하고 다시 발굴하시겠습니까? <RedHighlight>모든 발굴 진행 상황이 초기화됩니다</RedHighlight>."
+csCZ = "Opravdu si přejete vzdát se aktuálních odměn a vykopat znovu? <RedHighlight>Veškerý pokrok v kopání bude resetován.</RedHighlight>"
 
 ["LV.BRe.RewardUnlock"]
 status = "normal"
@@ -378,6 +404,7 @@ deDE = "Neues Rezept"
 plPL = "Nowy przepis"
 ptBR = "Nova receita"
 koKR = "새로운 레시피"
+csCZ = "Nový recept"
 
 ["LV.BRe.RewardCapacity"]
 status = "normal"
@@ -392,6 +419,7 @@ deDE = "Kapazitätsupgrade"
 plPL = "Upgrade pojemności"
 ptBR = "Upgrade de capacidade"
 koKR = "능력 향상"
+csCZ = "Vylepšení kapacity"
 
 ["LV.BRe.RewardTimeReduction"]
 status = "normal"
@@ -406,6 +434,7 @@ deDE = "Zeitreduzierung"
 plPL = "Zmniejszenie czasu"
 ptBR = "Redução de tempo"
 koKR = "시간 단축"
+csCZ = "Snížení času"
 
 ["LV.BRe.RewardOutput"]
 status = "normal"
@@ -420,6 +449,7 @@ deDE = "Ausgangssteigerung"
 plPL = "Wzrost wydajności"
 ptBR = "Aumento de saída"
 koKR = "출력 증가"
+csCZ = "Zvýšení výstupu"
 
 ["LV.BRe.RewardScience"]
 status = "normal"
@@ -434,6 +464,7 @@ deDE = "Bonuswissenschaft"
 plPL = "Bonus Naukowy"
 ptBR = "Bônus de Ciência"
 koKR = "보너스 과학"
+csCZ = "Bonus věda"
 
 ["LV.BRe.Rarity_Common"]
 status = "normal"
@@ -448,6 +479,7 @@ deDE = "Häufig"
 plPL = "Powszechny"
 ptBR = "Comum"
 koKR = "일반"
+csCZ = "Běžný"
 
 ["LV.BRe.Rarity_Uncommon"]
 status = "normal"
@@ -462,6 +494,7 @@ deDE = "Ungewöhnlich"
 plPL = "Niepospolity"
 ptBR = "Incomum"
 koKR = "비범한"
+csCZ = "Nepatrný"
 
 ["LV.BRe.Rarity_Rare"]
 status = "normal"
@@ -476,6 +509,7 @@ deDE = "Selten"
 plPL = "Rzadki"
 ptBR = "Raro"
 koKR = "희귀"
+csCZ = "Vzácný"
 
 ["LV.BRe.RecipeTitle"]
 status = "normal"
@@ -490,6 +524,7 @@ deDE = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
 plPL = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
 ptBR = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
 koKR = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
+csCZ = "<b><YellowHighlight>[{0}]</YellowHighlight> {1}</b>"
 
 ["LV.BRe.ConfirmReward"]
 status = "normal"
@@ -504,6 +539,7 @@ deDE = "Bestätige deine Belohnung"
 plPL = "Potwierdź swoją nagrodę"
 ptBR = "Confirme sua recompensa"
 koKR = "보상을 확정하세요"
+csCZ = "Potvrďte svou odměnu"
 
 ["LV.BRe.RecipeHours"]
 status = "normal"
@@ -518,6 +554,7 @@ deDE = "🕘 {0}h"
 plPL = "🕘 {0}h"
 ptBR = "🕘 {0}h"
 koKR = "🕘 {0}시간"
+csCZ = "🕘 {0}h"
 
 ["LV.BRe.RecipeCapacity"]
 status = "normal"
@@ -532,6 +569,7 @@ deDE = "Kapazität: {0} Zyklen:"
 plPL = "Pojemność: {0} cykli:"
 ptBR = "Capacidade: {0} ciclos:"
 koKR = "용량: {0} 주기:"
+csCZ = "Kapacita: {0} cyklů:"
 
 ["LV.BRe.RecipeUpgrading"]
 status = "normal"
@@ -546,6 +584,7 @@ deDE = "Verbesserter Wert:"
 plPL = "Ulepszony stat:"
 ptBR = "Estatística melhorada:"
 koKR = "업그레이드된 상태:"
+csCZ = "Vylepšená statistika:"
 
 ["LV.BRe.RecipeCurrent"]
 status = "normal"
@@ -560,6 +599,7 @@ deDE = "Aktueller Status:"
 plPL = "Obecny stan:"
 ptBR = "Estatística atual:"
 koKR = "현재 상태:"
+csCZ = "Současný stav:"
 
 ["LV.BRe.ScienceRewardDesc"]
 status = "normal"
@@ -574,6 +614,7 @@ deDE = "Erhalte <YellowHighlight>{0} Wissenschaft</YellowHighlight>."
 plPL = "Zyskaj <YellowHighlight>{0} Nauki</YellowHighlight>."
 ptBR = "Ganhe <YellowHighlight>{0} Ciência</YellowHighlight>."
 koKR = "<YellowHighlight>{0} 과학</YellowHighlight>을(를) 획득합니다."
+csCZ = "Získejte <YellowHighlight>{0} vědy</YellowHighlight>."
 
 ["LV.BRe.CapacityUpgradeDesc"]
 status = "normal"
@@ -588,6 +629,7 @@ deDE = "Erhöhe die Rezeptkapazität um <b>{0:+0%}</b>."
 plPL = "Zwiększa pojemność przepisu o <b>{0:+0%}</b>."
 ptBR = "Aumenta a capacidade da receita em <b>{0:+0%}</b>."
 koKR = "레시피 용량을 <b>{0:+0%}</b>만큼 증가시킵니다."
+csCZ = "Zvyšte kapacitu receptu o <b>{0:+0%}</b>."
 
 ["LV.BRe.TimeReductionDesc"]
 status = "normal"
@@ -602,6 +644,7 @@ deDE = "Reduziere die Rezeptzeit um <b>{0:-0%}</b>."
 plPL = "Zmniejsz czas przepisu o <b>{0:-0%}</b>."
 ptBR = "Reduz o tempo da receita em <b>{0:-0%}</b>."
 koKR = "레시피 시간을 <b>{0:-0%}</b>만큼 줄입니다."
+csCZ = "Snižte čas receptu o <b>{0:-0%}</b>."
 
 ["LV.BRe.OutputIncreaseDesc"]
 status = "normal"
@@ -616,6 +659,7 @@ deDE = "Erhöhe die Ausgabe eines Rezepts um <b>{0:+0}</b>."
 plPL = "Zwiększa wydajność przepisu o <b>{0:+0}</b>."
 ptBR = "Aumenta a saída de uma receita em <b>{0:+0}</b>."
 koKR = "레시피의 출력을 <b>{0:+0}</b> 증가시킵니다."
+csCZ = "Zvyšte výstup receptu o <b>{0:+0}</b>."
 
 ["LV.BRe.UnlockRecipes"]
 status = "normal"
@@ -630,6 +674,7 @@ deDE = "Freigeschaltete Rezepte"
 plPL = "Odblokowane przepisy"
 ptBR = "Receitas desbloqueadas"
 koKR = "잠금 해제된 레시피"
+csCZ = "Odemčené recepty"
 
 ["LV.BRe.UpgradedRecipes"]
 status = "normal"
@@ -644,6 +689,7 @@ deDE = "Verbesserte Rezepte"
 plPL = "Udoskonalone przepisy"
 ptBR = "Receitas aprimoradas"
 koKR = "업그레이드된 조합법"
+csCZ = "Vylepšené recepty"
 
 ["LV.BRe.FuelCapacity"]
 status = "normal"
@@ -658,6 +704,7 @@ deDE = "Brennstoffkapazität: {0}"
 plPL = "Pojemność paliwa: {0}"
 ptBR = "Capacidade de combustível: {0}"
 koKR = "연료 용량: {0}"
+csCZ = "Kapacita paliva: {0}"
 
 ["LV.BRe.OpenUpgradeDialog"]
 status = "normal"
@@ -672,6 +719,7 @@ deDE = "Alle freigeschaltet"
 plPL = "Wszystko odblokowane"
 ptBR = "Todos desbloqueados"
 koKR = "모두 잠금 해제됨"
+csCZ = "Vše odemčeno"
 
 ["LV.BRe.OpenUpgradeDialogHotKey"]
 status = "normal"
@@ -686,6 +734,7 @@ deDE = "Blueprint Relikt-Upgrades anzeigen"
 plPL = "Zobacz ulepszenia reliktów blueprintów"
 ptBR = "Ver Melhorias da Relíquia de Blueprint"
 koKR = "청사진 유물 업그레이드 보기"
+csCZ = "Zobrazit vylepšení modré tisky relikvie"
 
 ["LV.BRe.OpenUpgradeDialogTitle"]
 status = "normal"
@@ -700,6 +749,7 @@ deDE = "Bauplan Relikt Upgrades"
 plPL = "Ulepszenia Reliktów Blueprint"
 ptBR = "Atualizações de Relíquias de Blueprint"
 koKR = "블루프린트 유물 업그레이드"
+csCZ = "Vylepšení Blueprint Relikvií"
 
 ["LV.BRe.NoUpgrades"]
 status = "normal"
@@ -714,6 +764,7 @@ deDE = "„Keine Upgrades freigeschaltet“"
 plPL = "Brak odblokowanych ulepszeń"
 ptBR = "Sem melhorias desbloqueadas"
 koKR = "업그레이드가 잠금 해제되지 않음"
+csCZ = "Žádná vylepšení odemčena"
 
 ["LV.BRe.NoRecipes"]
 status = "normal"
@@ -728,6 +779,7 @@ deDE = "Keine Rezepte freigeschaltet"
 plPL = "Brak odblokowanych przepisów"
 ptBR = "Sem receitas desbloqueadas"
 koKR = "잠금 해제된 레시피 없음"
+csCZ = "Žádné recepty odemčeny"
 
 ["LV.BRe.Recipe.WetPlank"]
 status = "normal"
@@ -742,6 +794,7 @@ deDE = "Nasser Balken"
 plPL = "Wilgotna Deska"
 ptBR = "Prancha Molhada"
 koKR = "젖은 판자"
+csCZ = "Mokrá deska"
 
 ["LV.BRe.Recipe.PressurePressedExtract"]
 status = "normal"
@@ -756,6 +809,7 @@ deDE = "Druckgepresster Extrakt"
 plPL = "Ekstrakt Prasowany pod Ciśnieniem"
 ptBR = "Extrato Prensado a Pressão"
 koKR = "압력 압착 추출물"
+csCZ = "Extrakt lisovaný pod tlakem"
 
 ["LV.BRe.Recipe.RoughCutGears"]
 status = "normal"
@@ -770,6 +824,7 @@ deDE = "Rohbearbeitete Zahnräder"
 plPL = "Surowe Koła Zębate"
 ptBR = "Engrenagens Cortadas Brutas"
 koKR = "거칠게 가공한 기어"
+csCZ = "Hrubě opracované ozubené kola"
 
 ["LV.BRe.Recipe.DirectGear"]
 status = "normal"
@@ -784,6 +839,7 @@ deDE = "Direktgetriebe"
 plPL = "Bezpośredni Zębatka"
 ptBR = "Engrenagem Direta"
 koKR = "직접 기어"
+csCZ = "Čelní převod"
 
 ["LV.BRe.Recipe.HardenedGears"]
 status = "normal"
@@ -798,6 +854,7 @@ deDE = "Harzgehärtete Zahnräder"
 plPL = "Wzmocnione Koła"
 ptBR = "Engrenagens endurecidas com resina"
 koKR = "수지 경화 기어"
+csCZ = "„Ozubená kola z pryskyřice“"
 
 ["LV.BRe.Recipe.StarchAssistedPaper"]
 status = "normal"
@@ -812,6 +869,7 @@ deDE = "Stärkegestütztes Papier"
 plPL = "Papier z pomocą skrobi"
 ptBR = "Papel Assistido por Amido"
 koKR = "전분 보조 종이"
+csCZ = "Papír s pomocí škrobu"
 
 ["LV.BRe.Recipe.ReclaimedLog"]
 status = "normal"
@@ -826,6 +884,7 @@ deDE = "Wiederverwerteter Stamm"
 plPL = "Recyklingowy Kłoda"
 ptBR = "Tronco Reclamado"
 koKR = "재활용 통나무"
+csCZ = "Znovu použitá kláda"
 
 ["LV.BRe.Recipe.KilnDriedPlanks"]
 status = "normal"
@@ -840,6 +899,7 @@ deDE = "Ofengetrocknete Balken"
 plPL = "Deski suszone w piecu"
 ptBR = "Pranchas Secas na Estufa"
 koKR = "오븐 건조 플랭크"
+csCZ = "Sušené prkna"
 
 ["LV.BRe.Recipe.FermentedCasting"]
 status = "normal"
@@ -854,6 +914,7 @@ deDE = "Fermentierter Guss"
 plPL = "Fermentowane Odlewanie"
 ptBR = "Fundição Fermentada"
 koKR = "발효 주조"
+csCZ = "Fermentovaný odlitek"
 
 ["LV.BRe.Recipe.ChemflameSmelting"]
 status = "normal"
@@ -868,6 +929,7 @@ deDE = "Chemflame-Schmelzen"
 plPL = "Kimflamowe Wytapianie"
 ptBR = "Fundição de Quimichama"
 koKR = "화학 불꽃 제련"
+csCZ = "Chemflame Tavení"
 
 ["LV.BRe.Recipe.LaminatedCasting"]
 status = "normal"
@@ -882,6 +944,7 @@ deDE = "Laminiertes Gießen"
 plPL = "Ramirowane Odlewy"
 ptBR = "Fundição Laminada"
 koKR = "합성 주조"
+csCZ = "Laminované odlévání"
 
 ["LV.BRe.Recipe.GreaseInjectedCasting"]
 status = "normal"
@@ -896,6 +959,7 @@ deDE = "Fett eingespritzte Gießung"
 plPL = "Odlewanie z wtryskiem smaru"
 ptBR = "Fundição com Injeção de Graxa"
 koKR = "그리스 주입 주조"
+csCZ = "Odlévání s injekcí tuku"
 
 ["LV.BRe.Recipe.VacuumConcentration"]
 status = "normal"
@@ -910,6 +974,7 @@ deDE = "Vakuumkonzentration"
 plPL = "Koncentracja w Próżni"
 ptBR = "Concentração a Vácuo"
 koKR = "진공 농축"
+csCZ = "Vakuová koncentrace"
 
 ["LV.BRe.Recipe.IntegratedChemicalProcessing"]
 status = "normal"
@@ -924,6 +989,7 @@ deDE = "Integrierte chemische Verarbeitung"
 plPL = "Przetwarzanie Chemiczne w Zintegrowanej Postaci"
 ptBR = "Processamento Químico Integrado"
 koKR = "통합 화학 처리"
+csCZ = "Integrované chemické zpracování"
 
 ["LV.BRe.Recipe.BoilingExtract"]
 status = "normal"
@@ -938,6 +1004,7 @@ deDE = "Kochauszug"
 plPL = "Wyciąg wrzący"
 ptBR = "Extrato Fermentado"
 koKR = "끓는 추출물"
+csCZ = "Vařicí extrakt"
 
 ["LV.BRe.Recipe.ExtractFueledExplosives"]
 status = "normal"
@@ -952,6 +1019,7 @@ deDE = "Golnors Extrakt-betriebene Sprengstoffe"
 plPL = "Ekspansywne eksplozje z ekstraktem Golnora"
 ptBR = "Explosivos Movidos a Extrato do Golnor"
 koKR = "골노르의 추출물 연료 폭탄"
+csCZ = "Golnorovy výbušniny na bázi extraktu"
 
 ["LV.BRe.Recipe.IronchemPlank"]
 status = "normal"
@@ -966,6 +1034,7 @@ deDE = "Eisenchem-Planke"
 plPL = "Deska Żelaznej Chemii"
 ptBR = "Prancha de Ferroquímica"
 koKR = "철화학 판자"
+csCZ = "Ironchem deska"
 
 ["LV.BRe.Recipe.CarefulReclamation"]
 status = "normal"
@@ -980,6 +1049,7 @@ deDE = "Sorgfältige Rückgewinnung Behandlung"
 plPL = "Staranna Rekultywacja"
 ptBR = "Tratamento de Reabastecimento Cuidadoso"
 koKR = "신중한 재활용 처리"
+csCZ = "Pečlivé využití zdrojů"
 
 ["LV.BRe.Recipe.MillworkIntegration"]
 status = "normal"
@@ -994,6 +1064,7 @@ deDE = "Holzverarbeitung Integration"
 plPL = "Integracja obróbki drewna"
 ptBR = "Integração de Marcenaria"
 koKR = "밀 작업 통합"
+csCZ = "Integrace dřevařských prací"
 
 ["LV.BRe.Recipe.CaffeinatedEggplantRation"]
 status = "normal"
@@ -1008,6 +1079,7 @@ deDE = "Koffeinierte Auberginenration"
 plPL = "Racja z Kofeinowym Bakłażanem"
 ptBR = "Ração de Berinjela Cafeinada"
 koKR = "카페인 농축 가지 식량"
+csCZ = "Kofeinová porce lilku"
 
 ["LV.BRe.Recipe.CaffeinatedAlgaeRation"]
 status = "normal"
@@ -1022,6 +1094,7 @@ deDE = "Koffeinreiche Algenration"
 plPL = "Porcja glonów z kofeiną"
 ptBR = "Ração de Algas Cafeinadas"
 koKR = "카페인 함유 해조류 배급식"
+csCZ = "Kofeinová racionální řasa"
 
 ["LV.BRe.Recipe.CaffeinatedCornRation"]
 status = "normal"
@@ -1036,6 +1109,7 @@ deDE = "Koffeinierte Maisration"
 plPL = "Kofeinowa racja z kukurydzy"
 ptBR = "Ração de Milho Cafeinado"
 koKR = "카페인 옥수수 배급"
+csCZ = "Kofeinové kukuřičné příděly"
 
 ["LV.BRe.Recipe.SawdustBread"]
 status = "normal"
@@ -1050,6 +1124,7 @@ deDE = "Sägespänebrot"
 plPL = "Chleb z trocin"
 ptBR = "Pão de Serragem"
 koKR = "톱밥 빵"
+csCZ = "Chléb ze pilin"
 
 ["LV.BRe.Recipe.FlatBread"]
 status = "normal"
@@ -1064,6 +1139,7 @@ deDE = "Fladenbrot"
 plPL = "Chleb Płaski"
 ptBR = "Pão Plano"
 koKR = "납작빵"
+csCZ = "Ploché chléb"
 
 ["LV.BRe.Recipe.RoastedCattail"]
 status = "normal"
@@ -1078,6 +1154,7 @@ deDE = "Geröstetes Rohrkolben"
 plPL = "Pieczołowicie upieczona trzcinowata"
 ptBR = "Juncos Torrados"
 koKR = "구운 갈대"
+csCZ = "Pečený kocour"
 
 ["LV.BRe.Recipe.GrandForestBarbecue"]
 status = "normal"
@@ -1092,6 +1169,7 @@ deDE = "Großes Wald-Barbecue"
 plPL = "Wielki Leśny Grill"
 ptBR = "Churrasco da Grande Floresta"
 koKR = "대숲 바베큐"
+csCZ = "Velký lesní gril"
 
 ["LV.BRe.Recipe.MixedGrainBaking"]
 status = "normal"
@@ -1106,6 +1184,7 @@ deDE = "Gemischtes Getreidebacken"
 plPL = "Pieczenie Mieszanych Zbóż"
 ptBR = "Assado de Grãos Mistos"
 koKR = "혼합 곡물 베이킹"
+csCZ = "Míchání zrnin"
 
 ["LV.BRe.Recipe.CornBoostedCanolaOil"]
 status = "normal"
@@ -1120,6 +1199,7 @@ deDE = "Mais-unterstütztes Rapsöl"
 plPL = "Rzepakowy olej wzmocniony kukurydzą"
 ptBR = "Óleo de Canola Turbinado com Milho"
 koKR = "옥수수 강화 카놀라유"
+csCZ = "Kukuřičný olej s posilovačem"
 
 ["LV.BRe.Recipe.CornCutCoffee"]
 status = "normal"
@@ -1134,6 +1214,7 @@ deDE = "Mais-Cut Kaffee"
 plPL = "Kawa z Kukurydzy"
 ptBR = "Café de Milho Cortado"
 koKR = "옥수수 잘라낸 커피"
+csCZ = "Kávu z nasekané kukuřice"
 
 ["LV.BRe.Recipe.DilutedCanolaOil"]
 status = "normal"
@@ -1148,3 +1229,4 @@ deDE = "Verdünntes Rapsöl"
 plPL = "Rozcieńczony olej rzepakowy"
 ptBR = "Óleo de Canola Diluído"
 koKR = "희석한 유채유"
+csCZ = "Ředěný řepkový olej"

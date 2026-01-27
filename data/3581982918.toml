@@ -14,6 +14,7 @@ deDE = "Wirkungsfaktor"
 plPL = "Mnożnik efektu"
 ptBR = "Multiplicador de efeito"
 koKR = "효과 배수"
+csCZ = "Multiplikátor efektu"
 
 ["LV.CFun.PointMulDesc"]
 raw = "How fast the Need point increases for Attraction buildings.\n1 is the game default, higher is faster (easier), lower is slower (harder)."
@@ -28,6 +29,7 @@ deDE = "Wie schnell der Bedarfspunkt für Anziehungsgebäude steigt. \n1 ist der
 plPL = "Jak szybko rośnie punkt potrzeby dla budynków atrakcji. \n1 to domyślny ustawienie w grze, wyższa wartość oznacza szybszy wzrost (łatwiejsze), niższa wartość oznacza wolniejszy wzrost (trudniejsze)."
 ptBR = "Quão rápido o ponto de Necessidade aumenta para os edifícios de Atração. 1 é o padrão do jogo, mais alto é mais rápido (mais fácil), mais baixo é mais lento (mais difícil)."
 koKR = "매력 건물에 대한 필요 포인트가 증가하는 속도입니다. \n1은 게임 기본값이며, 숫자가 클수록 더 빠르게(더 쉽게) 증가하고, 작을수록 더 느리게(더 어렵게) 증가합니다."
+csCZ = "Jak rychle se zvyšuje bod potřeb pro budovy přitažlivosti. 1 je výchozí hodnota hry, vyšší je rychlejší (snazší), nižší je pomalejší (těžší)."
 
 ["LV.CFun.CapacityMul"]
 raw = "Capacity multiplier"
@@ -42,6 +44,7 @@ deDE = "Kapazitätsmultiplikator"
 plPL = "Multiplikator pojemności"
 ptBR = "Multiplicador de capacidade"
 koKR = "용량 배수기"
+csCZ = "Multiplikátor kapacity"
 
 ["LV.CFun.CapacityMulDesc"]
 raw = "Multiply the capacity of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more capacity (easier), lower is less capacity (harder).\nFor example, 1.5 means Campfire (default 5 spots) would have 7 spots."
@@ -56,6 +59,7 @@ deDE = "Schlüsselname: LV.CFun.CapacityMulDesc - Übersetzung: \"Multipliziere 
 plPL = "Multiplikuj pojemność budynków atrakcji. Zaokrąglone w dół z minimum 1. \n1 to domyślna wartość w grze, wyższe to większa pojemność (łatwiejsze), niższe to mniejsza pojemność (trudniejsze).\nNa przykład, 1.5 oznacza, że Ognisko (domyślnie 5 miejsc) miałoby 7 miejsc."
 ptBR = "Multiplique a capacidade dos edifícios de Atração. Arredondado para baixo com mínimo de 1. \n1 é o padrão do jogo, valores mais altos representam mais capacidade (mais fácil), valores mais baixos representam menos capacidade (mais difícil). \nPor exemplo, 1,5 significa que a Fogueira (padrão de 5 lugares) teria 7 lugares."
 koKR = "어트랙션 건물의 용량을 곱합니다. 최소 1로 내림 처리됩니다.  \n1은 게임 기본값이며, 숫자가 높을수록 용량이 증가(쉬움)하고, 숫자가 낮을수록 용량이 감소(어려움)합니다.  \n예를 들어, 1.5는 캠프파이어(기본 5개 자리)가 7개 자리가 됩니다."
+csCZ = "Násobte kapacitu atrakcí. Zaokrouhleno dolů na minimum 1. \n1 je výchozí hodnota ve hře, vyšší hodnota znamená větší kapacitu (snazší), nižší hodnota znamená menší kapacitu (těžší).\nNapříklad 1.5 znamená, že Ohnisko (výchozích 5 míst) by mělo 7 míst."
 
 ["LV.CFun.CapacityAdd"]
 raw = "Capacity addition"
@@ -70,6 +74,7 @@ deDE = "Kapazitätserhöhung"
 plPL = "Dodatek do pojemności"
 ptBR = "Adição de capacidade"
 koKR = "용량 추가"
+csCZ = "Zvýšení kapacity"
 
 ["LV.CFun.CapacityAddDesc"]
 raw = "Add to the capacity of Attraction buildings. After multiplication."
@@ -84,6 +89,7 @@ deDE = "Erhöht die Kapazität von Attraktionsgebäuden. Nach der Multiplikation
 plPL = "Zwiększa pojemność budynków atrakcji. Po pomnożeniu."
 ptBR = "Adiciona à capacidade de edifícios de Atração. Após a multiplicação."
 koKR = "매력 건물의 용량을 추가합니다. 곱셈 이후."
+csCZ = "Přidat k kapacitě atrakcí. Po násobení."
 
 ["LV.CFun.RangeMul"]
 raw = "Range multiplier"
@@ -98,6 +104,7 @@ deDE = "Reichweitenmultiplikator"
 plPL = "Mnożnik zasięgu"
 ptBR = "Multiplicador de alcance"
 koKR = "범위 곱셈기"
+csCZ = "Multiplikátor dosahu"
 
 ["LV.CFun.RangeMulDesc"]
 raw = "Multiply the range of Attraction buildings. Rounded down with minimum 1.\n1 is the game default, higher is more range (easier), lower is less range (harder).\nFor example, 1.5 means Farmer Monument (default 7 tiles range) would have 10 tiles range."
@@ -112,6 +119,7 @@ deDE = "Multipliziere den Bereich von Attraktionsgebäuden. Nach unten gerundet 
 plPL = "Pomnóż zasięg budynków przyciągających. Zaokrąglone w dół z minimalną wartością 1.  \n1 to domyślna wartość w grze, wyższa oznacza większy zasięg (łatwiej), niższa oznacza mniejszy zasięg (trudniej).  \nNa przykład 1,5 oznacza, że Pomnik Rolnika (domyślny zasięg 7 płytek) miałby zasięg 10 płytek."
 ptBR = "Multiplique o alcance dos edifícios de Atração. Arredondado para baixo com mínimo de 1.\n1 é o valor padrão do jogo, valores mais altos significam mais alcance (mais fácil), valores mais baixos significam menos alcance (mais difícil).\nPor exemplo, 1,5 significa que o Monumento do Agricultor (alcance padrão de 7 tiles) teria 10 tiles de alcance."
 koKR = "매력 건물의 범위를 곱합니다. 최소 1로 내림 처리됩니다. \n1은 게임 기본값이며, 더 높을수록 범위가 늘어나고(더 쉬움), 더 낮을수록 범위가 줄어듭니다(더 어려움). \n예를 들어, 1.5는 농부 기념비(기본 7타일 범위)가 10타일 범위를 가지게 됨을 의미합니다."
+csCZ = "Násobte dosah budov přitažlivosti. Zaokrouhluje se dolů, minimálně 1. 1 je výchozí hodnota ve hře, vyšší znamená větší dosah (snazší), nižší znamená menší dosah (těžší). Například 1,5 znamená, že Monument farmáře (výchozí dosah 7 bloků) by měl dosah 10 bloků."
 
 ["LV.CFun.RangeAdd"]
 raw = "Range addition"
@@ -126,6 +134,7 @@ deDE = "Bereichszusatz"
 plPL = "Dodawanie zasięgu"
 ptBR = "Adição de alcance"
 koKR = "범위 추가"
+csCZ = "Rozšíření rozsahu"
 
 ["LV.CFun.RangeAddDesc"]
 raw = "Add to the range of Attraction buildings. After multiplication."
@@ -140,3 +149,4 @@ deDE = "Erweitert den Wirkungskreis von Anziehung-Gebäuden. Nach der Multiplika
 plPL = "Zwiększ zasięg budynków przyciągania. Po pomnożeniu."
 ptBR = "Adiciona ao alcance dos edifícios de Atração. Após a multiplicação."
 koKR = "매력 건물의 범위를 추가합니다. 곱셈 후에."
+csCZ = "Přidejte do rozsahu atrakcí budov. Po násobení."

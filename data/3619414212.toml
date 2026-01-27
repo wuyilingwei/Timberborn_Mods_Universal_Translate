@@ -14,6 +14,7 @@ deDE = "Werkzeuge"
 plPL = "Narzędzia"
 ptBR = "Ferramentas"
 koKR = "도구"
+csCZ = "Nástroje"
 
 ["IgorZ.CustomTools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
@@ -28,6 +29,7 @@ deDE = "Halten Sie <i>SHIFT</i>, um nur Elemente eines Typs auszuwählen."
 plPL = "Przytrzymaj <i>SHIFT</i>, aby wybrać tylko przedmioty jednego typu."
 ptBR = "Mantenha <i>SHIFT</i> pressionado para selecionar itens de um único tipo."
 koKR = "<i>SHIFT</i> 키를 누르고 있으면 한 종류의 아이템만 선택할 수 있습니다."
+csCZ = "Držte <i>SHIFT</i>, abyste vybírali pouze položky jednoho typu."
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
@@ -42,6 +44,7 @@ deDE = "Auswahl: {0} (x{1})"
 plPL = "Wybieranie: {0} (x{1})"
 ptBR = "Selecionando: {0} (x{1})"
 koKR = "선택 중: {0} (x{1})"
+csCZ = "Výběr: {0} (x{1})"
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
@@ -56,6 +59,7 @@ deDE = "Auswählen: {0}"
 plPL = "Wybieranie: {0}"
 ptBR = "Selecionando: {0}"
 koKR = "선택 중: {0}"
+csCZ = " Výběr: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
@@ -70,6 +74,7 @@ deDE = "Klikke um mit der Auswahl zu beginnen: {0}"
 plPL = "Kliknij, aby rozpocząć wybieranie: {0}"
 ptBR = " clique para começar a selecionar: {0}"
 koKR = "선택을 시작하려면 클릭하세요: {0}"
+csCZ = "Klikněte pro zahájení výběru: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
@@ -84,6 +89,7 @@ deDE = "Zeigen Sie auf ein Objekt und klicken Sie, um die Auswahl zu starten"
 plPL = "Wskaź na obiekt i kliknij, aby rozpocząć wybieranie"
 ptBR = "Apontar para uma entidade e clicar para começar a selecionar"
 koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
+csCZ = "NamTargethe entity a klikněte pro začátek výběru"
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Description"]
 raw = "Immediately finishes the selected constructables."
@@ -98,6 +104,7 @@ deDE = "Beendet sofort die ausgewählten Bauwerke."
 plPL = "Natychmiast kończy wybrane budowle."
 ptBR = "Finaliza imediatamente os construtores selecionados."
 koKR = "선택한 건축물을 즉시 완료합니다."
+csCZ = "Okamžitě dokončí vybrané stavby."
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Title"]
 raw = "Finish now debug tool"
@@ -112,6 +119,7 @@ deDE = "Debug-Werkzeug jetzt beenden"
 plPL = "Narzędzie do debugowania - zakończ teraz"
 ptBR = "Ferramenta de depuração finalizar agora"
 koKR = "지금 디버그 도구 완료"
+csCZ = "Nástroj pro okamžité dokončení ladění"
 
 ["IgorZ.CustomTools.PauseTool.Description"]
 raw = "Use this tool to pause buildings and construction sites."
@@ -126,6 +134,7 @@ deDE = "Verwenden Sie dieses Werkzeug, um Gebäude und Baustellen zu pausieren."
 plPL = "Użyj tego narzędzia, aby wstrzymać budynki i miejsca budowy."
 ptBR = "Use esta ferramenta para pausar edifícios e canteiros de obras."
 koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지합니다."
+csCZ = "Použijte tento nástroj k pozastavení budov a stavebních míst."
 
 ["IgorZ.CustomTools.PauseTool.Title"]
 raw = "Pause buildings"
@@ -140,6 +149,7 @@ deDE = "Gebäude pausieren"
 plPL = "Zatrzymaj budynki"
 ptBR = "Pausar construções"
 koKR = "건물 일시 정지"
+csCZ = "Pausovat budovy"
 
 ["IgorZ.CustomTools.ResumeTool.Description"]
 raw = "Use this tool to unpause buildings and construction sites."
@@ -154,6 +164,7 @@ deDE = "Verwenden Sie dieses Werkzeug, um Gebäude und Baustellen wieder zu akti
 plPL = "Użyj tego narzędzia, aby wznowić budynki i place budowy."
 ptBR = "Use esta ferramenta para reativar edifícios e canteiros de obras."
 koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지 해제하세요."
+csCZ = "Použijte tento nástroj k obnovení činnosti budov a stavebních míst."
 
 ["IgorZ.CustomTools.ResumeTool.Title"]
 raw = "Unpause buildings"
@@ -168,6 +179,7 @@ deDE = "Bauten wieder aktivieren"
 plPL = "Wznów budynki"
 ptBR = "Reativar construções"
 koKR = "건물 다시 시작하기"
+csCZ = "Obnovit budovy"
 
 ["="]
 status = "normal"
@@ -182,6 +194,7 @@ deDE = "="
 plPL = "="
 ptBR = "="
 koKR = "="
+csCZ = "\"\""
 
 ["IgorZ.CustomTools.KeyBindingGroup"]
 raw = "CustomTools Mod"
@@ -196,3 +209,4 @@ deDE = "CustomTools Mod"
 plPL = "Mod Narzędzi Niestandardowych"
 ptBR = "Mod Ferramentas Personalizadas"
 koKR = "사용자 도구 모드"
+csCZ = "Mod CustomTools"

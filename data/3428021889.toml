@@ -14,6 +14,7 @@ deDE = "Verwenden Sie feste Tiefe"
 plPL = "Użyj stałej głębokości"
 ptBR = "Use profundidade fixa"
 koKR = "고정 깊이 사용"
+csCZ = "Použít pevnou hloubku"
 
 ["LV.SPE.AllFixedDepthDesc"]
 raw = "All pumps will have a fixed maximum depth"
@@ -28,6 +29,7 @@ deDE = "Alle Pumpen haben eine feste maximale Tiefe."
 plPL = "Wszystkie pompy będą miały stałą maksymalną głębokość."
 ptBR = "Todas as bombas terão uma profundidade máxima fixa."
 koKR = "모든 펌프는 고정된 최대 깊이를 가집니다."
+csCZ = "Všechny pumpy budou mít pevnou maximální hloubku"
 
 ["LV.SPE.FixedDepth"]
 raw = "Fixed depth"
@@ -42,6 +44,7 @@ deDE = "Feste Tiefe"
 plPL = "Stała głębokość"
 ptBR = "Profundidade fixa"
 koKR = "고정 깊이"
+csCZ = "Pevná hloubka"
 
 ["LV.SPE.FixedDepthDesc"]
 raw = "The fixed depth for all pump maximum depths"
@@ -56,6 +59,7 @@ deDE = "Die feste Tiefe für alle maximalen Tiefen der Pumpen"
 plPL = "Stała głębokość dla wszystkich maksymalnych głębokości pompy"
 ptBR = "A profundidade fixa para todas as profundidades máximas da bomba"
 koKR = "모든 펌프 최대 깊이에 대한 고정 깊이"
+csCZ = "Pevná hloubka pro všechny maximální hloubky čerpadel"
 
 ["LV.SPE.AllMultiplier"]
 raw = "Use multiplier"
@@ -70,6 +74,7 @@ deDE = "Verwenden Sie einen Multiplikator."
 plPL = "Użyj mnożnika"
 ptBR = "Usar multiplicador"
 koKR = "배율 사용"
+csCZ = "Použít násobitel"
 
 ["LV.SPE.AllMultiplierDesc"]
 raw = "All pumps will use a multiplier for maximum depth"
@@ -84,6 +89,7 @@ deDE = "Alle Pumpen verwenden einen Multiplikator für die maximale Tiefe."
 plPL = "Wszystkie pompy będą używać mnożnika dla maksymalnej głębokości."
 ptBR = "Todas as bombas usarão um multiplicador para a profundidade máxima."
 koKR = "모든 펌프는 최대 깊이에 대한 배수를 사용합니다"
+csCZ = "Všechny pumpy budou používat násobitel pro maximální hloubku."
 
 ["LV.SPE.Multiplier"]
 raw = "Multiplier"
@@ -98,6 +104,7 @@ deDE = "Multiplikator"
 plPL = "Mnożnik"
 ptBR = "Multiplicador"
 koKR = "배수기"
+csCZ = "Multiplier"
 
 ["LV.SPE.MultiplierDesc"]
 raw = "The multiplier for all pump maximum depths"
@@ -112,6 +119,7 @@ deDE = "Der Multiplikator für alle maximalen Pumpentiefen"
 plPL = "Mnożnik dla wszystkich maksymalnych głębokości pomp"
 ptBR = "O multiplicador para todas as profundidades máximas da bomba"
 koKR = "모든 펌프 최대 깊이에 대한 배수기"
+csCZ = "Multiplikátor pro maximální hloubky všech čerpadel"
 
 ["LV.SPE.WaterConversation"]
 raw = "Water product conversion rate"
@@ -126,6 +134,7 @@ deDE = "Wasserproduktumwandlungsrate"
 plPL = "Współczynnik konwersji produktów wodnych"
 ptBR = "Taxa de conversão de produto de água"
 koKR = "물 제품 전환 비율"
+csCZ = "Míra konverze vodního produktu"
 
 ["LV.SPE.WaterConversationDesc"]
 raw = "The conversion rate for water product vs. volume.\nGame default: 0.2, meaning Water Pumps take 0.2m³ to produce 1 Water product and Water Dumps produce 0.2m³ per Water product"
@@ -140,6 +149,7 @@ deDE = "Die Umwandlungsrate für Wasserprodukte im Vergleich zum Volumen. Spiels
 plPL = "Współczynnik konwersji dla produktu wodnego w porównaniu do objętości (domyślnie w grze: 0,2, co oznacza, że pompy wodne zużywają 0,2 m³ do wyprodukowania 1 produktu wodnego, a zrzuty wodne produkują 0,2 m³ na produkt wodny)"
 ptBR = "A taxa de conversão para produto de água em relação ao volume (padrão do jogo: 0,2, significando que Bombas de Água utilizam 0,2m³ para produzir 1 produto de água e Lixos de Água produzem 0,2m³ por produto de água)"
 koKR = "수조 제품과 부피 간의 변환 비율(게임 기본값: 0.2, 즉 물 펌프는 1개의 수조 제품을 생산하는 데 0.2m³를 소비하고, 물 덤프는 수조 제품당 0.2m³를 생산함)"
+csCZ = "Poměr přeměny vody na produkt vs. objem. \nVýchozí hodnota hry: 0,2, což znamená, že Vodní čerpadla spotřebují 0,2 m³ k výrobě 1 vodního produktu a Vodní skládky produkují 0,2 m³ na produkt vody."
 
 ["LV.SPE.MechPumpWater"]
 raw = "Mechanical pump amount (⚡!)"
@@ -154,6 +164,7 @@ deDE = "Mechanische Pumpenmenge (⚡!)"
 plPL = "Ilość pompy mechanicznej (⚡!)"
 ptBR = "Quantidade de bomba mecânica (⚡!)"
 koKR = "기계 펌프 양 (⚡!)"
+csCZ = "Množství mechanické pumpy (⚡!)"
 
 ["LV.SPE.MechPumpWaterDesc"]
 raw = "The amount of water per second that the mechanical pump pumps (Game default: 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly, see below."
@@ -168,6 +179,7 @@ deDE = "Die Menge an Wasser pro Sekunde, die die mechanische Pumpe fördert (Spi
 plPL = "Ilość wody na sekundę, którą pompuje pompa mechaniczna (domyślnie w grze: 0,25 m³/s).  \n⚡ Uwaga: zmiana tej wartości również zwiększa lub zmniejsza zużycie energii odpowiednio, patrz poniżej."
 ptBR = "A quantidade de água por segundo que a bomba mecânica bombeia (padrão do jogo: 0,25 m³/s).  \n⚡ Nota: alterar isso também aumenta ou diminui o consumo de energia de acordo, veja abaixo."
 koKR = "기계 펌프가 초당 펌프하는 물의 양 (게임 기본값: 0.25m³/s).\n⚡ 주의: 이 값을 변경하면 전력 사용량도 이에 따라 증가하거나 감소합니다. 아래를 참조하세요."
+csCZ = "Množství vody za sekundu, které mechanické čerpadlo přečerpává (výchozí hodnota hry: 0,25m³/s).  \n⚡ Poznámka: změna tohoto také odpovídajícím způsobem zvyšuje nebo snižuje spotřebu energie, viz níže."
 
 ["LV.SPE.MechPumpWaterMul"]
 raw = "Mechanical pump amount multiplier (⚡!)"
@@ -182,6 +194,7 @@ deDE = "Mechanischer Pumpenmenge-Multiplikator (⚡!)"
 plPL = "Multiplikator ilości pompy mechanicznej (⚡!)"
 ptBR = "Multiplicador de quantidade da bomba mecânica (⚡!)"
 koKR = "기계 펌프 양 배수기 (⚡!)"
+csCZ = "Multiplikátor množství mechanické pumpy (⚡!)"
 
 ["LV.SPE.MechPumpWaterMulDesc"]
 raw = "The multiplier for the amount of water per second that the mechanical pump pumps (Game default: 1x = 0.25m³/s).\n⚡ Note: changing this also increase or decrease power usage accordingly.\nNote: don't increase this too much (> x2) as the pump can only take water from 1 cube anyway."
@@ -196,6 +209,7 @@ deDE = "Der Multiplikator für die Menge an Wasser pro Sekunde, die die mechanis
 plPL = "Mnożnik ilości wody na sekundę, którą pompa mechaniczna tłoczy (domyślnie w grze: 1x = 0,25m³/s).  \n⚡ Uwaga: zmiana tej wartości również zwiększa lub zmniejsza zużycie energii odpowiednio.  \nUwaga: nie zwiększaj tej wartości zbyt mocno (> x2), ponieważ pompa może pobierać wodę tylko z 1 sześcianu."
 ptBR = "O multiplicador para a quantidade de água por segundo que a bomba mecânica bombeia (padrão do jogo: 1x = 0,25m³/s).\n⚡ Nota: alterar isso também aumenta ou diminui o consumo de energia de acordo.\nNota: não aumente isso demais (> x2), pois a bomba pode extrair água de apenas 1 cubo de qualquer maneira."
 koKR = "기계 펌프가 초당 펌프질하는 물의 양에 대한 배수기 (게임 기본값: 1배 = 0.25m³/s).\n⚡ 참고: 이것을 변경하면 전력 사용량도 그에 따라 증가하거나 감소합니다.\n참고: 이 값을 너무 많이 증가시키지 마세요 (> 2배), 왜냐하면 펌프는 어차피 1큐브에서만 물을 취할 수 있기 때문입니다."
+csCZ = "Násobitel množství vody za sekundu, kterou mechanické čerpadlo pumpuje (výchozí hodnota hry: 1x = 0,25 m³/s).\n⚡ Poznámka: změna této hodnoty také odpovídajícím způsobem zvýší nebo sníží spotřebu energie.\nPoznámka: nepřehánějte to s navyšováním této hodnoty (> x2), protože čerpadlo může čerpat vodu pouze z 1 kubíku."
 
 ["LV.SPE.MechPumpPowerMultiplier"]
 raw = "Mechanical pump power multiplier"
@@ -210,6 +224,7 @@ deDE = "Mechanischer Pumpenleistungsverstärker"
 plPL = "Mnożnik mocy pompy mechanicznej"
 ptBR = "Multiplicador de potência da bomba mecânica"
 koKR = "기계 펌프 전력 배율"
+csCZ = "Multiplikátor výkonu mechanické pumpy"
 
 ["LV.SPE.MechPumpPowerDesc"]
 raw = "When you increase or decrease the mechanical pump water amount, the power usage is also adjusted accordingly.\nYou can, however, change the power usage multiplier here to make it use more or less (cheating :P) power than the default calculation.\nFor example, setting Water amount to x2 while setting this to x0.5 will make the pump use the same power as default, but pump double the water."
@@ -224,6 +239,7 @@ deDE = "Wenn du die Wassermenge der mechanischen Pumpe erhöhst oder verringerst
 plPL = "Kiedy zwiększasz lub zmniejszasz ilość wody w pompie mechanicznej, zużycie mocy jest również odpowiednio dostosowywane. Możesz jednak zmienić mnożnik zużycia mocy tutaj, aby używał więcej lub mniej (oszustwo :P) mocy niż domyślne obliczenia. Na przykład ustawiając ilość wody na x2, a to na x0.5, pompa będzie używała tej samej mocy co domyślnie, ale będzie pompować podwójną ilość wody."
 ptBR = "Quando você aumenta ou diminui a quantidade de água da bomba mecânica, o consumo de energia também é ajustado de acordo. Você pode, no entanto, mudar o multiplicador de consumo de energia aqui para fazer com que ela use mais ou menos (trapaceando :P) energia do que o cálculo padrão. Por exemplo, definir a quantidade de água para x2 enquanto configura isso para x0,5 fará com que a bomba use a mesma energia que o padrão, mas bombeie o dobro da água."
 koKR = "기계 펌프의 물 양을 늘리거나 줄이면 전력 사용량도 그에 따라 조정됩니다. 그러나 여기에서 전력 사용량 배수를 변경하여 기본 계산보다 더 많이 또는 덜 (치트 :P) 사용하도록 설정할 수 있습니다. 예를 들어, 물 양을 x2로 설정하고 이 값을 x0.5로 설정하면 펌프는 기본과 동일한 전력을 사용하면서 두 배의 물을 펌프질하게 됩니다."
+csCZ = "Když zvýšíte nebo snížíte množství vody z mechanického čerpadla, také se odpovídajícím způsobem upraví spotřeba energie. Můžete však zde změnit násobitel spotřeby energie, aby čerpadlo používalo více nebo méně (podvádění :P) energie než ve výchozím výpočtu. Například nastavení množství vody na x2 při nastavení tohoto na x0.5 způsobí, že čerpadlo použije stejnou energii jako ve výchozím nastavení, ale čerpá dvojnásobné množství vody."
 
 ["LV.SPE.WaterProdTimeMultiplier"]
 raw = "Water production time multiplier"
@@ -238,6 +254,7 @@ deDE = "Wasserproduktionszeitmultiplikator"
 plPL = "Mnożnik czasu produkcji wody"
 ptBR = "Multiplicador de tempo de produção de água"
 koKR = "물 생산 시간 배율"
+csCZ = "Násobitel času výroby vody"
 
 ["LV.SPE.WaterProdTimeMultiplierDesc"]
 raw = "The multiplier for water production time (higher is harder). Game default 1x = 0.33 hour for 1 Water for Water Pumps. Setting this to 0.5 will make it produce 1 water in 0.165 hour while setting it to 2 will make it produce 1 water in 0.66 hour."
@@ -252,3 +269,4 @@ deDE = "Der Multiplikator für die Wasserproduktionszeit (höher ist schwieriger
 plPL = "Mnożnik czasu produkcji wody (wyższy jest trudniejszy). Domyślnie w grze 1x = 0,33 godziny na 1 Wodę dla pomp wodnych. Ustawienie tego na 0,5 spowoduje, że produkcja 1 wody zajmie 0,165 godziny, a ustawienie na 2 spowoduje, że produkcja 1 wody zajmie 0,66 godziny."
 ptBR = "O multiplicador para o tempo de produção de água (quanto maior, mais difícil). O padrão do jogo é 1x = 0,33 hora para 1 Água nas Bombas de Água. Definir isso como 0,5 fará com que produza 1 água em 0,165 hora, enquanto definir como 2 fará com que produza 1 água em 0,66 hora."
 koKR = "물 생산 시간에 대한 배수기입니다 (값이 높을수록 어려워짐). 게임 기본값은 물 펌프에 대해 1물에 0.33시간입니다. 이를 0.5로 설정하면 1물 생산에 0.165시간이 걸리며, 2로 설정하면 1물 생산에 0.66시간이 걸립니다."
+csCZ = "Násobitel pro čas výroby vody (čím vyšší, tím obtížnější). Výchozí hodnota hry 1x = 0,33 hodiny na 1 vodu pro vodní čerpadla. Nastavení na 0,5 způsobí, že vyprodukuje 1 vodu za 0,165 hodiny, zatímco nastavení na 2 způsobí, že vyprodukuje 1 vodu za 0,66 hodiny."

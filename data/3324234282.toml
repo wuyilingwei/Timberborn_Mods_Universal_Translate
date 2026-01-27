@@ -14,6 +14,7 @@ deDE = "Verwenden Sie dieses Tool, um jegliche Automatisierung in den Gebäuden 
 plPL = "Użyj tego narzędzia, aby oczyścić wszelką automatyzację w budynkach lub na placach budowy."
 ptBR = "Use esta ferramenta para limpar qualquer automação nos edifícios ou canteiros de obras."
 koKR = "이 도구를 사용하여 건물이나 건설 현장의 자동화를 정리하세요."
+csCZ = "Použijte tento nástroj k odstranění jakékoli automatizace na budovách nebo staveništích."
 
 ["IgorZ.Automation.CancelTool.Title"]
 raw = "Cancel automation"
@@ -28,6 +29,7 @@ deDE = "Automatisierung abbrechen"
 plPL = "Anuluj automatyzację"
 ptBR = "Cancelar automação"
 koKR = "자동화 취소"
+csCZ = "Zrušit automatizaci"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description"]
 raw = "<YellowHighlight>blocks path</YellowHighlight>"
@@ -42,6 +44,7 @@ deDE = "<YellowHighlight>blockiert den Weg</YellowHighlight>"
 plPL = "<YellowHighlight>blokuje ścieżkę</YellowHighlight>"
 ptBR = "<YellowHighlight>bloqueia o caminho</YellowHighlight>"
 koKR = "<YellowHighlight>경로를 차단합니다</YellowHighlight>"
+csCZ = "<ŽlutéZvýraznění>blokuje cestu</ŽlutéZvýraznění>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotBlocking.Description"]
 raw = "<YellowHighlight>doesn't block path</YellowHighlight>"
@@ -56,6 +59,7 @@ deDE = "<YellowHighlight>blockiert den Weg nicht</YellowHighlight>"
 plPL = "<YellowHighlight>nie blokuje ścieżki</YellowHighlight>"
 ptBR = "<YellowHighlight>não bloqueia o caminho</YellowHighlight>"
 koKR = "<YellowHighlight>경로를 차단하지 않음</YellowHighlight>"
+csCZ = "<YellowHighlight>neblokuje cestu</YellowHighlight>"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.NotYetReachable"]
 raw = "Builders can't reach it yet, but a path is being constructed"
@@ -70,6 +74,7 @@ deDE = "Die Bauarbeiter können es noch nicht erreichen, aber ein Weg wird gebau
 plPL = "Budowniczy jeszcze nie mogą się tam dostać, ale ścieżka jest w budowie."
 ptBR = "Os construtores ainda não conseguem alcançá-lo, mas um caminho está sendo construído."
 koKR = "건축가들이 아직 도달할 수 없지만, 경로가 건설되고 있습니다."
+csCZ = "Stavitelé se k tomu zatím nemohou dostat, ale cesta se staví."
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableAlert"]
 raw = "Unreachable construction site"
@@ -84,6 +89,7 @@ deDE = "Nicht erreichbare Baustelle"
 plPL = "Niedostępny plac budowy"
 ptBR = "Canteiro de obras inacessível"
 koKR = "접근할 수 없는 건설 현장"
+csCZ = "Nedostupná stavba"
 
 ["IgorZ.Automation.CheckAccessBlockCondition.UnreachableStatus"]
 raw = "The builders can't find the way to this site. Maybe nothing can be constructed here"
@@ -98,6 +104,7 @@ deDE = "Die Bauarbeiter können den Weg zu diesem Standort nicht finden. Viellei
 plPL = "Budowniczowie nie mogą znaleźć drogi do tej lokalizacji. Może nic tutaj nie można zbudować."
 ptBR = "Os construtores não conseguem encontrar o caminho para este local. Talvez nada possa ser construído aqui."
 koKR = "건설자들이 이 장소로 가는 길을 찾을 수 없습니다. 아마도 여기서는 아무것도 건설할 수 없을 것입니다."
+csCZ = "Stavitelé nemohou najít cestu na toto místo. Možná zde není možné nic postavit."
 
 ["IgorZ.Automation.DebugPickTool.Description"]
 raw = "Prints components on the selected object."
@@ -112,6 +119,7 @@ deDE = "Druckt Komponenten auf dem ausgewählten Objekt."
 plPL = "Drukuje komponenty na wybranym obiekcie."
 ptBR = "Imprime componentes no objeto selecionado."
 koKR = "선택한 개체에 구성 요소를 인쇄합니다."
+csCZ = "Tiskne komponenty na vybraném objektu."
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint1"]
 raw = "Hold <i>SHIFT</i> to print Accessible."
@@ -126,6 +134,7 @@ deDE = "Halten Sie <i>SHIFT</i> gedrückt, um \"Zugänglich\" auszudrucken."
 plPL = "Naciśnij <i>SHIFT</i>, aby wydrukować Dostępne."
 ptBR = "Segure <i>SHIFT</i> para imprimir Acessível."
 koKR = "<i>SHIFT</i>키를 눌러 접근 가능하다고 인쇄하세요."
+csCZ = "„Držte <i>SHIFT</i>, aby se vytisklo Přístupné.“"
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint2"]
 raw = "Hold <i>CTRL</i> to print NavMesh edges."
@@ -140,6 +149,7 @@ deDE = "Halten Sie <i>CTRL</i>, um die NavMesh-Kanten zu drucken."
 plPL = "Przytrzymaj <i>CTRL</i>, aby wydrukować krawędzie NavMesh."
 ptBR = "Segure <i>CTRL</i> para imprimir as bordas do NavMesh."
 koKR = "<i>CTRL</i> 키를 누르고 있으면 NavMesh 엣지를 인쇄합니다."
+csCZ = "Podržte <i>CTRL</i> pro vytištění hran NavMesh."
 
 ["IgorZ.Automation.DebugPickTool.Title"]
 raw = "Debug tool"
@@ -154,6 +164,7 @@ deDE = "Debugging-Tool"
 plPL = "Narzędzie do debugowania"
 ptBR = "Ferramenta de depuração"
 koKR = "디버그 도구"
+csCZ = "Nástroj pro ladění"
 
 ["IgorZ.Automation.ShowStatusAction.AutomationErrorAlert"]
 raw = "Automation error"
@@ -168,6 +179,7 @@ deDE = "Automatisierungsfehler"
 plPL = "Błąd automatyzacji"
 ptBR = "Erro de automação"
 koKR = "자동화 오류"
+csCZ = "Chyba automatizace"
 
 ["IgorZ.Automation.ShowStatusAction.AutomationErrorDescription"]
 raw = "Some automation rules cannot be executed"
@@ -182,6 +194,7 @@ deDE = "Einige Automatisierungsregeln können nicht ausgeführt werden."
 plPL = "Niektóre zasady automatyzacji nie mogą być wykonane."
 ptBR = "Algumas regras de automação não podem ser executadas."
 koKR = "일부 자동화 규칙을 실행할 수 없습니다."
+csCZ = "Některá pravidla automatizace nelze provést"
 
 ["IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText"]
 raw = "Waiting for the other buildings to finish"
@@ -196,6 +209,7 @@ deDE = "Warten auf den Abschluss der anderen Gebäude"
 plPL = "Czekając na zakończenie budowy innych budynków"
 ptBR = "Aguardando os outros prédios terminarem"
 koKR = "다른 건물들이 완료되기를 기다리는 중"
+csCZ = "Čekání na dokončení ostatních budov"
 
 ["IgorZ.Automation.ShowStatusAction.HoldConstruction"]
 raw = "<YellowHighlight>hold completion</YellowHighlight>"
@@ -210,6 +224,7 @@ deDE = "<YellowHighlight>Halten Sie den Abschluss</YellowHighlight>"
 plPL = "<YellowHighlight>zatrzymaj zakończenie</YellowHighlight>"
 ptBR = "<YellowHighlight>manter conclusão</YellowHighlight>"
 koKR = "<YellowHighlight>완공 보류</YellowHighlight>"
+csCZ = "<ŽlutéZvýraznění>držet dokončení</ŽlutéZvýraznění>"
 
 ["IgorZ.Automation.ShowStatusAction.ResumeConstruction"]
 raw = "<YellowHighlight>resume building</YellowHighlight>"
@@ -224,6 +239,7 @@ deDE = "Lebenslauf erstellen"
 plPL = "tworzenie CV"
 ptBR = "<AmareloDestaque>construção de currículo</AmareloDestaque>"
 koKR = "<노란색 강조>건축 재개</노란색 강조>"
+csCZ = "<YellowHighlight>pokračovat ve stavbě</YellowHighlight>"
 
 ["IgorZ.Automation.Tool.tmpl.2LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 2 times"
@@ -238,6 +254,7 @@ deDE = "Dynamit 2 Mal sprengen"
 plPL = "Wybuchnij dynamit 2 razy"
 ptBR = "Exploda dinamite 2 vezes"
 koKR = "다이너마이트를 2번 폭발시키기"
+csCZ = "Explodovat dynamit 2krát"
 
 ["IgorZ.Automation.Tool.tmpl.3LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 3 times"
@@ -252,6 +269,7 @@ deDE = "Dynamit dreimal sprengen"
 plPL = "Wybuchnij dynamit 3 razy."
 ptBR = "Explodir dinamite 3 vezes"
 koKR = "다이너마이트를 3번 폭발시키기"
+csCZ = "Vyhodit do povětří dynamit 3krát"
 
 ["IgorZ.Automation.Tool.tmpl.4LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 4 times"
@@ -266,6 +284,7 @@ deDE = "Dynamit 4 Mal sprengen"
 plPL = "Eksploduj dynamit 4 razy"
 ptBR = "Exploda dinamite 4 vezes."
 koKR = "다이너마이트를 4번 폭발시킵니다"
+csCZ = "Vyhodit do vzduchu dynamit 4krát"
 
 ["IgorZ.Automation.Tool.tmpl.5LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 5 times"
@@ -280,6 +299,7 @@ deDE = "Dynamit 5 Mal sprengen"
 plPL = "Wybuchnij dynamit pięć razy."
 ptBR = "Exploda dinamite 5 vezes"
 koKR = "다이너마이트 5회 폭발"
+csCZ = "Výbuch dynamitu 5krát"
 
 ["IgorZ.Automation.Tool.tmpl.6LevelsDynamite.DisplayName"]
 raw = "Explode dynamite 6 times"
@@ -294,6 +314,7 @@ deDE = "Dynamit 6 Mal explodieren"
 plPL = "Wybuchnij dynamit 6 razy"
 ptBR = "Exploda dinamite 6 vezes."
 koKR = "다이너마이트를 6번 폭발시키기"
+csCZ = "Explodujte dynamit 6krát"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf1PlusCollectables.DisplayName"]
 raw = "Run if there are collectables"
@@ -308,6 +329,7 @@ deDE = "Ausführen, wenn Sammlerstücke vorhanden sind"
 plPL = "Uruchom, jeśli są zbiory"
 ptBR = "Executar se houver itens colecionáveis"
 koKR = "수집 가능한 항목이 있을 경우 실행"
+csCZ = "Spustit, pokud jsou sběratelské předměty"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf2PlusCollectables.DisplayName"]
 raw = "Run if there are 2 or more collectables"
@@ -322,6 +344,7 @@ deDE = "Ausführen, wenn 2 oder mehr Sammelobjekte vorhanden sind"
 plPL = "Uruchom, jeśli jest 2 lub więcej przedmiotów do zebrania"
 ptBR = "Executar se houver 2 ou mais colecionáveis"
 koKR = "2개 이상의 수집 아이템이 있을 경우 실행"
+csCZ = "Běh, pokud je 2 nebo více sbíratelných předmětů"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf3PlusCollectables.DisplayName"]
 raw = "Run if there are 3 or more collectables"
@@ -336,6 +359,7 @@ deDE = "Laufen, wenn 3 oder mehr Sammlerstücke vorhanden sind"
 plPL = "Uruchom, jeśli jest 3 lub więcej przedmiotów do zebrania"
 ptBR = "Executar se houver 3 ou mais colecionáveis"
 koKR = "수집 가능한 아이템이 3개 이상일 때 실행"
+csCZ = "Běh pokud jsou 3 nebo více sběratelných předmětů"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf4PlusCollectables.DisplayName"]
 raw = "Run if there are 4 or more collectables"
@@ -350,6 +374,7 @@ deDE = "Ausführen, wenn 4 oder mehr Sammelobjekte vorhanden sind"
 plPL = "Uruchom, jeśli jest 4 lub więcej przedmiotów do zebrania"
 ptBR = "Executar se houver 4 ou mais colecionáveis"
 koKR = "수집 가능한 아이템이 4개 이상일 때 실행"
+csCZ = "Spustit, pokud je 4 a více sběratelných předmětů"
 
 ["IgorZ.Automation.Tool.tmpl.RunIf5PlusCollectables.DisplayName"]
 raw = "Run if there are 5 or more collectables"
@@ -364,6 +389,7 @@ deDE = "Ausführen, wenn es 5 oder mehr Sammlerstücke gibt"
 plPL = "Uruchom, jeśli jest 5 lub więcej przedmiotów do zebrania"
 ptBR = "Executar se houver 5 ou mais colecionáveis"
 koKR = "수집 가능한 아이템이 5개 이상일 경우 실행"
+csCZ = "Spusťte, pokud je 5 nebo více sbíratelných předmětů"
 
 ["IgorZ.Automation.Tool.tmpl.HasCollectables.Description"]
 raw = "Apply this template to buildings that should be running as long as there are cuttable or gatherable items in the range of the building that can be collected."
@@ -378,6 +404,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die in Betrieb sein sollten, s
 plPL = "Zastosuj ten szablon do budynków, które powinny działać tak długo, jak w zasięgu budynku znajdują się przedmioty do ścięcia lub zebrania, które można pozyskać."
 ptBR = "Applique este template em edifícios que devem funcionar enquanto houver itens cortáveis ou coletáveis na área do edifício que podem ser coletados."
 koKR = "이 템플릿은 수확할 수 있는 아이템이 건물의 범위 내에 존재하는 한 작동해야 하는 건물에 적용하십시오."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly fungovat, dokud jsou v dosahu budovy předměty, které lze sklízet nebo sbírat."
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when badtide starts."
@@ -392,6 +419,7 @@ deDE = "Wenden Sie diese Vorlage auf die Schleusen an, die sich schließen müss
 plPL = "Zastosuj szablon na zapory, które muszą się zamknąć, gdy zaczyna się zły przypływ."
 ptBR = "Aplique este modelo nas comportas que precisam fechar quando a maré alta começa."
 koKR = "이 템플릿을 나쁜 조수가 시작될 때 닫아야 하는 수문에 적용하세요."
+csCZ = "Aplikujte tuto šablonu na hráze, které se mají zavřít, když začne zlý příliv."
 
 ["IgorZ.Automation.Tool.tmpl.BadtideCloseFloodgate.DisplayName"]
 raw = "Close floodgate on badtide start"
@@ -406,6 +434,7 @@ deDE = "Schließe das Sperrtor beim Start der schlechten Tide."
 plPL = "Zamknij grodzie na początku złej pływowej."
 ptBR = "Fechar comporta no início da maré alta"
 koKR = "나쁜 조수 시작 시 수문 닫기"
+csCZ = "Uzavřít přeliv při začátku nízké vody"
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when badtide starts."
@@ -420,6 +449,7 @@ deDE = "Wenden Sie diese Vorlage auf die Schleusentore an, die sich öffnen müs
 plPL = "Zastosuj ten szablon do śluz, które muszą się otworzyć, gdy zaczyna się zły przypływ."
 ptBR = "Aplique este modelo nas comportas que precisam abrir quando a maré alta começar."
 koKR = "나쁜 조수가 시작될 때 열어야 하는 홍수문에 이 템플릿을 적용하세요."
+csCZ = "Aplikujte tuto šablonu na hráze, které se musí otevřít, když začíná příliv."
 
 ["IgorZ.Automation.Tool.tmpl.BadtideOpenFloodgate.DisplayName"]
 raw = "Open floodgate on badtide start"
@@ -434,6 +464,7 @@ deDE = "Öffne das Schleusentor beim Beginn der schlechten Gezeiten."
 plPL = "Otwórz zastawę na początku złej pływy."
 ptBR = "Abrir a comporta no início da maré alta."
 koKR = "악성 조수 시작 시 수문 열기"
+csCZ = "Otevřít propust na začátku špatného přílivu"
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.Description"]
 raw = "Apply this template on buildings that should stay paused during badtides."
@@ -448,6 +479,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die während der schlechten Ge
 plPL = "Zastosuj ten szablon do budynków, które powinny pozostać wstrzymane podczas złych przypływów."
 ptBR = "Aplique este modelo em edifícios que devem permanecer pausados durante as marés altas."
 koKR = "악조 동안 일시 정지해야 하는 건물에 이 템플릿을 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly zůstat pozastavené během špatných přílivů."
 
 ["IgorZ.Automation.Tool.tmpl.BadtidePause.DisplayName"]
 raw = "Pause during badtide"
@@ -462,6 +494,7 @@ deDE = "Pause während Niedrigwasser"
 plPL = "Zatrzymanie w czasie złej pływy"
 ptBR = "Pausa durante a maré baixa"
 koKR = "악성 조수 동안 일시 중지"
+csCZ = "Pauza během špatného přílivu"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.Description"]
 raw = "Apply this template to buildings that should be running as long as there are unoccupied beds."
@@ -476,6 +509,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die in Betrieb sein sollten, s
 plPL = "Zastosuj ten szablon do budynków, które powinny działać tak długo, jak są wolne łóżka."
 ptBR = "Aplique este modelo a edifícios que devem estar em funcionamento enquanto houver leitos desocupados."
 koKR = "빈 침대가 있는 한 이 템플릿을 건물에 적용하여 작동하도록 합니다."
+csCZ = "Použijte tuto šablonu na budovy, které by měly fungovat, dokud jsou volné postele."
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMax.DisplayName"]
 raw = "Run until beaver population is at max"
@@ -490,6 +524,7 @@ deDE = "Laufen, bis die Biberpopulation maximal ist."
 plPL = "Biegaj, aż populacja bobrów osiągnie maksimum."
 ptBR = "Execute até que a população de castores esteja no máximo."
 koKR = "비버 인구가 최대에 도달할 때까지 실행"
+csCZ = "Běhej, dokud nebude populace bobrů na maximu"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 10 beavers below the current level."
@@ -504,6 +539,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben sollten, 
 plPL = "Zastosuj ten szablon do budynków, które powinny pozostać wstrzymane, aż populacja bobrów spadnie o 10 bobrów poniżej obecnego poziomu."
 ptBR = "Aplique este modelo a edifícios que devem permanecer pausados até que a população de castores caia 10 castores abaixo do nível atual."
 koKR = "이 템플릿을 적용하여 현재 수준보다 10마리의 비버 수가 줄어들 때까지 일시 정지 상태를 유지해야 하는 건물에 적용하세요."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly zůstat pozastavené, dokud beaverská populace neklesne o 10 beaverů pod aktuální úroveň."
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus10.DisplayName"]
 raw = "Beaver population -10"
@@ -518,6 +554,7 @@ deDE = "Biberpopulation -10"
 plPL = "Populacja bobrów -10"
 ptBR = "População de castores -10"
 koKR = "비버 개체수 -10"
+csCZ = "Populace bobrů -10"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.Description"]
 raw = "Apply this template to buildings that should remain paused until the beaver population drops 20 beavers below the current level."
@@ -532,6 +569,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben sollten, 
 plPL = "Zastosuj ten szablon do budynków, które powinny pozostać wstrzymane do momentu, gdy populacja bobrów spadnie o 20 bobrów poniżej obecnego poziomu."
 ptBR = "Aplique este modelo a edifícios que devem permanecer pausados até que a população de castores caia 20 castores abaixo do nível atual."
 koKR = "현재 수준보다 20마리의 비버 수가 줄어들 때까지 대기 상태를 유지해야 하는 건물에 이 템플릿을 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly zůstat pozastavené, dokud se populace bobrů nesníží o 20 bobrů pod současnou úroveň."
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtMinus20.DisplayName"]
 raw = "Beaver population -20"
@@ -546,6 +584,7 @@ deDE = "Biberpopulation -20"
 plPL = "Populacja bobrów -20"
 ptBR = "População de castores -20"
 koKR = "너구리 개체수 -20"
+csCZ = "Počet bobrů -20"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 10 beavers."
@@ -560,6 +599,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollen, b
 plPL = "Zastosuj ten szablon do budynków, które powinny działać, aż populacja bobrów przekroczy obecny poziom o 10 bobrów."
 ptBR = "Aplique este modelo a edifícios que devem funcionar até a população de castores exceder o nível atual em 10 castores."
 koKR = "현재 비버 인구 수준을 10마리 초과할 때까지 가동되어야 하는 건물에 이 템플릿을 적용하세요."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly fungovat, dokud populace bobrů nepřesáhne aktuální úroveň o 10 bobrů."
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus10.DisplayName"]
 raw = "Beaver population +10"
@@ -574,6 +614,7 @@ deDE = "Biberpopulation +10"
 plPL = "Populacja bobrów +10"
 ptBR = "População de castores +10"
 koKR = "비버 개체수 +10"
+csCZ = "Bobří populace +10"
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the beaver population exceeds the current level by 20 beavers."
@@ -588,6 +629,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die bis zur Überschreitung de
 plPL = "Zastosuj ten szablon do budynków, które powinny działać, dopóki populacja bobrów nie przekroczy obecnego poziomu o 20 bobrów."
 ptBR = "Aplique este modelo a edifícios que devem estar em funcionamento até que a população de castores exceda o nível atual em 20 castores."
 koKR = "이 템플릿을 비버 인구가 현재 수준을 20마리 초과할 때까지 작동해야 하는 건물에 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly fungovat, dokud populace bobrů nepřekročí současnou úroveň o 20 bobrů."
 
 ["IgorZ.Automation.Tool.tmpl.BeaversAtPlus20.DisplayName"]
 raw = "Beaver population +20"
@@ -602,6 +644,7 @@ deDE = "Biberpopulation +20"
 plPL = "Populacja bobrów +20"
 ptBR = "População de castores +20"
 koKR = "비버 개체수 +20"
+csCZ = "Populace bobrů +20"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 10 beavers below the current level."
@@ -616,6 +659,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben müssen, 
 plPL = "Zastosuj ten szablon do budynków, które muszą pozostać wstrzymane, dopóki populacja bobrów nie spadnie o 10 poniżej obecnego poziomu."
 ptBR = "Aplique este modelo a edifícios que devem permanecer pausados até que a população de robôs caia 10 castores abaixo do nível atual."
 koKR = "이 템플릿은 봇 인구가 현재 수준에서 10마리 비버가 줄어들 때까지 대기해야 하는 건물에 적용하십시오."
+csCZ = "Použijte tuto šablonu na budovy, které musí zůstat pozastavené, dokud populaci robotů nesníží 10 bobrů pod aktuální úroveň."
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus10.DisplayName"]
 raw = "Bot population -10"
@@ -630,6 +674,7 @@ deDE = "Bot-Population -10"
 plPL = "Populacja botów -10"
 ptBR = "População de bots -10"
 koKR = "봇 인구 -10"
+csCZ = "Populace botů -10"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.Description"]
 raw = "Apply this template to buildings that must remain paused until the bot population drops 20 beavers below the current level."
@@ -644,6 +689,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die pausiert bleiben müssen, 
 plPL = "Zastosuj ten szablon do budynków, które muszą pozostać wstrzymane, aż populacja bobrów spadnie o 20 poniżej obecnego poziomu."
 ptBR = "Aplique este modelo a edifícios que devem permanecer pausados até que a população de bots caia 20 castores abaixo do nível atual."
 koKR = "이 템플릿을 봇 인구가 현재 수준보다 20마리 비버가 적어질 때까지 일시 정지해야 하는 건물에 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které musí zůstat pozastavené, dokud poklesne počet robotů o 20 bobrů pod aktuální úroveň."
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtMinus20.DisplayName"]
 raw = "Bot population -20"
@@ -658,6 +704,7 @@ deDE = "Bot-Population -20"
 plPL = "Populacja botów -20"
 ptBR = "População de bots -20"
 koKR = "봇 인구 -20"
+csCZ = "Populace robotů -20"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 10 bots."
@@ -672,6 +719,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die weiterhin betrieben werden
 plPL = "Zastosuj szablon do budynków, które powinny działać, aż populacja botów przekroczy obecny poziom o 10 botów."
 ptBR = "Aplique este modelo a edifícios que devem estar em funcionamento até que a população do bot exceda o nível atual em 10 bots."
 koKR = "이 템플릿은 봇 인구가 현재 수준보다 10 봇 초과할 때까지 작동해야 하는 건물에 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly fungovat, dokud počet robotů nepřesáhne současnou úroveň o 10 robotů."
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus10.DisplayName"]
 raw = "Bot population +10"
@@ -686,6 +734,7 @@ deDE = "Bot-Bevölkerung +10"
 plPL = "Populacja botów +10"
 ptBR = "População de bots +10"
 koKR = "봇 인구 +10"
+csCZ = "Populace robotů +10"
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.Description"]
 raw = "Apply this template to buildings that should be running until the bot population exceeds the current level by 20 bots."
@@ -700,6 +749,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die betrieben werden sollten, 
 plPL = "Zastosuj ten szablon do budynków, które powinny działać, dopóki populacja botów nie przekroczy obecnego poziomu o 20 botów."
 ptBR = "Aplique este modelo a edifícios que devem estar operando até que a população de bots exceda o nível atual em 20 bots."
 koKR = "이 템플릿은 로봇 인구가 현재 수준을 20대 초과할 때까지 작동해야 하는 건물에 적용하십시오."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly fungovat, dokud počet robotů nepřekročí aktuální úroveň o 20 robotů."
 
 ["IgorZ.Automation.Tool.tmpl.BotsAtPlus20.DisplayName"]
 raw = "Bot population +20"
@@ -714,6 +764,7 @@ deDE = "Bot-Population +20"
 plPL = "Populacja botów +20"
 ptBR = "População de bots +20"
 koKR = "봇 인구 +20"
+csCZ = "Populace robotů +20"
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildings.Description"]
 raw = "Apply this template to construction sites that may block builders' paths. Note: Results not guaranteed, especially if buildings aren't at the same level."
@@ -728,6 +779,7 @@ deDE = "Wenden Sie diese Vorlage auf Baustellen an, die den Weg der Bauarbeiter 
 plPL = "Zastosuj ten szablon do placów budowy, które mogą blokować drogi do budowniczych. Uwaga: Wyniki nie są gwarantowane, szczególnie jeśli budynki nie są na tym samym poziomie."
 ptBR = "Aplique este template em canteiros de obras que podem bloquear os caminhos dos construtores. Nota: Resultados não garantidos, especialmente se os edifícios não estiverem no mesmo nível."
 koKR = "이 템플릿을 건축 작업장에 적용하여 건설자의 경로를 차단할 수 있습니다. 주의: 결과는 보장되지 않으며, 특히 건물이 동일한 수준에 있지 않은 경우 더욱 그렇습니다."
+csCZ = "Použijte tuto šablonu na staveniště, která mohou blokovat cesty stavitelů. Poznámka: Výsledky nejsou zaručeny, zejména pokud budovy nejsou na stejné úrovni."
 
 ["IgorZ.Automation.Tool.tmpl.ChainedBuildings.DisplayName"]
 raw = "Don't block builders"
@@ -742,6 +794,7 @@ deDE = "Blockiere keine Bauarbeiter."
 plPL = "Nie blokuj budowniczych"
 ptBR = "Não bloqueie os construtores."
 koKR = "건축가를 막지 마세요"
+csCZ = "Nepamatujte stavitele"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that should close when drought starts."
@@ -756,6 +809,7 @@ deDE = "Wenden Sie diese Vorlage auf Schleusen an, die sich schließen sollten, 
 plPL = "Zastosuj ten szablon na zaporach, które powinny się zamykać, gdy zaczyna się susza."
 ptBR = "Aplique este modelo em comportas que devem fechar quando a seca começar."
 koKR = "가뭄이 시작될 때 닫아야 하는 수문에 이 템플릿을 적용하세요."
+csCZ = "Použijte tuto šablonu na závorách, které by se měly zavřít, když začne sucha."
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.DisplayName"]
 raw = "Close floodgate on drought start"
@@ -770,6 +824,7 @@ deDE = "Schließe das SturmTor beim Dürre-Beginn."
 plPL = "Zamknij wrota floodgate na początku suszy"
 ptBR = "Fechar a comporta no início da seca"
 koKR = "가뭄 시작 시 수문 닫기"
+csCZ = "Zavřít hráz při začátku sucha"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should open when drought starts."
@@ -784,6 +839,7 @@ deDE = "Wenden Sie diese Vorlage auf Schleusen an, die sich öffnen sollten, wen
 plPL = "Zastosuj ten szablon do tam, które powinny się otworzyć, gdy zaczyna się susza."
 ptBR = "Aplique este modelo em comportas que devem se abrir quando a seca começa."
 koKR = "가뭄이 시작될 때 열려야 하는 홍수 방지 문에 이 템플릿을 적용합니다."
+csCZ = "Aplikujte tuto šablonu na hráze, které se mají otevřít, když začne sucho."
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFloodgate.DisplayName"]
 raw = "Open floodgate on drought start"
@@ -798,6 +854,7 @@ deDE = "Flutlicht bei Dürrebeginn öffnen"
 plPL = "Otwórz wrota tamy na początku suszy."
 ptBR = "Abrir comporta no início da seca"
 koKR = "가뭄 시작 시 수문 열기"
+csCZ = "Otevřít vodní bránu na začátku sucha"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description"]
 raw = "Apply this template on water flow control buildings (like <YellowHighlight>Badwater Dome</YellowHighlight> or <YellowHighlight>Sluice</YellowHighlight>) to keep them open during droughts."
@@ -812,6 +869,7 @@ deDE = "Wenden Sie diese Vorlage auf Wasserflusskontrollgebäude (wie <YellowHig
 plPL = "Zastosuj ten szablon do budynków kontrolujących przepływ wody (takich jak <YellowHighlight>Domek Złej Wody</YellowHighlight> lub <YellowHighlight>Śluza</YellowHighlight>), aby utrzymać je otwarte podczas suszy."
 ptBR = "Aplique este modelo em edifícios de controle de fluxo de água (como <YellowHighlight>Domo de Água Ruim</YellowHighlight> ou <YellowHighlight>Válvula</YellowHighlight>) para mantê-los abertos durante as secas."
 koKR = "가뭄 동안 열어둘 수 있도록 <YellowHighlight>오염수 돔</YellowHighlight>이나 <YellowHighlight>수문</YellowHighlight>과 같은 물 흐름 조절 건물에 이 템플릿을 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy pro kontrolu vodního toku (jako je <YellowHighlight>Badwater Dome</YellowHighlight> nebo <YellowHighlight>Sluice</YellowHighlight>), aby zůstaly otevřené během sucha."
 
 ["IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.DisplayName"]
 raw = "Open water flow control during drought"
@@ -826,6 +884,7 @@ deDE = "Offene Wasserflussregelung während der Dürre"
 plPL = "Otwarte sterowanie przepływem wody podczas suszy"
 ptBR = "Controle de fluxo de água aberto durante a seca"
 koKR = "가뭄 동안 수로 흐름 조절"
+csCZ = "Otevřená kontrola toku vody během sucha"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.Description"]
 raw = "Apply this template on buildings that should stay paused during droughts."
@@ -840,6 +899,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die während Dürreperioden pa
 plPL = "Zastosuj ten szablon do budynków, które powinny pozostać wstrzymane podczas suszy."
 ptBR = "Aplique este modelo em edifícios que devem permanecer paralisados durante secas."
 koKR = "이 템플릿을 가뭄 동안 일시 중지해야 하는 건물에 적용하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly zůstat pozastavené během sucha."
 
 ["IgorZ.Automation.Tool.tmpl.DroughtPause.DisplayName"]
 raw = "Pause during drought"
@@ -854,6 +914,7 @@ deDE = "Pause während der Dürre"
 plPL = "Pauza podczas suszy"
 ptBR = "Pausa durante a seca"
 koKR = "가뭄 동안 일시정지"
+csCZ = "Pozastavit během sucha"
 
 ["IgorZ.Automation.Tool.tmpl.DynamiteNow.Description"]
 raw = "Automatically detonates the dynamite when the construction is complete. This template can be applied to a finished dynamite as well."
@@ -868,6 +929,7 @@ deDE = "Zündet den Sprengstoff automatisch, wenn die Konstruktion abgeschlossen
 plPL = "Automatycznie detonuje dynamit po zakończeniu budowy. Szablon ten można również zastosować do ukończonego dynamitu."
 ptBR = "Detona automaticamente a dinamite quando a construção está completa. Este modelo também pode ser aplicado a uma dinamite finalizada."
 koKR = "건설이 완료되면 다이너마이트가 자동으로 폭발합니다. 이 템플릿은 완성된 다이너마이트에도 적용할 수 있습니다."
+csCZ = "Automaticky odpálí dynamit, když je stavba dokončena. Tato šablona může být také aplikována na hotový dynamit."
 
 ["IgorZ.Automation.Tool.tmpl.DynamiteNow.DisplayName"]
 raw = "Explode dynamite now"
@@ -882,6 +944,7 @@ deDE = "Sprenge Dynamit jetzt"
 plPL = "Wywal dynamit teraz"
 ptBR = "Explodir dinamite agora"
 koKR = "지금 다이너마이트 폭발시키기"
+csCZ = "Vyhodit dynamit teď"
 
 ["IgorZ.Automation.Tool.tmpl.EmitSelectedGood.Description"]
 raw = "Apply this template to buildings that should emit a signal of the selected good amount in the storage. The signal can be used in conditions on the other buildings."
@@ -896,6 +959,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die ein Signal der ausgewählt
 plPL = "Zastosuj ten szablon do budynków, które powinny emitować sygnał o wybranej ilości towaru w magazynie. Sygnał można wykorzystać w warunkach innych budynków."
 ptBR = "Aplique este modelo em edifícios que devem emitir um sinal da quantidade do bem selecionado no armazenamento. O sinal pode ser usado em condições em outros edifícios."
 koKR = "이 템플릿을 사용하여 선택한 상품의 양을 저장고에서 방출해야 하는 건물에 적용하십시오. 신호는 다른 건물의 조건에서 사용될 수 있습니다."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly vysílat signál o vybraném množství zboží ve skladu. Signál může být použit v podmínkách na jiných budovách."
 
 ["IgorZ.Automation.Tool.tmpl.EmitSelectedGood.DisplayName"]
 raw = "Emit selected good signal"
@@ -910,6 +974,7 @@ deDE = "Signal für ausgewähltes Gut ausgeben"
 plPL = "Wydaj sygnał wybranego dobra"
 ptBR = "Emitir sinal do bem selecionado"
 koKR = "선택된 상품 신호 방출"
+csCZ = "Vydat signál pro vybranou komoditu"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt50pct.DisplayName"]
 raw = "Empty the storage if capacity is above 50%"
@@ -924,6 +989,7 @@ deDE = "Leeren Sie den Speicher, wenn die Kapazität über 50 % liegt."
 plPL = "Opróżnij pamięć, jeśli pojemność jest powyżej 50%."
 ptBR = "Esvazie o armazenamento se a capacidade estiver acima de 50%."
 koKR = "저장소의 용량이 50% 이상일 경우 비우기"
+csCZ = "Vyprázdnit sklad, pokud kapacita překračuje 50%"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt60pct.DisplayName"]
 raw = "Empty the storage if capacity is above 60%"
@@ -938,6 +1004,7 @@ deDE = "Leeren Sie den Speicher, wenn die Kapazität über 60 % liegt."
 plPL = "Opróżnij pamięć, jeśli pojemność przekracza 60%."
 ptBR = "Esvazie o armazenamento se a capacidade estiver acima de 60%."
 koKR = "저장소의 용량이 60%를 넘으면 비우기"
+csCZ = "Vyprazdněte sklad, pokud je kapacita nad 60 %"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt70pct.DisplayName"]
 raw = "Empty the storage if capacity is above 70%"
@@ -952,6 +1019,7 @@ deDE = "Entleere den Speicher, wenn die Kapazität über 70 % liegt."
 plPL = "Opróżnij pamięć, jeśli pojemność przekracza 70%."
 ptBR = "Esvazie o armazenamento se a capacidade estiver acima de 70%"
 koKR = "용량이 70%를 초과하면 저장소 비우기"
+csCZ = "Vyprazdněte sklad, pokud je kapacita nad 70%"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt80pct.DisplayName"]
 raw = "Empty the storage if capacity is above 80%"
@@ -966,6 +1034,7 @@ deDE = "Leeren Sie den Speicher, wenn die Kapazität über 80 % liegt."
 plPL = "Opróżnij pamięć, jeśli pojemność jest powyżej 80%."
 ptBR = "Esvazie o armazenamento se a capacidade estiver acima de 80%"
 koKR = "저장 용량이 80%를 초과하면 비우기"
+csCZ = "Skladiště vyprázdnit, pokud je kapacita nad 80%"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAt90pct.DisplayName"]
 raw = "Empty the storage if capacity is above 90%"
@@ -980,6 +1049,7 @@ deDE = "Leeren Sie den Speicher, wenn die Kapazität über 90% liegt."
 plPL = "Opróżnij pamięć, jeśli pojemność przekracza 90%."
 ptBR = "Esvazie o armazenamento se a capacidade estiver acima de 90%."
 koKR = "저장소 용량이 90% 이상일 때 비우기"
+csCZ = "Vyprazdněte sklad, pokud je kapacita nad 90 %"
 
 ["IgorZ.Automation.Tool.tmpl.EmptyAtXpct.Description"]
 raw = "This template can be applied to building that produce goods and have no input stock. If the <i>output</i> stock level exceeds the predetermined threshold, the building will transition into an 'empty' mode, facilitating rapid removal of goods."
@@ -994,6 +1064,7 @@ deDE = "Diese Vorlage kann auf Gebäude angewendet werden, die Waren produzieren
 plPL = "Ten szablon może być stosowany do budynków, które produkują towary i nie mają zapasów surowców. Jeśli poziom zapasów <i>wyjściowych</i> przekroczy ustalony próg, budynek przejdzie w tryb 'pusty', co ułatwi szybkie usuwanie towarów."
 ptBR = "Este modelo pode ser aplicado a edifícios que produzem mercadorias e não possuem estoque de insumos. Se o nível de estoque de <i>produtos</i> exceder o limiar pré-determinado, o edifício irá entrar em um modo 'vazio', facilitando a remoção rápida das mercadorias."
 koKR = "이 템플릿은 재화를 생산하고 입력 재고가 없는 건물에 적용할 수 있습니다. 만약 <i>출력</i> 재고 수준이 미리 정해진 임계값을 초과하면, 건물은 '비어 있음' 모드로 전환되어 재화의 신속한 제거를 촉진합니다."
+csCZ = "Tato šablona může být aplikována na budovy, které vyrábějí zboží a nemají žádný vstupní sklad. Pokud úroveň <i>výstupního</i> skladu překročí stanovený práh, budova přejde do 'prázdného' režimu, což usnadní rychlé odstranění zboží."
 
 ["IgorZ.Automation.Tool.tmpl.FloodgateGroup.Description"]
 raw = "Apply this template to floodgates to control their height in sync."
@@ -1008,6 +1079,7 @@ deDE = "Wenden Sie diese Vorlage auf Schleusen an, um ihre Höhe synchron zu ste
 plPL = "Zastosuj ten szablon do grodzic, aby kontrolować ich wysokość w synchronizacji."
 ptBR = "Aplicar este modelo às comportas para controlar sua altura em sincronia."
 koKR = "이 템플릿을 홍수 게이트에 적용하여 높이를 동기화하여 제어하십시오."
+csCZ = "Použijte tuto šablonu na vodní brány, abyste mohli řídit jejich výšku synchronně."
 
 ["IgorZ.Automation.Tool.tmpl.FloodgateGroup.DisplayName"]
 raw = "Floodgate group"
@@ -1022,6 +1094,7 @@ deDE = "Überflutungsgruppierung"
 plPL = "Grupa śluz"
 ptBR = "Grupo de comportas"
 koKR = "홍수문 그룹"
+csCZ = "Skupina stavidel"
 
 ["IgorZ.Automation.Tool.tmpl.PauseConstruction.Description"]
 raw = "Apply this template to construction sites that should be paused once the construction progress reaches 100%."
@@ -1036,6 +1109,7 @@ deDE = "Wenden Sie diese Vorlage auf Baustellen an, die pausiert werden sollen, 
 plPL = "Zastosuj ten szablon do placów budowy, które powinny być wstrzymane, gdy postęp budowy osiągnie 100%."
 ptBR = "Applique este modelo em canteiros de obras que devem ser pausados assim que o progresso da construção atingir 100%."
 koKR = "고급 설정이 완료되면 100%의 건설 진행 상황에 도달한 건설 사이트에 이 템플릿을 적용하여 일시 중지하십시오."
+csCZ = "Aplikujte tuto šablonu na staveniště, která by měla být pozastavena, jakmile pokrok ve výstavbě dosáhne 100 %."
 
 ["IgorZ.Automation.Tool.tmpl.PauseConstruction.DisplayName"]
 raw = "Pause construction"
@@ -1050,6 +1124,7 @@ deDE = "Bau pausieren"
 plPL = "Wstrzymaj budowę"
 ptBR = "Pausar construção"
 koKR = "건설 일시 중지"
+csCZ = "Pauza ve výstavbě"
 
 ["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.Description"]
 raw = "Apply this template to buildings that should be running as long as there are planting spots in the range of the building."
@@ -1064,6 +1139,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die in Betrieb sein sollen, so
 plPL = "Zastosuj ten szablon do budynków, które powinny działać tak długo, jak długo w zasięgu budynku są miejsca do sadzenia."
 ptBR = "Aplique este modelo a edifícios que devem estar em operação enquanto houver locais de plantio na área do edifício."
 koKR = "건물이 있는 범위 내에 식재 공간이 있는 한 이 템플릿을 건물에 적용하여 작동하게 하세요."
+csCZ = "Použijte tuto šablonu na budovy, které by měly fungovat, dokud jsou v dosahu budovy dostupná místa pro sázení."
 
 ["IgorZ.Automation.Tool.tmpl.RunIfCanPlan.DisplayName"]
 raw = "Run if something can be planted"
@@ -1078,6 +1154,7 @@ deDE = "Ausführen, wenn etwas gepflanzt werden kann"
 plPL = "Uruchom, jeśli coś może być zasiane"
 ptBR = "Executar se algo puder ser plantado"
 koKR = "무언가를 심을 수 있으면 실행"
+csCZ = "Spustit, pokud lze něco zasít"
 
 ["IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.Description"]
 raw = "Apply this template to buildings that should be prioritized by haulers once the construction is complete."
@@ -1092,6 +1169,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die von den Transporteuren bev
 plPL = "Zastosuj ten szablon do budynków, które powinny być priorytetowo traktowane przez nosicieli po zakończeniu budowy."
 ptBR = "Aplique este modelo em construções que devem ser priorizadas pelos transportadores assim que a construção estiver completa."
 koKR = "완공 후 하청인들이 우선적으로 처리해야 할 건물에 이 템플릿을 적용하세요."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly být po dokončení výstavby upřednostněny nosiči."
 
 ["IgorZ.Automation.Tool.tmpl.PrioritizeByHaulers.DisplayName"]
 raw = "Prioritize by haulers"
@@ -1106,6 +1184,7 @@ deDE = "Nach Transporteuren priorisieren"
 plPL = "Priorytetyzuj według nosicieli"
 ptBR = "Priorizar por transportadores"
 koKR = "운반자를 통한 우선 순위 지정"
+csCZ = "Prioritizovat podle nosičů"
 
 ["IgorZ.Automation.Tool.tmpl.StreamGauge.Description"]
 raw = "Apply this template to stream gauges that should emit a signal of the current water condition. The signals can be used in conditions on the other buildings."
@@ -1120,6 +1199,7 @@ deDE = "Wenden Sie diese Vorlage auf Strommessgeräte an, die ein Signal über d
 plPL = "Zastosuj ten szablon do mierników strumienia, które powinny emitować sygnał aktualnego stanu wody. Sygnały mogą być używane w warunkach dotyczących innych budynków."
 ptBR = "Aplique este modelo a medidores de fluxo que devem emitir um sinal da condição atual da água. Os sinais podem ser usados em condições em outros edifícios."
 koKR = "이 템플릿을 현재 물 상태의 신호를 방출해야 하는 개울 게이지에 적용하십시오. 이 신호는 다른 건물의 조건에 사용할 수 있습니다."
+csCZ = "Použijte tuto šablonu na měřiče toku, které by měly vysílat signál aktuálního stavu vody. Signály lze použít v podmínkách na ostatních budovách."
 
 ["IgorZ.Automation.Tool.tmpl.StreamGauge.DisplayName"]
 raw = "Stream gauge signal"
@@ -1134,6 +1214,7 @@ deDE = "„Fliessgewässer-Signal“"
 plPL = "Sygnalizator strumienia"
 ptBR = "Indicador de fluxo do rio"
 koKR = "하천 게이지 신호"
+csCZ = "Signál průtokoměru"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that need to close when temperate season starts."
@@ -1148,6 +1229,7 @@ deDE = "Wenden Sie diese Vorlage auf Schleusen an, die sich schließen müssen, 
 plPL = "Zastosuj ten szablon do tam, które muszą się zamknąć, gdy zaczyna się sezon temperaturowy."
 ptBR = "Aplique este modelo em comportas que precisam ser fechadas quando a temporada de temperatura começa."
 koKR = "이 템플릿을 온대 계절이 시작될 때 닫아야 하는 수문에 적용하세요."
+csCZ = "Aplikujte tuto šablonu na hráze, které je třeba zavřít, když začne mírné období."
 
 ["IgorZ.Automation.Tool.tmpl.TemperateCloseFloodgate.DisplayName"]
 raw = "Close floodgate on temperate weather start"
@@ -1162,6 +1244,7 @@ deDE = "Schließe das Sperrtor zu Beginn temperierter Wetterbedingungen."
 plPL = "Zamknij grobowiec na początku umiarkowanej pogody"
 ptBR = "Feche a comporta no início do tempo ameno."
 koKR = "온화한 날씨 시작 시 홍수게이트 닫기"
+csCZ = "Zavřít protiproud při začátku mírného počasí"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that need to open when temperate season starts."
@@ -1176,6 +1259,7 @@ deDE = "Wenden Sie diese Vorlage bei Fluttoren an, die geöffnet werden müssen,
 plPL = "Zastosuj ten szablon do tam, które muszą się otworzyć, gdy zaczyna się sezon umiarkowany."
 ptBR = "Aplique este template nas comportas que precisam ser abertas quando a temporada temperada começa."
 koKR = "온화한 계절이 시작될 때 열어야 하는 수문에 이 템플릿을 적용하십시오."
+csCZ = "Aplikujte tuto šablonu na stavidla, která se mají otevřít, když začne mírné období."
 
 ["IgorZ.Automation.Tool.tmpl.TemperateOpenFloodgate.DisplayName"]
 raw = "Open floodgate on temperate weather start"
@@ -1190,6 +1274,7 @@ deDE = "Öffne das Schleusentor zu Beginn des gemäßigten Wetters."
 plPL = "Otwórz zaporę na początku umiarkowanej pogody"
 ptBR = "Abra o portão de inundação no início do clima ameno."
 koKR = "온대 날씨 시작 시 수문 열기"
+csCZ = "Otevřít stavidlo na začátku mírného počasí"
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.Description"]
 raw = "Apply this template on buildings that should stay paused during temperate weather."
@@ -1204,6 +1289,7 @@ deDE = "Wenden Sie diese Vorlage auf Gebäude an, die während gemäßigten Wett
 plPL = "Zastosuj szablon do budynków, które powinny pozostać wstrzymane w czasie umiarkowanej pogody."
 ptBR = "Aplique este modelo em edifícios que devem permanecer parados durante o clima temperado."
 koKR = "온화한 날씨 동안 정지 상태를 유지해야 하는 건물에 이 템플릿을 적용하세요."
+csCZ = "Aplikujte tuto šablonu na budovy, které by měly zůstat pozastavené během mírného počasí."
 
 ["IgorZ.Automation.Tool.tmpl.TemperatePause.DisplayName"]
 raw = "Pause during temperate weather"
@@ -1218,6 +1304,7 @@ deDE = "Pause bei gemäßigtem Wetter"
 plPL = "Zatrzymaj się podczas umiarkowanej pogody"
 ptBR = "Pausa durante o clima ameno"
 koKR = "온화한 날씨 동안 일시 정지"
+csCZ = "Pauza během mírného počasí"
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.Description"]
 raw = "Apply this template on floodgates that should open by 0.5m of their max height when the temperate season starts."
@@ -1232,6 +1319,7 @@ deDE = "Wenden Sie diese Vorlage bei Schleusen an, die sich um 0,5 m ihrer maxim
 plPL = "Zastosuj ten szablon do grodzisk, które powinny otworzyć się na 0,5 m ich maksymalnej wysokości, gdy rozpoczyna się sezon temperaturowy."
 ptBR = "Aplique este modelo em comportas que devem abrir 0,5 m de sua altura máxima quando a temporada temperada começar."
 koKR = "온대 계절이 시작될 때 최대 높이의 0.5m만큼 열어야 하는 수문에 이 템플릿을 적용하세요."
+csCZ = "Aplikujte tuto šablonu na zátarasy, které se mají otevřít o 0,5 m jejich maximální výšky, když začne mírné roční období."
 
 ["IgorZ.Automation.Tool.tmpl.TemperateSemiOpenFloodgate.DisplayName"]
 raw = "Slightly open floodgate during temperate weather"
@@ -1246,6 +1334,7 @@ deDE = "Leicht geöffnete Schleuse bei gemäßigtem Wetter"
 plPL = "Lekko otwarte wrota burzowe podczas umiarkowanej pogody"
 ptBR = "Ponte de inundação levemente aberta durante o clima ameno"
 koKR = "온화한 날씨에 약간 열려 있는 수문"
+csCZ = "Jen mírně otevřená hráz během mírného počasí"
 
 ["IgorZ.Automation.Tool.tmpl.XLevelsDynamite.Description"]
 raw = "This template can be applied to dynamites, whether it is finished or still being built. Upon completion, the dynamite will detonate automatically, and a new dynamite blueprint will be placed to dig deeper."
@@ -1260,6 +1349,7 @@ deDE = "Diese Vorlage kann auf Dynamiten angewendet werden, egal ob sie fertigge
 plPL = "Ten szablon można zastosować do dynamitów, niezależnie od tego, czy są one ukończone, czy wciąż w budowie. Po zakończeniu, dynamit eksploduje automatycznie, a nowy projekt dynamitu zostanie umieszczony, aby wykopać głębiej."
 ptBR = "Este modelo pode ser aplicado a dinamites, estejam elas finalizadas ou ainda em construção. Após a conclusão, a dinamite detonará automaticamente e um novo projeto de dinamite será colocado para cavar mais profundo."
 koKR = "이 템플릿은 완공 여부에 관계없이 다이너마이트에 적용될 수 있습니다. 완공 시 다이너마이트는 자동으로 폭발하며, 더 깊이 파기 위한 새로운 다이너마이트 설계도가 배치됩니다."
+csCZ = "Tato šablona může být aplikována na dynamity, ať už jsou dokončeny nebo stále ve výstavbě. Po dokončení se dynamit automaticky odpálí a bude umístěn nový plán dynamitu pro hloubení."
 
 ["IgorZ.Automation.ToolGroup.Main.DisplayName"]
 raw = "Setup automation"
@@ -1274,6 +1364,7 @@ deDE = "Automatisierung einrichten"
 plPL = "Ustaw automatyzację"
 ptBR = "Configurar automação"
 koKR = "자동화 설정"
+csCZ = "Nastavení automatizace"
 
 ["IgorZ.Automation.ToolGroup.Planting.DisplayName"]
 raw = "Planting and gathering related rules"
@@ -1288,6 +1379,7 @@ deDE = "Pflanzen und Ernten verwandte Regeln"
 plPL = "Zasady związane z sadzeniem i zbieraniem"
 ptBR = "Regras relacionadas ao plantio e à coleta"
 koKR = "심기 및 수집 관련 규칙"
+csCZ = "Pravidla týkající se sázení a sbírání"
 
 ["IgorZ.Automation.ToolGroup.Population.DisplayName"]
 raw = "Population related rules"
@@ -1302,6 +1394,7 @@ deDE = "Bevölkerungsbezogene Regeln"
 plPL = "Reguły związane z populacją"
 ptBR = "Regras relacionadas à população"
 koKR = "인구 관련 규칙"
+csCZ = "Pravidla související s populací"
 
 ["IgorZ.Automation.ToolGroup.Power.DisplayName"]
 raw = "Power related rules"
@@ -1316,6 +1409,7 @@ deDE = "Strombezogene Regeln"
 plPL = "Reguły związane z zasilaniem"
 ptBR = "Regras relacionadas à energia"
 koKR = "전력 관련 규칙"
+csCZ = "Pravidla související s energií"
 
 ["IgorZ.Automation.ToolGroup.Signals.DisplayName"]
 raw = "Signals related rules"
@@ -1330,6 +1424,7 @@ deDE = "Regeln zu Signalen"
 plPL = "Reguły związane z sygnałami"
 ptBR = "Regras relacionadas a sinais"
 koKR = "신호 관련 규칙"
+csCZ = "Pravidla týkající se signálů"
 
 ["IgorZ.Automation.ToolGroup.Storage.DisplayName"]
 raw = "Storages related rules"
@@ -1344,6 +1439,7 @@ deDE = "Regeln zu Lagern"
 plPL = "Zasady związane z przechowywaniem"
 ptBR = "Regras relacionadas ao armazenamento"
 koKR = "저장소 관련 규칙"
+csCZ = "Pravidla související se skladováním"
 
 ["IgorZ.Automation.ToolGroup.Terrain.DisplayName"]
 raw = "Terrain changing rules"
@@ -1358,6 +1454,7 @@ deDE = "Geländeveränderungsregeln"
 plPL = "Zasady zmiany terenu"
 ptBR = "Regras de mudança de terreno"
 koKR = "지형 변경 규칙"
+csCZ = "Pravidla změny terénu"
 
 ["IgorZ.Automation.ToolGroup.Water.DisplayName"]
 raw = "Weather related rules"
@@ -1372,6 +1469,7 @@ deDE = "Wetterbezogene Regeln"
 plPL = "Reguły związane z pogodą"
 ptBR = "Regras relacionadas ao clima"
 koKR = "날씨 관련 규칙"
+csCZ = "Pravidla související s počasím"
 
 ["="]
 status = "normal"
@@ -1386,6 +1484,7 @@ deDE = "="
 plPL = "="
 ptBR = "="
 koKR = "="
+csCZ = "="
 
 ["IgorZ.Automation.Scripting.Error.ValueOutOfRange"]
 raw = "ERROR: Value out of range"
@@ -1400,6 +1499,7 @@ deDE = "FEHLER: Wert außerhalb des zulässigen Bereichs"
 plPL = "BŁĄD: Wartość poza zakresem"
 ptBR = "ERRO: Valor fora do intervalo"
 koKR = "오류: 범위를 벗어난 값"
+csCZ = "CHYBA: Hodnota mimo rozsah"
 
 ["IgorZ.Automation.Scripting.Error.DivisionByZero"]
 raw = "ERROR: Division by zero"
@@ -1414,6 +1514,7 @@ deDE = "FEHLER: Division durch Null"
 plPL = "BŁĄD: Dzielenie przez zero"
 ptBR = "ERRO: Divisão por zero"
 koKR = "오류: 0으로 나누기"
+csCZ = "CHYBA: Dělení nulou"
 
 ["IgorZ.Automation.Scripting.Error.BadValue"]
 raw = "ERROR: Bad value"
@@ -1428,6 +1529,7 @@ deDE = "FEHLER: Ungültiger Wert"
 plPL = "ERROR: Zła wartość"
 ptBR = "ERRO: Valor inválido"
 koKR = "오류: 잘못된 값"
+csCZ = "CHYBA: Špatná hodnota"
 
 ["IgorZ.Automation.Scripting.Error.InternalError"]
 raw = "ERROR: Internal error"
@@ -1442,6 +1544,7 @@ deDE = "FEHLER: Interner Fehler"
 plPL = "BŁĄD: Błąd wewnętrzny"
 ptBR = "ERRO: Erro interno"
 koKR = "오류: 내부 오류"
+csCZ = "CHYBA: Interní chyba"
 
 ["IgorZ.Automation.AutomationFragment.AndMoreRow"]
 raw = "...and {0} more rules..."
@@ -1456,6 +1559,7 @@ deDE = "...und {0} weitere Regeln..."
 plPL = "...i {0} więcej zasad..."
 ptBR = "...e {0} mais regras..."
 koKR = "...그리고 {0}개의 규칙이 더 있습니다..."
+csCZ = "...a {0} dalších pravidel..."
 
 ["IgorZ.Automation.AutomationFragment.BuildingSignalSource"]
 raw = "{0} ({1})"
@@ -1470,6 +1574,7 @@ deDE = "{0} ({1})"
 plPL = "{0} ({1})"
 ptBR = "{0} ({1})"
 koKR = "{0} ({1})"
+csCZ = "{0} ({1})"
 
 ["IgorZ.Automation.AutomationFragment.ClearRulesBtnHint"]
 raw = "Clear all rules"
@@ -1484,6 +1589,7 @@ deDE = "Alle Regeln löschen"
 plPL = "Wyczyść wszystkie zasady"
 ptBR = "Limpar todas as regras"
 koKR = "모든 규칙 지우기"
+csCZ = "Vymazat všechna pravidla"
 
 ["IgorZ.Automation.AutomationFragment.ClearSignalsBtnHint"]
 raw = "Clear all signals mappings"
@@ -1498,6 +1604,7 @@ deDE = "Alle Signalkarten löschen"
 plPL = "Wyczyść wszystkie mapowania sygnałów"
 ptBR = "Limpar todos os mapeamentos de sinais"
 koKR = "모든 신호 매핑 지우기"
+csCZ = "Vymazat všechny mapování signálů"
 
 ["IgorZ.Automation.AutomationFragment.CopyRulesBtnHint"]
 raw = "Copy rules to another building"
@@ -1512,6 +1619,7 @@ deDE = "Regeln auf ein anderes Gebäude kopieren"
 plPL = "Kopiuj zasady do innego budynku"
 ptBR = "Copiar regras para outro edifício"
 koKR = "규칙을 다른 건물로 복사"
+csCZ = "Zkopírovat pravidla do jiné budovy"
 
 ["IgorZ.Automation.AutomationFragment.CopySignalsBtnHint"]
 raw = "Copy signals mappings to another building"
@@ -1526,6 +1634,7 @@ deDE = "Signalezuordnungen auf ein anderes Gebäude kopieren"
 plPL = "Skopiuj mapowanie sygnałów do innego budynku"
 ptBR = "Copiar mapeamentos de sinais para outro edifício"
 koKR = "신호 맵을 다른 건물로 복사"
+csCZ = "Zkopírovat mapování signálů do jiné budovy"
 
 ["IgorZ.Automation.AutomationFragment.ExportRulesBtnHint"]
 raw = "Export rules and signals as text"
@@ -1540,6 +1649,7 @@ deDE = "Exportiere Regeln und Signale als Text"
 plPL = "Eksportuj zasady i sygnały jako tekst"
 ptBR = "Exportar regras e sinais como texto"
 koKR = "규칙 및 신호를 텍스트로 내보내기"
+csCZ = "Exportovat pravidla a signály jako text"
 
 ["IgorZ.Automation.AutomationFragment.ImportRulesBtnHint"]
 raw = "Import rules and signals from text"
@@ -1554,6 +1664,7 @@ deDE = "Regeln und Signale aus Text importieren"
 plPL = "„Importuj zasady i sygnały z tekstu”"
 ptBR = "Importar regras e sinais de texto"
 koKR = "텍스트에서 규칙 및 신호 가져오기"
+csCZ = "Importovat pravidla a signály z textu"
 
 ["IgorZ.Automation.AutomationFragment.RuleActionText"]
 raw = "Then {0}"
@@ -1568,6 +1679,7 @@ deDE = "Dann {0}"
 plPL = "Wtedy {0}"
 ptBR = "Então {0}"
 koKR = "그럼 {0}"
+csCZ = "Pak {0}"
 
 ["IgorZ.Automation.AutomationFragment.RuleConditionText"]
 raw = "If {0},"
@@ -1582,6 +1694,7 @@ deDE = "Wenn {0},"
 plPL = "Jeśli {0},"
 ptBR = "Se {0},"
 koKR = "만약 {0}이라면,"
+csCZ = "Pokud {0},"
 
 ["IgorZ.Automation.AutomationFragment.RulesCountText"]
 raw = "Rules: {0}"
@@ -1596,6 +1709,7 @@ deDE = "Regeln: {0}"
 plPL = "Reguły: {0}"
 ptBR = "Regras: {0}"
 koKR = "규칙: {0}"
+csCZ = "Pravidla: {0}"
 
 ["IgorZ.Automation.AutomationFragment.SetupRulesBtnHint"]
 raw = "Setup rules"
@@ -1610,6 +1724,7 @@ deDE = "Regeln einrichten"
 plPL = "Ustaw zasady"
 ptBR = "Configurar regras"
 koKR = "규칙 설정"
+csCZ = "Nastavit pravidla"
 
 ["IgorZ.Automation.AutomationFragment.SetupSignalsBtnHint"]
 raw = "Setup signals that will be visible to the other buildings"
@@ -1624,6 +1739,7 @@ deDE = "Stellen Sie Signale ein, die für die anderen Gebäude sichtbar sind."
 plPL = "Ustaw sygnały, które będą widoczne dla innych budynków"
 ptBR = "Configure sinais que serão visíveis para os outros edifícios"
 koKR = "다른 건물에 보일 신호를 설정합니다"
+csCZ = "Nastavte signály, které budou viditelné pro ostatní budovy"
 
 ["IgorZ.Automation.AutomationFragment.SignalsCountText"]
 raw = "Signals: {0}/{1}"
@@ -1638,6 +1754,7 @@ deDE = "Signale: {0}/{1}"
 plPL = "Sygnały: {0}/{1}"
 ptBR = "Sinais: {0}/{1}"
 koKR = "신호: {0}/{1}"
+csCZ = "Signály: {0}/{1}"
 
 ["IgorZ.Automation.Tool.CopyRules.Text"]
 raw = "Copy {0} rules"
@@ -1652,6 +1769,7 @@ deDE = "Kopiere {0} Regeln"
 plPL = "Skopiuj zasady {0}"
 ptBR = "Copiar {0} regras"
 koKR = "{0} 규칙 복사"
+csCZ = "Zkopírovat pravidla {0}"
 
 ["IgorZ.Automation.Tool.CopyRules.Title"]
 raw = "Copy automation rules"
@@ -1666,6 +1784,7 @@ deDE = "Automatisierungsregeln kopieren"
 plPL = "Kopiuj zasady automatyzacji"
 ptBR = "Copiar regras de automação"
 koKR = "자동화 규칙 복사"
+csCZ = "Kopírovat pravidla automatizace"
 
 ["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
 raw = "ready for collection"
@@ -1680,6 +1799,7 @@ deDE = "bereit für die Sammlung"
 plPL = "gotowe do zebrania"
 ptBR = "pronto para coleta"
 koKR = "수집 준비 완료"
+csCZ = "připraveno k vyzvednutí"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.Progress"]
 raw = "construction progress"
@@ -1694,6 +1814,7 @@ deDE = "Baufortschritt"
 plPL = "postęp budowy"
 ptBR = "progresso da construção"
 koKR = "건설 진행 상황"
+csCZ = "pokrok ve výstavbě"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.State"]
 raw = "construction state"
@@ -1708,6 +1829,7 @@ deDE = "Bauzustand"
 plPL = "stan budowy"
 ptBR = "estado de construção"
 koKR = "건설 상태"
+csCZ = "stavební stav"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.State.Finished"]
 raw = "Finished"
@@ -1722,6 +1844,7 @@ deDE = "Fertig"
 plPL = "Zakończone"
 ptBR = "Concluído"
 koKR = "완료"
+csCZ = "Dokončeno"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.LogNum"]
 raw = "write a number to logs: {0}"
@@ -1736,6 +1859,7 @@ deDE = "Schreibe eine Zahl in die Protokolle: {0}"
 plPL = "zapisz liczbę do logów: {0}"
 ptBR = "escrever um número nos logs: {0}"
 koKR = "로그에 숫자를 기록합니다: {0}"
+csCZ = "zapsat číslo do protokolu: {0}"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.LogStr"]
 raw = "write a string to logs: '{0}'"
@@ -1750,6 +1874,7 @@ deDE = "schreibe eine Zeichenfolge in die Protokolle: '{0}'"
 plPL = "zapisz ciąg do dzienników: '{0}'"
 ptBR = "escreva uma string nos logs: '{0}'"
 koKR = "로그에 문자열 작성: '{0}'"
+csCZ = "zapisuje řetězec do protokolů: '{0}'"
 
 ["IgorZ.Automation.Scriptable.Debug.Action.Log"]
 raw = "write to logs: '{0}'"
@@ -1764,6 +1889,7 @@ deDE = "in die Protokolle schreiben: '{0}'"
 plPL = "zapisz do dzienników: '{0}'"
 ptBR = "escrever nos logs: '{0}'"
 koKR = "로그에 기록: '{0}'"
+csCZ = "zapis do protokolů: '{0}'"
 
 ["IgorZ.Automation.Scriptable.Debug.Signal.Ticker"]
 raw = "ticker"
@@ -1778,6 +1904,7 @@ deDE = "Ticker"
 plPL = "tiker"
 ptBR = "temporizador"
 koKR = "티커"
+csCZ = "tickr"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Beavers"]
 raw = "beavers in district"
@@ -1792,6 +1919,7 @@ deDE = "Biber im Bezirk"
 plPL = "bóbr w dzielnicy"
 ptBR = "castores no distrito"
 koKR = "구역의 비버"
+csCZ = "lisky v okrsku"
 
 ["IgorZ.Automation.Scriptable.District.Signal.Bots"]
 raw = "bots in district"
@@ -1806,6 +1934,7 @@ deDE = "Bots im Bezirk"
 plPL = "boty w dzielnicy"
 ptBR = "bots no distrito"
 koKR = "구역 내 로봇"
+csCZ = "boty v okrese"
 
 ["IgorZ.Automation.Scriptable.District.Signal.NumberOfBeds"]
 raw = "beds in district"
@@ -1820,6 +1949,7 @@ deDE = "Betten im Bezirk"
 plPL = "łóżka w dzielnicy"
 ptBR = "camas no distrito"
 koKR = "지구의 침대 수"
+csCZ = "postele v okrese"
 
 ["IgorZ.Automation.Scriptable.District.Signal.ResourceCapacity"]
 raw = "district capacity: {0}"
@@ -1834,6 +1964,7 @@ deDE = "Bezirkskapazität: {0}"
 plPL = "pojemność dzielnicy: {0}"
 ptBR = "capacidade do distrito: {0}"
 koKR = "구역 용량: {0}"
+csCZ = "kapacita oblasti: {0}"
 
 ["IgorZ.Automation.Scriptable.District.Signal.ResourceStock"]
 raw = "district stock: {0}"
@@ -1848,6 +1979,7 @@ deDE = "Bezirksbestand: {0}"
 plPL = "zapas dzielnicy: {0}"
 ptBR = "estoque do distrito: {0}"
 koKR = "지역 자산: {0}"
+csCZ = "zásoby oblasti: {0}"
 
 ["IgorZ.Automation.Scriptable.Dynamite.Action.Detonate"]
 raw = "detonate dynamite"
@@ -1862,6 +1994,7 @@ deDE = "Dynamit zünden"
 plPL = "zdetonować dynamit"
 ptBR = "detonar dinamite"
 koKR = "다이너마이트 폭파"
+csCZ = "odpálit dynamit"
 
 ["IgorZ.Automation.Scriptable.Dynamite.Action.DetonateAndRepeat"]
 raw = "detonate dynamite and add another <GreenHighlight>{0} times</GreenHighlight>"
@@ -1876,6 +2009,7 @@ deDE = "Sprenge Dynamit und füge weitere <GreenHighlight>{0} mal</GreenHighligh
 plPL = "detonuj dynamit i dodaj jeszcze <GreenHighlight>{0} razy</GreenHighlight>"
 ptBR = "detonar dinamite e adicionar mais <GreenHighlight>{0} vezes</GreenHighlight>"
 koKR = "다이너마이트를 폭파하고 <GreenHighlight>{0}회</GreenHighlight>를 추가합니다."
+csCZ = "odpálit dynamit a přidat další <GreenHighlight>{0} krát</GreenHighlight>"
 
 ["IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight"]
 raw = "set gate height to {0}"
@@ -1890,6 +2024,7 @@ deDE = "Setze die Torhöhe auf {0}."
 plPL = "ustaw wysokość bramy na {0}"
 ptBR = "defina a altura do portão para {0}"
 koKR = "게이트 높이를 {0}으로 설정"
+csCZ = "nastav výšku brány na {0}"
 
 ["IgorZ.Automation.Scriptable.Floodgate.Signal.Height"]
 raw = "floodgate height"
@@ -1904,6 +2039,7 @@ deDE = "Flutlicht Höhe"
 plPL = "wysokość wrót"
 ptBR = "altura da comporta"
 koKR = "홍수문 높이"
+csCZ = "výška závor"
 
 ["IgorZ.Automation.Scriptable.FlowControl.Action.Close"]
 raw = "disable flow"
@@ -1918,6 +2054,7 @@ deDE = "Fluss deaktivieren"
 plPL = "wyłącz przepływ"
 ptBR = "desativar fluxo"
 koKR = "흐름 비활성화"
+csCZ = "zakázat tok"
 
 ["IgorZ.Automation.Scriptable.FlowControl.Action.Open"]
 raw = "enable flow"
@@ -1932,6 +2069,7 @@ deDE = "Fluss aktivieren"
 plPL = "włącz przepływ"
 ptBR = "ativar fluxo"
 koKR = "흐름 활성화"
+csCZ = "povolit tok"
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus"]
 raw = "The storage is being emptied on a priority basis."
@@ -1946,6 +2084,7 @@ deDE = "Die Lagerung wird vorrangig geleert."
 plPL = "Magazyn jest opróżniany w pierwszej kolejności."
 ptBR = "O armazenamento está sendo esvaziado com prioridade."
 koKR = "저장소가 우선적으로 비워지고 있습니다."
+csCZ = "Sklad je vyprázdňován na základě priorit."
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.StartEmptyingStock"]
 raw = "start emptying storage"
@@ -1960,6 +2099,7 @@ deDE = "Beginne mit der Entleerung des Speichers."
 plPL = "zacznij opróżniać pamięć podręczną"
 ptBR = "comece a esvaziar o armazenamento"
 koKR = "저장소 비우기 시작"
+csCZ = "zahájit vyprázdnění skladu"
 
 ["IgorZ.Automation.Scriptable.Inventory.Action.StopEmptyingStock"]
 raw = "stop emptying storage"
@@ -1974,6 +2114,7 @@ deDE = "Hör auf, den Speicher zu leeren."
 plPL = "przestań opróżniać pamięć"
 ptBR = "pare de esvaziar o armazenamento"
 koKR = "저장소 비우기 중지"
+csCZ = "zastavit vyprázdnění skladu"
 
 ["IgorZ.Automation.Scriptable.Inventory.Signal.InputGood"]
 raw = "input: {0}"
@@ -1988,6 +2129,7 @@ deDE = "Eingabe: {0}"
 plPL = "wejście: {0}"
 ptBR = "entrada: {0}"
 koKR = "입력: {0}"
+csCZ = "vstup: {0}"
 
 ["IgorZ.Automation.Scriptable.Inventory.Signal.OutputGood"]
 raw = "output: {0}"
@@ -2002,6 +2144,7 @@ deDE = "Ausgabe: {0}"
 plPL = "{0}"
 ptBR = "{0}"
 koKR = "출력: {0}"
+csCZ = "výstup: {0}"
 
 ["IgorZ.Automation.Scriptable.Manufactory.Action.SetRecipe"]
 status = "normal"
@@ -2016,6 +2159,7 @@ deDE = "Rezept festlegen: {0}"
 plPL = "ustaw przepis: {0}"
 ptBR = "definir receita: {0}"
 koKR = "레시피 설정: {0}"
+csCZ = "nastavit recept: {0}"
 
 ["IgorZ.Automation.Scriptable.Pausable.Action.Pause"]
 raw = "pause building"
@@ -2030,6 +2174,7 @@ deDE = "Bau pausieren"
 plPL = "wstrzymać budowę"
 ptBR = "pausar construção"
 koKR = "건물 일시정지"
+csCZ = "pozastavit stavbu"
 
 ["IgorZ.Automation.Scriptable.Pausable.Action.Resume"]
 raw = "resume building"
@@ -2044,6 +2189,7 @@ deDE = "Lebenslauf erstellen"
 plPL = "tworzenie CV"
 ptBR = "construção de currículo"
 koKR = "건축 재개"
+csCZ = "pokračovat ve stavbě"
 
 ["IgorZ.Automation.Scriptable.Plantable.Signal.SpotsReady"]
 raw = "ready to plant"
@@ -2058,6 +2204,7 @@ deDE = "bereit zum Pflanzen"
 plPL = "gotowe do sadzenia"
 ptBR = "pronto para plantar"
 koKR = "심을 준비 완료"
+csCZ = "připraveno k výsadbě"
 
 ["IgorZ.Automation.Scriptable.Prioritizable.Action.ResetHaulers"]
 raw = "- prioritize by haulers"
@@ -2072,6 +2219,7 @@ deDE = "- nach Transporteuren priorisieren"
 plPL = "- priorytet dla nosicieli"
 ptBR = "- priorizar por entregadores"
 koKR = "- 수거꾼으로 우선순위 지정"
+csCZ = "- priorizovat podle nosičů"
 
 ["IgorZ.Automation.Scriptable.Prioritizable.Action.SetHaulers"]
 raw = "+ prioritize by haulers"
@@ -2086,6 +2234,7 @@ deDE = "+ nach Transporteuren priorisieren"
 plPL = "+ priorytetuj przez nosicieli"
 ptBR = "+ priorizar pelos transportadores"
 koKR = "+ 수거인에 따라 우선순위 지정"
+csCZ = "+ upřednostnit podle nosičů"
 
 ["IgorZ.Automation.Scriptable.Signals.Action.Set"]
 raw = "set signal: {0} = {1}"
@@ -2100,6 +2249,7 @@ deDE = "Signal setzen: {0} = {1}"
 plPL = "ustaw sygnał: {0} = {1}"
 ptBR = "definir sinal: {0} = {1}"
 koKR = "신호 설정: {0} = {1}"
+csCZ = "nastavit signál: {0} = {1}"
 
 ["IgorZ.Automation.Scriptable.Signals.Signal.Get"]
 raw = "signal: {0}"
@@ -2114,6 +2264,7 @@ deDE = "signal: {0}"
 plPL = "sygnał: {0}"
 ptBR = "sinal: {0}"
 koKR = "신호: {0}"
+csCZ = "signál: {0}"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Contamination"]
 raw = "contamination"
@@ -2128,6 +2279,7 @@ deDE = "Kontamination"
 plPL = "zanieczyszczenie"
 ptBR = "contaminação"
 koKR = "오염"
+csCZ = "zkáznost"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Current"]
 raw = "current"
@@ -2142,6 +2294,7 @@ deDE = "aktiv"
 plPL = "aktualny"
 ptBR = "atual"
 koKR = "현재"
+csCZ = "průtok"
 
 ["IgorZ.Automation.Scriptable.StreamGauge.Signal.Depth"]
 raw = "depth"
@@ -2156,6 +2309,7 @@ deDE = "tiefe"
 plPL = "głębokość"
 ptBR = "profundidade"
 koKR = "깊이"
+csCZ = "hloubka"
 
 ["IgorZ.Automation.Scriptable.Weather.Signal.Season"]
 raw = "season"
@@ -2170,6 +2324,7 @@ deDE = "Jahreszeit"
 plPL = "sezon"
 ptBR = "estação"
 koKR = "계절"
+csCZ = "sezóna"
 
 ["IgorZ.Automation.Scriptable.Workplace.Action.RemoveWorkers"]
 raw = "remove workers"
@@ -2184,6 +2339,7 @@ deDE = "Arbeiter entfernen"
 plPL = "usuń pracowników"
 ptBR = "remover trabalhadores"
 koKR = "직원 제거"
+csCZ = "odstranit pracovníky"
 
 ["IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers"]
 raw = "assign {0} workers"
@@ -2198,6 +2354,7 @@ deDE = "weise {0} Arbeiter zu"
 plPL = "przydziel {0} pracowników"
 ptBR = "atribuir {0} trabalhadores"
 koKR = "{0}명의 작업자를 배정합니다"
+csCZ = "přiřadit {0} pracovníků"
 
 ["IgorZ.Automation.Scripting.Expressions.AndOperator"]
 raw = "and"
@@ -2212,6 +2369,7 @@ deDE = "und"
 plPL = "i"
 ptBR = "e"
 koKR = " 그리고 "
+csCZ = "a"
 
 ["IgorZ.Automation.Scripting.Expressions.OrOperator"]
 raw = "or"
@@ -2226,6 +2384,7 @@ deDE = "oder"
 plPL = "lub"
 ptBR = "ou"
 koKR = " 또는 "
+csCZ = "nebo"
 
 ["IgorZ.Automation.Scripting.Expressions.NotOperator"]
 raw = "NOT"
@@ -2240,6 +2399,7 @@ deDE = "NICHT"
 plPL = "NIE"
 ptBR = "NÃO"
 koKR = "부정"
+csCZ = "NENÍ"
 
 ["IgorZ.Automation.Scripting.Expressions.ParseError"]
 raw = "PARSE ERROR"
@@ -2254,6 +2414,7 @@ deDE = "PARSE FEHLER"
 plPL = "BŁĄD PARSE'OWANIA"
 ptBR = "ERRO DE ANÁLISE"
 koKR = "파싱 오류"
+csCZ = "CHYBA PARSOVÁNÍ"
 
 ["IgorZ.Automation.Scripting.Editor.ActionLabel"]
 raw = "Then"
@@ -2268,6 +2429,7 @@ deDE = "Dann"
 plPL = "Wtedy"
 ptBR = "Então"
 koKR = "그러면"
+csCZ = "Pak"
 
 ["IgorZ.Automation.Scripting.Editor.ActionMustBeAction"]
 raw = "Action must be the 'act' operator"
@@ -2282,6 +2444,7 @@ deDE = "Die Aktion muss der 'Akt'-Operator sein."
 plPL = "Akcja musi być operatorem 'act'"
 ptBR = "A ação deve ser o operador 'agir'"
 koKR = "동작은 'act' 연산자여야 합니다"
+csCZ = "Akce musí být operátor 'act'"
 
 ["IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn"]
 raw = "Add script"
@@ -2296,6 +2459,7 @@ deDE = "Skript hinzufügen"
 plPL = "Dodaj skrypt"
 ptBR = "Adicionar script"
 koKR = "스크립트 추가"
+csCZ = "Přidat skript"
 
 ["IgorZ.Automation.Scripting.Editor.AddRuleViaConstructorBtn"]
 raw = "Create rule via constructor"
@@ -2310,6 +2474,7 @@ deDE = "Regel über den Konstruktor erstellen"
 plPL = "Utwórz regułę za pomocą konstruktora"
 ptBR = "Crie uma regra via construtor"
 koKR = "생성자 통해 규칙 만들기"
+csCZ = "Vytvořit pravidlo pomocí konstruktoru"
 
 ["IgorZ.Automation.Scripting.Editor.ArgumentMaxValueHint"]
 raw = "(max: {0})"
@@ -2324,6 +2489,7 @@ deDE = "(max: {0})"
 plPL = "(max: {0})"
 ptBR = "(máx: {0})"
 koKR = "(max: {0})"
+csCZ = "(max: {0})"
 
 ["IgorZ.Automation.Scripting.Editor.ConditionLabel"]
 raw = "If"
@@ -2338,6 +2504,7 @@ deDE = "Error"
 plPL = "Error"
 ptBR = "Se"
 koKR = "만약"
+csCZ = "Pokud"
 
 ["IgorZ.Automation.Scripting.Editor.ConditionMustBeBoolean"]
 raw = "Condition must be a boolean expression"
@@ -2352,6 +2519,7 @@ deDE = "Die Bedingung muss ein boolescher Ausdruck sein."
 plPL = "Warunek musi być wyrażeniem logicznym."
 ptBR = "A condição deve ser uma expressão booleana."
 koKR = "조건은 불리언 표현이어야 합니다."
+csCZ = "Podmínka musí být booleovský výraz"
 
 ["IgorZ.Automation.Scripting.Editor.ConditionMustHaveSignals"]
 raw = "Condition must contain at least one signal"
@@ -2366,6 +2534,7 @@ deDE = "Die Bedingung muss mindestens ein Signal enthalten."
 plPL = "Warunek musi zawierać co najmniej jeden sygnał."
 ptBR = "A condição deve conter pelo menos um sinal."
 koKR = "조건은 최소한 하나의 신호를 포함해야 합니다"
+csCZ = "Podmínka musí obsahovat alespoň jeden signál"
 
 ["IgorZ.Automation.Scripting.Editor.DeletedRule"]
 raw = "Rule removed"
@@ -2380,6 +2549,7 @@ deDE = "Regel entfernt"
 plPL = "Zasada usunięta"
 ptBR = "Regra removida"
 koKR = "규칙이 제거되었습니다"
+csCZ = "Pravidlo odstraněno"
 
 ["IgorZ.Automation.Scripting.Editor.DialogHeader"]
 raw = "Automation rules"
@@ -2394,6 +2564,7 @@ deDE = "Automatisierungsregeln"
 plPL = "Zasady automatyzacji"
 ptBR = "Regras de automação"
 koKR = "자동화 규칙"
+csCZ = "Automatizační pravidla"
 
 ["IgorZ.Automation.Scripting.Editor.DiscardChangesBtn"]
 raw = "Discard changes"
@@ -2408,6 +2579,7 @@ deDE = "Änderungen verwerfen"
 plPL = "Odrzuć zmiany"
 ptBR = "Desconsiderar alterações"
 koKR = "변경 내용 취소"
+csCZ = "Zahodit změny"
 
 ["IgorZ.Automation.Scripting.Editor.DiscardScriptBtn"]
 raw = "Discard"
@@ -2422,6 +2594,7 @@ deDE = "Verwerfen"
 plPL = "Odrzuć"
 ptBR = "Descartar"
 koKR = "버리기"
+csCZ = "Zrušit"
 
 ["IgorZ.Automation.Scripting.Editor.EditAsScriptBtn"]
 raw = "Script"
@@ -2436,6 +2609,7 @@ deDE = "Drehbuch"
 plPL = "Scenariusz"
 ptBR = "Roteiro"
 koKR = "스크립트"
+csCZ = "Script"
 
 ["IgorZ.Automation.Scripting.Editor.EditInConstructorBtn"]
 raw = "Constructor"
@@ -2450,6 +2624,7 @@ deDE = "Konstruktor"
 plPL = "Konstruktor"
 ptBR = "Construtor"
 koKR = "생성자"
+csCZ = "Konstruktér"
 
 ["IgorZ.Automation.Scripting.Editor.ExportRulesBtn"]
 raw = "Export rules"
@@ -2464,6 +2639,7 @@ deDE = "Regeln exportieren"
 plPL = "Exportuj zasady"
 ptBR = "Exportar regras"
 koKR = "규칙 내보내기"
+csCZ = "Exportovat pravidla"
 
 ["IgorZ.Automation.Scripting.Editor.ImportRulesBtn"]
 raw = "Import rules"
@@ -2478,6 +2654,7 @@ deDE = "Regeln importieren"
 plPL = "Importuj zasady"
 ptBR = "Importar regras"
 koKR = "규칙 가져오기"
+csCZ = "Importovat pravidla"
 
 ["IgorZ.Automation.Scripting.Editor.MoreInfoBtn"]
 raw = "Read about scripting"
@@ -2492,6 +2669,7 @@ deDE = "Über das Skripting lesen"
 plPL = "Przeczytaj o skryptach"
 ptBR = "Leia sobre roteirização"
 koKR = "스크립팅에 대해 읽기"
+csCZ = "Přečtěte si o skriptování"
 
 ["IgorZ.Automation.Scripting.Editor.NumberConstantType"]
 raw = "number"
@@ -2506,6 +2684,7 @@ deDE = "zahl"
 plPL = "numer"
 ptBR = "número"
 koKR = "숫자"
+csCZ = "číslo"
 
 ["IgorZ.Automation.Scripting.Editor.PendingEditsNotification"]
 raw = "There are rules in the editing state. Complete them first."
@@ -2520,6 +2699,7 @@ deDE = "Es gibt Regeln im Bearbeitungsstatus. Vervollständigen Sie diese zuerst
 plPL = "W stanie edycji obowiązują zasady. Najpierw je wypełnij."
 ptBR = "Existem regras no estado de edição. Complete-as primeiro."
 koKR = "편집 상태에서 규칙이 있습니다. 먼저 이들을 완료하세요."
+csCZ = "Existují pravidla v editačním stavu. Nejprve je dokončete."
 
 ["IgorZ.Automation.Scripting.Editor.ReadMoreLink"]
 raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
@@ -2534,6 +2714,7 @@ deDE = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 plPL = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 ptBR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 koKR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
+csCZ = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
 
 ["IgorZ.Automation.Scripting.Editor.ResetChangesBtn"]
 raw = "Reset changes"
@@ -2548,6 +2729,7 @@ deDE = "Änderungen zurücksetzen"
 plPL = "Resetuj zmiany"
 ptBR = "Reiniciar alterações"
 koKR = "변경 사항 초기화"
+csCZ = "Resetovat změny"
 
 ["IgorZ.Automation.Scripting.Editor.RulesWithErrorsNotification"]
 raw = "Some rules have errors! Fix them first."
@@ -2562,6 +2744,7 @@ deDE = "Einige Regeln weisen Fehler auf! Beheben Sie diese zuerst."
 plPL = "Niektóre zasady zawierają błędy! Najpierw je napraw."
 ptBR = "Algumas regras têm erros! Corrija-os primeiro."
 koKR = "일부 규칙에 오류가 있습니다! 먼저 수정해 주세요."
+csCZ = "Některá pravidla obsahují chyby! Opraven je nejprve."
 
 ["IgorZ.Automation.Scripting.Editor.SaveRulesBtn"]
 raw = "Save and close"
@@ -2576,6 +2759,7 @@ deDE = "Speichern und schließen"
 plPL = "Zapisz i zamknij"
 ptBR = "Salvar e fechar"
 koKR = "저장하고 닫기"
+csCZ = "Uložit a zavřít"
 
 ["IgorZ.Automation.Scripting.Editor.SaveScriptBtn"]
 raw = "Save"
@@ -2590,6 +2774,7 @@ deDE = "Speichern"
 plPL = "Zapisz"
 ptBR = "Salvar"
 koKR = "저장"
+csCZ = "Uložit"
 
 ["IgorZ.Automation.Scripting.Editor.StringConstantType"]
 raw = "string"
@@ -2604,6 +2789,7 @@ deDE = "zeichenfolge"
 plPL = "ciąg"
 ptBR = "cadeia"
 koKR = "문자열"
+csCZ = "řetězec"
 
 ["IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel"]
 raw = "Template group: {0}"
@@ -2618,6 +2804,7 @@ deDE = "Vorlagengruppe: {0}"
 plPL = "Szablon grupa: {0}"
 ptBR = "Grupo de modelo: {0}"
 koKR = "템플릿 그룹: {0}"
+csCZ = "Skupina šablon: {0}"
 
 ["IgorZ.Automation.Scripting.Editor.TestScriptBtn"]
 raw = "Test"
@@ -2632,6 +2819,7 @@ deDE = "Test"
 plPL = "Test"
 ptBR = "Teste"
 koKR = "테스트"
+csCZ = "Test"
 
 ["IgorZ.Automation.Scripting.SignalsEditor.DialogHeader"]
 raw = "Setup building signals"
@@ -2646,6 +2834,7 @@ deDE = "Signalgebäude einrichten"
 plPL = "Ustawienia sygnałów budynków"
 ptBR = "Configurar sinais de construção"
 koKR = "건물 신호 설정"
+csCZ = "Nastavení signálů budov"
 
 ["IgorZ.Automation.Scripting.SignalsEditor.BadSignalNameMsg"]
 raw = "❌ Bad signal name!\nThe name must start with a letter and contain only letters, digits, and dots."
@@ -2660,6 +2849,7 @@ deDE = "❌ Ungültiger Signalname! Der Name muss mit einem Buchstaben beginnen 
 plPL = "❌ Zła nazwa sygnału! Nazwa musi zaczynać się od litery i zawierać tylko litery, cyfry i kropki."
 ptBR = "❌ Nome de sinal inválido! O nome deve começar com uma letra e conter apenas letras, dígitos e pontos."
 koKR = "❌ 잘못된 신호 이름!\n이름은 문자로 시작해야 하며, 문자, 숫자 및 점만 포함할 수 있습니다."
+csCZ = "❌ Špatný název signálu!  \nNázev musí začínat písmenem a obsahovat pouze písmena, číslice a tečky."
 
 ["IgorZ.Automation.Scripting.Editor.ExportDialogHeader"]
 raw = "Export automation rules"
@@ -2674,6 +2864,7 @@ deDE = "Automatisierungsregeln exportieren"
 plPL = "Eksportowanie reguł automatyzacji"
 ptBR = "Exportar regras de automação"
 koKR = "자동화 규칙 내보내기"
+csCZ = "Exportovat pravidla automatizace"
 
 ["IgorZ.Automation.Scripting.Editor.ImportDialogHeader"]
 raw = "Import automation rules"
@@ -2688,6 +2879,7 @@ deDE = "Automatisierungsregeln importieren"
 plPL = "Importuj zasady automatyzacji"
 ptBR = "Importar regras de automação"
 koKR = "자동화 규칙 가져오기"
+csCZ = "Načíst pravidla automatizace"
 
 ["IgorZ.Automation.Scripting.ImportDialog.AllowErrors"]
 raw = "Import with errors"
@@ -2702,6 +2894,7 @@ deDE = "Importieren mit Fehlern"
 plPL = "Importuj z błędami"
 ptBR = "Importar com erros"
 koKR = "오류가 있는 상태로 가져오기"
+csCZ = "Importovat s chybami"
 
 ["IgorZ.Automation.Scripting.ImportDialog.DeleteExistingRules"]
 raw = "Delete existing rules"
@@ -2716,6 +2909,7 @@ deDE = "Vorhandene Regeln löschen"
 plPL = "Usuń istniejące zasady"
 ptBR = "Excluir regras existentes"
 koKR = "기존 규칙 삭제"
+csCZ = "Smazat stávající pravidla"
 
 ["IgorZ.Automation.Scripting.ImportDialog.ReadMore"]
 raw = "Read about imports"
@@ -2730,6 +2924,7 @@ deDE = "Über Importe lesen"
 plPL = "Przeczytaj o importach"
 ptBR = "Leia sobre importações"
 koKR = "수입에 대해 읽기"
+csCZ = "Přečtěte si o importech"
 
 ["IgorZ.Automation.Scripting.ImportDialog.ReadMoreUrl"]
 raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
@@ -2744,6 +2939,7 @@ deDE = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-c
 plPL = "https://github.com/ihsoft/TimberbornMods/wiki/koncept-eksportu-i-importu-automatyzacji"
 ptBR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
 koKR = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-export-import-concept"
+csCZ = "https://github.com/ihsoft/TimberbornMods/wiki/koncept-exportu-a-importu-automatisace"
 
 ["IgorZ.Automation.Scripting.ImportDialog.SkipFailedRules"]
 raw = "Skip failed rules"
@@ -2758,6 +2954,7 @@ deDE = "Fehlerhafte Regeln überspringen"
 plPL = "Pomiń nieudane zasady"
 ptBR = "Ignorar regras falhadas"
 koKR = "실패한 규칙 건너뛰기"
+csCZ = "Přeskočit neúspěšná pravidla"
 
 ["IgorZ.Automation.Scripting.ImportRules.ActionNotApplicableError"]
 raw = "Action not applicable:\n{0}"
@@ -2772,6 +2969,7 @@ deDE = "Aktion nicht anwendbar: {0}"
 plPL = "Akcja nie jest zastosowana: {0}"
 ptBR = "Ação não aplicável: {0}"
 koKR = "적용할 수 없는 작업:\n{0}"
+csCZ = "Akce není aplikovatelná: {0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ConditionNotApplicableError"]
 raw = "Condition not applicable:\n{0}"
@@ -2786,6 +2984,7 @@ deDE = "Bedingung nicht anwendbar:  \n{0}"
 plPL = "Warunek nie ma zastosowania: {0}"
 ptBR = "Condição não aplicável: {0}"
 koKR = "조건이 적용되지 않음:  \n{0}"
+csCZ = "Podmínka se nevztahuje: {0}"
 
 ["IgorZ.Automation.Scripting.ImportRules.ExpectedActionError"]
 raw = "Expected action expression"
@@ -2800,6 +2999,7 @@ deDE = "Erwarteter Handlungsausdruck"
 plPL = "Oczekiwana ekspresja akcji"
 ptBR = "Expressão de ação esperada"
 koKR = "예상된 작업 표현"
+csCZ = "Očekávaný akční výraz"
 
 ["IgorZ.Automation.Scripting.ImportRules.ExpectedConditionError"]
 raw = "Expected condition expression"
@@ -2814,6 +3014,7 @@ deDE = "Erwarteter Bedingungsausdruck"
 plPL = "Wyrażenie warunku oczekiwanego"
 ptBR = "Expressão de condição esperada"
 koKR = "예상 조건 표현"
+csCZ = "Očekávaný výraz podmínky"
 
 ["IgorZ.Automation.Scripting.ImportRules.ImportError"]
 raw = "Error at line {0}: {1}"
@@ -2828,6 +3029,7 @@ deDE = "Fehler in Zeile {0}: {1}"
 plPL = "Błąd w linii {0}: {1}"
 ptBR = "Erro na linha {0}: {1}"
 koKR = "라인 {0}에서 오류: {1}"
+csCZ = "Chyba na řádku {0}: {1}"
 
 ["IgorZ.Automation.Scripting.ImportRules.IncompleteDeclarationError"]
 raw = "Incomplete rule declaration"
@@ -2842,6 +3044,7 @@ deDE = "Inkomplette Regeldeklaration"
 plPL = "Niekompletna deklaracja reguły"
 ptBR = "Declaração de regra incompleta"
 koKR = "불완전한 규칙 선언"
+csCZ = "Nesplněná deklarace pravidla"
 
 ["IgorZ.Automation.Scripting.ImportRules.UnclosedMultiLineComment"]
 raw = "Unclosed multi-line comment"
@@ -2856,6 +3059,7 @@ deDE = "Nicht geschlossener mehrzeiliger Kommentar"
 plPL = "Niezamknięty komentarz wieloliniowy"
 ptBR = "Comentário de várias linhas não fechado"
 koKR = "닫히지 않은 여러 줄 주석"
+csCZ = "Nebezpečný vícerozměrný komentář"
 
 ["IgorZ.Automation.Settings.Debug.PathCheckingProfiling"]
 raw = "Log path checking engine statistics"
@@ -2870,6 +3074,7 @@ deDE = "Protokolliere Statistiken des Pfadüberprüfungs-Engines"
 plPL = "Logowanie statystyk silnika sprawdzania ścieżek"
 ptBR = "Registrar estatísticas do mecanismo de verificação de caminho"
 koKR = "경로 검사 엔진 통계 기록"
+csCZ = "Zaznamenat statistiky kontrolního motoru cesty"
 
 ["IgorZ.Automation.Settings.Debug.LogSignalSetting"]
 raw = "Log setting signal values"
@@ -2884,6 +3089,7 @@ deDE = "Protokolliere Einstellsignalwerte"
 plPL = "Logować wartości ustawień sygnałów"
 ptBR = "Registrar valores de sinal de configuração"
 koKR = "신호 값 로그 설정"
+csCZ = "Zaznamenat hodnoty nastavení signálu"
 
 ["IgorZ.Automation.Settings.Debug.LogSignalPropagating"]
 raw = "Log signal propagation"
@@ -2898,6 +3104,7 @@ deDE = "Signalübertragung protokollieren"
 plPL = "Rejestruj propagację sygnału"
 ptBR = "Registrar propagação de sinal"
 koKR = "신호 전파 기록"
+csCZ = "Zaznamenat šíření signálu"
 
 ["IgorZ.Automation.Settings.Debug.ReevaluateRulesOnLoad"]
 raw = "Re-evaluate rules on load"
@@ -2912,6 +3119,7 @@ deDE = "Regeln beim Laden erneut bewerten"
 plPL = "Ponownie oceniaj zasady przy ładowaniu"
 ptBR = "Reavaliar regras ao carregar"
 koKR = "로드 시 규칙 재평가"
+csCZ = "Přepracovat pravidla při načítání"
 
 ["IgorZ.Automation.Settings.Debug.ResetSignalsOnLoad"]
 raw = "Reset custom signals on load"
@@ -2926,6 +3134,7 @@ deDE = "Benutzerdefinierte Signale beim Laden zurücksetzen"
 plPL = "Resetuj niestandardowe sygnały po załadowaniu"
 ptBR = "Resetar sinais personalizados ao carregar"
 koKR = "로드 시 사용자 정의 신호 초기화"
+csCZ = "Resetovat vlastní signály při načítání"
 
 ["IgorZ.Automation.Settings.EntityPanel.Header"]
 raw = "Controls on the building panel"
@@ -2940,6 +3149,7 @@ deDE = "Steuerelemente auf dem Gebäude-Panel"
 plPL = "Kontrolki na panelu budynku"
 ptBR = "Controles no painel de construção"
 koKR = "건물 패널의 컨트롤"
+csCZ = "Ovládání na panelu budovy"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle"]
 raw = "Style of the rule description"
@@ -2954,6 +3164,7 @@ deDE = "Stil der Regelbeschreibung"
 plPL = "Styl opisu reguły"
 ptBR = "Estilo da descrição da regra"
 koKR = "규칙 설명의 스타일"
+csCZ = "Styl popisu pravidla"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.HumanReadable"]
 raw = "Text"
@@ -2968,6 +3179,7 @@ deDE = "Text"
 plPL = "Tekst"
 ptBR = "Texto"
 koKR = "텍스트"
+csCZ = "Text"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.Script"]
 raw = "Script"
@@ -2982,6 +3194,7 @@ deDE = "Skript"
 plPL = "Skrypt"
 ptBR = "Script"
 koKR = "스크립트"
+csCZ = "Skript"
 
 ["IgorZ.Automation.Settings.EntityPanel.RulesDescriptionStyle.ScriptShort"]
 raw = "Pseudo-script"
@@ -2996,6 +3209,7 @@ deDE = "Pseudo-Skript"
 plPL = "Pseudo-skrypt"
 ptBR = "Pseudo-script"
 koKR = "의사 스크립트"
+csCZ = "Pseudo-skript"
 
 ["IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions"]
 raw = "Evaluate the right value in conditions"
@@ -3010,6 +3224,7 @@ deDE = "Den richtigen Wert in Bedingungen auswerten"
 plPL = "Oceń właściwą wartość w warunkach"
 ptBR = "Os valores corretos nas condições"
 koKR = "조건에서 올바른 값을 평가하세요"
+csCZ = "Hodnotit správnou hodnotu v podmínkách"
 
 ["IgorZ.Automation.Settings.EntityPanel.EvalValuesInActionArguments"]
 raw = "Evaluate values in the action arguments"
@@ -3024,6 +3239,7 @@ deDE = "Bewerte Werte in den Aktionsargumenten"
 plPL = "Oceń wartości w argumentach akcji"
 ptBR = " Avaliar valores nos argumentos da ação"
 koKR = "행동 인수에서 값을 평가합니다"
+csCZ = "Hodnotit hodnoty v argumentech akce"
 
 ["IgorZ.Automation.Settings.EntityPanel.MaxRulesShown"]
 raw = "Number of rules to show in panel"
@@ -3038,6 +3254,7 @@ deDE = "Anzahl der im Panel anzuzeigenden Regeln"
 plPL = "Liczba reguł do wyświetlenia na panelu"
 ptBR = "Número de regras a serem exibidas no painel"
 koKR = "패널에 표시할 규칙 수"
+csCZ = "Počet pravidel, která se mají zobrazit v panelu"
 
 ["IgorZ.Automation.Settings.ScriptEditor.Header"]
 raw = "Script editor"
@@ -3052,6 +3269,7 @@ deDE = "Skripteditor"
 plPL = "Edytor skryptów"
 ptBR = "Editor de script"
 koKR = "스크립트 편집기"
+csCZ = "Editor skriptů"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntax"]
 raw = "Default expressions syntax"
@@ -3066,6 +3284,7 @@ deDE = "Standardausdruckssyntax"
 plPL = "Domyślna składnia wyrażeń"
 ptBR = "Sintaxe de expressões padrão"
 koKR = "기본 표현 구문"
+csCZ = "Syntaxe výchozích výrazů"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxLisp"]
 raw = "Lisp-style"
@@ -3080,6 +3299,7 @@ deDE = "Lisp-Stil"
 plPL = "Lispowy"
 ptBR = "Lisp-style"
 koKR = "Lisp 스타일"
+csCZ = "Lispový styl"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxPython"]
 raw = "Python-style"
@@ -3094,6 +3314,7 @@ deDE = "Python-Stil"
 plPL = "Styl Pythona"
 ptBR = "estilo Python"
 koKR = "파이썬 스타일"
+csCZ = "Python-style"
 
 ["IgorZ.Automation.Settings.ScriptEditor.DefaultScriptSyntaxTooltip"]
 raw = "Syntax can be overridden in the expression body by adding prefix '#PY' for Python or '#LP' for Lisp."
@@ -3108,6 +3329,7 @@ deDE = "Die Syntax kann im Ausdrucksbody durch Hinzufügen des Präfix ' #PY' f�
 plPL = "Składnię można nadpisać w ciele wyrażenia, dodając prefiks '#PY' dla Pythona lub '#LP' dla Liska."
 ptBR = "A sintaxe pode ser substituída no corpo da expressão adicionando o prefixo '#PY' para Python ou '#LP' para Lisp."
 koKR = "구문은 표현식 본문에서 '#PY'를 추가하여 Python으로, 또는 '#LP'를 추가하여 Lisp로 재정의할 수 있습니다."
+csCZ = "Syntaxi lze přepsat v těle výrazu přidáním předpony '#PY' pro Python nebo '#LP' pro Lisp."
 
 ["IgorZ.Automation.Settings.ScriptEngine.Header"]
 raw = "Script engine settings"
@@ -3122,6 +3344,7 @@ deDE = "Script-Engine-Einstellungen"
 plPL = "Ustawienia silnika skryptów"
 ptBR = "Configurações do motor de script"
 koKR = "스크립트 엔진 설정"
+csCZ = "Nastavení skriptovacího enginu"
 
 ["IgorZ.Automation.Settings.ScriptEngine.CheckArgumentValues"]
 raw = "Check argument value in runtime"
@@ -3136,6 +3359,7 @@ deDE = "Überprüfen Sie den Argumentwert zur Laufzeit"
 plPL = "Sprawdź wartość argumentu w czasie rzeczywistym"
 ptBR = "Verificar valor do argumento em tempo de execução"
 koKR = "실행 중 인수 값 확인"
+csCZ = "Zkontrolovat hodnotu argumentu za běhu"
 
 ["IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments"]
 raw = "Check arguments with fixed set of values"
@@ -3150,6 +3374,7 @@ deDE = "Überprüfen Sie die Argumente mit einem festen Wertebereich"
 plPL = "Sprawdź argumenty z ustaloną listą wartości"
 ptBR = "Verificar argumentos com conjunto fixo de valores"
 koKR = "고정된 값 집합으로 인수 확인"
+csCZ = "Zkontrolovat argumenty s pevným souborem hodnot"
 
 ["IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize"]
 raw = "Signal execution stack size"
@@ -3164,6 +3389,7 @@ deDE = "Größe des Signal-Ausführungsstapels"
 plPL = "Rozmiar stosu wykonania sygnału"
 ptBR = "Tamanho da pilha de execução do sinal"
 koKR = "신호 실행 스택 크기"
+csCZ = "Velikost zásobníku pro vykonávání signálů"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
@@ -3178,6 +3404,7 @@ deDE = "Ausführliches Protokollieren"
 plPL = "Rozszerzone logowanie"
 ptBR = "Registro detalhado"
 koKR = "자세한 로깅"
+csCZ = "Podrobné protokolování"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
@@ -3192,6 +3419,7 @@ deDE = "Protokolle enthalten mehr nützliche Details, können jedoch die Spielle
 plPL = "Logi będą miały więcej użytecznych szczegółów, ale może to wpłynąć na wydajność gry."
 ptBR = "Os registros terão detalhes mais úteis, mas isso pode afetar o desempenho do jogo."
 koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능에 영향을 미칠 수 있습니다."
+csCZ = "Žurnály budou mít více užitečných podrobností, ale může to ovlivnit výkon hry."
 
 ["TimberDev_Utils.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
@@ -3206,6 +3434,7 @@ deDE = "Debuggen und Fehlerbehebung"
 plPL = "Debugowanie i rozwiązywanie problemów"
 ptBR = "Depuração e resolução de problemas"
 koKR = "디버그 및 문제 해결"
+csCZ = "Debug a řešení problémů"
 
 ["TimberDev_Utils.Tools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
@@ -3220,6 +3449,7 @@ deDE = "Halten Sie <i>SHIFT</i>, um nur Objekte desselben Typs auszuwählen."
 plPL = "Przytrzymaj <i>SHIFT</i>, aby zaznaczyć tylko przedmioty jednego rodzaju."
 ptBR = "Mantenha <i>SHIFT</i> pressionado para selecionar itens de um único tipo."
 koKR = "<i>SHIFT</i>키를 눌러 한 종류의 아이템만 선택하세요."
+csCZ = "Držte <i>SHIFT</i>, abyste vybrali pouze položky jednoho typu."
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
@@ -3234,6 +3464,7 @@ deDE = "Auswahl: {0} (x{1})"
 plPL = "Wybieranie: {0} (x{1})"
 ptBR = "Selecionando: {0} (x{1})"
 koKR = "선택 중: {0} (x{1})"
+csCZ = "Vybráno: {0} (x{1})"
 
 ["TimberDev_Utils.Tools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
@@ -3248,6 +3479,7 @@ deDE = "Auswahl: {0}"
 plPL = "Wybieranie: {0}"
 ptBR = "Selecionando: {0}"
 koKR = "선택 중: {0}"
+csCZ = "Výběr: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
@@ -3262,6 +3494,7 @@ deDE = "Klicken Sie, um auszuwählen: {0}"
 plPL = "Kliknij, aby rozpocząć wybieranie: {0}"
 ptBR = "Clique para começar a selecionar: {0}"
 koKR = "선택하기 시작하려면 클릭: {0}"
+csCZ = "Klikněte pro zahájení výběru: {0}"
 
 ["TimberDev_Utils.Tools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
@@ -3276,6 +3509,7 @@ deDE = "Zeigen Sie auf eine Entität und klicken Sie, um die Auswahl zu starten.
 plPL = "Wskaż obiekt i kliknij, aby rozpocząć wybieranie."
 ptBR = "Aponte para uma entidade e clique para começar a selecionar"
 koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
+csCZ = "Zaměřte na entitu a klikněte pro zahájení výběru"
 
 ["TimberDev_UI.AbstractDialog.UnsavedChangesConfirmation"]
 raw = "There are unsaved changes. Do you want to discard them?"
@@ -3290,6 +3524,7 @@ deDE = "Es gibt nicht gespeicherte Änderungen. Möchten Sie diese verwerfen?"
 plPL = "Masz niezapisane zmiany. Czy chcesz je odrzucić?"
 ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
 koKR = "저장되지 않은 변경 사항이 있습니다. 이를 버리시겠습니까?"
+csCZ = "Existují neuložené změny. Chcete je zahodit?"
 
 ["IgorZ.Automation.Scripting.Editor.UnsavedChangesConfirmation"]
 raw = "There are unsaved changes. Do you want to discard them?"
@@ -3304,3 +3539,4 @@ deDE = "Es gibt ungespeicherte Änderungen. Möchten Sie diese verwerfen?"
 plPL = "Istnieją niezapisane zmiany. Czy chcesz je odrzucić?"
 ptBR = "Existem alterações não salvas. Você deseja descartá-las?"
 koKR = "변경 사항이 저장되지 않았습니다. 이를 버리시겠습니까?"
+csCZ = "Jsou zde neuložené změny. Chcete je zahodit?"

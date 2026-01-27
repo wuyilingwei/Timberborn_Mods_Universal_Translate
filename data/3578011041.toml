@@ -14,6 +14,7 @@ deDE = "Erfahrung: {0:0}"
 plPL = "Doświadczenie: {0:0}"
 ptBR = "Experiência: {0:0}"
 koKR = "경험치: {0:0}"
+csCZ = "Zkušenosti: {0:0}"
 
 ["LV.BVM.ExpDesc"]
 raw = "{0:+0}% Working Speed."
@@ -28,6 +29,7 @@ deDE = "{0:+0}% Arbeitsgeschwindigkeit."
 plPL = "{0:+0}% Prędkość Pracy."
 ptBR = "{0:+0}% de Velocidade de Trabalho."
 koKR = "{0:+0}% 작업 속도."
+csCZ = "{0:+0}% Rychlost Práce."
 
 ["LV.BVM.ExpDescWithPending"]
 raw = "{0:+0}% Working Speed. {1:0.0}EXP from work pending."
@@ -42,6 +44,7 @@ deDE = "{0:+0}% Arbeitsgeschwindigkeit. {1:0.0}EXP aus Arbeit ausstehend."
 plPL = "{0:+0}% Prędkość pracy. {1:0.0}EXP z pracy w toku."
 ptBR = "{0:+0}% Velocidade de Trabalho. {1:0.0}EXP de trabalho pendente."
 koKR = "{0:+0}% 작업 속도. {1:0.0} 작업 대기 중인 경험치."
+csCZ = "{0:+0}% Rychlost práce. {1:0.0}EXP z čekající práce."
 
 ["LV.BVM.ExpDescBook"]
 raw = "Extra EXP pending thanks to Books"
@@ -56,6 +59,7 @@ deDE = "Zusätzliche EXP ausstehend dank Bücher"
 plPL = "Extra EXP w toku dzięki Książkom"
 ptBR = "Experiência extra pendente graças aos livros"
 koKR = "책 덕분에 보류 중인 추가 경험치"
+csCZ = "Extra EXP čeká díky Knihám"
 
 ["LV.BVM.Fitness"]
 raw = "Fitness"
@@ -70,6 +74,7 @@ deDE = "Fitness"
 plPL = "Fitness"
 ptBR = "Fitness"
 koKR = "피트니스"
+csCZ = "Fitness"
 
 ["LV.BVM.FitnessTitle"]
 raw = "Fitness: {0}"
@@ -84,6 +89,7 @@ deDE = "Fitness: {0}"
 plPL = "Fitness: {0}"
 ptBR = "Fitness: {0}"
 koKR = "체력: {0}"
+csCZ = "Fitness: {0}"
 
 ["LV.BVM.FitnessDesc"]
 raw = "{0:+0}% Movement Speed and Carry Capacity.\nToday outside time: {1:0.0} hours"
@@ -98,6 +104,7 @@ deDE = "{0:+0}% Bewegungsgeschwindigkeit und Tragfähigkeit.  \nHeute außerhalb
 plPL = "{0:+0}% prędkości ruchu i pojemności noszenia. Dziś na zewnątrz czas: {1:0.0} godzin"
 ptBR = "{0:+0}% de Velocidade de Movimento e Capacidade de Carga.  \nTempo fora hoje: {1:0.0} horas"
 koKR = "{0:+0}% 이동 속도 및 수송 능력.  \n오늘 남은 시간: {1:0.0} 시간"
+csCZ = "{0:+0}% Rychlost pohybu a kapacita nošení.  \nDnes venku času: {1:0.0} hodiny"
 
 ["LV.BVM.DeteriorationTitle"]
 raw = "Durability: {0:0%}"
@@ -112,6 +119,7 @@ deDE = "Haltbarkeit: {0:0%}"
 plPL = "Trwałość: {0:0%}"
 ptBR = "Durabilidade: {0:0%}"
 koKR = "내구도: {0:0%}"
+csCZ = "Odolnost: {0:0%}"
 
 ["LV.BVM.DeteriorationDesc"]
 raw = "{0:0.0%} Working speed and {1:0.0%} Movement speed."
@@ -126,6 +134,7 @@ deDE = "{0:0.0%} Arbeitsgeschwindigkeit und {1:0.0%} Bewegungsgeschwindigkeit."
 plPL = "{0:0.0%} Prędkość pracy i {1:0.0%} Prędkość ruchu."
 ptBR = "{0:0.0%} Velocidade de trabalho e {1:0.0%} Velocidade de movimento."
 koKR = "{0:0.0%} 작업 속도 및 {1:0.0%} 이동 속도."
+csCZ = "{0:0.0%} Rychlost práce a {1:0.0%} Rychlost pohybu."
 
 ["LV.BVM.LowFitnessStatusDesc"]
 raw = "This beaver needs to spend more time outside to regain fitness."
@@ -140,6 +149,7 @@ deDE = "Dieser Biber muss mehr Zeit draußen verbringen, um seine Fitness wieder
 plPL = "Ten bóbr musi spędzać więcej czasu na zewnątrz, aby odzyskać formę."
 ptBR = "Este castor precisa passar mais tempo do lado de fora para recuperar o condicionamento físico."
 koKR = "이 비버는 체력을 회복하기 위해 더 많은 시간을 밖에서 보내야 합니다."
+csCZ = "Tento bobr potřebuje trávit více času venku, aby získal zpět kondici."
 
 ["LV.BVM.LowFitnessStatusDescShort"]
 raw = "Unfit"
@@ -154,6 +164,7 @@ deDE = "\"Unfit\" in German is \"Ungeeignet\"."
 plPL = "Niewłaściwy"
 ptBR = "Não apto"
 koKR = "부적합"
+csCZ = "Nesouvisející"
 
 ["LV.BVM.UpdateText710"]
 raw = "Beavers now gain ×1.5 Fitness time when inside certain buildings instead of not gaining any at all:\n- Folktails: Power Wheel, Lido and Dance Hall.\n- Iron Teeth: Large Power Wheel, Swimming Pool and Excercise Plaza.\n<RedHighlight><b>Important for IT:</b></RedHighlight> This update also remove the feature that adds Papers and Books to Iron Teeth. There is instead an optional mod called 'Papers And Books For IT'. If you have any buildings or goods that were previously made by this mod, please subscribe to that mod before continuing."
@@ -168,3 +179,4 @@ deDE = "Bisamratten erhalten nun ×1,5 Fitnesszeit, wenn sie sich in bestimmten 
 plPL = "Bébrzy teraz zyskują ×1.5 czasu na sprawność, gdy znajdują się w określonych budynkach, zamiast nie zyskiwać niczego: \n- Folktails: Koło mocy, Lido i Sala taneczna. \n- Iron Teeth: Duże Koło mocy, Basen i Plaza do ćwiczeń. \n<RedHighlight><b>Wažne dla IT:</b></RedHighlight> Ta aktualizacja również usuwa funkcję, która dodaje papiery i książki do Iron Teeth. Istnieje zamiast tego opcjonalny mod o nazwie 'Papiery i książki dla IT'. Jeśli masz jakiekolwiek budynki lub towary, które były wcześniej stworzone przez ten mod, proszę, subskrybuj ten mod przed kontynuowaniem."
 ptBR = "Os castores agora ganham ×1.5 de tempo de Fitness quando estão dentro de certos edifícios, em vez de não ganharem nada:/n- Folktails: Roda de Energia, Lido e Casa de Dança./n- Iron Teeth: Grande Roda de Energia, Piscina e Praça de Exercícios./n<RedHighlight><b>Importante para IT:</b></RedHighlight> Esta atualização também remove a funcionalidade que adicionava Papéis e Livros aos Iron Teeth. Existe, em vez disso, um mod opcional chamado 'Papéis e Livros Para IT'. Se você tiver algum edifício ou bens que foram anteriormente feitos por este mod, por favor, assine esse mod antes de continuar."
 koKR = "비버는 이제 특정 건물 안에 있을 때 ×1.5 피트니스 시간을 얻으며, 더 이상 아무것도 얻지 못하지 않습니다:\n- 포크테일: 동력 휠, 수영장, 무도회관.\n- 아이언 티스: 대형 동력 휠, 수영장 및 운동광장.\n<RedHighlight><b>IT에 대한 중요 사항:</b></RedHighlight> 이 업데이트는 아이언 티스에 종이와 책을 추가하는 기능을 제거합니다. 대신 '아이언 티스를 위한 종이와 책'이라는 선택적 모드가 있습니다. 이전에 이 모드로 만들어진 건물이나 상품이 있는 경우 계속하기 전에 해당 모드에 구독해 주시기 바랍니다."
+csCZ = "Bobři nyní získávají ×1,5 času na zdraví, když se nacházejí uvnitř určitých budov místo toho, aby nezískávali žádný čas:\n- Folktails: Energetické kolo, Lido a Taneční sál.\n- Iron Teeth: Velké energetické kolo, Bazén a Cvičební náměstí.\n<RedHighlight><b>Důležité pro IT:</b></RedHighlight> Tato aktualizace také odstraňuje funkci, která přidává Papíry a Knihy k Iron Teeth. Místo toho existuje volitelný mod nazvaný 'Papíry a Knihy pro IT'. Pokud máte nějaké budovy nebo zboží, které byly dříve vytvořeny tímto modem, prosím přihlaste se k tomu modu před pokračováním."

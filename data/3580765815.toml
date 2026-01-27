@@ -14,6 +14,7 @@ deDE = "Build Packager Mod"
 plPL = "Mod Pakietu Budowy"
 ptBR = "Mod Empacotador de Construções"
 koKR = "빌드 패키저 모드"
+csCZ = "Mod balíčka stavitele"
 
 ["LV.Pkg.BuiltDone"]
 raw = "'Packager' mod built. Please restart the game and enable the built mod.\n<RedHighlight>Do not disable this mod.</RedHighlight>\nIf you want to build the mod again (for example, after changing mods that give/remove items), simply disable the built mod and the button will appear again."
@@ -28,6 +29,7 @@ deDE = "'Packager' Mod erstellt. Bitte starten Sie das Spiel neu und aktivieren 
 plPL = "'Mod 'Packager' zbudowany. Proszę zrestartować grę i włączyć zbudowany mod. \n<CzerwonyPodświetlenie>Nie wyłączaj tego moda.</CzerwonyPodświetlenie> \nJeśli chcesz zbudować mod ponownie (na przykład po zmianie modów, które dają/usuwają przedmioty), po prostu wyłącz zbudowany mod, a przycisk pojawi się ponownie."
 ptBR = "'Mod 'Packager' construído. Por favor, reinicie o jogo e habilite o mod construído. \n<DestaqueVermelho>Não desative este mod.</DestaqueVermelho> \nSe você quiser construir o mod novamente (por exemplo, após mudar mods que dão/removem itens), basta desativar o mod construído e o botão aparecerá novamente."
 koKR = "‘패키저’ 모드가 생성되었습니다. 게임을 재시작하고 생성된 모드를 활성화 해주세요.  \n<RedHighlight>이 모드를 비활성화하지 마세요.</RedHighlight>  \n모드를 다시 빌드하고 싶으시다면 (예를 들어 아이템을 주거나 제거하는 모드를 변경한 후), 생성된 모드를 비활성화하면 버튼이 다시 나타납니다."
+csCZ = "'Packager' mod byl postaven. Prosím, restartujte hru a povolte postavený mod.  \n<RedHighlight>Nedisablesujte tento mod.</RedHighlight>  \nPokud chcete mod postavit znovu (například po změně modů, které dávají/odebírají předměty), jednoduše deaktivujte postavený mod a tlačítko se znovu objeví."
 
 ["LV.Pkg.Restart"]
 raw = "Restart"
@@ -42,6 +44,7 @@ deDE = "Neustart"
 plPL = "Restart\" - \"Restartuj"
 ptBR = "Reiniciar"
 koKR = "재시작"
+csCZ = "Restartovat"
 
 ["LV.Pkg.PackagedName"]
 raw = "{0} ×10"
@@ -56,6 +59,7 @@ deDE = "{0} ×10"
 plPL = "{0} ×10"
 ptBR = "{0} ×10"
 koKR = "{0} ×10"
+csCZ = "{0} ×10"
 
 ["LV.Pkg.PackagedNamePlural"]
 raw = "{0} ×10"
@@ -70,6 +74,7 @@ deDE = "{0} ×10"
 plPL = "{0} ×10"
 ptBR = "{0} ×10"
 koKR = "{0} ×10"
+csCZ = "{0} ×10"
 
 ["LV.Pkg.Packager"]
 raw = "Packager"
@@ -84,6 +89,7 @@ deDE = "Packager"
 plPL = "Pakowacz"
 ptBR = "Embalador"
 koKR = "패키저"
+csCZ = "Balíčkovací stroj"
 
 ["LV.Pkg.PackagerDesc"]
 raw = "Combines 10× of any supported good into a single package"
@@ -98,6 +104,7 @@ deDE = "Verpackt 10× eines beliebigen unterstützten Gutes in ein einzelnes Pak
 plPL = "Łączy 10× dowolnego obsługiwanego towaru w jedną paczkę"
 ptBR = "Combina 10× de qualquer produto suportado em um único pacote"
 koKR = "지원되는 모든 아이템 10개를 하나의 패키지로 결합합니다."
+csCZ = "Sloučí 10 × jakéhokoli podporovaného zboží do jednoho balíčku"
 
 ["LV.Pkg.PackagerFlavor"]
 raw = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
@@ -112,6 +119,7 @@ deDE = "Aus der Not geboren, von Pedanten perfektioniert. Wo Unordnung herrscht,
 plPL = "Narodzony z konieczności, dopracowany przez pedantów. Gdzie jest bałagan, tam jest Pakowacz."
 ptBR = "Nascido da necessidade, aperfeiçoado por obsessivos por organização. Onde há bagunça, há um Empacotador."
 koKR = "필요에서 태어나, 깔끔을 추구하는 이들에 의해 완성되다. 어지럽혀진 곳에는 번들러가 있다."
+csCZ = "Narozen z potřeby, zdokonalen čistotnými šílenci. Kde je nepořádek, tam je Balíčkář."
 
 ["LV.Pkg.Unpacker"]
 raw = "Unpackager"
@@ -126,6 +134,7 @@ deDE = "Entpacker"
 plPL = "Rozpakowacz"
 ptBR = "Desempacotador"
 koKR = "언팩커"
+csCZ = "Vytahovač"
 
 ["LV.Pkg.UnpackerDesc"]
 raw = "Unpacks a package back into 10× individual goods."
@@ -140,6 +149,7 @@ deDE = "Entpackt ein Paket zurück in 10× einzelne Waren."
 plPL = "Rozpakowuje paczkę z powrotem na 10× indywidualnych towarów."
 ptBR = "Desempacota um pacote de volta em 10× bens individuais."
 koKR = "패키지를 10개의 개별 품목으로 다시 풀어냅니다."
+csCZ = "Znovu balí balíček na 10× jednotlivých zboží."
 
 ["LV.Pkg.UnpackerFlavor"]
 raw = "Nothing delights a beaver more than unboxing the unexpected."
@@ -154,6 +164,7 @@ deDE = "Nichts erfreut einen Biber mehr, als das Umpacken des Unerwarteten."
 plPL = "Nic nie cieszy bobra bardziej niż rozpakowywanie niespodzianek."
 ptBR = "Nada alegra um castor mais do que abrir algo inesperado."
 koKR = "예상치 못한 것을 포장 해제하는 것만큼 비버를 기쁘게 하는 것은 없습니다."
+csCZ = "Nic nepotěší bobra více než rozbalování nečekaného."
 
 ["LV.Pkg.RecipePack"]
 raw = "Pack {0}"
@@ -168,6 +179,7 @@ deDE = "Pack {0}"
 plPL = "Pakiet {0}"
 ptBR = "Pacote {0}"
 koKR = "팩 {0}"
+csCZ = "Balíček {0}"
 
 ["LV.Pkg.RecipeUnpack"]
 raw = "Unpack {0}"
@@ -182,6 +194,7 @@ deDE = "Entpacken {0}"
 plPL = "Rozpakuj {0}"
 ptBR = "Desempacotar {0}"
 koKR = "{0} 풀기"
+csCZ = "Rozbalit {0}"
 
 ["LV.Pkg.BulkCrate"]
 raw = "Bulk Crate"
@@ -196,6 +209,7 @@ deDE = "Großpackung"
 plPL = "Duża Skrzynia"
 ptBR = "Caixa Grande"
 koKR = "벌크 상자"
+csCZ = "Velká bedna"
 
 ["LV.Pkg.BulkCratePlural"]
 raw = "Bulk Crates"
@@ -210,6 +224,7 @@ deDE = "Großladungskisten"
 plPL = "Wielkie Skrzynie"
 ptBR = "Caixas de Carga"
 koKR = "대형 상자"
+csCZ = "Velké bedny"
 
 ["LV.Pkg.LiquidBarrel"]
 raw = "Liquid Barrel"
@@ -224,6 +239,7 @@ deDE = "Flüssigkeitsfass"
 plPL = "Beczka z cieczą"
 ptBR = "Barril de Líquido"
 koKR = "액체 통"
+csCZ = "Kapalinový sud"
 
 ["LV.Pkg.LiquidBarrelPlural"]
 raw = "Liquid Barrels"
@@ -238,6 +254,7 @@ deDE = "Flüssigkeitsfässer"
 plPL = "Baryłki cieczy"
 ptBR = "Barrís de Líquido"
 koKR = "액체 배럴"
+csCZ = "Kapalinové barely"
 
 ["LV.Pkg.Option10"]
 raw = "Enable 10× Packaging"
@@ -252,6 +269,7 @@ deDE = "10× Verpackung aktivieren"
 plPL = "Włącz pakowanie 10×"
 ptBR = "Ativar embalagem 10×"
 koKR = "10배 포장 활성화"
+csCZ = "Povolit 10× balení"
 
 ["LV.Pkg.Option10Desc"]
 raw = "Allows packing 10× of goods into a single item"
@@ -266,6 +284,7 @@ deDE = "Ermöglicht das Packen von 10× Waren in einen einzelnen Gegenstand"
 plPL = "Pozwala na zapakowanie 10× towarów w jeden przedmiot"
 ptBR = "Permite empacotar 10× de itens em um único item"
 koKR = "상품 10개를 단일 아이템으로 포장할 수 있습니다."
+csCZ = "Umožňuje zabalit 10× zboží do jedné položky"
 
 ["LV.Pkg.OptionCrate"]
 raw = "Enable Bulk Crates (Pile → Warehouse)"
@@ -280,6 +299,7 @@ deDE = "Großkisten aktivieren (Haufen → Lager)"
 plPL = "Zezwól na zbiorcze skrzynie (Stos → Magazyn)"
 ptBR = "Ativar Caixas em Lote (Pilha → Armazém)"
 koKR = "대량 크레이트 활성화 (더미 → 창고)"
+csCZ = "Povolit hromadné bedny (Hromada → Sklad)"
 
 ["LV.Pkg.OptionCrateDesc"]
 raw = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
@@ -294,6 +314,7 @@ deDE = "Ermöglicht das Verpacken von Haufenwaren in Großkisten zur Lagerung in
 plPL = "Pozwala na pakowanie towarów z Półki do Skrzyń Hurtowych do przechowywania w Magazynach."
 ptBR = "Permite embalar produtos em pilha em Caixas em Grande Escala para armazenamento em Armazéns"
 koKR = "창고에 보관하기 위해 무더기 상품을 대형 상자에 포장할 수 있습니다."
+csCZ = "Umožňuje balení hromadného zboží do velkých beden pro skladování ve skladech"
 
 ["LV.Pkg.OptionBarrel"]
 raw = "Enable Liquid Barrels (Tank → Warehouse)"
@@ -308,6 +329,7 @@ deDE = "Flüssigkeitsfässer aktivieren (Tank → Lager)"
 plPL = "Włącz beczki na płyny (Zbiornik → Magazyn)"
 ptBR = "Ativar Barris de Líquido (Tanque → Armazém)"
 koKR = "액체 배럴 활성화 (탱크 → 창고)"
+csCZ = "Povolit tekuté barely (Nádrž → Sklad)"
 
 ["LV.Pkg.OptionBarrelDesc"]
 raw = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
@@ -322,6 +344,7 @@ deDE = "Ermöglicht das Verpacken von Tankflüssigkeiten in Flüssigkeitsfässer
 plPL = "Pozwala na pakowanie cieczy z Tanków do beczek płynnych do przechowywania w magazynach."
 ptBR = "Permite embalar líquidos do Tanque em Barris Líquidos para armazenamento em Armazéns"
 koKR = "창고에 보관하기 위해 탱크 액체를 액체 드럼에 포장할 수 있습니다."
+csCZ = "Umožňuje balení tekutin z nádrží do tekutých sudů pro skladování ve skladech"
 
 ["LV.Pkg.PackagedCrateName"]
 raw = "{0} ×10 Crated"
@@ -336,6 +359,7 @@ deDE = "{0} ×10 Verpackt"
 plPL = "{0} ×10 w skrzyni"
 ptBR = "{0} ×10 Caixa Empacotada"
 koKR = "{0} ×10 포장된 상자"
+csCZ = "{0} ×10 Zabalené"
 
 ["LV.Pkg.PackagedCrateNamePlural"]
 raw = "{0} ×10 Crated"
@@ -350,6 +374,7 @@ deDE = "{0} ×10 Kisten"
 plPL = "{0} ×10 Zapakowane"
 ptBR = "{0} ×10 Empacotados"
 koKR = "{0} ×10 포장된"
+csCZ = "{0} ×10 Krabice"
 
 ["LV.Pkg.PackagedBarrelName"]
 raw = "{0} ×10 Barreled"
@@ -364,6 +389,7 @@ deDE = "{0} ×10 Fässer"
 plPL = "{0} ×10 Beczkowany"
 ptBR = "{0} ×10 Barris"
 koKR = "{0} ×10 통에 담긴"
+csCZ = "{0} ×10 Sudy"
 
 ["LV.Pkg.PackagedBarrelNamePlural"]
 raw = "{0} ×10 Barreled"
@@ -378,6 +404,7 @@ deDE = "{0} ×10 Fässer"
 plPL = "{0} ×10 Beczkowanych"
 ptBR = "{0} ×10 Barris"
 koKR = "{0} ×10 통에 담긴"
+csCZ = "{0} ×10 Sudy"
 
 ["LV.Pkg.RecipePackCrate"]
 raw = "Pack & Crate {0}"
@@ -392,6 +419,7 @@ deDE = "Pack & Kiste {0}"
 plPL = "Paczka i Skrzynka {0}"
 ptBR = "Pacote & Caixa {0}"
 koKR = "포장 및 상자 {0}"
+csCZ = "Zabalit a krabice {0}"
 
 ["LV.Pkg.RecipeUnpackCrate"]
 raw = "Uncrate {0}"
@@ -406,6 +434,7 @@ deDE = "Auspacken {0}"
 plPL = "Otwórz skrzynię {0}"
 ptBR = "Desempacotar {0}"
 koKR = "상자 열기 {0}"
+csCZ = "Vyjmout {0}"
 
 ["LV.Pkg.RecipePackBarrel"]
 raw = "Pack & Barrel {0}"
@@ -420,6 +449,7 @@ deDE = "Pack & Fass {0}"
 plPL = "Paczka i beczka {0}"
 ptBR = "Pacote e Barril {0}"
 koKR = "포장하고 배럴 {0}"
+csCZ = "Balit & Sud {0}"
 
 ["LV.Pkg.RecipeUnpackBarrel"]
 raw = "Unbarrel {0}"
@@ -434,6 +464,7 @@ deDE = "Fass entpacken {0}"
 plPL = "Rozpakuj beczkę {0}"
 ptBR = "Desempilhar {0}"
 koKR = "통에서 빼내기 {0}"
+csCZ = "Rozbalit {0}"
 
 ["LV.Pkg.TransformedGoodGroup"]
 raw = "Crated & Barreled Goods"
@@ -448,6 +479,7 @@ deDE = "Produkte in Kisten und Fässern"
 plPL = "Towary w skrzyniach i beczkach"
 ptBR = "Bens Engradados e Encalhados"
 koKR = "상자 및 통에 담긴 상품"
+csCZ = "Zboží v bednách a sudech"
 
 ["LV.Pkg.Update710"]
 raw = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
@@ -462,3 +494,4 @@ deDE = "Schlüsselname: LV.Pkg.Update710 - Neuer zu übersetzender Text: \"Diese
 plPL = "Ta aktualizacja daje ci dwie nowe dodatkowe opcje: Pudełka zbiorcze i Bańki płynów, dzięki którym możesz przechowywać towary z Półek i Zbiorników w Magazynach. Sprawdź opis moda na Steam lub Mod.io, aby uzyskać więcej szczegółów."
 ptBR = "Esta atualização oferece duas novas opções adicionais: Caixas em Lote e Barris de Líquido, para que você possa armazenar bens de Pilha e Tanque nos Armazéns. Verifique a descrição do mod no Steam ou Mod.io para mais detalhes."
 koKR = "이 업데이트는 두 가지 새로운 추가 옵션을 제공합니다: 대량 상자와 액체 드럼으로, 창고에 더미 및 탱크 물품을 저장할 수 있습니다. 더 많은 정보는 Steam이나 Mod.io의 모드 설명을 확인하세요."
+csCZ = "Tato aktualizace vám přináší dvě nové dodatečné možnosti: Hromadné bedny a Kapalinové barely, abyste mohli uskladnit zboží z Hromady a Nádrže ve skladech. Podívejte se na popis modu na Steamu nebo Mod.io pro více podrobností."

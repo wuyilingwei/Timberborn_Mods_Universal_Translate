@@ -14,6 +14,7 @@ deDE = "Himmelsverdorrung"
 plPL = "Skyblight"
 ptBR = "Skyblight"
 koKR = "하늘의 재앙"
+csCZ = "Skyblight"
 
 ["LV.MWSb.SkyblightStrength"]
 raw = "Blight Strength"
@@ -28,6 +29,7 @@ deDE = "Verderbensstärke"
 plPL = "Siła Obrzydlenia"
 ptBR = "Força da Praga"
 koKR = "재앙 강도"
+csCZ = "Síla nákazy"
 
 ["LV.MWSb.SkyblightStrengthDesc"]
 raw = "How fast the blight spreads into the water (%/tick).\nEach game tick (0.6s), a part of water is made into badwater.\nFor example, at default 0.1%, your reservoir without any new fresh water in\nwill become 100% contaminated after 1000 ticks / 600s (about one and a half game day)."
@@ -42,6 +44,7 @@ deDE = "„Wie schnell sich die Schädigung ins Wasser ausbreitet (%/Tick). \nJe
 plPL = "Jak szybko zgnilizna rozprzestrzenia się w wodzie (%/tick).\nCo każdą jednostkę czasu gry (0,6s), część wody staje się zatrutą wodą.\nNa przykład, przy domyślnej wartości 0,1%, twój zbiornik bez dostępu do nowej świeżej wody\nzostanie w 100% skażony po 1000 tickach / 600s (około półtorej dnia gry)."
 ptBR = "Quão rápido a praga se espalha pela água (%/tick). \nA cada tick do jogo (0,6s), uma parte da água se transforma em água contaminada. \nPor exemplo, com o padrão de 0,1%, seu reservatório sem nenhuma nova água fresca \nse tornará 100% contaminado após 1000 ticks / 600s (cerca de um dia e meio de jogo)."
 koKR = "역병이 물로 얼마나 빠르게 퍼지는지 (%/틱).\n각 게임 틱(0.6초)마다 물의 일부가 나쁜 물로 변합니다.\n예를 들어, 기본값인 0.1%에서는 새로운 담수 없이 \n저수지가 1000틱/600초 후(게임 일 약 1.5일)에 100% 오염됩니다."
+csCZ = "Jak rychle se nákaza šíří do vody (%/tick).\nKaždý herní tick (0,6 s) se část vody stává znečištěnou vodou.\nNapříklad, při výchozí hodnotě 0,1 % se vaše nádrž bez nového čerstvého vody\nstane 100 % kontaminovanou po 1000 tickách / 600 s (přibližně jeden a půl herního dne)."
 
 ["LV.MWSb.Badrain"]
 raw = "Badrain"
@@ -56,6 +59,7 @@ deDE = "Badrain"
 plPL = "Badrain"
 ptBR = "Badrain"
 koKR = "배수관"
+csCZ = "Badrain"
 
 ["LV.MWSb.BadrainLimitMoisture"]
 raw = "Limit Moisture Range"
@@ -70,6 +74,7 @@ deDE = "Feuchtigkeitsbereich begrenzen"
 plPL = "Limit zakresu wilgotności"
 ptBR = "Limite da Faixa de Umidade"
 koKR = "습기 범위 제한"
+csCZ = "Limit rozsahu vlhkosti"
 
 ["LV.MWSb.BadrainLimitMoistureDesc"]
 raw = "Limit the range your land get moisture when badrain is active."
@@ -84,6 +89,7 @@ deDE = "Begrenzen Sie den Bereich, in dem Ihr Land Feuchtigkeit erhält, wenn de
 plPL = "Ogranicz zasięg, w jakim twoja ziemia może otrzymać wilgoć, gdy aktywna jest zła deszcz."
 ptBR = "Limite a área que sua terra recebe umidade quando a chuva ruim está ativa."
 koKR = "나쁜 비가 활성화될 때 토지가 수분을 얻는 범위를 제한합니다."
+csCZ = "Omezuje rozsah, ve kterém vaše půda získává vlhkost, když je aktivní špatný déšť."
 
 ["LV.MWSb.BadrainMoistureRange"]
 raw = "Limited Moisture Range"
@@ -98,6 +104,7 @@ deDE = "Begrenzter Feuchtigkeitsbereich"
 plPL = "Ograniczony Zakres Wilgotności"
 ptBR = "Faixa de Umidade Limitada"
 koKR = "제한된 습도 범위"
+csCZ = "Omezený rozsah vlhkosti"
 
 ["LV.MWSb.BadrainMoistureRangeDesc"]
 raw = "The maximum moisture range when badrain is active."
@@ -112,6 +119,7 @@ deDE = "Der maximale Feuchtigkeitsbereich, wenn Badrain aktiv ist."
 plPL = "Maksymalny zakres wilgotności, gdy badrain jest aktywny."
 ptBR = "A faixa máxima de umidade quando a chuva ruim está ativa."
 koKR = "바드레인이 활성화될 때의 최대 습기 범위입니다."
+csCZ = "Maximální rozsah vlhkosti, když je aktivní špatný déšť."
 
 ["LV.MWSb.BadrainContamination"]
 raw = "Frequent land contamination"
@@ -126,6 +134,7 @@ deDE = "Häufige Bodenverunreinigung"
 plPL = "Częsta kontaminacja terenu"
 ptBR = "Contaminação de terra frequente"
 koKR = "잦은 토양 오염"
+csCZ = "Častá kontaminace půdy"
 
 ["LV.MWSb.BadrainContaminationDesc"]
 raw = "Contaminate the land every now and then when badrain is active."
@@ -140,6 +149,7 @@ deDE = "Verschmutze das Land gelegentlich, wenn der schlechten Regen aktiv ist."
 plPL = "Zanieczyszczaj ziemię od czasu do czasu, gdy aktywna jest zła deszcz."
 ptBR = "Contamine a terra de vez em quando quando a chuva ruim estiver ativa."
 koKR = "나쁜 비가 활성화될 때마다 가끔씩 땅을 오염시킵니다."
+csCZ = "Znečišťujte půdu čas od času, když je aktivní špatný déšť."
 
 ["LV.MWSb.BadrainContaminationDuration"]
 raw = "Contamination Duration"
@@ -154,6 +164,7 @@ deDE = "Kontaminationsdauer"
 plPL = "Czas kontaminacji"
 ptBR = "Duração da Contaminação"
 koKR = "오염 지속 시간"
+csCZ = "Doba kontaminace"
 
 ["LV.MWSb.BadrainContaminationDurationDesc"]
 raw = "How long the land is contaminated (days) when badrain is active."
@@ -168,6 +179,7 @@ deDE = "Wie lange das Land kontaminiert ist (Tage), wenn der schlechte Regen akt
 plPL = "Czas, przez jaki teren jest zanieczyszczony (dni) podczas aktywności złego deszczu."
 ptBR = "Duração da contaminação da terra (dias) quando a chuva ácida está ativa."
 koKR = "나쁜 비가 활성화될 때 땅이 오염되는 기간(일)"
+csCZ = "Po jak dlouhou dobu je půda kontaminována (dny), když je aktivní špatný déšť."
 
 ["LV.MWSb.BadrainClearDuration"]
 raw = "Clear Duration"
@@ -182,6 +194,7 @@ deDE = "Klärdauer"
 plPL = "czas czyszczenia"
 ptBR = "Duração de Limpeza"
 koKR = "지속 시간 지우기"
+csCZ = "Čas bez deště"
 
 ["LV.MWSb.BadrainClearDurationDesc"]
 raw = "How long the land is clear of contamination (days) when badrain is active."
@@ -196,6 +209,7 @@ deDE = "Wie lange das Land von Kontamination (Tage) befreit ist, wenn der schlec
 plPL = "Czas, przez jaki teren jest wolny od zanieczyszczenia (dni), gdy złe deszcze są aktywne."
 ptBR = "Quanto tempo a terra permanece livre de contaminação (dias) quando a chuva ácida está ativa."
 koKR = "악천후가 활성화될 때 오염이 없는 상태가 유지되는 기간(일)."
+csCZ = "Jak dlouho je půda bez kontaminace (dny), když je aktivní špatný déšť."
 
 ["LV.MWSb.Update704"]
 raw = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
@@ -210,6 +224,7 @@ deDE = "Der Wert für die Skyblight-Stärke-Einstellungseinheit beträgt jetzt %
 plPL = "Ustawienie jednostki mocy Skyblight jest teraz w % zamiast ‰. Możesz również ustawić mniejszą liczbę, używając wartości dziesiętnej. Wartość domyślna wynosi 0,1% (5 razy wolniej niż poprzednie ustawienia domyślne)."
 ptBR = "A unidade de configuração da força Skyblight agora é % em vez de ‰. Você também pode definir um número menor usando decimal. O valor padrão é definido como 0,1% (5 vezes mais lento do que as configurações padrão anteriores)."
 koKR = "Skyblight 강도 설정 단위가 ‰ 대신 %로 변경되었습니다.\n소수점을 사용하여 더 작은 숫자로 설정할 수도 있습니다.\n기본값은 0.1%로 설정되어 있으며, 이전 기본 설정보다 5배 느립니다."
+csCZ = "Nastavení síly Skyblight je nyní % místo ‰. Můžete také nastavit menší číslo pomocí desetinných míst. Výchozí hodnota je nastavena na 0,1 % (5krát pomaleji než předchozí výchozí nastavení)."
 
 ["LV.MWSb.SkyblightDesc"]
 raw = "Hazardous weather: All water get contaminated over time. Does not affect waters in storage (Tanks)."
@@ -224,6 +239,7 @@ deDE = "Gefährliches Wetter: Alle Wasser werden im Laufe der Zeit kontaminiert.
 plPL = "Niebezpieczna pogoda: Cała woda z czasem ulega zanieczyszczeniu. Nie dotyczy wód w magazynach (zbiornikach)."
 ptBR = "Descrição do Skyblight: \"Clima perigoso: Toda a água se contamina com o tempo. Não afeta águas armazenadas (Tanques).\""
 koKR = "위험한 날씨: 모든 물이 시간이 지나면서 오염됩니다. 저장 중인 물(탱크)에는 영향을 미치지 않습니다."
+csCZ = "Nebezpečné počasí: Všechny vody se časem kontaminují. Nepůsobí na vody ve skladu (nádrže)."
 
 ["LV.MWSb.BadrainDesc"]
 raw = "Hazardous weather: Same effect as Skyblight and selectable additional effects:\n- Limit Moisture Range: your land can only carry moisture to a much smaller range.\n- Contaminate Land: the land will be contaminated every now and then."
@@ -238,3 +254,4 @@ deDE = "Gefährliches Wetter: Gleiche Wirkung wie Skyblight und wählbare zusät
 plPL = "Zagrożenia pogodowe: Taki sam efekt jak Skyblight i dodatkowe efekty do wyboru:\n- Ograniczenie zakresu wilgoci: twoja ziemia może przenosić wilgoć tylko w dużo mniejszym zakresie.\n- Zanieczyszczenie ziemi: ziemia będzie zanieczyszczona co jakiś czas."
 ptBR = "Nome da chave: LV.MWSb.BadrainDesc - Texto traduzido: \"Clima perigoso: Mesmo efeito que a Skyblight e efeitos adicionais selecionáveis:\n- Limitar Faixa de Umidade: sua terra pode carregar umidade apenas em uma faixa muito menor.\n- Contaminar a Terra: a terra será contaminada de tempos em tempos.\""
 koKR = "위험한 날씨: 스카이 블라이트와 같은 효과 및 선택 가능한 추가 효과:\n- 수분 범위 제한: 당신의 땅은 훨씬 더 작은 범위의 수분만 유지할 수 있습니다.\n- 토지 오염: 땅은 가끔씩 오염됩니다."
+csCZ = "Nebezpečné počasí: stejný efekt jako Utrpení Nebes a volitelné dodatečné efekty:\n- Omezit rozsah vlhkosti: vaše půda může nést vlhkost pouze v mnohem menším rozsahu.\n- Znečištění půdy: půda bude občas znečištěna."

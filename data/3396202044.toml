@@ -14,6 +14,7 @@ deDE = "Baumwachstumsrate"
 plPL = "Wskaźnik wzrostu drzew"
 ptBR = "Taxa de crescimento das árvores"
 koKR = "나무 성장 속도"
+csCZ = "Rychlost růstu stromů"
 
 ["CG.TreeGrowthRateDesc"]
 raw = "Multiplier for Tree growth time like Pines or Oaks (1 for game default). Can be set to below 1 to make the game harder."
@@ -28,6 +29,7 @@ deDE = "Multiplikator für das Baumwachstum wie Kiefern oder Eichen (1 für die 
 plPL = "Mnożnik czasu wzrostu drzew, takich jak sosny lub dęby (1 to domyślna wartość gry). Można ustawić poniżej 1, aby utrudnić grę."
 ptBR = "Multiplicador para o tempo de crescimento das árvores como Pinheiros ou Carvalhos (1 para o padrão do jogo). Pode ser definido abaixo de 1 para tornar o jogo mais difícil."
 koKR = "소나무나 참나무와 같은 나무 성장 시간에 대한 배율(게임 기본값은 1). 게임을 더 어렵게 만들기 위해 1보다 아래로 설정할 수 있습니다."
+csCZ = "Multiplikátor pro čas růstu stromů, jako jsou borovice nebo duby (1 pro výchozí hodnotu hry). Může být nastaven na hodnotu nižší než 1, aby se hra stala obtížnější."
 
 ["CG.CropGrowthRate"]
 raw = "Crop growth rate"
@@ -42,6 +44,7 @@ deDE = "Wachstumsrate der Pflanzen"
 plPL = "Współczynnik wzrostu roślin"
 ptBR = "Taxa de crescimento de culturas"
 koKR = "작물 성장률"
+csCZ = "Rychlost růstu plodin"
 
 ["CG.CropGrowthRateDesc"]
 raw = "Multiplier for Crop growth time like Carrots or Potatoes (1 for game default). Can be set to below 1 to make the game harder."
@@ -56,6 +59,7 @@ deDE = "Multiplikator für die Wachstumszeit von Pflanzen wie Karotten oder Kart
 plPL = "Mnożnik dla czasu wzrostu roślin, takich jak marchewki czy ziemniaki (1 dla domyślnej wartości w grze). Można ustawić poniżej 1, aby utrudnić grę."
 ptBR = "Multiplicador para o tempo de crescimento de culturas como cenouras ou batatas (1 para o padrão do jogo). Pode ser ajustado para menos de 1 para tornar o jogo mais difícil."
 koKR = "농작물 성장 시간에 대한 배수, 예: 당근이나 감자 (게임 기본값은 1). 게임을 더 어렵게 만들기 위해 1보다 낮게 설정할 수 있습니다."
+csCZ = "Multiplikátor pro čas růstu plodin, jako jsou mrkve nebo brambory (1 pro výchozí nastavení hry). Může být nastaven na hodnotu pod 1, aby byla hra obtížnější."
 
 ["CG.GatherableGrowthRate"]
 raw = "Product growth rate"
@@ -70,6 +74,7 @@ deDE = "Produktwachstumsrate"
 plPL = "Wzrost rate produktu"
 ptBR = "Taxa de crescimento do produto"
 koKR = "제품 성장률"
+csCZ = "Rychlost růstu produktu"
 
 ["CG.GatherableGrowthRateDesc"]
 raw = "Multiplier for products growth time like Pine Resin or Berries (1 for game default). Can be set to below 1 to make the game harder."
@@ -84,6 +89,7 @@ deDE = "Multiplikator für das Wachstum von Produkten wie Kiefernharz oder Beere
 plPL = "Mnożnik dla czasu wzrostu produktów, takich jak żywica sosnowa czy jagody (1 to domyślna wartość w grze). Może być ustawiony poniżej 1, aby uczynić grę trudniejszą."
 ptBR = "Multiplicador para o tempo de crescimento de produtos como Resina de Pinheiro ou Frutas (1 para o padrão do jogo). Pode ser definido abaixo de 1 para dificultar o jogo."
 koKR = "제품 성장 시간에 대한 배수, 예를 들어 소나무 수지나 베리(게임 기본값 1). 게임을 더 어렵게 만들기 위해 1보다 낮게 설정할 수 있습니다."
+csCZ = "Multiplikátor pro čas růstu produktů jako pryskyřice z borovice nebo bobule (1 je výchozí hodnota ve hře). Může být nastaven na hodnotu nižší než 1 pro ztížení hry."
 
 ["CG.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
@@ -98,6 +104,7 @@ deDE = "Reproduzierbarer Chancenmultiplikator"
 plPL = "Reprodukcyjny mnożnik szans"
 ptBR = "Multiplicador de chance reproduzível"
 koKR = "재현 가능성 배수"
+csCZ = "Multiplikátor šance na reprodukci"
 
 ["CG.ReproducibleChanceMultiplierDesc"]
 raw = "Make trees more or less likely to reproduce. Each tree each hour has a 1-3% chance to reproduce depends on the kind. Setting this to 1 to keep the game's setting and 0 means no reproduction."
@@ -112,6 +119,7 @@ deDE = "Mache Bäume weniger oder mehr wahrscheinlich, sich zu reproduzieren. Je
 plPL = "Zwiększ lub zmniejsz prawdopodobieństwo reprodukcji drzew. Każde drzewo co godzinę ma 1-3% szans na reprodukcję, w zależności od gatunku. Ustawienie na 1 utrzymuje ustawienia gry, a 0 oznacza brak reprodukcji."
 ptBR = "Faça com que as árvores tenham mais ou menos probabilidade de se reproduzir. Cada árvore, a cada hora, tem uma chance de 1-3% de se reproduzir, dependendo do tipo. Definir isso para 1 mantém a configuração do jogo, e 0 significa que não há reprodução."
 koKR = "나무가 번식할 가능성을 높이거나 낮추세요. 각 나무는 매시간 1-3%의 번식 확률이 있으며, 이는 종류에 따라 다릅니다. 이 값을 1로 설정하면 게임의 기본 설정을 유지하고, 0으로 설정하면 번식이 없습니다."
+csCZ = "Upravte, jak pravděpodobné je, že stromy se budou rozmnožovat. Každý strom má každou hodinu 1-3% šanci na rozmnožení, která závisí na druhu. Nastavení na 1 udržuje nastavení hry a 0 znamená žádné rozmnožování."
 
 ["CG.SpreadDistance"]
 raw = "Spread distance"
@@ -126,6 +134,7 @@ deDE = "Verbreitungsdistanz"
 plPL = "Odległość rozproszenia"
 ptBR = "Distância de espalhamento"
 koKR = "전파 거리"
+csCZ = "Rozptylová vzdálenost"
 
 ["CG.SpreadDistanceDesc"]
 raw = "The distance (in blocks) that a tree can spread to a new block. 0 means no spreading. Game default: 1"
@@ -140,6 +149,7 @@ deDE = "Die Entfernung (in Blöcken), die ein Baum auf einen neuen Block ausbrei
 plPL = "Odległość (w blokach), którą drzewo może rozprzestrzenić się na nowy blok. 0 oznacza brak rozprzestrzeniania. Domyślna wartość w grze: 1"
 ptBR = "A distância (em quadras) que uma árvore pode se espalhar para um novo bloco. 0 significa nenhum espalhamento. Padrão do jogo: 1"
 koKR = "나무가 새로운 블록으로 퍼지는 거리(블록 기준). 0은 퍼짐이 없음을 의미합니다. 게임 기본값: 1"
+csCZ = "Vzdálenost (v blocích), do které se strom může rozšířit na nový blok. 0 znamená žádné rozšiřování. Výchozí hodnota hry: 1"
 
 ["CG.SpreadVertically"]
 raw = "Can spread vertically"
@@ -154,6 +164,7 @@ deDE = "Kann sich vertikal ausbreiten."
 plPL = "Może rozprzestrzeniać się pionowo."
 ptBR = "Pode se espalhar verticalmente"
 koKR = "수직으로 퍼질 수 있음"
+csCZ = "Části se mohou šířit svisle"
 
 ["CG.SpreadVerticallyDesc"]
 raw = "If enabled, trees can spread to blocks above or below them (using the Spread Distance). Game default: false"
@@ -168,3 +179,4 @@ deDE = "Wenn aktiviert, können Bäume auf Blöcke über oder unter sich wachsen
 plPL = "Jeśli włączone, drzewa mogą rozprzestrzeniać się na bloki powyżej lub poniżej nich (używając Odległości Rozprzestrzeniania). Domyślna wartość gry: fałsz"
 ptBR = "Se habilitado, as árvores podem se espalhar para os blocos acima ou abaixo delas (usando a Distância de Espalhamento). Padrão do jogo: falso"
 koKR = "사용하도록 설정하면 나무가 위 또는 아래의 블록으로 퍼질 수 있습니다 (퍼짐 거리 사용). 게임 기본값: false"
+csCZ = "Při zapnutí mohou stromy rostnout do bloků nad nebo pod nimi (s použitím vzdálenosti šíření). Výchozí nastavení hry: vypnuto"

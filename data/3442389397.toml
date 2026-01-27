@@ -14,6 +14,7 @@ deDE = "Wissenschaftliche Projekte"
 plPL = "Projekty naukowe"
 ptBR = "Projetos Científicos"
 koKR = "과학적 프로젝트"
+csCZ = "Vědecké projekty"
 
 ["LV.SP.Welcome"]
 raw = "Thank you for using Scientific Projects mod. This screen is where you can unlock and manage the projects. You can open it by clicking on the Science button on the top-left of the screen or pressing a hotkey (default: Y, you can rebind it in the Keybindings Settings)."
@@ -28,6 +29,7 @@ deDE = "Vielen Dank, dass Sie das Scientific Projects-Modul verwenden. Dieser Bi
 plPL = "Dziękujemy za korzystanie z modyfikacji Projektów Naukowych. Ten ekran to miejsce, w którym możesz odblokować i zarządzać projektami. Możesz go otworzyć, klikając przycisk Nauka w lewym górnym rogu ekranu lub naciskając klawisz skrótu (domyślnie: Y, możesz go zmienić w Ustawieniach Przypisania Klawiszy)."
 ptBR = "Obrigado por usar o mod Projetos Científicos. Esta tela é onde você pode desbloquear e gerenciar os projetos. Você pode abri-la clicando no botão Ciência no canto superior esquerdo da tela ou pressionando uma tecla de atalho (padrão: Y, você pode redefinir isso nas Configurações de Teclas)."
 koKR = "과학 프로젝트 모드를 사용해 주셔서 감사합니다. 이 화면에서는 프로젝트를 잠금 해제하고 관리할 수 있습니다. 화면 왼쪽 상단에 있는 과학 버튼을 클릭하거나 단축키(기본값: Y)를 눌러 열 수 있습니다. 단축키는 키 바인딩 설정에서 재할당할 수 있습니다."
+csCZ = "Děkujeme, že používáte mod Vědecké projekty. Tato obrazovka je místem, kde můžete odemykat a spravovat projekty. Můžete ji otevřít kliknutím na tlačítko Věda v levém horním rohu obrazovky nebo stisknutím zkratky (výchozí: Y, můžete ji změnit v nastavení klávesových zkratek)."
 
 ["KeyBinding.ScientificProjectDialog"]
 raw = "Scientific Projects Screen"
@@ -42,6 +44,7 @@ deDE = "Wissenschaftliche Projekte Bildschirm"
 plPL = "Ekran projektów naukowych"
 ptBR = "Tela de Projetos Científicos"
 koKR = "과학 프로젝트 화면"
+csCZ = "Obrazovka vědeckých projektů"
 
 ["LV.SP.Unlocked"]
 raw = "<b>Unlocked!</b>"
@@ -56,6 +59,7 @@ deDE = "<b>Freigeschaltet!</b>"
 plPL = "<b>Odblokowane!</b>"
 ptBR = "<b>Desbloqueado!</b>"
 koKR = "<b>잠금 해제!</b>"
+csCZ = "<b>Odblokováno!</b>"
 
 ["LV.SP.PreqLocked"]
 raw = "<RedHighlight>Requires {0} to unlock.</RedHighlight>"
@@ -70,6 +74,7 @@ deDE = "<RedHighlight>Benötigt {0}, um freigeschaltet zu werden.</RedHighlight>
 plPL = "<RedHighlight>Wymaga {0}, aby odblokować.</RedHighlight>"
 ptBR = "<RedHighlight>Requer {0} para desbloquear.</RedHighlight>"
 koKR = "<RedHighlight>{0}을(를) 잠금 해제하는 데 필요합니다.</RedHighlight>"
+csCZ = "<RedHighlight>Vyžaduje {0} k odemčení.</RedHighlight>"
 
 ["LV.SP.NotEnoughScienceNextDay"]
 raw = "<RedHighlight>You do not have enough science to pay for the next day. Adjust your projects or skip for today. Warning: pressing Esc will skip the projects for today.</RedHighlight>"
@@ -84,6 +89,7 @@ deDE = "<RedHighlight>Sie haben nicht genug Wissenschaft, um für den nächsten 
 plPL = "<RedHighlight>Nie masz wystarczającej ilości nauki, aby zapłacić za następny dzień. Dostosuj swoje projekty lub przełóż na dzisiaj. Ostrzeżenie: naciśnięcie klawisza Esc pominie projekty na dzisiaj.</RedHighlight>"
 ptBR = "<RedHighlight>Você não tem ciência suficiente para pagar pelo dia seguinte. Ajuste seus projetos ou pule para hoje. Aviso: pressionar Esc pulará os projetos para hoje.</RedHighlight>"
 koKR = "<RedHighlight>다음 날을 위해 지불할 충분한 과학이 없습니다. 프로젝트를 조정하거나 오늘은 건너뛰십시오. 경고: Esc 키를 누르면 오늘 프로젝트가 건너뛰어집니다.</RedHighlight>"
+csCZ = "<RedHighlight>Nemáte dostatek vědy na zaplacení za následující den. Upravte své projekty nebo dnes vynechejte. Upozornění: stisknutí Esc vynechá projekty pro dnešek.</RedHighlight>"
 
 ["LV.SP.CurrentScience"]
 raw = "Current Science: {0}"
@@ -98,6 +104,7 @@ deDE = "Aktuelle Wissenschaft: {0}"
 plPL = "Aktualna Nauka: {0}"
 ptBR = "Ciência Atual: {0}"
 koKR = "현재 과학: {0}"
+csCZ = "Aktuální věda: {0}"
 
 ["LV.SP.CurrentSciencePlus"]
 raw = "Current Science: {0} ({1} from yesterday)"
@@ -112,6 +119,7 @@ deDE = "Aktuelle Wissenschaft: {0} ({1} von gestern)"
 plPL = "Aktualna nauka: {0} ({1} z wczoraj)"
 ptBR = "Ciência Atual: {0} ({1} de ontem)"
 koKR = "현재 과학: {0} ({1} 어제보다)"
+csCZ = "Aktuální věda: {0} ({1} z včerejška)"
 
 ["LV.SP.UnlockErrUnlocked"]
 raw = "This project is already unlocked"
@@ -126,6 +134,7 @@ deDE = "Dieses Projekt ist bereits entsperrt."
 plPL = "Ten projekt jest już odblokowany."
 ptBR = "Este projeto já está desbloqueado."
 koKR = "이 프로젝트는 이미 잠금 해제되었습니다."
+csCZ = "Tento projekt je již odemčený"
 
 ["LV.SP.UnlockErrRequirementLocked"]
 raw = "This project requires {0} to unlock"
@@ -140,6 +149,7 @@ deDE = "Dieses Projekt erfordert {0}, um freigeschaltet zu werden."
 plPL = "Ten projekt wymaga {0}, aby odblokować."
 ptBR = "Este projeto requer {0} para ser desbloqueado."
 koKR = "이 프로젝트는 잠금을 해제하기 위해 {0}가 필요합니다."
+csCZ = "Tento projekt vyžaduje {0} k odemknutí"
 
 ["LV.SP.UnlockErrCostLocked"]
 raw = "You have only {0} science, but you need {1} science to unlock this project."
@@ -154,6 +164,7 @@ deDE = "Du hast nur {0} Wissenschaft, aber du benötigst {1} Wissenschaft, um di
 plPL = "Masz tylko {0} nauki, ale potrzebujesz {1} nauki, aby odblokować ten projekt."
 ptBR = "Você tem apenas {0} ciência, mas precisa de {1} ciência para desbloquear este projeto."
 koKR = "당신은 {0} 과학만 가지고 있지만, 이 프로젝트를 잠금 해제하려면 {1} 과학이 필요합니다."
+csCZ = "Máte pouze {0} vědy, ale potřebujete {1} vědy k odemčení tohoto projektu."
 
 ["LV.SP.UnlockConfirm"]
 raw = "Are you sure you want to unlock {0} with {1} science?"
@@ -168,6 +179,7 @@ deDE = "Sind Sie sicher, dass Sie {0} mit {1} Wissenschaft freischalten möchten
 plPL = "Czy na pewno chcesz odblokować {0} za pomocą {1} nauki?"
 ptBR = "Você tem certeza de que deseja desbloquear {0} com {1} ciência?"
 koKR = "{1} 과학으로 {0} 를 잠금 해제 하시겠습니까?"
+csCZ = "Ovšemu? Opravdu chcete odemknout {0} za {1} vědy?"
 
 ["LV.SP.CustomCost"]
 raw = "cost per day:"
@@ -182,6 +194,7 @@ deDE = "Kosten pro Tag:"
 plPL = "koszt za dzień:"
 ptBR = "custo por dia:"
 koKR = "일일 비용:"
+csCZ = "náklady za den:"
 
 ["LV.SP.ScienceStepCost"]
 raw = "{0} per Level"
@@ -196,6 +209,7 @@ deDE = "{0} pro Level"
 plPL = "{0} za poziom"
 ptBR = "{0} por Nível"
 koKR = "{0}당 레벨"
+csCZ = "{0} za úroveň"
 
 ["LV.SP.CurrentCost"]
 raw = "Next day cost: {0}/d"
@@ -210,6 +224,7 @@ deDE = "Nächster Tag Kosten: {0}/d"
 plPL = "Koszt następnego dnia: {0}/d"
 ptBR = "Custo do próximo dia: {0}/d"
 koKR = "다음 날 비용: {0}/일"
+csCZ = "Náklady na další den: {0}/d"
 
 ["LV.SP.Level"]
 raw = "Level"
@@ -224,6 +239,7 @@ deDE = "Ebene"
 plPL = "Poziom"
 ptBR = "Nível"
 koKR = "레벨"
+csCZ = "Úroveň"
 
 ["LV.SP.ActiveLevel"]
 raw = "Active Level: {0}"
@@ -238,6 +254,7 @@ deDE = "Aktives Level: {0}"
 plPL = "Poziom aktywny: {0}"
 ptBR = "Nível Ativo: {0}"
 koKR = "활성 레벨: {0}"
+csCZ = "Aktivní úroveň: {0}"
 
 ["LV.SP.DayCostNotice"]
 raw = "Some projects cost a daily amount instead of an one-time unlock. Daily Science cost is deducted at the start of each day and the effects remain the same for the entire day. You can adjust the level of these projects (for the next day) using the slider."
@@ -252,6 +269,7 @@ deDE = "Einige Projekte kosten einen täglichen Betrag anstatt einer einmaligen 
 plPL = "Niektóre projekty kosztują dzienną kwotę zamiast jednorazowego odblokowania. Codzienny koszt nauki jest odciągany na początku każdego dnia, a efekty utrzymują się przez cały dzień. Możesz dostosować poziom tych projektów (na następny dzień) za pomocą suwaka."
 ptBR = "Alguns projetos custam um valor diário em vez de um desbloqueio único. O custo da Ciência Diária é deduzido no início de cada dia e os efeitos permanecem os mesmos durante todo o dia. Você pode ajustar o nível desses projetos (para o dia seguinte) usando o controle deslizante."
 koKR = "일부 프로젝트는 일회성 해제가 아닌 매일 금액이 필요합니다. 매일 과학 비용은 매일 시작 시 차감되며, 효과는 하루 종일 동일하게 유지됩니다. 다음 날에 이러한 프로젝트의 수준을 슬라이더를 사용하여 조정할 수 있습니다."
+csCZ = "Některé projekty mají denní náklady místo jednorázového odemknutí. Denní náklady na vědu se odečítají na začátku každého dne a účinky zůstávají během celého dne nezměněny. Můžete upravit úroveň těchto projektů (na následující den) pomocí posuvníku."
 
 ["LV.SP.NextDayCost"]
 raw = "Next day cost: {0}"
@@ -266,6 +284,7 @@ deDE = "Nächster Tag Kosten: {0}"
 plPL = "Koszt następnego dnia: {0}"
 ptBR = "Custo do dia seguinte: {0}"
 koKR = "다음 날 비용: {0}"
+csCZ = "Náklady na další den: {0}"
 
 ["LV.SP.PayDayCost"]
 raw = "Pay for the day"
@@ -280,6 +299,7 @@ deDE = "Zahlung für den Tag"
 plPL = "Płatność za dzień"
 ptBR = "Pagamento pelo dia"
 koKR = "하루 비용 지불"
+csCZ = "Zaplať za den"
 
 ["LV.SP.NotEnoughSciencePay"]
 raw = "You do not have enough science to pay for the next day. Adjust your projects or skip for today."
@@ -294,6 +314,7 @@ deDE = "Sie haben nicht genügend Wissenschaft, um für den nächsten Tag zu bez
 plPL = "Nie masz wystarczającej ilości nauki, aby opłacić następny dzień. Dostosuj swoje projekty lub pomiń dzisiaj."
 ptBR = "Você não tem ciência suficiente para pagar pelo dia seguinte. Ajuste seus projetos ou pule hoje."
 koKR = "다음 날 비용을 지불할 만큼의 과학이 부족합니다. 프로젝트를 조정하거나 오늘은 건너뛰세요."
+csCZ = "Nedostatek vědy na zaplacení následujícího dne. Upravte své projekty nebo vynechejte dnešek."
 
 ["LV.SP.SkipConfirm"]
 raw = "Are you sure you want to skip the projects for today?"
@@ -308,6 +329,7 @@ deDE = "Bist du dir sicher, dass du die Projekte für heute auslassen möchtest?
 plPL = "Czy na pewno chcesz pominąć projekty na dzisiaj?"
 ptBR = "Você tem certeza de que quer pular os projetos por hoje?"
 koKR = "오늘의 프로젝트를 건너뛰겠습니까?"
+csCZ = "Opravdu si přejete přeskočit projekty na dnešek?"
 
 ["LV.SP.SkipToday"]
 raw = "Skip today"
@@ -322,6 +344,7 @@ deDE = "Heute überspringen."
 plPL = "Pomiń dzisiaj"
 ptBR = "Pule hoje"
 koKR = "오늘 건너뛰기"
+csCZ = "Vynechat dnešek"
 
 ["LV.SP.WrongFaction"]
 raw = "This project cannot be unlocked by this faction"
@@ -336,6 +359,7 @@ deDE = "Dieses Projekt kann von dieser Fraktion nicht freigeschaltet werden."
 plPL = "Ten projekt nie może być odblokowany przez tę frakcję."
 ptBR = "Este projeto não pode ser desbloqueado por esta facção."
 koKR = "이 프로젝트는 이 세력에 의해 잠금 해제될 수 없습니다."
+csCZ = "Tento projekt nemůže být touto frakcí odemčen."
 
 ["LV.SP.ReloadNotice"]
 raw = "Please make a save and reload the game for this project to take effect."
@@ -350,6 +374,7 @@ deDE = "Bitte speichern Sie und laden Sie das Spiel neu, damit dieses Projekt wi
 plPL = "Proszę zapisać i załadować grę, aby ten projekt miał skutek."
 ptBR = "Por favor, salve e recarregue o jogo para que este projeto tenha efeito."
 koKR = "이 프로젝트가 적용되려면 저장하고 게임을 다시 로드해 주세요."
+csCZ = "Prosím, uložte hru a znovu ji načtěte, aby tento projekt měl účinek."
 
 ["LV.SP.ReloadNeeded"]
 raw = "[Reload needed]"
@@ -364,6 +389,7 @@ deDE = "[Erneutes Laden erforderlich]"
 plPL = "[Wymagana ponowna synchronizacja]"
 ptBR = "[Recarga necessária]"
 koKR = "[재로드 필요]"
+csCZ = "[Nutné znovu načíst]"
 
 ["LV.SP.WorkEffGroup"]
 raw = "Work Efficiency"
@@ -378,6 +404,7 @@ deDE = "Arbeitseffizienz"
 plPL = "Wydajność pracy"
 ptBR = "Eficiência no Trabalho"
 koKR = "작업 효율성"
+csCZ = "Pracovní efektivita"
 
 ["LV.SP.WorkEffGroupDesc"]
 raw = "Increase work efficiency for your colony"
@@ -392,6 +419,7 @@ deDE = "Steigern Sie die Arbeitseffizienz für Ihre Kolonie."
 plPL = "Zwiększ wydajność pracy swojej kolonii"
 ptBR = "Aumente a eficiência do trabalho para sua colônia."
 koKR = "당신의 식민지 작업 효율성을 높이세요"
+csCZ = "Zvyšte pracovní efektivitu vaší kolonie"
 
 ["LV.SP.LogisticGroup"]
 raw = "Logistics"
@@ -406,6 +434,7 @@ deDE = "Logistik"
 plPL = "Logistyka"
 ptBR = "Logística"
 koKR = "물류"
+csCZ = "Logistika"
 
 ["LV.SP.LogisticGroupDesc"]
 raw = "Increase movement speed and the flow of resources"
@@ -420,6 +449,7 @@ deDE = "Erhöhe die Bewegungsgeschwindigkeit und den Fluss der Ressourcen."
 plPL = "Zwiększ prędkość ruchu i przepływ zasobów"
 ptBR = "Aumentar a velocidade de movimento e o fluxo de recursos"
 koKR = "이동 속도와 자원의 흐름을 증가시킵니다."
+csCZ = "Zvýšení rychlosti pohybu a toku zdrojů"
 
 ["LV.SP.BuffEffGeneric"]
 raw = "▶ {0:+0;-0;0} from {1}"
@@ -434,6 +464,7 @@ deDE = "▶ {0:+0;-0;0} von {1}"
 plPL = "▶ {0:+0;-0;0} z {1}"
 ptBR = "▶ {0:+0;-0;0} de {1}"
 koKR = "▶ {0:+0;-0;0} (으)로부터 {1}"
+csCZ = "▶ {0:+0;-0;0} od {1}"
 
 ["LV.SP.BuffEffGenericPerc"]
 raw = "▶ {0:+#%;-#%;0} from {1}"
@@ -448,6 +479,7 @@ deDE = "▶ {0:+#%;-#%;0} von {1}"
 plPL = "▶ {0:+#%;-#%;0} z {1}"
 ptBR = "▶ {0:+#%;-#%;0} de {1}"
 koKR = "▶ {0:+#%;-#%;0} from {1}"
+csCZ = "▶ {0:+#%;-#%;0} z {1}"
 
 ["LV.SP.WorkEffUpgrade1"]
 raw = "Precision Work Tools"
@@ -462,6 +494,7 @@ deDE = "Präzisionswerkzeuge"
 plPL = "Narzędzia do precyzyjnej pracy"
 ptBR = "Ferramentas de Trabalho de Precisão"
 koKR = "정밀 작업 도구"
+csCZ = "Nástroje pro přesnou práci"
 
 ["LV.SP.WorkEffUpgrade1Eff"]
 raw = "Permanently increases work efficiency of all beavers by {0:+#%}."
@@ -476,6 +509,7 @@ deDE = "Erhöht dauerhaft die Arbeitseffizienz aller Biber um {0:+#%}."
 plPL = "Na stałe zwiększa efektywność pracy wszystkich bobrów o {0:+#%}."
 ptBR = "Aumenta permanentemente a eficiência de trabalho de todos os castores em {0:+#%}."
 koKR = "모든 비버의 작업 효율을 {0:+#%}만큼 영구적으로 증가시킵니다."
+csCZ = "Natrvalo zvyšuje pracovní efektivitu všech bobrů o {0:+#%}."
 
 ["LV.SP.WorkEffUpgrade1Lore"]
 raw = "After digging up hooman tool plans, beavers craft sharper blades with old-world tricks, boosting efficiency."
@@ -490,6 +524,7 @@ deDE = "Nachdem sie die Pläne für menschliche Werkzeuge ausgegraben haben, ste
 plPL = "Po wykopaniu planów narzędzi dla ludzi, bobry tworzą ostrzejsze ostrza za pomocą starych sztuczek, zwiększając wydajność."
 ptBR = "Após desenterrar planos de ferramentas humanas, os castores fabricam lâminas mais afiadas com truques do velho mundo, aumentando a eficiência."
 koKR = "인간 도구 계획을 발굴한 후, 비버들은 구세대의 기술로 더 날카로운 칼날을 제작하여 효율성을 높입니다."
+csCZ = "Po vykopání plánů nástrojů pro lidi bobři vyrábějí ostřejší čepele pomocí triků ze starého světa, čímž zvyšují efektivitu."
 
 ["LV.SP.WorkEffUpgrade2"]
 raw = "Precision Tool Maintenance"
@@ -504,6 +539,7 @@ deDE = "Wartung von Präzisionswerkzeugen"
 plPL = "Utrzymanie narzędzi precyzyjnych"
 ptBR = "Manutenção de Ferramentas de Precisão"
 koKR = "정밀 도구 유지보수"
+csCZ = "Údržba přesných nástrojů"
 
 ["LV.SP.WorkEffUpgrade2Lore"]
 raw = "'Rigged a water-powered sharpener-keeps our tools gnaw-ready, speeds up every job over time!' — Chiseljaw Timberchew"
@@ -518,6 +554,7 @@ deDE = "'Sie haben einen wasserbetriebenen Schärfer gebaut - hält unsere Werkz
 plPL = "\"Podrasowałem węzeł wodny do ostrzenia - utrzymuje nasze narzędzia gotowe do pracy, przyspiesza każdą robotę z czasem!\" — Chiseljaw Timberchew"
 ptBR = "'Inventei um afiador movido a água - mantém nossas ferramentas prontas para mastigar, acelera cada trabalho ao longo do tempo!' — Chiseljaw Timberchew"
 koKR = "'물력으로 작동하는 연마기를 조작했습니다 - 우리의 도구를 항상 날카롭게 유지하고 시간이 지남에 따라 모든 작업을 빠르게 합니다!' — 칼날턱 나무씹기"
+csCZ = "'Sestavil vodní brusku – naše nástroje jsou připravené k obrušování, zrychluje každou práci v průběhu času!' — Chiseljaw Timberchew"
 
 ["LV.SP.WorkEffUpgrade2Eff"]
 raw = "{0:+#%} additional work efficiency of all beavers per Level."
@@ -532,6 +569,7 @@ deDE = "{0:+#%} zusätzliche Arbeitsleistung aller Biber pro Stufe."
 plPL = "{0:+#%} dodatkowa wydajność pracy wszystkich bobrów na poziom."
 ptBR = "{0:+#%} eficiência de trabalho adicional de todas as castores por Nível."
 koKR = "{0:+#%} 모든 비버의 작업 효율성이 레벨당 추가됩니다."
+csCZ = "{0:+#%} dodatečná pracovní efektivita všech bobrů na úrovni."
 
 ["LV.SP.WorkEffUpgrade2Cost"]
 raw = "[Cost] per Level, and {1} for every {2} Adult beavers (rounded up)"
@@ -546,6 +584,7 @@ deDE = "[Kosten] pro Stufe und {1} für jede {2} erwachsene Biber (aufgerundet)"
 plPL = "[Koszt] za poziom, a {1} za każdego {2} dorosłego bobra (zaokrąglone w górę)"
 ptBR = "[Custo] por Nível, e {1} para cada {2} castores adultos (arredondado para cima)"
 koKR = "[레벨당 비용] 및 성인 비버 {2}마리당 {1} (반올림)"
+csCZ = "[Cena] za úroveň a {1} za každé {2} dospělé bobry (zaokrouhleno nahoru)"
 
 ["LV.SP.MoveSpeedUpgrade1"]
 raw = "Lightweight Slippers"
@@ -560,6 +599,7 @@ deDE = "Leichte Hausschuhe"
 plPL = "Lekkie kapcie"
 ptBR = "Chinelos Leves"
 koKR = "경량 슬리퍼"
+csCZ = "Lehké pantofle"
 
 ["LV.SP.MoveSpeedUpgrade1Lore"]
 raw = "'These slippers make me feel like I'm gliding on water' — Whiskertail Quickpaw"
@@ -574,6 +614,7 @@ deDE = "\"Diese Hausschuhe lassen mich fühlen, als würde ich über Wasser glei
 plPL = "'Te kapcie sprawiają, że czuję się jakbym unosił się na wodzie' — Whiskertail Quickpaw"
 ptBR = "'Essas pantufas me fazem sentir como se estivesse deslizando sobre a água' — Whiskertail Quickpaw"
 koKR = "'이 슬리퍼를 신고 있으면 물 위를 미끄러지는 것 같은 기분이 들어요' — 휘스커테일 퀵포"
+csCZ = "'Tyto bačkory mi dávají pocit, jako bych klouzal po vodě' — Whiskertail Quickpaw"
 
 ["LV.SP.MoveSpeedUpgradeEff"]
 raw = "Permanently increases movement speed of all beavers by {0:+#%} (stacks with other projects)."
@@ -588,6 +629,7 @@ deDE = "Erhöht dauerhaft die Bewegungsgeschwindigkeit aller Biber um {0:+#%} (s
 plPL = "Trwale zwiększa prędkość ruchu wszystkich bobrów o {0:+#%} (stakuje się z innymi projektami)."
 ptBR = "Aumenta permanentemente a velocidade de movimento de todos os castores em {0:+#%} (acumula com outros projetos)."
 koKR = "모든 비버의 이동 속도를 {0:+#%}만큼 영구적으로 증가시킵니다 (다른 프로젝트와 중첩됩니다)."
+csCZ = "Natrvalo zvyšuje rychlost pohybu všech bobrů o {0:+#%} (stohuje se s ostatními projekty)."
 
 ["LV.SP.MoveSpeedUpgrade2"]
 raw = "Durable Trail Boots"
@@ -602,6 +644,7 @@ deDE = "Haltbare Trailstiefel"
 plPL = "Trwałe bootsy trekkingowe"
 ptBR = "Botas de Trilha Duráveis"
 koKR = "내구성이 뛰어난 트레일 부츠"
+csCZ = "Odolné stezkářské boty"
 
 ["LV.SP.MoveSpeedUpgrade2Lore"]
 raw = "Tough as beaver teeth, these boots turn rugged paths into smooth trails for swift travel."
@@ -616,6 +659,7 @@ deDE = "Hart wie Biberzähne verwandeln diese Stiefel raue Wege in sanfte Pfade 
 plPL = "Twarde jak zęby bobra, te buty przemieniają trudne szlaki w gładkie ścieżki dla szybkiej podróży."
 ptBR = "Duras como os dentes de castor, essas botas transformam caminhos acidentados em trilhas suaves para uma viagem rápida."
 koKR = "비버의 이처럼 단단한 이 부츠는 험난한 길을 부드러운 길로 바꿔 빠른 이동을 가능하게 합니다."
+csCZ = "Tvrdé jako bobří zuby, tyto boty promění drsné cesty na hladké stezky pro rychlou cestu."
 
 ["LV.SP.MoveSpeedUpgrade3"]
 raw = "Aerodynamic Sprint Gear"
@@ -630,6 +674,7 @@ deDE = "Aerodynamisches Sprint-Equipment"
 plPL = "Aerodynamicowy sprzęt do sprintu"
 ptBR = "Equipamento Aerodinâmico de Sprint"
 koKR = "공기역학적 스프린트 장비"
+csCZ = "Aerodynamické sprintovací vybavení"
 
 ["LV.SP.MoveSpeedUpgrade3Lore"]
 raw = "'In this gear, I'm not just running; I'm a furry blur of pure speed!' — Swiftstream Windrunner"
@@ -644,6 +689,7 @@ deDE = "'In diesem Gang laufe ich nicht nur; ich bin ein pelziger verschwommener
 plPL = "'W tym sprzęcie nie tylko biegam; jestem futrzanym zamglonym strumieniem czystej prędkości!' — Swiftstream Windrunner"
 ptBR = "'Com este equipamento, não estou apenas correndo; sou uma confusão peluda de pura velocidade!' — Swiftstream Windrunner"
 koKR = "'이 장비를 입고 있는 나는 단순히 달리는 것이 아니라, 순수한 속도의 털북숭이 블러입니다!' — 스위프트스트림 윈드러너"
+csCZ = "'V tomto vybavení se nepohybují jen tak; jsem rozmazaný chlupatý blur čisté rychlosti!' — Swiftstream Windrunner"
 
 ["LV.SP.MoveSpeedUpgradeBuff"]
 raw = "Movement Speed Projects"
@@ -658,6 +704,7 @@ deDE = "Bewegungsgeschwindigkeit Projekte"
 plPL = "Projekty prędkości ruchu"
 ptBR = "Projetos de Velocidade de Movimento"
 koKR = "이동 속도 프로젝트"
+csCZ = "Projekt Zrychlení Pohybu"
 
 ["LV.SP.MoveSpeedUpgradeBuffDesc"]
 raw = "{0:+#%} Movement Speed\nYour superior gear allow your characters to move faster."
@@ -672,6 +719,7 @@ deDE = "{0:+#%} Bewegungsgeschwindigkeit\\nIhr hochwertiges Equipment ermöglich
 plPL = "{0:+#%} Prędkość Ruchu/nTwoje lepsze wyposażenie pozwala twoim postaciom poruszać się szybciej."
 ptBR = "{0:+#%} Velocidade de Movimento\\nSeu equipamento superior permite que seus personagens se movimentem mais rápido."
 koKR = "{0:+#%} 이동 속도/n당신의 고급 장비 덕분에 캐릭터가 더 빨리 움직일 수 있습니다."
+csCZ = "{0:+#%} Rychlost pohybu\nVaše vynikající vybavení umožňuje vašim postavám se pohybovat rychleji."
 
 ["LV.SP.WorkEffUpgradeBuff"]
 raw = "Work Efficiency Projects"
@@ -686,6 +734,7 @@ deDE = "Arbeitseffizienzprojekte"
 plPL = "Projekty efektywności pracy"
 ptBR = "Projetos de Eficiência no Trabalho"
 koKR = "작업 효율성 프로젝트"
+csCZ = "Projekty pracovního výkonu"
 
 ["LV.SP.WorkEffUpgradeBuffDesc"]
 raw = "{0:+#%} Working Speed\nYour superior tools allow your characters to work more efficiently."
@@ -700,6 +749,7 @@ deDE = "{0:+#%} Arbeitsgeschwindigkeit\\nIhre überlegenen Werkzeuge ermögliche
 plPL = "{0:+#%} Prędkość pracy\\nTwoje doskonałe narzędzia pozwalają twoim postaciom pracować wydajniej."
 ptBR = "{0:+#%} Velocidade de Trabalho\\nSuas ferramentas superiores permitem que seus personagens trabalhem de forma mais eficiente."
 koKR = "{0:+#%} 작업 속도\\n당신의 뛰어난 도구는 캐릭터들이 더 효율적으로 작업할 수 있게 합니다."
+csCZ = "{0:+#%} Rychlost práce\nVaše špičková nářadí umožňují vašim postavám pracovat efektivněji."
 
 ["LV.SP.EmergenciesGroup"]
 raw = "Emergencies"
@@ -714,6 +764,7 @@ deDE = "Notfälle"
 plPL = "Nagłe wypadki"
 ptBR = "Emergências"
 koKR = "비상사태"
+csCZ = "Nouzové situace"
 
 ["LV.SP.EmergenciesGroupDesc"]
 raw = "In case of peril, press these big yellow buttons. But you get only one shot."
@@ -728,6 +779,7 @@ deDE = "Im Falle einer Gefahr drücken Sie diese großen gelben Tasten. Aber Sie
 plPL = "W przypadku niebezpieczeństwa naciśnij te duże żółte przyciski. Masz tylko jedną szansę."
 ptBR = "Em caso de perigo, pressione estes grandes botões amarelos. Mas você só tem uma chance."
 koKR = "위험이 닥치면 이 큰 노란 버튼을 눌러주세요. 하지만 기회는 한 번뿐입니다."
+csCZ = "V případě nebezpečí stiskněte tato velká žlutá tlačítka. Ale máte jen jednu šanci."
 
 ["LV.SP.EmergencyDrill1"]
 raw = "Emergency Shallow Drill"
@@ -742,6 +794,7 @@ deDE = "Notfalldurchstoßbohrung"
 plPL = "Płytka Wiertnica Awaryjna"
 ptBR = "Furo Superficial de Emergência"
 koKR = "비상 얕은 드릴"
+csCZ = "Nouzově mělké vrtání"
 
 ["LV.SP.EmergencyDrill1Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -756,6 +809,7 @@ deDE = "Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur ak
 plPL = "Dodaj {0} dni do tego temperaturowego sezonu. Może być aktywowana tylko w przypadku nadchodzącej złej pogody."
 ptBR = "Adicione {0} dias a esta temporada temperada. Só pode ser ativado quando uma tempestade se aproxima."
 koKR = "{0}일을 이 온대 계절에 추가합니다. 나쁜 날씨가 오고 있을 때만 활성화할 수 있습니다."
+csCZ = "Přidá {0} dní k této mírné sezóně. Lze aktivovat pouze při příchodu špatného počasí."
 
 ["LV.SP.EmergencyDrill1Lore"]
 raw = "A curious beaver's nose for damp earth led to this shallow water pocket-quick to tap, lifesaving in a pinch."
@@ -770,6 +824,7 @@ deDE = "Eine neugierige Nase eines Bibers für feuchte Erde führte zu dieser fl
 plPL = "Czujny nos bobra do wilgotnej ziemi doprowadził do tej płytkiej kieszeni wodnej - łatwej do zdobycia, ratującej życie w kryzysowej sytuacji."
 ptBR = "O nariz curioso de um castor em busca de terra úmida levou a esta poça de água rasa - fácil de acessar, salvadora em um aperto."
 koKR = "호기심 많은 비버의 촉수는 축축한 땅으로 이어졌고, 이를 통해 빠르게 접근할 수 있는 이 얕은 물 웅덩이를 발견하게 되었으며, 위급할 때 생명을 구하는 역할을 합니다."
+csCZ = "Nose zajímavého bobra pro vlhkou půdu vedl k této mělké vodní kapse - snadno se kope, zachraňuje život v nouzi."
 
 ["LV.SP.EmergencyDrill2"]
 raw = "Emergency Deep Drill"
@@ -784,6 +839,7 @@ deDE = "Notfall-Tiefbohrung"
 plPL = "Nagły Głęboki Wiercenie"
 ptBR = "Furo Profundo de Emergência"
 koKR = "긴급 심층 드릴"
+csCZ = "Nouzová hluboká vrtná souprava"
 
 ["LV.SP.EmergencyDrill2Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -798,6 +854,7 @@ deDE = "Fügen Sie {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur ak
 plPL = "Dodaj {0} dni do tego umiarkowanego sezonu. Może być aktywowane tylko wtedy, gdy zbliża się złe warunki pogodowe."
 ptBR = "Adicione {0} dias a esta estação temperada. Só pode ser ativado quando uma tempestade se aproxima."
 koKR = "{0}일을 이 온대 시즌에 추가합니다. 악천후가 올 때만 활성화할 수 있습니다."
+csCZ = "Přidejte {0} dní k této mírné sezóně. Lze aktivovat pouze při přicházejícím špatném počasí."
 
 ["LV.SP.EmergencyDrill2Lore"]
 raw = "'We're drilling deep, but we're not drilling cheap!' — Digger McDrillface IV"
@@ -812,6 +869,7 @@ deDE = "„Wir bohren tief, aber wir bohren nicht billig!“ — Digger McDrillf
 plPL = "„Wiercimy głęboko, ale nie wiercimy tanio!” — Digger McDrillface IV"
 ptBR = "'Estamos perfurando fundo, mas não estamos perfurando barato!' — Digger McDrillface IV"
 koKR = "'우리는 깊게 뚫고 있지만, 저렴하게 뚫지는 않는다!' — 디거 맥드릴페이스 IV"
+csCZ = "'Kopeme hluboko, ale nekopeme levně!' — Digger McDrillface IV"
 
 ["LV.SP.EmergencyDrill3"]
 raw = "Emergency Deepest Drill"
@@ -826,6 +884,7 @@ deDE = "Notfall-Tiefbohrung"
 plPL = "Awaryjne Najgłębsze Wiercenie"
 ptBR = "Furo de Emergência Mais Profundo"
 koKR = "비상 심층 드릴"
+csCZ = "Nouzová nejhlubší vrtná souprava"
 
 ["LV.SP.EmergencyDrill3Desc"]
 raw = "Add {0} days to this temperate season. Can only be activated when bad weather is coming."
@@ -840,6 +899,7 @@ deDE = "Füge {0} Tage zu dieser gemäßigten Jahreszeit hinzu. Kann nur aktivie
 plPL = "Dodaj {0} dni do tego sezonu temperaturowego. Może być aktywowane tylko w przypadku nadchodzącej złej pogody."
 ptBR = "Adicione {0} dias a esta temporada temperada. Só pode ser ativado quando um tempo ruim está chegando."
 koKR = "{0}일을 이 온대 시즌에 추가합니다. 악천후가 올 때만 활성화할 수 있습니다."
+csCZ = "Přidejte {0} dní k této mírné sezóně. Lze aktivovat pouze při příchodu špatného počasí."
 
 ["LV.SP.EmergencyDrill3Lore"]
 raw = "Legend says old Gnawtooth foresaw this deepest well - our last hope when the skies turn cruel."
@@ -854,6 +914,7 @@ deDE = "Die Legende besagt, dass der alte Gnawtooth diesen tiefsten Brunnen vora
 plPL = "Legenda głosi, że stary Gnawtooth przewidział tę najgłębszą studnię - naszą ostatnią nadzieję, gdy niebo stanie się okrutne."
 ptBR = "A lenda diz que o velho Gnawtooth previu este poço profundo - nossa última esperança quando os céus se tornarem cruéis."
 koKR = "전설에 따르면, 오래된 이빨Gnawtooth가 이 가장 깊은 우물을 예견했으며 - 하늘이 잔인해질 때 우리의 마지막 희망입니다."
+csCZ = "Legenda praví, že starý Gnawtooth předpověděl tento nejhlubší vrt - naši poslední naději, když se nebe stane krutým."
 
 ["LV.SP.BadWeatherConditionErr"]
 raw = "You can only activate this when bad weather (drought or badtide) is predicted to come"
@@ -868,6 +929,7 @@ deDE = "Sie können dies nur aktivieren, wenn schlechtes Wetter (Dürre oder sch
 plPL = "Możesz to aktywować tylko wtedy, gdy prognozowane są złe warunki pogodowe (susza lub zła pływ)"
 ptBR = "Você só pode ativar isso quando se prevê a chegada de mau tempo (seca ou maré baixa)."
 koKR = "악천후(가뭄 또는 나쁜 조류)가 올 것으로 예측될 때만 이 기능을 활성화할 수 있습니다."
+csCZ = "Toto můžete aktivovat pouze tehdy, když se očekává špatné počasí (sucho nebo špatný příliv)."
 
 ["LV.SP.Wheelbarrows"]
 raw = "Wheelbarrows"
@@ -882,6 +944,7 @@ deDE = "Schubkarren"
 plPL = "Taczki"
 ptBR = "Carrinhos de mão"
 koKR = "손수레"
+csCZ = "Rukávníky"
 
 ["LV.SP.WheelbarrowsLore"]
 raw = "The ultimate back-saver, letting beavers haul logs without waddling like overloaded turtles."
@@ -896,6 +959,7 @@ deDE = "Der ultimative Rückenschoner, der es Bibern ermöglicht, Stämme zu sch
 plPL = "Ostateczny ratownik dla pleców, pozwalający bobrom ciągnąć kłody bez chybotań jak przeciążone żółwie."
 ptBR = "O salvador definitivo das costas, permitindo que castores arrastem troncos sem se arrastarem como tartarugas sobrecarregadas."
 koKR = "궁극적인 허리 보호 장치로, 비버들이 과부하에 걸린 거북이처럼 비틀거리지 않고 통나무를 운반할 수 있게 해줍니다."
+csCZ = "Nejlepší pomocník pro záda, který umožňuje bobrům vozit klády, aniž by se houpali jako přetížené želvy."
 
 ["LV.SP.WheelbarrowsEff"]
 raw = "Beavers and bots no longer receive movement speed penalties when carrying."
@@ -910,6 +974,7 @@ deDE = "Biber und Bots erhalten keine Bewegungsgeschwindigkeitsstrafe mehr, wenn
 plPL = "Bobry i roboty nie otrzymują już kar za prędkość ruchu podczas noszenia."
 ptBR = "Castores e robôs não recebem mais penalidades de velocidade de movimento ao carregar."
 koKR = "비버와 로봇은 더 이상 운반 시 이동 속도 페널티를 받지 않습니다."
+csCZ = "Bobři a roboti již nedostávají penalizace rychlosti pohybu při nošení."
 
 ["LV.SP.CarryUpgrade1"]
 raw = "Reinforced Carry Packs"
@@ -924,6 +989,7 @@ deDE = "Verstärkte Tragetaschen"
 plPL = "Wzmocnione plecaki transportowe"
 ptBR = "Mochilas Reforçadas"
 koKR = "강화된 운반 팩"
+csCZ = "Vyztužené nosné batohy"
 
 ["LV.SP.CarryUpgrade1Lore"]
 raw = "'These packs let me haul a forest and still have room for snacks!' — Packmule Heavyload"
@@ -938,6 +1004,7 @@ deDE = "'Diese Packs erlauben es mir, einen Wald zu transportieren und trotzdem 
 plPL = "\"Te pakiety pozwalają mi przewozić las i nadal mieć miejsce na przekąski!\" — Packmule Heavyload"
 ptBR = "\"Esses pacotes me permitem transportar uma floresta e ainda ter espaço para lanches!\" — Packmule Heavyload"
 koKR = "'이 배낭들은 내가 숲을 운반하고도 간식 공간을 남길 수 있게 해줘!' — 팩뮬 헤비로드"
+csCZ = "'Tyto balíky mi umožňují odnést celý les a stále mít místo na svačiny!' — Packmule Heavyload"
 
 ["LV.SP.CarryUpgrade1Eff"]
 raw = "Permanently increases beavers' carrying capacity by {0:+#%}"
@@ -952,6 +1019,7 @@ deDE = "Erhöht dauerhaft die Tragfähigkeit der Biber um {0:+#%}"
 plPL = "Trwale zwiększa pojemność noszenia bobrów o {0:+#%}"
 ptBR = "Aumenta permanentemente a capacidade de carga dos castores em {0:+#%}"
 koKR = "비버의 운반 능력을 영구적으로 {0:+#%} 증가시킵니다."
+csCZ = "Natrvalo zvyšuje nosnost bobrů o {0:+#%}"
 
 ["LV.SP.CarryBuilderUpgrade"]
 raw = "Builder Sledges"
@@ -966,6 +1034,7 @@ deDE = "Bau-Schlitten"
 plPL = "Sanki budowlane"
 ptBR = "Ferramentas de Construtor"
 koKR = "건축가 썰매"
+csCZ = "Stavební saně"
 
 ["LV.SP.CarryBuilderUpgradeLore"]
 raw = "Making construction as smooth as a well-chewed log."
@@ -980,6 +1049,7 @@ deDE = "Bauarbeiten so reibungslos wie ein gut gekauter Stamm."
 plPL = "Ułatwienie budowy, tak gładkiej jak dobrze przeżuty bluz."
 ptBR = "Tornando a construção tão suave quanto uma tora bem mastigada."
 koKR = "잘 씹힌 통나무처럼 건설을 매끄럽게 만들기."
+csCZ = "Zajištění, aby byla výstavba hladká jako dobře vyžraná kláda."
 
 ["LV.SP.CarryBuilderUpgradeEff"]
 raw = "{0:+#%} additional carrying capacity per Level for <YellowHighlight>Builders</YellowHighlight> (workers at District Centers or Builder Huts, both beavers and bots)."
@@ -994,6 +1064,7 @@ deDE = "{0:+#%} zusätzliches transportierbares Volumen pro Level für <YellowHi
 plPL = "{0:+#%} dodatkowej nośności na poziom dla <YellowHighlight>Budowniczych</YellowHighlight> (pracowników w Centrach Dzielnic lub Chatach Budowniczych, zarówno bobrów, jak i robotów)."
 ptBR = "{0:+#%} capacidade adicional de transporte por nível para <YellowHighlight>Construtores</YellowHighlight> (trabalhadores em Centros de Distrito ou Cabana de Construtores, tanto castores quanto robôs)."
 koKR = "{0:+#%} 추가 운반 용량 레벨당 <YellowHighlight>건축가</YellowHighlight>를 위해 (구역 센터 또는 건축가 오두막의 근로자, 비버와 로봇 모두)."
+csCZ = "{0:+#%} dodatečná nosnost na úroveň pro <YellowHighlight>Stavitele</YellowHighlight> (pracovníky v okrskových centrech nebo stavitelských chatkách, jak bobry, tak roboty)."
 
 ["LV.SP.CarryBuilderUpgradeCost"]
 raw = "[Cost] per Level for every builder (rounded up)"
@@ -1008,6 +1079,7 @@ deDE = "[Kosten] pro Stufe für jeden Baumeister (aufgerundet)"
 plPL = "[Koszt] na poziom dla każdego budowniczego (zaokrąglone w górę)"
 ptBR = "[Custo] por Nível para cada construtor (arredondado para cima)"
 koKR = "[모든 건축가의 레벨당 비용(올림)]"
+csCZ = "[Cena] za úroveň pro každého stavitele (zaokrouhleno nahoru)"
 
 ["LV.SP.CarryUpgradeBuff"]
 raw = "Carrying Capacity Projects"
@@ -1022,6 +1094,7 @@ deDE = "Tragfähigkeitsprojekte"
 plPL = "Projekty zdolności przewozowej"
 ptBR = "Projetos de Capacidade de Carga"
 koKR = "운반 용량 프로젝트"
+csCZ = "Projekty nosnosti"
 
 ["LV.SP.CarryUpgradeBuffDesc"]
 raw = "{0:+#%} Carrying Capacity\nYour superior carrying gears allow your characters to carry more."
@@ -1036,6 +1109,7 @@ deDE = "{0:+#%} Tragfähigkeit\\nIhre überlegene Tragetechnologie ermöglicht e
 plPL = "{0:+#%} Nośność\\nTwoje zaawansowane wyposażenie do noszenia pozwala Twoim postaciom przenosić więcej."
 ptBR = "{0:+#%} Capacidade de Carga\\nSeus equipamentos superiores de transporte permitem que seus personagens carreguem mais."
 koKR = "{0:+#%} 수송 능력\\n귀하의 우수한 수송 장비는 캐릭터가 더 많은 것을 운반할 수 있도록 합니다."
+csCZ = "{0:+#%} Nosnost\nVaše vylepšené nosné vybavení umožňuje vašim postavám nést více."
 
 ["LV.SP.CarryBuilderBuff"]
 raw = "Builder Sledge"
@@ -1050,6 +1124,7 @@ deDE = "Bauer Vorschlaghammer"
 plPL = "Sledgier budowlany"
 ptBR = "Martelete Construtor"
 koKR = "건설자 썰매"
+csCZ = "Stavební sledge"
 
 ["LV.SP.CarryBuilderBuffDesc"]
 raw = "Your builders are now equipped with sledges to carry more."
@@ -1064,6 +1139,7 @@ deDE = "IhreBuilder sind jetzt mit Schlitten ausgestattet, um mehr zu transporti
 plPL = "Twoi budowniczy są teraz wyposażeni w sanie, aby móc przenosić więcej."
 ptBR = "Seus construtores agora estão equipados com trenós para carregar mais."
 koKR = "당신의 건설자들은 이제 더 많은 물건을 운반할 수 있도록 썰매를 장착했습니다."
+csCZ = "Vaši stavitelé jsou nyní vybaveni saněmi, aby mohli nést více."
 
 ["LV.SP.CarryBuilderBuffEff"]
 raw = "{0:+#%} carrying capacity from {1}"
@@ -1078,6 +1154,7 @@ deDE = "{0:+#%} Tragfähigkeit von {1}"
 plPL = "{0:+#%} pojemność przewozowa z {1}"
 ptBR = "capacidade de carga de {1} {0:+#%}"
 koKR = "{0:+#%} 수용량 {1}에서"
+csCZ = "{0:+#%} nosnost z {1}"
 
 ["LV.SP.FactionsGroup"]
 raw = "Factions"
@@ -1092,6 +1169,7 @@ deDE = "Fraktionen"
 plPL = "Frakcje"
 ptBR = "Facções"
 koKR = "세력"
+csCZ = "Frakce"
 
 ["LV.SP.FactionsGroupDesc"]
 raw = "Unique projects for each faction"
@@ -1106,6 +1184,7 @@ deDE = "Einzigartige Projekte für jede Fraktion"
 plPL = "Unikalne projekty dla każdej frakcji"
 ptBR = "Projetos únicos para cada facção"
 koKR = "각 파벌을 위한 독특한 프로젝트"
+csCZ = "Unikátní projekty pro každou frakci"
 
 ["LV.SP.FtPlankUpgrade"]
 raw = "Resin-Infused Planks"
@@ -1120,6 +1199,7 @@ deDE = "Harz-infundierte Planken"
 plPL = "Deski nasycone żywicą"
 ptBR = "Pranchas Infusionadas com Resina"
 koKR = "수지 함유 판자"
+csCZ = "Prkna s pryskyřicí"
 
 ["LV.SP.FtPlankUpgradeLore"]
 raw = "Infusing planks with natural resins doubles Treated Plank output - no power needed, just nature's way."
@@ -1134,6 +1214,7 @@ deDE = "Das Infundieren von Brettern mit natürlichen Harzen verdoppelt die Prod
 plPL = "Nasycanie desek naturalnymi żywicami podwaja wydajność desek poddanych obróbce - nie potrzeba energii, tylko naturalny sposób."
 ptBR = "Infundir pranchas com resinas naturais dobra a produção de Pranchas Tratadas - sem necessidade de energia, apenas o jeito da natureza."
 koKR = "자연 수지로 플랭크를 주입하면 처리된 플랭크 출력이 두 배로 증가합니다 - 전력이 필요 없으며, 자연의 방식입니다."
+csCZ = "Infuze desek s přírodními pryskyřicemi zdvojnásobuje výrobu ošetřených desek - není potřeba žádná energie, pouze přírodní způsob."
 
 ["LV.SP.FtPlankUpgradeEffNew"]
 raw = "Woodworkshop no longer uses power and double Treated Planks output."
@@ -1148,6 +1229,7 @@ deDE = "Die Holzwerkstatt benötigt keine Energie mehr und die Produktion von be
 plPL = "Warsztat drzewny nie zużywa już energii i podwaja produkcję desek impregnowanych."
 ptBR = "A marcenaria não usa mais energia e dobra a produção de Tábuas Tratadas."
 koKR = "목재 작업장은 더 이상 전력을 사용하지 않으며, 처리된 판재의 생산량이 두 배로 증가합니다."
+csCZ = "Dřevopracovna již nepoužívá energii a zdvojnásobuje výstup ošetřených prken."
 
 ["LV.SP.ItSmelterUpgrade"]
 raw = "Heat-Recycling Smelter"
@@ -1162,6 +1244,7 @@ deDE = "Wärmerückgewinnende Schmelzanlage"
 plPL = "Piecyk przetapialniczy z odzyskiem ciepła"
 ptBR = "Fundição de Reciclagem de Calor"
 koKR = "열 재활용 제련소"
+csCZ = "Dělicí pec na recyklaci tepla"
 
 ["LV.SP.ItSmelterUpgradeLore"]
 raw = "A breakthrough in furnace design doubles metal output without extra power, embodying Iron Teeth ingenuity."
@@ -1176,6 +1259,7 @@ deDE = "Ein Durchbruch im Ofendesign verdoppelt die Metallproduktion ohne zusät
 plPL = "Przełom w projektowaniu pieców podwaja wydajność metalu bez dodatkowej mocy, ucieleśniając pomysłowość Żelaznych Zębów."
 ptBR = "Um avanço no design de fornos dobra a produção de metal sem energia extra, incorporando a engenhosidade do Ferro Dente."
 koKR = "새로운 용광로 설계의 혁신이 추가 전력 없이 금속 생산량을 두 배로 늘리며, 아이언 티스의 창의성을 구현합니다."
+csCZ = "Průlom v designu pece zdvojnásobuje výrobu kovů bez další energie a ztělesňuje důvtip Železných zubů."
 
 ["LV.SP.ItSmelterUpgradeEffNew"]
 raw = "Smelter no longer uses power and double the Metal Blocks output."
@@ -1190,6 +1274,7 @@ deDE = "Der Schmelzer verbraucht jetzt keine Energie mehr und verdoppelt die Met
 plPL = "Piecyk nie zużywa już energii i podwaja produkcję bloków metalu."
 ptBR = "Fundição não usa mais energia e dobra a saída de Blocos de Metal."
 koKR = "제련소는 더 이상 전력을 사용하지 않으며 금속 블록 생산량이 두 배로 증가합니다."
+csCZ = "Tavič již nepoužívá energii a dvojnásobně zvyšuje výstup kovových bloků."
 
 ["LV.SP.BuffLessPowerEff"]
 raw = "{0:#.###%} Power Usage"
@@ -1204,6 +1289,7 @@ deDE = "{0:#.###%} Energieverbrauch"
 plPL = "Użycie energii {0:#.###%}"
 ptBR = "Uso de Energia {0:#.###%}"
 koKR = "{0:#.###%} 전력 사용량"
+csCZ = "{0:#.###%} Spotřeba energie"
 
 ["LV.SP.BuffIncreasedOutput"]
 raw = "{0:+#%} increased Output"
@@ -1218,6 +1304,7 @@ deDE = "{0:+#%} erhöhte Ausgabe"
 plPL = "{0:+#%} zwiększona produkcja"
 ptBR = "{0:+#%} aumento de Saída"
 koKR = "{0:+#%} 출력 증가"
+csCZ = "{0:+#%} zvýšený výnos"
 
 ["LV.SP.Filter"]
 raw = "Filter"
@@ -1232,6 +1319,7 @@ deDE = "Filter"
 plPL = "Filtruj"
 ptBR = "Filtro"
 koKR = "필터"
+csCZ = "Filtr"
 
 ["LV.SP.Keyword"]
 raw = "Keyword"
@@ -1246,6 +1334,7 @@ deDE = "Schlüsselwort"
 plPL = "Słowo kluczowe"
 ptBR = "Palavra-chave"
 koKR = "키워드"
+csCZ = "Klíčové slovo"
 
 ["LV.SP.FilterLocked"]
 raw = "Locked"
@@ -1260,6 +1349,7 @@ deDE = "Gesperrt"
 plPL = "Zablokowane"
 ptBR = "Trancado"
 koKR = "잠김"
+csCZ = "Zamčeno"
 
 ["LV.SP.FilterUnlocked"]
 raw = "Unlocked"
@@ -1274,6 +1364,7 @@ deDE = "Entsperrt"
 plPL = "Odblokowane"
 ptBR = "Desbloqueado"
 koKR = "잠금 해제"
+csCZ = "Odemčeno"
 
 ["LV.SP.FilterDaily"]
 raw = "Daily"
@@ -1288,6 +1379,7 @@ deDE = "Täglich"
 plPL = "Codziennie"
 ptBR = "Diariamente"
 koKR = "일일"
+csCZ = "Denní"
 
 ["LV.SP.FilterOneTime"]
 raw = "One-time"
@@ -1302,6 +1394,7 @@ deDE = "Einmalig"
 plPL = "Jednorazowy"
 ptBR = "Única vez"
 koKR = "일회성"
+csCZ = "Jednorázový"
 
 ["LV.SP.CarryBuilderUpgradeBuildingDesc"]
 raw = "{0:+#%} Carrying Capacity for workers at this building"
@@ -1316,6 +1409,7 @@ deDE = "{0:+#%} Tragfähigkeit für Arbeiter in diesem Gebäude"
 plPL = "{0:+#%} Pojemność transportowa dla pracowników w tym budynku"
 ptBR = "{0:+#%} Capacidade de Carga para trabalhadores neste edifício"
 koKR = "{0:+#%} 이 건물에서 일하는 직원의 운반 용량"
+csCZ = "{0:+#%} Nosnost pro pracovníky v této budově"
 
 ["LV.SP.UpdateNote740"]
 raw = "This is a big update! While you will not see many new features but the UI was revamped, the code was completely rewritten using Moddable Timberborn instead of Buff & Debuff System with great performance improvements. Expansion mods that used Moddable Bindito no longer needs it as well! Please make sure all other mods are updated to the latest versions as well!"
@@ -1330,3 +1424,4 @@ deDE = "Schlüsselname: LV.SP.UpdateNote740 - Neuer Text zur Übersetzung: \"Die
 plPL = "Nazwa klucza: LV.SP.UpdateNote740 - Nowy tekst do przetłumaczenia: \"To jest duża aktualizacja! Chociaż nie zobaczysz wielu nowych funkcji, interfejs użytkownika został odnowiony, a kod został całkowicie przepisany z użyciem Moddable Timberborn zamiast systemu Buff & Debuff, co przyniosło znaczne poprawy wydajności. Moduły rozszerzające, które używały Moddable Bindito, nie potrzebują go już! Upewnij się, że wszystkie inne mody są również zaktualizowane do najnowszych wersji!\""
 ptBR = "Esta é uma grande atualização! Embora você não veja muitos novos recursos, a interface do usuário foi reformulada, e o código foi reescrito completamente usando Moddable Timberborn em vez do Sistema de Buff e Debuff, com grandes melhorias de desempenho. Mods de expansão que usavam Moddable Bindito não precisam mais dele também! Certifique-se de que todos os outros mods também estejam atualizados para as últimas versões!"
 koKR = "키 이름: LV.SP.UpdateNote740 - 새 번역 텍스트: \"이번 업데이트는 큰 변화입니다! 많은 새로운 기능은 보이지 않지만, UI가 새롭게 개편되었고, 코드가 Buff & Debuff 시스템 대신 Moddable Timberborn을 사용하여 완전히 다시 작성되었으며, 성능이 크게 향상되었습니다. Moddable Bindito를 사용하던 확장 모드도 더 이상 필요하지 않습니다! 모든 다른 모드가 최신 버전으로 업데이트되었는지 확인해 주세요!\""
+csCZ = "Toto je velká aktualizace! I když neuvidíte mnoho nových funkcí, uživatelské rozhraní bylo přepracováno, kód byl zcela přepsán za použití Moddable Timberborn namísto systému Buff & Debuff s výrazným zlepšením výkonu. Rozšiřující módy, které používaly Moddable Bindito, už jej také nepotřebují! Prosím, ujistěte se, že všechny ostatní módy jsou také aktualizovány na nejnovější verze!"

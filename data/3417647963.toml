@@ -14,6 +14,7 @@ deDE = "Höhenlimit ändern"
 plPL = "Zmień limit wysokości"
 ptBR = "Alterar limite de altura"
 koKR = "높이 제한 변경"
+csCZ = "Změnit výškový limit"
 
 ["LV.BAsc.ChangeHeightDesc"]
 raw = "Change the height limit of the map. This setting and all others need restart to take effect."
@@ -28,6 +29,7 @@ deDE = "Ändern Sie das Höhenlimit der Karte. Diese Einstellung und alle andere
 plPL = "Zmień limit wysokości mapy. Ta ustawienie oraz wszystkie inne wymagają ponownego uruchomienia, aby zaczęły działać."
 ptBR = "Altere o limite de altura do mapa. Esta configuração e todas as outras precisam de reinicialização para ter efeito."
 koKR = "맵의 높이 제한을 변경합니다. 이 설정과 다른 모든 설정은 적용되기 위해 재시작이 필요합니다."
+csCZ = "Změňte limit výšky mapy. Toto nastavení a všechna ostatní je třeba restartovat, aby se projevila."
 
 ["LV.BAsc.TerrainHeight"]
 raw = "Terrain height limit"
@@ -42,6 +44,7 @@ deDE = "Geländehöhenbegrenzung"
 plPL = "Limit wysokości terenu"
 ptBR = "Limite de altura do terreno"
 koKR = "지형 높이 제한"
+csCZ = "Limit výšky terénu"
 
 ["LV.BAsc.TerrainHeightDesc"]
 raw = "The height limit of the terrain. Note: count from 0 (Game default: 22)"
@@ -56,6 +59,7 @@ deDE = "Die Höhenbegrenzung des Geländes. Hinweis: Zählen Sie von 0 (Spielsta
 plPL = "Limit wysokości terenu. Uwaga: liczyć od 0 (domyślnie w grze: 22)"
 ptBR = "O limite de altura do terreno. Nota: conte a partir de 0 (padrão do jogo: 22)"
 koKR = "지형의 높이 한계. 주의: 0부터 계산하십시오 (게임 기본값: 22)"
+csCZ = "Výškový limit terénu. Poznámka: počítejte od 0 (výchozí hra: 22)"
 
 ["LV.BAsc.AboveTerrainHeight"]
 raw = "Above terrain height limit"
@@ -70,6 +74,7 @@ deDE = "Über Höhenbegrenzung des Geländes"
 plPL = "Powyżej limitu wysokości terenu"
 ptBR = "Acima do limite de altura do terreno"
 koKR = "지면 높이 제한 초과"
+csCZ = "Limit nad terénní výškou"
 
 ["LV.BAsc.AboveTerrainHeightDesc"]
 raw = "The height limit above the terrain limit, i.e. how high you can build (Game default: 10)"
@@ -84,6 +89,7 @@ deDE = "Die Höhenbeschränkung über der Geländegrenze, d.h. wie hoch Sie baue
 plPL = "Limit wysokości powyżej limitu terenu, tzn. jak wysoko możesz budować (domyślnie w grze: 10)"
 ptBR = "O limite de altura acima do limite do terreno, ou seja, quão alto você pode construir (Padrão do jogo: 10)"
 koKR = "지면 제한 위의 높이 제한, 즉 건물을 얼마나 높게 지을 수 있는지(게임 기본값: 10)"
+csCZ = "Výška nad terénem, tj. jak vysoko můžete stavět (Výchozí hodnota hry: 10)"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimit"]
 raw = "[Map Editor]Allow editor brush up to terrain limit"
@@ -98,6 +104,7 @@ deDE = "[Karteneditor]Editor-Pinsel bis zur Geländebegrenzung erlauben"
 plPL = "[Edytor Map]Pozwól na użycie pędzla edytora do granic terenu"
 ptBR = "[Editor de Mapas] Permitir que o pincel do editor vá até o limite do terreno"
 koKR = "[맵 편집기]편집 브러시를 지형 한계까지 허용"
+csCZ = "[Editor mapy]Umožnit editoru štětec až do limitu terénu"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimitDesc"]
 raw = "Allow the editor brush to go up to the terrain limit instead of minus 6 (Game default: 22 - 6 = 16)"
@@ -112,6 +119,7 @@ deDE = "Erlaube dem Editor-Pinsel, bis zur Geländegrenze zu gehen, anstatt minu
 plPL = "Zezwól pędzlowi edytora sięgać do limitu terenu zamiast minus 6 (domyślnie w grze: 22 - 6 = 16)"
 ptBR = "Permita que o pincel do editor chegue ao limite do terreno em vez de menos 6 (Padrão do jogo: 22 - 6 = 16)"
 koKR = "편집기 브러시가 지형 한계까지 이동할 수 있도록 허용, 기본값: 22 - 6 = 16"
+csCZ = "Povolit štětci editoru jít až k limitu terénu místo minus 6 (Výchozí hodnota hry: 22 - 6 = 16)"
 
 ["LV.BAsc.FreeCamera"]
 raw = "Free camera"
@@ -126,6 +134,7 @@ deDE = "Kostenlose Kamera"
 plPL = "Darmowa kamera"
 ptBR = "Câmera livre"
 koKR = "자유 카메라"
+csCZ = "Volná kamera"
 
 ["LV.BAsc.FreeCameraDesc"]
 raw = "Enable free camera mode, useful when you have built too high"
@@ -140,3 +149,4 @@ deDE = "Aktivieren Sie den freien Kameramodus, nützlich, wenn Sie zu hoch gebau
 plPL = "Włącz tryb swobodnej kamery, przydatny, gdy zbudujesz zbyt wysoko."
 ptBR = "Ative o modo de câmera livre, útil quando você construiu muito alto."
 koKR = "높게 지었을 때 유용한 자유 카메라 모드를 활성화합니다."
+csCZ = "Zapněte režim volné kamery, užitečné, když jste postavili příliš vysokou stavbu."

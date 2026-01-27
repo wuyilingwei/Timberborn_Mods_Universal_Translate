@@ -14,6 +14,7 @@ deDE = "Temperaturabhängiger Durchfluss"
 plPL = "Temperatura przepływu"
 ptBR = "Taxa de fluxo temperada"
 koKR = "온대 유량 비율"
+csCZ = "Teplomilný průtok"
 
 ["ModSetting.TWAllWeatherDrill.NormalWeatherScaleDesc"]
 raw = "Scale applied to water flow during temperate weather. Vanilla value = 1"
@@ -28,6 +29,7 @@ deDE = "Skala, die auf den Wasserfluss während gemäßigtem Wetter angewendet w
 plPL = "Skala zastosowana do przepływu wody podczas umiarkowanej pogody. Wartość w wersji podstawowej = 1"
 ptBR = "Escala aplicada ao fluxo de água durante o clima temperado. Valor padrão = 1"
 koKR = "온대 날씨 동안 물의 흐름에 적용되는 비율. 기본값 = 1"
+csCZ = "Škála aplikovaná na tok vody během mírného počasí. Původní hodnota = 1"
 
 ["ModSetting.TWAllWeatherDrill.BadtideWeatherScale"]
 raw = "Badtide flow rate"
@@ -42,6 +44,7 @@ deDE = "Badtide Durchflussrate"
 plPL = "Współczynnik przepływu złej pływów"
 ptBR = "Taxa de fluxo de maré baixa"
 koKR = "나쁜 조수 유속"
+csCZ = "Průtok špatného přílivu"
 
 ["ModSetting.TWAllWeatherDrill.BadtideWeatherScaleDesc"]
 raw = "Scale applied to water flow during badtide weather. Vanilla value = 0"
@@ -56,6 +59,7 @@ deDE = "Skalierung, die während der schlechten Tide-Wetterbedingungen auf den W
 plPL = "Skala stosowana do przepływu wody podczas złej pogody. Wartość domyślna = 0"
 ptBR = "Escala aplicada ao fluxo de água durante o clima de maré baixa. Valor padrão = 0"
 koKR = "악조 날씨 동안 수역 흐름에 적용되는 스케일. 기본 값 = 0"
+csCZ = "Změna aplikovaná na tok vody během špatného přílivového počasí. Výchozí hodnota = 0"
 
 ["ModSetting.TWAllWeatherDrill.DroughtWeatherScale"]
 raw = "Drought flow rate"
@@ -70,6 +74,7 @@ deDE = "Dürre Durchflussrate"
 plPL = "Wskaźnik przepływu suszy"
 ptBR = "Taxa de fluxo de seca"
 koKR = "가뭄 유량"
+csCZ = "Průtok během sucha"
 
 ["ModSetting.TWAllWeatherDrill.DroughtWeatherScaleDesc"]
 raw = "Scale applied to water flow during drought weather. Vanilla value = 0"
@@ -84,6 +89,7 @@ deDE = "Skalierung, die während Dürre Wetter auf den Wasserfluss angewendet wi
 plPL = "Skala stosowana do przepływu wody podczas suchej pogody. Wartość w wersji podstawowej = 0"
 ptBR = "Escala aplicada ao fluxo de água durante o tempo de seca. Valor padrão = 0"
 koKR = "가뭄 날씨 동안 물 흐름에 적용되는 비율. 기본값 = 0"
+csCZ = "Změna aplikovaná na tok vody během suchého počasí. Základní hodnota = 0"
 
 ["ModSetting.TWAllWeatherDrill.OtherWeatherScale"]
 raw = "Unrecognized weather flow rate"
@@ -98,6 +104,7 @@ deDE = "Unbekannte Wetterflussrate"
 plPL = "Nieznana wartość przepływu pogody"
 ptBR = "Taxa de fluxo de clima não reconhecida"
 koKR = "인식되지 않는 기상 유량"
+csCZ = "Nerozpoznaná rychlost průtoku počasí"
 
 ["ModSetting.TWAllWeatherDrill.OtherWeatherScaleDesc"]
 raw = "Scale applied to water flow during hazardous weather that is not a drought or a badtide (This hopefully catches most modded weather). Vanilla value = 0"
@@ -112,6 +119,7 @@ deDE = "Skalierung, die während gefährlicher Wetterbedingungen angewendet wird
 plPL = "Skala stosowana w przypadku przepływu wody podczas niebezpiecznych warunków pogodowych, które nie są suszą ani złym przypływem (mam nadzieję, że obejmuje to większość zmodyfikowanej pogody). Wartość standardowa = 0"
 ptBR = "Escala aplicada ao fluxo de água durante condições climáticas adversas que não sejam seca ou maré baixa (Isso deve abranger a maioria dos climas modificados). Valor padrão = 0"
 koKR = "가뭄이나 나쁜 조수 상태가 아닌 위험한 날씨 동안 물 흐름에 적용되는 스케일(이것은 대부분의 모드된 날씨를 포함하길 바랍니다). 기본값 = 0"
+csCZ = "Škála aplikovaná na tok vody během nebezpečného počasí, které není suchem nebo špatnou vlnou (Toto doufejme zachytí většinu modifikovaného počasí). Výchozí hodnota = 0"
 
 ["ModSetting.TWAllWeatherDrill.PowerScale"]
 raw = "Drill power requirement"
@@ -126,6 +134,7 @@ deDE = "Bohrleistungsanforderung"
 plPL = "Wymagania dotyczące mocy wiertła"
 ptBR = "Requisito de potência da perfuradora"
 koKR = "드릴 전력 요구 사항"
+csCZ = "Požadavek na energii vrtáku"
 
 ["ModSetting.TWAllWeatherDrill.PowerScaleDesc"]
 raw = "Scale applied to drill power needs. Vanilla value = 1"
@@ -140,3 +149,4 @@ deDE = "Skalierung, die auf den Leistungsbedarf des Bohrers angewendet wird. Van
 plPL = "Skala zastosowana do potrzeb energetycznych wiertarki. Wartość domyślna = 1"
 ptBR = "Escala aplicada às necessidades de energia da furadeira. Valor padrão = 1"
 koKR = "드릴 전력 필요에 적용되는 비율. 기본 값 = 1"
+csCZ = "Škála aplikovaná na potřeby energie vrtného zařízení. Základní hodnota = 1"

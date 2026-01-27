@@ -14,6 +14,7 @@ deDE = "Koop-Spiel beitreten"
 plPL = "Dołącz do gry kooperacyjnej"
 ptBR = "Entrar no jogo cooperativo"
 koKR = "협동 게임에 참여하기"
+csCZ = "Připojit se k co-op hře"
 
 ["BeaverBuddies.JoinCoopGame.EnterIp"]
 status = "normal"
@@ -28,6 +29,7 @@ deDE = "Gib die globale IP-Adresse oder den Domännamen des Hosts ein:"
 plPL = "Wprowadź globalny adres IP lub nazwę domeny hosta:"
 ptBR = "Digite o endereço IP global ou o nome de domínio do Host:"
 koKR = "호스트의 글로벌 IP 주소 또는 도메인 이름을 입력하세요:"
+csCZ = "Zadejte globální IP adresu nebo doménové jméno hostitele:"
 
 ["BeaverBuddies.FirstTimer.Message"]
 status = "normal"
@@ -42,6 +44,7 @@ deDE = "Es sieht so aus, als wäre dies Ihr erster Besuch bei BeaverBuddies. Wir
 plPL = "Wydaje się, że to twój pierwszy raz korzystając z BeaverBuddies. Zalecamy szybkie zapoznanie się z naszym przewodnikiem, aby upewnić się, że wszystko jest gotowe do gry. Czy chciałbyś to zrobić teraz?"
 ptBR = "Parece que esta é a sua primeira vez usando o BeaverBuddies. Recomendamos dar uma olhada rápida em nosso guia para garantir que você esteja pronto para jogar. Você gostaria de fazer isso agora?"
 koKR = "이것이 BeaverBuddies를 사용하는 첫 번째 시간인 것 같습니다. 게임을 시작할 준비가 되어 있는지 확인하기 위해 가이드를 간단히 살펴보는 것을 추천합니다. 지금 그렇게 하시겠습니까?"
+csCZ = "Vypadá to, že používáte BeaverBuddies poprvé. Doporučujeme rychle se podívat na náš průvodce, abyste se ujistili, že máte vše nastaveno pro hraní. Chtěli byste to udělat nyní?"
 
 ["BeaverBuddies.Saving.HostCoopGame"]
 status = "normal"
@@ -56,6 +59,7 @@ deDE = "Koop-Spiel hosten"
 plPL = "Hostować grę kooperacyjną"
 ptBR = " hospedar jogo cooperativo"
 koKR = "협동 게임 호스트"
+csCZ = "Hostit hru ve spolupráci"
 
 ["BeaverBuddies.JoinCoopGame.ConnectionFailedMessageWithError"]
 status = "normal"
@@ -70,6 +74,7 @@ deDE = "Beitreten fehlgeschlagen mit Fehler:\n{0}\nMöchten Sie das Fehlersuche-
 plPL = "Dołączenie nie powiodło się z błędem:\n{0}\nCzy chcesz otworzyć przewodnik rozwiązywania problemów?"
 ptBR = "Falha ao ingressar com o erro:\n{0}\nVocê gostaria de abrir o guia de solução de problemas?"
 koKR = "연결 오류로 인해 참가에 실패했습니다:\n{0}\n문제 해결 가이드를 열까요?"
+csCZ = "Připojení se nezdařilo s chybou:\n{0}\nChcete otevřít průvodce řešením problémů?"
 
 ["BeaverBuddies.JoinCoopGame.ConnectionFailedMessage"]
 status = "normal"
@@ -84,6 +89,7 @@ deDE = "Verbindung zum Host fehlgeschlagen. Möchten Sie das Troubleshooting-Han
 plPL = "Nie udało się połączyć z hostem. Czy chcesz otworzyć przewodnik rozwiązywania problemów?"
 ptBR = "Falha ao conectar ao Host. Você gostaria de abrir o guia de solução de problemas?"
 koKR = "호스트에 연결하지 못했습니다. 문제 해결 가이드를 열겠습니까?"
+csCZ = "Nepodařilo se připojit k hostiteli. Chcete otevřít průvodce odstraňováním problémů?"
 
 ["BeaverBuddies.ClientDesynced.Message"]
 status = "normal"
@@ -98,6 +104,7 @@ deDE = "Ein verbundener Spieler hat die Synchronisation verloren und kann nicht 
 plPL = "Podłączony gracz został rozłączony i nie może kontynuować gry - przepraszamy za to! Gospodarz powinien kliknąć 'Rehost', a następnie, PO tym, klient powinien się połączyć ponownie. Może być konieczne ponowne uruchomienie gry, jeśli problemy będą się utrzymywać. Przed ponownym załadowaniem, czy chciałbyś zgłosić błąd, aby pomóc nam naprawić ten problem?"
 ptBR = "Um jogador conectado ficou fora de sincronia e não pode continuar jogando - pedimos desculpas por isso! O Anfitrião deve clicar em Rehospedar e, DEPOIS disso, o Cliente deve Reconectar. Você pode precisar reiniciar o jogo se os problemas persistirem. Antes de recarregar, você gostaria de enviar um relatório de bug para nos ajudar a corrigir esse problema?"
 koKR = "연결된 플레이어의 동기화가 해제되어 계속 플레이할 수 없습니다 - 죄송합니다! 호스트는 '재호스트' 버튼을 눌러야 하며, 그 후 클라이언트는 '재연결'해야 합니다. 문제가 지속되면 게임을 다시 시작해야 할 수도 있습니다. 재로드하기 전에 이 문제를 해결하는 데 도움을 줄 수 있도록 버그 보고서를 제출하시겠습니까?"
+csCZ = "Připojený hráč se odpojil a nemůže pokračovat ve hře - omlouváme se za to! Hostitel by měl stisknout 'Znovu hostit' a PO TÉ, co to udělá, by se klient měl znovu připojit. Možná budete muset restartovat hru, pokud problémy přetrvávají. Před znovu načtením byste chtěli podat zprávu o chybě, abyste nám pomohli tento problém vyřešit?"
 
 ["BeaverBuddies.ClientDesynced.FailedToRehostMessage"]
 status = "normal"
@@ -112,6 +119,7 @@ deDE = "Hosting fehlgeschlagen. Manuell speichern und erneut hosten."
 plPL = "Nie udało się ponownie hostować. Ręcznie zapisz i uruchom ponownie."
 ptBR = "Falha ao Rehospedar. Salve manualmente e hospede novamente."
 koKR = "재호스팅 실패. 수동으로 저장하고 다시 호스팅하세요."
+csCZ = "Chyba při opětovném hostování. Ručně uložte a hostujte znovu."
 
 ["BeaverBuddies.ClientDesynced.SaveAndRehostButton"]
 status = "normal"
@@ -126,6 +134,7 @@ deDE = "Speichern und Neu Starten"
 plPL = "Zapisz i ponownie hostuj"
 ptBR = "Salvar e Rehospedar"
 koKR = "저장하고 재호스트"
+csCZ = "Uložit a znovu hostit"
 
 ["BeaverBuddies.ClientDesynced.WaitForRehostButton"]
 status = "normal"
@@ -140,6 +149,7 @@ deDE = "Wiederverbinden (auf Neuaushost warten)"
 plPL = "Reconnect (czekaj na ponowne hostowanie)"
 ptBR = "Reconectar (aguarde o Rehost)"
 koKR = "재연결 (재호스팅 대기)"
+csCZ = "Znovu se připojit (čekat na nové hostování)"
 
 ["BeaverBuddies.ClientDesynced.PostBugReportButton"]
 status = "normal"
@@ -154,6 +164,7 @@ deDE = "Fehlerbericht absenden"
 plPL = "Zgłoś błąd"
 ptBR = "Reportar Bug"
 koKR = "버그 신고하기"
+csCZ = "Odeslat hlášení o chybě"
 
 ["BeaverBuddies.Editor.StartingLocation1"]
 status = "normal"
@@ -168,6 +179,7 @@ deDE = "Startposition - Spieler 1"
 plPL = "Lokalizacja startowa - Gracz 1"
 ptBR = "Local de Início - Jogador 1"
 koKR = "시작 위치 - 플레이어 1"
+csCZ = "Začínací poloha - Hráč 1"
 
 ["BeaverBuddies.Editor.StartingLocation2"]
 status = "normal"
@@ -182,6 +194,7 @@ deDE = "Startposition - Spieler 2"
 plPL = "Lokalizacja początkowa - Gracz 2"
 ptBR = "Local de Início - Jogador 2"
 koKR = "시작 위치 - 플레이어 2"
+csCZ = "Výchozí poloha - Hráč 2"
 
 ["BeaverBuddies.Editor.StartingLocation3"]
 status = "normal"
@@ -196,6 +209,7 @@ deDE = "Startposition - Spieler 3"
 plPL = "Lokalizacja startowa - Gracz 3"
 ptBR = "Local de Início - Jogador 3"
 koKR = "시작 위치 - 플레이어 3"
+csCZ = "Výchozí poloha - Hráč 3"
 
 ["BeaverBuddies.Editor.StartingLocation4"]
 status = "normal"
@@ -210,6 +224,7 @@ deDE = "Startposition - Spieler 4"
 plPL = "Lokalizacja Startowa - Gracz 4"
 ptBR = "Local de Início - Jogador 4"
 koKR = "시작 위치 - 플레이어 4"
+csCZ = "Počáteční místo - Hráč 4"
 
 ["BeaverBuddies.NewGame.MaxStartingLocations"]
 status = "normal"
@@ -224,6 +239,7 @@ deDE = "Maximale Startpositionen"
 plPL = "Maximalna liczba miejsc startowych"
 ptBR = "Máx. Locais de Início"
 koKR = "최대 시작 위치"
+csCZ = "Maximální výchozí lokace"
 
 ["BeaverBuddies.ClientDesynced.ReportSuccess"]
 status = "normal"
@@ -238,6 +254,7 @@ deDE = "Erfolg!"
 plPL = "Sukces!"
 ptBR = "Sucesso!"
 koKR = "성공!"
+csCZ = "Úspěch!"
 
 ["BeaverBuddies.ClientDesynced.ReportFailed"]
 status = "normal"
@@ -252,6 +269,7 @@ deDE = "Fehlgeschlagen :("
 plPL = "Niepowodzenie :("
 ptBR = "Falhou :("
 koKR = "실패 :("
+csCZ = "Nepovedlo se :("
 
 ["BeaverBuddies.ClientDesynced.ConsentAgreement"]
 status = "normal"
@@ -266,6 +284,7 @@ deDE = "Ja, ich stimme zu"
 plPL = "Tak, zgadzam się"
 ptBR = "Sim, eu concordo"
 koKR = "네, 동의합니다"
+csCZ = "Ano, souhlasím"
 
 ["BeaverBuddies.ClientDesynced.TracingEnabled"]
 status = "normal"
@@ -280,6 +299,7 @@ deDE = "Aktiviert"
 plPL = "Włączone"
 ptBR = "Ativado"
 koKR = "활성화됨"
+csCZ = "Povoleno"
 
 ["BeaverBuddies.ClientDesynced.EnableTracing"]
 status = "normal"
@@ -294,6 +314,7 @@ deDE = "Protokollierung aktivieren"
 plPL = "Włącz rejestrowanie"
 ptBR = "Ativar Registro"
 koKR = "로깅 활성화"
+csCZ = "Vytvořit protokol"
 
 ["BeaverBuddies.ClientDesynced.NeedToEnableTracing"]
 status = "normal"
@@ -308,6 +329,7 @@ deDE = "Um diesen Desync zu melden, müssen *alle Spieler* zuerst die detaillier
 plPL = "Aby zgłosić to desynchronizację, *wszyscy gracze* muszą najpierw włączyć bardziej szczegółowe logowanie, naciskając przycisk Włącz logowanie poniżej. Jeśli wystąpi kolejna desynchronizacja, będziesz mógł przesłać szczegółowy, automatyczny raport o błędzie. Tryb logowania może powodować pewne opóźnienia, ale będzie aktywny tylko do momentu ponownego uruchomienia gry."
 ptBR = "Para relatar essa desincronização, *todos os jogadores* devem primeiro ativar o registro de logs mais detalhados pressionando Ativar Registro, abaixo. Se outra desincronização ocorrer, você poderá enviar um relatório de bug automatizado e detalhado. O modo de registro pode causar algum atraso, mas ficará ativo apenas até você reiniciar o jogo."
 koKR = "이 비동기 문제를 보고하기 위해서는 *모든 플레이어*가 먼저 아래의 '로깅 활성화'를 눌러 더 상세한 로깅을 활성화해야 합니다. 다른 비동기 문제가 발생하면, 상세한 자동 버그 보고서를 제출할 수 있습니다. 로깅 모드는 약간의 지연을 유발할 수 있지만, 게임을 재시작할 때까지만 활성화됩니다."
+csCZ = "Aby bylo možné nahlásit tento desynchronizaci, *všichni hráči* musí nejprve povolit podrobnější protokolování stisknutím Povolit protokolování níže. Pokud dojde k další desynchronizaci, budete moci zaslat podrobný, automatizovaný report o chybě. Režim protokolování může způsobit mírné zpoždění, ale bude aktivní pouze do doby, než restartujete hru."
 
 ["BeaverBuddies.ClientDesynced.ConsentMessage"]
 status = "normal"
@@ -322,6 +344,7 @@ deDE = "Zustimmung zur Weitergabe von Nutzungsdaten\n\nIndem Sie sich entscheide
 plPL = "Zgoda na udostępnianie danych użytkowania\n\nWybierając udostępnienie swoich danych, zgadzasz się na przesłanie następujących informacji z twojej sesji rozgrywki do twórców tego moda:\n\n- Dane logowania: Informacje automatycznie zbierane podczas twojej sesji rozgrywki, takie jak wydarzenia w grze i interakcje użytkownika.\n- Plik zapisu: Twój aktualny plik zapisu gry.\n\nDążymy do zachowania twojej prywatności, utrzymując te dane w dużej mierze anonimowo. Jednak ze względu na sposób zbierania danych, mogą one przypadkowo zawierać szczegóły, które mogą Cię zidentyfikować (np. ścieżki do plików lub nazwy użytkowników). Twórcy nie będą próbowali zidentyfikować cię za pomocą tych informacji.\n\nTwoje wybory:\n- Jeśli się zgadzasz, te dane będą bezpiecznie przesyłane do twórców i wykorzystane do poprawy moda.\n- Jeśli się nie zgadzasz, żadne dane nie będą przesyłane, a twoja rozgrywka będzie kontynuowana bez żadnych zmian.\n\nPrzechodząc dalej, potwierdzasz, że masz co najmniej ustawowy wiek zgody cyfrowej w swoim kraju zamieszkania.\n\nCzy zgadzasz się na udostępnienie swoich danych twórcom tego moda?"
 ptBR = "Consentimento para Compartilhar Dados de Uso\n\nAo escolher compartilhar seus dados, você concorda em enviar as seguintes informações da sua sessão de jogo para os desenvolvedores deste mod:\n\n- Dados de Registro: Informações coletadas automaticamente durante sua sessão de jogo, como eventos do jogo e interações do usuário.\n- Arquivo de Salvamento: Seu arquivo de salvamento atual do jogo.\n\nNós nos esforçamos para manter sua privacidade mantendo esses dados em grande parte anônimos. No entanto, como os dados são coletados como estão, eles podem inadvertidamente incluir detalhes que poderiam identificá-lo (como caminhos de arquivos ou nomes de usuário). Os desenvolvedores não tentarão identificá-lo usando essas informações.\n\nSuas Opções:\n- Se você concordar, esses dados serão enviados de forma segura para os desenvolvedores e usados para melhorar o mod.\n- Se você não concordar, nenhum dado será enviado, e seu jogo continuará sem alterações.\n\nAo prosseguir, você confirma que tem pelo menos a idade legal de consentimento digital em seu país de residência.\n\nVocê concorda em compartilhar seus dados com os desenvolvedores deste mod?"
 koKR = "사용 데이터 공유 동의\n\n데이터 공유를 선택함으로써, 게임 플레이 세션에서 다음 정보를 이 모드의 개발자에게 전송하는 것에 동의합니다:\n\n- 로그 데이터: 게임 플레이 세션 중 자동으로 수집된 정보로, 게임 이벤트 및 사용자 상호작용 등이 포함됩니다.\n- 저장 파일: 현재 게임 저장 파일입니다.\n\n저희는 이 데이터를 대체로 익명으로 유지하여 여러분의 개인 정보를 보호하기 위해 노력하고 있습니다. 그러나 수집된 데이터는 있는 그대로 수집되기 때문에, 귀하를 식별할 수 있는 세부정보(예: 파일 경로 또는 사용자 이름)가 포함될 수 있습니다. 개발자들은 이 정보를 사용하여 귀하를 식별하려고 하지 않습니다.\n\n귀하의 선택:\n- 동의하신 경우, 이 데이터는 안전하게 개발자에게 전송되어 모드를 개선하는 데 사용됩니다.\n- 동의하지 않으신 경우, 데이터가 전송되지 않으며 귀하의 게임 플레이는 어떤 변경 없이 계속됩니다.\n\n진행함으로써, 귀하는 거주 국가의 디지털 동의에 대한 법적 연령 이상이라는 것을 확인합니다.\n\n이 모드의 개발자와 데이터를 공유하는 데 동의하십니까?"
+csCZ = "Souhlas se sdílením dat o používání\n\nZvolením sdílení svých dat souhlasíte s tím, že zašlete následující informace z vaší herní relace vývojářům tohoto modu:\n\n- Logovací data: Informace automaticky shromážděné během vaší herní relace, jako jsou herní události a uživatelské interakce.\n- Uložení: Vaše aktuální herní uložená hra.\n\nUsilujeme o ochranu vašeho soukromí tím, že tato data většinou uchováváme v anonymním stavu. Avšak protože jsou data shromažďována tak, jak jsou, může se v nich nechtěně objevit informace, které by vás mohly identifikovat (například cesty k souborům nebo uživatelská jména). Vývojáři se nebudou snažit vás pomocí těchto informací identifikovat.\n\nVaše rozhodnutí:\n- Pokud souhlasíte, tato data budou bezpečně zaslána vývojářům a použita k vylepšení modu.\n- Pokud nesouhlasíte, žádná data nebudou odeslána a vaše hra bude pokračovat bez jakýchkoli změn.\n\nPokračováním potvrzujete, že jste alespoň v právním věku digitálního souhlasu ve vaší zemi pobytu.\n\nSouhlasíte se sdílením svých dat s vývojáři tohoto modu?"
 
 ["BeaverBuddies.Settings.ClientConnectionAddress"]
 status = "normal"
@@ -336,6 +359,7 @@ deDE = "Clientverbindungsadresse"
 plPL = "Adres połączenia klienta"
 ptBR = "Endereço de Conexão do Cliente"
 koKR = "클라이언트 연결 주소"
+csCZ = "Adresa klientského připojení"
 
 ["BeaverBuddies.Settings.ClientConnectionAddress.Tooltip"]
 status = "normal"
@@ -350,6 +374,7 @@ deDE = "Standard-IP-Adresse, die beim Verbinden mit einem Host verwendet wird."
 plPL = "Domyślny adres IP używany podczas łączenia z hostem."
 ptBR = "Endereço IP padrão usado ao conectar-se a um Host."
 koKR = "호스트에 연결할 때 사용되는 기본 IP 주소입니다."
+csCZ = "Výchozí IP adresa používaná při připojování k hostiteli."
 
 ["BeaverBuddies.Settings.Port"]
 status = "normal"
@@ -364,6 +389,7 @@ deDE = "Port"
 plPL = "Port"
 ptBR = "Porta"
 koKR = "포트"
+csCZ = "Port"
 
 ["BeaverBuddies.Settings.Port.Tooltip"]
 status = "normal"
@@ -378,6 +404,7 @@ deDE = "Port, der beim Hosten oder Beitreten zu einem Spiel verwendet wird. Dies
 plPL = " port używany podczas hostowania lub dołączania do gry. Powinien odpowiadać przekierowanemu portowi dla hosta."
 ptBR = "Porta utilizada ao hospedar ou ingressar em um jogo. Isso deve corresponder a uma porta encaminhada para o anfitrião."
 koKR = "호스팅하거나 게임에 참여할 때 사용되는 포트입니다. 이는 호스트의 포트 포워딩과 일치해야 합니다."
+csCZ = "Port používaný při hostování nebo připojování se k hře. Měl by odpovídat přeposlanému portu pro hostitele."
 
 ["BeaverBuddies.Settings.SilenceLogging"]
 status = "normal"
@@ -392,6 +419,7 @@ deDE = "Logging stummschalten"
 plPL = "Cisza przy rejestrowaniu"
 ptBR = "Silenciar Registro"
 koKR = "로그 기록 음소거"
+csCZ = "Tichý záznam"
 
 ["BeaverBuddies.Settings.SilenceLogging.Tooltip"]
 status = "normal"
@@ -406,6 +434,7 @@ deDE = "Die Protokollierung in die Spieler-Logdatei (außer Warnungen und Fehler
 plPL = "Zapobiega rejestrowaniu przez ten mod w pliku dziennika gracza (z wyjątkiem ostrzeżeń i błędów). Ta opcja jest przeznaczona dla deweloperów."
 ptBR = "Impedir que este mod registre informações no arquivo de log do jogador (exceto avisos e erros). Esta configuração é destinada a desenvolvedores."
 koKR = "이 모드가 플레이어 로그 파일에 기록되는 것을 방지합니다(경고 및 오류는 제외).\n이 설정은 개발자를 위한 것입니다."
+csCZ = "Zabránit tomuto módu zapisovat do souboru protokolu hráče (kromě varování a chyb). Toto nastavení je určeno pro vývojáře."
 
 ["BeaverBuddies.Settings.ShowFirstTimerMessage"]
 status = "normal"
@@ -420,6 +449,7 @@ deDE = "Erste Zeitmesser-Nachricht anzeigen"
 plPL = "Pokaż pierwszą wiadomość o czasie"
 ptBR = "Mostrar Mensagem do Primeiro Temporizador"
 koKR = "첫 타이머 메시지 표시"
+csCZ = "Zobrazit zprávu prvního časovače"
 
 ["BeaverBuddies.Settings.AlwaysTrace"]
 status = "normal"
@@ -434,6 +464,7 @@ deDE = "Immer Detaillierte Protokollierung Verwenden"
 plPL = "Zawsze używaj szczegółowego logowania"
 ptBR = "Usar sempre registro detalhado"
 koKR = "항상 상세 기록 사용"
+csCZ = "Vždy používat podrobné protokolování"
 
 ["BeaverBuddies.Settings.AlwaysTrace.Tooltip"]
 status = "normal"
@@ -448,6 +479,7 @@ deDE = "Wenn aktiviert, wird das Spiel immer detailliertes Logging verwenden, wa
 plPL = "Po włączeniu gra zawsze będzie używać szczegółowego logowania, co umożliwia wysyłanie raportów o desynchronizacji przy pierwszym wystąpieniu bez ręcznego włączania szczegółowego logowania. \nNależy pamiętać, że wszyscy gracze muszą mieć włączoną tę opcję. \nUstawienie to może powodować opóźnienia i nie jest zalecane dla większości graczy."
 ptBR = "Quando ativado, o jogo sempre usará registros detalhados, o que permite que você envie relatórios de desincronização na primeira ocorrência sem precisar ativar manualmente os registros detalhados. \nObserve que todos os jogadores devem ter essa configuração ativada. \nEssa configuração pode causar algum atraso e não é recomendada para a maioria dos jogadores."
 koKR = "활성화하면 게임이 항상 세부 로깅을 사용하게 되며, 이로 인해 첫 번째 발생 시 자동으로 비동기 보고서를 제출할 수 있습니다. \n모든 플레이어가 이 설정을 활성화해야 합니다. \n이 설정은 약간의 지연을 초래하며, 대부분의 플레이어에게는 권장되지 않습니다."
+csCZ = "Pokud je povoleno, hra vždy použije podrobné protokolování, což vám umožní odeslat zprávy o desynchronizaci při prvním výskytu bez nutnosti manuálně aktivovat podrobné protokolování. Všimněte si, že všichni hráči musí mít toto nastavení povolené. Toto nastavení může způsobit určité zpoždění a není doporučeno pro většinu hráčů."
 
 ["BeaverBuddies.Settings.ReportingConsent"]
 status = "normal"
@@ -462,6 +494,7 @@ deDE = "Zustimmung zur Berichterstattung"
 plPL = "Zgoda na przesyłanie danych"
 ptBR = "Consentimento para Relatórios"
 koKR = "보고 동의"
+csCZ = "Souhlas s hlášením"
 
 ["BeaverBuddies.Settings.EnableSteamConnection"]
 status = "normal"
@@ -476,6 +509,7 @@ deDE = "Steam-Netzwerk aktivieren"
 plPL = "Aktywuj połączenie z Steam"
 ptBR = "Ativar Conexão Steam"
 koKR = "스팀 네트워킹 활성화"
+csCZ = "Povolit síťování přes Steam"
 
 ["BeaverBuddies.Settings.EnableSteamConnection.Tooltip"]
 status = "normal"
@@ -490,6 +524,7 @@ deDE = "Ermöglicht es Spielern, über das Peer-to-Peer-Netzwerk von Steam an de
 plPL = "Pozwala graczom dołączać do twoich gier za pośrednictwem sieci peer-to-peer Steam. Gracze nadal będą mogli dołączać poprzez przekierowanie portów. Uwaga: Ta funkcja może nie działać, jeśli twoja sieć nie obsługuje połączeń peer-to-peer. Dodatkowo, połączenia peer-to-peer mogą być wolniejsze niż bezpośrednie połączenia."
 ptBR = "Permite que jogadores se juntem às suas partidas através da rede peer-to-peer do Steam. \nOs jogadores ainda poderão se juntar via encaminhamento de porta. \nNota: Este recurso pode não funcionar se sua rede não suportar conexões peer-to-peer. \nAlém disso, conexões peer-to-peer podem ser mais lentas do que conexões diretas."
 koKR = "Steam의 피어 투 피어 네트워킹을 통해 플레이어가 귀하의 게임에 참여할 수 있도록 허용합니다.  \n플레이어는 포트 포워딩을 통해서도 참여할 수 있습니다.  \n참고: 이 기능은 귀하의 네트워크가 피어 투 피어 연결을 지원하지 않을 경우 작동하지 않을 수 있습니다.  \n또한, 피어 투 피어 연결은 직접 연결보다 느릴 수 있습니다."
+csCZ = "Umožňuje hráčům připojit se k vašim hrám přes Steamovou peer-to-peer síť.\nHráči se stále mohou připojit přes přesměrování portů.\nPoznámka: Tato funkce nemusí fungovat, pokud vaše síť nepodporuje peer-to-peer připojení.\nDále mohou být peer-to-peer připojení pomalejší než přímá připojení."
 
 ["BeaverBuddies.Settings.FriendsCanJoinSteamGame"]
 status = "normal"
@@ -504,6 +539,7 @@ deDE = "Freunden erlauben, direkt über Steam beizutreten"
 plPL = "Pozwól znajomym dołączyć bezpośrednio przez Steam"
 ptBR = "Permitir que amigos entrem diretamente pelo Steam"
 koKR = "친구가 Steam을 통해 직접 참여하도록 허용"
+csCZ = "Povolit přátelům připojit se přímo přes Steam"
 
 ["BeaverBuddies.Settings.FriendsCanJoinSteamGame.Tooltip"]
 status = "normal"
@@ -518,6 +554,7 @@ deDE = "Wenn aktiviert, können deine Freunde direkt über Steam deinem Spiel be
 plPL = "Gdy jest włączone, twoi przyjaciele mogą dołączyć do twojej gry bezpośrednio przez Steam, bez konieczności zapraszania ich."
 ptBR = "Quando ativado, seus amigos podem entrar no seu jogo diretamente pelo Steam sem que você os convide."
 koKR = "활성화하면, 당신의 친구들이 초대하지 않아도 Steam을 통해 직접 당신의 게임에 들어올 수 있습니다."
+csCZ = "Pokud je povoleno, vaši přátelé se mohou připojit k vaší hře přímo přes Steam, aniž byste je museli zvát."
 
 ["BeaverBuddies.Host.ConnectedClients"]
 status = "normal"
@@ -532,6 +569,7 @@ deDE = "Warte auf die Verbindung von Clients...\nAktuell verbundene Clients:"
 plPL = "Czekaj na połączenie klientów...\nObecnie połączeni klienci:"
 ptBR = "Aguarde os clientes se conectarem...\nClientes atualmente conectados:"
 koKR = "클라이언트가 연결될 때까지 기다립니다...\n현재 연결된 클라이언트:"
+csCZ = "Čekání na připojení klientů...\nAktuálně připojení klienti:"
 
 ["BeaverBuddies.Host.DirectConnectClient"]
 status = "normal"
@@ -546,6 +584,7 @@ deDE = "Direktverbindungs-Client"
 plPL = "Klient bezpośredniego połączenia"
 ptBR = "Cliente de Conexão Direta"
 koKR = "직접 연결 클라이언트"
+csCZ = "Přímé připojení klienta"
 
 ["BeaverBuddies.Host.StartGame"]
 status = "normal"
@@ -560,6 +599,7 @@ deDE = "Spiel starten"
 plPL = "Rozpocznij grę"
 ptBR = "Começar Jogo"
 koKR = "게임 시작"
+csCZ = "Začít hru"
 
 ["BeaverBuddies.Host.InviteFriends"]
 status = "normal"
@@ -574,6 +614,7 @@ deDE = "Freunde einladen"
 plPL = "Zaproś Przyjaciół"
 ptBR = "Convite para Amigos"
 koKR = "친구 초대"
+csCZ = "Pozvat přátele"
 
 ["BeaverBuddies.JoinCoopGame.Success"]
 status = "normal"
@@ -588,6 +629,7 @@ deDE = "Beigetreten! Karte wird empfangen..."
 plPL = "Dołączono! Odbieranie mapy..."
 ptBR = "Entrou! Recebendo mapa..."
 koKR = "참여했습니다! 맵을 수신하는 중..."
+csCZ = "Byl jsi přijat! Přijímám mapu..."
 
 ["BeaverBuddies.JoinCoopGame.Error.InvalidFormat"]
 status = "normal"
@@ -602,6 +644,7 @@ deDE = "Ungültiges Adressformat. Konnte den Port nicht analysieren."
 plPL = "Nieprawidłowy format adresu. Nie można sparsować portu."
 ptBR = "Formato de endereço inválido. Não foi possível analisar a porta."
 koKR = "잘못된 주소 형식입니다. 포트를 분석할 수 없습니다."
+csCZ = "Neplatný formát adresy. Nelze analyzovat port."
 
 ["BeaverBuddies.JoinCoopGame.Error.InvalidAddress"]
 status = "normal"
@@ -616,6 +659,7 @@ deDE = "Die Adresse war keine gültige IP-Adresse. Es wurde versucht, sie als Ho
 plPL = "Adres nie był prawidłowym adresem IP. Próbowałem go rozwiązać jako nazwę hosta, ale nie został rozwiązany do adresu IP."
 ptBR = "O endereço não era um IP válido. Tentamos resolvê-lo como um nome de host, mas não correspondeu a um endereço IP."
 koKR = "주소가 유효한 IP 주소가 아닙니다.\n호스트 이름으로 해결하려고 시도했지만 IP 주소로 해결되지 않았습니다."
+csCZ = "Adresa nebyla platnou IP adresou. Pokusili jsme se ji vyřešit jako název hostitele, ale nevedlo to k žádné IP adrese."
 
 ["BeaverBuddies.JoinCoopGame.Error.CouldNotConnect"]
 status = "normal"
@@ -630,3 +674,4 @@ deDE = "Verbindung zum Host konnte nicht hergestellt werden. Bitte überprüfen 
 plPL = "Nie można połączyć się z gospodarzem. Proszę sprawdzić adres i port oraz upewnić się, że gospodarz jest online i ma odpowiednio przekierowany port, jeśli to konieczne. Szczegóły błędu:"
 ptBR = "Não foi possível conectar ao Host. Verifique o endereço e a porta, e certifique-se de que o Host está hospedando e que a porta está redirecionada, se necessário. Detalhes do erro:"
 koKR = "호스트에 연결할 수 없습니다. 주소와 포트를 확인하고, 호스트가 호스팅 중이며 필요한 경우 포트 포워딩이 설정되었는지 확인해 주세요. 오류 세부정보:"
+csCZ = "Nepodařilo se připojit k hostiteli. Zkontrolujte prosím adresu a port, a ujistěte se, že hostitel je aktivní a má případně port přesměrován. Podrobnosti o chybě:"

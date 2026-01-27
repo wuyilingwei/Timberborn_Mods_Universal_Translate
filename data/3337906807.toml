@@ -14,6 +14,7 @@ deDE = "Genutztes Potenzial: {0:0.#}%"
 plPL = "Wykorzystany potencjał: {0:0.#}%"
 ptBR = "Potencial utilizado: {0:0.#}%"
 koKR = "활용 가능한 잠재력: {0:0.#}%"
+csCZ = "Využitý potenciál: {0:0.#}%"
 
 ["IgorZ.TimberCommons.WaterTower.IrrigatedArea"]
 raw = "Covered area: {0}"
@@ -28,6 +29,7 @@ deDE = "Bedeckte Fläche: {0}"
 plPL = "Powierzchnia pokryta: {0}"
 ptBR = "Área coberta: {0}"
 koKR = "범위: {0}"
+csCZ = "Pokrytá plocha: {0}"
 
 ["IgorZ.TimberCommons.WaterTower.EffectiveRange"]
 raw = "Effective range: {0}"
@@ -42,6 +44,7 @@ deDE = "Effektive Reichweite: {0}"
 plPL = "Skuteczny zasięg: {0}"
 ptBR = "Faixa efetiva: {0}"
 koKR = "효과 범위: {0}"
+csCZ = "Účinný rozsah: {0}"
 
 ["IgorZ.TimberCommons.WaterTower.NoTilesToIrrigate"]
 raw = "No reachable tiles to irrigate"
@@ -56,6 +59,7 @@ deDE = "Keine erreichbaren Fliesen zum Bewässern"
 plPL = "Brak dostępnych kafelków do nawadniania"
 ptBR = "Nenhas azulejos acessíveis para irrigar"
 koKR = "관개할 수 있는 도달 가능한 타일이 없습니다"
+csCZ = "Není žádná dosažitelná políčka k zavlažování"
 
 ["IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile"]
 raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
@@ -70,6 +74,7 @@ deDE = "Wachstumssteigerung: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 plPL = "Wzrost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 ptBR = "Aumento de crescimento: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 koKR = "성장 강화: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+csCZ = "Růstový bonus: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 
 ["IgorZ.TimberCommons.GrowthRateModifier.SlowdownPercentile"]
 raw = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
@@ -84,6 +89,7 @@ deDE = "Wachstumsverlangsamung: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 plPL = "Spowolnienie wzrostu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 ptBR = "Desaceleração do crescimento: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 koKR = "성장 둔화: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+csCZ = "Zpomalení růstu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 
 ["IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream"]
 raw = "Close above depth at spillway: {0}"
@@ -98,6 +104,7 @@ deDE = "Schließe oberhalb der Tiefe am Überlauf: {0}"
 plPL = "Zamknij powyżej głębokości przy przelewie: {0}"
 ptBR = "Fechar acima da profundidade na vertedoura: {0}"
 koKR = "낙수구 위의 깊이를 닫습니다: {0}"
+csCZ = "Uzavřít nad hloubkou na přelivu: {0}"
 
 ["IgorZ.TimberCommons.InjuryProbability"]
 raw = "Injury probability: {0} every hour"
@@ -112,6 +119,7 @@ deDE = "Verletzungswahrscheinlichkeit: {0} jede Stunde"
 plPL = "Prawdopodobieństwo kontuzji: {0} co godzinę"
 ptBR = "Probabilidade de lesão: {0} a cada hora"
 koKR = "부상 확률: 매시간 {0}"
+csCZ = "Pravděpodobnost zranění: {0} každou hodinu"
 
 ["IgorZ.TimberCommons.InjuryProbabilityDaily"]
 raw = "Injury probability: {0} during the day"
@@ -126,6 +134,7 @@ deDE = "Verletzungswahrscheinlichkeit: {0} tagsüber"
 plPL = "Prawdopodobieństwo urazu: {0} w ciągu dnia"
 ptBR = "Probabilidade de lesão: {0} durante o dia"
 koKR = "부상 확률: {0} 낮 동안"
+csCZ = "Pravděpodobnost zranění: {0} během dne"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDurationSection"]
 raw = "Time and duration representation"
@@ -140,6 +149,7 @@ deDE = "Zeit- und Dauerdarstellung"
 plPL = "Reprezentacja czasu i długości trwania"
 ptBR = "Representação de tempo e duração"
 koKR = "시간 및 기간 표현"
+csCZ = "Zobrazení času a trvání"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursSupplyLeft"]
 raw = "Show 'supply lasts' as days/hours"
@@ -154,6 +164,7 @@ deDE = "\"Solange der Vorrat reicht\" als Tage/Stunden anzeigen"
 plPL = "Pokaż 'zapasy wystarczą na' w dniach/godzinach"
 ptBR = "Mostre 'estoque disponível' em dias/horas."
 koKR = "소모 기간을 일/시간으로 보여주기"
+csCZ = "Zobrazit 'zásoby vydrží' jako dny/hodiny"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursGrowingTime"]
 raw = "Show grow time as days/hours"
@@ -168,6 +179,7 @@ deDE = "Wachstumszeit als Tage/Stunden anzeigen"
 plPL = "Pokaż czas wzrostu w dniach/godzinach"
 ptBR = "Mostrar o tempo de crescimento em dias/horas"
 koKR = "성장 시간을 일/시간으로 표시"
+csCZ = "Zobrazit čas růstu jako dny/hodiny"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.DaysHoursForRecipeDuration"]
 raw = "Show recipes time as days/hours"
@@ -182,6 +194,7 @@ deDE = "Rezeptzeiten anzeigen als Tage/Stunden"
 plPL = "Pokaż czas przepisu w dniach/godzinach."
 ptBR = "Exibir o tempo das receitas em dias/horas"
 koKR = "레시피 시간을 일/시간으로 표시"
+csCZ = "Zobrazit čas receptů jako dny/hodiny"
 
 ["IgorZ.TimberCommons.Settings.TimeAndDuration.HigherPrecisionForFuelConsumingRecipes"]
 raw = "Show recipe fuel consumption with a higher precision"
@@ -196,6 +209,7 @@ deDE = "Zeigen Sie den Kraftstoffverbrauch des Rezepts mit höherer Präzision a
 plPL = "Pokaż zużycie paliwa według przepisu z wyższą precyzją."
 ptBR = "Mostre o consumo de combustível da receita com uma precisão maior."
 koKR = "연료 소비량을 더 높은 정확도로 표시"
+csCZ = "Zobrazit spotřebu paliva v receptech s vyšší přesností"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystemSection"]
 raw = "Irrigation system"
@@ -210,6 +224,7 @@ deDE = "Bewässerungssystem"
 plPL = "System nawadniający"
 ptBR = "Sistema de irrigação"
 koKR = "관개 시스템"
+csCZ = "Zavlažovací systém"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowers"]
 raw = "Show irrigated tiles as well moisturized"
@@ -224,6 +239,7 @@ deDE = "Zeigen Sie bewässerte Fliesen sowie gut befeuchtete."
 plPL = "Pokaż nawodnione płytki jako dobrze nawilżone"
 ptBR = "Mostre os azulejos irrigados e bem umedecidos."
 koKR = "관개된 타일을 잘 촉촉하게 표시"
+csCZ = "Zobrazit zavlažované dlaždice jako dobře navlhčené"
 
 ["IgorZ.TimberCommons.Settings.IrrigationSystem.OverrideDesertLevelsForWaterTowersTooltip"]
 raw = "Specifies whether the tiles should look shiny green (well moisturized). Otherwise, the stock logic\nwill show them as 'barely moisturized' since the irrigation towers give only the base moisture level."
@@ -238,6 +254,7 @@ deDE = "Gibt an, ob die Fliesen glänzend grün (gut befeuchtet) aussehen sollen
 plPL = "Określa, czy kafelki powinny wyglądać na lśniąco zielone (dobrze nawilżone). W przeciwnym razie domyślna logika wyświetli je jako 'ledwie nawilżone', ponieważ wieże nawadniające dostarczają tylko podstawowy poziom wilgoci."
 ptBR = "Especifica se os azulejos devem ter uma aparência verde brilhante (bem hidratados). Caso contrário, a lógica padrão os mostrará como \"pouco hidratados\", uma vez que as torres de irrigação fornecem apenas o nível básico de umidade."
 koKR = "타일이 반짝이는 초록색(잘 수분이 공급된 상태)으로 보일지 여부를 지정합니다. 그렇지 않으면, 관개 타워가 기본 수분 수준만 제공하므로 재고 논리는 이를 '거의 수분이 공급되지 않음'으로 표시합니다."
+csCZ = "Určuje, zda by měly dlaždice vypadat leskle zeleně (dobře zvlhčené). Jinak je standardní logika zobrazí jako 'téměř zvlhčené', protože zavlažovací věže poskytují pouze základní úroveň vlhkosti."
 
 ["IgorZ.TimberCommons.Settings.WaterBuildingsSection"]
 raw = "Water buildings"
@@ -252,6 +269,7 @@ deDE = "Wassergebäude"
 plPL = "Budynki wodne"
 ptBR = "Edifícios de água"
 koKR = "물 건물"
+csCZ = "Vodní budovy"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnMechanicalPumps"]
 raw = "Allow setting maximum water level at the spillway of the mechanical pumps"
@@ -266,6 +284,7 @@ deDE = "Erlauben Sie das Festlegen des maximalen Wasserspiegels am Überlauf der
 plPL = "Zezwól na ustawienie maksymalnego poziomu wody w przelewie pomp mechanicznych."
 ptBR = "Permitir a definição do nível máximo de água na vertente das bombas mecânicas."
 koKR = "기계 펌프의 배수구에서 최대 수위 설정 허용"
+csCZ = "Umožnit nastavení maximální úrovně vody na přelivu mechanických čerpadel"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.AdjustWaterDepthAtSpillwayOnFluidDumps"]
 raw = "Allow setting maximum water level at the spillway of the liquid drops"
@@ -280,6 +299,7 @@ deDE = "Erlauben Sie die Einstellung des maximalen Wasserspiegels am Überlauf d
 plPL = "Zezwól na ustawienie maksymalnego poziomu wody w przelewie kapiącej cieczy."
 ptBR = "Permitir a definição do nível máximo de água no vertedouro das gotículas líquidas."
 koKR = "액체 낙하의 배수구에서 최대 수위 설정 허용"
+csCZ = "Umožnit nastavení maximální hladiny vody na přelivu kapalinových skluzů"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
 raw = "Show current strength in sluice"
@@ -294,6 +314,7 @@ deDE = "Aktuelle Stärke im Schacht anzeigen"
 plPL = "Pokaż aktualną siłę w śluzie."
 ptBR = "Mostrar a força atual na comporta"
 koKR = "수문에서 현재 강도를 표시"
+csCZ = "Zobrazit aktuální sílu v plavební komoře"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbabilitySection"]
 raw = "Injury probability"
@@ -308,6 +329,7 @@ deDE = "Verletzungswahrscheinlichkeit"
 plPL = "Prawdopodobieństwo kontuzji"
 ptBR = "Probabilidade de lesão"
 koKR = "부상 확률"
+csCZ = "Pravděpodobnost zranění"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowInFragment"]
 raw = "Show injury probability in the right panel"
@@ -322,6 +344,7 @@ deDE = "Zeigen Sie die Verletzungswahrscheinlichkeit im rechten Bereich an."
 plPL = "Pokaż prawdopodobieństwo kontuzji w prawym panelu"
 ptBR = "Mostre a probabilidade de lesão no painel direito."
 koKR = "오른쪽 패널에 부상 확률 표시"
+csCZ = "Zobrazit pravděpodobnost zranění v pravém panelu"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHint"]
 raw = "Show indicator on the building avatar"
@@ -336,6 +359,7 @@ deDE = "Zeigen Sie das Zeichen auf dem Gebäude-Avatar an."
 plPL = "Pokaż wskaźnik na awatarze budynku."
 ptBR = "Mostrar indicador no avatar do edifício"
 koKR = "건물 아바타에 표시기 표시"
+csCZ = "Zobrazit indikátor na avataru budovy"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAvatarHintTooltip"]
 raw = "Hover over the indicator to see the injury probability"
@@ -350,6 +374,7 @@ deDE = "Fahren Sie mit der Maus über den Indikator, um die Verletzungswahrschei
 plPL = "Najedź kursorem na wskaźnik, aby zobaczyć prawdopodobieństwo kontuzji."
 ptBR = "Passe o mouse sobre o indicador para ver a probabilidade de lesão."
 koKR = "표시기를 마우스 오버하면 부상 확률을 확인할 수 있습니다."
+csCZ = "Přejděte nad ukazatelem a zobrazí se pravděpodobnost zranění"
 
 ["IgorZ.TimberCommons.Settings.InjuryProbability.ShowAsDailyProbability"]
 raw = "Show daily probabilities"
@@ -364,6 +389,7 @@ deDE = "Tägliche Wahrscheinlichkeiten anzeigen"
 plPL = "Pokaż dzienne prawdopodobieństwa"
 ptBR = "Mostrar probabilidades diárias"
 koKR = "일일 확률 표시"
+csCZ = "Zobrazit denní pravděpodobnosti"
 
 ["="]
 status = "normal"
@@ -378,6 +404,7 @@ deDE = "="
 plPL = "="
 ptBR = "="
 koKR = "="
+csCZ = "=\"\""
 
 ["TimberDev_Utils.Settings.DebugSection"]
 status = "normal"
@@ -392,6 +419,7 @@ deDE = "Debuggen und Fehlersuche"
 plPL = "Debugowanie i rozwiązywanie problemów"
 ptBR = "Depuração e solução de problemas"
 koKR = "디버그 및 문제 해결"
+csCZ = "Debugování a řešení problémů"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLogging"]
 status = "normal"
@@ -406,6 +434,7 @@ deDE = "Ausführliches Protokollieren"
 plPL = "Rozszerzone logowanie"
 ptBR = "Registro detalhado"
 koKR = "상세 로깅"
+csCZ = "Podrobné protokolování"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLoggingTooltip"]
 status = "normal"
@@ -420,6 +449,7 @@ deDE = "Die Protokolle enthalten nützlichere Details, können jedoch die Spiell
 plPL = "Dzienniki będą zawierały więcej przydatnych szczegółów, ale może to wpłynąć na wydajność gry."
 ptBR = "Os logs terão mais detalhes úteis, mas isso pode impactar o desempenho do jogo."
 koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능에 영향을 줄 수 있습니다."
+csCZ = "Záznamy budou obsahovat více užitečných detailů, ale může to ovlivnit výkon hry."
 
 ["IgorZ.TimberCommons.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
@@ -434,6 +464,7 @@ deDE = "Fehlerbehebung und Problemlösung"
 plPL = "Debugowanie i rozwiązywanie problemów"
 ptBR = "Depuração e solução de problemas"
 koKR = "디버그 및 문제 해결"
+csCZ = "Debugování a odstraňování problémů"
 
 ["IgorZ.TimberCommons.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
@@ -448,6 +479,7 @@ deDE = "Ausführliches Protokollieren"
 plPL = "Szczegółowe logowanie"
 ptBR = "Registro detalhado"
 koKR = "상세 로깅"
+csCZ = "Podrobné protokolování"
 
 ["IgorZ.TimberCommons.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
@@ -462,3 +494,4 @@ deDE = "Protokolle enthalten nützlichere Details, können jedoch die Spielleist
 plPL = "Logi będą miały więcej przydatnych szczegółów, ale mogą wpłynąć na wydajność gry."
 ptBR = "Os logs terão detalhes mais úteis, mas podem impactar o desempenho do jogo."
 koKR = "로그에 더 유용한 세부정보가 포함되며, 게임 성능에 영향을 미칠 수 있습니다."
+csCZ = "Žurnály budou mít užitečnější detaily, ale může to ovlivnit výkon hry."

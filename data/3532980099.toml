@@ -14,6 +14,7 @@ deDE = "Benchmarking aktivieren"
 plPL = "Włącz benchmarking"
 ptBR = "Ativar benchmarking"
 koKR = "벤치마킹 활성화"
+csCZ = "Zapnout benchmarking"
 
 ["LV.BO.EnableBenchmarkDesc"]
 raw = "Show the Benchmark UI (in game: Esc -> Benchmark).\nCertain code are injected to the game and will cause the game to run slower.\nPlease restart the game after changing this setting."
@@ -28,6 +29,7 @@ deDE = "Zeige die Benchmark-Benutzeroberfläche (im Spiel: Esc -> Benchmark). \n
 plPL = "Wyświetl interfejs benchmarku (w grze: Esc -> Benchmark).\nNiektóre kody są wstrzykiwane do gry i mogą spowodować jej wolniejsze działanie.\nProszę zrestartować grę po zmianie tego ustawienia."
 ptBR = "Mostrar a interface de Benchmark (no jogo: Esc -> Benchmark).\nCerto código é injetado no jogo e fará com que o jogo funcione mais lentamente.\nPor favor, reinicie o jogo após alterar esta configuração."
 koKR = "벤치마크 UI를 표시합니다 (게임 내: Esc -> 벤치마크).  \n일부 코드가 게임에 주입되어 게임 속도가 느려질 수 있습니다.  \n이 설정을 변경한 후 게임을 다시 시작해 주세요."
+csCZ = "Zobrazit uživatelské rozhraní Benchmark (v hře: Esc -> Benchmark). Některé kódy jsou injektovány do hry a způsobí, že hra poběží pomaleji. Po změně tohoto nastavení restartujte hru."
 
 ["LV.BO.WellKnownTasks"]
 raw = "Well-known tasks"
@@ -42,6 +44,7 @@ deDE = "Bekannte Aufgaben"
 plPL = "Znane zadania"
 ptBR = "tarefas conhecidas"
 koKR = "잘 알려진 작업"
+csCZ = "Známé úkoly"
 
 ["LV.BO.OtherTasks"]
 raw = "Other tasks"
@@ -56,6 +59,7 @@ deDE = "Andere Aufgaben"
 plPL = "Pozostałe zadania"
 ptBR = "Outras tarefas"
 koKR = "기타 작업"
+csCZ = "„Ostatní úkoly“"
 
 ["LV.BO.WellKnown_BehaviorManager"]
 raw = "Control the actions of your characters. One of the top performance hogs.\nDelaying this would cause characters to not change their actions immediately.\nI would <b>not recommend</b> delaying this without testing as it may reduce your worker's productivity."
@@ -70,6 +74,7 @@ deDE = "Steuerung der Aktionen Ihrer Charaktere. Einer der größten Leistungssc
 plPL = "Nazwa klucza: LV.BO.WellKnown_BehaviorManager - Tłumaczenie: \"Kontroluj działania swoich postaci. Jedna z największych obciążeń dla wydajności. Opóźnienie tego spowoduje, że postacie nie zmienią swoich działań natychmiast. <b>Nie polecam</b> opóźniania tego bez testów, ponieważ może to zmniejszyć wydajność twoich pracowników.\""
 ptBR = "Controle as ações dos seus personagens. Um dos principais responsáveis pelo uso intenso de desempenho. \nAtrasar isso pode fazer com que os personagens não mudem suas ações imediatamente. \nEu <b>não recomendaria</b> atrasar isso sem testar, pois pode reduzir a produtividade dos seus trabalhadores."
 koKR = "키 이름: LV.BO.WellKnown_BehaviorManager - 번역할 새 텍스트: \"당신의 캐릭터 행동을 제어하세요. 성능 저하의 주요 원인 중 하나입니다.\n이것을 지연시키면 캐릭터가 즉시 행동을 변경하지 않을 수 있습니다.\n테스트 없이 이 기능을 지연시키는 것을 <b>권장하지 않습니다</b>. 그렇지 않으면 작업자의 생산성이 떨어질 수 있습니다.\""
+csCZ = "Řiďte akce svých postav. Jeden z hlavních žroutů výkonu.\nZpoždění této akce by způsobilo, že se postavy okamžitě nezmění ve svých činnostech.\n<b>Nedoporučuji</b> zpoždění této akce bez testování, protože by to mohlo snížit produktivitu vašich pracovníků."
 
 ["LV.BO.WellKnown_NavMeshObserver"]
 raw = "Control the pathfinding of your characters when they move.\nDelaying this may cause characters to not react to pathfinding changes immediately."
@@ -84,6 +89,7 @@ deDE = "Steuern Sie die Navigation Ihrer Charaktere, wenn sie sich bewegen. Eine
 plPL = "Kontroluj ścieżkę poruszania się swoich postaci podczas ich ruchu. Opóźnienie tego może spowodować, że postacie nie zareagują od razu na zmiany w ścieżkowaniu."
 ptBR = "Controle a navegação dos seus personagens quando eles se movem. Atrasar isso pode fazer com que os personagens não reajam a mudanças na navegação imediatamente."
 koKR = "캐릭터가 이동할 때 경로 탐색을 제어합니다. 이를 지연하면 캐릭터가 경로 탐색 변경에 즉시 반응하지 않을 수 있습니다."
+csCZ = "Ovládejte cestu vašich postav, když se pohybují. Zpoždění může způsobit, že postavy okamžitě nereagují na změny v navigaci."
 
 ["LV.BO.WellKnown_ConstructionSite"]
 raw = "Control the finishing of the construction of your buildings.\nDelaying this would cause buildings that are supposed to be finished to not finish immediately."
@@ -98,6 +104,7 @@ deDE = "Steuere den Abschluss der Konstruktion deiner Gebäude. Eine Verzögerun
 plPL = "Kontroluj zakończenie budowy swoich budynków. Opóźnienie tego spowoduje, że budynki, które mają zostać ukończone, nie zakończą się natychmiast."
 ptBR = "Controle a finalização da construção de seus edifícios. Atrasar isso faria com que edifícios que deveriam ser terminados não fossem finalizados imediatamente."
 koKR = "건물 건설 완료를 제어하세요.\n이를 지연하면 완공 예정인 건물이 즉시 완료되지 않습니다."
+csCZ = "Ovládejte dokončení výstavby vašich budov. Zpoždění by způsobilo, že budovy, které mají být dokončeny, se ihned nedokončí."
 
 ["LV.BO.WellKnown_BuilderJobReachabilityStatus"]
 raw = "Control the reachability of the Builder Job.\nDelaying this would cause the Builders status to not be able to reach the construction site immediately."
@@ -112,6 +119,7 @@ deDE = "Steuere die Erreichbarkeit des Baujobs. Eine Verzögerung würde dazu f�
 plPL = "Kontroluj dostępność pracy budowniczego. Opóźnienie tego spowoduje, że status budowniczych nie będzie mógł natychmiast dotrzeć na miejsce budowy."
 ptBR = "Controle a acessibilidade do Trabalho de Construtor. Adiar isso faria com que o status dos Construtores não conseguisse acessar o local de construção imediatamente."
 koKR = "건설 작업의 접근 가능성을 제어합니다. 이 작업을 지연하면 건축가의 상태가 즉시 건설 현장에 도달할 수 없게 됩니다."
+csCZ = "Ovládejte dostupnost stavebních prací. Zpoždění by způsobilo, že stavitelé nebudou moci okamžitě dosáhnout staveniště."
 
 ["LV.BO.WellKnown_ResourceCountingService"]
 raw = "Control the counting of resources in the game.\nDelaying this would cause the resource counters to not be updated as frequent."
@@ -126,6 +134,7 @@ deDE = "Steuere die Zählung der Ressourcen im Spiel. Eine Verzögerung würde d
 plPL = "Kontroluj liczenie zasobów w grze. Opóźnienie tego spowoduje, że liczniki zasobów nie będą aktualizowane tak często."
 ptBR = "Controle a contagem de recursos no jogo. Atrasar isso faria com que os contadores de recursos não fossem atualizados com tanta frequência."
 koKR = "게임 내 자원 수집을 제어합니다.\n이 설정을 지연하면 자원 카운터가 업데이트되지 않게 됩니다."
+csCZ = "Ovládejte počítání zdrojů ve hře. Zpoždění by způsobilo, že budou počítadla zdrojů aktualizována méně často."
 
 ["LV.BO.Benchmark"]
 raw = "Benchmark"
@@ -140,6 +149,7 @@ deDE = "Benchmark"
 plPL = "Benchmark"
 ptBR = "Benchmark"
 koKR = "벤치마크"
+csCZ = "Výkonový test"
 
 ["LV.BO.BenchmarkRunning"]
 raw = "Benchmark is running ({0}s left).\nYou should not have paused the game until it finishes to avoid skewing the results.\nYou can stop it now and try again later."
@@ -154,6 +164,7 @@ deDE = "Benchmark läuft ({0}s verbleibend).  \nSie hätten das Spiel nicht paus
 plPL = "Benchmark jest w trakcie wykonywania ({0} s pozostało).  \nNie powinieneś był wstrzymywać gry, dopóki nie zakończy się, aby uniknąć zniekształcenia wyników.  \nMożesz go teraz zatrzymać i spróbować ponownie później."
 ptBR = "O benchmark está em execução ({0}s restantes).\nVocê não deveria ter pausado o jogo até que ele terminasse para evitar distorcer os resultados.\nVocê pode parar agora e tentar novamente mais tarde."
 koKR = "벤치마크가 실행 중입니다 ({0}초 남음).\n결과 왜곡을 피하기 위해 끝날 때까지 게임을 일시 정지하지 않아야 했습니다.\n지금 중지하고 나중에 다시 시도할 수 있습니다."
+csCZ = "Benchmark běží ({0}s zbývá). \nHru jste neměli pauzovat, dokud se nedokončí, abyste se vyhnuli zkreslení výsledků. \nMůžete to nyní zastavit a zkusit to znovu později."
 
 ["LV.BO.BmTime"]
 raw = "Benchmark duration (real-life seconds)"
@@ -168,6 +179,7 @@ deDE = "Benchmark-Dauer (Echtzeit-Sekunden)"
 plPL = "Czas benchmarku (sekundy w rzeczywistym życiu)"
 ptBR = "Duração da referência (segundos da vida real)"
 koKR = "기준 시간 (실제 초)"
+csCZ = "Doba benchmarku (skutečné sekundy)"
 
 ["LV.BO.StartBm"]
 raw = "Start Benchmark"
@@ -182,6 +194,7 @@ deDE = "Benchmark starten"
 plPL = "Rozpocznij benchmark"
 ptBR = "Iniciar Benchmark"
 koKR = "벤치마크 시작"
+csCZ = "Začít benchmark"
 
 ["LV.BO.BmInfo"]
 raw = "Measure how long each components takes to run.\nChoose the duration to gather data for.\nAfter clicking 'Start Benchmark', <b>try not to pause the game</b> until it finishes to avoid skewing the results.\nYou can, however, change the game speed to any speed you want to know the performance at.\nIf the game is paused, it will be automatically resumed once you click this button.\nAfter the benchmark is finished, this dialog will automatically open again."
@@ -196,6 +209,7 @@ deDE = "Schlüsselname: LV.BO.BmInfo - Übersetzung: \"Messen Sie, wie lange jed
 plPL = "Mierz, jak długo każdy element potrzebuje na uruchomienie. Wybierz czas trwania, aby zebrać dane. Po kliknięciu 'Rozpocznij test wydajności', <b>staraj się nie wstrzymywać gry</b> aż do jej zakończenia, aby uniknąć zniekształcenia wyników. Możesz jednak zmienić prędkość gry na dowolną, aby sprawdzić wydajność. Jeśli gra jest wstrzymana, zostanie automatycznie wznowiona po kliknięciu tego przycisku. Po zakończeniu testu wydajności, ten dialog zostanie automatycznie otwarty ponownie."
 ptBR = "Meça quanto tempo cada componente leva para rodar.\nEscolha a duração para coletar dados.\nApós clicar em 'Iniciar Benchmark', <b>tente não pausar o jogo</b> até que termine para evitar distorcer os resultados.\nVocê pode, no entanto, mudar a velocidade do jogo para qualquer velocidade que desejar saber o desempenho.\nSe o jogo estiver pausado, ele será automaticamente retomado assim que você clicar neste botão.\nApós o término do benchmark, esta janela será automaticamente reaberta."
 koKR = "각 구성 요소가 작동하는 시간을 측정하십시오.\n데이터를 수집할 기간을 선택하십시오.\n'벤치마크 시작'을 클릭한 후, <b>결과를 왜곡하지 않기 위해 게임을 일시 중지하지 않도록 하십시오</b>.\n하지만 원하는 성능을 확인하기 위해 게임 속도를 변경할 수 있습니다.\n게임이 일시 중지된 경우, 이 버튼을 클릭하면 자동으로 다시 재개됩니다.\n벤치마크가 완료되면 이 대화 상자가 자동으로 다시 열립니다."
+csCZ = "Měřte, jak dlouho trvá spuštění každé komponenty. Vyberte dobu, po kterou chcete shromažďovat data. Po kliknutí na 'Spustit benchmark' <b>se snažte hru nepozastavovat</b>, dokud se neskončí, abyste se vyhnuli zkreslení výsledků. Můžete však měnit rychlost hry na jakoukoli rychlost, na které chcete znát výkon. Pokud je hra pozastavena, automaticky se znovu spustí, jakmile kliknete na toto tlačítko. Po dokončení benchmarku se toto okno automaticky znovu otevře."
 
 ["LV.BO.EndBm"]
 raw = "End Benchmark now"
@@ -210,6 +224,7 @@ deDE = "Benchmark jetzt beenden"
 plPL = "Zakończ benchmark teraz"
 ptBR = "Encerrar benchmarking agora"
 koKR = "벤치마크 종료 지금"
+csCZ = "Ukončit benchmark nyní"
 
 ["LV.BO.Import"]
 raw = "Import"
@@ -224,6 +239,7 @@ deDE = "Importieren"
 plPL = "Importuj"
 ptBR = "Importar"
 koKR = "수입"
+csCZ = "Importovat"
 
 ["LV.BO.Export"]
 raw = "Export"
@@ -238,3 +254,4 @@ deDE = "Exportieren"
 plPL = "Eksport"
 ptBR = "Exportar"
 koKR = "수출"
+csCZ = "Vývoz"
