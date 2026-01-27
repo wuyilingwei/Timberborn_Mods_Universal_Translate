@@ -2,7 +2,7 @@
 [languages]
 # Supported languages for translation
 # Format: language_code (e.g., "enUS", "zhCN", "zhTW", etc.)
-supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR"]
+supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "csCZ"]
 
 [languages.locale_names]
 enUS = "English (US)"
@@ -15,6 +15,7 @@ deDE = "German"
 plPL = "Polish"
 ptBR = "Brazilian Portuguese"
 koKR = "Korean"
+csCZ = "Czech"
 
 [build]
 protect_string_ids_file = "enUS.txt"

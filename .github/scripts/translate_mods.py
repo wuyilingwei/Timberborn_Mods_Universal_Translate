@@ -806,11 +806,6 @@ def main():
         help="Directory containing TOML files"
     )
     parser.add_argument(
-        "--lang-file",
-        default="info/languages.txt",
-        help="File containing target languages (deprecated, use config file instead)"
-    )
-    parser.add_argument(
         "--api-token",
         help="API token for LLM (overrides secrets.LLM_TOKEN)"
     )
@@ -896,7 +891,7 @@ def main():
             logger.error("API token not found. Please provide via --api-token, secrets.LLM_TOKEN, or LLM_TOKEN/OPENAI_API_KEY environment variable")
             sys.exit(1)
         
-        # Load target languages from config (with fallback to lang_file for backward compatibility)
+        # Load target languages from config
         logger.info("Loading target languages...")
         target_languages = load_target_languages(config)
         

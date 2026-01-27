@@ -236,7 +236,7 @@ jobs:
           # Copy info files (but not version.txt)
           cp info/thumbnail.png "$RELEASE_DIR"/
           cp info/manifest.json "$RELEASE_DIR"/
-          cp info/License.txt "$RELEASE_DIR"/
+          cp License.txt "$RELEASE_DIR"/
           
           # Copy workshop_data.json if it exists
           if [ -f "info/workshop_data.json" ]; then
@@ -331,17 +331,18 @@ jobs:
             fi
           fi
           
-          # Save changelog to info/changelog.md for other platforms
-          cp "$RELEASE_NOTES_FILE" "info/changelog.md"
+          # Save changelog to .github/log/changelog.md for other platforms
+          mkdir -p .github/log
+          cp "$RELEASE_NOTES_FILE" ".github/log/changelog.md"
           
-          echo "Changelog saved to: info/changelog.md"
+          echo "Changelog saved to: .github/log/changelog.md"
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add info/version.txt info/manifest.json info/changelog.md releases/
+          git add info/version.txt info/manifest.json .github/log/changelog.md releases/
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
