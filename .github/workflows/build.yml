@@ -243,6 +243,18 @@ jobs:
             cp info/workshop_data.json "$RELEASE_DIR"/
           fi
           
+          # Copy lang_describe files (preserved non-native support text description files)
+          if [ -d ".github/config/lang_describe" ] && [ "$(ls -A .github/config/lang_describe 2>/dev/null)" ]; then
+            echo "Copying lang_describe files to release package..."
+            # Create Localizations directory if it doesn't exist
+            mkdir -p "$RELEASE_DIR/Localizations"
+            # Copy all files from lang_describe directory, overwriting any existing files
+            cp -f .github/config/lang_describe/* "$RELEASE_DIR/Localizations/"
+            echo "lang_describe files copied successfully"
+          else
+            echo "No lang_describe files found to copy"
+          fi
+          
           # Create zip file with versioned name for GitHub release
           zip -r "${NEW_VERSION}.zip" "$RELEASE_DIR"
           
