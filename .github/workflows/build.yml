@@ -351,36 +351,14 @@ jobs:
 
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add .github/data/version.txt .github/data/manifest.json .github/log/changelog.md .github/data/newest_release.zip
-          
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update version to ${{ steps.version.outputs.new_version }} and add release package"
-            
-            # Push with retry logic
-            MAX_RETRIES=3
-            RETRY_COUNT=0
-            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-              if git push; then
-                echo "Successfully pushed changes"
-                break
-              else
-                RETRY_COUNT=$((RETRY_COUNT + 1))
-                if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
-                  echo "Push failed, retrying ($RETRY_COUNT/$MAX_RETRIES)..."
-                  sleep 2
-                else
-                  echo "Error: Failed to push changes after $MAX_RETRIES attempts"
-                  exit 1
-                fi
-              fi
-            done
-          fi
+        uses: iarekylew00t/verified-bot-commit@v2
+        with:
+          message: "Update version to ${{ steps.version.outputs.new_version }} and add release package"
+          files: |
+            .github/data/version.txt
+            .github/data/manifest.json
+            .github/log/changelog.md
+            .github/data/newest_release.zip
 
       - name: Create GitHub Release
         if: steps.check_changes.outputs.should_build == 'true'
