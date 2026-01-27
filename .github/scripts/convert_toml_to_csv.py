@@ -103,7 +103,7 @@ def get_protected_fields(config, logger=None):
     # Load protected fields from CSV file
     protect_file = build_config.get("protect_string_ids_file")
     if protect_file:
-        csv_path = f".github/config/{protect_file}"
+        csv_path = f".github/data/{protect_file}"
         csv_protected_fields = load_protected_fields_from_csv(csv_path, logger)
         protected_fields.update(csv_protected_fields)
     

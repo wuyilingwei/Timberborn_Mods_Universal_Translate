@@ -24,16 +24,16 @@ jobs:
       - name: Determine version
         id: version
         run: |
-          # Read version from repository's info/version.txt
-          if [ ! -f "info/version.txt" ]; then
-            echo "Error: info/version.txt not found in repository"
+          # Read version from repository's .github/data/version.txt
+          if [ ! -f ".github/data/version.txt" ]; then
+            echo "Error: .github/data/version.txt not found in repository"
             exit 1
           fi
           
-          VERSION_NUMBER=$(cat info/version.txt | tr -d '\n\r ')
+          VERSION_NUMBER=$(cat .github/data/version.txt | tr -d '\n\r ')
           
           if [ -z "$VERSION_NUMBER" ]; then
-            echo "Error: info/version.txt is empty"
+            echo "Error: .github/data/version.txt is empty"
             exit 1
           fi
           
@@ -51,16 +51,16 @@ jobs:
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
           
           # Get package from local repository with fixed name
-          if [ -f "releases/newest.zip" ]; then
-            echo "Found release package in repository: releases/newest.zip"
+          if [ -f ".github/data/newest_release.zip" ]; then
+            echo "Found release package in repository: .github/data/newest_release.zip"
             echo "Version to publish: $VERSION_NUMBER"
-            cp "releases/newest.zip" release.zip
+            cp ".github/data/newest_release.zip" release.zip
           else
-            echo "Error: Package not found in repository at releases/newest.zip"
+            echo "Error: Package not found in repository at .github/data/newest_release.zip"
             echo ""
             echo "The package should be available in the repository after the build workflow completes."
             echo "If you're running this manually, ensure the build workflow has run successfully"
-            echo "and committed the package to the releases/ directory."
+            echo "and committed the package to the .github/data/ directory."
             exit 1
           fi
           
@@ -130,7 +130,7 @@ jobs:
           CHANGENOTE="Automated Update to ${VERSION_NUMBER}"
           
           # Use GitHub raw URL for the package
-          ZIP_URL="https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/raw/refs/heads/main/releases/newest.zip"
+          ZIP_URL="https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/raw/refs/heads/main/.github/data/newest_release.zip"
           
           echo "Uploading to Steam Workshop via API..."
           echo "App ID: 1062090"

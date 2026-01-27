@@ -48,8 +48,8 @@ jobs:
         id: check_changes
         run: |
           # Check if version.txt exists and get the commit where it was last modified
-          if [ -f "info/version.txt" ]; then
-            LAST_BUILD_COMMIT=$(git log -1 --format=%H -- info/version.txt 2>/dev/null || echo "")
+          if [ -f ".github/data/version.txt" ]; then
+            LAST_BUILD_COMMIT=$(git log -1 --format=%H -- .github/data/version.txt 2>/dev/null || echo "")
             echo "Last build commit: $LAST_BUILD_COMMIT"
           else
             LAST_BUILD_COMMIT=""
@@ -90,8 +90,8 @@ jobs:
           DAY=${DAY#0}  # Remove leading zero for portability
           
           # Read current version from version.txt
-          if [ -f "info/version.txt" ]; then
-            CURRENT_VERSION=$(cat info/version.txt)
+          if [ -f ".github/data/version.txt" ]; then
+            CURRENT_VERSION=$(cat .github/data/version.txt)
             echo "Current version: $CURRENT_VERSION"
             
             # Extract year, month, dpatch from current version
@@ -134,7 +134,7 @@ jobs:
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
           
           # Update version.txt
-          echo "$NEW_VERSION" > info/version.txt
+          echo "$NEW_VERSION" > .github/data/version.txt
 
       - name: Set up Python
         if: steps.check_changes.outputs.should_build == 'true'
@@ -196,14 +196,14 @@ jobs:
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           
           # Update manifest.json with new version using jq for safer JSON manipulation
-          if [ -f "info/manifest.json" ]; then
+          if [ -f ".github/data/manifest.json" ]; then
             # Ensure manifest.json is valid JSON before updating
-            if jq -e . info/manifest.json > /dev/null 2>&1; then
+            if jq -e . .github/data/manifest.json > /dev/null 2>&1; then
               # Use jq to safely update the Version field without losing other content
               TMP_FILE=$(mktemp)
               if [ $? -eq 0 ]; then
-                if jq --arg ver "$NEW_VERSION" '.Version = $ver' info/manifest.json > "$TMP_FILE"; then
-                  mv "$TMP_FILE" info/manifest.json
+                if jq --arg ver "$NEW_VERSION" '.Version = $ver' .github/data/manifest.json > "$TMP_FILE"; then
+                  mv "$TMP_FILE" .github/data/manifest.json
                   echo "Updated manifest.json to version $NEW_VERSION"
                 else
                   echo "Error: jq failed to update manifest.json"
@@ -215,7 +215,7 @@ jobs:
                 exit 1
               fi
             else
-              echo "Warning: info/manifest.json is invalid or empty JSON; skipping version update to avoid data loss"
+              echo "Warning: .github/data/manifest.json is invalid or empty JSON; skipping version update to avoid data loss"
             fi
           fi
 
@@ -234,22 +234,22 @@ jobs:
           fi
           
           # Copy info files (but not version.txt)
-          cp info/thumbnail.png "$RELEASE_DIR"/
-          cp info/manifest.json "$RELEASE_DIR"/
+          cp .github/data/thumbnail.png "$RELEASE_DIR"/
+          cp .github/data/manifest.json "$RELEASE_DIR"/
           cp License.txt "$RELEASE_DIR"/
           
           # Copy workshop_data.json if it exists
-          if [ -f "info/workshop_data.json" ]; then
-            cp info/workshop_data.json "$RELEASE_DIR"/
+          if [ -f ".github/data/workshop_data.json" ]; then
+            cp .github/data/workshop_data.json "$RELEASE_DIR"/
           fi
           
           # Copy lang_describe files (preserved non-native support text description files)
-          if [ -d ".github/config/lang_describe" ] && [ "$(ls -A .github/config/lang_describe 2>/dev/null)" ]; then
+          if [ -d ".github/data/lang_describe" ] && [ "$(ls -A .github/data/lang_describe 2>/dev/null)" ]; then
             echo "Copying lang_describe files to release package..."
             # Create Localizations directory if it doesn't exist
             mkdir -p "$RELEASE_DIR/Localizations"
             # Copy all files from lang_describe directory, overwriting any existing files
-            cp -f .github/config/lang_describe/* "$RELEASE_DIR/Localizations/"
+            cp -f .github/data/lang_describe/* "$RELEASE_DIR/Localizations/"
             echo "lang_describe files copied successfully"
           else
             echo "No lang_describe files found to copy"
@@ -263,10 +263,10 @@ jobs:
           # Remove all old release files to keep only the newest
           rm -f releases/*.zip
           # Save with fixed name 'newest.zip'
-          cp "${NEW_VERSION}.zip" "releases/newest.zip"
+          cp "${NEW_VERSION}.zip" ".github/data/newest_release.zip"
           
           echo "Release package created: ${NEW_VERSION}.zip"
-          echo "Package saved to releases/newest.zip (fixed name)"
+          echo "Package saved to .github/data/newest_release.zip (fixed name)"
 
       - name: Prepare release notes
         if: steps.check_changes.outputs.should_build == 'true'
@@ -277,9 +277,9 @@ jobs:
           RELEASE_NOTES_FILE="release_notes.md"
           
           # Get last build commit for comparison
-          if [ -f "info/version.txt" ]; then
+          if [ -f ".github/data/version.txt" ]; then
             # Get the commit where version.txt was last modified (before current changes)
-            LAST_BUILD_COMMIT=$(git log --skip=1 -1 --format=%H -- info/version.txt 2>/dev/null || echo "")
+            LAST_BUILD_COMMIT=$(git log --skip=1 -1 --format=%H -- .github/data/version.txt 2>/dev/null || echo "")
             echo "Last build commit: $LAST_BUILD_COMMIT"
           else
             LAST_BUILD_COMMIT=""
@@ -354,7 +354,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add info/version.txt info/manifest.json .github/log/changelog.md releases/
+          git add .github/data/version.txt .github/data/manifest.json .github/log/changelog.md .github/data/newest_release.zip
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
