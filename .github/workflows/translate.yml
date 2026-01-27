@@ -75,6 +75,7 @@ jobs:
         uses: iarekylew00t/verified-bot-commit@v2
         with:
           message: "chore: Auto-translate mod entries [skip ci]"
+          max-retries: 3
           files: |
             data/**
             .github/log/**
