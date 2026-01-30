@@ -2,7 +2,7 @@
 
 ## Join us
 
-First you need a GitHub account, then fill in [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), and then I will give you editing permissions for the repository.
+First you need a GitHub account, then open a new issue named [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), then I will give you edit permissions for the repository.
 
 You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
 
@@ -41,5 +41,5 @@ We are not responsible for the accuracy of the translated text.
 
 The content that is not accepted for translation is:
 
- - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified.
+ - Built in ID: These keys be used internally in the game. Modifying it may cause unpredictable modifications to the raw game and violate our "universal" principle. Players who do not install the corresponding mod may be modified. Of course, you don't need to worry about this; the build script will automatically check all key-value pairs and remove any known built-in key-value pairs.
  - Any content that violates public order and morals will not be translated to avoid potential problems. This includes but is not limited to: racial discrimination, adult content, etc.
