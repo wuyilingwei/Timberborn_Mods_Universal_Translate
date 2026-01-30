@@ -71,6 +71,7 @@ Each translation entry uses a key in the format `["Category.Item.Field"]`:
   - `old`: The mod retains this key value in older versions.
   - `abandon`: Abandoned/unused
 - **new**: Updated text that triggers retranslation (removed after translation completes)
+- **copy**: Boolean flag (default: false) - If true, treats this as a symbolic field and copies the source text directly without translation
 - **prompt**: Entry-specific translation hints
 - **Language codes**: Translations for each supported language
 
@@ -122,6 +123,14 @@ prompt = "Keep translation concise"
 enUS = "A building with special features"
 zhCN = "具有特殊功能的建筑"
 # ... other languages
+
+["Building.CustomBuilding.Id"]
+raw = "CustomBuilding_001"
+status = "normal"
+copy = true  # Symbolic field - copy directly without translation
+enUS = "CustomBuilding_001"
+zhCN = "CustomBuilding_001"  # Same as source
+# ... other languages (all identical)
 ```
 
 ### Translation Workflow
@@ -136,7 +145,7 @@ zhCN = "具有特殊功能的建筑"
 
 The glossary system supports:
 
-- **Global glossary**: `glossary.toml` at repository root
+- **Global glossary**: `data/_glossary.toml` in data directory
 - **Mod-local glossary**: `[_meta.glossary]` in mod TOML file
 - **Priority**: Local glossary overrides global glossary
 - **Partial languages**: Only define languages you need
@@ -149,7 +158,7 @@ See [README.md](../README.md) for more details on glossary features.
 
 ## Global Glossary System
 
-The global glossary (`glossary.toml`) provides translations for commonly used game-specific terms that appear across multiple mods. This reduces translation workload and ensures consistency.
+The global glossary (`data/_glossary.toml`) provides translations for commonly used game-specific terms that appear across multiple mods. This reduces translation workload and ensures consistency.
 
 ### Key Features
 
@@ -211,7 +220,7 @@ translations = { zhCN = "现代术语", zhTW = "現代術語" }
 ### Priority System
 
 1. **Mod-local glossary** (`[_meta.glossary]`) takes highest priority
-2. **Global glossary** (`glossary.toml`) provides fallback translations
+2. **Global glossary** (`data/_glossary.toml`) provides fallback translations
 3. **Translation hints** show available alternatives when target language is missing
 
 ### Usage Examples

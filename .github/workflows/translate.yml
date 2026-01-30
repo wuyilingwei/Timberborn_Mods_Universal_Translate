@@ -49,6 +49,7 @@ jobs:
           python .github/scripts/translate_mods.py \
             --config .github/config/config.toml \
             --data-dir data \
+            --glossary data/_glossary.toml \
             --log-file "$LOG_FILE" || EXIT_CODE=$?
           
           # Check exit code

@@ -76,7 +76,7 @@ def load_glossary(glossary_path: str) -> Dict[str, Dict[str, str]]:
     Load glossary from TOML file
     
     Args:
-        glossary_path: Path to glossary.toml file
+        glossary_path: Path to _glossary.toml file
         
     Returns:
         Dictionary mapping terms to their translations in different languages
@@ -451,6 +451,9 @@ def translate_entry(
     """
     logger = logging.getLogger("translate_entry")
     
+    # Check if this entry should use copy mode (for symbolic fields)
+    copy_mode = entry.get("copy", False)
+    
     # Determine the text to translate
     has_new_field = "new" in entry
     raw_text = entry.get("raw", "")
@@ -465,6 +468,12 @@ def translate_entry(
     # Skip if translation exists and no update needed
     if not has_new_field and has_translation:
         return None
+    
+    # Handle copy mode: directly copy source text without translation
+    if copy_mode:
+        source_text = entry.get("new") if has_new_field else entry.get("raw", "")
+        logger.debug(f"Copy mode for {key}: copying '{source_text}' to {target_lang}")
+        return source_text
     
     # Determine source text: use "new" if available, otherwise use "raw"
     if has_new_field:
@@ -720,9 +729,10 @@ def process_all_files(
     
     start_time = time.time()
     
-    # Find all TOML files
-    toml_files = list(Path(data_dir).glob("*.toml"))
-    logger.info(f"Found {len(toml_files)} TOML files to process")
+    # Find all TOML files, excluding _glossary.toml
+    all_toml_files = list(Path(data_dir).glob("*.toml"))
+    toml_files = [f for f in all_toml_files if not f.name.startswith('_')]
+    logger.info(f"Found {len(toml_files)} TOML files to process (excluded {len(all_toml_files) - len(toml_files)} system files)")
     
     if not toml_files:
         logger.warning("No TOML files found")
@@ -830,8 +840,8 @@ def main():
     )
     parser.add_argument(
         "--glossary",
-        default="glossary.toml",
-        help="Path to glossary file (default: glossary.toml)"
+        default="data/_glossary.toml",
+        help="Path to glossary file (default: data/_glossary.toml)"
     )
     
     args = parser.parse_args()

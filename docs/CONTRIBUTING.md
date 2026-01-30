@@ -14,7 +14,7 @@ An automatic script will create the latest language CSV files based on `/data`, 
 Edit the appropriate TOML files in the `/data` directory. See [DATA_STRUCTURE.md](DATA_STRUCTURE.md) for detailed format documentation.
 
 ### Global Glossary
-The global glossary (`glossary.toml`) provides translations for common game terms used across multiple mods:
+The global glossary (`data/_glossary.toml`) provides translations for common game terms used across multiple mods:
 
 - **Add new terms**: Common words that appear in many mods (e.g., "tank", "pump", "building")
 - **Use lowercase**: Terms are case-insensitive, so define only lowercase versions
