@@ -61,10 +61,41 @@ jobs:
             echo "completed=true" >> $GITHUB_OUTPUT
           fi
       
+      - name: Upload translation log as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-log-${{ github.run_number }}
+          path: .github/log/translation.log
+          retention-days: 30
+      
+      - name: Generate Action Summary
+        if: always()
+        run: |
+          LOG_FILE=".github/log/translation.log"
+          if [ -f "$LOG_FILE" ]; then
+            echo "## 🔄 Translation Summary" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "📊 **Process Status:** $([ "${EXIT_CODE:-0}" -eq 0 ] && echo "✅ Success" || echo "❌ Failed")" >> $GITHUB_STEP_SUMMARY
+            echo "📅 **Run Time:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Show log tail (last 20 lines)
+            echo "### 📋 Recent Log Entries" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            tail -n 20 "$LOG_FILE" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "💾 Full log is available in the [Artifacts section](#artifacts) of this workflow run." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ⚠️ Translation Log Not Found" >> $GITHUB_STEP_SUMMARY
+            echo "The translation log file was not generated." >> $GITHUB_STEP_SUMMARY
+          fi
+      
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet data/ .github/log/; then
+          if git diff --quiet data/; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -75,7 +106,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ .github/log/
+          git add data/
           git commit -m "chore: Auto-translate mod entries [skip ci]"
           
           # Push with retry logic and conflict handling
