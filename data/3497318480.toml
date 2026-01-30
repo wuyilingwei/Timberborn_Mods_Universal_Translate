@@ -242,8 +242,8 @@ koKR = "당신은 그룹 {0}에서 식물이나 농작물을 선택했지만, �
 csCZ = "Vybrali jste rostlinu nebo plodinu ve skupině {0}, ale nevybrali jste žádnou budovu pro její pěstování. Prosím, ujistěte se, že vybíráte takovou budovu (obvykle ve skupině Jídlo nebo Dřevo), jinak hra spadne."
 
 ["LV.CFac.ExportToMod"]
-status = "normal"
 raw = "Export to mod"
+status = "normal"
 enUS = "Export to mod"
 zhCN = "导出到模组"
 zhTW = "匯出到模組"
@@ -257,8 +257,8 @@ koKR = "모드로 내보내기"
 csCZ = "Exportovat do módu"
 
 ["LV.CFac.ExportToModDesc"]
-status = "normal"
 raw = "Click the above button to export the current configuration into a standalone mod.\nThat mod would then work by itself without this mod.\nIn fact, you must disable either this mod or the exported mod to avoid conflicts."
+status = "normal"
 enUS = "Click the above button to export the current configuration into a standalone mod. That mod would then work by itself without this mod. In fact, you must disable either this mod or the exported mod to avoid conflicts."
 zhCN = "点击上面的按钮将当前配置导出为独立的模组。\n该模组可以独立工作，而无需这个模组。\n实际上，您必须禁用此模组或导出的模组之一，以避免冲突。"
 zhTW = "點擊上面的按鈕將當前配置導出為獨立的模組。該模組將單獨運作，而不需要這個模組。實際上，您必須禁用這個模組或導出的模組，以避免發生衝突。"
@@ -272,8 +272,8 @@ koKR = "위 버튼을 클릭하여 현재 구성을 독립형 모드로 내보�
 csCZ = "Klikněte na tlačítko výše pro export aktuální konfigurace do samostatného módu. \nTento mód by poté fungoval sám o sobě bez tohoto módu. \nVe skutečnosti musíte buď zakázat tento mód, nebo exportovaný mód, abyste se vyhnuli konfliktům."
 
 ["LV.CFac.ConflictWarning"]
-status = "normal"
 raw = "<b>WARNING:</b> You have both this mod and an exported mod active.\nPlease use only one because you will have conflicting data no matter which purpose/mod you need"
+status = "normal"
 enUS = "<b>WARNING:</b> You have both this mod and an exported mod active. Please use only one because you will have conflicting data no matter which purpose/mod you need."
 zhCN = "<b>警告：</b> 您同时启用了该模组和一个导出的模组。请只使用一个，因为无论您需要哪个模组，都会存在数据冲突。"
 zhTW = "<b>警告：</b> 您同時啟用了此模組和一個已匯出的模組。請只使用其中一個，因為無論您需要哪個目的/模組，都會有衝突的數據。"
@@ -287,8 +287,8 @@ koKR = "<b>경고:</b> 이 모드와 내보낸 모드가 모두 활성화되어 
 csCZ = "<b>UPOZORNĚNÍ:</b> Máte aktivní jak tento mod, tak exportovaný mod. Používejte prosím pouze jeden, protože budete mít konfliktní data, ať už potřebujete jakýkoli účel/mod."
 
 ["LV.CFac.ModExported"]
-status = "normal"
 raw = "The mod has been exported.\nPlease <b>disable this mod</b> and use the exported '{0}' mod.\nIf you want to reconfigure this mod, remember to disable that mod."
+status = "normal"
 enUS = "The mod has been exported. Please <b>disable this mod</b> and use the exported '{0}' mod. If you want to reconfigure this mod, remember to disable that mod."
 zhCN = "该模组已被导出。请<b>禁用此模组</b>并使用导出的'{0}'模组。如果您想重新配置此模组，请记得禁用该模组。"
 zhTW = "模組已被導出。\n請<b>禁用此模組</b>並使用導出的 '{0}' 模組。\n如果您想重新配置此模組，請記得禁用該模組。"
@@ -302,8 +302,8 @@ koKR = "모드가 내보내졌습니다.  \n<b>이 모드를 비활성화</b>하
 csCZ = "Mod byl exportován.  \nProsím <b>deaktivujte tento mod</b> a použijte exportovaný '{0}' mod.  \nPokud chcete tento mod znovu nakonfigurovat, nezapomeňte deaktivovat ten mod."
 
 ["LV.CFac.Update730"]
-status = "normal"
 raw = "This mod now support exporting into a standalone mod if you have the optional mod <b>TimberMod Builder</b>.\nThe intention is to support mods like TimberApi. Please read the updated mod description for more info.\nIf you do not care about that, you can ignore this message, there is no change to the current functionality."
+status = "normal"
 enUS = "This mod now supports exporting into a standalone mod if you have the optional mod <b>TimberMod Builder</b>. The intention is to support mods like TimberApi. Please read the updated mod description for more info. If you do not care about that, you can ignore this message; there is no change to the current functionality."
 zhCN = "此模组现在支持导出为独立模组，如果您安装了可选模组 <b>TimberMod Builder</b>。\n此举的目的是支持像 TimberApi 这样的模组。请查看更新后的模组描述以获取更多信息。\n如果您对此不感兴趣，可以忽略此消息，目前的功能没有变化。"
 zhTW = "此模組現在支持導出為獨立模組，前提是您安裝了可選模組 <b>TimberMod Builder</b>。  \n這樣做的目的是為了支持像 TimberApi 這樣的模組。請閱讀更新後的模組描述以獲取更多資訊。  \n如果您對此不在意，可以忽略此消息，當前功能不會有所改變。"

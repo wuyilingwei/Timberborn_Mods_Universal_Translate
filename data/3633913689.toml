@@ -62,8 +62,8 @@ koKR = "사용자 제어 조건이 충족되지 않음"
 csCZ = "Podmínka ovládání uživatele není splněna"
 
 ["UI.TW.SimpleWorkshopControl.BlockedPlanting"]
-status = "normal"
 raw = "Auto Planting condition unmet"
+status = "normal"
 enUS = "Auto Planting condition unmet"
 zhCN = "自动种植条件不满足"
 zhTW = "自動植樹條件未滿足"
@@ -76,9 +76,13 @@ ptBR = "Condição de plantio automático não atendida"
 koKR = "자동 식재 조건 불충족"
 csCZ = "Překročení podmínky automatického sázení"
 
-["UI.TW.SimpleWorkshopControl.BlockedHarvest"]
+["UI.TW.SimpleWorkshopControl.BlockedPopulation"]
+new = "Population condition unmet"
 status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedHarvest"]
 raw = "Nothing suitable to harvest"
+status = "normal"
 enUS = "Nothing suitable to harvest"
 zhCN = "“没有合适的可收获物”"
 zhTW = "「沒有適合的可收穫物」"
@@ -90,6 +94,22 @@ plPL = "Nie ma nic odpowiedniego do zbioru"
 ptBR = "Nada adequado para colher"
 koKR = "수확할 적합한 것이 없습니다"
 csCZ = "Není co sklízet"
+
+["UI.TW.SimpleWorkshopControl.BlockedWeather"]
+new = "Weather condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedScience"]
+new = "Science condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedWaterLevel"]
+new = "Water level condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedContamination"]
+new = "Water contamination condition unmet"
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.SciencePoints"]
 raw = "Science Points"
@@ -137,8 +157,8 @@ koKR = "비버 인구"
 csCZ = "Populace bobrů"
 
 ["UI.TW.SimpleWorkshopControl.BeaverGlobalPopulation"]
-status = "normal"
 raw = "Beaver Pop, Global"
+status = "normal"
 enUS = "Beaver Population, Global"
 zhCN = "河狸种群，全球"
 zhTW = "「海狸人口，全球」"
@@ -152,8 +172,8 @@ koKR = "비버 인구, 전 세계"
 csCZ = "Populace bobrů, celosvětová"
 
 ["UI.TW.SimpleWorkshopControl.BeaverDistrictPopulation"]
-status = "normal"
 raw = "Beaver Pop, District"
+status = "normal"
 enUS = "Beaver Population, District"
 zhCN = "海狸人口，区域"
 zhTW = "海狸人口，區域"
@@ -167,8 +187,8 @@ koKR = "비버 인구, 지구"
 csCZ = "Populace bobrů, okres"
 
 ["UI.TW.SimpleWorkshopControl.BotGlobalPopulation"]
-status = "normal"
 raw = "Bot Pop, Global"
+status = "normal"
 enUS = "Bot Pop, Global"
 zhCN = "机器人数量，全球"
 zhTW = "機器人總人口"
@@ -182,8 +202,8 @@ koKR = "봇 인구, 글로벌"
 csCZ = "Populace botů, globálně"
 
 ["UI.TW.SimpleWorkshopControl.BotDistrictPopulation"]
-status = "normal"
 raw = "Bot Pop, District"
+status = "normal"
 enUS = "Bot Pop, District"
 zhCN = "机器人人口，区域"
 zhTW = "機器人數量，區域"
@@ -272,8 +292,8 @@ koKR = "사용자 제어:"
 csCZ = "Uživatelská kontrola:"
 
 ["UI.TW.SimpleWorkshopControl.AutoPlanting"]
-status = "normal"
 raw = "Auto Planting"
+status = "normal"
 enUS = "Auto Planting"
 zhCN = "自动种植"
 zhTW = "自動種植"
@@ -287,8 +307,8 @@ koKR = "자동 식재"
 csCZ = "Automatické sázení"
 
 ["UI.TW.SimpleWorkshopControl.UseHarvestCheck"]
-status = "normal"
 raw = "Check harvestable"
+status = "normal"
 enUS = "Check harvestable"
 zhCN = "检查可收获"
 zhTW = "檢查可收穫"
@@ -347,8 +367,8 @@ koKR = "값"
 csCZ = "Hodnota"
 
 ["UI.TW.SimpleWorkshopControl.Invert"]
-status = "normal"
 raw = "Invert"
+status = "normal"
 enUS = "Invert"
 zhCN = "反转"
 zhTW = "反轉"
@@ -392,8 +412,8 @@ koKR = "중지"
 csCZ = "Zastavit"
 
 ["UI.TW.SimpleWorkshopControl.CurrentStock"]
-status = "normal"
 raw = "Stock"
+status = "normal"
 enUS = "Stock"
 zhCN = "库存"
 zhTW = "庫存"
@@ -407,8 +427,8 @@ koKR = "재고"
 csCZ = "Zásoby"
 
 ["UI.TW.SimpleWorkshopControl.Capacity"]
-status = "normal"
 raw = "Capacity"
+status = "normal"
 enUS = "Capacity"
 zhCN = "容量"
 zhTW = "容量"
@@ -422,8 +442,8 @@ koKR = "용량"
 csCZ = "Kapacita"
 
 ["UI.TW.SimpleWorkshopControl.InfoHeader"]
-status = "normal"
 raw = "Workshop Control Info"
+status = "normal"
 enUS = "Workshop Control Info"
 zhCN = "车间控制信息"
 zhTW = "工坊控制資訊"
@@ -437,8 +457,8 @@ koKR = "작업실 제어 정보"
 csCZ = "Informace o řízení dílny"
 
 ["UI.TW.SimpleWorkshopControl.AtOrBelow"]
-status = "normal"
 raw = "at or below"
+status = "normal"
 enUS = "at or below"
 zhCN = "小于或等于"
 zhTW = "「等於或低於」"
@@ -452,8 +472,8 @@ koKR = "다르거나 이하"
 csCZ = "na nebo pod"
 
 ["UI.TW.SimpleWorkshopControl.AtOrAbove"]
-status = "normal"
 raw = "at or above"
+status = "normal"
 enUS = "at or above"
 zhCN = "“等于或高于”"
 zhTW = "等於或高於"
@@ -467,8 +487,8 @@ koKR = "이상"
 csCZ = "na nebo nad"
 
 ["UI.TW.SimpleWorkshopControl.Below"]
-status = "normal"
 raw = "below"
+status = "normal"
 enUS = "below"
 zhCN = "以下"
 zhTW = "以下"
@@ -482,8 +502,8 @@ koKR = "아래"
 csCZ = "níže"
 
 ["UI.TW.SimpleWorkshopControl.Above"]
-status = "normal"
 raw = "above"
+status = "normal"
 enUS = "above"
 zhCN = "上方"
 zhTW = "上方"
@@ -497,8 +517,9 @@ koKR = "위에"
 csCZ = "nad"
 
 ["UI.TW.SimpleWorkshopControl.ZeroCapacityProductWarning"]
-status = "normal"
 raw = "! Zero capacity product; building will run until private storage is full."
+new = "! Zero capacity product; control will use percent of building output inventory rather than percent of external storage for those products."
+status = "normal"
 enUS = "! Zero capacity product; the building will operate until private storage is full."
 zhCN = "!零容量产品；建筑将持续运行直到私人仓库满为止。"
 zhTW = "! 零容量產品；建築將運行直到私人儲存滿為止。"
@@ -512,8 +533,8 @@ koKR = "! 용량이 0인 제품; 건물은 개인 창고가 가득 찰 때까지
 csCZ = "! Produkty s nulovou kapacitou; budova bude fungovat, dokud nebude soukromý sklad plný."
 
 ["UI.TW.SimpleWorkshopControl.ZeroCapacityIngredientWarning"]
-status = "normal"
 raw = "! Zero capacity ingredient; control will compare available goods to recipe needs rather than to percent of capacity (applies to all ingredients)."
+status = "normal"
 enUS = "! Zero capacity ingredient; control will compare available goods to recipe needs rather than to percent of capacity (applies to all ingredients)."
 zhCN = "“！零容量原料；控制将根据可用商品与配方需求进行比较，而不是与容量百分比进行比较（适用于所有原料）。”"
 zhTW = "! 零容量材料；控制將比較可用物品與配方需求，而不是與容量百分比相比（適用於所有材料）。"
@@ -527,8 +548,8 @@ koKR = "! 용량이 0인 재료; 제어는 용량 비율이 아닌 레시피 요
 csCZ = "! Ingredience s nulovou kapacitou; ovládání porovná dostupné zboží s potřebami receptu, nikoli s procentem kapacity (platí pro všechny ingredience)."
 
 ["UI.TW.SimpleWorkshopControl.GlobalInventoryFallback"]
-status = "normal"
 raw = "No district available. Using global inventory."
+status = "normal"
 enUS = "No district available. Using global inventory."
 zhCN = "“没有可用的区块。正在使用全球库存。”"
 zhTW = "“沒有可用的區域。使用全球庫存。”"
@@ -572,8 +593,8 @@ koKR = "차단된 건물 위에 상태 아이콘이 나타납니다."
 csCZ = "Nad zablokovanými budovami se objeví ikona stavu"
 
 ["ModSetting.TWSimpleWorkshopControl.Spacer"]
-status = "normal"
 raw = " "
+status = "normal"
 enUS = " "
 zhCN = " "
 zhTW = " "
@@ -826,8 +847,8 @@ koKR = "엔티티 패널에서 제어 조각이 사용할 수 있는 공간의 �
 csCZ = "Ovládá, kolik místa může ovládací fragment využít v panelu entity"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefault"]
-status = "normal"
 raw = "Auto planting default"
+status = "normal"
 enUS = "Auto planting default"
 zhCN = "自动种植默认设置"
 zhTW = "自動種植預設"
@@ -841,8 +862,8 @@ koKR = "자동 심기 기본값"
 csCZ = "Výchozí automatické zasazení"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefaultDesc"]
-status = "normal"
 raw = "Newly constructed buildings will start with Auto Planting enabled"
+status = "normal"
 enUS = "Newly constructed buildings will start with Auto Planting enabled."
 zhCN = "新建的建筑将默认启用自动种植。"
 zhTW = "新建的建築將預設啟用自動種植"
@@ -856,8 +877,8 @@ koKR = "새로 건설된 건물은 자동 식물 심기가 활성화된 상태�
 csCZ = "Nově postavené budovy budou mít zapnuté automatické sázení."
 
 ["UI.TW.SimpleWorkshopControl.AutoPlantingCooldown"]
-status = "normal"
 raw = "Cooldown:"
+status = "normal"
 enUS = "Cooldown:"
 zhCN = "冷却时间："
 zhTW = "冷卻時間："
@@ -871,8 +892,8 @@ koKR = "쿨다운:"
 csCZ = "Čas na obnovení:"
 
 ["UI.TW.SimpleWorkshopControl.HarvestCheckCooldown"]
-status = "normal"
 raw = "Cooldown:"
+status = "normal"
 enUS = "Cooldown:"
 zhCN = "冷却时间："
 zhTW = "冷卻時間："
@@ -886,8 +907,8 @@ koKR = "쿨타임:"
 csCZ = "Časovač:"
 
 ["UI.TW.SimpleWorkshopControl.UseGlobalInventory"]
-status = "normal"
 raw = "Global Inventory"
+status = "normal"
 enUS = "Global Inventory"
 zhCN = "全球库存"
 zhTW = "全球庫存"
@@ -901,8 +922,8 @@ koKR = "글로벌 인벤토리"
 csCZ = "Globální inventář"
 
 ["ModSetting.TWSimpleWorkshopControl.GlobalInventory"]
-status = "normal"
 raw = "Use global inventory"
+status = "normal"
 enUS = "Use global inventory"
 zhCN = "使用全局库存"
 zhTW = "使用全球庫存"
@@ -916,8 +937,8 @@ koKR = "전역 인벤토리 사용"
 csCZ = "Použít globální inventář"
 
 ["ModSetting.TWSimpleWorkshopControl.GlobalInventoryDesc"]
-status = "normal"
 raw = "Use global inventory rather than district inventory."
+status = "normal"
 enUS = "Use global inventory rather than district inventory."
 zhCN = "使用全球库存而不是地区库存。"
 zhTW = "使用全球庫存而非區域庫存。"
@@ -931,8 +952,8 @@ koKR = "구역 인벤토리 대신 글로벌 인벤토리를 사용하세요."
 csCZ = "Použijte globální inventář místo inventáře čtvrti."
 
 ["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventory"]
-status = "normal"
 raw = "Per-building global inventory"
+status = "normal"
 enUS = "Per-building global inventory"
 zhCN = "每栋建筑的全球库存"
 zhTW = "每棟建築的全球庫存"
@@ -946,8 +967,8 @@ koKR = "건물별 글로벌 인벤토리"
 csCZ = "Globální inventář na úrovni budovy"
 
 ["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventoryDesc"]
-status = "normal"
 raw = "Select global or district inventory on each building. The 'use global inventory' setting above this one will be used as the default for new buildings."
+status = "normal"
 enUS = "Select global or district inventory for each building. The 'use global inventory' setting above this will be the default for new buildings."
 zhCN = "“在每个建筑上选择全球或地区库存。上述的‘使用全球库存’设置将作为新建筑的默认值。”"
 zhTW = "在每個建築上選擇全球或區域庫存。上述“使用全球庫存”設置將作為新建築的默認值。"
@@ -961,8 +982,8 @@ koKR = "각 건물에서 전 세계 또는 지역 인벤토리를 선택하십�
 csCZ = "Vyberte globální nebo okresní inventář pro každou budovu. Nastavení 'použít globální inventář' výše tohoto bude použito jako výchozí pro nové budovy."
 
 ["ModSetting.TWSimpleWorkshopControl.GoodsMax"]
-status = "normal"
 raw = "Goods slider max"
+status = "normal"
 enUS = "Goods slider max"
 zhCN = "“物品滑块最大值”"
 zhTW = "貨物滑桿最大值"
@@ -976,8 +997,8 @@ koKR = "물품 슬라이더 최대"
 csCZ = "Maximální posuvník zboží"
 
 ["ModSetting.TWSimpleWorkshopControl.GoodsMaxDesc"]
-status = "normal"
 raw = "The maximum value allowed for user-control sliders"
+status = "normal"
 enUS = "The maximum value allowed for user-controlled sliders"
 zhCN = "“用户控制滑块允许的最大值”"
 zhTW = "用戶控制滑桿允許的最大值"
@@ -991,8 +1012,8 @@ koKR = "사용자 제어 슬라이더에 허용되는 최대 값"
 csCZ = "Maximální hodnota povolená pro ovládací posuvníky uživatele"
 
 ["ModSetting.TWSimpleWorkshopControl.PopulationMax"]
-status = "normal"
 raw = "Population slider max"
+status = "normal"
 enUS = "Population slider max"
 zhCN = "人口滑块最大值"
 zhTW = "人口滑塊最大值"
@@ -1006,8 +1027,8 @@ koKR = "인구 슬라이더 최대"
 csCZ = "Maximální posuvník populace"
 
 ["ModSetting.TWSimpleWorkshopControl.PopulationMaxDesc"]
-status = "normal"
 raw = "The maximum value allowed for user-control sliders"
+status = "normal"
 enUS = "The maximum value allowed for user-controlled sliders."
 zhCN = "“用户控制滑块允许的最大值”"
 zhTW = "“用戶控制滑桿允許的最大值”"
@@ -1021,8 +1042,8 @@ koKR = "사용자 제어 슬라이더에 허용되는 최대 값"
 csCZ = "Maximální povolená hodnota pro posuvníky ovládané uživateli"
 
 ["ModSetting.TWSimpleWorkshopControl.ScienceMax"]
-status = "normal"
 raw = "Science slider max"
+status = "normal"
 enUS = "Science slider max"
 zhCN = "科学滑块最大值"
 zhTW = "科學滑桿最大值"
@@ -1036,8 +1057,8 @@ koKR = "과학 슬라이더 최대값"
 csCZ = "Maximální posuvník vědy"
 
 ["ModSetting.TWSimpleWorkshopControl.ScienceMaxDesc"]
-status = "normal"
 raw = "The maximum value allowed for user-control sliders"
+status = "normal"
 enUS = "The maximum value allowed for user-control sliders"
 zhCN = "“用户控制滑块允许的最大值”"
 zhTW = "“用戶控制滑桿允許的最大值”"
@@ -1051,8 +1072,8 @@ koKR = "사용자 제어 슬라이더에 허용되는 최대 값"
 csCZ = "Maximální povolená hodnota pro ovládací posuvníky uživatelů"
 
 ["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldown"]
-status = "normal"
 raw = "Check harvestable cooldown"
+status = "normal"
 enUS = "Check harvestable cooldown"
 zhCN = "检查可收获冷却时间"
 zhTW = "檢查可收穫冷卻時間"
@@ -1066,8 +1087,8 @@ koKR = "수확 대기 시간 확인"
 csCZ = "Zkontrolovat cooldown sběru"
 
 ["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldownDesc"]
-status = "normal"
 raw = "Default number of beaver-hours to keep the building active after there are no harvestable plants."
+status = "normal"
 enUS = "Default number of beaver-hours to keep the building active after there are no harvestable plants."
 zhCN = "“在没有可采收植物后，保持建筑物活跃的默认海狸工时数。”"
 zhTW = "「在沒有可收穫植物後，保持建築運作的默認海狸小時數。」"
@@ -1081,8 +1102,8 @@ koKR = "수확 가능한 식물이 없어진 후에도 건물을 활성화 상�
 csCZ = "Výchozí počet bobřích hodin k udržení budovy v provozu po vyčerpání sklízetelných rostlin."
 
 ["ModSetting.TWSimpleWorkshopControl.harvestCheckDefault"]
-status = "normal"
 raw = "Check harvestable default"
+status = "normal"
 enUS = "Check harvestable default"
 zhCN = "检查可收获默认值"
 zhTW = "「檢查可收穫的預設」"
@@ -1096,8 +1117,8 @@ koKR = "수확 가능한 기본값 확인"
 csCZ = "Zkontrolovat výchozí sklizeň"
 
 ["ModSetting.TWSimpleWorkshopControl.HarvestCheckDefaultDesc"]
-status = "normal"
 raw = "Newly constructed buildings will start with Check Harvestable enabled"
+status = "normal"
 enUS = "Newly constructed buildings will start with Check Harvestable enabled."
 zhCN = "新建的建筑将默认启用检查可收获"
 zhTW = "新建的建築將預設啟用檢查可收穫"
@@ -1111,8 +1132,8 @@ koKR = "새로 건설된 건물은 수확 가능 체크가 활성화된 상태�
 csCZ = "Nově postavené budovy budou mít aktivovaný kontrolní sběr."
 
 ["UI.TW.SimpleWorkshopControl.TT.HarvestCheckToggle"]
-status = "normal"
 raw = "Turn off when nothing to harvest"
+status = "normal"
 enUS = "Turn off when there's nothing to harvest"
 zhCN = "“没有可收获时关闭”"
 zhTW = "無可收穫時關閉"
@@ -1126,8 +1147,8 @@ koKR = "수확할 것이 없을 때 끄기"
 csCZ = "Vypnout, když není co sklízet"
 
 ["UI.TW.SimpleWorkshopControl.TT.HarvestCooldown"]
-status = "normal"
 raw = "Remain active this long after harvest is done (in beaver-hours)"
+status = "normal"
 enUS = "Remain active this long after harvest is done (in beaver-hours)"
 zhCN = "收割完成后保持活跃的时间（以海狸小时计算）"
 zhTW = "在收穫結束後保持活躍的時間（以海狸小時計算）"
@@ -1141,8 +1162,8 @@ koKR = "수확이 완료된 후 이 시간만큼 활성 상태 유지 (비버 �
 csCZ = "Zůstat aktivní tak dlouho po dokončení sklizně (v bobřích hodinách)"
 
 ["UI.TW.SimpleWorkshopControl.TT.IncreaseUI"]
-status = "normal"
 raw = "Increase UI height"
+status = "normal"
 enUS = "Increase UI height"
 zhCN = "增加UI高度"
 zhTW = "增加UI高度"
@@ -1156,8 +1177,8 @@ koKR = "UI 높이 늘리기"
 csCZ = "Zvýšit výšku UI"
 
 ["UI.TW.SimpleWorkshopControl.TT.DecreaseUI"]
-status = "normal"
 raw = "Decrease UI height"
+status = "normal"
 enUS = "Decrease UI height"
 zhCN = "降低UI高度"
 zhTW = "減少UI高度"
@@ -1171,8 +1192,8 @@ koKR = "UI 높이 줄이기"
 csCZ = "Snížit výšku UI"
 
 ["UI.TW.SimpleWorkshopControl.TT.HideUI"]
-status = "normal"
 raw = "Hide workshop behavior controls"
+status = "normal"
 enUS = "Hide workshop behavior controls"
 zhCN = "隐藏工作坊行为控制"
 zhTW = "隱藏工作坊行為控制"
@@ -1186,8 +1207,9 @@ koKR = "작업장 행동 제어 숨기기"
 csCZ = "Skryj ovládání chování dílny"
 
 ["UI.TW.SimpleWorkshopControl.TT.ShowBehaviorInfo"]
-status = "normal"
 raw = "Show behavior debug info"
+new = "Show current behavior info"
+status = "normal"
 enUS = "Show behavior debug info"
 zhCN = "显示行为调试信息"
 zhTW = "顯示行為除錯資訊"
@@ -1201,8 +1223,8 @@ koKR = "행동 디버그 정보 표시"
 csCZ = "Zobrazit ladicí informace o chování"
 
 ["UI.TW.SimpleWorkshopControl.TT.UseGlobalInventory"]
-status = "normal"
 raw = "Compare global or district inventory"
+status = "normal"
 enUS = "Compare global or district inventory"
 zhCN = "比较全局或地区库存"
 zhTW = "比較全球或區域庫存"
@@ -1216,8 +1238,8 @@ koKR = "전국 또는 구역 재고 비교"
 csCZ = "Srovnat globální nebo okrskový inventář"
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoPlantingToggle"]
-status = "normal"
 raw = "Turn building on and off when there is planting to do"
+status = "normal"
 enUS = "Toggle the building on and off when there is planting to be done"
 zhCN = "有待种植时开启或关闭建筑"
 zhTW = "當有種植任務時開啟或關閉建築"
@@ -1231,8 +1253,8 @@ koKR = "심를 작업이 있을 때 건물을 켜고 끕니다"
 csCZ = "Zapněte a vypněte budovu, když je třeba sázet"
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoPlantingCooldown"]
-status = "normal"
 raw = "Remain active this long after planting is done (in beaver-hours)"
+status = "normal"
 enUS = "Remain active this long after planting is done (in beaver-hours)"
 zhCN = "种植完成后保持活动的时间（单位：海狸小时）"
 zhTW = "種植完成後持續活動的時間（以海狸小時計算）"
@@ -1246,8 +1268,8 @@ koKR = "나무 심기가 완료된 후 이만큼(비버 시간 기준) 활성 �
 csCZ = "Zůstaňte aktivní tak dlouho po dokončení výsadby (v bobřích hodinách)"
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsToggle"]
-status = "normal"
 raw = "Turn building off when ingredients are low"
+status = "normal"
 enUS = "Turn building off when ingredients are low"
 zhCN = "当材料不足时关闭建筑"
 zhTW = "當材料不足時關閉建築"
@@ -1261,8 +1283,8 @@ koKR = "재료가 부족할 때 건물을 꺼짐 상태로 전환"
 csCZ = "Vypnout budovu, když je nedostatek surovin"
 
 ["UI.TW.SimpleWorkshopControl.TT.ShowSettings"]
-status = "normal"
 raw = "Show settings"
+status = "normal"
 enUS = "Show settings"
 zhCN = "显示设置"
 zhTW = "顯示設定"
@@ -1276,8 +1298,8 @@ koKR = "설정 보기"
 csCZ = "Zobrazit nastavení"
 
 ["UI.TW.SimpleWorkshopControl.TT.HideSettings"]
-status = "normal"
 raw = "Hide settings"
+status = "normal"
 enUS = "Hide settings"
 zhCN = "隐藏设置"
 zhTW = "隱藏設置"
@@ -1291,8 +1313,8 @@ koKR = "설정 숨기기"
 csCZ = "Skrýt nastavení"
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoProductsToggle"]
-status = "normal"
 raw = "Turn building off when products above Stop"
+status = "normal"
 enUS = "Turn off the building when products exceed the limit."
 zhCN = "当产品超过停止时关闭建筑"
 zhTW = "當產品超過停止時關閉建築"
@@ -1306,8 +1328,8 @@ koKR = "제품이 정지 이상일 때 건물을 끄기"
 csCZ = "Vypnout budovu, když jsou produkty nad Stop"
 
 ["UI.TW.SimpleWorkshopControl.TT.UserControlInputChannel"]
-status = "normal"
 raw = "Input channel to use for user-control behavior"
+status = "normal"
 enUS = "Input channel to use for user-control behavior"
 zhCN = "“用户控制行为所使用的输入通道”"
 zhTW = "用於用戶控制行為的輸入通道"
@@ -1321,8 +1343,8 @@ koKR = "사용자 제어 행동에 사용할 입력 채널"
 csCZ = "Vstupní kanál pro chování uživatelské kontroly"
 
 ["UI.TW.SimpleWorkshopControl.TT.UserControlInvert"]
-status = "normal"
 raw = "Swap the Start and Stop positions"
+status = "normal"
 enUS = "Swap the Start and Stop positions"
 zhCN = "交换开始和停止的位置"
 zhTW = "交換開始和停止位置"
@@ -1336,8 +1358,8 @@ koKR = "시작 및 정지 위치를 교환합니다"
 csCZ = "Prohodit pozice Start a Stop"
 
 ["UI.TW.SimpleWorkshopControl.TT.UserPercentDropdown"]
-status = "normal"
 raw = "Choose if Start and Stop are a percentage or an absolute number"
+status = "normal"
 enUS = "Choose whether Start and Stop are a percentage or an absolute number"
 zhCN = "选择开始和停止是百分比还是绝对数值"
 zhTW = "選擇「開始」和「停止」是以百分比還是絕對數字形式。"
@@ -1351,8 +1373,8 @@ koKR = "시작 및 중지가 백분율인지 절대 숫자인지 선택하세요
 csCZ = "Vyberte, zda je Start a Stop procento nebo absolutní číslo"
 
 ["UI.TW.UI.TT.Start"]
-status = "normal"
 raw = "Start"
+status = "normal"
 enUS = "Start"
 zhCN = "开始"
 zhTW = "開始"
@@ -1366,8 +1388,8 @@ koKR = "시작"
 csCZ = "Začít"
 
 ["UI.TW.UI.TT.Stop"]
-status = "normal"
 raw = "Stop"
+status = "normal"
 enUS = "Stop"
 zhCN = "停止"
 zhTW = "停止"
@@ -1381,8 +1403,8 @@ koKR = "중지"
 csCZ = "Zastavit"
 
 ["ModSetting.TWSimpleWorkshopControl.UseToolTips"]
-status = "normal"
 raw = "Show Tooltips"
+status = "normal"
 enUS = "Show Tooltips"
 zhCN = "显示工具提示"
 zhTW = "顯示工具提示"
@@ -1396,8 +1418,8 @@ koKR = "툴팁 표시"
 csCZ = "Zobrazit nápovědy"
 
 ["ModSetting.TWSimpleWorkshopControl.UseToolTipsDesc"]
-status = "normal"
 raw = "Show small help windows when hovering over controls (like this one! =^.^= )"
+status = "normal"
 enUS = "Show small help windows when hovering over controls (like this one! =^.^= )"
 zhCN = "当鼠标悬停在控件上时显示小帮助窗口（就像这个一样！=^.^=）"
 zhTW = "當滑鼠懸停在控制項上時顯示小幫助窗口（就像這個一樣！=^.^=）"
@@ -1411,8 +1433,8 @@ koKR = "컨트롤 위에 마우스를 올릴 때 작은 도움 창을 표시합�
 csCZ = "Zobrazit malé nápovědné okna při najetí myší na ovládací prvky (jako je toto! =^.^= )"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldown"]
-status = "normal"
 raw = "Farm planting cooldown"
+status = "normal"
 enUS = "Farm planting cooldown"
 zhCN = "农场种植冷却时间"
 zhTW = "農場種植冷卻時間"
@@ -1426,8 +1448,8 @@ koKR = "농장 식재 대기 시간"
 csCZ = "Časovač výsadby farmy"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldownDesc"]
-status = "normal"
 raw = "How many beaver-hours auto planting farms will remain active after the last planting job is finished."
+status = "normal"
 enUS = "How many beaver-hours auto planting farms will remain active after the last planting job is completed."
 zhCN = "“自动种植农场在最后一个种植工作完成后将持续多长时间的海狸工时。”"
 zhTW = "自動種植農場在最後一項種植工作完成後將保持活動的海狸小時數。"
@@ -1441,8 +1463,8 @@ koKR = "마지막 심기 작업이 완료된 후 자동 재배 농장이 활성 
 csCZ = "Kolik bobřích hodin zůstanou automatické farmy na sázení aktivní po dokončení posledního sázení."
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldown"]
-status = "normal"
 raw = "Forester planting cooldown"
+status = "normal"
 enUS = "Forester planting cooldown"
 zhCN = "树木种植冷却时间"
 zhTW = "植樹者種植冷卻時間"
@@ -1456,8 +1478,8 @@ koKR = "목재 재배사 식재 쿨다운"
 csCZ = "Časovač výsadby lesníka"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldownDesc"]
-status = "normal"
 raw = "How many beaver-hours auto planting foresters will remain active after the last planting job is finished."
+status = "normal"
 enUS = "How many beaver-hours auto-planting foresters will remain active after the last planting job is completed."
 zhCN = "“在最后一次种植工作完成后，自动种植伐木工将保持活跃的海狸工时。”"
 zhTW = "自動植樹的森林工作者在最後一次植樹工作完成後，將保持活躍的海狸小時數。"
@@ -1471,8 +1493,8 @@ koKR = "마지막 심기 작업이 끝난 후 자동 식목Forester가 활성 �
 csCZ = "Kolik bobřích hodin zůstane automatickým vysazovacím lesníkům aktivních po dokončení posledního výsadbového úkolu."
 
 ["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplier"]
-status = "normal"
 raw = "Auto ingredients zero-cap scale"
+status = "normal"
 enUS = "Auto ingredients zero-cap scale"
 zhCN = "自动原料零上限比例"
 zhTW = "自動材料零上限倍率"
@@ -1486,8 +1508,8 @@ koKR = "자동 재료 제로 한도 비율"
 csCZ = "Automatická měřítko pro ingredience s nulovým limitem"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplierDesc"]
-status = "normal"
 raw = "When there is no storage capacity for a resource, auto ingredients will check available stock against the recipe amount multipled by this number (rather than against a percentage of storage capacity)."
+status = "normal"
 enUS = "When there is no storage capacity for a resource, auto ingredients will check available stock against the recipe amount multiplied by this number (rather than against a percentage of storage capacity)."
 zhCN = "“当没有资源存储容量时，自动材料将根据配方数量乘以该数字检查可用库存（而不是根据存储容量的百分比进行检查）。”"
 zhTW = "當資源沒有儲存容量時，自動原料將根據這個數字（而不是根據儲存容量的百分比）檢查可用庫存是否符合食譜數量的倍數。"
@@ -1501,8 +1523,8 @@ koKR = "자원에 대한 저장 용량이 없을 때, 자동 재료는 해당 �
 csCZ = "Když není storage capacity pro zdroj, automatické ingredience zkontrolují dostupný zásobník oproti množství receptu vynásobenému tímto číslem (spíše než proti procentuálnímu podílu skladovací kapacity)."
 
 ["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuel"]
-status = "normal"
 raw = "Include fuel"
+status = "normal"
 enUS = "Include fuel"
 zhCN = "包含燃料"
 zhTW = "包含燃料"
@@ -1516,8 +1538,8 @@ koKR = "연료 포함"
 csCZ = "Zahrnout palivo"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuelDesc"]
-status = "normal"
 raw = "Fuel will be included as a required ingredient."
+status = "normal"
 enUS = "Fuel will be included as a required ingredient."
 zhCN = "“燃料将作为必需材料包含。”"
 zhTW = "「燃料將被視為必要的原料。」"
@@ -1531,8 +1553,8 @@ koKR = "연료가 필수 재료로 포함됩니다."
 csCZ = "Palisády budou zahrnuty jako požadovaná ingredience."
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoProductsZeroCapWarning"]
-status = "normal"
 raw = "No storage building for product(s). Using zero-capacity rules (click for info)"
+status = "normal"
 enUS = "No storage building for product(s). Using zero-capacity rules (click for info)"
 zhCN = "“没有产品存储建筑。使用零容量规则（点击获取信息）”"
 zhTW = "沒有存儲建築可供產品使用。正在使用零容量規則（點擊以獲取信息）"
@@ -1546,8 +1568,8 @@ koKR = "제품을 위한 저장 건물이 없습니다. 제로 용량 규칙을 
 csCZ = "Není skladištní budova pro produkt(y). Používají se pravidla s nulovou kapacitou (klikněte pro informace)"
 
 ["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsZeroCapWarning"]
-status = "normal"
 raw = "No storage building for ingredient(s). Using zero-capacity rules (click for info)"
+status = "normal"
 enUS = "No storage building for ingredient(s). Using zero-capacity rules (click for info)"
 zhCN = "没有存储建筑用于原料。使用零容量规则（点击了解更多信息）"
 zhTW = "「沒有儲存建築用於成分。使用零容量規則（點擊以獲取信息）」"
@@ -1561,8 +1583,8 @@ koKR = "재료 저장소가 없습니다. 제로 용량 규칙이 적용됩니�
 csCZ = "Není žádná skladová budova pro ingredience. Používání pravidel bez kapacity (klikněte pro info)"
 
 ["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefault"]
-status = "normal"
 raw = "Harvest prioritizer default"
+status = "normal"
 enUS = "Harvest prioritizer default"
 zhCN = "收割优先级默认设置"
 zhTW = "收穫優先級預設"
@@ -1576,8 +1598,8 @@ koKR = "수확 우선 순위 기본값"
 csCZ = "Výchozí priorizátor sklizně"
 
 ["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefaultDesc"]
-status = "normal"
 raw = "Newly constructed buildings will start with Harvest Prioritizer enabled"
+status = "normal"
 enUS = "Newly constructed buildings will start with Harvest Prioritizer enabled."
 zhCN = "新建的建筑将默认启用收获优先级选项。"
 zhTW = "新建築物將啟用收穫優先級設定"
@@ -1591,8 +1613,8 @@ koKR = "새로 건설된 건물은 수확 우선순위 설정이 활성화된 �
 csCZ = "Nově postavené budovy budou mít zapnutý priorizátor sklizně."
 
 ["UI.TW.SimpleWorkshopControl.UsePriorityHarvest"]
-status = "normal"
 raw = "Harvest prioritizer"
+status = "normal"
 enUS = "Harvest prioritizer"
 zhCN = "“收获优先器”"
 zhTW = "收穫優先器"
@@ -1606,8 +1628,8 @@ koKR = "수확 우선 지정기"
 csCZ = "Prioritizátor sklizně"
 
 ["UI.TW.SimpleWorkshopControl.TT.UsePriorityHarvestToggle"]
-status = "normal"
 raw = "Automatically set the priortized resource to the most needed."
+status = "normal"
 enUS = "Automatically set the prioritized resource to the most needed."
 zhCN = "自动将优先资源设置为最需要的资源。"
 zhTW = "自動將優先資源設置為最需要的資源。"
@@ -1619,6 +1641,398 @@ plPL = "Automatycznie ustawia prioritet zasobu na ten, który jest najbardziej p
 ptBR = "Definir automaticamente o recurso priorizado para o mais necessário."
 koKR = "가장 필요한 자원으로 우선 순위를 자동으로 설정합니다."
 csCZ = "Automaticky nastaví prioritizovaný zdroj na nejvíce potřebný."
+
+["UI.TW.SimpleWorkshopControl.WaterInputControl"]
+new = "Water input"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WaterOutputControl"]
+new = "Water output"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseWaterLevel"]
+new = "Water Level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterLevelToggleIntake"]
+new = "Control based on water level at intake"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertWaterLevelIntake"]
+new = "Swap the start / stop values"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseWaterContamination"]
+new = "Contamination"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterContaminationToggleIntake"]
+new = "Control based on water contamination at intake"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertWaterContaminationIntake"]
+new = "Swap the start / stop values"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputLevelDefault"]
+new = "Input water level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputLevelDefaultDesc"]
+new = "Newly constructed buildings will start with their input water level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputUsePipe"]
+new = "Use intake pipe level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputUsePipeDesc"]
+new = "Water depth will be calculated from the bottom of the intake pipe, rather than the (possibly deeper) total depth."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStart"]
+new = "Water level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStartDesc"]
+new = "Default start value for input water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStop"]
+new = "Water level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStopDesc"]
+new = "Default stop value for input water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationDefault"]
+new = "Input water contamination"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationDefaultDesc"]
+new = "Newly constructed buildings will start with their input water contamination level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStart"]
+new = "Contamination start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStartDesc"]
+new = "Default start value for input water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStop"]
+new = "Contamination stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStopDesc"]
+new = "Default stop value for input water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputLevelDefault"]
+new = "Output water level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputLevelDefaultDesc"]
+new = "Newly constructed buildings will start with their output water level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStart"]
+new = "Water level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStartDesc"]
+new = "Default start value for output water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStop"]
+new = "Water level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStopDesc"]
+new = "Default stop value for output water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationDefault"]
+new = "Output water contamination"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationDefaultDesc"]
+new = "Newly constructed buildings will start with their output water contamination level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStart"]
+new = "Contamination start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStartDesc"]
+new = "Default start value for output water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStop"]
+new = "Contamination stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStopDesc"]
+new = "Default stop value for output water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowUserControl"]
+new = "Enable user-control"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowUserControlDesc"]
+new = "Enables the old user-control behavior. This gives more specific control and allows controling some additional building types, but has been mostly replaced by the auto behaviors"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Population"]
+new = "Population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.MaintainPop"]
+new = "Maintain"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtPop"]
+new = "At"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationControlToggle"]
+new = "Control based on population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationMode"]
+new = "Choose population type"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationValue"]
+new = "Target population. The box accepts numbers above what the slider can set."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseScience"]
+new = "Science"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseScienceToggle"]
+new = "Control based on sceince points"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseScienceDefault"]
+new = "Science default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseScienceDesc"]
+new = "Newly constructed buildings will start with science control enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStart"]
+new = "Science start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStartDesc"]
+new = "Science start value default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStop"]
+new = "Science stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStopDesc"]
+new = "Science stop value default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableWeatherControl"]
+new = "Enable weather controller"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableWeatherControlDesc"]
+new = "Allows turning buildings on and off based on weather (only vanilla weather supported for now)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherControl"]
+new = "Weather"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWeatherControlToggle"]
+new = "Control building based weather"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherSettings"]
+new = "Settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.WeatherSettingsButton"]
+new = "Set weather control options"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherSettingsHeader"]
+new = "Select active weathers"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherActiveDuring"]
+new = "Active during:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseSluice"]
+new = "Sluice controls"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActiveState"]
+new = "Active state"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceBlockedState"]
+new = "Inactive state"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UpstreamDepth"]
+new = "Upsteam depth"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.FloodgateActiveHeight"]
+new = "Active height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.FloodgateBlockedHeight"]
+new = "Inactive height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.CurrentDepth"]
+new = "Current depth"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseSluiceControlToggle"]
+new = "Control sluice"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceActiveStateDropdown"]
+new = "State the sluice will use when active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceBlockedStateDropdown"]
+new = "State the sluice will use when inactive"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterLevelToggle"]
+new = "Control based on water level on the upstream side of the sluice"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceWaterLevel"]
+new = "Sluice will be active above this upstream water level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.FloodgateActiveHeight"]
+new = "Height for the floodgate while active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.FloodgateBlockedHeight"]
+new = "Height for the floodgate while inactive"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.CurrentStatus"]
+new = "Current status:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActive"]
+new = "Active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceInactive"]
+new = "Inactive"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SluiceMax"]
+new = "Water slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SluiceMaxDesc"]
+new = "Maximum value for the upstream depth slider."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceTimer"]
+new = "Timer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActiveFor"]
+new = "Active for {0} days, then inactive for {1} days."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceTimerStartsAtDawn"]
+new = "Timer starts at dawn (inactive period will expand to accomplish this)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.RoundTimerToDays"]
+new = "Start at Dawn"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TimerLength"]
+new = "Total length"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TimerStart"]
+new = "Active length"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.TimerMax"]
+new = "Timer max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.TimerMaxDesc"]
+new = "Maximum length of the timer, in days"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseTimer"]
+new = "Control with timer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.StartAtDawn"]
+new = "Each timer cycle will start at dawn. Length of the timer will be extended to the next dawn"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.TimerLength"]
+new = "Total length of the timer cycle, in days"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.TimerActiveDuration"]
+new = "Length of the Active phase of the timer cycle. In days"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionSluice"]
+new = "<b><YellowHighlight>Sluice:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionGeneral"]
+new = "<b><YellowHighlight>General:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionAutoIngredients"]
+new = "<b><YellowHighlight>Auto-Ingredients:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionAutoProducts"]
+new = "<b><YellowHighlight>Auto-Products:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPlanting"]
+new = "<b><YellowHighlight>Planting:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionScience"]
+new = "<b><YellowHighlight>Science:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionHarvest"]
+new = "<b><YellowHighlight>Harvest related:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionWaterInput"]
+new = "<b><YellowHighlight>Water input:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionWaterOutput"]
+new = "<b><YellowHighlight>Water output:</YellowHighlight><b>"
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.RangeType"]
 raw = "Scale"

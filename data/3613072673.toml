@@ -1,9 +1,9 @@
 [_meta]
-name = "[1.0 Beta] BeaverBuddies - Multiplayer Co-Op"
+name = "BeaverBuddies - Multiplayer Co-Op"
 
 ["BeaverBuddies.Menu.JoinCoopGame"]
-status = "normal"
 raw = "Join co-op game"
+status = "normal"
 enUS = "Join co-op game"
 zhCN = "加入联机游戏"
 zhTW = "加入合作遊戲"
@@ -17,8 +17,8 @@ koKR = "협동 게임에 참여하기"
 csCZ = "Připojit se k co-op hře"
 
 ["BeaverBuddies.JoinCoopGame.EnterIp"]
-status = "normal"
 raw = "Enter the global IP address or domain name of the Host:"
+status = "normal"
 enUS = "Enter the global IP address or domain name of the Host:"
 zhCN = "输入主机的全球IP地址或域名："
 zhTW = "輸入主機的全球IP地址或域名："
@@ -32,8 +32,8 @@ koKR = "호스트의 글로벌 IP 주소 또는 도메인 이름을 입력하세
 csCZ = "Zadejte globální IP adresu nebo doménové jméno hostitele:"
 
 ["BeaverBuddies.FirstTimer.Message"]
-status = "normal"
 raw = "It looks like this is your first time using BeaverBuddies. We recommend taking a quick look through our guide to make sure you are set up to play. Would you like to do that now?"
+status = "normal"
 enUS = "It looks like this is your first time using BeaverBuddies. We recommend taking a quick look through our guide to make sure you are set up to play. Would you like to do that now?"
 zhCN = "“看起来这是你第一次使用 BeaverBuddies。我们建议你快速浏览一下我们的指南，以确保你已做好游戏准备。你想现在这样做吗？”"
 zhTW = "看起來這是您第一次使用 BeaverBuddies。我們建議您快速瀏覽我們的指南，以確保您已準備好進行遊戲。您現在想這樣做嗎？"
@@ -47,8 +47,8 @@ koKR = "이것이 BeaverBuddies를 사용하는 첫 번째 시간인 것 같습�
 csCZ = "Vypadá to, že používáte BeaverBuddies poprvé. Doporučujeme rychle se podívat na náš průvodce, abyste se ujistili, že máte vše nastaveno pro hraní. Chtěli byste to udělat nyní?"
 
 ["BeaverBuddies.Saving.HostCoopGame"]
-status = "normal"
 raw = "Host co-op game"
+status = "normal"
 enUS = "Host co-op game"
 zhCN = "主办合作游戏"
 zhTW = "主持合作遊戲"
@@ -62,8 +62,8 @@ koKR = "협동 게임 호스트"
 csCZ = "Hostit hru ve spolupráci"
 
 ["BeaverBuddies.JoinCoopGame.ConnectionFailedMessageWithError"]
-status = "normal"
 raw = "Joining failed with error:\n{0}\nWould you like to open the troubleshooting guide?"
+status = "normal"
 enUS = "Joining failed with error:  \n{0}  \nWould you like to open the troubleshooting guide?"
 zhCN = "加入失败，错误信息：\n{0}\n您想查看故障排除指南吗？"
 zhTW = "加入失敗，錯誤訊息：\n{0}\n您想打開故障排除指南嗎？"
@@ -77,8 +77,8 @@ koKR = "연결 오류로 인해 참가에 실패했습니다:\n{0}\n문제 해�
 csCZ = "Připojení se nezdařilo s chybou:\n{0}\nChcete otevřít průvodce řešením problémů?"
 
 ["BeaverBuddies.JoinCoopGame.ConnectionFailedMessage"]
-status = "normal"
 raw = "Failed to connect to Host. Would you like to open the troubleshooting guide?"
+status = "normal"
 enUS = "Failed to connect to Host. Would you like to open the troubleshooting guide?"
 zhCN = "连接到主机失败。您想打开故障排除指南吗？"
 zhTW = "無法連接到主機。您想打開故障排除指南嗎？"
@@ -92,8 +92,8 @@ koKR = "호스트에 연결하지 못했습니다. 문제 해결 가이드를 �
 csCZ = "Nepodařilo se připojit k hostiteli. Chcete otevřít průvodce odstraňováním problémů?"
 
 ["BeaverBuddies.ClientDesynced.Message"]
-status = "normal"
 raw = "A connected player desynced and cannot continue playing - sorry about that! The Host should hit Rehost and, AFTER that, the Client should Reconnect. You may need to restart the game if problems persist. Before reloading, would you like to file a bug report to help us fix this issue?"
+status = "normal"
 enUS = "A connected player desynced and cannot continue playing - sorry about that! The Host should hit Rehost and, AFTER that, the Client should Reconnect. You may need to restart the game if problems persist. Before reloading, would you like to file a bug report to help us fix this issue?"
 zhCN = "一个连接的玩家不同步，无法继续游戏 - 对此我们深感抱歉！主持人应该点击重主持，然后客户端应该重新连接。如果问题仍然存在，您可能需要重启游戏。在重新加载之前，您是否希望提交一个错误报告，以帮助我们解决此问题？"
 zhTW = "連接的玩家不同步，無法繼續遊戲 - 非常抱歉！主機應該點擊重新主持，然後，客戶端應該重新連接。如果問題仍然存在，可能需要重啟遊戲。在重新加載之前，您是否想提交一個問題報告以幫助我們修復此問題？"
@@ -107,8 +107,8 @@ koKR = "연결된 플레이어의 동기화가 해제되어 계속 플레이할 
 csCZ = "Připojený hráč se odpojil a nemůže pokračovat ve hře - omlouváme se za to! Hostitel by měl stisknout 'Znovu hostit' a PO TÉ, co to udělá, by se klient měl znovu připojit. Možná budete muset restartovat hru, pokud problémy přetrvávají. Před znovu načtením byste chtěli podat zprávu o chybě, abyste nám pomohli tento problém vyřešit?"
 
 ["BeaverBuddies.ClientDesynced.FailedToRehostMessage"]
-status = "normal"
 raw = "Failed to Rehost. Manually save and Host again."
+status = "normal"
 enUS = "Failed to Rehost. Manually save and host again."
 zhCN = "重新托管失败。请手动保存并再次托管。"
 zhTW = "無法重新主機。請手動保存並再次主辦。"
@@ -122,8 +122,8 @@ koKR = "재호스팅 실패. 수동으로 저장하고 다시 호스팅하세요
 csCZ = "Chyba při opětovném hostování. Ručně uložte a hostujte znovu."
 
 ["BeaverBuddies.ClientDesynced.SaveAndRehostButton"]
-status = "normal"
 raw = "Save and Rehost"
+status = "normal"
 enUS = "Save and Rehost"
 zhCN = "保存并重新托管"
 zhTW = "「保存並重新主持」"
@@ -137,8 +137,8 @@ koKR = "저장하고 재호스트"
 csCZ = "Uložit a znovu hostit"
 
 ["BeaverBuddies.ClientDesynced.WaitForRehostButton"]
-status = "normal"
 raw = "Reconnect (wait for Rehost)"
+status = "normal"
 enUS = "Reconnect (wait for Rehost)"
 zhCN = "重新连接（等待重新主办）"
 zhTW = "重新連線（等待重連）"
@@ -152,8 +152,8 @@ koKR = "재연결 (재호스팅 대기)"
 csCZ = "Znovu se připojit (čekat na nové hostování)"
 
 ["BeaverBuddies.ClientDesynced.PostBugReportButton"]
-status = "normal"
 raw = "Post Bug Report"
+status = "normal"
 enUS = "Post Bug Report"
 zhCN = "提交错误报告"
 zhTW = "發送錯誤報告"
@@ -167,8 +167,8 @@ koKR = "버그 신고하기"
 csCZ = "Odeslat hlášení o chybě"
 
 ["BeaverBuddies.Editor.StartingLocation1"]
-status = "normal"
 raw = "Starting Location - Player 1"
+status = "normal"
 enUS = "Starting Location - Player 1"
 zhCN = "起始位置 - 玩家 1"
 zhTW = "起始位置 - 玩家 1"
@@ -182,8 +182,8 @@ koKR = "시작 위치 - 플레이어 1"
 csCZ = "Začínací poloha - Hráč 1"
 
 ["BeaverBuddies.Editor.StartingLocation2"]
-status = "normal"
 raw = "Starting Location - Player 2"
+status = "normal"
 enUS = "Starting Location - Player 2"
 zhCN = "起始位置 - 玩家 2"
 zhTW = "起始位置 - 玩家 2"
@@ -197,8 +197,8 @@ koKR = "시작 위치 - 플레이어 2"
 csCZ = "Výchozí poloha - Hráč 2"
 
 ["BeaverBuddies.Editor.StartingLocation3"]
-status = "normal"
 raw = "Starting Location - Player 3"
+status = "normal"
 enUS = "Starting Location - Player 3"
 zhCN = "起始位置 - 玩家 3"
 zhTW = "起始位置 - 玩家 3"
@@ -212,8 +212,8 @@ koKR = "시작 위치 - 플레이어 3"
 csCZ = "Výchozí poloha - Hráč 3"
 
 ["BeaverBuddies.Editor.StartingLocation4"]
-status = "normal"
 raw = "Starting Location - Player 4"
+status = "normal"
 enUS = "Starting Location - Player 4"
 zhCN = "起始位置 - 玩家 4"
 zhTW = "起始位置 - 玩家 4"
@@ -227,8 +227,8 @@ koKR = "시작 위치 - 플레이어 4"
 csCZ = "Počáteční místo - Hráč 4"
 
 ["BeaverBuddies.NewGame.MaxStartingLocations"]
-status = "normal"
 raw = "Max Starting Locations"
+status = "normal"
 enUS = "Max Starting Locations"
 zhCN = "最大起始地点数"
 zhTW = "最大起始位置"
@@ -242,8 +242,8 @@ koKR = "최대 시작 위치"
 csCZ = "Maximální výchozí lokace"
 
 ["BeaverBuddies.ClientDesynced.ReportSuccess"]
-status = "normal"
 raw = "Success!"
+status = "normal"
 enUS = "Success!"
 zhCN = "成功！"
 zhTW = "成功！"
@@ -257,8 +257,8 @@ koKR = "성공!"
 csCZ = "Úspěch!"
 
 ["BeaverBuddies.ClientDesynced.ReportFailed"]
-status = "normal"
 raw = "Failed :("
+status = "normal"
 enUS = "Failed :("
 zhCN = "失败 :("
 zhTW = "失敗 :("
@@ -272,8 +272,8 @@ koKR = "실패 :("
 csCZ = "Nepovedlo se :("
 
 ["BeaverBuddies.ClientDesynced.ConsentAgreement"]
-status = "normal"
 raw = "Yes, I agree"
+status = "normal"
 enUS = "Yes, I agree"
 zhCN = "是的，我同意"
 zhTW = "是的，我同意"
@@ -287,8 +287,8 @@ koKR = "네, 동의합니다"
 csCZ = "Ano, souhlasím"
 
 ["BeaverBuddies.ClientDesynced.TracingEnabled"]
-status = "normal"
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "已启用"
 zhTW = "啟用"
@@ -302,8 +302,8 @@ koKR = "활성화됨"
 csCZ = "Povoleno"
 
 ["BeaverBuddies.ClientDesynced.EnableTracing"]
-status = "normal"
 raw = "Enable Logging"
+status = "normal"
 enUS = "Enable Logging"
 zhCN = "启用日志记录"
 zhTW = "啟用日誌記錄"
@@ -317,8 +317,8 @@ koKR = "로깅 활성화"
 csCZ = "Vytvořit protokol"
 
 ["BeaverBuddies.ClientDesynced.NeedToEnableTracing"]
-status = "normal"
 raw = "In order to report this desync, *all players* must first enable more detailed logging by pressing Enable Logging, below. If another desync occurs, you will then be able to post a detailed, automated bug report. Logging mode may cause some lag, but it will only be active until you restart the game."
+status = "normal"
 enUS = "In order to report this desync, *all players* must first enable more detailed logging by pressing Enable Logging, below. If another desync occurs, you will then be able to post a detailed, automated bug report. Logging mode may cause some lag, but it will only be active until you restart the game."
 zhCN = "为了报告此不同步，*所有玩家*必须首先通过按下下面的“启用日志记录”来启用更详细的日志记录。如果再次发生不同步，您将能够发布详细的自动错误报告。日志记录模式可能会导致一些延迟，但它只会在您重新启动游戏之前处于活动状态。"
 zhTW = "為了報告此不同步問題，*所有玩家* 必須首先透過按下下方的啟用日誌來啟用更詳細的日誌。如果再次發生不同步問題，您將能夠提交詳細的自動錯誤報告。日誌模式可能會導致一些延遲，但在您重啟遊戲之前，它將一直處於啟動狀態。"
@@ -332,8 +332,8 @@ koKR = "이 비동기 문제를 보고하기 위해서는 *모든 플레이어*�
 csCZ = "Aby bylo možné nahlásit tento desynchronizaci, *všichni hráči* musí nejprve povolit podrobnější protokolování stisknutím Povolit protokolování níže. Pokud dojde k další desynchronizaci, budete moci zaslat podrobný, automatizovaný report o chybě. Režim protokolování může způsobit mírné zpoždění, ale bude aktivní pouze do doby, než restartujete hru."
 
 ["BeaverBuddies.ClientDesynced.ConsentMessage"]
-status = "normal"
 raw = "Consent to Share Usage Data\n\nBy choosing to share your data, you agree to send the following information from your gameplay session to the developers of this mod:\n\n- Log Data: Information automatically collected during your gameplay session, such as game events and user interactions.\n- Save File: Your current game save file.\n\nWe strive to maintain your privacy by keeping this data largely anonymous. However, because the data is collected as-is, it may inadvertently include details that could identify you (such as file paths or usernames). The developers will not attempt to identify you using this information.\n\nYour Choices:\n- If you agree, this data will be sent securely to the developers and used to improve the mod.\n- If you do not agree, no data will be sent, and your gameplay will continue without any changes.\n\nBy proceeding, you confirm that you are at least the legal age of digital consent in your country of residence.\n\nDo you agree to share your data with the developers of this mod?"
+status = "normal"
 enUS = "Consent to Share Usage Data\n\nBy choosing to share your data, you agree to send the following information from your gameplay session to the developers of this mod:\n\n- Log Data: Information automatically collected during your gameplay session, such as game events and user interactions.\n- Save File: Your current game save file.\n\nWe strive to maintain your privacy by keeping this data largely anonymous. However, because the data is collected as-is, it may inadvertently include details that could identify you (such as file paths or usernames). The developers will not attempt to identify you using this information.\n\nYour Choices:\n- If you agree, this data will be sent securely to the developers and used to improve the mod.\n- If you do not agree, no data will be sent, and your gameplay will continue without any changes.\n\nBy proceeding, you confirm that you are at least the legal age of digital consent in your country of residence.\n\nDo you agree to share your data with the developers of this mod?"
 zhCN = "同意共享使用数据\n\n通过选择共享您的数据，您同意将以下信息从您的游戏会话发送给该模组的开发者：\n\n- 日志数据：在您的游戏会话期间自动收集的信息，例如游戏事件和用户交互。\n- 保存文件：您当前的游戏保存文件。\n\n我们努力通过保持这些数据在很大程度上是匿名的来保护您的隐私。然而，由于数据是按原样收集的，它可能无意中包含可以识别您的详细信息（例如文件路径或用户名）。开发者不会尝试使用这些信息来识别您。\n\n您的选择：\n- 如果您同意，这些数据将安全发送给开发者，并用于改善该模组。\n- 如果您不同意，则不会发送任何数据，您的游戏将继续进行而不作任何更改。\n\n继续之前，您确认您至少已达到您所在国家法律认可的数字同意年龄。\n\n您是否同意与该模组的开发者共享您的数据？"
 zhTW = "同意分享使用數據\n\n通過選擇分享您的數據，您同意將以下信息從您的遊玩會話發送給此模組的開發者：\n\n- 日誌數據：在您的遊玩會話期間自動收集的信息，例如遊戲事件和用戶互動。\n- 保存檔案：您當前的遊戲保存檔案。\n\n我們努力保持您的隱私，將這些數據大部分保持匿名。然而，由於數據是按原樣收集的，它可能無意中包含可能識別您的細節（例如文件路徑或用戶名）。開發者不會試圖使用這些信息來識別您。\n\n您的選擇：\n- 如果您同意，這些數據將安全地發送給開發者並用於改進模組。\n- 如果您不同意，則不會發送任何數據，您的遊玩將繼續進行，無需任何更改。\n\n通過繼續，您確認您至少已達到您居住國家法律上數字同意的法定年齡。\n\n您是否同意將您的數據分享給此模組的開發者？"
@@ -347,8 +347,8 @@ koKR = "사용 데이터 공유 동의\n\n데이터 공유를 선택함으로써
 csCZ = "Souhlas se sdílením dat o používání\n\nZvolením sdílení svých dat souhlasíte s tím, že zašlete následující informace z vaší herní relace vývojářům tohoto modu:\n\n- Logovací data: Informace automaticky shromážděné během vaší herní relace, jako jsou herní události a uživatelské interakce.\n- Uložení: Vaše aktuální herní uložená hra.\n\nUsilujeme o ochranu vašeho soukromí tím, že tato data většinou uchováváme v anonymním stavu. Avšak protože jsou data shromažďována tak, jak jsou, může se v nich nechtěně objevit informace, které by vás mohly identifikovat (například cesty k souborům nebo uživatelská jména). Vývojáři se nebudou snažit vás pomocí těchto informací identifikovat.\n\nVaše rozhodnutí:\n- Pokud souhlasíte, tato data budou bezpečně zaslána vývojářům a použita k vylepšení modu.\n- Pokud nesouhlasíte, žádná data nebudou odeslána a vaše hra bude pokračovat bez jakýchkoli změn.\n\nPokračováním potvrzujete, že jste alespoň v právním věku digitálního souhlasu ve vaší zemi pobytu.\n\nSouhlasíte se sdílením svých dat s vývojáři tohoto modu?"
 
 ["BeaverBuddies.Settings.ClientConnectionAddress"]
-status = "normal"
 raw = "Client Connection Address"
+status = "normal"
 enUS = "Client Connection Address"
 zhCN = "客户端连接地址"
 zhTW = "客戶端連接地址"
@@ -362,8 +362,8 @@ koKR = "클라이언트 연결 주소"
 csCZ = "Adresa klientského připojení"
 
 ["BeaverBuddies.Settings.ClientConnectionAddress.Tooltip"]
-status = "normal"
 raw = "Default IP address used when connecting to a Host."
+status = "normal"
 enUS = "Default IP address used when connecting to a Host."
 zhCN = "“连接到主机时使用的默认IP地址。”"
 zhTW = "連接到主機時使用的預設IP地址。"
@@ -377,8 +377,8 @@ koKR = "호스트에 연결할 때 사용되는 기본 IP 주소입니다."
 csCZ = "Výchozí IP adresa používaná při připojování k hostiteli."
 
 ["BeaverBuddies.Settings.Port"]
-status = "normal"
 raw = "Port"
+status = "normal"
 enUS = "Port"
 zhCN = "端口"
 zhTW = "端口"
@@ -392,8 +392,8 @@ koKR = "포트"
 csCZ = "Port"
 
 ["BeaverBuddies.Settings.Port.Tooltip"]
-status = "normal"
 raw = "Port used when hosting or joining a game. This should match a forwaded port for the host."
+status = "normal"
 enUS = "Port used when hosting or joining a game. This should match a forwarded port for the host."
 zhCN = "“用于托管或加入游戏的端口。此端口应与主机端口转发匹配。”"
 zhTW = "用於主持或加入遊戲的端口。這應該與主機的轉發端口相匹配。"
@@ -407,8 +407,8 @@ koKR = "호스팅하거나 게임에 참여할 때 사용되는 포트입니다.
 csCZ = "Port používaný při hostování nebo připojování se k hře. Měl by odpovídat přeposlanému portu pro hostitele."
 
 ["BeaverBuddies.Settings.SilenceLogging"]
-status = "normal"
 raw = "Silence Logging"
+status = "normal"
 enUS = "Silence Logging"
 zhCN = "静音记录"
 zhTW = "靜音日誌"
@@ -422,8 +422,8 @@ koKR = "로그 기록 음소거"
 csCZ = "Tichý záznam"
 
 ["BeaverBuddies.Settings.SilenceLogging.Tooltip"]
-status = "normal"
 raw = "Prevent this mod from logging to the player log file (except warnings and errors).\nThis setting is indended for developers."
+status = "normal"
 enUS = "Prevent this mod from logging to the player log file (except warnings and errors). This setting is intended for developers."
 zhCN = "防止此模组记录到玩家日志文件（警告和错误除外）。\n此设置旨在供开发者使用。"
 zhTW = "防止此模組記錄到玩家日誌文件（除了警告和錯誤）。\n此設置用於開發人員。"
@@ -437,8 +437,8 @@ koKR = "이 모드가 플레이어 로그 파일에 기록되는 것을 방지�
 csCZ = "Zabránit tomuto módu zapisovat do souboru protokolu hráče (kromě varování a chyb). Toto nastavení je určeno pro vývojáře."
 
 ["BeaverBuddies.Settings.ShowFirstTimerMessage"]
-status = "normal"
 raw = "Show First Timer Message"
+status = "normal"
 enUS = "Show First Timer Message"
 zhCN = "显示首次计时器消息"
 zhTW = "顯示首次計時器訊息"
@@ -452,8 +452,8 @@ koKR = "첫 타이머 메시지 표시"
 csCZ = "Zobrazit zprávu prvního časovače"
 
 ["BeaverBuddies.Settings.AlwaysTrace"]
-status = "normal"
 raw = "Always Use Detailed Logging"
+status = "normal"
 enUS = "Always Use Detailed Logging"
 zhCN = "始终使用详细日志记录"
 zhTW = "始終使用詳細日誌"
@@ -467,8 +467,8 @@ koKR = "항상 상세 기록 사용"
 csCZ = "Vždy používat podrobné protokolování"
 
 ["BeaverBuddies.Settings.AlwaysTrace.Tooltip"]
-status = "normal"
 raw = "When enabled, the game will always use detailed logging, which enables you to submit desync reports on the first occurrence without manually enabling detailed logging.\nNote that all players must have the setting enabled. \nThis setting will cause some lag and is not recommended for most players."
+status = "normal"
 enUS = "When enabled, the game will always use detailed logging, allowing you to submit desync reports on the first occurrence without manually enabling detailed logging. \nNote that all players must have this setting enabled. \nThis setting may cause some lag and is not recommended for most players."
 zhCN = "启用时，游戏将始终使用详细日志，这样您在首次发生不同步时可以提交不同步报告，而无需手动启用详细日志。\n请注意，所有玩家必须启用此设置。\n该设置会导致部分延迟，不建议大多数玩家使用。"
 zhTW = "當啟用時，遊戲將始終使用詳細日誌，這使您能夠在首次發生脫節時提交脫節報告，而無需手動啟用詳細日誌。 \n請注意，所有玩家必須啟用此設置。 \n此設置將導致某些延遲，並不建議大多數玩家使用。"
@@ -482,8 +482,8 @@ koKR = "활성화하면 게임이 항상 세부 로깅을 사용하게 되며, �
 csCZ = "Pokud je povoleno, hra vždy použije podrobné protokolování, což vám umožní odeslat zprávy o desynchronizaci při prvním výskytu bez nutnosti manuálně aktivovat podrobné protokolování. Všimněte si, že všichni hráči musí mít toto nastavení povolené. Toto nastavení může způsobit určité zpoždění a není doporučeno pro většinu hráčů."
 
 ["BeaverBuddies.Settings.ReportingConsent"]
-status = "normal"
 raw = "Consent to Reporting"
+status = "normal"
 enUS = "Consent to Reporting"
 zhCN = "同意报告"
 zhTW = "報告同意"
@@ -497,8 +497,8 @@ koKR = "보고 동의"
 csCZ = "Souhlas s hlášením"
 
 ["BeaverBuddies.Settings.EnableSteamConnection"]
-status = "normal"
 raw = "Enable Steam Networking"
+status = "normal"
 enUS = "Enable Steam Networking"
 zhCN = "启用 Steam 网络连接"
 zhTW = "啟用 Steam 網絡連接"
@@ -512,8 +512,8 @@ koKR = "스팀 네트워킹 활성화"
 csCZ = "Povolit síťování přes Steam"
 
 ["BeaverBuddies.Settings.EnableSteamConnection.Tooltip"]
-status = "normal"
 raw = "Allows players to join your games via Steam's peer-to-peer networking.\nPlayers will still be able to join via port forwarding.\nNote: This feature may not work if your network does not support peer-to-peer connections.\nAdditionally, peer-to-peer connections may be slower than direct connections."
+status = "normal"
 enUS = "Allows players to join your games via Steam's peer-to-peer networking. Players will still be able to join via port forwarding. Note: This feature may not work if your network does not support peer-to-peer connections. Additionally, peer-to-peer connections may be slower than direct connections."
 zhCN = "“允许玩家通过Steam的点对点网络加入你的游戏。\n玩家仍然可以通过端口转发加入。\n注意：如果你的网络不支持点对点连接，此功能可能无法使用。\n此外，点对点连接可能比直接连接速度更慢。”"
 zhTW = "允許玩家透過Steam的點對點網絡加入您的遊戲。\n玩家仍然可以透過端口轉發加入。\n注意：如果您的網絡不支持點對點連接，則此功能可能無法正常運作。\n此外，點對點連接的速度可能慢於直接連接。"
@@ -527,8 +527,8 @@ koKR = "Steam의 피어 투 피어 네트워킹을 통해 플레이어가 귀하
 csCZ = "Umožňuje hráčům připojit se k vašim hrám přes Steamovou peer-to-peer síť.\nHráči se stále mohou připojit přes přesměrování portů.\nPoznámka: Tato funkce nemusí fungovat, pokud vaše síť nepodporuje peer-to-peer připojení.\nDále mohou být peer-to-peer připojení pomalejší než přímá připojení."
 
 ["BeaverBuddies.Settings.FriendsCanJoinSteamGame"]
-status = "normal"
 raw = "Allow Friends to Join Directly via Steam"
+status = "normal"
 enUS = "Allow Friends to Join Directly via Steam"
 zhCN = "允许朋友直接通过Steam加入游戏"
 zhTW = "允許朋友透過 Steam 直接加入"
@@ -542,8 +542,8 @@ koKR = "친구가 Steam을 통해 직접 참여하도록 허용"
 csCZ = "Povolit přátelům připojit se přímo přes Steam"
 
 ["BeaverBuddies.Settings.FriendsCanJoinSteamGame.Tooltip"]
-status = "normal"
 raw = "When enabled, your friends can join your game directly via Steam without you inviting them."
+status = "normal"
 enUS = "When enabled, your friends can join your game directly through Steam without needing an invitation from you."
 zhCN = "启用后，你的朋友可以通过Steam直接加入你的游戏，无需你邀请他们。"
 zhTW = "當啟用時，您的朋友可以通過 Steam 直接加入您的遊戲，而無需您邀請他們。"
@@ -557,8 +557,8 @@ koKR = "활성화하면, 당신의 친구들이 초대하지 않아도 Steam을 
 csCZ = "Pokud je povoleno, vaši přátelé se mohou připojit k vaší hře přímo přes Steam, aniž byste je museli zvát."
 
 ["BeaverBuddies.Host.ConnectedClients"]
-status = "normal"
 raw = "Wait for clients to connect...\nCurrently connected clients:"
+status = "normal"
 enUS = "Wait for clients to connect...\nCurrently connected clients:"
 zhCN = "等待客户端连接中...\n当前连接的客户端："
 zhTW = "等待客戶端連接中...\n當前已連接的客戶端："
@@ -572,8 +572,8 @@ koKR = "클라이언트가 연결될 때까지 기다립니다...\n현재 연결
 csCZ = "Čekání na připojení klientů...\nAktuálně připojení klienti:"
 
 ["BeaverBuddies.Host.DirectConnectClient"]
-status = "normal"
 raw = "Direct Connect Client"
+status = "normal"
 enUS = "Direct Connect Client"
 zhCN = "直接连接客户端"
 zhTW = "直接連接客戶端"
@@ -587,8 +587,8 @@ koKR = "직접 연결 클라이언트"
 csCZ = "Přímé připojení klienta"
 
 ["BeaverBuddies.Host.StartGame"]
-status = "normal"
 raw = "Start Game"
+status = "normal"
 enUS = "Start Game"
 zhCN = "开始游戏"
 zhTW = "開始遊戲"
@@ -602,8 +602,8 @@ koKR = "게임 시작"
 csCZ = "Začít hru"
 
 ["BeaverBuddies.Host.InviteFriends"]
-status = "normal"
 raw = "Invite Friends"
+status = "normal"
 enUS = "Invite Friends"
 zhCN = "邀请朋友"
 zhTW = "邀請朋友"
@@ -617,8 +617,8 @@ koKR = "친구 초대"
 csCZ = "Pozvat přátele"
 
 ["BeaverBuddies.JoinCoopGame.Success"]
-status = "normal"
 raw = "Joined! Receiving map..."
+status = "normal"
 enUS = "Joined! Receiving map..."
 zhCN = "已加入！正在接收地图..."
 zhTW = "已加入！正在接收地圖..."
@@ -632,8 +632,8 @@ koKR = "참여했습니다! 맵을 수신하는 중..."
 csCZ = "Byl jsi přijat! Přijímám mapu..."
 
 ["BeaverBuddies.JoinCoopGame.Error.InvalidFormat"]
-status = "normal"
 raw = "Invalid address format. Could not parse port."
+status = "normal"
 enUS = "Invalid address format. Could not parse port."
 zhCN = "地址格式无效。无法解析端口。"
 zhTW = "無效的地址格式。無法解析端口。"
@@ -647,8 +647,8 @@ koKR = "잘못된 주소 형식입니다. 포트를 분석할 수 없습니다."
 csCZ = "Neplatný formát adresy. Nelze analyzovat port."
 
 ["BeaverBuddies.JoinCoopGame.Error.InvalidAddress"]
-status = "normal"
 raw = "Address was not a valid IP address.\nAttempted to resolve it as a host name, but it did not resolve to an IP address."
+status = "normal"
 enUS = "Address was not a valid IP address. Attempted to resolve it as a host name, but it did not resolve to an IP address."
 zhCN = "地址不是有效的IP地址。尝试将其解析为主机名，但未能解析为IP地址。"
 zhTW = "地址不是有效的 IP 地址。\n嘗試將其解析為主機名稱，但未能解析為 IP 地址。"
@@ -662,8 +662,8 @@ koKR = "주소가 유효한 IP 주소가 아닙니다.\n호스트 이름으로 �
 csCZ = "Adresa nebyla platnou IP adresou. Pokusili jsme se ji vyřešit jako název hostitele, ale nevedlo to k žádné IP adrese."
 
 ["BeaverBuddies.JoinCoopGame.Error.CouldNotConnect"]
-status = "normal"
 raw = "Could not connect to Host. Please check the address and port, and make sure the Host is hosting and has port forwarded if needed. Error details:"
+status = "normal"
 enUS = "Could not connect to Host. Please check the address and port, and make sure the Host is hosting and has port forwarded if needed. Error details:"
 zhCN = "无法连接到主机。请检查地址和端口，并确保主机正在托管并在需要时已转发端口。错误详细信息："
 zhTW = "無法連接到主機。請檢查地址和埠，並確保主機正在主辦並已根據需要進行埠轉發。錯誤詳情："

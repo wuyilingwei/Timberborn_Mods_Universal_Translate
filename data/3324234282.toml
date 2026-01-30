@@ -1472,8 +1472,8 @@ koKR = "날씨 관련 규칙"
 csCZ = "Pravidla související s počasím"
 
 ["="]
-status = "normal"
 raw = "="
+status = "normal"
 enUS = "="
 zhCN = "="
 zhTW = "="
@@ -2147,8 +2147,8 @@ koKR = "출력: {0}"
 csCZ = "výstup: {0}"
 
 ["IgorZ.Automation.Scriptable.Manufactory.Action.SetRecipe"]
-status = "normal"
 raw = "set recipe: {0}"
+status = "normal"
 enUS = "set recipe: {0}"
 zhCN = "设置配方：{0}"
 zhTW = "設定配方：{0}"
@@ -2536,6 +2536,10 @@ ptBR = "A condição deve conter pelo menos um sinal."
 koKR = "조건은 최소한 하나의 신호를 포함해야 합니다"
 csCZ = "Podmínka musí obsahovat alespoň jeden signál"
 
+["IgorZ.Automation.Scripting.Editor.CopyRuleBtn"]
+new = "Duplicate"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.DeletedRule"]
 raw = "Rule removed"
 status = "normal"
@@ -2655,6 +2659,10 @@ plPL = "Importuj zasady"
 ptBR = "Importar regras"
 koKR = "규칙 가져오기"
 csCZ = "Importovat pravidla"
+
+["IgorZ.Automation.Scripting.Editor.InvertRuleBtn"]
+new = "Invert"
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Editor.MoreInfoBtn"]
 raw = "Read about scripting"

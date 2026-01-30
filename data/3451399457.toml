@@ -271,6 +271,14 @@ ptBR = "Você pode exceder o limite de 3 terrenos suspensos para 50 (não mais a
 koKR = "당신은 성능 영향으로 인해 3개의 매달린 지형 한도를 넘어서 50개까지 초과할 수 있습니다 (이상은 불가능합니다)."
 csCZ = "Můžete překročit limit 3 visících terénů až na 50 (ne vyšší kvůli dopadu na výkon)"
 
+["LV.NBR.SuperHangingTerrainLimit"]
+new = "Super hanging terrain limit"
+status = "normal"
+
+["LV.NBR.SuperHangingTerrainLimitDesc"]
+new = "How many hanging terrain pieces you can have (increase may impact performance)"
+status = "normal"
+
 ["LV.NBR.NoBottomOfMap"]
 raw = "Remove terrain-to-bottom restriction"
 status = "normal"

@@ -2,9 +2,9 @@
 name = "zxuiji -m- Greedy Groups"
 
 [LB]
+raw = "-----------------------------------------------------------------"
 status = "normal"
 copy = true
-raw = "-----------------------------------------------------------------"
 enUS = "-----------------------------------------------------------------"
 zhCN = "-----------------------------------------------------------------"
 zhTW = "-----------------------------------------------------------------"
@@ -18,8 +18,9 @@ koKR = "-----------------------------------------------------------------"
 csCZ = "-----------------------------------------------------------------"
 
 [GN]
-status = "normal"
 raw = "                       Decoration                              "
+new = "a0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0Decorationxa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0."
+status = "normal"
 enUS = "Decoration"
 zhCN = "                       装饰                               "
 zhTW = "裝飾"
@@ -34,6 +35,7 @@ csCZ = "                       Dekorace                              "
 
 ["ToolGroups.GreedyFolktailCadre"]
 raw = "Folktail Cadre"
+new = "Folktailxa0Cadre"
 status = "normal"
 enUS = "Folktail Cadre"
 zhCN = "神尾分支"
@@ -49,6 +51,7 @@ csCZ = "Folktail Cadre"
 
 ["ToolGroups.GreedyIronTeethCadre"]
 raw = "IronTeeth Cadre"
+new = "IronTeethxa0Cadre"
 status = "normal"
 enUS = "IronTeeth Cadre"
 zhCN = "铁牙分支"
@@ -64,6 +67,7 @@ csCZ = "IronTeeth Cadre"
 
 ["ToolGroups.GreedyEmberpeltCadre"]
 raw = "Emberpelt Cadre"
+new = "Emberpeltxa0Cadre"
 status = "normal"
 enUS = "Emberpelt Cadre"
 zhCN = "火绒分支"
@@ -79,6 +83,7 @@ csCZ = "Skupina Dělníků Emberpelt"
 
 ["ToolGroups.GreedyLeafCoatCadre"]
 raw = "Leafcoat Cadre"
+new = "Leafcoatxa0Cadre"
 status = "normal"
 enUS = "Leafcoat Cadre"
 zhCN = "叶纹分支"
@@ -94,6 +99,7 @@ csCZ = "Listová uniforma"
 
 ["ToolGroups.GreedyAmpEarCadre"]
 raw = "AmpEar Cadre"
+new = "AmpEarxa0Cadre"
 status = "normal"
 enUS = "AmpEar Cadre"
 zhCN = "阔耳分支"
@@ -109,6 +115,7 @@ csCZ = "AmpEar Kadra"
 
 ["ToolGroups.GreedyCopperClawCadre"]
 raw = "Copperclaw Cadre"
+new = "Copperclawxa0Cadre"
 status = "normal"
 enUS = "Copperclaw Cadre"
 zhCN = "铜掌分支"
@@ -124,6 +131,7 @@ csCZ = "Černorožcová skupina"
 
 ["ToolGroups.GreedyWhitepawCadre"]
 raw = "Whitepaw Cadre"
+new = "Whitepawxa0Cadre"
 status = "normal"
 enUS = "Whitepaw Cadre"
 zhCN = "白爪分支"
@@ -289,6 +297,7 @@ csCZ = "Žebříky"
 
 ["ToolGroups.GreedyBridges"]
 raw = "Suspension Bridges"
+new = "Suspensionxa0Bridges"
 status = "normal"
 enUS = "Suspension Bridges"
 zhCN = "吊桥"
@@ -349,6 +358,7 @@ csCZ = "Chodníky"
 
 ["ToolGroups.GreedyTubewayBridges"]
 raw = "Tubeway Bridges"
+new = "Tubewayxa0Bridges"
 status = "normal"
 enUS = "Tubeway Bridges"
 zhCN = "吊桥管路"
@@ -377,6 +387,21 @@ ptBR = "Aceleradores"
 koKR = "부스터"
 csCZ = "Boostery"
 
+["ToolGroups.GreedyGates"]
+raw = "Gates"
+status = "abandoned"
+enUS = "Gates"
+zhCN = "门"
+zhTW = "大門"
+ruRU = "Ворота"
+jaJP = "ゲート"
+frFR = "Portes"
+deDE = "Tore"
+plPL = "Brama"
+ptBR = "Portões"
+koKR = "게이트"
+csCZ = "Brány"
+
 ["ToolGroups.GreedyOverhangs"]
 raw = "Overhangs"
 status = "normal"
@@ -394,6 +419,7 @@ csCZ = "Přesahy"
 
 ["ToolGroups.GreedyMetalPlatforms"]
 raw = "Metal Platforms"
+new = "Metalxa0Platforms"
 status = "normal"
 enUS = "Metal Platforms"
 zhCN = "金属平台"
@@ -409,6 +435,7 @@ csCZ = "Metalové platformy"
 
 ["ToolGroups.GreedyOtherPlatforms"]
 raw = "Other Platforms"
+new = "Otherxa0Platforms"
 status = "normal"
 enUS = "Other Platforms"
 zhCN = "其他平台"
@@ -424,6 +451,7 @@ csCZ = "Jiné platformy"
 
 ["ToolGroups.GreedyBombs"]
 raw = "Land Removal"
+new = "Landxa0Removal"
 status = "normal"
 enUS = "Land Removal"
 zhCN = "地表挖掘"
@@ -484,6 +512,7 @@ csCZ = "Poplatky"
 
 ["ToolGroups.GreedyLeveeBlocks"]
 raw = "Levee Blocks"
+new = "Leveexa0Blocks"
 status = "normal"
 enUS = "Levee Blocks"
 zhCN = "方形防洪堤"
@@ -499,6 +528,7 @@ csCZ = "Sídliště"
 
 ["ToolGroups.GreedyLeveeCorners"]
 raw = "Levee Corners"
+new = "Leveexa0Corners"
 status = "normal"
 enUS = "Levee Corners"
 zhCN = "转角防洪堤"
@@ -514,6 +544,7 @@ csCZ = "Rohy hrází"
 
 ["ToolGroups.GreedyLeveeLedges"]
 raw = "Levee Ledges"
+new = "Leveexa0Ledges"
 status = "normal"
 enUS = "Levee Ledges"
 zhCN = "悬挑防洪堤"
@@ -529,6 +560,7 @@ csCZ = " hrázděné hráze"
 
 ["ToolGroups.GreedyLeveeSlopes"]
 raw = "Levee Slopes"
+new = "Leveexa0Slopes"
 status = "normal"
 enUS = "Levee Slopes"
 zhCN = "斜坡防洪堤"
@@ -544,6 +576,7 @@ csCZ = "Svahy hrází"
 
 ["ToolGroups.GreedyLevies1xN"]
 raw = "Levies 1xN"
+new = "Leviesxa01xN"
 status = "normal"
 enUS = "Levies 1xN"
 zhCN = "防洪堤 1xN"
@@ -559,6 +592,7 @@ csCZ = "Vybírání 1xN"
 
 ["ToolGroups.GreedyLevies2xN"]
 raw = "Levies 2xN"
+new = "Leviesxa02xN"
 status = "normal"
 enUS = "Levies 2xN"
 zhCN = "防洪堤 2xN"
@@ -574,6 +608,7 @@ csCZ = "Zdanění 2xN"
 
 ["ToolGroups.GreedyLevies3xN"]
 raw = "Levies 3xN"
+new = "Leviesxa03xN"
 status = "normal"
 enUS = "Levies 3xN"
 zhCN = "防洪堤 3xN"
@@ -589,6 +624,7 @@ csCZ = "Poplatky 3xN"
 
 ["ToolGroups.GreedyLandFill"]
 raw = "Land Fill"
+new = "Landxa0Fill"
 status = "normal"
 enUS = "Land Fill"
 zhCN = "地形填充"
@@ -632,6 +668,21 @@ ptBR = "Habitação"
 koKR = "주택"
 csCZ = "Bydlení"
 
+["ToolGroups.GreedyPumps"]
+raw = "Pumps"
+status = "abandoned"
+enUS = "Pumps"
+zhCN = "取水"
+zhTW = "抽水機"
+ruRU = "Насосы"
+jaJP = "ポンプ"
+frFR = "Pompes"
+deDE = "Pumpen"
+plPL = "Pompy"
+ptBR = "Bombeiros"
+koKR = "펌프"
+csCZ = "Čerpadla"
+
 ["ToolGroups.GreedyFood"]
 raw = "Food"
 status = "normal"
@@ -661,6 +712,22 @@ plPL = "Związki płynne"
 ptBR = "Fluidos"
 koKR = "액체"
 csCZ = "Tekutiny"
+
+["ToolGroups.GreedyFluidSeals"]
+raw = "Fluid Seals"
+new = "Fluidxa0Seals"
+status = "abandoned"
+enUS = "Fluid Seals"
+zhCN = "控水"
+zhTW = "流體密封"
+ruRU = "Жидкостные уплотнения"
+jaJP = "流体シール"
+frFR = "Jointures fluides"
+deDE = "Flüssigkeitsdichtungen"
+plPL = "Uszczelki płynowe"
+ptBR = "Selos de Fluido"
+koKR = "유체 씰"
+csCZ = "Tekuté těsnění"
 
 ["ToolGroups.GreedyWood"]
 raw = "Wood"
@@ -814,6 +881,7 @@ csCZ = "Výzkumníci"
 
 ["ToolGroups.GreedyBotAssembly"]
 raw = "Bot Assembly"
+new = "Botxa0Assembly"
 status = "normal"
 enUS = "Bot Assembly"
 zhCN = "机关人组装"
@@ -829,6 +897,7 @@ csCZ = "Montáž robota"
 
 ["ToolGroups.GreedyBotSupport"]
 raw = "Bot Support"
+new = "Botxa0Support"
 status = "normal"
 enUS = "Bot Support"
 zhCN = "机关人支持"
@@ -904,6 +973,7 @@ csCZ = "Šachty"
 
 ["ToolGroups.GreedyPowerWheels"]
 raw = "Power Wheels"
+new = "Powerxa0Wheels"
 status = "normal"
 enUS = "Power Wheels"
 zhCN = "能量轮"
@@ -919,6 +989,7 @@ csCZ = "Napájecí kola"
 
 ["ToolGroups.GreedyFluidWheels"]
 raw = "Fluid Wheels"
+new = "Fluidxa0Wheels"
 status = "normal"
 enUS = "Fluid Wheels"
 zhCN = "水轮"
@@ -1069,6 +1140,7 @@ csCZ = "Úžas"
 
 ["ToolGroups.GreedyBlockDecor"]
 raw = "Block Decor"
+new = "Blockxa0Decor"
 status = "normal"
 enUS = "Block Decor"
 zhCN = "装饰块"
@@ -1084,6 +1156,7 @@ csCZ = "Bloková dekorace"
 
 ["ToolGroups.GreedyDecorBlocks"]
 raw = "Decor Blocks"
+new = "Decorxa0Blocks"
 status = "normal"
 enUS = "Decor Blocks"
 zhCN = "方形装饰块"
@@ -1099,6 +1172,7 @@ csCZ = "Dekorační bloky"
 
 ["ToolGroups.GreedyDecorCorners"]
 raw = "Decor Corners"
+new = "Decorxa0Corners"
 status = "normal"
 enUS = "Decor Corners"
 zhCN = "转角装饰块"
@@ -1114,6 +1188,7 @@ csCZ = "Rohové dekorace"
 
 ["ToolGroups.GreedyDecorLedges"]
 raw = "Decor Ledges"
+new = "Decorxa0Ledges"
 status = "normal"
 enUS = "Decor Ledges"
 zhCN = "悬挑装饰块"
@@ -1129,6 +1204,7 @@ csCZ = "Dekorační římsy"
 
 ["ToolGroups.GreedyDecorSlopes"]
 raw = "Decor Slopes"
+new = "Decorxa0Slopes"
 status = "normal"
 enUS = "Decor Slopes"
 zhCN = "斜坡装饰块"
@@ -1144,6 +1220,7 @@ csCZ = "Dekorativní svahy"
 
 ["ToolGroups.GreedyDecorOther"]
 raw = "Other Decor"
+new = "Otherxa0Decor"
 status = "normal"
 enUS = "Other Decor"
 zhCN = "其他装饰"
@@ -1156,48 +1233,3 @@ plPL = "Inne dekoracje"
 ptBR = "Outros Decorativos"
 koKR = "기타 장식"
 csCZ = "Jiné dekorace"
-
-["ToolGroups.GreedyGates"]
-raw = "Gates"
-status = "abandoned"
-enUS = "Gates"
-zhCN = "门"
-zhTW = "大門"
-ruRU = "Ворота"
-jaJP = "ゲート"
-frFR = "Portes"
-deDE = "Tore"
-plPL = "Brama"
-ptBR = "Portões"
-koKR = "게이트"
-csCZ = "Brány"
-
-["ToolGroups.GreedyPumps"]
-raw = "Pumps"
-status = "abandoned"
-enUS = "Pumps"
-zhCN = "取水"
-zhTW = "抽水機"
-ruRU = "Насосы"
-jaJP = "ポンプ"
-frFR = "Pompes"
-deDE = "Pumpen"
-plPL = "Pompy"
-ptBR = "Bombeiros"
-koKR = "펌프"
-csCZ = "Čerpadla"
-
-["ToolGroups.GreedyFluidSeals"]
-raw = "Fluid Seals"
-status = "abandoned"
-enUS = "Fluid Seals"
-zhCN = "控水"
-zhTW = "流體密封"
-ruRU = "Жидкостные уплотнения"
-jaJP = "流体シール"
-frFR = "Jointures fluides"
-deDE = "Flüssigkeitsdichtungen"
-plPL = "Uszczelki płynowe"
-ptBR = "Selos de Fluido"
-koKR = "유체 씰"
-csCZ = "Tekuté těsnění"
