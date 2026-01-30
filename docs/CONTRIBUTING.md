@@ -2,9 +2,9 @@
 
 ## Join us
 
-First you need a GitHub account, then open a new issue named [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues), then I will give you edit permissions for the repository.
+First you need a GitHub account, if not, [sign up](https://github.com/signup) one. Then fill this form [JOIN US](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/issues/new?template=11-JOIN_US.yml), then I will give you edit permissions for the repository.
 
-You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. We do not require signatures for commits.
+You can use any git software (such as [Github desktop](https://github.com/apps/desktop)) + text editor (such as [VSC](https://code.visualstudio.com/download)) to edit and upload your changes. Or, just edit in online editor. We do not require signatures for commits.
 
 An automatic script will create the latest language CSV files based on `/data`, publish every day.
 
