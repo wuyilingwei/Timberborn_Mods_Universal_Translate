@@ -10,7 +10,7 @@ This project maintains a **large, shared translation database**.
 You need a GitHub account to contribute.
 
 - If you don’t have one, sign up here:  
-  👉 https://github.com/signup
+  👉 [sign up](https://github.com/signup?return_to=https%3A%2F%2Fgithub.com%2Fwuyilingwei%2FTimberborn_Mods_Universal_Translate%2Fissues%2Fnew%3Ftemplate%3D11-JOIN_US.yml&source=login)
 
 ---
 
