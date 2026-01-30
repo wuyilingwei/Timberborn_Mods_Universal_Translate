@@ -1,6 +1,6 @@
 # Timberborn Mods Universial Translate
 
-![(.github/data/thumbnail.png)
+![](.github/data/thumbnail.png)
 
 ### **Get mod?**
 
