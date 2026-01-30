@@ -272,12 +272,34 @@ koKR = "당신은 성능 영향으로 인해 3개의 매달린 지형 한도를 
 csCZ = "Můžete překročit limit 3 visících terénů až na 50 (ne vyšší kvůli dopadu na výkon)"
 
 ["LV.NBR.SuperHangingTerrainLimit"]
-new = "Super hanging terrain limit"
 status = "normal"
+raw = "Super hanging terrain limit"
+zhCN = "超级悬挂地形极限"
+ruRU = "Супер ограничение висячей местности"
+enUS = "Super hanging terrain limit"
+plPL = "Super wiszący limit terenu"
+frFR = "Limite de terrain super suspendue"
+koKR = "슈퍼 매달린 지형 한계"
+deDE = "Superhängendes Geländelimit"
+zhTW = "超懸掛地形限制"
+ptBR = "Limite de terreno super suspenso"
+jaJP = "スーパーハンギングテレインリミット"
+csCZ = "Super visící terénní limit"
 
 ["LV.NBR.SuperHangingTerrainLimitDesc"]
-new = "How many hanging terrain pieces you can have (increase may impact performance)"
 status = "normal"
+raw = "How many hanging terrain pieces you can have (increase may impact performance)"
+zhTW = "“您可以擁有多少個懸掛地形塊（增加可能會影響性能）”"
+enUS = "How many hanging terrain pieces you can have (increasing this may impact performance)"
+zhCN = "“你可以拥有多少个悬挂地形块（增加可能会影响性能）”"
+deDE = "Wie viele hängende Terrainstücke Sie haben können (eine Erhöhung kann die Leistung beeinträchtigen)"
+ptBR = "Quantas peças de terreno suspenso você pode ter (aumentar pode impactar o desempenho)"
+ruRU = "Сколько висячих участков местности у вас может быть (увеличение может повлиять на производительность)"
+frFR = "Nombre de morceaux de terrain suspendus que vous pouvez avoir (l'augmentation peut impacter les performances)"
+plPL = "Ile wiszących elementów terenu możesz mieć (zwiększenie może wpłynąć na wydajność)"
+jaJP = "ハンギングテレインのピースをいくつ持つことができるか（増加するとパフォーマンスに影響を与える場合があります）"
+koKR = "얼마나 많은 매달린 지형 조각을 가질 수 있는지 (증가하면 성능에 영향을 줄 수 있음)"
+csCZ = "Kolik visících terénních kusů můžete mít (zvýšení může ovlivnit výkon)"
 
 ["LV.NBR.NoBottomOfMap"]
 raw = "Remove terrain-to-bottom restriction"
