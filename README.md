@@ -40,7 +40,7 @@ Become a legend.
 BECOME A TRANSLATOR.
 ```
 
-Want to contribute? See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details on how to join and our translation rules.
+Want to contribute? See [CONTRIBUTING](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate?tab=contributing-ov-file) for details on how to join and our translation rules.
 
 ## Documentation
 
