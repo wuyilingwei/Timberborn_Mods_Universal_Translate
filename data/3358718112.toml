@@ -46,51 +46,6 @@ ptBR = "Toc Toc"
 koKR = "링 링"
 csCZ = "Zvoní zvon"
 
-["Knatte.WaterAlarm11.DisplayName"]
-raw = "Stream Gauge 11 High"
-status = "normal"
-enUS = "Stream Gauge 11 High"
-zhCN = "超高水流计"
-zhTW = "流量計11高"
-ruRU = "Стримовый индикатор 11 Высокий"
-jaJP = "ストリームゲージ11高"
-frFR = "Débit 11 Élevé"
-deDE = "Messgerät 11 Hoch"
-plPL = "Miernik przepływu 11 Wysoki"
-ptBR = "Bóia de Nível 11 Alta"
-koKR = "하천 게이지 11 높음"
-csCZ = "Úroveň toku 11 vysoká"
-
-["Knatte.WaterAlarm11.Description"]
-raw = "A Big Streamgauge."
-status = "normal"
-enUS = "A Big Stream Gauge."
-zhCN = "测量水深、流量和恶水污染，有11米高。"
-zhTW = "一個大溪流測量器。"
-ruRU = "Большой потокомер."
-jaJP = "大きなストリームゲージ。"
-frFR = "Un grand débitmètre."
-deDE = "Eine große Streamgauge."
-plPL = "Duża skala przepływu."
-ptBR = "Um Grande Medidor de Fluxo."
-koKR = "큰 스트림 게이지."
-csCZ = "Velký vodoměr."
-
-["Knatte.WaterAlarm11.FlavorDescription"]
-raw = "Mario Jump"
-status = "normal"
-enUS = "Mario Jump"
-zhCN = "“呀呼！”（跳跃声）"
-zhTW = "瑪莉歐跳躍"
-ruRU = "Марио Прыжок"
-jaJP = "マリオジャンプ"
-frFR = "Mario Saut"
-deDE = "Mario Springen"
-plPL = "Mario Skok"
-ptBR = "Mario Salto"
-koKR = "마리오 점프"
-csCZ = "Mario skok"
-
 ["Knatte.MetalFloodgate.DisplayName"]
 raw = "Metal Flood gate"
 status = "normal"
@@ -136,9 +91,54 @@ ptBR = "Portões de Inundação de Metal"
 koKR = "금속 홍수 게이트"
 csCZ = "Metalové záplavy"
 
+["Knatte.WaterAlarm11.DisplayName"]
+raw = "Stream Gauge 11 High"
+status = "abandoned"
+enUS = "Stream Gauge 11 High"
+zhCN = "超高水流计"
+zhTW = "流量計11高"
+ruRU = "Стримовый индикатор 11 Высокий"
+jaJP = "ストリームゲージ11高"
+frFR = "Débit 11 Élevé"
+deDE = "Messgerät 11 Hoch"
+plPL = "Miernik przepływu 11 Wysoki"
+ptBR = "Bóia de Nível 11 Alta"
+koKR = "하천 게이지 11 높음"
+csCZ = "Úroveň toku 11 vysoká"
+
+["Knatte.WaterAlarm11.Description"]
+raw = "A Big Streamgauge."
+status = "abandoned"
+enUS = "A Big Stream Gauge."
+zhCN = "测量水深、流量和恶水污染，有11米高。"
+zhTW = "一個大溪流測量器。"
+ruRU = "Большой потокомер."
+jaJP = "大きなストリームゲージ。"
+frFR = "Un grand débitmètre."
+deDE = "Eine große Streamgauge."
+plPL = "Duża skala przepływu."
+ptBR = "Um Grande Medidor de Fluxo."
+koKR = "큰 스트림 게이지."
+csCZ = "Velký vodoměr."
+
+["Knatte.WaterAlarm11.FlavorDescription"]
+raw = "Mario Jump"
+status = "abandoned"
+enUS = "Mario Jump"
+zhCN = "“呀呼！”（跳跃声）"
+zhTW = "瑪莉歐跳躍"
+ruRU = "Марио Прыжок"
+jaJP = "マリオジャンプ"
+frFR = "Mario Saut"
+deDE = "Mario Springen"
+plPL = "Mario Skok"
+ptBR = "Mario Salto"
+koKR = "마리오 점프"
+csCZ = "Mario skok"
+
 ["Knatte.MetalFloodgate1.DisplayName"]
 raw = "Metal Flood gate 1 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood gate 1 High"
 zhCN = "金属闸门"
 zhTW = "金屬防洪閘門 1格高"
@@ -153,7 +153,7 @@ csCZ = "Kovová hráz 1 Vysoká"
 
 ["Knatte.MetalFloodgate2.DisplayName"]
 raw = "Metal Flood gate 2 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 2 High"
 zhCN = "双重金属闸门"
 zhTW = "金屬洪水閘 2 高"
@@ -168,7 +168,7 @@ csCZ = "Kovová hráz 2 Vysoká"
 
 ["Knatte.MetalFloodgate3.DisplayName"]
 raw = "Metal Flood gate 3 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 3 High"
 zhCN = "三重金属闸门"
 zhTW = "金屬洪水閘 3 高"
@@ -183,7 +183,7 @@ csCZ = "Metalový přepad 3 Vysoký"
 
 ["Knatte.MetalFloodgate4.DisplayName"]
 raw = "Metal Flood gate 4 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 4 High"
 zhCN = "四重金属闸门"
 zhTW = "金屬閘門 4 高"
@@ -198,7 +198,7 @@ csCZ = "Metalová hráz 4 Vysoká"
 
 ["Knatte.MetalFloodgate5.DisplayName"]
 raw = "Metal Flood gate 5 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 5 High"
 zhCN = "五重金属闸门"
 zhTW = "金屬洪水閘 5 高"
@@ -213,7 +213,7 @@ csCZ = "Metalová hráz 5 Vysoká"
 
 ["Knatte.MetalFloodgate6.DisplayName"]
 raw = "Metal Flood gate 6 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 6 High"
 zhCN = "六重金属闸门"
 zhTW = "金屬防洪閘 6 高"
@@ -228,7 +228,7 @@ csCZ = "Metalová povodňová brána 6 Vysoká"
 
 ["Knatte.MetalFloodgate7.DisplayName"]
 raw = "Metal Flood gate 7 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 7 High"
 zhCN = "七重金属闸门"
 zhTW = "金屬洪水閘 7 高"
@@ -243,7 +243,7 @@ csCZ = "Metalová zátka 7 Vysoká"
 
 ["Knatte.MetalFloodgate8.DisplayName"]
 raw = "Metal Flood gate 8 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal flood gate 8 high"
 zhCN = "八重金属闸门"
 zhTW = "金屬防洪閘 8 高"
@@ -258,7 +258,7 @@ csCZ = "Metalová clona 8 vysoká"
 
 ["Knatte.MetalFloodgate9.DisplayName"]
 raw = "Metal Flood gate 9 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 9 High"
 zhCN = "九重金属闸门"
 zhTW = "金屬洪水閘 9 高"
@@ -273,7 +273,7 @@ csCZ = "Metalová zaplavovací brána 9 vysoká"
 
 ["Knatte.MetalFloodgate10.DisplayName"]
 raw = "Metal Flood gate 10 High"
-status = "normal"
+status = "abandoned"
 enUS = "Metal Flood Gate 10 High"
 zhCN = "十重金属闸门"
 zhTW = "金屬閘門 10 高"
@@ -288,7 +288,7 @@ csCZ = "Metalová hráz 10 vysoce"
 
 ["Knatte.Aqueduct_MetalFloodgate.DisplayName"]
 raw = "Aqueduct Metal Flood gate 1 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 1 High"
 zhCN = "水渠闸门"
 zhTW = "水道金屬閘門 1 高"
@@ -303,7 +303,7 @@ csCZ = "Akvaduktová kovová stavidla 1 High"
 
 ["Knatte.Aqueduct_MetalFloodgate.Description"]
 raw = "Bigger better Flood gate that can be stacked stuff on top in Aqueduct theme"
-status = "normal"
+status = "abandoned"
 enUS = "Bigger, better flood gate that can have items stacked on top in an aqueduct theme."
 zhCN = "阻挡一定高度的水位，高度可调节。使用了水渠材质。<br><color=#FFA500>水渠在 Water Extention 模组内。</color>"
 zhTW = "更大更好的洪水閘門，可以在水道主題中堆疊物品。"
@@ -318,7 +318,7 @@ csCZ = "Větší lepší vodní brána, na kterou lze položit další věci v t
 
 ["Knatte.Aqueduct_Floodgate.DisplayName"]
 raw = "Aqueduct style Metal Flood gates"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct style metal flood gates"
 zhCN = "水渠闸门"
 zhTW = "水道風格金屬洪水閘門"
@@ -333,7 +333,7 @@ csCZ = "Vodní hradby ve stylu akvaduktu"
 
 ["Knatte.Aqueduct_MetalFloodgate2.DisplayName"]
 raw = "Aqueduct Metal Flood gate 2 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 2 High"
 zhCN = "双重水渠闸门"
 zhTW = "水道金屬洪水閘門 2 高"
@@ -348,7 +348,7 @@ csCZ = "Akvaduktová kovová zábrana 2 vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate3.DisplayName"]
 raw = "Aqueduct Metal Flood gate 3 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 3 High"
 zhCN = "三重水渠闸门"
 zhTW = "水道金屬閘門 3 高"
@@ -363,7 +363,7 @@ csCZ = "Akvaduktová kovová uzávěrka 3 vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate4.DisplayName"]
 raw = "Aqueduct Metal Flood gate 4 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 4 High"
 zhCN = "四重水渠闸门"
 zhTW = "水道金屬洪水閘門 4 高"
@@ -378,7 +378,7 @@ csCZ = "Akvaduktová metalová výpust 4 vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate5.DisplayName"]
 raw = "Aqueduct Metal Flood gate 5 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 5 High"
 zhCN = "五重水渠闸门"
 zhTW = "水道金屬閘門5高"
@@ -393,7 +393,7 @@ csCZ = "Akvaduktová kovová hráz 5 Vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate6.DisplayName"]
 raw = "Aqueduct Metal Flood gate 6 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 6 High"
 zhCN = "六重水渠闸门"
 zhTW = "水道金屬閘門 6 高"
@@ -408,7 +408,7 @@ csCZ = "Akvaduktová kovová vrata 6 vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate7.DisplayName"]
 raw = "Aqueduct Metal Flood gate 7 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 7 High"
 zhCN = "七重水渠闸门"
 zhTW = "水道金屬閘門 7 高"
@@ -423,7 +423,7 @@ csCZ = "Akvaduktové kovové přítokové vrata 7 Vysoké"
 
 ["Knatte.Aqueduct_MetalFloodgate8.DisplayName"]
 raw = "Aqueduct Metal Flood gate 8 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 8 High"
 zhCN = "八重水渠闸门"
 zhTW = "水道金屬閘門 8 高"
@@ -438,7 +438,7 @@ csCZ = "Akvaduktová kovová propust 8 Vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate9.DisplayName"]
 raw = "Aqueduct Metal Flood gate 9 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 9 High"
 zhCN = "九重水渠闸门"
 zhTW = "水道金屬閘門 9 高"
@@ -453,7 +453,7 @@ csCZ = "Akvaduktová kovová přehradní brána 9 Vysoká"
 
 ["Knatte.Aqueduct_MetalFloodgate10.DisplayName"]
 raw = "Aqueduct Metal Flood gate 10 High"
-status = "normal"
+status = "abandoned"
 enUS = "Aqueduct Metal Flood Gate 10 High"
 zhCN = "十重水渠闸门"
 zhTW = "水道金屬閘門 10 高"

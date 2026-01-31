@@ -211,21 +211,6 @@ ptBR = "Quanto tempo a terra permanece livre de contaminação (dias) quando a c
 koKR = "악천후가 활성화될 때 오염이 없는 상태가 유지되는 기간(일)."
 csCZ = "Jak dlouho je půda bez kontaminace (dny), když je aktivní špatný déšť."
 
-["LV.MWSb.Update704"]
-raw = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
-status = "normal"
-enUS = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
-zhCN = "污尘强度设置单位已修改为%（原为‰）。<br>默认值已修改为0.1%（原为5‰，即0.5%）。"
-zhTW = "天空污染強度的設定單位現在為%而不是‰。您也可以通過使用小數來設置更小的數字。預設值設為0.1%（比之前的預設設置慢5倍）。"
-ruRU = "Настройка силы Skyblight теперь отображается в процентах вместо промилле.\nВы также можете установить ее на меньшее число, используя десятичные дроби.\nЗначение по умолчанию установлено на 0,1% (в 5 раз медленнее, чем предыдущие настройки по умолчанию)."
-jaJP = "空の害の強さ設定単位が‰から%になりました。小数を使用してより小さな数値に設定することもできます。デフォルト値は0.1%に設定されており（以前のデフォルト設定の5倍遅い）、なっています。"
-frFR = "Le paramètre de force du Skyblight est désormais exprimé en % au lieu de ‰. Vous pouvez également le régler sur un nombre plus petit en utilisant des décimales. La valeur par défaut est fixée à 0,1 % (5 fois plus lente que les paramètres par défaut précédents)."
-deDE = "Der Wert für die Skyblight-Stärke-Einstellungseinheit beträgt jetzt % statt ‰. Sie können ihn auch auf eine kleinere Zahl einstellen, indem Sie Dezimalzahlen verwenden. Der Standardwert ist auf 0,1 % (5-mal langsamer als die vorherigen Standardeinstellungen) festgelegt."
-plPL = "Ustawienie jednostki mocy Skyblight jest teraz w % zamiast ‰. Możesz również ustawić mniejszą liczbę, używając wartości dziesiętnej. Wartość domyślna wynosi 0,1% (5 razy wolniej niż poprzednie ustawienia domyślne)."
-ptBR = "A unidade de configuração da força Skyblight agora é % em vez de ‰. Você também pode definir um número menor usando decimal. O valor padrão é definido como 0,1% (5 vezes mais lento do que as configurações padrão anteriores)."
-koKR = "Skyblight 강도 설정 단위가 ‰ 대신 %로 변경되었습니다.\n소수점을 사용하여 더 작은 숫자로 설정할 수도 있습니다.\n기본값은 0.1%로 설정되어 있으며, 이전 기본 설정보다 5배 느립니다."
-csCZ = "Nastavení síly Skyblight je nyní % místo ‰. Můžete také nastavit menší číslo pomocí desetinných míst. Výchozí hodnota je nastavena na 0,1 % (5krát pomaleji než předchozí výchozí nastavení)."
-
 ["LV.MWSb.SkyblightDesc"]
 raw = "Hazardous weather: All water get contaminated over time. Does not affect waters in storage (Tanks)."
 status = "normal"
@@ -255,3 +240,18 @@ plPL = "Zagrożenia pogodowe: Taki sam efekt jak Skyblight i dodatkowe efekty do
 ptBR = "Nome da chave: LV.MWSb.BadrainDesc - Texto traduzido: \"Clima perigoso: Mesmo efeito que a Skyblight e efeitos adicionais selecionáveis:\n- Limitar Faixa de Umidade: sua terra pode carregar umidade apenas em uma faixa muito menor.\n- Contaminar a Terra: a terra será contaminada de tempos em tempos.\""
 koKR = "위험한 날씨: 스카이 블라이트와 같은 효과 및 선택 가능한 추가 효과:\n- 수분 범위 제한: 당신의 땅은 훨씬 더 작은 범위의 수분만 유지할 수 있습니다.\n- 토지 오염: 땅은 가끔씩 오염됩니다."
 csCZ = "Nebezpečné počasí: stejný efekt jako Utrpení Nebes a volitelné dodatečné efekty:\n- Omezit rozsah vlhkosti: vaše půda může nést vlhkost pouze v mnohem menším rozsahu.\n- Znečištění půdy: půda bude občas znečištěna."
+
+["LV.MWSb.Update704"]
+raw = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
+status = "abandoned"
+enUS = "The Skyblight Strength setting unit is now % instead of ‰.\nYou can also set it to smaller number by using decimal.\nThe default value is set to 0.1% (5 times slower than previous default settings)."
+zhCN = "污尘强度设置单位已修改为%（原为‰）。<br>默认值已修改为0.1%（原为5‰，即0.5%）。"
+zhTW = "天空污染強度的設定單位現在為%而不是‰。您也可以通過使用小數來設置更小的數字。預設值設為0.1%（比之前的預設設置慢5倍）。"
+ruRU = "Настройка силы Skyblight теперь отображается в процентах вместо промилле.\nВы также можете установить ее на меньшее число, используя десятичные дроби.\nЗначение по умолчанию установлено на 0,1% (в 5 раз медленнее, чем предыдущие настройки по умолчанию)."
+jaJP = "空の害の強さ設定単位が‰から%になりました。小数を使用してより小さな数値に設定することもできます。デフォルト値は0.1%に設定されており（以前のデフォルト設定の5倍遅い）、なっています。"
+frFR = "Le paramètre de force du Skyblight est désormais exprimé en % au lieu de ‰. Vous pouvez également le régler sur un nombre plus petit en utilisant des décimales. La valeur par défaut est fixée à 0,1 % (5 fois plus lente que les paramètres par défaut précédents)."
+deDE = "Der Wert für die Skyblight-Stärke-Einstellungseinheit beträgt jetzt % statt ‰. Sie können ihn auch auf eine kleinere Zahl einstellen, indem Sie Dezimalzahlen verwenden. Der Standardwert ist auf 0,1 % (5-mal langsamer als die vorherigen Standardeinstellungen) festgelegt."
+plPL = "Ustawienie jednostki mocy Skyblight jest teraz w % zamiast ‰. Możesz również ustawić mniejszą liczbę, używając wartości dziesiętnej. Wartość domyślna wynosi 0,1% (5 razy wolniej niż poprzednie ustawienia domyślne)."
+ptBR = "A unidade de configuração da força Skyblight agora é % em vez de ‰. Você também pode definir um número menor usando decimal. O valor padrão é definido como 0,1% (5 vezes mais lento do que as configurações padrão anteriores)."
+koKR = "Skyblight 강도 설정 단위가 ‰ 대신 %로 변경되었습니다.\n소수점을 사용하여 더 작은 숫자로 설정할 수도 있습니다.\n기본값은 0.1%로 설정되어 있으며, 이전 기본 설정보다 5배 느립니다."
+csCZ = "Nastavení síly Skyblight je nyní % místo ‰. Můžete také nastavit menší číslo pomocí desetinných míst. Výchozí hodnota je nastavena na 0,1 % (5krát pomaleji než předchozí výchozí nastavení)."
