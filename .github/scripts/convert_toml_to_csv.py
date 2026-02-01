@@ -148,6 +148,10 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
 
     for file_name in os.listdir(data_dir):
         if file_name.endswith(".toml"):
+            # 忽略术语表文件
+            if file_name == "_glossary.toml":
+                continue
+            
             # 提取 mod_id（不再区分版本）
             match = re.search(r"(\d+)\.toml", file_name)
             if not match:
