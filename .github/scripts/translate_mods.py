@@ -109,6 +109,11 @@ def merge_glossaries(global_glossary: Dict[str, Dict[str, str]],
         
     Returns:
         Merged glossary with local terms overriding global terms
+        
+    Note:
+        This function merges glossaries at the term level, but translation lookup
+        respects the 'all' keyword priority: local_specific > local_all > global_specific > global_all
+        The merged dictionary stores metadata to distinguish local vs global sources.
     """
     if not global_glossary:
         return local_glossary or {}
@@ -116,18 +121,76 @@ def merge_glossaries(global_glossary: Dict[str, Dict[str, str]],
         return global_glossary
     
     # Start with a copy of global glossary
-    merged = dict(global_glossary)
+    merged = {}
     
-    # Override with local glossary terms
+    # Add all global terms first
+    for term, translations in global_glossary.items():
+        merged[term] = {'_global': translations.copy()}
+    
+    # Add or merge local glossary terms
     for term, translations in local_glossary.items():
         if term in merged:
-            # Merge translations for existing term (local overrides global per language)
-            merged[term] = {**merged[term], **translations}
+            # Term exists in both - store local separately
+            merged[term]['_local'] = translations.copy()
         else:
-            # Add new term from local glossary
-            merged[term] = translations
+            # New term from local glossary
+            merged[term] = {'_local': translations.copy()}
     
     return merged
+
+
+def get_glossary_translation(
+    term_data: Dict,
+    target_language: str
+) -> Optional[str]:
+    """
+    Get translation for a term with proper priority handling
+    
+    Priority order:
+    1. Local glossary with specific language
+    2. Local glossary with 'all' keyword
+    3. Global glossary with specific language
+    4. Global glossary with 'all' keyword
+    
+    Args:
+        term_data: Dictionary containing '_local' and/or '_global' glossary data
+        target_language: Target language code
+        
+    Returns:
+        Translation string or None if not found
+    """
+    # Extract special keys
+    local_trans = term_data.get('_local', {})
+    global_trans = term_data.get('_global', {})
+    
+    # Remove special keys from translations (skip_hints, fuzzy_tolerance, translations)
+    def clean_translations(trans_dict):
+        if not trans_dict:
+            return {}
+        if 'translations' in trans_dict:
+            return trans_dict.get('translations', {})
+        return {k: v for k, v in trans_dict.items() if k not in ['skip_hints', 'fuzzy_tolerance', '_local', '_global']}
+    
+    local_clean = clean_translations(local_trans)
+    global_clean = clean_translations(global_trans)
+    
+    # Priority 1: Local specific language
+    if target_language in local_clean:
+        return local_clean[target_language]
+    
+    # Priority 2: Local 'all'
+    if 'all' in local_clean:
+        return local_clean['all']
+    
+    # Priority 3: Global specific language
+    if target_language in global_clean:
+        return global_clean[target_language]
+    
+    # Priority 4: Global 'all'
+    if 'all' in global_clean:
+        return global_clean['all']
+    
+    return None
 
 
 def fuzzy_match_term(text: str, term: str, tolerance: int = 2) -> bool:
@@ -194,6 +257,10 @@ def generate_glossary_hints(
         
     Returns:
         Tuple of (preprocessed_text, list of glossary hints)
+        
+    Note:
+        Supports 'all' keyword as fallback when specific language is not defined.
+        Priority: specific_language > 'all' keyword
     """
     if not glossary or not text:
         return text, []
@@ -208,24 +275,17 @@ def generate_glossary_hints(
     for term in sorted_terms:
         term_data = glossary.get(term, {})
         
-        # Skip if this is a dictionary with special flags
+        # Extract metadata from term_data  
         skip_hints = False
         fuzzy_tolerance = default_fuzzy_tolerance
-        translations = {}
         
-        # Check if term_data has special structure with 'translations' key
-        if isinstance(term_data, dict):
-            if 'skip_hints' in term_data:
-                skip_hints = term_data.get('skip_hints', False)
-                translations = term_data.get('translations', {})
-            elif 'fuzzy_tolerance' in term_data:
-                # Has custom fuzzy_tolerance
-                fuzzy_tolerance = term_data.get('fuzzy_tolerance', default_fuzzy_tolerance)
-                # Remove special keys to get translations
-                translations = {k: v for k, v in term_data.items() if k not in ['skip_hints', 'fuzzy_tolerance']}
-            else:
-                # Regular format: term_data is the translations dict
-                translations = term_data
+        # Check for metadata in either _local or _global
+        for source_key in ['_local', '_global']:
+            source_data = term_data.get(source_key, {})
+            if 'skip_hints' in source_data:
+                skip_hints = source_data.get('skip_hints', False)
+            if 'fuzzy_tolerance' in source_data:
+                fuzzy_tolerance = source_data.get('fuzzy_tolerance', default_fuzzy_tolerance)
         
         # Check for exact match (case-insensitive)
         import re
@@ -233,42 +293,76 @@ def generate_glossary_hints(
         match = pattern.search(text)
         
         if match:
-            if target_language in translations:
+            # Use new priority-based lookup
+            translation_found = get_glossary_translation(term_data, target_language)
+            
+            if translation_found:
                 # Exact match with translation available - replace (case-insensitive)
-                result = pattern.sub(translations[target_language], result)
+                result = pattern.sub(translation_found, result)
                 processed_terms.add(term)
-            elif not skip_hints and translations:
+            elif not skip_hints:
                 # Exact match but no translation for target language - add hint
-                # Only show the first available language from priority list
-                first_available = None
-                for lang in language_priority:
-                    if lang in translations:
-                        first_available = lang
-                        break
+                # Get all available translations for hint
+                local_trans = term_data.get('_local', {})
+                global_trans = term_data.get('_global', {})
                 
-                if first_available:
-                    hint = f'Term "{term}" in {first_available}: {translations[first_available]}'
-                    hints.append(hint)
-                    processed_terms.add(term)
+                # Collect all translations
+                all_translations = {}
+                for trans_dict in [global_trans, local_trans]:
+                    if 'translations' in trans_dict:
+                        all_translations.update(trans_dict['translations'])
+                    else:
+                        all_translations.update({k: v for k, v in trans_dict.items() 
+                                                if k not in ['skip_hints', 'fuzzy_tolerance', '_local', '_global']})
+                
+                if all_translations:
+                    # Only show the first available language from priority list
+                    first_available = None
+                    for lang in language_priority:
+                        if lang in all_translations:
+                            first_available = lang
+                            break
+                    
+                    if first_available:
+                        hint = f'Term "{term}" in {first_available}: {all_translations[first_available]}'
+                        hints.append(hint)
+                        processed_terms.add(term)
         
         # Check for fuzzy match (only for longer terms not already processed)
         elif len(term) >= 10 and term not in processed_terms:
             if fuzzy_match_term(text, term, fuzzy_tolerance):
                 # Fuzzy match found - add as hint (don't replace)
-                if target_language in translations:
-                    hint = f'Term "{term}" (fuzzy match) translates to "{translations[target_language]}" in {target_language}'
+                # Use new priority-based lookup
+                translation_found = get_glossary_translation(term_data, target_language)
+                
+                if translation_found:
+                    hint = f'Term "{term}" (fuzzy match) translates to "{translation_found}" in {target_language}'
                     hints.append(hint)
-                elif not skip_hints and translations:
-                    # Only show the first available language from priority list
-                    first_available = None
-                    for lang in language_priority:
-                        if lang in translations:
-                            first_available = lang
-                            break
+                elif not skip_hints:
+                    # Get all available translations for hint
+                    local_trans = term_data.get('_local', {})
+                    global_trans = term_data.get('_global', {})
                     
-                    if first_available:
-                        hint = f'Term "{term}" (fuzzy match) in {first_available}: {translations[first_available]}'
-                        hints.append(hint)
+                    # Collect all translations
+                    all_translations = {}
+                    for trans_dict in [global_trans, local_trans]:
+                        if 'translations' in trans_dict:
+                            all_translations.update(trans_dict['translations'])
+                        else:
+                            all_translations.update({k: v for k, v in trans_dict.items() 
+                                                    if k not in ['skip_hints', 'fuzzy_tolerance', '_local', '_global']})
+                    
+                    if all_translations:
+                        # Only show the first available language from priority list
+                        first_available = None
+                        for lang in language_priority:
+                            if lang in all_translations:
+                                first_available = lang
+                                break
+                        
+                        if first_available:
+                            hint = f'Term "{term}" (fuzzy match) in {first_available}: {all_translations[first_available]}'
+                            hints.append(hint)
                 processed_terms.add(term)
     
     return result, hints
@@ -312,10 +406,14 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     Args:
         text: Text to process (translated text)
         target_language: Target language code
-        glossary: Glossary dictionary (can be merged global+local)
+        glossary: Glossary dictionary (merged global+local with _local/_global structure)
         
     Returns:
         Text with glossary terms replaced
+        
+    Note:
+        Supports 'all' keyword as fallback when specific language is not defined.
+        Priority: local_specific > local_all > global_specific > global_all
     """
     if not glossary or not text:
         return text
@@ -325,21 +423,16 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     
     result = text
     for term in sorted_terms:
-        translations = glossary.get(term, {})
+        term_data = glossary.get(term, {})
         
-        # Handle both old format and new format with special keys
-        if isinstance(translations, dict) and 'translations' in translations:
-            # New format with skip_hints, fuzzy_tolerance etc.
-            actual_translations = translations.get('translations', {})
-        else:
-            # Old format or regular translations dict
-            actual_translations = {k: v for k, v in translations.items() if k not in ['skip_hints', 'fuzzy_tolerance']}
+        # Use new priority-based lookup
+        translation_to_use = get_glossary_translation(term_data, target_language)
         
-        if target_language in actual_translations:
+        if translation_to_use:
             # Case-insensitive replacement while preserving original case
             import re
             pattern = re.compile(re.escape(term), re.IGNORECASE)
-            result = pattern.sub(actual_translations[target_language], result)
+            result = pattern.sub(translation_to_use, result)
     
     return result
 

@@ -54,11 +54,41 @@ zhCN = "翻译"
 zhTW = "翻譯"
 # Only define languages you need
 
+# Use 'all' keyword as fallback for all languages
+[_meta.glossary."UniversalTerm"]
+all = "通用术语"  # Used when specific language is not defined
+
 # Advanced format with options
 [_meta.glossary."AdvancedTerm"]
 skip_hints = true  # Don't show hints for missing translations
 fuzzy_tolerance = 3  # Custom tolerance for fuzzy matching
 zhCN = "高级术语"
+all = "高级术语"  # Fallback for other languages
+```
+
+###### 'all' Keyword Priority
+
+When resolving translations, the system follows this priority order:
+1. **Local (mod-specific) glossary with specific language** (e.g., `zhCN`)
+2. **Local glossary with 'all' keyword**
+3. **Global glossary with specific language**
+4. **Global glossary with 'all' keyword**
+
+Example:
+```toml
+# Global glossary (data/_glossary.toml)
+["CommonTerm"]
+all = "通用翻译"
+zhCN = "简体翻译"
+
+# Local glossary (mod TOML file)
+[_meta.glossary."CommonTerm"]
+all = "本地通用翻译"
+# zhCN not defined
+
+# Result for zhCN: "本地通用翻译" (local 'all' has higher priority than global zhCN)
+# Result for zhTW: "本地通用翻译" (local 'all')
+# Result for other languages: "本地通用翻译" (local 'all')
 ```
 
 #### Translation Entry Fields
@@ -147,7 +177,8 @@ The glossary system supports:
 
 - **Global glossary**: `data/_glossary.toml` in data directory
 - **Mod-local glossary**: `[_meta.glossary]` in mod TOML file
-- **Priority**: Local glossary overrides global glossary
+- **Priority**: Local glossary overrides global glossary (with 'all' keyword support)
+- **'all' keyword**: Universal fallback when specific language is not defined
 - **Partial languages**: Only define languages you need
 - **Fuzzy matching**: For terms 10+ characters with configurable tolerance
 - **Skip hints**: Prevent hints for specific terms (proper names)
@@ -210,6 +241,11 @@ zhTW = "海狸浮生記"
 fuzzy_tolerance = 4
 zhCN = "很长的术语名称"
 
+# Use 'all' keyword as universal fallback
+["UniversalTerm"]
+all = "通用翻译"
+zhCN = "简体翻译"  # Overrides 'all' for zhCN
+
 # New format with explicit structure (optional)
 ["ModernTerm"]
 skip_hints = false
@@ -219,9 +255,30 @@ translations = { zhCN = "现代术语", zhTW = "現代術語" }
 
 ### Priority System
 
-1. **Mod-local glossary** (`[_meta.glossary]`) takes highest priority
-2. **Global glossary** (`data/_glossary.toml`) provides fallback translations
-3. **Translation hints** show available alternatives when target language is missing
+The glossary lookup follows this priority order:
+
+1. **Local (mod-specific) glossary with specific language** - highest priority
+2. **Local glossary with 'all' keyword** - universal fallback for local glossary
+3. **Global glossary with specific language** - global translation for specific language
+4. **Global glossary with 'all' keyword** - universal fallback for global glossary
+
+**Example:**
+```toml
+# Global glossary (data/_glossary.toml)
+["Building"]
+all = "建筑物"     # Used by all languages if not overridden
+zhCN = "建筑"      # Specific for Simplified Chinese
+
+# Mod-local glossary in mod TOML
+[_meta.glossary."Building"]
+all = "构建物"     # Overrides global for this mod
+zhTW = "建築"      # Specific for Traditional Chinese
+
+# Results for this mod:
+# - zhTW: "建築" (local specific)
+# - zhCN: "构建物" (local 'all', higher priority than global zhCN)
+# - Other languages: "构建物" (local 'all')
+```
 
 ### Usage Examples
 
