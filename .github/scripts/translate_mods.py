@@ -17,6 +17,7 @@ import toml
 import time
 import logging
 import argparse
+import re
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Optional, Set, Tuple
@@ -437,6 +438,101 @@ def apply_glossary(text: str, target_language: str, glossary: Dict[str, Dict[str
     return result
 
 
+def _is_table_header(line: str) -> bool:
+    stripped = line.lstrip()
+    return stripped.startswith("[") and stripped.rstrip().endswith("]")
+
+
+def _normalize_glossary_header_line(line: str) -> str:
+    stripped = line.strip()
+    match = re.match(r"^\[_meta\.glossary\.(.+)\]$", stripped)
+    if not match:
+        return line
+
+    key_part = match.group(1)
+    if key_part.startswith('"') and key_part.endswith('"'):
+        return line
+
+    # Preserve original line ending and leading whitespace
+    line_ending = ""
+    if line.endswith("\r\n"):
+        line_ending = "\r\n"
+    elif line.endswith("\n"):
+        line_ending = "\n"
+
+    leading_ws = line[:len(line) - len(line.lstrip())]
+    escaped_key = key_part.replace("\\", "\\\\").replace('"', "\\\"")
+    return f'{leading_ws}[_meta.glossary."{escaped_key}"]{line_ending}'
+
+
+def reorder_glossary_blocks(toml_text: str) -> str:
+    """
+    Ensure _meta.glossary blocks are placed immediately after _meta and
+    normalize glossary keys to quoted form for consistent style.
+    """
+    lines = toml_text.splitlines(keepends=True)
+    if not lines:
+        return toml_text
+
+    blocks = []
+    current_header = None
+    current_lines: List[str] = []
+
+    for line in lines:
+        if _is_table_header(line):
+            if current_lines:
+                blocks.append((current_header, current_lines))
+            current_header = line
+            current_lines = [line]
+        else:
+            if not current_lines:
+                current_header = None
+                current_lines = [line]
+            else:
+                current_lines.append(line)
+
+    if current_lines:
+        blocks.append((current_header, current_lines))
+
+    # Normalize glossary header lines
+    normalized_blocks = []
+    for header, block_lines in blocks:
+        if header is not None:
+            normalized_header = _normalize_glossary_header_line(header)
+            if normalized_header != header:
+                block_lines = [normalized_header] + block_lines[1:]
+                header = normalized_header
+        normalized_blocks.append((header, block_lines))
+
+    # If there is no _meta section, keep original order
+    has_meta = any((h and h.strip() == "[_meta]") for h, _ in normalized_blocks)
+    if not has_meta:
+        return "".join("".join(lines) for _, lines in normalized_blocks)
+
+    preamble = []
+    meta_block = None
+    glossary_blocks = []
+    other_blocks = []
+
+    for header, block_lines in normalized_blocks:
+        if header is None:
+            preamble.append(block_lines)
+            continue
+        stripped = header.strip()
+        if stripped == "[_meta]":
+            meta_block = block_lines
+        elif stripped.startswith("[_meta.glossary."):
+            glossary_blocks.append(block_lines)
+        else:
+            other_blocks.append(block_lines)
+
+    if meta_block is None or not glossary_blocks:
+        return "".join("".join(lines) for _, lines in normalized_blocks)
+
+    ordered_blocks = preamble + [meta_block] + glossary_blocks + other_blocks
+    return "".join("".join(block) for block in ordered_blocks)
+
+
 def build_translation_prompt(
     key: str,
     new_text: str,
@@ -671,32 +767,6 @@ def process_toml_file(
         logger.error(f"Failed to load {filename}: {e}")
         return 0, 0
     
-    # Reorganize glossary entries from flat keys to nested structure
-    # Convert "_meta.glossary.term" keys to _meta["glossary"]["term"]
-    glossary_prefix = "_meta.glossary."
-    glossary_entries = {}
-    keys_to_remove = []
-    
-    for key in data.keys():
-        if key.startswith(glossary_prefix):
-            term = key[len(glossary_prefix):]
-            glossary_entries[term] = data[key]
-            keys_to_remove.append(key)
-    
-    # Remove the flat keys
-    for key in keys_to_remove:
-        del data[key]
-    
-    # Ensure _meta section exists
-    if "_meta" not in data:
-        data["_meta"] = {}
-    
-    # Merge glossary entries into _meta["glossary"]
-    if glossary_entries:
-        if "glossary" not in data["_meta"]:
-            data["_meta"]["glossary"] = {}
-        data["_meta"]["glossary"].update(glossary_entries)
-    
     # Extract mod metadata from _meta section (always required now)
     meta_section = data.get("_meta", {})
     mod_name = meta_section.get("name", filename.replace('.toml', ''))
@@ -810,8 +880,10 @@ def process_toml_file(
     # Save modified TOML file
     if modified and not dry_run:
         try:
+            toml_text = toml.dumps(data)
+            toml_text = reorder_glossary_blocks(toml_text)
             with open(toml_path, 'w', encoding='utf-8') as f:
-                toml.dump(data, f)
+                f.write(toml_text)
             logger.info(f"Saved updates to {filename}")
         except Exception as e:
             logger.error(f"Failed to save {filename}: {e}")
