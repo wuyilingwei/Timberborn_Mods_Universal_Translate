@@ -671,6 +671,32 @@ def process_toml_file(
         logger.error(f"Failed to load {filename}: {e}")
         return 0, 0
     
+    # Reorganize glossary entries from flat keys to nested structure
+    # Convert "_meta.glossary.term" keys to _meta["glossary"]["term"]
+    glossary_prefix = "_meta.glossary."
+    glossary_entries = {}
+    keys_to_remove = []
+    
+    for key in data.keys():
+        if key.startswith(glossary_prefix):
+            term = key[len(glossary_prefix):]
+            glossary_entries[term] = data[key]
+            keys_to_remove.append(key)
+    
+    # Remove the flat keys
+    for key in keys_to_remove:
+        del data[key]
+    
+    # Ensure _meta section exists
+    if "_meta" not in data:
+        data["_meta"] = {}
+    
+    # Merge glossary entries into _meta["glossary"]
+    if glossary_entries:
+        if "glossary" not in data["_meta"]:
+            data["_meta"]["glossary"] = {}
+        data["_meta"]["glossary"].update(glossary_entries)
+    
     # Extract mod metadata from _meta section (always required now)
     meta_section = data.get("_meta", {})
     mod_name = meta_section.get("name", filename.replace('.toml', ''))
