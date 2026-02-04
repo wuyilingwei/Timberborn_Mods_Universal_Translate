@@ -529,6 +529,14 @@ def reorder_glossary_blocks(toml_text: str) -> str:
     if meta_block is None or not glossary_blocks:
         return "".join("".join(lines) for _, lines in normalized_blocks)
 
+    # Add blank line between glossary and other blocks if needed
+    if other_blocks:
+        first_other_block = other_blocks[0]
+        if first_other_block and first_other_block[0] and not first_other_block[0].strip().startswith("\n"):
+            # Add blank line if the first line of other blocks is not empty
+            first_other_block = ["\n"] + first_other_block
+            other_blocks = [first_other_block] + other_blocks[1:]
+
     ordered_blocks = preamble + [meta_block] + glossary_blocks + other_blocks
     return "".join("".join(block) for block in ordered_blocks)
 
