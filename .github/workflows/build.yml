@@ -9,23 +9,10 @@ on:
     - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
-      release_type:
-        description: 'Release type'
-        required: true
-        default: 'release'
-        type: choice
-        options:
-          - release
-          - prerelease
       force_build:
         description: 'Force build even if no data changes?'
         required: false
         default: false
-        type: boolean
-      publish:
-        description: 'Publish to third-party platforms?'
-        required: false
-        default: true
         type: boolean
 
 jobs:
@@ -35,6 +22,8 @@ jobs:
     outputs:
       should_build: ${{ steps.check_changes.outputs.should_build }}
       new_version: ${{ steps.version.outputs.new_version }}
+      has_errors: ${{ steps.check_errors.outputs.has_errors }}
+      publish_enabled: ${{ steps.check_errors.outputs.publish_enabled }}
     
     steps:
       - name: Checkout repository
@@ -258,15 +247,7 @@ jobs:
           # Create zip file with versioned name for GitHub release
           zip -r "${NEW_VERSION}.zip" "$RELEASE_DIR"
           
-          # Save package to repository releases directory with fixed name
-          mkdir -p releases
-          # Remove all old release files to keep only the newest
-          rm -f releases/*.zip
-          # Save with fixed name 'newest.zip'
-          cp "${NEW_VERSION}.zip" ".github/data/newest_release.zip"
-          
           echo "Release package created: ${NEW_VERSION}.zip"
-          echo "Package saved to .github/data/newest_release.zip (fixed name)"
 
       - name: Prepare release notes
         if: steps.check_changes.outputs.should_build == 'true'
@@ -349,18 +330,55 @@ jobs:
           
           echo "Changelog saved to: .github/log/changelog.md"
 
+      - name: Check for build errors
+        if: steps.check_changes.outputs.should_build == 'true'
+        id: check_errors
+        run: |
+          HAS_ERRORS="false"
+          PUBLISH_ENABLED="true"
+          
+          # Check if Python log file exists and has content indicating errors
+          if [ -n "${PYTHON_LOG_FILE:-}" ] && [ -f "$PYTHON_LOG_FILE" ]; then
+            # Check if the log contains actual errors (not just the "No warnings or errors" message)
+            if [ -s "$PYTHON_LOG_FILE" ] && [ "$(cat "$PYTHON_LOG_FILE")" != "No warnings or errors found during conversion" ]; then
+              # Check for ERROR keyword in the log
+              if grep -qi "error" "$PYTHON_LOG_FILE"; then
+                HAS_ERRORS="true"
+                PUBLISH_ENABLED="false"
+                echo "=========================================="
+                echo "⚠️  ERRORS DETECTED IN BUILD"
+                echo "=========================================="
+                echo "Build contains errors. This release will be:"
+                echo "  - Marked as prerelease"
+                echo "  - Third-party platform publishing will be disabled"
+                echo ""
+                echo "Error details can be found in the release notes."
+                echo "=========================================="
+              fi
+            fi
+          fi
+          
+          echo "has_errors=$HAS_ERRORS" >> $GITHUB_OUTPUT
+          echo "publish_enabled=$PUBLISH_ENABLED" >> $GITHUB_OUTPUT
+          
+          if [ "$HAS_ERRORS" = "true" ]; then
+            echo "⚠️  Build completed with errors - will create prerelease"
+          else
+            echo "✓ Build completed successfully - will create full release"
+          fi
+
       - name: Commit version update
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .github/data/version.txt .github/data/manifest.json .github/log/changelog.md .github/data/newest_release.zip
+          git add .github/data/version.txt .github/data/manifest.json .github/log/changelog.md
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update version to ${{ steps.version.outputs.new_version }} and add release package"
+            git commit -m "Update version to ${{ steps.version.outputs.new_version }}"
             
             # Push with retry logic
             MAX_RETRIES=3
@@ -389,11 +407,15 @@ jobs:
         run: |
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           GIT_TAG="v${NEW_VERSION}"
+          HAS_ERRORS="${{ steps.check_errors.outputs.has_errors }}"
 
-          # Determine if this is a prerelease (only for manual dispatch, schedule is always release)
+          # Automatically determine if this is a prerelease based on error detection
           IS_PRERELEASE="false"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.release_type }}" = "prerelease" ]; then
+          if [ "$HAS_ERRORS" = "true" ]; then
             IS_PRERELEASE="true"
+            echo "⚠️  Creating as PRERELEASE due to detected errors"
+          else
+            echo "✓ Creating as full RELEASE"
           fi
 
           # Update changelog with proper links now that we have the final commit
@@ -409,12 +431,17 @@ jobs:
           else
             echo "**Full Changelog**: https://github.com/${{ github.repository }}/commits/v${NEW_VERSION}" >> "$RELEASE_NOTES_FILE"
           fi
+          
+          # Add error notice to release notes if errors were detected
+          if [ "$IS_PRERELEASE" = "true" ]; then
+            sed -i '1s/^/---\n**⚠️  PRERELEASE**: This release contains build errors and is marked as prerelease. Third-party platform publishing has been disabled.\n---\n\n/' "$RELEASE_NOTES_FILE"
+          fi
 
           # Create GitHub release
           if [ "$IS_PRERELEASE" = "true" ]; then
             gh release create "$GIT_TAG" \
               --repo "${{ github.repository }}" \
-              --title "$GIT_TAG" \
+              --title "$GIT_TAG (Prerelease)" \
               --notes-file "$RELEASE_NOTES_FILE" \
               --prerelease \
               "${NEW_VERSION}.zip"
@@ -430,6 +457,9 @@ jobs:
 
   publish:
     needs: check-and-build
-    if: needs.check-and-build.outputs.should_build == 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.release_type != 'prerelease' && github.event.inputs.publish == 'true'))
+    # Publish to third-party platforms only if:
+    # 1. Build was successful (should_build == true)
+    # 2. No errors were detected (publish_enabled == true)
+    if: needs.check-and-build.outputs.should_build == 'true' && needs.check-and-build.outputs.publish_enabled == 'true'
     uses: ./.github/workflows/publish.yml
     secrets: inherit

@@ -46,22 +46,30 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
           echo "VERSION_NUMBER=$VERSION_NUMBER" >> $GITHUB_OUTPUT
 
-      - name: Get release package
+      - name: Get release package for mod.io
         run: |
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
+          RELEASE_URL="https://github.com/${{ github.repository }}/releases/download/v${VERSION_NUMBER}/${VERSION_NUMBER}.zip"
           
-          # Get package from local repository with fixed name
-          if [ -f ".github/data/newest_release.zip" ]; then
-            echo "Found release package in repository: .github/data/newest_release.zip"
-            echo "Version to publish: $VERSION_NUMBER"
-            cp ".github/data/newest_release.zip" release.zip
+          echo "Version to publish: $VERSION_NUMBER"
+          echo "Release URL: $RELEASE_URL"
+          
+          # For mod.io, we need a local file. Download from GitHub Release if not present locally
+          if [ -f "${VERSION_NUMBER}.zip" ]; then
+            echo "Found local release package: ${VERSION_NUMBER}.zip"
+            cp "${VERSION_NUMBER}.zip" release.zip
           else
-            echo "Error: Package not found in repository at .github/data/newest_release.zip"
-            echo ""
-            echo "The package should be available in the repository after the build workflow completes."
-            echo "If you're running this manually, ensure the build workflow has run successfully"
-            echo "and committed the package to the .github/data/ directory."
-            exit 1
+            echo "Local package not found, downloading from GitHub Release..."
+            echo "Download URL: $RELEASE_URL"
+            
+            # Download the release package
+            if curl -L -f -o release.zip "$RELEASE_URL"; then
+              echo "✓ Successfully downloaded release package"
+            else
+              echo "✗ Failed to download release package from GitHub Release"
+              echo "  Please ensure the GitHub Release has been created with the package"
+              exit 1
+            fi
           fi
           
           # Verify the file exists and has content
@@ -74,63 +82,61 @@ jobs:
           echo "Release package ready: release.zip ($FILE_SIZE bytes)"
 
       - name: Publish to all platforms
-        env:
-          MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
-          STEAM_TOKEN: ${{ secrets.STEAM_TOKEN }}
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
+          VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
+          RELEASE_URL="https://github.com/${{ github.repository }}/releases/download/v${VERSION_NUMBER}/${VERSION_NUMBER}.zip"
           
           echo "=========================================="
           echo "Preparing publication to all platforms"
-          echo "Version: $VERSION"
-          echo "Package: release.zip"
+          echo "Version: $VERSION_NUMBER"
+          echo "Release URL: $RELEASE_URL"
           echo "=========================================="
           echo ""
           echo "Platform configuration:"
           
           # Check platform availability
-          if [ -n "$MODIO_TOKEN" ]; then
-            echo "✓ mod.io: Configured"
+          if [ -n "${{ secrets.MODIO_TOKEN }}" ]; then
+            echo "✓ mod.io: Token configured"
           else
             echo "⚠️  mod.io: Token not configured (will be skipped)"
           fi
           
-          if [ -n "$STEAM_TOKEN" ]; then
-            echo "✓ Steam Workshop: Configured"
+          if [ -n "${{ secrets.STEAM_TOKEN }}" ]; then
+            echo "✓ Steam Workshop: Token configured"
           else
             echo "⚠️  Steam Workshop: Token not configured (will be skipped)"
           fi
           
           echo ""
-          echo "Note: Actual publishing will be performed in subsequent steps"
-          echo "      with individual error handling for each platform."
+          echo "Release files will be fetched directly from GitHub Release"
 
       - name: Upload to mod.io
-        if: ${{ env.MODIO_TOKEN != '' }}
         env:
           MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
+        if: env.MODIO_TOKEN != ''
         uses: nickelc/upload-to-modio@v2.1.0
         continue-on-error: true
         id: modio_upload
         with:
-          token: ${{ env.MODIO_TOKEN }}
+          token: ${{ secrets.MODIO_TOKEN }}
           game: 3659
           mod: 5238039
-          version: ${{ env.VERSION }}
+          version: ${{ steps.version.outputs.VERSION }}
           path: release.zip
 
       - name: Publish to Steam Workshop
-        if: ${{ env.STEAM_TOKEN != '' }}
         env:
           STEAM_TOKEN: ${{ secrets.STEAM_TOKEN }}
+        if: env.STEAM_TOKEN != ''
         continue-on-error: true
         id: steam_upload
         run: |
           VERSION_NUMBER="${{ steps.version.outputs.VERSION_NUMBER }}"
           CHANGENOTE="Automated Update to ${VERSION_NUMBER}"
           
-          # Use GitHub raw URL for the package
-          ZIP_URL="https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/raw/refs/heads/main/.github/data/newest_release.zip"
+          # Use GitHub Release direct download URL
+          ZIP_URL="https://github.com/${{ github.repository }}/releases/download/v${VERSION_NUMBER}/${VERSION_NUMBER}.zip"
           
           echo "Uploading to Steam Workshop via API..."
           echo "App ID: 1062090"
