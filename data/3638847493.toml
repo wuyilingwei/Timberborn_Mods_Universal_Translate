@@ -556,6 +556,14 @@ ptBR = "Manteiga de Castanha"
 koKR = "밤 버터"
 csCZ = "Kaštanové máslo"
 
+["Good.CoffeeBrownie.DisplayName"]
+new = "Coffee Brownie"
+status = "normal"
+
+["Good.CoffeeBrownie.PluralDisplayName"]
+new = "Coffee Brownies"
+status = "normal"
+
 ["Good.CornCoffee.DisplayName"]
 raw = "Corn Coffee"
 status = "normal"
@@ -856,35 +864,13 @@ ptBR = "Infusão Curativa"
 koKR = "치유 음료"
 csCZ = "Učinný nápoj"
 
-["Good.MangroveFruitCoffee.DisplayName"]
-raw = "Mangrove Fruit Coffee"
+["Good.MangroveCoffee.DisplayName"]
+new = "Mangrove Coffee"
 status = "normal"
-enUS = "Mangrove Fruit Coffee"
-zhCN = "红树果实咖啡"
-zhTW = "紅樹果咖啡"
-ruRU = "Кофе из мангровых фруктов"
-jaJP = "マングローブフルーツコーヒー"
-frFR = "Café aux fruits de mangrove"
-deDE = "Mangrovenfruchtkaffee"
-plPL = "Kawa z owoców mangrowca"
-ptBR = "Café de Fruto de Mangue"
-koKR = "망그로브 과일 커피"
-csCZ = "Káva z plodů mangrovníku"
 
-["Good.MangroveFruitCoffee.PluralDisplayName"]
-raw = "Mangrove Fruit Coffee"
+["Good.MangroveCoffee.PluralDisplayName"]
+new = "Mangrove Coffee"
 status = "normal"
-enUS = "Mangrove Fruit Coffee"
-zhCN = "红树果实咖啡"
-zhTW = "紅樹林果咖啡"
-ruRU = "Кофе из фруктов мангрового дерева"
-jaJP = "マングローブフルーツコーヒー"
-frFR = "Café de Fruit de Mangrove"
-deDE = "Mangrovenfruchtkaffee"
-plPL = "Kawa z owoców mangrowych"
-ptBR = "Café de Fruta de Mangue"
-koKR = "망그로브 과일 커피"
-csCZ = "Káva z mangrovových plodů"
 
 ["Good.MealBox.DisplayName"]
 raw = "Meal Box"
@@ -945,6 +931,14 @@ plPL = "Frytki Ziemniaczane"
 ptBR = "Batatas Fritas"
 koKR = "감자 웨지"
 csCZ = "Bramborové hranolky"
+
+["Good.RoastedAlgae.DisplayName"]
+new = "Roasted Algae"
+status = "normal"
+
+["Good.RoastedAlgae.PluralDisplayName"]
+new = "Roasted Algae"
+status = "normal"
 
 ["Good.RoastedKohlrabi.DisplayName"]
 raw = "Roasted Kohlrabi"
@@ -1036,6 +1030,14 @@ ptBR = "Leite de Soja"
 koKR = "콩커피"
 csCZ = "Sójová káva"
 
+["Good.SpadderdockRoll.DisplayName"]
+new = "Spadderdock Roll"
+status = "normal"
+
+["Good.SpadderdockRoll.PluralDisplayName"]
+new = "Spadderdock Rolls"
+status = "normal"
+
 ["Good.SunflowerTea.DisplayName"]
 raw = "Sunflower Tea"
 status = "normal"
@@ -1065,6 +1067,36 @@ plPL = "Herbata Słonecznikowa"
 ptBR = "Chá de Girassol"
 koKR = "해바라기 차"
 csCZ = "Slunečnicový čaj"
+
+["Good.MangroveFruitCoffee.DisplayName"]
+raw = "Mangrove Fruit Coffee"
+status = "abandoned"
+enUS = "Mangrove Fruit Coffee"
+zhCN = "红树果实咖啡"
+zhTW = "紅樹果咖啡"
+ruRU = "Кофе из мангровых фруктов"
+jaJP = "マングローブフルーツコーヒー"
+frFR = "Café aux fruits de mangrove"
+deDE = "Mangrovenfruchtkaffee"
+plPL = "Kawa z owoców mangrowca"
+ptBR = "Café de Fruto de Mangue"
+koKR = "망그로브 과일 커피"
+csCZ = "Káva z plodů mangrovníku"
+
+["Good.MangroveFruitCoffee.PluralDisplayName"]
+raw = "Mangrove Fruit Coffee"
+status = "abandoned"
+enUS = "Mangrove Fruit Coffee"
+zhCN = "红树果实咖啡"
+zhTW = "紅樹林果咖啡"
+ruRU = "Кофе из фруктов мангрового дерева"
+jaJP = "マングローブフルーツコーヒー"
+frFR = "Café de Fruit de Mangrove"
+deDE = "Mangrovenfruchtkaffee"
+plPL = "Kawa z owoców mangrowych"
+ptBR = "Café de Fruta de Mangue"
+koKR = "망그로브 과일 커피"
+csCZ = "Káva z mangrovových plodů"
 
 ["Good.MealFTSet1.DisplayName"]
 raw = "Fresh Meal Set 1"

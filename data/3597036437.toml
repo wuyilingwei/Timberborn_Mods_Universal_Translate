@@ -1,20 +1,6 @@
 [_meta]
 name = "zxuiji -m- Greedy Groups"
 
-[_meta.glossary."a0x"]
-all = " "
-
-[_meta.glossary.".x"]
-all = " "
-
-[_meta.glossary."x0a"]
-all = " "
-
-[_meta.glossary."xa0"]
-all = " "
-
-[_meta.glossary."a0"]
-all = " "
 [LB]
 raw = "-----------------------------------------------------------------"
 status = "normal"
@@ -196,6 +182,18 @@ ptBR = "Reservatórios"
 koKR = "저수지"
 csCZ = "Rezervoáry"
 
+["ToolGroups.GreedyMetalReservoirs"]
+new = "Metal Reservoirs"
+status = "normal"
+
+["ToolGroups.GreedyRibbedMetalReservoirs"]
+new = "Ribbed Metal Reservoirs"
+status = "normal"
+
+["ToolGroups.GreedyFierceMetalReservoirs"]
+new = "Fierce Metal Reservoirs"
+status = "normal"
+
 ["ToolGroups.GreedyLife"]
 raw = "Life"
 status = "normal"
@@ -271,6 +269,33 @@ ptBR = "Decoração"
 koKR = "장식"
 csCZ = "Výzdoba"
 
+["ToolGroups.GreedyBlockDecor"]
+raw = "Blockxa0Decor"
+status = "normal"
+enUS = "Block Decor"
+zhCN = "装饰块"
+zhTW = "方塊裝飾"
+ruRU = "Блок Декор"
+jaJP = "ブロック装飾"
+frFR = "Décor de Bloc"
+deDE = "Blockdekoration"
+plPL = "dekoracje blokowe"
+ptBR = "Decoração de Bloco"
+koKR = "블록 장식"
+csCZ = "Bloková dekorace"
+
+["ToolGroups.GreedyMetalBlockDecor"]
+new = "Metal Blockxa0Decor"
+status = "normal"
+
+["ToolGroups.GreedyRibbedMetalBlockDecor"]
+new = "Ribbed Blockxa0Decor"
+status = "normal"
+
+["ToolGroups.GreedyFierceMetalBlockDecor"]
+new = "Fierce Blockxa0Decor"
+status = "normal"
+
 ["ToolGroups.GreedySteps"]
 raw = "Steps"
 status = "normal"
@@ -303,6 +328,7 @@ csCZ = "Žebříky"
 
 ["ToolGroups.GreedyBridges"]
 raw = "Suspensionxa0Bridges"
+new = "Bridges"
 status = "normal"
 enUS = "Suspension Bridges"
 zhCN = "吊桥"
@@ -361,6 +387,10 @@ ptBR = "Caminhos"
 koKR = "보행로"
 csCZ = "Chodníky"
 
+["ToolGroups.GreedyPassages"]
+new = "Passages"
+status = "normal"
+
 ["ToolGroups.GreedyTubewayBridges"]
 raw = "Tubewayxa0Bridges"
 status = "normal"
@@ -406,6 +436,14 @@ ptBR = "Portões"
 koKR = "게이트"
 csCZ = "Brány"
 
+["ToolGroups.GreedyPillars"]
+new = "Pillars"
+status = "normal"
+
+["ToolGroups.GreedyMetalPillars"]
+new = "Metal Pillars"
+status = "normal"
+
 ["ToolGroups.GreedyOverhangs"]
 raw = "Overhangs"
 status = "normal"
@@ -420,6 +458,14 @@ plPL = "Nachylenia"
 ptBR = "Beirais"
 koKR = "돌출부"
 csCZ = "Přesahy"
+
+["ToolGroups.GreedyMirroredOverhangs"]
+new = "Mirrored Overhangs"
+status = "normal"
+
+["ToolGroups.GreedyArchOverhangs"]
+new = "Arch Overhangs"
+status = "normal"
 
 ["ToolGroups.GreedyMetalPlatforms"]
 raw = "Metalxa0Platforms"
@@ -570,51 +616,6 @@ plPL = "Stoki wałów"
 ptBR = "Encostas de Barragem"
 koKR = "제방 경사"
 csCZ = "Svahy hrází"
-
-["ToolGroups.GreedyLevies1xN"]
-raw = "Leviesxa01xN"
-status = "normal"
-enUS = "Levies 1xN"
-zhCN = "防洪堤 1xN"
-zhTW = "徵稅 1xN"
-ruRU = "Леви 1xN"
-jaJP = "レヴィー 1xN"
-frFR = "Levées 1xN"
-deDE = "Abgaben 1xN"
-plPL = "Zasoby 1xN"
-ptBR = "Levies 1xN"
-koKR = "레뷔 1xN"
-csCZ = "Vybírání 1xN"
-
-["ToolGroups.GreedyLevies2xN"]
-raw = "Leviesxa02xN"
-status = "normal"
-enUS = "Levies 2xN"
-zhCN = "防洪堤 2xN"
-zhTW = "榨取 2xN"
-ruRU = "Налоги 2xN"
-jaJP = "レヴィ2xN"
-frFR = "Levées 2xN"
-deDE = "Abgaben 2xN"
-plPL = "Daniny 2xN"
-ptBR = "Coletas 2xN"
-koKR = "레비 2xN"
-csCZ = "Zdanění 2xN"
-
-["ToolGroups.GreedyLevies3xN"]
-raw = "Leviesxa03xN"
-status = "normal"
-enUS = "Levies 3xN"
-zhCN = "“防洪堤 3xN”"
-zhTW = "徵收 3倍N"
-ruRU = "Леви 3xN"
-jaJP = "「徴収物 3xN」"
-frFR = "Levées 3xN"
-deDE = "Abgaben 3xN"
-plPL = "Levy 3xN"
-ptBR = "Levantes 3xN"
-koKR = "징수 3xN"
-csCZ = "Poplatky 3xN"
 
 ["ToolGroups.GreedyLandFill"]
 raw = "Landxa0Fill"
@@ -1126,21 +1127,6 @@ ptBR = "Admiração"
 koKR = "감탄"
 csCZ = "Úžas"
 
-["ToolGroups.GreedyBlockDecor"]
-raw = "Blockxa0Decor"
-status = "normal"
-enUS = "Block Decor"
-zhCN = "装饰块"
-zhTW = "方塊裝飾"
-ruRU = "Блок Декор"
-jaJP = "ブロック装飾"
-frFR = "Décor de Bloc"
-deDE = "Blockdekoration"
-plPL = "dekoracje blokowe"
-ptBR = "Decoração de Bloco"
-koKR = "블록 장식"
-csCZ = "Bloková dekorace"
-
 ["ToolGroups.GreedyDecorBlocks"]
 raw = "Decorxa0Blocks"
 status = "normal"
@@ -1216,3 +1202,62 @@ ptBR = "Outros Decorativos"
 koKR = "기타 장식"
 csCZ = "Jiné dekorace"
 
+["ToolGroups.GreedyLevies1xN"]
+raw = "Leviesxa01xN"
+status = "abandoned"
+enUS = "Levies 1xN"
+zhCN = "防洪堤 1xN"
+zhTW = "徵稅 1xN"
+ruRU = "Леви 1xN"
+jaJP = "レヴィー 1xN"
+frFR = "Levées 1xN"
+deDE = "Abgaben 1xN"
+plPL = "Zasoby 1xN"
+ptBR = "Levies 1xN"
+koKR = "레뷔 1xN"
+csCZ = "Vybírání 1xN"
+
+["ToolGroups.GreedyLevies2xN"]
+raw = "Leviesxa02xN"
+status = "abandoned"
+enUS = "Levies 2xN"
+zhCN = "防洪堤 2xN"
+zhTW = "榨取 2xN"
+ruRU = "Налоги 2xN"
+jaJP = "レヴィ2xN"
+frFR = "Levées 2xN"
+deDE = "Abgaben 2xN"
+plPL = "Daniny 2xN"
+ptBR = "Coletas 2xN"
+koKR = "레비 2xN"
+csCZ = "Zdanění 2xN"
+
+["ToolGroups.GreedyLevies3xN"]
+raw = "Leviesxa03xN"
+status = "abandoned"
+enUS = "Levies 3xN"
+zhCN = "“防洪堤 3xN”"
+zhTW = "徵收 3倍N"
+ruRU = "Леви 3xN"
+jaJP = "「徴収物 3xN」"
+frFR = "Levées 3xN"
+deDE = "Abgaben 3xN"
+plPL = "Levy 3xN"
+ptBR = "Levantes 3xN"
+koKR = "징수 3xN"
+csCZ = "Poplatky 3xN"
+
+[_meta.glossary.a0x]
+all = " "
+
+[_meta.glossary.".x"]
+all = " "
+
+[_meta.glossary.x0a]
+all = " "
+
+[_meta.glossary.xa0]
+all = " "
+
+[_meta.glossary.a0]
+all = " "

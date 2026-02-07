@@ -31,6 +31,14 @@ ptBR = "Cancelar automação"
 koKR = "자동화 취소"
 csCZ = "Zrušit automatizaci"
 
+["IgorZ.Automation.EnableRulesTool.Description"]
+new = "Use this template to enable all rules on the building"
+status = "normal"
+
+["IgorZ.Automation.EnableRulesTool.Title"]
+new = "Enable rules on the building"
+status = "normal"
+
 ["IgorZ.Automation.CheckAccessBlockCondition.Blocking.Description"]
 raw = "<YellowHighlight>blocks path</YellowHighlight>"
 status = "normal"
@@ -135,6 +143,14 @@ plPL = "Narzędzie do debugowania"
 ptBR = "Ferramenta de depuração"
 koKR = "디버그 도구"
 csCZ = "Nástroj pro ladění"
+
+["IgorZ.Automation.DisableRulesTool.Title"]
+new = "Disable rules on the building"
+status = "normal"
+
+["IgorZ.Automation.DisableRulesTool.Description"]
+new = "Use this template to disable all rules on the building"
+status = "normal"
 
 ["IgorZ.Automation.ShowStatusAction.AutomationErrorAlert"]
 raw = "Automation error"
@@ -2056,6 +2072,10 @@ ptBR = "Regra removida"
 koKR = "규칙이 제거되었습니다"
 csCZ = "Pravidlo odstraněno"
 
+["IgorZ.Automation.Scripting.Editor.DeleteRuleBtn"]
+new = "Delete rule"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.DialogHeader"]
 raw = "Automation rules"
 status = "normal"
@@ -2206,6 +2226,10 @@ ptBR = "número"
 koKR = "숫자"
 csCZ = "číslo"
 
+["IgorZ.Automation.Scripting.Editor.PauseRuleBtn"]
+new = "Disable rule"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.PendingEditsNotification"]
 raw = "There are rules in the editing state. Complete them first."
 status = "normal"
@@ -2250,6 +2274,10 @@ plPL = "Resetuj zmiany"
 ptBR = "Reiniciar alterações"
 koKR = "변경 사항 초기화"
 csCZ = "Resetovat změny"
+
+["IgorZ.Automation.Scripting.Editor.ResumeRuleBtn"]
+new = "Enable rule"
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Editor.RulesWithErrorsNotification"]
 raw = "Some rules have errors! Fix them first."
