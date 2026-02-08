@@ -1,6 +1,21 @@
 [_meta]
 name = "zxuiji -m- Greedy Groups"
 
+[_meta.glossary."a0x"]
+all = " "
+
+[_meta.glossary.".x"]
+all = " "
+
+[_meta.glossary."x0a"]
+all = " "
+
+[_meta.glossary."xa0"]
+all = " "
+
+[_meta.glossary."a0"]
+all = " "
+
 [LB]
 raw = "-----------------------------------------------------------------"
 status = "normal"
@@ -183,16 +198,49 @@ koKR = "저수지"
 csCZ = "Rezervoáry"
 
 ["ToolGroups.GreedyMetalReservoirs"]
-new = "Metal Reservoirs"
 status = "normal"
+raw = "Metal Reservoirs"
+frFR = "Réservoirs de Métal"
+zhCN = "金属储水池"
+ruRU = "Металлические резервуары"
+enUS = "Metal Reservoirs"
+jaJP = "メタル貯蔵庫"
+ptBR = "Reservatórios de Metal"
+zhTW = "金屬儲水庫"
+plPL = "Zbiorniki metalowe"
+koKR = "금속 저수지"
+deDE = "Metallreservoirs"
+csCZ = "Rezervoáry kovu"
 
 ["ToolGroups.GreedyRibbedMetalReservoirs"]
-new = "Ribbed Metal Reservoirs"
 status = "normal"
+raw = "Ribbed Metal Reservoirs"
+deDE = "Gerippte Metallreservoirs"
+koKR = "리벳 금속 저수지"
+zhCN = "波纹金属水库"
+enUS = "Ribbed Metal Reservoirs"
+jaJP = "リブ付き金属貯水槽"
+zhTW = "格紋金屬水庫"
+frFR = "Réservoirs en métal nervuré"
+ptBR = "Reservatórios de Metal Estriado"
+ruRU = "Рифленые металлические резервуары"
+plPL = "Żebrowe Metalowe Zbiorniki"
+csCZ = "Profilované kovové nádrže"
 
 ["ToolGroups.GreedyFierceMetalReservoirs"]
-new = "Fierce Metal Reservoirs"
 status = "normal"
+raw = "Fierce Metal Reservoirs"
+zhTW = "激烈金屬水庫"
+enUS = "Fierce Metal Reservoirs"
+ptBR = "Reservatórios de Metal Ferozes"
+ruRU = "Яростные металлические резервуары"
+zhCN = "强力金属水库"
+deDE = "Gierige Metallreservoire"
+koKR = "사나운 금속 저수지"
+jaJP = "激しい金属貯水池"
+plPL = "Surowe Zbiorniki Metalowe"
+csCZ = "Zavřené kovové nádrže"
+frFR = "Réservoirs Métalliques Féroces"
 
 ["ToolGroups.GreedyLife"]
 raw = "Life"
@@ -285,16 +333,49 @@ koKR = "블록 장식"
 csCZ = "Bloková dekorace"
 
 ["ToolGroups.GreedyMetalBlockDecor"]
-new = "Metal Blockxa0Decor"
 status = "normal"
+raw = "Metal Blockxa0Decor"
+enUS = "Metal Block Decor"
+ptBR = "Decoração de Bloco de Metal"
+ruRU = "Декор из металлических блоков"
+frFR = "Décor en Bloc Métallique"
+zhCN = "金属区块装饰"
+koKR = "금속 블록 장식"
+plPL = "Dekoracja z Bloków Metalu"
+zhTW = "金屬方塊裝飾"
+deDE = "Metallblock-Dekor"
+csCZ = "Dekorace z kovového bloku"
+jaJP = "メタルブロックデコレーション"
 
 ["ToolGroups.GreedyRibbedMetalBlockDecor"]
-new = "Ribbed Blockxa0Decor"
 status = "normal"
+raw = "Ribbed Blockxa0Decor"
+koKR = "리브드 블록 장식"
+zhTW = "凹槽金屬裝飾塊"
+deDE = "Gestreifter Blockdekor"
+plPL = "Ścianka dekoracyjna z rowkami"
+zhCN = "波纹块装饰"
+enUS = "Ribbed Block Decor"
+jaJP = "リブ付きブロック装飾"
+frFR = "Bloc Décor Strié"
+ptBR = "Decoração de Bloco Estriado"
+ruRU = "Декор из рифленого блока"
+csCZ = "Vlnitý dekorativní blok"
 
 ["ToolGroups.GreedyFierceMetalBlockDecor"]
-new = "Fierce Blockxa0Decor"
 status = "normal"
+raw = "Fierce Blockxa0Decor"
+enUS = "Fierce Block Decor"
+ruRU = "Декор из жесткого блока"
+ptBR = "Decoração do Bloco Feroz"
+zhTW = "凶猛區塊裝飾"
+zhCN = "凶猛装饰块"
+deDE = "Fierce Block Decor"
+jaJP = "猛々しいブロック装飾"
+plPL = "Fiercowy blok dekoracyjny"
+koKR = "사나운 블록 장식"
+frFR = "Décor de Bloc Fier"
+csCZ = "Dekor drsného bloku"
 
 ["ToolGroups.GreedySteps"]
 raw = "Steps"
@@ -327,20 +408,19 @@ koKR = "사다리"
 csCZ = "Žebříky"
 
 ["ToolGroups.GreedyBridges"]
-raw = "Suspensionxa0Bridges"
-new = "Bridges"
+raw = "Bridges"
 status = "normal"
-enUS = "Suspension Bridges"
-zhCN = "吊桥"
-zhTW = "懸索橋"
-ruRU = "Подвесные мосты"
-jaJP = "吊り橋"
-frFR = "Ponts suspendus"
-deDE = "Hängebrücken"
-plPL = "Mosty Wiszące"
-ptBR = "Pontes Suspensas"
-koKR = "현수교"
-csCZ = "Závěsné mosty"
+enUS = "Bridges"
+zhCN = "桥梁"
+zhTW = "橋樑"
+ruRU = "Мосты"
+jaJP = "橋"
+frFR = "Ponts"
+deDE = "Brücken"
+plPL = "Mosty"
+ptBR = "Pontes"
+koKR = "브리지"
+csCZ = "Mosty"
 
 ["ToolGroups.GreedyRopeways"]
 raw = "Ropeways"
@@ -388,8 +468,19 @@ koKR = "보행로"
 csCZ = "Chodníky"
 
 ["ToolGroups.GreedyPassages"]
-new = "Passages"
 status = "normal"
+raw = "Passages"
+frFR = "Passages"
+enUS = "Passages"
+zhTW = "通道"
+deDE = "Pässe"
+zhCN = "通道"
+jaJP = "通路"
+ruRU = "Переходы"
+plPL = "Przejścia"
+ptBR = "Passagens"
+koKR = "통로"
+csCZ = "Průchody"
 
 ["ToolGroups.GreedyTubewayBridges"]
 raw = "Tubewayxa0Bridges"
@@ -437,12 +528,34 @@ koKR = "게이트"
 csCZ = "Brány"
 
 ["ToolGroups.GreedyPillars"]
-new = "Pillars"
 status = "normal"
+raw = "Pillars"
+ruRU = "Столбы"
+enUS = "Pillars"
+deDE = "Pfeiler"
+ptBR = "Pilares"
+frFR = "Piliers"
+zhTW = "「柱子」"
+koKR = "기둥"
+zhCN = "“柱子”"
+plPL = "Filary"
+jaJP = "柱"
+csCZ = "Sloupy"
 
 ["ToolGroups.GreedyMetalPillars"]
-new = "Metal Pillars"
 status = "normal"
+raw = "Metal Pillars"
+enUS = "Metal Pillars"
+plPL = "Metalowe Filary"
+ptBR = "Pilares de Metal"
+zhCN = "金属柱"
+koKR = "금속 기둥"
+ruRU = "Металлические столбы"
+jaJP = "金属の柱"
+deDE = "Metallpfeiler"
+frFR = "Piliers en métal"
+zhTW = "金屬柱"
+csCZ = "Metalové sloupy"
 
 ["ToolGroups.GreedyOverhangs"]
 raw = "Overhangs"
@@ -460,12 +573,34 @@ koKR = "돌출부"
 csCZ = "Přesahy"
 
 ["ToolGroups.GreedyMirroredOverhangs"]
-new = "Mirrored Overhangs"
 status = "normal"
+raw = "Mirrored Overhangs"
+enUS = "Mirrored Overhangs"
+ruRU = "Зеркальные навесы"
+ptBR = "Beirais Espelhados"
+koKR = "거울 오버행"
+deDE = "Spiegelüberstände"
+zhTW = "鏡像懸挑"
+zhCN = "镜像悬挑"
+jaJP = "「ミラーオーバーハング」"
+plPL = "Lustrzane Wysięgi"
+csCZ = "Zrcadlové převisy"
+frFR = "Surplombs Miroirs"
 
 ["ToolGroups.GreedyArchOverhangs"]
-new = "Arch Overhangs"
 status = "normal"
+raw = "Arch Overhangs"
+jaJP = "アーチのオーバーハング"
+koKR = "아치 오버행"
+frFR = "Surplombs d'arc"
+zhCN = "拱形悬垂"
+zhTW = "拱形突出部"
+enUS = "Arch Overhangs"
+ruRU = "Арочные навесы"
+plPL = "Zwisające łuki"
+ptBR = "Extensões de Arco"
+deDE = "Überhänge im Bogen"
+csCZ = "Arch Overhangs"
 
 ["ToolGroups.GreedyMetalPlatforms"]
 raw = "Metalxa0Platforms"
@@ -1247,17 +1382,3 @@ ptBR = "Levantes 3xN"
 koKR = "징수 3xN"
 csCZ = "Poplatky 3xN"
 
-[_meta.glossary.a0x]
-all = " "
-
-[_meta.glossary.".x"]
-all = " "
-
-[_meta.glossary.x0a]
-all = " "
-
-[_meta.glossary.xa0]
-all = " "
-
-[_meta.glossary.a0]
-all = " "
