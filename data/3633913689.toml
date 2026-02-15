@@ -601,6 +601,18 @@ ptBR = "! Ingrediente de capacidade zero; o controle comparará os bens disponí
 koKR = "! 용량이 0인 재료; 제어는 용량 비율이 아닌 레시피 요구 사항과 사용 가능한 상품을 비교합니다 (모든 재료에 적용됩니다)."
 csCZ = "! Ingredience s nulovou kapacitou; ovládání porovná dostupné zboží s potřebami receptu, nikoli s procentem kapacity (platí pro všechny ingredience)."
 
+["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAllWarning"]
+new = "! Farm or other multi-gather building detected. Will only stop when ALL products meet Stop test."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAnyWarning"]
+new = "! Multi product recipe detected. Will stop when ANY product meets Stop test."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UnfinishedBuildingWarning"]
+new = "<b><YellowHighlight>Caution:</YellowHighlight><b> Building is not finished, or has no recipe set. The info in this window may be inaccurate."
+status = "normal"
+
 ["UI.TW.SimpleWorkshopControl.GlobalInventoryFallback"]
 raw = "No district available. Using global inventory."
 status = "normal"
@@ -2234,6 +2246,14 @@ ptBR = "Ativa o comportamento antigo de controle do usuário. Isso proporciona u
 deDE = "Aktiviert das alte Benutzersteuerungsverhalten. Dies ermöglicht eine spezifischere Steuerung und erlaubt das Steuern einiger zusätzlicher Gebäudetypen, wurde jedoch größtenteils durch die automatischen Verhaltensweisen ersetzt."
 jaJP = "古いユーザーコントロールの動作を有効にします。これにより、より具体的な制御が可能になり、追加の建物タイプを操作できるようになりますが、ほとんどは自動動作に置き換えられています。"
 csCZ = "Povoluje staré chování ovládání uživatele. To poskytuje specifické ovládání a umožňuje ovládat některé další typy budov, ale bylo převážně nahrazeno automatickými chováními."
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacity"]
+new = "Include building capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacityDesc"]
+new = "Includes the building's output inventory capacity as well as warehouse space"
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.Population"]
 raw = "Population"

@@ -1,2 +1,54 @@
 [_meta]
-name = "Unknown"
+name = "Power Copy"
+
+["LV.PC.CopyOptions"]
+new = "<b>Copying options:</b>"
+status = "normal"
+
+["LV.PC.CopyTargets"]
+new = "<b>Copying targets:</b>"
+status = "normal"
+
+["LV.PC.CopyLocations"]
+new = "<b>Copying locations:</b>"
+status = "normal"
+
+["LV.PC.CopyConfirm"]
+new = "Are you sure you want to copy the settings to {0} objects?"
+status = "normal"
+
+["LV.PC.UnknownOption"]
+new = "Unknown: {0}"
+status = "normal"
+
+["LV.PC.Pausable"]
+new = "Pause status: {0}"
+status = "normal"
+
+["LV.PC.Unpaused"]
+new = "Running"
+status = "normal"
+
+["LV.PC.PowerCopyTitle"]
+new = "Power Copy"
+status = "normal"
+
+["LV.PC.DistrictTitle"]
+new = "{0} ({1})"
+status = "normal"
+
+["LV.PC.ShowCopyingComponents"]
+new = "Show copying components"
+status = "normal"
+
+["LV.PC.ConfirmCopy"]
+new = "Copy to {0} objects"
+status = "normal"
+
+["LV.PC.Focus"]
+new = "Focus"
+status = "normal"
+
+["LV.PC.ToggleAll"]
+new = "De/Select All"
+status = "normal"
