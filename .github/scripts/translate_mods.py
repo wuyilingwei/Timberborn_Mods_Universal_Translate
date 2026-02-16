@@ -541,6 +541,126 @@ def reorder_glossary_blocks(toml_text: str) -> str:
     return "".join("".join(block) for block in ordered_blocks)
 
 
+def reorder_language_fields(toml_text: str, language_order: List[str]) -> str:
+    """
+    Reorder language code fields in TOML text according to the specified order
+    
+    Args:
+        toml_text: Original TOML text
+        language_order: List of language codes in desired order
+        
+    Returns:
+        TOML text with language fields reordered
+    """
+    if not toml_text or not language_order:
+        return toml_text
+    
+    lines = toml_text.splitlines(keepends=True)
+    if not lines:
+        return toml_text
+    
+    blocks = []
+    current_header = None
+    current_lines: List[str] = []
+    
+    # Parse TOML into blocks
+    for line in lines:
+        if _is_table_header(line):
+            if current_lines:
+                blocks.append((current_header, current_lines))
+            current_header = line
+            current_lines = [line]
+        else:
+            if not current_lines:
+                current_header = None
+                current_lines = [line]
+            else:
+                current_lines.append(line)
+    
+    if current_lines:
+        blocks.append((current_header, current_lines))
+    
+    # Process each block to reorder language fields
+    processed_blocks = []
+    for header, block_lines in blocks:
+        if header is None:
+            # Preamble block, keep as is
+            processed_blocks.append(block_lines)
+            continue
+            
+        # Check if this is a translation entry block (not _meta)
+        header_stripped = header.strip()
+        if header_stripped.startswith('[_meta'):
+            # Meta block, keep as is
+            processed_blocks.append(block_lines)
+            continue
+        
+        # This is a translation entry, reorder language fields
+        reordered_lines = _reorder_fields_in_block(block_lines, language_order)
+        processed_blocks.append(reordered_lines)
+    
+    return "".join("".join(block) for block in processed_blocks)
+
+
+def _reorder_fields_in_block(block_lines: List[str], language_order: List[str]) -> List[str]:
+    """
+    Reorder language fields within a single TOML block
+    
+    Args:
+        block_lines: Lines of the TOML block
+        language_order: Desired order of language codes
+        
+    Returns:
+        Block lines with language fields reordered
+    """
+    if not block_lines or not language_order:
+        return block_lines
+    
+    # Separate header, non-language fields, language fields, and comments
+    header_line = block_lines[0] if block_lines and _is_table_header(block_lines[0]) else None
+    result_lines = []
+    
+    if header_line:
+        result_lines.append(header_line)
+        content_lines = block_lines[1:]
+    else:
+        content_lines = block_lines
+    
+    # Parse field lines and group them
+    non_lang_fields = []  # Non-language fields (raw, status, etc.)
+    lang_fields = {}      # Language fields by language code
+    comment_lines = []    # Comments and empty lines
+    
+    for line in content_lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            comment_lines.append(line)
+            continue
+        
+        # Check if this is a field assignment
+        if '=' in line:
+            field_name = line.split('=')[0].strip()
+            if field_name in language_order:
+                lang_fields[field_name] = line
+            else:
+                non_lang_fields.append(line)
+        else:
+            comment_lines.append(line)
+    
+    # Add non-language fields first
+    result_lines.extend(non_lang_fields)
+    
+    # Add language fields in the specified order
+    for lang_code in language_order:
+        if lang_code in lang_fields:
+            result_lines.append(lang_fields[lang_code])
+    
+    # Add comment lines at the end
+    result_lines.extend(comment_lines)
+    
+    return result_lines
+
+
 def build_translation_prompt(
     key: str,
     new_text: str,
@@ -890,13 +1010,75 @@ def process_toml_file(
         try:
             toml_text = toml.dumps(data)
             toml_text = reorder_glossary_blocks(toml_text)
-            with open(toml_path, 'w', encoding='utf-8') as f:
+            toml_text = reorder_language_fields(toml_text, target_languages)
+            with open(toml_path, 'w', encoding='utf-8', newline='') as f:
                 f.write(toml_text)
             logger.info(f"Saved updates to {filename}")
         except Exception as e:
             logger.error(f"Failed to save {filename}: {e}")
     
     return translations_made, entries_processed
+
+
+def reformat_all_files(
+    data_dir: str,
+    target_languages: List[str],
+    max_threads: int = 1,
+    force_rewrite: bool = False
+) -> None:
+    """
+    Reformat and reorganize all TOML files without translation
+    
+    Args:
+        data_dir: Directory containing TOML files
+        target_languages: List of target language codes for ordering
+        max_threads: Maximum number of concurrent file processing threads
+        force_rewrite: Force rewrite all files even if they seem correctly ordered
+    """
+    logger = logging.getLogger("reformat_all_files")
+    
+    # Find all TOML files
+    toml_files = []
+    for filename in os.listdir(data_dir):
+        if filename.endswith('.toml') and not filename.startswith('_'):
+            toml_files.append(filename)
+    
+    if not toml_files:
+        logger.warning(f"No TOML files found in {data_dir}")
+        return
+    
+    logger.info(f"Found {len(toml_files)} TOML files to check")
+    
+    files_reformatted = 0
+    files_skipped = 0
+    
+    # Process files (single-threaded for simplicity)
+    for filename in toml_files:
+        toml_path = os.path.join(data_dir, filename)
+        
+        try:
+            # Read original file content as text first
+            with open(toml_path, 'r', encoding='utf-8') as f:
+                original_content = f.read()
+            
+            # Apply reordering to text (without toml.load/dumps cycle)
+            reordered_content = reorder_glossary_blocks(original_content)
+            reordered_content = reorder_language_fields(reordered_content, target_languages)
+            
+            # Only write if content actually changed or if forced
+            if reordered_content != original_content or force_rewrite:
+                with open(toml_path, 'w', encoding='utf-8', newline='') as f:
+                    f.write(reordered_content)
+                logger.info(f"Reformatted {filename}")
+                files_reformatted += 1
+            else:
+                logger.debug(f"Skipped {filename} (already correctly ordered)")
+                files_skipped += 1
+            
+        except Exception as e:
+            logger.error(f"Failed to reformat {filename}: {e}")
+    
+    logger.info(f"Reformat complete! {files_reformatted} files reformatted, {files_skipped} files skipped")
 
 
 def process_all_files(
@@ -1042,6 +1224,11 @@ def main():
         default="data/_glossary.toml",
         help="Path to glossary file (default: data/_glossary.toml)"
     )
+    parser.add_argument(
+        "--reformat-only",
+        action="store_true",
+        help="Only reformat/reorganize TOML files without translation"
+    )
     
     args = parser.parse_args()
     
@@ -1081,6 +1268,22 @@ def main():
         
         logger.info("Loading configuration...")
         
+        # Load target languages from config
+        logger.info("Loading target languages...")
+        target_languages = load_target_languages(config)
+        
+        # Check if this is reformat-only mode
+        if args.reformat_only:
+            logger.info("REFORMAT ONLY MODE - Only reorganizing files, no translation")
+            reformat_all_files(
+                data_dir=args.data_dir,
+                target_languages=target_languages,
+                max_threads=1  # Simple single-threaded for reformat
+            )
+            logger.info("All done!")
+            return
+        
+        # For translation mode, need API token
         # Get API token
         api_token = args.api_token
         if not api_token:
@@ -1129,7 +1332,7 @@ def main():
         if args.max_time:
             logger.info(f"Maximum processing time: {args.max_time} seconds")
         
-        # Process all files
+        # Process all files with translation
         process_all_files(
             data_dir=args.data_dir,
             translator=translator,
