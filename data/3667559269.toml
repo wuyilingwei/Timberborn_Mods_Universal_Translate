@@ -1,0 +1,154 @@
+[_meta]
+name = "Building Blueprints"
+
+["LV.BB.BlueprintsGroup"]
+new = "Building Blueprints"
+status = "normal"
+
+["LV.BB.BlueprintCreate"]
+new = "Create Building Blueprint"
+status = "normal"
+
+["LV.BB.BlueprintCreateDesc"]
+new = "Create a new building blueprint from the selected area"
+status = "normal"
+
+["LV.BB.BlueprintCreateTip"]
+new = "Hold the button to select an area. A building must be enclosed within the area to be included in the blueprint."
+status = "normal"
+
+["LV.BB.BlueprintCreateCopySettings"]
+new = "Copy buildings' settings: {0}"
+status = "normal"
+
+["LV.BB.BlueprintCreateArea"]
+new = "Area: {0} × {1}"
+status = "normal"
+
+["LV.BB.BlueprintCreateBuildings"]
+new = "Buildings ({0}):"
+status = "normal"
+
+["LV.BB.BlueprintCreateCosts"]
+new = "Costs:"
+status = "normal"
+
+["LV.BB.BlueprintBuildTool"]
+new = "Build Blueprint"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolDesc"]
+new = "Use a building blueprint to place buildings in the world"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolRotateClockwise"]
+new = "Rotate blueprint clockwise. Current: {0}"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolRotateCounterclockwise"]
+new = "Rotate blueprint counterclockwise. Current: {0}"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolFlip"]
+new = "Flip blueprint: {0}"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolPartial"]
+new = "Hold to place valid buildings and ignore invalid ones"
+status = "normal"
+
+["LV.BB.BlueprintBuildToolIgnoreSettings"]
+new = "Ignore buildings' settings in the blueprint: {0}"
+status = "normal"
+
+["LV.BB.DemolishBlueprintTool"]
+new = "Demolish Blueprint Buildings"
+status = "normal"
+
+["LV.BB.DemolishBlueprintToolDesc"]
+new = "Quickly demolish all buildings that were placed using a building blueprint"
+status = "normal"
+
+["LV.BB.DemolishConfirm"]
+new = "Are you sure you want to demolish all {0} buildings?"
+status = "normal"
+
+["LV.BB.UnknownBuilding"]
+new = "<RedHighlight>Unknown building: {0}</RedHighlight>"
+status = "normal"
+
+["LV.BB.DefaultName"]
+new = "Unnamed Blueprint"
+status = "normal"
+
+["LV.BB.InvalidName"]
+new = "The blueprint name is invalid. It must be a valid filename (avoid special characters)."
+status = "normal"
+
+["LV.BB.FileDuplicateWarning"]
+new = "A blueprint with this name already exists.\n<RedHighlight>Do you want to overwrite it?</RedHighlight>"
+status = "normal"
+
+["LV.BB.Save"]
+new = "Save Blueprint"
+status = "normal"
+
+["LV.BB.Reload"]
+new = "Reload Blueprints"
+status = "normal"
+
+["LV.BB.Browse"]
+new = "Browse Blueprints"
+status = "normal"
+
+["LV.BB.SelectTitle"]
+new = "Select Building Blueprint"
+status = "normal"
+
+["LV.BB.SelectDesc"]
+new = "Select a building blueprint to place in the world."
+status = "normal"
+
+["LV.BB.Build"]
+new = "Build Blueprint"
+status = "normal"
+
+["LV.BB.NoBlueprints"]
+new = "No building blueprints available.\nCreate one using the Create Building Blueprint tool."
+status = "normal"
+
+["LV.BB.MissingBuildings"]
+new = "Missing buildings: {0}"
+status = "normal"
+
+["LV.BB.LockedBuildings"]
+new = "Buildings not unlocked: {0}"
+status = "normal"
+
+["LV.BB.UnlockBuildings"]
+new = "Unlock required buildings"
+status = "normal"
+
+["LV.BB.NotEnoughScience"]
+new = "Not enough science to unlock required buildings"
+status = "normal"
+
+["LV.BB.UnlockConfirm"]
+new = "Unlocking the required buildings will cost {0} science. Do you want to proceed?"
+status = "normal"
+
+["LV.BB.UploadWorkshop"]
+new = "Upload to Workshop"
+status = "normal"
+
+["LV.BB.BrowseWorkshop"]
+new = "Browse Workshop"
+status = "normal"
+
+["LV.BB.ExistingId"]
+new = "Existing ID:"
+status = "normal"
+
+["LV.BB.ExistingIdDesc"]
+new = "If you want to update an existing workshop entry, enter its ID here. Otherwise, leave default (blank or zero)."
+status = "normal"

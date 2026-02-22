@@ -1,6 +1,22 @@
 [_meta]
 name = "CustomTools"
 
+["IgorZ.CustomTools.BlockObjectTool.UndoHint"]
+new = "Press <i>Ctrl+Z</i> to undo the last change"
+status = "normal"
+
+["IgorZ.CustomTools.FourTemplatesBlockObjectTool.ShiftDescriptionHint"]
+new = "Hold <i>SHIFT</i>: {0}"
+status = "normal"
+
+["IgorZ.CustomTools.FourTemplatesBlockObjectTool.CtrlDescriptionHint"]
+new = "Hold <i>CTRL</i>: {0}"
+status = "normal"
+
+["IgorZ.CustomTools.FourTemplatesBlockObjectTool.AltDescriptionHint"]
+new = "Hold <i>ALT</i>: {0}"
+status = "normal"
+
 ["IgorZ.CustomTools.ToolGroup.Main.DisplayName"]
 raw = "Tools"
 status = "normal"
@@ -15,6 +31,10 @@ plPL = "Narzędzia"
 ptBR = "Ferramentas"
 koKR = "도구"
 csCZ = "Nástroje"
+
+["IgorZ.CustomTools.LeveePlusTool.Title"]
+new = "Levee or Dam"
+status = "normal"
 
 ["IgorZ.CustomTools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
@@ -91,6 +111,10 @@ ptBR = "Apontar para uma entidade e clicar para começar a selecionar"
 koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
 csCZ = "NamTargethe entity a klikněte pro začátek výběru"
 
+["IgorZ.CustomTools.MultiTemplateBlockObjectTool.TemplateIsUnlocked"]
+new = "Building '{0}' is not yet available"
+status = "normal"
+
 ["IgorZ.CustomTools.DebugFinishNowTool.Description"]
 raw = "Immediately finishes the selected constructables."
 status = "normal"
@@ -121,6 +145,10 @@ ptBR = "Ferramenta de depuração finalizar agora"
 koKR = "지금 디버그 도구 완료"
 csCZ = "Nástroj pro okamžité dokončení ladění"
 
+["IgorZ.CustomTools.PathPlusTool.Title"]
+new = "Path+"
+status = "normal"
+
 ["IgorZ.CustomTools.PauseTool.Description"]
 raw = "Use this tool to pause buildings and construction sites."
 status = "normal"
@@ -150,6 +178,10 @@ plPL = "Zatrzymaj budynki"
 ptBR = "Pausar construções"
 koKR = "건물 일시 정지"
 csCZ = "Pausovat budovy"
+
+["IgorZ.CustomTools.PlatformPlusTool.Title"]
+new = "Adjustable Platform"
+status = "normal"
 
 ["IgorZ.CustomTools.ResumeTool.Description"]
 raw = "Use this tool to unpause buildings and construction sites."

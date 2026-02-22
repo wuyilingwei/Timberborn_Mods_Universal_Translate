@@ -602,8 +602,8 @@ koKR = "! 용량이 0인 재료; 제어는 용량 비율이 아닌 레시피 요
 csCZ = "! Ingredience s nulovou kapacitou; ovládání porovná dostupné zboží s potřebami receptu, nikoli s procentem kapacity (platí pro všechny ingredience)."
 
 ["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAllWarning"]
-status = "normal"
 raw = "! Farm or other multi-gather building detected. Will only stop when ALL products meet Stop test."
+status = "normal"
 enUS = "! Farm or other multi-gather building detected. Will only stop when ALL products meet the Stop test."
 zhCN = "! 检测到农场或其他多采集建筑。仅在所有产品满足停止测试时才会停止。"
 zhTW = "! 檢測到農場或其他多收集建築。只有當所有產品都符合停止測試時才會停止。"
@@ -617,8 +617,8 @@ koKR = "! 농장이나 기타 다중 수확 건물이 감지되었습니다. 모
 csCZ = "! Byla zjištěna farma nebo jiná budova pro hromadné sbírání. Zastaví se pouze tehdy, když VŠECHNY produkty splní test zastavení."
 
 ["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAnyWarning"]
-status = "normal"
 raw = "! Multi product recipe detected. Will stop when ANY product meets Stop test."
+status = "normal"
 enUS = "! Multi product recipe detected. Will stop when ANY product meets Stop test."
 zhCN = "“！检测到多产品配方。任何产品满足停止测试时将停止。”"
 zhTW = "! 偵測到多產品配方。一旦任何產品符合停止測試，將停止。 "
@@ -632,8 +632,8 @@ koKR = "! 다중 제품 레시피가 감지되었습니다. ANY 제품 중 하�
 csCZ = "! Byla detekována víceproduktová receptura. Zastaví se, když JAKÝKOLIV produkt splní test zastavení."
 
 ["UI.TW.SimpleWorkshopControl.UnfinishedBuildingWarning"]
-status = "normal"
 raw = "<b><YellowHighlight>Caution:</YellowHighlight><b> Building is not finished, or has no recipe set. The info in this window may be inaccurate."
+status = "normal"
 enUS = "<b><YellowHighlight>Caution:</YellowHighlight><b> Building is not finished, or has no recipe set. The info in this window may be inaccurate."
 zhCN = "<b><YellowHighlight>注意：</YellowHighlight><b> 建筑尚未完成，或未设置配方。此窗口中的信息可能不准确。"
 zhTW = "<b><YellowHighlight>小心：</YellowHighlight><b> 建築尚未完成，或者沒有設定食譜。這個視窗中的資訊可能不準確。"
@@ -645,6 +645,10 @@ plPL = "<b><YellowHighlight>Uwaga:</YellowHighlight><b> Budynek nie jest wykońc
 ptBR = "<b><YellowHighlight>Atenção:</YellowHighlight><b> A construção não está finalizada ou não possui uma receita definida. As informações nesta janela podem estar imprecisas."
 koKR = "<b><YellowHighlight>주의:</YellowHighlight><b> 건물이 완료되지 않았거나 레시피가 설정되지 않았습니다. 이 창의 정보가 부정확할 수 있습니다."
 csCZ = "<b><YellowHighlight>Upozornění:</YellowHighlight><b> Budova není dokončena, nebo nebyl nastaven žádný recept. Informace v tomto okně mohou být nepřesné."
+
+["UI.TW.SimpleWorkshopControl.FuelDebugWarning"]
+new = "Ingredient is fuel; start will be capped at 3 and stop at 1."
+status = "normal"
 
 ["UI.TW.SimpleWorkshopControl.GlobalInventoryFallback"]
 raw = "No district available. Using global inventory."
@@ -2281,8 +2285,8 @@ koKR = "구 사용자의 제어 동작을 활성화합니다. 이것은 보다 �
 csCZ = "Povoluje staré chování ovládání uživatele. To poskytuje specifické ovládání a umožňuje ovládat některé další typy budov, ale bylo převážně nahrazeno automatickými chováními."
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacity"]
-status = "normal"
 raw = "Include building capacity"
+status = "normal"
 enUS = "Include building capacity"
 zhCN = "包含建筑容量"
 zhTW = "“包含建築容量”"
@@ -2296,8 +2300,8 @@ koKR = "건물 용량 포함"
 csCZ = "Zahrnout kapacitu budovy"
 
 ["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacityDesc"]
-status = "normal"
 raw = "Includes the building's output inventory capacity as well as warehouse space"
+status = "normal"
 enUS = "Includes the building's output inventory capacity as well as warehouse space"
 zhCN = "“包括建筑的输出库存容量以及仓库空间”"
 zhTW = "包括建築的產出庫存容量以及倉庫空間"
@@ -2567,6 +2571,7 @@ csCZ = "Počasí"
 
 ["UI.TW.SimpleWorkshopControl.TT.UseWeatherControlToggle"]
 raw = "Control building based weather"
+new = "Control building based on weather"
 status = "normal"
 enUS = "Control building based weather"
 zhCN = "根据建筑控制天气"
@@ -3105,6 +3110,62 @@ ptBR = "Duração da fase ativa do ciclo do temporizador. Em dias"
 koKR = "타이머 주기의 활성 단계 길이. 일 수로"
 csCZ = "Délka aktivní fáze cyklu časovače. Ve dnech"
 
+["UI.TW.SimpleWorkshopControl.SingleCycleButton"]
+new = "Run single recipe"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SingleCycleButtonCancel"]
+new = "Attempt cancel"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleButton"]
+new = "Force building to become active for a single recipe cycle, overriding all other behaviors."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleButtonCancel"]
+new = "Cancel single cycle. This may or may not stop production, depending on other behavior settings."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SingleCycleLock"]
+new = "Lock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleLock"]
+new = "Building will only become active when the Single Cycle button is pressed."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedSCLock"]
+new = "Locked to single cycle button"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseSingleCycle"]
+new = "Use single cycle"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseSingleCycleDesc"]
+new = "Enable or disable the single cycle system."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleAll"]
+new = "All buildings"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleAllDesc"]
+new = "All manufactory buildings will have a single cycle button"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLocked"]
+new = "Buildings start locked"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLockedDesc"]
+new = "Buildings with single cycle ability will start locked"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleHeader"]
+new = "This setting adds a button which turns the building on for a single recipe cycle. It also has an option to lock buildings, so pressing the button is the only way they will run.\nThis is intended for use with my Markets mod, where precise control is important.\nBy default, it only works for markets. Checking 'All buildings' will make it available on most other workshops."
+status = "normal"
+
 ["ModSetting.TWSimpleWorkshopControl.SectionSluice"]
 raw = "<b><YellowHighlight>Sluice:</YellowHighlight><b>"
 status = "normal"
@@ -3134,6 +3195,10 @@ plPL = "<b><YellowHighlight>Ogólne:</YellowHighlight><b>"
 ptBR = "<b><DestaqueAmarelo>Geral:</DestaqueAmarelo><b>"
 koKR = "<b><YellowHighlight>일반:</YellowHighlight><b>"
 csCZ = "<b><YellowHighlight>Obecné:</YellowHighlight><b>"
+
+["ModSetting.TWSimpleWorkshopControl.SectionSingleCycle"]
+new = "<b><YellowHighlight>Single Cycle:</YellowHighlight><b>"
+status = "normal"
 
 ["ModSetting.TWSimpleWorkshopControl.SectionAutoIngredients"]
 raw = "<b><YellowHighlight>Auto-Ingredients:</YellowHighlight><b>"
