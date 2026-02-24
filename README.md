@@ -2,6 +2,8 @@
 
 ![](.github/data/thumbnail.png)
 
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Fsubscriptions-text&style=for-the-badge" alt="Steam Workshop downloads"></a> <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Ffavourites-text&style=for-the-badge" alt="Steam Workshop favourites"></a>
+
 ### **Get mod?**
 
 #### Full Support:
