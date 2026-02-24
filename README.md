@@ -51,6 +51,6 @@ Want to contribute? See [CONTRIBUTING](https://github.com/wuyilingwei/Timberborn
 
 ### License
 
-Data files in the `data` directory are licensed under the [Attribution-NonCommercial-NoDerivatives 4.0 International License](/License.txt)
+Data files in the `data` directory are licensed under the [Attribution-NonCommercial 4.0 International](/License.txt)
 
 Scripts and build files in the `.github` directory are licensed under the [ANTI-LABOR EXPLOITATION LICENSE 1.1 in combination with GNU General Public License v3.0](/.github/LICENSE).
