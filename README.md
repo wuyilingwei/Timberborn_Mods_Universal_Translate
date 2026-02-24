@@ -2,7 +2,7 @@
 
 ![](.github/data/thumbnail.png)
 
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Fsubscriptions-text&style=for-the-badge" alt="Steam Workshop downloads"></a> <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Ffavourites-text&style=for-the-badge" alt="Steam Workshop favourites"></a>
+[![Workshop Subscriptions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Fsubscriptions-text&style=for-the-badge)](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947) [![Workshop Favourites](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F3346918947%2Ffavourites-text&style=for-the-badge)](https://steamcommunity.com/sharedfiles/filedetails/?id=3346918947) [![Latest Release](https://img.shields.io/github/v/release/wuyilingwei/Timberborn_Mods_Universal_Translate?style=for-the-badge)](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases) [![Release Date](https://img.shields.io/github/release-date/wuyilingwei/Timberborn_Mods_Universal_Translate?style=for-the-badge)](https://github.com/wuyilingwei/Timberborn_Mods_Universal_Translate/releases)
 
 ### **Get mod?**
 
