@@ -17,8 +17,19 @@ koKR = "배터리 충전량: {0} / {1}"
 csCZ = "Nabité baterie: {0} / {1}"
 
 ["IgorZ.SmartPower.BatteryCapacityPct"]
-new = "Batteries charge: {0} ({1}%)"
 status = "normal"
+raw = "Batteries charge: {0} ({1}%)"
+enUS = "Batteries charge: {0} ({1}%)"
+zhCN = "电池充电量：{0}（{1}%）"
+zhTW = "電池電量：{0}（{1}％）"
+ruRU = "Заряд батарей: {0} ({1}%)"
+jaJP = "バッテリー充電量: {0} ({1}%)"
+frFR = "Charge des batteries : {0} ({1}%)"
+deDE = "Ladezustand der Batterien: {0} ({1}%)"
+plPL = "Poziom naładowania baterii: {0} ({1}%)"
+ptBR = "Carga das baterias: {0} ({1}%)"
+koKR = "배터리 충전량: {0} ({1}%)"
+csCZ = "Stav nabití baterií: {0} ({1}%)"
 
 ["IgorZ.SmartPower.BatteryCharging"]
 raw = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
@@ -456,8 +467,19 @@ koKR = "배터리 상태 표시"
 csCZ = "Zobrazit statistiky baterie"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryCapacityAsPct"]
-new = "Show battery charge in percent"
 status = "normal"
+raw = "Show battery charge in percent"
+enUS = "Show battery charge in percent"
+zhCN = "以百分比显示电池电量"
+zhTW = "以百分比顯示電池電量"
+ruRU = "Показывать заряд батареи в процентах"
+jaJP = "バッテリーの充電量をパーセント表示"
+frFR = "Afficher le niveau de charge de la batterie en pourcentage"
+deDE = "Batteriestand in Prozent anzeigen"
+plPL = "Pokaż poziom naładowania baterii w procentach"
+ptBR = "Mostrar a carga da bateria em porcentagem"
+koKR = "배터리 잔량을 백분율로 표시"
+csCZ = "Zobrazit nabití baterie v procentech"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
 raw = "Consumers activation hysteresis (hours)"
