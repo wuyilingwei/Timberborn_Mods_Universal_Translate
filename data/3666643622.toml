@@ -1,9 +1,29 @@
 [_meta]
 name = "Sync Mods"
 
-["calloatti.savemodmetadata.Menu.SyncMods"]
+["calloatti.syncmods.ButtonCancel"]
+new = "Done"
 status = "normal"
+
+["calloatti.syncmods.ButtonRestart"]
+new = "Restart game"
+status = "normal"
+
+["calloatti.syncmods.ButtonRestartLoad"]
+new = "Restart + Load"
+status = "normal"
+
+["calloatti.syncmods.ButtonSync"]
+new = "Sync"
+status = "normal"
+
+["calloatti.syncmods.SyncDialogboxText"]
+new = "Mods synced successfully from internal save data."
+status = "normal"
+
+["calloatti.savemodmetadata.Menu.SyncMods"]
 raw = "Sync Mods"
+status = "abandoned"
 enUS = "Sync Mods"
 zhCN = "同步 мод"
 zhTW = "同步模組"
@@ -17,8 +37,8 @@ koKR = "싱크 모드"
 csCZ = "Sync Modifikace"
 
 ["calloatti.savemodmetadata.Saving.LoadGamePanelHeader"]
-status = "normal"
 raw = "Sync Mods"
+status = "abandoned"
 enUS = "Sync Mods"
 zhCN = "同步模组"
 zhTW = "同步模組"
@@ -32,8 +52,8 @@ koKR = "동기화 모드"
 csCZ = "Sync Modů"
 
 ["calloatti.savemodmetadata.Core.Load"]
-status = "normal"
 raw = "Sync"
+status = "abandoned"
 enUS = "Sync"
 zhCN = "同步"
 zhTW = "同步"

@@ -33,6 +33,7 @@ csCZ = "Stožár vysokého napětí"
 
 ["Building.PowerLinePylon.FlavorDescription"]
 raw = "Crossing power lines will share power."
+new = ""
 status = "normal"
 enUS = "Crossing power lines will share power."
 zhCN = "海狸们喜欢能量线缆，它让能量传输变得无比方便。"
@@ -45,6 +46,18 @@ plPL = "Przechodzenie przez linie energetyczne pozwoli dzielić energię."
 ptBR = "Cruzando linhas de energia compartilhará energia."
 koKR = "전선 교차는 전력을 공유합니다."
 csCZ = "Křížení elektrických vedení sdílí energii."
+
+["Building.PowerLineSPylon.Description"]
+new = "A 1x1 tower bearing the power line cable."
+status = "normal"
+
+["Building.PowerLineSPylon.DisplayName"]
+new = "Power Line Pylon 1x1"
+status = "normal"
+
+["Building.PowerLineSPylon.FlavorDescription"]
+new = ""
+status = "normal"
 
 ["Building.PowerLineBeam.Description"]
 raw = "A horizontal beam bearing the power line cable."
@@ -78,6 +91,7 @@ csCZ = "Napájecí linii I"
 
 ["Building.PowerLineBeam.FlavorDescription"]
 raw = "Crossing power lines will share power. —Dr. Egon Spengler"
+new = ""
 status = "normal"
 enUS = "Crossing power lines will share power. —Dr. Egon Spengler"
 zhCN = "海狸们讨厌能量线缆，它让乘坐体验变得抖动而吵闹——不对，这个不能坐。"

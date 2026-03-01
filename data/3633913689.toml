@@ -166,6 +166,14 @@ ptBR = "Condição de contaminação da água não atendida"
 koKR = "물 오염 조건 미충족"
 csCZ = "„Podmínka znečištění vody není splněna“"
 
+["UI.TW.SimpleWorkshopControl.BlockedPowerLevel"]
+new = "Power level condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedBatteryLevel"]
+new = "Battery level condition unmet"
+status = "normal"
+
 ["UI.TW.SimpleWorkshopControl.SciencePoints"]
 raw = "Science Points"
 status = "abandoned"
@@ -647,8 +655,8 @@ koKR = "<b><YellowHighlight>주의:</YellowHighlight><b> 건물이 완료되지 
 csCZ = "<b><YellowHighlight>Upozornění:</YellowHighlight><b> Budova není dokončena, nebo nebyl nastaven žádný recept. Informace v tomto okně mohou být nepřesné."
 
 ["UI.TW.SimpleWorkshopControl.FuelDebugWarning"]
-status = "normal"
 raw = "Ingredient is fuel; start will be capped at 3 and stop at 1."
+status = "normal"
 enUS = "Ingredient is fuel; start will be capped at 3 and stop at 1."
 zhCN = "原料是燃料；开始将限制在3，停止在1。"
 zhTW = "原料為燃料；啟動上限為3，停止下限為1。"
@@ -3121,8 +3129,8 @@ koKR = "타이머 주기의 활성 단계 길이. 일 수로"
 csCZ = "Délka aktivní fáze cyklu časovače. Ve dnech"
 
 ["UI.TW.SimpleWorkshopControl.SingleCycleButton"]
-status = "normal"
 raw = "Run single recipe"
+status = "normal"
 enUS = "Run single recipe"
 zhCN = "运行单个配方"
 zhTW = "執行單一配方"
@@ -3136,8 +3144,8 @@ koKR = "단일 레시피 실행"
 csCZ = "Spustit jednotlivý recept"
 
 ["UI.TW.SimpleWorkshopControl.SingleCycleButtonCancel"]
-status = "normal"
 raw = "Attempt cancel"
+status = "normal"
 enUS = "Attempt to cancel"
 zhCN = "尝试取消"
 zhTW = "嘗試取消"
@@ -3151,8 +3159,8 @@ koKR = "취소 시도"
 csCZ = "Pokus o zrušení"
 
 ["UI.TW.SimpleWorkshopControl.TT.SingleCycleButton"]
-status = "normal"
 raw = "Force building to become active for a single recipe cycle, overriding all other behaviors."
+status = "normal"
 enUS = "Force building to become active for a single recipe cycle, overriding all other behaviors."
 zhCN = "“强制建筑在单个配方周期内变为活跃状态，覆盖所有其他行为。”"
 zhTW = "強制建築在單一食譜循環中變為活動狀態，覆蓋所有其他行為。"
@@ -3166,8 +3174,8 @@ koKR = "모든 다른 동작을 무시하고 단일 레시피 주기를 위해 �
 csCZ = "Donutit budovu, aby se aktivovala na jeden cyklus receptu, a přepsat všechny ostatní chování."
 
 ["UI.TW.SimpleWorkshopControl.TT.SingleCycleButtonCancel"]
-status = "normal"
 raw = "Cancel single cycle. This may or may not stop production, depending on other behavior settings."
+status = "normal"
 enUS = "Cancel single cycle. This may or may not stop production, depending on other behavior settings."
 zhCN = "取消单次周期。根据其他行为设置，这可能会停止或不停止生产。"
 zhTW = "取消單次循環。這可能會或可能不會停止生產，具體取決於其他行為設置。"
@@ -3181,8 +3189,8 @@ koKR = "단일 사이클 취소. 이는 다른 행동 설정에 따라 생산을
 csCZ = "Zrušit jednorázový cyklus. To může nebo nemusí zastavit výrobu, v závislosti na jiných nastaveních chování."
 
 ["UI.TW.SimpleWorkshopControl.SingleCycleLock"]
-status = "normal"
 raw = "Lock"
+status = "normal"
 enUS = "Lock"
 zhCN = "锁定"
 zhTW = "鎖定"
@@ -3196,8 +3204,8 @@ koKR = "잠금"
 csCZ = "Zamknout"
 
 ["UI.TW.SimpleWorkshopControl.TT.SingleCycleLock"]
-status = "normal"
 raw = "Building will only become active when the Single Cycle button is pressed."
+status = "normal"
 enUS = "Building will only become active when the Single Cycle button is pressed."
 zhCN = "建筑将在按下单周期按钮时才会变为可用状态。"
 zhTW = "只有在按下單循環按鈕時，建築才會變為活躍狀態。"
@@ -3211,8 +3219,8 @@ koKR = "단일 사이클 버튼이 눌릴 때만 건물이 활성화됩니다."
 csCZ = "Budova bude aktivní pouze po stisknutí tlačítka Jednoduchý cyklus."
 
 ["UI.TW.SimpleWorkshopControl.BlockedSCLock"]
-status = "normal"
 raw = "Locked to single cycle button"
+status = "normal"
 enUS = "Locked to single cycle button"
 zhCN = "“锁定为单周期按钮”"
 zhTW = "鎖定單循環按鈕"
@@ -3226,8 +3234,8 @@ koKR = "단일 사이클 버튼에 잠금"
 csCZ = "Zamčeno na tlačítko jednoho cyklu"
 
 ["ModSetting.TWSimpleWorkshopControl.UseSingleCycle"]
-status = "normal"
 raw = "Use single cycle"
+status = "normal"
 enUS = "Use single cycle"
 zhCN = "使用单个周期"
 zhTW = "使用單一循環"
@@ -3241,8 +3249,8 @@ koKR = "단일 사이클 사용"
 csCZ = "Použít jedno cyklus"
 
 ["ModSetting.TWSimpleWorkshopControl.UseSingleCycleDesc"]
-status = "normal"
 raw = "Enable or disable the single cycle system."
+status = "normal"
 enUS = "Enable or disable the single cycle system."
 zhCN = "“启用或禁用单循环系统。”"
 zhTW = "啟用或禁用單循環系統。"
@@ -3256,8 +3264,8 @@ koKR = "단일 사이클 시스템을 활성화하거나 비활성화합니다."
 csCZ = "Povolit nebo zakázat systém jednoho cyklu."
 
 ["ModSetting.TWSimpleWorkshopControl.SingleCycleAll"]
-status = "normal"
 raw = "All buildings"
+status = "normal"
 enUS = "All buildings"
 zhCN = "所有建筑"
 zhTW = "所有建築"
@@ -3271,8 +3279,8 @@ koKR = "모든 건물"
 csCZ = "Všechny budovy"
 
 ["ModSetting.TWSimpleWorkshopControl.SingleCycleAllDesc"]
-status = "normal"
 raw = "All manufactory buildings will have a single cycle button"
+status = "normal"
 enUS = "All manufacturing buildings will have a single cycle button."
 zhCN = "“所有制造建筑将拥有一个单周期按钮”"
 zhTW = "所有工廠建築將具有單一循環按鈕"
@@ -3286,8 +3294,8 @@ koKR = "모든 제조 건물에는 단일 사이클 버튼이 있습니다"
 csCZ = "Všechny výrobní budovy budou mít tlačítko pro jeden cyklus."
 
 ["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLocked"]
-status = "normal"
 raw = "Buildings start locked"
+status = "normal"
 enUS = "Buildings start locked"
 zhCN = "“建筑开始时被锁定”"
 zhTW = "建築物初始為鎖定狀態"
@@ -3301,8 +3309,8 @@ koKR = "건물이 잠금 해제된 상태에서 시작됩니다"
 csCZ = "Nádrže jsou uzamčeny"
 
 ["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLockedDesc"]
-status = "normal"
 raw = "Buildings with single cycle ability will start locked"
+status = "normal"
 enUS = "Buildings with single cycle ability will start locked"
 zhCN = "“具有单循环保持能力的建筑将以锁定状态开始”"
 zhTW = "具有單循環能力的建築將會鎖定起來"
@@ -3316,8 +3324,8 @@ koKR = "단일 사이클 능력을 가진 건물은 잠긴 상태로 시작합�
 csCZ = "Budovy s jednorázovou cyklickou schopností budou začínat uzamčené"
 
 ["ModSetting.TWSimpleWorkshopControl.SingleCycleHeader"]
-status = "normal"
 raw = "This setting adds a button which turns the building on for a single recipe cycle. It also has an option to lock buildings, so pressing the button is the only way they will run.\nThis is intended for use with my Markets mod, where precise control is important.\nBy default, it only works for markets. Checking 'All buildings' will make it available on most other workshops."
+status = "normal"
 enUS = "This setting adds a button that activates the building for a single recipe cycle. It also has an option to lock buildings, so pressing the button is the only way for them to operate. This is intended for use with my Markets mod, where precise control is important. By default, it only works for markets. Checking 'All buildings' will make it available on most other workshops."
 zhCN = "此设置添加了一个按钮，可以让建筑物在单个配方周期内运行。它还有一个锁定建筑物的选项，因此按下按钮是它们运行的唯一方式。\n这旨在与我的市场模组一起使用，在这种情况下，精确控制非常重要。\n默认为仅适用于市场。选中“所有建筑”将使其在大多数其他工坊中可用。"
 zhTW = "此設定添加了一個按鈕，可以將建築開啟一個單一食譜循環。它還有一個鎖定建築的選項，因此按下按鈕是它們運行的唯一方式。這是為了與我的市場模組一起使用，精確控制非常重要。默認情況下，它僅適用於市場。勾選「所有建築」將使其在大多數其他工坊中可用。"
@@ -3329,6 +3337,246 @@ plPL = "To ustawienie dodaje przycisk, który włącza budynek na pojedynczy cyk
 ptBR = "Essa configuração adiciona um botão que liga o edifício por um ciclo único de receita. Também há uma opção para bloquear os edifícios, então pressionar o botão é a única maneira de eles funcionarem. Isso é destinado ao uso com meu mod Mercados, onde o controle preciso é importante. Por padrão, funciona apenas para mercados. Marcar 'Todos os edifícios' tornará disponível na maioria das outras oficinas."
 koKR = "이 설정은 건물을 단일 레시피 주기로 작동시키는 버튼을 추가합니다. 또한 버튼을 눌러야만 작동하도록 건물을 잠글 수 있는 옵션이 있습니다. 이는 정밀한 제어가 중요한 제 시장 모드와 함께 사용하기 위한 것입니다. 기본적으로 이는 시장에만 작동합니다. '모든 건물'을 선택하면 대부분의 다른 작업장에서도 사용할 수 있습니다."
 csCZ = "Toto nastavení přidává tlačítko, které zapne budovu na jeden cyklus receptu. Má také možnost zamknout budovy, takže stisknutí tlačítka je jediný způsob, jak budou fungovat. \nToto je určeno k použití s mým módem Trhy, kde je přesná kontrola důležitá. \nVe výchozím nastavení funguje pouze pro trhy. Zaškrtnutí \"Všechny budovy\" jej zpřístupní většině dalších dílen."
+
+["UI.TW.SimpleWorkshopControl.SCLockedWarning"]
+new = "<b><YellowHighlight>Building is locked to the single-cycle button. All other settings will be ignored.</YellowHighlight></b>"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SCActiveWarning"]
+new = "<b><YellowHighlight>Single-cycle button has been pressed. Building will remain active until a recipe completes or the single cycle cancel button is pressed. All other settings will be ignored.</YellowHighlight></b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.DisableSteamEngines"]
+new = "Disable vanilla steam engine auto-off"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.DisableSteamEnginesDesc"]
+new = "Steam engines will not turn off based on power demand."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefault"]
+new = "Battery level default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultDesc"]
+new = "New buildings will start with battery level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStart"]
+new = "Battery level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartDesc"]
+new = "Default battery level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStop"]
+new = "Battery level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopDesc"]
+new = "Default battery level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultGen"]
+new = "Battery level default, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultGenDesc"]
+new = "New power generators will start with battery control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartGen"]
+new = "Battery level start, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartGenDesc"]
+new = "Default battery level start for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopGen"]
+new = "Battery level stop, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopGenDesc"]
+new = "Default battery level stop for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefault"]
+new = "Power level default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefaultDesc"]
+new = "New buildings will start with power level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStart"]
+new = "Power level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartDesc"]
+new = "Default power level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStop"]
+new = "Power level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopDesc"]
+new = "Default power level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelGenDefault"]
+new = "Power level default, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefaultGenDesc"]
+new = "New power generators will start with power level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartGen"]
+new = "Power level start, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartGenDesc"]
+new = "Default power level start for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopGen"]
+new = "Power level stop, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopGenDesc"]
+new = "Default power level stop for generators"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerControl"]
+new = "Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseBatteryLevel"]
+new = "Battery level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseBatteryLevelToggle"]
+new = "Control based on power network battery level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertBatteryLevel"]
+new = "Invert battery start/stop"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsePowerLevel"]
+new = "Power level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UsePowerLevelToggle"]
+new = "Control based on the power network power efficency level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertPowerLevel"]
+new = "Invert power level start / stop"
+status = "normal"
+
+["Building.TWSmallBattery.DisplayName"]
+new = "Small Battery"
+status = "normal"
+
+["Building.TWSmallBattery.Description"]
+new = "Stores power surplus and gives it back when its network is underpowered."
+status = "normal"
+
+["Building.TWSmallBattery.Folktails.FlavorDescription"]
+new = "A tower, to store power, to make flour, for an hour."
+status = "normal"
+
+["Building.TWSmallBattery.IronTeeth.FlavorDescription"]
+new = "Caution: Do not insert tail between weight and base."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnablePowerControl"]
+new = "Enable power controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnablePowerControlDesc"]
+new = "Show power-related controls. Buildings will remember their power-related settings while this is off, but will not use them."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableSmallBattery"]
+new = "Enable small battery"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableSmallBatteryDesc"]
+new = "The small battery will be available for placement"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelTotalDemand"]
+new = "Total demand: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelActiveDemand"]
+new = "Active demand: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelSupply"]
+new = "Supply: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelBatterySupply"]
+new = "Battery supply: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelInfo"]
+new = "Power level is supply divided by total demand (then normalized to a 0-100 scale).\nIf battery-aware is checked, supply will have available battery power added to it.\nActive demand is buildings currently on. Total demand is buildings that would like to be on, if they had enough power.\nThe power percentage shown in the vanilla GUI and used to control workshop speed is supply / active demand."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelGeneratorWarning"]
+new = "! Building is generator. Will only turn off if power level is above Stop AND if turning off will not reduce power level below Start."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelIsBatteryAware"]
+new = "Power level is battery-aware"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PowerLevelIsBatteryAwareToggle"]
+new = "Power level will include battery power. Workshops will turn on if there is battery available, and generators will attempt to keep battery above zero."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerEither"]
+new = "Battery OR Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerBoth"]
+new = "Battery AND Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerMixModeLabel"]
+new = "Stopped by"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PowerMixModeLabel"]
+new = "Controls whether both power conditions must be STOP for the building to stop."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsingDistrictInventory"]
+new = "Building controls are using <YellowHighlight>district</YellowHighlight> inventory."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsingGlobalInventory"]
+new = "Building controls are using <YellowHighlight>global</YellowHighlight> inventory."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPower"]
+new = "<b><YellowHighlight>Power:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPowerConsumers"]
+new = "<b><YellowHighlight>Power Consumers:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPowerGen"]
+new = "<b><YellowHighlight>Power Generators:</YellowHighlight><b>"
+status = "normal"
 
 ["ModSetting.TWSimpleWorkshopControl.SectionSluice"]
 raw = "<b><YellowHighlight>Sluice:</YellowHighlight><b>"
@@ -3361,8 +3609,8 @@ koKR = "<b><YellowHighlight>일반:</YellowHighlight><b>"
 csCZ = "<b><YellowHighlight>Obecné:</YellowHighlight><b>"
 
 ["ModSetting.TWSimpleWorkshopControl.SectionSingleCycle"]
-status = "normal"
 raw = "<b><YellowHighlight>Single Cycle:</YellowHighlight><b>"
+status = "normal"
 enUS = "<b><YellowHighlight>Single Cycle:</YellowHighlight><b>"
 zhCN = "<b><YellowHighlight>单周期:</YellowHighlight><b>"
 zhTW = "<b><YellowHighlight>單週期:</YellowHighlight><b>"

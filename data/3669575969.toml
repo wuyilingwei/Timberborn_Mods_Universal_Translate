@@ -2,8 +2,8 @@
 name = "Riverborne"
 
 ["Riverborne.DispatchItem.Paused"]
-status = "normal"
 raw = "Paused"
+status = "normal"
 enUS = "Paused"
 zhCN = "暂停"
 zhTW = "暫停"
@@ -17,8 +17,8 @@ koKR = "일시 중지"
 csCZ = "Pauza"
 
 ["Riverborne.EditDispatchPanel.DefaultDispatchName"]
-status = "normal"
 raw = "Dispatch #"
+status = "normal"
 enUS = "Dispatch #"
 zhCN = "派遣 #"
 zhTW = "調度 #"
@@ -32,8 +32,8 @@ koKR = "배차 #"
 csCZ = "Výprava #"
 
 ["Riverborne.EditDispatchPanel.Interval"]
-status = "normal"
 raw = "Interval: {0}"
+status = "normal"
 enUS = "Interval: {0}"
 zhCN = "间隔: {0}"
 zhTW = "間隔: {0}"
@@ -47,8 +47,8 @@ koKR = "간격: {0}"
 csCZ = "Interval: {0}"
 
 ["Riverborne.EditDispatchPanel.TotalWeight"]
-status = "normal"
 raw = "Total weight: {0} kg / {1} kg"
+status = "normal"
 enUS = "Total weight: {0} kg / {1} kg"
 zhCN = "总重量：{0}千克 / {1}千克"
 zhTW = "總重: {0} 公斤 / {1} 公斤"
@@ -62,8 +62,8 @@ koKR = "총 중량: {0} kg / {1} kg"
 csCZ = "Celková hmotnost: {0} kg / {1} kg"
 
 ["Riverborne.EditDispatchPanel.Weight"]
-status = "normal"
 raw = "{0} kg ×"
+status = "normal"
 enUS = "{0} kg ×"
 zhCN = "{0} 千克 ×"
 zhTW = "{0} 公斤 ×"
@@ -77,8 +77,8 @@ koKR = "{0} kg ×"
 csCZ = "{0} kg ×"
 
 ["Riverborne.Raft.DeletePrompt"]
-status = "normal"
 raw = "Are you sure you want to delete this raft?"
+status = "normal"
 enUS = "Are you sure you want to delete this raft?"
 zhCN = "您确定要删除这个木筏吗？"
 zhTW = "你確定要刪除這個筏子嗎？"
@@ -92,8 +92,8 @@ koKR = "이 뗏목을 삭제하시겠습니까?"
 csCZ = "Opravdu chcete smazat tento vor?"
 
 ["Riverborne.Raft.Description"]
-status = "normal"
 raw = "Transports goods using water currents."
+status = "normal"
 enUS = "Transports goods using water currents."
 zhCN = "“利用水流运输货物。”"
 zhTW = "利用水流運輸貨物。"
@@ -107,8 +107,8 @@ koKR = "수류를 이용하여 물품을 운반합니다."
 csCZ = "V přepravě zboží využívá vodní proudy."
 
 ["Riverborne.Raft.DisplayName"]
-status = "normal"
 raw = "Raft"
+status = "normal"
 enUS = "Raft"
 zhCN = "筏子"
 zhTW = "筏"
@@ -122,8 +122,8 @@ koKR = "뗏목"
 csCZ = "Člun"
 
 ["Riverborne.Raft.FlavorDescription"]
-status = "normal"
 raw = "Go with the flow."
+status = "normal"
 enUS = "Go with the flow."
 zhCN = "随波逐流。"
 zhTW = "隨潮而行。"
@@ -137,8 +137,8 @@ koKR = "흐름을 따라가세요."
 csCZ = "Jdi s proudem."
 
 ["Riverborne.RaftDock.Description"]
-status = "normal"
 raw = "A logistics dock that handles incoming and outgoing rafts."
+status = "normal"
 enUS = "A logistics dock that handles incoming and outgoing rafts."
 zhCN = "“一个处理进出木筏的物流码头。”"
 zhTW = "一個處理進出木筏的物流碼頭。"
@@ -152,8 +152,8 @@ koKR = "들어오고 나가는 뗏목을 처리하는 물류 부두."
 csCZ = "Logistické nábřeží, které zajišťuje příchozí a odchozí vorové dopravy."
 
 ["Riverborne.RaftDock.Dispatches"]
-status = "normal"
 raw = "Dispatches:"
+status = "normal"
 enUS = "Dispatches:"
 zhCN = "“调度：”"
 zhTW = "派遣："
@@ -167,8 +167,8 @@ koKR = "파견:"
 csCZ = "Zprávy:"
 
 ["Riverborne.RaftDock.DisplayName"]
-status = "normal"
 raw = "Raft Dock"
+status = "normal"
 enUS = "Raft Dock"
 zhCN = "筏码头"
 zhTW = "筏碼頭"
@@ -182,8 +182,8 @@ koKR = "뗏목 부두"
 csCZ = "Sáňkovací dok"
 
 ["Riverborne.RaftDock.FlavorDescription"]
-status = "normal"
 raw = "The water decides the schedule."
+status = "normal"
 enUS = "The water decides the schedule."
 zhCN = "“水决定了日程。”"
 zhTW = "「水決定了時間表。」"
@@ -197,8 +197,8 @@ koKR = "물가가 일정을 결정한다."
 csCZ = "Voda určuje rozvrh."
 
 ["Riverborne.RaftDock.RemoveDispatchConfirmation"]
-status = "normal"
 raw = "Are you sure you want to delete this dispatch?"
+status = "normal"
 enUS = "Are you sure you want to delete this dispatch?"
 zhCN = "您确定要删除此调度吗？"
 zhTW = "您確定要刪除此調度嗎？"
@@ -212,8 +212,8 @@ koKR = "이 배차를 삭제하시겠습니까?"
 csCZ = "Jste si jisti, že chcete smazat tuto zásilku?"
 
 ["Riverborne.RaftGuide.Description"]
-status = "normal"
 raw = "Helps direct rafts along the flow of water."
+status = "normal"
 enUS = "Helps guide rafts along the current."
 zhCN = "“帮助引导木筏顺着水流前行。”"
 zhTW = "幫助引導筏子沿水流方向前進。"
@@ -227,8 +227,8 @@ koKR = "물의 흐름을 따라 뗏목을 유도하는 데 도움을 줍니다."
 csCZ = "Pomáhá směrovat rafty po proudu vody."
 
 ["Riverborne.RaftGuide.DisplayName"]
-status = "normal"
 raw = "Raft Guide"
+status = "normal"
 enUS = "Raft Guide"
 zhCN = "筏子指南"
 zhTW = "筏子指南"
@@ -242,8 +242,8 @@ koKR = "플로터 가이드"
 csCZ = "Průvodce plavidlem"
 
 ["Riverborne.RaftGuide.FlavorDescription"]
-status = "normal"
 raw = "This way."
+status = "normal"
 enUS = "This way."
 zhCN = "这条路。"
 zhTW = "這條路。"
@@ -257,8 +257,8 @@ koKR = "이쪽입니다."
 csCZ = "Tudy."
 
 ["Riverborne.DiagonalRaftGuide.DisplayName"]
-status = "normal"
 raw = "Diagonal Raft Guide"
+status = "normal"
 enUS = "Diagonal Raft Guide"
 zhCN = "斜筏指南"
 zhTW = "對角筏指導"
@@ -272,8 +272,8 @@ koKR = "대각선 뗏목 가이드"
 csCZ = "„Návod na diagonální vor“"
 
 ["Riverborne.DiagonalRaftGuide.FlavorDescription"]
-status = "normal"
 raw = "Not this way."
+status = "normal"
 enUS = "Not this way."
 zhCN = "“不这个方向。”"
 zhTW = "不這樣。"
@@ -287,8 +287,8 @@ koKR = "이쪽이 아니야."
 csCZ = "Nikoli takto."
 
 ["Riverborne.RaftRamp.Description"]
-status = "normal"
 raw = "Launches rafts over obstacles."
+status = "normal"
 enUS = "Launches rafts over obstacles."
 zhCN = "“将筏子推过障碍物。”"
 zhTW = "將木筏發射越過障礙。"
@@ -302,8 +302,8 @@ koKR = "장애물을 넘는 뗏목을 발사합니다."
 csCZ = "Vypouští vorech přes překážky."
 
 ["Riverborne.RaftRamp.DisplayName"]
-status = "normal"
 raw = "Raft Ramp"
+status = "normal"
 enUS = "Raft Ramp"
 zhCN = "筏道"
 zhTW = "筏坡"
@@ -317,8 +317,8 @@ koKR = "뗏목 경사로"
 csCZ = "Rampa pro vor"
 
 ["Riverborne.RaftRamp.FlavorDescription"]
-status = "normal"
 raw = "Sometimes you just have to go over it."
+status = "normal"
 enUS = "Sometimes you just have to go over it."
 zhCN = "“有时你只需要跨过去。”"
 zhTW = "「有時你就是得越過它。」"

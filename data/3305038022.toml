@@ -16,6 +16,10 @@ ptBR = "Carga das baterias: {0} / {1}"
 koKR = "배터리 충전량: {0} / {1}"
 csCZ = "Nabité baterie: {0} / {1}"
 
+["IgorZ.SmartPower.BatteryCapacityPct"]
+new = "Batteries charge: {0} ({1}%)"
+status = "normal"
+
 ["IgorZ.SmartPower.BatteryCharging"]
 raw = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 status = "normal"
@@ -450,6 +454,10 @@ plPL = "Pokaż statystyki baterii"
 ptBR = "Mostrar estatísticas da bateria"
 koKR = "배터리 상태 표시"
 csCZ = "Zobrazit statistiky baterie"
+
+["IgorZ.SmartPower.Settings.Batteries.BatteryCapacityAsPct"]
+new = "Show battery charge in percent"
+status = "normal"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
 raw = "Consumers activation hysteresis (hours)"
