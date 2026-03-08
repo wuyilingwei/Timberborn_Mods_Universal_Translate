@@ -2236,9 +2236,17 @@ ptBR = "Plataforma Metálica"
 koKR = "금속 플랫폼"
 csCZ = "Metalová platforma"
 
+["Building.Tubeway.Gate.DisplayName"]
+new = "Tubeway Gate"
+status = "normal"
+
+["Building.Tubeway.Gate.Description"]
+new = "Disconnects a Tubeway on demand."
+status = "normal"
+
 ["NewGameConfigurationPanel.BobBalanced"]
 raw = "Balanced (Bobingabout)"
-status = "normal"
+status = "abandoned"
 enUS = "Balanced (Bobingabout)"
 zhCN = "平衡（Bobingabout）"
 zhTW = "平衡（Bobingabout）"
@@ -2253,7 +2261,7 @@ csCZ = "Vyvážený (Bobingabout)"
 
 ["NewGameConfigurationPanel.BobBalancedModeDescription"]
 raw = "The Seasons are fairly balanced.\n\nDifficulty: 3/5. The first drought can be long like Hard Mode, but you have longer to prepare for it.\n\n50% chance of Bad Tide starting from Cycle 5.\n\nAll seasons last 25 days. (except for early game handicap.)"
-status = "normal"
+status = "abandoned"
 enUS = "The Seasons are fairly balanced.\n\nDifficulty: 3/5. The first drought can be long like Hard Mode, but you have longer to prepare for it.\n\n50% chance of Bad Tide starting from Cycle 5.\n\nAll seasons last 25 days. (except for early game handicap.)"
 zhCN = "季节相对平衡。\n\n难度：3/5。第一次干旱可能像困难模式一样漫长，但你有更多时间为之做好准备。\n\n从第5个周期开始，有50%几率出现坏潮。\n\n所有季节持续25天。（早期游戏有例外。）"
 zhTW = "季節相當平衡。\n\n難度：3/5。第一次乾旱可能和困難模式一樣漫長，但你有更長的時間來準備。\n\n從第5循環開始，有50%的可能性出現壞潮。\n\n所有季節持續25天。（早期遊戲的障礙除外。）"
@@ -2268,7 +2276,7 @@ csCZ = "Roční období jsou poměrně vyvážená.\n\nObtížnost: 3/5. První 
 
 ["NewGameConfigurationPanel.BobLong"]
 raw = "Long (Bobingabout)"
-status = "normal"
+status = "abandoned"
 enUS = "Long (Bobingabout)"
 zhCN = "长（Bobingabout）"
 zhTW = "長（波賓四處晃悠）"
@@ -2283,7 +2291,7 @@ csCZ = "Long (Bobingabout)"
 
 ["NewGameConfigurationPanel.BobLongModeDescription"]
 raw = "The Seasons are long.\n\nDifficulty: 4/5. Hard mode but longer.\n\nDroughts and Badtides last 50 to 100 days. (with an early game Handicap.)\n\nTemperate seasons last 20 to 30 days.\n\n40% chance of Bad Tides starting from Cycle 3."
-status = "normal"
+status = "abandoned"
 enUS = "The Seasons are long.\n\nDifficulty: 4/5. Hard mode but longer.\n\nDroughts and Bad Tides last 50 to 100 days. (with an early game handicap.)\n\nTemperate seasons last 20 to 30 days.\n\n40% chance of Bad Tides starting from Cycle 3."
 zhCN = "季节很长。\n\n难度：4/5。困难模式但时间更长。\n\n干旱和恶潮持续50到100天。（带有早期游戏的劣势。）\n\n温带季节持续20到30天。\n\n从第3周期开始有40%的几率出现恶潮。"
 zhTW = "四季很長。\n\n難度：4/5。困難模式但更長。\n\n乾旱和壞潮持續 50 到 100 天。（帶有早期遊戲的障礙。）\n\n溫帶季節持續 20 到 30 天。\n\n從第三個週期開始，有 40% 的幾率會出現壞潮。"

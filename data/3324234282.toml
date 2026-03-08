@@ -1891,6 +1891,10 @@ ptBR = "remover trabalhadores"
 koKR = "직원 제거"
 csCZ = "odstranit pracovníky"
 
+["IgorZ.Automation.Scriptable.Workplace.Action.SetPriority"]
+new = "worker priority: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Workplace.Action.SetWorkers"]
 raw = "assign {0} workers"
 status = "normal"
@@ -1905,6 +1909,10 @@ plPL = "przydziel {0} pracowników"
 ptBR = "atribuir {0} trabalhadores"
 koKR = "{0}명의 작업자를 배정합니다"
 csCZ = "přiřadit {0} pracovníků"
+
+["IgorZ.Automation.Scriptable.Workplace.Signal.AssignedWorkers"]
+new = "assigned workers"
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Expressions.AndOperator"]
 raw = "and"
@@ -2041,6 +2049,10 @@ ptBR = "(máx: {0})"
 koKR = "(max: {0})"
 csCZ = "(max: {0})"
 
+["IgorZ.Automation.Scripting.Editor.ArgumentMinValueHint"]
+new = "(min: {0})"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.ConditionLabel"]
 raw = "If"
 status = "normal"
@@ -2085,6 +2097,22 @@ plPL = "Warunek musi zawierać co najmniej jeden sygnał."
 ptBR = "A condição deve conter pelo menos um sinal."
 koKR = "조건은 최소한 하나의 신호를 포함해야 합니다"
 csCZ = "Podmínka musí obsahovat alespoň jeden signál"
+
+["IgorZ.Automation.Scripting.Editor.ConstantTypeDecimals"]
+new = "decimals"
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.ConstantTypeString"]
+new = "string"
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.ConstantTypePercent"]
+new = "percent"
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.ConstantTypeWholeNumber"]
+new = "whole number"
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Editor.CopyRuleBtn"]
 raw = "Duplicate"
@@ -2266,21 +2294,6 @@ ptBR = "Leia sobre roteirização"
 koKR = "스크립팅에 대해 읽기"
 csCZ = "Přečtěte si o skriptování"
 
-["IgorZ.Automation.Scripting.Editor.NumberConstantType"]
-raw = "number"
-status = "normal"
-enUS = "number"
-zhCN = "数字"
-zhTW = "數字"
-ruRU = "номер"
-jaJP = "番号"
-frFR = "nombre"
-deDE = "zahl"
-plPL = "numer"
-ptBR = "número"
-koKR = "숫자"
-csCZ = "číslo"
-
 ["IgorZ.Automation.Scripting.Editor.PauseRuleBtn"]
 raw = "Disable rule"
 status = "normal"
@@ -2400,21 +2413,6 @@ plPL = "Zapisz"
 ptBR = "Salvar"
 koKR = "저장"
 csCZ = "Uložit"
-
-["IgorZ.Automation.Scripting.Editor.StringConstantType"]
-raw = "string"
-status = "normal"
-enUS = "string"
-zhCN = "字符串"
-zhTW = "字串"
-ruRU = "строка"
-jaJP = "文字列"
-frFR = "chaîne"
-deDE = "zeichenfolge"
-plPL = "ciąg"
-ptBR = "cadeia"
-koKR = "문자열"
-csCZ = "řetězec"
 
 ["IgorZ.Automation.Scripting.Editor.TemplateFamilyLabel"]
 raw = "Template group: {0}"
@@ -2986,21 +2984,6 @@ ptBR = "Verificar valor do argumento em tempo de execução"
 koKR = "실행 중 인수 값 확인"
 csCZ = "Zkontrolovat hodnotu argumentu za běhu"
 
-["IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments"]
-raw = "Check arguments with fixed set of values"
-status = "normal"
-enUS = "Check arguments with fixed set of values"
-zhCN = "检查具有固定值集合的参数"
-zhTW = "檢查具有固定值集合的參數"
-ruRU = "Проверьте аргументы с фиксированным набором значений"
-jaJP = "「固定された値のセットで引数をチェック」"
-frFR = "Vérifiez les arguments avec un ensemble de valeurs fixes"
-deDE = "Überprüfen Sie die Argumente mit einem festen Wertebereich"
-plPL = "Sprawdź argumenty z ustaloną listą wartości"
-ptBR = "Verificar argumentos com conjunto fixo de valores"
-koKR = "고정된 값 집합으로 인수 확인"
-csCZ = "Zkontrolovat argumenty s pevným souborem hodnot"
-
 ["IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize"]
 raw = "Signal execution stack size"
 status = "normal"
@@ -3015,6 +2998,51 @@ plPL = "Rozmiar stosu wykonania sygnału"
 ptBR = "Tamanho da pilha de execução do sinal"
 koKR = "신호 실행 스택 크기"
 csCZ = "Velikost zásobníku pro vykonávání signálů"
+
+["IgorZ.Automation.Scripting.Editor.NumberConstantType"]
+raw = "number"
+status = "abandoned"
+enUS = "number"
+zhCN = "数字"
+zhTW = "數字"
+ruRU = "номер"
+jaJP = "番号"
+frFR = "nombre"
+deDE = "zahl"
+plPL = "numer"
+ptBR = "número"
+koKR = "숫자"
+csCZ = "číslo"
+
+["IgorZ.Automation.Scripting.Editor.StringConstantType"]
+raw = "string"
+status = "abandoned"
+enUS = "string"
+zhCN = "字符串"
+zhTW = "字串"
+ruRU = "строка"
+jaJP = "文字列"
+frFR = "chaîne"
+deDE = "zeichenfolge"
+plPL = "ciąg"
+ptBR = "cadeia"
+koKR = "문자열"
+csCZ = "řetězec"
+
+["IgorZ.Automation.Settings.ScriptEngine.CheckOptionsArguments"]
+raw = "Check arguments with fixed set of values"
+status = "abandoned"
+enUS = "Check arguments with fixed set of values"
+zhCN = "检查具有固定值集合的参数"
+zhTW = "檢查具有固定值集合的參數"
+ruRU = "Проверьте аргументы с фиксированным набором значений"
+jaJP = "「固定された値のセットで引数をチェック」"
+frFR = "Vérifiez les arguments avec un ensemble de valeurs fixes"
+deDE = "Überprüfen Sie die Argumente mit einem festen Wertebereich"
+plPL = "Sprawdź argumenty z ustaloną listą wartości"
+ptBR = "Verificar argumentos com conjunto fixo de valores"
+koKR = "고정된 값 집합으로 인수 확인"
+csCZ = "Zkontrolovat argumenty s pevným souborem hodnot"
 
 ["IgorZ.Automation.DebugPickTool.DescriptionHint1"]
 raw = "Hold <i>SHIFT</i> to print Accessible."
