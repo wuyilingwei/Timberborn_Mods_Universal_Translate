@@ -1,28 +1,50 @@
 [_meta]
 name = "zxuiji -m- Greedy Groups"
 
-[_meta.glossary.a0x]
+[_meta.glossary."a0x"]
 all = " "
 
 [_meta.glossary.".x"]
 all = " "
 
-[_meta.glossary.x0a]
+[_meta.glossary."x0a"]
 all = " "
 
-[_meta.glossary.xa0]
+[_meta.glossary."xa0"]
 all = " "
 
-[_meta.glossary.a0]
+[_meta.glossary."a0"]
 all = " "
 
 [HR]
-new = "================================================================="
 status = "normal"
+raw = "================================================================="
+enUS = "=================================================================="
+zhCN = "================================================================="
+zhTW = "================================================================="
+ruRU = "================================================================="
+jaJP = "================================================================="
+frFR = "================================================================="
+deDE = "=================================================================="
+plPL = "Nazwa klucza: HR - Nowy tekst do przetłumaczenia: \"=================================================================\""
+ptBR = "================================================================="
+koKR = "================================================================="
+csCZ = "================================================================="
 
 ["ToolGroups.GreedyFolktailFields"]
 new = "Folktail Fields"
 status = "normal"
+raw = "Folktail Fields"
+enUS = "Folktail Fields"
+zhCN = "民尾农田"
+zhTW = "Folktail 農田"
+ruRU = "Поля Folktail"
+jaJP = "フォークテイル畑"
+frFR = "Champs Folktail"
+deDE = "Folktail-Felder"
+plPL = "Pola Folktail"
+ptBR = "Campos Folktail"
+koKR = "폴크테일 들판"
 
 [GN]
 raw = "a0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0Decorationxa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0.xa0."
@@ -280,8 +302,19 @@ koKR = "저장소"
 csCZ = "Skladování"
 
 ["ToolGroups.GreedyBasics"]
-new = "Basics"
 status = "normal"
+raw = "Basics"
+enUS = "Basics"
+zhCN = "基础"
+zhTW = "基礎"
+ruRU = "Основы"
+jaJP = "基本"
+frFR = "Notions de base"
+deDE = "Grundlagen"
+plPL = "Podstawy"
+ptBR = "Conceitos básicos"
+koKR = "기초"
+csCZ = "Základy"
 
 ["ToolGroups.GreedyDecor"]
 raw = "Decor"
@@ -794,12 +827,34 @@ koKR = "펌프"
 csCZ = "Čerpadla"
 
 ["ToolGroups.GreedyCollections"]
-new = "Collections"
 status = "normal"
+raw = "Collections"
+enUS = "Collections"
+zhCN = "收藏"
+zhTW = "收藏"
+ruRU = "Коллекции"
+jaJP = "収集"
+frFR = "Collections"
+deDE = "Sammlungen"
+plPL = "Kolekcje"
+ptBR = "Coleções"
+koKR = "수집"
+csCZ = "Sbírky"
 
 ["ToolGroups.GreedyAutomatedCollections"]
-new = "Automated Collections"
 status = "normal"
+raw = "Automated Collections"
+enUS = "Automated Collections"
+zhCN = "自动化收集"
+zhTW = "自動化收集"
+ruRU = "Автоматизированные сборы"
+jaJP = "自動収集"
+frFR = "Collectes automatisées"
+deDE = "Automatisierte Sammlungen"
+plPL = "Automatyczne kolekcje"
+ptBR = "Coletas Automatizadas"
+koKR = "자동 수집"
+csCZ = "Automatické sběry"
 
 ["ToolGroups.GreedyFood"]
 raw = "Food"
