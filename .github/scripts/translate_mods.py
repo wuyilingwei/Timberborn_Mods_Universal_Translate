@@ -73,6 +73,19 @@ def load_target_languages(config: Dict) -> List[str]:
     return languages
 
 
+def load_ingame_languages(config: Dict) -> List[str]:
+    """
+    Return languages that are in supported but NOT in game_supported.
+    These are the only languages translated in _ingame*.toml files.
+    """
+    supported = set(config.get("languages", {}).get("supported", []))
+    game_supported = set(config.get("languages", {}).get("game_supported", []))
+    ingame_only = [lang for lang in config.get("languages", {}).get("supported", [])
+                   if lang not in game_supported]
+    logging.info(f"Ingame-only languages (supported ∖ game_supported): {', '.join(ingame_only)}")
+    return ingame_only
+
+
 def load_glossary(glossary_path: str) -> Dict[str, Dict[str, str]]:
     """
     Load glossary from TOML file
@@ -1130,7 +1143,9 @@ def reformat_all_files(
     # Find all TOML files
     toml_files = []
     for filename in os.listdir(data_dir):
-        if filename.endswith('.toml') and not filename.startswith('_'):
+        if filename.endswith('.toml') and (
+            not filename.startswith('_') or filename.startswith('_ingame')
+        ):
             toml_files.append(filename)
     
     if not toml_files:
@@ -1175,6 +1190,7 @@ def process_all_files(
     data_dir: str,
     translator: TranslatorLLM,
     target_languages: List[str],
+    ingame_languages: Optional[List[str]] = None,
     max_threads: int = 1,
     max_threads_per_file: int = 10,
     dry_run: bool = False,
@@ -1228,10 +1244,16 @@ def process_all_files(
     
     start_time = time.time()
     
-    # Find all TOML files, excluding _glossary.toml
+    # Find all TOML files.
+    # Include _ingame*.toml files (ingame localization for unsupported languages).
+    # Exclude all other _-prefixed files (e.g. _glossary.toml).
     all_toml_files = list(Path(data_dir).glob("*.toml"))
-    toml_files = [f for f in all_toml_files if not f.name.startswith('_')]
-    logger.info(f"Found {len(toml_files)} TOML files to process (excluded {len(all_toml_files) - len(toml_files)} system files)")
+    toml_files = [
+        f for f in all_toml_files
+        if not f.name.startswith('_') or f.name.startswith('_ingame')
+    ]
+    excluded_count = len(all_toml_files) - len(toml_files)
+    logger.info(f"Found {len(toml_files)} TOML files to process (excluded {excluded_count} system files)")
     
     if not toml_files:
         logger.warning("No TOML files found")
@@ -1263,6 +1285,18 @@ def process_all_files(
         with _active_files_lock:
             _active_files_count[0] += 1
         entry_threads = _compute_entry_threads()
+
+        # Ingame files (_ingame*.toml) are translated only for languages that are
+        # supported by this project but not natively supported by the game.
+        is_ingame = toml_file.name.startswith('_ingame')
+        file_languages = (ingame_languages if (is_ingame and ingame_languages)
+                          else target_languages)
+        if is_ingame:
+            logger.info(
+                f"[ingame] {toml_file.name}: using ingame-only languages: "
+                f"{', '.join(file_languages)}"
+            )
+
         logger.info(
             f"[threads] Start {toml_file.name}: "
             f"active_files={_active_files_count[0]}, entry_threads={entry_threads}"
@@ -1271,7 +1305,7 @@ def process_all_files(
             return process_toml_file(
                 str(toml_file),
                 translator,
-                target_languages,
+                file_languages,
                 dry_run,
                 _compute_entry_threads,
             )
@@ -1470,6 +1504,9 @@ def main():
         # Load target languages from config
         logger.info("Loading target languages...")
         target_languages = load_target_languages(config)
+
+        # Compute ingame-only languages (supported ∖ game_supported)
+        ingame_languages = load_ingame_languages(config)
         
         # Initialize translator
         logger.info("Initializing translator...")
@@ -1502,6 +1539,7 @@ def main():
             data_dir=args.data_dir,
             translator=translator,
             target_languages=target_languages,
+            ingame_languages=ingame_languages,
             max_threads=max_threads,
             max_threads_per_file=max_threads_per_file,
             dry_run=args.dry_run,
