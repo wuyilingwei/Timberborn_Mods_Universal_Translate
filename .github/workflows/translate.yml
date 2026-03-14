@@ -119,7 +119,10 @@ jobs:
           #
           # If nobody pushed to the target branch while we ran: fast-forward.
           #
-          # If the target branch has new commits that conflict with our work:
+          # If the target branch has new commits, first attempt a clean rebase.
+          # If rebase succeeds without conflicts: push normally (no displacement).
+          #
+          # Only if rebase has conflicts (automation cannot resolve them):
           #   1. Preserve those commits on a side branch so they are not lost.
           #   2. Force-push the translation result onto the target branch,
           #      overriding the conflicting commits.
@@ -146,19 +149,35 @@ jobs:
               cleanup_temp_branch
             else
               # The target branch has new commits that appeared during the run.
-              # Translation takes priority: preserve the foreign commits on a
-              # side branch, then force-push the translation result.
-              DISPLACED_BRANCH="preserved/displaced-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
+              # First, attempt a clean rebase onto the updated target branch.
               echo "Upstream $TARGET_BRANCH has new commits since $ORIGIN_SHA (now $CURRENT_TARGET_SHA)"
-              echo "Preserving displaced commits on $DISPLACED_BRANCH..."
-              git push origin "${CURRENT_TARGET_SHA}:refs/heads/${DISPLACED_BRANCH}"
-              echo "Displaced commits saved to $DISPLACED_BRANCH"
+              echo "Attempting rebase onto origin/${TARGET_BRANCH}..."
 
-              echo "Force-pushing translation result onto $TARGET_BRANCH..."
-              git push --force origin "HEAD:${TARGET_BRANCH}"
-              echo "Successfully applied translation to $TARGET_BRANCH"
-              echo "Note: commits that were on $TARGET_BRANCH during the run are preserved on $DISPLACED_BRANCH"
-              cleanup_temp_branch
+              if git rebase "origin/${TARGET_BRANCH}" 2>&1; then
+                # Rebase succeeded with no conflicts — push normally.
+                echo "Rebase succeeded cleanly; pushing to $TARGET_BRANCH"
+                git push origin "HEAD:${TARGET_BRANCH}"
+                echo "Successfully merged translation into $TARGET_BRANCH (rebased)"
+                cleanup_temp_branch
+              else
+                # Rebase hit conflicts that automation cannot resolve.
+                # Abort rebase to restore clean temp-branch state.
+                git rebase --abort 2>/dev/null || true
+
+                # Preserve the foreign commits so they are not lost, then
+                # force-push the translation result onto the target branch.
+                DISPLACED_BRANCH="preserved/displaced-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
+                echo "Rebase conflict detected; automation cannot resolve conflicts"
+                echo "Preserving displaced commits on $DISPLACED_BRANCH..."
+                git push origin "${CURRENT_TARGET_SHA}:refs/heads/${DISPLACED_BRANCH}"
+                echo "Displaced commits saved to $DISPLACED_BRANCH"
+
+                echo "Force-pushing translation result onto $TARGET_BRANCH..."
+                git push --force origin "HEAD:${TARGET_BRANCH}"
+                echo "Successfully applied translation to $TARGET_BRANCH"
+                echo "Note: commits that were on $TARGET_BRANCH during the run are preserved on $DISPLACED_BRANCH"
+                cleanup_temp_branch
+              fi
             fi
           }
 
