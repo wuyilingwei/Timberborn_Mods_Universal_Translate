@@ -1071,8 +1071,8 @@ def process_toml_file(
                     fut = entry_executor.submit(_process_entry, key, entry)
                     in_flight[fut] = key
                 if in_flight:
-                    logger.debug(
-                        f"{filename}: window={len(in_flight)}, "
+                    logger.info(
+                        f"[threads] {filename}: window={len(in_flight)}, "
                         f"target={target}, remaining={len(pending_queue)}"
                     )
 
@@ -1262,9 +1262,10 @@ def process_all_files(
         """Wrapper that adjusts entry_threads based on live active-file count."""
         with _active_files_lock:
             _active_files_count[0] += 1
-        logger.debug(
-            f"Starting {toml_file.name}: active_files={_active_files_count[0]}, "
-            f"initial_entry_threads={_compute_entry_threads()}"
+        entry_threads = _compute_entry_threads()
+        logger.info(
+            f"[threads] Start {toml_file.name}: "
+            f"active_files={_active_files_count[0]}, entry_threads={entry_threads}"
         )
         try:
             return process_toml_file(
@@ -1277,6 +1278,12 @@ def process_all_files(
         finally:
             with _active_files_lock:
                 _active_files_count[0] -= 1
+            remaining = _active_files_count[0]
+            entry_threads_now = _compute_entry_threads()
+            logger.info(
+                f"[threads] Done  {toml_file.name}: "
+                f"active_files={remaining}, entry_threads now={entry_threads_now}"
+            )
 
     logger.info(
         f"Thread allocation: up to {active_file_threads} concurrent file(s), "

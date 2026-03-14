@@ -33,7 +33,7 @@ max_threads = 100
 # When only a few files remain active, idle threads are redistributed
 # up to this limit per file.  Raise this value to allow a single file
 # to use more threads when it is the last one in the queue.
-max_threads_per_file = 10
+max_threads_per_file = 20
 
 [llm]
 # LLM model to use for translation
