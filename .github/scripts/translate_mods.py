@@ -20,7 +20,7 @@ import argparse
 import re
 import threading
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, as_completed, wait as fut_wait
 from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 
 # Add util to path
@@ -903,7 +903,15 @@ def process_toml_file(
     """
     logger = logging.getLogger("process_toml_file")
     filename = os.path.basename(toml_path)
-    logger.info(f"Processing {filename} (entry_threads={max_entry_threads})")
+
+    # Normalise to a callable so the rest of the function always calls it.
+    if callable(max_entry_threads):
+        _get_threads = max_entry_threads
+    else:
+        _n = max_entry_threads
+        _get_threads = lambda: _n  # noqa: E731
+
+    logger.info(f"Processing {filename}")
     
     # Load TOML file
     try:
@@ -1044,27 +1052,45 @@ def process_toml_file(
 
     current_threads = _resolve_threads()
     if current_threads > 1:
-        # Parallel entry processing.  The worker count is resolved once when
-        # the pool is created; subsequent dynamic changes will take effect on
-        # the *next* file processed (which is the typical benefit of the
-        # callable form — files that start late inherit a higher budget).
-        logger.info(f"Processing up to {current_threads} entries concurrently in {filename}")
-        with ThreadPoolExecutor(max_workers=current_threads) as entry_executor:
-            future_to_key = {
-                entry_executor.submit(_process_entry, key, entry): key
-                for key, entry in pending_entries
-            }
-            for future in as_completed(future_to_key):
-                key = future_to_key[future]
-                try:
-                    delta, entry_modified = future.result()
-                    if delta > 0:
-                        entries_processed += 1
-                        translations_made += delta
-                    if entry_modified:
-                        modified = True
-                except Exception as e:
-                    logger.error(f"Error processing entry {key}: {e}")
+        # Sliding-window parallel entry processing.
+        #
+        # Instead of creating a pool with a fixed max_workers and submitting
+        # every entry up-front, we maintain a live "window" of at-most
+        # _resolve_threads() concurrent futures.  After each completion we
+        # re-check _resolve_threads() and top up to the new limit.  This means
+        # a file that started with 2 entry-threads will automatically scale up
+        # to 10 as sibling files finish, without needing to recreate the pool.
+        with ThreadPoolExecutor(max_workers=50) as entry_executor:
+            pending_queue = list(pending_entries)
+            in_flight: dict = {}  # future -> key
+
+            def _fill_window():
+                target = _resolve_threads()
+                while pending_queue and len(in_flight) < target:
+                    key, entry = pending_queue.pop(0)
+                    fut = entry_executor.submit(_process_entry, key, entry)
+                    in_flight[fut] = key
+                if in_flight:
+                    logger.debug(
+                        f"{filename}: window={len(in_flight)}, "
+                        f"target={target}, remaining={len(pending_queue)}"
+                    )
+
+            _fill_window()
+            while in_flight:
+                done, _ = fut_wait(in_flight.keys(), return_when=FIRST_COMPLETED)
+                for future in done:
+                    key = in_flight.pop(future)
+                    try:
+                        delta, entry_modified = future.result()
+                        if delta > 0:
+                            entries_processed += 1
+                            translations_made += delta
+                        if entry_modified:
+                            modified = True
+                    except Exception as e:
+                        logger.error(f"Error processing entry {key}: {e}")
+                _fill_window()
     else:
         # Sequential entry processing (original behaviour)
         for key, entry in pending_entries:
@@ -1237,7 +1263,8 @@ def process_all_files(
         with _active_files_lock:
             _active_files_count[0] += 1
         logger.debug(
-            f"Starting {toml_file.name}: active_files={_active_files_count[0]}"
+            f"Starting {toml_file.name}: active_files={_active_files_count[0]}, "
+            f"initial_entry_threads={_compute_entry_threads()}"
         )
         try:
             return process_toml_file(
