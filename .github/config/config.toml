@@ -52,3 +52,10 @@ max_length = 5000
 [logging]
 # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
 level = "INFO"
+
+# Dedicated thread-allocation / work-info log file.
+# Captures all thread lifecycle events (start/end), file assignments,
+# entry assignments, and language translation work at DEBUG level,
+# regardless of the main log level above.
+# Set to "" or remove to disable.
+thread_log_file = ".github/log/thread_work.log"

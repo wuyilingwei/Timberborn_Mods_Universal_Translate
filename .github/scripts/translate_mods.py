@@ -35,20 +35,141 @@ LANGUAGE_NAMES = {}
 GLOSSARY = {}
 
 
+class ThreadWorkTracker:
+    """Tracks per-thread work assignments and timing for diagnostic reporting.
+
+    Every file-level and entry-level work assignment is recorded so that the
+    final summary shows exactly which thread handled which work and how long
+    each unit took.  All public methods are thread-safe.
+    """
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        # {thread_name: [{"type": "file"|"entry"|"language", "name": ...,
+        #                  "start": float, "end": float|None, "detail": ...}]}
+        self._records: Dict[str, List[Dict]] = {}
+        self._start_time = time.time()
+        self._logger = logging.getLogger("ThreadWorkTracker")
+
+    # ------------------------------------------------------------------ #
+    # Recording helpers                                                    #
+    # ------------------------------------------------------------------ #
+    def _thread_name(self) -> str:
+        return threading.current_thread().name
+
+    def record_start(self, work_type: str, name: str, detail: str = "") -> None:
+        """Record the start of a work unit on the current thread."""
+        thread = self._thread_name()
+        record = {
+            "type": work_type,
+            "name": name,
+            "start": time.time(),
+            "end": None,
+            "detail": detail,
+        }
+        with self._lock:
+            self._records.setdefault(thread, []).append(record)
+        self._logger.debug(
+            f"[work-start] type={work_type} name={name} thread={thread}"
+            + (f" detail={detail}" if detail else "")
+        )
+
+    def record_end(self, work_type: str, name: str) -> None:
+        """Record the end of the most recent matching work unit."""
+        thread = self._thread_name()
+        now = time.time()
+        with self._lock:
+            for rec in reversed(self._records.get(thread, [])):
+                if rec["type"] == work_type and rec["name"] == name and rec["end"] is None:
+                    rec["end"] = now
+                    break
+        self._logger.debug(
+            f"[work-end] type={work_type} name={name} thread={thread}"
+        )
+
+    # ------------------------------------------------------------------ #
+    # Summary                                                              #
+    # ------------------------------------------------------------------ #
+    def summary(self) -> str:
+        """Return a human-readable summary of all thread work assignments."""
+        wall_time = time.time() - self._start_time
+        lines: List[str] = []
+        lines.append("=" * 72)
+        lines.append("THREAD WORK ALLOCATION SUMMARY")
+        lines.append(f"Total wall time: {wall_time:.1f}s")
+        lines.append("=" * 72)
+
+        with self._lock:
+            snapshot = {t: list(recs) for t, recs in self._records.items()}
+
+        for thread_name in sorted(snapshot):
+            records = snapshot[thread_name]
+            lines.append(f"\n--- Thread: {thread_name} ---")
+            lines.append(f"  Total work units: {len(records)}")
+
+            # Group by type
+            by_type: Dict[str, List[Dict]] = {}
+            for rec in records:
+                by_type.setdefault(rec["type"], []).append(rec)
+
+            for wtype in ("file", "entry", "language"):
+                recs = by_type.get(wtype, [])
+                if not recs:
+                    continue
+                completed = [r for r in recs if r["end"] is not None]
+                total_time = sum((r["end"] - r["start"]) for r in completed)
+                lines.append(f"  [{wtype}] count={len(recs)}, completed={len(completed)}, total_time={total_time:.1f}s")
+                for r in recs:
+                    duration = f"{r['end'] - r['start']:.2f}s" if r["end"] else "IN PROGRESS"
+                    detail_str = f" ({r['detail']})" if r.get("detail") else ""
+                    lines.append(f"    - {r['name']}{detail_str}: {duration}")
+
+        lines.append("\n" + "=" * 72)
+        return "\n".join(lines)
+
+
+# Global tracker instance — initialised lazily by process_all_files()
+_work_tracker: Optional[ThreadWorkTracker] = None
+
+
 def load_language_names_from_config(config: Dict) -> Dict[str, str]:
     """Load language code to full name mapping from configuration"""
     return config.get("languages", {}).get("locale_names", {})
 
 
-def setup_logging(log_level: str = "INFO") -> None:
-    """Setup logging configuration"""
+def setup_logging(log_level: str = "INFO", thread_log_file: Optional[str] = None) -> None:
+    """Setup logging configuration
+
+    Args:
+        log_level: Minimum log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+        thread_log_file: Optional path for a dedicated thread-allocation /
+            work-info log file.  This file always captures at DEBUG level so
+            that every thread lifecycle event and work assignment is recorded
+            regardless of the console log level.
+    """
     # Convert string to logging level
     numeric_level = getattr(logging, log_level.upper(), logging.INFO)
+
+    # Format that includes the thread name for attributable multi-threaded output
+    log_format = '%(asctime)s - %(threadName)s - %(name)s - %(levelname)s - %(message)s'
+    date_format = '%Y-%m-%d %H:%M:%S'
+
     logging.basicConfig(
         level=numeric_level,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
+        format=log_format,
+        datefmt=date_format,
     )
+
+    # Dedicated thread/work log file — captures everything at DEBUG level
+    if thread_log_file:
+        os.makedirs(os.path.dirname(thread_log_file) or '.', exist_ok=True)
+        thread_handler = logging.FileHandler(thread_log_file, mode='w', encoding='utf-8')
+        thread_handler.setLevel(logging.DEBUG)
+        thread_handler.setFormatter(
+            logging.Formatter(log_format, datefmt=date_format)
+        )
+        logging.getLogger().addHandler(thread_handler)
+        logging.getLogger().info(f"Thread/work log file: {thread_log_file}")
 
 
 def load_config(config_path: str) -> Dict:
@@ -862,12 +983,16 @@ def translate_entry(
     )
     
     # Translate with preprocessed text
+    if _work_tracker:
+        _work_tracker.record_start("language", f"{key}/{target_lang}", detail=f"text_len={len(preprocessed_text)}")
     translation = translator.translate(
         text=preprocessed_text,  # Send preprocessed text to LLM
         target_language=target_lang,
         system_prompt=system_prompt,
         user_prompt=user_prompt
     )
+    if _work_tracker:
+        _work_tracker.record_end("language", f"{key}/{target_lang}")
     
     # Validate translation result
     # Empty translation is only valid if the original raw text is also empty
@@ -976,6 +1101,9 @@ def process_toml_file(
         Thread-safe: reads ``data`` in-place (entry is a reference from
         ``data``), and serialises writes through ``save_lock``.
         """
+        if _work_tracker:
+            _work_tracker.record_start("entry", f"{filename}/{key}")
+
         has_new_field = "new" in entry
         raw_text = entry.get("raw", "")
 
@@ -985,6 +1113,8 @@ def process_toml_file(
         ]
 
         if not has_new_field and not missing_languages:
+            if _work_tracker:
+                _work_tracker.record_end("entry", f"{filename}/{key}")
             return 0, False
 
         if has_new_field:
@@ -1028,6 +1158,8 @@ def process_toml_file(
                     all_translations_successful = False
 
         if not new_translations or dry_run:
+            if _work_tracker:
+                _work_tracker.record_end("entry", f"{filename}/{key}")
             return len(new_translations), False
 
         # --- critical section: mutate shared ``data`` and persist --- #
@@ -1045,6 +1177,8 @@ def process_toml_file(
             # Persist immediately so a mid-run cancellation loses at most one entry.
             save_current_state()
 
+        if _work_tracker:
+            _work_tracker.record_end("entry", f"{filename}/{key}")
         return len(new_translations), True
 
     # ------------------------------------------------------------------ #
@@ -1241,6 +1375,11 @@ def process_all_files(
         max_time: Maximum processing time in seconds.
     """
     logger = logging.getLogger("process_all_files")
+
+    # Initialise the global thread work tracker so all downstream functions
+    # record their work assignments.
+    global _work_tracker
+    _work_tracker = ThreadWorkTracker()
     
     start_time = time.time()
     
@@ -1286,6 +1425,12 @@ def process_all_files(
             _active_files_count[0] += 1
         entry_threads = _compute_entry_threads()
 
+        if _work_tracker:
+            _work_tracker.record_start(
+                "file", toml_file.name,
+                detail=f"active_files={_active_files_count[0]}, entry_threads={entry_threads}"
+            )
+
         # Ingame files (_ingame*.toml) are translated only for languages that are
         # supported by this project but not natively supported by the game.
         is_ingame = toml_file.name.startswith('_ingame')
@@ -1310,6 +1455,8 @@ def process_all_files(
                 _compute_entry_threads,
             )
         finally:
+            if _work_tracker:
+                _work_tracker.record_end("file", toml_file.name)
             with _active_files_lock:
                 _active_files_count[0] -= 1
             remaining = _active_files_count[0]
@@ -1374,6 +1521,12 @@ def process_all_files(
     logger.info(f"Processed {total_entries} entries")
     logger.info(f"Made {total_translations} translations")
 
+    # Emit the full thread work allocation summary
+    if _work_tracker:
+        summary = _work_tracker.summary()
+        for line in summary.splitlines():
+            logger.info(line)
+
 
 def main():
     """Main entry point"""
@@ -1423,6 +1576,12 @@ def main():
         action="store_true",
         help="Only reformat/reorganize TOML files without translation"
     )
+    parser.add_argument(
+        "--thread-log-file",
+        help="Path to dedicated thread-allocation / work-info log file. "
+             "Captures all thread lifecycle events at DEBUG level regardless "
+             "of the main log level."
+    )
     
     args = parser.parse_args()
 
@@ -1449,8 +1608,11 @@ def main():
             log_level = "DEBUG"
         else:
             log_level = log_config.get("level", "INFO")
+
+        # Resolve thread log file: CLI arg > config > None
+        thread_log_file = getattr(args, 'thread_log_file', None) or log_config.get("thread_log_file")
         
-        setup_logging(log_level)
+        setup_logging(log_level, thread_log_file=thread_log_file)
         logger = logging.getLogger("main")
         
         # Add file handler if log file specified
@@ -1458,7 +1620,7 @@ def main():
             file_handler = logging.FileHandler(args.log_file, mode='w', encoding='utf-8')
             file_handler.setLevel(getattr(logging, log_level.upper(), logging.INFO))
             file_handler.setFormatter(
-                logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                logging.Formatter('%(asctime)s - %(threadName)s - %(name)s - %(levelname)s - %(message)s',
                                   datefmt='%Y-%m-%d %H:%M:%S')
             )
             logging.getLogger().addHandler(file_handler)

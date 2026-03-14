@@ -45,6 +45,7 @@ jobs:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
         run: |
           LOG_FILE=".github/log/translation.log"
+          THREAD_LOG_FILE=".github/log/thread_work.log"
           TARGET_BRANCH="${GITHUB_REF_NAME:-main}"
           # Temporary branch that holds translation commits during this run.
           # Using run ID keeps it unique even for concurrent manual triggers.
@@ -270,7 +271,8 @@ jobs:
             --config .github/config/config.toml \
             --data-dir data \
             --glossary data/_glossary.toml \
-            --log-file "$LOG_FILE" &
+            --log-file "$LOG_FILE" \
+            --thread-log-file "$THREAD_LOG_FILE" &
           TRANSLATE_PID=$!
           echo "Started translation subprocess with PID $TRANSLATE_PID"
 
@@ -303,6 +305,14 @@ jobs:
         with:
           name: translation-log-${{ github.run_number }}
           path: .github/log/translation.log
+          retention-days: 30
+      
+      - name: Upload thread work log as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thread-work-log-${{ github.run_number }}
+          path: .github/log/thread_work.log
           retention-days: 30
       
       - name: Generate Action Summary
