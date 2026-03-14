@@ -920,7 +920,7 @@ def process_toml_file(
     merged_glossary = merge_glossaries(GLOSSARY, local_glossary)
     if local_glossary:
         logger.info(f"Using {len(local_glossary)} local glossary terms for {filename}")
-    
+
     # Lock that serialises checkpoint saves when entries run concurrently.
     save_lock = threading.Lock()
 
@@ -941,8 +941,8 @@ def process_toml_file(
     modified = False
 
     # ------------------------------------------------------------------ #
-    # Inner helper: translate one entry and apply the result              #
-    # Returns (translations_delta, was_modified)                          #
+    # Inner helper: translate one entry and apply the result.             #
+    # Returns (translations_delta, was_modified).                         #
     # ------------------------------------------------------------------ #
     def _process_entry(key: str, entry: dict) -> Tuple[int, bool]:
         """Translate a single entry for all required languages.
@@ -1022,7 +1022,7 @@ def process_toml_file(
         return len(new_translations), True
 
     # ------------------------------------------------------------------ #
-    # Collect entries that need work, then dispatch                       #
+    # Collect entries that need work, then dispatch.                      #
     # ------------------------------------------------------------------ #
     pending_entries = [
         (key, entry)
@@ -1180,7 +1180,7 @@ def process_all_files(
     if not toml_files:
         logger.warning("No TOML files found")
         return
-    
+
     # ------------------------------------------------------------------
     # Compute thread allocation
     # ------------------------------------------------------------------
@@ -1231,8 +1231,8 @@ def process_all_files(
                 except Exception as e:
                     logger.error(f"Error processing {toml_file}: {e}")
     else:
-        # Process files sequentially
-        logger.info("Processing files sequentially")
+        # Single file: process sequentially at file level but use entry-level parallelism
+        logger.info("Processing files sequentially (entry-level parallelism active)")
         for toml_file in toml_files:
             # Check timeout before processing each file
             if max_time and (time.time() - start_time) >= max_time:
