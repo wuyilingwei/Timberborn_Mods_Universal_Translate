@@ -848,7 +848,6 @@ def translate_entry(
     )
     
     # Translate with preprocessed text
-    logger.info(f"Translating {key} to {target_lang}")
     translation = translator.translate(
         text=preprocessed_text,  # Send preprocessed text to LLM
         target_language=target_lang,
@@ -867,6 +866,8 @@ def translate_entry(
         # Strip extra quotes if present and not in original
         reference_text = raw if raw else text_to_translate
         translation = strip_extra_quotes(translation, reference_text)
+        
+        logger.info(f"[{key}] [{target_lang}] {text_to_translate!r} -> {translation!r}")
     
     return translation
 
@@ -908,10 +909,22 @@ def process_toml_file(
     if local_glossary:
         logger.info(f"Using {len(local_glossary)} local glossary terms for {filename}")
     
+    def save_current_state() -> None:
+        """Write the current in-memory data back to disk immediately."""
+        try:
+            toml_text = toml.dumps(data)
+            toml_text = reorder_glossary_blocks(toml_text)
+            toml_text = reorder_language_fields(toml_text, target_languages)
+            with open(toml_path, 'w', encoding='utf-8', newline='') as f:
+                f.write(toml_text)
+            logger.debug(f"Checkpoint save: {filename}")
+        except Exception as e:
+            logger.error(f"Failed checkpoint save of {filename}: {e}")
+
     translations_made = 0
     entries_processed = 0
     modified = False
-    
+
     # Process each entry
     for key, entry in data.items():
         # Skip metadata sections
@@ -1004,18 +1017,13 @@ def process_toml_file(
                 logger.info(f"Completed translation for {key}, removed 'new' field")
             
             modified = True
-    
-    # Save modified TOML file
+            # Persist immediately so a mid-run cancellation loses at most one entry.
+            save_current_state()
+
+    # Final save is a no-op if nothing changed, but ensures the file is consistent
+    # even if only partial entries were translated in this run.
     if modified and not dry_run:
-        try:
-            toml_text = toml.dumps(data)
-            toml_text = reorder_glossary_blocks(toml_text)
-            toml_text = reorder_language_fields(toml_text, target_languages)
-            with open(toml_path, 'w', encoding='utf-8', newline='') as f:
-                f.write(toml_text)
-            logger.info(f"Saved updates to {filename}")
-        except Exception as e:
-            logger.error(f"Failed to save {filename}: {e}")
+        logger.info(f"Saved updates to {filename}")
     
     return translations_made, entries_processed
 

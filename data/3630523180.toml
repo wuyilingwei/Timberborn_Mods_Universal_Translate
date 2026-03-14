@@ -15,6 +15,7 @@ plPL = "{0} rozpoczął"
 ptBR = "{0} começou"
 koKR = "{0} 시작됨"
 csCZ = "{0} začal"
+viVN = "{0} đã bắt đầu"
 
 ["LV.MW.WeatherEnd"]
 raw = "{0} ended"
@@ -30,6 +31,7 @@ plPL = "{0} zakończone"
 ptBR = "{0} terminou"
 koKR = "{0} 종료"
 csCZ = "{0} skončilo"
+viVN = "{0} đã kết thúc"
 
 ["LV.MW.WeatherApproaching"]
 raw = "{0} approaching"
@@ -45,6 +47,7 @@ plPL = "{0} zbliża się"
 ptBR = "{0} se aproximando"
 koKR = "{0} 다가오는 중"
 csCZ = "{0} se blíží"
+viVN = "{0} đang đến gần"
 
 ["LV.MW.WeatherInProgress"]
 raw = "{0} in progress"
@@ -60,6 +63,7 @@ plPL = "{0} w toku"
 ptBR = "{0} em andamento"
 koKR = "{0} 진행 중"
 csCZ = "{0} probíhá"
+viVN = "{0} đang tiến hành"
 
 ["LV.MW.EnableWeather"]
 raw = "Enable"
@@ -75,6 +79,7 @@ plPL = "Włącz"
 ptBR = "Ativar"
 koKR = "사용 가능"
 csCZ = "Povolit"
+viVN = "Bật"
 
 ["LV.MW.EnableWeatherDesc"]
 raw = "Whether this weather is allowed to appear."
@@ -90,6 +95,7 @@ plPL = "Czy ta pogoda może się pojawić."
 ptBR = "Caso este clima seja permitido aparecer."
 koKR = "이 날씨가 나타나는 것이 허용되는지 여부."
 csCZ = "Zda je toto počasí povoleno se objevit."
+viVN = "Liệu thời tiết này có được phép xuất hiện hay không."
 
 ["LV.MW.StartCycle"]
 raw = "Start cycle"
@@ -105,6 +111,7 @@ plPL = "Rozpocznij cykl"
 ptBR = "Iniciar ciclo"
 koKR = "주기 시작"
 csCZ = "Začít cyklus"
+viVN = "Bắt đầu chu kỳ"
 
 ["LV.MW.StartCycleDesc"]
 raw = "The minimum cycle that this weather can occur"
@@ -120,6 +127,7 @@ plPL = "Minimalny cykl, w którym ta pogoda może wystąpić"
 ptBR = "O ciclo mínimo em que este clima pode ocorrer"
 koKR = "이 날씨가 발생할 수 있는 최소 주기"
 csCZ = "Minimální cyklus, ve kterém se toto počasí může vyskytnout"
+viVN = "Chu kỳ tối thiểu mà thời tiết này có thể xảy ra"
 
 ["LV.MW.Chance"]
 raw = "Chance"
@@ -135,6 +143,7 @@ plPL = "Szansa"
 ptBR = "Chance"
 koKR = "확률"
 csCZ = "Šance"
+viVN = "Xác suất"
 
 ["LV.MW.ChanceDesc"]
 raw = "Weighted chance of this weather occurring when rolling for weather"
@@ -150,6 +159,7 @@ plPL = "Zważona szansa na wystąpienie tej pogody podczas losowania pogody"
 ptBR = "Chance ponderada de este clima ocorrer ao rolar para o clima"
 koKR = "날씨를 결정할 때 이 날씨가 발생할 확률의 가중치"
 csCZ = "Vážená šance na výskyt tohoto počasí při hodu na počasí"
+viVN = "Xác suất có trọng số cho thời tiết này xảy ra khi lăn để xác định thời tiết"
 
 ["LV.MW.MinDay"]
 raw = "Minimum day"
@@ -165,6 +175,7 @@ plPL = "Minimalny dzień"
 ptBR = "Dia mínimo"
 koKR = "최소 일수"
 csCZ = "Minimální den"
+viVN = "Ngày tối thiểu"
 
 ["LV.MW.MinDayDesc"]
 raw = "The minimum day when this weather occurs."
@@ -180,6 +191,7 @@ plPL = "Minimalny dzień, w którym występują te warunki pogodowe."
 ptBR = "O dia mínimo em que este clima ocorre."
 koKR = "이 날씨가 발생하는 최소 일수입니다."
 csCZ = "Minimální den, kdy se toto počasí vyskytuje."
+viVN = "Ngày tối thiểu mà thời tiết này xảy ra."
 
 ["LV.MW.MaxDay"]
 raw = "Maximum day"
@@ -195,6 +207,7 @@ plPL = "Maksymalny dzień"
 ptBR = "Dia máximo"
 koKR = "최대 일수"
 csCZ = "Maximální den"
+viVN = "Ngày tối đa"
 
 ["LV.MW.MaxDayDesc"]
 raw = "The maximum day when this weather occurs."
@@ -210,6 +223,7 @@ plPL = "Maksymalny dzień, w którym występuje ta pogoda."
 ptBR = "O dia máximo em que este clima ocorre."
 koKR = "이 날씨가 발생하는 최대 일수입니다."
 csCZ = "Maximální den, kdy se toto počasí vyskytuje."
+viVN = "Ngày muộn nhất mà thời tiết này xảy ra."
 
 ["LV.MW.HandicapPerc"]
 raw = "Handicap Percentage"
@@ -225,6 +239,7 @@ plPL = "Procent niepełnosprawności"
 ptBR = "Porcentagem de Deficiência"
 koKR = "장애물 비율"
 csCZ = "Procento handicapu"
+viVN = "Tỷ lệ bất lợi"
 
 ["LV.MW.HandicapPercDesc"]
 raw = "The first time this weather occurs, its duration is multiplied by this percentage."
@@ -240,6 +255,7 @@ plPL = "Za pierwszym razem, gdy wystąpi ta pogoda, jej czas trwania jest mnożo
 ptBR = "A primeira vez que este clima ocorre, sua duração é multiplicada por esta porcentagem."
 koKR = "이 날씨가 처음 발생할 때, 지속시간은 이 비율만큼 곱해집니다."
 csCZ = "Při prvním výskytu tohoto počasí se jeho trvání znásobí tímto procentem."
+viVN = "Lần đầu tiên thời tiết này xuất hiện, thời lượng của nó được nhân với tỷ lệ phần trăm này."
 
 ["LV.MW.HandicapCycles"]
 raw = "Handicap Cycles"
@@ -255,6 +271,7 @@ plPL = "Rowery dla osób z niepełnosprawnościami"
 ptBR = "Ciclos de Deficiência"
 koKR = "장애인 주기기"
 csCZ = "Cyklosamohyb pro handicapované"
+viVN = "Chu kỳ bất lợi"
 
 ["LV.MW.HandicapCyclesDesc"]
 raw = "Number of cycles until the weather reaches full (100%) duration."
@@ -270,6 +287,7 @@ plPL = "Liczba cykli, aż pogoda osiągnie pełny (100%) czas trwania."
 ptBR = "Number of cycles until the weather reaches full (100%) duration."
 koKR = "날씨가 완전(100%) 지속 시간에 도달할 때까지의 사이클 수."
 csCZ = "Počet cyklů, dokud počasí nedosáhne plné (100%) délky."
+viVN = "Số chu kỳ cho đến khi thời tiết đạt được thời lượng đầy đủ (100%)."
 
 ["LV.MW.Rain"]
 raw = "Rain"
@@ -285,6 +303,7 @@ plPL = "Deszcz"
 ptBR = "Chuva"
 koKR = "비"
 csCZ = "Déšť"
+viVN = "Mưa"
 
 ["LV.MW.Monsoon"]
 raw = "Monsoon"
@@ -300,6 +319,7 @@ plPL = "Monson"
 ptBR = "Monção"
 koKR = "몬순"
 csCZ = "Monzun"
+viVN = "Gió mùa"
 
 ["LV.MW.SurprisinglyRefreshing"]
 raw = "Surprisingly Refreshing"
@@ -315,6 +335,7 @@ plPL = "Zaskakująco Orzeźwiający"
 ptBR = "Surpreendentemente Refrescante"
 koKR = "놀랍도록 상쾌한"
 csCZ = "Překvapivě osvěžující"
+viVN = "Bất ngờ sảng khoái"
 
 ["LV.MW.MonsoonMultiplier"]
 raw = "Monsoon maximum multiplier"
@@ -330,6 +351,7 @@ plPL = "maksymalny mnożnik monsunowy"
 ptBR = "Multiplicador máximo de monções"
 koKR = "우기 최대 배수"
 csCZ = "Maximální násobitel monzunu"
+viVN = "Hệ số nhân tối đa cho mùa mưa"
 
 ["LV.MW.MonsoonMultiplierDesc"]
 raw = "The maximum additional multiplier for the monsoon weather at maximum. This value is affected by handicap like Duration.\nDefault value: 350(%) meaning when no handicap is applied (default cycle 5), all water sources strength is at 350%."
@@ -345,6 +367,7 @@ plPL = "Maksymalny dodatkowy mnożnik dla pogody monsunu na maksymalnym poziomie
 ptBR = "O multiplicador adicional máximo para o tempo de monção no máximo. Este valor é afetado por desvantagens como Duração. Valor padrão: 350(%) significando que quando nenhuma desvantagem é aplicada (ciclo padrão 5), toda a força das fontes de água está em 350%."
 koKR = "최대 추가 멀티플라이어는 최대의 몬순 날씨에 대한 것입니다. 이 값은 지속 시간과 같은 핸디캡의 영향을 받습니다. 기본 값: 350(%)는 핸디캡이 적용되지 않았을 때(기본 사이클 5), 모든 수원 강도가 350%임을 의미합니다."
 csCZ = "Maximální další multiplikátor pro monzunové počasí na maximum. Tato hodnota je ovlivněna handicapem jako Délka. \nVýchozí hodnota: 350(%), což znamená, že když není aplikován žádný handicap (výchozí cyklus 5), je síla všech zdrojů vody na 350%."
+viVN = "Hệ số nhân bổ sung tối đa cho thời tiết mùa mưa ở mức cao nhất.\nGiá trị này bị ảnh hưởng bởi những hạn chế như Thời lượng.\nGiá trị mặc định: 350(%) có nghĩa là khi không áp dụng bất kỳ handicap nào (chu kỳ mặc định 5), sức mạnh của tất cả nguồn nước ở mức 350(%)."
 
 ["LV.MW.Profiles"]
 raw = "Profiles"
@@ -360,6 +383,7 @@ plPL = "Profile"
 ptBR = "Perfis"
 koKR = "프로필"
 csCZ = "Profily"
+viVN = "Hồ sơ"
 
 ["LV.MW.ProfilesDesc"]
 raw = "Export and import settings. It's recommended to make a save then reload it after importing settings to ensure everything is applied correctly."
@@ -375,6 +399,7 @@ plPL = "Exportuj i importuj ustawienia. Rekomenduje się wykonanie zapisania, a 
 ptBR = "Exporte e importe configurações. É recomendável fazer um salvamento e depois recarregá-lo após importar as configurações para garantir que tudo seja aplicado corretamente."
 koKR = "설정 내보내기 및 가져오기. 설정을 가져온 후 모든 것이 올바르게 적용되었는지 확인하기 위해 저장한 후 다시 로드하는 것이 좋습니다."
 csCZ = "Exportovat a importovat nastavení. Je doporučeno provést uložení a pak jej znovu načíst po importu nastavení, aby se zajistilo, že bylo vše správně aplikováno."
+viVN = "Xuất và nhập cài đặt. Nên lưu lại trò chơi và tải lại sau khi nhập cài đặt để đảm bảo mọi thứ được áp dụng đúng."
 
 ["LV.MW.ProfileImport"]
 raw = "Import"
@@ -390,6 +415,7 @@ plPL = "Importuj"
 ptBR = "Importar"
 koKR = "가져오기"
 csCZ = "Importovat"
+viVN = "Nhập"
 
 ["LV.MW.ProfileExport"]
 raw = "Export"
@@ -405,6 +431,7 @@ plPL = "Exportuj"
 ptBR = "Exportar"
 koKR = "내보내기"
 csCZ = "Exportovat"
+viVN = "Xuất"
 
 ["LV.MW.ProfileError"]
 raw = "There was an error: {0}"
@@ -420,6 +447,7 @@ plPL = "Wystąpił błąd: {0}"
 ptBR = "Houve um erro: {0}"
 koKR = "오류가 발생했습니다: {0}"
 csCZ = "Nastala chyba: {0}"
+viVN = "Đã xảy ra lỗi: {0}"
 
 ["LV.MW.TemperateDesc"]
 raw = "The game's default temperate weather. No effects."
@@ -435,6 +463,7 @@ plPL = "Domyślna umiarkowana pogoda w grze. Brak efektów."
 ptBR = "O clima temperado padrão do jogo. Sem efeitos."
 koKR = "게임의 기본 온대 날씨. 효과 없음."
 csCZ = "Výchozí mírné počasí hry. Žádné účinky."
+viVN = "Thời tiết ôn hòa mặc định của trò chơi. Không có tác dụng."
 
 ["LV.MW.DroughtDesc"]
 raw = "The game's default hazardous drought weather. Water sources stop producing water."
@@ -450,6 +479,7 @@ plPL = "Domyślna niebezpieczna susza w grze. Źródła wody przestają produkow
 ptBR = "A descrição da seca perigosa padrão do jogo. As fontes de água param de produzir água."
 koKR = "게임의 기본 위험한 가뭄 날씨. 수원지가 물을 생산하는 것을 중단합니다."
 csCZ = "Výchozí nebezpečné suché počasí ve hře. Vodní zdroje přestanou produkovat vodu."
+viVN = "Thời tiết hạn hán nguy hiểm mặc định của trò chơi. Các nguồn nước ngừng sản xuất nước."
 
 ["LV.MW.BadtideDesc"]
 raw = "The game's default hazardous bad tide weather. All water sources produce badwater."
@@ -465,6 +495,7 @@ plPL = "Domyślna niebezpieczna pogoda związana z złym przypływem w grze. Wsz
 ptBR = "A condição climática de maré ruim perigosa padrão do jogo. Todas as fontes de água produzem água poluída."
 koKR = "게임의 기본 유해한 나쁜 조수 날씨. 모든 수원에서 나쁜 물이 생성됩니다."
 csCZ = "Výchozí nebezpečné počasí špatného přílivu ve hře. Všechny zdroje vody produkují špatnou vodu."
+viVN = "Thời tiết thủy triều xấu, nguy hiểm, mặc định của trò chơi. Tất cả nguồn nước đều sản sinh nước ô nhiễm."
 
 ["LV.MW.RainDesc"]
 raw = "Benign weather. Effects:\n- All tiles are watered and no land contamination occurs.\n- Applies Wet Fur when Beavers are not in the buildings.\n- 25% shorter than the usual temperate season (default settings)"
@@ -480,6 +511,7 @@ plPL = "Łagodna pogoda. Efekty:\n- Wszystkie płytki są nawodnione, a zanieczy
 ptBR = "Nome da chave: LV.MW.RainDesc - Novo texto para traduzir: \"Clima benigno. Efeitos:\n- Todos os tiles estão regados e não há contaminação do solo.\n- Aplica Pelo Molhado quando os Castores não estão nos edifícios.\n- 25% mais curto que a estação temperada usual (configurações padrão)\""
 koKR = "온화한 날씨. 효과:\n- 모든 타일이 물을 받고 토양 오염이 발생하지 않습니다.\n- 비버가 건물에 없을 때 젖은 털이 적용됩니다.\n- 일반 온대 계절보다 25% 짧습니다 (기본 설정)"
 csCZ = "Pokojné počasí. Účinky:\n- Všechny dlaždice jsou zavlažovány a nedochází k žádné kontaminaci půdy.\n- Aplikuje Mokré chlupy, když bobři nejsou v budovách.\n- O 25 % kratší než obvyklé mírné období (výchozí nastavení)"
+viVN = "Thời tiết ôn hòa. Hiệu ứng:\n- Tất cả các ô đất được tưới nước và không xảy ra ô nhiễm đất.\n- Áp dụng Lông ướt khi hà mã không ở trong các công trình.\n- Ngắn hơn 25% so với mùa ôn đới thông thường (cài đặt mặc định)"
 
 ["LV.MW.MonsoonDesc"]
 raw = "Hazardous weather. All water sources increase their output, at 350% maximum with handicap applied. Configurable via the Monsoon modifier."
@@ -495,6 +527,7 @@ plPL = "Niekorzystna pogoda. Wszystkie źródła wody zwiększają swoją wydajn
 ptBR = "Clima perigoso. Todas as fontes de água aumentam sua produção, com um máximo de 350% com o handicap aplicado. Configurável através do modificador Monsoon."
 koKR = "위험한 날씨. 모든 물 공급원이 최대 350%로 출력이 증가하며, 패널티가 적용됩니다. 몬순 수정자를 통해 구성할 수 있습니다."
 csCZ = "Nebezpečné počasí. Všechny vodní zdroje zvýší svůj výkon, maximálně na 350 % s uplatněným handicapem. Konfigurovatelné pomocí modifikátoru Monzun."
+viVN = "Thời tiết nguy hiểm. Tất cả nguồn nước tăng sản lượng lên tối đa 350% khi có handicap được áp dụng. Có thể cấu hình thông qua trình chỉnh Monsoon."
 
 ["LV.MW.SurprisinglyRefreshingDesc"]
 raw = "'Hazardous' weather with no negative effect. All water sources produce fresh water. Very short."
@@ -510,6 +543,7 @@ plPL = "'Niebezpieczna' pogoda bez negatywnych skutków. Wszystkie źródła wod
 ptBR = "“Clima 'Perigoso' sem efeito negativo. Todas as fontes de água produzem água limpa. Muito curto.”"
 koKR = "부정적인 영향이 없는 '위험한' 날씨. 모든 수원에서 담수가 생산됩니다. 매우 짧음."
 csCZ = "'Nebezpečné' počasí bez negativního efektu. Všechny vodní zdroje produkují čerstvou vodu. Velmi krátké."
+viVN = "'Nguy hiểm' thời tiết không có tác động tiêu cực. Tất cả nguồn nước đều cho nước ngọt. Rất ngắn."
 
 ["LV.MW.EnableModifier"]
 raw = "Enable {0} Weather Modifier"
@@ -525,6 +559,7 @@ plPL = "Włącz {0} modyfikator pogody"
 ptBR = "Ativar Modificador de Clima {0}"
 koKR = "{0} 날씨 수정자 활성화"
 csCZ = "Povolit {0} Modifikátor Počasí"
+viVN = "Kích hoạt Bộ Điều Chỉnh Thời Tiết {0}"
 
 ["LV.MW.EnableModifierDesc"]
 raw = "Enable the {0} weather modifier"
@@ -540,6 +575,7 @@ plPL = "Włącz modyfikator pogody {0}"
 ptBR = "Ativar o modificador de clima {0}"
 koKR = "{0} 날씨 수정자를 활성화합니다."
 csCZ = "Povolte {0} modulátor počasí"
+viVN = "Kích hoạt bộ điều chỉnh thời tiết {0}"
 
 ["LV.MW.AssociatedWeathers"]
 raw = "Associated Weathers:"
@@ -555,6 +591,7 @@ plPL = "Powiązane Pogody:"
 ptBR = "Climas Associados:"
 koKR = "관련 날씨:"
 csCZ = "Související počasí:"
+viVN = "Các thời tiết liên quan:"
 
 ["LV.MW.AssociatedWeathersDesc"]
 raw = "The weathers that will be affected by this modifier"
@@ -570,6 +607,7 @@ plPL = "Pogody, które będą dotknięte tym modyfikatorem"
 ptBR = "As condições climáticas que serão afetadas por este modificador"
 koKR = "이 수정자로 영향을 받을 날씨"
 csCZ = "Počasí, na které bude tento modifikátor mít vliv"
+viVN = "Những thời tiết sẽ bị ảnh hưởng bởi trình sửa đổi này"
 
 ["LV.MW.EmptyBenignWeather"]
 raw = "No Benign Weather"
@@ -585,6 +623,7 @@ plPL = "Brak łagodnej pogody"
 ptBR = "Sem Clima Benigno"
 koKR = "주요 이름: LV.MW.EmptyBenignWeather - 새로 번역할 텍스트: \"온화한 날씨 없음\""
 csCZ = "Žádné příznivé počasí"
+viVN = "Không có thời tiết ôn hòa"
 
 ["LV.MW.EmptyHazardousWeather"]
 raw = "No Hazardous Weather"
@@ -600,6 +639,7 @@ plPL = "Brak niebezpiecznej pogody"
 ptBR = "Sem Clima Perigoso"
 koKR = "위험한 날씨 없음"
 csCZ = "Žádné nebezpečné počasí"
+viVN = "Không có thời tiết nguy hiểm"
 
 ["LV.MW.ModifierWeatherSettings"]
 raw = "Weather Settings"
@@ -615,6 +655,7 @@ plPL = "Ustawienia pogody"
 ptBR = "Configurações do Tempo"
 koKR = "날씨 설정"
 csCZ = "Nastavení počasí"
+viVN = "Cài đặt thời tiết"
 
 ["LV.MW.ModifierForWeather"]
 raw = "For weather {0}:"
@@ -630,6 +671,7 @@ plPL = "Dla pogody {0}:"
 ptBR = "Para o clima {0}:"
 koKR = "날씨 {0}에 대해:"
 csCZ = "Pro počasí {0}:"
+viVN = "Đối với thời tiết {0}:"
 
 ["LV.MW.ModifierWeatherEnabled"]
 raw = "Enabled"
@@ -645,6 +687,7 @@ plPL = "Włączone"
 ptBR = "Ativado"
 koKR = "활성화됨"
 csCZ = "Povolené"
+viVN = "Đã bật"
 
 ["LV.MW.ModifierWeatherEnabledDesc"]
 raw = "Whether this modifier can appear for this weather"
@@ -660,6 +703,7 @@ plPL = "czy ten modyfikator może pojawić się w tej pogodzie"
 ptBR = "Se este modificador pode aparecer para este clima"
 koKR = "이 수정자가 이 날씨에 나타날 수 있는지 여부"
 csCZ = "Zda se tento modifier může objevit pro toto počasí"
+viVN = "Liệu modifier này có thể xuất hiện cho thời tiết này hay không"
 
 ["LV.MW.ModifierWeatherChance"]
 raw = "Chance"
@@ -675,6 +719,7 @@ plPL = "Szansa"
 ptBR = "Chance"
 koKR = "확률"
 csCZ = "Šance"
+viVN = "Xác suất"
 
 ["LV.MW.ModifierWeatherChanceDesc"]
 raw = "Chance of this modifier occurring when this weather occurs"
@@ -690,6 +735,7 @@ plPL = "Szansa na wystąpienie tego modyfikatora, gdy wystąpi ta pogoda"
 ptBR = "Chance de este modificador ocorrer quando este clima acontece"
 koKR = "이 날씨가 발생할 때 이 수정자의 발생 확률"
 csCZ = "Šance na aktivaci tohoto modifikátoru, když nastane toto počasí"
+viVN = "Xác suất xuất hiện của thay đổi này khi thời tiết này xảy ra"
 
 ["LV.MW.ModifierStartCycle"]
 raw = "Start Cycle"
@@ -705,6 +751,7 @@ plPL = "Rozpocznij cykl"
 ptBR = "Iniciar Ciclo"
 koKR = "주기 시작"
 csCZ = "Začít cyklus"
+viVN = "Bắt đầu chu kỳ"
 
 ["LV.MW.ModifierStartCycleDesc"]
 raw = "The minimum cycle that this modifier can occur for this weather"
@@ -720,6 +767,7 @@ plPL = "Minimalny cykl, w którym ten modyfikator może wystąpić w przypadku t
 ptBR = "O ciclo mínimo que este modificador pode ocorrer para este clima"
 koKR = "이 날씨에 대해 이 수정기가 발생할 수 있는 최소 사이클"
 csCZ = "Minimální cyklus, ve kterém může tento modifikátor nastat pro toto počasí."
+viVN = "Chu kỳ tối thiểu mà bộ biến đổi này có thể xảy ra đối với thời tiết này"
 
 ["LV.MW.ShowSettings"]
 raw = "Weather Settings"
@@ -735,6 +783,7 @@ plPL = "Ustawienia pogody"
 ptBR = "Configurações do Tempo"
 koKR = "날씨 설정"
 csCZ = "Nastavení počasí"
+viVN = "Cài đặt thời tiết"
 
 ["LV.MW.SettingsNote"]
 raw = "Settings changes will not take effect until the next weather cycle.\n<YellowHighlight>- You should make a save before editing.\n- You should make a save and reload that save after editing.</YellowHighlight>"
@@ -750,6 +799,7 @@ plPL = "Zmiany w ustawieniach nie wejdą w życie do następnego cyklu pogodoweg
 ptBR = "As mudanças nas configurações não terão efeito até o próximo ciclo de clima.  \n<YellowHighlight>- Você deve fazer um salvamento antes de editar.  \n- Você deve fazer um salvamento e recarregar esse salvamento após editar.</YellowHighlight>"
 koKR = "설정 변경은 다음 날씨 주기가 끝날 때까지 적용되지 않습니다.  \n<YellowHighlight>- 편집하기 전에 저장해야 합니다.  \n- 편집 후 저장하고 해당 저장 파일을 다시 로드해야 합니다.</YellowHighlight>"
 csCZ = "Změny nastavení se projeví až po dalším cyklu počasí.\n<YellowHighlight>- Před úpravou byste si měli udělat zálohu.\n- Po úpravě byste si měli udělat zálohu a tuto zálohu načíst.</YellowHighlight>"
+viVN = "Các thay đổi cài đặt sẽ không có hiệu lực cho đến chu kỳ thời tiết tiếp theo.\n<YellowHighlight>- Bạn nên sao lưu trước khi chỉnh sửa.\n- Bạn nên sao lưu và tải lại save đó sau khi chỉnh sửa.</YellowHighlight>"
 
 ["LV.MW.Filters"]
 raw = "Filters:"
@@ -765,6 +815,7 @@ plPL = "Filtry:"
 ptBR = "Filtros:"
 koKR = "필터:"
 csCZ = "Filtry:"
+viVN = "Bộ lọc:"
 
 ["LV.MW.BenignWeather"]
 raw = "Benign Weather"
@@ -780,6 +831,7 @@ plPL = "Łagodna Pogoda"
 ptBR = "Clima Benigno"
 koKR = "온화한 날씨"
 csCZ = "Shovívavé Počasí"
+viVN = "Thời tiết ôn hòa"
 
 ["LV.MW.HazardousWeather"]
 raw = "Hazardous Weather"
@@ -795,6 +847,7 @@ plPL = "Pogoda niebezpieczna"
 ptBR = "Clima Perigoso"
 koKR = "위험한 날씨"
 csCZ = "Nebezpečné počasí"
+viVN = "Thời tiết nguy hiểm"
 
 ["LV.MW.Weathers"]
 raw = "Weathers"
@@ -810,6 +863,7 @@ plPL = "Pogody"
 ptBR = "Climas"
 koKR = "날씨"
 csCZ = "Počasí"
+viVN = "Các thời tiết"
 
 ["LV.MW.WeatherModifiers"]
 raw = "Weather Modifiers"
@@ -825,6 +879,7 @@ plPL = "Modifikatory pogody"
 ptBR = "Modificadores Climáticos"
 koKR = "날씨 조정기"
 csCZ = "Modifikátory počasí"
+viVN = "Các yếu tố thời tiết"
 
 ["LV.MW.NoSettings"]
 raw = "This weather has no settings to configure."
@@ -840,6 +895,7 @@ plPL = "Ta pogoda nie ma ustawień do skonfigurowania."
 ptBR = "Este clima não possui configurações para ajustar."
 koKR = "이 날씨에는 구성할 설정이 없습니다."
 csCZ = "Toto počasí nemá žádná nastavení k úpravě."
+viVN = "Thời tiết này không có cài đặt nào để cấu hình."
 
 ["LV.MW.BadtideModifier"]
 raw = "Badtide"
@@ -855,6 +911,7 @@ plPL = "Zła Pływ"
 ptBR = "Maré Ruim"
 koKR = "역조"
 csCZ = "Badtide"
+viVN = "Thủy triều xấu"
 
 ["LV.MW.BadtideModifierDesc"]
 raw = "All water sources produce badwater."
@@ -870,6 +927,7 @@ plPL = "Wszystkie źródła wody produkują złą wodę."
 ptBR = "Todas as fontes de água produzem água ruim."
 koKR = "모든 물 공급원이 나쁜 물을 생성합니다."
 csCZ = "Všechny vodní zdroje produkují špatnou vodu."
+viVN = "Tất cả nguồn nước đều tạo ra nước ô nhiễm."
 
 ["LV.MW.DroughtModifier"]
 raw = "Drought"
@@ -885,6 +943,7 @@ plPL = "Susza"
 ptBR = "Seca"
 koKR = "가뭄"
 csCZ = "Sucho"
+viVN = "Hạn hán"
 
 ["LV.MW.DroughtModifierDesc"]
 raw = "All water sources stop producing water."
@@ -900,6 +959,7 @@ plPL = "Wszystkie źródła wody przestają produkować wodę."
 ptBR = "Todas as fontes de água param de produzir água."
 koKR = "모든 수원에서 물 생산이 중단됩니다."
 csCZ = "Všechny zdroje vody přestanou vyrábět vodu."
+viVN = "Tất cả nguồn nước ngừng sản xuất nước."
 
 ["LV.MW.RainModifier"]
 raw = "Rain"
@@ -915,6 +975,7 @@ plPL = "Deszcz"
 ptBR = "Chuva"
 koKR = "비"
 csCZ = "Déšť"
+viVN = "Mưa"
 
 ["LV.MW.RainModifierDesc"]
 raw = "All tiles are watered, no land contamination occurs, and applies Wet Fur when Beavers are not in buildings."
@@ -930,6 +991,7 @@ plPL = "Wszystkie płytki są nawadniane, nie występuje zanieczyszczenie terenu
 ptBR = "Todos os tiles são regados, não ocorre contaminação do solo e aplica Pelagem Molhada quando as Castores não estão em edifícios."
 koKR = "모든 타일에 물이 공급되며, 토양 오염이 발생하지 않고, 비버가 건물에 없을 때 젖은 털 효과가 적용됩니다."
 csCZ = "Všechny dlaždice jsou zavlažovány, nedochází k žádné kontaminaci půdy a při nezabydlených bobrech se používá Mokrá srst."
+viVN = "Tất cả các ô đất được tưới nước, không có ô nhiễm đất, và được kích hoạt Lông ướt khi hải ly không ở trong các công trình."
 
 ["LV.MW.MonsoonModifier"]
 raw = "Monsoon"
@@ -945,6 +1007,7 @@ plPL = "Monsun"
 ptBR = "Monção"
 koKR = "몬순"
 csCZ = "Monzun"
+viVN = "Gió mùa"
 
 ["LV.MW.MonsoonModifierDesc"]
 raw = "All water sources increase their output, up to a maximum."
@@ -960,6 +1023,7 @@ plPL = "Wszystkie źródła wody zwiększają swoją wydajność, do maksimum."
 ptBR = "Todas as fontes de água aumentam sua produção, até um máximo."
 koKR = "모든 수원은 출력이 최대 한도까지 증가합니다."
 csCZ = "Všechny zdroje vody zvyšují svůj výstup, až do maxima."
+viVN = "Tất cả các nguồn nước tăng sản lượng của chúng lên đến mức tối đa."
 
 ["LV.MW.RefreshingModifier"]
 raw = "Refreshing"
@@ -975,6 +1039,7 @@ plPL = "Orzeźwiający"
 ptBR = "Refrescante"
 koKR = "상쾌한"
 csCZ = "Osvěžující"
+viVN = "Đang làm mới"
 
 ["LV.MW.RefreshingModifierDesc"]
 raw = "All water sources produce fresh water."
@@ -990,6 +1055,7 @@ plPL = "Wszystkie źródła wody produkują świeżą wodę."
 ptBR = "Todas as fontes de água produzem água potável."
 koKR = "모든 물 공급원이 신선한 물을 생성합니다."
 csCZ = "Všechny zdroje vody produkují čerstvou vodu."
+viVN = "Tất cả nguồn nước đều sản xuất nước ngọt."
 
 ["LV.MW.NewStageNotf"]
 raw = "Cycle {0}, Stage {1} begins"
@@ -1005,6 +1071,7 @@ plPL = "Cykl {0}, Etap {1} zaczyna się"
 ptBR = "Ciclo {0}, Fase {1} começa"
 koKR = "주기 {0}, 단계 {1} 시작"
 csCZ = "Cyklus {0}, Etapa {1} začíná"
+viVN = "Chu kỳ {0}, Giai đoạn {1} bắt đầu"
 
 ["LV.MW.EffNotf"]
 raw = "Effects: {0}"
@@ -1020,6 +1087,7 @@ plPL = "Efekty: {0}"
 ptBR = "Efeitos: {0}"
 koKR = "효과: {0}"
 csCZ = "Efekty: {0}"
+viVN = "Hiệu ứng: {0}"
 
 ["LV.MW.RainEff"]
 raw = "Rain visual effect"
@@ -1035,6 +1103,7 @@ plPL = "Efekt wizualny deszczu"
 ptBR = "efeito visual da chuva"
 koKR = "비 시각 효과"
 csCZ = "Vizualizace deště"
+viVN = "Hiệu ứng mưa"
 
 ["LV.MW.RainEffDesc"]
 raw = "Change the rain visual effects settings. These settings do not affect gameplay. The rain effect is shared between many weathers. These settings are global (not per-save) and are not exported/imported with profiles.\n\nYou can adjust or disable the Rain effect at any time but to re-enable, please reload your save."
@@ -1050,6 +1119,7 @@ plPL = "Zmień ustawienia efektów wizualnych deszczu. Ustawienia te nie wpływa
 ptBR = "Altere as configurações dos efeitos visuais da chuva. Essas configurações não afetam a jogabilidade. O efeito da chuva é compartilhado entre várias condições climáticas. Essas configurações são globais (não por salvamento) e não são exportadas/importadas com os perfis.\n\nVocê pode ajustar ou desativar o efeito da chuva a qualquer momento, mas para reabilitá-lo, por favor, recarregue seu salvamento."
 koKR = "비 오는 시각 효과 설정을 변경합니다. 이 설정은 게임 플레이에 영향을 미치지 않습니다. 비 효과는 여러 날씨에서 공유됩니다. 이 설정은 전역적이며(세이브별이 아님) 프로필과 함께 내보내거나 가져올 수 없습니다.\n\n비 효과를 언제든지 조정하거나 비활성화할 수 있지만 다시 활성화하려면 세이브를 다시 로드해야 합니다."
 csCZ = "Změňte nastavení vizuálních efektů deště. Tato nastavení nemají vliv na hratelnost. Efekt deště je sdílen mezi mnoha počasími. Tato nastavení jsou globální (ne na uložené pozice) a nejsou exportována/importována s profily.\n\nMůžete kdykoli upravit nebo deaktivovat efekt deště, ale pro opětovné povolení prosím načtěte svou uloženou pozici."
+viVN = "Thay đổi cài đặt hiệu ứng hình ảnh mưa. Những cài đặt này không ảnh hưởng đến lối chơi. Hiệu ứng mưa được chia sẻ giữa nhiều loại thời tiết. Những cài đặt này là toàn cầu (không phải theo từng bản lưu) và không được xuất/nhập khẩu cùng với hồ sơ.\n\nBạn có thể điều chỉnh hoặc tắt hiệu ứng mưa bất cứ lúc nào, nhưng để bật lại, vui lòng tải lại bản lưu của bạn."
 
 ["LV.MW.RainEffEnable"]
 raw = "Enable effects"
@@ -1065,6 +1135,7 @@ plPL = "Włącz efekty"
 ptBR = "Ativar efeitos"
 koKR = "효과 활성화"
 csCZ = "Zapnout efekty"
+viVN = "Bật hiệu ứng"
 
 ["LV.MW.RainEffIntensity"]
 raw = "Rain intensity"
@@ -1080,6 +1151,7 @@ plPL = "Intensywność deszczu"
 ptBR = "Intensidade da chuva"
 koKR = "비 강도"
 csCZ = "Intenzita deště"
+viVN = "Cường độ mưa"
 
 ["LV.MW.RainEffIntensityDesc"]
 raw = "Adjust the intensity of the rain visual effects (particles per map cell). Default 0.2."
@@ -1095,6 +1167,7 @@ plPL = "Dostosuj intensywność wizualnych efektów deszczu (cząstki na komórk
 ptBR = "Ajuste a intensidade dos efeitos visuais da chuva (partículas por célula do mapa). Padrão 0,2."
 koKR = "비 시각 효과의 강도를 조정합니다 (맵 셀당 입자 수). 기본값 0.2."
 csCZ = "Nastavte intenzitu vizuálních efektů deště (partikly na mapovou buňku). Výchozí 0.2."
+viVN = "Điều chỉnh cường độ của hiệu ứng mưa trực quan (số hạt trên mỗi ô bản đồ). Mặc định 0.2."
 
 ["LV.MW.RainEffMaxParticles"]
 raw = "Max Rain particles"
@@ -1110,6 +1183,7 @@ plPL = "Max cząsteczki deszczu"
 ptBR = "Máx. partículas de chuva"
 koKR = "최대 비 입자"
 csCZ = "Maximální částice deště"
+viVN = "Số hạt mưa tối đa"
 
 ["LV.MW.RainEffMaxParticlesDesc"]
 raw = "Adjust the maximum number of rain particles on screen. Default 1000."
@@ -1125,6 +1199,7 @@ plPL = "Dostosuj maksymalną liczbę cząsteczek deszczu na ekranie. Domyślnie 
 ptBR = "Ajuste o número máximo de partículas de chuva na tela. Padrão 1000."
 koKR = "화면에 표시할 최대 비 내림 입자 수를 조정합니다. 기본값 1000."
 csCZ = "Nastavte maximální počet dešťových částic na obrazovce. Výchozí hodnota 1000."
+viVN = "Điều chỉnh số hạt mưa tối đa hiển thị trên màn hình. Mặc định 1000."
 
 ["LV.MW.SettingsDisabled"]
 raw = "<RedHighlight>[Disabled]</RedHighlight>"
@@ -1140,6 +1215,7 @@ plPL = "<CzerwonyHighlight>[Wyłączone]</CzerwonyHighlight>"
 ptBR = "<RedHighlight>[Desativado]</RedHighlight>"
 koKR = "<RedHighlight>[비활성화됨]</RedHighlight>"
 csCZ = "<RedHighlight>[Zakázáno]</RedHighlight>"
+viVN = "<RedHighlight>[Vô hiệu]</RedHighlight>"
 
 ["LV.MW.UnknownWeather"]
 raw = "Unknown weather Id: {0}"
@@ -1155,6 +1231,7 @@ plPL = "Nieznany identyfikator pogody: {0}"
 ptBR = "Id de clima desconhecido: {0}"
 koKR = "알 수 없는 날씨 ID: {0}"
 csCZ = "Neznámé počasí Id: {0}"
+viVN = "Mã thời tiết không xác định: {0}"
 
 ["LV.MW.SettingsLocked"]
 raw = "<RedHighlight>[Weather-locked]</RedHighlight>"
@@ -1170,6 +1247,7 @@ plPL = "<RedHighlight>[Zamknięte z powodu pogody]</RedHighlight>"
 ptBR = "<RedHighlight>[Com clima travado]</RedHighlight>"
 koKR = "<RedHighlight>[날씨 잠금]</RedHighlight>"
 csCZ = "<RedHighlight>[Počasí zamčeno]</RedHighlight>"
+viVN = "<RedHighlight>[Khóa thời tiết]</RedHighlight>"
 
 ["LV.MW.CycleStages"]
 raw = "Cycle Stages"
@@ -1185,6 +1263,7 @@ plPL = "Etapy cyklu"
 ptBR = "Fases do Ciclo"
 koKR = "주기 단계"
 csCZ = "Cyklické fáze"
+viVN = "Các giai đoạn chu kỳ"
 
 ["LV.MW.CycleStagesDesc"]
 raw = "Configure the different stages of each cycle. With this mod, you can have as many stages in each cycle as you want."
@@ -1200,6 +1279,7 @@ plPL = "Skonfiguruj różne etapy każdego cyklu. Z tym modem możesz mieć tyle
 ptBR = "Configure as diferentes etapas de cada ciclo. Com este mod, você pode ter quantas etapas quiser em cada ciclo."
 koKR = "각 사이클의 다양한 단계를 구성합니다. 이 모드를 사용하면 각 사이클에 원하는 만큼 많은 단계를 가질 수 있습니다."
 csCZ = "Nastavte různé fáze každého cyklu. S tímto módem můžete mít v každém cyklu tolik fází, kolik chcete."
+viVN = "Cấu hình các giai đoạn khác nhau của mỗi chu trình. Với mod này, bạn có thể có bất kỳ số lượng giai đoạn nào trong mỗi chu trình tùy ý."
 
 ["LV.MW.StageAdd"]
 raw = "Add Stage"
@@ -1215,6 +1295,7 @@ plPL = "Dodaj etap"
 ptBR = "Adicionar Estágio"
 koKR = "단계 추가"
 csCZ = "Přidat fázi"
+viVN = "Thêm Giai đoạn"
 
 ["LV.MW.StageRemove"]
 raw = "Remove Stage"
@@ -1230,6 +1311,7 @@ plPL = "Usuń etap"
 ptBR = "Remover Estágio"
 koKR = "단계 제거"
 csCZ = "Odstranit etapu"
+viVN = "Xóa giai đoạn"
 
 ["LV.MW.StageUp"]
 raw = "Move Up"
@@ -1245,6 +1327,7 @@ plPL = "Przesuń w górę"
 ptBR = "Subir"
 koKR = "올리기"
 csCZ = "Přejít nahoru"
+viVN = "Dời lên"
 
 ["LV.MW.StageDown"]
 raw = "Move Down"
@@ -1260,6 +1343,7 @@ plPL = "Zejdź w dół"
 ptBR = "Descer"
 koKR = "아래로 이동"
 csCZ = "Sestoupit"
+viVN = "Di chuyển xuống"
 
 ["LV.MW.StageSkipChance"]
 raw = "Skip chance (%)"
@@ -1275,6 +1359,7 @@ plPL = "Szansa na pominięcie (%)"
 ptBR = "Chance de pular (%)"
 koKR = "건너뛰기 확률 (%)"
 csCZ = "Šance na přeskočení (%)"
+viVN = "Xác suất bỏ qua (%)"
 
 ["LV.MW.StageSkipChanceDesc"]
 raw = "The chance of this stage being skipped when deciding a cycle"
@@ -1290,6 +1375,7 @@ plPL = "Szansa na pominięcie tego etapu podczas podejmowania decyzji o cyklu."
 ptBR = "A chance deste estágio ser pulado ao decidir um ciclo."
 koKR = "주기를 결정할 때 이 단계가 건너뛰어질 확률"
 csCZ = "Šance, že tato fáze bude přeskočena při rozhodování o cyklu"
+viVN = "Xác suất giai đoạn này bị bỏ qua khi xác định chu trình"
 
 ["LV.MW.StageBenignChance"]
 raw = "Benign weather chance"
@@ -1305,6 +1391,7 @@ plPL = "Szansa na łagodne zimno"
 ptBR = "Chance de tempo benigno"
 koKR = "온화한 날씨 확률"
 csCZ = "Šance na příznivé počasí"
+viVN = "Xác suất thời tiết ôn hòa"
 
 ["LV.MW.StageBenignChanceDesc"]
 raw = "The chance of benign weather occurring during this stage"
@@ -1320,6 +1407,7 @@ plPL = "Szansa na wystąpienie łagodnej pogody w tym etapie"
 ptBR = "A chance de clima benigno ocorrer durante esta fase"
 koKR = "이 단계에서 온화한 날씨가 발생할 확률"
 csCZ = "Šance na výskyt mírného počasí v tomto stádiu"
+viVN = "Xác suất thời tiết thuận lợi xảy ra trong giai đoạn này."
 
 ["LV.MW.LengthMul"]
 raw = "Length Multiplier (%)"
@@ -1335,6 +1423,7 @@ plPL = "Multiplikator długości (%)"
 ptBR = "Multiplicador de Comprimento (%)"
 koKR = "길이 배수 (%)"
 csCZ = "Multiplikátor délky (%)"
+viVN = "Hệ số chiều dài (%)"
 
 ["LV.MW.LengthMulDesc"]
 raw = "Once the weather duration is decided, this stage multiplies that duration by this value"
@@ -1350,6 +1439,7 @@ plPL = "Po ustaleniu czasu trwania pogody, ten etap mnoży ten czas przez tę wa
 ptBR = "Uma vez que a duração do clima é decidida, esta etapa multiplica essa duração por este valor."
 koKR = "날씨 지속 시간이 결정되면, 이 단계는 해당 지속 시간을 이 값으로 곱합니다."
 csCZ = "Až bude stanovena délka počasí, tato fáze vynásobí tuto délku touto hodnotou."
+viVN = "Khi thời lượng của thời tiết đã được xác định, giai đoạn này sẽ nhân thời lượng đó với giá trị này."
 
 ["LV.MW.StageIndex"]
 raw = "Stage {0}"
@@ -1365,6 +1455,7 @@ plPL = "Etap {0}"
 ptBR = "Fase {0}"
 koKR = "단계 {0}"
 csCZ = "Úroveň {0}"
+viVN = "Giai đoạn {0}"
 
 ["LV.MW.GenericSettings"]
 raw = "General Settings"
@@ -1380,6 +1471,7 @@ plPL = "Ustawienia ogólne"
 ptBR = "Configurações Gerais"
 koKR = "일반 설정"
 csCZ = "Obecné nastavení"
+viVN = "Cài đặt chung"
 
 ["LV.MW.AlwaysShowHazDur"]
 raw = "Always show hazardous weather duration"
@@ -1395,6 +1487,7 @@ plPL = "Zawsze pokazuj czas trwania niebezpiecznej pogody"
 ptBR = "Mostrar sempre a duração do tempo perigoso"
 koKR = "위험한 날씨 지속 시간 항상 표시"
 csCZ = "Vždy zobrazovat trvání nebezpečného počasí"
+viVN = "Luôn hiển thị thời lượng của thời tiết nguy hiểm"
 
 ["LV.MW.AlwaysShowHazDurDesc"]
 raw = "If enabled, the hazardous weather duration will always be shown in the weather panel (the game's default behavior). If disabled, you only know 3 days in advance before the next weather starts."
@@ -1410,6 +1503,7 @@ plPL = "Jeśli włączone, czas trwania niebezpiecznych warunków pogodowych bę
 ptBR = "Se ativado, a duração do tempo perigoso sempre será exibida no painel do clima (comportamento padrão do jogo). Se desativado, você só saberá 3 dias antes quando o próximo clima começar."
 koKR = "활성화하면, 위험한 날씨의 지속 시간이 날씨 패널에 항상 표시됩니다(게임의 기본 동작). 비활성화하면, 다음 날씨가 시작되기 3일 전에만 알 수 있습니다."
 csCZ = "Pokud je povoleno, doba trvání nebezpečného počasí bude vždy zobrazena na panelu počasí (výchozí chování hry). Pokud je zakázáno, budete mít informace pouze 3 dny předem o tom, než začne následující počasí."
+viVN = " Nếu được bật, thời lượng của thời tiết nguy hiểm sẽ luôn được hiển thị trên bảng thời tiết (hoạt động mặc định của trò chơi). Nếu được tắt, bạn sẽ chỉ biết trước 3 ngày trước khi thời tiết tiếp theo bắt đầu."
 
 ["LV.MW.GlobalSettings"]
 raw = "Global Settings"
@@ -1425,6 +1519,7 @@ plPL = "Ustawienia globalne"
 ptBR = "Configurações Globais"
 koKR = "글로벌 설정"
 csCZ = "Globální nastavení"
+viVN = "Cài đặt toàn cục"
 
 ["LV.MW.GlobalSettingsDesc"]
 raw = "These settings are applied globally and affect all saves."
@@ -1440,6 +1535,7 @@ plPL = "Te ustawienia są stosowane globalnie i wpływają na wszystkie zapisy."
 ptBR = "Essas configurações são aplicadas globalmente e afetam todos os salvamentos."
 koKR = "이 설정은 전역적으로 적용되며 모든 저장에 영향을 미칩니다."
 csCZ = "Tato nastavení se použijí globálně a ovlivní všechny uložené hry."
+viVN = "Những thiết lập này được áp dụng trên toàn cầu và ảnh hưởng đến tất cả các bản lưu."
 
 ["LV.MW.NoNewSetting"]
 raw = "No new game dialog"
@@ -1455,6 +1551,7 @@ plPL = "Brak nowego okna dialogowego gry"
 ptBR = "Nenhum diálogo de novo jogo"
 koKR = "새 게임 대화가 없습니다"
 csCZ = "Žádný nový herní dialog"
+viVN = "Không có hộp thoại trò chơi mới"
 
 ["LV.MW.NoNewSettingDesc"]
 raw = "Do not show the Weather setting dialog when starting a new game."
@@ -1470,3 +1567,4 @@ plPL = "Nie pokazuj okna ustawień pogody przy rozpoczynaniu nowej gry."
 ptBR = "Não mostrar a caixa de diálogo de configurações do tempo ao iniciar um novo jogo."
 koKR = "새 게임을 시작할 때 날씨 설정 대화를 표시하지 마십시오."
 csCZ = "Nepřidávat dialog pro nastavení počasí při zahájení nové hry."
+viVN = "Không hiển thị hộp thoại cài đặt thời tiết khi bắt đầu trò chơi mới."

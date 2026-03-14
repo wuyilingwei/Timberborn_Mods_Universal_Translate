@@ -1,7 +1,7 @@
 [_meta]
 name = "Whitepaws Faction U7"
 
-[_meta.glossary.tank]
+[_meta.glossary."tank"]
 zhCN = "水罐"
 zhTW = "水罐"
 
@@ -19,6 +19,7 @@ plPL = "gulasz"
 ptBR = "Ensopado"
 koKR = "스튜"
 csCZ = "Dušené jídlo"
+viVN = "Món hầm"
 
 ["Faction.waterbeavers.DisplayName"]
 raw = "The Whitepaws"
@@ -34,6 +35,7 @@ plPL = "Białe Łapy"
 ptBR = "Os Patas Brancas"
 koKR = "화이트파우스"
 csCZ = "Bílé drápy"
+viVN = "Những Bàn Chân Trắng"
 
 ["Faction.waterbeavers.Description"]
 raw = "\n\n\n\n\nFollowers of the True Beaver Path, for them everything is a house. Their population often explodes out of control, food and water run out, science is a luxury, and your defeat unavoidable\n\n Forget what other factions taught you, and welcome to your pinkest nightmare.\n<color=red>Make sure to check out the billboards!</color>\n\n\n<color=black>Beaver art and textures by Wolfess, huge thanks! Many icons by Thorlak, huge thanks too!</color>"
@@ -64,6 +66,7 @@ plPL = "Zepsuta ekspedycyjna wóz"
 ptBR = "Carroça de Expedição Quebrada"
 koKR = "부서진 탐험 수레"
 csCZ = "Rozbitý expediční vůz"
+viVN = "Xe đẩy thám hiểm bị hỏng"
 
 ["trashdump.Description"]
 raw = "Your first district center, if it can be called so. Only dismantle after building a better town center."
@@ -79,6 +82,7 @@ plPL = "Twój pierwszy ośrodek dzielnicy, jeśli można go tak nazwać. Rozbier
 ptBR = "Seu primeiro centro de distrito, se é que pode ser chamado assim. Apenas desmonte depois de construir um centro urbano melhor."
 koKR = "당신의 첫 번째 구역 중심지, 그렇게 불릴 수 있다면. 더 나은 마을 중심지를 건설한 후에만 해체하세요."
 csCZ = "Váš první městský úřad, pokud se to dá tak nazvat. Demolujte ho pouze po postavení lepšího městského úřadu."
+viVN = "Trung tâm khu vực đầu tiên của bạn, nếu có thể gọi như vậy. Chỉ tháo dỡ sau khi xây dựng một trung tâm thị trấn tốt hơn."
 
 ["trashdump.FlavorDescription"]
 raw = "\"We can't go further, but we can settle here\"\n -The expedition leader"
@@ -94,6 +98,7 @@ plPL = "\"Nie możemy iść dalej, ale możemy się tu osiedlić\" \n - Lider ek
 ptBR = "\"Não podemos ir mais longe, mas podemos nos estabelecer aqui.\"  \n- O líder da expedição"
 koKR = "\"더 이상 나아갈 수는 없지만, 여기 정착할 수 있습니다.\"  \n- 탐험대장"
 csCZ = "\"Když nemůžeme jít dál, můžeme se usadit zde\" - Vedoucí expedice"
+viVN = "\"Chúng ta không thể tiến xa hơn, nhưng chúng ta có thể định cư ở đây\"\n -Trưởng đoàn thám hiểm"
 
 ["Luc.Primitivemine.DisplayName"]
 raw = "Primitive Mine"
@@ -109,6 +114,7 @@ plPL = "Prymiwna Kopalnia"
 ptBR = "Mineral Primitivo"
 koKR = "기본 광산"
 csCZ = "Primitivní doly"
+viVN = "Mỏ sơ khai"
 
 ["Luc.Primitivemine.Description"]
 raw = "A small and inefficient way to obtain mineral resources\n<color=green>Needs to aim 2 levels below ground</color>"
@@ -124,6 +130,7 @@ plPL = "Mały i nieefektywny sposób na pozyskiwanie surowców mineralnych\n<col
 ptBR = "Uma maneira pequena e ineficiente de obter recursos minerais  \n<color=green>Precisa mirar 2 níveis abaixo do solo</color>"
 koKR = "소규모로 비효율적으로 광물 자원을 얻는 방법\n<color=green>지하 2층 아래를 겨냥해야 합니다</color>"
 csCZ = "Malý a neefektivní způsob, jak získat minerální zdroje\n<color=green>Musí mířit 2 úrovně pod zem</color>"
+viVN = "Một cách nhỏ và kém hiệu quả để thu được khoáng sản\n<color=green>Cần nhắm tới hai cấp độ dưới lòng đất</color>"
 
 ["Luc.Primitivemine.FlavorDescription"]
 raw = "\"Beavers are not meant to dig rock\""
@@ -139,6 +146,7 @@ plPL = "\"Bóbrzy nie są przeznaczeni do kopania w skałach.\""
 ptBR = "\"Os castores não são feitos para cavar rocha.\""
 koKR = "\"비버는 바위를 파도록 만들어지지 않았다\""
 csCZ = "\"Bobři nejsou stvořeni k tomu, aby kopali do skály\""
+viVN = "Hải ly không phải để đào đá"
 
 ["Lapantouflemagic.Mediummine.DisplayName"]
 raw = "Medium Mine"
@@ -154,6 +162,7 @@ plPL = "Średnia Kopalnia"
 ptBR = "Minério Médio"
 koKR = "중형 광산"
 csCZ = "Střední důl"
+viVN = "Mỏ Trung Bình"
 
 ["Lapantouflemagic.Mediummine.Description"]
 raw = "A larger and deeper mine to exploit richer deposits, also gives access to rarer elements.\nComes with access stairs and barriers to prevent silly little kits from falling and getting hurt.\n<color=green>Needs to be placed in a 4-deep hole!\nMine and fences must be on solid ground!\nPlace stairs on dirt spots and complete the access ramp</color>"
@@ -169,6 +178,7 @@ plPL = "Większa i głębsza kopalnia do eksploatacji bogatszych złóż, daje r
 ptBR = "Uma mina maior e mais profunda para explorar depósitos mais ricos, também dá acesso a elementos mais raros. \nVem com escadas de acesso e barreiras para evitar que crianças bobas caiam e se machuquem. \n<color=green>Precisa ser colocada em um buraco de 4 de profundidade! \nA mina e as cercas devem estar em terreno sólido! \nColoque escadas em pontos de terra e complete a rampa de acesso</color>"
 koKR = "더 풍부한 자원을 개발하기 위한 크고 깊은 광산으로, 희귀한 요소에 접근할 수 있습니다.\n작고 귀여운 친구들이 떨어져 다치는 것을 방지하기 위해 접근 계단과 방벽이 포함되어 있습니다.\n<color=green>4 깊이의 구멍에 설치해야 합니다!\n광산과 울타리는 단단한 땅 위에 있어야 합니다!\n흙 위에 계단을 놓고 접근 경사를 완성하세요</color>"
 csCZ = "Větší a hlubší důl pro těžbu bohatších ložisek, také poskytuje přístup k vzácnějším prvkům.\nPřichází s přístupovými schody a zábradlími, aby se zabránilo pádu malých dětí a zranění.\n<color=green>Je potřeba umístit do 4 hluboké jámy!\nDůl a ploty musí být na pevném podkladu!\nUmístěte schody na hlinitá místa a dokončete přístupovou rampu</color>"
+viVN = "Một mỏ lớn hơn và sâu hơn để khai thác trữ lượng giàu có hơn, đồng thời mở đường tới các nguyên tố hiếm hơn.\nĐi kèm cầu thang truy cập và hàng rào để ngăn những chú kit ngốc nghếch bị ngã và bị thương.\n<color=green>Cần được đặt trong một hố sâu 4 khối!\nMỏ và hàng rào phải nằm trên mặt đất vững chắc!\nĐặt cầu thang trên các khu đất và hoàn thiện dốc truy cập</color>"
 
 ["Lapantouflemagic.Mediummine.FlavorDescription"]
 raw = "\"I don't believe in ghosts and monsters, what even are grues supposed to be anyway?\"\n -Miner Zork, last words"
@@ -184,6 +194,7 @@ plPL = "\"Nie wierzę w duchy i potwory, czym w ogóle mają być te zgrozy?\"  
 ptBR = "\"Eu não acredito em fantasmas e monstros, o que, afinal, são os grue?\"  \n -Miner Zork, últimas palavras"
 koKR = "\"나는 유령과 괴물을 믿지 않아, 도대체 그로스는 무엇이란 말이야?\"\n - 광부 조크, 마지막 말"
 csCZ = "„V duchy a monstra nevěřím, co vlastně mají být ti hrůzostrašní?“  \n-Miner Zork, poslední slova"
+viVN = "\"Tôi không tin vào ma quỷ và quái vật, Grues thực sự là thứ gì vậy?\" \n-Thợ mỏ Zork, lời cuối cùng"
 
 ["Lapantouflemagic.Primitivesmetler.DisplayName"]
 raw = "Primitive Smelter"
@@ -199,6 +210,7 @@ plPL = "Prymitywny piec do wytapiania"
 ptBR = "Fundição Primitiva"
 koKR = "원시 제련소"
 csCZ = "PRIMITIVNÍ TAVÍRNA"
+viVN = "Lò luyện kim nguyên thủy"
 
 ["Lapantouflemagic.Primitivesmetler.Description"]
 raw = "A mixture of iron ore and coal in a dirt crucible to be lit on fire.\n<color=#FF6EC7>Can function without workers.</color>"
@@ -214,6 +226,7 @@ plPL = "Mieszanka rudy żelaza i węgla w glinianym tygielku do podpalenia.  \n<
 ptBR = "Uma mistura de minério de ferro e carvão em um cadinho de terra para ser incendiada.  \n<color=#FF6EC7>Pode funcionar sem trabalhadores.</color>"
 koKR = "철광석과 석탄의 혼합물로, 불에 태우기 위해 흙 도가니에 담겨 있습니다.  \n<color=#FF6EC7>작업자 없이도 작동할 수 있습니다.</color>"
 csCZ = "Směs železné rudy a uhlí v hliněném tavicím hrnci, který se zapálí.  \n<color=#FF6EC7>Mohou fungovat bez pracovníků.</color>"
+viVN = "Một hỗn hợp quặng sắt và than trong một ấm nung đất để được đốt cháy.\n<color=#FF6EC7>Có thể hoạt động mà không cần công nhân.</color>"
 
 ["Lapantouflemagic.Primitivesmetler.FlavorDescription"]
 raw = "\"Are we sure of the recipe?\""
@@ -229,6 +242,7 @@ plPL = "\"Czy jesteśmy pewni przepisu?\""
 ptBR = "\"Temos certeza da receita?\""
 koKR = "\"레시피가 확실한가요?\""
 csCZ = "Jsme si jisti receptem?"
+viVN = "Chúng ta có chắc về công thức này không?"
 
 ["Lapantouflemagic.Woodburner.DisplayName"]
 raw = "Wood Burner"
@@ -244,6 +258,7 @@ plPL = "Piec na drewno"
 ptBR = "Queimador de Madeira"
 koKR = "나무 연료"
 csCZ = "Spalovač dřeva"
+viVN = "Lò đốt gỗ"
 
 ["Lapantouflemagic.Woodburner.Description"]
 raw = "A special fire pit to turn wood into charcoal.\n<color=#FF6EC7>Can function without workers.</color>"
@@ -259,6 +274,7 @@ plPL = "Specjalny piec do przekształcania drewna w węgiel drzewny. <color=#FF6
 ptBR = "Uma fogueira especial para transformar madeira em carvão.  \n<color=#FF6EC7>Pode funcionar sem trabalhadores.</color>"
 koKR = "나무를 숯으로 변환하는 특별한 화덕입니다.<color=#FF6EC7>작업자 없이도 작동합니다.</color>"
 csCZ = "Speciální ohniště k přeměně dřeva na uhlí.\n<color=#FF6EC7>Může fungovat bez pracovníků.</color>"
+viVN = "Một cái lò lửa đặc biệt để biến gỗ thành than củi.\n<color=#FF6EC7>Có thể hoạt động mà không cần công nhân.</color>"
 
 ["Lapantouflemagic.Woodburner.FlavorDescription"]
 raw = "\"Oh, that would be a great way to get rid of... uhh... sawdust! Yes, sawdust... of course.\"\n -Jack the Gnawer"
@@ -274,6 +290,7 @@ plPL = "„Och, to byłby wspaniały sposób na pozbycie się... eee... trocin! 
 ptBR = "\"Oh, isso seria uma ótima maneira de se livrar de... uhh... serragem! Sim, serragem... é claro.\"  \n -Jack, o Roedor"
 koKR = "\"오, 그건 ... 어... 톱밥을 없애는 좋은 방법이 될 것 같군요! 네, 톱밥... 물론입니다.\"  \n- 재크 더 너워"
 csCZ = "\"Ó, to by byl skvělý způsob, jak se zbavit... ehm... pilin! Ano, pilin... samozřejmě.\" -Jack Kousavec"
+viVN = "\"Ồ, đó sẽ là một cách tuyệt vời để loại bỏ... ờ... bụi gỗ! Vâng, bụi gỗ... tất nhiên.\"\n -Jack the Gnawer"
 
 ["Lapantouflemagic.Screwpress.DisplayName"]
 raw = "Screw Press"
@@ -289,6 +306,7 @@ plPL = "Prasa śrubowa"
 ptBR = "Prensa de Parafuso"
 koKR = "스크류 프레스"
 csCZ = "Skrutkovací lis"
+viVN = "Máy Ép Vít"
 
 ["Lapantouflemagic.Screwpress.Description"]
 raw = "A strong press to extract oil from sunflower seeds.\n<color=#00FFFF>Works as a Levee</color>"
@@ -304,6 +322,7 @@ plPL = "Mocna prasa do wyciskania oleju z nasion słonecznika.  \n<color=#00FFFF
 ptBR = "Uma prensa forte para extrair óleo de sementes de girassol.  \n<cor=#00FFFF>Funciona como uma Represa</cor>"
 koKR = "해바라기 씨에서 기름을 추출하기 위한 강력한 프레스입니다.\n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Silný lis na extrakci oleje ze slunečnicových semen. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một máy ép mạnh để chiết dầu từ hạt hướng dương.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.Screwpress.FlavorDescription"]
 raw = "\"Sunflower oil, essential for both salad and machines\""
@@ -319,6 +338,7 @@ plPL = "\"Olej słonecznikowy, niezbędny zarówno do sałatek, jak i do maszyn.
 ptBR = "\"Óleo de girassol, essencial tanto para saladas quanto para máquinas.\""
 koKR = "\"샐러드와 기계 모두에 필수적인 해바라기 기름\""
 csCZ = "\"Slunečnicový olej, nezbytný jak pro saláty, tak pro stroje\""
+viVN = "Dầu hạt hướng dương, cần thiết cho cả món salad và máy móc"
 
 ["Lapantouflemagic.Alchemist.DisplayName"]
 raw = "Alchemist"
@@ -334,6 +354,7 @@ plPL = "Alchemik"
 ptBR = "Alquimista"
 koKR = "연금술사"
 csCZ = "Alchymista"
+viVN = "Nhà giả kim"
 
 ["Lapantouflemagic.Alchemist.Description"]
 raw = "A cozy lab to prepare basic chemical reactions.\n<color=#00FFFF>Works as a Levee</color>"
@@ -349,6 +370,7 @@ plPL = "Przytulne laboratorium do przygotowywania podstawowych reakcji chemiczny
 ptBR = "Um laboratório aconchegante para preparar reações químicas básicas.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "기본 화학 반응을 준비하는 아늑한 실험실입니다.  \n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Útulná laboratoř pro přípravu základních chemických reakcí. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một phòng thí nghiệm ấm cúng để chuẩn bị các phản ứng hóa học cơ bản.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Lapantouflemagic.Alchemist.FlavorDescription"]
 raw = "\"Hopefully it won't explode\""
@@ -364,6 +386,7 @@ plPL = "„Mam nadzieję, że to nie wybuchnie.”"
 ptBR = "\"Tomara que não exploda\""
 koKR = "\"폭발하지 않기를 바랍니다\""
 csCZ = "Doufejme, že to nevybuchne"
+viVN = "\"Hy vọng nó sẽ không phát nổ\""
 
 ["Lapantouflemagic.Handicrafter.DisplayName"]
 raw = "Handicrafter's Lodge"
@@ -379,6 +402,7 @@ plPL = "Schronisko Rzemieślnika"
 ptBR = "Pousada do Artesão"
 koKR = "수공예가의 오두막"
 csCZ = "Radní dům řemeslníka"
+viVN = "Nhà nghỉ của Thợ thủ công"
 
 ["Lapantouflemagic.Handicrafter.FlavorDescription"]
 raw = "\"As long as we don't need a lot of that...\""
@@ -394,6 +418,7 @@ plPL = "\"Tak długo, jak nie potrzebujemy tego w dużej ilości...\""
 ptBR = "\"Enquanto não precisarmos muito disso...\""
 koKR = "\"우리가 그것을 많이 필요로 하지 않는 한...\""
 csCZ = "Dokud toho nepotřebujeme hodně..."
+viVN = "\"Miễn là chúng ta không cần quá nhiều thứ đó...\""
 
 ["Lapantouflemagic.Copistlodge.DisplayName"]
 raw = "Copyist Lodge"
@@ -409,6 +434,7 @@ plPL = "Zajazd Kserografa"
 ptBR = "Pousada dos Copistas"
 koKR = "복사기 조합"
 csCZ = "Krkonošská chata"
+viVN = "Nhà sao chép"
 
 ["Lapantouflemagic.Copistlodge.Description"]
 raw = "A town house for copying existing blueprints. \n<color=#00FFFF>Works as a Levee</color>"
@@ -424,6 +450,7 @@ plPL = "Dom jednorodzinny do kopiowania istniejących planów.  \n<color=#00FFFF
 ptBR = "Uma casa de cidade para copiar plantas baixas existentes.  \n<color=#00FFFF>Funciona como um dique</color>"
 koKR = "기명: Lapantouflemagic.Copistlodge.Description - 번역할 새 텍스트: \"기존 청사진을 복사하는 타운하우스입니다. \n<color=#00FFFF>제방처럼 작동합니다</color>\""
 csCZ = "Dům ve městě pro kopírování existujících plánů. \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà phố dùng để sao chép các bản thiết kế có sẵn.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.Copistlodge.FlavorDescription"]
 raw = "\"So the first part of my job, is to remove these ridiculous decorations\"\n -The Copist beaver"
@@ -439,6 +466,7 @@ plPL = "„Więc pierwsza część mojej pracy to usunięcie tych absurdalnych d
 ptBR = "\"Então, a primeira parte do meu trabalho é remover essas decorações ridículas.\" - O Castor Copista"
 koKR = "\"내 일의 첫 번째 부분은 이러한 우스꽝스러운 장식을 제거하는 것입니다.\"  \n- 코피스트 비버"
 csCZ = "\"První část mé práce je odstranit tyto směšné dekorace.\"  \n- Bobr Copist"
+viVN = "Vậy phần đầu tiên trong công việc của tôi là loại bỏ những trang trí ngớ ngẩn này\n- Hải ly sao chép"
 
 ["Lapantouflemagic.Artsylodge.DisplayName"]
 raw = "Artist Lodge"
@@ -454,6 +482,7 @@ plPL = "Lodge Artysty"
 ptBR = "Pousada do Artista"
 koKR = "예술가 숙소"
 csCZ = "Umělecká chata"
+viVN = "Nhà Nghệ sĩ"
 
 ["Lapantouflemagic.Artsylodge.Description"]
 raw = "A town house for decorating copied blueprints. \n<color=#00FFFF>Works as a Levee</color>"
@@ -469,6 +498,7 @@ plPL = "Dom jednorodzinny do dekoracji skopiowanych planów. \n<color=#00FFFF>Pr
 ptBR = "Uma casa em town para decorar cópias de plantas.  \n<color=#00FFFF>Funciona como um dique</color>"
 koKR = "복사한 청사진을 꾸미기 위한 타운하우스입니다. \n<color=#00FFFF>제방으로 기능합니다</color>"
 csCZ = "Townhouse pro dekoraci zkopírovaných modrých plánů. \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà phố để trang trí các bản thiết kế sao chép.\n<color=#00FFFF>Hoạt động như một đê chắn lũ</color>"
 
 ["Lapantouflemagic.Artsylodge.FlavorDescription"]
 raw = "\"Yes, the blueprints MUST be fancy to be usable\"\n -The artist beaver"
@@ -484,6 +514,7 @@ plPL = "\"Tak, plany MUSZĄ być eleganckie, aby były użyteczne\" - Artysta b�
 ptBR = "\"Sim, os projetos DEVEM ser sofisticados para serem utilizáveis.\"  \n -O castor artista"
 koKR = "\"네, 설계도는 사용 가능하려면 화려해야 합니다.\"\n - 예술가 비버"
 csCZ = "„Ano, plány MUSÍ být vydařené, aby byly použitelné.“ - Umělecký bobr"
+viVN = "\"Vâng, các bản thiết kế phải thật cầu kỳ để có thể sử dụng được\" -Nghệ sĩ hải ly"
 
 ["Lapantouflemagic.Builderslodge.DisplayName"]
 raw = "Builder Lodge"
@@ -499,6 +530,7 @@ plPL = "Lodge Budowniczy"
 ptBR = "Pousada do Construtor"
 koKR = "건축가 숙소"
 csCZ = "Stavitelova chata"
+viVN = "Nhà thợ xây"
 
 ["Lapantouflemagic.Builderslodge.Description"]
 raw = "A town house for two extra builders. \n<color=#00FFFF>Works as a Levee</color>"
@@ -514,6 +546,7 @@ plPL = "Dom na mieście dla dwóch dodatkowych budowniczych. \n<color=#00FFFF>Pr
 ptBR = "Uma casa em estilo townhouse para dois construtores extras.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "추가 건축가 두 명을 위한 타운 하우스입니다.  \n<color=#00FFFF>제방처럼 작동합니다</color>"
 csCZ = "Dům pro dva další stavitele. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà cho hai thợ xây bổ sung.\n<color=#00FFFF>Hoạt động như một đê chắn lũ</color>"
 
 ["Lapantouflemagic.Builderslodge.FlavorDescription"]
 raw = "\"My own space, at last!\""
@@ -529,6 +562,7 @@ plPL = "\"W końcu moje własne miejsce!\""
 ptBR = "\"Meu próprio espaço, finalmente!\""
 koKR = "\"드디어 나만의 공간이야!\""
 csCZ = "Můj vlastní prostor, konečně!"
+viVN = "Cuối cùng, không gian của riêng tôi!"
 
 ["Luc.Lodge.Description"]
 raw = "A small house for a hauler beaver.\nHouses <color=green>one hauler</color> and its family.\n<color=#00FFFF>Works as a Levee</color>"
@@ -544,6 +578,7 @@ plPL = "Mały dom dla bobra transportowego. Mieszkają w nim <color=green>jeden 
 ptBR = "Uma pequena casa para um castor transportador.  \nAcomoda <color=green>um transportador</color> e sua família.  \n<color=#00FFFF>Funciona como um Dique</color>"
 koKR = "작은 운반 비버를 위한 집입니다.  \n<color=green>운반 비버 한 마리</color>와 그 가족을 수용합니다.  \n<color=#00FFFF>제방 역할을 합니다</color>"
 csCZ = "Malý dům pro bobra nosiče. \nUbytovává <color=green>jednoho nosiče</color> a jeho rodinu. \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một ngôi nhà nhỏ cho hải ly chở hàng.\nCung cấp chỗ ở cho <color=green>một hải ly chở hàng</color> và gia đình của nó.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.primitivedam.DisplayName"]
 raw = "Primitive Dam"
@@ -559,6 +594,7 @@ plPL = "Prymitywna Tama"
 ptBR = "Barragem Primária"
 koKR = "원시 댐"
 csCZ = "Primitivní hráz"
+viVN = "Đập nước sơ khai"
 
 ["Lapantouflemagic.primitivedam.Description"]
 raw = "A semi-watertight structure built as the beavers of old used to."
@@ -574,6 +610,7 @@ plPL = "Struktura półwodoszczelna zbudowana tak, jak robiły to niegdyś bobry
 ptBR = "Uma estrutura semi-impermeável construída como os castores de antigamente costumavam fazer."
 koKR = "예전 비버들이 만들었던 반수밀 구조물입니다."
 csCZ = "Polovečněvodotěsná struktura postavená tak, jak to dělali bývalí bobři."
+viVN = "Một cấu trúc bán kín nước được xây dựng như những con hải ly cổ xưa từng làm."
 
 ["Lapantouflemagic.primitivedamupgrade.DisplayName"]
 raw = "Primitive Dam Upgrade"
@@ -589,6 +626,7 @@ plPL = "Aktualizacja przemiennej zapory"
 ptBR = "Upgrade de Barragem Primária"
 koKR = "원시 댐 업그레이드"
 csCZ = "Základní vylepšení přehrady"
+viVN = "Nâng cấp đập nguyên thủy"
 
 ["Lapantouflemagic.primitivedamupgrade.Description"]
 raw = "A taller dam built on top of a previous one."
@@ -604,6 +642,7 @@ plPL = "Wyższa tama zbudowana na szczycie poprzedniej."
 ptBR = "Uma barragem mais alta construída sobre uma anterior."
 koKR = "이전 댐 위에 세운 더 높은 댐입니다."
 csCZ = "Vyšší hráz postavená na předchozí."
+viVN = "Một đập cao hơn được xây trên đập trước đó."
 
 ["Lapantouflemagic.primitivedamupgrade.FlavorDescription"]
 raw = "\"Maybe we will survive with this.\""
@@ -619,6 +658,7 @@ plPL = "\"Może przetrwamy dzięki temu.\""
 ptBR = "\"Talvez nós sobreviveremos com isso.\""
 koKR = "\"아마 이것으로 우리는 살아남을 수 있을 거야.\""
 csCZ = "\"Možná to s tímto přežijeme.\""
+viVN = "Có lẽ chúng ta sẽ sống sót với cái này."
 
 ["Lapantouflemagic.primitivedamUtility.DisplayName"]
 raw = "Utility Dam"
@@ -634,6 +674,7 @@ plPL = "Zapor ujawnienia"
 ptBR = "Barragem de Utilidade"
 koKR = "유용한 댐"
 csCZ = "Užitková přehrada"
+viVN = "Đập tiện ích"
 
 ["Lapantouflemagic.primitivedamUtility.FlavorDescription"]
 raw = "Pretty convenient!"
@@ -649,6 +690,7 @@ plPL = "Bardzo wygodne!"
 ptBR = "Bem conveniente!"
 koKR = "상당히 편리해!"
 csCZ = "Docela pohodlné!"
+viVN = "Khá tiện lợi!"
 
 ["Lapantouflemagic.LogstairsWB.DisplayName"]
 raw = "Log Stairs"
@@ -664,6 +706,7 @@ plPL = "Schody z bali"
 ptBR = "Escadas de Troncos"
 koKR = "나무 계단"
 csCZ = "Trámové schody"
+viVN = "Cầu thang gỗ"
 
 ["Lapantouflemagic.logstairsWB.DisplayName"]
 raw = "Brown Log Stairs"
@@ -679,6 +722,7 @@ plPL = "Brązowe schody z drewna"
 ptBR = "Escadas de Madeira Marrom"
 koKR = "갈색 통나무 계단"
 csCZ = "Hnědé dřevěné schody"
+viVN = "Cầu thang gỗ màu nâu"
 
 ["Lapantouflemagic.BirchlogstairsWB.DisplayName"]
 raw = "Birch Log Stairs"
@@ -694,6 +738,7 @@ plPL = "Schody z brzozy"
 ptBR = "Escadas de Toras de Bétula"
 koKR = "자작나무 나무 계단"
 csCZ = "Olšové dřevěné schody"
+viVN = "Cầu thang gỗ bạch dương"
 
 ["Lapantouflemagic.ScramblelogstairsWB.DisplayName"]
 raw = "Scrambled Log Stairs"
@@ -709,6 +754,7 @@ plPL = "Pomieszane schody z kłód"
 ptBR = "Escadas de Troncos Embaralhados"
 koKR = "스크램블 로그 계단"
 csCZ = "Promíchané dřevěné schody"
+viVN = "Cầu thang gỗ xáo trộn"
 
 ["Lapantouflemagic.logstairsWB.Description"]
 raw = "A bunch of logs arranged into primitive stairs."
@@ -724,6 +770,7 @@ plPL = "Stos bali ułożonych w prymitywne schody."
 ptBR = "Um monte de troncos arranjados em escadas primitivas."
 koKR = "원시적인 계단으로 배열된 나무토막들."
 csCZ = "Hromada klád uspořádaných do primitivních schodů."
+viVN = "Một đống khúc gỗ được xếp thành cầu thang thô sơ."
 
 ["Lapantouflemagic.logstairsWB.FlavorDescription"]
 raw = "\"And <i>that</i> is why we need education\"\n -A scientist beaver"
@@ -739,6 +786,7 @@ plPL = "\"I <i>dlatego</i> potrzebujemy edukacji\"  \n -Naukowiec bobr"
 ptBR = "\"E <i>isso</i> é por isso que precisamos de educação\"  \n -Um castor cientista"
 koKR = "\"그리고 <i>그것</i>이 우리가 교육이 필요한 이유입니다.\"  \n-한 과학자 비버"
 csCZ = "\"A <i>to</i> je důvod, proč potřebujeme vzdělání\"  \n- Vědecký bobr"
+viVN = "\"Và <i>điều ấy</i> là lý do tại sao chúng ta cần giáo dục\" -Một hải ly nhà khoa học"
 
 ["Lapantouflemagic.CrappyplatformWB.DisplayName"]
 raw = "Crappy Platforms"
@@ -754,6 +802,7 @@ plPL = "Złe platformy"
 ptBR = "Plataformas ruins"
 koKR = "형편없는 플랫폼"
 csCZ = "Špatné platformy"
+viVN = "Nền tảng kém chất lượng"
 
 ["Lapantouflemagic.CrappyplatformWB.Description"]
 raw = "A sorry excuse of a platform that is an embarrassment to beaverkind."
@@ -769,6 +818,7 @@ plPL = "Przykro mi, ale to platforma, która jest hańbą dla bobrów."
 ptBR = "Uma desculpa lamentável de uma plataforma que é uma vergonha para os castores."
 koKR = "비버 종족에게 부끄러운 변변치 않은 플랫폼."
 csCZ = "Omluvitelná výmluva za platformu, která je potupou pro bobří druh."
+viVN = "Một nền tảng tệ hại, đáng xấu hổ cho loài hải ly."
 
 ["Lapantouflemagic.CrappyplatformWB.FlavorDescription"]
 raw = "\"And <i>that too</i>, is why we need education\"\n -A scientist beaver"
@@ -784,6 +834,7 @@ plPL = "\"I <i>to</i> dlatego potrzebujemy edukacji\" - Naukowiec bóbr"
 ptBR = "\"E <i>isso também</i>, é por isso que precisamos de educação\"  \n -Um castor cientista"
 koKR = "\"그리고 <i>그것도</i>, 우리가 교육이 필요한 이유입니다\"  \n- 한 과학자 비버"
 csCZ = "\"A <i>tohle taky</i>, je důvod, proč potřebujeme vzdělání\" - Vědecká bobr"
+viVN = "\"Và <i>điều đó nữa</i>, là lý do tại sao chúng ta cần giáo dục\" -một nhà khoa học hải ly"
 
 ["Luc.crappyWaterWheel.DisplayName"]
 raw = "Crappy Water Wheel"
@@ -799,6 +850,7 @@ plPL = "Zła wodna koło"
 ptBR = "Roda d'água Ruim"
 koKR = "형편없는 물레방아"
 csCZ = "Špatná vodní kola"
+viVN = "Cối nước kém chất lượng"
 
 ["Luc.crappyWaterWheel.Description"]
 raw = "A crudely made but easy to build water wheel."
@@ -814,6 +866,7 @@ plPL = "Prymitywnie zrobiona, ale łatwa do zbudowania koło wodne."
 ptBR = "Uma roda d'água feita de maneira rústica, mas fácil de construir."
 koKR = "조잡하게 만들어졌지만 만들기 쉬운 물레방아입니다."
 csCZ = "Hrubě vyrobená, ale snadno postavitelná vodní kola."
+viVN = "Một chiếc bánh xe nước thô sơ nhưng dễ xây dựng."
 
 ["Luc.crappyWaterWheel.FlavorDescription"]
 raw = "\"With so much friction we're lucky it didn't catch on fire!\"\n -An alchemist beaver"
@@ -829,6 +882,7 @@ plPL = "\"Z takim tarciem mamy szczęście, że nie zapaliło się!\" \n -Alchem
 ptBR = "\"Com tanta fricção, temos sorte de não ter pegado fogo!\" \n -Um castor alquimista"
 koKR = "\"이렇게 많은 마찰이 있는데 불이 나지 않은 게 다행이야!\"\n - 한 연금술사 비버"
 csCZ = "\"S tolika třením jsme rádi, že to nechytilo!\"  \n- Alchymistický bobr"
+viVN = "\"Với quá nhiều ma sát, thật may là nó không bắt lửa!\"\n -Một con hải ly giả kim"
 
 ["Luc.watertightlodge.DisplayName"]
 raw = "Long Watertight Lodge"
@@ -844,6 +898,7 @@ plPL = "Długi Zabezpieczony Domek"
 ptBR = "Lodge Long Watertight"
 koKR = "긴 수밀 숙소"
 csCZ = "Dlouhá vodotěsná chata"
+viVN = "Nhà trú ẩn kín nước dài"
 
 ["Luc.watertightlodge.Description"]
 raw = "A large watertight house for many beavers.\n<color=#00FFFF>Works as a Levee</color>"
@@ -859,6 +914,7 @@ plPL = "Duży wodooporny dom dla wielu bobrów.  \n<color=#00FFFF>Działa jako w
 ptBR = "Uma grande casa à prova d'água para muitos castores.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "많은 비버들을 위한 대형 방수 주택입니다. <color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Velký vodotěsný dům pro mnoho bobrů. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một ngôi nhà kín nước lớn dành cho nhiều con hải ly.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Luc.watertightlodge.FlavorDescription"]
 raw = "\"A solid base for a dam\"\n -A builder beaver"
@@ -874,6 +930,7 @@ plPL = "\"Solidna podstawa dla tamy\" - Bobr budowniczy"
 ptBR = "\"Uma base sólida para uma represa\" \n -Um castor construtor"
 koKR = "댐을 위한 견고한 기초\" - \"건축가 비버"
 csCZ = "\"Solidní základ pro přehradu\"  \n -Stavitel bobr"
+viVN = "\"Nền tảng vững chắc cho đập nước\" -Hải ly thợ xây"
 
 ["Lapantouflemagic.doublewatertightlodge.DisplayName"]
 raw = "Two-story Watertight Lodge"
@@ -889,6 +946,7 @@ plPL = "Dwupiętrowa Zatopiona Chata"
 ptBR = "Pousada à Prova d'Água de Dois Andares"
 koKR = "이층 방수 롯지"
 csCZ = "Dvoupodlažní vodotěsná chata"
+viVN = "Nhà nghỉ kín nước hai tầng"
 
 ["Lapantouflemagic.doublewatertightlodgeBottom.Description"]
 raw = "A medium dam-house for two beaver families.\nEmploys <color=green>2 Haulers</color>. \n<color=#00FFFF>Works as a Levee</color>"
@@ -904,6 +962,7 @@ plPL = "Średni dom tamy dla dwóch rodzin bobrów. Zatrudnia <color=green>2 Pra
 ptBR = "Uma casa de represa média para duas famílias de castores.  \nEmprega <color=green>2 Transportadores</color>.  \n<color=#00FFFF>Funciona como uma Barreira</color>"
 koKR = "두 가족 비버를 위한 중간 크기의 댐-하우스입니다.\n<color=green>2명의 하울러</color>를 고용합니다.\n<color=#00FFFF>제방처럼 작동합니다</color>"
 csCZ = "Střední přehrada-dům pro dvě rodiny bobrů. \nZaměstnává <color=green>2 Nositele</color>. \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một ngôi nhà đập vừa cho hai gia đình hải ly.\nCó <color=green>2 Người vận chuyển</color>.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.doublewatertightlodge.FlavorDescription"]
 raw = "\"Can we even feed that many people?\"\n -A farmer beaver"
@@ -919,6 +978,7 @@ plPL = "„Czy w ogóle możemy nakarmić tyle osób?” -Bóbr rolnik"
 ptBR = "\"Podemos até alimentar tantas pessoas?\"\n -Um castor fazendeiro"
 koKR = "\"그 많은 사람들을 어떻게 먹일 수 있을까?\"\n -농부 비버"
 csCZ = "\"Dokážeme vůbec nakrmit tolik lidí?\"\n -Farmářský bobr"
+viVN = "\"Chúng ta có thể nuôi được nhiều người đến vậy không?\" -Một hải ly nông dân"
 
 ["Lapantouflemagic.triplewatertightlodge.DisplayName"]
 raw = "Triple Watertight Lodge"
@@ -934,6 +994,7 @@ plPL = "Potrójny wodoodporny domek"
 ptBR = "Cabana Tripla à Prova d'Água"
 koKR = "삼중 방수 로지"
 csCZ = "Trojitá vodotěsná chata"
+viVN = "Nhà nghỉ ba lớp không thấm nước"
 
 ["Lapantouflemagic.triplewatertightlodge.FlavorDescription"]
 raw = "\"Our population is getting out of paw\"\n -The same farmer beaver"
@@ -949,6 +1010,7 @@ plPL = "\"Nasza populacja wymyka się spod kontroli\" - Ten sam farmer bóbr"
 ptBR = "\"Nossa população está saindo do controle\" - O mesmo castor fazendeiro"
 koKR = "우리 인구가 너무 많아지고 있어요\" - \"같은 농부 수달"
 csCZ = "Naše populace se vymyká kontrole\" - \"Tentýž farmářský bobr"
+viVN = "\"Dân số của chúng ta đang vượt khỏi vuốt\"\n -Cùng một hà mã nông dân"
 
 ["Luc.Gnawingtent.DisplayName"]
 raw = "Log Gnawing Station"
@@ -964,6 +1026,7 @@ plPL = "Stacja Gryzienia Kłód"
 ptBR = "Estação de Roedura de Troncos"
 koKR = "통나무 갉기 소환기"
 csCZ = "Stanice na ohlodávání klád"
+viVN = "Trạm Nhai Khúc Gỗ"
 
 ["Luc.Gnawingtent.Description"]
 raw = "A primitive and inefficient tooth-powered sawmill."
@@ -979,6 +1042,7 @@ plPL = "Prymitywna i nieefektywna tartak napędzany zębami."
 ptBR = "Uma serraria primitiva e ineficiente movida a dentes."
 koKR = "원시적이고 비효율적인 이빨 동력 제재소입니다."
 csCZ = "Primitivní a neefektivní pila poháněná zuby."
+viVN = "Một máy cưa được vận hành bằng răng, nguyên thủy và kém hiệu quả."
 
 ["Luc.Gnawingtent.FlavorDescription"]
 raw = "\"We really need to come up with a better solution\"\n -A dentist beaver"
@@ -994,6 +1058,7 @@ plPL = "„Naprawdę musimy wymyślić lepsze rozwiązanie” \n -Dentysta bóbr
 ptBR = "\"Precisamos realmente encontrar uma solução melhor.\" \n -Um castor dentista"
 koKR = "\"우리는 정말 더 나은 해결책을 찾아야 해\"  \n-치과의사 비버"
 csCZ = "\"Skutečně musíme přijít na lepší řešení\" - Zubařský bobr"
+viVN = "\"Chúng ta thực sự cần nghĩ ra một giải pháp tốt hơn\" -Một con hải ly nha sĩ"
 
 ["Luc.primitiveironworks.DisplayName"]
 raw = "Primitive Ironworks"
@@ -1009,6 +1074,7 @@ plPL = "Prymitywne kuźnie żelaza"
 ptBR = "Fundições de Ferro Primitivas"
 koKR = "원시 철강 공장"
 csCZ = "Primitivní železárna"
+viVN = "Xưởng rèn sắt sơ khai"
 
 ["Luc.primitiveironworks.Description"]
 raw = "A barely functional place to shape metal."
@@ -1024,6 +1090,7 @@ plPL = "Ledwo funkcjonalne miejsce do kształtowania metalu."
 ptBR = "Um lugar quase funcional para moldar metal."
 koKR = "금속을 형성하는 거의 기능을 하지 않는 장소."
 csCZ = "Téměř funkční místo k tvarování kovu."
+viVN = "Một nơi chỉ hoạt động ở mức tối thiểu để gia công kim loại."
 
 ["Luc.primitiveironworks.FlavorDescription"]
 raw = "\"Imagine doing that with your teeth!\""
@@ -1039,6 +1106,7 @@ plPL = "\"Wyobraź sobie, że robisz to swoimi zębami!\""
 ptBR = "\"Imagine fazer isso com seus dentes!\""
 koKR = "\"이를 사용해서 그걸 한다고 상상해보세요!\""
 csCZ = "\"Představ si, že to děláš se svými zuby!\""
+viVN = "Hãy tưởng tượng làm điều đó bằng răng của bạn!"
 
 ["Luc.primitivepapermill.DisplayName"]
 raw = "Primitive Papermill"
@@ -1054,6 +1122,7 @@ plPL = "Prymitywna Papiernia"
 ptBR = "Papelaria Primitiva"
 koKR = "원시 제지소"
 csCZ = "Primitivní papírna"
+viVN = "Nhà máy giấy nguyên thủy"
 
 ["Luc.primitivepapermill.Description"]
 raw = "An old way to manufacture paper."
@@ -1069,6 +1138,7 @@ plPL = "Stary sposób produkcji papieru."
 ptBR = "Uma antiga maneira de fabricar papel."
 koKR = "종이를 생산하는 오래된 방법입니다."
 csCZ = "Starý způsob výroby papíru."
+viVN = "Một cách cổ xưa để sản xuất giấy."
 
 ["Luc.primitivepapermill.FlavorDescription"]
 raw = "\"It looks like some sort of soup\"\n -Mathilda the insane cook"
@@ -1084,6 +1154,7 @@ plPL = "\"Wygląda to jak jakiś rodzaj zupy\" - Mathilda, szalona kucharka"
 ptBR = "\"Parece algum tipo de sopa\"  \n- Mathilda, a cozinheira insana"
 koKR = "\"어떤 종류의 수프처럼 보인다\" - 미친 요리사 마틸다"
 csCZ = "\"Vypadá to jako nějaký druh polévky\" - Mathilda, šílená kuchařka"
+viVN = "\"Có vẻ như một loại súp nào đó\" -Mathilda the insane cook"
 
 ["Luc.sawmill.DisplayName"]
 raw = "Rudimentary Sawmill"
@@ -1099,6 +1170,7 @@ plPL = "Podstawowa tartak"
 ptBR = "Serralheria Rudimentar"
 koKR = "원시 제재소"
 csCZ = "Základní pila"
+viVN = "Máy xẻ gỗ sơ khai"
 
 ["Luc.sawmill.Description"]
 raw = "A powered sawmill using crude sawblades, with higher yield but consumes metal sawblades.\n<color=#00FFFF>Works as a Levee</color>"
@@ -1114,6 +1186,7 @@ plPL = "Silnikowa tartak wykorzystująca surowe piły, wyższa wydajność, ale 
 ptBR = "Uma serraria motorizada usando lâminas de serra rústicas, com maior rendimento, mas consome lâminas de metal. <color=#00FFFF>Funciona como uma barra de contenção</color>"
 koKR = "전기톱을 사용하는 동력 톱질기, 더 높은 수확량을 자랑하지만 금속 톱날을 소비합니다.  \n<color=#00FFFF>제방처럼 작동합니다</color>"
 csCZ = "Napájená pila používající hrubé pilové nože, s vyšším výtěžkem, ale spotřebovává metalové pilové nože.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một xưởng cưa được cấp nguồn sử dụng lưỡi cưa thô, cho sản lượng cao hơn nhưng tiêu thụ lưỡi cưa kim loại.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Luc.sawmill.FlavorDescription"]
 raw = "\"This new technology is nice, but let's hope the blade doesn't break and hurt someone\"\n -Mommy beaver"
@@ -1129,6 +1202,7 @@ plPL = "\"Ta nowa technologia jest fajna, ale miejmy nadzieję, że ostrze się 
 ptBR = "\"Essa nova tecnologia é boa, mas vamos torcer para que a lâmina não quebre e machuque alguém.\"  \n- Mamãe castor"
 koKR = "\"이 새로운 기술은 훌륭하지만, 날이 부러져서 누군가가 다치지 않기를 바랍니다.\"  \n-엄마 비버"
 csCZ = "\"Tato nová technologie je pěkná, ale doufejme, že se čepel nezlomí a někoho nezraní.\"  \n- Maminka bobr"
+viVN = "\"Công nghệ mới này thật tuyệt, nhưng hãy hy vọng lưỡi dao sẽ không bị gãy và làm ai đó bị thương\" -Mommy beaver"
 
 ["Lapantouflemagic.largefarmhouse.DisplayName"]
 raw = "Large Farmhouse"
@@ -1144,6 +1218,7 @@ plPL = "Duża wiejska chata"
 ptBR = "Grande Casa de Fazenda"
 koKR = "대형 농가"
 csCZ = "Velký statek"
+viVN = "Nhà trang trại lớn"
 
 ["Lapantouflemagic.largefarmhouse.FlavorDescription"]
 raw = "\"Isn't that a bit... COMMUNIST!?\"\n -Grandpa beaver"
@@ -1174,6 +1249,7 @@ plPL = "Hodowca grzybów"
 ptBR = "Cultivador de Cogumelos"
 koKR = "버섯 재배기"
 csCZ = "Houbový pěstitel"
+viVN = "Người trồng nấm"
 
 ["Lapantouflemagic.Mushroomtent.Description"]
 raw = "A sheltered place to grow mushroom from wood or sawdust.\n<color=#FF6EC7>Can function without workers.</color>"
@@ -1189,6 +1265,7 @@ plPL = "Chronione miejsce do hodowli grzybów z drewna lub trocin.  \n<color=#FF
 ptBR = "Um lugar protegido para cultivar cogumelos a partir de madeira ou serragem. <color=#FF6EC7>Pode funcionar sem trabalhadores.</color>"
 koKR = "나무나 톱밥에서 버섯을 재배할 수 있는 보호받는 장소입니다.\n<color=#FF6EC7>근로자 없이도 작동할 수 있습니다.</color>"
 csCZ = "Úkryt pro pěstování hub ze dřeva nebo pilin.  \n<color=#FF6EC7>Může fungovat bez pracovníků.</color>"
+viVN = "Nơi trú ẩn để trồng nấm từ gỗ hoặc bột gỗ.\n<color=#FF6EC7>Có thể hoạt động mà không cần công nhân.</color>"
 
 ["Lapantouflemagic.Mushroomtent.FlavorDescription"]
 raw = "\"Should I eat this red-and-white one? Seems tasty\"\n -Bobby the fool, last words"
@@ -1204,6 +1281,7 @@ plPL = "Powinienem zjeść tego czerwono-białego? Wydaje się smaczny\" - Bobby
 ptBR = "\"Devo comer este vermelho e branco? Parece saboroso\"  \n-Bobby, o tolo, últimas palavras"
 koKR = "\"이 빨간색과 흰색 버섯을 먹어도 될까? 맛있어 보이네.\"  \n- 바비, 마지막 말"
 csCZ = "\"Měl bych sníst ten červenobílý? Vypadá chutně.\"  \n-Bobby, poslední slova"
+viVN = "Tôi có nên ăn cái màu đỏ-trắng này không? Có vẻ ngon.\"\n -Bobby kẻ ngốc, lời cuối cùng"
 
 ["Lapantouflemagic.Cookingtent.DisplayName"]
 raw = "Cooking Tent"
@@ -1219,6 +1297,7 @@ plPL = "Namiot do gotowania"
 ptBR = "Barraca de Cozinha"
 koKR = "수상한 쉼터"
 csCZ = "Vařicí stan"
+viVN = "Lều nấu ăn"
 
 ["Lapantouflemagic.Cookingtent.Description"]
 raw = "A tiny outdoor kitchen to prepare simple foods.\n<color=#FF6EC7>Can function without workers.</color>"
@@ -1234,6 +1313,7 @@ plPL = "Mała zewnętrzna kuchnia do przygotowywania prostych potraw.  \n<color=
 ptBR = "Uma pequena cozinha ao ar livre para preparar alimentos simples.  \n<color=#FF6EC7>Pode funcionar sem trabalhadores.</color>"
 koKR = "간단한 음식을 준비하기 위한 작은 야외 주방입니다.  \n<color=#FF6EC7>작업자 없이도 작동할 수 있습니다.</color>"
 csCZ = "Malá venkovní kuchyně na přípravu jednoduchých jídel. <color=#FF6EC7>Může fungovat bez pracovníků.</color>"
+viVN = "Một bếp ngoài trời nhỏ để chuẩn bị các món ăn đơn giản.\n<color=#FF6EC7>Có thể hoạt động mà không cần công nhân.</color>"
 
 ["Lapantouflemagic.Cookingtent.FlavorDescription"]
 raw = "\"What can we put inside? Ha! What can't we put inside?\"\n -Mathilda the insane cook"
@@ -1249,6 +1329,7 @@ plPL = "\"Co możemy włożyć do środka? Ha! Czego nie możemy włożyć do ś
 ptBR = "\"O que podemos colocar dentro? Ha! O que não podemos colocar dentro?\"  \n - Mathilda, a cozinheira insana"
 koKR = "\"안에 뭘 넣을 수 있을까? 하하! 뭘 넣지 않을 수 있을까?\"  \n- 미친 요리사 마틸다"
 csCZ = "\"Co můžeme dát dovnitř? Ha! Co nemůžeme dát dovnitř?\"  \n -Mathilda, šílená kuchařka"
+viVN = "\"Chúng ta có thể bỏ gì vào bên trong? Ha! Cái gì chúng ta không thể bỏ vào bên trong?\" -Mathilda đầu bếp điên rồ"
 
 ["Luc.IndustrialKitchen.DisplayName"]
 raw = "Industrial Kitchen"
@@ -1264,6 +1345,7 @@ plPL = "Kuchnia przemysłowa"
 ptBR = "Cozinha Industrial"
 koKR = "산업 주방"
 csCZ = "Průmyslová kuchyně"
+viVN = "Nhà bếp công nghiệp"
 
 ["Luc.IndustrialKitchen.Description"]
 raw = "A large mechanised kitchen to feed an entire colony. \n<color=#00FFFF>Works as a Levee</color>"
@@ -1279,6 +1361,7 @@ plPL = "Duża zmotoryzowana kuchnia, aby wyżywić całą kolonię.  \n<color=#0
 ptBR = "Uma grande cozinha mecanizada para alimentar toda uma colônia.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "전체 식민지를 먹일 수 있는 대형 기계화 주방입니다. <color=#00FFFF>제방처럼 작동합니다.</color>"
 csCZ = "Velká mechanizovaná kuchyň pro krmení celé kolonie. \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn bếp cơ khí quy mô lớn để nuôi toàn bộ một thuộc địa.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Luc.IndustrialKitchen.FlavorDescription"]
 raw = "\"Legend has it that one day a cook disappeared to never be found again\""
@@ -1294,6 +1377,7 @@ plPL = "\"Legendy głoszą, że pewnego dnia kucharz zniknął i nigdy nie zosta
 ptBR = "\"A lenda diz que um dia um cozinheiro desapareceu para nunca mais ser encontrado.\""
 koKR = "전설에 따르면 어느 날 한 요리사가 사라져 다시는 발견되지 않았다고 합니다."
 csCZ = "\"Legenda říká, že jeden den kuchař zmizel a už nikdy nebyl nalezen.\""
+viVN = "Người ta kể rằng một ngày nọ một đầu bếp đã biến mất và từ đó không bao giờ được tìm thấy nữa."
 
 ["Luc.Library.DisplayName"]
 raw = "Library"
@@ -1309,6 +1393,7 @@ plPL = "Biblioteka"
 ptBR = "Biblioteca"
 koKR = "도서관"
 csCZ = "Knihovna"
+viVN = "Thư viện"
 
 ["Luc.Library.FlavorDescription"]
 raw = "\"They look kind of tasty\"\n -Bobby the fool"
@@ -1324,6 +1409,7 @@ plPL = "\"Wyglądają na dość smaczne\"  \n -Bobby głupiec"
 ptBR = "\"Eles parecem meio saborosos\"  \n -Bobby, o tolo"
 koKR = "\"맛있어 보인다\" - 바비 바보"
 csCZ = "\"Vypadají docela chutně\" - Bobby, hlupák"
+viVN = "\"Chúng trông khá ngon\" -Bobby kẻ ngốc"
 
 ["Luc.Architect.DisplayName"]
 raw = "Architect's Lodge"
@@ -1339,6 +1425,7 @@ plPL = "Lodge Architekta"
 ptBR = "Pousada do Arquiteto"
 koKR = "건축가의 목조각식 집"
 csCZ = "Architektova chata"
+viVN = "Nhà Kiến Trúc Sư"
 
 ["Luc.Architect.Description"]
 raw = "A fancy building to help architects show they're better than us. Also used to design structurally sound buildings. \n<color=green>Works as a big staircase</color>\n<color=#00FFFF>Works as a Levee</color>"
@@ -1354,6 +1441,7 @@ plPL = "Elegancki budynek, który pomaga architektom pokazać, że są lepsi od 
 ptBR = "Um edifício elegante para ajudar os arquitetos a mostrar que são melhores do que nós. Também usado para projetar edifícios estruturalmente sólidos. \n<color=green>Funciona como uma grande escada</color>\n<color=#00FFFF>Funciona como uma barragem</color>"
 koKR = "건축가들이 우리가 더 못하다는 것을 보여줄 수 있도록 도와주는 멋진 건물. 구조적으로 안전한 건물을 설계하는 데에도 사용됩니다.\n<color=green>큰 계단으로 작동합니다</color>\n<color=#00FFFF>제방으로도 작동합니다</color>"
 csCZ = "Elegantní budova, která pomáhá architektům ukázat, že jsou lepší než my. Také se používá k navrhování konstrukčně dobře provedených budov. \n<color=green>Funguje jako velké schodiště</color>\n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một tòa nhà sang trọng để giúp các kiến trúc sư cho thấy họ vượt trội so với chúng ta. Cũng được dùng để thiết kế những tòa nhà có kết cấu vững chắc.\n<color=green>Hoạt động như một cầu thang lớn</color>\n<color=#00FFFF>Hoạt động như một đê chắn lũ</color>"
 
 ["Luc.Architect.FlavorDescription"]
 raw = "\"Architects are the worst.\"\n -An anonymous engineer beaver"
@@ -1369,6 +1457,7 @@ plPL = "\"Architekci są najgorsi.\"\n -Anonimowy inżynier bóbr"
 ptBR = "\"Arquitetos são os piores.\"  \n -Um engenheiro castor anônimo"
 koKR = "\"건축가는 최악이다.\"  \n- 익명의 엔지니어 비버"
 csCZ = "\"Architekti jsou nejhorší.\" - Anonymní inženýrský bobr"
+viVN = "\"Kiến trúc sư là kẻ tệ nhất.\" -Một hải ly kỹ sư ẩn danh"
 
 ["Luc.Engineer.DisplayName"]
 raw = "Mechanic's Lodge"
@@ -1384,6 +1473,7 @@ plPL = "Warsztat Mechanika"
 ptBR = "Centro de Mecânicos"
 koKR = "기계공 숙소"
 csCZ = "Mechanikova chata"
+viVN = "Nhà thợ máy"
 
 ["Luc.Engineer.Description"]
 raw = "A fancy building to help engineers show they're smarter than us. Also used to design mechanical buildings that work.\n<color=#00FFFF>Works as a Levee</color>"
@@ -1399,6 +1489,7 @@ plPL = "Luksusowy budynek, który pomaga inżynierom pokazać, że są mądrzejs
 ptBR = "Um edifício chique para ajudar os engenheiros a mostrar que são mais inteligentes do que nós. Também é usado para projetar edifícios mecânicos que funcionam.  \n<cor=#00FFFF>Funciona como uma Barragem</cor>"
 koKR = "엔지니어들이 우리보다 더 똑똑하다는 것을 보여주는 멋진 건물. 기계 건물을 설계하는 데에도 사용됩니다.\n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Podivná budova, která pomáhá inženýrům ukázat, že jsou chytřejší než my. Také se používá k navrhování mechanických budov, které fungují. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một tòa nhà sang trọng để giúp các kỹ sư thể hiện rằng họ thông minh hơn chúng ta.\nCũng được dùng để thiết kế các công trình cơ khí hoạt động.\n<color=#00FFFF>Hoạt động như một đê chắn lũ</color>"
 
 ["Luc.Engineer.FlavorDescription"]
 raw = "\"Engineers are the worst\"\n -An anonymous architect beaver"
@@ -1414,6 +1505,7 @@ plPL = "\"Inżynierowie są najgorsi\" -Anonimowy architekt bóbr"
 ptBR = "\"Os engenheiros são os piores\"  \n -Um castor arquiteto anônimo"
 koKR = "\"엔지니어는 최악이다\"\n - 익명의 건축 비버"
 csCZ = "\"Stavaři jsou nejhorší\"\n - Anonymní architekt bobr"
+viVN = "Kỹ sư là kẻ tệ nhất -một hải ly kiến trúc sư vô danh"
 
 ["Building.PlankTank.DisplayName"]
 raw = "Small Plank Tank"
@@ -1429,6 +1521,7 @@ plPL = "Mały zbiornik na plankton"
 ptBR = "Tanque Pequeno de Prancha"
 koKR = "소형 판넬 탱크"
 csCZ = "Malý zásobník na prkna"
+viVN = "Bể chứa bằng ván gỗ nhỏ"
 
 ["Building.PlankTank.Description"]
 raw = "A slightly better storage tank."
@@ -1444,6 +1537,7 @@ plPL = "Nieco lepszy zbiornik na paliwo."
 ptBR = "Um tanque de armazenamento ligeiramente melhor."
 koKR = "조금 더 나은 저장 탱크입니다."
 csCZ = "Trochu lepší úložná nádrž."
+viVN = "Một bể chứa tốt hơn một chút."
 
 ["Lapantouflemagic.NewLido.Description"]
 raw = "A place to have fun in water.\nIf the pond does not already contain water, a <color=green>fluid dump</color> can be installed"
@@ -1459,6 +1553,7 @@ plPL = "Miejsce do zabawy w wodzie. Jeśli staw nie zawiera już wody, można za
 ptBR = "Um lugar para se divertir na água. Se o lago não contiver água, um <color=green>depósito de fluido</color> pode ser instalado."
 koKR = "물에서 즐길 수 있는 장소입니다.  \n연못에 이미 물이 없다면, <color=green>유체 저장소</color>를 설치할 수 있습니다."
 csCZ = "Místo na zábavu ve vodě. Pokud nádrž již neobsahuje vodu, lze nainstalovat <color=green>výlevku</color>."
+viVN = "Một nơi để vui chơi dưới nước.\nNếu ao chưa chứa nước, một <color=green>điểm xả chất lỏng</color> có thể được lắp đặt"
 
 ["Lapantouflemagic.WaterDump.Description"]
 raw = "Dumps water.\nMust be built inside a <color=green>Lido</color>.\n<color=#FF6EC7>Can function without workers.</color>"
@@ -1474,6 +1569,7 @@ plPL = "Wylewa wodę.  \nMusi być zbudowane wewnątrz <color=green>Lido</color>
 ptBR = "Derrama água.  \nDeve ser construído dentro de um <color=green>Lido</color>.  \n<color=#FF6EC7>Pode funcionar sem trabalhadores.</color>"
 koKR = "물 배출기.\n<color=green>리도</color> 내부에 설치해야 합니다.\n<color=#FF6EC7>작업자 없이도 작동할 수 있습니다.</color>"
 csCZ = "Vypouští vodu.  \nMusí být postaveno uvnitř <color=green>Lída</color>.  \n<color=#FF6EC7>Může fungovat bez pracovníků.</color>"
+viVN = "Xả nước.\nPhải được xây bên trong <color=green>Lido</color>.\n<color=#FF6EC7>Có thể hoạt động mà không cần công nhân.</color>"
 
 ["Lapantouflemagic.GazTank.DisplayName"]
 raw = "Gas Tank"
@@ -1489,6 +1585,7 @@ plPL = "Zbiornik gazu"
 ptBR = "Tanque de gás"
 koKR = "가스 탱크"
 csCZ = "Tank na plyn"
+viVN = "Bình chứa khí"
 
 ["Lapantouflemagic.GazTank.Description"]
 raw = "A pressurized tank to store gaz such as Methane or Hydrogen."
@@ -1504,6 +1601,7 @@ plPL = "Zbiornik ciśnieniowy do przechowywania gazu, takiego jak metan lub wod�
 ptBR = "Um tanque pressurizado para armazenar gás como Metano ou Hidrogênio."
 koKR = "메탄이나 수소와 같은 가스를 저장하기 위한 압력이 있는 탱크입니다."
 csCZ = "Tlaková nádrž na ukládání plynu, jako je methan nebo vodík."
+viVN = "Một bình chứa áp suất để lưu trữ khí như metan hoặc hydro."
 
 ["Lapantouflemagic.GazTank.FlavorDescription"]
 raw = "\"Hehehe, I farted inside\"\n -Grandpa Beaver"
@@ -1519,6 +1617,7 @@ plPL = "\"Hehehe, puściłem bąka w środku\"\n -Dziadek Bóbr"
 ptBR = "\"Hehehe, eu peidei dentro\"  \n -Vovô Castor"
 koKR = "\"헤헤헤, 내가 안에서 방귀 뀌었어\"\n - 할아버지 비버"
 csCZ = "Hehehe, prdl jsem si dovnitř\" - \"Dědeček Bobr"
+viVN = "\"Hehehe, tôi đã đánh rắm bên trong\"\n -Grandpa Beaver"
 
 ["Building.GiantBuriedTank.FlavorDescription"]
 raw = "\"I always dreamt of swimming in soup!\"\n -Mathilda the insane cook"
@@ -1534,6 +1633,7 @@ plPL = "\"Zawsze marzyłam o pływaniu w zupie!\" - Mathilda, szalona kucharka"
 ptBR = "\"Eu sempre sonhei em nadar em sopa!\"  \n -Mathilda, a cozinheira insana"
 koKR = "\"나는 항상 수프에서 수영하는 꿈을 꿨습니다!\"  \n- 미친 요리사 마틸다"
 csCZ = "\"Vždy jsem snila o plavání v polévce!\"  \n -Mathilda, šílená kuchařka"
+viVN = "\"Tôi luôn mơ ước được bơi trong súp!\"\n -Mathilda đầu bếp điên."
 
 ["Lapantouflemagic.Injury.DeathMessage"]
 raw = "<color=green>got eaten up by heavy machinery and died</color>"
@@ -1549,6 +1649,7 @@ plPL = "<color=green>został pożarty przez ciężki sprzęt i zmarł</color>"
 ptBR = "<color=green>foi engolido por máquinas pesadas e morreu</color>"
 koKR = "<color=green>중장비에 의해 먹히고 사망했습니다</color>"
 csCZ = "<color=green>byl sežrán těžkými stroji a zemřel</color>"
+viVN = "<color=green>bị máy móc hạng nặng nuốt chửng và chết</color>"
 
 ["Need.Misery.DisplayName"]
 raw = "Inedible Food"
@@ -1564,6 +1665,7 @@ plPL = "Niejadalna żywność"
 ptBR = "Comida Incondizível"
 koKR = "먹을 수 없는 음식"
 csCZ = "Nejedlé jídlo"
+viVN = "Thức ăn không ăn được"
 
 ["Need.Misery.CriticalDescriptionShort"]
 raw = "Awful stew!"
@@ -1579,6 +1681,7 @@ plPL = "Straszny gulasz!"
 ptBR = "Sopa horrível!"
 koKR = "끔찍한 스튜!"
 csCZ = "Šílený guláš!"
+viVN = "Món hầm kinh khủng!"
 
 ["Need.Misery.CriticalDescription"]
 raw = "This beaver feels sick."
@@ -1594,6 +1697,7 @@ plPL = "Ten bóbr czuje się chory."
 ptBR = "Este castor está se sentindo doente."
 koKR = "이 비버는 아프다."
 csCZ = "Tento bobr se cítí nemocný."
+viVN = "Con hải ly này có vẻ ốm."
 
 ["Need.Misery.DeathMessage"]
 raw = "<color=green>ate too much of something barely edible and died</color>"
@@ -1609,6 +1713,7 @@ plPL = "<color=green>zjadł za dużo czegoś ledwo zjadliwego i umarł</color>"
 ptBR = "<color=green>comeu demais de algo malmente comestível e morreu</color>"
 koKR = "<color=green>먹을 수 있는 것처럼 보이지만 barely edible가 너무 많이 먹어서 죽었습니다</color>"
 csCZ = "<color=green>snědl příliš mnoho něčeho, co bylo sotva jedlé, a zemřel</color>"
+viVN = "<color=green>ăn quá nhiều một thứ gì đó vừa ăn được và đã chết</color>"
 
 ["Need.Stew.DisplayName"]
 raw = "Stew"
@@ -1624,6 +1729,7 @@ plPL = "Gulasz"
 ptBR = "Ensopado"
 koKR = "스튜"
 csCZ = "Dušené jídlo"
+viVN = "Món hầm"
 
 ["Need.Disgustingfood.DisplayName"]
 raw = "Yuck!"
@@ -1639,6 +1745,7 @@ plPL = "Fuj!"
 ptBR = "Eca!"
 koKR = "으악!"
 csCZ = "„Fuj!“"
+viVN = "Ghê quá!"
 
 ["Need.Disgustingfood.CriticalDescription"]
 raw = "This beaver feels sick."
@@ -1654,6 +1761,7 @@ plPL = "Ten bóbr czuje się chory."
 ptBR = "Este castor está se sentindo mal."
 koKR = "이 비버는 아프다."
 csCZ = "Tato bobřík se cítí nemocný."
+viVN = "Con hải ly này cảm thấy ốm."
 
 ["Need.Disgustingfood.CriticalDescriptionShort"]
 raw = "Mushroom juice!"
@@ -1669,6 +1777,7 @@ plPL = "Sok grzybowy!"
 ptBR = "Suco de cogumelo!"
 koKR = "버섯 주스!"
 csCZ = "Houbový džus!"
+viVN = "Nước ép nấm!"
 
 ["Need.Disgustingfood.DeathMessage"]
 raw = "<color=green>drank too much mushroom water and died of explosive diarrhea</color>"
@@ -1684,6 +1793,7 @@ plPL = "<color=green>wypił za dużo wody grzybowej i zmarł na wymioty eksplodu
 ptBR = "<color=green>bebeu água de cogumelo demais e morreu de diarreia explosiva</color>"
 koKR = "<color=green>버섯 물을 너무 많이 마시고 폭발적인 설사로 죽었다</color>"
 csCZ = "<color=green>nadešel moc z houbové vody a zemřel na explozivní průjem</color>"
+viVN = "<color=green>uống quá nhiều nước nấm và chết vì tiêu chảy dữ dội</color>"
 
 ["Need.Amazingfood.DisplayName"]
 raw = "Amazing Food"
@@ -1699,6 +1809,7 @@ plPL = "Znakomita jedzenie"
 ptBR = "Comida Incrível"
 koKR = "놀라운 음식"
 csCZ = "Úžasné jídlo"
+viVN = "Món ăn tuyệt vời"
 
 ["Need.Mushrooms.DisplayName"]
 raw = "Mushrooms"
@@ -1714,6 +1825,7 @@ plPL = "Grzyby"
 ptBR = "Cogumelos"
 koKR = "버섯"
 csCZ = "Houby"
+viVN = "Nấm"
 
 ["Need.Minedeath.DisplayName"]
 raw = "Minedeath"
@@ -1729,6 +1841,7 @@ plPL = "Minedeath"
 ptBR = "Morte Minerada"
 koKR = "채광사"
 csCZ = "Mrtvý z dolu"
+viVN = "Tử vong khi khai thác"
 
 ["Need.Minedeath.DeathMessage"]
 raw = "<color=green>ventured into a dark tunnel and was eaten by a Grue</color>"
@@ -1744,6 +1857,7 @@ plPL = "<color=green>wejście do ciemnego tunelu i zostało zjedzone przez Grue<
 ptBR = "<color=green>aventurou-se em um túnel escuro e foi devorado por um Grue</color>"
 koKR = "<color=green>어두운 터널로 들어갔다가 그루에게 잡아먹혔다</color>"
 csCZ = "<color=green>vydal se do temného tunelu a byl sněden Grue</color>"
+viVN = "<color=green>đã dấn thân vào một đường hầm tối và bị một Grue ăn thịt</color>"
 
 ["Need.Juice.DisplayName"]
 raw = "Juice"
@@ -1759,6 +1873,7 @@ plPL = "Sok"
 ptBR = "Suco"
 koKR = "주스"
 csCZ = "Šťáva"
+viVN = "Nước ép"
 
 ["Need.Coconut.DisplayName"]
 raw = "Coconut"
@@ -1774,6 +1889,7 @@ plPL = "Kokosowy"
 ptBR = "Coco"
 koKR = "코코넛"
 csCZ = "Kokos"
+viVN = "Dừa"
 
 ["Need.Ananas.DisplayName"]
 raw = "Ananas"
@@ -1789,6 +1905,7 @@ plPL = "Ananas"
 ptBR = "Abacaxi"
 koKR = "파인애플"
 csCZ = "Ananas"
+viVN = "Dứa"
 
 ["Good.WaterWheelBlueprint.DisplayName"]
 raw = "Large Water Wheel Blueprint"
@@ -1804,6 +1921,7 @@ plPL = "Duży projekt koła wodnego"
 ptBR = "Blueprint da Grande Roda d'água"
 koKR = "대형 물레방아 설계도"
 csCZ = "Návrh na velké vodní kolo"
+viVN = "Bản thiết kế bánh xe nước lớn"
 
 ["Good.WaterWheelBlueprint.PluralDisplayName"]
 raw = "Large Water Wheel Blueprints"
@@ -1819,6 +1937,7 @@ plPL = "Plany dużego koła wodnego"
 ptBR = "Planos de Roda d'Água Grande"
 koKR = "대형 물레방아 청사진"
 csCZ = "Návrhy velkého vodního kola"
+viVN = "Bản thiết kế bánh xe nước lớn"
 
 ["Good.WaterWheelFancyBlueprint.DisplayName"]
 raw = "Large Water Wheel Fancy Blueprint"
@@ -1834,6 +1953,7 @@ plPL = "Wielka Fantazyjna Plansza Koła Wodnego"
 ptBR = "Grande Roda d'Água Planta Detalhada"
 koKR = "대형 수차 화려한 청사진"
 csCZ = "Velký vodní mlýn - ozdobný plán"
+viVN = "Bản thiết kế sang trọng cho bánh xe nước lớn"
 
 ["Good.WaterWheelFancyBlueprint.PluralDisplayName"]
 raw = "Large Water Wheel Fancy Blueprints"
@@ -1849,6 +1969,7 @@ plPL = "Duże koło wodne - eleganckie plany"
 ptBR = "Grandes Projetos de Roda d'Água Elegantes"
 koKR = "대형 수차 화려한 청사진"
 csCZ = "Velké plány na ozdobné vodní kola"
+viVN = "Các bản thiết kế bánh xe nước lớn sang trọng"
 
 ["Good.LargeFarmhouseBlueprint.DisplayName"]
 raw = "Large Farmhouse Blueprint"
@@ -1864,6 +1985,7 @@ plPL = "Duży plan domu wiejskiego"
 ptBR = "Planta de Grande Casa de Fazenda"
 koKR = "대형 농가 청사진"
 csCZ = "Plán velké farmy"
+viVN = "Bản thiết kế Nhà trang trại lớn"
 
 ["Good.LargeFarmhouseBlueprint.PluralDisplayName"]
 raw = "Large Farmhouse Blueprints"
@@ -1879,6 +2001,7 @@ plPL = "Plany dużego gospodarstwa rolnego"
 ptBR = "Plantais de Grande Casa de Fazenda"
 koKR = "대 농장 집 설계도"
 csCZ = "Velké plány farmy"
+viVN = "Bản thiết kế Nhà trang trại lớn"
 
 ["Good.LargeFarmhouseFancyBlueprint.DisplayName"]
 raw = "Large Farmhouse Fancy Blueprint"
@@ -1894,6 +2017,7 @@ plPL = "Duży elegancki plan wiejskiego domu"
 ptBR = "Planta de Casa de Fazenda Grande Elegante"
 koKR = "대형 농가 화려한 청사진"
 csCZ = "Velká venkovská krásnástavba"
+viVN = "Bản thiết kế tinh xảo cho nhà trang trại lớn"
 
 ["Good.LargeFarmhouseFancyBlueprint.PluralDisplayName"]
 raw = "Large Farmhouse Fancy Blueprints"
@@ -1909,6 +2033,7 @@ plPL = "Duże wiejskie domy – ekskluzywne plany budowlane"
 ptBR = "Projetos Elegantes de Grande Casa de Campo"
 koKR = "큰 농가 화려한 청사진"
 csCZ = "Velké stylové plány farmářského domu"
+viVN = "Bản thiết kế Nhà trang trại sang trọng lớn"
 
 ["Good.GiantBuriedTankBlueprint.DisplayName"]
 raw = "Giant Buried Tank Blueprint"
@@ -1924,6 +2049,7 @@ plPL = "Plan Gigantycznego Zatopionego Zbiornika"
 ptBR = "Blueprint de Tanque Gigante Enterrado"
 koKR = "거대 매립 탱크 청사진"
 csCZ = "Plán obrovské pohřbené nádrže"
+viVN = "Bản thiết kế Xe tăng chôn vùi khổng lồ"
 
 ["Good.GiantBuriedTankBlueprint.PluralDisplayName"]
 raw = "Giant Buried Tank Blueprints"
@@ -1939,6 +2065,7 @@ plPL = "Gigantyczne Plany Zbiornika Zakopanego"
 ptBR = "Projetos do Tanque Gigante Enterrado"
 koKR = "거대한 매립 탱크 설계도"
 csCZ = "Plány na obří zakopané tanky"
+viVN = "Bản thiết kế Xe tăng chôn vùi khổng lồ"
 
 ["Good.GiantBuriedTankFancyBlueprint.DisplayName"]
 raw = "Giant Buried Tank Fancy Blueprint"
@@ -1954,6 +2081,7 @@ plPL = "Wspaniały projekt gigantycznego zakopanego zbiornika"
 ptBR = "Planta Fancy do Tanque Gigante Enterrado"
 koKR = "거대 매립 탱크 화려한 청사진"
 csCZ = "Jednoduchý plánek pro velký pohřební tank"
+viVN = "Bản thiết kế sang trọng của Xe tăng chôn khổng lồ"
 
 ["Good.GiantBuriedTankFancyBlueprint.PluralDisplayName"]
 raw = "Giant Buried Tank Fancy Blueprints"
@@ -1969,6 +2097,7 @@ plPL = "Gigantyczny zakopany zbiornik - fantazyjne plany"
 ptBR = "Planos Elegantes do Tanque Gigante Enterrado Azul"
 koKR = "거대한 매립 탱크 화려한 설계도"
 csCZ = "Luxusní plány na obří zakopanou nádrž"
+viVN = "Bản thiết kế tinh xảo cho xe tăng chôn khổng lồ"
 
 ["Reciepe.LargeFarmhouseBlueprintCopy.DisplayName"]
 raw = "Large Farmhouse"
@@ -1984,6 +2113,7 @@ plPL = "Duży dom wiejski"
 ptBR = "Grande Fazenda"
 koKR = "대형 농가"
 csCZ = "Velký statek"
+viVN = "Nhà trang trại lớn"
 
 ["Reciepe.WaterWheelBlueprintCopy.DisplayName"]
 raw = "Large Water Wheel"
@@ -1999,6 +2129,7 @@ plPL = "Duża koło wodne"
 ptBR = "Grande Roda d'Água"
 koKR = "대형 물레방아"
 csCZ = "Velký vodní mlýn"
+viVN = "Bánh xe nước lớn"
 
 ["Reciepe.GiantBuriedTankBlueprintCopy.DisplayName"]
 raw = "Giant Buried Tank"
@@ -2014,6 +2145,7 @@ plPL = "Gigantyczny zakopany zbiornik"
 ptBR = "Tanque Enterrado Gigante"
 koKR = "거대한 매립 탱크"
 csCZ = "Obří zakopaná nádrž"
+viVN = "Xe tăng chôn vùi khổng lồ"
 
 ["Reciepe.Charcoal.DisplayName"]
 raw = "Charcoal"
@@ -2029,6 +2161,7 @@ plPL = "Węgiel drzewny"
 ptBR = "Carvão vegetal"
 koKR = "숯"
 csCZ = "Uhlí"
+viVN = "Than củi"
 
 ["Reciepe.Chestnutflour.DisplayName"]
 raw = "Chestnut Flour"
@@ -2044,6 +2177,7 @@ plPL = "Mąka kasztanowa"
 ptBR = "Farinha de Castanha"
 koKR = "밤가루"
 csCZ = "Kaštanová Mouka"
+viVN = "Bột hạt dẻ"
 
 ["Reciepe.HomebrewAlcohol.DisplayName"]
 raw = "Alcohol Distillation"
@@ -2059,6 +2193,7 @@ plPL = "Destylacja alkoholu"
 ptBR = "Destilação de Álcool"
 koKR = "알콜 증류"
 csCZ = "Destilace alkoholu"
+viVN = "Chưng cất rượu"
 
 ["Reciepe.FoodDelivery.DisplayName"]
 raw = "Food Supplies"
@@ -2074,6 +2209,7 @@ plPL = "Zaopatrzenie w żywność"
 ptBR = "Suprimentos Alimentares"
 koKR = "식량 보급품"
 csCZ = "Potravinové zásoby"
+viVN = "Nguồn lương thực"
 
 ["Good.BadCogs.PluralDisplayName"]
 raw = "Pawmade Gears"
@@ -2089,6 +2225,7 @@ plPL = "Zębatki Pawmade"
 ptBR = "Engrenagens Pawmade"
 koKR = "파우메이드 기어"
 csCZ = "Zuby vyrobené tlapkami"
+viVN = "Bánh răng làm bằng móng vuốt"
 
 ["Good.BadPlank.DisplayName"]
 raw = "Toothcut Plank"
@@ -2104,6 +2241,7 @@ plPL = "Bocznica z zębami"
 ptBR = "Prancha de Dente Cortado"
 koKR = "이빨 자른 판"
 csCZ = "Zubový trám"
+viVN = "Ván Toothcut"
 
 ["Good.BadPlank.PluralDisplayName"]
 raw = "Toothcut Planks"
@@ -2119,6 +2257,7 @@ plPL = "Deski z ząbkowaniem"
 ptBR = "Placas de Dente Cortado"
 koKR = "이빨깎기 판자"
 csCZ = "Zubové desky"
+viVN = "Ván gỗ Toothcut"
 
 ["Good.Sawdust.PluralDisplayName"]
 raw = "Sawdust"
@@ -2134,6 +2273,7 @@ plPL = "Wióry drzewne"
 ptBR = "serragem"
 koKR = "톱밥"
 csCZ = "Dřevoobráběcí piliny"
+viVN = "Mạt gỗ"
 
 ["Good.Sawdust.DisplayName"]
 raw = "Sawdust"
@@ -2149,6 +2289,7 @@ plPL = "Trocinami"
 ptBR = "Serra-pó"
 koKR = "톱밥"
 csCZ = "Sázenie"
+viVN = "Mạt gỗ"
 
 ["Good.Mushrooms.DisplayName"]
 raw = "Mushroom"
@@ -2164,6 +2305,7 @@ plPL = "Grzyb"
 ptBR = "Cogumelo"
 koKR = "버섯"
 csCZ = "Houba"
+viVN = "Nấm"
 
 ["Good.Mushrooms.PluralDisplayName"]
 raw = "Mushrooms"
@@ -2179,6 +2321,7 @@ plPL = "Grzyby"
 ptBR = "Cogumelos"
 koKR = "버섯들"
 csCZ = "Houby"
+viVN = "Nấm"
 
 ["Good.Awfulstew.DisplayName"]
 raw = "Awful Stew"
@@ -2194,6 +2337,7 @@ plPL = "Okropna zupa"
 ptBR = "Ensopado Horrível"
 koKR = "끔찍한 스튜"
 csCZ = "Hrozný guláš"
+viVN = "Món hầm kinh khủng"
 
 ["Good.Awfulstew.PluralDisplayName"]
 raw = "Awful Stew"
@@ -2209,6 +2353,7 @@ plPL = "Okropna zupa"
 ptBR = "Sopa Horrível"
 koKR = "끔찍한 스튜"
 csCZ = "Hrozný guláš"
+viVN = "Món hầm kinh khủng"
 
 ["Good.Stew.DisplayName"]
 raw = "Stew"
@@ -2224,6 +2369,7 @@ plPL = "Gulasz"
 ptBR = "Ensopado"
 koKR = "스튜"
 csCZ = "Dušené"
+viVN = "Món hầm"
 
 ["Good.Deluxestew.DisplayName"]
 raw = "Deluxe Stew"
@@ -2239,6 +2385,7 @@ plPL = "Ekstrazupa"
 ptBR = "Ensopado Deluxe"
 koKR = "디럭스 스튜"
 csCZ = "Delikatesní polévka"
+viVN = "Món hầm cao cấp"
 
 ["Good.Deluxestew.PluralDisplayName"]
 raw = "Deluxe Stew"
@@ -2254,6 +2401,7 @@ plPL = "Wykwintny gulasz"
 ptBR = "Ensopado Deluxe"
 koKR = "디럭스 스튜"
 csCZ = "Delikátní dušené jídlo"
+viVN = "Món hầm cao cấp"
 
 ["Good.Sunfloweroil.DisplayName"]
 raw = "Sunflower Oil"
@@ -2269,6 +2417,7 @@ plPL = "Olej słonecznikowy"
 ptBR = "Óleo de Girassol"
 koKR = "해바라기 기름"
 csCZ = "Slunečnicový olej"
+viVN = "Dầu hạt hướng dương"
 
 ["Good.Sunfloweroil.PluralDisplayName"]
 raw = "Sunflower Oil"
@@ -2284,6 +2433,7 @@ plPL = "Olej słonecznikowy"
 ptBR = "Óleo de Girassol"
 koKR = "해바라기 기름"
 csCZ = "Slunečnicový olej"
+viVN = "Dầu hoa hướng dương"
 
 ["Good.Nitroglycerin.DisplayName"]
 raw = "Nitroglycerin"
@@ -2299,6 +2449,7 @@ plPL = "Nitrogliceryna"
 ptBR = "Nitroglicerina"
 koKR = "니트로글리세린"
 csCZ = "Nitroglycerin"
+viVN = "Nitroglycerin"
 
 ["Good.Nitroglycerin.PluralDisplayName"]
 raw = "Nitroglycerin"
@@ -2314,6 +2465,7 @@ plPL = "Nitrogliceryna"
 ptBR = "Nitroglicerina"
 koKR = "니트로글리세린"
 csCZ = "Nitroglycerin"
+viVN = "Nitroglycerin"
 
 ["Good.Tar.DisplayName"]
 raw = "Tar"
@@ -2329,6 +2481,7 @@ plPL = "Tar"
 ptBR = "Tar"
 koKR = "타르"
 csCZ = "Dehet"
+viVN = "Hắc ín"
 
 ["Good.Tar.PluralDisplayName"]
 raw = "Tar"
@@ -2344,6 +2497,7 @@ plPL = "Tar"
 ptBR = "Piche"
 koKR = "타르"
 csCZ = "Dehet"
+viVN = "Nhựa đường"
 
 ["Good.Ironore.DisplayName"]
 raw = "Iron Ore"
@@ -2359,6 +2513,7 @@ plPL = "Ruda żelaza"
 ptBR = "Minério de Ferro"
 koKR = "철 광석"
 csCZ = "Železná ruda"
+viVN = "Quặng Sắt"
 
 ["Good.Ironore.PluralDisplayName"]
 raw = "Iron Ore"
@@ -2374,6 +2529,7 @@ plPL = "Ruda żelaza"
 ptBR = "Minério de Ferro"
 koKR = "철광석"
 csCZ = "Iron Ore"
+viVN = "Quặng sắt"
 
 ["Good.Saltpeter.DisplayName"]
 raw = "Saltpeter"
@@ -2389,6 +2545,7 @@ plPL = "Saletra"
 ptBR = "Salitre"
 koKR = "질산칼륨"
 csCZ = "Sůl kamenná"
+viVN = "Nitrat Kali"
 
 ["Good.Saltpeter.PluralDisplayName"]
 raw = "Saltpeter"
@@ -2404,6 +2561,7 @@ plPL = "Sól potasowa"
 ptBR = "Salitre"
 koKR = "소금"
 csCZ = "Chlorečnan draselný"
+viVN = "Nitrat kali"
 
 ["Good.coal.DisplayName"]
 raw = "Coal"
@@ -2419,6 +2577,7 @@ plPL = "Węgiel"
 ptBR = "Carvão"
 koKR = "석탄"
 csCZ = "Koks"
+viVN = "Than"
 
 ["Good.coal.PluralDisplayName"]
 raw = "Coal"
@@ -2434,6 +2593,7 @@ plPL = "Węgiel"
 ptBR = "Carvão"
 koKR = "석탄"
 csCZ = "Uhlí"
+viVN = "Than đá"
 
 ["Good.Fossil.DisplayName"]
 raw = "Fossil"
@@ -2449,6 +2609,7 @@ plPL = "Skamielina"
 ptBR = "Fóssil"
 koKR = "화석"
 csCZ = "Fosilie"
+viVN = "Hóa thạch"
 
 ["Good.Fossil.PluralDisplayName"]
 raw = "Fossils"
@@ -2464,6 +2625,7 @@ plPL = "Skamieniałości"
 ptBR = "Fósseis"
 koKR = "화석들"
 csCZ = "Fosilie"
+viVN = "Hóa thạch"
 
 ["Good.Crudesawblade.DisplayName"]
 raw = "Crude Sawblade"
@@ -2479,6 +2641,7 @@ plPL = "Surowa tarcza piły"
 ptBR = "Serra de Roda Bruta"
 koKR = "원시 톱날"
 csCZ = "Hrubá pilová čepel"
+viVN = "Lưỡi cưa thô"
 
 ["Good.Crudesawblade.PluralDisplayName"]
 raw = "Crude Sawblades"
@@ -2494,6 +2657,7 @@ plPL = "Surowe piły tarczowe"
 ptBR = "Lâminas de serra brutas"
 koKR = "원형톱날"
 csCZ = "Hrubé pilové čepele"
+viVN = "Lưỡi cưa thô"
 
 ["Good.Steelsawblade.DisplayName"]
 raw = "Steel Sawblade"
@@ -2509,6 +2673,7 @@ plPL = "Piła stalowa"
 ptBR = "Lâmina de serra de aço"
 koKR = "강철 톱날"
 csCZ = "Ocelová pila"
+viVN = "Lưỡi cưa thép"
 
 ["Good.Steelsawblade.PluralDisplayName"]
 raw = "Steel Sawblades"
@@ -2524,6 +2689,7 @@ plPL = "Piły stalowe"
 ptBR = "Lâminas de Serra de Aço"
 koKR = "강철 톱날"
 csCZ = "Ocelové pily"
+viVN = "Lưỡi cưa thép"
 
 ["Good.Anvil.DisplayName"]
 raw = "Anvil"
@@ -2539,6 +2705,7 @@ plPL = "kowadło"
 ptBR = "Bigorna"
 koKR = "망치"
 csCZ = "Kovadlina"
+viVN = "Đe rèn"
 
 ["Good.Anvil.PluralDisplayName"]
 raw = "Anvils"
@@ -2554,6 +2721,7 @@ plPL = " kowadła"
 ptBR = "Bigornas"
 koKR = "모루들"
 csCZ = "Výhně"
+viVN = "Đe rèn"
 
 ["Good.Qualityaxle.DisplayName"]
 raw = "Quality Axle"
@@ -2569,6 +2737,7 @@ plPL = "Oś wysokiej jakości"
 ptBR = "Eixo de Qualidade"
 koKR = "품질 축"
 csCZ = "Vysokokvalitní náprava"
+viVN = "Trục chất lượng"
 
 ["Good.Qualityaxle.PluralDisplayName"]
 raw = "Quality Axles"
@@ -2584,6 +2753,7 @@ plPL = "Ośki wysokiej jakości"
 ptBR = "Eixos de Qualidade"
 koKR = "품질 액슬"
 csCZ = "Kvalitní nápravy"
+viVN = "Các trục chất lượng"
 
 ["Good.Wellbalancedwheel.DisplayName"]
 raw = "Well-balanced Wheel"
@@ -2599,6 +2769,7 @@ plPL = "Dobrze wyważone koło"
 ptBR = "Roda bem equilibrada"
 koKR = "균형 잡힌 바퀴"
 csCZ = "Vyvážené kolo"
+viVN = "Bánh xe cân bằng"
 
 ["Good.Wellbalancedwheel.PluralDisplayName"]
 raw = "Well-balanced Wheels"
@@ -2614,6 +2785,7 @@ plPL = "Dobrze wyważone koła"
 ptBR = "Rodas bem equilibradas"
 koKR = "균형 잡힌 바퀴"
 csCZ = "Vyvážená kola"
+viVN = "Bánh xe cân đối"
 
 ["Good.Screwaxle.DisplayName"]
 raw = "Screwpress Axle"
@@ -2629,6 +2801,7 @@ plPL = "Wałek śrubowy"
 ptBR = "Eixo de prensa de rosca"
 koKR = "스크류프레스 축"
 csCZ = "Skrutkový hřídel"
+viVN = "Trục Ép Vít"
 
 ["Good.Screwaxle.PluralDisplayName"]
 raw = "Screwpress Axles"
@@ -2644,6 +2817,7 @@ plPL = "Wały śrubowe"
 ptBR = "Eixos de prensa de parafuso"
 koKR = "스크류프레스 축들"
 csCZ = "Screwpressové osy"
+viVN = "Các trục ép vít"
 
 ["Good.Metalfixation.DisplayName"]
 raw = "Metal Fastener"
@@ -2659,6 +2833,7 @@ plPL = "Złącze metalowe"
 ptBR = "Fecho Metálico"
 koKR = "금속 패스너"
 csCZ = "Metalový upevňovač"
+viVN = "Phụ kiện kim loại"
 
 ["Good.Metalfixation.PluralDisplayName"]
 raw = "Metal Fasteners"
@@ -2674,6 +2849,7 @@ plPL = "Zaciski metalowe"
 ptBR = "Fixadores de Metal"
 koKR = "금속 고정구"
 csCZ = "Metalové upevňovače"
+viVN = "Phụ kiện kim loại"
 
 ["Good.Educativebooks.DisplayName"]
 raw = "Incredibly Compact Library Set"
@@ -2689,6 +2865,7 @@ plPL = "Niesamowicie kompaktowy zestaw bibliotek"
 ptBR = "Conjunto de Biblioteca Incrivelmente Compacto"
 koKR = "엄청나게 컴팩트한 도서관 세트"
 csCZ = "Neskutečně kompaktní knihovna"
+viVN = "Bộ thư viện cực kỳ nhỏ gọn"
 
 ["Good.Educativebooks.PluralDisplayName"]
 raw = "Incredibly Compact Library Sets"
@@ -2704,6 +2881,7 @@ plPL = "Niesamowicie kompaktowe zestawy biblioteczne"
 ptBR = "Conjuntos de Biblioteca Incrivelmente Compactos"
 koKR = "엄청나게 콤팩트한 도서관 세트"
 csCZ = "Neskutečně kompaktní knihovní sady"
+viVN = "Các bộ thư viện siêu gọn"
 
 ["Good.Smallcauldron.DisplayName"]
 raw = "Small Cauldron"
@@ -2719,6 +2897,7 @@ plPL = "Mały kociołek"
 ptBR = "Pequeno Caldeirão"
 koKR = "작은 가마솥"
 csCZ = "Malý kotlík"
+viVN = "Nồi đồng nhỏ"
 
 ["Good.Smallcauldron.PluralDisplayName"]
 raw = "Small Cauldrons"
@@ -2734,6 +2913,7 @@ plPL = "Małe kotły"
 ptBR = "Pequenos Caldeirões"
 koKR = "소형 가마솥들"
 csCZ = "Malé kotlíky"
+viVN = "Nồi nhỏ"
 
 ["Good.Largecauldron.DisplayName"]
 raw = "Large Cauldron"
@@ -2749,6 +2929,7 @@ plPL = "Duży kocioł"
 ptBR = "Grande Caldeirão"
 koKR = "큰 가마솥"
 csCZ = "Velká kotelna"
+viVN = "Nồi đồng lớn"
 
 ["Good.Largecauldron.PluralDisplayName"]
 raw = "Large Cauldrons"
@@ -2764,6 +2945,7 @@ plPL = "Duże kociołki"
 ptBR = "Grandes Caldeirões"
 koKR = "대형 가마솥"
 csCZ = "Velké kotle"
+viVN = "Nồi lớn"
 
 ["Good.Pencils.DisplayName"]
 raw = "Pencil Set"
@@ -2779,6 +2961,7 @@ plPL = "Zestaw ołówków"
 ptBR = "Conjunto de Lápis"
 koKR = "연필 세트"
 csCZ = "Sada tužek"
+viVN = "Bộ bút chì"
 
 ["Good.Pencils.PluralDisplayName"]
 raw = "Pencil Sets"
@@ -2794,6 +2977,7 @@ plPL = "Zestawy ołówków"
 ptBR = "Conjuntos de Lápis"
 koKR = "연필 세트"
 csCZ = "Soupravy tužek"
+viVN = "Bộ bút chì"
 
 ["Good.Carrotjuice.DisplayName"]
 raw = "Carrot Juice"
@@ -2809,6 +2993,7 @@ plPL = "Sok marchewkowy"
 ptBR = "Suco de Cenoura"
 koKR = "당근 주스"
 csCZ = "Mrkvová šťáva"
+viVN = "Nước ép cà rốt"
 
 ["Good.Carrotjuice.PluralDisplayName"]
 raw = "Carrot Juice"
@@ -2824,6 +3009,7 @@ plPL = "Sok marchewkowy"
 ptBR = "Suco de Cenoura"
 koKR = "당근 주스"
 csCZ = "Mrkvová šťáva"
+viVN = "Nước ép cà rốt"
 
 ["Good.Berryjuice.DisplayName"]
 raw = "Berry Juice"
@@ -2839,6 +3025,7 @@ plPL = "Sok owocowy"
 ptBR = "Suco de Berry"
 koKR = "베리 주스"
 csCZ = "Bobulový džus"
+viVN = "Nước ép quả mọng"
 
 ["Good.Berryjuice.PluralDisplayName"]
 raw = "Berry Juice"
@@ -2854,6 +3041,7 @@ plPL = "Sok jagodowy"
 ptBR = "Suco de Berry"
 koKR = "베리 주스"
 csCZ = "Bobulová šťáva"
+viVN = "Nước ép quả mọng"
 
 ["Good.Shroomjuice.DisplayName"]
 raw = "Mushroom Juice"
@@ -2869,6 +3057,7 @@ plPL = "Sok Grzybowy"
 ptBR = "Suco de Cogumelo"
 koKR = "버섯 주스"
 csCZ = "Houbová šťáva"
+viVN = "Nước ép nấm"
 
 ["Good.Shroomjuice.PluralDisplayName"]
 raw = "Mushroom Juice"
@@ -2884,6 +3073,7 @@ plPL = "Sok grzybowy"
 ptBR = "Suco de Cogumelo"
 koKR = "버섯 주스"
 csCZ = "Houbová Šťáva"
+viVN = "Nước ép nấm"
 
 ["Good.Anvilmold.DisplayName"]
 raw = "Anvil Mold"
@@ -2899,6 +3089,7 @@ plPL = "Forma kowalska"
 ptBR = "Matriz de Bigorna"
 koKR = "모루 틀"
 csCZ = "Formička na kovadlinu"
+viVN = "Khuôn Đe"
 
 ["Good.Anvilmold.PluralDisplayName"]
 raw = "Anvil Molds"
@@ -2914,6 +3105,7 @@ plPL = "Formy kowalskie"
 ptBR = "Moldes de Bigorna"
 koKR = "모루 틀"
 csCZ = "Formy na kovadle"
+viVN = "Khuôn đe"
 
 ["Good.Scauldronmold.DisplayName"]
 raw = "Small Cauldron Mold"
@@ -2929,6 +3121,7 @@ plPL = "Mały wkład do kotła"
 ptBR = "Molde de Pequeno Caldeirão"
 koKR = "작은 cauldron 금형"
 csCZ = "Malá forma na kotlík"
+viVN = "Khuôn đúc nồi nhỏ"
 
 ["Good.Scauldronmold.PluralDisplayName"]
 raw = "Small Cauldron Molds"
@@ -2944,6 +3137,7 @@ plPL = "Małe formy na kociołki"
 ptBR = "Moldes Pequenos para Caldeirão"
 koKR = "작은 가마솥 틀"
 csCZ = "Malé formy na kotlíky"
+viVN = "Khuôn đúc nồi hầm nhỏ"
 
 ["Good.Rail.DisplayName"]
 raw = "Rail"
@@ -2959,6 +3153,7 @@ plPL = "Kolej"
 ptBR = "Trilho"
 koKR = "레일"
 csCZ = "Železnice"
+viVN = "Đường ray"
 
 ["Good.Rail.PluralDisplayName"]
 raw = "Rails"
@@ -2974,6 +3169,7 @@ plPL = "Szyny"
 ptBR = "Trilhos"
 koKR = "레일"
 csCZ = "Železnice"
+viVN = "Đường ray"
 
 ["Good.Librarybooks.DisplayName"]
 raw = "Library Book"
@@ -2989,6 +3185,7 @@ plPL = "Książka biblioteczna"
 ptBR = "Livro da Biblioteca"
 koKR = "도서관 책"
 csCZ = "Kniha v knihovně"
+viVN = "Sách Thư viện"
 
 ["Good.Librarybooks.PluralDisplayName"]
 raw = "Library Books"
@@ -3004,6 +3201,7 @@ plPL = "Książki biblioteczne"
 ptBR = "Livros da Biblioteca"
 koKR = "도서관 책들"
 csCZ = "Knihy v knihovně"
+viVN = "Sách thư viện"
 
 ["Good.Coconut.DisplayName"]
 raw = "Coconut"
@@ -3019,6 +3217,7 @@ plPL = "Kokosnut"
 ptBR = "Coco"
 koKR = "코코넛"
 csCZ = "Kokos"
+viVN = "Dừa"
 
 ["Good.Coconut.PluralDisplayName"]
 raw = "Coconuts"
@@ -3034,6 +3233,7 @@ plPL = "Kokosy"
 ptBR = "Cocôs"
 koKR = "코코넛"
 csCZ = "Kokosy"
+viVN = "Dừa"
 
 ["Good.Ananas.DisplayName"]
 raw = "Ananas"
@@ -3049,6 +3249,7 @@ plPL = "Ananas"
 ptBR = "Abacaxi"
 koKR = "파인애플"
 csCZ = "Ananas"
+viVN = "Dứa"
 
 ["Good.Ananas.PluralDisplayName"]
 raw = "Ananas"
@@ -3064,6 +3265,7 @@ plPL = "Ananas"
 ptBR = "Abacaxi"
 koKR = "파인애플"
 csCZ = "Ananasy"
+viVN = "Dứa"
 
 ["Good.Seashells.DisplayName"]
 raw = "Seashell"
@@ -3079,6 +3281,7 @@ plPL = "muszla morska"
 ptBR = "Concha"
 koKR = "조개껍질"
 csCZ = "Lastura"
+viVN = "Vỏ sò"
 
 ["Good.Seashells.PluralDisplayName"]
 raw = "Seashells"
@@ -3094,6 +3297,7 @@ plPL = "Muszle morskie"
 ptBR = "Conchas do mar"
 koKR = "조개껍데기"
 csCZ = "Lastury"
+viVN = "Vỏ sò"
 
 ["Good.Shellnecklace.DisplayName"]
 raw = "Shell Necklace"
@@ -3109,6 +3313,7 @@ plPL = "Muszla naszyjnik"
 ptBR = "Colar de Conchas"
 koKR = "쉘 목걸이"
 csCZ = "Řetízek s mušlí"
+viVN = "Vòng cổ vỏ sò"
 
 ["Good.Shellnecklace.PluralDisplayName"]
 raw = "Shell Necklace"
@@ -3124,6 +3329,7 @@ plPL = "Muszla naszyjnik"
 ptBR = "Colar de Conchas"
 koKR = "조개 목걸이"
 csCZ = "Náhrdelník z mušlí"
+viVN = "Vòng cổ vỏ sò"
 
 ["Good.Methane.DisplayName"]
 raw = "Methane"
@@ -3139,6 +3345,7 @@ plPL = "Metan"
 ptBR = "Metano"
 koKR = "메탄"
 csCZ = "Methan"
+viVN = "Mêtan"
 
 ["Good.Methane.PluralDisplayName"]
 raw = "Methane"
@@ -3154,6 +3361,7 @@ plPL = "Metan"
 ptBR = "Metano"
 koKR = "메탄"
 csCZ = "Metan"
+viVN = "Metan"
 
 ["Good.Alcohol.DisplayName"]
 raw = "Strong Alcohol"
@@ -3169,6 +3377,7 @@ plPL = "Mocny alkohol"
 ptBR = "Álcool forte"
 koKR = "강한 알코올"
 csCZ = "Silný alkohol"
+viVN = "Rượu mạnh"
 
 ["Good.Alcohol.PluralDisplayName"]
 raw = "Strong Alcohol"
@@ -3184,6 +3393,7 @@ plPL = "Mocny alkohol"
 ptBR = "Álcool Forte"
 koKR = "강한 알코올"
 csCZ = "Silný alkohol"
+viVN = "Rượu mạnh"
 
 ["Good.ExoticSeeds.DisplayName"]
 raw = "Exotic Seeds"
@@ -3199,6 +3409,7 @@ plPL = "Egzotyczne nasiona"
 ptBR = "Sementes Exóticas"
 koKR = "이국적인 씨앗"
 csCZ = "Exotická semena"
+viVN = "Hạt giống hiếm"
 
 ["Good.ExoticSeeds.PluralDisplayName"]
 raw = "Exotic Seeds"
@@ -3214,6 +3425,7 @@ plPL = "Egzotyczne Nasiona"
 ptBR = "Sementes Exóticas"
 koKR = "이국적인 씨앗"
 csCZ = "Exotická semena"
+viVN = "Hạt giống ngoại lai"
 
 ["Good.BrokenGlass.DisplayName"]
 raw = "Broken Glass"
@@ -3229,6 +3441,7 @@ plPL = "Rozbite szkło"
 ptBR = "Vidro Quebrado"
 koKR = "깨진 유리"
 csCZ = "Rozbité sklo"
+viVN = "Kính vỡ"
 
 ["Good.BrokenGlass.PluralDisplayName"]
 raw = "Broken Glass"
@@ -3244,6 +3457,7 @@ plPL = "Rozbita Szkło"
 ptBR = "Vidro Quebrado"
 koKR = "깨진 유리"
 csCZ = "Rozbité sklo"
+viVN = "Kính vỡ"
 
 ["Good.Pumpkin.DisplayName"]
 raw = "Pumpkin"
@@ -3259,6 +3473,7 @@ plPL = "Dynia"
 ptBR = "Abóbora"
 koKR = "호박"
 csCZ = "Dýně"
+viVN = "Bí ngô"
 
 ["Good.Pumpkin.PluralDisplayName"]
 raw = "Pumpkins"
@@ -3274,6 +3489,7 @@ plPL = "Dynie"
 ptBR = "Abóboras"
 koKR = "호박"
 csCZ = "Dýně"
+viVN = "Bí ngô"
 
 ["Lapantouflemagic.Pumpkin.Description"]
 raw = "A huge crop that doesn't require a lot of work, but often grows disorderly."
@@ -3289,6 +3505,7 @@ plPL = "Ogromny plon, który nie wymaga dużo pracy, ale często rośnie w nieł
 ptBR = "Uma colheita enorme que não exige muito trabalho, mas frequentemente cresce de forma desordenada."
 koKR = "많은 노동이 필요하지 않은 거대한 작물로, 하지만 자주 무질서하게 자란다."
 csCZ = "Obrovská úroda, která nevyžaduje mnoho práce, ale často roste neuspořádaně."
+viVN = "Một vụ mùa khổng lồ, không đòi hỏi nhiều công sức, nhưng thường phát triển một cách hỗn loạn."
 
 ["Lapantouflemagic.Pumpkin.FlavorDescription"]
 raw = "\"... and once a year on the darkest night, they open glowing eyes and mouths... to eat naughty little kits!\"\n -Grandma beaver, campfire stories"
@@ -3304,6 +3521,7 @@ plPL = "\"... a raz w roku w najciemniejszą noc otwierają świecące oczy i us
 ptBR = "\"... e uma vez por ano, na noite mais escura, eles abrem olhos e bocas brilhantes... para comer pequenos filhotes travessos!\" \n -Vovó castor, histórias de fogueira"
 koKR = "...그리고 매년 가장 어두운 밤에, 그들은 빛나는 눈과 입을 열고... 장난꾸러기 아기들 먹는다! - 할머니 비버, 모닥불 이야기"
 csCZ = "\"... a jednou ročně v nejtemnější noci otevřou svá svítící oka a ústa... aby snědli zlobivé malé kits!\"  \n -Babička bobr, příběhy u táboráku"
+viVN = "\"\"... và một lần trong năm vào đêm tối nhất, họ mở đôi mắt phát sáng và miệng há to... để ăn những chú hải ly con tinh nghịch!\" -Bà hải ly, chuyện kể quanh lửa trại"
 
 ["TopBar.Special"]
 raw = "Buildings core elements"
@@ -3319,6 +3537,7 @@ plPL = "Kluczowe elementy budynków"
 ptBR = "Elementos fundamentais dos edifícios"
 koKR = "건물의 핵심 요소"
 csCZ = "Základní prvky budov"
+viVN = "Các yếu tố cốt lõi của các tòa nhà"
 
 ["TopBar.Plan"]
 raw = "Blueprints"
@@ -3334,6 +3553,7 @@ plPL = "Plany budowlane"
 ptBR = "Planos"
 koKR = "청사진"
 csCZ = "Plány"
+viVN = "Bản thiết kế"
 
 ["TopBar.Constructionmaterials"]
 raw = "Construction materials"
@@ -3349,6 +3569,7 @@ plPL = "Materiały budowlane"
 ptBR = "Materiais de construção"
 koKR = "건설 자재"
 csCZ = "Stavební materiály"
+viVN = "Vật liệu xây dựng"
 
 ["TopBar.Drinkable"]
 raw = "Drinkable"
@@ -3364,6 +3585,7 @@ plPL = "Nadający się do picia"
 ptBR = "Potável"
 koKR = "음료수"
 csCZ = "Pitná"
+viVN = "Có thể uống được"
 
 ["ToolGroups.village"]
 raw = "Basic Village Structures"
@@ -3379,6 +3601,7 @@ plPL = "Podstawowe struktury wsi"
 ptBR = "Estruturas Básicas de Vilarejo"
 koKR = "기본 마을 구조물"
 csCZ = "Základní vesnické struktury"
+viVN = "Các công trình làng cơ bản"
 
 ["ToolGroups.Basicbuildings"]
 raw = "Basic Buildings"
@@ -3394,6 +3617,7 @@ plPL = "Podstawowe budynki"
 ptBR = "Edifícios Básicos"
 koKR = "기본 건물"
 csCZ = "Základní budovy"
+viVN = "Các công trình cơ bản"
 
 ["ToolGroups.intermediatebuildings"]
 raw = "Intermediate Buildings"
@@ -3409,6 +3633,7 @@ plPL = "Budynki średniego poziomu"
 ptBR = "Edificações Intermediárias"
 koKR = "중간 건물"
 csCZ = "Střední budovy"
+viVN = "Các công trình trung gian"
 
 ["ToolGroups.advancedbuildings"]
 raw = "Advanced Buildings"
@@ -3424,6 +3649,7 @@ plPL = "Zaawansowane budynki"
 ptBR = "Edifícios Avançados"
 koKR = "첨단 건물"
 csCZ = "Pokročilé Budovy"
+viVN = "Các công trình tiên tiến"
 
 ["ToolGroups.lightindustry"]
 raw = "Industrial Buildings"
@@ -3439,6 +3665,7 @@ plPL = "Budynki przemysłowe"
 ptBR = "Edifícios Industriais"
 koKR = "산업 건물"
 csCZ = "Průmyslové budovy"
+viVN = "Các tòa nhà công nghiệp"
 
 ["ToolGroups.heavyindustrybuildings"]
 raw = "Advanced Industrial Buildings"
@@ -3454,6 +3681,7 @@ plPL = "Zaawansowane Budynki Przemysłowe"
 ptBR = "Edifícios Industriais Avançados"
 koKR = "고급 산업 건물"
 csCZ = "Pokročilé průmyslové budovy"
+viVN = "Các công trình công nghiệp tiên tiến"
 
 ["ToolGroups.Damhouses"]
 raw = "Dams, Houses, and Damhouses"
@@ -3469,6 +3697,7 @@ plPL = "Tamy, Domy i Domy tamowe"
 ptBR = "Barragens, Casas e Casas de Barragem"
 koKR = "댐, 집, 그리고 댐하우스"
 csCZ = "Závlahy, Domy a Závlahové domy"
+viVN = "Các đập nước, Nhà ở và Nhà đập nước"
 
 ["Luc.notutorial.warning"]
 raw = "<color=red>TUTORIAL IS INCOMPATIBLE WITH THIS MOD</color>"
@@ -3484,6 +3713,7 @@ plPL = "<color=red>TUTORIAL JEST NIEKOMPATYBILNY Z TYM MODEM</color>"
 ptBR = "<color=red>O TUTORIAL É INCOMPATÍVEL COM ESTE MOD</color>"
 koKR = "<color=red>이 튜토리얼은 이 모드와 호환되지 않습니다</color>"
 csCZ = "<color=red>TUTORIAL NENÍ KOMPATIBILNÍ S TÍMTO MODEM</color>"
+viVN = "<color=red>Hướng dẫn không tương thích với mod này</color>"
 
 ["Lapantouflemagic.Loglevee.Description"]
 raw = "Crude levee made of numerous logs stuck in the mud for basic landscaping. The flag must be entirely buried."
@@ -3499,6 +3729,7 @@ plPL = "Prosta tamka z licznych kłód wbitych w błoto do podstawowego kształt
 ptBR = "Leveito rudimentar feito de numerosos troncos presos na lama para paisagismo básico. A bandeira deve estar totalmente enterrada."
 koKR = "기본 조경을 위해 진흙에 묻힌 여러 개의 통나무로 만든 조잡한 제방입니다. 깃발은 완전히 묻혀 있어야 합니다."
 csCZ = "Hrubá hráz vyrobená z mnoha kmenů zapichujících se do bahna pro základní úpravu krajiny. Vlajka musí být zcela pohřbena."
+viVN = "Đê sơ sài được làm từ nhiều khúc gỗ bị mắc kẹt trong bùn để làm cảnh quan cơ bản. Lá cờ phải được chôn hoàn toàn."
 
 ["Lapantouflemagic.primitivedam.FlavorDescription"]
 raw = "\"Actually, it looks nice!\"\n -An urbanist beaver"
@@ -3514,6 +3745,7 @@ plPL = "\"Właściwie, wygląda ładnie!\" \n -Miejski bóbr"
 ptBR = "\"Na verdade, parece bonito!\"  \n -Um castor urbanista"
 koKR = "\"사실, 보기 좋네요!\"  \n-한 도시 계획 비버"
 csCZ = "Vlastně to vypadá hezky!\" - \"Městsko-urbanistický bobr"
+viVN = "\"Thật ra, nó trông đẹp đấy!\" -Một hải ly đô thị"
 
 ["Lapantouflemagic.Unstorablestorage.DisplayName"]
 raw = "Unstorable Resource"
@@ -3529,6 +3761,7 @@ plPL = "Niestandardowy zasób"
 ptBR = "Recurso não armazenável"
 koKR = "저장할 수 없는 자원"
 csCZ = "Neskladovatelný zdroj"
+viVN = "Tài nguyên không thể lưu trữ"
 
 ["Lapantouflemagic.StorageHouseW.DisplayName"]
 raw = "Liquids Storage House"
@@ -3544,6 +3777,7 @@ plPL = "Magazyn Płynów"
 ptBR = "Casa de Armazenamento de Líquidos"
 koKR = "액체 저장소"
 csCZ = "Sklad kapalin"
+viVN = "Kho chứa chất lỏng"
 
 ["Lapantouflemagic.StorageHouseW.Description"]
 raw = "A tall house that doubles as a liquid storage.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3559,6 +3793,7 @@ plPL = "Wysoki dom, który pełni funkcję magazynu cieczy.  \n<color=#00FFFF>Dz
 ptBR = "Uma casa alta que também funciona como armazenamento de líquido. <color=#00FFFF>Funciona como um dique</color>"
 koKR = "액체 저장소로 사용되는 높은 집입니다.\n<color=#00FFFF>제방으로도 작동합니다</color>"
 csCZ = "Vysoký dům, který slouží také jako sklad kapaliny. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà cao vừa là kho chứa chất lỏng.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.StorageHouseW.FlavorDescription"]
 raw = "\"I... I tried, I really tried, but I couldn't help myself, I HAD to make it a house!\"\n -An architect beaver"
@@ -3574,6 +3809,7 @@ plPL = "„Ja... Ja próbowałem, naprawdę próbowałem, ale nie mogłem się p
 ptBR = "\"Eu... eu tentei, eu realmente tentei, mas não consegui me controlar, eu TIVE que fazer uma casa!\" \n -Um castor arquiteto"
 koKR = "\"제가... 정말 노력했어요, 진짜로 노력했지만, 저는 어쩔 수 없었어요, 집으로 만들 수밖에 없었어요!\"\n - 건축가 비버"
 csCZ = "\"Já... Já jsem se snažil, opravdu jsem se snažil, ale nemohl jsem si pomoct, MUSEL jsem to udělat jako dům!\"\n -Architekt bobr"
+viVN = "\"Tôi... tôi đã cố gắng, thật sự đã cố gắng, nhưng tôi không thể kiềm chế bản thân, tôi đã phải biến nó thành một ngôi nhà!\" -Một chú hải ly kiến trúc sư"
 
 ["Lapantouflemagic.StorageHouseB.DisplayName"]
 raw = "Crate Storage House"
@@ -3589,6 +3825,7 @@ plPL = "Magazyn skrzynek"
 ptBR = "Casa de Armazenamento de Caixas"
 koKR = "상자 저장소"
 csCZ = "Sklad krabic"
+viVN = "Nhà kho chứa thùng"
 
 ["Lapantouflemagic.StorageHouseB.Description"]
 raw = "A tall house that doubles as a crate storage.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3604,6 +3841,7 @@ plPL = "Wysoki dom, który pełni funkcję magazynu na skrzynie. <color=#00FFFF>
 ptBR = "Uma casa alta que também serve como armazenamento de caixas.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "높은 집으로, 상자 보관소 역할을 겸합니다. \n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Vysoký dům, který slouží jako sklad krabic.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà cao kiêm kho chứa thùng.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Lapantouflemagic.StorageHouseB.FlavorDescription"]
 raw = "\"Modeled after the pinnacle of Hooman architecture: the cube\""
@@ -3619,6 +3857,7 @@ plPL = "\"Modelowany na szczycie architektury Hooman: sześcian\""
 ptBR = "\"Modelado após o pico da arquitetura Hooman: o cubo\""
 koKR = "\"인간 건축의 정점인 큐브를 모델로 하였습니다.\""
 csCZ = "\"Navrženo podle vrcholu Hoomanské architektury: čtverec\""
+viVN = "\"Được mô phỏng theo đỉnh cao của kiến trúc Hooman: khối lập phương\""
 
 ["Lapantouflemagic.KitchenModule.DisplayName"]
 raw = "Generic Kitchen Module"
@@ -3634,6 +3873,7 @@ plPL = "Ogólny moduł kuchenny"
 ptBR = "Módulo de Cozinha Genérico"
 koKR = "일반 주방 모듈"
 csCZ = "Obecný kuchyňský modul"
+viVN = "Mô-đun Bếp Chung"
 
 ["Lapantouflemagic.KitchenModule.Description"]
 raw = "A small extension for the industrial kitchen. Can prepare simple recipes.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3649,6 +3889,7 @@ plPL = "Małe rozszerzenie dla kuchni przemysłowej. Może przygotowywać proste
 ptBR = "Uma pequena extensão para a cozinha industrial. Pode preparar receitas simples.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "산업 주방을 위한 작은 확장입니다. 간단한 조리법을 준비할 수 있습니다. <color=#00FFFF>제방처럼 작동합니다</color>"
 csCZ = "Malé rozšíření pro průmyslovou kuchyni. Může připravovat jednoduché recepty.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một phần mở rộng nhỏ cho nhà bếp công nghiệp. Có thể chuẩn bị các công thức nấu ăn đơn giản.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Lapantouflemagic.KitchenModule.FlavorDescription"]
 raw = "\"Many moving machines, and me who doesn't even know how to cook? What could possibly go wrong?\""
@@ -3664,6 +3905,7 @@ plPL = "\"Wiele poruszających się maszyn, a ja, który nawet nie umie gotować
 ptBR = "\"Muitas máquinas em movimento, e eu que nem sei cozinhar? O que pode dar errado?\""
 koKR = "\"많은 움직이는 기계들, 그리고 요리조차 할 줄 모르는 나? 무슨 일이 잘못될 수 있을까?\""
 csCZ = "\"Mnoho pohyblivých strojů, a já, který ani nevím, jak vařit? Co by se mohlo pokazit?\""
+viVN = "Rất nhiều máy móc đang chuyển động, còn tôi thì thậm chí không biết nấu ăn? Có chuyện gì có thể sai sót được chứ?"
 
 ["Lapantouflemagic.BIT.DisplayName"]
 raw = "École Normale Subeaveure"
@@ -3679,6 +3921,7 @@ plPL = "École Normale Supérieure"
 ptBR = "Escola Normal Superior"
 koKR = "에꼴 노르말 수베뷰르"
 csCZ = "École Normale Subeaveure"
+viVN = "Trường Sư phạm Thượng Subeaveure"
 
 ["Lapantouflemagic.BIT.FlavorDescription"]
 raw = "\"According to our archives, the traditional name goes back to some frog-eating hooman tribe\"\n -Toothless the Wise, elder beaver"
@@ -3694,6 +3937,7 @@ plPL = "\"Według naszych archiwów, tradycyjna nazwa sięga plemienia ludzi jed
 ptBR = "De acordo com nossos arquivos, o nome tradicional remonta a alguma tribo humana que come sapos\" - Dente de Leite, o sábio castor"
 koKR = "우리 기록에 따르면, 전통적인 이름은 개구리를 먹는 인간 부족으로 거슬러 올라갑니다.\"  \n- 지혜로운 무치, 노인 비버"
 csCZ = "\"Podle našich archivů, tradiční název pochází od nějakého lidského kmene, který jedl žáby.\" - Bezzubý Moudrý, starší bobr"
+viVN = "\"Theo lưu trữ của chúng ta, tên truyền thống bắt nguồn từ một bộ lạc người ăn ếch nào đó\"\n -Toothless the Wise, hải ly trưởng lão"
 
 ["Lapantouflemagic.triplewatertightlodgeBottom.DisplayName"]
 raw = "Triple Watertight Lodge"
@@ -3709,6 +3953,7 @@ plPL = "Potrójne Wodoodporne Schronienie"
 ptBR = "Cabana Tripla à Prova d'Água"
 koKR = "삼중 방수 롯지"
 csCZ = "Trojitá vodotěsná chata"
+viVN = "Nhà nghỉ ba lớp chống nước"
 
 ["Lapantouflemagic.triplewatertightlodgeBottom.Description"]
 raw = "A large house for two families working as <color=green>haulers</color>.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3724,6 +3969,7 @@ plPL = "Duży dom dla dwóch rodzin pracujących jako <color=green>transportowcy
 ptBR = "Uma casa grande para duas famílias que trabalham como <color=green>transportadores</color>. <color=#00FFFF>Funciona como uma barragem</color>"
 koKR = "두 가족이 <color=green>운반자</color>로 일하는 큰 집입니다. <color=#00FFFF>제방으로 기능합니다</color>"
 csCZ = "Velký dům pro dvě rodiny pracující jako <color=green>nositelé</color>.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một ngôi nhà lớn dành cho hai gia đình làm việc như <color=green>người vận chuyển</color>.\n<color=#00FFFF>Hoạt động như một đê chắn lũ</color>"
 
 ["Lapantouflemagic.triplewatertightlodgeBottom.FlavorDescription"]
 raw = "\"Our population is getting out of paw\"\n -The same farmer beaver"
@@ -3739,6 +3985,7 @@ plPL = "\"Nasza populacja wymyka się spod kontroli\" - Ten sam rolnik bóbr"
 ptBR = "\"Nossa população está saindo do controle\" - O mesmo castor fazendeiro"
 koKR = "\"우리 인구가 발을 벗어나고 있어요\" - 같은 농부 비버"
 csCZ = "Naše populace se nám vymyká z pařátů\" - \"Stejný farmářský bobr"
+viVN = "\"Dân số của chúng ta đang vượt khỏi móng vuốt\"\n -Cùng một hải ly nông dân"
 
 ["Lapantouflemagic.DeepWaterPumpUpgrade.DisplayName"]
 raw = "Deep Water Pump Upgrade"
@@ -3754,6 +4001,7 @@ plPL = "Modernizacja pompy głębinowej"
 ptBR = "Atualização da Bomba de Água Profunda"
 koKR = "심층수 펌프 업그레이드"
 csCZ = "Vylepšení hlubinného čerpadla"
+viVN = "Nâng cấp Máy bơm nước sâu"
 
 ["Lapantouflemagic.DeepWaterPumpUpgrade.FlavorDescription"]
 raw = "\"We can make a full dam out of this!\"\n -Toothless the Wise, elder beaver"
@@ -3769,6 +4017,7 @@ plPL = "Możemy z tego zrobić pełną tamę!  \n -Bezzębny Mądry, stary bóbr
 ptBR = "Podemos fazer uma barragem inteira com isso!  \n -Sem Dentes, o Sábio, castor ancião"
 koKR = "우리는 이것으로 완전한 댐을 만들 수 있어요!\n - 현명한 이빨없는 비버, 노인"
 csCZ = "\"Z toho můžeme udělat plnou přehradu!\"  \n - Bezubý Moudrý, starý bobr"
+viVN = "\"Chúng ta có thể làm một con đập hoàn chỉnh từ thứ này!\" -Toothless the Wise, elder beaver"
 
 ["Lapantouflemagic.waterpumpUpgrade.DisplayName"]
 raw = "Water Pump Upgrade"
@@ -3784,6 +4033,7 @@ plPL = "Modernizacja pompy wodnej"
 ptBR = "Atualização da Bomba de Água"
 koKR = "수조 업그레이드"
 csCZ = "Vylepšení vodní pumpy"
+viVN = "Nâng cấp máy bơm nước"
 
 ["Lapantouflemagic.waterpumpUpgrade.FlavorDescription"]
 raw = "If only the pump wasn't so short?"
@@ -3799,6 +4049,7 @@ plPL = "Gdyby tylko pompa nie była taka krótka?"
 ptBR = "Se ao menos a bomba não fosse tão curta?"
 koKR = "펌프가 이렇게 짧지 않았다면 좋았을 텐데?"
 csCZ = "Jenom kdyby čerpadlo nebylo tak krátké?"
+viVN = "Giá như cái bơm nước này không ngắn như vậy?"
 
 ["Lapantouflemagic.DeepWaterpumpupgradewallsegment.DisplayName"]
 raw = "Deep Water Pump Upgrade Terminal Segment"
@@ -3814,6 +4065,7 @@ plPL = "Modernizacja segmentu terminala pompy głębinowej"
 ptBR = "Segmento Terminal de Atualização da Bomba Submersa"
 koKR = "심층수 펌프 업그레이드 터미널 세그먼트"
 csCZ = "Segment terminálu pro vylepšení čerpadla hluboké vody"
+viVN = "Đoạn tường nâng cấp cho máy bơm nước sâu"
 
 ["Lapantouflemagic.DeepWaterpumpupgradewallsegment.Description"]
 raw = "A watertight structure to block off the extremity of a chain of deep water pumps.\n<color=red>Ram the camera into the building if placement is difficult</color>.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3829,6 +4081,7 @@ plPL = "Wodoszczelna konstrukcja do zablokowania końca ciągu głębinowych pom
 ptBR = "Uma estrutura à prova d'água para bloquear a extremidade de uma cadeia de bombas submersas.  \n<color=red>Empurre a câmera para dentro do edifício se a colocação for difícil</color>.  \n<color=#00FFFF>Funciona como uma Barragem</color>"
 koKR = "심층수 펌프 체인의 끝부분을 차단하기 위한 방수 구조물입니다.\n<color=red>설치가 어려운 경우 카메라를 건물에 밀어넣으세요</color>.\n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Vodotěsná struktura, která blokuje konec řetězce hlubinných vodních čerpadel.  \n<color=red>Naražte kameru do budovy, pokud je umístění obtížné</color>.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một kết cấu kín nước để ngăn phần cuối của chuỗi bơm nước sâu.\n<color=red>Đập camera vào tòa nhà nếu việc đặt nó gặp khó khăn</color>.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Lapantouflemagic.DeepWaterpumpupgradewallsegment.FlavorDescription"]
 raw = "We make our dams the proper way, we're not savages!"
@@ -3844,6 +4097,7 @@ plPL = "Budujemy nasze tamy w odpowiedni sposób, nie jesteśmy dzikusami!"
 ptBR = "Fazemos nossas barragens da maneira certa, não somos selvagens!"
 koKR = "우리는 우리 댐을 제대로 지어요, 우리는 야만인이 아닙니다!"
 csCZ = "Žijeme v souladu s přírodou, nejsme to divoši!"
+viVN = "Chúng tôi xây đập của mình đúng cách, chúng tôi không phải là người hoang dã!"
 
 ["Lapantouflemagic.Waterpumpupgradewallsegment.DisplayName"]
 raw = "Water Pump Upgrade Terminal Segment"
@@ -3859,6 +4113,7 @@ plPL = "Segment końcowy modernizacji pompy wodnej"
 ptBR = "Segmento Terminal de Atualização da Bomba de Água"
 koKR = "워터 펌프 업그레이드 터미널 세그먼트"
 csCZ = "Segment terminálu vylepšení vodní pumpy"
+viVN = "Đoạn Trạm Nâng cấp Máy Bơm Nước"
 
 ["Lapantouflemagic.Waterpumpupgradewallsegment.Description"]
 raw = "A watertight structure to block off the extremity of a chain of water pumps.\n<color=red>Ram the camera into the building if placement is difficult</color>.\n<color=#00FFFF>Works as a Levee</color>"
@@ -3874,6 +4129,7 @@ plPL = "Szczelna struktura blokująca koniec łańcucha pomp wodnych.  \n<color=
 ptBR = "Uma estrutura à prova d'água para bloquear a extremidade de uma cadeia de bombas d'água.  \n<color=red>Espete a câmera no prédio se o posicionamento for difícil</color>.  \n<color=#00FFFF>Funciona como uma barragem</color>"
 koKR = "수리 구조물로, 수중 펌프 체인의 끝을 차단합니다.\n<color=red>설치가 어려운 경우 건물에 카메라를 밀어넣으세요</color>.\n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Vodotěsná struktura k zablokování konce řetězce vodních pump.  \n<color=red>Vrazte kameru do budovy, pokud je umístění obtížné</color>.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một kết cấu kín nước để chặn phần cuối của chuỗi bơm nước.\n<color=red>Đâm camera vào tòa nhà nếu việc đặt nó gặp khó khăn</color>.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Lapantouflemagic.Waterpumpupgradewallsegment.FlavorDescription"]
 raw = "What if we just build that without the pump to block... Nah, that's a silly idea!"
@@ -3889,6 +4145,7 @@ plPL = "A co jeśli po prostu zbudujemy to bez pompy do zablokowania... Nie, to 
 ptBR = "E se nós apenas construíssemos isso sem a bomba para bloquear... Não, essa é uma ideia boba!"
 koKR = "펌프 없이 그냥 그걸 블록으로 만들면 어떨까... 아니, 그건 바보 같은 아이디어야!"
 csCZ = "Co kdybychom to prostě postavili bez čerpadla jako blok... Né, to je hloupý nápad!"
+viVN = " Nếu chúng ta chỉ xây cái đó mà không có bơm để chắn nước... Không, đó là một ý tưởng ngớ ngẩn!"
 
 ["Good.IndustrialKitchenFancyBlueprint.DisplayName"]
 raw = "Industrial Kitchen Fancy Blueprint"
@@ -3904,6 +4161,7 @@ plPL = "Wytworny plan przemysłowej kuchni"
 ptBR = "Projeto Sofisticado de Cozinha Industrial"
 koKR = "산업 주방 화려한 설계도"
 csCZ = "Elegantní plán průmyslové kuchyně"
+viVN = "Bản thiết kế bếp công nghiệp sang trọng"
 
 ["Good.IndustrialKitchenFancyBlueprint.PluralDisplayName"]
 raw = "Industrial Kitchen Fancy Blueprints"
@@ -3919,6 +4177,7 @@ plPL = "Przemysłowe Plany Kuchni w Stylu Eleganckim"
 ptBR = "Modelos de Cozinha Industrial Elegantes"
 koKR = "산업 주방 화려한 청사진"
 csCZ = "Průmyslové kuchyně - Luxusní plány"
+viVN = "Các bản thiết kế bếp công nghiệp sang trọng"
 
 ["Good.ComicBooks.DisplayName"]
 raw = "Comic Book"
@@ -3934,6 +4193,7 @@ plPL = "Komiks"
 ptBR = "Quadrinho"
 koKR = "만화책"
 csCZ = "Komiks"
+viVN = "Truyện tranh"
 
 ["Good.ComicBooks.PluralDisplayName"]
 raw = "Comic Books"
@@ -3949,6 +4209,7 @@ plPL = "Komiksy"
 ptBR = "Quadrinhos"
 koKR = "만화책"
 csCZ = "Komičtí hrdinové"
+viVN = "Truyện tranh"
 
 ["Lapantoufemagic.ComicsSegment.DisplayName"]
 raw = "Comic Books Segment"
@@ -3964,6 +4225,7 @@ plPL = "Segment komiksowy"
 ptBR = "Segmento de Histórias em Quadrinhos"
 koKR = "만화책 섹션"
 csCZ = "Segment komiksů"
+viVN = "Phần Truyện Tranh"
 
 ["Lapantoufemagic.ComicsSegment.Description"]
 raw = "A cosy place for nerdy beavers to read comic books."
@@ -3979,6 +4241,7 @@ plPL = "Przytulne miejsce dla nerdowskich bobrów do czytania komiksów."
 ptBR = "Um lugar aconchegante para castores nerds lerem histórias em quadrinhos."
 koKR = "너드 비버들이 만화책을 읽기에 아늑한 장소."
 csCZ = "Pohodlné místo pro nerdovské bobry, kde si mohou číst komiksy."
+viVN = "Một nơi ấm cúng dành cho những chú hải ly ham mê đọc truyện tranh."
 
 ["Lapantoufemagic.ComicsSegment.FlavorDescription"]
 raw = "Who would have thought the world needed saving so many times!"
@@ -3994,6 +4257,7 @@ plPL = "Kto by pomyślał, że świat potrzebuje ratunku aż tyle razy!"
 ptBR = "Quem teria pensado que o mundo precisava ser salvo tantas vezes!"
 koKR = "누가 세상이 여러 번 구원받아야 한다고 생각했겠어요!"
 csCZ = "Kdo by si pomyslel, že svět potřebuje záchranu tolikrát!"
+viVN = "Ai ngờ thế giới lại cần được cứu nhiều lần đến vậy!"
 
 ["Lapantouflemagic.Lightgravitybattery.DisplayName"]
 raw = "Light Gravity Battery"
@@ -4009,6 +4273,7 @@ plPL = "Bateria o niskiej grawitacji"
 ptBR = "Bateria de Gravidade Leve"
 koKR = "가벼운 중력 배터리"
 csCZ = "Baterie s lehkou gravitací"
+viVN = "Pin Trọng Lực Nhẹ"
 
 ["Lapantouflemagic.Lightgravitybattery.Description"]
 raw = "An easy to build gravity battery using a bunch of logs as weight."
@@ -4024,6 +4289,7 @@ plPL = "Łatwy w budowie akumulator grawitacyjny wykorzystujący stosy bali jako
 ptBR = "Uma bateria de gravidade fácil de construir usando um monte de troncos como peso."
 koKR = "다수의 통나무를 무게로 사용하여 쉽게 구축할 수 있는 중력 배터리입니다."
 csCZ = "Snadno postavitelná gravitační baterie používající hromadu klád jako závaží."
+viVN = "Một pin trọng lực dễ xây dựng, dùng một đống gỗ làm trọng lượng."
 
 ["Lapantouflemagic.Lightgravitybattery.FlavorDescription"]
 raw = "A common punishment for kits is to be left dangling there for a few hours."
@@ -4039,6 +4305,7 @@ plPL = "Powszechną karą dla kociąt jest pozostawienie ich tam wiszących prze
 ptBR = "Uma punição comum para os filhotes é ser deixado pendurado ali por algumas horas."
 koKR = "키트에게 흔한 처벌은 몇 시간 동안 그곳에 매달려 있게 되는 것입니다."
 csCZ = "Běžným trestem pro koťata je nechat je viset tam několik hodin."
+viVN = "Một hình phạt phổ biến dành cho các kit là bị treo lủng lẳng ở đó trong vài giờ."
 
 ["Good.Scaffolding.DisplayName"]
 raw = "Scaffolding"
@@ -4054,6 +4321,7 @@ plPL = "Szalunek"
 ptBR = "Andaime"
 koKR = "비계"
 csCZ = "Lešení"
+viVN = "Giàn giáo"
 
 ["Good.Scaffolding.PluralDisplayName"]
 raw = "Scaffoldings"
@@ -4069,6 +4337,7 @@ plPL = "Rusztowania"
 ptBR = "Andaimes"
 koKR = "발판들"
 csCZ = "Lešení"
+viVN = "Các giàn giáo"
 
 ["Good.Balloon.DisplayName"]
 raw = "Balloon"
@@ -4084,6 +4353,7 @@ plPL = "Balon"
 ptBR = "Balão"
 koKR = "풍선"
 csCZ = "Balónek"
+viVN = "Bóng bay"
 
 ["Good.Balloon.PluralDisplayName"]
 raw = "Balloons"
@@ -4099,6 +4369,7 @@ plPL = "Balony"
 ptBR = "Balões"
 koKR = "풍선들"
 csCZ = "Balónky"
+viVN = "Bóng bay"
 
 ["Good.Clay.DisplayName"]
 raw = "Clay"
@@ -4114,6 +4385,7 @@ plPL = "Glina"
 ptBR = "Argila"
 koKR = "점토"
 csCZ = "Hlína"
+viVN = "Đất sét"
 
 ["Good.Clay.PluralDisplayName"]
 raw = "Clay"
@@ -4129,6 +4401,7 @@ plPL = "Glina"
 ptBR = "Argila"
 koKR = "점토"
 csCZ = "Hlína"
+viVN = "Đất sét"
 
 ["Good.MeanFlower.DisplayName"]
 raw = "Bramble Flower"
@@ -4144,6 +4417,7 @@ plPL = "Kwiat jeżyny"
 ptBR = "Flor de Bramble"
 koKR = "가시 덩굴 꽃"
 csCZ = "Trnitá květina"
+viVN = "Hoa mâm xôi gai"
 
 ["Good.MeanFlower.PluralDisplayName"]
 raw = "Bramble Flowers"
@@ -4159,6 +4433,7 @@ plPL = "Kwiaty jeżynowe"
 ptBR = "Flores de Amora"
 koKR = "가시 덩굴 꽃"
 csCZ = "Ostružinové květiny"
+viVN = "Hoa bụi gai"
 
 ["Lapantouflemagic.Brambles.FlavorDescription"]
 raw = "One day, the world will be completely covered with those."
@@ -4174,6 +4449,7 @@ plPL = "Pewnego dnia świat będzie całkowicie przykryty tymi."
 ptBR = "Um dia, o mundo estará completamente coberto com isso."
 koKR = "언젠가, 세상은 그런 것들로 완전히 덮일 것이다."
 csCZ = "Jednoho dne bude svět zcela pokryt těmito."
+viVN = "Một ngày nào đó, cả thế giới sẽ bị phủ kín bởi chúng."
 
 ["Lapantouflemagic.Cabbage.DisplayName"]
 raw = "Cabbage"
@@ -4189,6 +4465,7 @@ plPL = "Kapusta"
 ptBR = "Repolho"
 koKR = "양배추"
 csCZ = "Kapusta"
+viVN = "Bắp cải"
 
 ["Lapantouflemagic.Cabbage.FlavorDescription"]
 raw = "\"If you bite in it, you EAT it.\"\n -Grandma beaver"
@@ -4204,6 +4481,7 @@ plPL = "\"Jeśli ugryziesz w to, to TO JESZ.\"  \n -Babcia bóbr"
 ptBR = "\"Se você morder, você COME.\"  \n -Vovó castor"
 koKR = "\"한 입 베어물면, 당신은 그것을 먹는다.\"\n - 할머니 비버"
 csCZ = "\"Pokud do něj kousneš, SNIŠ TO.\" - Babička bobr"
+viVN = "\"Nếu bạn cắn vào nó, bạn ĂN nó.\" -Grandma beaver"
 
 ["Lapantouflemagic.GiantSequoia.DisplayName"]
 raw = "Golden Sequoia"
@@ -4219,6 +4497,7 @@ plPL = "Złota sekwoja"
 ptBR = "Sequoião Dourado"
 koKR = "골든 세쿼이아"
 csCZ = "Zlatá sekvoje"
+viVN = "Sequoia vàng"
 
 ["Lapantouflemagic.GiantSequoia.FlavorDescription"]
 raw = "Think of how high we will be able to build with that!"
@@ -4234,6 +4513,7 @@ plPL = "Pomyśl, jak wysoko będziemy w stanie zbudować dzięki temu!"
 ptBR = "Pense em quão alto conseguiremos construir com isso!"
 koKR = "그것으로 얼마나 높게 지을 수 있을지 생각해 보세요!"
 csCZ = "Představte si, jak vysoko budeme moci s tímto postavit!"
+viVN = "Hãy tưởng tượng chúng ta sẽ xây được cao đến mức nào với thứ đó!"
 
 ["Good.RedGrapes.DisplayName"]
 raw = "Grapes"
@@ -4249,6 +4529,7 @@ plPL = "Winogrona"
 ptBR = "Uvas"
 koKR = "포도"
 csCZ = "Hrozny"
+viVN = "Nho đỏ"
 
 ["Good.RedGrapes.PluralDisplayName"]
 raw = "Grapes"
@@ -4264,6 +4545,7 @@ plPL = "Winogrona"
 ptBR = "Uvas"
 koKR = "포도"
 csCZ = "Hrozny"
+viVN = "Nho"
 
 ["Lapantouflemagic.grapevine.DisplayName"]
 raw = "Grape Vine"
@@ -4279,6 +4561,7 @@ plPL = "Winorośl"
 ptBR = "Videira"
 koKR = "포도 덩굴"
 csCZ = "Hroznový keř"
+viVN = "Dây nho"
 
 ["Lapantouflemagic.NewVine.FlavorDescription"]
 raw = "Aaah, civilisation comes back, at last!"
@@ -4294,6 +4577,7 @@ plPL = "Aaaah, cywilizacja wraca, w końcu!"
 ptBR = "Aaah, a civilização está voltando, finalmente!"
 koKR = "아앗, 문명이 드디어 돌아왔군요!"
 csCZ = "Aaah, civilizace se konečně vrací!"
+viVN = "Aaah, nền văn minh đã trở lại, cuối cùng!"
 
 ["Lapantouflemagic.Rice.DisplayName"]
 raw = "Rice Paddy"
@@ -4309,6 +4593,7 @@ plPL = "Pole ryżowe"
 ptBR = "Arrozal"
 koKR = "쌀논"
 csCZ = "Rýžové políčko"
+viVN = "Ruộng Lúa"
 
 ["Lapantouflemagic.Rice.FlavorDescription"]
 raw = "Don't stir the mud."
@@ -4324,6 +4609,7 @@ plPL = "Nie mieszaj błota."
 ptBR = "Não mexa na lama."
 koKR = "진흙을 섞지 마세요."
 csCZ = "Neruš mu půdu."
+viVN = "Đừng khuấy bùn."
 
 ["Good.Rice.DisplayName"]
 raw = "Rice"
@@ -4339,6 +4625,7 @@ plPL = "Ryż"
 ptBR = "Arroz"
 koKR = "쌀"
 csCZ = "Rýže"
+viVN = "Gạo"
 
 ["Good.Rice.PluralDisplayName"]
 raw = "Rice"
@@ -4354,6 +4641,7 @@ plPL = "Ryż"
 ptBR = "Arroz"
 koKR = "쌀"
 csCZ = "Rýže"
+viVN = "Gạo"
 
 ["Good.FriedRice.DisplayName"]
 raw = "Fried Rice"
@@ -4369,6 +4657,7 @@ plPL = "Smażony ryż"
 ptBR = "Arroz Frito"
 koKR = "볶음밥"
 csCZ = "Smažená rýže"
+viVN = "Cơm Chiên"
 
 ["Good.FriedRice.PluralDisplayName"]
 raw = "Fried Rice"
@@ -4384,6 +4673,7 @@ plPL = "Smażony ryż"
 ptBR = "Arroz frito"
 koKR = "볶음밥"
 csCZ = "Smažená rýže"
+viVN = "Cơm chiên"
 
 ["Good.ChestnutStew.DisplayName"]
 raw = "Mushroom Stew"
@@ -4399,6 +4689,7 @@ plPL = "Gulasz grzybowy"
 ptBR = "Ensopado de Cogumelos"
 koKR = "버섯 스튜"
 csCZ = "Houbová polévka"
+viVN = "Nấm hầm"
 
 ["Good.ChestnutStew.PluralDisplayName"]
 raw = "Mushroom Stew"
@@ -4414,6 +4705,7 @@ plPL = "Gulasz grzybowy"
 ptBR = "Ensopado de Cogumelos"
 koKR = "버섯 스튜"
 csCZ = "Houbová polévka"
+viVN = "Nấm hầm"
 
 ["Good.GreenStew.DisplayName"]
 raw = "Vegetable Stew"
@@ -4429,6 +4721,7 @@ plPL = "Gulasz warzywny"
 ptBR = "Ensopado de Legumes"
 koKR = "야채 스튜"
 csCZ = "Zeleninový guláš"
+viVN = "Rau củ hầm"
 
 ["Good.GreenStew.PluralDisplayName"]
 raw = "Vegetable Stew"
@@ -4444,6 +4737,7 @@ plPL = "Gulasz warzywny"
 ptBR = "Ensopado de Legumes"
 koKR = "채소 스튜"
 csCZ = "Zeleninový guláš"
+viVN = "Rau củ hầm"
 
 ["NaturalResource.PinkBirch.DisplayName"]
 raw = "Everblossom"
@@ -4459,6 +4753,7 @@ plPL = "ZawszeKwiat"
 ptBR = "Flor eterna"
 koKR = "영원한 꽃"
 csCZ = "Večná Kvetina"
+viVN = "Hoa Nở Mãi"
 
 ["Lapantouflemagic.SpaciousHouse.DisplayName"]
 raw = "Spacious House"
@@ -4474,6 +4769,7 @@ plPL = "Przestronny dom"
 ptBR = "Casa espaçosa"
 koKR = "넓은 집"
 csCZ = "Prostorný dům"
+viVN = "Nhà rộng rãi"
 
 ["Good.BraisedCabbage.PluralDisplayName"]
 raw = "Braised Cabbage"
@@ -4489,6 +4785,7 @@ plPL = "Duszone Kapusty"
 ptBR = "Repolho Refogado"
 koKR = "양배추 조림"
 csCZ = "Dušené zelí"
+viVN = "Cải bắp hầm"
 
 ["Good.BraisedCabbage.DisplayName"]
 raw = "Braised Cabbage"
@@ -4504,6 +4801,7 @@ plPL = "Duszona kapusta"
 ptBR = "Repolho Refogado"
 koKR = "조리한 양배추"
 csCZ = "Dušené zelí"
+viVN = "Bắp cải kho"
 
 ["Lapantouflemagic.LousyWarehouseS.DisplayName"]
 raw = "Mini Crappy Warehouse"
@@ -4519,6 +4817,7 @@ plPL = "Mini Złomowisko"
 ptBR = "Mini Depósito Ruim"
 koKR = "미니 쓰레기 창고"
 csCZ = "Mini ošklivý sklad"
+viVN = "Kho Nhỏ Tồi Tệ"
 
 ["Lapantouflemagic.LousyWarehouseS.Description"]
 raw = "An embarrassing display of laziness applied to an unworthy task."
@@ -4534,6 +4833,7 @@ plPL = "Żenująca pokaz lenistwa zastosowanego do niegodnego zadania."
 ptBR = "Uma exibição embaraçosa de preguiça aplicada a uma tarefa indigna."
 koKR = "가치 없는 작업에 적용된 부끄러운 게으름을 드러내는 전시."
 csCZ = "Trapné předvedení lenosti u nevhodného úkolu."
+viVN = "Một màn trình diễn lười biếng đáng xấu hổ được áp dụng cho một nhiệm vụ không xứng đáng."
 
 ["Lapantouflemagic.LousyWarehouseS.FlavorDescription"]
 raw = "\"I'm not wasting my time with that\"\n -A builder beaver"
@@ -4549,6 +4849,7 @@ plPL = "\"Nie marnuję swojego czasu na to\" \n - Bob budowniczy"
 ptBR = "\"Eu não estou desperdiçando meu tempo com isso\" - Um castor construtor"
 koKR = "\"그것에 시간을 낭비하지 않을 거야\" - 건축 비버"
 csCZ = "\"Netrávím s tím čas.\"  \n- stavitel bobr"
+viVN = "\"Tôi sẽ không phí thời gian với việc đó\" -một con hải ly thợ xây"
 
 ["NaturalResource.PinkBirch.FlavorDescription"]
 raw = "\"What's cotton candy? Why does everyone call them \"cotton candy tree\"?\"\n -A farmer beaver"
@@ -4564,6 +4865,7 @@ plPL = "\"Co to jest wata cukrowa? Dlaczego wszyscy nazywają je 'drzewem waty c
 ptBR = "\"O que é algodão doce? Por que todo mundo chama eles de 'árvore de algodão doce'?\"  \n- Um castor agricultor"
 koKR = "\"솜사탕이 뭐지? 왜 모든 사람들이 이 나무를 '솜사탕 나무'라고 부르지?\" - 농부 비버"
 csCZ = "\"Co je to cukrová vata? Proč je všichni nazývají „cukrová vata strom“?\" -Farmář bobr"
+viVN = "\"Kẹo bông là gì? Tại sao mọi người lại gọi chúng là \"cây kẹo bông\"?\"\n-Một chú hải ly nông dân"
 
 ["Lapantouflemagic.FoodPlaza.DisplayName"]
 raw = "Great Cooking Tent"
@@ -4579,6 +4881,7 @@ plPL = "Wspaniały Namiot Kulinarny"
 ptBR = "Grande Tenda de Cozinha"
 koKR = "큰 요리 텐트"
 csCZ = "Skvělý vařičský stan"
+viVN = "Lều Nấu Ăn Tuyệt Vời"
 
 ["Good.Salt.DisplayName"]
 raw = "Mountain Salt"
@@ -4594,6 +4897,7 @@ plPL = "Sól Górska"
 ptBR = "Sal de Montanha"
 koKR = "산소금"
 csCZ = "Horské sůl"
+viVN = "Muối Núi"
 
 ["Good.Salt.PluralDisplayName"]
 raw = "Mountain Salt"
@@ -4609,6 +4913,7 @@ plPL = "Sól górska"
 ptBR = "Sal de Montanha"
 koKR = "산소금"
 csCZ = "Horská sůl"
+viVN = "Muối Núi"
 
 ["Good.ZauerKraut.DisplayName"]
 raw = "Sauerkraut"
@@ -4624,6 +4929,7 @@ plPL = "kwaśna kapusta"
 ptBR = "chucrute"
 koKR = "사우어크라우트"
 csCZ = "Kysané zelí"
+viVN = "Dưa cải bắp lên men"
 
 ["Good.ZauerKraut.PluralDisplayName"]
 raw = "Sauerkraut"
@@ -4639,6 +4945,7 @@ plPL = "Kapusta kiszona"
 ptBR = "chucrute"
 koKR = "사우어크라우트"
 csCZ = "Kysané zelí"
+viVN = "Dưa cải bắp"
 
 ["Lapantouflemagic.GreaterCookingtent.DisplayName"]
 raw = "Greater Cooking Tent"
@@ -4654,6 +4961,7 @@ plPL = "Większy namiot do gotowania"
 ptBR = "Tenda de Cozinha Maior"
 koKR = "대형 요리 텐트"
 csCZ = "Velký vařicí stan"
+viVN = "Lều Nấu Ăn Lớn"
 
 ["Lapantouflemagic.GreaterCookingtent.FlavorDescription"]
 raw = "\"Different chefs disagreeing is not uncommon, but one day, three different stew master started arguing on which recipe is best to feed a colony. What ensued was later called ''the great stew war''. Pray for this to never happen again, kits!\"\n -Grandpa beaver, on how he lost his tail."
@@ -4684,6 +4992,7 @@ plPL = "Zielone groszki"
 ptBR = "Ervilhas verdes"
 koKR = "녹색 완두콩"
 csCZ = "Zelený hrášek"
+viVN = "Đậu Hà Lan"
 
 ["Lapantouflemagic.GreenPeas.FlavorDescription"]
 raw = "\"Did you know that fresh green peas are delicious?\"\n -A mommy beaver"
@@ -4699,6 +5008,7 @@ plPL = "\"Czy wiedziałeś, że świeże zielone groch są pyszne?\"  \n - Mama 
 ptBR = "\"Você sabia que ervilhas verdes frescas são deliciosas?\"  \n -Uma mamãe castor"
 koKR = "\"신선한 완두콩이 맛있다는 걸 알고 있었나요?\" - 한 엄마 비버"
 csCZ = "Věděli jste, že čerstvé hrášky jsou chutné?\" - \"Maminka bobr"
+viVN = "\"Bạn có biết đậu Hà Lan xanh tươi ngon không?\"\n -Mẹ hải ly"
 
 ["Lapantouflemagic.NewWaterPump.Description"]
 raw = "Pumps and filters water for beavers to drink.\n<color=#00FFFF>Works as a Levee</color>"
@@ -4714,6 +5024,7 @@ plPL = "Pompy i filtry wodę dla bobrów do picia.  \n<color=#00FFFF>Pracuje jak
 ptBR = "Bombas e filtros água para os castores beberem.  \n<color=#00FFFF>Funciona como um dique</color>"
 koKR = "비버가 마실 수 있도록 물을 펌프하고 필터링합니다.\n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Čerpá a filtruje vodu pro bobry k pití. <color=#00FFFF>Pracuje jako hráz</color>"
+viVN = "Bơm và lọc nước cho hải ly uống.\n<color=#00FFFF>Hoạt động như một đê</color>"
 
 ["Good.MediumCauldron.DisplayName"]
 raw = "Medium Cauldron"
@@ -4729,6 +5040,7 @@ plPL = "Średni Kocioł"
 ptBR = "Caldeirão Médio"
 koKR = "중간 가마솥"
 csCZ = "Střední kotlík"
+viVN = "Nồi đồng trung bình"
 
 ["Good.MediumCauldron.PluralDisplayName"]
 raw = "Medium Cauldrons"
@@ -4744,6 +5056,7 @@ plPL = "Średnie kociołki"
 ptBR = "Caldeirões Médios"
 koKR = "중간 가마"
 csCZ = "Střední kotle"
+viVN = "Nồi vừa"
 
 ["Need.Filth.CriticalDescription"]
 raw = "This beaver is covered in grime and refuses to work if it can't get cleaned up."
@@ -4759,6 +5072,7 @@ plPL = "Ten bóbr jest pokryty brudem i odmawia pracy, jeśli nie może się umy
 ptBR = "Este castor está coberto de sujeira e se recusa a trabalhar se não puder se limpar."
 koKR = "이 비버는 오염물로 덮여 있으며, 청소되지 않으면 일을 하기를 거부합니다."
 csCZ = "Tento bobr je pokrytý špínou a odmítá pracovat, pokud se nemůže umýt."
+viVN = "Con hải ly này đầy bụi bẩn và từ chối làm việc nếu nó không được làm sạch."
 
 ["Need.Filth.CriticalDescriptionShort"]
 raw = "Dirty beaver!"
@@ -4774,6 +5088,7 @@ plPL = "Brudny bóbr!"
 ptBR = "Castor sujo!"
 koKR = "더러운 비버!"
 csCZ = "Špinavý bobr!"
+viVN = "Hải ly bẩn!"
 
 ["Good.Toys.DisplayName"]
 raw = "Wooden Toys"
@@ -4789,6 +5104,7 @@ plPL = "Drewniane zabawki"
 ptBR = "Brinquedos de Madeira"
 koKR = "목재 장난감"
 csCZ = "Dřevěné hračky"
+viVN = "Đồ chơi gỗ"
 
 ["Good.Toys.PluralDisplayName"]
 raw = "Wooden Toys"
@@ -4804,6 +5120,7 @@ plPL = "Drewniane zabawki"
 ptBR = "Brinquedos de Madeira"
 koKR = "나무 장난감"
 csCZ = "Dřevěné Hračky"
+viVN = "Đồ chơi bằng gỗ"
 
 ["Lapantouflemagic.ClayPot.DisplayName"]
 raw = "Clay Pot"
@@ -4819,6 +5136,7 @@ plPL = "Gliniany garnek"
 ptBR = "Panela de Barro"
 koKR = "“점토 항아리”"
 csCZ = "Jílový hrnec"
+viVN = "Chậu đất nung"
 
 ["Lapantouflemagic.ClayPot.PluralDisplayName"]
 raw = "Clay Pots"
@@ -4834,6 +5152,7 @@ plPL = "Gliniane doniczki"
 ptBR = "Vasos de barro"
 koKR = "점토 항아리"
 csCZ = "Hliněné hrnce"
+viVN = "Chậu đất nung"
 
 ["Lapantouflemagic.Filth.DisplayName"]
 raw = "Clean Fur"
@@ -4849,6 +5168,7 @@ plPL = "Czyste futro"
 ptBR = "Pelo Limpo"
 koKR = "깨끗한 털"
 csCZ = "Čistá srst"
+viVN = "Lông sạch"
 
 ["Lapantouflemagic.ClayPit.DisplayName"]
 raw = "Clay Pit"
@@ -4864,6 +5184,7 @@ plPL = "Gliniana Kopalnia"
 ptBR = "Cova de Argila"
 koKR = "점토 채굴장"
 csCZ = "Hliněný důl"
+viVN = "Mỏ đất sét"
 
 ["Lapantouflemagic.ClayPit.Description"]
 raw = "A protected river space for beaver to stir mud and prepare clay."
@@ -4879,6 +5200,7 @@ plPL = "Chronione miejsce nad rzeką dla bobrów do mieszania błota i przygotow
 ptBR = "Um espaço fluvial protegido para castores mexerem na lama e prepararem argila."
 koKR = "비버가 진흙을 저어 점토를 준비할 수 있는 보호된 강 공간입니다."
 csCZ = "Ochráněný říční prostor pro bobry, aby míchali bahno a připravovali hlínu."
+viVN = "Một khu vực trên sông được bảo vệ dành cho hải ly khuấy bùn và chuẩn bị đất sét."
 
 ["Lapantouflemagic.ClayPit.FlavorDescription"]
 raw = "\"Eww! Sticky! Disgusting!\"\n -A claydigger beaver"
@@ -4894,6 +5216,7 @@ plPL = "\"Fuj! Lepkie! Obrzydliwe!\"  \n -Bubr kopacz"
 ptBR = "\"Eca! Pegajoso! Nojento!\"\n -Um castor cavador de argila"
 koKR = "\"우웩! 끈적끈적해! 역겨워!\"  \n- 점토 캐는 비버"
 csCZ = "\"Fuj! Lepkavé! Odporné!\"  \n-Bobr hloubač"
+viVN = "Ối! Dính nhớt! Ghê tởm! -Một con hải ly đào đất sét"
 
 ["Lapantouflemagic.Foundry.DisplayName"]
 raw = "High-temperature Foundry"
@@ -4909,6 +5232,7 @@ plPL = "Odlewnia wysokotemperaturowa"
 ptBR = "Fundição de Alta Temperatura"
 koKR = "고온 주조소"
 csCZ = "Vysokoteplotní kovárna"
+viVN = "Lò đúc nhiệt độ cao"
 
 ["Lapantouflemagic.Foundry.FlavorDescription"]
 raw = "\"Anything can be flammable waste, if you try hard enough.\"\n -The foundry overseer"
@@ -4924,6 +5248,7 @@ plPL = "\"Każda rzecz może być łatwopalnym odpadem, jeśli tylko wystarczaj�
 ptBR = "\"Qualquer coisa pode ser um resíduo inflamável, se você se esforçar o suficiente.\"  \n -O supervisor da fundição"
 koKR = "\"어떤 것이든 열심히 하면 가연성 폐기물이 될 수 있습니다.\"\n - 주철소 감독"
 csCZ = "\"Všechno může být hořlavý odpad, pokud se dostatečně snažíte.\"  \n- Dozorčí slévárny"
+viVN = "\"Bất cứ thứ gì cũng có thể là chất thải dễ cháy, nếu bạn cố gắng đủ.\"\n -Người giám sát xưởng đúc"
 
 ["Lapantouflemagic.RiverBath.DisplayName"]
 raw = "River Bath"
@@ -4939,6 +5264,7 @@ plPL = "Kąpiel w rzece"
 ptBR = "Banho de Rio"
 koKR = "강목욕"
 csCZ = "Říční lázeň"
+viVN = "Bồn tắm sông"
 
 ["Lapantouflemagic.RiverBath.Description"]
 raw = "A simple protected space for many beavers to wash themselves after a long drought."
@@ -4954,6 +5280,7 @@ plPL = "Prosta chroniona przestrzeń dla wielu bobrów, aby mogły się umyć po
 ptBR = "Um espaço protegido e simples para muitos castores se lavarem após uma longa seca."
 koKR = "고온 건조 후 많은 비버들이 씻을 수 있는 간단한 보호 공간입니다."
 csCZ = "Jednoduchý chráněný prostor pro mnoho bobrů, aby se umyli po dlouhém suchu."
+viVN = "Một không gian được bảo vệ đơn giản cho nhiều con hải ly có thể tự tắm sau một đợt hạn hán kéo dài."
 
 ["Lapantouflemagic.RiverBath.FlavorDescription"]
 raw = "\"I want the pink bucket!\" \"No it's mine, I always use it\"\n -Typical kit squabbling"
@@ -4969,6 +5296,7 @@ plPL = "„Chcę różowy wiadro!” „Nie, to moje, zawsze go używam” - typ
 ptBR = "\"Eu quero o balde rosa!\" \"Não, é meu, eu sempre uso.\"  \n- Brigas típicas entre crianças"
 koKR = "나는 분홍색 양동이가 필요해!\" \"아니, 그건 내 거야, 나는 항상 그걸 써\" - 일반적인 아이들의 다툼"
 csCZ = "Chci ten růžový kyblík!\" \"Ne, je můj, vždycky ho používám\" - \"Typické haštěření dětí"
+viVN = "\"Tôi muốn cái xô màu hồng!\" \"Không, nó là của tôi, tôi luôn dùng nó\"\n -Tranh cãi điển hình về bộ dụng cụ"
 
 ["Lapantouflemagic.KitchenHouse.DisplayName"]
 raw = "Mechanized Kitchen House"
@@ -4984,6 +5312,7 @@ plPL = "Zmechanizowana Kuchnia Domowa"
 ptBR = "Casa de Cozinha Mecanizada"
 koKR = "기계화 주방 집"
 csCZ = "Mechanizovaný kuchyňský dům"
+viVN = "Nhà Bếp Cơ Khí"
 
 ["Lapantouflemagic.KitchenHouse.FlavorDescription"]
 raw = "\"My stew is the best stew. Those who disagree...become stew\"\n -Mathilda the insane cook"
@@ -4999,6 +5328,7 @@ plPL = "\"Moje gulasz jest najlepszy. Ci, którzy się nie zgadzają... stają s
 ptBR = "\"Meu ensopado é o melhor ensopado. Aqueles que discordam... se tornam ensopado.\"  \n- Mathilda, a cozinheira insana"
 koKR = "\"내 스튜가 최고의 스튜다. 동의하지 않는 자는... 스튜가 된다.\"  \n- 미친 요리사 마틸다"
 csCZ = "\"Moje polévka je nejlepší polévka. Ti, kdo nesouhlasí... se stanou polévkou.\"  \n-Mathilda, šílená kuchařka"
+viVN = "\"Món hầm của tôi là món hầm ngon nhất. Những kẻ phản đối...hãy trở thành món hầm\" -Mathilda, đầu bếp điên."
 
 ["Lapantouflemagic.Florist.DisplayName"]
 raw = "Florist"
@@ -5014,6 +5344,7 @@ plPL = "Florysta"
 ptBR = "Floricultor"
 koKR = "플로리스트"
 csCZ = "Florista"
+viVN = "Người trồng hoa"
 
 ["Lapantouflemagic.Florist.Description"]
 raw = "A stackable house with a decorated overhand walkway. Can only plant decorative flowers but will assist with the harvests.\n<color=#00FFFF>Works as a Levee</color>"
@@ -5029,6 +5360,7 @@ plPL = "Dom piętrowy z ozdobnym, wiszącym przejściem. Można sadzić tylko kw
 ptBR = "Uma casa empilhável com um caminho coberto decorado. Pode-se plantar apenas flores decorativas, mas ajudará nas colheitas.  \n<color=#00FFFF>Funciona como um Dique</color>"
 koKR = "장식된 오버핸드 보도가 있는 스택 가능한 집입니다. 장식용 꽃만 심을 수 있지만 수확을 도와줍니다.  \n<color=#00FFFF>제방으로 작동합니다</color>"
 csCZ = "Hromadný dům s ozdobenou chůzí. Může sázet pouze dekorativní květiny, ale pomůže s úrody. <color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một căn nhà xếp chồng có hành lang trên cao được trang trí.\nChỉ có thể trồng hoa trang trí nhưng sẽ hỗ trợ thu hoạch.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
 
 ["Lapantouflemagic.Florist.FlavorDescription"]
 raw = "\"Directly eating crops in the fields is what barbarians do, pick them properly first!\"\n -Grandma beaver"
@@ -5059,6 +5391,7 @@ plPL = "Podwieszony chodnik"
 ptBR = "Passarela Saliente"
 koKR = "오버행 보행로"
 csCZ = "Výběhová chodba"
+viVN = "Lối đi trên mái hiên"
 
 ["Lapantouflemagic.Overhang.FlavorDescription"]
 raw = "\"I'm not scared of heights!\"\n -Bobby the fool"
@@ -5074,6 +5407,7 @@ plPL = "\"Nie boję się wysokości!\"  \n -Bobby, głupek"
 ptBR = "\"Eu não tenho medo de alturas!\"  \n -Bobby, o tolo"
 koKR = "\"나는 높은 곳이 무섭지 않아!\" - 바비, 바보"
 csCZ = "\"Toho se nebojím!\" - Bobby, ten blázen"
+viVN = "\"Tôi không sợ độ cao!\" -Bobby kẻ ngốc"
 
 ["Lapantouflemagic.CornerOverhang.DisplayName"]
 raw = "Corner Overhang Walkway"
@@ -5089,6 +5423,7 @@ plPL = "Chodnik z nadwieszeniem na rogu"
 ptBR = "Passarela de Saliência de Canto"
 koKR = "코너 돌출 보도"
 csCZ = "Závěsná chodba v rohu"
+viVN = "Lối đi nhô ở góc"
 
 ["Lapantouflemagic.CornerOverhang.FlavorDescription"]
 raw = "\"Did you steal this icon from me?\"\n -Tobbert"

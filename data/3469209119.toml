@@ -15,6 +15,7 @@ plPL = "Specyficzna zmiana w miejscu pracy"
 ptBR = "Turno específico do local de trabalho"
 koKR = "작업장 전용 교대"
 csCZ = "Změna specifická pro pracovní místo"
+viVN = "Ca làm việc theo nơi làm việc"
 
 ["LV.CWk.BuildingShiftDesc"]
 raw = "Enable setting a specific shift for this workplace."
@@ -30,6 +31,7 @@ plPL = "Włącz ustawienie konkretnej zmiany dla tego miejsca pracy."
 ptBR = "Ative a configuração de um turno específico para este local de trabalho."
 koKR = "이 작업장에 대해 특정 근무 시간을 설정할 수 있습니다."
 csCZ = "Povolit nastavení konkrétní směny pro toto pracoviště."
+viVN = "Kích hoạt thiết lập một ca làm việc cụ thể cho nơi làm việc này."
 
 ["LV.CWk.MaxWorkerMul"]
 raw = "Max Worker Multiplier"
@@ -45,6 +47,7 @@ plPL = "Maksymalny mnożnik pracowników"
 ptBR = "Multiplicador Máximo de Trabalhadores"
 koKR = "최대 작업자 배율"
 csCZ = "Maximální násobitel pracovníků"
+viVN = "Hệ số công nhân tối đa"
 
 ["LV.CWk.MaxWorkerMulDesc"]
 raw = "Multiply the max worker count by this value. Rounded down but to minimum of 1."
@@ -60,6 +63,7 @@ plPL = "Pomnóż maksymalną liczbę pracowników przez tę wartość. Zaokrągl
 ptBR = "Multiplique a contagem máxima de trabalhadores por este valor. Arredonde para baixo, mas com um mínimo de 1."
 koKR = "최대 근무자 수를 이 값으로 곱합니다. 아래로 반올림되지만 최소 1로 제한됩니다."
 csCZ = "Vynásobte maximální počet pracovníků touto hodnotou. Zaokrouhleno dolů, ale minimálně na 1."
+viVN = "Nhân số lượng công nhân tối đa với giá trị này. Làm tròn xuống nhưng tối thiểu là 1."
 
 ["LV.CWk.BotEverywhere"]
 raw = "Bot Everywhere"
@@ -75,6 +79,7 @@ plPL = "Bot wszędzie"
 ptBR = "Bot em Todo Lugar"
 koKR = "봇 어디에나"
 csCZ = "Bot všude"
+viVN = "Bot ở khắp mọi nơi"
 
 ["LV.CWk.BotEverywhereDesc"]
 raw = "Bots will be able to work in any workplace."
@@ -90,6 +95,7 @@ plPL = "Boty będą mogły pracować w każdym miejscu pracy."
 ptBR = "Os robôs poderão trabalhar em qualquer local de trabalho."
 koKR = "봇은 모든 직장에서 작업할 수 있습니다."
 csCZ = "Roboti budou moci pracovat na jakémkoli pracovním místě."
+viVN = "Các bot sẽ có thể làm việc ở bất kỳ nơi làm việc nào."
 
 ["LV.CWk.EnableShift"]
 raw = "Building-specific shift"
@@ -105,6 +111,7 @@ plPL = "Zmiana specyficzna dla budynku"
 ptBR = "Mudança específica do edifício"
 koKR = "건물별 전환"
 csCZ = "Posun specifický pro budovu"
+viVN = "Ca làm việc theo từng công trình"
 
 ["LV.CWk.ShiftHours"]
 raw = "Shift hours:"
@@ -120,6 +127,7 @@ plPL = "Godziny zmianowe:"
 ptBR = "Horário de trabalho:"
 koKR = "근무 시간:"
 csCZ = "Hodinové směny:"
+viVN = "Giờ ca:"
 
 ["LV.CWk.LunchBreakStart"]
 raw = "Lunch break start:"
@@ -135,6 +143,7 @@ plPL = "Pauza na lunch zaczyna się:"
 ptBR = "Início do intervalo para o almoço:"
 koKR = "점심 시간 시작:"
 csCZ = "Začátek polední přestávky:"
+viVN = "Bắt đầu giờ nghỉ trưa:"
 
 ["LV.CWk.LunchBreakEnd"]
 raw = "Lunch break end:"
@@ -150,3 +159,4 @@ plPL = "Koniec przerwy na lunch:"
 ptBR = "Fim do intervalo para o almoço:"
 koKR = "점심 시간 종료:"
 csCZ = "Konec obědové přestávky:"
+viVN = "Kết thúc giờ nghỉ trưa:"

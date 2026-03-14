@@ -15,6 +15,7 @@ plPL = "Aktywne efekty"
 ptBR = "Efeitos ativos"
 koKR = "활성 효과"
 csCZ = "Aktivní efekty"
+viVN = "Hiệu ứng đang hoạt động"
 
 ["LV.MT.ActiveEffect"]
 raw = "• <b>{0}</b>\n{1}"
@@ -30,6 +31,7 @@ plPL = "• <b>{0}</b>\n{1}"
 ptBR = "• <b>{0}</b>\n{1}"
 koKR = "• <b>{0}</b>\n{1}"
 csCZ = "• <b>{0}</b>\n{1}"
+viVN = "• <b>{0}</b>\n{1}"
 
 ["LV.MT.ActiveEffectTime"]
 raw = "{0:0.00}d remaining"
@@ -45,6 +47,7 @@ plPL = "{0:0.00}d pozostało"
 ptBR = "{0:0.00}d restantes"
 koKR = "{0:0.00}일 남음"
 csCZ = "{0:0.00}d zbývá"
+viVN = "{0:0.00} ngày còn lại"
 
 ["LV.MT.UnknownSettings"]
 raw = "Unknown settings"
@@ -60,6 +63,7 @@ plPL = "Nieznane ustawienia"
 ptBR = "Configurações desconhecidas"
 koKR = "알 수 없는 설정"
 csCZ = "Neznámá nastavení"
+viVN = "Cài đặt không xác định"
 
 ["LV.MT.UnknownValue"]
 raw = "Unknown value: {0}"
@@ -75,6 +79,7 @@ plPL = "Nieznana wartość: {0}"
 ptBR = "Valor desconhecido: {0}"
 koKR = "알 수 없는 값: {0}"
 csCZ = "Neznámá hodnota: {0}"
+viVN = "Giá trị không xác định: {0}"
 
 ["LV.MT.UnknownSettingsDescription"]
 raw = "Unknown settings: {0}"
@@ -90,6 +95,7 @@ plPL = "Nieznane ustawienia: {0}"
 ptBR = "Configurações desconhecidas: {0}"
 koKR = "알 수 없는 설정: {0}"
 csCZ = "Neznámá nastavení: {0}"
+viVN = "Thiết lập không xác định: {0}"
 
 ["LV.MT.BldSet.Automatable"]
 status = "normal"
@@ -105,6 +111,7 @@ plPL = "Zautomatyzowalne"
 ptBR = "Automatizável"
 koKR = "자동화 가능"
 csCZ = "Automatizovatelné"
+viVN = "Có thể tự động hóa"
 
 ["LV.MT.BldSet.PausableBuilding"]
 raw = "Pausing"
@@ -120,6 +127,7 @@ plPL = "Wstrzymanie"
 ptBR = "Pausando"
 koKR = "일시 정지"
 csCZ = "Pauza"
+viVN = "Đang tạm dừng"
 
 ["LV.MT.BldSet.TimedComponentActivator"]
 raw = "[DEV] Time Activator"
@@ -135,6 +143,7 @@ plPL = "[DEV] Aktywator Czasu"
 ptBR = "[DEV] Ativador de Tempo"
 koKR = "[DEV] 시간 활성기"
 csCZ = "[DEV] Aktivátor času"
+viVN = "[DEV] Bộ kích hoạt thời gian"
 
 ["LV.MT.BldSet.BuilderPrioritizable"]
 raw = "Construction Priority"
@@ -150,6 +159,7 @@ plPL = "Priorytet budowy"
 ptBR = "Prioridade de Construção"
 koKR = "건설 우선 순위"
 csCZ = "Priorita stavby"
+viVN = "Ưu tiên xây dựng"
 
 ["LV.MT.BldSet.DecalSupplier"]
 raw = "Decal"
@@ -165,6 +175,7 @@ plPL = "Dekal"
 ptBR = "Decalque"
 koKR = "데칼"
 csCZ = "Decal"
+viVN = "Decal"
 
 ["LV.MT.BldSet.FlippableDecal"]
 raw = "Decal Flipping"
@@ -180,6 +191,7 @@ plPL = "Obracający się dekaler"
 ptBR = "Decal Flipável"
 koKR = "스티커 뒤집기"
 csCZ = "Obrátit nálepku"
+viVN = "Lật decal"
 
 ["LV.MT.BldSet.Demolishable"]
 raw = "Demolishing"
@@ -195,6 +207,7 @@ plPL = "Demontowanie"
 ptBR = "Demolindo"
 koKR = "철거 중"
 csCZ = "Demolice"
+viVN = "Đang phá dỡ"
 
 ["LV.MT.BldSet.Chronometer"]
 status = "normal"
@@ -210,6 +223,7 @@ plPL = "Chronometr"
 ptBR = "Cronômetro"
 koKR = "초시계"
 csCZ = "Chronometr"
+viVN = "Đồng hồ đo thời gian"
 
 ["LV.MT.BldSet.ContaminationSensor"]
 status = "normal"
@@ -225,6 +239,7 @@ plPL = "Czujnik zanieczyszczeń"
 ptBR = "Sensor de Contaminação"
 koKR = "오염 센서"
 csCZ = "Senzor kontaminace"
+viVN = "Cảm biến ô nhiễm"
 
 ["LV.MT.BldSet.DepthSensor"]
 status = "normal"
@@ -240,6 +255,7 @@ plPL = "Czujnik głębokości"
 ptBR = "Sensor de Profundidade"
 koKR = "수심 센서"
 csCZ = "Hloubkový senzor"
+viVN = "Cảm biến độ sâu"
 
 ["LV.MT.BldSet.FlowSensor"]
 status = "normal"
@@ -255,6 +271,7 @@ plPL = "Czujnik przepływu"
 ptBR = "Sensor de Vazão"
 koKR = "유량 센서"
 csCZ = "Průtokový senzor"
+viVN = "Cảm biến dòng chảy"
 
 ["LV.MT.BldSet.Gate"]
 status = "normal"
@@ -270,6 +287,7 @@ plPL = "Brama"
 ptBR = "Portão"
 koKR = "게이트"
 csCZ = "Brána"
+viVN = "Cổng"
 
 ["LV.MT.BldSet.Indicator"]
 status = "normal"
@@ -285,6 +303,7 @@ plPL = "Wskaźnik"
 ptBR = "Indicador"
 koKR = "지시등"
 csCZ = "Indikátor"
+viVN = "Chỉ báo"
 
 ["LV.MT.BldSet.Lever"]
 status = "normal"
@@ -300,6 +319,7 @@ plPL = "Dźwignia"
 ptBR = "Alavanca"
 koKR = "레버"
 csCZ = "Páka"
+viVN = "Cần gạt"
 
 ["LV.MT.BldSet.Memory"]
 status = "normal"
@@ -315,6 +335,7 @@ plPL = "Pamięć"
 ptBR = "Memória"
 koKR = "메모리"
 csCZ = "Paměť"
+viVN = "Bộ nhớ"
 
 ["LV.MT.BldSet.PopulationCounter"]
 status = "normal"
@@ -330,6 +351,7 @@ plPL = "Licznik populacji"
 ptBR = "Contador de População"
 koKR = "인구 수"
 csCZ = "Počet obyvatel"
+viVN = "Bộ đếm dân số"
 
 ["LV.MT.BldSet.PowerMeter"]
 status = "normal"
@@ -345,6 +367,7 @@ plPL = "Miernik energii"
 ptBR = "Medidor de energia"
 koKR = "전력계"
 csCZ = "Měřič výkonu"
+viVN = "Đồng hồ đo công suất"
 
 ["LV.MT.BldSet.Relay"]
 status = "normal"
@@ -360,6 +383,7 @@ plPL = "Przekaźnik"
 ptBR = "Relé"
 koKR = "릴레이"
 csCZ = "Relé"
+viVN = "Rơ-le"
 
 ["LV.MT.BldSet.ResourceCounter"]
 status = "normal"
@@ -375,6 +399,7 @@ plPL = "Licznik zasobów"
 ptBR = "Contador de Recursos"
 koKR = "자원 수"
 csCZ = "Počítadlo zdrojů"
+viVN = "Bộ đếm tài nguyên"
 
 ["LV.MT.BldSet.ScienceCounter"]
 status = "normal"
@@ -390,6 +415,7 @@ plPL = "Licznik nauki"
 ptBR = "Contador de Ciência"
 koKR = "과학 카운터"
 csCZ = "Vědecké počítadlo"
+viVN = "Bộ đếm Khoa học"
 
 ["LV.MT.BldSet.Speaker"]
 status = "normal"
@@ -405,6 +431,7 @@ plPL = "Głośnik"
 ptBR = "Alto-falante"
 koKR = "확성기"
 csCZ = "Reproduktor"
+viVN = "Loa phát thanh"
 
 ["LV.MT.BldSet.Timer"]
 status = "normal"
@@ -420,6 +447,7 @@ plPL = "Czasomierz"
 ptBR = "Temporizador"
 koKR = "타이머"
 csCZ = "Časovač"
+viVN = "Bộ đếm thời gian"
 
 ["LV.MT.BldSet.WeatherStation"]
 status = "normal"
@@ -435,6 +463,7 @@ plPL = "Stacja pogodowa"
 ptBR = "Estação Meteorológica"
 koKR = "기상 관측소"
 csCZ = "Meteorologická stanice"
+viVN = "Trạm thời tiết"
 
 ["LV.MT.BldSet.FireworkLauncher"]
 status = "normal"
@@ -450,6 +479,7 @@ plPL = "Wyrzutnia fajerwerków"
 ptBR = "Lançador de Fogos de Artifício"
 koKR = "폭죽 발사대"
 csCZ = "Ohňostrojový vystřelovač"
+viVN = "Máy phóng pháo hoa"
 
 ["LV.MT.BldSet.HttpAdapter"]
 status = "normal"
@@ -465,6 +495,7 @@ plPL = "adapter HTTP"
 ptBR = "Adaptador HTTP"
 koKR = "HTTP 어댑터"
 csCZ = "HTTP adaptér"
+viVN = "Bộ điều hợp HTTP"
 
 ["LV.MT.BldSet.CustomizableIlluminator"]
 status = "normal"
@@ -480,6 +511,7 @@ plPL = "Oświetlacz"
 ptBR = "Iluminador"
 koKR = "조명장치"
 csCZ = "Osvětlovač"
+viVN = "Đèn chiếu sáng"
 
 ["LV.MT.BldSet.Clutch"]
 status = "normal"
@@ -495,6 +527,7 @@ plPL = "Sprzęgło"
 ptBR = "Embragem"
 koKR = "클러치"
 csCZ = "Spojka"
+viVN = "Ly hợp"
 
 ["LV.MT.BldSet.Valve"]
 status = "normal"
@@ -510,6 +543,7 @@ plPL = "Zawór"
 ptBR = "Válvula"
 koKR = "밸브"
 csCZ = "Ventil"
+viVN = "Van"
 
 ["LV.MT.BldSet.UnstableCore"]
 raw = "Unstable Core"
@@ -525,6 +559,7 @@ plPL = "Niestabilne Jądro"
 ptBR = "Núcleo Instável"
 koKR = "불안정 핵"
 csCZ = "Nestabilní jádro"
+viVN = "Lõi không ổn định"
 
 ["LV.MT.BldSet.UnstableCore.Desc"]
 raw = "Radius: {0}"
@@ -540,6 +575,7 @@ plPL = "Promień: {0}"
 ptBR = "Raio: {0}"
 koKR = "반경: {0}"
 csCZ = "Radius: {0}"
+viVN = "Bán kính: {0}"
 
 ["LV.MT.BldSet.FarmHouse"]
 raw = "Farming Prioritized"
@@ -555,6 +591,7 @@ plPL = "Priorytet rolnictwa"
 ptBR = "Fazenda Priorizada"
 koKR = "농사 우선"
 csCZ = "Př prioritizace zemědělství"
+viVN = "Ưu tiên nông nghiệp"
 
 ["LV.MT.BldSet.Forester"]
 raw = "Replant dead trees"
@@ -570,6 +607,7 @@ plPL = "Ponownie zasadzić martwe drzewa"
 ptBR = "Replantar árvores mortas"
 koKR = "죽은 나무 재심기"
 csCZ = "Zasázet mrtvé stromy"
+viVN = "Trồng lại các cây chết."
 
 ["LV.MT.BldSet.GatherablePrioritizer"]
 raw = "Gathering Priority"
@@ -585,6 +623,7 @@ plPL = "Priorytet zbierania"
 ptBR = "Prioridade de Coleta"
 koKR = "채집 우선순위"
 csCZ = "Priorita sběru"
+viVN = "Ưu tiên thu thập"
 
 ["LV.MT.BldSet.HaulPrioritizable"]
 raw = "Prioritize Hauling"
@@ -600,6 +639,7 @@ plPL = "Priorytet transportu"
 ptBR = "Priorizar Transporte"
 koKR = "운반 우선순위 지정"
 csCZ = "Prioritizovat přepravu"
+viVN = "Ưu tiên vận chuyển"
 
 ["LV.MT.BldSet.SingleGoodAllower"]
 raw = "Storage good"
@@ -615,6 +655,7 @@ plPL = "Magazyn towarów"
 ptBR = "Armazenar bens"
 koKR = "저장 품목"
 csCZ = "Úložný předmět"
+viVN = "Lưu trữ tốt"
 
 ["LV.MT.BldSet.FixedStockpileInventorySetter"]
 raw = "Reserve inventory"
@@ -630,6 +671,7 @@ plPL = "Rezerwa zapasów"
 ptBR = "Inventário reservado"
 koKR = "예비 재고"
 csCZ = "Rezervní inventář"
+viVN = "Dự trữ tồn kho"
 
 ["LV.MT.BldSet.PlantablePrioritizer"]
 raw = "Planting Prioritized"
@@ -645,6 +687,7 @@ plPL = "Priorytet sadzenia"
 ptBR = "Plantação Prioritária"
 koKR = "심기 우선"
 csCZ = "Výsadba prioritizována"
+viVN = "Trồng được ưu tiên"
 
 ["LV.MT.BldSet.StockpilePriority"]
 raw = "Stockpile Priority"
@@ -660,6 +703,7 @@ plPL = "Priorytet magazynu"
 ptBR = "Prioridade do Armazém"
 koKR = "재고 우선순위"
 csCZ = "Priorita zásobníku"
+viVN = "Ưu tiên kho lưu trữ"
 
 ["LV.MT.BldSet.Floodgate"]
 raw = "Floodgate"
@@ -675,6 +719,7 @@ plPL = "Zaporę"
 ptBR = "Portão de Inundação"
 koKR = "홍수 차단기"
 csCZ = "Záplavová brána"
+viVN = "Cửa chắn lũ"
 
 ["LV.MT.BldSet.Floodgate.Desc"]
 raw = "{0}m, Synch: {1}"
@@ -690,6 +735,7 @@ plPL = "{0}m, Synch: {1}"
 ptBR = "{0}m, Sincronização: {1}"
 koKR = "{0}m, 동기화: {1}"
 csCZ = "{0}m, Synchronizace: {1}"
+viVN = "{0}m, Đồng bộ: {1}"
 
 ["LV.MT.BldSet.Sluice"]
 raw = "Sluice"
@@ -705,6 +751,7 @@ plPL = "Zastawka"
 ptBR = "Compuerta"
 koKR = "수문"
 csCZ = "Vodní zámek"
+viVN = "Cửa xả nước"
 
 ["LV.MT.BldSet.WaterInputCoordinates"]
 raw = "Pump depth limit"
@@ -720,6 +767,7 @@ plPL = "Limit głębokości pompy"
 ptBR = "Limite de profundidade da bomba"
 koKR = "펌프 깊이 제한"
 csCZ = "Limit hloubky čerpadla"
+viVN = "Độ sâu tối đa của bơm"
 
 ["LV.MT.BldSet.WaterMover"]
 raw = "Pump Water Type"
@@ -735,6 +783,7 @@ plPL = "Typ Pompy Wody"
 ptBR = "Tipo de Bomba de Água"
 koKR = "물 펌프 유형"
 csCZ = "Typ čerpadla vody"
+viVN = "Loại bơm nước"
 
 ["LV.MT.BldSet.WaterSource"]
 raw = "[DEV] Water Source Strength"
@@ -750,6 +799,7 @@ plPL = "[DEV] Siła źródła wody"
 ptBR = "[DEV] Força da Fonte de Água"
 koKR = "[DEV] 물 공급 강도"
 csCZ = "[DEV] Síla zdroje vody"
+viVN = "[DEV] Cường độ nguồn nước"
 
 ["LV.MT.BldSet.WaterSource.Desc"]
 raw = "[DEV] Water Source Strength"
@@ -765,6 +815,7 @@ plPL = "[DEV] Siła Źródła Wody"
 ptBR = "[DEV] Força da Fonte de Água"
 koKR = "[개발] 물 공급 강도"
 csCZ = "[DEV] Síla vodního zdroje"
+viVN = "[DEV] Cường độ nguồn nước"
 
 ["LV.MT.BldSet.WaterSourceRegulator"]
 raw = "Badwater seal"
@@ -780,6 +831,7 @@ plPL = "Uszczelka do brudnej wody"
 ptBR = "Válvula de água contaminada"
 koKR = "오염수 밀봉"
 csCZ = "Uzávěr špatné vody"
+viVN = "Phớt nước ô nhiễm"
 
 ["LV.MT.BldSet.Manufactory"]
 raw = "Manufactory Recipe"
@@ -795,6 +847,7 @@ plPL = "Przepis na Manufakturę"
 ptBR = "Receita da Manufatura"
 koKR = "제작소 레시피"
 csCZ = "Recept na manufakturu"
+viVN = "Công thức xưởng chế tác"
 
 ["LV.MT.BldSet.DistrictDefaultWorkerType"]
 raw = "District Default Worker Type"
@@ -810,6 +863,7 @@ plPL = "Typ pracownika domyślnego w dzielnicy"
 ptBR = "Tipo de Trabalhador Padrão do Distrito"
 koKR = "구역 기본 작업자 유형"
 csCZ = "Výchozí typ pracovníka okresu"
+viVN = "Loại công nhân mặc định của khu vực"
 
 ["LV.MT.BldSet.Workplace"]
 raw = "Workplace Workers"
@@ -825,6 +879,7 @@ plPL = "Pracownicy Miejsca Pracy"
 ptBR = "Trabalhadores do Local de Trabalho"
 koKR = "작업장 근로자"
 csCZ = "Pracovníci na pracovišti"
+viVN = "Công nhân tại nơi làm việc"
 
 ["LV.MT.BldSet.WorkplacePriority"]
 raw = "Worker Priority"
@@ -840,6 +895,7 @@ plPL = "Wysokość priorytetu pracownika"
 ptBR = "Prioridade do Trabalhador"
 koKR = "근무자 우선순위"
 csCZ = "Priorita pracovníka"
+viVN = "Ưu tiên công nhân"
 
 ["LV.MT.BldSet.WorkplaceWorkerType"]
 raw = "Workplace Worker Type"
@@ -855,6 +911,7 @@ plPL = "Typ pracownika w miejscu pracy"
 ptBR = "Tipo de Trabalhador do Local de Trabalho"
 koKR = "작업장 근로자 유형"
 csCZ = "Typ pracovníka na pracovišti"
+viVN = "Loại công nhân cho nơi làm việc"
 
 [Name_EntityEffectDescriberFragment]
 raw = "Active effects"
@@ -870,3 +927,4 @@ plPL = "Aktywne efekty"
 ptBR = "Efeitos ativos"
 koKR = "활성 효과"
 csCZ = "Aktivní efekty"
+viVN = "Hiệu ứng đang hoạt động"

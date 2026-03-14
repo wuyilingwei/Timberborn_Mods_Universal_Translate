@@ -15,6 +15,7 @@ plPL = "Zmień rozmiar mapy"
 ptBR = "Redimensionar mapa"
 koKR = "맵 크기 조정"
 csCZ = "Změnit velikost mapy"
+viVN = "Thay đổi kích thước bản đồ"
 
 ["LV.MRe.Resize"]
 raw = "Resize"
@@ -30,6 +31,7 @@ plPL = "Zmień rozmiar"
 ptBR = "Redimensionar"
 koKR = "크기 조절"
 csCZ = "Přizpůsobit velikost"
+viVN = "Thay đổi kích thước"
 
 ["LV.MRe.ExandStrat"]
 raw = "Expand Strategy"
@@ -45,6 +47,7 @@ plPL = "Rozszerz strategię"
 ptBR = "Expandir Estratégia"
 koKR = "전략 확장"
 csCZ = "Rozšiřovací strategie"
+viVN = "Mở rộng chiến lược"
 
 ["LV.MRe.ExandStratCopy"]
 raw = "Copy edge"
@@ -60,6 +63,7 @@ plPL = "Krawędź kopiuj"
 ptBR = "Cópia de borda"
 koKR = "가장자리 복사"
 csCZ = "Kopírovat okraj"
+viVN = "Sao chép cạnh"
 
 ["LV.MRe.ExandStratMirror"]
 raw = "Mirror"
@@ -75,6 +79,7 @@ plPL = "Lustro"
 ptBR = "Espelho"
 koKR = "거울"
 csCZ = "Zrcadlo"
+viVN = "Phản chiếu"
 
 ["LV.MRe.OfferToLoad"]
 raw = "Resized map saved. Do you want to load that save? Note: continuing this session will likely crash the game anyway."
@@ -90,6 +95,7 @@ plPL = "Zmieniona mapa zapisana. Czy chcesz załadować tę zapisaną wersję? U
 ptBR = "Mapa redimensionado salvo. Você deseja carregar essa gravação? Nota: continuar esta sessão provavelmente fará o jogo travar de qualquer maneira."
 koKR = "크기가 조정된 맵이 저장되었습니다. 해당 저장을 로드하시겠습니까? 참고: 이 세션을 계속하면 게임이 충돌할 가능성이 높습니다."
 csCZ = "Mapu přizpůsobenou na velikost je uložena. Chcete načíst toto uložení? Poznámka: pokračování v této relaci pravděpodobně hru stejně způsobí pád."
+viVN = "Bản đồ đã được lưu sau khi thay đổi kích thước. Bạn có muốn tải bản lưu đó không? Lưu ý: tiếp tục phiên này có thể khiến trò chơi bị treo hoặc gặp sự cố."
 
 ["LV.MRe.ResizeInvalidObj"]
 raw = "There are objects outside of the map after you shrink it. Remove all those objects before shrinking to prevent crashing? (This action will only remove the objects, you need to come back here to resize again)"
@@ -105,6 +111,7 @@ plPL = "Są obiekty poza mapą po jej pomniejszeniu. Usuń wszystkie te obiekty 
 ptBR = "Existem objetos fora do mapa depois que você o reduz. Remova todos esses objetos antes de reduzir para evitar uma falha? (Esta ação só removerá os objetos, você precisará voltar aqui para redimensionar novamente)"
 koKR = "크기 조정 후 맵 밖에 객체가 있습니다. 충돌을 방지하기 위해 크기를 줄이기 전에 해당 객체를 모두 제거하시겠습니까? (이 작업은 객체만 제거하며, 다시 크기를 조정하려면 이곳으로 돌아와야 합니다)"
 csCZ = "Na mapě zůstaly objekty po jejím zmenšení. Odstraňte všechny tyto objekty před zmenšením, abyste předešli pádu hry? (Tato akce pouze odstraní objekty, musíte se sem vrátit, abyste mohli znovu změnit velikost)"
+viVN = "Có các đối tượng ở ngoài bản đồ sau khi bạn thu nhỏ nó. Xóa tất cả những đối tượng đó trước khi thu nhỏ để tránh bị treo? (Hành động này chỉ xóa các đối tượng, bạn cần quay lại đây để thay đổi kích thước lần nữa)"
 
 ["LV.MRe.SeeInvalidObj"]
 raw = "See invalid object"
@@ -120,6 +127,7 @@ plPL = "Zobacz niezwiązaną (lub nieprawidłową) rzecz"
 ptBR = "Veja objeto inválido"
 koKR = "잘못된 객체 보기"
 csCZ = "Zobrazit neplatný objekt"
+viVN = "Xem đối tượng không hợp lệ"
 
 ["LV.MRe.AutoRemove"]
 raw = "Remove them all"
@@ -135,6 +143,7 @@ plPL = "Usuń je wszystkie."
 ptBR = "Remova todos eles"
 koKR = "모두 제거하기"
 csCZ = "Odstranit je všechny"
+viVN = "Xóa tất cả"
 
 ["LV.MRe.SaveWarning"]
 raw = "<RedHighlight>Remember to save your game before resizing the map! This game session will likely not work anymore after resizing. You should also pause the game before using this.</RedHighlight>"
@@ -150,6 +159,7 @@ plPL = "<RedHighlight>Pamiętaj, aby zapisać grę przed zmianą rozmiaru mapy! 
 ptBR = "<RedHighlight>Lembre-se de salvar seu jogo antes de redimensionar o mapa! Esta sessão de jogo provavelmente não funcionará mais após o redimensionamento. Você também deve pausar o jogo antes de usar isso.</RedHighlight>"
 koKR = "<RedHighlight>지도를 크기 변경하기 전에 게임을 저장하는 것을 잊지 마세요! 크기 변경 후 이 게임 세션은 더 이상 작동하지 않을 가능성이 높습니다. 사용하기 전에 게임을 일시 정지하는 것이 좋습니다.</RedHighlight>"
 csCZ = "<RoseHighlight>Nezapomeňte si uložit hru před změnou velikosti mapy! Tato herní relace pravděpodobně po změně velikosti nebude fungovat. Měli byste také hru pozastavit před jejím použitím.</RoseHighlight>"
+viVN = "<RedHighlight>Hãy lưu trò chơi của bạn trước khi điều chỉnh kích thước bản đồ! Phiên chơi này có thể sẽ không còn hoạt động nữa sau khi thay đổi kích thước bản đồ. Bạn cũng nên tạm dừng trò chơi trước khi sử dụng thao tác này.</RedHighlight>"
 
 ["LV.MRe.Size0"]
 raw = "Width (X)"
@@ -165,6 +175,7 @@ plPL = "Szerokość (X)"
 ptBR = "Largura (X)"
 koKR = "너비 (X)"
 csCZ = "Šířka (X)"
+viVN = "Chiều rộng (X)"
 
 ["LV.MRe.Size1"]
 raw = "Breadth (Y)"
@@ -180,6 +191,7 @@ plPL = "Głębokość (Y)"
 ptBR = "Profundidade (Y)"
 koKR = "폭 (Y)"
 csCZ = "Šířka (Y)"
+viVN = "Chiều rộng (Y)"
 
 ["LV.MRe.Size2"]
 raw = "Max Terrain Height (Z1)"
@@ -195,6 +207,7 @@ plPL = "Maksymalna wysokość terenu (Z1)"
 ptBR = "Altura Máxima do Terreno (Z1)"
 koKR = "최대 지형 높이 (Z1)"
 csCZ = "Maximální výška terénu (Z1)"
+viVN = "Chiều cao địa hình tối đa (Z1)"
 
 ["LV.MRe.Size3"]
 raw = "Max Above Terrain (Z1+)"
@@ -210,3 +223,4 @@ plPL = "Maksymalna wysokość nad terenem (Z1+)"
 ptBR = "Max Acima do Terreno (Z1+)"
 koKR = "지형 위 최대 (Z1+)"
 csCZ = "Max nad terénem (Z1+)"
+viVN = "Tối đa trên địa hình (Z1+)"

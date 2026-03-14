@@ -15,6 +15,7 @@ plPL = "Produkcja Bobrów"
 ptBR = "Produtividade do Castor"
 koKR = "비버 생산성"
 csCZ = "Produktivita bobrů"
+viVN = "Năng suất hải ly"
 
 ["BeaverStatistics.KeyBinding"]
 raw = "Beaver Productivity Tab"
@@ -30,6 +31,7 @@ plPL = "Zakładka Produktywności Bóbrów"
 ptBR = "Guia de Produtividade do Castor"
 koKR = "비버 생산성 탭"
 csCZ = "Záložka produktivity bobrů"
+viVN = "Tab Năng suất Hải ly"
 
 ["BeaverStatistics.Settings.Header"]
 raw = "Beaver Statistics Settings"
@@ -45,6 +47,7 @@ plPL = "Ustawienia statystyk bobrów"
 ptBR = "Configurações de Estatísticas dos Castores"
 koKR = "비버 통계 설정"
 csCZ = "Nastavení statistik bobrů"
+viVN = "Cài đặt Thống kê Hải Ly"
 
 ["BeaverStatistics.Settings.UpdateInterval"]
 raw = "Update Interval (% of day)"
@@ -60,6 +63,7 @@ plPL = "Interwał aktualizacji (% dnia)"
 ptBR = "Intervalo de Atualização (% do dia)"
 koKR = "업데이트 간격 (% 하루 기준)"
 csCZ = "Interval aktualizace (% dne)"
+viVN = "Khoảng thời gian cập nhật (phần trăm của một ngày)"
 
 ["BeaverStatistics.Settings.UpdateInterval.Tooltip"]
 raw = "How often to update statistics for long-running activities. 1% = 14.4min, 10% = 2.4hrs, 100% = 24hrs"
@@ -75,6 +79,7 @@ plPL = "Jak często aktualizować statystyki dla długoterminowych działań. 1%
 ptBR = "Com que frequência atualizar as estatísticas de atividades de longa duração. 1% = 14,4min, 10% = 2,4hrs, 100% = 24hrs"
 koKR = "장기 활동에 대한 통계를 얼마나 자주 업데이트할지 설정합니다. 1% = 14.4분, 10% = 2.4시간, 100% = 24시간"
 csCZ = "Jak často aktualizovat statistiky pro dlouhotrvající aktivity. 1 % = 14,4 min, 10 % = 2,4 hod, 100 % = 24 hod"
+viVN = "Tần suất cập nhật thống kê cho các hoạt động kéo dài. 1% = 14,4 phút, 10% = 2,4 giờ, 100% = 24 giờ"
 
 ["BeaverStatistics.Settings.YellowThreshold"]
 raw = "Yellow Warning Threshold (%)"
@@ -90,6 +95,7 @@ plPL = "Żółty próg ostrzeżenia (%)"
 ptBR = "Limite de Aviso Amarelo (%)"
 koKR = "노란 경고 임계값 (%)"
 csCZ = "Žlutý varovný práh (%)"
+viVN = "Ngưỡng cảnh báo vàng (%)"
 
 ["BeaverStatistics.Settings.YellowThreshold.Tooltip"]
 raw = "Behaviors taking more than this percentage will be shown in yellow"
@@ -105,6 +111,7 @@ plPL = "Zachowania zajmujące więcej niż ten procent będą wyświetlane na ż
 ptBR = "Comportamentos que ultrapassarem essa porcentagem serão exibidos em amarelo."
 koKR = "이 비율을 초과하는 행동은 노란색으로 표시됩니다."
 csCZ = "Chování, které zabere více než toto procento, bude zobrazeno žlutě"
+viVN = "Các hành vi chiếm nhiều hơn mức phần trăm này sẽ được hiển thị bằng màu vàng."
 
 ["BeaverStatistics.Settings.RedThreshold"]
 raw = "Red Alert Threshold (%)"
@@ -120,6 +127,7 @@ plPL = "Próg Czerwonego Alarmu (%)"
 ptBR = "Limite de Alerta Vermelho (%)"
 koKR = "적색 경고 임계값 (%)"
 csCZ = "Prahová hodnota červeného upozornění (%)"
+viVN = "Ngưỡng cảnh báo đỏ (%)"
 
 ["BeaverStatistics.Settings.RedThreshold.Tooltip"]
 raw = "Behaviors taking more than this percentage will be shown in red"
@@ -135,6 +143,7 @@ plPL = "Zachowania przekraczające ten procent będą wyświetlane na czerwono"
 ptBR = "Comportamentos que ultrapassarem esta porcentagem serão mostrados em vermelho."
 koKR = "이 비율을 초과하는 행동은 빨간색으로 표시됩니다."
 csCZ = "Chování, které zabere více než toto procento, bude zobrazeno červeně"
+viVN = "Các hành vi chiếm tỷ lệ lớn hơn phần trăm này sẽ được hiển thị bằng màu đỏ."
 
 ["BeaverStatistics.Behavior.WanderRootBehavior"]
 raw = "Wander"
@@ -150,6 +159,7 @@ plPL = "Wędrować"
 ptBR = "Vagar"
 koKR = "방황"
 csCZ = "Toulání"
+viVN = "Lang thang"
 
 ["BeaverStatistics.Behavior.CarryRootBehavior"]
 raw = "Carry"
@@ -165,6 +175,7 @@ plPL = "Nieść"
 ptBR = "Carregar"
 koKR = "운반"
 csCZ = "Nosit"
+viVN = "Mang"
 
 ["BeaverStatistics.Behavior.CharacterControlRootBehavior"]
 raw = "Controlled"
@@ -180,6 +191,7 @@ plPL = "Sterowany"
 ptBR = "Controlado"
 koKR = "제어됨"
 csCZ = "Ovládaný"
+viVN = "Được điều khiển"
 
 ["BeaverStatistics.Behavior.DeadRootBehavior"]
 raw = "Dead"
@@ -195,6 +207,7 @@ plPL = "Martwy"
 ptBR = "Morto"
 koKR = "죽음"
 csCZ = "Mrtvý"
+viVN = "Chết"
 
 ["BeaverStatistics.Behavior.DieRootBehavior"]
 raw = "Dying"
@@ -210,6 +223,7 @@ plPL = "Umieranie"
 ptBR = "Moribundo"
 koKR = "죽음"
 csCZ = "Umírání"
+viVN = "Đang chết"
 
 ["BeaverStatistics.Behavior.ContaminateRootBehavior"]
 raw = "Contaminated"
@@ -225,6 +239,7 @@ plPL = "Zanieczyszczony"
 ptBR = "Contaminado"
 koKR = "오염됨"
 csCZ = "Znečištěný"
+viVN = "Ô nhiễm"
 
 ["BeaverStatistics.Behavior.CriticalNeederRootBehavior"]
 raw = "Critical Need"
@@ -240,6 +255,7 @@ plPL = "Pilna potrzeba"
 ptBR = "Necessidade Crítica"
 koKR = "결정적 필요"
 csCZ = "Kritická potřeba"
+viVN = "Nhu cầu cấp thiết"
 
 ["BeaverStatistics.Behavior.StrandedRootBehavior"]
 raw = "Stranded"
@@ -255,6 +271,7 @@ plPL = "Zagubiony"
 ptBR = "Encalhado"
 koKR = "좌초된"
 csCZ = "Ztracený"
+viVN = "Mắc kẹt"
 
 ["BeaverStatistics.Behavior.WorkerRootBehavior"]
 raw = "Worker"
@@ -270,6 +287,7 @@ plPL = "Pracownik"
 ptBR = "Trabalhador"
 koKR = "작업자"
 csCZ = "Pracovník"
+viVN = "Công nhân"
 
 ["BeaverStatistics.Behavior.NeederRootBehavior"]
 raw = "Need"
@@ -285,6 +303,7 @@ plPL = "Potrzeba"
 ptBR = "Necessidade"
 koKR = "필요"
 csCZ = "Potřeba"
+viVN = "Nhu cầu"
 
 ["BeaverStatistics.Behavior.SleepNeedBehavior"]
 raw = "Sleep Need"
@@ -300,6 +319,7 @@ plPL = "Potrzeba snu"
 ptBR = "Necessidade de Sono"
 koKR = "수면 필요"
 csCZ = "Potřeba spánku"
+viVN = "Nhu cầu ngủ"
 
 ["BeaverStatistics.Behavior.ChildRootBehavior"]
 raw = "Child"
@@ -315,6 +335,7 @@ plPL = "Dziecko"
 ptBR = "Criança"
 koKR = "어린이"
 csCZ = "Dítě"
+viVN = "Con non"
 
 ["BeaverStatistics.Behavior.BuilderHubWorkplaceBehavior"]
 raw = "Builder Hub Work"
@@ -330,6 +351,7 @@ plPL = "Praca w Hubie Budowniczym"
 ptBR = "Trabalho do Centro de Construção"
 koKR = "건축가 허브 작업"
 csCZ = "Práce v Builder Hubu"
+viVN = "Công việc tại Trung tâm Xây dựng"
 
 ["BeaverStatistics.Behavior.BuildBehavior"]
 raw = "Building"
@@ -345,6 +367,7 @@ plPL = "Budowanie"
 ptBR = "Construindo"
 koKR = "건축 중"
 csCZ = "Stavění"
+viVN = "Đang xây dựng"
 
 ["BeaverStatistics.Behavior.EmptyInventoriesWorkplaceBehavior"]
 raw = "Emptying Inventories"
@@ -360,6 +383,7 @@ plPL = "Wypłukiwanie Zapasów"
 ptBR = "Esvaziando Inventários"
 koKR = "재고 비우기"
 csCZ = "Vyprazdňování inventářů"
+viVN = "Dọn sạch tồn kho"
 
 ["BeaverStatistics.Behavior.FarmHouseGoodStackRetrieverWorkplaceBehavior"]
 raw = "Farm House Retrieval"
@@ -375,6 +399,7 @@ plPL = "Zbieranie z Farmy"
 ptBR = "Recuperação da Casa da Fazenda"
 koKR = "농가 회수"
 csCZ = "Získávání z farmářského domu"
+viVN = "Thu hồi Nhà trang trại"
 
 ["BeaverStatistics.Behavior.FillInputWorkplaceBehavior"]
 raw = "Filling Input"
@@ -390,6 +415,7 @@ plPL = "Wypełnianie wejścia"
 ptBR = "Preenchendo Entrada"
 koKR = "입력 채우기"
 csCZ = "Plnění vstupu"
+viVN = "Đang bổ sung nguyên liệu đầu vào"
 
 ["BeaverStatistics.Behavior.LumberjackFlagWorkplaceBehavior"]
 raw = "Lumberjack Work"
@@ -405,6 +431,7 @@ plPL = "Praca Drwala"
 ptBR = "Trabalho de Lenhador"
 koKR = "벌목작업"
 csCZ = "Tesařská práce"
+viVN = "Công việc thợ đốn gỗ"
 
 ["BeaverStatistics.Behavior.GatherWorkplaceBehavior"]
 raw = "Gathering"
@@ -420,6 +447,7 @@ plPL = "Zbieranie"
 ptBR = "Coletando"
 koKR = "수집 중"
 csCZ = "Sbírání"
+viVN = "Đang thu thập"
 
 ["BeaverStatistics.Behavior.FarmHouseGoodStackRetrieverBehavior"]
 raw = "Farm House Retrieval"
@@ -435,6 +463,7 @@ plPL = "Pobieranie z Farmy"
 ptBR = "Recuperação de Casa de Fazenda"
 koKR = "농장 집 회수"
 csCZ = "Získávání farmy"
+viVN = "Thu Thập Từ Nhà Nông Trại"
 
 ["BeaverStatistics.Behavior.HaulWorkplaceBehavior"]
 raw = "Hauling"
@@ -450,6 +479,7 @@ plPL = "Transportowanie"
 ptBR = "Transporte"
 koKR = "운반"
 csCZ = "Nosění"
+viVN = "Vận chuyển"
 
 ["BeaverStatistics.Behavior.TimberborneWorkplaceBehavior"]
 raw = "Workplace"
@@ -465,6 +495,7 @@ plPL = "Zakład pracy"
 ptBR = "Local de Trabalho"
 koKR = "작업장"
 csCZ = "Pracoviště"
+viVN = "Nơi làm việc"
 
 ["BeaverStatistics.Behavior.PlanterWorkplaceBehavior"]
 raw = "Planting"
@@ -480,6 +511,7 @@ plPL = "Sadzenie"
 ptBR = "Plantando"
 koKR = "식재"
 csCZ = "Sázení"
+viVN = "Trồng cây"
 
 ["BeaverStatistics.Behavior.RecoveredGoodStackRetrievingBehavior"]
 raw = "Recovering Goods"
@@ -495,6 +527,7 @@ plPL = "Odzykiwanie Towarów"
 ptBR = "Recuperando Itens"
 koKR = "물품 회수"
 csCZ = "Obnova zboží"
+viVN = "Đang thu hồi hàng hóa"
 
 ["BeaverStatistics.Behavior.ScavengerWorkplaceBehavior"]
 raw = "Scavenging"
@@ -510,6 +543,7 @@ plPL = "Zbieractwo"
 ptBR = "Coleta"
 koKR = "채집"
 csCZ = "Získávání"
+viVN = "Lượm nhặt"
 
 ["BeaverStatistics.Behavior.WaitInsideIdlyWorkplaceBehavior"]
 raw = "Waiting Idly"
@@ -525,6 +559,7 @@ plPL = "Czekanie bezczynnie"
 ptBR = "Esperando Inativo"
 koKR = "가만히 기다리기"
 csCZ = "Čekání bez činnosti"
+viVN = "Chờ đợi vô ích"
 
 ["BeaverStatistics.Behavior.YieldRemoverBehavior"]
 raw = "Removing Yield"
@@ -540,6 +575,7 @@ plPL = "Usuwanie Plonów"
 ptBR = "Removendo Rendimento"
 koKR = "수확 제거"
 csCZ = "Odstranění výnosu"
+viVN = "Loại bỏ sản lượng"
 
 ["BeaverStatistics.Behavior.ProduceWorkplaceBehavior"]
 raw = "Producing"
@@ -555,6 +591,7 @@ plPL = "Produkcja"
 ptBR = "Produzindo"
 koKR = "생산 중"
 csCZ = "Produkce"
+viVN = "Đang sản xuất"
 
 ["BeaverStatistics.Behavior.WorkWorkplaceBehavior"]
 raw = "Work"
@@ -570,6 +607,7 @@ plPL = "Praca"
 ptBR = "Trabalho"
 koKR = "일"
 csCZ = "Práce"
+viVN = "Làm việc"
 
 ["BeaverStatistics.Behavior.WaitForInactiveWonderWorkplaceBehavior"]
 raw = "Waiting for Wonder"
@@ -585,6 +623,7 @@ plPL = "Czekanie na Cud"
 ptBR = "Esperando pelo Maravilha"
 koKR = "경이로움 대기 중"
 csCZ = "Čekání na zázrak"
+viVN = "Đang chờ Kỳ quan"
 
 ["BeaverStatistics.Behavior.SupplyGoodWorkplaceBehavior"]
 raw = "Supplying Goods"
@@ -600,6 +639,7 @@ plPL = "Dostarczanie Towarów"
 ptBR = "Fornecendo Produtos"
 koKR = "물품 공급"
 csCZ = "Dodávání zboží"
+viVN = "Cung cấp hàng hóa"
 
 ["BeaverStatistics.Behavior.ObtainGoodWorkplaceBehavior"]
 raw = "Obtaining Goods"
@@ -615,6 +655,7 @@ plPL = "Zdobywanie Towarów"
 ptBR = "Obtendo Bens"
 koKR = "물건 획득"
 csCZ = "Získávání zboží"
+viVN = "Đang nhận hàng hóa"
 
 ["BeaverStatistics.Behavior.BringNutrientWorkplaceBehavior"]
 raw = "Bringing Nutrients"
@@ -630,6 +671,7 @@ plPL = "Przynoszenie składników odżywczych"
 ptBR = "Tragando Nutrientes"
 koKR = "영양분 가져오기"
 csCZ = "Donášení živin"
+viVN = "Đang mang dinh dưỡng"
 
 ["BeaverStatistics.Behavior.LaborWorkplaceBehavior"]
 raw = "Laboring"
@@ -645,6 +687,7 @@ plPL = "Praca"
 ptBR = "Trabalhando"
 koKR = "노동 중"
 csCZ = "Práce"
+viVN = "Đang làm việc"
 
 ["BeaverStatistics.Behavior.FarmHouseWorkplaceBehavior"]
 raw = "Farm House Work"
@@ -660,6 +703,7 @@ plPL = "Praca w Domu Farmerów"
 ptBR = "Trabalho na Casa da Fazenda"
 koKR = "농가 작업"
 csCZ = "Práce na farmě"
+viVN = "Công việc tại Nhà nông"
 
 ["BeaverStatistics.Behavior.EmptyOutputWorkplaceBehavior"]
 raw = "Emptying Output"
@@ -675,6 +719,7 @@ plPL = "Opuszczanie wyjścia"
 ptBR = "Esvaziando Saída"
 koKR = "출력 비우기"
 csCZ = "Vyprazdňování výstupu"
+viVN = "Đang làm trống đầu ra"
 
 ["BeaverStatistics.Behavior.RemoveUnwantedStockWorkplaceBehavior"]
 raw = "Removing Unwanted Stock"
@@ -690,6 +735,7 @@ plPL = "Usuwanie niepożądanego zapasu"
 ptBR = "Removendo Estoque Indesejado"
 koKR = "원치 않는 재고 제거"
 csCZ = "Odhazování nežádoucích zásob"
+viVN = "Loại bỏ hàng tồn kho không mong muốn"
 
 ["BeaverStatistics.Behavior.DistrictCrossingWorkplaceBehavior"]
 raw = "District Crossing"
@@ -705,6 +751,7 @@ plPL = "Przejście na Obszar"
 ptBR = "Cruzamento do Distrito"
 koKR = "구역 교차"
 csCZ = "„Přechod okrsku“"
+viVN = "Băng qua khu vực"
 
 ["BeaverStatistics.Behavior.AttractionNeed"]
 raw = "Attraction Need"
@@ -720,6 +767,7 @@ plPL = "Potrzeba Atrakcji"
 ptBR = "Necessidade de Atração"
 koKR = "끌림 필요"
 csCZ = "Potřeba přitažlivosti"
+viVN = "Nhu cầu Thu hút"
 
 ["BeaverStatistics.Behavior.InventoryNeed"]
 raw = "Inventory Need"
@@ -735,6 +783,7 @@ plPL = "Potrzeba Zasobów"
 ptBR = "Necessidade de Inventário"
 koKR = "재고 필요"
 csCZ = "Potřeba inventáře"
+viVN = "Nhu cầu tồn kho"
 
 ["BeaverStatistics.Executor.WalkToPositionExecutor"]
 raw = "Walking to Position"
@@ -750,6 +799,7 @@ plPL = "Idzie do pozycji"
 ptBR = "Indo para a Posição"
 koKR = "위치로 이동 중"
 csCZ = "Chůze na pozici"
+viVN = "Đang đi tới vị trí"
 
 ["BeaverStatistics.Executor.WalkInsideExecutor"]
 raw = "Walking Inside"
@@ -765,6 +815,7 @@ plPL = "Spacer w środku"
 ptBR = "Caminar por Dentro"
 koKR = "실내 걷기"
 csCZ = "Chůze uvnitř"
+viVN = "Đi vào bên trong"
 
 ["BeaverStatistics.Executor.ApplyEffectExecutor"]
 raw = "Applying Effect"
@@ -780,6 +831,7 @@ plPL = "Zastosowywanie Efektu"
 ptBR = "Aplicando Efeito"
 koKR = "효과 적용 중"
 csCZ = "Aplikuji efekt"
+viVN = "Đang áp dụng hiệu ứng"
 
 ["BeaverStatistics.Executor.WalkToAccessibleExecutor"]
 raw = "Walking to Target"
@@ -795,6 +847,7 @@ plPL = "Idzie do celu"
 ptBR = "Indo para o Alvo"
 koKR = "목표로 걸어가기"
 csCZ = "Chůze k cíli"
+viVN = "Đang đi tới mục tiêu"
 
 ["BeaverStatistics.Executor.AnimateExecutor"]
 raw = "Animating"
@@ -810,6 +863,7 @@ plPL = "Animowanie"
 ptBR = "Animando"
 koKR = "애니메이션 중"
 csCZ = "Animace"
+viVN = "Đang hoạt hình"
 
 ["BeaverStatistics.Executor.WaitExecutor"]
 raw = "Waiting"
@@ -825,6 +879,7 @@ plPL = "Czekanie"
 ptBR = "Esperando"
 koKR = "대기 중"
 csCZ = "Čekání"
+viVN = "Đang chờ"
 
 ["BeaverStatistics.Executor.WorkExecutor"]
 raw = "Working"
@@ -840,6 +895,7 @@ plPL = "Pracujący"
 ptBR = "Trabalhando"
 koKR = "작업 중"
 csCZ = "Pracuji"
+viVN = "Đang làm việc"
 
 ["BeaverStatistics.Executor.ProduceExecutor"]
 raw = "Producing"
@@ -855,6 +911,7 @@ plPL = "Produkcja"
 ptBR = "Produzindo"
 koKR = "생산 중"
 csCZ = "Produkce"
+viVN = "Đang sản xuất"
 
 ["BeaverStatistics.Executor.PlantExecutor"]
 raw = "Planting"
@@ -870,6 +927,7 @@ plPL = "Sadzenie"
 ptBR = "Plantando"
 koKR = "식물 심기"
 csCZ = "Výsadba"
+viVN = "Đang trồng"
 
 ["BeaverStatistics.Executor.WalkToReservableExecutor"]
 raw = "Walking to Reservable"
@@ -885,6 +943,7 @@ plPL = "Idąc do rezerwacji"
 ptBR = "Indo para Reservável"
 koKR = "예약 가능 장소로 걷는 중"
 csCZ = "Chůze k rezervovatelnému"
+viVN = "Đang đi tới nơi có thể đặt chỗ"
 
 ["BeaverStatistics.Executor.RemoveYieldExecutor"]
 raw = "Harvesting"
@@ -900,6 +959,7 @@ plPL = "Zbiór"
 ptBR = "Colheita"
 koKR = "수확 중"
 csCZ = "Sklizeň"
+viVN = "Thu hoạch"
 
 ["BeaverStatistics.Executor.BuildExecutor"]
 raw = "Building"
@@ -915,6 +975,7 @@ plPL = "Budowanie"
 ptBR = "Construindo"
 koKR = "건축 중"
 csCZ = "Stavba"
+viVN = "Đang xây dựng"
 
 ["BeaverStatistics.Executor.DemolishExecutor"]
 raw = "Demolishing"
@@ -930,3 +991,4 @@ plPL = "Rozbiórka"
 ptBR = "Demolindo"
 koKR = "철거 중"
 csCZ = "Demolice"
+viVN = "Đang phá dỡ"

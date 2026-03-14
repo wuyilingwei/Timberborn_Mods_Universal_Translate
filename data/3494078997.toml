@@ -15,6 +15,7 @@ plPL = "Włącz redukcję siły globalnej"
 ptBR = "Ativar Redução Global de Força"
 koKR = "전역 강도 감소 활성화"
 csCZ = "Povolit globální snížení síly"
+viVN = "Bật Giảm Độ Bền Toàn Cầu"
 
 ["ebbflow.settings.enableglobalstrengthreduction.desc"]
 raw = "Enable a global multiplier to adjust the strength of all water sources."
@@ -30,6 +31,7 @@ plPL = "Włącz globalny mnożnik, aby dostosować siłę wszystkich źródeł w
 ptBR = "Ative um multiplicador global para ajustar a força de todas as fontes de água."
 koKR = "모든 수원(水源)의 강도를 조절할 수 있는 글로벌 배율을 활성화합니다."
 csCZ = "Umožňuje globální násobitel pro úpravu síly všech zdrojů vody."
+viVN = "Bật hệ số nhân toàn cầu để điều chỉnh sức mạnh của tất cả nguồn nước."
 
 ["ebbflow.settings.globalstrengthmultiplier"]
 raw = "Global Strength Multiplier"
@@ -45,6 +47,7 @@ plPL = "Globalny mnożnik siły"
 ptBR = "Multiplicador de Força Global"
 koKR = "전역 힘 배수"
 csCZ = "Globální násobitel síly"
+viVN = "Hệ số nhân sức mạnh toàn cầu"
 
 ["ebbflow.settings.globalstrengthmultiplier.desc"]
 raw = "Multiplier for all water sources (e.g., 1.0 = normal, 0.5 = half strength)."
@@ -60,6 +63,7 @@ plPL = "Mnożnik dla wszystkich źródeł wody (np. 1,0 = normalny, 0,5 = połow
 ptBR = "Multiplicador para todas as fontes de água (por exemplo, 1,0 = normal, 0,5 = meia força)."
 koKR = "모든 수원에 대한 배수 곱셈기 (예: 1.0 = 일반, 0.5 = 절반 강도)."
 csCZ = "Multiplikátor pro všechny vodní zdroje (např. 1.0 = normální, 0.5 = poloviční síla)."
+viVN = "Hệ số nhân cho tất cả các nguồn nước (ví dụ: 1.0 = bình thường, 0.5 = một nửa sức mạnh)."
 
 ["ebbflow.settings.enabledynamicfluctuations"]
 raw = "Enable Dynamic Fluctuations"
@@ -75,6 +79,7 @@ plPL = "Włącz dynamiczne wahania"
 ptBR = "Habilitar Flutuações Dinâmicas"
 koKR = "동적 변동 활성화"
 csCZ = "Umožnit dynamické kolísání"
+viVN = "Kích hoạt biến động linh hoạt"
 
 ["ebbflow.settings.enabledynamicfluctuations.desc"]
 raw = "Enable random, temporary strength changes for water sources."
@@ -90,6 +95,7 @@ plPL = "Włącz losowe, tymczasowe zmiany siły dla źródeł wody."
 ptBR = "Habilitar mudanças aleatórias e temporárias de força para fontes de água."
 koKR = "수원에 대한 임의의 일시적인 강도 변화를 활성화합니다."
 csCZ = "Povolit náhodné, dočasné změny síly vodních zdrojů."
+viVN = "Bật các thay đổi ngẫu nhiên và tạm thời về cường độ nguồn nước."
 
 ["ebbflow.settings.maxaffectedsources"]
 raw = "Max Affected Sources Per Update"
@@ -105,6 +111,7 @@ plPL = "Maksymalna liczba źródeł dotkniętych na aktualizację"
 ptBR = "Fontes Máximas Afetadas Por Atualização"
 koKR = "최대 업데이트당 영향을 받는 소스"
 csCZ = "Maximální počet ovlivněných zdrojů na aktualizaci"
+viVN = "Số nguồn bị ảnh hưởng tối đa cho mỗi cập nhật"
 
 ["ebbflow.settings.maxaffectedsources.desc"]
 raw = "Maximum number of water sources that can start new fluctuations each cycle."
@@ -120,6 +127,7 @@ plPL = "Maksymalna liczba źródeł wody, które mogą rozpocząć nowe wahania 
 ptBR = "Número máximo de fontes de água que podem iniciar novas flutuações a cada ciclo."
 koKR = "각 사이클에서 새로운 변동을 시작할 수 있는 최대 수의 수원."
 csCZ = "Maximální počet vodních zdrojů, které mohou spustit nové kolísání v každém cyklu."
+viVN = "Số nguồn nước tối đa có thể bắt đầu các biến động mới mỗi chu kỳ."
 
 ["ebbflow.settings.chancetoskipfluctuation"]
 raw = "Chance to Skip Fluctuation"
@@ -135,6 +143,7 @@ plPL = "Szansa na pominiecie wahań"
 ptBR = "Chance de Pular a Flutuação"
 koKR = "변동 건너뛸 확률"
 csCZ = "Šance na přeskočení kolísání"
+viVN = "Xác suất bỏ qua biến động"
 
 ["ebbflow.settings.chancetoskipfluctuation.desc"]
 raw = "Probability to skip starting new fluctuations in a cycle (0.0 = never skip, 1.0 = always skip)."
@@ -150,6 +159,7 @@ plPL = "Prawdopodobieństwo pominięcia rozpoczęcia nowych fluktuacji w cyklu (
 ptBR = "Probabilidade de pular o início de novas flutuações em um ciclo (0,0 = nunca pular, 1,0 = sempre pular)."
 koKR = "주기에서 새로운 변동을 건너뛸 확률 (0.0 = 절대 건너뛰지 않음, 1.0 = 항상 건너뜀)."
 csCZ = "Pravděpodobnost přeskočení zahájení nových kolísání v cyklu (0,0 = nikdy přeskočit, 1,0 = vždy přeskočit)."
+viVN = "Xác suất bỏ qua việc bắt đầu các biến động mới trong một chu kỳ (0.0 = không bao giờ bỏ qua, 1.0 = luôn bỏ qua)."
 
 ["ebbflow.settings.minfluctuationmodifier"]
 raw = "Min Fluctuation Modifier"
@@ -165,6 +175,7 @@ plPL = "Minimalny Modyfikator Fluktuacji"
 ptBR = "Modificador de Flutuação Mínima"
 koKR = "최소 변동 수정자"
 csCZ = "Minimální modulátor kolísání"
+viVN = "Hệ số biến động tối thiểu"
 
 ["ebbflow.settings.minfluctuationmodifier.desc"]
 raw = "Minimum strength multiplier during a fluctuation (e.g., 0.5 = 50% strength)."
@@ -180,6 +191,7 @@ plPL = "Minimalny mnożnik siły podczas wahania (np. 0,5 = 50% siły)."
 ptBR = "Multiplicador de força mínimo durante uma flutuação (por exemplo, 0,5 = 50% de força)."
 koKR = "변동 중 최소 강도 배율 (예: 0.5 = 50% 강도)."
 csCZ = "Minimální násobitel síly během výkyvu (např. 0,5 = 50 % síly)."
+viVN = "Hệ số nhân sức mạnh tối thiểu trong một biến động (ví dụ, 0.5 = 50% sức mạnh)."
 
 ["ebbflow.settings.maxfluctuationmodifier"]
 raw = "Max Fluctuation Modifier"
@@ -195,6 +207,7 @@ plPL = "Maksymalny modyfikator wahań"
 ptBR = "Modificador de Flutuação Máxima"
 koKR = "최대 변동 수정자"
 csCZ = "Maximální modifikátor kolísání"
+viVN = "Hệ số dao động tối đa"
 
 ["ebbflow.settings.maxfluctuationmodifier.desc"]
 raw = "Maximum strength multiplier during a fluctuation (e.g., 2.0 = 200% strength)."
@@ -210,6 +223,7 @@ plPL = "Maksymalny mnożnik siły podczas wahań (np. 2,0 = 200% siły)."
 ptBR = "Multiplicador de força máxima durante uma flutuação (por exemplo, 2,0 = 200% de força)."
 koKR = "변동 중 최대 강도 배수 (예: 2.0 = 200% 강도)"
 csCZ = "Maximální síla násobiče během kolísání (např. 2.0 = 200% síly)."
+viVN = "Hệ số nhân sức mạnh tối đa trong một biến động (ví dụ, 2.0 = 200% sức mạnh)."
 
 ["ebbflow.settings.fluctuationdurationticks"]
 raw = "Fluctuation Duration (Cycles)"
@@ -225,6 +239,7 @@ plPL = "Czas trwania fluktuacji (cykle)"
 ptBR = "Duração da Flutuação (Ciclos)"
 koKR = "변동 지속 시간 (주기)"
 csCZ = "Trvání fluktuace (cykly)"
+viVN = "Thời lượng biến động (Chu kỳ)"
 
 ["ebbflow.settings.fluctuationdurationticks.desc"]
 raw = "How long a random water strength fluctuation lasts. A higher number means the fluctuation will last longer. Each cycle is approximately one hour of in-game time."
@@ -240,6 +255,7 @@ plPL = "Jak długo trwa losowa fluktuacja siły wody. Wyższa liczba oznacza, ż
 ptBR = "Quanto tempo dura uma oscilação aleatória na força da água. Um número mais alto significa que a oscilação durará mais. Cada ciclo é de aproximadamente uma hora de tempo dentro do jogo."
 koKR = "무작위 물의 세기 변동이 지속되는 시간. 숫자가 클수록 변동이 더 오래 지속됩니다. 각 주기는 게임 내 시간으로 약 1시간입니다."
 csCZ = "Jak dlouho trvá náhodná fluktuace síly vody. Vyšší číslo znamená, že fluktuace potrvá déle. Každý cyklus trvá přibližně jednu hodinu herního času."
+viVN = "Thời lượng của một biến động ngẫu nhiên về cường độ nước kéo dài. Một giá trị lớn hơn đồng nghĩa với việc biến động sẽ kéo dài hơn. Mỗi chu kỳ xấp xỉ bằng một giờ thời gian trong trò chơi."
 
 ["ebbflow.settings.enablesourcetoggling"]
 raw = "Enable Source Toggling"
@@ -255,6 +271,7 @@ plPL = "Włącz przełączanie źródła"
 ptBR = "Ativar Alternância de Fonte"
 koKR = "소스 전환 활성화"
 csCZ = "Povolit přepínání zdrojů"
+viVN = "Bật Chuyển Đổi Nguồn"
 
 ["ebbflow.settings.enablesourcetoggling.desc"]
 raw = "Enable water sources to be temporarily turned off."
@@ -270,6 +287,7 @@ plPL = "Umożliwienie tymczasowego wyłączania źródeł wody."
 ptBR = "Habilite fontes de água para serem desligadas temporariamente."
 koKR = "물 공급원을 일시적으로 끌 수 있도록 설정합니다."
 csCZ = "Povolit dočasné vypnutí vodních zdrojů."
+viVN = "Cho phép nguồn nước được tắt tạm thời."
 
 ["ebbflow.settings.sourcestodivide"]
 raw = "Sources To Check Denominator"
@@ -285,6 +303,7 @@ plPL = "Źródła do sprawdzenia mianownika"
 ptBR = "Fontes Para Verificar o Denominador"
 koKR = "검사할 출처 분모"
 csCZ = "Zdroje pro kontrolu jmenovatele"
+viVN = "Các nguồn để kiểm tra mẫu số"
 
 ["ebbflow.settings.sourcestodivide.desc"]
 raw = "Divides total map sources by this number to determine how many to check for toggling (e.g., 3 = check 1/3 of sources)."
@@ -300,6 +319,7 @@ plPL = "Dzieli całkowitą liczbę źródeł mapy przez tę liczbę, aby określ
 ptBR = "Divide o total de fontes do mapa por este número para determinar quantas verificar para alternar (por exemplo, 3 = verificar 1/3 das fontes)."
 koKR = "이 숫자로 총 맵 소스를 나누어 전환 여부를 확인할 소스의 수를 결정합니다 (예: 3 = 소스의 1/3 확인)."
 csCZ = "Rozdělí celkové mapové zdroje podle tohoto čísla, aby určil, kolik jich má kontrolovat pro přepínání (např. 3 = zkontrolovat 1/3 zdrojů)."
+viVN = "Chia tổng số nguồn trên bản đồ cho con số này để xác định có bao nhiêu nguồn được kiểm tra khi bật/tắt (ví dụ, 3 = kiểm tra 1/3 tổng số nguồn)."
 
 ["ebbflow.settings.maxsourcestotoggleoff"]
 raw = "Max Sources to Toggle Off"
@@ -315,6 +335,7 @@ plPL = "Maksymalna liczba źródeł do wyłączenia"
 ptBR = "Fontes máximas para desligar"
 koKR = "끄기 위한 최대 소스 수"
 csCZ = "Maximální zdroje k vypnutí"
+viVN = "Số nguồn tối đa để tắt"
 
 ["ebbflow.settings.maxsourcestotoggleoff.desc"]
 raw = "Maximum number of water sources that can be toggled off per cycle."
@@ -330,6 +351,7 @@ plPL = "Maksymalna liczba źródeł wody, które można wyłączyć w każdej cy
 ptBR = "Número máximo de fontes de água que podem ser desligadas por ciclo."
 koKR = "사이클당 끌 수 있는 최대 물 공급원 수."
 csCZ = "Maximální počet zdrojů vody, které lze během jednoho cyklu vypnout."
+viVN = "Số nguồn nước tối đa có thể được tắt trong mỗi chu kỳ."
 
 ["ebbflow.settings.chancetotoggleoff"]
 raw = "Chance to Toggle Off"
@@ -345,6 +367,7 @@ plPL = "Szansa na wyłączenie"
 ptBR = "Chance de Desligar"
 koKR = "꺼질 확률"
 csCZ = "Šance na vypnutí"
+viVN = "Xác suất tắt"
 
 ["ebbflow.settings.chancetotoggleoff.desc"]
 raw = "Probability a checked source will be toggled off (0.0 = never, 1.0 = always)."
@@ -360,6 +383,7 @@ plPL = "Prawdopodobieństwo, że zaznaczone źródło zostanie wyłączone (0,0 
 ptBR = "Probabilidade de uma fonte verificada ser desligada (0,0 = nunca, 1,0 = sempre)."
 koKR = "체크된 소스가 꺼질 확률 (0.0 = 절대 꺼지지 않음, 1.0 = 항상 꺼짐)."
 csCZ = "Pravděpodobnost, že vybraný zdroj bude vypnut (0,0 = nikdy, 1,0 = vždy)."
+viVN = "Xác suất nguồn được đánh dấu sẽ bị tắt (0.0 = không bao giờ, 1.0 = luôn)."
 
 ["ebbflow.settings.toggleoffstrength"]
 raw = "Toggled-Off Strength"
@@ -375,6 +399,7 @@ plPL = "Wyłączona siła"
 ptBR = "Força Desativada"
 koKR = "꺼짐 강도"
 csCZ = "Síla vypnuta"
+viVN = "Sức mạnh khi tắt"
 
 ["ebbflow.settings.toggleoffstrength.desc"]
 raw = "Water source strength when toggled off (e.g., 0.15 = 15% of normal)."
@@ -390,6 +415,7 @@ plPL = "Siła źródła wody po wyłączeniu (np. 0,15 = 15% normalnej mocy)."
 ptBR = "Força da fonte de água quando desligada (por exemplo, 0,15 = 15% do normal)."
 koKR = "꺼졌을 때의 수원 강도 (예: 0.15 = 정상의 15%)."
 csCZ = "Síla zdroje vody, když je vypnuta (např. 0,15 = 15 % normálu)."
+viVN = "Năng suất nguồn nước khi tắt (ví dụ: 0,15 = 15% so với bình thường)."
 
 ["ebbflow.settings.toggleoffdurationticks"]
 raw = "Toggle-Off Duration (Cycles)"
@@ -405,6 +431,7 @@ plPL = "Czas wyłączenia (cykle)"
 ptBR = "Duração do Desligamento (Ciclos)"
 koKR = "전환 해제 기간 (주기)"
 csCZ = "Doba vypnutí (cykly)"
+viVN = "Thời lượng Tắt (Chu kỳ)"
 
 ["ebbflow.settings.toggleoffdurationticks.desc"]
 raw = "Duration sources stay off, in mod update cycles."
@@ -420,6 +447,7 @@ plPL = "Czas, w którym źródła pozostają wyłączone, w cyklach aktualizacji
 ptBR = "A duração das fontes fica desligada, em ciclos de atualização do mod."
 koKR = "지속 시간 소스는 모드 업데이트 주기 동안 꺼져 있습니다."
 csCZ = "Zdroje trvání zůstávají vypnuté v cyklech aktualizace módu."
+viVN = "Các nguồn thời lượng vẫn ở chế độ tắt trong các chu kỳ cập nhật của mod."
 
 ["ebbflow.settings.contaminationlinger"]
 raw = "Contamination Linger (Days)"
@@ -435,6 +463,7 @@ plPL = "Zanieczyszczenie Utrzymywanie (Dni)"
 ptBR = "Contaminação Persistente (Dias)"
 koKR = "오염 지속 (일)"
 csCZ = "Stárnutí kontaminace (dny)"
+viVN = "Thời gian ô nhiễm còn lại (ngày)"
 
 ["ebbflow.settings.contaminationlinger.desc"]
 raw = "How long contamination persists in soil, in approximate game days."
@@ -450,6 +479,7 @@ plPL = "Jak długo zanieczyszczenie utrzymuje się w glebie, w przybliżonych dn
 ptBR = "Quanto tempo a contaminação persiste no solo, em dias de jogo aproximados."
 koKR = "오염이 토양에 남아 있는 기간, 대략적인 게임 일수로."
 csCZ = "Jak dlouho kontaminace přetrvává v půdě, v přibližných herních dnech."
+viVN = "Bao nhiêu ngày ô nhiễm tồn tại trong đất, được ước lượng bằng số ngày trong trò chơi."
 
 ["ebbflow.settings.enablesludgegeneration"]
 raw = "Enable Sludge Generation"
@@ -465,6 +495,7 @@ plPL = "Włącz generację osadów"
 ptBR = "Ativar Geração de Lodo"
 koKR = "슬러지 생성 활성화"
 csCZ = "Povolit generaci kalu"
+viVN = "Kích hoạt sinh bùn thải"
 
 ["ebbflow.settings.enablesludgegeneration.desc"]
 raw = "Allow sludge blocks to spawn in contaminated water."
@@ -480,6 +511,7 @@ plPL = "Zezwól na pojawianie się bloków osadu w zanieczyszczonej wodzie."
 ptBR = "Permita que blocos de lodo apareçam em água contaminada."
 koKR = "오염된 물에서 슬러지 블록이 생성될 수 있도록 허용합니다."
 csCZ = "Povolit vznik blátových bloků ve znečištěné vodě."
+viVN = "Cho phép các khối bùn xuất hiện trong nước ô nhiễm."
 
 ["ebbflow.settings.chancetospawnsludge"]
 raw = "Chance to Spawn Sludge"
@@ -495,6 +527,7 @@ plPL = "Szansa na pojawienie się szlamu"
 ptBR = "Chance de aparecer lama"
 koKR = "슬러지 생성 확률"
 csCZ = "Šance na vznik bahna"
+viVN = "Xác suất xuất hiện cặn bùn"
 
 ["ebbflow.settings.chancetospawnsludge.desc"]
 raw = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
@@ -510,6 +543,7 @@ plPL = "Prawdopodobieństwo pojawienia się bloków szlamu na cykl (0 = nigdy, 1
 ptBR = "Probabilidade de gerar blocos de lodo por ciclo (0 = nunca, 100 = sempre)."
 koKR = "주기마다 슬러지 블록이 생성될 확률 (0 = 절대 생성되지 않음, 100 = 항상 생성됨)."
 csCZ = "Pravděpodobnost vzniku bloků bahna na cyklus (0 = nikdy, 100 = vždy)."
+viVN = "Xác suất sinh ra các khối bùn mỗi chu kỳ (0 = không bao giờ, 100 = luôn luôn)."
 
 ["ebbflow.settings.maxsludgeperbadsource"]
 raw = "Max Sludge Per Event"
@@ -525,6 +559,7 @@ plPL = "Maksymalna ilość błota na wydarzenie"
 ptBR = "Máximo de Limpeza de Lodo por Evento"
 koKR = "이벤트당 최대 슬러지"
 csCZ = "Max Kal Špíny Na Událost"
+viVN = "Lượng bùn thải tối đa cho mỗi sự kiện"
 
 ["ebbflow.settings.maxsludgeperbadsource.desc"]
 raw = "Maximum sludge blocks that can spawn from a single contamination event."
@@ -540,6 +575,7 @@ plPL = "Maksymalna liczba bloków osadu, które mogą powstać w wyniku jednego 
 ptBR = "Número máximo de blocos de lodo que podem surgir de um único evento de contaminação."
 koKR = "단일 오염 사건에서 생성될 수 있는 최대 슬러지 블록 수."
 csCZ = "Maximální počet bloků bahna, které mohou vzniknout z jednoho znečištění."
+viVN = "Số khối bùn tối đa có thể phát sinh từ một sự cố ô nhiễm duy nhất."
 
 ["ebbflow.settings.sludgespawnradius"]
 raw = "Sludge Spawn Radius"
@@ -555,6 +591,7 @@ plPL = "Promień zasięgu osadów"
 ptBR = "Raio de Desova de Lodo"
 koKR = "슬러지 생성 반경"
 csCZ = "Poloměr vzniku kalu"
+viVN = "Bán kính sinh bùn thải"
 
 ["ebbflow.settings.sludgespawnradius.desc"]
 raw = "Maximum distance from a contamination source where sludge can spawn."
@@ -570,6 +607,7 @@ plPL = "Maksymalna odległość od źródła zanieczyszczenia, w której mogą p
 ptBR = "Distância máxima de uma fonte de contaminação onde o lodo pode se proliferar."
 koKR = "오염원에서 슬러지가 생성될 수 있는 최대 거리입니다."
 csCZ = "Maximální vzdálenost od zdroje kontaminace, kde může vzniknout kal."
+viVN = "Khoảng cách tối đa từ nguồn ô nhiễm mà bùn có thể phát sinh."
 
 ["ebbflow.settings.minwaterdepthforsludge"]
 raw = "Min Water Depth for Sludge"
@@ -585,6 +623,7 @@ plPL = "Minimalna głębokość wody dla osadów"
 ptBR = "Profundidade Mínima da Água para Lodo"
 koKR = "슬러지를 위한 최소 수심"
 csCZ = "Minimální hloubka vody pro kal"
+viVN = "Độ sâu nước tối thiểu cho bùn"
 
 ["ebbflow.settings.minwaterdepthforsludge.desc"]
 raw = "Minimum water depth required for sludge to form (0.2 = 20% of a block height)."
@@ -600,6 +639,7 @@ plPL = "Minimalna głębokość wody wymagana do formowania osadów (0,2 = 20% w
 ptBR = "Profundidade mínima de água necessária para a formação de lodo (0,2 = 20% da altura de um bloco)."
 koKR = "슬러지가 형성되기 위해 필요한 최소 물 깊이(0.2 = 블록 높이의 20%)."
 csCZ = "Minimální hloubka vody potřebná k vytvoření bahna (0,2 = 20 % výšky bloku)."
+viVN = "Độ sâu nước tối thiểu để bùn hình thành (0,2 = 20% chiều cao của một khối)."
 
 ["ebbflow.settings.allowsludgeinchannels"]
 raw = "Allow Sludge In Flow Channels"
@@ -615,6 +655,7 @@ plPL = "Zezwól na osady w kanałach przepływowych"
 ptBR = "Permitir Lodo em Canais de Fluxo"
 koKR = "흐름 채널에 슬러지 허용"
 csCZ = "Umožnit kal v tlákových kanálech"
+viVN = "Cho phép bùn trong các kênh dòng chảy"
 
 ["ebbflow.settings.allowsludgeinchannels.desc"]
 raw = "Allow sludge blocks to spawn in flowing water channels."
@@ -630,6 +671,7 @@ plPL = "Zezwól na pojawianie się bloków mułu w płynących kanałach wodnych
 ptBR = "Permitir que blocos de lama apareçam em canais de água corrente."
 koKR = "흐르는 물 채널에서 슬러지 블록의 생성을 허용합니다."
 csCZ = "Povolit, aby se v kanálech s proudící vodou objevovaly bloky kalu."
+viVN = "Cho phép các khối bùn xuất hiện trong các kênh nước đang chảy."
 
 ["ebbflow.settings.maxadjacentsludge"]
 raw = "Max Adjacent Sludge"
@@ -645,6 +687,7 @@ plPL = "Maksymalny przylegający osad"
 ptBR = "Lodo Máximo Adjacente"
 koKR = "최대 인접 슬러지"
 csCZ = "Maximální sousední bahno"
+viVN = "Số ô bùn liền kề tối đa"
 
 ["ebbflow.settings.maxadjacentsludge.desc"]
 raw = "The maximum number of adjacent sludge blocks allowed before a new one can spawn, to prevent fully blocking rivers."
@@ -660,6 +703,7 @@ plPL = "Maksymalna liczba sąsiednich bloków osadu dozwolona przed pojawieniem 
 ptBR = "O número máximo de blocos de lodo adjacentes permitido antes que um novo possa aparecer, para evitar o bloqueio total dos rios."
 koKR = "새 슬러지 블록이 생성되기 전에 허용되는 최대 인접 슬러지 블록 수로, 강이 완전히 막히는 것을 방지합니다."
 csCZ = "Maximální počet sousedních bloků bahna, které jsou povoleny, než může být vytvořen nový, aby se zabránilo úplnému zablokování řek."
+viVN = "Số khối bùn liền kề tối đa được cho phép trước khi một khối mới có thể xuất hiện, nhằm ngăn chặn việc tắc nghẽn hoàn toàn các con sông."
 
 ["ebbflow.settings.updateintervalinticks"]
 raw = "Update Interval (in Ticks)"
@@ -675,6 +719,7 @@ plPL = "Interwał aktualizacji (w tikach)"
 ptBR = "Intervalo de Atualização (em Ticks)"
 koKR = "업데이트 간격 (틱 단위)"
 csCZ = "Interval aktualizace (v Tikech)"
+viVN = "Khoảng thời gian cập nhật (theo tick)"
 
 ["ebbflow.settings.updateintervalinticks.desc"]
 raw = "How often the mod's main logic cycle runs. Lower values are more frequent but may impact performance. Default is 200."
@@ -690,6 +735,7 @@ plPL = "Jak często działa główny cykl logiki moda. Niższe wartości są bar
 ptBR = "Com que frequência o ciclo principal de lógica do mod é executado. Valores mais baixos são mais frequentes, mas podem impactar o desempenho. O padrão é 200."
 koKR = "모드의 주요 로직 주기가 얼마나 자주 실행되는지를 나타냅니다. 값이 낮을수록 더 자주 실행되지만 성능에 영향을 미칠 수 있습니다. 기본값은 200입니다."
 csCZ = "Jak často se běží hlavní logika módu. Nižší hodnoty znamenají častější spuštění, ale mohou mít vliv na výkon. Výchozí hodnota je 200."
+viVN = "Chu trình logic chính của mod được thực thi bao nhiêu lần. Giá trị nhỏ hơn cho chu trình này sẽ thực thi thường xuyên hơn nhưng có thể ảnh hưởng đến hiệu suất. Mặc định là 200."
 
 ["ebbflow.settings.enablebaselinecontamination"]
 raw = "Enable Baseline Contamination"
@@ -705,6 +751,7 @@ plPL = "Włącz kontaminację podstawy"
 ptBR = "Ativar Contaminação de Base linha"
 koKR = "기본 오염 활성화"
 csCZ = "Povolit základní kontaminaci"
+viVN = "Bật ô nhiễm cơ bản"
 
 ["ebbflow.settings.enablebaselinecontamination.desc"]
 raw = "All water sources have 1-4% contamination by default, as truly clean water is rare."
@@ -720,6 +767,7 @@ plPL = "Wszystkie źródła wody mają domyślnie 1-4% zanieczyszczenia, poniewa
 ptBR = "Todas as fontes de água têm 1-4% de contaminação por padrão, uma vez que água realmente limpa é rara."
 koKR = "모든 수원은 기본적으로 1-4%의 오염이 있으며, 진정으로 깨끗한 물은 드물기 때문입니다."
 csCZ = "Všechny zdroje vody mají standardně 1-4% kontaminaci, protože skutečně čistá voda je vzácná."
+viVN = "Tất cả nguồn nước có mức ô nhiễm từ 1-4% theo mặc định, vì nước sạch thực sự hiếm."
 
 ["ebbflow.settings.baselinecontaminationmin"]
 raw = "Min Baseline Contamination"
@@ -735,6 +783,7 @@ plPL = "Min Zanieczyszczenie Linii Bazowej"
 ptBR = "Contaminação Mínima da Linha de Base"
 koKR = "최소 기준 오염"
 csCZ = "Minimální základní kontaminace"
+viVN = "Ô nhiễm nền tối thiểu"
 
 ["ebbflow.settings.baselinecontaminationmin.desc"]
 raw = "Minimum baseline contamination percentage (0.01 = 1%)."
@@ -750,6 +799,7 @@ plPL = "Minimalny procent zanieczyszczenia odniesienia (0,01 = 1%)."
 ptBR = "Porcentagem mínima de contaminação de base (0,01 = 1%)."
 koKR = "최소 기준 오염 비율(0.01 = 1%)."
 csCZ = "Minimální procento základní kontaminace (0,01 = 1 %)."
+viVN = "Tỷ lệ ô nhiễm nền tối thiểu (0.01 = 1%)."
 
 ["ebbflow.settings.baselinecontaminationmax"]
 raw = "Max Baseline Contamination"
@@ -765,6 +815,7 @@ plPL = "Maksymalne zanieczyszczenie bazowe"
 ptBR = "Contaminação Máxima da Linha Base"
 koKR = "최대 기준 오염"
 csCZ = "Maximální základní kontaminace"
+viVN = "Ô nhiễm nền tối đa"
 
 ["ebbflow.settings.baselinecontaminationmax.desc"]
 raw = "Maximum baseline contamination percentage (0.04 = 4%)."
@@ -780,3 +831,4 @@ plPL = "Maksymalny procent zanieczyszczenia bazowego (0,04 = 4%)."
 ptBR = "Porcentagem máxima de contaminação de referência (0,04 = 4%)."
 koKR = "최대 기본 오염 비율(0.04 = 4%)."
 csCZ = "Maximální procento základní kontaminace (0,04 = 4 %)."
+viVN = "Mức ô nhiễm nền tối đa (0,04 = 4%)."

@@ -11,6 +11,7 @@ Adapted from https://github.com/wuyilingwei/Timberborn_Tools
 import time
 import json
 import logging
+import threading
 import requests
 from typing import Optional
 
@@ -23,7 +24,7 @@ class TranslatorLLM:
     def __init__(
         self,
         api_token: str,
-        model: str = "gpt-4o-mini",
+        model: str = "gpt-5-nano",
         api_url: str = "https://api.openai.com/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
@@ -34,7 +35,7 @@ class TranslatorLLM:
         
         Args:
             api_token: API token for authentication
-            model: LLM model to use (default: gpt-4o-mini)
+            model: LLM model to use (default: gpt-5-nano)
             api_url: API endpoint URL
             min_length: Minimum text length to translate
             max_length: Maximum text length to translate
@@ -47,6 +48,7 @@ class TranslatorLLM:
         self.max_length = max_length
         self.rate_limit = rate_limit
         self.request_history = []
+        self._rate_limit_lock = threading.Lock()
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
         
@@ -68,29 +70,34 @@ class TranslatorLLM:
             self.rate_limit_seconds = None
             
     def _check_rate_limit(self) -> None:
-        """Check if the rate limit is exceeded and wait if necessary"""
+        """Check if the rate limit is exceeded and wait if necessary (thread-safe)."""
         if not self.rate_limit_num:
             return
-            
-        current_time = time.time()
-        # Remove old requests outside the time window
-        self.request_history = [
-            t for t in self.request_history 
-            if current_time - t < self.rate_limit_seconds
-        ]
-        
-        # If we've hit the limit, wait
-        if len(self.request_history) >= self.rate_limit_num:
-            sleep_time = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
-            if sleep_time > 0:
-                self.logger.info(f"Rate limit reached, sleeping for {sleep_time:.2f} seconds")
-                time.sleep(sleep_time)
-                # Clean up again after sleeping
+
+        while True:
+            with self._rate_limit_lock:
                 current_time = time.time()
+                # Remove old requests outside the time window
                 self.request_history = [
-                    t for t in self.request_history 
+                    t for t in self.request_history
                     if current_time - t < self.rate_limit_seconds
                 ]
+
+                if len(self.request_history) < self.rate_limit_num:
+                    self.request_history.append(current_time)
+                    return
+
+                sleep_time = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
+                queue_depth = len(self.request_history)
+
+            if sleep_time > 0:
+                self.logger.info(
+                    f"Rate limit queue wait: depth={queue_depth}, sleep={sleep_time:.2f}s"
+                )
+                time.sleep(sleep_time)
+            else:
+                # Avoid busy loop caused by timing precision at window boundary.
+                time.sleep(0.05)
     
     def translate(
         self,
@@ -129,7 +136,6 @@ class TranslatorLLM:
         
         # Check rate limit before making request
         self._check_rate_limit()
-        self.request_history.append(time.time())
         
         # Prepare API request
         headers = {
@@ -163,7 +169,7 @@ class TranslatorLLM:
             if response.status_code == 200:
                 response_data = response.json()
                 translated_text = response_data['choices'][0]['message']['content'].strip()
-                self.logger.info(f"Translation successful: {text[:30]}... -> {translated_text[:30]}...")
+                self.logger.debug(f"Translation successful: {text[:30]}... -> {translated_text[:30]}...")
                 return translated_text
             else:
                 self.logger.error(

@@ -15,6 +15,7 @@ plPL = "Przydzielanie mieszkań"
 ptBR = "Atribuir moradia"
 koKR = "주택 배정"
 csCZ = "Přidělit bydlení"
+viVN = "Phân bổ chỗ ở"
 
 ["LV.MM.AssignWorkplace"]
 raw = "Assign workplace"
@@ -30,6 +31,7 @@ plPL = "Przydziel miejsce pracy"
 ptBR = "Designar local de trabalho"
 koKR = "작업장 할당"
 csCZ = "Přidělit pracovní místo"
+viVN = "Giao nơi làm việc"
 
 ["LV.MM.UnassignHouse"]
 raw = "Unassign housing"
@@ -45,6 +47,7 @@ plPL = "Odz przypisanie mieszkania"
 ptBR = "Desvincular habitação"
 koKR = "주택 해제"
 csCZ = "Odstranit bydlení"
+viVN = "Gỡ bỏ phân bổ chỗ ở"
 
 ["LV.MM.UnassignWorkplace"]
 raw = "Unassign workplace"
@@ -60,6 +63,7 @@ plPL = "Odznacz miejsce pracy"
 ptBR = "Desatribuir local de trabalho"
 koKR = "작업장 해제"
 csCZ = "Zrušit přidělení pracoviště"
+viVN = "Gỡ bỏ nơi làm việc"
 
 ["LV.MM.AssignDistrict"]
 raw = "Assign district"
@@ -75,6 +79,7 @@ plPL = "Przydziel dzielnicę"
 ptBR = "Atribuir distrito"
 koKR = "구역 할당"
 csCZ = "Přiřadit okres"
+viVN = "Gán khu vực"
 
 ["LV.MM.PickDwelling"]
 raw = "Pick a house"
@@ -90,6 +95,7 @@ plPL = "Wybierz dom"
 ptBR = "Escolha uma casa"
 koKR = "집을 선택하세요"
 csCZ = "Vyberte dům"
+viVN = "Chọn một căn nhà"
 
 ["LV.MM.PickWorkplace"]
 raw = "Pick a workplace"
@@ -105,6 +111,7 @@ plPL = "Wybierz miejsce pracy"
 ptBR = "Escolha um local de trabalho"
 koKR = "작업장을 선택하세요"
 csCZ = "Vyberte si pracovní místo"
+viVN = "Chọn một nơi làm việc"
 
 ["LV.MM.PickDistrict"]
 raw = "Pick a district"
@@ -120,6 +127,7 @@ plPL = "Wybierz dzielnicę"
 ptBR = "Escolha um distrito"
 koKR = "구역 선택"
 csCZ = "Vyberte čtvrť"
+viVN = "Chọn một khu vực"
 
 ["LV.MM.ErrNoDistrict"]
 raw = "The selected building does not belong to a district"
@@ -135,6 +143,7 @@ plPL = "Wybrany budynek nie należy do żadnej dzielnicy."
 ptBR = "O edifício selecionado não pertence a um distrito."
 koKR = "선택한 건물은 구역에 속하지 않습니다."
 csCZ = "Vybraná budova nepatří do žádného okresu"
+viVN = "Tòa nhà được chọn không thuộc một khu vực"
 
 ["LV.MM.SendAll"]
 raw = "Send here:"
@@ -150,6 +159,7 @@ plPL = "Wyślij tutaj:"
 ptBR = "Envie aqui:"
 koKR = "여기로 보내기:"
 csCZ = "Odeslat sem:"
+viVN = "Gửi tại đây:"
 
 ["LV.MM.SendSick"]
 raw = "All contaminated beavers"
@@ -165,6 +175,7 @@ plPL = "Wszystkie zanieczyszczone bobry"
 ptBR = "Todos os castores contaminados"
 koKR = "모든 오염된 비버"
 csCZ = "Všichni kontaminovaní bobři"
+viVN = "Tất cả các con hải ly bị nhiễm bệnh"
 
 ["LV.MM.SendInjured"]
 raw = "All injured beavers"
@@ -180,6 +191,7 @@ plPL = "Wszystkie ranne bobry"
 ptBR = "Todos os castores feridos"
 koKR = "모든 부상당한 비버"
 csCZ = "Všichni zranění bobři"
+viVN = "Tất cả những con hải ly bị thương"
 
 ["LV.MM.SendHomeless"]
 raw = "All homeless beavers"
@@ -195,6 +207,7 @@ plPL = "Wszystkie bezdomne bobry"
 ptBR = "Todos os castores sem-teto"
 koKR = "모든 집 없는 비버"
 csCZ = "Všichni bezdomoví bobři"
+viVN = "Tất cả những con hải ly vô gia cư"
 
 ["LV.MM.SendUnemployed"]
 raw = "All unemployed beavers"
@@ -210,6 +223,7 @@ plPL = "Wszystkie bezrobotne bobry"
 ptBR = "Todos os castores desempregados"
 koKR = "모든 실업자 비버"
 csCZ = "Všichni nezaměstnaní bobři"
+viVN = "Tất cả các hà mã thất nghiệp"
 
 ["LV.MM.SendStuck"]
 raw = "All stuck beavers"
@@ -225,6 +239,7 @@ plPL = "Wszystkie utknęły bobry"
 ptBR = "Todos os castores presos"
 koKR = "모든 갇힌 비버들"
 csCZ = "Všichni uvízlí bobři"
+viVN = "Tất cả các con hải ly bị mắc kẹt"
 
 ["LV.MM.SendAllConfirm"]
 raw = "You are about to send {0} beavers to {1} ({2} are already in). Are you sure?"
@@ -240,6 +255,7 @@ plPL = "Zaraz wyślesz {0} bobrów do {1} ({2} już jest). Jesteś pewny?"
 ptBR = "Você está prestes a enviar {0} castores para {1} ({2} já estão lá). Você tem certeza?"
 koKR = "당신은 {1}에 {0} 마리 비버를 보내려고 합니다 ({2} 마리가 이미 있습니다). 확실합니까?"
 csCZ = "Chystáte se poslat {0} bobrů k {1} ({2} už je tam). Jste si jisti?"
+viVN = "Bạn sắp gửi {0} hải ly đến {1} (đã có {2} con ở đó). Bạn có chắc chắn không?"
 
 ["LV.MM.SendAllNoBeavers"]
 raw = "There are no beavers to send"
@@ -255,3 +271,4 @@ plPL = "Nie ma bobrów do wysłania."
 ptBR = "Não há castores para enviar."
 koKR = "보낼 비버가 없습니다"
 csCZ = "Není možné poslat žádné bobry"
+viVN = "Không có hải ly nào để gửi"

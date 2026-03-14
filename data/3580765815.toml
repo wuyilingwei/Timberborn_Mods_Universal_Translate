@@ -15,6 +15,7 @@ plPL = "Mod Pakietu Budowy"
 ptBR = "Mod Empacotador de Construções"
 koKR = "빌드 패키저 모드"
 csCZ = "Mod balíčka stavitele"
+viVN = "Mod Trình đóng gói xây dựng"
 
 ["LV.Pkg.BuiltDone"]
 raw = "'Packager' mod built. Please restart the game and enable the built mod.\n<RedHighlight>Do not disable this mod.</RedHighlight>\nIf you want to build the mod again (for example, after changing mods that give/remove items), simply disable the built mod and the button will appear again."
@@ -30,6 +31,7 @@ plPL = "'Mod 'Packager' zbudowany. Proszę zrestartować grę i włączyć zbudo
 ptBR = "'Mod 'Packager' construído. Por favor, reinicie o jogo e habilite o mod construído. \n<DestaqueVermelho>Não desative este mod.</DestaqueVermelho> \nSe você quiser construir o mod novamente (por exemplo, após mudar mods que dão/removem itens), basta desativar o mod construído e o botão aparecerá novamente."
 koKR = "‘패키저’ 모드가 생성되었습니다. 게임을 재시작하고 생성된 모드를 활성화 해주세요.  \n<RedHighlight>이 모드를 비활성화하지 마세요.</RedHighlight>  \n모드를 다시 빌드하고 싶으시다면 (예를 들어 아이템을 주거나 제거하는 모드를 변경한 후), 생성된 모드를 비활성화하면 버튼이 다시 나타납니다."
 csCZ = "'Packager' mod byl postaven. Prosím, restartujte hru a povolte postavený mod.  \n<RedHighlight>Nedisablesujte tento mod.</RedHighlight>  \nPokud chcete mod postavit znovu (například po změně modů, které dávají/odebírají předměty), jednoduše deaktivujte postavený mod a tlačítko se znovu objeví."
+viVN = "'Packager' mod đã được xây dựng. Vui lòng khởi động lại trò chơi và kích hoạt mod đã được xây dựng.\n<RedHighlight>Đừng vô hiệu hóa mod này.</RedHighlight>\nNếu bạn muốn xây dựng lại mod này (ví dụ, sau khi thay đổi các mod thêm/bỏ vật phẩm), chỉ cần vô hiệu hóa mod đã được xây dựng và nút sẽ xuất hiện trở lại."
 
 ["LV.Pkg.Restart"]
 raw = "Restart"
@@ -45,6 +47,7 @@ plPL = "Restart\" - \"Restartuj"
 ptBR = "Reiniciar"
 koKR = "재시작"
 csCZ = "Restartovat"
+viVN = "Khởi động lại"
 
 ["LV.Pkg.PackagedName"]
 raw = "{0} ×10"
@@ -60,6 +63,7 @@ plPL = "{0} ×10"
 ptBR = "{0} ×10"
 koKR = "{0} ×10"
 csCZ = "{0} ×10"
+viVN = "{0} ×10"
 
 ["LV.Pkg.PackagedNamePlural"]
 raw = "{0} ×10"
@@ -75,6 +79,7 @@ plPL = "{0} ×10"
 ptBR = "{0} ×10"
 koKR = "{0} ×10"
 csCZ = "{0} ×10"
+viVN = "{0} ×10"
 
 ["LV.Pkg.Packager"]
 raw = "Packager"
@@ -90,6 +95,7 @@ plPL = "Pakowacz"
 ptBR = "Embalador"
 koKR = "패키저"
 csCZ = "Balíčkovací stroj"
+viVN = "Người đóng gói"
 
 ["LV.Pkg.PackagerDesc"]
 raw = "Combines 10× of any supported good into a single package"
@@ -105,6 +111,7 @@ plPL = "Łączy 10× dowolnego obsługiwanego towaru w jedną paczkę"
 ptBR = "Combina 10× de qualquer produto suportado em um único pacote"
 koKR = "지원되는 모든 아이템 10개를 하나의 패키지로 결합합니다."
 csCZ = "Sloučí 10 × jakéhokoli podporovaného zboží do jednoho balíčku"
+viVN = "Ghép 10 đơn vị của bất kỳ mặt hàng được hỗ trợ nào thành một gói duy nhất"
 
 ["LV.Pkg.PackagerFlavor"]
 raw = "Born from necessity, perfected by neat freaks. Where there's clutter, there's a Bundler."
@@ -120,6 +127,7 @@ plPL = "Narodzony z konieczności, dopracowany przez pedantów. Gdzie jest bała
 ptBR = "Nascido da necessidade, aperfeiçoado por obsessivos por organização. Onde há bagunça, há um Empacotador."
 koKR = "필요에서 태어나, 깔끔을 추구하는 이들에 의해 완성되다. 어지럽혀진 곳에는 번들러가 있다."
 csCZ = "Narozen z potřeby, zdokonalen čistotnými šílenci. Kde je nepořádek, tam je Balíčkář."
+viVN = "Sinh ra từ nhu cầu, được hoàn thiện bởi những người ham ngăn nắp. Ở đâu có lộn xộn, ở đó có Bundler."
 
 ["LV.Pkg.Unpacker"]
 raw = "Unpackager"
@@ -135,6 +143,7 @@ plPL = "Rozpakowacz"
 ptBR = "Desempacotador"
 koKR = "언팩커"
 csCZ = "Vytahovač"
+viVN = "Người mở gói"
 
 ["LV.Pkg.UnpackerDesc"]
 raw = "Unpacks a package back into 10× individual goods."
@@ -150,6 +159,7 @@ plPL = "Rozpakowuje paczkę z powrotem na 10× indywidualnych towarów."
 ptBR = "Desempacota um pacote de volta em 10× bens individuais."
 koKR = "패키지를 10개의 개별 품목으로 다시 풀어냅니다."
 csCZ = "Znovu balí balíček na 10× jednotlivých zboží."
+viVN = "Giải nén gói hàng trở lại thành 10× đơn vị hàng hóa riêng lẻ."
 
 ["LV.Pkg.UnpackerFlavor"]
 raw = "Nothing delights a beaver more than unboxing the unexpected."
@@ -165,6 +175,7 @@ plPL = "Nic nie cieszy bobra bardziej niż rozpakowywanie niespodzianek."
 ptBR = "Nada alegra um castor mais do que abrir algo inesperado."
 koKR = "예상치 못한 것을 포장 해제하는 것만큼 비버를 기쁘게 하는 것은 없습니다."
 csCZ = "Nic nepotěší bobra více než rozbalování nečekaného."
+viVN = "Không có gì làm một chú hải ly thích thú hơn việc mở hộp những điều bất ngờ."
 
 ["LV.Pkg.RecipePack"]
 raw = "Pack {0}"
@@ -180,6 +191,7 @@ plPL = "Pakiet {0}"
 ptBR = "Pacote {0}"
 koKR = "팩 {0}"
 csCZ = "Balíček {0}"
+viVN = "Gói {0}"
 
 ["LV.Pkg.RecipeUnpack"]
 raw = "Unpack {0}"
@@ -195,6 +207,7 @@ plPL = "Rozpakuj {0}"
 ptBR = "Desempacotar {0}"
 koKR = "{0} 풀기"
 csCZ = "Rozbalit {0}"
+viVN = "Mở gói {0}"
 
 ["LV.Pkg.BulkCrate"]
 raw = "Bulk Crate"
@@ -210,6 +223,7 @@ plPL = "Duża Skrzynia"
 ptBR = "Caixa Grande"
 koKR = "벌크 상자"
 csCZ = "Velká bedna"
+viVN = "Thùng hàng số lượng lớn"
 
 ["LV.Pkg.BulkCratePlural"]
 raw = "Bulk Crates"
@@ -225,6 +239,7 @@ plPL = "Wielkie Skrzynie"
 ptBR = "Caixas de Carga"
 koKR = "대형 상자"
 csCZ = "Velké bedny"
+viVN = "Thùng đóng kiện số lượng lớn"
 
 ["LV.Pkg.LiquidBarrel"]
 raw = "Liquid Barrel"
@@ -240,6 +255,7 @@ plPL = "Beczka z cieczą"
 ptBR = "Barril de Líquido"
 koKR = "액체 통"
 csCZ = "Kapalinový sud"
+viVN = "Thùng chứa chất lỏng"
 
 ["LV.Pkg.LiquidBarrelPlural"]
 raw = "Liquid Barrels"
@@ -255,6 +271,7 @@ plPL = "Baryłki cieczy"
 ptBR = "Barrís de Líquido"
 koKR = "액체 배럴"
 csCZ = "Kapalinové barely"
+viVN = "Thùng chứa chất lỏng"
 
 ["LV.Pkg.OptionCrate"]
 raw = "Enable Bulk Crates (Pile → Warehouse)"
@@ -270,6 +287,7 @@ plPL = "Zezwól na zbiorcze skrzynie (Stos → Magazyn)"
 ptBR = "Ativar Caixas em Lote (Pilha → Armazém)"
 koKR = "대량 크레이트 활성화 (더미 → 창고)"
 csCZ = "Povolit hromadné bedny (Hromada → Sklad)"
+viVN = "Kích hoạt Thùng hàng số lượng lớn (Đống → Kho)"
 
 ["LV.Pkg.OptionCrateDesc"]
 raw = "Allows packaging Pile goods into Bulk Crates for storage in Warehouses"
@@ -285,6 +303,7 @@ plPL = "Pozwala na pakowanie towarów z Półki do Skrzyń Hurtowych do przechow
 ptBR = "Permite embalar produtos em pilha em Caixas em Grande Escala para armazenamento em Armazéns"
 koKR = "창고에 보관하기 위해 무더기 상품을 대형 상자에 포장할 수 있습니다."
 csCZ = "Umožňuje balení hromadného zboží do velkých beden pro skladování ve skladech"
+viVN = "Cho phép đóng gói hàng xếp thành thùng lớn để lưu trữ trong kho"
 
 ["LV.Pkg.OptionBarrel"]
 raw = "Enable Liquid Barrels (Tank → Warehouse)"
@@ -300,6 +319,7 @@ plPL = "Włącz beczki na płyny (Zbiornik → Magazyn)"
 ptBR = "Ativar Barris de Líquido (Tanque → Armazém)"
 koKR = "액체 배럴 활성화 (탱크 → 창고)"
 csCZ = "Povolit tekuté barely (Nádrž → Sklad)"
+viVN = "Kích hoạt thùng chứa chất lỏng (Bể chứa → Kho chứa)"
 
 ["LV.Pkg.OptionBarrelDesc"]
 raw = "Allows packaging Tank liquids into Liquid Barrels for storage in Warehouses"
@@ -315,6 +335,7 @@ plPL = "Pozwala na pakowanie cieczy z Tanków do beczek płynnych do przechowywa
 ptBR = "Permite embalar líquidos do Tanque em Barris Líquidos para armazenamento em Armazéns"
 koKR = "창고에 보관하기 위해 탱크 액체를 액체 드럼에 포장할 수 있습니다."
 csCZ = "Umožňuje balení tekutin z nádrží do tekutých sudů pro skladování ve skladech"
+viVN = "Cho phép đóng gói chất lỏng từ bể chứa thành thùng chứa chất lỏng để lưu trữ tại các kho"
 
 ["LV.Pkg.PackagedCrateName"]
 raw = "{0} ×10 Crated"
@@ -330,6 +351,7 @@ plPL = "{0} ×10 w skrzyni"
 ptBR = "{0} ×10 Caixa Empacotada"
 koKR = "{0} ×10 포장된 상자"
 csCZ = "{0} ×10 Zabalené"
+viVN = "{0} ×10 Đóng thùng"
 
 ["LV.Pkg.PackagedCrateNamePlural"]
 raw = "{0} ×10 Crated"
@@ -345,6 +367,7 @@ plPL = "{0} ×10 Zapakowane"
 ptBR = "{0} ×10 Empacotados"
 koKR = "{0} ×10 포장된"
 csCZ = "{0} ×10 Krabice"
+viVN = "{0} ×10 Đóng thùng"
 
 ["LV.Pkg.PackagedBarrelName"]
 raw = "{0} ×10 Barreled"
@@ -360,6 +383,7 @@ plPL = "{0} ×10 Beczkowany"
 ptBR = "{0} ×10 Barris"
 koKR = "{0} ×10 통에 담긴"
 csCZ = "{0} ×10 Sudy"
+viVN = "{0} ×10 Đóng thùng"
 
 ["LV.Pkg.PackagedBarrelNamePlural"]
 raw = "{0} ×10 Barreled"
@@ -375,6 +399,7 @@ plPL = "{0} ×10 Beczkowanych"
 ptBR = "{0} ×10 Barris"
 koKR = "{0} ×10 통에 담긴"
 csCZ = "{0} ×10 Sudy"
+viVN = "{0} ×10 Đóng thùng"
 
 ["LV.Pkg.RecipePackCrate"]
 raw = "Pack & Crate {0}"
@@ -390,6 +415,7 @@ plPL = "Paczka i Skrzynka {0}"
 ptBR = "Pacote & Caixa {0}"
 koKR = "포장 및 상자 {0}"
 csCZ = "Zabalit a krabice {0}"
+viVN = "Đóng gói & Thùng {0}"
 
 ["LV.Pkg.RecipeUnpackCrate"]
 raw = "Uncrate {0}"
@@ -405,6 +431,7 @@ plPL = "Otwórz skrzynię {0}"
 ptBR = "Desempacotar {0}"
 koKR = "상자 열기 {0}"
 csCZ = "Vyjmout {0}"
+viVN = "Mở hộp {0}"
 
 ["LV.Pkg.RecipePackBarrel"]
 raw = "Pack & Barrel {0}"
@@ -420,6 +447,7 @@ plPL = "Paczka i beczka {0}"
 ptBR = "Pacote e Barril {0}"
 koKR = "포장하고 배럴 {0}"
 csCZ = "Balit & Sud {0}"
+viVN = "Đóng gói & Đóng thùng {0}"
 
 ["LV.Pkg.RecipeUnpackBarrel"]
 raw = "Unbarrel {0}"
@@ -435,6 +463,7 @@ plPL = "Rozpakuj beczkę {0}"
 ptBR = "Desempilhar {0}"
 koKR = "통에서 빼내기 {0}"
 csCZ = "Rozbalit {0}"
+viVN = "Mở thùng {0}"
 
 ["LV.Pkg.TransformedGoodGroup"]
 raw = "Crated & Barreled Goods"
@@ -450,6 +479,7 @@ plPL = "Towary w skrzyniach i beczkach"
 ptBR = "Bens Engradados e Encalhados"
 koKR = "상자 및 통에 담긴 상품"
 csCZ = "Zboží v bednách a sudech"
+viVN = "Hàng hóa đóng thùng gỗ và thùng tròn"
 
 ["LV.Pkg.Option10"]
 raw = "Enable 10× Packaging"
@@ -465,6 +495,7 @@ plPL = "Włącz pakowanie 10×"
 ptBR = "Ativar embalagem 10×"
 koKR = "10배 포장 활성화"
 csCZ = "Povolit 10× balení"
+viVN = "Kích hoạt đóng gói 10×"
 
 ["LV.Pkg.Option10Desc"]
 raw = "Allows packing 10× of goods into a single item"
@@ -480,6 +511,7 @@ plPL = "Pozwala na zapakowanie 10× towarów w jeden przedmiot"
 ptBR = "Permite empacotar 10× de itens em um único item"
 koKR = "상품 10개를 단일 아이템으로 포장할 수 있습니다."
 csCZ = "Umožňuje zabalit 10× zboží do jedné položky"
+viVN = "Cho phép đóng gói 10× hàng hóa thành một mặt hàng duy nhất"
 
 ["LV.Pkg.Update710"]
 raw = "This update gives you two new additional options: Bulk Crates and Liquid Barrels so you can store Pile and Tank goods in Warehouses. Check the mod's description on Steam or Mod.io for more details."
@@ -495,3 +527,4 @@ plPL = "Ta aktualizacja daje ci dwie nowe dodatkowe opcje: Pudełka zbiorcze i B
 ptBR = "Esta atualização oferece duas novas opções adicionais: Caixas em Lote e Barris de Líquido, para que você possa armazenar bens de Pilha e Tanque nos Armazéns. Verifique a descrição do mod no Steam ou Mod.io para mais detalhes."
 koKR = "이 업데이트는 두 가지 새로운 추가 옵션을 제공합니다: 대량 상자와 액체 드럼으로, 창고에 더미 및 탱크 물품을 저장할 수 있습니다. 더 많은 정보는 Steam이나 Mod.io의 모드 설명을 확인하세요."
 csCZ = "Tato aktualizace vám přináší dvě nové dodatečné možnosti: Hromadné bedny a Kapalinové barely, abyste mohli uskladnit zboží z Hromady a Nádrže ve skladech. Podívejte se na popis modu na Steamu nebo Mod.io pro více podrobností."
+viVN = "Phiên bản cập nhật này mang đến cho bạn hai tùy chọn mới: Bulk Crates và Liquid Barrels, cho phép bạn lưu trữ hàng hóa ở dạng Pile và Tank trong các kho lưu trữ. Hãy kiểm tra mô tả của mod trên Steam hoặc Mod.io để biết thêm chi tiết."

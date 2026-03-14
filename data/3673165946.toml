@@ -15,6 +15,7 @@ plPL = "<YellowHighlight>Kolorowanie</YellowHighlight>"
 ptBR = "<YellowHighlight>Coloração</YellowHighlight>"
 koKR = "<YellowHighlight>채색</YellowHighlight>"
 csCZ = "<YellowHighlight>Barvení</YellowHighlight>"
+viVN = "<YellowHighlight>Tô màu</YellowHighlight>"
 
 ["LV.HTX.PositioningGroup"]
 raw = "<YellowHighlight>Positioning</YellowHighlight>"
@@ -30,6 +31,7 @@ plPL = "<YellowHighlight>Pozycjonowanie</YellowHighlight>"
 ptBR = "<YellowHighlight>Posicionamento</YellowHighlight>"
 koKR = "<YellowHighlight>위치 지정</YellowHighlight>"
 csCZ = "<YellowHighlight>Umístění</YellowHighlight>"
+viVN = "<YellowHighlight>Định vị</YellowHighlight>"
 
 ["LV.HTX.Color"]
 raw = "Color:"
@@ -45,6 +47,7 @@ plPL = "Kolor:"
 ptBR = "Cor:"
 koKR = "색상:"
 csCZ = "Barva:"
+viVN = "Màu:"
 
 ["LV.HTX.ColorPick"]
 raw = "Pick"
@@ -60,6 +63,7 @@ plPL = "Wybierz"
 ptBR = "Selecionar"
 koKR = "선택"
 csCZ = "Vyber"
+viVN = "Chọn màu"
 
 ["LV.HTX.Transparency"]
 raw = "Transparency:"
@@ -75,6 +79,7 @@ plPL = "Przezroczystość:"
 ptBR = "Transparência:"
 koKR = "투명도:"
 csCZ = "Průhlednost:"
+viVN = "Độ trong suốt:"
 
 ["LV.HTX.Translation"]
 raw = "Translation: {0}"
@@ -90,6 +95,7 @@ plPL = "Tłumaczenie: {0}"
 ptBR = "Tradução: {0}"
 koKR = "번역: {0}"
 csCZ = "Překlad: {0}"
+viVN = "Bản dịch: {0}"
 
 ["LV.HTX.Rotation"]
 raw = "Rotation: {0}"
@@ -105,6 +111,7 @@ plPL = "Rotacja: {0}"
 ptBR = "Rotação: {0}"
 koKR = "회전: {0}"
 csCZ = "Rotace: {0}"
+viVN = "Góc quay: {0}"
 
 ["LV.HTX.RotationPivot"]
 raw = "Pivot: {0}"
@@ -120,6 +127,7 @@ plPL = "Punkt obrotu: {0}"
 ptBR = "Pivô: {0}"
 koKR = "피벗: {0}"
 csCZ = "Otočný bod: {0}"
+viVN = "Trục quay: {0}"
 
 ["LV.HTX.Scale"]
 raw = "Scale: {0}"
@@ -135,6 +143,7 @@ plPL = "Skala: {0}"
 ptBR = "Escala: {0}"
 koKR = "배율: {0}"
 csCZ = "Měřítko: {0}"
+viVN = "Tỷ lệ: {0}"
 
 ["LV.HTX.SetManually"]
 raw = "Set manually"
@@ -150,6 +159,7 @@ plPL = "Ustaw ręcznie"
 ptBR = "Definir manualmente"
 koKR = "수동으로 설정"
 csCZ = "Nastavit ručně"
+viVN = "Thiết lập thủ công"
 
 ["LV.HTX.SetManuallyDesc"]
 raw = "You can put any values here. You are responsible for any consequences."
@@ -165,6 +175,7 @@ plPL = "Możesz tutaj wprowadzić dowolne wartości. Za wszelkie konsekwencje po
 ptBR = "Você pode inserir quaisquer valores aqui. Você é responsável por quaisquer consequências."
 koKR = "여기에 어떤 값이든 입력할 수 있습니다. 그 결과에 대한 모든 책임은 귀하에게 있습니다."
 csCZ = "Zde můžete zadat jakékoli hodnoty. Za jakékoli důsledky nesete odpovědnost."
+viVN = "Bạn có thể đặt bất kỳ giá trị nào ở đây. Bạn sẽ chịu trách nhiệm về mọi hậu quả."
 
 ["LV.HTX.SetForAll"]
 raw = "Set for all"
@@ -180,6 +191,7 @@ plPL = "Ustaw dla wszystkich"
 ptBR = "Aplicar a todos"
 koKR = "모두에 적용"
 csCZ = "Nastavit pro všechny"
+viVN = "Áp dụng cho tất cả"
 
 ["LV.HTX.RecommendedValues"]
 raw = "Recommended value range: {0} to {1}"
@@ -195,6 +207,7 @@ plPL = "Zalecany zakres wartości: od {0} do {1}"
 ptBR = "Intervalo de valores recomendado: {0} a {1}"
 koKR = "권장 값 범위: {0}에서 {1}까지"
 csCZ = "Doporučený rozsah hodnot: {0} až {1}"
+viVN = "Phạm vi giá trị được khuyến nghị: {0} đến {1}"
 
 ["LV.HTX.Reset"]
 raw = "Reset"
@@ -210,6 +223,7 @@ plPL = "Resetuj"
 ptBR = "Redefinir"
 koKR = "초기화"
 csCZ = "Obnovit"
+viVN = "Đặt lại"
 
 ["LV.HTX.ResetAll"]
 raw = "Reset all"
@@ -225,6 +239,7 @@ plPL = "Resetuj wszystko"
 ptBR = "Redefinir tudo"
 koKR = "모두 초기화"
 csCZ = "Resetovat vše"
+viVN = "Đặt lại tất cả"
 
 ["LV.HTX.ResetAllConfirm"]
 raw = "Are you sure you want to reset all values to their defaults?"
@@ -240,6 +255,7 @@ plPL = "Czy na pewno chcesz zresetować wszystkie wartości do ich wartości dom
 ptBR = "Você tem certeza de que deseja redefinir todos os valores para os padrões?"
 koKR = "모든 값을 기본값으로 재설정하시겠습니까?"
 csCZ = "Opravdu chcete resetovat všechny hodnoty na výchozí nastavení?"
+viVN = "Bạn có chắc chắn muốn đặt lại tất cả các giá trị về mặc định không?"
 
 ["LV.MT.BldSet.HueTurnColorComponent"]
 raw = "Hue & Turn X - Color"
@@ -255,6 +271,7 @@ plPL = "Hue & Turn X - Kolor"
 ptBR = "Hue & Turn X - Cor"
 koKR = "Hue & Turn X - 색상"
 csCZ = "Hue & Turn X - Barva"
+viVN = "Hue & Turn X - Màu"
 
 ["LV.MT.BldSet.HueTurnPositionComponent"]
 raw = "Hue & Turn X - Position"
@@ -270,3 +287,4 @@ plPL = "Hue & Turn X - Pozycja"
 ptBR = "Hue & Turn X - Posição"
 koKR = "Hue & Turn X - 위치"
 csCZ = "Hue & Turn X - Pozice"
+viVN = "Hue & Turn X - Vị trí"

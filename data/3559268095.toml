@@ -15,6 +15,7 @@ plPL = "Włącz konserwację"
 ptBR = "Habilitar manutenção"
 koKR = "유지보수 활성화"
 csCZ = "Povolit údržbu"
+viVN = "Bật bảo trì"
 
 ["LV.BHP.EnableMaintenanceDesc"]
 raw = "Buildings will deteriorate over time and require maintenance to keep them functional.\nDoes not affect unfinished buildings.\nCan only be changed on the Main Menu."
@@ -30,6 +31,7 @@ plPL = "Budynki będą się pogarszać z upływem czasu i będą wymagały konse
 ptBR = "As construções irão deteriorar-se ao longo do tempo e necessitarão de manutenção para permanecerem funcionais. Não afeta construções inacabadas. Pode ser alterado apenas no Menu Principal."
 koKR = "건물은 시간이 지남에 따라 노후되며 기능을 유지하기 위해 유지 관리가 필요합니다.  \n완공되지 않은 건물에는 영향을 미치지 않습니다.  \n메인 메뉴에서만 변경할 수 있습니다."
 csCZ = "Budovy se časem zhorší a vyžadují údržbu, aby zůstaly funkční. \nNevztahuje se na nedokončené budovy. \nLze měnit pouze v hlavním menu."
+viVN = "Các công trình sẽ xuống cấp theo thời gian và cần bảo trì để duy trì hoạt động.\nKhông ảnh hưởng đến các công trình chưa hoàn thành.\nChỉ có thể được thay đổi trên Menu Chính."
 
 ["LV.BHP.MaintenanceHPDays"]
 raw = "Maintenance days per HP"
@@ -45,6 +47,7 @@ plPL = "Dni konserwacji na jednostkę mocy"
 ptBR = " dias de manutenção por HP"
 koKR = "HP당 유지보수 일수"
 csCZ = "Dny údržby na HP"
+viVN = "Số ngày bảo trì cho mỗi HP"
 
 ["LV.BHP.MaintenanceHPDaysDesc"]
 raw = "How many days before 1HP is lost due to maintenance."
@@ -60,6 +63,7 @@ plPL = "Ile dni przed utratą 1HP z powodu konserwacji."
 ptBR = "Quantos dias antes de 1HP ser perdido devido à manutenção."
 koKR = "유지 관리로 인해 1HP가 잃어버리기까지 며칠 남았습니까?"
 csCZ = "Kolik dní uběhne, než dojde k úbytku 1HP z důvodu údržby."
+viVN = "Có bao nhiêu ngày trước khi 1HP bị mất do bảo trì."
 
 ["LV.BHP.EnableMaterialDurability"]
 raw = "Enable material Durability"
@@ -75,6 +79,7 @@ plPL = "Aktywuj trwałość materiału"
 ptBR = "Ativar Durabilidade do Material"
 koKR = "재료 내구성 활성화"
 csCZ = "Povolit trvanlivost materiálu"
+viVN = "Kích hoạt độ bền vật liệu"
 
 ["LV.BHP.EnableMaterialDurabilityDesc"]
 raw = "Buildings will gain Durability from materials used in their construction.\n<RedHighlight>WARNING:</RedHighlight> Disabling this also removes invulnerability from buildings without cost.\nCan only be changed on the Main Menu."
@@ -90,6 +95,7 @@ plPL = "Nieruchomości uzyskają Trwałość z materiałów użytych do ich budo
 ptBR = "Os edifícios ganharão Durabilidade a partir dos materiais usados em sua construção.  \n<RedHighlight>AVISO:</RedHighlight> Desativar isso também remove a invulnerabilidade dos edifícios sem custo.  \nSó pode ser alterado no Menu Principal."
 koKR = "건물은 건축에 사용된 재료로 내구성을 얻습니다.  \n<레드 하이라이트>경고:</레드 하이라이트> 이 기능을 비활성화하면 비용 없이 건물의 무적도 제거됩니다.  \n메인 메뉴에서만 변경할 수 있습니다."
 csCZ = "Budovy získají odolnost podle materiálů použitých při jejich stavbě.  \n<RedHighlight>VAROVÁNÍ:</RedHighlight> Zakázání této funkce také odstraní neporazitelnost budov bez nákladů.  \nMůže být změněno pouze v hlavním menu."
+viVN = "Các công trình sẽ nhận được Độ bền từ các vật liệu được sử dụng trong quá trình xây dựng của chúng.\n<RedHighlight>CẢNH BÁO:</RedHighlight> Việc vô hiệu hóa điều này cũng loại bỏ tính bất khả xâm phạm của các công trình mà không tốn chi phí.\nChỉ có thể được thay đổi ở Menu Chính."
 
 ["LV.BHP.AutoRepair"]
 raw = "Auto-repair"
@@ -105,6 +111,7 @@ plPL = "Auto-naprawa"
 ptBR = "Auto-reparo"
 koKR = "자동 수리"
 csCZ = "Automatická oprava"
+viVN = "Sửa chữa tự động"
 
 ["LV.BHP.AutoRepairHP"]
 raw = "HP% threshold"
@@ -120,6 +127,7 @@ plPL = "Próg HP%"
 ptBR = "Limite de HP%"
 koKR = "HP% 임계값"
 csCZ = "Prahová hodnota HP %"
+viVN = "Ngưỡng HP%"
 
 ["LV.BHP.HPTooltip"]
 raw = "HP: {0}\nDurability: {1}\n{2}"
@@ -135,6 +143,7 @@ plPL = "HP: {0}\nTrwałość: {1}\n{2}"
 ptBR = "HP: {0}\nDurabilidade: {1}\n{2}"
 koKR = "HP: {0}  \n내구성: {1}  \n{2}"
 csCZ = "HP: {0}\nTrvanlivost: {1}\n{2}"
+viVN = "HP: {0}\nĐộ bền: {1}\n{2}"
 
 ["LV.BHP.HPTooltipDurability"]
 raw = "▶ {0} from {1}"
@@ -150,6 +159,7 @@ plPL = "▶ {0} z {1}"
 ptBR = "▶ {0} de {1}"
 koKR = "▶ {0} / {1}"
 csCZ = "▶ {0} z {1}"
+viVN = "▶ {0} từ {1}"
 
 ["LV.BHP.HPTooltipInvul"]
 raw = "▶ Invulnerability from {0}"
@@ -165,6 +175,7 @@ plPL = "▶ Niewrażliwość na {0}"
 ptBR = "▶ Invulnerabilidade de {0}"
 koKR = "▶ {0}로부터 무적"
 csCZ = "▶ Nezranitelnost od {0}"
+viVN = "▶ Miễn nhiễm từ {0}"
 
 ["LV.BHP.MaterialDurability"]
 raw = "Construction materials"
@@ -180,6 +191,7 @@ plPL = "Materiały budowlane"
 ptBR = "Materiais de construção"
 koKR = "건축 자재"
 csCZ = "Stavební materiály"
+viVN = "Vật liệu xây dựng"
 
 ["LV.BHP.HP"]
 raw = "HP: {0} / {1}"
@@ -195,6 +207,7 @@ plPL = "HP: {0} / {1}"
 ptBR = "PV: {0} / {1}"
 koKR = "HP: {0} / {1}"
 csCZ = "HP: {0} / {1}"
+viVN = "Sinh lực: {0} / {1}"
 
 ["LV.BHP.HPInvul"]
 raw = "HP: {0} / {1}, Invulnerable"
@@ -210,6 +223,7 @@ plPL = "HP: {0} / {1}, Niewrażliwy"
 ptBR = "HP: {0} / {1}, Invulnerável"
 koKR = "HP: {0} / {1}, 무적"
 csCZ = "HP: {0} / {1}, Nezranitelný"
+viVN = "HP: {0} / {1}, Miễn thương"
 
 ["LV.BHP.Repair"]
 raw = "Repair"
@@ -225,6 +239,7 @@ plPL = "Naprawa"
 ptBR = "Reparar"
 koKR = "수리"
 csCZ = "Opravit"
+viVN = "Sửa chữa"
 
 ["LV.BHP.BaseDurabilityTooltip"]
 raw = "Base Durability"
@@ -240,6 +255,7 @@ plPL = "Podstawowa Trwałość"
 ptBR = "Durabilidade Base"
 koKR = "기본 내구성"
 csCZ = "Základní odolnost"
+viVN = "Độ bền cơ bản"
 
 ["LV.BHP.EnableWarnLowHp"]
 raw = "Low building HP warning"
@@ -255,6 +271,7 @@ plPL = "Ostrzeżenie o niskim HP budynku"
 ptBR = " aviso de HP baixo do edifício"
 koKR = "건물 HP 경고 낮음"
 csCZ = "Varování o nízkém HP budovy"
+viVN = "Cảnh báo HP công trình thấp"
 
 ["LV.BHP.EnableWarnLowHpDesc"]
 raw = "Show a warning when a building's HP is low.\nNote: if a building max HP is below the threshold, the warning is only shown if the building is damaged."
@@ -270,6 +287,7 @@ plPL = "Wyświetl ostrzeżenie, gdy HP budynku jest niskie. Uwaga: jeśli maksym
 ptBR = "Mostrar um aviso quando a HP de um edifício estiver baixa. Nota: se a HP máxima de um edifício estiver abaixo do limite, o aviso será exibido apenas se o edifício estiver danificado."
 koKR = "건물의 HP가 낮을 때 경고를 표시합니다.  \n참고: 건물의 최대 HP가 기준 이하일 경우, 건물이 손상된 경우에만 경고가 표시됩니다."
 csCZ = "Zobrazit varování, když je HP budovy nízké. \nPoznámka: pokud je maximální HP budovy pod prahem, varování se zobrazuje pouze v případě, že je budova poškozená."
+viVN = "Hiển thị cảnh báo khi HP của một tòa nhà ở mức thấp.\nLưu ý: nếu HP tối đa của tòa nhà thấp hơn ngưỡng, cảnh báo chỉ được hiển thị khi tòa nhà bị hư hại."
 
 ["LV.BHP.LowHpThreshold"]
 raw = "Low HP threshold"
@@ -285,6 +303,7 @@ plPL = "Pr próg niskiego HP"
 ptBR = "Limite de HP Baixo"
 koKR = "저체력 임계값"
 csCZ = "Prahová hodnota nízkého HP"
+viVN = "Ngưỡng HP thấp"
 
 ["LV.BHP.LowHpThresholdDesc"]
 raw = "The HP threshold below which a warning will be shown."
@@ -300,6 +319,7 @@ plPL = "Próg zdrowia, poniżej którego wyświetlany będzie ostrzeżenie."
 ptBR = "A linha de HP abaixo da qual um aviso será exibido."
 koKR = "경고가 표시되는 HP 기준치입니다."
 csCZ = "Hranice HP, pod kterou se zobrazí varování."
+viVN = "Ngưỡng HP dưới mức này sẽ hiển thị cảnh báo."
 
 ["LV.BHP.EnableWarnLowHpPerc"]
 raw = "Low building HP percentage warning"
@@ -315,6 +335,7 @@ plPL = "Ostrzeżenie o niskim procencie HP budynku"
 ptBR = "Aviso de porcentagem baixa de HP do edifício"
 koKR = "건물 HP 비율 경고"
 csCZ = "Oznámení o nízkém procentu HP budovy"
+viVN = "Cảnh báo phần trăm HP công trình ở mức thấp"
 
 ["LV.BHP.EnableWarnLowHpPercDesc"]
 raw = "Show a warning when a building's HP is below a certain percentage."
@@ -330,6 +351,7 @@ plPL = "Pokaż ostrzeżenie, gdy HP budynku spadnie poniżej określonego procen
 ptBR = "Exibir um aviso quando a HP de um edifício estiver abaixo de uma determinada porcentagem."
 koKR = "건물의 HP가 특정 비율 이하일 때 경고를 표시합니다."
 csCZ = "Zobrazit varování, když je HP budovy pod určitou procentní hodnotou."
+viVN = "Hiển thị cảnh báo khi HP của công trình thấp hơn một phần trăm nhất định."
 
 ["LV.BHP.LowHpPercThreshold"]
 raw = "Low HP percentage threshold"
@@ -345,6 +367,7 @@ plPL = "Próg niskiego procentu HP"
 ptBR = "Limite de porcentagem de HP baixo"
 koKR = "낮은 HP 비율 임계값"
 csCZ = "Hranice nízkého procenta HP"
+viVN = "Ngưỡng HP thấp theo phần trăm"
 
 ["LV.BHP.LowHpPercThresholdDesc"]
 raw = "The HP percentage threshold below which a warning will be shown."
@@ -360,6 +383,7 @@ plPL = "Procentowy próg HP, poniżej którego zostanie wyświetlone ostrzeżeni
 ptBR = "A porcentagem de HP abaixo da qual um aviso será exibido."
 koKR = "경고가 표시될 HP 백분율 기준선입니다."
 csCZ = "Hranice procenta HP, pod kterou se zobrazí varování."
+viVN = "Ngưỡng phần trăm HP thấp hơn mức này sẽ hiển thị cảnh báo."
 
 ["LV.BHP.LowHpWarningTitle"]
 raw = "Building is badly damaged"
@@ -375,6 +399,7 @@ plPL = "Budowla jest poważnie uszkodzona"
 ptBR = "Edifício está gravemente danificado"
 koKR = "건물이 심각하게 손상되었습니다"
 csCZ = "Budova je silně poškozená"
+viVN = "Công trình bị hư hỏng nghiêm trọng"
 
 ["LV.BHP.LowHpWarningDesc"]
 raw = "The building may be destroyed if further damaged. Consider repairing it."
@@ -390,6 +415,7 @@ plPL = "Budynek może zostać zniszczony, jeśli dozna dalszych uszkodzeń. Rozw
 ptBR = "O edifício pode ser destruído se sofrer mais danos. Considere consertá-lo."
 koKR = "건물이 추가 손상을 입으면 파괴될 수 있습니다. 수리를 고려하세요."
 csCZ = "Budova může být zničena, pokud bude dále poškozena. Zvažte její opravu."
+viVN = "Tòa nhà có thể bị phá hủy nếu bị hư hỏng thêm. Hãy xem xét sửa chữa nó."
 
 ["LV.BHP.AutoRepairOn"]
 raw = "Auto-repair enabled on placement"
@@ -405,6 +431,7 @@ plPL = "Automatyczna naprawa włączona po umiejscowieniu"
 ptBR = "Reparo automático ativado na colocação"
 koKR = "배치 시 자동 수리 활성화됨"
 csCZ = "Automatická oprava povolena při umístění"
+viVN = "Tự động sửa chữa được bật khi đặt"
 
 ["LV.BHP.AutoRepairOnDesc"]
 raw = "Auto-repair will be enabled when placing buildings."
@@ -420,6 +447,7 @@ plPL = "Automatyczna naprawa zostanie włączona podczas stawiania budynków."
 ptBR = "A reparação automática será ativada ao colocar edifícios."
 koKR = "건물 배치 시 자동 수리가 활성화됩니다."
 csCZ = "Automatická oprava bude povolena při umisťování budov."
+viVN = "Sửa chữa tự động sẽ được bật khi đặt công trình."
 
 ["LV.BHP.AutoRepairDefaultThreshold"]
 raw = "Auto-repair default threshold"
@@ -435,6 +463,7 @@ plPL = "Domyślny próg automatycznej naprawy"
 ptBR = "Limite padrão de auto-reparo"
 koKR = "자동 수리 기본 임계값"
 csCZ = "Výchozí práh automatické opravy"
+viVN = "Ngưỡng sửa chữa tự động mặc định"
 
 ["LV.BHP.AutoRepairDefaultThresholdDesc"]
 raw = "The default HP threshold for auto-repair when placing buildings."
@@ -450,6 +479,7 @@ plPL = "Domyślny próg HP dla automatycznej naprawy przy wznoszeniu budynków."
 ptBR = "A porcentagem padrão de HP para auto-reparo ao colocar edifícios."
 koKR = "건물을 배치할 때 자동 수리를 위한 기본 HP 임계값입니다."
 csCZ = "Výchozí práh HP pro automatickou opravu při umisťování budov."
+viVN = "Ngưỡng HP mặc định cho sửa chữa tự động khi đặt công trình."
 
 ["LV.BHP.RepairGroup"]
 raw = "Repair"
@@ -465,6 +495,7 @@ plPL = "Naprawa"
 ptBR = "Reparar"
 koKR = "수리"
 csCZ = "oprava"
+viVN = "Sửa chữa"
 
 ["LV.BHP.RepairReno"]
 raw = "Repair"
@@ -480,6 +511,7 @@ plPL = "Naprawa"
 ptBR = "Reparar"
 koKR = "수리"
 csCZ = "Opravit"
+viVN = "Sửa chữa"
 
 ["LV.BHP.RepairRenoDesc"]
 raw = "Repair the building to restore its HP. You can choose how much you want to repair it and it always takes [Days]d to finish."
@@ -495,6 +527,7 @@ plPL = "Napraw budynek, aby przywrócić jego HP. Możesz wybrać, ile chcesz go
 ptBR = "Repare o edifício para restaurar sua HP. Você pode escolher quanto deseja reparar e sempre leva [Dias]d para terminar."
 koKR = "건물을 수리하여 HP를 복원하세요. 수리할 양을 선택할 수 있으며, 완료까지 항상 [Days]일이 소요됩니다."
 csCZ = "Opravit budovu, abyste obnovili její HP. Můžete si vybrat, kolik chcete opravit, a vždy to trvá [Days]d, než bude hotovo."
+viVN = "Sửa chữa tòa nhà để khôi phục HP của nó. Bạn có thể chọn mức độ sửa chữa mà bạn muốn và nó sẽ mất [Days]d để hoàn thành."
 
 ["LV.BHP.RepairRenoFlavor"]
 raw = "A patch here, a beam there, good as new!"
@@ -510,6 +543,7 @@ plPL = "Tu łatka, tam belka, jak nowa!"
 ptBR = "Um remendo aqui, uma viga ali, como novo!"
 koKR = "여기 패치 하나, 저기 빔 하나, 새것처럼 좋아!"
 csCZ = "Jedno šití tady, jeden trám tam, jako nové!"
+viVN = "Một miếng vá ở đây, một thanh dầm ở kia, như mới!"
 
 ["LV.BHP.Renovations"]
 raw = "Renovations"
@@ -525,6 +559,7 @@ plPL = "Renowacje"
 ptBR = "Renovações"
 koKR = "개조"
 csCZ = "Renovace"
+viVN = "Cải tạo"
 
 ["LV.BHP.Renovate"]
 raw = "Renovate building"
@@ -540,6 +575,7 @@ plPL = "Renowacja budynku"
 ptBR = "Renovar edifício"
 koKR = "건물 개조"
 csCZ = "Renovovat budovu"
+viVN = "Cải tạo công trình"
 
 ["LV.BHP.NoRenovation"]
 raw = "No renovation available for this building."
@@ -555,6 +591,7 @@ plPL = "Brak możliwości renowacji tego budynku."
 ptBR = "Renovação não disponível para este edifício."
 koKR = "이 건물은 리노베이션이 불가능합니다."
 csCZ = "Není k dispozici rekonstrukce pro tuto budovu."
+viVN = "Không có cải tạo nào cho công trình này."
 
 ["LV.BHP.ReinforceGroup"]
 raw = "Reinforcement"
@@ -570,6 +607,7 @@ plPL = "Wzmocnienie"
 ptBR = "Reforço"
 koKR = "강화"
 csCZ = "Zpevnění"
+viVN = "Gia cố"
 
 ["LV.BHP.ReinforceEff"]
 raw = "Increases building Durability by {0:+0}."
@@ -585,6 +623,7 @@ plPL = "Zwiększa wytrzymałość budynku o {0:+0}."
 ptBR = "Aumenta a Durabilidade do edifício em {0:+0}."
 koKR = "건물 내구성이 {0:+0}만큼 증가합니다."
 csCZ = "Zvyšuje odolnost budovy o {0:+0}."
+viVN = "Tăng độ bền của công trình lên {0:+0}."
 
 ["LV.BHP.ReinforceInvul"]
 raw = "Project Amberwall"
@@ -600,6 +639,7 @@ plPL = "Projekt Amberwall"
 ptBR = "Projeto Muralha Âmbar"
 koKR = "프로젝트 앰버월"
 csCZ = "Projekt Amberwall"
+viVN = "Dự án Amberwall"
 
 ["LV.BHP.ReinforceInvulDesc"]
 raw = "Temporarily makes the building invulnerable for {0} days."
@@ -615,6 +655,7 @@ plPL = "Na krótki czas sprawia, że budowla staje się niewrażliwa na {0} dni.
 ptBR = "Faz o edifício ficar invulnerável temporariamente por {0} dias."
 koKR = "건물을 {0}일 동안 일시적으로 무적 상태로 만듭니다."
 csCZ = "Dočasně činí budovu nezranitelnou po dobu {0} dnů."
+viVN = "Tạm thời khiến tòa nhà không thể bị tổn thương trong {0} ngày."
 
 ["LV.BHP.ReinforceInvulFlavor"]
 raw = "A golden coat of resin, sealing every crack until nothing gets through."
@@ -630,6 +671,7 @@ plPL = "Złota powłoka żywicy, uszczelniająca każdą szczelinę, aż nic nie
 ptBR = "Uma camada dourada de resina, selando cada fissura até que nada consiga passar."
 koKR = "모든 틈을 봉인하여 아무것도 통과하지 못하도록 하는 금빛 수지층."
 csCZ = "Zlatý nátěr pryskyřice, který utěsňuje každý prasklina, dokud nic neprojde."
+viVN = "Một lớp nhựa vàng, phong kín mọi vết nứt cho đến khi không còn gì lọt qua."
 
 ["LV.BHP.ReinforceGear"]
 raw = "Metal Gear Solid"
@@ -645,6 +687,7 @@ plPL = "Metal Gear Solid"
 ptBR = "Metal Gear Solid"
 koKR = "메탈 기어 솔리드"
 csCZ = "Metal Gear Solid"
+viVN = "Metal Gear Solid"
 
 ["LV.BHP.ReinforceGearDesc"]
 raw = "Increases building Durability by {0:+0} and Productivity by {1:+0%} if it's a manufactory."
@@ -660,6 +703,7 @@ plPL = "Zwiększa trwałość budynku o {0:+0} oraz wydajność o {1:+0%}, jeśl
 ptBR = "Aumenta a Durabilidade do prédio em {0:+0} e a Produtividade em {1:+0%} se for uma manufatura."
 koKR = "건물 내구도를 {0:+0} 증가시키고, 그것이 제조업체일 경우 생산성을 {1:+0%} 증가시킵니다."
 csCZ = "Zvyšuje odolnost budovy o {0:+0} a produktivitu o {1:+0%}, pokud se jedná o manufakturu."
+viVN = "Tăng độ bền của công trình lên {0:+0} và năng suất lên {1:+0%} nếu nó là một nhà máy."
 
 ["LV.BHP.ReinforceGearFlavor"]
 raw = "Heavy-duty gears, reinforced with solid metal. Cardboard box included."
@@ -675,6 +719,7 @@ plPL = "Wytrzymałe zegary, wzmocnione solidnym metalem. W zestawie tekturowe pu
 ptBR = "Engrenagens robustas, reforçadas com metal sólido. Caixa de papelão incluída."
 koKR = "튼튼한 금속으로 보강된 중량급 기어. 골판지 상자 포함."
 csCZ = "Odolné převodovky, vyztužené pevným kovem. Součástí je kartonová krabice."
+viVN = "Bánh răng chịu tải nặng, được gia cố bằng kim loại rắn chắc. Hộp carton kèm theo."
 
 ["LV.BHP.ReinforceGearEffDurability"]
 raw = "▶ Durability increased by {0:+0}."
@@ -690,6 +735,7 @@ plPL = "▶ Trwałość zwiększona o {0:+0}."
 ptBR = "▶ Durabilidade aumentada em {0:+0}."
 koKR = "▶ 내구성이 {0:+0} 만큼 증가했습니다."
 csCZ = "▶ Odolnost zvýšena o {0:+0}."
+viVN = "▶ Độ bền tăng lên {0:+0}."
 
 ["LV.BHP.ReinforceGearEffProductivity"]
 raw = "▶ Productivity increased by {0:+0%}."
@@ -705,6 +751,7 @@ plPL = "▶ Produktywność zwiększona o {0:+0%}."
 ptBR = "▶ Produtividade aumentada em {0:+0%}."
 koKR = "▶ 생산성 증가 {0:+0%}."
 csCZ = "▶ Produktivita zvýšena o {0:+0%}."
+viVN = "▶ Năng suất tăng lên {0:+0%}."
 
 ["LV.BHP.ReinforceGearWorkerEff"]
 raw = "{0:+0%} Working Speed"
@@ -720,6 +767,7 @@ plPL = "{0:+0%} Prędkość pracy"
 ptBR = "{0:+0%} Velocidade de Trabalho"
 koKR = "{0:+0%} 작업 속도"
 csCZ = "{0:+0%} Rychlost práce"
+viVN = "{0:+0%} Tốc độ làm việc"
 
 ["LV.BHP.NoNeedRepair"]
 raw = "Building does not need repairs."
@@ -735,6 +783,7 @@ plPL = "Budynek nie wymaga napraw."
 ptBR = "O edifício não precisa de reparos."
 koKR = "건물은 수리가 필요 없습니다."
 csCZ = "Budova nepotřebuje opravy."
+viVN = "Công trình không cần sửa chữa."
 
 ["LV.BHP.NoReinforcement"]
 raw = "No reinforcement yet"
@@ -750,6 +799,7 @@ plPL = "Jeszcze bez wzmocnienia"
 ptBR = "Sem reforço ainda"
 koKR = "아직 보강이 없습니다"
 csCZ = "Zatím žádné zpevnění"
+viVN = "Chưa có sự gia cố nào"
 
 ["LV.BHP.HigherReinforce"]
 raw = "Higher reinforcement is already applied."
@@ -765,6 +815,7 @@ plPL = "Wyższe wzmocnienie jest już zastosowane."
 ptBR = "Aumentar reforço já está aplicado."
 koKR = "더 높은 보강이 이미 적용되었습니다."
 csCZ = "Vyšší vyztužení je již aplikováno."
+viVN = "Gia cố cao hơn đã được áp dụng."
 
 ["LV.BHP.RenoTime"]
 raw = "⏱️ Renovation time: {0} days"
@@ -780,6 +831,7 @@ plPL = "⏱️ Czas renowacji: {0} dni"
 ptBR = "⏱️ Tempo de reforma: {0} dias"
 koKR = "⏱️ 개조 시간: {0}일"
 csCZ = "⏱️ Čas na renovaci: {0} dnů"
+viVN = "⏱️ Thời gian cải tạo: {0} ngày"
 
 ["LV.BHP.RenoPriority"]
 raw = "Renovation materials priority:"
@@ -795,6 +847,7 @@ plPL = "Priorytet materiałów do renowacji:"
 ptBR = "Prioridade dos materiais de renovação:"
 koKR = "개조 자재 우선순위:"
 csCZ = "Priorita renovací materiálů:"
+viVN = "Ưu tiên vật liệu cải tạo:"
 
 ["LV.BHP.RenoPriorityShort"]
 raw = "Materials"
@@ -810,6 +863,7 @@ plPL = "Materiały"
 ptBR = "Materiais"
 koKR = "재료"
 csCZ = "Materiály"
+viVN = "Vật liệu"
 
 ["LV.BHP.AlreadyActive"]
 raw = "Renovation is already active."
@@ -825,6 +879,7 @@ plPL = "Renowacja jest już aktywna."
 ptBR = "A renovação já está ativa."
 koKR = "개조가 이미 활성화되어 있습니다."
 csCZ = "Renovace je již aktivní."
+viVN = "Quá trình trùng tu đã được kích hoạt."
 
 ["LV.BHP.NoGearBuilding"]
 raw = "This renovation is only for buildings that use gears"
@@ -840,6 +895,7 @@ plPL = "Ta renowacja dotyczy tylko budynków, które używają kół zębatych."
 ptBR = "Esta reforma é apenas para edifícios que utilizam engrenagens"
 koKR = "이 개조는 기어를 사용하는 건물에만 해당됩니다."
 csCZ = "Tato renovace je určena pouze pro budovy, které používají ozubená kola."
+viVN = "Nâng cấp này chỉ dành cho các tòa nhà sử dụng bánh răng."
 
 ["LV.BHP.RenovationNote"]
 raw = "- Once started, the building will start gathering materials and the time only counts down when all materials are collected.\n- Collecting materials and renovating does <b>NOT</b> require Builders or Haulers. They are done automatically. However, materials are only taken once all materials are available in the stockpiles, it cannot be taken gradually.\n- Only one renovation can be active at a time for each building. You can cancel it at any time (except certain renovations) but no materials will be refunded once gathered."
@@ -855,6 +911,7 @@ plPL = "- Po rozpoczęciu, budynek zacznie zbierać materiały, a czas będzie o
 ptBR = "- Uma vez iniciado, o edifício começará a coletar materiais e o tempo só contará para baixo quando todos os materiais estiverem coletados.\n- Coletar materiais e reformar <b>NÃO</b> requer Construtores ou Transportadores. Isso é feito automaticamente. No entanto, os materiais só são coletados uma vez que todos os materiais estão disponíveis nos depósitos, não podem ser retirados gradualmente.\n- Apenas uma reforma pode estar ativa de cada vez para cada edifício. Você pode cancelá-la a qualquer momento (exceto certas reformas), mas nenhum material será reembolsado uma vez coletado."
 koKR = "- 시작하면 건물이 자재를 모으기 시작하며, 모든 자재가 수집된 후에만 시간이 카운트다운됩니다.  \n- 자재 수집과 개조에는 <b>건축가</b>나 <b>운반가</b>가 필요하지 않습니다. 자동으로 진행됩니다. 그러나 자재는 모든 자재가 비축 창고에 준비된 경우에만 가져갈 수 있으며, 점진적으로 가져갈 수는 없습니다.  \n- 각 건물에 대해 한 번에 하나의 개조만 활성화할 수 있습니다. 언제든지 취소할 수 있지만(특정 개조 제외), 자재가 수집된 후에는 환불되지 않습니다."
 csCZ = "- Jakmile začne, budova začne shromažďovat materiály a čas se odpočítává pouze tehdy, když jsou všechny materiály shromážděny.  \n- Shromažďování materiálů a renovace <b>NE</b>vyžaduje stavitele nebo nosiče. Probíhá to automaticky. Materiály jsou však brány pouze tehdy, když jsou všechny materiály k dispozici ve skladištích, nelze je brát postupně.  \n- Aktivní může být pouze jedna renovace najednou pro každou budovu. Můžete ji kdykoli zrušit (kromě některých renovací), ale žádné materiály nebudou vráceny jakmile jsou shromážděny."
+viVN = "- Khi được bắt đầu, tòa nhà sẽ bắt đầu thu thập vật liệu và thời gian chỉ trôi khi tất cả vật liệu đã được thu thập.\n- Việc thu thập vật liệu và cải tạo <b>KHÔNG</b> yêu cầu Thợ xây hoặc Người vận chuyển. Chúng được thực hiện tự động. Tuy nhiên, vật liệu chỉ được lấy khi toàn bộ vật liệu có sẵn trong kho dự trữ; không thể lấy từ từ.\n- Chỉ có một lượt cải tạo có thể hoạt động tại một thời điểm đối với mỗi tòa nhà. Bạn có thể hủy nó bất cứ lúc nào (trừ một số cải tạo nhất định), nhưng vật liệu sẽ không được hoàn trả khi đã được thu thập."
 
 ["LV.BHP.StartRenovation"]
 raw = "Start this renovation"
@@ -870,6 +927,7 @@ plPL = "Rozpocznij tę renowację"
 ptBR = "Iniciar esta renovação"
 koKR = "이 개조를 시작하세요"
 csCZ = "Zahájit tuto renovaci"
+viVN = "Bắt đầu cải tạo này"
 
 [Empty]
 raw = ""
@@ -899,6 +957,7 @@ plPL = "Kwota naprawy:"
 ptBR = "Quantidade de reparo:"
 koKR = "수리 양:"
 csCZ = "Opravená částka:"
+viVN = "Số lượng sửa chữa:"
 
 ["LV.BHP.RepairHP"]
 raw = "Repairing {0:+0%}HP, after repair it will have {1} + {2} = {3}HP."
@@ -914,6 +973,7 @@ plPL = "Naprawa {0:+0%}HP, po naprawie będzie miał {1} + {2} = {3}HP."
 ptBR = "Reparando {0:+0%}HP, após a reparação terá {1} + {2} = {3}HP."
 koKR = "{0:+0%}HP를 수리 중이며, 수리 후에는 {1} + {2} = {3}HP가 됩니다."
 csCZ = "Údržba {0:+0%}HP, po opravě bude mít {1} + {2} = {3}HP."
+viVN = "Sửa chữa {0:+0%}HP, sau khi sửa chữa sẽ có {1} + {2} = {3}HP."
 
 ["LV.BHP.SupplyRenovation"]
 raw = "Supply materials for renovations"
@@ -929,6 +989,7 @@ plPL = "Dostarcz materiały do renowacji"
 ptBR = "Fornecer materiais para renovações"
 koKR = "개조를 위한 자재 공급"
 csCZ = "Zajistit materiály na renovace"
+viVN = "Cung cấp vật liệu cho việc cải tạo"
 
 ["LV.BHP.SupplyPriority"]
 raw = "Supply priority"
@@ -944,6 +1005,7 @@ plPL = "Priorytet dostaw"
 ptBR = "Prioridade de suprimento"
 koKR = "공급 우선순위"
 csCZ = "Priorita zásob"
+viVN = "Ưu tiên cung cấp"
 
 ["LV.BHP.CancelReno"]
 raw = "Cancel renovation"
@@ -959,6 +1021,7 @@ plPL = "Anuluj renowację"
 ptBR = "Cancelar reforma"
 koKR = "개조 취소"
 csCZ = "Zrušit renovaci"
+viVN = "Hủy cải tạo"
 
 ["LV.BHP.CancelRenoConfirm"]
 raw = "Are you sure you want to cancel the renovation? No materials will be refunded."
@@ -974,6 +1037,7 @@ plPL = "Czy na pewno chcesz anulować renowację? Żadne materiały nie zostaną
 ptBR = "Você tem certeza de que deseja cancelar a renovação? Nenhum material será reembolsado."
 koKR = "정말로 개조를 취소하시겠습니까? 환불되는 자재는 없습니다."
 csCZ = "Jste si jisti, že chcete zrušit renovaci? Žádné materiály nebudou vráceny."
+viVN = "Bạn có chắc muốn hủy bỏ việc cải tạo không? Không có vật liệu nào được hoàn trả."
 
 ["LV.BHP.CancelRenoYes"]
 raw = "Yes, cancel renovation"
@@ -989,6 +1053,7 @@ plPL = "Tak, anuluj renowację"
 ptBR = "Sim, cancelar a renovação"
 koKR = "네, 개보수를 취소합니다"
 csCZ = "Ano, zrušit renovaci"
+viVN = "Có, hủy bỏ cải tạo"
 
 ["LV.BHP.CancelNo"]
 raw = "No, keep renovating"
@@ -1004,6 +1069,7 @@ plPL = "Nie, kontynuuj remont"
 ptBR = "Não, continue reformando"
 koKR = "아니요, 개조를 계속하세요"
 csCZ = "Ne, pokračujte v renovaci"
+viVN = "Không, tiếp tục cải tạo"
 
 ["LV.BHP.CurrentRenovation"]
 raw = "Current renovation: {0}"
@@ -1019,6 +1085,7 @@ plPL = "Obecna renowacja: {0}"
 ptBR = "Renovação atual: {0}"
 koKR = "현재 개조: {0}"
 csCZ = "Současná renovace: {0}"
+viVN = "Sửa chữa hiện tại: {0}"
 
 ["LV.BHP.WaitingForMaterial"]
 raw = "Waiting for materials"
@@ -1034,6 +1101,7 @@ plPL = "Czekam na materiały"
 ptBR = "Aguardando materiais"
 koKR = "자재 대기 중"
 csCZ = "Čekání na materiály"
+viVN = "Đang chờ vật liệu"
 
 ["LV.BHP.NoMaterialShort"]
 raw = "Renovation lacks materials"
@@ -1049,6 +1117,7 @@ plPL = "Renowacja brakuje materiałów"
 ptBR = "Renovação carece de materiais"
 koKR = "개조에 자재가 부족합니다"
 csCZ = "Renovace postrádá materiály"
+viVN = "Tân trang thiếu vật liệu"
 
 ["LV.BHP.NoCancel"]
 raw = "<RedHighlight>This renovation CANNOT BE CANCELLED once started.</RedHighlight>"
@@ -1064,6 +1133,7 @@ plPL = "<RedHighlight>Ta renowacja NIE MOŻE ZOSTAĆ ANULOWANA po rozpoczęciu.<
 ptBR = "<RedHighlight>Esta reforma NÃO PODE SER CANCELADA uma vez iniciada.</RedHighlight>"
 koKR = "<RedHighlight>이 개조는 시작 후 취소할 수 없습니다.</RedHighlight>"
 csCZ = "<RedHighlight>Tuto renovaci NELZE ZRUŠIT po jejím zahájení.</RedHighlight>"
+viVN = "<RedHighlight>Việc cải tạo này KHÔNG THỂ BỊ HỦY BỎ khi đã bắt đầu.</RedHighlight>"
 
 ["LV.BHP.CompletedReno"]
 raw = "Completed renovations"
@@ -1079,6 +1149,7 @@ plPL = "Zakończone remonty"
 ptBR = "Renovações concluídas"
 koKR = "개조 완료"
 csCZ = "Dokončené renovace"
+viVN = "Cải tạo đã hoàn thành"
 
 ["LV.BHP.ActiveReno"]
 raw = "<YellowHighlight>Active</YellowHighlight>"
@@ -1094,6 +1165,7 @@ plPL = "<ŻółteWyróżnienie>Aktywny</ŻółteWyróżnienie>"
 ptBR = "<DestaqueAmarelo>Ativo</DestaqueAmarelo>"
 koKR = "<노란 하이라이트>활성</노란 하이라이트>"
 csCZ = "<ŽlutýZvýraznění>Aktivní</ŽlutýZvýraznění>"
+viVN = "<YellowHighlight>Hoạt động</YellowHighlight>"
 
 ["LV.BHP.RenoLog"]
 raw = "<YellowHighlight>Completion log</YellowHighlight>"
@@ -1109,6 +1181,7 @@ plPL = "<YellowHighlight>Log ukończenia</YellowHighlight>"
 ptBR = "<YellowHighlight>Registro de conclusão</YellowHighlight>"
 koKR = "<YellowHighlight>완료 로그</YellowHighlight>"
 csCZ = "<ŽlutýObrys>Protokol o dokončení</ŽlutýObrys>"
+viVN = "<YellowHighlight>Nhật ký hoàn thành</YellowHighlight>"
 
 ["LV.BHP.RenoLogEntry"]
 raw = "▶ {0}: {1}d ago"
@@ -1124,6 +1197,7 @@ plPL = "▶ {0}: {1} dni temu"
 ptBR = "▶ {0}: {1}d atrás"
 koKR = "▶ {0}: {1}일 전"
 csCZ = "▶ {0}: před {1} dny"
+viVN = "▶ {0}: {1} ngày trước"
 
 ["LV.BHP.None"]
 raw = "None"
@@ -1139,6 +1213,7 @@ plPL = "Żaden"
 ptBR = "Nenhum"
 koKR = "없음"
 csCZ = "Nepoužito"
+viVN = "Không"
 
 ["LV.BHP.BaseDurability"]
 raw = "Base HP: {0}"
@@ -1154,6 +1229,7 @@ plPL = "Podstawowe HP: {0}"
 ptBR = "HP Base: {0}"
 koKR = "기본 HP: {0}"
 csCZ = "Základní HP: {0}"
+viVN = "HP cơ bản: {0}"
 
 ["LV.BHP.BaseDurabilityWithInvul"]
 raw = "Base HP: {0} (Invulnerable)"
@@ -1169,6 +1245,7 @@ plPL = "Podstawowe HP: {0} (Niewrażliwy)"
 ptBR = "HP Base: {0} (Invisível)"
 koKR = "기본 HP: {0} (무적)"
 csCZ = "Základní HP: {0} (Neporazitelný)"
+viVN = "HP cơ bản: {0} (Không thể bị tổn thương)"
 
 ["LV.BHP.ProductionGroup"]
 raw = "Production"
@@ -1184,6 +1261,7 @@ plPL = "Produkcja"
 ptBR = "Produção"
 koKR = "생산"
 csCZ = "Výroba"
+viVN = "Sản xuất"
 
 ["LV.BHP.ProdOverdrive"]
 raw = "Production Overdrive"
@@ -1199,6 +1277,7 @@ plPL = "Przyspieszenie Produkcji"
 ptBR = "Sobrecarregar Produção"
 koKR = "생산 오버드라이브"
 csCZ = "Výroba na maximum"
+viVN = "Tăng tốc sản xuất"
 
 ["LV.BHP.ProdOverdriveDesc"]
 raw = "Increases the building Productivity by {0:+0%} but it loses {1}HP every hour for {2:0.0} days.\nAfter that, Productivity is reduced by {3:0%} for {4:0.0} days."
@@ -1214,6 +1293,7 @@ plPL = "Zwiększa wydajność budynku o {0:+0%}, ale traci {1} HP co godzinę pr
 ptBR = "Aumenta a Produtividade do edifício em {0:+0%}, mas perde {1} HP a cada hora durante {2:0.0} dias. Após isso, a Produtividade é reduzida em {3:0%} durante {4:0.0} dias."
 koKR = "건물의 생산성이 {0:+0%} 증가하지만 매 시간마다 {1}HP를 잃고 {2:0.0}일 동안 유지됩니다. 이후에는 생산성이 {3:0%} 감소하고 {4:0.0}일 동안 지속됩니다."
 csCZ = "Zvyšuje produktivitu budovy o {0:+0%}, ale ztrácí {1}HP každou hodinu po dobu {2:0.0} dnů. Po té se produktivita sníží o {3:0%} na {4:0.0} dnů."
+viVN = "Tăng năng suất của công trình lên {0:+0%} nhưng nó mất {1}HP mỗi giờ trong {2:0.0} ngày.\nSau đó, năng suất bị giảm {3:0%} trong {4:0.0} ngày."
 
 ["LV.BHP.ProdOverdriveFlavor"]
 raw = "The forebeavers wrote in their notes: 'Temporary efficiency boost.' They did not mention the smell of smoke."
@@ -1229,6 +1309,7 @@ plPL = "Beaversi przodkowie zapisali w swoich notatkach: \"Tymczasowy wzrost wyd
 ptBR = "Os castores ancestrais escreveram em suas anotações: \"Impulso de eficiência temporário.\" Eles não mencionaram o cheiro de fumaça."
 koKR = "선조 비버들은 그들의 노트에 이렇게 적었습니다: '일시적인 효율성 증가.' 그들은 연기의 냄새에 대해서는 언급하지 않았습니다."
 csCZ = "Forebeaverové napsali ve svých poznámkách: 'Dočasné zefektivnění.' N zmínili se o zápachu kouře."
+viVN = "Các forebeavers đã ghi vào ghi chú của họ: 'Tăng hiệu quả tạm thời.' Họ không đề cập đến mùi khói."
 
 ["LV.BHP.NotWorkplace"]
 raw = "This renovation is only for Workplace buildings (buildings that have workers)"
@@ -1244,6 +1325,7 @@ plPL = "Ta renowacja dotyczy tylko budynków miejsc pracy (budynków, które maj
 ptBR = "Esta reforma é apenas para edifícios de Trabalho (edifícios que têm trabalhadores)"
 koKR = "이 개조는 작업장 건물(근로자가 있는 건물)만을 위한 것입니다."
 csCZ = "Tato renovace je určena pouze pro budovy na pracovišti (budovy, které mají pracovníky)"
+viVN = "Việc cải tạo này chỉ dành cho các tòa nhà nơi làm việc (các tòa nhà có người làm việc)"
 
 ["LV.BHP.HousingGroup"]
 raw = "Housing"
@@ -1259,6 +1341,7 @@ plPL = "Mieszkanie"
 ptBR = "Habitação"
 koKR = "주택"
 csCZ = "Bydlení"
+viVN = "Nhà ở"
 
 ["LV.BHP.DwellingDecorative"]
 raw = "Decorative Carvings"
@@ -1274,6 +1357,7 @@ plPL = "Rzeźby dekoracyjne"
 ptBR = "Entalhes Decorativos"
 koKR = "장식 조각"
 csCZ = "Dekorativní vyřezávání"
+viVN = "Điêu khắc trang trí"
 
 ["LV.BHP.DwellingDecorativeDesc"]
 raw = "Beavers living in this dwelling gain 'Decorative Carvings' need boost"
@@ -1289,6 +1373,7 @@ plPL = "Bobry mieszkające w tym siedlisku zyskują bonus do potrzeby 'Dekoracyj
 ptBR = "Os castores que vivem nesta habitação ganham um aumento na necessidade de 'Entalhes Decorativos'"
 koKR = "이 주택에 거주하는 비버는 '장식 조각' 필요도가 증가합니다."
 csCZ = "Bobři žijící v této obydlí získají zvýšení potřeby 'Dekorativní rytiny'"
+viVN = "Những con hải ly sống trong căn nhà này sẽ được tăng nhu cầu đối với 'Hoa văn trang trí'."
 
 ["LV.BHP.DwellingDecorativeFlavor"]
 raw = "'Every log tells a story now, though some look more like teeth marks than art.'"
@@ -1304,6 +1389,7 @@ plPL = "Każdy klocek teraz opowiada historię, chociaż niektóre bardziej przy
 ptBR = "\"'Cada tronco agora conta uma história, embora alguns pareçam mais marcas de dentes do que arte.'”"
 koKR = "'모든 나무토막은 이제 이야기를 들려줍니다. 하지만 어떤 것들은 예술보다는 치아 자국처럼 보이네요.'"
 csCZ = "'Každá kláda teď vypráví příběh, i když některé vypadají spíš jako zuby než jako umění.'"
+viVN = "Mỗi khúc gỗ giờ đây kể một câu chuyện, mặc dù một số trông giống như dấu răng hơn là nghệ thuật."
 
 ["LV.BHP.NotDwelling"]
 raw = "This renovation is only for Housing buildings"
@@ -1319,6 +1405,7 @@ plPL = "Ta renowacja dotyczy tylko budynków mieszkalnych"
 ptBR = "Esta reforma é apenas para edifícios residenciais"
 koKR = "이 개조는 주거 건물 전용입니다."
 csCZ = "Tato renovace je určena pouze pro obytné budovy"
+viVN = "Việc cải tạo này chỉ dành cho các tòa nhà ở"
 
 ["LV.BHP.ActiveEffects"]
 raw = "Active effects"
@@ -1334,6 +1421,7 @@ plPL = "Aktywne efekty"
 ptBR = " efeitos ativos"
 koKR = "활성 효과"
 csCZ = "Aktivní efekty"
+viVN = "Hiệu ứng đang hoạt động"
 
 ["LV.BHP.ActiveEffect"]
 raw = "▶ <i>{0}</i>\n{1}"
@@ -1349,6 +1437,7 @@ plPL = "▶ <i>{0}</i>\n{1}"
 ptBR = "▶ <i>{0}</i>\n{1}"
 koKR = "▶ <i>{0}</i>  \n{1}"
 csCZ = "▶ <i>{0}</i>\n{1}"
+viVN = "▶ <i>{0}</i>\n{1}"
 
 ["LV.BHP.ActiveEffectTime"]
 raw = "{0:0.00}d remaining"
@@ -1364,6 +1453,7 @@ plPL = "{0:0.00}d pozostało"
 ptBR = "{0:0,00}d restantes"
 koKR = "{0:0.00}일 남음"
 csCZ = "{0:0.00}d zbývá"
+viVN = "{0:0.00} ngày còn lại"
 
 ["LV.BHP.ProdOverdriveFirstPhase"]
 raw = "Production Overdrive (Overdrive phase)"
@@ -1379,6 +1469,7 @@ plPL = "Przeciążenie produkcji (faza przeciążenia)"
 ptBR = "Turbo de Produção (fase de overdrive)"
 koKR = "생산 오버드라이브 (오버드라이브 단계)"
 csCZ = "Produkční přetížení (fáze přetížení)"
+viVN = "Tăng tốc sản xuất (giai đoạn tăng tốc)"
 
 ["LV.BHP.ProdOverdriveSecondPhase"]
 raw = "Production Overdrive (Cooldown phase)"
@@ -1394,6 +1485,7 @@ plPL = "Przeciążenie produkcji (Faza schłodzenia)"
 ptBR = "Produção Acelerada (Fase de Recarga)"
 koKR = "생산 오버드라이브 (쿨다운 단계)"
 csCZ = "Výrobní turbo (Fáze dobíjení)"
+viVN = "Tăng tốc sản xuất (thời gian hồi)"
 
 ["LV.BHP.ProdOverdriveFirstPhaseDesc"]
 raw = "Increases productivity by {0:+0%}, but the building loses {1}HP every hour. After this time, it enters cooldown."
@@ -1409,6 +1501,7 @@ plPL = "Zwiększa wydajność o {0:+0%}, ale budowla traci {1}HP co godzinę. Po
 ptBR = "Aumenta a produtividade em {0:+0%}, mas o edifício perde {1}HP a cada hora. Após esse tempo, entra em recarga."
 koKR = "생산성을 {0:+0%} 증가시키지만, 건물이 매시간 {1}HP를 잃습니다. 이 시간이 지나면 쿨타임에 들어갑니다."
 csCZ = "Zvyšuje produktivitu o {0:+0%}, ale budova ztrácí {1}HP každou hodinu. Po této době přechází do doby ochlazení."
+viVN = "Tăng năng suất lên {0:+0%}, nhưng công trình mất {1}HP mỗi giờ. Sau thời gian này, nó sẽ vào trạng thái cooldown."
 
 ["LV.BHP.ProdOverdriveSecondPhaseDesc"]
 raw = "Productivity is reduced by {0:0%}."
@@ -1424,6 +1517,7 @@ plPL = "Produktywność jest zmniejszona o {0:0%}."
 ptBR = "A produtividade é reduzida em {0:0%}."
 koKR = "생산성이 {0:0%}만큼 감소합니다."
 csCZ = "Produktivita je snížena o {0:0%}."
+viVN = "Năng suất bị giảm {0:0%}."
 
 ["LV.BHP.RenovationDecreasePriorityHotKey"]
 raw = "Decrease renovation priority"
@@ -1439,6 +1533,7 @@ plPL = "Zredukować priorytet renowacji"
 ptBR = "Diminuir prioridade de renovação"
 koKR = "개조 우선순위 낮추기"
 csCZ = "Snížit prioritu renovace"
+viVN = "Giảm ưu tiên cải tạo"
 
 ["LV.BHP.RenovationIncreasePriorityHotKey"]
 raw = "Increase renovation priority"
@@ -1454,6 +1549,7 @@ plPL = "Zwiększ priorytet renowacji"
 ptBR = "Aumentar prioridade de renovação"
 koKR = "개조 우선순위 증가"
 csCZ = "Zvyšte prioritu renovace"
+viVN = "Tăng ưu tiên tu sửa"
 
 ["LV.BHP.RenovationStockpileDecreasePriorityHotKey"]
 raw = "Decrease renovation stockpile priority"
@@ -1469,6 +1565,7 @@ plPL = "Zmniejsz priorytet magazynu renowacji"
 ptBR = "Diminuir prioridade do estoque de renovação"
 koKR = "개조 재고 우선순위 낮추기"
 csCZ = "Snížit prioritu skladu renovací"
+viVN = "Giảm ưu tiên kho dự trữ cải tạo"
 
 ["LV.BHP.RenovationStockpileIncreasePriorityHotKey"]
 raw = "Increase renovation stockpile priority"
@@ -1484,6 +1581,7 @@ plPL = "Zwiększ priorytet zapasów renowacji"
 ptBR = "Aumentar a prioridade do estoque de renovação"
 koKR = "개조 재고 우선순위 증가"
 csCZ = "Zvýšit prioritu zásob renovace"
+viVN = "Tăng ưu tiên cho kho vật liệu sửa chữa"
 
 ["LV.BHP.ProdOverdriveWorkerDesc"]
 raw = "{0:+0%;-0%} due to workplace's Overdrive"
@@ -1499,6 +1597,7 @@ plPL = "{0:+0%;-0%} z powodu przesterowania miejsca pracy"
 ptBR = "{0:+0%;-0%} devido ao Aceleração do local de trabalho"
 koKR = "{0:+0%;-0%} 작업장의 오버드라이브로 인한"
 csCZ = "{0:+0%;-0%} kvůli nadměrnému zatížení pracoviště"
+viVN = "{0:+0%;-0%} do Overdrive tại nơi làm việc"
 
 ["LV.BHP.ShowUnavailables"]
 raw = "Show unavailable renovations"
@@ -1514,6 +1613,7 @@ plPL = "Pokaż niedostępne renowacje"
 ptBR = "Mostrar renovações indisponíveis"
 koKR = "사용할 수 없는 개조 내용 보기"
 csCZ = "Zobrazit nedostupné renovace"
+viVN = "Hiển thị các cải tạo không khả dụng"
 
 ["LV.BHP.Reinforce1"]
 raw = "Wooden Reinforcement"
@@ -1529,6 +1629,7 @@ plPL = "Wzmocnienie drewniane"
 ptBR = "Reforço de Madeira"
 koKR = "목재 보강"
 csCZ = "Dřevěné zpevnění"
+viVN = "Gia cố bằng gỗ"
 
 ["LV.BHP.Reinforce1Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
@@ -1544,6 +1645,7 @@ plPL = "Zwiększa wytrzymałość budynku o {0:+0}. Tylko jeden rodzaj wzmocnien
 ptBR = "Aumenta a Durabilidade do edifício em {0:+0}. Apenas um tipo de reforço pode estar ativo por vez."
 koKR = "건물 내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나의 유형의 보강만 활성화할 수 있습니다."
 csCZ = "Zvyšuje odolnost budovy o {0:+0}. Pouze jeden typ výztuže může být aktivní najednou."
+viVN = "Tăng độ bền của công trình lên {0:+0}. Chỉ có một loại gia cố được kích hoạt tại một thời điểm."
 
 ["LV.BHP.Reinforce1Flavor"]
 raw = "A few extra beams and braces — sometimes all you need is more wood."
@@ -1559,6 +1661,7 @@ plPL = "Kilka dodatkowych belek i stężeń — czasami wszystko, czego potrzebu
 ptBR = "Algumas vigas e suportes extras — às vezes tudo o que você precisa é de mais madeira."
 koKR = "조금 더 많은 기둥과 보강재 — 때로는 필요한 것이 더 많은 나무뿐입니다."
 csCZ = " pár dalších trámů a vzpěr - někdy potřebujete jen více dřeva."
+viVN = "Một vài dầm và giằng bổ sung — đôi khi tất cả những gì bạn cần là thêm gỗ."
 
 ["LV.BHP.Reinforce2"]
 raw = "Ironclad Frames"
@@ -1574,6 +1677,7 @@ plPL = "Stalowe Ramy"
 ptBR = "Estruturas Blindadas"
 koKR = "강철 프레임"
 csCZ = "Železné rámy"
+viVN = "Khung thép kiên cố"
 
 ["LV.BHP.Reinforce2Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
@@ -1589,6 +1693,7 @@ plPL = "Zwiększa trwałość budynku o {0:+0}. Tylko jeden rodzaj wzmocnienia m
 ptBR = "Aumenta a Durabilidade do edifício em {0:+0}. Apenas um tipo de reforço pode estar ativo por vez."
 koKR = "내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나의 보강 유형만 활성화될 수 있습니다."
 csCZ = "Zvyšuje odolnost budovy o {0:+0}. Pouze jeden typ zpevnění může být aktivní současně."
+viVN = "Tăng độ bền của công trình lên {0:+0}. Chỉ có một loại gia cố có thể hoạt động tại một thời điểm."
 
 ["LV.BHP.Reinforce2Flavor"]
 raw = "Iron bones for wooden homes. Stronger, heavier... squeakier."
@@ -1604,6 +1709,7 @@ plPL = "Żelazne kości dla drewnianych domów. Mocniejsze, cięższe... skrzypi
 ptBR = "Conhecimentos de ferro para casas de madeira. Mais fortes, mais pesadas... mais barulhentas."
 koKR = "나무 집을 위한 철제 뼈. 더 강하고, 더 무겁고... 더 삐걱거린다."
 csCZ = "Iron bones for wooden homes. Stronger, heavier... squeakier."
+viVN = "Xương sắt cho nhà gỗ. Mạnh mẽ hơn, nặng hơn... kêu cót két."
 
 ["LV.BHP.Reinforce3"]
 raw = "Timber-Steel Fusion Reinforcement"
@@ -1619,6 +1725,7 @@ plPL = "Wzmocnienie Fuzji Drewno-Stal"
 ptBR = "Reforço de Fusão Madeira-Aço"
 koKR = "목재-강철 융합 보강"
 csCZ = "Reinforcement z dřevěné oceli"
+viVN = "Gia cố hợp nhất gỗ-thép"
 
 ["LV.BHP.Reinforce3Desc"]
 raw = "Increases the building Durability by {0:+0}. Only one type of reinforcement can be active at a time."
@@ -1634,6 +1741,7 @@ plPL = "Zwiększa wytrzymałość budynku o {0:+0}. Tylko jeden typ wzmocnienia 
 ptBR = "Increase a durabilidade do edifício em {0:+0}. Apenas um tipo de reforço pode estar ativo por vez."
 koKR = "내구성을 {0:+0}만큼 증가시킵니다. 한 번에 하나의 강화 유형만 활성화될 수 있습니다."
 csCZ = "Zvyšuje odolnost budovy o {0:+0}. Pouze jeden typ vyztužení může být aktivní současně."
+viVN = "Tăng độ bền của công trình lên {0:+0}. Chỉ có một loại gia cố có thể được kích hoạt tại một thời điểm."
 
 ["LV.BHP.Reinforce3Flavor"]
 raw = "Wood and steel, bound together in stubborn harmony."
@@ -1649,6 +1757,7 @@ plPL = "Drewno i stal, związane ze sobą w upartym harmonii."
 ptBR = "Madeira e aço, unidos em uma harmonia obstinada."
 koKR = "나무와 강철, 고집스러운 조화로 묶여 있다."
 csCZ = "Dřevo a ocel, spojené v neochvějné harmonii."
+viVN = "Gỗ và thép, gắn kết với nhau trong sự hòa hợp kiên định."
 
 ["LV.BHP.UpdateText710"]
 raw = "This is a big update that migrates this mod to Moddable Timberborn.\nThere is no new feature except minor UI change but performance is greatly improved and all effects are now gathered together in one place thanks to Moddable Timberborn."
@@ -1664,3 +1773,4 @@ plPL = "To jest duża aktualizacja, która przenosi ten mod do Modowalnego Timbe
 ptBR = "Este é um grande update que migra este mod para Timberborn Moddable. Não há novos recursos, exceto pequenas mudanças na interface do usuário, mas o desempenho foi muito melhorado e todos os efeitos agora estão reunidos em um só lugar, graças ao Timberborn Moddable."
 koKR = "이것은 이 모드를 Moddable Timberborn으로 이전하는 큰 업데이트입니다. UI에 대한 미세한 변화 외에는 새로운 기능이 없지만 성능이 크게 향상되었고 모든 효과가 이제 Moddable Timberborn 덕분에 한곳에 모였습니다."
 csCZ = "Toto je velká aktualizace, která migruje tento mod na Moddable Timberborn. \nNeexistuje žádná nová funkce kromě drobné změny uživatelského rozhraní, ale výkon je výrazně vylepšen a všechny efekty jsou nyní shromážděny na jednom místě díky Moddable Timberborn."
+viVN = "Đây là một cập nhật lớn nhằm di chuyển mod này sang Moddable Timberborn.\nKhông có tính năng mới nào ngoài một thay đổi nhỏ ở giao diện người dùng, nhưng hiệu suất được cải thiện đáng kể và tất cả các hiệu ứng hiện nay được tập trung về một nơi nhờ Moddable Timberborn."

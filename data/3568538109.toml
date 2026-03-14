@@ -15,6 +15,7 @@ plPL = "Podstawowa częstotliwość próbkowania (godzina)"
 ptBR = "Frequência de amostragem (hora)"
 koKR = "샘플링 주파수 (시간)"
 csCZ = "Frekvence vzorkování (hodina)"
+viVN = "Tần suất lấy mẫu (giờ)"
 
 ["LV.SGT.SamplingFreqDesc"]
 raw = "How often the stream gauge depth is recorded."
@@ -30,6 +31,7 @@ plPL = "Jak często rejestrowana jest głębokość wskaźnika strumienia."
 ptBR = "Com que frequência a profundidade do medidor de fluxo é registrada."
 koKR = "스트림 게이지 깊이가 얼마나 자주 기록되는지."
 csCZ = "Jak často je zaznamenávána hloubka úrovně toku."
+viVN = "Tần suất ghi nhận độ sâu mực nước tại đồng hồ đo dòng chảy."
 
 ["LV.SGT.SamplingCount"]
 raw = "Number of samples"
@@ -45,6 +47,7 @@ plPL = "Liczba próbek"
 ptBR = "Quantidade de amostras"
 koKR = "샘플 수"
 csCZ = "Počet vzorků"
+viVN = "Số lượng mẫu"
 
 ["LV.SGT.SamplingCountDesc"]
 raw = "How many samples are kept."
@@ -60,6 +63,7 @@ plPL = "„Ile próbek jest przechowywanych.”"
 ptBR = "Quantas amostras são mantidas."
 koKR = "몇 개의 샘플이 유지됩니까?"
 csCZ = "Kolik vzorků je uchováno."
+viVN = "Số lượng mẫu được lưu lại."
 
 ["LV.SGT.SamplesPerBar"]
 raw = "Samples per bar"
@@ -75,6 +79,7 @@ plPL = "Próbki na pasek"
 ptBR = "Exemplos por barra"
 koKR = "바당 샘플 수"
 csCZ = "Vzorky na bar"
+viVN = "Số mẫu trên mỗi thanh"
 
 ["LV.SGT.SamplesPerBarDesc"]
 raw = "How many samples are represented by each bar in the graph."
@@ -90,6 +95,7 @@ plPL = "Ile próbek jest reprezentowanych przez każdy słupek w wykresie."
 ptBR = "Quantas amostras são representadas por cada barra no gráfico."
 koKR = "그래프의 각 막대가 나타내는 샘플 수입니다."
 csCZ = "Kolik vzorků je reprezentováno každým sloupcem v grafu."
+viVN = "Có bao nhiêu mẫu dữ liệu được đại diện cho mỗi thanh trên biểu đồ."
 
 ["LV.SGT.LowestDepth"]
 raw = "Lowest depth: {0:0.00}"
@@ -105,6 +111,7 @@ plPL = "Najniższy poziom: {0:0.00}"
 ptBR = "Profundidade mínima: {0:0.00}"
 koKR = "가장 낮은 깊이: {0:0.00}"
 csCZ = "Nejnižší hloubka: {0:0.00}"
+viVN = "Độ sâu tối thiểu: {0:0.00}"
 
 ["LV.SGT.TooltipNoData"]
 raw = "No data"
@@ -120,6 +127,7 @@ plPL = "Brak danych"
 ptBR = "Sem dados"
 koKR = "데이터 없음"
 csCZ = "Žádná data"
+viVN = "Không có dữ liệu"
 
 ["LV.SGT.TooltipLine"]
 raw = "• {1:0.00} ({0:0.00}d ago)"
@@ -135,6 +143,7 @@ plPL = "• {1:0,00} ({0:0,00}d temu)"
 ptBR = "• {1:0,00} ({0:0,00}d atrás)"
 koKR = "• {1:0.00} ({0:0.00}일 전)"
 csCZ = "• {1:0.00} ({0:0.00}d zpět)"
+viVN = "• {1:0.00} ({0:0.00} ngày trước)"
 
 ["LV.SGT.TooltipAvg"]
 raw = "Average: {0:0.00}"
@@ -150,6 +159,7 @@ plPL = "Średnia: {0:0.00}"
 ptBR = "Média: {0:0,00}"
 koKR = "평균: {0:0.00}"
 csCZ = "Průměr: {0:0.00}"
+viVN = "Trung bình: {0:0.00}"
 
 ["LV.SGT.DataHighest"]
 raw = "Tracked highest: {0:0.00}"
@@ -165,6 +175,7 @@ plPL = "Śledzona najwyższa: {0:0.00}"
 ptBR = "Maior registrado: {0:0.00}"
 koKR = "측정된 최고: {0:0.00}"
 csCZ = "Sledovaná nejvyšší hodnota: {0:0.00}"
+viVN = "Đỉnh được theo dõi: {0:0.00}"
 
 [Name_StreamGaugeTrackerFragment]
 raw = "Stream Gauge Tracker"
@@ -180,3 +191,4 @@ plPL = "Śledzenie wskaźnika cieku"
 ptBR = "Rastreador de Medição do Fluxo"
 koKR = "수로 게이지 트래커"
 csCZ = "Tracker hladiny potoka"
+viVN = "Trình theo dõi đồng hồ đo dòng chảy"

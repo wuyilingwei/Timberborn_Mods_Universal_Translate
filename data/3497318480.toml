@@ -15,6 +15,7 @@ plPL = "Z {0}"
 ptBR = "De {0}"
 koKR = "{0}로부터"
 csCZ = "Od {0}"
+viVN = "Từ {0}"
 
 ["LV.CFac.ValidatePlanter"]
 raw = "Another planter for {0} already exists."
@@ -30,6 +31,7 @@ plPL = "Inny sadownik dla {0} już istnieje."
 ptBR = "Já existe outro plantador para {0}."
 koKR = "{0}에 대한 다른 식물 재배기가 이미 존재합니다."
 csCZ = "Další sázečka pro {0} již existuje."
+viVN = "Một bồn trồng khác cho {0} đã tồn tại."
 
 ["LV.CFac.GoodLocked"]
 raw = "Good {0} is needed by a building."
@@ -45,6 +47,7 @@ plPL = "Dobry {0} jest potrzebny w budynku."
 ptBR = "Um bom {0} é necessário para um edifício."
 koKR = "건물에 필요한 자원 {0}입니다."
 csCZ = "Pro budovu je potřeba dobré {0}."
+viVN = "Hàng hóa {0} được yêu cầu bởi một tòa nhà."
 
 ["LV.CFac.NeedLocked"]
 raw = "Need {0} is needed by a building or a good."
@@ -60,6 +63,7 @@ plPL = "Potrzebna jest {0} przez budynek lub dobry."
 ptBR = "Precisa-se de {0} por um prédio ou um bem."
 koKR = "건물이나 자원에 필요로 하는 {0}이 필요합니다."
 csCZ = "Potřeba {0} je potřebná budovou nebo zbožím."
+viVN = "Cần {0} được yêu cầu bởi một tòa nhà hoặc một mặt hàng."
 
 ["LV.CFac.Faction"]
 raw = "Faction: Pick which items to add to this faction"
@@ -75,6 +79,7 @@ plPL = "Frakcja: Wybierz, które przedmioty dodać do tej frakcji"
 ptBR = "Facção: Escolha quais itens adicionar a esta facção"
 koKR = "파벌: 이 파벌에 추가할 아이템을 선택하세요."
 csCZ = "Frakce: Vyberte, které předměty chcete přidat do této frakce"
+viVN = "Phái: Chọn các mục để thêm vào phái này"
 
 ["LV.CFac.Filters"]
 raw = "Filters"
@@ -90,6 +95,7 @@ plPL = "Filtry"
 ptBR = "Filtros"
 koKR = "필터"
 csCZ = "Filtry"
+viVN = "Bộ lọc"
 
 ["LV.CFac.FilterCheck"]
 raw = "Checked"
@@ -105,6 +111,7 @@ plPL = "Sprawdzone"
 ptBR = "Verificado"
 koKR = "체크됨"
 csCZ = "Zaškrtnuto"
+viVN = "Đã chọn"
 
 ["LV.CFac.FilterUncheck"]
 raw = "Unchecked"
@@ -120,6 +127,7 @@ plPL = "Niezweryfikowane"
 ptBR = "Desmarcado"
 koKR = "체크 해제"
 csCZ = "Odškrtnuto"
+viVN = "Chưa chọn"
 
 ["LV.CFac.Buildings"]
 raw = "Buildings"
@@ -135,6 +143,7 @@ plPL = "Budynki"
 ptBR = "Edifícios"
 koKR = "건물"
 csCZ = "Budovy"
+viVN = "Công trình"
 
 ["LV.CFac.Plants"]
 raw = "Plants"
@@ -150,6 +159,7 @@ plPL = "Rośliny"
 ptBR = "Plantas"
 koKR = "식물"
 csCZ = "Rostliny"
+viVN = "Cây trồng"
 
 ["LV.CFac.Goods"]
 raw = "Goods"
@@ -165,6 +175,7 @@ plPL = "Towary"
 ptBR = "Bens"
 koKR = "상품"
 csCZ = "Zboží"
+viVN = "Hàng hóa"
 
 ["LV.CFac.Needs"]
 raw = "Needs"
@@ -180,6 +191,7 @@ plPL = "Potrzeby"
 ptBR = "Necessidades"
 koKR = "필요사항"
 csCZ = "Potřeby"
+viVN = "Nhu cầu"
 
 ["LV.CFac.PlanterGroup"]
 raw = "Planter group: {0}"
@@ -195,6 +207,7 @@ plPL = "Grupa sadzarki: {0}"
 ptBR = "Grupo de plantio: {0}"
 koKR = "식재 그룹: {0}"
 csCZ = "Skupina plantáže: {0}"
+viVN = "Nhóm trồng cây: {0}"
 
 ["LV.CFac.HideSimilar"]
 raw = "Hide similar buildings"
@@ -210,6 +223,7 @@ plPL = "Ukryj podobne budynki"
 ptBR = "Ocultar edifícios semelhantes"
 koKR = "유사 건물 숨기기"
 csCZ = "Skrýt podobné budovy"
+viVN = "Ẩn các công trình tương tự"
 
 ["LV.CFac.ShowFolder"]
 raw = "Open settings folder"
@@ -225,6 +239,7 @@ plPL = "Otwórz folder ustawień"
 ptBR = "Abra a pasta de configurações"
 koKR = "설정 폴더 열기"
 csCZ = "Otevřít složku s nastavením"
+viVN = "Mở thư mục cài đặt"
 
 ["LV.CFac.NeedPlanter"]
 raw = "You have chosen a plant or crop in the group {0} but did not choose any building to grow it.\nPlease make sure to choose such building (usually in the Food or Wood group) to add or the game will crash."
@@ -240,6 +255,7 @@ plPL = "Wybrałeś roślinę lub uprawę w grupie {0}, ale nie wybrałeś żadne
 ptBR = "Você escolheu uma planta ou cultura do grupo {0}, mas não escolheu nenhum prédio para cultivá-la. Por favor, certifique-se de escolher um prédio desse tipo (geralmente no grupo Alimentos ou Madeira) para adicionar, ou o jogo irá travar."
 koKR = "당신은 그룹 {0}에서 식물이나 농작물을 선택했지만, 재배할 건물을 선택하지 않았습니다. \n식량 또는 목재 그룹에 있는 그러한 건물을 선택해야 추가할 수 있습니다. 그렇지 않으면 게임이 크래시됩니다."
 csCZ = "Vybrali jste rostlinu nebo plodinu ve skupině {0}, ale nevybrali jste žádnou budovu pro její pěstování. Prosím, ujistěte se, že vybíráte takovou budovu (obvykle ve skupině Jídlo nebo Dřevo), jinak hra spadne."
+viVN = "Bạn đã chọn một cây trồng hoặc vụ mùa trong nhóm {0} nhưng lại chưa chọn bất kỳ tòa nhà nào để trồng nó.\nVui lòng đảm bảo chọn một tòa nhà như vậy (thường ở nhóm Thực phẩm hoặc Gỗ) để thêm nó, nếu không trò chơi sẽ bị treo."
 
 ["LV.CFac.ExportToMod"]
 raw = "Export to mod"
@@ -255,6 +271,7 @@ plPL = "Eksportuj do moda"
 ptBR = "Exportar para o mod"
 koKR = "모드로 내보내기"
 csCZ = "Exportovat do módu"
+viVN = "Xuất sang mod"
 
 ["LV.CFac.ExportToModDesc"]
 raw = "Click the above button to export the current configuration into a standalone mod.\nThat mod would then work by itself without this mod.\nIn fact, you must disable either this mod or the exported mod to avoid conflicts."
@@ -270,6 +287,7 @@ plPL = "Kliknij powyższy przycisk, aby wyeksportować bieżącą konfigurację 
 ptBR = "Clipe o botão acima para exportar a configuração atual para um mod autônomo. Esse mod funcionará de forma independente, sem precisar deste mod. Na verdade, você deve desabilitar este mod ou o mod exportado para evitar conflitos."
 koKR = "위 버튼을 클릭하여 현재 구성을 독립형 모드로 내보내십시오.  \n그 모드는 이 모드 없이도 작동합니다.  \n사실, 충돌을 피하기 위해서는 이 모드나 내보낸 모드 중 하나를 비활성화해야 합니다."
 csCZ = "Klikněte na tlačítko výše pro export aktuální konfigurace do samostatného módu. \nTento mód by poté fungoval sám o sobě bez tohoto módu. \nVe skutečnosti musíte buď zakázat tento mód, nebo exportovaný mód, abyste se vyhnuli konfliktům."
+viVN = "Nhấp nút ở trên để xuất cấu hình hiện tại thành một mod độc lập.\nMod đó sau đó sẽ hoạt động độc lập mà không cần mod này.\nTrên thực tế, bạn phải tắt mod này hoặc mod được xuất ra để tránh xung đột."
 
 ["LV.CFac.ConflictWarning"]
 raw = "<b>WARNING:</b> You have both this mod and an exported mod active.\nPlease use only one because you will have conflicting data no matter which purpose/mod you need"
@@ -285,6 +303,7 @@ plPL = "<b>OSTRZEŻENIE:</b> Masz aktywne zarówno tę modyfikację, jak i wyeks
 ptBR = "<b>AVISO:</b> Você tem este mod e um mod exportado ativos.  \nPor favor, use apenas um, pois você terá dados conflitantes, independentemente do propósito/mod que você precisar."
 koKR = "<b>경고:</b> 이 모드와 내보낸 모드가 모두 활성화되어 있습니다. 필요에 따라 어떤 모드를 사용하든지 간에 충돌하는 데이터가 발생하므로 한 가지만 사용해 주시기 바랍니다."
 csCZ = "<b>UPOZORNĚNÍ:</b> Máte aktivní jak tento mod, tak exportovaný mod. Používejte prosím pouze jeden, protože budete mít konfliktní data, ať už potřebujete jakýkoli účel/mod."
+viVN = "<b>CẢNH BÁO:</b> Bạn đang kích hoạt cả mod này và một mod đã được xuất.\nVui lòng chỉ sử dụng một trong hai, vì bạn sẽ gặp dữ liệu mâu thuẫn cho dù mục đích hoặc mod bạn cần là gì."
 
 ["LV.CFac.ModExported"]
 raw = "The mod has been exported.\nPlease <b>disable this mod</b> and use the exported '{0}' mod.\nIf you want to reconfigure this mod, remember to disable that mod."
@@ -300,6 +319,7 @@ plPL = "Mod został wyeksportowany. Proszę <b>wyłączyć ten mod</b> i użyć 
 ptBR = "O mod foi exportado.  \nPor favor, <b>desative este mod</b> e use o mod exportado '{0}'.  \nSe você quiser reconfigurar este mod, lembre-se de desativar aquele mod."
 koKR = "모드가 내보내졌습니다.  \n<b>이 모드를 비활성화</b>하고 내보낸 '{0}' 모드를 사용하세요.  \n이 모드를 재구성하려면 해당 모드를 비활성화하는 것을 잊지 마세요."
 csCZ = "Mod byl exportován.  \nProsím <b>deaktivujte tento mod</b> a použijte exportovaný '{0}' mod.  \nPokud chcete tento mod znovu nakonfigurovat, nezapomeňte deaktivovat ten mod."
+viVN = "Mod đã được xuất ra.\nVui lòng <b>vô hiệu hóa mod này</b> và sử dụng mod '{0}' đã được xuất.\nNếu bạn muốn cấu hình lại mod này, hãy nhớ vô hiệu hóa mod đó."
 
 ["LV.CFac.Update730"]
 raw = "This mod now support exporting into a standalone mod if you have the optional mod <b>TimberMod Builder</b>.\nThe intention is to support mods like TimberApi. Please read the updated mod description for more info.\nIf you do not care about that, you can ignore this message, there is no change to the current functionality."
@@ -315,6 +335,7 @@ plPL = "Nazwa klucza: LV.CFac.Update730 - Nowy tekst do przetłumaczenia: \"Ten 
 ptBR = "Este mod agora suporta exportação para um mod autônomo se você tiver o mod opcional <b>TimberMod Builder</b>.\nA intenção é dar suporte a mods como o TimberApi. Por favor, leia a descrição atualizada do mod para mais informações.\nSe você não se importa com isso, pode ignorar esta mensagem, não há alteração na funcionalidade atual."
 koKR = "이 모드는 선택적 모드 <b>TimberMod Builder</b>가 있는 경우 독립 실행형 모드로 내보내기를 지원합니다.\n목적은 TimberApi와 같은 모드를 지원하는 것입니다. 더 많은 정보는 업데이트된 모드 설명을 읽어주시기 바랍니다.\n그에 대해 신경 쓰지 않으신다면 이 메시지를 무시하셔도 됩니다. 현재 기능에는 변화가 없습니다."
 csCZ = "Tento mod nyní podporuje export do samostatného modu, pokud máte volitelný mod <b>TimberMod Builder</b>.\nCílem je podpora modů jako TimberApi. Prosím, přečtěte si aktualizovaný popis modu pro více informací.\nPokud o to nestojíte, můžete tuto zprávu ignorovat, není zde žádná změna v aktuální funkčnosti."
+viVN = "Mod này hiện hỗ trợ xuất ra thành một mod độc lập nếu bạn có mod tùy chọn <b>TimberMod Builder</b>.\nÝ định của nó là hỗ trợ các mod như TimberApi. Vui lòng đọc mô tả mod được cập nhật để biết thêm thông tin.\nNếu bạn không quan tâm đến điều đó, bạn có thể bỏ qua thông báo này; không có sự thay đổi nào đối với chức năng hiện tại."
 
 ["LV.CFac.UpdateNotify"]
 raw = "There was a major change to this mod. Please read the mod description for the new instructions. Thank you!"
@@ -330,3 +351,4 @@ plPL = "Nastąpiła istotna zmiana w tym modzie. Proszę przeczytać opis moda w
 ptBR = "Houve uma mudança significativa neste mod. Por favor, leia a descrição do mod para as novas instruções. Obrigado!"
 koKR = "이 모드에 중요한 변경 사항이 있었습니다. 새로운 지침은 모드 설명을 읽어주시기 바랍니다. 감사합니다!"
 csCZ = "Došlo k významné změně tohoto módu. Prosím, přečtěte si popis módu pro nové pokyny. Děkujeme!"
+viVN = "Có một sự thay đổi lớn đối với mod này. Vui lòng đọc mô tả của mod để biết các hướng dẫn mới. Cảm ơn!"

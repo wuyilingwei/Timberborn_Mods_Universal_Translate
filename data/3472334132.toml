@@ -15,6 +15,7 @@ plPL = "Panel z przewijanymi elementami"
 ptBR = "Painel de Entidade Rolável"
 koKR = "스크롤 가능한 엔티티 패널"
 csCZ = "Panel s posuvnými entitami"
+viVN = "Khung đối tượng có thể cuộn"
 
 ["LV.T4UI.ScrollableEntityPanelDesc"]
 raw = "Add a scroll bar to the entity panel (the panel on the right).\nUseful when you have many mods that add stuff to it."
@@ -30,6 +31,7 @@ plPL = "Dodaj pasek przewijania do panelu encji (panel po prawej stronie). Przyd
 ptBR = "Adicione uma barra de rolagem ao painel de entidades (o painel à direita). Útil quando você tem muitos mods que adicionam conteúdo a ele."
 koKR = "엔티티 패널(오른쪽 패널)에 스크롤 바를 추가합니다. 많은 모드가 패널에 항목을 추가할 때 유용합니다."
 csCZ = "Přidejte posuvník k panelu entity (panel vpravo). Užitečné, když máte mnoho modů, které do něj přidávají obsah."
+viVN = "Thêm thanh cuộn vào bảng thực thể (bảng ở phía bên phải).\nHữu ích khi bạn có nhiều mod thêm nội dung vào nó."
 
 ["LV.T4UI.RemovePathHighlight"]
 raw = "Remove Path Highlight"
@@ -45,6 +47,7 @@ plPL = "Usuń wyróżnienie ścieżki"
 ptBR = "Remover Destaque do Caminho"
 koKR = "경로 강조 표시 제거"
 csCZ = "Odebrat zvýraznění cesty"
+viVN = "Xóa đánh dấu đường đi"
 
 ["LV.T4UI.RemovePathHighlightDesc"]
 raw = "Paths are no longer highlighted when you select a building. You can still see it when selecting a path"
@@ -60,6 +63,7 @@ plPL = "Ścieżki nie są już podświetlane, gdy wybierasz budynek. Możesz je 
 ptBR = "Os caminhos não são mais realçados quando você seleciona um edifício. Você ainda pode vê-los ao selecionar um caminho."
 koKR = "건물을 선택할 때 경로가 더 이상 강조 표시되지 않습니다. 경로를 선택할 때는 여전히 볼 수 있습니다."
 csCZ = "Stezky již nejsou zvýrazněny, když vyberete budovu. I při výběru stezky ji stále uvidíte."
+viVN = "Các đường đi sẽ không còn được làm nổi bật khi bạn chọn một tòa nhà. Bạn vẫn có thể thấy nó khi chọn một đường đi"
 
 ["LV.T4UI.ToolDescPos"]
 raw = "Tool description location"
@@ -75,6 +79,7 @@ plPL = "Lokalizacja opisu narzędzia"
 ptBR = "Descrição da localização da ferramenta"
 koKR = "도구 설명 위치"
 csCZ = "Umístění popisu nástroje"
+viVN = "Vị trí mô tả công cụ"
 
 ["LV.T4UI.ToolDescPosDesc"]
 raw = "Choose a location for the tool description panel (the one in the middle when you are building). Game default: center."
@@ -90,6 +95,7 @@ plPL = "Wybierz lokalizację dla panelu opisu narzędzia (tego pośrodku, gdy bu
 ptBR = "Escolha um local para o painel de descrição da ferramenta (o que fica no meio quando você está construindo). Padrão do jogo: centro."
 koKR = "도구 설명 패널의 위치를 선택하십시오(건설 중 중앙에 있는 패널). 게임 기본값: 중앙."
 csCZ = "Vyberte místo pro panel popisu nástroje (ten uprostřed, když stavíte). Výchozí nastavení hry: střed."
+viVN = "Chọn vị trí cho bảng mô tả công cụ (bảng ở giữa khi bạn đang xây dựng). Mặc định của trò chơi: ở giữa."
 
 ["LV.T4UI.ToolDescPosLeft"]
 raw = "Left"
@@ -105,6 +111,7 @@ plPL = "Lewo"
 ptBR = "Esquerda"
 koKR = "왼쪽"
 csCZ = "Vlevo"
+viVN = "Trái"
 
 ["LV.T4UI.ToolDescPosCenter"]
 raw = "Center"
@@ -120,6 +127,7 @@ plPL = "Centrum"
 ptBR = "Centro"
 koKR = "중앙"
 csCZ = "Střed"
+viVN = "Trung tâm"
 
 ["LV.T4UI.ToolDescPosRight"]
 raw = "Right"
@@ -135,6 +143,7 @@ plPL = "Prawo"
 ptBR = "Certo"
 koKR = "오른쪽"
 csCZ = "Pravý"
+viVN = "Phải"
 
 ["LV.T4UI.AutoExpandCounter"]
 raw = "Auto-expand material counters"
@@ -150,6 +159,7 @@ plPL = "Automatyczne rozszerzanie liczników materiałów"
 ptBR = "Contrapesos de material de autoexpansão"
 koKR = "자동 확장 자재 카운터"
 csCZ = "Automaticky rozšiřovat počítače materiálů"
+viVN = "Mở rộng tự động các bộ đếm vật liệu"
 
 ["LV.T4UI.AutoExpandCounterDesc"]
 raw = "Close all material counters (top-left corner) on start.\nAutomatically expand any closed counter when you hover over them."
@@ -165,6 +175,7 @@ plPL = "Zamknij wszystkie liczniki materiałów (w lewym górnym rogu) na począ
 ptBR = "Feche todos os contadores de material (canto superior esquerdo) no início.  \nExpanda automaticamente qualquer contador fechado ao passar o mouse sobre eles."
 koKR = "모든 자재 카운터(왼쪽 상단 코너)를 시작할 때 닫습니다. 마우스를 위에 올리면 닫힌 카운터가 자동으로 확장됩니다."
 csCZ = "Zavřít všechny ukazatele materiálů (v levém horním rohu) na začátku.\nAutomaticky rozšířit jakýkoli zavřený ukazatel, když nad ním najedete myší."
+viVN = "Đóng tất cả các bộ đếm vật liệu (góc trên bên trái) khi khởi động.\nTự động mở rộng bất kỳ bộ đếm nào đã đóng khi bạn di chuột qua chúng."
 
 ["LV.T4UI.NeverHideCounter"]
 raw = "Never hide unlocked counters"
@@ -180,6 +191,7 @@ plPL = "Nigdy nie ukrywaj odblokowanych liczników."
 ptBR = "Nunca esconda contadores desbloqueados."
 koKR = "잠금 해제된 카운터 숨기지 않기"
 csCZ = "Nikdy nezakrývat odemčené počitadla"
+viVN = "Không bao giờ ẩn các bộ đếm đã mở khóa"
 
 ["LV.T4UI.NeverHideCounterDesc"]
 raw = "Never hide unlocked material counters even when you have 0 of that material."
@@ -195,6 +207,7 @@ plPL = "Nigdy nie ukrywaj liczników odblokowanych materiałów, nawet jeśli ma
 ptBR = "Nunca esconda os contadores de materiais desbloqueados, mesmo quando você tiver 0 desse material."
 koKR = "재료가 0개일 때에도 잠금 해제된 재료 카운터를 절대 숨기지 않습니다."
 csCZ = "Nikdy nezapínejte skrytí počítadel odemčeného materiálu, i když máte 0 tohoto materiálu."
+viVN = "Không bao giờ ẩn các bộ đếm nguyên liệu đã mở khóa ngay cả khi bạn có 0 đơn vị của nguyên liệu đó."
 
 ["LV.T4UI.HighlightSimilar"]
 raw = "Highlight similar objects"
@@ -210,6 +223,7 @@ plPL = "Wyróżnij podobne obiekty"
 ptBR = "Destacar objetos semelhantes"
 koKR = "유사한 객체 강조"
 csCZ = "Zvýraznit podobné objekty"
+viVN = "Nổi bật các đối tượng tương tự"
 
 ["LV.T4UI.HighlightSimilarDesc"]
 raw = "When you select an object, all objects of the same type will be highlighted."
@@ -225,6 +239,7 @@ plPL = "Po wybraniu obiektu wszystkie obiekty tego samego typu zostaną podświe
 ptBR = "Quando você seleciona um objeto, todos os objetos do mesmo tipo serão destacados."
 koKR = "객체를 선택하면 동일한 유형의 모든 객체가 강조 표시됩니다."
 csCZ = "Když vyberete objekt, všechny objekty stejného typu budou zvýrazněny."
+viVN = "Khi bạn chọn một đối tượng, tất cả các đối tượng cùng loại sẽ được làm nổi bật."
 
 ["LV.T4UI.HighlightSimilarColor"]
 raw = "Highlight similar objects color"
@@ -240,6 +255,7 @@ plPL = "Wyróżnij podobne obiekty kolorem."
 ptBR = "Destacar a cor de objetos semelhantes"
 koKR = "유사한 객체 색상 강조 표시"
 csCZ = "Zvýraznit objekty podobné barvy"
+viVN = "Màu làm nổi bật các đối tượng tương tự"
 
 ["LV.T4UI.HighlightSimilarColorDesc"]
 raw = "Color of the highlight for similar objects."
@@ -255,6 +271,7 @@ plPL = "Kolor podświetlenia dla podobnych obiektów."
 ptBR = "Cor do destaque para objetos semelhantes."
 koKR = "유사한 객체에 대한 강조 색상입니다."
 csCZ = "Barva zvýraznění pro podobné objekty."
+viVN = "Màu làm nổi bật cho các đối tượng tương tự."
 
 ["LV.T4UI.HighlightTubeway"]
 raw = "Highlight Tubeway path"
@@ -270,6 +287,7 @@ plPL = "Wyróżnij ścieżkę Tubeway"
 ptBR = "Destacar o caminho do tubo"
 koKR = "튜브웨이 경로 강조"
 csCZ = "Zvýraznit cestu trubky"
+viVN = "Nổi bật đường Tubeway"
 
 ["LV.T4UI.HighlightTubewayDesc"]
 raw = "Highlight all the connected Tubeways when you select a Tubeway.\nThis is useful to see the whole path of a Tubeway when you select it."
@@ -285,6 +303,7 @@ plPL = "Podświetl wszystkie połączone Tubewaye, gdy wybierzesz Tubeway. To pr
 ptBR = "Realce todos os Tubeways conectados quando você selecionar um Tubeway. Isso é útil para ver todo o percurso de um Tubeway quando você o seleciona."
 koKR = "튜브웨이를 선택할 때 튜브웨이의 전체 경로를 볼 수 있도록 연결된 모든 튜브웨이를 강조 표시합니다."
 csCZ = "Zvýrazněte všechny propojené trubkové cesty, když vyberete trubkovou cestu. To je užitečné, abyste viděli celou cestu trubkové cesty, když ji vyberete."
+viVN = "Nổi bật tất cả các đường ống liên kết khi bạn chọn một đường ống.\nĐiều này hữu ích để xem toàn bộ đường đi của một đường ống khi bạn chọn nó."
 
 ["LV.T4UI.HighlightStorage"]
 raw = "Highlight & Select Material Buildings"
@@ -300,6 +319,7 @@ plPL = "Wyróżnij i wybierz materiały budowlane"
 ptBR = "Destacar e Selecionar Materiais de Construção"
 koKR = "자재 건물 강조 및 선택"
 csCZ = "Zvýraznit a vybrat Materiálové Budovy"
+viVN = "Nổi bật và chọn các công trình chứa vật liệu"
 
 ["LV.T4UI.HighlightStorageDesc"]
 raw = "Hover over a material counter to highlight all buildings that are containing that material.\nClicking it will cycle through those buildings.\nHolding Alternate key (default: Shift) to cycle through them in selecting district only."
@@ -315,6 +335,7 @@ plPL = "Najedź kursorem na licznik materiałów, aby podświetlić wszystkie bu
 ptBR = "Passe o mouse sobre um contador de material para destacar todos os edifícios que contêm esse material. Clicar nele irá alternar entre esses edifícios. Segurando a tecla Alternar (padrão: Shift) para alternar entre eles apenas na seleção do distrito."
 koKR = "자재 카운터에 마우스를 올리면 해당 자재를 포함하고 있는 모든 건물들이 강조 표시됩니다. 클릭하면 그 건물들 사이를 순환합니다. 대체 키(기본: Shift)를 누르고 있으면 선택한 구역 내에서만 순환합니다."
 csCZ = "Přejděte myší nad počítadlem materiálu, aby se zvýraznily všechny budovy, které tento materiál obsahují.\nKlepnutím na něj projdete těmito budovami.\nDržte klávesu Alternativa (výchozí: Shift), abyste prošli pouze budovami ve vybraném okrsku."
+viVN = "Di chuột qua bộ đếm vật liệu để làm nổi bật tất cả các tòa nhà chứa vật liệu đó.\nNhấp vào nó sẽ lần lượt chuyển qua các tòa nhà đó.\nGiữ phím Alternate (mặc định: Shift) để lặp qua chúng chỉ khi đang chọn khu vực."
 
 ["LV.T4UI.DisableShadows"]
 raw = "Disable shadows"
@@ -330,6 +351,7 @@ plPL = "Wyłącz cienie"
 ptBR = "Desativar sombras"
 koKR = "그림자 끄기"
 csCZ = "Zakázat stíny"
+viVN = "Tắt đổ bóng"
 
 ["LV.T4UI.DisableShadowsDesc"]
 raw = "Disable shadows from the sun."
@@ -345,6 +367,7 @@ plPL = "Wyłącz cienie od słońca."
 ptBR = "Desative as sombras do sol."
 koKR = "태양의 그림자를 비활성화합니다."
 csCZ = "Vypnout stíny ze slunce."
+viVN = "Tắt bóng đổ của mặt trời."
 
 ["LV.T4UI.AddNegativeNeeds"]
 raw = "Clarify debuff chance"
@@ -360,6 +383,7 @@ plPL = "Wyjaśnij szansę na osłabienie"
 ptBR = "Esclarecer chance de debuff"
 koKR = "디버프 확률 명확화"
 csCZ = "Objasnit šanci na debuff"
+viVN = "Làm rõ xác suất hiệu ứng bất lợi"
 
 ["LV.T4UI.AddNegativeNeedsDesc"]
 raw = "For example, showing Injury or Bee Sting chance in number instead of just low/medium/high."
@@ -375,6 +399,7 @@ plPL = "Na przykład, pokazywanie szansy na kontuzję lub użądlenie pszczoły 
 ptBR = "Por exemplo, mostrar a chance de Lesão ou Picada de Abelha em números em vez de apenas baixo/médio/alto."
 koKR = "예를 들어, 부상 또는 벌쌤 기회가 낮음/중간/높음 대신 숫자로 표시됩니다."
 csCZ = "Například zobrazit pravděpodobnost úrazu nebo bodnutí včel číslem místo pouze nízká/střední/vysoká."
+viVN = "Ví dụ, hiển thị xác suất bị thương hoặc bị ong châm ở dạng số thay vì chỉ thấp/trung bình/cao."
 
 ["LV.T4UI.ExitToMenu"]
 raw = "Exit to menu"
@@ -390,6 +415,7 @@ plPL = "Wyjście do menu"
 ptBR = "Sair para o menu"
 koKR = "메뉴로 나가기"
 csCZ = "Odchod do menu"
+viVN = "Thoát về Menu"
 
 ["LV.T4UI.ShowDisablePauseIcon"]
 raw = "Show disable pause icon option"
@@ -405,6 +431,7 @@ plPL = "Opcja wyświetlenia ikony wyłączenia pauzy"
 ptBR = "Opção para exibir o ícone de desativar pausa"
 koKR = "일시정지 아이콘 비활성화 옵션 표시"
 csCZ = "Možnost zobrazit ikonu pro zakázání pauzy"
+viVN = "Hiển thị tuỳ chọn vô hiệu hóa biểu tượng tạm dừng"
 
 ["LV.T4UI.ShowDisablePauseIconDesc"]
 raw = "Show an option to disable the floating icon on paused buildings"
@@ -420,6 +447,7 @@ plPL = "Pokaż opcję wyłączenia unoszącej się ikony na wstrzymanych budynka
 ptBR = "Mostrar uma opção para desativar o ícone flutuante em prédios pausados"
 koKR = "일시정지된 건물에서 부동 아이콘을 비활성화하는 옵션을 표시합니다"
 csCZ = "Zobrazit možnost vypnout plovoucí ikonu na pozastavených budovách"
+viVN = "Hiển thị một tùy chọn để vô hiệu hóa biểu tượng nổi trên các công trình đang bị tạm dừng"
 
 ["LV.T4UI.DisablePauseIcon"]
 raw = "Disable pause icons on all {0}"
@@ -435,6 +463,7 @@ plPL = "Wyłącz ikony pauzy na wszystkich {0}"
 ptBR = "Desativar ícones de pausa em todos os {0}"
 koKR = "모든 {0}에서 일시 정지 아이콘 비활성화"
 csCZ = "Zakázat ikony pozastavení na všech {0}"
+viVN = "Tắt các biểu tượng tạm dừng trên toàn bộ {0}"
 
 ["LV.T4UI.AutoCollapseManagementGroups"]
 raw = "Auto-collapse management groups"
@@ -450,6 +479,7 @@ plPL = "Automatyczne zwijanie grup zarządzania"
 ptBR = "Auto-colapso de grupos de gestão"
 koKR = "자동 축소 관리 그룹"
 csCZ = "Automatické sbalování skupin správy"
+viVN = "Tự động thu gọn các nhóm quản lý"
 
 ["LV.T4UI.AutoCollapseManagementGroupsDesc"]
 raw = "When opening the management panel, automatically collapse all groups (like Population, Workplaces, etc.)"
@@ -465,6 +495,7 @@ plPL = "Po otwarciu panelu zarządzania automatycznie zwinąć wszystkie grupy (
 ptBR = " Ao abrir o painel de gerenciamento, colapse automaticamente todos os grupos (como População, Locais de Trabalho, etc.)"
 koKR = "관리 패널을 열 때 모든 그룹(인구, 직장 등)을 자동으로 축소합니다."
 csCZ = "Při otevření správcovského panelu automaticky sbalit všechny skupiny (např. Obyvatelstvo, Pracoviště atd.)"
+viVN = "Khi mở bảng quản lý, tự động thu gọn tất cả các nhóm (ví dụ như Dân số, Nơi làm việc, v.v.)"
 
 ["LV.T4UI.Update7_10_2"]
 raw = "This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings."
@@ -480,3 +511,4 @@ plPL = "Niniejsza aktualizacja dodaje zwijane grupy do panelu zarządzania (F1 -
 ptBR = "Esta atualização adiciona grupos recolhíveis ao painel de gerenciamento (F1 -> F5, como População, Locais de Trabalho, etc.). Você também pode ativar a recolhida automática nas configurações do mod."
 koKR = "이 업데이트는 관리 패널(F1 -> F5, 인구, 직장 등)에서 접을 수 있는 그룹을 추가합니다. 모드 설정에서 자동 축소를 활성화할 수도 있습니다."
 csCZ = "Tato aktualizace přidává skládací skupiny do ovládacího panelu (F1 -> F5, jako Populace, Pracoviště atd.). Také můžete povolit automatické sbalování v nastavení modu."
+viVN = "Bản cập nhật này thêm các nhóm có thể thu gọn vào bảng quản lý (F1 đến F5, ví dụ: Dân số, Nơi làm việc, v.v.). Bạn cũng có thể bật thu gọn tự động trong cài đặt của mod."

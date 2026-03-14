@@ -15,6 +15,7 @@ plPL = "Nieprzypisane"
 ptBR = "Desagrupado"
 koKR = "그룹이 아님"
 csCZ = "Nepřiřazené"
+viVN = "Chưa phân nhóm"
 
 ["LV.CTB.Id"]
 raw = "Id:"
@@ -30,6 +31,7 @@ plPL = "Id:"
 ptBR = "Id:"
 koKR = "아이디:"
 csCZ = "Id:"
+viVN = "Mã:"
 
 ["LV.CTB.Name"]
 raw = "Name:"
@@ -45,6 +47,7 @@ plPL = "Nazwa:"
 ptBR = "Nome:"
 koKR = "이름:"
 csCZ = "Název:"
+viVN = "Tên:"
 
 ["LV.CTB.Icon"]
 raw = "Icon:"
@@ -60,6 +63,7 @@ plPL = "Ikona:"
 ptBR = "Ícone:"
 koKR = "아이콘:"
 csCZ = "Ikona:"
+viVN = "Biểu tượng:"
 
 ["LV.CTB.GoodList"]
 raw = "Goods:"
@@ -75,6 +79,7 @@ plPL = "Towary:"
 ptBR = "Bens:"
 koKR = "상품:"
 csCZ = "Zboží:"
+viVN = "Hàng hóa:"
 
 ["LV.CTB.SelectIcon"]
 raw = "Select icon"
@@ -90,6 +95,7 @@ plPL = "Wybierz ikonę"
 ptBR = "Selecionar ícone"
 koKR = "아이콘 선택"
 csCZ = "Vybrat ikonu"
+viVN = "Chọn biểu tượng"
 
 ["LV.CTB.GroupHeader"]
 raw = "Group: {0} ({1})"
@@ -105,6 +111,7 @@ plPL = "Grupa: {0} ({1})"
 ptBR = "Grupo: {0} ({1})"
 koKR = "그룹: {0} ({1})"
 csCZ = "Skupina: {0} ({1})"
+viVN = "Nhóm: {0} ({1})"
 
 ["LV.CTB.GoodGroups"]
 raw = "Good Groups"
@@ -120,6 +127,7 @@ plPL = "Dobre Grupy"
 ptBR = "Grupos Bons"
 koKR = "좋은 그룹"
 csCZ = "Dobré skupiny"
+viVN = "Nhóm tốt"
 
 ["LV.CTB.Goods"]
 raw = "Goods"
@@ -135,6 +143,7 @@ plPL = "Towary"
 ptBR = "Mercadorias"
 koKR = "상품"
 csCZ = "Zboží"
+viVN = "Hàng hóa"
 
 ["LV.CTB.Filter"]
 raw = "Filter"
@@ -150,6 +159,7 @@ plPL = "Filtr"
 ptBR = "Filtro"
 koKR = "필터"
 csCZ = "Filtr"
+viVN = "Bộ lọc"
 
 ["LV.CTB.AddGroup"]
 raw = "Add Group"
@@ -165,6 +175,7 @@ plPL = "Dodaj Grupę"
 ptBR = "Adicionar Grupo"
 koKR = "그룹 추가"
 csCZ = "Přidat skupinu"
+viVN = "Thêm nhóm"
 
 ["LV.CTB.DeleteGroup"]
 raw = "Delete Group"
@@ -180,6 +191,7 @@ plPL = "Usuń grupę"
 ptBR = "Excluir Grupo"
 koKR = "그룹 삭제"
 csCZ = "Smazat skupinu"
+viVN = "Xóa nhóm"
 
 ["LV.CTB.MoveHere"]
 raw = "Move selected goods here"
@@ -195,6 +207,7 @@ plPL = "Przenieś wybrane towary tutaj"
 ptBR = "Mova os bens selecionados aqui"
 koKR = "선택한 물품을 여기로 이동"
 csCZ = "Přesuňte vybrané zboží sem"
+viVN = "Di chuyển hàng được chọn đến đây"
 
 ["LV.CTB.NewGroup"]
 raw = "Unnamed group"
@@ -210,6 +223,7 @@ plPL = "Nienazwana grupa"
 ptBR = "Grupo sem nome"
 koKR = "이름 없는 그룹"
 csCZ = "Nepojmenovaná skupina"
+viVN = "Nhóm chưa được đặt tên"
 
 ["LV.CTB.DeleteConfirm"]
 raw = "Are you sure you want to delete the group '{0}'?\nAll goods in this group will be moved to 'Ungrouped'."
@@ -225,6 +239,7 @@ plPL = "Czy na pewno chcesz usunąć grupę '{0}'? Wszystkie towary w tej grupie
 ptBR = "Você tem certeza de que deseja deletar o grupo '{0}'? Todos os itens desse grupo serão movidos para 'Desagrupados'."
 koKR = "그룹 '{0}'를 정말 삭제하시겠습니까? 이 그룹의 모든 물품이 '그룹화되지 않음'으로 이동됩니다."
 csCZ = "Opravdu chcete smazat skupinu '{0}'? Všechny zboží v této skupině budou přesunuty do 'Neskupinováno'."
+viVN = "Bạn có chắc chắn muốn xóa nhóm '{0}'?\nTất cả hàng hóa trong nhóm này sẽ được chuyển sang 'Chưa ghép nhóm'."
 
 ["LV.CTB.ResetNotice"]
 raw = "Settings was reset. Please restart the game so the mod can reinitialize properly."
@@ -240,3 +255,4 @@ plPL = "Ustawienia zostały zresetowane. Proszę zrestartować grę, aby mod mó
 ptBR = "As configurações foram redefinidas. Por favor, reinicie o jogo para que o mod possa ser reinicializado corretamente."
 koKR = "설정이 초기화되었습니다. 모드가 제대로 재초기화할 수 있도록 게임을 재시작해 주세요."
 csCZ = "Nastavení bylo resetováno. Prosím, restartujte hru, aby se mód mohl správně znovu inicializovat."
+viVN = "Cài đặt đã được đặt lại. Xin hãy khởi động lại trò chơi để mod có thể khởi tạo lại đúng cách."

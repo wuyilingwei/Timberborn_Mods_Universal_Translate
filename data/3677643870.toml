@@ -15,6 +15,7 @@ plPL = "Zamknij nad skażeniem: {0}"
 ptBR = "Fechar acima da contaminação: {0}"
 koKR = "위에 있는 오염을 닫기: {0}"
 csCZ = "Zavřít nad kontaminací: {0}"
+viVN = "Đóng trên vùng ô nhiễm: {0}"
 
 ["Building.Sluice.BelowContaminationToggle"]
 status = "normal"
@@ -30,6 +31,7 @@ plPL = "Zamknij poniżej skażenia: {0}"
 ptBR = "Fechar abaixo da contaminação: {0}"
 koKR = "아래 오염 차단: {0}"
 csCZ = "Zavřít pod kontaminací: {0}"
+viVN = "Đóng dưới ngưỡng ô nhiễm: {0}"
 
 ["Building.Sluice.Contamination"]
 status = "normal"
@@ -45,6 +47,7 @@ plPL = "Zanieczyszczenie: {0}"
 ptBR = "Contaminação: {0}"
 koKR = "오염: {0}"
 csCZ = "Znečištění: {0}"
+viVN = "Ô nhiễm: {0}"
 
 ["Building.Sluice.Description"]
 status = "normal"
@@ -60,6 +63,7 @@ plPL = "Jednokierunkowe, zautomatyzowane odprowadzanie wody."
 ptBR = "Uma liberação de água unidirecional e automatizada."
 koKR = "일방향의 자동 물 배출."
 csCZ = "Jednostranné, automatické vypouštění vody."
+viVN = "Một hệ thống xả nước tự động một chiều."
 
 ["Building.Sluice.DisplayName"]
 status = "normal"
@@ -75,6 +79,7 @@ plPL = "Śluza"
 ptBR = "Comporta"
 koKR = "수문"
 csCZ = "Klapka"
+viVN = "Cửa xả nước"
 
 ["Building.Sluice.DownstreamDepth"]
 status = "normal"
@@ -90,18 +95,23 @@ plPL = "Głębokość odpływu {0}"
 ptBR = "Profundidade a jusante {0}"
 koKR = "하류 수심 {0}"
 csCZ = "Hloubka po proudu {0}"
+viVN = "Độ sâu hạ lưu {0}"
 
 ["Building.Sluice.FlavorDescription"]
-new = "\"Suli, did you forget to flush the badwater again?\" —Ma'xa0Ngonel"
 status = "normal"
 raw = "\"Suli, did you forget to flush the badwater again?\" —Ma'xa0Ngonel"
 enUS = "\"Suli, did you forget to flush the badwater again?\" —Ma'xa0Ngonel"
 zhCN = "\"Suli，你又忘记把污水冲走了吗？\" —Ma'xa0Ngonel"
 zhTW = "\"Suli，你又忘記把髒水排出去嗎？\" —Ma'xa0Ngonel"
+ruRU = "\"Сули, ты снова забыл слить загрязненную воду?\" —Ма'ха Нгонель"
+jaJP = "\"スリ、また汚水を排出するのを忘れたのか？\" —Ma'xa0Ngonel"
+frFR = "\"Suli, as-tu oublié de rincer l'eau sale encore une fois ?\" —Ma'xa0Ngonel"
 deDE = "\"Suli, hast du schon wieder vergessen, das Abwasser abzuspülen?\" —Ma'xa0Ngonel"
-ptBR = "\"Suli, você esquecou de esvaziar a água contaminada de novo?\" —Ma'xa0Ngonel"
-koKR = "\"술리야, 또 오염된 물을 배출하는 걸 잊었니?\" —Ma'xa0Ngonel"
+plPL = "\"Suli, zapomniałeś znowu wypłukać skażoną wodę?\" —Ma'xa0Ngonel"
+ptBR = "\"Suli, você esqueceu de esvaziar a água contaminada de novo?\" —Ma'xa0Ngonel"
+koKR = "술리야, 또 오염된 물을 배출하는 걸 잊었니? —Ma'xa0Ngonel"
 csCZ = "\"Suli, znovu jsi zapomněla propláchnout špinavou vodu?\" —Ma'xa0Ngonel"
+viVN = "\"Suli, cậu có quên xả nước thải ô nhiễm lần nữa không?\" —Ma'xa0Ngonel"
 
 ["Building.Sluice.MaximumDepthToggle"]
 status = "normal"
@@ -117,6 +127,7 @@ plPL = "Zamknij powyżej głębokości na odpływie: {0}"
 ptBR = "Fechar acima da profundidade a jusante: {0}"
 koKR = "하류 깊이 이상에서 닫기: {0}"
 csCZ = "Zavřít nad hloubkou po proudu: {0}"
+viVN = "Đóng trên độ sâu hạ lưu: {0}"
 
 ["Building.Sluice.Mode.Auto"]
 status = "normal"
@@ -132,6 +143,7 @@ plPL = "Automatyczny"
 ptBR = "Automático"
 koKR = "자동"
 csCZ = "Automaticky"
+viVN = "Tự động"
 
 ["Building.Sluice.Mode.AutoClosed"]
 status = "normal"
@@ -147,6 +159,7 @@ plPL = "Auto: Zamknięta"
 ptBR = "Automático: Fechado"
 koKR = "자동: 닫힘"
 csCZ = "Automaticky: Zavřeno"
+viVN = "Tự động: Đóng"
 
 ["Building.Sluice.Mode.AutoOpen"]
 status = "normal"
@@ -162,6 +175,7 @@ plPL = "Auto: Otwórz"
 ptBR = "Automático: Abrir"
 koKR = "자동: 열기"
 csCZ = "Automaticky: Otevřeno"
+viVN = "Tự động: Mở"
 
 ["Building.Sluice.Mode.Closed"]
 status = "normal"
@@ -177,6 +191,7 @@ plPL = "Zamknięty"
 ptBR = "Fechado"
 koKR = "닫힘"
 csCZ = "Zavřeno"
+viVN = "Đóng"
 
 ["Building.Sluice.Mode.Open"]
 status = "normal"
@@ -192,9 +207,9 @@ plPL = "Otwórz"
 ptBR = "Abrir"
 koKR = "열림"
 csCZ = "Otevřeno"
+viVN = "Mở"
 
 ["Building.Sluice.Synchronize"]
-new = "Synchronize with adjacent sluices"
 status = "normal"
 raw = "Synchronize with adjacent sluices"
 enUS = "Synchronize with adjacent sluices"
@@ -204,6 +219,8 @@ ruRU = "Синхронизировать с соседними шлюзами"
 jaJP = "隣接する水門と同期する"
 frFR = "Synchroniser avec les vannes adjacentes"
 deDE = "Mit angrenzenden Schleusen synchronisieren"
+plPL = "Synchronizuj z sąsiednimi śluzami"
 ptBR = "Sincronizar com comportas adjacentes"
 koKR = "인접한 수문과 동기화"
 csCZ = "Synchronizovat s sousedními klapkami"
+viVN = "Đồng bộ với các cửa xả nước liền kề"

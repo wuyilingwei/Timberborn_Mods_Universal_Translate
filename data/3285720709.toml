@@ -15,6 +15,7 @@ plPL = "Zbiornik wodny przemysłowy"
 ptBR = "Tanque de Água Industrial"
 koKR = "산업용 물탱크"
 csCZ = "Průmyslová vodní nádrž"
+viVN = "Bể chứa nước công nghiệp"
 
 ["Knatte.IndWaterTank.Description"]
 raw = "Holds more water and is Stackable but requires metal"
@@ -30,6 +31,7 @@ plPL = "Pomieści więcej wody i jest stosunkowo łatwe do układania, ale wymag
 ptBR = "Aguenta mais água e é empilhável, mas requer metal."
 koKR = "더 많은 물을 저장할 수 있으며 쌓을 수 있지만 금속이 필요합니다."
 csCZ = "Drží více vody a je stohovatelný, ale vyžaduje kov."
+viVN = "Chứa được nhiều nước hơn và có thể xếp chồng lên nhau nhưng cần kim loại"
 
 ["Knatte.Pipe.Description"]
 raw = "Levees on both sides of the pipe and a input and output pipe. Leeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
@@ -45,6 +47,7 @@ plPL = "Tam, tamy po obu stronach rury oraz rura wejściowa i wyjściowa. Tamy m
 ptBR = "Diques em ambos os lados do tubo e um tubo de entrada e saída. Os diques precisam ser alimentados, mas também atuar como transferência. Não coloque diques em hex acima do tubo de saída! Isso fará com que o jogo trave!"
 koKR = "파이프 양쪽에 레벨이 있고, 입력 및 출력 파이프가 있습니다. 레벨은 전력이 필요하지만 전송 역할도 합니다. 출력 파이프 위의 육각형에 레벨을 배치하지 마세요! 게임이 충돌할 수 있습니다!"
 csCZ = "Stěny na obou stranách potrubí a vstupní a výstupní potrubí. Stěny je třeba napájet, ale také fungují jako přenos. \nNesázujte stěny do hexu nad výstupním potrubím! dojde k chybě!"
+viVN = "Đê chắn nước ở hai bên của ống và một ống đầu vào và đầu ra. Đê cần được cấp nguồn nhưng cũng hoạt động như truyền tải\nKhông đặt đê chắn nước ở ô lục giác phía trên Ống Đầu Ra! nó sẽ làm game bị treo!"
 
 ["Knatte.PipeU.Description"]
 raw = "Levees on both sides of the pipe and a input and output pipe.\nPipe going underground between Levees\nLeeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
@@ -60,6 +63,7 @@ plPL = "Wały po obu stronach rury oraz rura wejściowa i wyjściowa.  \nRura pr
 ptBR = "Barragens de ambos os lados do tubo e um tubo de entrada e saída.  \nTubo indo para baixo entre as barragens.  \nAs barragens precisam ser alimentadas, mas também atuar como transferência.  \nNão coloque as barragens no hex acima do tubo de saída! Isso causará uma falha!"
 koKR = "파이프 양쪽에 제방이 있고 입력 및 출력 파이프가 있습니다.\n제방 사이로 땅속에 있는 파이프\n제방은 전원이 필요하지만 전송 역할도 합니다.\n출력 파이프 위의 육각형에 제방을 배치하지 마세요! 크래시가 발생합니다!"
 csCZ = "Fonáží na obou stranách potrubí a vstupní a výstupní potrubí.\nPotrubí jdoucí pod zem mezi fonážemi.\nFonáže je třeba napájet, ale také fungují jako převodní zařízení.\nNeskládejte fonáže do hexu nad výstupním potrubím! dojde k pádu!"
+viVN = "Đê hai bên của ống và một ống đầu vào và một ống đầu ra.\nỐng ngầm giữa các đê.\nĐê cần được cấp nguồn nhưng cũng hoạt động như một điểm truyền tải.\nKhông đặt đê trên ô lục giác phía trên ống đầu ra! Nó sẽ làm game bị treo!"
 
 ["Knatte.CategoryPipe.DisplayName"]
 raw = "Straight Pipes"
@@ -75,6 +79,7 @@ plPL = "Proste rury"
 ptBR = "Canos Retos"
 koKR = "직선 관"
 csCZ = "Rovné trubky"
+viVN = "Ống thẳng"
 
 ["Knatte.CategoryPipe.Description"]
 raw = "Pipes that go overground"
@@ -90,6 +95,7 @@ plPL = "Rury, które idą nad ziemią"
 ptBR = "Tubos que vão acima do solo"
 koKR = "지상에 놓인 파이프"
 csCZ = "Trubky, které vedou nad zemí"
+viVN = "Ống nước trên mặt đất"
 
 ["Knatte.CategoryPipeU.DisplayName"]
 raw = "Underground Pipes"
@@ -105,6 +111,7 @@ plPL = "Rury podziemne"
 ptBR = "Canos Subterrâneos"
 koKR = "지하 파이프"
 csCZ = "Podzemní potrubí"
+viVN = "Ống ngầm"
 
 ["Knatte.CategoryPipeU.Description"]
 raw = "Pipes that need to go underground at the bend"
@@ -120,6 +127,7 @@ plPL = "Rury, które muszą przejść pod ziemią na zakręcie."
 ptBR = "Tubos que precisam ir para debaixo da terra na curva."
 koKR = "구부어진 부분에서 지하로 가야 하는 파이프"
 csCZ = "Trubky, které musí jít pod zem na ohybu"
+viVN = "Ống cần đi ngầm ở khúc uốn"
 
 ["Knatte.CategoryHideWE.DisplayName"]
 raw = "Unused Water Extention"
@@ -135,6 +143,7 @@ plPL = "Nieużywana Woda Rozszerzenie"
 ptBR = "Extensão de Água Não Utilizada"
 koKR = "사용하지 않는 물 확장"
 csCZ = "Nepoužívané vodní rozšíření"
+viVN = "Chưa sử dụng Water Extention"
 
 ["Knatte.CategoryAquaduct.DisplayName"]
 raw = "Aquaducts"
@@ -150,6 +159,7 @@ plPL = "Akwedukty"
 ptBR = "Aquedutos"
 koKR = "수로"
 csCZ = "Akvadukty"
+viVN = "Kênh dẫn nước"
 
 ["Knatte.DeepSeaPump.DisplayName"]
 raw = "DeepSea Water Pump"
@@ -165,6 +175,7 @@ plPL = "Pompa Wodna DeepSea"
 ptBR = "Bomba de Água DeepSea"
 koKR = "심해수 펌프"
 csCZ = "Hloubková vodní pumpa"
+viVN = "Máy bơm nước biển sâu"
 
 ["Knatte.DeepSeaPump.Description"]
 raw = "Pump for the bottom of the Sea"
@@ -180,6 +191,7 @@ plPL = "Pompa na dno morza"
 ptBR = "Bomba para o fundo do mar"
 koKR = "바다 바닥을 위한 펌프"
 csCZ = "Čerpadlo pro dno moře"
+viVN = "Máy bơm cho đáy biển"
 
 ["Knatte.DeepSeaPump.FlavorDescription"]
 raw = "A gulp of fresh water is enough to pump you up."
@@ -195,6 +207,7 @@ plPL = "Łyk świeżej wody wystarczy, aby dodać ci energii."
 ptBR = "Um gole de água fresca é suficiente para te animar."
 koKR = "신선한 물 한 모금이면 당신을 활기차게 만들어 줍니다."
 csCZ = "Loknutí čerstvé vody stačí k tomu, aby tě to nabudilo."
+viVN = "Một ngụm nước sạch và mát đủ để tiếp thêm động lực cho bạn."
 
 ["Knatte.PipeHU.Description"]
 raw = "High Power version with a Levees on both sides of the pipe and a input and output pipe.\nPipe going underground between Levees\nLeeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
@@ -210,6 +223,7 @@ plPL = "Wersja o wysokiej mocy z wałami po obu stronach rury oraz rurą wejści
 ptBR = "Versão de Alta Potência com um dique de cada lado do tubo e um tubo de entrada e saída. Tubo indo para baixo entre os diques. Os diques precisam ser alimentados, mas também atuar como transferência. Não coloque diques no hex acima do Tubo de Saída! Isso fará o sistema travar!"
 koKR = "파이프 양쪽에 제방이 있는 고출력 버전으로, 입력 및 출력 파이프가 포함되어 있습니다.  \n제방 사이로 지하로 가는 파이프입니다.  \n제방은 전원이 필요하지만 전달 역할도 해야 합니다.  \n출력 파이프 위의 육각형에 제방을 두지 마세요! 게임이 충돌할 수 있습니다!"
 csCZ = "Verze s vysokým výkonem se hrázemi na obou stranách potrubí a vstupním a výstupním potrubím.\nPotrubí vedoucí pod zemí mezi hrázemi.\nHráze musí být napájeny, ale také fungují jako přenos.\nNenesazujte hráze na hex nad výstupním potrubím! dojde k pádu!"
+viVN = "Phiên bản công suất cao với đê chắn nước hai bên của ống và ống đầu vào và đầu ra.\nỐng đi ngầm giữa các đê\nĐê cần được cấp nguồn nhưng cũng đóng vai trò chuyển tiếp\nĐừng đặt đê trên ô lục giác phía trên Ống Đầu Ra! nó sẽ bị treo!"
 
 ["Knatte.Pipe5X.DisplayName"]
 raw = "Pipe 5 Long"
@@ -225,6 +239,7 @@ plPL = "Rura 5 Długa"
 ptBR = "Tubo 5 Longo"
 koKR = "파이프 5 길이"
 csCZ = "Trubka 5 Dlouhá"
+viVN = "Ống dài 5"
 
 ["Knatte.Pipe10X.DisplayName"]
 raw = "Pipe 10 Long"
@@ -240,6 +255,7 @@ plPL = "Rura 10 Długa"
 ptBR = "Tubo 10 Longo"
 koKR = "파이프 10 롱"
 csCZ = "Trubka 10 Dlouhá"
+viVN = "Ống nước dài 10"
 
 ["Knatte.Pipe15X.DisplayName"]
 raw = "Pipe 15 Long"
@@ -255,6 +271,7 @@ plPL = "Rura 15 Długa"
 ptBR = "Tubo 15 Longo"
 koKR = "파이프 15 롱"
 csCZ = "Trubka 15 Dlouhá"
+viVN = "Ống nước dài 15"
 
 ["Knatte.PipeU5X.DisplayName"]
 raw = "Pipe Underground 5 Long"
@@ -270,6 +287,7 @@ plPL = "Rura Podziemna 5 Długa"
 ptBR = "Tubulação Subterrânea 5 Longa"
 koKR = "지하 파이프 5 길이"
 csCZ = "Podzemní potrubí 5 dlouhé"
+viVN = "Ống ngầm dài 5"
 
 ["Knatte.PipeU10X.DisplayName"]
 raw = "Pipe Underground 10 Long"
@@ -285,6 +303,7 @@ plPL = "Rura podziemna 10 długich"
 ptBR = "Tubo Subterrâneo 10 Longo"
 koKR = "땅속 파이프 10길이"
 csCZ = "Páka pod zemí 10 dlouhá"
+viVN = "Ống ngầm 10 dài"
 
 ["Knatte.PipeU15X.DisplayName"]
 raw = "Pipe Underground 15 Long"
@@ -300,6 +319,7 @@ plPL = "Rura podziemna 15 długa"
 ptBR = "Tubo Subterrâneo 15 Longo"
 koKR = "지하 15미터 길이의 파이프"
 csCZ = "Podzemní potrubí 15 dlouhé"
+viVN = "Ống ngầm dài 15"
 
 ["Knatte.CategoryAquaduct_Floors.DisplayName"]
 raw = "Aquaduct Floors"
@@ -315,6 +335,7 @@ plPL = "Podłogi akweduktów"
 ptBR = "Pisos de Aqueduto"
 koKR = "수로 바닥"
 csCZ = "Aquaduktové podlahy"
+viVN = "Sàn ống dẫn nước"
 
 ["Knatte.Pipe1X.DisplayName"]
 raw = "Pipe Outlet"
@@ -330,6 +351,7 @@ plPL = "Wylot rury"
 ptBR = "Saída de Tubo"
 koKR = "파이프 출구"
 csCZ = "Vývod potrubí"
+viVN = "Đầu ống xả"
 
 ["Knatte.Pipe1X.Description"]
 raw = "Two Levees and a input and output pipe. Leeve need to be powered but also act as transfer\nDo not place Levees in hex above the Output Pipe! it will crash!"
@@ -345,6 +367,7 @@ plPL = "Dwa groble i rura wejściowa i wyjściowa. Groble muszą być zasilane, 
 ptBR = "Dois diques e um tubo de entrada e saída. Os diques precisam ser alimentados, mas também devem atuar como transferência. Não coloque os diques em hex acima do tubo de saída! Isso causará uma falha!"
 koKR = "두 개의 둑과 입력 및 출력 파이프. 둑은 전원이 필요하지만 전송 역할도 수행합니다. 출력 파이프 위의 육각형에 둑을 설치하지 마세요! 크래시가 발생할 것입니다!"
 csCZ = "Dvě hráze a vstupní a výstupní potrubí. Hráze potřebují být napájeny, ale také fungují jako přenos. \nNenechávejte hráze v hexu nad výstupním potrubím! Způsobí to pád!"
+viVN = "Hai đê và một ống đầu vào và đầu ra. Đê cần được cấp nguồn nhưng cũng đóng vai trò truyền nước.\nKhông đặt đê trên lưới hình lục giác phía trên ống đầu ra! Nó sẽ làm game bị treo!"
 
 ["Knatte.PipeH1X.DisplayName"]
 raw = "Pipe Outlet (H)"
@@ -360,6 +383,7 @@ plPL = "Odpływ rury (H)"
 ptBR = "Saída de Tubo (H)"
 koKR = "파이프 출구 (H)"
 csCZ = "Vývod trubky (H)"
+viVN = "Đầu ống (Ngang)"
 
 ["Knatte.PipeH1X.Description"]
 raw = "High Volume Pump Two Levees and a input and output pipe.\nLeeve need to be powered but also act as transfer"
@@ -375,6 +399,7 @@ plPL = "Pomp o dużej wydajności, dwa wały i rura wejściowa oraz rura wyjści
 ptBR = "Bomba de Alto Volume Dois Diques e um tubo de entrada e saída. Os diques precisam ser alimentados, mas também atuar como transferência."
 koKR = "대용량 펌프 두 개의 제방과 입력 및 출력 파이프. 제방은 전원이 필요하지만 또한 전송 역할을 합니다."
 csCZ = "Velkokapacitní čerpadlo, dvě hráze a vstupní a výstupní potrubí. Hráze musí být napájeny, ale také slouží jako přenos."
+viVN = "Máy bơm lưu lượng lớn, hai đê điều và một ống đầu vào và đầu ra. Đê điều cần được cấp nguồn nhưng cũng hoạt động như một đường truyền."
 
 ["Knatte.PipeHU5X.DisplayName"]
 raw = "Pipe Underground 5 Long (H)"
@@ -390,6 +415,7 @@ plPL = "Rura podziemna 5 długa (H)"
 ptBR = "Tubo Subterrâneo 5 Longo (H)"
 koKR = "파이프 지하 5m 길이 (H)"
 csCZ = "Podzemní trubka 5 dlouhá (H)"
+viVN = "Ống ngầm dài 5 (H)"
 
 ["Knatte.PipeHU10X.DisplayName"]
 raw = "Pipe Underground 10 Long (H)"
@@ -405,6 +431,7 @@ plPL = "Rura Podziemna 10 Długość (H)"
 ptBR = "Tubulação Subterrânea 10 Longa (H)"
 koKR = "파이프 지하 10 길이 (H)"
 csCZ = "Trubka pod zemí 10 dlouhá (H)"
+viVN = "Ống ngầm 10 dài (H)"
 
 ["Knatte.PipeHU15X.DisplayName"]
 raw = "Pipe Underground 15 Long (H)"
@@ -420,6 +447,7 @@ plPL = "Rura podziemna 15 Długa (H)"
 ptBR = "Tubo Subterrâneo 15 Longo (H)"
 koKR = "파이프 지하 15길이 (H)"
 csCZ = "Potrubí pod zemí 15 dlouhé (H)"
+viVN = "Ống ngầm dài 15 (H)"
 
 ["Knatte.Valve1X.DisplayName"]
 raw = "OneWay Valve"
@@ -435,6 +463,7 @@ plPL = "Zawór jednostronny"
 ptBR = "Válvula Unidirecional"
 koKR = "일방향 밸브"
 csCZ = "Jednosměrný ventil"
+viVN = "Van một chiều"
 
 ["Knatte.Valve1X.Description"]
 raw = "Oneway Valve with levee in the middle\nNo power needed and does not transfer\n1.5cms max flow"
@@ -450,6 +479,7 @@ plPL = "Zawór jednokierunkowy z levee pośrodku\nNie wymaga zasilania i nie prz
 ptBR = "Válvula unidirecional com barragem no meio  \nSem necessidade de energia e não transfere  \nFluxo máximo de 1,5 cm"
 koKR = "중간에 제방이 있는 일방통행 밸브  \n전력 필요 없으며 전송하지 않음  \n최대 유량 1.5cm"
 csCZ = "Jednosměrný ventil se hrází uprostřed\nNení potřeba žádná energie a nepřenáší\nMaximální průtok 1,5 cm"
+viVN = "Van một chiều có đê ở giữa\nKhông cần nguồn điện và không truyền nước\nLưu lượng tối đa 1,5 cm/s"
 
 ["Knatte.ValveH1X.DisplayName"]
 raw = "OneWay Valve (H)"
@@ -465,6 +495,7 @@ plPL = "Zawór jednokierunkowy (H)"
 ptBR = "Válvula Unidirecional (H)"
 koKR = "일방향 밸브 (H)"
 csCZ = "Jednosměrný ventil (H)"
+viVN = "Van một chiều (H)"
 
 ["Knatte.ValveH1X.Description"]
 raw = "High Volume Oneway Valve with levee in the middle\nNo power needed and does not transfer"
@@ -480,6 +511,7 @@ plPL = "Zawór jednokierunkowy o dużym przepływie z grodzoniem na środku. Nie
 ptBR = "Válvula unidirecional de alto volume com represa no meio. Sem necessidade de energia e não transfere."
 koKR = "중간에 제방이 있는 고용량 일방향 밸브\n전력이 필요 없으며 전달하지 않습니다."
 csCZ = "Vysokoprůtokový jednosměrný ventil s hrází uprostřed\nNejprve není potřeba žádná energie a nepřenáší"
+viVN = "Van một chiều lưu lượng cao với đê ở giữa\nKhông cần nguồn điện và không dẫn nước"
 
 ["Knatte.Aqueduct_S_1X.DisplayName"]
 raw = "Aqueduct"
@@ -495,6 +527,7 @@ plPL = "Akwedukt"
 ptBR = "Aqueduto"
 koKR = "수로"
 csCZ = "Akvadukt"
+viVN = "Kênh dẫn nước"
 
 ["Knatte.Aqueduct_S_5X.DisplayName"]
 raw = "Aqueduct 5 Long"
@@ -510,6 +543,7 @@ plPL = "Akwedukt 5 Długi"
 ptBR = "Aqueduto 5 Longo"
 koKR = "5 길이 수로"
 csCZ = "Akvadukt 5 Dlouhý"
+viVN = "Kênh cấp nước dài 5"
 
 ["Knatte.Aqueduct_S.Description"]
 raw = "Aqueduct with wall on one side. Also Stops water at the bottom."
@@ -525,6 +559,7 @@ plPL = "Akwedukt z murem z jednej strony. Również zatrzymuje wodę na dole."
 ptBR = "Aqueduto com parede de um lado. Também para a água na parte inferior."
 koKR = "측면에 벽이 있는 수로. 또한 바닥에서 물을 멈춥니다."
 csCZ = "Akvadukt se zdí na jedné straně. Také zastavuje vodu na dně."
+viVN = "Kênh dẫn nước có tường ở một bên. Cũng ngăn nước ở đáy."
 
 ["Knatte.Aqueduct_S.FlavorDescription"]
 raw = "To be filled"
@@ -540,6 +575,7 @@ plPL = "Do wypełnienia"
 ptBR = "A ser preenchido"
 koKR = "채워질 예정"
 csCZ = "Prosím vyplňte"
+viVN = "Sẽ được điền"
 
 ["Knatte.Aqueduct_P_1X.DisplayName"]
 raw = "Aqueduct 1x1"
@@ -555,6 +591,7 @@ plPL = "Akwedukt 1x1"
 ptBR = "Aqueduto 1x1"
 koKR = "수로 1x1"
 csCZ = "Akvadukt 1x1"
+viVN = "Kênh dẫn nước 1x1"
 
 ["Knatte.Aqueduct_P_5X.DisplayName"]
 raw = "Aqueduct 1x5 Long"
@@ -570,6 +607,7 @@ plPL = "Akwedukt 1x5 Długi"
 ptBR = "Aqueduto 1x5 Longo"
 koKR = "수로 1x5 대형"
 csCZ = "Akvadukt 1x5 Dlouhý"
+viVN = "Kênh cấp nước 1x5 dài"
 
 ["Knatte.Aqueduct_P.Description"]
 raw = "Aqueduct with wall on Both sides. Also Stops water at the bottom."
@@ -585,6 +623,7 @@ plPL = "Akwedukt z murem po obu stronach. Również zatrzymuje wodę na dole."
 ptBR = "Aqueduto com parede de ambos os lados. Também para a água na parte inferior."
 koKR = "양쪽에 벽이 있는 수로. 또한 바닥에서 물을 멈춥니다."
 csCZ = "Akvadukt se zdí na obou stranách. Také zastaví vodu na dně."
+viVN = "Kênh dẫn nước có tường hai bên. Cũng ngăn nước ở đáy."
 
 ["Knatte.Aqueduct_P.FlavorDescription"]
 raw = "To be filled"
@@ -600,6 +639,7 @@ plPL = "Do wypełnienia"
 ptBR = "Para ser preenchido"
 koKR = "채워질 것입니다"
 csCZ = "Má být vyplněno"
+viVN = "Chưa điền"
 
 ["Knatte.Aqueduct_Corner.DisplayName"]
 raw = "Aqueduct Corner"
@@ -615,6 +655,7 @@ plPL = "Róg akweduktu"
 ptBR = "Esquina do Aqueduto"
 koKR = "Aqueduct Corner\"의 번역: \"수로 모서리"
 csCZ = "Akvaduktový roh"
+viVN = "Góc ống dẫn nước"
 
 ["Knatte.Aqueduct_Corner.Description"]
 raw = "Aqueduct with wall on two sides to create a corner. Also Stops water at the bottom."
@@ -630,6 +671,7 @@ plPL = "Akwedukt z murami po obu stronach, aby stworzyć róg. Zatrzymuje równi
 ptBR = "Aqueduto com parede em dois lados para criar um canto. Também para a água na parte inferior."
 koKR = "두 면에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥에서 물을 멈춥니다."
 csCZ = "Akvadukt se zdí na dvou stranách pro vytvoření rohu. Také zastavuje vodu na dně."
+viVN = "Kênh dẫn nước có tường ở hai phía để tạo thành một góc. Cũng ngăn nước ở đáy."
 
 ["Knatte.Aqueduct_Corner.FlavorDescription"]
 raw = "Water GO left"
@@ -645,6 +687,7 @@ plPL = "Woda poszła w lewo"
 ptBR = "Água vai para a esquerda"
 koKR = "물이 왼쪽으로 간다"
 csCZ = "Voda JDE vlevo"
+viVN = "Nước đi sang trái"
 
 ["Knatte.Aqueduct_Lid_1X.DisplayName"]
 raw = "Aqueduct Lid"
@@ -660,6 +703,7 @@ plPL = "Pokrywa akweduktu"
 ptBR = "Tampa de Aqueduto"
 koKR = "수로 덮개"
 csCZ = "Aqueduktní víko"
+viVN = "Nắp kênh dẫn nước"
 
 ["Knatte.Aqueduct_Lid_5X.DisplayName"]
 raw = "Aqueduct Lid 5 Long"
@@ -675,6 +719,7 @@ plPL = "Pokrywa akweduktu 5 Długa"
 ptBR = "Tampa de Aqueduto 5 Longa"
 koKR = "수로 덮개 5 긴"
 csCZ = "Aqueduct víko 5 dlouhé"
+viVN = "Nắp kênh cấp nước 5 dài"
 
 ["Knatte.Aqueduct_Lid.Description"]
 raw = "Adds a lid that block water from ecaping"
@@ -690,6 +735,7 @@ plPL = "Dodaje pokrywkę, która blokuje ucieczkę wody."
 ptBR = "Adiciona uma tampa que impede a água de escapar."
 koKR = "물의 유출을 막는 뚜껑을 추가합니다."
 csCZ = "Přidává víko, které brání úniku vody."
+viVN = "Thêm một nắp chắn nước để ngăn nước thoát ra"
 
 ["Knatte.Aqueduct_Lid.FlavorDescription"]
 raw = "Is it a Pipe yet"
@@ -705,6 +751,7 @@ plPL = "Czy to już rura?"
 ptBR = "Já é um cano?"
 koKR = "이제 파이프인가요?"
 csCZ = "Je to už trubka?"
+viVN = "Nó có phải là ống chưa?"
 
 ["Knatte.Aqueduct_Wall.DisplayName"]
 raw = "Aqueduct Wall Dummy"
@@ -720,6 +767,7 @@ plPL = "Wszystko do kanału Dummy"
 ptBR = "Muros de Aqueduto Dummy"
 koKR = "수로 벽 더미"
 csCZ = "Falešná stěna akvaduktu"
+viVN = "Tường dẫn nước giả"
 
 ["Knatte.Aqueduct_Wall.Description"]
 raw = "Do not block water but may help the Illusion that it does for aesthetics to inner corners."
@@ -735,6 +783,7 @@ plPL = "Nie blokuj wody, ale może pomóc w złudzeniu, że tak jest, dla estety
 ptBR = "Não bloqueie a água, mas pode ajudar a criar a ilusão de que bloqueia para a estética dos cantos internos."
 koKR = "물의 흐름을 차단하지 않지만 내부 코너의 미적 효과를 위해 그렇게 보이도록 도울 수 있습니다."
 csCZ = "Nezavírejte vodu, ale může to pomoci iluze, že to dělá pro estetiku vnitřních rohů."
+viVN = "Không chắn nước, nhưng có thể giúp tạo ảo giác rằng nó chắn nước ở các góc bên trong để tăng thẩm mỹ."
 
 ["Knatte.Aqueduct_Wall.FlavorDescription"]
 raw = "To be filled"
@@ -750,6 +799,7 @@ plPL = "Do wypełnienia"
 ptBR = "A ser preenchido"
 koKR = "채워질 예정"
 csCZ = "Čeká na vyplnění"
+viVN = "Chưa được điền"
 
 ["Knatte.Aqueduct_Floor_1X1.DisplayName"]
 raw = "Aqueduct Floor"
@@ -765,6 +815,7 @@ plPL = "Podłoga akweduktu"
 ptBR = "Piso do Aqueduto"
 koKR = "수로 바닥"
 csCZ = "Akvaduktová podlaha"
+viVN = "Sàn ống dẫn nước"
 
 ["Knatte.Aqueduct_Floor_1X5.DisplayName"]
 raw = "Aqueduct Floor 1x5"
@@ -780,6 +831,7 @@ plPL = "Akvedukt Podłoga 1x5"
 ptBR = "Aqueduto Andar 1x5"
 koKR = "수로 바닥 1x5"
 csCZ = "Akvadukt Podlaha 1x5"
+viVN = "Sàn kênh dẫn nước 1x5"
 
 ["Knatte.Aqueduct_Floor_2X2.DisplayName"]
 raw = "Aqueduct Floor 2x2"
@@ -795,6 +847,7 @@ plPL = "Akwedukt Podłoga 2x2"
 ptBR = "Aqueduto Andar 2x2"
 koKR = "수로 바닥 2x2"
 csCZ = "Akvédok 2x2"
+viVN = "Sàn ống dẫn nước 2x2"
 
 ["Knatte.Aqueduct_Floor_3X3.DisplayName"]
 raw = "Aqueduct Floor 3x3"
@@ -810,6 +863,7 @@ plPL = "Akvedukt Podłoga 3x3"
 ptBR = "Aqueduto Piso 3x3"
 koKR = "수로 바닥 3x3"
 csCZ = "Akvaduktová podlaha 3x3"
+viVN = "Sàn ống dẫn nước 3x3"
 
 ["Knatte.Aqueduct_Floor_5X5.DisplayName"]
 raw = "Aqueduct Floor 5x5"
@@ -825,6 +879,7 @@ plPL = "Akvedukt Podłoga 5x5"
 ptBR = "Piso do Aqueduto 5x5"
 koKR = "수로 바닥 5x5"
 csCZ = "Akvadukt Podlaha 5x5"
+viVN = "Sàn dẫn nước 5x5"
 
 ["Knatte.Aqueduct_Floor.Description"]
 raw = "Impermeable floor in Aqueduct theme"
@@ -840,6 +895,7 @@ plPL = "Nieprzepuszczalna podłoga w motywie akweduktu"
 ptBR = "Piso impermeável no tema Aqueduto"
 koKR = "수로 테마의 방수 바닥"
 csCZ = "Nepropustná podlaha v tématu Akvadukt"
+viVN = "Sàn chống thấm trong chủ đề Aqueduct"
 
 ["Knatte.Aqueduct_Floor.FlavorDescription"]
 raw = "You shall not pass"
@@ -855,6 +911,7 @@ plPL = "Nie przejdziesz"
 ptBR = "Você não shall passar."
 koKR = "당신은 통과할 수 없습니다"
 csCZ = "Neprojdeš"
+viVN = "Bạn không thể đi qua."
 
 ["Knatte.Aqueduct_Sluice.DisplayName"]
 raw = "Aqueduct Sluice"
@@ -870,6 +927,7 @@ plPL = "Śluza akweductu"
 ptBR = "Eclusa de Aqueduto"
 koKR = "수로 슬루스"
 csCZ = "Akvaduktová stavidla"
+viVN = "Cửa xả kênh dẫn nước"
 
 ["Knatte.Aqueduct_Sluice.Description"]
 raw = "A unidirectional, automated water discharge. in Aqueduct theme and placeable in Aqueducts if it has support under."
@@ -885,6 +943,7 @@ plPL = "Jednokierunkowy, zautomatyzowany wypust wody. w motywie akweduktu i moż
 ptBR = "Uma descarga de água automatizada unidirecional, com tema de aqueduto e colocável em aquedutos se tiver suporte por baixo."
 koKR = "일방향 자동 물 배출 장치. 수로 테마이며 지지가 있는 수로에 배치할 수 있습니다."
 csCZ = "Jednosměrné, automatizované vypouštění vody. V tématu akvaduktu a umístitelné do akvaduktů, pokud má podporu dole."
+viVN = "Một xả nước tự động, một chiều. Thuộc chủ đề Aqueduct và có thể được đặt trong các Aqueduct nếu có đỡ ở phía dưới."
 
 ["Knatte.Aqueduct_Corner_Int.DisplayName"]
 raw = "Aqueduct Inner Corner"
@@ -900,6 +959,7 @@ plPL = "Akwedukt wewnętrzny róg"
 ptBR = "Canto Interno do Aqueduto"
 koKR = "수로 내부 코너"
 csCZ = "Vnitřní roh akvaduktu"
+viVN = "Góc trong kênh dẫn nước"
 
 ["Knatte.Aqueduct_Corner_Int.Description"]
 raw = "Aqueduct with wall on two sides to create a corner. Also Stops water at the bottom."
@@ -915,6 +975,7 @@ plPL = "Akwedukt z murami po dwóch stronach, tworzący róg. Również zatrzymu
 ptBR = "Aqueduto com parede em dois lados para criar um canto. Também impede a água na parte inferior."
 koKR = "두 쪽에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥에서 물을 막습니다."
 csCZ = "Akvadukt se zdí na dvou stranách, který vytváří roh. Také zastavuje vodu na dně."
+viVN = "Kênh dẫn nước có tường ở hai bên để tạo thành một góc. Đồng thời ngăn nước ở đáy."
 
 ["Knatte.Aqueduct_Corner_Int.FlavorDescription"]
 raw = "Water GO left"
@@ -930,6 +991,7 @@ plPL = "Woda idź w lewo"
 ptBR = "Água vai para a esquerda"
 koKR = "물은 왼쪽으로 간다"
 csCZ = "Voda JDE vlevo"
+viVN = "Nước chảy sang trái"
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.DisplayName"]
 raw = "Aqueduct 1x1 Inner Corner"
@@ -945,6 +1007,7 @@ plPL = "Kanal 1x1 Narożnik wewnętrzny"
 ptBR = "Aqueduto 1x1 Canto Interno"
 koKR = "\"Aqueduct 1x1 Inner Corner\"의 번역은 \"수로 1x1 내부 코너\"입니다."
 csCZ = "Akvadukt 1x1 Vnitřní Roh"
+viVN = "Kênh cấp nước 1x1 Góc trong"
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.Description"]
 raw = "Aqueduct with wall on three sides to create a corner. Also Stops water at the bottom."
@@ -960,6 +1023,7 @@ plPL = "Akwedukt z murem po trzech stronach, aby utworzyć róg. Również zatrz
 ptBR = "Aqueduto com parede em três lados para criar um canto. Também para a água na parte inferior."
 koKR = "세 면에 벽이 있는 수로로 코너를 만듭니다. 또한 바닥에서 물을 멈춥니다."
 csCZ = "Akvadukt se zdí na třech stranách pro vytvoření rohu. Také zastavuje vodu na dně."
+viVN = "Ống dẫn nước có tường ở ba phía để tạo thành một góc. Nó cũng ngăn nước ở đáy."
 
 ["Knatte.Aqueduct_P_1X_Corner_Int.FlavorDescription"]
 raw = "Water GO left"
@@ -975,6 +1039,7 @@ plPL = "Woda idź w lewo"
 ptBR = "Água vai para a esquerda"
 koKR = "물은 왼쪽으로 갑니다"
 csCZ = "Voda jde vlevo"
+viVN = "Nước chảy sang trái"
 
 ["Knatte.Aqueduct_Wall2.DisplayName"]
 raw = "Aqueduct Wall"
@@ -990,6 +1055,7 @@ plPL = "Ściana akweduktu"
 ptBR = "Muro do Aqueduto"
 koKR = "수로 벽"
 csCZ = "Akvaduktová zeď"
+viVN = "Tường kênh nước"
 
 ["Knatte.Aqueduct_Wall2.Description"]
 raw = "Block water from enter the same block as this, can be used to build underwater paths"
@@ -1005,6 +1071,7 @@ plPL = "Zablokować wodę przed wejściem do tego samego bloku, można to wykorz
 ptBR = "Bloqueie a água de entrar no mesmo bloco que este, pode ser usado para construir caminhos subaquáticos."
 koKR = "이 블록과 같은 블록에 물이 들어오는 것을 차단하며, 수중 경로를 만드는 데 사용할 수 있습니다."
 csCZ = "Zabraňuje vodě vstoupit do stejného bloku jako tento, lze použít k výstavbě podvodních cest."
+viVN = "Chặn nước khỏi chảy vào cùng ô với khối này; có thể được dùng để xây dựng đường dưới nước."
 
 ["Knatte.Aqueduct_Wall2.FlavorDescription"]
 raw = "To be filled"
@@ -1020,6 +1087,7 @@ plPL = "Do wypełnienia"
 ptBR = "Para ser preenchido"
 koKR = "채워질 예정입니다"
 csCZ = "Musí být vyplněno"
+viVN = "Chưa điền"
 
 ["Knatte.Aqueduct_Wall3.DisplayName"]
 raw = "Offset \nAqueduct Wall"
@@ -1035,6 +1103,7 @@ plPL = "Przesunięcie \nAkwedukt Ściana"
 ptBR = "Deslocamento \nMuro do aqueduto"
 koKR = "오프셋 수로 벽"
 csCZ = "Vyvýšená stěna akvaduktu"
+viVN = "Độ lệch\nTường kênh dẫn nước"
 
 ["Knatte.Aqueduct_Wall3.Description"]
 raw = "Block water from enter the same block as wall"
@@ -1050,6 +1119,7 @@ plPL = "Zablokuj wodę przed przedostaniem się do tego samego bloku co ściana.
 ptBR = "Bloquear a água de entrar no mesmo bloco que a parede."
 koKR = "벽과 같은 블록으로 물이 들어오는 것을 차단합니다."
 csCZ = "Zabránit vodě, aby se dostala do stejného bloku jako zeď"
+viVN = "Ngăn nước đi vào cùng một khối với tường"
 
 ["Knatte.Aqueduct_Wall4.DisplayName"]
 raw = "Double offset \nAqueduct Wall"
@@ -1065,6 +1135,7 @@ plPL = "Podwójne przesunięcie  \nMur akweduktu"
 ptBR = "Desvio Duplo \nParede do Aqueduto"
 koKR = "이중 오프셋 수로 벽"
 csCZ = "Zdi akvaduktu s dvojitým posunem"
+viVN = "Độ lệch kép\nTường ống dẫn nước"
 
 ["Knatte.Aqueduct_Wall4.Description"]
 raw = "Block water from enter the same block as wall"
@@ -1080,6 +1151,7 @@ plPL = "Zablokuj wodę, aby nie wchodziła do tego samego bloku co ściana."
 ptBR = "Bloquear a água de entrar no mesmo bloco que a parede."
 koKR = "벽과 같은 블록에 물이 들어오는 것을 막습니다."
 csCZ = "Zabraňte vodě vstoupit do stejného bloku jako zeď"
+viVN = "Ngăn nước đi vào cùng một ô với tường"
 
 ["Knatte.Aqueduct_Wall_OffDec.DisplayName"]
 raw = "Offset \nAqueduct Wall Dummy"
@@ -1095,6 +1167,7 @@ plPL = "Offset \nMur Akweduktowy Dummy"
 ptBR = "Offset \nParede do Aqueduto Falsa"
 koKR = "오프셋 수로 벽 더미"
 csCZ = "Dummy zdi akvaduktu OffSet"
+viVN = "Mẫu Tường Ống Cấp Nước Lệch"
 
 ["Knatte.Aqueduct_Wall_OffDec2.DisplayName"]
 raw = "Offset Double\nAqueduct Wall Dummy"
@@ -1110,3 +1183,4 @@ plPL = "Offset Podwójny  \nMur akweduktu Dummy"
 ptBR = "Deslocamento Duplo  \nMuro do Aqueduto Falso"
 koKR = "오프셋 더블 수로 벽 더미"
 csCZ = "Ofsetovaný dvojitý dummy akvaduktový plot"
+viVN = "Độ lệch kép\nTường kênh dẫn nước Mẫu"

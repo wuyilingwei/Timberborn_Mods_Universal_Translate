@@ -15,6 +15,7 @@ plPL = "Ustaw wysokość, gdy zacznie się susza"
 ptBR = "Defina a altura quando a seca começar"
 koKR = "가뭄이 시작될 때 높이 설정"
 csCZ = "Nastavit výšku, když začne sucho"
+viVN = "Thiết lập chiều cao khi hạn hán bắt đầu"
 
 ["Floodgate.Triggers.EnableOnDroughtEnded"]
 raw = "Set height when drought ends"
@@ -30,6 +31,7 @@ plPL = "Ustal wysokość, gdy skończy się susza."
 ptBR = "Defina a altura quando a seca terminar"
 koKR = "가뭄이 끝날 때 높이 설정"
 csCZ = "Nastavit výšku po ukončení sucha"
+viVN = "Đặt chiều cao khi hạn hán kết thúc"
 
 ["Floodgate.Schedule.Enable"]
 raw = "Set height on a schedule"
@@ -45,6 +47,7 @@ plPL = "Ustaw wysokość w harmonogramie"
 ptBR = "Defina a altura em um cronograma"
 koKR = "일정에 따라 높이 설정"
 csCZ = "Nastavit výšku podle plánu"
+viVN = "Đặt chiều cao theo lịch trình"
 
 ["Floodgate.Schedule.DisableOnDrought"]
 raw = "Disable schedule during drought"
@@ -60,6 +63,7 @@ plPL = "Wyłącz harmonogram podczas suszy"
 ptBR = "Desativar programação durante a seca"
 koKR = "가뭄 동안 일정 비활성화"
 csCZ = "Deaktivovat plán během sucha"
+viVN = "Vô hiệu hóa lịch trình khi hạn hán"
 
 ["Floodgate.Schedule.DisableOnTemperate"]
 raw = "Disable schedule during temperate"
@@ -75,6 +79,7 @@ plPL = "Wyłącz harmonogram podczas temperatury."
 ptBR = "Desativar o cronograma durante o temperamento."
 koKR = "온화한 날씨 동안 일정 비활성화"
 csCZ = "Deaktivovat plán během mírného počasí"
+viVN = "Vô hiệu hóa lịch trình khi ở vùng ôn hòa"
 
 ["Floodgate.Triggers.Time"]
 raw = "Time"
@@ -90,6 +95,7 @@ plPL = "Czas"
 ptBR = "Tempo"
 koKR = "시간"
 csCZ = "Čas"
+viVN = "Thời gian"
 
 ["Floodgate.Triggers.Height"]
 raw = "Height"
@@ -105,6 +111,7 @@ plPL = "Wysokość"
 ptBR = "Altura"
 koKR = "높이"
 csCZ = "Výška"
+viVN = "Chiều cao"
 
 ["Floodgate.Triggers.Basic"]
 raw = "Basic"
@@ -120,6 +127,7 @@ plPL = "Podstawowy"
 ptBR = "Básico"
 koKR = "기본"
 csCZ = "Základní"
+viVN = "Cơ bản"
 
 ["Floodgate.Triggers.Timer"]
 raw = "Timer"
@@ -135,6 +143,7 @@ plPL = "Zegar"
 ptBR = "Temporizador"
 koKR = "타이머"
 csCZ = "Časovač"
+viVN = "Bộ đếm thời gian"
 
 ["Floodgate.Triggers.Advanced"]
 raw = "Advanced"
@@ -150,6 +159,7 @@ plPL = "Zaawansowany"
 ptBR = "Avançado"
 koKR = "고급"
 csCZ = "Pokročilé"
+viVN = "Nâng cao"
 
 ["Floodgate.Triggers.AttachToStreamGauge"]
 raw = "Attach Stream Gauge"
@@ -165,6 +175,7 @@ plPL = "Przymocuj miernik przepływu"
 ptBR = "Anexar Medidor de Fluxo"
 koKR = "유량계 부착"
 csCZ = "Připojit měřič proudu"
+viVN = "Gắn đồng hồ đo dòng chảy"
 
 ["Floodgate.Triggers.PickStreamGaugeTitle"]
 raw = "Pick a Stream Gauge"
@@ -180,6 +191,7 @@ plPL = "Wybierz miernik przepływu"
 ptBR = "Escolha um Medidor de Fluxo"
 koKR = "수위 게이지 선택"
 csCZ = "Vyberte měřič proudu"
+viVN = "Chọn một đồng hồ đo dòng chảy"
 
 ["Floodgate.Triggers.PickStreamGaugeTip"]
 raw = "No really,pick any."
@@ -195,6 +207,7 @@ plPL = "Nie, naprawdę, wybierz dowolne."
 ptBR = "Não, sério, escolha qualquer um."
 koKR = "정말이에요, 아무거나 선택하세요."
 csCZ = "Ne vážně, vyberte jakýkoli."
+viVN = "Thật sự mà nói, chọn bất kỳ cái nào cũng được."
 
 ["Floodgates.Triggers.NoLinks"]
 raw = "No Stream Gauges attached"
@@ -210,6 +223,7 @@ plPL = "Brak podłączonych wskaźników przepływu"
 ptBR = "Nenhum medidor de vazão conectado"
 koKR = "연결된 수위계가 없습니다"
 csCZ = "Žádné měřiče vodního toku nejsou připojeny"
+viVN = "Không có đồng hồ đo dòng chảy được gắn"
 
 ["Floodgates.Triggers.NoFloodgateLinks"]
 raw = "No objects linked"
@@ -225,6 +239,7 @@ plPL = "Brak powiązanych obiektów"
 ptBR = "Nenhum objeto vinculado"
 koKR = "링크된 객체 없음"
 csCZ = "Žádné propojené objekty"
+viVN = "Không có đối tượng được liên kết"
 
 ["Floodgates.Triggers.LinkedFloodgates"]
 raw = "Linked objects"
@@ -240,6 +255,7 @@ plPL = "Obiekty powiązane"
 ptBR = "Objetos vinculados"
 koKR = "연결된 객체"
 csCZ = "Propojené objekty"
+viVN = "Các đối tượng liên kết"
 
 ["Floodgate.Triggers.PauseOnDroughtStart"]
 raw = "Pause when drought starts"
@@ -255,6 +271,7 @@ plPL = "Pauza, gdy zaczyna się susza"
 ptBR = "Pausa quando a seca começa"
 koKR = "가뭄이 시작될 때 일시 정지"
 csCZ = "Přerušit, když začne sucho"
+viVN = "Tạm dừng khi hạn hán bắt đầu"
 
 ["Floodgate.Triggers.UnpauseOnDroughtStart"]
 raw = "Unpause when drought starts"
@@ -270,6 +287,7 @@ plPL = "Wznów, gdy zacznie się susza"
 ptBR = "Retomar quando a seca começar"
 koKR = "가뭄이 시작될 때 일시 정지 해제"
 csCZ = "Pokračuj, když začne sucho"
+viVN = "Tiếp tục khi hạn hán bắt đầu"
 
 ["Floodgate.Triggers.UnpauseOnTemperateStart"]
 raw = "Unpause when temperate starts"
@@ -285,6 +303,7 @@ plPL = "Wznów, gdy temperatura wzrośnie"
 ptBR = "Retomar quando a temperatura começar."
 koKR = "온대가 시작되면 일시정지 해제"
 csCZ = "Znovu aktivovat při začátku mírného počasí"
+viVN = "Tiếp tục khi khí hậu ôn hòa bắt đầu"
 
 ["Floodgate.Triggers.PauseOnTemperateStart"]
 raw = "Pause when temperate starts"
@@ -300,6 +319,7 @@ plPL = "Pauza, gdy zaczyna się temperatura"
 ptBR = "Pausa quando a temperatura começa"
 koKR = "온대 기후 시작 시 일시 정지"
 csCZ = "Pauza, když začíná mírné období"
+viVN = "Tạm dừng khi bắt đầu ôn đới"
 
 ["Floodgates.WaterpumpTrigger.PauseStartTime"]
 raw = "Pause at"
@@ -315,6 +335,7 @@ plPL = "Zatrzymaj się na"
 ptBR = "Pausa em"
 koKR = "일시 정지 시간"
 csCZ = "Pozastavit na"
+viVN = "Dừng tại"
 
 ["Floodgates.WaterpumpTrigger.ResumeStartTime"]
 raw = "Resume at"
@@ -330,6 +351,7 @@ plPL = "Wznowić w"
 ptBR = "Currículo em"
 koKR = "재개 시"
 csCZ = "Pokračovat v"
+viVN = "Tiếp tục vào lúc"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringDrought"]
 raw = "Disable during drought"
@@ -345,6 +367,7 @@ plPL = "Wyłącz w czasie suszy"
 ptBR = "Desabilitar durante a seca"
 koKR = "가뭄 중 비활성화"
 csCZ = "Vypnout během sucha"
+viVN = "Vô hiệu hóa trong hạn hán"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringTemperate"]
 raw = "Disable during temperate"
@@ -360,6 +383,7 @@ plPL = "Wyłącz w okresie umiarkowanym"
 ptBR = "Desativar durante o tempo temperado"
 koKR = "온도 조절 중 비활성화"
 csCZ = "Vypnout během mírného počasí"
+viVN = "Vô hiệu hóa trong khí hậu ôn hòa"
 
 ["Floodgate.Triggers.PauseOnSchedule"]
 raw = "Pause on a schedule"
@@ -375,6 +399,7 @@ plPL = "Pauza zgodnie z harmonogramem"
 ptBR = "Pausa em um cronograma"
 koKR = "일정에 따라 일시 정지"
 csCZ = "Pauza podle plánu"
+viVN = "Tạm dừng theo lịch trình"
 
 ["Floodgate.Triggers.EnableOnBadtideStarted"]
 raw = "Set height when badtide starts"
@@ -390,6 +415,7 @@ plPL = "Ustaw wysokość, gdy zacznie się zły przypływ."
 ptBR = "Defina a altura quando a maré baixa começar."
 koKR = "불어난 물이 시작될 때 높이 설정"
 csCZ = "Nastavit výšku při začátku špatného přílivu"
+viVN = "Đặt chiều cao khi triều dâng bắt đầu"
 
 ["Floodgate.Triggers.EnableOnBadtideEnded"]
 raw = "Set height when badtide ends"
@@ -405,6 +431,7 @@ plPL = "Ustaw wysokość, gdy zły przypływ się kończy."
 ptBR = "Defina a altura quando a maré baixa terminar"
 koKR = "악조가 끝날 때 높이를 설정합니다"
 csCZ = "Nastavit výšku po skončení špatného přílivu"
+viVN = "Thiết lập chiều cao khi thủy triều xấu kết thúc"
 
 ["Floodgate.Schedule.DisableOnBadtide"]
 raw = "Disable schedule during badtide"
@@ -420,6 +447,7 @@ plPL = "Wyłącz harmonogram podczas złej pływy"
 ptBR = "Desativar programação durante a maré baixa"
 koKR = "나쁜 조수 중에는 일정 비활성화"
 csCZ = "Zablokovat plán během špatného přílivu"
+viVN = "Vô hiệu hóa lịch trình trong lúc triều xấu"
 
 ["Floodgates.WaterpumpTrigger.DisableDuringBadtide"]
 raw = "Disable during badtide"
@@ -435,6 +463,7 @@ plPL = "Wyłącz w czasie złej pływu"
 ptBR = "Desativar durante a maré baixa"
 koKR = "악潮 시 비활성화"
 csCZ = "Vypnout během špatného přílivu"
+viVN = "Vô hiệu hóa trong lúc thủy triều xấu"
 
 ["Floodgate.Triggers.PauseOnBadtideStart"]
 raw = "Pause when badtide starts"
@@ -450,6 +479,7 @@ plPL = "Pauza, gdy zaczyna się zła fala."
 ptBR = "Pausa quando a maré baixa começar."
 koKR = "나쁜 조수가 시작될 때 일시 정지"
 csCZ = "Pauza při začátku špatného přílivu"
+viVN = "Tạm dừng khi thủy triều xấu bắt đầu"
 
 ["Floodgate.Triggers.UnpauseOnBadtideStart"]
 raw = "Unpause when badtide starts"
@@ -465,6 +495,7 @@ plPL = "Wznów, gdy zacznie się zła fala."
 ptBR = "Reinicie quando a maré baixa começar."
 koKR = "악조가 시작될 때 일시중지 해제"
 csCZ = "Znovu spustit, když začne špatný příliv"
+viVN = "Tiếp tục khi thủy triều xấu bắt đầu"
 
 ["Floodgates.Triggers.ContaminationThresholdLow"]
 raw = "Contamination low threshold"
@@ -480,6 +511,7 @@ plPL = "Niska granica zanieczyszczenia"
 ptBR = "Limite de contaminação baixo"
 koKR = "오염 저하 한계"
 csCZ = "Práh nízké kontaminace"
+viVN = "Ngưỡng ô nhiễm thấp"
 
 ["Floodgates.Triggers.ContaminationThresholdHigh"]
 raw = "Contamination high threshold"
@@ -495,6 +527,7 @@ plPL = "Wysoki próg zanieczyszczenia"
 ptBR = "Limite alto de contaminação"
 koKR = "오염 고 한계"
 csCZ = "Vysoký limit kontaminace"
+viVN = "Ngưỡng ô nhiễm cao"
 
 ["Floodgates.Triggers.HeightWhenBelowContaminationThresholdLow"]
 raw = "Set height below low contamination"
@@ -510,6 +543,7 @@ plPL = "Ustawić wysokość poniżej niskiego zanieczyszczenia"
 ptBR = "Defina a altura abaixo da contaminação baixa"
 koKR = "낮은 오염 기준 이하로 높이 설정"
 csCZ = "Nastavit výšku pod nízkou úroveň znečištění"
+viVN = "Đặt chiều cao dưới ngưỡng ô nhiễm thấp"
 
 ["Floodgates.Triggers.HeightWhenAboveContaminationThresholdHigh"]
 raw = "Set height above high contamination"
@@ -525,6 +559,7 @@ plPL = "Ustaw wysokość powyżej wysokiego zanieczyszczenia"
 ptBR = "Defina a altura acima da alta contaminação"
 koKR = "높은 오염 기준 이상에서의 높이 설정"
 csCZ = "Nastavit výšku nad vysokou úroveň kontaminace"
+viVN = "Đặt chiều cao trên ngưỡng ô nhiễm cao"
 
 ["Floodgates.Triggers.Depth"]
 raw = "Depth"
@@ -540,6 +575,7 @@ plPL = "Głębia"
 ptBR = "Profundidade"
 koKR = "깊이"
 csCZ = "Hloubka"
+viVN = "Độ sâu nước"
 
 ["Floodgates.Triggers.Contamination"]
 raw = "Contamination"
@@ -555,6 +591,7 @@ plPL = "Zanieczyszczenie"
 ptBR = "Contaminação"
 koKR = "오염"
 csCZ = "Kontaminace"
+viVN = "Ô nhiễm"
 
 ["Floodgates.WaterSourceRegulator.CloseStartTime"]
 raw = "Close at"
@@ -570,6 +607,7 @@ plPL = "Zamknij o"
 ptBR = "Fechar em"
 koKR = "닫기 시간"
 csCZ = "Uzavřít v"
+viVN = "Đóng vào lúc"
 
 ["Floodgates.WaterSourceRegulator.OpenStartTime"]
 raw = "Open at"
@@ -585,6 +623,7 @@ plPL = "Otwórz o"
 ptBR = "Abrir em"
 koKR = "열기"
 csCZ = "Otevřít v"
+viVN = "Mở vào lúc"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringDrought"]
 raw = "Disable during drought"
@@ -600,6 +639,7 @@ plPL = "Wyłącz w czasie suszy"
 ptBR = "Desativar durante a seca"
 koKR = "가뭄 중 비활성화"
 csCZ = "Deaktivovat během sucha"
+viVN = "Vô hiệu hóa khi hạn hán"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringTemperate"]
 raw = "Disable during temperate"
@@ -615,6 +655,7 @@ plPL = "Wyłącz podczas temperaturowania"
 ptBR = "Desativar durante o período temperado"
 koKR = "온대 기간 동안 비활성화"
 csCZ = "Vypnout během mírného počasí"
+viVN = "Vô hiệu hóa trong khí hậu ôn hòa"
 
 ["Floodgate.WaterSourceRegulator.CloseOnDroughtStart"]
 raw = "Close when drought starts"
@@ -630,6 +671,7 @@ plPL = "Zamknij się, gdy zaczyna się susza."
 ptBR = "Fechar quando a seca começa"
 koKR = "가뭄이 시작될 때 닫기"
 csCZ = "Zavřít při začátku sucha"
+viVN = "Đóng khi hạn hán bắt đầu"
 
 ["Floodgate.WaterSourceRegulator.OpenOnDroughtStart"]
 raw = "Open when drought starts"
@@ -645,6 +687,7 @@ plPL = "Otwórz, gdy zaczyna się susza"
 ptBR = "Abra quando a seca começar"
 koKR = "가뭄이 시작될 때 열기"
 csCZ = "Otevřít, když začne sucho"
+viVN = "Mở khi hạn hán bắt đầu"
 
 ["Floodgate.WaterSourceRegulator.OpenOnTemperateStart"]
 raw = "Open when temperate starts"
@@ -660,6 +703,7 @@ plPL = "Otwórz, gdy zaczyna się temperatura."
 ptBR = "Abra quando a temperatura começar."
 koKR = "온대 시작 시 열림"
 csCZ = "otevřít na začátku mírného období"
+viVN = "Mở khi khí hậu ôn hòa bắt đầu"
 
 ["Floodgate.WaterSourceRegulator.CloseOnTemperateStart"]
 raw = "Close when temperate starts"
@@ -675,6 +719,7 @@ plPL = "Zamknij, gdy rozpoczyna się temperatura."
 ptBR = "Feche quando a temperatura começar"
 koKR = "온도가 시작되면 닫기"
 csCZ = "Zavřít, když začne období mírného klimatu"
+viVN = "Đóng khi khí hậu ôn hòa bắt đầu"
 
 ["Floodgate.WaterSourceRegulator.OpenOnBadtideStart"]
 raw = "Open when badtide starts"
@@ -690,6 +735,7 @@ plPL = "Otwórz, gdy zacznie się złota fala"
 ptBR = "Abra quando a maré baixa começar."
 koKR = "나쁜 조수가 시작될 때 열림"
 csCZ = "Zavřít, když začne špatný příliv"
+viVN = "Mở khi thủy triều xấu bắt đầu"
 
 ["Floodgate.WaterSourceRegulator.CloseOnBadtideStart"]
 raw = "Close when badtide starts"
@@ -705,6 +751,7 @@ plPL = "Zamknij, gdy zacznie się zła fala."
 ptBR = "Fechar quando a maré baixa começar"
 koKR = "악조가 시작될 때 닫기"
 csCZ = "Zavřít při začátku špatné přílivu"
+viVN = "Đóng khi thủy triều xấu bắt đầu"
 
 ["Floodgate.Schedule.CloseOnSchedule"]
 raw = "Close/Open on a schedule"
@@ -720,6 +767,7 @@ plPL = "Zamknij/Otwórz zgodnie z harmonogramem"
 ptBR = "Fechar/Abrir em um horário programado"
 koKR = "일정에 따라 닫기/열기"
 csCZ = "Zavřít/Otevřít podle plánu"
+viVN = "Đóng/Mở theo lịch trình"
 
 ["Floodgates.WaterSourceRegulator.DisableDuringBadtide"]
 raw = "Disable during badtide"
@@ -735,6 +783,7 @@ plPL = "Wyłącz w czasie złej pływu"
 ptBR = "Desabilitar durante a maré baixa"
 koKR = "나쁜 조수 동안 비활성화"
 csCZ = "Deaktivovat během špatného přílivu"
+viVN = "Tắt khi thủy triều xấu"
 
 ["Floodgates.Triggers.Empty"]
 raw = ""
@@ -764,6 +813,7 @@ plPL = "Niski próg wskaźnika strumienia"
 ptBR = "Limite inferior do medidor de fluxo"
 koKR = "하천 게이지 저하 한계"
 csCZ = "Low threshold měřiče toku"
+viVN = "Ngưỡng thấp của đồng hồ đo dòng chảy"
 
 ["Floodgates.Triggers.Threshold2"]
 raw = "Stream Gauge high threshold"
@@ -779,6 +829,7 @@ plPL = "Wysoki próg pomiaru strumienia"
 ptBR = "Limite máximo do medidor de fluxo"
 koKR = "하천 게이지 고수위"
 csCZ = "Vysoký prah měřiče proudu"
+viVN = "Ngưỡng cao của đồng hồ đo dòng chảy"
 
 ["Floodgates.Triggers.HeightWhenBelowThreshold1"]
 raw = "Floodgate height below low threshold"
@@ -794,6 +845,7 @@ plPL = "Wysokość grodzki poniżej niskiego progu"
 ptBR = "Altura do portão de inundação abaixo do limite inferior"
 koKR = "저수지 높이가 낮은 기준 이하"
 csCZ = "Výška hráze pod nízkým prahem"
+viVN = "Chiều cao cổng xả nước thấp hơn ngưỡng tối thiểu"
 
 ["Floodgates.Triggers.HeightWhenAboveThreshold2"]
 raw = "Floodgate height above high threshold"
@@ -809,6 +861,7 @@ plPL = "Wysokość tamy powyżej górnej granicy"
 ptBR = "Altura da comporta acima do limiar alto"
 koKR = "높은 임계값 이상의 수문 높이"
 csCZ = "Výška vodní brány nad vysokým prahem"
+viVN = "Chiều cao cổng nước vượt quá ngưỡng cao"
 
 ["Floodgates.WaterpumpTrigger.Threshold1"]
 raw = "Pause <"
@@ -824,6 +877,7 @@ plPL = "Pauza <"
 ptBR = "Pausa <"
 koKR = "일시 정지 <"
 csCZ = "Pozastavit <"
+viVN = "Tạm dừng <"
 
 ["Floodgates.WaterpumpTrigger.Threshold2"]
 raw = "Pause >"
@@ -839,6 +893,7 @@ plPL = "Pauza >"
 ptBR = "Pausa >"
 koKR = "일시 정지 >"
 csCZ = "Pauza >"
+viVN = "Tạm dừng >"
 
 ["Floodgates.WaterpumpTrigger.Threshold3"]
 raw = "Unpause <"
@@ -854,6 +909,7 @@ plPL = "Wznów"
 ptBR = "Despausar <"
 koKR = "일시중지 해제 <"
 csCZ = "Zrušit pozastavení <"
+viVN = "Tiếp tục <"
 
 ["Floodgates.WaterpumpTrigger.Threshold4"]
 raw = "Unpause >"
@@ -869,6 +925,7 @@ plPL = "Wznów"
 ptBR = "Despausar >"
 koKR = "일시정지 해제 >"
 csCZ = "Pokračovat >"
+viVN = "Tiếp tục >"
 
 ["Floodgates.WaterSourceRegulator.Threshold1"]
 raw = "Close <"
@@ -884,6 +941,7 @@ plPL = "Zamknij <"
 ptBR = "Fechar <"
 koKR = "닫다 <"
 csCZ = "Zavřít <"
+viVN = "Đóng <"
 
 ["Floodgates.WaterSourceRegulator.Threshold2"]
 raw = "Close >"
@@ -899,6 +957,7 @@ plPL = "Zamknij >"
 ptBR = "Fechar >"
 koKR = "닫기 >"
 csCZ = "Zavřít >"
+viVN = "Đóng >"
 
 ["Floodgates.WaterSourceRegulator.Threshold3"]
 raw = "Open <"
@@ -914,6 +973,7 @@ plPL = "Otwórz <"
 ptBR = "Abrir <"
 koKR = "열기 <"
 csCZ = "otevřít <"
+viVN = "Mở <"
 
 ["Floodgates.WaterSourceRegulator.Threshold4"]
 raw = "Open >"
@@ -929,3 +989,4 @@ plPL = "Otwórz >"
 ptBR = "Abrir >"
 koKR = "열기 >"
 csCZ = "Otevřít >"
+viVN = "Mở >"

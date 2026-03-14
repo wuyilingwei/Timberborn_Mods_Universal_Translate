@@ -38,19 +38,124 @@ jobs:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
         run: |
           LOG_FILE=".github/log/translation.log"
+          BRANCH_NAME="${GITHUB_REF_NAME:-main}"
+          CHECKPOINT_INTERVAL=60
+          CHECKPOINT_PID=""
+          TRANSLATE_PID=""
+          EXIT_CODE=0
+          # Track whether the first checkpoint commit has been made this run.
+          FIRST_COMMIT_DONE=false
+
+          commit_and_push_changes() {
+            if git diff --quiet data/; then
+              echo "No changes detected in data/, nothing to commit"
+              return 0
+            fi
+
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+
+            git add data/
+            if git diff --cached --quiet; then
+              echo "No staged changes, skipping commit"
+              return 0
+            fi
+
+            if [ "$FIRST_COMMIT_DONE" = false ]; then
+              # First commit this run: create a new commit.
+              git commit -m "chore: Auto-translate mod entries [skip ci]"
+              FIRST_COMMIT_DONE=true
+              echo "Created initial checkpoint commit"
+            else
+              # Subsequent checkpoints: amend the existing commit to avoid
+              # accumulating redundant intermediate commits.
+              git commit --amend --no-edit
+              echo "Amended checkpoint commit"
+            fi
+
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              if git push --force origin "HEAD:${BRANCH_NAME}"; then
+                echo "Successfully force-pushed local translation results"
+                return 0
+              fi
+
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Force push failed, retrying ($RETRY_COUNT/$MAX_RETRIES)..."
+                echo "Recent git status for diagnostics:"
+                git status --short || true
+                sleep 2
+              fi
+            done
+
+            echo "Warning: failed to push changes after $MAX_RETRIES attempts"
+            echo "Last push diagnostics:"
+            git remote -v || true
+            git status --short || true
+            return 1
+          }
+
+          checkpoint_loop() {
+            while true; do
+              sleep "$CHECKPOINT_INTERVAL"
+              echo "Checkpoint tick: trying to persist translation progress"
+              commit_and_push_changes || true
+            done
+          }
+
+          stop_checkpoint_loop() {
+            if [ -n "$CHECKPOINT_PID" ] && kill -0 "$CHECKPOINT_PID" >/dev/null 2>&1; then
+              kill "$CHECKPOINT_PID" >/dev/null 2>&1 || true
+              wait "$CHECKPOINT_PID" 2>/dev/null || true
+              CHECKPOINT_PID=""
+            fi
+          }
+
+          on_cancel() {
+            echo "Cancellation signal received, trying to save translation progress"
+            stop_checkpoint_loop
+
+            if [ -n "$TRANSLATE_PID" ] && kill -0 "$TRANSLATE_PID" >/dev/null 2>&1; then
+              echo "Stopping translation subprocess $TRANSLATE_PID"
+              kill -TERM "$TRANSLATE_PID" >/dev/null 2>&1 || true
+              wait "$TRANSLATE_PID" 2>/dev/null || true
+            fi
+
+            commit_and_push_changes || true
+            exit 130
+          }
+
+          trap on_cancel TERM INT
           
           # Create log directory if it doesn't exist
           mkdir -p "$(dirname "$LOG_FILE")"
           
           # Remove old log if exists
           rm -f "$LOG_FILE"
+
+          # Start periodic checkpoint commits to reduce cancellation loss window.
+          checkpoint_loop &
+          CHECKPOINT_PID=$!
+          echo "Started checkpoint loop with PID $CHECKPOINT_PID (interval ${CHECKPOINT_INTERVAL}s)"
           
-          # Run translation without time limit
+          # Run translation in background so the shell can handle cancellation signals.
           python .github/scripts/translate_mods.py \
             --config .github/config/config.toml \
             --data-dir data \
             --glossary data/_glossary.toml \
-            --log-file "$LOG_FILE" || EXIT_CODE=$?
+            --log-file "$LOG_FILE" &
+          TRANSLATE_PID=$!
+          echo "Started translation subprocess with PID $TRANSLATE_PID"
+
+          wait "$TRANSLATE_PID" || EXIT_CODE=$?
+          TRANSLATE_PID=""
+
+          stop_checkpoint_loop
+
+          # Save incremental progress for success/failure paths.
+          commit_and_push_changes || true
           
           # Check exit code
           if [ "${EXIT_CODE:-0}" -ne 0 ]; then
@@ -93,51 +198,3 @@ jobs:
             echo "The translation log file was not generated." >> $GITHUB_STEP_SUMMARY
           fi
       
-      - name: Check for changes
-        id: check_changes
-        run: |
-          if git diff --quiet data/; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Commit and push changes with conflict handling
-        if: steps.check_changes.outputs.has_changes == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/
-          git commit -m "chore: Auto-translate mod entries [skip ci]"
-          
-          # Push with retry logic and conflict handling
-          MAX_RETRIES=3
-          RETRY_COUNT=0
-          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-            if git push; then
-              echo "Successfully pushed changes"
-              break
-            else
-              RETRY_COUNT=$((RETRY_COUNT + 1))
-              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
-                echo "Push failed, pulling and retrying ($RETRY_COUNT/$MAX_RETRIES)..."
-                
-                # Pull with rebase
-                if ! git pull --rebase origin main; then
-                  # Handle conflicts by keeping our version
-                  CONFLICTED_FILES=$(git diff --name-only --diff-filter=U)
-                  if [ -n "$CONFLICTED_FILES" ]; then
-                    echo "Resolving conflicts by keeping our changes"
-                    git rebase --abort
-                    git pull origin main --strategy-option=ours || true
-                  fi
-                fi
-                
-                sleep 2
-              else
-                echo "Error: Failed to push changes after $MAX_RETRIES attempts"
-                echo "Giving up on this file's changes to avoid blocking future runs"
-                exit 0  # Exit gracefully to not block future runs
-              fi
-            fi
-          done

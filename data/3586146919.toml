@@ -15,6 +15,7 @@ plPL = "Logistyka Beavline"
 ptBR = "Logística Beavline"
 koKR = "비버라인 물류"
 csCZ = "Beavline Logistics"
+viVN = "Beavline Hậu cần"
 
 ["LV.BL.BeavlineOut"]
 raw = "Beavline Output"
@@ -30,6 +31,7 @@ plPL = "Wyjście Beavline"
 ptBR = "Saída Beavline"
 koKR = "비벌라인 출력"
 csCZ = "Beavline Výstup"
+viVN = "Đầu ra Beavline"
 
 ["LV.BL.BeavlineOutDesc"]
 raw = "Sends goods to connected Beavline Inputs."
@@ -45,6 +47,7 @@ plPL = "Wysyła towary do podłączonych wejść Beavline."
 ptBR = "Envia mercadorias para Entradas de Beavline conectadas."
 koKR = "연결된 비벌라인 입력으로 상품을 전송합니다."
 csCZ = "Posílá zboží do připojených vstupů Beavline."
+viVN = "Gửi hàng hóa đến các Đầu vào Beavline được kết nối."
 
 ["LV.BL.BeavlineOutFlavor"]
 raw = "No detours, no delays. Just pure Beavline speed."
@@ -60,6 +63,7 @@ plPL = "„Bez objazdów, bez opóźnień. Tylko czysta prędkość Beavline.”
 ptBR = "Sem desvios, sem atrasos. Apenas a pura velocidade Beavline."
 koKR = "우회로 없이, 지체 없이. 오직 순수한 비버라인 속도만."
 csCZ = "Žádné objížďky, žádné zpoždění. Jen čistá Beavline rychlost."
+viVN = "Không vòng vo, không chậm trễ. Chỉ có tốc độ Beavline thuần khiết."
 
 ["LV.BL.BeavlineOutSpeed"]
 raw = "Beavline Output Express"
@@ -75,6 +79,7 @@ plPL = "Ekspresowy Wyrzut Beavline"
 ptBR = "Saída Expressa Beavline"
 koKR = "비버라인 출력 특급"
 csCZ = "Beavline Výstup Expres"
+viVN = "Beavline Xuất nhanh"
 
 ["LV.BL.BeavlineOutSpeedDesc"]
 raw = "Increase the speed of Beavline Output by {0:+0%}"
@@ -90,6 +95,7 @@ plPL = "Zwiększ prędkość wyjścia Beavline o {0:+0%}"
 ptBR = "Aumenta a velocidade de saída do Beavline em {0:+0%}"
 koKR = "비버라인 출력 속도를 {0:+0%}만큼 증가시킵니다."
 csCZ = "Zvyšte rychlost výstupu Beavline o {0:+0%}"
+viVN = "Tăng tốc độ đầu ra Beavline lên {0:+0%}"
 
 ["LV.BL.BeavlineOutSpeedFlavor"]
 raw = "Guaranteed delivery before the next dam break."
@@ -105,6 +111,7 @@ plPL = "Gwarantowana dostawa przed następnym przełomem tamy."
 ptBR = "Entrega garantida antes da próxima quebra da barragem."
 koKR = "다음 댐 붕괴 전에 보장된 배송."
 csCZ = "Zaručené doručení před dalším prolomením hráze."
+viVN = "Giao hàng được đảm bảo trước lần vỡ đập tiếp theo."
 
 ["LV.BL.BeavlineIn"]
 raw = "Beavline Input"
@@ -120,6 +127,7 @@ plPL = "Zasilanie Beavline"
 ptBR = "Entrada Beavline"
 koKR = "비버라인 입력"
 csCZ = "Beavline Vstup"
+viVN = "Đầu vào Beavline"
 
 ["LV.BL.BeavlineInDesc"]
 raw = "Receives goods from connected Beavline Outputs."
@@ -135,6 +143,7 @@ plPL = "Odbiera towary z podłączonych wyjść Beavline."
 ptBR = "Recebe mercadorias dos Saídas Beavline conectadas."
 koKR = "연결된 비버라인 출력에서 상품을 받습니다."
 csCZ = "Přijímá zboží z připojených Beavline výstupů."
+viVN = "Nhận hàng hóa từ các đầu ra Beavline được kết nối."
 
 ["LV.BL.BeavlineInFlavor"]
 raw = "Your delivery has Beavlined its way here."
@@ -150,6 +159,7 @@ plPL = "Twoja dostawa Beavlowała się tutaj."
 ptBR = "Sua entrega chegou ao estilo Beavline."
 koKR = "귀하의 배송이 비버라인을 타고 여기 도착했습니다."
 csCZ = "Vaše dodávka se dostala sem pomocí Beavline."
+viVN = "Giao hàng của bạn đã được Beavline đưa đến đây."
 
 ["LV.BL.BeavlineBalancer"]
 raw = "Beavline Storage Balancer"
@@ -165,6 +175,7 @@ plPL = "Balansownik Magazynowy Beavline"
 ptBR = "Balanceador de Armazenamento Beavline"
 koKR = "비버라인 저장 균형기"
 csCZ = "Beavline Skladový Vyvážeč"
+viVN = "Beavline Cân Bằng Lưu Trữ"
 
 ["LV.BL.BeavlineBalancerDesc"]
 raw = "Automatically evens out goods of the same type across all connected storages. Works independently from Beavline Input and Output. It runs every hour with no limit on the amount of goods moved."
@@ -180,6 +191,7 @@ plPL = "Automatycznie wyrównuje towary tego samego typu we wszystkich połączo
 ptBR = "Equilibra automaticamente os bens do mesmo tipo em todos os armazéns conectados. Funciona independentemente da Entrada e Saída Beavline. Ele é executado a cada hora sem limite na quantidade de bens movidos."
 koKR = "연결된 모든 저장소에서 같은 종류의 물품을 자동으로 균형을 맞춥니다. Beavline 입출력과는 독립적으로 작동합니다. 매 시간마다 실행되며 이동할 수 있는 물품의 양에 제한이 없습니다."
 csCZ = "Automaticky vyrovnává zboží stejného typu ve všech připojených skladech. Pracuje nezávisle na Beavline Input a Output. Funguje každou hodinu bez omezení na množství přesunutého zboží."
+viVN = "Tự động cân bằng số lượng hàng hóa cùng loại giữa tất cả các kho được kết nối. Hoạt động độc lập với Beavline Input và Beavline Output. Chạy mỗi giờ mà không giới hạn số lượng hàng được vận chuyển."
 
 ["LV.BL.BeavlineBalancerFlavor"]
 raw = "'Perfectly balanced, as all stockpiles should be.' —xa0Damnosxa0Titanus"
@@ -195,6 +207,7 @@ plPL = "'Perfekcyjnie wyważone, jak wszystkie zapasy powinny być.' —xa0Damno
 ptBR = "'Perfeitamente equilibrado, como todos os armazéns deveriam ser.' — Damnos Titanus"
 koKR = "\"완벽하게 균형 잡힌, 모든 재고가 그래야 하죠.\" — 다므노스 타이타누스"
 csCZ = "'Dokonale vyvážené, jak by všechny sklady měly být.' —xa0Damnosxa0Titanus"
+viVN = "'Hoàn hảo cân bằng, như mọi kho chứa vốn dĩ nên thế.' — Damnos Titanus"
 
 ["LV.BL.FilterGoods"]
 raw = "Filter goods: {0}"
@@ -210,6 +223,7 @@ plPL = "Filtruj towary: {0}"
 ptBR = "Filtrar bens: {0}"
 koKR = "재고 필터: {0}"
 csCZ = "Filtrovat zboží: {0}"
+viVN = "Lọc hàng hóa: {0}"
 
 ["LV.BL.ChangeFilter"]
 raw = "Change filter"
@@ -225,6 +239,7 @@ plPL = "Zmień filtr"
 ptBR = "Alterar filtro"
 koKR = "필터 변경"
 csCZ = "Změnit filtr"
+viVN = "Thay đổi bộ lọc"
 
 ["LV.BL.FilterAll"]
 raw = "All"
@@ -240,6 +255,7 @@ plPL = "wszystkie"
 ptBR = "Todos"
 koKR = "모두"
 csCZ = "Vše"
+viVN = "Tất cả"
 
 ["LV.BL.DisableToggle"]
 raw = "Disabled"
@@ -255,6 +271,7 @@ plPL = "Wyłączone"
 ptBR = "Desativado"
 koKR = "비활성화됨"
 csCZ = "Zakázáno"
+viVN = "Đã vô hiệu hóa"
 
 ["LV.BL.ConnectedTo"]
 raw = "Connected to:"
@@ -270,6 +287,7 @@ plPL = "Połączono z:"
 ptBR = "Conectado a:"
 koKR = "연결됨:"
 csCZ = "Propojeno s:"
+viVN = "Đã kết nối với:"
 
 ["LV.BL.Disabled"]
 raw = "<RedHighlight>[Disabled]</RedHighlight>"
@@ -285,6 +303,7 @@ plPL = "<RedHighlight>[Wyłączone]</RedHighlight>"
 ptBR = "<RedHighlight>[Desativado]</RedHighlight>"
 koKR = "<RedHighlight>[비활성화됨]</RedHighlight>"
 csCZ = "<ČervenýZvýraznit>[Zakázáno]</ČervenýZvýraznit>"
+viVN = "<RedHighlight>[Vô hiệu hóa]</RedHighlight>"
 
 ["LV.BL.ErrInvalidBuilding"]
 raw = "This building cannot be connected to Beavline."
@@ -300,6 +319,7 @@ plPL = "Ten budynek nie może być połączony z Beavline."
 ptBR = "Este edifício não pode ser conectado à Beavline."
 koKR = "이 건물은 비버라인에 연결할 수 없습니다."
 csCZ = "Tato budova nemůže být spojena s Beavline."
+viVN = "Công trình này không thể kết nối với Beavline."
 
 ["LV.BL.ErrNoInput"]
 raw = "This building cannot receive goods"
@@ -315,6 +335,7 @@ plPL = "Ten budynek nie może przyjmować towarów"
 ptBR = "Este edifício não pode receber mercadorias"
 koKR = "이 건물은 물품을 받을 수 없습니다."
 csCZ = "Tato budova nemůže přijímat zboží."
+viVN = "Công trình này không thể nhận hàng hóa."
 
 ["LV.BL.ErrNoOutput"]
 raw = "This building cannot send goods"
@@ -330,6 +351,7 @@ plPL = "Ten budynek nie może wysyłać towarów"
 ptBR = "Este edifício não pode enviar mercadorias."
 koKR = "이 건물은 상품을 보낼 수 없습니다."
 csCZ = "Tato budova nemůže posílat zboží"
+viVN = "Xây dựng này không thể gửi hàng hóa."
 
 ["LV.BL.SelectAll"]
 raw = "Select All"
@@ -345,6 +367,7 @@ plPL = "Wybierz wszystko"
 ptBR = "Selecionar Tudo"
 koKR = "모두 선택"
 csCZ = "Vybrat vše"
+viVN = "Chọn tất cả"
 
 ["LV.BL.SelectNone"]
 raw = "Select None"
@@ -360,6 +383,7 @@ plPL = "Nie wybieraj żadnego"
 ptBR = "Selecionar Nenhum"
 koKR = "선택하지 않음"
 csCZ = "Žádný"
+viVN = "Bỏ chọn"
 
 ["LV.BL.OutputSpeed"]
 raw = "Output speed: {0:0.#} items/day"
@@ -375,6 +399,7 @@ plPL = "Prędkość wyjściowa: {0:0.#} przedmiotów/dzień"
 ptBR = "Velocidade de saída: {0:0.#} itens/dia"
 koKR = "출력 속도: {0:0.#} 아이템/일"
 csCZ = "Rychlost výstupu: {0:0.#} položek/den"
+viVN = "Tốc độ đầu ra: {0:0.#} mặt hàng/ngày"
 
 ["LV.BL.ErrStockpileOnly"]
 raw = "This renovation can only be built on stockpiles (Piles, Warehouses and Tanks)."
@@ -390,6 +415,7 @@ plPL = "Ten remont można zrealizować tylko na składowiskach (stosy, magazyny 
 ptBR = "Essa reforma só pode ser construída em depósitos (Pilhas, Armazéns e Tanques)."
 koKR = "이 개조는 재고창고(더미, 창고 및 탱크)에서만 건설할 수 있습니다."
 csCZ = "Tuto renovaci lze stavět pouze na skladovacích místech (Sklady, Úložiště a Nádrže)."
+viVN = "Việc cải tạo này chỉ có thể được xây dựng trên các kho dự trữ (Piles, Warehouses và Tanks)."
 
 ["LV.BL.RemoveEntranceWarning"]
 raw = "Remove entrance warning"
@@ -405,6 +431,7 @@ plPL = "Usuń ostrzeżenie o wejściu"
 ptBR = "Aviso de remoção de entrada"
 koKR = "입구 경고 제거"
 csCZ = "Odstranit varování při vstupu"
+viVN = "Xóa cảnh báo lối vào"
 
 ["LV.BL.DisableBalancer"]
 raw = "Disable Beavline Balancer"
@@ -420,6 +447,7 @@ plPL = "Wyłącz Balansator Beavline"
 ptBR = "Desativar Balancer Beavline"
 koKR = "비버라인 균형 조정기 비활성화"
 csCZ = "Deaktivovat Beavline Balancer"
+viVN = "Vô hiệu hóa Bộ cân bằng Beavline"
 
 ["LV.BL.ErrNeedOutput"]
 raw = "Can only be built on buildings with Beavline Output."
@@ -435,6 +463,7 @@ plPL = "Można budować tylko na budynkach z wyjściem Beavline."
 ptBR = "Pode ser construído apenas em edifícios com Saída Beavline."
 koKR = "비버라인 출력이 있는 건물 위에만 건설할 수 있습니다."
 csCZ = "Lze postavit pouze na budovách s výstupem Beavline."
+viVN = "Chỉ có thể được xây dựng trên các công trình có Beavline Output."
 
 [Name_BeavlineFragment]
 raw = "Beavline"
@@ -450,6 +479,7 @@ plPL = "Beavline"
 ptBR = "Beavline"
 koKR = "비버라인"
 csCZ = "Beavline"
+viVN = "Beavline"
 
 [Name_StockpileBalancerFragment]
 raw = "Beavline Stockpile"
@@ -465,3 +495,4 @@ plPL = "Zapas Beavline"
 ptBR = "Estoque Beavline"
 koKR = "비버라인 재고창고"
 csCZ = "Beavline Sklad"
+viVN = "Kho dự trữ Beavline"

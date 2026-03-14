@@ -15,6 +15,7 @@ plPL = "Naciśnij <i>Ctrl+Z</i>, aby cofnąć ostatnią zmianę"
 ptBR = "Pressione <i>Ctrl+Z</i> para desfazer a última alteração"
 koKR = "<i>Ctrl+Z</i>를 눌러 마지막 변경 사항을 취소합니다"
 csCZ = "Stiskněte <i>Ctrl+Z</i> pro vrácení poslední změny"
+viVN = "Nhấn <i>Ctrl+Z</i> để hoàn tác thay đổi cuối cùng"
 
 ["IgorZ.CustomTools.FourTemplatesBlockObjectTool.ShiftDescriptionHint"]
 raw = "Hold <i>SHIFT</i>: {0}"
@@ -30,6 +31,7 @@ plPL = "Przytrzymaj <i>SHIFT</i>: {0}"
 ptBR = "Segure <i>SHIFT</i>: {0}"
 koKR = "<i>SHIFT</i>를 누르세요: {0}"
 csCZ = "Držte <i>SHIFT</i>: {0}"
+viVN = "Nhấn và giữ <i>SHIFT</i>: {0}"
 
 ["IgorZ.CustomTools.FourTemplatesBlockObjectTool.CtrlDescriptionHint"]
 raw = "Hold <i>CTRL</i>: {0}"
@@ -45,6 +47,7 @@ plPL = "Przytrzymaj <i>CTRL</i>: {0}"
 ptBR = "Segure <i>CTRL</i>: {0}"
 koKR = "<i>CTRL</i>를 누르세요: {0}"
 csCZ = "Držte <i>CTRL</i>: {0}"
+viVN = "Giữ <i>CTRL</i>: {0}"
 
 ["IgorZ.CustomTools.FourTemplatesBlockObjectTool.AltDescriptionHint"]
 raw = "Hold <i>ALT</i>: {0}"
@@ -60,6 +63,7 @@ plPL = "Przytrzymaj <i>ALT</i>: {0}"
 ptBR = "Segure <i>ALT</i>: {0}"
 koKR = "ALT를 누르세요: {0}"
 csCZ = "Držte <i>ALT</i>: {0}"
+viVN = "Giữ <i>ALT</i>: {0}"
 
 ["IgorZ.CustomTools.ToolGroup.Main.DisplayName"]
 raw = "Tools"
@@ -75,6 +79,7 @@ plPL = "Narzędzia"
 ptBR = "Ferramentas"
 koKR = "도구"
 csCZ = "Nástroje"
+viVN = "Công cụ"
 
 ["IgorZ.CustomTools.LeveePlusTool.Title"]
 raw = "Levee or Dam"
@@ -90,6 +95,7 @@ plPL = "Tam lub Zapora"
 ptBR = "Leito ou Barragem"
 koKR = "제방 또는 댐"
 csCZ = "Zídka nebo přehrada"
+viVN = "Đê hoặc Đập"
 
 ["IgorZ.CustomTools.LockSelectTool.DescriptionHint"]
 raw = "Hold <i>SHIFT</i> to select items of one type only."
@@ -105,6 +111,7 @@ plPL = "Przytrzymaj <i>SHIFT</i>, aby wybrać tylko przedmioty jednego typu."
 ptBR = "Mantenha <i>SHIFT</i> pressionado para selecionar itens de um único tipo."
 koKR = "<i>SHIFT</i> 키를 누르고 있으면 한 종류의 아이템만 선택할 수 있습니다."
 csCZ = "Držte <i>SHIFT</i>, abyste vybírali pouze položky jednoho typu."
+viVN = "Giữ <i>SHIFT</i> để chỉ chọn các mục thuộc một loại."
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingNObjects"]
 raw = "Selecting: {0} (x{1})"
@@ -120,6 +127,7 @@ plPL = "Wybieranie: {0} (x{1})"
 ptBR = "Selecionando: {0} (x{1})"
 koKR = "선택 중: {0} (x{1})"
 csCZ = "Výběr: {0} (x{1})"
+viVN = "Đang chọn: {0} (x{1})"
 
 ["IgorZ.CustomTools.LockSelectTool.SelectingObject"]
 raw = "Selecting: {0}"
@@ -135,6 +143,7 @@ plPL = "Wybieranie: {0}"
 ptBR = "Selecionando: {0}"
 koKR = "선택 중: {0}"
 csCZ = " Výběr: {0}"
+viVN = "Đang chọn: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartObjectSelectingPrompt"]
 raw = "Click to start selecting: {0}"
@@ -150,6 +159,7 @@ plPL = "Kliknij, aby rozpocząć wybieranie: {0}"
 ptBR = " clique para começar a selecionar: {0}"
 koKR = "선택을 시작하려면 클릭하세요: {0}"
 csCZ = "Klikněte pro zahájení výběru: {0}"
+viVN = "Nhấp để bắt đầu chọn: {0}"
 
 ["IgorZ.CustomTools.LockSelectTool.StartSelectingPrompt"]
 raw = "Point to an entity and click to start selecting"
@@ -165,6 +175,7 @@ plPL = "Wskaź na obiekt i kliknij, aby rozpocząć wybieranie"
 ptBR = "Apontar para uma entidade e clicar para começar a selecionar"
 koKR = "엔티티를 가리키고 클릭하여 선택을 시작하세요"
 csCZ = "NamTargethe entity a klikněte pro začátek výběru"
+viVN = "Chỉ vào một thực thể và nhấp chuột để bắt đầu chọn"
 
 ["IgorZ.CustomTools.MultiTemplateBlockObjectTool.TemplateIsUnlocked"]
 raw = "Building '{0}' is not yet available"
@@ -180,6 +191,7 @@ plPL = "Budynek '{0}' nie jest jeszcze dostępny"
 ptBR = "A construção '{0}' ainda não está disponível."
 koKR = "'{0}' 건물은 아직 사용 가능하지 않습니다."
 csCZ = "Budova '{0}' zatím není k dispozici."
+viVN = "Xây dựng '{0}' hiện chưa khả dụng"
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Description"]
 raw = "Immediately finishes the selected constructables."
@@ -195,6 +207,7 @@ plPL = "Natychmiast kończy wybrane budowle."
 ptBR = "Finaliza imediatamente os construtores selecionados."
 koKR = "선택한 건축물을 즉시 완료합니다."
 csCZ = "Okamžitě dokončí vybrané stavby."
+viVN = "Hoàn tất ngay lập tức các công trình được chọn."
 
 ["IgorZ.CustomTools.DebugFinishNowTool.Title"]
 raw = "Finish now debug tool"
@@ -210,6 +223,7 @@ plPL = "Narzędzie do debugowania - zakończ teraz"
 ptBR = "Ferramenta de depuração finalizar agora"
 koKR = "지금 디버그 도구 완료"
 csCZ = "Nástroj pro okamžité dokončení ladění"
+viVN = "Hoàn tất công cụ gỡ lỗi ngay bây giờ"
 
 ["IgorZ.CustomTools.PathPlusTool.Title"]
 raw = "Path+"
@@ -225,6 +239,7 @@ plPL = "Ścieżka+"
 ptBR = "Path+"
 koKR = "경로+"
 csCZ = "Path+"
+viVN = "Đường đi+"
 
 ["IgorZ.CustomTools.PauseTool.Description"]
 raw = "Use this tool to pause buildings and construction sites."
@@ -240,6 +255,7 @@ plPL = "Użyj tego narzędzia, aby wstrzymać budynki i miejsca budowy."
 ptBR = "Use esta ferramenta para pausar edifícios e canteiros de obras."
 koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지합니다."
 csCZ = "Použijte tento nástroj k pozastavení budov a stavebních míst."
+viVN = "Sử dụng công cụ này để tạm dừng các tòa nhà và các công trường xây dựng."
 
 ["IgorZ.CustomTools.PauseTool.Title"]
 raw = "Pause buildings"
@@ -255,6 +271,7 @@ plPL = "Zatrzymaj budynki"
 ptBR = "Pausar construções"
 koKR = "건물 일시 정지"
 csCZ = "Pausovat budovy"
+viVN = "Tạm dừng các công trình"
 
 ["IgorZ.CustomTools.PlatformPlusTool.Title"]
 raw = "Adjustable Platform"
@@ -270,6 +287,7 @@ plPL = "Regulowana platforma"
 ptBR = "Plataforma Ajustável"
 koKR = "조정 가능한 플랫폼"
 csCZ = "Regulovatelná plošina"
+viVN = "Nền tảng có thể điều chỉnh"
 
 ["IgorZ.CustomTools.ResumeTool.Description"]
 raw = "Use this tool to unpause buildings and construction sites."
@@ -285,6 +303,7 @@ plPL = "Użyj tego narzędzia, aby wznowić budynki i place budowy."
 ptBR = "Use esta ferramenta para reativar edifícios e canteiros de obras."
 koKR = "이 도구를 사용하여 건물과 건설 현장을 일시 중지 해제하세요."
 csCZ = "Použijte tento nástroj k obnovení činnosti budov a stavebních míst."
+viVN = "Sử dụng công cụ này để bỏ tạm dừng các tòa nhà và công trình xây dựng."
 
 ["IgorZ.CustomTools.ResumeTool.Title"]
 raw = "Unpause buildings"
@@ -300,6 +319,7 @@ plPL = "Wznów budynki"
 ptBR = "Reativar construções"
 koKR = "건물 다시 시작하기"
 csCZ = "Obnovit budovy"
+viVN = "Tiếp tục các công trình"
 
 ["IgorZ.CustomTools.KeyBindingGroup"]
 raw = "CustomTools Mod"
@@ -315,6 +335,7 @@ plPL = "Mod Narzędzi Niestandardowych"
 ptBR = "Mod Ferramentas Personalizadas"
 koKR = "사용자 도구 모드"
 csCZ = "Mod CustomTools"
+viVN = "Mod Công Cụ Tùy Chỉnh"
 
 ["="]
 raw = "="

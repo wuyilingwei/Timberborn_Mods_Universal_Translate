@@ -11,6 +11,7 @@ plPL = "Umiarkowany"
 ptBR = "Temperado"
 koKR = "온대"
 csCZ = "Mírné"
+viVN = "Ôn đới"
 
 ["jeferson90.progressivedifficulty.settings.header.hazardous"]
 raw = "Hazardous"
@@ -25,6 +26,7 @@ plPL = "Zagrożony"
 ptBR = "Perigoso"
 koKR = "위험한"
 csCZ = "Nezdravé"
+viVN = "Nguy hiểm"
 
 ["jeferson90.progressivedifficulty.settings.header.brutal"]
 raw = "Brutal"
@@ -39,6 +41,7 @@ plPL = "Brutalny"
 ptBR = "Brutal"
 koKR = "사악한"
 csCZ = "Brutální"
+viVN = "Khắc nghiệt"
 
 ["jeferson90.progressivedifficulty.settings.hazardous_minimal_coeficient"]
 raw = "Minimal Multiplier"
@@ -53,6 +56,7 @@ plPL = "Minimalny Współczynnik"
 ptBR = "Multiplicador Mínimo"
 koKR = "최소 배율"
 csCZ = "Minimální násobitel"
+viVN = "Hệ số nhân tối thiểu"
 
 ["jeferson90.progressivedifficulty.settings.hazardous_maximum_coeficient"]
 raw = "Maximum Multiplier"
@@ -67,6 +71,7 @@ plPL = " Maksymalny Mnożnik"
 ptBR = "Multiplicador Máximo"
 koKR = "최대 배수자"
 csCZ = "Maximální násobitel"
+viVN = "Hệ số nhân tối đa"
 
 ["jeferson90.progressivedifficulty.settings.brutal_cycle_enable"]
 raw = "Enable Brutal Cycle"
@@ -81,6 +86,7 @@ plPL = "Włącz Brutalny Cykl"
 ptBR = "Ativar Ciclo Brutal"
 koKR = "잔인한 사이클 활성화"
 csCZ = "Povolit brutální cyklus"
+viVN = "Bật Chu kỳ Khắc nghiệt"
 
 ["jeferson90.progressivedifficulty.settings.brutal_cycle_enable_tooltip"]
 raw = "Brutal Cycle happens one time at any random hazardous cycle inside the range established"
@@ -95,6 +101,7 @@ plPL = "Brutalny cykl zdarza się raz w dowolnym losowym niebezpiecznym cyklu w 
 ptBR = "Um Ciclo Brutal acontece uma vez em qualquer ciclo perigoso aleatório dentro do intervalo estabelecido."
 koKR = "브루탈 사이클은 설정된 범위 내의 임의의 위험 주기에서 한 번 발생합니다."
 csCZ = "Brutální cyklus se odehrává jednou během jakéhokoliv náhodného nebezpečného cyklu v rámci stanoveného rozsahu."
+viVN = "Chu kỳ khắc nghiệt chỉ xảy ra một lần tại bất kỳ chu kỳ nguy hiểm ngẫu nhiên nào nằm trong phạm vi đã được thiết lập"
 
 ["jeferson90.progressivedifficulty.settings.brutal_cycle_range"]
 raw = "Range"
@@ -109,6 +116,7 @@ plPL = "Zakres"
 ptBR = "Amplitude"
 koKR = "범위"
 csCZ = "Rozsah"
+viVN = "Phạm vi"
 
 ["jeferson90.progressivedifficulty.settings.brutal_cycle_range_tooltip"]
 raw = "Between this range, a Brutal Cycle is guaranteed to happen.\nFor example:\nfor a value of 10, a Brutal Cycle is guaranteed to occurs after cycle 9\nSo between Cycle 10 and 19 it will occur one time, between Cycle 20 and 29 one more time and so on\n---\nfor a value of 13, a Brutal Cycle is guaranteed to occurs after cycle 12\nSo between Cycle 13 and 25 it will occur one time, between Cycle 26 and 39 one more time and so on"
@@ -123,6 +131,7 @@ plPL = "W tym zakresie gwarantowane jest wystąpienie Brutalnego Cyklu.\nNa przy
 ptBR = "Entre esse intervalo, um Ciclo Brutal é garantido.\nPor exemplo:\npara um valor de 10, um Ciclo Brutal é garantido após o ciclo 9\nAssim, entre o Ciclo 10 e 19 ocorrerá uma vez, entre o Ciclo 20 e 29 mais uma vez e assim por diante\n---\npara um valor de 13, um Ciclo Brutal é garantido após o ciclo 12\nAssim, entre o Ciclo 13 e 25 ocorrerá uma vez, entre o Ciclo 26 e 39 mais uma vez e assim por diante"
 koKR = "이 범위 내에서 잔인한 주기가 발생하는 것이 보장됩니다.\n예를 들어:\n값이 10일 경우, 잔인한 주기는 9 주기 후에 발생하는 것이 보장됩니다.\n따라서 주기 10과 19 사이에는 한 번 발생하고, 주기 20과 29 사이에는 한 번 더 발생하며 계속해서 반복됩니다.\n---\n값이 13일 경우, 잔인한 주기는 12 주기 후에 발생하는 것이 보장됩니다.\n따라서 주기 13과 25 사이에는 한 번 발생하고, 주기 26과 39 사이에는 한 번 더 발생하며 계속해서 반복됩니다."
 csCZ = "Mezi tímto rozmezím je zaručeno, že dojde k Brutálnímu cyklu.\nNapříklad:\npro hodnotu 10 je zaručeno, že Brutální cyklus nastane po cyklu 9\nTakže mezi cyklem 10 a 19 dojde k jednomu, mezi cyklem 20 a 29 k dalšímu a tak dále\n---\npro hodnotu 13 je zaručeno, že Brutální cyklus nastane po cyklu 12\nTakže mezi cyklem 13 a 25 dojde k jednomu, mezi cyklem 26 a 39 k dalšímu a tak dále"
+viVN = "Trong phạm vi này, một chu kỳ tàn bạo được đảm bảo xảy ra.\nVí dụ:\nđối với giá trị 10, một chu kỳ tàn bạo được đảm bảo xảy ra sau chu kỳ 9\nVì vậy giữa chu kỳ 10 và 19 nó sẽ xảy ra một lần, giữa chu kỳ 20 và 29 thêm một lần nữa và cứ như vậy\n---\nđối với giá trị 13, một chu kỳ tàn bạo được đảm bảo xảy ra sau chu kỳ 12\nVì vậy giữa chu kỳ 13 và 25 nó sẽ xảy ra một lần, giữa chu kỳ 26 và 39 thêm một lần nữa và cứ như vậy"
 
 ["jeferson90.progressivedifficulty.settings.brutal_coeficient"]
 raw = "Brutal Cycle Multiplier"
@@ -137,6 +146,7 @@ plPL = "Mnożnik Brutalnego Cyklu"
 ptBR = "Multiplicador de Ciclo Brutal"
 koKR = "잔인한 주기 배수기"
 csCZ = "Multiplikátor brutálního cyklu"
+viVN = "Hệ số chu kỳ khắc nghiệt"
 
 ["jeferson90.progressivedifficulty.settings.temperate_handicap"]
 raw = "Temperate equation delay in cycles"
@@ -151,6 +161,7 @@ plPL = "Opóźnienie równania strefy umiarkowanej w cyklach"
 ptBR = "Atalho da equação temperada em ciclos"
 koKR = "온대 방정식 사이클 지연"
 csCZ = "Zpoždění mírné ekvation v cyklech"
+viVN = "Độ trễ của phương trình ôn hòa theo chu kỳ"
 
 ["jeferson90.progressivedifficulty.settings.temperate_minimal_coeficient"]
 raw = "Minimal Multiplier"
@@ -165,6 +176,7 @@ plPL = "Minimalny mnożnik"
 ptBR = "Múltiplo Mínimo"
 koKR = "최소 배수"
 csCZ = "Minimální násobitel"
+viVN = "Hệ số nhân tối thiểu"
 
 ["jeferson90.progressivedifficulty.settings.temperate_maximum_coeficient"]
 raw = "Maximum Multiplier"
@@ -179,6 +191,7 @@ plPL = " Maksymalny Mnożnik"
 ptBR = "Multiplicador Máximo"
 koKR = "최대 배수"
 csCZ = "Maximální násobitel"
+viVN = "Hệ số nhân tối đa"
 
 ["jeferson90.progressivedifficulty.settings.temperate_min_max_coeficient_tooltip"]
 raw = "The temperate cycle duration is now proportional to the next hazardous cycle duration."
@@ -193,6 +206,7 @@ plPL = "Czas trwania cyklu umiarkowanego jest teraz proporcjonalny do czasu trwa
 ptBR = "A duração do ciclo temperado agora é proporcional à duração do próximo ciclo perigoso."
 koKR = "온화한 사이클 지속시간은 이제 다음 위험한 사이클 지속시간에 비례합니다."
 csCZ = "Doba trvání mírného cyklu je nyní úměrná době trvání následujícího nebezpečného cyklu."
+viVN = "Thời lượng chu kỳ ôn hòa hiện tại tỷ lệ thuận với thời lượng chu kỳ nguy hiểm tiếp theo."
 
 ["jeferson90.progressivedifficulty.settings.temperate_min_days"]
 raw = "Minimum days"
@@ -207,6 +221,7 @@ plPL = "Minimalna liczba dni"
 ptBR = "Dias mínimos"
 koKR = "최소 일수"
 csCZ = "Minimální dny"
+viVN = "Số ngày tối thiểu"
 
 ["jeferson90.progressivedifficulty.settings.temperate_min_days_tooltip"]
 raw = "Minimum days of temperate weather"
@@ -221,6 +236,7 @@ plPL = "Minimalna liczba dni z umiarkowaną pogodą"
 ptBR = "Quantidade mínima de dias de clima temperado"
 koKR = "온화한 날씨의 최소 일수"
 csCZ = "Minimální počet dní mírného počasí"
+viVN = "Số ngày tối thiểu của thời tiết ôn hòa"
 
 ["jeferson90.progressivedifficulty.settings.badtidechance"]
 raw = "Badtide chance"
@@ -235,6 +251,7 @@ plPL = "Szansa na złotą falę"
 ptBR = "Chance de maré ruim"
 koKR = "나쁜 조수 확률"
 csCZ = "Šance na špatný příliv"
+viVN = "Xác suất thủy triều xấu"
 
 ["jeferson90.progressivedifficulty.settings.jfloodchance"]
 raw = "Flood chance"
@@ -249,6 +266,7 @@ plPL = "Szansa na powódź"
 ptBR = "Chance de inundação"
 koKR = "홍수 가능성"
 csCZ = "Šance na záplavy"
+viVN = "Xác suất lũ lụt"
 
 ["jeferson90.progressivedifficulty.settings.badtidehandicap"]
 raw = "Badtide handicap"
@@ -263,6 +281,7 @@ plPL = "Utrudnienie w złej fali"
 ptBR = "Desvantagem de maré baixa"
 koKR = "나쁜 조수 핸디캡"
 csCZ = "Badtide handicap"
+viVN = "Hạn chế thủy triều xấu"
 
 ["jeferson90.progressivedifficulty.settings.jfloodhandicap"]
 raw = "Flood handicap"
@@ -277,6 +296,7 @@ plPL = "Utrudnienie powodziowe"
 ptBR = "Desvantagem de inundação"
 koKR = "홍수 핸디캡"
 csCZ = "Znevýhodnění při povodni"
+viVN = "Khó khăn do lũ lụt"
 
 ["jeferson90.progressivedifficulty.settings.header.main"]
 raw = "Settings"
@@ -291,6 +311,7 @@ plPL = "Ustawienia"
 ptBR = "Configurações"
 koKR = "설정"
 csCZ = "Nastavení"
+viVN = "Cài đặt"
 
 ["Weather.Flood"]
 raw = "Flood"
@@ -305,6 +326,7 @@ plPL = "Powódź"
 ptBR = "Inundação"
 koKR = "홍수"
 csCZ = "Záplava"
+viVN = "Lũ lụt"
 
 ["Weather.Notification.FloodApproaching"]
 raw = "Flood approaching"
@@ -319,6 +341,7 @@ plPL = "Woda powodziowa zbliża się"
 ptBR = "Inundação se aproximando"
 koKR = "홍수가 다가오고 있습니다"
 csCZ = "Blíží se povodeň"
+viVN = "Lũ lụt đang đến gần"
 
 ["Weather.Notification.FloodInProgress"]
 raw = "Flood in progress"
@@ -333,6 +356,7 @@ plPL = "W trakcie powodzi"
 ptBR = "Inundação em andamento"
 koKR = "홍수 발생 중"
 csCZ = "Načítání povodně"
+viVN = "Lũ lụt đang diễn ra"
 
 ["Weather.FloodStartedNotification"]
 raw = "Flood started"
@@ -347,6 +371,7 @@ plPL = "Woda zaczęła występować"
 ptBR = "Inundação iniciada"
 koKR = "홍수 시작"
 csCZ = "Povodeň začala"
+viVN = "Lũ đã bắt đầu"
 
 ["Weather.FloodEndedNotification"]
 raw = "Flood ended"
@@ -361,6 +386,7 @@ plPL = "Powódź zakończona"
 ptBR = "Inundação encerrada"
 koKR = "홍수 종료"
 csCZ = "„Povodeň skončila“"
+viVN = "Lũ lụt đã kết thúc."
 
 ["jeferson90.progressivedifficulty.settings.other"]
 raw = "Others"
@@ -375,6 +401,7 @@ plPL = "Pozostałe"
 ptBR = "Outros"
 koKR = "기타"
 csCZ = "„Ostatní“"
+viVN = "Khác"
 
 ["jeferson90.progressivedifficulty.settings.evaporation_framework_enable_setting"]
 raw = "Enable Custom Evaporation"
@@ -389,6 +416,7 @@ plPL = "Włącz niestandardowe parowanie"
 ptBR = "Ativar Evaporação Personalizada"
 koKR = "사용자 지정 증발 활성화"
 csCZ = "Povolit vlastní odpařování"
+viVN = "Bật tùy chỉnh bay hơi"
 
 ["jeferson90.progressivedifficulty.settings.badtidechance_tooltip"]
 raw = "Chance to hazardous cycle to happen, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% and so on.\nRecommended to keep it very low.\n\nIf Badtide chance is 0.5 (50%) and Flood chance is 0.5 (50%), then there will be no Drought Weather\nIf Badtide chance is 0.1 (10%) and Flood chance is 0.2 (20%), there there will be a 70% chance of Drought Weather"
@@ -403,6 +431,7 @@ plPL = "Szansa na wystąpienie niebezpiecznego cyklu, 0.1 = 10%, 0.15 = 15%... 0
 ptBR = "Chance de um ciclo perigoso acontecer, 0,1 = 10%, 0,15 = 15%.. 0,5 = 50% e assim por diante.  \nRecomendado manter muito baixo.  \n\nSe a chance de maré alta é 0,5 (50%) e a chance de inundação é 0,5 (50%), então não haverá Clima de Seca.  \nSe a chance de maré alta é 0,1 (10%) e a chance de inundação é 0,2 (20%), haverá 70% de chance de Clima de Seca."
 koKR = "위험한 주기가 발생할 확률, 0.1 = 10%, 0.15 = 15%, 0.5 = 50% 등으로 설정하세요. 매우 낮게 유지하는 것이 좋습니다.\n\nBadtide 확률이 0.5 (50%)이고 Flood 확률이 0.5 (50%)인 경우, 가뭄 날씨가 발생하지 않습니다.  \nBadtide 확률이 0.1 (10%)이고 Flood 확률이 0.2 (20%)인 경우, 가뭄 날씨가 발생할 확률은 70%입니다."
 csCZ = "Šance na vznik nebezpečného cyklu, 0.1 = 10 %, 0.15 = 15 %.. 0.5 = 50 % a tak dále. Doporučuje se udržovat ji velmi nízkou.\n\nPokud je šance na nebezpečný příliv 0.5 (50 %) a šance na povodeň 0.5 (50 %), potom nebude žádné období sucha. Pokud je šance na nebezpečný příliv 0.1 (10 %) a šance na povodeň 0.2 (20 %), pak bude 70% šance na období sucha."
+viVN = "Khả năng chu kỳ nguy hiểm xảy ra, 0.1 = 10%, 0.15 = 15%.. 0.5 = 50% và tiếp tục.\nKhuyến nghị nên giữ ở mức rất thấp.\n\nNếu Badtide xác suất là 0.5 (50%) và Flood xác suất là 0.5 (50%), thì sẽ không có thời tiết hạn hán\nNếu Badtide xác suất là 0.1 (10%) và Flood xác suất là 0.2 (20%), sẽ có 70% xác suất của thời tiết hạn hán"
 
 ["jeferson90.progressivedifficulty.settings.header.jevaporation"]
 raw = "Evaporation+Seepage"
@@ -417,6 +446,7 @@ plPL = "Parowanie+Przesączanie"
 ptBR = "Evaporação+Filtração"
 koKR = "증발+침투"
 csCZ = "Evaporace+Prosakování"
+viVN = "Bốc hơi+Thấm nước"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.enable"]
 raw = "Enable"
@@ -431,6 +461,7 @@ plPL = "Włącz"
 ptBR = "Ativar"
 koKR = "활성화"
 csCZ = "Povolit"
+viVN = "Bật"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.enable_tooltip"]
 raw = "Enable evaporation and seepage"
@@ -445,6 +476,7 @@ plPL = "Włącz ewaporację i przesiąkanie"
 ptBR = "Ativar evaporação e percolação"
 koKR = "증발 및 침투 활성화"
 csCZ = "Povolit vypařování a prosakování"
+viVN = "Bật bay hơi và thấm nước"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.airevaporation"]
 raw = "Air Evaporation Multiplier"
@@ -459,6 +491,7 @@ plPL = "Pomnożnik parowania powietrza"
 ptBR = "Multiplicador de Evaporação do Ar"
 koKR = "공기 증발 배율"
 csCZ = "Multiplikátor odpařování vzduchu"
+viVN = "Hệ số nhân bay hơi không khí"
 
 ["jeferson90.progressivedifficulty.settings.jevaporation.seepage"]
 raw = "Seepage Multiplier"
@@ -473,6 +506,7 @@ plPL = "Multiplikator Wsiąkania"
 ptBR = "Multiplicador de Vazamento"
 koKR = "침투 배수 배율"
 csCZ = "Multiplikátor prosakování"
+viVN = "Hệ số thấm nước"
 
 ["jeferson90.progressivedifficulty.settings.header.general"]
 raw = "General"
@@ -487,6 +521,7 @@ plPL = "Ogólne"
 ptBR = "Geral"
 koKR = "일반"
 csCZ = "Obecné"
+viVN = "Chung"
 
 ["jeferson90.progressivedifficulty.settings.header.randomizer"]
 raw = "Weather Randomizer"
@@ -501,3 +536,4 @@ plPL = "Losowy Układ Pogody"
 ptBR = "Randomizador de Clima"
 koKR = "날씨 랜덤 생성기"
 csCZ = "Randomizátor počasí"
+viVN = "Ngẫu nhiên thời tiết"

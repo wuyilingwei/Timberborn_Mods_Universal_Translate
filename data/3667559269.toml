@@ -15,6 +15,7 @@ plPL = "Plany Budowlane"
 ptBR = "Projetos de Construção"
 koKR = "빌딩 청사진"
 csCZ = "Stavební plány"
+viVN = "Bản vẽ xây dựng"
 
 ["LV.BB.BlueprintCreate"]
 raw = "Create Building Blueprint"
@@ -30,6 +31,7 @@ plPL = "Utwórz plan budynku"
 ptBR = "Criar Planta de Edifício"
 koKR = "건물 청사진 만들기"
 csCZ = "Vytvořit plán budovy"
+viVN = "Tạo bản thiết kế xây dựng"
 
 ["LV.BB.BlueprintCreateDesc"]
 raw = "Create a new building blueprint from the selected area"
@@ -45,6 +47,7 @@ plPL = "Utwórz nowy plan budynku z wybranego obszaru"
 ptBR = "Crie um novo projeto de construção a partir da área selecionada"
 koKR = "선택한 영역에서 새로운 건물 청사진을 만듭니다"
 csCZ = "Vytvořte nový stavební plán z vybrané oblasti"
+viVN = "Tạo một bản thiết kế công trình mới từ khu vực được chọn."
 
 ["LV.BB.BlueprintCreateTip"]
 raw = "Hold the button to select an area. A building must be enclosed within the area to be included in the blueprint."
@@ -60,6 +63,7 @@ plPL = "Przytrzymaj przycisk, aby zaznaczyć obszar. Budynek musi być zamknięt
 ptBR = "Segure o botão para selecionar uma área. Um edifício deve estar encerrado dentro da área para ser incluído no projeto."
 koKR = "버튼을 눌러 영역을 선택하세요. 블루프린트에 포함되려면 건물이 해당 영역 내에 있어야 합니다."
 csCZ = "Držte tlačítko, aby jste vybrali oblast. Budova musí být uzavřena v této oblasti, aby byla zahrnuta do plánu."
+viVN = "Giữ nút để chọn một khu vực. Một tòa nhà phải nằm hoàn toàn trong khu vực để được đưa vào bản thiết kế."
 
 ["LV.BB.BlueprintCreateCopySettings"]
 raw = "Copy buildings' settings: {0}"
@@ -75,6 +79,7 @@ plPL = "Kopiuj ustawienia budynków: {0}"
 ptBR = "Copia as configurações dos edifícios: {0}"
 koKR = "건물 설정 복사: {0}"
 csCZ = "Kopírovat nastavení budov: {0}"
+viVN = "Sao chép cài đặt của các tòa nhà: {0}"
 
 ["LV.BB.BlueprintCreateArea"]
 raw = "Area: {0} × {1}"
@@ -90,6 +95,7 @@ plPL = "Obszar: {0} × {1}"
 ptBR = "Área: {0} × {1}"
 koKR = "영역: {0} × {1}"
 csCZ = "Oblast: {0} × {1}"
+viVN = "Khu vực: {0} × {1}"
 
 ["LV.BB.BlueprintCreateBuildings"]
 raw = "Buildings ({0}):"
@@ -105,6 +111,7 @@ plPL = "Budynek ({0}):"
 ptBR = "Edifícios ({0}):"
 koKR = "건물 ({0}):"
 csCZ = "Budovy ({0}):"
+viVN = "Các công trình ({0}):"
 
 ["LV.BB.BlueprintCreateCosts"]
 raw = "Costs:"
@@ -120,6 +127,7 @@ plPL = "Koszty:"
 ptBR = "Custos:"
 koKR = "비용:"
 csCZ = "Náklady:"
+viVN = "Chi phí:"
 
 ["LV.BB.BlueprintBuildTool"]
 raw = "Build Blueprint"
@@ -135,6 +143,7 @@ plPL = "Stwórz plan"
 ptBR = "Construir Projeto"
 koKR = "청사진 만들기"
 csCZ = "Vytvořit plán"
+viVN = "Xây dựng bản thiết kế"
 
 ["LV.BB.BlueprintBuildToolDesc"]
 raw = "Use a building blueprint to place buildings in the world"
@@ -150,6 +159,7 @@ plPL = "Użyj planu budynku, aby umieścić budynki w świecie."
 ptBR = "Use um projeto de construção para colocar edifícios no mundo"
 koKR = "건축 청사진을 사용하여 세계에 건물을 배치합니다."
 csCZ = "Použijte stavební plán k umístění budov ve světě"
+viVN = "Sử dụng một bản thiết kế xây dựng để đặt các công trình trong thế giới"
 
 ["LV.BB.BlueprintBuildToolRotateClockwise"]
 raw = "Rotate blueprint clockwise. Current: {0}"
@@ -165,6 +175,7 @@ plPL = "Obróć schemat w prawo. Obecny: {0}"
 ptBR = "Gire o projeto no sentido horário. Atual: {0}"
 koKR = "청사진을 시계 방향으로 회전합니다. 현재: {0}"
 csCZ = "Otáčet plán ve směru hodinových ručiček. Aktuální: {0}"
+viVN = "Xoay bản thiết kế theo chiều kim đồng hồ. Hiện tại: {0}"
 
 ["LV.BB.BlueprintBuildToolRotateCounterclockwise"]
 raw = "Rotate blueprint counterclockwise. Current: {0}"
@@ -180,6 +191,7 @@ plPL = "Obróć schemat w lewo. Aktualnie: {0}"
 ptBR = "Gire o projeto no sentido anti-horário. Atual: {0}"
 koKR = "청사진을 반시계 방향으로 회전합니다. 현재: {0}"
 csCZ = "Otáčení plánu proti směru hodinových ručiček. Aktuální: {0}"
+viVN = "Xoay bản thiết kế ngược chiều kim đồng hồ. Hiện tại: {0}"
 
 ["LV.BB.BlueprintBuildToolFlip"]
 raw = "Flip blueprint: {0}"
@@ -195,6 +207,7 @@ plPL = "Obróć schemat: {0}"
 ptBR = "Virar planta: {0}"
 koKR = "청사진 뒤집기: {0}"
 csCZ = "Flipni plán: {0}"
+viVN = "Lật bản thiết kế: {0}"
 
 ["LV.BB.BlueprintBuildToolPartial"]
 raw = "Hold to place valid buildings and ignore invalid ones"
@@ -210,6 +223,7 @@ plPL = "Przytrzymaj, aby umieścić ważne budynki i zignorować nieważne"
 ptBR = "Mantenha para colocar edifícios válidos e ignorar os inválidos"
 koKR = "유효한 건물을 배치하려면 누르고, 유효하지 않은 건물은 무시하세요"
 csCZ = "Držte pro umístění platných budov a ignorujte neplatné."
+viVN = "Giữ để đặt các tòa nhà hợp lệ và bỏ qua các tòa nhà không hợp lệ"
 
 ["LV.BB.BlueprintBuildToolIgnoreSettings"]
 raw = "Ignore buildings' settings in the blueprint: {0}"
@@ -225,6 +239,7 @@ plPL = "Zignoruj ustawienia budynków w schemacie: {0}"
 ptBR = "Ignorar configurações de edifícios no projeto: {0}"
 koKR = "청사진에서 건물 설정 무시: {0}"
 csCZ = "Ignorovat nastavení budov v plánu: {0}"
+viVN = "Bỏ qua thiết lập của các tòa nhà trong bản thiết kế: {0}"
 
 ["LV.BB.BlueprintBuildToolNudge"]
 raw = "Nudge blueprint with camera keys: {0}"
@@ -240,6 +255,7 @@ plPL = "Przesuń plan budowy klawiszami kamery: {0}"
 ptBR = "Desloque o blueprint com as teclas da câmera: {0}"
 koKR = "카메라 키로 블루프린트를 미세 조정: {0}"
 csCZ = "Posuňte plán pomocí kláves pro kameru: {0}"
+viVN = "Đẩy nhẹ bản thiết kế bằng phím camera: {0}"
 
 ["LV.BB.DemolishBlueprintTool"]
 raw = "Demolish Blueprint Buildings"
@@ -255,6 +271,7 @@ plPL = "Zniszcz budynki z planu"
 ptBR = "Demolir Edifícios de Planta"
 koKR = "청사진 건물 철거"
 csCZ = "Zbourat budovy z plánů"
+viVN = "Phá hủy các công trình từ bản thiết kế"
 
 ["LV.BB.DemolishBlueprintToolDesc"]
 raw = "Quickly demolish all buildings that were placed using a building blueprint"
@@ -270,6 +287,7 @@ plPL = " szybko zburzyć wszystkie budowle, które zostały postawione przy uży
 ptBR = "Demolir rapidamente todos os edifícios que foram colocados usando um projeto de construção."
 koKR = "건축 청사진을 사용하여 배치된 모든 건물을 신속하게 철거합니다."
 csCZ = "Rychle zničte všechny budovy, které byly umístěny pomocí stavebního plánu."
+viVN = "Phá dỡ nhanh tất cả các công trình được đặt bằng bản thiết kế xây dựng"
 
 ["LV.BB.DemolishConfirm"]
 raw = "Are you sure you want to demolish all {0} buildings?"
@@ -285,6 +303,7 @@ plPL = "Czy na pewno chcesz zburzyć wszystkie {0} budynki?"
 ptBR = "Você tem certeza de que deseja demolir todos os {0} edifícios?"
 koKR = "{0}개의 건물을 철거하시겠습니까?"
 csCZ = "Ovšem, chcete zbořit všechny {0} budovy?"
+viVN = "Bạn có chắc chắn muốn phá hủy tất cả {0} công trình không?"
 
 ["LV.BB.UnknownBuilding"]
 raw = "<RedHighlight>Unknown building: {0}</RedHighlight>"
@@ -300,6 +319,7 @@ plPL = "<RedHighlight>Nieznany budynek: {0}</RedHighlight>"
 ptBR = "<RedHighlight>Edifício desconhecido: {0}</RedHighlight>"
 koKR = "<RedHighlight>알 수 없는 건물: {0}</RedHighlight>"
 csCZ = "<RedHighlight>Neznámá budova: {0}</RedHighlight>"
+viVN = "<RedHighlight>Công trình không xác định: {0}</RedHighlight>"
 
 ["LV.BB.DefaultName"]
 raw = "Unnamed Blueprint"
@@ -315,6 +335,7 @@ plPL = "Nienazwana Chmura"
 ptBR = "Planta Não Nomeada"
 koKR = "이름 없는 청사진"
 csCZ = "Nepojmenovaný plán"
+viVN = "Bản thiết kế chưa đặt tên"
 
 ["LV.BB.InvalidName"]
 raw = "The blueprint name is invalid. It must be a valid filename (avoid special characters)."
@@ -330,6 +351,7 @@ plPL = "Nazwa planu jest nieprawidłowa. Musi być prawidłową nazwą pliku (un
 ptBR = "O nome do projeto é inválido. Ele deve ser um nome de arquivo válido (evite caracteres especiais)."
 koKR = "청사진 이름이 잘못되었습니다. 유효한 파일 이름이어야 합니다(특수 문자를 피하십시오)."
 csCZ = "Název plánu je neplatný. Musí to být platný název souboru (vyhněte se speciálním znakům)."
+viVN = "Tên của bản thiết kế không hợp lệ. Nó phải là một tên tập tin hợp lệ (tránh các ký tự đặc biệt)."
 
 ["LV.BB.FileDuplicateWarning"]
 raw = "A blueprint with this name already exists.\n<RedHighlight>Do you want to overwrite it?</RedHighlight>"
@@ -345,6 +367,7 @@ plPL = "Blueprint o tej nazwie już istnieje. <RedHighlight>Czy chcesz go nadpis
 ptBR = "Um projeto com este nome já existe. <RedHighlight>Você deseja sobrescrevê-lo?</RedHighlight>"
 koKR = "이름이 같은 청사진이 이미 존재합니다.  \n<RedHighlight>덮어쓰시겠습니까?</RedHighlight>"
 csCZ = "Plán s tímto názvem již existuje. \n<RedHighlight>Chcete ho přepsat?</RedHighlight>"
+viVN = "Một bản thiết kế với tên này đã tồn tại.\n<RedHighlight>Bạn có muốn ghi đè lên nó không?</RedHighlight>"
 
 ["LV.BB.Save"]
 raw = "Save Blueprint"
@@ -360,6 +383,7 @@ plPL = "Zapisz schemat"
 ptBR = "Salvar Plano"
 koKR = "블루프린트 저장"
 csCZ = "Uložit plán"
+viVN = "Lưu Bản Thiết Kế"
 
 ["LV.BB.Reload"]
 raw = "Reload Blueprints"
@@ -375,6 +399,7 @@ plPL = "Załaduj plany"
 ptBR = "Recarregar Plantas"
 koKR = "청사진 다시 불러오기"
 csCZ = "Obnovit plány"
+viVN = "Tải lại Bản thiết kế"
 
 ["LV.BB.Browse"]
 raw = "Browse Blueprints"
@@ -390,6 +415,7 @@ plPL = "Przeglądaj Plany"
 ptBR = "Navegar por Plantas"
 koKR = "청사진 탐색"
 csCZ = "Prozkoumat plány"
+viVN = "Duyệt Bản Thiết Kế"
 
 ["LV.BB.SelectTitle"]
 raw = "Select Building Blueprint"
@@ -405,6 +431,7 @@ plPL = "Wybierz schemat budynku"
 ptBR = "Selecionar Projeto de Construção"
 koKR = "건물 청사진 선택"
 csCZ = "Vyberte stavební plán"
+viVN = "Chọn bản thiết kế xây dựng"
 
 ["LV.BB.SelectDesc"]
 raw = "Select a building blueprint to place in the world."
@@ -420,6 +447,7 @@ plPL = "Wybierz schemat budynku do umieszczenia w świecie."
 ptBR = "Selecione um projeto de construção para colocar no mundo."
 koKR = "세계에 배치할 건물 설계를 선택하세요."
 csCZ = "Vyberte plán budovy, který chcete umístit do světa."
+viVN = "Chọn một bản thiết kế xây dựng để đặt trong thế giới."
 
 ["LV.BB.Build"]
 raw = "Build"
@@ -435,6 +463,7 @@ plPL = "Zbuduj"
 ptBR = "Construir"
 koKR = "건설"
 csCZ = "Vybudovat"
+viVN = "Xây dựng"
 
 ["LV.BB.NoBlueprints"]
 raw = "No building blueprints available.\nCreate one using the Create Building Blueprint tool."
@@ -450,6 +479,7 @@ plPL = "Brak dostępnych planów budynków. Utwórz jeden za pomocą narzędzia 
 ptBR = "Não há plantas de construção disponíveis. Crie uma usando a ferramenta Criar Planta de Construção."
 koKR = "건물 청사진이 없습니다.  \n'건물 청사진 만들기' 도구를 사용하여 하나를 만드세요."
 csCZ = "Není k dispozici žádná stavební šablona. Vytvořte ji pomocí nástroje pro vytvoření stavební šablony."
+viVN = "Không có bản thiết kế xây dựng nào có sẵn.\nTạo một bản thiết kế bằng công cụ Tạo Bản Thiết Kế Xây Dựng."
 
 ["LV.BB.MissingBuildings"]
 raw = "Missing buildings: {0}"
@@ -465,6 +495,7 @@ plPL = "Brakujące budynki: {0}"
 ptBR = "Edifícios em falta: {0}"
 koKR = "누락된 건물: {0}"
 csCZ = "Chybějící budovy: {0}"
+viVN = "Các công trình còn thiếu: {0}"
 
 ["LV.BB.LockedBuildings"]
 raw = "Buildings not unlocked: {0}"
@@ -480,6 +511,7 @@ plPL = "Budynek nieodblokowany: {0}"
 ptBR = "Edifícios não desbloqueados: {0}"
 koKR = "잠금 해제되지 않은 건물: {0}"
 csCZ = "Budovy nejsou odemčeny: {0}"
+viVN = "Các công trình chưa mở khóa: {0}"
 
 ["LV.BB.UnlockBuildings"]
 raw = "Unlock required buildings"
@@ -495,6 +527,7 @@ plPL = "Odblokuj wymagane budynki"
 ptBR = "Desbloquear edifícios necessários"
 koKR = "필수 건물을 잠금 해제"
 csCZ = "Odemkněte potřebné budovy"
+viVN = "Mở khóa các công trình cần thiết"
 
 ["LV.BB.NotEnoughScience"]
 raw = "Not enough science to unlock required buildings"
@@ -510,6 +543,7 @@ plPL = "Nie ma wystarczającej ilości nauki, aby odblokować wymagane budynki"
 ptBR = "Não há ciência suficiente para desbloquear os edifícios necessários"
 koKR = "필요한 건물을 잠금 해제하기 위한 과학이 부족합니다"
 csCZ = "Není dostatek vědy k odemčení požadovaných budov"
+viVN = "Không đủ khoa học để mở khóa các công trình cần thiết."
 
 ["LV.BB.UnlockConfirm"]
 raw = "Unlocking the required buildings will cost {0} science. Do you want to proceed?"
@@ -525,6 +559,7 @@ plPL = "Otworzenie wymaganych budynków będzie kosztować {0} nauki. Czy chcesz
 ptBR = "Desbloquear os edifícios necessários custará {0} ciência. Você deseja continuar?"
 koKR = "필수 건물을 잠금 해제하는 데 {0} 과학이 소요됩니다. 진행하시겠습니까?"
 csCZ = "Odblokování požadovaných budov bude stát {0} vědy. Chcete pokračovat?"
+viVN = "Mở khóa các công trình cần thiết sẽ tốn {0} khoa học. Bạn có muốn tiếp tục không?"
 
 ["LV.BB.UploadWorkshop"]
 raw = "Upload to Workshop"
@@ -540,6 +575,7 @@ plPL = "Prześlij do Warsztatu"
 ptBR = "Enviar para a Oficina"
 koKR = "워크숍에 업로드"
 csCZ = "Nahrát do dílny"
+viVN = "Tải lên Workshop"
 
 ["LV.BB.BrowseWorkshop"]
 raw = "Browse Workshop"
@@ -555,6 +591,7 @@ plPL = "Przeglądaj Warsztat"
 ptBR = "Navegar na Oficina"
 koKR = "작업장 보기"
 csCZ = "Procházet dílnu"
+viVN = "Duyệt Workshop"
 
 ["LV.BB.ExistingId"]
 raw = "Existing ID:"
@@ -570,6 +607,7 @@ plPL = "Identyfikator istniejący:"
 ptBR = "ID existente:"
 koKR = "기존 ID:"
 csCZ = "Existující ID:"
+viVN = "ID hiện có:"
 
 ["LV.BB.ExistingIdDesc"]
 raw = "If you want to update an existing workshop entry, enter its ID here. Otherwise, leave default (blank or zero)."
@@ -585,6 +623,7 @@ plPL = "Jeśli chcesz zaktualizować istniejący wpis warsztatu, wprowadź tutaj
 ptBR = "Se você quiser atualizar uma entrada de oficina existente, insira seu ID aqui. Caso contrário, deixe o padrão (em branco ou zero)."
 koKR = "기존 작업장 항목을 업데이트하려면 여기에 ID를 입력하세요. 그렇지 않으면 기본값(비어 있거나 0)을 남겨두세요."
 csCZ = "Pokud chcete aktualizovat existující položku dílny, zadejte její ID sem. Jinak nechte výchozí hodnotu (prázdný nebo nula)."
+viVN = "Nếu bạn muốn cập nhật một mục nhập xưởng hiện có, hãy nhập ID của nó ở đây. Ngược lại, hãy để mặc định (trống hoặc bằng 0)."
 
 ["LV.BB.NudgeKey"]
 raw = "Nudge blueprint"
@@ -600,6 +639,7 @@ plPL = "Drobne przesunięcie planu"
 ptBR = "Ajustar planta"
 koKR = "블루프린트 미세 조정"
 csCZ = "Pošťouchnout plán"
+viVN = "Nhích bản thiết kế"
 
 ["LV.BB.NudgeMove"]
 raw = "Move blueprint:"
@@ -615,6 +655,7 @@ plPL = "Przenieś plan budowy:"
 ptBR = "Mover planta:"
 koKR = "설계도 이동:"
 csCZ = "Přesunout nákres:"
+viVN = "Di chuyển bản thiết kế:"
 
 ["LV.BB.NudgeVerticalMove"]
 raw = "Move blueprint vertically:"
@@ -630,6 +671,7 @@ plPL = "Przenieś plan w pionie:"
 ptBR = "Mover a planta verticalmente:"
 koKR = "설계도를 세로로 이동:"
 csCZ = "Přesunout nákres vertikálně:"
+viVN = "Di chuyển bản thiết kế theo chiều dọc:"
 
 ["LV.BB.Rename"]
 raw = "Rename:"
@@ -645,6 +687,7 @@ plPL = "Zmień nazwę:"
 ptBR = "Renomear:"
 koKR = "이름 바꾸기:"
 csCZ = "Přejmenovat:"
+viVN = "Đổi tên:"
 
 ["LV.BB.Delete"]
 raw = "Delete Blueprint"
@@ -660,6 +703,7 @@ plPL = "Usuń plan budowy"
 ptBR = "Excluir Projeto"
 koKR = "설계도 삭제"
 csCZ = "Odstranit plán"
+viVN = "Xóa Bản thiết kế"
 
 ["LV.BB.DeleteConfirm"]
 raw = "Are you sure you want to delete this blueprint? This action cannot be undone."
@@ -675,6 +719,7 @@ plPL = "Czy na pewno chcesz usunąć ten plan budowy? Ta operacja nie może zost
 ptBR = "Você tem certeza de que deseja excluir este plano? Esta ação não pode ser desfeita."
 koKR = "이 설계도를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
 csCZ = "Opravdu chcete smazat tento plán? Tuto akci nelze vzít zpět."
+viVN = "Bạn có chắc chắn muốn xóa bản thiết kế này không? Hành động này sẽ không thể hoàn tác."
 
 ["LV.BB.Untagged"]
 status = "normal"
@@ -690,6 +735,7 @@ plPL = "Bez tagu"
 ptBR = "Sem etiqueta"
 koKR = "태그 없음"
 csCZ = "Bez štítku"
+viVN = "Chưa gắn nhãn"
 
 ["LV.BB.Manage"]
 status = "normal"
@@ -705,6 +751,7 @@ plPL = "Zarządzaj planami"
 ptBR = "Gerenciar Planos"
 koKR = "설계도 관리"
 csCZ = "Spravovat plány"
+viVN = "Quản lý bản thiết kế"
 
 ["LV.BB.Filter"]
 status = "normal"
@@ -720,6 +767,7 @@ plPL = "Filtr"
 ptBR = "Filtrar"
 koKR = "필터"
 csCZ = "Filtr"
+viVN = "Bộ lọc"
 
 ["LV.BB.Keyword"]
 status = "normal"
@@ -735,6 +783,7 @@ plPL = "Słowo kluczowe:"
 ptBR = "Palavra-chave:"
 koKR = "키워드:"
 csCZ = "Klíčové slovo:"
+viVN = "Từ khóa:"
 
 ["LV.BB.HideInvalids"]
 status = "normal"
@@ -750,6 +799,7 @@ plPL = "Ukryj nieprawidłowe plany"
 ptBR = "Ocultar planos inválidos"
 koKR = "잘못된 설계도 숨기기"
 csCZ = "Skrýt neplatné plány"
+viVN = "Ẩn các bản thiết kế không hợp lệ"
 
 ["LV.BB.FilterLocal"]
 status = "normal"
@@ -765,6 +815,7 @@ plPL = "Pokaż lokalne"
 ptBR = "Mostrar Local"
 koKR = "로컬 보기"
 csCZ = "Zobraz místní"
+viVN = "Hiển thị Địa phương"
 
 ["LV.BB.FilterRemote"]
 status = "normal"
@@ -780,6 +831,7 @@ plPL = "Pokaż warsztat"
 ptBR = "Mostrar Oficina"
 koKR = "공방 표시"
 csCZ = "Zobrazit dílnu"
+viVN = "Hiển thị Xưởng"
 
 ["LV.BB.FilterTagDesc"]
 status = "normal"
@@ -795,6 +847,7 @@ plPL = "Pokaż tylko plany, które mają wszystkie te tagi:"
 ptBR = "Mostrar apenas planos com TODAS essas etiquetas:"
 koKR = "다음 태그를 모두 포함하는 블루프린트만 표시:"
 csCZ = "Zobrazit pouze plány se všemi těmito tagy:"
+viVN = "Chỉ hiển thị các bản thiết kế có TẤT CẢ các thẻ này:"
 
 ["LV.BB.FilterStat"]
 status = "normal"
@@ -810,6 +863,7 @@ plPL = "Przefiltrowane: {0} / {1}"
 ptBR = "Filtrados: {0} / {1}"
 koKR = "필터링된: {0} / {1}"
 csCZ = "Filtrováno: {0} / {1}"
+viVN = "Đã lọc: {0} / {1}"
 
 ["LV.BB.NoTag"]
 status = "normal"
@@ -825,6 +879,7 @@ plPL = "Żaden plan nie ma jeszcze żadnego tagu."
 ptBR = "Ainda não há nenhuma tag em nenhum blueprint."
 koKR = "아직 청사진에 태그가 하나도 없습니다."
 csCZ = "Žádný nákres nemá zatím žádný štítek."
+viVN = "Chưa có bản thiết kế nào được gắn thẻ."
 
 ["LV.BB.Edit"]
 status = "normal"
@@ -840,6 +895,7 @@ plPL = "Edytuj"
 ptBR = "Editar"
 koKR = "편집"
 csCZ = "Upravit"
+viVN = "Chỉnh sửa"
 
 ["LV.BB.EditBlueprint"]
 status = "normal"
@@ -855,6 +911,7 @@ plPL = "Edytuj plan"
 ptBR = "Editar Projeto"
 koKR = "설계도 편집"
 csCZ = "Upravit nákres"
+viVN = "Chỉnh sửa bản thiết kế"
 
 ["LV.BB.RenameExist"]
 status = "normal"
@@ -870,6 +927,7 @@ plPL = "<RedHightlight>Istnieje już inny szablon o tej nazwie. Proszę wybrać 
 ptBR = "<RedHightlight>Já existe outra planta com esse nome. Por favor, escolha um nome diferente.</RedHightlight>"
 koKR = "<RedHightlight>이 이름의 설계도가 이미 존재합니다. 다른 이름을 선택해 주세요.</RedHightlight>"
 csCZ = "<RedHightlight>Jiný plán s tímto názvem již existuje. Prosím zvolte jiný název.</RedHightlight>"
+viVN = "<RedHightlight>Một bản thiết kế với tên này đã tồn tại. Vui lòng chọn một tên khác.</RedHightlight>"
 
 ["LV.BB.Tags"]
 status = "normal"
@@ -885,6 +943,7 @@ plPL = "Tagi (oddzielone przecinkami):"
 ptBR = "Etiquetas (separadas por vírgula):"
 koKR = "태그 (쉼표로 구분):"
 csCZ = "Tagy (oddělené čárkami):"
+viVN = "Nhãn (ngăn cách bằng dấu phẩy):"
 
 ["LV.BB.TagQuickAdd"]
 status = "normal"
@@ -900,3 +959,4 @@ plPL = "Szybkie dodawanie:"
 ptBR = "Adição rápida:"
 koKR = "빠른 추가:"
 csCZ = "Rychlé přidání:"
+viVN = "Thêm nhanh:"

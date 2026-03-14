@@ -15,6 +15,7 @@ plPL = "Minimalne zanieczyszczenie wody"
 ptBR = "Contaminação mínima da água"
 koKR = "최소 수분 오염"
 csCZ = "Minimální znečištění vody"
+viVN = "Ô nhiễm nước tối thiểu"
 
 ["LV.CI.MinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water stops giving full irrigation. Game default: 0.01, meaning if your water is 1% contaminated or below, it will give full irrigation."
@@ -30,6 +31,7 @@ plPL = "Minimalny procent zanieczyszczenia wody, przy którym woda przestaje zap
 ptBR = "O percentual mínimo de contaminação da água onde a irrigação plena para de funcionar. Padrão do jogo: 0,01, o que significa que se a sua água estiver 1% contaminada ou menos, ela proporcionará irrigação plena."
 koKR = "최소 물 오염 %는 물이 완전한 관개를 제공하는 것을 멈추는 지점을 나타냅니다. 게임 기본값: 0.01, 즉 물이 1% 오염되었거나 그 이하일 경우 완전한 관개를 제공합니다."
 csCZ = "Minimální procento znečištění vody, při kterém přestane voda poskytovat plné zavlažování. Výchozí hodnota hry: 0,01, což znamená, že pokud je vaše voda znečištěna na 1 % nebo méně, poskytne plné zavlažování."
+viVN = "Độ ô nhiễm nước tối thiểu tại mức khiến nước ngừng tưới tiêu đầy đủ. Mặc định của trò chơi: 0.01, có nghĩa là nước ô nhiễm 1% hoặc thấp hơn sẽ cho tưới tiêu đầy đủ."
 
 ["LV.CI.MaximumWaterContamination"]
 raw = "Maximum Water Contamination"
@@ -45,6 +47,7 @@ plPL = "Maksymalne zanieczyszczenie wody"
 ptBR = "Contaminação Máxima da Água"
 koKR = "최대 수질 오염"
 csCZ = "Maximální znečištění vody"
+viVN = "Ô nhiễm nước tối đa"
 
 ["LV.CI.MaximumWaterContaminationDesc"]
 raw = "The maximum water contamination % where water stops irrigating. Game default: 0.53, meaning if your water is 53% contaminated or above, it will not irrigate."
@@ -60,6 +63,7 @@ plPL = "Maksymalny procent zanieczyszczenia wody, przy którym nawadnianie przes
 ptBR = "A porcentagem máxima de contaminação da água onde a irrigação para. Padrão do jogo: 0,53, o que significa que se sua água estiver 53% contaminada ou mais, não irrigará."
 koKR = "최대 물 오염 %로, 물이 관개를 중단하는 지점입니다. 게임 기본값: 0.53, 즉 물이 53% 오염되거나 그 이상일 경우 관개가 이루어지지 않습니다."
 csCZ = "Maximální procento znečištění vody, při kterém se zavlažování zastaví. Výchozí hodnota hry: 0,53, což znamená, že pokud je vaše voda znečištěna na 53 % nebo více, nebude zavlažovat."
+viVN = "Mức ô nhiễm nước tối đa mà nước sẽ ngừng tưới. Mặc định trong trò chơi: 0,53, có nghĩa là nếu nước của bạn bị ô nhiễm 53% trở lên, nó sẽ không được tưới."
 
 ["LV.CI.VerticalSpreadCostMultiplier"]
 raw = "Vertical Spread Cost"
@@ -75,6 +79,7 @@ plPL = "Koszt spreadu pionowego"
 ptBR = "Custo do Spread Vertical"
 koKR = "수직 확산 비용"
 csCZ = "Náklady na vertikální rozptyl"
+viVN = "Chi phí lan rộng theo chiều dọc"
 
 ["LV.CI.VerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread. Game default: 6, meaning it generally costs 6 times more to spread water up."
@@ -90,6 +95,7 @@ plPL = "Współczynnik kosztów dla rozprzestrzeniania w górę. Domyślne ustaw
 ptBR = "O multiplicador de custo para a disseminação para cima. Valor padrão do jogo: 6, o que significa que geralmente custa 6 vezes mais para espalhar água para cima."
 koKR = "위쪽 확산을 위한 비용 배수기. 게임 기본값: 6, 즉 물을 위로 확산하는 데 일반적으로 6배의 비용이 듭니다."
 csCZ = "Nákladový multiplikátor pro vertikální rozšíření. Výchozí hodnota ve hře: 6, což znamená, že obvykle stojí 6krát více rozšířit vodu nahoru."
+viVN = "Hệ số chi phí cho việc lan nước lên. Mặc định của trò chơi: 6, có nghĩa là nói chung nó tốn thêm gấp 6 lần để lan nước lên."
 
 ["LV.CI.MaxSpread"]
 raw = "Max Spread"
@@ -105,6 +111,7 @@ plPL = "Maksymalne rozszerzenie"
 ptBR = "Spread Máximo"
 koKR = "최대 확산"
 csCZ = "Maximální rozptyl"
+viVN = "Phạm vi tối đa"
 
 ["LV.CI.MaxSpreadDesc"]
 raw = "The maximum spread distance in blocks. Game default: 16, meaning a saturated 3x3 blocks will irrigate up to 16 blocks away."
@@ -120,6 +127,7 @@ plPL = "Maksymalny zasięg na odległość w blokach. Domyślna wartość gry: 1
 ptBR = "A distância máxima de espalhamento em blocos. Padrão do jogo: 16, o que significa que um bloco saturado de 3x3 irrigará até 16 blocos de distância."
 koKR = "최대 확산 거리(블록 단위). 게임 기본값: 16, 즉 포화된 3x3 블록은 최대 16 블록 떨어진 곳까지 관개합니다."
 csCZ = "Maximální vzdálenost rozšíření v blocích. Výchozí hodnota hry: 16, což znamená, že saturované 3x3 bloky zavlažují až do vzdálenosti 16 bloků."
+viVN = "Khoảng cách lan rộng tối đa tính bằng ô vuông. Mặc định của trò chơi: 16, có nghĩa là một khu vực 3x3 ô vuông đã bão hòa sẽ tưới nước lên tới 16 ô vuông ở xa."
 
 ["LV.CI.ContaMinimumWaterContamination"]
 raw = "Minimum Water for Soil Contamination"
@@ -135,6 +143,7 @@ plPL = "Minimalna woda do zanieczyszczenia gleby"
 ptBR = "Água Mínima para Contaminação do Solo"
 koKR = "토양 오염을 위한 최소 물량"
 csCZ = "Minimální voda pro kontaminaci půdy"
+viVN = "Nước tối thiểu cho ô nhiễm đất"
 
 ["LV.CI.ContaMinimumWaterContaminationDesc"]
 raw = "The minimum water contamination % where water starts contaminate soil. Game default: 0.5, meaning if your water is 50% contaminated or above, it will start contaminating soil."
@@ -150,6 +159,7 @@ plPL = "Minimalny procent zanieczyszczenia wody, przy którym woda zaczyna zanie
 ptBR = "A porcentagem mínima de contaminação da água onde a água começa a contaminar o solo. Padrão do jogo: 0,5, ou seja, se a sua água estiver 50% contaminada ou mais, começará a contaminar o solo."
 koKR = "물 오염이 토양을 오염시키기 시작하는 최소 물 오염 %입니다. 게임 기본값: 0.5로, 물이 50% 오염되거나 그 이상일 경우 토양을 오염시키기 시작합니다."
 csCZ = "Minimální procento kontaminace vody, při kterém voda začíná kontaminovat půdu. Výchozí hodnota ve hře: 0,5, což znamená, že pokud je vaše voda kontaminována z 50 % nebo více, začne kontaminovat půdu."
+viVN = "Tỷ lệ ô nhiễm nước tối thiểu để nước bắt đầu làm ô nhiễm đất. Mặc định của trò chơi: 0,5, có nghĩa là nếu nước của bạn bị ô nhiễm ở mức 50% hoặc cao hơn, nó sẽ bắt đầu làm ô nhiễm đất."
 
 ["LV.CI.ContaMaxSpread"]
 raw = "Contamination Max Spread"
@@ -165,6 +175,7 @@ plPL = "Maksymalne Rozprzestrzenienie Zanieczyszczeń"
 ptBR = "Contaminação Máxima Espalhada"
 koKR = "오염 최대 확산"
 csCZ = "Maximální šíření kontaminace"
+viVN = "Độ lan rộng tối đa của ô nhiễm"
 
 ["LV.CI.ContaMaxSpreadDesc"]
 raw = "The maximum spread distance in blocks for contaminated water. Game default: 7, meaning contamination will contaminate blocks up to 7 blocks away."
@@ -180,6 +191,7 @@ plPL = "Maksymalna odległość rozprzestrzeniania się w blokach dla zanieczysz
 ptBR = "A distância máxima de espalhamento em blocos para água contaminada. Padrão do jogo: 7, significando que a contaminação irá contaminar blocos até 7 blocos de distância."
 koKR = "오염된 물의 최대 전파 거리(블록 단위). 게임 기본값: 7, 이는 오염이 최대 7블록 떨어진 블록까지 오염됨을 의미합니다."
 csCZ = "Maximální vzdálenost šíření v blocích pro kontaminovanou vodu. Výchozí hodnota hry: 7, což znamená, že kontaminace bude kontaminovat bloky až do vzdálenosti 7 bloků."
+viVN = "Khoảng cách lan rộng tối đa bằng khối cho nước bị ô nhiễm. Mặc định của trò chơi: 7, có nghĩa là nước bị ô nhiễm sẽ lan ra các ô cách xa tối đa 7 khối."
 
 ["LV.CI.ContaVerticalSpreadCostMultiplier"]
 raw = "Contamination Vertical Spread Cost"
@@ -195,6 +207,7 @@ plPL = "Koszt pionowego rozprzestrzeniania zanieczyszczeń"
 ptBR = "Custo de Espalhamento Vertical de Contaminação"
 koKR = "오염 수직 확산 비용"
 csCZ = "Náklady na vertikální šíření kontaminace"
+viVN = "Chi phí lan truyền ô nhiễm theo chiều dọc"
 
 ["LV.CI.ContaVerticalSpreadCostMultiplierDesc"]
 raw = "The cost multiplier for upward spread of contamination. Game default: 5, meaning it generally costs 5 times more to spread contamination up."
@@ -210,3 +223,4 @@ plPL = "Mnożnik kosztów związany z rozprzestrzenianiem się zanieczyszczeń w
 ptBR = "O multiplicador de custo para a propagação ascendente da contaminação. Padrão do jogo: 5, o que significa que geralmente custa 5 vezes mais para propagar a contaminação para cima."
 koKR = "오염의 수직 확산에 대한 비용 곱셈기. 게임 기본값: 5, 이는 오염을 위로 확산시키는 데 일반적으로 5배 더 많은 비용이 든다는 의미입니다."
 csCZ = "Násobitel nákladů pro vertikální šíření kontaminace. Výchozí hodnota hry: 5, což znamená, že šíření kontaminace nahoru obvykle stojí 5krát více."
+viVN = "Hệ số nhân chi phí cho sự lan truyền ô nhiễm lên trên. Mặc định của trò chơi: 5, có nghĩa là chi phí để lan ô nhiễm lên trên thường cao gấp 5 lần."
