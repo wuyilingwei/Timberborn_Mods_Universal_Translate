@@ -131,6 +131,29 @@ def get_supported_languages(config, logger=None):
     return set(languages)
 
 
+def get_ingame_languages(config, logger=None):
+    """
+    Return languages in supported but NOT in game_supported.
+    These are the only languages present in _ingame*.toml files.
+    """
+    supported = config.get("languages", {}).get("supported", [])
+    game_supported = set(config.get("languages", {}).get("game_supported", []))
+    ingame_only = [lang for lang in supported if lang not in game_supported]
+    if logger:
+        logger.info(f"Ingame-only languages: {', '.join(ingame_only)}")
+    else:
+        print(f"[Info] Ingame-only languages: {', '.join(ingame_only)}")
+    return set(ingame_only)
+
+
+# Mapping: _ingame*.toml stem → CSV suffix used in output filenames
+INGAME_TOML_STEMS = {
+    "_ingame":       "_ingame",
+    "_ingame_names": "_ingame_names",
+    "_ingame_des":   "_ingame_des",
+}
+
+
 def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.toml"):
     """将TOML文件转换为CSV文件"""
     
@@ -145,13 +168,51 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
     
     protected_fields = get_protected_fields(config, logger)
     supported_languages = get_supported_languages(config, logger)
+    ingame_languages = get_ingame_languages(config, logger)
 
     for file_name in os.listdir(data_dir):
         if file_name.endswith(".toml"):
             # 忽略术语表文件
             if file_name == "_glossary.toml":
                 continue
-            
+
+            # Handle _ingame*.toml files (ingame localization for game-unsupported languages)
+            file_stem = file_name[:-5]
+            if file_stem in INGAME_TOML_STEMS:
+                csv_suffix = INGAME_TOML_STEMS[file_stem]
+                toml_path = os.path.join(data_dir, file_name)
+                output_dir = os.path.join(mod_dir, "Localizations")
+                os.makedirs(output_dir, exist_ok=True)
+                try:
+                    with open(toml_path, "r", encoding="utf-8") as toml_file:
+                        data = toml.load(toml_file)
+                    for lang_code in ingame_languages:
+                        csv_file_name = f"{lang_code}{csv_suffix}.csv"
+                        csv_path = os.path.join(output_dir, csv_file_name)
+                        empty_count = 0
+                        with open(csv_path, "w", encoding="utf-8", newline="") as csv_file:
+                            writer = csv.writer(csv_file)
+                            writer.writerow(["ID", "Text", "Comment"])
+                            for translation_key, translations in data.items():
+                                if translation_key in ("name", "prompt", "_meta"):
+                                    continue
+                                if isinstance(translations, dict) and lang_code in translations:
+                                    translation_text = translations[lang_code]
+                                    if not translation_text or not translation_text.strip():
+                                        empty_count += 1
+                                        logger.info(f"Empty ingame translation for key '{translation_key}' in '{lang_code}' ({file_name})")
+                                    else:
+                                        processed_text = translation_text
+                                        if translation_text.startswith(' '):
+                                            processed_text = f'"{translation_text}"'
+                                        writer.writerow([translation_key, processed_text, "-"])
+                        if empty_count > 0:
+                            logger.info(f"Skipped {empty_count} empty ingame entries for {lang_code} in {file_name}")
+                        logger.info(f"Generated ingame CSV: {csv_file_name}")
+                except Exception as e:
+                    logger.error(f"Failed to process ingame file {toml_path}: {e}")
+                continue
+
             # 提取 mod_id（不再区分版本）
             match = re.search(r"(\d+)\.toml", file_name)
             if not match:

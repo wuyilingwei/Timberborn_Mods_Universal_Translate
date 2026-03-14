@@ -32,6 +32,13 @@ jobs:
         run: |
           pip install -r .github/scripts/requirements.txt
       
+      - name: Sync ingame TOML files from raw sources
+        run: |
+          python .github/scripts/sync_ingame.py \
+            --config .github/config/config.toml \
+            --raw-dir .github/data/raw \
+            --data-dir data
+
       - name: Run translation
         id: translate
         env:
