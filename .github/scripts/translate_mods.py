@@ -18,6 +18,7 @@ import time
 import logging
 import argparse
 import re
+import threading
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Dict, List, Optional, Set, Tuple
@@ -876,17 +877,28 @@ def process_toml_file(
     toml_path: str,
     translator: TranslatorLLM,
     target_languages: List[str],
-    dry_run: bool = False
+    dry_run: bool = False,
+    max_entry_threads: int = 1
 ) -> Tuple[int, int]:
     """
-    Process a single TOML file and translate missing entries
-    
+    Process a single TOML file and translate missing entries.
+
+    Args:
+        toml_path: Path to the TOML file
+        translator: Translator instance
+        target_languages: List of target language codes
+        dry_run: If True, don't write changes
+        max_entry_threads: Maximum number of entries to process concurrently within
+            this file.  When > 1, multiple entries are translated in parallel, with
+            each entry still parallelising its own languages internally.  A threading
+            lock serialises all writes so checkpoint saves remain atomic.
+
     Returns:
         Tuple of (translations_made, entries_processed)
     """
     logger = logging.getLogger("process_toml_file")
     filename = os.path.basename(toml_path)
-    logger.info(f"Processing {filename}")
+    logger.info(f"Processing {filename} (entry_threads={max_entry_threads})")
     
     # Load TOML file
     try:
@@ -909,6 +921,9 @@ def process_toml_file(
     if local_glossary:
         logger.info(f"Using {len(local_glossary)} local glossary terms for {filename}")
     
+    # Lock that serialises checkpoint saves when entries run concurrently.
+    save_lock = threading.Lock()
+
     def save_current_state() -> None:
         """Write the current in-memory data back to disk immediately."""
         try:
@@ -925,106 +940,131 @@ def process_toml_file(
     entries_processed = 0
     modified = False
 
-    # Process each entry
-    for key, entry in data.items():
-        # Skip metadata sections
-        if key in ["name", "prompt", "_meta"]:  # Changed field_prompt to prompt
-            continue
-        
-        if not isinstance(entry, dict):
-            continue
-        
-        # Check if this entry needs translation
-        # 1. Has "new" field - needs retranslation
-        # 2. Missing translations for some languages (but not if raw text is empty)
+    # ------------------------------------------------------------------ #
+    # Inner helper: translate one entry and apply the result              #
+    # Returns (translations_delta, was_modified)                          #
+    # ------------------------------------------------------------------ #
+    def _process_entry(key: str, entry: dict) -> Tuple[int, bool]:
+        """Translate a single entry for all required languages.
+
+        Thread-safe: reads ``data`` in-place (entry is a reference from
+        ``data``), and serialises writes through ``save_lock``.
+        """
         has_new_field = "new" in entry
         raw_text = entry.get("raw", "")
-        
-        # Only consider a language missing if:
-        # - The language field doesn't exist or is empty/None
-        # - AND the raw text is not empty (empty raw text = valid empty translation)
+
         missing_languages = [
-            lang for lang in target_languages 
+            lang for lang in target_languages
             if (lang not in entry or not entry.get(lang)) and raw_text and raw_text.strip()
         ]
-        
+
         if not has_new_field and not missing_languages:
-            # Nothing to translate
-            continue
-        
-        entries_processed += 1
-        
+            return 0, False
+
         if has_new_field:
             logger.info(f"Processing entry with 'new' field: {key}")
-            # Translate for all languages when "new" field exists
             languages_to_translate = target_languages
         else:
             logger.info(f"Processing entry with missing translations: {key} (missing: {', '.join(missing_languages)})")
-            # Only translate missing languages
             languages_to_translate = missing_languages
-        
-        # Translate for each target language in parallel
+
         all_translations_successful = True
-        new_translations = {}
-        
-        # Use ThreadPoolExecutor to parallelize translation by language
-        with ThreadPoolExecutor(max_workers=min(len(languages_to_translate), 10)) as executor:
-            # Submit translation tasks for all languages
+        new_translations: dict = {}
+
+        # Parallelise over languages within this entry
+        with ThreadPoolExecutor(max_workers=min(len(languages_to_translate), 10)) as lang_executor:
             future_to_lang = {
-                executor.submit(
+                lang_executor.submit(
                     translate_entry,
                     translator=translator,
                     key=key,
                     entry=entry,
                     target_lang=lang,
                     mod_name=mod_name,
-                    prompt=prompt,  # Changed from field_prompt to prompt
+                    prompt=prompt,
                     glossary=merged_glossary,
                     language_priority=target_languages
                 ): lang
                 for lang in languages_to_translate
             }
-            
-            # Collect results as they complete
+
             for future in as_completed(future_to_lang):
                 lang = future_to_lang[future]
                 try:
                     translation = future.result()
-                    # Accept translation if it's not None (empty string is valid if raw is also empty)
                     if translation is not None:
                         new_translations[lang] = translation
-                        translations_made += 1
                     else:
                         logger.warning(f"Failed to translate {key} to {lang}")
                         all_translations_successful = False
                 except Exception as e:
                     logger.error(f"Error translating {key} to {lang}: {e}")
                     all_translations_successful = False
-        
-        # Update entry if translations were successful
-        if new_translations and not dry_run:
-            # If has "new" field, update raw field with new text
+
+        if not new_translations or dry_run:
+            return len(new_translations), False
+
+        # --- critical section: mutate shared ``data`` and persist --- #
+        with save_lock:
             if has_new_field:
                 entry["raw"] = entry["new"]
-            
-            # Update translations
+
             for lang, translation in new_translations.items():
                 entry[lang] = translation
-            
-            # Remove "new" field after successful translation (only if all languages translated)
+
             if has_new_field and all_translations_successful:
                 del entry["new"]
                 logger.info(f"Completed translation for {key}, removed 'new' field")
-            
-            modified = True
+
             # Persist immediately so a mid-run cancellation loses at most one entry.
             save_current_state()
 
-    # Final save is a no-op if nothing changed, but ensures the file is consistent
-    # even if only partial entries were translated in this run.
+        return len(new_translations), True
+
+    # ------------------------------------------------------------------ #
+    # Collect entries that need work, then dispatch                       #
+    # ------------------------------------------------------------------ #
+    pending_entries = [
+        (key, entry)
+        for key, entry in data.items()
+        if key not in ("name", "prompt", "_meta") and isinstance(entry, dict)
+    ]
+
+    if max_entry_threads > 1:
+        # Parallel entry processing
+        logger.info(f"Processing up to {max_entry_threads} entries concurrently in {filename}")
+        with ThreadPoolExecutor(max_workers=max_entry_threads) as entry_executor:
+            future_to_key = {
+                entry_executor.submit(_process_entry, key, entry): key
+                for key, entry in pending_entries
+            }
+            for future in as_completed(future_to_key):
+                key = future_to_key[future]
+                try:
+                    delta, entry_modified = future.result()
+                    if delta > 0:
+                        entries_processed += 1
+                        translations_made += delta
+                    if entry_modified:
+                        modified = True
+                except Exception as e:
+                    logger.error(f"Error processing entry {key}: {e}")
+    else:
+        # Sequential entry processing (original behaviour)
+        for key, entry in pending_entries:
+            try:
+                delta, entry_modified = _process_entry(key, entry)
+                if delta > 0:
+                    entries_processed += 1
+                    translations_made += delta
+                if entry_modified:
+                    modified = True
+            except Exception as e:
+                logger.error(f"Error processing entry {key}: {e}")
+
     if modified and not dry_run:
         logger.info(f"Saved updates to {filename}")
-    
+
     return translations_made, entries_processed
 
 
@@ -1098,21 +1138,35 @@ def process_all_files(
     max_time: Optional[int] = None
 ) -> None:
     """
-    Process all TOML files in the data directory
-    
-    Note: With the optimized multi-threading structure, translations within each mod
-    are parallelized by language. The max_threads parameter controls whether files
-    themselves are also processed in parallel (max_threads > 1) or sequentially 
-    (max_threads = 1). For best single-mod performance, use max_threads = 1 which
-    allows maximum parallelization of languages within the mod.
-    
+    Process all TOML files in the data directory.
+
+    Thread allocation strategy
+    --------------------------
+    ``max_threads`` is the *total* concurrency budget.  Threads are distributed
+    across two levels:
+
+    1. **File level** – up to ``min(num_files, max_threads)`` files run in
+       parallel.
+    2. **Entry level** – when fewer files are active than ``max_threads`` allows,
+       the spare capacity is given to each active file as intra-file entry
+       concurrency (capped at 10 per file).  This accelerates very large mods
+       that would otherwise leave threads idle.
+
+    Example with ``max_threads=10``:
+    - 10 files  → 10 file-threads, 1 entry-thread per file
+    - 5  files  → 5  file-threads, 2 entry-threads per file
+    - 1  file   → 1  file-thread,  10 entry-threads for that file
+
+    Within each entry, languages are still parallelised independently (up to
+    10 language-threads per entry).
+
     Args:
         data_dir: Directory containing TOML files
         translator: Translator instance
         target_languages: List of target language codes
-        max_threads: Maximum number of concurrent file processing threads
+        max_threads: Total concurrency budget (file-level × entry-level ≤ this)
         dry_run: If True, don't write changes
-        max_time: Maximum processing time in seconds. If set, stops taking new entries when time is up.
+        max_time: Maximum processing time in seconds.
     """
     logger = logging.getLogger("process_all_files")
     
@@ -1127,20 +1181,34 @@ def process_all_files(
         logger.warning("No TOML files found")
         return
     
+    # ------------------------------------------------------------------
+    # Compute thread allocation
+    # ------------------------------------------------------------------
+    # How many files will actually run concurrently?
+    active_file_threads = min(len(toml_files), max_threads)
+    # Spare threads per file (at least 1, at most 10)
+    entry_threads_per_file = max(1, min(10, max_threads // active_file_threads))
+
+    logger.info(
+        f"Thread allocation: {active_file_threads} file-thread(s), "
+        f"{entry_threads_per_file} entry-thread(s) per file "
+        f"(total budget: {max_threads})"
+    )
+
     total_translations = 0
     total_entries = 0
     
-    if max_threads > 1:
+    if active_file_threads > 1:
         # Process files in parallel
-        logger.info(f"Processing files with {max_threads} threads")
-        with ThreadPoolExecutor(max_workers=max_threads) as executor:
+        with ThreadPoolExecutor(max_workers=active_file_threads) as executor:
             futures = {
                 executor.submit(
                     process_toml_file,
                     str(toml_file),
                     translator,
                     target_languages,
-                    dry_run
+                    dry_run,
+                    entry_threads_per_file
                 ): toml_file
                 for toml_file in toml_files
             }
@@ -1177,7 +1245,8 @@ def process_all_files(
                     str(toml_file),
                     translator,
                     target_languages,
-                    dry_run
+                    dry_run,
+                    entry_threads_per_file
                 )
                 total_translations += translations
                 total_entries += entries
