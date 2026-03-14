@@ -1147,15 +1147,20 @@ def process_all_files(
 
     1. **File level** – up to ``min(num_files, max_threads)`` files run in
        parallel.
-    2. **Entry level** – when fewer files are active than ``max_threads`` allows,
-       the spare capacity is given to each active file as intra-file entry
-       concurrency (capped at 10 per file).  This accelerates very large mods
-       that would otherwise leave threads idle.
+    2. **Entry level** – spare capacity beyond what active files consume is
+       redistributed dynamically.  When files complete and fewer remain active,
+       each new or still-running file receives more entry-level threads (capped
+       at 10 per file).  This prevents idle threads when the queue drains down
+       to a handful of files.
 
     Example with ``max_threads=10``:
-    - 10 files  → 10 file-threads, 1 entry-thread per file
-    - 5  files  → 5  file-threads, 2 entry-threads per file
-    - 1  file   → 1  file-thread,  10 entry-threads for that file
+    - 10 files active  → 1 entry-thread per file
+    - 5  files active  → 2 entry-threads per file
+    - 1  file  active  → 10 entry-threads for that file
+
+    The active-file count is tracked with an atomic counter protected by a
+    lock; each file wrapper reads the current count on start to compute its
+    own ``entry_threads`` budget.
 
     Within each entry, languages are still parallelised independently (up to
     10 language-threads per entry).
@@ -1182,17 +1187,50 @@ def process_all_files(
         return
 
     # ------------------------------------------------------------------
-    # Compute thread allocation
+    # Compute initial file-level thread count
     # ------------------------------------------------------------------
-    # How many files will actually run concurrently?
     active_file_threads = min(len(toml_files), max_threads)
-    # Spare threads per file (at least 1, at most 10)
-    entry_threads_per_file = max(1, min(10, max_threads // active_file_threads))
+
+    # ------------------------------------------------------------------
+    # Dynamic entry-thread counter
+    # ------------------------------------------------------------------
+    # ``_active_files`` tracks how many files are currently being processed.
+    # Each file wrapper reads this on entry to determine its entry_threads
+    # budget, so files that start late (when the queue has drained) get a
+    # proportionally larger share of the thread budget.
+    _active_files_lock = threading.Lock()
+    _active_files_count = [0]  # mutable int wrapped in list for closure
+
+    def _compute_entry_threads() -> int:
+        """Return entry-thread count based on current active-file count."""
+        with _active_files_lock:
+            active = max(1, _active_files_count[0])
+        return max(1, min(10, max_threads // active))
+
+    def _process_file_dynamic(toml_file) -> Tuple[int, int]:
+        """Wrapper that adjusts entry_threads based on live active-file count."""
+        with _active_files_lock:
+            _active_files_count[0] += 1
+        entry_threads = _compute_entry_threads()
+        logger.debug(
+            f"Starting {toml_file.name}: active_files={_active_files_count[0]}, "
+            f"entry_threads={entry_threads}"
+        )
+        try:
+            return process_toml_file(
+                str(toml_file),
+                translator,
+                target_languages,
+                dry_run,
+                entry_threads,
+            )
+        finally:
+            with _active_files_lock:
+                _active_files_count[0] -= 1
 
     logger.info(
-        f"Thread allocation: {active_file_threads} file-thread(s), "
-        f"{entry_threads_per_file} entry-thread(s) per file "
-        f"(total budget: {max_threads})"
+        f"Thread allocation: up to {active_file_threads} concurrent file(s), "
+        f"entry-threads per file computed dynamically (total budget: {max_threads})"
     )
 
     total_translations = 0
@@ -1202,14 +1240,7 @@ def process_all_files(
         # Process files in parallel
         with ThreadPoolExecutor(max_workers=active_file_threads) as executor:
             futures = {
-                executor.submit(
-                    process_toml_file,
-                    str(toml_file),
-                    translator,
-                    target_languages,
-                    dry_run,
-                    entry_threads_per_file
-                ): toml_file
+                executor.submit(_process_file_dynamic, toml_file): toml_file
                 for toml_file in toml_files
             }
             
@@ -1231,7 +1262,7 @@ def process_all_files(
                 except Exception as e:
                     logger.error(f"Error processing {toml_file}: {e}")
     else:
-        # Single file: process sequentially at file level but use entry-level parallelism
+        # Single file at a time: process sequentially at file level but use entry-level parallelism
         logger.info("Processing files sequentially (entry-level parallelism active)")
         for toml_file in toml_files:
             # Check timeout before processing each file
@@ -1241,13 +1272,7 @@ def process_all_files(
                 break
             
             try:
-                translations, entries = process_toml_file(
-                    str(toml_file),
-                    translator,
-                    target_languages,
-                    dry_run,
-                    entry_threads_per_file
-                )
+                translations, entries = _process_file_dynamic(toml_file)
                 total_translations += translations
                 total_entries += entries
             except Exception as e:
