@@ -21,7 +21,7 @@ viVN = "Vietnamese"
 
 [build]
 protect_string_ids_file = "enUS.txt"
-extra_protect_string_ids = ["Beaver.NamePool", "MainMenu.RosettaOn", Settings.Language.Name"]
+extra_protect_string_ids = ["Beaver.NamePool", "MainMenu.RosettaOn", "Settings.Language.Name"]
 
 [rate_limiter]
 # Maximum requests per minute (RPM)

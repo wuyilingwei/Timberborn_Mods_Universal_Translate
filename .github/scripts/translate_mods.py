@@ -1391,7 +1391,11 @@ def main():
     )
     
     args = parser.parse_args()
-    
+
+    # Setup a bootstrap logger before config load so fatal errors are always loggable
+    setup_logging("INFO")
+    logger = logging.getLogger("main")
+
     try:
         # Load configuration first
         config = load_config(args.config)
