@@ -189,8 +189,8 @@ jobs:
 
           on_exit() {
             # Last-resort safety net: runs on every exit path.
-            # If the normal completion block already handled everything, this
-            # is a no-op thanks to the FINAL_COMMIT_DONE guard.
+            # If the normal completion block or on_cancel already handled
+            # everything, this is a no-op thanks to the FINAL_COMMIT_DONE guard.
             if [ "$FINAL_COMMIT_DONE" = false ]; then
               FINAL_COMMIT_DONE=true
               stop_checkpoint_loop
@@ -218,9 +218,10 @@ jobs:
               TRANSLATE_PID=""
             fi
 
-            # Commit whatever Python saved, push to temp branch only.
+            # Commit whatever Python saved, then merge into the target branch
+            # so partial progress is not lost behind a temp branch.
             commit_and_push_changes || true
-            echo "Partial translation results saved to $TEMP_BRANCH (not merged into $TARGET_BRANCH)"
+            merge_to_target || true
             exit 130
           }
 
