@@ -81,6 +81,7 @@ raw = "Starting the API will enable webhooks that call external services:"
 status = "normal"
 prompt = "This is an important safety warning so please make sure it is understandable. The message is followed by a list of web addresses."
 csCZ = "Spuštění API umožní webhooky, které volají externí služby:"
+viVN = "\"Khởi động API sẽ kích hoạt các webhook gọi các dịch vụ bên ngoài:\"\n- Lưu ý cụ thể: Đây là một cảnh báo an toàn quan trọng nên hãy đảm bảo nó dễ hiểu. Thông điệp được theo sau bởi một danh sách các địa chỉ web."
 
 ["Automation.Api.UnsafeWebhooksWarning.IUnderstandTheRisk"]
 raw = "I understand the risk"
@@ -755,11 +756,13 @@ raw = "\"Is that what hoomans used pipes for? Bleh.\" —Pina."
 status = "normal"
 prompt = "Pina is a younger beaver figure that's exploring the world and isn't related to any faction in particular. Pina as a name relates to the pine tree, the translated name shouldn't suggest a gender if possible."
 csCZ = "\"To je to, k čemu lidé používali trubky? Bleh.\" —Pina"
+viVN = "\"Có phải loài người đã dùng ống nước cho việc đó sao? Bleh.\" —Pina."
 
 ["Building.BadwaterDischarge.Description"]
 raw = "Seals a Badwater Source. Can be opened or closed. When open, badwater flows even during droughts."
 status = "normal"
 prompt = "Badwater Source must be the same as Building.BadwaterSource.DisplayName, Badwater must be the same as Good.Badwater.DisplayName."
+csCZ = "Uzavírá zdroj Badwater Source. Lze jej otevřít nebo zavřít. Když je otevřen, Badwater teče i během sucha."
 viVN = "Đóng kín Badwater Source. Có thể mở hoặc đóng. Khi mở, Badwater vẫn chảy ngay cả trong mùa hạn hán."
 
 ["Building.BadwaterDischarge.DisplayName"]
@@ -830,6 +833,7 @@ raw = "Badwater Rig"
 status = "normal"
 prompt = "Name of the building that stops flow from badwater source and generates Good.Badwater.DisplayName goods (by extracting them from source). It's a mechanical building that needs workers to operate. Badwater must be the same as Good.Badwater.DisplayName"
 csCZ = "Zařízení Badwater"
+viVN = "Công trình Badwater"
 
 ["Building.BadwaterRig.FlavorDescription"]
 raw = "Those working on top of a boiling badwater source feel constant pressure."
@@ -862,10 +866,12 @@ raw = "Badwater Source"
 status = "normal"
 prompt = "A crack or spring in the ground spuming badwater. Badwater should be the same as Good.Badwater.DisplayName."
 csCZ = "Badwater Zdroj"
+viVN = "Nguồn nước ô nhiễm"
 
 ["Building.BadwaterSource.FlavorDescription"]
 raw = "\"Why do we have to clean up the hoomans' mess? Oh,xa0right, they're all dead.\" —Pina"
 status = "normal"
+csCZ = "\"Proč vůbec musíme uklízet ten nepořádek po lidech? Aha, jasně, všichni jsou mrtví.\" —Pina"
 viVN = "\"Tại sao chúng ta phải dọn dẹp mớ hỗn độn của loài người? Ồ, đúng rồi, họ đều chết hết.\" —Pina"
 
 ["Building.Bakery.Description"]
@@ -984,745 +990,1062 @@ viVN = "\"Cuối cùng bạn sẽ quen với tiếng vo ve.\"  —Ma' Ngonel"
 raw = "It rings at the beginning and the end of a workday."
 status = "normal"
 prompt = "This is a large metal bell that rings twice a day."
+csCZ = "Zvoní na začátku a na konci pracovního dne. - Poznámka: Jedná se o velký kovový zvon, který zvoní dvakrát denně."
+viVN = "Nó reo vào lúc bắt đầu và kết thúc ngày làm việc. Ghi chú đặc biệt: Đây là một chiếc chuông kim loại lớn rung hai lần mỗi ngày."
 
 ["Building.Bell.DisplayName"]
 raw = "Bell"
 status = "normal"
 prompt = "A large metal bell"
+csCZ = "Velký kovový zvon"
+viVN = "Chuông"
 
 ["Building.Bell.FlavorDescription"]
 raw = "\"It's the morning ringing you should be looking forward to.\" —Ol' Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+csCZ = "To je ranní zvonění, na které by ses měl těšit. —Ol' Kazko"
+viVN = "\"Đó là tiếng chuông buổi sáng mà bạn nên mong đợi.\" —Ol' Kazko"
 
 ["Building.Bench.DisplayName"]
 raw = "Bench"
 status = "normal"
+csCZ = "Lavice"
+viVN = "Bàn làm việc"
 
 ["Building.Bench.FlavorDescription"]
 raw = "Every now and then, some vandal will eat on the public property."
 status = "normal"
+csCZ = "Občas se stane, že nějaký vandal bude jíst na veřejném majetku."
+viVN = "Thỉnh thoảng, một kẻ phá hoại sẽ ăn trên tài sản công."
 
 ["Building.Blockage.Description"]
 raw = "A natural barrier blocking water. Can be demolished."
 status = "normal"
 prompt = "Demolished meaning removed by a worker."
+csCZ = "Přirozená bariéra blokující vodu. Lze ji zdemolovat."
+viVN = "Một rào chắn tự nhiên ngăn nước. Có thể bị phá bỏ bởi công nhân."
 
 ["Building.Blockage.DisplayName"]
 raw = "Blockage"
 status = "normal"
 prompt = "Not a dam since that's another building in game but if not possible it could be called a Natural Dam. Visually, it's a block made out of twigs and loose stones."
+csCZ = "Název klíče: Building.Blockage.DisplayName - Nový text k překladu: \"Překážka\" - Speciální poznámka: Není to hráz, protože to je jiná budova ve hře, ale pokud to není možné, mohlo by se to nazvat Přírodní hráz. Vizuálně je to blok složený z větviček a volných kamenů."
+viVN = "Rào chắn nước"
 
 ["Building.Blockage.FlavorDescription"]
 raw = "It's a wonder that nature creates something on par with beaver engineering."
 status = "normal"
+csCZ = "Je zázrak, že příroda vytváří něco na úrovni bobřího inženýrství."
+viVN = "Thật kỳ diệu khi thiên nhiên có thể tạo ra thứ gì đó xứng tầm với kỹ thuật của hải ly."
 
 ["Building.BotAssembler.Description"]
 raw = "Assembles autonomous bots to perform everyday tasks."
 status = "normal"
 prompt = "Bots should be the same as Bot.PluralDisplayName"
+csCZ = "Skládá autonomní Boti k vykonávání každodenních úkolů."
+viVN = "Lắp ráp {Bot.PluralDisplayName} tự động để thực hiện các nhiệm vụ hàng ngày."
 
 ["Building.BotAssembler.DisplayName"]
 raw = "Bot Assembler"
 status = "normal"
 prompt = "A factory for assembling bots. Bot should be the same as Bot.TemplateName"
+csCZ = "Bot Sestavovač"
+viVN = "Xưởng Lắp ráp Bot"
 
 ["Building.BotAssembler.FlavorDescription"]
 raw = "It all started with a simple \"what if I didn't have to work today\". —Pina"
 status = "normal"
+viVN = "Mọi chuyện bắt đầu từ một câu hỏi đơn giản: \"liệu hôm nay mình có thể không phải đi làm được không?\" —Pina"
 
 ["Building.BotPartFactory.Description"]
 raw = "Manufactures bot components."
 status = "normal"
 prompt = "Bot should be the same as Bot.TemplateName"
+csCZ = "Vyrábí součástky Bot."
+viVN = "Sản xuất các bộ phận bot."
 
 ["Building.BotPartFactory.DisplayName"]
 raw = "Bot Part Factory"
 status = "normal"
 prompt = "A factory for creating bot parts, that are later assembled into full bots. Bot should be the same as Bot.TemplateName."
+csCZ = "Továrna na díly botů"
+viVN = "Nhà máy Phụ tùng Rô-bốt"
 
 ["Building.BotPartFactory.FlavorDescription"]
 raw = "\"Done! Wait, what is this screw doing here?\" —Pina"
 status = "normal"
+csCZ = "\"Hotovo! Počkej, co tady dělá tenhle šroub?\" —Pina"
+viVN = "\"Xong rồi! Khoan đã, cái ốc vít này đang ở đây để làm gì vậy?\" —Pina"
 
 ["Building.Brazier.Description"]
 raw = "A blazing fire safely contained in a decorative enclosure."
 status = "normal"
+csCZ = "Planoucí oheň bezpečně uzavřený v dekorativním obalu."
+viVN = "Một ngọn lửa rực cháy được chứa an toàn bên trong một khung trang trí."
 
 ["Building.Brazier.DisplayName"]
 raw = "Brazier"
 status = "normal"
+csCZ = "Ohniště"
+viVN = "Lò than"
 
 ["Building.Brazier.FlavorDescription"]
 raw = "\"Woah, that's lit.\" —Suli"
 status = "normal"
 prompt = "Play on words with lit meaning both lit up and cool. If possible try to adapt the phrase to fit your language. Suli is a younger beaver that likes to play tricks on their fellow beavers and isn't related to any faction in particular. Translated name shouldn't suggest a gender if possible."
+csCZ = "\"\"Jé, to je pecka.\" —Suli"
+viVN = "Ôi, sáng ngầu quá. —Suli"
 
 ["Building.BrazierOfBonding.DisplayName"]
 raw = "Brazier of Bonding"
 status = "normal"
 prompt = "A large brazier surrounded by statues of a beaver family"
+csCZ = "Vatra budování pout"
+viVN = "Lò Gắn Kết"
 
 ["Building.BrazierOfBonding.FlavorDescription"]
 raw = "\"If not for us, then for the future generations.\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+csCZ = "\"Ne pro nás, ale pro budoucí generace.\" —Ma' Ngonel"
+viVN = "\"Nếu không phải vì chúng ta, thì vì các thế hệ tương lai.\" —Ma'xa0Ngonel"
 
 ["Building.BreedingPod.Description"]
 raw = "The Iron Teeth's preferred, and only, way to reproduce."
 status = "normal"
 prompt = "Iron Teeth must be the same as the faction name (Faction.IronTeeth.DisplayName)."
+csCZ = "Preferovaný, a zároveň jediný, způsob rozmnožování Iron Teeth."
+viVN = "Cách sinh sản được Iron Teeth ưa thích và duy nhất."
 
 ["Building.BreedingPod.DisplayName"]
 raw = "Breeding Pod"
 status = "normal"
+csCZ = "Chovná kapsle"
+viVN = "Buồng sinh sản"
 
 ["Building.BreedingPod.FlavorDescription"]
 raw = "\"Kits are our future. We need twelve more by next month.\" —Ol' Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+csCZ = "\"Mláďata jsou naší budoucností. Potřebujeme ještě dvanáct do příštího měsíce.\" —Ol' Kazko"
+viVN = "\"Các em con non của chúng ta là tương lai của chúng ta. Chúng ta cần thêm mười hai con trước tháng tới.\" —Ol' Kazko"
 
 ["Building.BuildersHut.Description"]
 raw = "Employs additional builders."
 status = "normal"
+csCZ = "Najímá další stavitele."
+viVN = "Tuyển thêm thợ xây."
 
 ["Building.BuildersHut.DisplayName"]
 raw = "Builders' Hut"
 status = "normal"
+csCZ = "Chýše stavitelů"
+viVN = "Nhà thợ xây"
 
 ["Building.BuildersHut.FlavorDescription"]
 raw = "Beaverome wasn't built in a day. Legend says it was six hours."
 status = "normal"
 prompt = "Beaverome is a mythical beaver city built by beavers of many different factions who banded together to work on timbertech for the greater good of all beavers."
+csCZ = "Beaverome nebylo postaveno za den. Podle legendy to trvalo šest hodin."
+viVN = "Beaverome chưa được xây dựng trong một ngày. Truyền thuyết nói rằng nó chỉ mất sáu giờ."
 
 ["Building.BulletinPole.Description"]
 raw = "A decorative pole for public messages."
 status = "normal"
+csCZ = "Dekorativní sloup pro veřejná sdělení."
+viVN = "Một cột trang trí cho các thông báo công khai."
 
 ["Building.BulletinPole.DisplayName"]
 raw = "Bulletin Pole"
 status = "normal"
+csCZ = "Vývěsní sloup"
+viVN = "Cột bảng tin"
 
 ["Building.BulletinPole.FlavorDescription"]
 raw = "Have you been injured at work? You may be eligible for compensation! Contact Suli."
 status = "normal"
 prompt = "Reference to common compensation scam text. Suli is a younger beaver that likes to play tricks on their fellow beavers and isn't related to any faction in particular. Translated name shouldn't suggest a gender if possible."
+csCZ = "Zranili jste se při práci? Můžete mít nárok na odškodnění! Kontaktujte Suli."
+viVN = "Bạn có bị thương khi làm việc không? Bạn có thể đủ điều kiện nhận bồi thường! Liên hệ với Suli."
 
 ["Building.Campfire.Description"]
 raw = "A place for beavers to relax and socialize in the evening."
 status = "normal"
+csCZ = "Místo pro bobry, kde mohou večer odpočívat a socializovat se."
+viVN = "Một nơi cho các chú hải ly thư giãn và giao lưu vào buổi tối."
 
 ["Building.Campfire.DisplayName"]
 raw = "Campfire"
 status = "normal"
+csCZ = "Táborový oheň"
+viVN = "Lửa trại"
 
 ["Building.Campfire.FlavorDescription"]
 raw = "Sometimes, fire and wood are a good match."
 status = "normal"
+csCZ = "Někdy se oheň a dřevo dobře doplňují."
+viVN = "Đôi khi lửa và gỗ là một sự kết hợp tuyệt vời."
 
 ["Building.Carousel.Description"]
 raw = "A wooden merry-go-round for beavers of all ages."
 status = "normal"
+csCZ = "Dřevěný kolotoč pro bobry všech věkových kategorií."
+viVN = "Một vòng quay ngựa gỗ dành cho hải ly ở mọi lứa tuổi."
 
 ["Building.Carousel.DisplayName"]
 raw = "Carousel"
 status = "normal"
 prompt = "Alternative name: Merry-Go-Round"
+csCZ = "Kolotoč"
+viVN = "Ngựa quay vòng"
 
 ["Building.Carousel.FlavorDescription"]
 raw = "\"Where do you think you're going, kit? These branches won't peel themselves.\" —Ma' Ngonel"
 status = "normal"
 prompt = "Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+csCZ = "\"Kam si myslíš, že jdeš, mládě bobra? Tyto větve se samy neoloupou.\" —Ma' Ngonel"
+viVN = "\"Em nghĩ mình đang đi đâu vậy, bé con? Những nhánh này sẽ không tự bóc vỏ được đâu.\" —Ma' Ngonel"
 
 ["Building.Centrifuge.Description"]
 raw = "Heavy duty machinery transforming the dangerous badwater into usable extract."
 status = "normal"
 prompt = "Badwater should be the same as Good.Badwater.DisplayName. Extract should be the same as Good.Extract.DisplayName."
+csCZ = "Těžký robustní stroj transformuje nebezpečný Good.Badwater.DisplayName na použitelný Good.Extract.DisplayName."
+viVN = "Thiết bị công suất cao biến Badwater nguy hiểm thành Extract có thể sử dụng được."
 
 ["Building.Centrifuge.DisplayName"]
 raw = "Centrifuge"
 status = "normal"
+csCZ = "Centrifuga"
+viVN = "Máy ly tâm"
 
 ["Building.Centrifuge.FlavorDescription"]
 raw = "The idea came up after a Folktails carousel ran too fast."
 status = "normal"
 prompt = "Folktails must be the same as Faction.Folktails.DisplayName, carousel should be the same as Building.Carousel.DisplayName."
+csCZ = "Nápad vznikl poté, co Folktails Karusel běžel příliš rychle."
+viVN = "Ý tưởng nảy ra sau khi Folktails {Building.Carousel.DisplayName} chạy quá nhanh."
 
 ["Building.ChargingStation.Description"]
 raw = "A place where bots come to recharge."
 status = "normal"
 prompt = "Bots should be the same as Bot.PluralDisplayName"
+csCZ = "Místo, kde roboti přicházejí, aby se nabili."
+viVN = "Một nơi mà Bots đến để sạc."
 
 ["Building.ChargingStation.DisplayName"]
 raw = "Charging Station"
 status = "normal"
 prompt = "A mechanically powered building where bots come to recharge"
+csCZ = "Nabíjecí Stanice"
+viVN = "Trạm Sạc"
 
 ["Building.ChargingStation.FlavorDescription"]
 raw = "Do not use with non-Ironbot devices."
 status = "normal"
 prompt = "Referring the annoying \"a different connector for each device\" trend in IT. Ironbot must be the same as Bot.DisplayName.IronTeeth"
+csCZ = "Nepoužívejte s zařízeními, která nejsou IronTeeth."
+viVN = "Không được sử dụng với các thiết bị không phải IronTeeth."
 
 ["Building.Chronometer.Description"]
 raw = "Sends a signal based on the time of day."
 status = "normal"
+csCZ = "Odesílá signál podle doby dne."
+viVN = "Phát tín hiệu dựa trên thời điểm trong ngày."
 
 ["Building.Chronometer.DisplayName"]
 raw = "Chronometer"
 status = "normal"
 prompt = "The name of a building which sends automation signals based on time."
+csCZ = "Časoměr"
+viVN = "Đồng hồ đo thời gian"
 
 ["Building.Chronometer.EndTime"]
 raw = "End: {0}"
 status = "normal"
 prompt = "{0} is a time in hours with h suffix, e.g. 1.2h"
+csCZ = "Konec: {0}"
+viVN = "Kết thúc: {0}"
 
 ["Building.Chronometer.Mode.NonWorkingHours"]
 raw = "Non-working hours"
 status = "normal"
 prompt = "One of the modes of the Chronometer, that makes it active during non-working hours"
+csCZ = "Mimo pracovní dobu"
+viVN = "Ngoài giờ làm việc"
 
 ["Building.Chronometer.Mode.TimeRange"]
 raw = "Time range"
 status = "normal"
 prompt = "One of the modes of the Chronometer, that lets player select custom start and end time"
+csCZ = "Časový rozsah"
+viVN = "Khoảng thời gian"
 
 ["Building.Chronometer.Mode.WorkingHours"]
 raw = "Working hours"
 status = "normal"
 prompt = "One of the modes of the Chronometer, that makes it active during working hours"
+csCZ = "Pracovní doba"
+viVN = "Giờ làm việc"
 
 ["Building.Chronometer.StartTime"]
 raw = "Start: {0}"
 status = "normal"
 prompt = "{0} is a time in hours with h suffix, e.g. 1.2h"
+csCZ = "Začátek: {0}"
+viVN = "Bắt đầu: {0}"
 
 ["Building.Clutch.Description"]
 raw = "Engages or disengages power transmission."
 status = "normal"
 prompt = "'power' must be consistent with other uses of the word in the game."
+csCZ = "Zapíná nebo vypíná přenos výkonu."
+viVN = "Kích hoạt hoặc ngắt truyền động."
 
 ["Building.Clutch.DisplayName"]
 raw = "Clutch"
 status = "normal"
 prompt = "As in the car part - it engages and disengages power shaft connections."
+csCZ = "Spojka"
+viVN = "Ly hợp"
 
 ["Building.Clutch.Mode.Disengaged"]
 raw = "Disengaged"
 status = "normal"
 prompt = "As in the car part - it engages and disengages power shaft connections."
+csCZ = "Odpojeno"
+viVN = "Ngắt kết nối"
 
 ["Building.Clutch.Mode.Engaged"]
 raw = "Engaged"
 status = "normal"
 prompt = "As in the car part - it engages and disengages power shaft connections."
+csCZ = "Sepnutý"
+viVN = "Kết nối"
 
 ["Building.CoffeeBrewery.Description"]
 raw = "Brews coffee."
 status = "normal"
 prompt = "Coffee should be the same as in Good.Coffee.DisplayName."
+csCZ = "Vaří kávu."
+viVN = "Pha cà phê."
 
 ["Building.CoffeeBrewery.DisplayName"]
 raw = "Coffee Brewery"
 status = "normal"
 prompt = "A building that brews coffee."
+csCZ = "Kávový pivovar"
+viVN = "Xưởng pha cà phê"
 
 ["Building.CoffeeBrewery.FlavorDescription"]
 raw = "Were it not for consumption limits, the Iron Teeth would not sleep at all."
 status = "normal"
+csCZ = "Kdyby nebylo omezení spotřeby, Železné Zuby by nespali vůbec."
+viVN = "Nếu không có giới hạn tiêu thụ, Răng Sắt sẽ không ngủ chút nào."
 
 ["Building.CompactWaterWheel.Description"]
 raw = "A compact generator transforming flow of water into power."
 status = "normal"
+csCZ = "Kompaktní generátor, který přeměňuje tok vody na elektřinu."
+viVN = "Một máy phát điện nhỏ gọn biến dòng nước thành điện năng."
 
 ["Building.CompactWaterWheel.DisplayName"]
 raw = "Compact Water Wheel"
 status = "normal"
 prompt = "A water wheel that's smaller than other versions."
+csCZ = "Kompaktní vodní kolo"
+viVN = "Bánh xe nước nhỏ gọn"
 
 ["Building.CompactWaterWheel.FlavorDescription"]
 raw = "Yes, you can reinvent the water wheel."
 status = "normal"
 prompt = "A play on 'can't reinvent the wheel'"
+csCZ = "Ano, můžete znovu vynalézt vodní kolo."
+viVN = "Vâng, bạn có thể phát minh lại bánh xe nước."
 
 ["Building.ContaminationBarrier.Description"]
 raw = "Stops soil contamination from spreading beneath it."
 status = "normal"
 prompt = "Ideally all uses of the word contaminate/contamination/contaminated should be uniform across the project."
+csCZ = "Zabraňuje šíření kontaminace půdy pod ním."
+viVN = "Ngăn ô nhiễm đất lan rộng dưới nó."
 
 ["Building.ContaminationBarrier.DisplayName"]
 raw = "Contamination Barrier"
 status = "normal"
 prompt = "Name of the building that stops spreading soil contamination that's placed on the ground and is presented as square shape with objects sticking out. Ideally all uses of the word contaminate/contamination/contaminated should be uniform across the project. Barrier should be the same between Building.IrrigationBarrier.DisplayName and Building.ContaminationBarrier.DisplayName."
+csCZ = "Bariéra kontaminace půdy"
+viVN = "Rào chắn ô nhiễm đất"
 
 ["Building.ContaminationBarrier.FlavorDescription"]
 raw = "\"Build a barrier a day, keep badtides away!\" —motivational poster"
 status = "normal"
 prompt = "Reference to the \"An apple a day, keeps the doctor away\" proverb. If possible try to adapt the phrase to fit your language."
+csCZ = "Postav jednu bariéru denně, ať se ti vyhýbají nepříznivé přílivy! —inspirativní plakát"
+viVN = "Xây một hàng rào mỗi ngày, giữ những đợt thủy triều xấu xa ở xa! —áp phích cổ động"
 
 ["Building.ContaminationSensor.Description"]
 raw = "Measures water contamination below its arm."
 status = "normal"
+csCZ = "Měří kontaminaci vody pod jeho ramenem."
+viVN = "Đo mức ô nhiễm nước ở dưới cánh tay của nó."
 
 ["Building.ContaminationSensor.DisplayName"]
 raw = "Contamination Sensor"
 status = "normal"
+csCZ = "Senzor kontaminace"
+viVN = "Cảm biến ô nhiễm"
 
 ["Building.ContemplationSpot.Description"]
 raw = "A small spot where beavers can contemplate nature."
 status = "normal"
+csCZ = "Malé místo, kde bobři mohou rozjímat přírodu."
+viVN = "Một chỗ nhỏ để các chú hải ly có thể ngẫm nghĩ về thiên nhiên."
 
 ["Building.ContemplationSpot.DisplayName"]
 raw = "Contemplation Spot"
 status = "normal"
+csCZ = "Místo rozjímání"
+viVN = "Nơi suy ngẫm"
 
 ["Building.ContemplationSpot.FlavorDescription"]
 raw = "Beavers spend some quiet time here, pondering the whims of mother nature."
 status = "normal"
+csCZ = "Bobři zde tráví klidný čas a přemýšlejí o rozmary matky přírody."
+viVN = "Hải ly dành một khoảng thời gian yên tĩnh ở đây, suy ngẫm về những ngẫu hứng của mẹ thiên nhiên."
 
 ["Building.ControlTower.Description"]
 raw = "A tall structure that sends out a signal to nearby bots to boost their performance."
 status = "normal"
 prompt = "Bots should be the same as Bot.PluralDisplayName"
+csCZ = "Vysoká budova, která vysílá signál do okolních robotů, aby zlepšila jejich výkon."
+viVN = "Một cấu trúc cao gửi tín hiệu tới các Bots lân cận để tăng hiệu suất của chúng."
 
 ["Building.ControlTower.DisplayName"]
 raw = "Control Tower"
 status = "normal"
 prompt = "A building that emits a signal to nearby bots"
+csCZ = "Řídicí věž"
+viVN = "Đài Điều Khiển"
 
 ["Building.ControlTower.FlavorDescription"]
 raw = "A bot must obey orders given it by beaver beings except where beavers are no more."
 status = "normal"
 prompt = "A loose adaptation of Asimov's second law of robotics (and a hint at the \"sentient AI\" scenario). Bot must be the same as Bot.TemplateName."
+csCZ = "Bot musí poslouchat rozkazy, které mu dávají bobří bytosti, kromě míst, kde bobři už nejsou."
 
 ["Building.Dam.Description"]
 raw = "Blocks water but allows some to pass through a spillway at the top."
 status = "normal"
 prompt = "Spillway is a hole near the top that allows for the water to pass."
+csCZ = "Zadržuje vodu, ale u horního přepadu umožňuje část vody protéct."
+viVN = "Chặn nước nhưng cho phép một phần nước đi qua khe xả ở phía trên."
 
 ["Building.Dam.DisplayName"]
 raw = "Dam"
 status = "normal"
+csCZ = "Přehrada"
+viVN = "Đập nước"
 
 ["Building.Dam.FlavorDescription"]
 raw = "As everyone knows, a civilization's fundaments are built underwater."
 status = "normal"
+csCZ = "Jak jistě ví každý, základy civilizace jsou postaveny pod vodou."
+viVN = "Như mọi người đã biết, nền tảng của một nền văn minh được xây dựng dưới nước."
 
 ["Building.DanceHall.Description"]
 raw = "An open hall where beavers can let their tails loose."
 status = "normal"
+csCZ = "Otevřená hala, kde si bobři mohou volně plandat ocasy."
+viVN = "Một hội trường mở nơi các chú hải ly có thể thả đuôi."
 
 ["Building.DanceHall.DisplayName"]
 raw = "Dance Hall"
 status = "normal"
+csCZ = "Taneční sál"
+viVN = "Phòng khiêu vũ"
 
 ["Building.DanceHall.FlavorDescription"]
 raw = "\"Come on, don't just stand there like some Iron Teeth bore.\" —Suli"
 status = "normal"
 prompt = "Iron Teeth must be the same as Faction.IronTeeth.DisplayName. Suli is a younger beaver that likes to play tricks on their fellow beavers and isn't related to any faction in particular. Translated name shouldn't suggest a gender if possible."
+csCZ = "\"Tak pojď, nestůj tam jen tak, jako nějakej nudnej Iron Teeth.\" —Suli"
+viVN = "\"Nào, đừng đứng đó như một kẻ chán ngắt của Iron Teeth.\" —Suli"
 
 ["Building.DecontaminationPod.Description"]
 raw = "A bath for beavers to recover from badwater exposure."
 status = "normal"
 prompt = "Badwater should be the same as Good.Badwater.DisplayName."
+csCZ = "Koupel pro bobry, která pomáhá zotavit se z expozice Badwater."
+viVN = "Một bồn tắm dành cho hải ly để hồi phục sau khi tiếp xúc với Badwater."
 
 ["Building.DecontaminationPod.DisplayName"]
 raw = "Decontamination Pod"
 status = "normal"
 prompt = "Ideally the name of the building should refer to the contamination effect on the beaver (Need.BadwaterContamination)."
+csCZ = "Dekontaminační kapsle"
+viVN = "Buồng Khử Ô Nhiễm Nước"
 
 ["Building.DecontaminationPod.FlavorDescription"]
 raw = "\"No Suli, you can't drink the extract. You fell into the cauldron when you was a kit!\" —Ma 'Ngonel"
 status = "normal"
 prompt = "Reference to Obelix from Asterix and Obelix falling into a cauldron. Suli is a younger beaver that likes to play tricks on their fellow beavers and isn't related to any faction in particular. Translated name shouldn't suggest a gender if possible. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+csCZ = "\"Ne, Suli, nemůžeš vypít ten extrakt. Spadl jsi do kotlíku, když jsi byl mládětem!\" —Ma 'Ngonel"
+viVN = "Không, Suli à, em không được uống chiết xuất. Em đã rơi vào nồi đồng khi còn là một chú! —Ma 'Ngonel"
 
 ["Building.DecorativeClock.Description"]
 raw = "A decorative timepiece large enough to be read by grandfathers."
 status = "normal"
+csCZ = "Dekorativní hodiny, dost velké na to, aby je dědečkové mohli přečíst."
+viVN = "Một chiếc đồng hồ trang trí đủ lớn để các ông nội có thể đọc được thời gian."
 
 ["Building.DecorativeClock.DisplayName"]
 raw = "Decorative Clock"
 status = "normal"
+csCZ = "Dekorační hodiny"
+viVN = "Đồng hồ trang trí"
 
 ["Building.DecorativeClock.FlavorDescription"]
 raw = "It's difficult to imagine that in the olden times, beavers used clepsydras."
 status = "normal"
 prompt = "Clepsydra is an ancient water clock."
+csCZ = "Je těžké si představit, že v dávných dobách bobři používali klepsydry."
+viVN = "Thật khó hình dung rằng vào thời cổ đại, những con hà mã đã sử dụng đồng hồ nước cổ."
 
 ["Building.DeepBadwaterPump.DisplayName"]
 raw = "Deep Badwater Pump"
 status = "normal"
 prompt = "Badwater Pump Must be the same as Building.BadwaterPump.DisplayName, Deep should be the same as in Building.DeepWaterPump.DisplayName"
+csCZ = "Hlubokovodní čerpadlo na závadnou vodu"
+viVN = "Máy bơm nước ô nhiễm sâu"
 
 ["Building.DeepBadwaterPump.FlavorDescription"]
 raw = "The extended pipe helps with both height differences and the smell."
 status = "normal"
+csCZ = "Prodloužená trubka pomáhá řešit výškové rozdíly i zápach."
+viVN = "Ống mở rộng giúp giải quyết cả sự chênh lệch độ cao và mùi."
 
 ["Building.DeepMechanicalFluidPump.DisplayName"]
 raw = "Deep Mechanical Fluid Pump"
 status = "normal"
+csCZ = "Hluboké mechanické čerpadlo kapalin"
+viVN = "Máy bơm chất lỏng cơ khí sâu"
 
 ["Building.DeepWaterPump.Description"]
 raw = "Pumps and filters water for beavers to drink. Badwater contamination slows down its pumping speed."
 status = "normal"
+csCZ = "Pumpuje vodu a filtruje ji pro bobry k pití. Kontaminace vody zpomaluje její rychlost čerpání."
+viVN = "Bơm và lọc nước cho hải ly uống nước. Ô nhiễm nước làm giảm tốc độ bơm của nó."
 
 ["Building.DeepWaterPump.DisplayName"]
 raw = "Deep Water Pump"
 status = "normal"
 prompt = "A water pump which can access deeper water than a regular pump."
+csCZ = "Hlubokovodní čerpadlo"
+viVN = "Máy bơm nước sâu"
 
 ["Building.DeepWaterPump.FlavorDescription"]
 raw = "\"The water comes from the land down under, where cattails grow and beaver's a plumber.\" —Ironxa0Teethxa0workxa0song"
 status = "normal"
 prompt = "Adapted from Men at Work's famous 'Down Under' song ; Iron Teeth is a faction name, keep consistent (Faction.IronTeeth.DisplayName)"
+csCZ = "Voda pochází z Austrálie, kde roste rákos a bobr je instalatér. —Iron Teeth work song"
+viVN = "\"Nước đến từ vùng đất ở phía dưới, nơi sậy mọc và hải ly là thợ sửa ống nước.\" —Iron Teeth work song"
 
 ["Building.DepthSensor.Description"]
 raw = "Measures water depth below its arm."
 status = "normal"
+csCZ = "Měří hloubku vody pod jeho ramenem."
+viVN = "Đo độ sâu nước dưới cánh tay của nó."
 
 ["Building.DepthSensor.DisplayName"]
 raw = "Depth Sensor"
 status = "normal"
+csCZ = "Hloubkový senzor"
+viVN = "Cảm biến độ sâu"
 
 ["Building.Detailer.Description"]
 raw = "Customizes beavers' tails."
 status = "normal"
 prompt = "This building allows the player to paint beavers' tails."
+csCZ = "Přizpůsobuje ocasy bobrů."
+viVN = "Tùy biến đuôi hải ly."
 
 ["Building.Detailer.DisplayName"]
 raw = "Detailer"
 status = "normal"
 prompt = "Detailer references that the tail customisations are details/decorations."
+csCZ = "Dekorátor"
+viVN = "Người trang trí"
 
 ["Building.Detailer.Folktails.FlavorDescription"]
 raw = "Make your tail tell a tale."
 status = "normal"
 prompt = "Only Folktails have ads, so they can also have magazines. \"Weird Tales\" is a famous pulp magazine."
+csCZ = "Název klíče: Building.Detailer.Folktails.FlavorDescription - Nový text k překladu: \"Nechte svůj ocas vyprávět příběh.\" - Poznámka: Pouze Folktails mají reklamy, takže mohou mít i magazíny. \"Weird Tales\" je slavný pulpový časopis."
+viVN = "Key name: Building.Detailer.Folktails.FlavorDescription - New Text to Translate: \"Hãy để đuôi của bạn kể một câu chuyện.\" - Specific Note: Chỉ Folktails có quảng cáo, vì vậy chúng cũng có thể có tạp chí. \"Weird Tales\" là một tạp chí pulp nổi tiếng."
 
 ["Building.Detailer.IronTeeth.FlavorDescription"]
 raw = "Come on, it doesn't hurt to get one. —Suli"
 status = "normal"
 prompt = "Wordplay, as the IT variant looks painful to use."
+csCZ = "No tak, pořídit si jedno není bolestivé. —Suli"
+viVN = "Thử xem nào, mua một cái cũng không đau đâu. —Suli"
 
 ["Building.Detonator.Description"]
 raw = "Arms the dynamite underneath it."
 status = "normal"
+csCZ = "Uzbrojí výbušninu pod ní."
+viVN = "Kích hoạt thuốc nổ ở phía dưới nó."
 
 ["Building.Detonator.DisplayName"]
 raw = "Detonator"
 status = "normal"
 prompt = "A building which arms a dynamite."
+csCZ = "Detonátor"
+viVN = "Bộ kích nổ"
 
 ["Building.DirtExcavator.Description"]
 raw = "A heavy duty mining rig for collecting dirt. It will continue to produce dirt even after reaching the bedrock."
 status = "normal"
 prompt = "Dirt must the same as Good.Dirt.DisplayName."
+csCZ = "Těžký těžební stroj pro sběr Dirt. Bude nadále produkovat Dirt i po dosažení bedrocku."
+viVN = "Một thiết bị khai thác nặng để thu thập {Good.Dirt.DisplayName}. Nó sẽ tiếp tục sản xuất {Good.Dirt.DisplayName} ngay cả khi đã đạt đến đá nền."
 
 ["Building.DirtExcavator.DisplayName"]
 raw = "Dirt Excavator"
 status = "normal"
 prompt = "A machine used to gather dirt, leaving a giant hole. Dirt must be the same as Good.Dirt.DisplayName."
+csCZ = "Bagr na hlínu"
+viVN = "Máy xúc đất"
 
 ["Building.DirtExcavator.FlavorDescription"]
 raw = "This is not a drill!"
 status = "normal"
 prompt = "It's literally not a drill. It's a different kind of mining equipment. ;)"
+csCZ = "Tohle není cvičení!"
+viVN = "Đây không phải là một máy khoan!"
 
 ["Building.DistrictCenter.Description"]
 raw = "Establishes a district with its own population, goods and an isolated path network. Employs builders."
 status = "normal"
+csCZ = "Zřizuje distrikt se svou vlastní populací, zbožím a izolovanou sítí cest. Zaměstnává stavitele."
+viVN = "Thiết lập một khu vực với dân số riêng, hàng hóa và một mạng lưới đường đi riêng biệt. Tuyển dụng thợ xây."
 
 ["Building.DistrictCenter.DisplayName"]
 raw = "District Center"
 status = "normal"
+csCZ = "Centrum distriktu"
+viVN = "Trung tâm khu vực"
 
 ["Building.DistrictCenter.FlavorDescription.Folktails"]
 raw = "\"Comfort, food, and sturdy wood.\" —Folktails motto"
 status = "normal"
 prompt = "The motto must be the same as in Faction.Folktails.Description"
+csCZ = "\"Pohodlí, jídlo a pevné dřevo.\" —Folktails motto"
+viVN = "\"Sự thoải mái, thực phẩm và gỗ chắc chắn.\" —Folktails motto"
 
 ["Building.DistrictCenter.FlavorDescription.IronTeeth"]
 raw = "\"Work hard, work hard.\" —Iron Teeth motto"
 status = "normal"
 prompt = "The motto must be the same as in Faction.IronTeeth.Description"
+csCZ = "\"Work hard, work hard.\" —motto Železných zubů"
+viVN = "\"Làm việc chăm chỉ, làm việc chăm chỉ.\" —khẩu hiệu Iron Teeth"
 
 ["Building.DistrictCrossing.Description"]
 raw = "Balances goods between the two connected districts. Each side has workers who distribute goods between the District Crossing and the rest of the district."
 status = "normal"
 prompt = "Districts should be the same as in Building.DistrictCenter.DisplayName"
+csCZ = "Vyrovnává zboží mezi dvěma propojenými distrikty. Na každé straně jsou pracovníci, kteří rozdělují zboží mezi Křižovatku distriktů a zbytek distriktu."
+viVN = "Cân bằng hàng hóa giữa hai khu được kết nối. Mỗi bên có công nhân phân phối hàng hóa giữa Nút giao khu và phần còn lại của khu."
 
 ["Building.DistrictCrossing.DisplayName"]
 raw = "District Crossing"
 status = "normal"
 prompt = "District should be the same as in Building.DistrictCenter.DisplayName"
+csCZ = "Křížení distriktu"
+viVN = "Giao lộ khu vực"
 
 ["Building.DistrictCrossing.FlavorDescription"]
 raw = "Why did a beaver cross a district?"
 status = "normal"
 prompt = "Referencing \"Why did a chicken cross a road\" jokes"
+csCZ = "Proč bobr přešel přes čtvrť?"
+viVN = "Tại sao một con hải ly lại băng qua một khu vực?"
 
 ["Building.DoubleDynamite.DisplayName"]
 raw = "Double Dynamite"
 status = "normal"
 prompt = "Dynamite that makes 2 blocks deep hole"
+csCZ = "Dvojitý dynamit"
+viVN = "Thuốc nổ đôi"
 
 ["Building.DoubleFloodgate.DisplayName"]
 raw = "Double Floodgate"
 status = "normal"
+csCZ = "Dvojité stavidlo"
+viVN = "Cửa xả lũ đôi"
 
 ["Building.DoubleFloodgate.FlavorDescription"]
 raw = "How do you improve upon perfection? You make it taller."
 status = "normal"
+csCZ = "Jak zlepšit dokonalost? Uděláte ji vyšší."
+viVN = "Làm thế nào để cải thiện sự hoàn hảo? Bạn khiến nó cao hơn."
 
 ["Building.DoubleLodge.Description"]
 raw = "A bigger lodge that fits more beavers."
 status = "normal"
+csCZ = "Větší bobří doupě, které pojme více bobrů."
+viVN = "Một căn lodge lớn hơn có thể chứa được nhiều hải ly hơn."
 
 ["Building.DoubleLodge.DisplayName"]
 raw = "Double Lodge"
 status = "normal"
 prompt = "This lodge fits twice as many beavers"
+csCZ = "Key name: Building.DoubleLodge.DisplayName - New Text to Translate: \"Dvojité bobří doupě\" - Specific Note: Toto doupě pojme dvakrát tolik bobrů"
+viVN = "Nhà trú đôi"
 
 ["Building.DoubleLodge.FlavorDescription"]
 raw = "The more the merrier."
 status = "normal"
 prompt = "This lodge fits twice as many beavers as a standard one"
+csCZ = "Čím víc, tím lépe."
+viVN = "\"Càng đông càng vui.\"\nLodge này chứa gấp đôi số hải ly so với một lodge tiêu chuẩn."
 
 ["Building.DoublePlatform.DisplayName"]
 raw = "Double Platform"
 status = "normal"
 prompt = "Double meaning twice as tall."
+csCZ = "Dvojitá platforma"
+viVN = "Nền tảng đôi"
 
 ["Building.DoublePlatform.FlavorDescription"]
 raw = "Double the height, same trademark sturdiness."
 status = "normal"
+csCZ = "Dvojnásobná výška, stejná pevnost značky."
+viVN = "Tăng gấp đôi chiều cao, vẫn giữ được độ bền đặc trưng."
 
 ["Building.DoubleShower.DisplayName"]
 raw = "Double Shower"
 status = "normal"
 prompt = "A version of Building.Shower.DisplayName that can be used by two beavers at the same time"
+csCZ = "Dvojitá sprcha"
+viVN = "Vòi sen đôi"
 
 ["Building.DoubleShower.FlavorDescription"]
 raw = "\"I liked my yesterday's shower buddy better.\" —Pina"
 status = "normal"
+csCZ = "\"Líbil se mi víc ten můj včerejší sprchový parťák.\" —Pina"
+viVN = "\"Tôi thích bạn đồng hành tắm hôm qua của tôi hơn.\" —Pina"
 
 ["Building.Dynamite.Armed"]
 raw = "Armed!"
 status = "normal"
 prompt = "Dynamite is set to detonate"
+csCZ = "Nabitý!"
+viVN = "Đã kích hoạt!"
 
 ["Building.Dynamite.BeaverDeathMessage"]
 raw = "{0} was killed by an explosion."
 status = "normal"
 prompt = "{0} stands for beaver name"
+csCZ = "{0} byl zabit výbuchem."
+viVN = "{0} đã bị giết bởi một vụ nổ."
 
 ["Building.Dynamite.CantDetonate"]
 raw = "Can't detonate, it's too low"
 status = "normal"
 prompt = "Message shows if dynamite is built on the lowest level of the map"
+csCZ = "Nelze odpálit, je to příliš nízko."
+viVN = "Không thể kích nổ, nó quá thấp."
 
 ["Building.Dynamite.Description"]
 raw = "Destroys the terrain underneath it and triggers adjacent dynamites."
 status = "normal"
 prompt = "Triggers can be changed to detonates"
+csCZ = "Zničí terén pod ním a detonuje sousední dynamitové nálože."
+viVN = "Key name: Building.Dynamite.Description - New Text to Translate: Phá hủy địa hình nằm dưới nó và kích nổ các quả thuốc nổ lân cận. - Lưu ý: Các kích hoạt có thể được đổi thành nổ"
 
 ["Building.Dynamite.Detonate"]
 raw = "Detonate"
 status = "normal"
 prompt = "A button."
+csCZ = "Detonovat"
+viVN = "Kích nổ"
 
 ["Building.Dynamite.DisplayName"]
 raw = "Dynamite"
 status = "normal"
 prompt = "There's a good called Explosives so they need to have different names"
+csCZ = "Dynamit"
+viVN = "Thuốc nổ"
 
 ["Building.Dynamite.ExplosionDepth"]
 raw = "Explosion depth: {0}"
 status = "normal"
 prompt = "Explains how deep the dynamite explosion is, {0} stands for the depth value."
+csCZ = "Hloubka výbuchu: {0}"
+viVN = "Độ sâu vụ nổ: {0}"
 
 ["Building.Dynamite.FlavorDescription"]
 raw = "Some extreme measures were needed to adapt to the post-apocalyptic world."
 status = "normal"
+csCZ = "Byla zapotřebí extrémní opatření, aby se svět přizpůsobil postapokalyptickému světu."
+viVN = "Một vài biện pháp quyết liệt đã cần thiết để thích nghi với thế giới hậu tận thế."
 
 ["Building.EarthRecultivator.Folktails.Description"]
 raw = "Distributes tree seeds across the Earth. When launched, makes the beavers in the area extra happy."
 status = "normal"
+csCZ = "Šíří po Zemi semena stromů. Když je spuštěn, způsobí, že bobři v okolí budou obzvlášť šťastní."
+viVN = "Phân phối hạt giống cây khắp Trái Đất. Khi được kích hoạt, các con hải ly trong khu vực sẽ vô cùng hạnh phúc."
 
 ["Building.EarthRecultivator.Folktails.DisplayName"]
 raw = "Earth Recultivator"
 status = "normal"
 prompt = "Earth meaning planet Earth and Recultivator meaning regenerating the planet."
+csCZ = "Rekultivátor Země"
+viVN = "Máy Phục Hồi Trái Đất"
 
 ["Building.EarthRecultivator.Folktails.FlavorDescription"]
 raw = "With each seed, hope grows."
 status = "normal"
+csCZ = "S každým semínkem roste naděje."
+viVN = "Với mỗi hạt giống, hy vọng lại lớn lên."
 
 ["Building.EarthRepopulator.IronTeeth.Description"]
 raw = "Launches pioneers to distant lands. When launched, makes the beavers in the area extra happy."
 status = "normal"
+csCZ = "Vysílá průkopníky do vzdálených krajů. Při spuštění činí bobry v okolí obzvlášť šťastnými."
+viVN = "Gửi các người tiên phong tới những vùng đất xa xôi. Khi được phóng, khiến các hải ly trong khu vực trở nên rất hạnh phúc."
 
 ["Building.EarthRepopulator.IronTeeth.DisplayName"]
 raw = "Earth Repopulator"
 status = "normal"
 prompt = "Earth meaning planet Earth and Repopulator meaning starting new colonies or restoring the population."
+csCZ = "Zemský repopulátor"
+viVN = "Phục Hồi Dân Số Trái Đất"
 
 ["Building.EarthRepopulator.IronTeeth.FlavorDescription"]
 raw = "After some now-classified tests with a catapult, this design was adopted instead."
 status = "normal"
 prompt = "This building looks like a plane runway, so this jokingly references a more primitive idea."
+csCZ = "Po několika nyní utajovaných testech s katapultem byl tento návrh přijat namísto jiného."
+viVN = "Sau một số thử nghiệm hiện đã được phân loại với một catapult, thiết kế này đã được chọn làm thay thế."
 
 ["Building.EfficientFarmhouse.Description"]
 raw = "Employs farmers to plant and harvest crops. The expanded Folktails design fits more farmers."
 status = "normal"
 prompt = "Farmhouse should be the same as in Building.Farmhouse.DisplayName"
+csCZ = "Zaměstnává farmáře k pěstování a sklizni plodin. Rozšířený návrh Folktails pojme více farmářů."
+viVN = "Thuê nông dân để trồng và thu hoạch hoa màu. Thiết kế Folktails mở rộng phù hợp với nhiều nông dân hơn."
 
 ["Building.EfficientFarmhouse.DisplayName"]
 raw = "Efficient Farmhouse"
 status = "normal"
 prompt = "Farmhouse should be the same as in Building.Farmhouse.DisplayName"
+csCZ = "Efektivní dům na farmě"
+viVN = "Nhà nông hiệu quả"
 
 ["Building.EfficientFarmhouse.FlavorDescription"]
 raw = "The efficiency depends on the \"no eating at work\" policy."
 status = "normal"
+csCZ = "Efektivita závisí na zásadě \"nejezte na pracovišti\"."
+viVN = "Hiệu quả phụ thuộc vào chính sách \"không ăn uống tại nơi làm việc\"."
 
 ["Building.EfficientMine.Description"]
 raw = "Employs miners who extract scrap metal from Underground Ruins. Innovative design maximizes mining speed."
 status = "normal"
 prompt = "Underground Ruins is a building, same as Building.Underground Ruins.DisplayName"
+csCZ = "Zaměstnává dělníky, kteří těží šrot z Podzemních ruin. Inovativní design maximalizuje rychlost těžby."
+viVN = "Thuê thợ mỏ để khai thác kim loại phế liệu từ Underground Ruins. Thiết kế sáng tạo tối đa hóa tốc độ khai thác."
 
 ["Building.EfficientMine.DisplayName"]
 raw = "Efficient Mine"
 status = "normal"
 prompt = "An extracting facility which can be placed on underground ruins."
+csCZ = "Efektivní důl"
+viVN = "Mỏ Hiệu Quả"
 
 ["Building.EfficientMine.FlavorDescription"]
 raw = "The Iron Teeth gained the upper paw by being the first to survey underground."
 status = "normal"
 prompt = "Reference to the \"upper hand\" phrase. The mine is built on top of underground human ruins."
+csCZ = "Železné zuby získaly navrch tím, že byly první, které prozkoumaly podzemí."
+viVN = "Răng Sắt đã giành được 'bàn chân trên' bằng cách là người đầu tiên khảo sát dưới lòng đất."
 
 ["Building.ExercisePlaza.Description"]
 raw = "An area designated for structured group routines to build core strength and flexibility."
 status = "normal"
+csCZ = "Prostor určený pro strukturované skupinové rutiny zaměřené na posílení síly středu těla a flexibilitu."
+viVN = "Một khu vực được chỉ định cho các bài tập nhóm có cấu trúc nhằm xây dựng sức mạnh cốt lõi và sự linh hoạt."
 
 ["Building.ExercisePlaza.DisplayName"]
 raw = "Exercise Plaza"
 status = "normal"
+csCZ = "Cvičební náměstí"
+viVN = "Quảng trường Tập luyện"
 
 ["Building.ExercisePlaza.FlavorDescription"]
 raw = "The Iron Teeth want to be like their creations - always harder, better, faster, stronger."
 status = "normal"
 prompt = "Reference to the Daft Punk song \"Harder, Better, Faster, Stronger\"."
+csCZ = "Železné zuby chtějí být jako svá díla - vždy tvrdší, lepší, rychlejší, silnější."
+viVN = "Răng Sắt muốn được như những sáng tạo của họ - luôn khó khăn hơn, tốt hơn, nhanh hơn, mạnh hơn (Harder, Better, Faster, Stronger)."
 
 ["Building.ExplosivesFactory.Description"]
 raw = "Manufactures explosives from badwater."
 status = "normal"
 prompt = "Explosives and badwater being goods names. Badwater should be the same as Good.Badwater.DisplayName."
+csCZ = "Vyrábí Explosives z Badwater."
+viVN = "Sản xuất thuốc nổ từ Badwater."
 
 ["Building.ExplosivesFactory.DisplayName"]
 raw = "Explosives Factory"
 status = "normal"
 prompt = "Explosives is name of a good.Explosives should be the same as Good.Explosives.PluralDisplayName"
+csCZ = "Továrna na výbušniny"
+viVN = "Nhà máy Chất nổ"
 
 ["Building.FarmerMonument.DisplayName"]
 raw = "Farmer Monument"
 status = "normal"
 prompt = "A large statue of a farmer carrying a bundle of wheat."
+csCZ = "Pomník farmáře"
+viVN = "Tượng đài Nông dân"
 
 ["Building.FarmerMonument.FlavorDescription"]
 raw = "Taming the wasteland, feeding the people."
 status = "normal"
+csCZ = "Krotit pustinu, uživit lidi."
+viVN = "Thuần hóa vùng hoang tàn, cung cấp lương thực cho người dân."
 
 ["Building.Farmhouse.Description"]
 raw = "Employs farmers that plant and harvest crops."
 status = "normal"
+csCZ = "Zaměstnává farmáře, kteří pěstují a sklízejí plodiny."
+viVN = "Thuê nông dân trồng và thu hoạch cây trồng."
 
 ["Building.Farmhouse.DisplayName"]
 raw = "Farmhouse"
 status = "normal"
+csCZ = "Dům na farmě"
+viVN = "Nhà trang trại"
 
 ["Building.Farmhouse.FlavorDescription"]
 raw = "Agriculture is one of the pillars on which today's beaver society stands."
 status = "normal"
+csCZ = "Zemědělství je jedním z pilířů, na nichž stojí dnešní bobří společnost."
+viVN = "Nông nghiệp là một trong những trụ cột mà xã hội hải ly ngày nay dựa trên đó."
 
 ["Building.Fermenter.Description"]
 raw = "Ferments plants to produce nutritious food."
 status = "normal"
 prompt = "Ferments should be the same as in Building.Fermenter.DisplayName"
+csCZ = "Fermentuje rostliny, aby vzniklo výživné jídlo."
+viVN = "Lên men thực vật để sản xuất thực phẩm bổ dưỡng."
 
 ["Building.Fermenter.DisplayName"]
 raw = "Fermenter"
 status = "normal"
 prompt = "A building that ferments plants to make food."
+csCZ = "Fermentér"
+viVN = "Máy lên men"
 
 ["Building.Fermenter.FlavorDescription"]
 raw = "Following a few incidents, the list of products allowed for fermentation is limited."
 status = "normal"
 prompt = "Referrencing fermentation used to produce alcoholic beverages."
+csCZ = "Po několika incidentech je seznam produktů povolených k fermentaci omezen."
+viVN = "Sau một vài sự cố, danh sách các sản phẩm được phép lên men bị giới hạn."
 
 ["Building.FillValve.Description"]
 raw = "A one-way outlet that regulates the downstream water level."
 status = "normal"
+csCZ = "Jednostranný výtok, který reguluje hladinu vody po proudu."
+viVN = "Một cửa xả một chiều điều chỉnh mực nước ở hạ lưu."
 
 ["Building.FillValve.DisplayName"]
 raw = "Fill Valve"
 status = "normal"
 prompt = "A building which works like a valve which opens and closes to maintain the level of water in a reservoir/tank that it fills (refills)."
+csCZ = "Plnící ventil"
+viVN = "Van Nạp Nước"
 
 ["Building.FillValve.TargetHeight"]
 raw = "Target height: {0}"
 status = "normal"
 prompt = "Label for a slider which sets the desired water depth."
+csCZ = "Požadovaná hloubka vody: {0}"
+viVN = "Độ sâu mục tiêu: {0}"
 
 ["Building.FillValve.TargetHeightUnlimited"]
 raw = "Unlimited"
 status = "normal"
 prompt = "Label for a slider which sets the desired water depth when set to Unlimited."
+csCZ = "Neomezeno"
+viVN = "Không giới hạn"
 
 ["Building.FillValve.Synchronize"]
 raw = "Synchronize with adjacent fill valves"
 status = "normal"
 prompt = "Label for a toggle which makes this fill valve synchronize its configuration with adjacent fill valves."
+csCZ = "Synchronizovat s sousedními plnícími ventily"
+viVN = "Đồng bộ với các van cấp nước liền kề"
 
 ["Building.FireworkLauncher.Description"]
 raw = "Shoots out celebratory fireworks."
 status = "normal"
 prompt = "Fireworks should be consistent with Good.Fireworks.DisplayName"
+csCZ = "Vystřeluje slavnostní ohňostroje."
+viVN = "Phóng pháo hoa ăn mừng."
 
 ["Building.FireworkLauncher.DisplayName"]
 raw = "Firework Launcher"
 status = "normal"
 prompt = "Name of a building which launches fireworks into the sky."
+csCZ = "Vypouštěč ohňostrojů"
+viVN = "Máy phóng pháo hoa"
 
 ["Building.FireworkLauncher.FlightDistance"]
 raw = "Flight distance: {0}"
 status = "normal"
 prompt = "Label for firework flight distance value. {0} stands for a number."
+csCZ = "Vzdálenost letu: {0}"
+viVN = "Khoảng cách bay: {0}"
 
 ["Building.FireworkLauncher.Heading"]
 raw = "Heading: {0}"
 status = "normal"
 prompt = "Label for firework heading value."
+csCZ = "Směr: {0}"
+viVN = "Hướng: {0}"
 
 ["Building.FireworkLauncher.IsContinuous"]
 raw = "Continuous launch"
 status = "normal"
 prompt = "Label for a toggle which makes the firework launcher launch fireworks continuously while activated."
+csCZ = "Kontinuální vystřelování"
+viVN = "Bắn liên tục"
 
 ["Building.FireworkLauncher.Pitch"]
 raw = "Pitch: {0}"
 status = "normal"
 prompt = "Label for firework pitch value."
+csCZ = "Úhel náklonu: {0}"
+viVN = "Góc nghiêng: {0}"
 
 ["Building.FlameOfUnity.DisplayName"]
 raw = "Flame of Unity"
 status = "normal"
 prompt = "A large beacon held by four beaver statues."
+csCZ = "Plamen jednoty"
+viVN = "Ngọn lửa đoàn kết"
 
 ["Building.FlameOfUnity.FlavorDescription"]
 raw = "\"Nothing unites as efficiently as production quotas.\" —Ol'xa0Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+new = "\"Nothing unites as efficiently as production quotas.\" —Ol'xa0Kazko"
 
 ["Building.Floodgate.Description"]
 raw = "Blocks water up to an adjustable height."
@@ -2392,6 +2715,7 @@ prompt = "Monty Python reference."
 raw = "\"You can sometimes see these fall from the sky.\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "Medium Relic is a crashed satellite. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+new = "\"You can sometimes see these fall from the sky.\" —Ma'xa0Ngonel"
 
 ["Building.MediumTank.DisplayName"]
 raw = "Medium Tank"
@@ -2481,6 +2805,7 @@ prompt = "Reference to \"beware the dog\" often written on fences."
 raw = "\"This table looked smaller in the catalog.\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "This platform looks like an enormours metal table, and Ma' Ngnonel is an older beaver. Please keep her name the same as in other localized flavor texts."
+new = "\"This table looked smaller in the catalog.\" —Ma'xa0Ngonel"
 
 ["Building.MetalPlatform3x3.Description"]
 raw = "A metal platform supported by a sturdy central column."
@@ -2512,6 +2837,7 @@ status = "normal"
 raw = "\"If you want it to last, make it metal. That's one thing hoomans did well.\" —Ol'xa0Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+new = "\"If you want it to last, make it metal. That's one thing hoomans did well.\" —Ol'xa0Kazko"
 
 ["Building.Mine.Description"]
 raw = "Employs miners who extract scrap metal from Underground Ruins."
@@ -2555,6 +2881,7 @@ status = "normal"
 raw = "\"Day after day, night after night, we struggle. It’s beautiful.\" —Ol'xa0Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+new = "\"Day after day, night after night, we struggle. It’s beautiful.\" —Ol'xa0Kazko"
 
 ["Building.MudBath.Description"]
 raw = "A mud bath mechanically infused with bubbles."
@@ -3012,6 +3339,7 @@ status = "normal"
 raw = "\"Old wood is the best. They grew it differently back then.\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+new = "\"Old wood is the best. They grew it differently back then.\" —Ma'xa0Ngonel"
 
 ["Building.ReserveTank.DisplayName"]
 raw = "Reserve Tank"
@@ -3237,6 +3565,7 @@ prompt = "{0} stands for chosen downstream depth maintained by the building."
 raw = "\"Suli, did you forget to flush the badwater again?\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "Badwater has to be consistent with Good.Badwater.DisplayName"
+new = "\"Suli, did you forget to flush the badwater again?\" —Ma'xa0Ngonel"
 
 ["Building.Sluice.MaximumDepthToggle"]
 raw = "Close above downstream depth: {0}"
@@ -3320,6 +3649,7 @@ status = "normal"
 ["Building.SmallWarehouse.FlavorDescription"]
 raw = "\"No dynamite in my pantry, please and thank you.\" —Maxa0'Ngonel"
 status = "normal"
+new = "\"No dynamite in my pantry, please and thank you.\" —Maxa0'Ngonel"
 
 ["Building.Smelter.Description"]
 raw = "Smelts scrap metal into metal blocks."
@@ -3651,6 +3981,7 @@ prompt = "Name of a monument"
 raw = "\"Of course it has a purpose. It impresses.\" —Ol'xa0Kazko"
 status = "normal"
 prompt = "Ol' Kazko is a legendary forefather of modern beavers, famous inventor, pioneer of rapid industrialization."
+new = "\"Of course it has a purpose. It impresses.\" —Ol'xa0Kazko"
 
 ["Building.TripleDynamite.DisplayName"]
 raw = "Triple Dynamite"
@@ -7304,6 +7635,7 @@ prompt = "Should be consistent with Good.Corn.DisplayName"
 raw = "\"Nothing good comes from kits playing in the corn.\" —Ma'xa0Ngonel"
 status = "normal"
 prompt = "\"Children of the corn\" reference. Ma' Ngonel is an almost legendary figure - a beaver grandma, known for her stern hand, cooking skills and respect among both kits and adult beavers. Her name is an inside joke, as our community constantly demands an addition of catapults, mangonels etc."
+new = "\"Nothing good comes from kits playing in the corn.\" —Ma'xa0Ngonel"
 
 ["NaturalResource.Dandelion.DisplayName"]
 raw = "Dandelion"
