@@ -71,6 +71,12 @@ jobs:
           git checkout -b "$TEMP_BRANCH"
           echo "Working on temporary branch: $TEMP_BRANCH"
 
+          # Export variables for use in merge step
+          echo "TEMP_BRANCH=${TEMP_BRANCH}" >> $GITHUB_ENV
+          echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
+          echo "ORIGIN_SHA=${ORIGIN_SHA}" >> $GITHUB_ENV
+          echo "FIRST_COMMIT_DONE=${FIRST_COMMIT_DONE}" >> $GITHUB_ENV
+
           # ----------------------------------------------------------------
           # commit_and_push_changes
           # Commits any dirty data/ files to the temp branch, then
@@ -121,83 +127,6 @@ jobs:
             return 1
           }
 
-          # ----------------------------------------------------------------
-          # merge_to_target
-          # Translation is the highest-priority write to the target branch.
-          #
-          # If nobody pushed to the target branch while we ran: fast-forward.
-          #
-          # If the target branch has new commits, first attempt a clean rebase.
-          # If rebase succeeds without conflicts: push normally (no displacement).
-          #
-          # Only if rebase has conflicts (automation cannot resolve them):
-          #   1. Preserve those commits on a side branch so they are not lost.
-          #   2. Force-push the translation result onto the target branch,
-          #      overriding the conflicting commits.
-          # ----------------------------------------------------------------
-          merge_to_target() {
-            if [ "$FIRST_COMMIT_DONE" = false ]; then
-              echo "No translation commits to merge into $TARGET_BRANCH"
-              cleanup_temp_branch
-              return 0
-            fi
-
-            echo "Merging translation results into $TARGET_BRANCH..."
-
-            # Fetch the latest state of the target branch.
-            git fetch origin "$TARGET_BRANCH"
-            CURRENT_TARGET_SHA=$(git rev-parse "origin/${TARGET_BRANCH}")
-
-            if [ "$CURRENT_TARGET_SHA" = "$ORIGIN_SHA" ]; then
-              # Nobody pushed to the target branch while we ran.
-              # A plain (non-force) push is a safe fast-forward here.
-              echo "No upstream changes detected; fast-forwarding $TARGET_BRANCH"
-              git push origin "HEAD:${TARGET_BRANCH}"
-              echo "Successfully merged translation into $TARGET_BRANCH"
-              cleanup_temp_branch
-            else
-              # The target branch has new commits that appeared during the run.
-              # First, attempt a clean rebase onto the updated target branch.
-              echo "Upstream $TARGET_BRANCH has new commits since $ORIGIN_SHA (now $CURRENT_TARGET_SHA)"
-              echo "Attempting rebase onto origin/${TARGET_BRANCH}..."
-
-              if git rebase "origin/${TARGET_BRANCH}" 2>&1; then
-                # Rebase succeeded with no conflicts — push normally.
-                echo "Rebase succeeded cleanly; pushing to $TARGET_BRANCH"
-                git push origin "HEAD:${TARGET_BRANCH}"
-                echo "Successfully merged translation into $TARGET_BRANCH (rebased)"
-                cleanup_temp_branch
-              else
-                # Rebase hit conflicts that automation cannot resolve.
-                # Abort rebase to restore clean temp-branch state.
-                git rebase --abort 2>/dev/null || true
-
-                # Preserve the foreign commits so they are not lost, then
-                # force-push the translation result onto the target branch.
-                DISPLACED_BRANCH="preserved/displaced-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
-                echo "Rebase conflict detected; automation cannot resolve conflicts"
-                echo "Preserving displaced commits on $DISPLACED_BRANCH..."
-                git push origin "${CURRENT_TARGET_SHA}:refs/heads/${DISPLACED_BRANCH}"
-                echo "Displaced commits saved to $DISPLACED_BRANCH"
-
-                echo "Force-pushing translation result onto $TARGET_BRANCH..."
-                git push --force origin "HEAD:${TARGET_BRANCH}"
-                echo "Successfully applied translation to $TARGET_BRANCH"
-                echo "Note: commits that were on $TARGET_BRANCH during the run are preserved on $DISPLACED_BRANCH"
-                cleanup_temp_branch
-              fi
-            fi
-          }
-
-          # ----------------------------------------------------------------
-          # cleanup_temp_branch
-          # Deletes the remote temp branch once it has been merged.
-          # ----------------------------------------------------------------
-          cleanup_temp_branch() {
-            git push origin --delete "$TEMP_BRANCH" 2>/dev/null || true
-            echo "Deleted remote temp branch $TEMP_BRANCH"
-          }
-
           checkpoint_loop() {
             while true; do
               sleep "$CHECKPOINT_INTERVAL"
@@ -226,10 +155,9 @@ jobs:
                 wait "$TRANSLATE_PID" 2>/dev/null || true
                 TRANSLATE_PID=""
               fi
-              # Save whatever progress Python wrote to disk, but do NOT merge
-              # into the target branch — leave it on TEMP_BRANCH for review.
+              # Save whatever progress Python wrote to disk
               commit_and_push_changes || true
-              echo "Partial translation results saved to $TEMP_BRANCH (not merged into $TARGET_BRANCH)"
+              echo "Partial translation results saved to $TEMP_BRANCH"
             fi
           }
 
@@ -245,10 +173,11 @@ jobs:
               TRANSLATE_PID=""
             fi
 
-            # Commit whatever Python saved, then merge into the target branch
-            # so partial progress is not lost behind a temp branch.
+            # Commit whatever Python saved
             commit_and_push_changes || true
-            merge_to_target || true
+            # Mark that we have commits to merge (for merge step to handle)
+            FIRST_COMMIT_DONE=true
+            echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
             exit 130
           }
 
@@ -291,13 +220,114 @@ jobs:
             echo "Translation failed with exit code $EXIT_CODE"
             echo "Partial results left on $TEMP_BRANCH for manual review"
             echo "failed=true" >> $GITHUB_OUTPUT
+            # Still set FIRST_COMMIT_DONE so merge step will attempt merge
+            FIRST_COMMIT_DONE=true
+            echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
             exit 1
           fi
 
-          # Translation succeeded: push result to target branch.
-          merge_to_target
-          echo "Translation completed and merged into $TARGET_BRANCH successfully"
+          # Translation succeeded: mark for merge
+          FIRST_COMMIT_DONE=true
+          echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
+          echo "Translation completed, ready for merge"
           echo "completed=true" >> $GITHUB_OUTPUT
+      
+      - name: Merge translation results to target branch
+        id: merge
+        if: always() && env.FIRST_COMMIT_DONE == 'true'
+        run: |
+          TARGET_BRANCH="${{ env.TARGET_BRANCH }}"
+          TEMP_BRANCH="${{ env.TEMP_BRANCH }}"
+          ORIGIN_SHA="${{ env.ORIGIN_SHA }}"
+          FIRST_COMMIT_DONE="${{ env.FIRST_COMMIT_DONE }}"
+          
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # ----------------------------------------------------------------
+          # cleanup_temp_branch
+          # Deletes the remote temp branch once it has been merged.
+          # ----------------------------------------------------------------
+          cleanup_temp_branch() {
+            git push origin --delete "$TEMP_BRANCH" 2>/dev/null || true
+            echo "Deleted remote temp branch $TEMP_BRANCH"
+          }
+          
+          # ----------------------------------------------------------------
+          # merge_to_target
+          # Translation is the highest-priority write to the target branch.
+          #
+          # If nobody pushed to the target branch while we ran: fast-forward.
+          #
+          # If the target branch has new commits, first attempt a clean rebase.
+          # If rebase succeeds without conflicts: push normally (no displacement).
+          #
+          # Only if rebase has conflicts (automation cannot resolve them):
+          #   1. Preserve those commits on a side branch so they are not lost.
+          #   2. Force-push the translation result onto the target branch,
+          #      overriding the conflicting commits.
+          # ----------------------------------------------------------------
+          merge_to_target() {
+            if [ "$FIRST_COMMIT_DONE" != "true" ]; then
+              echo "No translation commits to merge into $TARGET_BRANCH"
+              cleanup_temp_branch
+              return 0
+            fi
+            
+            echo "Merging translation results into $TARGET_BRANCH..."
+            
+            # Fetch the latest state of the target branch.
+            git fetch origin "$TARGET_BRANCH"
+            CURRENT_TARGET_SHA=$(git rev-parse "origin/${TARGET_BRANCH}")
+            
+            if [ "$CURRENT_TARGET_SHA" = "$ORIGIN_SHA" ]; then
+              # Nobody pushed to the target branch while we ran.
+              # A plain (non-force) push is a safe fast-forward here.
+              echo "No upstream changes detected; fast-forwarding $TARGET_BRANCH"
+              git push origin "HEAD:${TARGET_BRANCH}"
+              echo "Successfully merged translation into $TARGET_BRANCH"
+              cleanup_temp_branch
+            else
+              # The target branch has new commits that appeared during the run.
+              # First, attempt a clean rebase onto the updated target branch.
+              echo "Upstream $TARGET_BRANCH has new commits since $ORIGIN_SHA (now $CURRENT_TARGET_SHA)"
+              echo "Attempting rebase onto origin/${TARGET_BRANCH}..."
+              
+              if git rebase "origin/${TARGET_BRANCH}" 2>&1; then
+                # Rebase succeeded with no conflicts — push normally.
+                echo "Rebase succeeded cleanly; pushing to $TARGET_BRANCH"
+                git push origin "HEAD:${TARGET_BRANCH}"
+                echo "Successfully merged translation into $TARGET_BRANCH (rebased)"
+                cleanup_temp_branch
+              else
+                # Rebase hit conflicts that automation cannot resolve.
+                # Abort rebase to restore clean temp-branch state.
+                git rebase --abort 2>/dev/null || true
+                
+                # Preserve the foreign commits so they are not lost, then
+                # force-push the translation result onto the target branch.
+                DISPLACED_BRANCH="preserved/displaced-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
+                echo "Rebase conflict detected; automation cannot resolve conflicts"
+                echo "Preserving displaced commits on $DISPLACED_BRANCH..."
+                git push origin "${CURRENT_TARGET_SHA}:refs/heads/${DISPLACED_BRANCH}"
+                echo "Displaced commits saved to $DISPLACED_BRANCH"
+                
+                echo "Force-pushing translation result onto $TARGET_BRANCH..."
+                git push --force origin "HEAD:${TARGET_BRANCH}"
+                echo "Successfully applied translation to $TARGET_BRANCH"
+                echo "Note: commits that were on $TARGET_BRANCH during the run are preserved on $DISPLACED_BRANCH"
+                cleanup_temp_branch
+              fi
+            fi
+          }
+          
+          # Checkout the temp branch to merge
+          git checkout "$TEMP_BRANCH"
+          echo "Checked out temp branch $TEMP_BRANCH for merge"
+          
+          # Perform merge
+          merge_to_target
+          echo "Merge step completed"
       
       - name: Upload translation log as artifact
         if: always()

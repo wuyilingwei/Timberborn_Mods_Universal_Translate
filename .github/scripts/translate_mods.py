@@ -1333,44 +1333,33 @@ def process_all_files(
     """
     Process all TOML files in the data directory.
 
-    Thread allocation strategy
-    --------------------------
-    ``max_threads`` is the *total* concurrency budget.  Threads are distributed
-    across two levels:
+    Thread allocation strategy (OPTIMIZED)
+    --------------------------------------
+    **Simplified single-level concurrency** to avoid over-parallelization:
 
     1. **File level** – up to ``min(num_files, max_threads)`` files run in
        parallel.
-    2. **Entry level** – spare capacity beyond what active files consume is
-       redistributed dynamically.  When files complete and fewer remain active,
-       each still-running file receives more entry-level threads (capped at
-       ``max_threads_per_file``).  This prevents idle threads when the queue
-       drains down to a handful of files.
+    2. **Entry level** – **SERIALIZED** within each file.  Entries are processed
+       one at a time to reduce thread contention and rate-limit queue pressure.
+    3. **Language level** – within each entry, all target languages are translated
+       in parallel (up to ``min(num_languages, max_threads_per_file)`` threads).
 
-    Critically, the entry-thread count is re-evaluated **before each entry**
-    (not just at file start), so a file that began with 1 entry-thread will
-    automatically scale up to its fair share as sibling files finish.
+    This model prevents the "thundering herd" problem where hundreds of threads
+    compete for rate-limited API calls, causing timeouts and slowdowns.
 
-    Example with ``max_threads=30``, ``max_threads_per_file=10``:
-    - 30 files active  → 1 entry-thread per file
-    - 15 files active  → 2 entry-threads per file
-    - 3  files active  → 10 entry-threads per file (capped)
-    - 1  file  active  → 10 entry-threads for that file (capped)
-
-    The active-file count is tracked with an atomic counter protected by a
-    lock; each entry invocation reads the current count to compute its
-    ``entry_threads`` budget on-the-fly.
-
-    Within each entry, languages are still parallelised independently (up to
-    ``max_threads_per_file`` language-threads per entry).
+    Example with ``max_threads=10``:
+    - 10 files active → 1 file per thread, entries serialized, languages parallel
+    - 5 files active → same, but more CPU headroom per file
+    - 1 file  active → full resources for language-level parallelism
 
     Args:
         data_dir: Directory containing TOML files
         translator: Translator instance
         target_languages: List of target language codes
-        max_threads: Total concurrency budget (file-level × entry-level ≤ this)
-        max_threads_per_file: Upper bound on entry-level threads per file.
-            Controls how many entries a single file may process concurrently
-            even when it is the only active file.
+        max_threads: Total concurrency budget for file-level parallelism.
+            Each file processes entries sequentially but translates languages in parallel.
+        max_threads_per_file: Upper bound on language-level threads per entry.
+            Controls how many languages a single entry may translate concurrently.
         dry_run: If True, don't write changes
         max_time: Maximum processing time in seconds.
     """
@@ -1404,31 +1393,18 @@ def process_all_files(
     active_file_threads = min(len(toml_files), max_threads)
 
     # ------------------------------------------------------------------
-    # Dynamic entry-thread counter
+    # Optimized thread allocation: file-level parallelism only
     # ------------------------------------------------------------------
-    # ``_active_files`` tracks how many files are currently being processed.
-    # Each file wrapper reads this on entry to determine its entry_threads
-    # budget, so files that start late (when the queue has drained) get a
-    # proportionally larger share of the thread budget.
-    _active_files_lock = threading.Lock()
-    _active_files_count = [0]  # mutable int wrapped in list for closure
-
-    def _compute_entry_threads() -> int:
-        """Return entry-thread count based on current active-file count."""
-        with _active_files_lock:
-            active = max(1, _active_files_count[0])
-        return max(1, min(max_threads_per_file, max_threads // active))
-
-    def _process_file_dynamic(toml_file) -> Tuple[int, int]:
-        """Wrapper that adjusts entry_threads based on live active-file count."""
-        with _active_files_lock:
-            _active_files_count[0] += 1
-        entry_threads = _compute_entry_threads()
-
+    # Each file processes entries sequentially, but translates all languages
+    # within an entry in parallel. This prevents over-parallelization where
+    # hundreds of threads compete for rate-limited API calls.
+    
+    def _process_file_wrapper(toml_file) -> Tuple[int, int]:
+        """Wrapper that processes a single file with serialized entries."""
         if _work_tracker:
             _work_tracker.record_start(
                 "file", toml_file.name,
-                detail=f"active_files={_active_files_count[0]}, entry_threads={entry_threads}"
+                detail=f"entry_threads=1 (serialized), language_threads={max_threads_per_file}"
             )
 
         # Ingame files (_ingame*.toml) are translated only for languages that are
@@ -1444,32 +1420,28 @@ def process_all_files(
 
         logger.info(
             f"[threads] Start {toml_file.name}: "
-            f"active_files={_active_files_count[0]}, entry_threads={entry_threads}"
+            f"entries=sequential, language_threads={max_threads_per_file}"
         )
         try:
+            # Pass 1 for entry-level threads (serialized), max_threads_per_file for language-level
             return process_toml_file(
                 str(toml_file),
                 translator,
                 file_languages,
                 dry_run,
-                _compute_entry_threads,
+                max_entry_threads=1,  # Serialize entries within each file
             )
         finally:
             if _work_tracker:
                 _work_tracker.record_end("file", toml_file.name)
-            with _active_files_lock:
-                _active_files_count[0] -= 1
-            remaining = _active_files_count[0]
-            entry_threads_now = _compute_entry_threads()
             logger.info(
-                f"[threads] Done  {toml_file.name}: "
-                f"active_files={remaining}, entry_threads now={entry_threads_now}"
+                f"[threads] Done  {toml_file.name}"
             )
 
     logger.info(
-        f"Thread allocation: up to {active_file_threads} concurrent file(s), "
-        f"entry-threads per file computed dynamically on each entry "
-        f"(total budget: {max_threads}, cap per file: {max_threads_per_file})"
+        f"Thread allocation (OPTIMIZED): up to {active_file_threads} concurrent file(s), "
+        f"entries processed sequentially within each file, "
+        f"languages translated in parallel (max {max_threads_per_file} per entry)"
     )
 
     total_translations = 0
@@ -1479,7 +1451,7 @@ def process_all_files(
         # Process files in parallel
         with ThreadPoolExecutor(max_workers=active_file_threads) as executor:
             futures = {
-                executor.submit(_process_file_dynamic, toml_file): toml_file
+                executor.submit(_process_file_wrapper, toml_file): toml_file
                 for toml_file in toml_files
             }
             
@@ -1501,17 +1473,17 @@ def process_all_files(
                 except Exception as e:
                     logger.error(f"Error processing {toml_file}: {e}")
     else:
-        # Single file at a time: process sequentially at file level but use entry-level parallelism
-        logger.info("Processing files sequentially (entry-level parallelism active)")
+        # Single file at a time: process sequentially at file level but use language-level parallelism
+        logger.info("Processing files sequentially (language-level parallelism active)")
         for toml_file in toml_files:
             # Check timeout before processing each file
             if max_time and (time.time() - start_time) >= max_time:
-                logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of remaining files.")
+                logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of new files.")
                 logger.info(f"Processed {len(toml_files) - toml_files.index(toml_file)} of {len(toml_files)} files before timeout")
                 break
             
             try:
-                translations, entries = _process_file_dynamic(toml_file)
+                translations, entries = _process_file_wrapper(toml_file)
                 total_translations += translations
                 total_entries += entries
             except Exception as e:
