@@ -38,6 +38,14 @@ max_threads = 10
 # With 12 target languages, setting this to 12 means all languages translate at once.
 max_threads_per_file = 12
 
+# Cost control settings
+# Maximum cost per run in USD. Translation will stop if this limit is reached.
+# Set to 0 to disable cost limiting.
+max_cost_per_run = 2.0
+
+# Cost warning threshold in USD. A warning will be logged if exceeded.
+cost_warning_threshold = 1.0
+
 [llm]
 # LLM model to use for translation
 model = "gpt-5-nano"

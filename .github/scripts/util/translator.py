@@ -18,8 +18,16 @@ from typing import Optional
 
 class TranslatorLLM:
     """
-    OPENAI-STYLED LLM API Translator with rate limiting
+    OPENAI-STYLED LLM API Translator with rate limiting and cost tracking
     """
+    
+    # OpenAI pricing per 1K tokens (as of 2024, update as needed)
+    MODEL_PRICES = {
+        "gpt-5-nano": {"input": 0.000025, "output": 0.00005},
+        "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
+        "gpt-4o": {"input": 0.005, "output": 0.0015},
+        "gpt-4-turbo": {"input": 0.01, "output": 0.03},
+    }
     
     def __init__(
         self,
@@ -28,7 +36,9 @@ class TranslatorLLM:
         api_url: str = "https://api.openai.com/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
-        rate_limit: str = "10/m"
+        rate_limit: str = "10/m",
+        max_cost: float = 0.0,
+        cost_warning_threshold: float = 1.0
     ):
         """
         Initialize the LLM translator
@@ -51,6 +61,17 @@ class TranslatorLLM:
         self._rate_limit_lock = threading.Lock()
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
+        
+        # Cost tracking and control
+        self._cost_lock = threading.Lock()
+        self.total_tokens = {"input": 0, "output": 0, "total": 0}
+        self.total_cost = 0.0
+        self.request_count = 0
+        self.success_count = 0
+        self.fail_count = 0
+        self.max_cost = max_cost
+        self.cost_warning_threshold = cost_warning_threshold
+        self._warning_shown = False
         
     def _parse_rate_limit(self) -> None:
         """Parse the rate limit string into number and unit"""
@@ -121,11 +142,13 @@ class TranslatorLLM:
         if not self.api_token:
             raise ValueError("API token is required")
             
-        # Check text length
-        if not text or len(text.strip()) == 0:
-            self.logger.warning("Empty text provided")
+        # Check if translation should proceed (includes empty text check and cost limit)
+        if not self.should_translate(text):
+            if not text or len(text.strip()) == 0:
+                self.logger.debug("Empty text, skipping translation")
             return text
-            
+        
+        # Check text length
         if len(text) < self.min_length:
             self.logger.debug(f"Text too short ({len(text)} < {self.min_length}), returning as-is")
             return text
@@ -166,20 +189,142 @@ class TranslatorLLM:
                 timeout=30
             )
             
+            # Track request count
+            with self._cost_lock:
+                self.request_count += 1
+            
             if response.status_code == 200:
                 response_data = response.json()
                 translated_text = response_data['choices'][0]['message']['content'].strip()
+                
+                # Track token usage and cost
+                usage = response_data.get('usage', {})
+                if usage:
+                    input_tokens = usage.get('prompt_tokens', 0)
+                    output_tokens = usage.get('completion_tokens', 0)
+                    total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
+                    
+                    with self._cost_lock:
+                        self.total_tokens['input'] += input_tokens
+                        self.total_tokens['output'] += output_tokens
+                        self.total_tokens['total'] += total_tokens
+                        self.success_count += 1
+                        
+                        # Calculate cost
+                        price = self.MODEL_PRICES.get(self.model, {"input": 0, "output": 0})
+                        cost = (input_tokens * price['input'] + output_tokens * price['output']) / 1000
+                        self.total_cost += cost
+                        
+                        self.logger.info(
+                            f"Token usage: input={input_tokens}, output={output_tokens}, "
+                            f"total={total_tokens}, cost=${cost:.6f}"
+                        )
+                else:
+                    # No usage data in response, log warning
+                    with self._cost_lock:
+                        self.success_count += 1
+                    self.logger.warning("No usage data in API response, cannot track tokens")
+                
                 self.logger.debug(f"Translation successful: {text[:30]}... -> {translated_text[:30]}...")
                 return translated_text
             else:
+                with self._cost_lock:
+                    self.fail_count += 1
                 self.logger.error(
                     f"Translation failed with status {response.status_code}: {response.text}"
                 )
                 return None
                 
         except requests.RequestException as e:
+            with self._cost_lock:
+                self.fail_count += 1
             self.logger.error(f"Request failed: {e}")
             return None
         except (KeyError, IndexError) as e:
+            with self._cost_lock:
+                self.fail_count += 1
             self.logger.error(f"Failed to parse response: {e}")
             return None
+    
+    def get_cost_summary(self) -> str:
+        """Return a human-readable cost summary"""
+        with self._cost_lock:
+            return (
+                f"\n{'='*60}\n"
+                f"TRANSLATION COST SUMMARY\n"
+                f"{'='*60}\n"
+                f"Model: {self.model}\n"
+                f"Total Requests: {self.request_count}\n"
+                f"Successful: {self.success_count}\n"
+                f"Failed: {self.fail_count}\n"
+                f"Success Rate: {self.success_count/max(1,self.request_count)*100:.1f}%\n"
+                f"\nToken Usage:\n"
+                f"  Input tokens:  {self.total_tokens['input']:,}\n"
+                f"  Output tokens: {self.total_tokens['output']:,}\n"
+                f"  Total tokens:  {self.total_tokens['total']:,}\n"
+                f"\nEstimated Cost: ${self.total_cost:.4f} USD\n"
+                f"{'='*60}\n"
+            )
+    
+    def get_cost_summary_dict(self) -> dict:
+        """Return cost summary as dictionary for programmatic access"""
+        with self._cost_lock:
+            return {
+                "model": self.model,
+                "request_count": self.request_count,
+                "success_count": self.success_count,
+                "fail_count": self.fail_count,
+                "success_rate": self.success_count/max(1,self.request_count)*100,
+                "input_tokens": self.total_tokens['input'],
+                "output_tokens": self.total_tokens['output'],
+                "total_tokens": self.total_tokens['total'],
+                "estimated_cost_usd": self.total_cost,
+            }
+    
+    def check_cost_limit(self) -> bool:
+        """
+        Check if cost limit is exceeded.
+        
+        Returns:
+            True if within limits, False if exceeded
+        """
+        if self.max_cost <= 0:
+            return True  # No limit set
+        
+        with self._cost_lock:
+            if self.total_cost > self.max_cost:
+                self.logger.error(
+                    f"Cost limit exceeded! Current: ${self.total_cost:.4f}, "
+                    f"Limit: ${self.max_cost:.2f}"
+                )
+                return False
+            
+            # Check warning threshold
+            if not self._warning_shown and self.total_cost > self.cost_warning_threshold:
+                self.logger.warning(
+                    f"⚠️ Cost warning: Current cost ${self.total_cost:.4f} "
+                    f"exceeds threshold ${self.cost_warning_threshold:.2f}"
+                )
+                self._warning_shown = True
+            
+            return True
+    
+    def should_translate(self, text: str) -> bool:
+        """
+        Check if translation should proceed based on cost limits.
+        
+        Args:
+            text: Text to be translated
+            
+        Returns:
+            True if translation can proceed, False otherwise
+        """
+        # Skip empty text
+        if not text or len(text.strip()) == 0:
+            return False
+        
+        # Check cost limit before making API call
+        if not self.check_cost_limit():
+            return False
+        
+        return True

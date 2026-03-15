@@ -1650,13 +1650,22 @@ def main():
         rpm = rate_config.get("max_requests_per_minute", 10)
         rate_limit = f"{rpm}/m"
         
+        # Cost control settings
+        max_cost = rate_config.get("max_cost_per_run", 0.0)
+        cost_warning = rate_config.get("cost_warning_threshold", 1.0)
+        
+        if max_cost > 0:
+            logger.info(f"Cost limit enabled: max ${max_cost:.2f} per run, warning at ${cost_warning:.2f}")
+        
         translator = TranslatorLLM(
             api_token=api_token,
             model=llm_config.get("model", "gpt-4o-mini"),
             api_url=llm_config.get("api_url", "https://api.openai.com/v1/chat/completions"),
             min_length=llm_config.get("min_length", 1),
             max_length=llm_config.get("max_length", 5000),
-            rate_limit=rate_limit
+            rate_limit=rate_limit,
+            max_cost=max_cost,
+            cost_warning_threshold=cost_warning
         )
         
         max_threads = rate_config.get("max_threads", 1)
@@ -1679,6 +1688,20 @@ def main():
             dry_run=args.dry_run,
             max_time=args.max_time
         )
+        
+        # Output cost summary
+        logger.info(translator.get_cost_summary())
+        
+        # Write cost report to file for GitHub Actions summary
+        cost_report_path = os.path.join(os.path.dirname(args.log_file) or '.', 'cost_report.json')
+        try:
+            import json
+            cost_data = translator.get_cost_summary_dict()
+            with open(cost_report_path, 'w', encoding='utf-8') as f:
+                json.dump(cost_data, f, indent=2)
+            logger.info(f"Cost report written to {cost_report_path}")
+        except Exception as e:
+            logger.error(f"Failed to write cost report: {e}")
         
         logger.info("All done!")
         
