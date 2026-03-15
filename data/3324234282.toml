@@ -1921,6 +1921,14 @@ koKR = "신호 설정: {0} = {1}"
 csCZ = "nastavit signál: {0} = {1}"
 viVN = "Thiết lập tín hiệu: {0} = {1}"
 
+["IgorZ.Automation.Scriptable.Signals.Action.Set.SignalNameArgument"]
+new = "Signal name"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Signals.Action.Set.SignalValueArgument"]
+new = "Signal value"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Signals.Signal.Get"]
 raw = "signal: {0}"
 status = "normal"
@@ -2018,8 +2026,8 @@ csCZ = "odstranit pracovníky"
 viVN = "Loại bỏ công nhân"
 
 ["IgorZ.Automation.Scriptable.Workplace.Action.SetPriority"]
-status = "normal"
 raw = "worker priority: {0}"
+status = "normal"
 enUS = "Worker priority: {0}"
 zhCN = "工人优先级：{0}"
 zhTW = "工人優先級: {0}"
@@ -2050,8 +2058,8 @@ csCZ = "přiřadit {0} pracovníků"
 viVN = "phân công {0} công nhân"
 
 ["IgorZ.Automation.Scriptable.Workplace.Signal.AssignedWorkers"]
-status = "normal"
 raw = "assigned workers"
+status = "normal"
 enUS = "Assigned workers"
 zhCN = "已分配的工人"
 zhTW = "已分配的工人"
@@ -2161,6 +2169,10 @@ koKR = "동작은 'act' 연산자여야 합니다"
 csCZ = "Akce musí být operátor 'act'"
 viVN = "Hành động phải là toán tử 'act'"
 
+["IgorZ.Automation.Scripting.Editor.ActionArgumentName"]
+new = "Argument #{0}"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.AddRuleFromScriptBtn"]
 raw = "Add script"
 status = "normal"
@@ -2210,8 +2222,8 @@ csCZ = "(max: {0})"
 viVN = "(tối đa: {0})"
 
 ["IgorZ.Automation.Scripting.Editor.ArgumentMinValueHint"]
-status = "normal"
 raw = "(min: {0})"
+status = "normal"
 enUS = "(min: {0})"
 zhCN = "(最小值: {0})"
 zhTW = "(最小值: {0})"
@@ -2274,8 +2286,8 @@ csCZ = "Podmínka musí obsahovat alespoň jeden signál"
 viVN = "Điều kiện phải chứa ít nhất một tín hiệu"
 
 ["IgorZ.Automation.Scripting.Editor.ConstantTypeDecimals"]
-status = "normal"
 raw = "decimals"
+status = "normal"
 enUS = "Decimals"
 zhCN = "小数"
 zhTW = "小數"
@@ -2290,8 +2302,8 @@ csCZ = "Desetinná čísla"
 viVN = "số thập phân"
 
 ["IgorZ.Automation.Scripting.Editor.ConstantTypeString"]
-status = "normal"
 raw = "string"
+status = "normal"
 enUS = "string"
 zhCN = "字符串"
 zhTW = "字串"
@@ -2306,8 +2318,8 @@ csCZ = "řetězec"
 viVN = "Key name: IgorZ.Automation.Scripting.Editor.ConstantTypeString - New Text to Translate: \"chuỗi\""
 
 ["IgorZ.Automation.Scripting.Editor.ConstantTypePercent"]
-status = "normal"
 raw = "percent"
+status = "normal"
 enUS = "percent"
 zhCN = "百分比"
 zhTW = "百分比"
@@ -2322,8 +2334,8 @@ csCZ = "procent"
 viVN = "phần trăm"
 
 ["IgorZ.Automation.Scripting.Editor.ConstantTypeWholeNumber"]
-status = "normal"
 raw = "whole number"
+status = "normal"
 enUS = "whole number"
 zhCN = "整数"
 zhTW = "整數"

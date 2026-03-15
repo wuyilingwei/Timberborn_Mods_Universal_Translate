@@ -1,0 +1,22 @@
+[_meta]
+name = "Resource Monitor"
+
+["Building.ResourceMonitor.DisplayName"]
+new = "Resource Monitor"
+status = "normal"
+
+["Building.ResourceMonitor.Description"]
+new = "Changes and holds its state based on a min and max signals"
+status = "normal"
+
+["Building.ResourceMonitor.FlavorDescription"]
+new = "Better than a Resource Counter!"
+status = "normal"
+
+["Building.ResourceMonitor.Mode.FillRate"]
+new = "Percent (%)"
+status = "normal"
+
+["Building.ResourceMonitor.Mode.StockLevel"]
+new = "Quantity"
+status = "normal"

@@ -1,7 +1,7 @@
 [_meta]
 name = "Whitepaws Faction 1.0"
 
-[_meta.glossary."tank"]
+[_meta.glossary.tank]
 zhCN = "水罐"
 zhTW = "水罐"
 
@@ -10071,6 +10071,7 @@ viVN = "Các tiến sĩ vật lý hạt nhân"
 
 ["Lapantouflemagic.BetterDamDrain.DisplayName"]
 raw = "Sluice Lodge"
+new = "Valve Lodge"
 status = "normal"
 enUS = "Sluice Lodge"
 zhCN = "水闸小屋"
@@ -10631,6 +10632,7 @@ viVN = "Kho của người đốn gỗ"
 
 ["Lapantouflemagic.NEWLumberjackHouse.Description"]
 raw = "A half-barn, half-lodge building used as a workplace for a group of lumberjacks. Contains a few tools to help them do their job efficiently.\n<color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+new = "A half-barn, half-lodge building used as a workplace for a group of lumberjacks. Contains a few tools to help them do their job efficiently.\nHas a <color=#FF6EC7>triangle roof</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
 status = "normal"
 enUS = "A half-barn, half-lodge building used as a workplace for a group of lumberjacks. Contains a few tools to help them do their job efficiently.\n<color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
 zhCN = "“一个半谷仓、半小屋的建筑，作为一组伐木工人的工作场所。内部包含一些工具，以帮助他们高效地完成工作。\n<color=#FF6EC7>可以进行升级</color>\n<color=#00FFFF>可作为坝堤使用</color>”"
@@ -10663,6 +10665,7 @@ viVN = "\"Bố mình tuyệt nhất! Ông ấy đã xây cả căn nhà của ch
 
 ["Lapantouflemagic.TappersShack.Description"]
 raw = "Employs a whole team of tappers to harvest resin from pine trees.\n<color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+new = "Employs a whole team of tappers to harvest resin from pine trees.\nHas a <color=#FF6EC7>triangle roof</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
 status = "normal"
 enUS = "Employs a whole team of tappers to harvest resin from pine trees.  \n<color=#FF6EC7>Can support upgrades</color>  \n<color=#00FFFF>Works as a Levee</color>"
 zhCN = "雇佣一整支采集团队从松树中收集树脂。\n<color=#FF6EC7>可以支持升级</color>\n<color=#00FFFF>作为堤坝使用</color>"
@@ -10695,6 +10698,7 @@ viVN = "Nhà của Người Gặt Hái"
 
 ["Lapantouflemagic.TriangleGatheringHouse.Description"]
 raw = "A reworked farmhouse used by a group of harvester beavers to meet and split work efficiently.\n<color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+new = "A reworked farmhouse used by a group of harvester beavers to meet and split work efficiently.\nHas a <color=#FF6EC7>triangle roof</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
 status = "normal"
 enUS = "A reworked farmhouse used by a group of harvester beavers to meet and split work efficiently.  \n<color=#FF6EC7>Can support upgrades</color>  \n<color=#00FFFF>Works as a Levee</color>"
 zhCN = "“一个重新设计的农舍，由一群采集者海狸使用，以便高效地会面和分配工作。\n<color=#FF6EC7>能够支持升级</color>\n<color=#00FFFF>可以作为堤坝使用</color>”"
@@ -10727,6 +10731,7 @@ viVN = "\"Đừng dám bước vào nhà tôi khi đang đầy bụi bẩn và n
 
 ["Lapantouflemagic.NEWFarmhouse.Description"]
 raw = "Employs a farmer that plant and harvest crops.\n<color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+new = "Employs a farmer that plant and harvest crops.\nHas a <color=#FF6EC7>triangle roof</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
 status = "normal"
 enUS = "Employs a farmer that plants and harvests crops.  \n<color=#FF6EC7>Can support upgrades</color>  \n<color=#00FFFF>Works as a Levee</color>"
 zhCN = "“雇佣一名农民种植和收获农作物。  \n<color=#FF6EC7>可以支持升级</color>  \n<color=#00FFFF>可以作为堤坝使用</color>”"
@@ -14597,6 +14602,368 @@ koKR = "메탄 엔진"
 csCZ = "Metanový motor"
 viVN = "Động cơ metan"
 
+["Lapantouflemagic.IncenseBurner.DisplayName"]
+new = "Aromatic Burner"
+status = "normal"
+
+["Lapantouflemagic.IncenseBurner.Description"]
+new = "A small pedestal on which Brain Boosting Salts are slowly burned for their smell."
+status = "normal"
+
+["Lapantouflemagic.IncenseBurner..FlavorDescription"]
+new = "\"It’s only a matter of time before some idiot stuffs his snout directly into it…\""
+status = "normal"
+
+["Lapantouflemagic.GigargantuanTank.DisplayName"]
+raw = "Gigargantuan Tank"
+status = "abandoned"
+enUS = "Gigargantuan Tank"
+zhCN = "巨型坦克"
+zhTW = "巨型巨獸坦克"
+ruRU = "Гигантский танк"
+jaJP = "ギガガンチュアンタンク"
+frFR = "Tank Gigargantuan"
+deDE = "Gigargantuaner Tank"
+plPL = "Gigantyczny Czołg"
+ptBR = "Tanque Gigargantuan"
+koKR = "거대 탱크"
+csCZ = "Gigantický tank"
+viVN = "Xe tăng khổng lồ"
+
+["Lapantouflemagic.GigargantuanTank.Description"]
+raw = "A structure of excessive proportions designed to not only store, but also watch over an absurdly large amount of liquid.\n<color=#00FFFF>Works as a Levee</color>"
+new = "A liquid storage tank of epic proportions."
+status = "abandoned"
+enUS = "A structure of excessive proportions designed to not only store, but also oversee an absurdly large amount of liquid. <color=#00FFFF>Works as a Levee</color>"
+zhCN = "一个过度尺寸的结构，旨在不仅存储，而且监视大量液体。  \n<color=#00FFFF>可以作为堤坝使用</color>"
+zhTW = "一個超大比例的建築，不僅用來儲存，還用來監視大量的液體。  \n<color=#00FFFF>作為堤防運作</color>"
+ruRU = "Структура огромных размеров, предназначенная не только для хранения, но и для наблюдения за абсурдно большим объемом жидкости.  \n<color=#00FFFF>Работает как плотина</color>"
+jaJP = "「異常な量の液体を保存するだけでなく、見守るために設計された過剰な大きさの構造物です。<color=#00FFFF>堤防として機能します</color>」"
+frFR = "Une structure de proportions excessives conçue non seulement pour stocker, mais aussi pour surveiller une quantité absurde de liquide. <color=#00FFFF>Fonctionne comme une digue</color>"
+deDE = "Eine Struktur übermäßiger Proportionen, die nicht nur dazu dient, eine absurd große Menge an Flüssigkeit zu speichern, sondern auch darüber zu wachen.  \n<color=#00FFFF>Funktioniert als Deich</color>"
+plPL = "Konstrukcja o nadmiernych proporcjach zaprojektowana nie tylko do przechowywania, ale także do obserwacji absurdalnie dużej ilości cieczy.  \n<color=#00FFFF>Działa jako wał</color>"
+ptBR = "Uma estrutura de proporções excessivas projetada não apenas para armazenar, mas também para vigiar uma quantidade absurdamente grande de líquido.  \n<color=#00FFFF>Funciona como um dique</color>"
+koKR = "과도한 비율로 설계된 구조물로, 어마어마한 양의 액체를 저장할 뿐만 아니라 지켜보는 역할도 합니다.  \n<color=#00FFFF>제방 역할을 합니다</color>"
+csCZ = "Stavba extrémních proporcí, navržená nejen k ukládání, ale také k dohledu nad absurdně velkým množstvím kapaliny.  \n<color=#00FFFF>Funguje jako hráz</color>"
+viVN = "Một cấu trúc có kích thước quá mức được thiết kế không chỉ để chứa, mà còn để giám sát một lượng chất lỏng cực kỳ lớn.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
+
+["Lapantouflemagic.GigargantuanTank.FlavorDescription"]
+raw = "\"The day I can swim in a pool of kimchi, will be the day this town has surpassed the place we come from\"\n-The expedition leader"
+new = "\"At last, my dream to swim in kimchi may come truexa0!\"\n- Mathilda the insane cook"
+status = "abandoned"
+enUS = "\"The day I can swim in a pool of kimchi will be the day this town has surpassed the place we come from.\"  \n-The expedition leader"
+zhCN = "“我可以在泡菜池中游泳的那一天，就是这个城镇超越我们来自之地的那一天。”  \n——探险队长"
+zhTW = "“當我能在泡菜池中游泳的那一天，便是這個城鎮超越我們來自的地方的那一天。”  \n— 探險隊隊長"
+ruRU = "\"В тот день, когда я смогу плавать в бассейне с кимчи, это будет день, когда этот город превзойдет то место, откуда мы пришли\" - Лидер экспедиции"
+jaJP = "「私がキムチのプールで泳げる日が来たとき、この町は私たちが来た場所を超えたということになります。」  \n-探検隊のリーダー"
+frFR = "\"Le jour où je pourrai nager dans une piscine de kimchi, ce sera le jour où cette ville aura surpassé l'endroit d'où nous venons.\"  \n-Le chef de l'expédition"
+deDE = "„Der Tag, an dem ich in einem Pool aus Kimchi schwimmen kann, wird der Tag sein, an dem diese Stadt den Ort, aus dem wir kommen, übertroffen hat.\"  \n- Der Expeditionsleiter"
+plPL = "„Dzień, w którym będę mógł pływać w basenie kimchi, będzie dniem, w którym to miasto przewyższy miejsce, z którego pochodzimy.”  \n– Lider ekspedycji"
+ptBR = "\"O dia em que eu puder nadar em uma piscina de kimchi será o dia em que esta cidade terá superado o lugar de onde viemos.\"  \n- O líder da expedição"
+koKR = "\"내가 김치 수영장에서 수영할 수 있는 날이 이 마을이 우리가 온 곳을 초월한 날이 될 것입니다.\"  \n- 탐험대장"
+csCZ = "\"Den, kdy si budu moct zaplavat v bazénu kimchi, bude dnem, kdy toto město překonalo místo, odkud pocházíme.\"  \n- Vedoucí expedice"
+viVN = "\"Ngày tôi có thể bơi trong một hồ kimchi, sẽ là ngày thị trấn này đã vượt qua nơi chúng ta xuất phát.\"\n-Trưởng đoàn thám hiểm"
+
+[TUTORIAL]
+new = "TUTORIAL"
+status = "normal"
+
+[ENTRIES]
+new = "ENTRIES"
+status = "normal"
+
+["Tutorial.Tutorial.Whitepaws"]
+new = "An Unfortunate Opportunity"
+status = "normal"
+
+["Tutorial.Basics.Whitepaws"]
+new = "Foundations of a Settlement"
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.Whitepaws"]
+new = "Planks, Sawdust, and Sensible Priorities"
+status = "normal"
+
+["Tutorial.BuildNewDC.Whitepaws"]
+new = "Concealing the Cart Incident"
+status = "normal"
+
+["Tutorial.LetsCook.Whitepaws"]
+new = "Civilized Meals"
+status = "normal"
+
+["Tutorial.ProperSawmill.Whitepaws"]
+new = "Civilized Plank Production"
+status = "normal"
+
+["Tutorial.Library.Whitepaws"]
+new = "The Quest for Knowledge"
+status = "normal"
+
+["Tutorial.IrrigationBranch.Whitepaws"]
+new = "From the Directorate of Hydrological Discipline"
+status = "normal"
+
+["Tutorial.ChemistryBranch.Whitepaws"]
+new = "From the Directorate of Applied Chemistry"
+status = "normal"
+
+["Tutorial.MechanicBranch.Whitepaws"]
+new = "From the Directorate of Mechanical Advancement"
+status = "normal"
+
+["Tutorial.ArchitectBranch.Whitepaws"]
+new = "From the Directorate of Structural Ambition"
+status = "normal"
+
+["Tutorial.BlueprintDuplicationA.Whitepaws"]
+new = "From the Bureau of Intellectual Property"
+status = "normal"
+
+["Tutorial.BlueprintDuplicationB.Whitepaws"]
+new = "From the Bureau of Intellectual Property"
+status = "normal"
+
+["Tutorial.ALetterFromHome.Whitepaws"]
+new = "A letter From Home"
+status = "normal"
+
+["Tutorial.Tutorial.WelcomeText.Whitepaws"]
+new = "Dear Expedition Leader,\n\nIf you are reading this, you have either discovered a promising site for settlement… or, far more plausibly, stranded yourself in the middle of nowhere after exercising the exceptional judgment for which you are widely known.\n\nWe will send instructions on how to establish a viable colony. We strongly encourage you to follow them precisely, as improvisation is unlikely to improve your current situation.\n\nDo try not to doom the industrious, optimistic, and tragically trusting individuals you convinced to accompany you into exile. Their only mistake was believing you.\n\nShould the settlement fail, please ensure the failure remains local.\n\nRemember that this expedition is equal parts your punishment and an experiment.\n\nDo not come back."
+status = "normal"
+
+["Tutorial.Basics.PlaceFences.Whitepaws"]
+new = "A brief precaution.\n\nYou may have noticed that the local brambles possess an admirable enthusiasm for expansion. Unlike your expedition plans, they spread efficiently and without hesitation.\n\nBefore they overtake your entire settlement — which they will — pause your operations and construct at least one Fence Gate and four sections of Fence to contain them.\n\nWe recommend acting sooner rather than later, unless you wish to conduct future correspondence from inside a shrub."
+status = "normal"
+
+["Tutorial.Basics.BuildBath.Whitepaws"]
+new = "A Matter of Standards\n\nWe Whitepaws take great pride in our immaculate coats. Cleanliness is not a luxury — it is a reflection of who we are.\n\nConstruct a River Bath in the river, or provide Showers if you insist on engineering where nature would suffice.\n\nBe advised: a Whitepaw who cannot get cleaned up will go on strike. Negotiations rarely improve the situation.\n\nWe know you enjoy a good riot.\n\nYou will find it significantly less amusing when you are the target."
+status = "normal"
+
+["Tutorial.Basics.BuildMoreBasics.Whitepaws"]
+new = "A brief clarification, lest you attempt to imitate our cousins the Folktails.\n\nWe Whitepaws do not separate labor from shelter when it can be avoided. Most of our workplaces also serve as lodgings, and most of our lodgings are <color=#00FFFF>watertight</color>. We are beavers : our dams are our houses, and our houses are our dams. This is the law.\n\nYou may notice these structures “<color=#00FFFF>work as levees</color>.”\n\nTo ensure stability and modest growth, construct a second Farmhouse, a second Water Pump, and one Forester.\n\nThese additions will bring your settlement to fifteen beds. With adequate housing, new births may follow.\n\nTheir fate will also be your responsibility"
+status = "normal"
+
+["Tutorial.Basics.BuildMinimalStorage.Whitepaws"]
+new = "You will now address storage.\n\nConstruct appropriate facilities to contain your growing supplies. Disorder is the first sign of failure.\n\nBuild a Log Pile for timber. Build storage for Pine Resin. It may appear unnecessary at present. It will soon be required.\n\nRice, despite sentimental objections you may invent, is to be stored in a Pile like any other granular resource. Coal does not complain. Dirt does not complain. Rice will adapt."
+status = "normal"
+
+["Tutorial.Basics.BuildTanks.Whitepaws"]
+new = "You may feel the urge to construct a dam. This instinct is understandable. It is also premature.\n\nBuilding a proper semi-permeable dam would require metal fixtures that we currently do not have. We need to wait and endure.\n\nConstruct four Small Water Tanks and two Pit Tanks. Store water while it still flows."
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.BuildLogGnawingandStorage.Whitepaws"]
+new = "We must address your so-called “District Center.”\n\nTake a moment to observe it. Yes — that pile of splintered wood and disappointed debris. That is not an administrative hub. That is evidence of your personnality.\n\nTo establish a proper District Center, you will require Planks. Logs alone do not constitute progress.\n\nConstruct a Log Gnawing Station to process timber into planks. In addition, build appropriate storage for Planks and for Sawdust.\n\nWe sent you to found a new town, not to camp beside a traffic accident."
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.BuildMushroomGrower.Whitepaws"]
+new = "A note regarding Sawdust.\n\nYou may have noticed that your Log Gnawing Station produces it in quantities exceeding aesthetic value. Left unattended, it will accumulate, obstruct operations, and quietly undermine your efficiency.\n\nFortunately, sawdust is still wood. It can be used to cultivate Mushrooms in a Mushroom Grower.\n\nThere are two accepted methods:\n– A faster process using sawdust directly.\n– A slower method using whole logs.\n\nWhich is superior is an old and moldy debate, and does not yield mushrooms.\n\nDo both, fungi are patient. Your settlers are not."
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.BuildHaulerHouse.Whitepaws"]
+new = "As previously stated, certain buildings can function without assigned workers. This does not mean they function without effort. They require deliveries.\n\nConstruct a Lodge to provide dedicated Haulers. Other structures capable of housing haulers are equally acceptable. The important matter is that someone carries what must be carried.\n\nYou will also recall that our block-formed buildings are watertight. This is not decorative, consider placing the Lodge directly within the river. Narrowing the current now will simplify future dam construction.\n\nWe are beavers. Every structure is an opportunity to reshape the river."
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.MaxPrioFarm.Whitepaws"]
+new = "A word on priorities.\n\nYou have access to five levels of urgency. This does not mean you are expected to use “Maximum” as a personality trait.\n\nAssign Maximum Priority <color=red>only</color> to the Farms and Water Pumps. Food and water sustain the colony. Without them, other concerns resolve themselves rather quickly.\n\nThe Forester is important. It is not urgent. Set it to High Priority, not Maximum.\n\nIf everything is critical, nothing is.\n\nYour settlers can only be in one place at a time. We trust this is not new information."
+status = "normal"
+
+["Tutorial.PlanksSawdustAndPriorities.MinPriorityMushroomGrower.Whitepaws"]
+new = "A colony is not defined by how many buildings it possesses, but by how many it can meaningfully operate.\n\nCertain structures, including the Woodburner and the Mushroom Growers, are capable of functioning without constant supervision. You may have noticed the annotation:\n\n<color=#FF6EC7>Can function without workers.</color>\n\nSet both Mushroom Growers and the Woodburner to Minimal Priority.\nLikewise, set the Clay Pit and the Gatherer’s Flag to Low Priority. This way they will operate when labor is abundant and pause when it is not.\n\nEveryone enjoys a relaxed job.\n\nManagement does not.\n\nHopefully you have not forgotten that you are the management now."
+status = "normal"
+
+["Tutorial.LetsCook.BuildClaypit.Whitepaws"]
+new = "It seems you have managed to secure the basic necessities. Survival, however, is not the same as refinement.\n\nWith Mushrooms and Cabbages, you may now prepare Braised Cabbage — a meal properly cooked rather than merely harvested. You will find that cooking produces more nourishment than the simple sum of its ingredients.\n\nThis is not magic. It is organization.\n\nTo begin, construct a Clay Pit and extract Clay. Civilized meals require proper vessels, and proper vessels require proper materials.\n\nClay is stored in boxes, should you be interested in such trivia.\n\nWe Whitepaws do not merely survive. We dine."
+status = "normal"
+
+["Tutorial.LetsCook.BuildWoodburner.Whitepaws"]
+new = "Having secured clay, you will now require fire.\n\nConstruct a Woodburner. It will harden clay into usable materials, logs may be transformed into Coal and, should your enthusiasm for Planks exceed your foresight, dispose of excess Sawdust.\n\nWhen placing the Woodburner, note that its entrance is on the first floor. Your convenience matters little to engineers.\n\nSet the building to fabricate clay pots.\n\nFire elevates a settlement from survival to industry. Use it carefully."
+status = "normal"
+
+["Tutorial.LetsCook.BuildCookingTent.Whitepaws"]
+new = "With clay pots prepared, you may now construct a Cooking Tent.\n\nBuild the Cooking Tent and begin preparing Braised Cabbage.\n\nCooked meals sustain morale. Morale increases productivity. Increased productivity compensates for your mistakes."
+status = "normal"
+
+["Tutorial.LetsCook.BuildClaypotStorage.Whitepaws"]
+new = "Clay Pots, once fired, are not to be discarded carelessly among common goods.\n\nConstruct a Glorious Storage to house them properly. Certain items deserve presentation and display. We are not savages.\n\nThat said, restraint is advised. A modest supply of clay pots will suffice."
+status = "normal"
+
+["Tutorial.LetsCook.BuildHandOfSoup.Whitepaws"]
+new = "Braised Cabbage, once prepared, is not meant to cool into disappointment. Go ahead and try.\n\nTo preserve warmth, you must first construct the Hand of Soup. This clay structure serves as a fire pit and foundation. Heat must come from somewhere.\n\nUpon it, build the Warm Storage — the bowl in which meals are kept heated and ready for distribution.\n\nThe Hand may be oriented left or right. Choose wisely. Crimes against symmetry shall be punished."
+status = "normal"
+
+["Tutorial.ProperSawmill.BuildShaftBillboard.Whitepaws"]
+new = "The Library requires a considerable quantity of planks. Gnawing logs into shape will suffice for now, but we prefer progress to dental heroics.\n\nYou may therefore consider constructing a Rudimentary Sawmill. It is faster, more efficient, and considerably less embarrassing.\n\nHowever, the sawmill requires Power.\n\nTo understand how to connect power properly, place the <color=green>Billboard</color>: “How to Connect Power.”\n\nActually building the billboard is not required. Placing it, is.\nPlease do not question how this works.\n\nWe recommend observing it carefully, keep in mind that shaft plugs and windows are, in fact, no the same."
+status = "normal"
+
+["Tutorial.ProperSawmill.BuildWaterwheelandSawmill.Whitepaws"]
+new = "Having consulted the instructional billboard, you may now construct the Rudimentary Sawmill.\n\nIn most circumstances, one or two Crappy Waterwheels will suffice to power it. Position them in flowing water. We trust you can identify flowing water without assistance.\n\nShould you be fortunate enough to settle near a <color=green>Geothermal Field</color>, a <color=green>Geothermal Engine</color> is also acceptable.\n\nHowever you choose to power it, ensure the sawmill is supplied with <color=green>sawblades</color>, those are made by the workers of your <color=green>primitive ironworks</color> who surely regret following you by now.\n\nShould you decide to build a stock of those, sawblades are stored in piles."
+status = "normal"
+
+["Tutorial.ProperSawmill.ConnectSawmill.Whitepaws"]
+new = "Should you not have done so already, you may now connect your power source to the Sawmill.\n\nIf you encounter difficulty, consult again the “How to Connect Power” billboard. Unlike… someone… it did not seize the first opportunity to run away.\n\nThe sawmill’s shaft plug is located on the rear side of the structure — ground floor, to the right. Hopefully you noticed this before actually building it.\n\nUnlike some savages, we do not run power shafts through our living rooms."
+status = "normal"
+
+["Tutorial.ProperSawmill.BuildPlankTanks.Whitepaws"]
+new = "Your Rudimentary Sawmill should now be operational. Observe its yield.\n\nEach log produces two planks, at greater speed, and with less sawdust generated in the process. This is what we mean by progress.\n\nConstruct six Plank Tanks. They are significantly more efficient than the small water tanks you assembled in haste.\n\nIf resources are limited, dismantling your existing small tanks to reclaim the logs is acceptable.\n\nTemporary solutions should remain temporary."
+status = "normal"
+
+["Tutorial.BuildNewDC.BuildNewDistrictCenter.Whitepaws"]
+new = "While you were certainly scattering yourself on several self-inflicted tasks, your Log Gnawing Station should have produced sufficient planks to construct a proper District Center.\n\nBuild the new center <color=red>before</color> dismantling the original. Your builders work from the cart, removing it prematurely would make them very upset.\n\nWhen you do dismantle the cart, several important items will be released into the debris. They are marked with <color=red>red icons</color>. \n\nRed usually indicates importance. We trust this concept is familiar. These are not decorative and – in fact – vital for the success of your colony.\n\nEnsure these materials are collected before the rubble disappears."
+status = "normal"
+
+["Tutorial.BuildNewDC.BuildDynamitestorage.Whitepaws"]
+new = "Among the contents recovered from the dismantled cart, you may have noticed several sticks of <color=green>Dynamite</color>.\n\nYou are free to use these explosives as you see fit. We recommend doing so wisely, but who are we kidding ?\n\nPrepare an adequate storage for explosives. In case you have forgotten, common sense says to keep them in a dry, covered, and locked building."
+status = "normal"
+
+["Tutorial.BuildNewDC.BuildMetalBasics.Whitepaws"]
+new = "Among the recovered materials from the cart, you will have secured an <color=green>Anvil</color>.\n\nWith it, you may construct a Primitive Ironworks — and with ironworks, we may finally speak of real engineering.\n\nTo supply it, establish a Scavenger Flag and begin collecting Scrap Metal from nearby ruins.\n\nIn addition, construct a Primitive Mine. It may extract Iron Ore or Coal, both of which can be refined into scrap metal within an <color=green>Ore Smelter</color>. Alternatively, coal can be obtained from the <color=green>woodburner</color>, should your tendency to destroy the environment have already got the best of you.\n\nWith this, you can at last build a proper dam and make droughts easier on your people.\n\nAccidentally, you might even make your mother proud. And surpised."
+status = "normal"
+
+["Tutorial.BuildNewDC.BuildOreStorage.Whitepaws"]
+new = "With mining operations underway, you will require proper storage for raw materials.\n\nConstruct a Large Pile for Iron Ore, and another for Coal.\n\nIf mined minerals remain stored inside the mine, have they truly been mined?"
+status = "normal"
+
+["Tutorial.BuildNewDC.PlaceLibrary.Whitepaws"]
+new = "You have secured water, food, and iron. This is acceptable.\n\nIt is now time to pursue something rarer: knowledge.\n\nAmong the items recovered from the cart was an <color=green>Incredibly Compact Library Set</color>. We dare to hope you did not mistake it for dried food.\n\nStart construction of a Library. It will take time to complete. Scholarship rarely tolerates haste.\n\nOnce operational, it will allow the generation of Science, and with science, progress beyond improvisation."
+status = "normal"
+
+["Tutorial.Library.BuildBadShroomEssentials.Whitepaws"]
+new = "Your Library may still be under construction. This is expected.\n\nHowever, knowledge does not emerge from architecture alone. Study requires three elements: sustenance, hydration… and stimulation.\n\nTo supply the latter, you must obtain <color=green>Badwater</color>.\n\nFor now, construct a Badwater Bucketing Post and begin collection from your environment. This task carries certain health risks. Exposure causes illness, if anyone, <i>you</i> should remember.\n\nBuild the appropriate facility. Surely you remember from experience the appropriate treatment, do not make us spell it out."
+status = "normal"
+
+["Tutorial.Library.BuildfermentationBarrelandLumberjackhouse.Whitepaws"]
+new = "A studying session would only yield boredom if not supplemented with snacks, and by snacks we mean <color=green>Kimchi</color>.\n\nTo produce Kimchi, you will need <color=green>Bramble Flowers</color>, they are harvested by Lumberjacks. However, the task is… extensive. Assigning unqualified flag workers to the task would condemn them to a tedious and prickly existence.\n\nConstruct a Woodfelling Planification Lodge or a Lumberjack’s Barn near brambles so that properly qualified workers can take care of it. Qualified workers get a little hat, that is how you know they are qualified.\n\nAlso, mark the brambles for cutting. They will not volunteer.\n\nThose buildings will require <color=green>Tools</color>. These are fabricated in the <color=green>Primitive Ironworks</color>. Competence works better with equipment.\n\nWhile this is getting done, construct three stacks of Fermentation Barrels. Patience will convert sharpness into nourishment."
+status = "normal"
+
+["Tutorial.Library.PlantSunflowersandStorage.Whitepaws"]
+new = "Only psychopaths would snack on Kimchi all day. Sane beavers will also require Sunflower Seeds and Berries to munch on.\n\nPlant Sunflowers if you have not done so already.\n\nConstruct appropriate storage for the seeds. As with Rice — and all other granular materials — they are to be kept in a Pile.\n\nWe are aware that certain heretics prefer to box them up. Our seeds have not committed any crime yet.\n\nYour Foresters are probably still unable to plant new berry bushes. This is a recurring issue in new settlements.\n\nProtect the ones you have as much as possible."
+status = "normal"
+
+["Tutorial.Library.BuildBadshroomGrower.Whitepaws"]
+new = "Snacks alone do not make a genius out of a fool, and we have reason to believe your team may be short on geniuses.\n\nFortunately, certain mushrooms continue to grow in the toxic sludge known as Badwater, and these specimens possess… useful properties.\n\nNo, they do not cause visions of flying hoomans. Nor do they induce spontaneous joy. They primarily enhance focus, memory, and imagination.\n\nThey also occasionally cause <i>you-know-what</i>. Manage it accordingly.\n\nConstruct a third Mushroom Grower and configure it to cultivate <color=green>Brain-Stimulating Mushrooms</color>.\n\nPrepare suitable storage as well. Intellectual advancement should not be left on the ground."
+status = "normal"
+
+["Tutorial.Library.PlaceFlorist.Whitepaws"]
+new = "As stated previously, attempts at replanting <color=green>berries</color> are often unsuccessful. Yet they remain necessary.\n\nShould your supply prove insufficient — whether by neglect or enthusiastic removal — berries may also be cultivated by a Florist.\n\nNote that each Florist has a small terrace in front of it for growing flowers. Surprising, isn't it?\n\nThis terrace must rest above ground level, or atop structures without a roof such as paths, piles, or warehouses. Common sense would also suggest leaving sufficient clearance above the plants.\n\nPlace two Florists to familiarize yourself with their arrangement. <color=green>You may pause or dismantle them later</color>."
+status = "normal"
+
+["Tutorial.Library.PlaceHandicrafter.Whitepaws"]
+new = "The Florist is capable of more than berry cultivation. Most notably, it can produce <color=green>Plant Fibers</color>.\n\nFibers, when properly spun into <color=green>Rope</color>, enable construction techniques unavailable to the unprepared — <color=green>suspension bridges</color>, <color=green>rope stairs</color>, and <color=green>ziplines</color> among them.\n\nTo process fibers, place a Handicrafter.\n\nThe Handicrafter may also be tasked with producing other useful items, including properly assembled <color=green>explosives</color>, should the need for decisive terrain modification arise.\n\nPlace one Handicrafter to familiarize yourself with its function. <color=green>You may pause or dismantle it later</color>."
+status = "normal"
+
+["Tutorial.Library.BuildPrimitivePapermill.Whitepaws"]
+new = "With the Library nearing completion, it is time to prepare for written scholarship.\n\nAmong the recovered items from the cart was a <color=green>Metal Cauldron</color>. Such vessels are commonly associated with cooking, but we will apply it to a higher purpose.\n\nThe few promising minds unfortunate enough to have been born in your... general vicinity... will require something better than bark and flat rocks upon which to record their ideas.\n\nConstruct a Primitive Papermill. Within it, sawdust and pine resin are boiled together to produce <color=green>paper</color> in the traditional manner.\n\nYou may have noticed that sawdust now fuels mushroom cultivation, artificial soil for the florist, and soon, paper production. It is no longer waste, use it wisely."
+status = "normal"
+
+["Tutorial.Library.CompleteLibrary.Whitepaws"]
+new = "You are still alive. Interesting.\n\nIt appears the necessary preparations have been established.\n\nThe Library now only needs to be completed.\n\nMaintain stable supply lines while the work concludes."
+status = "normal"
+
+["Tutorial.Library.AccumulateScience.Whitepaws"]
+new = "With the Library operational, your settlement may now generate Science.\n\nAccumulate 100 Science Points. This will mark the transition from improvisation to planification.\n\nShould you find it difficult to maintain a steady supply of Berries and Sunflower Seeds for study — particularly if other beavers insist on consuming them recreationally — consider preparing <color=green>Cereal Bars</color> in the <color=green>Cooking Tent</color>.\n\nProperly prepared, they satisfy both desires more efficiently than the raw ingredients.\n\nScholars require provisions. So do opportunists."
+status = "normal"
+
+["Tutorial.Library.WhatNextText.Whitepaws"]
+new = "You have secured water, industry, scholarship, and structured governance.\n\nThis is… satisfactory.\n\nReaching this stage of development exceeds several internal projections. As a consequence, certain parties within this bureau are now wealthier than they were previously. Others seem distressed at your success for unexplained reasons.\n\nWe assure you there was no wager placed on your odds of long-term survival. Officially.\n\nYou may now proceed with greater autonomy. The settlement is stable enough to pursue multiple avenues of advancement. Four principal paths stand before you.\n\nExplore them as you see fit. They are not mutually exclusive. In fact, you are expected to explore all of them eventually.\n\nContinue."
+status = "normal"
+
+["Tutorial.IrrigationBranch.IrrigationText.Whitepaws"]
+new = "You may have learned at school that there are irregularities in the water cycle. These are not temporary inconveniences.\n\n<color=red>Badtides</color> will come. When they do, every flowing body of water will turn hostile.\n\nWater must be disciplined before it disciplines you.\n\n<color=green>Follow up on this letter as soon as you are able to</color>. We will guide you in securing your settlement against this scourge and restoring order to the river.\n\nPanic is common. It is also inefficient."
+status = "normal"
+
+["Tutorial.IrrigationBranch.BuildIrrigationLodge.Whitepaws"]
+new = "Your correspondence has been received.\n\nThe timing is appropriate. Conditions suggest an elevated probability of environmental instability. We recommend immediate preparatory action.\n\nBegin by constructing at least one Irrigation Tower.\n\nPlacement is strategic. Install it on dry land you wish to cultivate, near riverbanks vulnerable to contamination, or both. Water must be directed with intention.\n\nBy default, the tower irrigates surrounding soil. This is useful. It is insufficient.\n\nWhen supplied with <color=green>Pollution Resistance Factor</color>, the tower’s field effect will repel soil contamination originating from badwater. This is preferable.\n\nConstruct a Distillery to manufacture Pollution Resistance Factor. It is stored in tanks, like any other liquid. It may also be used as a basic treatment against badwater poisoning.\n\nHydrological events cannot be prevented. Their consequences can."
+status = "normal"
+
+["Tutorial.IrrigationBranch.BuildValveHouse.Whitepaws"]
+new = "Your badwater readiness level is improving. Let us continue.\n\nProtecting your farmland is essential, but for us Whitepaws, who live in constant wetness, letting badwater flow freely through your village is unacceptable.\n\nA disciplined river must be given instructions. To that end, you must now begin construction of a proper dam.\n\nIn most circumstances, wisdom dictates beginning with a Valve Lodge at the base of your future dam. These structures allow you to regulate the passage of water.\n\nThe Valve Lodge requires <color=green>Gears</color>. Several should have been recovered from the cart. If they have been allocated elsewhere, additional gears may be produced in a <color=green>Mechanic’s Lodge</color>."
+status = "normal"
+
+["Tutorial.ChemistryBranch.ChemistryText.Whitepaws"]
+new = "Progress produces byproducts. Some are useful. Some are volatile.\n\nThe responsible settlement studies both.\n\nThis branch concerns chemical refinement, <color=green>healthcare</color>, and the controlled application of <color=red>explosive</color> solutions where geography requires punishment.\n\nWhen you are prepared to handle substances that sting your snout, follow up on this directive.\n\nDestroying obstacles is a form of construction."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BuildAlchemist.Whitepaws"]
+new = "Ah! Excellent. Someone finally contacted us.\n\nWith a functioning settlement and a library underway, it was only a matter of time before your workforce began suffering the usual assortment of burns, infections, and poorly judged experiments. Perfectly normal.\n\nTo address these matters, you will need an Alchemist.\n\nDespite the name, this is not mystical nonsense. It is simply a workspace where useful substances are boiled, distilled, dissolved, and occasionally improved by accident.\n\nThe Alchemist requires Laboratory Glassware. One set should have been recovered from the cart. Hopefully it has not been misplaced, broken, or otherwise involved in an experiment of questionable supervision.\n\nYou have only one set, and it is vital. This means you will be limited to a single Alchemist for now.\n\nOnce operational, the Alchemist can prepare <color=green>Basic Balm</color>, a reliable compound for treating minor injuries, burns, and other predictable consequences of industrial progress.\n\nDo try to keep the workers alive. They are useful for further experiments."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BuildMedbed.Whitepaws"]
+new = "Excellent. With Basic Balm available, we may begin addressing the more common consequences of having fun.\n\nConstruct at least one Medical Bed. There are three varieties, each specialized for a different category of minor ailment. Select whichever seems most relevant to the circus you are currently running.\n\nBasic Balm is not usable as-is; it must be adjusted directly at the bed into the appropriate medication. The procedure is simple and well documented.\n\nDo not attempt to modify the formulation. We already tried that. The results involved a traumatic amount of paperwork and several new laws being passed.\n\nMedical beds are suitable for minor ailments only. Severe cases require a <color=green>Clinic</color>, staffed by a beaver with <color=green>proper medical training</color>.\n\nSince you clearly do not have anyone fitting that description, you will need to lock a few volunteers in the <color=green>library</color> and make do with the least incompetent one who eventually emerges."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BuildScrewpress.Whitepaws"]
+new = "Excellent. Your Alchemist can now prepare basic medicine, but actual chemistry requires something more fundamental.\n\n<color=green>Oil</color>.\n\nOil is a remarkably cooperative substance. It fuels industry, improves cooking, seals structures, and participates in several reactions that we are very excited to discuss later.\n\nConstruct a Screwpress to extract oil from Sunflower Seeds.\n\nThe press operates through a <color=green>Screw Axle</color>, which will gradually wear down under pressure. Replacement axles can be manufactured in the <color=green>Log Gnawing Station</color>. We recommend keeping a few spare parts available.\n\nIf you catch some of your townsfolk having fun crushing things with the press instead of working, we decline any responsibility in the matter.\n\nPlease tell us which items were the most fun to crush."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BuildMedTank.Whitepaws"]
+new = "Excellent. Now that you have Oil, we may proceed with one of our favorite industrial byproducts: <color=green>Tar</color>.\n\nTar is obtained by boiling and calcining a mixture of Pine Resin, Sawdust, and Oil until it becomes thick, black, and extremely reluctant to wash off.\n\nConfigure your <color=green>Alchemist</color> to produce Tar. Note that it must be kept <color=red>warm</color> for proper storage.\n\nThis substance is primarily used as a caulking material for more advanced constructions, sealing joints and preventing inconvenient leaks.\n\nIn particular, it enables the construction of <color=green>Medium Tanks</color>, which are significantly more efficient at storing liquids than the smaller tanks you have been relying on so far.\n\nIt also has several other applications involving people you dislike, but we have been strictly prohibited from discussing them. Please do not do the thing we are not allowed to mention.\n\nIt is very fun, though."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BuildDistillery.Whitepaws"]
+new = "Good. With fermentation underway, we may now proceed to the next step.\n\nThe alcohol produced in your Fermentation Barrels must be refined through distillation.\n\nConstruct a Distillery and configure it accordingly.\n\nYou may already possess one, as the same facility is commonly used to produce Pollution Resistance Factor. If that is the case, we strongly recommend constructing a second Distillery.\n\nRunning out of PRF during a Badtide tends to produce very avoidable embarrassment.\n\nOnce <color=green>strong alcohol</color> becomes available, your <color=green>Alchemist</color> will be able to proceed with the preparation of <color=green>Brain-Boosting Salts</color>.\n\nThe chemical process is unfortunately classified, though it should have been included in your library set. This is apparently a precautionary measure.\n\nI could tell you why, but I… uuh… would need to review the protocol myself.\n\nI assure you I would never misuse it. Probably."
+status = "normal"
+
+["Tutorial.ChemistryBranch.BrainsaltBurner.Whitepaws"]
+new = "Congratulations.\n\nYour ability to follow instructions has allowed you to reach the final step of this chemical program. You would be surprised to learn how uncommon that talent is. I certainly was.\n\nBrain-Boosting Salts, when used properly, are a powerful cognitive stimulant. They help trained specialists such as <color=green>architects</color> and <color=green>mechanics</color> remain focused during intellectually demanding work, or simply settlers engaged in study at the <color=green>library</color> — assuming any of them have time for that.\n\nAnother practical use of this compound is the construction of an Aromatic Burner.\n\nThis structure gently warms the salts and releases stimulating vapors into the surrounding area, allowing nearby beavers to benefit from their effects without the need for direct handling. Direct inhalation of the salts is strongly discouraged, but appears to be statistically unavoidable.\n\nPlease construct at least one Aromatic Burner and place it wherever its pleasant aroma seems appropriate.\n\nI hope you do not have further questions because… well, this Directorate appears to be no longer functional.\n\nYou might, however, be able to obtain assistance by placing dynamite sticks over a pitfall trap. I found some of your earlier correspondence."
+status = "normal"
+
+["Tutorial.MechanicBranch.MechanicText.Whitepaws"]
+new = "Primitive industry has served its purpose. The next stage requires precision.\n\nThis branch concerns the production of <color=green>Gears</color>, expansion of mechanical power networks, and the refinement of industrial systems beyond their initial limitations.\n\nWith proper gearing, power may be transmitted further, machinery may be improved, and <color=green>Water Pumps</color> may be upgraded.\n\nWhen you are prepared to replace improvisation with engineering, follow up on this directive.\n\nRotation is the lifeforce of machines."
+status = "normal"
+
+["Tutorial.MechanicBranch.BuildMecanicLodge.Whitepaws"]
+new = "Hello.\n\nWe have been informed that your settlement has reached the point where mechanical optimization becomes desirable. This is excellent news. Mechanical optimization is our favorite kind of optimization.\n\nBefore we proceed, we must establish a facility dedicated to the analysis and fabrication of mechanical components. In other words: a Mechanics Lodge.\n\nOne of the primary functions of this building is the production of <color=green>Gears</color>, which are essential for transmitting rotational force between machines. While the principle of geared power transfer is conceptually simple, its practical implications quickly become fascinating.\n\nYou will notice that standard policy is to leave gears and moving parts fully exposed, which some timid individuals describe as “dangerous”. Do not let such foolish concerns distract you from the evident beauty of mechanical systems.\n\nPeople who are injured by moving parts are simply unworthy of the bounty of machines.\n\nConstruct a Mechanics Lodge to demonstrate that your settlement is capable of basic mechanical competence."
+status = "normal"
+
+["Tutorial.MechanicBranch.WaterpumpUpgrade.Whitepaws"]
+new = "Excellent. You have successfully constructed a Mechanics Lodge. This suggests your settlement may possess the minimum level of mechanical competence required to proceed.\n\nWe will now introduce a simple but extremely satisfying improvement: Water Pump Upgrades.\n\nThese devices dramatically increase the pumping capacity of existing water pumps through the entirely sensible application of additional moving parts.\n\nBefore constructing one, you should familiarize yourself with their placement. To do so, place a Water Pump Upgrade Board somewhere convenient.\n\nThe board does not need to actually be built in order to be consulted. Please do not question how this works. We don't know either and that makes our heads hurt.\n\nIf you have properly followed the earlier recommendations of the Directorate of Hydrological Discipline, you should now possess a neat <color=green>row of water pumps</color> ready for improvement.\n\nWe advised them to include that step. They resisted at first, but with enough… torque applied to their arm, they eventually came around to the correct mechanical solution.\n\nConstruct at least one Water Pump Upgrade to prove your willingness to coexist with machines."
+status = "normal"
+
+["Tutorial.MechanicBranch.BuildFactory.Whitepaws"]
+new = "Your Water Pump Upgrades are a respectable improvement. We appreciate the effort.\n\nHowever, they remain crude devices ultimately powered by manual labor.\n\nTechnological evolution requires buildings driven by true mechanical power. The most important of these is the Factory.\n\nThe Factory is primarily used to refine <color=green>Scrap Metal</color> into proper <color=green>Metal Blocks</color>, which will become necessary for many advanced constructions.\n\nIt also serves a number of secondary purposes, such as fabricating <color=green>Anvils</color>, <color=green>Laboratory Glassware</color>, and <color=green>Cauldrons</color>.\n\nIn a properly organized industrial settlement, one Factory should ideally produce Metal Blocks continuously, while another handles miscellaneous custom fabrication.\n\nDo not forget that these buildings are appropriately <color=#00FFFF>watertight</color>. Machines do not look kindly upon those who squander opportunities… or torque.\n\nAs with most mechanically respectable buildings, the power plug is located at the rear. Ensure the structure is properly connected to your power network.\n\nConstruct a Factory so that the worthy may prove themselves — and the unworthy may be identified."
+status = "normal"
+
+["Tutorial.MechanicBranch.BlueprintIntroA.text.Whitepaws"]
+new = "Your mechanical infrastructure is beginning to show promise.\n\nThe next stage will require a more ambitious project: the design of a proper <color=green>Floodgate Dam</color>.\n\nSuch a structure allows your settlement to redirect water flow toward — or away from — critical infrastructure, typically to prevent a Badtide from reaching and contaminating your reservoir.\n\nInstruct your <color=green>Mechanic</color> to begin drafting plans for this device. This research will require considerable time and resources, so ensure it has everything required to work without interruption.\n\nMost notably, <color=red>Brain Boosting Salts</color> will be required for such intensive reflection. Contact the <color=red>Directorate of Applied Chemistry</color> and survive their questionable guidance in order to establish production.\n\nWhen the task is complete, the Mechanic will eventually emerge from the lodge brandishing a perfectly clear and definitely understandable <color=green>blueprint</color> of the invention.\n\nWhile this process unfolds, we recommend that you follow the instructions of the rather insufferable people from the Bureau of Intellectual Property.\n\nWe contacted them on your behalf.\n\nYou are welcome."
+status = "normal"
+
+["Tutorial.ArchitectBranch.ArchitectText.Whitepaws"]
+new = "Expansion requires support. Height without structure is collapse.\n\nThis branch concerns the production of <color=green>Scaffoldings</color> for the construction of <color=green>Platforms</color>, walkways, and reinforced multi-level infrastructure.\n\nScaffoldings enables vertical growth, <color=green>Farm Upgrades</color>, and enhanced mobility — including <color=green>Zipline transit systems</color> for efficient movement across our territory.\n\nWhen you are prepared to build higher without falling, follow up on this directive.\n\nElevation increases possibility. It also increases consequences."
+status = "normal"
+
+["Tutorial.ArchitectBranch.BuildArchitect.Whitepaws"]
+new = "Greetings.\n\nWe represent the Directorate of Architectural Ambition, the body responsible for ensuring that settlements rise above crude piles of timber and become structures of elegance.\n\nYour settlement, while… functional… currently demonstrates a worrying absence of architectural vision. Like most diseases, this is correctable.\n\nBuild an Architect’s Lodge so that your settlement may take its first step toward dignity.\n\nThis building will allow a trained Architect to assemble sturdy yet lightweight Scaffoldings, which form the foundation for walkways, platforms, upgrades, and other structural elements that allow settlements to grow vertically, rather than spreading like an undisciplined fungus across the landscape.\n\nPostscript: You may notice that the rear façade of the building forms a large angled structure. This is not a staircase.\n\nIt is an architectural gesture intended to evoke upward motion and structural dynamism. Please do not allow your settlers to walk on it.\n\nYes, it is possible.\n\nThat does not make it acceptable."
+status = "normal"
+
+["Tutorial.ArchitectBranch.FarmOrForestryUpgrade.Whitepaws"]
+new = "Greetings again.\n\nNow that your settlement possesses an Architect’s Lodge, we may begin correcting another of its more regrettable deficiencies: the absence of modular architectural planning.\n\nYou may have noticed that some buildings are described as having a <color=#FFA500>Small Tower</color> or a <color=#FF6EC7>Triangle Roof</color>. This is not decorative language. It indicates that these structures are capable of receiving architectural upgrades.\n\nIn most cases, upgrades require either <color=#FF6EC7>two triangular roofs placed side by side</color>, or <color=#FFA500>one small tower combined with a triangular roof</color>.\n\nThe reasoning behind this system is perfectly sensible. However, descriptions of your settlement clearly indicate a rather severe aesthetic deficiency, so we will gracefully skip the theoretical explanation and proceed directly to the cure.\n\nPlace a Modular Upgrade Billboard and consult it.\n\nThe billboard does not actually need to be constructed in order to function. This is a standard architectural projection technique.\n\nYes, we understand it perfectly.\n\nNo, we will not explain it.\n\nIt is classified. Only architects can understand it.\n\nOnce you have familiarized yourself with the principle, construct at least one Farm Assistant Upgrade. Should you feel unusually inspired, any other upgrade will also be acceptable.\n\nNote that upgraded buildings also gain one additional level of <color=#00FFFF>water retention ability</color>. You may exploit this structural advantage as you see fit.\n\nMore importantly, upgraded buildings look nice."
+status = "normal"
+
+["Tutorial.ArchitectBranch.BuildLargeWarehouse.Whitepaws"]
+new = "Excellent.\n\nNow that you understand the basic principles of scaffolding and modular upgrades, we may address another matter of architectural responsibility: covered storage.\n\nThese structures protect valuable resources from the elements and, thanks to their flat roofs and sturdy construction, can be conveniently stacked vertically.\n\nThis allows settlements to store large quantities of materials without spreading storage yards across the entire landscape like a poorly planned lumber camp.\n\nContrary to certain persistent rumors, architects do not live in ivory towers entirely unconcerned with the well-being of the common folk.\n\nThis is precisely why we recommend that you construct whichever Covered Storage best fits your settlement’s current needs.\n\nA population sitting comfortably atop generous reserves of resources tends to remain calm, productive, and — most importantly — less inclined to interrupt architects with tiresome requests for spare materials at the end of every drought.\n\nConstruct at least one Covered Storage and bring a small measure of architectural order to your settlement."
+status = "normal"
+
+["Tutorial.ArchitectBranch.BlueprintIntroBText.Whitepaws"]
+new = "We have reviewed the current state of your settlement.\n\nWhile your recent architectural efforts are… noticeable… it is equally clear that your expansion continues in all directions with little regard for spatial harmony.\n\nSince restraining this impulse appears unrealistic, we will instead provide you with a tool to manage it with a minimum of visual damage.\n\nInstruct your <color=green>Architect</color> to begin drafting plans for a <color=green>Zipline Network</color>.\n\nProperly implemented, such systems allow settlers to move effortlessly across large distances, reducing the need for tedious staircases, walkways, and the usual assortment of haphazardly assembled infrastructure that appears to be your trademark.\n\nThis research will require considerable time and resources, so ensure your Architect can work without interruption.\n\nAs with all serious intellectual work, <color=red>Brain Boosting Salts</color> will be required to maintain adequate concentration. If you have not yet secured a reliable supply, we suggest contacting the questionable <color=red>Directorate of Applied Chemistry</color>. It seems you would get along just fine.\n\nOnce the work is complete, please organize a proper vernissage so that your Architect may present the freshly completed <color=green>blueprint</color> to the public.\n\nNaturally, the Bureau of Intellectual Property will ensure that the document is properly archived and duplicated. Fortunately, their standards of documentation are exemplary.\n\nWe have already contacted them on your behalf in order to spare them unnecessary contact with… well, you.\n\nPlease learn from our professional courtesy."
+status = "normal"
+
+["Tutorial.BlueprintDuplicationA.BuildCopiystandArtistA.Whitepaws"]
+new = "Greetings.\n\nWe represent the Bureau of Intellectual Property, responsible for ensuring that valuable knowledge is properly documented, duplicated, classified, indexed, and archived.\n\nWe understand that your settlement has recently begun drawing the <color=green>blueprints</color> for a Floodgate Dam.\n\nDue to Regulation 107.33-2, please note that it is strictly forbidden to duplicate original documents under any circumstances.\n\nIt is, however, not illegal to scribble on, spill food and drinks on, eat, or otherwise destroy an original document. Furthermore, according to Regulation 107.33-5, documents altered in such a manner are no longer considered to be the original, and may therefore be copied freely — at least until so many stains accumulate that they become entirely unreadable.\n\nAdditionally, most beavers are incapable of focusing their attention on a blueprint that is not adequately fancy and colorful. Discriminating against workers based on their attention span or propensity to eat blueprints has been illegal since Regulation 53.7-4.\n\nTherefore, the now-standard procedure for duplicating, preserving, and using such essential documents is as follows:\n\nConstruct an Artist’s Lodge and a Copyist’s Lodge.\n\nThe Artist will add the appropriate level of fanciness required for proper use by builders. Do not use the blueprint immediately.\n\nThe Copyist will produce several non-fancy copies of the blueprint. Send these back to the Artist.\n\nRepeat this process until you have enough blueprints to supply all foreseeable construction projects.\n\nConfigure both buildings to work on the Floodgate Dam blueprint.\n\nThis procedure is perfectly legal, as it only violates the spirit of several regulations.\n\nFeel free to retain this correspondence as proof."
+status = "normal"
+
+["Tutorial.BlueprintDuplicationA.DiplomasTextA.Whitepaws"]
+new = "Final Notice – Academic Certification Handling\n\nAs your settlement continues to develop, you may eventually reach the point where higher education becomes available.\n\nAt that stage, particularly gifted beavers may obtain a <color=green>Diploma</color> in their field of specialization.\n\nIt should go without saying, but diplomas must not be duplicated or fancyfied.\n\nEven if you somehow convinced your Artists and Copyists to attempt such a procedure, it would not magically duplicate the beaver who actually possesses the knowledge.\n\nThat said, it is still advisable to prepare adequate storage for these documents.\n\nA rare confluence of unfortunate circumstances could theoretically lead to a <color=red>diploma being lost</color> — a heartbreaking event for the archivists…and for the newly graduated beaver as well. Availability of storage strongly reduces this risk.\n\nPlease ensure that all documentation remains properly archived."
+status = "normal"
+
+["Tutorial.BlueprintDuplicationB.BuildCopiystandArtistB.Whitepaws"]
+new = "Greetings.\n\nWe represent the Bureau of Intellectual Property, responsible for ensuring that valuable knowledge is properly documented, duplicated, classified, indexed, and archived.\n\nWe understand that your settlement has recently begun drawing the <color=green>blueprints</color> for a Zipline System.\n\nDue to Regulation 107.33-2, please note that it is strictly forbidden to duplicate original documents under any circumstances.\n\nIt is, however, not illegal to scribble on, spill food and drinks on, eat, or otherwise destroy an original document. Furthermore, according to Regulation 107.33-5, documents altered in such a manner are no longer considered to be the original, and may therefore be copied freely — at least until so many stains accumulate that they become entirely unreadable.\n\nAdditionally, most beavers are incapable of focusing their attention on a blueprint that is not adequately fancy and colorful. Discriminating against workers based on their attention span or propensity to eat blueprints has been illegal since Regulation 53.7-4.\n\nTherefore, the now-standard procedure for duplicating, preserving, and using such essential documents is as follows:\n\nConstruct an Artist’s Lodge and a Copyist’s Lodge.\n\nThe Artist will add the appropriate level of fanciness required for proper use by builders. Do not use the blueprint immediately.\n\nThe Copyist will produce several non-fancy copies of the blueprint. Send these back to the Artist.\n\nRepeat this process until you have enough blueprints to supply all foreseeable construction projects.\n\nConfigure both buildings to work on the Zipline System blueprint.\n\nThis procedure is perfectly legal, as it only violates the spirit of several regulations.\n\nFeel free to retain this correspondence as proof."
+status = "normal"
+
+["Tutorial.BlueprintDuplicationB.DiplomasTextB.Whitepaws"]
+new = "Final Notice – Academic Certification Handling\n\nAs your settlement continues to develop, you may eventually reach the point where higher education becomes available.\n\nAt that stage, particularly gifted beavers may obtain a <color=green>Diploma</color> in their field of specialization.\n\nIt should go without saying, but diplomas must not be duplicated or fancyfied.\n\nEven if you somehow convinced your Artists and Copyists to attempt such a procedure, it would not magically duplicate the beaver who actually possesses the knowledge.\n\nThat said, it is still advisable to prepare adequate storage for these documents.\n\nA rare confluence of unfortunate circumstances could theoretically lead to a <color=red>diploma being lost</color> — a heartbreaking event for the archivists…and for the newly graduated beaver as well. Availability of storage strongly reduces this risk.\n\nPlease ensure that all documentation remains properly archived."
+status = "normal"
+
 ["Luc.crappyWaterWheel.DisplayName"]
 raw = "Crappy Water Wheel"
 status = "abandoned"
@@ -18308,54 +18675,6 @@ ptBR = "\"Agora o mundo todo é meu quintal! Muahahah!\"\n-Um estagiário muito 
 koKR = "\"이제 온 세상이 내 뒷마당이다! 음하하하!\"\n- 매우 열정적인 묘목 재배 인턴"
 csCZ = "\"Nyní je celý svět mou zahradou! Muahahah!\"\n- Velmi nadšený praktikant v lesní školce"
 viVN = "Tên khóa: Lapantouflemagic.ZiplineUpgradeArm.FlavorDescription - Văn bản mới để dịch: \"Bây giờ cả thế giới là sân sau của tôi! Muahahah!\" -Một thực tập sinh vườn ươm cây rất nhiệt huyết"
-
-["Lapantouflemagic.GigargantuanTank.DisplayName"]
-raw = "Gigargantuan Tank"
-status = "abandoned"
-enUS = "Gigargantuan Tank"
-zhCN = "巨型坦克"
-zhTW = "巨型巨獸坦克"
-ruRU = "Гигантский танк"
-jaJP = "ギガガンチュアンタンク"
-frFR = "Tank Gigargantuan"
-deDE = "Gigargantuaner Tank"
-plPL = "Gigantyczny Czołg"
-ptBR = "Tanque Gigargantuan"
-koKR = "거대 탱크"
-csCZ = "Gigantický tank"
-viVN = "Xe tăng khổng lồ"
-
-["Lapantouflemagic.GigargantuanTank.Description"]
-raw = "A structure of excessive proportions designed to not only store, but also watch over an absurdly large amount of liquid.\n<color=#00FFFF>Works as a Levee</color>"
-status = "abandoned"
-enUS = "A structure of excessive proportions designed to not only store, but also oversee an absurdly large amount of liquid. <color=#00FFFF>Works as a Levee</color>"
-zhCN = "一个过度尺寸的结构，旨在不仅存储，而且监视大量液体。  \n<color=#00FFFF>可以作为堤坝使用</color>"
-zhTW = "一個超大比例的建築，不僅用來儲存，還用來監視大量的液體。  \n<color=#00FFFF>作為堤防運作</color>"
-ruRU = "Структура огромных размеров, предназначенная не только для хранения, но и для наблюдения за абсурдно большим объемом жидкости.  \n<color=#00FFFF>Работает как плотина</color>"
-jaJP = "「異常な量の液体を保存するだけでなく、見守るために設計された過剰な大きさの構造物です。<color=#00FFFF>堤防として機能します</color>」"
-frFR = "Une structure de proportions excessives conçue non seulement pour stocker, mais aussi pour surveiller une quantité absurde de liquide. <color=#00FFFF>Fonctionne comme une digue</color>"
-deDE = "Eine Struktur übermäßiger Proportionen, die nicht nur dazu dient, eine absurd große Menge an Flüssigkeit zu speichern, sondern auch darüber zu wachen.  \n<color=#00FFFF>Funktioniert als Deich</color>"
-plPL = "Konstrukcja o nadmiernych proporcjach zaprojektowana nie tylko do przechowywania, ale także do obserwacji absurdalnie dużej ilości cieczy.  \n<color=#00FFFF>Działa jako wał</color>"
-ptBR = "Uma estrutura de proporções excessivas projetada não apenas para armazenar, mas também para vigiar uma quantidade absurdamente grande de líquido.  \n<color=#00FFFF>Funciona como um dique</color>"
-koKR = "과도한 비율로 설계된 구조물로, 어마어마한 양의 액체를 저장할 뿐만 아니라 지켜보는 역할도 합니다.  \n<color=#00FFFF>제방 역할을 합니다</color>"
-csCZ = "Stavba extrémních proporcí, navržená nejen k ukládání, ale také k dohledu nad absurdně velkým množstvím kapaliny.  \n<color=#00FFFF>Funguje jako hráz</color>"
-viVN = "Một cấu trúc có kích thước quá mức được thiết kế không chỉ để chứa, mà còn để giám sát một lượng chất lỏng cực kỳ lớn.\n<color=#00FFFF>Hoạt động như một đê chắn nước</color>"
-
-["Lapantouflemagic.GigargantuanTank.FlavorDescription"]
-raw = "\"The day I can swim in a pool of kimchi, will be the day this town has surpassed the place we come from\"\n-The expedition leader"
-status = "abandoned"
-enUS = "\"The day I can swim in a pool of kimchi will be the day this town has surpassed the place we come from.\"  \n-The expedition leader"
-zhCN = "“我可以在泡菜池中游泳的那一天，就是这个城镇超越我们来自之地的那一天。”  \n——探险队长"
-zhTW = "“當我能在泡菜池中游泳的那一天，便是這個城鎮超越我們來自的地方的那一天。”  \n— 探險隊隊長"
-ruRU = "\"В тот день, когда я смогу плавать в бассейне с кимчи, это будет день, когда этот город превзойдет то место, откуда мы пришли\" - Лидер экспедиции"
-jaJP = "「私がキムチのプールで泳げる日が来たとき、この町は私たちが来た場所を超えたということになります。」  \n-探検隊のリーダー"
-frFR = "\"Le jour où je pourrai nager dans une piscine de kimchi, ce sera le jour où cette ville aura surpassé l'endroit d'où nous venons.\"  \n-Le chef de l'expédition"
-deDE = "„Der Tag, an dem ich in einem Pool aus Kimchi schwimmen kann, wird der Tag sein, an dem diese Stadt den Ort, aus dem wir kommen, übertroffen hat.\"  \n- Der Expeditionsleiter"
-plPL = "„Dzień, w którym będę mógł pływać w basenie kimchi, będzie dniem, w którym to miasto przewyższy miejsce, z którego pochodzimy.”  \n– Lider ekspedycji"
-ptBR = "\"O dia em que eu puder nadar em uma piscina de kimchi será o dia em que esta cidade terá superado o lugar de onde viemos.\"  \n- O líder da expedição"
-koKR = "\"내가 김치 수영장에서 수영할 수 있는 날이 이 마을이 우리가 온 곳을 초월한 날이 될 것입니다.\"  \n- 탐험대장"
-csCZ = "\"Den, kdy si budu moct zaplavat v bazénu kimchi, bude dnem, kdy toto město překonalo místo, odkud pocházíme.\"  \n- Vedoucí expedice"
-viVN = "\"Ngày tôi có thể bơi trong một hồ kimchi, sẽ là ngày thị trấn này đã vượt qua nơi chúng ta xuất phát.\"\n-Trưởng đoàn thám hiểm"
 
 ["Lapantouflemagic.BalloonLandingPadWP.Description"]
 raw = "A very large tower designed to allow balloon traders to land and fly off safely.\n<color=red>The 2hp production is an artifact to activate the balloons</color>\nBoth doors must be connected for proper function.\nActs as a dispatch hub for <color=green>one hauler</color>."
