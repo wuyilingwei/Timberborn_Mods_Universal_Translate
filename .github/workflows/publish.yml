@@ -8,6 +8,7 @@ jobs:
   publish-platforms:
     if: github.event_name == 'schedule' || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
     runs-on: ubuntu-latest
+    environment: automations
 
     steps:
       - name: Checkout repository

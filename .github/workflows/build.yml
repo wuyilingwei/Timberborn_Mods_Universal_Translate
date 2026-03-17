@@ -19,6 +19,7 @@ jobs:
   check-and-build:
     if: github.event_name == 'schedule' || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
     runs-on: ubuntu-latest
+    environment: automations
     outputs:
       should_build: ${{ steps.check_changes.outputs.should_build }}
       new_version: ${{ steps.version.outputs.new_version }}
