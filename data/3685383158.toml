@@ -1,0 +1,42 @@
+[_meta]
+name = "Tiduins Twitch Integration"
+
+["TwitchIntegration.Connect"]
+new = "Connect to Twitch"
+status = "normal"
+
+["TwitchIntegration.Disconnect"]
+new = "Disconnect"
+status = "normal"
+
+["TwitchIntegration.Channel"]
+new = "Channel"
+status = "normal"
+
+["TwitchIntegration.Token"]
+new = "OAuth Token"
+status = "normal"
+
+["TwitchIntegration.Connected"]
+new = "Connected to {0}"
+status = "normal"
+
+["TwitchIntegration.NotConnected"]
+new = "Not connected"
+status = "normal"
+
+["TwitchIntegration.InvalidToken"]
+new = "Invalid token. Get a token from the link below."
+status = "normal"
+
+["TwitchIntegration.OpenTokenLink"]
+new = "Get Token"
+status = "normal"
+
+["TwitchIntegration.Status"]
+new = "Status"
+status = "normal"
+
+["TwitchIntegration.NameQueue"]
+new = "Names in queue: {0}"
+status = "normal"

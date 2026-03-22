@@ -1,0 +1,1186 @@
+[_meta]
+name = "Sluice Control"
+
+["UI.TW.SimpleWorkshopControl.Blocked"]
+new = "Multiple control conditions unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedInput"]
+new = "Auto Ingredients condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedProduct"]
+new = "Auto Products condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedUser"]
+new = "User control condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedPlanting"]
+new = "Auto Planting condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedPopulation"]
+new = "Population condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedHarvest"]
+new = "Nothing suitable to harvest"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedWeather"]
+new = "Weather condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedScience"]
+new = "Science condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedWaterLevel"]
+new = "Water level condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedContamination"]
+new = "Water contamination condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedPowerLevel"]
+new = "Power level condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedBatteryLevel"]
+new = "Battery level condition unmet"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SciencePoints"]
+new = "Science Points"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BotPopulation"]
+new = "Bot Population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BeaverPopulation"]
+new = "Beaver Population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BeaverGlobalPopulation"]
+new = "Beaver Pop, Global"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BeaverDistrictPopulation"]
+new = "Beaver Pop, District"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BotGlobalPopulation"]
+new = "Bot Pop, Global"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BotDistrictPopulation"]
+new = "Bot Pop, District"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WorkshopControls"]
+new = "Workshop Controls"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Hide"]
+new = "Hide"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.RequireInputs"]
+new = "Auto Ingredients"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseAutoProducts"]
+new = "Auto Products"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Controller"]
+new = "User Control:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoPlanting"]
+new = "Auto Planting"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseHarvestCheck"]
+new = "Check harvestable"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.NullGoodId"]
+new = "None"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Percent"]
+new = "Percent"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Value"]
+new = "Value"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Invert"]
+new = "Invert"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Start"]
+new = "Start"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Stop"]
+new = "Stop"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.CurrentStock"]
+new = "Stock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Capacity"]
+new = "Capacity"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.InfoHeader"]
+new = "Workshop Control Info"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtOrBelow"]
+new = "at or below"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtOrAbove"]
+new = "at or above"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Below"]
+new = "below"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Above"]
+new = "above"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.ZeroCapacityProductWarning"]
+new = "! Zero capacity product; control will use percent of building output inventory rather than percent of external storage for those products."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.ZeroCapacityIngredientWarning"]
+new = "! Zero capacity ingredient; control will compare available goods to recipe needs rather than to percent of capacity (applies to all ingredients)."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAllWarning"]
+new = "! Farm or other multi-gather building detected. Will only stop when ALL products meet Stop test."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoProductsStopOnAnyWarning"]
+new = "! Multi product recipe detected. Will stop when ANY product meets Stop test."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UnfinishedBuildingWarning"]
+new = "<b><YellowHighlight>Caution:</YellowHighlight><b> Building is not finished, or has no recipe set. The info in this window may be inaccurate."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.FuelDebugWarning"]
+new = "Ingredient is fuel; start will be capped at 3 and stop at 1."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.GlobalInventoryFallback"]
+new = "No district available. Using global inventory."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowStatusIcons"]
+new = "Show status icons"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowStatusIconsDesc"]
+new = "A status icon will appear above blocked buildings"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.KeepInventory"]
+new = "Keep Inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.KeepInventoryDesc"]
+new = "Beavers will not empty the input inventory of buildings stopped by Simple Workshop Control"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.Spacer"]
+new = " "
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RequireInputsDefault"]
+new = "Auto ingredients default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RequireInputsDefaultDesc"]
+new = "Newly constructed buildings will start with Auto Ingredients enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsDefault"]
+new = "Auto products default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsDefaultDesc"]
+new = "Newly constructed buildings will start with Auto Products enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStart"]
+new = "Auto ingredients Start default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStartDesc"]
+new = "Auto Ingredient buildings will start when all ingredients have reached this percent of global capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStop"]
+new = "Auto ingredients Stop default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RecipeRequirementStopDesc"]
+new = "Auto Ingredient buildings will stop when any ingredient falls below this percent of global capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStart"]
+new = "Auto products Start default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStartDesc"]
+new = "Auto product buildings will start when all products have been below this percent of global capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStop"]
+new = "Auto products Stop default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductStopDesc"]
+new = "Auto product buildings will stop when any product is above this percent of global capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UIMinHeight"]
+new = "Min UI height"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UIMinHeightDesc"]
+new = "Controls how much room the control fragment can use in the entity panel"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UIMaxHeight"]
+new = "Max UI height"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UIMaxHeightDesc"]
+new = "Controls how much room the control fragment can use in the entity panel"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefault"]
+new = "Auto planting default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingDefaultDesc"]
+new = "Newly constructed buildings will start with Auto Planting enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AutoPlantingCooldown"]
+new = "Cooldown:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.HarvestCheckCooldown"]
+new = "Cooldown:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseGlobalInventory"]
+new = "Global Inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GlobalInventory"]
+new = "Use global inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GlobalInventoryDesc"]
+new = "Use global inventory rather than district inventory."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventory"]
+new = "Per-building global inventory"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PerBuildingGlobalInventoryDesc"]
+new = "Select global or district inventory on each building. The 'use global inventory' setting above this one will be used as the default for new buildings."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GoodsMax"]
+new = "Goods slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.GoodsMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PopulationMax"]
+new = "Population slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PopulationMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceMax"]
+new = "Science slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceMaxDesc"]
+new = "The maximum value allowed for user-control sliders"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldown"]
+new = "Check harvestable cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.CheckHarvestableCooldownDesc"]
+new = "Default number of beaver-hours to keep the building active after there are no harvestable plants."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.harvestCheckDefault"]
+new = "Check harvestable default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.HarvestCheckDefaultDesc"]
+new = "Newly constructed buildings will start with Check Harvestable enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HarvestCheckToggle"]
+new = "Turn off when nothing to harvest"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HarvestCooldown"]
+new = "Remain active this long after harvest is done (in beaver-hours)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.IncreaseUI"]
+new = "Increase UI height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.DecreaseUI"]
+new = "Decrease UI height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HideUI"]
+new = "Hide workshop behavior controls"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.ShowBehaviorInfo"]
+new = "Show current behavior info"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseGlobalInventory"]
+new = "Compare global or district inventory"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoPlantingToggle"]
+new = "Turn building on and off when there is planting to do"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoPlantingCooldown"]
+new = "Remain active this long after planting is done (in beaver-hours)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsToggle"]
+new = "Turn building off when ingredients are low"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.ShowSettings"]
+new = "Show settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.HideSettings"]
+new = "Hide settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoProductsToggle"]
+new = "Turn building off when products above Stop"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserControlInputChannel"]
+new = "Input channel to use for user-control behavior"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserControlInvert"]
+new = "Swap the Start and Stop positions"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UserPercentDropdown"]
+new = "Choose if Start and Stop are a percentage or an absolute number"
+status = "normal"
+
+["UI.TW.UI.TT.Start"]
+new = "Start"
+status = "normal"
+
+["UI.TW.UI.TT.Stop"]
+new = "Stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseToolTips"]
+new = "Show Tooltips"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseToolTipsDesc"]
+new = "Show small help windows when hovering over controls (like this one! =^.^= )"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldown"]
+new = "Farm planting cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingFarmCooldownDesc"]
+new = "How many beaver-hours auto planting farms will remain active after the last planting job is finished."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldown"]
+new = "Forester planting cooldown"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoPlantingForesterCooldownDesc"]
+new = "How many beaver-hours auto planting foresters will remain active after the last planting job is finished."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplier"]
+new = "Auto ingredients zero-cap scale"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsZeroCapMultiplierDesc"]
+new = "When there is no storage capacity for a resource, auto ingredients will check available stock against the recipe amount multipled by this number (rather than against a percentage of storage capacity)."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuel"]
+new = "Include fuel"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoIngredientsIncludeFuelDesc"]
+new = "Fuel will be included as a required ingredient."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoProductsZeroCapWarning"]
+new = "No storage building for product(s). Using zero-capacity rules (click for info)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.AutoIngredientsZeroCapWarning"]
+new = "No storage building for ingredient(s). Using zero-capacity rules (click for info)"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefault"]
+new = "Harvest prioritizer default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PriorityHarvestDefaultDesc"]
+new = "Newly constructed buildings will start with Harvest Prioritizer enabled"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsePriorityHarvest"]
+new = "Harvest prioritizer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UsePriorityHarvestToggle"]
+new = "Automatically set the priortized resource to the most needed."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WaterInputControl"]
+new = "Water input"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WaterOutputControl"]
+new = "Water output"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseWaterLevel"]
+new = "Water Level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterLevelToggleIntake"]
+new = "Control based on water level at intake"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertWaterLevelIntake"]
+new = "Swap the start / stop values"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseWaterContamination"]
+new = "Contamination"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterContaminationToggleIntake"]
+new = "Control based on water contamination at intake"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertWaterContaminationIntake"]
+new = "Swap the start / stop values"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputLevelDefault"]
+new = "Input water level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputLevelDefaultDesc"]
+new = "Newly constructed buildings will start with their input water level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputUsePipe"]
+new = "Use intake pipe level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputUsePipeDesc"]
+new = "Water depth will be calculated from the bottom of the intake pipe, rather than the (possibly deeper) total depth."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStart"]
+new = "Water level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStartDesc"]
+new = "Default start value for input water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStop"]
+new = "Water level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputStopDesc"]
+new = "Default stop value for input water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationDefault"]
+new = "Input water contamination"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationDefaultDesc"]
+new = "Newly constructed buildings will start with their input water contamination level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStart"]
+new = "Contamination start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStartDesc"]
+new = "Default start value for input water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStop"]
+new = "Contamination stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterInputContaminationStopDesc"]
+new = "Default stop value for input water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputLevelDefault"]
+new = "Output water level"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputLevelDefaultDesc"]
+new = "Newly constructed buildings will start with their output water level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStart"]
+new = "Water level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStartDesc"]
+new = "Default start value for output water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStop"]
+new = "Water level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputStopDesc"]
+new = "Default stop value for output water level controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationDefault"]
+new = "Output water contamination"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationDefaultDesc"]
+new = "Newly constructed buildings will start with their output water contamination level controller enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStart"]
+new = "Contamination start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStartDesc"]
+new = "Default start value for output water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStop"]
+new = "Contamination stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.WaterOutputContaminationStopDesc"]
+new = "Default stop value for output water contamination controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowUserControl"]
+new = "Enable user-control"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ShowUserControlDesc"]
+new = "Enables the old user-control behavior. This gives more specific control and allows controling some additional building types, but has been mostly replaced by the auto behaviors"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacity"]
+new = "Include building capacity"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.AutoProductsIncludeBuildingCapacityDesc"]
+new = "Includes the building's output inventory capacity as well as warehouse space"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.Population"]
+new = "Population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.MaintainPop"]
+new = "Maintain"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.AtPop"]
+new = "At"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationControlToggle"]
+new = "Control based on population"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationMode"]
+new = "Choose population type"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PopulationValue"]
+new = "Target population. The box accepts numbers above what the slider can set."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseScience"]
+new = "Science"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseScienceToggle"]
+new = "Control based on sceince points"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseScienceDefault"]
+new = "Science default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseScienceDesc"]
+new = "Newly constructed buildings will start with science control enabled"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStart"]
+new = "Science start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStartDesc"]
+new = "Science start value default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStop"]
+new = "Science stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.ScienceStopDesc"]
+new = "Science stop value default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableWeatherControl"]
+new = "Enable weather controller"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableWeatherControlDesc"]
+new = "Allows turning buildings on and off based on weather (only vanilla weather supported for now)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherControl"]
+new = "Weather"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWeatherControlToggle"]
+new = "Control building based on weather"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherSettings"]
+new = "Settings"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.WeatherSettingsButton"]
+new = "Set weather control options"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherSettingsHeader"]
+new = "Select active weathers"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.WeatherActiveDuring"]
+new = "Active during:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseSluice"]
+new = "Sluice controls"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActiveState"]
+new = "Active state"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceBlockedState"]
+new = "Inactive state"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UpstreamDepth"]
+new = "Upsteam depth"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.FloodgateActiveHeight"]
+new = "Active height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.FloodgateBlockedHeight"]
+new = "Inactive height"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.CurrentDepth"]
+new = "Current depth"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseSluiceControlToggle"]
+new = "Control sluice"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceActiveStateDropdown"]
+new = "State the sluice will use when active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceBlockedStateDropdown"]
+new = "State the sluice will use when inactive"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseWaterLevelToggle"]
+new = "Control based on water level on the upstream side of the sluice"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SluiceWaterLevel"]
+new = "Sluice will be active above this upstream water level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.FloodgateActiveHeight"]
+new = "Height for the floodgate while active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.FloodgateBlockedHeight"]
+new = "Height for the floodgate while inactive"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.CurrentStatus"]
+new = "Current status:"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActive"]
+new = "Active"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceInactive"]
+new = "Inactive"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SluiceMax"]
+new = "Water slider max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SluiceMaxDesc"]
+new = "Maximum value for the upstream depth slider."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceTimer"]
+new = "Timer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceActiveFor"]
+new = "Active for {0} days, then inactive for {1} days."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SluiceTimerStartsAtDawn"]
+new = "Timer starts at dawn (inactive period will expand to accomplish this)"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.RoundTimerToDays"]
+new = "Start at Dawn"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TimerLength"]
+new = "Total length"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TimerStart"]
+new = "Active length"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.TimerMax"]
+new = "Timer max"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.TimerMaxDesc"]
+new = "Maximum length of the timer, in days"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseTimer"]
+new = "Control with timer"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.StartAtDawn"]
+new = "Each timer cycle will start at dawn. Length of the timer will be extended to the next dawn"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.TimerLength"]
+new = "Total length of the timer cycle, in days"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.TimerActiveDuration"]
+new = "Length of the Active phase of the timer cycle. In days"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SingleCycleButton"]
+new = "Run single recipe"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SingleCycleButtonCancel"]
+new = "Attempt cancel"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleButton"]
+new = "Force building to become active for a single recipe cycle, overriding all other behaviors."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleButtonCancel"]
+new = "Cancel single cycle. This may or may not stop production, depending on other behavior settings."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SingleCycleLock"]
+new = "Lock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.SingleCycleLock"]
+new = "Building will only become active when the Single Cycle button is pressed."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.BlockedSCLock"]
+new = "Locked to single cycle button"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseSingleCycle"]
+new = "Use single cycle"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UseSingleCycleDesc"]
+new = "Enable or disable the single cycle system."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleAll"]
+new = "All buildings"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleAllDesc"]
+new = "All manufactory buildings will have a single cycle button"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLocked"]
+new = "Buildings start locked"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleStartLockedDesc"]
+new = "Buildings with single cycle ability will start locked"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SingleCycleHeader"]
+new = "This setting adds a button which turns the building on for a single recipe cycle. It also has an option to lock buildings, so pressing the button is the only way they will run.\nThis is intended for use with my Markets mod, where precise control is important.\nBy default, it only works for markets. Checking 'All buildings' will make it available on most other workshops."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SCLockedWarning"]
+new = "<b><YellowHighlight>Building is locked to the single-cycle button. All other settings will be ignored.</YellowHighlight></b>"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.SCActiveWarning"]
+new = "<b><YellowHighlight>Single-cycle button has been pressed. Building will remain active until a recipe completes or the single cycle cancel button is pressed. All other settings will be ignored.</YellowHighlight></b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.DisableSteamEngines"]
+new = "Disable vanilla steam engine auto-off"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.DisableSteamEnginesDesc"]
+new = "Steam engines will not turn off based on power demand."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefault"]
+new = "Battery level default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultDesc"]
+new = "New buildings will start with battery level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStart"]
+new = "Battery level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartDesc"]
+new = "Default battery level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStop"]
+new = "Battery level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopDesc"]
+new = "Default battery level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultGen"]
+new = "Battery level default, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelDefaultGenDesc"]
+new = "New power generators will start with battery control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartGen"]
+new = "Battery level start, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStartGenDesc"]
+new = "Default battery level start for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopGen"]
+new = "Battery level stop, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.BatteryLevelStopGenDesc"]
+new = "Default battery level stop for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefault"]
+new = "Power level default"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefaultDesc"]
+new = "New buildings will start with power level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStart"]
+new = "Power level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartDesc"]
+new = "Default power level start"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStop"]
+new = "Power level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopDesc"]
+new = "Default power level stop"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelGenDefault"]
+new = "Power level default, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelDefaultGenDesc"]
+new = "New power generators will start with power level control active"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartGen"]
+new = "Power level start, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStartGenDesc"]
+new = "Default power level start for generators"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopGen"]
+new = "Power level stop, gen"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.PowerLevelStopGenDesc"]
+new = "Default power level stop for generators"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerControl"]
+new = "Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UseBatteryLevel"]
+new = "Battery level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UseBatteryLevelToggle"]
+new = "Control based on power network battery level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertBatteryLevel"]
+new = "Invert battery start/stop"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsePowerLevel"]
+new = "Power level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.UsePowerLevelToggle"]
+new = "Control based on the power network power efficency level"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.InvertPowerLevel"]
+new = "Invert power level start / stop"
+status = "normal"
+
+["Building.TWSmallBattery.DisplayName"]
+new = "Small Battery"
+status = "normal"
+
+["Building.TWSmallBattery.Description"]
+new = "Stores power surplus and gives it back when its network is underpowered."
+status = "normal"
+
+["Building.TWSmallBattery.Folktails.FlavorDescription"]
+new = "A tower, to store power, to make flour, for an hour."
+status = "normal"
+
+["Building.TWSmallBattery.IronTeeth.FlavorDescription"]
+new = "Caution: Do not insert tail between weight and base."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnablePowerControl"]
+new = "Enable power controls"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnablePowerControlDesc"]
+new = "Show power-related controls. Buildings will remember their power-related settings while this is off, but will not use them."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableSmallBattery"]
+new = "Enable small battery"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.EnableSmallBatteryDesc"]
+new = "The small battery will be available for placement"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelTotalDemand"]
+new = "Total demand: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelActiveDemand"]
+new = "Active demand: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelSupply"]
+new = "Supply: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelBatterySupply"]
+new = "Battery supply: {0}"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelInfo"]
+new = "Power level is supply divided by total demand (then normalized to a 0-100 scale).\nIf battery-aware is checked, supply will have available battery power added to it.\nActive demand is buildings currently on. Total demand is buildings that would like to be on, if they had enough power.\nThe power percentage shown in the vanilla GUI and used to control workshop speed is supply / active demand."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelGeneratorWarning"]
+new = "! Building is generator. Will only turn off if power level is above Stop AND if turning off will not reduce power level below Start."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerLevelIsBatteryAware"]
+new = "Power level is battery-aware"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PowerLevelIsBatteryAwareToggle"]
+new = "Power level will include battery power. Workshops will turn on if there is battery available, and generators will attempt to keep battery above zero."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerEither"]
+new = "Battery OR Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerBoth"]
+new = "Battery AND Power"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PowerMixModeLabel"]
+new = "Stopped by"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.TT.PowerMixModeLabel"]
+new = "Controls whether both power conditions must be STOP for the building to stop."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsingDistrictInventory"]
+new = "Building controls are using <YellowHighlight>district</YellowHighlight> inventory."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UsingGlobalInventory"]
+new = "Building controls are using <YellowHighlight>global</YellowHighlight> inventory."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPower"]
+new = "<b><YellowHighlight>Power:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPowerConsumers"]
+new = "<b><YellowHighlight>Power Consumers:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPowerGen"]
+new = "<b><YellowHighlight>Power Generators:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionSluice"]
+new = "<b><YellowHighlight>Sluice:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionGeneral"]
+new = "<b><YellowHighlight>General:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionSingleCycle"]
+new = "<b><YellowHighlight>Single Cycle:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionAutoIngredients"]
+new = "<b><YellowHighlight>Auto-Ingredients:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionAutoProducts"]
+new = "<b><YellowHighlight>Auto-Products:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionPlanting"]
+new = "<b><YellowHighlight>Planting:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionScience"]
+new = "<b><YellowHighlight>Science:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionHarvest"]
+new = "<b><YellowHighlight>Harvest related:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionWaterInput"]
+new = "<b><YellowHighlight>Water input:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionWaterOutput"]
+new = "<b><YellowHighlight>Water output:</YellowHighlight><b>"
+status = "normal"

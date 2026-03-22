@@ -1,0 +1,18 @@
+[_meta]
+name = "Depth Monitor"
+
+["Building.DepthMonitor.DisplayName"]
+new = "Depth Monitor"
+status = "normal"
+
+["Building.DepthMonitor.Description"]
+new = "Measures the water depth and sends an automation signal based on a low and high threshold."
+status = "normal"
+
+["Building.DepthMonitor.TurnOnIf"]
+new = "Turn ON if depth is ≤"
+status = "normal"
+
+["Building.DepthMonitor.TurnOffIf"]
+new = "Turn OFF if depth is ≥"
+status = "normal"

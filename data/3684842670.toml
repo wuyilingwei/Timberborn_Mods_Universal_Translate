@@ -2,8 +2,8 @@
 name = "Watertight gates"
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Flat.DisplayName"]
-status = "normal"
 raw = "Watertight gate"
+status = "normal"
 enUS = "Watertight gate"
 zhCN = "水密闸门"
 zhTW = "水密閘門"
@@ -18,8 +18,8 @@ csCZ = "Vodotěsná brána"
 viVN = "Cổng kín nước"
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Flat.Description"]
-status = "normal"
 raw = "Let people pass through, not the poo. Except if you want it too."
+status = "normal"
 enUS = "Let people pass through, not the poop. Unless you want it too."
 zhCN = "让人通过，但不让粪便通过。除非你也想让粪便通过。"
 zhTW = "讓人通過，別讓大便通過。除非你也想讓它通過。"
@@ -34,8 +34,8 @@ csCZ = "Nechte lidi projít, ne výkaly. Pokud to chcete i vy."
 viVN = "Cho phép người đi qua, không cho phân đi qua. Trừ khi bạn cũng muốn cho phân đi qua."
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Flat.FlavorDescription"]
-status = "normal"
 raw = "Is this water leaking through?"
+status = "normal"
 enUS = "Is this water leaking through?"
 zhCN = "这水会从这里渗漏吗？"
 zhTW = "這水會滲漏過來嗎？"
@@ -50,8 +50,8 @@ csCZ = "Prosakuje voda skrz to?"
 viVN = "Nước có đang rò rỉ qua đây không?"
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Stairs.DisplayName"]
-status = "normal"
 raw = "Watertight staired gate"
+status = "normal"
 enUS = "Watertight stair gate"
 zhCN = "带阶梯的水密门"
 zhTW = "階梯式水密閘門"
@@ -66,8 +66,8 @@ csCZ = "Vodotěsná brána se schody"
 viVN = "Cổng kín nước có bậc thang"
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Stairs.Description"]
-status = "normal"
 raw = "Let people pass through, not the poo. Except if you want it too. Now with ?% extra slope!"
+status = "normal"
 enUS = "Let people pass through, not the poop. Except if you want it too. Now with ?% extra slope!"
 zhCN = "让人们通过，而不是让粪便通过。除非你也想让粪便通过。现在有 ?% 的额外坡度！"
 zhTW = "讓人通過，而糞便不要通過。除非你也想讓它通過。現在有 ?% 額外的坡度！"
@@ -82,8 +82,8 @@ csCZ = "Povolte lidem průchod, ne výkalům. Pokud to chcete i vy. Nyní s ?% n
 viVN = "Cho phép mọi người đi qua, không cho phân đi qua. Trừ khi bạn muốn cho nó đi qua. Giờ có ?% độ dốc thêm!"
 
 ["GerkinDev.WatertightGates.Building.WatertightGate.Stairs.FlavorDescription"]
-status = "normal"
 raw = "Please mind the gate between the stairs and the water."
+status = "normal"
 enUS = "Please mind the gate between the stairs and the water."
 zhCN = "请注意楼梯与水之间的闸门。"
 zhTW = "請留意位於樓梯與水之間的閘門。"
@@ -97,73 +97,9 @@ koKR = "계단과 물 사이의 수문을 주의해 주세요."
 csCZ = "Prosím, dávejte pozor na bránu mezi schody a vodou."
 viVN = "Xin lưu ý cổng chắn nước giữa cầu thang và nước."
 
-["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Active.Label"]
-status = "normal"
-raw = "Active"
-enUS = "Active"
-zhCN = "启用"
-zhTW = "啟用"
-ruRU = "Активен"
-jaJP = "有効"
-frFR = "Actif"
-deDE = "Aktiv"
-plPL = "Aktywny"
-ptBR = "Ativo"
-koKR = "활성"
-csCZ = "Aktivní"
-viVN = "Kích hoạt"
-
-["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Active.Tooltip"]
-status = "normal"
-raw = "Active"
-enUS = "Active"
-zhCN = "主动"
-zhTW = "啟用"
-ruRU = "Активно"
-jaJP = "アクティブ"
-frFR = "Actif"
-deDE = "Aktiv"
-plPL = "Aktywny"
-ptBR = "Ativo"
-koKR = "활성"
-csCZ = "Aktivní"
-viVN = "Hoạt động"
-
-["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Inactive.Label"]
-status = "normal"
-raw = "Inactive"
-enUS = "Inactive"
-zhCN = "未激活"
-zhTW = "未啟用"
-ruRU = "Неактивно"
-jaJP = "非アクティブ"
-frFR = "Inactif"
-deDE = "Inaktiv"
-plPL = "Nieaktywny"
-ptBR = "Inativo"
-koKR = "비활성"
-csCZ = "Neaktivní"
-viVN = "Không hoạt động"
-
-["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Inactive.Tooltip"]
-status = "normal"
-raw = "Inactive"
-enUS = "Inactive"
-zhCN = "未激活"
-zhTW = "未啟用"
-ruRU = "Неактивно"
-jaJP = "無効"
-frFR = "Inactif"
-deDE = "Inaktiv"
-plPL = "Nieaktywny"
-ptBR = "Inativo"
-koKR = "비활성"
-csCZ = "Neaktivní"
-viVN = "Không hoạt động"
-
 ["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Automated.Label"]
-status = "normal"
 raw = "Automated"
+status = "normal"
 enUS = "Automated"
 zhCN = "自动"
 zhTW = "自動"
@@ -178,8 +114,8 @@ csCZ = "Automatické"
 viVN = "Tự động"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Automated.Tooltip"]
-status = "normal"
 raw = "Automated"
+status = "normal"
 enUS = "Automated"
 zhCN = "自动"
 zhTW = "自動"
@@ -193,9 +129,105 @@ koKR = "자동"
 csCZ = "Automatické"
 viVN = "Tự động"
 
-["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.ActiveState"]
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.ActiveState"]
+new = "When active"
 status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.InactiveState"]
+new = "When inactive"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Open.Label"]
+new = "Open"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Open.Tooltip"]
+new = "Open"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Close.Label"]
+new = "Close"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Close.Tooltip"]
+new = "Close"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Pass.Label"]
+new = "Pass"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.Modes.Pass.Tooltip"]
+new = "Open on demand"
+status = "normal"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Active.Label"]
+raw = "Active"
+status = "abandoned"
+enUS = "Active"
+zhCN = "启用"
+zhTW = "啟用"
+ruRU = "Активен"
+jaJP = "有効"
+frFR = "Actif"
+deDE = "Aktiv"
+plPL = "Aktywny"
+ptBR = "Ativo"
+koKR = "활성"
+csCZ = "Aktivní"
+viVN = "Kích hoạt"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Active.Tooltip"]
+raw = "Active"
+status = "abandoned"
+enUS = "Active"
+zhCN = "主动"
+zhTW = "啟用"
+ruRU = "Активно"
+jaJP = "アクティブ"
+frFR = "Actif"
+deDE = "Aktiv"
+plPL = "Aktywny"
+ptBR = "Ativo"
+koKR = "활성"
+csCZ = "Aktivní"
+viVN = "Hoạt động"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Inactive.Label"]
+raw = "Inactive"
+status = "abandoned"
+enUS = "Inactive"
+zhCN = "未激活"
+zhTW = "未啟用"
+ruRU = "Неактивно"
+jaJP = "非アクティブ"
+frFR = "Inactif"
+deDE = "Inaktiv"
+plPL = "Nieaktywny"
+ptBR = "Inativo"
+koKR = "비활성"
+csCZ = "Neaktivní"
+viVN = "Không hoạt động"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.ActivationMode.Inactive.Tooltip"]
+raw = "Inactive"
+status = "abandoned"
+enUS = "Inactive"
+zhCN = "未激活"
+zhTW = "未啟用"
+ruRU = "Неактивно"
+jaJP = "無効"
+frFR = "Inactif"
+deDE = "Inaktiv"
+plPL = "Nieaktywny"
+ptBR = "Inativo"
+koKR = "비활성"
+csCZ = "Neaktivní"
+viVN = "Không hoạt động"
+
+["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.ActiveState"]
 raw = "When active"
+status = "abandoned"
 enUS = "When active"
 zhCN = "激活时"
 zhTW = "啟用時"
@@ -210,8 +242,8 @@ csCZ = "Když je aktivní"
 viVN = "Khi hoạt động"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.InactiveState"]
-status = "normal"
 raw = "When inactive"
+status = "abandoned"
 enUS = "When inactive"
 zhCN = "非活动时"
 zhTW = "當未啟用時"
@@ -226,8 +258,8 @@ csCZ = "Když je neaktivní"
 viVN = "Khi không hoạt động"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Open.Label"]
-status = "normal"
 raw = "Open"
+status = "abandoned"
 enUS = "Open"
 zhCN = "开启"
 zhTW = "開啟"
@@ -242,8 +274,8 @@ csCZ = "Otevřeno"
 viVN = "Mở"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Open.Tooltip"]
-status = "normal"
 raw = "Open"
+status = "abandoned"
 enUS = "Open"
 zhCN = "开启"
 zhTW = "開啟"
@@ -258,8 +290,8 @@ csCZ = "Otevřeno"
 viVN = "Mở"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Close.Label"]
-status = "normal"
 raw = "Close"
+status = "abandoned"
 enUS = "Close"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -274,8 +306,8 @@ csCZ = "Zavřít"
 viVN = "Đóng"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Close.Tooltip"]
-status = "normal"
 raw = "Close"
+status = "abandoned"
 enUS = "Close"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -290,8 +322,8 @@ csCZ = "Zavřít"
 viVN = "Đóng"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Pass.Label"]
-status = "normal"
 raw = "Pass"
+status = "abandoned"
 enUS = "Pass"
 zhCN = "通过"
 zhTW = "通過"
@@ -306,8 +338,8 @@ csCZ = "Průchod"
 viVN = "Thông qua"
 
 ["GerkinDev.WatertightGates.UI.WatertightGate.GateMode.Pass.Tooltip"]
-status = "normal"
 raw = "Open on demand"
+status = "abandoned"
 enUS = "Open on demand"
 zhCN = "按需开启"
 zhTW = "按需開啟"

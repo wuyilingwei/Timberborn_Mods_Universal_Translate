@@ -1,9 +1,29 @@
 [_meta]
 name = "zxuiji -m- More Flags"
 
-["Wares.EfficientMetalBlock.Common.Lone"]
+["Wares.Group.Drinks"]
+new = "Drinks"
 status = "normal"
+
+["Wares.Group.MoreFlags"]
+new = "Poorly Packed"
+status = "normal"
+
+["Wares.Juice.Need"]
+new = "Juice"
+status = "normal"
+
+["Wares.Juice.Lone"]
+new = "Barrel of Juice"
+status = "normal"
+
+["Wares.Juice.Many"]
+new = "Barrels of Juice"
+status = "normal"
+
+["Wares.EfficientMetalBlock.Common.Lone"]
 raw = "Efficient Metal Block"
+status = "normal"
 enUS = "Efficient Metal Block"
 zhCN = "高效金属方块"
 zhTW = "高效金屬方塊"
@@ -18,8 +38,8 @@ csCZ = "Efektivní kovový blok"
 viVN = "Khối kim loại hiệu quả"
 
 ["Wares.EfficientMetalBlock.Common.Many"]
-status = "normal"
 raw = "Efficient Metal Blocks"
+status = "normal"
 enUS = "Efficient Metal Blocks"
 zhCN = "高效金属方块"
 zhTW = "高效金屬方塊"
@@ -34,8 +54,8 @@ csCZ = "Efektivní kovové bloky"
 viVN = "Khối kim loại hiệu quả"
 
 [HR]
-status = "normal"
 raw = "======================================================================"
+status = "normal"
 enUS = "======================================================================"
 zhCN = "======================================================================"
 zhTW = "======================================================================"
@@ -50,8 +70,8 @@ csCZ = "======================================================================"
 viVN = "======================================================================"
 
 ["Grows.BananaTree.Whitepaws.Lone"]
-status = "normal"
 raw = "Banana Tree (Whitepaws)"
+status = "normal"
 enUS = "Banana Tree (Whitepaws)"
 zhCN = "香蕉树（白爪）"
 zhTW = "香蕉樹（白爪）"
@@ -66,8 +86,8 @@ csCZ = "Banánovník (Whitepaws)"
 viVN = "Cây chuối (Whitepaws)"
 
 ["Grows.BirchTree.Common.Lone"]
-status = "normal"
 raw = "Birch Tree"
+status = "normal"
 enUS = "Birch Tree"
 zhCN = "桦树"
 zhTW = "白樺樹"
@@ -82,8 +102,8 @@ csCZ = "Bříza"
 viVN = "Cây Bạch Dương"
 
 ["Grows.BramblesPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Brambles (Whitepaws)"
+status = "normal"
 enUS = "Brambles (Whitepaws)"
 zhCN = "荆棘（Whitepaws）"
 zhTW = "荊棘（Whitepaws）"
@@ -98,8 +118,8 @@ csCZ = "Ostružiny (Whitepaws)"
 viVN = "Bụi gai (Whitepaws)"
 
 ["Grows.CabbageCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Cabbage (Whitepaws)"
+status = "normal"
 enUS = "Cabbage (Whitepaws)"
 zhCN = "卷心菜（Whitepaws）"
 zhTW = "捲心菜（Whitepaws）"
@@ -114,8 +134,8 @@ csCZ = "Kapusta (Whitepaws)"
 viVN = "Bắp cải (Whitepaws)"
 
 ["Grows.EverblossomTree.Whitepaws.Lone"]
-status = "normal"
 raw = "Everblossom Tree (Whitepaws)"
+status = "normal"
 enUS = "Everblossom Tree (Whitepaws)"
 zhCN = "永花树（白爪）"
 zhTW = "恆花樹（白爪）"
@@ -130,8 +150,8 @@ csCZ = "Strom Věčného Květu (Bílé Tlapy)"
 viVN = "Cây Everblossom (Whitepaws)"
 
 ["Grows.GiantBambooPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Giant Bamboo (Whitepaws)"
+status = "normal"
 enUS = "Giant Bamboo (Whitepaws)"
 zhCN = "巨型竹（白爪）"
 zhTW = "巨竹（Whitepaws）"
@@ -146,8 +166,8 @@ csCZ = "Obrovský bambus (Whitepaws)"
 viVN = "Tre khổng lồ (Whitepaws)"
 
 ["Grows.GiantSeqouiaTree.Whitepaws.Lone"]
-status = "normal"
 raw = "Giant Sequoia (Whitepaws)"
+status = "normal"
 enUS = "Giant Sequoia (Whitepaws)"
 zhCN = "巨杉 (Whitepaws)"
 zhTW = "巨杉（白爪）"
@@ -162,8 +182,8 @@ csCZ = "Sekvojovec obrovský (Whitepaws)"
 viVN = "Sequoia khổng lồ (Whitepaws)"
 
 ["Grows.GreenPeasCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Green Peas (Whitepaws)"
+status = "normal"
 enUS = "Green Peas (Whitepaws)"
 zhCN = "青豌豆（白爪）"
 zhTW = "青豌豆 (Whitepaws)"
@@ -178,8 +198,8 @@ csCZ = "Zelený hrášek (Whitepaws)"
 viVN = "Đậu Hà Lan xanh (Whitepaws)"
 
 ["Grows.LotusPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Lotus (Whitepaws)"
+status = "normal"
 enUS = "Lotus (Whitepaws)"
 zhCN = "莲花（Whitepaws）"
 zhTW = "蓮花（白爪）"
@@ -194,8 +214,8 @@ csCZ = "Lotus (Bílé tlapky)"
 viVN = "Hoa sen (Whitepaws)"
 
 ["Grows.OakTree.RandoQuote"]
-status = "normal"
 raw = "Oof! These are hard to gnaw into shape..."
+status = "normal"
 enUS = "Oof! These are hard to gnaw into shape..."
 zhCN = "哎呀！这些东西很难啃成形..."
 zhTW = "哎呀！這些很難啃成形……"
@@ -210,8 +230,8 @@ csCZ = "Au! Tyto kusy se těžko okousávají do tvaru..."
 viVN = "Ối chà! Những thứ này khó nhai để thành hình."
 
 ["Grows.OakTree.Common.Lone"]
-status = "normal"
 raw = "Oak Tree"
+status = "normal"
 enUS = "Oak Tree"
 zhCN = "橡树"
 zhTW = "橡樹"
@@ -226,8 +246,8 @@ csCZ = "Dubový strom"
 viVN = "Cây sồi"
 
 ["Grows.RedCabbageCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Red Cabbage (Whitepaws)"
+status = "normal"
 enUS = "Red Cabbage (Whitepaws)"
 zhCN = "红甘蓝 (Whitepaws)"
 zhTW = "紅捲心菜 (Whitepaws)"
@@ -242,8 +262,8 @@ csCZ = "Červené zelí (Whitepaws)"
 viVN = "Bắp cải đỏ (Whitepaws)"
 
 ["Grows.RiceCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Rice (Whitepaws)"
+status = "normal"
 enUS = "Rice (Whitepaws)"
 zhCN = "水稻（白爪）"
 zhTW = "水稻（白爪）"
@@ -258,8 +278,8 @@ csCZ = "Rýže (Whitepaws)"
 viVN = "Gạo (Whitepaws)"
 
 ["Grows.WildBramblesPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Wild Brambles (Whitepaws)"
+status = "normal"
 enUS = "Wild Brambles (Whitepaws)"
 zhCN = "野生荆棘（白爪）"
 zhTW = "野生荊棘（白爪）"
@@ -274,8 +294,8 @@ csCZ = "Divoké ostružiny (Whitepaws)"
 viVN = "Bụi gai hoang dã (Whitepaws)"
 
 ["Grows.AppleTree.IronTeeth.Lone"]
-status = "normal"
 raw = "Apple Tree (IronTeeth)"
+status = "normal"
 enUS = "Apple Tree (IronTeeth)"
 zhCN = "苹果树（铁牙）"
 zhTW = "蘋果樹（IronTeeth）"
@@ -290,8 +310,8 @@ csCZ = "Jabloň (IronTeeth)"
 viVN = "Cây Táo (Răng Sắt)"
 
 ["Grows.AppleTree.LeafCoats.Lone"]
-status = "normal"
 raw = "Apple Tree (LeafCoats)"
+status = "normal"
 enUS = "Apple Tree (LeafCoats)"
 zhCN = "苹果树（叶衣）"
 zhTW = "蘋果樹（葉衣）"
@@ -306,8 +326,8 @@ csCZ = "Jabloň (Listové pláště)"
 viVN = "Cây táo (Lớp phủ lá)"
 
 ["Grows.AppleTree.Emberpelts.Lone"]
-status = "normal"
 raw = "Apple Tree (Emberpelts)"
+status = "normal"
 enUS = "Apple Tree (Emberpelts)"
 zhCN = "苹果树（Emberpelts）"
 zhTW = "蘋果樹（Emberpelts）"
@@ -322,8 +342,8 @@ csCZ = "Jabloň (Emberpelts)"
 viVN = "Cây Táo (Emberpelts)"
 
 ["Grows.AppleTree.RandoQuote"]
-status = "normal"
 raw = "Eureka! There is another force, I shall name it Gravity!"
+status = "normal"
 enUS = "Eureka! There is another force, I shall name it Gravity!"
 zhCN = "尤里卡！还有另一股力量，我将把它命名为引力！"
 zhTW = "尤里卡！還有另一種力量，我要把它命名為重力！"
@@ -337,9 +357,13 @@ koKR = "유레카! 또 다른 힘이 있다. 그것을 중력이라고 부르겠
 csCZ = "Hurá! Existuje další síla, pojmenuji ji Gravitace!"
 viVN = "Eureka! Có một lực khác, ta sẽ đặt tên cho nó là Trọng lực!"
 
-["Wares.Apples.Lone"]
+["Wares.Apples.Need"]
+new = "Apples"
 status = "normal"
+
+["Wares.Apples.Lone"]
 raw = "Crate of Apples"
+status = "normal"
 enUS = "Crate of Apples"
 zhCN = "苹果箱"
 zhTW = "蘋果箱"
@@ -354,8 +378,8 @@ csCZ = "Bedna jablek"
 viVN = "Thùng táo"
 
 ["Wares.Apples.Many"]
-status = "normal"
 raw = "Crates of Apples"
+status = "normal"
 enUS = "Crates of Apples"
 zhCN = "苹果箱"
 zhTW = "蘋果木箱"
@@ -370,8 +394,8 @@ csCZ = "Krabice jablek"
 viVN = "Thùng táo"
 
 ["Wares.Apples.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Apples (IronTeeth)"
+status = "normal"
 enUS = "Crate of Apples (Iron Teeth)"
 zhCN = "苹果箱（铁牙）"
 zhTW = "蘋果箱（IronTeeth）"
@@ -386,8 +410,8 @@ csCZ = "Bedna jablek (IronTeeth)"
 viVN = "Thùng táo (IronTeeth)"
 
 ["Wares.Apples.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Apples (IronTeeth)"
+status = "normal"
 enUS = "Crates of Apples (IronTeeth)"
 zhCN = "苹果箱（铁牙）"
 zhTW = "蘋果箱 (鐵牙)"
@@ -402,8 +426,8 @@ csCZ = "Krabice jablek (IronTeeth)"
 viVN = "Các thùng táo (IronTeeth)"
 
 ["Wares.Apples.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Apples (LeafCoats)"
+status = "normal"
 enUS = "Crate of Apples (LeafCoats)"
 zhCN = "苹果箱（LeafCoats）"
 zhTW = "蘋果箱（葉外套）"
@@ -418,8 +442,8 @@ csCZ = "Bedna jablek (LeafCoats)"
 viVN = "Thùng táo (LeafCoats)"
 
 ["Wares.Apples.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Apples (LeafCoats)"
+status = "normal"
 enUS = "Crates of Apples (LeafCoats)"
 zhCN = "苹果箱（LeafCoats）"
 zhTW = "蘋果箱（LeafCoats）"
@@ -434,8 +458,8 @@ csCZ = "Krabice jablek (LeafCoats)"
 viVN = "Thùng táo (LeafCoats)"
 
 ["Wares.Apples.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Apples (Emberpelts)"
+status = "normal"
 enUS = "Crate of Apples (Emberpelts)"
 zhCN = "苹果箱（余烬皮毛）"
 zhTW = "蘋果箱（Emberpelts）"
@@ -450,8 +474,8 @@ csCZ = "Bedna jablek (Emberpelts)"
 viVN = "Thùng táo (Emberpelts)"
 
 ["Wares.Apples.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Apples (Emberpelts)"
+status = "normal"
 enUS = "Crates of Apples (Emberpelts)"
 zhCN = "苹果箱（Emberpelts）"
 zhTW = "蘋果箱（Emberpelts）"
@@ -466,8 +490,8 @@ csCZ = "Krabice jablek (Emberpelts)"
 viVN = "Thùng táo (Emberpelts)"
 
 ["Grows.BeetrootCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Beetroot"
+status = "normal"
 enUS = "Beet"
 zhCN = "甜菜"
 zhTW = "甜菜"
@@ -482,8 +506,8 @@ csCZ = "Řepa"
 viVN = "Củ cải đường"
 
 ["Wares.Beetroot.Lone"]
-status = "normal"
 raw = "Crate of Beetroot"
+status = "normal"
 enUS = "Crate of Beetroot"
 zhCN = "甜菜箱"
 zhTW = "甜菜箱"
@@ -498,8 +522,8 @@ csCZ = "Krabice řepy"
 viVN = "Thùng củ cải đường"
 
 ["Wares.Beetroot.Many"]
-status = "normal"
 raw = "Crates of Beetroot"
+status = "normal"
 enUS = "Crates of Beetroot"
 zhCN = "甜菜箱"
 zhTW = "甜菜箱"
@@ -514,8 +538,8 @@ csCZ = "Krabice řepy"
 viVN = "Thùng củ cải đường"
 
 ["Wares.Beetroot.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Beetroot (Emberpelts)"
+status = "normal"
 enUS = "Crate of Beetroot (Emberpelts)"
 zhCN = "一箱甜菜根（Emberpelts）"
 zhTW = "一箱甜菜根（Emberpelts）"
@@ -530,8 +554,8 @@ csCZ = "Bedna řepy (Emberpelts)"
 viVN = "Thùng củ cải đường (Emberpelts)"
 
 ["Wares.Beetroot.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Beetroot (Emberpelts)"
+status = "normal"
 enUS = "Crates of Beetroot (Emberpelts)"
 zhCN = "甜菜箱（余烬毛皮）"
 zhTW = "甜菜箱（餘燼獸皮）"
@@ -546,8 +570,8 @@ csCZ = "Bedny řepy (Emberpelts)"
 viVN = "Thùng củ cải đường (Emberpelts)"
 
 ["Grows.BlueberryPlant.Common.Lone"]
-status = "normal"
 raw = "Blueberry Bush"
+status = "normal"
 enUS = "Blueberry Bush"
 zhCN = "蓝莓灌木"
 zhTW = "藍莓灌木"
@@ -562,8 +586,8 @@ csCZ = "Borůvkový keř"
 viVN = "Bụi việt quất"
 
 ["Grows.BlueberryPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Blueberry Bush (Whitepaws)"
+status = "normal"
 enUS = "Blueberry Bush (Whitepaws)"
 zhCN = "蓝莓灌木（Whitepaws）"
 zhTW = "藍莓灌木 (Whitepaws)"
@@ -577,9 +601,13 @@ koKR = "블루베리 관목 (화이트파우즈)"
 csCZ = "Borůvkový keř (Whitepaws)"
 viVN = "Bụi Việt quất (Whitepaws)"
 
-["Wares.Blueberries.Lone"]
+["Grows.BlueberryPlant.RandoQuote"]
+new = "Why don't these quench our thirst even a little?"
 status = "normal"
+
+["Wares.Blueberries.Lone"]
 raw = "Crate of Blueberries"
+status = "normal"
 enUS = "Crate of Blueberries"
 zhCN = "蓝莓箱"
 zhTW = "藍莓箱"
@@ -594,8 +622,8 @@ csCZ = "Bedna borůvek"
 viVN = "Thùng việt quất"
 
 ["Wares.Blueberries.Many"]
-status = "normal"
 raw = "Crates of Blueberries"
+status = "normal"
 enUS = "Crates of Blueberries"
 zhCN = "蓝莓箱"
 zhTW = "藍莓箱"
@@ -610,8 +638,8 @@ csCZ = "Bedny borůvek"
 viVN = "Thùng việt quất"
 
 ["Wares.Blueberries.Common.Lone"]
-status = "normal"
 raw = "Crate of Blueberries (Poorly Packed)"
+status = "normal"
 enUS = "Crate of Blueberries (Poorly Packed)"
 zhCN = "蓝莓木箱（包装不良）"
 zhTW = "藍莓箱（包裝不良）"
@@ -626,8 +654,8 @@ csCZ = "Krabice borůvek (špatně zabalená)"
 viVN = "Thùng việt quất (Đóng gói kém)"
 
 ["Wares.Blueberries.Common.Many"]
-status = "normal"
 raw = "Crates of Blueberries (Poorly Packed)"
+status = "normal"
 enUS = "Crates of Blueberries (Poorly Packed)"
 zhCN = "蓝莓箱（包装不良）"
 zhTW = "藍莓箱（包裝不良）"
@@ -642,8 +670,8 @@ csCZ = "Krabice borůvek (špatně zabalené)"
 viVN = "Thùng việt quất (Đóng gói kém)"
 
 ["Wares.Blueberries.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Blueberries (Whitepaws)"
+status = "normal"
 enUS = "Crate of Blueberries (Whitepaws)"
 zhCN = "蓝莓箱（白爪）"
 zhTW = "藍莓箱（Whitepaws）"
@@ -658,8 +686,8 @@ csCZ = "Bedna borůvek (Whitepaws)"
 viVN = "Thùng việt quất (Whitepaws)"
 
 ["Wares.Blueberries.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Blueberries (Whitepaws)"
+status = "normal"
 enUS = "Crates of Blueberries (Whitepaws)"
 zhCN = "蓝莓木箱（白爪）"
 zhTW = "藍莓箱（白爪）"
@@ -674,8 +702,8 @@ csCZ = "Krabice borůvek (Whitepaws)"
 viVN = "Thùng việt quất (Whitepaws)"
 
 ["Grows.CanolaCrop.IronTeeth.Lone"]
-status = "normal"
 raw = "Canola (IronTeeth)"
+status = "normal"
 enUS = "Canola (IronTeeth)"
 zhCN = "油菜 (铁牙)"
 zhTW = "油菜（鐵牙）"
@@ -690,8 +718,8 @@ csCZ = "řepka olejná (IronTeeth)"
 viVN = "Cải canola (IronTeeth)"
 
 ["Grows.CanolaCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Canola (Emberpelts)"
+status = "normal"
 enUS = "Canola (Emberpelts)"
 zhCN = "油菜籽（Emberpelts）"
 zhTW = "油菜籽 (Emberpelts)"
@@ -706,8 +734,8 @@ csCZ = "Kanola (Emberpelts)"
 viVN = "Cải dầu (Emberpelts)"
 
 ["Wares.CanolaSeeds.Lone"]
-status = "normal"
 raw = "Crate of Canola Seeds"
+status = "normal"
 enUS = "Crate of Canola Seeds"
 zhCN = "油菜籽箱"
 zhTW = "油菜籽木箱"
@@ -722,8 +750,8 @@ csCZ = "Bedna semínek řepky olejné"
 viVN = "Thùng hạt cải dầu"
 
 ["Wares.CanolaSeeds.Many"]
-status = "normal"
 raw = "Crates of Canola Seeds"
+status = "normal"
 enUS = "Crates of Canola Seeds"
 zhCN = "油菜籽木箱"
 zhTW = "油菜籽箱"
@@ -738,8 +766,8 @@ csCZ = "Bedny semínek řepky olejné"
 viVN = "Thùng hạt cải dầu"
 
 ["Wares.CanolaSeeds.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Canola Seeds (IronTeeth)"
+status = "normal"
 enUS = "Crate of Canola Seeds (IronTeeth)"
 zhCN = "油菜籽箱（铁齿）"
 zhTW = "油菜籽種子木箱（IronTeeth）"
@@ -754,8 +782,8 @@ csCZ = "Krabice semen řepky (IronTeeth)"
 viVN = "Thùng hạt giống Cải dầu (IronTeeth)"
 
 ["Wares.CanolaSeeds.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Canola Seeds (IronTeeth)"
+status = "normal"
 enUS = "Crates of Canola Seeds (IronTeeth)"
 zhCN = "油菜籽箱（铁牙）"
 zhTW = "油菜籽箱（鐵牙）"
@@ -770,8 +798,8 @@ csCZ = "Krabice semen řepky olejné (IronTeeth)"
 viVN = "Thùng hạt cải dầu (IronTeeth)"
 
 ["Wares.CanolaSeeds.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Canola Seeds (Emberpelts)"
+status = "normal"
 enUS = "Crate of Canola Seeds (Emberpelts)"
 zhCN = "油菜籽箱（Emberpelts）"
 zhTW = "油菜籽箱（餘燼獸皮）"
@@ -786,8 +814,8 @@ csCZ = "Bedna semen řepky olejné (Emberpelts)"
 viVN = "Thùng hạt cải dầu (Emberpelts)"
 
 ["Wares.CanolaSeeds.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Canola Seeds (Emberpelts)"
+status = "normal"
 enUS = "Crates of Canola Seeds (Emberpelts)"
 zhCN = "油菜籽箱（Emberpelts）"
 zhTW = "油菜籽箱（燼皮）"
@@ -802,8 +830,8 @@ csCZ = "Krabice semínek řepky olejné (Emberpelts)"
 viVN = "Các thùng hạt cải dầu (Emberpelts)"
 
 ["Grows.CarrotCrop.Folktails.Lone"]
-status = "normal"
 raw = "Carrot"
+status = "normal"
 enUS = "Carrot"
 zhCN = "胡萝卜"
 zhTW = "胡蘿蔔"
@@ -818,8 +846,8 @@ csCZ = "Mrkev"
 viVN = "Cà rốt"
 
 ["Wares.Carrots.Lone"]
-status = "normal"
 raw = "Crate of Carrots"
+status = "normal"
 enUS = "Crate of Carrots"
 zhCN = "胡萝卜箱"
 zhTW = "胡蘿蔔箱"
@@ -834,8 +862,8 @@ csCZ = "Bedna mrkví"
 viVN = "Thùng cà rốt"
 
 ["Wares.Carrots.Many"]
-status = "normal"
 raw = "Crates of Carrots"
+status = "normal"
 enUS = "Crates of Carrots"
 zhCN = "胡萝卜箱"
 zhTW = "胡蘿蔔箱"
@@ -850,8 +878,8 @@ csCZ = "Krabice mrkví"
 viVN = "Các thùng cà rốt"
 
 ["Wares.Carrots.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Carrots (Folktails)"
+status = "normal"
 enUS = "Crate of Carrots (Folktails)"
 zhCN = "胡萝卜箱（Folktails）"
 zhTW = "胡蘿蔔箱（Folktails）"
@@ -866,8 +894,8 @@ csCZ = "Bedna mrkví (Folktails)"
 viVN = "Thùng cà rốt (Folktails)"
 
 ["Wares.Carrots.Folktails.Many"]
-status = "normal"
 raw = "Crates of Carrots (Folktails)"
+status = "normal"
 enUS = "Crates of Carrots (Folktails)"
 zhCN = "胡萝卜箱（Folktails）"
 zhTW = "胡蘿蔔箱（Folktails）"
@@ -882,8 +910,8 @@ csCZ = "Krabice mrkví (Folktails)"
 viVN = "Thùng cà rốt (Folktails)"
 
 ["Grows.CassavaCrop.IronTeeth.Lone"]
-status = "normal"
 raw = "Cassava"
+status = "normal"
 enUS = "Cassava"
 zhCN = "木薯"
 zhTW = "木薯"
@@ -898,8 +926,8 @@ csCZ = "maniok"
 viVN = "Sắn"
 
 ["Wares.Cassava.Lone"]
-status = "normal"
 raw = "Crate of Cassava"
+status = "normal"
 enUS = "Crate of Cassava"
 zhCN = "木薯箱"
 zhTW = "木薯箱"
@@ -914,8 +942,8 @@ csCZ = "Bedna manioku"
 viVN = "Thùng khoai mì"
 
 ["Wares.Cassava.Many"]
-status = "normal"
 raw = "Crates of Cassava"
+status = "normal"
 enUS = "Crates of Cassava"
 zhCN = "木薯箱"
 zhTW = "木薯箱"
@@ -930,8 +958,8 @@ csCZ = "Krabice manioku"
 viVN = "Thùng khoai mì"
 
 ["Wares.Cassava.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Cassava (IronTeeth)"
+status = "normal"
 enUS = "Crate of Cassava (IronTeeth)"
 zhCN = "木薯箱（铁牙）"
 zhTW = "木薯箱（鐵牙）"
@@ -946,8 +974,8 @@ csCZ = "Krabice manioku (IronTeeth)"
 viVN = "Thùng khoai mì (IronTeeth)"
 
 ["Wares.Cassava.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Cassava (IronTeeth)"
+status = "normal"
 enUS = "Crates of Cassava (IronTeeth)"
 zhCN = "木薯箱（铁牙）"
 zhTW = "木薯箱（鐵牙）"
@@ -962,8 +990,8 @@ csCZ = "Krabice manioku (IronTeeth)"
 viVN = "Thùng khoai mì (Răng Sắt)"
 
 ["Grows.CattailCrop.Folktails.Lone"]
-status = "normal"
 raw = "Cattail"
+status = "normal"
 enUS = "Cattail"
 zhCN = "香蒲"
 zhTW = "香蒲"
@@ -978,8 +1006,8 @@ csCZ = "Rákos"
 viVN = "Cỏ lau"
 
 ["Wares.CattailRoots.Lone"]
-status = "normal"
 raw = "Crate of Cattail Roots"
+status = "normal"
 enUS = "Crate of Cattail Roots"
 zhCN = "香蒲根木箱"
 zhTW = "香蒲根箱"
@@ -994,8 +1022,8 @@ csCZ = "Bedna kořenů rákosu"
 viVN = "Thùng rễ cỏ lau"
 
 ["Wares.CattailRoots.Many"]
-status = "normal"
 raw = "Crates of Cattail Roots"
+status = "normal"
 enUS = "Crates of Cattail Roots"
 zhCN = "香蒲根箱"
 zhTW = "香蒲根箱"
@@ -1010,8 +1038,8 @@ csCZ = "Bedny kořenů šáchoru"
 viVN = "Thùng rễ cỏ lau"
 
 ["Wares.CattailRoots.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Cattail Roots (Folktails)"
+status = "normal"
 enUS = "Crate of Cattail Roots (Folktails)"
 zhCN = "香蒲根木箱（Folktails）"
 zhTW = "香蒲根木箱（Folktails）"
@@ -1026,8 +1054,8 @@ csCZ = "Krabice kořenů rákosu (Folktails)"
 viVN = "Thùng rễ bèo tai tượng (Folktails)"
 
 ["Wares.CattailRoots.Folktails.Many"]
-status = "normal"
 raw = "Crates of Cattail Roots (Folktails)"
+status = "normal"
 enUS = "Crates of Cattail Roots (Folktails)"
 zhCN = "香蒲根箱（Folktails）"
 zhTW = "香蒲根箱（Folktails）"
@@ -1042,8 +1070,8 @@ csCZ = "Krabice kořenů tužebníku (Folktails)"
 viVN = "Các thùng rễ cỏ lau (Folktails)"
 
 ["Grows.CoffeePlant.IronTeeth.Lone"]
-status = "normal"
 raw = "Coffee Bush (IronTeeth)"
+status = "normal"
 enUS = "Coffee Bush (IronTeeth)"
 zhCN = "咖啡灌木（IronTeeth）"
 zhTW = "咖啡灌木（IronTeeth）"
@@ -1058,8 +1086,8 @@ csCZ = "Kávový keř (IronTeeth)"
 viVN = "Bụi cà phê (IronTeeth)"
 
 ["Wares.CoffeeBeans.Lone"]
-status = "normal"
 raw = "Crate of Coffee Beans"
+status = "normal"
 enUS = "Crate of Coffee Beans"
 zhCN = "咖啡豆箱"
 zhTW = "咖啡豆木箱"
@@ -1074,8 +1102,8 @@ csCZ = "Bedna kávových zrn"
 viVN = "Thùng hạt cà phê"
 
 ["Wares.CoffeeBeans.Many"]
-status = "normal"
 raw = "Crates of Coffee Beans"
+status = "normal"
 enUS = "Crates of Coffee Beans"
 zhCN = "咖啡豆箱"
 zhTW = "咖啡豆箱"
@@ -1090,8 +1118,8 @@ csCZ = "Bedny kávových zrn"
 viVN = "Các thùng hạt cà phê"
 
 ["Wares.CoffeeBeans.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Coffee Beans (IronTeeth)"
+status = "normal"
 enUS = "Crate of Coffee Beans (Iron Teeth)"
 zhCN = "咖啡豆木箱（铁齿）"
 zhTW = "咖啡豆木箱（IronTeeth）"
@@ -1106,8 +1134,8 @@ csCZ = "Bedna kávových zrn (IronTeeth)"
 viVN = "Thùng hạt cà phê (IronTeeth)"
 
 ["Wares.CoffeeBeans.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Coffee Beans (IronTeeth)"
+status = "normal"
 enUS = "Crates of Coffee Beans (IronTeeth)"
 zhCN = "咖啡豆箱（铁牙）"
 zhTW = "咖啡豆箱 (IronTeeth)"
@@ -1122,8 +1150,8 @@ csCZ = "Bedny kávových zrn (IronTeeth)"
 viVN = "Các thùng hạt cà phê (IronTeeth)"
 
 ["Grows.ChestnutTree.Folktails.Lone"]
-status = "normal"
 raw = "Chestnut Tree (Folktails)"
+status = "normal"
 enUS = "Chestnut Tree (Folktails)"
 zhCN = "栗树（民间传说）"
 zhTW = "栗樹 (Folktails)"
@@ -1138,8 +1166,8 @@ csCZ = "Kaštanovník (Folktails)"
 viVN = "Cây hạt dẻ (Folktails)"
 
 ["Grows.ChestnutTree.Whitepaws.Lone"]
-status = "normal"
 raw = "Chestnut Tree (Whitepaws)"
+status = "normal"
 enUS = "Chestnut Tree (Whitepaws)"
 zhCN = "栗树（白爪）"
 zhTW = "栗子樹（白爪）"
@@ -1154,8 +1182,8 @@ csCZ = "Kaštanový strom (Whitepaws)"
 viVN = "Cây hạt dẻ (Whitepaws)"
 
 ["Grows.ChestnutTree.LeafCoats.Lone"]
-status = "normal"
 raw = "Chestnut Tree (LeafCoats)"
+status = "normal"
 enUS = "Chestnut Tree (LeafCoats)"
 zhCN = "栗树（叶披）"
 zhTW = "栗樹（葉衣）"
@@ -1170,8 +1198,8 @@ csCZ = "Kaštanový strom (LeafCoats)"
 viVN = "Cây hạt dẻ (Lớp Lá)"
 
 ["Wares.Chestnuts.Lone"]
-status = "normal"
 raw = "Crate of Chestnuts"
+status = "normal"
 enUS = "Crate of Chestnuts"
 zhCN = "栗子木箱"
 zhTW = "栗子木箱"
@@ -1186,8 +1214,8 @@ csCZ = "Bedna kaštanů"
 viVN = "Thùng hạt dẻ"
 
 ["Wares.Chestnuts.Many"]
-status = "normal"
 raw = "Crates of Chestnuts"
+status = "normal"
 enUS = "Crates of Chestnuts"
 zhCN = "栗子箱"
 zhTW = "栗子木箱"
@@ -1202,8 +1230,8 @@ csCZ = "Bedny kaštanů"
 viVN = "Các thùng hạt dẻ"
 
 ["Wares.Chestnuts.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Chestnuts (Folktails)"
+status = "normal"
 enUS = "Crate of Chestnuts (Folktails)"
 zhCN = "一箱栗子（Folktails）"
 zhTW = "栗子箱（Folktails）"
@@ -1218,8 +1246,8 @@ csCZ = "Bedna kaštanů (Folktails)"
 viVN = "Thùng hạt dẻ (Folktails)"
 
 ["Wares.Chestnuts.Folktails.Many"]
-status = "normal"
 raw = "Crates of Chestnuts (Folktails)"
+status = "normal"
 enUS = "Crates of Chestnuts (Folktails)"
 zhCN = "栗子箱（Folktails）"
 zhTW = "栗子箱（民間故事）"
@@ -1234,8 +1262,8 @@ csCZ = "Bedny kaštanů (Folktails)"
 viVN = "Các thùng hạt dẻ (Folktails)"
 
 ["Wares.Chestnuts.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Chestnuts (Whitepaws)"
+status = "normal"
 enUS = "Crate of Chestnuts (Whitepaws)"
 zhCN = "白爪栗子箱"
 zhTW = "栗子箱（Whitepaws）"
@@ -1250,8 +1278,8 @@ csCZ = "Bedna kaštanů (Whitepaws)"
 viVN = "Thùng hạt dẻ (Whitepaws)"
 
 ["Wares.Chestnuts.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Chestnuts (Whitepaws)"
+status = "normal"
 enUS = "Crates of Chestnuts (Whitepaws)"
 zhCN = "栗子箱（白爪）"
 zhTW = "栗子箱（白爪）"
@@ -1266,8 +1294,8 @@ csCZ = "Krabice kaštanů (Whitepaws)"
 viVN = "Thùng hạt dẻ (Whitepaws)"
 
 ["Wares.Chestnuts.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Chestnuts (LeafCoats)"
+status = "normal"
 enUS = "Crate of Chestnuts (LeafCoats)"
 zhCN = "栗子木箱（LeafCoats）"
 zhTW = "栗子箱 (LeafCoats)"
@@ -1282,8 +1310,8 @@ csCZ = "Bedna kaštanů (LeafCoats)"
 viVN = "Thùng hạt dẻ (LeafCoats)"
 
 ["Wares.Chestnuts.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Chestnuts (LeafCoats)"
+status = "normal"
 enUS = "Crates of Chestnuts (LeafCoats)"
 zhCN = "栗子箱（叶披层）"
 zhTW = "栗子箱（葉衣）"
@@ -1298,8 +1326,8 @@ csCZ = "Bedny kaštanů (LeafCoats)"
 viVN = "Các thùng hạt dẻ (LeafCoats)"
 
 ["Grows.CornCrop.IronTeeth.Lone"]
-status = "normal"
 raw = "Corn (IronTeeth)"
+status = "normal"
 enUS = "Corn (IronTeeth)"
 zhCN = "玉米（铁牙）"
 zhTW = "玉米 (鐵牙)"
@@ -1314,8 +1342,8 @@ csCZ = "Kukuřice (IronTeeth)"
 viVN = "Ngô (Răng Sắt)"
 
 ["Grows.CornCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Corn (Emberpelts)"
+status = "normal"
 enUS = "Corn (Emberpelts)"
 zhCN = "玉米（Emberpelts）"
 zhTW = "玉米 (Emberpelts)"
@@ -1330,8 +1358,8 @@ csCZ = "Kukuřice (Emberpelts)"
 viVN = "Ngô (Emberpelts)"
 
 ["Wares.Corn.Lone"]
-status = "normal"
 raw = "Crate of Corn"
+status = "normal"
 enUS = "Crate of Corn"
 zhCN = "玉米箱"
 zhTW = "玉米箱"
@@ -1346,8 +1374,8 @@ csCZ = "Krabice kukuřice"
 viVN = "Thùng ngô"
 
 ["Wares.Corn.Many"]
-status = "normal"
 raw = "Crates of Corn"
+status = "normal"
 enUS = "Crates of Corn"
 zhCN = "玉米箱"
 zhTW = "玉米箱"
@@ -1362,8 +1390,8 @@ csCZ = "Kukuřičné bedny"
 viVN = "Thùng ngô"
 
 ["Wares.Corn.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Corn (IronTeeth)"
+status = "normal"
 enUS = "Crate of Corn (IronTeeth)"
 zhCN = "玉米箱（铁牙）"
 zhTW = "玉米箱 (鐵牙)"
@@ -1378,8 +1406,8 @@ csCZ = "Krabice kukuřice (IronTeeth)"
 viVN = "Thùng ngô (IronTeeth)"
 
 ["Wares.Corn.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Corn (IronTeeth)"
+status = "normal"
 enUS = "Crates of Corn (IronTeeth)"
 zhCN = "玉米箱（IronTeeth）"
 zhTW = "玉米箱（鐵牙）"
@@ -1394,8 +1422,8 @@ csCZ = "Bedny kukuřice (IronTeeth)"
 viVN = "Thùng ngô (IronTeeth)"
 
 ["Wares.Corn.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Corn (Emberpelts)"
+status = "normal"
 enUS = "Crate of Corn (Emberpelts)"
 zhCN = "玉米箱（Emberpelts）"
 zhTW = "玉米箱（Emberpelts）"
@@ -1410,8 +1438,8 @@ csCZ = "Krabice kukuřice (Emberpelts)"
 viVN = "Thùng ngô (Emberpelts)"
 
 ["Wares.Corn.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Corn (Emberpelts)"
+status = "normal"
 enUS = "Crates of Corn (Emberpelts)"
 zhCN = "玉米箱 (余烬皮毛)"
 zhTW = "玉米箱（Emberpelts）"
@@ -1426,8 +1454,8 @@ csCZ = "Krabice kukuřice (Emberpelts)"
 viVN = "Thùng ngô (Emberpelts)"
 
 ["Grows.ColtsfootPlant.Common.Lone"]
-status = "normal"
 raw = "Coltsfoot"
+status = "normal"
 enUS = "Coltsfoot"
 zhCN = "款冬草"
 zhTW = "款冬"
@@ -1442,8 +1470,8 @@ csCZ = "Podběl lékařský"
 viVN = "Cỏ chân ngựa"
 
 ["Wares.Coltsfoot.Lone"]
-status = "normal"
 raw = "Crate of Coltsfoot"
+status = "normal"
 enUS = "Crate of Coltsfoot"
 zhCN = "一箱款冬草"
 zhTW = "款冬箱"
@@ -1458,8 +1486,8 @@ csCZ = "Bedna podbělu"
 viVN = "Thùng Coltsfoot"
 
 ["Wares.Coltsfoot.Many"]
-status = "normal"
 raw = "Crates of Coltsfoot"
+status = "normal"
 enUS = "Crates of Coltsfoot"
 zhCN = "款冬草箱"
 zhTW = "車前草箱子"
@@ -1474,8 +1502,8 @@ csCZ = "Bedny s podbělem"
 viVN = "Các thùng Coltsfoot"
 
 ["Wares.Coltsfoot.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Coltsfoot (LeafCoats)"
+status = "normal"
 enUS = "Crate of Coltsfoot (LeafCoats)"
 zhCN = "一箱马蹄草（叶披）"
 zhTW = "款冬草箱（LeafCoats）"
@@ -1490,8 +1518,8 @@ csCZ = "Krabice podbělu lékařského (LeafCoats)"
 viVN = "Thùng Coltsfoot (LeafCoats)"
 
 ["Wares.Coltsfoot.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Coltsfoot (LeafCoats)"
+status = "normal"
 enUS = "Crates of Coltsfoot (LeafCoats)"
 zhCN = "款冬草箱（LeafCoats）"
 zhTW = "馬先蒿（葉甲）箱子"
@@ -1506,8 +1534,8 @@ csCZ = "Krabice podbělu lékařského (LeafCoats)"
 viVN = "Thùng bạch cập (LeafCoats)"
 
 ["Grows.DandelionPlant.Folktails.Lone"]
-status = "normal"
 raw = "Dandelion (Folktails)"
+status = "normal"
 enUS = "Dandelion (Folktails)"
 zhCN = "蒲公英（民间传说）"
 zhTW = "蒲公英（民間傳說）"
@@ -1522,8 +1550,8 @@ csCZ = "Pampeliška (Folktails)"
 viVN = "Bồ công anh (Folktails)"
 
 ["Grows.DandelionPlant.LeafCoats.Lone"]
-status = "normal"
 raw = "Dandelion (LeafCoats)"
+status = "normal"
 enUS = "Dandelion (LeafCoats)"
 zhCN = "蒲公英（叶外套）"
 zhTW = "蒲公英（葉外層）"
@@ -1538,8 +1566,8 @@ csCZ = "Pampeliška (Listové pláště)"
 viVN = "Bồ công anh (Lớp phủ lá)"
 
 ["Wares.Dandelions.Lone"]
-status = "normal"
 raw = "Crate of Dandelions"
+status = "normal"
 enUS = "Crate of Dandelions"
 zhCN = "蒲公英箱"
 zhTW = "蒲公英箱"
@@ -1554,8 +1582,8 @@ csCZ = "Bedna pampelišek"
 viVN = "Thùng hoa bồ công anh"
 
 ["Wares.Dandelions.Many"]
-status = "normal"
 raw = "Crates of Dandelions"
+status = "normal"
 enUS = "Crates of Dandelions"
 zhCN = "蒲公英箱"
 zhTW = "蒲公英箱"
@@ -1570,8 +1598,8 @@ csCZ = "Krabice pampelišek"
 viVN = "Thùng bồ công anh"
 
 ["Wares.Dandelions.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Dandelions (Folktails)"
+status = "normal"
 enUS = "Crate of Dandelions (Folktails)"
 zhCN = "蒲公英箱（Folktails）"
 zhTW = "蒲公英箱（Folktails）"
@@ -1586,8 +1614,8 @@ csCZ = "Bedna pampelišek (Folktails)"
 viVN = "Thùng hoa bồ công anh (Folktails)"
 
 ["Wares.Dandelions.Folktails.Many"]
-status = "normal"
 raw = "Crates of Dandelions (Folktails)"
+status = "normal"
 enUS = "Crates of Dandelions (Folktails)"
 zhCN = "蒲公英箱（Folktails）"
 zhTW = "蒲公英箱（Folktails）"
@@ -1602,8 +1630,8 @@ csCZ = "Bedny pampelišek (Folktails)"
 viVN = "Thùng bồ công anh (Folktails)"
 
 ["Wares.Dandelions.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Dandelions (LeafCoats)"
+status = "normal"
 enUS = "Crate of Dandelions (LeafCoats)"
 zhCN = "蒲公英箱 (LeafCoats)"
 zhTW = "蒲公英箱（LeafCoats）"
@@ -1618,8 +1646,8 @@ csCZ = "Bedna pampelišek (LeafCoats)"
 viVN = "Thùng hoa bồ công anh (LeafCoats)"
 
 ["Wares.Dandelions.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Dandelions (LeafCoats)"
+status = "normal"
 enUS = "Crates of Dandelions (LeafCoats)"
 zhCN = "蒲公英箱子（叶披风）"
 zhTW = "蒲公英箱（葉外套）"
@@ -1634,8 +1662,8 @@ csCZ = "Krabice pampelišek (LeafCoats)"
 viVN = "Các thùng hoa Bồ công anh (LeafCoats)"
 
 ["Grows.DurumWheatCrop.Emberpelts.Lone.Lone"]
-status = "normal"
 raw = "Durum Wheat"
+status = "normal"
 enUS = "Durum Wheat"
 zhCN = "硬粒小麦"
 zhTW = "硬粒小麥"
@@ -1650,8 +1678,8 @@ csCZ = "durumová pšenice"
 viVN = "Lúa mì durum"
 
 ["Wares.DurumWheat.Lone"]
-status = "normal"
 raw = "Crate of Durum Wheat"
+status = "normal"
 enUS = "Crate of Durum Wheat"
 zhCN = "硬粒小麦箱"
 zhTW = "硬粒小麥箱"
@@ -1666,8 +1694,8 @@ csCZ = "Bedna durumové pšenice"
 viVN = "Thùng lúa mì durum"
 
 ["Wares.DurumWheat.Many"]
-status = "normal"
 raw = "Crates of Durum Wheat"
+status = "normal"
 enUS = "Crates of Durum Wheat"
 zhCN = "硬粒小麦箱"
 zhTW = "硬粒小麥箱"
@@ -1682,8 +1710,8 @@ csCZ = "Bedny durumové pšenice"
 viVN = "Thùng lúa mì durum"
 
 ["Wares.DurumWheat.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Durum Wheat (Emberpelts)"
+status = "normal"
 enUS = "Crate of Durum Wheat (Emberpelts)"
 zhCN = "硬粒小麦箱（余烬皮毛）"
 zhTW = "硬粒小麥箱（餘燼毛皮）"
@@ -1698,8 +1726,8 @@ csCZ = "Bedna durumové pšenice (Emberpelts)"
 viVN = "Thùng lúa mì durum (Emberpelts)"
 
 ["Wares.DurumWheat.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Durum Wheat (Emberpelts)"
+status = "normal"
 enUS = "Crates of Durum Wheat (Emberpelts)"
 zhCN = "硬质小麦箱 (余烬毛皮)"
 zhTW = "硬粒小麥箱（Emberpelts）"
@@ -1714,8 +1742,8 @@ csCZ = "Krabice durumové pšenice (Emberpelts)"
 viVN = "Thùng lúa mì durum (Emberpelts)"
 
 ["Grows.EggplantCrop.IronTeeth.Lone"]
-status = "normal"
 raw = "Eggplant"
+status = "normal"
 enUS = "Eggplant"
 zhCN = "茄子"
 zhTW = "茄子"
@@ -1730,8 +1758,8 @@ csCZ = "Lilek"
 viVN = "Cà tím"
 
 ["Wares.Eggplants.Lone"]
-status = "normal"
 raw = "Crate of Eggplants"
+status = "normal"
 enUS = "Crate of Eggplants"
 zhCN = "一箱茄子"
 zhTW = "茄子箱"
@@ -1746,8 +1774,8 @@ csCZ = "Bedna lilků"
 viVN = "Thùng cà tím"
 
 ["Wares.Eggplants.Many"]
-status = "normal"
 raw = "Crates of Eggplants"
+status = "normal"
 enUS = "Crates of Eggplants"
 zhCN = "茄子箱"
 zhTW = "茄子箱"
@@ -1762,8 +1790,8 @@ csCZ = "Krabice lileků"
 viVN = "Thùng cà tím"
 
 ["Wares.Eggplants.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Eggplants (IronTeeth)"
+status = "normal"
 enUS = "Crate of Eggplants (IronTeeth)"
 zhCN = "一箱茄子（IronTeeth）"
 zhTW = "一箱茄子（鐵牙）"
@@ -1778,8 +1806,8 @@ csCZ = "Bedna lilků (IronTeeth)"
 viVN = "Thùng cà tím (IronTeeth)"
 
 ["Wares.Eggplants.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Eggplants (IronTeeth)"
+status = "normal"
 enUS = "Crates of Eggplants (IronTeeth)"
 zhCN = "茄子箱（铁齿）"
 zhTW = "茄子箱（鐵牙）"
@@ -1793,9 +1821,13 @@ koKR = "가지 상자 (IronTeeth)"
 csCZ = "Krabice lileků (IronTeeth)"
 viVN = "Thùng cà tím (Răng Sắt)"
 
-["Grows.EucalyptusTree.LeafCoats.Lone"]
+["Grows.EucalyptusTree.RandoQuote"]
+new = "Sheds it's own bark"
 status = "normal"
+
+["Grows.EucalyptusTree.LeafCoats.Lone"]
 raw = "Eucalyptus Tree"
+status = "normal"
 enUS = "Eucalyptus Tree"
 zhCN = "桉树"
 zhTW = "桉樹"
@@ -1810,8 +1842,8 @@ csCZ = "Eukalyptový strom"
 viVN = "Cây Bạch đàn"
 
 ["Wares.Branches.Lone"]
-status = "normal"
 raw = "Crate of Branches"
+status = "normal"
 enUS = "Crate of Branches"
 zhCN = "树枝木箱"
 zhTW = "樹枝箱"
@@ -1826,8 +1858,8 @@ csCZ = "Krabice větví"
 viVN = "Thùng cành cây"
 
 ["Wares.Branches.Many"]
-status = "normal"
 raw = "Crates of Branches"
+status = "normal"
 enUS = "Crates of Branches"
 zhCN = "树枝箱"
 zhTW = "樹枝箱"
@@ -1842,8 +1874,8 @@ csCZ = "Krabice větví"
 viVN = "Các thùng chứa cành cây"
 
 ["Wares.Branches.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Branches (LeafCoats)"
+status = "normal"
 enUS = "Crate of Branches (LeafCoats)"
 zhCN = "树枝箱（LeafCoats）"
 zhTW = "樹枝箱（LeafCoats）"
@@ -1858,8 +1890,8 @@ csCZ = "Bedna větví (LeafCoats)"
 viVN = "Thùng nhánh cây (LeafCoats)"
 
 ["Wares.Branches.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Branches (LeafCoats)"
+status = "normal"
 enUS = "Crates of Branches (LeafCoats)"
 zhCN = "枝条箱（叶披）"
 zhTW = "樹枝箱（LeafCoats）"
@@ -1874,8 +1906,8 @@ csCZ = "Bedny s větvemi (LeafCoats)"
 viVN = "Thùng Nhánh (LeafCoats)"
 
 ["Grows.GrapesPlant.RandoQuote"]
-status = "normal"
 raw = "We're gonna need a bucket to stomp on these with..."
+status = "normal"
 enUS = "We're gonna need a bucket to stomp on these with..."
 zhCN = "我们需要一个桶来踩这些葡萄……"
 zhTW = "我們得找個桶子，用來踩這些的…"
@@ -1890,8 +1922,8 @@ csCZ = "Budeme potřebovat kýbl, abychom je s ním rozšlápli..."
 viVN = "Chúng ta sẽ cần một cái xô để dẫm lên chúng bằng nó..."
 
 ["Grows.GrapesPlant.Common.Lone"]
-status = "normal"
 raw = "Grape Vines"
+status = "normal"
 enUS = "Grape Vines"
 zhCN = "葡萄藤"
 zhTW = "葡萄藤"
@@ -1905,25 +1937,9 @@ koKR = "포도 덩굴"
 csCZ = "Hroznové révy"
 viVN = "Dây nho"
 
-["Grows.GrapesPlant.LeafCoats.Lone"]
-status = "normal"
-raw = "Grape Vines (LeafCoats)"
-enUS = "Grape Vines (LeafCoats)"
-zhCN = "葡萄藤（叶覆）"
-zhTW = "葡萄藤（葉覆）"
-ruRU = "Виноградные лозы (листовые покрытия)"
-jaJP = "ブドウの蔓（葉の覆い）"
-frFR = "Vignes de raisin (LeafCoats)"
-deDE = "Weinreben (Laubmantel)"
-plPL = "Winorośla (Okrywy Liściowe)"
-ptBR = "Videiras de Uva (Revestimentos de Folhas)"
-koKR = "포도 덩굴(잎 코트)"
-csCZ = "Hroznové révy (Listové pláště)"
-viVN = "Dây nho (Lớp lá)"
-
 ["Grows.GrapesPlant.Whitepaws.Lone"]
-status = "normal"
 raw = "Grape Vines (Whitepaws)"
+status = "normal"
 enUS = "Grape Vines (Whitepaws)"
 zhCN = "葡萄藤 (白爪)"
 zhTW = "葡萄藤（白爪）"
@@ -1937,9 +1953,37 @@ koKR = "포도 덩굴(Whitepaws)"
 csCZ = "Hroznové révy (Whitepaws)"
 viVN = "Dây nho (Whitepaws)"
 
-["Wares.Grapes.Lone"]
+["Grows.GrapesPlant.LeafCoats.Lone"]
+raw = "Grape Vines (LeafCoats)"
 status = "normal"
+enUS = "Grape Vines (LeafCoats)"
+zhCN = "葡萄藤（叶覆）"
+zhTW = "葡萄藤（葉覆）"
+ruRU = "Виноградные лозы (листовые покрытия)"
+jaJP = "ブドウの蔓（葉の覆い）"
+frFR = "Vignes de raisin (LeafCoats)"
+deDE = "Weinreben (Laubmantel)"
+plPL = "Winorośla (Okrywy Liściowe)"
+ptBR = "Videiras de Uva (Revestimentos de Folhas)"
+koKR = "포도 덩굴(잎 코트)"
+csCZ = "Hroznové révy (Listové pláště)"
+viVN = "Dây nho (Lớp lá)"
+
+["Grows.RedGrapesPlant.Whitepaws.Lone"]
+new = "Red Grape Vines (Whitepaws)"
+status = "normal"
+
+["Grows.GreenGrapesPlant.LeafCoats.Lone"]
+new = "Green Grape Vines (LeafCoats)"
+status = "normal"
+
+["Wares.Grapes.Need"]
+new = "Grapes"
+status = "normal"
+
+["Wares.Grapes.Lone"]
 raw = "Crate of Grapes"
+status = "normal"
 enUS = "Crate of Grapes"
 zhCN = "葡萄箱"
 zhTW = "葡萄箱"
@@ -1954,8 +1998,8 @@ csCZ = "Bedna hroznů"
 viVN = "Thùng nho"
 
 ["Wares.Grapes.Many"]
-status = "normal"
 raw = "Crates of Grapes"
+status = "normal"
 enUS = "Crates of Grapes"
 zhCN = "葡萄箱"
 zhTW = "葡萄箱"
@@ -1970,8 +2014,8 @@ csCZ = "Bedny hroznů"
 viVN = "Thùng nho"
 
 ["Wares.Grapes.Common.Lone"]
-status = "normal"
 raw = "Crate of Grapes (Poorly Packed)"
+status = "normal"
 enUS = "Crate of Grapes (Poorly Packed)"
 zhCN = "葡萄木箱（打包不当）"
 zhTW = "葡萄箱（包裝不良）"
@@ -1986,8 +2030,8 @@ csCZ = "Krabice hroznů (špatně zabalená)"
 viVN = "Thùng nho (Đóng gói kém)"
 
 ["Wares.Grapes.Common.Many"]
-status = "normal"
 raw = "Crates of Grapes (Poorly Packed)"
+status = "normal"
 enUS = "Crates of Grapes (Poorly Packed)"
 zhCN = "葡萄箱（包装不良）"
 zhTW = "葡萄箱（包裝不良）"
@@ -2002,8 +2046,8 @@ csCZ = "Bedny hroznů (špatně zabalené)"
 viVN = "Thùng nho (đóng gói kém)"
 
 ["Wares.Grapes.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Grapes (Whitepaws)"
+status = "normal"
 enUS = "Crate of Grapes (Whitepaws)"
 zhCN = "葡萄箱（Whitepaws）"
 zhTW = "一箱葡萄（Whitepaws）"
@@ -2018,8 +2062,8 @@ csCZ = "Bedna hroznů (Whitepaws)"
 viVN = "Thùng nho (Whitepaws)"
 
 ["Wares.Grapes.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Grapes (Whitepaws)"
+status = "normal"
 enUS = "Crates of Grapes (Whitepaws)"
 zhCN = "葡萄箱（白爪族）"
 zhTW = "葡萄箱（白爪）"
@@ -2034,8 +2078,8 @@ csCZ = "Krabice hroznů (Whitepaws)"
 viVN = "Các thùng nho (Whitepaws)"
 
 ["Wares.Grapes.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Grapes (LeafCoats)"
+status = "normal"
 enUS = "Crate of Grapes (LeafCoats)"
 zhCN = "葡萄箱（LeafCoats）"
 zhTW = "葡萄箱（LeafCoats）"
@@ -2050,8 +2094,8 @@ csCZ = "Krabice hroznů (LeafCoats)"
 viVN = "Thùng Nho (LeafCoats)"
 
 ["Wares.Grapes.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Grapes (LeafCoats)"
+status = "normal"
 enUS = "Crates of Grapes (Leaf Coats)"
 zhCN = "葡萄箱（LeafCoats）"
 zhTW = "葡萄箱（LeafCoats）"
@@ -2065,9 +2109,25 @@ koKR = "포도 상자(LeafCoats)"
 csCZ = "Krabice hroznů (LeafCoats)"
 viVN = "Thùng nho (LeafCoats)"
 
-["Wares.GreenGrapes.Lone"]
+["Wares.GrapeJuice.Need"]
+new = "Grape Juice"
 status = "normal"
+
+["Wares.GrapeJuice.Lone"]
+new = "Barrel of Grape Juice"
+status = "normal"
+
+["Wares.GrapeJuice.Many"]
+new = "Barrels of Grape Juice"
+status = "normal"
+
+["Wares.GreenGrapes.Need"]
+new = "Green Grapes"
+status = "normal"
+
+["Wares.GreenGrapes.Lone"]
 raw = "Crate of Green Grapes"
+status = "normal"
 enUS = "Crate of Green Grapes"
 zhCN = "一箱绿葡萄"
 zhTW = "一箱綠葡萄"
@@ -2082,8 +2142,8 @@ csCZ = "Bedna zelených hroznů"
 viVN = "Thùng Nho Xanh"
 
 ["Wares.GreenGrapes.Many"]
-status = "normal"
 raw = "Crates of Green Grapes"
+status = "normal"
 enUS = "Crates of Green Grapes"
 zhCN = "绿葡萄箱"
 zhTW = "綠葡萄箱"
@@ -2098,8 +2158,8 @@ csCZ = "Krabice zelených hroznů"
 viVN = "Các thùng nho xanh"
 
 ["Wares.GreenGrapes.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Green Grapes (LeafCoats)"
+status = "normal"
 enUS = "Crate of Green Grapes (LeafCoats)"
 zhCN = "绿色葡萄箱 (LeafCoats)"
 zhTW = "綠葡萄木箱（LeafCoats）"
@@ -2114,8 +2174,8 @@ csCZ = "Bedna zelených hroznů (LeafCoats)"
 viVN = "Thùng nho xanh (LeafCoats)"
 
 ["Wares.GreenGrapes.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Green Grapes (LeafCoats)"
+status = "normal"
 enUS = "Crates of Green Grapes (LeafCoats)"
 zhCN = "绿葡萄木箱（LeafCoats）"
 zhTW = "綠葡萄箱 (LeafCoats)"
@@ -2129,9 +2189,25 @@ koKR = "초록 포도 상자(LeafCoats)"
 csCZ = "Krabice zelených hroznů (LeafCoats)"
 viVN = "Thùng nho xanh (LeafCoats)"
 
-["Wares.RedGrapes.Lone"]
+["Wares.GreenGrapeJuice.Need"]
+new = "Green Grape Juice"
 status = "normal"
+
+["Wares.GreenGrapeJuice.Lone"]
+new = "Barrel of Green Grape Juice"
+status = "normal"
+
+["Wares.GreenGrapeJuice.Many"]
+new = "Barrels of Green Grape Juice"
+status = "normal"
+
+["Wares.RedGrapes.Need"]
+new = "Red Grapes"
+status = "normal"
+
+["Wares.RedGrapes.Lone"]
 raw = "Crate of Red Grapes"
+status = "normal"
 enUS = "Crate of Red Grapes"
 zhCN = "红葡萄木箱"
 zhTW = "紅葡萄木箱"
@@ -2146,8 +2222,8 @@ csCZ = "Bedna červených hroznů"
 viVN = "Thùng Nho Đỏ"
 
 ["Wares.RedGrapes.Many"]
-status = "normal"
 raw = "Crates of Red Grapes"
+status = "normal"
 enUS = "Crates of Red Grapes"
 zhCN = "红葡萄箱"
 zhTW = "紅葡萄箱"
@@ -2162,8 +2238,8 @@ csCZ = "Bedny červených hroznů"
 viVN = "Thùng nho đỏ"
 
 ["Wares.RedGrapes.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Red Grapes (Whitepaws)"
+status = "normal"
 enUS = "Crate of Red Grapes (Whitepaws)"
 zhCN = "一箱红葡萄（Whitepaws）"
 zhTW = "紅葡萄木箱（白爪）"
@@ -2178,8 +2254,8 @@ csCZ = "Bedna červených hroznů (Whitepaws)"
 viVN = "Thùng nho đỏ (Whitepaws)"
 
 ["Wares.RedGrapes.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Red Grapes (Whitepaws)"
+status = "normal"
 enUS = "Crates of Red Grapes (Whitepaws)"
 zhCN = "白爪族的红葡萄箱"
 zhTW = "紅葡萄箱（白爪）"
@@ -2193,9 +2269,21 @@ koKR = "붉은 포도 상자 (Whitepaws)"
 csCZ = "Krabice červených hroznů (Whitepaws)"
 viVN = "Thùng nho đỏ (Whitepaws)"
 
-["Grows.KohlrabiCrop.IronTeeth.Lone"]
+["Wares.RedGrapeJuice.Need"]
+new = "Red Grape Juice"
 status = "normal"
+
+["Wares.RedGrapeJuice.Lone"]
+new = "Barrel of Red Grape Juice"
+status = "normal"
+
+["Wares.RedGrapeJuice.Many"]
+new = "Barrels of Red Grape Juice"
+status = "normal"
+
+["Grows.KohlrabiCrop.IronTeeth.Lone"]
 raw = "Kohlrabi"
+status = "normal"
 enUS = "Kohlrabi"
 zhCN = "球茎甘蓝"
 zhTW = "球莖甘藍"
@@ -2210,8 +2298,8 @@ csCZ = "kedluben"
 viVN = "Cải Kohlrabi"
 
 ["Wares.Kohlrabi.Lone"]
-status = "normal"
 raw = "Crate of Kohlrabi"
+status = "normal"
 enUS = "Crate of Kohlrabi"
 zhCN = "球茎甘蓝箱"
 zhTW = "球莖甘藍箱"
@@ -2226,8 +2314,8 @@ csCZ = "Bedna s Kohlrabi"
 viVN = "Thùng Kohlrabi"
 
 ["Wares.Kohlrabi.Many"]
-status = "normal"
 raw = "Crates of Kohlrabi"
+status = "normal"
 enUS = "Crates of Kohlrabi"
 zhCN = "球茎甘蓝箱"
 zhTW = "球莖甘藍箱"
@@ -2242,8 +2330,8 @@ csCZ = "Krabice kedluben"
 viVN = "Các thùng Kohlrabi"
 
 ["Wares.Kohlrabi.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Kohlrabi (IronTeeth)"
+status = "normal"
 enUS = "Crate of Kohlrabi (IronTeeth)"
 zhCN = "球茎甘蓝箱（铁牙）"
 zhTW = "球莖甘藍箱（IronTeeth）"
@@ -2258,8 +2346,8 @@ csCZ = "Bedna kedluben (IronTeeth)"
 viVN = "Thùng Kohlrabi (IronTeeth)"
 
 ["Wares.Kohlrabi.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Kohlrabi (IronTeeth)"
+status = "normal"
 enUS = "Crates of Kohlrabi (IronTeeth)"
 zhCN = "球茎甘蓝箱（铁牙）"
 zhTW = "球莖甘藍箱（鐵牙）"
@@ -2274,8 +2362,8 @@ csCZ = "Bedny kedluben (Železné zuby)"
 viVN = "Các thùng Kohlrabi (IronTeeth)"
 
 ["Wares.Leaves.Lone"]
-status = "normal"
 raw = "Crate of Leaves"
+status = "normal"
 enUS = "Crate of Leaves"
 zhCN = "叶子箱"
 zhTW = "樹葉箱"
@@ -2290,8 +2378,8 @@ csCZ = "Bedna listí"
 viVN = "Thùng Lá"
 
 ["Wares.Leaves.Many"]
-status = "normal"
 raw = "Crates of Leaves"
+status = "normal"
 enUS = "Crates of Leaves"
 zhCN = "树叶箱"
 zhTW = "樹葉箱"
@@ -2306,8 +2394,8 @@ csCZ = "Bedny listů"
 viVN = "Các thùng lá"
 
 ["Wares.Leaves.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Leaves (LeafCoats)"
+status = "normal"
 enUS = "Crate of Leaves (LeafCoats)"
 zhCN = "树叶箱（LeafCoats）"
 zhTW = "樹葉箱（LeafCoats）"
@@ -2322,8 +2410,8 @@ csCZ = "Bedna listí (LeafCoats)"
 viVN = "Thùng Lá (LeafCoats)"
 
 ["Wares.Leaves.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Leaves (LeafCoats)"
+status = "normal"
 enUS = "Crates of Leaves (LeafCoats)"
 zhCN = "树叶箱（LeafCoats）"
 zhTW = "樹葉箱（LeafCoats）"
@@ -2338,8 +2426,8 @@ csCZ = "Bedny s listím (LeafCoats)"
 viVN = "Thùng Lá (LeafCoats)"
 
 ["Grows.MangroveTree.IronTeeth.Lone"]
-status = "normal"
 raw = "Mangrove (IronTeeth)"
+status = "normal"
 enUS = "Mangrove (IronTeeth)"
 zhCN = "红树（铁牙）"
 zhTW = "紅樹（鐵牙）"
@@ -2354,8 +2442,8 @@ csCZ = "Mangrovník (Železné zuby)"
 viVN = "Đước (Răng Sắt)"
 
 ["Grows.MangroveTree.LeafCoats.Lone"]
-status = "normal"
 raw = "Mangrove (LeafCoats)"
+status = "normal"
 enUS = "Mangrove (LeafCoats)"
 zhCN = "红树（叶覆层）"
 zhTW = "紅樹（葉衣）"
@@ -2370,8 +2458,8 @@ csCZ = "Mangrovový strom (Listové pokryvy)"
 viVN = "Đước (Lớp phủ lá)"
 
 ["Wares.MangroveFruits.Lone"]
-status = "normal"
 raw = "Crate of Mangrove Fruit"
+status = "normal"
 enUS = "Crate of Mangrove Fruit"
 zhCN = "红树林果实箱"
 zhTW = "紅樹果實箱"
@@ -2386,8 +2474,8 @@ csCZ = "Bedna mangrovových plodů"
 viVN = "Thùng quả đước"
 
 ["Wares.MangroveFruits.Many"]
-status = "normal"
 raw = "Crates of Mangrove Fruit"
+status = "normal"
 enUS = "Crates of Mangrove Fruit"
 zhCN = "红树果实箱"
 zhTW = "紅樹果實箱"
@@ -2402,8 +2490,8 @@ csCZ = "Bedny mangrovového ovoce"
 viVN = "Thùng quả đước"
 
 ["Wares.MangroveFruits.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Mangrove Fruit (IronTeeth)"
+status = "normal"
 enUS = "Crate of Mangrove Fruit (IronTeeth)"
 zhCN = "红树林果实木箱（铁牙）"
 zhTW = "紅樹果箱 (IronTeeth)"
@@ -2418,8 +2506,8 @@ csCZ = "Krabice mangrovových plodů (IronTeeth)"
 viVN = "Thùng Quả Đước (IronTeeth)"
 
 ["Wares.MangroveFruits.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Mangrove Fruit (IronTeeth)"
+status = "normal"
 enUS = "Crates of Mangrove Fruit (IronTeeth)"
 zhCN = "红树林果实箱（铁牙）"
 zhTW = "紅樹果實箱 (IronTeeth)"
@@ -2434,8 +2522,8 @@ csCZ = "Bedny mangrovových plodů (IronTeeth)"
 viVN = "Thùng Quả Đước (IronTeeth)"
 
 ["Wares.MangroveFruits.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Mangrove Fruit (LeafCoats)"
+status = "normal"
 enUS = "Crate of Mangrove Fruit (LeafCoats)"
 zhCN = "一箱红树林果实（LeafCoats）"
 zhTW = "紅樹果箱（葉護套）"
@@ -2450,8 +2538,8 @@ csCZ = "Bedna mangrovového ovoce (Listové pláště)"
 viVN = "Thùng trái đước (LeafCoats)"
 
 ["Wares.MangroveFruits.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Mangrove Fruit (LeafCoats)"
+status = "normal"
 enUS = "Crates of Mangrove Fruit (LeafCoats)"
 zhCN = "红树林果实木箱（叶衣）"
 zhTW = "紅樹果實箱（葉覆）"
@@ -2466,8 +2554,8 @@ csCZ = "Bedny mangrovových plodů (LeafCoats)"
 viVN = "Thùng trái cây đước (Lớp lá)"
 
 ["Grows.MapleTree.Folktails.Lone"]
-status = "normal"
 raw = "Maple Tree (Folktails)"
+status = "normal"
 enUS = "Maple Tree (Folktails)"
 zhCN = "枫树（Folktails）"
 zhTW = "楓樹（Folktails）"
@@ -2482,8 +2570,8 @@ csCZ = "Javorový strom (Folktails)"
 viVN = "Cây Phong (Folktails)"
 
 ["Grows.MapleTree.LeafCoats.Lone"]
-status = "normal"
 raw = "Maple Tree (LeafCoats)"
+status = "normal"
 enUS = "Maple Tree (LeafCoats)"
 zhCN = "枫树 (LeafCoats)"
 zhTW = "楓樹（葉覆）"
@@ -2498,8 +2586,8 @@ csCZ = "Javorový strom (LeafCoats)"
 viVN = "Cây phong (Lớp Lá)"
 
 ["Grows.MapleTree.Emberpelts.Lone"]
-status = "normal"
 raw = "Maple Tree (Emberpelts)"
+status = "normal"
 enUS = "Maple Tree (Emberpelts)"
 zhCN = "枫树（Emberpelts）"
 zhTW = "楓樹（餘燼毛皮）"
@@ -2514,8 +2602,8 @@ csCZ = "Javorový strom (Emberpelts)"
 viVN = "Cây phong (Emberpelts)"
 
 ["Wares.MapleSyrup.Lone"]
-status = "normal"
 raw = "Barrel of Maple Syrup"
+status = "normal"
 enUS = "Barrel of Maple Syrup"
 zhCN = "枫糖浆桶"
 zhTW = "楓糖漿桶"
@@ -2530,8 +2618,8 @@ csCZ = "Sud javorového sirupu"
 viVN = "Thùng sirô cây phong"
 
 ["Wares.MapleSyrup.Many"]
-status = "normal"
 raw = "Barrels of Maple Syrup"
+status = "normal"
 enUS = "Barrels of Maple Syrup"
 zhCN = "枫糖浆桶"
 zhTW = "楓糖漿桶"
@@ -2546,8 +2634,8 @@ csCZ = "Sudy javorového sirupu"
 viVN = "Các thùng sirô cây phong"
 
 ["Wares.MapleSyrup.Folktails.Lone"]
-status = "normal"
 raw = "Barrel of Maple Syrup (Folktails)"
+status = "normal"
 enUS = "Barrel of Maple Syrup (Folktails)"
 zhCN = "枫糖浆桶（Folktails）"
 zhTW = "楓糖漿桶（Folktails）"
@@ -2562,8 +2650,8 @@ csCZ = "Sud javorového sirupu (Folktails)"
 viVN = "Thùng sirô cây phong (Folktails)"
 
 ["Wares.MapleSyrup.Folktails.Many"]
-status = "normal"
 raw = "Barrels of Maple Syrup (Folktails)"
+status = "normal"
 enUS = "Barrels of Maple Syrup (Folktails)"
 zhCN = "枫糖浆桶（Folktails）"
 zhTW = "楓糖漿桶(Folktails)"
@@ -2578,8 +2666,8 @@ csCZ = "Sudy javorového sirupu (Folktails)"
 viVN = "Thùng si rô lá phong (Folktails)"
 
 ["Wares.MapleSyrup.LeafCoats.Lone"]
-status = "normal"
 raw = "Barrel of Maple Syrup (LeafCoats)"
+status = "normal"
 enUS = "Barrel of Maple Syrup (LeafCoats)"
 zhCN = "枫糖浆桶 (LeafCoats)"
 zhTW = "楓糖漿木桶（LeafCoats）"
@@ -2594,8 +2682,8 @@ csCZ = "Sud javorového sirupu (LeafCoats)"
 viVN = "Thùng sirô cây phong (LeafCoats)"
 
 ["Wares.MapleSyrup.LeafCoats.Many"]
-status = "normal"
 raw = "Barrels of Maple Syrup (LeafCoats)"
+status = "normal"
 enUS = "Barrels of Maple Syrup (LeafCoats)"
 zhCN = "枫糖浆桶（LeafCoats）"
 zhTW = "楓糖漿桶（LeafCoats）"
@@ -2610,8 +2698,8 @@ csCZ = "Sudy javorového sirupu (LeafCoats)"
 viVN = "Các thùng xi-rô phong (LeafCoats)"
 
 ["Wares.MapleSyrup.Emberpelts.Lone"]
-status = "normal"
 raw = "Barrel of Maple Syrup (Emberpelts)"
+status = "normal"
 enUS = "Barrel of Maple Syrup (Emberpelts)"
 zhCN = "枫糖浆桶（余烬毛皮）"
 zhTW = "楓糖漿桶（Emberpelts）"
@@ -2626,8 +2714,8 @@ csCZ = "Sud javorového sirupu (Emberpelts)"
 viVN = "Thùng sirô cây phong (Emberpelts)"
 
 ["Wares.MapleSyrup.Emberpelts.Many"]
-status = "normal"
 raw = "Barrels of Maple Syrup (Emberpelts)"
+status = "normal"
 enUS = "Barrels of Maple Syrup (Emberpelts)"
 zhCN = "枫糖浆桶（Emberpelts）"
 zhTW = "楓糖漿桶（餘燼毛皮）"
@@ -2642,8 +2730,8 @@ csCZ = "Sudy javorového sirupu (Emberpelts)"
 viVN = "Thùng xi-rô cây phong (Emberpelts)"
 
 ["Grows.MaizeCrop.Common.Lone"]
-status = "normal"
 raw = "Maize"
+status = "normal"
 enUS = "Maize"
 zhCN = "玉米"
 zhTW = "玉米"
@@ -2658,8 +2746,8 @@ csCZ = "Kukuřice"
 viVN = "Ngô"
 
 ["Wares.Maize.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Maize (Emberpelts)"
+status = "normal"
 enUS = "Crate of Maize (Emberpelts)"
 zhCN = "玉米箱（Emberpelts）"
 zhTW = "玉米箱 (Emberpelts)"
@@ -2674,8 +2762,8 @@ csCZ = "Krabice kukuřice (Emberpelts)"
 viVN = "Thùng ngô (Emberpelts)"
 
 ["Wares.Maize.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Maize (Emberpelts)"
+status = "normal"
 enUS = "Crates of Maize (Emberpelts)"
 zhCN = "玉米箱（Emberpelts）"
 zhTW = "玉米箱（Emberpelts）"
@@ -2690,8 +2778,8 @@ csCZ = "Bedny kukuřice (Emberpelts)"
 viVN = "Thùng ngô (Emberpelts)"
 
 ["Grows.MustardCrop.Common.Lone"]
-status = "normal"
 raw = "Mustard"
+status = "normal"
 enUS = "Mustard"
 zhCN = "芥菜"
 zhTW = "芥菜"
@@ -2706,8 +2794,8 @@ csCZ = "Hořčice"
 viVN = "Mù tạt"
 
 ["Wares.MustardOil.Emberpelts.Lone"]
-status = "normal"
 raw = "Barrel of Mustard Oil"
+status = "normal"
 enUS = "Barrel of Mustard Oil"
 zhCN = "芥末油桶"
 zhTW = "芥末油桶"
@@ -2722,8 +2810,8 @@ csCZ = "Sud hořčičného oleje"
 viVN = "Thùng dầu mù tạt"
 
 ["Wares.MustardOil.Emberpelts.Many"]
-status = "normal"
 raw = "Barrels of Mustard Oil"
+status = "normal"
 enUS = "Barrels of Mustard Oil"
 zhCN = "芥末油桶"
 zhTW = "芥末油桶"
@@ -2738,8 +2826,8 @@ csCZ = "Sudy hořčičného oleje"
 viVN = "Các thùng dầu mù tạt"
 
 ["Wares.MustardSeeds.Lone"]
-status = "normal"
 raw = "Crate of Mustard Seeds"
+status = "normal"
 enUS = "Crate of Mustard Seeds"
 zhCN = "芥菜籽箱"
 zhTW = "芥子籽箱"
@@ -2754,8 +2842,8 @@ csCZ = "Bedna hořčičných semínek"
 viVN = "Thùng hạt mù tạt"
 
 ["Wares.MustardSeeds.Many"]
-status = "normal"
 raw = "Crates of Mustard Seeds"
+status = "normal"
 enUS = "Crates of Mustard Seeds"
 zhCN = "芥子籽箱"
 zhTW = "芥末籽箱"
@@ -2770,8 +2858,8 @@ csCZ = "Bedny hořčičných semínek"
 viVN = "Thùng hạt mù tạt"
 
 ["Wares.MustardSeeds.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Mustard Seeds (Emberpelts)"
+status = "normal"
 enUS = "Crate of Mustard Seeds (Emberpelts)"
 zhCN = "芥子籽木箱（Emberpelts）"
 zhTW = "芥子籽箱（餘燼皮）"
@@ -2786,8 +2874,8 @@ csCZ = "Bedna hořčičných semínek (Emberpelts)"
 viVN = "Thùng hạt mù tạt (Emberpelts)"
 
 ["Wares.MustardSeeds.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Mustard Seeds (Emberpelts)"
+status = "normal"
 enUS = "Crates of Mustard Seeds (Emberpelts)"
 zhCN = "芥子籽箱（炭毛皮）"
 zhTW = "芥子籽箱（餘燼毛皮）"
@@ -2802,8 +2890,8 @@ csCZ = "Krabice hořčičných semínek (Emberpelts)"
 viVN = "Thùng hạt giống mù tạt (Emberpelts)"
 
 ["Grows.ParsnipCrop.Common.Lone"]
-status = "normal"
 raw = "Parsnip"
+status = "normal"
 enUS = "Parsnip"
 zhCN = "欧洲防风"
 zhTW = "歐防風"
@@ -2818,8 +2906,8 @@ csCZ = "Pastinák"
 viVN = "Củ cải ngọt"
 
 ["Grows.ParsnipCrop.RandoQuote"]
-status = "normal"
 raw = "It's meh, good thing too otherwise all the leafcoats would have to decide between having no parsnips or being hated by their own kind 😅"
+status = "normal"
 enUS = "It's meh, good thing too otherwise all the leafcoats would have to decide between having no parsnips or being hated by their own kind 😅"
 zhCN = "还行，幸好如此，否则所有叶披族成员就得在没有欧洲防风根和被同类讨厌之间做出选择 😅"
 zhTW = "就那樣吧，還好這樣，否則所有 Leafcoats 就得在沒有歐防風或被同類憎恨之間做出選擇 😅"
@@ -2834,8 +2922,8 @@ csCZ = "Je to nic moc, naštěstí, jinak by všichni Listovci museli rozhodovat
 viVN = "Nó bình bình thôi, may quá, nếu không thì tất cả lá áo sẽ phải quyết định giữa việc không có củ cải ngọt hoặc bị đồng loại của họ ghét 😅"
 
 ["Wares.Parsnips.Lone"]
-status = "normal"
 raw = "Crate of Parsnips"
+status = "normal"
 enUS = "Crate of Parsnips"
 zhCN = "一箱欧洲防风"
 zhTW = "一箱歐防風蘿蔔"
@@ -2850,8 +2938,8 @@ csCZ = "Bedna pastináků"
 viVN = "Thùng tần ô"
 
 ["Wares.Parsnips.Many"]
-status = "normal"
 raw = "Crates of Parsnips"
+status = "normal"
 enUS = "Crates of Parsnips"
 zhCN = "芜菁箱"
 zhTW = "歐洲防風根箱"
@@ -2866,8 +2954,8 @@ csCZ = "Pastinákové bedny"
 viVN = "Thùng củ cải ngọt"
 
 ["Wares.Parsnips.Common.Lone"]
-status = "normal"
 raw = "Crate of Parsnips (Poorly Packed)"
+status = "normal"
 enUS = "Crate of Parsnips (Poorly Packed)"
 zhCN = "一箱防风萝卜（包装不佳）"
 zhTW = "一箱歐防風蘿蔔（包裝不良）"
@@ -2882,8 +2970,8 @@ csCZ = "Krabice pastináků (špatně zabalené)"
 viVN = "Thùng Củ Cải Ngọt (Đóng gói kém)"
 
 ["Wares.Parsnips.Common.Many"]
-status = "normal"
 raw = "Crates of Parsnips (Poorly Packed)"
+status = "normal"
 enUS = "Crates of Parsnips (Poorly Packed)"
 zhCN = "欧洲防风根木箱（包装不良）"
 zhTW = "蘿蔔箱（打包不良）"
@@ -2898,8 +2986,8 @@ csCZ = "Krabice pastináků (špatně zabalené)"
 viVN = "Các thùng chứa củ cải ngựa (Đóng gói kém)"
 
 ["Grows.PepperCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Pepper (Emberpelts)"
+status = "normal"
 enUS = "Pepper (Emberpelts)"
 zhCN = "胡椒 (Emberpelts)"
 zhTW = "辣椒（Emberpelts）"
@@ -2914,8 +3002,8 @@ csCZ = "Pepř (Emberpelts)"
 viVN = "Ớt (Emberpelts)"
 
 ["Wares.Peppers.Lone"]
-status = "normal"
 raw = "Crate of Peppers"
+status = "normal"
 enUS = "Crate of Peppers"
 zhCN = "一箱辣椒"
 zhTW = "辣椒箱"
@@ -2930,8 +3018,8 @@ csCZ = "Krabice paprik"
 viVN = "Thùng ớt"
 
 ["Wares.Peppers.Many"]
-status = "normal"
 raw = "Crates of Peppers"
+status = "normal"
 enUS = "Crates of Peppers"
 zhCN = "辣椒箱"
 zhTW = "辣椒箱"
@@ -2946,8 +3034,8 @@ csCZ = "Krabice paprik"
 viVN = "Thùng ớt"
 
 ["Wares.Peppers.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Peppers (Emberpelts)"
+status = "normal"
 enUS = "Crate of Peppers (Emberpelts)"
 zhCN = "辣椒箱（Emberpelts）"
 zhTW = "辣椒箱 (Emberpelts)"
@@ -2962,8 +3050,8 @@ csCZ = "Bedna papriček (Emberpelts)"
 viVN = "Thùng ớt (Emberpelts)"
 
 ["Wares.Peppers.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Peppers (Emberpelts)"
+status = "normal"
 enUS = "Crates of Peppers (Emberpelts)"
 zhCN = "辣椒箱（Emberpelts）"
 zhTW = "辣椒箱（Emberpelts）"
@@ -2978,8 +3066,8 @@ csCZ = "Bedny paprik (Emberpelts)"
 viVN = "Thùng ớt (Emberpelts)"
 
 ["Grows.PineTree.RandoQuote"]
-status = "normal"
 raw = "Aren't these Evergreen?"
+status = "normal"
 enUS = "Aren't these evergreens?"
 zhCN = "这些不是常绿树吗？"
 zhTW = "難道這些不是常綠樹嗎？"
@@ -2994,8 +3082,8 @@ csCZ = "Není to stálezelené?"
 viVN = "Những cây này có phải là cây thường xanh không?"
 
 ["Grows.PineTree.Common.Lone"]
-status = "normal"
 raw = "Pine Tree"
+status = "normal"
 enUS = "Pine Tree"
 zhCN = "松树"
 zhTW = "松樹"
@@ -3010,8 +3098,8 @@ csCZ = "Borový strom"
 viVN = "Cây thông"
 
 ["Grows.PineTree.Whitepaws.Lone"]
-status = "normal"
 raw = "Pine Tree (Whitepaws)"
+status = "normal"
 enUS = "Pine Tree (Whitepaws)"
 zhCN = "松树（白爪）"
 zhTW = "松樹（白爪）"
@@ -3026,8 +3114,8 @@ csCZ = "Borovice (Whitepaws)"
 viVN = "Cây thông (Whitepaws)"
 
 ["Wares.PineResin.Lone"]
-status = "normal"
 raw = "Crate of Pine Resin"
+status = "normal"
 enUS = "Crate of Pine Resin"
 zhCN = "松脂箱"
 zhTW = "松脂箱"
@@ -3042,8 +3130,8 @@ csCZ = "Krabice borové pryskyřice"
 viVN = "Thùng nhựa thông"
 
 ["Wares.PineResin.Many"]
-status = "normal"
 raw = "Crates of Pine Resin"
+status = "normal"
 enUS = "Crates of Pine Resin"
 zhCN = "松脂箱"
 zhTW = "松脂箱"
@@ -3058,8 +3146,8 @@ csCZ = "Bedny borovicové pryskyřice"
 viVN = "Các thùng nhựa thông"
 
 ["Wares.PineResin.Common.Lone"]
-status = "normal"
 raw = "Crate of Pine Resin (Poorly Packed)"
+status = "normal"
 enUS = "Crate of Pine Resin (Poorly Packed)"
 zhCN = "松脂木箱（包装不当）"
 zhTW = "松脂箱（包裝不良）"
@@ -3074,8 +3162,8 @@ csCZ = "Bedna borové pryskyřice (špatně zabalená)"
 viVN = "Thùng nhựa thông (đóng gói kém)"
 
 ["Wares.PineResin.Common.Many"]
-status = "normal"
 raw = "Crates of Pine Resin (Poorly Packed)"
+status = "normal"
 enUS = "Crates of Pine Resin (Poorly Packed)"
 zhCN = "松脂箱（包装不良）"
 zhTW = "松脂箱（包裝不良）"
@@ -3090,8 +3178,8 @@ csCZ = "Bedny borovicové pryskyřice (špatně zabalené)"
 viVN = "Thùng nhựa thông (Đóng gói kém)"
 
 ["Wares.PineResin.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Pine Resin (Whitepaws)"
+status = "normal"
 enUS = "Crate of Pine Resin (Whitepaws)"
 zhCN = "松树脂箱（白爪族）"
 zhTW = "松脂箱（白爪）"
@@ -3106,8 +3194,8 @@ csCZ = "Bedna borové pryskyřice (Whitepaws)"
 viVN = "Thùng nhựa thông (Whitepaws)"
 
 ["Wares.PineResin.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Pine Resin (Whitepaws)"
+status = "normal"
 enUS = "Crates of Pine Resin (Whitepaws)"
 zhCN = "白爪松脂箱（白爪族）"
 zhTW = "松脂箱（白爪）"
@@ -3122,8 +3210,8 @@ csCZ = "Krabice borové pryskyřice (Whitepaws)"
 viVN = "Các thùng nhựa thông (Whitepaws)"
 
 ["Grows.PotatoCrop.Folktails.Lone"]
-status = "normal"
 raw = "Potato"
+status = "normal"
 enUS = "Potato"
 zhCN = "土豆"
 zhTW = "馬鈴薯"
@@ -3138,8 +3226,8 @@ csCZ = "Brambor"
 viVN = "Khoai tây"
 
 ["Wares.Potatoes.Lone"]
-status = "normal"
 raw = "Crate of Potatos"
+status = "normal"
 enUS = "Crate of Potatoes"
 zhCN = "一箱土豆"
 zhTW = "一箱馬鈴薯"
@@ -3154,8 +3242,8 @@ csCZ = "Krabice brambor"
 viVN = "Thùng khoai tây"
 
 ["Wares.Potatoes.Many"]
-status = "normal"
 raw = "Crates of Potatos"
+status = "normal"
 enUS = "Crates of Potatoes"
 zhCN = "土豆箱"
 zhTW = "馬鈴薯箱子"
@@ -3170,8 +3258,8 @@ csCZ = "Krabice brambor"
 viVN = "Các thùng khoai tây"
 
 ["Wares.Potatoes.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Potatos (Folktails)"
+status = "normal"
 enUS = "Crate of Potatoes (Folktails)"
 zhCN = "一箱土豆（Folktails）"
 zhTW = "一箱馬鈴薯（Folktails）"
@@ -3186,8 +3274,8 @@ csCZ = "Krabice brambor (Folktails)"
 viVN = "Thùng khoai tây (Folktails)"
 
 ["Wares.Potatoes.Folktails.Many"]
-status = "normal"
 raw = "Crates of Potatos (Folktails)"
+status = "normal"
 enUS = "Crates of Potatoes (Folktails)"
 zhCN = "土豆箱（Folktails）"
 zhTW = "馬鈴薯箱（Folktails）"
@@ -3202,8 +3290,8 @@ csCZ = "Krabice brambor (Folktails)"
 viVN = "Các thùng khoai tây (Folktails)"
 
 ["Grows.RadishCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Radish (Emberpelts)"
+status = "normal"
 enUS = "Radish (Emberpelts)"
 zhCN = "萝卜（余烬皮）"
 zhTW = "蘿蔔 (Emberpelts)"
@@ -3218,8 +3306,8 @@ csCZ = "Ředkev (Emberpelts)"
 viVN = "Củ cải (Emberpelts)"
 
 ["Wares.Radishes.Lone"]
-status = "normal"
 raw = "Crate of Radishes"
+status = "normal"
 enUS = "Crate of Radishes"
 zhCN = "萝卜箱"
 zhTW = "蘿蔔箱"
@@ -3234,8 +3322,8 @@ csCZ = "Krabice ředkviček"
 viVN = "Thùng củ cải"
 
 ["Wares.Radishes.Many"]
-status = "normal"
 raw = "Crates of Radishes"
+status = "normal"
 enUS = "Crates of Radishes"
 zhCN = "萝卜木箱"
 zhTW = "蘿蔔貨箱"
@@ -3250,8 +3338,8 @@ csCZ = "Bedny ředkviček"
 viVN = "Các thùng củ cải"
 
 ["Wares.Radishes.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Radishes (Emberpelts)"
+status = "normal"
 enUS = "Crate of Radishes (Emberpelts)"
 zhCN = "萝卜箱（炽焰皮毛）"
 zhTW = "蘿蔔木箱（Emberpelts）"
@@ -3266,8 +3354,8 @@ csCZ = "Bedna ředkviček (Emberpelts)"
 viVN = "Thùng củ cải (Emberpelts)"
 
 ["Wares.Radishes.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Radishes (Emberpelts)"
+status = "normal"
 enUS = "Crates of Radishes (Emberpelts)"
 zhCN = "萝卜箱（Emberpelts）"
 zhTW = "蘿蔔箱（Emberpelts）"
@@ -3282,8 +3370,8 @@ csCZ = "Krabice ředkviček (Emberpelts)"
 viVN = "Thùng củ cải đỏ (Emberpelts)"
 
 ["Grows.SpadderdockCrop.Common.Lone"]
-status = "normal"
 raw = "Spadderdock"
+status = "normal"
 enUS = "Spadderdock"
 zhCN = "斯帕德多克"
 zhTW = "水花蓮"
@@ -3298,8 +3386,8 @@ csCZ = "Spadderdock"
 viVN = "Spadderdock"
 
 ["Wares.Spadderdock.Lone"]
-status = "normal"
 raw = "Crate of Spadderdock"
+status = "normal"
 enUS = "Crate of Spadderdock"
 zhCN = "斯帕德多克木箱"
 zhTW = "斯帕德多克箱"
@@ -3314,8 +3402,8 @@ csCZ = "Bedna Spadderdocku"
 viVN = "Thùng Spadderdock"
 
 ["Wares.Spadderdock.Many"]
-status = "normal"
 raw = "Crates of Spadderdock"
+status = "normal"
 enUS = "Crates of Spadderdock"
 zhCN = "Spadderdock 木箱"
 zhTW = "Spadderdock 的箱子"
@@ -3330,8 +3418,8 @@ csCZ = "Krabice Spadderdocku"
 viVN = "Các thùng Spadderdock"
 
 ["Wares.Spadderdock.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Spadderdock (Folktails)"
+status = "normal"
 enUS = "Crate of Spadderdock (Folktails)"
 zhCN = "Spadderdock 木箱 (Folktails)"
 zhTW = "Spadderdock（Folktails）一箱"
@@ -3346,8 +3434,8 @@ csCZ = "Krabice Spadderdocku (Folktails)"
 viVN = "Thùng Spadderdock (Folktails)"
 
 ["Wares.Spadderdock.Folktails.Many"]
-status = "normal"
 raw = "Crates of Spadderdock (Folktails)"
+status = "normal"
 enUS = "Crates of Spadderdock (Folktails)"
 zhCN = "Spadderdock 的箱子（Folktails）"
 zhTW = "Spadderdock 的箱子（Folktails）"
@@ -3362,8 +3450,8 @@ csCZ = "Krabice Spadderdocku (Folktails)"
 viVN = "Thùng chứa Spadderdock (Folktails)"
 
 ["Grows.SugarCaneCrop.Common.Lone"]
-status = "normal"
 raw = "Sugar Cane"
+status = "normal"
 enUS = "Sugar Cane"
 zhCN = "甘蔗"
 zhTW = "甘蔗"
@@ -3378,8 +3466,8 @@ csCZ = "Cukrová třtina"
 viVN = "Mía"
 
 ["Grows.SugarCaneCrop.RandoQuote"]
-status = "normal"
 raw = "Sweet tasting cane"
+status = "normal"
 enUS = "Sweet tasting cane"
 zhCN = "口感甜的甘蔗"
 zhTW = "口感甜美的甘蔗"
@@ -3394,8 +3482,8 @@ csCZ = "Sladce chutná cukrová třtina"
 viVN = "Mía có vị ngọt"
 
 ["Wares.SugarCane.Lone"]
-status = "normal"
 raw = "Crate of Sugar Cane"
+status = "normal"
 enUS = "Crate of Sugar Cane"
 zhCN = "甘蔗箱"
 zhTW = "甘蔗箱"
@@ -3410,8 +3498,8 @@ csCZ = "Krabice cukrové třtiny"
 viVN = "Thùng mía"
 
 ["Wares.SugarCane.Many"]
-status = "normal"
 raw = "Crates of Sugar Cane"
+status = "normal"
 enUS = "Crates of Sugar Cane"
 zhCN = "甘蔗箱"
 zhTW = "甘蔗箱"
@@ -3426,8 +3514,8 @@ csCZ = "Krabice cukrové třtiny"
 viVN = "Các thùng mía"
 
 ["Wares.SugarCane.Common.Lone"]
-status = "normal"
 raw = "Crate of Sugar Cane (Poorly Packed)"
+status = "normal"
 enUS = "Crate of Sugar Cane (Poorly Packed)"
 zhCN = "甘蔗箱（包装差）"
 zhTW = "甘蔗箱（打包不良）"
@@ -3442,8 +3530,8 @@ csCZ = "Krabice cukrové třtiny (špatně zabalená)"
 viVN = "Thùng mía (Đóng gói kém)"
 
 ["Wares.SugarCane.Common.Many"]
-status = "normal"
 raw = "Crates of Sugar Cane (Poorly Packed)"
+status = "normal"
 enUS = "Crates of Sugar Cane (Poorly Packed)"
 zhCN = "甘蔗箱（包装差）"
 zhTW = "甘蔗箱 (打包不良)"
@@ -3458,8 +3546,8 @@ csCZ = "Krabice cukrové třtiny (špatně zabalené)"
 viVN = "Thùng mía (Đóng gói kém)"
 
 ["Grows.SunflowerCrop.Folktails.Lone"]
-status = "normal"
 raw = "Sunflower (Folktails)"
+status = "normal"
 enUS = "Sunflower (Folktails)"
 zhCN = "向日葵（Folktails）"
 zhTW = "向日葵（Folktails）"
@@ -3474,8 +3562,8 @@ csCZ = "Slunečnice (Folktails)"
 viVN = "Hoa hướng dương (Folktails)"
 
 ["Grows.SunflowerCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Sunflower (Whitepaws)"
+status = "normal"
 enUS = "Sunflower (Whitepaws)"
 zhCN = "向日葵（Whitepaws）"
 zhTW = "向日葵（Whitepaws）"
@@ -3490,8 +3578,8 @@ csCZ = "Slunečnice (Whitepaws)"
 viVN = "Hoa hướng dương (Whitepaws)"
 
 ["Wares.SunflowerSeeds.Lone"]
-status = "normal"
 raw = "Crate of Sunflower Seeds"
+status = "normal"
 enUS = "Crate of Sunflower Seeds"
 zhCN = "葵花籽箱"
 zhTW = "葵花籽箱"
@@ -3506,8 +3594,8 @@ csCZ = "Bedna slunečnicových semen"
 viVN = "Thùng hạt hướng dương"
 
 ["Wares.SunflowerSeeds.Many"]
-status = "normal"
 raw = "Crates of Sunflower Seeds"
+status = "normal"
 enUS = "Crates of Sunflower Seeds"
 zhCN = "向日葵籽箱"
 zhTW = "向日葵種子箱"
@@ -3522,8 +3610,8 @@ csCZ = "Bedny slunečnicových semen"
 viVN = "Các thùng hạt hướng dương"
 
 ["Wares.SunflowerSeeds.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Sunflower Seeds (Folktails)"
+status = "normal"
 enUS = "Crate of Sunflower Seeds (Folktails)"
 zhCN = "一箱葵花籽（Folktails）"
 zhTW = "向日葵籽木箱（Folktails）"
@@ -3538,8 +3626,8 @@ csCZ = "Bedna slunečnicových semínek (Folktails)"
 viVN = "Thùng hạt hướng dương (Folktails)"
 
 ["Wares.SunflowerSeeds.Folktails.Many"]
-status = "normal"
 raw = "Crates of Sunflower Seeds (Folktails)"
+status = "normal"
 enUS = "Crates of Sunflower Seeds (Folktails)"
 zhCN = "葵花籽箱（Folktails）"
 zhTW = "葵花籽箱（Folktails）"
@@ -3554,8 +3642,8 @@ csCZ = "Bedny slunečnicových semínek (Folktails)"
 viVN = "Thùng hạt hướng dương (Folktails)"
 
 ["Wares.SunflowerSeeds.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Sunflower Seeds (Whitepaws)"
+status = "normal"
 enUS = "Crate of Sunflower Seeds (Whitepaws)"
 zhCN = "一箱向日葵籽（Whitepaws）"
 zhTW = "一箱向日葵籽（白爪）"
@@ -3570,8 +3658,8 @@ csCZ = "Bedna slunečnicových semínek (Whitepaws)"
 viVN = "Thùng hạt giống hoa hướng dương (Whitepaws)"
 
 ["Wares.SunflowerSeeds.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Sunflower Seeds (Whitepaws)"
+status = "normal"
 enUS = "Crates of Sunflower Seeds (Whitepaws)"
 zhCN = "葵花籽箱（白爪）"
 zhTW = "向日葵籽箱（白爪）"
@@ -3586,8 +3674,8 @@ csCZ = "Krabice slunečnicových semínek (Whitepaws)"
 viVN = "Thùng hạt hướng dương (Whitepaws)"
 
 ["Grows.SoybeanCrop.IronTeeth.Lone"]
-status = "normal"
 raw = "Soybean"
+status = "normal"
 enUS = "Soybean"
 zhCN = "大豆"
 zhTW = "大豆"
@@ -3602,8 +3690,8 @@ csCZ = "Sója"
 viVN = "Đậu nành"
 
 ["Wares.Soybeans.Lone"]
-status = "normal"
 raw = "Crate of Soybeans"
+status = "normal"
 enUS = "Crate of Soybeans"
 zhCN = "大豆箱"
 zhTW = "大豆箱"
@@ -3618,8 +3706,8 @@ csCZ = "Bedna sojových bobů"
 viVN = "Thùng đậu nành"
 
 ["Wares.Soybeans.Many"]
-status = "normal"
 raw = "Crates of Soybeans"
+status = "normal"
 enUS = "Crates of Soybeans"
 zhCN = "大豆箱"
 zhTW = "大豆箱"
@@ -3634,8 +3722,8 @@ csCZ = "Krabice sojových bobů"
 viVN = "Thùng đậu nành"
 
 ["Wares.Soybeans.IronTeeth.Lone"]
-status = "normal"
 raw = "Crate of Soybeans (IronTeeth)"
+status = "normal"
 enUS = "Crate of Soybeans (IronTeeth)"
 zhCN = "大豆木箱（铁牙）"
 zhTW = "黃豆箱（鐵牙）"
@@ -3650,8 +3738,8 @@ csCZ = "Bedna sojových bobů (IronTeeth)"
 viVN = "Thùng đậu nành (IronTeeth)"
 
 ["Wares.Soybeans.IronTeeth.Many"]
-status = "normal"
 raw = "Crates of Soybeans (IronTeeth)"
+status = "normal"
 enUS = "Crates of Soybeans (Iron Teeth)"
 zhCN = "大豆箱（铁齿）"
 zhTW = "大豆貨箱（鐵牙）"
@@ -3666,8 +3754,8 @@ csCZ = "Krabice sojových bobů (IronTeeth)"
 viVN = "Các thùng đậu nành (IronTeeth)"
 
 ["Grows.TomatoCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Tomato"
+status = "normal"
 enUS = "Tomato"
 zhCN = "番茄"
 zhTW = "番茄"
@@ -3682,8 +3770,8 @@ csCZ = "Rajče"
 viVN = "Cà chua"
 
 ["Wares.Tomatoes.Lone"]
-status = "normal"
 raw = "Crate of Tomatoes"
+status = "normal"
 enUS = "Crate of Tomatoes"
 zhCN = "番茄箱"
 zhTW = "番茄箱"
@@ -3698,8 +3786,8 @@ csCZ = "Bedna rajčat"
 viVN = "Thùng cà chua"
 
 ["Wares.Tomatoes.Many"]
-status = "normal"
 raw = "Crates of Tomatoes"
+status = "normal"
 enUS = "Crates of Tomatoes"
 zhCN = "番茄箱"
 zhTW = "番茄箱子"
@@ -3714,8 +3802,8 @@ csCZ = "Krabice rajčat"
 viVN = "Thùng cà chua"
 
 ["Wares.Tomatoes.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Tomatoes (Emberpelts)"
+status = "normal"
 enUS = "Crate of Tomatoes (Emberpelts)"
 zhCN = "番茄箱（余烬毛皮）"
 zhTW = "番茄箱（Emberpelts）"
@@ -3730,8 +3818,8 @@ csCZ = "Bedna rajčat (Emberpelts)"
 viVN = "Thùng cà chua (Emberpelts)"
 
 ["Wares.Tomatoes.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Tomatoes (Emberpelts)"
+status = "normal"
 enUS = "Crates of Tomatoes (Emberpelts)"
 zhCN = "番茄箱(Emberpelts)"
 zhTW = "番茄箱（Emberpelts）"
@@ -3746,8 +3834,8 @@ csCZ = "Krabice rajčat (Emberpelts)"
 viVN = "Các thùng cà chua (Emberpelts)"
 
 ["Grows.WheatCrop.Folktails.Lone"]
-status = "normal"
 raw = "Wheat (Folktails)"
+status = "normal"
 enUS = "Wheat (Folktails)"
 zhCN = "小麦 (Folktails)"
 zhTW = "小麥 (民謠族)"
@@ -3762,8 +3850,8 @@ csCZ = "Pšenice (Folktails)"
 viVN = "Lúa mì (Folktails)"
 
 ["Grows.WheatCrop.Whitepaws.Lone"]
-status = "normal"
 raw = "Wheat (Whitepaws)"
+status = "normal"
 enUS = "Wheat (Whitepaws)"
 zhCN = "小麦（白爪）"
 zhTW = "小麥（白爪）"
@@ -3778,8 +3866,8 @@ csCZ = "Pšenice (Whitepaws)"
 viVN = "Lúa mì (Whitepaws)"
 
 ["Grows.WheatCrop.Emberpelts.Lone"]
-status = "normal"
 raw = "Wheat (Emberpelts)"
+status = "normal"
 enUS = "Wheat (Emberpelts)"
 zhCN = "小麦（余烬皮毛）"
 zhTW = "小麥（Emberpelts）"
@@ -3794,8 +3882,8 @@ csCZ = "Pšenice (Emberpelts)"
 viVN = "Lúa mì (Emberpelts)"
 
 ["Wares.Wheat.Lone"]
-status = "normal"
 raw = "Crate of Wheat"
+status = "normal"
 enUS = "Crate of Wheat"
 zhCN = "小麦箱"
 zhTW = "小麥箱"
@@ -3810,8 +3898,8 @@ csCZ = "Krabice pšenice"
 viVN = "Thùng lúa mì"
 
 ["Wares.Wheat.Many"]
-status = "normal"
 raw = "Crates of Wheat"
+status = "normal"
 enUS = "Crates of Wheat"
 zhCN = "小麦箱"
 zhTW = "小麥箱"
@@ -3826,8 +3914,8 @@ csCZ = "Krabice pšenice"
 viVN = "Thùng lúa mì"
 
 ["Wares.Wheat.Folktails.Lone"]
-status = "normal"
 raw = "Crate of Wheat (Folktails)"
+status = "normal"
 enUS = "Crate of Wheat (Folktails)"
 zhCN = "小麦箱（Folktails）"
 zhTW = "小麥箱（Folktails）"
@@ -3842,8 +3930,8 @@ csCZ = "Bedna s pšenicí (Folktails)"
 viVN = "Thùng lúa mì (Folktails)"
 
 ["Wares.Wheat.Folktails.Many"]
-status = "normal"
 raw = "Crates of Wheat (Folktails)"
+status = "normal"
 enUS = "Crates of Wheat (Folktails)"
 zhCN = "小麦箱（Folktails）"
 zhTW = "小麥箱（Folktails）"
@@ -3858,8 +3946,8 @@ csCZ = "Bedny pšenice (Folktails)"
 viVN = "Thùng lúa mì (Folktails)"
 
 ["Wares.Wheat.Whitepaws.Lone"]
-status = "normal"
 raw = "Crate of Wheat (Whitepaws)"
+status = "normal"
 enUS = "Crate of Wheat (Whitepaws)"
 zhCN = "小麦箱（Whitepaws）"
 zhTW = "小麥木箱（Whitepaws）"
@@ -3874,8 +3962,8 @@ csCZ = "Krabice pšenice (Whitepaws)"
 viVN = "Thùng lúa mì (Whitepaws)"
 
 ["Wares.Wheat.Whitepaws.Many"]
-status = "normal"
 raw = "Crates of Wheat (Whitepaws)"
+status = "normal"
 enUS = "Crates of Wheat (Whitepaws)"
 zhCN = "小麦箱（白爪）"
 zhTW = "小麥木箱（白爪族）"
@@ -3890,8 +3978,8 @@ csCZ = "Krabice pšenice (Whitepaws)"
 viVN = "Thùng lúa mì (Whitepaws)"
 
 ["Wares.Wheat.Emberpelts.Lone"]
-status = "normal"
 raw = "Crate of Wheat (Emberpelts)"
+status = "normal"
 enUS = "Crate of Wheat (Emberpelts)"
 zhCN = "小麦箱（余烬皮毛）"
 zhTW = "小麥箱（Emberpelts）"
@@ -3906,8 +3994,8 @@ csCZ = "Bedna s pšenicí (Emberpelts)"
 viVN = "Thùng lúa mì (Emberpelts)"
 
 ["Wares.Wheat.Emberpelts.Many"]
-status = "normal"
 raw = "Crates of Wheat (Emberpelts)"
+status = "normal"
 enUS = "Crates of Wheat (Emberpelts)"
 zhCN = "小麦箱（Emberpelts）"
 zhTW = "小麥木箱（Emberpelts）"
@@ -3922,8 +4010,8 @@ csCZ = "Krabice pšenice (Emberpelts)"
 viVN = "Thùng lúa mì (Emberpelts)"
 
 ["Grows.WillowTree.LeafCoats.Lone"]
-status = "normal"
 raw = "Willow Tree"
+status = "normal"
 enUS = "Willow Tree"
 zhCN = "柳树"
 zhTW = "柳樹"
@@ -3938,8 +4026,8 @@ csCZ = "Vrba"
 viVN = "Cây Liễu"
 
 ["Wares.Bark.Lone"]
-status = "normal"
 raw = "Crate of Bark"
+status = "normal"
 enUS = "Crate of Bark"
 zhCN = "树皮箱"
 zhTW = "樹皮箱"
@@ -3954,8 +4042,8 @@ csCZ = "Bedna s kůrou"
 viVN = "Thùng vỏ cây"
 
 ["Wares.Bark.Many"]
-status = "normal"
 raw = "Crates of Bark"
+status = "normal"
 enUS = "Crates of Bark"
 zhCN = "树皮箱"
 zhTW = "樹皮箱"
@@ -3970,8 +4058,8 @@ csCZ = "Bedny s kůrou"
 viVN = "Thùng vỏ cây"
 
 ["Wares.Bark.LeafCoats.Lone"]
-status = "normal"
 raw = "Crate of Bark (LeafCoats)"
+status = "normal"
 enUS = "Crate of Bark (LeafCoats)"
 zhCN = "树皮箱（LeafCoats）"
 zhTW = "樹皮箱（LeafCoats）"
@@ -3986,8 +4074,8 @@ csCZ = "Bedna kůry (LeafCoats)"
 viVN = "Thùng vỏ cây (LeafCoats)"
 
 ["Wares.Bark.LeafCoats.Many"]
-status = "normal"
 raw = "Crates of Bark (LeafCoats)"
+status = "normal"
 enUS = "Crates of Bark (LeafCoats)"
 zhCN = "树皮箱（LeafCoats）"
 zhTW = "樹皮箱（葉甲）"
@@ -4002,8 +4090,8 @@ csCZ = "Bedny s kůrou (LeafCoats)"
 viVN = "Thùng vỏ cây (LeafCoats)"
 
 ["Building.FarmerFlag.Lone"]
-status = "normal"
 raw = "Farmer Flag"
+status = "normal"
 enUS = "Farmer Flag"
 zhCN = "农民旗帜"
 zhTW = "農夫旗"
@@ -4018,8 +4106,8 @@ csCZ = "Farmářská vlajka"
 viVN = "Cờ Nông Dân"
 
 ["Building.FarmerFlag.Purpose"]
-status = "normal"
 raw = "Default farmer for every faction"
+status = "normal"
 enUS = "Default farmer for every faction"
 zhCN = "所有派系的默认农民"
 zhTW = "每個派系的預設農夫"
@@ -4034,8 +4122,8 @@ csCZ = "Výchozí farmář pro každou frakci"
 viVN = "Nông dân mặc định cho mọi phe"
 
 ["Building.FarmerFlag.RandoQuote"]
-status = "normal"
 raw = "Catches anything mods add to 'Farmhouse' planting group"
+status = "normal"
 enUS = "Catches anything mods add to 'Farmhouse' planting group"
 zhCN = "捕捉模组添加到 'Farmhouse' 种植组的任何内容"
 zhTW = "會捕捉到模組新增至 'Farmhouse' 種植群組的任何內容"
@@ -4050,8 +4138,8 @@ csCZ = "Zachytí vše, co módy přidávají do skupiny sázení 'Farmhouse'."
 viVN = "Ghi nhận mọi thứ mà các mod thêm vào nhóm trồng của 'Farmhouse'."
 
 ["Building.AquaFarmerFlag.Lone"]
-status = "normal"
 raw = "Aqua Farmer Flag"
+status = "normal"
 enUS = "Aqua Farmer Flag"
 zhCN = "水农民旗"
 zhTW = "水農夫旗"
@@ -4066,8 +4154,8 @@ csCZ = "Vodní farmářský prapor"
 viVN = "Cờ nông dân màu xanh nước biển"
 
 ["Building.AquaFarmerFlag.Purpose"]
-status = "normal"
 raw = "Default aqua farmer for every faction"
+status = "normal"
 enUS = "Default aqua farmer for every faction"
 zhCN = "所有派系的默认水培农民"
 zhTW = "每個勢力的預設水耕農夫"
@@ -4082,8 +4170,8 @@ csCZ = "Výchozí vodní farmář pro každou frakci"
 viVN = "Nông dân nước mặc định cho mọi phe"
 
 ["Building.AquaFarmerFlag.RandoQuote"]
-status = "normal"
 raw = "Catches anything mods add to 'AquaticFarmhouse' planting group"
+status = "normal"
 enUS = "Catches anything mods add to 'AquaticFarmhouse' planting group"
 zhCN = "捕获模组添加到'AquaticFarmhouse'种植组的所有内容"
 zhTW = "捕捉模組新增至 'AquaticFarmhouse' 種植群組的任何內容"
@@ -4098,8 +4186,8 @@ csCZ = "Zachytí cokoli, co módy do skupiny výsadby 'AquaticFarmhouse' přidá
 viVN = "Bắt mọi thứ mà các mod thêm vào nhóm trồng của 'AquaticFarmhouse'"
 
 ["Building.ForesterFlag.Lone"]
-status = "normal"
 raw = "Forester Flag"
+status = "normal"
 enUS = "Forester Flag"
 zhCN = "林务旗"
 zhTW = "林務旗"
@@ -4114,8 +4202,8 @@ csCZ = "Vlajka lesníka"
 viVN = "Cờ Lâm nghiệp"
 
 ["Building.ForesterFlag.Purpose"]
-status = "normal"
 raw = "Default forester for every faction"
+status = "normal"
 enUS = "Default forester for every faction"
 zhCN = "各派系的默认林务员"
 zhTW = "供所有派系使用的預設林務員"
@@ -4130,8 +4218,8 @@ csCZ = "Výchozí lesník pro každou frakci"
 viVN = "Người chăm sóc rừng mặc định cho mọi phe"
 
 ["Building.ForesterFlag.RandoQuote"]
-status = "normal"
 raw = "Catches anything mods add to 'Forester' planting group"
+status = "normal"
 enUS = "Catches anything mods add to 'Forester' planting group"
 zhCN = "捕捉模组添加到 'Forester' 种植组的任何内容"
 zhTW = "捕捉模組新增至「Forester」種植群組的所有項目"
@@ -4146,8 +4234,8 @@ csCZ = "Zachytí cokoli, co mody přidávají do skupiny sázení 'Forester'."
 viVN = "Bắt được bất kỳ thứ gì các mod thêm vào nhóm trồng của 'Forester'."
 
 ["Building.Repacker.RandoQuote"]
-status = "normal"
 raw = "All this effort just to make production elsewhere simple..."
+status = "normal"
 enUS = "All this effort just to make production elsewhere simple..."
 zhCN = "这么大的努力只是为了让别处的生产变得简单……"
 zhTW = "這麼多的努力只是為了讓別處的生產變得更簡單…"
@@ -4162,8 +4250,8 @@ csCZ = "To všechno úsilí jen proto, aby byla výroba jinde jednoduchá..."
 viVN = "Tất cả công sức này chỉ để làm cho sản xuất ở nơi khác trở nên đơn giản..."
 
 ["Building.Repacker.Common.Lone"]
-status = "normal"
 raw = "Repacker (Common)"
+status = "normal"
 enUS = "Repacker (Common)"
 zhCN = "打包机（普通）"
 zhTW = "再打包機（普通）"
@@ -4178,8 +4266,9 @@ csCZ = "Přepakovač (Běžný)"
 viVN = "Máy đóng gói (Thông dụng)"
 
 ["Building.Repacker.Common.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed common goods into a standard format"
+new = "Repacks poorly packed common goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repacks poorly packed common goods into a standard format"
 zhCN = "将打包不当的普通货物重新打包成标准格式"
 zhTW = "將打包不當的普通貨物重新打包成標準格式"
@@ -4194,8 +4283,8 @@ csCZ = "Přebaluje špatně zabalené běžné zboží do standardního formátu
 viVN = "Đóng gói lại các mặt hàng thông thường được đóng gói kém thành một định dạng chuẩn"
 
 ["Building.Repacker.Folktails.Lone"]
-status = "normal"
 raw = "Repacker (Folktails)"
+status = "normal"
 enUS = "Repacker (Folktails)"
 zhCN = "再包装机（Folktails）"
 zhTW = "再打包機（Folktails）"
@@ -4210,8 +4299,9 @@ csCZ = "Přebalovač (Folktails)"
 viVN = "Máy tái đóng gói (Folktails)"
 
 ["Building.Repacker.Folktails.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed folktails goods into a standard format"
+new = "Repacks poorly packed folktails goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repackages poorly packed Folktails goods into a standard format"
 zhCN = "将打包不当的 folktails 货物重新打包成标准格式"
 zhTW = "將打包不當的 folktails 貨物重新包裝成標準格式"
@@ -4226,8 +4316,8 @@ csCZ = "Přepakuje špatně zabalené zboží folktails do standardního formát
 viVN = "Đóng gói lại các mặt hàng Folktails được đóng gói kém thành một định dạng chuẩn"
 
 ["Building.Repacker.IronTeeth.Lone"]
-status = "normal"
 raw = "Repacker (IronTeeth)"
+status = "normal"
 enUS = "Repacker (IronTeeth)"
 zhCN = "再包装机（铁齿）"
 zhTW = "再打包機（IronTeeth）"
@@ -4242,8 +4332,9 @@ csCZ = "Přepakovač (Železné zuby)"
 viVN = "Máy đóng gói (IronTeeth)"
 
 ["Building.Repacker.IronTeeth.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed ironteeth goods into a standard format"
+new = "Repacks poorly packed ironteeth goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repacks poorly packed Iron Teeth goods into a standard format"
 zhCN = "将打包不当的铁齿货物重新打包成标准格式"
 zhTW = "將包裝不良的鐵齒貨物重新打包為標準格式"
@@ -4258,8 +4349,8 @@ csCZ = "Přepakuje špatně zabalené zboží IronTeeth do standardního formát
 viVN = "Đóng gói lại các mặt hàng IronTeeth bị đóng gói kém thành một định dạng chuẩn"
 
 ["Building.Repacker.Whitepaws.Lone"]
-status = "normal"
 raw = "Repacker (Whitepaws)"
+status = "normal"
 enUS = "Repacker (Whitepaws)"
 zhCN = "打包机（白爪）"
 zhTW = "打包機 (Whitepaws)"
@@ -4274,8 +4365,9 @@ csCZ = "Zabalovač (Whitepaws)"
 viVN = "Máy đóng gói (Whitepaws)"
 
 ["Building.Repacker.Whitepaws.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed whitepaws goods into a standard format"
+new = "Repacks poorly packed whitepaws goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repacks poorly packed Whitepaws goods into a standard format"
 zhCN = "将打包不当的白爪货物重新打包成标准格式"
 zhTW = "將包裝不當的白爪貨物重新打包成標準格式"
@@ -4290,8 +4382,8 @@ csCZ = "Přebaluje špatně zabalené zboží Whitepaws do standardního formát
 viVN = "Tái đóng gói hàng hóa Whitepaws được đóng gói kém thành một định dạng chuẩn."
 
 ["Building.Repacker.LeafCoats.Lone"]
-status = "normal"
 raw = "Repacker (LeafCoats)"
+status = "normal"
 enUS = "Repacker (LeafCoats)"
 zhCN = "再包装机（LeafCoats）"
 zhTW = "再打包機（葉護套）"
@@ -4306,8 +4398,9 @@ csCZ = "Balicí stroj (LeafCoats)"
 viVN = "Máy đóng gói lại (LeafCoats)"
 
 ["Building.Repacker.LeafCoats.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed leafcoats goods into a standard format"
+new = "Repacks poorly packed leafcoats goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repacks poorly packed LeafCoats goods into a standard format"
 zhCN = "将包装不当的 Leafcoats 货物重新打包成标准格式。"
 zhTW = "將打包不當的 leafcoats 貨物重新打包為標準格式"
@@ -4322,8 +4415,8 @@ csCZ = "Převáží špatně zabalené zboží Leafcoats do standardizovaného f
 viVN = "Đóng gói lại các mặt hàng leafcoats được đóng gói kém thành một định dạng chuẩn"
 
 ["Building.Repacker.Emberpelts.Lone"]
-status = "normal"
 raw = "Repacker (Emberpelts)"
+status = "normal"
 enUS = "Repacker (Emberpelts)"
 zhCN = "打包机（余烬皮毛）"
 zhTW = "再打包機（Emberpelts）"
@@ -4338,8 +4431,9 @@ csCZ = "Zabalovač (Emberpelts)"
 viVN = "Máy tái đóng gói (Emberpelts)"
 
 ["Building.Repacker.Emberpelts.Purpose"]
-status = "normal"
 raw = "Repacks poorly packed emberpelts goods into a standard format"
+new = "Repacks poorly packed emberpelts goods into a standard format (needs haulers)"
+status = "normal"
 enUS = "Repacks poorly packed emberpelts into a standard format"
 zhCN = "将包装不良的 Emberpelts 货物重新打包为标准格式"
 zhTW = "將打包不當的 Emberpelts 貨品重新包裝成標準格式"
@@ -4354,8 +4448,8 @@ csCZ = "Přebaluje špatně zabalené zboží z emberpelts do standardního form
 viVN = "Đóng gói lại các mặt hàng emberpelts được đóng gói kém thành một định dạng chuẩn"
 
 ["Building.Farmhouse.Folktails.Lone"]
-status = "normal"
 raw = "Folktails Farmhouse"
+status = "normal"
 enUS = "Folktails Farmhouse"
 zhCN = "民间传说农舍"
 zhTW = "Folktails 農舍"
@@ -4370,8 +4464,8 @@ csCZ = "Statek Folktails"
 viVN = "Nhà trang trại Folktails"
 
 ["Building.Farmhouse.IronTeeth.Lone"]
-status = "normal"
 raw = "IronTeeth Farmhouse"
+status = "normal"
 enUS = "IronTeeth Farmhouse"
 zhCN = "铁牙农舍"
 zhTW = "鐵牙農舍"
@@ -4386,8 +4480,8 @@ csCZ = "IronTeeth Dům na farmě"
 viVN = "Nhà nông IronTeeth"
 
 ["Building.Farmhouse.Whitepaws.Lone"]
-status = "normal"
 raw = "Whitepaws Farmhouse"
+status = "normal"
 enUS = "Whitepaws Farmhouse"
 zhCN = "白爪农舍"
 zhTW = "白爪農舍"
@@ -4402,8 +4496,8 @@ csCZ = "Whitepaws Farmářský dům"
 viVN = "Nhà trang trại Whitepaws"
 
 ["Building.Farmhouse.LeafCoats.Lone"]
-status = "normal"
 raw = "LeafCoats Farmhouse"
+status = "normal"
 enUS = "LeafCoats Farmhouse"
 zhCN = "LeafCoats 农舍"
 zhTW = "LeafCoats 農舍"
@@ -4418,8 +4512,8 @@ csCZ = "LeafCoats Farma"
 viVN = "Nhà Trang Trại LeafCoats"
 
 ["Building.Farmhouse.Emberpelts.Lone"]
-status = "normal"
 raw = "Emberpelts Farmhouse"
+status = "normal"
 enUS = "Emberpelts Farmhouse"
 zhCN = "Emberpelts 农舍"
 zhTW = "Emberpelts 農舍"
@@ -4434,8 +4528,8 @@ csCZ = "Emberpelts farmářský dům"
 viVN = "Nhà nông Emberpelts"
 
 ["Building.AquaFarmhouse.Folktails.Lone"]
-status = "normal"
 raw = "Aquatic Farmhouse (Folktails)"
+status = "normal"
 enUS = "Aquatic Farmhouse (Folktails)"
 zhCN = "水产农舍（Folktails）"
 zhTW = "水上農舍（Folktails）"
@@ -4450,8 +4544,8 @@ csCZ = "Vodní farmářský dům (Folktails)"
 viVN = "Nhà trang trại thủy sinh (Folktails)"
 
 ["Building.AquaFarmhouse.IronTeeth.Lone"]
-status = "normal"
 raw = "Aquatic Farmhouse (IronTeeth)"
+status = "normal"
 enUS = "Aquatic Farmhouse (IronTeeth)"
 zhCN = "水上农舍 (IronTeeth)"
 zhTW = "水上農舍（IronTeeth）"
@@ -4466,8 +4560,8 @@ csCZ = "Vodní farma (IronTeeth)"
 viVN = "Nhà trang trại dưới nước (IronTeeth)"
 
 ["Building.AquaFarmhouse.Whitepaws.Lone"]
-status = "normal"
 raw = "Aquatic Farmhouse (Whitepaws)"
+status = "normal"
 enUS = "Aquatic Farmhouse (Whitepaws)"
 zhCN = "水上农舍（Whitepaws）"
 zhTW = "水上農舍（白爪）"
@@ -4482,8 +4576,8 @@ csCZ = "Vodní farmářský dům (Whitepaws)"
 viVN = "Nhà trang trại thủy sinh (Whitepaws)"
 
 ["Building.AquaFarmhouse.LeafCoats.Lone"]
-status = "normal"
 raw = "Aquatic Farmhouse (LeafCoats)"
+status = "normal"
 enUS = "Aquatic Farmhouse (LeafCoats)"
 zhCN = "水生农舍（LeafCoats）"
 zhTW = "水生農舍 (LeafCoats)"
@@ -4498,8 +4592,8 @@ csCZ = "Vodní farma (LeafCoats)"
 viVN = "Nhà trang trại thủy sinh (LeafCoats)"
 
 ["Building.AquaFarmhouse.Emberpelts.Lone"]
-status = "normal"
 raw = "Aquatic Farmhouse (Emberpelts)"
+status = "normal"
 enUS = "Aquatic Farmhouse (Emberpelts)"
 zhCN = "水上农舍（余烬皮毛）"
 zhTW = "水上農舍（Emberpelts）"
@@ -4514,8 +4608,8 @@ csCZ = "Vodní farmářský dům (Emberpelts)"
 viVN = "Trang trại trên mặt nước (Emberpelts)"
 
 ["Building.CarefulForester.Common.Lone"]
-status = "normal"
 raw = "Careful Forester"
+status = "normal"
 enUS = "Careful Forester"
 zhCN = "谨慎的造林工"
 zhTW = "謹慎的林務員"
@@ -4530,8 +4624,8 @@ csCZ = "Opatrný lesník"
 viVN = "Quản rừng thận trọng"
 
 ["Building.Forester.Folktails.Lone"]
-status = "normal"
 raw = "Forester (Folktails)"
+status = "normal"
 enUS = "Forester (Folktails)"
 zhCN = "林务员（Folktails）"
 zhTW = "造林工 (Folktails)"
@@ -4546,8 +4640,8 @@ csCZ = "Lesník (Folktails)"
 viVN = "Người chăm sóc rừng (Folktails)"
 
 ["Building.Forester.IronTeeth.Lone"]
-status = "normal"
 raw = "Forester (IronTeeth)"
+status = "normal"
 enUS = "Forester (IronTeeth)"
 zhCN = "造林员（铁牙）"
 zhTW = "造林員（鐵牙）"
@@ -4562,8 +4656,8 @@ csCZ = "Lesník (Železné zuby)"
 viVN = "Người chăm sóc rừng (IronTeeth)"
 
 ["Building.Forester.Whitepaws.Lone"]
-status = "normal"
 raw = "Forester (Whitepaws)"
+status = "normal"
 enUS = "Forester (Whitepaws)"
 zhCN = "造林员（Whitepaws）"
 zhTW = "林務員（Whitepaws）"
@@ -4578,8 +4672,8 @@ csCZ = "Lesník (Whitepaws)"
 viVN = "Người trồng rừng (Whitepaws)"
 
 ["Building.Forester.LeafCoats.Lone"]
-status = "normal"
 raw = "Forester (LeafCoats)"
+status = "normal"
 enUS = "Forester (LeafCoats)"
 zhCN = "林务员 (LeafCoats)"
 zhTW = "林務員 (LeafCoats)"
@@ -4594,8 +4688,8 @@ csCZ = "Lesník (LeafCoats)"
 viVN = "Người lâm nghiệp (LeafCoats)"
 
 ["Building.Forester.Emberpelts.Lone"]
-status = "normal"
 raw = "Forester (Emberpelts)"
+status = "normal"
 enUS = "Forester (Emberpelts)"
 zhCN = "林务员 (Emberpelts)"
 zhTW = "護林員（Emberpelts）"

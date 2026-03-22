@@ -238,3 +238,55 @@ ptBR = "Enorme"
 koKR = "거대"
 csCZ = "Obrovská"
 viVN = "To lớn"
+
+["Grauschweif.Floats.Lantern.DisplayName"]
+new = "Floating Lantern"
+status = "normal"
+
+["Grauschweif.Floats.Lantern.Description"]
+new = "Will last another <i>{0} hours</i>."
+status = "normal"
+
+["Grauschweif.Floats.Lantern.FlavorDescription"]
+new = "A gentle light"
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.DisplayName"]
+new = "Float Dispatcher"
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.Description"]
+new = "A simple contraption. WORK-IN-PROGRESS will slowly add inventory need and make it connect to district, floodable, etc.."
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.Description.DispatchMessage"]
+new = "Will dispatch {0} from around {1} till {2}."
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.Description.ActiveMessage"]
+new = "Dispatching {1} new {0} per hour."
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.Description.PausedMessage"]
+new = "Paused till next dusk."
+status = "normal"
+
+["Grauschweif.Building.FloatDispatcher.FlavorDescription"]
+new = "Kits send wishes out with each light"
+status = "normal"
+
+["Grauschweif.Building.ArtisansLodge.DisplayName"]
+new = "Artisan Workshop"
+status = "normal"
+
+["Grauschweif.Building.ArtisansLodge.Description"]
+new = "Artisans make many fancy things. This one likes to make paper lanterns."
+status = "normal"
+
+["Grauschweif.Building.ArtisansLodge.FlavorDescription"]
+new = ""
+status = "normal"
+
+["Grauschweif.Time.HourMinute"]
+new = "{0}:{1}"
+status = "normal"

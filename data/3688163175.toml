@@ -1,0 +1,26 @@
+[_meta]
+name = "Enhanced Relay"
+
+["EnhancedRelay.Mode.Nor"]
+new = "NOR"
+status = "normal"
+
+["EnhancedRelay.Mode.Nor.Description"]
+new = "<YellowHighlight>On</YellowHighlight> if both inputs are <YellowHighlight>Off</YellowHighlight>."
+status = "normal"
+
+["EnhancedRelay.Mode.Nand"]
+new = "NAND"
+status = "normal"
+
+["EnhancedRelay.Mode.Nand.Description"]
+new = "<YellowHighlight>On</YellowHighlight> if any input is <YellowHighlight>Off</YellowHighlight>."
+status = "normal"
+
+["EnhancedRelay.Mode.Xnor"]
+new = "XNOR"
+status = "normal"
+
+["EnhancedRelay.Mode.Xnor.Description"]
+new = "<YellowHighlight>On</YellowHighlight> if inputs are equal."
+status = "normal"

@@ -259,6 +259,7 @@ viVN = "Ẩn thước đo"
 
 ["Calloatti.Grid.KeyBind.Toggle.Topo"]
 raw = " Toggle Topo Grid"
+new = "Toggle Topo Grid"
 status = "normal"
 enUS = "Toggle Topo Grid"
 zhCN = "切换等高网格"
@@ -272,6 +273,46 @@ ptBR = "Alternar Grade Topo"
 koKR = "지형 격자 토글"
 csCZ = "Přepnout Topo mřížku"
 viVN = "Bật/Tắt Lưới Địa hình"
+
+["Calloatti.Grid.DeleteAllWaterTitle"]
+new = "Clear Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.DeleteAllWaterDescription"]
+new = "Use this tool to clear all Water Planner areas placed in the map."
+status = "normal"
+
+["Calloatti.Grid.WaterPlannerToolTitle"]
+new = "Add Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.WaterPlannerToolDescription"]
+new = "Use this tool to add Water Planner areas."
+status = "normal"
+
+["Calloatti.Grid.WaterEraserToolTitle"]
+new = "Clear Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.WaterEraserToolDescription"]
+new = "Use this tool to clear Water Planner areas."
+status = "normal"
+
+["Calloatti.Grid.WaterRiseToolTitle"]
+new = "Raise Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.WaterRiseToolDescription"]
+new = "Use this tool to raise water level in Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.WaterLowerToolTitle"]
+new = "Lower Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.WaterLowerToolDescription"]
+new = "Use this tool to lower water level in Water Planner areas"
+status = "normal"
 
 ["Calloatti.Grid.Terrain.Toggle"]
 raw = "Toggle Terrain Grid"
