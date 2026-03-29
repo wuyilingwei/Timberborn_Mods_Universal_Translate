@@ -1,5 +1,5 @@
 [_meta]
-name = "Automation"
+name = "Advanced Automation"
 
 ["IgorZ.Automation.CancelTool.Description"]
 raw = "Use this tool to clean up any automation on the buildings or construction sites."
@@ -464,6 +464,22 @@ ptBR = "Não bloqueie os construtores."
 koKR = "건축가를 막지 마세요"
 csCZ = "Nepamatujte stavitele"
 viVN = "Đừng chặn thợ xây"
+
+["IgorZ.Automation.Tool.tmpl.ConstructionCompleteNotice.DisplayName"]
+new = "Construction complete notice"
+status = "normal"
+
+["IgorZ.Automation.Tool.tmpl.ConstructionCompleteNotice.Description"]
+new = "Apply this template to construction sites to get a notification when the construction is complete."
+status = "normal"
+
+["IgorZ.Automation.Tool.tmpl.ConstructionCompleteNotice.StatusText"]
+new = "Construction complete. Clear the rule to remove the notice."
+status = "normal"
+
+["IgorZ.Automation.Tool.tmpl.ConstructionCompleteNotice.AlertText"]
+new = "Construction complete"
+status = "normal"
 
 ["IgorZ.Automation.Tool.tmpl.DroughtCloseFloodgate.Description"]
 raw = "Apply this template on floodgates that should close when drought starts."
@@ -1169,6 +1185,10 @@ koKR = "오류: 내부 오류"
 csCZ = "CHYBA: Interní chyba"
 viVN = "LỖI: Lỗi nội bộ"
 
+["IgorZ.Automation.Scripting.Error.StackOverflow"]
+new = "ERROR: Stack overflow"
+status = "normal"
+
 ["IgorZ.Automation.AutomationFragment.AndMoreRow"]
 raw = "...and {0} more rules..."
 status = "normal"
@@ -1424,6 +1444,10 @@ ptBR = "Copiar regras de automação"
 koKR = "자동화 규칙 복사"
 csCZ = "Kopírovat pravidla automatizace"
 viVN = "Sao chép quy tắc tự động"
+
+["IgorZ.Automation.Scriptable.Automator.Signal.State"]
+new = "automation signal"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
 raw = "ready for collection"
@@ -1809,6 +1833,10 @@ koKR = "출력: {0}"
 csCZ = "výstup: {0}"
 viVN = "đầu ra: {0}"
 
+["IgorZ.Automation.Scriptable.Lever.Action.SetState"]
+new = "set lever state: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Manufactory.Action.SetRecipe"]
 raw = "set recipe: {0}"
 status = "normal"
@@ -1824,6 +1852,34 @@ ptBR = "definir receita: {0}"
 koKR = "레시피 설정: {0}"
 csCZ = "nastavit recept: {0}"
 viVN = "thiết lập công thức: {0}"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.ClearStatus"]
+new = "clear status"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetAlert"]
+new = "set alert: {0}"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetStatus"]
+new = "set status: {0}"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetStatusAlertTextArgument"]
+new = "Alert text"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetStatusIconArgument"]
+new = "Status icon"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetStatusTextArgument"]
+new = "Status text"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Notifications.Action.SetNoticeIcon"]
+new = "set notice icon: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Pausable.Action.Pause"]
 raw = "pause building"
