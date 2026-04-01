@@ -149,7 +149,6 @@ def get_ingame_languages(config, logger=None):
 # Mapping: _ingame*.toml stem → CSV suffix used in output filenames
 INGAME_TOML_STEMS = {
     "_ingame":       "_ingame",
-    "_ingame_names": "_ingame_names",
     "_ingame_des":   "_ingame_des",
 }
 

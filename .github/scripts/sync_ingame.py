@@ -36,7 +36,6 @@ import toml
 # Mapping: raw filename → (toml filename, meta name)
 RAW_TO_INGAME: Dict[str, Tuple[str, str]] = {
     "enUS.txt":              ("_ingame.toml",       "Timberborn Ingame"),
-    "enUS_names.txt":        ("_ingame_names.toml", "Timberborn Ingame Names"),
     "enUS_donottranslate.txt": ("_ingame_des.toml", "Timberborn Ingame Description"),
 }
 
