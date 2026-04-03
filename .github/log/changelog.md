@@ -1,4 +1,4 @@
-# Release 2026.4.11
+# Release 2026.4.30
 
 Automated update with new mod translations and data changes.
 
@@ -11,5 +11,5 @@ Automated update with new mod translations and data changes.
 
 ### 📈 Statistics
 - 🎯 **451** total mods in database
-- 📅 Built on 2026-04-01 21:40:45 UTC
+- 📅 Built on 2026-04-03 08:18:05 UTC
 
