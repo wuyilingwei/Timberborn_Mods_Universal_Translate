@@ -2,8 +2,8 @@
 name = "Enhanced Relay"
 
 ["EnhancedRelay.Mode.Nor"]
-status = "normal"
 raw = "NOR"
+status = "normal"
 enUS = "NOR"
 zhCN = "“或”"
 zhTW = "非"
@@ -18,8 +18,8 @@ csCZ = "NOR"
 viVN = "NOR"
 
 ["EnhancedRelay.Mode.Nor.Description"]
-status = "normal"
 raw = "<YellowHighlight>On</YellowHighlight> if both inputs are <YellowHighlight>Off</YellowHighlight>."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if both inputs are <YellowHighlight>Off</YellowHighlight>."
 zhCN = "如果两个输入都是<YellowHighlight>关闭</YellowHighlight>，则<YellowHighlight>开启</YellowHighlight>。"
 zhTW = "<YellowHighlight>開</YellowHighlight> 在兩個輸入都為 <YellowHighlight>關</YellowHighlight> 時。"
@@ -34,8 +34,8 @@ csCZ = "<ŽlutéZvýraznění>Zapnuto</ŽlutéZvýraznění>, pokud jsou oba vst
 viVN = "<YellowHighlight>Bật</YellowHighlight> nếu cả hai đầu vào đều <YellowHighlight>Tắt</YellowHighlight>."
 
 ["EnhancedRelay.Mode.Nand"]
-status = "normal"
 raw = "NAND"
+status = "normal"
 enUS = "NAND"
 zhCN = "NAND"
 zhTW = "NAND"
@@ -50,8 +50,8 @@ csCZ = "NAND"
 viVN = "NAND"
 
 ["EnhancedRelay.Mode.Nand.Description"]
-status = "normal"
 raw = "<YellowHighlight>On</YellowHighlight> if any input is <YellowHighlight>Off</YellowHighlight>."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if any input is <YellowHighlight>Off</YellowHighlight>."
 zhCN = "如果任何输入为<YellowHighlight>关闭</YellowHighlight>，则为<YellowHighlight>开启</YellowHighlight>。"
 zhTW = "<YellowHighlight>開</YellowHighlight> 如果任何輸入為 <YellowHighlight>關</YellowHighlight>。"
@@ -66,8 +66,8 @@ csCZ = "<ŽlutéZvýraznění>Zapnuto</ŽlutéZvýraznění>, pokud je jakýkoli
 viVN = "<YellowHighlight>Bật</YellowHighlight> nếu bất kỳ đầu vào nào <YellowHighlight>Tắt</YellowHighlight>."
 
 ["EnhancedRelay.Mode.Xnor"]
-status = "normal"
 raw = "XNOR"
+status = "normal"
 enUS = "XNOR"
 zhCN = "XNOR"
 zhTW = "XNOR"
@@ -82,8 +82,8 @@ csCZ = "XNOR"
 viVN = "XNOR"
 
 ["EnhancedRelay.Mode.Xnor.Description"]
-status = "normal"
 raw = "<YellowHighlight>On</YellowHighlight> if inputs are equal."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if inputs are equal."
 zhCN = "<YellowHighlight>开启</YellowHighlight> 如果输入相等。"
 zhTW = "<YellowHighlight>開啟</YellowHighlight>若輸入相等。"

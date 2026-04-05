@@ -1,9 +1,17 @@
 [_meta]
 name = "zxuiji -m- AquaCadre"
 
-["Cadre.Group.AquaPiles.Lone"]
+["Good.FloodingWater.DisplayName"]
+new = "Too much water"
 status = "normal"
+
+["Good.FloodingBadwater.DisplayName"]
+new = "Too much badwater"
+status = "normal"
+
+["Cadre.Group.AquaPiles.Lone"]
 raw = "Aqua Piles"
+status = "normal"
 enUS = "Aqua Piles"
 zhCN = "水堆"
 zhTW = "水堆"
@@ -18,8 +26,8 @@ csCZ = "Aqua Piles"
 viVN = "Cọc Nước"
 
 ["Cadre.Group.AquaTanks.Lone"]
-status = "normal"
 raw = "Aqua Tanks"
+status = "normal"
 enUS = "Aqua Tanks"
 zhCN = "水箱"
 zhTW = "水箱"
@@ -34,8 +42,8 @@ csCZ = "Akvatančiky"
 viVN = "Thủy Lực"
 
 ["Cadre.Group.AquaWarehouses.Lone"]
-status = "normal"
 raw = "Aqua Warehouses"
+status = "normal"
 enUS = "Aqua Warehouses"
 zhCN = "水库"
 zhTW = "水庫"
@@ -50,8 +58,8 @@ csCZ = "Akvadukty"
 viVN = "Kho Nước"
 
 ["Cadre.Ladder.Log.Lone"]
-status = "normal"
 raw = "Log Ladder"
+status = "normal"
 enUS = "Log Ladder"
 zhCN = "木头梯子"
 zhTW = "木頭梯"
@@ -66,8 +74,8 @@ csCZ = "Žebřík z klády"
 viVN = "Cầu thang Gỗ"
 
 ["Cadre.Ladder.Log.Purpose"]
-status = "normal"
 raw = "Log that the beavers gnawed at to make climable"
+status = "normal"
 enUS = "Log that the beavers gnawed to make climbable"
 zhCN = "“海狸啃咬过的木头，用于制作可攀爬的梯子”"
 zhTW = "「海狸咬過的樹幹，讓它變得可以攀爬」"
@@ -82,8 +90,8 @@ csCZ = "Kláda, na kterou bobři kousali, aby ji učinili léztelnou"
 viVN = "Khúc gỗ mà những con nhím gặm để làm thành cầu thang có thể leo lên"
 
 ["Cadre.Ladder.Log.RandoQuote"]
-status = "normal"
 raw = "Of course they washed it the river afterwards"
+status = "normal"
 enUS = "Of course they washed it in the river afterwards."
 zhCN = "“当然，他们之后把它洗到了河里。”"
 zhTW = "「當然他們之後把它在河裡洗了。」"
@@ -98,8 +106,8 @@ csCZ = "Samozřejmě, že to potom vyprali v řece."
 viVN = "Tất nhiên họ đã rửa nó trong dòng sông sau đó"
 
 ["Cadre.Gyser.Lone"]
-status = "normal"
 raw = "Gyser"
+status = "normal"
 enUS = "Geyser"
 zhCN = "喷泉"
 zhTW = "噴泉"
@@ -114,8 +122,8 @@ csCZ = "Gyser"
 viVN = "Thủy phun"
 
 ["Cadre.Gyser.Purpose"]
-status = "normal"
 raw = "Filtered water from deep underground"
+status = "normal"
 enUS = "Filtered water from deep underground"
 zhCN = "“来自深地下的过滤水”"
 zhTW = "來自深地下的過濾水"
@@ -130,8 +138,8 @@ csCZ = "Filtr voda z hloubky země"
 viVN = "Nước lọc từ sâu dưới lòng đất"
 
 ["Cadre.Gyser.RandoQuote"]
-status = "normal"
 raw = "Is a bit...volatile"
+status = "normal"
 enUS = "Is a bit...volatile"
 zhCN = "有点…不稳定"
 zhTW = "有點…不穩定"
@@ -146,8 +154,8 @@ csCZ = "Je to trochu...nervózní"
 viVN = "Có chút...không ổn định"
 
 ["Cadre.BadGyser.Lone"]
-status = "normal"
 raw = "Bad Gyser"
+status = "normal"
 enUS = "Bad Geyser"
 zhCN = "坏间歇泉"
 zhTW = "壞噴泉"
@@ -162,8 +170,8 @@ csCZ = "Špatný gejzír"
 viVN = "Bad Gyser"
 
 ["Cadre.BadGyser.Purpose"]
-status = "normal"
 raw = "Unfiltered water from underground"
+status = "normal"
 enUS = "Unfiltered water from underground"
 zhCN = "未经过滤的地下水"
 zhTW = "未過濾的地下水"
@@ -178,8 +186,8 @@ csCZ = "Nezpracovaná voda z podzemí"
 viVN = "Nước chưa qua xử lý từ dưới lòng đất"
 
 ["Cadre.BadGyser.RandoQuote"]
-status = "normal"
 raw = "Is a bit...sickening"
+status = "normal"
 enUS = "Is a bit...sickening"
 zhCN = "有点……恶心"
 zhTW = "有點...令人作噁"
@@ -194,8 +202,8 @@ csCZ = "Je to trochu...nechutné"
 viVN = "Có hơi...buồn nôn"
 
 ["Cadre.FloodMaker.Lone"]
-status = "normal"
 raw = "Flood Maker"
+status = "normal"
 enUS = "Flood Maker"
 zhCN = "洪水制造者"
 zhTW = "洪水製造者"
@@ -210,8 +218,8 @@ csCZ = "Tvůrce povodní"
 viVN = "Máy Tạo Lũ"
 
 ["Cadre.FloodMaker.Purpose"]
-status = "normal"
 raw = "Powered fluid dumping"
+status = "normal"
 enUS = "Powered fluid dumping"
 zhCN = "“动力液体倾倒”"
 zhTW = "動力液體傾倒"
@@ -226,8 +234,8 @@ csCZ = "Nabíjené vypouštění tekutin"
 viVN = "Xả chất lỏng có động lực"
 
 ["Cadre.FloodMaker.RandoQuote"]
-status = "normal"
 raw = "Reliable floods from your local mech :D"
+status = "normal"
 enUS = "Reliable floods from your local mech :D"
 zhCN = "“来自你当地机甲的可靠洪水 :D”"
 zhTW = "「來自您當地機械的可靠洪水 :D」"
@@ -242,8 +250,8 @@ csCZ = "Spolehlivé povodně od vašeho místního mechana :D"
 viVN = "Các trận lũ đáng tin cậy từ máy móc địa phương của bạn :D"
 
 ["Cadre.SmallAquaPile.Lone"]
-status = "normal"
 raw = "Small Aqua Pile"
+status = "normal"
 enUS = "Small Aqua Pile"
 zhCN = "小水堆"
 zhTW = "小水堆"
@@ -258,8 +266,8 @@ csCZ = "Malý vodní hromadník"
 viVN = "Cái Chồng Nước Nhỏ"
 
 ["Cadre.SmallAquaPile.Purpose"]
-status = "normal"
 raw = "Small Pile that can be placed underwater"
+status = "normal"
 enUS = "Small pile that can be placed underwater"
 zhCN = "可以放置在水下的小堆"
 zhTW = "「可放置於水下的小堆」"
@@ -290,8 +298,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.MediumAquaPile.Lone"]
-status = "normal"
 raw = "Medium Aqua Pile"
+status = "normal"
 enUS = "Medium Aqua Pile"
 zhCN = "中型水堆"
 zhTW = "中型水堆"
@@ -306,8 +314,8 @@ csCZ = "Střední vodní halda"
 viVN = "Cọc Nước Trung Bình"
 
 ["Cadre.MediumAquaPile.Purpose"]
-status = "normal"
 raw = "Medium Pile that can be placed underwater"
+status = "normal"
 enUS = "Medium Pile that can be placed underwater"
 zhCN = "可以放置在水下的中型堆"
 zhTW = "可以放置在水下的中型堆疊"
@@ -338,8 +346,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.BuriedAquaPile.Lone"]
-status = "normal"
 raw = "Buried Aqua Pile"
+status = "normal"
 enUS = "Buried Aqua Pile"
 zhCN = "埋藏的水柱"
 zhTW = "埋藏的水堆"
@@ -354,8 +362,8 @@ csCZ = "Zasypaná vodní hromada"
 viVN = "Đống Nước Chôn"
 
 ["Cadre.BuriedAquaPile.Purpose"]
-status = "normal"
 raw = "Deeper Underground Pile that can be placed underwater"
+status = "normal"
 enUS = "Deeper Underground Pile that can be placed underwater"
 zhCN = "“可以放置在水下的更深地下堆”"
 zhTW = "可以放置在水下的深層地下堆"
@@ -370,8 +378,8 @@ csCZ = "Hloubkový podvodní hromada, která může být umístěna pod vodou"
 viVN = "Chồng chất dưới lòng đất sâu hơn có thể được đặt dưới nước"
 
 ["Cadre.BuriedAquaPile.RandoQuote"]
-status = "normal"
 raw = "Result of the Peace Treaty between the Folktails and the IronTeeth"
+status = "normal"
 enUS = "Result of the Peace Treaty between the Folktails and the IronTeeth"
 zhCN = "“民间尾巴与铁牙之间和平条约的结果”"
 zhTW = "民尾族和鐵牙族之間和平條約的結果"
@@ -386,8 +394,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước Hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.SmallAquaTank.Lone"]
-status = "normal"
 raw = "Small Aqua Tank"
+status = "normal"
 enUS = "Small Aqua Tank"
 zhCN = "小水箱"
 zhTW = "小型水箱"
@@ -402,8 +410,8 @@ csCZ = "Malý vodní tank"
 viVN = "Bể nước nhỏ"
 
 ["Cadre.SmallAquaTank.Purpose"]
-status = "normal"
 raw = "Small Tank that can be placed underwater"
+status = "normal"
 enUS = "Small tank that can be placed underwater."
 zhCN = "可放置在水下的小水箱"
 zhTW = "可以放置在水下的小水箱"
@@ -434,8 +442,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.MediumAquaTank.Lone"]
-status = "normal"
 raw = "Medium Aqua Tank"
+status = "normal"
 enUS = "Medium Aqua Tank"
 zhCN = "中型水箱"
 zhTW = "中型水箱"
@@ -450,8 +458,8 @@ csCZ = "Střední vodní nádrž"
 viVN = "Bể nước trung bình"
 
 ["Cadre.MediumAquaTank.Purpose"]
-status = "normal"
 raw = "Medium Tank that can be placed underwater"
+status = "normal"
 enUS = "Medium Tank that can be placed underwater"
 zhCN = "可以放置在水下的中型水箱"
 zhTW = "可以放置在水下的中型水箱"
@@ -482,8 +490,8 @@ csCZ = "„Výsledek mírové smlouvy mezi Folktails a IronTeeth“"
 viVN = "Kết quả của Hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.LargeAquaTank.Lone"]
-status = "normal"
 raw = "Large Aqua Tank"
+status = "normal"
 enUS = "Large Aqua Tank"
 zhCN = "大型水箱"
 zhTW = "大型水族箱"
@@ -498,8 +506,8 @@ csCZ = "Velká vodní nádrž"
 viVN = "Bồn nước lớn"
 
 ["Cadre.LargeAquaTank.Purpose"]
-status = "normal"
 raw = "Large Tank that can be placed underwater"
+status = "normal"
 enUS = "Large Tank that can be placed underwater"
 zhCN = "“可以放置在水下的大型水箱”"
 zhTW = "可放置在水下的大型水箱"
@@ -530,8 +538,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.SmallAquaWarehouse.Lone"]
-status = "normal"
 raw = "Small Aqua Warehouse"
+status = "normal"
 enUS = "Small Aqua Warehouse"
 zhCN = "小水库"
 zhTW = "小型水庫"
@@ -546,8 +554,8 @@ csCZ = "Malý vodní sklad"
 viVN = "Kho Nước Nhỏ"
 
 ["Cadre.SmallAquaWarehouse.Purpose"]
-status = "normal"
 raw = "Small Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Small Warehouse that can be placed underwater"
 zhCN = "可以放置在水下的小型仓库"
 zhTW = "可以放置在水下的小型倉庫"
@@ -578,8 +586,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước Hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.MediumAquaWarehouse.Lone"]
-status = "normal"
 raw = "Medium Aqua Warehouse"
+status = "normal"
 enUS = "Medium Aqua Warehouse"
 zhCN = "中型水仓"
 zhTW = "中型水庫"
@@ -594,8 +602,8 @@ csCZ = "Střední vodní skladiště"
 viVN = "Kho nước vừa"
 
 ["Cadre.MediumAquaWarehouse.Purpose"]
-status = "normal"
 raw = "Medium Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Medium Warehouse that can be placed underwater"
 zhCN = "可以放置在水下的中型仓库"
 zhTW = "可以放置在水下的中型倉庫"
@@ -626,8 +634,8 @@ csCZ = "„Výsledek mírové dohody mezi Folktails a IronTeeth“"
 viVN = "Kết quả của Hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.LargeAquaWarehouse.Lone"]
-status = "normal"
 raw = "Large Aqua Warehouse"
+status = "normal"
 enUS = "Large Aqua Warehouse"
 zhCN = "大型水仓"
 zhTW = "大型水庫"
@@ -642,8 +650,8 @@ csCZ = "Velké vodní skladiště"
 viVN = "Kho Nước Lớn"
 
 ["Cadre.LargeAquaWarehouse.Purpose"]
-status = "normal"
 raw = "Large Warehouse that can be placed underwater"
+status = "normal"
 enUS = "Large Warehouse that can be placed underwater"
 zhCN = "“可以放置在水下的大型仓库”"
 zhTW = "可放置在水下的大型倉庫"
@@ -674,8 +682,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước Hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.AquaNumberCruncher.Lone"]
-status = "normal"
 raw = "Aqua Number Cruncher (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Number Cruncher (DO NOT BUILD - CRASHES GAME)"
 zhCN = "水数值计算器（请勿建造 - 会崩溃游戏）"
 zhTW = "水壩數據計算器（請勿建造 - 會導致遊戲崩潰）"
@@ -690,8 +698,8 @@ csCZ = "Aqua Number Cruncher (NESTAVĚT - ZPŮSOBUJE PÁD HRY)"
 viVN = "Aqua Number Cruncher (KHÔNG XÂY DỰNG - XẢY RA LỖI TRÒ CHƠI)"
 
 ["Cadre.AquaNumberCruncher.Purpose"]
-status = "normal"
 raw = "Number Cruncher that can be operates better underwater"
+status = "normal"
 enUS = "Number Cruncher that can operate better underwater"
 zhCN = "可以在水下更好操作的数字运算器"
 zhTW = "可以在水下更好運作的數字擠壓機"
@@ -722,8 +730,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của hiệp ước hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.AquaWaterWheel.Lone"]
-status = "normal"
 raw = "Aqua Water Wheel (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Water Wheel (DO NOT BUILD - CRASHES GAME)"
 zhCN = "水轮（不要建造 - 会导致游戏崩溃）"
 zhTW = "水力水車（請勿建造 - 會崩潰遊戲）"
@@ -738,8 +746,8 @@ csCZ = "Aqua Vodní Kolo (NESTAVĚJTE - ZPŮSOBUJE PÁD HRY)"
 viVN = "Bánh xe nước Aqua (KHÔNG XÂY DỰNG - GÂY SẬP GAME)"
 
 ["Cadre.AquaWaterWheel.Purpose"]
-status = "normal"
 raw = "Water Wheel that can be placed underwater"
+status = "normal"
 enUS = "Water Wheel that can be placed underwater"
 zhCN = "可以放置在水下的水轮"
 zhTW = "可以放置在水下的水車"
@@ -770,8 +778,8 @@ csCZ = "Výsledek mírové smlouvy mezi Folktails a IronTeeth"
 viVN = "Kết quả của Hiệp ước Hòa bình giữa Folktails và IronTeeth"
 
 ["Cadre.AquaCompactWaterWheel.Lone"]
-status = "normal"
 raw = "Aqua Compact Water Wheel (DO NOT BUILD - CRASHES GAME)"
+status = "normal"
 enUS = "Aqua Compact Water Wheel (DO NOT BUILD - CRASHES GAME)"
 zhCN = "水源紧凑型水轮 (请勿建造 - 游戏会崩溃)"
 zhTW = "水輪 (請勿建造 - 會導致遊戲崩潰)"
@@ -786,8 +794,8 @@ csCZ = "Aqua Kompaktní Vodní Kolo (NESTAVĚT - ZHAVUJE HRU)"
 viVN = "Bánh Xe Nước Compact Aqua (KHÔNG XÂY DỰNG - GÂY SẬP GAME)"
 
 ["Cadre.AquaCompactWaterWheel.Purpose"]
-status = "normal"
 raw = "Compact Water Wheel that can be placed underCompactWater"
+status = "normal"
 enUS = "Compact Water Wheel that can be placed under Compact Water"
 zhCN = "“可以放置在CompactWater下的紧凑水轮”"
 zhTW = "「可放置於 CompactWater 下方的緊湊水車」"

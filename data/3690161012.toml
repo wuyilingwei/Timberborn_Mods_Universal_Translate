@@ -2,8 +2,8 @@
 name = "Ram (Hydraulic) Pump"
 
 ["LV.RHP.RamPump.Name"]
-status = "normal"
 raw = "Ram Pump"
+status = "normal"
 enUS = "Ram Pump"
 zhCN = "液压泵"
 zhTW = "液壓泵"
@@ -18,8 +18,8 @@ csCZ = "Hydraulické čerpadlo"
 viVN = "Bơm Ram"
 
 ["LV.RHP.RamPump.Desc"]
-status = "normal"
 raw = "Move a portion of the liquid to a higher location without using power."
+status = "normal"
 enUS = "Move a portion of the liquid to a higher location without using power."
 zhCN = "将一部分液体移动到更高的位置，而无需使用电力。"
 zhTW = "將部分液體移動到更高的位置，無需使用電力。"
@@ -34,8 +34,8 @@ csCZ = "Posuňte část kapaliny na vyšší místo bez použití energie."
 viVN = "Di chuyển một phần chất lỏng đến một vị trí cao hơn mà không cần sử dụng năng lượng."
 
 ["LV.RHP.RamPump.Flavor"]
-status = "normal"
 raw = "Powered by patience, pressure, and a bit of wasted water."
+status = "normal"
 enUS = "Powered by patience, pressure, and a bit of wasted water."
 zhCN = "由耐心、压力和一些浪费的水驱动。"
 zhTW = "「由耐心、壓力和一點浪費的水驅動。」"
@@ -50,8 +50,8 @@ csCZ = "Poháněno trpělivostí, tlakem a trochou ztracené vody."
 viVN = "Được cung cấp bởi kiên nhẫn, áp lực và một chút nước thừa."
 
 ["LV.RHP.RamPump.StrengthDesc"]
-status = "normal"
 raw = "<YellowHighlight>Pump Strength:</YellowHighlight> {0:0.0##%}\n(at 1m³/s Current: delivering {0:0.###}m³/s, or {1:0.0} game hours to pump 1m³)"
+status = "normal"
 enUS = "<YellowHighlight>Pump Strength:</YellowHighlight> {0:0.0##%} (at 1m³/s Current: delivering {0:0.###}m³/s, or {1:0.0} game hours to pump 1m³)"
 zhCN = "<YellowHighlight>泵的强度：</YellowHighlight> {0:0.0##%}\n（在每秒1立方米的流量下：提供 {0:0.###}立方米/秒，或者 {1:0.0} 游戏小时抽取1立方米）"
 zhTW = "<YellowHighlight>泵強度：</YellowHighlight> {0:0.0##%}\n(在1m³/s流速下：提供{0:0.###}m³/s，或{1:0.0}遊戲小時抽取1m³)"

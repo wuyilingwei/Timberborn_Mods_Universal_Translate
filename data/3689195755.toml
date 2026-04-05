@@ -2,8 +2,8 @@
 name = "Depth Monitor"
 
 ["Building.DepthMonitor.DisplayName"]
-status = "normal"
 raw = "Depth Monitor"
+status = "normal"
 enUS = "Depth Monitor"
 zhCN = "深度监测器"
 zhTW = "深度監視器"
@@ -18,8 +18,8 @@ csCZ = "Hloubkoměr"
 viVN = "Máy theo dõi độ sâu"
 
 ["Building.DepthMonitor.Description"]
-status = "normal"
 raw = "Measures the water depth and sends an automation signal based on a low and high threshold."
+status = "normal"
 enUS = "Measures the water depth and sends an automation signal based on a low and high threshold."
 zhCN = "测量水深并根据低阈值和高阈值发送自动化信号。"
 zhTW = "測量水位深度，並根據低阈值和高阈值發送自動化信號。"
@@ -34,8 +34,8 @@ csCZ = "Změřuje hloubku vody a posílá automatizační signál na základě n
 viVN = "Đo độ sâu nước và gửi tín hiệu tự động dựa trên ngưỡng thấp và cao."
 
 ["Building.DepthMonitor.TurnOnIf"]
-status = "normal"
 raw = "Turn ON if depth is ≤"
+status = "normal"
 enUS = "Turn ON if depth is ≤"
 zhCN = "当深度 ≤ 时开启"
 zhTW = "如果深度 ≤，則開啟"
@@ -50,8 +50,8 @@ csCZ = "Zapnout, pokud je hloubka ≤"
 viVN = "Bật ON nếu độ sâu ≤"
 
 ["Building.DepthMonitor.TurnOffIf"]
-status = "normal"
 raw = "Turn OFF if depth is ≥"
+status = "normal"
 enUS = "Turn OFF if depth is ≥"
 zhCN = "当深度 ≥ 时关闭"
 zhTW = "當深度 ≥ 時關閉"
