@@ -1,37 +1,29 @@
 [_meta]
 name = "Automation Tools"
 
-["KeyBindingGroup.Calloatti.AutoTools"]
-raw = "Automation Tools"
+["Calloatti.AutoTools.Automation.TabName"]
+raw = "Automation"
 status = "normal"
-enUS = "Automation Tools"
-zhCN = "自动工具"
-zhTW = "自動化工具"
-ruRU = "Автоматизированные инструменты"
-jaJP = "自動化ツール"
-frFR = "Outils d'automatisation"
-deDE = "Automatisierungstools"
-plPL = "Automatyczne narzędzia"
-ptBR = "Ferramentas de Automação"
-koKR = "자동화 도구"
-csCZ = "Automatizované nástroje"
-viVN = "Công cụ tự động"
+enUS = "Automation"
+zhCN = "自动化"
+zhTW = "自動化"
+ruRU = "Автоматизация"
+jaJP = "オートメーション"
+frFR = "Automatisation"
+deDE = "Automatisierung"
+plPL = "Automatyzacja"
+ptBR = "Automação"
+koKR = "자동화"
+csCZ = "Auta"
+viVN = "Tự động hóa"
 
-["Calloatti.AutoTools.KeyBind.Toggle.Map"]
-raw = "Toggle Automation Map"
+["Calloatti.AutoTools.DeviceState"]
+new = "Device State"
 status = "normal"
-enUS = "Toggle Automation Map"
-zhCN = "切换自动化地图"
-zhTW = "切換自動化地圖"
-ruRU = "Переключить карту автоматизации"
-jaJP = "自動化マップを切り替え"
-frFR = "Basculer la carte d'automatisation"
-deDE = "Automatisierungskarten umschalten"
-plPL = "Przełącz mapę automatyzacji"
-ptBR = "Alternar Mapa de Automação"
-koKR = "자동화 지도 전환"
-csCZ = "Přepnout mapu automatizace"
-viVN = "Bật/Tắt Bản đồ Tự động"
+
+["Calloatti.AutoTools.InputTransmitter"]
+new = "Input: {0}"
+status = "normal"
 
 ["Calloatti.AutoTools.KeyBind.AutomationTab"]
 raw = "Open Automation Tab"
@@ -49,18 +41,82 @@ koKR = "자동화 탭 열기"
 csCZ = "Otevřít kartu automatizace"
 viVN = "Mở Tab Tự Động Hóa"
 
-["Calloatti.AutoTools.Automation.TabName"]
-raw = "Automation"
+["Calloatti.AutoTools.KeyBind.Toggle.Map"]
+raw = "Toggle Automation Map"
 status = "normal"
-enUS = "Automation"
-zhCN = "自动化"
-zhTW = "自動化"
-ruRU = "Автоматизация"
-jaJP = "オートメーション"
-frFR = "Automatisation"
-deDE = "Automatisierung"
-plPL = "Automatyzacja"
-ptBR = "Automação"
-koKR = "자동화"
-csCZ = "Auta"
-viVN = "Tự động hóa"
+enUS = "Toggle Automation Map"
+zhCN = "切换自动化地图"
+zhTW = "切換自動化地圖"
+ruRU = "Переключить карту автоматизации"
+jaJP = "自動化マップを切り替え"
+frFR = "Basculer la carte d'automatisation"
+deDE = "Automatisierungskarten umschalten"
+plPL = "Przełącz mapę automatyzacji"
+ptBR = "Alternar Mapa de Automação"
+koKR = "자동화 지도 전환"
+csCZ = "Přepnout mapu automatizace"
+viVN = "Bật/Tắt Bản đồ Tự động"
+
+["Calloatti.AutoTools.MapState.Global"]
+new = "Automation Map: GLOBAL"
+status = "normal"
+
+["Calloatti.AutoTools.MapState.Off"]
+new = "Automation Map: OFF"
+status = "normal"
+
+["Calloatti.AutoTools.MapState.Partition"]
+new = "Automation Map: PARTITION"
+status = "normal"
+
+["Calloatti.AutoTools.MoveConnections.ToolDescription"]
+new = "Select destination building to move connections to."
+status = "normal"
+
+["Calloatti.AutoTools.MoveConnections.Tooltip"]
+new = "Move Connections"
+status = "normal"
+
+["Calloatti.AutoTools.NetworkConflict"]
+new = "Network Conflict / Infinite Loop Detected!"
+status = "normal"
+
+["Calloatti.AutoTools.NetworkIdHeader"]
+new = "Network ID: {0} ({1})"
+status = "normal"
+
+["Calloatti.AutoTools.OutputBroadcast"]
+new = "Output Broadcast"
+status = "normal"
+
+["Calloatti.AutoTools.PartitionInfo"]
+new = "Partition ID: {0} | Items: {1}"
+status = "normal"
+
+["Calloatti.AutoTools.UnknownBuilding"]
+new = "Unknown Building"
+status = "normal"
+
+["Calloatti.AutoTools.Unpartitioned"]
+new = "Unpartitioned"
+status = "normal"
+
+["Calloatti.AutoTools.Usages"]
+new = "Usages"
+status = "normal"
+
+["KeyBindingGroup.Calloatti.AutoTools"]
+raw = "Automation Tools"
+status = "normal"
+enUS = "Automation Tools"
+zhCN = "自动工具"
+zhTW = "自動化工具"
+ruRU = "Автоматизированные инструменты"
+jaJP = "自動化ツール"
+frFR = "Outils d'automatisation"
+deDE = "Automatisierungstools"
+plPL = "Automatyczne narzędzia"
+ptBR = "Ferramentas de Automação"
+koKR = "자동화 도구"
+csCZ = "Automatizované nástroje"
+viVN = "Công cụ tự động"

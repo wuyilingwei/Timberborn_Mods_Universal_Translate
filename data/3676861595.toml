@@ -19,6 +19,7 @@ viVN = "Cây ngẫu nhiên"
 
 ["Calloatti.NaturalResourcesTweaks.ForestTool.Description"]
 raw = "Plants random trees in a random pattern"
+new = "Plants random trees in a random pattern."
 status = "normal"
 enUS = "Plants random trees in a random pattern"
 zhCN = "以随机模式种植随机树木"
@@ -32,6 +33,54 @@ ptBR = "Planta árvores aleatórias em um padrão aleatório"
 koKR = "무작위 패턴으로 무작위 나무를 심습니다."
 csCZ = "Vysazuje náhodné stromy v náhodném uspořádání"
 viVN = "Cây trồng ngẫu nhiên theo một mô hình ngẫu nhiên"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingPatternTool.Title"]
+new = "Cutting Pattern"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingPatternTool.Description"]
+new = "Cycle selection patterns."
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingScopeTool.Title"]
+new = "Selection Scope"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingScopeTool.Description"]
+new = "Toggle Manual vs. Whole Map."
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingLevelTool.Title"]
+new = "Selection Level"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingLevelTool.Description"]
+new = "Toggle Single vs. Multi-Level selection."
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingTreeTypeTool.Title"]
+new = "Tree Type"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.WoodcuttingTreeTypeTool.Description"]
+new = "Toggle All Trees vs. Only Dead Trees."
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.PlantingPatternTool.Title"]
+new = "Planting Pattern"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.PlantingPatternTool.Description"]
+new = "Click to cycle to the next pattern."
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.PlantingReplantTool.Title"]
+new = "Replant Mode"
+status = "normal"
+
+["Calloatti.NaturalResourcesTweaks.PlantingReplantTool.Description"]
+new = "Toggle Replant over existing objects vs Vanilla blocking behavior."
+status = "normal"
 
 ["TreeCuttingSelectionTool.Description"]
 raw = "Use this tool to mark areas where trees will be cut down. Shift/Ctrl/Alt modify selection pattern"

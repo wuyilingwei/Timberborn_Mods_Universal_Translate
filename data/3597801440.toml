@@ -1,168 +1,85 @@
 [_meta]
 name = "Seasons"
 
-["Seasons.Spring"]
-raw = "Spring"
+[Season]
+new = "Season"
 status = "normal"
-enUS = "Spring"
-zhCN = "春天"
-zhTW = "春天"
-ruRU = "Весна"
-jaJP = "春"
-frFR = "Printemps"
-deDE = "Frühling"
-plPL = "Wiosna"
-ptBR = "Primavera"
-koKR = "봄"
-csCZ = "Jaro"
-viVN = "Mùa xuân"
 
-["Seasons.Summer"]
-raw = "Summer"
+["Season.Spring"]
+new = "Spring"
 status = "normal"
-enUS = "Summer"
-zhCN = "夏季"
-zhTW = "夏季"
-ruRU = "Лето"
-jaJP = "夏"
-frFR = "Été"
-deDE = "Sommer"
-plPL = "Lato"
-ptBR = "Verão"
-koKR = "여름"
-csCZ = "Léto"
-viVN = "Mùa hè"
 
-["Seasons.Autumn"]
-raw = "Autumn"
+["Season.Spring.Symbol"]
+new = "🌱"
 status = "normal"
-enUS = "Autumn"
-zhCN = "秋天"
-zhTW = "秋天"
-ruRU = "Осень"
-jaJP = "秋"
-frFR = "Automne"
-deDE = "Herbst"
-plPL = "Jesień"
-ptBR = "Outono"
-koKR = "가을"
-csCZ = "Podzim"
-viVN = "Mùa Thu"
 
-["Seasons.Winter"]
-raw = "Winter"
+["Season.Summer"]
+new = "Summer"
 status = "normal"
-enUS = "Winter"
-zhCN = "冬季"
-zhTW = "冬季"
-ruRU = "Зима"
-jaJP = "冬"
-frFR = "Hiver"
-deDE = "Winter"
-plPL = "Zima"
-ptBR = "Inverno"
-koKR = "겨울"
-csCZ = "Zima"
-viVN = "Mùa đông"
 
-["Grauschweif.Seasons.Effect.GrowthBoost"]
-raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+["Season.Summer.Symbol"]
+new = "☀️"
 status = "normal"
-enUS = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-zhCN = "增长提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-zhTW = "成長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-ruRU = "Увеличение роста: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-jaJP = "成長ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-frFR = "Boost de croissance : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-deDE = "Wachstumssteigerung: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-plPL = "Wzrost plonu: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-ptBR = "Impulso de crescimento: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-koKR = "성장 증가: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-csCZ = "Růstový bonus: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-viVN = "Tăng trưởng: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 
-["Grauschweif.Seasons.Effect.GrowthSlowdown"]
-raw = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+["Season.Autumn"]
+new = "Autumn"
 status = "normal"
-enUS = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-zhCN = "生长减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
-zhTW = "生長減緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
-ruRU = "Замедление роста: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-jaJP = "成長減速: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-frFR = "Ralentissement de la croissance : <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-deDE = "Wachstumsverzögerung: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-plPL = "Spowolnienie wzrostu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-ptBR = "Desaceleração do crescimento: <RedHighlight>🡇</RedHighlight>{0:0.#}%\""
-koKR = "성장 지연: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-csCZ = "Zpomalení růstu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-viVN = "Chậm tăng trưởng: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 
-["Grauschweif.Seasons.Effect.DryingSlowdown"]
-raw = "Drying slowdown: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+["Season.Autumn.Symbol"]
+new = "🍂"
 status = "normal"
-enUS = "Drying slowdown: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-zhCN = "干燥减缓：<GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-zhTW = "乾燥速度減緩: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-ruRU = "Замедление высыхания: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-jaJP = "乾燥遅延: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-frFR = "Ralentissement du séchage : <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-deDE = "Trocknungsverzögerung: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-plPL = "Spowolnienie suszenia: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-ptBR = "Redução na secagem: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-koKR = "건조 속도 감소: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-csCZ = "Zpomalení sušení: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
-viVN = "Giảm tốc độ làm khô: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
 
-["Grauschweif.Seasons.Effect.DryingBoost"]
-raw = "Drying boost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+["Season.Winter"]
+new = "Winter"
 status = "normal"
-enUS = "Drying boost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-zhCN = "干燥增益：<RedHighlight>🡅</RedHighlight>{0:0.#}%"
-zhTW = "乾燥增益：<RedHighlight>🡅</RedHighlight>{0:0.#}%"
-ruRU = "Усиление сушки: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-jaJP = "乾燥ブースト: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-frFR = "Bonus de séchage : <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-deDE = "Trocknungsboost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-plPL = "Wzrost suszenia: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-ptBR = "Aumento de secagem: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-koKR = "건조 증가: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-csCZ = "Zvýšení sušení: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
-viVN = "Tăng tốc độ sấy: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
 
-["Grauschweif.Seasons.Effect.YieldBoost"]
-raw = "Yield growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+["Season.Winter.Symbol"]
+new = "❄️"
 status = "normal"
-enUS = "Yield growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-zhCN = "产量增长提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-zhTW = "產量增長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-ruRU = "Увеличение урожайности: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-jaJP = "収穫量増加ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-frFR = "Augmentation de la croissance des rendements : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-deDE = "Ertragswachstumsboost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-plPL = "Wzrost plonów: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-ptBR = "Aumento de crescimento da produção: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-koKR = "수확량 성장 증가: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-csCZ = "Zvýšení výnosu: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
-viVN = "Tăng trưởng sản lượng: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 
-["Grauschweif.Seasons.Effect.YieldSlowdown"]
-raw = "Yield growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+["Grauschweif.Seasons.TooltipHeader"]
+new = "<b>{0}</b> (year {1} day {2})"
 status = "normal"
-enUS = "Yield growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-zhCN = "产量增长减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
-zhTW = "產量增長減緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
-ruRU = "Замедление роста урожая: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-jaJP = "収穫成長の減速: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-frFR = "Ralentissement de la croissance des rendements : <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-deDE = "Ertragswachstumsverlangsamung: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-plPL = "Spowolnienie wzrostu plonów: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-ptBR = "Atraso no crescimento da produção: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-koKR = "수확 성장 둔화: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-csCZ = "Zpomalení růstu výnosu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
-viVN = "Giảm tốc tăng trưởng lợi suất: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.TooltipNextSeason"]
+new = "Next season in {0} days."
+status = "normal"
+
+["Grauschweif.Seasons.Effect.PlantEffectsHeader"]
+new = "<u>Plants</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.GrowthBoost"]
+new = "Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.GrowthSlowdown"]
+new = "Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.DryingSlowdown"]
+new = "Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.DryingBoost"]
+new = "Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.YieldBoost"]
+new = "Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.YieldSlowdown"]
+new = "Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceEffectsHeader"]
+new = "<u>Water</u>"
+status = "normal"
 
 ["Grauschweif.Seasons.Effect.WaterSourceStrengthBoost"]
 raw = "Strength boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+new = "Strength up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 status = "normal"
 enUS = "Strength boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 zhCN = "强度提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
@@ -179,6 +96,7 @@ viVN = "Tăng sức mạnh: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 
 ["Grauschweif.Seasons.Effect.WaterSourceStrengthSlowdown"]
 raw = "Strength slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+new = "Strength down <RedHighlight>{0:0.#}%▼</RedHighlight>"
 status = "normal"
 enUS = "Strength slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 zhCN = "强度减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
@@ -195,6 +113,7 @@ viVN = "Giảm sức mạnh: <RedHighlight>🡇</RedHighlight>{0:0.#}%)"
 
 ["Grauschweif.Seasons.Effect.WaterSourceContaminationBoost"]
 raw = "Contamination: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+new = "Contamination up <RedHighlight>{0:0.#}%▲</RedHighlight>"
 status = "normal"
 enUS = "Contamination: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
 zhCN = "污染：<RedHighlight>🡅</RedHighlight>{0:0.#}%"
@@ -211,6 +130,7 @@ viVN = "Ô nhiễm: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
 
 ["Grauschweif.Seasons.Effect.WaterSourceContaminationSlowdown"]
 raw = "Contamination: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+new = "Contamination down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 status = "normal"
 enUS = "Contamination: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
 zhCN = "污染: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
@@ -225,8 +145,13 @@ koKR = "오염: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
 csCZ = "Znečištění: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
 viVN = "Ô nhiễm: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
 
+["Grauschweif.Seasons.Effect.NeedEffectsHeader"]
+new = "<u>Needs</u>"
+status = "normal"
+
 ["Grauschweif.Seasons.Effect.NeedChangeBoost"]
 raw = "<GreenHighlight>+{0:0.#}</GreenHighlight> per day"
+new = "{1} down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 status = "normal"
 enUS = "<GreenHighlight>+{0:0.#}</GreenHighlight> per day"
 zhCN = "<GreenHighlight>+{0:0.#}</GreenHighlight> 每天"
@@ -243,6 +168,7 @@ viVN = "<GreenHighlight>+{0:0.#}</GreenHighlight> mỗi ngày"
 
 ["Grauschweif.Seasons.Effect.NeedChangeSlowdown"]
 raw = "<RedHighlight>{0:0.#}</RedHighlight> per day"
+new = "{1} up <RedHighlight>{0:0.#}%▲</RedHighlight>"
 status = "normal"
 enUS = "<RedHighlight>{0:0.#}</RedHighlight> per day"
 zhCN = "“<RedHighlight>{0:0.#}</RedHighlight> 每天”"
@@ -256,6 +182,18 @@ ptBR = "<RedHighlight>{0:0.#}</RedHighlight> por dia"
 koKR = "<RedHighlight>{0:0.#}</RedHighlight> 매일"
 csCZ = "<RedHighlight>{0:0.#}</RedHighlight> za den"
 viVN = "<RedHighlight>{0:0.#}</RedHighlight> mỗi ngày"
+
+["Grauschweif.Seasons.Effect.BonusEffectsHeader"]
+new = "<u>Boni</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.BonusChangeBoost"]
+new = "{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.BonusChangeSlowdown"]
+new = "{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>"
+status = "normal"
 
 ["Grauschweif.Season.Weather.Badtide.Autumn"]
 raw = "Badtide"
@@ -592,3 +530,163 @@ ptBR = "Temperado"
 koKR = "온대"
 csCZ = "Mírný"
 viVN = "Ôn đới"
+
+["Seasons.Spring"]
+raw = "Spring"
+status = "abandoned"
+enUS = "Spring"
+zhCN = "春天"
+zhTW = "春天"
+ruRU = "Весна"
+jaJP = "春"
+frFR = "Printemps"
+deDE = "Frühling"
+plPL = "Wiosna"
+ptBR = "Primavera"
+koKR = "봄"
+csCZ = "Jaro"
+viVN = "Mùa xuân"
+
+["Seasons.Summer"]
+raw = "Summer"
+status = "abandoned"
+enUS = "Summer"
+zhCN = "夏季"
+zhTW = "夏季"
+ruRU = "Лето"
+jaJP = "夏"
+frFR = "Été"
+deDE = "Sommer"
+plPL = "Lato"
+ptBR = "Verão"
+koKR = "여름"
+csCZ = "Léto"
+viVN = "Mùa hè"
+
+["Seasons.Autumn"]
+raw = "Autumn"
+status = "abandoned"
+enUS = "Autumn"
+zhCN = "秋天"
+zhTW = "秋天"
+ruRU = "Осень"
+jaJP = "秋"
+frFR = "Automne"
+deDE = "Herbst"
+plPL = "Jesień"
+ptBR = "Outono"
+koKR = "가을"
+csCZ = "Podzim"
+viVN = "Mùa Thu"
+
+["Seasons.Winter"]
+raw = "Winter"
+status = "abandoned"
+enUS = "Winter"
+zhCN = "冬季"
+zhTW = "冬季"
+ruRU = "Зима"
+jaJP = "冬"
+frFR = "Hiver"
+deDE = "Winter"
+plPL = "Zima"
+ptBR = "Inverno"
+koKR = "겨울"
+csCZ = "Zima"
+viVN = "Mùa đông"
+
+["Grauschweif.Seasons.Effect.GrowthBoost"]
+raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+zhCN = "增长提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+zhTW = "成長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+ruRU = "Увеличение роста: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+jaJP = "成長ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+frFR = "Boost de croissance : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+deDE = "Wachstumssteigerung: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+plPL = "Wzrost plonu: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+ptBR = "Impulso de crescimento: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+koKR = "성장 증가: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+csCZ = "Růstový bonus: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+viVN = "Tăng trưởng: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.Effect.GrowthSlowdown"]
+raw = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+zhCN = "生长减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+zhTW = "生長減緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+ruRU = "Замедление роста: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+jaJP = "成長減速: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+frFR = "Ralentissement de la croissance : <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+deDE = "Wachstumsverzögerung: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+plPL = "Spowolnienie wzrostu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+ptBR = "Desaceleração do crescimento: <RedHighlight>🡇</RedHighlight>{0:0.#}%\""
+koKR = "성장 지연: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+csCZ = "Zpomalení růstu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+viVN = "Chậm tăng trưởng: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.Effect.DryingSlowdown"]
+raw = "Drying slowdown: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Drying slowdown: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+zhCN = "干燥减缓：<GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+zhTW = "乾燥速度減緩: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+ruRU = "Замедление высыхания: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+jaJP = "乾燥遅延: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+frFR = "Ralentissement du séchage : <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+deDE = "Trocknungsverzögerung: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+plPL = "Spowolnienie suszenia: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+ptBR = "Redução na secagem: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+koKR = "건조 속도 감소: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+csCZ = "Zpomalení sušení: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+viVN = "Giảm tốc độ làm khô: <GreenHighlight>🡇</GreenHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.Effect.DryingBoost"]
+raw = "Drying boost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Drying boost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+zhCN = "干燥增益：<RedHighlight>🡅</RedHighlight>{0:0.#}%"
+zhTW = "乾燥增益：<RedHighlight>🡅</RedHighlight>{0:0.#}%"
+ruRU = "Усиление сушки: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+jaJP = "乾燥ブースト: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+frFR = "Bonus de séchage : <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+deDE = "Trocknungsboost: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+plPL = "Wzrost suszenia: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+ptBR = "Aumento de secagem: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+koKR = "건조 증가: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+csCZ = "Zvýšení sušení: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+viVN = "Tăng tốc độ sấy: <RedHighlight>🡅</RedHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.Effect.YieldBoost"]
+raw = "Yield growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Yield growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+zhCN = "产量增长提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+zhTW = "產量增長提升：<GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+ruRU = "Увеличение урожайности: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+jaJP = "収穫量増加ブースト: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+frFR = "Augmentation de la croissance des rendements : <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+deDE = "Ertragswachstumsboost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+plPL = "Wzrost plonów: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+ptBR = "Aumento de crescimento da produção: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+koKR = "수확량 성장 증가: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+csCZ = "Zvýšení výnosu: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+viVN = "Tăng trưởng sản lượng: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
+
+["Grauschweif.Seasons.Effect.YieldSlowdown"]
+raw = "Yield growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+status = "abandoned"
+enUS = "Yield growth slowdown: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+zhCN = "产量增长减缓：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+zhTW = "產量增長減緩：<RedHighlight>🡇</RedHighlight>{0:0.#}%"
+ruRU = "Замедление роста урожая: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+jaJP = "収穫成長の減速: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+frFR = "Ralentissement de la croissance des rendements : <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+deDE = "Ertragswachstumsverlangsamung: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+plPL = "Spowolnienie wzrostu plonów: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+ptBR = "Atraso no crescimento da produção: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+koKR = "수확 성장 둔화: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+csCZ = "Zpomalení růstu výnosu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
+viVN = "Giảm tốc tăng trưởng lợi suất: <RedHighlight>🡇</RedHighlight>{0:0.#}%"

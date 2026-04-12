@@ -2,8 +2,8 @@
 name = "Small River"
 
 ["SmallRiver.RaftCastoff.Description"]
-status = "normal"
 raw = "A logistics castoff that handles outgoing rafts."
+status = "normal"
 enUS = "A logistics castoff that handles outgoing rafts."
 zhCN = "“一个处理出港木筏的物流放弃物。”"
 zhTW = "一個處理外發木筏的物流裝置。"
@@ -18,8 +18,8 @@ csCZ = "Logistický odpad, který se stará o odchozí vore."
 viVN = "Một đơn vị logistics xử lý các chiếc bè xuất phát."
 
 ["SmallRiver.RaftCastoff.Dispatches"]
-status = "normal"
 raw = "Dispatches:"
+status = "normal"
 enUS = "Dispatches:"
 zhCN = "“派遣：”"
 zhTW = "派遣："
@@ -34,8 +34,8 @@ csCZ = "Zprávy:"
 viVN = "Thông báo:"
 
 ["SmallRiver.RaftCastoff.DisplayName"]
-status = "normal"
 raw = "Raft Castoff"
+status = "normal"
 enUS = "Raft Castoff"
 zhCN = "小船脱离"
 zhTW = "木筏脫離"
@@ -50,8 +50,8 @@ csCZ = "Odhozený vor"
 viVN = "Thuyền Rời Bến"
 
 ["SmallRiver.RaftCastoff.FlavorDescription"]
-status = "normal"
 raw = "Go with the flow."
+status = "normal"
 enUS = "Go with the flow."
 zhCN = "随波逐流。"
 zhTW = "隨波逐流。"
@@ -66,8 +66,8 @@ csCZ = "Jdi s proudem."
 viVN = "Đi theo dòng chảy."
 
 ["SmallRiver.RaftCastoff.RemoveDispatchConfirmation"]
-status = "normal"
 raw = "Are you sure you want to delete this dispatch?"
+status = "normal"
 enUS = "Are you sure you want to delete this dispatch?"
 zhCN = "您确定要删除此调度吗？"
 zhTW = "您確定要刪除此派遣嗎？"
@@ -82,8 +82,8 @@ csCZ = "Opravdu chcete smazat tuto zásilku?"
 viVN = "Bạn có chắc chắn muốn xóa lệnh điều động này không?"
 
 ["SmallRiver.RaftCatch.Description"]
-status = "normal"
 raw = "A logistics catch that handles incoming rafts."
+status = "normal"
 enUS = "A logistics catch that handles incoming rafts."
 zhCN = "处理来袭木筏的物流捕捉装置。"
 zhTW = "一個處理來船的物流裝置。"
@@ -98,8 +98,8 @@ csCZ = "Logistická stanice, která zpracovává příchozí vorové."
 viVN = "Một điểm tiếp nhận logistics xử lý các chiếc bè đến."
 
 ["SmallRiver.RaftCatch.DisplayName"]
-status = "normal"
 raw = "Raft Catch"
+status = "normal"
 enUS = "Raft Catch"
 zhCN = "筏子捕捉"
 zhTW = "筏子捕捉"
@@ -114,8 +114,8 @@ csCZ = "Záchyt povodní"
 viVN = "Bắt Thuyền"
 
 ["SmallRiver.RaftCatch.FlavorDescription"]
-status = "normal"
 raw = "Look what the raft dragged in."
+status = "normal"
 enUS = "Look what the raft dragged in."
 zhCN = "“看看这只筏子拖来了什么。”"
 zhTW = "「看看這木筏拖進來了什麼。」"
@@ -128,3 +128,15 @@ ptBR = "Olha o que a jangada trouxe."
 koKR = "뗏목이 끌어온 것을 봐."
 csCZ = "Podívej se, co přivlekla holen."
 viVN = "Nhìn xem chiếc bè đã kéo vào cái gì."
+
+["SmallRiver.Weir.Description"]
+new = "Blocks water but allows some and your rafts to pass over."
+status = "normal"
+
+["SmallRiver.Weir.DisplayName"]
+new = "Weir"
+status = "normal"
+
+["SmallRiver.Weir.FlavorDescription"]
+new = "Many rafts make a weir, don’t add yours."
+status = "normal"

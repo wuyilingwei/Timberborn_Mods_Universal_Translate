@@ -33,6 +33,14 @@ koKR = "<b>복사할 대상:</b>"
 csCZ = "<b>Kopírované cíle:</b>"
 viVN = "<b>Đang sao chép các mục tiêu:</b>"
 
+["LV.PC.CopyTargets_All"]
+new = "Any object"
+status = "normal"
+
+["LV.PC.CopyTargets_SameType"]
+new = "{0} only"
+status = "normal"
+
 ["LV.PC.CopyLocations"]
 raw = "<b>Copying locations:</b>"
 status = "normal"
@@ -48,6 +56,26 @@ ptBR = "<b>Copiando locais:</b>"
 koKR = "<b>위치 복사 중:</b>"
 csCZ = "<b>Kopírování lokalit:</b>"
 viVN = "<b>Đang sao chép các vị trí:</b>"
+
+["LV.PC.CopyLocations_Anywhere"]
+new = "Anywhere ({0})"
+status = "normal"
+
+["LV.PC.CopyLocations_NoDistrict"]
+new = "No district"
+status = "normal"
+
+["LV.PC.CopyLocations_District"]
+new = "In district {1} ({0})"
+status = "normal"
+
+["LV.PC.CopyLocations_Area"]
+new = "Select an area"
+status = "normal"
+
+["LV.PC.CopyLocations_List"]
+new = "Select from the list"
+status = "normal"
 
 ["LV.PC.CopyConfirm"]
 raw = "Are you sure you want to copy the settings to {0} objects?"
@@ -112,6 +140,26 @@ ptBR = "Executando"
 koKR = "작동 중"
 csCZ = "Běží"
 viVN = "Đang chạy"
+
+["LV.PC.Priority_VeryLow"]
+new = "Very Low"
+status = "normal"
+
+["LV.PC.Priority_Low"]
+new = "Low"
+status = "normal"
+
+["LV.PC.Priority_Normal"]
+new = "Normal"
+status = "normal"
+
+["LV.PC.Priority_High"]
+new = "High"
+status = "normal"
+
+["LV.PC.Priority_VeryHigh"]
+new = "Very High"
+status = "normal"
 
 ["LV.PC.PowerCopyTitle"]
 raw = "Power Copy"
@@ -208,3 +256,7 @@ ptBR = "Selecionar/Desmarcar Todos"
 koKR = "전체 선택/해제"
 csCZ = "Zrušit/označit vše"
 viVN = "Bỏ chọn tất cả / Chọn tất cả"
+
+[Name_PowerCopyFragment]
+new = "Power Copy"
+status = "normal"

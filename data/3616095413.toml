@@ -1,6 +1,30 @@
 [_meta]
 name = "TImprove 4 Achievements"
 
+["LV.T4A.Filter"]
+new = "Filter:"
+status = "normal"
+
+["LV.T4A.FilterUnlocked"]
+new = "Unlocked"
+status = "normal"
+
+["LV.T4A.FilterLocked"]
+new = "Locked"
+status = "normal"
+
+["LV.T4A.ClearUnlocked"]
+new = "Clear unlocked achievements"
+status = "normal"
+
+["LV.T4A.ClearUnlockedConfirm"]
+new = "Are you sure you want to clear all unlocked achievements? This cannot be undone."
+status = "normal"
+
+["LV.T4A.ClearDone"]
+new = "Achievements cleared, please restart the game to ensure all changes take effect."
+status = "normal"
+
 ["LV.T4A.AchievementsHelper"]
 raw = "Achivements Helper"
 status = "normal"
