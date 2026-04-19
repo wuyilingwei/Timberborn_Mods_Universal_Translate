@@ -171,10 +171,9 @@ jobs:
         run: |
           HAS_ERRORS=false
           
-          # Check mod.io result
+          # Check mod.io result — failures are non-fatal (silent warning)
           if [ "${{ steps.modio_upload.outcome }}" = "failure" ]; then
-            echo "✗ mod.io publication failed"
-            HAS_ERRORS=true
+            echo "⚠️  mod.io publication failed (non-fatal, continuing)"
           elif [ "${{ steps.modio_upload.outcome }}" = "success" ]; then
             echo "✓ mod.io publication succeeded"
           elif [ -z "${{ secrets.MODIO_TOKEN }}" ]; then

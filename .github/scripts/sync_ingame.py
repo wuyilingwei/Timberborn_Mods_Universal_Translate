@@ -33,6 +33,28 @@ from typing import Dict, List, Optional, Tuple
 import toml
 
 
+def _normalize_whitespace(text: str) -> str:
+    """Replace non-breaking spaces (U+00A0) with regular spaces.
+
+    The Python ``toml`` library cannot round-trip \\xa0 correctly: it
+    serialises the character as literal ``xa0`` text, which then reads
+    back as a different string.  Normalising to ASCII space before
+    storage prevents an infinite sync→translate loop.
+
+    This also repairs the *corrupted* form (literal 3-char ``xa0``)
+    that earlier buggy serialisations left in existing TOML files.
+    """
+    if not text:
+        return text
+    # Fix actual non-breaking space character (U+00A0)
+    text = text.replace("\xa0", " ")
+    # Fix corrupted literal "xa0" left by the toml library bug.
+    # The toml lib writes \xa0 as the three ASCII chars 'x','a','0'.
+    # This sequence never appears in legitimate game localisation text.
+    text = text.replace("xa0", " ")
+    return text
+
+
 # Mapping: raw filename → (toml filename, meta name)
 RAW_TO_INGAME: Dict[str, Tuple[str, str]] = {
     "enUS.txt":              ("_ingame.toml",       "Timberborn Ingame"),
@@ -118,6 +140,10 @@ def sync_one_file(
     added = updated = unchanged = 0
 
     for entry_id, text, comment in raw_entries:
+        # Normalise non-breaking spaces so the toml library round-trip
+        # bug (\xa0 → literal "xa0") never triggers a false mismatch.
+        text = _normalize_whitespace(text)
+
         if entry_id not in data:
             # Brand-new entry — add with raw = text so translate step picks it up
             entry: Dict = {
@@ -131,7 +157,13 @@ def sync_one_file(
             logger.debug(f"  + added: {entry_id}")
         else:
             existing = data[entry_id]
-            existing_raw = existing.get("raw", "")
+            existing_raw = _normalize_whitespace(existing.get("raw", ""))
+
+            # Fix pre-existing corrupted raw values (literal "xa0" from
+            # earlier toml.dumps bug).  Overwrite with normalised text so
+            # the comparison below sees them as equal.
+            if existing_raw != existing.get("raw", ""):
+                existing["raw"] = existing_raw
 
             # Keep prompt in sync with upstream comment
             if comment:
