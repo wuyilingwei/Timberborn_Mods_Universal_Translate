@@ -1,0 +1,90 @@
+[_meta]
+name = "Damn Dam Degradation [ModContest1]"
+
+["DDD.DamIntegrity"]
+new = "Dam Integrity"
+status = "normal"
+
+["DDD.Repair"]
+new = "Repair"
+status = "normal"
+
+["DDD.Repair.Pending"]
+new = "Request Repair"
+status = "normal"
+
+["DDD.Repair.Cancel"]
+new = "Cancel Repair"
+status = "normal"
+
+["DDD.Repair.Reserved"]
+new = "Repair in progress"
+status = "normal"
+
+["DDD.Status.Warning"]
+new = "Dam needs maintenance"
+status = "normal"
+
+["DDD.Status.Critical"]
+new = "Dam is failing"
+status = "normal"
+
+["DDD.Status.Critical.Short"]
+new = "Failing dam"
+status = "normal"
+
+["DDD.Notification.Breach"]
+new = "A dam has breached!"
+status = "normal"
+
+["DDD.Settings.Header"]
+new = "Damn Dam Degradation"
+status = "normal"
+
+["DDD.Settings.DegradationEnabled"]
+new = "Enable degradation"
+status = "normal"
+
+["DDD.Settings.DegradationEnabled.Tooltip"]
+new = "When off the mod still loads but no dam takes wear damage. Useful for save-game testing."
+status = "normal"
+
+["DDD.Settings.GlobalWearPercent"]
+new = "Wear speed (%)"
+status = "normal"
+
+["DDD.Settings.GlobalWearPercent.Tooltip"]
+new = "Multiplier applied on top of every block's per-spec wear rate. 100% = default; lower = dams last longer."
+status = "normal"
+
+["DDD.Settings.RandomVariancePercent"]
+new = "Random variance (%)"
+status = "normal"
+
+["DDD.Settings.RandomVariancePercent.Tooltip"]
+new = "Per-tick random spread around the computed wear. 0 = deterministic; higher = noisier failures."
+status = "normal"
+
+["DDD.Settings.RepairTimeInHours"]
+new = "Repair time (in-game hours)"
+status = "normal"
+
+["DDD.Settings.RepairTimeInHours.Tooltip"]
+new = "How many in-game hours a beaver spends per repair before productivity multipliers (Inventor and friends still apply on top)."
+status = "normal"
+
+["DDD.Settings.RepairCostInPlanks"]
+new = "Repair cost (planks)"
+status = "normal"
+
+["DDD.Settings.RepairCostInPlanks.Tooltip"]
+new = "Reserved for a future material-cost variant. The current executor ignores this value."
+status = "normal"
+
+["DDD.Settings.AllowInstantRepair"]
+new = "Instant repair button (debug)"
+status = "normal"
+
+["DDD.Settings.AllowInstantRepair.Tooltip"]
+new = "When on"
+status = "normal"

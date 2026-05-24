@@ -497,38 +497,6 @@ koKR = "가지 다리"
 csCZ = "Most z větví"
 viVN = "Cầu Nhánh"
 
-["Building.Branch.Entrance.DisplayName"]
-raw = "Branch Entrance"
-status = "normal"
-enUS = "Branch Entrance"
-zhCN = "入口杈道"
-zhTW = "枝幹入口"
-ruRU = "Вход в филиал"
-jaJP = "枝の入口"
-frFR = "Entrée de la Branche"
-deDE = "Zweiganlage"
-plPL = "Wjazd na gałąź"
-ptBR = "Entrada da Ramificação"
-koKR = "가지 입구"
-csCZ = "Vstup do větve"
-viVN = "Lối vào nhánh"
-
-["Building.Branch.Entrance.Description"]
-raw = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
-status = "normal"
-enUS = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
-zhCN = "可以与道路连接，互相通行。"
-zhTW = "一個帶有道路連接的樹枝部分。這允許海狸在道路和樹枝之間通行。"
-ruRU = "Часть ветки с соединением с дорогой. Это позволяет бобрам перемещаться между дорогами и ветками."
-jaJP = "「道との接続を持つブランチピースです。これによりビーバーは道とブランチの間を通ることができます。」"
-frFR = "Une pièce Branche avec une connexion de Chemin. Cela permet aux castors de passer entre les Chemins et les Branches."
-deDE = "Ein Aststück mit einem Pfadanschluss. Dies ermöglicht es Bibern, zwischen Pfaden und Ästen zu wechseln."
-plPL = "Fragment gałęzi z połączeniem ścieżki. Umożliwia bobrom przechodzenie między ścieżkami a gałęziami."
-ptBR = "Uma peça de Ramificação com uma conexão de Caminho. Isso permite que os castores se movimentem entre Caminhos e Ramificações."
-koKR = "지점 연결이 있는 가지 조각입니다. 이렇게 하면 비버들이 경로와 가지 사이를 통과할 수 있습니다."
-csCZ = "Účelový kus větve se spojením na stezku. To umožňuje bobrům přecházet mezi stezkami a větvemi."
-viVN = "Một mảnh Nhánh có kết nối với Đường đi. Điều này cho phép hải ly đi giữa Đường đi và Nhánh."
-
 ["Building.TreeTrunk.Side.DisplayName"]
 raw = "Treetrunk Side Block"
 status = "normal"
@@ -2194,8 +2162,8 @@ csCZ = "Chata sběrače"
 viVN = "Lều Người Thu thập"
 
 ["Building.SeepCover.DisplayName"]
-status = "normal"
 raw = "Seep Cover"
+status = "normal"
 enUS = "Seep Cover"
 zhCN = "渗透覆盖"
 zhTW = "滲透蓋"
@@ -2210,8 +2178,8 @@ csCZ = "Pokrytí odtoku"
 viVN = "Bộ Che Đậy"
 
 ["Building.SeepCover.Description"]
-status = "normal"
 raw = "A cover that can built on top of a Water Seep or Bad Water Seep to seal it. Can be opened or closed at will."
+status = "normal"
 enUS = "A cover that can be built on top of a Water Seep or Bad Water Seep to seal it. Can be opened or closed at will."
 zhCN = "“一个可以建在水渗或污水渗上方的盖子，用以封闭它。可以随意打开或关闭。”"
 zhTW = "可以建造在水滲透或污水滲透上方的蓋子，以密封它。可以隨意開啟或關閉。"
@@ -2226,8 +2194,8 @@ csCZ = "Pokrytí, které lze postavit na vrch vodního prosaku nebo špatného v
 viVN = "Một tấm che có thể được xây trên một Chỗ thấm nước hoặc Chỗ thấm nước bẩn để bịt lại. Có thể mở hoặc đóng theo ý muốn."
 
 ["Building.BadwaterSeepRig.DisplayName"]
-status = "normal"
 raw = "Badwater Seep Rig"
+status = "normal"
 enUS = "Badwater Seep Rig"
 zhCN = "坏水渗透设备"
 zhTW = "壞水滲漏裝置"
@@ -2242,8 +2210,8 @@ csCZ = "Zařízení na odvodnění špatné vody"
 viVN = "Giàn khoan Badwater Seep"
 
 ["Building.BadwaterSeepRig.Description"]
-status = "normal"
 raw = "Seals a Badwater Seep. Employs workers who extract badwater directly from the source."
+status = "normal"
 enUS = "Seals a Badwater Seep. Employs workers who extract badwater directly from the source."
 zhCN = "封闭一个污染水源。雇用工人直接从源头提取污染水。"
 zhTW = "封閉壞水出水口。雇用工人直接從源頭提取壞水。"
@@ -2256,3 +2224,75 @@ ptBR = "Selos uma Fonte de Água Ruim. Emprega trabalhadores que extraem água r
 koKR = "불량수 침출을 봉인합니다. 근로자를 고용하여 원천에서 불량수를 직접 추출합니다."
 csCZ = "Ucpává vývěr špatné vody. Zaměstnává dělníky, kteří těží špatnou vodu přímo ze zdroje."
 viVN = "Niêm phong một nguồn nước xấu. Tuyển dụng công nhân khai thác nước xấu trực tiếp từ nguồn."
+
+["Building.TreeTrunk.Overhang1x2.DisplayName"]
+new = "Treetrunk Overhang 1x2"
+status = "normal"
+
+["Building.TreeTrunk.Overhang1x3.DisplayName"]
+new = "Treetrunk Overhang 1x3"
+status = "normal"
+
+["Building.TreeTrunk.Overhang1x2.Corner.DisplayName"]
+new = "Treetrunk Corner Overhang 1x2"
+status = "normal"
+
+["Building.TreeTrunk.Overhang1x3.Corner.DisplayName"]
+new = "Treetrunk Corner Overhang 1x3"
+status = "normal"
+
+["Building.TreeTrunk.Overhang2x2.Corner.DisplayName"]
+new = "Treetrunk Corner Overhang 2x2"
+status = "normal"
+
+["Building.TreeTrunk.Overhang2x3.Corner.DisplayName"]
+new = "Treetrunk Corner Overhang 2x3"
+status = "normal"
+
+["Building.TreeTrunk.Overhang3x3.Corner.DisplayName"]
+new = "Treetrunk Corner Overhang 3x3"
+status = "normal"
+
+["Building.Branch.Platform.DisplayName"]
+new = "Branch Platform"
+status = "normal"
+
+["Building.Branch.Platform.Double.DisplayName"]
+new = "Branch Double Platform"
+status = "normal"
+
+["Building.Branch.Bridge.Stairs.DisplayName"]
+new = "Branch Stairs"
+status = "normal"
+
+["Building.Branch.Entrance.DisplayName"]
+raw = "Branch Entrance"
+status = "abandoned"
+enUS = "Branch Entrance"
+zhCN = "入口杈道"
+zhTW = "枝幹入口"
+ruRU = "Вход в филиал"
+jaJP = "枝の入口"
+frFR = "Entrée de la Branche"
+deDE = "Zweiganlage"
+plPL = "Wjazd na gałąź"
+ptBR = "Entrada da Ramificação"
+koKR = "가지 입구"
+csCZ = "Vstup do větve"
+viVN = "Lối vào nhánh"
+
+["Building.Branch.Entrance.Description"]
+raw = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
+status = "abandoned"
+enUS = "A Branch piece with a Path connection. This allows beavers to pass between Paths and Branches."
+zhCN = "可以与道路连接，互相通行。"
+zhTW = "一個帶有道路連接的樹枝部分。這允許海狸在道路和樹枝之間通行。"
+ruRU = "Часть ветки с соединением с дорогой. Это позволяет бобрам перемещаться между дорогами и ветками."
+jaJP = "「道との接続を持つブランチピースです。これによりビーバーは道とブランチの間を通ることができます。」"
+frFR = "Une pièce Branche avec une connexion de Chemin. Cela permet aux castors de passer entre les Chemins et les Branches."
+deDE = "Ein Aststück mit einem Pfadanschluss. Dies ermöglicht es Bibern, zwischen Pfaden und Ästen zu wechseln."
+plPL = "Fragment gałęzi z połączeniem ścieżki. Umożliwia bobrom przechodzenie między ścieżkami a gałęziami."
+ptBR = "Uma peça de Ramificação com uma conexão de Caminho. Isso permite que os castores se movimentem entre Caminhos e Ramificações."
+koKR = "지점 연결이 있는 가지 조각입니다. 이렇게 하면 비버들이 경로와 가지 사이를 통과할 수 있습니다."
+csCZ = "Účelový kus větve se spojením na stezku. To umožňuje bobrům přecházet mezi stezkami a větvemi."
+viVN = "Một mảnh Nhánh có kết nối với Đường đi. Điều này cho phép hải ly đi giữa Đường đi và Nhánh."

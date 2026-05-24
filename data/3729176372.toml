@@ -1,0 +1,26 @@
+[_meta]
+name = "More HTTP API"
+
+["LV.MHA.AutoStart"]
+new = "Auto-start"
+status = "normal"
+
+["LV.MHA.AutoStartDesc"]
+new = "Automatically start the API server when loading the game.\nYou do not need a HTTP Adapter building if you enable this option."
+status = "normal"
+
+["LV.MHA.AutoStartPort"]
+new = "Auto-start Port"
+status = "normal"
+
+["LV.MHA.AutoStartPortDesc"]
+new = "The port used for auto-starting the API server."
+status = "normal"
+
+["LV.MHA.Authentication"]
+new = "Authentication"
+status = "normal"
+
+["LV.MHA.AuthenticationDesc"]
+new = "Enable authentication for the API server. You will need to provide a password to access the API endpoints.\nLeave empty to disable.\n<RedHighlight>Note: only apply to endpoints provided using MoreHttpApi.</RedHighlight>"
+status = "normal"

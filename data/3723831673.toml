@@ -1,0 +1,50 @@
+[_meta]
+name = "Building Mover [ModContest1]"
+
+["BuildingMover.MoveButton"]
+new = "Move"
+status = "normal"
+
+["BuildingMover.MoveTooltip"]
+new = "Pick up this building and place it elsewhere"
+status = "normal"
+
+["BuildingMover.ToolDescription"]
+new = "Click a tile to drop the building. Right-click or Esc to cancel."
+status = "normal"
+
+["BuildingMover.MoveObject"]
+new = "Move building"
+status = "normal"
+
+["BuildingMover.MoveCostPercent"]
+new = "Move cost (%)"
+status = "normal"
+
+["BuildingMover.MoveCostPercentTooltip"]
+new = "Percentage of the building's build materials charged for each move. 0 means free. Materials are drawn from public stockpiles in the source's district first, then from nearer districts."
+status = "normal"
+
+["BuildingMover.Zipline.ConnectionsWillBreak"]
+new = "These zipline connections will break:"
+status = "normal"
+
+["BuildingMover.Zipline.AllConnectionsKept"]
+new = "All zipline connections will be kept"
+status = "normal"
+
+["BuildingMover.Zipline.TooFar"]
+new = "Too far ({0}/{1} tiles)"
+status = "normal"
+
+["BuildingMover.Zipline.TooSteep"]
+new = "Too steep ({0}°/{1}°)"
+status = "normal"
+
+["BuildingMover.Zipline.DifferentDistricts"]
+new = "Different districts"
+status = "normal"
+
+["BuildingMover.Zipline.Blocked"]
+new = "Cable path blocked"
+status = "normal"

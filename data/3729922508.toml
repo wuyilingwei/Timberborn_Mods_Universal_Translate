@@ -1,0 +1,38 @@
+[_meta]
+name = "Blight"
+
+["blight.settings.profile"]
+new = "Blight Severity"
+status = "normal"
+
+["blight.settings.profile.tooltip"]
+new = "Increase or decrease difficulty. Before someone asks, this is intentionally set to Main Menu only, not mid-game, to ensure settings apply correctly."
+status = "normal"
+
+["blight.settings.profile.dormant"]
+new = "Dormant (Easiest)"
+status = "normal"
+
+["blight.settings.profile.creeping"]
+new = "Creeping"
+status = "normal"
+
+["blight.settings.profile.outbreak"]
+new = "Outbreak (Default)"
+status = "normal"
+
+["blight.settings.profile.epidemic"]
+new = "Epidemic"
+status = "normal"
+
+["blight.settings.profile.plague"]
+new = "Plague (VERY difficult!)"
+status = "normal"
+
+["blight.settings.allowhazardousweather"]
+new = "Spread During Hazardous Weather (Droughts, Bad Tides)"
+status = "normal"
+
+["blight.settings.allowhazardousweather.tooltip"]
+new = "When checked, spore cloud events can occur during droughts and bad tides."
+status = "normal"

@@ -2,8 +2,8 @@
 name = "Seasons"
 
 [Season]
-status = "normal"
 raw = "Season"
+status = "normal"
 enUS = "Season"
 zhCN = "季节"
 zhTW = "季節"
@@ -18,8 +18,8 @@ csCZ = "Sezóna"
 viVN = "Mùa"
 
 ["Season.Spring"]
-status = "normal"
 raw = "Spring"
+status = "normal"
 enUS = "Spring"
 zhCN = "春天"
 zhTW = "春天"
@@ -34,8 +34,8 @@ csCZ = "Jaro"
 viVN = "Mùa Xuân"
 
 ["Season.Spring.Symbol"]
-status = "normal"
 raw = "🌱"
+status = "normal"
 enUS = "🌱"
 zhCN = "🌱"
 zhTW = "🌱"
@@ -50,8 +50,8 @@ csCZ = "🌱"
 viVN = "🌱"
 
 ["Season.Summer"]
-status = "normal"
 raw = "Summer"
+status = "normal"
 enUS = "Summer"
 zhCN = "夏天"
 zhTW = "夏天"
@@ -66,8 +66,8 @@ csCZ = "Léto"
 viVN = "Mùa Hè"
 
 ["Season.Summer.Symbol"]
-status = "normal"
 raw = "☀️"
+status = "normal"
 enUS = "☀️"
 zhCN = "☀️"
 zhTW = "☀️"
@@ -82,8 +82,8 @@ csCZ = "☀️"
 viVN = "☀️"
 
 ["Season.Autumn"]
-status = "normal"
 raw = "Autumn"
+status = "normal"
 enUS = "Autumn"
 zhCN = "秋天"
 zhTW = "秋天"
@@ -98,8 +98,8 @@ csCZ = "Podzim"
 viVN = "Mùa thu"
 
 ["Season.Autumn.Symbol"]
-status = "normal"
 raw = "🍂"
+status = "normal"
 enUS = "🍂"
 zhCN = "🍂"
 zhTW = "🍂"
@@ -114,8 +114,8 @@ csCZ = "🍂"
 viVN = "🍂"
 
 ["Season.Winter"]
-status = "normal"
 raw = "Winter"
+status = "normal"
 enUS = "Winter"
 zhCN = "冬季"
 zhTW = "冬季"
@@ -130,8 +130,8 @@ csCZ = "Zima"
 viVN = "Mùa đông"
 
 ["Season.Winter.Symbol"]
-status = "normal"
 raw = "❄️"
+status = "normal"
 enUS = "❄️"
 zhCN = "❄️"
 zhTW = "❄️"
@@ -145,9 +145,29 @@ koKR = "❄️"
 csCZ = "❄️"
 viVN = "❄️"
 
-["Grauschweif.Seasons.TooltipHeader"]
+["Weather.Rain"]
+new = "Rain"
 status = "normal"
+
+["Weather.Snow"]
+new = "Snow"
+status = "normal"
+
+["Weather.Dust"]
+new = "Dust Storm"
+status = "normal"
+
+["Weather.SnowDust"]
+new = "Haze"
+status = "normal"
+
+["Weather.Storm"]
+new = "Storm"
+status = "normal"
+
+["Grauschweif.Seasons.TooltipHeader"]
 raw = "<b>{0}</b> (year {1} day {2})"
+status = "normal"
 enUS = "<b>{0}</b> (year {1} day {2})"
 zhCN = "<b>{0}</b>（第{1}年，第{2}天）"
 zhTW = "<b>{0}</b>（第 {1} 年 第 {2} 天）"
@@ -162,8 +182,8 @@ csCZ = "<b>{0}</b> (rok {1} den {2})"
 viVN = "<b>{0}</b> (năm {1} ngày {2})"
 
 ["Grauschweif.Seasons.TooltipNextSeason"]
-status = "normal"
 raw = "Next season in {0} days."
+status = "normal"
 enUS = "Next season in {0} days."
 zhCN = "“{0}天后进入下个季节。”"
 zhTW = "距下個季節還有 {0} 天。"
@@ -178,8 +198,8 @@ csCZ = "Další sezóna za {0} dnů."
 viVN = "Mùa tiếp theo sau {0} ngày."
 
 ["Grauschweif.Seasons.Effect.PlantEffectsHeader"]
-status = "normal"
 raw = "<u>Plants</u>"
+status = "normal"
 enUS = "<u>Plants</u>"
 zhCN = "<u>植物</u>"
 zhTW = "<u>植物</u>"
@@ -194,8 +214,8 @@ csCZ = "<u>Rostliny</u>"
 viVN = "<u>Cây Cối</u>"
 
 ["Grauschweif.Seasons.Effect.Plant.GrowthBoost"]
-status = "normal"
 raw = "Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
 enUS = "Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 zhCN = "生长时间 <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 zhTW = "生長時間<GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
@@ -210,8 +230,8 @@ csCZ = "Čas růstu <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 viVN = "Thời gian phát triển <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.GrowthSlowdown"]
-status = "normal"
 raw = "Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
 enUS = "Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 zhCN = "生长时间 <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 zhTW = "生長時間 <RedHighlight>+{0:0.#}%▲</RedHighlight>"
@@ -226,8 +246,8 @@ csCZ = "Doba růstu <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 viVN = "Thời gian phát triển <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.DryingSlowdown"]
-status = "normal"
 raw = "Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
+status = "normal"
 enUS = "Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 zhCN = "干燥抗性 <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 zhTW = "乾燥抵抗 <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
@@ -242,8 +262,8 @@ csCZ = "Odolnost proti vysychání <GreenHighlight>+{0:0.#}%▲</GreenHighlight>
 viVN = "Kháng khô <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.DryingBoost"]
-status = "normal"
 raw = "Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+status = "normal"
 enUS = "Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 zhCN = "干燥抗性 <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 zhTW = "乾燥抗性 <RedHighlight>-{0:0.#}%▼</RedHighlight>"
@@ -258,8 +278,8 @@ csCZ = "Odolnost proti vysušení <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 viVN = "Kháng khô <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.YieldBoost"]
-status = "normal"
 raw = "Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
 enUS = "Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 zhCN = "产量增长 <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 zhTW = "產量增長 <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
@@ -274,8 +294,8 @@ csCZ = "Růst výnosu <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 viVN = "Tăng trưởng năng suất <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.YieldSlowdown"]
-status = "normal"
 raw = "Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
 enUS = "Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 zhCN = "产量增长 <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 zhTW = "產量增長 <RedHighlight>+{0:0.#}%▲</RedHighlight>"
@@ -290,8 +310,8 @@ csCZ = "Výnosový růst <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 viVN = "Tăng trưởng sản lượng <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceEffectsHeader"]
-status = "normal"
 raw = "<u>Water</u>"
+status = "normal"
 enUS = "<u>Water</u>"
 zhCN = "<u>水</u>"
 zhTW = "<u>水</u>"
@@ -370,8 +390,8 @@ csCZ = "Znečištění dolů <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 viVN = "Ô nhiễm giảm <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.NeedEffectsHeader"]
-status = "normal"
 raw = "<u>Needs</u>"
+status = "normal"
 enUS = "<u>Needs</u>"
 zhCN = "<u>需求</u>"
 zhTW = "<u>需求</u>"
@@ -418,8 +438,8 @@ csCZ = "{1} nahoru <RedHighlight>{0:0.#}%▲</RedHighlight>"
 viVN = "{1} lên <RedHighlight>{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.BonusEffectsHeader"]
-status = "normal"
 raw = "<u>Boni</u>"
+status = "normal"
 enUS = "<u>Bonuses</u>"
 zhCN = "<u>奖励</u>"
 zhTW = "<u>獎勵</u>"
@@ -434,8 +454,8 @@ csCZ = "<u>Boni</u>"
 viVN = "<u>Phúc lợi</u>"
 
 ["Grauschweif.Seasons.Effect.BonusChangeBoost"]
-status = "normal"
 raw = "{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+status = "normal"
 enUS = "{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 zhCN = "{1} 增加 <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 zhTW = "{1} 增加 <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
@@ -450,8 +470,8 @@ csCZ = "{1} nahoru <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 viVN = "{1} lên <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.BonusChangeSlowdown"]
-status = "normal"
 raw = "{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>"
+status = "normal"
 enUS = "{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>"
 zhCN = "{1} 降低 <RedHighlight>{0:0.#}%▼</RedHighlight>"
 zhTW = "{1} 降低 <RedHighlight>{0:0.#}%▼</RedHighlight>"
@@ -464,6 +484,30 @@ ptBR = "{1} para baixo <RedHighlight>{0:0.#}%▼</RedHighlight>"
 koKR = "{1} 감소 <RedHighlight>{0:0.#}%▼</RedHighlight>"
 csCZ = "{1} dolů <RedHighlight>{0:0.#}%▼</RedHighlight>"
 viVN = "{1} trì hoãn <RedHighlight>{0:0.#}%▼</RedHighlight>"
+
+["Grauschweif.Seasons.Effect.SoilMoistureEffectsHeader"]
+new = "Moisture"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.SoilMoistureBoost"]
+new = "Wet soil <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.SoilMoistureSlowdown"]
+new = "Dry soil <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindMoistureEffectsHeader"]
+new = "Wind"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindBoost"]
+new = "Stronger wind (+{0:0.#})"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindSlowdown"]
+new = "Weaker wind (-{0:0.#})"
+status = "normal"
 
 ["Grauschweif.Season.Weather.Badtide.Autumn"]
 raw = "Badtide"

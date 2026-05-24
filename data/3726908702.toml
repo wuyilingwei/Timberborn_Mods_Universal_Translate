@@ -1,0 +1,98 @@
+[_meta]
+name = "Keystone"
+
+["Keystone.NeedGroup.Nature.DisplayName"]
+new = "Nature"
+status = "normal"
+
+["Keystone.Need.Nature.Forest.DisplayName"]
+new = "Forest"
+status = "normal"
+
+["Keystone.Need.Nature.Grassland.DisplayName"]
+new = "Grassland"
+status = "normal"
+
+["Keystone.Need.Nature.Wetland.DisplayName"]
+new = "Wetland"
+status = "normal"
+
+["ToolGroup.Keystone.DisplayName"]
+new = "Keystone Dev Tools"
+status = "normal"
+
+["Tool.Keystone.Flourish.DisplayName"]
+new = "Class B: Force-Place Biome Flourish"
+status = "normal"
+
+["Tool.Keystone.Flourish.Description"]
+new = "Force-places a Class B flourish appropriate to the clicked tile's biome -- bypasses the score/threshold gate the auto-spawn handler uses. Picks the biome with the highest score at the cursor (among biomes that have a registered Class B recipe) and spawns its first registered recipe. Useful for staging content without waiting for ecology dynamics to catch up."
+status = "normal"
+
+["Tool.Keystone.Decoration.DisplayName"]
+new = "Class A: Reactive Decoration"
+status = "normal"
+
+["Tool.Keystone.Decoration.Description"]
+new = "Spawns a Class A decoration -- non-blocking, non-persisted, with a moisture-driven controller. Sample uses a Dandelion clone (alive when moist, dry when not). Reactivity is the orthogonal axis -- the same Class A bucket also hosts purely passive content."
+status = "normal"
+
+["Tool.Keystone.Particle.DisplayName"]
+new = "Class A: Particle Decoration"
+status = "normal"
+
+["Tool.Keystone.Particle.Description"]
+new = "Spawns a Class A decoration carrying a Unity ParticleSystem. Passive (no ecology reactivity, no interaction) -- demonstrates the same registry can host non-mesh decorations like atmospheric effects."
+status = "normal"
+
+["Tool.Keystone.CrossFactionFlora.DisplayName"]
+new = "Class D: Cross-Faction Flora"
+status = "normal"
+
+["Tool.Keystone.CrossFactionFlora.Description"]
+new = "Spawns a Class D natural resource: vanilla flora from the OTHER faction (CoffeeBush in a Folktails game, Maple in IronTeeth). Plantable / Gatherable specs are stripped by Keystone's faction-strip patch so the active faction's UIs don't crash on it."
+status = "normal"
+
+["Tool.Keystone.VanillaFlora.DisplayName"]
+new = "Class D: Active-Faction Flora"
+status = "normal"
+
+["Tool.Keystone.VanillaFlora.Description"]
+new = "Spawns a Class D natural resource: a Pine, available natively in both factions. Full vanilla pipeline -- can be cut, planted, gathered (where applicable), and reacts to moisture/flood normally."
+status = "normal"
+
+["Tool.Keystone.Rock.DisplayName"]
+new = "Class A: Keystone Rock"
+status = "normal"
+
+["Tool.Keystone.Rock.Description"]
+new = "Spawns a Class A decoration cloning the Keystone-original Rock_medium_1 blueprint. End-to-end smoke test of the custom-mesh pipeline: Quaternius FBX -> Blender -> .timbermesh -> TimbermeshSpec -> KeystoneMaterialProvider resolves the KeystoneRock material -> rendered in-game. Retired once Class C rock spawning is wired through the recipe system."
+status = "normal"
+
+["Tool.Keystone.RockCluster.DisplayName"]
+new = "Class C: Rock Cluster (inanimate)"
+status = "normal"
+
+["Tool.Keystone.RockCluster.Description"]
+new = "Spawns a random KeystoneRockCluster* inanimate Class C blueprint at the cursor. No lifecycle (rocks don't wither); runtime biome-driven re-tint via KeystoneRockTint adjusts material to mossy / dry / default based on the tile's dominant biome. Bypasses the Class C recipe gate so the cluster lands regardless of biome+level conditions -- useful for verifying tint behaviour across biomes."
+status = "normal"
+
+["NaturalResource.KeystoneRockCluster.DisplayName"]
+new = "Rock Cluster"
+status = "normal"
+
+["Tool.Keystone.Fauna.DisplayName"]
+new = "Fauna: Place Deer (smoke test)"
+status = "normal"
+
+["Tool.Keystone.Fauna.Description"]
+new = "Spawns a KeystoneDeer BlockObject at the cursor. End-to-end smoke test of the custom-mesh pipeline for fauna assets: Quaternius .blend -> Blender shade-smooth + VAT palette bake -> .timbermesh -> KeystoneDeer material -> rendered in-game. Hardcoded blueprint, no biome resolution. Replaced or generalised once proper fauna content infrastructure (Class E / agent system) lands."
+status = "normal"
+
+["Tool.Keystone.FishSmokeTest.DisplayName"]
+new = "Fish: Place KeystoneFish1 above water (smoke test)"
+status = "normal"
+
+["Tool.Keystone.FishSmokeTest.Description"]
+new = "Spawns a KeystoneFish1 static prop at the cursor and starts looping its Default animation clip. Gated on water depth: click a dry tile and nothing spawns; click a water tile and a fish appears just above the water surface, swimming in place. No agent, no pathfinding, no despawn — pure visual verification of the fish mesh + Default clip. Reload to clear accumulated fish."
+status = "normal"

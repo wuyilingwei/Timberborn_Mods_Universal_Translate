@@ -1,0 +1,1346 @@
+[_meta]
+name = "More Mines [ModContest1]"
+
+["Building.Mine.DisplayName"]
+new = "Ruins Mine"
+status = "normal"
+
+["Building.EfficientMine.DisplayName"]
+new = "Efficient Ruins Mine"
+status = "normal"
+
+["Building.Smelter.DisplayName"]
+new = "Metalworker"
+status = "normal"
+
+["Building.Smelter.Description"]
+new = "Make blocks and parts and shinies from raw metals."
+status = "normal"
+
+["Building.Tunnel.Description"]
+new = "Tunnels through terrain, replacing it with mine timbers. Use the layer tool to see under terrain or structures."
+status = "normal"
+
+["LV.CPl.GrowthSect"]
+new = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Rate ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
+status = "normal"
+
+["LV.CPl.PlantingTime"]
+new = "Planting time multiplier"
+status = "normal"
+
+["LV.CPl.PlantingTimeDesc"]
+new = "Multiplier for time taken to plant."
+status = "normal"
+
+["LV.CPl.GrowthRate"]
+new = "Growth rate multiplier"
+status = "normal"
+
+["LV.CPl.GrowthRateDesc"]
+new = "Multiplier for growth time."
+status = "normal"
+
+["LV.CPl.OutputMul"]
+new = "Output multiplier"
+status = "normal"
+
+["LV.CPl.OutputMulDesc"]
+new = "Multiplier for output (rounded, always produces at least 1)."
+status = "normal"
+
+["LV.CPl.HarvestTime"]
+new = "Harvest time multiplier"
+status = "normal"
+
+["LV.CPl.HarvestTimeDesc"]
+new = "Multiplier for time taken to harvest/cut down."
+status = "normal"
+
+["LV.CPl.DemolishTime"]
+new = "Demolishing time multiplier"
+status = "normal"
+
+["LV.CPl.DemolishTimeDesc"]
+new = "Multiplier for time taken to demolish."
+status = "normal"
+
+["LV.CPl.TreeSect"]
+new = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
+status = "normal"
+
+["LV.CPl.CropSect"]
+new = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
+status = "normal"
+
+["LV.CPl.ProductSect"]
+new = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
+status = "normal"
+
+["LV.CPl.AllSect"]
+new = "For all plants:"
+status = "normal"
+
+["LV.CPl.ReproducibleChanceMultiplier"]
+new = "Reproducible chance multiplier"
+status = "normal"
+
+["LV.CPl.ReproducibleChanceMultiplierDesc"]
+new = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
+status = "normal"
+
+["ModSetting.TWMoreMines.MainHeader1"]
+new = "<b><YellowHighlight>General Settings:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawsSectionHeader1"]
+new = "<b><YellowHighlight>Dirtclaws Settings:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawsSectionHeader2"]
+new = "These settings apply only to Dirtclaws faction."
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawsSectionHeader3"]
+new = "Setting the plant-related options to 1 will make Dirtclaws grow food and wood at close to vanilla Folktails levels.\nThe plant growth settings and code are based heavily on the Configurable Plants mod by Luke Vo. Thanks, Luke!"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawsSectionHeaderPay"]
+new = "<b>Pay:</b>"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawsSectionHeaderPlants"]
+new = "<b>Plant Growth:</b>"
+status = "normal"
+
+["ModSetting.TWMoreMines.UndergroundVisRange"]
+new = "Underground Visibility Range"
+status = "normal"
+
+["ModSetting.TWMoreMines.UndergroundVisRangeDesc"]
+new = "Ore will be visible this many spaces underground. Valid range is 1 - 5, default is 1"
+status = "normal"
+
+["ModSetting.TWMoreMines.AllowHidingOre"]
+new = "Hide Ore"
+status = "normal"
+
+["ModSetting.TWMoreMines.AllowHidingOreDesc"]
+new = "Hide ore that is beyond underground visibility range. (ore is always shown in map editor)"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawTreeGrowthRateScale"]
+new = "Dirtclaws Tree Growth"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawTreeGrowthRateScaleDesc"]
+new = "Scale applied to tree growth time. Vanilla = 1, default = 4"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawBushGrowthRateScale"]
+new = "Dirtclaws Bush Growth"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawBushGrowthRateScaleDesc"]
+new = "Scale applied to bush growth time. Vanilla = 1, default = 1.5"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawCropGrowthRateScale"]
+new = "Dirtclaws Crop Growth"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawCropGrowthRateScaleDesc"]
+new = "Scale applied to crop growth time. Vanilla = 1, default = 4"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawBushAndTreeProductScale"]
+new = "Dirtclaws Fruit/Nut/Sap Growth"
+status = "normal"
+
+["ModSetting.TWMoreMines.DirtclawBushAndTreeProductScaleDesc"]
+new = "Scale applied to the production time of bushes and trees that yield fruits or other products. Vanilla = 1, default = 4"
+status = "normal"
+
+["ModSetting.TWMoreMines.HideOrePlacementButton"]
+new = "Hide Ore Placement Button"
+status = "normal"
+
+["ModSetting.TWMoreMines.HideOrePlacementButtonDesc"]
+new = "Hides the ore placement button, since you generally only need it at the start of a game"
+status = "normal"
+
+["Faction.TWDirtclaws.DisplayName"]
+new = "Dirtclaws"
+status = "normal"
+
+["Faction.TWDirtclaws.Description"]
+new = "These ex-Folktails were more interested in the rocks under their farm than in planting.\nGreat diggers, but awful farmers.\nTheir motto: <i>Deep hole, deeper contentment.</i>"
+status = "normal"
+
+["Faction.TWDirtclaws.GameOver.Message"]
+new = "Your Dirtclaws struck out instead of striking it rich. This is the end."
+status = "normal"
+
+["Faction.TWDirtclaws.GameOver.Flavor"]
+new = "The hardest stone will crumble in time."
+status = "normal"
+
+["Building.DistrictCenter.FlavorDescription.TWDirtclaws"]
+new = "\"Deep hole, deeper contentment.\" —Dirtclaws motto"
+status = "normal"
+
+["UI.TW.MM.Contamination"]
+new = "Contamination"
+status = "normal"
+
+["UI.TW.MM.TT.PlaceOreBottomBarButton"]
+new = "Place Ore"
+status = "normal"
+
+["ModSetting.TWMoreMines.StopeHeight"]
+new = "Chute max height"
+status = "normal"
+
+["ModSetting.TWMoreMines.StopeHeightDesc"]
+new = "The maximum number of levels chutes are allowed to mine. Valid range 1-20"
+status = "normal"
+
+["ModSetting.TWMoreMines.ChuteBonus"]
+new = "Chute bonus"
+status = "normal"
+
+["ModSetting.TWMoreMines.ChuteBonusDesc"]
+new = "Mine chutes generate this much extra ore. 0 = no bonus, 1.0 = double. Valid range 0-10."
+status = "normal"
+
+["Building.TWJamStove.DisplayName"]
+new = "Filling Factory"
+status = "normal"
+
+["Building.TWJamStove.Description"]
+new = "Mashes and boils fruits into pie fillings."
+status = "normal"
+
+["Building.TWJamStove.FlavorDescription"]
+new = "Cleaner than using the arrastra, but not as much fun."
+status = "normal"
+
+["Building.TWPastryOven.DisplayName"]
+new = "Pastry Oven"
+status = "normal"
+
+["Building.TWPastryOven.Description"]
+new = "A bakery specializing in pies and pastries"
+status = "normal"
+
+["Building.TWPastryOven.FlavorDescription"]
+new = "There are two kinds of beavers: those who prefer the filling, and those who prefer the wooden pie pans."
+status = "normal"
+
+["Good.TWCarrotJuice.PluralDisplayName"]
+new = "Carrot Juice"
+status = "normal"
+
+["Good.TWCarrotJuice.DisplayName"]
+new = "Carrot Juice"
+status = "normal"
+
+["Building.TWOilPress.Description"]
+new = "Squeezes liquid out of suitable plants."
+status = "normal"
+
+["Building.TWOilPress.DisplayName"]
+new = "Press"
+status = "normal"
+
+["Building.TWEarthRevitalizer.DisplayName"]
+new = "Earth Revitalizer"
+status = "normal"
+
+["Building.TWEarthRevitalizer.Description"]
+new = "A hole to the center of the earth, where beavers inject nutrients to revitalize the underground micro-ecosystems.\n● <YellowHighlight>Bottom only:</YellowHighlight> Must be built on lowest level of map."
+status = "normal"
+
+["Building.TWEarthRevitalizer.FlavorDescription"]
+new = "“Deeper, deeper, down we go!” — Pina"
+status = "normal"
+
+["Faction.TWDirtclaws.WonderCompletionFlavor"]
+new = "Having delved the deepest recesses of the earth, your beavers shared the fruits of their labor with the suffering planet. There are many tunnels left to dig, and Dirtclaws will lead beaverkind into a deeper, darker era."
+status = "normal"
+
+["Faction.TWDirtclaws.WonderCompletionMessage"]
+new = "Congratulations! You mastered the Dirtclaws' metallic megalomania and used this map's resources to build the faction's wonder."
+status = "normal"
+
+["Buildings.TWMustBeMapBottom"]
+new = "Must be at bottom of map"
+status = "normal"
+
+["Building.TWEmptyTunnel.DisplayName"]
+new = "Empty Tunnel"
+status = "normal"
+
+["Building.TWEmptyTunnel.Description"]
+new = "A tunnel with no ground support.\n● <RedHighlight>Caution!</RedHighlight> May cause collapse of unsupported terrain or buildings. Use with care."
+status = "normal"
+
+["Building.TWEmptyTunnel.FlavorDescription"]
+new = "The planks are used as shovels, then as lunch"
+status = "normal"
+
+["Building.TWEmptyTunnelWithPath.DisplayName"]
+new = "Empty Tunnel With Path"
+status = "normal"
+
+["Building.TWEmptyTunnelWithPath.Description"]
+new = "A tunnel with a path but no ground support.\n● <RedHighlight>Caution!</RedHighlight> May cause collapse of unsupported terrain or buildings. Use with care."
+status = "normal"
+
+["UI.TW.DeepMines.TunnelInvalidObjectAbove"]
+new = "Invalid object above"
+status = "normal"
+
+["Good.TWShiny.DisplayName"]
+new = "Shiny"
+status = "normal"
+
+["Good.TWShiny.PluralDisplayName"]
+new = "Shinies"
+status = "normal"
+
+["Good.TWBerryBun.DisplayName"]
+new = "Berry Tart"
+status = "normal"
+
+["Good.TWBerryBun.PluralDisplayName"]
+new = "Berry Tarts"
+status = "normal"
+
+["Good.TWBerryJam.DisplayName"]
+new = "Berry Tart Filling"
+status = "normal"
+
+["Good.TWBerryJam.PluralDisplayName"]
+new = "Berry Tart Filling"
+status = "normal"
+
+["Good.TWBerryPie.DisplayName"]
+new = "Berry Pie"
+status = "normal"
+
+["Good.TWBerryPie.PluralDisplayName"]
+new = "Berry Pies"
+status = "normal"
+
+["Good.TWBerryFilling.DisplayName"]
+new = "Berry Pie Filling"
+status = "normal"
+
+["Good.TWBerryFilling.PluralDisplayName"]
+new = "Berry Pie Filling"
+status = "normal"
+
+["Good.TWGrilledCorn.DisplayName"]
+new = "Grilled Corn"
+status = "normal"
+
+["Good.TWGrilledCorn.PluralDisplayName"]
+new = "Grilled Corn"
+status = "normal"
+
+["Good.TWKabob.DisplayName"]
+new = "Vegie Kabob"
+status = "normal"
+
+["Good.TWKabob.PluralDisplayName"]
+new = "Vegie Kabobs"
+status = "normal"
+
+["Good.TWMangroveFilling.DisplayName"]
+new = "Mangrove Pie Filling"
+status = "normal"
+
+["Good.TWMangroveFilling.PluralDisplayName"]
+new = "Mangrove Pie Filling"
+status = "normal"
+
+["Good.TWMangrovePie.DisplayName"]
+new = "Mangrove Pie"
+status = "normal"
+
+["Good.TWMangrovePie.PluralDisplayName"]
+new = "Mangrove Pies"
+status = "normal"
+
+["Good.TWRoastedEggplant.DisplayName"]
+new = "Roasted Eggplant"
+status = "normal"
+
+["Good.TWRoastedEggplant.PluralDisplayName"]
+new = "Roasted Eggplants"
+status = "normal"
+
+["Good.TWVegiePie.DisplayName"]
+new = "Vegie Pot Pie"
+status = "normal"
+
+["Good.TWVegiePie.PluralDisplayName"]
+new = "Vegie Pot Pies"
+status = "normal"
+
+["GoodGroup.TWMetal"]
+new = "Metals"
+status = "normal"
+
+["ToolGroup.MapEditorTWMoreMines"]
+new = "More Mines Objects"
+status = "normal"
+
+["Good.TWCornBread.DisplayName"]
+new = "Cornbread"
+status = "normal"
+
+["Good.TWCornBread.PluralDisplayName"]
+new = "Cornbread"
+status = "normal"
+
+["Good.TWCornMeal.DisplayName"]
+new = "Cornmeal"
+status = "normal"
+
+["Good.TWCornMeal.PluralDisplayName"]
+new = "Cornmeal"
+status = "normal"
+
+["Good.TWCharcoal.DisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Good.TWCharcoal.PluralDisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Good.TWIronOre.DisplayName"]
+new = "Iron Ore"
+status = "normal"
+
+["Good.TWIronOre.PluralDisplayName"]
+new = "Iron Ore"
+status = "normal"
+
+["Good.TWGoldOre.DisplayName"]
+new = "Gold Ore"
+status = "normal"
+
+["Good.TWGoldOre.PluralDisplayName"]
+new = "Gold Ore"
+status = "normal"
+
+["Good.TWGoldNugget.DisplayName"]
+new = "Gold Nugget"
+status = "normal"
+
+["Good.TWGoldNugget.PluralDisplayName"]
+new = "Gold Nuggets"
+status = "normal"
+
+["Good.TWMercuryOre.DisplayName"]
+new = "Mercury Ore"
+status = "normal"
+
+["Good.TWMercuryOre.PluralDisplayName"]
+new = "Mercury Ore"
+status = "normal"
+
+["Good.TWMercury.DisplayName"]
+new = "Mercury"
+status = "normal"
+
+["Good.TWMercury.PluralDisplayName"]
+new = "Mercury"
+status = "normal"
+
+["Good.TWGoldAmalgam.DisplayName"]
+new = "Gold Amalgam"
+status = "normal"
+
+["Good.TWGoldAmalgam.PluralDisplayName"]
+new = "Gold Amalgam"
+status = "normal"
+
+["Building.TWSolidRock.DisplayName"]
+new = "Solid Rock"
+status = "normal"
+
+["Building.TWSolidRock.Description"]
+new = "Water-proof and unremovable."
+status = "normal"
+
+["Building.TWSolidRock.FlavorDescription"]
+new = "Try as they might, there are some stones too hard even for dynamite-wielding beavers."
+status = "normal"
+
+["Resource.TWIronOre.DisplayName"]
+new = "Hematite"
+status = "normal"
+
+["Resource.TWIronOre.Description"]
+new = "Source of Iron Ore. Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWIronOre.FlavorDescription"]
+new = "Many a tooth was broken before beavers learned not to taste the ore"
+status = "normal"
+
+["Resource.TWGoldOre.DisplayName"]
+new = "Gold-bearing Quartz"
+status = "normal"
+
+["Resource.TWGoldOre.Description"]
+new = "Source of Gold Ore. Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWGoldOre.FlavorDescription"]
+new = "“Not all that glitters is aspen.” — Old Dirtclaw saying"
+status = "normal"
+
+["Resource.TWMercuryOre.DisplayName"]
+new = "Cinnabar"
+status = "normal"
+
+["Resource.TWMercuryOre.Description"]
+new = "Source of Mercury Ore. Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWMercuryOre.FlavorDescription"]
+new = "“Rock that color must be good for sumthin!” — Dusty"
+status = "normal"
+
+["Resource.TWDeepOreGeneric"]
+new = "Deep Ore Deposit"
+status = "normal"
+
+["Recipe.TWBuyMercury"]
+new = "Buy Mercury"
+status = "normal"
+
+["Recipe.TWBuyGoldNugget"]
+new = "Buy Gold Nuggets"
+status = "normal"
+
+["Recipe.TWBuyTreatedPlanks"]
+new = "Buy Treated Planks"
+status = "normal"
+
+["Recipe.TWBuyCornMeal"]
+new = "Buy Cornmeal"
+status = "normal"
+
+["Recipe.TWSellMercury"]
+new = "Sell Mercury"
+status = "normal"
+
+["Recipe.TWSellMercuryOre"]
+new = "Sell Mercury Ore"
+status = "normal"
+
+["Recipe.TWSellGoldOre"]
+new = "Sell Gold Ore"
+status = "normal"
+
+["Recipe.TWSellGoldNugget"]
+new = "Sell Gold Nuggets"
+status = "normal"
+
+["Recipe.TWSellIronOre"]
+new = "Sell Iron Ore"
+status = "normal"
+
+["Recipe.TWSellScrapMetal"]
+new = "Sell Scrap Metal"
+status = "normal"
+
+["Recipe.TWShinyFromGold"]
+new = "Shiny from gold"
+status = "normal"
+
+["Building.TWKiln.DisplayName"]
+new = "Charcoal Kiln"
+status = "normal"
+
+["Building.TWKiln.Description"]
+new = "A kiln for making charcoal."
+status = "normal"
+
+["Building.TWKiln.FlavorDescription"]
+new = "Actually, bees stole the design from us..."
+status = "normal"
+
+["Building.TWTowerSmelter.DisplayName"]
+new = "Iron Smelter"
+status = "normal"
+
+["Building.TWTowerSmelter.Description"]
+new = "Converts iron ore into raw iron."
+status = "normal"
+
+["Building.TWTowerSmelter.FlavorDescription"]
+new = "“Don’t get too close; you’ll singe your whiskers!”"
+status = "normal"
+
+["Recipe.TWIronOreSmelting"]
+new = "Smelt Raw Iron"
+status = "normal"
+
+["Building.TWArrastra.DisplayName"]
+new = "Arrastra"
+status = "normal"
+
+["Building.TWArrastra.Description"]
+new = "Grinds Gold Ore with large stones."
+status = "normal"
+
+["Building.TWArrastra.FlavorDescription"]
+new = "It didn’t take beavers long to realize they could mash more than just berries."
+status = "normal"
+
+["Recipe.TWArrastraGoldAmalgam"]
+new = "Mercury-Gold Amalgamation"
+status = "normal"
+
+["Recipe.TWArrastraGoldGrinding"]
+new = "Simple Gold Grinding"
+status = "normal"
+
+["Building.TWRetortFolktails.DisplayName"]
+new = "Retort"
+status = "normal"
+
+["Building.TWRetortFolktails.Description"]
+new = "A furnace for extracting and condensing mercury vapor."
+status = "normal"
+
+["Building.TWRetortFolktails.FlavorDescription"]
+new = "“It’s like water! Shiny silver water!” — Pina"
+status = "normal"
+
+["Recipe.TWGoldAmalgamRetorting"]
+new = "Retort gold amalgam"
+status = "normal"
+
+["Recipe.TWMercuryFromOre"]
+new = "Retort mercury ore"
+status = "normal"
+
+["Building.TWDeepMine.DisplayName"]
+new = "Deep Mine"
+status = "normal"
+
+["Building.TWDeepMine.Description"]
+new = "A mine for extracting ore from deep mineral deposits. Will also produce contaminated water."
+status = "normal"
+
+["Building.TWDeepMine.FlavorDescription"]
+new = "The best things in life are dirty."
+status = "normal"
+
+["Resource.TWDeepOreDepositProxy.Description"]
+new = "A placeholder which will transform into a deep ore deposit when it becomes visible to the player."
+status = "normal"
+
+["Resource.TWDeepIronDeposit.DisplayName"]
+new = "Deep Iron Deposit"
+status = "normal"
+
+["Resource.TWDeepIronDeposit.Description"]
+new = "A huge, deeply buried source of iron ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Resource.TWDeepGoldDeposit.DisplayName"]
+new = "Deep Gold Deposit"
+status = "normal"
+
+["Resource.TWDeepGoldDeposit.Description"]
+new = "A huge, deeply buried source of gold ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Resource.TWDeepMercuryDeposit.DisplayName"]
+new = "Deep Mercury Deposit"
+status = "normal"
+
+["Resource.TWDeepMercuryDeposit.Description"]
+new = "A huge, deeply buried source of mercury ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Building.TWMinerMonument.DisplayName"]
+new = "Miner Monument"
+status = "normal"
+
+["Building.TWMinerMonument.FlavorDescription"]
+new = "“It’s no minor accomplishment.” — Dusty"
+status = "normal"
+
+["Building.TWGroundSupport.DisplayName"]
+new = "Mine Timbers"
+status = "normal"
+
+["Building.TWGroundSupport.Description"]
+new = "Miners use timbers to support the rock above."
+status = "normal"
+
+["Building.TWGroundSupport.FlavorDescription"]
+new = "“It’s not a platform, you pine cone muncher! Platforms don’t use logs.” — Dusty"
+status = "normal"
+
+["Building.TWStopeTimbers.DisplayName"]
+new = "Stope Timbers"
+status = "normal"
+
+["Building.TWStopeTimbers.Description"]
+new = "Timbers used to support a mining area."
+status = "normal"
+
+["Building.TWStopeTimbers.FlavorDescription"]
+new = "“I keep tellen ya, it's not a platform!” — Dusty"
+status = "normal"
+
+["Building.TWMarketOre.DisplayName"]
+new = "Ore Market"
+status = "normal"
+
+["Building.TWMarketOre.Description"]
+new = "A marketplace for selling ore and metals."
+status = "normal"
+
+["Building.TWMarketOre.FlavorDescription"]
+new = "“The more you smelt, the more you save.”"
+status = "normal"
+
+["Building.TWSteamEngine.DisplayName"]
+new = "Large Steam Engine"
+status = "normal"
+
+["Building.TWSteamEngine.Description"]
+new = "Converts fuel and water into mechanical energy."
+status = "normal"
+
+["Building.TWSteamEngine.FlavorDescription"]
+new = "With a frightful hiss and roar, beavers lurched into the mechanical age."
+status = "normal"
+
+["Building.TWTailingsDump.DisplayName"]
+new = "Tailings Dump"
+status = "normal"
+
+["Building.TWTailingsDump.Description"]
+new = "A place to dump mill pulp or tailings. Mill pulp can be recovered for later processing.\n● <b><YellowHighlight>Tip:</YellowHighlight></b> Must overhang an edge, the same as a fluid dump.\n● <b><RedHighlight>Caution!</RedHighlight></b> Tailings flows will destroy most buildings. Use levees to contain it."
+status = "normal"
+
+["Building.TWTailingsDump.FlavorDescription"]
+new = "Great for sand castles. But wash your paws after."
+status = "normal"
+
+["UI.TW.MoreMines.TailingsFullStatus"]
+new = "No room for more tailings"
+status = "normal"
+
+["Recipe.TWDumpMillPulpGold"]
+new = "Dump gold mill pulp"
+status = "normal"
+
+["Building.TWWindlass.DisplayName"]
+new = "Windlass"
+status = "normal"
+
+["Building.TWWindlass.Description"]
+new = "A decorative hand-powered hoisting device. Place it over a ladder for epic coolness."
+status = "normal"
+
+["Building.TWWindlass.FlavorDescription"]
+new = "“Keep a firm hold now!”"
+status = "normal"
+
+["Need.TWPay.DisplayName"]
+new = "Pay check"
+status = "normal"
+
+["Status.Need.TWPay"]
+new = "Unpaid."
+status = "normal"
+
+["ModSetting.TWMoreMines.MinCreditsForPay"]
+new = "Stop pay below"
+status = "normal"
+
+["ModSetting.TWMoreMines.MinCreditsForPayDesc"]
+new = "Pay Offices will shut down if your total credits fall below this level"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayStartingPop"]
+new = "Min population"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayStartingPopDesc"]
+new = "Pay is free when adult population is below this number"
+status = "normal"
+
+["ModSetting.TWMoreMines.BasePay"]
+new = "Pay"
+status = "normal"
+
+["ModSetting.TWMoreMines.BasePayDesc"]
+new = "Pay for each adult, per day"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayScale"]
+new = "Bonus pay"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayScaleDesc"]
+new = "Pays beavers more as population increases. This is multiplied by the number of adults in excess of Min Population, then added to Pay."
+status = "normal"
+
+["UI.TW.MoreMines.PayOfficeNoCreditsStatus"]
+new = "Too few credits for pay"
+status = "normal"
+
+["UI.TW.PayPerBeaver"]
+new = "Pay per adult: {0}"
+status = "normal"
+
+["UI.TW.PayPerDay"]
+new = "Total per day: {0}"
+status = "normal"
+
+["UI.TW.PayOfficeFooter"]
+new = "(Total includes all pay offices)"
+status = "normal"
+
+["UI.TW.PayOfficeMinPopNotice"]
+new = "Pay Office will require credits after population of {0} or more adults"
+status = "normal"
+
+["Building.TWPayOffice.DisplayName"]
+new = "Pay Office"
+status = "normal"
+
+["Building.TWPayOffice.Description"]
+new = "A place for beavers to collect their pay and gossip after a long day's work."
+status = "normal"
+
+["Building.TWPayOffice.FlavorDescription"]
+new = "The best day is pay day"
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacerDialogTitle"]
+new = "Manual Ore Placement"
+status = "normal"
+
+["UI.TW.MoreMines.OreItemsPlaced"]
+new = "ore items placed!"
+status = "normal"
+
+["UI.TW.MoreMines.Random"]
+new = "Random"
+status = "normal"
+
+["UI.TW.MoreMines.Preview"]
+new = "Preview:"
+status = "normal"
+
+["UI.TW.MoreMines.OrePreviewHeader"]
+new = "Red in combined view will be ore"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice"]
+new = "Z Slice"
+status = "normal"
+
+["UI.TW.MoreMines.SimplePreview"]
+new = "Simple Preview"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice.Masklo"]
+new = "Mask Low"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice.Maskhi"]
+new = "Mask High"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice.MaskEdge"]
+new = "Mask Edge"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice.Editing"]
+new = "Editing:"
+status = "normal"
+
+["UI.TW.MoreMines.Zslice.NoiseType"]
+new = "Noise Type:"
+status = "normal"
+
+["UI.TW.MoreMines.Seed"]
+new = "Seed"
+status = "normal"
+
+["UI.TW.MoreMines.Turbulence"]
+new = "Turbulence"
+status = "normal"
+
+["UI.TW.MoreMines.TurbulenceFrequency"]
+new = "T Frequency"
+status = "normal"
+
+["UI.TW.MoreMines.Frequency"]
+new = "Frequency"
+status = "normal"
+
+["UI.TW.MoreMines.Exponent"]
+new = "Exponent"
+status = "normal"
+
+["UI.TW.MoreMines.RotationX"]
+new = "Rotation X"
+status = "normal"
+
+["UI.TW.MoreMines.RotationY"]
+new = "Rotation Y"
+status = "normal"
+
+["UI.TW.MoreMines.RotationZ"]
+new = "Rotation Z"
+status = "normal"
+
+["UI.TW.MoreMines.ScaleX"]
+new = "Scale X"
+status = "normal"
+
+["UI.TW.MoreMines.ScaleY"]
+new = "Scale Y"
+status = "normal"
+
+["UI.TW.MoreMines.ScaleZ"]
+new = "Scale Z"
+status = "normal"
+
+["UI.TW.MoreMines.OffsetX"]
+new = "Offset X"
+status = "normal"
+
+["UI.TW.MoreMines.OffsetY"]
+new = "Offset Y"
+status = "normal"
+
+["UI.TW.MoreMines.OffsetZ"]
+new = "Offset Z"
+status = "normal"
+
+["UI.TW.MoreMines.Orelo"]
+new = "Ore Low"
+status = "normal"
+
+["UI.TW.MoreMines.Orehi"]
+new = "Ore High"
+status = "normal"
+
+["UI.TW.MoreMines.OreType"]
+new = "Ore Type:"
+status = "normal"
+
+["UI.TW.MoreMines.RandomizeSeeds"]
+new = "Randomize Seeds:"
+status = "normal"
+
+["UI.TW.MoreMines.RandomizeSeed"]
+new = "Randomize Seed"
+status = "normal"
+
+["UI.TW.MoreMines.RandomizeRotation"]
+new = "Randomize Rotation:"
+status = "normal"
+
+["UI.TW.MoreMines.PlaceOre"]
+new = "Place Ore"
+status = "normal"
+
+["UI.TW.MoreMines.Source1"]
+new = "Source 1"
+status = "normal"
+
+["UI.TW.MoreMines.Source2"]
+new = "Source 2"
+status = "normal"
+
+["UI.TW.MoreMines.Mask"]
+new = "Mask"
+status = "normal"
+
+["UI.TW.MoreMines.Combined"]
+new = "Combined"
+status = "normal"
+
+["UI.TW.MoreMines.Source1and2"]
+new = "Source 1 & 2"
+status = "normal"
+
+["UI.TW.MoreMines.Source1andM"]
+new = "Source 1 & Mask"
+status = "normal"
+
+["UI.TW.MoreMines.Source2andM"]
+new = "Source 2 & Mask"
+status = "normal"
+
+["UI.TW.MoreMines.Perlin"]
+new = "Perlin"
+status = "normal"
+
+["UI.TW.MoreMines.Cylinders"]
+new = "Cylinders"
+status = "normal"
+
+["UI.TW.MoreMines.Cell"]
+new = "Cell"
+status = "normal"
+
+["UI.TW.MoreMines.Constant"]
+new = "Constant"
+status = "normal"
+
+["UI.TW.MoreMines.Planes"]
+new = "Planes"
+status = "normal"
+
+["UI.TW.MoreMines.ChoosePreset"]
+new = "Choose Preset"
+status = "normal"
+
+["UI.TW.MoreMines.Veins"]
+new = "Veins"
+status = "normal"
+
+["UI.TW.MoreMines.Blobs"]
+new = "Blobs"
+status = "normal"
+
+["UI.TW.MoreMines.None"]
+new = "None"
+status = "normal"
+
+["UI.TW.MoreMines.All"]
+new = "All"
+status = "normal"
+
+["UI.TW.MoreMines.X"]
+new = "X"
+status = "normal"
+
+["UI.TW.MoreMines.Y"]
+new = "Y"
+status = "normal"
+
+["UI.TW.MoreMines.Z"]
+new = "Z"
+status = "normal"
+
+["UI.TW.MoreMines.XandY"]
+new = "X & Y"
+status = "normal"
+
+["UI.TW.MoreMines.XandZ"]
+new = "X & Z"
+status = "normal"
+
+["UI.TW.MoreMines.YandZ"]
+new = "Y & Z"
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementRootTitle"]
+new = "Add Ore To Map"
+status = "normal"
+
+["UI.TW.MoreMines.AddOreManual"]
+new = "Add ore, manual"
+status = "normal"
+
+["UI.TW.MoreMines.AddOreAuto"]
+new = "Add ore, automatic"
+status = "normal"
+
+["UI.TW.MoreMines.UndoAddOre"]
+new = "Undo last ore action"
+status = "normal"
+
+["UI.TW.MoreMines.NoUndo"]
+new = "No undo actions available"
+status = "normal"
+
+["UI.TW.MoreMines.DidUndo"]
+new = "Previous ore placement action undone"
+status = "normal"
+
+["UI.TW.MoreMines.RemoveAllOre"]
+new = "Remove all ore"
+status = "normal"
+
+["UI.TW.MoreMines.RemoveOreConfirm"]
+new = "Remove all ore from map? This cannot be undone."
+status = "normal"
+
+["UI.TW.MoreMines.RemoveAllSolidRock"]
+new = "Remove all Solid Rock"
+status = "normal"
+
+["UI.TW.MoreMines.RemoveSolidRockConfirm"]
+new = "Remove all Solid Rock from map? This cannot be undone."
+status = "normal"
+
+["UI.TW.MoreMines.RemoveAllRuins"]
+new = "Remove all Ruins"
+status = "normal"
+
+["UI.TW.MoreMines.RemoveRuinsConfirm"]
+new = "Remove all ruins and underground ruins from map? This cannot be undone."
+status = "normal"
+
+["UI.TW.MoreMines.AddDeepOreManual"]
+new = "Add deep deposits, manual"
+status = "normal"
+
+["UI.TW.MoreMines.OreProxyPlacerDialogTitle"]
+new = "Place Deep Ore Deposits"
+status = "normal"
+
+["UI.TW.MoreMines.BuildOrePipes"]
+new = "Place ore pipes above deposits"
+status = "normal"
+
+["UI.TW.MoreMines.NumberOfDeposits"]
+new = "Number of deposits:"
+status = "normal"
+
+["UI.TW.MoreMines.1"]
+new = "1"
+status = "normal"
+
+["UI.TW.MoreMines.2"]
+new = "2"
+status = "normal"
+
+["UI.TW.MoreMines.3"]
+new = "3"
+status = "normal"
+
+["UI.TW.MoreMines.4"]
+new = "4"
+status = "normal"
+
+["UI.TW.MoreMines.5"]
+new = "5"
+status = "normal"
+
+["UI.TW.MoreMines.OreItemsPlacedIncludesPipes"]
+new = "ore items placed (includes pipe ore and ring rocks)."
+status = "normal"
+
+["UI.TW.MoreMines.AutoOrePlacementDialog"]
+new = "This will attempt to place veins and Deep Deposits for all ore types. It works best on maps from 100 to 256 in size. For more control or small maps, consider the manual placement functions.\n\nIt is also not guaranteed to produce perfect results each time. You may want to inspect the ore that was placed, and if you are not happy, use the 'undo last ore action' button to remove it and try again.\n\nAutomatic placement may remove ground-only objects near edge of map (undo will not replace these).\n\n<b><YellowHighlight>NOTE:</YellowHighlight></b> Ore placement may take several minutes, especially on large maps or slow computers."
+status = "normal"
+
+["UI.TW.MoreMines.AutoOrePlacementFailure"]
+new = "Not all ore was placed successfully. Some ore types may be missing or rare. This is likely due to a small map. Consider using the manual ore placement buttons for more control."
+status = "normal"
+
+["UI.TW.MoreMines.AddBathtubRing"]
+new = "Add bathtub ring"
+status = "normal"
+
+["UI.TW.MoreMines.BathtubRingPlacerDialogTitle"]
+new = "Add Bathtub Ring"
+status = "normal"
+
+["UI.TW.MoreMines.PlaceBathtubWarning"]
+new = "Placing bathtub ring may remove ground-only objects near edge of map (undo will not replace these)."
+status = "normal"
+
+["UI.TW.MoreMines.ChooseBathtubLevel"]
+new = "Z-level"
+status = "normal"
+
+["UI.TW.MoreMines.PlaceDeepOreWarning"]
+new = "Placing deep ore may remove ground-only objects near edge of map (undo will not replace these)."
+status = "normal"
+
+["Building.TWSmallTubewayStation.DisplayName"]
+new = "Small Tubeway Station"
+status = "normal"
+
+["Building.TWSmallTubewayStation.Description"]
+new = "A smaller station."
+status = "normal"
+
+["Building.TWSmallTubewayStation.FlavorDescription"]
+new = "Working underground lent Dirtclaws considerable appreciation for the old saying, small is beautiful."
+status = "normal"
+
+["Building.TWMineChute.DisplayName"]
+new = "Mine Chute"
+status = "normal"
+
+["Building.TWMineChute.Description"]
+new = "Automatically mines ore from contiguous blocks above it. More efficient than mining with tunnels."
+status = "normal"
+
+["Building.TWMineCute.FlavorDescription"]
+new = "Beware of stope cats."
+status = "normal"
+
+["UI.TW.MoreMines.NoOreStatus"]
+new = "No accessible ore"
+status = "normal"
+
+["UI.TW.MoreMines.NoOreAlert"]
+new = "No accessible ore"
+status = "normal"
+
+["UI.TW.MoreMines.ChuteFull"]
+new = "Chute is full"
+status = "normal"
+
+["UI.TW.MoreMines.DrainageBlocked"]
+new = "Drainage full or blocked"
+status = "normal"
+
+["Building.TWStampMill.DisplayName"]
+new = "Stamp Mill"
+status = "normal"
+
+["Building.TWStampMill.Description"]
+new = "Faster and more efficient than an arrastra.\n● <b><YellowHighlight>Tip:</YellowHighlight></b> Area under the rear platform requires supports or to be built on hillside."
+status = "normal"
+
+["Building.TWStampMill.FlavorDescription"]
+new = "The idea started when someone dropped a rock on their workmate's tail"
+status = "normal"
+
+["Recipe.TWStampGoldGrinding"]
+new = "Simple Gold Milling"
+status = "normal"
+
+["Recipe.TWStampGoldAmalgam"]
+new = "Mercury-Gold Amalgamation"
+status = "normal"
+
+["Good.TWTailings.DisplayName"]
+new = "Tailings"
+status = "normal"
+
+["Good.TWTailings.PluralDisplayName"]
+new = "Tailings"
+status = "normal"
+
+["Good.TWMillPulpGold.DisplayName"]
+new = "Gold mill pulp"
+status = "normal"
+
+["Good.TWMillPulpGold.PluralDisplayName"]
+new = "Gold mill pulp"
+status = "normal"
+
+["Resource.TWMillPulpGold.DisplayName"]
+new = "Gold mill pulp"
+status = "normal"
+
+["Resource.TWMillPulpGold.Description"]
+new = "Gold ore that has been milled once. More gold can be extracted."
+status = "normal"
+
+["Resource.TWMillPulpGold.FlavorDescription"]
+new = "Looks like flour, tastes like sulfur"
+status = "normal"
+
+["Building.TWGravityMill.DisplayName"]
+new = "Gravity mill"
+status = "normal"
+
+["Building.TWGravityMill.Description"]
+new = "Equipment to extract more mineral from mill pulp."
+status = "normal"
+
+["Building.TWGravityMill.FlavorDescription"]
+new = "If I said it's a Card table, would you get the pun?"
+status = "normal"
+
+["Recipe.TWGravityMillPulpGold"]
+new = "Gold"
+status = "normal"
+
+["Recipe.TWLeachPlantMillPulpGold"]
+new = "Gold"
+status = "normal"
+
+["Recipe.TWDumpTailings"]
+new = "Dump tailings"
+status = "normal"
+
+["Resource.TWTailings.DisplayName"]
+new = "Spent tailings"
+status = "normal"
+
+["Resource.TWTailings.Description"]
+new = "Waste that has no further value."
+status = "normal"
+
+["Resource.TWTailings.FlavorDescription"]
+new = "“Yuck” — Pina"
+status = "normal"
+
+["Building.TWTailingsCollector.Description"]
+new = "Digs up mill pulp that was dumped, for further processing."
+status = "normal"
+
+["Building.TWTailingsCollector.FlavorDescription"]
+new = "“Them old-timers just throwed all this dirt away!” — Dusty"
+status = "normal"
+
+["Building.TWTailingsCollector.DisplayName"]
+new = "Tailings Collector"
+status = "normal"
+
+["Building.TWLeachPlant.DisplayName"]
+new = "Leach Plant"
+status = "normal"
+
+["Building.TWLeachPlant.Description"]
+new = "Treats mill pulp with chemicals to extract more metal"
+status = "normal"
+
+["Building.TWLeachPlant.FlavorDescription"]
+new = "“Fortunately, our rivers flow with solvents.” — Dusty"
+status = "normal"
+
+["ModSetting.TWMoreMines.TailingsErosionThreshold"]
+new = "Tailings erosion threshold"
+status = "normal"
+
+["ModSetting.TWMoreMines.TailingsErosionThresholdDesc"]
+new = "Amount of water flow needed to start eroding tailings. 0.01 is good for active erosion. When active erosion is off, 0.1 works better. Set to 100 to turn off erosion. Valid range 0 - 100"
+status = "normal"
+
+["ModSetting.TWMoreMines.ActiveTailingsErosion"]
+new = "Active tailings erosion"
+status = "normal"
+
+["ModSetting.TWMoreMines.ActiveTailingsErosionDesc"]
+new = "When checked, tailings will use a better erosion simulation. More CPU intensive, but allows tailings to erode over time, when exposed to flowing water."
+status = "normal"
+
+["ModSetting.TWMoreMines.TailingsErosionFactor"]
+new = "Tailings Erosion Factor"
+status = "normal"
+
+["ModSetting.TWMoreMines.TailingsErosionFactorDesc"]
+new = "When active erosion is checked, the amount of erosion is multiplied by this factor. Valid range 0-10, default is 1"
+status = "normal"

@@ -1,0 +1,118 @@
+[_meta]
+name = "Distro Storages"
+
+["LV.DS.Range"]
+new = "Range"
+status = "normal"
+
+["LV.DS.RangeDesc"]
+new = "The range of the Distro storage.\nItems can be sent from a storage to another building this range.\nDefault: 3"
+status = "normal"
+
+["LV.DS.TransferRate"]
+new = "Transfer Rate (items/hour)"
+status = "normal"
+
+["LV.DS.TransferRateDesc"]
+new = "How many items can a Distro sender send per hour."
+status = "normal"
+
+["LV.DS.StockpileEnableDefault"]
+new = "Storage enabled by default"
+status = "normal"
+
+["LV.DS.StockpileEnableDefaultDesc"]
+new = "Whether Distro storage is enabled by default for Storage buildings."
+status = "normal"
+
+["LV.DS.EnableConstruction"]
+new = "Enable for Constructions"
+status = "normal"
+
+["LV.DS.EnableConstructionDesc"]
+new = "Whether Distro storage can send items to construction sites."
+status = "normal"
+
+["LV.DS.EnableDefault"]
+new = "▶ Enabled by default"
+status = "normal"
+
+["LV.DS.EnableDefaultDesc"]
+new = "Whether Distro storage is enabled by default for these."
+status = "normal"
+
+["LV.DS.EnableManufactory"]
+new = "Enable for Manufactory buildings"
+status = "normal"
+
+["LV.DS.EnableManufactoryDesc"]
+new = "Whether Distro storage can send ingredients to manufactory buildings.\nThe output is <RedHighlight>not</RedHighlight> sent back."
+status = "normal"
+
+["LV.DS.DistroSender"]
+new = "Distro Sender"
+status = "normal"
+
+["LV.DS.DistroReceiver"]
+new = "Distro Receiver"
+status = "normal"
+
+["LV.DS.InRangeForReceiver"]
+new = "Senders in Range"
+status = "normal"
+
+["LV.DS.InRangeForSender"]
+new = "Receivers in Range"
+status = "normal"
+
+["LV.DS.Select"]
+new = "Select"
+status = "normal"
+
+["LV.DS.Enabled"]
+new = "Enabled"
+status = "normal"
+
+["LV.DS.Disabled"]
+new = "Disabled"
+status = "normal"
+
+["LV.DS.EnabledDescSender"]
+new = "Items from this building can be sent to receivers"
+status = "normal"
+
+["LV.DS.EnabledDescReceiver"]
+new = "Items can be sent to this building from senders"
+status = "normal"
+
+["LV.DS.NoneInRange"]
+new = "None in range"
+status = "normal"
+
+["LV.DS.NextTransfer"]
+new = "Next transfer: {0:0.00}h"
+status = "normal"
+
+["LV.DS.Priority"]
+new = "Receiver Priority"
+status = "normal"
+
+["LV.DS.SettingsDisplay"]
+new = "{0}, Priority: {1}"
+status = "normal"
+
+[Name_DistroStorageFragment]
+new = "Distro Storage"
+status = "normal"
+
+["LV.MT.BldSet.StockpileDistroSender"]
+new = "Stockpile Distro"
+status = "normal"
+
+["LV.MT.BldSet.ManufactoryDistroReceiver"]
+new = "Manufactory Distro"
+status = "normal"
+
+["LV.MT.BldSet.ConstructionSiteDistroReceiver"]
+new = "Construction Site Distro"
+status = "normal"

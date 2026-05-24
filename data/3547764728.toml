@@ -273,21 +273,9 @@ koKR = "다이너마이트를 선택할 때 파괴될 지형과 건물을 표시
 csCZ = "Zobrazit terén a budovy, které by byly zničeny při výběru Dynamitu. Pokud máte povolený modul Multi-directional Dynamite, tato možnost není potřebná a tento modul tuto možnost vždy aktivuje."
 viVN = "Hiển thị địa hình và các công trình sẽ bị phá hủy khi chọn thuốc nổ.\nNếu bạn đã kích hoạt mod Thuốc nổ đa hướng, tùy chọn này sẽ không cần thiết và mod đó sẽ luôn bật tùy chọn này."
 
-["LV.T4UX.UpdateText740"]
-raw = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+["LV.T4UX.UpdateText1020"]
+new = "- Added a new option: 'Add hourly production time' to add 'x/h' info in the Recipe details."
 status = "normal"
-enUS = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
-zhCN = "- 新增'复制建筑'功能。在使用默认（光标）工具时，中键点击（鼠标3键，可重新绑定）建筑可快速切换到该建筑工具。随后还可按住Shift键使用'Shift键删除'功能删除匹配的建筑。<br>- 以下功能现可在地图编辑器中工作：最近使用的工具、可折叠实体面板以及新增的复制建筑功能。<br>- 修复了在模组设置中禁用闲置工人警告无效的问题。<br>- 修复了最近使用工具快捷键无效的问题。"
-zhTW = "- 新增「複製建築」功能。在默認（游標）工具下，使用中鍵點擊（滑鼠 3，可重新綁定）建築，以快速切換到該建築工具。然後您也可以按住 Shift 來使用「Shift 刪除」功能刪除匹配的建築。\n- 以下功能現在在地圖編輯器中可用：最近工具、可摺疊的實體面板和最近新增的複製建築。\n- 修正了來自模組設置的閒置工作者警告無法關閉的問題。\n- 修正了最近工具熱鍵無法使用的問題。"
-ruRU = "- Добавлена функция 'Копировать здание'. Находясь в стандартном (Курсор) инструменте, нажмите среднюю кнопку мыши (кнопка 3, переназначаемая) на здании, чтобы быстро переключиться на инструмент этого здания. Также вы можете удерживать Shift, чтобы удалить совпадающие здания с функцией 'Shift для удаления'.\n- Следующие функции теперь работают в редакторе карт: Последний инструмент, С collapsing entity panels и недавно добавленная функция Копировать здание.\n- Исправлено, что предупреждение о неактивных работниках из настроек мода не работает.\n- Исправлена проблема с горячей клавишей для последнего инструмента, которая тоже не работала."
-jaJP = "- 「建物をコピー」機能を追加しました。デフォルトの（カーソル）ツールで、建物を中クリック（マウス3、リバインド可能）すると、その建物のツールにすぐに切り替えることができます。その後、Shiftキーを押し続けることで、「Shiftで削除」機能を使って一致する建物を削除することもできます。\n- 次の機能がマップエディタで動作するようになりました：最近使ったツール、折りたたみ可能なエンティティパネル、および最近追加された「建物をコピー」機能。\n- モッド設定からのアイドル作業者警告が無効にならない不具合を修正しました。\n- 最近使ったツールのホットキーが機能しない不具合を修正しました。"
-frFR = "- Ajout de la fonctionnalité 'Copier bâtiment'. En utilisant l'outil par défaut (Curseur), cliquez avec le bouton du milieu (souris 3, reconfigurable) sur un bâtiment pour basculer rapidement vers cet outil de bâtiment. Vous pouvez également maintenir la touche Maj enfoncée pour supprimer les bâtiments correspondants avec la fonction 'Supprimer avec Maj'.\n- Les fonctionnalités suivantes fonctionnent désormais dans l'Éditeur de carte : outil récent, panneaux d'entités réductibles et la fonction 'Copier bâtiment' récemment ajoutée.\n- Correction de l'avertissement de travailleur inactif désactivé dans les Paramètres du Mod qui ne fonctionnait pas.\n- Correction de la touche de raccourci de l'outil récent qui ne fonctionnait pas."
-deDE = "- Neue 'Gebäude kopieren'-Funktion hinzugefügt. Während du im Standardwerkzeug (Cursor) bist, klicke mit der mittleren Maustaste (Maus 3, neu belegbar) auf ein Gebäude, um schnell zu diesem Gebäude-Werkzeug zu wechseln. Du kannst dann auch die Shift-Taste gedrückt halten, um entsprechende Gebäude mit der Funktion 'Shift zum Löschen' zu entfernen.\n- Die folgenden Funktionen funktionieren jetzt im Karteneditor: Aktuelles Werkzeug, zusammenklappbare Entitätspanels und das kürzlich hinzugefügte Gebäude kopieren.\n- Das Deaktivieren der Warnung für inaktive Arbeiter in den Mod-Einstellungen funktioniert nicht.\n- Hotkey für aktuelles Werkzeug funktioniert nicht."
-plPL = "- Dodano funkcję 'Kopiuj budynek'. Będąc w domyślnym narzędziu (Kursor), kliknij środkowym przyciskiem myszy (mysz 3, można zmienić przypisanie) na budynku, aby szybko przełączyć się na to narzędzie budowlane. Możesz również przytrzymać Shift, aby usunąć pasujące budynki z funkcją 'Shift do usunięcia'.\n- Następujące funkcje są teraz aktywne w Edytorze Map: Ostatnie narzędzie, Złożone panele obiektów oraz niedawno dodany Kopiuj budynek.\n- Naprawiono problem z brakiem działania ostrzeżenia o bezczynnym robotniku z Ustawień Moda.\n- Naprawiono nie działający skrót klawiszowy dla ostatniego narzędzia."
-ptBR = "- Adicionada a função 'Copiar edifício'. Enquanto estiver na ferramenta padrão (Cursor), clique com o botão do meio do mouse (mouse 3, reatributível) em um edifício para mudar rapidamente para a ferramenta desse edifício. Você também pode segurar Shift para deletar edifícios correspondentes com a função 'Shift para Deletar'.\n- As seguintes funções agora funcionam no Editor de Mapas: Ferramenta recente, painéis de entidades recolhíveis e a função 'Copiar edifício' recém-adicionada.\n- Corrigido o aviso de trabalhador ocioso desativado nas Configurações do Mod que não estava funcionando.\n- Corrigido a tecla de atalho da ferramenta recente que não estava funcionando."
-koKR = "- '건물 복사' 기능이 추가 되었습니다. 기본(커서) 도구에서 건물 위에 마우스 중간 클릭(마우스 3, 다시 바인딩 가능)을 통해 해당 건물 도구로 빠르게 전환할 수 있습니다. 또한 Shift 키를 누른 채로 '삭제를 위한 Shift' 기능을 사용하여 일치하는 건물을 삭제할 수 있습니다.\n- 다음 기능이 이제 맵 편집기에서 작동합니다: 최근 도구, 접을 수 있는 개체 패널 및 최근에 추가된 건물 복사.\n- 모드 설정에서 유휴 작업자 경고 비활성화가 작동하지 않는 문제를 수정했습니다.\n- 최근 도구의 핫키가 작동하지 않는 문제를 수정했습니다."
-csCZ = "- Přidána funkce 'Kopírovat budovu'. Při použití výchozího nástroje (kurzor) klikněte středním tlačítkem myši (myš 3, přemapovatelné) na budovu pro rychlé přepnutí na nástroj této budovy. Můžete také držet Shift, abyste s funkcí 'Shift k odstranění' smazali odpovídající budovy.\n- Následující funkce nyní fungují v editoru map: Nedávný nástroj, skládací panely entit a nedávno přidaná funkce Kopírovat budovu.\n- Opraveno nefungování varování o nečinném pracovníkovi z nastavení modu.\n- Opraveno nefungování klávesové zkratky pro nedávný nástroj."
-viVN = "- Thêm tính năng 'Sao chép công trình'. Trong công cụ mặc định (công cụ con trỏ), nhấp giữa chuột (chuột 3, có thể gán lại) trên một tòa nhà để nhanh chóng chuyển sang công cụ xây dựng tương ứng. Bạn cũng có thể giữ phím Shift để xóa các tòa nhà tương ứng với chức năng 'Shift to Delete'.\n- Các tính năng sau đây nay đã hoạt động trong Trình chỉnh sửa bản đồ: Công cụ gần đây, Các bảng điều khiển thực thể có thể thu gọn và tính năng Sao chép công trình vừa được thêm.\n- Đã sửa lỗi vô hiệu hóa cảnh báo công nhân nhàn rỗi từ Cài đặt Mod không hoạt động.\n- Đã sửa lỗi phím tắt của công cụ gần đây không hoạt động."
 
 ["LV.T4UX.WorkerIdleWarning"]
 raw = "Warning about idle workers"
@@ -416,6 +404,14 @@ ptBR = "Rotação Cardinal à Direita"
 koKR = "북극 시계 방향 회전"
 csCZ = "Kardinální otáčení doprava"
 viVN = "Xoay phải các hướng tứ phương"
+
+["LV.T4UX.ReverseProductionTime"]
+new = "Add hourly production time"
+status = "normal"
+
+["LV.T4UX.ReverseProductionTimeDesc"]
+new = "Add hourly consumption and production time to the Recipe details."
+status = "normal"
 
 [Name_AdjustableStrengthPowerGeneratorFragment]
 raw = "Dev Power Generator"
@@ -1682,8 +1678,8 @@ csCZ = "Nestabilní jádro ladění"
 viVN = "Gỡ lỗi Lõi Không Ổn Định"
 
 [Name_FlowSensorFragment]
-status = "normal"
 raw = "Flow Sensor"
+status = "normal"
 enUS = "Flow Sensor"
 zhCN = "流量传感器"
 zhTW = "流量傳感器"
@@ -1698,8 +1694,8 @@ csCZ = "Sensor toku"
 viVN = "Cảm biến lưu lượng"
 
 [Name_RelayFragment]
-status = "normal"
 raw = "Relay"
+status = "normal"
 enUS = "Relay"
 zhCN = "中继"
 zhTW = "中繼器"
@@ -1714,8 +1710,8 @@ csCZ = "Relay"
 viVN = "Relay"
 
 [Name_DepthSensorFragment]
-status = "normal"
 raw = "Depth Sensor"
+status = "normal"
 enUS = "Depth Sensor"
 zhCN = "深度传感器"
 zhTW = "深度感應器"
@@ -1730,8 +1726,8 @@ csCZ = "Hlubinoměr"
 viVN = "Cảm biến độ sâu"
 
 [Name_ContaminationSensorFragment]
-status = "normal"
 raw = "Contamination Sensor"
+status = "normal"
 enUS = "Contamination Sensor"
 zhCN = "污染传感器"
 zhTW = "污染感測器"
@@ -1746,8 +1742,8 @@ csCZ = "Sensor znečištění"
 viVN = "Cảm biến ô nhiễm"
 
 [Name_ChronometerFragment]
-status = "normal"
 raw = "Chronometer"
+status = "normal"
 enUS = "Chronometer"
 zhCN = "秒表"
 zhTW = "計時器"
@@ -1762,8 +1758,8 @@ csCZ = "Chronometr"
 viVN = "Đồng hồ bấm giờ"
 
 [Name_WeatherStationFragment]
-status = "normal"
 raw = "Weather Station"
+status = "normal"
 enUS = "Weather Station"
 zhCN = "气象站"
 zhTW = "氣象站"
@@ -1778,8 +1774,8 @@ csCZ = "Meteorologická stanice"
 viVN = "Trạm Thời Tiết"
 
 [Name_PowerMeterFragment]
-status = "normal"
 raw = "Power Meter"
+status = "normal"
 enUS = "Power Meter"
 zhCN = "功率计"
 zhTW = "電力計"
@@ -1794,8 +1790,8 @@ csCZ = "Výkonový Metr"
 viVN = "Đồng hồ năng lượng"
 
 [Name_PopulationCounterFragment]
-status = "normal"
 raw = "Population Counter"
+status = "normal"
 enUS = "Population Counter"
 zhCN = "人口计数器"
 zhTW = "人口計數器"
@@ -1810,8 +1806,8 @@ csCZ = "Čítač populace"
 viVN = "Đếm Dân Số"
 
 [Name_PopulationCounterFragment_BottomSection]
-status = "normal"
 raw = "Population Counter 2"
+status = "normal"
 enUS = "Population Counter 2"
 zhCN = "“人口计数器 2”"
 zhTW = "人口計數器 2"
@@ -1826,8 +1822,8 @@ csCZ = "Počítadlo obyvatel 2"
 viVN = "Máy đếm dân số 2"
 
 [Name_ResourceCounterFragment]
-status = "normal"
 raw = "Resource Counter"
+status = "normal"
 enUS = "Resource Counter"
 zhCN = "资源计数器"
 zhTW = "資源計數器"
@@ -1842,8 +1838,8 @@ csCZ = "Čítač zdrojů"
 viVN = "Đếm tài nguyên"
 
 [Name_ResourceCounterFragment_BottomSection]
-status = "normal"
 raw = "Resource Counter 2"
+status = "normal"
 enUS = "Resource Counter 2"
 zhCN = "资源计数器 2"
 zhTW = "資源計數器 2"
@@ -1858,8 +1854,8 @@ csCZ = "Čítač zdrojů 2"
 viVN = "Đếm Tài Nguyên 2"
 
 [Name_IndicatorFragment]
-status = "normal"
 raw = "Indicator"
+status = "normal"
 enUS = "Indicator"
 zhCN = "指示器"
 zhTW = "指示器"
@@ -1874,8 +1870,8 @@ csCZ = "Ukazatel"
 viVN = "Một chỉ báo"
 
 [Name_FireworkLauncherFragment]
-status = "normal"
 raw = "Firework Launcher"
+status = "normal"
 enUS = "Firework Launcher"
 zhCN = "烟火发射器"
 zhTW = "煙火發射器"
@@ -1890,8 +1886,8 @@ csCZ = "Výbušný odpalovač"
 viVN = "Máy bắn pháo"
 
 [Name_TimerFragment]
-status = "normal"
 raw = "Timer"
+status = "normal"
 enUS = "Timer"
 zhCN = "计时器"
 zhTW = "計時器"
@@ -1906,8 +1902,8 @@ csCZ = "Časovač"
 viVN = "Đồng hồ bấm giờ"
 
 [Name_MemoryFragment]
-status = "normal"
 raw = "Memory"
+status = "normal"
 enUS = "Memory"
 zhCN = "记忆"
 zhTW = "記憶"
@@ -1922,8 +1918,8 @@ csCZ = "Paměť"
 viVN = "Ký ức"
 
 [Name_WeatherStationFragment_EarlyActivationSection]
-status = "normal"
 raw = "Early Activation"
+status = "normal"
 enUS = "Early Activation"
 zhCN = "提前激活"
 zhTW = "「早期啟動」"
@@ -2050,8 +2046,8 @@ csCZ = "[NEDOHÝBEJ]"
 viVN = "[KHONG_THU_GON]"
 
 [Name_DistrictCenterFragment_WorkerType]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2066,8 +2062,8 @@ csCZ = "[NEKOLAPSOVAT]"
 viVN = "[KHÔNG_SỤP_XUỐNG]"
 
 [Name_LeverFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2082,8 +2078,8 @@ csCZ = "[NEZKRUŠIT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_LeverFragment_CheckboxSection]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[請勿折疊]"
@@ -2098,8 +2094,8 @@ csCZ = "[NEZKLADEJ]"
 viVN = "[KHÔNG_GIẢM_NHẸ]"
 
 [Name_GateFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2114,8 +2110,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_SpeakerFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2130,8 +2126,8 @@ csCZ = "[NEZRUŠOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_SpeakerFragment_SpatialModeWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2146,8 +2142,8 @@ csCZ = "[NEZANIKAT]"
 viVN = "[KHÔNG_GỘP]"
 
 [Name_SpeakerFragment_]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2162,8 +2158,8 @@ csCZ = "[NEDRŽIT_SE]"
 viVN = "[KHÔNG_GỘP]"
 
 [Name_ClutchFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2178,8 +2174,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_ValveFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[請勿折疊]"
@@ -2194,8 +2190,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_ValveFragment_AutomationOutflowLimitWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2210,8 +2206,8 @@ csCZ = "[NE_SKRÝVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_ValveFragment_ReactionSpeedWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2226,8 +2222,8 @@ csCZ = "[NEZHVĚZDUJ]"
 viVN = "[KHÔNG_GỌN_THEO]"
 
 [Name_ValveFragment_SynchronizeWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2242,8 +2238,8 @@ csCZ = "[NEDOTAHUJTE_VE_VNITŘ]"
 viVN = "[KHÔNG_GỘP]"
 
 [Name_ScienceCounterFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2258,8 +2254,8 @@ csCZ = "[NEZPŘIŠTŇOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_FireworkLauncherFragment_FireworkLauncherFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2274,8 +2270,8 @@ csCZ = "[NEZMRŠŤUJTE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_SequentialTransmitterResetFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2290,8 +2286,8 @@ csCZ = "[NEROZBALOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_TransmitterFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2306,8 +2302,8 @@ csCZ = "[NE_SKLÁDAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_FireworkLauncherInventoryFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2322,8 +2318,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_AutomatableFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2338,8 +2334,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_HttpAdapterFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[请勿折叠]"
 zhTW = "[勿折疊]"
@@ -2354,8 +2350,8 @@ csCZ = "[NEZBALOVAT]"
 viVN = "[KHÔNG_GIẢM]"
 
 [Name_HttpAdapterFragment_SwitchedOffWebhookSection]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2370,8 +2366,8 @@ csCZ = "[NEZKRAŤOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_HttpAdapterFragment_MethodSection]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[請勿折疊]"
@@ -2386,8 +2382,8 @@ csCZ = "[NEZPŘEHÝBAT]"
 viVN = "[KHÔNG_GỘN]"
 
 [Name_HttpLeverFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2402,8 +2398,8 @@ csCZ = "[NEDOHÁZET]"
 viVN = "[KHÔNG_GỘP]"
 
 [Name_HttpLeverFragment_SwitchOffWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2418,8 +2414,8 @@ csCZ = "[NEROZBALOVAT]"
 viVN = "[KHÔNG_GỌN_LẠI]"
 
 [Name_CustomizableIlluminatorFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2434,8 +2430,8 @@ csCZ = "[NEDO_NA_SLOUPNOUT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_HttpApiFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2450,8 +2446,8 @@ csCZ = "[NEZESKLOPIT]"
 viVN = "[KHÔNG_GIẢM_NGƯNG]"
 
 [Name_FillValveFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2466,8 +2462,8 @@ csCZ = "[NEZRUŠIT]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_FillValveFragment_AutomationTargetHeightWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2482,8 +2478,8 @@ csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
 
 [Name_FillValveFragment_SynchronizeWrapper]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -2496,3 +2492,19 @@ ptBR = "[NÃO_RECOLHA]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZKRAŤOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+
+["LV.T4UX.UpdateText740"]
+raw = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+status = "abandoned"
+enUS = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
+zhCN = "- 新增'复制建筑'功能。在使用默认（光标）工具时，中键点击（鼠标3键，可重新绑定）建筑可快速切换到该建筑工具。随后还可按住Shift键使用'Shift键删除'功能删除匹配的建筑。<br>- 以下功能现可在地图编辑器中工作：最近使用的工具、可折叠实体面板以及新增的复制建筑功能。<br>- 修复了在模组设置中禁用闲置工人警告无效的问题。<br>- 修复了最近使用工具快捷键无效的问题。"
+zhTW = "- 新增「複製建築」功能。在默認（游標）工具下，使用中鍵點擊（滑鼠 3，可重新綁定）建築，以快速切換到該建築工具。然後您也可以按住 Shift 來使用「Shift 刪除」功能刪除匹配的建築。\n- 以下功能現在在地圖編輯器中可用：最近工具、可摺疊的實體面板和最近新增的複製建築。\n- 修正了來自模組設置的閒置工作者警告無法關閉的問題。\n- 修正了最近工具熱鍵無法使用的問題。"
+ruRU = "- Добавлена функция 'Копировать здание'. Находясь в стандартном (Курсор) инструменте, нажмите среднюю кнопку мыши (кнопка 3, переназначаемая) на здании, чтобы быстро переключиться на инструмент этого здания. Также вы можете удерживать Shift, чтобы удалить совпадающие здания с функцией 'Shift для удаления'.\n- Следующие функции теперь работают в редакторе карт: Последний инструмент, С collapsing entity panels и недавно добавленная функция Копировать здание.\n- Исправлено, что предупреждение о неактивных работниках из настроек мода не работает.\n- Исправлена проблема с горячей клавишей для последнего инструмента, которая тоже не работала."
+jaJP = "- 「建物をコピー」機能を追加しました。デフォルトの（カーソル）ツールで、建物を中クリック（マウス3、リバインド可能）すると、その建物のツールにすぐに切り替えることができます。その後、Shiftキーを押し続けることで、「Shiftで削除」機能を使って一致する建物を削除することもできます。\n- 次の機能がマップエディタで動作するようになりました：最近使ったツール、折りたたみ可能なエンティティパネル、および最近追加された「建物をコピー」機能。\n- モッド設定からのアイドル作業者警告が無効にならない不具合を修正しました。\n- 最近使ったツールのホットキーが機能しない不具合を修正しました。"
+frFR = "- Ajout de la fonctionnalité 'Copier bâtiment'. En utilisant l'outil par défaut (Curseur), cliquez avec le bouton du milieu (souris 3, reconfigurable) sur un bâtiment pour basculer rapidement vers cet outil de bâtiment. Vous pouvez également maintenir la touche Maj enfoncée pour supprimer les bâtiments correspondants avec la fonction 'Supprimer avec Maj'.\n- Les fonctionnalités suivantes fonctionnent désormais dans l'Éditeur de carte : outil récent, panneaux d'entités réductibles et la fonction 'Copier bâtiment' récemment ajoutée.\n- Correction de l'avertissement de travailleur inactif désactivé dans les Paramètres du Mod qui ne fonctionnait pas.\n- Correction de la touche de raccourci de l'outil récent qui ne fonctionnait pas."
+deDE = "- Neue 'Gebäude kopieren'-Funktion hinzugefügt. Während du im Standardwerkzeug (Cursor) bist, klicke mit der mittleren Maustaste (Maus 3, neu belegbar) auf ein Gebäude, um schnell zu diesem Gebäude-Werkzeug zu wechseln. Du kannst dann auch die Shift-Taste gedrückt halten, um entsprechende Gebäude mit der Funktion 'Shift zum Löschen' zu entfernen.\n- Die folgenden Funktionen funktionieren jetzt im Karteneditor: Aktuelles Werkzeug, zusammenklappbare Entitätspanels und das kürzlich hinzugefügte Gebäude kopieren.\n- Das Deaktivieren der Warnung für inaktive Arbeiter in den Mod-Einstellungen funktioniert nicht.\n- Hotkey für aktuelles Werkzeug funktioniert nicht."
+plPL = "- Dodano funkcję 'Kopiuj budynek'. Będąc w domyślnym narzędziu (Kursor), kliknij środkowym przyciskiem myszy (mysz 3, można zmienić przypisanie) na budynku, aby szybko przełączyć się na to narzędzie budowlane. Możesz również przytrzymać Shift, aby usunąć pasujące budynki z funkcją 'Shift do usunięcia'.\n- Następujące funkcje są teraz aktywne w Edytorze Map: Ostatnie narzędzie, Złożone panele obiektów oraz niedawno dodany Kopiuj budynek.\n- Naprawiono problem z brakiem działania ostrzeżenia o bezczynnym robotniku z Ustawień Moda.\n- Naprawiono nie działający skrót klawiszowy dla ostatniego narzędzia."
+ptBR = "- Adicionada a função 'Copiar edifício'. Enquanto estiver na ferramenta padrão (Cursor), clique com o botão do meio do mouse (mouse 3, reatributível) em um edifício para mudar rapidamente para a ferramenta desse edifício. Você também pode segurar Shift para deletar edifícios correspondentes com a função 'Shift para Deletar'.\n- As seguintes funções agora funcionam no Editor de Mapas: Ferramenta recente, painéis de entidades recolhíveis e a função 'Copiar edifício' recém-adicionada.\n- Corrigido o aviso de trabalhador ocioso desativado nas Configurações do Mod que não estava funcionando.\n- Corrigido a tecla de atalho da ferramenta recente que não estava funcionando."
+koKR = "- '건물 복사' 기능이 추가 되었습니다. 기본(커서) 도구에서 건물 위에 마우스 중간 클릭(마우스 3, 다시 바인딩 가능)을 통해 해당 건물 도구로 빠르게 전환할 수 있습니다. 또한 Shift 키를 누른 채로 '삭제를 위한 Shift' 기능을 사용하여 일치하는 건물을 삭제할 수 있습니다.\n- 다음 기능이 이제 맵 편집기에서 작동합니다: 최근 도구, 접을 수 있는 개체 패널 및 최근에 추가된 건물 복사.\n- 모드 설정에서 유휴 작업자 경고 비활성화가 작동하지 않는 문제를 수정했습니다.\n- 최근 도구의 핫키가 작동하지 않는 문제를 수정했습니다."
+csCZ = "- Přidána funkce 'Kopírovat budovu'. Při použití výchozího nástroje (kurzor) klikněte středním tlačítkem myši (myš 3, přemapovatelné) na budovu pro rychlé přepnutí na nástroj této budovy. Můžete také držet Shift, abyste s funkcí 'Shift k odstranění' smazali odpovídající budovy.\n- Následující funkce nyní fungují v editoru map: Nedávný nástroj, skládací panely entit a nedávno přidaná funkce Kopírovat budovu.\n- Opraveno nefungování varování o nečinném pracovníkovi z nastavení modu.\n- Opraveno nefungování klávesové zkratky pro nedávný nástroj."
+viVN = "- Thêm tính năng 'Sao chép công trình'. Trong công cụ mặc định (công cụ con trỏ), nhấp giữa chuột (chuột 3, có thể gán lại) trên một tòa nhà để nhanh chóng chuyển sang công cụ xây dựng tương ứng. Bạn cũng có thể giữ phím Shift để xóa các tòa nhà tương ứng với chức năng 'Shift to Delete'.\n- Các tính năng sau đây nay đã hoạt động trong Trình chỉnh sửa bản đồ: Công cụ gần đây, Các bảng điều khiển thực thể có thể thu gọn và tính năng Sao chép công trình vừa được thêm.\n- Đã sửa lỗi vô hiệu hóa cảnh báo công nhân nhàn rỗi từ Cài đặt Mod không hoạt động.\n- Đã sửa lỗi phím tắt của công cụ gần đây không hoạt động."

@@ -1,0 +1,30 @@
+[_meta]
+name = "Tank Evaporation"
+
+["TE.Header"]
+new = "Tank Evaporation"
+status = "normal"
+
+["TE.DailyLeak"]
+new = "Daily Leak: {0} units/day ({1}%)"
+status = "normal"
+
+["TE.DaysEmpty"]
+new = "Days Until Empty: {0} days"
+status = "normal"
+
+["TE.EvaporationPercent"]
+new = "Evaporation Rate (%)"
+status = "normal"
+
+["TE.EvaporationPercentTooltip"]
+new = "Percentage of max tank capacity lost per day. Default is 5. A large tank loses 60 units per day at 5%."
+status = "normal"
+
+["TE.WaterOnly"]
+new = "Water Tanks Only"
+status = "normal"
+
+["TE.WaterOnlyTooltip"]
+new = "When enabled only water tanks evaporate. When disabled all liquid tanks evaporate including badwater and extract. Default off."
+status = "normal"

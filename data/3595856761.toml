@@ -16,3 +16,191 @@ ptBR = "Chance de: {0}"
 koKR = "확률: {0}"
 csCZ = "Pravděpodobnost: {0}"
 viVN = "Xác suất: {0}"
+
+["Grauschweif.Seasons.TooltipHeader"]
+new = "<b>{0}</b> (year {1} day {2})"
+status = "normal"
+
+["Grauschweif.Seasons.TooltipNextSeason"]
+new = "Next season in {0} days."
+status = "normal"
+
+["Grauschweif.Seasons.Effect.PlantEffectsHeader"]
+new = "<u>Plants</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.GrowthBoost"]
+new = "Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.GrowthSlowdown"]
+new = "Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.DryingSlowdown"]
+new = "Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.DryingBoost"]
+new = "Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.YieldBoost"]
+new = "Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.Plant.YieldSlowdown"]
+new = "Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceEffectsHeader"]
+new = "<u>Water</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceStrengthBoost"]
+new = "Strength up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceStrengthSlowdown"]
+new = "Strength down <RedHighlight>{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceContaminationBoost"]
+new = "Contamination up <RedHighlight>{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WaterSourceContaminationSlowdown"]
+new = "Contamination down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.NeedEffectsHeader"]
+new = "<u>Needs</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.NeedChangeBoost"]
+new = "{1} down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.NeedChangeSlowdown"]
+new = "{1} up <RedHighlight>{0:0.#}%▲</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.BonusEffectsHeader"]
+new = "<u>Boni</u>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.BonusChangeBoost"]
+new = "{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.BonusChangeSlowdown"]
+new = "{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.SoilMoistureEffectsHeader"]
+new = "Moisture"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.SoilMoistureBoost"]
+new = "Wet soil <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.SoilMoistureSlowdown"]
+new = "Dry soil <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindMoistureEffectsHeader"]
+new = "Wind"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindBoost"]
+new = "Stronger wind (+{0:0.#})"
+status = "normal"
+
+["Grauschweif.Seasons.Effect.WindSlowdown"]
+new = "Weaker wind (-{0:0.#})"
+status = "normal"
+
+["Grauschweif.Season.Weather.Badtide.Autumn"]
+new = "Badtide"
+status = "normal"
+
+["Grauschweif.Season.Weather.Badtide.Spring"]
+new = "Badtide"
+status = "normal"
+
+["Grauschweif.Season.Weather.Badtide.Summer"]
+new = "Badtide"
+status = "normal"
+
+["Grauschweif.Season.Weather.Badtide.Winter"]
+new = "Badtide"
+status = "normal"
+
+["Grauschweif.Season.Weather.Drought.Autumn"]
+new = "Drought"
+status = "normal"
+
+["Grauschweif.Season.Weather.Drought.Spring"]
+new = "Drought"
+status = "normal"
+
+["Grauschweif.Season.Weather.Drought.Summer"]
+new = "Drought"
+status = "normal"
+
+["Grauschweif.Season.Weather.Drought.Winter"]
+new = "Drought"
+status = "normal"
+
+["Grauschweif.Season.Weather.Monsoon.Autumn"]
+new = "Monsoon"
+status = "normal"
+
+["Grauschweif.Season.Weather.Monsoon.Summer"]
+new = "Monsoon"
+status = "normal"
+
+["Grauschweif.Season.Weather.Monsoon.Winter"]
+new = "Monsoon"
+status = "normal"
+
+["Grauschweif.Season.Weather.Rain.Autumn"]
+new = "Rain"
+status = "normal"
+
+["Grauschweif.Season.Weather.Rain.Spring"]
+new = "Rain"
+status = "normal"
+
+["Grauschweif.Season.Weather.ShortTemperate.Summer"]
+new = "Short Temperate"
+status = "normal"
+
+["Grauschweif.Season.Weather.Snow.Winter"]
+new = "Snow"
+status = "normal"
+
+["Grauschweif.Season.Weather.SurprisinglyRefreshing.Autumn"]
+new = "Surprisingly Refreshing"
+status = "normal"
+
+["Grauschweif.Season.Weather.SurprisinglyRefreshing.Spring"]
+new = "Surprisingly Refreshing"
+status = "normal"
+
+["Grauschweif.Season.Weather.Temperate.Autumn"]
+new = "Temperate"
+status = "normal"
+
+["Grauschweif.Season.Weather.Temperate.Spring"]
+new = "Temperate"
+status = "normal"
+
+["Grauschweif.Season.Weather.Temperate.Summer"]
+new = "Temperate"
+status = "normal"
+
+["Grauschweif.Season.Weather.Temperate.Winter"]
+new = "Temperate"
+status = "normal"

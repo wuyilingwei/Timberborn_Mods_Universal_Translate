@@ -193,37 +193,13 @@ koKR = "전체 좌표 대신 높이만 표시합니다."
 csCZ = "Zobrazit pouze výšku místo plných souřadnic."
 viVN = "Chỉ hiển thị chiều cao thay vì tọa độ đầy đủ."
 
-["LV.TI.PrioritizeRubbles"]
-raw = "Prioritize rubbles"
+["LV.TI.DefaultRubblePriority"]
+new = "Default rubble priority"
 status = "normal"
-enUS = "Prioritize rubble"
-zhCN = "优先处理瓦砾堆"
-zhTW = "優先考慮瓦礫"
-ruRU = "Приоритизируйте обломки"
-jaJP = "瓦礫を優先する"
-frFR = "Priorisez les décombres."
-deDE = "Priorisieren Sie Trümmer"
-plPL = "Priorytetuj gruz."
-ptBR = "Priorize entulhos"
-koKR = "잔해 우선 순위"
-csCZ = "Prioritizovat sutě"
-viVN = "Ưu tiên đống đổ nát"
 
-["LV.TI.PrioritizeRubblesDesc"]
-raw = "Automatically set rubbles' priority to High."
+["LV.TI.DefaultRubblePriorityDesc"]
+new = "Set the default priority for rubbles."
 status = "normal"
-enUS = "Automatically set rubble's priority to High."
-zhCN = "勾选后，自动将瓦砾堆的优先级设置为高。"
-zhTW = "自動將碎石的優先順序設置為高。"
-ruRU = "Автоматически установите приоритет рублев на высокий."
-jaJP = "自動的にがれきの優先度を高に設定します。"
-frFR = "Définir automatiquement la priorité des décombres sur Élevée."
-deDE = "Setze die Priorität von Trümmern automatisch auf Hoch."
-plPL = "Automatycznie ustaw priorytet gruzów na wysoki."
-ptBR = "Defina automaticamente a prioridade dos entulhos como Alta."
-koKR = "잔해의 우선 순위를 자동으로 높음으로 설정합니다."
-csCZ = "Automaticky nastavit prioritu sutin na Vysokou."
-viVN = "Tự động thiết lập ưu tiên cho các đống đổ nát ở mức Cao."
 
 ["LV.TI.ShowGameTime"]
 raw = "Show game time"
@@ -848,6 +824,54 @@ ptBR = "Definir para a velocidade {0} (x{1})"
 koKR = "속도 {0} (x{1})로 설정"
 csCZ = "Nastavit na rychlost {0} (x{1})"
 viVN = "Đặt thành tốc độ {0} (x{1})"
+
+["LV.TI.DefaultBuildingPriority"]
+new = "Default building priority"
+status = "normal"
+
+["LV.TI.DefaultBuildingPriorityDesc"]
+new = "Set the default priority for buildings:\n- Very low - Very high: fixed priority on new building\n- Remember: remember the last priority you set and use it. Only work in the same session and is not saved."
+status = "normal"
+
+["LV.TI.DefaultBuildingPriorityRemember"]
+new = "Remember"
+status = "normal"
+
+["LV.TI.Update1220"]
+new = "Prioritize Rubbles has been changed to let you choose the priority. It has been reset to Normal. Please choose a new priority if you want to use it. A new opiton Default building priority has also been added."
+status = "normal"
+
+["LV.TI.PrioritizeRubbles"]
+raw = "Prioritize rubbles"
+status = "abandoned"
+enUS = "Prioritize rubble"
+zhCN = "优先处理瓦砾堆"
+zhTW = "優先考慮瓦礫"
+ruRU = "Приоритизируйте обломки"
+jaJP = "瓦礫を優先する"
+frFR = "Priorisez les décombres."
+deDE = "Priorisieren Sie Trümmer"
+plPL = "Priorytetuj gruz."
+ptBR = "Priorize entulhos"
+koKR = "잔해 우선 순위"
+csCZ = "Prioritizovat sutě"
+viVN = "Ưu tiên đống đổ nát"
+
+["LV.TI.PrioritizeRubblesDesc"]
+raw = "Automatically set rubbles' priority to High."
+status = "abandoned"
+enUS = "Automatically set rubble's priority to High."
+zhCN = "勾选后，自动将瓦砾堆的优先级设置为高。"
+zhTW = "自動將碎石的優先順序設置為高。"
+ruRU = "Автоматически установите приоритет рублев на высокий."
+jaJP = "自動的にがれきの優先度を高に設定します。"
+frFR = "Définir automatiquement la priorité des décombres sur Élevée."
+deDE = "Setze die Priorität von Trümmern automatisch auf Hoch."
+plPL = "Automatycznie ustaw priorytet gruzów na wysoki."
+ptBR = "Defina automaticamente a prioridade dos entulhos como Alta."
+koKR = "잔해의 우선 순위를 자동으로 높음으로 설정합니다."
+csCZ = "Automaticky nastavit prioritu sutin na Vysokou."
+viVN = "Tự động thiết lập ưu tiên cho các đống đổ nát ở mức Cao."
 
 ["LV.TI.AutoSpeed"]
 raw = "Auto-speed"

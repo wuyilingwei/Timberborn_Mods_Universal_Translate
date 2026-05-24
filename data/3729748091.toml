@@ -1,0 +1,134 @@
+[_meta]
+name = "Casthorde [ModContest1]"
+
+["Casthorde.Multiplayer"]
+new = "Multiplayer"
+status = "normal"
+
+["Casthorde.LobbyTitle"]
+new = "Multiplayer Lobby"
+status = "normal"
+
+["Casthorde.ReconnectingTitle"]
+new = "Reconnecting"
+status = "normal"
+
+["Casthorde.Ready"]
+new = "Ready"
+status = "normal"
+
+["Casthorde.NotReady"]
+new = "Not ready"
+status = "normal"
+
+["Casthorde.Host"]
+new = "Host"
+status = "normal"
+
+["Casthorde.HostBadge"]
+new = "HOST"
+status = "normal"
+
+["Casthorde.Invite"]
+new = "Invite"
+status = "normal"
+
+["Casthorde.Join"]
+new = "Join"
+status = "normal"
+
+["Casthorde.AvailableSlot"]
+new = "Available slot"
+status = "normal"
+
+["Casthorde.PlayerView"]
+new = "Player view"
+status = "normal"
+
+["Casthorde.LaunchGameButton"]
+new = "Launch the game"
+status = "normal"
+
+["Casthorde.NewMultiplayerGame"]
+new = "New multiplayer game"
+status = "normal"
+
+["Casthorde.LoadMultiplayerGame"]
+new = "Load multiplayer game"
+status = "normal"
+
+["Casthorde.KickPromptFormat"]
+new = "Kick {0} from the game?"
+status = "normal"
+
+["Casthorde.KickButton"]
+new = "Kick"
+status = "normal"
+
+["Casthorde.ReceivingHostSave"]
+new = "Receiving host's save..."
+status = "normal"
+
+["Casthorde.WaitingForHost"]
+new = "Waiting for the host..."
+status = "normal"
+
+["Casthorde.WaitingOtherPlayers"]
+new = "Waiting for other players..."
+status = "normal"
+
+["Casthorde.ReconnectingPlease"]
+new = "Reconnecting, please wait..."
+status = "normal"
+
+["Casthorde.ConnectingPlease"]
+new = "Connecting, please wait..."
+status = "normal"
+
+["Casthorde.HostPlacingCenter"]
+new = "The host is placing their first district center, please wait..."
+status = "normal"
+
+["Casthorde.OnlyHostCanSave"]
+new = "Only the host can save the game in multiplayer. Ask the host to save so all players share the same game state."
+status = "normal"
+
+["Casthorde.UnlockButton"]
+new = "Unlock"
+status = "normal"
+
+["Casthorde.UnlockPromptFormat"]
+new = "Unlock this building for {0}? Cost: {1} science."
+status = "normal"
+
+["Casthorde.NotEnoughScienceFormat"]
+new = "Not enough science for {0}. Cost: {1}, you have {2}."
+status = "normal"
+
+["Casthorde.Back"]
+new = "Back"
+status = "normal"
+
+["Casthorde.InitialPosition"]
+new = "Initial position"
+status = "normal"
+
+["Casthorde.DistrictOwnedByFormat"]
+new = "This district belongs to {0}."
+status = "normal"
+
+["Casthorde.ForeignDeleteFormat"]
+new = "The selected building belongs to district {0} of {1}; you cannot demolish it!"
+status = "normal"
+
+["Casthorde.ForeignPriorityFormat"]
+new = "The selected building belongs to district {0} of {1}; you cannot change its priority!"
+status = "normal"
+
+["Casthorde.ForeignMigrationFormat"]
+new = "These beavers belong to district {0} of {1}."
+status = "normal"
+
+["Casthorde.DebugPanelHint"]
+new = "F10 close · Esc close"
+status = "normal"

@@ -1,0 +1,182 @@
+[_meta]
+name = "Where Wyrms Wait [ModContest1]"
+
+["WWW.Settings.Header"]
+new = "Where Wyrms Wait"
+status = "normal"
+
+["WWW.Settings.ModEnabled"]
+new = "Enable mod"
+status = "normal"
+
+["WWW.Settings.ModEnabled.Tooltip"]
+new = "When off the mod still loads but no husk warms up and no wyrm acts. Useful for testing maps without disturbing the existing layout."
+status = "normal"
+
+["WWW.Settings.WakeSpeedPercent"]
+new = "Wake speed (%)"
+status = "normal"
+
+["WWW.Settings.WakeSpeedPercent.Tooltip"]
+new = "Multiplier applied on top of every husk's per-spec warmup days. 100% = default; lower = wyrms wake slower; higher = wyrms wake faster."
+status = "normal"
+
+["WWW.Settings.HungerRatePercent"]
+new = "Hunger rate (%)"
+status = "normal"
+
+["WWW.Settings.HungerRatePercent.Tooltip"]
+new = "Multiplier on hunger accumulation. Higher = wyrms hunt sooner and chew walls more aggressively."
+status = "normal"
+
+["WWW.Settings.ContaminationResistancePercent"]
+new = "Contamination resistance (%)"
+status = "normal"
+
+["WWW.Settings.ContaminationResistancePercent.Tooltip"]
+new = "Multiplier on the lethal contamination threshold. Higher = wyrms survive more total absorbed badwater before dying; killing one takes a sustained channeling effort."
+status = "normal"
+
+["WWW.Settings.SandboxMode"]
+new = "Sandbox mode"
+status = "normal"
+
+["WWW.Settings.SandboxMode.Tooltip"]
+new = "When on, wyrms still wake and walk but never damage beavers or buildings. Useful for map authors testing layouts."
+status = "normal"
+
+["Building.WyrmHusk.DisplayName"]
+new = "Wyrm Husk"
+status = "normal"
+
+["Building.WyrmHusk.Description"]
+new = "The dried husk of a slumbering wyrm. Wakes when the soil above turns green."
+status = "normal"
+
+["Building.WyrmHusk.Flavor"]
+new = "The earth remembers what slept beneath it."
+status = "normal"
+
+["WWW.Husk.WarmingStatus"]
+new = "Stirring"
+status = "normal"
+
+["WWW.Husk.DormantStatus"]
+new = "Dormant"
+status = "normal"
+
+["WWW.Den.ActiveStatus"]
+new = "Active"
+status = "normal"
+
+["WWW.Den.CooldownLabel"]
+new = "Next spawn in"
+status = "normal"
+
+["WWW.Den.LiveCountLabel"]
+new = "Live wyrms"
+status = "normal"
+
+["Creature.Wyrm.DisplayName"]
+new = "Wyrm"
+status = "normal"
+
+["Creature.Wyrm.Description"]
+new = "A starved, ancient predator that emerged from the soil. It hunts beavers and chews through unfortified walls. Cannot be cured of badwater contamination."
+status = "normal"
+
+["Creature.Wyrm.Flavor"]
+new = "The earth gives back what it kept."
+status = "normal"
+
+["WWW.Wyrm.HungerLabel"]
+new = "Hunger"
+status = "normal"
+
+["WWW.Wyrm.ContaminationLabel"]
+new = "Contamination"
+status = "normal"
+
+["WWW.Wyrm.SatedStatus"]
+new = "Sated"
+status = "normal"
+
+["WWW.Wyrm.HuntingStatus"]
+new = "Hunting"
+status = "normal"
+
+["WWW.Wyrm.StalkingStatus"]
+new = "Stalking"
+status = "normal"
+
+["WWW.Notification.BeaverEaten"]
+new = "Eaten by a wyrm"
+status = "normal"
+
+["Good.Soothesop.DisplayName"]
+new = "Soothesop"
+status = "normal"
+
+["Good.Soothesop.PluralDisplayName"]
+new = "Soothesop"
+status = "normal"
+
+["Recipe.Soothesop.DisplayName"]
+new = "Soothesop"
+status = "normal"
+
+["Building.WyrmForager.DisplayName"]
+new = "Wyrm Forager"
+status = "normal"
+
+["Building.WyrmForager.Description"]
+new = "A workshop that brews Soothesop from foraged berries and a measure of badwater. Soothesop is hauled to Lure Stakes to keep wyrms from chewing through containment walls."
+status = "normal"
+
+["Building.WyrmForager.Flavor"]
+new = "The recipe is older than the colony."
+status = "normal"
+
+["Building.LureStake.DisplayName"]
+new = "Lure Stake"
+status = "normal"
+
+["Building.LureStake.Description"]
+new = "A wooden stake that holds a small store of Soothesop. Wyrms within range stop chewing through walls while the stake is stocked. Beavers in range still get eaten."
+status = "normal"
+
+["Building.LureStake.Flavor"]
+new = "Place it where you'd rather the wyrm chew the bait than your levee."
+status = "normal"
+
+["Building.WyrmDen.DisplayName"]
+new = "Wyrm Den"
+status = "normal"
+
+["Building.WyrmDen.Description"]
+new = "A nest of slumbering wyrms. Wakes when the soil above turns green and continues to spawn wyrms periodically while the cover stays moist. Killed only by dynamite."
+status = "normal"
+
+["Building.WyrmDen.Flavor"]
+new = "There is more than one in the dark."
+status = "normal"
+
+["WWW.Notification.WyrmEmerged"]
+new = "A wyrm has emerged!"
+status = "normal"
+
+["WWW.Notification.WyrmDied"]
+new = "The wyrm is dead."
+status = "normal"
+
+["WWW.Notification.DenDestroyed"]
+new = "A wyrm den was destroyed."
+status = "normal"
+
+["WWW.Wyrm.PoisonedStatus"]
+new = "Poisoned"
+status = "normal"
+
+["WWW.Wyrm.DevKillButton"]
+new = "Kill wyrm (dev)"
+status = "normal"

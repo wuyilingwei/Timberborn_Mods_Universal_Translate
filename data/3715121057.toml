@@ -1,0 +1,86 @@
+[_meta]
+name = "Move Building"
+
+["MoveBuildings.ToolName"]
+new = "Move"
+status = "normal"
+
+["MoveBuildings.ToolDescription"]
+new = "Relocate a placed building to a new tile. Inventory and workers are preserved."
+status = "normal"
+
+["MoveBuildings.Tooltip.Pick"]
+new = "Click a building to move"
+status = "normal"
+
+["MoveBuildings.Tooltip.Place"]
+new = "Click a valid tile to place"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidLinked"]
+new = "Linked buildings cannot be moved"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidPath"]
+new = "Paths cannot be moved"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidBlocked"]
+new = "Target tile is occupied"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidDistrictCenter"]
+new = "District centers use their own relocate option"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidPreview"]
+new = "Unplaced previews cannot be moved"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidUnplaceable"]
+new = "This building has no placement data"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidUnderConstruction"]
+new = "Under-construction buildings cannot be moved"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidNoDistrict"]
+new = "Building has no district to charge"
+status = "normal"
+
+["MoveBuildings.Tooltip.InvalidNotEnoughResources"]
+new = "Not enough resources in district"
+status = "normal"
+
+["MoveBuildings.Toast.MovedFormat"]
+new = "Moved {0}"
+status = "normal"
+
+["MoveBuildings.Toast.MovedFreeFormat"]
+new = "Moved {0}"
+status = "normal"
+
+["MoveBuildings.Toast.MovedWithCostFormat"]
+new = "Moved {0} - charged {1}"
+status = "normal"
+
+["MoveBuildings.Cost.Header"]
+new = "Move cost"
+status = "normal"
+
+["MoveBuildings.Cost.RefundHeader"]
+new = "Refund"
+status = "normal"
+
+["MoveBuildings.Cost.NetHeader"]
+new = "Net cost"
+status = "normal"
+
+["MoveBuildings.Cost.Free"]
+new = "Free move (full refund)"
+status = "normal"
+
+["MoveBuildings.Cost.Missing"]
+new = "Missing: {0}"
+status = "normal"

@@ -1,0 +1,42 @@
+[_meta]
+name = "Water Purification"
+
+["Building.Ygo.WaterPurification.Description"]
+new = "Filters part of a flowing contaminated stream into a cleaner side output. Needs at least one empty block of clearence under output pipe. Works best with roughly 2 m³/s of badwater flow. Requires flow, power, extract, and dirt. Does not produce pure water on its own."
+status = "normal"
+
+["Building.Ygo.WaterPurification.DisplayName"]
+new = "Crossflow Filter"
+status = "normal"
+
+["Building.Ygo.WaterPurification.FlavorDescription"]
+new = "“Badwater has water in the name. In time, we were bound to find some in there. For timber’s sake.” —Chief Water Procurer"
+status = "normal"
+
+["Building.Ygo.MarshwatcherHut.Description"]
+new = "Prepares Treated Soil from Dirt and Antidote, then uses it to plant Purifying Reeds and Tainted Springroots. Reeds cleanse contaminated water at the cost of their health, while Springroots draw badwater from deep underground and eventually poison themselves."
+status = "normal"
+
+["Building.Ygo.MarshwatcherHut.DisplayName"]
+new = "Marsh Nursery"
+status = "normal"
+
+["Building.Ygo.MarshwatcherHut.FlavorDescription"]
+new = "“Healthy soil grows healthy plants. Treated soil grows plants willing to argue with badwater on our behalf.” —Folktail Marshkeeper"
+status = "normal"
+
+["NaturalResource.Ygo.PurifyingReed.DisplayName"]
+new = "Purifying Reed"
+status = "normal"
+
+["NaturalResource.Ygo.PurifyingReed.FlavorDescription"]
+new = "A stubborn marsh reed that drinks the bad out of badwater. Not forever, but long enough to make a difference."
+status = "normal"
+
+["NaturalResource.Ygo.Springroot.DisplayName"]
+new = "Tainted Springroot"
+status = "normal"
+
+["NaturalResource.Ygo.Springroot.FlavorDescription"]
+new = "It reaches deep for hidden water. What rises is tainted, but not useless."
+status = "normal"

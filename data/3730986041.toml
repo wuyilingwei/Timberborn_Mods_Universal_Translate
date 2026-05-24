@@ -1,0 +1,30 @@
+[_meta]
+name = "Academic's BLT"
+
+["academicunwinds.BeaverLayerTool.KeyBindingGroup"]
+new = "Academic's BLT"
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.KeyBinding.JumpToTarget"]
+new = "Jump to target layer (toggle)"
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.KeyBinding.JumpToTop"]
+new = "Jump to top / show all (toggle)"
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.KeyBinding.SetTargetLayer"]
+new = "Set current layer as target"
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.Settings.TargetLayer"]
+new = "Target layer"
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.Settings.TargetLayer.Tooltip"]
+new = "Layer that the '[' key jumps to. Press '\\' in-game to set it to the current layer."
+status = "normal"
+
+["academicunwinds.BeaverLayerTool.Notification.TargetSet"]
+new = "Target layer set to {0}"
+status = "normal"

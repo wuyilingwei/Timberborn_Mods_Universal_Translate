@@ -1,0 +1,134 @@
+[_meta]
+name = "Beaver Task Display [ModContest1]"
+
+["grantemsley.BeaverTaskDisplay.Idle"]
+new = "Idle"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.TaskPrefix"]
+new = "Task: {0}"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Waiting"]
+new = "Waiting"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Building"]
+new = "Building"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Demolishing"]
+new = "Demolishing"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Planting"]
+new = "Planting"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.WalkingTo"]
+new = "Walking to"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Working"]
+new = "Working"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Entering"]
+new = "Entering"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Walking"]
+new = "Walking"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Producing"]
+new = "Producing"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Executor.Harvesting"]
+new = "Harvesting"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Eating"]
+new = "Eating"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Drinking"]
+new = "Drinking"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Sleeping"]
+new = "Sleeping"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Bathing"]
+new = "Bathing"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.HavingFun"]
+new = "Having fun"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Healing"]
+new = "Healing"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Animation.Resting"]
+new = "Resting"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.HaulFrom"]
+new = "Hauling from"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.HaulTo"]
+new = "Hauling to"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.WorkAt"]
+new = "Walking to work at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.BuildAt"]
+new = "Walking to build at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.DemolishAt"]
+new = "Walking to demolish at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.HarvestAt"]
+new = "Walking to harvest at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.Plant"]
+new = "Walking to plant"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.Sleep"]
+new = "Walking to sleep"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.SleepAt"]
+new = "Walking to sleep at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.EatAt"]
+new = "Walking to eat at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.DrinkAt"]
+new = "Walking to drink at"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Walk.VisitAt"]
+new = "Walking to visit"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Behavior.EmptyingOutput"]
+new = "Emptying output"
+status = "normal"
+
+["grantemsley.BeaverTaskDisplay.Behavior.FillingInput"]
+new = "Filling input"
+status = "normal"

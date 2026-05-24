@@ -1,0 +1,518 @@
+[_meta]
+name = "Smart Production Control [ModContest1]"
+
+["SmartProductionControl.Fragment.Title"]
+new = "Smart Production Control"
+status = "normal"
+
+["SmartProductionControl.Fragment.AutoPauseToggle"]
+new = "Auto-Pause"
+status = "normal"
+
+["SmartProductionControl.Fragment.SettingsButton"]
+new = "Settings"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.Inactive"]
+new = "Inactive"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.Monitoring"]
+new = "Active - monitoring"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedNoPower"]
+new = "AUTO-PAUSED: No power"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedDrought"]
+new = "AUTO-PAUSED: Hazardous weather"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedNight"]
+new = "AUTO-PAUSED: Nighttime"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedNoInput"]
+new = "AUTO-PAUSED: Input resources low"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedOutputFull"]
+new = "AUTO-PAUSED: Output storage full"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedNoWork"]
+new = "AUTO-PAUSED: Nothing to do in range"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedHighScience"]
+new = "AUTO-PAUSED: Enough Science stockpiled"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.PausedGeneric"]
+new = "AUTO-PAUSED"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.ManuallyPaused"]
+new = "Manually paused by player"
+status = "normal"
+
+["SmartProductionControl.Fragment.Status.ManuallyResumed"]
+new = "Manually started by player"
+status = "normal"
+
+["SmartProductionControl.Fragment.ManuallyPaused.Banner"]
+new = "⏸ Manually paused"
+status = "normal"
+
+["SmartProductionControl.Fragment.ManuallyPaused.Subtitle"]
+new = "Resume the building manually to let Smart Production Control manage it again."
+status = "normal"
+
+["SmartProductionControl.Fragment.ManuallyResumed.Banner"]
+new = "▶ Manually started"
+status = "normal"
+
+["SmartProductionControl.Fragment.ManuallyResumed.Subtitle"]
+new = "SPC will not pause this building. Pause it manually or press the reset below to hand control back."
+status = "normal"
+
+["SmartProductionControl.Fragment.ManualOverride.Reset"]
+new = "↻ Hand control back to SPC"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Storage.Global"]
+new = "Global Storage: {0}%/{1}%"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Storage.District"]
+new = "District Storage: {0}%/{1}%"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Storage.Building"]
+new = "Building Storage: {0}%/{1}%"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Input"]
+new = "Inputs: {0}%/{1}%"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.PowerOn"]
+new = "Power: ✓"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.PowerOff"]
+new = "Power: ✗"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.WorkIdle"]
+new = "Work: ✗"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.WorkOk"]
+new = "Work: ✓"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Drought"]
+new = "Drought"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Night"]
+new = "Night"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.Science"]
+new = "Science: {0}/{1}"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.NoRules"]
+new = "No rules active"
+status = "normal"
+
+["SmartProductionControl.Settings.Title"]
+new = "Smart Production Control - Settings"
+status = "normal"
+
+["SmartProductionControl.Settings.PresetLabel"]
+new = "Preset:"
+status = "normal"
+
+["SmartProductionControl.Settings.Section.ProductionRules"]
+new = "Production Rules"
+status = "normal"
+
+["SmartProductionControl.Settings.Section.Thresholds"]
+new = "Thresholds"
+status = "normal"
+
+["SmartProductionControl.Settings.Section.StorageMode"]
+new = "Storage Mode"
+status = "normal"
+
+["SmartProductionControl.Settings.Section.TimeBased"]
+new = "Time-based Rules"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.OutputFull"]
+new = "Pause when output full"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoInput"]
+new = "Pause when no input"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoPower"]
+new = "Pause when no power"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoWork"]
+new = "Pause when nothing to do"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.Drought"]
+new = "Pause during drought/badtide"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.Night"]
+new = "Pause at night"
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.HighScience"]
+new = "Pause when enough Science"
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.ScienceThreshold"]
+new = "Science threshold:"
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.PauseAt"]
+new = "Pause at:"
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.ResumeAt"]
+new = "Resume at:"
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.InputMin"]
+new = "Input min:"
+status = "normal"
+
+["SmartProductionControl.Settings.Status.Ok"]
+new = "✓"
+status = "normal"
+
+["SmartProductionControl.Settings.Status.Off"]
+new = "✗"
+status = "normal"
+
+["SmartProductionControl.Settings.Status.Idle"]
+new = "✗"
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.Global"]
+new = "Global"
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.District"]
+new = "District"
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.Building"]
+new = "Building"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Title"]
+new = "Smart Production Control - Dashboard"
+status = "normal"
+
+["SmartProductionControl.Dashboard.SearchLabel"]
+new = "Search:"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.Status"]
+new = "Status:"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.Type"]
+new = "Type:"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.District"]
+new = "District:"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.All"]
+new = "All"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.Active"]
+new = "Active"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Filter.Paused"]
+new = "Paused"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Bulk.EnableAll"]
+new = "Enable All"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Bulk.DisableAll"]
+new = "Disable All"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Bulk.ApplyPreset"]
+new = "Apply preset to filtered:"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Summary"]
+new = "Tracked: {0} | Active: {1} | Auto-Paused: {2} | Showing: {3}"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Building"]
+new = "Building"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Type"]
+new = "Type"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.District"]
+new = "District"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Status"]
+new = "Status"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Output"]
+new = "Output"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Input"]
+new = "Input"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Column.Preset"]
+new = "Preset"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.Monitoring"]
+new = "Monitoring"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.NoPower"]
+new = "No power"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.Drought"]
+new = "Drought"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.Night"]
+new = "Nighttime"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.NoInput"]
+new = "Input low"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.OutputFull"]
+new = "Output full"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.NoWork"]
+new = "No work"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.HighScience"]
+new = "Science full"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.Paused"]
+new = "Paused"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.ManuallyPaused"]
+new = "Manual"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Status.ManuallyResumed"]
+new = "Manual-on"
+status = "normal"
+
+["SmartProductionControl.Dashboard.ButtonLabel"]
+new = "SPC"
+status = "normal"
+
+["SmartProductionControl.Dashboard.ButtonTooltip"]
+new = "Smart Production Control Dashboard"
+status = "normal"
+
+["SmartProductionControl.Category.Workshop"]
+new = "Workshop"
+status = "normal"
+
+["SmartProductionControl.Category.Gatherer"]
+new = "Gatherer"
+status = "normal"
+
+["SmartProductionControl.Category.Lumberjack"]
+new = "Lumberjack"
+status = "normal"
+
+["SmartProductionControl.Category.Forester"]
+new = "Forester"
+status = "normal"
+
+["SmartProductionControl.Category.WaterPump"]
+new = "Water Pump"
+status = "normal"
+
+["SmartProductionControl.Category.Consumer"]
+new = "Consumer"
+status = "normal"
+
+["SmartProductionControl.Category.Power"]
+new = "Power"
+status = "normal"
+
+["SmartProductionControl.Category.Inventor"]
+new = "Inventor"
+status = "normal"
+
+["SmartProductionControl.Category.Other"]
+new = "Other"
+status = "normal"
+
+["SmartProductionControl.Preset.Standard"]
+new = "Standard"
+status = "normal"
+
+["SmartProductionControl.Preset.Conservative"]
+new = "Conservative"
+status = "normal"
+
+["SmartProductionControl.Preset.Drought"]
+new = "Drought"
+status = "normal"
+
+["SmartProductionControl.Preset.Early"]
+new = "Early"
+status = "normal"
+
+["SmartProductionControl.Preset.Late"]
+new = "Late"
+status = "normal"
+
+["SmartProductionControl.Preset.Custom"]
+new = "Custom"
+status = "normal"
+
+["SmartProductionControl.Fragment.AutoPauseToggle.Tooltip"]
+new = "Master switch for this building. When on, the rules below decide when to pause automatically."
+status = "normal"
+
+["SmartProductionControl.Fragment.SettingsButton.Tooltip"]
+new = "Open the detailed settings popup for this building."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.OutputFull.Tooltip"]
+new = "Pause when the building's output good has reached its stock threshold (see sliders below)."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoInput.Tooltip"]
+new = "Pause when input goods (ingredients / fuel / consumed goods) drop below the input threshold."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoPower.Tooltip"]
+new = "Pause when the building's mechanical power network is offline. Resumes automatically when power returns."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.NoWork.Tooltip"]
+new = "Pause when there is nothing for workers to do nearby - no harvestable trees / berries / crops / planting spots / water at the intake."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.Drought.Tooltip"]
+new = "Pause during hazardous weather (drought or badtide). Resume when weather clears."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.Night.Tooltip"]
+new = "Pause during nighttime. Resume at sunrise."
+status = "normal"
+
+["SmartProductionControl.Settings.Toggle.HighScience.Tooltip"]
+new = "Pause this Inventor when the global Science total reaches the threshold. Resumes when the player spends Science and the total drops back."
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.ScienceThreshold.Tooltip"]
+new = "Auto-pause this Inventor when global Science points are at or above this number."
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.PauseAt.Tooltip"]
+new = "The output fill rate at which the building will pause. Default: 100%."
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.ResumeAt.Tooltip"]
+new = "The output fill rate at which the paused building will start producing again. Default: 90%. Hysteresis prevents rapid on/off oscillation."
+status = "normal"
+
+["SmartProductionControl.Settings.Slider.InputMin.Tooltip"]
+new = "Minimum input fill rate. If all input goods fall below this rate, the building pauses."
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.Global.Tooltip"]
+new = "Use the global stock count across all districts to decide if output is 'full'."
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.District.Tooltip"]
+new = "Use only this district's stock counter."
+status = "normal"
+
+["SmartProductionControl.Settings.StorageMode.Building.Tooltip"]
+new = "Use only the building's own internal inventory. Useful for flag-type buildings with small fixed inventories."
+status = "normal"
+
+["SmartProductionControl.Dashboard.Bulk.EnableAll.Tooltip"]
+new = "Turn Auto-Pause on for every building visible in the current filtered view."
+status = "normal"
+
+["SmartProductionControl.Dashboard.Bulk.DisableAll.Tooltip"]
+new = "Turn Auto-Pause off for every building visible in the current filtered view."
+status = "normal"
+
+["SmartProductionControl.Dashboard.SearchLabel.Tooltip"]
+new = "Filter the list by building name / type / district."
+status = "normal"
+
+["SmartProductionControl.Preset.Standard.Tooltip"]
+new = "Default rules: all pause-conditions on; pause at 100%; resume at 90%."
+status = "normal"
+
+["SmartProductionControl.Preset.Conservative.Tooltip"]
+new = "Stricter thresholds: pause earlier (90%) and only resume when stock is well below half (50%)."
+status = "normal"
+
+["SmartProductionControl.Preset.Drought.Tooltip"]
+new = "Also pauses during drought/badtide. Stricter thresholds for resource conservation."
+status = "normal"
+
+["SmartProductionControl.Preset.Early.Tooltip"]
+new = "Early-game preset: only pauses for no-power. Keeps production maximally active."
+status = "normal"
+
+["SmartProductionControl.Preset.Late.Tooltip"]
+new = "Late-game preset: also pauses at night for energy/worker conservation."
+status = "normal"
+
+["SmartProductionControl.Welcome.Title"]
+new = "Welcome to Smart Production Control"
+status = "normal"
+
+["SmartProductionControl.Welcome.Body"]
+new = "This mod adds an Auto-Pause toggle to every production building. When the building cannot do useful work — output full, input missing, no power, or no work in range — it pauses automatically and resumes when conditions allow. Click the toggle below to enable, or use the SPC button in the bottom bar for a colony-wide view."
+status = "normal"
+
+["SmartProductionControl.Welcome.GotIt"]
+new = "Got it"
+status = "normal"

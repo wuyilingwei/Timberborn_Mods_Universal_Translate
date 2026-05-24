@@ -531,6 +531,7 @@ viVN = "Xác suất xuất hiện cặn bùn"
 
 ["ebbflow.settings.chancetospawnsludge.desc"]
 raw = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
+new = "Probability to spawn sludge blocks per cycle (0.0 = never, 100 = always)."
 status = "normal"
 enUS = "Probability to spawn sludge blocks per cycle (0 = never, 100 = always)."
 zhCN = "每个轮次内生成污泥块的概率（模组默认：0.15，表示15%的概率生成）。"
@@ -832,3 +833,63 @@ ptBR = "Porcentagem máxima de contaminação de referência (0,04 = 4%)."
 koKR = "최대 기본 오염 비율(0.04 = 4%)."
 csCZ = "Maximální procento základní kontaminace (0,04 = 4 %)."
 viVN = "Mức ô nhiễm nền tối đa (0,04 = 4%)."
+
+["ebbflow.settings.preset"]
+new = "Difficulty Preset"
+status = "normal"
+
+["ebbflow.settings.preset.desc"]
+new = "Choose a difficulty preset for water behavior. Select Custom to manually tune all settings."
+status = "normal"
+
+["ebbflow.settings.contaminationintensity"]
+new = "Contamination Intensity"
+status = "normal"
+
+["ebbflow.settings.contaminationintensity.desc"]
+new = "Controls how quickly contamination spreads and how long it lingers. Independent from the difficulty preset."
+status = "normal"
+
+["ebbflow.settings.sludgeintensity"]
+new = "Sludge Intensity"
+status = "normal"
+
+["ebbflow.settings.sludgeintensity.desc"]
+new = "Controls how frequently and densely sludge blocks form in contaminated water. Independent from the difficulty preset."
+status = "normal"
+
+["ebbflow.settings.preset.calm"]
+new = "Calm"
+status = "normal"
+
+["ebbflow.settings.preset.moderate"]
+new = "Moderate"
+status = "normal"
+
+["ebbflow.settings.preset.severe"]
+new = "Severe"
+status = "normal"
+
+["ebbflow.settings.preset.relentless"]
+new = "Relentless"
+status = "normal"
+
+["ebbflow.settings.preset.custom"]
+new = "Custom"
+status = "normal"
+
+["ebbflow.settings.intensity.minimal"]
+new = "Minimal"
+status = "normal"
+
+["ebbflow.settings.intensity.moderate"]
+new = "Moderate"
+status = "normal"
+
+["ebbflow.settings.intensity.heavy"]
+new = "Heavy"
+status = "normal"
+
+["ebbflow.settings.intensity.overwhelming"]
+new = "Overwhelming"
+status = "normal"

@@ -1,6 +1,14 @@
 [_meta]
 name = "Powered Roofs"
 
+["ToolGroups.Roofs"]
+new = "Roofs"
+status = "normal"
+
+["ToolGroups.ClassicRoofs"]
+new = "Classic roofs"
+status = "normal"
+
 ["ToolGroups.PoweredRoofs"]
 raw = "Powered Roofs"
 status = "normal"
@@ -99,6 +107,7 @@ viVN = "Mái có điện 3x2"
 
 ["Building.PoweredHalfRoof1x1.DisplayName"]
 raw = "Powered half Roof 1x1"
+new = "Powered Half Roof 1x1"
 status = "abandoned"
 enUS = "Powered half Roof 1x1"
 zhCN = "传动倾斜屋顶 1x1"
@@ -115,6 +124,7 @@ viVN = "Mái nửa có nguồn điện 1x1"
 
 ["Building.PoweredHalfRoof1x2.DisplayName"]
 raw = "Powered half Roof 1x2"
+new = "Powered Half Roof 1x2"
 status = "abandoned"
 enUS = "Powered half Roof 1x2"
 zhCN = "传动倾斜屋顶 1x2"
@@ -131,6 +141,7 @@ viVN = "Mái nửa 1x2 có động cơ"
 
 ["Building.PoweredHalfRoof2x1.DisplayName"]
 raw = "Powered half Roof 2x1"
+new = "Powered Half Roof 2x1"
 status = "abandoned"
 enUS = "Powered half Roof 2x1"
 zhCN = "传动倾斜屋顶 2x1"
@@ -147,6 +158,7 @@ viVN = "Mái nửa có nguồn điện 2x1"
 
 ["Building.PoweredHalfRoof2x2.DisplayName"]
 raw = "Powered half Roof 2x2"
+new = "Powered Half Roof 2x2"
 status = "abandoned"
 enUS = "Powered half Roof 2x2"
 zhCN = "传动倾斜屋顶 2x2"
@@ -160,6 +172,22 @@ ptBR = "Telhado Metade Energizado 2x2"
 koKR = "전력 반 지붕 2x2"
 csCZ = "Napájená poloviční střecha 2x2"
 viVN = "Mái nửa có điện 2x2"
+
+["Building.PoweredRoof.FlavorDescription"]
+raw = "These roofs embed a shaft making them transfer energy !"
+status = "normal"
+enUS = "These roofs embed a shaft making them transfer energy !"
+zhCN = "这些屋顶加装了传动轴，可能会有……一点点吵？"
+zhTW = "這些屋頂內嵌有通道，使它們能夠傳輸能量！"
+ruRU = "Эти крыши содержат шахту, что позволяет им передавать энергию!"
+jaJP = "これらの屋根はシャフトを埋め込んでおり、エネルギーを転送します！"
+frFR = "Ces toits intègrent un tube leur permettant de transférer de l'énergie !"
+deDE = "Diese Dächer enthalten einen Schacht, der es ihnen ermöglicht, Energie zu übertragen!"
+plPL = "Te dachy zawierają szyb, dzięki czemu przekazują energię!"
+ptBR = "Esses telhados incorporam um tubo que os faz transferir energia!"
+koKR = "이 지붕에는 에너지를 전송할 수 있는 샤프트가 내장되어 있습니다!"
+csCZ = "Tyto střechy obsahují hřídel, díky čemuž přenášejí energii!"
+viVN = "Những mái này chứa một trục giúp chúng truyền năng lượng!"
 
 ["Building.PoweredHalfRoof3x2.DisplayName"]
 raw = "Powered half Roof 3x2"
@@ -192,19 +220,3 @@ ptBR = "Telhado Metade Alimentado 2x3"
 koKR = "전력 공급 반 지붕 2x3"
 csCZ = "Napájená poloviční střecha 2x3"
 viVN = "Mái nửa có điện 2x3"
-
-["Building.PoweredRoof.FlavorDescription"]
-raw = "These roofs embed a shaft making them transfer energy !"
-status = "normal"
-enUS = "These roofs embed a shaft making them transfer energy !"
-zhCN = "这些屋顶加装了传动轴，可能会有……一点点吵？"
-zhTW = "這些屋頂內嵌有通道，使它們能夠傳輸能量！"
-ruRU = "Эти крыши содержат шахту, что позволяет им передавать энергию!"
-jaJP = "これらの屋根はシャフトを埋め込んでおり、エネルギーを転送します！"
-frFR = "Ces toits intègrent un tube leur permettant de transférer de l'énergie !"
-deDE = "Diese Dächer enthalten einen Schacht, der es ihnen ermöglicht, Energie zu übertragen!"
-plPL = "Te dachy zawierają szyb, dzięki czemu przekazują energię!"
-ptBR = "Esses telhados incorporam um tubo que os faz transferir energia!"
-koKR = "이 지붕에는 에너지를 전송할 수 있는 샤프트가 내장되어 있습니다!"
-csCZ = "Tyto střechy obsahují hřídel, díky čemuž přenášejí energii!"
-viVN = "Những mái này chứa một trục giúp chúng truyền năng lượng!"

@@ -1,0 +1,478 @@
+[_meta]
+name = "Dragonclaws [ModContest1]"
+
+["Faction.Dragonclaws.DisplayName"]
+new = "Dragonclaws"
+status = "normal"
+
+["Faction.Dragonclaws.Description"]
+new = "Cave-nesting beavers who build with claws, charcoal, scavenged metal, glider routes, warm dens, and dryland crops."
+status = "normal"
+
+["Faction.Dragonclaws.GameOver.Message"]
+new = "The Dragonclaws have gone cold"
+status = "normal"
+
+["Faction.Dragonclaws.GameOver.Flavor"]
+new = "No hearth. No harvest."
+status = "normal"
+
+["Faction.Dragonclaws.WonderCompletionFlavor"]
+new = "The Dragonclaws have proven their fire tempered resolve"
+status = "normal"
+
+["Faction.Dragonclaws.WonderCompletionMessage"]
+new = "Dragonclaw wonder completed"
+status = "normal"
+
+["Building.BerryDryer.DisplayName"]
+new = "Berry Dryer"
+status = "normal"
+
+["Building.BerryDryer.Description"]
+new = "Dries berries into raisins over a low fire"
+status = "normal"
+
+["Building.BerryDryer.FlavorDescription"]
+new = "Simple durable and smoke sweet food craft"
+status = "normal"
+
+["Good.Raisins.DisplayName"]
+new = "Raisins"
+status = "normal"
+
+["Good.Raisins.PluralDisplayName"]
+new = "Raisins"
+status = "normal"
+
+["Building.ClimbingWall.DisplayName"]
+new = "Climbing Wall"
+status = "normal"
+
+["Building.ClimbingWall.Description"]
+new = "A rough vertical surface that Dragonclaws use for compact climbing routes."
+status = "normal"
+
+["Building.ClimbingWall.FlavorDescription"]
+new = "Claws prefer bark, gouges, and grip-stones to rungs."
+status = "normal"
+
+["Need.Climbing.DisplayName"]
+new = "Climbing"
+status = "normal"
+
+["Need.Climbing.Description"]
+new = "Time spent climbing rough walls and claw-ready surfaces."
+status = "normal"
+
+["Building.ClawTreadle.DisplayName"]
+new = "Claw Treadle"
+status = "normal"
+
+["Building.ClawTreadle.Description"]
+new = "A claw-driven treadle that turns beaver labor into mechanical power."
+status = "normal"
+
+["Building.ClawTreadle.FlavorDescription"]
+new = "Four beavers dig in and drive the settlement forward."
+status = "normal"
+
+["Building.CavernHouse.DisplayName"]
+new = "Cavern House"
+status = "normal"
+
+["Building.CavernHouse.Description"]
+new = "A compact cavern dwelling carved into solid ground."
+status = "normal"
+
+["Building.CavernHouse.ExcavationDescription"]
+new = "Excavates a compact 1x2 cavern dwelling into solid terrain, then attempts to replace the carved block with a Mini Lodge house."
+status = "normal"
+
+["Building.CavernHouse.FlavorDescription"]
+new = "Stone at the back, warmth inside, and a path at the door."
+status = "normal"
+
+["Building.CavernHouseBuilt.DisplayName"]
+new = "Cavern House Built"
+status = "normal"
+
+["Building.CavernHouseBuilt.Description"]
+new = "Hidden replacement template for the tunnel-style Cavern House."
+status = "normal"
+
+["Building.CavernHouse.BuiltDescription"]
+new = "The finished hidden replacement form of the Cavern House."
+status = "normal"
+
+["Good.ShoringKit.DisplayName"]
+new = "Shoring Kit"
+status = "normal"
+
+["Good.ShoringKit.PluralDisplayName"]
+new = "Shoring Kits"
+status = "normal"
+
+["Building.ShoringKitWorkshop.DisplayName"]
+new = "Shoring Kit Workshop"
+status = "normal"
+
+["Building.ShoringKitWorkshop.Description"]
+new = "Turns scrap metal into shoring kits for reinforced digging and construction."
+status = "normal"
+
+["Building.ShoringKitWorkshop.FlavorDescription"]
+new = "Bent scrap becomes braces, plates, and clamps."
+status = "normal"
+
+["Building.RecreationalClimbingWall.DisplayName"]
+new = "Recreational Climbing Wall"
+status = "normal"
+
+["Building.RecreationalClimbingWall.Description"]
+new = "A climbing activity wall where Dragonclaws build strength and satisfy their Climbing need."
+status = "normal"
+
+["Building.RecreationalClimbingWall.FlavorDescription"]
+new = "Good claws stay sharp through use."
+status = "normal"
+
+["Building.DragonclawFarmhouse.DisplayName"]
+new = "Dragonclaw Farmhouse"
+status = "normal"
+
+["Building.DragonclawFarmhouse.Description"]
+new = "Plants and harvests Dragonclaw crops."
+status = "normal"
+
+["Building.DragonclawFarmhouse.FlavorDescription"]
+new = "Dry roots, hot peppers, and tough hands make reliable food."
+status = "normal"
+
+["Good.Clawroot.DisplayName"]
+new = "Clawroot"
+status = "normal"
+
+["Good.Clawroot.PluralDisplayName"]
+new = "Clawroots"
+status = "normal"
+
+["NaturalResource.Clawroot.DisplayName"]
+new = "Clawroot"
+status = "normal"
+
+["NaturalResource.Clawroot.FlavorDescription"]
+new = "A tough root crop selected for claw-dug fields."
+status = "normal"
+
+["Good.Charcoal.DisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Good.Charcoal.PluralDisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Building.CharcoalKiln.DisplayName"]
+new = "Charcoal Kiln"
+status = "normal"
+
+["Building.CharcoalKiln.Description"]
+new = "Turns logs into charcoal over a slow burn."
+status = "normal"
+
+["Building.CharcoalKiln.FlavorDescription"]
+new = "Wood becomes fuel, heat, and smoke."
+status = "normal"
+
+["Building.Heater.DisplayName"]
+new = "Heater"
+status = "normal"
+
+["Building.Heater.Description"]
+new = "A charcoal heater that provides Warmth to nearby Dragonclaws."
+status = "normal"
+
+["Building.Heater.FlavorDescription"]
+new = "A warm perch beats a wet tail every time."
+status = "normal"
+
+["Need.Warmth.DisplayName"]
+new = "Warmth"
+status = "normal"
+
+["Need.Warmth.Description"]
+new = "Dragonclaws need steady warmth to stay comfortable."
+status = "normal"
+
+["Need.TemperedScales.DisplayName"]
+new = "Tempered Scales"
+status = "normal"
+
+["Need.TemperedScales.Description"]
+new = "Sun and heat strengthen Dragonclaw scales over time."
+status = "normal"
+
+["Building.SunBakingYard.DisplayName"]
+new = "Sun-Baking Yard"
+status = "normal"
+
+["Building.SunBakingYard.Description"]
+new = "A warm resting yard where Dragonclaws strengthen Tempered Scales and gain Warmth."
+status = "normal"
+
+["Building.SunBakingYard.FlavorDescription"]
+new = "Good scales take time, sun, and stillness."
+status = "normal"
+
+["Building.DragonclawScavengerFlag.DisplayName"]
+new = "Scavenger Flag"
+status = "normal"
+
+["Building.DragonclawScavengerFlag.Description"]
+new = "Marks nearby ruins for scavenging."
+status = "normal"
+
+["Building.DragonclawScavengerFlag.FlavorDescription"]
+new = "Scrap is structure waiting to be useful again."
+status = "normal"
+
+["Building.ClawSalvagePost.DisplayName"]
+new = "Claw Salvage Post"
+status = "normal"
+
+["Building.ClawSalvagePost.Description"]
+new = "A two-worker scavenging post for pulling scrap metal from nearby ruins."
+status = "normal"
+
+["Building.ClawSalvagePost.FlavorDescription"]
+new = "Two sets of claws pry loose more metal than one."
+status = "normal"
+
+["Building.CharcoalBrazier.DisplayName"]
+new = "Charcoal Brazier"
+status = "normal"
+
+["Building.CharcoalBrazier.Description"]
+new = "A charcoal-fed brazier that provides Warmth to nearby Dragonclaws."
+status = "normal"
+
+["Building.CharcoalBrazier.FlavorDescription"]
+new = "A steady coal glow keeps claws nimble and scales comfortable."
+status = "normal"
+
+["Building.GliderLaunchpad.DisplayName"]
+new = "Glider Launchpad"
+status = "normal"
+
+["Building.GliderLaunchpad.Description"]
+new = "A high travel point for Dragonclaw glider routes."
+status = "normal"
+
+["Building.GliderLaunchpad.FlavorDescription"]
+new = "Every good glide starts with height."
+status = "normal"
+
+["Building.GliderLandingZone.DisplayName"]
+new = "Glider Landing Zone"
+status = "normal"
+
+["Building.GliderLandingZone.Description"]
+new = "A receiving point for Dragonclaw glider routes."
+status = "normal"
+
+["Building.GliderLandingZone.FlavorDescription"]
+new = "A safe place to catch claws, tails, and pride."
+status = "normal"
+
+["Building.GliderUpdraftZone.DisplayName"]
+new = "Glider Updraft Zone"
+status = "normal"
+
+["Building.GliderUpdraftZone.Description"]
+new = "A glider route support structure for tall Dragonclaw settlements."
+status = "normal"
+
+["Building.GliderUpdraftZone.FlavorDescription"]
+new = "Warm air and high ground make better routes."
+status = "normal"
+
+["Building.DragonclawNest.DisplayName"]
+new = "Dragonclaw Nest"
+status = "normal"
+
+["Building.DragonclawNest.Description"]
+new = "A warm nest where Dragonclaw kits are raised with charcoal and fiber."
+status = "normal"
+
+["Building.DragonclawNest.FlavorDescription"]
+new = "Warmth, fiber, and time turn a guarded egg into the next pair of claws."
+status = "normal"
+
+["Good.Fiber.DisplayName"]
+new = "Fiber"
+status = "normal"
+
+["Good.Fiber.PluralDisplayName"]
+new = "Fiber"
+status = "normal"
+
+["Good.BasswoodBark.DisplayName"]
+new = "Basswood Bark"
+status = "normal"
+
+["Good.BasswoodBark.PluralDisplayName"]
+new = "Basswood Bark"
+status = "normal"
+
+["Good.Ashroot.DisplayName"]
+new = "Ashroot"
+status = "normal"
+
+["Good.Ashroot.PluralDisplayName"]
+new = "Ashroot"
+status = "normal"
+
+["Good.Peppers.DisplayName"]
+new = "Peppers"
+status = "normal"
+
+["Good.Peppers.PluralDisplayName"]
+new = "Peppers"
+status = "normal"
+
+["Good.SweetPotato.DisplayName"]
+new = "Sweet Potato"
+status = "normal"
+
+["Good.SweetPotato.PluralDisplayName"]
+new = "Sweet Potatoes"
+status = "normal"
+
+["Good.ChiliOil.DisplayName"]
+new = "Chili Oil"
+status = "normal"
+
+["Good.ChiliOil.PluralDisplayName"]
+new = "Chili Oil"
+status = "normal"
+
+["Good.FriedSweetSpicyPotato.DisplayName"]
+new = "Fried Sweet & Spicy Potato"
+status = "normal"
+
+["Good.FriedSweetSpicyPotato.PluralDisplayName"]
+new = "Fried Sweet & Spicy Potatoes"
+status = "normal"
+
+["NaturalResource.Ashroot.DisplayName"]
+new = "Ashroot"
+status = "normal"
+
+["NaturalResource.Ashroot.FlavorDescription"]
+new = "A pale, tough root that holds moisture deep under ash-grey skin."
+status = "normal"
+
+["NaturalResource.Peppers.DisplayName"]
+new = "Peppers"
+status = "normal"
+
+["NaturalResource.Peppers.FlavorDescription"]
+new = "Small red firepods grown for heat, oil, and flavor."
+status = "normal"
+
+["NaturalResource.SweetPotato.DisplayName"]
+new = "Sweet Potato"
+status = "normal"
+
+["NaturalResource.SweetPotato.FlavorDescription"]
+new = "A dense orange tuber that fries well over charcoal."
+status = "normal"
+
+["NaturalResource.BasswoodTree.DisplayName"]
+new = "Basswood Tree"
+status = "normal"
+
+["NaturalResource.BasswoodTree.FlavorDescription"]
+new = "Soft bark and flexible inner fiber make it valuable for nests and bindings."
+status = "normal"
+
+["Building.FiberMill.DisplayName"]
+new = "Fiber Mill"
+status = "normal"
+
+["Building.FiberMill.Description"]
+new = "Processes basswood bark or logs into usable fiber."
+status = "normal"
+
+["Building.FiberMill.FlavorDescription"]
+new = "Soft bark becomes binding, bedding, and nest lining."
+status = "normal"
+
+["Building.DragonclawOilPress.DisplayName"]
+new = "Dragonclaw Oil Press"
+status = "normal"
+
+["Building.DragonclawOilPress.Description"]
+new = "Presses canola seeds into oil and infuses oil with peppers."
+status = "normal"
+
+["Building.DragonclawOilPress.FlavorDescription"]
+new = "Slow pressure pulls fire into oil."
+status = "normal"
+
+["Building.HearthFryer.DisplayName"]
+new = "Hearth Fryer"
+status = "normal"
+
+["Building.HearthFryer.Description"]
+new = "Fries sweet potatoes with chili oil and charcoal heat."
+status = "normal"
+
+["Building.HearthFryer.FlavorDescription"]
+new = "Sweet roots, red oil, and coal heat make proper comfort food."
+status = "normal"
+
+["Building.WindTurbine.Dragonclaws.DisplayName"]
+new = "Wind Turbine"
+status = "normal"
+
+["Building.WindTurbine.Dragonclaws.Description"]
+new = "A wind-powered generator for exposed ridges and high platforms."
+status = "normal"
+
+["Building.WindTurbine.Dragonclaws.FlavorDescription"]
+new = "Cave builders still know the value of open air."
+status = "normal"
+
+["Building.LargeWindTurbine.Dragonclaws.DisplayName"]
+new = "Large Wind Turbine"
+status = "normal"
+
+["Building.LargeWindTurbine.Dragonclaws.Description"]
+new = "A large wind-powered generator for high-output ridge power."
+status = "normal"
+
+["Building.LargeWindTurbine.Dragonclaws.FlavorDescription"]
+new = "Tall ridges give good wind."
+status = "normal"
+
+["NaturalResource.Canola.Dragonclaws.DisplayName"]
+new = "Canola"
+status = "normal"
+
+["NaturalResource.Canola.Dragonclaws.FlavorDescription"]
+new = "Small oil-rich seeds that carry heat into Dragonclaw cooking."
+status = "normal"
+
+["Tutorial.WaterAndFood.MarkAshroot"]
+new = "Mark Ashroot for planting."
+status = "normal"
+
+["Recipe.FiberFromBark.DisplayName"]
+new = "Fiber from Bark"
+status = "normal"
+
+["Recipe.FiberFromLogs.DisplayName"]
+new = "Fiber from Logs"
+status = "normal"

@@ -1,0 +1,458 @@
+[_meta]
+name = "Trade Office [ModContest1]"
+
+["UI.TW.TradeOffice.TT.TopBarCredits"]
+new = "Trade Credits"
+status = "normal"
+
+["UI.TW.TradeOffice.CurrentGood"]
+new = "Trading: {0}.  Trade balance: {1}"
+status = "normal"
+
+["UI.TW.TradeOffice.ManualBuyAndSellPrice"]
+new = "Buy at {0}  /  Sell at {1}"
+status = "normal"
+
+["UI.TW.TradeOffice.ManualBuyPrice_SellBlocked"]
+new = "Buy at {0}    Export not allowed."
+status = "normal"
+
+["UI.TW.TradeOffice.ManualBuyBlocked_SellPrice"]
+new = "Sell at {0}    Import not allowed."
+status = "normal"
+
+["UI.TW.TradeOffice.TradingNotAllowed"]
+new = "Import and export not allowed."
+status = "normal"
+
+["UI.TW.TradeOffice.AutoBuyAndSellPrice"]
+new = "Auto-import at {0}  /  Auto-export at {1}"
+status = "normal"
+
+["UI.TW.TradeOffice.AutoBuyPrice_SellBlocked"]
+new = "Auto-import at {0}    Export not allowed."
+status = "normal"
+
+["UI.TW.TradeOffice.AutoBuyBlocked_SellPrice"]
+new = "Auto-export at {0}    Import not allowed."
+status = "normal"
+
+["UI.TW.TradeOffice.BuyN"]
+new = "Buy {0}"
+status = "normal"
+
+["UI.TW.TradeOffice.SellN"]
+new = "Sell {0}"
+status = "normal"
+
+["UI.TW.TradeOffice.Credits"]
+new = "{0}"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.UserBuy"]
+new = "Buy goods. Actual amount may be less if there is no room, or you lack credits. You will only be charged for the goods you receive. Price is re-calculated for each item bought."
+status = "normal"
+
+["UI.TW.TradeOffice.TT.UserSell"]
+new = "Sell goods. Actual amount may be less if there are not enough available. Price is re-calculated for each item sold."
+status = "normal"
+
+["UI.TW.TradeOffice.NoWorkerNeeded"]
+new = "No worker needed"
+status = "normal"
+
+["UI.TW.TradeOffice.WorkerSummoned"]
+new = "Worker summoned"
+status = "normal"
+
+["UI.TW.TradeOffice.WorkerSummonedIn"]
+new = "Worker will be summoned in {0} hours"
+status = "normal"
+
+["UI.TW.TradeOffice.SciencePoints"]
+new = "Science points"
+status = "normal"
+
+["UI.TW.TradeOffice.AutomateImport"]
+new = "Automate import"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.AutomateImportToggle"]
+new = "Set rules for when to import"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.ShowSettings"]
+new = "Show settings"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.HideSettings"]
+new = "Hide settings"
+status = "normal"
+
+["Building.TWTradeOffice.DisplayName"]
+new = "Trade Office"
+status = "normal"
+
+["Building.TWTradeOffice.Description"]
+new = "Allows buying and selling of resources. To work, rear wall must touch a warehouse, stockpile, tank, or science building."
+status = "normal"
+
+["Building.TWTradeOffice.FlavorDescription"]
+new = "Ask not where the goods, they go, nor guess from whence they came."
+status = "normal"
+
+["UI.TW.TradeOffice.UnknownGood"]
+new = "Unknown"
+status = "normal"
+
+["UI.TW.TradeOffice.MaxBuyPrice"]
+new = "Price below"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.MaxBuyPrice"]
+new = "Goods will only be imported when the price is lower than this"
+status = "normal"
+
+["UI.TW.TradeOffice.BuyCreditLimit"]
+new = "Credits above"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.BuyCreditLimit"]
+new = "Goods will only be imported if doing so leaves at least this many credits."
+status = "normal"
+
+["UI.TW.TradeOffice.BuyMaxAmount"]
+new = "District stock below"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.BuyMaxAmount"]
+new = "Goods will be imported when district supply is below this level"
+status = "normal"
+
+["UI.TW.TradeOffice.BuyMaxAmountIsPercent"]
+new = "Stock level is percent"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.BuyMaxAmountIsPercent"]
+new = "The district stock level will be treated as a percent of capacity, rather than an item count"
+status = "normal"
+
+["UI.TW.TradeOffice.CannotTradeUnknownGood"]
+new = "Cannot trade when no good is set"
+status = "normal"
+
+["UI.TW.TradeOffice.AutomateExport"]
+new = "Automate export"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.AutomateExportToggle"]
+new = "Set rules for when to export"
+status = "normal"
+
+["UI.TW.TradeOffice.MinSellPrice"]
+new = "Price above"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.MinSellPrice"]
+new = "Goods will only be sold when the price is higher than this"
+status = "normal"
+
+["UI.TW.TradeOffice.SellCreditLimit"]
+new = "Credits less than"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.SellCreditLimit"]
+new = "Goods will only be sold when your credits are less than this"
+status = "normal"
+
+["UI.TW.TradeOffice.SellMinAmount"]
+new = "District stock above"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.SellMinAmount"]
+new = "Goods will only be sold if district stock is more than this level"
+status = "normal"
+
+["UI.TW.TradeOffice.SellMinAmountIsPercent"]
+new = "Stock level is percent"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.SellMinAmountIsPercent"]
+new = "The district stock level will be treated as a percent of capacity, rather than an item count"
+status = "normal"
+
+["UI.TW.TradeOffice.SellWhen"]
+new = "Sell when:"
+status = "normal"
+
+["UI.TW.TradeOffice.BuyWhen"]
+new = "Buy when:"
+status = "normal"
+
+["UI.TW.TradeOffice.NoWorkStatus"]
+new = "No trading to do"
+status = "normal"
+
+["UI.TW.TradeOffice.NoGoodStatus"]
+new = "No storage building connected, or no good set"
+status = "normal"
+
+["UI.TW.TradeOffice.WorkerDelay"]
+new = "Worker delay"
+status = "normal"
+
+["UI.TW.TradeOffice.TT.WorkerDelay"]
+new = "Delay after trading is required but before a worker will be summoned. Use to reduce cyclic worker behavior. Value is in beaver-hours."
+status = "normal"
+
+["ModSetting.TWTradeOffice.ShowStatusIcons"]
+new = "Show status icons"
+status = "normal"
+
+["ModSetting.TWTradeOffice.ShowStatusIconsDesc"]
+new = "Show the 'nothing to trade' status icon above buildings"
+status = "normal"
+
+["ModSetting.TWTradeOffice.AllowAllGoods"]
+new = "Allow all goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.AllowAllGoodsDesc"]
+new = "Allow buy and sell of any resource, even if they are blocked by a mod's blueprint settings"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultWorkerDelay"]
+new = "Default worker delay"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultWorkerDelayDesc"]
+new = "Delay after trading is required but before a worker will be summoned. Use to reduce cyclic worker behavior. Value is in beaver-hours."
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeInterval"]
+new = "Trade interval"
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeIntervalDesc"]
+new = "Interval between auto-trade cycles. Value is in beaver-hours."
+status = "normal"
+
+["ModSetting.TWTradeOffice.BatchSize"]
+new = "Batch size"
+status = "normal"
+
+["ModSetting.TWTradeOffice.BatchSizeDesc"]
+new = "Max number of items allowed per auto-trade cycle. This is a base-value; some goods may allow higher or lower amounts."
+status = "normal"
+
+["ModSetting.TWTradeOffice.MarkupRate"]
+new = "Markup"
+status = "normal"
+
+["ModSetting.TWTradeOffice.MarkupRateDesc"]
+new = "The markup ratio between buy and sell prices"
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeBalanceDecayRate"]
+new = "Recovery rate"
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeBalanceDecayRateDesc"]
+new = "How fast prices will return to normal. 0 means never, 1 means the next day."
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeSensitivity"]
+new = "Market sensitivity"
+status = "normal"
+
+["ModSetting.TWTradeOffice.TradeSensitivityDesc"]
+new = "Controls how much prices change in response to buying or selling"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodPrice"]
+new = "Default price"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodPriceDesc"]
+new = "Default price for unknown goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodSensitivity"]
+new = "Default good sensitivity"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodSensitivityDesc"]
+new = "Default sensitivity for unknown goods. This is multiplied with the global Trade Sensitivity value."
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodDecayScale"]
+new = "Default trade balance decay"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodDecayScaleDesc"]
+new = "Default trade balance decay rate for unknown goods. This is multiplied with the global trade balance decay rate"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodMarkupScale"]
+new = "Default markup"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodMarkupScaleDesc"]
+new = "Default markup for unknown goods. This is multiplied with the global markup value."
+status = "normal"
+
+["ModSetting.TWTradeOffice.UseManualTrading"]
+new = "Allow manual trading"
+status = "normal"
+
+["ModSetting.TWTradeOffice.UseManualTradingDesc"]
+new = "Allow the player to buy and sell goods instantly"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxDelta"]
+new = "Transition speed"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxDeltaDesc"]
+new = "How fast the price should change per day. 0 is none, 1 is instant. The starting and ending transitions will last approximately (1 / Transition speed) days."
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxRange"]
+new = "Range"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxRangeDesc"]
+new = "How large the price changes can be. 0 means no changes. .5 means +/- 50%  2.0 means +/- 200% (The price can never go below 10% of normal, but if you set this to 10 it may go up to 1000% above normal)."
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxMaxDuration"]
+new = "Max duration"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxMaxDurationDesc"]
+new = "Maximum number of days a price event may last. Does not include the transition periods before and after."
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxChance"]
+new = "Chance of event"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxChanceDesc"]
+new = "Percent chance that a price event will begin. This is rolled once a day, for each good type."
+status = "normal"
+
+["ModSetting.TWTradeOffice.UsePriceResponse"]
+new = "Enable price response"
+status = "normal"
+
+["ModSetting.TWTradeOffice.UsePriceResponseDesc"]
+new = "Allow prices to go up or down as a result of buying or selling"
+status = "normal"
+
+["ModSetting.TWTradeOffice.UsePriceFlux"]
+new = "Enable fluctuation"
+status = "normal"
+
+["ModSetting.TWTradeOffice.UsePriceFluxDesc"]
+new = "Allow prices to go up or down randomly"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxChanceScale"]
+new = "Default flux chance scale"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxChanceScaleDesc"]
+new = "Default flux chance scale for unknown goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxRangeScale"]
+new = "Default flux range scale"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxRangeScaleDesc"]
+new = "Default flux range scale for unknown goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxDurationScale"]
+new = "Default flux duration scale"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxDurationScaleDesc"]
+new = "Default flux duration scale for unknown goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxDeltaScale"]
+new = "Default flux transition speed scale"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodFluxDeltaScaleDesc"]
+new = "Default flux delta scale for unknown goods"
+status = "normal"
+
+["ModSetting.TWTradeOffice.ManualMarkup"]
+new = "Manual trading penalty"
+status = "normal"
+
+["ModSetting.TWTradeOffice.ManualMarkupDesc"]
+new = "Manual buy and sell prices are made worse by this scale factor."
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodBatchSizeScale"]
+new = "Default batch size scale"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodBatchSizeScaleDesc"]
+new = "Default batch size scale for unknown goods"
+status = "normal"
+
+["UI.TW.TradeOffice.ShowMarketInfo"]
+new = "Show list of all goods and prices"
+status = "normal"
+
+["UI.TW.TradeOffice.InfoHeader"]
+new = "Trade Price Info"
+status = "normal"
+
+["UI.TW.TradeOffice.NameCol"]
+new = "Good"
+status = "normal"
+
+["UI.TW.TradeOffice.BuyCol"]
+new = "Buy"
+status = "normal"
+
+["UI.TW.TradeOffice.SellCol"]
+new = "Sell"
+status = "normal"
+
+["UI.TW.TradeOffice.BaseCol"]
+new = "Base price"
+status = "normal"
+
+["UI.TW.TradeOffice.FluxCol"]
+new = "Flux"
+status = "normal"
+
+["UI.TW.TradeOffice.BalanceCol"]
+new = "Trade Balance"
+status = "normal"
+
+["UI.TW.TradeOffice.BatchSizeCol"]
+new = "Batch Size"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceHeader"]
+new = "<b><YellowHighlight>Market buy/sell response</b></YellowHighlight>"
+status = "normal"
+
+["ModSetting.TWTradeOffice.PriceFluxHeader"]
+new = "<b><YellowHighlight>Random market fluctuation</b></YellowHighlight>"
+status = "normal"
+
+["ModSetting.TWTradeOffice.DefaultGoodHeader"]
+new = "<b><YellowHighlight>Default good settings</b></YellowHighlight>"
+status = "normal"
+
+["ModSetting.TWTradeOffice.GeneralHeader"]
+new = "<b><YellowHighlight>General</b></YellowHighlight>"
+status = "normal"

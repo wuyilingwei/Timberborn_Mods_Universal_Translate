@@ -1,0 +1,78 @@
+[_meta]
+name = "Build Queue"
+
+["BuildQueue.Panel.Title"]
+new = "BUILD QUEUE"
+status = "normal"
+
+["BuildQueue.Panel.Sites"]
+new = "{0} sites"
+status = "normal"
+
+["BuildQueue.Panel.Site"]
+new = "{0} site"
+status = "normal"
+
+["BuildQueue.Section.Active"]
+new = "ACTIVE"
+status = "normal"
+
+["BuildQueue.Section.Scaffolds"]
+new = "SCAFFOLDS"
+status = "normal"
+
+["BuildQueue.Section.Paused"]
+new = "PAUSED"
+status = "normal"
+
+["BuildQueue.Empty.Active"]
+new = "No active construction sites."
+status = "normal"
+
+["BuildQueue.Filter.AllDistricts"]
+new = "All districts"
+status = "normal"
+
+["BuildQueue.Sort.Priority"]
+new = "Sort: Priority"
+status = "normal"
+
+["BuildQueue.Priority.VeryHigh"]
+new = "Very High"
+status = "normal"
+
+["BuildQueue.Priority.High"]
+new = "High"
+status = "normal"
+
+["BuildQueue.Priority.Normal"]
+new = "Normal"
+status = "normal"
+
+["BuildQueue.Priority.Low"]
+new = "Low"
+status = "normal"
+
+["BuildQueue.Priority.VeryLow"]
+new = "Very Low"
+status = "normal"
+
+["BuildQueue.TopBar.Tooltip"]
+new = "Build Queue"
+status = "normal"
+
+["BuildQueue.Settings.Description"]
+new = "Show or hide the build queue panel from the top bar or hotkey. The toggle hotkey now lives in Settings -> Keybindings (default: B)."
+status = "normal"
+
+["BuildQueue.KeyBindings.GroupName"]
+new = "Build Queue"
+status = "normal"
+
+["BuildQueue.KeyBindings.Toggle"]
+new = "Toggle build queue panel"
+status = "normal"
+
+["BuildQueue.Cancel.Tooltip"]
+new = "Cancel construction (Shift+click to skip prompt)"
+status = "normal"
