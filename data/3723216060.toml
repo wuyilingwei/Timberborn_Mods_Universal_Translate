@@ -3266,13 +3266,12 @@ csCZ = "(Celkem zahrnuje všechny výplaty)"
 viVN = "(Tổng cộng bao gồm tất cả các văn phòng thanh toán)"
 
 ["UI.TW.PayOfficeMinPopNotice"]
-new = "Pay Office will require credits after population of {0} or more adults"
 status = "normal"
 raw = "Pay Office will require credits after population of {0} or more adults"
 enUS = "Pay Office will require credits after a population of {0} or more adults"
-zhCN = "在成人人数达到 {0} 或更多后，支付办公室将需要信用"
+zhCN = "在成人人数达到 {0} 或更多后，支付办公室将需要信用点"
 zhTW = "「支付辦公室將在成人數量達到 {0} 或更多後需要信用」"
-ruRU = "Канцелярия платежей будет требовать кредиты после появления {0} или более взрослых"
+ruRU = "Канцелярия платежей будет требовать кредиты после появления {0} или более взрослых."
 jaJP = "「人口が{0}人以上の大人になると、給与事務所はクレジットが必要になります。」"
 frFR = "Le bureau de paie nécessitera des crédits après une population de {0} ou plus d'adultes"
 deDE = "Das Zahlungsbüro benötigt Kredite nach einer Bevölkerung von {0} oder mehr Erwachsenen."
@@ -3280,6 +3279,7 @@ plPL = "Biuro Płatności będzie wymagać kredytów po osiągnięciu populacji 
 ptBR = "O Escritório de Pagamento exigirá créditos após a população de {0} ou mais adultos"
 koKR = "거주 인구가 {0}명 이상의 성인이 되면 급여 사무소에 크레딧이 필요합니다."
 csCZ = "Platící kancelář bude vyžadovat kredity po dosažení populace {0} nebo více dospělých"
+viVN = "Văn phòng thanh toán sẽ yêu cầu tín dụng sau khi dân số đạt {0} người lớn trở lên"
 
 ["Building.TWPayOffice.DisplayName"]
 status = "normal"
@@ -3618,7 +3618,6 @@ csCZ = "Otáčení X"
 viVN = "Quay X"
 
 ["UI.TW.MoreMines.RotationY"]
-new = "Rotation Y"
 status = "normal"
 raw = "Rotation Y"
 enUS = "Rotation Y"
@@ -3630,6 +3629,7 @@ frFR = "Rotation Y"
 deDE = "Rotation Y"
 plPL = "Rotacja Y"
 ptBR = "Rotação Y"
+koKR = "회전 Y"
 csCZ = "Rotace Y"
 viVN = "Quay Y"
 
