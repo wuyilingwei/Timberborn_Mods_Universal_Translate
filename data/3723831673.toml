@@ -2,8 +2,8 @@
 name = "Building Mover [ModContest1]"
 
 ["BuildingMover.MoveButton"]
-status = "normal"
 raw = "Move"
+status = "normal"
 enUS = "Move"
 zhCN = "移动"
 zhTW = "移動"
@@ -18,8 +18,8 @@ csCZ = "Přesunout"
 viVN = "Di chuyển"
 
 ["BuildingMover.MoveTooltip"]
-status = "normal"
 raw = "Pick up this building and place it elsewhere"
+status = "normal"
 enUS = "Pick up this building and place it elsewhere"
 zhCN = "拾起这座建筑并将其放置在其他地方"
 zhTW = "拾起此建築並將其放置在其他地方"
@@ -34,8 +34,8 @@ csCZ = "Vezměte tuto budovu a umístěte ji jinam"
 viVN = "Nhặt tòa nhà này và đặt nó ở nơi khác"
 
 ["BuildingMover.ToolDescription"]
-status = "normal"
 raw = "Click a tile to drop the building. Right-click or Esc to cancel."
+status = "normal"
 enUS = "Click a tile to drop the building. Right-click or Esc to cancel."
 zhCN = "点击一个瓷砖以放置建筑。右键点击或按 Esc 取消。"
 zhTW = "「點擊一個格子來放置建築物。右鍵點擊或按 Esc 來取消。」"
@@ -50,8 +50,8 @@ csCZ = "Klikněte na dlaždici pro uložení budovy. Pravým tlačítkem myši n
 viVN = "Nhấp chuột vào một ô để thả công trình. Nhấp chuột phải hoặc Esc để hủy."
 
 ["BuildingMover.MoveObject"]
-status = "normal"
 raw = "Move building"
+status = "normal"
 enUS = "Move building"
 zhCN = "移动建筑"
 zhTW = "移動建築"
@@ -66,8 +66,8 @@ csCZ = "Přesunout budovu"
 viVN = "Di chuyển tòa nhà"
 
 ["BuildingMover.MoveCostPercent"]
-status = "normal"
 raw = "Move cost (%)"
+status = "normal"
 enUS = "Move cost (%)"
 zhCN = "移动成本 (%)"
 zhTW = "移動成本（%）"
@@ -82,8 +82,8 @@ csCZ = "Celkové náklady na přesun (%)"
 viVN = "Chi phí di chuyển (%)"
 
 ["BuildingMover.MoveCostPercentTooltip"]
-status = "normal"
 raw = "Percentage of the building's build materials charged for each move. 0 means free. Materials are drawn from public stockpiles in the source's district first, then from nearer districts."
+status = "normal"
 enUS = "Percentage of the building's build materials charged for each move. 0 means free. Materials are drawn from public stockpiles in the source's district first, then from nearer districts."
 zhCN = "“每次移动所收取的建筑建材百分比。0表示免费。材料首先从源区域的公共库存中提取，然后从更靠近的区域提取。”"
 zhTW = "建物搬移成本百分比工具提示：移動每個建築所需的材料百分比。0表示免費。材料首先從來源區域的公共儲存區提取，然後從較近的區域提取。"
@@ -98,8 +98,8 @@ csCZ = "Procento stavebních materiálů, které se účtují za každý přesun
 viVN = "Phần trăm vật liệu xây dựng của công trình sẽ bị tính phí cho mỗi lần di chuyển. 0 có nghĩa là miễn phí. Vật liệu được lấy từ kho công cộng trong quận của nguồn trước, sau đó từ các quận gần hơn."
 
 ["BuildingMover.Zipline.ConnectionsWillBreak"]
-status = "normal"
 raw = "These zipline connections will break:"
+status = "normal"
 enUS = "These zipline connections will break:"
 zhCN = "这些索道连接将会断开："
 zhTW = "這些滑索連接將會斷開："
@@ -114,8 +114,8 @@ csCZ = "Tato spojení lanovky se přeruší:"
 viVN = "Các kết nối zipline này sẽ bị hỏng:"
 
 ["BuildingMover.Zipline.AllConnectionsKept"]
-status = "normal"
 raw = "All zipline connections will be kept"
+status = "normal"
 enUS = "All zipline connections will be kept"
 zhCN = "“所有滑索连接将被保留”"
 zhTW = "所有滑索連接將被保留"
@@ -130,8 +130,8 @@ csCZ = "Všechny spojení lanovek budou zachována"
 viVN = "Tất cả kết nối cáp sẽ được giữ lại"
 
 ["BuildingMover.Zipline.TooFar"]
-status = "normal"
 raw = "Too far ({0}/{1} tiles)"
+status = "normal"
 enUS = "Too far ({0}/{1} tiles)"
 zhCN = "太远了 ({0}/{1} 块)"
 zhTW = "太遠了（{0}/{1} 磚塊）"
@@ -146,8 +146,8 @@ csCZ = " příliš daleko ({0}/{1} dlaždic)"
 viVN = "Quá xa ({0}/{1} ô)"
 
 ["BuildingMover.Zipline.TooSteep"]
-status = "normal"
 raw = "Too steep ({0}°/{1}°)"
+status = "normal"
 enUS = "Too steep ({0}°/{1}°)"
 zhCN = "太陡了 ({0}°/{1}°)"
 zhTW = "傾斜角度過大（{0}°/{1}°）"
@@ -162,8 +162,8 @@ csCZ = "Příliš strmé ({0}°/{1}°)"
 viVN = "Độ dốc quá lớn ({0}°/{1}°)"
 
 ["BuildingMover.Zipline.DifferentDistricts"]
-status = "normal"
 raw = "Different districts"
+status = "normal"
 enUS = "Different districts"
 zhCN = "不同地区"
 zhTW = "不同區域"
@@ -178,8 +178,8 @@ csCZ = "Různé čtvrtě"
 viVN = "Khu vực khác nhau"
 
 ["BuildingMover.Zipline.Blocked"]
-status = "normal"
 raw = "Cable path blocked"
+status = "normal"
 enUS = "Cable path blocked"
 zhCN = "电缆路径被阻塞"
 zhTW = "「電纜路徑被阻擋」"

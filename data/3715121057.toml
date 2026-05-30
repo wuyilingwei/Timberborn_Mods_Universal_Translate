@@ -2,8 +2,8 @@
 name = "Move Building"
 
 ["MoveBuildings.ToolName"]
-status = "normal"
 raw = "Move"
+status = "normal"
 enUS = "Move"
 zhCN = "移动"
 zhTW = "移動"
@@ -18,8 +18,8 @@ csCZ = "Přesunout"
 viVN = "Di chuyển"
 
 ["MoveBuildings.ToolDescription"]
-status = "normal"
 raw = "Relocate a placed building to a new tile. Inventory and workers are preserved."
+status = "normal"
 enUS = "Relocate a placed building to a new tile. Inventory and workers are preserved."
 zhCN = "将已建造的建筑迁移到新的地块。库存和工人将被保留。"
 zhTW = "將已放置的建築物重新定位到新格子。物品和工人將被保留。"
@@ -34,8 +34,8 @@ csCZ = "Přemístěte umístěnou budovu na novou dlaždici. Inventář a pracov
 viVN = "Di chuyển một công trình đã đặt đến một ô mới. Kho hàng và công nhân được bảo tồn."
 
 ["MoveBuildings.Tooltip.Pick"]
-status = "normal"
 raw = "Click a building to move"
+status = "normal"
 enUS = "Click a building to move"
 zhCN = "单击建筑以移动"
 zhTW = "點擊建築以移動"
@@ -50,8 +50,8 @@ csCZ = "Klikněte na budovu, kterou chcete přesunout."
 viVN = "Nhấn vào một công trình để di chuyển"
 
 ["MoveBuildings.Tooltip.Place"]
-status = "normal"
 raw = "Click a valid tile to place"
+status = "normal"
 enUS = "Click a valid tile to place"
 zhCN = "点击有效的瓷砖以放置"
 zhTW = "點選有效的方塊以放置"
@@ -66,8 +66,8 @@ csCZ = "Klikněte na platnou dlaždici pro umístění"
 viVN = "Nhấn vào một ô hợp lệ để đặt"
 
 ["MoveBuildings.Tooltip.InvalidLinked"]
-status = "normal"
 raw = "Linked buildings cannot be moved"
+status = "normal"
 enUS = "Linked buildings cannot be moved"
 zhCN = "无法移动链接的建筑"
 zhTW = "「連結的建築無法移動」"
@@ -82,8 +82,8 @@ csCZ = "Propojené budovy nelze přesunout"
 viVN = "Các tòa nhà liên kết không thể di chuyển"
 
 ["MoveBuildings.Tooltip.InvalidPath"]
-status = "normal"
 raw = "Paths cannot be moved"
+status = "normal"
 enUS = "Paths cannot be moved"
 zhCN = "“路径无法移动”"
 zhTW = "路徑無法移動"
@@ -98,8 +98,8 @@ csCZ = "Cesty nelze přesunout"
 viVN = "Không thể di chuyển đường đi"
 
 ["MoveBuildings.Tooltip.InvalidBlocked"]
-status = "normal"
 raw = "Target tile is occupied"
+status = "normal"
 enUS = "Target tile is occupied"
 zhCN = "目标 tiles 被占用"
 zhTW = "目標瓷磚已被佔用"
@@ -114,8 +114,8 @@ csCZ = "Cílová dlaždice je obsazena"
 viVN = "Ô mục tiêu đang bị chiếm dụng"
 
 ["MoveBuildings.Tooltip.InvalidDistrictCenter"]
-status = "normal"
 raw = "District centers use their own relocate option"
+status = "normal"
 enUS = "District centers use their own relocation option"
 zhCN = "地区中心使用自己的搬迁选项"
 zhTW = "「區域中心使用自己的重新安置選項」"
@@ -130,8 +130,8 @@ csCZ = "Okresní centra používají svou vlastní možnost přemístění"
 viVN = "Các trung tâm quận sử dụng tùy chọn di chuyển riêng của chúng"
 
 ["MoveBuildings.Tooltip.InvalidPreview"]
-status = "normal"
 raw = "Unplaced previews cannot be moved"
+status = "normal"
 enUS = "Unplaced previews cannot be moved"
 zhCN = "未放置的预览无法移动"
 zhTW = "「未放置的預覽無法移動」"
@@ -146,8 +146,8 @@ csCZ = "Nepoložené náhledy nelze přesunout"
 viVN = "Không thể di chuyển các bản xem trước chưa đặt"
 
 ["MoveBuildings.Tooltip.InvalidUnplaceable"]
-status = "normal"
 raw = "This building has no placement data"
+status = "normal"
 enUS = "This building has no placement data."
 zhCN = "此建筑没有放置数据"
 zhTW = "此建築沒有放置數據"
@@ -162,8 +162,8 @@ csCZ = "Tato budova nemá žádná data o umístění"
 viVN = "Công trình này không có dữ liệu đặt"
 
 ["MoveBuildings.Tooltip.InvalidUnderConstruction"]
-status = "normal"
 raw = "Under-construction buildings cannot be moved"
+status = "normal"
 enUS = "Under-construction buildings cannot be moved"
 zhCN = "正在建设中的建筑无法移动"
 zhTW = "正在建設的建築物無法移動"
@@ -178,8 +178,8 @@ csCZ = "Nepřesouvání budov ve výstavbě"
 viVN = "Các công trình đang xây dựng không thể di chuyển"
 
 ["MoveBuildings.Tooltip.InvalidNoDistrict"]
-status = "normal"
 raw = "Building has no district to charge"
+status = "normal"
 enUS = "Building has no district to charge"
 zhCN = "建筑没有可计费的区"
 zhTW = "建築物沒有區域來收費"
@@ -194,8 +194,8 @@ csCZ = "Budova nemá okrsek, za který by mohla být účtována"
 viVN = "Công trình không có khu vực nào để tính phí"
 
 ["MoveBuildings.Tooltip.InvalidNotEnoughResources"]
-status = "normal"
 raw = "Not enough resources in district"
+status = "normal"
 enUS = "Not enough resources in district"
 zhCN = "“区域内资源不足”"
 zhTW = "「地區內資源不足」"
@@ -210,8 +210,8 @@ csCZ = "Nedostatek zdrojů v okrese"
 viVN = "Không đủ tài nguyên trong khu vực"
 
 ["MoveBuildings.Toast.MovedFormat"]
-status = "normal"
 raw = "Moved {0}"
+status = "normal"
 enUS = "Moved {0}"
 zhCN = "移动了 {0}"
 zhTW = "搬動了 {0}"
@@ -226,8 +226,8 @@ csCZ = "Přesunuto {0}"
 viVN = "Đã di chuyển {0}"
 
 ["MoveBuildings.Toast.MovedFreeFormat"]
-status = "normal"
 raw = "Moved {0}"
+status = "normal"
 enUS = "Moved {0}"
 zhCN = "移动了 {0}"
 zhTW = "移動了 {0}"
@@ -242,8 +242,8 @@ csCZ = "Přesunuto {0}"
 viVN = "Đã di chuyển {0}"
 
 ["MoveBuildings.Toast.MovedWithCostFormat"]
-status = "normal"
 raw = "Moved {0} - charged {1}"
+status = "normal"
 enUS = "Moved {0} - charged {1}"
 zhCN = "移动了 {0} - 收费 {1}"
 zhTW = "移動了 {0} - 收費 {1}"
@@ -258,8 +258,8 @@ csCZ = "Premístěno {0} - účtováno {1}"
 viVN = "Di chuyển {0} - tính phí {1}"
 
 ["MoveBuildings.Cost.Header"]
-status = "normal"
 raw = "Move cost"
+status = "normal"
 enUS = "Move cost"
 zhCN = "移动成本"
 zhTW = "移動成本"
@@ -274,8 +274,8 @@ csCZ = "Náklady na přesun"
 viVN = "Chi phí di chuyển"
 
 ["MoveBuildings.Cost.RefundHeader"]
-status = "normal"
 raw = "Refund"
+status = "normal"
 enUS = "Refund"
 zhCN = "退款"
 zhTW = "退款"
@@ -290,8 +290,8 @@ csCZ = "Vrátit"
 viVN = "Hoàn tiền"
 
 ["MoveBuildings.Cost.NetHeader"]
-status = "normal"
 raw = "Net cost"
+status = "normal"
 enUS = "Net cost"
 zhCN = "净成本"
 zhTW = "淨成本"
@@ -306,8 +306,8 @@ csCZ = "Čisté náklady"
 viVN = "Chi phí ròng"
 
 ["MoveBuildings.Cost.Free"]
-status = "normal"
 raw = "Free move (full refund)"
+status = "normal"
 enUS = "Free move (full refund)"
 zhCN = "免费移动（全额退款）"
 zhTW = "免費移動（全額退款）"
@@ -322,8 +322,8 @@ csCZ = "Bezplatný přesun (plná náhrada)"
 viVN = "Di chuyển miễn phí (hoàn lại đầy đủ)"
 
 ["MoveBuildings.Cost.Missing"]
-status = "normal"
 raw = "Missing: {0}"
+status = "normal"
 enUS = "Missing: {0}"
 zhCN = "缺少：{0}"
 zhTW = "缺少：{0}"

@@ -2,8 +2,8 @@
 name = "Tank Evaporation"
 
 ["TE.Header"]
-status = "normal"
 raw = "Tank Evaporation"
+status = "normal"
 enUS = "Tank Evaporation"
 zhCN = "“水箱蒸发”"
 zhTW = "坦克蒸發"
@@ -18,8 +18,8 @@ csCZ = "Odtok nádrže"
 viVN = "Bay hơi bể chứa"
 
 ["TE.DailyLeak"]
-status = "normal"
 raw = "Daily Leak: {0} units/day ({1}%)"
+status = "normal"
 enUS = "Daily Leak: {0} units/day ({1}%)"
 zhCN = "每日泄漏: {0} 单位/天 ({1}%)"
 zhTW = "每日漏水：{0} 單位/天 ({1}%)"
@@ -34,8 +34,8 @@ csCZ = "Denní Únik: {0} jednotek/den ({1}%)"
 viVN = "Rò rỉ hàng ngày: {0} đơn vị/ngày ({1}%)"
 
 ["TE.DaysEmpty"]
-status = "normal"
 raw = "Days Until Empty: {0} days"
+status = "normal"
 enUS = "Days Until Empty: {0} days"
 zhCN = "距离耗尽还有: {0} 天"
 zhTW = "距離空置還有天數：{0} 天"
@@ -50,8 +50,8 @@ csCZ = "Dny do vyprázdnění: {0} dní"
 viVN = "Số ngày cho đến khi rỗng: {0} ngày"
 
 ["TE.EvaporationPercent"]
-status = "normal"
 raw = "Evaporation Rate (%)"
+status = "normal"
 enUS = "Evaporation Rate (%)"
 zhCN = "蒸发率 (%)"
 zhTW = "蒸發率 (%)"
@@ -66,8 +66,8 @@ csCZ = "Rychlost odpařování (%)"
 viVN = "Tỷ lệ bốc hơi (%)"
 
 ["TE.EvaporationPercentTooltip"]
-status = "normal"
 raw = "Percentage of max tank capacity lost per day. Default is 5. A large tank loses 60 units per day at 5%."
+status = "normal"
 enUS = "Percentage of max tank capacity lost per day. Default is 5. A large tank loses 60 units per day at 5%."
 zhCN = "每天损失的最大水箱容量百分比。默认值为5。大型水箱在5%的情况下每天损失60单位。"
 zhTW = "每日損失的最大儲水槽容量百分比。預設為5%。在5%下，大型儲水槽每天損失60單位。"
@@ -82,8 +82,8 @@ csCZ = "Procento z maximální kapacity tanku ztracené za den. Výchozí hodnot
 viVN = "Phần trăm dung tích bể chứa tối đa bị mất mỗi ngày. Mặc định là 5. Một bể lớn mất 60 đơn vị mỗi ngày với 5%."
 
 ["TE.WaterOnly"]
-status = "normal"
 raw = "Water Tanks Only"
+status = "normal"
 enUS = "Water Tanks Only"
 zhCN = "仅水箱"
 zhTW = "只限水槽"
@@ -98,8 +98,8 @@ csCZ = "Jenom vodní nádrže"
 viVN = "Chỉ Bình Nước"
 
 ["TE.WaterOnlyTooltip"]
-status = "normal"
 raw = "When enabled only water tanks evaporate. When disabled all liquid tanks evaporate including badwater and extract. Default off."
+status = "normal"
 enUS = "When enabled, only water tanks evaporate. When disabled, all liquid tanks evaporate, including polluted water and extract. Default is off."
 zhCN = "启用时仅水箱蒸发。禁用时所有液体箱都会蒸发，包括废水和提取。默认为关闭状态。"
 zhTW = "啟用時僅水箱會蒸發。關閉時所有液體箱體會蒸發，包括污水和提取。默認關閉。"

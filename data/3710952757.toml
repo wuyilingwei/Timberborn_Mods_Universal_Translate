@@ -2,8 +2,8 @@
 name = "Distro Storages"
 
 ["LV.DS.Range"]
-status = "normal"
 raw = "Range"
+status = "normal"
 enUS = "Range"
 zhCN = "范围"
 zhTW = "範圍"
@@ -18,8 +18,8 @@ csCZ = "Rozsah"
 viVN = "Phạm vi"
 
 ["LV.DS.RangeDesc"]
-status = "normal"
 raw = "The range of the Distro storage.\nItems can be sent from a storage to another building this range.\nDefault: 3"
+status = "normal"
 enUS = "The range of the Distro storage.  \nItems can be sent from one storage to another building within this range.  \nDefault: 3"
 zhCN = "Distro存储的范围。\n物品可以在此范围内从一个存储发送到另一个建筑。\n默认值：3"
 zhTW = "“分配儲存的範圍。\n物品可以從一個儲存發送到另一個建築，在此範圍內。\n默認值：3”"
@@ -34,8 +34,8 @@ csCZ = "Rozsah úložiště Distro.  \nPoložky mohou být odesílány ze skladu
 viVN = "Phạm vi của kho Distro.\nCác vật phẩm có thể được gửi từ kho đến một tòa nhà khác trong phạm vi này.\nMặc định: 3"
 
 ["LV.DS.TransferRate"]
-status = "normal"
 raw = "Transfer Rate (items/hour)"
+status = "normal"
 enUS = "Transfer Rate (items/hour)"
 zhCN = "传输速率（物品/小时）"
 zhTW = "傳輸速率（物品/小時）"
@@ -50,8 +50,8 @@ csCZ = "Rychlost přenosu (předmětů/hodina)"
 viVN = "Tốc độ Chuyển Giao (vật phẩm/giờ)"
 
 ["LV.DS.TransferRateDesc"]
-status = "normal"
 raw = "How many items can a Distro sender send per hour."
+status = "normal"
 enUS = "How many items a Distro sender can send per hour."
 zhCN = "“每小时一个分发发送器可以发送多少物品。”"
 zhTW = "“每小時可以發送多少個物品。”"
@@ -66,8 +66,8 @@ csCZ = "Kolik položek může odesílatel Distro odeslat za hodinu."
 viVN = "Số lượng vật phẩm mà một người gửi Distro có thể gửi trong một giờ."
 
 ["LV.DS.StockpileEnableDefault"]
-status = "normal"
 raw = "Storage enabled by default"
+status = "normal"
 enUS = "Storage enabled by default"
 zhCN = "默认启用存储"
 zhTW = "默認啟用存儲"
@@ -82,8 +82,8 @@ csCZ = "Skladování povoleno ve výchozím nastavení"
 viVN = "Kho được bật mặc định"
 
 ["LV.DS.StockpileEnableDefaultDesc"]
-status = "normal"
 raw = "Whether Distro storage is enabled by default for Storage buildings."
+status = "normal"
 enUS = "Whether Distro storage is enabled by default for Storage buildings."
 zhCN = "“是否默认启用分发存储用于存储建筑。”"
 zhTW = "「是否預設啟用分配儲存的儲存建築。」"
@@ -98,8 +98,8 @@ csCZ = "Zda je Distro skladování ve výchozím nastavení povoleno pro skladov
 viVN = "Có cho phép kho Distro mặc định đối với các tòa nhà lưu trữ hay không."
 
 ["LV.DS.EnableConstruction"]
-status = "normal"
 raw = "Enable for Constructions"
+status = "normal"
 enUS = "Enable for Constructions"
 zhCN = "启用建筑组件"
 zhTW = "啟用建設"
@@ -114,8 +114,8 @@ csCZ = "Povolit pro stavby"
 viVN = "Bật cho Xây dựng"
 
 ["LV.DS.EnableConstructionDesc"]
-status = "normal"
 raw = "Whether Distro storage can send items to construction sites."
+status = "normal"
 enUS = "Whether Distro storage can send items to construction sites."
 zhCN = "“分配存储是否可以将物品发送到建筑工地。”"
 zhTW = "“分配儲存是否可以將物品發送到建設工地。”"
@@ -130,8 +130,8 @@ csCZ = "Zda může Distro sklad odesílat položky na staveniště."
 viVN = "Có cho phép lưu trữ Distro gửi vật phẩm tới các địa điểm xây dựng hay không."
 
 ["LV.DS.EnableDefault"]
-status = "normal"
 raw = "▶ Enabled by default"
+status = "normal"
 enUS = "▶ Enabled by default"
 zhCN = "▶ 默认启用"
 zhTW = "▶ 預設啟用"
@@ -146,8 +146,8 @@ csCZ = "▶ Povoleno jako výchozí"
 viVN = "▶ Bật theo mặc định"
 
 ["LV.DS.EnableDefaultDesc"]
-status = "normal"
 raw = "Whether Distro storage is enabled by default for these."
+status = "normal"
 enUS = "Whether Distro storage is enabled by default for these."
 zhCN = "这些默认是否启用分配存储。"
 zhTW = "「是否這些的分配儲存預設為啟用。」"
@@ -162,8 +162,8 @@ csCZ = "Zda je výchozí nastavení Distro úložiště povoleno pro tyto."
 viVN = "Cho biết liệu kho phân phối có được kích hoạt mặc định cho những thứ này hay không."
 
 ["LV.DS.EnableManufactory"]
-status = "normal"
 raw = "Enable for Manufactory buildings"
+status = "normal"
 enUS = "Enable for Manufactory buildings"
 zhCN = "“启用制造厂建筑”"
 zhTW = "啟用工廠建築"
@@ -178,8 +178,8 @@ csCZ = "Povolit pro výrobní budovy"
 viVN = "Kích hoạt cho các tòa nhà Nhà máy"
 
 ["LV.DS.EnableManufactoryDesc"]
-status = "normal"
 raw = "Whether Distro storage can send ingredients to manufactory buildings.\nThe output is <RedHighlight>not</RedHighlight> sent back."
+status = "normal"
 enUS = "Whether Distro storage can send ingredients to manufactory buildings. The output is <RedHighlight>not</RedHighlight> sent back."
 zhCN = "“配送储存是否可以将原料发送到制造厂建筑。\n输出是<RedHighlight>不</RedHighlight>会返回。”"
 zhTW = "「是否分派儲存可以將材料發送到工廠建築。輸出<RedHighlight>不</RedHighlight>會返回。」"
@@ -194,8 +194,8 @@ csCZ = "Zda může Distro sklad zasílat suroviny do továren. Výstup <RedHighl
 viVN = "Liệu kho phân phối có thể gửi nguyên liệu đến các tòa nhà chế tạo hay không. Kết quả là <RedHighlight>không</RedHighlight> được gửi lại."
 
 ["LV.DS.DistroSender"]
-status = "normal"
 raw = "Distro Sender"
+status = "normal"
 enUS = "Distro Sender"
 zhCN = "分发发送器"
 zhTW = "分發發送器"
@@ -210,8 +210,8 @@ csCZ = "Distro Odesílatel"
 viVN = "Người gửi Distro"
 
 ["LV.DS.DistroReceiver"]
-status = "normal"
 raw = "Distro Receiver"
+status = "normal"
 enUS = "Distro Receiver"
 zhCN = "分发接收器"
 zhTW = "分配接收器"
@@ -226,8 +226,8 @@ csCZ = "Distro Příjemce"
 viVN = "Người nhận Distro"
 
 ["LV.DS.InRangeForReceiver"]
-status = "normal"
 raw = "Senders in Range"
+status = "normal"
 enUS = "Senders in Range"
 zhCN = "“发件人范围内”"
 zhTW = "範圍內的發送者"
@@ -242,8 +242,8 @@ csCZ = "odesílatelé v dosahu"
 viVN = "Người gửi trong phạm vi"
 
 ["LV.DS.InRangeForSender"]
-status = "normal"
 raw = "Receivers in Range"
+status = "normal"
 enUS = "Receivers in Range"
 zhCN = "接收器在范围内"
 zhTW = "接收器在範圍內"
@@ -258,8 +258,8 @@ csCZ = "Přijímače v dosahu"
 viVN = "Người nhận trong phạm vi"
 
 ["LV.DS.Select"]
-status = "normal"
 raw = "Select"
+status = "normal"
 enUS = "Select"
 zhCN = "选择"
 zhTW = "選擇"
@@ -274,8 +274,8 @@ csCZ = "Vybrat"
 viVN = "Chọn"
 
 ["LV.DS.Enabled"]
-status = "normal"
 raw = "Enabled"
+status = "normal"
 enUS = "Enabled"
 zhCN = "启用"
 zhTW = "啟用"
@@ -290,8 +290,8 @@ csCZ = "Povolené"
 viVN = "Đã kích hoạt"
 
 ["LV.DS.Disabled"]
-status = "normal"
 raw = "Disabled"
+status = "normal"
 enUS = "Disabled"
 zhCN = "禁用"
 zhTW = "禁用"
@@ -306,8 +306,8 @@ csCZ = "Vypnuto"
 viVN = "Đã tắt"
 
 ["LV.DS.EnabledDescSender"]
-status = "normal"
 raw = "Items from this building can be sent to receivers"
+status = "normal"
 enUS = "Items from this building can be sent to receivers."
 zhCN = "“该建筑中的物品可以发送到接收器”"
 zhTW = "「這座建築物中的物品可以發送給接收器」"
@@ -322,8 +322,8 @@ csCZ = "Předměty z této budovy mohou být odeslány přijímačům"
 viVN = "Các mục từ tòa nhà này có thể được gửi đến người nhận"
 
 ["LV.DS.EnabledDescReceiver"]
-status = "normal"
 raw = "Items can be sent to this building from senders"
+status = "normal"
 enUS = "Items can be sent to this building from senders."
 zhCN = "“物品可以从发送者发送到这座建筑。”"
 zhTW = "「物品可以從發送者發送到這座建築」"
@@ -338,8 +338,8 @@ csCZ = "Položky lze posílat do této budovy od odesílatelů"
 viVN = "Các vật phẩm có thể được gửi đến tòa nhà này từ các người gửi"
 
 ["LV.DS.NoneInRange"]
-status = "normal"
 raw = "None in range"
+status = "normal"
 enUS = "None in range"
 zhCN = "范围内无"
 zhTW = "範圍內無任何物品"
@@ -354,8 +354,8 @@ csCZ = "Nikdo v dosahu"
 viVN = "Không có trong phạm vi"
 
 ["LV.DS.NextTransfer"]
-status = "normal"
 raw = "Next transfer: {0:0.00}h"
+status = "normal"
 enUS = "Next transfer: {0:0.00}h"
 zhCN = "下一次转移：{0:0.00}小时"
 zhTW = "下一次轉移：{0:0.00}小時"
@@ -370,8 +370,8 @@ csCZ = "Další přeprava: {0:0.00}h"
 viVN = "Chuyển nhượng tiếp theo: {0:0.00}h"
 
 ["LV.DS.Priority"]
-status = "normal"
 raw = "Receiver Priority"
+status = "normal"
 enUS = "Receiver Priority"
 zhCN = "接收器优先级"
 zhTW = "接收器優先級"
@@ -386,8 +386,8 @@ csCZ = "Priorita příjemce"
 viVN = "Ưu tiên Nhận"
 
 ["LV.DS.SettingsDisplay"]
-status = "normal"
 raw = "{0}, Priority: {1}"
+status = "normal"
 enUS = "{0}, Priority: {1}"
 zhCN = "{0}，优先级：{1}"
 zhTW = "{0}，優先級：{1}"
@@ -402,8 +402,8 @@ csCZ = "{0}, Priorita: {1}"
 viVN = "{0}, Độ ưu tiên: {1}"
 
 [Name_DistroStorageFragment]
-status = "normal"
 raw = "Distro Storage"
+status = "normal"
 enUS = "Distro Storage"
 zhCN = "分发储存"
 zhTW = "“分配倉庫”"
@@ -418,8 +418,8 @@ csCZ = "Distro sklad"
 viVN = "Kho Distro"
 
 ["LV.MT.BldSet.StockpileDistroSender"]
-status = "normal"
 raw = "Stockpile Distro"
+status = "normal"
 enUS = "Stockpile Distro"
 zhCN = "“库存分配”"
 zhTW = "「物資分配倉庫」"
@@ -434,8 +434,8 @@ csCZ = "Skladiště Distro"
 viVN = "Tích trữ Distro"
 
 ["LV.MT.BldSet.ManufactoryDistroReceiver"]
-status = "normal"
 raw = "Manufactory Distro"
+status = "normal"
 enUS = "Manufactory Distro"
 zhCN = "制造厂分配"
 zhTW = "製造廠配貨"
@@ -450,8 +450,8 @@ csCZ = "Výroba Distro"
 viVN = "Công Xưởng Phân Phối"
 
 ["LV.MT.BldSet.ConstructionSiteDistroReceiver"]
-status = "normal"
 raw = "Construction Site Distro"
+status = "normal"
 enUS = "Construction Site Distro"
 zhCN = "建筑工地分配"
 zhTW = "建設工地分配"

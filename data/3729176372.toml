@@ -2,8 +2,8 @@
 name = "More HTTP API"
 
 ["LV.MHA.AutoStart"]
-status = "normal"
 raw = "Auto-start"
+status = "normal"
 enUS = "Auto-start"
 zhCN = "自动启动"
 zhTW = "自動啟動"
@@ -18,8 +18,8 @@ csCZ = "Automatické spuštění"
 viVN = "Tự động bắt đầu"
 
 ["LV.MHA.AutoStartDesc"]
-status = "normal"
 raw = "Automatically start the API server when loading the game.\nYou do not need a HTTP Adapter building if you enable this option."
+status = "normal"
 enUS = "Automatically start the API server when loading the game. You do not need an HTTP Adapter building if you enable this option."
 zhCN = "“加载游戏时自动启动 API 服务器。\n如果启用此选项，则不需要 HTTP 适配器建筑。”"
 zhTW = "在載入遊戲時自動啟動 API 伺服器。  \n如果啟用此選項，則不需要 HTTP 適配器建築。"
@@ -34,8 +34,8 @@ csCZ = "„Automaticky spustit API server při načítání hry. Tento příspě
 viVN = "Tự động khởi động máy chủ API khi tải game. Bạn không cần một tòa nhà Bộ chuyển đổi HTTP nếu bạn bật tùy chọn này."
 
 ["LV.MHA.AutoStartPort"]
-status = "normal"
 raw = "Auto-start Port"
+status = "normal"
 enUS = "Auto-start Port"
 zhCN = "自动启动端口"
 zhTW = "自動啟動端口"
@@ -50,8 +50,8 @@ csCZ = "Port pro automatické spuštění"
 viVN = "Cổng tự động khởi động"
 
 ["LV.MHA.AutoStartPortDesc"]
-status = "normal"
 raw = "The port used for auto-starting the API server."
+status = "normal"
 enUS = "The port used for auto-starting the API server."
 zhCN = "“用于自动启动 API 服务器的端口。”"
 zhTW = "“用於自動啟動API伺服器的端口。”"
@@ -66,8 +66,8 @@ csCZ = "Přístav používaný pro automatické spuštění API serveru."
 viVN = "Cổng được sử dụng để khởi động tự động máy chủ API."
 
 ["LV.MHA.Authentication"]
-status = "normal"
 raw = "Authentication"
+status = "normal"
 enUS = "Authentication"
 zhCN = "身份验证"
 zhTW = "身份驗證"
@@ -82,8 +82,8 @@ csCZ = "Autentizace"
 viVN = "Xác thực"
 
 ["LV.MHA.AuthenticationDesc"]
-status = "normal"
 raw = "Enable authentication for the API server. You will need to provide a password to access the API endpoints.\nLeave empty to disable.\n<RedHighlight>Note: only apply to endpoints provided using MoreHttpApi.</RedHighlight>"
+status = "normal"
 enUS = "Enable authentication for the API server. You will need to provide a password to access the API endpoints. Leave empty to disable. <RedHighlight>Note: only apply to endpoints provided using MoreHttpApi.</RedHighlight>"
 zhCN = "启用 API 服务器的身份验证。您需要提供密码才能访问 API 端点。\n留空以禁用。\n<RedHighlight>注意：仅适用于使用 MoreHttpApi 提供的端点。</RedHighlight>"
 zhTW = "啟用 API 伺服器的身份驗證。您需要提供密碼才能訪問 API 端點。  \n留空以禁用。  \n<RedHighlight>注意：僅適用於使用 MoreHttpApi 提供的端點。</RedHighlight>"
