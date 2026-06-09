@@ -1,0 +1,42 @@
+[_meta]
+name = "Grid Cutting Patterns"
+
+["GridCutting.Checkerboard.Title"]
+new = "Cut Trees: Checkerboard"
+status = "normal"
+
+["GridCutting.Checkerboard.Description"]
+new = "Marks every other tree in a checkerboard pattern so the trees left standing reseed the gaps. Cuts about half."
+status = "normal"
+
+["GridCutting.StripesHorizontal.Title"]
+new = "Cut Trees: Horizontal Stripes"
+status = "normal"
+
+["GridCutting.StripesHorizontal.Description"]
+new = "Marks alternate rows of trees and leaves full horizontal seed rows between them. Cuts about half."
+status = "normal"
+
+["GridCutting.StripesVertical.Title"]
+new = "Cut Trees: Vertical Stripes"
+status = "normal"
+
+["GridCutting.StripesVertical.Description"]
+new = "Marks alternate columns of trees and leaves full vertical seed rows between them. Cuts about half."
+status = "normal"
+
+["GridCutting.Thin.Title"]
+new = "Cut Trees: Thin"
+status = "normal"
+
+["GridCutting.Thin.Description"]
+new = "Marks one tree in four — the gentlest thinning for the fastest regrowth. Cuts about a quarter."
+status = "normal"
+
+["GridCutting.Heavy.Title"]
+new = "Cut Trees: Heavy"
+status = "normal"
+
+["GridCutting.Heavy.Description"]
+new = "Marks three trees in four and keeps a sparse seed grid standing. Cuts about three quarters."
+status = "normal"

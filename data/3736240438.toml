@@ -1,0 +1,162 @@
+[_meta]
+name = "Academic's Rainborn"
+
+["academicunwinds.Rainborn.Notification.RainStarted"]
+new = "A storm is coming."
+status = "normal"
+
+["academicunwinds.Rainborn.Notification.AcidRainStarted"]
+new = "This storm seems dangerous!"
+status = "normal"
+
+["academicunwinds.Rainborn.Notification.RainEnded"]
+new = "The rain has stopped."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.ModEnabled"]
+new = "Enable Rainborn"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.ModEnabled.Tooltip"]
+new = "Master kill-switch. Turn off to immediately end any storm in progress and prevent new ones from rolling. Other settings are kept as-is so you can re-enable later without losing your tuning."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainIntensityMin"]
+new = "Min rain intensity"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainIntensityMin.Tooltip"]
+new = "Lower end of the random intensity range. Each storm rolls a fresh strength between this and the max.\n\n10 is roughly drizzle; 30+ is a heavy storm."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainIntensityMax"]
+new = "Max rain intensity"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainIntensityMax.Tooltip"]
+new = "Upper end of the random intensity range.\n\nIf you set this below the min slider the order is swapped automatically."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.StartCycle"]
+new = "No weather before cycle"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.StartCycle.Tooltip"]
+new = "Rain stays disabled until your colony reaches this cycle. 1 = no gate (default). Useful for a peaceful early game."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainCoverage"]
+new = "Rain coverage (%)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainCoverage.Tooltip"]
+new = "Percentage of map tiles that receive water each tick.\n\nTogether with intensity this controls total volume."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainHoursMin"]
+new = "Min rain duration (hours)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainHoursMin.Tooltip"]
+new = "Shortest possible rain event in in-game hours.\n\nEach storm rolls a fresh duration between this and the max."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainHoursMax"]
+new = "Max rain duration (hours)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainHoursMax.Tooltip"]
+new = "Longest possible rain event in in-game hours."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.DryDaysMin"]
+new = "Min days between rain"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.DryDaysMin.Tooltip"]
+new = "Minimum number of days between rain events.\n\n0 lets rain return within the same day."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.DryDaysMax"]
+new = "Max days between rain"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.DryDaysMax.Tooltip"]
+new = "Maximum number of days between rain events.\n\nEach gap rolls a random count between min and max plus a random time-of-day offset."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.InitialWaitDays"]
+new = "Initial wait (days)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.InitialWaitDays.Tooltip"]
+new = "How many full days to wait at game start before any rain event can fire.\n\n0 lets the first rain happen on day 1."
+status = "normal"
+
+["academicunwinds.Rainborn.KeyBindingGroup"]
+new = "Academic's Rainborn"
+status = "normal"
+
+["academicunwinds.Rainborn.KeyBinding.ToggleNormalRain"]
+new = "Toggle clean rain (debug)"
+status = "normal"
+
+["academicunwinds.Rainborn.KeyBinding.ToggleAcidRain"]
+new = "Toggle acid rain (debug)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainAreaSize"]
+new = "Heavy rain radius (%)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.RainAreaSize.Tooltip"]
+new = "Radius of the heavy rain core as a percentage of the smaller map dimension.\n\nInside this radius rain is at full intensity; outside it tapers smoothly to a light drizzle. Light rain still falls everywhere on the map while it's raining."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainEnabled"]
+new = "Enable acid rain"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainEnabled.Tooltip"]
+new = "When enabled rain events have a growing chance of dropping contaminated water instead of clean water.\n\nThe probability starts at 0% and climbs toward a 50% cap as more clean rains pass — only clean rains count toward escalation."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainEscalation"]
+new = "Acid rain escalation events"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainEscalation.Tooltip"]
+new = "How many clean rain events must pass for the acid-rain probability to reach its 50% cap.\n\nLower = faster escalation toward 50-50."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainContamination"]
+new = "Acid rain contamination (%)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainContamination.Tooltip"]
+new = "Within an acid rain event this is the percentage of touched tiles that drop contaminated water. The rest drop clean water.\n\n100% = full poison; 50% = half the tiles are clean.\n\nHas no effect when Enable acid rain is off or when the event rolled as a clean rain."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainMinCycle"]
+new = "Min cycle for acid rain"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.AcidRainMinCycle.Tooltip"]
+new = "Earliest cycle on which acid rain can start. Events before this cycle are always clean even if the escalation counter has filled up.\n\nDefault 10 gives the colony a calm grace period before the weather can turn on you."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.Volume"]
+new = "Sound volume (%)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.Volume.Tooltip"]
+new = "Volume for the rain loop and thunder one-shot.\n\nStacks with the storm's intensity-based scaling (lighter storms are quieter on their own) and with the game's Environment audio slider. 0 mutes the mod's audio entirely."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.FloodTolerance"]
+new = "Flood tolerance"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.FloodTolerance.Tooltip"]
+new = "How much rain water a building can be sitting in before it's flagged as flooded. Only applied during rain events.\n\n0 = vanilla behavior (any water above base triggers flood). Higher values let buildings ignore deeper puddles.\n\nOutside of rain the tolerance is always 0, so river overflows and badtide floods are detected normally."
+status = "normal"
