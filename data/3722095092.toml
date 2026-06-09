@@ -48,3 +48,27 @@ ptBR = "Sem castores desempregados"
 koKR = "실직한 너구리가 없습니다"
 csCZ = "Žádní nezaměstnaní bobři"
 viVN = "Không có người rái cá thất nghiệp"
+
+["BHR.Worker.HomeDistance"]
+new = "{0} tiles from home"
+status = "normal"
+
+["BHR.Worker.HomeDistance.Homeless"]
+new = "homeless"
+status = "normal"
+
+["BHR.Worker.HomeDistance.Unreachable"]
+new = "no path"
+status = "normal"
+
+["BHR.Settings.Header"]
+new = "Beaver HR Department"
+status = "normal"
+
+["BHR.Settings.ShowHomeDistance"]
+new = "Show distance to home on each worker"
+status = "normal"
+
+["BHR.Settings.ShowHomeDistance.Tooltip"]
+new = "When on the workplace assignment panel shows each assigned worker's walking distance (along the navmesh) to their home dwelling next to their name. Same path the beaver actually takes to commute. Pathfinding is cached per panel open — close and reopen the panel to refresh after building roads. Off by default."
+status = "normal"

@@ -177,6 +177,34 @@ koKR = "활성화되면, 와름은 여전히 깨어나고 걸어다니지만 비
 csCZ = "Když je zapnuto, draci se stále probouzí a chodí, ale nikdy nepoškozují bobry ani budovy. Užitečné pro autory map, kteří testují uspořádání."
 viVN = "Khi bật, rồng vẫn thức dậy và đi lại nhưng không bao giờ gây hại cho nhím hoặc các công trình. Hữu ích cho các tác giả bản đồ thử nghiệm bố cục."
 
+["WWW.Settings.AutoScatterHeader"]
+new = "Where Wyrms Wait — Auto-Scatter"
+status = "normal"
+
+["WWW.Settings.AutoScatterMode"]
+new = "Auto-scatter on new game"
+status = "normal"
+
+["WWW.Settings.AutoScatterMode.Tooltip"]
+new = "Scatter Wyrm Husks and Wyrm Dens across a fresh map at world creation. Maps that already contain manually placed hazards are never touched. \nThis setting is locked once a game starts; it only takes effect when starting a new game. \nPairing tip: Light pairs well with Hard difficulty (long droughts force the deep wyrms awake), Heavy pairs well with Easy (short droughts give time to build a containment)."
+status = "normal"
+
+["WWW.Settings.AutoScatter.Off"]
+new = "Off"
+status = "normal"
+
+["WWW.Settings.AutoScatter.Light"]
+new = "Light"
+status = "normal"
+
+["WWW.Settings.AutoScatter.Normal"]
+new = "Normal"
+status = "normal"
+
+["WWW.Settings.AutoScatter.Heavy"]
+new = "Heavy"
+status = "normal"
+
 ["Building.WyrmHusk.DisplayName"]
 raw = "Wyrm Husk"
 status = "normal"
@@ -385,21 +413,9 @@ koKR = "오염"
 csCZ = "Kontaminace"
 viVN = "Nhiễm bẩn"
 
-["WWW.Wyrm.SatedStatus"]
-raw = "Sated"
+["WWW.Wyrm.EnthralledStatus"]
+new = "Enthralled"
 status = "normal"
-enUS = "Sated"
-zhCN = "满足"
-zhTW = "飽滿"
-ruRU = "Удовлетворён"
-jaJP = "満腹"
-frFR = "S satisfait"
-deDE = "Gesättigt"
-plPL = "Nasycony"
-ptBR = "Satisfeito"
-koKR = "포만감"
-csCZ = "Nasycený"
-viVN = "Thỏa mãn"
 
 ["WWW.Wyrm.HuntingStatus"]
 raw = "Hunting"
@@ -432,6 +448,10 @@ ptBR = "Perseguindo"
 koKR = "추적 중"
 csCZ = "„Sledování“"
 viVN = "Rình mò"
+
+["WWW.Wyrm.ChewingStatus"]
+new = "Chewing"
+status = "normal"
 
 ["WWW.Notification.BeaverEaten"]
 raw = "Eaten by a wyrm"
@@ -720,3 +740,23 @@ ptBR = "Matar wyrm (dev)"
 koKR = "벌레 죽이기 (개발)"
 csCZ = "Zabít draka (dev)"
 viVN = "Giết wyrm (dev)"
+
+["WWW.Hazard.NoDemolish"]
+new = "Use dynamite to destroy this."
+status = "normal"
+
+["WWW.Wyrm.SatedStatus"]
+raw = "Sated"
+status = "abandoned"
+enUS = "Sated"
+zhCN = "满足"
+zhTW = "飽滿"
+ruRU = "Удовлетворён"
+jaJP = "満腹"
+frFR = "S satisfait"
+deDE = "Gesättigt"
+plPL = "Nasycony"
+ptBR = "Satisfeito"
+koKR = "포만감"
+csCZ = "Nasycený"
+viVN = "Thỏa mãn"

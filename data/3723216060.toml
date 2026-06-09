@@ -851,6 +851,7 @@ viVN = "Các máng khai thác tạo ra thêm nhiều quặng như thế này. 0 
 
 ["Building.TWJamStove.DisplayName"]
 raw = "Filling Factory"
+new = "Food Processor"
 status = "normal"
 enUS = "Filling Factory"
 zhCN = "填充工厂"
@@ -867,6 +868,7 @@ viVN = "Nhà máy Đổ đầy"
 
 ["Building.TWJamStove.Description"]
 raw = "Mashes and boils fruits into pie fillings."
+new = "Mashes and boils fruits and vegetables into more refined ingredients."
 status = "normal"
 enUS = "Mashes and boils fruits into pie fillings."
 zhCN = "将水果捣碎并煮成馅料。"
@@ -4755,6 +4757,7 @@ viVN = "Vách Mỏ"
 
 ["Building.TWMineChute.Description"]
 raw = "Automatically mines ore from contiguous blocks above it. More efficient than mining with tunnels."
+new = "Automatically places tunnels on contiguous ore blocks above it. Cheaper than normal tunnels and generates extra ore."
 status = "normal"
 enUS = "Automatically mines ore from contiguous blocks above it. More efficient than mining with tunnels."
 zhCN = "“自动从它上方相邻的方块中开采矿石。比隧道开采更有效。”"
@@ -5376,3 +5379,151 @@ ptBR = "Quando a erosão ativa está verificada, a quantidade de erosão é mult
 koKR = "활성화된 침식이 확인되면, 침식량이 이 계수로 곱해집니다. 유효 범위는 0-10이며, 기본 값은 1입니다."
 csCZ = "Pokud je aktivováno kontrola eroze, množství eroze je vynásobeno tímto faktorem. Platný rozsah 0-10, výchozí hodnota je 1."
 viVN = "Khi lượng xói mòn đang hoạt động được kiểm tra, lượng xói mòn sẽ được nhân với hệ số này. Phạm vi hợp lệ từ 0-10, mặc định là 1."
+
+["Building.PathPlatformTunnel.Description"]
+new = "Tunnel through terrain, replacing it with mine timbers and a Path. Use the layer tool to see under terrain or structures."
+status = "normal"
+
+["Building.PathPlatformTunnel.DisplayName"]
+new = "Path under Timbers Tunnel"
+status = "normal"
+
+["Building.TubewayPlatformTunnel.Description"]
+new = "Tunnel through terrain, replacing it with mine timbers and a Tubeway. Use the layer tool to see under terrain or structures."
+status = "normal"
+
+["Building.TubewayPlatformTunnel.DisplayName"]
+new = "Tubeway under Timbers Tunnel"
+status = "normal"
+
+["Building.PowerShaftPlatformTunnel.Description"]
+new = "Tunnel through terrain, replacing it with mine timbers and a Power Shaft. Use the layer tool to see under terrain or structures."
+status = "normal"
+
+["Building.PowerShaftPlatformTunnel.DisplayName"]
+new = "Power Shaft under Timbers Tunnel"
+status = "normal"
+
+["Building.TWReplacementLadder.DisplayName"]
+new = "Replacement Ladder"
+status = "normal"
+
+["Building.TWReplacementLadder.Description"]
+new = "A ladder that can be built into existing platforms.\n● <RedHighlight>Caution!</RedHighlight> Destroys/replaces buildings in same location."
+status = "normal"
+
+["Building.TWReplacementVerticalPowerShaft.DisplayName"]
+new = "Replacement vertical power shaft"
+status = "normal"
+
+["Building.TWReplacementVerticalPowerShaft.Description"]
+new = "A vertical power shaft that can be built into existing platforms.\n● <RedHighlight>Caution!</RedHighlight> Destroys/replaces buildings in same location."
+status = "normal"
+
+["Building.TWReplacementVerticalTubeway.DisplayName"]
+new = "Replacement vertical tubeway"
+status = "normal"
+
+["Building.TWReplacementVerticalTubeway.Description"]
+new = "A vertical tubeway that can be built into existing platforms.\n● <RedHighlight>Caution!</RedHighlight> Destroys/replaces buildings in same location."
+status = "normal"
+
+["Building.TWEmptyTunnelTubeway.DisplayName"]
+new = "Tubeway in Empty Tunnel"
+status = "normal"
+
+["Building.TWEmptyTunnelTubeway.Description"]
+new = "A tunnel with a tubeway but no ground support.\n● <RedHighlight>Caution!</RedHighlight> May cause collapse of unsupported terrain or buildings. Use with care."
+status = "normal"
+
+["Building.TWMineEngineerOffice.DisplayName"]
+new = "Mining Engineer's Office"
+status = "normal"
+
+["Building.TWMineEngineerOffice.Description"]
+new = "Marks nearby accessible ore for mining. The player can usually do a better job, but this reduces micro-management"
+status = "normal"
+
+["Building.TWMineEngineerOffice.FlavorDescription"]
+new = "A good engineer must keep the hole situation in mind."
+status = "normal"
+
+["ToolGroups.TWAutoMining"]
+new = "Auto Mining"
+status = "normal"
+
+["UI.TW.AutoMiningAreaSelectionTool.Title"]
+new = "Forbid Auto Mining"
+status = "normal"
+
+["UI.TW.AutoMiningAreaSelectionTool.Description"]
+new = "Mark areas you don't want auto-mined. Must be used on surface level, and forbids all blocks below (or above, if overhangs)."
+status = "normal"
+
+["UI.TW.AutoMiningAreaUnselectionTool.Title"]
+new = "Allow Auto Mining"
+status = "normal"
+
+["UI.TW.AutoMiningAreaUnselectionTool.Description"]
+new = "Remove the no-mining designation, and allow auto mining."
+status = "normal"
+
+["UI.TW.MoreMines.AutoMinePriority"]
+new = "Mining priority"
+status = "normal"
+
+["UI.TW.MoreMines.AutoMineOreType"]
+new = "Ore type"
+status = "normal"
+
+["UI.TW.MoreMines.AllOres"]
+new = "All Ores"
+status = "normal"
+
+["UI.TW.MoreMines.TT.AutoMinerPriority"]
+new = "Priority for auto-placed construction sites"
+status = "normal"
+
+["UI.TW.MoreMines.TT.AutoMinerOreSelection"]
+new = "Only this type of ore will be mined"
+status = "normal"
+
+["UI.TW.MoreMines.TT.AutoMinerLimitOre"]
+new = "Place new construction sites only when ore is below 80% of storage capacity"
+status = "normal"
+
+["UI.TW.MoreMines.AutoMinerLimitOre"]
+new = "Mine only as needed"
+status = "normal"
+
+["UI.TW.MoreMines.AutoMinerNoOreStatus"]
+new = "No suitable ore"
+status = "normal"
+
+["UI.TW.MoreMines.AutoMinerStockpileFullStatus"]
+new = "Stockpiles above 80%"
+status = "normal"
+
+["ModSetting.TWMoreMines.EngineerOfficeRange"]
+new = "Engineer office range"
+status = "normal"
+
+["ModSetting.TWMoreMines.EngineerOfficeRangeDesc"]
+new = "Construction range of Mine Engineer Offices. Very large values may cause performance issues."
+status = "normal"
+
+["Building.TWStopeTunnel.DisplayName"]
+new = "Stope Tunnel"
+status = "normal"
+
+["Building.TWStopeTunnel.Description"]
+new = "A low-cost tunnel used above chutes."
+status = "normal"
+
+["Building.TWStopeTunnel.FlavorDescription"]
+new = "Bats and rats and cats, oh my!"
+status = "normal"
+
+["Recipe.TWTreatedPlankMercury"]
+new = "Mercury Treated Plank"
+status = "normal"

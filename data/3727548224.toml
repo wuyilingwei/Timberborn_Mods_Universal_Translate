@@ -161,21 +161,9 @@ koKR = "\"그들은 그냥 야생 계피 관목이에요, 경관님.\""
 csCZ = "\"To jsou jen divoké keře skořice, pane.\""
 viVN = "\"Họ chỉ là những bụi quế hoang dã, thưa sĩ quan.\""
 
-["Recipe.Cocaine.PluralDisplayName"]
-raw = "Rice Powder"
+["Recipe.Cocaine.DisplayName"]
+new = "Rice Powder"
 status = "normal"
-enUS = "Rice Powder"
-zhCN = "米粉"
-zhTW = "米粉"
-ruRU = "Рисовая пудра"
-jaJP = "米粉"
-frFR = "Farine de riz"
-deDE = "Reispulver"
-plPL = "Ryżowy proszek"
-ptBR = "Farinha de Arroz"
-koKR = "쌀가루"
-csCZ = "Rýžový prášek"
-viVN = "Bột Gạo"
 
 ["Need.Withdrawal.DisplayName"]
 raw = "Withdrawal"
@@ -241,8 +229,49 @@ koKR = "금단 증상의 비버"
 csCZ = "Bobr v abstinenci"
 viVN = "Bọ dậu trong tình trạng cai nghiện"
 
+["ModSettings.BonusSettings.Header"]
+new = "Bonuses"
+status = "normal"
+
+["ModSetting.WorkSpeedBonus.Name"]
+new = "Work speed bonus"
+status = "normal"
+
+["ModSetting.WorkSpeedBonus.Tooltip"]
+new = "The percentage increase in work speed when under the influence of rice powder."
+status = "normal"
+
+["ModSetting.MovementSpeedBonus.Name"]
+new = "Movement speed bonus"
+status = "normal"
+
+["ModSetting.MovementSpeedBonus.Tooltip"]
+new = "The percentage increase in movement speed when under the influence of rice powder."
+status = "normal"
+
+["ModSetting.LifeExpectancyPenalty.Name"]
+new = "Life expectancy penalty"
+status = "normal"
+
+["ModSetting.LifeExpectancyPenalty.Tooltip"]
+new = "The percentage decrease in life expectancy when under the influence of rice powder."
+status = "normal"
+
+["ModSettings.AdvancedSettings.Header"]
+new = " Tolerances"
+status = "normal"
+
+["ModSetting.WithdrawalThreshold.Name"]
+new = "Withdrawal threshold"
+status = "normal"
+
+["ModSetting.WithdrawalThreshold.Tooltip"]
+new = "The minimum addiction level at which withdrawal symptoms begin if a beaver runs out of rice powder. Higher values allow for greater addiction with fewer consequences."
+status = "normal"
+
 ["ModSetting.MaxDecayMultiplier.Name"]
 raw = "name1"
+new = "Desensitization"
 status = "normal"
 enUS = "Max Decay Multiplier"
 zhCN = "名称1"
@@ -259,6 +288,7 @@ viVN = "name1"
 
 ["ModSetting.MaxDecayMultiplier.Tooltip"]
 raw = "long desc1"
+new = "How fast rice powder effects wear off at maximum addiction. Higher values mean beavers will need it more frequently."
 status = "normal"
 enUS = "long desc1"
 zhCN = "长描述1"
@@ -273,9 +303,69 @@ koKR = "긴 설명1"
 csCZ = "dlouhý popis 1"
 viVN = "mô tả dài 1"
 
+["ModSetting.AddictionFillPerDose.Name"]
+new = "Addictiveness"
+status = "normal"
+
+["ModSetting.AddictionFillPerDose.Tooltip"]
+new = "How much the addiction increases per dose of rice powder."
+status = "normal"
+
+["ModSetting.AddictionDailyDelta.Name"]
+new = "Recovery rate"
+status = "normal"
+
+["ModSetting.AddictionDailyDelta.Tooltip"]
+new = "How much the addiction level decreases per day. Higher values mean beavers will recover faster from the effects of addiction and withdrawal."
+status = "normal"
+
+["ModSetting.WithdrawalDailyDelta.Name"]
+new = "Withdrawal recovery"
+status = "normal"
+
+["ModSetting.WithdrawalDailyDelta.Tooltip"]
+new = "How much the withdrawal level decreases per day. (Recommended to keep synchronized with Addiction recovery for best results.)"
+status = "normal"
+
+["ModSettings.SleepSettings.Header"]
+new = "Sleep"
+status = "normal"
+
+["ModSetting.SleepFillPerDose.Name"]
+new = "Energy restored"
+status = "normal"
+
+["ModSetting.SleepFillPerDose.Tooltip"]
+new = "How much energy is restored per dose of rice powder."
+status = "normal"
+
+["ModSetting.SleepDecayMultiplier.Name"]
+new = "Exhaustion rate"
+status = "normal"
+
+["ModSetting.SleepDecayMultiplier.Tooltip"]
+new = "How quickly beavers drain their energy under the influence of rice powder. Lower values mean beavers will get tired slower."
+status = "normal"
+
+["Recipe.Cocaine.PluralDisplayName"]
+raw = "Rice Powder"
+status = "abandoned"
+enUS = "Rice Powder"
+zhCN = "米粉"
+zhTW = "米粉"
+ruRU = "Рисовая пудра"
+jaJP = "米粉"
+frFR = "Farine de riz"
+deDE = "Reispulver"
+plPL = "Ryżowy proszek"
+ptBR = "Farinha de Arroz"
+koKR = "쌀가루"
+csCZ = "Rýžový prášek"
+viVN = "Bột Gạo"
+
 ["ModSetting.WithdrawalThresholdSetting"]
 raw = "desc2"
-status = "normal"
+status = "abandoned"
 enUS = "Description 2"
 zhCN = "描述2"
 zhTW = "描述2"

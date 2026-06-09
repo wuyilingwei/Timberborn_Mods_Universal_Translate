@@ -371,6 +371,7 @@ viVN = "Kho Xây Dựng: {0}%/{1}%"
 
 ["SmartProductionControl.Fragment.Tag.Input"]
 raw = "Inputs: {0}%/{1}%"
+new = "District inputs: {0}%/{1}%"
 status = "normal"
 enUS = "Inputs: {0}%/{1}%"
 zhCN = "输入：{0}%/{1}%"
@@ -1683,6 +1684,7 @@ viVN = "Tạm dừng khi sản phẩm của tòa nhà đã đạt đến ngưỡ
 
 ["SmartProductionControl.Settings.Toggle.NoInput.Tooltip"]
 raw = "Pause when input goods (ingredients / fuel / consumed goods) drop below the input threshold."
+new = "Pause when input goods (ingredients / fuel / consumed goods) drop below the input threshold. The threshold compares the building's district stock (stock / capacity), not its local inventory."
 status = "normal"
 enUS = "Pause when input goods (ingredients / fuel / consumed goods) drop below the input threshold."
 zhCN = "当输入物品（原料/燃料/消耗品）低于输入阈值时暂停。"
@@ -1827,6 +1829,7 @@ viVN = "Tỷ lệ lấp đầy đầu ra tại đó tòa nhà bị tạm ngừng
 
 ["SmartProductionControl.Settings.Slider.InputMin.Tooltip"]
 raw = "Minimum input fill rate. If all input goods fall below this rate, the building pauses."
+new = "Minimum input fill rate (district stock / capacity). Recipes with several ingredients can choose whether to pause as soon as one good is below this rate (Any) or only when all are below (All)."
 status = "normal"
 enUS = "Minimum input fill rate. If all input goods fall below this rate, the building pauses."
 zhCN = "最小输入填充率。如果所有输入商品低于此比例，建筑将暂停。"
@@ -2064,3 +2067,243 @@ ptBR = "Entendi"
 koKR = "알겠어요"
 csCZ = "Rozumím"
 viVN = "Đã hiểu"
+
+["SmartProductionControl.Settings.Section.OutputMonitors"]
+new = "Monitored output goods"
+status = "normal"
+
+["SmartProductionControl.Settings.Trigger.Label"]
+new = "Pause when:"
+status = "normal"
+
+["SmartProductionControl.Settings.Trigger.Any"]
+new = "Any full"
+status = "normal"
+
+["SmartProductionControl.Settings.Trigger.All"]
+new = "All full"
+status = "normal"
+
+["SmartProductionControl.Settings.Trigger.Any.Tooltip"]
+new = "Pause as soon as ANY of the monitored output goods has reached its threshold. Recommended for gatherer flags so a full berry stock does not require dandelion stock to also be full."
+status = "normal"
+
+["SmartProductionControl.Settings.Trigger.All.Tooltip"]
+new = "Pause only when EVERY monitored output good is above its threshold. Useful when the building's storage is a shared pool and you really want all goods at the cap before stopping."
+status = "normal"
+
+["SmartProductionControl.Settings.InputTrigger.Label"]
+new = "Pause when:"
+status = "normal"
+
+["SmartProductionControl.Settings.InputTrigger.Any"]
+new = "Any low"
+status = "normal"
+
+["SmartProductionControl.Settings.InputTrigger.All"]
+new = "All low"
+status = "normal"
+
+["SmartProductionControl.Settings.InputTrigger.Any.Tooltip"]
+new = "Pause as soon as ANY ingredient drops below the input threshold (default). Recommended for multi-input recipes — prevents the building from running uselessly while one good is depleted."
+status = "normal"
+
+["SmartProductionControl.Settings.InputTrigger.All.Tooltip"]
+new = "Pause only when ALL ingredients are below the input threshold. Legacy behaviour — keeps the building running as long as any one input still has district stock."
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.OutOfRange"]
+new = "(out of range)"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.DefaultLabel"]
+new = "Default"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.ResetTooltip"]
+new = "Reset this good's thresholds to the building defaults."
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.StockTooltip"]
+new = "{0}: {1} / {2}"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.StockTooltipNoCap"]
+new = "{0}: {1} (no storage limit)"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.Standard"]
+new = "Default"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.Standard.Tooltip"]
+new = "Building-wide pause and resume thresholds. Apply to every monitored good unless it has its own override."
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.AddOverride"]
+new = "+ Add pause conditions for {0}"
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.AddOverride.Tooltip"]
+new = "Override pause and resume thresholds for this good only."
+status = "normal"
+
+["SmartProductionControl.Settings.Monitor.MinimumOneRequired"]
+new = "At least one monitored good is required."
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.Any.Global"]
+new = "Pause when any full globally"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.Any.District"]
+new = "Pause when any full in district"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.Any.Building"]
+new = "Pause when any full in building"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.All.Global"]
+new = "Pause when all full globally"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.All.District"]
+new = "Pause when all full in district"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.OutputHeader.All.Building"]
+new = "Pause when all full in building"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.MoreGoods"]
+new = "+{0} more"
+status = "normal"
+
+["SmartProductionControl.Fragment.Tag.NoMonitoredGoods"]
+new = "No goods monitored"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Section.Title"]
+new = "Pause Delay"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Condition.NoPower"]
+new = "No Power"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Condition.NoInput"]
+new = "No Input"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Condition.NoWork"]
+new = "No Work"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Level.Global"]
+new = "Global"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Level.Type"]
+new = "Category"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Level.Type.Short"]
+new = "Category"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Level.Instance"]
+new = "This building"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Level.Instance.Short"]
+new = "Building"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Inherit"]
+new = "Inherit"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.InheritFrom"]
+new = "Matches {0}"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.AddCategoryBranch"]
+new = "+ Delay for all {0}"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.AddInstanceBranch"]
+new = "+ Custom delay for {0}"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Reset.Tooltip"]
+new = "Reset to inherited value"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Dashboard.GlobalHeader"]
+new = "Global Defaults"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Dashboard.TypeHeader"]
+new = "Type Overrides"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Dashboard.InstanceOverridesHeader"]
+new = "Buildings with Custom Delays"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Dashboard.InstanceOverridesEmpty"]
+new = "No buildings have custom pause delays."
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Dashboard.ResetTooltip"]
+new = "Clear all custom pause delays on this building"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Tab.Dashboard"]
+new = "Dashboard"
+status = "normal"
+
+["SmartProductionControl.Dashboard.Tab.PauseDelay"]
+new = "Pause Delay"
+status = "normal"
+
+["SmartProductionControl.PauseDelay.Tooltip.Delay"]
+new = "Pause is delayed by this duration after the condition first triggers. Resume is immediate. Resolution ~0.5 s."
+status = "normal"
+
+["SmartProductionControl.Fragment.PowerPriority.Label"]
+new = "Power priority"
+status = "normal"
+
+["SmartProductionControl.Fragment.PowerPriority.Tooltip"]
+new = "Higher number wins when the grid can't power everyone. Buildings with the highest priority keep running; lower-priority buildings pause first. Range 0–99 (default 50)."
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.Section"]
+new = "Power network coordination"
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.Section.Tooltip"]
+new = "When several buildings share a starved grid the mod coordinates who pauses based on priority. These per-building values override the global defaults from the dashboard."
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.Margin"]
+new = "Safety margin"
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.Margin.Tooltip"]
+new = "Supply must exceed projected demand by this margin before the building resumes. Prevents flicker at the supply ceiling."
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.Margin.ValueTooltip"]
+new = "{0} hp + {1}% = {2} hp required"
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.ResumeHold"]
+new = "Resume hold"
+status = "normal"
+
+["SmartProductionControl.Settings.PowerCoord.ResumeHold.Tooltip"]
+new = "After the coordinator pauses this building it must wait at least this long before being considered for resume. Smooths out wobbly grids."
+status = "normal"

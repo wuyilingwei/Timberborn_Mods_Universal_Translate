@@ -19,6 +19,7 @@ viVN = "Cây Sự Sống"
 
 ["Building.TreeOfLife.Description"]
 raw = "Prepares the water channel and grounds for the <YellowHighlight>Tree of Life</YellowHighlight>. Beware that this can't be reverted and the grounds can't be demolished later!"
+new = "Prepares the grounds for the <YellowHighlight>Tree of Life</YellowHighlight>.\n\nPlacement requires plenty of space for the final tree:\n\nA wide flat ground (5x5, 2 deep).\nSpace for all it's future growth (15m wide).\nIts roots reach deep deep down.\nThe 'X' marks where it expects water to flow in from.\n\n<YellowHighlight>Once finished beavers wont remove it!</YellowHighlight>\n"
 status = "normal"
 enUS = "Prepares the water channel and grounds for the <YellowHighlight>Tree of Life</YellowHighlight>. Beware that this can't be reverted and the grounds can't be demolished later!"
 zhCN = "“为<YellowHighlight>生命之树</YellowHighlight>准备水渠和土地。请注意，这无法恢复，土地也不能在后期拆除！”"
@@ -32,6 +33,10 @@ ptBR = "Prepara o canal de água e o terreno para a <YellowHighlight>Árvore da 
 koKR = "생명의 나무<YellowHighlight>Tree of Life</YellowHighlight>를 위한 물길과 땅을 준비합니다. 이것은 되돌릴 수 없으며, 나중에 이 땅을 철거할 수 없다는 점에 유의하세요!"
 csCZ = "Připravuje vodní kanál a půdu pro <YellowHighlight>Strom života</YellowHighlight>. Dávejte pozor, že to nelze vrátit zpět a půdu nelze později zničit!"
 viVN = "Chuẩn bị mương nước và mặt đất cho <YellowHighlight>Cây sự sống</YellowHighlight>. Hãy cẩn thận vì điều này không thể hoàn lại và mặt đất không thể bị phá hủy sau này!"
+
+["Building.TreeOfLife.LeafCoats.Description"]
+new = "Prepares the grounds for the <YellowHighlight>Tree of Life</YellowHighlight>.\n\nMust be a tree-topper. Its roots reach deep down, it must have nothing but terrain below.\n<YellowHighlight>Once finished beavers dont want to remove it again.</YellowHighlight>\n"
+status = "normal"
 
 ["Building.TreeOfLifeGround.DisplayName"]
 raw = "Tree Grounds"
@@ -656,3 +661,11 @@ ptBR = "Não armazenável"
 koKR = "저장 불가"
 csCZ = "Neschovatelné"
 viVN = "Không thể lưu trữ"
+
+["Status.TreeOfLife.Dying"]
+new = "A Tree of Life is dying!"
+status = "normal"
+
+["Status.TreeOfLife.Dying.Short"]
+new = "Dying Tree"
+status = "normal"

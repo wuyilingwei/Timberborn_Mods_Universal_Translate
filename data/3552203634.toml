@@ -1,5 +1,5 @@
 [_meta]
-name = "Leaf Coats (Early Access)"
+name = "Leaf Coats"
 
 ["Faction.LeafCoats.DisplayName"]
 raw = "Leaf Coats"
@@ -32,6 +32,18 @@ ptBR = "As Folhas de Pelagem têm uma afinidade por árvores e pela flora em ger
 koKR = "리프코트는 나무와 식물에 대한 친화력이 있습니다. 그들은 자연을 모방하는 방식으로 건물을 짓는 것을 좋아하며, 거대한 나무와 닮은 광범위한 구조물을 포함합니다.  \n그들의 모토: <i>나무의 길.</i>"
 csCZ = "Listové pláště mají affinity k stromům a rostlinám obecně. Rádi staví způsobem, který napodobuje přírodu, včetně rozsáhlé stavby, která připomíná obrovský strom. Jejich motto: <i>Cesta stromu.</i>"
 viVN = "Leaf Coats có sự đồng cảm với cây cối và đời sống thực vật nói chung. Họ thích xây dựng theo cách mô phỏng tự nhiên, bao gồm một cấu trúc rộng lớn giống như một cây khổng lồ.\nPhương châm của họ: <i>Con đường của cây.</i>"
+
+["Faction.LeafCoats.GameOver.Message"]
+new = "Your Leaf Coats met the sad fate of their human predecessors. This is the end."
+status = "normal"
+
+["Faction.LeafCoats.WonderCompletionFlavor"]
+new = "Having collected great wealth and knowledge, your beavers have decided to celebrate the success of the new colony with a party. Time to dance at the Disco! Though most of the settlement just gets to watch the colorful lights."
+status = "normal"
+
+["Faction.LeafCoats.WonderCompletionMessage"]
+new = "Congratulations! You mastered Leaf Coats' nature-oriented ways and used this map's resources to build the faction's wonder."
+status = "normal"
 
 ["Bot.DisplayName.LeafCoats"]
 raw = "Treebot {0}"
@@ -2384,6 +2396,18 @@ ptBR = "Escadas de Ramos"
 koKR = "브랜치 계단"
 csCZ = "Ramdové schody"
 viVN = "Cầu thang nhành"
+
+["Building.Wonder.LeafCoats.DisplayName"]
+new = "Disco Rave"
+status = "normal"
+
+["Building.Wonder.LeafCoats.Description"]
+new = "Dancing and lots of colored lights."
+status = "normal"
+
+["Building.Wonder.LeafCoats.FlavorDescription"]
+new = "Dance first. Think later. It's the natural order."
+status = "normal"
 
 ["Building.Branch.Entrance.DisplayName"]
 raw = "Branch Entrance"

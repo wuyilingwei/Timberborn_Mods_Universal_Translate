@@ -65,6 +65,10 @@ koKR = "“완전히 안전하다” 광부의 메모."
 csCZ = "„Naprosto bezpečné“ horníkův zápis"
 viVN = "“An toàn tuyệt đối” bản ghi chú của thợ mỏ"
 
+["Grauschweif.Building.StoneSquareLantern.FlavorDescription"]
+new = "A small light"
+status = "normal"
+
 ["Grauschweif.Building.PaperLantern.DisplayName"]
 raw = "Paper Lantern"
 status = "normal"
@@ -83,6 +87,7 @@ viVN = "Đèn lồng giấy"
 
 ["Grauschweif.Building.PaperLantern.FlavorDescription"]
 raw = "A candle in a paper bag, stuck to a house? Isn't that nice?"
+new = "A candle in a paper bag? Stuck to a house?"
 status = "normal"
 enUS = "A candle in a paper bag, stuck to a house? Isn't that nice?"
 zhCN = "纸袋里的蜡烛被粘在房子上？真不错，对吧？"
@@ -163,6 +168,7 @@ viVN = "Cổng nhỏ"
 
 ["Grauschweif.Building.SmallGate.Description"]
 raw = ""
+new = "A small decoration alongside roads."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -192,6 +198,18 @@ koKR = "길마다 간식이 있다."
 csCZ = "Občerstvení na každé cestě."
 viVN = "Một món ăn nhẹ trên mỗi con đường."
 
+["Grauschweif.Building.MediumGate.DisplayName"]
+new = "Stone Gate"
+status = "normal"
+
+["Grauschweif.Building.MediumGate.Description"]
+new = "A big gate."
+status = "normal"
+
+["Grauschweif.Building.MediumGate.FlavorDescription"]
+new = "A solid gate."
+status = "normal"
+
 ["Grauschweif.Building.HugeGate.DisplayName"]
 raw = "Decorative Gate"
 status = "normal"
@@ -210,6 +228,7 @@ viVN = "Cổng trang trí"
 
 ["Grauschweif.Building.HugeGate.Description"]
 raw = ""
+new = "A very big decorative gate."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -417,6 +436,7 @@ viVN = "Các nghệ nhân làm ra nhiều thứ tinh tế. Cái này thích làm
 
 ["Grauschweif.Building.ArtisansLodge.FlavorDescription"]
 raw = ""
+new = "Trusted expert of decorations."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -497,6 +517,7 @@ viVN = "Cá làm cho cây phát triển nhanh hơn, giống như ong. Sẽ xuấ
 
 ["Grauschweif.WaterPlant.Description.ActiveMessage"]
 raw = ""
+new = "The plants are healthy and strengthen their neighbors."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -513,6 +534,7 @@ viVN = ""
 
 ["Grauschweif.WaterPlant.Description.PausedMessage"]
 raw = ""
+new = "Needs more water to function."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -529,6 +551,7 @@ viVN = ""
 
 ["Grauschweif.WaterPlant.FlavorDescription"]
 raw = ""
+new = "A big fish hides here."
 status = "normal"
 enUS = ""
 zhCN = ""
@@ -590,3 +613,11 @@ ptBR = "Elusivo ao clique"
 koKR = "클릭에 대한 포착이 힘든"
 csCZ = "Únikový při kliknutí"
 viVN = "Khó nắm bắt dưới cú nhấp chuột"
+
+["Grauschweif.Building.FairyLights.DisplayName"]
+new = "Fairy Lights"
+status = "normal"
+
+["Grauschweif.Building.FairyLights.FlavorDescription"]
+new = "Shiny"
+status = "normal"

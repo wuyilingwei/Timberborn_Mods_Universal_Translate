@@ -65,21 +65,13 @@ koKR = "수리 취소"
 csCZ = "Zrušit opravu"
 viVN = "Hủy Sửa Chữa"
 
-["DDD.Repair.Reserved"]
-raw = "Repair in progress"
+["DDD.Repair.CancelInProgress"]
+new = "Cancel Repair"
 status = "normal"
-enUS = "Repair in progress"
-zhCN = "修复中"
-zhTW = "修復中"
-ruRU = "Ремонт в процессе"
-jaJP = "修理中"
-frFR = "Réparation en cours"
-deDE = "Reparatur läuft"
-plPL = "Naprawa w toku"
-ptBR = "Reparo em andamento"
-koKR = "수리 진행 중"
-csCZ = "Oprava probíhá"
-viVN = "Đang sửa chữa"
+
+["DDD.Repair.Reserved.Canceling"]
+new = "Stopping repair..."
+status = "normal"
 
 ["DDD.Status.Warning"]
 raw = "Dam needs maintenance"
@@ -275,6 +267,7 @@ viVN = "Thời gian sửa chữa (giờ trong game)"
 
 ["DDD.Settings.RepairTimeInHours.Tooltip"]
 raw = "How many in-game hours a beaver spends per repair before productivity multipliers (Inventor and friends still apply on top)."
+new = "How many in-game hours of work a beaver needs to bring a dam from 0 HP back to full before productivity multipliers. A half-broken dam takes about half this time. Beavers work in chunks so they can sleep and eat in between."
 status = "normal"
 enUS = "How many in-game hours a beaver spends on repairs before productivity multipliers (Inventor and friends still apply on top)."
 zhCN = "每只海狸在修理前消耗多少游戏小时，生产力加成（发明家和朋友们仍然适用）将应用于此。"
@@ -339,6 +332,7 @@ viVN = "Nút sửa chữa ngay lập tức (gỡ lỗi)"
 
 ["DDD.Settings.AllowInstantRepair.Tooltip"]
 raw = "When on"
+new = "When on, the entity panel's Repair button restores the dam instantly without summoning a beaver. Off by default; useful for debugging."
 status = "normal"
 enUS = "When on"
 zhCN = "“开启时”"
@@ -352,3 +346,39 @@ ptBR = "Quando ativado"
 koKR = "켜짐"
 csCZ = "Když je zapnuto"
 viVN = "Khi bật"
+
+["DDD.Overview.Title"]
+new = "Damaged Structures"
+status = "normal"
+
+["DDD.Overview.State.Idle"]
+new = "Waiting for builder"
+status = "normal"
+
+["DDD.Overview.State.Reserved"]
+new = "In progress"
+status = "normal"
+
+["DDD.Overview.State.Unreachable"]
+new = "Unreachable"
+status = "normal"
+
+["DDD.Overview.State.NotQueued"]
+new = "Not queued"
+status = "normal"
+
+["DDD.Repair.Reserved"]
+raw = "Repair in progress"
+status = "abandoned"
+enUS = "Repair in progress"
+zhCN = "修复中"
+zhTW = "修復中"
+ruRU = "Ремонт в процессе"
+jaJP = "修理中"
+frFR = "Réparation en cours"
+deDE = "Reparatur läuft"
+plPL = "Naprawa w toku"
+ptBR = "Reparo em andamento"
+koKR = "수리 진행 중"
+csCZ = "Oprava probíhá"
+viVN = "Đang sửa chữa"

@@ -321,6 +321,10 @@ koKR = "바위 집단"
 csCZ = "Skalní shluk"
 viVN = "Cụm Đá"
 
+["NaturalResource.KeystoneFlourish.DisplayName"]
+new = "Wild Plant"
+status = "normal"
+
 ["Tool.Keystone.Fauna.DisplayName"]
 raw = "Fauna: Place Deer (smoke test)"
 status = "normal"
@@ -384,3 +388,443 @@ ptBR = "Cria uma propriedade estática KeystoneFish1 na posição do cursor e co
 koKR = "커서 위치에 KeystoneFish1 정적 소품을 생성하고 기본 애니메이션 클립을 루프합니다. 수심에 따라 제한됩니다: 마른 타일을 클릭하면 아무것도 생성되지 않고, 물 타일을 클릭하면 물 표면 바로 위에 물고기가 나타나며 제자리에서 수영합니다. 에이전트 없음, 경로 탐색 없음, 사라짐 없음 — 물고기 메시 + 기본 클립의 순수 시각적 확인. 축적된 물고기를 제거하려면 리로드하세요."
 csCZ = "Vytváří statický objekt KeystoneFish1 na kurzoru a spouští smyčku jeho výchozí animační klip. Závisí na hloubce vody: klikněte na suchou dlaždici a nic se nevytvoří; klikněte na dlaždici s vodou a ryba se objeví těsně nad vodní hladinou, plavoucí na místě. Žádný agent, žádné vyhledávání cesty, žádné zmiznutí — čistá vizuální kontrola rybí sítě + výchozí klip. Znovu načtěte pro vymazání nahromaděných ryb."
 viVN = "Tạo ra một vật thể tĩnh KeystoneFish1 tại vị trí chuột và bắt đầu phát lại đoạn hoạt hình mặc định của nó. Bị giới hạn bởi độ sâu của nước: nhấp vào ô khô và sẽ không có gì xuất hiện; nhấp vào ô nước và một con cá sẽ xuất hiện ngay trên bề mặt nước, bơi tại chỗ. Không có tác nhân, không tìm đường, không tự hủy - chỉ là xác minh hình ảnh thuần túy của lưới cá + đoạn hoạt hình mặc định. Tải lại để xóa cá đã tích lũy."
+
+["Tool.Keystone.Stump.DisplayName"]
+new = "Dev: Place Birch Stump"
+status = "normal"
+
+["Tool.Keystone.Stump.Description"]
+new = "Places a mature Birch, kills it, and removes its yield — leaving a harvested stump. Used to test stump-replacement logic in Class B/D spawn handlers."
+status = "normal"
+
+["Tool.Keystone.PlantCrops.DisplayName"]
+new = "Plant Mixed Crops"
+status = "normal"
+
+["Tool.Keystone.PlantCrops.Description"]
+new = "Drag to mark an area for planting. Each tile is sown with a weighted-random pick from the crop types below — raise a type's weight to plant more of it, drop it to zero to leave it out — an easy way to lay out a varied field instead of one crop at a time. Crops are still planted by your farmers through the normal planting queue."
+status = "normal"
+
+["Tool.Keystone.PlantCrops.PanelTitle"]
+new = "Crop mix"
+status = "normal"
+
+["Tool.Keystone.PlantForest.DisplayName"]
+new = "Plant Mixed Forest"
+status = "normal"
+
+["Tool.Keystone.PlantForest.Description"]
+new = "Drag to mark an area for planting. Each tile is sown with a weighted-random pick from the tree and bush types below — raise a type's weight to plant more of it, drop it to zero to leave it out — a quick way to grow a natural, mixed woodland. Everything is still planted by your foresters through the normal planting queue."
+status = "normal"
+
+["Tool.Keystone.PlantForest.PanelTitle"]
+new = "Forester mix"
+status = "normal"
+
+["Tool.Keystone.Planting.SelectAll"]
+new = "Select all"
+status = "normal"
+
+["Tool.Keystone.Planting.ClearAll"]
+new = "Clear all"
+status = "normal"
+
+["Tool.Keystone.Planting.Clearings"]
+new = "Clearings"
+status = "normal"
+
+["Tool.Keystone.Planting.Overwrite"]
+new = "Overwrite existing plants"
+status = "normal"
+
+["Tool.Keystone.Planting.DestroyExisting"]
+new = "Destroy existing plants"
+status = "normal"
+
+["Tool.Keystone.Logging.DisplayName"]
+new = "Cutting Planner"
+status = "normal"
+
+["Tool.Keystone.Logging.Description"]
+new = "Drag over an area to mark its trees for cutting — set the percentage below to choose how many: 100% clear-cuts the selected tree types, less thins them, marking roughly that fraction at random and leaving the rest standing. Re-drag the same area to roll a different mix. Trees are still felled by your foresters through the normal cutting queue."
+status = "normal"
+
+["Tool.Keystone.Logging.PanelTitle"]
+new = "Cutting Planner"
+status = "normal"
+
+["Tool.Keystone.Logging.Percent"]
+new = "Cut percentage"
+status = "normal"
+
+["Tool.Keystone.Logging.OverrideExisting"]
+new = "Override existing marks"
+status = "normal"
+
+["Tool.Keystone.Logging.Species"]
+new = "Tree types"
+status = "normal"
+
+["Tool.Keystone.Logging.SelectAll"]
+new = "Select all"
+status = "normal"
+
+["Tool.Keystone.Logging.ClearAll"]
+new = "Clear all"
+status = "normal"
+
+["Keystone.Settings.Flora.Header"]
+new = "Flora"
+status = "normal"
+
+["Keystone.Settings.Flora.ClassBDensity"]
+new = "Decorative plants"
+status = "normal"
+
+["Keystone.Settings.Flora.ClassBDensity.Tooltip"]
+new = "How many small plants — flowers, ferns, cattails, and the like — appear in each biome.\n\n0% removes them entirely.\n100% is the default amount.\n200% doubles the amount.\n\nThese plants are most of what makes Keystone visible on the map — at 0% the ecology still runs, but you won't see much of it.\n\nLower this if your computer struggles on foliage-heavy maps."
+status = "normal"
+
+["Keystone.Settings.Flora.TreeDensity"]
+new = "Trees"
+status = "normal"
+
+["Keystone.Settings.Flora.TreeDensity.Tooltip"]
+new = "How many wild trees (birch, maple, oak, chestnut, mangrove) appear as part of each biome.\n\n0% removes them entirely.\n100% is the default amount.\n200% doubles the amount.\n\nLower this if your map feels too crowded with trees, or if you want more building space."
+status = "normal"
+
+["Keystone.Settings.Flora.BushDensity"]
+new = "Bushes"
+status = "normal"
+
+["Keystone.Settings.Flora.BushDensity.Tooltip"]
+new = "How many wild bushes (blueberry, dandelion) appear as part of each biome.\n\nBushes are planted by the forester and persist after harvest.\n\n0% removes them entirely.\n100% is the default amount.\n200% doubles the amount."
+status = "normal"
+
+["Keystone.Settings.Flora.CropDensity"]
+new = "Crops"
+status = "normal"
+
+["Keystone.Settings.Flora.CropDensity.Tooltip"]
+new = "How many wild aquatic crops (cattail, spadderdock) appear as part of each biome.\n\nCrops are planted by the farmer and harvested as the whole plant.\n\n0% removes them entirely.\n100% is the default amount.\n200% doubles the amount."
+status = "normal"
+
+["Keystone.Settings.Flora.NewGameWarmup"]
+new = "New game ecosystem maturity (days)"
+status = "normal"
+
+["Keystone.Settings.Flora.NewGameWarmup.Tooltip"]
+new = "NEW GAMES ONLY — this setting has no effect on loaded saves.\n\nSimulates this many days of ecosystem development when starting a new settlement.\n\n0 = start from scratch — biomes build up from nothing over the first few game-days.\n3 = the default — basic biomes are established and visible from the start.\n7 = mature ecosystem — higher-level biomes are well underway from day one."
+status = "normal"
+
+["Keystone.Settings.Flora.GrowthBonus"]
+new = "Max biome growth bonus"
+status = "normal"
+
+["Keystone.Settings.Flora.GrowthBonus.Tooltip"]
+new = "Maximum growth-speed bonus for plants in a healthy biome. Trees grow faster in forests, water plants in wetlands.\n\n0% disables the bonus entirely.\n30% is the default (up to 30% faster growth at full biome health).\n100% allows up to double growth speed."
+status = "normal"
+
+["Keystone.Settings.Fauna.Header"]
+new = "Fauna"
+status = "normal"
+
+["Keystone.Settings.Fauna.EnableFauna"]
+new = "Enable wildlife"
+status = "normal"
+
+["Keystone.Settings.Fauna.EnableFauna.Tooltip"]
+new = "Master switch for all wildlife — deer, cattle, and fish.\n\nTurning this off removes any currently-spawned animals and stops new ones from appearing.\n\nThe sliders below have no effect when this is off."
+status = "normal"
+
+["Keystone.Settings.Fauna.DeerAbundance"]
+new = "Deer abundance"
+status = "normal"
+
+["Keystone.Settings.Fauna.DeerAbundance.Tooltip"]
+new = "How many deer appear in suitable areas.\n\n0% removes deer entirely.\n100% is the default amount.\n200% doubles the population."
+status = "normal"
+
+["Keystone.Settings.Fauna.CattleAbundance"]
+new = "Cattle abundance (cows + bulls)"
+status = "normal"
+
+["Keystone.Settings.Fauna.CattleAbundance.Tooltip"]
+new = "How many cows and bulls appear in suitable areas.\n\n0% removes them entirely.\n100% is the default amount.\n200% doubles the population."
+status = "normal"
+
+["Keystone.Settings.Fauna.FishAbundance"]
+new = "Fish abundance"
+status = "normal"
+
+["Keystone.Settings.Fauna.FishAbundance.Tooltip"]
+new = "How many fish appear in suitable water.\n\n0% removes fish entirely.\n100% is the default amount.\n200% doubles the population."
+status = "normal"
+
+["Keystone.Settings.Effects.Header"]
+new = "Effects"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency"]
+new = "Foggy mornings"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Tooltip"]
+new = "How often a misty morning rolls in over wetland areas.\n\nOff — no foggy mornings ever.\nRare — roughly once a week.\nSometimes — about one in four mornings (the default).\nOften — about half of all mornings.\nAlways — every morning.\n\nOnly affects wetlands."
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Off"]
+new = "Off"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Rare"]
+new = "Rare"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Sometimes"]
+new = "Sometimes"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Often"]
+new = "Often"
+status = "normal"
+
+["Keystone.Settings.Effects.FoggyMorningFrequency.Always"]
+new = "Always"
+status = "normal"
+
+["Keystone.Settings.Performance.Header"]
+new = "Performance"
+status = "normal"
+
+["Keystone.Settings.Performance.MapUpdateHours"]
+new = "Map update frequency (every N hours)"
+status = "normal"
+
+["Keystone.Settings.Performance.MapUpdateHours.Tooltip"]
+new = "How often Keystone re-checks the state of the map (moisture, water, contamination) and updates which biomes are present where.\n\n1 = every in-game hour (the default; biomes react most quickly to player changes).\n4 = once every four hours (lighter on the CPU on large maps; biomes react more slowly).\n\nHas no effect on wildlife — use the Fauna sliders to tune that.\n\nOnly changeable from the main menu."
+status = "normal"
+
+["Keystone.Settings.Performance.RulesUpdateDays"]
+new = "Flora/decor update frequency (every N days)"
+status = "normal"
+
+["Keystone.Settings.Performance.RulesUpdateDays.Tooltip"]
+new = "How often Keystone re-evaluates which flourishes, decorations, and attrition rules should fire on each tile.\n\n1 = once per in-game day (the default; flora and decor appear and are reclaimed most quickly).\n4 = once every four in-game days (lightest on the CPU on large maps; flora and decor change more slowly).\n\nThis is the biggest CPU lever on saturated maps — most of the per-tile work is in spawning new objects, and slowing the cycle cuts it proportionally.\n\nOnly changeable from the main menu."
+status = "normal"
+
+["Keystone.Settings.BaseGame.Header"]
+new = "Base Game"
+status = "normal"
+
+["Keystone.Settings.BaseGame.WildReproduction"]
+new = "Wild plant reproduction rate"
+status = "normal"
+
+["Keystone.Settings.BaseGame.WildReproduction.Tooltip"]
+new = "How fast wild plants and trees spread to nearby tiles on their own — as a share of the base game's normal rate.\n\n100% is the normal rate.\n5% is the default — wild spread is slowed to a trickle.\n0% stops wild spread entirely.\n\nKeystone already fills each biome with its own plants and trees, so the base game's slow creep is mostly redundant — the low default lets Keystone drive what grows where, instead of two systems competing.\n\nThis is a slow-down only; it can't make wild plants spread faster than the base game.\n\nOnly changeable from the main menu."
+status = "normal"
+
+["Keystone.GrowthBonus.Growing.SuitableConditions"]
+new = "<GreenHighlight>{0} growth bonus from suitable {1} conditions.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Growing.NearbyEstablished"]
+new = "<GreenHighlight>{0} growth bonus from a nearby established {1}.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Growing.Maturing"]
+new = "<GreenHighlight>{0} growth bonus from a maturing {1}.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Growing.Thriving"]
+new = "<GreenHighlight>{0} growth bonus from a thriving {1}.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.WouldGrow"]
+new = "<YellowHighlight>Would grow faster in a healthy {0} biome.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.HealthyBiome"]
+new = "<GreenHighlight>Part of a healthy {0}.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.MonocultureWarning"]
+new = "<YellowHighlight>Add species diversity to increase growth bonus.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.MonocultureBrief"]
+new = "<YellowHighlight>This area lacks species diversity.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.RiverWarning"]
+new = "<YellowHighlight>Water flow is too strong for a wetland to develop here.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.RiverBrief"]
+new = "<YellowHighlight>Water flow is too strong for a wetland here.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Thriving"]
+new = "<GreenHighlight>Thriving in established {0}.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Benefiting"]
+new = "<GreenHighlight>Growing well — {0} is taking hold.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Hostile"]
+new = "<YellowHighlight>No growth bonus — {0}.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Establishing"]
+new = "<GreenHighlight>Taking root — {0} is establishing.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Potential"]
+new = "<GreenHighlight>No growth bonus yet — {0} will establish as the saplings mature.</GreenHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.WrongBiome"]
+new = "<YellowHighlight>No growth bonus — needs {0}, this is established {1}.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Monoculture"]
+new = "<YellowHighlight>No growth bonus — too little species variety for {0}.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Flavor.Dormant"]
+new = "<YellowHighlight>No growth bonus — no established {0} here.</YellowHighlight>"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Result"]
+new = "{0} growth bonus: +{1}% (max +{2}%)"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Established"]
+new = "Established here: {0} ({1}% mature)"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.EstablishedNone"]
+new = "Established here: none yet"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Needs"]
+new = "Needs {0} — not established here"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Cluster"]
+new = "Nearby {0} cluster: {1}% mature"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Canopy"]
+new = "Canopy maturing: {0}% grown — suitability held until trees establish"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.WouldBe"]
+new = "Would-be Forest conditions: {0}"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Conditions"]
+new = "Current suitability for {0}: {1} ({2})"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Limiting"]
+new = "Limiting factor: {0}"
+status = "normal"
+
+["Keystone.GrowthBonus.Tip.Formula"]
+new = "Bonus = half current conditions + half established maturity"
+status = "normal"
+
+["Keystone.GrowthBonus.WouldBe.Good"]
+new = "good (diverse & dense)"
+status = "normal"
+
+["Keystone.GrowthBonus.WouldBe.Poor"]
+new = "poor (too sparse or low-diversity)"
+status = "normal"
+
+["Keystone.GrowthBonus.Suit.Poor"]
+new = "poor"
+status = "normal"
+
+["Keystone.GrowthBonus.Suit.Weak"]
+new = "weak"
+status = "normal"
+
+["Keystone.GrowthBonus.Suit.Good"]
+new = "good"
+status = "normal"
+
+["Keystone.GrowthBonus.Suit.Ideal"]
+new = "ideal"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Monoculture"]
+new = "dense single-species planting"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Dry"]
+new = "too dry (no irrigation)"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.River"]
+new = "water flow too strong"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Lake"]
+new = "water too deep"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Wetland"]
+new = "standing water"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Contaminated"]
+new = "contaminated soil"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Badwater"]
+new = "badwater"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Grassland"]
+new = "open grassland — canopy not established"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Forest"]
+new = "shaded by established forest"
+status = "normal"
+
+["Keystone.GrowthBonus.Obstacle.Cave"]
+new = "under overhang"
+status = "normal"
+
+["Keystone.BiomeOverlay.Show"]
+new = "Show biome overlay"
+status = "normal"
+
+["Keystone.BiomeOverlay.Hide"]
+new = "Hide biome overlay"
+status = "normal"
+
+["Keystone.Settings.UI.Header"]
+new = "UI"
+status = "normal"
+
+["Keystone.Settings.UI.BiomeOverlayOpacity"]
+new = "Biome overlay opacity (%)"
+status = "normal"
+
+["Keystone.Settings.UI.BiomeOverlayOpacity.Tooltip"]
+new = "How opaque the biome overlay boxes appear when the overlay is active. 25% lets the terrain show through clearly, 100% is fully opaque. Default 75%."
+status = "normal"
+
+["Keystone.Settings.UI.TilledSoilTexture"]
+new = "Lighter tilled-soil texture"
+status = "normal"
+
+["Keystone.Settings.UI.TilledSoilTexture.Tooltip"]
+new = "When on, tiles marked for planting use Keystone's lighter tilled-soil texture instead of the dark vanilla one. Takes effect immediately. Off by default."
+status = "normal"
