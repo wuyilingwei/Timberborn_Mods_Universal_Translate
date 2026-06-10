@@ -2066,8 +2066,8 @@ csCZ = "Rozumím"
 viVN = "Đã hiểu"
 
 ["SmartProductionControl.Settings.Section.OutputMonitors"]
-status = "normal"
 raw = "Monitored output goods"
+status = "normal"
 enUS = "Monitored output goods"
 zhCN = "监控输出商品"
 zhTW = "監控輸出商品"
@@ -2082,8 +2082,8 @@ csCZ = "Monitorované výstupní zboží"
 viVN = "Hàng hóa đầu ra được giám sát"
 
 ["SmartProductionControl.Settings.Trigger.Label"]
-status = "normal"
 raw = "Pause when:"
+status = "normal"
 enUS = "Pause when:"
 zhCN = "暂停时："
 zhTW = "暫停於："
@@ -2098,8 +2098,8 @@ csCZ = "Pauza když:"
 viVN = "Ngừng lại khi:"
 
 ["SmartProductionControl.Settings.Trigger.Any"]
-status = "normal"
 raw = "Any full"
+status = "normal"
 enUS = "Any full"
 zhCN = "任何完整的"
 zhTW = "任何完整"
@@ -2114,8 +2114,8 @@ csCZ = "Jakýkoli plný"
 viVN = "Bất kỳ đầy đủ nào"
 
 ["SmartProductionControl.Settings.Trigger.All"]
-status = "normal"
 raw = "All full"
+status = "normal"
 enUS = "All full"
 zhCN = "全部满"
 zhTW = "全部滿了"
@@ -2130,8 +2130,8 @@ csCZ = "Vše plné"
 viVN = "Tất cả đầy"
 
 ["SmartProductionControl.Settings.Trigger.Any.Tooltip"]
-status = "normal"
 raw = "Pause as soon as ANY of the monitored output goods has reached its threshold. Recommended for gatherer flags so a full berry stock does not require dandelion stock to also be full."
+status = "normal"
 enUS = "Pause as soon as ANY of the monitored output goods has reached its threshold. Recommended for gatherer flags so a full berry stock does not require dandelion stock to also be full."
 zhCN = "一旦任何被监控的输出商品达到其阈值，立即暂停。建议用于采集旗帜，以便满的浆果库存不需要蒲公英库存也满。"
 zhTW = "只要任何被監控的輸出產品達到其閾值，即可立即暫停。建議用於採集標誌，以免滿的漿果庫存需要蒲公英庫存也滿。"
@@ -2146,8 +2146,8 @@ csCZ = "Pauza, jakmile jakékoli z monitorovaných výstupních zboží dosáhne
 viVN = "Dừng ngay khi BẤT KỲ hàng hóa đầu ra nào được theo dõi đạt ngưỡng của nó. Được khuyên dùng cho cờ thu hoạch để dự trữ quả mọng đầy không yêu cầu dự trữ bồ công anh cũng phải đầy."
 
 ["SmartProductionControl.Settings.Trigger.All.Tooltip"]
-status = "normal"
 raw = "Pause only when EVERY monitored output good is above its threshold. Useful when the building's storage is a shared pool and you really want all goods at the cap before stopping."
+status = "normal"
 enUS = "Pause only when EVERY monitored output good is above its threshold. Useful when the building's storage is a shared pool and you really want all goods at the cap before stopping."
 zhCN = "仅当每个监控的输出商品均高于其阈值时暂停。适用于建筑物的存储是共享池，并且您希望在停止之前所有商品都达到上限的情况。"
 zhTW = "僅在每一項監控的產出物品均高於其閾值時暫停。當建築的存儲為共享池並且您確實希望所有物品都達到上限後再停止時，這非常有用。"
@@ -2162,8 +2162,8 @@ csCZ = "Pauza pouze tehdy, když JE KAŽDÝ sledovaný výstupní produkt nad sv
 viVN = "Chỉ tạm dừng khi MỌI sản phẩm được giám sát đều vượt ngưỡng của nó. Hữu ích khi kho chứa của tòa nhà là một pool chung và bạn thực sự muốn tất cả hàng hóa đạt đến giới hạn trước khi dừng lại."
 
 ["SmartProductionControl.Settings.InputTrigger.Label"]
-status = "normal"
 raw = "Pause when:"
+status = "normal"
 enUS = "Pause when:"
 zhCN = "暂停时："
 zhTW = "暫停時："
@@ -2178,8 +2178,8 @@ csCZ = "Pauza při:"
 viVN = "Tạm dừng khi:"
 
 ["SmartProductionControl.Settings.InputTrigger.Any"]
-status = "normal"
 raw = "Any low"
+status = "normal"
 enUS = "Any low"
 zhCN = "任何低"
 zhTW = "任何低"
@@ -2194,8 +2194,8 @@ csCZ = "Jakákoli nízká"
 viVN = "Bất kỳ thấp"
 
 ["SmartProductionControl.Settings.InputTrigger.All"]
-status = "normal"
 raw = "All low"
+status = "normal"
 enUS = "All low"
 zhCN = "全部低"
 zhTW = "全部低"
@@ -2210,8 +2210,8 @@ csCZ = "Všechno nízké"
 viVN = "Tất cả thấp"
 
 ["SmartProductionControl.Settings.InputTrigger.Any.Tooltip"]
-status = "normal"
 raw = "Pause as soon as ANY ingredient drops below the input threshold (default). Recommended for multi-input recipes — prevents the building from running uselessly while one good is depleted."
+status = "normal"
 enUS = "Pause as soon as ANY ingredient drops below the input threshold (default). Recommended for multi-input recipes — prevents the building from running uselessly while one good is depleted."
 zhCN = "“当任何成分低于输入阈值时暂停（默认）。建议用于多输入配方——在一种物品耗尽时防止建筑物无效运作。”"
 zhTW = "一旦任何成分低於輸入閾值（默認）即暫停。建議用於多輸入配方 — 防止在某一物品耗盡時建築無效運行。"
@@ -2226,8 +2226,8 @@ csCZ = "Pauza, jakmile KOLIKOLI ingredience klesne pod vstupní práh (výchozí
 viVN = "Dừng lại ngay khi BẤT CỨ nguyên liệu nào giảm xuống dưới ngưỡng đầu vào (mặc định). Được khuyến nghị cho các công thức nhiều nguyên liệu — ngăn chặn công trình hoạt động vô ích khi một hàng hóa bị cạn kiệt."
 
 ["SmartProductionControl.Settings.InputTrigger.All.Tooltip"]
-status = "normal"
 raw = "Pause only when ALL ingredients are below the input threshold. Legacy behaviour — keeps the building running as long as any one input still has district stock."
+status = "normal"
 enUS = "Pause only when ALL ingredients are below the input threshold. Legacy behavior — keeps the building running as long as any one input still has district stock."
 zhCN = "仅在所有材料低于输入阈值时暂停。遗留行为——只要任何一个输入仍然有区内库存，建筑物就会继续运行。"
 zhTW = "僅在所有原料低於輸入門檻時暫停。舊版行為——只要任何一種原料仍然有區域庫存，就會保持建築運行。"
@@ -2242,8 +2242,8 @@ csCZ = "Pauza pouze tehdy, když jsou VŠECHNY ingredience pod vstupním prahem.
 viVN = "Chỉ tạm dừng khi TẤT CẢ các nguyên liệu dưới ngưỡng đầu vào. Hành vi cũ — giữ cho công trình hoạt động miễn là bất kỳ một đầu vào nào vẫn còn tồn kho trong khu vực."
 
 ["SmartProductionControl.Settings.Monitor.OutOfRange"]
-status = "normal"
 raw = "(out of range)"
+status = "normal"
 enUS = "(out of range)"
 zhCN = "(超出范围)"
 zhTW = "（超出範圍）"
@@ -2258,8 +2258,8 @@ csCZ = "(mimo rozsah)"
 viVN = "(ngoài phạm vi)"
 
 ["SmartProductionControl.Settings.Monitor.DefaultLabel"]
-status = "normal"
 raw = "Default"
+status = "normal"
 enUS = "Default"
 zhCN = "默认"
 zhTW = "預設"
@@ -2274,8 +2274,8 @@ csCZ = "Výchozí"
 viVN = "Giá trị mặc định"
 
 ["SmartProductionControl.Settings.Monitor.ResetTooltip"]
-status = "normal"
 raw = "Reset this good's thresholds to the building defaults."
+status = "normal"
 enUS = "Reset this good's thresholds to the building defaults."
 zhCN = "将该商品的阈值重置为建筑的默认值。"
 zhTW = "將該商品的閾值重置為建築的預設值。"
@@ -2290,8 +2290,8 @@ csCZ = "Obnovit prahové hodnoty tohoto zboží na výchozí hodnoty budovy."
 viVN = "Đặt lại ngưỡng của hàng hóa này về mặc định của công trình."
 
 ["SmartProductionControl.Settings.Monitor.StockTooltip"]
-status = "normal"
 raw = "{0}: {1} / {2}"
+status = "normal"
 enUS = "{0}: {1} / {2}"
 zhCN = "{0}: {1} / {2}"
 zhTW = "{0}: {1} / {2}"
@@ -2306,8 +2306,8 @@ csCZ = "{0}: {1} / {2}"
 viVN = "{0}: {1} / {2}"
 
 ["SmartProductionControl.Settings.Monitor.StockTooltipNoCap"]
-status = "normal"
 raw = "{0}: {1} (no storage limit)"
+status = "normal"
 enUS = "{0}: {1} (no storage limit)"
 zhCN = "{0}: {1}（无存储限制）"
 zhTW = "{0}: {1} （無儲存上限）"
@@ -2322,8 +2322,8 @@ csCZ = "{0}: {1} (bez limitu uložení)"
 viVN = "{0}: {1} (không giới hạn lưu trữ)"
 
 ["SmartProductionControl.Settings.Monitor.Standard"]
-status = "normal"
 raw = "Default"
+status = "normal"
 enUS = "Default"
 zhCN = "默认"
 zhTW = "預設"
@@ -2338,8 +2338,8 @@ csCZ = "Výchozí"
 viVN = "Mặc định"
 
 ["SmartProductionControl.Settings.Monitor.Standard.Tooltip"]
-status = "normal"
 raw = "Building-wide pause and resume thresholds. Apply to every monitored good unless it has its own override."
+status = "normal"
 enUS = "Building-wide pause and resume thresholds. Apply to every monitored good unless it has its own override."
 zhCN = "建筑范围内的暂停和恢复阈值。适用于每种监控的商品，除非它有自己的覆盖设置。"
 zhTW = "建築範圍內的暫停和恢復閾值。適用於每個被監控的商品，除非它有自己的覆蓋設定。"
@@ -2354,8 +2354,8 @@ csCZ = "Práh pozastavení a obnovení v celé budově. Použije se na všechny 
 viVN = "Ngưỡng tạm dừng và tiếp tục trên toàn bộ tòa nhà. Áp dụng cho mọi hàng hóa được theo dõi trừ khi nó có ghi đè riêng."
 
 ["SmartProductionControl.Settings.Monitor.AddOverride"]
-status = "normal"
 raw = "+ Add pause conditions for {0}"
+status = "normal"
 enUS = "+ Add pause conditions for {0}"
 zhCN = "+ 添加 {0} 的暂停条件"
 zhTW = "+ 為 {0} 添加暫停條件"
@@ -2370,8 +2370,8 @@ csCZ = "+ Přidat podmínky pozastavení pro {0}"
 viVN = "+ Thêm điều kiện tạm dừng cho {0}"
 
 ["SmartProductionControl.Settings.Monitor.AddOverride.Tooltip"]
-status = "normal"
 raw = "Override pause and resume thresholds for this good only."
+status = "normal"
 enUS = "Override pause and resume thresholds for this good only."
 zhCN = "仅针对该商品覆盖暂停和恢复阈值。"
 zhTW = "僅針對這種商品覆蓋暫停和恢復的閾值。"
@@ -2386,8 +2386,8 @@ csCZ = "Přepsat prahy pozastavení a obnovení pouze pro tuto surovinu."
 viVN = "Vượt qua ngưỡng tạm dừng và tiếp tục chỉ cho hàng hóa này."
 
 ["SmartProductionControl.Settings.Monitor.MinimumOneRequired"]
-status = "normal"
 raw = "At least one monitored good is required."
+status = "normal"
 enUS = "At least one monitored good is required."
 zhCN = "至少需要一个被监控的物品。"
 zhTW = "至少需要一種被監控的物品。"
@@ -2402,8 +2402,8 @@ csCZ = "Alespoň jedna monitorovaná surovina je vyžadována."
 viVN = "Ít nhất một sản phẩm được giám sát là bắt buộc."
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.Any.Global"]
-status = "normal"
 raw = "Pause when any full globally"
+status = "normal"
 enUS = "Pause when any full globally"
 zhCN = "全局任何地方满时暂停"
 zhTW = "全球任何滿時暫停"
@@ -2418,8 +2418,8 @@ csCZ = "Pauza při jakémkoli plném globálně"
 viVN = "Dừng khi có bất kỳ đầy toàn cầu"
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.Any.District"]
-status = "normal"
 raw = "Pause when any full in district"
+status = "normal"
 enUS = "Pause when any full in district"
 zhCN = "“在区域内任何满时暂停”"
 zhTW = "當區域內任何儲存區滿時暫停"
@@ -2434,8 +2434,8 @@ csCZ = "Pauza, když je v okrese cokoliv plné"
 viVN = "Tạm dừng khi bất kỳ khu vực nào đầy"
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.Any.Building"]
-status = "normal"
 raw = "Pause when any full in building"
+status = "normal"
 enUS = "Pause when any building is full"
 zhCN = "“当建筑内部有满的物品时暂停”"
 zhTW = "當建築內任何設施滿載時暫停"
@@ -2450,8 +2450,8 @@ csCZ = "Pauza, když je v budově něco plného"
 viVN = "Tạm dừng khi có bất kỳ cái gì đầy trong tòa nhà"
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.All.Global"]
-status = "normal"
 raw = "Pause when all full globally"
+status = "normal"
 enUS = "Pause when all full globally"
 zhCN = "“当全部满时全局暂停”"
 zhTW = "當所有項目全滿時暫停全球配置"
@@ -2466,8 +2466,8 @@ csCZ = "Pauza, když je vše plné globálně"
 viVN = "Tạm dừng khi tất cả đều đầy toàn cầu"
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.All.District"]
-status = "normal"
 raw = "Pause when all full in district"
+status = "normal"
 enUS = "Pause when all are full in the district"
 zhCN = "“区域内全部满时暂停”"
 zhTW = "當區域內所有設備滿時暫停"
@@ -2482,8 +2482,8 @@ csCZ = "Pauza, když je v okrese vše plné"
 viVN = "Dừng khi tất cả đều đầy trong khu vực"
 
 ["SmartProductionControl.Fragment.Tag.OutputHeader.All.Building"]
-status = "normal"
 raw = "Pause when all full in building"
+status = "normal"
 enUS = "Pause when all are full in building"
 zhCN = "当建筑物内全部满时暂停"
 zhTW = "當建築物內全部滿時暫停"
@@ -2498,8 +2498,8 @@ csCZ = "Pauza, když je vše plné v budově"
 viVN = "Tạm dừng khi tất cả đầy trong tòa nhà"
 
 ["SmartProductionControl.Fragment.Tag.MoreGoods"]
-status = "normal"
 raw = "+{0} more"
+status = "normal"
 enUS = "+{0} more"
 zhCN = "+{0} 额外"
 zhTW = "+{0} 以上"
@@ -2514,8 +2514,8 @@ csCZ = "+{0} více"
 viVN = "+{0} nữa"
 
 ["SmartProductionControl.Fragment.Tag.NoMonitoredGoods"]
-status = "normal"
 raw = "No goods monitored"
+status = "normal"
 enUS = "No goods monitored"
 zhCN = "未监控的物品"
 zhTW = "沒有監控的貨物"
@@ -2530,8 +2530,8 @@ csCZ = "Není sledováno žádné zboží"
 viVN = "Không có hàng hóa nào được theo dõi"
 
 ["SmartProductionControl.PauseDelay.Section.Title"]
-status = "normal"
 raw = "Pause Delay"
+status = "normal"
 enUS = "Pause Delay"
 zhCN = "暂停延迟"
 zhTW = "暫停延遲"
@@ -2546,8 +2546,8 @@ csCZ = "Zpoždění pozastavení"
 viVN = "Thời gian Tạm dừng"
 
 ["SmartProductionControl.PauseDelay.Condition.NoPower"]
-status = "normal"
 raw = "No Power"
+status = "normal"
 enUS = "No Power"
 zhCN = "没有电力"
 zhTW = "無電源"
@@ -2562,8 +2562,8 @@ csCZ = "Žádná energie"
 viVN = "Không có điện"
 
 ["SmartProductionControl.PauseDelay.Condition.NoInput"]
-status = "normal"
 raw = "No Input"
+status = "normal"
 enUS = "No Input"
 zhCN = "无输入"
 zhTW = "無輸入"
@@ -2578,8 +2578,8 @@ csCZ = "Žádný vstup"
 viVN = "Không có đầu vào"
 
 ["SmartProductionControl.PauseDelay.Condition.NoWork"]
-status = "normal"
 raw = "No Work"
+status = "normal"
 enUS = "No Work"
 zhCN = "无工作"
 zhTW = "「沒有工作」"
@@ -2594,8 +2594,8 @@ csCZ = "Žádná práce"
 viVN = "Không Có Công Việc"
 
 ["SmartProductionControl.PauseDelay.Level.Global"]
-status = "normal"
 raw = "Global"
+status = "normal"
 enUS = "Global"
 zhCN = "全球"
 zhTW = "全域"
@@ -2610,8 +2610,8 @@ csCZ = "Globální"
 viVN = "Toàn cầu"
 
 ["SmartProductionControl.PauseDelay.Level.Type"]
-status = "normal"
 raw = "Category"
+status = "normal"
 enUS = "Category"
 zhCN = "类别"
 zhTW = "類別"
@@ -2626,8 +2626,8 @@ csCZ = "Kategorie"
 viVN = "Thể loại"
 
 ["SmartProductionControl.PauseDelay.Level.Type.Short"]
-status = "normal"
 raw = "Category"
+status = "normal"
 enUS = "Category"
 zhCN = "“类别”"
 zhTW = "類別"
@@ -2642,8 +2642,8 @@ csCZ = "Kategorie"
 viVN = "Thể loại"
 
 ["SmartProductionControl.PauseDelay.Level.Instance"]
-status = "normal"
 raw = "This building"
+status = "normal"
 enUS = "This building"
 zhCN = "这座建筑"
 zhTW = "這座建築"
@@ -2658,8 +2658,8 @@ csCZ = "Tato budova"
 viVN = "Công trình này"
 
 ["SmartProductionControl.PauseDelay.Level.Instance.Short"]
-status = "normal"
 raw = "Building"
+status = "normal"
 enUS = "Building"
 zhCN = "建筑"
 zhTW = "建造"
@@ -2674,8 +2674,8 @@ csCZ = "Budova"
 viVN = "Công trình"
 
 ["SmartProductionControl.PauseDelay.Inherit"]
-status = "normal"
 raw = "Inherit"
+status = "normal"
 enUS = "Inherit"
 zhCN = "继承"
 zhTW = "繼承"
@@ -2690,8 +2690,8 @@ csCZ = "Dědit"
 viVN = "Kế thừa"
 
 ["SmartProductionControl.PauseDelay.InheritFrom"]
-status = "normal"
 raw = "Matches {0}"
+status = "normal"
 enUS = "Matches {0}"
 zhCN = "匹配 {0}"
 zhTW = "符合 {0}"
@@ -2706,8 +2706,8 @@ csCZ = "Odpovídá {0}"
 viVN = "Trùng khớp với {0}"
 
 ["SmartProductionControl.PauseDelay.AddCategoryBranch"]
-status = "normal"
 raw = "+ Delay for all {0}"
+status = "normal"
 enUS = "+ Delay for all {0}"
 zhCN = "+ 针对所有 {0} 的延迟"
 zhTW = "+ 為所有 {0} 延遲"
@@ -2722,8 +2722,8 @@ csCZ = "+ Zpoždění pro všechny {0}"
 viVN = "+ Thời gian trì hoãn cho tất cả {0}"
 
 ["SmartProductionControl.PauseDelay.AddInstanceBranch"]
-status = "normal"
 raw = "+ Custom delay for {0}"
+status = "normal"
 enUS = "+ Custom delay for {0}"
 zhCN = "+ 自定义延迟 {0}"
 zhTW = "+ 自訂延遲 {0}"
@@ -2738,8 +2738,8 @@ csCZ = "+ Vlastní zpoždění pro {0}"
 viVN = "+ Thời gian trễ tùy chỉnh cho {0}"
 
 ["SmartProductionControl.PauseDelay.Reset.Tooltip"]
-status = "normal"
 raw = "Reset to inherited value"
+status = "normal"
 enUS = "Reset to inherited value"
 zhCN = "重置为继承值"
 zhTW = "重置為繼承值"
@@ -2754,8 +2754,8 @@ csCZ = "Resetovat na zděděnou hodnotu"
 viVN = "Đặt lại về giá trị kế thừa"
 
 ["SmartProductionControl.PauseDelay.Dashboard.GlobalHeader"]
-status = "normal"
 raw = "Global Defaults"
+status = "normal"
 enUS = "Global Defaults"
 zhCN = "全局默认设置"
 zhTW = "全局默認設定"
@@ -2770,8 +2770,8 @@ csCZ = "Globální výchozí hodnoty"
 viVN = "Cài đặt Toàn cầu"
 
 ["SmartProductionControl.PauseDelay.Dashboard.TypeHeader"]
-status = "normal"
 raw = "Type Overrides"
+status = "normal"
 enUS = "Type Overrides"
 zhCN = "类型覆盖"
 zhTW = "型別覆蓋"
@@ -2786,8 +2786,8 @@ csCZ = "Přepsání typů"
 viVN = "Loại Ghi Đè"
 
 ["SmartProductionControl.PauseDelay.Dashboard.InstanceOverridesHeader"]
-status = "normal"
 raw = "Buildings with Custom Delays"
+status = "normal"
 enUS = "Buildings with Custom Delays"
 zhCN = "带有自定义延迟的建筑"
 zhTW = "具有自定義延遲的建築物"
@@ -2802,8 +2802,8 @@ csCZ = "Budovy s vlastními zpožděními"
 viVN = "Các tòa nhà có độ trễ tùy chỉnh"
 
 ["SmartProductionControl.PauseDelay.Dashboard.InstanceOverridesEmpty"]
-status = "normal"
 raw = "No buildings have custom pause delays."
+status = "normal"
 enUS = "No buildings have custom pause delays."
 zhCN = "“没有建筑物具有自定义暂停延迟。”"
 zhTW = "「沒有建築物設置自定義暫停延遲。」"
@@ -2818,8 +2818,8 @@ csCZ = "Žádné budovy nemají vlastní prodlevu pozastavení."
 viVN = "Không có tòa nhà nào có độ trễ tạm dừng tùy chỉnh."
 
 ["SmartProductionControl.PauseDelay.Dashboard.ResetTooltip"]
-status = "normal"
 raw = "Clear all custom pause delays on this building"
+status = "normal"
 enUS = "Clear all custom pause delays on this building"
 zhCN = "“清除该建筑上所有自定义暂停延迟”"
 zhTW = "清除該建築上的所有自定義暫停延遲"
@@ -2834,8 +2834,8 @@ csCZ = "Smažte všechna vlastní zpoždění pauzy na této budově"
 viVN = "Làm rõ tất cả các khoảng thời gian tạm dừng tùy chỉnh trên công trình này"
 
 ["SmartProductionControl.Dashboard.Tab.Dashboard"]
-status = "normal"
 raw = "Dashboard"
+status = "normal"
 enUS = "Dashboard"
 zhCN = "仪表板"
 zhTW = "儀表板"
@@ -2850,8 +2850,8 @@ csCZ = "Panel"
 viVN = "Bảng điều khiển"
 
 ["SmartProductionControl.Dashboard.Tab.PauseDelay"]
-status = "normal"
 raw = "Pause Delay"
+status = "normal"
 enUS = "Pause Delay"
 zhCN = "暂停延迟"
 zhTW = "暫停延遲"
@@ -2866,8 +2866,8 @@ csCZ = "Zpoždění pauzy"
 viVN = "Thời gian Dừng"
 
 ["SmartProductionControl.PauseDelay.Tooltip.Delay"]
-status = "normal"
 raw = "Pause is delayed by this duration after the condition first triggers. Resume is immediate. Resolution ~0.5 s."
+status = "normal"
 enUS = "Pause is delayed by this duration after the condition first triggers. Resume is immediate. Resolution ~0.5 s."
 zhCN = "“在条件首次触发后，暂停将延迟此持续时间。恢复为即时。分辨率约为0.5秒。”"
 zhTW = "“當條件首次觸發後，暫停會延遲這段時間。恢復是立即的。解析度約為 0.5 秒。”"
@@ -2882,8 +2882,8 @@ csCZ = "Pauza je zpožděna o tuto dobu po prvním vyvolání podmínky. Obnoven
 viVN = "Thời gian tạm dừng bị trì hoãn trong khoảng thời gian này sau khi điều kiện lần đầu tiên được kích hoạt. Tiếp tục ngay lập tức. Thời gian ~0.5 giây."
 
 ["SmartProductionControl.Fragment.PowerPriority.Label"]
-status = "normal"
 raw = "Power priority"
+status = "normal"
 enUS = "Power priority"
 zhCN = "电力优先级"
 zhTW = "電力優先權"
@@ -2898,8 +2898,8 @@ csCZ = "Priorita energie"
 viVN = "Ưu tiên nguồn năng lượng"
 
 ["SmartProductionControl.Fragment.PowerPriority.Tooltip"]
-status = "normal"
 raw = "Higher number wins when the grid can't power everyone. Buildings with the highest priority keep running; lower-priority buildings pause first. Range 0–99 (default 50)."
+status = "normal"
 enUS = "Higher number wins when the grid can't power everyone. Buildings with the highest priority keep running; lower-priority buildings pause first. Range 0–99 (default 50)."
 zhCN = "在网格无法为所有建筑供电时，优先级较高的建筑将继续运行；优先级较低的建筑将优先暂停。范围 0–99（默认为 50）。"
 zhTW = "當電網無法供電給所有建築時，高的數字獲勝。優先順序最高的建築將繼續運行；優先順序較低的建築將首先暫停。範圍 0–99（預設為 50）。"
@@ -2914,8 +2914,8 @@ csCZ = "Vyšší číslo vyhrává, když síť nemůže napájet všechny. Budo
 viVN = "Số cao hơn thắng khi lưới không thể cung cấp năng lượng cho mọi người. Các tòa nhà có ưu tiên cao nhất tiếp tục hoạt động; các tòa nhà có ưu tiên thấp hơn sẽ tạm dừng trước. Phạm vi 0–99 (mặc định 50)."
 
 ["SmartProductionControl.Settings.PowerCoord.Section"]
-status = "normal"
 raw = "Power network coordination"
+status = "normal"
 enUS = "Power network coordination"
 zhCN = "电力网络协调"
 zhTW = "電力網絡協調"
@@ -2930,8 +2930,8 @@ csCZ = "Koordinace energetické sítě"
 viVN = "Điều phối mạng lưới điện"
 
 ["SmartProductionControl.Settings.PowerCoord.Section.Tooltip"]
-status = "normal"
 raw = "When several buildings share a starved grid the mod coordinates who pauses based on priority. These per-building values override the global defaults from the dashboard."
+status = "normal"
 enUS = "When several buildings share a starved grid, the mod coordinates which one pauses based on priority. These per-building values override the global defaults from the dashboard."
 zhCN = "当多个建筑共享一个缺电的电网时，mod 根据优先级协调暂停哪些建筑。这些每个建筑的值将覆盖仪表板上的全局默认值。"
 zhTW = "當多個建築共享一個缺電的電網時，該模組會根據優先級協調誰進入暫停狀態。這些每個建築的值將覆蓋儀表板上的全局默認值。"
@@ -2946,8 +2946,8 @@ csCZ = "Pokud několik budov sdílí hladový grid, mod koordinuje, která z nic
 viVN = "Khi nhiều tòa nhà chia sẻ một lưới bị thiếu ăn, mod sẽ điều phối ai ngừng hoạt động dựa trên mức ưu tiên. Những giá trị này cho từng tòa nhà sẽ ghi đè lên các mặc định toàn cầu từ bảng điều khiển."
 
 ["SmartProductionControl.Settings.PowerCoord.Margin"]
-status = "normal"
 raw = "Safety margin"
+status = "normal"
 enUS = "Safety margin"
 zhCN = "安全边际"
 zhTW = "安全裕度"
@@ -2962,8 +2962,8 @@ csCZ = "Bezpečnostní rezerva"
 viVN = "Biên độ an toàn"
 
 ["SmartProductionControl.Settings.PowerCoord.Margin.Tooltip"]
-status = "normal"
 raw = "Supply must exceed projected demand by this margin before the building resumes. Prevents flicker at the supply ceiling."
+status = "normal"
 enUS = "Supply must exceed projected demand by this margin before the building resumes. Prevents flicker at the supply ceiling."
 zhCN = "“供应必须超过预测需求的这个裕度，建筑才能恢复运行。防止在供应上限时闪烁。”"
 zhTW = "在建築恢復運行之前，供應必須超過預期需求的這個邊際。防止在供應上限時出現閃爍。"
@@ -2978,8 +2978,8 @@ csCZ = "Zásoby musí překročit předpokládanou poptávku o tuto marži, než
 viVN = "Nguồn cung phải vượt quá nhu cầu dự kiến với khoảng cách này trước khi tòa nhà tiếp tục hoạt động. Ngăn chặn hiện tượng nhấp nháy ở mức cung tối đa."
 
 ["SmartProductionControl.Settings.PowerCoord.Margin.ValueTooltip"]
-status = "normal"
 raw = "{0} hp + {1}% = {2} hp required"
+status = "normal"
 enUS = "{0} hp + {1}% = {2} hp required"
 zhCN = "{0} 马力 + {1}% = {2} 马力需要"
 zhTW = "{0} 馬力 + {1}% = {2} 馬力所需"
@@ -2994,8 +2994,8 @@ csCZ = "{0} hp + {1}% = {2} hp potřeba"
 viVN = "{0} mã lực + {1}% = {2} mã lực cần thiết"
 
 ["SmartProductionControl.Settings.PowerCoord.ResumeHold"]
-status = "normal"
 raw = "Resume hold"
+status = "normal"
 enUS = "Resume hold"
 zhCN = "恢复保持"
 zhTW = "恢復暫停"
@@ -3010,8 +3010,8 @@ csCZ = "Pokračovat v držení"
 viVN = "Tiếp tục giữ"
 
 ["SmartProductionControl.Settings.PowerCoord.ResumeHold.Tooltip"]
-status = "normal"
 raw = "After the coordinator pauses this building it must wait at least this long before being considered for resume. Smooths out wobbly grids."
+status = "normal"
 enUS = "After the coordinator pauses this building, it must wait at least this long before being considered for resumption. Smooths out wobbly grids."
 zhCN = "“协调员暂停此建筑后，必须等待至少这么长时间才能被考虑恢复。可以平滑不稳定的网格。”"
 zhTW = "協調員暫停該建築後，必須等待至少這段時間才能考慮恢復。使不穩定的網格更加平滑。"

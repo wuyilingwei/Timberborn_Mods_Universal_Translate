@@ -17633,6 +17633,14 @@ koKR = "1단계: 환경에서 자원을 수집하세요.\n\n소나무 감지됨;
 csCZ = "Krok 1: Sbírejte zdroje z prostředí.\n\nPiny zjištěny; Přineste pryskyřici do bunkru k přeměně na plast.\n\nSklízejte další zdroje, abyste zaměstnali pracovní sílu, pokud je nečinná."
 viVN = "Bước một: Thu thập tài nguyên từ môi trường.\n\nPhát hiện thông thường; Mang nhựa đến Bunker để chuyển đổi thành Nhựa\n\nThu hoạch các tài nguyên khác để sử dụng lực lượng lao động nếu không có việc làm."
 
+["Tutorial.Tents.FrostyWhiskers"]
+new = "Temperature Criticalxa0!"
+status = "normal"
+
+["Tutorial.Tutorial.FrostyWhiskers_Tents.FrostyWhiskers"]
+new = "Alertxa0!\n\nTemperature Criticalxa0!\n\nWorkforce at riskxa0!\n\nPrepare emergency accomodation."
+status = "normal"
+
 ["Tutorial.Tutorial.FrostyWhiskers_Text2.FrostyWhiskers"]
 raw = "Step twoxa0: Oil and Sulfur required long-term.\n\nExplosives in stock. Start Excavation ASAP. Deprioritize."
 status = "normal"
@@ -20784,3 +20792,15 @@ ptBR = "Não oferece uma boa vista."
 koKR = "멋진 전망을 제공하지 않습니다."
 csCZ = "Nenabízí skvělý výhled."
 viVN = "Không cho tầm nhìn tốt."
+
+["Building.HaulersFlag.DisplayName"]
+new = "Hauler’s Flag"
+status = "normal"
+
+["Building.HaulersFlag.Description"]
+new = "A standby location for a bored Hauler."
+status = "normal"
+
+["Building.HaulersFlag.FlavorDescription"]
+new = "Not really a flag if you carefully look at it"
+status = "normal"

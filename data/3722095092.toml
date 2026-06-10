@@ -50,8 +50,8 @@ csCZ = "Žádní nezaměstnaní bobři"
 viVN = "Không có người rái cá thất nghiệp"
 
 ["BHR.Worker.HomeDistance"]
-status = "normal"
 raw = "{0} tiles from home"
+status = "normal"
 enUS = "{0} tiles from home"
 zhCN = "离家 {0} 格子"
 zhTW = "{0} 塊從家裡"
@@ -66,8 +66,8 @@ csCZ = "{0} dlaždic od domova"
 viVN = "{0} ô từ nhà"
 
 ["BHR.Worker.HomeDistance.Homeless"]
-status = "normal"
 raw = "homeless"
+status = "normal"
 enUS = "homeless"
 zhCN = "无家可归"
 zhTW = "無家可歸"
@@ -82,8 +82,8 @@ csCZ = "bezdomovec"
 viVN = "vô gia cư"
 
 ["BHR.Worker.HomeDistance.Unreachable"]
-status = "normal"
 raw = "no path"
+status = "normal"
 enUS = "no path"
 zhCN = "无法到达"
 zhTW = "無法到達"
@@ -98,8 +98,8 @@ csCZ = "žádná cesta"
 viVN = "không có đường đi"
 
 ["BHR.Settings.Header"]
-status = "normal"
 raw = "Beaver HR Department"
+status = "normal"
 enUS = "Beaver HR Department"
 zhCN = "海狸人力资源部"
 zhTW = "海狸人力資源部"
@@ -114,8 +114,8 @@ csCZ = "Oddělení lidských zdrojů bobrů"
 viVN = "Phòng Nhân Sự Hải Ly"
 
 ["BHR.Settings.ShowHomeDistance"]
-status = "normal"
 raw = "Show distance to home on each worker"
+status = "normal"
 enUS = "Show distance to home on each worker"
 zhCN = "在每个工人身上显示到家的距离"
 zhTW = "在每位工人身上顯示到家的距離"
@@ -130,8 +130,8 @@ csCZ = "Zobrazit vzdálenost k domovu u každého pracovníka"
 viVN = "Hiện khoảng cách đến nhà trên mỗi công nhân"
 
 ["BHR.Settings.ShowHomeDistance.Tooltip"]
-status = "normal"
 raw = "When on the workplace assignment panel shows each assigned worker's walking distance (along the navmesh) to their home dwelling next to their name. Same path the beaver actually takes to commute. Pathfinding is cached per panel open — close and reopen the panel to refresh after building roads. Off by default."
+status = "normal"
 enUS = "When on the workplace assignment panel, it shows each assigned worker's walking distance (along the navmesh) to their home dwelling next to their name. This is the same path the beaver actually takes to commute. Pathfinding is cached per panel open — close and reopen the panel to refresh after building roads. Off by default."
 zhCN = "当在工作场所分配面板上时，显示每个已分配工人到其居所的行走距离（沿着导航网格）在他们的名字旁边。海狸实际 commuting 的路径。路径查找在每个面板打开时缓存 — 在建造道路后关闭并重新打开面板以刷新。默认关闭。"
 zhTW = "當在工作場所指派面板上時，顯示每個指派工人從他們的家到工作地點的步行距離（沿著導航網格），位於他們名字的旁邊。這是海狸實際通勤所走的相同路徑。路徑尋找在每個面板打開時緩存——建造道路後關閉並重新打開面板以刷新。默認情況下為關閉狀態。"
