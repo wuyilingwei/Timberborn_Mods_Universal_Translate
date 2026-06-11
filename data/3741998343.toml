@@ -1,0 +1,102 @@
+[_meta]
+name = "X-Ray"
+
+["IgorZ.XRay.KeyBindingGroup"]
+new = "X-Ray Mod"
+status = "normal"
+
+["IgorZ.XRay.KeyBinding.ToggleMode"]
+new = "Toggle X-Ray mode"
+status = "normal"
+
+["IgorZ.XRay.KeyBinding.ShowMode"]
+new = "Show X-Ray mode"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Color.CliffEdge"]
+new = "Cliff edge color"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Color.Cliff"]
+new = "Cliff color"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Color.Grass"]
+new = "Grass color"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Color.WireframeEdge"]
+new = "Terrain edge color"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaDropdown"]
+new = "Color schema"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.Blueprint"]
+new = "Blueprint"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.BlueGrid"]
+new = "Blue wireframe"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.BWBright"]
+new = "Black and white bright"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.BWDark"]
+new = "Black and white dark"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.Custom"]
+new = "Custom"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.NormalGlow"]
+new = "Glowing"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.ColorSchemaName.Normal"]
+new = "Normal"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.GhostModelIntensity"]
+new = "Models transparency"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Glowing"]
+new = "Glow effect"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.Header"]
+new = "Overlay appearance"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.WireframeModeDropdown"]
+new = "Terrain visualization"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.WireframeModeDropdown.Note"]
+new = "Updating terrain may take longer when this mode is enabled."
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.WireframeMode.None"]
+new = "None"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.WireframeMode.Grid"]
+new = "Grid"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.WireframeMode.Contours"]
+new = "Contours"
+status = "normal"
+
+["IgorZ.XRay.Visibility.Show"]
+new = "Show underground structures"
+status = "normal"
+
+["IgorZ.XRay.Visibility.Hide"]
+new = "Hide underground structures"
+status = "normal"
