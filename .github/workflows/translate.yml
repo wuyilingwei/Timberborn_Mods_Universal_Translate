@@ -322,6 +322,9 @@ jobs:
             fi
           }
           
+          # Remove stale lock file left by the translation step's cleanup
+          rm -f .git/index.lock
+
           # Checkout the temp branch to merge
           git checkout "$TEMP_BRANCH"
           echo "Checked out temp branch $TEMP_BRANCH for merge"
