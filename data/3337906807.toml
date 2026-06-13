@@ -321,22 +321,6 @@ koKR = "액체 낙하의 배수구에서 최대 수위 설정 허용"
 csCZ = "Umožnit nastavení maximální hladiny vody na přelivu kapalinových skluzů"
 viVN = "Cho phép thiết lập mức nước tối đa tại cửa xả của các giọt chất lỏng"
 
-["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
-raw = "Show current strength in sluice"
-status = "normal"
-enUS = "Show current strength in sluice."
-zhCN = "显示水闸的水流速度"
-zhTW = "顯示水閘的當前流量強度"
-ruRU = "Покажите текущее усилие в шлюзе."
-jaJP = "スルースの現在の強度を表示してください。"
-frFR = "Afficher la force actuelle dans le déversoir."
-deDE = "Aktuelle Stärke im Schacht anzeigen"
-plPL = "Pokaż aktualną siłę w śluzie."
-ptBR = "Mostrar a força atual na comporta"
-koKR = "수문에서 현재 강도를 표시"
-csCZ = "Zobrazit aktuální sílu v plavební komoře"
-viVN = "Hiển thị độ mạnh hiện tại của cửa xả"
-
 ["IgorZ.TimberCommons.Settings.InjuryProbabilitySection"]
 raw = "Injury probability"
 status = "normal"
@@ -417,6 +401,14 @@ koKR = "일일 확률 표시"
 csCZ = "Zobrazit denní pravděpodobnosti"
 viVN = "Hiển thị xác suất hàng ngày"
 
+["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowActiveMods"]
+new = "Show active ({0}/{1})"
+status = "normal"
+
+["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowAllMods"]
+new = "Show all ({0})"
+status = "normal"
+
 ["TimberDev_Utils.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
 status = "abandoned"
@@ -464,6 +456,22 @@ ptBR = "Os logs terão mais detalhes úteis, mas isso pode impactar o desempenho
 koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능에 영향을 줄 수 있습니다."
 csCZ = "Záznamy budou obsahovat více užitečných detailů, ale může to ovlivnit výkon hry."
 viVN = "Nhật ký sẽ chứa nhiều chi tiết hữu ích hơn, nhưng điều đó có thể ảnh hưởng đến hiệu suất của trò chơi."
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
+raw = "Show current strength in sluice"
+status = "abandoned"
+enUS = "Show current strength in sluice."
+zhCN = "显示水闸的水流速度"
+zhTW = "顯示水閘的當前流量強度"
+ruRU = "Покажите текущее усилие в шлюзе."
+jaJP = "スルースの現在の強度を表示してください。"
+frFR = "Afficher la force actuelle dans le déversoir."
+deDE = "Aktuelle Stärke im Schacht anzeigen"
+plPL = "Pokaż aktualną siłę w śluzie."
+ptBR = "Mostrar a força atual na comporta"
+koKR = "수문에서 현재 강도를 표시"
+csCZ = "Zobrazit aktuální sílu v plavební komoře"
+viVN = "Hiển thị độ mạnh hiện tại của cửa xả"
 
 ["="]
 raw = "="

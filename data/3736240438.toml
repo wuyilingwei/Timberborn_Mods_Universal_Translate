@@ -49,37 +49,57 @@ koKR = "비가 그쳤습니다."
 csCZ = "Déšť ustal."
 viVN = "Cơn mưa đã ngừng."
 
-["academicunwinds.Rainborn.Settings.ModEnabled"]
-raw = "Enable Rainborn"
+["academicunwinds.Rainborn.Notification.SandStormStarted"]
+new = "A sandstorm is rolling in."
 status = "normal"
-enUS = "Enable Rainborn"
-zhCN = "启用雨生"
-zhTW = "啟用學術的雨生"
-ruRU = "Включить Rainborn"
-jaJP = "「Rainbornを有効にする」"
-frFR = "Activer Rainborn"
-deDE = "Rainborn aktivieren"
-plPL = "Włącz Rainborn"
-ptBR = "Ativar Rainborn"
-koKR = "레인본 활성화"
-csCZ = "Povolit Rainborn"
-viVN = "Kích hoạt Rainborn"
 
-["academicunwinds.Rainborn.Settings.ModEnabled.Tooltip"]
-raw = "Master kill-switch. Turn off to immediately end any storm in progress and prevent new ones from rolling. Other settings are kept as-is so you can re-enable later without losing your tuning."
+["academicunwinds.Rainborn.Notification.SandStormEnded"]
+new = "The sandstorm has passed."
 status = "normal"
-enUS = "Master kill-switch. Turn off to immediately end any storm in progress and prevent new ones from occurring. Other settings are kept as-is so you can re-enable later without losing your adjustments."
-zhCN = "“主控制开关。关闭后立即结束当前的风暴并防止新的风暴生成。其他设置保持不变，以便您可以稍后重新启用而不会丢失调整。”"
-zhTW = "主殺開關。關閉後將立即結束任何正在進行的風暴，並防止新的風暴出現。其他設定將保持不變，這樣您可以稍後重新啟用而不會失去您的調整。"
-ruRU = "Главный выключатель. Выключите, чтобы немедленно прекратить любую текущую бурю и предотвратить появление новых. Другие настройки останутся без изменений, чтобы вы могли позже снова включить их, не теряя своих настроек."
-jaJP = "マスターキルスイッチ。これをオフにすると、進行中の嵐を即座に終了し、新しい嵐の発生を防ぎます。他の設定はそのまま保持されるため、調整を失うことなく後で再度有効にすることができます。"
-frFR = "Interrupteur principal. Désactivez-le pour mettre fin immédiatement à toute tempête en cours et empêcher de nouvelles tempêtes de se former. Les autres paramètres restent inchangés afin que vous puissiez les réactiver plus tard sans perdre vos réglages."
-deDE = "Master-Kill-Schalter. Deaktivieren, um sofort einen laufenden Sturm zu beenden und zu verhindern, dass neue entstehen. Andere Einstellungen bleiben unverändert, sodass Sie später ohne Verlust Ihrer Anpassungen erneut aktivieren können."
-plPL = "Master kill-switch. Wyłącz, aby natychmiast przerwać trwającą burzę i zapobiec nadejściu nowych. Inne ustawienia pozostaną takie same, więc możesz je ponownie włączyć później, nie tracąc swoich dostosowań."
-ptBR = "Interruptor mestre. Desative para terminar imediatamente qualquer tempestade em andamento e evitar que novas se formem. Outras configurações permanecem como estão para que você possa reativar mais tarde sem perder seu ajuste."
-koKR = "마스터 킬 스위치. 이를 끄면 진행 중인 폭풍을 즉시 종료하고 새로운 폭풍이 생성되는 것을 방지합니다. 다른 설정은 그대로 유지되므로 나중에 조정을 잃지 않고 다시 활성화할 수 있습니다."
-csCZ = "„Hlavní spínač. Vypněte, abyste okamžitě ukončili jakoukoli probíhající bouři a zabránili novým. Ostatní nastavení zůstávají beze změny, takže je můžete později znovu zapnout, aniž byste přišli o své ladění.“"
-viVN = "Công tắc chính. Tắt nó để ngay lập tức kết thúc bất kỳ cơn bão nào đang diễn ra và ngăn chặn những cơn bão mới xuất hiện. Các cài đặt khác được giữ nguyên để bạn có thể bật lại sau mà không làm mất cài đặt của mình."
+
+["academicunwinds.Rainborn.Notification.RainApproaching"]
+new = "Storm clouds on the horizon."
+status = "normal"
+
+["academicunwinds.Rainborn.Notification.AcidRainApproaching"]
+new = "A dangerous storm is approaching!"
+status = "normal"
+
+["academicunwinds.Rainborn.Notification.SandStormApproaching"]
+new = "A sandstorm is rolling in from the dunes."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode"]
+new = "Weather mode"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode.Tooltip"]
+new = "Off: no weather rolls at all. The mod stays loaded but the scheduler is silent.\n\nStrict cycle lock: the vanilla cycle decides. Drought always rolls a sandstorm, badtide always rolls acid rain, temperate always rolls clean rain. However, if the cycle's expected weather is disabled (e.g. drought with sandstorms turned off), nothing rolls that event.\n\nBiased (default): 90% chance the event matches the cycle, 5% each chance for the other two weather types. Lets the cycle do its thing most of the time while still giving you the occasional surprise. Disabled weather types redistribute their share to the others.\n\nRandom: the cycle is ignored entirely. Sandstorm chance and acid escalation sliders drive every roll."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode.Off"]
+new = "Off"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode.Strict"]
+new = "Strict cycle lock"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode.Biased"]
+new = "Biased (default)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.WeatherMode.Random"]
+new = "Random"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandStormEnabled"]
+new = "Enable sandstorms (experimental)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandStormEnabled.Tooltip"]
+new = "Master toggle for sandstorms. Off means the scheduler never picks a sandstorm regardless of mode. Strict droughts that would normally roll sand will roll nothing instead; Biased rolls redistribute the sand share to the other types; Random re-rolls sand picks as rain.\n\nMarked experimental because sand deposition reshapes terrain across storms."
+status = "normal"
 
 ["academicunwinds.Rainborn.Settings.RainIntensityMin"]
 raw = "Min rain intensity"
@@ -99,6 +119,7 @@ viVN = "Cường độ mưa tối thiểu"
 
 ["academicunwinds.Rainborn.Settings.RainIntensityMin.Tooltip"]
 raw = "Lower end of the random intensity range. Each storm rolls a fresh strength between this and the max.\n\n10 is roughly drizzle; 30+ is a heavy storm."
+new = "Lower end of the random intensity range. Each storm rolls a fresh strength somewhere between this and the max, so two consecutive storms rarely feel the same.\n\n10 is roughly a drizzle; 30+ is a heavy storm."
 status = "normal"
 enUS = "Lower end of the random intensity range. Each storm generates a fresh intensity between this value and the maximum.\n\n10 is roughly drizzle; 30+ is a heavy storm."
 zhCN = "“随机强度范围的下限。每次风暴在此值和最大值之间随机生成强度。\n\n10 大约是细雨；30 以上是暴风雨。”"
@@ -131,6 +152,7 @@ viVN = "Cường độ mưa tối đa"
 
 ["academicunwinds.Rainborn.Settings.RainIntensityMax.Tooltip"]
 raw = "Upper end of the random intensity range.\n\nIf you set this below the min slider the order is swapped automatically."
+new = "Upper end of the random intensity range.\n\nIf you drag this below the min slider, the order is swapped automatically, so the roll never throws."
 status = "normal"
 enUS = "Upper end of the random intensity range.\n\nIf you set this below the minimum slider, the order is swapped automatically."
 zhCN = "“随机强度范围的上限。\n\n如果您将其设置在最小滑块以下，顺序会自动切换。”"
@@ -163,6 +185,7 @@ viVN = "Không có thời tiết trước chu kỳ"
 
 ["academicunwinds.Rainborn.Settings.StartCycle.Tooltip"]
 raw = "Rain stays disabled until your colony reaches this cycle. 1 = no gate (default). Useful for a peaceful early game."
+new = "Weather stays disabled until your colony reaches this cycle. 1 = no gate (the default). Useful when you want a calm early game before the weather can turn on you."
 status = "normal"
 enUS = "Rain stays disabled until your colony reaches this cycle. 1 = no gate (default). Useful for a peaceful early game."
 zhCN = "在您的殖民地达到该周期之前，雨将保持禁用。1 = 无门（默认）。对早期游戏的和平体验很有帮助。"
@@ -195,6 +218,7 @@ viVN = "Phạm vi mưa (%)"
 
 ["academicunwinds.Rainborn.Settings.RainCoverage.Tooltip"]
 raw = "Percentage of map tiles that receive water each tick.\n\nTogether with intensity this controls total volume."
+new = "Percentage of map tiles sampled each tick. Higher means more total water on the map and more per-tick compute. Combined with intensity, this is what controls total volume per storm."
 status = "normal"
 enUS = "Percentage of map tiles that receive water each tick.\n\nTogether with intensity, this controls total volume."
 zhCN = "“每个回合接收水分的地图瓷砖百分比。\n\n与强度一起控制总体积。”"
@@ -227,6 +251,7 @@ viVN = "Thời gian mưa tối thiểu (giờ)"
 
 ["academicunwinds.Rainborn.Settings.RainHoursMin.Tooltip"]
 raw = "Shortest possible rain event in in-game hours.\n\nEach storm rolls a fresh duration between this and the max."
+new = "Shortest possible rain event, in in-game hours.\n\nEach storm rolls a fresh duration somewhere between this and the max."
 status = "normal"
 enUS = "Shortest possible rain event in in-game hours.\n\nEach storm rolls a fresh duration between this and the maximum."
 zhCN = "游戏内小时中最短的降雨事件。\n\n每场风暴的持续时间在此时长和最长时长之间随机产生。"
@@ -259,6 +284,7 @@ viVN = "Thời gian mưa tối đa (giờ)"
 
 ["academicunwinds.Rainborn.Settings.RainHoursMax.Tooltip"]
 raw = "Longest possible rain event in in-game hours."
+new = "Longest possible rain event, in in-game hours."
 status = "normal"
 enUS = "Longest possible rain event in in-game hours."
 zhCN = "“游戏时间中最长的降雨事件。”"
@@ -291,6 +317,7 @@ viVN = "Số ngày tối thiểu giữa các cơn mưa"
 
 ["academicunwinds.Rainborn.Settings.DryDaysMin.Tooltip"]
 raw = "Minimum number of days between rain events.\n\n0 lets rain return within the same day."
+new = "Minimum number of days between rain events.\n\n0 lets rain return within the same day if the roll lands at the low end."
 status = "normal"
 enUS = "Minimum number of days between rain events.\n\n0 allows rain to return within the same day."
 zhCN = "“降雨事件之间的最少天数。\n\n0 表示降雨可以在同一天内再次出现。”"
@@ -323,6 +350,7 @@ viVN = "Số ngày tối đa giữa các cơn mưa"
 
 ["academicunwinds.Rainborn.Settings.DryDaysMax.Tooltip"]
 raw = "Maximum number of days between rain events.\n\nEach gap rolls a random count between min and max plus a random time-of-day offset."
+new = "Maximum number of days between rain events.\n\nEach gap rolls a random count between min and max plus a random time-of-day offset, so the next storm does not always land at the same hour."
 status = "normal"
 enUS = "Maximum number of days between rain events.\n\nEach gap rolls a random count between min and max plus a random time-of-day offset."
 zhCN = "“干旱事件之间的最大天数。\n\n每个间隔都会在最小值和最大值之间随机生成一个计数，并加上随机的时间偏移。”"
@@ -355,6 +383,7 @@ viVN = "Thời gian chờ ban đầu (ngày)"
 
 ["academicunwinds.Rainborn.Settings.InitialWaitDays.Tooltip"]
 raw = "How many full days to wait at game start before any rain event can fire.\n\n0 lets the first rain happen on day 1."
+new = "How many full days to wait at game start before any rain event can fire.\n\n0 lets the first rain happen on day 1 (default)."
 status = "normal"
 enUS = "How many full days to wait at the start of the game before any rain event can occur.\n\n0 allows the first rain to happen on day 1."
 zhCN = "“在游戏开始时，等待多少个完整的天数才能触发任何降雨事件。\n\n0表示第一场降雨将在第1天发生。”"
@@ -417,6 +446,14 @@ koKR = "산성 비 전환 (디버그)"
 csCZ = "Přepnout kyselinový déšť (debug)"
 viVN = "Bật mưa axit (gỡ lỗi)"
 
+["academicunwinds.Rainborn.KeyBinding.ToggleSandStorm"]
+new = "Toggle sandstorm (debug)"
+status = "normal"
+
+["academicunwinds.Rainborn.KeyBinding.ToggleAutoEvent"]
+new = "Toggle scheduled event (debug)"
+status = "normal"
+
 ["academicunwinds.Rainborn.Settings.RainAreaSize"]
 raw = "Heavy rain radius (%)"
 status = "normal"
@@ -435,6 +472,7 @@ viVN = "Vùng mưa nặng (%))"
 
 ["academicunwinds.Rainborn.Settings.RainAreaSize.Tooltip"]
 raw = "Radius of the heavy rain core as a percentage of the smaller map dimension.\n\nInside this radius rain is at full intensity; outside it tapers smoothly to a light drizzle. Light rain still falls everywhere on the map while it's raining."
+new = "Upper cap on the per-storm rolled peak radius, as a percentage of the smaller map dimension. Each storm rolls something in [5%, this value], so some storms are local squalls and some sweep most of the map.\n\nInside the rolled core fraction (25-75% of the live radius) rain is at full intensity; outside it drops sharply to zero at the rim."
 status = "normal"
 enUS = "Radius of the heavy rain core as a percentage of the smaller map dimension.\n\nWithin this radius, rain is at full intensity; outside it gradually decreases to a light drizzle. Light rain continues to fall across the entire map during rainfall."
 zhCN = "重雨核心的半径，单位为地图较小维度的百分比。\n\n在此半径内，雨水强度达到最大；在外部，则平滑地减弱为小雨。在下雨时，地图上的每个地方仍然会有小雨落下。"
@@ -467,6 +505,7 @@ viVN = "Bật mưa axit"
 
 ["academicunwinds.Rainborn.Settings.AcidRainEnabled.Tooltip"]
 raw = "When enabled rain events have a growing chance of dropping contaminated water instead of clean water.\n\nThe probability starts at 0% and climbs toward a 50% cap as more clean rains pass — only clean rains count toward escalation."
+new = "When enabled, rain events have a growing chance of dropping contaminated water instead of clean water.\n\nThe probability starts at 0% and climbs toward a 50% cap as more clean rains pass. Only clean rains count toward escalation, so the rate caps at 50/50 rather than drifting higher and higher."
 status = "normal"
 enUS = "When enabled, rain events have an increasing chance of dropping contaminated water instead of clean water.\n\nThe probability starts at 0% and rises to a 50% cap as more clean rains occur — only clean rains count toward the escalation."
 zhCN = "启用后，降雨事件将逐渐增加掉落污染水而非干净水的概率。\n\n该概率从0％开始，随着更多干净降雨的出现而逐步上升至50％的上限——仅干净降雨会计入该上升。"
@@ -499,6 +538,7 @@ viVN = "Các sự kiện leo thang mưa acid"
 
 ["academicunwinds.Rainborn.Settings.AcidRainEscalation.Tooltip"]
 raw = "How many clean rain events must pass for the acid-rain probability to reach its 50% cap.\n\nLower = faster escalation toward 50-50."
+new = "How many clean rain events must pass for the acid-rain probability to reach its 50% cap.\n\nLower means faster escalation toward 50/50."
 status = "normal"
 enUS = "How many clean rain events must pass for the acid rain probability to reach its 50% cap.\n\nLower = faster escalation toward 50-50."
 zhCN = "在腐蚀性降雨概率达到50%上限之前，需要经过多少次清洁降雨事件。\n\n较低 = 越快接近50-50。"
@@ -531,6 +571,7 @@ viVN = "Ô nhiễm mưa acid (%)"
 
 ["academicunwinds.Rainborn.Settings.AcidRainContamination.Tooltip"]
 raw = "Within an acid rain event this is the percentage of touched tiles that drop contaminated water. The rest drop clean water.\n\n100% = full poison; 50% = half the tiles are clean.\n\nHas no effect when Enable acid rain is off or when the event rolled as a clean rain."
+new = "Upper cap on each acid storm's rolled contamination ratio. The scheduler rolls a fresh value per event somewhere in [25%, this slider], so two consecutive acid storms can feel very different from each other.\n\n100% gives the widest variety. Lower the slider to hard-cap how harsh any single storm can get.\n\nHas no effect when Enable acid rain is off, or when the current event rolled as a clean rain."
 status = "normal"
 enUS = "During an acid rain event, this is the percentage of affected tiles that produce contaminated water. The rest produce clean water.\n\n100% = full poison; 50% = half of the tiles are clean.\n\nHas no effect when 'Enable acid rain' is off or when the event rolls as clean rain."
 zhCN = "在酸雨事件中，这是接触到的瓷砖掉落污染水的百分比。其余瓷砖掉落清水。\n\n100% = 完全污染；50% = 一半的瓷砖是干净的。\n\n当酸雨启用被关闭或事件被判定为清水时没有影响。"
@@ -563,6 +604,7 @@ viVN = "Chu kỳ tối thiểu cho mưa axit"
 
 ["academicunwinds.Rainborn.Settings.AcidRainMinCycle.Tooltip"]
 raw = "Earliest cycle on which acid rain can start. Events before this cycle are always clean even if the escalation counter has filled up.\n\nDefault 10 gives the colony a calm grace period before the weather can turn on you."
+new = "Earliest cycle on which acid rain can roll. Events before this cycle are always clean, even if the escalation counter has already filled up under the surface.\n\nDefault 10 gives the colony a calm grace period before the weather can turn on you."
 status = "normal"
 enUS = "Earliest cycle on which acid rain can start. Events before this cycle are always clean even if the escalation counter has filled up.\n\nDefault 10 gives the colony a calm grace period before the weather can turn on you."
 zhCN = "酸雨开始的最早周期。在此周期之前的事件总是干净的，即使升级计数器已满。\n\n默认值为10，为殖民地提供了一个平静的缓冲期，然后天气才会反转。"
@@ -595,6 +637,7 @@ viVN = "Âm lượng âm thanh (%)"
 
 ["academicunwinds.Rainborn.Settings.Volume.Tooltip"]
 raw = "Volume for the rain loop and thunder one-shot.\n\nStacks with the storm's intensity-based scaling (lighter storms are quieter on their own) and with the game's Environment audio slider. 0 mutes the mod's audio entirely."
+new = "Volume for the rain loop, the thunder one-shot, and the sandstorm loop.\n\nStacks on top of the storm's intensity-based scaling (lighter storms are quieter on their own) and the game's Environment audio slider. 0 mutes the mod's audio entirely."
 status = "normal"
 enUS = "Volume for the rain loop and thunder one-shot.\n\nStacks with the storm's intensity-based scaling (lighter storms are quieter on their own) and with the game's Environment audio slider. 0 mutes the mod's audio entirely."
 zhCN = "“雨循环和雷声单次的音量。\n\n与气候强度相关的音量缩放叠加（较轻的暴风雨本身更安静）以及游戏的环境音频滑块。0 完全静音该模组的音频。”"
@@ -627,6 +670,7 @@ viVN = "Khả năng chịu ngập"
 
 ["academicunwinds.Rainborn.Settings.FloodTolerance.Tooltip"]
 raw = "How much rain water a building can be sitting in before it's flagged as flooded. Only applied during rain events.\n\n0 = vanilla behavior (any water above base triggers flood). Higher values let buildings ignore deeper puddles.\n\nOutside of rain the tolerance is always 0, so river overflows and badtide floods are detected normally."
+new = "How much standing water a building can be sitting in during rain before it gets flagged as flooded. Only applied during rain events.\n\n0 is the vanilla behaviour (any water above the base triggers a flood alert). Higher values let buildings ignore deeper puddles, so a thin film of drizzle does not trip the flood notification.\n\nOutside of rain the tolerance ramps down to 0 over a couple of in-game hours, so river overflows and badtide floods are still detected normally."
 status = "normal"
 enUS = "How much rainwater a building can sit in before it's flagged as flooded. Only applies during rain events.\n\n0 = standard behavior (any water above the base triggers flooding). Higher values allow buildings to ignore deeper puddles.\n\nOutside of rain, the tolerance is always 0, so river overflows and bad tide floods are detected normally."
 zhCN = "“建筑物可以浸泡在多少雨水中才会被标记为洪水。仅在下雨事件中适用。\n\n0 = 原版行为（任何超过基础的水都会触发洪水）。更高的值让建筑物可以忽略较深的积水。\n\n在非雨天，容忍度始终为0，因此河流溢出和潮汐洪水会正常检测。”"
@@ -640,3 +684,83 @@ ptBR = "Qual a quantidade de água da chuva que um edifício pode conter antes d
 koKR = "건물이 침수로 표시되기 전에 얼마나 많은 비가 내려온 물에 잠길 수 있는지를 나타냅니다. 비가 오는 동안에만 적용됩니다.\n\n0 = 기본 동작(기본 수위 위의 물은 침수를 유발합니다). 더 높은 값은 건물이 더 깊은 물웅덩이를 무시하도록 허용합니다.\n\n비가 오지 않는 동안에는 내성이 항상 0이므로, 강의 범람이나 나쁜 조수의 침수는 정상적으로 감지됩니다."
 csCZ = "Kolik dešťové vody může budova snášet, než bude označena jako zaplavená. Platí pouze během dešťových událostí.\n\n0 = chování jako v základní hře (jakákoli voda nad základní úrovní spouští záplavu). Vyšší hodnoty umožňují budovám ignorovat hlubší louže.\n\nMimo období deště je tolerance vždy 0, takže přeplnění řek a povodně způsobené přílivem jsou detekovány normálně."
 viVN = "Cách mà nước mưa có thể tích tụ tại một tòa nhà trước khi nó được đánh dấu là bị ngập. Chỉ áp dụng trong các sự kiện mưa.\n\n0 = hành vi mặc định (mọi nước vượt quá mức cơ bản sẽ kích hoạt ngập). Giá trị cao hơn cho phép các tòa nhà bỏ qua những vũng nước sâu hơn.\n\nNgoài trời, mức độ chịu đựng luôn là 0, vì vậy các tràn bờ sông và ngập do thủy triều xấu được phát hiện một cách bình thường."
+
+["academicunwinds.Rainborn.Settings.SandChance"]
+new = "Sandstorm chance (%)"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandChance.Tooltip"]
+new = "In Random mode, this is the percentage chance the scheduler rolls a sandstorm instead of a rain event. 0 means a pure rain colony; 100 means an arid wasteland with no rain ever. Default 25.\n\nIgnored in Strict and Biased modes (those follow the vanilla cycle bias instead)."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandIntensity"]
+new = "Sandstorm intensity"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandIntensity.Tooltip"]
+new = "Drives how quickly sand piles up on eligible tiles (wind-sheltered downwind of obstacles, or sitting in depressions). Higher values mean visible dunes form during a single storm. Lower values mean dunes only build up across many storms, or never at all on marginal tiles."
+status = "normal"
+
+["academicunwinds.Rainborn.Good.Pickax.DisplayName"]
+new = "Pickaxe"
+status = "normal"
+
+["academicunwinds.Rainborn.Good.Pickax.PluralDisplayName"]
+new = "Pickaxes"
+status = "normal"
+
+["academicunwinds.Rainborn.Good.AdvancedPickax.DisplayName"]
+new = "Advanced Pickaxe"
+status = "normal"
+
+["academicunwinds.Rainborn.Good.AdvancedPickax.PluralDisplayName"]
+new = "Advanced Pickaxes"
+status = "normal"
+
+["academicunwinds.Rainborn.Building.ExcavationFlag.DisplayName"]
+new = "Excavation Flag"
+status = "normal"
+
+["academicunwinds.Rainborn.Building.ExcavationFlag.Description"]
+new = "Mark a terrain block for removal. A builder hauls a pickaxe over and digs the block out. The block becomes loose dirt, which a beaver still has to haul away before the tile is fully clear."
+status = "normal"
+
+["academicunwinds.Rainborn.Building.LooseDirt.DisplayName"]
+new = "Loose Dirt"
+status = "normal"
+
+["academicunwinds.Rainborn.Building.LooseDirt.Description"]
+new = "A terrain block that has been dug loose. Beavers haul it away on their own; the underlying terrain stays clear once they are done."
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.ModEnabled"]
+raw = "Enable Rainborn"
+status = "abandoned"
+enUS = "Enable Rainborn"
+zhCN = "启用雨生"
+zhTW = "啟用學術的雨生"
+ruRU = "Включить Rainborn"
+jaJP = "「Rainbornを有効にする」"
+frFR = "Activer Rainborn"
+deDE = "Rainborn aktivieren"
+plPL = "Włącz Rainborn"
+ptBR = "Ativar Rainborn"
+koKR = "레인본 활성화"
+csCZ = "Povolit Rainborn"
+viVN = "Kích hoạt Rainborn"
+
+["academicunwinds.Rainborn.Settings.ModEnabled.Tooltip"]
+raw = "Master kill-switch. Turn off to immediately end any storm in progress and prevent new ones from rolling. Other settings are kept as-is so you can re-enable later without losing your tuning."
+status = "abandoned"
+enUS = "Master kill-switch. Turn off to immediately end any storm in progress and prevent new ones from occurring. Other settings are kept as-is so you can re-enable later without losing your adjustments."
+zhCN = "“主控制开关。关闭后立即结束当前的风暴并防止新的风暴生成。其他设置保持不变，以便您可以稍后重新启用而不会丢失调整。”"
+zhTW = "主殺開關。關閉後將立即結束任何正在進行的風暴，並防止新的風暴出現。其他設定將保持不變，這樣您可以稍後重新啟用而不會失去您的調整。"
+ruRU = "Главный выключатель. Выключите, чтобы немедленно прекратить любую текущую бурю и предотвратить появление новых. Другие настройки останутся без изменений, чтобы вы могли позже снова включить их, не теряя своих настроек."
+jaJP = "マスターキルスイッチ。これをオフにすると、進行中の嵐を即座に終了し、新しい嵐の発生を防ぎます。他の設定はそのまま保持されるため、調整を失うことなく後で再度有効にすることができます。"
+frFR = "Interrupteur principal. Désactivez-le pour mettre fin immédiatement à toute tempête en cours et empêcher de nouvelles tempêtes de se former. Les autres paramètres restent inchangés afin que vous puissiez les réactiver plus tard sans perdre vos réglages."
+deDE = "Master-Kill-Schalter. Deaktivieren, um sofort einen laufenden Sturm zu beenden und zu verhindern, dass neue entstehen. Andere Einstellungen bleiben unverändert, sodass Sie später ohne Verlust Ihrer Anpassungen erneut aktivieren können."
+plPL = "Master kill-switch. Wyłącz, aby natychmiast przerwać trwającą burzę i zapobiec nadejściu nowych. Inne ustawienia pozostaną takie same, więc możesz je ponownie włączyć później, nie tracąc swoich dostosowań."
+ptBR = "Interruptor mestre. Desative para terminar imediatamente qualquer tempestade em andamento e evitar que novas se formem. Outras configurações permanecem como estão para que você possa reativar mais tarde sem perder seu ajuste."
+koKR = "마스터 킬 스위치. 이를 끄면 진행 중인 폭풍을 즉시 종료하고 새로운 폭풍이 생성되는 것을 방지합니다. 다른 설정은 그대로 유지되므로 나중에 조정을 잃지 않고 다시 활성화할 수 있습니다."
+csCZ = "„Hlavní spínač. Vypněte, abyste okamžitě ukončili jakoukoli probíhající bouři a zabránili novým. Ostatní nastavení zůstávají beze změny, takže je můžete později znovu zapnout, aniž byste přišli o své ladění.“"
+viVN = "Công tắc chính. Tắt nó để ngay lập tức kết thúc bất kỳ cơn bão nào đang diễn ra và ngăn chặn những cơn bão mới xuất hiện. Các cài đặt khác được giữ nguyên để bạn có thể bật lại sau mà không làm mất cài đặt của mình."
