@@ -16,6 +16,7 @@ ptBR = "Trilho de Trem Reto"
 koKR = "직선 기차 트랙"
 csCZ = "Rovný vlakový kolej"
 viVN = "Đường ray tàu thẳng"
+trTR = "Dümdüz Tren Rayı"
 
 ["Tobbert.TrackStraight.Description"]
 raw = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -32,6 +33,7 @@ ptBR = "Um trecho de trilho que vai em linha reta. Pode ser alterado para um sin
 koKR = "직선으로 되어 있는 트랙 조각입니다. 클릭 시 전환을 통해 일방 통행 신호로 변경할 수 있습니다. 색상으로 표시되는 단일 기차가 있을 수 있는 일방 통행 구간을 생성합니다."
 csCZ = "Úsek koleje, který je rovný. Může být změněn na jednosměrný signál pomocí přepínače při kliknutí na něj. Vytváří úsek koleje mezi jednosměrnými, který umožňuje, aby na něm byl pouze jeden vlak (označeno barvami)."
 viVN = "Một đoạn đường ray đi thẳng. Có thể đổi thành tín hiệu một chiều bằng công tắc khi nhấp vào nó. Tạo một đoạn đường ray giữa hai hướng một chiều, cho phép một đoàn tàu duy nhất đi trên nó (được đánh dấu bằng màu sắc)."
+trTR = "Doğru giden bir ray parçası. Üzerine tıklanarak açma kapama düğmesi kullanılarak tek yönlü sinyale dönüştürülebilir. Renklerle gösterilen tek bir trenin üzerinde olmasına izin veren tek yönler arasında bir ray bölümü oluşturur."
 
 ["Tobbert.TrackStraight.FlavorDescription"]
 raw = "Choo! Choo!"
@@ -48,6 +50,7 @@ ptBR = "Tchuu! Tchuu!"
 koKR = "촤촤!"
 csCZ = "Čuu! Čuu!"
 viVN = "Choo! Choo!"
+trTR = "Vrr Vrr!"
 
 ["Tobbert.TrackOneWay.DisplayName"]
 raw = "One way signal Track"
@@ -64,6 +67,7 @@ ptBR = "Faixa de sinal unidirecional"
 koKR = "일방통행 신호 트랙"
 csCZ = "Signaální trať jednosměrná"
 viVN = "Đường ray tín hiệu một chiều"
+trTR = "Tek yön sinyal Yolu"
 
 ["Tobbert.TrackOneWay.Description"]
 raw = "Will tell trains that they can only go through the green side. Can be changed back to a straight track by using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
@@ -80,6 +84,7 @@ ptBR = "Direi aos trens que eles podem passar apenas pelo lado verde. Pode ser r
 koKR = "기차가 초록색 측면으로만 이동할 수 있음을 알립니다. 클릭할 때 토글을 사용하여 직선 트랙으로 되돌릴 수 있습니다. 하나의 기차만 그 위에 있을 수 있도록 하는 일방통행 사이의 트랙 섹션을 생성합니다(색상으로 표시됨)."
 csCZ = "Řekne vlakům, že mohou projíždět pouze zelenou stranou. Lze přepnout zpět na přímou trať pomocí přepínače při kliknutí na ni. Vytváří úsek tratě mezi jednosměrkami, který umožňuje jedinému vlaku se na něm nacházet (označeno barvami)."
 viVN = "Sẽ cho tàu hỏa biết chúng chỉ có thể đi qua phía xanh. Có thể đổi lại thành đường ray thẳng bằng cách sử dụng công tắc khi nhấp vào nó. Tạo một đoạn đường ray giữa các đường một chiều cho phép một tàu hỏa duy nhất ở trên đó (được đánh dấu bằng màu sắc)."
+trTR = "Trenlere sadece yeşil taraftan geçebileceklerini bildirir. Üzerine tıklanarak değiştirilen ayar ile düz bir ray haline geri döndürülebilir. Tek bir trenin üzerine çıkmasına izin veren, tek yönler arasına bir ray kesimi oluşturur (renklerle gösterilir)."
 
 ["Tobbert.TrackOneWay.FlavorDescription"]
 raw = "You... Shall... Pass..."
@@ -96,6 +101,7 @@ ptBR = "Você... Passará..."
 koKR = "너... 지나가야... 한다..."
 csCZ = "Ty... Můžeš... Přejít..."
 viVN = "Ngươi... sẽ... vượt qua..."
+trTR = "Geçersiniz..."
 
 ["Tobbert.TrackCrossing.DisplayName"]
 raw = "Train Track Crossing"
@@ -112,6 +118,7 @@ ptBR = "Cruzamento de Trilhos de Trem"
 koKR = "기차 선로 교차로"
 csCZ = "Železniční přejezd"
 viVN = "Ngã tư đường sắt"
+trTR = "Demiryolu Geçidi"
 
 ["Tobbert.TrackCrossing.Description"]
 raw = "Beavers can cross the tracks here. Collision will not be implemented as performance will suffer too much."
@@ -128,6 +135,7 @@ ptBR = "Os castores podem atravessar os trilhos aqui. A colisão não será impl
 koKR = "비버는 여기서 선로를 가로지를 수 있습니다. 충돌은 구현되지 않으며, 성능이 너무 저하될 것입니다."
 csCZ = "Bobři mohou tady překračovat trať. Kolize nebude implementována, protože by to mělo příliš velký dopad na výkon."
 viVN = "Hải ly có thể băng qua đường ray tàu hỏa ở đây. Va chạm sẽ không được triển khai vì hiệu suất sẽ bị ảnh hưởng quá nhiều."
+trTR = "Alageyiklerin burada rayların üzerinden geçmesine izin verilir. Çarpışma uygulanmayacak, çünkü performans çok fazla etkilenir."
 
 ["Tobbert.TrackCrossing.FlavorDescription"]
 raw = "That train is approaching very fa-"
@@ -144,6 +152,7 @@ ptBR = "Aquele trem está se aproximando muito rápido."
 koKR = "그 기차가 매우 빠르게 다가오고 있어-"
 csCZ = "Ten vlak se blíží velmi rychle-"
 viVN = "Đoàn tàu đó đang tiến tới rất fa-"
+trTR = "Tren çok hızlı yaklaşıyor-"
 
 ["Tobbert.TrackHillStart.DisplayName"]
 raw = "Slope Track"
@@ -160,6 +169,7 @@ ptBR = "Pista de Inclinação"
 koKR = "경사선"
 csCZ = "Skladovací trať"
 viVN = "Đường ray dốc"
+trTR = "Eğim Yolu"
 
 ["Tobbert.TrackHillStart.Description"]
 raw = "A track that lets trains go up and down."
@@ -176,6 +186,7 @@ ptBR = "Uma pista que permite que trens subam e desçam."
 koKR = "기차가 위아래로 이동할 수 있는 트랙입니다."
 csCZ = "Trať, která umožňuje vláčkům jezdit nahoru a dolů."
 viVN = "Một đoạn đường ray cho phép tàu đi lên và xuống."
+trTR = "Trenlerin yukarı ve aşağı gitmesini sağlayan bir ray."
 
 ["Tobbert.TrackHillStart.FlavorDescription"]
 raw = "Is the train not to heavy?"
@@ -192,6 +203,7 @@ ptBR = "O trem não é muito pesado?"
 koKR = "기차가 너무 무겁지 않나요?"
 csCZ = "Není vlak příliš těžký?"
 viVN = "Tàu hỏa có quá nặng không?"
+trTR = "Tren çok mu ağır değil?"
 
 ["Tobbert.TrackCorner1x1.DisplayName"]
 raw = "Corner 1x1 Train Track"
@@ -208,6 +220,7 @@ ptBR = "Trilho de Trem de Canto 1x1"
 koKR = "코너 1x1 기차 트랙"
 csCZ = "Roh 1x1 železniční tratě"
 viVN = "Đường ray tàu hỏa góc 1x1"
+trTR = "Köşe 1x1 Tren Yolu"
 
 ["Tobbert.TrackCorner1x1.Description"]
 raw = "A Track Piece that around a corner."
@@ -224,6 +237,7 @@ ptBR = "Uma peça de trilho que contorna uma esquina."
 koKR = "모퉁이를 도는 트랙 조각."
 csCZ = "Úseky kolejí, které vedou kolem zatáčky."
 viVN = "Một đoạn đường ray quanh một góc."
+trTR = "Bir köşe etrafında dönen bir ray parçası."
 
 ["Tobbert.TrackCorner1x1.FlavorDescription"]
 raw = "Might be a little tight."
@@ -240,6 +254,7 @@ ptBR = "Pode ser um pouco apertado."
 koKR = "조금 비좁을 수도 있습니다."
 csCZ = "Může to být trochu stísněné."
 viVN = "Có thể hơi chật."
+trTR = "Biraz dar olabilir."
 
 ["Tobbert.TrackCorner2x2.DisplayName"]
 raw = "Corner 2x2 Train Track"
@@ -256,6 +271,7 @@ ptBR = "Trilho de Trem de Canto 2x2"
 koKR = "모서리 2x2 기차 트랙"
 csCZ = "Rohová dráha 2x2"
 viVN = "Đường ray tàu hỏa góc 2x2"
+trTR = "Köşe 2x2 Tren Yolu"
 
 ["Tobbert.TrackCorner2x2.Description"]
 raw = "A Track Piece that around a larger corner."
@@ -272,6 +288,7 @@ ptBR = "Uma peça de trilho que contorna uma curva maior."
 koKR = "더 큰 모퉁이를 둘러싼 트랙 조각."
 csCZ = "Úsekový díl, který se ohýbá kolem většího rohu."
 viVN = "Một đoạn đường ray đi quanh một góc lớn hơn."
+trTR = " Daha büyük bir köşeyi çevreleyen bir ray parçası."
 
 ["Tobbert.TrackCorner2x2.FlavorDescription"]
 raw = "What a nice looking curve."
@@ -288,6 +305,7 @@ ptBR = "Que curva bonita."
 koKR = "정말 멋진 곡선이네."
 csCZ = "Jaká hezká křivka."
 viVN = "Thật là một đường cong đẹp mắt."
+trTR = "Ne kadar güzel bir kavis."
 
 ["Tobbert.TrackTIntersection1x1.DisplayName"]
 raw = "T intersection Train Track 1x1"
@@ -304,6 +322,7 @@ ptBR = "Interseção em T Trilho de Trem 1x1"
 koKR = "T형 교차로 기차 선로 1x1"
 csCZ = "T křižovatka vlakové trati 1x1"
 viVN = "Đường ray chữ T 1x1"
+trTR = "T kesiti Tren Yolu 1x1"
 
 ["Tobbert.TrackTIntersection1x1.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -320,6 +339,7 @@ ptBR = "Uma interseção em forma de T para trens."
 koKR = "기차를 위한 T자 형태의 교차로."
 csCZ = "Křížení ve tvaru T pro vlaky."
 viVN = "Một ngã tư hình chữ T dành cho tàu hỏa."
+trTR = "Trenler için T şeklinde bir kesişim."
 
 ["Tobbert.TrackTIntersection1x1.FlavorDescription"]
 raw = "Which way should I go?"
@@ -336,6 +356,7 @@ ptBR = "Qual caminho eu devo seguir?"
 koKR = "어느 쪽으로 가야 할까요?"
 csCZ = "Kam bych měl jít?"
 viVN = "Tôi nên đi theo hướng nào?"
+trTR = "Hangisi yöne gitmeliyim?"
 
 ["Tobbert.TrackTIntersection2x3.DisplayName"]
 raw = "T intersection Train Track 2x3"
@@ -352,6 +373,7 @@ ptBR = "T interseção Trilha de Trem 2x3"
 koKR = "T자 교차로 기차 트랙 2x3"
 csCZ = "T křižovatka vlakové trati 2x3"
 viVN = "Đường ray tàu hỏa hình chữ T 2x3"
+trTR = "T kesişim Tren Yolu 2x3"
 
 ["Tobbert.TrackTIntersection2x3.Description"]
 raw = "A intersection in the form of a T for trains."
@@ -368,6 +390,7 @@ ptBR = "Uma interseção em forma de T para trens."
 koKR = "기차를 위한 T자 형태의 교차로."
 csCZ = "Křižovatka ve tvaru T pro vlaky."
 viVN = "Một ngã tư chữ T dành cho tàu hỏa."
+trTR = "Trenler için T şeklinde bir kesişim."
 
 ["Tobbert.TrackTIntersection2x3.FlavorDescription"]
 raw = "Where will those paths lead to?"
@@ -384,6 +407,7 @@ ptBR = "Para onde aqueles caminhos levarão?"
 koKR = "그 길들은 어디로 이어질까요?"
 csCZ = "Kam povedou tyto cesty?"
 viVN = "Những con đường ấy sẽ dẫn tới đâu?"
+trTR = "Bu yollar nereye gidecek?"
 
 ["Tobbert.TrackXIntersection1x1.DisplayName"]
 raw = "X intersection Train Track 1x1"
@@ -400,6 +424,7 @@ ptBR = "X interseção Trilho do Trem 1x1"
 koKR = "X 교차로 기차 선로 1x1"
 csCZ = "X křížení vlakové trati 1x1"
 viVN = "Giao điểm X của đường ray tàu hỏa 1x1"
+trTR = "X kesişimi Tren Yolu 1x1"
 
 ["Tobbert.TrackXIntersection1x1.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -416,6 +441,7 @@ ptBR = "Uma interseção em forma de X para trens."
 koKR = "기차를 위한 X형 교차로입니다."
 csCZ = "Křižovatka ve tvaru X pro vlaky."
 viVN = "Một giao lộ hình chữ X dành cho tàu hỏa."
+trTR = "Trenler için X şeklinde bir kavşak."
 
 ["Tobbert.TrackXIntersection1x1.FlavorDescription"]
 raw = "So many options!"
@@ -432,6 +458,7 @@ ptBR = "Tantas opções!"
 koKR = "많은 선택지!"
 csCZ = " tolik možností!"
 viVN = "Có quá nhiều lựa chọn!"
+trTR = "Bu kadar çok seçenek!"
 
 ["Tobbert.TrackXIntersection3x3.DisplayName"]
 raw = "X intersection Train Track 3x3"
@@ -448,6 +475,7 @@ ptBR = "X interseção Trilho do Trem 3x3"
 koKR = "X 교차로 기차 선로 3x3"
 csCZ = "X křížení železniční trati 3x3"
 viVN = "Đường ray tàu hỏa giao nhau hình X 3x3"
+trTR = "X kesişim Tren Yolu 3x3"
 
 ["Tobbert.TrackXIntersection3x3.Description"]
 raw = "A intersection in the form of a X for trains."
@@ -464,6 +492,7 @@ ptBR = "Uma interseção na forma de um X para trens."
 koKR = "기차용 X자 형태의 교차로입니다."
 csCZ = "Intersece ve tvaru X pro vlaky."
 viVN = "Một giao cắt hình chữ X dành cho tàu."
+trTR = "Trenler için X şeklinde bir kesişim."
 
 ["Tobbert.TrackXIntersection3x3.FlavorDescription"]
 raw = "I just cannot choose where to go..."
@@ -480,6 +509,7 @@ ptBR = "Eu simplesmente não consigo escolher para onde ir..."
 koKR = "어디로 가야 할지 도무지 선택할 수가 없어요..."
 csCZ = "Jednoduše nemohu rozhodnout, kam jít..."
 viVN = "Tôi thực sự không thể quyết định đi đâu..."
+trTR = "Tam olarak nereye gideceğime karar veremiyorum..."
 
 ["Tobbert.TrackRIntersection2x3.DisplayName"]
 raw = "Switch Train Track 2x3"
@@ -496,6 +526,7 @@ ptBR = "Trocar Trilhos do Trem 2x3"
 koKR = "스위치 기차 트랙 2x3"
 csCZ = "Přepínač železniční trati 2x3"
 viVN = "Chuyển đường ray tàu hỏa 2x3"
+trTR = "Vagon Yolu Anahtar 2x3"
 
 ["Tobbert.TrackRIntersection2x3.Description"]
 raw = "A switch in the form of a R for trains."
@@ -512,6 +543,7 @@ ptBR = "Um desvios na forma de uma R para trens."
 koKR = "기차용 R 형태의 스위치입니다."
 csCZ = "Výhybka ve tvaru R pro vlaky."
 viVN = "Một điểm rẽ có hình chữ R dành cho tàu hỏa."
+trTR = "Trenler için bir R şeklinde bir anahtar."
 
 ["Tobbert.TrackRIntersection2x3.FlavorDescription"]
 raw = "Where R we going?"
@@ -528,6 +560,7 @@ ptBR = "Para onde estamos indo?"
 koKR = "우리는 어디로 가고 있나요?"
 csCZ = "Kam jdeme?"
 viVN = "Chúng ta đi đâu đây?"
+trTR = "Nereye gidiyoruz?"
 
 ["Tobbert.GoodsStation.DisplayName"]
 raw = "Goods station"
@@ -544,6 +577,7 @@ ptBR = "Estação de carga"
 koKR = "물류역"
 csCZ = "Železniční stanice zboží"
 viVN = "Trạm hàng hóa"
+trTR = "Mal istasyonu"
 
 ["Tobbert.GoodsStation.Description"]
 raw = "Allows for transportation of goods by trains. A good can either be send or received at a station. Goods received will only be moved to storages that are set to obtain."
@@ -560,6 +594,7 @@ ptBR = "Permite o transporte de mercadorias por trens. Uma mercadoria pode ser e
 koKR = "기차를 통한 물품 운송을 허용합니다. 물품은 역에서 발송되거나 수신될 수 있습니다. 수신된 물품은 설정된 저장소로만 이동됩니다."
 csCZ = "Umožňuje přepravu zboží vlakem. Zboží může být buď odesláno, nebo přijato na stanici. Přijaté zboží bude přesunuto pouze do skladů, které jsou nastaveny na příjem."
 viVN = "Cho phép vận chuyển hàng hóa bằng tàu hỏa. Một kiện hàng có thể được gửi hoặc nhận tại một ga. Hàng hóa nhận được sẽ chỉ được di chuyển đến các kho được đặt để nhận."
+trTR = "Trenler ile malların taşınmasına olanak tanır. Bir mal ya bir istasyona gönderilir ya da bir istasyondan alınır. Alınan mallar yalnızca almak üzere ayarlanmış depolara taşınacaktır."
 
 ["Tobbert.GoodsStation.FlavorDescription"]
 raw = "Look at all the goods it can hold."
@@ -576,6 +611,7 @@ ptBR = "Veja todos os bens que ele pode conter."
 koKR = "저것이 얼마나 많은 물건을 담을 수 있는지 보세요."
 csCZ = "Podívejte se na všechny zboží, která může pojmout."
 viVN = "Xem tất cả các hàng hóa mà nó có thể chứa."
+trTR = "Ne kadar çok malzeme taşıyabileceğine bak."
 
 ["Tobbert.PassengerStation.DisplayName"]
 raw = "Passenger station"
@@ -592,6 +628,7 @@ ptBR = "Estação de passageiros"
 koKR = " passenger station"
 csCZ = "Nádraží pro cestující"
 viVN = "Ga hành khách"
+trTR = "Yolcu istasyonu"
 
 ["Tobbert.PassengerStation.Description"]
 raw = "This stations allows beavers to get on the train and travel to another station that are connected to each other."
@@ -608,6 +645,7 @@ ptBR = "Esta estação permite que os castores embarquem no trem e viajem para o
 koKR = "이 역은 비버들이 기차에 타고 서로 연결된 다른 역으로 여행할 수 있게 해줍니다."
 csCZ = "Tato stanice umožňuje bobrům nastoupit na vlak a cestovat na jinou stanici, která jsou vzájemně propojené."
 viVN = "Trạm này cho phép những chú hải ly lên tàu và di chuyển đến một trạm khác được kết nối với nhau."
+trTR = "Bu istasyon, kunduzların trene binip birbirine bağlı olan diğer istasyonlara seyahat etmelerini sağlar."
 
 ["Tobbert.PassengerStation.FlavorDescription"]
 raw = "Beaver train!"
@@ -624,6 +662,7 @@ ptBR = "Trem do castor!"
 koKR = "비버 기차!"
 csCZ = "Bobří vlak!"
 viVN = "Tàu hải ly!"
+trTR = "Samur treni!"
 
 ["Tobbert.PassengerStation.DistrictObjectToggle"]
 raw = "Goes across districts:"
@@ -640,6 +679,7 @@ ptBR = "Cruza distritos:"
 koKR = "구역을 가로지릅니다:"
 csCZ = "Prochází okresy:"
 viVN = "Đi qua các khu vực:"
+trTR = "Bölgelere geçiş yapar:"
 
 ["Tobbert.PassengerStation.DistrictObject"]
 raw = "When enabled will ONLY allow beavers to go passenger stations that also have this setting enabled and are in other districts."
@@ -656,6 +696,7 @@ ptBR = "Quando ativado, permitirá que apenas castores acessem estações de pas
 koKR = "활성화되면 이 설정이 활성화되고 다른 구역에 있는 여객역으로만 비버가 이동할 수 있습니다."
 csCZ = "Při aktivaci to umožní pouze bobrům navštěvovat nádraží, která mají také toto nastavení povolené a nacházejí se v jiných okresech."
 viVN = "Khi được bật, sẽ CHỈ cho các hải ly đi tới các trạm hành khách mà cài đặt này cũng được bật và nằm ở các khu vực khác."
+trTR = "Etkinleştirildiğinde, sadece bu ayar etkin olan ve diğer bölgelerde bulunan yolcu istasyonlarına kunduzların gitmesine izin verecektir."
 
 ["Tobbert.PassengerStation.EmptyStation"]
 raw = "There are currently no passengers waiting."
@@ -672,6 +713,7 @@ ptBR = "Atualmente, não há passageiros esperando."
 koKR = "현재 대기 중인 승객이 없습니다."
 csCZ = "V současné době nečekají žádní pasažéři."
 viVN = "Hiện tại không có hành khách nào đang chờ."
+trTR = "Şu anda bekleyen yolcu yok."
 
 ["Tobbert.WaitingStation.DisplayName"]
 raw = "Waiting Station"
@@ -688,6 +730,7 @@ ptBR = "Estação de Espera"
 koKR = "대기소"
 csCZ = "Čekací stanice"
 viVN = "Trạm chờ"
+trTR = "Bekleme İstasyonu"
 
 ["Tobbert.WaitingStation.Description"]
 raw = "Trains can wait here when they have nothing to do. This prevents trains from occupying the tracks. Trains cannot pathfind over this, so make sure its not in any crucial paths."
@@ -704,6 +747,7 @@ ptBR = "Os trens podem esperar aqui quando não têm nada a fazer. Isso evita qu
 koKR = "기차는 할 일이 없을 때 여기에서 대기할 수 있습니다. 이는 기차가 트랙을 점유하지 않도록 방지합니다. 기차는 이 위를 경로 탐색할 수 없으므로, 중요한 경로에 위치하지 않도록 하세요."
 csCZ = "Vlakům se zde umožňuje čekat, když nemají co dělat. To zabraňuje vlakům obsazovat koleje. Vlakům se přes to nedá projít, takže se ujistěte, že to není v žádných důležitých cestách."
 viVN = "Tàu hỏa có thể đợi ở đây khi chúng không có việc gì để làm. Điều này ngăn tàu hỏa chiếm dụng đường ray. Tàu hỏa không thể tìm đường đi qua khu vực này, vì vậy hãy đảm bảo khu vực này không nằm trên bất kỳ tuyến đường quan trọng nào."
+trTR = "Trenler burada bekleyebilirler, eğer yapacak bir işleri yoksa. Bu, trenlerin rayları kaplamasını engeller. Trenler buradan yol almaz, bu yüzden bunun kritik yolların üzerinde olmadığından emin olun."
 
 ["Tobbert.WaitingStation.FlavorDescription"]
 raw = "When can I go again?"
@@ -720,6 +764,7 @@ ptBR = "Quando posso ir de novo?"
 koKR = "다시 언제 갈 수 있지?"
 csCZ = "Kdy mohu jít znovu?"
 viVN = "Khi nào tôi có thể đi tiếp?"
+trTR = "Bir daha ne zaman gidebilirim?"
 
 ["Tobbert.TrainYard.DisplayName"]
 raw = "Train Yard"
@@ -736,6 +781,7 @@ ptBR = "Pátio de Carga"
 koKR = "기차 마당"
 csCZ = "Železniční dvůr"
 viVN = "Bãi tàu hỏa"
+trTR = "Tren Garı"
 
 ["Tobbert.TrainYard.Description"]
 raw = "A building that creates trains."
@@ -752,6 +798,7 @@ ptBR = "Um edifício que cria trens."
 koKR = "기차를 만드는 건물입니다."
 csCZ = "Budova, která vytváří vlaky."
 viVN = "Một công trình sản xuất tàu hỏa."
+trTR = "Tren üreten bir bina."
 
 ["Tobbert.TrainYard.FlavorDescription"]
 raw = "This is where trains are born."
@@ -768,6 +815,7 @@ ptBR = "É aqui que os trens nascem."
 koKR = "여기가 기차가 태어나는 곳입니다."
 csCZ = "Tady se rodí vlaky."
 viVN = "Đây là nơi những đoàn tàu được sinh ra."
+trTR = "Trenlerin doğduğu yerdir."
 
 ["Tobbert.TrainYard.CostOfTrain"]
 raw = "Cost of 1 train:"
@@ -784,6 +832,7 @@ ptBR = "Custo de 1 trem:"
 koKR = "기차 1대의 비용:"
 csCZ = "Cena 1 vlaku:"
 viVN = "Chi phí cho 1 đoàn tàu:"
+trTR = "1 trenin maliyeti:"
 
 ["Tobbert.TrainYard.CreateTrain"]
 raw = "Build train"
@@ -800,6 +849,7 @@ ptBR = "Construir trem"
 koKR = "기차 건설"
 csCZ = "Postavit vlak"
 viVN = "Xây dựng tàu hỏa"
+trTR = "Tren inşa et"
 
 ["Tobbert.Train.PrefabName"]
 raw = "Train"
@@ -816,6 +866,7 @@ ptBR = "Trem"
 koKR = "기차"
 csCZ = "Vlak"
 viVN = "Tàu hỏa"
+trTR = "Tren"
 
 ["Tobbert.Wagon.PrefabName"]
 raw = "Wagon"
@@ -832,6 +883,7 @@ ptBR = "Vagão"
 koKR = "마차"
 csCZ = "Vůz"
 viVN = "Toa tàu"
+trTR = "Vagon"
 
 ["Tobbert.TrainModel.TrainModel"]
 raw = "Train Model:"
@@ -848,6 +900,7 @@ ptBR = "Modelo de Trem:"
 koKR = "기차 모델:"
 csCZ = "Model vlaku:"
 viVN = "Kiểu tàu:"
+trTR = "Tren Modeli:"
 
 ["Tobbert.TrainModel.SmallLog"]
 raw = "Small Log"
@@ -864,6 +917,7 @@ ptBR = "Pequeno Logradouro"
 koKR = "작은 통나무"
 csCZ = "Malá kláda"
 viVN = "Khúc gỗ nhỏ"
+trTR = "Küçük Kütük"
 
 ["Tobbert.TrainModel.BigWooden"]
 raw = "Big Wooden"
@@ -880,6 +934,7 @@ ptBR = "Grande Madeira"
 koKR = "큰 나무"
 csCZ = "Velký dřevěný"
 viVN = "Gỗ To"
+trTR = "Büyük Ahşap"
 
 ["Tobbert.WagonModel.WagonModel"]
 raw = "Wagon Model:"
@@ -896,6 +951,7 @@ ptBR = "Modelo de vagão:"
 koKR = "짐차 모델:"
 csCZ = "Model vozu:"
 viVN = "Mẫu toa tàu:"
+trTR = "Vagon Modeli:"
 
 ["Tobbert.WagonModel.BoxWagon"]
 raw = "Box Wagon"
@@ -912,6 +968,7 @@ ptBR = "Carroça de Carga"
 koKR = "박스 짐마차"
 csCZ = "Bednový vůz"
 viVN = "Toa hộp"
+trTR = "Kutu Vagonu"
 
 ["Tobbert.WagonModel.TankWagon"]
 raw = "Tank Wagon"
@@ -928,6 +985,7 @@ ptBR = "Caminhão-tanque"
 koKR = "탱크 수송차"
 csCZ = "Nádržkový vůz"
 viVN = "Toa Xe Bồn"
+trTR = "Tank Vagonu"
 
 ["Tobbert.WagonModel.FlatWagon"]
 raw = "Flat Wagon"
@@ -944,6 +1002,7 @@ ptBR = "Vagão Plano"
 koKR = "평평한 마차"
 csCZ = "Plochý Vůz"
 viVN = "Toa chở hàng phẳng"
+trTR = "Yassı Vagon"
 
 ["Tobbert.WagonModel.FlipperWagon"]
 raw = "Gondola Wagon"
@@ -960,6 +1019,7 @@ ptBR = "Vagão Gôndola"
 koKR = "곤돌라 마차"
 csCZ = "Gondolový vagon"
 viVN = "Toa Gondola"
+trTR = "Gondol Vagonu"
 
 ["Tobbert.WagonModel.MetalCart"]
 raw = "Metal Cart"
@@ -976,6 +1036,7 @@ ptBR = "Carrinho de Metal"
 koKR = "금속 카트"
 csCZ = "Metalový vůz"
 viVN = "Xe kim loại"
+trTR = "Metal Araba"
 
 ["Tobbert.WagonModel.PassengerWagon"]
 raw = "Passenger Wagon"
@@ -992,6 +1053,7 @@ ptBR = "Vagão de Passageiros"
 koKR = "승객 차량"
 csCZ = "Cestovní vůz"
 viVN = "Toa hành khách"
+trTR = "Yolcu Vagonu"
 
 ["Tobbert.BatchControl.Trains"]
 raw = "Trains"
@@ -1008,6 +1070,7 @@ ptBR = "Trens"
 koKR = "기차"
 csCZ = "Vláčky"
 viVN = "Tàu hỏa"
+trTR = "Trenler"
 
 ["Tobbert.Train.Length"]
 raw = "Train Length:"
@@ -1024,6 +1087,7 @@ ptBR = "Comprimento do Trem:"
 koKR = "기차 길이:"
 csCZ = "Délka vlaku:"
 viVN = "Chiều dài đoàn tàu:"
+trTR = "Tren Uzunluğu:"
 
 ["Tobbert.Train.Destroy"]
 raw = "Are you sure you want to destroy this train?"
@@ -1040,6 +1104,7 @@ ptBR = "Você tem certeza de que deseja destruir este trem?"
 koKR = "이 기차를 파괴하시겠습니까?"
 csCZ = "Jste si jisti, že chcete zničit tento vlak?"
 viVN = "Bạn có chắc chắn muốn phá hủy tàu hỏa này không?"
+trTR = "Bu treni yok etmek istediğinizden emin misiniz?"
 
 ["Tobbert.GoodsStation.Distribution.Header"]
 raw = "Distributed goods"
@@ -1056,6 +1121,7 @@ ptBR = "Produtos distribuídos"
 koKR = "분배된 상품"
 csCZ = "Distribuované zboží"
 viVN = "Hàng hóa được phân phối"
+trTR = "Dağıtılan mallar"
 
 ["Tobbert.GoodsStation.Distribution.Disabled.Info"]
 raw = "Distribution disabled by distribution settings."
@@ -1072,6 +1138,7 @@ ptBR = "Distribuição desativada pelas configurações de distribuição."
 koKR = "배급 설정에 의해 배급이 비활성화되었습니다."
 csCZ = "Distribuce zakázána nastavením distribuce."
 viVN = "Phân phối bị vô hiệu bởi cài đặt phân phối."
+trTR = "Dağıtım ayarları tarafından dağıtım devre dışı bırakıldı."
 
 ["Tobbert.GoodsStation.Distribution.Sending.Info"]
 raw = "Distribution set to sending by distribution settings."
@@ -1088,6 +1155,7 @@ ptBR = "Distribuição definida para envio por configurações de distribuição
 koKR = "배포 설정에 따라 전송으로 설정됨."
 csCZ = "Distribuce nastavena na odesílání podle distribučních nastavení."
 viVN = "Phân phối được thiết lập để gửi theo cài đặt phân phối."
+trTR = "Dağıtım ayarlarıyla gönderime ayarlandı."
 
 ["Tobbert.GoodsStation.Distribution.Receiving.Info"]
 raw = "Distribution set to receiving by distribution settings."
@@ -1104,6 +1172,7 @@ ptBR = "Distribuição definida para recebimento pelas configurações de distri
 koKR = "배급 설정에 따라 수령으로 설정됨."
 csCZ = "Distribuce nastavena na příjem podle distribučních nastavení."
 viVN = "Phân phối được đặt ở chế độ nhận theo cài đặt phân phối."
+trTR = "Dağıtım ayarları tarafından alım olarak ayarlandı."
 
 ["Tobbert.BatchControl.GoodsStation"]
 raw = "Goods stations"
@@ -1120,6 +1189,7 @@ ptBR = "Estações de carga"
 koKR = "물품역"
 csCZ = "Zbožové stanice"
 viVN = "Trạm hàng hóa"
+trTR = "Mal istasyonları"
 
 ["Tobbert.BatchControl.DistributionDisabledAll"]
 raw = "Disable all distribution"
@@ -1136,6 +1206,7 @@ ptBR = "Desativar toda a distribuição"
 koKR = "모든 배포 비활성화"
 csCZ = "Zakažte veškerou distribuci"
 viVN = "Vô hiệu hóa tất cả các phân phối"
+trTR = "Tüm dağıtımı devre dışı bırak"
 
 ["Tobbert.BatchControl.DistributionDisabled"]
 raw = "Distribution disabled"
@@ -1152,6 +1223,7 @@ ptBR = "Distribuição desativada"
 koKR = "배포 비활성화"
 csCZ = "Distribuce zakázána"
 viVN = "Phân phối bị vô hiệu hóa"
+trTR = "Dağıtım devre dışı"
 
 ["Tobbert.BatchControl.DistributionDisabled.Description"]
 raw = "Completely disable the distribution of this good at this station."
@@ -1168,6 +1240,7 @@ ptBR = "Desative completamente a distribuição deste produto nesta estação."
 koKR = "이 시설에서 이 상품의 배급을 완전히 비활성화합니다."
 csCZ = "Úplně zakázat distribuci tohoto zboží na této stanici."
 viVN = "Hoàn toàn vô hiệu hóa việc phân phối mặt hàng này tại trạm này."
+trTR = "Bu istasyondaki bu malın dağıtımını tamamen devre dışı bırak."
 
 ["Tobbert.BatchControl.DistributionSendingAll"]
 raw = "Allow sending of all goods"
@@ -1184,6 +1257,7 @@ ptBR = "Permitir o envio de todas as mercadorias"
 koKR = "모든 상품 발송 허용"
 csCZ = "Povolit odesílání všech zboží"
 viVN = "Cho phép gửi tất cả hàng hóa"
+trTR = "Tüm malların gönderilmesine izin ver"
 
 ["Tobbert.BatchControl.DistributionSending"]
 raw = "Allow sending"
@@ -1200,6 +1274,7 @@ ptBR = "Permitir envio"
 koKR = "전송 허용"
 csCZ = "Povolit odesílání"
 viVN = "Cho phép gửi"
+trTR = "Gönderime izin ver"
 
 ["Tobbert.BatchControl.DistributionSending.Description"]
 raw = "Station can send this good to other station. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -1216,6 +1291,7 @@ ptBR = "A estação pode enviar este produto para outra estação. A quantidade 
 koKR = "이 역은 이 물품을 다른 역으로 보낼 수 있습니다. 역 내부에 있을 수 있는 최대 수량은 오른쪽에 있는 수량에 의해 결정됩니다."
 csCZ = "Stanice může posílat tento zdroj na jinou stanici. Maximální množství, které může být uvnitř stanice, je určeno množstvím vpravo."
 viVN = "Trạm có thể gửi hàng hóa này tới trạm khác. Số lượng tối đa có thể chứa trong trạm được xác định bởi số lượng ở phía bên phải."
+trTR = "İstasyon, bu malı diğer istasyonlara gönderebilir. İstasyonda bulunabilecek maksimum miktar, sağdaki miktar tarafından belirlenir."
 
 ["Tobbert.BatchControl.DistributionReceivingAll"]
 raw = "Allow receiving of all goods"
@@ -1232,6 +1308,7 @@ ptBR = "Permitir o recebimento de todos os produtos"
 koKR = "모든 물품 수령 허용"
 csCZ = "Povolit přijímání všech zboží"
 viVN = "Cho phép nhận tất cả hàng hóa"
+trTR = "Tüm malların alınmasına izin ver"
 
 ["Tobbert.BatchControl.DistributionReceiving"]
 raw = "Allow receiving"
@@ -1248,6 +1325,7 @@ ptBR = "Permitir recebimento"
 koKR = "수신 허용"
 csCZ = "Povolit přijímání"
 viVN = "Cho phép nhận"
+trTR = "Alım izni ver"
 
 ["Tobbert.BatchControl.DistributionReceiving.Description"]
 raw = "Station can receive this good that are sent from other stations. The maximum amount that can be inside the station is determined by the amount to the right."
@@ -1264,6 +1342,7 @@ ptBR = "A estação pode receber esses bens que são enviados de outras estaçõ
 koKR = "이 역은 다른 역에서 보내는 이 물품을 받을 수 있습니다. 역 안에 들어올 수 있는 최대 양은 오른쪽의 양에 의해 결정됩니다."
 csCZ = "Stanice může přijímat tento zboží, které je posíláno z jiných stanic. Maximální množství, které může být uvnitř stanice, je určeno množstvím vpravo."
 viVN = "Trạm có thể nhận mặt hàng này được gửi từ các trạm khác. Số lượng tối đa có thể chứa bên trong trạm được xác định bởi số lượng ở phía bên phải."
+trTR = "İstasyon, diğer istasyonlardan gönderilen bu ürünü alabilir. İstasyon içinde bulunabilecek maksimum miktar, sağdaki miktar ile belirlenir."
 
 ["Tobbert.BatchControl.DecreaseMaximum"]
 raw = "Decrease max amount of goods"
@@ -1280,6 +1359,7 @@ ptBR = "Diminuir a quantidade máxima de mercadorias"
 koKR = "최대 물품 수량 줄이기"
 csCZ = "Snížit maximální množství zboží"
 viVN = "Giảm số lượng hàng hóa tối đa"
+trTR = "Malzeme maksimum miktarını azalt"
 
 ["Tobbert.BatchControl.DecreaseMaximum.Description"]
 raw = "Decrease the maximum amount that can be inside the station. Click is -1 and holding shift is -10. Max capacity is 200."
@@ -1296,6 +1376,7 @@ ptBR = "Diminua a quantidade máxima que pode estar dentro da estação. Clicar 
 koKR = "정거장 내부에 있을 수 있는 최대 수량을 감소시킵니다. 클릭 시 -1, Shift 키를 누르고 있으면 -10이 감소합니다. 최대 용량은 200입니다."
 csCZ = "Snížit maximální počet, který může být uvnitř stanice. Kliknutí je -1 a stisknutí klávesy Shift je -10. Maximální kapacita je 200."
 viVN = "Giảm số lượng tối đa có thể ở trong trạm. Nhấp chuột là -1 và giữ phím Shift là -10. Dung lượng tối đa là 200."
+trTR = "İstasyon içinde olabilecek maksimum miktarı azaltın. Tıklamak -1'dir, shift tuşuna basılı tutmak ise -10'dur. Maksimum kapasite 200'dür."
 
 ["Tobbert.BatchControl.IncreaseMaximum"]
 raw = "Increase max amount of goods"
@@ -1312,6 +1393,7 @@ ptBR = "Aumentar a quantidade máxima de mercadorias"
 koKR = "최대 자산 수량 증가"
 csCZ = "Zvýšit maximální množství zboží"
 viVN = "Tăng tối đa số lượng hàng hóa"
+trTR = "Malzeme maksimum miktarını artır"
 
 ["Tobbert.BatchControl.IncreaseMaximum.Description"]
 raw = "Increase the maximum amount that can be inside the station. Click is +1 and holding shift is +10. Max capacity is 200."
@@ -1328,6 +1410,7 @@ ptBR = "Aumente a quantidade máxima que pode estar dentro da estação. Clicar 
 koKR = "정거장 내부에 들어갈 수 있는 최대 양을 늘립니다. 클릭 시 +1, Shift를 누르고 있을 때 +10입니다. 최대 용량은 200입니다."
 csCZ = "Zvyšte maximální množství, které může být uvnitř stanice. Kliknutí je +1 a držení klávesy shift je +10. Maximální kapacita je 200."
 viVN = "Tăng số lượng tối đa có thể ở bên trong trạm. Nhấp chuột để tăng +1 và giữ phím Shift để tăng +10. Sức chứa tối đa là 200."
+trTR = "İstasyon içinde bulunabilecek maksimum miktarı artırın. Tıklamak +1 ve Shift'e basılı tutmak +10'dur. Maksimum kapasite 200'dür."
 
 ["Tobbert.TrackSystem.ToggleSectionDivider"]
 raw = "Divides sections:"
@@ -1344,6 +1427,7 @@ ptBR = "Divide seções:"
 koKR = "구역 나누기:"
 csCZ = "Rozděluje sekce:"
 viVN = "Chia các phần:"
+trTR = "Bölümleri ayırır:"
 
 ["Tobbert.TrackSystem.ButtonChangeDirection"]
 raw = "Change direction"
@@ -1360,6 +1444,7 @@ ptBR = "Mude de direção"
 koKR = "방향 변경"
 csCZ = "Změnit směr"
 viVN = "Đổi hướng"
+trTR = "Yönü değiştir"
 
 ["Tobbert.TrackSystem.CollidingSectionDividers"]
 raw = "Cannot connect 2 Section Dividers"
@@ -1376,6 +1461,7 @@ ptBR = "Não é possível conectar 2 divisores de seção."
 koKR = "두 개의 섹션 구분자를 연결할 수 없습니다"
 csCZ = "Nelze připojit 2 oddělovače sekcí"
 viVN = "Không thể kết nối 2 thanh phân đoạn"
+trTR = "2 Bölüm Bölücü bağlanamıyor"
 
 ["Tobbert.ToolGroup.Trains"]
 raw = "Trains"
@@ -1392,6 +1478,7 @@ ptBR = "Trens"
 koKR = "기차"
 csCZ = "Vlaky"
 viVN = "Tàu hỏa"
+trTR = "Trenler"
 
 ["Tobbert.TrainYard.PreviewErrorMessage"]
 raw = "Only 1 Train Yard can be build"
@@ -1408,6 +1495,7 @@ ptBR = "Somente 1 Pátio de Trem pode ser construído."
 koKR = "기차 마당은 하나만 건설할 수 있습니다."
 csCZ = "Fabrika na vlaky může být postavena pouze jedna"
 viVN = "Chỉ có thể xây dựng 1 sân ga tàu."
+trTR = "Yalnızca 1 Tren Garı inşa edilebilir"
 
 ["Tobbert.Trains.UnlockPrompt"]
 raw = "You need to unlock {0} to build {1}."
@@ -1424,6 +1512,7 @@ ptBR = "Você precisa desbloquear {0} para construir {1}."
 koKR = "{0}를 잠금 해제해야 {1}을(를) 건설할 수 있습니다."
 csCZ = "Musíte odemknout {0}, abyste mohli postavit {1}."
 viVN = "Bạn cần mở khóa {0} để xây dựng {1}."
+trTR = "{1} inşa etmek için {0}'ı açmanız gerekiyor."
 
 ["Tobbert.DistributionTrain.MinimumOfItemsToMove"]
 raw = "Minimum of items to move:"
@@ -1440,6 +1529,7 @@ ptBR = "Mínimo de itens a serem movidos:"
 koKR = "이동할 항목의 최소 수:"
 csCZ = "Minimální počet položek k přesunu:"
 viVN = "Số lượng tối thiểu của các vật phẩm để di chuyển:"
+trTR = "Taşınacak minimum eşya sayısı:"
 
 ["Tobbert.TrainNavigation.Unstuck"]
 raw = "Turn Around"
@@ -1456,6 +1546,7 @@ ptBR = "Vire-se"
 koKR = "돌아가다"
 csCZ = "Obrat se"
 viVN = "Quay đầu"
+trTR = "U dönüşü yap"
 
 ["Tobbert.TrainNavigation.NoWaitingStation"]
 raw = "No available Waiting Station found."
@@ -1472,6 +1563,7 @@ ptBR = "Nenhuma Estação de Espera disponível encontrada."
 koKR = "사용 가능한 대기소를 찾을 수 없습니다."
 csCZ = "Nepodařilo se najít žádnou dostupnou čekací stanici."
 viVN = "Không có trạm chờ nào có sẵn."
+trTR = "Mevcut bekleme istasyonu bulunmamaktadır."
 
 ["Tobbert.TrainNavigation.NoWaitingStationShort"]
 raw = "No Waiting Station"
@@ -1488,6 +1580,7 @@ ptBR = "Estação Sem Espera"
 koKR = "대기소 없음"
 csCZ = "Žádná čekací stanice"
 viVN = "Không có ga chờ"
+trTR = "Bekleme İstasyonu Yok"
 
 ["Tobbert.TrainDestination.UnconnectedWarning"]
 raw = "Station is not connected to any other station."
@@ -1504,6 +1597,7 @@ ptBR = "A estação não está conectada a nenhuma outra estação."
 koKR = "역이 다른 어떤 역과도 연결되어 있지 않습니다."
 csCZ = "Stanice není spojena s žádnou jinou stanicí."
 viVN = "Ga này không được kết nối với ga nào khác."
+trTR = "İstasyon başka bir istasyona bağlı değil."
 
 ["Tobbert.TrainDestination.UnconnectedWarningShort"]
 raw = "Unconnected station"
@@ -1520,6 +1614,7 @@ ptBR = "Estação desconectada"
 koKR = "연결되지 않은 정류장"
 csCZ = "Odpojená stanice"
 viVN = "Ga chưa kết nối"
+trTR = "Bağlantısız istasyon"
 
 ["Tobbert.ChooChooSettings.Header"]
 raw = "Choo! Choo!"
@@ -1536,6 +1631,7 @@ ptBR = "Tchu! Tchu!"
 koKR = "투! 투!"
 csCZ = "Choo! Choo!"
 viVN = "Choo! Choo!"
+trTR = "Choo! Choo!"
 
 ["Tobbert.ChooChooSettings.DefaultTrainModel"]
 raw = "Default Train model:"
@@ -1552,6 +1648,7 @@ ptBR = "Modelo de trem padrão:"
 koKR = "기본 기차 모델:"
 csCZ = "Výchozí model vlaku:"
 viVN = "Mô hình tàu hỏa mặc định:"
+trTR = "Varsayılan Tren modeli:"
 
 ["Tobbert.ChooChooSettings.DefaultWagonModel"]
 raw = "Default Wagon model:"
@@ -1568,6 +1665,7 @@ ptBR = "Modelo padrão de caminhão:"
 koKR = "기본 마차 모델:"
 csCZ = "Výchozí model vagónu:"
 viVN = "Mô hình toa tàu mặc định:"
+trTR = "Varsayılan Vagon modeli:"
 
 ["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
 raw = "Choo! Choo!"
@@ -1584,6 +1682,7 @@ ptBR = "Tô! Tô!"
 koKR = "치르릉! 치르릉!"
 csCZ = "Choo! Choo!"
 viVN = "Huýt! Huýt!"
+trTR = "Çuf! Çuf!"
 
 ["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
 raw = "Open Goods Stations tab"
@@ -1600,3 +1699,4 @@ ptBR = "Abra a aba Estações de Bens"
 koKR = "상품 역 탭 열기"
 csCZ = "Otevřít kartu Zbožových stanic"
 viVN = "Mở tab Trạm hàng hóa"
+trTR = "Mal İstasyonları sekmesini aç"

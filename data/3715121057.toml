@@ -16,6 +16,7 @@ ptBR = "Mover"
 koKR = "이동"
 csCZ = "Přesunout"
 viVN = "Di chuyển"
+trTR = "Taşı"
 
 ["MoveBuildings.ToolDescription"]
 raw = "Relocate a placed building to a new tile. Inventory and workers are preserved."
@@ -32,6 +33,7 @@ ptBR = "Relocar um edifício construído para um novo tile. O inventário e os t
 koKR = "배치된 건물을 새로운 타일로 옮깁니다. 장비와 작업자는 유지됩니다."
 csCZ = "Přemístěte umístěnou budovu na novou dlaždici. Inventář a pracovníci jsou zachováni."
 viVN = "Di chuyển một công trình đã đặt đến một ô mới. Kho hàng và công nhân được bảo tồn."
+trTR = "Yerleştirilmiş bir binayı yeni bir karoya taşıyın. Envanter ve işçiler korunur."
 
 ["MoveBuildings.Tooltip.Pick"]
 raw = "Click a building to move"
@@ -48,6 +50,7 @@ ptBR = "Click em um edifício para mover"
 koKR = "건물을 클릭하여 이동하세요"
 csCZ = "Klikněte na budovu, kterou chcete přesunout."
 viVN = "Nhấn vào một công trình để di chuyển"
+trTR = "Taşınacak bir binaya tıklayın"
 
 ["MoveBuildings.Tooltip.Place"]
 raw = "Click a valid tile to place"
@@ -64,6 +67,7 @@ ptBR = "Clique em um tile válido para colocar"
 koKR = "유효한 타일을 클릭하여 배치하세요."
 csCZ = "Klikněte na platnou dlaždici pro umístění"
 viVN = "Nhấn vào một ô hợp lệ để đặt"
+trTR = "Yerleştirmek için geçerli bir karoya tıklayın"
 
 ["MoveBuildings.Tooltip.InvalidLinked"]
 raw = "Linked buildings cannot be moved"
@@ -80,6 +84,7 @@ ptBR = "Edifícios vinculados não podem ser movidos"
 koKR = "연결된 건물은 이동할 수 없습니다"
 csCZ = "Propojené budovy nelze přesunout"
 viVN = "Các tòa nhà liên kết không thể di chuyển"
+trTR = "Bağlı binalar taşınamaz"
 
 ["MoveBuildings.Tooltip.InvalidPath"]
 raw = "Paths cannot be moved"
@@ -96,6 +101,7 @@ ptBR = "Os caminhos não podem ser movidos"
 koKR = "경로는 이동할 수 없습니다"
 csCZ = "Cesty nelze přesunout"
 viVN = "Không thể di chuyển đường đi"
+trTR = "Yollar taşınamaz"
 
 ["MoveBuildings.Tooltip.InvalidBlocked"]
 raw = "Target tile is occupied"
@@ -112,6 +118,7 @@ ptBR = "O tile alvo está ocupado"
 koKR = "대상 타일이 점유되어 있습니다"
 csCZ = "Cílová dlaždice je obsazena"
 viVN = "Ô mục tiêu đang bị chiếm dụng"
+trTR = "Hedef karo dolu"
 
 ["MoveBuildings.Tooltip.InvalidDistrictCenter"]
 raw = "District centers use their own relocate option"
@@ -128,6 +135,7 @@ ptBR = "Os centros de distrito usam sua própria opção de realocação"
 koKR = "구역 중심지는 자체 이전 옵션을 사용합니다"
 csCZ = "Okresní centra používají svou vlastní možnost přemístění"
 viVN = "Các trung tâm quận sử dụng tùy chọn di chuyển riêng của chúng"
+trTR = "Semt merkezleri kendi taşınma seçeneklerini kullanır"
 
 ["MoveBuildings.Tooltip.InvalidPreview"]
 raw = "Unplaced previews cannot be moved"
@@ -144,6 +152,7 @@ ptBR = "Pré-visualizações não colocadas não podem ser movidas"
 koKR = "배치되지 않은 미리보기는 이동할 수 없습니다"
 csCZ = "Nepoložené náhledy nelze přesunout"
 viVN = "Không thể di chuyển các bản xem trước chưa đặt"
+trTR = "Yerleştirilmemiş önizlemeler taşınamaz"
 
 ["MoveBuildings.Tooltip.InvalidUnplaceable"]
 raw = "This building has no placement data"
@@ -160,6 +169,7 @@ ptBR = "Este edifício não possui dados de colocação"
 koKR = "이 건물에는 배치 데이터가 없습니다"
 csCZ = "Tato budova nemá žádná data o umístění"
 viVN = "Công trình này không có dữ liệu đặt"
+trTR = "Bu yapının yerleştirme verisi yok"
 
 ["MoveBuildings.Tooltip.InvalidUnderConstruction"]
 raw = "Under-construction buildings cannot be moved"
@@ -176,6 +186,7 @@ ptBR = "Edifícios em construção não podem ser movidos"
 koKR = "건설 중인 건물은 이동할 수 없습니다"
 csCZ = "Nepřesouvání budov ve výstavbě"
 viVN = "Các công trình đang xây dựng không thể di chuyển"
+trTR = "İnşaat halindeki binalar taşınamaz"
 
 ["MoveBuildings.Tooltip.InvalidNoDistrict"]
 raw = "Building has no district to charge"
@@ -192,6 +203,7 @@ ptBR = "A construção não tem distrito para cobrar"
 koKR = "건물에 청구할 구역이 없습니다"
 csCZ = "Budova nemá okrsek, za který by mohla být účtována"
 viVN = "Công trình không có khu vực nào để tính phí"
+trTR = "Bina, ücretlendirmek için bir bölgeye sahip değil"
 
 ["MoveBuildings.Tooltip.InvalidNotEnoughResources"]
 raw = "Not enough resources in district"
@@ -208,6 +220,7 @@ ptBR = "Recursos insuficientes na região"
 koKR = "구역에 자원이 부족합니다"
 csCZ = "Nedostatek zdrojů v okrese"
 viVN = "Không đủ tài nguyên trong khu vực"
+trTR = "Bölgede yeterli kaynak yok"
 
 ["MoveBuildings.Toast.MovedFormat"]
 raw = "Moved {0}"
@@ -224,6 +237,7 @@ ptBR = "Movido {0}"
 koKR = "이동됨 {0}"
 csCZ = "Přesunuto {0}"
 viVN = "Đã di chuyển {0}"
+trTR = "{0} Taşındı"
 
 ["MoveBuildings.Toast.MovedFreeFormat"]
 raw = "Moved {0}"
@@ -240,6 +254,7 @@ ptBR = "Movido {0}"
 koKR = "이동 완료: {0}"
 csCZ = "Přesunuto {0}"
 viVN = "Đã di chuyển {0}"
+trTR = "Taşındı {0}"
 
 ["MoveBuildings.Toast.MovedWithCostFormat"]
 raw = "Moved {0} - charged {1}"
@@ -256,6 +271,7 @@ ptBR = "Movido {0} - cobrado {1}"
 koKR = "이동된 {0} - 비용 {1} 부과"
 csCZ = "Premístěno {0} - účtováno {1}"
 viVN = "Di chuyển {0} - tính phí {1}"
+trTR = "Taşındı {0} - ücretlendirildi {1}"
 
 ["MoveBuildings.Cost.Header"]
 raw = "Move cost"
@@ -272,6 +288,7 @@ ptBR = "Custo de movimento"
 koKR = "이동 비용"
 csCZ = "Náklady na přesun"
 viVN = "Chi phí di chuyển"
+trTR = "Taşıma maliyeti"
 
 ["MoveBuildings.Cost.RefundHeader"]
 raw = "Refund"
@@ -288,6 +305,7 @@ ptBR = "Reembolso"
 koKR = "환불"
 csCZ = "Vrátit"
 viVN = "Hoàn tiền"
+trTR = "İade"
 
 ["MoveBuildings.Cost.NetHeader"]
 raw = "Net cost"
@@ -304,6 +322,7 @@ ptBR = "Custo líquido"
 koKR = "순비용"
 csCZ = "Čisté náklady"
 viVN = "Chi phí ròng"
+trTR = "Net maliyet"
 
 ["MoveBuildings.Cost.Free"]
 raw = "Free move (full refund)"
@@ -320,6 +339,7 @@ ptBR = "Mudança gratuita (reembolso total)"
 koKR = "무료 이동(전액 환불)"
 csCZ = "Bezplatný přesun (plná náhrada)"
 viVN = "Di chuyển miễn phí (hoàn lại đầy đủ)"
+trTR = "Ücretsiz taşıma (tam geri ödeme)"
 
 ["MoveBuildings.Cost.Missing"]
 raw = "Missing: {0}"
@@ -336,3 +356,4 @@ ptBR = "Faltando: {0}"
 koKR = "누락됨: {0}"
 csCZ = "Chybí: {0}"
 viVN = "Thiếu: {0}"
+trTR = "Eksik: {0}"

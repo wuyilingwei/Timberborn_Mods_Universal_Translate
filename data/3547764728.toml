@@ -16,6 +16,7 @@ ptBR = "TImprovement 4 UX"
 koKR = "TImprove 4 UX\"의 번역: \"T개선 4 UX"
 csCZ = "TImprove 4 UX"
 viVN = "TImprove 4 UX"
+trTR = "TImprove 4 UX"
 
 ["LV.T4UX.UndoHotkey"]
 raw = "Undo building"
@@ -32,6 +33,7 @@ ptBR = "Desfazer construção"
 koKR = "건물 되돌리기"
 csCZ = "Vrátit stavbu"
 viVN = "Hoàn tác xây dựng"
+trTR = "İnşaatı geri al"
 
 ["LV.T4UX.ShiftToDelete"]
 raw = "Shift to delete"
@@ -48,6 +50,7 @@ ptBR = "Pressione Shift para deletar"
 koKR = "삭제하려면 Shift 키를 누르세요"
 csCZ = "Shift pro smazání"
 viVN = "Nhấn Shift để xóa"
+trTR = "Silmek için kaydırın"
 
 ["LV.T4UX.ShiftToDeleteDesc"]
 raw = "Hold the Alternate Action (default Shift) while choosing building tool\nto delete this kind of building instead"
@@ -64,6 +67,7 @@ ptBR = "Segure a Ação Alternativa (Shift por padrão) enquanto escolhe a ferra
 koKR = "이 종류의 건물을 삭제하려면 건축 도구를 선택하는 동안 대체 작업(기본 Shift)을 누르고 있어야 합니다."
 csCZ = "Podržte alternativní akci (výchozí Shift) při výběru nástroje na stavění, \nabyste místo toho odstranili tento typ budovy."
 viVN = "Giữ hành động thay thế (mặc định là Shift) khi chọn công cụ xây dựng\nđể xóa loại công trình này thay vì loại khác"
+trTR = "Bu tür bir binayı silmek için bina aracını seçerken Alternatif Eylemi (varsayılan Shift) basılı tutun."
 
 ["LV.T4UX.ShiftToDeleteAll"]
 raw = "Delete all kinds of buildings"
@@ -80,6 +84,7 @@ ptBR = "Excluir todos os tipos de edifícios"
 koKR = "모든 종류의 건물 삭제"
 csCZ = "Smazat všechny druhy budov"
 viVN = "Xóa tất cả các loại công trình"
+trTR = "Tüm bina türlerini sil"
 
 ["LV.T4UX.ShiftToDeleteAllDesc"]
 raw = "While holding the Alternate Action, delete all kinds of buildings instead of just this kind"
@@ -96,6 +101,7 @@ ptBR = "Segurando a Ação Alternativa, delete todos os tipos de edifícios em v
 koKR = "대체 행동을 유지하는 동안 이 종류뿐만 아니라 모든 종류의 건물을 삭제합니다."
 csCZ = " při držení Alternativní akce odstraňte všechny typy budov místo pouze tohoto typu"
 viVN = "Trong khi giữ Hành động thay thế, xóa tất cả các loại công trình thay vì chỉ loại này"
+trTR = "Alternatif Eylemi basılı tutarken, yalnızca bu tür yerine tüm bina türlerini sil."
 
 ["LV.T4UX.ConfirmUndo"]
 raw = "Some buildings were already in progress or done, are you sure you want to undo the building?"
@@ -112,6 +118,7 @@ ptBR = "Alguns edifícios já estavam em andamento ou concluídos, você tem cer
 koKR = "일부 건물이 이미 진행 중이거나 완료되었습니다. 건설을 되돌리시겠습니까?"
 csCZ = "Některé budovy byly již ve výstavbě nebo dokončeny, jsi si jistý, že chceš stavbu zrušit?"
 viVN = "Một số công trình đang được tiến hành hoặc đã hoàn thành, bạn có chắc chắn muốn hoàn tác công trình không?"
+trTR = "Birçok bina zaten inşaat aşamasındaydı veya tamamlandı, gerçekten inşaatı geri almak istiyor musunuz?"
 
 ["LV.T4UX.RecentToolHotkey"]
 raw = "Recent tool"
@@ -128,6 +135,7 @@ ptBR = "Ferramenta recente"
 koKR = "최근 도구"
 csCZ = "Nedávný nástroj"
 viVN = "Công cụ gần đây"
+trTR = "Son araç"
 
 ["LV.T4UX.UndoCount"]
 raw = "Undo count"
@@ -144,6 +152,7 @@ ptBR = "Contagem de desfazer"
 koKR = "되돌리기 횟수"
 csCZ = "Počet zpětných kroků"
 viVN = "Số lần hoàn tác"
+trTR = "İptal sayısı"
 
 ["LV.T4UX.UndoCountDesc"]
 raw = "How many Undo building action you can perform in a row"
@@ -160,6 +169,7 @@ ptBR = "Quantas ações de construção Desfazer você pode realizar em sequênc
 koKR = "연속으로 수행할 수 있는 건물 철회 행동의 횟수"
 csCZ = "Kolik zrušení stavebních akcí můžete provést za sebou"
 viVN = "Số lần Hoàn tác hành động xây dựng mà bạn có thể thực hiện liên tiếp"
+trTR = "Arka arkaya kaç tane yapıyı geri alma eylemi gerçekleştirebileceğin"
 
 ["LV.T4UX.UndoEmpty"]
 raw = "No more undo actions available"
@@ -176,6 +186,7 @@ ptBR = "Nenhuma ação de desfazer disponível"
 koKR = "더 이상 실행할 수 있는 실행 취소 작업이 없습니다."
 csCZ = "Není k dispozici žádná další akce zpět"
 viVN = "Không còn thao tác hoàn tác nào nữa."
+trTR = "Artık geri alma işlemi mevcut değil"
 
 ["LV.T4UX.CollapseEntityPanel"]
 raw = "Collapsible entity panels"
@@ -192,6 +203,7 @@ ptBR = "Painéis de entidades colapsáveis"
 koKR = "접을 수 있는 개체 패널"
 csCZ = "Skladovací panely entit"
 viVN = "Các panel thực thể có thể thu gọn"
+trTR = "Katlanabilir varlık panelleri"
 
 ["LV.T4UX.CollapseEntityPanelDesc"]
 raw = "Make the entity panels (the info panels to the right when you select a building) collapsible.\nCan only be changed from the Main Menu"
@@ -208,6 +220,7 @@ ptBR = "Faça os painéis de entidade (os painéis de informações à direita q
 koKR = "엔티티 패널(건물을 선택했을 때 오른쪽에 표시되는 정보 패널)을 접을 수 있게 만듭니다. 메인 메뉴에서만 변경할 수 있습니다."
 csCZ = "Umožněte zhroutit panely entit (informační panely vpravo, když vyberete budovu). \nLze změnit pouze z hlavního menu."
 viVN = "Làm cho các bảng thực thể (các bảng thông tin ở bên phải khi bạn chọn một tòa nhà) có thể thu gọn.\nChỉ có thể được thay đổi từ Menu Chính"
+trTR = "Varlık panellerini (bir bina seçtiğinizde sağda görünen bilgi panelleri) daraltılabilir hale getirin. Sadece Ana Menü'den değiştirilebilir."
 
 ["LV.T4UX.CollapseEntityPanelGlobal"]
 raw = "Global collapse state"
@@ -224,6 +237,7 @@ ptBR = "Estado de colapso global"
 koKR = "전체 붕괴 상태"
 csCZ = "Globální stav kolapsu"
 viVN = "Trạng thái thu gọn toàn cục"
+trTR = "Küresel çökme durumu"
 
 ["LV.T4UX.CollapseEntityPanelGlobalDesc"]
 raw = "Make the collapse state saved globally instead of per save"
@@ -240,6 +254,7 @@ ptBR = "Faça com que o estado de colapso seja salvo globalmente em vez de por s
 koKR = "붕괴 상태를 저장할 때마다가 아닌 전체적으로 저장되도록 합니다."
 csCZ = "Uložení stavu sbalení globálně místo pro každé uložení"
 viVN = "Lưu trạng thái thu gọn ở cấp toàn cầu thay vì theo từng bản lưu."
+trTR = "Çökme durumunu her kayıttan bağımsız olarak genel olarak kaydet."
 
 ["LV.T4UX.ShowDynamiteDestruction"]
 raw = "Show Dynamite destruction"
@@ -256,6 +271,7 @@ ptBR = "Mostrar destruição de dinamite"
 koKR = "다이너마이트 파괴 표시"
 csCZ = "Zobrazit zničení dynamitem"
 viVN = "Hiển thị phá hủy bằng thuốc nổ"
+trTR = "Dinamit yıkımını göster"
 
 ["LV.T4UX.ShowDynamiteDestructionDesc"]
 raw = "Show the terrain and buildings that would be destroyed when selecting a Dynamite.\nIf you have Multi-directional Dynamite mod enabled, this option is not needed and that mod would enable this option always."
@@ -272,6 +288,7 @@ ptBR = "Mostre o terreno e os edifícios que seriam destruídos ao selecionar um
 koKR = "다이너마이트를 선택할 때 파괴될 지형과 건물을 표시합니다. \n다방향 다이너마이트 모드가 활성화되어 있으면 이 옵션은 필요하지 않으며, 해당 모드가 항상 이 옵션을 활성화합니다."
 csCZ = "Zobrazit terén a budovy, které by byly zničeny při výběru Dynamitu. Pokud máte povolený modul Multi-directional Dynamite, tato možnost není potřebná a tento modul tuto možnost vždy aktivuje."
 viVN = "Hiển thị địa hình và các công trình sẽ bị phá hủy khi chọn thuốc nổ.\nNếu bạn đã kích hoạt mod Thuốc nổ đa hướng, tùy chọn này sẽ không cần thiết và mod đó sẽ luôn bật tùy chọn này."
+trTR = "Dinamiti seçtiğinizde yok edilecek arazi ve binaları gösterin. Eğer Çok Yönlü Dinamit modunu etkinleştirdiyseniz, bu seçenek gerekli değildir ve o mod bu seçeneği her zaman etkinleştirir."
 
 ["LV.T4UX.UpdateText1020"]
 raw = "- Added a new option: 'Add hourly production time' to add 'x/h' info in the Recipe details."
@@ -288,6 +305,7 @@ ptBR = "- Adicionada uma nova opção: 'Adicionar tempo de produção por hora' 
 koKR = "- 레시피 세부정보에 'x/h' 정보를 추가하기 위한 새로운 옵션: '시간당 생산 시간 추가'를 추가했습니다."
 csCZ = "- Přidána nová možnost: 'Přidat hodinovou výrobní dobu' pro přidání informace 'x/h' do podrobností receptu."
 viVN = "- Thêm một tùy chọn mới: 'Thêm thời gian sản xuất theo giờ' để thêm thông tin 'x/h' trong chi tiết Công thức."
+trTR = "- Yeni bir seçenek eklendi: Tarife detaylarına 'x/h' bilgisi eklemek için 'Saatlik üretim süresi ekle'."
 
 ["LV.T4UX.WorkerIdleWarning"]
 raw = "Warning about idle workers"
@@ -304,6 +322,7 @@ ptBR = "Aviso sobre trabalhadores ociosos"
 koKR = "대기 중인 작업자에 대한 경고"
 csCZ = "Varování o nečinných pracovnících"
 viVN = "Cảnh báo về công nhân nhàn rỗi"
+trTR = "Tembel işçiler hakkında uyarı"
 
 ["LV.T4UX.WorkerIdleWarningDesc"]
 raw = "Add a warning when a worker has no work to do at a workplace"
@@ -320,6 +339,7 @@ ptBR = "Adicionar um aviso quando um trabalhador não tiver trabalho a fazer em 
 koKR = "작업자가 작업장에 할 일이 없을 때 경고를 추가하십시오."
 csCZ = "Přidejte varování, když zaměstnanec nemá žádnou práci na pracovišti."
 viVN = "Thêm cảnh báo khi công nhân không có việc để làm tại nơi làm việc"
+trTR = "Bir iş yerinde çalışacak işi olmayan bir işçi için bir uyarı ekleyin"
 
 ["LV.T4UX.WorkerIdleWarningDisable"]
 raw = "Disable idle warning for all {0}"
@@ -336,6 +356,7 @@ ptBR = "Desativar aviso de inatividade para todos os {0}"
 koKR = "모든 {0}에 대한 대기 경고 비활성화"
 csCZ = "Zakázat varování o nečinnosti pro všechny {0}"
 viVN = "Vô hiệu hóa cảnh báo nhàn rỗi cho tất cả {0}"
+trTR = "Tüm {0} için bekleme uyarısını devre dışı bırak"
 
 ["LV.T4UX.WorkerIdleStatus"]
 raw = "There are workers with nothing to do"
@@ -352,6 +373,7 @@ ptBR = "Há trabalhadores sem nada para fazer"
 koKR = "할 일이 없는 근로자가 있습니다"
 csCZ = "Jsou zde pracovníci, kteří nemají co dělat"
 viVN = "Có công nhân không có việc gì để làm"
+trTR = "Yapacak hiçbir şeyi olmayan işçiler var"
 
 ["LV.T4UX.WorkerIdleStatusShort"]
 raw = "Idle worker"
@@ -368,6 +390,7 @@ ptBR = "Trabalhador ocioso"
 koKR = "대기 중인 작업자"
 csCZ = "Nečinný pracovník"
 viVN = "Công nhân rảnh"
+trTR = "Boşta çalışan"
 
 ["LV.T4UX.CopyHotkey"]
 raw = "Copy building"
@@ -384,6 +407,7 @@ ptBR = "Copiar construção"
 koKR = "건물 복사"
 csCZ = "Kopírovat budovu"
 viVN = "Sao chép công trình"
+trTR = "Bina kopyala"
 
 ["LV.T4UX.RotateCordinalLeft"]
 raw = "Cardinal Rotate Left"
@@ -400,6 +424,7 @@ ptBR = "Rotação Cardinal para Esquerda"
 koKR = "좌회전하는 기본 방향"
 csCZ = "Kardinální otočení doleva"
 viVN = "Xoay trái Cardinal"
+trTR = "İkincil Sola Döndür"
 
 ["LV.T4UX.RotateCordinalRight"]
 raw = "Cardinal Rotate Right"
@@ -416,6 +441,7 @@ ptBR = "Rotação Cardinal à Direita"
 koKR = "북극 시계 방향 회전"
 csCZ = "Kardinální otáčení doprava"
 viVN = "Xoay phải các hướng tứ phương"
+trTR = "Kardinal Sağa Döndür"
 
 ["LV.T4UX.ReverseProductionTime"]
 raw = "Add hourly production time"
@@ -432,6 +458,7 @@ ptBR = "Adicionar tempo de produção por hora"
 koKR = "시간당 생산 시간 추가"
 csCZ = "Přidat hodinový čas produkce"
 viVN = "Thêm thời gian sản xuất hàng giờ"
+trTR = "Saatlik üretim süresi ekle"
 
 ["LV.T4UX.ReverseProductionTimeDesc"]
 raw = "Add hourly consumption and production time to the Recipe details."
@@ -448,6 +475,7 @@ ptBR = "Adicionar consumo horário e tempo de produção aos detalhes da Receita
 koKR = "레시피 세부정보에 시간당 소비 및 생산 시간을 추가합니다."
 csCZ = "Přidejte hodinovou spotřebu a výrobní čas do podrobností receptu."
 viVN = "Thêm thời gian tiêu thụ và sản xuất theo giờ vào chi tiết Công thức."
+trTR = "Tarif detaylarına saatlik tüketim ve üretim süresi ekleyin."
 
 [Name_AdjustableStrengthPowerGeneratorFragment]
 raw = "Dev Power Generator"
@@ -464,6 +492,7 @@ ptBR = "Gerador de Potência de Desenvolvimento"
 koKR = "개발자 전력 생성기"
 csCZ = "Výkonný generátor"
 viVN = "Máy Phát Điện Dev"
+trTR = "Dev Güç Jeneratörü"
 
 [Name_AdulthoodFragment]
 raw = "Adulthood"
@@ -480,6 +509,7 @@ ptBR = "Idade Adulta"
 koKR = "성년기"
 csCZ = "Dospělost"
 viVN = "Trưởng thành"
+trTR = "Erişkinlik"
 
 [Name_AttractionFragment]
 raw = "Visitors"
@@ -496,6 +526,7 @@ ptBR = "Visitantes"
 koKR = "방문객"
 csCZ = "Návštěvníci"
 viVN = "Khách tham quan"
+trTR = "Ziyaretçiler"
 
 [Name_AttractionLoadRateFragment]
 raw = "Popularity"
@@ -512,6 +543,7 @@ ptBR = "Popularidade"
 koKR = "인기도"
 csCZ = "Oblíbenost"
 viVN = "Độ phổ biến"
+trTR = "Popülerlik"
 
 [Name_BatteryFragment]
 raw = "Battery"
@@ -528,6 +560,7 @@ ptBR = "Bateria"
 koKR = "배터리"
 csCZ = "Baterie"
 viVN = "Ắc quy"
+trTR = "Pil"
 
 [Name_BeaverBuildingsFragment]
 raw = "Related Buildings"
@@ -544,6 +577,7 @@ ptBR = "Edifícios Relacionados"
 koKR = "관련 건물"
 csCZ = "Související budovy"
 viVN = "Các công trình liên quan"
+trTR = "İlgili Binalar"
 
 [Name_BehaviorManagerDebugFragment]
 raw = "Behavior Debug"
@@ -560,6 +594,7 @@ ptBR = "Depuração de Comportamento"
 koKR = "행동 디버그"
 csCZ = "Debug chování"
 viVN = "Gỡ lỗi hành vi"
+trTR = "Davranış Hata Ayıklama"
 
 [Name_BonusManagerDebugFragment]
 raw = "Bonus Debug"
@@ -576,6 +611,7 @@ ptBR = "Depuração de Bônus"
 koKR = "보너스 디버그"
 csCZ = "Debug bonus"
 viVN = "Gỡ lỗi phần thưởng"
+trTR = "Bonus Hatası"
 
 [Name_BreedingPodFragment]
 raw = "Breeding Pod"
@@ -592,6 +628,7 @@ ptBR = "Reprodutor de Biomas"
 koKR = "번식 포드"
 csCZ = "Chovatelský modul"
 viVN = "Buồng sinh sản"
+trTR = "Üreme Modülü"
 
 [Name_BuildingHPFragment]
 raw = "Building HP"
@@ -608,6 +645,7 @@ ptBR = "HP da Construção"
 koKR = "건물 HP"
 csCZ = "HP budovy"
 viVN = "Độ bền tòa nhà"
+trTR = "Bina HP"
 
 [Name_CharacterControlFragment]
 raw = "Character Control Debug"
@@ -624,6 +662,7 @@ ptBR = "Depuração de Controle de Personagem"
 koKR = "캐릭터 제어 디버그"
 csCZ = "Debug ovládání postavy"
 viVN = "Gỡ Lỗi Điều Khiển Nhân Vật"
+trTR = "Karakter Kontrol Hatası Ayıklama"
 
 [Name_ConstructionSiteDebugFragment]
 raw = "Construction Debug"
@@ -640,6 +679,7 @@ ptBR = "Depuração de Construção"
 koKR = "건설 디버그"
 csCZ = "Debug stavby"
 viVN = "Gỡ lỗi xây dựng"
+trTR = "İnşaat Hatası Ayıklama"
 
 [Name_ConstructionSiteFragment]
 raw = "Construction Site"
@@ -656,6 +696,7 @@ ptBR = "Canteiro de Obras"
 koKR = "건설 현장"
 csCZ = "Stavební místo"
 viVN = "Công trường"
+trTR = "İnşaat Alanı"
 
 [Name_DemolishableFragment]
 raw = "Demolition"
@@ -672,6 +713,7 @@ ptBR = "Demolição"
 koKR = "철거"
 csCZ = "Demolice"
 viVN = "Phá hủy"
+trTR = "Yıkım"
 
 [Name_DemolishablePriorityFragment]
 raw = "Demolition Priority"
@@ -688,6 +730,7 @@ ptBR = "Prioridade de Demolição"
 koKR = "철거 우선 순위"
 csCZ = "Priorita demolice"
 viVN = "Ưu tiên phá dỡ"
+trTR = "Yıkım Önceliği"
 
 [Name_DeteriorableDebugFragment]
 raw = "Decay Debug"
@@ -704,6 +747,7 @@ ptBR = "Depuração de Degradação"
 koKR = "부패 디버그"
 csCZ = "Debug rozpad"
 viVN = "Gỡ lỗi phân hủy"
+trTR = "Bozulma Hatası"
 
 [Name_DeteriorableFragment]
 raw = "Durability"
@@ -720,6 +764,7 @@ ptBR = "Durabilidade"
 koKR = "내구성"
 csCZ = "Trvanlivost"
 viVN = "Độ bền"
+trTR = "Dayanıklılık"
 
 [Name_DistrictCenterFragment]
 raw = "District Center"
@@ -736,6 +781,7 @@ ptBR = "Centro do Distrito"
 koKR = "구역 센터"
 csCZ = "Okresní centrum"
 viVN = "Trung tâm quận"
+trTR = "Bölge Merkezi"
 
 [Name_DistrictCrossingInventoryFragment]
 raw = "Crossing Inventory"
@@ -752,6 +798,7 @@ ptBR = "Inventário de Cruzamento"
 koKR = "교차 재고"
 csCZ = "Inventář průchodu"
 viVN = "Kho Ngã Tư"
+trTR = "Geçiş Envanteri"
 
 [Name_DwellingDebugFragment]
 raw = "Dwelling Debug"
@@ -768,6 +815,7 @@ ptBR = "Depuração de Habitação"
 koKR = "거주지 디버그"
 csCZ = "Debug obydlí"
 viVN = "Gỡ lỗi chỗ ở"
+trTR = "Yerleşim Hatası"
 
 [Name_DwellingUserFragment]
 raw = "Residents"
@@ -784,6 +832,7 @@ ptBR = "Residentes"
 koKR = "거주자"
 csCZ = "Obyvatelé"
 viVN = "Cư dân"
+trTR = "Sakinler"
 
 [Name_DyingNaturalResourceFragment]
 raw = "Plant Status"
@@ -800,6 +849,7 @@ ptBR = "Status da Planta"
 koKR = "식물 상태"
 csCZ = "Stav rostliny"
 viVN = "Trạng thái cây trồng"
+trTR = "Bitki Durumu"
 
 [Name_DynamiteFragment]
 raw = "Dynamite"
@@ -816,6 +866,7 @@ ptBR = "Dinamite"
 koKR = "다이너마이트"
 csCZ = "Dynamit"
 viVN = "Thuốc nổ"
+trTR = "Dinamita"
 
 [Name_FarmHouseFragment]
 raw = "Farmhouse"
@@ -832,6 +883,7 @@ ptBR = "Casa de Fazenda"
 koKR = "농가"
 csCZ = "Farma"
 viVN = "Nhà trang trại"
+trTR = "Çiftlik Evi"
 
 [Name_FloodgateFragment]
 raw = "Floodgate"
@@ -848,6 +900,7 @@ ptBR = "Portão de Inundação"
 koKR = "홍수문"
 csCZ = "Vodní brána"
 viVN = "Cổng xả lũ"
+trTR = "Sel Kapısı"
 
 [Name_ForesterFragment]
 raw = "Forester"
@@ -864,6 +917,7 @@ ptBR = "Silvicultor"
 koKR = "임업자"
 csCZ = "Lesník"
 viVN = "Lâm nghiệp viên"
+trTR = "Ormancı"
 
 [Name_GatherableFragment]
 raw = "Gatherable"
@@ -880,6 +934,7 @@ ptBR = "Coletável"
 koKR = "채집 가능"
 csCZ = "Shromážditelné"
 viVN = "Có thể thu thập"
+trTR = "Toplanabilir"
 
 [Name_GatherablePrioritizerFragment]
 raw = "Gather Priority"
@@ -896,6 +951,7 @@ ptBR = "Prioridade de Coleta"
 koKR = "수집 우선 순위"
 csCZ = "Priorita sběru"
 viVN = "Ưu tiên thu thập"
+trTR = "Toplama Önceliği"
 
 [Name_GoodCarrierFragment]
 raw = "Carrier"
@@ -912,6 +968,7 @@ ptBR = "Transportador"
 koKR = "운반자"
 csCZ = "Nosic"
 viVN = "Người vận chuyển"
+trTR = "Taşıyıcı"
 
 [Name_GoodConsumingBuildingFragment]
 raw = "Consuming"
@@ -928,6 +985,7 @@ ptBR = "Consumindo"
 koKR = "소비하는"
 csCZ = "Spotřebování"
 viVN = "Tiêu thụ"
+trTR = "Tüketen"
 
 [Name_GoodStackFragment]
 raw = "Goods Stack"
@@ -944,6 +1002,7 @@ ptBR = "Pilha de Bens"
 koKR = "물품 묶음"
 csCZ = "Zásobník zboží"
 viVN = "Đống hàng hóa"
+trTR = "Eşya Yığını"
 
 [Name_GrowableFragment]
 raw = "Growth"
@@ -960,6 +1019,7 @@ ptBR = "Crescimento"
 koKR = "성장"
 csCZ = "Růst"
 viVN = "Tăng trưởng"
+trTR = "Büyüme"
 
 [Name_HaulCandidateDebugFragment]
 raw = "Haul Debug"
@@ -976,6 +1036,7 @@ ptBR = "Depuração de Transporte"
 koKR = "운반 디버그"
 csCZ = "Debug Haul"
 viVN = "Gỡ lỗi vận chuyển"
+trTR = "Yük Hatası"
 
 [Name_HaulCandidateFragment]
 raw = "Hauling"
@@ -992,6 +1053,7 @@ ptBR = "Transportando"
 koKR = "운반 중"
 csCZ = "Nesení"
 viVN = "Vận chuyển"
+trTR = "Taşımacılık"
 
 [Name_InventoryDebugFragment]
 raw = "Inventory Debug"
@@ -1008,6 +1070,7 @@ ptBR = "Depuração do Inventário"
 koKR = "인벤토리 디버그"
 csCZ = "Debug inventáře"
 viVN = "Gỡ lỗi Kho"
+trTR = "Envanter Hatası"
 
 [Name_ManufactoryFragment]
 raw = "Manufactory"
@@ -1024,6 +1087,7 @@ ptBR = "Manufatura"
 koKR = "제작소"
 csCZ = "Manufaktura"
 viVN = "Nhà máy"
+trTR = "Fabrika"
 
 [Name_ManufactoryInventoryFragment]
 raw = "Workshop Inventory"
@@ -1040,6 +1104,7 @@ ptBR = "Inventário da Oficina"
 koKR = "작업장 인벤토리"
 csCZ = "Dílenský inventář"
 viVN = "Kho xưởng"
+trTR = "Atölye Envanteri"
 
 [Name_ManufactoryTogglableRecipesFragment]
 raw = "Recipes"
@@ -1056,6 +1121,7 @@ ptBR = "Receitas"
 koKR = "레시피"
 csCZ = "Recepty"
 viVN = "Công thức sản xuất"
+trTR = "Yemek Tarifleri"
 
 [Name_MechanicalNodeFragment]
 raw = "Power Node"
@@ -1072,6 +1138,7 @@ ptBR = "Nó de Potência"
 koKR = "전력 노드"
 csCZ = "Napájecí uzel"
 viVN = "Điểm nguồn điện"
+trTR = "Güç Düğümü"
 
 [Name_MMFragment]
 raw = "Macro-management"
@@ -1088,6 +1155,7 @@ ptBR = "Macrogestão"
 koKR = "매크로 관리"
 csCZ = "Makrořízení"
 viVN = "Quản lý macro"
+trTR = "Makro-yönetim"
 
 [Name_MultiSelectFragment]
 raw = "Multi-Select"
@@ -1104,6 +1172,7 @@ ptBR = "Multi-Seletor"
 koKR = "다중 선택"
 csCZ = "Vícevýběr"
 viVN = "Chọn nhiều"
+trTR = "Çoklu Seçim"
 
 [Name_PlantablePrioritizerFragment]
 raw = "Plant Priority"
@@ -1120,6 +1189,7 @@ ptBR = "Prioridade de Plantio"
 koKR = "식물 우선순위"
 csCZ = "Priorita rostlin"
 viVN = "Ưu tiên trồng cây"
+trTR = "Bitki Önceliği"
 
 [Name_ProductionProgressFragment]
 raw = "Progress"
@@ -1136,6 +1206,7 @@ ptBR = "Progresso"
 koKR = "진행 상황"
 csCZ = "Pokrok"
 viVN = "Tiến độ"
+trTR = "İlerleme"
 
 [Name_ProductivityFragment]
 raw = "Productivity"
@@ -1152,6 +1223,7 @@ ptBR = "Produtividade"
 koKR = "생산성"
 csCZ = "Produktivita"
 viVN = "Năng suất"
+trTR = "Verimlilik"
 
 [Name_RecoveredGoodStackFragment]
 raw = "Recovered Goods"
@@ -1168,6 +1240,7 @@ ptBR = "Bens Recuperados"
 koKR = "회수된 자산"
 csCZ = "Obnovené zboží"
 viVN = "Hàng hóa thu hồi"
+trTR = "İyileştirilen Eşyalar"
 
 [Name_RenovationStockpileFragment]
 raw = "Renovation Stockpile"
@@ -1184,6 +1257,7 @@ ptBR = "Depósito de Renovação"
 koKR = "개조 저장소"
 csCZ = "Zásobník renovací"
 viVN = "Kho Trùng Tu"
+trTR = "Yenileme Stoku"
 
 [Name_RuinFragment]
 raw = "Ruin"
@@ -1200,6 +1274,7 @@ ptBR = "Ruína"
 koKR = "유적"
 csCZ = "Zřícenina"
 viVN = "Tàn tích"
+trTR = "Yıkım"
 
 [Name_ScienceNeedingBuildingFragment]
 raw = "Science Needed"
@@ -1216,6 +1291,7 @@ ptBR = "Ciência Necessária"
 koKR = "필요한 과학"
 csCZ = "Potřebná věda"
 viVN = "Khoa học cần thiết"
+trTR = "Bilim Gerekli"
 
 [Name_SimpleOutputInventoryFragment]
 raw = "Inventory"
@@ -1232,6 +1308,7 @@ ptBR = "Inventário"
 koKR = "인벤토리"
 csCZ = "Inventář"
 viVN = "Kho đồ"
+trTR = "Envanter"
 
 [Name_SluiceFragment]
 raw = "Sluice"
@@ -1248,6 +1325,7 @@ ptBR = "Portão de Sangria"
 koKR = "수로"
 csCZ = "Žlábek"
 viVN = "Cửa xả nước"
+trTR = "Kapak"
 
 [Name_StatusListFragment]
 raw = "Status"
@@ -1264,6 +1342,7 @@ ptBR = "Status"
 koKR = "상태"
 csCZ = "Status"
 viVN = "Trạng thái"
+trTR = "Durum"
 
 [Name_StockpileGoodColumnVisualizerDebugFragment]
 raw = "Stock Debug"
@@ -1280,6 +1359,7 @@ ptBR = "Depuração de Estoque"
 koKR = "재고 디버그"
 csCZ = "Debug skladu"
 viVN = "Gỡ lỗi tồn kho"
+trTR = "Stok Hatası"
 
 [Name_StockpileInventoryDebugFragment]
 raw = "Inventory Debug"
@@ -1296,6 +1376,7 @@ ptBR = "Depuração de Inventário"
 koKR = "인벤토리 디버그"
 csCZ = "Debug zásobníku"
 viVN = "Gỡ lỗi Tồn kho"
+trTR = "Envanter Hatası"
 
 [Name_StockpileInventoryFragment]
 raw = "Stockpile"
@@ -1312,6 +1393,7 @@ ptBR = "Estoque"
 koKR = "재고 창고"
 csCZ = "Zásobník"
 viVN = "Kho dự trữ"
+trTR = "Stoklama"
 
 [Name_StockpilePriorityFragment]
 raw = "Stockpile Priority"
@@ -1328,6 +1410,7 @@ ptBR = "Prioridade do Armazém"
 koKR = "재고 우선순위"
 csCZ = "Priorita Skladu"
 viVN = "Ưu tiên kho dự trữ"
+trTR = "Stok Önceliği"
 
 [Name_StreamGaugeFragment]
 raw = "Stream Gauge"
@@ -1344,6 +1427,7 @@ ptBR = "Medidor de Fluxo"
 koKR = "수위계"
 csCZ = "Průtokoměr"
 viVN = "Đồng hồ đo dòng chảy"
+trTR = "Akarsu Ölçeri"
 
 [Name_TailDecalSupplierFragment]
 raw = "Tail Decal"
@@ -1360,6 +1444,7 @@ ptBR = "Decalque de Cauda"
 koKR = "꼬리 데칼"
 csCZ = "Zadní nálepka"
 viVN = "Decal đuôi"
+trTR = "Kuyruk Dekoru"
 
 [Name_WaterInputDepthFragment]
 raw = "Water Depth"
@@ -1376,6 +1461,7 @@ ptBR = "Profundidade da Água"
 koKR = "수심"
 csCZ = "Hlubka vody"
 viVN = "Độ sâu nước"
+trTR = "Su Derinliği"
 
 [Name_WaterMoverFragment]
 raw = "Fluid Pump"
@@ -1392,6 +1478,7 @@ ptBR = "Bomba de Fluido"
 koKR = "유체 펌프"
 csCZ = "Čerpadlo kapaliny"
 viVN = "Máy bơm chất lỏng"
+trTR = "Akışkan Pompası"
 
 [Name_WaterSourceFragment]
 raw = "Water Source (Dev)"
@@ -1408,6 +1495,7 @@ ptBR = "Fonte de Água (Dev)"
 koKR = "수원 (개발)"
 csCZ = "Zdroje vody (Vývoj)"
 viVN = "Nguồn nước (Dev)"
+trTR = "Su Kaynağı (Geliştirici)"
 
 [Name_WaterSourceRegulatorFragment]
 raw = "Flow Regulator"
@@ -1424,6 +1512,7 @@ ptBR = "Regulador de Fluxo"
 koKR = "흐름 조절기"
 csCZ = "Regulátor průtoku"
 viVN = "Điều tiết dòng chảy"
+trTR = "Akış Regülatörü"
 
 [Name_WellbeingFragment]
 raw = "Wellbeing"
@@ -1440,6 +1529,7 @@ ptBR = "Bem-estar"
 koKR = "웰빙"
 csCZ = "Blaho"
 viVN = "Sức khỏe tinh thần"
+trTR = "Refah"
 
 [Name_WindGaugeFragment]
 raw = "Wind Gauge"
@@ -1456,6 +1546,7 @@ ptBR = "Anemômetro"
 koKR = "풍속계"
 csCZ = "Větrný měřič"
 viVN = "Đồng hồ đo gió"
+trTR = "Rüzgar Ölçer"
 
 [Name_WirelessCoilFragment]
 raw = "Wireless Coil"
@@ -1472,6 +1563,7 @@ ptBR = "Bobina Sem Fio"
 koKR = "무선 코일"
 csCZ = "Bezdrátová cívka"
 viVN = "Cuộn Không Dây"
+trTR = "Wireless Coil"
 
 [Name_WonderDebugFragment]
 raw = "Wonder Debug"
@@ -1488,6 +1580,7 @@ ptBR = "Depuração de Maravilhas"
 koKR = "원더 디버그"
 csCZ = "Divný Ladění"
 viVN = "Gỡ lỗi Kỳ quan"
+trTR = "Harika Hata Ayıklama"
 
 [Name_WonderFragment]
 raw = "Wonder"
@@ -1504,6 +1597,7 @@ ptBR = "Maravilha"
 koKR = "신비"
 csCZ = "Zázrak"
 viVN = "Kỳ quan"
+trTR = "Mucize"
 
 [Name_WorkplaceFragment]
 raw = "Workplace"
@@ -1520,6 +1614,7 @@ ptBR = "Local de Trabalho"
 koKR = "직장"
 csCZ = "Pracoviště"
 viVN = "Nơi làm việc"
+trTR = "Çalışma Yeri"
 
 [Name_WorkshopDebugFragment]
 raw = "Workshop Debug"
@@ -1536,6 +1631,7 @@ ptBR = "Estrutura de Depuração"
 koKR = "작업장 디버그"
 csCZ = "Debugovací dílna"
 viVN = "Xưởng Gỡ lỗi"
+trTR = "Atölye Hatası"
 
 [Name_ZiplineTowerFragment]
 raw = "Zipline Tower"
@@ -1552,6 +1648,7 @@ ptBR = "Torres de Zipline"
 koKR = "짚라인 타워"
 csCZ = "Ziplanová věž"
 viVN = "Tháp Zipline"
+trTR = "Kaydırak Kulesi"
 
 [Name_DistrictCenterFragment_DistrictCenterInventoryFragment]
 raw = "Inventory"
@@ -1568,6 +1665,7 @@ ptBR = "Inventário"
 koKR = "인벤토리"
 csCZ = "Inventář"
 viVN = "Kho"
+trTR = "Envanter"
 
 [Name_SluiceFragment_Automation]
 raw = "Sluice Automation"
@@ -1584,6 +1682,7 @@ ptBR = "Automação de Comporta"
 koKR = "슬루스 자동화"
 csCZ = "Automatizace výpustě"
 viVN = "Tự động hóa cửa xả"
+trTR = "Kapak Otomasyonu"
 
 [Name_SluiceFragment_WaterInfo]
 raw = "Sluice Water Info"
@@ -1600,6 +1699,7 @@ ptBR = "Informações sobre a Água da Barragem"
 koKR = "수로 수위 정보"
 csCZ = "Info o vodě v přihrádce"
 viVN = "Thông tin nước của cửa xả"
+trTR = "Su Kapak Bilgisi"
 
 [Name_BreedingPodFragment_BreedingPodInventoryFragment]
 raw = "Inventory"
@@ -1616,6 +1716,7 @@ ptBR = "Inventário"
 koKR = "인벤토리"
 csCZ = "Inventář"
 viVN = "Kho đồ"
+trTR = "Envanter"
 
 [Name_WorkplaceShiftFragment]
 raw = "Shift Time"
@@ -1632,6 +1733,7 @@ ptBR = "Horário do Turno"
 koKR = "근무 시간"
 csCZ = "Čas směny"
 viVN = "Thời gian ca"
+trTR = "Vardiya Süresi"
 
 [Name_UnstableCoreFragment]
 raw = "Unstable Core"
@@ -1648,6 +1750,7 @@ ptBR = "Núcleo Instável"
 koKR = "불안정한 코어"
 csCZ = "Nestabilní jádro"
 viVN = "Lõi bất ổn"
+trTR = "Kararsız Çekirdek"
 
 [Name_DecalSupplierFragment]
 raw = "Decal Supplier"
@@ -1664,6 +1767,7 @@ ptBR = "Fornecedor de Decalques"
 koKR = "데칼 공급업체"
 csCZ = "Dodavatel nálepek"
 viVN = "Nhà cung cấp decal"
+trTR = "Dekal Tedarikçisi"
 
 [Name_TimedComponentActivatorSettingsFragment]
 raw = "Timed Component Activator Settings"
@@ -1680,6 +1784,7 @@ ptBR = "Configurações do Ativador de Componente Temporizado"
 koKR = "시간 구성 요소 활성화기 설정"
 csCZ = "Nastavení časového aktivátoru komponentů"
 viVN = "Cài đặt Bộ kích hoạt Thành phần Theo thời gian"
+trTR = "Zamanlı Bileşen Aktivatörü Ayarları"
 
 [Name_BlueprintDebugFragment]
 raw = "Blueprint Debug"
@@ -1696,6 +1801,7 @@ ptBR = "Depuração de Projeto"
 koKR = "청사진 디버그"
 csCZ = "Debug plánu"
 viVN = "Gỡ lỗi bản thiết kế"
+trTR = "Mavi Plan Hatası"
 
 [Name_UnstableCoreDebugFragment]
 raw = "Unstable Core Debug"
@@ -1712,6 +1818,7 @@ ptBR = "Núcleo Instável de Debug"
 koKR = "불안정한 코어 디버그"
 csCZ = "Nestabilní jádro ladění"
 viVN = "Gỡ lỗi Lõi Không Ổn Định"
+trTR = "Stabil Olmayan Çekirdek Hatası"
 
 [Name_FlowSensorFragment]
 raw = "Flow Sensor"
@@ -1728,6 +1835,7 @@ ptBR = "Sensor de Fluxo"
 koKR = "흐름 센서"
 csCZ = "Sensor toku"
 viVN = "Cảm biến lưu lượng"
+trTR = "Akan Sensörü"
 
 [Name_RelayFragment]
 raw = "Relay"
@@ -1744,6 +1852,7 @@ ptBR = "Revezamento"
 koKR = "릴레이"
 csCZ = "Relay"
 viVN = "Relay"
+trTR = "İletim"
 
 [Name_DepthSensorFragment]
 raw = "Depth Sensor"
@@ -1760,6 +1869,7 @@ ptBR = "Sensor de Profundidade"
 koKR = "수심 센서"
 csCZ = "Hlubinoměr"
 viVN = "Cảm biến độ sâu"
+trTR = "Derinlik Sensörü"
 
 [Name_ContaminationSensorFragment]
 raw = "Contamination Sensor"
@@ -1776,6 +1886,7 @@ ptBR = "Sensor de Contaminação"
 koKR = "오염 감지기"
 csCZ = "Sensor znečištění"
 viVN = "Cảm biến ô nhiễm"
+trTR = "Kontaminasyon Sensörü"
 
 [Name_ChronometerFragment]
 raw = "Chronometer"
@@ -1792,6 +1903,7 @@ ptBR = "Cronômetro"
 koKR = "크로노미터"
 csCZ = "Chronometr"
 viVN = "Đồng hồ bấm giờ"
+trTR = "Kronometre"
 
 [Name_WeatherStationFragment]
 raw = "Weather Station"
@@ -1808,6 +1920,7 @@ ptBR = "Estação Meteorológica"
 koKR = "기상 관측소"
 csCZ = "Meteorologická stanice"
 viVN = "Trạm Thời Tiết"
+trTR = "Hava İstasyonu"
 
 [Name_PowerMeterFragment]
 raw = "Power Meter"
@@ -1824,6 +1937,7 @@ ptBR = "Medidor de Energia"
 koKR = "전력 미터"
 csCZ = "Výkonový Metr"
 viVN = "Đồng hồ năng lượng"
+trTR = "Güç Ölçer"
 
 [Name_PopulationCounterFragment]
 raw = "Population Counter"
@@ -1840,6 +1954,7 @@ ptBR = "Contador de População"
 koKR = "인구 계수기"
 csCZ = "Čítač populace"
 viVN = "Đếm Dân Số"
+trTR = "Nüfus Sayacı"
 
 [Name_PopulationCounterFragment_BottomSection]
 raw = "Population Counter 2"
@@ -1856,6 +1971,7 @@ ptBR = "Contador de População 2"
 koKR = "인구 수 카운터 2"
 csCZ = "Počítadlo obyvatel 2"
 viVN = "Máy đếm dân số 2"
+trTR = "Popülasyon Sayacı 2"
 
 [Name_ResourceCounterFragment]
 raw = "Resource Counter"
@@ -1872,6 +1988,7 @@ ptBR = "Contador de Recursos"
 koKR = "리소스 카운터"
 csCZ = "Čítač zdrojů"
 viVN = "Đếm tài nguyên"
+trTR = "Kaynak Sayacı"
 
 [Name_ResourceCounterFragment_BottomSection]
 raw = "Resource Counter 2"
@@ -1888,6 +2005,7 @@ ptBR = "Contador de Recursos 2"
 koKR = "자원 카운터 2"
 csCZ = "Čítač zdrojů 2"
 viVN = "Đếm Tài Nguyên 2"
+trTR = "Kaynak Sayacı 2"
 
 [Name_IndicatorFragment]
 raw = "Indicator"
@@ -1904,6 +2022,7 @@ ptBR = "Indicador"
 koKR = "지표"
 csCZ = "Ukazatel"
 viVN = "Một chỉ báo"
+trTR = "Gösterge"
 
 [Name_FireworkLauncherFragment]
 raw = "Firework Launcher"
@@ -1920,6 +2039,7 @@ ptBR = "Lançador de Fogos de Artifício"
 koKR = "불꽃놀이 발사기"
 csCZ = "Výbušný odpalovač"
 viVN = "Máy bắn pháo"
+trTR = "Füze Fırlatıcı"
 
 [Name_TimerFragment]
 raw = "Timer"
@@ -1936,6 +2056,7 @@ ptBR = "Temporizador"
 koKR = "타이머"
 csCZ = "Časovač"
 viVN = "Đồng hồ bấm giờ"
+trTR = "Zamanlayıcı"
 
 [Name_MemoryFragment]
 raw = "Memory"
@@ -1952,6 +2073,7 @@ ptBR = "Memória"
 koKR = "기억"
 csCZ = "Paměť"
 viVN = "Ký ức"
+trTR = "Bellek"
 
 [Name_WeatherStationFragment_EarlyActivationSection]
 raw = "Early Activation"
@@ -1968,6 +2090,7 @@ ptBR = "Ativação Antecipada"
 koKR = "조기 활성화"
 csCZ = "Brzká aktivace"
 viVN = "Kích hoạt Sớm"
+trTR = "Erken Aktivasyon"
 
 [Name_FlippableDecalFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -1984,6 +2107,7 @@ ptBR = "[NÃO_ENCOLHER]"
 koKR = "[접히지_마세요]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[KHONG_DUOC_THU_GON]"
+trTR = "[SIKISTIRMAYIN]"
 
 [Name_RecoveredGoodStackDisintegrationFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2000,6 +2124,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEKLEPAT]"
 viVN = "[KHÔNG ĐƯỢC SỤP ĐỔ]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_SluiceFragment_SynchronizeWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2016,6 +2141,7 @@ ptBR = "[NÃO_COMPRIMIR]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NE_SKLOPIT]"
 viVN = "[KHÔNG_THU_GỌN]"
+trTR = "[ÇÖKMESİN]"
 
 [Name_TailDecalSupplierFragment_]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2032,6 +2158,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[확장하지 마십시오]"
 csCZ = "[NEZBORTIT]"
 viVN = "[KHONG_THU_GON]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_DecalSupplierFragment_]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2048,6 +2175,7 @@ ptBR = "[NÃO_DUSE_FRAQUEJAR]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZHRŮZOVAT]"
 viVN = "[KHÔNG ĐƯỢC THU GỌN]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_WeathervaneFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2064,6 +2192,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[축소하지 마세요]"
 csCZ = "[NEZKLOPIT]"
 viVN = "[KHÔNG THU GỌN]"
+trTR = "[DO_NOT_COLLAPSE]"
 
 [Name_BuildingSoundControllerFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2080,6 +2209,7 @@ ptBR = "[NÃO_DESCOLAPSE]"
 koKR = "[축소하지 마세요]"
 csCZ = "[NEDOHÝBEJ]"
 viVN = "[KHONG_THU_GON]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_DistrictCenterFragment_WorkerType]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2096,6 +2226,7 @@ ptBR = "[NÃO_RECOLHER]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEKOLAPSOVAT]"
 viVN = "[KHÔNG_SỤP_XUỐNG]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_LeverFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2112,6 +2243,7 @@ ptBR = "[NÃO_COMPONHA]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZKRUŠIT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "\"\""
 
 [Name_LeverFragment_CheckboxSection]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2128,6 +2260,7 @@ ptBR = "[NÃO_RECOLHER]"
 koKR = "[축소_금지]"
 csCZ = "[NEZKLADEJ]"
 viVN = "[KHÔNG_GIẢM_NHẸ]"
+trTR = "[HAKİKATEN_SIKMA]"
 
 [Name_GateFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2144,6 +2277,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "\"\""
 
 [Name_SpeakerFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2160,6 +2294,7 @@ ptBR = "[NÃO_DERRETER]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZRUŠOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_SpeakerFragment_SpatialModeWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2176,6 +2311,7 @@ ptBR = "[NÃO_RECOLHER]"
 koKR = "[접어두지 마십시오]"
 csCZ = "[NEZANIKAT]"
 viVN = "[KHÔNG_GỘP]"
+trTR = "[ÇÖKME]"
 
 [Name_SpeakerFragment_]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2192,6 +2328,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEDRŽIT_SE]"
 viVN = "[KHÔNG_GỘP]"
+trTR = "[KATLANMA]"
 
 [Name_ClutchFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2208,6 +2345,7 @@ ptBR = "[NÃO_COLLAPSAR]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[DAHİ ÇÖKME]"
 
 [Name_ValveFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2224,6 +2362,7 @@ ptBR = "[DO_NOT_COLLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[DO_NOT_COLLAPSE]"
 
 [Name_ValveFragment_AutomationOutflowLimitWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2240,6 +2379,7 @@ ptBR = "[NAO_DERULANDO]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NE_SKRÝVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[KÜÇÜLTMEYİN]"
 
 [Name_ValveFragment_ReactionSpeedWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2256,6 +2396,7 @@ ptBR = "[NÃO_RECOLHA]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZHVĚZDUJ]"
 viVN = "[KHÔNG_GỌN_THEO]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_ValveFragment_SynchronizeWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2272,6 +2413,7 @@ ptBR = "[NAO_COLLAPSAR]"
 koKR = "[접히지_마시오]"
 csCZ = "[NEDOTAHUJTE_VE_VNITŘ]"
 viVN = "[KHÔNG_GỘP]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_ScienceCounterFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2288,6 +2430,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZPŘIŠTŇOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[Çökmeye_DİKKAT]"
 
 [Name_FireworkLauncherFragment_FireworkLauncherFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2304,6 +2447,7 @@ ptBR = "[NÃO_CONTRAIR]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZMRŠŤUJTE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_SequentialTransmitterResetFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2320,6 +2464,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEROZBALOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_TransmitterFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2336,6 +2481,7 @@ ptBR = "[NÃO_RECOLHER]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NE_SKLÁDAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_FireworkLauncherInventoryFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2352,6 +2498,7 @@ ptBR = "[NÃO_COLLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_AutomatableFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2368,6 +2515,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMESİN]"
 
 [Name_HttpAdapterFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2384,6 +2532,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[축소하지 마세요]"
 csCZ = "[NEZBALOVAT]"
 viVN = "[KHÔNG_GIẢM]"
+trTR = "[Sıkıştırma]"
 
 [Name_HttpAdapterFragment_SwitchedOffWebhookSection]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2400,6 +2549,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZKRAŤOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[KASMA]"
 
 [Name_HttpAdapterFragment_MethodSection]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2416,6 +2566,7 @@ ptBR = "[NÃO_DERRETER]"
 koKR = "[축소_하지_마세요]"
 csCZ = "[NEZPŘEHÝBAT]"
 viVN = "[KHÔNG_GỘN]"
+trTR = "[KAPSAMA]"
 
 [Name_HttpLeverFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2432,6 +2583,7 @@ ptBR = "[NAO_DETONAR]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEDOHÁZET]"
 viVN = "[KHÔNG_GỘP]"
+trTR = "[ÇÖKMESİN]"
 
 [Name_HttpLeverFragment_SwitchOffWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2448,6 +2600,7 @@ ptBR = "[NÃO_RECOLHER]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEROZBALOVAT]"
 viVN = "[KHÔNG_GỌN_LẠI]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_CustomizableIlluminatorFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2464,6 +2617,7 @@ ptBR = "[NAO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEDO_NA_SLOUPNOUT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "\"\""
 
 [Name_HttpApiFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2480,6 +2634,7 @@ ptBR = "[NAO_COLAPSE]"
 koKR = "[축소하지 마세요]"
 csCZ = "[NEZESKLOPIT]"
 viVN = "[KHÔNG_GIẢM_NGƯNG]"
+trTR = "[ÇÖKMEYİN]"
 
 [Name_FillValveFragment]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2496,6 +2651,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZRUŠIT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[DO_NOT_COLLAPSE]"
 
 [Name_FillValveFragment_AutomationTargetHeightWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2512,6 +2668,7 @@ ptBR = "[NÃO_COLAPSE]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[DO_NOT_COLLAPSE]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[KÜÇÜLTMEDİĞİMİZ]\""
 
 [Name_FillValveFragment_SynchronizeWrapper]
 raw = "[DO_NOT_COLLAPSE]"
@@ -2528,6 +2685,7 @@ ptBR = "[NÃO_RECOLHA]"
 koKR = "[DO_NOT_COLLAPSE]"
 csCZ = "[NEZKRAŤOVAT]"
 viVN = "[DO_NOT_COLLAPSE]"
+trTR = "[ÇÖKMEYİN]"
 
 ["LV.T4UX.UpdateText740"]
 raw = "- Added 'Copy building' feature. While in the default (Cursor) tool, middle click (mouse 3, rebindable) on a building to quickly switch to that building tool. You can also then hold Shift to delete matching buildings with 'Shift to Delete' function.\n- The following features now work in the Map Editor: Recent tool, Collapsible entity panels and the recently added Copy building.\n- Fixed disabling idle worker warning from the Mod Settings not working.\n- Fixed recent tool hotkey not working."
@@ -2544,3 +2702,4 @@ ptBR = "- Adicionada a função 'Copiar edifício'. Enquanto estiver na ferramen
 koKR = "- '건물 복사' 기능이 추가 되었습니다. 기본(커서) 도구에서 건물 위에 마우스 중간 클릭(마우스 3, 다시 바인딩 가능)을 통해 해당 건물 도구로 빠르게 전환할 수 있습니다. 또한 Shift 키를 누른 채로 '삭제를 위한 Shift' 기능을 사용하여 일치하는 건물을 삭제할 수 있습니다.\n- 다음 기능이 이제 맵 편집기에서 작동합니다: 최근 도구, 접을 수 있는 개체 패널 및 최근에 추가된 건물 복사.\n- 모드 설정에서 유휴 작업자 경고 비활성화가 작동하지 않는 문제를 수정했습니다.\n- 최근 도구의 핫키가 작동하지 않는 문제를 수정했습니다."
 csCZ = "- Přidána funkce 'Kopírovat budovu'. Při použití výchozího nástroje (kurzor) klikněte středním tlačítkem myši (myš 3, přemapovatelné) na budovu pro rychlé přepnutí na nástroj této budovy. Můžete také držet Shift, abyste s funkcí 'Shift k odstranění' smazali odpovídající budovy.\n- Následující funkce nyní fungují v editoru map: Nedávný nástroj, skládací panely entit a nedávno přidaná funkce Kopírovat budovu.\n- Opraveno nefungování varování o nečinném pracovníkovi z nastavení modu.\n- Opraveno nefungování klávesové zkratky pro nedávný nástroj."
 viVN = "- Thêm tính năng 'Sao chép công trình'. Trong công cụ mặc định (công cụ con trỏ), nhấp giữa chuột (chuột 3, có thể gán lại) trên một tòa nhà để nhanh chóng chuyển sang công cụ xây dựng tương ứng. Bạn cũng có thể giữ phím Shift để xóa các tòa nhà tương ứng với chức năng 'Shift to Delete'.\n- Các tính năng sau đây nay đã hoạt động trong Trình chỉnh sửa bản đồ: Công cụ gần đây, Các bảng điều khiển thực thể có thể thu gọn và tính năng Sao chép công trình vừa được thêm.\n- Đã sửa lỗi vô hiệu hóa cảnh báo công nhân nhàn rỗi từ Cài đặt Mod không hoạt động.\n- Đã sửa lỗi phím tắt của công cụ gần đây không hoạt động."
+trTR = "- 'Binasını kopyala' özelliği eklendi. Varsayılan (İmleç) aracında, bir binaya ortalı tıklayarak (fare 3, yeniden atama yapılabilir) hızla o bina aracına geçebilirsiniz. Ayrıca, 'Silmek için Shift' fonksiyonu ile eşleşen binaları silmek için Shift tuşunu basılı tutabilirsiniz.  \n- Aşağıdaki özellikler şimdi Harita Editörü'nde çalışıyor: Son araç, Katlanabilir varlık panelleri ve yeni eklenen Bina Kopyalama.  \n- Mod Ayarları'ndan boşta bekleyen işçi uyarısının devre dışı bırakılmasının çalışmaması düzeltildi.  \n- Son araç kısayolunun çalışmaması düzeltildi."

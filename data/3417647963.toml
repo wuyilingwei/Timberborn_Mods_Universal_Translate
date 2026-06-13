@@ -16,6 +16,7 @@ ptBR = "Alterar limite de altura"
 koKR = "높이 제한 변경"
 csCZ = "Změnit výškový limit"
 viVN = "Thay đổi giới hạn chiều cao"
+trTR = "Yükseklik sınırını değiştir"
 
 ["LV.BAsc.ChangeHeightDesc"]
 raw = "Change the height limit of the map. This setting and all others need restart to take effect."
@@ -32,6 +33,7 @@ ptBR = "Altere o limite de altura do mapa. Esta configuração e todas as outras
 koKR = "맵의 높이 제한을 변경합니다. 이 설정과 다른 모든 설정은 적용되기 위해 재시작이 필요합니다."
 csCZ = "Změňte limit výšky mapy. Toto nastavení a všechna ostatní je třeba restartovat, aby se projevila."
 viVN = "Thay đổi giới hạn chiều cao của bản đồ. Cài đặt này và tất cả các cài đặt khác cần khởi động lại để có hiệu lực."
+trTR = "Haritanın yükseklik sınırını değiştirin. Bu ayar ve diğer tüm ayarlar etkinleşmek için yeniden başlatılmalıdır."
 
 ["LV.BAsc.TerrainHeight"]
 raw = "Terrain height limit"
@@ -48,6 +50,7 @@ ptBR = "Limite de altura do terreno"
 koKR = "지형 높이 제한"
 csCZ = "Limit výšky terénu"
 viVN = "Giới hạn độ cao địa hình"
+trTR = "Zemin yüksekliği limiti"
 
 ["LV.BAsc.TerrainHeightDesc"]
 raw = "The height limit of the terrain. Note: count from 0 (Game default: 22)"
@@ -64,6 +67,7 @@ ptBR = "O limite de altura do terreno. Nota: conte a partir de 0 (padrão do jog
 koKR = "지형의 높이 한계. 주의: 0부터 계산하십시오 (게임 기본값: 22)"
 csCZ = "Výškový limit terénu. Poznámka: počítejte od 0 (výchozí hra: 22)"
 viVN = "Giới hạn chiều cao của địa hình. Lưu ý: đếm từ 0 (mặc định của trò chơi: 22)\""
+trTR = "Yerin yükseklik sınırı. Not: 0'dan sayılır (Oyun varsayılanı: 22)"
 
 ["LV.BAsc.AboveTerrainHeight"]
 raw = "Above terrain height limit"
@@ -80,6 +84,7 @@ ptBR = "Acima do limite de altura do terreno"
 koKR = "지면 높이 제한 초과"
 csCZ = "Limit nad terénní výškou"
 viVN = "Vượt quá giới hạn chiều cao địa hình"
+trTR = "Yer yüzeyi yüksekliği limiti"
 
 ["LV.BAsc.AboveTerrainHeightDesc"]
 raw = "The height limit above the terrain limit, i.e. how high you can build (Game default: 10)"
@@ -96,6 +101,7 @@ ptBR = "O limite de altura acima do limite do terreno, ou seja, quão alto você
 koKR = "지면 제한 위의 높이 제한, 즉 건물을 얼마나 높게 지을 수 있는지(게임 기본값: 10)"
 csCZ = "Výška nad terénem, tj. jak vysoko můžete stavět (Výchozí hodnota hry: 10)"
 viVN = "Giới hạn chiều cao vượt quá giới hạn địa hình, tức là độ cao tối đa bạn có thể xây dựng (Mặc định trò chơi: 10)"
+trTR = "Yüzey yüksekliği sınırının üzerindeki yükseklik limiti, yani ne kadar yükseğe inşa edebileceğiniz (Oyun varsayılanı: 10)"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimit"]
 raw = "[Map Editor]Allow editor brush up to terrain limit"
@@ -112,6 +118,7 @@ ptBR = "[Editor de Mapas] Permitir que o pincel do editor vá até o limite do t
 koKR = "[맵 편집기]편집 브러시를 지형 한계까지 허용"
 csCZ = "[Editor mapy]Umožnit editoru štětec až do limitu terénu"
 viVN = "[Trình chỉnh sửa bản đồ]Cho phép cọ vẽ của trình chỉnh sửa lên tới giới hạn địa hình"
+trTR = "[Harita Editörü]Düzenleyici fırçanın arazi sınırına kadar kullanılmasına izin ver"
 
 ["LV.BAsc.AllowEditorUpToTerrainLimitDesc"]
 raw = "Allow the editor brush to go up to the terrain limit instead of minus 6 (Game default: 22 - 6 = 16)"
@@ -128,6 +135,7 @@ ptBR = "Permita que o pincel do editor chegue ao limite do terreno em vez de men
 koKR = "편집기 브러시가 지형 한계까지 이동할 수 있도록 허용, 기본값: 22 - 6 = 16"
 csCZ = "Povolit štětci editoru jít až k limitu terénu místo minus 6 (Výchozí hodnota hry: 22 - 6 = 16)"
 viVN = "Cho phép cọ vẽ chỉnh sửa đi lên tới giới hạn địa hình thay vì trừ 6 (Mặc định trò chơi: 22 - 6 = 16)"
+trTR = "Editör fırçasının, -6 yerine arazi sınırına kadar gitmesine izin ver (Oyun varsayılanı: 22 - 6 = 16)"
 
 ["LV.BAsc.FreeCamera"]
 raw = "Free camera"
@@ -144,6 +152,7 @@ ptBR = "Câmera livre"
 koKR = "자유 카메라"
 csCZ = "Volná kamera"
 viVN = "Camera tự do"
+trTR = "Serbest kamera"
 
 ["LV.BAsc.FreeCameraDesc"]
 raw = "Enable free camera mode, useful when you have built too high"
@@ -160,3 +169,4 @@ ptBR = "Ative o modo de câmera livre, útil quando você construiu muito alto."
 koKR = "높게 지었을 때 유용한 자유 카메라 모드를 활성화합니다."
 csCZ = "Zapněte režim volné kamery, užitečné, když jste postavili příliš vysokou stavbu."
 viVN = "Bật chế độ camera tự do, hữu ích khi bạn xây dựng quá cao"
+trTR = "Serbest kamera modunu etkinleştir, çok yüksek inşa ettiğinde faydalı olur."

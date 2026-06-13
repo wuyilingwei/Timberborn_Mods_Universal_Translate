@@ -16,6 +16,7 @@ ptBR = "Multiplicador de Max Beavers"
 koKR = "최대 비버 배율"
 csCZ = "Maximální násobitel bobrů"
 viVN = "Hệ số nhân tối đa cho hải ly"
+trTR = "Max Koyun Çoğaltıcı"
 
 ["LV.CH.MaxBeaverMulDesc"]
 raw = "Multiply the max beavers a house can have by this value, rounded down but minimum is 1. Game default: 1."
@@ -32,6 +33,7 @@ ptBR = "Multiplique o máximo de castores que uma casa pode ter por este valor, 
 koKR = "최대 비버 수를 이 값만큼 곱하십시오. 소수점 아래는 내림 처리되지만 최소값은 1입니다. 게임 기본값: 1."
 csCZ = "Vynásobte maximální počet bobrů, které může mít dům, touto hodnotou, zaokrouhleno dolů, ale minimum je 1. Výchozí hodnota hry: 1."
 viVN = "Nhân với giá trị này để số hải ly tối đa mà một ngôi nhà có thể chứa được, làm tròn xuống nhưng tối thiểu là 1. Mặc định trong trò chơi: 1."
+trTR = "Bir evin sahip olabileceği maksimum kunduz sayısını bu değerle çarpın, aşağı yuvarlanır ancak minimum 1'dir. Oyun varsayılanı: 1."
 
 ["LV.CH.SleepMult"]
 raw = "Sleep Satisfaction Multiplier"
@@ -48,6 +50,7 @@ ptBR = "Multiplicador de Satisfação do Sono"
 koKR = "수면 만족도 배수기"
 csCZ = "Multiplikátor spokojenosti se spánkem"
 viVN = "Hệ số nhân cho sự hài lòng khi ngủ"
+trTR = "Uyku Memnuniyeti Çarpanı"
 
 ["LV.CH.SleepMultDesc"]
 raw = "Multiply the Sleep need satisfaction by this value. Game default: 1 so at +0.2 per hour (Beaver can have -0.2 to 0.8 Sleep, -0.6 per day)"
@@ -64,6 +67,7 @@ ptBR = "Multiplique a satisfação da necessidade de sono por este valor. Padrã
 koKR = "슬픔 필요 만족도를 이 값으로 곱하십시오. 게임 기본값: 1이므로 시간당 +0.2로 (비버는 -0.2에서 0.8까지의 수면을 가질 수 있으며, 하루에 -0.6입니다)"
 csCZ = "Násobte spokojenost s potřebou spánku touto hodnotou. Výchozí hodnota hry: 1, takže při +0.2 za hodinu (Bobr může mít -0.2 až 0.8 spánku, -0.6 za den)"
 viVN = "Nhân mức độ thỏa mãn nhu cầu ngủ với giá trị này. Mặc định của trò chơi: 1, do đó +0.2 mỗi giờ (hải ly có thể có từ -0.2 đến 0.8 giấc ngủ, -0.6 mỗi ngày)"
+trTR = "Bu değeri kullanarak Uyku ihtiyacı tatminini çarp. Oyun varsayılanı: 1, bu nedenle saatte +0.2 (Kunduzun -0.2 ile 0.8 arasında Uyku ihtiyacı, günde -0.6)"
 
 ["LV.CH.ShelterMult"]
 raw = "Shelter Satisfaction Multiplier"
@@ -80,6 +84,7 @@ ptBR = "Multiplicador de Satisfação do Abrigo"
 koKR = "대피소 만족도 곱셈기"
 csCZ = "Multiplikátor spokojenosti s útočištěm"
 viVN = "Hệ số nhân cho sự hài lòng nơi trú ẩn"
+trTR = "Barınma Memnuniyeti Çarpanı"
 
 ["LV.CH.ShelterMultDesc"]
 raw = "Multiply the Shelter need satisfaction by this value. Game default: 1 so at +0.3 per hour (Beaver can have -0.2 to 0.8 Shelter, -0.3 per day)"
@@ -96,6 +101,7 @@ ptBR = "Multiplique a satisfação da necessidade de abrigo por este valor. Padr
 koKR = "이 값을 곱하여 대피소 필요 충족도를 증가시킵니다. 게임 기본값: 1이므로 시간당 +0.3 (비버는 -0.2에서 0.8의 대피소를 가질 수 있으며, 하루에 -0.3)"
 csCZ = "Násobte uspokojení potřeby Útočiště touto hodnotou. Výchozí hodnoty ve hře: 1, takže při +0,3 za hodinu (Bobr může mít -0,2 až 0,8 Útočiště, -0,3 za den)"
 viVN = "Nhân mức thỏa mãn nhu cầu Nơi ở với giá trị này. Mặc định của trò chơi: 1, tương ứng với +0.3 mỗi giờ (Hải ly có thể có từ -0.2 đến 0.8 Nơi ở, -0.3 mỗi ngày)"
+trTR = "Barınma ihtiyaçlarını bu değerle çarpın. Oyun varsayılanı: 1, bu nedenle saatte +0.3 (Kürek avcısı -0.2 ile 0.8 Barınma, günde -0.3 alabilir)"
 
 ["LV.CH.MoveEntranceFloor"]
 raw = "Move Entrances to Floor"
@@ -112,6 +118,7 @@ ptBR = "Mover Entradas para o Piso"
 koKR = "바닥으로 입구 이동"
 csCZ = "Umístit vchody na podlahu"
 viVN = "Di chuyển các lối vào lên tầng"
+trTR = "Kapıları Zemin Katına Taşı"
 
 ["LV.CH.MoveEntranceFloorDesc"]
 raw = "Move all the entrances to the first floor (like Double Lodges). Also work for houses added by mods. No graphical change. Game default: no"
@@ -128,6 +135,7 @@ ptBR = "Mova todas as entradas para o primeiro andar (como os alojamentos duplos
 koKR = "모든 입구를 1층으로 이동합니다(더블 로지와 같은). 모드로 추가된 집에도 적용됩니다. 그래픽 변화 없음. 게임 기본값: 아니오"
 csCZ = "Přemístěte všechny vchody na první patro (jako u Dvojitých chatek). Funguje také pro domy přidané módy. Žádná grafická změna. Výchozí nastavení hry: ne"
 viVN = "Di chuyển toàn bộ lối vào lên tầng một (giống như Double Lodges). Cũng áp dụng cho các căn nhà được thêm bởi các mod. Không có thay đổi đồ họa. Mặc định của trò chơi: không"
+trTR = "Tüm girişleri birinci kata taşı (çift lojmanlar gibi). Modlarla eklenen evler için de geçerlidir. Görsel değişiklik yok. Oyun varsayılanı: hayır"
 
 ["LV.CH.AddOtherFaction"]
 raw = "Add other faction's Housings"
@@ -144,6 +152,7 @@ ptBR = "Adicionar as habitações de outras facções"
 koKR = "다른 진영의 주거지 추가"
 csCZ = "Přidat bydlení jiné frakce"
 viVN = "Thêm nhà ở của các phe khác"
+trTR = "Diğer fraksiyonun Konutlarını Ekle"
 
 ["LV.CH.AddOtherFactionDesc"]
 raw = "Folktails can build the houses of Iron Teeth and vice versa. Do not work for houses added by mods. Game default: no"
@@ -160,6 +169,7 @@ ptBR = "Folktails podem construir as casas de Dentes de Ferro e vice-versa. Não
 koKR = "포크테일은 아이언 이빨의 집을 지을 수 있으며 그 반대도 가능합니다. 모드로 추가된 집에는 적용되지 않습니다. 게임 기본값: 아니오"
 csCZ = "Folktails mohou stavět domy Železných zubů a naopak. Nepracuje pro domy přidané modifikacemi. Výchozí hra: ne"
 viVN = "Folktails có thể xây các căn nhà của Iron Teeth và ngược lại. Không áp dụng cho các căn nhà được thêm bởi các mod. Mặc định của trò chơi: không"
+trTR = "Folktails, Demir Dişlerin evlerini inşa edebilir ve tam tersini de yapabilir. Modlar tarafından eklenen evler için geçerli değildir. Oyun varsayılanı: hayır"
 
 ["LV.CH.AddProcreation"]
 raw = "  Add Procreation to all Housings"
@@ -176,6 +186,7 @@ ptBR = "Adicione Procriação a todas as Moradias"
 koKR = "모든 주택에 번식을 추가합니다"
 csCZ = "  Přidat reprodukci ke všem obydlím"
 viVN = "Thêm chức năng sinh sản cho tất cả các chỗ ở"
+trTR = "  Tüm Konutlara Üreme Ekle"
 
 ["LV.CH.AddProcreationDesc"]
 raw = "Add Procreation to all Housings, so Folktails can procreate in Iron Teeth's Housings"
@@ -192,6 +203,7 @@ ptBR = "Adicione a Procriação a todas as Habitações, para que os Folktails p
 koKR = "모든 주택에 번식을 추가하여 Folktails가 Iron Teeth의 주택에서 번식할 수 있도록 합니다."
 csCZ = "Přidejte rozmnožování ke všem obydlím, aby mohli Folktails rozmnožovat v obydlích Iron Teeth."
 viVN = "Thêm khả năng sinh sản cho tất cả các khu nhà ở, để Folktails có thể sinh sản trong các khu nhà ở của Iron Teeth."
+trTR = "Tüm Konutlara Üreme Ekleyin, böylece Folktails Iron Teeth'in Konutlarında üreyebilir."
 
 ["LV.CH.RemoveProcreation"]
 raw = "  Remove Procreation from all Housings"
@@ -208,6 +220,7 @@ ptBR = "Remover Procriação de todas as Habitações"
 koKR = "모든 주택에서 번식 제거"
 csCZ = "Odebrat reprodukci ze všech obydlí"
 viVN = "Loại bỏ khả năng sinh sản khỏi tất cả chỗ ở"
+trTR = "  Tüm Konutlardan Üremeyi Kaldır"
 
 ["LV.CH.RemoveProcreationDesc"]
 raw = "Remove Procreation from all Housings, so Iron Teeth can not procreate in Folktails' Housings"
@@ -224,6 +237,7 @@ ptBR = "Remova a Procriação de todas as Moradias, para que os Dentes de Ferro 
 koKR = "모든 주택에서 번식을 제거하여 아이언 티스가 포크테일의 주택에서 번식할 수 없게 합니다."
 csCZ = "Odstranit reprodukci ze všech bydlení, aby Železné zuby nemohly reprodukovat v bydlení Folktailů."
 viVN = "Loại bỏ khả năng sinh sản khỏi mọi nơi ở, để Iron Teeth không thể sinh sản trong các nơi ở của Folktails."
+trTR = "Tüm Konutlardan Üretimi Kaldır, böylece Demir Dişler Folktails'in Konutlarında üretim gerçekleştiremeyecek."
 
 ["LV.CH.MaxBeaverAdd"]
 raw = "Max Beavers Addition"
@@ -240,6 +254,7 @@ ptBR = "Adição de Max Beavers"
 koKR = "최대 비버 추가"
 csCZ = "Max Beavers Addition"
 viVN = "Bổ sung số lượng hải lý tối đa"
+trTR = "En Fazla Kunduz Ekleme"
 
 ["LV.CH.MaxBeaverAddDesc"]
 raw = "Add this value to the max beavers a house can have AFTER multiplying.\nCan be negative. The final minimum value is still 1."
@@ -256,3 +271,4 @@ ptBR = "Adicione este valor ao máximo de castores que uma casa pode ter DEPOIS 
 koKR = "최대 비버 수에 이 값을 추가합니다. 이는 곱셈 후에 적용됩니다.\n음수일 수 있습니다. 최종 최소 값은 여전히 1입니다."
 csCZ = "Přidejte tuto hodnotu k maximálnímu počtu bobrů, které může mít dům, PO vynásobení. Může být záporná. Konečná minimální hodnota je stále 1."
 viVN = "Thêm giá trị này vào giới hạn tối đa số hải ly mà một ngôi nhà có thể chứa SAU khi nhân lên.\nCó thể âm. Giá trị tối thiểu cuối cùng vẫn là 1."
+trTR = "Bu değeri, bir evin sahip olabileceği maksimum kunduz sayısına, çarptıktan SONRA ekleyin. Negatif olabilir. Nihai minimum değer yine de 1'dir."

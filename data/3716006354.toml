@@ -16,6 +16,7 @@ ptBR = "FILAS DE CONSTRUÇÃO"
 koKR = "건설 대기열"
 csCZ = "ČEKACÍ SEZNAM"
 viVN = "XẾP HÀNG XÂY DỰNG"
+trTR = "İNŞA SIRASI"
 
 ["BuildQueue.Panel.Sites"]
 raw = "{0} sites"
@@ -32,6 +33,7 @@ ptBR = "{0} locais"
 koKR = "{0} 사이트"
 csCZ = "{0} lokalit"
 viVN = "{0} địa điểm"
+trTR = "{0} alan"
 
 ["BuildQueue.Panel.Site"]
 raw = "{0} site"
@@ -48,6 +50,7 @@ ptBR = "{0} local"
 koKR = "{0} 사이트"
 csCZ = "{0} místo"
 viVN = "{0} địa điểm"
+trTR = "{0} alanı"
 
 ["BuildQueue.Section.Emergency"]
 raw = "EMERGENCY"
@@ -64,6 +67,7 @@ ptBR = "EMERGÊNCIA"
 koKR = "긴급 상황"
 csCZ = "POHOTOVOST"
 viVN = "KHẨN CẤP"
+trTR = "Acil durum"
 
 ["BuildQueue.Section.Active"]
 raw = "ACTIVE"
@@ -80,6 +84,7 @@ ptBR = "ATIVO"
 koKR = "활성"
 csCZ = "“AKTIVNÍ”"
 viVN = "HOẠT ĐỘNG"
+trTR = "AKTİF"
 
 ["BuildQueue.Section.Scaffolds"]
 raw = "SCAFFOLDS"
@@ -96,6 +101,7 @@ ptBR = "ANDAIMES"
 koKR = "사다리"
 csCZ = "LEšení"
 viVN = "CÁO GIÁ"
+trTR = "İSKELELER"
 
 ["BuildQueue.Section.Paused"]
 raw = "PAUSED"
@@ -112,6 +118,7 @@ ptBR = "PAUSADO"
 koKR = "일시 정지됨"
 csCZ = "POZASTAVENO"
 viVN = "ĐÃ TẠM DỪNG"
+trTR = "BEKLETİLDİ"
 
 ["BuildQueue.Empty.Active"]
 raw = "No active construction sites."
@@ -128,6 +135,7 @@ ptBR = "Nenhum local de construção ativo."
 koKR = "활성 건설 현장이 없습니다."
 csCZ = "Žádné aktivní staveniště."
 viVN = "Không có công trường xây dựng nào đang hoạt động."
+trTR = "Hiç aktif inşaat alanı yok."
 
 ["BuildQueue.Filter.AllDistricts"]
 raw = "All districts"
@@ -144,6 +152,7 @@ ptBR = "Todos os distritos"
 koKR = "모든 지구"
 csCZ = "Všechny okresy"
 viVN = "Tất cả các quận"
+trTR = "tüm bölgeler"
 
 ["BuildQueue.Sort.Priority"]
 raw = "Sort: Priority"
@@ -160,6 +169,7 @@ ptBR = "Ordenar: Prioridade"
 koKR = "정렬: 우선순위"
 csCZ = "Třídit: Priorita"
 viVN = "Sắp xếp: Ưu tiên"
+trTR = "Sıralama: Öncelik"
 
 ["BuildQueue.Priority.VeryHigh"]
 raw = "Very High"
@@ -176,6 +186,7 @@ ptBR = "Muito Alto"
 koKR = "매우 높음"
 csCZ = "Velmi Vysoká"
 viVN = "Rất Cao"
+trTR = "Çok Yüksek"
 
 ["BuildQueue.Priority.High"]
 raw = "High"
@@ -192,6 +203,7 @@ ptBR = "Alto"
 koKR = "높음"
 csCZ = "Vysoká"
 viVN = "Cao"
+trTR = "Yüksek"
 
 ["BuildQueue.Priority.Normal"]
 raw = "Normal"
@@ -208,6 +220,7 @@ ptBR = "Normal"
 koKR = "정상"
 csCZ = "Normální"
 viVN = "Bình thường"
+trTR = "Normal"
 
 ["BuildQueue.Priority.Low"]
 raw = "Low"
@@ -224,6 +237,7 @@ ptBR = "Baixo"
 koKR = "낮음"
 csCZ = "Nízká"
 viVN = "Thấp"
+trTR = "Düşük"
 
 ["BuildQueue.Priority.VeryLow"]
 raw = "Very Low"
@@ -240,6 +254,7 @@ ptBR = "Muito Baixo"
 koKR = "매우 낮음"
 csCZ = "Velmi nízká"
 viVN = "Rất Thấp"
+trTR = "Çok Düşük"
 
 ["BuildQueue.TopBar.Tooltip"]
 raw = "Build Queue"
@@ -256,6 +271,7 @@ ptBR = "Fila de Construção"
 koKR = "건설 대기열"
 csCZ = "Závěs řádu"
 viVN = "Dãy Xây Dựng"
+trTR = "İnşaat Sırası"
 
 ["BuildQueue.Settings.Description"]
 raw = "Show or hide the build queue panel from the top bar or hotkey. The toggle hotkey now lives in Settings -> Keybindings (default: B)."
@@ -272,6 +288,7 @@ ptBR = "Mostre ou oculte o painel da fila de construção na barra superior ou p
 koKR = "상단 바 또는 바로 가기에서 건설 대기열 패널을 표시하거나 숨깁니다. 토글 바로 가기는 이제 설정 -> 키 바인딩에 있습니다 (기본값: B)."
 csCZ = "Zobrazit nebo skrýt panel fronty stavby z horního panelu nebo pomocí klávesové zkratky. Klávesová zkratka pro přepínání je nyní v Nastavení -> Klávesová zkratka (výchozí: B)."
 viVN = "Hiển thị hoặc ẩn bảng hàng đợi xây dựng từ thanh công cụ hoặc phím tắt. Phím tắt chuyển đổi hiện nằm trong Cài đặt -> Phím tắt (mặc định: B)."
+trTR = "Yapı sırası panelini üst çubuktan veya kısayoldan göster veya gizle. Anahtar ayarı şimdi Ayarlar -> Tuş Atamaları altında bulunmaktadır (varsayılan: B)."
 
 ["BuildQueue.KeyBindings.GroupName"]
 raw = "Build Queue"
@@ -288,6 +305,7 @@ ptBR = "Fila de Construção"
 koKR = "건축 대기열"
 csCZ = "Fronta výstavby"
 viVN = "Thao tác Xây dựng"
+trTR = "İnşa Kuyruğu"
 
 ["BuildQueue.KeyBindings.Toggle"]
 raw = "Toggle build queue panel"
@@ -304,6 +322,7 @@ ptBR = "Alternar painel de fila de construção"
 koKR = "건축 대기열 패널 전환"
 csCZ = "Přepnout panel fronty stavby"
 viVN = "Chuyển đổi bảng hàng đợi xây dựng"
+trTR = "İnşa sırası panelini aç/kapa"
 
 ["BuildQueue.Cancel.Tooltip"]
 raw = "Cancel construction (Shift+click to skip prompt)"
@@ -320,3 +339,4 @@ ptBR = "Cancelar construção (Shift+clique para pular o aviso)"
 koKR = "건설 취소 (Shift+클릭으로 프롬프트 생략)"
 csCZ = "Zrušit stavbu (Shift+klik pro přeskočení výzvy)"
 viVN = "Hủy bỏ xây dựng (Shift+click để bỏ qua thông báo)"
+trTR = "İnşaatı iptal et (Sola kaydırarak tıklayın, onay istemini atlayın)"

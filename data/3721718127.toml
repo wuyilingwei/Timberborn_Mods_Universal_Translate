@@ -16,6 +16,7 @@ ptBR = "Créditos de Comércio"
 koKR = "거래 크레딧"
 csCZ = "Obchodní kredity"
 viVN = "Khoản tín dụng giao dịch"
+trTR = "İşlem Kredileri"
 
 ["UI.TW.TradeOffice.CurrentGood"]
 raw = "Trading: {0}.  Trade balance: {1}"
@@ -32,6 +33,7 @@ ptBR = "Negociação: {0}. Saldo comercial: {1}"
 koKR = "거래 중: {0}. 거래 잔액: {1}"
 csCZ = "Obchodování: {0}. Obchodní bilance: {1}"
 viVN = "Giao dịch: {0}. Cân bằng thương mại: {1}"
+trTR = "Ticaret: {0}. Ticaret dengesi: {1}"
 
 ["UI.TW.TradeOffice.ManualBuyAndSellPrice"]
 raw = "Buy at {0}  /  Sell at {1}"
@@ -48,6 +50,7 @@ ptBR = "Comprar a {0}  /  Vender a {1}"
 koKR = "구매가 {0}  /  판매가 {1}"
 csCZ = "Koupit za {0}  /  Prodat za {1}"
 viVN = "Mua tại {0}  /  Bán tại {1}"
+trTR = "{0} karşılığında al / {1} karşılığında sat"
 
 ["UI.TW.TradeOffice.ManualBuyPrice_SellBlocked"]
 raw = "Buy at {0}    Export not allowed."
@@ -64,6 +67,7 @@ ptBR = "Compre a {0}    Exportação não permitida."
 koKR = "{0}에 구매    수출이 허용되지 않습니다."
 csCZ = "Koupit za {0}    Export není povolen."
 viVN = "Mua với giá {0}    Xuất khẩu không cho phép."
+trTR = "{0} karşılığında satın al    İhracata izin verilmiyor."
 
 ["UI.TW.TradeOffice.ManualBuyBlocked_SellPrice"]
 raw = "Sell at {0}    Import not allowed."
@@ -80,6 +84,7 @@ ptBR = "Vender a {0}    Importação não permitida."
 koKR = "{0}에 판매    수입이 허용되지 않습니다."
 csCZ = "Prodávejte za {0}    Import není povolen."
 viVN = "Bán với giá {0}    Không cho phép nhập khẩu."
+trTR = "{0} fiyatına sat. İthalatına izin yok."
 
 ["UI.TW.TradeOffice.TradingNotAllowed"]
 raw = "Import and export not allowed."
@@ -96,6 +101,7 @@ ptBR = "Importação e exportação não permitidas."
 koKR = "수출입이 허용되지 않습니다."
 csCZ = "Import a export nejsou povoleny."
 viVN = "Không cho phép nhập khẩu và xuất khẩu."
+trTR = "İthalat ve ihracat yapılamaz."
 
 ["UI.TW.TradeOffice.AutoBuyAndSellPrice"]
 raw = "Auto-import at {0}  /  Auto-export at {1}"
@@ -112,6 +118,7 @@ ptBR = "Importação automática a {0}  /  Exportação automática a {1}"
 koKR = "{0}에서 자동 수입 / {1}에서 자동 수출"
 csCZ = "Automatický import za {0}  /  Automatický export za {1}"
 viVN = "Tự động nhập tại {0}  /  Tự động xuất tại {1}"
+trTR = "{0} fiyatında otomatik alım / {1} fiyatında otomatik satım"
 
 ["UI.TW.TradeOffice.AutoBuyPrice_SellBlocked"]
 raw = "Auto-import at {0}    Export not allowed."
@@ -128,6 +135,7 @@ ptBR = "Auto-importar a {0}    Exportação não permitida."
 koKR = "{0}에서 자동 수입    수출이 허용되지 않음."
 csCZ = "Automatický dovoz za {0}    Vývoz není povolen."
 viVN = "Tự động nhập tại {0}    Xuất không được phép."
+trTR = "{0} fiyatıyla otomatik ithalat. İhracat yapılamaz."
 
 ["UI.TW.TradeOffice.AutoBuyBlocked_SellPrice"]
 raw = "Auto-export at {0}    Import not allowed."
@@ -144,6 +152,7 @@ ptBR = "Auto-exportar a {0}    Importação não permitida."
 koKR = "{0}에서 자동 수출 중    수입이 허용되지 않습니다."
 csCZ = "Automatický export za {0}    Import není povolen."
 viVN = "Tự động xuất với giá {0}    Không cho phép nhập."
+trTR = "{0} fiyatında otomatik ihracat    İthalat yapılmasına izin verilmiyor."
 
 ["UI.TW.TradeOffice.BuyN"]
 raw = "Buy {0}"
@@ -160,6 +169,7 @@ ptBR = "Comprar {0}"
 koKR = "{0} 구매"
 csCZ = "Koupit {0}"
 viVN = "Mua {0}"
+trTR = "Satın Al {0}"
 
 ["UI.TW.TradeOffice.SellN"]
 raw = "Sell {0}"
@@ -176,6 +186,7 @@ ptBR = "Vender {0}"
 koKR = "판매 {0}"
 csCZ = "Prodat {0}"
 viVN = "Bán {0}"
+trTR = "Sat {0}"
 
 ["UI.TW.TradeOffice.Credits"]
 raw = "{0}"
@@ -192,6 +203,7 @@ ptBR = "{0}"
 koKR = "{0}"
 csCZ = "{0}"
 viVN = "{0}"
+trTR = "{0}"
 
 ["UI.TW.TradeOffice.TT.UserBuy"]
 raw = "Buy goods. Actual amount may be less if there is no room, or you lack credits. You will only be charged for the goods you receive. Price is re-calculated for each item bought."
@@ -208,6 +220,7 @@ ptBR = "Compre produtos. A quantidade real pode ser menor se não houver espaço
 koKR = "상품을 구매하세요. 실제 금액은 공간이 없거나 신용이 부족할 경우 적을 수 있습니다. 수령하는 상품에 대해서만 요금이 청구됩니다. 구매하는 각 항목의 가격은 재계산됩니다."
 csCZ = "Kupujte zboží. Skutečné množství může být nižší, pokud není místo, nebo vám chybí úvěry. Budete účtováni pouze za zboží, které obdržíte. Cena se přepočítává pro každou zakoupenou položku."
 viVN = "Mua hàng hóa. Số lượng thực tế có thể ít hơn nếu không có đủ chỗ, hoặc bạn thiếu tín dụng. Bạn chỉ bị tính phí cho hàng hóa bạn nhận được. Giá sẽ được tính lại cho mỗi món hàng đã mua."
+trTR = "Mal satın al. Gerçek miktar, yer yoksa veya kredi yetersizse daha az olabilir. Sadece aldığın mallar için ücretlendirileceksin. Alınan her ürün için fiyat yeniden hesaplanır."
 
 ["UI.TW.TradeOffice.TT.UserSell"]
 raw = "Sell goods. Actual amount may be less if there are not enough available. Price is re-calculated for each item sold."
@@ -224,6 +237,7 @@ ptBR = "Venda mercadorias. A quantidade real pode ser menor se não houver o suf
 koKR = "물품을 판매합니다. 사용 가능한 수량이 충분하지 않으면 실제 금액이 더 적을 수 있습니다. 판매되는 각 품목에 대해 가격이 재계산됩니다."
 csCZ = "Prodávejte zboží. Skutečné množství může být menší, pokud není dostatek dostupného. Cena se přepočítává na každý prodaný kus."
 viVN = "Bán hàng hóa. Số lượng thực tế có thể ít hơn nếu không đủ hàng có sẵn. Giá sẽ được tính lại cho mỗi mặt hàng bán ra."
+trTR = "Ürünleri satın. Mevcut miktar, yeterli stok yoksa daha az olabilir. Fiyat, satılan her bir ürün için yeniden hesaplanır."
 
 ["UI.TW.TradeOffice.NoWorkerNeeded"]
 raw = "No worker needed"
@@ -240,6 +254,7 @@ ptBR = "Nenhum trabalhador necessário"
 koKR = "작업자가 필요 없습니다"
 csCZ = "Žádný pracovník není potřeba"
 viVN = "Không cần công nhân"
+trTR = "Çalışana ihtiyaç yok"
 
 ["UI.TW.TradeOffice.WorkerSummoned"]
 raw = "Worker summoned"
@@ -256,6 +271,7 @@ ptBR = "Trabalhador convocado"
 koKR = "근로자가 소환되었습니다"
 csCZ = "Pracovník povolán"
 viVN = "Công nhân đã được triệu hồi"
+trTR = "İşçi çağrıldı"
 
 ["UI.TW.TradeOffice.WorkerSummonedIn"]
 raw = "Worker will be summoned in {0} hours"
@@ -272,6 +288,7 @@ ptBR = "O trabalhador será convocado em {0} horas"
 koKR = "{0} 시간 후에 작업자가 소환됩니다"
 csCZ = "Pracovník bude povolán za {0} hodin"
 viVN = "Công nhân sẽ được triệu hồi trong {0} giờ"
+trTR = "Çalışan {0} saat içinde çağrılacak"
 
 ["UI.TW.TradeOffice.SciencePoints"]
 raw = "Science points"
@@ -288,6 +305,7 @@ ptBR = "Pontos de ciência"
 koKR = "과학 포인트"
 csCZ = "Vědecké body"
 viVN = "Điểm khoa học"
+trTR = "Bilim puanları"
 
 ["UI.TW.TradeOffice.AutomateImport"]
 raw = "Automate import"
@@ -304,6 +322,7 @@ ptBR = "Automatizar importação"
 koKR = "가져오기 자동화"
 csCZ = "Automatizovat import"
 viVN = "Tự động nhập khẩu"
+trTR = "İthalatı otomatikleştir"
 
 ["UI.TW.TradeOffice.TT.AutomateImportToggle"]
 raw = "Set rules for when to import"
@@ -320,6 +339,7 @@ ptBR = "Definir regras para quando importar"
 koKR = "수입할 시기를 설정하는 규칙"
 csCZ = "Nastavte pravidla pro import"
 viVN = "Đặt quy tắc cho việc khi nào nhập khẩu"
+trTR = "İthalat için ne zaman kurallar ayarlayın"
 
 ["UI.TW.TradeOffice.TT.ShowSettings"]
 raw = "Show settings"
@@ -336,6 +356,7 @@ ptBR = "Mostrar configurações"
 koKR = "설정 표시"
 csCZ = "Zobrazit nastavení"
 viVN = "Hiện cài đặt"
+trTR = "Ayarları göster"
 
 ["UI.TW.TradeOffice.TT.HideSettings"]
 raw = "Hide settings"
@@ -352,6 +373,7 @@ ptBR = "Ocultar configurações"
 koKR = "설정 숨기기"
 csCZ = "Skrýt nastavení"
 viVN = "Ẩn cài đặt"
+trTR = "Ayarlari Gizle"
 
 ["Building.TWTradeOffice.DisplayName"]
 raw = "Trade Office"
@@ -368,6 +390,7 @@ ptBR = "Escritório de Comércio"
 koKR = "무역 사무소"
 csCZ = "Obchodní kancelář"
 viVN = "Văn Phòng Thương Mại"
+trTR = "Ticaret Ofisi"
 
 ["Building.TWTradeOffice.Description"]
 raw = "Allows buying and selling of resources. To work, rear wall must touch a warehouse, stockpile, tank, or science building."
@@ -384,6 +407,7 @@ ptBR = "Permite a compra e venda de recursos. Para funcionar, a parede traseira 
 koKR = "자원 구매 및 판매를 허용합니다. 작동하려면 뒷벽이 창고, 재고, 탱크 또는 과학 건물에 접촉해야 합니다."
 csCZ = "Umožňuje nákup a prodej zdrojů. Pro fungování musí zadní stěna dosahovat ke skladu, zásobníku, nádrži nebo vědecké budově."
 viVN = "Cho phép mua bán tài nguyên. Để hoạt động, tường sau phải tiếp xúc với kho, bãi chứa, bể chứa hoặc tòa nhà nghiên cứu."
+trTR = "Kaynak alım satımını sağlar. Çalışabilmesi için arka duvarın bir depoya, stok alanına, tank veya bilim binasına temas etmesi gerekir."
 
 ["Building.TWTradeOffice.FlavorDescription"]
 raw = "Ask not where the goods, they go, nor guess from whence they came."
@@ -400,6 +424,7 @@ ptBR = "Não pergunte de onde vêm as mercadorias, nem adivinhe de onde elas vê
 koKR = "상품이 어디로 가는지 묻지 말고, 그들이 어디에서 왔는지 추측하지 마라."
 csCZ = "Neptá se, odkud zboží přichází, ani nezkoušej odhadnout, kam jde."
 viVN = "Đừng hỏi hàng hóa đi đâu, cũng đừng đoán nó đến từ đâu."
+trTR = "Malın nereden geldiğini, nereye gittiğini sorma, nereden geldiğini tahmin etme."
 
 ["UI.TW.TradeOffice.UnknownGood"]
 raw = "Unknown"
@@ -416,6 +441,7 @@ ptBR = "Desconhecido"
 koKR = "알 수 없음"
 csCZ = "Neznámý"
 viVN = "Không rõ"
+trTR = "Bilinmeyen"
 
 ["UI.TW.TradeOffice.MaxBuyPrice"]
 raw = "Price below"
@@ -432,6 +458,7 @@ ptBR = "Preço abaixo"
 koKR = "가격 이하"
 csCZ = "Cena pod"
 viVN = "Giá dưới"
+trTR = "Fiyat altı"
 
 ["UI.TW.TradeOffice.TT.MaxBuyPrice"]
 raw = "Goods will only be imported when the price is lower than this"
@@ -448,6 +475,7 @@ ptBR = "Os produtos só serão importados quando o preço estiver abaixo deste v
 koKR = "이 가격보다 낮을 때만 물품이 수입됩니다"
 csCZ = "Zboží bude importováno pouze tehdy, když je cena nižší než toto"
 viVN = "Hàng hóa chỉ được nhập khẩu khi giá thấp hơn mức này"
+trTR = "Malzeme sadece bu fiyattan daha düşük olduğunda ithal edilecektir."
 
 ["UI.TW.TradeOffice.BuyCreditLimit"]
 raw = "Credits above"
@@ -464,6 +492,7 @@ ptBR = "Créditos acima"
 koKR = "크레딧 초과"
 csCZ = "Z credits"
 viVN = "Điểm tín dụng trên"
+trTR = "Yukarıdaki Krediler"
 
 ["UI.TW.TradeOffice.TT.BuyCreditLimit"]
 raw = "Goods will only be imported if doing so leaves at least this many credits."
@@ -480,6 +509,7 @@ ptBR = "Os bens só serão importados se isso deixar pelo menos esse número de 
 koKR = "상품은 이만큼의 크레딧을 남기는 경우에만 수입됩니다."
 csCZ = "Zboží bude importováno pouze v případě, že tímto způsobem zůstane alespoň tolikto kreditů."
 viVN = "Hàng hóa chỉ được nhập khẩu nếu việc này để lại ít nhất số tín dụng này."
+trTR = "Malzemeler yalnızca bu kadar kredi bıraktığında ithal edilecektir."
 
 ["UI.TW.TradeOffice.BuyMaxAmount"]
 raw = "District stock below"
@@ -496,6 +526,7 @@ ptBR = "Estoque do distrito abaixo"
 koKR = "구역 재고 미만"
 csCZ = "Zásoby v okrese pod"
 viVN = "Dự trữ khu vực thấp hơn"
+trTR = "Bölge stoğu altında"
 
 ["UI.TW.TradeOffice.TT.BuyMaxAmount"]
 raw = "Goods will be imported when district supply is below this level"
@@ -512,6 +543,7 @@ ptBR = "Os produtos serão importados quando o suprimento do distrito estiver ab
 koKR = "이 수준 이하로 지역 공급이 감소하면 물품이 수입됩니다."
 csCZ = "Zboží bude importováno, když je zásoba okresu pod touto úrovní."
 viVN = "Hàng hóa sẽ được nhập khẩu khi nguồn cung cấp khu vực thấp hơn mức này"
+trTR = "İlçe arzı bu seviyenin altına düştüğünde mallar ithal edilecektir."
 
 ["UI.TW.TradeOffice.BuyMaxAmountIsPercent"]
 raw = "Stock level is percent"
@@ -528,6 +560,7 @@ ptBR = "Nível de estoque é percentual"
 koKR = "재고 수준은 백분율입니다"
 csCZ = "Úroveň zásob je procento"
 viVN = "Mức hàng tồn kho là phần trăm"
+trTR = "Stok seviyesi yüzde"
 
 ["UI.TW.TradeOffice.TT.BuyMaxAmountIsPercent"]
 raw = "The district stock level will be treated as a percent of capacity, rather than an item count"
@@ -544,6 +577,7 @@ ptBR = "O nível de estoque do distrito será tratado como uma porcentagem da ca
 koKR = "지구의 재고 수준은 아이템 수가 아닌 용량의 백분율로 간주됩니다."
 csCZ = "Úroveň skladu v okrese bude považována za procento z kapacity, spíše než za počet položek."
 viVN = "Mức tồn kho khu vực sẽ được coi là một phần trăm của công suất, thay vì số lượng mặt hàng."
+trTR = "Bölge stok seviyesi, bir eşya sayısı yerine kapasitenin yüzdesi olarak değerlendirilecektir."
 
 ["UI.TW.TradeOffice.CannotTradeUnknownGood"]
 raw = "Cannot trade when no good is set"
@@ -560,6 +594,7 @@ ptBR = "Não é possível negociar quando nenhum produto está definido"
 koKR = "상품이 설정되지 않았을 때 거래할 수 없습니다."
 csCZ = "Není možné obchodovat, když není nastavena žádná komodita"
 viVN = "Không thể giao dịch khi không có hàng hóa nào được đặt"
+trTR = "İyi belirlenmediğinde ticaret yapılamaz"
 
 ["UI.TW.TradeOffice.AutomateExport"]
 raw = "Automate export"
@@ -576,6 +611,7 @@ ptBR = "Automatizar exportação"
 koKR = "수출 자동화"
 csCZ = "Automatizovat export"
 viVN = "Tự động xuất khẩu"
+trTR = "İhracı otomatikleştir"
 
 ["UI.TW.TradeOffice.TT.AutomateExportToggle"]
 raw = "Set rules for when to export"
@@ -592,6 +628,7 @@ ptBR = "Defina regras para quando exportar"
 koKR = "수출 시점을 위한 규칙 설정"
 csCZ = "Nastavte pravidla pro export"
 viVN = "Đặt quy tắc cho khi nào xuất khẩu"
+trTR = "İhracat için ne zaman kurallar belirleyeceğinizi ayarlayın"
 
 ["UI.TW.TradeOffice.MinSellPrice"]
 raw = "Price above"
@@ -608,6 +645,7 @@ ptBR = "Preço acima"
 koKR = "가격 상한"
 csCZ = "Cena nad"
 viVN = "Giá trên"
+trTR = "Fiyat üstü"
 
 ["UI.TW.TradeOffice.TT.MinSellPrice"]
 raw = "Goods will only be sold when the price is higher than this"
@@ -624,6 +662,7 @@ ptBR = "Os produtos só serão vendidos quando o preço for superior a este"
 koKR = "이 가격보다 높을 때만 상품이 판매됩니다."
 csCZ = "Zboží bude prodáváno pouze tehdy, pokud bude cena vyšší než tato."
 viVN = "Hàng hóa chỉ được bán khi giá cao hơn mức này"
+trTR = "Malzemeler yalnızca bu fiyattan daha yüksek bir fiyatta satılacaktır"
 
 ["UI.TW.TradeOffice.SellCreditLimit"]
 raw = "Credits less than"
@@ -640,6 +679,7 @@ ptBR = "Créditos inferiores a"
 koKR = "크레딧 이하"
 csCZ = "Úvěry méně než"
 viVN = "Giới hạn tín dụng dưới"
+trTR = "Krediler daha az"
 
 ["UI.TW.TradeOffice.TT.SellCreditLimit"]
 raw = "Goods will only be sold when your credits are less than this"
@@ -656,6 +696,7 @@ ptBR = "Os produtos só serão vendidos quando seus créditos estiverem abaixo d
 koKR = "신용 한도가 이보다 낮을 때만 상품이 판매됩니다."
 csCZ = "Zboží bude prodáváno pouze tehdy, když budou vaše kredity nižší než toto."
 viVN = "Hàng hóa chỉ được bán khi số tín dụng của bạn thấp hơn điều này"
+trTR = "Ürünler yalnızca kredileriniz bunun altındaysa satılacaktır."
 
 ["UI.TW.TradeOffice.SellMinAmount"]
 raw = "District stock above"
@@ -672,6 +713,7 @@ ptBR = "Estoque do distrito acima"
 koKR = "지구 재고 이상"
 csCZ = "Zásoby v okrsku nad"
 viVN = "Kho quận trên"
+trTR = "Bölge stoğu üstü"
 
 ["UI.TW.TradeOffice.TT.SellMinAmount"]
 raw = "Goods will only be sold if district stock is more than this level"
@@ -688,6 +730,7 @@ ptBR = "Os bens só serão vendidos se o estoque do distrito estiver acima deste
 koKR = "이 수준보다 지구 재고가 많을 경우에만 상품이 판매됩니다."
 csCZ = "Zboží bude prodáváno pouze v případě, že zásoby v okrese překročí tuto úroveň."
 viVN = "Hàng hóa sẽ chỉ được bán nếu kho hàng của khu vực vượt qua mức này."
+trTR = "Mal satışa sunulacak yalnızca bölge stok seviyesi bu seviyeden fazlaysa"
 
 ["UI.TW.TradeOffice.SellMinAmountIsPercent"]
 raw = "Stock level is percent"
@@ -704,6 +747,7 @@ ptBR = "O nível de estoque é percentual"
 koKR = "재고 수준은 퍼센트입니다"
 csCZ = "Úroveň stavu je procento"
 viVN = "Mức tồn kho là phần trăm"
+trTR = "Stok seviyesi yüzde"
 
 ["UI.TW.TradeOffice.TT.SellMinAmountIsPercent"]
 raw = "The district stock level will be treated as a percent of capacity, rather than an item count"
@@ -720,6 +764,7 @@ ptBR = "O nível do estoque do distrito será tratado como uma porcentagem da ca
 koKR = "구역의 재고 수준은 아이템 수가 아닌 용량의 백분율로 처리됩니다."
 csCZ = "Úroveň zásob v okrese bude považována za procento kapacity, spíše než za počet položek."
 viVN = "Mức tồn kho của khu vực sẽ được coi là phần trăm của công suất, thay vì số lượng mặt hàng."
+trTR = "İlçe stok seviyesi, bir ürün sayısı yerine kapasitenin yüzdesi olarak değerlendirilecektir."
 
 ["UI.TW.TradeOffice.SellWhen"]
 raw = "Sell when:"
@@ -736,6 +781,7 @@ ptBR = "Vender quando:"
 koKR = "판매 조건:"
 csCZ = "Prodávat, když:"
 viVN = "Bán khi:"
+trTR = "Şu durumda sat:"
 
 ["UI.TW.TradeOffice.BuyWhen"]
 raw = "Buy when:"
@@ -752,6 +798,7 @@ ptBR = "Comprar quando:"
 koKR = "구매 시:"
 csCZ = "Koupit, když:"
 viVN = "Mua khi:"
+trTR = "Aldığında:"
 
 ["UI.TW.TradeOffice.NoWorkStatus"]
 raw = "No trading to do"
@@ -768,6 +815,7 @@ ptBR = "Sem comércio a fazer"
 koKR = "거래할 일이 없습니다"
 csCZ = "Není žádný obchod ke splnění"
 viVN = "Không có giao dịch nào"
+trTR = "Yapılacak ticaret yok"
 
 ["UI.TW.TradeOffice.NoGoodStatus"]
 raw = "No storage building connected, or no good set"
@@ -784,6 +832,7 @@ ptBR = "Nenhum prédio de armazenamento conectado ou nenhum bem definido"
 koKR = "연결된 저장 건물이 없거나, 설정된 물품이 없습니다"
 csCZ = "Není připojena žádná skladová budova, nebo nebyly nastaveny žádné zboží"
 viVN = "Không có tòa nhà lưu trữ nào được kết nối, hoặc không có hàng hóa nào được đặt"
+trTR = "Depo binası bağlı değil veya herhangi bir malzeme ayarlanmamış"
 
 ["UI.TW.TradeOffice.WorkerDelay"]
 raw = "Worker delay"
@@ -800,6 +849,7 @@ ptBR = " atraso do trabalhador"
 koKR = "작업자 지연"
 csCZ = "Zpoždění pracovníka"
 viVN = "Độ trễ của công nhân"
+trTR = "İşçi gecikmesi"
 
 ["UI.TW.TradeOffice.TT.WorkerDelay"]
 raw = "Delay after trading is required but before a worker will be summoned. Use to reduce cyclic worker behavior. Value is in beaver-hours."
@@ -816,6 +866,7 @@ ptBR = "O atraso após a troca é necessário, mas antes que um trabalhador seja
 koKR = "거래 후 지연이 필요하지만 작업자가 소환되기 전입니다. 주기적인 작업자 행동을 줄이는 데 사용하십시오. 값은 비버-시간 단위입니다."
 csCZ = "Zpoždění po obchodování je vyžadováno, ale předtím, než bude pracovník povolán. Použijte k omezení cyklického chování pracovníků. Hodnota je v bobřích hodinách."
 viVN = "Độ trễ sau khi giao dịch là cần thiết nhưng trước khi một công nhân được triệu tập. Sử dụng để giảm hành vi công nhân chu kỳ. Giá trị tính bằng giờ con nhím."
+trTR = "Ticaret sonrası gecikme gereklidir, ancak bir işçi çağrılmadan önce. Döngüsel işçi davranışını azaltmak için kullanılır. Değer, kunduz-saat cinsindendir."
 
 ["ModSetting.TWTradeOffice.ShowStatusIcons"]
 raw = "Show status icons"
@@ -832,6 +883,7 @@ ptBR = "Mostrar ícones de status"
 koKR = "상태 아이콘 표시"
 csCZ = "Zobrazit ikony stavu"
 viVN = "Hiển thị biểu tượng trạng thái"
+trTR = "Durum simgelerini göster"
 
 ["ModSetting.TWTradeOffice.ShowStatusIconsDesc"]
 raw = "Show the 'nothing to trade' status icon above buildings"
@@ -848,6 +900,7 @@ ptBR = "Mostre o ícone de status 'nada para negociar' acima dos edifícios"
 koKR = "건물 위에 '거래할 것이 없음' 상태 아이콘 표시"
 csCZ = "Zobrazit ikonu stavu 'není co obchodovat' nad budovami"
 viVN = "Hiển thị biểu tượng trạng thái 'không có gì để giao dịch' phía trên các tòa nhà"
+trTR = "Binaların üzerinde 'takas edilecek bir şey yok' durum simgesini göster"
 
 ["ModSetting.TWTradeOffice.AllowAllGoods"]
 raw = "Allow all goods"
@@ -864,6 +917,7 @@ ptBR = "Permitir todos os bens"
 koKR = "모든 상품 허용"
 csCZ = "Povolit všechny zboží"
 viVN = "Cho phép mọi hàng hóa"
+trTR = "Her türlü malzeme kullanımına izin ver"
 
 ["ModSetting.TWTradeOffice.AllowAllGoodsDesc"]
 raw = "Allow buy and sell of any resource, even if they are blocked by a mod's blueprint settings"
@@ -880,6 +934,7 @@ ptBR = "Permitir a compra e venda de qualquer recurso, mesmo que estejam bloquea
 koKR = "모드의 청사진 설정에 의해 차단된 자원도 포함하여 모든 자원의 구매 및 판매를 허용합니다."
 csCZ = "Povolit nákup a prodej jakéhokoli zdroje, i když je blokován nastavením modulu."
 viVN = "Cho phép mua và bán bất kỳ nguồn tài nguyên nào, ngay cả khi chúng bị chặn bởi cài đặt bản vẽ của mod"
+trTR = "Mod planı ayarları tarafından engellenmiş olsa bile, her türlü kaynağın alım satımına izin ver"
 
 ["ModSetting.TWTradeOffice.DefaultWorkerDelay"]
 raw = "Default worker delay"
@@ -896,6 +951,7 @@ ptBR = "Delay padrão do trabalhador"
 koKR = "기본 작업자 지연"
 csCZ = "Výchozí zpoždění pracovníka"
 viVN = "Thời gian trễ công nhân mặc định"
+trTR = "Varsayılan işçi gecikmesi"
 
 ["ModSetting.TWTradeOffice.DefaultWorkerDelayDesc"]
 raw = "Delay after trading is required but before a worker will be summoned. Use to reduce cyclic worker behavior. Value is in beaver-hours."
@@ -912,6 +968,7 @@ ptBR = "Atraso após a troca é necessário, mas antes que um trabalhador seja c
 koKR = "거래 후 직원이 호출되기 전에 필요한 지연 시간입니다. 주기적인 직원 행동을 줄이는 데 사용하세요. 값은 비버-시간 단위입니다."
 csCZ = "Zpoždění po obchodování je vyžadováno, ale před tím, než bude povolán pracovník. Použijte ke snížení cyklického chování pracovníků. Hodnota je v bobřích hodinách."
 viVN = "Thời gian trì hoãn sau khi giao dịch là cần thiết nhưng trước khi một công nhân được gọi. Sử dụng để giảm hành vi công nhân lặp đi lặp lại. Giá trị được tính bằng giờ hải ly."
+trTR = "Ticaret sonrası bir gecikme gereklidir ancak bir işçi çağrılmadan önce. Döngüsel işçi davranışını azaltmak için kullanın. Değer, kunduz-saat cinsindendir."
 
 ["ModSetting.TWTradeOffice.TradeInterval"]
 raw = "Trade interval"
@@ -928,6 +985,7 @@ ptBR = "Intervalo de comércio"
 koKR = "무역 간격"
 csCZ = "Interval obchodu"
 viVN = "Khoảng thời gian giao dịch"
+trTR = "Ticaret aralığı"
 
 ["ModSetting.TWTradeOffice.TradeIntervalDesc"]
 raw = "Interval between auto-trade cycles. Value is in beaver-hours."
@@ -944,6 +1002,7 @@ ptBR = "Intervalo entre ciclos de comércio automático. O valor está em horas-
 koKR = "자동 거래 주기 사이의 간격. 값은 비버 시간 단위입니다."
 csCZ = "Interval mezi cykly automatického obchodu. Hodnota je v bobřích hodinách."
 viVN = "Khoảng thời gian giữa các chu kỳ giao dịch tự động. Giá trị tính bằng giờ của loài nhím."
+trTR = "Otomatik ticaret döngüleri arasındaki aralık. Değer, kunduz saatleri cinsindendir."
 
 ["ModSetting.TWTradeOffice.BatchSize"]
 raw = "Batch size"
@@ -960,6 +1019,7 @@ ptBR = "Tamanho do lote"
 koKR = "배치 크기"
 csCZ = "Velikost šarže"
 viVN = "Kích thước lô"
+trTR = "Parti boyutu"
 
 ["ModSetting.TWTradeOffice.BatchSizeDesc"]
 raw = "Max number of items allowed per auto-trade cycle. This is a base-value; some goods may allow higher or lower amounts."
@@ -976,6 +1036,7 @@ ptBR = "Número máximo de itens permitidos por ciclo de comércio automático. 
 koKR = "자동 거래 주기당 허용되는 최대 아이템 수입니다. 이는 기본 값이며, 일부 상품은 더 많은 수량이나 적은 수량을 허용할 수 있습니다."
 csCZ = "Maximální počet položek povolených na automatickém obchodním cyklu. Toto je základní hodnota; některé zboží mohou povolit vyšší nebo nižší množství."
 viVN = "Số lượng tối đa của các mặt hàng được phép mỗi chu kỳ giao dịch tự động. Đây là giá trị cơ bản; một số hàng hóa có thể cho phép số lượng cao hơn hoặc thấp hơn."
+trTR = "Otomatik ticaret döngüsü başına izin verilen maksimum eşya sayısı. Bu bir temel değerdir; bazı mallar daha yüksek veya daha düşük miktarlara izin verebilir."
 
 ["ModSetting.TWTradeOffice.MarkupRate"]
 raw = "Markup"
@@ -992,6 +1053,7 @@ ptBR = "Margem"
 koKR = "마크업"
 csCZ = "Marže"
 viVN = "Đánh dấu"
+trTR = "Kar Marjı"
 
 ["ModSetting.TWTradeOffice.MarkupRateDesc"]
 raw = "The markup ratio between buy and sell prices"
@@ -1008,6 +1070,7 @@ ptBR = "A taxa de markup entre os preços de compra e venda"
 koKR = "구매 가격과 판매 가격 간의 마크업 비율"
 csCZ = "Poměr přirážky mezi nákupními a prodejními cenami"
 viVN = "Tỷ lệ đánh dấu giữa giá mua và giá bán"
+trTR = "Alım ve satım fiyatları arasındaki kar marjı"
 
 ["ModSetting.TWTradeOffice.TradeBalanceDecayRate"]
 raw = "Recovery rate"
@@ -1024,6 +1087,7 @@ ptBR = "Taxa de recuperação"
 koKR = "회복 속도"
 csCZ = "Úroveň obnovy"
 viVN = "Tỷ lệ phục hồi"
+trTR = "Kurtarma oranı"
 
 ["ModSetting.TWTradeOffice.TradeBalanceDecayRateDesc"]
 raw = "How fast prices will return to normal. 0 means never, 1 means the next day."
@@ -1040,6 +1104,7 @@ ptBR = "Quão rápido os preços voltarão ao normal. 0 significa nunca, 1 signi
 koKR = "가격이 정상으로 돌아가는 속도. 0은 결코 돌아가지 않음을 의미하고, 1은 다음 날을 의미합니다."
 csCZ = "Jak rychle se ceny vrátí do normálu. 0 znamená nikdy, 1 znamená následující den."
 viVN = "Tốc độ giá sẽ trở lại bình thường. 0 có nghĩa là không bao giờ, 1 nghĩa là vào ngày hôm sau."
+trTR = "Fiyatların normale dönme hızı. 0, asla demektir, 1 ise ertesi gün demektir."
 
 ["ModSetting.TWTradeOffice.TradeSensitivity"]
 raw = "Market sensitivity"
@@ -1056,6 +1121,7 @@ ptBR = " sensitividade do mercado"
 koKR = "시장 민감도"
 csCZ = "Citlivost trhu"
 viVN = "Cảm biến thị trường"
+trTR = "Pazar hassasiyeti"
 
 ["ModSetting.TWTradeOffice.TradeSensitivityDesc"]
 raw = "Controls how much prices change in response to buying or selling"
@@ -1072,6 +1138,7 @@ ptBR = "Controla o quanto os preços mudam em resposta a compras ou vendas"
 koKR = "구매 또는 판매에 대한 반응으로 가격이 얼마나 변동하는지를 조절합니다."
 csCZ = "Ovládá, jak moc se ceny mění v reakci na nákup nebo prodej"
 viVN = "Điều khiển mức độ thay đổi giá cả khi mua hoặc bán"
+trTR = "Satın alma veya satışa yanıt olarak fiyatların ne kadar değişeceğini kontrol eder"
 
 ["ModSetting.TWTradeOffice.DefaultGoodPrice"]
 raw = "Default price"
@@ -1088,6 +1155,7 @@ ptBR = "Preço padrão"
 koKR = "기본 가격"
 csCZ = "Výchozí cena"
 viVN = "Giá mặc định"
+trTR = "Varsayılan fiyat"
 
 ["ModSetting.TWTradeOffice.DefaultGoodPriceDesc"]
 raw = "Default price for unknown goods"
@@ -1104,6 +1172,7 @@ ptBR = "Preço padrão para bens desconhecidos"
 koKR = "알 수 없는 상품의 기본 가격"
 csCZ = "Výchozí cena pro neznámé zboží"
 viVN = "Giá mặc định cho hàng hóa chưa biết"
+trTR = "Bilinmeyen mallar için varsayılan fiyat"
 
 ["ModSetting.TWTradeOffice.DefaultGoodSensitivity"]
 raw = "Default good sensitivity"
@@ -1120,6 +1189,7 @@ ptBR = "Sensibilidade padrão de mercadorias"
 koKR = "기본 품목 민감도"
 csCZ = "Výchozí citlivost zboží"
 viVN = "Cảm biến hàng hóa mặc định"
+trTR = "Varsayılan mal hassasiyeti"
 
 ["ModSetting.TWTradeOffice.DefaultGoodSensitivityDesc"]
 raw = "Default sensitivity for unknown goods. This is multiplied with the global Trade Sensitivity value."
@@ -1136,6 +1206,7 @@ ptBR = "Sensibilidade padrão para bens desconhecidos. Isso é multiplicado pelo
 koKR = "알 수 없는 상품에 대한 기본 민감도입니다. 이는 전 세계 거래 민감도 값과 곱해집니다."
 csCZ = "Výchozí citlivost pro neznámé zboží. Tato hodnota je násobena globální hodnotou citlivosti obchodu."
 viVN = "Cảm biến mặc định cho hàng hóa chưa biết. Điều này được nhân với giá trị Cảm biến Thương mại toàn cầu."
+trTR = "Bilinmeyen mallar için varsayılan hassasiyet. Bu, küresel Ticaret Hassasiyet değeri ile çarpılır."
 
 ["ModSetting.TWTradeOffice.DefaultGoodDecayScale"]
 raw = "Default trade balance decay"
@@ -1152,6 +1223,7 @@ ptBR = "Decaimento padrão do saldo comercial"
 koKR = "기본 거래 균형 감소"
 csCZ = "Základní úpadek obchodní bilance"
 viVN = "Độ suy giảm cân bằng giao dịch mặc định"
+trTR = "Varsayılan ticaret dengesi aşınması"
 
 ["ModSetting.TWTradeOffice.DefaultGoodDecayScaleDesc"]
 raw = "Default trade balance decay rate for unknown goods. This is multiplied with the global trade balance decay rate"
@@ -1168,6 +1240,7 @@ ptBR = "Taxa de decadência do saldo comercial padrão para mercadorias desconhe
 koKR = "알려지지 않은 물품의 기본 거래 균형 감소 비율입니다. 이것은 전세계 거래 균형 감소 비율과 곱해집니다."
 csCZ = "Výchozí míra úpadku obchodní bilance pro neznámé zboží. Tato hodnota se násobí globální mírou úpadku obchodní bilance."
 viVN = "Tỷ lệ suy giảm cân bằng thương mại mặc định cho hàng hóa không xác định. Điều này được nhân với tỷ lệ suy giảm cân bằng thương mại toàn cầu."
+trTR = "Bilinmeyen ürünler için varsayılan ticaret dengesi bozulma oranı. Bu, genel ticaret dengesi bozulma oranı ile çarpılır."
 
 ["ModSetting.TWTradeOffice.DefaultGoodMarkupScale"]
 raw = "Default markup"
@@ -1184,6 +1257,7 @@ ptBR = "Markup padrão"
 koKR = "기본 마크업"
 csCZ = "Výchozí přirážka"
 viVN = "Đánh dấu mặc định"
+trTR = "Varsayılan kar"
 
 ["ModSetting.TWTradeOffice.DefaultGoodMarkupScaleDesc"]
 raw = "Default markup for unknown goods. This is multiplied with the global markup value."
@@ -1200,6 +1274,7 @@ ptBR = "Markup padrão para bens desconhecidos. Isso é multiplicado pelo valor 
 koKR = "알려지지 않은 상품에 대한 기본 마진. 이는 전세계 마진 값과 곱해집니다."
 csCZ = "Výchozí marže pro neznámé zboží. Tato hodnota se násobí globální marží."
 viVN = "Đánh dấu mặc định cho hàng hóa không xác định. Điều này được nhân với giá trị đánh dấu toàn cầu."
+trTR = "Bilinmeyen mallar için varsayılan kar marjı. Bu, genel kar marjı değeri ile çarpılır."
 
 ["ModSetting.TWTradeOffice.UseManualTrading"]
 raw = "Allow manual trading"
@@ -1216,6 +1291,7 @@ ptBR = "Permitir comércio manual"
 koKR = "수동 거래 허용"
 csCZ = "Povolit manuální obchodování"
 viVN = "Cho phép giao dịch thủ công"
+trTR = "Manuel ticarete izin ver"
 
 ["ModSetting.TWTradeOffice.UseManualTradingDesc"]
 raw = "Allow the player to buy and sell goods instantly"
@@ -1232,6 +1308,7 @@ ptBR = "Permitir que o jogador compre e venda bens instantaneamente"
 koKR = "플레이어가 즉시 상품을 사고 팔 수 있도록 허용합니다"
 csCZ = "Umožnit hráči okamžitě nakupovat a prodávat zboží"
 viVN = "Cho phép người chơi mua và bán hàng hóa ngay lập tức"
+trTR = "Oyuncunun malları anında alıp satmasına izin ver"
 
 ["ModSetting.TWTradeOffice.PriceFluxDelta"]
 raw = "Transition speed"
@@ -1248,6 +1325,7 @@ ptBR = "Velocidade de transição"
 koKR = "전환 속도"
 csCZ = "Rychlost přechodu"
 viVN = "Vận tốc chuyển đổi"
+trTR = "Geçiş hızı"
 
 ["ModSetting.TWTradeOffice.PriceFluxDeltaDesc"]
 raw = "How fast the price should change per day. 0 is none, 1 is instant. The starting and ending transitions will last approximately (1 / Transition speed) days."
@@ -1264,6 +1342,7 @@ ptBR = "Quão rápido o preço deve mudar por dia. 0 é nenhum, 1 é instantâne
 koKR = "가격이 하루에 얼마나 빨리 변할지. 0은 없음, 1은 즉시. 시작과 끝 전환은 약 (1 / 전환 속도)일 동안 지속됩니다."
 csCZ = "Jak rychle by se měla cena měnit za den. 0 je žádná změna, 1 je okamžitá. Počáteční a koncové přechody budou trvat přibližně (1 / Rychlost přechodu) dní."
 viVN = "Tốc độ thay đổi giá mỗi ngày. 0 là không có, 1 là ngay lập tức. Thời gian chuyển tiếp bắt đầu và kết thúc sẽ kéo dài khoảng (1 / Tốc độ chuyển tiếp) ngày."
+trTR = "Fiyatın günde ne kadar hızlı değişmesi gerektiği. 0 yok, 1 anında. Başlangıç ve bitiş geçişleri yaklaşık (1 / Geçiş hızı) gün sürecektir."
 
 ["ModSetting.TWTradeOffice.PriceFluxRange"]
 raw = "Range"
@@ -1280,6 +1359,7 @@ ptBR = "Alcance"
 koKR = "범위"
 csCZ = "Rozsah"
 viVN = "Phạm vi"
+trTR = "Aralık"
 
 ["ModSetting.TWTradeOffice.PriceFluxRangeDesc"]
 raw = "How large the price changes can be. 0 means no changes. .5 means +/- 50%  2.0 means +/- 200% (The price can never go below 10% of normal, but if you set this to 10 it may go up to 1000% above normal)."
@@ -1296,6 +1376,7 @@ ptBR = "Quão grandes podem ser as mudanças de preço. 0 significa nenhuma alte
 koKR = "가격 변화가 얼마나 클 수 있는지. 0은 변화가 없음을 의미합니다. 0.5는 +/- 50%를 의미하며, 2.0은 +/- 200%를 의미합니다. (가격은 정상 가격의 10% 아래로는 내려갈 수 없지만, 이를 10으로 설정하면 정상 가격보다 1000%까지 올라갈 수 있습니다.)"
 csCZ = "Jak velké mohou být změny cen. 0 znamená žádné změny. 0,5 znamená +/- 50 %, 2,0 znamená +/- 200 % (cena nemůže nikdy klesnout pod 10 % normální ceny, ale pokud to nastavíte na 10, může vzrůst až na 1000 % nad normální cenu)."
 viVN = "Các thay đổi giá có thể lớn đến mức nào. 0 có nghĩa là không có thay đổi. 0.5 có nghĩa là +/- 50%. 2.0 có nghĩa là +/- 200% (Giá không bao giờ thấp hơn 10% của mức bình thường, nhưng nếu bạn đặt giá trị này là 10, nó có thể lên đến 1000% so với mức bình thường)."
+trTR = "Fiyat değişikliklerinin ne kadar büyük olabileceğini belirtir. 0, değişiklik olmadığını gösterir. 0.5, +/- %50 anlamına gelir. 2.0, +/- %200 anlamına gelir (Fiyat asla normalin %10'unun altına düşemez, ancak bunu 10 olarak ayarlarsanız normalin %1000 üstüne çıkabilir)."
 
 ["ModSetting.TWTradeOffice.PriceFluxMaxDuration"]
 raw = "Max duration"
@@ -1312,6 +1393,7 @@ ptBR = "Duração máxima"
 koKR = "최대 지속시간"
 csCZ = "Maximální trvání"
 viVN = "Thời gian tối đa"
+trTR = "En fazla süre"
 
 ["ModSetting.TWTradeOffice.PriceFluxMaxDurationDesc"]
 raw = "Maximum number of days a price event may last. Does not include the transition periods before and after."
@@ -1328,6 +1410,7 @@ ptBR = "Duração máxima, em dias, que um evento de preço pode durar. Não inc
 koKR = "가격 이벤트가 지속될 수 있는 최대 일수입니다. 전후의 전환 기간은 포함되지 않습니다."
 csCZ = "Maximální počet dní, po které může cena zůstat na určité úrovni. Nezahrnuje přechodná období před a po."
 viVN = "Số ngày tối đa mà một sự kiện giá có thể kéo dài. Không bao gồm các giai đoạn chuyển tiếp trước và sau."
+trTR = "Bir fiyat olayının sürebileceği maksimum gün sayısı. Öncesindeki ve sonrasındaki geçiş sürelerini içermez."
 
 ["ModSetting.TWTradeOffice.PriceFluxChance"]
 raw = "Chance of event"
@@ -1344,6 +1427,7 @@ ptBR = "Chance de evento"
 koKR = "이벤트 확률"
 csCZ = "Šance na událost"
 viVN = "Xác suất sự kiện"
+trTR = "Etkinlik şansı"
 
 ["ModSetting.TWTradeOffice.PriceFluxChanceDesc"]
 raw = "Percent chance that a price event will begin. This is rolled once a day, for each good type."
@@ -1360,6 +1444,7 @@ ptBR = "Chance em porcentagem de que um evento de preço comece. Isso é rolado 
 koKR = "가격 이벤트가 시작될 확률입니다. 이 확률은 매일 각 상품 유형마다 한 번씩 주사위를 굴립니다."
 csCZ = "„Percentuální šance, že dojde k cenové události. Tato šance se vyhodnocuje jednou denně pro každý typ zboží.“"
 viVN = "Phần trăm xác suất xảy ra sự kiện giá. Điều này được lăn một lần mỗi ngày, cho mỗi loại hàng hóa."
+trTR = "Bir fiyat olayının başlayacağına dair yüzde olasılık. Bu, her gün her mal türü için bir kez belirlenir."
 
 ["ModSetting.TWTradeOffice.UsePriceResponse"]
 raw = "Enable price response"
@@ -1376,6 +1461,7 @@ ptBR = "Ativar resposta de preço"
 koKR = "가격 반응 활성화"
 csCZ = "Povolit reakci na cenu"
 viVN = "Bật phản hồi giá"
+trTR = "Fiyat tepkisini etkinleştir"
 
 ["ModSetting.TWTradeOffice.UsePriceResponseDesc"]
 raw = "Allow prices to go up or down as a result of buying or selling"
@@ -1392,6 +1478,7 @@ ptBR = "Permitir que os preços aumentem ou diminuam como resultado de compras o
 koKR = "구매나 판매의 결과로 가격이 상승하거나 하락하도록 허용"
 csCZ = "Umožnit cenám růst nebo klesat v důsledku nákupu nebo prodeje"
 viVN = "Cho phép giá tăng hoặc giảm do việc mua hoặc bán"
+trTR = "Alım veya satım sonucu fiyatların yükselmesine veya düşmesine izin ver"
 
 ["ModSetting.TWTradeOffice.UsePriceFlux"]
 raw = "Enable fluctuation"
@@ -1408,6 +1495,7 @@ ptBR = "Ativar flutuação"
 koKR = "변동 활성화"
 csCZ = "Umožnit kolísání"
 viVN = "Bật biến động"
+trTR = "Dalgalanmayı etkinleştir"
 
 ["ModSetting.TWTradeOffice.UsePriceFluxDesc"]
 raw = "Allow prices to go up or down randomly"
@@ -1424,6 +1512,7 @@ ptBR = "Permitir que os preços subam ou desçam aleatoriamente"
 koKR = "가격이 무작위로 상승하거나 하락하도록 허용"
 csCZ = "Povolit cenám, aby se náhodně zvyšovaly nebo snižovaly"
 viVN = "Cho phép giá cả tăng hoặc giảm ngẫu nhiên"
+trTR = "Fiyatların rastgele yükselmesine veya düşmesine izin ver"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxChanceScale"]
 raw = "Default flux chance scale"
@@ -1440,6 +1529,7 @@ ptBR = "Escala padrão de chance de fluxo"
 koKR = "기본 플럭스 확률 비율"
 csCZ = "Výchozí měřítko šance na tok"
 viVN = "Thang tỷ lệ cơ hội dòng chảy mặc định"
+trTR = "Varsayılan akış şansı ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxChanceScaleDesc"]
 raw = "Default flux chance scale for unknown goods"
@@ -1456,6 +1546,7 @@ ptBR = "Escala de chance de fluxo padrão para bens desconhecidos"
 koKR = "알려지지 않은 자원의 기본 플럭스 확률 배율"
 csCZ = "Výchozí měřítko šance na tok pro neznámé zboží"
 viVN = "Cơ chế tỷ lệ cơ hội flux mặc định cho hàng hóa không xác định"
+trTR = "Bilinmeyen mallar için varsayılan akış şansı ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxRangeScale"]
 raw = "Default flux range scale"
@@ -1472,6 +1563,7 @@ ptBR = "Escala de alcance de fluxo padrão"
 koKR = "기본 플럭스 범위 스케일"
 csCZ = "Výchozí měřítko rozsahu toku"
 viVN = "Thang đo phạm vi lưu lượng mặc định"
+trTR = "Varsayılan akış aralığı ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxRangeScaleDesc"]
 raw = "Default flux range scale for unknown goods"
@@ -1488,6 +1580,7 @@ ptBR = "Escala de fluxo padrão para bens desconhecidos"
 koKR = "알려지지 않은 물품에 대한 기본 유동 범위 비율"
 csCZ = "Výchozí měřítko rozsahu toku pro neznámé zboží"
 viVN = "Thang đo phạm vi lưu lượng mặc định cho hàng hóa chưa biết"
+trTR = "Bilinmeyen mallar için varsayılan akış mesafe ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxDurationScale"]
 raw = "Default flux duration scale"
@@ -1504,6 +1597,7 @@ ptBR = "Escala de duração do fluxo padrão"
 koKR = "기본 플럭스 지속 시간 비율"
 csCZ = "Výchozí měřítko trvání toku"
 viVN = "Thang đo thời gian dòng chảy mặc định"
+trTR = "Varsayılan akış süresi ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxDurationScaleDesc"]
 raw = "Default flux duration scale for unknown goods"
@@ -1520,6 +1614,7 @@ ptBR = "Escala de duração do fluxo padrão para bens desconhecidos"
 koKR = "불확실한 상품에 대한 기본 유통 지속 시간 비율"
 csCZ = "Výchozí stupnice trvání toku pro neznámé zboží"
 viVN = "Thang đo thời gian lưu thông mặc định cho hàng hóa chưa biết"
+trTR = "Bilinmeyen mallar için varsayılan akış süresi ölçeklendirmesi"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxDeltaScale"]
 raw = "Default flux transition speed scale"
@@ -1536,6 +1631,7 @@ ptBR = "Escala de velocidade de transição do fluxo padrão"
 koKR = "기본 플럭스 전환 속도 비율"
 csCZ = "Výchozí škála rychlosti přechodu toku"
 viVN = "Thang đo tốc độ chuyển đổi dòng chảy mặc định"
+trTR = "Varsayılan akış geçiş hızı ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodFluxDeltaScaleDesc"]
 raw = "Default flux delta scale for unknown goods"
@@ -1552,6 +1648,7 @@ ptBR = "Escala de delta de fluxo padrão para bens desconhecidos"
 koKR = "모르는 상품에 대한 기본 유동 변동 비율"
 csCZ = "Výchozí delta měřítko toku pro neznámé zboží"
 viVN = "Thang delta dòng chảy mặc định cho hàng hóa chưa biết"
+trTR = "Bilinmeyen mallar için varsayılan akış delta ölçeği"
 
 ["ModSetting.TWTradeOffice.ManualMarkup"]
 raw = "Manual trading penalty"
@@ -1568,6 +1665,7 @@ ptBR = "Penalidade por comércio manual"
 koKR = "수동 거래 패널티"
 csCZ = "Pokuta za manuální obchodování"
 viVN = "Cái giá phạt khi giao dịch thủ công"
+trTR = "Manuel ticaret cezası"
 
 ["ModSetting.TWTradeOffice.ManualMarkupDesc"]
 raw = "Manual buy and sell prices are made worse by this scale factor."
@@ -1584,6 +1682,7 @@ ptBR = "Os preços de compra e venda manuais são piorados por este fator de esc
 koKR = "수동 구매 및 판매 가격은 이 비율로 인해 악화됩니다."
 csCZ = "Ruční ceny nákupu a prodeje jsou touto měřítkovou faktorou horší."
 viVN = "Các mức giá mua và bán thủ công bị ảnh hưởng tiêu cực bởi hệ số tỷ lệ này."
+trTR = "Manuel alım ve satım fiyatları bu oran faktörüyle daha kötü hale getiriliyor."
 
 ["ModSetting.TWTradeOffice.DefaultGoodBatchSizeScale"]
 raw = "Default batch size scale"
@@ -1600,6 +1699,7 @@ ptBR = "Escala de tamanho do lote padrão"
 koKR = "기본 배치 크기 비율"
 csCZ = "Výchozí měřítko velikosti šarže"
 viVN = "Thang độ kích thước lô hàng mặc định"
+trTR = "Varsayılan parti boyutu ölçeği"
 
 ["ModSetting.TWTradeOffice.DefaultGoodBatchSizeScaleDesc"]
 raw = "Default batch size scale for unknown goods"
@@ -1616,6 +1716,7 @@ ptBR = "Escala de tamanho do lote padrão para bens desconhecidos"
 koKR = "알 수 없는 상품에 대한 기본 배치 크기 비율"
 csCZ = "Výchozí měřítko velikosti dávky pro neznámé zboží"
 viVN = "Quy mô kích thước lô hàng mặc định cho hàng hóa không xác định"
+trTR = "Bilinmeyen mallar için varsayılan parti boyutu ölçeği"
 
 ["UI.TW.TradeOffice.ShowMarketInfo"]
 raw = "Show list of all goods and prices"
@@ -1632,6 +1733,7 @@ ptBR = "Mostrar lista de todos os bens e preços"
 koKR = "모든 상품과 가격 목록 표시"
 csCZ = "Zobrazit seznam všech zboží a cen"
 viVN = "Hiển thị danh sách tất cả hàng hóa và giá cả"
+trTR = "Tüm malların ve fiyatların listesini göster"
 
 ["UI.TW.TradeOffice.InfoHeader"]
 raw = "Trade Price Info"
@@ -1648,6 +1750,7 @@ ptBR = "Informações sobre Preço de Comércio"
 koKR = "거래 가격 정보"
 csCZ = "„Informace o obchodní ceně“"
 viVN = "Thông tin Giá Thương Mại"
+trTR = "Ticaret Fiyatı Bilgisi"
 
 ["UI.TW.TradeOffice.NameCol"]
 raw = "Good"
@@ -1664,6 +1767,7 @@ ptBR = "Bom"
 koKR = "좋음"
 csCZ = "Dobře"
 viVN = "Tốt"
+trTR = "İyi"
 
 ["UI.TW.TradeOffice.BuyCol"]
 raw = "Buy"
@@ -1680,6 +1784,7 @@ ptBR = "Comprar"
 koKR = "구매"
 csCZ = "Koupit"
 viVN = "Mua"
+trTR = "Satın Al"
 
 ["UI.TW.TradeOffice.SellCol"]
 raw = "Sell"
@@ -1696,6 +1801,7 @@ ptBR = "Vender"
 koKR = "판매"
 csCZ = "Prodat"
 viVN = "Bán"
+trTR = "Sat"
 
 ["UI.TW.TradeOffice.BaseCol"]
 raw = "Base price"
@@ -1712,6 +1818,7 @@ ptBR = "Preço base"
 koKR = "기본 가격"
 csCZ = "Základní cena"
 viVN = "Giá cơ bản"
+trTR = "Temel fiyat"
 
 ["UI.TW.TradeOffice.FluxCol"]
 raw = "Flux"
@@ -1728,6 +1835,7 @@ ptBR = "Fluxo"
 koKR = "플럭스"
 csCZ = "Tok"
 viVN = "Dòng chảy"
+trTR = "Akış"
 
 ["UI.TW.TradeOffice.BalanceCol"]
 raw = "Trade Balance"
@@ -1744,6 +1852,7 @@ ptBR = "Balanço Comercial"
 koKR = "무역 잔액"
 csCZ = "Obchodní bilance"
 viVN = "Cân bằng thương mại"
+trTR = "Ticaret Dengesi"
 
 ["UI.TW.TradeOffice.BatchSizeCol"]
 raw = "Batch Size"
@@ -1760,6 +1869,7 @@ ptBR = "Tamanho do Lote"
 koKR = "배치 크기"
 csCZ = "Velikost dávky"
 viVN = "Quy Mô Lô"
+trTR = "Parti Boyutu"
 
 ["ModSetting.TWTradeOffice.PriceHeader"]
 raw = "<b><YellowHighlight>Market buy/sell response</b></YellowHighlight>"
@@ -1776,6 +1886,7 @@ ptBR = "<b><YellowHighlight>Resposta de compra/venda do mercado</b></YellowHighl
 koKR = "<b><YellowHighlight>시장 매매 응답</b></YellowHighlight>"
 csCZ = "<b><YellowHighlight>Odpověď na nákup/prodej na trhu</b></YellowHighlight>"
 viVN = "<b><YellowHighlight>Phản hồi mua/bán trên thị trường</b></YellowHighlight>"
+trTR = "<b><YellowHighlight>Piyasa alım/satım yanıtı</b></YellowHighlight>"
 
 ["ModSetting.TWTradeOffice.PriceFluxHeader"]
 raw = "<b><YellowHighlight>Random market fluctuation</b></YellowHighlight>"
@@ -1792,6 +1903,7 @@ ptBR = "<b><YellowHighlight>Flutuação aleatória de mercado</b></YellowHighlig
 koKR = "<b><YellowHighlight>무작위 시장 변동</b></YellowHighlight>"
 csCZ = "<b><YellowHighlight>Randomní výkyv na trhu</b></YellowHighlight>"
 viVN = "<b><YellowHighlight>Biến động thị trường ngẫu nhiên</b></YellowHighlight>"
+trTR = "<b><YellowHighlight>Rastgele piyasa dalgalanması</b></YellowHighlight>"
 
 ["ModSetting.TWTradeOffice.DefaultGoodHeader"]
 raw = "<b><YellowHighlight>Default good settings</b></YellowHighlight>"
@@ -1808,6 +1920,7 @@ ptBR = "<b><YellowHighlight>Configurações padrão de bens</b></YellowHighlight
 koKR = "<b><YellowHighlight>기본 상품 설정</b></YellowHighlight>"
 csCZ = "<b><YellowHighlight>Výchozí nastavení zboží</b></YellowHighlight>"
 viVN = "<b><YellowHighlight>Cài đặt hàng hóa mặc định</b></YellowHighlight>"
+trTR = "<b><YellowHighlight>Varsayılan mal ayarları</b></YellowHighlight>"
 
 ["ModSetting.TWTradeOffice.GeneralHeader"]
 raw = "<b><YellowHighlight>General</b></YellowHighlight>"
@@ -1824,3 +1937,4 @@ ptBR = "<b><YellowHighlight>Geral</b></YellowHighlight>"
 koKR = "<b><YellowHighlight>일반</b></YellowHighlight>"
 csCZ = "<b><YellowHighlight>Obecné</b></YellowHighlight>"
 viVN = "<b><YellowHighlight>Tổng quát</b></YellowHighlight>"
+trTR = "<b><YellowHighlight>Genel</b></YellowHighlight>"
