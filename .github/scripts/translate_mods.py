@@ -1016,7 +1016,8 @@ def process_toml_file(
     translator: TranslatorLLM,
     target_languages: List[str],
     dry_run: bool = False,
-    max_entry_threads: Union[int, Callable[[], int]] = 1
+    max_entry_threads: Union[int, Callable[[], int]] = 1,
+    max_lang_threads: int = 0
 ) -> Tuple[int, int]:
     """
     Process a single TOML file and translate missing entries.
@@ -1128,7 +1129,8 @@ def process_toml_file(
         new_translations: dict = {}
 
         # Parallelise over languages within this entry
-        with ThreadPoolExecutor(max_workers=min(len(languages_to_translate), 10)) as lang_executor:
+        lang_cap = len(languages_to_translate) if max_lang_threads <= 0 else min(len(languages_to_translate), max_lang_threads)
+        with ThreadPoolExecutor(max_workers=lang_cap) as lang_executor:
             future_to_lang = {
                 lang_executor.submit(
                     translate_entry,
@@ -1430,6 +1432,7 @@ def process_all_files(
                 file_languages,
                 dry_run,
                 max_entry_threads=1,  # Serialize entries within each file
+                max_lang_threads=max_threads_per_file,
             )
         finally:
             if _work_tracker:
