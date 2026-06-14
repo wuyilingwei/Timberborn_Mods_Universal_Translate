@@ -19,6 +19,7 @@ viVN = "NOR"
 
 ["EnhancedRelay.Mode.Nor.Description"]
 raw = "<YellowHighlight>On</YellowHighlight> if both inputs are <YellowHighlight>Off</YellowHighlight>."
+new = "<YellowHighlight>On</YellowHighlight> if all inputs are <YellowHighlight>Off</YellowHighlight>."
 status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if both inputs are <YellowHighlight>Off</YellowHighlight>."
 zhCN = "如果两个输入都是<YellowHighlight>关闭</YellowHighlight>，则<YellowHighlight>开启</YellowHighlight>。"
@@ -83,6 +84,7 @@ viVN = "XNOR"
 
 ["EnhancedRelay.Mode.Xnor.Description"]
 raw = "<YellowHighlight>On</YellowHighlight> if inputs are equal."
+new = "<YellowHighlight>On</YellowHighlight> if an even number of inputs are <YellowHighlight>On</YellowHighlight>."
 status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if inputs are equal."
 zhCN = "<YellowHighlight>开启</YellowHighlight> 如果输入相等。"
