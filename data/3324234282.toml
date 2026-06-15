@@ -2001,6 +2001,66 @@ koKR = "신호: {0}/{1}"
 csCZ = "Signály: {0}/{1}"
 viVN = "Tín hiệu: {0}/{1}"
 
+["IgorZ.Automation.PinnedCustomSignals.AttachSignal"]
+new = "Pin signal..."
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.CreateManualSignal"]
+new = "Create manual signal..."
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.DeleteManualSignal"]
+new = "Delete manual signal"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.NoMoreSignals"]
+new = "All signals pinned"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.NoSignals"]
+new = "No custom signals"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SignalValue"]
+new = "{0}: {1}"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetSignalValue"]
+new = "Change signal value"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.DialogHeader"]
+new = "Change signal value"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.DuplicateSignalName"]
+new = "Signal already exists: {0}"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.InvalidValueFormat"]
+new = "Invalid signal value: {0}\nThe value can have at most two digits after the decimal point."
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.InvalidValueNumber"]
+new = "Invalid signal value: {0}\nEnter a number, for example: 1, 1.5, or -2.25."
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.SignalName"]
+new = "Signal: {0}"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.SignalNameLabel"]
+new = "Signal name"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.ValueLabel"]
+new = "Value"
+status = "normal"
+
+["IgorZ.Automation.PinnedCustomSignals.UnpinSignal"]
+new = "Unpin signal"
+status = "normal"
+
 ["IgorZ.Automation.Tool.CopyRules.Text"]
 raw = "Copy {0} rules"
 status = "normal"
@@ -3507,6 +3567,7 @@ viVN = "Thiết lập tín hiệu cho công trình"
 
 ["IgorZ.Automation.Scripting.SignalsEditor.BadSignalNameMsg"]
 raw = "❌ Bad signal name!\nThe name must start with a letter and contain only letters, digits, and dots."
+new = "Bad signal name!\nThe name must start with a letter and contain only letters, digits, and dots."
 status = "normal"
 enUS = "❌ Bad signal name! The name must start with a letter and contain only letters, digits, and dots."
 zhCN = "❌ 信号名称无效！<br>名称必须以字母开头，且只能包含字母、数字和点号。"
@@ -4064,6 +4125,10 @@ ptBR = "Verificar valor do argumento em tempo de execução"
 koKR = "실행 중 인수 값 확인"
 csCZ = "Zkontrolovat hodnotu argumentu za běhu"
 viVN = "Kiểm tra giá trị đối số trong thời gian chạy"
+
+["IgorZ.Automation.Settings.ScriptEngine.PinnedCustomSignals"]
+new = "Show pinned custom signals panel"
+status = "normal"
 
 ["IgorZ.Automation.Settings.ScriptEngine.SignalExecutionStackSize"]
 raw = "Signal execution stack size"
