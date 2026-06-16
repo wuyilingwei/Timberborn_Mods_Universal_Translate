@@ -619,6 +619,14 @@ koKR = "산성 비 시작 가능한 가장 이른 사이클입니다. 이 사이
 csCZ = "Nejranější cyklus, ve kterém může začít kyselý déšť. Události před tímto cyklem jsou vždy bez znečištění, i když se čítač eskalace naplnil.\n\nVýchozí hodnota 10 poskytuje kolonii klidné přechodné období, než se počasí obrátí proti vám."
 viVN = "Chu kỳ sớm nhất mà mưa axit có thể bắt đầu. Các sự kiện trước chu kỳ này luôn sạch sẽ ngay cả khi chỉ số leo thang đã đầy.\n\nMặc định 10 mang đến cho thuộc địa một khoảng thời gian bình yên trước khi thời tiết có thể tồi tệ."
 
+["academicunwinds.Rainborn.Settings.SandStormMinCycle"]
+new = "Min cycle for sandstorms"
+status = "normal"
+
+["academicunwinds.Rainborn.Settings.SandStormMinCycle.Tooltip"]
+new = "Earliest cycle on which a sandstorm can roll. Before this cycle the scheduler treats sand as if it were disabled, so droughts just sit out and Random or Biased rolls that would have picked sand drop to silence instead.\n\nSand reshapes terrain permanently, so a grace period matters here the same way it does for acid. Default 10 mirrors the acid gate."
+status = "normal"
+
 ["academicunwinds.Rainborn.Settings.Volume"]
 raw = "Sound volume (%)"
 status = "normal"
