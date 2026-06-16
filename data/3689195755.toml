@@ -16,6 +16,7 @@ ptBR = "Monitor de Profundidade"
 koKR = "깊이 모니터"
 csCZ = "Hloubkoměr"
 viVN = "Máy theo dõi độ sâu"
+trTR = "Derinlik İzleyici"
 
 ["Building.DepthMonitor.Description"]
 raw = "Measures the water depth and sends an automation signal based on a low and high threshold."
@@ -32,6 +33,7 @@ ptBR = "Meça a profundidade da água e envie um sinal de automação com base e
 koKR = "수심을 측정하고 낮은 임계값과 높은 임계값에 따라 자동화 신호를 보냅니다."
 csCZ = "Změřuje hloubku vody a posílá automatizační signál na základě nízkého a vysokého prahu."
 viVN = "Đo độ sâu nước và gửi tín hiệu tự động dựa trên ngưỡng thấp và cao."
+trTR = "Su derinliğini ölçer ve düşük ile yüksek eşiklere dayanarak otomasyon sinyali gönderir."
 
 ["Building.DepthMonitor.TurnOnIf"]
 raw = "Turn ON if depth is ≤"
@@ -48,6 +50,7 @@ ptBR = "Ativar se a profundidade for ≤"
 koKR = "수심이 ≤일 때 켜기"
 csCZ = "Zapnout, pokud je hloubka ≤"
 viVN = "Bật ON nếu độ sâu ≤"
+trTR = "Derinlik ≤ ise AÇ"
 
 ["Building.DepthMonitor.TurnOffIf"]
 raw = "Turn OFF if depth is ≥"
@@ -64,3 +67,4 @@ ptBR = "Desligar SE a profundidade for ≥"
 koKR = "깊이가 ≥일 경우 끄기"
 csCZ = "Vypnout, pokud je hloubka ≥"
 viVN = "Tắt nếu độ sâu ≥"
+trTR = "Derinlik ≥ ise KAPAT"
