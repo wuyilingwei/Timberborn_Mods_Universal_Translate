@@ -115,53 +115,58 @@ jobs:
       - name: Upload to mod.io
         env:
           MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
+          # mod.io has deprecated api.mod.io for write operations — must use the
+          # user-scoped subdomain u-<user_id>.modapi.io. 50642970 = W10V account
+          # that owns mod 5238039. See agents/.../findings.md §F12.
+          MODIO_USER_ID: "50642970"
+          MODIO_GAME_ID: "3659"
+          MODIO_MOD_ID: "5238039"
         if: env.MODIO_TOKEN != ''
-        uses: nickelc/upload-to-modio@v2.1.0
         continue-on-error: true
         id: modio_upload
-        with:
-          token: ${{ secrets.MODIO_TOKEN }}
-          game: 3659
-          mod: 5238039
-          version: ${{ steps.version.outputs.VERSION }}
-          path: release.zip
-
-      - name: Diagnose mod.io upload failure
-        if: steps.modio_upload.outcome == 'failure'
-        env:
-          MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
         run: |
-          echo "=========================================="
-          echo "X mod.io upload failed"
-          echo "=========================================="
+          set -uo pipefail
+          API_BASE="https://u-${MODIO_USER_ID}.modapi.io/v1"
+          UPLOAD_URL="${API_BASE}/games/${MODIO_GAME_ID}/mods/${MODIO_MOD_ID}/files"
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          FILE_SIZE=$(wc -c < release.zip)
+
+          echo "Uploading to mod.io..."
+          echo "  Endpoint: ${UPLOAD_URL}"
+          echo "  Version:  ${VERSION}"
+          echo "  Package:  release.zip (${FILE_SIZE} bytes)"
           echo ""
-          echo "Most likely cause: MODIO_TOKEN secret has the wrong type."
-          echo ""
-          echo "mod.io write endpoints (upload file / add modfile) REQUIRE:"
-          echo "  -> OAuth 2 Access Token (Bearer Token)"
-          echo "  -> NOT an API Key (API Key only supports read-only GET)"
-          echo ""
-          echo "How to fix:"
-          echo "  1. Open https://mod.io/me/access while signed in"
-          echo "  2. In the 'OAuth Access' section (NOT the top 'API Key' box),"
-          echo "     create an Access Token with scope: Read + Write"
-          echo "  3. Update GitHub repo secret MODIO_TOKEN with that token"
-          echo "     Settings -> Secrets and variables -> Actions -> MODIO_TOKEN"
-          echo ""
-          echo "Preflight probe against https://api.mod.io/v1/me (token introspection):"
-          HTTP_CODE=$(curl -s -o /tmp/modio_me.json -w "%{http_code}" \
+
+          HTTP_CODE=$(curl -sS -o /tmp/modio_resp.json -w "%{http_code}" \
+            -X POST "${UPLOAD_URL}" \
             -H "Authorization: Bearer ${MODIO_TOKEN}" \
-            https://api.mod.io/v1/me || echo "curl_failed")
-          echo "  HTTP status: ${HTTP_CODE}"
-          echo "  Response body:"
-          sed 's/^/    /' /tmp/modio_me.json || true
+            -H "Accept: application/json" \
+            -F "filedata=@release.zip" \
+            -F "version=${VERSION}")
+
+          echo "mod.io HTTP ${HTTP_CODE}, response body:"
+          python3 -m json.tool /tmp/modio_resp.json 2>/dev/null \
+            | sed 's/^/  /' \
+            || sed 's/^/  /' /tmp/modio_resp.json
           echo ""
-          echo "Interpretation hints (mod.io error_ref):"
-          echo "  11001 / 11002 -> token is actually an API Key, not OAuth (the common case)"
-          echo "  11003 / 11004 -> token lacks 'write' scope"
-          echo "  11005         -> token expired or revoked"
+
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✓ mod.io upload succeeded"
+            exit 0
+          fi
+
+          echo "✗ mod.io upload failed (HTTP ${HTTP_CODE})"
           echo ""
-          echo "Diagnosis complete; continuing to Steam upload step."
+          echo "Quick triage by mod.io error_ref (see body above):"
+          echo "  11001 → deprecated api.mod.io domain (workflow now uses user subdomain — should not appear)"
+          echo "  11003/11004 → token lacks 'write' scope"
+          echo "  11005 → token expired or revoked"
+          echo "  13009 → filedata wrong type (must be application/zip)"
+          echo "  Other → check https://docs.mod.io/restapiref/#error-codes"
+          echo ""
+          echo "Token regeneration: https://mod.io/me/access  → OAuth Access → Read + Write"
+          echo "Continuing to Steam upload regardless."
+          exit 1
 
       - name: Publish to Steam Workshop
         env:
@@ -210,7 +215,7 @@ jobs:
           
           # Check mod.io result — failure is fatal (job exits 1), but only after Steam ran
           if [ "${{ steps.modio_upload.outcome }}" = "failure" ]; then
-            echo "✗ mod.io publication failed (see 'Diagnose mod.io upload failure' step above)"
+            echo "✗ mod.io publication failed (see 'Upload to mod.io' step above for HTTP code + error_ref)"
             HAS_ERRORS=true
           elif [ "${{ steps.modio_upload.outcome }}" = "success" ]; then
             echo "✓ mod.io publication succeeded"
