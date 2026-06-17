@@ -24,23 +24,22 @@ jobs:
 
       - name: Determine version
         id: version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Read version from repository's .github/data/version.txt
-          if [ ! -f ".github/data/version.txt" ]; then
-            echo "Error: .github/data/version.txt not found in repository"
+          # Source of truth: latest GitHub Release tag (e.g. "v2026.6.170")
+          # We no longer read .github/data/version.txt — it has been removed.
+          LATEST_TAG=$(gh release view --json tagName --jq '.tagName' 2>/dev/null || echo "")
+
+          if [ -z "$LATEST_TAG" ]; then
+            echo "Error: no GitHub Release found — cannot determine version to publish"
             exit 1
           fi
-          
-          VERSION_NUMBER=$(cat .github/data/version.txt | tr -d '\n\r ')
-          
-          if [ -z "$VERSION_NUMBER" ]; then
-            echo "Error: .github/data/version.txt is empty"
-            exit 1
-          fi
-          
-          VERSION="v${VERSION_NUMBER}"
-          echo "Read version from repository: $VERSION_NUMBER"
-          
+
+          VERSION="$LATEST_TAG"
+          VERSION_NUMBER="${LATEST_TAG#v}"
+
+          echo "Latest GitHub Release tag: $VERSION"
           echo "Version to publish: $VERSION"
           echo "VERSION=$VERSION" >> $GITHUB_ENV
           echo "VERSION_NUMBER=$VERSION_NUMBER" >> $GITHUB_ENV

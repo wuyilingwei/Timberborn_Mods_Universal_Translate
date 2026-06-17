@@ -36,21 +36,25 @@ jobs:
 
       - name: Check for data directory changes
         id: check_changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Check if version.txt exists and get the commit where it was last modified
-          if [ -f ".github/data/version.txt" ]; then
-            LAST_BUILD_COMMIT=$(git log -1 --format=%H -- .github/data/version.txt 2>/dev/null || echo "")
-            echo "Last build commit: $LAST_BUILD_COMMIT"
+          # Use the latest GitHub Release tag as the "last build" reference
+          # (replaces previous reliance on .github/data/version.txt)
+          LATEST_TAG=$(gh release view --json tagName --jq '.tagName' 2>/dev/null || echo "")
+          if [ -n "$LATEST_TAG" ]; then
+            LAST_BUILD_COMMIT=$(git rev-list -n 1 "$LATEST_TAG" 2>/dev/null || echo "")
+            echo "Latest release: $LATEST_TAG (commit $LAST_BUILD_COMMIT)"
           else
             LAST_BUILD_COMMIT=""
-            echo "No version.txt found, this is the first build"
+            echo "No GitHub Release found, this is the first build"
           fi
-          
+
           if [ -z "$LAST_BUILD_COMMIT" ]; then
             echo "No previous build found, will build"
             echo "should_build=true" >> $GITHUB_OUTPUT
           else
-            # Check if data directory has changed since last version.txt update
+            # Check if data directory has changed since the last release tag commit
             CHANGES=$(git diff --name-only "$LAST_BUILD_COMMIT" HEAD -- data/ 2>/dev/null || echo "")
             if [ -n "$CHANGES" ]; then
               echo "Data directory has changes since last build:"
@@ -71,6 +75,8 @@ jobs:
       - name: Generate version number
         id: version
         if: steps.check_changes.outputs.should_build == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Generate semantic version: year.month.dpatch (where d=day without leading zero, patch=1-9 daily release count)
           YEAR=$(date +%Y)
@@ -78,11 +84,12 @@ jobs:
           MONTH=${MONTH#0}  # Remove leading zero for portability
           DAY=$(date +%d)
           DAY=${DAY#0}  # Remove leading zero for portability
-          
-          # Read current version from version.txt
-          if [ -f ".github/data/version.txt" ]; then
-            CURRENT_VERSION=$(cat .github/data/version.txt)
-            echo "Current version: $CURRENT_VERSION"
+
+          # Read current version from latest GitHub Release tag (source of truth)
+          LATEST_TAG=$(gh release view --json tagName --jq '.tagName' 2>/dev/null || echo "")
+          if [ -n "$LATEST_TAG" ]; then
+            CURRENT_VERSION="${LATEST_TAG#v}"
+            echo "Current version (from latest release): $CURRENT_VERSION"
             
             # Extract year, month, dpatch from current version
             CURRENT_YEAR=$(echo $CURRENT_VERSION | cut -d. -f1)
@@ -122,9 +129,6 @@ jobs:
           echo "Building Version: $NEW_VERSION"
           echo "=========================================="
           echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
-          
-          # Update version.txt
-          echo "$NEW_VERSION" > .github/data/version.txt
 
       - name: Set up Python
         if: steps.check_changes.outputs.should_build == 'true'
@@ -223,7 +227,7 @@ jobs:
             cp -r mod/* "$RELEASE_DIR"/
           fi
           
-          # Copy info files (but not version.txt)
+          # Copy info files
           cp .github/data/thumbnail.png "$RELEASE_DIR"/
           cp .github/data/manifest.json "$RELEASE_DIR"/
           cp License.txt "$RELEASE_DIR"/
@@ -241,20 +245,22 @@ jobs:
 
       - name: Prepare release notes
         if: steps.check_changes.outputs.should_build == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NEW_VERSION="${{ steps.version.outputs.new_version }}"
           
           # Prepare release notes file (simpler and YAML-safe)
           RELEASE_NOTES_FILE="release_notes.md"
           
-          # Get last build commit for comparison
-          if [ -f ".github/data/version.txt" ]; then
-            # Get the commit where version.txt was last modified (before current changes)
-            LAST_BUILD_COMMIT=$(git log --skip=1 -1 --format=%H -- .github/data/version.txt 2>/dev/null || echo "")
-            echo "Last build commit: $LAST_BUILD_COMMIT"
+          # Get last build commit for changelog comparison — use the latest GitHub Release tag
+          LATEST_TAG=$(gh release view --json tagName --jq '.tagName' 2>/dev/null || echo "")
+          if [ -n "$LATEST_TAG" ]; then
+            LAST_BUILD_COMMIT=$(git rev-list -n 1 "$LATEST_TAG" 2>/dev/null || echo "")
+            echo "Last release tag: $LATEST_TAG (commit $LAST_BUILD_COMMIT)"
           else
             LAST_BUILD_COMMIT=""
-            echo "No version.txt found, this is the first build"
+            echo "No GitHub Release found, this is the first build"
           fi
           
           # Create changelog header
@@ -357,18 +363,21 @@ jobs:
             echo "✓ Build completed successfully - will create full release"
           fi
 
-      - name: Commit version update
+      - name: Commit manifest + changelog
         if: steps.check_changes.outputs.should_build == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add .github/data/version.txt .github/data/manifest.json .github/log/changelog.md
-          
+          # version.txt is gone — the tag of the upcoming GitHub Release is the
+          # authoritative version number. We only persist manifest.json (for
+          # readers who skim the repo) and changelog.md (for history).
+          git add .github/data/manifest.json .github/log/changelog.md
+
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update version to ${{ steps.version.outputs.new_version }}"
+            git commit -m "chore: refresh manifest/changelog for v${{ steps.version.outputs.new_version }}"
             
             # Push with retry logic
             MAX_RETRIES=3
