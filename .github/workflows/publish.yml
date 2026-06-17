@@ -155,13 +155,38 @@ jobs:
             exit 0
           fi
 
+          # Idempotent special-case: mod.io returns 422 + error_ref 13009 +
+          # message "This file has already been uploaded ..." when the exact
+          # release.zip (byte-identical hash) has been published before.
+          # That state is effectively success — the build IS on mod.io —
+          # so treat it as success to keep re-runs of the same version green.
+          # Other 422 / 13009 cases (e.g. filedata wrong type) are NOT swallowed.
+          if [ "$HTTP_CODE" = "422" ]; then
+            DUPLICATE=$(python3 -c "
+import json
+try:
+    d = json.load(open('/tmp/modio_resp.json'))
+    err = d.get('error', {})
+    msg = err.get('message', '')
+    ref = err.get('error_ref', 0)
+    print('1' if ref == 13009 and 'already been uploaded' in msg else '0')
+except Exception:
+    print('0')
+" 2>/dev/null || echo "0")
+            if [ "$DUPLICATE" = "1" ]; then
+              echo "ℹ mod.io idempotent hit: this exact release.zip is already published (HTTP 422 / error_ref 13009)"
+              echo "  No-op — treating as success since the build is already live on mod.io."
+              exit 0
+            fi
+          fi
+
           echo "✗ mod.io upload failed (HTTP ${HTTP_CODE})"
           echo ""
           echo "Quick triage by mod.io error_ref (see body above):"
           echo "  11001 → deprecated api.mod.io domain (workflow now uses user subdomain — should not appear)"
           echo "  11003/11004 → token lacks 'write' scope"
           echo "  11005 → token expired or revoked"
-          echo "  13009 → filedata wrong type (must be application/zip)"
+          echo "  13009 → validation failed (e.g. filedata wrong type, or other input issue)"
           echo "  Other → check https://docs.mod.io/restapiref/#error-codes"
           echo ""
           echo "Token regeneration: https://mod.io/me/access  → OAuth Access → Read + Write"
