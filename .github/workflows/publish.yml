@@ -126,6 +126,43 @@ jobs:
           version: ${{ steps.version.outputs.VERSION }}
           path: release.zip
 
+      - name: Diagnose mod.io upload failure
+        if: steps.modio_upload.outcome == 'failure'
+        env:
+          MODIO_TOKEN: ${{ secrets.MODIO_TOKEN }}
+        run: |
+          echo "=========================================="
+          echo "X mod.io upload failed"
+          echo "=========================================="
+          echo ""
+          echo "Most likely cause: MODIO_TOKEN secret has the wrong type."
+          echo ""
+          echo "mod.io write endpoints (upload file / add modfile) REQUIRE:"
+          echo "  -> OAuth 2 Access Token (Bearer Token)"
+          echo "  -> NOT an API Key (API Key only supports read-only GET)"
+          echo ""
+          echo "How to fix:"
+          echo "  1. Open https://mod.io/me/access while signed in"
+          echo "  2. In the 'OAuth Access' section (NOT the top 'API Key' box),"
+          echo "     create an Access Token with scope: Read + Write"
+          echo "  3. Update GitHub repo secret MODIO_TOKEN with that token"
+          echo "     Settings -> Secrets and variables -> Actions -> MODIO_TOKEN"
+          echo ""
+          echo "Preflight probe against https://api.mod.io/v1/me (token introspection):"
+          HTTP_CODE=$(curl -s -o /tmp/modio_me.json -w "%{http_code}" \
+            -H "Authorization: Bearer ${MODIO_TOKEN}" \
+            https://api.mod.io/v1/me || echo "curl_failed")
+          echo "  HTTP status: ${HTTP_CODE}"
+          echo "  Response body:"
+          sed 's/^/    /' /tmp/modio_me.json || true
+          echo ""
+          echo "Interpretation hints (mod.io error_ref):"
+          echo "  11001 / 11002 -> token is actually an API Key, not OAuth (the common case)"
+          echo "  11003 / 11004 -> token lacks 'write' scope"
+          echo "  11005         -> token expired or revoked"
+          echo ""
+          echo "Diagnosis complete; continuing to Steam upload step."
+
       - name: Publish to Steam Workshop
         env:
           STEAM_TOKEN: ${{ secrets.STEAM_TOKEN }}
@@ -171,9 +208,10 @@ jobs:
         run: |
           HAS_ERRORS=false
           
-          # Check mod.io result — failures are non-fatal (silent warning)
+          # Check mod.io result — failure is fatal (job exits 1), but only after Steam ran
           if [ "${{ steps.modio_upload.outcome }}" = "failure" ]; then
-            echo "⚠️  mod.io publication failed (non-fatal, continuing)"
+            echo "✗ mod.io publication failed (see 'Diagnose mod.io upload failure' step above)"
+            HAS_ERRORS=true
           elif [ "${{ steps.modio_upload.outcome }}" = "success" ]; then
             echo "✓ mod.io publication succeeded"
           elif [ -z "${{ secrets.MODIO_TOKEN }}" ]; then
