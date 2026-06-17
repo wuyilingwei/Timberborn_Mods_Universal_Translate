@@ -82,6 +82,25 @@ jobs:
           FILE_SIZE=$(wc -c < release.zip)
           echo "Release package ready: release.zip ($FILE_SIZE bytes)"
 
+          # Inject a unique CI marker so the zip hash differs each run.
+          # mod.io's add_modfile endpoint dedupes by file hash GLOBALLY across
+          # all mods (returns 422 "already been uploaded" pointing at someone
+          # else's modfile, but does NOT attach the file to OUR mod). Adding a
+          # tiny marker file with the GitHub run_id + timestamp guarantees a
+          # fresh hash without changing any game-relevant content (Timberborn's
+          # mod loader ignores unknown root-level files).
+          MARKER=".modio_ci_marker"
+          {
+            echo "run_id=${{ github.run_id }}"
+            echo "run_attempt=${{ github.run_attempt }}"
+            echo "ts=$(date +%s)"
+            echo "sha=${GITHUB_SHA}"
+          } > "${MARKER}"
+          zip -g release.zip "${MARKER}"
+          NEW_SIZE=$(wc -c < release.zip)
+          echo "After CI marker injection: release.zip ($NEW_SIZE bytes)"
+          rm -f "${MARKER}"
+
       - name: Publish to all platforms
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
@@ -161,11 +180,12 @@ jobs:
           # That state is effectively success — the build IS on mod.io —
           # so treat it as success to keep re-runs of the same version green.
           # Other 422 / 13009 cases (e.g. filedata wrong type) are NOT swallowed.
-          if [ "$HTTP_CODE" = "422" ] && grep -q "already been uploaded" /tmp/modio_resp.json; then
-            echo "ℹ mod.io idempotent hit: this exact release.zip is already published (HTTP 422)"
-            echo "  No-op — treating as success since the build is already live on mod.io."
-            exit 0
-          fi
+          # NOTE: do NOT swallow 422 + "already been uploaded" anymore.
+          # That message points at a modfile id which may not even belong to
+          # THIS mod (mod.io dedupes by hash globally). Treating it as success
+          # would mask a real upload failure. The CI marker injected above
+          # already ensures the zip hash is unique per run, so this branch
+          # should not trigger; if it does, that's a real bug to investigate.
 
           echo "✗ mod.io upload failed (HTTP ${HTTP_CODE})"
           echo ""
