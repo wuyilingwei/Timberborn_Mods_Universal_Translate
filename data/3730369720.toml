@@ -16,6 +16,7 @@ ptBR = "Onde os Wyrms Esperam"
 koKR = "와이어름스 웨이트"
 csCZ = "Kde Wršci Čekají"
 viVN = "Chỗ Wyrms Chờ Đợi"
+trTR = "Wyrmların Beklediği Yer"
 
 ["WWW.Settings.ModEnabled"]
 raw = "Enable mod"
@@ -32,6 +33,7 @@ ptBR = "Ativar mod"
 koKR = "모드 활성화"
 csCZ = "Povolit mod"
 viVN = "Bật mod"
+trTR = "Modu etkinleştir"
 
 ["WWW.Settings.ModEnabled.Tooltip"]
 raw = "When off the mod still loads but no husk warms up and no wyrm acts. Useful for testing maps without disturbing the existing layout."
@@ -48,6 +50,7 @@ ptBR = "Quando desativado, o mod ainda carrega, mas nenhuma casca se aquece e ne
 koKR = "모드가 꺼져 있어도 여전히 로드되지만 하스크가 따뜻해지지 않고 괴물(와름)이 작동하지 않습니다. 기존 레이아웃을 방해하지 않고 맵을 테스트하는 데 유용합니다."
 csCZ = "Když je mod vypnutý, stále se načítá, ale žádný obal se neohřívá a žádný drak neprovádí akce. Užitečné pro testování map bez rušení stávajícího uspořádání."
 viVN = "Khi tắt, mod vẫn tải nhưng không có vỏ ấm lên và không con rồng nào hoạt động. Hữu ích cho việc thử nghiệm bản đồ mà không làm ảnh hưởng đến bố cục hiện có."
+trTR = "Kapalı olduğunda mod yine yüklenir ama hiçbir kabuk ısınmaz ve hiçbir ejderha hareket etmez. Mevcut düzeni bozmadan haritaları test etmek için faydalıdır."
 
 ["WWW.Settings.WakeSpeedPercent"]
 raw = "Wake speed (%)"
@@ -64,6 +67,7 @@ ptBR = "Velocidade de acordar (%)"
 koKR = "각성 속도 (%)"
 csCZ = "Rychlost probuzení (%)"
 viVN = "Tốc độ đánh thức (%)"
+trTR = "Uyanma hızı (%)"
 
 ["WWW.Settings.WakeSpeedPercent.Tooltip"]
 raw = "Multiplier applied on top of every husk's per-spec warmup days. 100% = default; lower = wyrms wake slower; higher = wyrms wake faster."
@@ -80,6 +84,7 @@ ptBR = "Multiplicador aplicado sobre os dias de aquecimento por especificação 
 koKR = "모든 껍질의 특성별 예열 일수에 적용되는 배수입니다. 100% = 기본값; 낮으면 = 웜이 느리게 깨고; 높으면 = 웜이 빠르게 깨어납니다."
 csCZ = "Multiplikátor aplikovaný na každé luskové per-spec dny ohřevu. 100 % = výchozí; nižší = wyrmové se probouzejí pomaleji; vyšší = wyrmové se probouzejí rychleji."
 viVN = "Thay đổi nhân được áp dụng trên số ngày chuẩn bị của mỗi vỏ. 100% = mặc định; thấp hơn = rồng tỉnh chậm hơn; cao hơn = rồng tỉnh nhanh hơn."
+trTR = "Her kabuk için spesifik ısınma günlerine eklenen çarpan. %100 = varsayılan; daha düşük = ejderhalar daha yavaş uyanır; daha yüksek = ejderhalar daha hızlı uyanır."
 
 ["WWW.Settings.HungerRatePercent"]
 raw = "Hunger rate (%)"
@@ -96,6 +101,7 @@ ptBR = "Taxa de fome (%)"
 koKR = "허기 비율 (%)"
 csCZ = "Výše hladu (%)"
 viVN = "Tỷ lệ đói (%)"
+trTR = "Açlık oranı (%)"
 
 ["WWW.Settings.HungerRatePercent.Tooltip"]
 raw = "Multiplier on hunger accumulation. Higher = wyrms hunt sooner and chew walls more aggressively."
@@ -112,6 +118,7 @@ ptBR = "Multiplicador na acumulação de fome. Maior = wyrms caçam mais cedo e 
 koKR = "허기 축적에 대한 배율. 높을수록 웜이 더 빨리 사냥하고 벽을 더 공격적으로 갉아먹습니다."
 csCZ = "Multiplikátor na akumulaci hladu. Vyšší = draci loví dříve a agresivněji okusují stěny."
 viVN = "Thông số nhân cho việc tích lũy đói. Cao hơn = rồng săn sớm hơn và cắn tường mạnh mẽ hơn."
+trTR = "Açlık birikiminde çarpan. Daha yüksek = yaratıklar daha hızlı avlanır ve duvarları daha agresif şekilde kemirir."
 
 ["WWW.Settings.ContaminationResistancePercent"]
 raw = "Contamination resistance (%)"
@@ -128,6 +135,7 @@ ptBR = "Resistência à contaminação (%)"
 koKR = "오염 저항 (%)"
 csCZ = "Odolnost vůči kontaminaci (%)"
 viVN = "Kháng ô nhiễm (%)"
+trTR = "Kirlenme direnci (%)"
 
 ["WWW.Settings.ContaminationResistancePercent.Tooltip"]
 raw = "Multiplier on the lethal contamination threshold. Higher = wyrms survive more total absorbed badwater before dying; killing one takes a sustained channeling effort."
@@ -144,6 +152,7 @@ ptBR = "Multiplicador no limiar de contaminação letal. Maior = os wyrms sobrev
 koKR = "치명적인 오염 한계에 대한 배수기. 높을수록 용들이 죽기 전에 흡수한 불량수에 더 오래 견딥니다; 하나를 죽이려면 지속적인 채널링 노력이 필요합니다."
 csCZ = "Multiplikátor na smrtelný práh kontaminace. Vyšší = wyrmové přežijí více celkově absorbované znečištěné vody, než zemřou; zabití jednoho vyžaduje trvalé soustředění."
 viVN = "Hệ số nhân trên ngưỡng ô nhiễm gây chết. Cao hơn = rồng sống sót nhiều nước ô nhiễm hấp thụ trước khi chết; giết một con cần nỗ lực tập trung liên tục."
+trTR = "Öldürücü kirlenme eşiğindeki çarpan. Daha yüksek = ejderhalar, ölmeden önce daha fazla kötü suyu emme süresine dayanabilir; birini öldürmek, sürdürülen bir kanalizasyon çabası gerektirir."
 
 ["WWW.Settings.SandboxMode"]
 raw = "Sandbox mode"
@@ -160,6 +169,7 @@ ptBR = "Modo sandbox"
 koKR = "샌드박스 모드"
 csCZ = "Režim písečné hračky"
 viVN = "Chế độ cát trắng"
+trTR = "Kum sandbox modu"
 
 ["WWW.Settings.SandboxMode.Tooltip"]
 raw = "When on, wyrms still wake and walk but never damage beavers or buildings. Useful for map authors testing layouts."
@@ -176,6 +186,7 @@ ptBR = "Quando ativado, os wyrms ainda acordam e andam, mas nunca causam dano a 
 koKR = "활성화되면, 와름은 여전히 깨어나고 걸어다니지만 비버나 건물에 피해를 주지 않습니다. 레이아웃을 테스트하는 맵 저자에게 유용합니다."
 csCZ = "Když je zapnuto, draci se stále probouzí a chodí, ale nikdy nepoškozují bobry ani budovy. Užitečné pro autory map, kteří testují uspořádání."
 viVN = "Khi bật, rồng vẫn thức dậy và đi lại nhưng không bao giờ gây hại cho nhím hoặc các công trình. Hữu ích cho các tác giả bản đồ thử nghiệm bố cục."
+trTR = "Açık olduğunda, ejderhalar uyanır ve yürür ancak aslanları veya binaları asla zarar vermez. Harita yazarlarının düzenleri test etmesi için faydalıdır."
 
 ["WWW.Settings.AutoScatterHeader"]
 raw = "Where Wyrms Wait — Auto-Scatter"
@@ -192,6 +203,7 @@ ptBR = "Where Wyrms Wait — Auto-Scatter"
 koKR = "와 드래곤이 기다리는 곳 — 자동 흩뿌리기"
 csCZ = "Kde červi čekají — Automatické rozptýlení"
 viVN = "Chỗ Wyrms Chờ Đợi — Rải Ngẫu Nhiên"
+trTR = "Wyrmlar Bekler — Otomatik Dağıtım"
 
 ["WWW.Settings.AutoScatterMode"]
 raw = "Auto-scatter on new game"
@@ -208,6 +220,7 @@ ptBR = "Espalhar automaticamente em novo jogo"
 koKR = "새 게임에서 자동 분산"
 csCZ = "Auta rozptýlení při nové hře"
 viVN = "Phát tán tự động khi bắt đầu trò chơi mới"
+trTR = "Yeni oyunda otomatik dağıtım"
 
 ["WWW.Settings.AutoScatterMode.Tooltip"]
 raw = "Scatter Wyrm Husks and Wyrm Dens across a fresh map at world creation. Maps that already contain manually placed hazards are never touched. \nThis setting is locked once a game starts; it only takes effect when starting a new game. \nPairing tip: Light pairs well with Hard difficulty (long droughts force the deep wyrms awake), Heavy pairs well with Easy (short droughts give time to build a containment)."
@@ -224,6 +237,7 @@ ptBR = "Espalhe Cascas de Wyrm e Tocas de Wyrm por um mapa novo na criação do 
 koKR = "세계 생성 시 새 맵에 Wyrm 껍데기와 Wyrm 둥지를 흩뿌립니다. 수동으로 배치된 위험 요소가 이미 포함된 맵은 절대 손대지 않습니다. \n이 설정은 게임이 시작되면 잠겨 있으며, 새로운 게임을 시작할 때만 효과를 발휘합니다. \n조합 팁: Light는 Hard 난이도와 잘 어울리고 (긴 가뭄이 깊은 Wyrm을 깨우게 함), Heavy는 Easy와 잘 어울립니다 (짧은 가뭄이 격리할 시간을 줌)."
 csCZ = "Rozptýlení schráněk wyrmů a hnízd wyrmů na nové mapě při vytváření světa. Mapy, které již obsahují ručně umístěné nebezpečí, nejsou nikdy dotčeny.\nToto nastavení je uzamčeno, jakmile hra začne; má účinek pouze při zahájení nové hry.\nTip na párování: Světlá se dobře snoubí s obtížností Těžká (dlouhé sucha probouzí hluboké wyrmy), Těžká se dobře snoubí s obtížností Snadná (krátká sucha dávají čas na vybudování zadržení)."
 viVN = "Rải xác Wyrm và ổ Wyrm trên một bản đồ mới khi tạo thế giới. Các bản đồ đã có những nguy hiểm được đặt thủ công sẽ không bị ảnh hưởng. \nCài đặt này sẽ bị khóa khi một trận đấu bắt đầu; nó chỉ có hiệu lực khi bắt đầu một trận đấu mới. \nMẹo ghép đôi: Cấp độ Nhẹ phối hợp tốt với độ khó Khó (các đợt hạn kéo dài buộc những con wyrm sâu phải thức dậy), Cấp độ Nặng phối hợp tốt với độ khó Dễ (các đợt hạn ngắn cho thời gian để xây dựng một khu vực chứa)."
+trTR = "Yeni harita yaratıldığında Wyrm kabuklarını ve Wyrm yuvalarını yay. Zaten manuel olarak yerleştirilmiş tehlikeler içeren haritalar asla değiştirilmez. \nBu ayar bir oyun başladıktan sonra kilitlenir; sadece yeni bir oyun başlatıldığında etkili olur. \nEşleştirme ipucu: Hafif, Zor zorluk ile iyi eşleşir (uzun kuraklıklar derin wyrmlarını uyandırır), Ağırsı, Kolay ile iyi eşleşir (kısa kuraklıklar bir içerme inşa etmek için zaman tanır)."
 
 ["WWW.Settings.AutoScatter.Off"]
 raw = "Off"
@@ -240,6 +254,7 @@ ptBR = "Desligado"
 koKR = "꺼짐"
 csCZ = "Vypnuto"
 viVN = "Tắt"
+trTR = "Kapalı"
 
 ["WWW.Settings.AutoScatter.Light"]
 raw = "Light"
@@ -256,6 +271,7 @@ ptBR = "Luz"
 koKR = "빛"
 csCZ = "Světlo"
 viVN = "Ánh sáng"
+trTR = "Işık"
 
 ["WWW.Settings.AutoScatter.Normal"]
 raw = "Normal"
@@ -272,6 +288,7 @@ ptBR = "Normal"
 koKR = "일반"
 csCZ = "Normální"
 viVN = "Bình thường"
+trTR = "Normal"
 
 ["WWW.Settings.AutoScatter.Heavy"]
 raw = "Heavy"
@@ -288,6 +305,7 @@ ptBR = "Pesado"
 koKR = "무거운"
 csCZ = "Těžký"
 viVN = "Nặng"
+trTR = "Ağır"
 
 ["Building.WyrmHusk.DisplayName"]
 raw = "Wyrm Husk"
@@ -304,6 +322,7 @@ ptBR = "Casca de Wyrm"
 koKR = "와름 껍질"
 csCZ = "Wyrmské skořápky"
 viVN = "Vỏ Wyrm"
+trTR = "Wyrm Kılıfı"
 
 ["Building.WyrmHusk.Description"]
 raw = "The dried husk of a slumbering wyrm. Wakes when the soil above turns green."
@@ -320,6 +339,7 @@ ptBR = "A casca seca de um wyrm adormecido. Acorda quando o solo acima fica verd
 koKR = "잠든 와름의 마른 껍질. 위의 토양이 초록으로 변할 때 깨어난다."
 csCZ = "Vysušená slupka spícího draka. Probudí se, když se půda nad ním zbarví do zelena."
 viVN = "Vỏ khô của một con rồng đang ngủ. Thức dậy khi đất phía trên chuyển sang màu xanh."
+trTR = "Uykuda olan bir wyrm'in kurumuş kabuğu. Üstündeki toprak yeşerdiğinde uyanır."
 
 ["Building.WyrmHusk.Flavor"]
 raw = "The earth remembers what slept beneath it."
@@ -336,6 +356,7 @@ ptBR = "A terra se lembra do que dormia sob ela."
 koKR = "땅은 그 아래에서 잠들었던 것을 기억한다."
 csCZ = "Země si pamatuje, co spalo pod jejími povrchem."
 viVN = "Đất đai nhớ những gì đã ngủ dưới lớp vỏ của nó."
+trTR = "Toprak, altında uyuyanı hatırlar."
 
 ["WWW.Husk.WarmingStatus"]
 raw = "Stirring"
@@ -352,6 +373,7 @@ ptBR = "Agitando"
 koKR = "휘젓기"
 csCZ = "Smíchání"
 viVN = "Xao động"
+trTR = "Karıştırma"
 
 ["WWW.Husk.DormantStatus"]
 raw = "Dormant"
@@ -368,6 +390,7 @@ ptBR = "Dormecido"
 koKR = "휴면"
 csCZ = "Spící"
 viVN = "Ngủ đông"
+trTR = "Uykuda"
 
 ["WWW.Den.ActiveStatus"]
 raw = "Active"
@@ -384,6 +407,7 @@ ptBR = "Ativo"
 koKR = "활성"
 csCZ = "Aktivní"
 viVN = "Đang hoạt động"
+trTR = "Etkin"
 
 ["WWW.Den.CooldownLabel"]
 raw = "Next spawn in"
@@ -400,6 +424,7 @@ ptBR = "Próxima aparição em"
 koKR = "다음 생성까지"
 csCZ = "Další výskyt za"
 viVN = "Thời gian hồi sinh tiếp theo"
+trTR = "Sonraki doğuş"
 
 ["WWW.Den.LiveCountLabel"]
 raw = "Live wyrms"
@@ -416,6 +441,7 @@ ptBR = "Wyrms vivos"
 koKR = "살아있는 용"
 csCZ = "Živé draky"
 viVN = "Wyrm sống"
+trTR = "Canlı wyrmlar"
 
 ["Creature.Wyrm.DisplayName"]
 raw = "Wyrm"
@@ -432,6 +458,7 @@ ptBR = "Wyrm"
 koKR = "와일드"
 csCZ = "Wyrm"
 viVN = "Wyrm"
+trTR = "Wyrm"
 
 ["Creature.Wyrm.Description"]
 raw = "A starved, ancient predator that emerged from the soil. It hunts beavers and chews through unfortified walls. Cannot be cured of badwater contamination."
@@ -448,6 +475,7 @@ ptBR = "Um predador antigo e faminto que emergiu do solo. Ele caça castores e m
 koKR = "토양에서 솟아난, 굶주린 고대 포식자. 비버를 사냥하고 방어가 없는 벽을 부순다. 오염된 물로 인한 질병은 치료할 수 없다."
 csCZ = "Hladový, starobylý predátor, který se vynořil ze země. Loví bobry a prokousává se nechráněnými zdmi. Nelze vyléčit z kontaminace špatnou vodou."
 viVN = "Một kẻ săn mồi cổ đại, gầy gò đã xuất hiện từ lòng đất. Nó săn lùng sự sống của những con khí sinh và gặm nhấm qua những bức tường chưa được củng cố. Không thể chữa khỏi tình trạng ô nhiễm nước bẩn."
+trTR = "Toprağın altından çıkmış, aç kalmış kadim bir yırtıcı. Kunduzları avlar ve güçlendirilmemiş duvarları kemirir. Kötü su kirliliğinden tedavi edilemez."
 
 ["Creature.Wyrm.Flavor"]
 raw = "The earth gives back what it kept."
@@ -464,6 +492,7 @@ ptBR = "A terra devolve o que guardou."
 koKR = "지구는 간직했던 것을 돌려준다."
 csCZ = "Země vrací to, co držela."
 viVN = "Đất đai đem lại những gì nó đã giữ lại."
+trTR = "Toprak, sakladığını geri verir."
 
 ["WWW.Wyrm.HungerLabel"]
 raw = "Hunger"
@@ -480,6 +509,7 @@ ptBR = "Fome"
 koKR = "허기"
 csCZ = "Hlad"
 viVN = "Đói"
+trTR = "Açlık"
 
 ["WWW.Wyrm.ContaminationLabel"]
 raw = "Contamination"
@@ -496,6 +526,7 @@ ptBR = "Contaminação"
 koKR = "오염"
 csCZ = "Kontaminace"
 viVN = "Nhiễm bẩn"
+trTR = "Kirlenme"
 
 ["WWW.Wyrm.EnthralledStatus"]
 raw = "Enthralled"
@@ -512,6 +543,7 @@ ptBR = "Enfeitiçado"
 koKR = "매료됨"
 csCZ = "Zaujato"
 viVN = "Say mê"
+trTR = "Büyülenen"
 
 ["WWW.Wyrm.HuntingStatus"]
 raw = "Hunting"
@@ -528,6 +560,7 @@ ptBR = "Caçando"
 koKR = "사냥"
 csCZ = "Lov"
 viVN = "Săn bắn"
+trTR = "Avlanma"
 
 ["WWW.Wyrm.StalkingStatus"]
 raw = "Stalking"
@@ -544,6 +577,7 @@ ptBR = "Perseguindo"
 koKR = "추적 중"
 csCZ = "„Sledování“"
 viVN = "Rình mò"
+trTR = "İzleme"
 
 ["WWW.Wyrm.ChewingStatus"]
 raw = "Chewing"
@@ -560,6 +594,7 @@ ptBR = "Mastigando"
 koKR = "씹기"
 csCZ = "Hodování"
 viVN = "Nhai"
+trTR = "Çiğneme"
 
 ["WWW.Notification.BeaverEaten"]
 raw = "Eaten by a wyrm"
@@ -576,6 +611,7 @@ ptBR = "Devorado por um wyrm"
 koKR = "괴물에게 잡아먹힘"
 csCZ = "Sežráno drakem"
 viVN = "Bị một con rồng ăn"
+trTR = "Bir ejderha tarafından yenildi"
 
 ["Good.Soothesop.DisplayName"]
 raw = "Soothesop"
@@ -592,6 +628,7 @@ ptBR = "Soothesop"
 koKR = "수프소프"
 csCZ = "Soothesop"
 viVN = "Soothesop"
+trTR = "Soothesop"
 
 ["Good.Soothesop.PluralDisplayName"]
 raw = "Soothesop"
@@ -608,6 +645,7 @@ ptBR = "Soothesop"
 koKR = "소틸솝"
 csCZ = "Soothesop"
 viVN = "Soothesop"
+trTR = "Soothesop"
 
 ["Recipe.Soothesop.DisplayName"]
 raw = "Soothesop"
@@ -624,6 +662,7 @@ ptBR = "Soothesop"
 koKR = "소드솝"
 csCZ = "Soothesop"
 viVN = "Soothesop"
+trTR = "Yatıştıran"
 
 ["Building.WyrmForager.DisplayName"]
 raw = "Wyrm Forager"
@@ -640,6 +679,7 @@ ptBR = "Coletor de Wyrm"
 koKR = "와일드 워머"
 csCZ = "Zběhač draků"
 viVN = "Wyrm Forager"
+trTR = "Wyrm Avcısı"
 
 ["Building.WyrmForager.Description"]
 raw = "A workshop that brews Soothesop from foraged berries and a measure of badwater. Soothesop is hauled to Lure Stakes to keep wyrms from chewing through containment walls."
@@ -656,6 +696,7 @@ ptBR = "Uma oficina que prepara Soothesop a partir de frutas selvagens e uma med
 koKR = "포획된 열매와 나쁜 물을 혼합하여 소독제를 만드는 작업장. 소독제는 포획된 벽을 물어버리는 괴물을 막기 위해 유인 기둥으로 운반된다."
 csCZ = "Dílna, která vaří Soothesop z nasbíraných bobulí a dávky špatné vody. Soothesop je přepravován k Lure Stakes, aby se zabránilo wyrmům ve žvýkání skrz zadržovací zdi."
 viVN = "Một xưởng chế biến Soothesop từ các loại quả hái được và một lượng nước ô nhiễm. Soothesop được vận chuyển đến Lure Stakes để ngăn wyrms gặm nhấm qua các bức tường chứa đựng."
+trTR = "Yerli meyveler ve bir ölçü kötü su ile Soothesop üreten bir atölye. Soothesop, wyrmların tutma duvarlarını kemirmesini engellemek için Lure Stakes'e taşınır."
 
 ["Building.WyrmForager.Flavor"]
 raw = "The recipe is older than the colony."
@@ -672,6 +713,7 @@ ptBR = "A receita é mais antiga que a colônia."
 koKR = "레시피는 식민지보다 오래되었습니다."
 csCZ = "Recept je starší než kolonie."
 viVN = "Công thức này còn cổ hơn cả thuộc địa."
+trTR = "Tarif koloni kadar eski."
 
 ["Building.LureStake.DisplayName"]
 raw = "Lure Stake"
@@ -688,6 +730,7 @@ ptBR = "Púlpito de Isca"
 koKR = "유인 말뚝"
 csCZ = "Vábící hrot"
 viVN = "Cọc Dụ"
+trTR = "Tuzağa Çıkartma Çubuğu"
 
 ["Building.LureStake.Description"]
 raw = "A wooden stake that holds a small store of Soothesop. Wyrms within range stop chewing through walls while the stake is stocked. Beavers in range still get eaten."
@@ -704,6 +747,7 @@ ptBR = "Uma estaca de madeira que contém um pequeno estoque de Soothesop. Wyrms
 koKR = "작은 양의 소스합을 저장하는 나무 말뚝. 범위 내의 용들은 말뚝이 채워져 있는 동안 벽을 갉아먹는 것을 멈춘다. 범위 내의 비버는 여전히 잡아먹힌다."
 csCZ = "Dřevěný kůl, který uchovává malé množství Soothesopu. Wyrmy v dosahu přestanou hrýzat do zdí, zatímco je kůl zásoben. Castorové v dosahu jsou stále sežráni."
 viVN = "Cọc gỗ giữ một kho nhỏ Soothesop. Rồng trong phạm vi dừng gặm tường trong khi cọc được cung cấp. Lửng trong phạm vi vẫn bị ăn."
+trTR = "Bir miktar Soothesop tutan ahşap bir kazık. Menzildeki Wyrmlar, kazık doluyken duvarları çiğnemeyi durdurur. Menzildeki kunduzlar hala yenir."
 
 ["Building.LureStake.Flavor"]
 raw = "Place it where you'd rather the wyrm chew the bait than your levee."
@@ -720,6 +764,7 @@ ptBR = "Coloque onde você prefere que o dragão mastigue a isca em vez da sua b
 koKR = "늪지대에서 드래곤이 벌레를 물어가기를 원한다면, 방파제보다 이곳에 두세요."
 csCZ = "Umístěte to tam, kde byste raději, aby drak kousal návnadu než vaši hráz."
 viVN = "Đặt nó ở nơi bạn muốn con rồng nhai mồi hơn là đê của bạn."
+trTR = "Bunu, wyrm'ın yem yerine, barajınızı kemirmesini istemediğiniz bir yere yerleştirin."
 
 ["Building.WyrmDen.DisplayName"]
 raw = "Wyrm Den"
@@ -736,6 +781,7 @@ ptBR = "Covil de Wyrm"
 koKR = "와름 굴"
 csCZ = "Wyrmí doupě"
 viVN = "Hang Wyrm"
+trTR = "Wyrm Yuvası"
 
 ["Building.WyrmDen.Description"]
 raw = "A nest of slumbering wyrms. Wakes when the soil above turns green and continues to spawn wyrms periodically while the cover stays moist. Killed only by dynamite."
@@ -752,6 +798,7 @@ ptBR = "Um ninho de wyrms adormecidos. Acorda quando o solo acima fica verde e c
 koKR = "잠자고 있는 와이름의 둥지. 위의 토양이 초록빛으로 변할 때 깨어나며, 덮개가 촉촉할 때 주기적으로 와이름을 생성합니다. 다이너마이트로만 처치할 수 있습니다."
 csCZ = "Hnízdo spících draků. Probudí se, když se půda nahoře zbarví do zelena a nadále periodicky vyvolává draky, dokud zůstává pokrytá vlhkostí. Zničeno pouze dynamitem."
 viVN = "Một tổ của những con wyrm đang ngủ. Thức dậy khi đất bên trên chuyển sang màu xanh và tiếp tục sinh sản wyrm định kỳ khi lớp phủ vẫn ẩm. Chỉ có thể bị tiêu diệt bằng thuốc nổ."
+trTR = "Uyuşuk wyrmlerin yuvası. Üstteki toprak yeşil hale geldiğinde uyanır ve kaplama nemli kaldığı sürece wyrmlerin belirli aralıklarla doğmasını sürdürür. Sadece dinamit ile öldürülür."
 
 ["Building.WyrmDen.Flavor"]
 raw = "There is more than one in the dark."
@@ -768,6 +815,7 @@ ptBR = "Há mais de um no escuro."
 koKR = "어둠 속에는 하나 이상이 있다."
 csCZ = "Ve tmě je víc než jeden."
 viVN = "Có nhiều hơn một trong bóng tối."
+trTR = "Karşıdan bakınca karanlıkta birden fazla var."
 
 ["WWW.Notification.WyrmEmerged"]
 raw = "A wyrm has emerged!"
@@ -784,6 +832,7 @@ ptBR = "Um wyrm emergiu!"
 koKR = "용이 등장했습니다!"
 csCZ = "Říše se objevila!"
 viVN = "Một con rồng đã xuất hiện!"
+trTR = "Bir yılan ortaya çıktı!"
 
 ["WWW.Notification.WyrmDied"]
 raw = "The wyrm is dead."
@@ -800,6 +849,7 @@ ptBR = "O wyvern está morto."
 koKR = "와름이 죽었습니다."
 csCZ = "Wyrm je mrtvý."
 viVN = "Con rồng đã chết."
+trTR = "Yılan öldü."
 
 ["WWW.Notification.DenDestroyed"]
 raw = "A wyrm den was destroyed."
@@ -816,6 +866,7 @@ ptBR = "Uma caverna de wyrm foi destruída."
 koKR = "와이룸 굴이 파괴되었습니다."
 csCZ = "Jeskyně draka byla zničena."
 viVN = "Một tổ wyrm đã bị phá hủy."
+trTR = "Bir wyrm yuvası yok edildi."
 
 ["WWW.Wyrm.PoisonedStatus"]
 raw = "Poisoned"
@@ -832,6 +883,7 @@ ptBR = "Envenenado"
 koKR = "독이 있슴"
 csCZ = "Otrávený"
 viVN = "Độc"
+trTR = "Zehirlenmiş"
 
 ["WWW.Wyrm.DevKillButton"]
 raw = "Kill wyrm (dev)"
@@ -848,6 +900,7 @@ ptBR = "Matar wyrm (dev)"
 koKR = "벌레 죽이기 (개발)"
 csCZ = "Zabít draka (dev)"
 viVN = "Giết wyrm (dev)"
+trTR = "Wyrm'i öldür (geliştirici)"
 
 ["WWW.Hazard.NoDemolish"]
 raw = "Use dynamite to destroy this."
@@ -864,6 +917,7 @@ ptBR = "Use dinamite para destruir isso."
 koKR = "폭발물을 사용하여 이걸 파괴하세요."
 csCZ = "Použijte dynamit k zničení tohoto."
 viVN = "Sử dụng thuốc nổ để phá hủy cái này."
+trTR = "Bunu yok etmek için dinamit kullanın."
 
 ["WWW.Wyrm.SatedStatus"]
 raw = "Sated"
@@ -880,3 +934,4 @@ ptBR = "Satisfeito"
 koKR = "포만감"
 csCZ = "Nasycený"
 viVN = "Thỏa mãn"
+trTR = "Tok"

@@ -16,6 +16,7 @@ ptBR = "Atribuição"
 koKR = "배정"
 csCZ = "Úkol"
 viVN = "Phân công"
+trTR = "Atama"
 
 ["BHR.Button.Assign"]
 raw = "Assign Beaver"
@@ -32,6 +33,7 @@ ptBR = "Assignar Castor"
 koKR = "비버 할당"
 csCZ = "Přiřaď bobra"
 viVN = "Gán Hải Ly"
+trTR = "Temin Et"
 
 ["BHR.Picker.NoUnemployed"]
 raw = "No unemployed beavers"
@@ -48,6 +50,7 @@ ptBR = "Sem castores desempregados"
 koKR = "실직한 너구리가 없습니다"
 csCZ = "Žádní nezaměstnaní bobři"
 viVN = "Không có người rái cá thất nghiệp"
+trTR = "İşsiz kunduz yok"
 
 ["BHR.Worker.HomeDistance"]
 raw = "{0} tiles from home"
@@ -64,6 +67,7 @@ ptBR = "{0} ladrilhos de casa"
 koKR = "{0} 타일 떨어진 집에서"
 csCZ = "{0} dlaždic od domova"
 viVN = "{0} ô từ nhà"
+trTR = "{0} evden uzakta"
 
 ["BHR.Worker.HomeDistance.Homeless"]
 raw = "homeless"
@@ -80,6 +84,7 @@ ptBR = "sem-teto"
 koKR = "무주택자"
 csCZ = "bezdomovec"
 viVN = "vô gia cư"
+trTR = "evsizlik"
 
 ["BHR.Worker.HomeDistance.Unreachable"]
 raw = "no path"
@@ -96,6 +101,7 @@ ptBR = "sem caminho"
 koKR = "경로 없음"
 csCZ = "žádná cesta"
 viVN = "không có đường đi"
+trTR = "yol yok"
 
 ["BHR.Settings.Header"]
 raw = "Beaver HR Department"
@@ -112,6 +118,7 @@ ptBR = "Departamento de Recursos Humanos dos Castores"
 koKR = "비버 인사부"
 csCZ = "Oddělení lidských zdrojů bobrů"
 viVN = "Phòng Nhân Sự Hải Ly"
+trTR = "Kunduz İK Departmanı"
 
 ["BHR.Settings.ShowHomeDistance"]
 raw = "Show distance to home on each worker"
@@ -128,6 +135,7 @@ ptBR = "Mostrar a distância até a casa em cada trabalhador"
 koKR = "각 작업자에게 집까지의 거리를 표시합니다."
 csCZ = "Zobrazit vzdálenost k domovu u každého pracovníka"
 viVN = "Hiện khoảng cách đến nhà trên mỗi công nhân"
+trTR = "Her çalışanın evine olan mesafeyi göster"
 
 ["BHR.Settings.ShowHomeDistance.Tooltip"]
 raw = "When on the workplace assignment panel shows each assigned worker's walking distance (along the navmesh) to their home dwelling next to their name. Same path the beaver actually takes to commute. Pathfinding is cached per panel open — close and reopen the panel to refresh after building roads. Off by default."
@@ -144,3 +152,4 @@ ptBR = "Quando no painel de atribuição de trabalho, mostra a distância de cam
 koKR = "직장 할당 패널에서 각 할당된 근로자의 집까지의 거리(내비메시를 따라)를 이름 옆에 표시합니다. 비버가 실제로 통근하는 경로입니다. 경로 찾기는 패널 열릴 때마다 캐시되며, 도로를 건설한 후에는 패널을 닫았다가 다시 열어야 새로 고침됩니다. 기본값은 꺼져 있습니다."
 csCZ = "Při zobrazování pracovního panelu přiřazení ukazuje vzdálenost chůze každého přiřazeného pracovníka (podél navmesh) k jejich domovu vedle jejich jména. Stejné trasy, které bobr skutečně používá k dojíždění. Náhodné vyhledávání cest je uloženo per panel otevřený — zavřete a znovu otevřete panel, abyste po stavbě silnic získali aktuální informace. Ve výchozím nastavení vypnuto."
 viVN = "Khi ở trên bảng phân công nơi làm việc, hiển thị khoảng cách đi bộ của từng công nhân đã được phân công (dọc theo navmesh) đến nơi ở của họ bên cạnh tên của họ. Con đường mà con béo thực sự đi để đi làm. Tìm đường được lưu lại mỗi khi mở bảng - đóng và mở lại bảng để làm mới sau khi xây dựng đường. Tắt theo mặc định."
+trTR = "İş yeri atama panelinde, her atanan işçinin adının yanındaki evine olan yürüme mesafesini (navigasyon ağı boyunca) gösterir. Aynı yol, kunduzun işe gidip gelirken gerçekten aldığı yoldur. Yol bulma önbelleği her panel açıldığında kaydedilir — yollar inşa edildikten sonra yenilemek için paneli kapatıp açın. Varsayılan olarak kapalıdır."

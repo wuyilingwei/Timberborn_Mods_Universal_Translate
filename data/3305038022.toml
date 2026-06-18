@@ -16,6 +16,7 @@ ptBR = "Carga das baterias: {0} / {1}"
 koKR = "배터리 충전량: {0} / {1}"
 csCZ = "Nabité baterie: {0} / {1}"
 viVN = "Sạc ắc quy: {0} / {1}"
+trTR = "Bataryaların şarjı: {0} / {1}"
 
 ["IgorZ.SmartPower.BatteryCapacityPct"]
 raw = "Batteries charge: {0} ({1}%)"
@@ -32,6 +33,7 @@ ptBR = "Carga das baterias: {0} ({1}%)"
 koKR = "배터리 충전량: {0} ({1}%)"
 csCZ = "Stav nabití baterií: {0} ({1}%)"
 viVN = "Dung lượng ắc quy: {0} ({1}%)"
+trTR = "Bataryalar şarjı: {0} ({1}%)"
 
 ["IgorZ.SmartPower.BatteryCharging"]
 raw = "Batteries charging: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
@@ -48,6 +50,7 @@ ptBR = "Baterias carregando: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 koKR = "배터리 충전 중: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 csCZ = "Baterie se nabíjejí: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 viVN = "Ắc quy đang sạc: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
+trTR = "Piller şarj oluyor: <GreenHighlight>🡅</GreenHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryDischarging"]
 raw = "Batteries discharging: <RedHighlight>🡇</RedHighlight>{0} ({1})"
@@ -64,6 +67,7 @@ ptBR = "Baterias descarregando: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 koKR = "배터리 방전 중: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 csCZ = "Baterie se vybíjejí: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 viVN = "Ắc quy đang xả điện: <RedHighlight>🡇</RedHighlight>{0} ({1})"
+trTR = "Bataryalar boşalıyor: <RedHighlight>🡇</RedHighlight>{0} ({1})"
 
 ["IgorZ.SmartPower.BatteryNotUsed"]
 raw = "<GreenHighlight>Batteries not used</GreenHighlight>"
@@ -80,6 +84,7 @@ ptBR = "<Baterias não utilizadas</Baterias>"
 koKR = "<GreenHighlight>배터리 미사용</GreenHighlight>"
 csCZ = "<ZelenýZvýraznění>Baterie se nepoužívají</ZelenýZvýraznění>"
 viVN = "<GreenHighlight>Các ắc quy không được sử dụng</GreenHighlight>"
+trTR = "<GreenHighlight>Piller kullanılmıyor</GreenHighlight>"
 
 ["IgorZ.SmartPower.BatteryDepleted"]
 raw = "<RedHighlight>Batteries depleted</RedHighlight>"
@@ -96,6 +101,7 @@ ptBR = "<Batéria em vermelho> Baterias descarregadas </Batéria em vermelho>"
 koKR = "<RedHighlight>배터리가 방전되었습니다</RedHighlight>"
 csCZ = "<RedHighlight>Baterie vybitá</RedHighlight>"
 viVN = "<RedHighlight>Ắc quy đã cạn kiệt</RedHighlight>"
+trTR = "<KırmızıVurgu>Piller tükenmiş</KırmızıVurgu>"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AutomateGenerator"]
 raw = "Automate this generator"
@@ -112,6 +118,7 @@ ptBR = "Automatize este gerador"
 koKR = "이 발전기를 자동화하십시오"
 csCZ = "Automatizovat tento generátor"
 viVN = "Tự động hóa máy phát này"
+trTR = "Bu jeneratörü otomatikleştir"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ChargeBatteriesRangeText"]
 raw = "Keep batteries charge in range {0}% - {1}%"
@@ -128,6 +135,7 @@ ptBR = "Mantenha a carga da bateria na faixa de {0}% a {1}%"
 koKR = "배터리 충전을 {0}% - {1}% 범위로 유지합니다."
 csCZ = "Udržujte nabití baterií v rozmezí {0}% - {1}%"
 viVN = "Giữ mức sạc pin ở phạm vi {0}% - {1}%"
+trTR = "Pil şarjını {0}% - {1}% aralığında tutun"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.ApplyToAllGenerators"]
 raw = "Apply to all generators"
@@ -144,6 +152,7 @@ ptBR = "Aplique a todos os geradores"
 koKR = "모든 발전기에 적용"
 csCZ = "Použít na všechny generátory"
 viVN = "Áp dụng cho tất cả các máy phát điện"
+trTR = "Tüm jeneratörlere uygula"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.AppliedToGenerators"]
 raw = "Applied to {0} generators"
@@ -160,6 +169,7 @@ ptBR = "Aplicado a {0} geradores"
 koKR = "{0} 발전기에 적용됨"
 csCZ = "Aplikováno na {0} generátorů"
 viVN = "Được áp dụng cho {0} máy phát điện"
+trTR = "{0} jeneratöre uygulanmıştır"
 
 ["IgorZ.SmartPower.PowerOutputBalancer.SuspendedModeStatus"]
 raw = "Suspended due to excessive supply"
@@ -176,6 +186,7 @@ ptBR = "Suspenso devido ao excesso de oferta"
 koKR = "공급 과다로 인하여 일시 중단됨"
 csCZ = "Pozastaveno kvůli nadměrné dodávce"
 viVN = "Tạm ngừng do cung cấp quá mức"
+trTR = "Aşırı arz nedeniyle askıya alındı"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoWorkersStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> No workers at workplace"
@@ -192,6 +203,7 @@ ptBR = "<YellowHighlight>⏻</YellowHighlight> Sem trabalhadores no local de tra
 koKR = "<YellowHighlight>⏻</YellowHighlight> 작업장에 근무자가 없습니다"
 csCZ = "<YellowHighlight>⏻</YellowHighlight> Žádní pracovníci na pracovišti"
 viVN = "<YellowHighlight>⏻</YellowHighlight> Không có công nhân tại nơi làm việc"
+trTR = "<YellowHighlight>⏻</YellowHighlight> İş yerinde çalışan yok"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoFuelStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Fuel has run out"
@@ -208,6 +220,7 @@ ptBR = "<YellowHighlight>⏻</YellowHighlight> O combustível acabou"
 koKR = "<YellowHighlight>⏻</YellowHighlight> 연료가 바닥났습니다"
 csCZ = "<YellowHighlight>⏻</YellowHighlight> Palivo došlo"
 viVN = "<YellowHighlight>⏻</YellowHighlight> Nhiên liệu đã hết"
+trTR = "<YellowHighlight>⏻</YellowHighlight> Yakıt tükendi"
 
 ["IgorZ.SmartPower.MechanicalBuilding.NoInputStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Missing ingredients"
@@ -224,6 +237,7 @@ ptBR = "Ingredientes faltando"
 koKR = "<YellowHighlight>⏻</YellowHighlight> 필요한 재료가 없습니다"
 csCZ = "<YellowHighlight>⏻</YellowHighlight> Chybějící ingredience"
 viVN = "<YellowHighlight>⏻</YellowHighlight> Thiếu nguyên liệu"
+trTR = "<YellowHighlight>⏻</YellowHighlight> Eksik malzemeler"
 
 ["IgorZ.SmartPower.MechanicalBuilding.BlockedOutputStatus"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Too much products"
@@ -240,6 +254,7 @@ ptBR = "Demasiados produtos"
 koKR = "<YellowHighlight>⏻</YellowHighlight> 제품이 너무 많습니다"
 csCZ = "<YellowHighlight>⏻</YellowHighlight> Příliš mnoho produktů"
 viVN = "<YellowHighlight>⏻</YellowHighlight> Quá nhiều sản phẩm"
+trTR = "<YellowHighlight>⏻</YellowHighlight> Çok fazla ürün"
 
 ["IgorZ.SmartPower.MechanicalBuilding.PowerSavingModeStatus"]
 raw = "Power saving mode"
@@ -256,6 +271,7 @@ ptBR = "Modo de economia de energia"
 koKR = "전력 절약 모드"
 csCZ = "Úsporný režim"
 viVN = "Chế độ tiết kiệm điện"
+trTR = "Güç tasarruf modu"
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfNoPower"]
 raw = "Suspend if not enough power"
@@ -272,6 +288,7 @@ ptBR = "Suspender se não houver energia suficiente"
 koKR = "전력이 부족하면 일시 중지"
 csCZ = "Pozastavit, pokud není dostatek energie"
 viVN = "Tạm dừng khi không đủ công suất"
+trTR = "Güç yetersizse askıya al"
 
 ["IgorZ.SmartPower.PowerInputLimiter.SuspendIfLowEfficiency"]
 raw = "Minimum efficiency: {0}%"
@@ -288,6 +305,7 @@ ptBR = "Eficiência mínima: {0}%"
 koKR = "최소 효율: {0}%"
 csCZ = "Minimální efektivita: {0}%"
 viVN = "Hiệu suất tối thiểu: {0}%"
+trTR = "Minimum verimlilik: {0}%"
 
 ["IgorZ.SmartPower.PowerInputLimiter.MinBatteriesRatio"]
 raw = "Stop if batteries charge is below {0}%"
@@ -304,6 +322,7 @@ ptBR = "Pare se a carga das baterias estiver abaixo de {0}%"
 koKR = "배터리 충전이 {0}% 미만일 경우 중지"
 csCZ = "Zastavit, pokud je nabití baterií pod {0}%"
 viVN = "Dừng nếu mức sạc của các pin thấp hơn {0}%"
+trTR = "Pil şarjı % {0} altında ise dur"
 
 ["IgorZ.SmartPower.PowerInputLimiter.ApplyToAllBuildings"]
 raw = "Apply to all such buildings"
@@ -320,6 +339,7 @@ ptBR = "Aplica-se a todos esses edifícios."
 koKR = "모든 해당 건물에 적용"
 csCZ = "Použít na všechny takové budovy"
 viVN = "Áp dụng cho tất cả các công trình như vậy"
+trTR = "Tüm bu tür binalara uygula"
 
 ["IgorZ.SmartPower.PowerInputLimiter.AppliedToBuildings"]
 raw = "Applied to {0} buildings"
@@ -336,6 +356,7 @@ ptBR = "Aplicado a {0} edifícios"
 koKR = "{0} 개 건물에 적용됨"
 csCZ = "Aplikováno na {0} budov"
 viVN = "Được áp dụng cho {0} công trình"
+trTR = "{0} bina için uygulandı"
 
 ["IgorZ.SmartPower.PowerInputLimiter.PowerShutdownModeStatus"]
 raw = "Suspended to conserve energy"
@@ -352,6 +373,7 @@ ptBR = "Suspenso para conservar energia"
 koKR = "에너지를 절약하기 위해 일시 중단됨"
 csCZ = "Pozastaveno za účelem úspory energie"
 viVN = "Tạm ngừng để tiết kiệm năng lượng"
+trTR = "Enerji tasarrufu yapmak için askıya alındı"
 
 ["IgorZ.SmartPower.PowerInputLimiter.NotEnoughPowerStatus"]
 raw = "<RedHighlight>⏻</RedHighlight> Not enough power"
@@ -368,6 +390,7 @@ ptBR = "<RedHighlight>⏻</RedHighlight> Poder insuficiente"
 koKR = "<RedHighlight>⏻</RedHighlight> 전력이 부족합니다"
 csCZ = "<RedHighlight>⏻</RedHighlight> Nedostatek energie"
 viVN = "<RedHighlight>⏻</RedHighlight> Không đủ nguồn điện"
+trTR = "<RedHighlight>⏻</RedHighlight> Yetersiz güç"
 
 ["IgorZ.SmartPower.PowerInputLimiter.LowBatteriesChargeStatus"]
 raw = "<RedHighlight>⏻</RedHighlight> Not enough batteries charge"
@@ -384,6 +407,7 @@ ptBR = "<RedHighlight>⏻</RedHighlight> Carga de bateria insuficiente"
 koKR = "<RedHighlight>⏻</RedHighlight> 배터리 충전 부족"
 csCZ = "<RedHighlight>⏻</RedHighlight> Nedostatek nabití baterií"
 viVN = "<RedHighlight>⏻</RedHighlight> Không đủ dung lượng pin"
+trTR = "<KırmızıVurgu>⏻</KırmızıVurgu> Yetersiz batarya şarjı"
 
 ["IgorZ.SmartPower.Common.MinutesTillResume"]
 raw = "<GreenHighlight>⏻</GreenHighlight> Will resume in {0} minutes"
@@ -400,6 +424,7 @@ ptBR = "<GreenHighlight>⏻</GreenHighlight> Retomará em {0} minutos"
 koKR = "<GreenHighlight>⏻</GreenHighlight> {0}분 후에 재개됩니다"
 csCZ = "<GreenHighlight>⏻</GreenHighlight> Pokračuje za {0} minut"
 viVN = "<GreenHighlight>⏻</GreenHighlight> Sẽ tiếp tục sau {0} phút"
+trTR = "<GreenHighlight>⏻</GreenHighlight> {0} dakikada tekrar başlayacak"
 
 ["IgorZ.SmartPower.Common.MinutesTillSuspend"]
 raw = "<YellowHighlight>⏻</YellowHighlight> Will suspend in {0} minutes"
@@ -416,6 +441,7 @@ ptBR = "<YellowHighlight>⏻</YellowHighlight> Será suspenso em {0} minutos"
 koKR = "<YellowHighlight>⏻</YellowHighlight> {0}분 후 일시 중지됩니다"
 csCZ = "<YellowHighlight>⏻</YellowHighlight> Pozastaví se za {0} minut"
 viVN = "<YellowHighlight>⏻</YellowHighlight> Sẽ ngừng hoạt động sau {0} phút"
+trTR = "<YellowHighlight>⏻</YellowHighlight> {0} dakika sonra askıya alınacak"
 
 ["IgorZ.SmartPower.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
@@ -432,6 +458,7 @@ ptBR = "Depuração e solução de problemas"
 koKR = "디버그 및 문제 해결"
 csCZ = "Debugování a řešení problémů"
 viVN = "Gỡ lỗi và khắc phục sự cố"
+trTR = "Hata Ayıklama ve Sorun Giderme"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"
@@ -448,6 +475,7 @@ ptBR = "Registro detalhado"
 koKR = "상세 로깅"
 csCZ = "Podrobné protokolování"
 viVN = "Ghi nhật ký chi tiết"
+trTR = "Ayrıntılı günlükleme"
 
 ["IgorZ.SmartPower.Settings.Debug.VerboseLoggingTooltip"]
 raw = "Logs will have more useful details, but it may impact game performance."
@@ -464,6 +492,7 @@ ptBR = "Os logs terão mais detalhes úteis, mas isso pode impactar o desempenho
 koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능에 영향을 줄 수 있습니다."
 csCZ = "Protokoly budou obsahovat více užitečných podrobností, ale může to ovlivnit výkon hry."
 viVN = "Nhật ký sẽ chứa nhiều chi tiết hữu ích hơn, nhưng điều đó có thể ảnh hưởng đến hiệu suất trò chơi."
+trTR = "Loglar daha yararlı ayrıntılara sahip olacak, ancak bu oyun performansını etkileyebilir."
 
 ["IgorZ.SmartPower.Settings.BatteriesSection"]
 raw = "Batteries"
@@ -480,6 +509,7 @@ ptBR = "Baterias"
 koKR = "배터리"
 csCZ = "Baterie"
 viVN = "Ắc quy"
+trTR = "Piller"
 
 ["IgorZ.SmartPower.Settings.Batteries.ShowBatteryVitals"]
 raw = "Show battery stats"
@@ -496,6 +526,7 @@ ptBR = "Mostrar estatísticas da bateria"
 koKR = "배터리 상태 표시"
 csCZ = "Zobrazit statistiky baterie"
 viVN = "Hiển thị thông số pin"
+trTR = "Pil istatistiklerini göster"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryCapacityAsPct"]
 raw = "Show battery charge in percent"
@@ -512,6 +543,7 @@ ptBR = "Mostrar a carga da bateria em porcentagem"
 koKR = "배터리 잔량을 백분율로 표시"
 csCZ = "Zobrazit nabití baterie v procentech"
 viVN = "Hiển thị phần trăm pin"
+trTR = "Batarya şarjını yüzde olarak göster"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresis"]
 raw = "Consumers activation hysteresis (hours)"
@@ -528,6 +560,7 @@ ptBR = "Histerese de ativação dos consumidores (horas)"
 koKR = "소비자 활성화 히스테리시스 (시간)"
 csCZ = "Hystereze aktivace spotřebičů (hodiny)"
 viVN = "Lệch kích hoạt của người tiêu dùng (giờ)"
+trTR = "Tüketicilerin aktivasyon histerizisi (saat)"
 
 ["IgorZ.SmartPower.Settings.Batteries.BatteryRatioHysteresisTooltip"]
 raw = "Suspended consumers will not resume if they cannot run on batteries for at least the specified duration."
@@ -544,6 +577,7 @@ ptBR = "Consumidores suspensos não retomarão se não puderem funcionar com bat
 koKR = "정해진 기간 동안 배터리로 작동할 수 없는 경우 일시 중지된 소비자는 다시 시작되지 않습니다."
 csCZ = "Přerušené spotřebiče se neobnoví, pokud nemohou běžet na bateriích alespoň po stanovenou dobu."
 viVN = "Các thiết bị tiêu thụ bị tạm ngừng sẽ không hoạt động lại nếu chúng không thể chạy bằng pin trong thời gian được chỉ định."
+trTR = "Asılı tüketiciler, belirtilen sürenin en azından tamamı boyunca pillerle çalışamadıkları takdirde yeniden çalışmayacaktır."
 
 ["IgorZ.SmartPower.Settings.WalkerPoweredGeneratorSection"]
 raw = "Beaver-powered generators"
@@ -560,6 +594,7 @@ ptBR = "Geradores movidos por castores"
 koKR = "비버 동력 발전기"
 csCZ = "Generátory poháněné bobry"
 viVN = "Máy phát điện do hải ly vận hành"
+trTR = "Beaver gücüyle çalışan jeneratörler"
 
 ["IgorZ.SmartPower.Settings.GoodConsumingGeneratorSection"]
 raw = "Good-consuming generators"
@@ -576,6 +611,7 @@ ptBR = "geradores de bom consumo"
 koKR = "우수 소비 발전기"
 csCZ = "Generátory s dobrým výkonem"
 viVN = "Máy phát điện tiêu thụ hàng hóa"
+trTR = "İyi tükettiren jeneratörler"
 
 ["IgorZ.SmartPower.Settings.WorkplaceConsumerSection"]
 raw = "Workshops with a workplace"
@@ -592,6 +628,7 @@ ptBR = "Oficinas com um local de trabalho"
 koKR = "작업장이 있는 작업실"
 csCZ = "Dílny s pracovním prostorem"
 viVN = "Xưởng có chỗ làm việc"
+trTR = "Bir işyeri bulunan atölyeler"
 
 ["IgorZ.SmartPower.Settings.UnmannedConsumerSection"]
 raw = "Unmanned buildings"
@@ -608,6 +645,7 @@ ptBR = "Edifícios não tripulados"
 koKR = "무인 건물"
 csCZ = "Nemanželské budovy"
 viVN = "Công trình không người vận hành"
+trTR = "İnsansız binalar"
 
 ["IgorZ.SmartPower.Settings.AttractionConsumerSection"]
 raw = "Attractions"
@@ -624,6 +662,7 @@ ptBR = "Atrações"
 koKR = "명소"
 csCZ = "Zábavy"
 viVN = "Các điểm thu hút"
+trTR = "Çekimler"
 
 ["IgorZ.SmartPower.Settings.UI.ShowFloatingIcon"]
 raw = "Show floating icon"
@@ -640,6 +679,7 @@ ptBR = "Mostrar ícone flutuante"
 koKR = "떠 있는 아이콘 표시"
 csCZ = "Zobrazit floating ikonu"
 viVN = "Hiển thị biểu tượng nổi"
+trTR = "Yüzen simgeyi göster"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.ResumeDelay"]
 raw = "Resume delay (minutes)"
@@ -656,6 +696,7 @@ ptBR = "Atraso no resumo (minutos)"
 koKR = "재개 지연 (분)"
 csCZ = "Zpoždění obnovení (minuty)"
 viVN = "Độ trễ khi tiếp tục (phút)"
+trTR = "Devam etme gecikmesi (dakika)"
 
 ["IgorZ.SmartPower.Settings.Hysteresis.SuspendDelay"]
 raw = "Suspend delay (minutes)"
@@ -672,3 +713,4 @@ ptBR = "Suspender atraso (minutos)"
 koKR = "중단 지연(분)"
 csCZ = "Zpoždění suspendace (minuty)"
 viVN = "Thời gian tạm dừng (phút)"
+trTR = "Askıya alma gecikmesi (dakika)"

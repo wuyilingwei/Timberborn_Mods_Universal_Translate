@@ -16,6 +16,7 @@ ptBR = "Habilitado"
 koKR = "활성화됨"
 csCZ = "Povolené"
 viVN = "Đã bật"
+trTR = "Açık"
 
 ["LV.SE.EnabledDesc"]
 raw = "Whether to save every x days or not. Does not affect 'special first cycle day' and 'extra save on weather warning' options."
@@ -32,6 +33,7 @@ ptBR = "Se vai salvar a cada x dias ou não. Não afeta as opções de 'dia espe
 koKR = "매 x일마다 저장할지 여부. '특별 첫 사이클 하루' 및 '날씨 경고 시 추가 저장' 옵션에는 영향을 주지 않습니다."
 csCZ = "„Zda ukládat každé x dní, nebo ne. Neovlivňuje možnosti 'speciální první cyklus den' a 'extra uložení při varování před počasím'.“"
 viVN = "Có lưu mỗi x ngày hay không. Không ảnh hưởng đến các tùy chọn 'ngày đầu chu kỳ đặc biệt' và 'lưu thêm khi có cảnh báo thời tiết'."
+trTR = "Her x günde kaydedilip kaydedilmeyeceğini belirler. 'Özel ilk döngü günü' ve 'hava uyarısı sırasında ekstra kaydet' seçeneklerini etkilemez."
 
 ["LV.SE.SaveFrequency"]
 raw = "Auto-save frequency (days)"
@@ -48,6 +50,7 @@ ptBR = "Frequência de salvamento automático (dias)"
 koKR = "자동 저장 빈도(일)"
 csCZ = "Frekvence automatického ukládání (dny)"
 viVN = "Tần suất tự động lưu (ngày)"
+trTR = "Otomatik kayıt sıklığı (gün)"
 
 ["LV.SE.SaveFrequencyDesc"]
 raw = "How often this mod should auto-save."
@@ -64,6 +67,7 @@ ptBR = "Com que frequência este mod deve salvar automaticamente."
 koKR = "이 모드가 얼마나 자주 자동 저장되어야 하는지."
 csCZ = "Jak často by měl tento mod automaticky ukládat."
 viVN = "Tần suất tự động lưu cho mod này."
+trTR = "Bu modun ne sıklıkla otomatik kaydetmesi gerektiği."
 
 ["LV.SE.SaveCount"]
 raw = "Auto-save count"
@@ -80,6 +84,7 @@ ptBR = "Contagem de salvamentos automáticos"
 koKR = "자동 저장 횟수"
 csCZ = "Počet automatického ukládání"
 viVN = "Số lần lưu tự động"
+trTR = "Otomatik kaydetme sayısı"
 
 ["LV.SE.SaveCountDesc"]
 raw = "How many auto-saves should be kept."
@@ -96,6 +101,7 @@ ptBR = "Quantas salvamentos automáticos devem ser mantidos?"
 koKR = "자동 저장을 몇 개 보관해야 하는지."
 csCZ = "Kolik automatických uložených her by mělo být uchováno."
 viVN = "Có bao nhiêu lần lưu tự động nên được giữ."
+trTR = "Kaç otomatik kaydın saklanması gerektiği."
 
 ["LV.SE.SaveWeatherWarning"]
 raw = "Extra save on weather warning"
@@ -112,6 +118,7 @@ ptBR = "Economia extra em aviso de tempo."
 koKR = "날씨 경고에 대한 추가 저장"
 csCZ = "Extra uložení při výstraze na počasí"
 viVN = "Lưu thêm khi có cảnh báo thời tiết"
+trTR = "Hava uyarısında ekstra kaydet"
 
 ["LV.SE.SaveWeatherWarningDesc"]
 raw = "When a weather warning is issued, make an extra save named 'weatherwarning.save' that is only overwritten by the next cycle's warning. This save is not counted towards the save count."
@@ -128,6 +135,7 @@ ptBR = "Quando um aviso meteorológico é emitido, crie uma salvaguarda extra ch
 koKR = "날씨 경고가 발령될 때, 'weatherwarning.save'라는 이름의 추가 저장을 생성하며, 이 저장은 다음 사이클의 경고로만 덮어씌워집니다. 이 저장은 저장 개수에 포함되지 않습니다."
 csCZ = "Když je vydáno varování před počasím, vytvořte další zálohu nazvanou 'weatherwarning.save', která je přepsána pouze varováním z dalšího cyklu. Tato záloha se nezapočítává do celkového počtu záloh."
 viVN = "Khi một cảnh báo thời tiết được đưa ra, hãy tạo một bản lưu bổ sung có tên 'weatherwarning.save' chỉ bị ghi đè bởi cảnh báo của chu kỳ tiếp theo. Bản lưu này không được tính vào số lần lưu."
+trTR = "Bir hava uyarısı verildiğinde, 'weatherwarning.save' adında ekstra bir kayıt oluşturun ve bu kayıt yalnızca bir sonraki döngünün uyarısıyla üzerine yazılır. Bu kayıt, kayıt sayısına dahil edilmez."
 
 ["LV.SE.AutosaveWarning"]
 raw = "Warn before autosave"
@@ -144,6 +152,7 @@ ptBR = "Avisar antes de salvamento automático"
 koKR = "자동 저장 전에 경고"
 csCZ = "Varovat před automatickým uložením"
 viVN = "Cảnh báo trước khi lưu tự động"
+trTR = "Otomatik kayıttan önce uyar"
 
 ["LV.SE.AutosaveWarningDesc"]
 raw = "Show a warning some time before the game autosaves. This is useful for players who dislike game stuttering on autosave."
@@ -160,6 +169,7 @@ ptBR = "Mostre um aviso algum tempo antes do jogo fazer o salvamento automático
 koKR = "게임이 자동 저장되기 전에 미리 경고를 표시합니다. 이는 자동 저장 시 게임이 끊기는 것을 싫어하는 플레이어에게 유용합니다."
 csCZ = "Zobrazit upozornění nějakou dobu před tím, než hra automaticky uloží. To je užitečné pro hráče, kteří nemají rádi trhání hry během automatického ukládání."
 viVN = "Hiển thị cảnh báo trước khi trò chơi tự động lưu một khoảng thời gian. Điều này hữu ích cho người chơi không thích hiện tượng giật lag khi tự động lưu."
+trTR = "Oyun otomatik kaydetmeden önce bir süre uyarı göster. Bu, otomatik kaydetme sırasında oyunun takılmasından hoşlanmayan oyuncular için faydalıdır."
 
 ["LV.SE.AutosaveWarningText"]
 raw = "Autosave imminent in {0} game hours!"
@@ -176,6 +186,7 @@ ptBR = "Autossalvamento iminente em {0} horas de jogo!"
 koKR = "자동 저장이 {0} 시간 후에 진행됩니다!"
 csCZ = "Automatické ukládání následuje za {0} herních hodin!"
 viVN = "Lưu tự động sẽ xảy ra sau {0} giờ chơi!"
+trTR = "Otomatik kaydetme, {0} oyun saat içinde gerçekleşecek!"
 
 ["LV.SE.AutosaveDoneText"]
 raw = "Game autosaved (Save Everyday)!"
@@ -192,6 +203,7 @@ ptBR = "Jogo salvo automaticamente (Salvar Todo Dia)!"
 koKR = "게임이 자동 저장되었습니다 (매일 저장)!"
 csCZ = "Hra byla automaticky uložena (Save Everyday)!"
 viVN = "Trò chơi đã được tự động lưu (Save Everyday)!"
+trTR = "Oyun otomatik olarak kaydedildi (Her Günü Kurtar)!"
 
 ["LV.SE.AutoSaveFilename"]
 raw = "Auto-save filename"
@@ -208,6 +220,7 @@ ptBR = "Nome do arquivo de salvamento automático"
 koKR = "자동 저장 파일 이름"
 csCZ = "Název automatického ukládání"
 viVN = "Tên tệp tự động được lưu"
+trTR = "Otomatik yedekleme dosya adı"
 
 ["LV.SE.AutoSaveFilenameDesc"]
 raw = "Custom filename for auto-saves. If you use this,\nmake sure to put .saveeveryday at the end to auto delete. If not, the game will not delete the save file automatically.\nUse {0} for cycle number and {1} for cycle day number and {2} for total day. For example: C{0}_D{1}.saveeveryday.\nLeave empty to use the default filename (SaveDay{2}.saveeveryday)."
@@ -224,6 +237,7 @@ ptBR = "Nome de arquivo personalizado para salvamentos automáticos. Se você us
 koKR = "자동 저장을 위한 사용자 지정 파일 이름입니다. 이를 사용할 경우, 자동 삭제를 위해 끝에 .saveeveryday를 꼭 추가하세요. 그렇지 않으면 게임이 저장 파일을 자동으로 삭제하지 않습니다. {0}은 사이클 번호, {1}은 사이클 일수, {2}는 총 일수를 나타냅니다. 예: C{0}_D{1}.saveeveryday. 기본 파일 이름(SaveDay{2}.saveeveryday)을 사용하려면 비워두세요."
 csCZ = "Vlastní název souboru pro automatické ukládání. Pokud to použijete, ujistěte se, že na konci je .saveeveryday pro automatické smazání. Pokud ne, hra soubor s uložením automaticky nesmaže. Použijte {0} pro číslo cyklu, {1} pro číslo dne cyklu a {2} pro celkový den. Například: C{0}_D{1}.saveeveryday. Nechte prázdné pro použití výchozího názvu souboru (SaveDay{2}.saveeveryday)."
 viVN = "Tên tệp tùy chỉnh cho lưu tự động. Nếu bạn sử dụng tính năng này, hãy đảm bảo thêm .saveeveryday vào cuối để tự động xóa. Nếu không, trò chơi sẽ không tự động xóa tệp lưu. Sử dụng {0} cho số chu kỳ và {1} cho số ngày của chu kỳ và {2} cho tổng số ngày. Ví dụ: C{0}_D{1}.saveeveryday. Để trống để sử dụng tên tệp mặc định (SaveDay{2}.saveeveryday)."
+trTR = "Otomatik kayıtlara özel dosya adı. Bunu kullanıyorsanız, otomatik silme için sonuna .saveeveryday eklediğinizden emin olun. Aksi takdirde, oyun kayıt dosyasını otomatik olarak silmeyecektir. Döngü numarası için {0}, döngü günü numarası için {1} ve toplam gün için {2} kullanın. Örneğin: C{0}_D{1}.saveeveryday. Varsayılan dosya adını kullanmak için boş bırakın (SaveDay{2}.saveeveryday)."
 
 ["LV.SE.MakeFirstCycleDaySave"]
 raw = "Special first cycle day"
@@ -240,6 +254,7 @@ ptBR = "Dia especial do primeiro ciclo"
 koKR = "특별한 첫 번째 사이클 날"
 csCZ = "Speciální den prvního cyklu"
 viVN = "Ngày đầu chu kỳ đặc biệt"
+trTR = "Özel ilk döngü günü"
 
 ["LV.SE.MakeFirstCycleDaySaveDesc"]
 raw = "Make a special save at the start of each cycle (cycle day 1). This save has a special name and is not auto deleted."
@@ -256,3 +271,4 @@ ptBR = "Faça um salvamento especial no início de cada ciclo (dia de ciclo 1). 
 koKR = "각 사이클의 시작(사이클 1일)에 특별한 저장을 만듭니다. 이 저장은 특별한 이름이 있으며 자동으로 삭제되지 않습니다."
 csCZ = "Vytvořte speciální uložení na začátku každého cyklu (den cyklu 1). Toto uložení má speciální název a není automaticky smazáno."
 viVN = "Tạo một bản lưu đặc biệt vào đầu mỗi chu kỳ (ngày chu kỳ 1). Bản lưu này có một tên đặc biệt và không tự động bị xóa."
+trTR = "Her döngünün başlangıcında (döngü günü 1) özel bir kaydetme yapın. Bu kaydın özel bir adı var ve otomatik olarak silinmez."
