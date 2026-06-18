@@ -273,6 +273,10 @@ koKR = "일부 자동화 규칙을 실행할 수 없습니다."
 csCZ = "Některá pravidla automatizace nelze provést"
 viVN = "Một số quy tắc tự động hóa không thể được thực thi"
 
+["IgorZ.Automation.GameAutomationConflict.Warning"]
+new = "Advanced Automation controls this building.\nRemove or disable its rules first."
+status = "normal"
+
 ["IgorZ.Automation.ShowStatusAction.HoldCompletionStatusText"]
 raw = "Waiting for the other buildings to finish"
 status = "normal"
@@ -2349,6 +2353,18 @@ koKR = "다이너마이트를 폭파하고 <GreenHighlight>{0}회</GreenHighligh
 csCZ = "odpálit dynamit a přidat další <GreenHighlight>{0} krát</GreenHighlight>"
 viVN = "Kích nổ thuốc nổ và thêm <GreenHighlight>{0} lần</GreenHighlight>"
 
+["IgorZ.Automation.Scriptable.FillValve.Action.Close"]
+new = "close"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.FillValve.Action.Open"]
+new = "fully open"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.FillValve.Action.SetHeight"]
+new = "set height to {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Floodgate.Action.SetHeight"]
 raw = "set gate height to {0}"
 status = "normal"
@@ -2828,6 +2844,18 @@ ptBR = "profundidade"
 koKR = "깊이"
 csCZ = "hloubka"
 viVN = "độ sâu"
+
+["IgorZ.Automation.Scriptable.ThrottlingValve.Action.Close"]
+new = "close"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.ThrottlingValve.Action.Open"]
+new = "fully open"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.ThrottlingValve.Action.SetFlow"]
+new = "set flow to {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Weather.Signal.Season"]
 raw = "season"
@@ -3420,6 +3448,18 @@ ptBR = "Existem regras no estado de edição. Complete-as primeiro."
 koKR = "편집 상태에서 규칙이 있습니다. 먼저 이들을 완료하세요."
 csCZ = "Existují pravidla v editačním stavu. Nejprve je dokončete."
 viVN = "Có các quy tắc đang được chỉnh sửa. Hoàn thành chúng trước."
+
+["IgorZ.Automation.Scripting.Editor.GameAutomationConflictNotification"]
+new = "Game automation is already enabled.\nRules {0} change this building's state.\nRemove or disable them first."
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.GameAutomationBlocksSaveRuleHint"]
+new = "Game automation is enabled.\nThis rule cannot be saved while active."
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.GameAutomationWillBeBlockedRuleHint"]
+new = "This rule changes building state.\nGame automation will be blocked."
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Editor.ReadMoreLink"]
 raw = "https://github.com/ihsoft/TimberbornMods/wiki/Automation-(scripting)"
