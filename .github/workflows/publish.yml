@@ -84,21 +84,34 @@ jobs:
           # Inject a unique CI marker so the zip hash differs each run.
           # mod.io's add_modfile endpoint dedupes by file hash GLOBALLY across
           # all mods (returns 422 "already been uploaded" pointing at someone
-          # else's modfile, but does NOT attach the file to OUR mod). Adding a
-          # tiny marker file with the GitHub run_id + timestamp guarantees a
-          # fresh hash without changing any game-relevant content (Timberborn's
-          # mod loader ignores unknown root-level files).
-          MARKER=".modio_ci_marker"
+          # else's modfile, but does NOT attach the file to OUR mod). The
+          # marker file's run_id + timestamp guarantees a fresh hash.
+          #
+          # IMPORTANT: marker must live INSIDE the mod's top-level directory,
+          # not at the zip root. Adding it at the root breaks the "single
+          # top-level mod folder containing manifest.json" structure that
+          # mod.io and the Timberborn mod loader expect, producing a broken
+          # download that the game can't see.
+          TMP_DIR=$(mktemp -d)
+          unzip -q release.zip -d "${TMP_DIR}"
+          MOD_DIR=$(find "${TMP_DIR}" -maxdepth 1 -mindepth 1 -type d | head -1)
+          if [ -z "${MOD_DIR}" ] || [ ! -f "${MOD_DIR}/manifest.json" ]; then
+            echo "Error: release.zip does not contain a single top-level mod dir with manifest.json"
+            ls -la "${TMP_DIR}"
+            exit 1
+          fi
+          echo "Mod top-level dir inside zip: $(basename ${MOD_DIR})"
           {
             echo "run_id=${{ github.run_id }}"
             echo "run_attempt=${{ github.run_attempt }}"
             echo "ts=$(date +%s)"
             echo "sha=${GITHUB_SHA}"
-          } > "${MARKER}"
-          zip -g release.zip "${MARKER}"
+          } > "${MOD_DIR}/.modio_ci_marker"
+          rm -f release.zip
+          ( cd "${TMP_DIR}" && zip -qr "${GITHUB_WORKSPACE}/release.zip" . )
+          rm -rf "${TMP_DIR}"
           NEW_SIZE=$(wc -c < release.zip)
-          echo "After CI marker injection: release.zip ($NEW_SIZE bytes)"
-          rm -f "${MARKER}"
+          echo "After CI marker injection (inside mod dir): release.zip (${NEW_SIZE} bytes)"
 
       - name: Publish to all platforms
         run: |
