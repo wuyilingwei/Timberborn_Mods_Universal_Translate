@@ -1,0 +1,58 @@
+[_meta]
+name = "Lunch & Leisure"
+
+["LTM.Enabled"]
+new = "Enable lunch break"
+status = "normal"
+
+["LTM.EnabledDesc"]
+new = "If on, beavers stop working during the midday window to eat, drink, and socialize."
+status = "normal"
+
+["LTM.BreakStartHour"]
+new = "Lunch start hour"
+status = "normal"
+
+["LTM.BreakStartHourDesc"]
+new = "In-game hour (0-23) when the lunch break begins. Default 12 (noon)."
+status = "normal"
+
+["LTM.BreakDuration"]
+new = "Lunch duration (hours)"
+status = "normal"
+
+["LTM.BreakDurationDesc"]
+new = "How many in-game hours the lunch break lasts. Default 1."
+status = "normal"
+
+["LTM.WeekendsEnabled"]
+new = "Enable weekends"
+status = "normal"
+
+["LTM.WeekendsEnabledDesc"]
+new = "Beavers take the last days of each cycle off. Bots keep working, so automation runs the colony while beavers rest."
+status = "normal"
+
+["LTM.BaseWeekendDays"]
+new = "Base weekend days"
+status = "normal"
+
+["LTM.BaseWeekendDaysDesc"]
+new = "Guaranteed days off at the end of every cycle, before automation adds more. Default 1."
+status = "normal"
+
+["LTM.WeekendGenerosity"]
+new = "Weekend generosity (%)"
+status = "normal"
+
+["LTM.WeekendGenerosityDesc"]
+new = "Scales the automation bonus. 100% = bot share of the workforce x cycle length, added to the base days."
+status = "normal"
+
+["LTM.ForceRest"]
+new = "Rest now (test)"
+status = "normal"
+
+["LTM.ForceRestDesc"]
+new = "Testing switch: when on, all beavers stop working immediately, regardless of time or day."
+status = "normal"

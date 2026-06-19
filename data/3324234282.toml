@@ -2113,6 +2113,10 @@ koKR = "자동화 신호"
 csCZ = "automatizační signál"
 viVN = "tín hiệu tự động hóa"
 
+["IgorZ.Automation.Scriptable.BreedingPod.Signal.Progress"]
+new = "breeding progress"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
 raw = "ready for collection"
 status = "normal"
@@ -2352,6 +2356,14 @@ ptBR = "detonar dinamite e adicionar mais <GreenHighlight>{0} vezes</GreenHighli
 koKR = "다이너마이트를 폭파하고 <GreenHighlight>{0}회</GreenHighlight>를 추가합니다."
 csCZ = "odpálit dynamit a přidat další <GreenHighlight>{0} krát</GreenHighlight>"
 viVN = "Kích nổ thuốc nổ và thêm <GreenHighlight>{0} lần</GreenHighlight>"
+
+["IgorZ.Automation.Scriptable.Clutch.Action.Disengage"]
+new = "disengage"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Clutch.Action.Engage"]
+new = "engage"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.FillValve.Action.Close"]
 new = "close"
@@ -2733,6 +2745,10 @@ koKR = "+ 수거인에 따라 우선순위 지정"
 csCZ = "+ upřednostnit podle nosičů"
 viVN = "+ ưu tiên theo người vận chuyển"
 
+["IgorZ.Automation.Scriptable.Science.Signal.Points"]
+new = "science points"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Signals.Action.Set"]
 raw = "set signal: {0} = {1}"
 status = "normal"
@@ -2844,6 +2860,26 @@ ptBR = "profundidade"
 koKR = "깊이"
 csCZ = "hloubka"
 viVN = "độ sâu"
+
+["IgorZ.Automation.Scriptable.Time.Signal.Day"]
+new = "game day"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Time.Signal.MinuteOfDay"]
+new = "time of day"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Time.Signal.WorkingHours"]
+new = "working hours"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Time.Signal.WorkingHours.OffHours"]
+new = "Off hours"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Time.Signal.WorkingHours.Working"]
+new = "Working hours"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.ThrottlingValve.Action.Close"]
 new = "close"
@@ -4037,6 +4073,10 @@ ptBR = " Avaliar valores nos argumentos da ação"
 koKR = "행동 인수에서 값을 평가합니다"
 csCZ = "Hodnotit hodnoty v argumentech akce"
 viVN = "Đánh giá các giá trị trong các đối số của hành động"
+
+["IgorZ.Automation.Settings.EntityPanel.PreventGameAutomationConflicts"]
+new = "Prevent game automation conflicts"
+status = "normal"
 
 ["IgorZ.Automation.Settings.EntityPanel.MaxRulesShown"]
 raw = "Number of rules to show in panel"
