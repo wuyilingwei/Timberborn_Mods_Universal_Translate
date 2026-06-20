@@ -69,6 +69,46 @@ csCZ = "Není žádná dosažitelná políčka k zavlažování"
 viVN = "Không có ô đất nào có thể tưới nước được"
 trTR = "Sulamak için erişilebilen alan yok"
 
+["IgorZ.TimberCommons.IrrigationTower.Efficient"]
+new = "<YellowHighlight>Efficient: </YellowHighlight>Does not waste water."
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.MaxRange"]
+new = "Max range: {0}"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.GrowthBoost"]
+new = "Growth boost: <GreenHighlight>+{0:0.#}%</GreenHighlight>"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.GrowthSlowdown"]
+new = "Growth slowdown: <RedHighlight>-{0:0.#}%</RedHighlight>"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.ContaminationBlock"]
+new = "Blocks contamination"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.OutputRangeAmount"]
+new = "{0}"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.OutputRangeTooltip"]
+new = "Maximum irrigation range"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.OutputGrowthModifierAmount"]
+new = "{0:+0.#;-0.#;0}%"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.OutputGrowthModifierTooltip"]
+new = "Growth rate modifier"
+status = "normal"
+
+["IgorZ.TimberCommons.IrrigationTower.OutputContaminationBlockTooltip"]
+new = "Blocks contamination"
+status = "normal"
+
 ["IgorZ.TimberCommons.GrowthRateModifier.BoostPercentile"]
 raw = "Growth boost: <GreenHighlight>🡅</GreenHighlight>{0:0.#}%"
 status = "normal"
@@ -543,7 +583,7 @@ ptBR = "="
 koKR = "="
 csCZ = "=\"\""
 viVN = "dấu bằng"
-trTR = "\"\""
+trTR = ""
 
 ["IgorZ.TimberCommons.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
