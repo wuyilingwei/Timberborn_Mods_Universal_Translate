@@ -70,8 +70,8 @@ viVN = "Không có ô đất nào có thể tưới nước được"
 trTR = "Sulamak için erişilebilen alan yok"
 
 ["IgorZ.TimberCommons.IrrigationTower.Efficient"]
-status = "normal"
 raw = "<YellowHighlight>Efficient: </YellowHighlight>Does not waste water."
+status = "normal"
 enUS = "<YellowHighlight>Efficient: </YellowHighlight>Does not waste water."
 zhCN = "<YellowHighlight>高效: </YellowHighlight>不浪费水。"
 zhTW = "<YellowHighlight>高效: </YellowHighlight>不浪費水。"
@@ -87,8 +87,8 @@ viVN = "<YellowHighlight>Có hiệu quả: </YellowHighlight>Không lãng phí n
 trTR = "<YellowHighlight>Verimli: </YellowHighlight>Su israf etmez."
 
 ["IgorZ.TimberCommons.IrrigationTower.MaxRange"]
-status = "normal"
 raw = "Max range: {0}"
+status = "normal"
 enUS = "Max range: {0}"
 zhCN = "最大范围：{0}"
 zhTW = "最大範圍: {0}"
@@ -104,8 +104,8 @@ viVN = "Phạm vi tối đa: {0}"
 trTR = "Max menzil: {0}"
 
 ["IgorZ.TimberCommons.IrrigationTower.GrowthBoost"]
-status = "normal"
 raw = "Growth boost: <GreenHighlight>+{0:0.#}%</GreenHighlight>"
+status = "normal"
 enUS = "Growth boost: <GreenHighlight>+{0:0.#}%</GreenHighlight>"
 zhCN = "生长提升：<GreenHighlight>+{0:0.#}%</GreenHighlight>"
 zhTW = "成長提升：<GreenHighlight>+{0:0.#}%</GreenHighlight>"
@@ -121,8 +121,8 @@ viVN = "Thúc đẩy tăng trưởng: <GreenHighlight>+{0:0.#}%</GreenHighlight>
 trTR = "Büyüme artırımı: <GreenHighlight>+{0:0.#}%</GreenHighlight>"
 
 ["IgorZ.TimberCommons.IrrigationTower.GrowthSlowdown"]
-status = "normal"
 raw = "Growth slowdown: <RedHighlight>-{0:0.#}%</RedHighlight>"
+status = "normal"
 enUS = "Growth slowdown: <RedHighlight>-{0:0.#}%</RedHighlight>"
 zhCN = "生长减缓：<RedHighlight>-{0:0.#}%</RedHighlight>"
 zhTW = "生長減緩：<RedHighlight>-{0:0.#}%</RedHighlight>"
@@ -138,8 +138,8 @@ viVN = "Giảm tốc độ phát triển: <RedHighlight>-{0:0.#}%</RedHighlight>
 trTR = "Büyüme yavaşlaması: <RedHighlight>-{0:0.#}%</RedHighlight>"
 
 ["IgorZ.TimberCommons.IrrigationTower.ContaminationBlock"]
-status = "normal"
 raw = "Blocks contamination"
+status = "normal"
 enUS = "Blocks contamination"
 zhCN = "阻止污染"
 zhTW = "阻止污染"
@@ -155,8 +155,8 @@ viVN = "Chặn ô nhiễm"
 trTR = "Kirlenmeyi engeller"
 
 ["IgorZ.TimberCommons.IrrigationTower.OutputRangeAmount"]
-status = "normal"
 raw = "{0}"
+status = "normal"
 enUS = "{0}"
 zhCN = "{0}"
 zhTW = "{0}"
@@ -172,8 +172,8 @@ viVN = "{0}"
 trTR = "{0}"
 
 ["IgorZ.TimberCommons.IrrigationTower.OutputRangeTooltip"]
-status = "normal"
 raw = "Maximum irrigation range"
+status = "normal"
 enUS = "Maximum irrigation range"
 zhCN = "最大灌溉范围"
 zhTW = "最大灌溉範圍"
@@ -189,8 +189,8 @@ viVN = "Phạm vi tưới tiêu tối đa"
 trTR = "Maksimum sulama aralığı"
 
 ["IgorZ.TimberCommons.IrrigationTower.OutputGrowthModifierAmount"]
-status = "normal"
 raw = "{0:+0.#;-0.#;0}%"
+status = "normal"
 enUS = "{0:+0.#;-0.#;0}%"
 zhCN = "{0:+0.#;-0.#;0}%"
 zhTW = "{0:+0.#;-0.#;0}%"
@@ -206,8 +206,8 @@ viVN = "{0:+0.#;-0.#;0}%"
 trTR = "{0:+0.#;-0.#;0}%"
 
 ["IgorZ.TimberCommons.IrrigationTower.OutputGrowthModifierTooltip"]
-status = "normal"
 raw = "Growth rate modifier"
+status = "normal"
 enUS = "Growth rate modifier"
 zhCN = "生长率修饰符"
 zhTW = "生長速率修改器"
@@ -223,8 +223,8 @@ viVN = "Định mức tăng trưởng"
 trTR = "Büyüme hızı modifikatörü"
 
 ["IgorZ.TimberCommons.IrrigationTower.OutputContaminationBlockTooltip"]
-status = "normal"
 raw = "Blocks contamination"
+status = "normal"
 enUS = "Blocks contamination"
 zhCN = "阻止污染"
 zhTW = "阻擋污染"
@@ -272,6 +272,10 @@ koKR = "성장 둔화: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 csCZ = "Zpomalení růstu: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 viVN = "Giảm tốc độ tăng trưởng: <RedHighlight>🡇</RedHighlight>{0:0.#}%"
 trTR = "Büyüme yavaşlaması: <KırmızıVurgu>🡇</KırmızıVurgu>{0:0.#}%"
+
+["IgorZ.TimberCommons.AdjustableWaterOutput.LimitOutputLevel"]
+new = "Limit output water level"
+status = "normal"
 
 ["IgorZ.TimberCommons.AdjustableWaterOutput.StopAboveDownstream"]
 raw = "Close above depth at spillway: {0}"
@@ -511,6 +515,18 @@ csCZ = "Umožnit nastavení maximální hladiny vody na přelivu kapalinových s
 viVN = "Cho phép thiết lập mức nước tối đa tại cửa xả của các giọt chất lỏng"
 trTR = "Sıvı dökümlerinin taşkın alanında maksimum su seviyesini ayarlamaya izin ver"
 
+["IgorZ.TimberCommons.Settings.WaterBuildings.UseLocalOutputLevelLimitScan"]
+new = "Use local height range for output water level slider"
+status = "normal"
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.OutputLevelLimitScanRadius"]
+new = "Area checked around water output"
+status = "normal"
+
+["IgorZ.TimberCommons.Settings.WaterBuildings.OutputLevelLimitScanRadiusTooltip"]
+new = "How far from the water output to look for the slider's highest useful level.\nHigher values check a larger nearby area."
+status = "normal"
+
 ["IgorZ.TimberCommons.Settings.InjuryProbabilitySection"]
 raw = "Injury probability"
 status = "normal"
@@ -713,7 +729,7 @@ ptBR = "="
 koKR = "="
 csCZ = "=\"\""
 viVN = "dấu bằng"
-trTR = "\"\""
+trTR = ""
 
 ["IgorZ.TimberCommons.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
