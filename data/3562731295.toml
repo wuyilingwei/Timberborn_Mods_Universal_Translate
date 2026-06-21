@@ -407,6 +407,7 @@ ptBR = "Tremor de Terra"
 koKR = "지진"
 csCZ = "Zemětřesení"
 viVN = "Động đất"
+trTR = "Deprem"
 
 ["LV.EQ.EqDamageReduction"]
 raw = "Reinforced Foundations"
@@ -423,6 +424,7 @@ ptBR = "Fundamentos Reforçados"
 koKR = "강화된 기초"
 csCZ = "Zpevněné základy"
 viVN = "Nền móng gia cố"
+trTR = "Güçlendirilmiş Temeller"
 
 ["LV.EQ.EqDamageReductionDesc"]
 raw = "Permanently reduces earthquake damage by {0:0%}."
@@ -439,6 +441,7 @@ ptBR = "Reduz permanentemente o dano de terremotos em {0:0%}."
 koKR = "지진 피해를 {0:0%}만큼 영구적으로 감소시킵니다."
 csCZ = "Trvale snižuje škody způsobené zemětřesením o {0:0%}."
 viVN = "Vĩnh viễn giảm thiểu thiệt hại do động đất xuống {0:0%}."
+trTR = "Deprem hasarını kalıcı olarak {0:0%} oranında azaltır."
 
 ["LV.EQ.EqDamageReductionFlavor"]
 raw = "The floor beams are interlocked and cross-braced, distributing seismic stress throughout the structure."
@@ -455,6 +458,7 @@ ptBR = "As vigas do piso estão entrelaçadas e reforçadas, distribuindo o estr
 koKR = "바닥 빔이 서로 연결되고 교차 보강되어, 구조 전체에 걸쳐 지진에 대한 스트레스를 분산시킵니다."
 csCZ = "Podlahové nosníky jsou spojeny a křížově vyztuženy, což rozděluje seismický stres po celé konstrukci."
 viVN = "Các dầm sàn được liên kết chặt chẽ và đan chéo, phân tán lực địa chấn khắp công trình."
+trTR = "Zemin kirişleri birbirine kenetlenmiş ve çapraz desteklenmiştir, sismik stresi yapının her yerine dağıtarak etkili bir dağılım sağlar."
 
 ["LV.EQ.EqImmunity"]
 raw = "Shock-Absorbing Structure"
@@ -471,6 +475,7 @@ ptBR = "Estrutura de Absorção de Choque"
 koKR = "충격 흡수 구조물"
 csCZ = "Struktura pohlcující nárazy"
 viVN = "Cấu trúc hấp thụ sốc"
+trTR = "Şok Emici Yapı"
 
 ["LV.EQ.EqImmunityDesc"]
 raw = "Immune to earthquake damage for the next {0} hits."
@@ -487,6 +492,7 @@ ptBR = "Imune a danos de terremoto pelos próximos {0} impactos."
 koKR = "다음 {0}회의 타격 동안 지진 피해에 면역이 됩니다."
 csCZ = "Imunní vůči poškození zemětřesením po následující {0} údery."
 viVN = "Miễn nhiễm với thiệt hại do động đất trong {0} cú đánh tiếp theo."
+trTR = "Sonraki {0} vuruş için deprem hasarına karşı bağışık."
 
 ["LV.EQ.EqImmunityFlavor"]
 raw = "Logs wedged like springs make the whole place bounce when the ground rumbles. Fun, but safe!"
@@ -503,6 +509,7 @@ ptBR = "Registros presos como molas fazem o lugar todo saltar quando o chão tre
 koKR = "스프링처럼 끼인 통나무들이 땅이 흔들릴 때 전체가 튕겨 오르게 만듭니다. 재미있지만 안전해요!"
 csCZ = "Kmeny zaklíněné jako pružiny způsobují, že se celé místo otřásá, když se země otřese. Zábava, ale bezpečné!"
 viVN = "Những khúc gỗ bị kẹp như lò xo khiến cả khu vực nảy lên khi mặt đất rung động. Vui, nhưng an toàn!"
+trTR = "Yükseltilmiş gibi sıkışmış odunlar, yer sarsıldığında her yeri zıplatır. Eğlenceli, ama güvenli!"
 
 ["LV.EQ.EqDurability"]
 raw = "Seismic Symbiosis"
@@ -519,6 +526,7 @@ ptBR = "Simbiogênese Sísmica"
 koKR = "지진 공생"
 csCZ = "Seismická symbióza"
 viVN = "Cộng sinh địa chấn"
+trTR = "Sezmsal Sembolizmi"
 
 ["LV.EQ.EqDurabilityDesc"]
 raw = "When the next earthquake hits, permanently increase this building Durability by {0:+0%}. Can only be applied once. Also provide immunity to that hit."
@@ -535,6 +543,7 @@ ptBR = "Quando o próximo terremoto ocorrer, aumente permanentemente a Durabilid
 koKR = "다음 지진이 발생할 때, 이 건물의 내구성을 영구적으로 {0:+0%} 증가시킵니다. 한 번만 적용될 수 있습니다. 또한 그 타격에 대한 면역을 제공합니다."
 csCZ = "Když nastane další zemětřesení, trvale zvýší odolnost této budovy o {0:+0%}. Může být použito pouze jednou. Také poskytuje imunitu vůči danému zásahu."
 viVN = "Khi trận động đất tiếp theo xảy ra, tăng vĩnh viễn độ bền của tòa nhà này lên {0:+0%}. Chỉ có thể được áp dụng một lần. Cũng được miễn nhiễm với trận động đất đó."
+trTR = "Bir sonraki deprem meydana geldiğinde, bu binanın Dayanıklılığını kalıcı olarak {0:+0%} artırır. Sadece bir kez uygulanabilir. Ayrıca o darbeye karşı bağışıklık sağlar."
 
 ["LV.EQ.EqDurabilityFlavor"]
 raw = "Builders boast that their work only grows stronger when the ground gets rowdy."
@@ -551,6 +560,7 @@ ptBR = "Os construtores se gabarão que seu trabalho só fica mais forte quando 
 koKR = "건축가들은 땅이 요동치면 그들의 작업이 더 강해진다고 자랑합니다."
 csCZ = "Stavitelé se chlubí, že jejich práce pouze sílí, když se půda rozbouří."
 viVN = "Những người xây dựng tự hào rằng công việc của họ chỉ càng trở nên mạnh mẽ khi mặt đất trở nên náo động."
+trTR = "İşçiler, zemin hareketlendiğinde işlerinin sadece daha güçlü hale geldiğini övünerek söylerler."
 
 ["LV.EQ.EqPileReinforced"]
 raw = "Reinforced Storage"
@@ -567,6 +577,7 @@ ptBR = "Armazenamento Reforçado"
 koKR = "강화 저장소"
 csCZ = "Zpevněné skladování"
 viVN = "Kho chứa gia cố"
+trTR = "Güçlendirilmiş Depolama"
 
 ["LV.EQ.EqPileReinforcedDesc"]
 raw = "Prevents stored goods from spilling during earthquakes."
@@ -583,6 +594,7 @@ ptBR = "Evita que os bens armazenados derramem durante os terremotos."
 koKR = "지진 동안 보관된 물품이 쏟아지는 것을 방지합니다."
 csCZ = "Zabraňuje vylévání uskladněného zboží během zemětřesení."
 viVN = "Ngăn hàng hóa tồn kho bị tràn khi động đất xảy ra."
+trTR = "Depolanan eşyaların depremler sırasında dökülmesini önler."
 
 ["LV.EQ.EqPileReinforcedFlavor"]
 raw = "Heavy bracing and tighter bindings keep supplies from rattling loose when the ground shakes."
@@ -599,6 +611,7 @@ ptBR = "Reforços pesados e ligações mais apertadas evitam que os suprimentos 
 koKR = "강력한 보강과 더 조밀한 결속이 지면이 흔들릴 때 자재가 헐겁게 떨어지지 않도록 유지합니다."
 csCZ = "Těžké zpevnění a pevnější vázání udržují zásoby na místě, když se země třese."
 viVN = "Gia cố nặng và buộc chặt hơn giữ cho hàng hóa không bị rung lắc khi mặt đất rung chuyển."
+trTR = "Ağır destekler ve daha sıkı bağlar, zemin sarsıldığında malzemelerin gevşemesini engeller."
 
 ["LV.EQ.EqPileReinforcedErr"]
 raw = "This renovation can only be applied to storage buildings."
@@ -615,6 +628,7 @@ ptBR = "Esta renovação só pode ser aplicada a edifícios de armazenamento."
 koKR = "이 개조는 저장 건물에만 적용될 수 있습니다."
 csCZ = "Tato renovace může být aplikována pouze na sklady."
 viVN = "Cải tạo này chỉ được áp dụng cho các nhà kho."
+trTR = "Bu yenileme yalnızca depolama binalarına uygulanabilir."
 
 ["LV.EQ.EqImmunityStatus"]
 raw = "The next {0} earthquake hits will not affect this building."
@@ -631,6 +645,7 @@ ptBR = "A próxima {0} tremores de terra não afetarão este edifício."
 koKR = "다음 {0} 번의 지진이 이 건물에 영향을 미치지 않습니다."
 csCZ = "Následujících {0} zemětřesení neovlivní tuto budovu."
 viVN = "Đợt động đất tiếp theo {0} lần sẽ không ảnh hưởng đến tòa nhà này."
+trTR = "Sonraki {0} deprem vurması bu binayı etkilemeyecek."
 
 ["LV.EQ.EqDurabilityDormant"]
 raw = "{0} (Dormant)"
@@ -647,6 +662,7 @@ ptBR = "{0} (Inativo)"
 koKR = "{0} (휴면)"
 csCZ = "{0} (Nečinný)"
 viVN = "{0} (Ngủ đông)"
+trTR = "{0} (Uyku Halinde)"
 
 ["LV.EQ.EqDurabilityActive"]
 raw = "{0} (Active)"
@@ -663,6 +679,7 @@ ptBR = "{0} (Ativo)"
 koKR = "{0} (활성)"
 csCZ = "{0} (Aktivní)"
 viVN = "{0} (Đang hoạt động)"
+trTR = "{0} (Aktif)"
 
 ["LV.EQ.EqDurabilityActiveDesc"]
 raw = "Durability increased by {0:+0%}."
@@ -679,6 +696,7 @@ ptBR = "Durabilidade aumentada em {0:+0%}."
 koKR = "내구도가 {0:+0%}만큼 증가했습니다."
 csCZ = "Odolnost zvýšena o {0:+0%}."
 viVN = "Độ bền được tăng lên {0:+0%}."
+trTR = "Dayanıklılık {0:+0%} arttı."
 
 ["LV.EQ.InjuryChance"]
 raw = "Injury chance (%)"
@@ -695,6 +713,7 @@ ptBR = "Probabilidade de lesão (%)"
 koKR = "부상 확률 (%)"
 csCZ = "Šance na zranění (%)"
 viVN = "Xác suất chấn thương (%)"
+trTR = "Yaralanma ihtimali (%)"
 
 ["LV.EQ.InjuryChanceDesc"]
 raw = "The chance that beavers get injured and bots get damaged when inside the earthquake hit area"
@@ -711,6 +730,7 @@ ptBR = "A chance de que castores fiquem feridos e robôs sejam danificados ao es
 koKR = "지진 피해 지역에 있을 때 비버가 다치고 로봇이 손상될 확률"
 csCZ = "Šance, že bobři budou zraněni a roboti budou poškozeni, když se nacházejí v oblasti postižené zemětřesením."
 viVN = "Khả năng hải ly bị thương và các bot bị hư hại khi ở trong khu vực bị động đất."
+trTR = "Yerin sarsıntısına maruz kalan alanda kunduzların yaralanma ve robotların zarar görme olasılığı"
 
 ["LV.EQ.BotDurabilityLoss"]
 raw = "Bot durability loss (%)"
@@ -727,6 +747,7 @@ ptBR = "Perda de durabilidade do robô (%)"
 koKR = "봇 내구도 손실 (%)"
 csCZ = "Ztráta trvanlivosti robota (%)"
 viVN = "Mất độ bền của bot (%)"
+trTR = "Bot dayanıklılık kaybı (%)"
 
 ["LV.EQ.BotDurabilityLossDesc"]
 raw = "The amount of durability bots lose when damaged by earthquake"
@@ -743,6 +764,7 @@ ptBR = "A quantidade de durabilidade que os robôs perdem quando danificados por
 koKR = "지진으로 피해를 입었을 때 로봇이 잃는 내구성의 양"
 csCZ = "Množství odolnosti, kterou roboti ztrácejí, když jsou poškozeni zemětřesením"
 viVN = "Lượng độ bền mà các bot mất đi khi bị hư hại do động đất"
+trTR = "Deprem sonucu hasar aldıklarında botların kaybettiği dayanıklılık miktarı"
 
 ["LV.EQ.EqBlocked"]
 raw = "Blocked by Earthquake"
@@ -759,6 +781,7 @@ ptBR = "Bloqueado por Terremoto"
 koKR = "지진으로 차단됨"
 csCZ = "Zablokováno zemětřesením"
 viVN = "Bị chặn bởi động đất"
+trTR = "Deprem tarafından engellendi"
 
 ["LV.EQ.EqBlockedDesc"]
 raw = "What a mess! This building was recently damaged by earthquake and need to be cleaned up. Certain function may be blocked until then."
@@ -775,3 +798,4 @@ ptBR = "Que bagunça! Este edifício foi recentemente danificado por um terremot
 koKR = "무슨 난리야! 이 건물은 최근 지진으로 피해를 입었고, 청소가 필요하다. 그때까지는 특정 기능이 차단될 수 있다."
 csCZ = "Co za chaos! Tato budova byla nedávno poškozena zemětřesením a je potřeba ji uklidit. Některé funkce mohou být do té doby zablokovány."
 viVN = "Thật là một mớ hỗn độn! Tòa nhà này gần đây bị động đất làm hỏng và cần được dọn dẹp. Một số chức năng có thể bị khóa cho đến khi đó."
+trTR = "Ne berbat bir durum! Bu bina yakın zamanda bir depremden zarar gördü ve temizlenmesi gerekiyor. Belirli işlevler o zamana kadar engellenebilir."
