@@ -2,8 +2,8 @@
 name = "Lunch & Leisure"
 
 ["LTM.Enabled"]
-status = "normal"
 raw = "Enable lunch break"
+status = "normal"
 enUS = "Enable lunch break"
 zhCN = "启用午休"
 zhTW = "啟用午餐時間"
@@ -19,8 +19,8 @@ viVN = "Bật giờ nghỉ trưa"
 trTR = "Öğle arası etkinleştir"
 
 ["LTM.EnabledDesc"]
-status = "normal"
 raw = "If on, beavers stop working during the midday window to eat, drink, and socialize."
+status = "normal"
 enUS = "If enabled, beavers will stop working during the midday period to eat, drink, and socialize."
 zhCN = "如果开启，海狸将在中午时段停止工作以吃饭、喝水和社交。"
 zhTW = "如果啟用，海狸在正午期間會停止工作，進行飲食和社交。"
@@ -36,8 +36,8 @@ viVN = "“Nếu bật lên, những con hải ly sẽ ngừng làm việc trong
 trTR = "Eğer etkinse, kunduzlar öğle aralığında yemek yemek, içmek ve sosyalleşmek için çalışmayı durdurur."
 
 ["LTM.BreakStartHour"]
-status = "normal"
 raw = "Lunch start hour"
+status = "normal"
 enUS = "Lunch start hour"
 zhCN = "午餐开始时间"
 zhTW = "午餐開始時間"
@@ -53,8 +53,8 @@ viVN = "Giờ bắt đầu bữa trưa"
 trTR = "Öğle yemeği başlangıç saati"
 
 ["LTM.BreakStartHourDesc"]
-status = "normal"
 raw = "In-game hour (0-23) when the lunch break begins. Default 12 (noon)."
+status = "normal"
 enUS = "In-game hour (0-23) when the lunch break begins. Default 12 (noon)."
 zhCN = "游戏内时间（0-23），午餐时间开始。默认12（中午）。"
 zhTW = "遊戲內小時（0-23），午餐休息開始的時間。默認為 12（正午）。"
@@ -70,8 +70,8 @@ viVN = "Giờ trong trò chơi (0-23) khi giờ nghỉ trưa bắt đầu. Mặc
 trTR = "Oyun içindeki saat (0-23) öğle molasının başladığı zaman. Varsayılan 12 (öğle)."
 
 ["LTM.BreakDuration"]
-status = "normal"
 raw = "Lunch duration (hours)"
+status = "normal"
 enUS = "Lunch duration (hours)"
 zhCN = "午餐时长（小时）"
 zhTW = "午餐時長（小時）"
@@ -87,8 +87,8 @@ viVN = "Thời gian ăn trưa (giờ)"
 trTR = "Öğle yemeği süresi (saat)"
 
 ["LTM.BreakDurationDesc"]
-status = "normal"
 raw = "How many in-game hours the lunch break lasts. Default 1."
+status = "normal"
 enUS = "How many in-game hours the lunch break lasts. Default 1."
 zhCN = "午餐时间持续多少游戏小时。默认值为1。"
 zhTW = "午餐休息持續的遊戲小時數。預設為1。"
@@ -104,8 +104,8 @@ viVN = "Số giờ trong trò chơi mà thời gian nghỉ trưa kéo dài. Mặ
 trTR = "Öğle tatilinin kaç oyun saati sürdüğü. Varsayılan 1."
 
 ["LTM.WeekendsEnabled"]
-status = "normal"
 raw = "Enable weekends"
+status = "normal"
 enUS = "Enable weekends"
 zhCN = "启用周末"
 zhTW = "啟用週末"
@@ -121,8 +121,8 @@ viVN = "Cho phép cuối tuần"
 trTR = "Haftasonlarını etkinleştir"
 
 ["LTM.WeekendsEnabledDesc"]
-status = "normal"
 raw = "Beavers take the last days of each cycle off. Bots keep working, so automation runs the colony while beavers rest."
+status = "normal"
 enUS = "Beavers take the last days of each cycle off. Bots keep working, so automation runs the colony while beavers rest."
 zhCN = "“海狸在每个周期的最后几天休息。机器人继续工作，因此自动化维持着殖民地的运转，而海狸则休息。”"
 zhTW = "海狸在每個週期的最後幾天休息。機器人繼續工作，因此自動化管理著殖民地，而海狸則休息。"
@@ -138,8 +138,8 @@ viVN = "Các loài hải ly nghỉ ngơi vào những ngày cuối cùng của m
 trTR = "Castingolar, her döngünün son günlerinde dinlenir. Robotlar çalışmaya devam eder, böylece otomasyon koloniye hizmet ederken castinger dinlenir."
 
 ["LTM.BaseWeekendDays"]
-status = "normal"
 raw = "Base weekend days"
+status = "normal"
 enUS = "Base weekend days"
 zhCN = "基础周末天数"
 zhTW = "基本週末日"
@@ -155,8 +155,8 @@ viVN = "Các ngày cuối tuần cơ bản"
 trTR = "Temel hafta sonu günleri"
 
 ["LTM.BaseWeekendDaysDesc"]
-status = "normal"
 raw = "Guaranteed days off at the end of every cycle, before automation adds more. Default 1."
+status = "normal"
 enUS = "Guaranteed days off at the end of every cycle, before automation adds more. Default 1."
 zhCN = "每个周期结束时保证休息日，自动化增加之前。默认1天。"
 zhTW = "每個週期結束時保證有休息日，在自動化增加更多之前。預設為 1。"
@@ -172,8 +172,8 @@ viVN = "Được đảm bảo ngày nghỉ vào cuối mỗi chu kỳ, trước 
 trTR = "Her döngünün sonunda, otomasyon daha fazlasını eklemeden önce garanti edilmiş tatil günleri. Varsayılan 1."
 
 ["LTM.WeekendGenerosity"]
-status = "normal"
 raw = "Weekend generosity (%)"
+status = "normal"
 enUS = "Weekend generosity (%)"
 zhCN = "周末慷慨 (%)"
 zhTW = "週末慷慨 (%)"
@@ -189,8 +189,8 @@ viVN = "Độ hào phóng cuối tuần (%)"
 trTR = "Hafta Sonu Cömertliği (%)"
 
 ["LTM.WeekendGenerosityDesc"]
-status = "normal"
 raw = "Scales the automation bonus. 100% = bot share of the workforce x cycle length, added to the base days."
+status = "normal"
 enUS = "Scales the automation bonus. 100% = bot share of the workforce x cycle length, added to the base days."
 zhCN = "“调整自动化奖励。100% = 劳动力中机器人的比例 x 周期长度，加到基础天数。”"
 zhTW = "調整自動化獎勵。100% = 機器人占工作力的比例 x 週期長度，並加到基礎天數上。"
@@ -206,8 +206,8 @@ viVN = "Tăng tỷ lệ thưởng tự động hóa. 100% = phần trăm công n
 trTR = "Otomasyon bonusunu ölçeklendirir. %100 = iş gücünün bot payı x döngü uzunluğu, temel günlere eklenir."
 
 ["LTM.ForceRest"]
-status = "normal"
 raw = "Rest now (test)"
+status = "normal"
 enUS = "Rest now (test)"
 zhCN = "现在休息（测试）"
 zhTW = "現在休息（測試）"
@@ -223,8 +223,8 @@ viVN = " Nghỉ ngơi ngay bây giờ (thử nghiệm)"
 trTR = "Şimdi dinlenin (test)"
 
 ["LTM.ForceRestDesc"]
-status = "normal"
 raw = "Testing switch: when on, all beavers stop working immediately, regardless of time or day."
+status = "normal"
 enUS = "Testing switch: when enabled, all beavers stop working immediately, regardless of time or day."
 zhCN = "测试开关：开启时，所有海狸立即停止工作，不论时间或日期。"
 zhTW = "測試開關：啟用時，所有海狸立即停止工作，無論時間或日期。"
