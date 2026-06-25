@@ -27420,6 +27420,7 @@ ptBR = "Salvamento automático"
 koKR = "자동 저장"
 csCZ = "Automatické ukládání"
 viVN = "Luôn tự động lưu"
+trTR = "Otomasik kaydetme"
 
 ["Saving.CycleUnknown"]
 raw = "Ciclu necunoscut"
@@ -27436,6 +27437,7 @@ ptBR = "Ciclo desconhecido"
 koKR = "알 수 없는 주기"
 csCZ = "Cyklus neznámý"
 viVN = "Ciclu không xác định"
+trTR = "Bilinmeyen.Döngü"
 
 ["Saving.DeleteSave"]
 raw = "Ștergeți salvarea"
@@ -27452,6 +27454,7 @@ ptBR = "Excluir salvamento"
 koKR = "저장 삭제"
 csCZ = "Smažte uloženou hru"
 viVN = "Xóa lưu trữ"
+trTR = "Kayıtı sil"
 
 ["Saving.DeleteSavePrompt"]
 raw = "Sigur doriți să ștergeți {0}?"
@@ -27468,6 +27471,7 @@ ptBR = "Você tem certeza de que deseja excluir {0}?"
 koKR = "{0}을(를) 정말 삭제하시겠습니까?"
 csCZ = "Opravdu chcete smazat {0}?"
 viVN = "Bạn có chắc chắn muốn xóa {0} không?"
+trTR = "{0}'ı silmek istediğinize emin misiniz?"
 
 ["Saving.DeleteSettlement"]
 raw = "Ștergeți colonia"
@@ -27484,6 +27488,7 @@ ptBR = "Excluir colônia"
 koKR = "식민지를 삭제하십시오"
 csCZ = "Smažte kolonii"
 viVN = "Xóa thuộc địa"
+trTR = "Koloniyi sil"
 
 ["Saving.DeleteSettlementPrompt"]
 raw = "Sigur dorești să ștergi colonia {0}? Se vor șterge toate salvările acestei colonii."
@@ -27500,6 +27505,7 @@ ptBR = "Você tem certeza de que deseja excluir a colônia {0}? Todos os salvame
 koKR = "정말로 식민지를 {0} 삭제하시겠습니까? 이 식민지의 모든 저장 파일이 삭제됩니다."
 csCZ = "Opravdu chceš smazat osadu {0}? Všechny uložené hry této osady budou smazány."
 viVN = "Bạn chắc chắn muốn xóa thuộc địa {0}? Tất cả các lưu trữ của thuộc địa này sẽ bị xóa."
+trTR = "Bu koloniyi {0} silmek istediğinden emin misin? Bu koloninin tüm kayıtları silinecektir."
 
 ["Saving.Error"]
 raw = "Salvarea a eșuat! Evitați caracterele nepermise și asigurați-vă că aveți suficient spațiu de stocare."
@@ -27516,6 +27522,7 @@ ptBR = "A salvagem falhou! Evite caracteres não permitidos e certifique-se de q
 koKR = "저장에 실패했습니다! 허용되지 않는 문자를 피하고 충분한 저장 공간이 있는지 확인하세요."
 csCZ = "Uložení se nezdařilo! Vyhněte se nepovoleným znakům a ujistěte se, že máte dostatek úložného prostoru."
 viVN = "Lưu trữ không thành công! Tránh các ký tự không được phép và đảm bảo bạn có đủ không gian lưu trữ."
+trTR = "Kayıt başarısız oldu! Geçersiz karakterlerden kaçının ve yeterli depolama alanınız olduğundan emin olun."
 
 ["Saving.InvalidFile"]
 raw = "Salvarea pe care încerci să o încarci este coruptă!\n\nAșezare: {0}\nSalvare: {1}"
@@ -27532,6 +27539,7 @@ ptBR = "A salvagem que você está tentando carregar está corrompida!\n\nAssent
 koKR = "로드 중인 저장 파일이 손상되었습니다!\n\n정착지: {0}\n저장: {1}"
 csCZ = "Uložený soubor, který se snažíte načíst, je poškozený!\n\nOsada: {0}\nUložení: {1}"
 viVN = "Giá trị lưu trữ mà bạn đang cố gắng tải lên bị hỏng!\n\nKhu định cư: {0}\nLưu trữ: {1}"
+trTR = "Yüklemeye çalıştığınız kaydetme dosyası bozulmuş!\n\nYerleşim: {0}\nKayıt: {1}"
 
 ["Saving.InvalidName"]
 raw = "Nume nevalid. Asigurați-vă că numele nu conține caractere nepermise."
@@ -27548,6 +27556,7 @@ ptBR = "Nome inválido. Certifique-se de que o nome não contenha caracteres nã
 koKR = "유효하지 않은 이름입니다. 이름에 허용되지 않는 문자가 포함되어 있지 않은지 확인하세요."
 csCZ = "Název neplatný. Ujistěte se, že název neobsahuje nepovolené znaky."
 viVN = "Nume không hợp lệ. Hãy đảm bảo rằng tên không chứa ký tự không được phép."
+trTR = "Geçersiz isim. İsminizi geçersiz karakterler içermediğinden emin olun."
 
 ["Saving.LoadGamePanelHeader"]
 raw = "Încărcați o salvare"
@@ -27564,6 +27573,7 @@ ptBR = "Carregue um salvamento"
 koKR = "세이브 불러오기"
 csCZ = "Nahrát uloženou hru"
 viVN = "Nhập một bản lưu"
+trTR = "Bir kaydı yükleyin"
 
 ["Saving.MissingMacOSPermissionsLocKey"]
 raw = "Timberborn are nevoie de permisiunea de a stoca harțile pe dispozitivul tău. Timberborn va închide și va deschide acum setările, astfel încât să poți acorda permisiunile necesare."
@@ -27580,6 +27590,7 @@ ptBR = "Timberborn precisa da permissão para armazenar os mapas no seu disposit
 koKR = "Timberborn은 귀하의 장치에 맵을 저장할 수 있는 권한이 필요합니다. Timberborn이 설정을 닫고 열어 필요한 권한을 부여할 수 있도록 합니다."
 csCZ = "Timberborn potřebuje povolení k ukládání map na tvém zařízení. Timberborn nyní zavře a otevře nastavení, abys mohl udělit potřebná povolení."
 viVN = "Timberborn cần quyền lưu trữ bản đồ trên thiết bị của bạn. Timberborn sẽ đóng và mở lại cài đặt để bạn có thể cấp quyền cần thiết."
+trTR = "Timberborn, haritaları cihazında saklamak için izne ihtiyaç duyar. Timberborn şimdi ayarları kapatıp açacak, böylece gerekli izinleri verebilirsin."
 
 ["Saving.NameSettlement"]
 raw = "Cum ați dori să vă numiți colonia?"
@@ -27596,6 +27607,7 @@ ptBR = "Como você gostaria de nomear sua colônia?"
 koKR = "식민지를 무엇이라고 부르시겠습니까?"
 csCZ = "Jak byste chtěli pojmenovat svou kolonii?"
 viVN = "Bạn muốn gọi колoni của mình là gì?"
+trTR = "Koloninizin adını ne olarak koymak istersiniz?"
 
 ["Saving.NonCompatibleSaveVersion"]
 raw = "Această salvare este incompatibilă cu versiunea curentă.\nÎncercăm din greu să evităm acest lucru. Vă rugăm să începeți un joc nou pentru a vă bucura pe deplin de noile funcții."
@@ -27612,6 +27624,7 @@ ptBR = "Este incompatível com a versão atual.\nEstamos nos esforçando para ev
 koKR = "이 저장은 현재 버전과 호환되지 않습니다. 우리는 이를 방지하기 위해 열심히 노력하고 있습니다. 새로운 기능을 완전히 즐기기 위해 새로운 게임을 시작해 주시기 바랍니다."
 csCZ = "Tento save je nekompatibil s aktuální verzí. Snažíme se tomu vyhnout. Prosím, začněte novou hru, abyste si mohli plně užít nové funkce."
 viVN = "Lưu trữ này không tương thích với phiên bản hiện tại.\nChúng tôi đang cố gắng hết sức để tránh điều này. Vui lòng bắt đầu một trò chơi mới để tận hưởng đầy đủ các tính năng mới."
+trTR = "Bu kayıt mevcut sürümle uyumsuz.\nBunun olmasını önlemek için çok çalışıyoruz. Lütfen yeni özelliklerden tam anlamıyla yararlanmak için yeni bir oyun başlatın."
 
 ["Saving.SaveExists"]
 raw = "Salvarea „{0}” există deja."
@@ -27628,6 +27641,7 @@ ptBR = "Salvagem „{0}” já existe."
 koKR = "저장 파일 „{0}”이(가) 이미 존재합니다."
 csCZ = "Uložený soubor „{0}” již existuje."
 viVN = "Đã có tồn tại lưu trữ „{0}”."
+trTR = "Kaydetme „{0}” zaten mevcut."
 
 ["Saving.SaveGamePanelHeader"]
 raw = "Salvați jocul"
@@ -27644,6 +27658,7 @@ ptBR = "Salvar o jogo"
 koKR = "게임 저장"
 csCZ = "Uložení hry"
 viVN = "Đặt tên trò chơi"
+trTR = " Oyunu kaydet"
 
 ["Saving.Saves"]
 raw = "Salvează"
@@ -27660,6 +27675,7 @@ ptBR = "Salvar"
 koKR = "저장"
 csCZ = "Uložit"
 viVN = "Salvează"
+trTR = "Kaydet"
 
 ["Saving.SemiCompatibleSaveVersion"]
 raw = "Versiunea salvată ({0}) este incompatibilă cu versiunea curentă ({1}). Încărcarea acesteia poate cauza blocări și probleme care pot afecta jocul. Vă recomandăm insistent să începeți un joc nou pentru a vă bucura pe deplin de noile funcții.\n\nSigur doriți să o încărcați?"
@@ -27676,6 +27692,7 @@ ptBR = "A versão salva ({0}) é incompatível com a versão atual ({1}). Carreg
 koKR = "저장된 버전 ({0})은 현재 버전 ({1})과 호환되지 않습니다. 이를 로드하면 게임에 영향을 줄 수 있는 충돌 및 문제가 발생할 수 있습니다. 새로운 기능을 완전히 즐기기 위해 새로운 게임을 시작하는 것을 권장합니다.\n\n정말로 로드를 하시겠습니까?"
 csCZ = "Nahrávaná verze ({0}) je nekompatibilní s aktuální verzí ({1}). Její načtení může způsobit záseky a problémy, které mohou ovlivnit hru. Důrazně doporučujeme začít novou hru, abyste si plně užili nové funkce.\n\nOpravdu ji chcete načíst?"
 viVN = "Phiên bản đã lưu ({0}) không tương thích với phiên bản hiện tại ({1}). Việc tải nó có thể gây ra treo máy và các vấn đề có thể ảnh hưởng đến trò chơi. Chúng tôi khuyến nghị bạn nên bắt đầu một trò chơi mới để tận hưởng đầy đủ các tính năng mới.\n\nBạn có chắc chắn muốn tải nó không?"
+trTR = "Kayıt versiyonu ({0}) mevcut sürümle ({1}) uyumsuz. Bunu yüklemek oyun karşılaşmalarını ve oyun deneyimini etkileyebilecek sorunlara yol açabilir. Yeni özelliklerin tadını çıkarmak için yeni bir oyun başlatmanızı şiddetle öneririz.\n\nYüklemek istiyor musunuz?"
 
 ["Saving.Settlements"]
 raw = "Colonii"
@@ -27692,6 +27709,7 @@ ptBR = "Colonizadores"
 koKR = "식민지"
 csCZ = "Kolonie"
 viVN = "Thị trấn"
+trTR = "Koloniler"
 
 ["Saving.SteamCompatibilityMessage"]
 raw = "<RedHighlight><i>Poți juca o versiune mai veche a jocului comutând la o ramură personalizată în clientul Steam.</i></RedHighlight>"
@@ -27708,6 +27726,7 @@ ptBR = "<RedHighlight><i>Você pode jogar uma versão mais antiga do jogo mudand
 koKR = "<RedHighlight><i>Steam 클라이언트에서 맞춤형 브랜치로 전환하면 게임의 이전 버전을 플레이할 수 있습니다.</i></RedHighlight>"
 csCZ = "<RedHighlight><i>Můžeš hrát starší verzi hry přepnutím na vlastní větev v klientu Steam.</i></RedHighlight>"
 viVN = "<RedHighlight><i>Bạn có thể chơi phiên bản cũ hơn của trò chơi bằng cách chuyển sang một nhánh tùy chỉnh trong khách hàng Steam.</i></RedHighlight>"
+trTR = "<RedHighlight><i>Steam istemcisinde özel bir dala geçerek oyunun daha eski bir versiyonunu oynayabilirsin.</i></RedHighlight>"
 
 ["Saving.TakenName"]
 raw = "O colonie cu acest nume există deja."
@@ -27724,6 +27743,7 @@ ptBR = "A colônia com este nome já existe."
 koKR = "이름이 같은 식민지가 이미 존재합니다."
 csCZ = "O kolonii s tímto názvem již existuje."
 viVN = "Có một thuộc địa với tên này đã tồn tại."
+trTR = "Bu isimle bir koloni zaten mevcut."
 
 ["Science.SciencePoints"]
 raw = "Puncte științifice"
@@ -27740,6 +27760,7 @@ ptBR = "Pontos Científicos"
 koKR = "과학 포인트"
 csCZ = "Vědecké body"
 viVN = "Puncte khoa học"
+trTR = "Bilimsel Puanlar"
 
 ["Science.UnlockableOnce"]
 raw = "<YellowHighlight>Deblochează o dată pentru toate așezările.</YellowHighlight>"
@@ -27756,6 +27777,7 @@ ptBR = "<YellowHighlight>Desbloqueia uma vez para todas as colônias.</YellowHig
 koKR = "<YellowHighlight>모든 정착지에서 한 번 잠금 해제.</YellowHighlight>"
 csCZ = "<YellowHighlight>Odemknout jednou pro všechny osady.</YellowHighlight>"
 viVN = "<YellowHighlight>Unlock once for all settlements.</YellowHighlight>"
+trTR = "<YellowHighlight>Tüm yerleşimler için bir kez aç.</YellowHighlight>"
 
 ["Settings.Accessibility.DisableStarfieldRotation"]
 raw = "Dezactivați stelele de pe cer"
@@ -27772,6 +27794,7 @@ ptBR = "Desativar rotação do campo estelar"
 koKR = "하늘의 별 비활성화"
 csCZ = "Deaktivujte hvězdy na obloze"
 viVN = "Vô hiệu hóa các ngôi sao trên bầu trời"
+trTR = "Gökyüzündeki yıldızları devre dışı bırak"
 
 ["Settings.Accessibility.Header"]
 raw = "Accesibilitate"
@@ -27788,6 +27811,7 @@ ptBR = "Acessibilidade"
 koKR = "접근성"
 csCZ = "Přístupnost"
 viVN = "Khả năng tiếp cận"
+trTR = "Erişilebilirlik"
 
 ["Settings.Analytics.ConsentToggle"]
 raw = "Analiză activată"
@@ -27804,6 +27828,7 @@ ptBR = "Análise ativada"
 koKR = "분석 활성화"
 csCZ = "Analýza aktivována"
 viVN = "Phân tích được kích hoạt"
+trTR = "Analiz açık"
 
 ["Settings.Analytics.Header"]
 raw = "Analiză"
@@ -27820,6 +27845,7 @@ ptBR = "Análise"
 koKR = "분석"
 csCZ = "Analýza"
 viVN = "Phân tích"
+trTR = "Analiz"
 
 ["Settings.GameSaving.AutoSavingOn"]
 raw = "Salvare automată"
@@ -27836,6 +27862,7 @@ ptBR = "Salvamento automático"
 koKR = "자동 저장"
 csCZ = "Automatické ukládání"
 viVN = "Luật lưu tự động"
+trTR = "Otomatik kaydetme"
 
 ["Settings.General.Header"]
 raw = "General"
@@ -27852,6 +27879,7 @@ ptBR = "Geral"
 koKR = "일반"
 csCZ = "Obecné"
 viVN = "Chung"
+trTR = "Genel"
 
 ["Settings.Graphics.AnisotropicFiltering"]
 raw = "Filtrare anizotropă"
@@ -27868,6 +27896,7 @@ ptBR = "Filtragem anisotrópica"
 koKR = "비선형 필터링"
 csCZ = "Anizotropní filtr"
 viVN = "Filtrare anizotropă"
+trTR = "Anizotropik Filtrasyon"
 
 ["Settings.Graphics.AnisotropicTextures"]
 raw = "Texturi anizotrope"
@@ -27884,6 +27913,7 @@ ptBR = "Texturas anizotrópicas"
 koKR = "비등방성 텍스처"
 csCZ = "Anizotropní textury"
 viVN = "Các kết cấu đồng hướng"
+trTR = "Anizotropik Dokular"
 
 ["Settings.Graphics.AntiAliasing.FXAA"]
 raw = "FXAA"
@@ -27900,6 +27930,7 @@ ptBR = "FXAA"
 koKR = "FXAA"
 csCZ = "FXAA"
 viVN = "FXAA"
+trTR = "FXAA"
 
 ["Settings.Graphics.AntiAliasing.MSAAx2"]
 raw = "MSAA x2"
@@ -27916,6 +27947,7 @@ ptBR = "MSAA x2"
 koKR = "MSAA x2"
 csCZ = "MSAA x2"
 viVN = "MSAA x2"
+trTR = "MSAA x2"
 
 ["Settings.Graphics.AntiAliasing.MSAAx4"]
 raw = "MSAA x4"
@@ -27932,6 +27964,7 @@ ptBR = "MSAA x4"
 koKR = "MSAA x4"
 csCZ = "MSAA x4"
 viVN = "MSAA x4"
+trTR = "MSAA x4"
 
 ["Settings.Graphics.AntiAliasing.MSAAx8"]
 raw = "MSAA x8"
@@ -27948,6 +27981,7 @@ ptBR = "MSAA x8"
 koKR = "MSAA x8"
 csCZ = "MSAA x8"
 viVN = "MSAA x8"
+trTR = "MSAA x8"
 
 ["Settings.Graphics.AntiAliasing.MacMSAAWarning"]
 raw = "Acest lucru poate cauza artefacte pe hardware-ul mai vechi."
@@ -27964,6 +27998,7 @@ ptBR = "Isto pode causar artefatos em hardware mais antigo."
 koKR = "이것은 오래된 하드웨어에서 아티팩트를 유발할 수 있습니다."
 csCZ = "Toto může způsobit artefakty na starším hardwaru."
 viVN = "Cái này có thể gây ra hiện tượng lỗi hình ảnh trên phần cứng cũ hơn."
+trTR = "Bu, daha eski donanımlarda artefaktlara neden olabilir."
 
 ["Settings.Graphics.AntiAliasing.SMAA"]
 raw = "SMAA"
@@ -27980,6 +28015,7 @@ ptBR = "SMAA"
 koKR = "SMAA"
 csCZ = "SMAA"
 viVN = "SMAA"
+trTR = "SMAA"
 
 ["Settings.Graphics.AntiAliasingQuality"]
 raw = "Anti-aliasing"
@@ -27996,6 +28032,7 @@ ptBR = "Suavização"
 koKR = "안티 앨리어싱"
 csCZ = "Zjemnění hran"
 viVN = "Chống răng cưa"
+trTR = "Anti-aliasing"
 
 ["Settings.Graphics.Bloom"]
 raw = "Efect Bloom"
@@ -28012,6 +28049,7 @@ ptBR = "Efeito Bloom"
 koKR = "블룸 효과"
 csCZ = "Efekt Bloom"
 viVN = "Efect Bloom"
+trTR = "Bloom Efekti"
 
 ["Settings.Graphics.Header"]
 raw = "Calitatea grafică"
@@ -28028,6 +28066,7 @@ ptBR = "Calidade Gráfica"
 koKR = "그래픽 품질"
 csCZ = "Grafická kvalita"
 viVN = "Chất lượng đồ họa"
+trTR = "Grafik Kalitesi"
 
 ["Settings.Graphics.LightQuality"]
 raw = "Calitatea luminilor suplimentare"
@@ -28044,6 +28083,7 @@ ptBR = "Calidade das luzes adicionais"
 koKR = "추가 조명 품질"
 csCZ = "Standard"
 viVN = "Chất lượng ánh sáng bổ sung"
+trTR = "Ek ışık kalitesi"
 
 ["Settings.Graphics.OverallGraphicsQuality"]
 raw = "Presetare"
@@ -28060,6 +28100,7 @@ ptBR = "Configuração"
 koKR = "프리셋"
 csCZ = "Předvolba"
 viVN = "Cài đặt"
+trTR = "Ön Ayar"
 
 ["Settings.Graphics.Quality.Custom"]
 raw = "Personalizat"
@@ -28076,6 +28117,7 @@ ptBR = "Personalizado"
 koKR = "개인화"
 csCZ = "Vlastní"
 viVN = "Personalized"
+trTR = "Özelleştir"
 
 ["Settings.Graphics.Quality.High"]
 raw = "Ridicat"
@@ -28092,6 +28134,7 @@ ptBR = "Alta"
 koKR = "높음"
 csCZ = "Vysoká"
 viVN = "Độ cao"
+trTR = "Yüksek"
 
 ["Settings.Graphics.Quality.Low"]
 raw = "Scăzut"
@@ -28108,6 +28151,7 @@ ptBR = "Baixo"
 koKR = "낮음"
 csCZ = "Nízká"
 viVN = "Thấp"
+trTR = "Düşük"
 
 ["Settings.Graphics.Quality.Medium"]
 raw = "Mediu"
@@ -28124,6 +28168,7 @@ ptBR = "Médio"
 koKR = "중간"
 csCZ = "Medián"
 viVN = "Mediu"
+trTR = "Mediu"
 
 ["Settings.Graphics.Quality.Off"]
 raw = "Dezactivat"
@@ -28140,6 +28185,7 @@ ptBR = "Desativado"
 koKR = "비활성화"
 csCZ = "Vypnout"
 viVN = "Tắt"
+trTR = "Kapalı"
 
 ["Settings.Graphics.Quality.On"]
 raw = "Pe"
@@ -28156,6 +28202,7 @@ ptBR = "Em"
 koKR = "켜짐"
 csCZ = "Na"
 viVN = "Pe"
+trTR = "Üzerinde"
 
 ["Settings.Graphics.Quality.Ultra"]
 raw = "Ultra"
@@ -28172,6 +28219,7 @@ ptBR = "Ultra"
 koKR = "울트라"
 csCZ = "Ultra"
 viVN = "Siêu"
+trTR = "Ultra"
 
 ["Settings.Graphics.ShadowQuality"]
 raw = "Calitatea umbrei"
@@ -28188,6 +28236,7 @@ ptBR = "Calidade da sombra"
 koKR = "음질 품질"
 csCZ = "Kalita stínu"
 viVN = "Calitatea bóng"
+trTR = "gölge kalitesi"
 
 ["Settings.Graphics.TextureQuality"]
 raw = "Calitatea texturii"
@@ -28204,6 +28253,7 @@ ptBR = "Calidade da textura"
 koKR = "텍스처 품질"
 csCZ = "Kalita textur"
 viVN = "Calitatea texturii"
+trTR = "Tekstür kalitesi"
 
 ["Settings.Graphics.WaterQuality"]
 raw = "Calitatea apei"
@@ -28220,6 +28270,7 @@ ptBR = "Calidade da água"
 koKR = "용수 품질"
 csCZ = "Calita vody"
 viVN = "Calitatea nước"
+trTR = "Su kalitesi"
 
 ["Settings.Header"]
 raw = "Setări"
@@ -28236,6 +28287,7 @@ ptBR = "Configurações"
 koKR = "설정"
 csCZ = "Nastavení"
 viVN = "Setări"
+trTR = "Ayarlar"
 
 ["Settings.Intro.DisableIntro"]
 raw = "Sari peste introducere"
@@ -28252,6 +28304,7 @@ ptBR = "Pular introdução"
 koKR = "소개 건너뛰기"
 csCZ = "Přeskočit úvod"
 viVN = "Bỏ qua phần giới thiệu"
+trTR = "Girişi atla"
 
 ["Settings.Input.DragCamera"]
 raw = "Tragerea ecranului"
@@ -28268,6 +28321,7 @@ ptBR = "Arrastar a tela"
 koKR = "화면 드래그"
 csCZ = "Tažení obrazovky"
 viVN = "Kéo màn hình"
+trTR = "Ekranı sürükleme"
 
 ["Settings.Input.EdgePanCamera"]
 raw = "Mișcă ecranul cu mouse-ul"
@@ -28284,6 +28338,7 @@ ptBR = "Move a tela com o mouse"
 koKR = "마우스를 사용하여 화면을 이동합니다."
 csCZ = "Pohybujte obrazovkou myší"
 viVN = "Di chuyển màn hình bằng chuột"
+trTR = "Ekranı fare ile hareket ettir"
 
 ["Settings.Input.EdgePanCameraSpeed"]
 raw = "Viteză de mișcare a ecranului"
@@ -28300,6 +28355,7 @@ ptBR = "Vitesse de mouvement de l'écran"
 koKR = "화면 이동 속도"
 csCZ = "Rychlost pohybu obrazovky"
 viVN = "Vận tốc di chuyển màn hình"
+trTR = "Ekran hareket hızı"
 
 ["Settings.Input.Header"]
 raw = "Intrare"
@@ -28316,6 +28372,7 @@ ptBR = "Entrada"
 koKR = "입력"
 csCZ = "Vstup"
 viVN = "Nhập liệu"
+trTR = "Giriş"
 
 ["Settings.Input.InvertZoom"]
 raw = "Inversare zoom"
@@ -28332,6 +28389,7 @@ ptBR = "Inverter Zoom"
 koKR = "줌 반전"
 csCZ = "Inverze zoomu"
 viVN = "Inversare zoom"
+trTR = "Yakınlaştırmayı tersine çevir"
 
 ["Settings.Input.KeyboardCameraMovementSpeed"]
 raw = "Viteza de mișcare prin tastatură"
@@ -28348,6 +28406,7 @@ ptBR = "Velocidade de movimento pelo teclado"
 koKR = "키보드 이동 속도"
 csCZ = "Rychlost pohybu klávesnicí"
 viVN = "Vận tốc di chuyển qua bàn phím"
+trTR = "Klavye ile hareket hızı"
 
 ["Settings.Input.KeyboardCameraRotationSpeed"]
 raw = "Viteza de rotație prin tastatură"
@@ -28364,6 +28423,7 @@ ptBR = "Velocidade de rotação pelo teclado"
 koKR = "키보드 회전 속도"
 csCZ = "Rychlost otáčení klávesnicí"
 viVN = "Vận tốc xoay bằng bàn phím"
+trTR = "Klavye ile döndürme hızı"
 
 ["Settings.Input.KeyboardCameraZoomSpeed"]
 raw = "Viteza de zoom prin tastatură"
@@ -28380,6 +28440,7 @@ ptBR = "Velocidade de zoom pelo teclado"
 koKR = "키보드 줌 속도"
 csCZ = "Rychlost zoomu klávesnicí"
 viVN = "Viteza zoom bằng bàn phím"
+trTR = "Klavye ile yakınlaştırma hızı"
 
 ["Settings.Input.LockCursorInWindow"]
 raw = "Blocarea cursorului în ecran"
@@ -28396,6 +28457,7 @@ ptBR = "Bloquear o cursor na tela"
 koKR = "창에서 커서 잠금"
 csCZ = "Zamknout kurzor v okně"
 viVN = "Khóa con trỏ trong cửa sổ"
+trTR = "Fareyi pencerede kilitle"
 
 ["Settings.Input.MouseCameraRotationSpeed"]
 raw = "Viteza de rotație a mouse-ului"
@@ -28412,6 +28474,7 @@ ptBR = "Velocidade de rotação do mouse"
 koKR = "마우스 회전 속도"
 csCZ = "Rychlost rotace myši"
 viVN = "Vận tốc xoay của chuột"
+trTR = "Fare ile döndürme hızı"
 
 ["Settings.Input.MouseWheelCameraZoomSpeed"]
 raw = "Viteza de zoom a roții mouse-ului"
@@ -28428,6 +28491,7 @@ ptBR = "Velocidade de zoom da roda do mouse"
 koKR = "마우스 휠 카메라 확대/축소 속도"
 csCZ = "Rychlost zoomu kolečka myši"
 viVN = "Vận tốc thu phóng bằng bánh xe chuột"
+trTR = "Fare Tekerleği ile Zoom Hızı"
 
 ["Settings.Input.OnScreenKeyboard.Auto"]
 raw = "Auto"
@@ -28444,6 +28508,7 @@ ptBR = "Automático"
 koKR = "자동"
 csCZ = "Automaticky"
 viVN = "Tự động"
+trTR = "Otomatik"
 
 ["Settings.Input.OnScreenKeyboard.Disabled"]
 raw = "Persoane cu dizabilități"
@@ -28460,6 +28525,7 @@ ptBR = "Pessoas com deficiência"
 koKR = "장애인을 위한"
 csCZ = "Osoby se zdravotním postižením"
 viVN = "Người khuyết tật"
+trTR = "Engelli bireyler"
 
 ["Settings.Input.OnScreenKeyboard.Enabled"]
 raw = "Activat"
@@ -28476,6 +28542,7 @@ ptBR = "Ativado"
 koKR = "활성화"
 csCZ = "Aktivovat"
 viVN = "Kích hoạt"
+trTR = "Etkin"
 
 ["Settings.Input.OnscreenKeyboard"]
 raw = "Tastatură Steam Big Picture:"
@@ -28492,6 +28559,7 @@ ptBR = "Tastatură Steam Big Picture:"
 koKR = "스팀 빅픽처 키보드:"
 csCZ = "Klávesnice Steam Big Picture:"
 viVN = "Bàn phím hình ảnh lớn Steam:"
+trTR = "Steam Big Picture Klavyesi:"
 
 ["Settings.Input.SwapMouseCameraMovementWithRotation"]
 raw = "Schimbați butoanele camerei"
@@ -28508,6 +28576,7 @@ ptBR = "Trocar os botões da câmera"
 koKR = "카메라 버튼 변경"
 csCZ = "Vyměnit tlačítka kamery"
 viVN = "Đổi các phím điều khiển camera"
+trTR = "Fare hareketi ile dönüşüm butonlarını değiştirin"
 
 ["Settings.Input.UnlockZoom"]
 raw = "Zoom nelimitat"
@@ -28524,6 +28593,7 @@ ptBR = "Zoom ilimitado"
 koKR = "무제한 확대"
 csCZ = "Nekonečné přiblížení"
 viVN = "Phóng to không giới hạn"
+trTR = "Sınırsız yakınlaştırma"
 
 ["Settings.Language.Change"]
 raw = "Schimba"
@@ -28540,6 +28610,7 @@ ptBR = "Mudar"
 koKR = "변경"
 csCZ = "Změnit"
 viVN = "Thay đổi"
+trTR = "Değiştir"
 
 ["Settings.Language.Current"]
 raw = "Limbă:"
@@ -28556,6 +28627,7 @@ ptBR = "Língua:"
 koKR = "언어:"
 csCZ = "Jazyk:"
 viVN = "Ngôn ngữ:"
+trTR = "Dil:"
 
 ["Settings.Language.Restart"]
 raw = "Reporniți acum"
@@ -28572,6 +28644,7 @@ ptBR = "Reinicie agora"
 koKR = "지금 다시 시작하기"
 csCZ = "Restartujte nyní"
 viVN = "Reporniți acum"
+trTR = "Şimdi Yeniden Başlat"
 
 ["Settings.Language.Warning"]
 raw = "Modificările necesită repornirea jocului."
@@ -28588,6 +28661,7 @@ ptBR = "As modificações exigem a reinicialização do jogo."
 koKR = "변경 사항을 적용하려면 게임을 재시작해야 합니다."
 csCZ = "Změny vyžadují restartování hry."
 viVN = "Các thay đổi cần khởi động lại trò chơi."
+trTR = "Ayarlar yeniden başlatılmasını gerektirir."
 
 ["Settings.Screen.AntiAliasing"]
 raw = "Anti-aliasing"
@@ -28604,6 +28678,7 @@ ptBR = "Suavização de bordas"
 koKR = "안티 앨리어싱"
 csCZ = "Vyhlazování"
 viVN = "Khử răng cưa"
+trTR = "Kenar Yumuşatma"
 
 ["Settings.Screen.Brightness"]
 raw = "Luminozitate"
@@ -28620,6 +28695,7 @@ ptBR = "Luminosidade"
 koKR = "밝기"
 csCZ = "Jas"
 viVN = "Độ sáng"
+trTR = "Parlaklık"
 
 ["Settings.Screen.FrameRateLimit"]
 raw = "Limitează FPS-urile"
@@ -28636,6 +28712,7 @@ ptBR = "Limitar FPS"
 koKR = "FPS 제한"
 csCZ = "Omezení FPS"
 viVN = "Giới hạn FPS"
+trTR = "FPS Sınırı"
 
 ["Settings.Screen.FrameRateLimit.Unlimited"]
 raw = "Nelimitat"
@@ -28652,6 +28729,7 @@ ptBR = "Sem limite"
 koKR = "무제한"
 csCZ = "Nepřetržitě"
 viVN = "Không giới hạn"
+trTR = "Sınırsız"
 
 ["Settings.Screen.FrameRateLimit.Value"]
 raw = "{0} FPS-uri (FPS)"
@@ -28668,6 +28746,7 @@ ptBR = "{0} FPS"
 koKR = "{0} FPS (FPS)"
 csCZ = "{0} FPS (FPS)"
 viVN = "{0} FPS-uri (FPS)"
+trTR = "{0} FPS (FPS)"
 
 ["Settings.Screen.FullScreen"]
 raw = "Ecran complet"
@@ -28684,6 +28763,7 @@ ptBR = "Ecrã completo"
 koKR = "전체 화면"
 csCZ = "Úplná obrazovka"
 viVN = "Màn hình đầy đủ"
+trTR = "Tam ekran"
 
 ["Settings.Screen.GraphicsQuality"]
 raw = "Calitatea grafică"
@@ -28700,6 +28780,7 @@ ptBR = "Qualidade Gráfica"
 koKR = "그래픽 품질"
 csCZ = "Grafická kvalita"
 viVN = "Chất lượng đồ họa"
+trTR = "Grafik Kalitesi"
 
 ["Settings.Screen.Header"]
 raw = "Grafică"
@@ -28716,6 +28797,7 @@ ptBR = "Gráficos"
 koKR = "그래픽"
 csCZ = "Grafika"
 viVN = "Đồ họa"
+trTR = "Grafikler"
 
 ["Settings.Screen.Quality.High"]
 raw = "Ridicat"
@@ -28732,6 +28814,7 @@ ptBR = "Alto"
 koKR = "높음"
 csCZ = "Vysoká"
 viVN = "Cao"
+trTR = "Yüksek"
 
 ["Settings.Screen.Quality.Low"]
 raw = "Scăzut"
@@ -28748,6 +28831,7 @@ ptBR = "Baixo"
 koKR = "낮음"
 csCZ = "Nízká"
 viVN = "Thấp"
+trTR = "Düşük"
 
 ["Settings.Screen.Quality.Medium"]
 raw = "Mediu"
@@ -28764,6 +28848,7 @@ ptBR = "Médio"
 koKR = "중간"
 csCZ = "Medián"
 viVN = "Mediu"
+trTR = "Mediumm"
 
 ["Settings.Screen.Quality.Ultra"]
 raw = "Ultra"
@@ -28780,6 +28865,7 @@ ptBR = "Ultra"
 koKR = "울트라"
 csCZ = "Ultra"
 viVN = "Siêu"
+trTR = "Ultra"
 
 ["Settings.Screen.ResolutionScale"]
 raw = "Scală de rezoluție"
@@ -28796,6 +28882,7 @@ ptBR = "Escala de resolução"
 koKR = "해상도 스케일"
 csCZ = "Škálování rozlišení"
 viVN = "Thang độ phân giải"
+trTR = "Çözünürlük Ölçeği"
 
 ["Settings.Screen.ScreenHeader"]
 raw = "Ecran"
@@ -28812,6 +28899,7 @@ ptBR = "Tela"
 koKR = "화면"
 csCZ = "Obrazovka"
 viVN = "Màn hình"
+trTR = "Ekran"
 
 ["Settings.Screen.ScreenResolution"]
 raw = "Rezoluția ecranului"
@@ -28828,6 +28916,7 @@ ptBR = "Resolução da Tela"
 koKR = "화면 해상도"
 csCZ = "Rozlišení obrazovky"
 viVN = "Độ phân giải màn hình"
+trTR = "Ekran Çözünürlüğü"
 
 ["Settings.Screen.VSync"]
 raw = "Sincronizare virtuală"
@@ -28844,6 +28933,7 @@ ptBR = "Sincronização vertical"
 koKR = "수직 동기화"
 csCZ = "Virtuální synchronizace"
 viVN = "Synchronize ảo"
+trTR = "Yatay Senkronizasyon"
 
 ["Settings.Screen.VSync.0"]
 raw = "Dezactivat"
@@ -28860,6 +28950,7 @@ ptBR = "Desativar"
 koKR = "비활성화"
 csCZ = "Deaktivovat"
 viVN = "Vô hiệu hóa"
+trTR = "Devre Dışı"
 
 ["Settings.Screen.VSync.1"]
 raw = "Pe"
@@ -28876,6 +28967,7 @@ ptBR = "Pe"
 koKR = "피"
 csCZ = "Pe"
 viVN = "Pe"
+trTR = "Pe"
 
 ["Settings.Screen.VSync.2"]
 raw = "Fiecare al doilea cadru"
@@ -28892,6 +28984,7 @@ ptBR = "Cada segundo quadro"
 koKR = "매 초마다 한 프레임"
 csCZ = "Každý druhý snímek"
 viVN = "Mỗi giây một khung hình"
+trTR = "Her ikinci kare"
 
 ["Settings.Sound.EnvironmentVolume"]
 raw = "Volumul mediului"
@@ -28908,6 +29001,7 @@ ptBR = "Volum do ambiente"
 koKR = "환경 볼륨"
 csCZ = "Volumen prostředí"
 viVN = "Volumul môi trường"
+trTR = "Ortam Ses Seviyesi"
 
 ["Settings.Sound.Header"]
 raw = "Sunet"
@@ -28924,6 +29018,7 @@ ptBR = "Som"
 koKR = "소리"
 csCZ = "Zvuk"
 viVN = "Âm thanh"
+trTR = "Ses"
 
 ["Settings.Sound.MasterVolume"]
 raw = "Volum principal"
@@ -28940,6 +29035,7 @@ ptBR = "Volume principal"
 koKR = "마스터 볼륨"
 csCZ = "Hlavní hlasitost"
 viVN = "Âm lượng chính"
+trTR = "Ana Ses"
 
 ["Settings.Sound.MusicVolume"]
 raw = "Volumul muzicii"
@@ -28956,6 +29052,7 @@ ptBR = "Volume da música"
 koKR = "음악 볼륨"
 csCZ = "Úroveň hudby"
 viVN = "Âm lượng nhạc"
+trTR = "Müzik Ses Seviyesi"
 
 ["Settings.Sound.MuteWhenMinimized"]
 raw = "Dezactivați sunetul când este minimizat sau nefocalizat"
@@ -28972,6 +29069,7 @@ ptBR = "Desativar som quando minimizado ou em segundo plano"
 koKR = "최소화되거나 비활성화될 때 소리 끄기"
 csCZ = "Ztlumit zvuk při minimalizaci nebo nezaměření"
 viVN = "Vô hiệu hóa âm thanh khi đang được thu nhỏ hoặc không được chọn"
+trTR = "Minimize edildiğinde ya da odak dışı olduğunda sesi kapat"
 
 ["Settings.Sound.UIVolume"]
 raw = "Volumul interfeței utilizator"
@@ -28988,6 +29086,7 @@ ptBR = "Volume da interface do usuário"
 koKR = "사용자 인터페이스 볼륨"
 csCZ = "Úroveň zvuku uživatelského rozhraní"
 viVN = "Âm lượng giao diện người dùng"
+trTR = "Kullanıcı arayüzü ses seviyesi"
 
 ["Settings.Tutorial.DisableTutorial"]
 raw = "Dezactivați tutorialul"
@@ -29004,6 +29103,7 @@ ptBR = "Desative o tutorial"
 koKR = "튜토리얼 비활성화"
 csCZ = "Deaktivovat tutoriál"
 viVN = "Vô hiệu hóa hướng dẫn"
+trTR = "öğretiyi devre dışı bırak"
 
 ["Settings.UI.Header"]
 raw = "Interfață"
@@ -29020,6 +29120,7 @@ ptBR = "Interface"
 koKR = "인터페이스"
 csCZ = "Rozhraní"
 viVN = "Giao diện"
+trTR = "Arayüz"
 
 ["Settings.UI.RunInBackground"]
 raw = "Rulați în fundal"
@@ -29036,6 +29137,7 @@ ptBR = "Executar em segundo plano"
 koKR = "백그라운드에서 실행"
 csCZ = "Spustit na pozadí"
 viVN = "Chạy trong nền"
+trTR = "Arka planda çalıştır"
 
 ["Settings.UI.ShowFps"]
 raw = "Afișează FPS-ul"
@@ -29052,6 +29154,7 @@ ptBR = "Afișează FPS"
 koKR = "FPS 표시"
 csCZ = "Zobrazit FPS"
 viVN = "Afișează FPS-ul"
+trTR = "FPS'yi Göster"
 
 ["Settings.UI.UIScaleFactor"]
 raw = "Scală interfață utilizator"
@@ -29068,6 +29171,7 @@ ptBR = "Fator de Escala da Interface do Usuário"
 koKR = "사용자 인터페이스 배율"
 csCZ = "Škálování uživatelského rozhraní"
 viVN = "Chỉnh tỷ lệ giao diện người dùng"
+trTR = "Kullanıcı Arayüzü Ölçekleme"
 
 ["Status.Automation.ApiStopped"]
 raw = "API-ul s-a oprit."
@@ -29084,6 +29188,7 @@ ptBR = "A API parou."
 koKR = "API가 중지되었습니다."
 csCZ = "API se zastavil."
 viVN = "API đã dừng."
+trTR = "API durdu."
 
 ["Status.Automation.ApiStopped.Short"]
 raw = "API-ul s-a oprit"
@@ -29100,6 +29205,7 @@ ptBR = "API parou"
 koKR = "API가 중지되었습니다"
 csCZ = "API se zastavil"
 viVN = "API đã dừng"
+trTR = "API durdu"
 
 ["Status.Automation.AutomationLoop"]
 raw = "Bucla de automatizare."
@@ -29116,6 +29222,7 @@ ptBR = "Bucla de automatização."
 koKR = "자동화 루프."
 csCZ = "Automatizační smyčka."
 viVN = "Vòng lặp tự động."
+trTR = "Automasyon Döngüsü."
 
 ["Status.Automation.AutomationLoop.Short"]
 raw = "Bucla de automatizare"
@@ -29132,6 +29239,7 @@ ptBR = "Bucla de automatização"
 koKR = "자동화 루프"
 csCZ = "Automatizační smyčka"
 viVN = "Vòng lặp tự động hóa"
+trTR = "otomasyon döngüsü"
 
 ["Status.BadwaterContamination.Incubation"]
 raw = "Acest castor a petrecut prea mult timp în apă contaminată. Deocamdată e bine, dar se va îmbolnăvi în câteva zile."
@@ -29148,6 +29256,7 @@ ptBR = "Este castor passou muito tempo em água contaminada. Por enquanto, está
 koKR = "이 비버는 오염된 물에서 너무 오랜 시간을 보냈습니다. 현재는 괜찮지만 며칠 안에 병에 걸릴 것입니다."
 csCZ = "Tento bobr strávil příliš mnoho času ve znečištěné vodě. Zatím je v pořádku, ale za pár dní onemocní."
 viVN = "Con báo này đã dành quá nhiều thời gian trong nước ô nhiễm. Hiện tại nó vẫn ổn, nhưng sẽ mắc bệnh trong vài ngày tới."
+trTR = "Bu kunduz kirli suda çok fazla zaman geçirdi. Şu an iyi, ama birkaç gün içinde hasta olacak."
 
 ["Status.BadwaterContamination.Incubation.Short"]
 raw = "Castor bolnav"
@@ -29164,6 +29273,7 @@ ptBR = "Castor doente"
 koKR = "아픈 비버"
 csCZ = "Nemocný bobr"
 viVN = "Castor bị bệnh"
+trTR = "Hasta kunduz"
 
 ["Status.Beaver.Dead"]
 raw = "Mort"
@@ -29180,6 +29290,7 @@ ptBR = "Mort"
 koKR = "사망"
 csCZ = "Smrt"
 viVN = "Chết"
+trTR = "Ölü"
 
 ["Status.BombActivationWarning"]
 raw = "Explodează în curând."
@@ -29196,6 +29307,7 @@ ptBR = "Explode soon."
 koKR = "곧 폭발합니다."
 csCZ = "Brzy exploduje."
 viVN = "Explode sẽ sớm."
+trTR = "Yakında patlayacak."
 
 ["Status.Bot.Dead"]
 raw = "Distrus."
@@ -29212,6 +29324,7 @@ ptBR = "Distruído."
 koKR = "파괴됨."
 csCZ = "Distrušený."
 viVN = "Chết."
+trTR = "Yıkılmış."
 
 ["Status.Breeding.ProgressHalted"]
 raw = "Reproducerea a fost oprită, în așteptarea nutrienților"
@@ -29228,6 +29341,7 @@ ptBR = "Reprodução foi interrompida, aguardando nutrientes"
 koKR = "번식이 중단되었습니다. 영양소를 기다리고 있습니다."
 csCZ = "Reprodukce byla zastavena, čeká se na živiny"
 viVN = "Reproducerea đã bị dừng lại, đang chờ dinh dưỡng"
+trTR = "Üreme durduruldu, besin maddelerini bekliyor"
 
 ["Status.Breeding.ProgressHalted.Short"]
 raw = "Reproducerea a fost oprită"
@@ -29244,6 +29358,7 @@ ptBR = "A reprodução foi interrompida"
 koKR = "번식이 중단되었습니다"
 csCZ = "Reprodukce byla zastavena"
 viVN = "Reproducerea đã bị dừng lại"
+trTR = "Üreme durduruldu"
 
 ["Status.Buildings.BlockedByContamination"]
 raw = "Această clădire este blocată de apă rău de tot."
@@ -29260,6 +29375,7 @@ ptBR = "Este possível que esta construção esteja bloqueada por contaminação
 koKR = "이 건물은 매우 나쁜 오염으로 인해 차단되었습니다."
 csCZ = "Tato budova je zablokována silně znečištěnou vodou."
 viVN = "Công trình này bị chặn bởi nước ô nhiễm."
+trTR = "Bu bina çok kirli su tarafından engelleniyor."
 
 ["Status.Buildings.BlockedByContamination.Short"]
 raw = "Blocat de apele rele"
@@ -29276,6 +29392,7 @@ ptBR = "Blocked by contaminated waters"
 koKR = "오염된 물에 의해 차단됨"
 csCZ = "Blokováno znečištěním"
 viVN = "Chặn bởi nước bẩn"
+trTR = "Kirlilikle Engellenmiş"
 
 ["Status.Buildings.DirectionalBlocking"]
 raw = "Construcția așteaptă finalizarea lucrărilor din spate."
@@ -29292,6 +29409,7 @@ ptBR = "A construção aguarda a conclusão dos trabalhos na parte de trás."
 koKR = "건축은 뒤쪽 작업 완료를 기다리고 있습니다."
 csCZ = "Stavba čeká na dokončení prací vzadu."
 viVN = "Công trình đang chờ hoàn thành công việc phía sau."
+trTR = "İnşaat, arka taraftaki çalışmaların tamamlanmasını bekliyor."
 
 ["Status.Buildings.Flooded"]
 raw = "Inundat."
@@ -29308,6 +29426,7 @@ ptBR = "Inundado."
 koKR = "침수됨."
 csCZ = "Inundovaný."
 viVN = "Inundated."
+trTR = "Su basmış."
 
 ["Status.Buildings.Flooded.Short"]
 raw = "Clădire inundată"
@@ -29324,6 +29443,7 @@ ptBR = "Prédio inundado"
 koKR = "침수된 건물"
 csCZ = "Budova zaplavená"
 viVN = "Công trình bị ngập nước"
+trTR = "Bina su inundată"
 
 ["Status.Buildings.GateConflict"]
 raw = "Poarta nu se poate deschide deoarece este conectată la două districte diferite."
@@ -29340,6 +29460,7 @@ ptBR = "A porta não pode ser aberta porque está conectada a dois distritos dif
 koKR = "게이트는 두 개의 다른 구역에 연결되어 있어 열 수 없습니다."
 csCZ = "Brána se nemůže otevřít, protože je spojena se dvěma různými oblastmi."
 viVN = "Cổng không thể mở vì nó được kết nối với hai khu vực khác nhau."
+trTR = "Kapı, iki farklı bölgeye bağlı olduğu için açılamaz."
 
 ["Status.Buildings.GateConflict.Short"]
 raw = "Conflictul porții"
@@ -29356,6 +29477,7 @@ ptBR = "Conflito do portão"
 koKR = "문이 충돌함"
 csCZ = "Konflikt brány"
 viVN = "Cxung của cổng"
+trTR = "Kapı Çatışması"
 
 ["Status.Buildings.NeedsWater"]
 raw = "Această clădire are nevoie de apă mai adâncă pentru a funcționa."
@@ -29372,6 +29494,7 @@ ptBR = "Este prédio precisa de água mais profunda para funcionar."
 koKR = "이 건물은 작동하기 위해 더 깊은 물이 필요합니다."
 csCZ = "Tato budova potřebuje hlubší vodu, aby mohla fungovat."
 viVN = "Công trình này cần nước sâu hơn để hoạt động."
+trTR = "Bu binanın çalışması için daha derin suya ihtiyacı var."
 
 ["Status.Buildings.NeedsWater.Short"]
 raw = "Clădirea are nevoie de apă"
@@ -29388,6 +29511,7 @@ ptBR = "A construção precisa de água"
 koKR = "건물에 물이 필요합니다"
 csCZ = "Budova potřebuje vodu"
 viVN = "Công trình cần nước"
+trTR = "Bina suya ihtiyaç duyuyor"
 
 ["Status.Buildings.Paused"]
 raw = "Întrerupt."
@@ -29404,6 +29528,7 @@ ptBR = "Pausado."
 koKR = "중단됨."
 csCZ = "Pozastaveno."
 viVN = "Đã tạm dừng."
+trTR = "Duraklatıldı."
 
 ["Status.Buildings.PipeObstructed"]
 raw = "Țeavă obstrucționată."
@@ -29420,6 +29545,7 @@ ptBR = "Tube obstruído."
 koKR = "관이 막혔습니다."
 csCZ = "Zablokovaná trubka."
 viVN = "Ống bị cản trở."
+trTR = "Borulu."
 
 ["Status.Buildings.Unconnected"]
 raw = "Această clădire nu este legată de niciun centru al districtului prin alei."
@@ -29436,6 +29562,7 @@ ptBR = "Este necessária uma ligação entre esta construção e um centro do di
 koKR = "이 건물은 어떤 구역 중심과도 길로 연결되어 있지 않습니다."
 csCZ = "Tato budova není spojena s žádným centrem okresu prostřednictvím cest."
 viVN = "Căn nhà này không được kết nối với bất kỳ trung tâm khu vực nào thông qua các lối đi."
+trTR = "Bu bina, bölge merkezine yollarla bağlı değildir."
 
 ["Status.Buildings.Unconnected.Short"]
 raw = "Clădire neconectată"
@@ -29452,6 +29579,7 @@ ptBR = "Edifício desconectado"
 koKR = "연결되지 않은 건물"
 csCZ = "Neconnected building"
 viVN = "Công trình không kết nối"
+trTR = "Bağlantısız Bina"
 
 ["Status.Buildings.VerticalBlocking"]
 raw = "Construcția așteaptă finalizarea construcției de dedesubt."
@@ -29468,6 +29596,7 @@ ptBR = "A construção aguarda a conclusão da construção de baixo."
 koKR = "아래의 건설 완료를 기다리고 있습니다."
 csCZ = "Stavba čeká na dokončení stavby pod ní."
 viVN = "Công trình đang chờ hoàn tất xây dựng bên dưới."
+trTR = "Yapı, altındaki yapının tamamlanmasını bekliyor."
 
 ["Status.ConstructionSites.NoMaterials"]
 raw = "Nu pot obține toate materialele necesare."
@@ -29484,6 +29613,7 @@ ptBR = "Não consigo obter todos os materiais necessários."
 koKR = "모든 필요한 자재를 얻을 수 없습니다."
 csCZ = "Nemohu získat všechny potřebné materiály."
 viVN = "Tôi không thể lấy tất cả các vật liệu cần thiết."
+trTR = "Tüm gerekli malzemeleri temin edemiyorum."
 
 ["Status.ConstructionSites.NoMaterials.Short"]
 raw = "Construcția duce lipsă de materiale"
@@ -29500,6 +29630,7 @@ ptBR = "A construção está sem materiais"
 koKR = "건설에 자재가 부족합니다"
 csCZ = "Stavba postrádá materiály"
 viVN = "Công trình thiếu vật liệu"
+trTR = "İnşaat malzeme eksikliği yaşıyor"
 
 ["Status.Distribution.InvalidConnection"]
 raw = "Clădirea trebuie să fie conectată la două cartiere."
@@ -29516,6 +29647,7 @@ ptBR = "O edifício deve estar conectado a dois distritos."
 koKR = "건물은 두 개의 구역에 연결되어 있어야 합니다."
 csCZ = "Budova musí být připojena k dvěma čtvrtím."
 viVN = "Tòa nhà phải được kết nối với hai khu phố."
+trTR = "Bina iki mahalleye bağlı olmalıdır."
 
 ["Status.Emptying.EmptyingInProgress"]
 raw = "Clădirea este golită și nu acceptă bunuri noi."
@@ -29532,6 +29664,7 @@ ptBR = "O edifício está sendo esvaziado e não aceita novos itens."
 koKR = "건물이 비워지고 있으며 새 물품을 받을 수 없습니다."
 csCZ = "Budova se vyprázdňuje a nepřijímá nové zboží."
 viVN = "Công trình đang được làm trống và không chấp nhận hàng hóa mới."
+trTR = "Bina boşaltılıyor ve yeni malları kabul etmiyor."
 
 ["Status.FixedStockpile.Unreachable"]
 raw = "Conectează-te la un district pentru a colecta bunuri."
@@ -29548,6 +29681,7 @@ ptBR = "Conecte-se a um distrito para coletar bens."
 koKR = "자원 수집을 위해 구역에 연결하세요."
 csCZ = "Připojte se k obvodu, abyste mohli sbírat zboží."
 viVN = "Liên kết với một quận để thu thập hàng hóa."
+trTR = "Malzeme toplamak için bir bölgeye bağlan."
 
 ["Status.Hauling.NoHaulingPost"]
 raw = "Necesită transportoare pentru a funcționa."
@@ -29564,6 +29698,7 @@ ptBR = "Necessita transportadores para funcionar."
 koKR = "작동하려면 운반자가 필요합니다."
 csCZ = "Potřebuje dopravce, aby fungoval."
 viVN = "Cần có băng tải để hoạt động."
+trTR = "Çalışması için taşıyıcılara ihtiyaç duyuyor."
 
 ["Status.Homelessness.Stranded"]
 raw = "Eșuat."
@@ -29580,6 +29715,7 @@ ptBR = "Fracassado."
 koKR = "실패했습니다."
 csCZ = "Selhal."
 viVN = "Thất bại."
+trTR = "Başarısız."
 
 ["Status.Homelessness.Stranded.Short"]
 raw = "Eșuat"
@@ -29596,6 +29732,7 @@ ptBR = "Desamparado"
 koKR = "실패"
 csCZ = "Selhal"
 viVN = "Thất bại"
+trTR = "Başarısız"
 
 ["Status.HydroponicGarden.CultivationHalted"]
 raw = "Cultivarea a fost oprită din cauza lipsei de muncitori sau de apă. Recolta va muri în curând."
@@ -29612,6 +29749,7 @@ ptBR = "A cultiva foi interrompida devido à falta de trabalhadores ou água. A 
 koKR = "작물이 부족한 인력이나 물 때문에 재배가 중단되었습니다. 수확물이 곧 죽게 될 것입니다."
 csCZ = "Pěstování bylo zastaveno kvůli nedostatku pracovníků nebo vody. Úroda brzy uhynie."
 viVN = "Cultivarea đã bị ngừng do thiếu công nhân hoặc nước. Mùa thu hoạch sẽ chết sớm."
+trTR = "Tarım, işçi veya su eksikliği nedeniyle durduruldu. Hasat yakında ölecek."
 
 ["Status.HydroponicGarden.CultivationHalted.Short"]
 raw = "Cultivarea a fost oprită"
@@ -29628,6 +29766,7 @@ ptBR = "A cultivações foram interrompidas"
 koKR = "재배가 중단되었습니다"
 csCZ = "Pěstování bylo zastaveno"
 viVN = "Cultivarea a fost oprită"
+trTR = "Yetiştiricilik durduruldu"
 
 ["Status.Inventory.NoGoodSelected"]
 raw = "Niciun bun nu este selectat."
@@ -29644,6 +29783,7 @@ ptBR = "Nenhum item está selecionado."
 koKR = "선택된 아이템이 없습니다."
 csCZ = "Není vybrána žádná komodita."
 viVN = "Không có hàng hóa nào được chọn."
+trTR = "Hiçbir mal seçilmedi."
 
 ["Status.Inventory.NoGoodSelected.Short"]
 raw = "Niciun bun selectat"
@@ -29660,6 +29800,7 @@ ptBR = "Nenhum item selecionado"
 koKR = "선택된 아이템 없음"
 csCZ = "Není vybrán žádný zboží"
 viVN = "Không có hàng nào được chọn"
+trTR = "Seçili hiçbir mal yok"
 
 ["Status.Inventory.UnwantedStock"]
 raw = "Se așteaptă eliminarea stocului anterior."
@@ -29676,6 +29817,7 @@ ptBR = "Esperando pela remoção do estoque anterior."
 koKR = "이전 재고 제거를 기다리고 있습니다."
 csCZ = "Očekává se odstranění předchozího skladu."
 viVN = "Đang chờ xử lý hàng tồn kho trước đó."
+trTR = "Önceki stoğun kaldırılması bekleniyor."
 
 ["Status.Manufactory.NoRecipe"]
 raw = "Nicio rețetă selectată."
@@ -29692,6 +29834,7 @@ ptBR = "Nenhuma receita selecionada."
 koKR = "선택된 레시피가 없습니다."
 csCZ = "Nebyla vybrána žádná receptura."
 viVN = "Chưa chọn công thức nào."
+trTR = "Seçilen bir tarif yok."
 
 ["Status.Manufactory.NoRecipe.Short"]
 raw = "Fără rețetă"
@@ -29708,6 +29851,7 @@ ptBR = "Faltando receita"
 koKR = "레시피 없음"
 csCZ = "Žádný recept"
 viVN = "Không có công thức"
+trTR = "Tarif yok"
 
 ["Status.Mechanical.NoPower"]
 raw = "Clădirea are nevoie de energie electrică pentru a funcționa. Conectați-o la un generator."
@@ -29724,6 +29868,7 @@ ptBR = "O edifício precisa de energia elétrica para funcionar. Conecte-o a um 
 koKR = "건물은 작동하려면 전기가 필요합니다. 발전기에 연결하세요."
 csCZ = "Budova potřebuje elektrickou energii k provozu. Připojte ji k generátoru."
 viVN = "Công trình cần năng lượng điện để hoạt động. Kết nối nó với một máy phát điện."
+trTR = "Bina elektrik enerjisine ihtiyaç duyuyor. Bir jeneratöre bağlayın."
 
 ["Status.Mechanical.NoPower.Short"]
 raw = "Clădirea nu are curent electric"
@@ -29740,6 +29885,7 @@ ptBR = "A construção não tem energia elétrica"
 koKR = "건물에 전기가 없습니다."
 csCZ = "Budova nemá elektrický proud"
 viVN = "Công trình không có điện"
+trTR = "Bina elektrik enerjisi yok"
 
 ["Status.Naming.DuplicateName"]
 raw = "Acest nume este luat."
@@ -29756,6 +29902,7 @@ ptBR = "Este nome já está em uso."
 koKR = "이 이름은 이미 사용 중입니다."
 csCZ = "Tento název je již obsazen."
 viVN = "Tên này đã được sử dụng."
+trTR = "Bu isim alınmış."
 
 ["Status.Naming.DuplicateName.Short"]
 raw = "Nume duplicate"
@@ -29772,6 +29919,7 @@ ptBR = "Nome duplicado"
 koKR = "중복 이름"
 csCZ = "Duplikované jméno"
 viVN = "Nume trùng"
+trTR = "Çift isim"
 
 ["Status.NaturalResources.Contaminated"]
 raw = "Contaminat."
@@ -29788,6 +29936,7 @@ ptBR = "Contaminado."
 koKR = "오염됨."
 csCZ = "Kontaminované."
 viVN = "Contaminated."
+trTR = "Kirlenmiş."
 
 ["Status.NaturalResources.Drying"]
 raw = "Se usucă."
@@ -29804,6 +29953,7 @@ ptBR = "Está secando."
 koKR = "마르고 있습니다."
 csCZ = "Se usucá."
 viVN = "Se usucă."
+trTR = "Kuruyor."
 
 ["Status.NaturalResources.NotEnoughWater"]
 raw = "Nu are apă."
@@ -29820,6 +29970,7 @@ ptBR = "Não há água."
 koKR = "물이 부족합니다."
 csCZ = "Nedostatek vody."
 viVN = "Không có nước."
+trTR = "Yeterince su yok."
 
 ["Status.NaturalResources.TooMuchWater"]
 raw = "Inundat."
@@ -29836,6 +29987,7 @@ ptBR = "Inundado."
 koKR = "침수."
 csCZ = "Zaplaveno."
 viVN = "Nước ngập."
+trTR = "Sulanmış."
 
 ["Status.Need.BadwaterContamination"]
 raw = "Contaminat cu apă rea."
@@ -29852,6 +30004,7 @@ ptBR = "Contaminado com água ruim."
 koKR = "오염된 물."
 csCZ = "Contaminováno špatnou vodou."
 viVN = "Contaminat với nước bẩn."
+trTR = "Kötü su ile kirletildi."
 
 ["Status.Need.BadwaterContamination.Short"]
 raw = "Castor contaminat"
@@ -29868,6 +30021,7 @@ ptBR = "Castor contaminado"
 koKR = "오염된 비버"
 csCZ = "Zasažený bobr"
 viVN = "Những con castor bị ô nhiễm"
+trTR = "Kirli su"
 
 ["Status.Need.Biofuel"]
 raw = "Fără combustibil."
@@ -29884,6 +30038,7 @@ ptBR = "Sem combustível."
 koKR = "연료가 없습니다."
 csCZ = "Bez paliva."
 viVN = "Không có nhiên liệu."
+trTR = "Yakıtsız."
 
 ["Status.Need.Biofuel.Short"]
 raw = "Robotul nu mai are combustibil"
@@ -29900,6 +30055,7 @@ ptBR = "O robô não tem mais combustível"
 koKR = "로봇이 연료가 없습니다"
 csCZ = "Robot nemá více paliva"
 viVN = "Robot không còn nhiên liệu"
+trTR = "Robot artık yakıtı yok"
 
 ["Status.Need.ChippedTeeth"]
 raw = "Dinți ciobiți."
@@ -29916,6 +30072,7 @@ ptBR = "Dinții lascivi."
 koKR = "파편이 나간 이빨."
 csCZ = "Čipované zuby."
 viVN = "Dinții bị mẻ."
+trTR = "Çiplenmiş dişler."
 
 ["Status.Need.ChippedTeeth.Short"]
 raw = "Dinți ciobiți"
@@ -29932,6 +30089,7 @@ ptBR = "Din teeth chipped"
 koKR = "부서진 이빨"
 csCZ = "Čipované zuby"
 viVN = "Dinți ciobiți"
+trTR = "Çiplenmiş Dişler"
 
 ["Status.Need.Hunger"]
 raw = "Flămând."
@@ -29948,6 +30106,7 @@ ptBR = "Faminto."
 koKR = "배고픔."
 csCZ = "Hladový."
 viVN = "Đói."
+trTR = "Aç."
 
 ["Status.Need.Injury"]
 raw = "Accidentat."
@@ -29964,6 +30123,7 @@ ptBR = "Acidentado."
 koKR = "부상당함."
 csCZ = "Zraněný."
 viVN = "Chấn thương."
+trTR = "Kaza yaptı."
 
 ["Status.Need.Injury.Short"]
 raw = "Castor rănit"
@@ -29980,6 +30140,7 @@ ptBR = "Castor ferido"
 koKR = "부상당한 비버"
 csCZ = "Zraněný bobr"
 viVN = "Castor bị thương"
+trTR = "Yaralı kunduz"
 
 ["Status.Need.Power"]
 raw = "Fără curent."
@@ -29996,6 +30157,7 @@ ptBR = "Sem energia."
 koKR = "전기가 없습니다."
 csCZ = "Bez proudu."
 viVN = "Không có điện."
+trTR = "Elektriksiz."
 
 ["Status.Need.Power.Short"]
 raw = "Robotul nu mai are energie"
@@ -30012,6 +30174,7 @@ ptBR = "O robô não tem mais energia"
 koKR = "로봇의 에너지가 없습니다"
 csCZ = "Robot nemá více energie"
 viVN = "Robot không còn năng lượng"
+trTR = "Robot artık enerjiye sahip değil."
 
 ["Status.Need.Sleep"]
 raw = "Epuizat."
@@ -30028,6 +30191,7 @@ ptBR = "Epuizado."
 koKR = "피곤하다."
 csCZ = "Už jsem unavený."
 viVN = "Mệt mỏi."
+trTR = "Tükenmiş."
 
 ["Status.Need.Thirst"]
 raw = "Deshidratat."
@@ -30044,6 +30208,7 @@ ptBR = "Desidratado."
 koKR = "탈수 상태."
 csCZ = "Dehydrovaný."
 viVN = "Khát nước."
+trTR = "Susuz."
 
 ["Status.Object.UnreachableObject"]
 raw = "Este prea departe de un district și nu se poate ajunge acolo. Construiți mai multe cărări sau un district nou."
@@ -30060,6 +30225,7 @@ ptBR = "Está muito longe de um distrito e não pode ser alcançado. Construa ma
 koKR = "해당 지역에서 너무 멀어서 도달할 수 없습니다. 더 많은 경로를 건설하거나 새 지역을 만드세요."
 csCZ = "Je příliš daleko od čtvrti a nelze se tam dostat. Postavte více cest nebo novou čtvrť."
 viVN = "Nó quá xa một khu vực và không thể đến đó. Xây dựng thêm nhiều đường đi hoặc một khu vực mới."
+trTR = "Bu bir bölgeden çok uzakta ve oraya ulaşılamıyor. Daha fazla patika veya yeni bir bölge inşa edin."
 
 ["Status.RecoveredGoodStack.NoStorage"]
 raw = "Nu există spațiu de stocare disponibil. Construiește mai mult spațiu de stocare."
@@ -30076,6 +30242,7 @@ ptBR = "Não há espaço de armazenamento disponível. Construa mais espaço de 
 koKR = "저장 공간이 없습니다. 더 많은 저장 공간을 건설하세요."
 csCZ = "Není k dispozici žádný prostor pro skladování. Postav více skladovacího prostoru."
 viVN = "Không có không gian lưu trữ khả dụng. Xây dựng thêm không gian lưu trữ."
+trTR = "Mevcut depolama alanı yok. Daha fazla depolama alanı inşa et."
 
 ["Status.Science.NotEnoughScience"]
 raw = "Nu sunt suficiente Puncte Științifice pentru a funcționa."
@@ -30092,6 +30259,7 @@ ptBR = "Não há Pontos Científicos suficientes para funcionar."
 koKR = "작동하기 위해 충분한 과학 포인트가 없습니다."
 csCZ = "Nemáte dostatek vědeckých bodů k provozu."
 viVN = "Không đủ Điểm Khoa Học để hoạt động."
+trTR = "Yeterli Bilim Puanı yok."
 
 ["Status.Science.NotEnoughScience.Short"]
 raw = "Nu sunt suficiente puncte științifice"
@@ -30108,6 +30276,7 @@ ptBR = "Não há pontos de ciência suficientes"
 koKR = "과학 점수가 부족합니다"
 csCZ = "Není dostatek vědeckých bodů"
 viVN = "Không đủ điểm nghiên cứu"
+trTR = "Yeterli bilim puanı yok"
 
 ["Status.TimedActivationWarning"]
 raw = "Se activează în curând."
@@ -30124,6 +30293,7 @@ ptBR = "Se ativa em breve."
 koKR = "곧 활성화됩니다."
 csCZ = "Brzy se aktivuje."
 viVN = "Sẽ được kích hoạt sớm."
+trTR = "Yakında etkinleştirilecek."
 
 ["Status.TimedComponentActivator.Short"]
 raw = "{0} zile"
@@ -30140,6 +30310,7 @@ ptBR = "{0} dias"
 koKR = "{0} 일"
 csCZ = "{0} dní"
 viVN = "{0} ngày"
+trTR = "{0} gün"
 
 ["Status.UnstableCoreActivationWarning"]
 raw = "Explodează în curând."
@@ -30156,6 +30327,7 @@ ptBR = "Explodirá em breve."
 koKR = "곧 폭발합니다."
 csCZ = "Brzy exploduje."
 viVN = "Explodează trong thời gian tới."
+trTR = "Yakında patlayacak."
 
 ["Status.Wonder.NotEnoughGoods"]
 raw = "Nu sunt suficiente materiale pentru lansare."
@@ -30172,6 +30344,7 @@ ptBR = "Não há materiais suficientes para o lançamento."
 koKR = "출시에 필요한 자원이 충분하지 않습니다."
 csCZ = "Není dostatek materiálů pro uvedení."
 viVN = "Không đủ vật liệu để phóng."
+trTR = "Başlatmak için yeterli malzeme yok."
 
 ["Status.Wonder.NotEnoughWorkers"]
 raw = "Nu sunt suficienți muncitori pentru lansare."
@@ -30188,6 +30361,7 @@ ptBR = "Não há trabalhadores suficientes para o lançamento."
 koKR = "출시를 위한 작업자가 충분하지 않습니다."
 csCZ = "Není dostatek pracovníků pro spuštění."
 viVN = "Không có đủ công nhân để ra mắt."
+trTR = "Başlatmak için yeterli işçi yok."
 
 ["Status.Work.LackOfResources"]
 raw = "Imposibil de obținut toate materialele necesare."
@@ -30204,6 +30378,7 @@ ptBR = "Impossível obter todos os materiais necessários."
 koKR = "필요한 모든 자원을 확보할 수 없습니다."
 csCZ = "Nepodaří se získat všechny potřebné materiály."
 viVN = "Không thể lấy được tất cả nguyên liệu cần thiết."
+trTR = "İhtiyaç duyulan tüm malzemeleri temin etmek imkansız."
 
 ["Status.Work.LackOfResources.Short"]
 raw = "Clădirea duce lipsă de obiecte"
@@ -30220,6 +30395,7 @@ ptBR = "A construção está sem itens"
 koKR = "건물에 자원이 부족합니다."
 csCZ = "Budova postrádá předměty"
 viVN = "Công trình thiếu vật tư"
+trTR = "Bina malzeme eksikliği var"
 
 ["Status.Work.NoUnemployed"]
 raw = "Nu sunt muncitori disponibili în district."
@@ -30236,6 +30412,7 @@ ptBR = "Não há trabalhadores disponíveis no distrito."
 koKR = "구역에 사용 가능한 근로자가 없습니다."
 csCZ = "V okrsku nejsou k dispozici žádní pracovníci."
 viVN = "Không có công nhân nào có sẵn trong quận."
+trTR = "Bölgedeki çalışacak işçi yok."
 
 ["Status.Work.NoUnemployed.Short"]
 raw = "Clădire fără muncitori"
@@ -30252,6 +30429,7 @@ ptBR = "Edifício sem trabalhadores"
 koKR = "근로자가 없는 건물"
 csCZ = "Budova bez dělníků"
 viVN = "Công trình không có công nhân"
+trTR = "İşçi olmayan bina"
 
 ["Status.Yielding.NothingToDoInRange"]
 raw = "Nimic de făcut în raza de acțiune"
@@ -30268,6 +30446,7 @@ ptBR = "Nada a fazer na área de alcance"
 koKR = "범위 내 할 일이 없습니다"
 csCZ = "Není co dělat v dosahu"
 viVN = "Nếu không có gì để làm trong phạm vi"
+trTR = "Yapacak hiçbir şey yok"
 
 ["SteamWorkshop.Changelog"]
 raw = "Jurnal de modificări"
@@ -30284,6 +30463,7 @@ ptBR = "Registro de alterações"
 koKR = "변경 로그"
 csCZ = "Zpráva o změnách"
 viVN = "Nhật ký thay đổi"
+trTR = "Değişiklik Günlüğü"
 
 ["SteamWorkshop.Description"]
 raw = "Descriere"
@@ -30300,6 +30480,7 @@ ptBR = "Descrição"
 koKR = "설명"
 csCZ = "Popis"
 viVN = "Mô tả"
+trTR = "Açıklama"
 
 ["SteamWorkshop.LegalAgreement"]
 raw = "Prin trimiterea acestui articol, sunteți de acord cu <link><u>termenii și condițiile atelierului</u></link>."
@@ -30316,6 +30497,7 @@ ptBR = "ao enviar este artigo, você concorda com <link><u>os termos e condiçõ
 koKR = "이 Artikel을 제출함으로써, 당신은 <link><u>작업실의 약관 및 조건</u></link>에 동의합니다."
 csCZ = "Odesláním tohoto článku souhlasíte s <link><u>podmínkami a pravidly workshopu</u></link>."
 viVN = "Bằng cách gửi bài viết này, bạn đồng ý với <link><u>các điều khoản và điều kiện của xưởng</u></link>."
+trTR = "Bu öğeyi göndererek <link><u>atölye koşullarını</u></link> kabul etmiş olursunuz."
 
 ["SteamWorkshop.Name"]
 raw = "Nume"
@@ -30332,6 +30514,7 @@ ptBR = "Número"
 koKR = "이름"
 csCZ = "Název"
 viVN = "Nume"
+trTR = "İsim"
 
 ["SteamWorkshop.Preview"]
 raw = "Previzualizare"
@@ -30348,6 +30531,7 @@ ptBR = "Previzualização"
 koKR = "미리보기"
 csCZ = "Previzualizace"
 viVN = "Previzualizare"
+trTR = "Önizleme"
 
 ["SteamWorkshop.RefreshThumbnail"]
 raw = "Reîmprospăta"
@@ -30364,6 +30548,7 @@ ptBR = "Recarregar"
 koKR = "새로 고침"
 csCZ = "Obnovit"
 viVN = "Làm mới"
+trTR = "Yenile"
 
 ["SteamWorkshop.ShowWorkshopItem"]
 raw = "Deschide în Steam Workshop"
@@ -30380,6 +30565,7 @@ ptBR = "Deschire na Oficina Steam"
 koKR = "Steam Workshop에서 열기"
 csCZ = "Оtevřít ve Steam Workshopu"
 viVN = "Mở trong Steam Workshop"
+trTR = "Steam Atölyesi'nde Aç"
 
 ["SteamWorkshop.SteamMapTooltip"]
 raw = "Harta Atelierului Steam"
@@ -30396,6 +30582,7 @@ ptBR = "Harta do Atelier Steam"
 koKR = "스팀 작업실 지도"
 csCZ = "Harta Atelieru Steam"
 viVN = "Harta Atelier của Steam"
+trTR = "Steam Atölyesi Haritası"
 
 ["SteamWorkshop.Tags"]
 raw = "Etichete"
@@ -30412,6 +30599,7 @@ ptBR = "Tags"
 koKR = "태그"
 csCZ = "Štítky"
 viVN = "Nhãn"
+trTR = "Etiketler"
 
 ["SteamWorkshop.Update"]
 raw = "Actualizare"
@@ -30428,6 +30616,7 @@ ptBR = "Atualização"
 koKR = "업데이트"
 csCZ = "Nová aktualizace"
 viVN = "Cập nhật"
+trTR = "Update"
 
 ["SteamWorkshop.UploadAsNew"]
 raw = "Încărcați ca nou"
@@ -30444,6 +30633,7 @@ ptBR = "Faça o upload como novo"
 koKR = "새로 업로드"
 csCZ = "Nahrát jako nový"
 viVN = "Tải lên như mới"
+trTR = "Yeni olarak yükleyin"
 
 ["SteamWorkshop.UploadButton"]
 raw = "Încarcă"
@@ -30460,6 +30650,7 @@ ptBR = "Enviar"
 koKR = "업로드"
 csCZ = "Nahrát"
 viVN = "Tải lên"
+trTR = "Yükle"
 
 ["SteamWorkshop.UploadFailed"]
 raw = "Încărcarea a eșuat cu codul de eroare Steam: {0}"
@@ -30476,6 +30667,7 @@ ptBR = "Falha ao carregar com o código de erro Steam: {0}"
 koKR = "Steam 오류 코드 {0}로 업로드에 실패했습니다."
 csCZ = "Nahrání selhalo s chybovým kódem Steam: {0}"
 viVN = "Đã tải lên thất bại với mã lỗi Steam: {0}"
+trTR = "Steam ile hata kodu: {0} ile yükleme başarısız oldu."
 
 ["SteamWorkshop.UploadHeader"]
 raw = "Încarcă în Steam Workshop"
@@ -30492,6 +30684,7 @@ ptBR = "Carregar no Steam Workshop"
 koKR = "스팀 워크숍에 업로드"
 csCZ = "Nahrát do Steam Workshop"
 viVN = "Tải lên Steam Workshop"
+trTR = "Steam Workshop'a Yükle"
 
 ["SteamWorkshop.UploadProgress"]
 raw = "Încărcare: {0}"
@@ -30508,6 +30701,7 @@ ptBR = "Carregando: {0}"
 koKR = "업로드: {0}"
 csCZ = "Nahrávání: {0}"
 viVN = "Đang tải: {0}"
+trTR = "Yükleniyor: {0}"
 
 ["SteamWorkshop.UploadSuccess"]
 raw = "Conținutul tău a fost încărcat!"
@@ -30524,6 +30718,7 @@ ptBR = "Seu conteúdo foi carregado!"
 koKR = "당신의 콘텐츠가 업로드되었습니다!"
 csCZ = "Tvůj obsah byl nahrán!"
 viVN = "Nội dung của bạn đã được tải lên!"
+trTR = "İçeriğin yüklendi!"
 
 ["SteamWorkshop.UploadToSteamWorkshop"]
 raw = "Încarcă în Steam Workshop"
@@ -30540,6 +30735,7 @@ ptBR = "Carregar no Steam Workshop"
 koKR = "스팀 워크샵에 업로드"
 csCZ = "Nahrát na Steam Workshop"
 viVN = "Tải lên Steam Workshop"
+trTR = "Steam Atölyesi'ne Yükle"
 
 ["SteamWorkshop.Visibility"]
 raw = "Vizibilitate"
@@ -30556,6 +30752,7 @@ ptBR = "Vizibilidade"
 koKR = "가시성"
 csCZ = "Viditelnost"
 viVN = "Độ Hiển Thị"
+trTR = "Görünürlük"
 
 ["SteamWorkshop.Visibility.Friends"]
 raw = "Numai prieteni"
@@ -30572,6 +30769,7 @@ ptBR = "Somente amigos"
 koKR = "친구만"
 csCZ = "Pouze přátelé"
 viVN = "Chỉ bạn bè"
+trTR = "Sadece arkadaşlar"
 
 ["SteamWorkshop.Visibility.Private"]
 raw = "Privat"
@@ -30588,6 +30786,7 @@ ptBR = "Privado"
 koKR = "비공개"
 csCZ = "Soukromé"
 viVN = "Riêng tư"
+trTR = "Özel"
 
 ["SteamWorkshop.Visibility.Public"]
 raw = "Public"
@@ -30604,6 +30803,7 @@ ptBR = "Público"
 koKR = "공개"
 csCZ = "Veřejné"
 viVN = "Công khai"
+trTR = "Herkese Açık"
 
 ["SteamWorkshop.Visibility.Unlisted"]
 raw = "Nelistat"
@@ -30620,6 +30820,7 @@ ptBR = "Nelistado"
 koKR = "비공개"
 csCZ = "Nelistat"
 viVN = "Nelistat"
+trTR = "Nelistat"
 
 ["StockpilePriority.Accept"]
 raw = "Accepta"
@@ -30636,6 +30837,7 @@ ptBR = "Acceptar"
 koKR = "수락"
 csCZ = "Přijmout"
 viVN = "Chấp nhận"
+trTR = "Accepta"
 
 ["StockpilePriority.Accept.Long"]
 raw = "Acceptați bunuri."
@@ -30652,6 +30854,7 @@ ptBR = "Acceptar bens."
 koKR = "물품을 수락하세요."
 csCZ = "Přijměte zboží."
 viVN = "Chấp nhận hàng hóa."
+trTR = "Mal kabul edin."
 
 ["StockpilePriority.Empty"]
 raw = "Golește"
@@ -30668,6 +30871,7 @@ ptBR = "Golește"
 koKR = "비우기"
 csCZ = "Golešte"
 viVN = "Golește"
+trTR = "Goleştir"
 
 ["StockpilePriority.Empty.Long"]
 raw = "Goliți mărfurile către alte depozite."
@@ -30684,6 +30888,7 @@ ptBR = "Goliți os materiais para outros armazéns."
 koKR = "다른 창고로 물품을 비우세요."
 csCZ = "Goliť zboží do jiných skladů."
 viVN = "Chuyển hàng hóa đến các kho khác."
+trTR = "Goliți ürünleri diğer depolara."
 
 ["StockpilePriority.Obtain"]
 raw = "Obţine"
@@ -30700,6 +30905,7 @@ ptBR = "Obter"
 koKR = "획득"
 csCZ = "Získej"
 viVN = "Nhận"
+trTR = "Al"
 
 ["StockpilePriority.Obtain.Long"]
 raw = "Obțineți mărfuri din alte depozite."
@@ -30716,6 +30922,7 @@ ptBR = "Obtenha mercadorias de outros depósitos."
 koKR = "다른 창고에서 물품을 가져옵니다."
 csCZ = "Získejte zboží z jiných skladů."
 viVN = "Nhận hàng từ các kho khác."
+trTR = "Diğer depolardan malzemeleri alın."
 
 ["StockpilePriority.Supply"]
 raw = "Distribuie"
@@ -30732,6 +30939,7 @@ ptBR = "Distribua"
 koKR = "배급"
 csCZ = "Distribuovat"
 viVN = "Phân phối"
+trTR = "Dağıt"
 
 ["StockpilePriority.Supply.Long"]
 raw = "Aprovizionarea cu mărfuri către alte depozite."
@@ -30748,6 +30956,7 @@ ptBR = "Aprovisionamento de mercadorias para outros depósitos."
 koKR = "다른 창고로 물품을 보급합니다."
 csCZ = "„Zásobování zbožím do jiných skladů.“"
 viVN = "Chuyển hàng hóa đến các kho khác."
+trTR = "Diğer depolara malzeme tedariki."
 
 ["TerrainPhysicsPostLoader.TerrainHasNoSupport"]
 raw = "Terenul avea suport nevalid și a fost șters."
@@ -30764,6 +30973,7 @@ ptBR = "O terreno tinha suporte inválido e foi removido."
 koKR = "지형이 유효하지 않은 지지대가 있어 삭제되었습니다."
 csCZ = "Terén neměl platnou podporu a byl odstraněn."
 viVN = "Địa hình có hỗ trợ không hợp lệ và đã bị xóa."
+trTR = "Arazinin geçersiz bir desteği vardı ve silindi."
 
 ["Thumbnail.NoPreview"]
 raw = "Fără previzualizare"
@@ -30780,6 +30990,7 @@ ptBR = "Sem pré-visualização"
 koKR = "미리보기 없음"
 csCZ = "Bez náhledu"
 viVN = "Không có hình xem trước"
+trTR = "Önizleme yok"
 
 ["TimedComponentActivator.CountdownNotActive"]
 raw = "Dormant"
@@ -30796,6 +31007,7 @@ ptBR = "Inativo"
 koKR = "휴면"
 csCZ = "Nečinný"
 viVN = "Ngủ đông"
+trTR = "Uykuda"
 
 ["TimedComponentActivator.CyclesUntilCountdownActivation"]
 raw = "Ciclul de activare a numărătorii inverse"
@@ -30812,6 +31024,7 @@ ptBR = "Ciclo de ativação da contagem regressiva"
 koKR = "카운트다운 활성화 주기"
 csCZ = "Cyklus aktivace odpočítávání"
 viVN = "Chu kỳ kích hoạt đếm ngược"
+trTR = "Geri sayımın etkinleşme döngüsü"
 
 ["TimedComponentActivator.DaysUntilActivationLoc"]
 raw = "Zile până se activează"
@@ -30828,6 +31041,7 @@ ptBR = "Days until activation"
 koKR = "활성화까지 남은 날"
 csCZ = "Dny do aktivace"
 viVN = "Ngày đến khi kích hoạt"
+trTR = "Etkinleşmeye kadar gün"
 
 ["TimedComponentActivator.DaysUntilActivationProgress"]
 raw = "Se activează în: {0} zile"
@@ -30844,6 +31058,7 @@ ptBR = "Se activejará em: {0} dias"
 koKR = "활성화까지: {0}일"
 csCZ = "Se activează v: {0} dní"
 viVN = "Se activează în: {0} ngày"
+trTR = "Şu anda etkinleştiriliyor: {0} gün"
 
 ["TimedComponentActivator.DaysUntilExplosionProgress"]
 raw = "Explodează în: {0} zile"
@@ -30860,6 +31075,7 @@ ptBR = "Explodirá em: {0} dias"
 koKR = "폭발까지: {0}일"
 csCZ = "Exploduje za: {0} dní"
 viVN = "Explode trong: {0} ngày"
+trTR = "Patlayacak: {0} gün içinde"
 
 ["TimedComponentActivator.IsEnabledToggle"]
 raw = "Activare întârziată"
@@ -30876,6 +31092,7 @@ ptBR = "Ativação Retardada"
 koKR = "지연 활성화"
 csCZ = "Zpožděné aktivace"
 viVN = "Kích hoạt trì hoãn"
+trTR = "Zamanlayıcı etkinleştirici"
 
 ["Tip.Common.KeyBindings"]
 raw = "Sfat: Folosește combinațiile de taste pentru a efectua anumite acțiuni mai rapid, cum ar fi ștergerea sau duplicarea unei clădiri. Poți găsi lista completă în Opțiuni."
@@ -30892,6 +31109,7 @@ ptBR = "Dica: Use as combinações de teclas para realizar certas ações mais r
 koKR = "팁: 특정 작업을 더 빠르게 수행하기 위해 키 조합을 사용하십시오. 예를 들어 건물을 삭제하거나 복제할 수 있습니다. 전체 목록은 옵션에서 확인할 수 있습니다."
 csCZ = "„Tip: Používejte kombinace kláves pro rychlejší provádění určitých akcí, jako je mazání nebo duplikování budovy. Úplný seznam naleznete v Možnostech.“"
 viVN = "Mẹo: Sử dụng các tổ hợp phím để thực hiện một số hành động nhanh hơn, chẳng hạn như xóa hoặc nhân bản một tòa nhà. Bạn có thể tìm thấy danh sách đầy đủ trong Tùy chọn."
+trTR = "İpucu: Belirli eylemleri daha hızlı gerçekleştirmek için tuş kombinasyonlarını kullanın, örneğin bir binayı silmek veya çoğaltmak. Tam listeyi Seçenekler'de bulabilirsiniz."
 
 ["Tip.Common.LayerTool"]
 raw = "Sfat: Folosește instrumentul <YellowHighlight>Strat</YellowHighlight> pentru a vedea sub teren și clădiri."
@@ -30908,6 +31126,7 @@ ptBR = "Conselho: Use a ferramenta <YellowHighlight>Camada</YellowHighlight> par
 koKR = "조언: <YellowHighlight>층</YellowHighlight> 도구를 사용하여 지면과 건물 아래를 확인하세요."
 csCZ = "Rada: Použij nástroj <YellowHighlight>Vrstva</YellowHighlight> k tomu, abys viděl pod terénem a budovami."
 viVN = "Lời khuyên: Sử dụng công cụ <YellowHighlight>Địa tầng</YellowHighlight> để xem bên dưới mặt đất và các tòa nhà."
+trTR = "Tavsiye: <YellowHighlight>Katı</YellowHighlight> aracını kullanarak arazinin ve binaların altını görebilirsin."
 
 ["Tip.Game.Duplicate"]
 raw = "Sfat: Folosiți instrumentele <YellowHighlight>Duplicare</YellowHighlight> și <YellowHighlight>Copiere setări</YellowHighlight> pentru a crea rapid clădiri identice."
@@ -30924,6 +31143,7 @@ ptBR = "Sugestão: Use as ferramentas <YellowHighlight>Duplication</YellowHighli
 koKR = "팁: <YellowHighlight>복제</YellowHighlight> 및 <YellowHighlight>설정 복사</YellowHighlight> 도구를 사용하여 동일한 건물을 빠르게 생성하세요."
 csCZ = "Tip.Hra.Duplikovat - Nový text k překladu: \"Rada: Použijte nástroje <YellowHighlight>Duplikovat</YellowHighlight> a <YellowHighlight>Kopírovat nastavení</YellowHighlight> pro rychlé vytvoření identických budov.\""
 viVN = "Số mẹo: Sử dụng các công cụ <YellowHighlight>Nhân bản</YellowHighlight> và <YellowHighlight>Sao chép cài đặt</YellowHighlight> để nhanh chóng tạo ra các tòa nhà giống hệt nhau."
+trTR = "İpucu: <YellowHighlight>Çoğaltma</YellowHighlight> ve <YellowHighlight>Ayarları Kopyala</YellowHighlight> araçlarını kullanarak hızlı bir şekilde aynı binaları oluşturun."
 
 ["Tip.Game.Flip"]
 raw = "Sfat: Folosește <YellowHighlight>Flip</YellowHighlight> pentru a oglindi o clădire în timpul plasării acesteia."
@@ -30940,6 +31160,7 @@ ptBR = "S dica: Use <YellowHighlight>Flip</YellowHighlight> para espelhar um edi
 koKR = "조언: <YellowHighlight>Flip</YellowHighlight>을 사용하여 건물을 배치하는 동안 건물을 반전시키세요."
 csCZ = "Tip.Hra.Flip - Nový text k překladu: \"Tip: Použij <YellowHighlight>Flip</YellowHighlight> k zrcadlení budovy při jejím umístění.\""
 viVN = "Sát: Sử dụng <YellowHighlight>Flip</YellowHighlight> để phản chiếu một tòa nhà trong quá trình đặt nó."
+trTR = "İpucu: <YellowHighlight>Flip</YellowHighlight> kullanarak bir yapıyı yerleştirirken yansıt."
 
 ["Tip.Game.Solid"]
 raw = "Sfat: Dacă o clădire este marcată ca <YellowHighlight>Solid</YellowHighlight>, cum ar fi o cabană sau un depozit, puteți construi alte structuri pe acoperișul acesteia."
@@ -30956,6 +31177,7 @@ ptBR = "Sugestão: Se um edifício estiver marcado como <YellowHighlight>Sólido
 koKR = "조언: 건물이 <YellowHighlight>견고함</YellowHighlight>으로 표시된 경우, 예를 들어 오두막이나 저장소처럼, 해당 건물의 지붕 위에 다른 구조물을 건설할 수 있습니다."
 csCZ = "„Tip: Pokud je budova označena jako <YellowHighlight>Solid</YellowHighlight>, například chata nebo sklad, můžete na její střeše stavět další struktury.“"
 viVN = "Sáng kiến: Nếu một tòa nhà được đánh dấu là <YellowHighlight>Chắc chắn</YellowHighlight>, chẳng hạn như một cái chòi hoặc một kho, bạn có thể xây dựng các cấu trúc khác trên mái của nó."
+trTR = "İpucu: Eğer bir bina <YellowHighlight>Sert</YellowHighlight> olarak işaretlenmişse, örneğin bir kulübe veya depo gibi, üzerine başka yapılar inşa edebilirsiniz."
 
 ["Tip.MapEditor.Undo"]
 raw = "Sfat: Folosiți <YellowHighlight>Anulare</YellowHighlight> și <YellowHighlight>Refacere</YellowHighlight> pentru a corecta rapid o greșeală."
@@ -30972,6 +31194,7 @@ ptBR = "Dica: Use <YellowHighlight>Desfazer</YellowHighlight> e <YellowHighlight
 koKR = "팁: <YellowHighlight>되돌리기</YellowHighlight>와 <YellowHighlight>다시 실행</YellowHighlight>을 사용하여 실수를 빠르게 수정하세요."
 csCZ = "Tip: Použijte <YellowHighlight>Zpět</YellowHighlight> a <YellowHighlight>Jít zpět</YellowHighlight> k rychlé opravě chyby."
 viVN = "Sở hữu: Sử dụng <YellowHighlight>Hoàn tác</YellowHighlight> và <YellowHighlight>Redo</YellowHighlight> để nhanh chóng sửa chữa một sai lầm."
+trTR = "İpucu: Hızla bir hatayı düzeltmek için <YellowHighlight>Geri Al</YellowHighlight> ve <YellowHighlight>Yeniden Yükle</YellowHighlight> seçeneğini kullanın."
 
 ["Tip.MapEditor.SeasonControls"]
 raw = "Sfat: Folosește comenzile de sezon din partea de sus a ecranului pentru a simula Seceta și Marea Rea."
@@ -30988,6 +31211,7 @@ ptBR = "Dica: Use os controles de estação na parte superior da tela para simul
 koKR = "팁: 화면 상단의 계절 제어를 사용하여 가뭄과 대홍수를 시뮬레이션하세요."
 csCZ = "Odkaz: Použijte ovládací prvky ročního období v horní části obrazovky k simulaciSucha a Velkého zlého."
 viVN = "Sự khuyên: Sử dụng các điều khiển mùa ở phần trên của màn hình để mô phỏng Thiên tai và Đại dịch."
+trTR = "İpucu: Ekranın üst kısmındaki mevsim kontrollerini kullanarak Kuraklık ve Büyük Kötülüğü simüle et."
 
 ["Tip.MapEditor.SpeedControls"]
 raw = "Sfat: Folosește comenzile pentru viteza apei din partea de sus a ecranului pentru a preumple harta cu apă."
@@ -31004,6 +31228,7 @@ ptBR = "Dica: Use os controles de velocidade da água na parte superior da tela 
 koKR = "조언: 화면 상단의 물 속도 제어를 사용하여 맵을 물로 채우세요."
 csCZ = "Tip.MapEditor.SpeedControls - Nový text k překladu: \"Tip: Použijte ovládací prvky pro rychlost vody v horní části obrazovky, abyste naplnili mapu vodou.\""
 viVN = "Sát: Sử dụng các lệnh tốc độ nước ở phía trên cùng của màn hình để làm đầy bản đồ bằng nước."
+trTR = "İpucu: Haritayı suyla doldurmak için ekranın üst kısmındaki su hızı kontrollerini kullanın."
 
 ["Toggle.Selected"]
 raw = "(selectat)"
@@ -31020,6 +31245,7 @@ ptBR = "(selecionado)"
 koKR = "(선택됨)"
 csCZ = "(vybráno)"
 viVN = "(đã chọn)"
+trTR = "(seçili)"
 
 ["Toggle.State.Closed"]
 raw = "Închis"
@@ -31036,6 +31262,7 @@ ptBR = "Fechado"
 koKR = "닫힘"
 csCZ = "Zavřeno"
 viVN = "Đóng"
+trTR = "Kapalı"
 
 ["Toggle.State.Conflict"]
 raw = "Conflict"
@@ -31052,6 +31279,7 @@ ptBR = "Conflito"
 koKR = "충돌"
 csCZ = "Konflikt"
 viVN = "Xung đột"
+trTR = "Çatışma"
 
 ["Toggle.State.Off"]
 raw = "Oprit"
@@ -31068,6 +31296,7 @@ ptBR = "O desligado"
 koKR = "꺼짐"
 csCZ = "Vypnuto"
 viVN = "Oprit"
+trTR = "Kapat"
 
 ["Toggle.State.On"]
 raw = "pe"
@@ -31084,6 +31313,7 @@ ptBR = "ligado"
 koKR = "켜짐"
 csCZ = "na"
 viVN = "bật"
+trTR = "üzerinde"
 
 ["Toggle.State.Open"]
 raw = "Deschide"
@@ -31100,6 +31330,7 @@ ptBR = "Deschida"
 koKR = "열기"
 csCZ = "Otevřít"
 viVN = "Mở"
+trTR = "Aç"
 
 ["Tool.Cursor.Tooltip"]
 raw = "Selectează"
@@ -31116,6 +31347,7 @@ ptBR = "Selecionar"
 koKR = "선택하세요"
 csCZ = "Vybrat"
 viVN = "Chọn"
+trTR = "Seç"
 
 ["Tool.Options.Tooltip"]
 raw = "Opțiuni"
@@ -31132,6 +31364,7 @@ ptBR = "Opções"
 koKR = "옵션"
 csCZ = "Možnosti"
 viVN = "Tùy chọn"
+trTR = "Seçenekler"
 
 ["ToolGroups.Decoration"]
 raw = "Decorare"
@@ -31148,6 +31381,7 @@ ptBR = "Decoração"
 koKR = "장식"
 csCZ = "Výzdoba"
 viVN = "Trang trí"
+trTR = "Dekorasyon"
 
 ["ToolGroups.Demolishing"]
 raw = "Demolați clădiri și resurse"
@@ -31164,6 +31398,7 @@ ptBR = "Demolir edifícios e recursos"
 koKR = "건물 및 자원을 철거하세요."
 csCZ = "Demolujte budovy a zdroje"
 viVN = "Phá hủy các tòa nhà và tài nguyên"
+trTR = "Binaları ve kaynakları yıkın"
 
 ["ToolGroups.DistrictManagement"]
 raw = "Managementul districtului"
@@ -31180,6 +31415,7 @@ ptBR = "Gerenciamento de distrito"
 koKR = "지구 관리"
 csCZ = "Správa okresu"
 viVN = "Quản lý quận"
+trTR = "Bölge Yönetimi"
 
 ["ToolGroups.FieldsPlanting"]
 raw = "Plantează culturi"
@@ -31196,6 +31432,7 @@ ptBR = "Plante crops"
 koKR = "작물 심기"
 csCZ = "Plantejte plodiny"
 viVN = "Trồng cây"
+trTR = "Tarım ürünleri ek"
 
 ["ToolGroups.Food"]
 raw = "Mâncare"
@@ -31212,6 +31449,7 @@ ptBR = "M comida"
 koKR = "음식"
 csCZ = "Jídlo"
 viVN = "Món ăn"
+trTR = "Yiyecek"
 
 ["ToolGroups.ForestryPlanting"]
 raw = "Plantează copaci și arbuști"
@@ -31228,6 +31466,7 @@ ptBR = "Plante árvores e arbustos"
 koKR = "나무와 덤불을 심습니다"
 csCZ = "Saďte stromy a keře"
 viVN = "Plantează copaci và arbuști"
+trTR = "Ağaç ve çalı dikin"
 
 ["ToolGroups.Housing"]
 raw = "Case"
@@ -31244,6 +31483,7 @@ ptBR = "Case"
 koKR = "주택"
 csCZ = "Domek"
 viVN = "Nhà"
+trTR = "Ev"
 
 ["ToolGroups.Landscaping"]
 raw = "Amenajarea peisagistică"
@@ -31260,6 +31500,7 @@ ptBR = "Amenajamento paisagístico"
 koKR = "조경"
 csCZ = "Krajinné úpravy"
 viVN = "Amenajarea peisajului"
+trTR = "Peyzaj Düzeni"
 
 ["ToolGroups.MapEditor"]
 raw = "Editor de hărți"
@@ -31276,6 +31517,7 @@ ptBR = "Editor de mapas"
 koKR = "맵 에디터"
 csCZ = "Editor map"
 viVN = "Biên tập viên bản đồ"
+trTR = "Harita Editörü"
 
 ["ToolGroups.MapEditorObjects"]
 raw = "Obiecte"
@@ -31292,6 +31534,7 @@ ptBR = "Objetos"
 koKR = "객체"
 csCZ = "Objekty"
 viVN = "Đối tượng"
+trTR = "Nesneler"
 
 ["ToolGroups.MapEditorWater"]
 raw = "Apă"
@@ -31308,6 +31551,7 @@ ptBR = "Água"
 koKR = "물"
 csCZ = "Voda"
 viVN = "Nước"
+trTR = "Su"
 
 ["ToolGroups.Metal"]
 raw = "Metal"
@@ -31324,6 +31568,7 @@ ptBR = "Metal"
 koKR = "금속"
 csCZ = "Kov"
 viVN = "Kim loại"
+trTR = "Metal"
 
 ["ToolGroups.Monuments"]
 raw = "Monumente"
@@ -31340,6 +31585,7 @@ ptBR = "Monumentos"
 koKR = "기념물"
 csCZ = "Monumenty"
 viVN = "Công trình kỷ niệm"
+trTR = "Anıtlar"
 
 ["ToolGroups.NaturalOverhangs"]
 raw = "Pasarelă naturală"
@@ -31356,6 +31602,7 @@ ptBR = "Pasarela natural"
 koKR = "자연적인 처마"
 csCZ = "Přírodní římsa"
 viVN = "Pasarela tự nhiên"
+trTR = "Doğal Geçit"
 
 ["ToolGroups.Other"]
 raw = "Alte"
@@ -31372,6 +31619,7 @@ ptBR = "Outras"
 koKR = "기타"
 csCZ = "Alte"
 viVN = "Khác"
+trTR = "Diğer"
 
 ["ToolGroups.Paths"]
 raw = "Drumuri și structuri"
@@ -31388,6 +31636,7 @@ ptBR = "Trilhas e estruturas"
 koKR = "경로 및 구조"
 csCZ = "Cesty a struktury"
 viVN = "Đường và cấu trúc"
+trTR = "Yollar ve yapılar"
 
 ["ToolGroups.Power"]
 raw = "Energie"
@@ -31404,6 +31653,7 @@ ptBR = "Energia"
 koKR = "에너지"
 csCZ = "Energie"
 viVN = "Năng lượng"
+trTR = "Enerji"
 
 ["ToolGroups.Priority"]
 raw = "Priorități"
@@ -31420,6 +31670,7 @@ ptBR = "Prioridades"
 koKR = "우선순위"
 csCZ = "Prioritní"
 viVN = "Ưu tiên"
+trTR = "Öncelikler"
 
 ["ToolGroups.Ruins"]
 raw = "Ruine"
@@ -31436,6 +31687,7 @@ ptBR = "Ruínas"
 koKR = "유적"
 csCZ = "Zřícenina"
 viVN = "Phế tích"
+trTR = "Harabe"
 
 ["ToolGroups.Science"]
 raw = "Ştiinţă"
@@ -31452,6 +31704,7 @@ ptBR = "Ciência"
 koKR = "과학"
 csCZ = "Věda"
 viVN = "Khoa học"
+trTR = "Bilim"
 
 ["ToolGroups.Storage"]
 raw = "Depozitare"
@@ -31468,6 +31721,7 @@ ptBR = "Armazenamento"
 koKR = "저장"
 csCZ = "Skladování"
 viVN = "Depozitare"
+trTR = "Depozitare"
 
 ["ToolGroups.TreeCutting"]
 raw = "Taie copaci"
@@ -31484,6 +31738,7 @@ ptBR = "Cutting Trees"
 koKR = "나무 자르기"
 csCZ = "Kácení stromů"
 viVN = "Taie cây"
+trTR = "Ağaçları kes"
 
 ["ToolGroups.Water"]
 raw = "Apă"
@@ -31500,6 +31755,7 @@ ptBR = "Água"
 koKR = "물"
 csCZ = "Vodní"
 viVN = "Water"
+trTR = "Su"
 
 ["ToolGroups.Wood"]
 raw = "Lemn"
@@ -31516,6 +31772,7 @@ ptBR = "Lumber"
 koKR = "나무"
 csCZ = "Dřevo"
 viVN = "Lumber"
+trTR = "Ahşap"
 
 ["TopBar.Badwater"]
 raw = "Apă contaminată"
@@ -31532,6 +31789,7 @@ ptBR = "Água contaminada"
 koKR = "오염된 물"
 csCZ = "Kontaminovaná voda"
 viVN = "Apă ô nhiễm"
+trTR = "Kirlian Su"
 
 ["TopBar.Food"]
 raw = "Mâncare"
@@ -31548,6 +31806,7 @@ ptBR = "Comida"
 koKR = "음식"
 csCZ = "Jídlo"
 viVN = "Món ăn"
+trTR = "Yiyecek"
 
 ["TopBar.GoodStockpileTooltip.Inputs"]
 raw = "Intrări"
@@ -31564,6 +31823,7 @@ ptBR = "Entradas"
 koKR = "입력"
 csCZ = "Vstupy"
 viVN = "Nguyên liệu đầu vào"
+trTR = "Girdi"
 
 ["TopBar.GoodStockpileTooltip.Outputs"]
 raw = "Rezultate"
@@ -31580,6 +31840,7 @@ ptBR = "Resultados"
 koKR = "결과"
 csCZ = "Výstupy"
 viVN = "Kết quả"
+trTR = "Sonuçlar"
 
 ["TopBar.GoodStockpileTooltip.Stockpiles"]
 raw = "Depozitare"
@@ -31596,6 +31857,7 @@ ptBR = "Depósito"
 koKR = "저장소"
 csCZ = "Depozitář"
 viVN = "Kho hàng"
+trTR = "Depozit"
 
 ["TopBar.Ingredients"]
 raw = "Ingrediente"
@@ -31612,6 +31874,7 @@ ptBR = "Ingrediente"
 koKR = "재료"
 csCZ = "Ingredience"
 viVN = "Nguyên liệu"
+trTR = "Malzemeler"
 
 ["TopBar.Logs"]
 raw = "Bușteni"
@@ -31628,6 +31891,7 @@ ptBR = "Troncos"
 koKR = "통나무"
 csCZ = "Bušty"
 viVN = "Khúc gỗ"
+trTR = "Kütükler"
 
 ["TopBar.Materials"]
 raw = "Materiale"
@@ -31644,6 +31908,7 @@ ptBR = "Materiais"
 koKR = "재료"
 csCZ = "Materiály"
 viVN = "Vật liệu"
+trTR = "Malzeme"
 
 ["TopBar.Nothing"]
 raw = "Nimic"
@@ -31660,6 +31925,7 @@ ptBR = "Nada"
 koKR = "없음"
 csCZ = "Nic"
 viVN = "Không có gì"
+trTR = "Hiçbir şey"
 
 ["TopBar.Science"]
 raw = "Ştiinţă"
@@ -31676,6 +31942,7 @@ ptBR = "Ciência"
 koKR = "과학"
 csCZ = "Věda"
 viVN = "Khoa học"
+trTR = "Bilim"
 
 ["TopBar.Water"]
 raw = "Apă"
@@ -31692,6 +31959,7 @@ ptBR = "Água"
 koKR = "물"
 csCZ = "Voda"
 viVN = " nước "
+trTR = "Su"
 
 ["TreeCuttingSelectionTool.Description"]
 raw = "Folosește acest instrument pentru a marca zonele unde vor fi tăiați copacii."
@@ -31708,6 +31976,7 @@ ptBR = "Use esta ferramenta para marcar as áreas onde as árvores serão cortad
 koKR = "이 도구를 사용하여 나무를 베어낼 지역을 표시하십시오."
 csCZ = "Použijte tento nástroj k označení oblastí, kde budou stromy pokáceny."
 viVN = "Sử dụng công cụ này để đánh dấu các khu vực nơi cây sẽ bị chặt."
+trTR = "Bu aracı, ağaçların kesileceği alanları işaretlemek için kullan."
 
 ["TreeCuttingSelectionTool.Title"]
 raw = "Marcați zona de tăiere a copacilor"
@@ -31724,6 +31993,7 @@ ptBR = "Marcar área de corte de árvores"
 koKR = "나무 베기 구역 표시하기"
 csCZ = "Vyberte oblast pro kácení stromů"
 viVN = "Chọn khu vực chặt cây"
+trTR = "Ağaç kesme alanını işaretleyin"
 
 ["TreeCuttingUnselectionTool.Description"]
 raw = "Folosește acest instrument pentru a demarca zonele în care vor fi tăiați copacii."
@@ -31740,6 +32010,7 @@ ptBR = "Use esta ferramenta para demarcar as áreas onde as árvores serão cort
 koKR = "이 도구를 사용하여 나무가 베어질 구역을 표시하세요."
 csCZ = "Použijte tento nástroj k vymezení oblastí, kde budou stromy pokáceny."
 viVN = "Sử dụng công cụ này để đánh dấu các khu vực nơi sẽ chặt cây."
+trTR = "Bu aracı, ağaçların kesileceği bölgeleri işaretlemek için kullanın."
 
 ["TreeCuttingUnselectionTool.Title"]
 raw = "Demarcați zona de tăiere a copacilor"
@@ -31756,6 +32027,7 @@ ptBR = "Demarcando a área de corte de árvores"
 koKR = "나무 베기 구역 표시"
 csCZ = "Vyberte oblast těžení stromů"
 viVN = "Đánh dấu khu vực cắt cây"
+trTR = "Ağaç kesim alanını işaretleyin"
 
 ["Tutorial.Badtides"]
 raw = "Maree rele"
@@ -31772,6 +32044,7 @@ ptBR = "Maree rele"
 koKR = "나쁜 조수"
 csCZ = "Maree rele"
 viVN = "Mực nước dâng"
+trTR = "Zayıf Gelgit"
 
 ["Tutorial.Badtides.Description"]
 raw = "Așezarea ta a trecut cu bine de prima maree rea.\n\nLa fel ca secetele, mareele rea fac parte din ciclul sezonier.\n\nMareele rea viitoare nu vor fi la fel de iertătoare, așa că fii atent."
@@ -31788,6 +32061,7 @@ ptBR = "Sua colônia sobreviveu bem à primeira maré ruim.\n\nAssim como as sec
 koKR = "당신의 정착지는 첫 번째 나쁜 조수를 무사히 넘겼습니다.\n\n가뭄과 마찬가지로 나쁜 조수는 계절 주기의 일부입니다.\n\n앞으로의 나쁜 조수는 그렇게 관대하지 않을 것이니 주의하세요."
 csCZ = "Tvá osada úspěšně přežila první špatný příliv.\n\nStejně jako sucha, špatné přílivy jsou součástí sezónního cyklu.\n\nNásledující špatné přílivy nebudou tak shovívavé, takže buď opatrný."
 viVN = "Định cư của bạn đã vượt qua được cơn thủy triều xấu đầu tiên.\n\nGiống như hạn hán, thủy triều xấu là một phần của vòng tuần hoàn theo mùa.\n\nCác cơn thủy triều xấu tiếp theo sẽ không dễ chịu như vậy, vì vậy hãy cẩn thận."
+trTR = "Yerleşiminiz ilk kötü gelgitin üstesinden başarıyla geldi.\n\nKuraklıklar gibi, kötü gelgitler de mevsimsel döngünün bir parçasıdır.\n\nGelecek kötü gelgitler bu kadar affedici olmayacak, bu yüzden dikkatli olun."
 
 ["Tutorial.Basics"]
 raw = "Noțiuni de bază"
@@ -31804,6 +32078,7 @@ ptBR = "Noções básicas"
 koKR = "기본 개념"
 csCZ = "Základy"
 viVN = "Các khái niệm cơ bản"
+trTR = "Temel Bilgiler"
 
 ["Tutorial.Basics.ManagePause"]
 raw = "Jocul poate fi întrerupt în orice moment, ceea ce te ajută să evaluezi situația și să planifici lucrurile."
@@ -31820,6 +32095,7 @@ ptBR = "O jogo pode ser pausado a qualquer momento, o que te ajuda a avaliar a s
 koKR = "게임은 언제든지 일시 중지할 수 있으며, 이를 통해 상황을 평가하고 계획을 세울 수 있습니다."
 csCZ = "Hra může být pozastavena kdykoliv, což ti pomůže zhodnotit situaci a naplánovat další kroky."
 viVN = "Trò chơi có thể bị tạm dừng bất cứ lúc nào, điều này giúp bạn đánh giá tình hình và lập kế hoạch cho các công việc."
+trTR = "Oyun her an durdurulabilir, bu da durumu değerlendirmenize ve plan yapmanıza yardımcı olur."
 
 ["Tutorial.Basics.ManageSpeed"]
 raw = "De asemenea, poți crește viteza jocului pentru a reduce timpul de nefuncționare în timp ce castorii tăi lucrează sau dorm."
@@ -31836,6 +32112,7 @@ ptBR = "Além disso, você pode aumentar a velocidade do jogo para reduzir o tem
 koKR = "너의 비버가 일하거나 잠을 자는 동안 다운타임을 줄이기 위해 게임 속도를 높일 수도 있다."
 csCZ = "Také můžeš zvýšit rychlost hry, abys snížil prostoje, když tví bobři pracují nebo spí."
 viVN = "Cũng có thể tăng tốc độ trò chơi để giảm thời gian ngừng hoạt động trong khi những con thủy thủ của bạn làm việc hoặc ngủ."
+trTR = "Ayrıca, işçi veya uyuyan köpeklerinizin boşta kalma süresini azaltmak için oyunun hızını artırabilirsiniz."
 
 ["Tutorial.Basics.MoveCamera"]
 raw = "Mai întâi, haideți să aruncăm o privire prin zonă."
@@ -31852,6 +32129,7 @@ ptBR = "Primeiro, vamos dar uma olhada na área."
 koKR = "먼저, 지역을 살펴봅시다."
 csCZ = "Nejprve se podívejme po okolí."
 viVN = "Đầu tiên, hãy cùng nhìn qua khu vực."
+trTR = "Öncelikle, bölgeye bir göz atalım."
 
 ["Tutorial.Basics.MoveCameraDown"]
 raw = "Mută \u200b\u200bcamera înapoi"
@@ -31868,6 +32146,7 @@ ptBR = "Mutar a câmera para baixo"
 koKR = "카메라를 뒤로 이동"
 csCZ = "Posuňte kameru dolů"
 viVN = "Di chuyển camera xuống"
+trTR = " Kamerayı geriye hareket ettir"
 
 ["Tutorial.Basics.MoveCameraLeft"]
 raw = "Mută \u200b\u200bcamera la stânga"
@@ -31884,6 +32163,7 @@ ptBR = "Movimenta a câmera para a esquerda"
 koKR = "카메라를 왼쪽으로 이동"
 csCZ = "Posuňte kameru doleva"
 viVN = "Di chuyển camera sang trái"
+trTR = "Sağ sola hareket ettir"
 
 ["Tutorial.Basics.MoveCameraRight"]
 raw = "Mută \u200b\u200bcamera la dreapta"
@@ -31900,6 +32180,7 @@ ptBR = "Mutar câmera para a direita"
 koKR = "카메라를 오른쪽으로 이동"
 csCZ = "Posuňte kameru doprava"
 viVN = "Di chuyển camera sang phải"
+trTR = "Sağı kaydır"
 
 ["Tutorial.Basics.MoveCameraUp"]
 raw = "Mută \u200b\u200bcamera înainte"
@@ -31916,6 +32197,7 @@ ptBR = "Mutar câmera para cima"
 koKR = "카메라를 앞으로 이동"
 csCZ = "Posuňte kameru vpřed"
 viVN = "Di chuyển camera lên"
+trTR = "Uzaklaştır kamerasını"
 
 ["Tutorial.Basics.Pause"]
 raw = "Pauză"
@@ -31932,6 +32214,7 @@ ptBR = "Pausar"
 koKR = "일시정지"
 csCZ = "Pauza"
 viVN = "Pauză"
+trTR = "Pauza"
 
 ["Tutorial.Basics.RotateCamera"]
 raw = "Acum, rotiți vizualizarea."
@@ -31948,6 +32231,7 @@ ptBR = "Agora, gire a visualização."
 koKR = "이제 시점을 회전하세요."
 csCZ = "Nyní otočte zobrazení."
 viVN = "Bây giờ, xoay góc nhìn."
+trTR = "Artık görüntüyü döndürün."
 
 ["Tutorial.Basics.RotateCameraLeft"]
 raw = "Rotește camera la stânga"
@@ -31964,6 +32248,7 @@ ptBR = "Rode a câmera para a esquerda"
 koKR = "왼쪽으로 카메라 회전"
 csCZ = "Otáčej kameru doleva"
 viVN = "Xoay camera sang trái"
+trTR = "Kamerayı sola döndür"
 
 ["Tutorial.Basics.RotateCameraRight"]
 raw = "Rotește camera spre dreapta"
@@ -31980,6 +32265,7 @@ ptBR = "Roteie a câmera para a direita"
 koKR = "카메라를 오른쪽으로 회전시킵니다"
 csCZ = "Otáčej kameru doprava"
 viVN = "Rẽ phải camera"
+trTR = "Sağa kamera döndür"
 
 ["Tutorial.Basics.SetSpeed1"]
 raw = "Setați viteza la >"
@@ -31996,6 +32282,7 @@ ptBR = "Defina a velocidade para >"
 koKR = "속도를 >로 설정"
 csCZ = "Nastavte rychlost na >"
 viVN = "Đặt tốc độ thành >"
+trTR = "Viteyi > olarak ayarla"
 
 ["Tutorial.Basics.SetSpeed2"]
 raw = "Setați viteza la >>"
@@ -32012,6 +32299,7 @@ ptBR = "Defina a velocidade para >>"
 koKR = "속도를 >>로 설정하세요"
 csCZ = "Nastavte rychlost na >>"
 viVN = "Đặt tốc độ thành >>"
+trTR = "Hızı >> olarak ayarlayın"
 
 ["Tutorial.Basics.SetSpeed3"]
 raw = "Setați viteza la >>>"
@@ -32028,6 +32316,7 @@ ptBR = "Defina a velocidade para >>>"
 koKR = "속도를 >>>로 설정하십시오."
 csCZ = "Nastavte rychlost na >>>"
 viVN = "Đặt tốc độ thành >>>"
+trTR = "Seti hızı >>>"
 
 ["Tutorial.Basics.Unpause"]
 raw = "Pornește"
@@ -32044,6 +32333,7 @@ ptBR = "Despause"
 koKR = "재개"
 csCZ = "Začni"
 viVN = "Bắt đầu"
+trTR = "Başlat"
 
 ["Tutorial.Basics.ZoomCamera"]
 raw = "Dacă vrei să-ți vezi castorii de aproape sau să obții o vedere mai largă asupra așezării, poți!"
@@ -32060,6 +32350,7 @@ ptBR = "Se você quiser ver seus castores de perto ou ter uma visão mais ampla 
 koKR = "너비를 넓게 보거나, 너의 비버를 가까이에서 보고 싶다면, 할 수 있어!"
 csCZ = "Pokud chceš vidět své bobry zblízka nebo získat širší pohled na osadu, můžeš!"
 viVN = "Nếu bạn muốn nhìn thấy những con hải ly của mình gần hơn hoặc có cái nhìn rộng hơn về khu định cư, bạn có thể!"
+trTR = "Eğer kunduzlarını yakından görmek ya da yerleşimin daha geniş bir görüntüsünü elde etmek istiyorsan, yapabilirsin!"
 
 ["Tutorial.Basics.ZoomCameraIn"]
 raw = "Măriți"
@@ -32076,6 +32367,7 @@ ptBR = "Mari"
 koKR = "확대"
 csCZ = "Zvětšit"
 viVN = "Măriți"
+trTR = "Büyütün"
 
 ["Tutorial.Basics.ZoomCameraOut"]
 raw = "Micșorare"
@@ -32092,6 +32384,7 @@ ptBR = "Zoom Out"
 koKR = "축소"
 csCZ = "Zmenšení"
 viVN = "Thu nhỏ"
+trTR = "Uzaklaştırma"
 
 ["Tutorial.Building"]
 raw = "Construcție: {0} ({1}/{2})"
@@ -32108,6 +32401,7 @@ ptBR = "Construição: {0} ({1}/{2})"
 koKR = "건축: {0} ({1}/{2})"
 csCZ = "Stavba: {0} ({1}/{2})"
 viVN = "Công trình: {0} ({1}/{2})"
+trTR = "Inşaat: {0} ({1}/{2})"
 
 ["Tutorial.ConnectBuilding"]
 raw = "Conectare: {0} ({1}/{2})"
@@ -32124,6 +32418,7 @@ ptBR = "Conexão: {0} ({1}/{2})"
 koKR = "연결: {0} ({1}/{2})"
 csCZ = "Propojení: {0} ({1}/{2})"
 viVN = "Conectare: {0} ({1}/{2})"
+trTR = "Bağlantı: {0} ({1}/{2})"
 
 ["Tutorial.Continue"]
 raw = "Continuă"
@@ -32140,6 +32435,7 @@ ptBR = "Continuar"
 koKR = "계속"
 csCZ = "Pokračovat"
 viVN = "Tiếp tục"
+trTR = "Devam et"
 
 ["Tutorial.Dams"]
 raw = "Baraje"
@@ -32156,6 +32452,7 @@ ptBR = "Barragens"
 koKR = "댐"
 csCZ = "Baráže"
 viVN = "Đập"
+trTR = "Barajlar"
 
 ["Tutorial.Dams.BuildDam"]
 raw = "Depozitarea apei în rezervoare menține castorii hidratați, dar supraviețuirea pe termen lung depinde de controlul fluxului de apă.\n\nConstruiți un șir de baraje de-a lungul celui mai apropiat râu, de la un mal la altul, și observați ce se întâmplă."
@@ -32172,6 +32469,7 @@ ptBR = "Armazenar água em reservatórios mantém os castores hidratados, mas a 
 koKR = "저수지에 물을 저장하면 비버가 수분을 유지할 수 있지만 장기적인 생존은 물의 흐름 제어에 달려 있습니다.\n\n가장 가까운 강을 따라 양쪽 기슭에서 댐을 세우고 무슨 일이 일어나는지 관찰하십시오."
 csCZ = "Uskladnění vody v nádržích udržuje bobry hydratované, ale dlouhodobé přežití závisí na kontrole toku vody.\n\nPostavte řadu hrází podél nejbližší řeky, od břehu k břehu, a sledujte, co se stane."
 viVN = "Việc lưu trữ nước trong các bể chứa giữ cho những con nhím được cung cấp nước, nhưng sự sống lâu dài phụ thuộc vào việc kiểm soát dòng chảy của nước.\n\nXây dựng một dãy đập dọc theo con sông gần nhất, từ bờ này sang bờ kia, và quan sát những gì xảy ra."
+trTR = "Su rezervuarlarında su depolamak, kunduzları nemli tutar, ancak uzun vadeli hayatta kalma su akışını kontrol etmeye bağlıdır.\n\nEn yakın nehri bir uçtan diğer uca bir dizi baraj inşa edin ve ne olduğunu izleyin."
 
 ["Tutorial.DecreaseWorkplacePriority"]
 raw = "Reduce prioritatea locului de muncă: {0}"
@@ -32188,6 +32486,7 @@ ptBR = "Reduzir a prioridade do local de trabalho: {0}"
 koKR = "작업장 우선순위 감소: {0}"
 csCZ = "Snižte prioritu pracovního místa: {0}"
 viVN = "Giảm ưu tiên nơi làm việc: {0}"
+trTR = "Çalışma yerinin önceliğini azaltın: {0}"
 
 ["Tutorial.Disable"]
 raw = "Dezactivați tutorialul"
@@ -32204,6 +32503,7 @@ ptBR = "Desative o tutorial"
 koKR = "튜토리얼 비활성화"
 csCZ = "Dezaktivujte tutoriál"
 viVN = "Vô hiệu hóa hướng dẫn"
+trTR = "Tutorialu devre dışı bırak"
 
 ["Tutorial.DisablePrompt"]
 raw = "Sigur vrei să dezactivezi tutorialul?\nÎl poți reactiva mai târziu în setări."
@@ -32220,6 +32520,7 @@ ptBR = "Tem certeza de que deseja desativar o tutorial? Você pode reativá-lo m
 koKR = "튜토리얼을 비활성화하시겠습니까?\n나중에 설정에서 다시 활성화할 수 있습니다."
 csCZ = "Opravdu chceš deaktivovat tutoriál? Můžeš ho později znovu aktivovat v nastavení."
 viVN = "Bạn có chắc chắn muốn tắt hướng dẫn không?\nBạn có thể kích hoạt lại sau trong cài đặt."
+trTR = "İnteraktif öğreticiyi devre dışı bırakmak istediğinden emin misin? İstediğinde ayarlardan tekrar etkinleştirebilirsin."
 
 ["Tutorial.Droughts"]
 raw = "Secete"
@@ -32236,6 +32537,7 @@ ptBR = "Secete"
 koKR = "가뭄"
 csCZ = "Secete"
 viVN = "Secete"
+trTR = "Kuraklık"
 
 ["Tutorial.Droughts.Description"]
 raw = "Felicitări! Așezarea ta a supraviețuit primei secete.\n\nSecetele fac parte din ciclul sezonier. Vor reveni și vor deveni mai lungi în timp.\n\nDacă nu ai făcut-o deja, începe să te pregătești pentru următoarea construind un baraj."
@@ -32252,6 +32554,7 @@ ptBR = "Parabéns! Sua colônia sobreviveu à primeira seca.\n\nAs secas fazem p
 koKR = "축하합니다! 당신의 정착지가 첫 번째 가뭄을 극복했습니다.\n\n가뭄은 계절 주기의 일부입니다. 다시 나타날 것이며 시간이 지남에 따라 더 길어질 것입니다.\n\n아직 준비하지 않았다면, 댐을 건설하여 다음 가뭄에 대비하기 시작하세요."
 csCZ = "Gratulujeme! Vaše osada přežila první sucho.\n\nSucha jsou součástí sezónního cyklu. Vrátí se a s časem se prodlouží.\n\nPokud jste to ještě neudělali, začněte se připravovat na další tím, že postavíte hráz."
 viVN = "Xin chúc mừng! Khu định cư của bạn đã sống sót qua cơn hạn hán đầu tiên.\n\nHạn hán là một phần của chu kỳ theo mùa. Chúng sẽ trở lại và kéo dài hơn theo thời gian.\n\nNếu bạn chưa làm điều đó, hãy bắt đầu chuẩn bị cho lần hạn hán tiếp theo bằng cách xây dựng một đập."
+trTR = "Tebrikler! Yerleşimin ilk kuraklıktan sağ çıktı.\n\nKuraklıklar mevsim döngüsünün bir parçasıdır. Tekrar geri gelecekler ve zamanla daha uzun hale gelecekler.\n\nEğer yapmadıysan, bir baraj inşa ederek bir sonraki kuraklığa hazırlanmaya başla."
 
 ["Tutorial.Forestry"]
 raw = "Silvicultură"
@@ -32268,6 +32571,7 @@ ptBR = "Silvicultura"
 koKR = "임업"
 csCZ = "Lesnictví"
 viVN = "Silvicultură"
+trTR = "Silvicultură"
 
 ["Tutorial.Forestry.Forester"]
 raw = "Castorii au nevoie de o sursă stabilă de bușteni. Evident.\n\nFolosind Puncte de Știință produse de Inventatorul tău, deblochează Pădurarul. Apoi construiește-l într-o zonă în care vrei să plantezi copaci."
@@ -32284,6 +32588,7 @@ ptBR = "Os castores precisam de uma fonte estável de toras. Obviamente.\n\nUsan
 koKR = "비버는 안정적인 통나무 공급원이 필요합니다. 명백히.\n\n당신의 발명가가 생산한 과학 포인트를 사용하여 임업인을 잠금 해제하세요. 그런 다음 나무를 심고 싶은 지역에 그를 건설하세요."
 csCZ = "Bobři potřebují stabilní zdroj kmenů. Samozřejmě.\n\nPomocí vědeckých bodů získaných od svého vynálezce odemkni Dřevaře. Poté jej postav v oblasti, kde chceš sázet stromy."
 viVN = "Những con hải ly cần một nguồn cung cấp gỗ ổn định. Rõ ràng.\n\nSử dụng Điểm Khoa Học do Nhà phát minh của bạn sản xuất, mở khóa Lâm nghiệp viên. Sau đó, xây dựng nó ở khu vực mà bạn muốn trồng cây."
+trTR = "Kirpilerin sürekli bir ağaç kaynağına ihtiyacı var. Bu belirgin.\n\nMucit tarafından üretilen Bilim Puantlarını kullanarak, Ormancıyı aç. Daha sonra, ağaç dikmek istediğin bir alana inşa et."
 
 ["Tutorial.Forestry.MarkBirchesForPlanting"]
 raw = "Folosește instrumentul „Plantează copaci și arbuști” pentru a planta mesteacăni. Aceștia cresc repede, ceea ce îi face o alegere bună într-o așezare aflată la început de drum.\n\n\nLa fel ca în cazul culturilor, copacii cresc doar pe zone verzi irigate.\n\n\nNu uita să marchezi zonele de plantare pentru tăiere."
@@ -32300,6 +32605,7 @@ ptBR = "Use a ferramenta 'Plantar árvores e arbustos' para plantar bétulas. El
 koKR = "‘나무 및 관목 심기’ 도구를 사용하여 자작나무를 심으세요. 이들은 빠르게 자라기 때문에 시작 단계의 정착지에 좋은 선택입니다.\n\n작물과 마찬가지로 나무는 관개된 녹지 지역에서만 자랍니다.\n\n벌목을 위한 식재 구역을 표시하는 것을 잊지 마세요."
 csCZ = "Použij nástroj „Sázení stromů a keřů“ k výsadbě bříz. Ty rostou rychle, což je činí dobrou volbou na začátku rozvoje osady.\n\nStejně jako u plodin stromy rostou pouze na zavlažovaných zelených plochách.\n\nNezapomeň označit plochy pro výsadbu na pokácení."
 viVN = "Sử dụng công cụ 'Trồng cây và bụi cây' để trồng cây bạch dương. Chúng phát triển nhanh, khiến chúng trở thành lựa chọn tốt trong một khu định cư mới bắt đầu.\n\nTương tự như cây trồng, cây cối chỉ phát triển trên các khu vực xanh có tưới tiêu.\n\nĐừng quên đánh dấu các khu vực trồng để cắt tỉa."
+trTR = "Ağaç ve çalı dikme aracını kullanarak huş ağaçları dikin. Hızla büyüdükleri için, yeni başlayan bir yerleşim için iyi bir seçimdir. \n\nÜrünler gibi, ağaçlar da yalnızca sulanan yeşil alanlarda yetişir. \n\nKesim için dikim alanlarını işaretlemeyi unutmayın."
 
 ["Tutorial.HaulersAndWorkforce"]
 raw = "Transportatori și forță de muncă"
@@ -32316,6 +32622,7 @@ ptBR = "Transportadores e força de trabalho"
 koKR = "운송 담당자 및 인력"
 csCZ = "Nositelé a pracovní síla"
 viVN = "Vận chuyển và lực lượng lao động"
+trTR = "Taşeronlar ve iş gücü"
 
 ["Tutorial.HaulersAndWorkforce.BuildHaulingPost"]
 raw = "Pe măsură ce așezarea ta se extinde, aceasta procesează cantități mai mari de mărfuri. Transportul acestora ocupă o parte semnificativă din ziua muncitorilor tăi.\n\nTransportatorii ajută la asta. Ei mută mărfurile în întregul district, în funcție de cerere.\n\nHai să construim acum un Post de Transport."
@@ -32332,6 +32639,7 @@ ptBR = "Conforme sua colônia se expande, ela processa quantidades maiores de me
 koKR = " settlement이 확장됨에 따라 더 많은 양의 상품을 처리하게 됩니다. 이러한 상품의 운반은 노동자의 하루 중 상당한 시간을 차지합니다.\n\n운송인들이 이를 도와줍니다. 그들은 수요에 따라 지역 전체에서 상품을 이동시킵니다.\n\n이제 운송소를 세워봅시다."
 csCZ = "Jak se vaše osada rozrůstá, zpracovává větší množství zboží. Transport těchto zásob zabírá významnou část pracovní doby vašich dělníků.\n\nPřepravci s tím pomáhají. Přesouvají zboží po celém okrese podle poptávky.\n\nTeď postavme Transportní stanici."
 viVN = "Khi khu định cư của bạn mở rộng, nó xử lý khối lượng hàng hóa lớn hơn. Việc vận chuyển chúng chiếm một phần đáng kể trong ngày làm việc của công nhân của bạn.\n\nNhững người vận chuyển giúp điều đó. Họ di chuyển hàng hóa trong toàn khu vực, tùy thuộc vào nhu cầu.\n\nHãy cùng xây dựng một Bưu điện Vận chuyển ngay bây giờ."
+trTR = "Yerleşimin genişledikçe, daha fazla mal işlenir. Bunların taşınması işçilerin gününün önemli bir kısmını kaplar.\n\nTaşımacılar buna yardımcı olur. İhtiyaca bağlı olarak, eşyaları bölge boyunca taşırlar.\n\nŞimdi bir Taşıma Postası inşa edelim."
 
 ["Tutorial.HaulersAndWorkforce.ChangeWorkforce"]
 raw = "Unele locuri de muncă, cum ar fi Punctele de Transport, nu își ocupă toate locurile de muncă în mod implicit. Puteți modifica numărul de muncitori în panoul unei clădiri.\n\nDe asemenea, puteți controla modul în care sunt ocupate clădirile cu personal folosind prioritățile locului de muncă. De exemplu, Punctul de Transport poate fi de obicei setat la o prioritate mai mică a locului de muncă.\n\nSă încercăm acum."
@@ -32348,6 +32656,7 @@ ptBR = "Alguns locais de trabalho, como os Pontos de Transporte, não ocupam tod
 koKR = "일부 작업, 예를 들어 물류 센터는 기본적으로 모든 작업 자리를 채우지 않습니다. 건물 패널에서 근로자 수를 수정할 수 있습니다.\n\n또한 작업 우선 순위를 사용하여 건물의 인력 배치를 조정할 수 있습니다. 예를 들어, 물류 센터는 일반적으로 더 낮은 작업 우선 순위로 설정될 수 있습니다.\n\n자, 이제 시도해 보겠습니다."
 csCZ = "Některá pracovní místa, jako jsou Dopravní Body, implicitně nezaplní všechna pracovní místa. Můžete změnit počet pracovníků v panelu budovy.\n\nTaké můžete kontrolovat, jak jsou budovy obsazovány personálem pomocí pracovních priorit. Například Dopravní Bod může být obvykle nastaven na nižší prioritu pracovní pozice.\n\nTeď to zkusme."
 viVN = "Các công việc nhất định, như Điểm Vận Chuyển, không tự động lấp đầy tất cả các vị trí trong lúc ban đầu. Bạn có thể thay đổi số lượng công nhân trong bảng điều khiển của một tòa nhà.\n\nBạn cũng có thể kiểm soát cách mà các tòa nhà được lấp đầy với nhân sự bằng cách sử dụng mức ưu tiên công việc. Ví dụ, Điểm Vận Chuyển thường có thể được thiết lập với mức ưu tiên công việc thấp hơn.\n\nBây giờ hãy thử nhé."
+trTR = "İş yerlerinden bazıları, taşımacılık noktaları gibi, varsayılan olarak tüm iş yerlerini doldurmaz. Bir binanın panelinde işçi sayısını değiştirebilirsiniz.\n\nAyrıca, iş öncelikleri kullanarak binaların nasıl personelle doldurulduğunu kontrol edebilirsiniz. Örneğin, Taşımacılık Noktası genellikle daha düşük bir iş önceliğine ayarlanabilir.\n\nŞimdi deneyelim."
 
 ["Tutorial.HaulersAndWorkforce.PauseHaulingPost"]
 raw = "Puteți întrerupe clădirile și șantierele de construcții. Acest lucru vă oferă mai mult control asupra acțiunilor castorilor.\n\nDe exemplu, locurile de muncă întrerupte sunt eliberate automat, iar muncitorii se reatribuie la alte locuri de muncă disponibile.\n\nSelectați Punctul de Transport și întrerupeți-l făcând clic pe butonul din panoul său."
@@ -32364,6 +32673,7 @@ ptBR = "Você pode interromper edifícios e canteiros de obras. Isso lhe dá mai
 koKR = "건물과 건설 현장을 일시 중지할 수 있습니다. 이렇게 하면 비버의 행동을 더 잘 제어할 수 있습니다.\n\n예를 들어, 일시 중지된 작업은 자동으로 해제되며, 근로자는 다른 사용 가능한 작업에 재배치됩니다.\n\n운송 지점을 선택하고 패널의 버튼을 클릭하여 일시 중지하세요."
 csCZ = "Můžete pozastavit budovy a staveniště. To vám dává větší kontrolu nad akcemi bobrů.\n\nNapříklad pozastavená pracovní místa jsou automaticky uvolněna a dělníci jsou přiděleni k jiným dostupným pracovním místům.\n\nVyberte Transportní bod a pozastavte ho kliknutím na tlačítko v jeho panelu."
 viVN = "Bạn có thể tạm dừng các tòa nhà và công trình xây dựng. Điều này mang lại cho bạn nhiều quyền kiểm soát hơn đối với hành động của những con hải ly.\n\nVí dụ, các công việc bị tạm dừng sẽ tự động được giải phóng, và công nhân sẽ được phân công lại cho các công việc khác có sẵn.\n\nChọn Điểm Vận Chuyển và tạm dừng nó bằng cách nhấp vào nút trong bảng điều khiển của nó."
+trTR = "Binaları ve inşaat alanlarını duraklatabilirsiniz. Bu, kunduzların eylemleri üzerinde daha fazla kontrol sağlar.\n\nÖrneğin, duraklatılan işyerleri otomatik olarak serbest bırakılır ve işçiler diğer mevcut işlere yeniden atanır.\n\nTaşıma Noktasını seçin ve panelindeki düğmeye tıklayarak duraklatın."
 
 ["Tutorial.Housing"]
 raw = "Locuințe"
@@ -32380,6 +32690,7 @@ ptBR = "Habitação"
 koKR = "주택"
 csCZ = "Bydlení"
 viVN = "Nhà ở"
+trTR = "Konaklama"
 
 ["Tutorial.Housing.Lodges"]
 raw = "Doi castori sunt mai buni decât unul! Casele îmbunătățesc bunăstarea castorilor tăi și permit populației tale de castori să crească.\n\nCastorii se atribuie automat locurilor de locuit disponibile."
@@ -32396,6 +32707,7 @@ ptBR = "Dois castores são melhores que um! As casas melhoram o bem-estar dos se
 koKR = "두 마리 비버가 한 마리보다 낫습니다! 주택은 비버의 복지를 향상시키고 비버 인구의 성장을 허용합니다.\n\n비버는 자동으로 사용 가능한 거주지에 배정됩니다."
 csCZ = "Dva bobři jsou lepší než jeden! Domky zlepšují pohodu tvých bobrů a umožňují tvé populaci bobrů růst.\n\nBobři se automaticky přidělují k dostupným obytným místům."
 viVN = "“Đôi con chồn tốt hơn một! Các ngôi nhà cải thiện phúc lợi cho những con chồn của bạn và cho phép dân số chồn của bạn phát triển.\n\nChồn sẽ tự động được phân bổ vào các chỗ ở còn trống.”"
+trTR = "İki kunduz birden iyidir! Evler kunduzlarınızın refahını artırır ve kunduz popülasyonunuzun büyümesine izin verir. \n\nKunduzlar, mevcut konutlara otomatik olarak yerleştirilir."
 
 ["Tutorial.IncreaseDesiredWorkers"]
 raw = "Creșteți numărul de muncitori doriți: {0}"
@@ -32412,6 +32724,7 @@ ptBR = "Increase o número de trabalhadores desejados: {0}"
 koKR = "원하는 노동자 수를 늘리십시오: {0}"
 csCZ = "Zvyšte požadovaný počet pracovníků: {0}"
 viVN = "Tăng số lượng công nhân mong muốn: {0}"
+trTR = "İstenen işçi sayısını artırın: {0}"
 
 ["Tutorial.Introduction.Description"]
 raw = "Bun venit la Timberborn! Acest tutorial te va ajuta să-ți pui gheața în pustiu și să supraviețuiești primelor zile.\n\nVei învăța cum să folosești uneltele necesare pentru a construi o comunitate prosperă de castori.\n\nPe măsură ce progresezi prin următorii pași, sfaturile vor apărea aici."
@@ -32428,6 +32741,7 @@ ptBR = "Bem-vindo ao Timberborn! Este tutorial irá ajudá-lo a se estabelecer n
 koKR = "Timberborn에 오신 것을 환영합니다! 이 튜토리얼은 당신이 황무지에서 얼음을 켜고 첫날을 생존하는 데 도움이 될 것입니다.\n\n당신은 번영하는 비버 공동체를 구축하는 데 필요한 도구를 사용하는 방법을 배울 것입니다.\n\n다음 단계를 진행하면서 팁이 여기 나타날 것입니다."
 csCZ = "Vítej v Timberbornu! Tento tutoriál ti pomůže dostat se z ledu do pouště a přežít první dny.\n\nNaučíš se, jak používat nástroje potřebné k vybudování prosperující komunity bobrů.\n\nJak budeš postupovat dalšími kroky, tipy se zde objeví."
 viVN = "Chào mừng đến với Timberborn! Hướng dẫn này sẽ giúp bạn đặt nền tảng trong hoang dã và sống sót qua những ngày đầu.\n\nBạn sẽ học cách sử dụng các công cụ cần thiết để xây dựng một cộng đồng hạt phỉ thịnh vượng.\n\nKhi bạn tiến bộ qua các bước tiếp theo, các mẹo sẽ xuất hiện ở đây."
+trTR = "Timberborn'a hoş geldin! Bu eğitim, çölün içinde buzunu yerleştirmenize ve ilk günlerde hayatta kalmanıza yardımcı olacak.\n\nİyi bir kunduz topluluğu kurmak için gerekli aletleri nasıl kullanacağınızı öğreneceksiniz.\n\nSonraki adımlara geçtikçe, ipuçları burada belirecek."
 
 ["Tutorial.LayerTool.ChangeUsingMouse"]
 raw = "Puteți controla stratul vizibil fără a face clic pe butoane cu ajutorul combinațiilor de taste personalizabile.\n\nMulte alte acțiuni au și combinații de taste. Le puteți găsi în sfaturile instrumentale sau în meniul Setări."
@@ -32444,6 +32758,7 @@ ptBR = "Você pode controlar a camada visível sem clicar em botões usando comb
 koKR = "마우스를 사용하여 클릭 없이도 볼 수 있는 레이어를 제어할 수 있습니다. \n\n많은 다른 동작에도 단축키가 있습니다. 이들은 도구 설명이나 설정 메뉴에서 확인할 수 있습니다."
 csCZ = "Můžete ovládat viditelnou vrstvu bez kliknutí na tlačítka pomocí přizpůsobitelných klávesových zkratek.\n\nMnoho dalších akcí má také klávesové zkratky. Můžete je najít v nápovědách nebo v nabídce Nastavení."
 viVN = "Bạn có thể điều khiển lớp hiển thị mà không cần nhấp vào nút bằng cách sử dụng các tổ hợp phím tùy chỉnh.\n\nNhiều hành động khác cũng có tổ hợp phím. Bạn có thể tìm thấy chúng trong các mẹo công cụ hoặc trong menu Cài đặt."
+trTR = "Fareleri kullanarak, butonlara tıklamadan görünür katmanı kontrol edebilirsiniz, özelleştirilebilir kısayol tuşları ile.\n\nBirçok başka eylemin de kısayol tuşları bulunmaktadır. Bunları ipucu balonlarında veya Ayarlar menüsünde bulabilirsiniz."
 
 ["Tutorial.LayerTool.ChangeUsingUI"]
 raw = "Pe măsură ce așezarea crește pe verticală, lucrul sub clădiri și teren poate deveni dificil.\n\nInstrumentul Strat ajută în acest sens, ascunzând tot ce se află deasupra stratului selectat.\n\nSă schimbăm stratul vizibil făcând clic pe butoanele evidențiate."
@@ -32460,6 +32775,7 @@ ptBR = "Conforme a colônia cresce verticalmente, trabalhar sob edifícios e ter
 koKR = "정착지가 수직으로 성장함에 따라 건물과 땅 아래에서 작업하는 것이 어려워질 수 있습니다.\n\n레이어 도구는 선택된 레이어 위에 있는 모든 것을 숨겨서 이 문제를 도와줍니다.\n\n하이라이트된 버튼을 클릭하여 보이는 레이어를 변경해 봅시다."
 csCZ = "Jak se osídlení rozrůstá vertikálně, práce pod budovami a terénem může být obtížná.\n\nNástroj vrstvy pomáhá tím, že skryje vše, co se nachází nad vybranou vrstvou.\n\nZměňme viditelnou vrstvu kliknutím na zvýrazněná tlačítka."
 viVN = "Khi khu định cư phát triển theo chiều thẳng đứng, việc làm việc dưới các tòa nhà và mặt đất có thể trở nên khó khăn.\n\nCông cụ Lớp giúp ích điều này, ẩn đi mọi thứ phía trên lớp đã chọn.\n\nHãy thay đổi lớp hiển thị bằng cách nhấp vào các nút được làm nổi bật."
+trTR = "Yerleşim dikey olarak büyüdükçe, binaların ve arazinin altında çalışmak zorlaşabilir.\n\nKatman aracı bu konuda yardımcı olur, seçilen katmanın üzerindeki her şeyi gizler.\n\nGörünür katmanı vurgulanan düğmelere tıklayarak değiştirelim."
 
 ["Tutorial.LayerTool.Decrease"]
 raw = "Coborâți stratul vizibil la 0"
@@ -32476,6 +32792,7 @@ ptBR = "Cole a camada visível para 0"
 koKR = "가시 층을 0으로 낮추기"
 csCZ = "Snižte viditelnou vrstvu na 0"
 viVN = "Giảm lớp nhìn thấy xuống 0"
+trTR = "Görünür katmanı 0'a indirin"
 
 ["Tutorial.LayerTool.Increase"]
 raw = "Ridică stratul vizibil"
@@ -32492,6 +32809,7 @@ ptBR = "Levantar camada visível"
 koKR = "보이는 층을 높이기"
 csCZ = "Zvyšte viditelnou vrstvu"
 viVN = "Nâng cao lớp hiển thị"
+trTR = "Görünür katmanı artır"
 
 ["Tutorial.LayerTool"]
 raw = "Instrumentul de stratificare"
@@ -32508,6 +32826,7 @@ ptBR = "Instrumento de Camadas"
 koKR = "층 화 도구"
 csCZ = "Nástroj pro vrstvení"
 viVN = "Công cụ lớp"
+trTR = "Katman Aracı"
 
 ["Tutorial.LayerTool.Reset"]
 raw = "Resetează stratul vizibil"
@@ -32524,6 +32843,7 @@ ptBR = "Resetează stratul visível"
 koKR = "가시적인 레이어를 재설정합니다"
 csCZ = "Obnovit viditelnou vrstvu"
 viVN = "Resetează stratul vizibil"
+trTR = "Görünür katmanı sıfırla"
 
 ["Tutorial.MarkPlantables"]
 raw = "Plantă: {0} ({1}/{2})"
@@ -32540,6 +32860,7 @@ ptBR = "Plantão: {0} ({1}/{2})"
 koKR = "식물: {0} ({1}/{2})"
 csCZ = "Rostlina: {0} ({1}/{2})"
 viVN = "Plantă: {0} ({1}/{2})"
+trTR = "Bitki: {0} ({1}/{2})"
 
 ["Tutorial.MarkTrees"]
 raw = "Marcați copacii pentru tăiere."
@@ -32556,6 +32877,7 @@ ptBR = "Marque as árvores para corte."
 koKR = "나무를 베기 위해 표시하세요."
 csCZ = "Vyřežte stromy."
 viVN = "Đánh dấu cây để chặt."
+trTR = "Ağaçları kesim için işaretleyin."
 
 ["Tutorial.MoreBeavers"]
 raw = "Mai mulți castori"
@@ -32572,6 +32894,7 @@ ptBR = "Mais castores"
 koKR = "더 많은 비버"
 csCZ = "Více bobrů"
 viVN = "Thêm nhiều beaver"
+trTR = "Daha Fazla Kunduz"
 
 ["Tutorial.MoreBeavers.BeaverBirth"]
 raw = "Am un pui"
@@ -32588,6 +32911,7 @@ ptBR = "Eu tenho um filhote"
 koKR = "새끼가 태어났어요"
 csCZ = "Mám mládě"
 viVN = "Rồi tôi có một con thú"
+trTR = "Bir yavrum var"
 
 ["Tutorial.MoreBeavers.GrowPopulation"]
 raw = "Castorii nu se reproduc decât dacă există locuri libere pentru adăposturi. Castorii cu coadă populară au nevoie de doi adulți și un loc liber pentru ca magia să se întâmple.\n\n\nSfat: Puii de castor sunt numiți pisici mici."
@@ -32604,6 +32928,7 @@ ptBR = "Os castores só se reproduzem se houver espaços livres para abrigos. Ca
 koKR = "비버는 쉼터를 위한 빈 공간이 있을 때만 번식합니다. 인기 있는 꼬리를 가진 비버는 마법이 일어나기 위해 두 성인과 한 개의 빈 공간이 필요합니다.\n\n팁: 비버의 새끼는 작은 고양이라고 불립니다."
 csCZ = "Bobři se množí pouze pokud jsou volná místa pro úkryty. Bobři se vzácným ocasem potřebují dva dospělé a jedno volné místo, aby se magie stala.\n\nTip: Mláďata bobra se nazývají malí kocouři."
 viVN = "Beavers chỉ sinh sản khi có chỗ trống cho nơi trú ẩn. Những con beaver có đuôi phổ biến cần hai con trưởng thành và một chỗ trống để phép thuật xảy ra.\n\nMẹo: Nhím con được gọi là mèo nhỏ."
+trTR = "Kayıklar yalnızca barınaklar için boş alanlar varsa ürer. Popülaritesi yüksek olan kundaklar, sihrin gerçekleşmesi için iki yetişkine ve bir boş alana ihtiyaç duyar. \n\nİpucu: Yeni doğan kundaklar küçük kedicikler olarak adlandırılır."
 
 ["Tutorial.PauseBuilding"]
 raw = "Pauză: {0}"
@@ -32620,6 +32945,7 @@ ptBR = "Pausar: {0}"
 koKR = "일시 정지: {0}"
 csCZ = "Pauza: {0}"
 viVN = "Ngừng: {0}"
+trTR = "Pauza: {0}"
 
 ["Tutorial.PlaceBuilding"]
 raw = "Loc: {0} ({1}/{2})"
@@ -32636,6 +32962,7 @@ ptBR = "Loc: {0} ({1}/{2})"
 koKR = "위치: {0} ({1}/{2})"
 csCZ = "Loc: {0} ({1}/{2})"
 viVN = "Vị trí: {0} ({1}/{2})"
+trTR = "Konum: {0} ({1}/{2})"
 
 ["Tutorial.PowerAndPlanks"]
 raw = "Putere și scânduri"
@@ -32652,6 +32979,7 @@ ptBR = "Power and planks"
 koKR = "전력과 판자"
 csCZ = "Síla a prkna"
 viVN = "\"Quyền lực và ván\"."
+trTR = "Güç ve plaka"
 
 ["Tutorial.PowerAndPlanks.LumberMill"]
 raw = "E timpul să începeți să produceți scânduri!\n\nConstruiți o moară de cherestea direct lângă roata de apă. O puteți construi și mai departe și o puteți conecta la roata de apă folosind puțuri de alimentare.\n\nSfat: Multe clădiri, cum ar fi fabricile de cherestea și cabanele, își transmit energia una de la alta atunci când sunt așezate perete la perete. Nu sunt necesare puțuri de alimentare!"
@@ -32668,6 +32996,7 @@ ptBR = "É hora de começar a produzir tábuas!\n\nConstrua um moinho de madeira
 koKR = "판재 생산을 시작할 시간입니다!\n\n물레방아 바로 옆에 제재소를 건설하세요. 더 멀리 건설할 수도 있으며, 공급 우물을 사용하여 물레방아에 연결할 수 있습니다.\n\n팁: 제재소와 오두막과 같은 많은 건물들은 벽을 맞대어 배치할 때 서로 에너지를 전달합니다. 공급 우물이 필요하지 않습니다!"
 csCZ = "Je čas začít vyrábět prkna!\n\nPostavte pilu hned vedle vodního kola. Můžete ji postavit i dál a připojit ji k vodnímu kolu pomocí přívodních potrubí.\n\nTip: Mnoho budov, jako jsou pily a chatky, si navzájem předává energii, pokud jsou umístěny vedle sebe. Přívodní potrubí nejsou potřeba!"
 viVN = "Đã đến lúc bạn bắt đầu sản xuất ván!\n\nHãy xây dựng một nhà máy cưa ngay bên cạnh bánh xe nước. Bạn cũng có thể xây dựng nó xa hơn và kết nối với bánh xe nước bằng cách sử dụng các giếng cung cấp.\n\nMẹo: Nhiều tòa nhà, chẳng hạn như nhà máy cưa và cabin, truyền năng lượng cho nhau khi được đặt sát nhau. Không cần thiết phải có giếng cung cấp!"
+trTR = "Artık tahtaların üretimine başlamanın zamanı geldi!\n\nBir su tekerleğinin hemen yanına bir kereste değirmeni inşa edin. Ayrıca daha uzakta bir yere inşa edebilir ve su tekerleğine besleme kuyu kullanarak bağlayabilirsiniz.\n\nİpucu: Kereste fabrikaları ve kulübeler gibi birçok bina, yan yana yerleştirildiğinde enerji aktarımı yapar. Besleme kuyuları gereksizdir!"
 
 ["Tutorial.PowerAndPlanks.WaterWheel"]
 raw = "Clădirile mai avansate necesită energie, iar castorilor le place ca puterea lor să vină din râu.\n\nAșezați o Roată de Apă în apa curgătoare de-a lungul malului râului."
@@ -32684,6 +33013,7 @@ ptBR = "Construções mais avançadas exigem energia, e os castores preferem que
 koKR = "더 발전된 건물은 에너지를 필요로 하며, 비버는 그들의 에너지가 강에서 오는 것을 좋아합니다.\n\n강둑을 따라 흐르는 물속에 수차를 배치하세요."
 csCZ = "Pokročilejší budovy vyžadují energii a bobři mají rádi, když jejich síla pochází z řeky.\n\nUmístěte Vodní kolo do tekoucí vody podél břehu řeky."
 viVN = "Các tòa nhà tiên tiến hơn cần năng lượng, và những con hải ly thích năng lượng của chúng đến từ dòng sông.\n\nHãy đặt một Bánh Xe Nước vào dòng nước chảy dọc theo bờ sông."
+trTR = "Daha gelişmiş binalar enerjiye ihtiyaç duyar ve kunduzlar güçlerinin nehirden gelmesini sever.\n\nNehirin kıyısındaki akarsuya bir Su Tekerleği yerleştirin."
 
 ["Tutorial.PowerBuilding"]
 raw = "Putere: {0} ({1}/{2})"
@@ -32700,6 +33030,7 @@ ptBR = "Potência: {0} ({1}/{2})"
 koKR = "힘: {0} ({1}/{2})"
 csCZ = "Síla: {0} ({1}/{2})"
 viVN = "Quyền lực: {0} ({1}/{2})"
+trTR = "Güç: {0} ({1}/{2})"
 
 ["Tutorial.Progress"]
 raw = "({0}/{1})"
@@ -32716,6 +33047,7 @@ ptBR = "({0}/{1})"
 koKR = "({0}/{1})"
 csCZ = "({0}/{1})"
 viVN = "({0}/{1})"
+trTR = "({0}/{1})"
 
 ["Tutorial.Science"]
 raw = "Ştiinţă"
@@ -32732,6 +33064,7 @@ ptBR = "Ciência"
 koKR = "과학"
 csCZ = "„Věda“"
 viVN = "Khoa học"
+trTR = "Bilim"
 
 ["Tutorial.Science.AccumulateScience"]
 raw = "Acumulează: Puncte științifice ({0}/{1})"
@@ -32748,6 +33081,7 @@ ptBR = "Acumule: Pontos científicos ({0}/{1})"
 koKR = "축적: 과학 점수 ({0}/{1})"
 csCZ = "Akumuluj: Vědecké body ({0}/{1})"
 viVN = "Tích lũy: Điểm khoa học ({0}/{1})"
+trTR = "Biriktir: Bilim Puanları ({0}/{1})"
 
 ["Tutorial.Science.Inventor"]
 raw = "Castorii sunt inginerii lumii animale. E timpul să le transformăm ideile lemnoase în realitate.\n\nConstruiește un Inventator pentru a produce Puncte Științifice."
@@ -32764,6 +33098,7 @@ ptBR = "Os castores são os engenheiros do mundo animal. É hora de transformar 
 koKR = "비버는 동물 세계의 엔지니어입니다. 그들의 나무 아이디어를 현실로 바꿀 시간입니다.\n\n발명가를 건설하여 과학 포인트를 생산하세요."
 csCZ = "„Bobři jsou inženýři zvířecího světa. Je čas proměnit jejich dřevěné nápady ve skutečnost.\n\nPostavte vynálezce, abyste produkovali vědecké body.“"
 viVN = "Castor là kỹ sư của thế giới động vật. Đã đến lúc biến những ý tưởng từ gỗ của chúng thành hiện thực.\n\nXây dựng một Nhà phát minh để sản xuất Điểm Khoa học."
+trTR = "Castorlar hayvanlar aleminin mühendisleridir. Kaynar fikirlerini gerçeğe dönüştürme zamanı.\n\nBilim Puanları üretmek için bir İcatçı inşa et."
 
 ["Tutorial.Science.SciencePoints"]
 raw = "Deocamdată, lăsați Inventatorul să lucreze.\n\nDupă ce acumulați suficiente Puncte de Știință, le vom cheltui pentru a debloca clădiri mai avansate."
@@ -32780,6 +33115,7 @@ ptBR = "Por enquanto, deixe o Inventor trabalhar.\n\nDepois de acumular pontos d
 koKR = "아직은 발명가가 작업하도록 두십시오.\n\n충분한 과학 점수를 축적한 후, 더 고급 건물을 잠금 해제하는 데 사용할 것입니다."
 csCZ = "Zatím nechte Vynálezce pracovat.\n\nJakmile nasbíráte dostatek Bodů Vědy, utratíme je na odemknutí pokročilejších budov."
 viVN = "Hiện tại, hãy để Nhà phát minh làm việc.\n\nSau khi bạn tích lũy đủ Điểm Khoa học, chúng tôi sẽ chi tiêu để mở khóa các tòa nhà tiên tiến hơn."
+trTR = "Şu anda, Mucit'in çalışmasına izin verin.\n\nYeterli Bilim Puanı biriktirdikten sonra, daha gelişmiş binaların kilidini açmak için bunları harcayacağız."
 
 ["Tutorial.Science.Unlock"]
 raw = "Deblocare: {0}"
@@ -32796,6 +33132,7 @@ ptBR = "Desbloqueio: {0}"
 koKR = "잠금 해제: {0}"
 csCZ = "Deblokace: {0}"
 viVN = "Deblocare: {0}"
+trTR = "Açma: {0}"
 
 ["Tutorial.SelectGood"]
 raw = "Setați: {0} la {1} {2}"
@@ -32812,6 +33149,7 @@ ptBR = "Defina: {0} para {1} {2}"
 koKR = "설정: {0}을(를) {1} {2}로"
 csCZ = "Nastavte: {0} na {1} {2}"
 viVN = "Đặt: {0} thành {1} {2}"
+trTR = "Ayarla: {0} {1} {2} değerine"
 
 ["Tutorial.SetWorkingHours"]
 raw = "Setați programul de lucru la {0}"
@@ -32828,6 +33166,7 @@ ptBR = "Defina o horário de trabalho para {0}"
 koKR = "근무 시간을 {0}로 설정하세요."
 csCZ = "Nastavte pracovní dobu na {0}"
 viVN = "Đặt giờ làm việc thành {0}"
+trTR = "Çalışma saatlerini {0} olarak ayarlayın"
 
 ["Tutorial.Storage"]
 raw = "Depozitare"
@@ -32844,6 +33183,7 @@ ptBR = "Depósito"
 koKR = "저장소"
 csCZ = "Úložiště"
 viVN = "Kho"
+trTR = "Depozitare"
 
 ["Tutorial.Storage.Pile"]
 raw = "Multe clădiri au un spațiu de depozitare încorporat, dar acesta se umple repede.\n\nConstruiește o grămadă mare pentru a depozita mai mulți bușteni.\n\nFiecare clădire de depozitare conține un singur bun. Poți seta bunul depozitat după selectarea clădirii."
@@ -32860,6 +33200,7 @@ ptBR = "Muitas construções têm um espaço de armazenamento embutido, mas ele 
 koKR = "많은 건물에는 내장된 저장 공간이 있지만, 이 공간은 빠르게 가득 차게 됩니다.\n\n더 많은 통나무를 저장하기 위해 큰 더미를 건설하세요.\n\n각 저장 건물은 하나의 상품만 포함할 수 있습니다. 건물을 선택한 후 저장할 상품을 설정할 수 있습니다."
 csCZ = "Mnoho budov má zabudovaný prostor pro skladování, ale ten se rychle zaplní.\n\nPostav velkou hromadu pro uložení více klád.\n\nKaždá skladovací budova obsahuje jedinou položku. Můžeš nastavit uloženou položku po výběru budovy."
 viVN = "Nhiều công trình có không gian lưu trữ tích hợp, nhưng nó đầy rất nhanh.\n\nXây dựng một đống lớn để lưu trữ nhiều gỗ hơn.\n\nMỗi công trình lưu trữ chứa một loại hàng hóa. Bạn có thể đặt loại hàng hóa được lưu trữ sau khi chọn công trình."
+trTR = "Birçok bina entegre depolama alanına sahiptir, ancak bu alan hızla dolmaktadır. \n\nDaha fazla kütük depolamak için büyük bir yığın inşa et. \n\nHer depolama binası tek bir malzeme içerir. Bina seçildikten sonra depolanan malzemeyi ayarlayabilirsin."
 
 ["Tutorial.Storage.Tanks"]
 raw = "Toate lichidele sunt depozitate în rezervoare. Aceasta include și apa pe care am pompat-o."
@@ -32876,6 +33217,7 @@ ptBR = "Todos os líquidos são armazenados em tanques. Isso inclui também a á
 koKR = "모든 액체는 탱크에 저장됩니다. 여기에는 우리가 펌프질한 물도 포함됩니다."
 csCZ = "Veškeré kapaliny jsou skladovány v nádržích. To zahrnuje i vodu, kterou jsme čerpali."
 viVN = "Tất cả các chất lỏng đều được lưu trữ trong các bể chứa. Điều này cũng bao gồm nước mà chúng tôi đã bơm."
+trTR = "Tüm sıvılar tanklarda depolanır. Bu, pompaladığımız suyu da içerir."
 
 ["Tutorial.Storage.Warehouses"]
 raw = "În cele din urmă, haideți să pregătim niște depozite pentru fructele de pădure. Ar trebui să ne pregătim și pentru recolta de morcovi care urmează.\n\nMâncarea, la fel ca multe alte bunuri ambalate în cutii, este depozitată în depozite."
@@ -32892,6 +33234,7 @@ ptBR = "Por fim, vamos preparar alguns armazéns para as frutas silvestres. Deve
 koKR = "마침내, 과일을 위한 저장소를 준비합시다. 다가오는 당근 수확을 위해서도 준비해야 합니다.\n\n음식은 다른 많은 상자에 포장된 상품들처럼 저장소에 보관됩니다."
 csCZ = "Nakonec si připravíme nějaké sklady pro lesní plody. Měli bychom se také připravit na nadcházející sklizeň mrkve.\n\nJídlo, stejně jako mnoho jiného zboží baleného v krabicích, je uskladněno ve skladech."
 viVN = "Cuối cùng, hãy chuẩn bị một vài kho chứa cho trái cây từ rừng. Chúng ta cũng nên chuẩn bị cho vụ thu hoạch cà rốt sắp tới.\n\nThực phẩm, cũng giống như nhiều hàng hóa khác được đóng gói trong hộp, được lưu trữ trong kho."
+trTR = "Sonunda, meyve sebze için bazı depolar hazırlayalım. Önümüzdeki havuç hasadı için de hazırlık yapmalıyız. \n\nYiyecek, kutulara ambalajlanmış birçok diğer ürün gibi, depolarda saklanır."
 
 ["Tutorial.Tutorial"]
 raw = "Tutorial"
@@ -32908,6 +33251,7 @@ ptBR = "Tutorial"
 koKR = "튜토리얼"
 csCZ = "Návod"
 viVN = "Hướng dẫn"
+trTR = "Öğretici"
 
 ["Tutorial.UnpauseBuilding"]
 raw = "Reluare activitate: {0}"
@@ -32924,6 +33268,7 @@ ptBR = "Retomada da construção: {0}"
 koKR = "작업 재개: {0}"
 csCZ = "Obnovení aktivity: {0}"
 viVN = "Reluare hoạt động: {0}"
+trTR = "İşlevi tekrar başlat: {0}"
 
 ["Tutorial.VerticalArchitecture"]
 raw = "Arhitectură verticală"
@@ -32940,6 +33285,7 @@ ptBR = "Arquitetura Vertical"
 koKR = "수직 건축"
 csCZ = "Vertikální architektura"
 viVN = "Kiến trúc dọc"
+trTR = "Dikey Mimari"
 
 ["Tutorial.VerticalArchitecture.BuildRooftopTerrace"]
 raw = "În pustiu, este important să optimizezi utilizarea spațiului. Castorii fac asta prin dezvoltarea verticală a orașelor lor.\n\nUnele clădiri, cum ar fi Cabanele, au acoperișuri plate care pot susține alte structuri.\n\nHai să construim acum o Terasă pe Acoperiș. S-ar putea să fie nevoie să folosești Scări pentru a o conecta la district."
@@ -32956,6 +33302,7 @@ ptBR = "Neste deserto, é importante otimizar o uso do espaço. Os castores faze
 koKR = "사막에서는 공간 활용을 최적화하는 것이 중요합니다. 비버들은 도시의 수직 발전을 통해 이를 실현합니다.\n\n오두막과 같은 일부 건물은 다른 구조물을 지탱할 수 있는 평평한 지붕을 가지고 있습니다.\n\n이제 옥상 테라스를 건설해 봅시다. 이를 지구와 연결하기 위해서는 계단이 필요할 수 있습니다."
 csCZ = "V poušti je důležité optimalizovat využití prostoru. Bobři to dělají prostřednictvím vertikálního rozvoje svých měst.\n\nNěkteré budovy, jako jsou Chaty, mají ploché střechy, které mohou podpírat další struktury.\n\nPojďme teď postavit Terasu na Střeše. Možná bude potřeba použít Schody, aby se spojila s distriktem."
 viVN = "Trong môi trường khắc nghiệt, việc tối ưu hóa không gian là rất quan trọng. Loài bobo đã làm điều này bằng cách phát triển các thành phố của chúng theo chiều dọc.\n\nMột số tòa nhà, chẳng hạn như Nhà gỗ, có mái bằng có thể hỗ trợ các cấu trúc khác.\n\nHãy cùng xây dựng một Sân thượng ngay bây giờ. Có thể bạn sẽ cần sử dụng Thang để kết nối nó với khu vực."
+trTR = "Boşlukta, alan kullanımını optimize etmek önemlidir. Kunduzlar bunu şehirlerini dikey olarak geliştirerek yapar.\n\nBazı binalar, Kulübe gibi, diğer yapıları destekleyebilen düz çatıları vardır.\n\nŞimdi bir Çatı Terası inşa edelim. Bunu bölgeye bağlamak için Merdivenler kullanman gerekebilir."
 
 ["Tutorial.WaterAndFood"]
 raw = "Apă și mâncare"
@@ -32972,6 +33319,7 @@ ptBR = "Água e comida"
 koKR = "물과 음식"
 csCZ = "Voda a jídlo"
 viVN = "Nước và thực phẩm"
+trTR = "Su ve yiyecek"
 
 ["Tutorial.WaterAndFood.Farmhouse"]
 raw = "Pe termen lung, avem nevoie de ceva mai nutritiv. Construiți o casă de la țară pentru a planta și recolta culturi.\n\nLa fel ca steagurile, o casă de la țară are o rază de acțiune limitată.\n\nSfat: Dacă rămâneți fără muncitori, puteți pune pe pauză unele clădiri. Pentru a face acest lucru, selectați o clădire și faceți clic pe butonul de pauză."
@@ -32988,6 +33336,7 @@ ptBR = "Em um prazo mais longo, precisamos de algo mais nutritivo. Construa uma 
 koKR = "장기적으로 우리는 더 영양가 있는 것이 필요합니다. 작물을 심고 수확하기 위해 농촌 주택을 건설하세요.\n\n깃발과 마찬가지로 농촌 주택은 제한된 범위를 가지고 있습니다.\n\n팁: 작업자가 부족하면 일부 건물을 일시 정지할 수 있습니다. 이렇게 하려면 건물을 선택하고 일시 정지 버튼을 클릭하세요."
 csCZ = "Na dlouhou dobu potřebujeme něco výživnějšího. Postavte venkovský dům pro pěstování a sklizeň plodin.\n\nStejně jako vlajky má venkovský dům omezený dosah.\n\nTip: Pokud vám dojdou dělníci, můžete některé budovy pozastavit. Chcete-li to udělat, vyberte budovu a klikněte na tlačítko pozastavení."
 viVN = "Trong dài hạn, chúng ta cần một cái gì đó din dưỡng hơn. Hãy xây dựng một ngôi nhà nông thôn để trồng trọt và thu hoạch cây trồng.\n\nGiống như cờ, một ngôi nhà nông thôn có phạm vi hoạt động hạn chế.\n\nMẹo: Nếu bạn không còn công nhân, bạn có thể tạm dừng một số tòa nhà. Để làm điều này, hãy chọn một tòa nhà và nhấp vào nút tạm dừng."
+trTR = "Uzun vadede, daha besleyici bir şeye ihtiyacımız var. Tarım yapmak ve mahsul hasat etmek için bir çiftlik evi inşa edin.\n\nBayraklar gibi, bir çiftlik evinin de sınırlı bir etki alanı vardır.\n\nİpucu: İşçileriniz kalmadıysa, bazı binaları duraklatabilirsiniz. Bunu yapmak için bir binayı seçin ve duraklatma butonuna tıklayın."
 
 ["Tutorial.WaterAndFood.Gatherer"]
 raw = "Pe lângă apă, castorii au nevoie de hrană.\n\nCulegătorii adună automat fructe de pădure în raza de acțiune a steagului culegător. Puteți vedea raza de acțiune atunci când plasați steagul.\n\nConstruiți un steag culegător lângă niște tufișuri de afine."
@@ -33004,6 +33353,7 @@ ptBR = "Além de água, os castores precisam de comida.\n\nOs coletadores coleta
 koKR = "물 외에도 비버는 음식을 필요로 합니다.\n\n채집가는 채집기 기폭의 범위 내에서 자동으로 산딸기를 수집합니다. 기폭을 배치할 때 범위를 확인할 수 있습니다.\n\n블루베리 덤불 근처에 채집기 기폭을 건설하세요."
 csCZ = "Kromě vody potřebují bobři potravu.\n\nSběrači automaticky shromažďují lesní plody v dosahu vlajky sběrače. Můžete vidět dosah, když umístíte vlajku.\n\nPostavte vlajku sběrače poblíž keřů borůvek."
 viVN = "Ngoài nước, beaver cần thức ăn.\n\nCông nhân thu hoạch tự động thu thập trái cây rừng trong phạm vi hoạt động của cờ thu hoạch. Bạn có thể thấy phạm vi hoạt động khi đặt cờ.\n\nXây dựng một cờ thu hoạch gần một số bụi việt quất."
+trTR = "Su dışında, kunduzların yiyeceğe ihtiyacı vardır.\n\nToplayıcılar, toplayıcı bayrağının etki alanında otomatik olarak orman meyvelerini toplar. Bayrağı yerleştirdiğinizde etki alanını görebilirsiniz.\n\nBirkaç yaban mersini çalısının yanına bir toplayıcı bayrağı inşa edin."
 
 ["Tutorial.WaterAndFood.MarkCarrots"]
 raw = "Fermierii nu încep să lucreze până nu le spui tu ce și unde să planteze.\n\nFolosește instrumentul Plantează culturi pentru a desemna un câmp de morcovi.\n\nCulturile trebuie plantate pe terenuri irigate, verzi. Altfel, plantele se vor usca și, în cele din urmă, vor muri."
@@ -33020,6 +33370,7 @@ ptBR = "Os fazendeiros não começam a trabalhar até que você lhes diga o que 
 koKR = "농부들은 당신이 무엇을 어디에 심어야 하는지 말해주기 전까지 작업을 시작하지 않습니다.\n\n당근 농장을 지정하려면 작물 심기 도구를 사용하세요.\n\n작물은 관개된 초록 땅에 심어야 합니다. 그렇지 않으면 식물이 말라서 결국 죽게 됩니다."
 csCZ = "Farmáři nezačnou pracovat, dokud jim neřekneš, co a kde mají zasít.\n\nPoužij nástroj Zasaď plodiny k označení pole s mrkví.\n\nPlodiny musí být zasazeny na zavlažovaných, zelených pozemcích. Jinak se rostliny vysuší a nakonec zemřou."
 viVN = "Nông dân sẽ không bắt đầu làm việc cho đến khi bạn bảo họ trồng gì và ở đâu.\n\nSử dụng công cụ Trồng cây để chỉ định một mảnh đất trồng cà rốt.\n\nCây trồng phải được trồng trên những mảnh đất được tưới nước, màu xanh. Nếu không, cây sẽ bị khô và cuối cùng sẽ chết."
+trTR = "Çiftçiler neyi ve nerede dikeceklerini söylemeden çalışmaya başlamazlar.\n\nHavuçlar için bir tarlayı belirlemek amacıyla Tarım Aletini kullanın.\n\nÜrünler, sulanan yeşil alanlara ekilmelidir. Aksi takdirde, bitkiler kuruyacak ve sonunda ölecektir."
 
 ["Tutorial.WaterAndFood.WaterPump"]
 raw = "Castorii au nevoie de apă pentru a supraviețui.\n\nConstruiește o pompă de apă pentru a asigura acces continuu la apă potabilă. Nu uita să conectezi pompa la Centrul Districtual."
@@ -33036,6 +33387,7 @@ ptBR = "Os castores precisam de água para sobreviver.\n\nConstrua uma bomba de 
 koKR = "비버는 생존을 위해 물이 필요합니다.\n\n식수를 지속적으로 공급하기 위해 물 펌프를 건설하세요. 펌프를 구역 센터에 연결하는 것을 잊지 마세요."
 csCZ = "Bobři potřebují vodu, aby přežili.\n\nPostav vodní pumpu, aby zajistil stálý přístup k pitné vodě. Nezapomeň pumpu připojit k Centru obvodu."
 viVN = "Những con rái cá cần nước để sinh tồn.\n\nXây dựng một cái máy bơm nước để đảm bảo có nước uống liên tục. Đừng quên kết nối máy bơm với Trung tâm Quận."
+trTR = "Kesirlerin hayatta kalması için suya ihtiyacı var.\n\nİçme suyu sağlamak için bir su pompası inşa et. Pompayı Bölgesel Merkeze bağlamayı unutma."
 
 ["Tutorial.Wellbeing"]
 raw = "Bunăstare"
@@ -33052,6 +33404,7 @@ ptBR = "Bunestar"
 koKR = "복지"
 csCZ = "Blaho"
 viVN = "Phúc lợi"
+trTR = "Refah"
 
 ["Tutorial.Wellbeing.Beaver"]
 raw = "Poți vedea impactul pe care acțiunile tale îl au asupra castorilor tăi.\n\nSelectează un castor făcând clic pe el. În panou, poți vedea starea sa actuală de bine, atributele și nevoile sale.\n\nUnele nevoi pot atinge valori negative și pot atrage penalizări severe sau pot cauza moartea."
@@ -33068,6 +33421,7 @@ ptBR = "Você pode ver o impacto que suas ações têm sobre seus castores.\n\nS
 koKR = "당신의 행동이 너부리에게 미치는 영향을 볼 수 있습니다.\n\n너부리를 클릭하여 선택하세요. 패널에서 현재 복지 상태, 속성 및 요구 사항을 볼 수 있습니다.\n\n일부 요구 사항은 부정적인 값을 가질 수 있으며 심각한 패널티를 초래하거나 사망을 초래할 수 있습니다."
 csCZ = "Zakoukej vliv tvých činů na tvé bobry.\n\nVyber bobra kliknutím na něj. V panelu můžeš vidět jeho aktuální stav pohody, atributy a potřeby.\n\nNěkteré potřeby mohou dosáhnout negativních hodnot a mohou přinést těžké tresty nebo způsobit smrt."
 viVN = "Bạn có thể thấy ảnh hưởng của hành động của bạn đối với những con beaver của mình.\n\nChọn một con beaver bằng cách nhấp vào nó. Trong bảng điều khiển, bạn có thể thấy trạng thái hiện tại của nó, thuộc tính và nhu cầu của nó.\n\nMột số nhu cầu có thể đạt giá trị âm và có thể gây ra hình phạt nặng nề hoặc có thể khiến nó chết."
+trTR = "Eylemlerinin, kunduzların üzerindeki etkisini görebilirsin.\n\nBir kunduzu seçmek için üzerine tıkla. Panelde, mevcut durumunu, özelliklerini ve ihtiyaçlarını görebilirsin.\n\nBazı ihtiyaçlar negatif değerlere ulaşabilir ve ciddi cezalara yol açabilir veya ölüme sebep olabilir."
 
 ["Tutorial.Wellbeing.Campfire"]
 raw = "Bunăstarea este o metrică ce arată cât de mulțumit este un castor. Aceasta afectează trei atribute: viteza de lucru, viteza de mișcare și durata de viață.\n\nUna dintre principalele modalități de creștere a bunăstării este prin atracții. Atracțiile sunt clădiri în care intră castorii atunci când nu sunt la muncă."
@@ -33084,6 +33438,7 @@ ptBR = "A bem-estar é uma métrica que mostra o quão satisfeito está um casto
 koKR = "웰빙은 비버의 만족도를 나타내는 지표입니다. 이는 세 가지 속성에 영향을 미칩니다: 작업 속도, 이동 속도 및 수명입니다.\n\n웰빙을 증가시키는 주요 방법 중 하나는 즐길 거리를 제공하는 것입니다. 즐길 거리는 비버들이 일을 하지 않을 때 들어가는 건물입니다."
 csCZ = "Blaho je metrika, která ukazuje, jak spokojený je bobr. Ovlivňuje tři atributy: rychlost práce, rychlost pohybu a délku života.\n\nJedním z hlavních způsobů, jak zvýšit blaho, jsou atrakce. Atrakce jsou budovy, do kterých bobři vstupují, když nejsou v práci."
 viVN = "Bảo vệ sức khỏe là một chỉ số thể hiện mức độ hài lòng của một con beaver. Nó ảnh hưởng đến ba thuộc tính: tốc độ làm việc, tốc độ di chuyển và tuổi thọ.\n\nMột trong những cách chính để tăng cường sức khỏe là thông qua các điểm thu hút. Các điểm thu hút là các tòa nhà mà con beaver vào khi không làm việc."
+trTR = "Refah, bir castorun ne kadar memnun olduğunu gösteren bir ölçüttür. Bu, üç niteliği etkiler: çalışma hızı, hareket hızı ve yaşam süresi.\n\nRefahı artırmanın başlıca yollarından biri cazibe merkezleridir. Cazibe merkezleri, castorların işte olmadıklarında girdiği yapılardır."
 
 ["Tutorial.Wellbeing.OpenWellbeingPanel"]
 raw = "Deschideți panoul de bunăstare"
@@ -33100,6 +33455,7 @@ ptBR = "Abra o painel de bem-estar"
 koKR = "웰빙 패널을 엽니다"
 csCZ = "Otevřete panel wellness"
 viVN = "Mở bảng điều khiển phúc lợi"
+trTR = "Refah panelini aç"
 
 ["Tutorial.Wellbeing.SelectBeaver"]
 raw = "Selectați un castor și verificați-i nevoile"
@@ -33116,6 +33472,7 @@ ptBR = "Selecione um castor e verifique suas necessidades"
 koKR = "비버를 선택하고 그들의 요구를 확인하세요."
 csCZ = "Vyberte bobra a zkontrolujte jeho potřeby"
 viVN = "Chọn một con hải ly và kiểm tra nhu cầu của nó"
+trTR = "Bir kunduz seçin ve ihtiyaçlarını kontrol edin"
 
 ["Tutorial.Wellbeing.SetWorkingHours"]
 raw = "Nu uitați că castorii au nevoie de timp liber pentru a mânca, a bea, a dormi și a se bucura de atracțiile așezării.\n\nPentru a maximiza productivitatea, trebuie să găsiți un echilibru între bunăstarea muncitorilor și programul lor de lucru.\n\nDeocamdată, să revenim la programul de lucru implicit."
@@ -33132,6 +33489,7 @@ ptBR = "Não se esqueça de que os castores precisam de tempo livre para comer, 
 koKR = "“비버들은 먹고, 마시고, 자고, 정착지의 명소를 즐기기 위해 자유 시간이 필요하다는 점을 잊지 마세요.\n\n생산성을 극대화하기 위해서는 근로자들의 복지와 근무 시간 사이의 균형을 찾아야 합니다.\n\n지금은 기본 근무 시간으로 돌아가 보겠습니다.”"
 csCZ = "Nezapomeňte, že bobři potřebují volný čas na jídlo, pití, spánek a užívání si atrakcí osady.\n\nAby byla produktivita maximální, musíte najít rovnováhu mezi blahobytem pracovníků a jejich pracovním časem.\n\nProzatím se vraťme k výchozímu pracovnímu harmonogramu."
 viVN = "Đừng quên rằng những chú nhím cần có thời gian rảnh để ăn, uống, ngủ và tận hưởng những điểm hấp dẫn của khu định cư.\n\nĐể tối đa hóa năng suất, bạn cần tìm ra sự cân bằng giữa phúc lợi của công nhân và lịch làm việc của họ.\n\nTạm thời, hãy quay lại lịch làm việc mặc định."
+trTR = "Unutmayın ki kunduzların yemek, içmek, uyumak ve yerleşim yerinin cazibesinin tadını çıkarmak için serbest zamana ihtiyacı var.\n\nÜretkenliği en üst düzeye çıkarmak için işçilerin refahı ile çalışma saatleri arasında bir denge bulmalısınız.\n\nŞimdilik, varsayılan çalışma programına geri dönelim."
 
 ["Tutorial.Wellbeing.Shrub"]
 raw = "Bunăstarea crește și în jurul decorațiunilor. Castorii nu se apropie intenționat de ele, așa că amplasați decorațiunile aproape de locurile unde își petrec timpul coloniștilor.\n\nUn arbust este cea mai simplă decorațiune, iar castorii apreciază fiecare picătură de verdeață."
@@ -33148,6 +33506,7 @@ ptBR = "O bem-estar aumenta também ao redor das decorações. Os castores não 
 koKR = "웰빙은 장식물 주변에서도 증가합니다. 비버는 의도적으로 장식물에 접근하지 않으므로, 정착자들이 시간을 보내는 곳 근처에 장식물을 배치하세요.\n\n관목은 가장 간단한 장식물이며, 비버는 모든 푸른 잎을 소중하게 여깁니다."
 csCZ = "Blahobyt roste i kolem dekorací. Bobři se k nim úmyslně nepřibližují, proto umístěte dekorace blízko míst, kde tráví čas kolonisté.\n\nKeř je nejjednodušší dekorací a bobři oceňují každou kapku zeleně."
 viVN = "Sự thịnh vượng tăng lên xung quanh các món trang trí. Những con castor không tiếp cận chúng một cách cố ý, vì vậy hãy đặt các món trang trí gần những nơi mà các tay định cư thường xuyên lui tới.\n\nMột bụi cây là món trang trí đơn giản nhất, và những con castor rất trân trọng từng giọt màu xanh."
+trTR = "Refah, dekorların etrafında da artar. Kunduzlar bun amaçla onlara yaklaşmaz, bu yüzden dekorları kolonistlerin zaman geçirdiği yerlere yakın yerleştirin.\n\nBir çalı en basit dekorasyondur ve kunduzlar her yeşil damlayı takdir eder."
 
 ["Tutorial.Wellbeing.WellbeingPanel"]
 raw = "Pentru castori, contează întreaga societate. Puteți vedea bunăstarea medie a așezării dvs. în colțul din stânga sus al ecranului.\n\nFaceți clic pe ea pentru a vedea îndeplinirea tuturor nevoilor posibile. Există multe modalități de a face viața în pustiu mai suportabilă."
@@ -33164,6 +33523,7 @@ ptBR = "Para os castores, toda a sociedade importa. Você pode ver o bem-estar m
 koKR = "비버에게는 전체 사회가 중요합니다. 화면의 왼쪽 상단 모서리에서 당신 마을의 평균 복지를 확인할 수 있습니다.\n\n모든 가능한 요구 사항의 충족 상태를 보려면 클릭하십시오. 황야에서의 삶을 더 견딜 수 있는 많은 방법이 있습니다."
 csCZ = "Pro castory je důležitá celá společnost. Můžete vidět průměrnou pohodu vaší osady v levém horním rohu obrazovky.\n\nKlikněte na ni, abyste viděli splnění všech možných potřeb. Existuje mnoho způsobů, jak učinit život na poušti snesitelnějším."
 viVN = "Đối với những con beaver, toàn bộ xã hội đều quan trọng. Bạn có thể thấy mức độ phúc lợi trung bình của khu định cư của mình ở góc trên bên trái của màn hình.\n\nNhấp vào đó để xem sự thỏa mãn của tất cả các nhu cầu có thể. Có nhiều cách để làm cho cuộc sống trong sa mạc dễ chịu hơn."
+trTR = "Kirpiler için, bütün toplum önemlidir. Ekranın sol üst köşesinde yerleşiminizin ortalama refahını görebilirsiniz.\n\nBunu tıklayarak mevcut tüm ihtiyaçların karşılanmasını görebilirsiniz. Çorak topraklarda yaşamı daha katlanılır hale getirmenin birçok yolu vardır."
 
 ["Tutorial.Wood"]
 raw = "Lemn"
@@ -33180,6 +33540,7 @@ ptBR = "Lumber"
 koKR = "나무"
 csCZ = "Dřevo"
 viVN = "L木"
+trTR = "Ahşap"
 
 ["Tutorial.Wood.ConnectLumberjacks"]
 raw = "Fiecare clădire cu o intrare trebuie să fie conectată la un Centru Districtual printr-un drum. Când selectați o clădire, puteți vedea intrarea acesteia marcată cu o săgeată.\n\nConstruiți drumuri pentru a conecta Steagurile Tăietorilor de Lemne la Centrul Districtual."
@@ -33196,6 +33557,7 @@ ptBR = "Cada edifício com uma entrada deve estar conectado a um Centro Distrita
 koKR = "모든 출입구가 있는 건물은 지역 센터와 도로로 연결되어야 합니다. 건물을 선택하면 입구가 화살표로 표시됩니다.\n\n목재꾼의 깃발을 지역 센터에 연결하기 위해 도로를 건설하세요."
 csCZ = "Každá budova s vchodem musí být spojena s Okresním centrem pomocí cesty. Když vyberete budovu, můžete vidět její vchod označený šipkou.\n\nPostavte cesty, abyste spojili Vlajky Dřevorubců s Okresním centrem."
 viVN = "Mỗi tòa nhà có lối vào phải được kết nối với một Trung tâm Khu vực thông qua một con đường. Khi bạn chọn một tòa nhà, bạn có thể thấy lối vào của nó được đánh dấu bằng một mũi tên.  \n\nXây dựng các con đường để kết nối Cờ của Người chặt cây với Trung tâm Khu vực."
+trTR = "Her girişe sahip her bina, bir Bölge Merkezi'ne bir yol ile bağlanmalıdır. Bir binayı seçtiğinizde, girişinin ok işareti ile işaretlendiğini görebilirsiniz.\n\nAğaç Kesiciler Bayraklarını Bölge Merkezi'ne bağlamak için yollar inşa edin."
 
 ["Tutorial.Wood.FinishLumberjacks"]
 raw = "Steagurile nu vor fi construite decât dacă se află în raza de acțiune a districtului.\n\nSelectați Centrul Districtului pentru a vedea raza sa de acțiune. O puteți extinde conectând drumurile la intrarea în Centrul Districtului."
@@ -33212,6 +33574,7 @@ ptBR = "As bandeiras só poderão ser construídas se estiverem dentro do alcanc
 koKR = "깃발은 구역의 작동 범위 내에 있어야만 건설됩니다.\n\n구역 중앙을 선택하여 범위를 확인하세요. 도로를 구역 중앙 입구에 연결하여 범위를 확장할 수 있습니다."
 csCZ = "Vlajky budou postaveny pouze tehdy, pokud se nacházejí v dosahu okresu.\n\nVyberte Centrum okresu, abyste viděli jeho dosah. Můžete ho rozšířit připojením silnic k vchodu do Centra okresu."
 viVN = "Các lá cờ sẽ không được xây dựng nếu chúng không nằm trong phạm vi của khu vực.\n\nChọn Trung tâm Khu vực để xem phạm vi của nó. Bạn có thể mở rộng phạm vi bằng cách kết nối các con đường đến lối vào Trung tâm Khu vực."
+trTR = "Bayraklar, yalnızca bölgenin etki alanında bulunduğunda inşa edilecektir.\n\nEtki alanını görmek için Bölge Merkezini seçin. Etki alanını, Bölge Merkezine giden yolları bağlayarak genişletebilirsiniz."
 
 ["Tutorial.Wood.MarkTrees"]
 raw = "Pădurarii taie copaci doar în zonele pe care le marcați pentru tăiere.\n\nCopacii trebuie să se afle în raza de acțiune a unui steag de tăiere a lemnelor. Selectați un steag pentru a-i vedea raza de acțiune.\n\nUtilizați acum instrumentul Marcați zona de tăiere a copacilor. Țineți apăsat butonul mouse-ului pentru a selecta mai multe plăci simultan."
@@ -33228,6 +33591,7 @@ ptBR = "Os madeireiros cortam árvores apenas nas áreas que você marca para co
 koKR = "목재 수확자는 제거를 위해 표시한 지역에서만 나무를 베어낼 수 있습니다.\n\n나무는 벌목 도구의 작동 반경 내에 있어야 합니다. 작동 반경을 보려면 도구를 선택하세요.\n\n이제 나무 벌목 영역 표시 도구를 사용하세요. 마우스 버튼을 눌러 여러 타일을 동시에 선택하세요."
 csCZ = "Tesaři kácí stromy pouze v oblastech, které vy označíte k pokácení.\n\nStromy musí být ve vzdálenosti akce vlajky pro kácení dřeva. Vyberte vlajku, abyste viděli její dosah.\n\nNyní použijte nástroj pro označení oblasti kácení stromů. Držte tlačítko myši, abyste vybrali více ploch současně."
 viVN = "Người đốn gỗ chỉ chặt cây trong những khu vực mà bạn đánh dấu để chặt.\n\nCây phải nằm trong phạm vi của cờ chặt gỗ. Chọn cờ để xem phạm vi của nó.\n\nHiện tại, hãy sử dụng công cụ Đánh dấu khu vực chặt cây. Giữ nguyên nút chuột để chọn nhiều ô cùng lúc."
+trTR = "Ağaç kesiciler, yalnızca kesim için işaretlediğiniz alanlarda ağaç keserler.\n\nAğaçların, bir odun kesim bayrağının etki alanında olması gerekir. Etki alanını görmek için bir bayrağı seçin.\n\nŞimdi ağaç kesim alanını işaretleme aracını kullanın. Birden fazla plakayı aynı anda seçmek için fare düğmesini basılı tutun."
 
 ["Tutorial.Wood.PlaceLumberjacks"]
 raw = "Fiecare așezare de castori are nevoie de bușteni , foarte mulți bușteni. Doar pădurarii pot tăia copaci.\n\nConstruiește steaguri pentru tăietori de lemne lângă copacii din apropiere."
@@ -33244,6 +33608,7 @@ ptBR = "Cada assentamento de castores precisa de toras, muitos toras. Apenas os 
 koKR = "각 비버 마을은 통나무가 필요하며, 많은 통나무가 필요합니다. 나무꾼만 나무를 베어낼 수 있습니다.\n\n근처 나무 옆에 나무꾼을 위한 깃발을 세우세요."
 csCZ = "Každá bobří osada potřebuje dřevo, hodně dřeva. Jen dřevorubci mohou kácet stromy.\n\nPostavte vlajky pro dřevorubce poblíž blízkých stromů."
 viVN = "Mỗi khu định cư của những con beaver cần gỗ, rất nhiều gỗ. Chỉ có các thợ săn gỗ mới có thể đốn cây.\n\nXây dựng cờ cho thợ săn gỗ gần những cây xung quanh."
+trTR = "Her bir metro kolonisi, çok sayıda odun kaynağına ihtiyaç duyar. Sadece oduncular ağaç kesebilir.\n\nYakınlardaki ağaçların yanına oduncular için bayraklar inşa et."
 
 ["Tutorial.WorkingHours"]
 raw = "Ore de lucru"
@@ -33260,6 +33625,7 @@ ptBR = "Horário de Trabalho"
 koKR = "작업 시간"
 csCZ = "Hodin práce"
 viVN = "Giờ làm việc"
+trTR = "Çalışma saatleri"
 
 ["Tutorial.WorkingHours.SetWorkingHours"]
 raw = "Ajustarea orelor de lucru este o modalitate de a vă gestiona producția.\n\nZilele de lucru mai lungi înseamnă un progres mai rapid, dar în fiecare seară, castorii au nevoie de timp pentru a se relaxa și a dormi. Nu-i forțați prea mult pentru prea mult timp.\n\nDeocamdată, haideți să creștem puțin orele de lucru."
@@ -33276,6 +33642,7 @@ ptBR = "Ajustar as horas de trabalho é uma maneira de gerenciar sua produção.
 koKR = "근무 시간을 조정하는 것은 생산 관리를 위한 방법입니다.\n\n더 긴 근무일은 더 빠른 진행을 의미하지만, 모든 저녁 비버들은 쉴 시간과 잠을 필요로 합니다. 너무 오랫동안 그들을 무리하게 하지는 마세요.\n\n현재로서는 근무 시간을 조금 늘려봅시다."
 csCZ = "Nastavení pracovních hodin je způsob, jak řídit vaši produkci.\n\nDelší pracovní dny znamenají rychlejší pokrok, ale každý večer potřebují bobři čas na odpočinek a spánek. Nepřetěžujte je příliš dlouho.\n\nZatím pojďme mírně zvýšit pracovní hodiny."
 viVN = "Việc điều chỉnh giờ làm việc là một cách để bạn quản lý sản xuất.\n\nNhững ngày làm việc dài hơn có nghĩa là tiến bộ nhanh hơn, nhưng mỗi tối, những con beaver cần thời gian để thư giãn và ngủ. Đừng ép chúng quá nhiều trong thời gian dài.\n\nTạm thời, hãy tăng một chút giờ làm việc."
+trTR = "Çalışma saatlerini ayarlamak, üretiminizi yönetmenin bir yoludur.\n\nDaha uzun çalışma günleri daha hızlı bir ilerleme anlamına gelir, ancak her akşam, kunduzların dinlenmek ve uyumak için zamana ihtiyacı vardır. Onları aşırı zorlamayın.\n\nŞimdilik, çalışma saatlerini biraz artırmaya ne dersiniz?"
 
 ["Unit.Compact.Kilo.NumberAndUnit"]
 raw = "{0}k"
@@ -33292,6 +33659,7 @@ ptBR = "{0}k"
 koKR = "{0}k"
 csCZ = "{0}k"
 viVN = "{0}k"
+trTR = "{0}k"
 
 ["Unit.Compact.Kilo.UnitOnly"]
 raw = "k"
@@ -33308,6 +33676,7 @@ ptBR = "k"
 koKR = "k"
 csCZ = "k"
 viVN = "k"
+trTR = "k"
 
 ["Unit.Compact.Mega.NumberAndUnit"]
 raw = "{0}M"
@@ -33324,6 +33693,7 @@ ptBR = "{0}M"
 koKR = "{0}M"
 csCZ = "{0}M"
 viVN = "{0}M"
+trTR = "{0}M"
 
 ["Unit.Compact.Mega.UnitOnly"]
 raw = "M."
@@ -33340,6 +33710,7 @@ ptBR = "M."
 koKR = "M."
 csCZ = "M."
 viVN = "M."
+trTR = "M."
 
 ["Unit.CubicMeterPerSecond.NumberAndUnit"]
 raw = "{0} m³/s"
@@ -33356,6 +33727,7 @@ ptBR = "{0} m³/s"
 koKR = "{0} m³/s"
 csCZ = "{0} m³/s"
 viVN = "{0} m³/giây"
+trTR = "{0} m³/sn"
 
 ["Unit.CubicMeterPerSecond.UnitOnly"]
 raw = "m³/s"
@@ -33372,6 +33744,7 @@ ptBR = "m³/s"
 koKR = "㎥/초"
 csCZ = "m³/s"
 viVN = "m³/giây"
+trTR = "m³/s"
 
 ["Unit.Day.NumberAndUnit"]
 raw = "{0} zile"
@@ -33388,6 +33761,7 @@ ptBR = "{0} days"
 koKR = "{0} 일"
 csCZ = "{0} dnů"
 viVN = "{0} ngày"
+trTR = "{0} gün"
 
 ["Unit.Day.UnitOnly"]
 raw = "d"
@@ -33404,6 +33778,7 @@ ptBR = "d"
 koKR = "d"
 csCZ = "d"
 viVN = "d"
+trTR = "d"
 
 ["Unit.Degree.NumberAndUnit"]
 raw = "{0}°"
@@ -33420,6 +33795,7 @@ ptBR = "{0}°"
 koKR = "{0}°"
 csCZ = "{0}°"
 viVN = "{0}°"
+trTR = "{0}°"
 
 ["Unit.Degree.UnitOnly"]
 raw = "°"
@@ -33436,6 +33812,7 @@ ptBR = "°"
 koKR = "°"
 csCZ = "°"
 viVN = "°"
+trTR = "°"
 
 ["Unit.HorsePower.NumberAndUnit"]
 raw = "{0} CP"
@@ -33452,6 +33829,7 @@ ptBR = "{0} CV"
 koKR = "{0} 마력"
 csCZ = "{0} HP"
 viVN = "{0} CP"
+trTR = "{0} BG"
 
 ["Unit.HorsePower.UnitOnly"]
 raw = "CP"
@@ -33468,6 +33846,7 @@ ptBR = "CV"
 koKR = "CP"
 csCZ = "HK"
 viVN = "CP"
+trTR = "BG"
 
 ["Unit.HorsePowerHour.NumberAndUnit"]
 raw = "{0} hph"
@@ -33484,6 +33863,7 @@ ptBR = "{0} hph"
 koKR = "{0} hph"
 csCZ = "{0} hph"
 viVN = "{0} hph"
+trTR = "{0} bgsy"
 
 ["Unit.HorsePowerHour.UnitOnly"]
 raw = "hph"
@@ -33500,6 +33880,7 @@ ptBR = "hp-h"
 koKR = "hph"
 csCZ = "hph"
 viVN = "hph"
+trTR = "hph"
 
 ["Unit.HorsePowerHourPerMeter.NumberAndUnit"]
 raw = "{0} hph/m"
@@ -33516,6 +33897,7 @@ ptBR = "{0} hph/m"
 koKR = "{0} 마력시/미터"
 csCZ = "{0} k výkonu/h/m"
 viVN = "{0} hph/m"
+trTR = "{0} hp/s"
 
 ["Unit.HorsePowerHourPerMeter.UnitOnly"]
 raw = "hph/m"
@@ -33532,6 +33914,7 @@ ptBR = "hph/m"
 koKR = "hph/m"
 csCZ = "hph/m"
 viVN = "hph/m"
+trTR = "hph/m"
 
 ["Unit.HorsePowerPerCubicMeterPerSecond.NumberAndUnit"]
 raw = "{0} CP/m³/s"
@@ -33548,6 +33931,7 @@ ptBR = "{0} CV/m³/s"
 koKR = "{0} CP/m³/s"
 csCZ = "{0} HP/m³/s"
 viVN = "{0} CP/m³/s"
+trTR = "{0} BG/m³/sn"
 
 ["Unit.HorsePowerPerCubicMeterPerSecond.UnitOnly"]
 raw = "cai putere/m³/s"
@@ -33564,6 +33948,7 @@ ptBR = "cai putere/m³/s"
 koKR = "마력/㎥/s"
 csCZ = "koní síla/m³/s"
 viVN = "mã lực/m³/s"
+trTR = "bg beygir gücü/m³/s"
 
 ["Unit.Hour.NumberAndUnit"]
 raw = "{0} ore"
@@ -33580,6 +33965,7 @@ ptBR = "{0} horas"
 koKR = "{0} 시간"
 csCZ = "{0} hodin"
 viVN = "{0} giờ"
+trTR = "{0} saat"
 
 ["Unit.Hour.UnitOnly"]
 raw = "h"
@@ -33596,6 +33982,7 @@ ptBR = "h"
 koKR = "h"
 csCZ = "h"
 viVN = "h"
+trTR = "h"
 
 ["Unit.Kilogram.NumberAndUnit"]
 raw = "{0} kg"
@@ -33612,6 +33999,7 @@ ptBR = "{0} kg"
 koKR = "{0} kg"
 csCZ = "{0} kg"
 viVN = "{0} kg"
+trTR = "{0} kg"
 
 ["Unit.Kilogram.UnitOnly"]
 raw = "kg"
@@ -33628,6 +34016,7 @@ ptBR = "kg"
 koKR = "kg"
 csCZ = "kg"
 viVN = "kg"
+trTR = "kg"
 
 ["Unit.Meter.NumberAndUnit"]
 raw = "{0} m"
@@ -33644,6 +34033,7 @@ ptBR = "{0} m"
 koKR = "{0} 미터"
 csCZ = "{0} m"
 viVN = "{0} m"
+trTR = "{0} m"
 
 ["Unit.Meter.UnitOnly"]
 raw = "m."
@@ -33660,6 +34050,7 @@ ptBR = "m."
 koKR = "m."
 csCZ = "m."
 viVN = "m."
+trTR = "m."
 
 ["Unit.Percent.NumberAndUnit"]
 raw = "{0}%"
@@ -33676,6 +34067,7 @@ ptBR = "{0}%"
 koKR = "{0}%"
 csCZ = "{0}%"
 viVN = "{0}%"
+trTR = "{0}%"
 
 ["Unit.Percent.UnitOnly"]
 raw = "%"
@@ -33692,6 +34084,7 @@ ptBR = "%"
 koKR = "%"
 csCZ = "%"
 viVN = "%"
+trTR = "%"
 
 ["Unit.Tick.NumberAndUnit"]
 raw = "{0} t"
@@ -33708,6 +34101,7 @@ ptBR = "{0} t"
 koKR = "{0} t"
 csCZ = "{0} t"
 viVN = "{0} t"
+trTR = "{0} t"
 
 ["Unit.Tick.UnitOnly"]
 raw = "t"
@@ -33724,6 +34118,7 @@ ptBR = "t"
 koKR = "t"
 csCZ = "t"
 viVN = "t"
+trTR = "t"
 
 ["UnstableCore.ExplosionRadius"]
 raw = "Raza exploziei"
@@ -33740,6 +34135,7 @@ ptBR = "Raio da explosão"
 koKR = "폭발 반경"
 csCZ = "Rádius výbuchu"
 viVN = "Phạm vi vụ nổ"
+trTR = "Patlama Yüzeyi"
 
 ["Water.Strength"]
 raw = "Rezistenţă"
@@ -33756,6 +34152,7 @@ ptBR = "Resistência"
 koKR = "저항"
 csCZ = "Odolnost"
 viVN = "Độ bền"
+trTR = "Dayanıklılık"
 
 ["WaterInputCoordinates.Depth"]
 raw = "Adâncime: {0}"
@@ -33772,6 +34169,7 @@ ptBR = "Adâncime: {0}"
 koKR = "수심: {0}"
 csCZ = "Hloubka: {0}"
 viVN = "Độ sâu: {0}"
+trTR = "Derinlik: {0}"
 
 ["WaterInputCoordinates.Limit"]
 raw = "Limită: {0}"
@@ -33788,6 +34186,7 @@ ptBR = "Limite: {0}"
 koKR = "제한: {0}"
 csCZ = "Limit: {0}"
 viVN = "Giới hạn: {0}"
+trTR = "Sınır: {0}"
 
 ["WaterMover.Unfiltered"]
 raw = "Nefiltrat"
@@ -33804,6 +34203,7 @@ ptBR = "Nefiltrado"
 koKR = "필터링되지 않음"
 csCZ = "Nefiltrat"
 viVN = "Nefiltrat"
+trTR = "Filtre edilmemiş"
 
 ["WaterOpacity.Visibility.Hide"]
 raw = "Ascunde apa"
@@ -33820,6 +34220,7 @@ ptBR = "Ascunde a água"
 koKR = "물 숨기기"
 csCZ = "Skryj vodu"
 viVN = "Ascunde nước"
+trTR = "Su'yu Gizle"
 
 ["WaterOpacity.Visibility.Show"]
 raw = "Arătați apa"
@@ -33836,6 +34237,7 @@ ptBR = "Mostre a água"
 koKR = "물 표시"
 csCZ = "Zobrazit vodu"
 viVN = "Hiện nước"
+trTR = "Su gösder"
 
 ["Weather.Badtide"]
 raw = "Maree rea"
@@ -33852,6 +34254,7 @@ ptBR = "Mare baixa"
 koKR = "악천후"
 csCZ = "Špatný příliv"
 viVN = "Maree xấu"
+trTR = "Kötü gelgit"
 
 ["Weather.BadtideEndedNotification"]
 raw = "Marea rea \u200b\u200bs-a încheiat"
@@ -33868,6 +34271,7 @@ ptBR = "A marea ruim acabou"
 koKR = "악천후가 종료되었습니다"
 csCZ = "Špatný příliv skončil"
 viVN = "Mực nước xấu đã kết thúc"
+trTR = "Kötü dalga sona erdi"
 
 ["Weather.BadtideStartedNotification"]
 raw = "Marea rea \u200b\u200ba început"
@@ -33884,6 +34288,7 @@ ptBR = "Marea ruim começou"
 koKR = "나쁜 조수가 시작되었습니다"
 csCZ = "Málo se ví, že začala špatná voda"
 viVN = "Mặt nước bất lợi đã bắt đầu"
+trTR = "Kötü gelgit başladı"
 
 ["Weather.CycleAndDayLong"]
 raw = "Ciclul {0}, ziua {1}"
@@ -33900,6 +34305,7 @@ ptBR = "Ciclo {0}, dia {1}"
 koKR = "주기 {0}, 하루 {1}"
 csCZ = "Cykl {0}, den {1}"
 viVN = "Ciclo {0}, ngày {1}"
+trTR = "İklim {0}, gün {1}"
 
 ["Weather.CycleAndDayShort"]
 raw = "Ziua {0}-{1}"
@@ -33916,6 +34322,7 @@ ptBR = "Dia {0}-{1}"
 koKR = "날짜 {0}-{1}"
 csCZ = "Den {0}-{1}"
 viVN = "Ngày {0}-{1}"
+trTR = "Gün {0}-{1}"
 
 ["Weather.CycleBegins"]
 raw = "Ciclul {0} începe"
@@ -33932,6 +34339,7 @@ ptBR = "Ciclo {0} começa"
 koKR = "날씨 {0} 주기가 시작됩니다"
 csCZ = "Cykl {0} začíná"
 viVN = "Ciclo {0} bắt đầu"
+trTR = "Hava. DöngüBaşlıyor - Ciklul {0} başlıyor"
 
 ["Weather.Drought"]
 raw = "Secetă"
@@ -33948,6 +34356,7 @@ ptBR = "Secetă"
 koKR = "가뭄"
 csCZ = "Secetá"
 viVN = "Secetă"
+trTR = "Kuraklık"
 
 ["Weather.DroughtEndedNotification"]
 raw = "Seceta s-a încheiat"
@@ -33964,6 +34373,7 @@ ptBR = "A seca terminou"
 koKR = "가뭄이 끝났습니다"
 csCZ = " such a weather has ended"
 viVN = "Đợt hạn đã kết thúc"
+trTR = "Kuraklık sona erdi"
 
 ["Weather.DroughtStartedNotification"]
 raw = "Seceta a început"
@@ -33980,6 +34390,7 @@ ptBR = "Seca começou"
 koKR = "가뭄이 시작되었습니다"
 csCZ = "Seceta a začala"
 viVN = "Seceta đã bắt đầu"
+trTR = "Kıtlık başladı"
 
 ["Weather.Notification.BadtideApproaching"]
 raw = "Marea rea \u200b\u200bse apropie"
@@ -33996,6 +34407,7 @@ ptBR = "A maré alta está se aproximando"
 koKR = "나쁜 조수가 접근하고 있습니다"
 csCZ = "Blíží se špatný příliv"
 viVN = "Mực nước xấu đang tới gần"
+trTR = "Kötü gelgit yaklaşıyor"
 
 ["Weather.Notification.BadtideInProgress"]
 raw = "Badtide în desfășurare"
@@ -34012,6 +34424,7 @@ ptBR = "Tide ruim em andamento"
 koKR = "악성 조수 발생 중"
 csCZ = "Špatný příliv probíhá"
 viVN = "Nước thủy triều xấu đang diễn ra"
+trTR = "Negatif gelgit devam ediyor"
 
 ["Weather.Notification.DroughtApproaching"]
 raw = "Seceta se apropie"
@@ -34028,6 +34441,7 @@ ptBR = "Seca se aproximando"
 koKR = "가뭄이 다가오고 있습니다"
 csCZ = "Sucho se blíží"
 viVN = "Thiên tai hạn hán đang đến gần"
+trTR = "Kura gidiyor"
 
 ["Weather.Notification.DroughtInProgress"]
 raw = "Secetă în curs de desfășurare"
@@ -34044,6 +34458,7 @@ ptBR = "Seca em andamento"
 koKR = "진행 중인 가뭄"
 csCZ = "Probíhající sucho"
 viVN = "Sắp diễn ra hạn hán"
+trTR = "Devam eden kuraklık"
 
 ["Weather.Temperate"]
 raw = "Vreme temperată"
@@ -34060,6 +34475,7 @@ ptBR = "Vreme temperada"
 koKR = "온화한 날씨"
 csCZ = "Vlhké počasí"
 viVN = "Vreme temperată"
+trTR = "Iklim ılımlı"
 
 ["Wellbeing.AverageWellbeing"]
 raw = "Bunăstare medie:"
@@ -34076,6 +34492,7 @@ ptBR = "Bunestar médio:"
 koKR = "평균 웰빙:"
 csCZ = "Průměrná pohoda:"
 viVN = "Trạng thái trung bình:"
+trTR = "Ortalama Refah:"
 
 ["Wellbeing.DisplayName"]
 raw = "Bunăstare"
@@ -34092,6 +34509,7 @@ ptBR = "Bem-estar"
 koKR = "복지"
 csCZ = "Blaho"
 viVN = "Sự an lạc"
+trTR = "Refah"
 
 ["Wellbeing.HighscoreReached"]
 raw = "Castorii tăi sunt mai fericiți ca niciodată!"
@@ -34108,6 +34526,7 @@ ptBR = "Seus castores estão mais felizes do que nunca!"
 koKR = "너의 비버들은 그 어느 때보다 더 행복해!"
 csCZ = "Vaši bobři jsou šťastnější než kdy jindy!"
 viVN = "Castor của bạn đang hạnh phúc hơn bao giờ hết!"
+trTR = "Gestion gerişi, hiç olmadığı kadar mutlu!"
 
 ["Wellbeing.HighscoreReached.Short"]
 raw = "Noul scor maxim pentru bunăstare:"
@@ -34124,6 +34543,7 @@ ptBR = "Novo recorde de bem-estar:"
 koKR = "웰빙을 위한 새로운 최고 점수:"
 csCZ = "Nové maximum pro blaho:"
 viVN = "Điểm cao nhất mới cho phúc lợi:"
+trTR = "Refah için yeni en yüksek puan:"
 
 ["Wellbeing.NextTier"]
 raw = "Nivelul următor"
@@ -34140,6 +34560,7 @@ ptBR = "Nível seguinte"
 koKR = "다음 단계"
 csCZ = "Další úroveň"
 viVN = "Cấp độ tiếp theo"
+trTR = "Bir sonraki seviye"
 
 ["Wellbeing.PopulationWellbeing"]
 raw = "Bunăstarea populației"
@@ -34156,6 +34577,7 @@ ptBR = "Bem-estar da população"
 koKR = "인구 복지"
 csCZ = "Blahobyt populace"
 viVN = "Bunăstarea dân số"
+trTR = "Nüfus Refahı"
 
 ["Wellbeing.ShowPopulation"]
 raw = "Arătați bunăstarea populației"
@@ -34172,6 +34594,7 @@ ptBR = "Mostre o bem-estar da população"
 koKR = "인구의 복지를 보여주십시오"
 csCZ = "Zobrazit blahobyt populace"
 viVN = "Hiển thị phúc lợi của dân số"
+trTR = "Popülasyonun refahını göster"
 
 ["Wellbeing.UnlockedFactions"]
 raw = "Facțiuni deblocate"
@@ -34188,6 +34611,7 @@ ptBR = "Facções desbloqueadas"
 koKR = "해제된 세력"
 csCZ = "Odemčené frakce"
 viVN = "Các phe phái đã được mở khóa"
+trTR = "Serbest bırakılan fraksiyonlar"
 
 ["Wonder.Activate"]
 raw = "Activează"
@@ -34204,6 +34628,7 @@ ptBR = "Ativar"
 koKR = "활성화"
 csCZ = "Activej"
 viVN = "Activează"
+trTR = "Activează"
 
 ["WonderCompletion.Panel.Header"]
 raw = "Felicitări!"
@@ -34220,6 +34645,7 @@ ptBR = "Parabéns!"
 koKR = "축하합니다!"
 csCZ = "Gratulujeme!"
 viVN = "Chúc mừng!"
+trTR = "Tebrikler!"
 
 ["WonderCompletion.Panel.Statistics"]
 raw = "Statistici:"
@@ -34236,6 +34662,7 @@ ptBR = "Estatísticas:"
 koKR = "통계:"
 csCZ = "Statistiky:"
 viVN = "Thống kê:"
+trTR = "İstatistikler:"
 
 ["WonderCompletion.Statistic.BeaversBorn"]
 raw = "Castori născuți:"
@@ -34252,6 +34679,7 @@ ptBR = "Castores nascidos:"
 koKR = "태어난 비버 수:"
 csCZ = "Zrození bobři:"
 viVN = "Castori născuți:"
+trTR = "Doğmuş Kunduzlar:"
 
 ["WonderCompletion.Statistic.BeaversExploded"]
 raw = "Castori care au explodat:"
@@ -34268,6 +34696,7 @@ ptBR = "Castores que explodiram:"
 koKR = "폭탄에 의해 폭발한 비버:"
 csCZ = "Castorů, kteří explodovali:"
 viVN = "Castor đã nổ:"
+trTR = "Patlayan Kunduzlar:"
 
 ["WonderCompletion.Statistic.BotsManufactured"]
 raw = "Roboți fabricați:"
@@ -34284,6 +34713,7 @@ ptBR = "Robôs fabricados:"
 koKR = "제작된 로봇 수:"
 csCZ = "Roboři vyrobení:"
 viVN = "Roboți được chế tạo:"
+trTR = "Üretilen Robotlar:"
 
 ["WonderCompletion.Statistic.ChippedTeeth"]
 raw = "Dinți ciobiți:"
@@ -34300,6 +34730,7 @@ ptBR = "Dinți lascados:"
 koKR = "부서진 이:"
 csCZ = "Čipuované zuby:"
 viVN = "Dinhti ciobít:"
+trTR = "Çatlak Dişler:"
 
 ["WonderCompletion.Statistic.DaysPassed"]
 raw = "Zile trecute:"
@@ -34316,6 +34747,7 @@ ptBR = "Dias passados:"
 koKR = "지난 날짜 수:"
 csCZ = "Uplynulé dny:"
 viVN = "Ngày đã trôi qua:"
+trTR = "Geçen günler:"
 
 ["WonderCompletion.Statistic.DynamiteDetonated"]
 raw = "Dinamită detonată:"
@@ -34332,6 +34764,7 @@ ptBR = "Dinamitado:"
 koKR = "폭발된 다이너마이트:"
 csCZ = "Nažhavená dynamit:"
 viVN = "Đã kích nổ dinamite:"
+trTR = "Patlayan dinamit:"
 
 ["WonderCompletion.Statistic.TailsPainted"]
 raw = "Cozi pictate:"
@@ -34348,6 +34781,7 @@ ptBR = "Coisas pintadas:"
 koKR = "칠해진 꼬리:"
 csCZ = "Natřené ocasy:"
 viVN = "Cozi được vẽ:"
+trTR = "Boyanmış kuyruklar:"
 
 ["WonderCompletion.Statistic.TreesCut"]
 raw = "Copaci tăiați:"
@@ -34364,6 +34798,7 @@ ptBR = "Árvores cortadas:"
 koKR = "베어낸 나무:"
 csCZ = "Stromy pokácené:"
 viVN = "Cây đã bị chặt:"
+trTR = "Ağaç kesildi:"
 
 ["WonderCompletion.Statistic.WaterConsumed"]
 raw = "Apă băută:"
@@ -34380,6 +34815,7 @@ ptBR = "Água consumida:"
 koKR = "소비한 물:"
 csCZ = "Spotřebovaná voda:"
 viVN = "Nước đã uống:"
+trTR = "İçilen su:"
 
 ["WonderCompletion.WonderCompleted"]
 raw = "Minune finalizată: {0}"
@@ -34396,6 +34832,7 @@ ptBR = "Minuciosa finalizada: {0}"
 koKR = "완료된 경이로움: {0}"
 csCZ = "Minunce dokončena: {0}"
 viVN = "Minune hoàn thành: {0}"
+trTR = "Minnoş tamamlandı: {0}"
 
 ["Work.BeaverOnly"]
 raw = "<YellowHighlight>Numai pentru castori:</YellowHighlight> Doar castorii au voie să lucreze la acest loc de muncă."
@@ -34412,6 +34849,7 @@ ptBR = "<YellowHighlight>Somente para castores:</YellowHighlight> Apenas os cast
 koKR = "<YellowHighlight>비버 전용:</YellowHighlight> 이 일자리에서는 비버만 일할 수 있습니다."
 csCZ = "<YellowHighlight>Only for beavers:</YellowHighlight> Only beavers are allowed to work at this job."
 viVN = "<YellowHighlight>Chỉ dành cho hải ly:</YellowHighlight> Chỉ hải ly mới được làm việc ở vị trí này."
+trTR = "<YellowHighlight>Sadece kunduzlar için:</YellowHighlight> Bu işe yalnızca kunduzlar çalışabilir."
 
 ["Work.BotOnly"]
 raw = "<YellowHighlight>Doar pentru roboți:</YellowHighlight> Doar roboții au voie să lucreze în acest loc de muncă."
@@ -34428,6 +34866,7 @@ ptBR = "<YellowHighlight>Somente para robôs:</YellowHighlight> Somente os robô
 koKR = "<YellowHighlight>로봇 전용:</YellowHighlight> 이 일자리에서는 오직 로봇만 일할 수 있습니다."
 csCZ = "<YellowHighlight>Jen pro roboty:</YellowHighlight> Pouze roboti smí pracovat na tomto pracovním místě."
 viVN = "<YellowHighlight>Chỉ dành cho robot:</YellowHighlight> Chỉ có robot mới được làm việc tại vị trí này."
+trTR = "<YellowHighlight>Sadece robotlar için:</YellowHighlight> Bu işte yalnızca robotlar çalışabilir."
 
 ["Work.CurrentWorkers"]
 raw = "Muncitori: {0} / {1}"
@@ -34444,6 +34883,7 @@ ptBR = "Trabalhadores: {0} / {1}"
 koKR = "근로자: {0} / {1}"
 csCZ = "Pracovníci: {0} / {1}"
 viVN = "Công nhân: {0} / {1}"
+trTR = "İşçiler: {0} / {1}"
 
 ["Work.DefaultAllowedWorker"]
 raw = "Muncitor implicit în clădiri noi"
@@ -34460,6 +34900,7 @@ ptBR = "Mestre padrão em novos edifícios"
 koKR = "새 건물에서 기본 근로자"
 csCZ = "Implicitní pracovník v nových budovách"
 viVN = "Công nhân mặc định trong các tòa nhà mới"
+trTR = "Yeni binalarda varsayılan işçi"
 
 ["Work.DefaultAllowedWorker.Tooltip"]
 raw = "Noile clădiri din acest cartier vor fi inițial concepute pentru a utiliza acest tip de muncitor."
@@ -34476,6 +34917,7 @@ ptBR = "As novas construções neste bairro serão inicialmente projetadas para 
 koKR = "이 지역의 새로운 건물은 처음에 이 유형의 작업자를 사용하도록 설계될 것입니다."
 csCZ = "Nové budovy v této čtvrti budou zpočátku navrženy tak, aby využívaly tento typ pracovníka."
 viVN = "Các tòa nhà mới trong khu vực này sẽ ban đầu được thiết kế để sử dụng loại công nhân này."
+trTR = "Bu mahalledeki yeni binalar, başlangıçta bu tür bir işçiyi kullanmak üzere tasarlanacaktır."
 
 ["Work.FuelRemaining"]
 raw = "Combustibil rămas: {0}%"
@@ -34492,6 +34934,7 @@ ptBR = "Combustível restante: {0}%"
 koKR = "연료 잔여량: {0}%"
 csCZ = "Zbývající palivo: {0}%"
 viVN = "Chất đốt còn lại: {0}%"
+trTR = "Kalan Yakıt: {0}%"
 
 ["Work.Incapacitated"]
 raw = "Rănit"
@@ -34508,6 +34951,7 @@ ptBR = "Ferido"
 koKR = "부상당함"
 csCZ = "Zraněn"
 viVN = "Rạn nứt"
+trTR = "Yaralı"
 
 ["Work.MaxDepth"]
 raw = "Adâncime maximă: {0}"
@@ -34524,6 +34968,7 @@ ptBR = "Adâncime máxima: {0}"
 koKR = "최대 깊이: {0}"
 csCZ = "Maximální hloubka: {0}"
 viVN = "Độ sâu tối đa: {0}"
+trTR = "En yüksek derinlik: {0}"
 
 ["Work.MaximumWorkers"]
 raw = "Număr maxim de muncitori: {0}"
@@ -34540,6 +34985,7 @@ ptBR = " Número máximo de trabalhadores: {0}"
 koKR = "최대 근로자 수: {0}"
 csCZ = "Maximální počet pracovníků: {0}"
 viVN = "Số lượng công nhân tối đa: {0}"
+trTR = "Maksimum işçi sayısı: {0}"
 
 ["Work.PriorityTitle"]
 raw = "Prioritate de muncă"
@@ -34556,6 +35002,7 @@ ptBR = "Prioridade de Trabalho"
 koKR = "작업 우선순위"
 csCZ = "Priorita práce"
 viVN = "Ưu tiên công việc"
+trTR = "Çalışma Önceliği"
 
 ["Work.Productivity"]
 raw = "Productivitate: {0}"
@@ -34572,6 +35019,7 @@ ptBR = "Produtividade: {0}"
 koKR = "생산성: {0}"
 csCZ = "Produktivita: {0}"
 viVN = "Hiệu suất: {0}"
+trTR = "Verimlilik: {0}"
 
 ["Work.ProductivityHeader"]
 raw = "Productivitate"
@@ -34588,6 +35036,7 @@ ptBR = "Produtividade"
 koKR = "생산성"
 csCZ = "Produktivita"
 viVN = "Hiệu suất"
+trTR = "Verimlilik"
 
 ["Work.ProductivityTip"]
 raw = "Procentul de timp petrecut în producție, comparativ cu timpul de nefuncționare, cum ar fi transportul materialelor."
@@ -34604,6 +35053,7 @@ ptBR = "Porcentagem do tempo gasto na produção, em comparação com o tempo de
 koKR = "생산에 소요된 시간의 비율로, 자재 운반과 같은 비가동 시간과 비교됩니다."
 csCZ = "Procento času stráveného výrobou ve srovnání s časem nečinnosti, jako je přeprava materiálů."
 viVN = "Phần trăm thời gian dành cho sản xuất, so với thời gian không hoạt động, chẳng hạn như vận chuyển vật liệu."
+trTR = "Üretimde geçirilen zamanın, malzemelerin taşınması gibi çalışmama süresi ile karşılaştırılmasıyla elde edilen yüzdelik."
 
 ["Work.Vacant"]
 raw = "Liber"
@@ -34620,6 +35070,7 @@ ptBR = "Livre"
 koKR = "자유"
 csCZ = "Volný"
 viVN = "Tự do"
+trTR = "Boş"
 
 ["Work.VacantPlural"]
 raw = "Posturi libere"
@@ -34636,6 +35087,7 @@ ptBR = "Postos Vagantes"
 koKR = "빈 자리"
 csCZ = "Volná místa"
 viVN = "Vị trí trống"
+trTR = "Açık pozisyonlar"
 
 ["Work.WorkRefusalWarning"]
 raw = "Refuză să lucreze"
@@ -34652,6 +35104,7 @@ ptBR = "Recusa trabalhar"
 koKR = "작업을 거부합니다"
 csCZ = "Odmítá pracovat"
 viVN = "Không chịu làm việc"
+trTR = "Çalışmayı reddediyor"
 
 ["Work.Workers"]
 raw = "Muncitori: {0}"
@@ -34668,6 +35121,7 @@ ptBR = "Trabalhadores: {0}"
 koKR = "작업자: {0}"
 csCZ = "Pracovníci: {0}"
 viVN = "Công nhân: {0}"
+trTR = "İşçiler: {0}"
 
 ["Work.WorkersLabel"]
 raw = "Muncitori"
@@ -34684,6 +35138,7 @@ ptBR = "Trabalhadores"
 koKR = "근로자"
 csCZ = "Dělníci"
 viVN = "Công nhân"
+trTR = "İşçiler"
 
 ["Work.WorkingHoursTooltip"]
 raw = "Ore de lucru"
@@ -34700,6 +35155,7 @@ ptBR = "Horários de Trabalho"
 koKR = "작업 시간"
 csCZ = "Pracovní hodiny"
 viVN = "Giờ làm việc"
+trTR = "Çalışma Saati"
 
 ["Work.Workplace.DisplayName"]
 raw = "Locul de muncă"
@@ -34716,6 +35172,7 @@ ptBR = "Locação de Trabalho"
 koKR = "작업장"
 csCZ = "Pracoviště"
 viVN = "Địa điểm làm việc"
+trTR = "Çalışma Yeri"
 
 ["Work.WorkplaceUnlock.CantUnlock"]
 raw = "Nu pot debloca acest loc de muncă pentru boți, nu am suficiente puncte științifice."
@@ -34732,6 +35189,7 @@ ptBR = "Não consigo desbloquear este local de trabalho para os robôs, não ten
 koKR = "로봇을 위한 이 작업장을 잠금 해제할 수 없습니다. 과학 포인트가 충분하지 않습니다."
 csCZ = "Nemohu odemknout toto pracovní místo pro boty, nemám dostatek vědeckých bodů."
 viVN = "Không thể mở khóa địa điểm làm việc cho bot, tôi không có đủ điểm khoa học."
+trTR = "Bu iş yerini robotlar için açamıyorum, yeterli bilim puanım yok."
 
 ["Work.WorkplaceUnlock.Prompt"]
 raw = "Sigur vrei să deblochezi acest loc de muncă pentru roboți? Costă {0} Puncte științifice."
@@ -34748,6 +35206,7 @@ ptBR = "Tem certeza de que deseja desbloquear este local de trabalho para robôs
 koKR = "로봇을 위해 이 작업장을 잠금 해제하시겠습니까? 비용은 {0} 과학 포인트입니다."
 csCZ = "Opravdu chceš odemknout toto pracovní místo pro roboty? Stojí to {0} vědeckých bodů."
 viVN = "Bạn có chắc chắn muốn mở khóa địa điểm làm việc này cho robot không? Nó tốn {0} Điểm Khoa Học."
+trTR = "Bu robotlar için bu iş yerini debloke etmek istediğine emin misin? Maliyeti {0} Bilim Puanı."
 
 ["Work.WorkplaceUnlock.Tooltip"]
 raw = "Deblochează acest loc de muncă pentru roboți."
@@ -34764,6 +35223,7 @@ ptBR = "Debloca este local de trabalho para robôs."
 koKR = "로봇을 위한 이 작업장을 잠금 해제합니다."
 csCZ = "Odemkni toto pracovní místo pro roboty."
 viVN = "Deblock this workplace for robots."
+trTR = "Bu iş yerini robotlar için aç."
 
 ["Zipline.AddConnection"]
 raw = "Adăugați o conexiune"
@@ -34780,6 +35240,7 @@ ptBR = "Adicionar uma conexão"
 koKR = "연결 추가"
 csCZ = "Přidat spojení"
 viVN = "Thêm kết nối"
+trTR = "Bir bağlantı ekleyin"
 
 ["Zipline.BlockedWarning"]
 raw = "Linie obstrucționată!"
@@ -34796,6 +35257,7 @@ ptBR = "Cabos obstruídos!"
 koKR = "지지대가 막혔습니다!"
 csCZ = "Zipline.BlokovánoVarování\" - \"Linie obstrukce!"
 viVN = "Cáp bị chặn!"
+trTR = "Hat engellendi!"
 
 ["Zipline.Connections"]
 raw = "Conexiuni:"
@@ -34812,6 +35274,7 @@ ptBR = "Conexões:"
 koKR = "연결:"
 csCZ = "Závěsy:"
 viVN = "“Kết nối:”"
+trTR = "Bağlantılar:"
 
 ["Zipline.Distance"]
 raw = "{0} / {1}"
@@ -34828,6 +35291,7 @@ ptBR = "{0} / {1}"
 koKR = "{0} / {1}"
 csCZ = "{0} / {1}"
 viVN = "{0} / {1}"
+trTR = "{0} / {1}"
 
 ["Zipline.DistanceWarning"]
 raw = "Prea departe!"
@@ -34844,6 +35308,7 @@ ptBR = "Prea departe!"
 koKR = "너무 멀어!"
 csCZ = " příliš daleko!"
 viVN = "Quá xa!"
+trTR = "Çok uzak!"
 
 ["Zipline.Inclination"]
 raw = "{0} / {1}"
@@ -34860,6 +35325,7 @@ ptBR = "{0} / {1}"
 koKR = "{0} / {1}"
 csCZ = "{0} / {1}"
 viVN = "{0} / {1}"
+trTR = "{0} / {1}"
 
 ["Zipline.InclinationWarning"]
 raw = "Prea abrupt!"
@@ -34876,6 +35342,7 @@ ptBR = "Too steep!"
 koKR = "너무 급경사!"
 csCZ = "Příliš strmé!"
 viVN = "Quá dốc!"
+trTR = "Çok dik!"
 
 ["Zipline.PickDestination"]
 raw = "Selectați destinația pentru a crea o conexiune"
@@ -34892,6 +35359,7 @@ ptBR = "Selecione o destino para criar uma conexão"
 koKR = "연결을 만들 목적지를 선택하세요"
 csCZ = "Vyberte cíl pro vytvoření spojení"
 viVN = "Chọn địa điểm để tạo kết nối"
+trTR = "Bağlantı oluşturmak için bir varış yeri seçin"
 
 ["Zipline.RemoveConnection"]
 raw = "Eliminați conexiunea"
@@ -34908,6 +35376,7 @@ ptBR = "Remover Conexão"
 koKR = "연결 제거"
 csCZ = "Odstranit spojení"
 viVN = "Xóa kết nối"
+trTR = "Bağlantıyı kaldır"
 
 ["Zipline.TooManyConnections"]
 raw = "Prea multe conexiuni!"
@@ -34924,3 +35393,4 @@ ptBR = "Conexões demais!"
 koKR = "연결이 너무 많습니다!"
 csCZ = "Příliš mnoho spojení!"
 viVN = "Quá nhiều kết nối!"
+trTR = "Çok fazla bağlantı!"

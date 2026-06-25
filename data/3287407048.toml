@@ -16,6 +16,7 @@ ptBR = "Pipeta"
 koKR = "파이프렛"
 csCZ = "Pipeta"
 viVN = "Pipet"
+trTR = " pipet"
 
 ["Tobbert.PipetteTool.Description"]
 raw = "Click a building to enter construction mode for that building. (Default Shortcut CTRL + CLICK)"
@@ -32,6 +33,7 @@ ptBR = "Clique em um edifício para entrar no modo de construção para esse edi
 koKR = "건물을 클릭하여 해당 건물의 건설 모드에 들어갑니다. (기본 단축키 CTRL + 클릭)"
 csCZ = "Klikněte na budovu pro vstup do režimu stavby této budovy. (Výchozí klávesová zkratka CTRL + KLIKNUTÍ)"
 viVN = "Nhấp vào một tòa nhà để vào chế độ xây dựng cho tòa nhà đó. (Phím tắt mặc định là CTRL + CLICK)"
+trTR = "Bir bina üzerine tıklayın, o binanın inşaat moduna girmek için. (Varsayılan Kısayol CTRL + TIKLA)"
 
 ["Tobbert.PipetteTool.KeyBindingGroup.PipetteTool"]
 raw = "Pipette Tool"
@@ -48,6 +50,7 @@ ptBR = "Ferramenta de Pipeta"
 koKR = "피펫 도구"
 csCZ = "Pipetový nástroj"
 viVN = "Công cụ Pipette"
+trTR = "Pipet Aracı"
 
 ["Tobbert.PipetteTool.KeyBinding.PipetteTool"]
 raw = "Pipette Tool Keybind"
@@ -64,6 +67,7 @@ ptBR = "Ferramenta de Pipeta"
 koKR = "파이펫 도구 키 바인드"
 csCZ = "Klávesová zkratka nástroje Pipette Tool"
 viVN = "Phím tắt Công cụ Pipette"
+trTR = "Pipet Aracı Tuş Ataması"
 
 ["Tobbert.PipetteTool.Setting.Header"]
 raw = "Pipette Tool Settings"
@@ -80,6 +84,7 @@ ptBR = "Configurações da Ferramenta de Pipeta"
 koKR = "피펫 도구 설정"
 csCZ = "Nastavení nástroje Pipetta"
 viVN = "Cài đặt Công cụ Pipette"
+trTR = "Pipet Aracı Ayarları"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolMode"]
 raw = "Pipetting Mode"
@@ -96,6 +101,7 @@ ptBR = "Modo de Pipetagem"
 koKR = "삽입 모드"
 csCZ = "Pipetovací režim"
 viVN = "Chế độ Pipette"
+trTR = "Pipetleme Modu"
 
 ["Tobbert.PipetteTool.Setting.PipetteToolModeToolTip"]
 raw = "Hold Mode: Hold the Pipette Tool Keybind button and use the Mouse Selection button to start pipetting.\nPress Mode: Pipette Tool is activated after the Pipette Tool Keybind is pressed and released.\nDirect Mode (Key Bind): This setting allows for direct pipetting without having to click. Using the key bind above it will directly switch to the relevant building (Factorio player approved).\nDirect Mode (Middle Mouse Button): This setting allows for direct pipetting without having to use the Key bind. Using the Middle Mouse Button will directly switch to the relevant building (Minecraft player approved).\nInverted Mode: When a building is selected, press the Pipette Tool Key Bind to switch the relevant object."
@@ -112,6 +118,7 @@ ptBR = "Modo de Manter: Mantenha o botão de atalho da Ferramenta de Pipeta pres
 koKR = "홀드 모드: 파이펫 도구 키 바인드 버튼을 누르고 마우스 선택 버튼을 사용하여 파이펫을 시작하세요.  \n프레스 모드: 파이펫 도구 키 바인드가 눌러지고 해제된 후 파이펫 도구가 활성화됩니다.  \n직접 모드 (키 바인드): 이 설정은 클릭 없이 직접 파이펫을 가능하게 합니다. 위의 키 바인드를 사용하면 관련 건물로 직접 전환됩니다 (팩토리오 플레이어 승인).  \n직접 모드 (중간 마우스 버튼): 이 설정은 키 바인드를 사용하지 않고 직접 파이펫을 가능하게 합니다. 중간 마우스 버튼을 사용하면 관련 건물로 직접 전환됩니다 (마인크래프트 플레이어 승인).  \n반전 모드: 건물이 선택된 상태에서 파이펫 도구 키 바인드를 눌러 관련 객체로 전환합니다."
 csCZ = "Režim držení: Držte tlačítko klávesové zkratky pro Pipette Tool a použijte tlačítko pro výběr myši k začátku pipetování.  \nRežim stisknutí: Pipette Tool je aktivován po stisknutí a uvolnění klávesové zkratky pro Pipette Tool.  \nPřímý režim (klávesová zkratka): Toto nastavení umožňuje přímé pipetování bez nutnosti kliknutí. Použití výše uvedené klávesové zkratky se přímo přepne na relevantní budovu (podporováno hráči Factorio).  \nPřímý režim (střední tlačítko myši): Toto nastavení umožňuje přímé pipetování bez použití klávesové zkratky. Použití středního tlačítka myši se přímo přepne na relevantní budovu (podporováno hráči Minecraft).  \nInvertovaný režim: Když je vybrána budova, stiskněte klávesovou zkratku pro Pipette Tool, abyste přepnuli na relevantní objekt."
 viVN = "Chế độ Giữ: Giữ phím tắt của Công cụ Pipette và sử dụng nút Chọn Chuột để bắt đầu thao tác pipette.\nChế độ Nhấn: Công cụ Pipette được kích hoạt sau khi phím tắt của Công cụ Pipette được nhấn và thả.\nChế độ Trực tiếp (Phím tắt): Cài đặt này cho phép thực hiện pipette trực tiếp mà không cần nhấp chuột. Sử dụng phím tắt ở trên sẽ trực tiếp chuyển sang tòa nhà liên quan (được người chơi Factorio phê duyệt).\nChế độ Trực tiếp (Nút Chuột giữa): Cài đặt này cho phép thực hiện pipette trực tiếp mà không cần dùng phím tắt. Sử dụng Nút Chuột giữa sẽ trực tiếp chuyển sang tòa nhà liên quan (được người chơi Minecraft phê duyệt).\nChế độ Đảo ngược: Khi một tòa nhà được chọn, nhấn phím tắt của Công cụ Pipette để chuyển đổi đối tượng liên quan."
+trTR = "Tutma Modu: Pipet Aracı Kısayol tuşuna basılı tutun ve pipetleme başlatmak için Fare Seçim tuşunu kullanın. \nBasılı Mod: Pipet Aracı, Pipet Aracı Kısayolu tuşuna basıldığında ve bırakıldığında etkinleştirilir. \nDoğrudan Mod (Kısayol): Bu ayar, tıklamaya gerek kalmadan doğrudan pipetlemeye olanak tanır. Yukarıdaki kısayolu kullanarak ilgili binaya doğrudan geçiş yapabilirsiniz (Factorio oyuncuları onaylıyor). \nDoğrudan Mod (Orta Fare Tuşu): Bu ayar, Kısayol kullanmadan doğrudan pipetlemeye olanak tanır. Orta Fare Tuşunu kullanarak ilgili binaya doğrudan geçiş yapabilirsiniz (Minecraft oyuncuları onaylıyor). \nTers Mod: Bir bina seçildiğinde, ilgili nesneye geçmek için Pipet Aracı Kısayolu tuşuna basın."
 
 ["Tobbert.PipetteTool.Setting.MouseSelectionButton"]
 raw = "Mouse Selection Button"
@@ -128,6 +135,7 @@ ptBR = "Botão de Seleção do Mouse"
 koKR = "마우스 선택 버튼"
 csCZ = "Tlačítko pro výběr myší"
 viVN = "Nút chọn chuột"
+trTR = "Fare Seçim Butonu"
 
 ["Tobbert.PipetteTool.Setting.HoldMode"]
 raw = "Hold Mode"
@@ -144,6 +152,7 @@ ptBR = "Modo de Espera"
 koKR = "홀드 모드"
 csCZ = "Režim držení"
 viVN = "Chế độ giữ"
+trTR = "Tutma Modu"
 
 ["Tobbert.PipetteTool.Setting.PressMode"]
 raw = "Press Mode"
@@ -160,6 +169,7 @@ ptBR = "Modo do Pressione"
 koKR = "프레스 모드"
 csCZ = "Režim stisknutí"
 viVN = "Chế độ Nhấn"
+trTR = "Basma Modu"
 
 ["Tobbert.PipetteTool.Setting.DirectModeKeyBind"]
 raw = "Direct Mode (Keybind)"
@@ -176,6 +186,7 @@ ptBR = "Modo Direto (Atalho)"
 koKR = "직접 모드 (키바인드)"
 csCZ = "Režim přímého ovládání (Klávesová zkratka)"
 viVN = "Chế độ trực tiếp (phím tắt)"
+trTR = "Doğrudan Mod (Kısayol Tuşu)"
 
 ["Tobbert.PipetteTool.Setting.DirectModeMiddleMouseButton"]
 raw = "Direct Mode (Middle Mouse Button)"
@@ -192,6 +203,7 @@ ptBR = "Modo Direto (Botão do Meio do Mouse)"
 koKR = "직접 모드 (중간 마우스 버튼)"
 csCZ = "Přímý režim (střední tlačítko myši)"
 viVN = "Chế độ trực tiếp (Nút chuột giữa)"
+trTR = "Doğrudan Mod (Orta Fare Düğmesi)"
 
 ["Tobbert.PipetteTool.Setting.ForcePipette"]
 raw = "Force Pipetting"
@@ -208,6 +220,7 @@ ptBR = "Força de pipetagem"
 koKR = "강제 피펫"
 csCZ = "Vynutit pipetování"
 viVN = "Buộc sử dụng Pipette"
+trTR = "Zorlama Pipetleme"
 
 ["Tobbert.PipetteTool.Setting.ForcePipetteTooltip"]
 raw = "Forces the pipetting tool even when another tool is currently active."
@@ -224,6 +237,7 @@ ptBR = "Força a ferramenta de pipetagem mesmo quando outra ferramenta está ati
 koKR = "현재 다른 도구가 활성화되어 있어도 피펫 도구를 강제로 사용합니다."
 csCZ = "Nutí nástroj pipety i při aktivním jiném nástroji."
 viVN = "Buộc công cụ Pipette hoạt động ngay cả khi một công cụ khác đang hoạt động."
+trTR = "Pipetleme aracını, başka bir araç mevcutken bile zorlar."
 
 ["Tobbert.PipetteTool.Setting.InvertedMode"]
 raw = "Inverted Mode"
@@ -240,3 +254,4 @@ ptBR = "Modo Invertido"
 koKR = "반전 모드"
 csCZ = "Inverzní režim"
 viVN = "Chế độ đảo ngược"
+trTR = "Inverse Mod"

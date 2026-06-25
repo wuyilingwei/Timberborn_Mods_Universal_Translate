@@ -16,6 +16,7 @@ ptBR = "Ativar Todos"
 koKR = "모두 활성화"
 csCZ = "Zapnout vše"
 viVN = "Kích hoạt tất cả"
+trTR = "Herşeyi Etkinleştir"
 
 ["DAM.EnableAllDesc"]
 raw = "Check to enable all mods upon exit. Restart required and this is automatically unchecked."
@@ -32,6 +33,7 @@ ptBR = "Verifique para ativar todos os mods ao sair. É necessário reiniciar e 
 koKR = "모두 사용 설정 확인 - \"종료 시 모든 모드를 활성화하려면 체크하세요. 재시작이 필요하며, 이 옵션은 자동으로 선택 해제됩니다.\""
 csCZ = "Zaškrtněte pro povolení všech modů po ukončení. Je nutný restart a toto bude automaticky zrušeno."
 viVN = "Đánh dấu để kích hoạt tất cả các mod khi thoát. Yêu cầu khởi động lại và tùy chọn này sẽ tự động bỏ chọn."
+trTR = "Çıkışta tüm modları etkinleştirmek için işaretleyin. Yeniden başlatma gereklidir ve bu otomatik olarak işaretli kaldırılır."
 
 ["DAM.DisableAll"]
 raw = "Disable All"
@@ -48,6 +50,7 @@ ptBR = "Desativar Tudo"
 koKR = "모두 비활성화"
 csCZ = "Vypnout vše"
 viVN = "Vô hiệu hóa tất cả"
+trTR = "Tümünü Devre Dışı Bırak"
 
 ["DAM.DisableAllDesc"]
 raw = "Check to disable all mods upon exit. Restart required and this is automatically unchecked."
@@ -64,6 +67,7 @@ ptBR = "Marque para desativar todos os mods ao sair. Reinício necessário e iss
 koKR = "게임을 종료할 때 모든 모드를 비활성화하려면 체크하십시오. 재시작이 필요하며, 이 옵션은 자동으로 선택 해제됩니다."
 csCZ = "Zaškrtněte pro deaktivaci všech modů při výstupu. Je vyžadován restart a toto bude automaticky zrušeno."
 viVN = "Đánh dấu để vô hiệu hóa tất cả các mod khi thoát. Yêu cầu khởi động lại và tùy chọn này sẽ tự động bỏ chọn."
+trTR = "Çıkışta tüm modları devre dışı bırakmak için işaretleyin. Yeniden başlatma gereklidir ve bu otomatik olarak kaldırılır."
 
 ["DAM.KeepEnabled"]
 raw = "Keep Enabled"
@@ -80,6 +84,7 @@ ptBR = "Mantenha ativado"
 koKR = "활성화 유지"
 csCZ = "Udržet povolené"
 viVN = "Giữ được kích hoạt"
+trTR = "Açık Tut"
 
 ["DAM.KeepEnabledDesc"]
 raw = "Semi-colon ';' separated list of mod IDs to keep enabled if Disable All is checked."
@@ -96,6 +101,7 @@ ptBR = "Lista de IDs de mods separados por ponto e vírgula ';' a serem mantidos
 koKR = "모든 비활성화가 체크되었을 경우 유지할 모드 ID의 세미콜론 ';'으로 구분된 목록입니다."
 csCZ = "Seznam ID modulů oddělených středníkem ';', které mají zůstat povolené, pokud je zaškrtnuto Zakázat vše."
 viVN = "Danh sách các ID mod được phân tách bằng dấu ';' để giữ chúng ở trạng thái bật nếu Tắt tất cả được chọn."
+trTR = "Disable All seçili ise etkin tutmak için noktalı virgülle ';' ayrılmış mod kimlikleri listesi."
 
 ["DAM.LoadProfile"]
 raw = "Load profile"
@@ -112,6 +118,7 @@ ptBR = "Carregar perfil"
 koKR = "프로필 불러오기"
 csCZ = "Nahrát profil"
 viVN = "Tải hồ sơ"
+trTR = "Profil Yükle"
 
 ["DAM.LoadProfileDesc"]
 raw = "Enable mods with ids from the 'mods.txt' file. It should be in the mod's folder."
@@ -128,6 +135,7 @@ ptBR = "Ative os mods com os IDs do arquivo 'mods.txt'. Ele deve estar na pasta 
 koKR = "모드의 폴더에 있어야 하는 'mods.txt' 파일의 ID를 사용하여 모드를 활성화합니다."
 csCZ = "Povolte mody s ID z souboru 'mods.txt'. Měl by být ve složce modu."
 viVN = "Bật các mod có ID từ tệp 'mods.txt'. Nó nên nằm trong thư mục của mod."
+trTR = "Modların 'mods.txt' dosyasındaki kimliklerini etkinleştir. Modun klasöründe olmalı."
 
 ["DAM.SaveProfile"]
 raw = "Save profile"
@@ -144,6 +152,7 @@ ptBR = "Salvar perfil"
 koKR = "프로필 저장"
 csCZ = "Uložit profil"
 viVN = "Lưu hồ sơ"
+trTR = "Profil kaydet"
 
 ["DAM.SaveProfileDesc"]
 raw = "Save enabled mods to the 'mods.txt' file. It will be in the mod's folder."
@@ -160,6 +169,7 @@ ptBR = "Salve os mods habilitados no arquivo 'mods.txt'. Ele estará na pasta do
 koKR = "활성화된 모드를 'mods.txt' 파일에 저장합니다. 이 파일은 모드의 폴더에 있습니다."
 csCZ = "Uložte povolené mody do souboru 'mods.txt'. Bude se nacházet ve složce modu."
 viVN = "Lưu các mod được bật vào tệp 'mods.txt'. Nó sẽ nằm trong thư mục của mod."
+trTR = "Açık olan modları 'mods.txt' dosyasına kaydedin. Modun klasöründe olacaktır."
 
 ["DAM.ViewProfileFolder"]
 raw = "View profile folder"
@@ -176,6 +186,7 @@ ptBR = "Visualizar pasta de perfil"
 koKR = "프로필 폴더 보기"
 csCZ = "Zobrazit složku profilu"
 viVN = "Xem thư mục hồ sơ"
+trTR = "Profil klasörünü görüntüle"
 
 ["DAM.ViewProfileFolderDesc"]
 raw = "Open the folder where the 'mods.txt' file is located."
@@ -192,6 +203,7 @@ ptBR = "Abra a pasta onde o arquivo 'mods.txt' está localizado."
 koKR = "‘mods.txt’ 파일이 위치한 폴더를 엽니다."
 csCZ = "Otevřete složku, kde se nachází soubor 'mods.txt'."
 viVN = "Mở thư mục chứa tệp 'mods.txt'."
+trTR = "'mods.txt' dosyasının bulunduğu klasörü açın."
 
 ["DAM.RestartGame"]
 raw = "OK & Restart the game"
@@ -208,3 +220,4 @@ ptBR = "OK e reinicie o jogo"
 koKR = "확인 및 게임 재시작"
 csCZ = "OK a restartovat hru"
 viVN = "Đồng ý & Khởi động lại trò chơi"
+trTR = "Tamam & Oyunu Yeniden Başlat"

@@ -16,6 +16,7 @@ ptBR = "Mover"
 koKR = "이동"
 csCZ = "Přesunout"
 viVN = "Di chuyển"
+trTR = "Hareket Ettir"
 
 ["BuildingMover.MoveTooltip"]
 raw = "Pick up this building and place it elsewhere"
@@ -32,6 +33,7 @@ ptBR = "Pegue este edifício e coloque-o em outro lugar"
 koKR = "이 건물을 들어올려 다른 곳에 놓으세요"
 csCZ = "Vezměte tuto budovu a umístěte ji jinam"
 viVN = "Nhặt tòa nhà này và đặt nó ở nơi khác"
+trTR = "Bu yapıyı al ve başka bir yere yerleştir"
 
 ["BuildingMover.ToolDescription"]
 raw = "Click a tile to drop the building. Right-click or Esc to cancel."
@@ -48,6 +50,7 @@ ptBR = " clique em um tile para soltar o edifício. Clique com o botão direito 
 koKR = "건물을 놓으려면 타일을 클릭하세요. 취소하려면 마우스 오른쪽 버튼을 클릭하거나 Esc 키를 누르세요."
 csCZ = "Klikněte na dlaždici pro uložení budovy. Pravým tlačítkem myši nebo Esc pro zrušení."
 viVN = "Nhấp chuột vào một ô để thả công trình. Nhấp chuột phải hoặc Esc để hủy."
+trTR = "Bir alanı tıklayarak binayı bırakın. İptal etmek için sağ tıklayın veya Esc tuşuna basın."
 
 ["BuildingMover.MoveObject"]
 raw = "Move building"
@@ -64,6 +67,7 @@ ptBR = "Mover edifício"
 koKR = "건물 이동"
 csCZ = "Přesunout budovu"
 viVN = "Di chuyển tòa nhà"
+trTR = "Binayı taşı"
 
 ["BuildingMover.MoveCostPercent"]
 raw = "Move cost (%)"
@@ -80,6 +84,7 @@ ptBR = "Custo de movimento (%)"
 koKR = "이동 비용 (%)"
 csCZ = "Celkové náklady na přesun (%)"
 viVN = "Chi phí di chuyển (%)"
+trTR = "Taşıma maliyeti (%)"
 
 ["BuildingMover.MoveCostPercentTooltip"]
 raw = "Percentage of the building's build materials charged for each move. 0 means free. Materials are drawn from public stockpiles in the source's district first, then from nearer districts."
@@ -96,6 +101,7 @@ ptBR = "Porcentagem dos materiais de construção do edifício cobrados para cad
 koKR = "건물 이동 시 부과되는 자재 비율. 0은 무료를 의미합니다. 자재는 먼저 출발 지구의 공공 재고에서 소모되며, 이후 가까운 지구에서 소모됩니다."
 csCZ = "Procento stavebních materiálů, které se účtují za každý přesun. 0 znamená zdarma. Materiály se nejprve čerpají z veřejných skladů v okrese zdroje, poté z blízkějších okresů."
 viVN = "Phần trăm vật liệu xây dựng của công trình sẽ bị tính phí cho mỗi lần di chuyển. 0 có nghĩa là miễn phí. Vật liệu được lấy từ kho công cộng trong quận của nguồn trước, sau đó từ các quận gần hơn."
+trTR = "Binanın her taşıma işlemi için alınan inşaat malzemelerinin yüzdesi. 0, ücretsiz demektir. Malzemeler öncelikle kaynağın bölgesindeki kamu depolarından, ardından daha yakın bölgelerden alınır."
 
 ["BuildingMover.Zipline.ConnectionsWillBreak"]
 raw = "These zipline connections will break:"
@@ -112,6 +118,7 @@ ptBR = "Essas conexões de tirolesa vão quebrar:"
 koKR = "이 집라인 연결이 끊어질 것입니다:"
 csCZ = "Tato spojení lanovky se přeruší:"
 viVN = "Các kết nối zipline này sẽ bị hỏng:"
+trTR = "Bu tel bana bağlantıları kopacak:"
 
 ["BuildingMover.Zipline.AllConnectionsKept"]
 raw = "All zipline connections will be kept"
@@ -128,6 +135,7 @@ ptBR = "Todas as conexões de tirolesa serão mantidas"
 koKR = "모든 짚라인 연결이 유지됩니다"
 csCZ = "Všechny spojení lanovek budou zachována"
 viVN = "Tất cả kết nối cáp sẽ được giữ lại"
+trTR = "Tüm zipline bağlantıları korunacaktır"
 
 ["BuildingMover.Zipline.TooFar"]
 raw = "Too far ({0}/{1} tiles)"
@@ -144,6 +152,7 @@ ptBR = "Distante demais ({0}/{1} azulejos)"
 koKR = "너무 멀어요 ({0}/{1} 타일)"
 csCZ = " příliš daleko ({0}/{1} dlaždic)"
 viVN = "Quá xa ({0}/{1} ô)"
+trTR = "Çok uzak ({0}/{1} karo)"
 
 ["BuildingMover.Zipline.TooSteep"]
 raw = "Too steep ({0}°/{1}°)"
@@ -160,6 +169,7 @@ ptBR = "Declive muito acentuado ({0}°/{1}°)"
 koKR = "너무 가파름 ({0}°/{1}°)"
 csCZ = "Příliš strmé ({0}°/{1}°)"
 viVN = "Độ dốc quá lớn ({0}°/{1}°)"
+trTR = "Çok dik ({0}°/{1}°)"
 
 ["BuildingMover.Zipline.DifferentDistricts"]
 raw = "Different districts"
@@ -176,6 +186,7 @@ ptBR = "Distritos diferentes"
 koKR = "다른 구역"
 csCZ = "Různé čtvrtě"
 viVN = "Khu vực khác nhau"
+trTR = "Farklı bölgeler"
 
 ["BuildingMover.Zipline.Blocked"]
 raw = "Cable path blocked"
@@ -192,3 +203,4 @@ ptBR = "Caminho do cabo bloqueado"
 koKR = "케이블 경로가 차단됨"
 csCZ = "Cesta kabelu je zablokována"
 viVN = "Đường dây cáp bị chặn"
+trTR = "Kablo yolu engellendi"

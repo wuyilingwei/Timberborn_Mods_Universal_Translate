@@ -16,6 +16,7 @@ ptBR = "Opções de colocação:"
 koKR = "배치 옵션:"
 csCZ = "Možnosti umístění:"
 viVN = "Tùy chọn bố trí:"
+trTR = "Yerleştirme seçenekleri:"
 
 ["LV.CPl.RemoveCorner"]
 raw = "Remove corner occupation"
@@ -32,6 +33,7 @@ ptBR = "Remover ocupação de canto"
 koKR = "코너 점유 제거"
 csCZ = "Odstranit obsazení rohu"
 viVN = "Loại bỏ chiếm góc"
+trTR = "Köşe işgalini kaldır"
 
 ["LV.CPl.RemoveCornerDesc"]
 raw = "Allows building structures such as Platforms over plants."
@@ -48,6 +50,7 @@ ptBR = "Permite construir estruturas como Plataformas sobre plantas."
 koKR = "식물 위에 플랫폼과 같은 구조물을 건설할 수 있습니다."
 csCZ = "Umožňuje stavět různé struktury, jako jsou platformy, nad rostlinami."
 viVN = "Cho phép xây dựng các công trình như những nền tảng trên thực vật."
+trTR = "Bitkilerin üstünde Yüzeyler gibi yapılar inşa edilmesine izin verir."
 
 ["LV.CPl.RemovePath"]
 raw = "Remove path occupation"
@@ -64,6 +67,7 @@ ptBR = "Remover ocupação de caminho"
 koKR = "경로 점유 제거"
 csCZ = "Odstranit obsazení cesty"
 viVN = "Gỡ bỏ chiếm đóng đường đi"
+trTR = "Yol işgalini kaldır"
 
 ["LV.CPl.RemovePathDesc"]
 raw = "Allows building Paths through plants."
@@ -80,6 +84,7 @@ ptBR = "Permite construir caminhos através de plantas."
 koKR = "식물을 통해 경로를 건설할 수 있습니다."
 csCZ = "Umožňuje stavět cesty skrze rostliny."
 viVN = "Cho phép xây dựng đường đi xuyên qua thực vật."
+trTR = "Bitkilerin içinden yollar inşa etmeyi sağlar."
 
 ["LV.CPl.WithoutGround"]
 raw = "Plant without ground"
@@ -96,6 +101,7 @@ ptBR = "Plantar sem solo"
 koKR = "지면 없는 식물"
 csCZ = "Rostlina bez půdy"
 viVN = "Cây không cần đất"
+trTR = "Topraksız bitki"
 
 ["LV.CPl.WithoutGroundDesc"]
 raw = "Allows planting directly on roofs and platforms without soil. These plants receive irrigation and contamination from the land below."
@@ -112,6 +118,7 @@ ptBR = "Permite o plantio diretamente em telhados e plataformas sem solo. Essas 
 koKR = "이 식물들은 토양 없이 지붕과 플랫폼에 직접 심을 수 있습니다. 이 식물들은 아래의 땅에서부터 물과 오염을 받습니다."
 csCZ = "Umožňuje sázení přímo na střechy a platformy bez půdy. Tyto rostliny dostávají zavlažování a kontaminaci z půdy pod nimi."
 viVN = "Cho phép trồng trực tiếp trên mái nhà và các nền tảng mà không cần đất. Những cây này nhận nước tưới và ô nhiễm từ đất phía dưới."
+trTR = "Toprak olmadan doğrudan çatı ve platformlara ekim yapılmasına izin verir. Bu bitkiler, altında bulunan toprağın sulama ve kirliliğini alır."
 
 ["LV.CPl.NoConUp"]
 raw = "> No contamination up (cheater :P)"
@@ -128,6 +135,7 @@ ptBR = "> Sem contaminação (trapaceiro :P)"
 koKR = "> 오염 증가 없음 (치터 :P)"
 csCZ = "> Žádné znečištění nahoru (podvodník :P)"
 viVN = "> Không ô nhiễm tăng lên (kẻ gian lận :P)"
+trTR = "> Kirlenme yok (hileci :P)"
 
 ["LV.CPl.NoConUpDesc"]
 raw = "Prevents land contamination from being brought up. Enables planting trees or crops on platforms even if the land below is unsuitable."
@@ -144,6 +152,7 @@ ptBR = "Previne que a contaminação do solo seja levantada. Permite o plantio d
 koKR = "토양 오염이 발생하는 것을 방지합니다. 아래의 토지가 부적합하더라도 플랫폼에서 나무나 농작물을 심을 수 있게 합니다."
 csCZ = "Zabraňuje kontaminaci půdy. Umožňuje sázení stromů nebo plodin na platformách, i když je půda pod nimi nevhodná."
 viVN = "Ngăn chặn ô nhiễm đất bị đưa lên bề mặt. Cho phép trồng cây trên các nền tảng ngay cả khi đất ở bên dưới không phù hợp."
+trTR = "Toprak kirliliğinin ortaya çıkmasını engeller. Aşağıdaki arazi uygun olmasa bile platformlara ağaç veya mahsul dikmeyi sağlar."
 
 ["LV.CPl.GrowthSect"]
 raw = "<b>Growth options:</b> Set below default ×1 to decrease difficulty except for Output Multiplier. Examples:\n- Planting Time Multiplier ×0.5: Planting Oak 1 hours → 0.5 hours.\n- Growth Time ×0.5: Potato grows in 5 days → 2.5 days.\n- Output Multiplier ×1.5: Carrot yields 3 → 4.\n- Harvest Time Multiplier ×0.5: Oak cutting 2 hours → 1 hour.\n- Demolishing Time Multiplier ×0.5: demolishing Pine 1.2 hours → 0.6 hours."
@@ -160,6 +169,7 @@ ptBR = "<b>Opções de crescimento:</b> Defina abaixo do padrão ×1 para diminu
 koKR = "<b>성장 옵션:</b> 기본값 ×1 아래로 설정하여 Output Multiplier를 제외한 난이도를 감소시킵니다. 예시:\n- 식재 시간 배수 ×0.5: 참나무 식재 1시간 → 0.5시간.\n- 성장 시간 ×0.5: 감자가 5일에 성장 → 2.5일.\n- 출력 배수 ×1.5: 당근 수확량 3 → 4.\n- 수확 시간 배수 ×0.5: 참나무 베기 2시간 → 1시간.\n- 철거 시간 배수 ×0.5: 소나무 철거 1.2시간 → 0.6시간."
 csCZ = "<b>Možnosti růstu:</b> Nastavte níže výchozí hodnotu ×1 pro snížení obtížnosti kromě multiplikátoru výstupu. Příklady:\n- Multiplikátor doby výsadby ×0.5: Výsadba dubu 1 hodina → 0.5 hodiny.\n- Doba růstu ×0.5: Brambor roste 5 dní → 2.5 dní.\n- Multiplikátor výstupu ×1.5: Mrkev přináší 3 → 4.\n- Multiplikátor doby sklizně ×0.5: Řezání dubu 2 hodiny → 1 hodina.\n- Multiplikátor doby demontáže ×0.5: demontáž smrku 1.2 hodiny → 0.6 hodiny."
 viVN = "<b>Tùy chọn tăng trưởng:</b> Đặt dưới mức mặc định ×1 để giảm độ khó, trừ Hệ số đầu ra. Ví dụ:\n- Hệ số thời gian gieo trồng ×0.5: Gieo cây sồi 1 giờ → 0.5 giờ.\n- Thời gian phát triển ×0.5: Khoai tây phát triển trong 5 ngày → 2.5 ngày.\n- Hệ số đầu ra ×1.5: Cà rốt cho ra 3 → 4.\n- Hệ số thời gian thu hoạch ×0.5: Cắt cây sồi 2 giờ → 1 giờ.\n- Hệ số thời gian phá dỡ ×0.5: Phá dỡ cây thông 1.2 giờ → 0.6 giờ."
+trTR = "<b>Büyüme seçenekleri:</b> Aşağıda varsayılanı ×1'den daha düşük ayarlayarak zorluğu azaltın, Çıktı Katkısı hariç. Örnekler:\n- Dikim Zamanı Katkısı ×0.5: Meşe dikimi 1 saat → 0.5 saat.\n- Büyüme Süresi ×0.5: Patates 5 günde büyür → 2.5 günde.\n- Çıktı Katkısı ×1.5: Havuç verimi 3 → 4.\n- Hasat Zamanı Katkısı ×0.5: Meşe kesimi 2 saat → 1 saat.\n- Yıkım Süresi Katkısı ×0.5: Çam ağacının yıkımı 1.2 saat → 0.6 saat."
 
 ["LV.CPl.PlantingTime"]
 raw = "Planting time multiplier"
@@ -176,6 +186,7 @@ ptBR = "Multiplicador de tempo de plantio"
 koKR = "식재 시간 배수기"
 csCZ = "Multiplikátor doby výsadby"
 viVN = "Hệ số thời gian trồng"
+trTR = "Dikim süresi çarpanı"
 
 ["LV.CPl.PlantingTimeDesc"]
 raw = "Multiplier for time taken to plant."
@@ -192,6 +203,7 @@ ptBR = "Multiplicador para o tempo necessário para plantar."
 koKR = "식재하는 데 걸리는 시간의 배수."
 csCZ = "Multiplikátor pro čas potřebný k výsadbě."
 viVN = "Hệ số nhân thời gian trồng."
+trTR = "Dikim için geçen süreyi çarpan."
 
 ["LV.CPl.GrowthRate"]
 raw = "Growth time multiplier"
@@ -208,6 +220,7 @@ ptBR = "Multiplicador do tempo de crescimento"
 koKR = "성장 시간 배율"
 csCZ = "Multiplikátor doby růstu"
 viVN = "Hệ số thời gian tăng trưởng"
+trTR = "Büyüme süresi çarpanı"
 
 ["LV.CPl.GrowthRateDesc"]
 raw = "Multiplier for growth time."
@@ -224,6 +237,7 @@ ptBR = "Multiplicador para o tempo de crescimento."
 koKR = "성장 시간에 대한 배수."
 csCZ = "Multiplikátor pro dobu růstu."
 viVN = "Hệ số nhân cho thời gian tăng trưởng."
+trTR = "Büyüme süresi için çarpan."
 
 ["LV.CPl.OutputMul"]
 raw = "Output multiplier"
@@ -240,6 +254,7 @@ ptBR = "Multiplicador de saída"
 koKR = "출력 배수"
 csCZ = "Násobitel výstupu"
 viVN = "Hệ số sản lượng"
+trTR = "Çıktı çarpanı"
 
 ["LV.CPl.OutputMulDesc"]
 raw = "Multiplier for output (rounded down)."
@@ -256,6 +271,7 @@ ptBR = "Multiplicador para saída (arredondado para baixo)."
 koKR = "출력용 배수 (내림)."
 csCZ = "Multiplikátor pro výstup (zaokrouhleno dolů)."
 viVN = "Hệ số nhân cho đầu ra (làm tròn xuống)."
+trTR = "Çıktı için çarpan (aşağıya yuvarlanmış)."
 
 ["LV.CPl.HarvestTime"]
 raw = "Harvest time multiplier"
@@ -272,6 +288,7 @@ ptBR = "Multiplicador de tempo de colheita"
 koKR = "수확 시간 배율"
 csCZ = "Multiplikátor času sklizně"
 viVN = "Hệ số thời gian thu hoạch"
+trTR = "Hasat süresi çarpanı"
 
 ["LV.CPl.HarvestTimeDesc"]
 raw = "Multiplier for time taken to harvest/cut down."
@@ -288,6 +305,7 @@ ptBR = "Multiplicador para o tempo levado para colher/cortar."
 koKR = "수확/벌목에 소요되는 시간의 배수입니다."
 csCZ = "Multiplikátor pro čas potřebný k sklizni/sekání."
 viVN = "Hệ số nhân thời gian cho quá trình thu hoạch và chặt hạ."
+trTR = "Hasat etmek/kesmek için alınan süreyi çarpan."
 
 ["LV.CPl.DemolishTime"]
 raw = "Demolishing time multiplier"
@@ -304,6 +322,7 @@ ptBR = "Multiplicador de tempo de demolição"
 koKR = "철거 시간 배율"
 csCZ = "Násobitel času demolice"
 viVN = "Hệ số thời gian phá dỡ"
+trTR = "Yıkım süresi çarpanı"
 
 ["LV.CPl.DemolishTimeDesc"]
 raw = "Multiplier for time taken to demolish."
@@ -320,6 +339,7 @@ ptBR = "Multiplicador para o tempo necessário para demolir."
 koKR = "철거하는 데 걸리는 시간의 배율입니다."
 csCZ = "Multiplikátor času potřebného k demolici."
 viVN = "Hệ số nhân cho thời gian phá dỡ."
+trTR = "Yıkım için geçen süreye çarpan."
 
 ["LV.CPl.TreeSect"]
 raw = "Tree options: <b>Log providing plants</b> that are planted by Foresters (e.g. Pine, Oak)."
@@ -336,6 +356,7 @@ ptBR = "Opções de árvore: <b>Plantas que fornecem madeira</b> que são planta
 koKR = "나무 옵션: <b>목재를 제공하는 식물</b>로, 수목 관리자가 심습니다 (예: 소나무, 참나무)."
 csCZ = "Možnosti stromů: <b>Rostliny poskytující dřevo</b>, které sázejí lesníci (např. Borovice, Dub)."
 viVN = "Tùy chọn cây: <b>cây cung cấp gỗ</b> được trồng bởi Người trồng rừng (ví dụ: Thông, Sồi)."
+trTR = "Ağaç seçenekleri: <b>Odun sağlayan bitkiler</b> Orman işçileri tarafından ekilmektedir (örn. Çam, Meşe)."
 
 ["LV.CPl.CropSect"]
 raw = "Crop options: All other plants that are planted by Farmers or Foresters (e.g. Carrot, Blueberry and Dandelion <b>Bushes</b>)."
@@ -352,6 +373,7 @@ ptBR = "Opções de cultivo: Todas as outras plantas que são plantadas por Agri
 koKR = "작물 옵션: 농부나 산림감독이 심는 모든 다른 식물(예: 당근, 블루베리 및 민들레 <b>덤불</b>)."
 csCZ = "Možnosti plodin: Všechny ostatní rostliny, které zasazují zemědělci nebo lesníci (např. Mrkev, Borůvky a Pampelišky <b>Keře</b>)."
 viVN = "Tùy chọn cây trồng: Tất cả các loại cây khác được trồng bởi Người nông dân hoặc Người quản rừng (ví dụ Cà rốt, Việt quất và Bồ công anh <b>Cây bụi</b>)."
+trTR = "Ekin seçenekleri: Çiftçiler veya Orman İşçileri tarafından ekilen diğer tüm bitkiler (örn. Havuç, Yaban Mersini ve Karahindiba <b>Büyükler</b>)."
 
 ["LV.CPl.ProductSect"]
 raw = "Product options: <b>Products</b> that grow on mature plants (e.g. Pine Resin, Blueberries)."
@@ -368,6 +390,7 @@ ptBR = "Opções de produtos: <b>Produtos</b> que crescem em plantas maduras (ex
 koKR = "제품 옵션: <b>성숙한 식물</b>에서 자라는 <b>제품</b> (예: 소나무 수지, 블루베리)."
 csCZ = "Možnosti produktu: <b>Produkty</b>, které rostou na zralých rostlinách (např. Borovicová pryskyřice, Borůvky)."
 viVN = "Các tùy chọn sản phẩm: <b>Sản phẩm</b> phát triển trên các cây trưởng thành (ví dụ: nhựa thông, việt quất)."
+trTR = "Ürün seçenekleri: Olgun bitkilerde (örneğin Çam Reçinesi, Yaban Mersini) büyüyen <b>Ürünler</b>."
 
 ["LV.CPl.AllSect"]
 raw = "For all plants:"
@@ -384,6 +407,7 @@ ptBR = "Para todas as plantas:"
 koKR = "모든 식물에 대해:"
 csCZ = "Pro všechny rostliny:"
 viVN = "Đối với tất cả các cây:"
+trTR = "İçin tüm bitkiler:"
 
 ["LV.CPl.ReproducibleChanceMultiplier"]
 raw = "Reproducible chance multiplier"
@@ -400,6 +424,7 @@ ptBR = "Multiplicador de chance reproduzível"
 koKR = "재생 가능 확률 배수"
 csCZ = "Multiplikátor šance na reprodukci"
 viVN = "Hệ số nhân xác suất sinh sản"
+trTR = "Yenilenebilir şans çarpanı"
 
 ["LV.CPl.ReproducibleChanceMultiplierDesc"]
 raw = "Adjusts the chance for trees to reproduce each hour (default: 1–3% depending on type).\nDefault: ×1. ×0 disables reproduction. Example: ×2 makes a Pine with a base 3% chance reproduce at 6% chance."
@@ -416,3 +441,4 @@ ptBR = "Ajusta a chance de as árvores reproduzirem a cada hora (padrão: 1–3%
 koKR = "각 시간마다 나무의 번식 확률을 조정합니다(기본값: 유형에 따라 1–3%).\n기본값: ×1. ×0은 번식을 비활성화합니다. 예: ×2는 기본 3% 확률을 가진 솔방울나무가 6% 확률로 번식하게 합니다."
 csCZ = "Upravuje šanci, že stromy se rozmnoží každou hodinu (výchozí: 1–3 % v závislosti na typu).\nVýchozí: ×1. ×0 zakáže reprodukci. Příklad: ×2 způsobí, že borovice s základní 3% šancí se rozmnoží se 6% šancí."
 viVN = "Điều chỉnh xác suất cây sinh sản mỗi giờ (mặc định: 1–3% tùy loại).\nMặc định: ×1. ×0 vô hiệu hóa sinh sản. Ví dụ: ×2 làm cho một cây thông có cơ hội sinh sản cơ bản là 3% lên thành 6%."
+trTR = "Her saat ağaçların üreme şansını ayarlar (varsayılan: türe bağlı olarak %1–%3). \nVarsayılan: ×1. ×0 üremeyi devre dışı bırakır. Örnek: ×2, temel %3 üreme şansına sahip bir Çam'ın üreme şansını %6 yapar."
