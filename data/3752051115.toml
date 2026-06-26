@@ -1,0 +1,38 @@
+[_meta]
+name = "Storage Monitor"
+
+["Building.StorageMonitor.DisplayName"]
+new = "Storage Monitor"
+status = "normal"
+
+["Building.StorageMonitor.Description"]
+new = "Changes and holds its state based on a min and max signals"
+status = "normal"
+
+["Building.StorageMonitor.FlavorDescription"]
+new = "Like a Resource Counter, but better and for storage buildings!"
+status = "normal"
+
+["Building.StorageMonitor.Mode.FillRate"]
+new = "Percent (%)"
+status = "normal"
+
+["Building.StorageMonitor.Mode.StockLevel"]
+new = "Quantity"
+status = "normal"
+
+["Building.StorageMonitor.TurnOnIf"]
+new = "Turn ON if ≤"
+status = "normal"
+
+["Building.StorageMonitor.TurnOffIf"]
+new = "Turn OFF if ≥"
+status = "normal"
+
+["Building.StorageMonitor.MeasurementQuantity"]
+new = "Measurement: {0}"
+status = "normal"
+
+["Building.StorageMonitor.MeasurementPercent"]
+new = "Measurement: {0}%"
+status = "normal"
