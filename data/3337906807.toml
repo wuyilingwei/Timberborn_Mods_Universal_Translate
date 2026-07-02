@@ -664,39 +664,37 @@ csCZ = "Zobrazit denní pravděpodobnosti"
 viVN = "Hiển thị xác suất hàng ngày"
 trTR = "Günlük olasılıkları göster"
 
-["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowActiveMods"]
-raw = "Show active ({0}/{1})"
+["IgorZ.TimberCommons.Settings.ModUIPatchesSection"]
+new = "Mod UI patches"
 status = "normal"
-enUS = "Show active ({0}/{1})"
-zhCN = "显示活动 ({0}/{1})"
-zhTW = "顯示啟用中的模組 ({0}/{1})"
-ruRU = "Показать активные ({0}/{1})"
-jaJP = "アクティブ ({0}/{1}) を表示"
-frFR = "Afficher actif ({0}/{1})"
-deDE = "Aktive anzeigen ({0}/{1})"
-plPL = "Pokaż aktywne ({0}/{1})"
-ptBR = "Mostrar ativos ({0}/{1})"
-koKR = "활성화된 모드 표시 ({0}/{1})"
-csCZ = "Zobrazit aktivní ({0}/{1})"
-viVN = "Hiện tại ({0}/{1})"
-trTR = "Aktifleri göster ({0}/{1})"
 
-["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowAllMods"]
-raw = "Show all ({0})"
+["IgorZ.TimberCommons.Settings.ModUIPatches.EnhanceSaveModsIncompatibilityDialog"]
+new = "Enhance the save-load mod mismatch dialog"
 status = "normal"
-enUS = "Show all ({0})"
-zhCN = "显示所有 ({0})"
-zhTW = "顯示全部 ({0})"
-ruRU = "Показать все ({0})"
-jaJP = "すべて表示 ({0})"
-frFR = "Afficher tout ({0})"
-deDE = "Alle anzeigen ({0})"
-plPL = "Pokaż wszystkie ({0})"
-ptBR = "Mostrar todos ({0})"
-koKR = "모두 보기 ({0})"
-csCZ = "Zobrazit všechny ({0})"
-viVN = "Hiển thị tất cả ({0})"
-trTR = "Tümünü göster ({0})"
+
+["IgorZ.TimberCommons.Settings.ModUIPatches.EnhanceSaveModsIncompatibilityDialogTooltip"]
+new = "Adds controls for enabling missing mods directly from the save-load warning.\nThis option is disabled automatically when another mod also patches this game dialog."
+status = "normal"
+
+["IgorZ.TimberCommons.ModUIPatches.ModListView.ShowActiveMods"]
+new = "Show active ({0}/{1})"
+status = "normal"
+
+["IgorZ.TimberCommons.ModUIPatches.ModListView.ShowAllMods"]
+new = "Show all ({0})"
+status = "normal"
+
+["IgorZ.TimberCommons.ModUIPatches.SaveModsValidator.RestartConfirmation"]
+new = "You selected {0} mod(s) to be enabled. They will be loaded only after restarting the game. What do you want to do?"
+status = "normal"
+
+["IgorZ.TimberCommons.ModUIPatches.SaveModsValidator.ContinueWithoutRestart"]
+new = "Continue"
+status = "normal"
+
+["IgorZ.TimberCommons.ModUIPatches.SaveModsValidator.EnableModTooltip"]
+new = "Enable {0} after restarting the game."
+status = "normal"
 
 ["TimberDev_Utils.Settings.DebugSection"]
 raw = "Debug and troubleshooting"
@@ -748,6 +746,40 @@ koKR = "로그에 더 유용한 세부 정보가 포함되지만, 게임 성능�
 csCZ = "Záznamy budou obsahovat více užitečných detailů, ale může to ovlivnit výkon hry."
 viVN = "Nhật ký sẽ chứa nhiều chi tiết hữu ích hơn, nhưng điều đó có thể ảnh hưởng đến hiệu suất của trò chơi."
 trTR = "Kaydedilen günlükler daha faydalı detaylar içerecek, ancak bu oyun performansını etkileyebilir."
+
+["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowActiveMods"]
+raw = "Show active ({0}/{1})"
+status = "abandoned"
+enUS = "Show active ({0}/{1})"
+zhCN = "显示活动 ({0}/{1})"
+zhTW = "顯示啟用中的模組 ({0}/{1})"
+ruRU = "Показать активные ({0}/{1})"
+jaJP = "アクティブ ({0}/{1}) を表示"
+frFR = "Afficher actif ({0}/{1})"
+deDE = "Aktive anzeigen ({0}/{1})"
+plPL = "Pokaż aktywne ({0}/{1})"
+ptBR = "Mostrar ativos ({0}/{1})"
+koKR = "활성화된 모드 표시 ({0}/{1})"
+csCZ = "Zobrazit aktivní ({0}/{1})"
+viVN = "Hiện tại ({0}/{1})"
+trTR = "Aktifleri göster ({0}/{1})"
+
+["IgorZ.TimberCommons.CommonUIPatches.ModListView.ShowAllMods"]
+raw = "Show all ({0})"
+status = "abandoned"
+enUS = "Show all ({0})"
+zhCN = "显示所有 ({0})"
+zhTW = "顯示全部 ({0})"
+ruRU = "Показать все ({0})"
+jaJP = "すべて表示 ({0})"
+frFR = "Afficher tout ({0})"
+deDE = "Alle anzeigen ({0})"
+plPL = "Pokaż wszystkie ({0})"
+ptBR = "Mostrar todos ({0})"
+koKR = "모두 보기 ({0})"
+csCZ = "Zobrazit všechny ({0})"
+viVN = "Hiển thị tất cả ({0})"
+trTR = "Tümünü göster ({0})"
 
 ["IgorZ.TimberCommons.Settings.WaterBuildings.ShowCurrentStrengthInSluice"]
 raw = "Show current strength in sluice"
