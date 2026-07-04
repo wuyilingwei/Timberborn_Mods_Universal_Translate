@@ -69,6 +69,10 @@ csCZ = "Zablokované úkoly jsou zobrazeny šedě"
 viVN = "Các nhiệm vụ bị chặn được hiển thị bằng màu xám"
 trTR = "Engellenen görevler gri olarak gösterilir"
 
+["TaskPriorities.BlockedTasks"]
+new = "Blocked"
+status = "normal"
+
 ["TaskPriorities.ShowBlocked"]
 raw = "Show"
 status = "normal"
@@ -119,6 +123,14 @@ koKR = "모든 블록"
 csCZ = "Všechny bloky"
 viVN = "Tất cả khối"
 trTR = "Tüm bloklar"
+
+["TaskPriorities.OverlayButton"]
+new = "Overlay"
+status = "normal"
+
+["TaskPriorities.TabButton"]
+new = "Tab"
+status = "normal"
 
 ["TaskPriorities.SwitchToOverlay"]
 raw = "Show as overlay"

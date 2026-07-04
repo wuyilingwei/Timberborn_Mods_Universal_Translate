@@ -851,22 +851,17 @@ csCZ = "Spojka"
 viVN = "Ly hợp"
 trTR = "Debriyaj"
 
-["LV.MT.BldSet.Valve"]
-raw = "Valve"
+["LV.MT.BldSet.ThrottlingValve"]
+new = "Throttling Valve"
 status = "normal"
-enUS = "Valve"
-zhCN = "阀门"
-zhTW = "閥門"
-ruRU = "Клапан"
-jaJP = "バルブ"
-frFR = "Vanne"
-deDE = "Ventil"
-plPL = "Zawór"
-ptBR = "Válvula"
-koKR = "밸브"
-csCZ = "Ventil"
-viVN = "Van"
-trTR = "Vana"
+
+["LV.MT.BldSet.FillValve"]
+new = "Fill Valve"
+status = "normal"
+
+["LV.MT.BldSet.FillValve.Desc"]
+new = "{0}m, Synch: {1}"
+status = "normal"
 
 ["LV.MT.BldSet.UnstableCore"]
 raw = "Unstable Core"
@@ -1275,3 +1270,20 @@ koKR = "활성 효과"
 csCZ = "Aktivní efekty"
 viVN = "Hiệu ứng đang hoạt động"
 trTR = "Etkin etkiler"
+
+["LV.MT.BldSet.Valve"]
+raw = "Valve"
+status = "abandoned"
+enUS = "Valve"
+zhCN = "阀门"
+zhTW = "閥門"
+ruRU = "Клапан"
+jaJP = "バルブ"
+frFR = "Vanne"
+deDE = "Ventil"
+plPL = "Zawór"
+ptBR = "Válvula"
+koKR = "밸브"
+csCZ = "Ventil"
+viVN = "Van"
+trTR = "Vana"
