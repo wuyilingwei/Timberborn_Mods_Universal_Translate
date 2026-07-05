@@ -2874,6 +2874,10 @@ csCZ = "povolit tok"
 viVN = "Kích hoạt luồng"
 trTR = "akışı etkinleştir"
 
+["IgorZ.Automation.Scriptable.Gate.Action.SetState"]
+new = "set gate state: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Inventory.Action.EmptyingStatus"]
 raw = "The storage is being emptied on a priority basis."
 status = "normal"
@@ -2992,6 +2996,14 @@ koKR = "레시피 설정: {0}"
 csCZ = "nastavit recept: {0}"
 viVN = "thiết lập công thức: {0}"
 trTR = "tarif belirle: {0}"
+
+["IgorZ.Automation.Scriptable.Manufactory.Signal.FinishedRecipe"]
+new = "finished recipe count"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Manufactory.Signal.Recipe"]
+new = "current recipe"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Notifications.Action.ClearStatus"]
 raw = "clear status"
