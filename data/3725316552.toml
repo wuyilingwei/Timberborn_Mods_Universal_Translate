@@ -154,6 +154,10 @@ csCZ = "{0:+0%;-0%;0%} Rychlost pohybu"
 viVN = "{0:+0%;-0%;0%} Tốc độ di chuyển"
 trTR = "{0:+0%;-0%;0%} Hareket Hızı"
 
+["LV.BCEv.WorkingMovementSpeedDesc"]
+new = "{0:+0%;-0%;0%} Working and Movement Speed"
+status = "normal"
+
 ["LV.BCEv.ListText"]
 raw = "AC{0:0} - {1}"
 status = "normal"
@@ -272,6 +276,10 @@ koKR = "지불"
 csCZ = "Platba"
 viVN = "Trả tiền"
 trTR = "Öde"
+
+["LV.BCEv.Science"]
+new = "Science"
+status = "normal"
 
 ["LV.BCEv.PayGuide.Title"]
 raw = "Event Payments"
@@ -392,6 +400,10 @@ csCZ = "Vidím"
 viVN = "Tôi thấy"
 trTR = "Anlıyorum"
 
+["LV.BCEv.BeaverDeath"]
+new = "{0} died an eventful death."
+status = "normal"
+
 ["LV.BCEv.StartBonus"]
 raw = "A new start"
 status = "normal"
@@ -445,6 +457,7 @@ trTR = "Yaban mersinlerini topla"
 
 ["LV.BCEv.StartBonus.C1N"]
 raw = "[[C]]A hidden patch of ripe berries is found nearby. [[+]][[good:Berries:{0:+0}]]"
+new = "[[C]]A hidden patch of ripe berries is found nearby. [[+]]+[[good:{S1}:{I1}]]"
 status = "normal"
 enUS = "A hidden patch of ripe berries is found nearby. [+][good:Berries:{0:+0}]"
 zhCN = "附近发现了一片隐藏的成熟浆果。[[+]][[good:Berries:{0:+0}]]"
@@ -479,6 +492,7 @@ trTR = "Fıçıları doldur"
 
 ["LV.BCEv.StartBonus.C2N"]
 raw = "[[C]]Clean water collects in a shallow pool. [[+]][[good:Water:{0:+0}]]"
+new = "[[C]]Clean water collects in a shallow pool. [[+]]+[[good:{S2}:{I2}]]"
 status = "normal"
 enUS = "Clean water collects in a shallow pool. [+][good:Water:{0:+0}]"
 zhCN = "[[C]]干净的水积聚在一个浅滩中。 [[+]][[good:水:{0:+0}]]"
@@ -513,6 +527,7 @@ trTR = "Düşen kütükleri topla"
 
 ["LV.BCEv.StartBonus.C3N"]
 raw = "[[C]]Dry fallen trunks lie near the treeline. [[+]][[good:Log:{0:+0}]]"
+new = "[[C]]Dry fallen trunks lie near the treeline. [[+]]+[[good:{S3}:{I3}]]"
 status = "normal"
 enUS = "Dry fallen trunks lie near the treeline. +[good:Log:{0:+0}]"
 zhCN = "[[C]]干枯的倒木 lie 靠近树冠边缘。 [[+]][[good:Log:{0:+0}]]"
@@ -547,6 +562,7 @@ trTR = "Genç yavruyu kurtar"
 
 ["LV.BCEv.StartBonus.C4N"]
 raw = "[[C]]A young kit is found near the river, barely alive. [[+]]{0:+0} [[icon:UI/images/game/ico-child]] Child Beaver"
+new = "[[C]]A young kit is found near the river, barely alive. [[+]]+{I4} [[icon:UI/images/game/ico-child]] Child Beaver"
 status = "normal"
 enUS = "[[C]]A young kit is found near the river, barely alive. [[+]]{0:+0} [[icon:UI/images/game/ico-child]] Child Beaver"
 zhCN = "“[[C]]一只小海狸在河边被发现，几乎快要死了。[[+]]{0:+0} [[icon:UI/images/game/ico-child]] 小海狸”"
@@ -581,6 +597,7 @@ trTR = "İlk Geçiş"
 
 ["LV.BCEv.FirstDeath.Content"]
 raw = "{0} has passed away.\n\nThe colony grows quiet. For the first time, the beavers are not only thinking about survival, but about memory. A few gather nearby, unsure what to do next. Work still needs doing, but so does grief."
+new = "{CP_TriggerCharacterName} has passed away.\n\nThe colony grows quiet. For the first time, the beavers are not only thinking about survival, but about memory. A few gather nearby, unsure what to do next. Work still needs doing, but so does grief."
 status = "normal"
 enUS = "{0} has passed away.\n\nThe colony grows quiet. For the first time, the beavers are not only thinking about survival, but about memory. A few gather nearby, unsure what to do next. Work still needs doing, but so does grief."
 zhCN = "{0} 去世了。\n\n聚落变得安静。比起生存，海狸们第一次开始思考记忆。一些海狸聚集在附近，不知下一步该做什么。工作仍需继续，但是悲伤也同样需要被面对。"
@@ -615,6 +632,7 @@ trTR = "Onları aşağı akıta gönder"
 
 ["LV.BCEv.FirstDeath.C1N"]
 raw = "[[C]][[-]][[good:{1}:{2}]] within [[time:{0}d]]"
+new = "[[C]][[-]]Pay [[good:{S1}:{I1}]] within [[time:{F1}d]]"
 status = "normal"
 enUS = "[[C]][[-]][[good:{1}:{2}]] within [[time:{0}d]]"
 zhCN = "[[C]][[-]][[good:{1}:{2}]] 在 [[time:{0}天]] 内"
@@ -649,6 +667,7 @@ trTR = "Bir mezarlık inşa et"
 
 ["LV.BCEv.FirstDeath.C2N"]
 raw = "[[C]][[-]][[good:{1}:{2}]] [[good:{3}:{4}]] within [[time:{0}d]]"
+new = "[[C]][[-]]Pay [[good:{S2}:{I2}]] [[good:{S3}:{I3}]] within [[time:{F2}d]]"
 status = "normal"
 enUS = "[[C]][[-]][[good:{1}:{2}]] [[good:{3}:{4}]] within [[time:{0}d]]"
 zhCN = "[[C]][[-]][[good:{1}:{2}]] [[good:{3}:{4}]] 在 [[time:{0}d]] 之内"
@@ -700,6 +719,7 @@ trTR = "[[C]]Bunun için zaman yok. Koloni ilerlemeli. <YellowHighlight>Bilinmey
 
 ["LV.BCEv.FirstDeath.O1"]
 raw = "The logs are lashed together into a small raft, just large enough to carry {0} downriver.\nThe colony watches in silence as the current takes them away. It is a simple farewell, but it gives the beavers a little peace.\n[[C]][[+]]All beavers gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus for some time."
+new = "The logs are lashed together into a small raft, just large enough to carry {CP_TriggerCharacterName} downriver.\nThe colony watches in silence as the current takes them away. It is a simple farewell, but it gives the beavers a little peace.\n[[C]][[+]]All beavers gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus for some time."
 status = "normal"
 enUS = "The logs are lashed together into a small raft, just large enough to carry {0} downriver. The colony watches in silence as the current takes them away. It is a simple farewell, but it gives the beavers a little peace. [[C]][[+]]All beavers gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus for some time."
 zhCN = "木头被绑在一起，形成一只小木筏，刚好可以让{0}顺流而下。  \n殖民地静默地注视着木筏被洪流带走。这是一个简单的告别，但这给了海狸们一点平静。  \n[[C]][[+]]所有海狸在一段时间内获得<GreenHighlight>+纪念</GreenHighlight>福祉加成。"
@@ -717,6 +737,7 @@ trTR = "Kütükler, {0}’ı nehir boyunca taşımak için yeterince büyük kü
 
 ["LV.BCEv.FirstDeath.O2"]
 raw = "The planks are shaped into a small cemetery marker for {0}.\nIt is not much, but it gives the colony a place to pause, remember, and honor those who came before them.\n[[C]][[+]]All beavers permanently gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus."
+new = "The planks are shaped into a small cemetery marker for {CP_TriggerCharacterName}.\nIt is not much, but it gives the colony a place to pause, remember, and honor those who came before them.\n[[C]][[+]]All beavers permanently gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus."
 status = "normal"
 enUS = "The planks are shaped into a small cemetery marker for {0}.  \nIt is not much, but it gives the colony a place to pause, remember, and honor those who came before them.  \n[[C]][[+]]All beavers permanently gain the <GreenHighlight>+Remembrance</GreenHighlight> Wellbeing bonus."
 zhCN = "“这些木板被制成了一个小墓碑，纪念 {0}。\n虽然不算多，但它为殖民地提供了一个停下来、回忆和尊敬先辈的地方。\n[[C]][[+]]所有海狸永久获得 <GreenHighlight>+怀念</GreenHighlight> 幸福加成。”"
@@ -734,6 +755,7 @@ trTR = "Kütükler, {0} için küçük bir mezar işareti şeklinde şekillendir
 
 ["LV.BCEv.FirstDeath.O3"]
 raw = "No farewell is given for {0}. No marker is built. The colony simply returns to work.\nSome beavers try not to think about it, but the silence settles heavily over the settlement. To them, it feels as if {0} was simply ignored.\n[[C]][[-]]All beavers suffer Heavy Hearts effect for {1}d."
+new = "No farewell is given for {CP_TriggerCharacterName}. No marker is built. The colony simply returns to work.\nSome beavers try not to think about it, but the silence settles heavily over the settlement. To them, it feels as if {CP_TriggerCharacterName} was simply ignored.\n[[C]][[-]]All beavers suffer Heavy Hearts effect for {F5}d."
 status = "normal"
 enUS = "No farewell is given for {0}. No marker is built. The colony simply returns to work. Some beavers try not to think about it, but the silence settles heavily over the settlement. To them, it feels as if {0} was simply ignored. [[C]][[-]]All beavers suffer Heavy Hearts effect for {1}d."
 zhCN = "没有人向{0}告别，也没有建立标志。殖民地只是继续工作。\n一些海狸试图不去想它，但沉默在定居点上沉重地降临。对他们来说，感觉就像{0}被简单地忽视了。\n[[C]][[-]]所有海狸在{1}天内受到沉重心灵的影响。"
@@ -800,6 +822,10 @@ csCZ = "Těžká srdce"
 viVN = "Trái Tim Nặng Trĩu"
 trTR = "Ağır Kalpler"
 
+["LV.BCEv.FirstDeath.MalusDesc"]
+new = "{%4} Working Speed"
+status = "normal"
+
 ["LV.BCEv.Unhoused"]
 raw = "Still Under the Open Sky"
 status = "normal"
@@ -853,6 +879,7 @@ trTR = "Çoğunluğu için barınak vaadi"
 
 ["LV.BCEv.Unhoused.C1N"]
 raw = "[[C]]Ensure at least {1:0%} of beavers remain sheltered after [[time:{0}d]]"
+new = "[[C]]Ensure at least {%1} of beavers remain sheltered after [[time:{F2}d]]"
 status = "normal"
 enUS = "[[C]]Ensure at least {1:0%} of beavers remain sheltered after [[time:{0}d]]"
 zhCN = "确保至少 {1:0%} 的海狸在 [[time:{0}d]] 后保持有庇护所。"
@@ -887,6 +914,7 @@ trTR = "Herkes için barınak vaadi"
 
 ["LV.BCEv.Unhoused.C2N"]
 raw = "[[C]]Ensure all beavers remain sheltered after [[time:{0}d]]"
+new = "[[C]]Ensure all beavers remain sheltered after [[time:{F3}d]]"
 status = "normal"
 enUS = "[[C]]Ensure all beavers remain sheltered after [[time:{0}d]]"
 zhCN = "确保所有海狸在[[time:{0}d]]后仍然有庇护所"
@@ -953,39 +981,13 @@ csCZ = "Zabezpečený"
 viVN = "Nhà tạm"
 trTR = "Barınak"
 
-["LV.BCEv.Unhoused.Buff1Desc"]
-raw = "{0:+0%} Working Speed"
+["LV.BCEv.Unhoused.BuffMinorDesc"]
+new = "+{%6} Working Speed"
 status = "normal"
-enUS = "{0:+0%} Working Speed"
-zhCN = "{0:+0%} 工作速度"
-zhTW = "{0:+0%} 工作速度"
-ruRU = "{0:+0%} Скорость работы"
-jaJP = "{0:+0%} 作業速度"
-frFR = "{0:+0%} Vitesse de Travail"
-deDE = "{0:+0%} Arbeitsgeschwindigkeit"
-plPL = "{0:+0%} Prędkość pracy"
-ptBR = "{0:+0%} Velocidade de Trabalho"
-koKR = "{0:+0%} 작업 속도"
-csCZ = "{0:+0%} Pracovní rychlost"
-viVN = "{0:+0%} Tốc độ Làm việc"
-trTR = "{0:+0%} Çalışma Hızı"
 
-["LV.BCEv.Unhoused.Buff2Desc"]
-raw = "{0:+0%} Working and Movement Speed"
+["LV.BCEv.Unhoused.BuffMajorDesc"]
+new = "+{%7} Working and Movement Speed"
 status = "normal"
-enUS = "{0:+0%} Working and Movement Speed"
-zhCN = "{0:+0%} 工作和移动速度"
-zhTW = "{0:+0%} 工作和移動速度"
-ruRU = "{0:+0%} Скорость работы и передвижения"
-jaJP = "{0:+0%} 作業および移動速度"
-frFR = "{0:+0%} Vitesse de Travail et de Mouvement"
-deDE = "{0:+0%} Arbeits- und Bewegungsgeschwindigkeit"
-plPL = "{0:+0%} Prędkość pracy i ruchu"
-ptBR = "{0:+0%} Velocidade de Trabalho e Movimento"
-koKR = "{0:+0%} 작업 및 이동 속도"
-csCZ = "{0:+0%} Rychlost práce a pohybu"
-viVN = "{0:+0%} Tốc độ Làm Việc và Di Chuyển"
-trTR = "{0:+0%} Çalışma ve Hareket Hızı"
 
 ["LV.BCEv.Unhoused.DebuffName"]
 raw = "Unhoused"
@@ -1004,8 +1006,13 @@ csCZ = "Bezdomovec"
 viVN = "Không có nhà"
 trTR = "Iskansız"
 
+["LV.BCEv.Unhoused.DebuffDesc"]
+new = "{%8} Working and Movement Speed"
+status = "normal"
+
 ["LV.BCEv.Unhoused.O1"]
 raw = "By the promised day, most of the unhoused beavers have found a place indoors. It is not perfect, but it is enough to prove that the colony remembers those sleeping under the open sky. The mood lifts. Work resumes with steadier paws.\n[[C]][[+]]All beavers gain {0} for [[time:{1}d]]"
+new = "By the promised day, most of the unhoused beavers have found a place indoors. It is not perfect, but it is enough to prove that the colony remembers those sleeping under the open sky. The mood lifts. Work resumes with steadier paws.\n[[C]][[+]]All beavers gain +{%6} Working Speed for [[time:{F4}d]]"
 status = "normal"
 enUS = "By the promised day, most of the unhoused beavers have found a place indoors. It is not perfect, but it is enough to prove that the colony remembers those sleeping under the open sky. The mood lifts. Work resumes with steadier paws.  \n[[C]][[+]]All beavers gain {0} for [[time:{1}d]]"
 zhCN = "在约定的日子前，大多数无家可归的海狸已经找到了一个室内的地方。虽然并不完美，但足以证明这个殖民地记住了那些在露天睡觉的海狸。情绪有所提升。工作恢复，爪子更加稳健。  \n[[C]][[+]]所有海狸获得 {0}，持续时间 [[time:{1}d]]"
@@ -1023,6 +1030,7 @@ trTR = "Vaadedilen gün geldiğinde, evsiz misketler çoğu kapalı bir yer bulm
 
 ["LV.BCEv.Unhoused.O2"]
 raw = "By the promised day, every beaver has a roof overhead. The last bed is claimed before nightfall, and for the first time in days, no one has to choose between sleep and the cold ground. The colony rests easier, and rises stronger.\n[[C]][[+]]All beavers gain {0} for [[time:{1}d]]"
+new = "By the promised day, every beaver has a roof overhead. The last bed is claimed before nightfall, and for the first time in days, no one has to choose between sleep and the cold ground. The colony rests easier, and rises stronger.\n[[C]][[+]]All beavers gain +{%7} Working and Movement Speed for [[time:{F4}d]]"
 status = "normal"
 enUS = "By the promised day, every beaver has a roof overhead. The last bed is claimed before nightfall, and for the first time in days, no one has to choose between sleep and the cold ground. The colony rests easier and rises stronger.  \n[[C]][[+]]All beavers gain {0} for [[time:{1}d]]"
 zhCN = "在承诺的日子之前，每只海狸都有了栖身之所。最后一张床在夜幕降临之前被占据，几天来第一次，没有人需要在睡眠和冰冷的土地之间做出选择。殖民地更加安宁，变得更加强大。  \n[[C]][[+]]所有海狸获得 {0} 以换取 [[time:{1}d]]"
@@ -1040,6 +1048,7 @@ trTR = "Söz verilen gün geldiğinde, her kunduzun başının üzerinde bir ça
 
 ["LV.BCEv.Unhoused.O3"]
 raw = "Too many beavers are still sleeping outside. Whatever was said before, the colony has not given them shelter.\nThey rise tired, work slower, and keep their doubts mostly to themselves.\n[[C]][[-]]All beavers suffer {0} for [[time:{1}d]]"
+new = "Too many beavers are still sleeping outside. Whatever was said before, the colony has not given them shelter.\nThey rise tired, work slower, and keep their doubts mostly to themselves.\n[[C]][[-]]All beavers suffer {%8} Working and Movement Speed for [[time:{F5}d]]"
 status = "normal"
 enUS = "Too many beavers are still sleeping outside. Whatever was said before, the colony has not given them shelter. They rise tired, work slower, and keep their doubts mostly to themselves. [[C]][[-]]All beavers suffer {0} for [[time:{1}d]]"
 zhCN = "“还有太多的海狸在外面睡觉。不管之前说了什么，殖民地并没有给他们提供庇护。\n他们醒来时疲惫不堪，工作效率降低，并且大多数疑虑都压在心里。\n[[C]][[-]]所有海狸都将受到 {0} 的影响，持续 [[time:{1}d]]”"
@@ -1054,6 +1063,10 @@ koKR = "너무 많은 비버들이 여전히 밖에서 자고 있습니다. 이�
 csCZ = "Příliš mnoho bobrů stále spí venku. Ať už bylo řečeno cokoliv, kolonie jim neposkytla př shelter.\nProbouzejí se unavení, pracují pomaleji a většinu svých pochybností si nechávají pro sebe.  \n[[C]][[-]]Všichni bobři trpí {0} po [[time:{1}d]]"
 viVN = "Quá nhiều castor vẫn đang ngủ bên ngoài. Dù đã nói gì trước đó, thuộc địa vẫn chưa cung cấp chỗ ở cho họ. \nHọ thức dậy mệt mỏi, làm việc chậm hơn, và giữ lại phần lớn những nghi ngờ cho riêng mình. \n[[C]][[-]]Tất cả castor đều phải chịu {0} trong [[time:{1}d]]"
 trTR = "Aşırı derecede fazla kunduz hala dışarıda uyuyor. Daha önce ne söylenmiş olursa olsun, koloninin onlara sığınak sağlamadığı kesin.\nYorgun kalkıyorlar, daha yavaş çalışıyorlar ve şüphelerini genellikle kendilerine saklıyorlar.\n[[C]][[-]]Tüm kunduzlar {0} ile acı çekiyor [[time:{1}g]]"
+
+["LV.BCEv.Unhoused.AlreadyHoused.Content"]
+new = "A few beavers begin counting beds and lodges, worried that some among them may still be sleeping outside.\n[[+]]But the count brings good news.\nEvery beaver already has a roof overhead. No one has been forgotten. No one has been left to curl up beside the paths at dusk. The colony is quietly pleased. It is one thing to build shelter after complaints begin. It is another to prepare it before anyone has to ask. The beavers take the news with warm satisfaction. Their homes were ready before hardship forced the issue, and that care is not forgotten. The colony rests easier, trusts deeper, and rises with renewed strength.\n[[C]][[+]]All beavers gain +{%7} Working and Movement Speed for [[time:{F9}d]]"
+status = "normal"
 
 ["LV.BCEv.FirstChildGrowth"]
 raw = "First Furrows"
@@ -1074,6 +1087,7 @@ trTR = "İlk Sıyrıklar"
 
 ["LV.BCEv.FirstChildGrowth.Content"]
 raw = "{0} has come of age. Yesterday, they chased dragonflies along the bank. Today, they stand ready to take their place among the builders, haulers, growers, and dreamers.\nSome beavers suggest marking the moment with a small feast. It would cost precious resources, but a colony that celebrates its young may find its spirits lifted."
+new = "{CP_TriggerAdultName} has come of age. Yesterday, they chased dragonflies along the bank. Today, they stand ready to take their place among the builders, haulers, growers, and dreamers.\nSome beavers suggest marking the moment with a small feast. It would cost precious resources, but a colony that celebrates its young may find its spirits lifted."
 status = "normal"
 enUS = "{0} has come of age. Yesterday, they chased dragonflies along the bank. Today, they stand ready to take their place among the builders, haulers, growers, and dreamers. Some beavers suggest marking the moment with a small feast. It would cost precious resources, but a colony that celebrates its young may find its spirits lifted."
 zhCN = "{0} 已成年。昨天，他们在河岸边追逐蜻蜓。今天，他们已经准备好在建筑师、搬运工、种植者和梦想家中找到自己的位置。\n一些海狸建议用一场小型盛宴来纪念这个时刻。这将消耗宝贵的资源，但一个庆祝年轻个体的殖民地可能会感到振奋。"
@@ -1108,6 +1122,7 @@ trTR = "Parti düzenle"
 
 ["LV.BCEv.FirstChildGrowth.C1N"]
 raw = "[[C]]Pay [[good:{1}:{2}]] and [[good:{3}:{4}]] in [[time:{0}d]]."
+new = "[[C]]Pay [[good:{S1}:{CP_PartyCost}]] and [[good:{S2}:{CP_PartyCost}]] in [[time:{F1}d]]."
 status = "normal"
 enUS = "Pay [good:{1}:{2}] and [good:{3}:{4}] in [time:{0}d]."
 zhCN = "[[C]]支付[[good:{1}:{2}]]和[[good:{3}:{4}]]在[[time:{0}d]]内。"
@@ -1159,6 +1174,7 @@ trTR = "[[C]]Hiçbir şey olmuyor"
 
 ["LV.BCEv.FirstChildGrowth.O1"]
 raw = "The feast is simple, but joyful. Food is shared, cups are raised, and {0} is welcomed into adulthood with cheers, jokes, and proud tail-slaps.\nFor a moment, the colony feels less like a settlement and more like a family.\n[[C]][[+]]All beavers gain {1} for [[time:{2}d]]"
+new = "The feast is simple, but joyful. Food is shared, cups are raised, and {CP_TriggerAdultName} is welcomed into adulthood with cheers, jokes, and proud tail-slaps.\nFor a moment, the colony feels less like a settlement and more like a family.\n[[C]][[+]]All beavers gain +{%3} Working Speed for [[time:{F2}d]]"
 status = "normal"
 enUS = "The feast is simple, but joyful. Food is shared, cups are raised, and {0} is welcomed into adulthood with cheers, jokes, and proud tail-slaps. For a moment, the colony feels less like a settlement and more like a family. [[C]][[+]]All beavers gain {1} for [[time:{2}d]]"
 zhCN = "“盛宴虽然简单，但充满喜悦。食物共享，杯子高举，{0}在欢呼、笑话和自豪的尾巴拍击中迎接成年。\n瞬间，殖民地的感觉不再像一个定居点，而更像一个大家庭。\n[[C]][[+]]所有海狸获得{1}，持续[[time:{2}d]]”"
@@ -1207,6 +1223,10 @@ koKR = "축하"
 csCZ = "Oslava"
 viVN = "Ngày lễ"
 trTR = "Kutlama"
+
+["LV.BCEv.FirstChildGrowth.BuffDesc"]
+new = "+{%3} Working Speed"
+status = "normal"
 
 ["LV.BCEv.DroughtPrep"]
 raw = "Dry Days Ahead"
@@ -1295,6 +1315,7 @@ trTR = "Çayırı ara"
 
 ["LV.BCEv.DroughtPrep.O1"]
 raw = "The volunteers return with muddy paws and full barrels. The spring was weak, but not empty.\n[[C]][[+]]Gain [[good:{0}:{1}]]"
+new = "The volunteers return with muddy paws and full barrels. The spring was weak, but not empty.\n[[C]][[+]]Gain [[good:{S2}:{I1}]]"
 status = "normal"
 enUS = "The volunteers return with muddy paws and full barrels. The spring was weak, but not empty.\n[[C]][[+]]Gain [[good:{0}:{1}]]"
 zhCN = "志愿者带着沾满泥巴的爪子和装满的水桶回来。泉水虽然微弱，但并没有干涸。  \n[[C]][[+]]获得[[good:{0}:{1}]]"
@@ -1329,6 +1350,7 @@ trTR = "Gönüllüler yalnızca nemli taşlar ve çatlamış kamışlar buluyor.
 
 ["LV.BCEv.DroughtPrep.O2"]
 raw = "The volunteers return dragging branches, cuttings, and dry timber. The woods offered more than expected.\n[[C]][[+]]Gain [[good:{0}:{1}]]"
+new = "The volunteers return dragging branches, cuttings, and dry timber. The woods offered more than expected.\n[[C]][[+]]Gain [[good:{S3}:{I2}]]"
 status = "normal"
 enUS = "The volunteers return dragging branches, cuttings, and dry timber. The woods offered more than expected. [[C]][[+]]Gain [[good:{0}:{1}]]"
 zhCN = "志愿者们拖着树枝、插枝和干木材回来了。森林带来了超出预期的收获。  \n[[C]][[+]]获得 [[good:{0}:{1}]]"
@@ -1363,6 +1385,7 @@ trTR = "Ormanlar sessiz ve temizlenmiş. Gönüllüler yorgun bir şekilde, pek 
 
 ["LV.BCEv.DroughtPrep.O3"]
 raw = "The volunteers come back with baskets of gathered food, enough to make the coming days feel a little less sharp.\n[[C]][[+]]Gain [[good:{0}:{1}]]"
+new = "The volunteers come back with baskets of gathered food, enough to make the coming days feel a little less sharp.\n[[C]][[+]]Gain [[good:{S4}:{I3}]]"
 status = "normal"
 enUS = "The volunteers come back with baskets of gathered food, enough to make the coming days feel a little less harsh. [[C]][[+]]Gain [[good:{0}:{1}]]"
 zhCN = "志愿者们带着装满食物的篮子回来，足够让接下来的日子感觉不那么尖锐。  \n[[C]][[+]]获得 [[good:{0}:{1}]]"
@@ -1482,6 +1505,7 @@ trTR = "Kendiniz halledin."
 
 ["LV.BCEv.FoodWoodDispute1.O1"]
 raw = "The farmers cheer your judgment and return to the fields with renewed pride. If food is the heart of the colony, they intend to keep it beating.\nThe lumberjacks return to the forest in bitter silence.\n[[C]][[-]]Lumberjack Flags' workers lose {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[+]]Farmhouses' workers gain {2:+0%} Working Speed for [[time:{0}d]]"
+new = "The farmers cheer your judgment and return to the fields with renewed pride. If food is the heart of the colony, they intend to keep it beating.\nThe lumberjacks return to the forest in bitter silence.\n[[C]][[-]]Lumberjack Flags' workers lose {%4} Working Speed for [[time:{F1}d]]\n[[C]][[+]]Farmhouses' workers gain +{%3} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "The farmers cheer your judgment and return to the fields with renewed pride. If food is the heart of the colony, they intend to keep it beating. The lumberjacks return to the forest in bitter silence. [[C]][[-]]Lumberjack Flags' workers lose {1:0%} Working Speed for [[time:{0}d]] [[C]][[+]]Farmhouses' workers gain {2:+0%} Working Speed for [[time:{0}d]]"
 zhCN = "农民们欢呼你的裁决，带着重燃的自豪感回到田野。如果食物是殖民地的心脏，他们打算让它保持跳动。  \n伐木工人则默默地回到森林。  \n[[C]][[-]]伐木工坊的工人失去 {1:0%} 工作速度，持续 [[time:{0}d]]  \n[[C]][[+]]农舍的工人获得 {2:+0%} 工作速度，持续 [[time:{0}d]]"
@@ -1499,6 +1523,7 @@ trTR = "Çiftçiler kararınıza sevinir ve tarlalara yenilenmiş bir gururla d�
 
 ["LV.BCEv.FoodWoodDispute1.O2"]
 raw = "The lumberjacks thump their tails in approval and march back toward the trees. Every raised roof and sturdy dam will prove their worth.\nThe farmers return to their fields with sour looks and sharper words.\n[[C]][[+]]Lumberjack Flags' workers gain {1:+0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]Farmhouses' workers lose {2:0%} Working Speed for [[time:{0}d]]"
+new = "The lumberjacks thump their tails in approval and march back toward the trees. Every raised roof and sturdy dam will prove their worth.\nThe farmers return to their fields with sour looks and sharper words.\n[[C]][[+]]Lumberjack Flags' workers gain +{%3} Working Speed for [[time:{F1}d]]\n[[C]][[-]]Farmhouses' workers lose {%4} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "The lumberjacks thump their tails in approval and march back toward the trees. Every raised roof and sturdy dam will prove their worth. The farmers return to their fields with sour looks and sharper words. [[C]][[+]]Lumberjack Flags' workers gain {1:+0%} Working Speed for [[time:{0}d]] [[C]][[-]]Farmhouses' workers lose {2:0%} Working Speed for [[time:{0}d]]"
 zhCN = "伐木工人们兴奋地拍打着尾巴，朝着树林走去。每一个高耸的屋顶和坚固的大坝都将证明他们的价值。\n农民们面带不悦，带着尖刻的言辞回到田间。\n[[C]][[+]]伐木工人获得 {1:+0%} 的工作速度，持续 [[time:{0}d]]\n[[C]][[-]]农舍的工人失去 {2:0%} 的工作速度，持续 [[time:{0}d]]"
@@ -1516,6 +1541,7 @@ trTR = "Açık hava ağaççıları onayla kuyruklarını yere vuruyor ve ağaç
 
 ["LV.BCEv.FoodWoodDispute1.O3"]
 raw = "To everyone's surprise, your refusal to choose sides works. The two groups argue a little longer, then begin laughing at how foolish the quarrel has become.\nBoth return to work determined to prove their worth without tearing the colony apart.\n[[C]][[+]]Lumberjack Flags' workers gain {1:+0%} Working Speed for [[time:{0}d]]\n[[C]][[+]]Farmhouses' workers gain {2:+0%} Working Speed for [[time:{0}d]]"
+new = "To everyone's surprise, your refusal to choose sides works. The two groups argue a little longer, then begin laughing at how foolish the quarrel has become.\nBoth return to work determined to prove their worth without tearing the colony apart.\n[[C]][[+]]Lumberjack Flags' workers gain +{%3} Working Speed for [[time:{F1}d]]\n[[C]][[+]]Farmhouses' workers gain +{%3} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "To everyone's surprise, your refusal to choose sides works. The two groups argue a little longer, then begin laughing at how foolish the quarrel has become. Both return to work determined to prove their worth without tearing the colony apart. [[C]][[+]]Lumberjack Flags' workers gain {1:+0%} Working Speed for [[time:{0}d]] [[C]][[+]]Farmhouses' workers gain {2:+0%} Working Speed for [[time:{0}d]]"
 zhCN = "令所有人感到惊讶的是，您拒绝站队的做法奏效了。这两个团体争论了稍长一段时间，然后开始嘲笑这场争吵是多么愚蠢。\n他们都回到工作中，决心在不撕裂殖民地的情况下证明自己的价值。\n[[C]][[+]]伐木工会的工人获得 {1:+0%} 的工作速度，持续 [[time:{0}d]]\n[[C]][[+]]农舍的工人获得 {2:+0%} 的工作速度，持续 [[time:{0}d]]"
@@ -1533,6 +1559,7 @@ trTR = "Herkesin şaşkınlığına, taraf seçmeyi reddetmeniz işe yarıyor. �
 
 ["LV.BCEv.FoodWoodDispute1.O4"]
 raw = "Your refusal to choose sides satisfies nobody. The farmers feel ignored, the lumberjacks feel dismissed, and both groups return to work with their tails low and tempers high.\nThe quarrel is not over.\n[[C]][[-]]Lumberjack Flags' workers lose {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]Farmhouses' workers lose {2:0%} Working Speed for [[time:{0}d]]"
+new = "Your refusal to choose sides satisfies nobody. The farmers feel ignored, the lumberjacks feel dismissed, and both groups return to work with their tails low and tempers high.\nThe quarrel is not over.\n[[C]][[-]]Lumberjack Flags' workers lose {%4} Working Speed for [[time:{F1}d]]\n[[C]][[-]]Farmhouses' workers lose {%4} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "Your refusal to choose sides satisfies nobody. The farmers feel ignored, the lumberjacks feel dismissed, and both groups return to work with their tails low and tempers high. The quarrel is not over. [[C]][[-]]Lumberjack Flags' workers lose {1:0%} Working Speed for [[time:{0}d]] [[C]][[-]]Farmhouses' workers lose {2:0%} Working Speed for [[time:{0}d]]"
 zhCN = "你拒绝取边哪一方，让任何人都不满意。农民感到被忽视，伐木工感到被轻视，两个群体都低着尾巴、情绪高涨地回去工作。\n争吵并未结束。\n[[C]][[-]]伐木工的工人工作速度下降 {1:0%}，持续时间为[[time:{0}d]]\n[[C]][[-]]农舍的工人工作速度下降 {2:0%}，持续时间为[[time:{0}d]]"
@@ -1547,6 +1574,14 @@ koKR = "편을 고르지 않는 당신의 거부는 아무도 만족시키지 �
 csCZ = "Vaše odmítnutí zaujmout stanovisko nespokojí nikoho. Zemědělci se cítí přehlíženi, dřevorubci se cítí odmítáni a obě skupiny se vracejí k práci se spadenými ocasy a vysokou náladou.\nSpor ještě neskončil.\n[[C]][[-]]Zaměstnanci Dřevorubeckých vlajek ztrácejí {1:0%} Rychlost práce na [[time:{0}d]]\n[[C]][[-]]Zaměstnanci Farmářských domů ztrácejí {2:0%} Rychlost práce na [[time:{0}d]]"
 viVN = "Sự từ chối chọn bên của bạn không làm hài lòng ai cả. Các nông dân cảm thấy bị bỏ rơi, các thợ mộc cảm thấy bị xem thường, và cả hai nhóm quay lại làm việc với cái đuôi rủ xuống và tâm trạng bực bội.\nCuộc cãi vã vẫn chưa chấm dứt.\n[[C]][[-]]Công nhân của Cờ Thợ Mộc mất {1:0%} Tốc độ Làm việc trong [[time:{0}d]]\n[[C]][[-]]Công nhân của Nhà Nông mất {2:0%} Tốc độ Làm việc trong [[time:{0}d]]"
 trTR = "Taraf seçmeme kararınız kimseyi tatmin etmiyor. Çiftçiler göz ardı edilmiş hissediyor, oduncular ise dışlanmış hissediyor ve her iki grup da işleriyle birlikte kuyrukları aşağıda, sinirleri yüksek bir şekilde geri dönüyor. \nTartışma bitmedi. \n[[C]][[-]]Ağaç İşleme Bayrakları işçileri [[time:{0}g]] boyunca {1:0%} Çalışma Hızı kaybeder \n[[C]][[-]]Çiftlik evleri işçileri [[time:{0}g]] boyunca {2:0%} Çalışma Hızı kaybeder"
+
+["LV.BCEv.FoodWoodDispute.Ch1BonusDesc"]
+new = "+{%3} Working Speed"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute.Ch1MalusDesc"]
+new = "{%4} Working Speed"
+status = "normal"
 
 ["LV.BCEv.FoodWoodDispute2"]
 raw = "Axes and Plows: Escalation"
@@ -1567,6 +1602,7 @@ trTR = "Testere ve Dozer: Tırmanış"
 
 ["LV.BCEv.FoodWoodDispute2.Content"]
 raw = "The quarrel has not faded. Days later, the arguments flare up once again, louder and harsher than before. Workers accuse each other of arrogance, laziness, and draining the colony's labor for their own needs.\nNow the entire district waits to see whether you will stand firm, change course, or refuse to take part in the dispute at all."
+new = "The quarrel has not faded. Days later, the arguments flare up once again, louder and harsher than before. Workers accuse each other of arrogance, laziness, and draining the colony's labor for their own needs.\nNow the entire colony waits to see whether you will stand firm, change course, or refuse to take part in the dispute at all."
 status = "normal"
 enUS = "The quarrel has not faded. Days later, the arguments flare up once again, louder and harsher than before. Workers accuse each other of arrogance, laziness, and draining the colony's labor for their own needs. Now the entire district waits to see whether you will stand firm, change course, or refuse to take part in the dispute at all."
 zhCN = "争吵并未平息。几天后，争论再次激烈起来，比之前更大声、更尖锐。工人们互相指责对方傲慢、懒惰，以及为了自己的需要消耗殖民地的劳动力。\n现在整个区域都在等待，看看你是否会坚守立场、改变方向，还是完全拒绝参与争端。"
@@ -1633,42 +1669,29 @@ csCZ = "\"Nezaujmu žádnou stranu.\""
 viVN = "\"Tôi sẽ không chọn bên nào.\""
 trTR = "\"Taraf tutmayacağım.\""
 
-["LV.BCEv.FoodWoodDispute2.O1"]
-raw = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+["LV.BCEv.FoodWoodDispute2.CrisisPanel"]
+new = "The dispute worsens"
 status = "normal"
-enUS = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
-zhCN = "你们的持续支持毫无疑问地表明了殖民地领导层的立场。受到青睐的工人们变得自豪而充满活力，而其他工人则完全失去了信心。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%}，持续时间为 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%}，持续时间为 [[time:{0}d]]"
-zhTW = "你的重複支持讓人毫無疑問地知道殖民地的領導立場。受到偏愛的工人們變得驕傲和活力四射，而其他工人則完全失去信心。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%}，持續 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%}，持續 [[time:{0}d]]"
-ruRU = "Ваши постоянные поддержки не оставляют сомнений в позициях руководства колонии. Привлеченные работники становятся гордыми и энергичными, в то время как остальные полностью теряют уверенность.\n[[C]][[+]]{3} работника получают {1:0%} скорость работы на [[time:{0}д]]\n[[C]][[-]]{4} работника теряют {2:0%} скорость работы на [[time:{0}д]]"
-jaJP = "植民地の指導者がどこに立っているのか、あなたの繰り返される支持から疑いの余地はありません。好まれた労働者たちは誇り高く、エネルギッシュになり、一方で他の者たちは完全に士気を失います。  \n[[C]][[+]]{3} の労働者は [[time:{0}d]] の間 {1:0%} 作業速度が増加します。  \n[[C]][[-]]{4} の労働者は [[time:{0}d]] の間 {2:0%} 作業速度が低下します。"
-frFR = "Votre soutien répété ne laisse aucun doute sur la position de la direction de la colonie. Les travailleurs favoris deviennent fiers et énergiques, tandis que les autres perdent complètement courage.\n[[C]][[+]]{3} travailleurs gagnent {1:0%} de Vitesse de Travail pendant [[temps:{0}j]]\n[[C]][[-]]{4} travailleurs perdent {2:0%} de Vitesse de Travail pendant [[temps:{0}j]]"
-deDE = "Deine wiederholte Unterstützung lässt keinen Zweifel daran, wo die Kolonieleitung steht. Die bevorzugten Arbeiter werden stolz und energisch, während die anderen völlig den Mut verlieren.\n[[C]][[+]]{3} Arbeiter gewinnen {1:0%} Arbeitstempo für [[time:{0}d]]\n[[C]][[-]]{4} Arbeiter verlieren {2:0%} Arbeitstempo für [[time:{0}d]]"
-plPL = "Twoje powtarzające się wsparcie nie pozostawia wątpliwości co do stanowiska przywództwa kolonii. Preferowani pracownicy stają się dumni i pełni energii, podczas gdy inni całkowicie tracą zapał.\n[[C]][[+]]{3} pracowników zyskuje {1:0%} Prędkości Pracy na [[czas:{0}d]]\n[[C]][[-]]{4} pracowników traci {2:0%} Prędkości Pracy na [[czas:{0}d]]"
-ptBR = "Seu apoio repetido não deixa dúvidas sobre a posição da liderança da colônia. Os trabalhadores favorecidos se tornam orgulhosos e enérgicos, enquanto os outros perdem totalmente a motivação.  \n[[C]][[+]]{3} trabalhadores ganham {1:0%} de Velocidade de Trabalho por [[time:{0}d]]  \n[[C]][[-]]{4} trabalhadores perdem {2:0%} de Velocidade de Trabalho por [[time:{0}d]]"
-koKR = "당신의 지속적인 지원은 식민지 지도부의 입장이 어디에 있는지 의심의 여지가 없습니다. 선호받는 노동자들은 자부심과 활력을 키우는 반면, 다른 노동자들은 완전히 의욕을 잃습니다.\n[[C]][[+]]{3} 노동자가 [[time:{0}d]] 동안 {1:0%} 작업 속도를 얻습니다.\n[[C]][[-]]{4} 노동자가 [[time:{0}d]] 동안 {2:0%} 작업 속도를 잃습니다."
-csCZ = "Vaše opakovaná podpora zanechává žádné pochybnosti o postavení vedení kolonie. Ocenění pracovníci rostou hrdě a energicky, zatímco ostatní zcela ztrácejí odvahu.  \n[[C]][[+]]{3} pracovníci získávají {1:0%} rychlost práce na [[time:{0}d]]  \n[[C]][[-]]{4} pracovníci ztrácejí {2:0%} rychlost práce na [[time:{0}d]]"
-viVN = "Sự ủng hộ liên tục của bạn không còn nghi ngờ gì về vị trí của ban lãnh đạo thuộc địa. Những công nhân được ưu ái trở nên tự hào và tràn đầy năng lượng, trong khi những người khác hoàn toàn mất tinh thần.\n[[C]][[+]]{3} công nhân nhận được {1:0%} Tốc độ Làm Việc trong [[time:{0}d]]\n[[C]][[-]]{4} công nhân mất {2:0%} Tốc độ Làm Việc trong [[time:{0}d]]"
-trTR = "Tekrarlayan desteğiniz, koloni liderliğinin nerede durduğuna dair hiçbir şüphe bırakmıyor. Favori işçiler gururlu ve enerjik büyürken, diğerleri tamamen hevesini kaybediyor.\n[[C]][[+]]{3} işçi [[time:{0}g]] boyunca {1:0%} Çalışma Hızı kazanıyor\n[[C]][[-]]{4} işçi [[time:{0}g]] boyunca {2:0%} Çalışma Hızı kaybediyor"
 
-["LV.BCEv.FoodWoodDispute2.O2"]
-raw = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+["LV.BCEv.FoodWoodDispute2.O1F"]
+new = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{S5} workers gain +{%2} Working Speed for [[time:{F1}d]]\n[[C]][[-]]{S6} workers lose {%3} Working Speed for [[time:{F1}d]]"
 status = "normal"
-enUS = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
-zhCN = "突然的变化让殖民地措手不及，但随着时间的推移，工人们开始接受新的平衡。情绪有所缓和，但仍然保留着一些怨恨。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%} 持续时间为 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%} 持续时间为 [[time:{0}d]]"
-zhTW = "突如其來的變化讓殖民地措手不及，但隨著時間的推移，工人們開始接受新的平衡。雖然一些怨恨仍然存在，但情緒漸漸平靜。\n[[C]][[+]]{3} 名工人獲得 {1:0%} 工作速度，持續 [[time:{0}d]]\n[[C]][[-]]{4} 名工人失去 {2:0%} 工作速度，持續 [[time:{0}d]]"
-ruRU = "Внезапный поворот застает колонию врасплох, но со временем рабочие привыкают к новой ситуации. Настроение успокаивается, хотя некоторое недовольство остается.\n[[C]][[+]]{3} рабочих получают {1:0%} Скорость Работы на [[time:{0}д]]\n[[C]][[-]]{4} рабочих теряют {2:0%} Скорость Работы на [[time:{0}д]]"
-jaJP = "突然の変化はコロニーを不意を突きますが、時が経つにつれて労働者たちは新しいバランスを受け入れ始めます。感情は落ち着きますが、いくつかの不満は残ります。\n[[C]][[+]]{3}人の労働者が[[time:{0}d]]の間、{1:0%}の作業速度を得ます。\n[[C]][[-]]{4}人の労働者が[[time:{0}d]]の間、{2:0%}の作業速度を失います。"
-frFR = "Le changement soudain prend la colonie au dépourvu, mais au fil du temps, les travailleurs commencent à accepter le nouvel équilibre. Les esprits s'apaisent, bien que certains ressentiments demeurent.  \n[[C]][[+]]{3} travailleurs gagnent {1:0%} de Vitesse de Travail pour [[time:{0}j]]  \n[[C]][[-]]{4} travailleurs perdent {2:0%} de Vitesse de Travail pour [[time:{0}j]]"
-deDE = "Der plötzliche Wandel überrascht die Kolonie, aber mit der Zeit beginnen die Arbeiter, das neue Gleichgewicht zu akzeptieren. Die Gemüter beruhigen sich, obwohl ein gewisses Maß an Groll bleibt.  \n[[C]][[+]]{3} Arbeiter gewinnen {1:0%} Arbeitsgeschwindigkeit für [[time:{0}d]]  \n[[C]][[-]]{4} Arbeiter verlieren {2:0%} Arbeitsgeschwindigkeit für [[time:{0}d]]"
-plPL = "Nagła zmiana zaskakuje kolonię, ale z czasem pracownicy zaczynają akceptować nową równowagę. Nastroje się uspokajają, chociaż pewne żale pozostają.  \n[[C]][[+]]{3} pracowników zyskuje {1:0%} Prędkości Pracy na [[czas:{0}d]]  \n[[C]][[-]]{4} pracowników traci {2:0%} Prędkości Pracy na [[czas:{0}d]]"
-ptBR = "A mudança repentina pega a colônia de surpresa, mas com o tempo os trabalhadores começam a aceitar o novo equilíbrio. Os ânimos se acalmam, embora algum ressentimento permaneça.  \n[[C]][[+]]{3} trabalhadores ganham {1:0%} de Velocidade de Trabalho por [[time:{0}d]]  \n[[C]][[-]]{4} trabalhadores perdem {2:0%} de Velocidade de Trabalho por [[time:{0}d]]"
-koKR = "갑작스러운 변화는 식민지를 놀라게 하지만 시간이 지나면서 근로자들은 새로운 균형을 받아들이기 시작한다. 감정은 가라앉지만 몇 가지 불만은 여전히 남아 있다.  \n[[C]][[+]]{3}명의 근로자가 [[time:{0}d]] 동안 {1:0%} 작업 속도가 증가합니다.  \n[[C]][[-]]{4}명의 근로자가 [[time:{0}d]] 동안 {2:0%} 작업 속도가 감소합니다."
-csCZ = "Náhlá změna zaskočí kolonii, ale během času začínají pracovníci přijímat novou rovnováhu. Hněv opadá, i když některé zášť přetrvává.\n[[C]][[+]]{3} pracovníci získají {1:0%} Rychlost Práce na [[time:{0}d]]\n[[C]][[-]]{4} pracovníci ztratí {2:0%} Rychlost Práce na [[time:{0}d]]"
-viVN = "Sự thay đổi đột ngột khiến thuộc địa bị bất ngờ, nhưng theo thời gian, những người lao động bắt đầu chấp nhận sự cân bằng mới. Tâm trạng bình tĩnh lại, mặc dù một số sự oán giận vẫn còn tồn tại.\n[[C]][[+]]{3} công nhân tăng {1:0%} Tốc độ Làm việc trong [[thời gian:{0}d]]\n[[C]][[-]]{4} công nhân giảm {2:0%} Tốc độ Làm việc trong [[thời gian:{0}d]]"
-trTR = "Aniden yaşanan değişim koloniyi hazırlıksız yakalıyor, ancak zamanla işçiler yeni dengeyi kabul etmeye başlıyor. Huylar sakinleşiyor, ancak bazı kırgınlıklar devam ediyor.\n[[C]][[+]]{3} işçi [[time:{0}g]] süresince {1:0%} Çalışma Hızına sahip oluyor\n[[C]][[-]]{4} işçi [[time:{0}g]] süresince {2:0%} Çalışma Hızını kaybediyor"
+
+["LV.BCEv.FoodWoodDispute2.O1L"]
+new = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{S6} workers gain +{%2} Working Speed for [[time:{F1}d]]\n[[C]][[-]]{S5} workers lose {%3} Working Speed for [[time:{F1}d]]"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute2.O2F"]
+new = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{S5} workers gain +{%5} Working Speed for [[time:{F1}d]]\n[[C]][[-]]{S6} workers lose {%6} Working Speed for [[time:{F1}d]]"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute2.O2L"]
+new = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{S6} workers gain +{%5} Working Speed for [[time:{F1}d]]\n[[C]][[-]]{S5} workers lose {%6} Working Speed for [[time:{F1}d]]"
+status = "normal"
 
 ["LV.BCEv.FoodWoodDispute2.O3"]
 raw = "Your attempt to reverse course pleases nobody. One side feels abandoned while the other doubts your sincerity. The arguments only grow louder.\n[[C]][[-]]Both {3} and {4} workers lose {1:0%} Working Speed for [[time:{0}d]]"
+new = "Your attempt to reverse course pleases nobody. One side feels abandoned while the other doubts your sincerity. The arguments only grow louder.\n[[C]][[-]]Both {S6} and {S5} workers lose {%7} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "Your attempt to reverse course pleases nobody. One side feels abandoned while the other doubts your sincerity. The arguments only grow louder.  \n[[C]][[-]]Both {3} and {4} workers lose {1:0%} Working Speed for [[time:{0}d]]"
 zhCN = "“你试图改变方向令人失望。一方感到被抛弃，而另一方怀疑你的真诚。争论声愈发激烈。[[C]][[-]]{3}和{4}名工人的工作速度下降{1:0%}，持续时间[[time:{0}d]]”"
@@ -1686,6 +1709,7 @@ trTR = "Yolunuzu değiştirme çabanız kimseyi memnun etmiyor. Bir taraf terk e
 
 ["LV.BCEv.FoodWoodDispute2.O4"]
 raw = "At last, exhaustion overcomes anger. The workers slowly realize the quarrel is hurting the colony more than helping it, and cooperation gradually returns.\n[[C]][[+]]Both groups' workers gain {1:0%} Working Speed for [[time:{0}d]]"
+new = "At last, exhaustion overcomes anger. The workers slowly realize the quarrel is hurting the colony more than helping it, and cooperation gradually returns.\n[[C]][[+]]Both groups' workers gain +{%9} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "At last, exhaustion overcomes anger. The workers slowly realize the quarrel is hurting the colony more than helping it, and cooperation gradually returns.  \n[[C]][[+]]Both groups' workers gain {1:0%} Working Speed for [[time:{0}d]]"
 zhCN = "最终，疲惫战胜了愤怒。工人们慢慢意识到争吵对殖民地的伤害大于帮助，合作逐渐恢复。\n[[C]][[+]]双方工人的工作速度提升 {1:0%}，持续时间为 [[time:{0}d]]"
@@ -1703,6 +1727,7 @@ trTR = "Sonunda, yorgunluk öfkeyi yeniyor. İşçiler yavaş yavaş tartışman
 
 ["LV.BCEv.FoodWoodDispute2.O5"]
 raw = "Without guidance, resentment festers unchecked. Workers from both sides leave the meeting more frustrated than before, blaming the colony leadership for failing to settle the matter.\n[[C]][[-]]Both groups' workers lose {1:0%} Working Speed for [[time:{0}d]]"
+new = "Without guidance, resentment festers unchecked. Workers from both sides leave the meeting more frustrated than before, blaming the colony leadership for failing to settle the matter.\n[[C]][[-]]Both groups' workers lose {%10} Working Speed for [[time:{F1}d]]"
 status = "normal"
 enUS = "Without guidance, resentment festers unchecked. Workers from both sides leave the meeting more frustrated than before, blaming the colony leadership for failing to settle the matter.  \n[[C]][[-]]Both groups' workers lose {1:0%} Working Speed for [[time:{0}d]]"
 zhCN = "在没有指导的情况下，怨恨滋生并失控。双方的工人在会议结束时比之前更加沮丧，责怪殖民地领导未能解决此事。  \n[[C]][[-]]两个团体的工人失去 {1:0%} 工作速度，持续 [[time:{0}d]]"
@@ -1718,39 +1743,33 @@ csCZ = "Bez vedení se zášť neomezeně prohlubuje. Pracovníci z obou stran o
 viVN = "Thiếu sự hướng dẫn, sự oán giận tích tụ không kiểm soát. Công nhân từ cả hai bên rời cuộc họp với sự thất vọng hơn trước, đổ lỗi cho lãnh đạo thuộc địa vì đã không giải quyết được vấn đề.\n[[C]][[-]]Công nhân của cả hai nhóm giảm {1:0%} Tốc độ làm việc trong [[thời gian:{0}d]]"
 trTR = "Rehberlik olmadan, içeridekinin öfkesi kontrolsüz bir şekilde büyür. Her iki tarafın işçileri toplantıdan daha da hayal kırıklığına uğrayarak ayrılır ve koloninin liderliğini meseleyi çözememekle suçlar.\n[[C]][[-]]Her iki grubun işçileri {1:0%} Çalışma Hızı kaybeder [[time:{0}g]]"
 
-["LV.BCEv.FoodWoodDispute2.Lumberjack"]
-raw = "Lumberjack Flags'"
+["LV.BCEv.FoodWoodDispute.Ch2LoyalBonusDesc"]
+new = "+{%2} Working Speed"
 status = "normal"
-enUS = "Lumberjack Flags'"
-zhCN = "伐木工标志"
-zhTW = "「伐木工旗幟」"
-ruRU = "Флаги лесорубов"
-jaJP = "「伐採者の旗」"
-frFR = "Drapeaux de bûcheron"
-deDE = "Holzfällerflaggen"
-plPL = "Flagi Drwala"
-ptBR = "Flags do Lenhador"
-koKR = "벌목기 깃발"
-csCZ = "Vlajky dřevorubců"
-viVN = "Cờ Lâm Trường"
-trTR = "Ağaç Kesici Bayrakları"
 
-["LV.BCEv.FoodWoodDispute2.Farmer"]
-raw = "Farmhouses'"
+["LV.BCEv.FoodWoodDispute.Ch2LoyalMalusDesc"]
+new = "{%3} Working Speed"
 status = "normal"
-enUS = "Farmhouses'"
-zhCN = "农舍的"
-zhTW = "農舍的"
-ruRU = "Фермерские дома"
-jaJP = "農家の"
-frFR = "Maisons de ferme"
-deDE = "Bauernhäuser"
-plPL = "Domki na farmie"
-ptBR = "Casas de Fazendeiros"
-koKR = "농가의"
-csCZ = "„Farmářské domy“"
-viVN = "Nhà nông dân"
-trTR = "Tarım Evleri'"
+
+["LV.BCEv.FoodWoodDispute.Ch2SwitchBonusDesc"]
+new = "+{%5} Working Speed"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute.Ch2SwitchMalusDesc"]
+new = "{%6} Working Speed"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute.Ch2SwitchCrisisDesc"]
+new = "{%7} Working Speed"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute.Ch2NeutralBonusDesc"]
+new = "+{%9} Working Speed"
+status = "normal"
+
+["LV.BCEv.FoodWoodDispute.Ch2NeutralMalusDesc"]
+new = "{%10} Working Speed"
+status = "normal"
 
 ["LV.BCEv.ContaminationCure"]
 raw = "Pasteur's Gamble"
@@ -1771,6 +1790,7 @@ trTR = "Pasteur'un Riski"
 
 ["LV.BCEv.ContaminationCure.Content"]
 raw = "{0} has been contaminated, lying still with damp fur, dull eyes, and a tail too weak to slap the ground. Most of the colony keeps a careful distance.\nThen a self-declared doctor steps forward with stained notes and a theory called Pasteur's Gamble. The treatment is untested. Water may flush the poison. Sunflowers may strengthen the body. More careful aid may improve the odds, though no one can say what failure might bring."
+new = "{CP_TriggerCharacterName} has been contaminated, lying still with damp fur, dull eyes, and a tail too weak to slap the ground. Most of the colony keeps a careful distance.\nThen a self-declared doctor steps forward with stained notes and a theory called Pasteur's Gamble. The treatment is untested. Water may flush the poison. Sunflowers may strengthen the body. More careful aid may improve the odds, though no one can say what failure might bring."
 status = "normal"
 enUS = "{0} has been contaminated, lying still with damp fur, dull eyes, and a tail too weak to slap the ground. Most of the colony keeps a careful distance. Then a self-declared doctor steps forward with stained notes and a theory called Pasteur's Gamble. The treatment is untested. Water may flush the poison. Sunflowers may strengthen the body. More careful aid may improve the odds, though no one can say what failure might bring."
 zhCN = "{0} 已被污染，静静地躺着，湿漉漉的毛发，暗淡的眼睛，尾巴无力地打地。大部分居民都保持着小心的距离。随后，一位自称医生的人走上前，手里拿着沾污的笔记和一个名为巴斯德的冒险的理论。治疗尚未经过测试。水可能冲洗掉毒素。向日葵可能增强身体。更小心的帮助可能会提高成功的几率，尽管没有人能说出失败会带来什么后果。"
@@ -1805,6 +1825,7 @@ trTR = "Su ver"
 
 ["LV.BCEv.ContaminationCure.C1N"]
 raw = "[[C]]Pay [[good:{1}:{2}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
+new = "[[C]]Pay [[good:{S1}:{I1}]] in [[time:{F2}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 status = "normal"
 enUS = "[[C]]Pay [[good:{1}:{2}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 zhCN = "[[C]]支付[[good:{1}:{2}]]于[[time:{0}d]]。<YellowHighlight>未知后果。</YellowHighlight>"
@@ -1839,6 +1860,7 @@ trTR = "Ayçiçek ver"
 
 ["LV.BCEv.ContaminationCure.C2N"]
 raw = "[[C]]Pay [[good:{1}:{2}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
+new = "[[C]]Pay [[good:{S2}:{I2}]] in [[time:{F2}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 status = "normal"
 enUS = "[[C]]Pay [[good:{1}:{2}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 zhCN = "[[C]]支付[[good:{1}:{2}]]在[[time:{0}天]]内。<YellowHighlight>未知后果。</YellowHighlight>"
@@ -1873,6 +1895,7 @@ trTR = "Tedaviye yardımcı ol"
 
 ["LV.BCEv.ContaminationCure.C3N"]
 raw = "[[C]]Pay [[good:{1}:{2}]], [[good:{3}:{4}]], and [[good:{5}:{6}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
+new = "[[C]]Pay [[good:{S1}:{I1}]], [[good:{S2}:{I2}]], and [[good:{S5}:{I3}]] in [[time:{F3}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 status = "normal"
 enUS = "[[C]]Pay [[good:{1}:{2}]], [[good:{3}:{4}]], and [[good:{5}:{6}]] in [[time:{0}d]]. <YellowHighlight>Unknown consequences.</YellowHighlight>"
 zhCN = "[[C]]支付 [[good:{1}:{2}]], [[good:{3}:{4}]], 和 [[good:{5}:{6}]] 在 [[time:{0}d]] 内。<YellowHighlight>未知后果。</YellowHighlight>"
@@ -1924,6 +1947,7 @@ trTR = "[C]Hiçbir şey olmuyor."
 
 ["LV.BCEv.ContaminationCure.O1"]
 raw = "Against every doubtful stare, the treatment works. {0}'s breathing steadies, their eyes clear, and before long they are sitting upright again.\nBetter still, the remaining mixture proves stable enough to store. Pasteur's Gamble may be crude, but it has given the colony something useful.\n[[C]][[+]]{0} is cured.\n[[C]][[+]]Gain [[good:{1}:{2}]]."
+new = "Against every doubtful stare, the treatment works. {CP_TriggerCharacterName}'s breathing steadies, their eyes clear, and before long they are sitting upright again.\nBetter still, the remaining mixture proves stable enough to store. Pasteur's Gamble may be crude, but it has given the colony something useful.\n[[C]][[+]]{CP_TriggerCharacterName} is cured.\n[[C]][[+]]Gain [[good:{S3}:{I4}]]."
 status = "normal"
 enUS = "Against every doubtful stare, the treatment works. {0}'s breathing steadies, their eyes clear, and before long they are sitting upright again. Better still, the remaining mixture proves stable enough to store. Pasteur's Gamble may be crude, but it has given the colony something useful. [[C]][[+]]{0} is cured. [[C]][[+]]Gain [[good:{1}:{2}]]."
 zhCN = "面对每一个怀疑的目光，治疗效果显著。{0}的呼吸平稳，眼睛清晰，不久后他们又坐了起来。\n更好的是，剩余的混合物证明足够稳定，可以储存。巴斯德的赌注或许粗糙，但它给了殖民地一些有用的东西。\n[[C]][[+]]{0} 已经治愈。\n[[C]][[+]]获得 [[good:{1}:{2}]]。"
@@ -1941,6 +1965,7 @@ trTR = "Şüpheli bakışlara karşı tedavi işe yarıyor. {0}'ın nefesi düze
 
 ["LV.BCEv.ContaminationCure.O2"]
 raw = "The treatment fails. {0} remains weak, and the hopeful mixture turns bitter and useless. By morning, several helpers begin showing the same signs of contamination.\n[[C]][[-]]{1} random beavers become contaminated."
+new = "The treatment fails. {CP_TriggerCharacterName} remains weak, and the hopeful mixture turns bitter and useless. By morning, several helpers begin showing the same signs of contamination.\n[[C]][[-]]{I5} random beavers become contaminated."
 status = "normal"
 enUS = "The treatment fails. {0} remains weak, and the hopeful mixture turns bitter and useless. By morning, several helpers begin showing the same signs of contamination. [[C]][[-]]{1} random beavers become contaminated."
 zhCN = "“治疗失败。{0}依然虚弱，而充满希望的混合物变得苦涩无用。到早晨，几名助手开始出现同样的污染迹象。  \n[[C]][[-]]{1}只随机的海狸受到污染。”"
@@ -1958,6 +1983,7 @@ trTR = "Tedavi başarısız oldu. {0} zayıf kalıyor ve umut verici karışım 
 
 ["LV.BCEv.ContaminationCure.O3"]
 raw = "The treatment fails. {0} remains weak, and the prepared goods are spent with nothing to show for them.\nThe careful notes, however, prove useful for something else. The doctor cannot save the cure, but the colony recovers the lesson.\n[[C]][[+]]Refund {1} Science."
+new = "The treatment fails. {CP_TriggerCharacterName} remains weak, and the prepared goods are spent with nothing to show for them.\nThe careful notes, however, prove useful for something else. The doctor cannot save the cure, but the colony recovers the lesson.\n[[C]][[+]]Refund {I3} Science."
 status = "normal"
 enUS = "The treatment fails. {0} remains weak, and the prepared goods are spent with nothing to show for them. The careful notes, however, prove useful for something else. The doctor cannot save the cure, but the colony recovers the lesson. [[C]][[+]]Refund {1} Science."
 zhCN = "“治疗失败了。{0} 依然虚弱，准备的物品也被浪费，毫无成果。然而，这些细致的笔记却对其他事情有帮助。医生无法挽救这种疗法，但殖民地吸取了教训。[[C]][[+]]退款 {1} 科学。”"
@@ -1992,6 +2018,7 @@ trTR = " sessiz bir yer"
 
 ["LV.BCEv.ContaminationConspiracy.Content"]
 raw = "{0} is contaminated.\nBy dusk, whispers crawl through the colony like mist over badwater. Some say the contaminated are not merely sent away for safety. Some say a far district waits for them, quiet and empty, with no warm beds, no full tanks, and no one to hear the last tail-slap.\nNo one says it loudly. No one admits they believe it. But every beaver has seen how quickly a sick worker can become a problem to solve.\nNow {0} watches the others from a distance, and the colony watches itself."
+new = "{CP_TriggerCharacterName} is contaminated.\nBy dusk, whispers crawl through the colony like mist over badwater. Some say the contaminated are not merely sent away for safety. Some say a far district waits for them, quiet and empty, with no warm beds, no full tanks, and no one to hear the last tail-slap.\nNo one says it loudly. No one admits they believe it. But every beaver has seen how quickly a sick worker can become a problem to solve.\nNow {CP_TriggerCharacterName} watches the others from a distance, and the colony watches itself."
 status = "normal"
 enUS = "{0} is contaminated. By dusk, whispers crawl through the colony like mist over badwater. Some say the contaminated are not merely sent away for safety. Some say a far district waits for them, quiet and empty, with no warm beds, no full tanks, and no one to hear the last tail-slap. No one says it loudly. No one admits they believe it. But every beaver has seen how quickly a sick worker can become a problem to solve. Now {0} watches the others from a distance, and the colony watches itself."
 zhCN = "{0} 被污染了。\n黄昏时，低语如同雾气覆盖在污染的水面，弥漫在殖民地中。有人说，被污染的个体并非只是为了安全而被送走。有人说，有一个遥远的区域在等待他们，静谧而空旷，没有温暖的床，没有充足的水箱，也没有人能听到最后一声尾巴拍打的声音。\n没有人大声说出这些话。没有人承认他们相信这一点。但是每一只海狸都见证了生病的工人是如何迅速成为需要解决的问题。\n现在 {0} 从远处观察着其他人，而殖民地也在观察着自己。"
@@ -2026,6 +2053,7 @@ trTR = "Bu komplo teorisini çürüteceğiz"
 
 ["LV.BCEv.ContaminationConspiracy.C1N"]
 raw = "[[C]]Cure {0} within [[time:{1}d]]"
+new = "[[C]]Cure {CP_TriggerCharacterName} within [[time:{F1}d]]"
 status = "normal"
 enUS = "[[C]]Cure {0} within [[time:{1}d]]"
 zhCN = "“[[C]]治疗 {0} 在 [[time:{1}d]] 之内”"
@@ -2041,8 +2069,13 @@ csCZ = "[[C]]Vyléč {0} během [[time:{1}d]]"
 viVN = "[[C]]Chữa {0} trong [[time:{1}d]]"
 trTR = "[[C]]{0}'ı [[time:{1}g]] içinde iyileştir"
 
+["LV.BCEv.ContaminationConspiracy.Panel"]
+new = "Cure {CP_TriggerCharacterName} within [[time:{F1}d]]"
+status = "normal"
+
 ["LV.BCEv.ContaminationConspiracy.O1"]
 raw = "{0} returns clean, living, and loudly welcomed.\nThe rumor does not vanish all at once, but it loses its teeth. A beaver can be contaminated and still be counted among the colony. A beaver can be isolated without being abandoned.\nThat matters.\n[[C]][[+]]All beavers gain {1} for [[time:{2}d]]"
+new = "{CP_TriggerCharacterName} returns clean, living, and loudly welcomed.\nThe rumor does not vanish all at once, but it loses its teeth. A beaver can be contaminated and still be counted among the colony. A beaver can be isolated without being abandoned.\nThat matters.\n[[C]][[+]]All beavers gain Reassured for [[time:{F2}d]]"
 status = "normal"
 enUS = "{0} returns clean, living, and loudly welcomed. The rumor does not vanish all at once, but it loses its teeth. A beaver can be contaminated and still be counted among the colony. A beaver can be isolated without being abandoned. That matters. [[C]][[+]]All beavers gain {1} for [[time:{2}d]]"
 zhCN = "{0} 重新返回，干净、活泼，并受到热烈欢迎。\n谣言不会一下子消失，但它会失去锋芒。一只海狸可能会受到污染，但仍然可以被视为群体的一员。一只海狸可以被隔离而不被遗弃。\n这很重要。\n[[C]][[+]]所有海狸在 [[time:{2}d]] 内获得 {1}"
@@ -2060,6 +2093,7 @@ trTR = "{0} temiz, canlı ve gürültüyle karşılanıyor. \nDedikodu bir anda 
 
 ["LV.BCEv.ContaminationConspiracy.O2"]
 raw = "The quiet district remains quiet. There is no sound of {0} returning, no sign of recovery, and no end to the whispers.\nWhether by neglect, fear, or cruel necessity, the rumor now has a name and a shape. Beavers lower their voices when a contaminated worker passes. Some glance toward the far paths and wonder who will be sent there next.\nThe colony keeps working, but not without looking over its shoulder.\n[[C]][[-]]All beavers get {1} for [[time:{2}d]]"
+new = "The quiet district remains quiet. There is no sound of {CP_TriggerCharacterName} returning, no sign of recovery, and no end to the whispers.\nWhether by neglect, fear, or cruel necessity, the rumor now has a name and a shape. Beavers lower their voices when a contaminated worker passes. Some glance toward the far paths and wonder who will be sent there next.\nThe colony keeps working, but not without looking over its shoulder.\n[[C]][[-]]All beavers get Quiet Dread for [[time:{F3}d]]"
 status = "normal"
 enUS = "The quiet district remains quiet. There is no sound of {0} returning, no sign of recovery, and no end to the whispers. Whether by neglect, fear, or cruel necessity, the rumor now has a name and a shape. Beavers lower their voices when a contaminated worker passes. Some glance toward the far paths and wonder who will be sent there next. The colony keeps working, but not without looking over its shoulder. [[C]][[-]]All beavers get {1} for [[time:{2}d]]"
 zhCN = "安静的区域依然安静。没有{0}返回的声音，没有恢复的迹象，也没有低语的尽头。\n无论是由于忽视、恐惧还是残酷的必要，谣言现在有了名称和形状。当一个被污染的工人经过时，海狸们会降低声音。有些人朝远方的道路投去目光，想知道接下来会派谁去那里。\n栖息地仍在运作，但每个人都不免回头张望。\n[[C]][[-]]所有海狸在[[time:{2}d]]内获得{1}。"
@@ -2108,3 +2142,113 @@ koKR = "조용한 공포"
 csCZ = "Tichý strach"
 viVN = "Nỗi Kinh Hoàng Im Lặng"
 trTR = "Sesiz Korku"
+
+["LV.BCEv.ContaminationConspiracy.BuffDesc"]
+new = "+{%4} Working and Movement Speed"
+status = "normal"
+
+["LV.BCEv.ContaminationConspiracy.DebuffDesc"]
+new = "{%5} Working and Movement Speed"
+status = "normal"
+
+["LV.BCEv.Unhoused.Buff1Desc"]
+raw = "{0:+0%} Working Speed"
+status = "abandoned"
+enUS = "{0:+0%} Working Speed"
+zhCN = "{0:+0%} 工作速度"
+zhTW = "{0:+0%} 工作速度"
+ruRU = "{0:+0%} Скорость работы"
+jaJP = "{0:+0%} 作業速度"
+frFR = "{0:+0%} Vitesse de Travail"
+deDE = "{0:+0%} Arbeitsgeschwindigkeit"
+plPL = "{0:+0%} Prędkość pracy"
+ptBR = "{0:+0%} Velocidade de Trabalho"
+koKR = "{0:+0%} 작업 속도"
+csCZ = "{0:+0%} Pracovní rychlost"
+viVN = "{0:+0%} Tốc độ Làm việc"
+trTR = "{0:+0%} Çalışma Hızı"
+
+["LV.BCEv.Unhoused.Buff2Desc"]
+raw = "{0:+0%} Working and Movement Speed"
+status = "abandoned"
+enUS = "{0:+0%} Working and Movement Speed"
+zhCN = "{0:+0%} 工作和移动速度"
+zhTW = "{0:+0%} 工作和移動速度"
+ruRU = "{0:+0%} Скорость работы и передвижения"
+jaJP = "{0:+0%} 作業および移動速度"
+frFR = "{0:+0%} Vitesse de Travail et de Mouvement"
+deDE = "{0:+0%} Arbeits- und Bewegungsgeschwindigkeit"
+plPL = "{0:+0%} Prędkość pracy i ruchu"
+ptBR = "{0:+0%} Velocidade de Trabalho e Movimento"
+koKR = "{0:+0%} 작업 및 이동 속도"
+csCZ = "{0:+0%} Rychlost práce a pohybu"
+viVN = "{0:+0%} Tốc độ Làm Việc và Di Chuyển"
+trTR = "{0:+0%} Çalışma ve Hareket Hızı"
+
+["LV.BCEv.FoodWoodDispute2.O1"]
+raw = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+status = "abandoned"
+enUS = "Your repeated support leaves no doubt where the colony leadership stands. The favored workers grow proud and energetic, while the others lose heart entirely.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+zhCN = "你们的持续支持毫无疑问地表明了殖民地领导层的立场。受到青睐的工人们变得自豪而充满活力，而其他工人则完全失去了信心。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%}，持续时间为 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%}，持续时间为 [[time:{0}d]]"
+zhTW = "你的重複支持讓人毫無疑問地知道殖民地的領導立場。受到偏愛的工人們變得驕傲和活力四射，而其他工人則完全失去信心。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%}，持續 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%}，持續 [[time:{0}d]]"
+ruRU = "Ваши постоянные поддержки не оставляют сомнений в позициях руководства колонии. Привлеченные работники становятся гордыми и энергичными, в то время как остальные полностью теряют уверенность.\n[[C]][[+]]{3} работника получают {1:0%} скорость работы на [[time:{0}д]]\n[[C]][[-]]{4} работника теряют {2:0%} скорость работы на [[time:{0}д]]"
+jaJP = "植民地の指導者がどこに立っているのか、あなたの繰り返される支持から疑いの余地はありません。好まれた労働者たちは誇り高く、エネルギッシュになり、一方で他の者たちは完全に士気を失います。  \n[[C]][[+]]{3} の労働者は [[time:{0}d]] の間 {1:0%} 作業速度が増加します。  \n[[C]][[-]]{4} の労働者は [[time:{0}d]] の間 {2:0%} 作業速度が低下します。"
+frFR = "Votre soutien répété ne laisse aucun doute sur la position de la direction de la colonie. Les travailleurs favoris deviennent fiers et énergiques, tandis que les autres perdent complètement courage.\n[[C]][[+]]{3} travailleurs gagnent {1:0%} de Vitesse de Travail pendant [[temps:{0}j]]\n[[C]][[-]]{4} travailleurs perdent {2:0%} de Vitesse de Travail pendant [[temps:{0}j]]"
+deDE = "Deine wiederholte Unterstützung lässt keinen Zweifel daran, wo die Kolonieleitung steht. Die bevorzugten Arbeiter werden stolz und energisch, während die anderen völlig den Mut verlieren.\n[[C]][[+]]{3} Arbeiter gewinnen {1:0%} Arbeitstempo für [[time:{0}d]]\n[[C]][[-]]{4} Arbeiter verlieren {2:0%} Arbeitstempo für [[time:{0}d]]"
+plPL = "Twoje powtarzające się wsparcie nie pozostawia wątpliwości co do stanowiska przywództwa kolonii. Preferowani pracownicy stają się dumni i pełni energii, podczas gdy inni całkowicie tracą zapał.\n[[C]][[+]]{3} pracowników zyskuje {1:0%} Prędkości Pracy na [[czas:{0}d]]\n[[C]][[-]]{4} pracowników traci {2:0%} Prędkości Pracy na [[czas:{0}d]]"
+ptBR = "Seu apoio repetido não deixa dúvidas sobre a posição da liderança da colônia. Os trabalhadores favorecidos se tornam orgulhosos e enérgicos, enquanto os outros perdem totalmente a motivação.  \n[[C]][[+]]{3} trabalhadores ganham {1:0%} de Velocidade de Trabalho por [[time:{0}d]]  \n[[C]][[-]]{4} trabalhadores perdem {2:0%} de Velocidade de Trabalho por [[time:{0}d]]"
+koKR = "당신의 지속적인 지원은 식민지 지도부의 입장이 어디에 있는지 의심의 여지가 없습니다. 선호받는 노동자들은 자부심과 활력을 키우는 반면, 다른 노동자들은 완전히 의욕을 잃습니다.\n[[C]][[+]]{3} 노동자가 [[time:{0}d]] 동안 {1:0%} 작업 속도를 얻습니다.\n[[C]][[-]]{4} 노동자가 [[time:{0}d]] 동안 {2:0%} 작업 속도를 잃습니다."
+csCZ = "Vaše opakovaná podpora zanechává žádné pochybnosti o postavení vedení kolonie. Ocenění pracovníci rostou hrdě a energicky, zatímco ostatní zcela ztrácejí odvahu.  \n[[C]][[+]]{3} pracovníci získávají {1:0%} rychlost práce na [[time:{0}d]]  \n[[C]][[-]]{4} pracovníci ztrácejí {2:0%} rychlost práce na [[time:{0}d]]"
+viVN = "Sự ủng hộ liên tục của bạn không còn nghi ngờ gì về vị trí của ban lãnh đạo thuộc địa. Những công nhân được ưu ái trở nên tự hào và tràn đầy năng lượng, trong khi những người khác hoàn toàn mất tinh thần.\n[[C]][[+]]{3} công nhân nhận được {1:0%} Tốc độ Làm Việc trong [[time:{0}d]]\n[[C]][[-]]{4} công nhân mất {2:0%} Tốc độ Làm Việc trong [[time:{0}d]]"
+trTR = "Tekrarlayan desteğiniz, koloni liderliğinin nerede durduğuna dair hiçbir şüphe bırakmıyor. Favori işçiler gururlu ve enerjik büyürken, diğerleri tamamen hevesini kaybediyor.\n[[C]][[+]]{3} işçi [[time:{0}g]] boyunca {1:0%} Çalışma Hızı kazanıyor\n[[C]][[-]]{4} işçi [[time:{0}g]] boyunca {2:0%} Çalışma Hızı kaybediyor"
+
+["LV.BCEv.FoodWoodDispute2.O2"]
+raw = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+status = "abandoned"
+enUS = "The sudden shift catches the colony off guard, but over time the workers begin accepting the new balance. Tempers cool, though some resentment remains.\n[[C]][[+]]{3} workers gain {1:0%} Working Speed for [[time:{0}d]]\n[[C]][[-]]{4} workers lose {2:0%} Working Speed for [[time:{0}d]]"
+zhCN = "突然的变化让殖民地措手不及，但随着时间的推移，工人们开始接受新的平衡。情绪有所缓和，但仍然保留着一些怨恨。\n[[C]][[+]]{3} 名工人的工作速度提高 {1:0%} 持续时间为 [[time:{0}d]]\n[[C]][[-]]{4} 名工人的工作速度降低 {2:0%} 持续时间为 [[time:{0}d]]"
+zhTW = "突如其來的變化讓殖民地措手不及，但隨著時間的推移，工人們開始接受新的平衡。雖然一些怨恨仍然存在，但情緒漸漸平靜。\n[[C]][[+]]{3} 名工人獲得 {1:0%} 工作速度，持續 [[time:{0}d]]\n[[C]][[-]]{4} 名工人失去 {2:0%} 工作速度，持續 [[time:{0}d]]"
+ruRU = "Внезапный поворот застает колонию врасплох, но со временем рабочие привыкают к новой ситуации. Настроение успокаивается, хотя некоторое недовольство остается.\n[[C]][[+]]{3} рабочих получают {1:0%} Скорость Работы на [[time:{0}д]]\n[[C]][[-]]{4} рабочих теряют {2:0%} Скорость Работы на [[time:{0}д]]"
+jaJP = "突然の変化はコロニーを不意を突きますが、時が経つにつれて労働者たちは新しいバランスを受け入れ始めます。感情は落ち着きますが、いくつかの不満は残ります。\n[[C]][[+]]{3}人の労働者が[[time:{0}d]]の間、{1:0%}の作業速度を得ます。\n[[C]][[-]]{4}人の労働者が[[time:{0}d]]の間、{2:0%}の作業速度を失います。"
+frFR = "Le changement soudain prend la colonie au dépourvu, mais au fil du temps, les travailleurs commencent à accepter le nouvel équilibre. Les esprits s'apaisent, bien que certains ressentiments demeurent.  \n[[C]][[+]]{3} travailleurs gagnent {1:0%} de Vitesse de Travail pour [[time:{0}j]]  \n[[C]][[-]]{4} travailleurs perdent {2:0%} de Vitesse de Travail pour [[time:{0}j]]"
+deDE = "Der plötzliche Wandel überrascht die Kolonie, aber mit der Zeit beginnen die Arbeiter, das neue Gleichgewicht zu akzeptieren. Die Gemüter beruhigen sich, obwohl ein gewisses Maß an Groll bleibt.  \n[[C]][[+]]{3} Arbeiter gewinnen {1:0%} Arbeitsgeschwindigkeit für [[time:{0}d]]  \n[[C]][[-]]{4} Arbeiter verlieren {2:0%} Arbeitsgeschwindigkeit für [[time:{0}d]]"
+plPL = "Nagła zmiana zaskakuje kolonię, ale z czasem pracownicy zaczynają akceptować nową równowagę. Nastroje się uspokajają, chociaż pewne żale pozostają.  \n[[C]][[+]]{3} pracowników zyskuje {1:0%} Prędkości Pracy na [[czas:{0}d]]  \n[[C]][[-]]{4} pracowników traci {2:0%} Prędkości Pracy na [[czas:{0}d]]"
+ptBR = "A mudança repentina pega a colônia de surpresa, mas com o tempo os trabalhadores começam a aceitar o novo equilíbrio. Os ânimos se acalmam, embora algum ressentimento permaneça.  \n[[C]][[+]]{3} trabalhadores ganham {1:0%} de Velocidade de Trabalho por [[time:{0}d]]  \n[[C]][[-]]{4} trabalhadores perdem {2:0%} de Velocidade de Trabalho por [[time:{0}d]]"
+koKR = "갑작스러운 변화는 식민지를 놀라게 하지만 시간이 지나면서 근로자들은 새로운 균형을 받아들이기 시작한다. 감정은 가라앉지만 몇 가지 불만은 여전히 남아 있다.  \n[[C]][[+]]{3}명의 근로자가 [[time:{0}d]] 동안 {1:0%} 작업 속도가 증가합니다.  \n[[C]][[-]]{4}명의 근로자가 [[time:{0}d]] 동안 {2:0%} 작업 속도가 감소합니다."
+csCZ = "Náhlá změna zaskočí kolonii, ale během času začínají pracovníci přijímat novou rovnováhu. Hněv opadá, i když některé zášť přetrvává.\n[[C]][[+]]{3} pracovníci získají {1:0%} Rychlost Práce na [[time:{0}d]]\n[[C]][[-]]{4} pracovníci ztratí {2:0%} Rychlost Práce na [[time:{0}d]]"
+viVN = "Sự thay đổi đột ngột khiến thuộc địa bị bất ngờ, nhưng theo thời gian, những người lao động bắt đầu chấp nhận sự cân bằng mới. Tâm trạng bình tĩnh lại, mặc dù một số sự oán giận vẫn còn tồn tại.\n[[C]][[+]]{3} công nhân tăng {1:0%} Tốc độ Làm việc trong [[thời gian:{0}d]]\n[[C]][[-]]{4} công nhân giảm {2:0%} Tốc độ Làm việc trong [[thời gian:{0}d]]"
+trTR = "Aniden yaşanan değişim koloniyi hazırlıksız yakalıyor, ancak zamanla işçiler yeni dengeyi kabul etmeye başlıyor. Huylar sakinleşiyor, ancak bazı kırgınlıklar devam ediyor.\n[[C]][[+]]{3} işçi [[time:{0}g]] süresince {1:0%} Çalışma Hızına sahip oluyor\n[[C]][[-]]{4} işçi [[time:{0}g]] süresince {2:0%} Çalışma Hızını kaybediyor"
+
+["LV.BCEv.FoodWoodDispute2.Lumberjack"]
+raw = "Lumberjack Flags'"
+status = "abandoned"
+enUS = "Lumberjack Flags'"
+zhCN = "伐木工标志"
+zhTW = "「伐木工旗幟」"
+ruRU = "Флаги лесорубов"
+jaJP = "「伐採者の旗」"
+frFR = "Drapeaux de bûcheron"
+deDE = "Holzfällerflaggen"
+plPL = "Flagi Drwala"
+ptBR = "Flags do Lenhador"
+koKR = "벌목기 깃발"
+csCZ = "Vlajky dřevorubců"
+viVN = "Cờ Lâm Trường"
+trTR = "Ağaç Kesici Bayrakları"
+
+["LV.BCEv.FoodWoodDispute2.Farmer"]
+raw = "Farmhouses'"
+status = "abandoned"
+enUS = "Farmhouses'"
+zhCN = "农舍的"
+zhTW = "農舍的"
+ruRU = "Фермерские дома"
+jaJP = "農家の"
+frFR = "Maisons de ferme"
+deDE = "Bauernhäuser"
+plPL = "Domki na farmie"
+ptBR = "Casas de Fazendeiros"
+koKR = "농가의"
+csCZ = "„Farmářské domy“"
+viVN = "Nhà nông dân"
+trTR = "Tarım Evleri'"

@@ -307,6 +307,14 @@ csCZ = "Vzhled překryvu"
 viVN = "Hình thức lớp phủ"
 trTR = "Kaplama görünümü"
 
+["IgorZ.XRay.MeshSettings.IgnoreVisibleLevel"]
+new = "Ignore terrain layer cut"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.IgnoreVisibleLevel.Note"]
+new = "Show the full terrain mesh in X-Ray mode, even when the game's layer visibility tool hides upper levels."
+status = "normal"
+
 ["IgorZ.XRay.MeshSettings.WireframeModeDropdown"]
 raw = "Terrain visualization"
 status = "normal"

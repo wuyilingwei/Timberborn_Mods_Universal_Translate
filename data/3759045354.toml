@@ -1,0 +1,314 @@
+[_meta]
+name = "Beaver Chronicles Waterfall Event Pack"
+
+["LV.BCEv.StartBonusWaterfall"]
+new = "A Clear Fall"
+status = "normal"
+
+["LV.BCEv.StartBonusWaterfall.Content"]
+new = "The colony reaches the foot of the great waterfall, where clean water crashes down from the heights and gathers in bright, restless pools.\nThe air is cool with mist. Moss clings to the stone, and every beaver can hear the steady promise of the stream before the first path is even marked.\nThe scouts find a narrow basin where fresh water has collected, untouched and easy to draw. It could fill the colony's barrels at once.\nOr it could be left undisturbed, for reasons no one fully understands yet."
+status = "normal"
+
+["LV.BCEv.StartBonusWaterfall.C1"]
+new = "Fill the barrels"
+status = "normal"
+
+["LV.BCEv.StartBonusWaterfall.C1N"]
+new = "[[C]]Fresh waterfall water is gathered before work begins. [[+]]+[[good:{S1}:{I1}]]"
+status = "normal"
+
+["LV.BCEv.StartBonusWaterfall.C2"]
+new = "Leave the spring untouched"
+status = "normal"
+
+["LV.BCEv.StartBonusWaterfall.C2N"]
+new = "[[C]]The colony leaves the clear basin as it was."
+status = "normal"
+
+["LV.BCEv.FirstDroughtWaterfall"]
+new = "The Spring Beneath the Stone"
+status = "normal"
+
+["LV.BCEv.FirstDroughtWaterfall.Content"]
+new = "The first drought arrives with a dry wind.\nAcross the colony, the river weakens. Channels shrink, mud cracks along the banks, and beavers gather near the gauges with worried tails.\nBut near the waterfall, one clear basin does not fail.\nThe pool left untouched at the colony's founding still seeps from beneath the stone. No one knows whether it is fed by hidden pressure, old roots, or some deep pocket of water the drought has not reached.\nThe scouts lower their paws into the cool stream and stare at one another in silence.\nWhat was spared before now spares the colony.\n[[C]][[+]]One water source remains active during the first drought"
+status = "normal"
+
+["LV.BCEv.FirstDroughtWaterfall.BuffTitle"]
+new = "Spring Beneath the Stone"
+status = "normal"
+
+["LV.BCEv.FirstDroughtWaterfall.BuffDesc"]
+new = "This water source keeps flowing through this drought."
+status = "normal"
+
+["LV.BCEv.DisabledNoResource"]
+new = " <RedHighlight>Not enough resources.</RedHighlight>"
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy"]
+new = "The Drain Beneath the Drain"
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.Content"]
+new = "Every Badtide, the corner drain wakes again.\nIt rumbles beneath the stone, then spills badwater into the land as if the earth itself has learned to poison the colony.\nMost beavers keep their distance.\nOne scientist does not.\nAfter many measurements, sketches, and sleepless nights, the scientist returns with a strange claim: the drain is not only a drain. Something hooman-made is buried beneath it, connected to the old structure in ways no one fully understands.\nThe markings are damaged, but one meaning seems clear.\nWhatever is buried there was built to stop the drain forever.\nThe first survey will take time, but the scientist says better instruments and old calculations could shorten whatever work remains."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.C1"]
+new = "Look into it"
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.C1N"]
+new = "[[C]]Begin the study. [[time:{F1}d]].\n[[C]]During the study, pay [[good:{S2}:{I1}]] to reduce the remaining time by two thirds."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.Panel"]
+new = "The drain study is underway. Pay [[good:{S2}:{I1}]] at any time to reduce the remaining study time by two thirds."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.PanelAssisted"]
+new = "The extra science has narrowed the search. The remaining study time has been reduced by two thirds."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.C3"]
+new = "Dismiss the scientist"
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.C3N"]
+new = "[[C]]Nothing happens."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.O1"]
+new = "At last, the scientist returns with a finished report. The buried hooman structure is real. It may be reachable. By tomorrow morning, the colony must decide whether to dig."
+status = "normal"
+
+["LV.BCEv.BadtideDrainStudy.O2"]
+new = "The scientist lowers the notebook. The Badtide Drain remains as it has always been: dangerous, familiar, and unanswered."
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation"]
+new = "What Lies Below"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.Content"]
+new = "Morning comes with the scientist waiting beside the poisoned corner.\nThe report is clear enough to be troubling. Beneath the Badtide Drain lies a sealed hooman structure, built directly into the old system.\nNo one can say exactly how it works. The markings are too broken, the warnings too faded, and the mechanisms too strange.\nBut the design points toward one purpose: <b>stopping the drain permanently.</b>\nReaching it will not be simple. Stone must be cut. Metal must be braced. Tools will break. Supplies will vanish into the work.\nThe colony can commit the goods and dig. Or it can leave the hooman secret buried."
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C1"]
+new = "Dig it up"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C1N"]
+new = "[[C]]Excavate the buried structure.\n[[C]][[-]]-[[good:{S1}:{I1}]], -[[good:{S2}:{I2}]], -[[good:{S3}:{I3}]]"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C2"]
+new = "Dig it up carefully"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C2N"]
+new = "[[C]]Provide extra protective measures.\n[[C]][[-]]-[[good:{S1}:{I1}]], -[[good:{S2}:{I2}]], -[[good:{S3}:{I3}]], -[[good:{S4}:{I4}]]"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C3"]
+new = "Leave it buried"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.C3N"]
+new = "[[C]]Some hooman answers are not worth the cost. End the investigation."
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.Panel"]
+new = "Excavating"
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.O1"]
+new = "The colony commits the goods. For days, beavers cut, brace, haul, and dig at the edge of the poisoned corner until the sealed hooman chamber finally cracks open.\nInside is not a valve. It is not a pump. It is a dormant <RedHighlight>Unstable Core</RedHighlight>.\nThe moment the final seal breaks, the core wakes with a violent hum. Sickly light pulses through the chamber, and the scientist realizes the truth too late. The core was built to destroy the Badtide Drain by tearing the system apart from within. Now it has begun.\nThe core will detonate in a few days. The drain may be destroyed forever, but everything nearby will be destroyed with it.\n<RedHighlight>Prepare the colony!</RedHighlight>\n[[-]]{CP_InjuryVictims_Count} beavers were injured during the excavation."
+status = "normal"
+
+["LV.BCEv.BadtideDrainExcavation.O2"]
+new = "The order is given to stop.\nThe scientist argues for one more day, one more test, one more look beneath the stone. But the decision holds.\nThe notes are stored away, the tools are carried home, and the Badtide Drain remains untouched."
+status = "normal"
+
+["LV.BCEv.Taco"]
+new = "The Folded Feast"
+status = "normal"
+
+["LV.BCEv.Taco.Content"]
+new = "A scavenger returns from the old hooman ruins carrying a brittle scrap of stained paper. Most of the words have faded, but one remains clear: <YellowHighlight>Taco</YellowHighlight>. No one knows what it means.\nA crude drawing appears to show food folded inside another kind of food. The cooks believe they could reproduce it, but no one can agree whether the colony needs inspiration or discipline today."
+status = "normal"
+
+["LV.BCEv.Taco.C1"]
+new = "Try to recreate it"
+status = "normal"
+
+["LV.BCEv.Taco.C1N"]
+new = "[[C]][[-]]Pay [[good:{S1}:{I1}]] and [[good:{S2}:{I2}]].\n[[C]]<YellowHighlight>Unknown consequences.</YellowHighlight>"
+status = "normal"
+
+["LV.BCEv.Taco.C2"]
+new = "Reject the idea"
+status = "normal"
+
+["LV.BCEv.Taco.C2N"]
+new = "[[C]]The colony has better uses for its knowledge and planks.\n[[C]]<YellowHighlight>Unknown consequences.</YellowHighlight>"
+status = "normal"
+
+["LV.BCEv.Taco.BuffTitle"]
+new = "Folded Feast"
+status = "normal"
+
+["LV.BCEv.Taco.BuffDesc"]
+new = "+{%1} Working Speed"
+status = "normal"
+
+["LV.BCEv.Taco.DebuffTitle"]
+new = "Denied Feast"
+status = "normal"
+
+["LV.BCEv.Taco.DebuffDesc"]
+new = "{%3} Working Speed"
+status = "normal"
+
+["LV.BCEv.Taco.O1"]
+new = "After much debate, several failed experiments, and one flatbread nailed to a workbench, the cooks finally understand the recipe.\nVegetables, grilled roots, and sauce are wrapped inside a warm folded shell. The first bite silences the whole kitchen. Then the cheering begins.\n[[C]][[+]]All beavers gain +{%1} Working Speed for [[time:{F2}d]]"
+status = "normal"
+
+["LV.BCEv.Taco.O2"]
+new = "The scrap is discarded, but word of the supposed hooman delicacy has already spread through the colony.\nBeavers grumble that the administration denied them the greatest meal ever invented, despite none of them knowing what it was supposed to taste like.\n[[C]][[-]]All beavers lose {%3} Working Speed for [[time:{F2}d]]"
+status = "normal"
+
+["LV.BCEv.Taco2"]
+new = "The Folded Feast: Unleashed"
+status = "normal"
+
+["LV.BCEv.Taco2.Content"]
+new = "The cooks have deciphered the remaining marks on the hooman recipe. Apparently, the first taco was only the mild version.\nThe newly translated instructions describe stronger spices, a sharper sauce, and something repeatedly labelled <YellowHighlight>extra powerful</YellowHighlight>. Several cooks insist this must mean extra delicious. Others point out that the page is singed around the edges.\nThe colony already knows the original taco works. Now the cooks want to attempt the improved version."
+status = "normal"
+
+["LV.BCEv.Taco2.C1"]
+new = "Prepare the powerful version"
+status = "normal"
+
+["LV.BCEv.Taco2.C1N"]
+new = "[[C]][[-]]Pay [[good:{S1}:{I1}]], [[good:{S2}:{I2}]], and [[good:{S3}:{I3}]].\n[[C]]<YellowHighlight>Unknown consequences.</YellowHighlight>"
+status = "normal"
+
+["LV.BCEv.Taco2.C2"]
+new = "Keep it tame"
+status = "normal"
+
+["LV.BCEv.Taco2.C2N"]
+new = "[[C]][[-]]Pay [[good:{S1}:{I4}]].\n[[C]]<YellowHighlight>Unknown consequences.</YellowHighlight>"
+status = "normal"
+
+["LV.BCEv.Taco2.C3"]
+new = "No more hooman recipes"
+status = "normal"
+
+["LV.BCEv.Taco2.C3N"]
+new = "[[C]]End the experiment before the cooks decipher anything worse. <YellowHighlight>Unknown consequences.</YellowHighlight>"
+status = "normal"
+
+["LV.BCEv.Taco2.BuffTitle"]
+new = "Unleashed Power"
+status = "normal"
+
+["LV.BCEv.Taco2.BuffDesc"]
+new = "+{%1} Working Speed and Movement Speed"
+status = "normal"
+
+["LV.BCEv.Taco2.SafeBuffTitle"]
+new = "Familiar Feast"
+status = "normal"
+
+["LV.BCEv.Taco2.SafeBuffDesc"]
+new = "+{%2} Working Speed"
+status = "normal"
+
+["LV.BCEv.Taco2.O1"]
+new = "The new taco burns the tongue, clears the nose, and makes every beaver feel capable of constructing a dam with their bare paws.\nThe colony surges into action with alarming enthusiasm.\n[[C]][[+]]All beavers gain +{%1} Working Speed and Movement Speed for [[time:{F3}d]]"
+status = "normal"
+
+["LV.BCEv.Taco2.PowerfulPanel"]
+new = "Something powerful has been unleashed. The cooks are watching the colony very closely."
+status = "normal"
+
+["LV.BCEv.Taco2.O2"]
+new = "The cooks return to the original recipe. It lacks the promised hooman power, but it remains delicious, dependable, and unlikely to cause any trouble.\n[[C]][[+]]All beavers gain +{%2} Working Speed for [[time:{F3}d]]"
+status = "normal"
+
+["LV.BCEv.Taco2.O3"]
+new = "After examining the increasingly suspicious recipe, the cooks agree that some hooman knowledge is best left untranslated.\nThe remaining scraps are locked away, and everyone quietly returns to eating sensible food."
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.Content"]
+new = "The powerful taco has completed its journey through the colony.\nThe cooks now understand why the hoomans called it <YellowHighlight>extra powerful</YellowHighlight>. The entrance was painful. The exit threatens to become a historical event.\nA hurriedly designed concoction of water and berries may settle every stomach before the consequences reach the waterways."
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.C1"]
+new = "Prepare the soothing concoction"
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.C1N"]
+new = "[[C]][[-]]Deliver [[good:{S6}:{CP_BeaverCount}]] and [[good:{S7}:{CP_BeaverCount}]] within [[time:{F4}d]].\n[[C]][[-]]Failure may have dire consequences."
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.O1"]
+new = "The final barrel arrives just in time.\nAfter several long hours and a colony-wide agreement never to discuss the details, the crisis passes without contaminating the water supply.\nThe cooks burn the extra-powerful recipe."
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.O2"]
+new = "The concoction is not completed in time.\nSoon afterward, the water watchers notice a foul reddish current seeping into the basin. No one officially identifies the source, but every beaver involved in the taco experiment suddenly becomes very interested in leaving town.\nThe powerful recipe has produced one final, deeply regrettable effect.\n[[C]][[-]]A random water source becomes contaminated for [[time:{F4}d]]"
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.WaterBuffTitle"]
+new = "Regrettable Current"
+status = "normal"
+
+["LV.BCEv.Taco2.Cure.WaterBuffDesc"]
+new = "This water source is contaminated by the extra-powerful taco aftermath."
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref"]
+new = "Sinkhole of the Waterfall"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.Content"]
+new = "[[-]]This event will dramatically alter the map. Buildings within the affected area may be destroyed, and any beavers caught there may be killed.\nDo you want to enable this event?"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C1"]
+new = "Proceed now"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C1N"]
+new = "[[C]]Trigger the Sinkhole of the Waterfall immediately.\n[[C]][[-]]This may destroy buildings and kill beavers in an area."
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C2"]
+new = "Wait until Cycle {I1}"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C2N"]
+new = "[[C]]The event will not trigger before Cycle {I1}."
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C3"]
+new = "Skip this event"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Pref.C3N"]
+new = "[[C]]Permanently disable the Sinkhole of the Waterfall event for this settlement."
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.Content"]
+new = "As the final beam is secured, a low rumble rises from beneath the construction. Tools rattle, supports groan, and the ground begins to heave under the beavers' paws.\n\nThen, without warning, a deep crack tears across the earth. Soil and stone collapse inward as the fissure widens into a vast sinkhole, dragging buildings, debris, and anything unable to escape into the darkness below. Beavers scatter in panic while the land around the waterfall shifts, fractures, and gives way.\n\nHowever, from the deepest broken stone, clear water begins to rise. It does not gush like the waterfall above. It seeps upward with steady pressure, cold and stubborn, as if the collapse has opened a hidden spring that drought cannot silence.\n[[C]][[-]]{CP_SinkholeVictims_Count} characters killed and buildings destroyed\n[[C]][[+]]A new water source emerges, permanently immune to drought."
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.WaterBuffTitle"]
+new = "Sinkhole Spring"
+status = "normal"
+
+["LV.BCEv.WaterfallSinkhole.WaterBuffDesc"]
+new = "This water source keeps flowing through droughts."
+status = "normal"
