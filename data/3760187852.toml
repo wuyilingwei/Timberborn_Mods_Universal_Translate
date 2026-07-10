@@ -1,0 +1,226 @@
+[_meta]
+name = "Sync Mods Pro"
+
+["Calloatti.SyncModsPro.Button.Cancel"]
+new = "Cancel"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.Confirm"]
+new = "OK"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.LoadGame"]
+new = "Load Game"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.OK"]
+new = "OK"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.Restart"]
+new = "Restart"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.RestartLoad"]
+new = "Restart + Load"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.SaveProfile"]
+new = "Save Profile"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.StrictFlipOff"]
+new = "Strict OFF"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.StrictFlipOn"]
+new = "Strict ON"
+status = "normal"
+
+["Calloatti.SyncModsPro.Button.Sync"]
+new = "Sync"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.Active"]
+new = "Active"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.CurrentState"]
+new = "Current"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.CurrentVersion"]
+new = "Mod Ver"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.Enabled"]
+new = "Enabled"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.Id"]
+new = "Mod Id"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.MinGameVer"]
+new = "Game Ver"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.Name"]
+new = "Mod Name"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.SavedState"]
+new = "Saved"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.SavedVersion"]
+new = "Save Ver"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.Status"]
+new = "Status"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.TargetState"]
+new = "Target"
+status = "normal"
+
+["Calloatti.SyncModsPro.Column.VersionFolder"]
+new = "Version Folder"
+status = "normal"
+
+["Calloatti.SyncModsPro.Confirmation"]
+new = "Are you sure you want to load saved game?"
+status = "normal"
+
+["Calloatti.SyncModsPro.Info"]
+new = "Current mods list matches the saved game mods list."
+status = "normal"
+
+["Calloatti.SyncModsPro.MissingMod.Description"]
+new = "This mod is missing from your hard drive."
+status = "normal"
+
+["Calloatti.SyncModsPro.ObsoleteMods.Warning"]
+new = "The following mods were detected and have been automatically disabled to prevent conflicts. The game must now restart to apply these changes:{0}"
+status = "normal"
+
+["Calloatti.SyncModsPro.Profile.SaveFailure"]
+new = "Failed to save mod profile. Check console log files for details."
+status = "normal"
+
+["Calloatti.SyncModsPro.Profile.SaveSuccess"]
+new = "Mod profile saved successfully inside the 'Mod Profiles' settlement folder!"
+status = "normal"
+
+["Calloatti.SyncModsPro.ShowAll"]
+new = "Show All"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.Disabled"]
+new = "Disabled"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.Duplicate"]
+new = "Duplicate"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.HideNotApplicable"]
+new = "Hide N/A"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.Match"]
+new = "Match"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.Missing"]
+new = "Missing"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.New"]
+new = "New"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.NotApplicable"]
+new = "N/A"
+status = "normal"
+
+["Calloatti.SyncModsPro.Status.Restart"]
+new = "Restart"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.DialogTitle"]
+new = "Steam Workshop Sync"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.SubscribeIoFailure"]
+new = "Failed to communicate with Steam servers while subscribing to: <b>{0}</b> ({1})"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.SubscribePrompt"]
+new = "Subscribe to {0}?"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.SubscribeRejected"]
+new = "Steam rejected the subscription request for: <b>{0}</b>. Error Code: {1}"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.SubscribeSuccess"]
+new = "Successfully subscribed to: <b>{0}</b>. Steam client will begin downloading files shortly. You must <b>Restart the Game</b> for changes to apply."
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.UnknownMod"]
+new = "Unknown Mod"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.UnsubscribeIoFailure"]
+new = "Failed to communicate with Steam servers while unsubscribing from: <b>{0}</b> ({1})"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.UnsubscribePrompt"]
+new = "Unsubscribe from {0}?"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.UnsubscribeRejected"]
+new = "Steam rejected the unsubscription request for: <b>{0}</b>. Error Code: {1}"
+status = "normal"
+
+["Calloatti.SyncModsPro.Steam.UnsubscribeSuccess"]
+new = "Successfully unsubscribed from: <b>{0}</b>. Files will be cleared completely upon <b>Game Restart</b>."
+status = "normal"
+
+["Calloatti.SyncModsPro.SyncDialogboxText"]
+new = "Mods synced, restart the game now."
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.LoadGame"]
+new = "Load this save file right now with your current active mod configuration. (May cause issues if mods are missing!)"
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.Restart"]
+new = "Restart the game immediately. Mod changes will take effect."
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.RestartLoad"]
+new = "Restart the game and automatically load this specific save file when the game finishes booting."
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.SaveProfile"]
+new = "Export your current active mod configuration as a saved game in the Mod Profiles Settlement."
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.StrictFlip"]
+new = "Enable/Disable extra mods that are currently enabled."
+status = "normal"
+
+["Calloatti.SyncModsPro.Tooltip.Sync"]
+new = "Sync mods. RESTART REQUIRED."
+status = "normal"
+
+["Calloatti.SyncModsPro.Warning"]
+new = "Current mods list does not match the saved game mods list."
+status = "normal"
+
+["Calloatti.SyncModsPro.Warning.RestartRequired"]
+new = "Changes will not take effect until game restart."
+status = "normal"

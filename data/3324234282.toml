@@ -2942,6 +2942,14 @@ csCZ = "zastavit vyprázdnění skladu"
 viVN = "Dừng xả kho"
 trTR = "depolamayı durdur"
 
+["IgorZ.Automation.Scriptable.Inventory.Action.SetHaulingMode"]
+new = "set hauling mode: {0}"
+status = "normal"
+
+["IgorZ.Automation.Scriptable.Inventory.Signal.HaulingMode"]
+new = "hauling mode"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Inventory.Signal.InputGood"]
 raw = "input: {0}"
 status = "normal"

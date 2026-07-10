@@ -1,0 +1,142 @@
+[_meta]
+name = "Conveyor Belts"
+
+["LV.CBlt.ConveyorBeltName"]
+new = "Conveyor Belt"
+status = "normal"
+
+["LV.CBlt.SmartConveyorBeltName"]
+new = "Smart Conveyor Belt"
+status = "normal"
+
+["LV.CBlt.ConveyorBeltMergerName"]
+new = "Conveyor Belt Merger"
+status = "normal"
+
+["LV.CBlt.ConveyorBeltSplitterName"]
+new = "Conveyor Belt Splitter"
+status = "normal"
+
+["LV.CBlt.ConveyorLiftUpName"]
+new = "Conveyor Lift Up"
+status = "normal"
+
+["LV.CBlt.ConveyorLiftDownName"]
+new = "Conveyor Lift Down"
+status = "normal"
+
+["LV.CBlt.ConveyorBeltDescription"]
+new = "Transports items horizontally between two buildings."
+status = "normal"
+
+["LV.CBlt.SmartConveyorBeltDescription"]
+new = "Transports items horizontally between two buildings and filters which goods are accepted."
+status = "normal"
+
+["LV.CBlt.ConveyorBeltMergerDescription"]
+new = "Merges items from multiple input conveyor belts into one output conveyor belt."
+status = "normal"
+
+["LV.CBlt.ConveyorBeltSplitterDescription"]
+new = "Splits items from one input conveyor belt into multiple output conveyor belts."
+status = "normal"
+
+["LV.CBlt.ConveyorLiftUpDescription"]
+new = "Lifts items to the building above."
+status = "normal"
+
+["LV.CBlt.ConveyorLiftDownDescription"]
+new = "Lowers items to the building below."
+status = "normal"
+
+["LV.CBlt.ConveyorBeltFlavor"]
+new = "Folktail engineers say it was inspired by watching logs roll downhill."
+status = "normal"
+
+["LV.CBlt.SmartConveyorBeltFlavor"]
+new = "The belt knows what it wants. The rejected goods take it personally."
+status = "normal"
+
+["LV.CBlt.ConveyorBeltMergerFlavor"]
+new = "A peaceful solution to having too many directions."
+status = "normal"
+
+["LV.CBlt.ConveyorBeltSplitterFlavor"]
+new = "It creates options. Choosing well is someone else's job."
+status = "normal"
+
+["LV.CBlt.ConveyorLiftUpFlavor"]
+new = "For an Iron Teeth invention, it's surprisingly <i>uplifting</i>."
+status = "normal"
+
+["LV.CBlt.ConveyorLiftDownFlavor"]
+new = "'Shouldn't this thing produce power instead of consuming it?'"
+status = "normal"
+
+["LV.CBlt.TravelTime"]
+new = "<YellowHighlight>Travel time:</YellowHighlight> {0:F1}h (Throughput: {1:F1} items/h)"
+status = "normal"
+
+["LV.CBlt.Capacity"]
+new = "<YellowHighlight>Capacity:</YellowHighlight> {0} items"
+status = "normal"
+
+["LV.CBlt.EjectContent"]
+new = "Eject Content"
+status = "normal"
+
+["LV.CBlt.StuckStatus"]
+new = "Resources stuck in the conveyor belt."
+status = "normal"
+
+["LV.CBlt.StuckStatusShort"]
+new = "Belt stuck"
+status = "normal"
+
+["LV.CBlt.FilteredItem"]
+new = "Filtered item:"
+status = "normal"
+
+["LV.CBlt.CannotCarry"]
+new = "<RedHighlight>Cannot transport:</RedHighlight> {0}"
+status = "normal"
+
+["LV.CBlt.GoodType_Pileable"]
+new = "Piles"
+status = "normal"
+
+["LV.CBlt.GoodType_Box"]
+new = "Boxes"
+status = "normal"
+
+["LV.CBlt.GoodType_Liquid"]
+new = "Liquid"
+status = "normal"
+
+["LV.CBlt.NoPower"]
+new = "No power"
+status = "normal"
+
+["LV.CBlt.NoPowerDesc"]
+new = "Conveyor belts no longer require power to operate."
+status = "normal"
+
+["LV.CBlt.EarlierAvailability"]
+new = "Earlier availability"
+status = "normal"
+
+["LV.CBlt.EarlierAvailabilityDesc"]
+new = "Greatly reduces science and construction costs for Conveyor Belt buildings"
+status = "normal"
+
+["LV.CBlt.Update110"]
+new = "Added Splitter. Added No Power option in the mod settings."
+status = "normal"
+
+[Name_ConveyorBeltDebugFragment]
+new = "Conveyor Belt Debug"
+status = "normal"
+
+[Name_ConveyorBeltFragment]
+new = "Conveyor Belt"
+status = "normal"
