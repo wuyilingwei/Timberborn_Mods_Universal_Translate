@@ -306,3 +306,43 @@ koKR = "자동화 도구"
 csCZ = "Automatizované nástroje"
 viVN = "Công cụ tự động"
 trTR = "Otomasyon Araçları"
+
+["Calloatti.Config.AutoTools.ConnectionHeightFraction.Label"]
+new = "Connection Height"
+status = "normal"
+
+["Calloatti.Config.AutoTools.ConnectionHeightFraction.Tooltip"]
+new = "Adjusts where lines connect to buildings (0.0 is the bottom, 0.5 is the middle, 1.0 is the top)"
+status = "normal"
+
+["Calloatti.Config.AutoTools.GlowWidthMultiplier.Label"]
+new = "Glow Line Thickness"
+status = "normal"
+
+["Calloatti.Config.AutoTools.GlowWidthMultiplier.Tooltip"]
+new = "Controls thickness of connection lines glow"
+status = "normal"
+
+["Calloatti.Config.AutoTools.GlowAlpha.Label"]
+new = "Glow Transparency (Alpha)"
+status = "normal"
+
+["Calloatti.Config.AutoTools.GlowAlpha.Tooltip"]
+new = "Sets the opacity of the glow of lines (0.0 is completely invisible, 1.0 is fully opaque)"
+status = "normal"
+
+["Calloatti.Config.AutoTools.OffStateBrightnessMultiplier.Label"]
+new = "Off-State Brightness"
+status = "normal"
+
+["Calloatti.Config.AutoTools.OffStateBrightnessMultiplier.Tooltip"]
+new = "Adjusts how bright the connection lines are when an automator is turned off or inactive"
+status = "normal"
+
+["Calloatti.Config.AutoTools.MapDisplayState.Label"]
+new = "Map Display Mode"
+status = "normal"
+
+["Calloatti.Config.AutoTools.MapDisplayState.Tooltip"]
+new = "Controls how the automation network map is shown (Hidden, Single selected network, or Global)"
+status = "normal"

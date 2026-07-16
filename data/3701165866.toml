@@ -68,3 +68,27 @@ koKR = "비버스 포 리얼 디버그 끄기"
 csCZ = "Beavers For Real Debug VYPNUTO"
 viVN = "Tắt gỡ lỗi Beavers For Real"
 trTR = "Beaverlar Gerçekten Hata Ayıklama KAPALI"
+
+["Calloatti.Config.BeaversForReal.MaxWaterNavigationHeight.Label"]
+new = "Max Water Navigation Height"
+status = "normal"
+
+["Calloatti.Config.BeaversForReal.MaxWaterNavigationHeight.Tooltip"]
+new = "The maximum height difference beavers can navigate from land to water and back."
+status = "normal"
+
+["Calloatti.Config.BeaversForReal.LogUnstuckBeavers.Label"]
+new = "Log unstuck beavers"
+status = "normal"
+
+["Calloatti.Config.BeaversForReal.LogUnstuckBeavers.Tooltip"]
+new = "Logs to player.log when a beaver is unstuck by the mod"
+status = "normal"
+
+["Calloatti.Config.BeaversForReal.MaxWaterContamination.Label"]
+new = "Max Water Contamination"
+status = "normal"
+
+["Calloatti.Config.BeaversForReal.MaxWaterContamination.Tooltip"]
+new = "The maximum badwater contamination level (0.0 to 1.0) beavers will willingly swim through."
+status = "normal"
