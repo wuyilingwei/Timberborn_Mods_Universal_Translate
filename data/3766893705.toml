@@ -1,0 +1,38 @@
+[_meta]
+name = "Power Lines"
+
+["LV.PL.Connections"]
+new = "Connections:"
+status = "normal"
+
+["LV.PL.AddConnection"]
+new = "Add Connection"
+status = "normal"
+
+["LV.PL.RemoveConnection"]
+new = "Remove Connection"
+status = "normal"
+
+["LV.PL.PickDestination"]
+new = "Pick a power line to connect to"
+status = "normal"
+
+["LV.PL.ShowConnections"]
+new = "Show Power Connections"
+status = "normal"
+
+["LV.PL.LaternDescription"]
+new = "A power pole that can connect more and longer power lines. Also comes with a free decorative lamp."
+status = "normal"
+
+["LV.PL.PowerLinesCount"]
+new = "<YellowHighlight>Power Lines:</YellowHighlight> {0}"
+status = "normal"
+
+["LV.PL.MaxDistance"]
+new = "<YellowHighlight>Max Power Line Distance:</YellowHighlight> {0}m"
+status = "normal"
+
+[Name_PowerLineFragment]
+new = "Power Lines"
+status = "normal"
