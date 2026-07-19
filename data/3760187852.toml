@@ -952,3 +952,35 @@ koKR = "변경 사항은 게임을 재시작해야 적용됩니다."
 csCZ = "Změny se projeví až po restartu hry."
 viVN = "Các thay đổi sẽ không có hiệu lực cho đến khi khởi động lại trò chơi."
 trTR = "Değişiklikler, oyun yeniden başlatılmadan etkili olmayacaktır."
+
+["Calloatti.Config.SyncModsPro.ShowIdColumn.Label"]
+new = "Show ID Column"
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.ShowIdColumn.Tooltip"]
+new = "Display the unique Mod ID column in the validator list."
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.ShowFolderColumn.Label"]
+new = "Show Version Folder Column"
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.ShowFolderColumn.Tooltip"]
+new = "Display the directory/subfolder path where the mod is located."
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.ShowMinVerColumn.Label"]
+new = "Show Min Game Ver Column"
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.ShowMinVerColumn.Tooltip"]
+new = "Display the Minimum Game Version required by the mod manifest."
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.OnlyOpenOnMismatch.Label"]
+new = "Only open on mod mismatch"
+status = "normal"
+
+["Calloatti.Config.SyncModsPro.OnlyOpenOnMismatch.Tooltip"]
+new = "Only show the Sync Mods panel when mods are missing or have version mismatches with the save file."
+status = "normal"
