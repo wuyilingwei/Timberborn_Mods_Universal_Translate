@@ -137,6 +137,22 @@ csCZ = "<YellowHighlight>Maximální vzdálenost vedení elektrického proudu:</
 viVN = "<YellowHighlight>Khoảng cách đường dây điện tối đa:</YellowHighlight> {0}m"
 trTR = "<YellowHighlight>Max Güç Hattı Mesafesi:</YellowHighlight> {0}m"
 
+["LV.PL.AlwaysShowCables"]
+new = "Always show Cables"
+status = "normal"
+
+["LV.PL.AlwaysShowCablesDesc"]
+new = "When enabled, cables will always be visible, even when a building is not selected."
+status = "normal"
+
+["LV.PL.CableColor"]
+new = "Cable Color"
+status = "normal"
+
+["LV.PL.CableColorDesc"]
+new = "The color of the cables."
+status = "normal"
+
 [Name_PowerLineFragment]
 raw = "Power Lines"
 status = "normal"
