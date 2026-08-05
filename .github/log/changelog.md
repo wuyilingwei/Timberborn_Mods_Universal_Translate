@@ -1,14 +1,14 @@
-# Release 2026.7.210
+# Release 2026.7.300
 
 Automated update with new mod translations and data changes.
 
 ## 📝 Changelog
 
 ### 📊 Data Changes
-- 📄 **1** new mod entries added
-- ✏️ **4** mod entries updated
+- 📄 **0** new mod entries added
+- ✏️ **15** mod entries updated
 
 ### 📈 Statistics
 - 🎯 **582** total mods in database
-- 📅 Built on 2026-07-21 08:54:00 UTC
+- 📅 Built on 2026-07-30 08:55:26 UTC
 
