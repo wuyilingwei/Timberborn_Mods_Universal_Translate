@@ -1,0 +1,18 @@
+[_meta]
+name = "Fill The Gap"
+
+["Building.FillTheGap.Description"]
+new = "Builds a normal Terrain Block or replaces one level of a standard Platform."
+status = "normal"
+
+["Building.FillTheGap.DisplayName"]
+new = "Fill the Gap"
+status = "normal"
+
+["Building.FillTheGap.InvalidPlacement"]
+new = "A Terrain Block cannot be placed here."
+status = "normal"
+
+["Building.FillTheGap.PlatformInsideTerrainBlock"]
+new = "Cannot place a Platform inside an unfinished Terrain Block."
+status = "normal"

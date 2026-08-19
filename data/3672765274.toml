@@ -1,22 +1,49 @@
 [_meta]
 name = "Grid"
 
-["Calloatti.Grid.DeleteAllDescription"]
-raw = "Use this tool to delete all Markers placed in the map."
+["Calloatti.Grid.ClearMarkersDescription"]
+new = "Use this tool to delete individual Markers. Click on a Marker to delete it."
 status = "normal"
-enUS = "Use this tool to delete all Markers placed in the map."
-zhCN = "使用此工具删除地图上放置的所有标记。"
-zhTW = "使用此工具刪除地圖上放置的所有標記。"
-ruRU = "Используйте этот инструмент, чтобы удалить все маркеры, размещённые на карте."
-jaJP = "このツールを使用して、マップ上に配置されたすべてのマーカーを削除します。"
-frFR = "Utilisez cet outil pour supprimer tous les marqueurs placés sur la carte."
-deDE = "Verwende dieses Werkzeug, um alle Marker auf der Karte zu löschen."
-plPL = "Użyj tego narzędzia, aby usunąć wszystkie znaczniki umieszczone na mapie."
-ptBR = "Use esta ferramenta para excluir todos os marcadores colocados no mapa."
-koKR = "지도에 배치된 모든 마커를 삭제하려면 이 도구를 사용하세요."
-csCZ = "Použijte tento nástroj pro smazání všech markerů umístěných na mapě."
-viVN = "Sử dụng công cụ này để xóa tất cả các điểm đánh dấu được đặt trên bản đồ."
-trTR = "Bu aracı haritada yerleştirilen tüm İşaretçileri silmek için kullanın."
+
+["Calloatti.Grid.ClearMarkersTitle"]
+new = "Clear Markers"
+status = "normal"
+
+["Calloatti.Grid.ClearRulersDescription"]
+new = "Use this tool to delete individual Rulers. Click on a Ruler to delete it."
+status = "normal"
+
+["Calloatti.Grid.ClearRulersTitle"]
+new = "Clear Rulers"
+status = "normal"
+
+["Calloatti.Grid.ClearWaterToolDescription"]
+new = "Use this tool to clear Water Planner areas."
+status = "normal"
+
+["Calloatti.Grid.ClearWaterToolTitle"]
+new = "Clear Water Planner areas"
+status = "normal"
+
+["Calloatti.Grid.Connectors.NotificationOff"]
+new = "Mechanical Connectors: OFF"
+status = "normal"
+
+["Calloatti.Grid.Connectors.NotificationOn"]
+new = "Mechanical Connectors: ON"
+status = "normal"
+
+["Calloatti.Grid.Connectors.NotificationPreview"]
+new = "Mechanical Connectors: Preview only"
+status = "normal"
+
+["Calloatti.Grid.DeleteAllMarkersDescription"]
+new = "Use this tool to delete all Markers placed in the map."
+status = "normal"
+
+["Calloatti.Grid.DeleteAllMarkersTitle"]
+new = "Delete all Markers"
+status = "normal"
 
 ["Calloatti.Grid.DeleteAllRulersDescription"]
 raw = "Use this tool to delete all Rulers placed in the map."
@@ -52,23 +79,6 @@ csCZ = "Smazat všechny panovníky"
 viVN = "Xóa tất cả các thước đo"
 trTR = "Tüm Yöneticileri Sil"
 
-["Calloatti.Grid.DeleteAllTitle"]
-raw = "Delete all Markers"
-status = "normal"
-enUS = "Delete all Markers"
-zhCN = "删除所有标记"
-zhTW = "刪除所有標記"
-ruRU = "Удалить все маркеры"
-jaJP = "すべてのマーカーを削除"
-frFR = "Supprimer tous les marqueurs"
-deDE = "Alle Marker löschen"
-plPL = "Usuń wszystkie znaczniki"
-ptBR = "Excluir todos os marcadores"
-koKR = "모든 마커 삭제"
-csCZ = "Odstranit všechny značky"
-viVN = "Xóa tất cả các điểm đánh dấu"
-trTR = "Tüm İşaretçileri Sil"
-
 ["Calloatti.Grid.DeleteAllWaterDescription"]
 raw = "Use this tool to clear all Water Planner areas placed in the map."
 status = "normal"
@@ -88,6 +98,7 @@ trTR = "Bu aracı, haritaya yerleştirilen tüm Su Planlayıcı alanlarını tem
 
 ["Calloatti.Grid.DeleteAllWaterTitle"]
 raw = "Clear Water Planner areas"
+new = "Delete all Water Planner areas"
 status = "normal"
 enUS = "Clear Water Planner areas"
 zhCN = "清除水域规划区域"
@@ -102,6 +113,22 @@ koKR = "수역 계획 영역 삭제"
 csCZ = "Vyčistit oblasti plánovače vody"
 viVN = "Xóa khu vực lập kế hoạch nước"
 trTR = "Su Planlayıcı alanlarını temizle"
+
+["Calloatti.Grid.EvapData.NotificationOff"]
+new = "Evaporation Data: OFF (m³/day)"
+status = "normal"
+
+["Calloatti.Grid.EvapData.NotificationOn"]
+new = "Evaporation Data: ON (m³/day)"
+status = "normal"
+
+["Calloatti.Grid.KeyBind.Toggle.Connectors"]
+new = "Toggle Mechanical Connectors"
+status = "normal"
+
+["Calloatti.Grid.KeyBind.Toggle.Evap"]
+new = "Toggle Evaporation Data"
+status = "normal"
 
 ["Calloatti.Grid.KeyBind.Toggle.Grid"]
 raw = "Toggle Terrain Grid"
@@ -205,40 +232,6 @@ csCZ = "Mřížka"
 viVN = "Lưới"
 trTR = "Izgara"
 
-["Calloatti.Grid.MarkerToolDescription"]
-raw = "Use this tool to add Markers to the map. Shift-Click over a Marker to delete it. Click over a marker to cycle Marker color."
-status = "normal"
-enUS = "Use this tool to add Markers to the map. Shift-Click over a Marker to delete it. Click over a marker to cycle Marker color."
-zhCN = "使用此工具在地图上添加标记。按住 Shift 点击标记即可删除它。单击标记以循环切换标记颜色。"
-zhTW = "使用此工具在地圖上新增標記。按住 Shift 並在標記上點擊以刪除它。點擊標記以循環標記顏色。"
-ruRU = "Используйте этот инструмент, чтобы добавлять маркеры на карту. Shift+клик по маркеру, чтобы удалить его. Щелкните по маркеру, чтобы переключить цвет маркера."
-jaJP = "このツールを使って地図にマーカーを追加します。マーカーの上で Shift キーを押しながらクリックすると削除されます。マーカーをクリックすると、マーカーの色を順番に切り替えます。"
-frFR = "Utilisez cet outil pour ajouter des marqueurs à la carte. Shift-cliquez sur un marqueur pour le supprimer. Cliquez sur un marqueur pour faire défiler la couleur du marqueur."
-deDE = "Verwende dieses Werkzeug, um Marker auf der Karte hinzuzufügen. Shift-Klick auf einen Marker, um ihn zu löschen. Klicke auf einen Marker, um die Markerfarbe zu wechseln."
-plPL = "Użyj tego narzędzia, aby dodać znaczniki na mapie. Shift-kliknij na znacznniku, aby go usunąć. Kliknij na znaczniku, aby zmienić kolor znacznika."
-ptBR = "Use esta ferramenta para adicionar marcadores ao mapa. Shift+Clique em um marcador para removê-lo. Clique em um marcador para alternar a cor do marcador."
-koKR = "이 도구를 사용하여 지도에 마커를 추가합니다. 마커 위에서 Shift-클릭하면 삭제됩니다. 마커를 클릭하면 마커의 색상이 순환됩니다."
-csCZ = "Použijte tento nástroj k přidání značek na mapu. Stiskněte Shift a klikněte na značku pro její smazání. Klikněte na značku pro změnu barvy značky."
-viVN = "Sử dụng công cụ này để thêm các điểm đánh dấu vào bản đồ. Nhấn Shift và nhấp chuột lên một điểm đánh dấu để xóa nó. Nhấp vào một điểm đánh dấu để đổi màu của nó."
-trTR = "Bu aracı haritaya İşaretçiler eklemek için kullanın. Bir İşaretçi üzerinde Shift-Tıklayarak silin. Bir İşaretçi üzerinde tıklayarak İşaretçi rengini değiştirin."
-
-["Calloatti.Grid.MarkerToolTitle"]
-raw = "Add Marker"
-status = "normal"
-enUS = "Add Marker"
-zhCN = "添加标记"
-zhTW = "新增標記"
-ruRU = "Добавить маркер"
-jaJP = "マーカーを追加"
-frFR = "Ajouter un marqueur"
-deDE = "Marker hinzufügen"
-plPL = "Dodaj znacznik"
-ptBR = "Adicionar Marcador"
-koKR = "마커 추가"
-csCZ = "Přidat značku"
-viVN = "Thêm điểm đánh dấu"
-trTR = "İşaret Ekle"
-
 ["Calloatti.Grid.Markers.NotificationOff"]
 raw = "Markers: OFF"
 status = "normal"
@@ -273,39 +266,47 @@ csCZ = "Značky: ZAPNUTO"
 viVN = "Các dấu hiệu: BẬT"
 trTR = "İşaretçiler: AÇIK"
 
-["Calloatti.Grid.RulerToolDescription"]
-raw = "Use this tool to add/edit Rulers. Click a block, select orientation by moving the mouse, click outside/inside ruler preview to add ruler. Ctrl-Click on ruler block adds a gap, Ctrl-Click increases gap, Ctrl-Click red block to reset ruler."
+["Calloatti.Grid.MarkerToolDescription"]
+raw = "Use this tool to add Markers to the map. Shift-Click over a Marker to delete it. Click over a marker to cycle Marker color."
 status = "normal"
-enUS = "Use this tool to add/edit Rulers. Click a block, select orientation by moving the mouse, click outside/inside ruler preview to add ruler. Ctrl-Click on ruler block adds a gap, Ctrl-Click increases gap, Ctrl-Click red block to reset ruler."
-zhCN = "使用此工具添加/编辑标尺。点击一个方块，通过移动鼠标来选择方向，点击标尺预览的外部/内部以添加标尺。按 Ctrl 点击标尺块可添加一个间隙，Ctrl 点击可增加间隙，按 Ctrl 点击红色块以重置标尺。"
-zhTW = "使用此工具新增/編輯尺規。點擊區塊，透過移動滑鼠選擇方向，點擊尺規預覽的外部/內部以新增尺規。在尺規區塊上按 Ctrl 點擊可新增一個間隙，Ctrl 點擊可增加間隙，按 Ctrl 點擊紅色區塊以重設尺規。"
-ruRU = "Используйте этот инструмент для добавления и редактирования линейок. Щёлкните по блоку, выберите ориентацию, перемещая мышь; щёлкните за пределами или внутри области предпросмотра линейки, чтобы добавить линейку. Ctrl+щёлчок по блоку линейки добавляет зазор, Ctrl+щёлчок увеличивает зазор, Ctrl+щёлчок по красному блоку сбрасывает линейку."
-jaJP = "このツールを使って定規を追加・編集します。ブロックをクリックして、マウスを動かして向きを選択し、定規のプレビューの外側/内側をクリックして定規を追加します。定規ブロックをCtrl+クリックするとギャップを追加します。Ctrl+クリックでギャップを増やします。赤いブロックをCtrl+クリックすると定規をリセットします。"
-frFR = "Utilisez cet outil pour ajouter/modifier des règles. Cliquez sur un bloc, sélectionnez l'orientation en déplaçant la souris, cliquez à l'extérieur ou à l'intérieur de l'aperçu de la règle pour ajouter une règle. Ctrl-Click sur le bloc de la règle ajoute un écart, Ctrl-Click augmente l'écart, Ctrl-Click sur le bloc rouge réinitialise la règle."
-deDE = "Verwenden Sie dieses Werkzeug, um Lineale hinzuzufügen bzw. zu bearbeiten. Klicken Sie auf einen Block, wählen Sie die Ausrichtung, indem Sie die Maus bewegen. Klicken Sie außerhalb/innerhalb der Linealvorschau, um ein Lineal hinzuzufügen. Strg-Klick auf den Linealblock fügt eine Lücke hinzu, Strg-Klick vergrößert die Lücke, Strg-Klick auf den roten Block setzt das Lineal zurück."
-plPL = "Użyj tego narzędzia do dodawania i edycji linijek. Kliknij blok, aby wybrać orientację, poruszając myszą; kliknij poza lub wewnątrz podglądu linijki, aby dodać linijkę. Ctrl-klik na blok linijki dodaje przerwę, Ctrl-klik zwiększa przerwę, Ctrl-klik na czerwony blok, aby zresetować linijkę."
-ptBR = "Use esta ferramenta para adicionar/editar réguas. Clique em um bloco, selecione a orientação movendo o mouse, clique fora ou dentro da pré-visualização da régua para adicionar a régua. Ctrl+Clique no bloco da régua adiciona uma lacuna, Ctrl+Clique aumenta a lacuna, Ctrl+Clique no bloco vermelho para redefinir a régua."
-koKR = "이 도구를 사용하여 자를 추가/편집합니다. 블록을 클릭하고 마우스를 움직여 방향을 선택한 뒤, 자 미리보기의 바깥/안쪽을 클릭해 자를 추가합니다. 자 블록에서 Ctrl-클릭하면 간격이 추가되고, Ctrl-클릭으로 간격을 늘리며, 빨간 자 블록을 Ctrl-클릭하면 자를 재설정합니다."
-csCZ = "Použijte tento nástroj k přidání a úpravám pravítek. Klikněte na blok, určete orientaci pohybem myši, klikněte mimo/uvnitř náhledu pravítka pro přidání pravítka. Ctrl-klik na blok pravítka přidá mezeru, Ctrl-klik zvětší mezeru, Ctrl-klik na červený blok resetuje pravítko."
-viVN = "Sử dụng công cụ này để thêm/chỉnh sửa các thước đo. Nhấp vào một khối, di chuyển chuột để chọn hướng, nhấp ngoài hoặc bên trong bản xem trước thước để thêm thước. Nhấn Ctrl và nhấp chuột vào khối thước để thêm một khoảng trống, nhấn Ctrl và nhấp chuột để tăng khoảng trống, nhấn Ctrl và nhấp chuột vào khối màu đỏ để đặt lại thước."
-trTR = "Bu aracı kullanarak Kural ekleyebilir/düzeltebilirsiniz. Bir bloğa tıklayın, farenizi hareket ettirerek yönü seçin, kural önizlemesinin dışına/içine tıklayarak kural ekleyin. Kural bloğuna Ctrl-Tıklamak boşluk ekler, Ctrl-Tıklamak boşluğu artırır, kırmızı bloğa Ctrl-Tıklamak kuralı sıfırlar."
+enUS = "Use this tool to add Markers to the map. Shift-Click over a Marker to delete it. Click over a marker to cycle Marker color."
+zhCN = "使用此工具在地图上添加标记。按住 Shift 点击标记即可删除它。单击标记以循环切换标记颜色。"
+zhTW = "使用此工具在地圖上新增標記。按住 Shift 並在標記上點擊以刪除它。點擊標記以循環標記顏色。"
+ruRU = "Используйте этот инструмент, чтобы добавлять маркеры на карту. Shift+клик по маркеру, чтобы удалить его. Щелкните по маркеру, чтобы переключить цвет маркера."
+jaJP = "このツールを使って地図にマーカーを追加します。マーカーの上で Shift キーを押しながらクリックすると削除されます。マーカーをクリックすると、マーカーの色を順番に切り替えます。"
+frFR = "Utilisez cet outil pour ajouter des marqueurs à la carte. Shift-cliquez sur un marqueur pour le supprimer. Cliquez sur un marqueur pour faire défiler la couleur du marqueur."
+deDE = "Verwende dieses Werkzeug, um Marker auf der Karte hinzuzufügen. Shift-Klick auf einen Marker, um ihn zu löschen. Klicke auf einen Marker, um die Markerfarbe zu wechseln."
+plPL = "Użyj tego narzędzia, aby dodać znaczniki na mapie. Shift-kliknij na znacznniku, aby go usunąć. Kliknij na znaczniku, aby zmienić kolor znacznika."
+ptBR = "Use esta ferramenta para adicionar marcadores ao mapa. Shift+Clique em um marcador para removê-lo. Clique em um marcador para alternar a cor do marcador."
+koKR = "이 도구를 사용하여 지도에 마커를 추가합니다. 마커 위에서 Shift-클릭하면 삭제됩니다. 마커를 클릭하면 마커의 색상이 순환됩니다."
+csCZ = "Použijte tento nástroj k přidání značek na mapu. Stiskněte Shift a klikněte na značku pro její smazání. Klikněte na značku pro změnu barvy značky."
+viVN = "Sử dụng công cụ này để thêm các điểm đánh dấu vào bản đồ. Nhấn Shift và nhấp chuột lên một điểm đánh dấu để xóa nó. Nhấp vào một điểm đánh dấu để đổi màu của nó."
+trTR = "Bu aracı haritaya İşaretçiler eklemek için kullanın. Bir İşaretçi üzerinde Shift-Tıklayarak silin. Bir İşaretçi üzerinde tıklayarak İşaretçi rengini değiştirin."
 
-["Calloatti.Grid.RulerToolTitle"]
-raw = "Add and Edit Rulers"
+["Calloatti.Grid.MarkerToolTitle"]
+raw = "Add Marker"
 status = "normal"
-enUS = "Add and Edit Rulers"
-zhCN = "添加并编辑标尺"
-zhTW = "新增與編輯量尺"
-ruRU = "Добавить и редактировать линейки"
-jaJP = "定規の追加と編集"
-frFR = "Ajouter et éditer des règles"
-deDE = "Lineale hinzufügen und bearbeiten"
-plPL = "Dodaj i edytuj linijki"
-ptBR = "Adicionar e editar réguas"
-koKR = "자 추가 및 편집"
-csCZ = "Přidat a upravovat pravítka"
-viVN = "Thêm và chỉnh sửa các thước đo"
-trTR = "Cetvel Ekleyin ve Düzenleyin"
+enUS = "Add Marker"
+zhCN = "添加标记"
+zhTW = "新增標記"
+ruRU = "Добавить маркер"
+jaJP = "マーカーを追加"
+frFR = "Ajouter un marqueur"
+deDE = "Marker hinzufügen"
+plPL = "Dodaj znacznik"
+ptBR = "Adicionar Marcador"
+koKR = "마커 추가"
+csCZ = "Přidat značku"
+viVN = "Thêm điểm đánh dấu"
+trTR = "İşaret Ekle"
+
+["Calloatti.Grid.RulerCircleToolDescription"]
+new = "Use this tool to add circle Rulers. Click a block to place the center, then click to set the radius."
+status = "normal"
+
+["Calloatti.Grid.RulerCircleToolTitle"]
+new = "Add Circle Rulers"
+status = "normal"
 
 ["Calloatti.Grid.Rulers.NotificationOff"]
 raw = "Rulers: OFF"
@@ -375,6 +376,40 @@ csCZ = "Viditelné pravítka"
 viVN = "Hiển thị thước kẻ"
 trTR = "Çizgiler Görünür"
 
+["Calloatti.Grid.RulerToolDescription"]
+raw = "Use this tool to add/edit Rulers. Click a block, select orientation by moving the mouse, click outside/inside ruler preview to add ruler. Ctrl-Click on ruler block adds a gap, Ctrl-Click increases gap, Ctrl-Click red block to reset ruler."
+status = "normal"
+enUS = "Use this tool to add/edit Rulers. Click a block, select orientation by moving the mouse, click outside/inside ruler preview to add ruler. Ctrl-Click on ruler block adds a gap, Ctrl-Click increases gap, Ctrl-Click red block to reset ruler."
+zhCN = "使用此工具添加/编辑标尺。点击一个方块，通过移动鼠标来选择方向，点击标尺预览的外部/内部以添加标尺。按 Ctrl 点击标尺块可添加一个间隙，Ctrl 点击可增加间隙，按 Ctrl 点击红色块以重置标尺。"
+zhTW = "使用此工具新增/編輯尺規。點擊區塊，透過移動滑鼠選擇方向，點擊尺規預覽的外部/內部以新增尺規。在尺規區塊上按 Ctrl 點擊可新增一個間隙，Ctrl 點擊可增加間隙，按 Ctrl 點擊紅色區塊以重設尺規。"
+ruRU = "Используйте этот инструмент для добавления и редактирования линейок. Щёлкните по блоку, выберите ориентацию, перемещая мышь; щёлкните за пределами или внутри области предпросмотра линейки, чтобы добавить линейку. Ctrl+щёлчок по блоку линейки добавляет зазор, Ctrl+щёлчок увеличивает зазор, Ctrl+щёлчок по красному блоку сбрасывает линейку."
+jaJP = "このツールを使って定規を追加・編集します。ブロックをクリックして、マウスを動かして向きを選択し、定規のプレビューの外側/内側をクリックして定規を追加します。定規ブロックをCtrl+クリックするとギャップを追加します。Ctrl+クリックでギャップを増やします。赤いブロックをCtrl+クリックすると定規をリセットします。"
+frFR = "Utilisez cet outil pour ajouter/modifier des règles. Cliquez sur un bloc, sélectionnez l'orientation en déplaçant la souris, cliquez à l'extérieur ou à l'intérieur de l'aperçu de la règle pour ajouter une règle. Ctrl-Click sur le bloc de la règle ajoute un écart, Ctrl-Click augmente l'écart, Ctrl-Click sur le bloc rouge réinitialise la règle."
+deDE = "Verwenden Sie dieses Werkzeug, um Lineale hinzuzufügen bzw. zu bearbeiten. Klicken Sie auf einen Block, wählen Sie die Ausrichtung, indem Sie die Maus bewegen. Klicken Sie außerhalb/innerhalb der Linealvorschau, um ein Lineal hinzuzufügen. Strg-Klick auf den Linealblock fügt eine Lücke hinzu, Strg-Klick vergrößert die Lücke, Strg-Klick auf den roten Block setzt das Lineal zurück."
+plPL = "Użyj tego narzędzia do dodawania i edycji linijek. Kliknij blok, aby wybrać orientację, poruszając myszą; kliknij poza lub wewnątrz podglądu linijki, aby dodać linijkę. Ctrl-klik na blok linijki dodaje przerwę, Ctrl-klik zwiększa przerwę, Ctrl-klik na czerwony blok, aby zresetować linijkę."
+ptBR = "Use esta ferramenta para adicionar/editar réguas. Clique em um bloco, selecione a orientação movendo o mouse, clique fora ou dentro da pré-visualização da régua para adicionar a régua. Ctrl+Clique no bloco da régua adiciona uma lacuna, Ctrl+Clique aumenta a lacuna, Ctrl+Clique no bloco vermelho para redefinir a régua."
+koKR = "이 도구를 사용하여 자를 추가/편집합니다. 블록을 클릭하고 마우스를 움직여 방향을 선택한 뒤, 자 미리보기의 바깥/안쪽을 클릭해 자를 추가합니다. 자 블록에서 Ctrl-클릭하면 간격이 추가되고, Ctrl-클릭으로 간격을 늘리며, 빨간 자 블록을 Ctrl-클릭하면 자를 재설정합니다."
+csCZ = "Použijte tento nástroj k přidání a úpravám pravítek. Klikněte na blok, určete orientaci pohybem myši, klikněte mimo/uvnitř náhledu pravítka pro přidání pravítka. Ctrl-klik na blok pravítka přidá mezeru, Ctrl-klik zvětší mezeru, Ctrl-klik na červený blok resetuje pravítko."
+viVN = "Sử dụng công cụ này để thêm/chỉnh sửa các thước đo. Nhấp vào một khối, di chuyển chuột để chọn hướng, nhấp ngoài hoặc bên trong bản xem trước thước để thêm thước. Nhấn Ctrl và nhấp chuột vào khối thước để thêm một khoảng trống, nhấn Ctrl và nhấp chuột để tăng khoảng trống, nhấn Ctrl và nhấp chuột vào khối màu đỏ để đặt lại thước."
+trTR = "Bu aracı kullanarak Kural ekleyebilir/düzeltebilirsiniz. Bir bloğa tıklayın, farenizi hareket ettirerek yönü seçin, kural önizlemesinin dışına/içine tıklayarak kural ekleyin. Kural bloğuna Ctrl-Tıklamak boşluk ekler, Ctrl-Tıklamak boşluğu artırır, kırmızı bloğa Ctrl-Tıklamak kuralı sıfırlar."
+
+["Calloatti.Grid.RulerToolTitle"]
+raw = "Add and Edit Rulers"
+status = "normal"
+enUS = "Add and Edit Rulers"
+zhCN = "添加并编辑标尺"
+zhTW = "新增與編輯量尺"
+ruRU = "Добавить и редактировать линейки"
+jaJP = "定規の追加と編集"
+frFR = "Ajouter et éditer des règles"
+deDE = "Lineale hinzufügen und bearbeiten"
+plPL = "Dodaj i edytuj linijki"
+ptBR = "Adicionar e editar réguas"
+koKR = "자 추가 및 편집"
+csCZ = "Přidat a upravovat pravítka"
+viVN = "Thêm và chỉnh sửa các thước đo"
+trTR = "Cetvel Ekleyin ve Düzenleyin"
+
 ["Calloatti.Grid.ToolGroup.Name"]
 raw = "Grid Tools"
 status = "normal"
@@ -425,40 +460,6 @@ koKR = "지형 데이터: 켜짐"
 csCZ = "Topo Data: ZAPNUTO"
 viVN = "Dữ liệu Topo: BẬT"
 trTR = "Topo Verisi: AÇIK"
-
-["Calloatti.Grid.WaterEraserToolDescription"]
-raw = "Use this tool to clear Water Planner areas."
-status = "normal"
-enUS = "Use this tool to clear Water Planner areas."
-zhCN = "使用此工具清除水域规划区域。"
-zhTW = "使用此工具清除水規劃區域。"
-ruRU = "Используйте этот инструмент для очистки зон планировщика воды."
-jaJP = "このツールを使用して、水プランナーのエリアをクリアします。"
-frFR = "Utilisez cet outil pour effacer les zones du Planificateur d'eau."
-deDE = "Verwenden Sie dieses Werkzeug, um Wasserplanungsbereiche zu räumen."
-plPL = "Użyj tego narzędzia, aby oczyścić obszary planera wody."
-ptBR = "Use esta ferramenta para limpar áreas do Planejador de Água."
-koKR = "이 도구를 사용하여 물 계획 영역을 지우세요."
-csCZ = "Použijte tento nástroj k vyčištění oblastí plánovače vody."
-viVN = "Sử dụng công cụ này để xóa bỏ các khu vực của Người lập kế hoạch nước."
-trTR = "Bu aracı Su Planlayıcı alanlarını temizlemek için kullanın."
-
-["Calloatti.Grid.WaterEraserToolTitle"]
-raw = "Clear Water Planner areas"
-status = "normal"
-enUS = "Clear Water Planner areas"
-zhCN = "清除水源规划区域"
-zhTW = "清除水源規劃區域"
-ruRU = "Очистить области планировщика воды"
-jaJP = "水計画エリアをクリアする"
-frFR = "Effacer les zones du planificateur d'eau"
-deDE = "Bereiche des Wasserplaners löschen"
-plPL = "Wyczyść obszary planera wody"
-ptBR = "Limpar áreas do Planejador de Água"
-koKR = "수조 계획 영역 지우기"
-csCZ = "Vymazat oblasti Plánovače vody"
-viVN = "Xóa khu vực lập kế hoạch nước"
-trTR = "Su Planlayıcı alanlarını temizle"
 
 ["Calloatti.Grid.WaterLowerToolDescription"]
 raw = "Use this tool to lower water level in Water Planner areas"
@@ -561,6 +562,74 @@ koKR = "수위 조절 계획 지역 늘리기"
 csCZ = "Zvýšit oblasti plánovače vody"
 viVN = "Xây dựng khu vực dâng nước"
 trTR = "Su Yükseltici Planlayıcı alanlarını yükselt"
+
+["Calloatti.Grid.DeleteAllDescription"]
+raw = "Use this tool to delete all Markers placed in the map."
+status = "abandoned"
+enUS = "Use this tool to delete all Markers placed in the map."
+zhCN = "使用此工具删除地图上放置的所有标记。"
+zhTW = "使用此工具刪除地圖上放置的所有標記。"
+ruRU = "Используйте этот инструмент, чтобы удалить все маркеры, размещённые на карте."
+jaJP = "このツールを使用して、マップ上に配置されたすべてのマーカーを削除します。"
+frFR = "Utilisez cet outil pour supprimer tous les marqueurs placés sur la carte."
+deDE = "Verwende dieses Werkzeug, um alle Marker auf der Karte zu löschen."
+plPL = "Użyj tego narzędzia, aby usunąć wszystkie znaczniki umieszczone na mapie."
+ptBR = "Use esta ferramenta para excluir todos os marcadores colocados no mapa."
+koKR = "지도에 배치된 모든 마커를 삭제하려면 이 도구를 사용하세요."
+csCZ = "Použijte tento nástroj pro smazání všech markerů umístěných na mapě."
+viVN = "Sử dụng công cụ này để xóa tất cả các điểm đánh dấu được đặt trên bản đồ."
+trTR = "Bu aracı haritada yerleştirilen tüm İşaretçileri silmek için kullanın."
+
+["Calloatti.Grid.DeleteAllTitle"]
+raw = "Delete all Markers"
+status = "abandoned"
+enUS = "Delete all Markers"
+zhCN = "删除所有标记"
+zhTW = "刪除所有標記"
+ruRU = "Удалить все маркеры"
+jaJP = "すべてのマーカーを削除"
+frFR = "Supprimer tous les marqueurs"
+deDE = "Alle Marker löschen"
+plPL = "Usuń wszystkie znaczniki"
+ptBR = "Excluir todos os marcadores"
+koKR = "모든 마커 삭제"
+csCZ = "Odstranit všechny značky"
+viVN = "Xóa tất cả các điểm đánh dấu"
+trTR = "Tüm İşaretçileri Sil"
+
+["Calloatti.Grid.WaterEraserToolDescription"]
+raw = "Use this tool to clear Water Planner areas."
+status = "abandoned"
+enUS = "Use this tool to clear Water Planner areas."
+zhCN = "使用此工具清除水域规划区域。"
+zhTW = "使用此工具清除水規劃區域。"
+ruRU = "Используйте этот инструмент для очистки зон планировщика воды."
+jaJP = "このツールを使用して、水プランナーのエリアをクリアします。"
+frFR = "Utilisez cet outil pour effacer les zones du Planificateur d'eau."
+deDE = "Verwenden Sie dieses Werkzeug, um Wasserplanungsbereiche zu räumen."
+plPL = "Użyj tego narzędzia, aby oczyścić obszary planera wody."
+ptBR = "Use esta ferramenta para limpar áreas do Planejador de Água."
+koKR = "이 도구를 사용하여 물 계획 영역을 지우세요."
+csCZ = "Použijte tento nástroj k vyčištění oblastí plánovače vody."
+viVN = "Sử dụng công cụ này để xóa bỏ các khu vực của Người lập kế hoạch nước."
+trTR = "Bu aracı Su Planlayıcı alanlarını temizlemek için kullanın."
+
+["Calloatti.Grid.WaterEraserToolTitle"]
+raw = "Clear Water Planner areas"
+status = "abandoned"
+enUS = "Clear Water Planner areas"
+zhCN = "清除水源规划区域"
+zhTW = "清除水源規劃區域"
+ruRU = "Очистить области планировщика воды"
+jaJP = "水計画エリアをクリアする"
+frFR = "Effacer les zones du planificateur d'eau"
+deDE = "Bereiche des Wasserplaners löschen"
+plPL = "Wyczyść obszary planera wody"
+ptBR = "Limpar áreas do Planejador de Água"
+koKR = "수조 계획 영역 지우기"
+csCZ = "Vymazat oblasti Plánovače vody"
+viVN = "Xóa khu vực lập kế hoạch nước"
+trTR = "Su Planlayıcı alanlarını temizle"
 
 ["Calloatti.Grid.Terrain.Toggle"]
 raw = "Toggle Terrain Grid"

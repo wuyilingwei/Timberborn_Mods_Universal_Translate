@@ -1,23 +1,6 @@
 [_meta]
 name = "Bot Storage (Powered)"
 
-["Building.BotStorage.DisplayName"]
-raw = "Bot Storage (Powered)"
-status = "normal"
-enUS = "Bot Storage (Powered)"
-zhCN = "机器人存储（动力版）"
-zhTW = "機器人儲存庫 (有電力)"
-ruRU = "Хранилище дронов (с питанием)"
-jaJP = "ボットストレージ（動力）"
-frFR = "Stockage de bots (alimenté)"
-deDE = "Bot-Speicher (Powered)"
-plPL = "Magazyn Robotów (Zasilany)"
-ptBR = "Armazenamento de Bot (Energia)"
-koKR = "봇 저장소 (전원 필요)"
-csCZ = "Úložiště robotů (napájené)"
-viVN = "Kho Lưu Trữ Bot (Có Năng Lượng)"
-trTR = "Bot Deposu (Güçlendirilmiş)"
-
 ["Building.BotStorage.Description"]
 raw = "A secure facility to store idle bots. Bots assigned here will power down, preventing deterioration and halting their fuel and energy consumption."
 status = "normal"
@@ -34,6 +17,23 @@ koKR = "유휴 봇을 저장하기 위한 안전한 시설입니다. 이곳에 �
 csCZ = "Bezpečné zařízení pro skladování nečinných botů. Boti přidělené sem se vypnou, čímž se zabrání jejich opotřebení a zastaví se jejich spotřeba paliva a energie."
 viVN = "Cơ sở an toàn để lưu trữ các bot nhàn rỗi. Các bot được chỉ định ở đây sẽ tắt nguồn, ngăn ngừa sự suy giảm và dừng tiêu thụ nhiên liệu cũng như năng lượng."
 trTR = "Boşta bekleyen robotları depolamak için güvenli bir tesis. Buraya atanan robotlar gücünü kapatacak, bozulmayı önleyecek ve yakıt ile enerji tüketimlerini durduracaktır."
+
+["Building.BotStorage.DisplayName"]
+raw = "Bot Storage (Powered)"
+status = "normal"
+enUS = "Bot Storage (Powered)"
+zhCN = "机器人存储（动力版）"
+zhTW = "機器人儲存庫 (有電力)"
+ruRU = "Хранилище дронов (с питанием)"
+jaJP = "ボットストレージ（動力）"
+frFR = "Stockage de bots (alimenté)"
+deDE = "Bot-Speicher (Powered)"
+plPL = "Magazyn Robotów (Zasilany)"
+ptBR = "Armazenamento de Bot (Energia)"
+koKR = "봇 저장소 (전원 필요)"
+csCZ = "Úložiště robotů (napájené)"
+viVN = "Kho Lưu Trữ Bot (Có Năng Lượng)"
+trTR = "Bot Deposu (Güçlendirilmiş)"
 
 ["Building.BotStorage.FlavorDescription"]
 raw = "Even perfect machines need a place to power down and collect dust... safely."

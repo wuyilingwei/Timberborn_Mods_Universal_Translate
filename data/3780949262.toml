@@ -1,0 +1,298 @@
+[_meta]
+name = "MapBrowser"
+
+["IgorZ.MapBrowser.Dialog.Close"]
+new = "Close"
+status = "normal"
+
+["IgorZ.MapBrowser.Dialog.Header"]
+new = "Map Browser"
+status = "normal"
+
+["IgorZ.MapBrowser.Details.Header"]
+new = "Map Details"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Delete"]
+new = "Delete"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.DeleteTooltip"]
+new = "Permanently delete this local map file.\nThis cannot be undone."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Deleting"]
+new = "Deleting..."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Details"]
+new = "Details"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Downloading"]
+new = "Downloading... {0}%"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Removed"]
+new = "Removed"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.RetryDelete"]
+new = "Retry delete"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.RetrySubscribe"]
+new = "Retry subscribe"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.RetryUnsubscribe"]
+new = "Retry unsubscribe"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Subscribe"]
+new = "Subscribe"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Subscribed"]
+new = "Subscribed"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.SubscribeTooltip"]
+new = "Subscribe to this Steam Workshop map."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Subscribing"]
+new = "Subscribing..."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Unsubscribe"]
+new = "Unsubscribe"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.UnsubscribeTooltip"]
+new = "Unsubscribe from this Steam Workshop map.\nYou can subscribe to it again later."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.Unsubscribing"]
+new = "Unsubscribing..."
+status = "normal"
+
+["IgorZ.MapBrowser.Action.WorkshopUnavailable"]
+new = "No longer available"
+status = "normal"
+
+["IgorZ.MapBrowser.Action.WorkshopUnavailableTooltip"]
+new = "This map is no longer available on Steam Workshop and cannot be subscribed to."
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Barren"]
+new = "Very little forest"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.DenseForest"]
+new = "Dense forest"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.DeepCanyons"]
+new = "Deep canyons"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Forested"]
+new = "Forested"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.HasCanyons"]
+new = "Has canyons"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.HasIslands"]
+new = "Has islands"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.HasMountains"]
+new = "Has mountains"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Lakes"]
+new = "Lakes"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.LargeIslands"]
+new = "Large islands"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.LargeMountains"]
+new = "Large mountains"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.LittleSpace"]
+new = "Little space"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.LongCanyons"]
+new = "Long canyons"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.ModerateForests"]
+new = "Moderate forests"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.MuchSpace"]
+new = "Much space"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.NoCanyons"]
+new = "No canyons"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.NoIslands"]
+new = "No islands"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.NoMountains"]
+new = "No mountains"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.NoWater"]
+new = "No open water"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Plain"]
+new = "Plain"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Plateau"]
+new = "Plateau"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Rivers"]
+new = "Rivers"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.RiversAndLakes"]
+new = "Rivers and lakes"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.SmallIslands"]
+new = "Small islands"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.SmallMountains"]
+new = "Small mountains"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Sparse"]
+new = "Sparse forest"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Terraces"]
+new = "Terraces"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.Unknown"]
+new = "Unknown classification"
+status = "normal"
+
+["IgorZ.MapBrowser.Analysis.Level.WaterCovered"]
+new = "Water-covered"
+status = "normal"
+
+["IgorZ.MapBrowser.Browser.InstalledMaps"]
+new = "Installed custom maps"
+status = "normal"
+
+["IgorZ.MapBrowser.Browser.SearchMaps"]
+new = "Find Workshop maps"
+status = "normal"
+
+["IgorZ.MapBrowser.Common.SourceLocal"]
+new = "Source: Local"
+status = "normal"
+
+["IgorZ.MapBrowser.Common.Unavailable"]
+new = "unavailable"
+status = "normal"
+
+["IgorZ.MapBrowser.Common.Unknown"]
+new = "Unknown"
+status = "normal"
+
+["IgorZ.MapBrowser.Details.Size"]
+new = "Size: {0}"
+status = "normal"
+
+["IgorZ.MapBrowser.Details.Published"]
+new = "Published: {0}"
+status = "normal"
+
+["IgorZ.MapBrowser.Details.Subscribers"]
+new = "Subscribers: {0}"
+status = "normal"
+
+["IgorZ.MapBrowser.Details.Votes"]
+new = "Votes: {0}"
+status = "normal"
+
+["IgorZ.MapBrowser.Freshness.Missing"]
+new = "Freshness: This map is not included in the latest index snapshot ({0}). Analysis will become available after a later refresh."
+status = "normal"
+
+["IgorZ.MapBrowser.Freshness.Stale"]
+new = "Freshness warning: The map has changed since its exact analysis and has not been reindexed yet."
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Any"]
+new = "Any"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.Canyons"]
+new = "Canyons"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.Forests"]
+new = "Forests"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.Islands"]
+new = "Islands"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.Mountains"]
+new = "Mountains"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.SettlementSpace"]
+new = "Space"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Filter.Water"]
+new = "Water"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Installed"]
+new = "Installed"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Keywords"]
+new = "Keywords"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.MatchCount"]
+new = "Matches: {0} / {1}"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.MatchCountWithSnapshot"]
+new = "Matches: {0} / {1} (snapshot: {2})"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Page"]
+new = "Page {0} / {1}"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.PageSize"]
+new = "Page size"
+status = "normal"
+
+["IgorZ.MapBrowser.Search.Search"]
+new = "Find maps"
+status = "normal"

@@ -1,0 +1,50 @@
+[_meta]
+name = "Storage Balancer"
+
+["LV.SBl.DistroBalancer1"]
+new = "Evenload Protocol"
+status = "normal"
+
+["LV.SBl.DistroBalancer1Desc"]
+new = "Balances goods evenly among adjacent storages that also have Balancer.\n<YellowHighlight>Connects only side-by-side on the same level</YellowHighlight> (full shared wall). Does not connect up or down.\nOnly for Storage buildings."
+status = "normal"
+
+["LV.SBl.DistroBalancer1Flavor"]
+new = "When two storages stand shoulder to shoulder, the goods flow as one."
+status = "normal"
+
+["LV.SBl.DistroBalancer2"]
+new = "Omnidirectional Protocol"
+status = "normal"
+
+["LV.SBl.DistroBalancer2Desc"]
+new = "Upgrades Balancer so storages connect if they <YellowHighlight>share any face</YellowHighlight>, including stacked up/down. Diagonals and corner-only contact do not count.\nRequires Evenload Protocol. Only for Storage buildings."
+status = "normal"
+
+["LV.SBl.DistroBalancer2Flavor"]
+new = "From the lowest floor to the highest shelf, every crate finds its equal place."
+status = "normal"
+
+["LV.SBl.DisableBalancer"]
+new = "Disabled"
+status = "normal"
+
+["LV.SBl.BalancerGroup"]
+new = "Balancer Groups:"
+status = "normal"
+
+["LV.SBl.BalancerGroupNone"]
+new = "This storage is not connected to any other balancer."
+status = "normal"
+
+["LV.SBl.Select"]
+new = "Select"
+status = "normal"
+
+["LV.SBl.Balanced"]
+new = "<GreenHighlight>Balanced!</GreenHighlight>"
+status = "normal"
+
+[Name_StockpileBalancerFragment]
+new = "Storage Balancer"
+status = "normal"

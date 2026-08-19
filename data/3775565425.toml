@@ -1,0 +1,558 @@
+[_meta]
+name = "Wack-a-Mole"
+
+[HR]
+new = "======================================================================"
+status = "normal"
+
+["MoleCadre.DirtPulverizer.Name"]
+new = "Dirt Pulverizer"
+status = "normal"
+
+["MoleCadre.FarmerFlag.Name"]
+new = "Farmer Flag"
+status = "normal"
+
+["MoleCadre.FarmerFlag.Desc"]
+new = "Default farmer for every faction"
+status = "normal"
+
+["MoleCadre.FarmerFlag.Cite"]
+new = "Catches anything mods add to 'Farmhouse' planting group"
+status = "normal"
+
+["MoleCadre.AquaFarmerFlag.Name"]
+new = "Aqua Farmer Flag"
+status = "normal"
+
+["MoleCadre.AquaFarmerFlag.Desc"]
+new = "Default aqua farmer for every faction"
+status = "normal"
+
+["MoleCadre.AquaFarmerFlag.Cite"]
+new = "Catches anything mods add to 'AquaticFarmhouse' planting group"
+status = "normal"
+
+["MoleCadre.ForesterFlag.Name"]
+new = "Forester Flag"
+status = "normal"
+
+["MoleCadre.ForesterFlag.Desc"]
+new = "Default forester for every faction"
+status = "normal"
+
+["MoleCadre.ForesterFlag.Cite"]
+new = "Catches anything mods add to 'Forester' planting group"
+status = "normal"
+
+["MoleCadre.AquaFarmer.Folktails.Name"]
+new = "Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.AquaFarmer.IronTeeth.Name"]
+new = "Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.AquaFarmer.Whitepaws.Name"]
+new = "Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.AquaFarmer.LeafCoats.Name"]
+new = "Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.AquaFarmer.Emberpelts.Name"]
+new = "Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.AquaFarmer.FrostyWhiskers.Name"]
+new = "Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Farmer.Folktails.Name"]
+new = "Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Farmer.IronTeeth.Name"]
+new = "Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Farmer.Whitepaws.Name"]
+new = "Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Farmer.LeafCoats.Name"]
+new = "Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Farmer.Emberpelts.Name"]
+new = "Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Farmer.FrostyWhiskers.Name"]
+new = "Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Forester.Folktails.Name"]
+new = "Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Forester.IronTeeth.Name"]
+new = "Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Forester.Whitepaws.Name"]
+new = "Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Forester.LeafCoats.Name"]
+new = "Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Forester.Emberpelts.Name"]
+new = "Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Forester.FrostyWhiskers.Name"]
+new = "Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.Folktails.Name"]
+new = "Builder Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.IronTeeth.Name"]
+new = "Builder Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.Whitepaws.Name"]
+new = "Builder Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.LeafCoats.Name"]
+new = "Builder Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.Emberpelts.Name"]
+new = "Builder Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Builder.AquaFarmer.FrostyWhiskers.Name"]
+new = "Builder Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.Folktails.Name"]
+new = "Builder Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.IronTeeth.Name"]
+new = "Builder Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.Whitepaws.Name"]
+new = "Builder Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.LeafCoats.Name"]
+new = "Builder Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.Emberpelts.Name"]
+new = "Builder Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Builder.Farmer.FrostyWhiskers.Name"]
+new = "Builder Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Builder.Forester.Folktails.Name"]
+new = "Builder Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Builder.Forester.IronTeeth.Name"]
+new = "Builder Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Builder.Forester.Whitepaws.Name"]
+new = "Builder Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Builder.Forester.LeafCoats.Name"]
+new = "Builder Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Builder.Forester.Emberpelts.Name"]
+new = "Builder Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Builder.Forester.FrostyWhiskers.Name"]
+new = "Builder Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.Folktails.Name"]
+new = "Bulk Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.IronTeeth.Name"]
+new = "Bulk Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.Whitepaws.Name"]
+new = "Bulk Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.LeafCoats.Name"]
+new = "Bulk Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.Emberpelts.Name"]
+new = "Bulk Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Bulk.AquaFarmer.FrostyWhiskers.Name"]
+new = "Bulk Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.Folktails.Name"]
+new = "Bulk Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.IronTeeth.Name"]
+new = "Bulk Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.Whitepaws.Name"]
+new = "Bulk Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.LeafCoats.Name"]
+new = "Bulk Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.Emberpelts.Name"]
+new = "Bulk Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Bulk.Farmer.FrostyWhiskers.Name"]
+new = "Bulk Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.Folktails.Name"]
+new = "Bulk Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.IronTeeth.Name"]
+new = "Bulk Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.Whitepaws.Name"]
+new = "Bulk Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.LeafCoats.Name"]
+new = "Bulk Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.Emberpelts.Name"]
+new = "Bulk Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Bulk.Forester.FrostyWhiskers.Name"]
+new = "Bulk Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.Folktails.Name"]
+new = "Careful Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.IronTeeth.Name"]
+new = "Careful Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.Whitepaws.Name"]
+new = "Careful Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.LeafCoats.Name"]
+new = "Careful Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.Emberpelts.Name"]
+new = "Careful Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Careful.AquaFarmer.FrostyWhiskers.Name"]
+new = "Careful Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.Folktails.Name"]
+new = "Careful Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.IronTeeth.Name"]
+new = "Careful Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.Whitepaws.Name"]
+new = "Careful Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.LeafCoats.Name"]
+new = "Careful Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.Emberpelts.Name"]
+new = "Careful Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Careful.Farmer.FrostyWhiskers.Name"]
+new = "Careful Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Careful.Forester.Folktails.Name"]
+new = "Careful Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Careful.Forester.IronTeeth.Name"]
+new = "Careful Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Careful.Forester.Whitepaws.Name"]
+new = "Careful Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Careful.Forester.LeafCoats.Name"]
+new = "Careful Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Careful.Forester.Emberpelts.Name"]
+new = "Careful Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Careful.Forester.FrostyWhiskers.Name"]
+new = "Careful Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.Folktails.Name"]
+new = "Snow Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.IronTeeth.Name"]
+new = "Snow Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.Whitepaws.Name"]
+new = "Snow Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.LeafCoats.Name"]
+new = "Snow Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.Emberpelts.Name"]
+new = "Snow Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Snow.AquaFarmer.FrostyWhiskers.Name"]
+new = "Snow Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.Desc"]
+new = "Farms the snow by letting it collect first"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.Cite"]
+new = "It's snowing! Grab those shovels on the double!"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.Folktails.Name"]
+new = "Snow Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.IronTeeth.Name"]
+new = "Snow Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.Whitepaws.Name"]
+new = "Snow Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.LeafCoats.Name"]
+new = "Snow Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.Emberpelts.Name"]
+new = "Snow Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Snow.Farmer.FrostyWhiskers.Name"]
+new = "Snow Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Snow.Forester.Folktails.Name"]
+new = "Snow Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Snow.Forester.IronTeeth.Name"]
+new = "Snow Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Snow.Forester.Whitepaws.Name"]
+new = "Snow Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Snow.Forester.LeafCoats.Name"]
+new = "Snow Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Snow.Forester.Emberpelts.Name"]
+new = "Snow Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Snow.Forester.FrostyWhiskers.Name"]
+new = "Snow Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.Folktails.Name"]
+new = "Hauler Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.IronTeeth.Name"]
+new = "Hauler Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.Whitepaws.Name"]
+new = "Hauler Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.LeafCoats.Name"]
+new = "Hauler Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.Emberpelts.Name"]
+new = "Hauler Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hauler.AquaFarmer.FrostyWhiskers.Name"]
+new = "Hauler Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.Folktails.Name"]
+new = "Hauler Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.IronTeeth.Name"]
+new = "Hauler Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.Whitepaws.Name"]
+new = "Hauler Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.LeafCoats.Name"]
+new = "Hauler Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.Emberpelts.Name"]
+new = "Hauler Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hauler.Farmer.FrostyWhiskers.Name"]
+new = "Hauler Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.Folktails.Name"]
+new = "Hauler Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.IronTeeth.Name"]
+new = "Hauler Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.Whitepaws.Name"]
+new = "Hauler Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.LeafCoats.Name"]
+new = "Hauler Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.Emberpelts.Name"]
+new = "Hauler Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hauler.Forester.FrostyWhiskers.Name"]
+new = "Hauler Forester - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.Folktails.Name"]
+new = "No Aquatic Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.IronTeeth.Name"]
+new = "No Aquatic Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.Whitepaws.Name"]
+new = "No Aquatic Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.LeafCoats.Name"]
+new = "No Aquatic Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.Emberpelts.Name"]
+new = "No Aquatic Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hidden.AquaFarmer.FrostyWhiskers.Name"]
+new = "No Aquatic Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.Folktails.Name"]
+new = "No Farmer- Folktails"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.IronTeeth.Name"]
+new = "No Farmer - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.Whitepaws.Name"]
+new = "No Farmer - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.LeafCoats.Name"]
+new = "No Farmer - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.Emberpelts.Name"]
+new = "No Farmer - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hidden.Farmer.FrostyWhiskers.Name"]
+new = "No Farmer - Frosty Whiskers"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.Folktails.Name"]
+new = "No Forester- Folktails"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.IronTeeth.Name"]
+new = "No Forester - IronTeeth"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.Whitepaws.Name"]
+new = "No Forester - Whitepaws"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.LeafCoats.Name"]
+new = "No Forester - LeafCoats"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.Emberpelts.Name"]
+new = "No Forester - Emberpelts"
+status = "normal"
+
+["MoleCadre.Hidden.Forester.FrostyWhiskers.Name"]
+new = "No Forester - Frosty Whiskers"
+status = "normal"

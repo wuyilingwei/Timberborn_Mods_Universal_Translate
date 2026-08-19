@@ -1,6 +1,40 @@
 [_meta]
 name = "Always Daylight"
 
+["Calloatti.Config.AlwaysDaylight.AlwaysDaylight.Label"]
+raw = "Always Daylight"
+status = "normal"
+enUS = "Always Daylight"
+zhCN = "永远昼光"
+zhTW = "全天候光照"
+ruRU = "Всегда Дневное Свето"
+jaJP = "常に昼間"
+frFR = "Jour Éternel"
+deDE = "Immer Tag"
+plPL = "Zawsze Dzień"
+ptBR = "Sempre Dia"
+koKR = "항상 낮"
+csCZ = "Vždy denní světlo"
+viVN = "Luôn Là Ban Ngày"
+trTR = "Her Zaman Gündüz"
+
+["Calloatti.Config.AlwaysDaylight.AlwaysDaylight.Tooltip"]
+raw = "Forces the time of day to remain at daylight."
+status = "normal"
+enUS = "Forces the time of day to remain at daylight."
+zhCN = "强制时间保持在白天。"
+zhTW = "強制時間保持在白天。"
+ruRU = "Заставляет время суток оставаться дневным."
+jaJP = "昼間の時間が維持されるよう強制します。"
+frFR = "Force le temps de la journée à rester en plein jour."
+deDE = "Zwingt die Tageszeit, tagsüber zu bleiben."
+plPL = "Zmienia czas dnia, aby pozostał w świetle dziennym."
+ptBR = "Força o horário do dia a permanecer em plena luz do dia."
+koKR = "낮으로 시간을 강제로 유지합니다."
+csCZ = "Donutí čas dne zůstat ve dne."
+viVN = "Buộc thời gian trong ngày duy trì ở trạng thái ban ngày."
+trTR = "Gündüz saatinin sabit kalmasını sağlar."
+
 ["Calloatti.Config.AlwaysDaylight.DisableFog.Label"]
 raw = "Disable Fog"
 status = "normal"
@@ -35,36 +69,18 @@ csCZ = "Zabraňuje zobrazení mlhy, přičemž všechny ostatní vizuály oblohy
 viVN = "Ngăn chặn sương mù xuất hiện trong khi giữ nguyên tất cả các hình ảnh bầu trời khác."
 trTR = "Diğer tüm gökyüzü görsellerini değiştirmeden sisin renderlanmasını engeller."
 
-["Calloatti.Config.AlwaysDaylight.AlwaysDaylight.Label"]
-raw = "Always Daylight"
+["Calloatti.Config.AlwaysDaylight.DisableShadows.Label"]
+new = "Disable Shadows"
 status = "normal"
-enUS = "Always Daylight"
-zhCN = "永远昼光"
-zhTW = "全天候光照"
-ruRU = "Всегда Дневное Свето"
-jaJP = "常に昼間"
-frFR = "Jour Éternel"
-deDE = "Immer Tag"
-plPL = "Zawsze Dzień"
-ptBR = "Sempre Dia"
-koKR = "항상 낮"
-csCZ = "Vždy denní světlo"
-viVN = "Luôn Là Ban Ngày"
-trTR = "Her Zaman Gündüz"
 
-["Calloatti.Config.AlwaysDaylight.AlwaysDaylight.Tooltip"]
-raw = "Forces the time of day to remain at daylight."
+["Calloatti.Config.AlwaysDaylight.DisableShadows.Tooltip"]
+new = "Disables shadows from the sun while keeping all other sky visuals unchanged."
 status = "normal"
-enUS = "Forces the time of day to remain at daylight."
-zhCN = "强制时间保持在白天。"
-zhTW = "強制時間保持在白天。"
-ruRU = "Заставляет время суток оставаться дневным."
-jaJP = "昼間の時間が維持されるよう強制します。"
-frFR = "Force le temps de la journée à rester en plein jour."
-deDE = "Zwingt die Tageszeit, tagsüber zu bleiben."
-plPL = "Zmienia czas dnia, aby pozostał w świetle dziennym."
-ptBR = "Força o horário do dia a permanecer em plena luz do dia."
-koKR = "낮으로 시간을 강제로 유지합니다."
-csCZ = "Donutí čas dne zůstat ve dne."
-viVN = "Buộc thời gian trong ngày duy trì ở trạng thái ban ngày."
-trTR = "Gündüz saatinin sabit kalmasını sağlar."
+
+["Calloatti.Config.AlwaysDaylight.ShadowStrength.Label"]
+new = "Shadow Strength"
+status = "normal"
+
+["Calloatti.Config.AlwaysDaylight.ShadowStrength.Tooltip"]
+new = "Scales the darkness of shadows for each time of day. 100% is the default."
+status = "normal"

@@ -1,0 +1,110 @@
+[_meta]
+name = "WIP Watch"
+
+["WipWatch.Title"]
+new = "WIP Watch"
+status = "normal"
+
+["WipWatch.Collapse"]
+new = "−"
+status = "normal"
+
+["WipWatch.Expand"]
+new = "+"
+status = "normal"
+
+["WipWatch.Section.Queue"]
+new = "── Queue ──"
+status = "normal"
+
+["WipWatch.Section.Status"]
+new = "── Status ──"
+status = "normal"
+
+["WipWatch.Section.Priority"]
+new = "── Waiting by priority ──"
+status = "normal"
+
+["WipWatch.Total"]
+new = "In queue: {0}"
+status = "normal"
+
+["WipWatch.Active"]
+new = "Under construction: {0}"
+status = "normal"
+
+["WipWatch.PriorityFolded"]
+new = "▶"
+status = "normal"
+
+["WipWatch.PriorityUnfolded"]
+new = "▼"
+status = "normal"
+
+["WipWatch.PriorityEmpty"]
+new = "(none)"
+status = "normal"
+
+["WipWatch.EmptyState"]
+new = "No construction sites."
+status = "normal"
+
+["WipWatch.PrioritySiteLine"]
+new = "{0} ({1})"
+status = "normal"
+
+["WipWatch.PrioritySiteLineNoDistrict"]
+new = "{0}"
+status = "normal"
+
+["WipWatch.Table.Material"]
+new = "Material"
+status = "normal"
+
+["WipWatch.Table.Required"]
+new = "Required"
+status = "normal"
+
+["WipWatch.Table.Stock"]
+new = "Stock"
+status = "normal"
+
+["WipWatch.Table.Ready"]
+new = "Ready"
+status = "normal"
+
+["WipWatch.Blocked"]
+new = "Blocked: {0}"
+status = "normal"
+
+["WipWatch.ReadyToBuild"]
+new = "Ready to build: {0}"
+status = "normal"
+
+["WipWatch.PriorityVeryHigh"]
+new = "Very high: {0}"
+status = "normal"
+
+["WipWatch.PriorityHigh"]
+new = "High: {0}"
+status = "normal"
+
+["WipWatch.PriorityNormal"]
+new = "Normal: {0}"
+status = "normal"
+
+["WipWatch.PriorityLow"]
+new = "Low: {0}"
+status = "normal"
+
+["WipWatch.PriorityVeryLow"]
+new = "Very low: {0}"
+status = "normal"
+
+["WipWatch.PriorityDetail"]
+new = "→ {0} ({1})"
+status = "normal"
+
+["WipWatch.PriorityDetailNoDistrict"]
+new = "→ {0}"
+status = "normal"

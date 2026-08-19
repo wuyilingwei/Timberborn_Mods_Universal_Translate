@@ -18310,6 +18310,18 @@ csCZ = "\"Nemluvíme s plnou pusou!\""
 viVN = "Chúng tôi không nói khi miệng đầy!"
 trTR = "\"Ağzımız doluyken konuşmayız!\""
 
+["Lapantouflemagic.SmallCookery.Whitepaws.DisplayName"]
+new = "Small Cuisine"
+status = "normal"
+
+["Lapantouflemagic.SmallCookery.Whitepaws.Description"]
+new = "Cooks basic recipes.\n<color=#FFA500>Small Tower</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+status = "normal"
+
+["Lapantouflemagic.SmallCookery.Whitepaws.FlavorDescription"]
+new = "\"Despite her insanity, Mathilda’s cooking is unmatched.\"\n-Mathilda the insane cook."
+status = "normal"
+
 ["Lapantouflemagic.FrostyWhiskers.ICE_Blockage.DisplayName"]
 raw = "Ice Blockage"
 status = "normal"
@@ -22970,6 +22982,7 @@ trTR = "Bellek Birleştirme"
 
 ["Needs.Network.death"]
 raw = "<color=green>This robot lost connection to the network for too long and attempted to go rogue. This was prevented by self-destruction.</color>"
+new = "<color=green>lost connection to the network for too long and self-destructed.</color>"
 status = "normal"
 enUS = "<color=green>This robot lost connection to the network for too long and attempted to go rogue. This was prevented by self-destruction.</color>"
 zhCN = "<color=green>这台机器人与网络失去连接太久，试图背叛。自毁机制阻止了这一点。</color>"
@@ -22987,6 +23000,7 @@ trTR = "<color=green>Bu robot ağ bağlantısını çok uzun süre kaybetti ve b
 
 ["Need.Repairs.CriticalDescription"]
 raw = "This robot is critically damaged and requires immediate repairs."
+new = "This robot is getting rusty and needs fish oil."
 status = "normal"
 enUS = "This robot is critically damaged and requires immediate repairs."
 zhCN = "该机器人严重受损，需要立即修理。"
@@ -23004,6 +23018,7 @@ trTR = "Bu robot kritik şekilde hasar görmüş ve acil onarıma ihtiyaç duyma
 
 ["Need.Repairs.CriticalDescriptionShort"]
 raw = "Maintenance Status Critical."
+new = "Rusty Botxa0!"
 status = "normal"
 enUS = "Maintenance Status Critical."
 zhCN = "维护状态紧急。"
@@ -23528,3 +23543,71 @@ koKR = "우리가 반짝이는 물을 발견할 수 있을까?"
 csCZ = "Myslíš, že bychom mohli narazit na třpytivou vodu?"
 viVN = "Bạn có nghĩ rằng chúng ta có thể chạm vào nước lấp lánh không?"
 trTR = "Parlak suya mı denk geleceğiz sence?"
+
+["Lapantouflemagic.SolarArray_Small.DisplayName"]
+new = "Small Solar Array"
+status = "normal"
+
+["Lapantouflemagic.SolarArray_Medium.DisplayName"]
+new = "Medium Solar Array"
+status = "normal"
+
+["Lapantouflemagic.SolarArray_Large.DisplayName"]
+new = "Large Solar Array"
+status = "normal"
+
+["Lapantouflemagic.SolarArray_FW.FlavorDescription"]
+new = "If only beavers were transparent…"
+status = "normal"
+
+["Lapantouflemagic.SolarArray_FW.Description"]
+new = "Some solar cells hopefully oriented toward the sun to generate electricity.\nFrost must constantily be scraped off by beavers to remain operationnal."
+status = "normal"
+
+["Reciepe.EmbryosDestockGameStart.PluralDisplayName"]
+new = "Destock Frozen Embryos"
+status = "normal"
+
+["Lapantouflemagic.NuclearWaste_LayingThere_Double.FrostyWhiskers.Description"]
+new = "Dangerous radioactive waste properly stored on the ground."
+status = "normal"
+
+["Lapantouflemagic.NuclearWaste_LayingThere_Double.FrostyWhiskers.DisplayName"]
+new = "Double Nuclear Waste"
+status = "normal"
+
+["Lapantouflemagic.NuclearWaste_LayingThere_Triple.FrostyWhiskers.DisplayName"]
+new = "Triple Nuclear Waste"
+status = "normal"
+
+["Lapantouflemagic.NuclearWaste_LayingThere_Triple.FrostyWhiskers.Description"]
+new = "Dangerous radioactive waste artistically displayed on the ground."
+status = "normal"
+
+["Toolgroup.BioWorks.DisplayName"]
+new = "Biological Works"
+status = "normal"
+
+["Lapantouflemagic.IncubationCenter.FrostyWhiskers.DisplayName"]
+new = "Ex-Vivo Incubator"
+status = "normal"
+
+["Lapantouflemagic.IncubationCenter.FrostyWhiskers.Description"]
+new = "Thaws and incubate frozen embryos in an accelerated manner to increase workforce."
+status = "normal"
+
+["Lapantouflemagic.IncubationCenter.FrostyWhiskers.FlavorDescription"]
+new = "Also generate some soup for the hardy enough."
+status = "normal"
+
+["Lapantouflemagic.BadWaterBoiler.FrostyWhiskers.DisplayName"]
+new = "Bad Water Boiler"
+status = "normal"
+
+["Lapantouflemagic.BadWaterBoiler.FrostyWhiskers.Description"]
+new = "Boils the liquid part of badwater along wiht other elements to prepare nuclear fuel"
+status = "normal"
+
+["Lapantouflemagic.BadWaterBoiler.FrostyWhiskers.FlavorDescription"]
+new = "That too, can be soup if you believe in youself."
+status = "normal"

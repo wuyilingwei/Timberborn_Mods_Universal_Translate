@@ -1,0 +1,202 @@
+[_meta]
+name = "More Building Renovations"
+
+["LV.MBR.ManufactoryGroup"]
+new = "Productions"
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovementDesc"]
+new = "{0:+0%} Working Speed.\nOnly for: Lumbermills, Gear Workshops, and Wood Workshops."
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement1"]
+new = "Heartwood Edge"
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement1Flavor"]
+new = "The grain sings when the Heartwood spins true."
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement2"]
+new = "Steadyframe"
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement2Flavor"]
+new = "'No more chasing the wood. The wood comes to you.' —xa0Joinerxa0Willow"
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement3"]
+new = "Harmony Join"
+status = "normal"
+
+["LV.MBR.WoodBuildingsImprovement3Flavor"]
+new = "Tools that feel like an extension of the beaver's own paws."
+status = "normal"
+
+["LV.MBR.InventorExtraScience"]
+new = "Catalyst Infusion"
+status = "normal"
+
+["LV.MBR.InventorExtraScienceDesc"]
+new = "For the next {0:0.0} hours, gain {1:+0} Science points for each Science point produced by this building. Repeatable once expired."
+status = "normal"
+
+["LV.MBR.InventorExtraScienceFlavor"]
+new = "A carefully measured draft of pure insight, mixed with the clearest spring water. One dose sharpens every thought for a limited time."
+status = "normal"
+
+["LV.MBR.InventorExtraScienceBuff"]
+new = "{0:+0} Science points for each Science point produced by this building."
+status = "normal"
+
+["LV.MBR.ObservatoryPassive"]
+new = "Lunar Ledger"
+status = "normal"
+
+["LV.MBR.ObservatoryPassiveDesc"]
+new = "Automatically gain {0:+0} Science each hour at night. Works independently of workers and power."
+status = "normal"
+
+["LV.MBR.ObservatoryPassiveFlavor"]
+new = "'The night never stops teaching. Now we finally listen while we sleep.' —xa0Elderxa0Astronomerxa0Willow"
+status = "normal"
+
+["LV.MBR.NumbercruncherSubmerge"]
+new = "Deepcool Core"
+status = "normal"
+
+["LV.MBR.NumbercruncherSubmergeDesc"]
+new = "{0:+0%} extra Science points produced while the Numbercrunchers is fully submerged in water."
+status = "normal"
+
+["LV.MBR.NumbercruncherSubmergeFlavor"]
+new = "Cool water is the Numbercruncher's favorite lubricant. Fully submerged, it thinks faster than the current."
+status = "normal"
+
+["LV.MBR.AgricultureGroup"]
+new = "Agriculture"
+status = "normal"
+
+["LV.MBR.PlantsSpeedIdle"]
+new = "Growth Calendar"
+status = "normal"
+
+["LV.MBR.PlantsSpeedDescCommon"]
+new = "While a worker is idle in this building, plants within the building's range grow {0:+0%} faster. Multiple Growth Calendar bonuses do not stack.\nOnly for: Farmhouse variants, Foresters, Lumberjack Flags, Gatherer Flags, and Tapper Shacks."
+status = "normal"
+
+["LV.MBR.PlantsSpeedDescExtra.Crops"]
+new = "● This building affects Crops such as Carrots or Cassava."
+status = "normal"
+
+["LV.MBR.PlantsSpeedDescExtra.Trees"]
+new = "● This building affects Trees such as Oak and Bushes such as Blueberry Bush."
+status = "normal"
+
+["LV.MBR.PlantsSpeedDescExtra.TreeProducts"]
+new = "● This building affects Tree products such as Pine Resin."
+status = "normal"
+
+["LV.MBR.PlantsSpeedDescExtra.BushProducts"]
+new = "● This building affects Bush products such as Berries or Coffee."
+status = "normal"
+
+["LV.MBR.PlantsSpeedFlavor"]
+new = "A simple wooden calendar hung inside the building. Idle beavers glance at it and suddenly know exactly what the plants need next."
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuffNoWorker"]
+new = "When a worker is idle, {0}"
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuffWithWorker"]
+new = "Because a worker is idle, {0}"
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuff.Crops"]
+new = "{1} crops grow {0:+0%} faster."
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuff.Trees"]
+new = "{1} trees grow {0:+0%} faster."
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuff.TreeProducts"]
+new = "{1} tree products grow {0:+0%} faster."
+status = "normal"
+
+["LV.MBR.PlantsSpeedBuff.BushProducts"]
+new = "{1} bush products grow {0:+0%} faster."
+status = "normal"
+
+["LV.MBR.PlantingSpeed1"]
+new = "Wooden Dibbler"
+status = "normal"
+
+["LV.MBR.PlantingSpeed1Desc"]
+new = "{0:+0%} Planting Speed for {1:0} days"
+status = "normal"
+
+["LV.MBR.PlantingSpeed1Flavor"]
+new = "A simple wooden tool that makes every hole feel just right. It won't last forever, but while it does, the soil yields gladly."
+status = "normal"
+
+["LV.MBR.PlantingSpeed2"]
+new = "Ironseed Dibbler"
+status = "normal"
+
+["LV.MBR.PlantingSpeed2Desc"]
+new = "{0:+0%} Planting Speed for {1:0} days. <RedHighlight>Remove Wooden Dibbler effect if present.</RedHighlight>"
+status = "normal"
+
+["LV.MBR.PlantingSpeed2Flavor"]
+new = "Heavier in the paw, lighter on the work. The Ironseed Dibbler eventually grows on you"
+status = "normal"
+
+["LV.MBR.PlantingSpeedBuff"]
+new = "{0:+0%} Planting Speed."
+status = "normal"
+
+["LV.MBR.HarvestSpeed1"]
+new = "Wooden Flail"
+status = "normal"
+
+["LV.MBR.HarvestSpeed1Desc"]
+new = "{0:+0%} Harvesting Speed for {1:0} days"
+status = "normal"
+
+["LV.MBR.HarvestSpeed1Flavor"]
+new = "It won't last forever, but while the shafts hold, the beavers swing it with joy."
+status = "normal"
+
+["LV.MBR.HarvestSpeed2"]
+new = "Ironleaf Scythe"
+status = "normal"
+
+["LV.MBR.HarvestSpeed2Desc"]
+new = "{0:+0%} Harvesting Speed for {1:0} days. <RedHighlight>Remove Wooden Flail effect if present.</RedHighlight>"
+status = "normal"
+
+["LV.MBR.HarvestSpeed2Flavor"]
+new = "When the Ironleaf Scythe is hung up for the night, even the remaining stalks seem to stand a little taller in respect."
+status = "normal"
+
+["LV.MBR.HarvestSpeedBuff"]
+new = "{0:+0%} Harvesting Speed."
+status = "normal"
+
+["LV.MBR.LogisticsGroup"]
+new = "Logistics"
+status = "normal"
+
+["LV.MBR.BuilderHaulerSpeedBoost"]
+new = "Fulcrum Rig"
+status = "normal"
+
+["LV.MBR.BuilderHaulerSpeedBoostDesc"]
+new = "Workers gain {0:+0%} Carrying Capacity and {1:+0%} Movement Speed.\nOnly for: Hauling Posts, District Centers, and Builders' Huts."
+status = "normal"
+
+["LV.MBR.BuilderHaulerSpeedBoostFlavor"]
+new = "'Give me a lever long enough and a fulcrum on which to place it, and I shall move the forest.' —xa0Archibeaves"
+status = "normal"

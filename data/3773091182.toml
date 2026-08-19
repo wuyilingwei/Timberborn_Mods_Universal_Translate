@@ -1,0 +1,162 @@
+[_meta]
+name = "Building Renovations"
+
+["LV.BRe.Renovations"]
+new = "Renovations"
+status = "normal"
+
+["LV.BRe.Renovate"]
+new = "Renovate building"
+status = "normal"
+
+["LV.BRe.NoRenovation"]
+new = "No renovation available for this building."
+status = "normal"
+
+["LV.BRe.RenoTime"]
+new = "⏱️ Renovation time: {0} days"
+status = "normal"
+
+["LV.BRe.RenoPriority"]
+new = "Renovation materials priority:"
+status = "normal"
+
+["LV.BRe.RenoPriorityShort"]
+new = "Materials"
+status = "normal"
+
+["LV.BRe.AlreadyActive"]
+new = "Renovation is already active."
+status = "normal"
+
+["LV.BRe.RenovationNote"]
+new = "- Once started, the building will start gathering materials via Distro Storage. Time only counts down when all materials are collected.\n- Collecting materials and renovating does <b>NOT</b> require Builders or Haulers. Link stockpiles with Distro Storage so materials can be delivered.\n- Only one renovation can be active at a time for each building. Cancelling refunds materials already delivered (as recovered goods). Completed renovations consume the materials and will not be refunded in any way."
+status = "normal"
+
+["LV.BRe.StartRenovation"]
+new = "Start this renovation"
+status = "normal"
+
+[Empty]
+new = ""
+status = "normal"
+
+["LV.BRe.CancelReno"]
+new = "Cancel renovation"
+status = "normal"
+
+["LV.BRe.CancelRenoConfirm"]
+new = "Are you sure you want to cancel the renovation?"
+status = "normal"
+
+["LV.BRe.CancelRenoYes"]
+new = "Yes, cancel renovation"
+status = "normal"
+
+["LV.BRe.CancelNo"]
+new = "No, keep renovating"
+status = "normal"
+
+["LV.BRe.CurrentRenovation"]
+new = "Current renovation: {0}"
+status = "normal"
+
+["LV.BRe.WaitingForMaterial"]
+new = "Waiting for materials"
+status = "normal"
+
+["LV.BRe.NoMaterialShort"]
+new = "Renovation lacks materials"
+status = "normal"
+
+["LV.BRe.CompletedReno"]
+new = "Completed renovations"
+status = "normal"
+
+["LV.BRe.Science"]
+new = "Science"
+status = "normal"
+
+["LV.BRe.Cost"]
+new = "Cost:"
+status = "normal"
+
+["LV.BRe.Pay"]
+new = "Pay"
+status = "normal"
+
+["LV.BRe.Paid"]
+new = "Paid"
+status = "normal"
+
+["LV.BRe.ActiveReno"]
+new = "<YellowHighlight>Active</YellowHighlight>"
+status = "normal"
+
+["LV.BRe.RenoLog"]
+new = "<YellowHighlight>Completion log</YellowHighlight>"
+status = "normal"
+
+["LV.BRe.RenoLogEntry"]
+new = "▶ {0}: {1}d ago"
+status = "normal"
+
+["LV.BRe.None"]
+new = "None"
+status = "normal"
+
+["LV.BRe.RenovationDecreasePriorityHotKey"]
+new = "Decrease renovation priority"
+status = "normal"
+
+["LV.BRe.RenovationIncreasePriorityHotKey"]
+new = "Increase renovation priority"
+status = "normal"
+
+["LV.BRe.ShowUnavailables"]
+new = "Show unavailable renovations"
+status = "normal"
+
+["LV.BRe.NotApplicable"]
+new = "Not available for this building."
+status = "normal"
+
+["LV.BRe.RenovationRequired"]
+new = "Renovation required: {0}"
+status = "normal"
+
+["LV.BRe.Common.WorkerBonus"]
+new = "Workers gain {0}"
+status = "normal"
+
+["LV.BRe.StockpileGroup"]
+new = "Storages"
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeedDesc"]
+new = "Increases Distro transfer rate from this storage by {0:+0%}.\nOnly for Storage buildings."
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeed1"]
+new = "Rapid Transfer"
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeed1Flavor"]
+new = "Goods no longer wait. They run."
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeed2"]
+new = "Hyperflow Logistics"
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeed2Flavor"]
+new = "Goods arrive before the request is even finished."
+status = "normal"
+
+["LV.BRe.IncreaseDistroSpeedBuffDesc"]
+new = "Distro transfer rate {0:+0%}"
+status = "normal"
+
+[Name_BuildingRenovationFragment]
+new = "Building Renovations"
+status = "normal"

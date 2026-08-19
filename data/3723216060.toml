@@ -1956,6 +1956,14 @@ csCZ = "Zlatá ruda"
 viVN = "Quặng Vàng"
 trTR = "Altın Maden Oruğu"
 
+["Good.TWSulfideGoldOre.DisplayName"]
+new = "Sulfide Gold Ore"
+status = "normal"
+
+["Good.TWSulfideGoldOre.PluralDisplayName"]
+new = "Sulfide Gold Ore"
+status = "normal"
+
 ["Good.TWGoldNugget.DisplayName"]
 raw = "Gold Nugget"
 status = "normal"
@@ -2092,6 +2100,54 @@ csCZ = "Zlatý amalgám"
 viVN = "Khối hợp kim vàng"
 trTR = "Altın Amalgam"
 
+["Good.TWChlorideSilverOre.DisplayName"]
+new = "Chloride Silver Ore"
+status = "normal"
+
+["Good.TWChlorideSilverOre.PluralDisplayName"]
+new = "Chloride Silver Ore"
+status = "normal"
+
+["Good.TWSulfideSilverOre.DisplayName"]
+new = "Sulfide Silver Ore"
+status = "normal"
+
+["Good.TWSulfideSilverOre.PluralDisplayName"]
+new = "Sulfide Silver Ore"
+status = "normal"
+
+["Good.TWSilverAmalgam.DisplayName"]
+new = "Silver Amalgam"
+status = "normal"
+
+["Good.TWSilverAmalgam.PluralDisplayName"]
+new = "Silver Amalgam"
+status = "normal"
+
+["Good.TWSilverBar.DisplayName"]
+new = "Silver Bar"
+status = "normal"
+
+["Good.TWSilverBar.PluralDisplayName"]
+new = "Silver Bars"
+status = "normal"
+
+["Good.TWRockSalt.DisplayName"]
+new = "Rock Salt"
+status = "normal"
+
+["Good.TWRockSalt.PluralDisplayName"]
+new = "Rock Salt"
+status = "normal"
+
+["Good.TWCoal.DisplayName"]
+new = "Coal"
+status = "normal"
+
+["Good.TWCoal.PluralDisplayName"]
+new = "Coal"
+status = "normal"
+
 ["Building.TWSolidRock.DisplayName"]
 raw = "Solid Rock"
 status = "normal"
@@ -2162,6 +2218,7 @@ trTR = "Hematit"
 
 ["Resource.TWIronOre.Description"]
 raw = "Source of Iron Ore. Use dynamite or build a tunnel here to collect it."
+new = "Source of Iron Ore (25). Use dynamite or build a tunnel here to collect it."
 status = "normal"
 enUS = "Source of Iron Ore. Use dynamite or build a tunnel here to collect it."
 zhCN = "“铁矿石来源。使用炸药或在此处建造隧道以进行采集。”"
@@ -2213,6 +2270,7 @@ trTR = "Altın içeren Kuvars"
 
 ["Resource.TWGoldOre.Description"]
 raw = "Source of Gold Ore. Use dynamite or build a tunnel here to collect it."
+new = "Source of Gold Ore (1). Use dynamite or build a tunnel here to collect it."
 status = "normal"
 enUS = "Source of Gold Ore. Use dynamite or build a tunnel here to collect it."
 zhCN = "“金矿石来源。在此使用炸药或建造隧道进行收集。”"
@@ -2245,6 +2303,18 @@ csCZ = "„Ne všechno, co se třpytí, je osika.“ — Přísloví starého Di
 viVN = "“Không phải tất cả những gì lấp lánh đều là cây bạch dương.” — Câu nói của Old Dirtclaw"
 trTR = "“Parlayan her şey, bir kavak değildir.” — Eski Kirlidar sözü"
 
+["Resource.TWSulfideGoldOre.DisplayName"]
+new = "Sulfide Gold Ore"
+status = "normal"
+
+["Resource.TWSulfideGoldOre.Description"]
+new = "Source of Sulfide Gold Ore (1). Use dynamite or build a tunnel here to collect it.\n<b><YellowHighlight>Tip:</YellowHighlight></b> Roast sulfide ores in a kiln before milling."
+status = "normal"
+
+["Resource.TWSulfideGoldOre.FlavorDescription"]
+new = "“Nothing says money like the smell of rotten eggs.” — Dusty"
+status = "normal"
+
 ["Resource.TWMercuryOre.DisplayName"]
 raw = "Cinnabar"
 status = "normal"
@@ -2264,6 +2334,7 @@ trTR = "Cinnabar"
 
 ["Resource.TWMercuryOre.Description"]
 raw = "Source of Mercury Ore. Use dynamite or build a tunnel here to collect it."
+new = "Source of Mercury Ore (15). Use dynamite or build a tunnel here to collect it."
 status = "normal"
 enUS = "Source of Mercury Ore. Use dynamite or build a tunnel here to collect it."
 zhCN = "汞矿源。使用炸药或在这里建造隧道以收集它。"
@@ -2296,6 +2367,66 @@ csCZ = "„Kámen té barvy musí být dobrý na něco!“ — Dusty"
 viVN = "“Đá có màu đó chắc hẳn phải có tác dụng gì đó!” — Dusty"
 trTR = "\"Bu renkteki kaya bir işe yaramalı!” — Dusty"
 
+["Resource.TWSulfideSilverOre.DisplayName"]
+new = "Sulfide Silver Ore"
+status = "normal"
+
+["Resource.TWSulfideSilverOre.Description"]
+new = "Source of Sulfide Silver Ore (2). Use dynamite or build a tunnel here to collect it.\n<b><YellowHighlight>Tip:</YellowHighlight></b> Roast sulfide ores in a kiln before milling."
+status = "normal"
+
+["Resource.TWSulfideSilverOre.FlavorDescription"]
+new = "“Every dark rock has a silver lining.” — Dusty"
+status = "normal"
+
+["Resource.TWChlorideSilverOre.DisplayName"]
+new = "Chloride Silver Ore"
+status = "normal"
+
+["Resource.TWChlorideSilverOre.Description"]
+new = "Source of Chloride Silver Ore (2). Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWChlorideSilverOre.FlavorDescription"]
+new = "“Silver? Where?” — Suli"
+status = "normal"
+
+["Resource.TWMixedTellurideOre.DisplayName"]
+new = "Mixed Tellurides"
+status = "normal"
+
+["Resource.TWMixedTellurideOre.Description"]
+new = "Source of Gold Ore (0.4) and Silver Ore (0.7). Use dynamite or build a tunnel here to collect it.\n<b><YellowHighlight>Note:</YellowHighlight></b> Fractional ore is recorded and an item will spawn after enough blocks are dug."
+status = "normal"
+
+["Resource.TWMixedTellurideOre.FlavorDescription"]
+new = "“Both silver and Gold? Crazy-talk!” — Dusty"
+status = "normal"
+
+["Resource.TWRockSalt.DisplayName"]
+new = "Rock Salt"
+status = "normal"
+
+["Resource.TWRockSalt.Description"]
+new = "Source of Rock Salt (8). Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWRockSalt.FlavorDescription"]
+new = "“Go lick a rock!” — Suli"
+status = "normal"
+
+["Resource.TWCoal.DisplayName"]
+new = "Coal"
+status = "normal"
+
+["Resource.TWCoal.Description"]
+new = "Source of Coal (8). Use dynamite or build a tunnel here to collect it."
+status = "normal"
+
+["Resource.TWCoal.FlavorDescription"]
+new = "“Color of licorice, crunch of carrots, taste of... Well, try to ignore the taste.” — Dusty"
+status = "normal"
+
 ["Resource.TWDeepOreGeneric"]
 raw = "Deep Ore Deposit"
 status = "normal"
@@ -2312,6 +2443,14 @@ koKR = "심층 광석 광산"
 csCZ = "Hloubkový rudný příkop"
 viVN = "Mỏ Khoáng Sâu"
 trTR = "Derin Maden Yatakları"
+
+["Recipe.TWCharcoalFromCoal"]
+new = "Charcoal from coal"
+status = "normal"
+
+["Recipe.TWCharcoalFromLog"]
+new = "Charcoal from logs"
+status = "normal"
 
 ["Recipe.TWBuyMercury"]
 raw = "Buy Mercury"
@@ -2500,8 +2639,29 @@ csCZ = "Lesklý z zlata"
 viVN = "Shiny từ vàng"
 trTR = "Altından Parlak"
 
+["Recipe.TWShinyFromSilver"]
+new = "Shiny from silver"
+status = "normal"
+
+["Recipe.TWSulfideSilverRoastingSimple"]
+new = "Sulfide silver roasting"
+status = "normal"
+
+["Recipe.TWSulfideSilverRoastingRotary"]
+new = "Sulfide silver roasting"
+status = "normal"
+
+["Recipe.TWSulfideGoldRoastingSimple"]
+new = "Sulfide gold roasting"
+status = "normal"
+
+["Recipe.TWSulfideGoldRoastingRotary"]
+new = "Sulfide gold roasting"
+status = "normal"
+
 ["Building.TWKiln.DisplayName"]
 raw = "Charcoal Kiln"
+new = "Kiln"
 status = "normal"
 enUS = "Charcoal Kiln"
 zhCN = "木炭炉"
@@ -2519,6 +2679,7 @@ trTR = "Odun Kömürü Ocağı"
 
 ["Building.TWKiln.Description"]
 raw = "A kiln for making charcoal."
+new = "A simple kiln for making charcoal or roasting ores."
 status = "normal"
 enUS = "A kiln for making charcoal."
 zhCN = "“一个用于制作木炭的窑。”"
@@ -2550,6 +2711,18 @@ koKR = "사실, 벌들이 우리 디자인을 훔쳤어요..."
 csCZ = "Ve skutečnosti nám ten design ukradly včely..."
 viVN = "Thực ra, những con ong đã đánh cắp thiết kế từ chúng tôi..."
 trTR = "Aslında, tasarımı bizden çaldılar..."
+
+["Building.TWRotaryKiln.DisplayName"]
+new = "Rotary Kiln"
+status = "normal"
+
+["Building.TWRotaryKiln.Description"]
+new = "A kiln for roasting sulfide ores."
+status = "normal"
+
+["Building.TWRotaryKiln.FlavorDescription"]
+new = "”Careful with the spin cycle, Suli.”"
+status = "normal"
 
 ["Building.TWTowerSmelter.DisplayName"]
 raw = "Iron Smelter"
@@ -2672,6 +2845,7 @@ trTR = "Alaca sunta yalnızca meyveleri ezmekle kalmayıp daha fazlasını yapab
 
 ["Recipe.TWArrastraGoldAmalgam"]
 raw = "Mercury-Gold Amalgamation"
+new = "Mercury-gold amalgamation"
 status = "normal"
 enUS = "Mercury-Gold Amalgamation"
 zhCN = "水银-金合金"
@@ -2689,6 +2863,7 @@ trTR = "Civa-Altın Amalgamasyonu"
 
 ["Recipe.TWArrastraGoldGrinding"]
 raw = "Simple Gold Grinding"
+new = "Simple gold grinding"
 status = "normal"
 enUS = "Simple Gold Grinding"
 zhCN = "简单黄金研磨"
@@ -2703,6 +2878,14 @@ koKR = "간단한 금 분쇄"
 csCZ = "Jednoduché mletí zlata"
 viVN = "Xay Vàng Đơn Giản"
 trTR = "Basit Altın Öğütme"
+
+["Recipe.TWArrastraSilverAmalgam"]
+new = "Mercury-silver amalgamation"
+status = "normal"
+
+["Recipe.TWArrastraSilverGrinding"]
+new = "Simple silver grinding"
+status = "normal"
 
 ["Building.TWRetortFolktails.DisplayName"]
 raw = "Retort"
@@ -2772,6 +2955,10 @@ csCZ = "Retort zlatý amalgám"
 viVN = "Chưng cất hợp kim vàng"
 trTR = "Altın amalgamını retortla işlemek"
 
+["Recipe.TWSilverAmalgamRetorting"]
+new = "Retort silver amalgam"
+status = "normal"
+
 ["Recipe.TWMercuryFromOre"]
 raw = "Retort mercury ore"
 status = "normal"
@@ -2839,23 +3026,6 @@ koKR = "인생에서 가장 좋은 것들은 더럽다."
 csCZ = "Nejlepší věci v životě jsou špinavé."
 viVN = "Các điều tốt nhất trong cuộc sống đều bẩn thỉu."
 trTR = "Hayattaki en iyi şeyler kirli."
-
-["Resource.TWDeepOreDepositProxy.Description"]
-raw = "A placeholder which will transform into a deep ore deposit when it becomes visible to the player."
-status = "normal"
-enUS = "A placeholder that will transform into a deep ore deposit when it becomes visible to the player."
-zhCN = "“一个占位符，当对玩家可见时会变成深矿床。”"
-zhTW = "「一個佔位符，當它對玩家可見時將轉變為深層礦石儲存。」"
-ruRU = "Заполнитель, который превратится в глубокий залежь полезных ископаемых, когда станет видимым для игрока."
-jaJP = "プレイヤーに見えるようになると、深い鉱石 deposit に変わるプレースホルダーです。"
-frFR = "Un espace réservé qui se transformera en un gisement de minerai profond lorsqu'il deviendra visible pour le joueur."
-deDE = "Ein Platzhalter, der sich in ein tiefes Erzvorkommen verwandelt, wenn es für den Spieler sichtbar wird."
-plPL = "Placeholder, który zamieni się w głęboki złoże rudy, gdy stanie się widoczny dla gracza."
-ptBR = "Um espaço reservado que se transformará em um depósito de minério profundo quando se tornar visível para o jogador."
-koKR = "플레이어에게 보이게 될 때 깊은 광석 매장지로 변환되는 플레이스홀더입니다."
-csCZ = "Zástupný objekt, který se změní na hluboké ložisko rudy, když se stane viditelným pro hráče."
-viVN = "Một vị trí tạm thời sẽ biến thành một mỏ quặng sâu khi nó trở nên hiển thị cho người chơi."
-trTR = "Görünür hale geldiğinde derin maden yatağına dönüşecek bir yer tutucu."
 
 ["Resource.TWDeepIronDeposit.DisplayName"]
 raw = "Deep Iron Deposit"
@@ -2925,6 +3095,14 @@ csCZ = "Obrovský, hluboko pohřbený zdroj zlaté rudy. Postavte na něm Hlubok
 viVN = "Một nguồn quặng vàng khổng lồ, được chôn sâu. Xây dựng một Mỏ Sâu trên đó để khai thác quặng."
 trTR = "Derin gömülü büyük bir altın cevheri kaynağı. Cevher almak için üzerine bir Derin Maden inşa edin."
 
+["Resource.TWDeepSulfideGoldDeposit.DisplayName"]
+new = "Deep Sulfide Gold Deposit"
+status = "normal"
+
+["Resource.TWDeepSulfideGoldDeposit.Description"]
+new = "A huge, deeply buried source of sulfide gold ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
 ["Resource.TWDeepMercuryDeposit.DisplayName"]
 raw = "Deep Mercury Deposit"
 status = "normal"
@@ -2958,6 +3136,46 @@ koKR = "깊이 매장된 거대한 수은 광석 저장소입니다. 이곳에 �
 csCZ = "Obrovský, hluboko pohřbený zdroj rtutového rudy. Postavte na něm Hluboký důl, abyste získali rudu."
 viVN = "Một nguồn thiếc thủy ngân lớn, chôn sâu dưới đất. Xây dựng một Mỏ Sâu trên đó để khai thác quặng."
 trTR = "Derin gömülü büyük bir cıva cevheri kaynağı. Cevher elde etmek için üzerine Derin Maden inşa edin."
+
+["Resource.TWDeepMixedTellurideDeposit.DisplayName"]
+new = "Deep Mixed Tellurides Deposit"
+status = "normal"
+
+["Resource.TWDeepMixedTellurideDeposit.Description"]
+new = "A huge, deeply buried source of gold and silver ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Resource.TWDeepChlorideSilverDeposit.Description"]
+new = "A huge, deeply buried source of silver ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Resource.TWDeepChlorideSilverDeposit.DisplayName"]
+new = "Deep Chloride Silver Deposit"
+status = "normal"
+
+["Resource.TWDeepCoalDeposit.Description"]
+new = "A huge, deeply buried source of coal. Build a Deep Mine on it to get coal."
+status = "normal"
+
+["Resource.TWDeepCoalDeposit.DisplayName"]
+new = "Deep Coal Deposit"
+status = "normal"
+
+["Resource.TWDeepRockSaltDeposit.Description"]
+new = "A huge, deeply buried source of Rock Salt. Build a Deep Mine on it to get salt."
+status = "normal"
+
+["Resource.TWDeepRockSaltDeposit.DisplayName"]
+new = "Deep Rock Salt Deposit"
+status = "normal"
+
+["Resource.TWDeepSulfideSilverDeposit.Description"]
+new = "A huge, deeply buried source of silver ore. Build a Deep Mine on it to get ore."
+status = "normal"
+
+["Resource.TWDeepSulfideSilverDeposit.DisplayName"]
+new = "Deep Sulfide Silver Deposit"
+status = "normal"
 
 ["Building.TWMinerMonument.DisplayName"]
 raw = "Miner Monument"
@@ -3216,6 +3434,7 @@ trTR = "Atık Alanı"
 
 ["Building.TWTailingsDump.Description"]
 raw = "A place to dump mill pulp or tailings. Mill pulp can be recovered for later processing.\n● <b><YellowHighlight>Tip:</YellowHighlight></b> Must overhang an edge, the same as a fluid dump.\n● <b><RedHighlight>Caution!</RedHighlight></b> Tailings flows will destroy most buildings. Use levees to contain it."
+new = "A place to dump mill pulp or tailings. Mill pulp can be recovered for later processing.\n● <b><YellowHighlight>Tip:</YellowHighlight></b> Must overhang an edge, the same as a water discharge building.\n● <b><RedHighlight>Caution!</RedHighlight></b> Tailings flows will destroy most buildings. Use levees to contain it."
 status = "normal"
 enUS = "A place to dump mill pulp or tailings. Mill pulp can be recovered for later processing.  \n● <b><YellowHighlight>Tip:</YellowHighlight></b> Must overhang an edge, the same as a fluid dump.  \n● <b><RedHighlight>Caution!</RedHighlight></b> Tailings flows will destroy most buildings. Use levees to contain it."
 zhCN = "一个倾倒磨坊浆料或尾矿的地方。磨坊浆料可以回收以便后续处理。\n● <b><YellowHighlight>提示：</YellowHighlight></b> 必须悬挂在边缘上，与液体倾倒相同。\n● <b><RedHighlight>注意！</RedHighlight></b> 尾矿流将摧毁大多数建筑物。使用堤坝来控制它。"
@@ -3281,6 +3500,10 @@ koKR = "황금 밀 펄프 버리기"
 csCZ = "Vylít zlato z mlýna"
 viVN = "Đổ bã vàng từ nhà máy"
 trTR = "Altın değirmen hamurunu dökün"
+
+["Recipe.TWDumpMillPulpSilver"]
+new = "Dump silver mill pulp"
+status = "normal"
 
 ["Building.TWWindlass.DisplayName"]
 raw = "Windlass"
@@ -3655,23 +3878,6 @@ koKR = "수동 광석 배치"
 csCZ = "Ruční umístění rudy"
 viVN = "Đặt Quặng Thủ Công"
 trTR = "Elle Bakır Yerleştirme"
-
-["UI.TW.MoreMines.OreItemsPlaced"]
-raw = "ore items placed!"
-status = "normal"
-enUS = "ore items placed!"
-zhCN = "“矿石物品已放置！”"
-zhTW = "已放置礦石物品！"
-ruRU = "расставлены предметы руды!"
-jaJP = "鉱石アイテムが配置されました！"
-frFR = "objets de minerai placés !"
-deDE = "Eisenobjekte platziert!"
-plPL = "umieszczone przedmioty z rudy!"
-ptBR = "itens de minério colocados!"
-koKR = "광석 아이템이 배치되었습니다!"
-csCZ = "umístěné rudy!"
-viVN = "đồ vật quặng đã được đặt!"
-trTR = "madencilik eşyaları yerleştirildi!"
 
 ["UI.TW.MoreMines.Random"]
 raw = "Random"
@@ -4183,6 +4389,34 @@ csCZ = "Náhodná rotace:"
 viVN = "Ngẫu nhiên hóa xoay:"
 trTR = "Dönmeyi Rastgele Belirle:"
 
+["UI.TW.MoreMines.Randomize"]
+new = "Randomize"
+status = "normal"
+
+["UI.TW.MoreMines.PreviewSeed"]
+new = "Settings preview seed"
+status = "normal"
+
+["UI.TW.MoreMines.PreviewSeed.TT"]
+new = "If non-zero, this seed overrides the main seed for all the settings randomization. It allows previewing the effects of different randomization levels. It only affects the preview, not the actual ore placement."
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementRotationRand.TT"]
+new = "0 = no randomization. 0.5 will give rotations inside +-90 degrees. 1 gives full random."
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementOffsetRand.TT"]
+new = "A random value in the range +- this amount will be added to the main value."
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementClampedRand.TT"]
+new = "A random value in the range +- this amount will be added to the main value. The result will then be clamped to the range 0.0001 - inf"
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementRandomSeed.TT"]
+new = "Use a random seed (different from the one set here and in the preview)"
+status = "normal"
+
 ["UI.TW.MoreMines.PlaceOre"]
 raw = "Place Ore"
 status = "normal"
@@ -4421,39 +4655,17 @@ csCZ = "Vyberte přednastavení"
 viVN = "Chọn Cài Đặt Sẵn"
 trTR = "Ön Ayarı Seç"
 
-["UI.TW.MoreMines.Veins"]
-raw = "Veins"
+["TW.MoreMines.OrePlacementPreset.Veins"]
+new = "Veins"
 status = "normal"
-enUS = "Veins"
-zhCN = "矿脉"
-zhTW = "礦脈"
-ruRU = "Жила"
-jaJP = "鉱脈"
-frFR = "Veines"
-deDE = "Adern"
-plPL = "Złoża"
-ptBR = "Veios"
-koKR = "광맥"
-csCZ = "Žíly"
-viVN = "Mạch"
-trTR = "Damars"
 
-["UI.TW.MoreMines.Blobs"]
-raw = "Blobs"
+["TW.MoreMines.OrePlacementPreset.Blobs"]
+new = "Blobs"
 status = "normal"
-enUS = "Blobs"
-zhCN = "水滴"
-zhTW = "水滴"
-ruRU = "Шарики"
-jaJP = "ブロブ"
-frFR = "Bulbes"
-deDE = "Blobs"
-plPL = "Bryłki"
-ptBR = "Blob"
-koKR = "방울"
-csCZ = "Blobíci"
-viVN = "Cục"
-trTR = "Yosma"
+
+["TW.MoreMines.OrePlacementPreset.Beds"]
+new = "Beds"
+status = "normal"
 
 ["UI.TW.MoreMines.None"]
 raw = "None"
@@ -4846,6 +5058,18 @@ csCZ = "Umístěte roury na minerály nad ložisky"
 viVN = "Đặt ống ore trên các mỏ"
 trTR = "Yatakların üstüne maden boruları yerleştir"
 
+["UI.TW.MoreMines.BuildOrePipes.TT"]
+new = "Regular ore will be placed near deep deposits, extending up to the surface."
+status = "normal"
+
+["UI.TW.MoreMines.AllowDeepDepositsAboveBottom"]
+new = "Allow deposits on any z-level"
+status = "normal"
+
+["UI.TW.MoreMines.AllowDeepDepositsAboveBottom.TT"]
+new = "When checked, deep deposits can spawn on any z-level. When not checked, deep deposits will only spawn on the bottom level."
+status = "normal"
+
 ["UI.TW.MoreMines.NumberOfDeposits"]
 raw = "Number of deposits:"
 status = "normal"
@@ -4967,6 +5191,7 @@ trTR = "yerleştirilen maden nesneleri (boru madenleri ve halka kayaları içeri
 
 ["UI.TW.MoreMines.AutoOrePlacementDialog"]
 raw = "This will attempt to place veins and Deep Deposits for all ore types. It works best on maps from 100 to 256 in size. For more control or small maps, consider the manual placement functions.\n\nIt is also not guaranteed to produce perfect results each time. You may want to inspect the ore that was placed, and if you are not happy, use the 'undo last ore action' button to remove it and try again.\n\nAutomatic placement may remove ground-only objects near edge of map (undo will not replace these).\n\n<b><YellowHighlight>NOTE:</YellowHighlight></b> Ore placement may take several minutes, especially on large maps or slow computers."
+new = "This will place veins and Deep Deposits for required ores (like iron), and a random selection of optional ores (coal, salt, precious metals).\n\nIt works best on maps from 100 to 256 in size. For more control or small maps, use the manual placement functions.\n\nIt is also not guaranteed to produce perfect results each time. You may want to inspect the ore that was placed, and if you are not happy, use the 'undo last ore action' button to remove it and try again.\n\nAutomatic placement may remove ground-only objects near edge of map (undo will not replace these).\n\n<b><YellowHighlight>NOTE:</YellowHighlight></b> Ore placement may take several minutes, especially on large maps or slow computers."
 status = "normal"
 enUS = "This will attempt to place veins and Deep Deposits for all ore types. It works best on maps from 100 to 256 in size. For more control or small maps, consider the manual placement functions.\n\nIt is also not guaranteed to produce perfect results each time. You may want to inspect the ore that was placed, and if you are not happy, use the 'undo last ore action' button to remove it and try again.\n\nAutomatic placement may remove ground-only objects near the edge of the map (undo will not replace these).\n\n<b><YellowHighlight>NOTE:</YellowHighlight></b> Ore placement may take several minutes, especially on large maps or slow computers."
 zhCN = "这将尝试为所有矿石类型放置矿脉和深层矿石。在大小为100到256的地图上效果最佳。对于更精确的控制或小地图，请考虑手动放置功能。\n\n它也不能保证每次都能产生完美的结果。您可能希望检查已放置的矿石，如果不满意，请使用“撤销上一个矿石操作”按钮将其移除并重试。\n\n自动放置可能会移除接近地图边缘的仅地面物体（撤销不会替换这些物体）。\n\n<b><YellowHighlight>注意：</YellowHighlight></b> 矿石放置可能需要几分钟，尤其是在大地图或慢速计算机上。"
@@ -4982,8 +5207,25 @@ csCZ = "Toto se pokusí umístit žíly a hluboké ložiska pro všechny typy ne
 viVN = "Điều này sẽ cố gắng đặt các mạch và Khoáng sản sâu cho tất cả các loại quặng. Nó hoạt động tốt nhất trên các bản đồ có kích thước từ 100 đến 256. Để kiểm soát nhiều hơn hoặc các bản đồ nhỏ, hãy xem xét các chức năng đặt thủ công.\n\nNó cũng không đảm bảo sẽ sản xuất kết quả hoàn hảo mỗi lần. Bạn có thể muốn kiểm tra quặng đã được đặt, và nếu bạn không hài lòng, hãy sử dụng nút 'hoàn tác hành động quặng cuối cùng' để xóa nó và thử lại.\n\nViệc đặt tự động có thể xóa các đối tượng chỉ nằm trên mặt đất gần rìa bản đồ (hoàn tác sẽ không thay thế những đối tượng này).\n\n<b><YellowHighlight>CHÚ Ý:</YellowHighlight></b> Việc đặt quặng có thể mất vài phút, đặc biệt là trên các bản đồ lớn hoặc máy tính chậm."
 trTR = "Bu, tüm maden türleri için damarlar ve Derin Yataklar yerleştirmeye çalışacaktır. En iyi sonuçları 100 ile 256 boyutundaki haritalarda alırsınız. Daha fazla kontrol veya küçük haritalar için manuel yerleştirme işlevlerini göz önünde bulundurabilirsiniz.\n\nHer seferinde mükemmel sonuçlar vermesi garanti değildir. Yerleştirilen madeni incelemek isteyebilirsiniz, eğer memnun kalmazsanız, 'son maden eylemini geri al' düğmesini kullanarak kaldırabilir ve yeniden deneyebilirsiniz.\n\nOtomatik yerleştirme, haritanın kenarındaki sadece yer nesnelerini kaldırabilir (geri alma bunları değiştirmeyecektir).\n\n<b><YellowHighlight>DİKKAT:</YellowHighlight></b> Maden yerleştirme birkaç dakika sürebilir, özellikle büyük haritalarda veya yavaş bilgisayarlarda."
 
+["UI.TW.MoreMines.AutoOrePlacementAllowComplexOres"]
+new = "Allow complex ores (Early game may be slow/hard)"
+status = "normal"
+
+["UI.TW.MoreMines.AutoOrePlacementPlaceAllPossibleOres"]
+new = "Place all available ore types (may over crowd the map)."
+status = "normal"
+
+["UI.TW.MoreMines.AutoOrePlacementAllowDeepDepositsNonBottom"]
+new = "Allow Deep Deposits on levels other than the bottom."
+status = "normal"
+
+["UI.TW.MoreMines.OreItemsPlacedList"]
+new = "The following ore was placed:\n\n{0}"
+status = "normal"
+
 ["UI.TW.MoreMines.AutoOrePlacementFailure"]
 raw = "Not all ore was placed successfully. Some ore types may be missing or rare. This is likely due to a small map. Consider using the manual ore placement buttons for more control."
+new = "Not all ore was placed successfully. Some ore types may be missing or rare.\n\nThis is not unusual, and the map is probably still playable. You can inspect the ore placement numbers on the next screen and decide if they are enough for your needs.\n\nIf you are unhappy with the ore amounts, you can undo the last ore action and re-roll the automatic placement.\n\nYou can also add ore of specific types using the manual placement tools.\n\nAdding ore is possible at any time, so you can add more later if you run out.\n\nFailed ores:\n{0}"
 status = "normal"
 enUS = "Not all ore was placed successfully. Some ore types may be missing or rare. This is likely due to a small map. Consider using the manual ore placement buttons for more control."
 zhCN = "并非所有矿石都已成功放置。某些矿石类型可能缺失或稀有。这可能是由于地图较小造成的。考虑使用手动矿石放置按钮以获得更多控制。"
@@ -5339,6 +5581,14 @@ csCZ = "Amalgamace rtuti a zlata"
 viVN = "Hợp kim Thủy ngân-Vàng"
 trTR = "Civa-Elmas Amalgamasyonu"
 
+["Recipe.TWStampSilverGrinding"]
+new = "Simple Silver Milling"
+status = "normal"
+
+["Recipe.TWStampSilverAmalgam"]
+new = "Mercury-Silver Amalgamation"
+status = "normal"
+
 ["Good.TWTailings.DisplayName"]
 raw = "Tailings"
 status = "normal"
@@ -5458,6 +5708,26 @@ csCZ = "Vypadá to jako mouka, chutná to jako síra."
 viVN = "Trông giống như bột mì, có vị như lưu huỳnh."
 trTR = "Un gibi görünüyor, kükürt gibi tadıyor."
 
+["Good.TWMillPulpSilver.DisplayName"]
+new = "Silver mill pulp"
+status = "normal"
+
+["Good.TWMillPulpSilver.PluralDisplayName"]
+new = "Silver mill pulp"
+status = "normal"
+
+["Resource.TWMillPulpSilver.DisplayName"]
+new = "Silver mill pulp"
+status = "normal"
+
+["Resource.TWMillPulpSilver.Description"]
+new = "Silver ore that has been milled once. More silver can be extracted."
+status = "normal"
+
+["Resource.TWMillPulpSilver.FlavorDescription"]
+new = "“Save it for a rainy season”"
+status = "normal"
+
 ["Building.TWGravityMill.DisplayName"]
 raw = "Gravity mill"
 status = "normal"
@@ -5526,6 +5796,10 @@ csCZ = "Zlato"
 viVN = "Vàng"
 trTR = "Altın"
 
+["Recipe.TWGravityMillPulpSilver"]
+new = "Silver"
+status = "normal"
+
 ["Recipe.TWLeachPlantMillPulpGold"]
 raw = "Gold"
 status = "normal"
@@ -5543,6 +5817,10 @@ csCZ = "Zlato"
 viVN = "Vàng"
 trTR = "Altın"
 
+["Recipe.TWPanAmalgamatorMillPulpSilver"]
+new = "Silver"
+status = "normal"
+
 ["Recipe.TWDumpTailings"]
 raw = "Dump tailings"
 status = "normal"
@@ -5559,6 +5837,10 @@ koKR = "찌꺼기 버리기"
 csCZ = "Vylít odpad"
 viVN = "Đổ chất thải"
 trTR = "Atık dök"
+
+["Recipe.TWLiquifyTailings"]
+new = "Liquify tailings"
+status = "normal"
 
 ["Resource.TWTailings.DisplayName"]
 raw = "Spent tailings"
@@ -5681,6 +5963,7 @@ trTR = "Yıkama Tesisi"
 
 ["Building.TWLeachPlant.Description"]
 raw = "Treats mill pulp with chemicals to extract more metal"
+new = "Treats gold mill pulp with chemicals to extract more metal"
 status = "normal"
 enUS = "Treats mill pulp with chemicals to extract more metal"
 zhCN = "用化学物质处理磨浆以提取更多金属"
@@ -5712,6 +5995,30 @@ koKR = "“다행히도, 우리의 강은 용매로 흐르고 있습니다.” �
 csCZ = "„Naštěstí naše řeky tečou rozpouštědly.“ — Dusty"
 viVN = "“May mắn thay, các con sông của chúng ta chảy đầy dung môi.” — Dusty"
 trTR = "“Neyse ki, nehirlerimiz çözücülerle dolup taşıyor.” — Dusty"
+
+["Building.TWPanAmalgamator.DisplayName"]
+new = "Pan Amalgamator"
+status = "normal"
+
+["Building.TWPanAmalgamator.Description"]
+new = "Treats silver mill pulp with mercury to extract more metal"
+status = "normal"
+
+["Building.TWPanAmalgamator.FlavorDescription"]
+new = "Think of it as a carousel for toxic sludge."
+status = "normal"
+
+["ModSetting.TWMoreMines.ShowOrePlacementDetails"]
+new = "Show ore placement details"
+status = "normal"
+
+["ModSetting.TWMoreMines.ShowOrePlacementDetailsDesc"]
+new = "Shows types and number of ore items placed. Disable if you want to be surprised."
+status = "normal"
+
+["UI.TW.MoreMines.OrePlacementDetailsHidden"]
+new = "Details hidden to avoid spoilers.\nYou can change this in the mod settings."
+status = "normal"
 
 ["ModSetting.TWMoreMines.TailingsErosionThreshold"]
 raw = "Tailings erosion threshold"
@@ -5814,6 +6121,14 @@ koKR = "활성화된 침식이 확인되면, 침식량이 이 계수로 곱해�
 csCZ = "Pokud je aktivováno kontrola eroze, množství eroze je vynásobeno tímto faktorem. Platný rozsah 0-10, výchozí hodnota je 1."
 viVN = "Khi lượng xói mòn đang hoạt động được kiểm tra, lượng xói mòn sẽ được nhân với hệ số này. Phạm vi hợp lệ từ 0-10, mặc định là 1."
 trTR = "Etkin erozyon kontrol edildiğinde, erozyon miktarı bu faktörle çarpılır. Geçerli aralık 0-10, varsayılan 1'dir."
+
+["ModSetting.TWMoreMines.ExtraFactionIDs"]
+new = "Extra faction IDs"
+status = "normal"
+
+["ModSetting.TWMoreMines.ExtraFactionIDsDesc"]
+new = "Add new factions to the list of More Mines supported factions. This is NOT officially supported, but may help people using faction mixer mods. Type the exact faction ID here. Case-sensitive. No spaces unless they are part of the ID. Multiple IDs can be separated with a semicolon."
+status = "normal"
 
 ["Building.PathPlatformTunnel.Description"]
 raw = "Tunnel through terrain, replacing it with mine timbers and a Path. Use the layer tool to see under terrain or structures."
@@ -6429,6 +6744,7 @@ trTR = "Bilim oranı"
 
 ["ModSetting.TWMoreMines.ScienceTimeScaleDesc"]
 raw = "Scale factor for science production. Default is 4. Set to 1 for vanilla-like science production speed."
+new = "Scale factor for science production. Default is 2. Set to 1 for vanilla-like science production speed."
 status = "normal"
 enUS = "Scale factor for science production. Default is 4. Set to 1 for vanilla-like science production speed."
 zhCN = "科学生产的缩放因子。默认值为4。设置为1以获得类似于原版的科学生产速度。"
@@ -6579,6 +6895,74 @@ koKR = "수은 광석에서 얻은 과학"
 csCZ = "Věda z rtutového rudy"
 viVN = "Khoa học từ quặng thủy ngân"
 trTR = "Civa cevherinden bilim"
+
+["Resource.TWDeepOreDepositProxy.Description"]
+raw = "A placeholder which will transform into a deep ore deposit when it becomes visible to the player."
+status = "abandoned"
+enUS = "A placeholder that will transform into a deep ore deposit when it becomes visible to the player."
+zhCN = "“一个占位符，当对玩家可见时会变成深矿床。”"
+zhTW = "「一個佔位符，當它對玩家可見時將轉變為深層礦石儲存。」"
+ruRU = "Заполнитель, который превратится в глубокий залежь полезных ископаемых, когда станет видимым для игрока."
+jaJP = "プレイヤーに見えるようになると、深い鉱石 deposit に変わるプレースホルダーです。"
+frFR = "Un espace réservé qui se transformera en un gisement de minerai profond lorsqu'il deviendra visible pour le joueur."
+deDE = "Ein Platzhalter, der sich in ein tiefes Erzvorkommen verwandelt, wenn es für den Spieler sichtbar wird."
+plPL = "Placeholder, który zamieni się w głęboki złoże rudy, gdy stanie się widoczny dla gracza."
+ptBR = "Um espaço reservado que se transformará em um depósito de minério profundo quando se tornar visível para o jogador."
+koKR = "플레이어에게 보이게 될 때 깊은 광석 매장지로 변환되는 플레이스홀더입니다."
+csCZ = "Zástupný objekt, který se změní na hluboké ložisko rudy, když se stane viditelným pro hráče."
+viVN = "Một vị trí tạm thời sẽ biến thành một mỏ quặng sâu khi nó trở nên hiển thị cho người chơi."
+trTR = "Görünür hale geldiğinde derin maden yatağına dönüşecek bir yer tutucu."
+
+["UI.TW.MoreMines.OreItemsPlaced"]
+raw = "ore items placed!"
+status = "abandoned"
+enUS = "ore items placed!"
+zhCN = "“矿石物品已放置！”"
+zhTW = "已放置礦石物品！"
+ruRU = "расставлены предметы руды!"
+jaJP = "鉱石アイテムが配置されました！"
+frFR = "objets de minerai placés !"
+deDE = "Eisenobjekte platziert!"
+plPL = "umieszczone przedmioty z rudy!"
+ptBR = "itens de minério colocados!"
+koKR = "광석 아이템이 배치되었습니다!"
+csCZ = "umístěné rudy!"
+viVN = "đồ vật quặng đã được đặt!"
+trTR = "madencilik eşyaları yerleştirildi!"
+
+["UI.TW.MoreMines.Veins"]
+raw = "Veins"
+status = "abandoned"
+enUS = "Veins"
+zhCN = "矿脉"
+zhTW = "礦脈"
+ruRU = "Жила"
+jaJP = "鉱脈"
+frFR = "Veines"
+deDE = "Adern"
+plPL = "Złoża"
+ptBR = "Veios"
+koKR = "광맥"
+csCZ = "Žíly"
+viVN = "Mạch"
+trTR = "Damars"
+
+["UI.TW.MoreMines.Blobs"]
+raw = "Blobs"
+status = "abandoned"
+enUS = "Blobs"
+zhCN = "水滴"
+zhTW = "水滴"
+ruRU = "Шарики"
+jaJP = "ブロブ"
+frFR = "Bulbes"
+deDE = "Blobs"
+plPL = "Bryłki"
+ptBR = "Blob"
+koKR = "방울"
+csCZ = "Blobíci"
+viVN = "Cục"
+trTR = "Yosma"
 
 ["LV.CPl.AllSect"]
 raw = "For all plants:"
