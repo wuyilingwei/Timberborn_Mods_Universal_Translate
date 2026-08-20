@@ -2,8 +2,8 @@
 name = "Building Renovations"
 
 ["LV.BRe.Renovations"]
-status = "normal"
 raw = "Renovations"
+status = "normal"
 enUS = "Renovations"
 zhCN = "翻新"
 zhTW = "翻修"
@@ -19,8 +19,8 @@ viVN = "Cải tạo"
 trTR = "Yenilemeler"
 
 ["LV.BRe.Renovate"]
-status = "normal"
 raw = "Renovate building"
+status = "normal"
 enUS = "Renovate building"
 zhCN = "翻新建筑"
 zhTW = "翻新建築"
@@ -36,8 +36,8 @@ viVN = "Cải tạo tòa nhà"
 trTR = "Binaları yenile"
 
 ["LV.BRe.NoRenovation"]
-status = "normal"
 raw = "No renovation available for this building."
+status = "normal"
 enUS = "No renovation available for this building."
 zhCN = "此建筑无法进行翻新。"
 zhTW = "此建築無法進行翻新。"
@@ -53,8 +53,8 @@ viVN = "Không có cải tạo nào cho tòa nhà này."
 trTR = "Bu bina için yenileme mevcut değil."
 
 ["LV.BRe.RenoTime"]
-status = "normal"
 raw = "⏱️ Renovation time: {0} days"
+status = "normal"
 enUS = "⏱️ Renovation time: {0} days"
 zhCN = "⏱️ 翻新时间: {0} 天"
 zhTW = "⏱️ 翻新時間：{0} 天"
@@ -70,8 +70,8 @@ viVN = "⏱️ Thời gian cải tạo: {0} ngày"
 trTR = "⏱️ Yenileme süresi: {0} gün"
 
 ["LV.BRe.RenoPriority"]
-status = "normal"
 raw = "Renovation materials priority:"
+status = "normal"
 enUS = "Renovation materials priority:"
 zhCN = "翻新材料优先级："
 zhTW = "翻新材料優先級："
@@ -87,8 +87,8 @@ viVN = "Ưu tiên vật liệu cải tạo:"
 trTR = "Yenileme malzemeleri önceliği:"
 
 ["LV.BRe.RenoPriorityShort"]
-status = "normal"
 raw = "Materials"
+status = "normal"
 enUS = "Materials"
 zhCN = "材料"
 zhTW = "材料"
@@ -104,8 +104,8 @@ viVN = "Vật liệu"
 trTR = "Malzemeler"
 
 ["LV.BRe.AlreadyActive"]
-status = "normal"
 raw = "Renovation is already active."
+status = "normal"
 enUS = "Renovation is already active."
 zhCN = "翻新已处于激活状态。"
 zhTW = "翻新已經啟動。"
@@ -121,8 +121,8 @@ viVN = "Cải tạo đã được kích hoạt."
 trTR = "Yenileme zaten aktif."
 
 ["LV.BRe.RenovationNote"]
-status = "normal"
 raw = "- Once started, the building will start gathering materials via Distro Storage. Time only counts down when all materials are collected.\n- Collecting materials and renovating does <b>NOT</b> require Builders or Haulers. Link stockpiles with Distro Storage so materials can be delivered.\n- Only one renovation can be active at a time for each building. Cancelling refunds materials already delivered (as recovered goods). Completed renovations consume the materials and will not be refunded in any way."
+status = "normal"
 enUS = "- Once started, the building will begin gathering materials via Distro Storage. Time only counts down when all materials are collected.\n- Collecting materials and renovating does <b>NOT</b> require Builders or Haulers. Link stockpiles with Distro Storage so materials can be delivered.\n- Only one renovation can be active at a time for each building. Cancelling refunds materials already delivered (as recovered goods). Completed renovations consume the materials and will not be refunded in any way."
 zhCN = "- 一旦开始，建筑将通过分配存储开始收集材料。只有在所有材料收集完毕后，时间才会倒计时。\n- 收集材料和翻新不需要建筑工或搬运工。将储物堆与分配存储链接，以便材料能够被送达。\n- 每个建筑一次只能进行一个翻新。取消翻新会退还已交付的材料（作为回收物品）。完成的翻新消耗材料，并且不会以任何方式退还。"
 zhTW = "- 一旦開始，建築物將開始通過配送儲藏箱收集材料。只有在收集到所有材料時，時間才會倒數。\n- 收集材料和翻新<b>不需要</b>建築工或搬運工。將儲存庫與配送儲藏箱連接，以便材料可以送達。\n- 每座建築只能同時進行一個翻新。取消翻新會退回已經送達的材料（作為回收到的物品）。完成的翻新將消耗材料，並不會以任何方式退款。"
@@ -138,8 +138,8 @@ viVN = "- Khi đã bắt đầu, tòa nhà sẽ bắt đầu thu thập vật li
 trTR = "- Başlatıldıktan sonra, bina Distro Depolama aracılığıyla malzeme toplamaya başlayacaktır. Süre, tüm malzemeler toplandığında geri sayım yapar.\n- Malzeme toplama ve yenileme <b>İHTİYAÇ DUYMAZ</b> İşçiler veya Taşıyıcılara. Malzemelerin teslim edilebilmesi için stok alanlarını Distro Depolama ile bağlayın.\n- Her bina için aynı anda yalnızca bir yenileme aktif olabilir. İptal etme, zaten teslim edilen malzemeleri geri öder (geri kazanılmış mallar olarak). Tamamlanan yenilemeler malzemeleri tüketir ve hiçbir şekilde geri ödenmez."
 
 ["LV.BRe.StartRenovation"]
-status = "normal"
 raw = "Start this renovation"
+status = "normal"
 enUS = "Start this renovation"
 zhCN = "开始这项翻新"
 zhTW = "開始這項翻新"
@@ -155,8 +155,8 @@ viVN = "Bắt đầu cải tạo này"
 trTR = "Bu yenilemeye başlayın"
 
 [Empty]
-status = "normal"
 raw = ""
+status = "normal"
 enUS = ""
 zhCN = ""
 zhTW = ""
@@ -172,8 +172,8 @@ viVN = ""
 trTR = ""
 
 ["LV.BRe.CancelReno"]
-status = "normal"
 raw = "Cancel renovation"
+status = "normal"
 enUS = "Cancel renovation"
 zhCN = "取消装修"
 zhTW = "取消翻新"
@@ -189,8 +189,8 @@ viVN = "Hủy bỏ cải tạo"
 trTR = "Tamirattan vazgeç"
 
 ["LV.BRe.CancelRenoConfirm"]
-status = "normal"
 raw = "Are you sure you want to cancel the renovation?"
+status = "normal"
 enUS = "Are you sure you want to cancel the renovation?"
 zhCN = "您确定要取消装修吗？"
 zhTW = "您確定要取消翻修嗎？"
@@ -206,8 +206,8 @@ viVN = "Bạn có chắc chắn muốn hủy bỏ việc cải tạo không?"
 trTR = "Restorasyonu iptal etmek istediğinize emin misiniz?"
 
 ["LV.BRe.CancelRenoYes"]
-status = "normal"
 raw = "Yes, cancel renovation"
+status = "normal"
 enUS = "Yes, cancel renovation"
 zhCN = "“是的，取消翻新”"
 zhTW = "是的，取消翻修"
@@ -223,8 +223,8 @@ viVN = "Vâng, hủy bỏ cải tạo"
 trTR = "Evet, tadilatı iptal et"
 
 ["LV.BRe.CancelNo"]
-status = "normal"
 raw = "No, keep renovating"
+status = "normal"
 enUS = "No, keep renovating"
 zhCN = "不，继续翻新"
 zhTW = "「不，繼續翻修」"
@@ -240,8 +240,8 @@ viVN = "Không, tiếp tục cải tạo"
 trTR = "Hayır, yenilemeye devam et"
 
 ["LV.BRe.CurrentRenovation"]
-status = "normal"
 raw = "Current renovation: {0}"
+status = "normal"
 enUS = "Current renovation: {0}"
 zhCN = "当前装修：{0}"
 zhTW = "當前翻修：{0}"
@@ -257,8 +257,8 @@ viVN = "Cải tạo hiện tại: {0}"
 trTR = "Mevcut yenileme: {0}"
 
 ["LV.BRe.WaitingForMaterial"]
-status = "normal"
 raw = "Waiting for materials"
+status = "normal"
 enUS = "Waiting for materials"
 zhCN = "等待材料"
 zhTW = "等待材料"
@@ -274,8 +274,8 @@ viVN = "Đang chờ vật liệu"
 trTR = "Malzemelerin gelmesini bekliyorum"
 
 ["LV.BRe.NoMaterialShort"]
-status = "normal"
 raw = "Renovation lacks materials"
+status = "normal"
 enUS = "Renovation lacks materials"
 zhCN = "“装修材料不足”"
 zhTW = "翻新缺少材料"
@@ -291,8 +291,8 @@ viVN = "Cải tạo thiếu vật liệu"
 trTR = "Yenileme için malzeme yok"
 
 ["LV.BRe.CompletedReno"]
-status = "normal"
 raw = "Completed renovations"
+status = "normal"
 enUS = "Completed renovations"
 zhCN = "“已完成翻新”"
 zhTW = "已完成的翻修"
@@ -308,8 +308,8 @@ viVN = "Đã hoàn thành cải tạo"
 trTR = "Tamamlanan yenilemeler"
 
 ["LV.BRe.Science"]
-status = "normal"
 raw = "Science"
+status = "normal"
 enUS = "Science"
 zhCN = "科学"
 zhTW = "科學"
@@ -325,8 +325,8 @@ viVN = "Khoa học"
 trTR = "Bilim"
 
 ["LV.BRe.Cost"]
-status = "normal"
 raw = "Cost:"
+status = "normal"
 enUS = "Cost:"
 zhCN = "成本："
 zhTW = "成本："
@@ -342,8 +342,8 @@ viVN = "Chi phí:"
 trTR = "Maliyet:"
 
 ["LV.BRe.Pay"]
-status = "normal"
 raw = "Pay"
+status = "normal"
 enUS = "Pay"
 zhCN = "支付"
 zhTW = "支付"
@@ -359,8 +359,8 @@ viVN = "Trả tiền"
 trTR = "Ücret"
 
 ["LV.BRe.Paid"]
-status = "normal"
 raw = "Paid"
+status = "normal"
 enUS = "Paid"
 zhCN = "付费"
 zhTW = "付費"
@@ -376,8 +376,8 @@ viVN = "Trả phí"
 trTR = "Ücretli"
 
 ["LV.BRe.ActiveReno"]
-status = "normal"
 raw = "<YellowHighlight>Active</YellowHighlight>"
+status = "normal"
 enUS = "<YellowHighlight>Active</YellowHighlight>"
 zhCN = "<YellowHighlight>活跃</YellowHighlight>"
 zhTW = "<YellowHighlight>活動</YellowHighlight>"
@@ -393,8 +393,8 @@ viVN = "<YellowHighlight>Đang hoạt động</YellowHighlight>"
 trTR = "<SarıVurgu>Aktif</SarıVurgu>"
 
 ["LV.BRe.RenoLog"]
-status = "normal"
 raw = "<YellowHighlight>Completion log</YellowHighlight>"
+status = "normal"
 enUS = "<YellowHighlight>Completion log</YellowHighlight>"
 zhCN = "<YellowHighlight>完成日志</YellowHighlight>"
 zhTW = "<YellowHighlight>完成日志</YellowHighlight>"
@@ -410,8 +410,8 @@ viVN = "<YellowHighlight>Nhật ký hoàn thành</YellowHighlight>"
 trTR = "<SarıVurgu>Tamamlanma kaydı</SarıVurgu>"
 
 ["LV.BRe.RenoLogEntry"]
-status = "normal"
 raw = "▶ {0}: {1}d ago"
+status = "normal"
 enUS = "▶ {0}: {1} days ago"
 zhCN = "▶ {0}: {1}天前"
 zhTW = "▶ {0}: {1} 天前"
@@ -427,8 +427,8 @@ viVN = "▶ {0}: {1} ngày trước"
 trTR = "▶ {0}: {1} gün önce"
 
 ["LV.BRe.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -444,8 +444,8 @@ viVN = "Không"
 trTR = "Hiçbiri"
 
 ["LV.BRe.RenovationDecreasePriorityHotKey"]
-status = "normal"
 raw = "Decrease renovation priority"
+status = "normal"
 enUS = "Decrease renovation priority"
 zhCN = "降低翻新优先级"
 zhTW = "降低改建優先級"
@@ -461,8 +461,8 @@ viVN = "Giảm ưu tiên cải tạo"
 trTR = "Yenileme önceliğini azalt"
 
 ["LV.BRe.RenovationIncreasePriorityHotKey"]
-status = "normal"
 raw = "Increase renovation priority"
+status = "normal"
 enUS = "Increase renovation priority"
 zhCN = "提高翻新优先级"
 zhTW = "提高翻新優先權"
@@ -478,8 +478,8 @@ viVN = "Tăng ưu tiên cải tạo"
 trTR = "Yenileme önceliğini artır"
 
 ["LV.BRe.ShowUnavailables"]
-status = "normal"
 raw = "Show unavailable renovations"
+status = "normal"
 enUS = "Show unavailable renovations"
 zhCN = "显示不可用的翻新"
 zhTW = "顯示不可用的翻修"
@@ -495,8 +495,8 @@ viVN = "Hiện các cải tiến không khả dụng"
 trTR = "Mevcut olmayan yenilemeleri göster"
 
 ["LV.BRe.NotApplicable"]
-status = "normal"
 raw = "Not available for this building."
+status = "normal"
 enUS = "Not available for this building."
 zhCN = "此建筑不可用。"
 zhTW = "此建築不適用。"
@@ -512,8 +512,8 @@ viVN = "Không khả dụng cho tòa nhà này."
 trTR = "Bu bina için mevcut değil."
 
 ["LV.BRe.RenovationRequired"]
-status = "normal"
 raw = "Renovation required: {0}"
+status = "normal"
 enUS = "Renovation required: {0}"
 zhCN = "翻修需要：{0}"
 zhTW = "需要翻新：{0}"
@@ -529,8 +529,8 @@ viVN = "Cần cải tạo: {0}"
 trTR = "Yenileme gerekli: {0}"
 
 ["LV.BRe.Common.WorkerBonus"]
-status = "normal"
 raw = "Workers gain {0}"
+status = "normal"
 enUS = "Workers gain {0}"
 zhCN = "“工人获得 {0}”"
 zhTW = "工人獲得 {0}"
@@ -546,8 +546,8 @@ viVN = "Công nhân nhận {0}"
 trTR = "Çalışanlar {0} kazanır"
 
 ["LV.BRe.StockpileGroup"]
-status = "normal"
 raw = "Storages"
+status = "normal"
 enUS = "Storages"
 zhCN = "储存区"
 zhTW = "儲存庫"
@@ -563,8 +563,8 @@ viVN = "Kho"
 trTR = "Depolar"
 
 ["LV.BRe.IncreaseDistroSpeedDesc"]
-status = "normal"
 raw = "Increases Distro transfer rate from this storage by {0:+0%}.\nOnly for Storage buildings."
+status = "normal"
 enUS = "Increases the distribution transfer rate from this storage by {0:+0%}. Only for storage buildings."
 zhCN = "“提高该储存库的配送传输率 {0:+0%}。仅适用于储存建筑。”"
 zhTW = "提升此儲存設施的分配傳輸速率 {0:+0%}。僅適用於儲存建築。"
@@ -580,8 +580,8 @@ viVN = "Tăng tốc độ chuyển giao Distro từ kho này lên {0:+0%}.  \nCh
 trTR = "Bu depodan Distro transfer oranını {0:+0%} artırır. Sadece Depolama binaları için."
 
 ["LV.BRe.IncreaseDistroSpeed1"]
-status = "normal"
 raw = "Rapid Transfer"
+status = "normal"
 enUS = "Rapid Transfer"
 zhCN = "快速转移"
 zhTW = "快速傳輸"
@@ -597,8 +597,8 @@ viVN = "Chuyển giao nhanh"
 trTR = "Hızlı Transfer"
 
 ["LV.BRe.IncreaseDistroSpeed1Flavor"]
-status = "normal"
 raw = "Goods no longer wait. They run."
+status = "normal"
 enUS = "Goods no longer wait. They run."
 zhCN = "“物品不再等待。它们在奔跑。”"
 zhTW = "貨物不再等候。它們在奔跑。"
@@ -614,8 +614,8 @@ viVN = "Hàng hóa không còn chờ đợi. Chúng chạy."
 trTR = "Eşya artık beklemiyor. Koşuyorlar."
 
 ["LV.BRe.IncreaseDistroSpeed2"]
-status = "normal"
 raw = "Hyperflow Logistics"
+status = "normal"
 enUS = "Hyperflow Logistics"
 zhCN = "超流物流"
 zhTW = "超流物流"
@@ -631,8 +631,8 @@ viVN = "Logistics Hyperflow"
 trTR = "Hiper Akış Lojistiği"
 
 ["LV.BRe.IncreaseDistroSpeed2Flavor"]
-status = "normal"
 raw = "Goods arrive before the request is even finished."
+status = "normal"
 enUS = "Goods arrive before the request is even finished."
 zhCN = "货物在请求完成之前就已到达。"
 zhTW = "貨物在請求尚未完成之前就抵達了。"
@@ -648,8 +648,8 @@ viVN = "Hàng hóa đến trước khi yêu cầu được hoàn thành."
 trTR = "Malzemeler talep tamamlanmadan önce gelir."
 
 ["LV.BRe.IncreaseDistroSpeedBuffDesc"]
-status = "normal"
 raw = "Distro transfer rate {0:+0%}"
+status = "normal"
 enUS = "Distro transfer rate {0:+0%}"
 zhCN = "配送转移速度 {0:+0%}"
 zhTW = "Distro 傳輸速率 {0:+0%}"
@@ -665,8 +665,8 @@ viVN = "Tốc độ chuyển giao Distro {0:+0%}"
 trTR = "Distro transfer hızı {0:+0%}"
 
 [Name_BuildingRenovationFragment]
-status = "normal"
 raw = "Building Renovations"
+status = "normal"
 enUS = "Building Renovations"
 zhCN = "建筑翻新"
 zhTW = "建築翻新"

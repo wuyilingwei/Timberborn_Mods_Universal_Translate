@@ -2,8 +2,8 @@
 name = "Storage Balancer"
 
 ["LV.SBl.DistroBalancer1"]
-status = "normal"
 raw = "Evenload Protocol"
+status = "normal"
 enUS = "Evenload Protocol"
 zhCN = "均衡负载协议"
 zhTW = "均衡負載協議"
@@ -19,8 +19,8 @@ viVN = "Giao thức phân phối đồng đều"
 trTR = "Yük Dengeleme Protokolü"
 
 ["LV.SBl.DistroBalancer1Desc"]
-status = "normal"
 raw = "Balances goods evenly among adjacent storages that also have Balancer.\n<YellowHighlight>Connects only side-by-side on the same level</YellowHighlight> (full shared wall). Does not connect up or down.\nOnly for Storage buildings."
+status = "normal"
 enUS = "Balances goods evenly among adjacent storages that also have Balancer. <YellowHighlight>Connects only side-by-side on the same level</YellowHighlight> (full shared wall). Does not connect up or down. Only for Storage buildings."
 zhCN = "在具有平衡器的相邻储存设施之间均匀分配货物。\n<YellowHighlight>仅在同一层级的并排连接</YellowHighlight>（共享完整墙壁）。不进行上下连接。\n仅适用于储存建筑。"
 zhTW = "在有平衡器的相鄰儲存區之間均勻分配物品。<YellowHighlight>僅在同一高度的側邊連接</YellowHighlight>（完整共牆）。不會連接上下層。僅限於儲存建築。"
@@ -36,8 +36,8 @@ viVN = "Cân bằng hàng hóa đều giữa các kho lưu trữ liền kề cũ
 trTR = "Yan yana olan ve aynı seviyede bulunan depolar arasında malları eşit şekilde dengeler ve ayrıca Dengeleyiciye sahiptir.  \n<SarıVurgu>Yalnızca yan yana ve aynı seviyede bağlanır</SarıVurgu> (tam paylaşılan duvar). Yukarı veya aşağı bağlanmaz.  \nSadece Depo binaları için."
 
 ["LV.SBl.DistroBalancer1Flavor"]
-status = "normal"
 raw = "When two storages stand shoulder to shoulder, the goods flow as one."
+status = "normal"
 enUS = "When two storages stand shoulder to shoulder, the goods flow as one."
 zhCN = "当两个储存设备并肩而立，货物便如水流般汇聚。"
 zhTW = "當兩個倉庫肩並肩而立，貨物便如同一體般流動。"
@@ -53,8 +53,8 @@ viVN = "Khi hai kho hàng đứng cạnh nhau, hàng hóa chảy như một."
 trTR = "İki depolama yan yana durduğunda, mallar bir bütün olarak akar."
 
 ["LV.SBl.DistroBalancer2"]
-status = "normal"
 raw = "Omnidirectional Protocol"
+status = "normal"
 enUS = "Omnidirectional Protocol"
 zhCN = "全向协议"
 zhTW = "全向協定"
@@ -70,8 +70,8 @@ viVN = "Giao thức Đa hướng"
 trTR = "Omnidireksiyon Protokolü"
 
 ["LV.SBl.DistroBalancer2Desc"]
-status = "normal"
 raw = "Upgrades Balancer so storages connect if they <YellowHighlight>share any face</YellowHighlight>, including stacked up/down. Diagonals and corner-only contact do not count.\nRequires Evenload Protocol. Only for Storage buildings."
+status = "normal"
 enUS = "Upgrades the Balancer so storages connect if they <YellowHighlight>share any face</YellowHighlight>, including stacked up/down. Diagonal and corner-only contact do not count. Requires Evenload Protocol. Only for storage buildings."
 zhCN = "升级平衡器，使存储设施在<YellowHighlight>共享任何面</YellowHighlight>时连接，包括上下堆叠。对角线和仅角落接触不算。\n需要均载协议。仅适用于存储建筑。"
 zhTW = "升級平衡器，使儲存空間連接如果它們<YellowHighlight>共享任何面</YellowHighlight>，包括堆疊上下。對角線和僅角落接觸不計算。\n需要均載協定。僅適用於儲存建築。"
@@ -87,8 +87,8 @@ viVN = "Cải tiến Balancer để các kho lưu trữ kết nối nếu chúng
 trTR = "Dengeliği yükselterek depolamaların <YellowHighlight>herhangi bir yüzeyi paylaştığında</YellowHighlight> bağlanmasını sağlar; üst üste yığılanlar da dahil. Diyagonal ve yalnızca köşe temasları geçerli değildir.  \nEvenload Protokolü gerektirir. Sadece Depolama binaları için."
 
 ["LV.SBl.DistroBalancer2Flavor"]
-status = "normal"
 raw = "From the lowest floor to the highest shelf, every crate finds its equal place."
+status = "normal"
 enUS = "From the lowest floor to the highest shelf, every crate finds its equal place."
 zhCN = "“从最低的楼层到最高的架子，每个箱子都能找到它的平衡位置。”"
 zhTW = "從最低的樓層到最高的架子，每個箱子都找到了它的平等位置。"
@@ -104,8 +104,8 @@ viVN = "Từ tầng thấp nhất đến kệ cao nhất, mỗi thùng đều t�
 trTR = "En alt katından en yüksek rafına kadar, her kutu eşit yerini bulur."
 
 ["LV.SBl.DisableBalancer"]
-status = "normal"
 raw = "Disabled"
+status = "normal"
 enUS = "Disabled"
 zhCN = "已禁用"
 zhTW = "已禁用"
@@ -121,8 +121,8 @@ viVN = "Đã tắt"
 trTR = "Devre Dışı"
 
 ["LV.SBl.BalancerGroup"]
-status = "normal"
 raw = "Balancer Groups:"
+status = "normal"
 enUS = "Balancer Groups:"
 zhCN = "平衡组："
 zhTW = "平衡器組："
@@ -138,8 +138,8 @@ viVN = "Nhóm Cân Bằng:"
 trTR = "Seviye Grupları:"
 
 ["LV.SBl.BalancerGroupNone"]
-status = "normal"
 raw = "This storage is not connected to any other balancer."
+status = "normal"
 enUS = "This storage is not connected to any other balancer."
 zhCN = "“该存储没有连接到任何其他平衡器。”"
 zhTW = "此儲存裝置未連接至任何其他平衡器。"
@@ -155,8 +155,8 @@ viVN = "Lưu trữ này không được kết nối với bất kỳ bộ cân b
 trTR = "Bu depolama herhangi bir başka dengeleyiciye bağlı değil."
 
 ["LV.SBl.Select"]
-status = "normal"
 raw = "Select"
+status = "normal"
 enUS = "Select"
 zhCN = "选择"
 zhTW = "選擇"
@@ -172,8 +172,8 @@ viVN = "Chọn"
 trTR = "Seç"
 
 ["LV.SBl.Balanced"]
-status = "normal"
 raw = "<GreenHighlight>Balanced!</GreenHighlight>"
+status = "normal"
 enUS = "<GreenHighlight>Balanced!</GreenHighlight>"
 zhCN = "<GreenHighlight>平衡!</GreenHighlight>"
 zhTW = "<GreenHighlight>平衡!</GreenHighlight>"
@@ -189,8 +189,8 @@ viVN = "<GreenHighlight>Cân bằng!</GreenHighlight>"
 trTR = "<YeşilVurgu>Dengeli!</YeşilVurgu>"
 
 [Name_StockpileBalancerFragment]
-status = "normal"
 raw = "Storage Balancer"
+status = "normal"
 enUS = "Storage Balancer"
 zhCN = "存储平衡器"
 zhTW = "儲存平衡器"
