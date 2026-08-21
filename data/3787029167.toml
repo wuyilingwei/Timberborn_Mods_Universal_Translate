@@ -2,8 +2,8 @@
 name = "Родословная бобров / Beaver Family Tree"
 
 ["BeaverFamilyTree.OpenButton"]
-status = "normal"
 raw = "Family Tree"
+status = "normal"
 enUS = "Family Tree"
 zhCN = "家谱"
 zhTW = "家譜"
@@ -19,8 +19,8 @@ viVN = "Cây Gia Đình"
 trTR = "Aile Ağacı"
 
 ["BeaverFamilyTree.DialogTitle"]
-status = "normal"
 raw = "Family Tree"
+status = "normal"
 enUS = "Family Tree"
 zhCN = "家谱"
 zhTW = "家譜"
@@ -36,8 +36,8 @@ viVN = "Cây gia đình"
 trTR = "Aile Ağacı"
 
 ["BeaverFamilyTree.DiedOnDay"]
-status = "normal"
 raw = "Died: cycle {0}, day {1}"
+status = "normal"
 enUS = "Died: cycle {0}, day {1}"
 zhCN = "死亡：周期 {0}，第 {1} 天"
 zhTW = "死亡：週期 {0}，第 {1} 天"
@@ -52,9 +52,13 @@ csCZ = "Zemřel: cyklus {0}, den {1}"
 viVN = "Đã chết: chu kỳ {0}, ngày {1}"
 trTR = "Öldü: döngü {0}, gün {1}"
 
-["BeaverFamilyTree.CauseOfDeath.0"]
+["BeaverFamilyTree.ZoomHint"]
+new = "Drag to move, scroll to zoom:"
 status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.0"]
 raw = "Drowned while building a dam"
+status = "normal"
 enUS = "Drowned while building a dam"
 zhCN = "在建造水坝时溺水"
 zhTW = "在建造大壩時淹死"
@@ -70,8 +74,8 @@ viVN = "Chết đuối khi đang xây dựng đập"
 trTR = "Baraj inşa ederken boğuldu"
 
 ["BeaverFamilyTree.CauseOfDeath.1"]
-status = "normal"
 raw = "Crushed by a log at the sawmill"
+status = "normal"
 enUS = "Crushed by a log at the sawmill"
 zhCN = "在锯木厂被树木压死"
 zhTW = "被鋸木廠的木頭壓死"
@@ -87,8 +91,8 @@ viVN = "Bị đè bẹp bởi một khúc gỗ tại nhà máy cưa"
 trTR = "Değirmende bir kütük tarafından ezildi"
 
 ["BeaverFamilyTree.CauseOfDeath.2"]
-status = "normal"
 raw = "Poisoned by contaminated water"
+status = "normal"
 enUS = "Poisoned by contaminated water"
 zhCN = "被污染的水中毒"
 zhTW = "被污染水源毒死"
@@ -104,8 +108,8 @@ viVN = "Chết vì nước ô nhiễm"
 trTR = "Kirli suyla zehirlendi"
 
 ["BeaverFamilyTree.CauseOfDeath.3"]
-status = "normal"
 raw = "Did not survive the Badtide"
+status = "normal"
 enUS = "Did not survive the Badtide"
 zhCN = "“没有活过坏潮”"
 zhTW = "「未能倖存於壞潮中」"
@@ -121,8 +125,8 @@ viVN = "Không sống sót sau Thủy triều xấu"
 trTR = "Badtide'ı atlatamadı"
 
 ["BeaverFamilyTree.CauseOfDeath.4"]
-status = "normal"
 raw = "Died of exhaustion at work"
+status = "normal"
 enUS = "Died of exhaustion at work"
 zhCN = "因工作过劳而死"
 zhTW = "「在工作中因疲憊而死」"
@@ -138,8 +142,8 @@ viVN = "Chết vì kiệt sức trong công việc"
 trTR = "İşten kaynaklı tükenmişlik nedeniyle öldü"
 
 ["BeaverFamilyTree.CauseOfDeath.5"]
-status = "normal"
 raw = "Froze during the drought with no shelter"
+status = "normal"
 enUS = "Froze during the drought with no shelter"
 zhCN = "在干旱期间没有避难所而冻死"
 zhTW = "在缺水的情況下沒有庇護所凍死"
@@ -155,8 +159,8 @@ viVN = "Bị đông lạnh trong thời kỳ hạn hán mà không có nơi trú
 trTR = "Barınaksız kuraklık sırasında dondu"
 
 ["BeaverFamilyTree.CauseOfDeath.6"]
-status = "normal"
 raw = "Fell from the scaffolding"
+status = "normal"
 enUS = "Fell from the scaffolding"
 zhCN = "“从脚手架上掉下来”"
 zhTW = "從 scaffolding 上摔下來"
@@ -172,8 +176,8 @@ viVN = "Rơi từ giàn giáo"
 trTR = "İskeleden düştü"
 
 ["BeaverFamilyTree.CauseOfDeath.7"]
-status = "normal"
 raw = "Ate spoiled roasted chestnuts"
+status = "normal"
 enUS = "Ate spoiled roasted chestnuts"
 zhCN = "吃了变质的烤栗子"
 zhTW = "吃了變質的烤栗子"
@@ -189,8 +193,8 @@ viVN = "Ăn hạt dẻ nướng thối"
 trTR = "Bozulmuş kızarmış kestane yedi"
 
 ["BeaverFamilyTree.CauseOfDeath.8"]
-status = "normal"
 raw = "Got lost in the sluices and never made it back"
+status = "normal"
 enUS = "Got lost in the sluices and never made it back"
 zhCN = "在水闸中迷路，再也没有回来"
 zhTW = "在水閘中迷路，永遠無法回來"
@@ -206,8 +210,8 @@ viVN = "Bị lạc trong cống và không bao giờ trở về"
 trTR = "Kapaklarda kayboldu ve asla geri dönmedi"
 
 ["BeaverFamilyTree.CauseOfDeath.9"]
-status = "normal"
 raw = "Lost a dispute over the hut with a neighbor"
+status = "normal"
 enUS = "Lost a dispute over the hut with a neighbor"
 zhCN = "与邻居争夺小屋失败"
 zhTW = "「與鄰居爭執小屋失敗」"
@@ -223,8 +227,8 @@ viVN = "Mất tranh cãi về cái chòi với một người láng giềng"
 trTR = "Bir komşu ile kulübe üzerinden çıkan bir anlaşmazlığı kaybetti"
 
 ["BeaverFamilyTree.CauseOfDeath.10"]
-status = "normal"
 raw = "Fell victim to curiosity at the waterfall"
+status = "normal"
 enUS = "Fell victim to curiosity at the waterfall"
 zhCN = "在瀑布边因好奇而丧生"
 zhTW = "在瀑布因好奇心而喪命"
@@ -240,8 +244,8 @@ viVN = "Trở thành nạn nhân của sự tò mò tại thác nước"
 trTR = "Şelalede meraka kurban gitti"
 
 ["BeaverFamilyTree.CauseOfDeath.11"]
-status = "normal"
 raw = "Passed away of old age, grumbling about the youth"
+status = "normal"
 enUS = "Passed away of old age, grumbling about the youth"
 zhCN = "因年老去世，抱怨年轻一代"
 zhTW = "因年老而去世，對年輕一代抱怨不已"
@@ -257,8 +261,8 @@ viVN = "Qua đời vì tuổi già, càu nhàu về thế hệ trẻ"
 trTR = "Yaşlılıktan vefat etti, gençleri şikayet ederek."
 
 ["BeaverFamilyTree.CauseOfDeath.12"]
-status = "normal"
 raw = "Crushed by a collapsing dam"
+status = "normal"
 enUS = "Crushed by a collapsing dam"
 zhCN = "被倒塌的大坝压死"
 zhTW = "被倒塌的水壩壓死"
@@ -274,8 +278,8 @@ viVN = "Bị nghiền nát bởi một con đập sập"
 trTR = "Çöküşte bir bent tarafından ezildi"
 
 ["BeaverFamilyTree.CauseOfDeath.13"]
-status = "normal"
 raw = "Overworked at the forge"
+status = "normal"
 enUS = "Overworked at the forge"
 zhCN = "在锻造厂工作过度"
 zhTW = "「在鍛造廠過度工作」"
@@ -291,8 +295,8 @@ viVN = "Quá sức tại lò rèn"
 trTR = "Demirde aşırı çalışmaktan"
 
 ["BeaverFamilyTree.CauseOfDeath.14"]
-status = "normal"
 raw = "Drowned retrieving a fallen hat"
+status = "normal"
 enUS = "Drowned retrieving a fallen hat"
 zhCN = "“溺水以找回掉落的帽子”"
 zhTW = "“溺水撿起掉落的帽子”"
@@ -308,8 +312,8 @@ viVN = "Chết đuối khi lấy lại mũ rơi"
 trTR = "Düşen bir şapkayı alırken boğulmuş"
 
 ["BeaverFamilyTree.CauseOfDeath.15"]
-status = "normal"
 raw = "Went missing during a violent thunderstorm"
+status = "normal"
 enUS = "Went missing during a violent thunderstorm"
 zhCN = "在暴风雨中失踪"
 zhTW = "在一場猛烈的雷暴中失踪"
@@ -323,3 +327,1027 @@ koKR = "폭풍우 속에서 실종되었습니다."
 csCZ = "Zmizel během násilné bouřky"
 viVN = "Bị mất tích trong một cơn bão sấm sét dữ dội"
 trTR = "Şiddetli bir fırtına sırasında kayboldu"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.0"]
+new = "He licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.1"]
+new = "His tongue stuck to the roof of his mouth, and the nearest canal was too far — thirst outran his legs."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.2"]
+new = "He gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.3"]
+new = "His throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.4"]
+new = "He watched the distant water through clouding eyes and never managed that last stretch toward it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.5"]
+new = "He circled the whole dam looking for even a crack seeping water, but found only dry stone."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.6"]
+new = "The jug by the doorway had stood empty for a week, and the river was too far for his weakened legs."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.7"]
+new = "He dug his burrow deeper and deeper, hoping to strike an underground spring, and struck only dry sand."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.8"]
+new = "Even dew on the leaves looked like salvation — but the morning came cloudless, and no dew fell."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.9"]
+new = "He watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.10"]
+new = "The hot wind drank the last of his strength before he could reach the watering hole."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.11"]
+new = "The reservoir had dropped so low that the water was out of reach even of an outstretched paw."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.12"]
+new = "He gulped at the air as if it could substitute for water — and fell silent halfway to the river."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.13"]
+new = "The dam held water beautifully — just not on the side where a beaver needed a drink."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.14"]
+new = "Thirst drove him mad enough that he started gnawing at his own tail, hoping for moisture."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.15"]
+new = "The last thing he saw was the sky reflected in water too far away to reach."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.16"]
+new = "He lay down in the dry riverbed, where water once splashed, and never got up again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.17"]
+new = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.18"]
+new = "He dragged himself toward the canal with his last strength, leaving a dry trail of crumbling earth behind him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.19"]
+new = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.0"]
+new = "He gnawed and swallowed splinters of wood, hoping to fill his stomach with something — anything — but his strength ran out before the hunger did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.1"]
+new = "The pantry had been empty for three days now — and with it went the strength to stay on his feet."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.2"]
+new = "He stripped the last bark off a log, but wood is no substitute for supper — his stomach stayed just as empty."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.3"]
+new = "His stomach cramped so badly that even sleep couldn't hide him from the hunger — and there was no one left to save him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.4"]
+new = "He kept hauling logs to the dam right to the end, though it had been a long time since he'd held anything edible in his paws."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.5"]
+new = "He checked every pantry in the district — and found the same hollow echo of emptiness in each one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.6"]
+new = "The harvest had failed that cycle, and he held on to hope for longer than his body could manage."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.7"]
+new = "He watched the others carrying logs and realized he no longer had the strength to carry even one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.8"]
+new = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.9"]
+new = "Work at the sawmill never let up for a moment — food, somehow, never showed up at all."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.10"]
+new = "He split his last scrap with the kits, keeping less and less for himself until there was nothing left."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.11"]
+new = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.12"]
+new = "He tried to snag even a splinter out of the water by the sawmill, but the current was faster than his paws."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.13"]
+new = "The list of things he hadn't eaten in weeks was longer than the list of things he had."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.14"]
+new = "He collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.15"]
+new = "The young shoots he finally managed to reach turned out bitter and inedible."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.16"]
+new = "He rationed his strength all day to make it to food by evening — but evening came too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.17"]
+new = "The neighboring district shared its food without him — simply because no one knew he was starving."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.18"]
+new = "His stomach had long since stopped growling — his body had simply given up and stopped."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.19"]
+new = "He stared at the logs and wood chips stacked in the barn, knowing neither one would fill him up."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.0"]
+new = "He dozed off quietly in the sun, just as he had a thousand times before — only this time he didn't wake up."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.1"]
+new = "His legs no longer obeyed the way they used to, his teeth were worn down, and his heart simply grew tired of beating."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.2"]
+new = "He'd already told his grandkits everything he knew about dams — and went to his rest with a clear conscience."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.3"]
+new = "Age quietly took its due, painlessly, right in his own lodge, amid the smell of freshly cut wood."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.4"]
+new = "Just yesterday he'd been grumbling at the youngsters over badly stacked logs — today he simply didn't open his eyes."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.5"]
+new = "He'd long since stopped counting the cycles he'd lived — what did it matter, when every day had been good in its own way."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.6"]
+new = "The youngsters heard his advice about stacking logs one last time — and he quietly went to his rest."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.7"]
+new = "He still went out to warm himself in the sun every morning, until one morning came without him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.8"]
+new = "His fur had long since gone gray, but his eyes still shone to the very last day, looking at the dam he'd helped build."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.9"]
+new = "He died the way he lived — sitting by his favorite dam, the very one he'd helped build cycles ago."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.10"]
+new = "His grandkits only noticed grandfather was sleeping too long once the sun was already high in the sky."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.11"]
+new = "He quietly stopped breathing somewhere between one heartbeat and the next, never waking from his midday nap."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.12"]
+new = "His last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.13"]
+new = "He'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in his own lodge."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.14"]
+new = "His body grew tired of carrying the weight of the years, and his heart grew tired of beating against its will."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.15"]
+new = "He lived to see his great-grandkits pick up their first logs to build a dam of their own."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.16"]
+new = "Age took its toll bit by bit: first the legs, then the teeth, and at the end, simply the will to get up in the morning."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.17"]
+new = "His lodgemates found him sleeping so soundly that no noise could wake him anymore."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.18"]
+new = "He faded quietly, surrounded by the family he himself had founded on the banks of this very river."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.19"]
+new = "The last thing he did in life was nudge a slightly crooked log back into place by the lodge entrance."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.0"]
+new = "Drowned while building a dam"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.1"]
+new = "Crushed by a log at the sawmill"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.2"]
+new = "Poisoned by contaminated water"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.3"]
+new = "Did not survive the Badtide"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.4"]
+new = "Died of exhaustion at work"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.5"]
+new = "Froze during the drought with no shelter"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.6"]
+new = "Fell from the scaffolding"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.7"]
+new = "Ate spoiled roasted chestnuts"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.8"]
+new = "Got lost in the sluices and never made it back"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.9"]
+new = "Lost a dispute over the hut with a neighbor"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.10"]
+new = "Fell victim to curiosity at the waterfall"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.11"]
+new = "Passed away of old age, grumbling about the youth"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.12"]
+new = "Crushed by a collapsing dam"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.13"]
+new = "Overworked at the forge"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.14"]
+new = "Drowned retrieving a fallen hat"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.F.15"]
+new = "Went missing during a violent thunderstorm"
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.0"]
+new = "She licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.1"]
+new = "Her tongue stuck to the roof of her mouth, and the nearest canal was too far — thirst outran her legs."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.2"]
+new = "She gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.3"]
+new = "Her throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.4"]
+new = "She watched the distant water through clouding eyes and never managed that last stretch toward it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.5"]
+new = "She circled the whole dam looking for even a crack seeping water, but found only dry stone."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.6"]
+new = "The jug by the doorway had stood empty for a week, and the river was too far for her weakened legs."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.7"]
+new = "She dug her burrow deeper and deeper, hoping to strike an underground spring, and struck only dry sand."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.8"]
+new = "Even dew on the leaves looked like salvation — but the morning came cloudless, and no dew fell."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.9"]
+new = "She watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.10"]
+new = "The hot wind drank the last of her strength before she could reach the watering hole."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.11"]
+new = "The reservoir had dropped so low that the water was out of reach even of an outstretched paw."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.12"]
+new = "She gulped at the air as if it could substitute for water — and fell silent halfway to the river."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.13"]
+new = "The dam held water beautifully — just not on the side where a beaver needed a drink."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.14"]
+new = "Thirst drove her mad enough that she started gnawing at her own tail, hoping for moisture."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.15"]
+new = "The last thing she saw was the sky reflected in water too far away to reach."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.16"]
+new = "She lay down in the dry riverbed, where water once splashed, and never got up again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.17"]
+new = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.18"]
+new = "She dragged herself toward the canal with her last strength, leaving a dry trail of crumbling earth behind her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.19"]
+new = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.0"]
+new = "She gnawed and swallowed splinters of wood, hoping to fill her stomach with something — anything — but her strength ran out before the hunger did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.1"]
+new = "The pantry had been empty for three days now — and with it went the strength to stay on her feet."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.2"]
+new = "She stripped the last bark off a log, but wood is no substitute for supper — her stomach stayed just as empty."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.3"]
+new = "Her stomach cramped so badly that even sleep couldn't hide her from the hunger — and there was no one left to save her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.4"]
+new = "She kept hauling logs to the dam right to the end, though it had been a long time since she'd held anything edible in her paws."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.5"]
+new = "She checked every pantry in the district — and found the same hollow echo of emptiness in each one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.6"]
+new = "The harvest had failed that cycle, and she held on to hope for longer than her body could manage."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.7"]
+new = "She watched the others carrying logs and realized she no longer had the strength to carry even one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.8"]
+new = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.9"]
+new = "Work at the sawmill never let up for a moment — food, somehow, never showed up at all."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.10"]
+new = "She split her last scrap with the kits, keeping less and less for herself until there was nothing left."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.11"]
+new = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.12"]
+new = "She tried to snag even a splinter out of the water by the sawmill, but the current was faster than her paws."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.13"]
+new = "The list of things she hadn't eaten in weeks was longer than the list of things she had."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.14"]
+new = "She collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.15"]
+new = "The young shoots she finally managed to reach turned out bitter and inedible."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.16"]
+new = "She rationed her strength all day to make it to food by evening — but evening came too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.17"]
+new = "The neighboring district shared its food without her — simply because no one knew she was starving."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.18"]
+new = "Her stomach had long since stopped growling — her body had simply given up and stopped."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.19"]
+new = "She stared at the logs and wood chips stacked in the barn, knowing neither one would fill her up."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.0"]
+new = "She dozed off quietly in the sun, just as she had a thousand times before — only this time she didn't wake up."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.1"]
+new = "Her legs no longer obeyed the way they used to, her teeth were worn down, and her heart simply grew tired of beating."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.2"]
+new = "She'd already told her grandkits everything she knew about dams — and went to her rest with a clear conscience."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.3"]
+new = "Age quietly took its due, painlessly, right in her own lodge, amid the smell of freshly cut wood."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.4"]
+new = "Just yesterday she'd been grumbling at the youngsters over badly stacked logs — today she simply didn't open her eyes."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.5"]
+new = "She'd long since stopped counting the cycles she'd lived — what did it matter, when every day had been good in its own way."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.6"]
+new = "The youngsters heard her advice about stacking logs one last time — and she quietly went to her rest."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.7"]
+new = "She still went out to warm herself in the sun every morning, until one morning came without her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.8"]
+new = "Her fur had long since gone gray, but her eyes still shone to the very last day, looking at the dam she'd helped build."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.9"]
+new = "She died the way she lived — sitting by her favorite dam, the very one she'd helped build cycles ago."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.10"]
+new = "Her grandkits only noticed grandmother was sleeping too long once the sun was already high in the sky."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.11"]
+new = "She quietly stopped breathing somewhere between one heartbeat and the next, never waking from her midday nap."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.12"]
+new = "Her last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.13"]
+new = "She'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in her own lodge."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.14"]
+new = "Her body grew tired of carrying the weight of the years, and her heart grew tired of beating against its will."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.15"]
+new = "She lived to see her great-grandkits pick up their first logs to build a dam of their own."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.16"]
+new = "Age took its toll bit by bit: first the legs, then the teeth, and at the end, simply the will to get up in the morning."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.17"]
+new = "Her lodgemates found her sleeping so soundly that no noise could wake her anymore."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.18"]
+new = "She faded quietly, surrounded by the family she herself had founded on the banks of this very river."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.19"]
+new = "The last thing she did in life was nudge a slightly crooked log back into place by the lodge entrance."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.20"]
+new = "He chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.21"]
+new = "At night he dreamed of a river running full — and by morning there was only cracked clay under his paws again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.22"]
+new = "He lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.23"]
+new = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.24"]
+new = "He wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.25"]
+new = "The shimmer over the dry riverbed looked so much like a lake that he crawled toward it with his last strength — and never made it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.26"]
+new = "He heard water dripping somewhere inside the lodge wall and crawled toward the sound until the sound stopped."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.27"]
+new = "The dam held a full reservoir — just not for him: the line at the watering hole was too long."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.28"]
+new = "He tried to dig a well with his bare paws, but the ground had turned harder than stone after the long drought."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.29"]
+new = "Fog settled over the district for exactly one night — and that one night wasn't enough for him to lick up more than a few drops."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.30"]
+new = "The rain finally came — three days too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.31"]
+new = "He watched a fish thrashing in a drying puddle and understood he'd soon be in its place."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.32"]
+new = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.33"]
+new = "He rationed every sip, saving some for tomorrow — and tomorrow never came for him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.34"]
+new = "The heat was so fierce that even the shade by the dam gave no relief — the water in his body ran out faster than the day did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.35"]
+new = "He believed the rains started on the same day every cycle — but this year they were late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.36"]
+new = "His last strength went into dragging himself to the dry canal, just to lie down at its bottom."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.37"]
+new = "He'd long since stopped sweating — his body was rationing even what it no longer had."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.38"]
+new = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.39"]
+new = "He looked at the dam one last time — the very one that was supposed to carry water to him, not past him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.20"]
+new = "He split his grain ration with a sick neighbor and kept too little back to last himself."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.21"]
+new = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.22"]
+new = "He tried chewing on an old leather strap, just to feel like there was something, anything, in his mouth."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.23"]
+new = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.24"]
+new = "He traded his last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.25"]
+new = "Field mice stripped the barn's stores faster than the beavers could restock them."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.26"]
+new = "He kept watching them build a new sawmill instead of the storehouse that was needed far more."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.27"]
+new = "Hunger dulled every sense until he stopped noticing even the pain in his paws, worn raw."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.28"]
+new = "The last thing he ate was a handful of sawdust off the sawmill floor — and even that didn't save him from the hunger."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.29"]
+new = "He saved his strength for tomorrow's shift at the dam, not counting on the fact that he wouldn't live to see it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.30"]
+new = "The badtide washed out half the crops that year, and he was one of the ones the leftovers didn't stretch to."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.31"]
+new = "He pretended he'd already eaten so no one would give up their own ration to him — and kept up the act to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.32"]
+new = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than he could hold out for."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.33"]
+new = "He steered clear of the neighboring district's full granaries, too proud to ask for help."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.34"]
+new = "His last strength went into hauling his own cart of logs to the storehouse, not into finding a meal."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.35"]
+new = "He was counting on the spring shoots to save him — but spring was late that cycle."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.36"]
+new = "Hunger crept up on him unnoticed through the long shifts, right up until the day his legs simply refused to rise."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.37"]
+new = "He kept telling himself there'd be time to eat after the next shift — but the next shift never ended for him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.38"]
+new = "He gave up his place in the kitchen line three times running — the fourth time, the line never opened for him at all."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.39"]
+new = "His empty stomach drowned out even the hammers at the sawmill — but he could never drown out the hunger itself."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.20"]
+new = "He made one last round of the dam, nodding to every familiar log as if saying goodbye."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.21"]
+new = "His voice grew quieter, his legs slower, but his smile at the sight of his grandkits never changed, right to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.22"]
+new = "He left the youngsters his favorite bench by the water — and quietly took his place in the family's memory instead."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.23"]
+new = "Age never asked permission — it simply came for him one day, as peacefully as it had come for so many before him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.24"]
+new = "He'd long since taken to living on memories of the great builds of his youth — and one day he simply didn't wake up among them."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.25"]
+new = "The last thing he saw was the morning mist over the river — the very same mist as the day he'd first arrived."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.26"]
+new = "He refused to move to a new lodge, saying he'd die where he'd lived his whole life. And so he did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.27"]
+new = "His body gave out before his spirit did — he kept trying to help at the dam right to the last day, long after he could no longer lift a log."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.28"]
+new = "He slipped away quietly in his sleep to the creak of old trees — the very sound that had lulled him his whole life."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.29"]
+new = "His children were long grown, and his grandkits too, and still he watched the river with the same wonder as on his very first day."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.30"]
+new = "That last winter turned out mild, as if nature itself had decided to let him go gently."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.31"]
+new = "He'd just finished passing on the secret of his sturdiest dam when he went to his rest with a light heart."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.32"]
+new = "His frail paws could no longer hold a log, but they held his grandkits' paws tight right to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.33"]
+new = "He faded away quietly between two strikes of the sawmill bell, never hearing the second one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.34"]
+new = "The wrinkles on his face were a map of the years he'd lived — and one day that map simply closed."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.35"]
+new = "He dozed off by the fire every evening — and one of those evenings turned out to be his last, though no one noticed the difference right away."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.36"]
+new = "He brought in the last harvest of his life himself, flatly refusing any help from the young ones."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.37"]
+new = "He left as quietly as he'd once arrived in this district — without any fuss, leaving a sturdy dam behind him."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.38"]
+new = "Age took his strength, but never his memory — to the end, he remembered the name of everyone he'd ever taught."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.39"]
+new = "He lay down to rest after a long day, just as he had his whole life — only this time the rest turned out to be forever."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.20"]
+new = "She chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.21"]
+new = "At night she dreamed of a river running full — and by morning there was only cracked clay under her paws again."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.22"]
+new = "She lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.23"]
+new = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.24"]
+new = "She wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.25"]
+new = "The shimmer over the dry riverbed looked so much like a lake that she crawled toward it with her last strength — and never made it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.26"]
+new = "She heard water dripping somewhere inside the lodge wall and crawled toward the sound until the sound stopped."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.27"]
+new = "The dam held a full reservoir — just not for her: the line at the watering hole was too long."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.28"]
+new = "She tried to dig a well with her bare paws, but the ground had turned harder than stone after the long drought."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.29"]
+new = "Fog settled over the district for exactly one night — and that one night wasn't enough for her to lick up more than a few drops."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.30"]
+new = "The rain finally came — three days too late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.31"]
+new = "She watched a fish thrashing in a drying puddle and understood she'd soon be in its place."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.32"]
+new = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.33"]
+new = "She rationed every sip, saving some for tomorrow — and tomorrow never came for her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.34"]
+new = "The heat was so fierce that even the shade by the dam gave no relief — the water in her body ran out faster than the day did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.35"]
+new = "She believed the rains started on the same day every cycle — but this year they were late."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.36"]
+new = "Her last strength went into dragging herself to the dry canal, just to lie down at its bottom."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.37"]
+new = "She'd long since stopped sweating — her body was rationing even what it no longer had."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.38"]
+new = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Thirst.F.39"]
+new = "She looked at the dam one last time — the very one that was supposed to carry water to her, not past her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.20"]
+new = "She split her grain ration with a sick neighbor and kept too little back to last herself."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.21"]
+new = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.22"]
+new = "She tried chewing on an old leather strap, just to feel like there was something, anything, in her mouth."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.23"]
+new = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.24"]
+new = "She traded her last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.25"]
+new = "Field mice stripped the barn's stores faster than the beavers could restock them."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.26"]
+new = "She kept watching them build a new sawmill instead of the storehouse that was needed far more."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.27"]
+new = "Hunger dulled every sense until she stopped noticing even the pain in her paws, worn raw."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.28"]
+new = "The last thing she ate was a handful of sawdust off the sawmill floor — and even that didn't save her from the hunger."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.29"]
+new = "She saved her strength for tomorrow's shift at the dam, not counting on the fact that she wouldn't live to see it."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.30"]
+new = "The badtide washed out half the crops that year, and she was one of the ones the leftovers didn't stretch to."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.31"]
+new = "She pretended she'd already eaten so no one would give up their own ration to her — and kept up the act to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.32"]
+new = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than she could hold out for."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.33"]
+new = "She steered clear of the neighboring district's full granaries, too proud to ask for help."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.34"]
+new = "Her last strength went into hauling her own cart of logs to the storehouse, not into finding a meal."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.35"]
+new = "She was counting on the spring shoots to save her — but spring was late that cycle."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.36"]
+new = "Hunger crept up on her unnoticed through the long shifts, right up until the day her legs simply refused to rise."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.37"]
+new = "She kept telling herself there'd be time to eat after the next shift — but the next shift never ended for her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.38"]
+new = "She gave up her place in the kitchen line three times running — the fourth time, the line never opened for her at all."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.Hunger.F.39"]
+new = "Her empty stomach drowned out even the hammers at the sawmill — but she could never drown out the hunger itself."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.20"]
+new = "She made one last round of the dam, nodding to every familiar log as if saying goodbye."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.21"]
+new = "Her voice grew quieter, her legs slower, but her smile at the sight of her grandkits never changed, right to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.22"]
+new = "She left the youngsters her favorite bench by the water — and quietly took her place in the family's memory instead."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.23"]
+new = "Age never asked permission — it simply came for her one day, as peacefully as it had come for so many before her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.24"]
+new = "She'd long since taken to living on memories of the great builds of her youth — and one day she simply didn't wake up among them."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.25"]
+new = "The last thing she saw was the morning mist over the river — the very same mist as the day she'd first arrived."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.26"]
+new = "She refused to move to a new lodge, saying she'd die where she'd lived her whole life. And so she did."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.27"]
+new = "Her body gave out before her spirit did — she kept trying to help at the dam right to the last day, long after she could no longer lift a log."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.28"]
+new = "She slipped away quietly in her sleep to the creak of old trees — the very sound that had lulled her whole life."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.29"]
+new = "Her children were long grown, and her grandkits too, and still she watched the river with the same wonder as on her very first day."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.30"]
+new = "That last winter turned out mild, as if nature itself had decided to let her go gently."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.31"]
+new = "She'd just finished passing on the secret of her sturdiest dam when she went to her rest with a light heart."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.32"]
+new = "Her frail paws could no longer hold a log, but they held her grandkits' paws tight right to the end."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.33"]
+new = "She faded away quietly between two strikes of the sawmill bell, never hearing the second one."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.34"]
+new = "The wrinkles on her face were a map of the years she'd lived — and one day that map simply closed."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.35"]
+new = "She dozed off by the fire every evening — and one of those evenings turned out to be her last, though no one noticed the difference right away."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.36"]
+new = "She brought in the last harvest of her life herself, flatly refusing any help from the young ones."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.37"]
+new = "She left as quietly as she'd once arrived in this district — without any fuss, leaving a sturdy dam behind her."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.38"]
+new = "Age took her strength, but never her memory — to the end, she remembered the name of everyone she'd ever taught."
+status = "normal"
+
+["BeaverFamilyTree.CauseOfDeath.OldAge.F.39"]
+new = "She lay down to rest after a long day, just as she had her whole life — only this time the rest turned out to be forever."
+status = "normal"
