@@ -53,8 +53,8 @@ viVN = "Đã chết: chu kỳ {0}, ngày {1}"
 trTR = "Öldü: döngü {0}, gün {1}"
 
 ["BeaverFamilyTree.ZoomHint"]
-status = "normal"
 raw = "Drag to move, scroll to zoom:"
+status = "normal"
 enUS = "Drag to move, scroll to zoom:"
 zhCN = "拖动以移动，滚动以缩放："
 zhTW = "拖動以移動，滑動以縮放："
@@ -68,6 +68,22 @@ koKR = "이동하려면 드래그하고, 확대/축소하려면 스크롤하세�
 csCZ = "Táhněte pro pohyb, kolečkem myši zoomujte:"
 viVN = "Kéo để di chuyển, cuộn để phóng to:"
 trTR = "Sürükleyin, hareket ettirmek için, yakınlaştırmak için kaydırın:"
+
+["BeaverFamilyTree.CollapseAncestors"]
+new = "Collapse ancestors"
+status = "normal"
+
+["BeaverFamilyTree.ExpandAncestors"]
+new = "Show ancestors"
+status = "normal"
+
+["BeaverFamilyTree.CollapseDescendants"]
+new = "Collapse descendants"
+status = "normal"
+
+["BeaverFamilyTree.ExpandDescendants"]
+new = "Show descendants"
+status = "normal"
 
 ["BeaverFamilyTree.CauseOfDeath.0"]
 raw = "Drowned while building a dam"
@@ -342,8 +358,8 @@ viVN = "Bị mất tích trong một cơn bão sấm sét dữ dội"
 trTR = "Şiddetli bir fırtına sırasında kayboldu"
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.0"]
-status = "normal"
 raw = "He licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
+status = "normal"
 enUS = "He licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
 zhCN = "“他舔着开裂的土地，希望能得到一丝生机的湿气，却再也没有从炙热的地面上站起来。”"
 zhTW = "他舔著龜裂的土地，希望能找到一滴賜予生命的水分，但再也沒有從炙熱的地面上站起來。"
@@ -359,8 +375,8 @@ viVN = "Cậu liếm vào đất nứt nẻ, hy vọng tìm thấy một giọt 
 trTR = "Kırık toprağa diliyle dokundu, hayat verici nemin en az bir damlasını umarak, ama bir daha asla kavurucu topraktan kalkamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.1"]
-status = "normal"
 raw = "His tongue stuck to the roof of his mouth, and the nearest canal was too far — thirst outran his legs."
+status = "normal"
 enUS = "His tongue stuck to the roof of his mouth, and the nearest canal was too far — thirst outran his legs."
 zhCN = "“他的舌头贴在上颚上，而最近的运河太远——口渴超越了他的腿。”"
 zhTW = "他的舌頭黏在上顎，最近的運河太遠——口渴超越了他的雙腿。"
@@ -376,8 +392,8 @@ viVN = "Lưỡi của anh ta dính vào vòm miệng, và kênh gần nhất qu�
 trTR = "Dili damaklarına yapışmıştı ve en yakın kanal çok uzaktaydı - susuzluk, bacaklarını geçti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.2"]
-status = "normal"
 raw = "He gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
+status = "normal"
 enUS = "He gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
 zhCN = "“他在干燥的泥土上啃出一个小凹槽，仍然相信下面某个地方有水。”"
 zhTW = "他在乾裂的黏土上啃出了一點凹槽，仍然相信下面有水的存在。"
@@ -393,8 +409,8 @@ viVN = "Anh ta đã cắn một cái hốc nhỏ vào đất sét khô, vẫn ti
 trTR = "Kurumuş toprağa biraz çiğnedi, hala orada bir yerde su olduğuna inanıyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.3"]
-status = "normal"
 raw = "His throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
+status = "normal"
 enUS = "His throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
 zhCN = "“他的喉咙烧得比任何火焰都要难忍——水就在那儿，闸门那边，但闸门却关着。”"
 zhTW = "“他的喉嚨燒得比任何火焰都厲害——水就在那裡，在水閘的另一邊，但水閘卻關著。”"
@@ -410,8 +426,8 @@ viVN = "Anh ấy cảm thấy cổ họng đau rát hơn bất kỳ ngọn lửa
 trTR = "Boğazı, herhangi bir ateşten daha fazla yanıyordu — su hemen oradaydı, kapakların ardında, ama kapak kapalıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.4"]
-status = "normal"
 raw = "He watched the distant water through clouding eyes and never managed that last stretch toward it."
+status = "normal"
 enUS = "He watched the distant water through clouding eyes and never managed that last stretch toward it."
 zhCN = "他通过模糊的眼睛看着远处的水，始终没能走出最后那段距离。"
 zhTW = "他透過朦朧的雙眼注視著遠方的水源，但始終無法走到那最後一段路。"
@@ -427,8 +443,8 @@ viVN = "Anh nhìn nước xa xăm qua đôi mắt mờ đục và không bao gi�
 trTR = "Uzaklardaki suya bulanık gözlerle bakarken, ona doğru o son mesafeyi asla aşamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.5"]
-status = "normal"
 raw = "He circled the whole dam looking for even a crack seeping water, but found only dry stone."
+status = "normal"
 enUS = "He circled the whole dam looking for even a crack seeping water, but found only dry stone."
 zhCN = "“他绕着整个水坝寻找任何渗水的裂缝，但只发现干燥的石头。”"
 zhTW = "他繞著整個水壩尋找任何一處漏水的裂縫，但只發現了乾燥的石頭。"
@@ -444,8 +460,8 @@ viVN = "Anh ấy đã đến vòng quanh con đập, tìm kiếm đến cả m�
 trTR = "Bütün barajı dolaşarak su sızdıran en küçük çatlağı aradı, ama sadece kuru taş buldu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.6"]
-status = "normal"
 raw = "The jug by the doorway had stood empty for a week, and the river was too far for his weakened legs."
+status = "normal"
 enUS = "The jug by the doorway had stood empty for a week, and the river was too far for his weakened legs."
 zhCN = "“门口的水罐已经空了一个星期，而河流对于他虚弱的腿来说太远了。”"
 zhTW = "門口的水壺已經空了整整一週，而河流對他虛弱的雙腿來說實在太遠了。"
@@ -461,8 +477,8 @@ viVN = "Cái bình bên cửa đã trống rỗng suốt một tuần, và con s
 trTR = "Kapının yanındaki sürahi bir haftadır boştu ve nehir zayıflamış bacakları için çok uzaktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.7"]
-status = "normal"
 raw = "He dug his burrow deeper and deeper, hoping to strike an underground spring, and struck only dry sand."
+status = "normal"
 enUS = "He dug his burrow deeper and deeper, hoping to strike an underground spring, but found only dry sand."
 zhCN = "他挖得越来越深，希望能找到地下泉水，却只挖到干沙。"
 zhTW = "「他挖了越來越深的洞穴，希望能找到地下泉水，卻只挖到乾燥的沙子。」"
@@ -478,8 +494,8 @@ viVN = "Ông đã đào hố của mình sâu hơn nữa, hy vọng sẽ tìm th
 trTR = "Yuvasını daha derin kazdı, yer altı kaynağına ulaşmayı umarak, sadece kuru kumla karşılaştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.8"]
-status = "normal"
 raw = "Even dew on the leaves looked like salvation — but the morning came cloudless, and no dew fell."
+status = "normal"
 enUS = "Even dew on the leaves looked like salvation — but the morning came cloudless, and no dew fell."
 zhCN = "“即使是叶子上的露水看起来也像救赎——但早晨来了，万里无云，没有露水落下。”"
 zhTW = "即使葉子上的露水看起來像是救贖——但清晨無雲，露水卻沒有降臨。"
@@ -495,8 +511,8 @@ viVN = "Ngay cả sương đọng trên lá cũng trông như sự cứu rỗi �
 trTR = "Yapraklardaki çiy bile kurtuluş gibi görünüyordu — ama sabah bulutsuz geldi ve hiçbir çiy düşmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.9"]
-status = "normal"
 raw = "He watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
+status = "normal"
 enUS = "He watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
 zhCN = "“他看着水流过几步远的闸口，却无法清除最后那道檐口。”"
 zhTW = "他看著水流過幾步之外的水閘，但無法跨過最後那個邊緣。"
@@ -512,8 +528,8 @@ viVN = "Anh nhìn dòng nước chảy qua cống chỉ cách đó vài bước,
 trTR = "Birkaç adım ötedeki kapak aracılığıyla suyun akışını izliyordu ama son yükseltmeyi aşamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.10"]
-status = "normal"
 raw = "The hot wind drank the last of his strength before he could reach the watering hole."
+status = "normal"
 enUS = "The hot wind drank the last of his strength before he could reach the watering hole."
 zhCN = "炎热的风在他到达水源之前夺走了他最后的力量。"
 zhTW = "炎熱的風在他抵達水源之前吞盡了他的最後一絲力量。"
@@ -529,8 +545,8 @@ viVN = "Gió nóng đã rút cạn sức lực cuối cùng của anh ấy trư�
 trTR = "Sıcak rüzgar, sulama noktasına ulaşmadan önce son gücünü içti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.11"]
-status = "normal"
 raw = "The reservoir had dropped so low that the water was out of reach even of an outstretched paw."
+status = "normal"
 enUS = "The reservoir had dropped so low that the water was out of reach even for an outstretched paw."
 zhCN = "水库的水位下降到如此低，以至于即使是伸出的爪子也无法触及。"
 zhTW = "水庫的水位已經降低到，即使是伸長的爪子也無法觸及水面。"
@@ -546,8 +562,8 @@ viVN = "Reservoir đã hạ xuống quá thấp đến nỗi nước không th�
 trTR = "Rezervuar o kadar düşmüştü ki, su bir uzatılmış pati bile erişemeyecek kadar uzaktaydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.12"]
-status = "normal"
 raw = "He gulped at the air as if it could substitute for water — and fell silent halfway to the river."
+status = "normal"
 enUS = "He gulped at the air as if it could substitute for water — and fell silent halfway to the river."
 zhCN = "“他大口喘息，好像空气能替代水分——然后在去河流的路上半途而废。”"
 zhTW = "他像是在空中吞咽著，彷彿那可以替代水——然後在通往河流的途中就沉默了。"
@@ -563,8 +579,8 @@ viVN = "Anh ta nuốt không khí như thể nó có thể thay thế nước �
 trTR = "Hava, suyun yerini tutabilirmiş gibi boğazında yutkunarak suya doğru ilerledi — ve nehirin yarısına geldiğinde sustu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.13"]
-status = "normal"
 raw = "The dam held water beautifully — just not on the side where a beaver needed a drink."
+status = "normal"
 enUS = "The dam held water beautifully — just not on the side where a beaver needed a drink."
 zhCN = "“大坝水位漂亮地保持着——只是对于需要喝水的海狸来说，水在错误的一侧。”"
 zhTW = "大壩儲存水源非常完美——只是對於一隻需要喝水的海狸來說，並不在那一側。"
@@ -580,8 +596,8 @@ viVN = "Con đập giữ nước đẹp mắt — chỉ là không ở phía mà
 trTR = "Baraj suyu mükemmel bir şekilde tuttu — sadece bir bobraya içecek lazım olan tarafta değil."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.14"]
-status = "normal"
 raw = "Thirst drove him mad enough that he started gnawing at his own tail, hoping for moisture."
+status = "normal"
 enUS = "Thirst drove him mad enough that he started gnawing at his own tail, hoping for moisture."
 zhCN = "口渴让他变得疯狂，甚至开始啃自己的尾巴，期望能得到些水分。"
 zhTW = "口渴讓他變得瘋狂，以至於開始啃自己的尾巴，希望能獲得水分。"
@@ -597,8 +613,8 @@ viVN = "Cơn khát đã khiến hắn điên cuồng đến mức bắt đầu g
 trTR = "Susuzluk onu o kadar deli etti ki, nem umuduyla kendi kuyruğunu kemirmeye başladı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.15"]
-status = "normal"
 raw = "The last thing he saw was the sky reflected in water too far away to reach."
+status = "normal"
 enUS = "The last thing he saw was the sky reflected in water too far away to reach."
 zhCN = "“他最后看到的是天空映在远得无法触及的水面上。”"
 zhTW = "他最後看到的是反射在水面上的天空，卻遙不可及。"
@@ -614,8 +630,8 @@ viVN = "Điều cuối cùng anh thấy là bầu trời phản chiếu trong n�
 trTR = "Son gördüğü şey, ulaşamayacak kadar uzaktaki suya yansıyan gökyüzüydü."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.16"]
-status = "normal"
 raw = "He lay down in the dry riverbed, where water once splashed, and never got up again."
+status = "normal"
 enUS = "He lay down in the dry riverbed, where water once splashed, and never got up again."
 zhCN = "他躺在干涸的河床上，曾经水花四溅的地方，再也没有站起来。"
 zhTW = "他躺在曾經有水濺起的乾涸河床上，再也沒有起來。"
@@ -631,8 +647,8 @@ viVN = "Anh nằm xuống lòng sông khô cằn, nơi nước từng tung tóe,
 trTR = "Kuru nehir yatağına yattı, bir zamanlar suyun fışkırdığı yere, ve bir daha asla kalkmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.17"]
-status = "normal"
 raw = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
+status = "normal"
 enUS = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
 zhCN = "“没有人注意到小屋里的水箱漏水了——海狸注意到时已经太晚了。”"
 zhTW = "「沒有人注意到小屋的水箱漏水了──河狸發現這一點時已經太晚了。」"
@@ -648,8 +664,8 @@ viVN = "Không ai để ý rằng bể nước trong túp lều bị rò rỉ �
 trTR = "Kulübede su tankının sızdırdığını kimse fark etmedi - kunduz çok geç fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.18"]
-status = "normal"
 raw = "He dragged himself toward the canal with his last strength, leaving a dry trail of crumbling earth behind him."
+status = "normal"
 enUS = "He dragged himself toward the canal with his last strength, leaving a dry trail of crumbling earth behind him."
 zhCN = "他用最后的力气向 канал 拖去，身后留下了一道干燥的土壤痕迹。"
 zhTW = "「他用最後的力氣拖著自己朝運河爬去，留下了一條乾燥的土壤碎片痕跡。」"
@@ -665,8 +681,8 @@ viVN = "Anh ấy đã kéo mình về phía kênh với sức lực cuối cùng
 trTR = "Son gücüyle kanala doğru sürüklendi, arkasında kırılan toprakla kuru bir iz bıraktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.19"]
-status = "normal"
 raw = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
+status = "normal"
 enUS = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
 zhCN = "“干裂的嘴唇上只剩下盐，漫长的等待降雨却从未到来。”"
 zhTW = "「乾裂的嘴唇上只剩下鹽，這是漫長等待著永不降臨的雨水的痕跡。」"
@@ -682,8 +698,8 @@ viVN = "Muối trên đôi môi nứt nẻ là tất cả những gì còn lại
 trTR = "Gelmesi asla beklenmeyen yağmuru bekleyerek geçirilen uzun saatlerin geride bıraktığı tek şey çatlamış dudaklarda kalan tuzdu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.0"]
-status = "normal"
 raw = "He gnawed and swallowed splinters of wood, hoping to fill his stomach with something — anything — but his strength ran out before the hunger did."
+status = "normal"
 enUS = "He gnawed and swallowed splinters of wood, hoping to fill his stomach with something — anything — but his strength ran out before the hunger did."
 zhCN = "他啃咬并吞下木屑，希望能用某种东西——任何东西——填满他的肚子，但在饥饿之前，他的力量已经耗尽。"
 zhTW = "「他啃食並吞下木屑，希望能用某樣東西──任何東西──填滿他的胃，但他的力氣在飢餓之前就消耗殆盡。」"
@@ -699,8 +715,8 @@ viVN = "Cậu ta gặm nham nhở và nuốt những mảnh gỗ, hy vọng sẽ
 trTR = "Ağaç parçalarını kemirip yuttu, karnını bir şey — her hangi bir şey — ile doldurmayı umarak, ama açlığı bitmeden gücü tükendi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.1"]
-status = "normal"
 raw = "The pantry had been empty for three days now — and with it went the strength to stay on his feet."
+status = "normal"
 enUS = "The pantry had been empty for three days now — and with it went the strength to stay on his feet."
 zhCN = "“储藏室已经空了三天——随之而去的还有保持站立的力量。”"
 zhTW = "儲藏室已經空了三天——而隨之而去的是支撐他站立的力量。"
@@ -716,8 +732,8 @@ viVN = "Kho dự trữ đã trống rỗng suốt ba ngày nay - và cùng với
 trTR = "Depo üç gündür boştu — ve bununla birlikte ayakta kalma gücü de gitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.2"]
-status = "normal"
 raw = "He stripped the last bark off a log, but wood is no substitute for supper — his stomach stayed just as empty."
+status = "normal"
 enUS = "He stripped the last bark off a log, but wood is no substitute for supper — his stomach stayed just as empty."
 zhCN = "“他剥掉了最后一根树干的树皮，但木头无法替代晚餐——他的肚子仍然空空如也。”"
 zhTW = "「他剝下最後一片樹皮，但木頭無法取代晚餐——他的肚子仍然是空的。」"
@@ -733,8 +749,8 @@ viVN = "Anh ấy đã bóc lớp vỏ cuối cùng từ một khúc gỗ, nhưng
 trTR = "Bir kütüğün son kabuğunu soydum ama odun akşam yemeğinin yerini tutmaz — karnı yine de boş kaldı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.3"]
-status = "normal"
 raw = "His stomach cramped so badly that even sleep couldn't hide him from the hunger — and there was no one left to save him."
+status = "normal"
 enUS = "His stomach cramped so badly that even sleep couldn't hide him from the hunger — and there was no one left to save him."
 zhCN = "“他的胃痛得厉害，连睡觉也无法让他逃避饥饿——而且已经没有人可以拯救他。”"
 zhTW = "他的肚子痙攣得如此厲害，即使在睡夢中也無法擺脫飢餓——而且再也沒有人能拯救他了。"
@@ -750,8 +766,8 @@ viVN = "Bụng của anh ta co thắt mạnh đến nỗi ngay cả giấc ngủ
 trTR = "Mideleri o kadar kramp girdi ki uyku bile onu açlıktan saklayamadı — ve onu kurtaracak kimse kalmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.4"]
-status = "normal"
 raw = "He kept hauling logs to the dam right to the end, though it had been a long time since he'd held anything edible in his paws."
+status = "normal"
 enUS = "He kept hauling logs to the dam right to the end, though it had been a long time since he'd held anything edible in his paws."
 zhCN = "他一直在往水坝运输木头，即使自从他手中握住任何可以吃的东西已经过去很久了。"
 zhTW = "他一直在拖運樹木到水壩，直到最後一刻，儘管他已經很長一段時間沒有在爪子裡抓到任何可以吃的東西。"
@@ -767,8 +783,8 @@ viVN = "Anh ấy đã tiếp tục kéo gỗ đến đập cho đến tận cu�
 trTR = "Sonunda, elinde yiyecek bir şey tutmadığı uzun bir süre olmasına rağmen, sona kadar baraj için kütük taşımaya devam etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.5"]
-status = "normal"
 raw = "He checked every pantry in the district — and found the same hollow echo of emptiness in each one."
+status = "normal"
 enUS = "He checked every pantry in the district — and found the same hollow echo of emptiness in each one."
 zhCN = "“他检查了区内的每一个食品储藏室——在每一个储藏室里都发现了同样的空洞回声。”"
 zhTW = "他檢查了區域內的每一個儲藏室，發現每一個都發出空蕩蕩的回聲。"
@@ -784,8 +800,8 @@ viVN = "Ông đã kiểm tra mọi nhà bếp trong khu vực — và phát hi�
 trTR = "Bölgedeki her kilerin içine baktı - ve her birinde aynı boşluk yankısını buldu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.6"]
-status = "normal"
 raw = "The harvest had failed that cycle, and he held on to hope for longer than his body could manage."
+status = "normal"
 enUS = "The harvest had failed that cycle, and he held on to hope for longer than his body could manage."
 zhCN = "“那一轮的收成失败了，他的希望维持得比他的身体能支撑的时间更久。”"
 zhTW = "在那個週期裡，收成失敗了，他寄望於比他的身體能承受的時間更長。"
@@ -801,8 +817,8 @@ viVN = "Cây vụ thu hoạch đã thất bại trong chu kỳ đó, và ông đ
 trTR = "Hasat o döngüde başarısız oldu ve bedeni dayanamayacak kadar uzun süre umudunu tuttu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.7"]
-status = "normal"
 raw = "He watched the others carrying logs and realized he no longer had the strength to carry even one."
+status = "normal"
 enUS = "He watched the others carrying logs and realized he no longer had the strength to carry even one."
 zhCN = "“他看着其他人搬运木头，意识到自己再也没有力量搬运一根。”"
 zhTW = "他看著其他人搬運木頭，意識到自己已經沒有力氣再搬運一根木頭了。"
@@ -818,8 +834,8 @@ viVN = "Anh ấy nhìn những người khác vác những khúc gỗ và nhận
 trTR = "Diğerlerinin ağaç gövdelerini taşıdığını izledi ve artık birini bile taşıyacak gücünün kalmadığını fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.8"]
-status = "normal"
 raw = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
+status = "normal"
 enUS = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
 zhCN = "“年轻树苗上的树皮看起来像是救赎，但它太少了，来得也太晚。”"
 zhTW = "年輕樹苗上的樹皮看起來像是一線生機，但卻太少了，為時已晚。"
@@ -835,8 +851,8 @@ viVN = "Vỏ cây trên những cây non trông như sự cứu rỗi, nhưng qu
 trTR = "Genç fidelerin üzerindeki kabuk kurtuluş gibi görünüyordu, ama çok azdı ve çok geçti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.9"]
-status = "normal"
 raw = "Work at the sawmill never let up for a moment — food, somehow, never showed up at all."
+status = "normal"
 enUS = "Work at the sawmill never stopped for a moment — food, somehow, never arrived at all."
 zhCN = "锯木厂的工作从未停歇——食物却怎么也没有出现。"
 zhTW = "「在鋸木廠的工作一刻也沒有停歇 — 食物，無論如何，完全沒有出現。」"
@@ -852,8 +868,8 @@ viVN = "Công việc ở nhà máy xẻ gỗ không bao giờ ngừng lại mộ
 trTR = "Kesimhanedeki işler bir an bile azalmadı — yiyecek bir şekilde asla gelmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.10"]
-status = "normal"
 raw = "He split his last scrap with the kits, keeping less and less for himself until there was nothing left."
+status = "normal"
 enUS = "He split his last scrap with the kits, keeping less and less for himself until there was nothing left."
 zhCN = "他把最后一点残羹与小崽们分享，留给自己的越来越少，直到一无所有。"
 zhTW = "「他將最後一點殘餘與幼崽們分開，逐漸為自己留下越來越少的東西，直到什麼都沒有了。」"
@@ -869,8 +885,8 @@ viVN = "Anh ấy đã chia sẻ miếng cuối cùng với những chú nhóc, g
 trTR = "En son parçasını yavrularla paylaştı, kendisi için giderek daha az şey tutarak en sonunda hiçbir şey kalmayana kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.11"]
-status = "normal"
 raw = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
+status = "normal"
 enUS = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
 zhCN = "“饥饿在夜里尖叫得最响 — 而在夜里，仓库实在太远，无法走到。”"
 zhTW = "飢餓在夜晚尖叫得最響亮——而在夜晚，倉庫實在太遠了，無法走到。"
@@ -886,8 +902,8 @@ viVN = "Cơn đói hét lên to nhất vào ban đêm — và vào ban đêm, kh
 trTR = "Açlık gece en yüksek sesle haykırıyordu — ve gece, ambar yürümek için çok uzaktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.12"]
-status = "normal"
 raw = "He tried to snag even a splinter out of the water by the sawmill, but the current was faster than his paws."
+status = "normal"
 enUS = "He tried to snag even a splinter out of the water by the sawmill, but the current was faster than his paws."
 zhCN = "“他试图从锯木厂旁边的水中抓住一根木屑，但水流比他的爪子快。”"
 zhTW = "「他試圖從鋸木廠旁的水中撈起一根木刺，但水流比他的爪子還快。」"
@@ -903,8 +919,8 @@ viVN = "Anh ấy cố gắng lấy thậm chí một mảnh gỗ ra khỏi nư�
 trTR = "Testerenin yanındaki sudan hatta bir parça çalı çırpı kapmaya çalıştı ama akıntı, patilerinden daha hızlıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.13"]
-status = "normal"
 raw = "The list of things he hadn't eaten in weeks was longer than the list of things he had."
+status = "normal"
 enUS = "The list of things he hadn't eaten in weeks was longer than the list of things he had."
 zhCN = "“他几周没吃过的东西清单比他吃过的东西清单还要长。”"
 zhTW = "他沒有吃的東西清單比他吃過的東西清單還要長。"
@@ -920,8 +936,8 @@ viVN = "Danh sách những món anh ta chưa ăn trong nhiều tuần dài hơn 
 trTR = "Yenmediği şeylerin listesi haftalarca önce yediklerinin listesinden daha uzundu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.14"]
-status = "normal"
 raw = "He collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
+status = "normal"
 enUS = "He collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
 zhCN = "他就在仓库门前倒下了——一个从未及时补货的空仓库。"
 zhTW = "他就在倉庫門口倒下了——那是一個從未及時補貨的空倉庫。"
@@ -937,8 +953,8 @@ viVN = "Anh ấy ngã quỵ ngay tại cửa kho - một kho trống rỗng mà 
 trTR = "Depo kapısının önünde yığılıp kaldı — zamanında yeniden doldurulmamış boş bir depo."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.15"]
-status = "normal"
 raw = "The young shoots he finally managed to reach turned out bitter and inedible."
+status = "normal"
 enUS = "The young shoots he finally managed to reach turned out bitter and inedible."
 zhCN = "他终于够到的嫩芽却苦涩且不可食用。"
 zhTW = "他終於設法觸及的嫩芽卻變得苦澀，無法食用。"
@@ -954,8 +970,8 @@ viVN = "Các mầm non mà cuối cùng anh ta đã đến được lại có v�
 trTR = "Sonunda ulaşmayı başardığı genç filizler acı ve yenilmez çıktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.16"]
-status = "normal"
 raw = "He rationed his strength all day to make it to food by evening — but evening came too late."
+status = "normal"
 enUS = "He rationed his strength all day to make it to the food by evening — but evening came too late."
 zhCN = "“他整天都在节省力气，以便能在傍晚时分到达食物——但傍晚来得太晚。”"
 zhTW = "「他整天節省體力，為了能在晚上找到食物——但晚上來得太晚了。」"
@@ -971,8 +987,8 @@ viVN = "Cậu ấy đã tiết kiệm sức lực suốt cả ngày để có th
 trTR = "Günün her saatinde gücünü paylaştırdı ve akşama yiyeceğe ulaşmayı umdu — ama akşam çok geç geldi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.17"]
-status = "normal"
 raw = "The neighboring district shared its food without him — simply because no one knew he was starving."
+status = "normal"
 enUS = "The neighboring district shared its food without him — simply because no one knew he was starving."
 zhCN = "“邻近地区在没有他参与的情况下分享了食物——仅仅是因为没有人知道他正在饥饿。”"
 zhTW = "鄰近區域在他不知情的情況下分享了食物——僅僅因為沒有人知道他正在饑餓。"
@@ -988,8 +1004,8 @@ viVN = "Khu vực lân cận đã chia sẻ thực phẩm mà không có anh ta 
 trTR = "Komşu bölge yiyeceğini onun yokluğunda paylaştı - çünkü kimse açlık çektiğini bilmiyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.18"]
-status = "normal"
 raw = "His stomach had long since stopped growling — his body had simply given up and stopped."
+status = "normal"
 enUS = "His stomach had long since stopped growling — his body had simply given up and stopped."
 zhCN = "“他的肚子早已不再咕咕作响——他的身体已经放弃并停止了。”"
 zhTW = "他的肚子早已不再咕嚕作響——他的身體簡直放棄了，停止了運作。"
@@ -1005,8 +1021,8 @@ viVN = "Bụng của anh ta từ lâu đã ngừng réo — cơ thể anh ta ch�
 trTR = "Midesi çoktan guruldamayı bırakmıştı — bedeni sadece pes etmiş ve durmuştu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.19"]
-status = "normal"
 raw = "He stared at the logs and wood chips stacked in the barn, knowing neither one would fill him up."
+status = "normal"
 enUS = "He stared at the logs and wood chips stacked in the barn, knowing neither one would fill him up."
 zhCN = "“他盯着堆放在谷仓里的原木和木屑，知道这两者都无法让他饱腹。”"
 zhTW = "他盯著堆積在穀倉中的木材和木屑，知道無論是木材還是木屑都無法讓他填飽肚子。"
@@ -1022,8 +1038,8 @@ viVN = "Anh ta nhìn chằm chằm vào những khúc gỗ và mùn cưa chất 
 trTR = "Ahıra istiflenmiş odun ve talaşa bakarken, ikisinin de onu doyurmayacağını biliyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.0"]
-status = "normal"
 raw = "He dozed off quietly in the sun, just as he had a thousand times before — only this time he didn't wake up."
+status = "normal"
 enUS = "He dozed off quietly in the sun, just as he had a thousand times before — only this time he didn't wake up."
 zhCN = "他在阳光下静静地打了个盹，正如他之前千千万万次那样——只不过这次他没有醒来。"
 zhTW = "他在陽光下靜靜地打盹，正如他之前千百次一樣——只是這一次他再也沒有醒來。"
@@ -1039,8 +1055,8 @@ viVN = "Ông ngủ thiếp đi nhẹ nhàng dưới ánh nắng, giống như đ
 trTR = "Güneşin altında sessizce uykuya daldı, daha önce binlerce kez olduğu gibi - bu sefer uyanmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.1"]
-status = "normal"
 raw = "His legs no longer obeyed the way they used to, his teeth were worn down, and his heart simply grew tired of beating."
+status = "normal"
 enUS = "His legs no longer obeyed as they once did, his teeth were worn down, and his heart had simply grown weary of beating."
 zhCN = "“他的腿已经不再像以前那样听话，牙齿磨损了，心脏也渐渐厌倦了跳动。”"
 zhTW = "他的腿不再像以前那樣聽話，牙齒也磨損了，心臟只是對跳動感到厭倦。"
@@ -1056,8 +1072,8 @@ viVN = "Chân của ông không còn tuân theo cách mà chúng đã từng, n�
 trTR = "Bacakları eskisi gibi çalışmıyordu, dişleri aşınmıştı ve kalbi sadece atmaya müsaade etmekten yorulmuştu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.2"]
-status = "normal"
 raw = "He'd already told his grandkits everything he knew about dams — and went to his rest with a clear conscience."
+status = "normal"
 enUS = "He had already told his grandkits everything he knew about dams — and went to his rest with a clear conscience."
 zhCN = "“他已经把自己知道的关于水坝的一切都告诉了他的孙子们 —— 带着清晰的良心得到了安息。”"
 zhTW = "「他已經告訴他的孫子們關於水壩的所有知識——然後帶著清白的良心安然長眠。」"
@@ -1073,8 +1089,8 @@ viVN = "Ông đã kể cho các cháu của mình tất cả những gì ông bi
 trTR = "Barajlar hakkında bildiği her şeyi torunlarına anlatmıştı - ve huzurlu bir şekilde gözlerini kapadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.3"]
-status = "normal"
 raw = "Age quietly took its due, painlessly, right in his own lodge, amid the smell of freshly cut wood."
+status = "normal"
 enUS = "Age quietly took its due, painlessly, right in his own lodge, amid the smell of freshly cut wood."
 zhCN = "“岁月悄然来临，毫无痛苦地在他自己的小屋里，与新切木材的气味相伴。”"
 zhTW = "年齡默默地收回了它的代價，無痛地，在他自己舒適的小屋裡，彌漫著新鮮切割木材的氣味。"
@@ -1090,8 +1106,8 @@ viVN = "Tuổi tác đã lấy đi một cách âm thầm, không đau đớn, n
 trTR = "Yaşlılık, acısızca, kendi kulübesinde, taze kesilmiş ahşap kokusu arasında, sessizce alacağını aldı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.4"]
-status = "normal"
 raw = "Just yesterday he'd been grumbling at the youngsters over badly stacked logs — today he simply didn't open his eyes."
+status = "normal"
 enUS = "Just yesterday he'd been grumbling at the youngsters over badly stacked logs — today he simply didn't open his eyes."
 zhCN = "“就在昨天，他还在对年轻人堆砌得不好的木头发牢骚——今天他根本没有睁开眼睛。”"
 zhTW = "就在昨天，他還在對年輕的樹鼩發牢騷，因為木材堆放得不整齊——今天他卻索性不睜開眼睛。"
@@ -1107,8 +1123,8 @@ viVN = "Chỉ hôm qua, ông ấy đã than phiền với những người trẻ
 trTR = "Daha dünkü gibi, kötü yerleştirilmiş odunlar yüzünden gençlere homurdanıyordu - bugün ise gözlerini açmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.5"]
-status = "normal"
 raw = "He'd long since stopped counting the cycles he'd lived — what did it matter, when every day had been good in its own way."
+status = "normal"
 enUS = "He'd long since stopped counting the cycles he'd lived — what did it matter, when every day had been good in its own way."
 zhCN = "“他早已不再计算自己活过的周期——无论如何，这有什么意义，反正每天都有自己的美好。”"
 zhTW = "「他早已不再計算自己活過多少個週期——這又有什麼重要的呢，當每一天都以自己的方式過得很好。」"
@@ -1124,8 +1140,8 @@ viVN = "Ông đã từ lâu ngừng đếm những vòng đời mà ông đã s�
 trTR = "Yaşadığı döngüleri saymayı çoktan bırakmıştı - her günün kendi şekilde iyi olduğu zaman, bunun ne önemi vardı ki?"
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.6"]
-status = "normal"
 raw = "The youngsters heard his advice about stacking logs one last time — and he quietly went to his rest."
+status = "normal"
 enUS = "The youngsters heard his advice about stacking logs one last time — and he quietly went to his rest."
 zhCN = "年轻的海狸最后一次听到了他关于堆放木材的建议——然后他静静地安息了。"
 zhTW = "年輕的兩隻聽到了他最後一次有關堆疊木材的建議——然後他安靜地進入了永恆的安眠。"
@@ -1141,8 +1157,8 @@ viVN = "Các thanh niên đã nghe lời khuyên của anh ấy về việc xế
 trTR = "Gençler, onun odunları istifleme konusundaki tavsiyelerini son bir kez duydular - ve o sessizce dinlenmeye geçti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.7"]
-status = "normal"
 raw = "He still went out to warm himself in the sun every morning, until one morning came without him."
+status = "normal"
 enUS = "He still went out to warm himself in the sun every morning, until one morning came without him."
 zhCN = "“他仍然每天早晨出去晒太阳，直到有一天早晨没有他。”"
 zhTW = "他仍然每天早上出去在陽光下取暖，直到有一天早上他再也沒有出來。"
@@ -1158,8 +1174,8 @@ viVN = "Ông vẫn ra ngoài để tắm nắng mỗi sáng, cho đến khi mộ
 trTR = "Her sabah güneşte ısınmak için dışarı çıkmaya devam etti, ta ki bir sabah onu olmadan gelen sabaha kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.8"]
-status = "normal"
 raw = "His fur had long since gone gray, but his eyes still shone to the very last day, looking at the dam he'd helped build."
+status = "normal"
 enUS = "His fur had long since gone gray, but his eyes still shone to the very last day, looking at the dam he'd helped build."
 zhCN = "他的毛发早已变灰，但他的眼睛在最后一天依然闪烁着光芒，注视着他曾帮助建造的坝。"
 zhTW = "他的毛皮早已變灰，但他的眼睛在最後一天仍然閃閃發光，注視著他曾經幫助建造的水壩。"
@@ -1175,8 +1191,8 @@ viVN = "Lông của ông đã lâu nay chuyển sang màu xám, nhưng ánh mắ
 trTR = "Postu çoktan griye dönmüştü, ama gözleri son güne kadar parlamaya devam etti, inşa etmeye yardımcı olduğu barajı izleyerek."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.9"]
-status = "normal"
 raw = "He died the way he lived — sitting by his favorite dam, the very one he'd helped build cycles ago."
+status = "normal"
 enUS = "He died the way he lived — sitting by his favorite dam, the very one he'd helped build cycles ago."
 zhCN = "他去世的方式与他生活的方式一样——坐在他最喜欢的水坝旁边，那是他几轮之前帮助建造的。"
 zhTW = "他死在他生活的方式上——坐在他最喜愛的水壩旁邊，那正是他幾個週期前幫忙建造的水壩。"
@@ -1192,8 +1208,8 @@ viVN = "Anh ấy đã ra đi như cách sống của mình — ngồi bên con �
 trTR = "En sevdiği barajın yanında oturarak, yıllar önce inşa etmesine yardım ettiği o barajın yanında yaşamını sürdürdüğü gibi öldü."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.10"]
-status = "normal"
 raw = "His grandkits only noticed grandfather was sleeping too long once the sun was already high in the sky."
+status = "normal"
 enUS = "His grandkits only noticed grandfather was sleeping too long once the sun was already high in the sky."
 zhCN = "“他的孙辈们直到太阳已经高高挂起才注意到爷爷睡得太久了。”"
 zhTW = "他的孫子們只有在太陽高懸時才注意到爺爺睡得太久了。"
@@ -1209,8 +1225,8 @@ viVN = "Các cháu của ông chỉ nhận ra ông ngủ quá lâu khi mặt tr�
 trTR = "Torunları, güneş gökyüzünde yüksek olduğunda dedelerinin çok uzun süre uyuduğunu ancak o zaman fark ettiler."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.11"]
-status = "normal"
 raw = "He quietly stopped breathing somewhere between one heartbeat and the next, never waking from his midday nap."
+status = "normal"
 enUS = "He quietly stopped breathing somewhere between one heartbeat and the next, never waking from his midday nap."
 zhCN = "“他在一次心跳和下一个心跳之间安静地停止了呼吸，从未从他的午睡中醒来。”"
 zhTW = "「他靜靜地在一次心跳與下一次心跳之間停止了呼吸，從未從他的午睡中醒來。」"
@@ -1226,8 +1242,8 @@ viVN = "Ông lặng lẽ ngừng thở ở đâu đó giữa một nhịp tim v�
 trTR = "Bir kalp atışı ile diğerinin arasında sessizce nefes almayı bıraktı, öğle uykusundan bir daha asla uyanmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.12"]
-status = "normal"
 raw = "His last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
+status = "normal"
 enUS = "His last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
 zhCN = "“他临终前的话是关于新一代的河狸完全忘记了如何正确叠放木头。”"
 zhTW = "「他最後的話是關於新一代的海狸完全忘記了如何正確堆疊木頭。」"
@@ -1243,8 +1259,8 @@ viVN = "Những lời cuối cùng của ông ấy là về việc thế hệ m�
 trTR = "Son sözleri, yeni nesil bobriklerin kütükleri doğru bir şekilde nasıl istifleyeceklerini tamamen unuttukları hakkında oldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.13"]
-status = "normal"
 raw = "He'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in his own lodge."
+status = "normal"
 enUS = "He'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in his own lodge."
 zhCN = "他比许多人活得更久，经历过不止一次洪水和干旱——最终安详地在自己的小屋中去世。"
 zhTW = "「他比其他許多人活得更久，經歷了多次洪水與乾旱——最終安然無恙地過世，安息於自己的小屋中。」"
@@ -1260,8 +1276,8 @@ viVN = "Ông đã sống sót qua nhiều người khác, chứng kiến nhiều
 trTR = "Birçokunu geride bırakmış, birden fazla sel ve birden fazla kuraklık görmüş - ve kendi kulübesinde huzur içinde hayata veda etmişti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.14"]
-status = "normal"
 raw = "His body grew tired of carrying the weight of the years, and his heart grew tired of beating against its will."
+status = "normal"
 enUS = "His body grew tired of carrying the weight of the years, and his heart grew tired of beating against its will."
 zhCN = "“他的身体厌倦了承受岁月的重负，而他的心也厌倦了违背意志地跳动。”"
 zhTW = "他的身體厭倦了承擔歲月的重擔，他的心臟厭倦了違背意志地跳動。"
@@ -1277,8 +1293,8 @@ viVN = "Cơ thể của anh ấy trở nên mệt mỏi khi mang trọng lượn
 trTR = "Bedeni yılların yükünü taşımaktan yoruldu ve kalbi, iradesine karşı atmaktan yoruldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.15"]
-status = "normal"
 raw = "He lived to see his great-grandkits pick up their first logs to build a dam of their own."
+status = "normal"
 enUS = "He lived to see his great-grandkits pick up their first logs to build a dam of their own."
 zhCN = "“他活着看到他的曾孙们捡起第一根木头，自己建起一个水坝。”"
 zhTW = "「他活到了看到他的曾孫子們第一次撿起樹木，去建造自己的水壩。」"
@@ -1294,8 +1310,8 @@ viVN = "Ông sống đủ lâu để thấy cháu chắt của mình nhặt nh�
 trTR = "Torunlarını ilk odunlarını alırken görmeye yaşamıştı ve kendi barajlarını inşa ettiler."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.16"]
-status = "normal"
 raw = "Age took its toll bit by bit: first the legs, then the teeth, and at the end, simply the will to get up in the morning."
+status = "normal"
 enUS = "Age took its toll bit by bit: first the legs, then the teeth, and at the end, simply the will to get up in the morning."
 zhCN = "“岁月一点一点地侵蚀着：首先是腿，接着是牙齿，最后只是早上起床的意愿。”"
 zhTW = "歲月逐漸帶走了一切：首先是雙腿，然後是牙齒，最後只剩下早上起床的意志。"
@@ -1311,8 +1327,8 @@ viVN = "Tuổi tác đã lấy đi từng chút một: trước là chân, sau l
 trTR = "Yaş, yavaş yavaş tolladı: önce bacaklar, sonra dişler ve sonunda, sabah uyanma isteği."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.17"]
-status = "normal"
 raw = "His lodgemates found him sleeping so soundly that no noise could wake him anymore."
+status = "normal"
 enUS = "His lodgemates found him sleeping so soundly that no noise could wake him anymore."
 zhCN = "他的同伴们发现他睡得如此安稳，以至于再也没有任何噪音能把他叫醒。"
 zhTW = "他的同伴發現他睡得如此香甜，任何噪音都無法再把他喚醒。"
@@ -1328,8 +1344,8 @@ viVN = "Các bạn chung chòi của anh ấy đã tìm thấy anh ấy ngủ sa
 trTR = "Yoldaşları onu öyle derin uyurken buldular ki, artık hiçbir gürültü onu uyandıramazdı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.18"]
-status = "normal"
 raw = "He faded quietly, surrounded by the family he himself had founded on the banks of this very river."
+status = "normal"
 enUS = "He faded quietly, surrounded by the family he himself had founded on the banks of this very river."
 zhCN = "他静静地去世了，身边围绕着他在这条河岸上建立的家庭。"
 zhTW = "他靜靜地離去，周圍是他自己在這條河岸上創建的家庭。"
@@ -1345,8 +1361,8 @@ viVN = "Ông đã ra đi nhẹ nhàng, bao quanh bởi gia đình mà chính ôn
 trTR = "Bu nehrin kıyısında kendisinin kurduğu aileyle çevrili olarak sessizce yok oldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.19"]
-status = "normal"
 raw = "The last thing he did in life was nudge a slightly crooked log back into place by the lodge entrance."
+status = "normal"
 enUS = "The last thing he did in life was nudge a slightly crooked log back into place by the lodge entrance."
 zhCN = "他生命中最后做的事情是将一个稍微歪斜的木头轻轻推回到栖息地入口的位置。"
 zhTW = "他一生中最後做的事情是在小屋入口處將一根稍微歪斜的木頭輕輕推回原位。"
@@ -1362,8 +1378,8 @@ viVN = "Điều cuối cùng ông ấy làm trong cuộc sống là đẩy một
 trTR = "Hayattaki son yaptığı şey, lojman girişinin önündeki hafif eğik kovuğu yerine itmekti."
 
 ["BeaverFamilyTree.CauseOfDeath.F.0"]
-status = "normal"
 raw = "Drowned while building a dam"
+status = "normal"
 enUS = "Drowned while building a dam"
 zhCN = "在筑坝时溺水"
 zhTW = "「在建造壩時溺水」"
@@ -1379,8 +1395,8 @@ viVN = "Chết đuối trong khi xây dựng một đập"
 trTR = "Baraj inşa ederken boğuldu"
 
 ["BeaverFamilyTree.CauseOfDeath.F.1"]
-status = "normal"
 raw = "Crushed by a log at the sawmill"
+status = "normal"
 enUS = "Crushed by a log at the sawmill"
 zhCN = "被锯木厂的木头压死"
 zhTW = "在鋸木廠被木材壓死"
@@ -1396,8 +1412,8 @@ viVN = "Bị đè bởi một khúc gỗ tại xưởng cưa"
 trTR = "Kesimhanede bir kütük tarafından ezildi"
 
 ["BeaverFamilyTree.CauseOfDeath.F.2"]
-status = "normal"
 raw = "Poisoned by contaminated water"
+status = "normal"
 enUS = "Poisoned by contaminated water"
 zhCN = "被污染的水中毒"
 zhTW = "被污染的水毒死"
@@ -1413,8 +1429,8 @@ viVN = "Ngộ độc do nước ô nhiễm"
 trTR = "Kirli su tarafından zehirlendi"
 
 ["BeaverFamilyTree.CauseOfDeath.F.3"]
-status = "normal"
 raw = "Did not survive the Badtide"
+status = "normal"
 enUS = "Did not survive the Badtide"
 zhCN = "未能熬过恶潮"
 zhTW = "未能生存於壞潮之中"
@@ -1430,8 +1446,8 @@ viVN = "Không sống sót qua Badtide"
 trTR = "Badtide'ı atlatamadı"
 
 ["BeaverFamilyTree.CauseOfDeath.F.4"]
-status = "normal"
 raw = "Died of exhaustion at work"
+status = "normal"
 enUS = "Died of exhaustion at work"
 zhCN = "因劳累过度而死"
 zhTW = "因工作疲勞而死"
@@ -1447,8 +1463,8 @@ viVN = "Chết vì kiệt sức khi làm việc"
 trTR = "İş başında yorgunluktan öldü"
 
 ["BeaverFamilyTree.CauseOfDeath.F.5"]
-status = "normal"
 raw = "Froze during the drought with no shelter"
+status = "normal"
 enUS = "Froze during the drought with no shelter"
 zhCN = "在干旱期间没有庇护而冻死"
 zhTW = "在乾旱期間無處避難而凍死"
@@ -1464,8 +1480,8 @@ viVN = "Bị đóng băng trong đợt hạn hán mà không có nơi trú ẩn"
 trTR = "Barınaksız kuraklık sırasında donarak öldü"
 
 ["BeaverFamilyTree.CauseOfDeath.F.6"]
-status = "normal"
 raw = "Fell from the scaffolding"
+status = "normal"
 enUS = "Fell from the scaffolding"
 zhCN = "从脚手架上掉下来了"
 zhTW = "從腳手架上掉下來"
@@ -1481,8 +1497,8 @@ viVN = "Rơi từ giàn giáo"
 trTR = "İşçi iskeleden düştü"
 
 ["BeaverFamilyTree.CauseOfDeath.F.7"]
-status = "normal"
 raw = "Ate spoiled roasted chestnuts"
+status = "normal"
 enUS = "Ate spoiled roasted chestnuts"
 zhCN = "吃了变质的烤栗子"
 zhTW = "吃了變質的烤栗子"
@@ -1498,8 +1514,8 @@ viVN = "Ăn hạt dẻ nướng bị hỏng"
 trTR = "Bozulmuş kavrulmuş kestaneler yedi"
 
 ["BeaverFamilyTree.CauseOfDeath.F.8"]
-status = "normal"
 raw = "Got lost in the sluices and never made it back"
+status = "normal"
 enUS = "Got lost in the sluices and never made it back"
 zhCN = "在水闸中迷路，永远无法返回"
 zhTW = "在水閘中迷路，終究無法回來"
@@ -1515,8 +1531,8 @@ viVN = "Bị lạc trong cống và không bao giờ trở về được"
 trTR = "Kapaklarda kayboldu ve bir daha geri gelemedi"
 
 ["BeaverFamilyTree.CauseOfDeath.F.9"]
-status = "normal"
 raw = "Lost a dispute over the hut with a neighbor"
+status = "normal"
 enUS = "Lost a dispute over the hut with a neighbor"
 zhCN = "与邻居争夺小屋时失败"
 zhTW = "與鄰居爭奪小屋失敗"
@@ -1532,8 +1548,8 @@ viVN = "Mất tranh chấp về căn nhà với hàng xóm"
 trTR = "Komşuyla kulübe hakkında bir anlaşmazlık kaybetti"
 
 ["BeaverFamilyTree.CauseOfDeath.F.10"]
-status = "normal"
 raw = "Fell victim to curiosity at the waterfall"
+status = "normal"
 enUS = "Fell victim to curiosity at the waterfall"
 zhCN = "在瀑布处因好奇而遇害"
 zhTW = "在瀑布邊因好奇而喪命"
@@ -1549,8 +1565,8 @@ viVN = "Bị chết do tính hiếu kỳ ở thác nước"
 trTR = "Şelalede merak kurbanı oldu"
 
 ["BeaverFamilyTree.CauseOfDeath.F.11"]
-status = "normal"
 raw = "Passed away of old age, grumbling about the youth"
+status = "normal"
 enUS = "Passed away of old age, grumbling about the youth"
 zhCN = "因年老而去世，并对年轻人抱怨"
 zhTW = "老死，抱怨年輕人"
@@ -1566,8 +1582,8 @@ viVN = "Qua đời vì tuổi già, lầm bầm về thế hệ trẻ"
 trTR = "Yaşlanıp, gençleri sitem ederek vefat etti"
 
 ["BeaverFamilyTree.CauseOfDeath.F.12"]
-status = "normal"
 raw = "Crushed by a collapsing dam"
+status = "normal"
 enUS = "Crushed by a collapsing dam"
 zhCN = "被倒塌的大坝压死"
 zhTW = "被倒塌的水壩壓死"
@@ -1583,8 +1599,8 @@ viVN = "Bị đè bẹp bởi một con đê sụp đổ"
 trTR = "Çöküşteki bir baraj tarafından ezildi"
 
 ["BeaverFamilyTree.CauseOfDeath.F.13"]
-status = "normal"
 raw = "Overworked at the forge"
+status = "normal"
 enUS = "Overworked at the forge"
 zhCN = "在熔炉中过度劳累"
 zhTW = "「在鍛造廠過勞」"
@@ -1600,8 +1616,8 @@ viVN = "Làm việc quá sức tại lò rèn"
 trTR = "Demirci atölyesinde aşırı çalıştı"
 
 ["BeaverFamilyTree.CauseOfDeath.F.14"]
-status = "normal"
 raw = "Drowned retrieving a fallen hat"
+status = "normal"
 enUS = "Drowned retrieving a fallen hat"
 zhCN = "“溺水寻找掉落的帽子”"
 zhTW = "溺水撿起掉落的帽子"
@@ -1617,8 +1633,8 @@ viVN = "Lặn để lấy một chiếc mũ rơi"
 trTR = "Suya düşen bir şapkayı almak için boğuldu"
 
 ["BeaverFamilyTree.CauseOfDeath.F.15"]
-status = "normal"
 raw = "Went missing during a violent thunderstorm"
+status = "normal"
 enUS = "Went missing during a violent thunderstorm"
 zhCN = "在暴风雨中失踪"
 zhTW = "在猛烈的雷暴中失踪"
@@ -1634,8 +1650,8 @@ viVN = "Bị mất tích trong một cơn bão giông bạo lực"
 trTR = "Şiddetli bir gök gürültüsü fırtınası sırasında kayboldu"
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.0"]
-status = "normal"
 raw = "She licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
+status = "normal"
 enUS = "She licked at the cracked earth, hoping for even a drop of life-giving moisture, but never rose from the scorching ground again."
 zhCN = "她舔着干裂的土地，希望能得到一滴滋养生命的水分，但再也没有从炙热的地面上爬起。"
 zhTW = "她舔着裂开的土地，希望能得到一滴赋予生命的水分，但再也没有从灼热的地面上站起。"
@@ -1651,8 +1667,8 @@ viVN = "Cô liếm vào vùng đất nứt nẻ, hy vọng tìm thấy một gi�
 trTR = "Kırılmış toprağı yaladı, yaşam veren nemden en az bir damla umarak ama bir daha asla kavurucu yerden kalkamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.1"]
-status = "normal"
 raw = "Her tongue stuck to the roof of her mouth, and the nearest canal was too far — thirst outran her legs."
+status = "normal"
 enUS = "Her tongue stuck to the roof of her mouth, and the nearest canal was too far — thirst outran her legs."
 zhCN = "她的舌头粘在了上颚上，最近的运河太远——口渴超越了她的腿。"
 zhTW = "她的舌頭黏在上顎，最近的運河距離太遠——口渴超越了她的雙腿。"
@@ -1668,8 +1684,8 @@ viVN = "Lưỡi của cô dính chặt vào vòm miệng, và kênh gần nhất
 trTR = "Dili damağına yapıştı ve en yakın kanal çok uzaktaydı — susuzluk bacaklarından hızlıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.2"]
-status = "normal"
 raw = "She gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
+status = "normal"
 enUS = "She gnawed a little hollow into the parched clay, still believing there was water down there somewhere."
 zhCN = "“她在干裂的泥土中啃出一个小凹槽，仍然相信那里下方有水。”"
 zhTW = "「她在焦渴的泥土上啃出一個小凹坑，仍然相信那裡面有水。」"
@@ -1685,8 +1701,8 @@ viVN = "Cô ấy đã gặm một cái hốc nhỏ vào lớp đất khô cằn,
 trTR = "Kuru kilden biraz çiğnedi, orada bir yerde su olduğunu hâlâ inanarak."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.3"]
-status = "normal"
 raw = "Her throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
+status = "normal"
 enUS = "Her throat burned worse than any fire — the water was right there, past the sluice, but the sluice was shut."
 zhCN = "“她的喉咙比任何火焰都要疼 — 水就在那儿，在水闸的另一边，但水闸关着。”"
 zhTW = "她的喉嚨燃燒得比任何火焰都要劇烈——水就在那裡，過了水閘，但水閘卻關閉著。"
@@ -1702,8 +1718,8 @@ viVN = "Cổ họng cô ngứa ngáy hơn bất kỳ ngọn lửa nào — nư�
 trTR = "Boğazı, tüm ateşlerden daha fazla yanıyordu — su tam oradaydı, kapakların ardında ama kapak kapalıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.4"]
-status = "normal"
 raw = "She watched the distant water through clouding eyes and never managed that last stretch toward it."
+status = "normal"
 enUS = "She watched the distant water through clouded eyes and never managed that last stretch toward it."
 zhCN = "她透过模糊的眼睛望向远处的水，却始终无法迈出最后一步。"
 zhTW = "她透過朦朧的雙眼凝視著遙遠的水面，卻從未能成功走完那最後的距離。"
@@ -1719,8 +1735,8 @@ viVN = "Cô nhìn về phía nước xa xăm qua đôi mắt mờ đục và kh�
 trTR = "Uzaklardaki suyu bulanık gözlerle izledi ve ona doğru son saate asla ulaşamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.5"]
-status = "normal"
 raw = "She circled the whole dam looking for even a crack seeping water, but found only dry stone."
+status = "normal"
 enUS = "She circled the whole dam looking for even a crack seeping water, but found only dry stone."
 zhCN = "她绕着整个大坝寻找任何渗水的裂缝，但只发现干燥的石头。"
 zhTW = "她繞著整個水壩尋找哪怕是滲水的裂縫，但只找到乾燥的岩石。"
@@ -1736,8 +1752,8 @@ viVN = "Cô ấy vòng quanh toàn bộ đập để tìm ngay cả một vết 
 trTR = "Bütün barajı dolaşarak su sızan en küçük bir çatlak aradı ama sadece kuru taş buldu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.6"]
-status = "normal"
 raw = "The jug by the doorway had stood empty for a week, and the river was too far for her weakened legs."
+status = "normal"
 enUS = "The jug by the doorway had stood empty for a week, and the river was too far for her weakened legs."
 zhCN = "门口的罐子空了一周，她疲惫的双腿却走不到太远的河边。"
 zhTW = "門口的壺已經空了一周，而河流對她虛弱的雙腿來說太遠了。"
@@ -1753,8 +1769,8 @@ viVN = "Cái bình bên cửa đã trống rỗng suốt một tuần, và con s
 trTR = "Kapının yanındaki sürahi bir haftadır boş duruyordu ve nehir zayıflamış bacakları için çok uzaktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.7"]
-status = "normal"
 raw = "She dug her burrow deeper and deeper, hoping to strike an underground spring, and struck only dry sand."
+status = "normal"
 enUS = "She dug her burrow deeper and deeper, hoping to strike an underground spring, and struck only dry sand."
 zhCN = "她越挖越深，希望能找到地下泉水，却只挖到了干沙。"
 zhTW = "她越挖越深，希望能找到地下泉源，卻只挖到了乾沙。"
@@ -1770,8 +1786,8 @@ viVN = "Cô ấy đã đào hang của mình ngày càng sâu hơn, hy vọng s�
 trTR = "Yuva deliklerini daha derin kazdı, yer altı kaynağına ulaşmayı umarak, ama sadece kuru kum çıkardı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.8"]
-status = "normal"
 raw = "Even dew on the leaves looked like salvation — but the morning came cloudless, and no dew fell."
+status = "normal"
 enUS = "Even the dew on the leaves seemed like salvation — but the morning came clear, and no dew fell."
 zhCN = "“连叶子上的露水看起来都像是救赎——但早晨来临时却晴空万里，没有露水落下。”"
 zhTW = "即使樹葉上的露水看起來像是救贖——但早晨來臨時卻是晴空萬里，沒有露水降落。"
@@ -1787,8 +1803,8 @@ viVN = "Ngay cả sương trên lá cũng nhìn như sự cứu rỗi - nhưng b
 trTR = "Yapraklardaki çiğ bile kurtuluş gibi görünüyordu — ama sabah bulutsuz geldi ve hiç çiğ düşmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.9"]
-status = "normal"
 raw = "She watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
+status = "normal"
 enUS = "She watched the water flow through the sluice just a few steps away, but couldn't clear that last ledge."
 zhCN = "“她看着水流过几步远的闸门，但无法越过最后一个台阶。”"
 zhTW = "她看著水流經過幾步之外的水閘，但無法越過那最後的邊緣。"
@@ -1804,8 +1820,8 @@ viVN = "Cô ấy nhìn nước chảy qua cống chỉ cách đó vài bước, 
 trTR = "Birkaç adım ötedeki suyun sluisten akışını izledi ama o son çıkıntıyı geçemedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.10"]
-status = "normal"
 raw = "The hot wind drank the last of her strength before she could reach the watering hole."
+status = "normal"
 enUS = "The hot wind drank the last of her strength before she could reach the watering hole."
 zhCN = "炎热的风在她到达饮水处之前，就耗尽了她最后的力气。"
 zhTW = "「炎熱的風在她抵達水源之前，消耗了她最後的力量。」"
@@ -1821,8 +1837,8 @@ viVN = "Gió nóng đã hút cạn sức lực cuối cùng của cô ấy trư�
 trTR = "Sıcak rüzgar, su kaynağına ulaşmadan önce onun son gücünü içti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.11"]
-status = "normal"
 raw = "The reservoir had dropped so low that the water was out of reach even of an outstretched paw."
+status = "normal"
 enUS = "The reservoir had dropped so low that the water was out of reach even for an outstretched paw."
 zhCN = "水库的水位下降得如此之低，以至于连伸出的爪子也够不到水。"
 zhTW = "水庫水位已降至如此之低，甚至伸出爪子的時候也無法觸及水面。"
@@ -1838,8 +1854,8 @@ viVN = "Reservoir đã hạ thấp đến mức nước không còn trong tầm 
 trTR = "Rezervuar o kadar düşmüştü ki su, uzatılmış bir patinin bile erişemeyeceği bir seviyeye inmişti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.12"]
-status = "normal"
 raw = "She gulped at the air as if it could substitute for water — and fell silent halfway to the river."
+status = "normal"
 enUS = "She gulped at the air as if it could substitute for water — and fell silent halfway to the river."
 zhCN = "“她像是在用空气代替水一样大口喘息着——然后在去河流的路上沉默了下来。”"
 zhTW = "「她如同在空氣中喝水一樣大口喘息 — 然後在去河流的路上半途而廢。」"
@@ -1855,8 +1871,8 @@ viVN = "Cô ấy nuốt không khí như thể nó có thể thay thế cho nư�
 trTR = "Hava, suyun yerini tutabiliyormuş gibi hızla nefes aldı — ve nehre gitmenin ortasında sustu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.13"]
-status = "normal"
 raw = "The dam held water beautifully — just not on the side where a beaver needed a drink."
+status = "normal"
 enUS = "The dam held water beautifully — just not on the side where a beaver needed a drink."
 zhCN = "水坝完美地蓄水——只是在那只海狸需要喝水的那一侧。"
 zhTW = "大壩完美地保持著水位——只是對於需要飲水的河狸來說，這一邊卻沒有水。"
@@ -1872,8 +1888,8 @@ viVN = "Đập nước giữ nước thật đẹp — chỉ là không ở bên
 trTR = "Baraj suyu mükemmel bir şekilde tuttu - sadece bir kunduzun su içmesi gereken tarafta değil."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.14"]
-status = "normal"
 raw = "Thirst drove her mad enough that she started gnawing at her own tail, hoping for moisture."
+status = "normal"
 enUS = "Thirst drove her mad enough that she started gnawing at her own tail, hoping for moisture."
 zhCN = "“口渴让她疯狂到开始啃自己的尾巴，希望能获得水分。”"
 zhTW = "口渴讓她瘋狂到開始啃自己的尾巴，希望獲得水分。"
@@ -1889,8 +1905,8 @@ viVN = "Cơn khát đã khiến cô ấy phát điên đến nỗi bắt đầu 
 trTR = "Susuzluk onu o kadar deli etti ki, nem umuduyla kendi kuyruğunu kemirmeye başladı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.15"]
-status = "normal"
 raw = "The last thing she saw was the sky reflected in water too far away to reach."
+status = "normal"
 enUS = "The last thing she saw was the sky reflected in water too far away to reach."
 zhCN = "“她最后看到的景象是天空倒映在远得无法触及的水面上。”"
 zhTW = "她最後看到的，是天空映照在遙遠得無法觸及的水面上。"
@@ -1906,8 +1922,8 @@ viVN = "Điều cuối cùng cô nhìn thấy là bầu trời phản chiếu tr
 trTR = "Gördüğü son şey, ulaşamayacak kadar uzaktaki suda yansıyan gökyüzüydü."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.16"]
-status = "normal"
 raw = "She lay down in the dry riverbed, where water once splashed, and never got up again."
+status = "normal"
 enUS = "She lay down in the dry riverbed, where water once splashed, and never got up again."
 zhCN = "“她躺在干枯的河床上，曾经水花四溅的地方，再也没能站起来。”"
 zhTW = "她躺在曾經濺水的乾枯河床上，再也沒有起來。"
@@ -1923,8 +1939,8 @@ viVN = "Cô nằm xuống ở lòng sông khô cạn, nơi nước từng văng 
 trTR = "Bir zamanlar suyun şırıldadığı kuru nehir yatağına uzandı ve bir daha asla kalkmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.17"]
-status = "normal"
 raw = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
+status = "normal"
 enUS = "No one noticed the water tank in the lodge had sprung a leak — the beaver noticed too late."
 zhCN = "“没有人注意到小屋里的水箱漏水了 — 河狸意识到时已经为时已晚。”"
 zhTW = "沒有人注意到小屋的水箱漏水了——這隻海狸察覺得太晚了。"
@@ -1940,8 +1956,8 @@ viVN = "Không ai để ý rằng bể nước trong lều đã bị rò rỉ �
 trTR = "Kimse aile konutundaki su tankının sızdırdığını fark etmedi — kunduz bunu çok geç fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.18"]
-status = "normal"
 raw = "She dragged herself toward the canal with her last strength, leaving a dry trail of crumbling earth behind her."
+status = "normal"
 enUS = "She dragged herself toward the canal with her last strength, leaving a dry trail of crumbling earth behind her."
 zhCN = "她用最后的力气拖着自己朝运河走去，身后留下一道干燥的土壤裂痕。"
 zhTW = "她用最後的力量拖著自己朝著運河走去，身後留下一條乾裂的土壤痕跡。"
@@ -1957,8 +1973,8 @@ viVN = "Cô ấy đã kéo mình về phía kênh đào bằng sức lực cuố
 trTR = "Son gücüyle kanala doğru sürüklendi, arkasında dökülen kurumuş toprak izini bıraktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.19"]
-status = "normal"
 raw = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
+status = "normal"
 enUS = "Salt on cracked lips was all that remained of the long hours spent waiting for rain that never came."
 zhCN = "干裂的嘴唇上只剩下盐分，那是漫长等待永不降临的雨的时光所留下的痕迹。"
 zhTW = "「乾裂的嘴唇上只剩下鹽分，這是漫長等待卻永遠不會降臨的雨水的痕跡。」"
@@ -1974,8 +1990,8 @@ viVN = "Một chút muối trên đôi môi nứt nẻ là tất cả những g�
 trTR = "Gelmesi asla mümkün olmayan yağmuru beklerken geçen uzun saatlerin geriye bıraktığı tek şey, çatlamış dudaklarda biriken tuzdu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.0"]
-status = "normal"
 raw = "She gnawed and swallowed splinters of wood, hoping to fill her stomach with something — anything — but her strength ran out before the hunger did."
+status = "normal"
 enUS = "She gnawed and swallowed splinters of wood, hoping to fill her stomach with something — anything — but her strength ran out before the hunger did."
 zhCN = "“她啃咬并吞下木头的碎片，希望能用某些东西——任何东西——填饱肚子，但在饥饿之前，她的力气却耗尽了。”"
 zhTW = "「她啃咬並吞下木屑，希望能讓她的肚子裡有些東西——任何東西——但她的體力在飢餓之前就耗盡了。」"
@@ -1991,8 +2007,8 @@ viVN = "Cô ấy gặm và nuốt những mảnh gỗ, hy vọng có thể lấp
 trTR = "Odun parçalarını kemirdi ve yuttu, karnını bir şeyle - her ne olursa olsun - doldurmayı umarak, ama gücü açlıktan önce tükendi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.1"]
-status = "normal"
 raw = "The pantry had been empty for three days now — and with it went the strength to stay on her feet."
+status = "normal"
 enUS = "The pantry had been empty for three days now — and with it went the strength to stay on her feet."
 zhCN = "“储藏室已经空了三天——随着它的空虚，她站立的力气也消失了。”"
 zhTW = "儲物櫃已經空了三天——隨之而去的還有她站立的力量。"
@@ -2008,8 +2024,8 @@ viVN = "Kho dự trữ đã trống rỗng suốt ba ngày qua — và theo đó
 trTR = "Artık üç gündür kiler boştu - ve bununla birlikte ayakta kalma gücü de gitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.2"]
-status = "normal"
 raw = "She stripped the last bark off a log, but wood is no substitute for supper — her stomach stayed just as empty."
+status = "normal"
 enUS = "She stripped the last bark off a log, but wood is no substitute for supper — her stomach stayed just as empty."
 zhCN = "她剥掉了一根原木上最后的树皮，但木头无法代替晚餐——她的肚子依然空空如也。"
 zhTW = "她剝去了最後一段樹皮，但木頭無法替代晚餐——她的肚子依然空空如也。"
@@ -2025,8 +2041,8 @@ viVN = "Cô ấy đã lột vỏ cây cuối cùng khỏi một khúc gỗ, như
 trTR = "Bir kütüğün son kabuğunu soydü, ama odun akşam yemeğinin yerine geçmez — midesi aynı şekilde boş kaldı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.3"]
-status = "normal"
 raw = "Her stomach cramped so badly that even sleep couldn't hide her from the hunger — and there was no one left to save her."
+status = "normal"
 enUS = "Her stomach cramped so badly that even sleep couldn't hide her from the hunger — and there was no one left to save her."
 zhCN = "“她的胃疼得如此厉害，以至于连睡觉也无法让她摆脱饥饿——而没有人能来拯救她。”"
 zhTW = "她的肚子疼得如此厲害，以至於連睡覺也無法讓她逃脫飢餓的折磨——而她已經沒有任何人可以拯救了。"
@@ -2042,8 +2058,8 @@ viVN = "Bao tử của cô ấy co thắt dữ dội đến nỗi ngay cả gi�
 trTR = "Karnı o kadar kramp girdi ki, uyku bile onu açlıktan saklayamadı - ve onu kurtaracak kimse kalmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.4"]
-status = "normal"
 raw = "She kept hauling logs to the dam right to the end, though it had been a long time since she'd held anything edible in her paws."
+status = "normal"
 enUS = "She kept hauling logs to the dam right to the end, though it had been a long time since she'd held anything edible in her paws."
 zhCN = "“她一直把木头拖到大坝上，直到最后，尽管她已经很久没有在爪子里抓到任何可吃的东西。”"
 zhTW = "「她一直在搬運木頭到水壩，直到最後，儘管自從她的爪子裡握住任何可食用的東西已經很久了。」"
@@ -2059,8 +2075,8 @@ viVN = "Cô ấy đã tiếp tục kéo gỗ đến đập cho đến tận nh�
 trTR = "Sonunda dam için odun taşımaya devam etti, ancak ellerinde yenilebilir bir şey tutmasının üzerinden uzun zaman geçmişti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.5"]
-status = "normal"
 raw = "She checked every pantry in the district — and found the same hollow echo of emptiness in each one."
+status = "normal"
 enUS = "She checked every pantry in the district — and found the same hollow echo of emptiness in each one."
 zhCN = "“她检查了区域内的每个食品储藏室——在每个储藏室里都发现了同样空洞的回声。”"
 zhTW = "她檢查了區內的每個儲藏室，卻在每個地方都聽到了同樣空洞的回聲。"
@@ -2076,8 +2092,8 @@ viVN = "Cô kiểm tra mọi kho thực phẩm trong quận — và tìm thấy 
 trTR = "İlçedeki her kilerde kontrol etti - ve her birinde aynı boşluk yankısını buldu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.6"]
-status = "normal"
 raw = "The harvest had failed that cycle, and she held on to hope for longer than her body could manage."
+status = "normal"
 enUS = "The harvest had failed that cycle, and she held on to hope for longer than her body could manage."
 zhCN = "“那一轮的收成失败了，她抱着希望撑过了比身体所能承受的更久。”"
 zhTW = "「那個週期的收成失敗了，她的希望維持的時間比她的身體所能忍受的還要長。」"
@@ -2093,8 +2109,8 @@ viVN = "Mùa thu hoạch đã thất bại trong chu kỳ đó, và cô ấy đ�
 trTR = "Hasat o döngüde başarısız olmuştu ve o, bedeni dayanabileceğinden daha uzun süre umudu korudu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.7"]
-status = "normal"
 raw = "She watched the others carrying logs and realized she no longer had the strength to carry even one."
+status = "normal"
 enUS = "She watched the others carrying logs and realized she no longer had the strength to carry even one."
 zhCN = "她看着其他人搬运原木，意识到自己再也没有力量搬运哪怕一根了。"
 zhTW = "她看著其他人搬運原木，意識到自己已經沒有力量再搬運哪怕是一根。"
@@ -2110,8 +2126,8 @@ viVN = "Cô nhìn những người khác khiêng gỗ và nhận ra rằng cô k
 trTR = "Diğerlerinin kütükleri taşıdığını izledi ve artık tek bir kütük bile taşımak için gücünün kalmadığını fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.8"]
-status = "normal"
 raw = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
+status = "normal"
 enUS = "The bark on the young saplings looked like salvation, but there was too little of it, and too late."
 zhCN = "幼树上的树皮看起来像是救赎，但它太少了，来得也太晚。"
 zhTW = "年輕的小樹苗上的樹皮看起來像是救贖，但實在太少了，為時已晚。"
@@ -2127,8 +2143,8 @@ viVN = "Vỏ cây trên những cây non trông như cứu cánh, nhưng quá í
 trTR = "Genç fidanların üzerindeki kabuk kurtuluş gibi görünüyordu, ama çok azdı ve çok geçti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.9"]
-status = "normal"
 raw = "Work at the sawmill never let up for a moment — food, somehow, never showed up at all."
+status = "normal"
 enUS = "Work at the sawmill never let up for a moment — food, somehow, never showed up at all."
 zhCN = "锯木厂的工作从未停歇——食物，似乎，从来没有出现过。"
 zhTW = "“在鋸木廠的工作一刻也沒有停止過 — 食物不知為何根本沒有出現。”"
@@ -2144,8 +2160,8 @@ viVN = "Công việc tại nhà máy cưa không bao giờ ngừng lại dù ch�
 trTR = "Ormancıdaki iş bir an bile durmadı — yiyecek, bir şekilde, asla gelmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.10"]
-status = "normal"
 raw = "She split her last scrap with the kits, keeping less and less for herself until there was nothing left."
+status = "normal"
 enUS = "She shared her last scrap with the kits, keeping less and less for herself until there was nothing left."
 zhCN = "“她将最后一点食物分给幼崽，自己越来越少，直到什么都没有了。”"
 zhTW = "她將最後一點餘糧分給了小崽，自己留的越來越少，直到什麼也不剩。"
@@ -2161,8 +2177,8 @@ viVN = "Cô ấy chia sẻ miếng thức ăn cuối cùng với các con nhỏ,
 trTR = "Son parçasını yavrularla paylaştı, kendine daha az ve daha az tutarak hiçbir şey kalmayana kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.11"]
-status = "normal"
 raw = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
+status = "normal"
 enUS = "Hunger screamed loudest at night — and at night the storehouse was simply too far to walk."
 zhCN = "“饥饿在夜晚尖叫得最响——而在夜晚，仓库实在太远，无法步行。”"
 zhTW = "饑餓在夜晚最為尖銳——而在夜晚，倉庫實在太遠，無法走到。"
@@ -2178,8 +2194,8 @@ viVN = "Đói kêu gào lớn nhất vào ban đêm - và vào ban đêm, nhà k
 trTR = "Açlık geceleri en yüksek sesle haykırıyordu ve geceleri ambar yürümek için çok uzaktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.12"]
-status = "normal"
 raw = "She tried to snag even a splinter out of the water by the sawmill, but the current was faster than her paws."
+status = "normal"
 enUS = "She tried to snag even a splinter out of the water by the sawmill, but the current was faster than her paws."
 zhCN = "“她试图从锯木厂旁的水中抓住甚至一根浮木，但水流比她的爪子快。”"
 zhTW = "「她試圖從鋸木廠旁的水中撈起一根木屑，但水流比她的爪子快。」"
@@ -2195,8 +2211,8 @@ viVN = "Cô ấy đã cố gắng kéo một miếng ván từ dưới nước g
 trTR = "Testere fabrikasının yanındaki sudan bir kıymık bile kapmaya çalıştı ama akıntı, patilerinden daha hızlıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.13"]
-status = "normal"
 raw = "The list of things she hadn't eaten in weeks was longer than the list of things she had."
+status = "normal"
 enUS = "The list of things she hadn't eaten in weeks was longer than the list of things she had."
 zhCN = "她几周没有吃过的东西清单比她吃过的东西清单还要长。"
 zhTW = "她幾週來未吃的東西清單比她吃過的東西清單還要長。"
@@ -2212,8 +2228,8 @@ viVN = "Danh sách những món ăn mà cô ấy chưa ăn trong nhiều tuần 
 trTR = "Haftalardır yemediği şeylerin listesi, yediği şeylerin listesinden daha uzundu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.14"]
-status = "normal"
 raw = "She collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
+status = "normal"
 enUS = "She collapsed right at the storehouse door — an empty storehouse that never got restocked in time."
 zhCN = "“她在仓库门口倒下了——一个从未及时补货的空仓库。”"
 zhTW = "她就在倉庫門口倒下了——一個從未及時補充的空倉庫。"
@@ -2229,8 +2245,8 @@ viVN = "Cô ấy đã ngã quỵ ngay tại cánh cửa kho — một kho trốn
 trTR = "Tam da ambarın kapısında çöktü - zamanında yeniden stoklanmayan boş bir ambar."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.15"]
-status = "normal"
 raw = "The young shoots she finally managed to reach turned out bitter and inedible."
+status = "normal"
 enUS = "The young shoots she finally managed to reach turned out to be bitter and inedible."
 zhCN = "她最终能够到达的嫩芽却是苦涩且不可食用的。"
 zhTW = "她終於能夠觸及的嫩枝卻變得苦澀且不可食用。"
@@ -2246,8 +2262,8 @@ viVN = "Các mầm non mà cô ấy cuối cùng đã cố gắng với tới th
 trTR = "Sonunda ulaşmayı başardığı genç filizler acı ve yenmez oldu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.16"]
-status = "normal"
 raw = "She rationed her strength all day to make it to food by evening — but evening came too late."
+status = "normal"
 enUS = "She rationed her strength all day to make it to food by evening — but evening came too late."
 zhCN = "“她整天节省体力，想等到晚上能吃上东西——但晚上来得太晚了。”"
 zhTW = "「她整天都在節省力量，以便能在傍晚前到達食物——但傍晚來得太晚。」"
@@ -2263,8 +2279,8 @@ viVN = "Cô ấy đã tiết kiệm sức lực suốt cả ngày để có th�
 trTR = "Günün her saatinde gücünü rasyonlayarak akşama yiyeceğe ulaşmaya çalıştı - ama akşam çok geç geldi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.17"]
-status = "normal"
 raw = "The neighboring district shared its food without her — simply because no one knew she was starving."
+status = "normal"
 enUS = "The neighboring district shared its food without her — simply because no one knew she was starving."
 zhCN = "“邻近地区毫无保留地分享了他们的食物 — 仅仅因为没有人知道她在饥饿。”"
 zhTW = "鄰近區域在她不在的情況下分享了食物——只是因為沒有人知道她正饑餓之中。"
@@ -2280,8 +2296,8 @@ viVN = "Khu vực lân cận đã chia sẻ thức ăn của mình mà không c�
 trTR = "Komşu bölge, onun açlıktan öldüğünü bilmediği için yiyeceklerini onunla paylaşmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.18"]
-status = "normal"
 raw = "Her stomach had long since stopped growling — her body had simply given up and stopped."
+status = "normal"
 enUS = "Her stomach had long since stopped growling — her body had simply given up and stopped."
 zhCN = "她的肚子早已不再咕咕作响——她的身体只是放弃了，停止了。"
 zhTW = "她的肚子早已不再咕咕作響——她的身體已經放棄，停止了運作。"
@@ -2297,8 +2313,8 @@ viVN = "Bụng cô ấy đã từ lâu không còn réo nữa — cơ thể cô 
 trTR = "Karnı çoktan guruldamayı bırakmıştı — bedeni sadece pes etmiş ve durmuştu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.19"]
-status = "normal"
 raw = "She stared at the logs and wood chips stacked in the barn, knowing neither one would fill her up."
+status = "normal"
 enUS = "She stared at the logs and wood chips stacked in the barn, knowing neither one would fill her up."
 zhCN = "她注视着堆放在谷仓里的木柴和木屑，知道这两样东西都无法让她饱腹。"
 zhTW = "她凝視著堆在谷倉裡的木材和木屑，知道這兩樣東西都無法讓她飽腹。"
@@ -2314,8 +2330,8 @@ viVN = "Cô ấy nhìn chằm chằm vào những khúc gỗ và mùn cưa chấ
 trTR = "Büyükbaş hayvanların dolu olduğu ahıra istiflenmiş kütüklere ve odun talaşlarına baktı, ikisinin de onu doyurmayacağını bilerek."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.0"]
-status = "normal"
 raw = "She dozed off quietly in the sun, just as she had a thousand times before — only this time she didn't wake up."
+status = "normal"
 enUS = "She dozed off quietly in the sun, just as she had a thousand times before — only this time she didn't wake up."
 zhCN = "她在阳光下安静地打了个盹，就像她之前千百次那样——只不过这次她没有醒来。"
 zhTW = "她在陽光下靜靜地打了個盹，就像她之前做過千百次一樣——只不過這次她沒有醒來。"
@@ -2331,8 +2347,8 @@ viVN = "She dozed off quietly in the sun, just as she had a thousand times befor
 trTR = "Güneşin altında sessizce uyuyakaldı, daha önce binlerce kez olduğu gibi — ama bu sefer uyanmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.1"]
-status = "normal"
 raw = "Her legs no longer obeyed the way they used to, her teeth were worn down, and her heart simply grew tired of beating."
+status = "normal"
 enUS = "Her legs no longer obeyed like they used to, her teeth were worn down, and her heart simply grew tired of beating."
 zhCN = "“她的腿再也无法像以前那样听使唤，她的牙齿磨损了，心脏也只是疲惫地跳动。”"
 zhTW = "「她的腿不再像以前那樣聽使喚，她的牙齒變得磨損，心臟也漸漸厭倦了跳動。」"
@@ -2348,8 +2364,8 @@ viVN = "Chân của bà không còn hoạt động như trước, răng của b�
 trTR = "Bacakları eskisi gibi dinlemiyordu, dişleri aşınmıştı ve kalbi artık atmaktan yorulmuştu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.2"]
-status = "normal"
 raw = "She'd already told her grandkits everything she knew about dams — and went to her rest with a clear conscience."
+status = "normal"
 enUS = "She had already told her grandkits everything she knew about dams — and went to her rest with a clear conscience."
 zhCN = "“她已经把她所知道的关于水坝的一切告诉了她的孙子孙女们——然后安然离世，心中无愧。”"
 zhTW = "「她已經把她所知道的所有有關大壩的知識告訴了她的孫仔們——然後帶著清晰的良知安息了。」"
@@ -2365,8 +2381,8 @@ viVN = "Cô ấy đã kể cho các cháu của mình tất cả những gì cô
 trTR = "Barajlar hakkında bildiği her şeyi torunlarına anlatmıştı - ve içi rahat bir şekilde huzura gitmişti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.3"]
-status = "normal"
 raw = "Age quietly took its due, painlessly, right in her own lodge, amid the smell of freshly cut wood."
+status = "normal"
 enUS = "Age quietly took its due, painlessly, right in her own lodge, amid the smell of freshly cut wood."
 zhCN = "年龄悄然来临，毫无痛苦，正是在她自己的窝里，伴随着新切木材的气味。"
 zhTW = "年紀靜靜地到了它應該收取的時刻，毫無痛苦地，在她自己的小屋裡，伴隨著新鮮切割木材的氣息。"
@@ -2382,8 +2398,8 @@ viVN = "Tuổi tác đã đến một cách lặng lẽ, không đau đớn, nga
 trTR = "Yaş, kimseden bir şey istemeden, acısızca, kendi kulübesinde, taze kesilmiş odun kokusu arasında vadesini aldı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.4"]
-status = "normal"
 raw = "Just yesterday she'd been grumbling at the youngsters over badly stacked logs — today she simply didn't open her eyes."
+status = "normal"
 enUS = "Just yesterday she'd been grumbling at the youngsters over badly stacked logs — today she simply didn't open her eyes."
 zhCN = "就在昨天，她还在因木材堆得不好而对年轻人发牢骚——今天她却根本没有睁开眼睛。"
 zhTW = "「就在昨天，她還因為木頭堆得不好而對年輕人抱怨——今天她卻根本沒有睜開眼。」"
@@ -2399,8 +2415,8 @@ viVN = "Chỉ hôm qua, cô ấy đã càu nhàu với những đứa trẻ con 
 trTR = "Daha dün gençlere kötü yığılmış kütükler üzerine homurdanıyordu — bugün sadece gözlerini açmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.5"]
-status = "normal"
 raw = "She'd long since stopped counting the cycles she'd lived — what did it matter, when every day had been good in its own way."
+status = "normal"
 enUS = "She'd long since stopped counting the cycles she'd lived — what did it matter, when every day had been good in its own way."
 zhCN = "“她早已不再计算自己活过多少个周期——这有什么关系呢，反正每天都有它各自的美好。”"
 zhTW = "「她早已不再計算自己活過多少個週期——這有什麼關係，反正每一天都以自己的方式過得很好。」"
@@ -2416,8 +2432,8 @@ viVN = "Cô ấy đã từ lâu không còn đếm số vòng đời mà mình �
 trTR = "Yaşadığı döngüleri saymayı çoktan bırakmıştı - her gün kendi yolunda iyi geçtiği için bunun ne önemi vardı ki."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.6"]
-status = "normal"
 raw = "The youngsters heard her advice about stacking logs one last time — and she quietly went to her rest."
+status = "normal"
 enUS = "The youngsters heard her advice about stacking logs one last time — and she quietly went to her rest."
 zhCN = "小年轻们最后一次听到了她关于堆放木头的建议——然后她静静地去休息了。"
 zhTW = "年輕人最後一次聽到了她關於堆疊木頭的建議 — 然後她安靜地去休息了。"
@@ -2433,8 +2449,8 @@ viVN = "Những người trẻ đã nghe lời khuyên của bà về việc ch�
 trTR = "Gençler, odunları üst üste yığma konusunda onun tavsiyesini son kez duydular ve o, sessizce istirahate çekildi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.7"]
-status = "normal"
 raw = "She still went out to warm herself in the sun every morning, until one morning came without her."
+status = "normal"
 enUS = "She still went out to warm herself in the sun every morning, until one morning came without her."
 zhCN = "她每天早上依然会出去晒太阳，直到有一天早上没有她的身影。"
 zhTW = "「她每天早上仍然出門在陽光下取暖，直到有一天早上她再也沒有出門。」"
@@ -2450,8 +2466,8 @@ viVN = "Cô vẫn ra ngoài tắm nắng mỗi sáng, cho đến một buổi s�
 trTR = "Her sabah güneşte ısınmak için dışarı çıkmaya devam etti, ta ki bir sabah onun olmadığı bir sabah gelene kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.8"]
-status = "normal"
 raw = "Her fur had long since gone gray, but her eyes still shone to the very last day, looking at the dam she'd helped build."
+status = "normal"
 enUS = "Her fur had long since gone gray, but her eyes still shone to the very last day, looking at the dam she'd helped build."
 zhCN = "她的毛发早已变灰，但她的眼睛在最后一天依然闪烁，望着她曾经帮助建造的坝。"
 zhTW = "她的毛發早已變成灰色，但她的眼睛直到最後一天仍然閃耀，注視著她幫助建造的水壩。"
@@ -2467,8 +2483,8 @@ viVN = "Lông của cô đã lâu rồi chuyển sang màu xám, nhưng đôi m�
 trTR = "Tüyleri çoktan griye dönmüştü, ama gözleri son güne kadar parladı, inşa etmeye yardım ettiği barajı seyrederken."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.9"]
-status = "normal"
 raw = "She died the way she lived — sitting by her favorite dam, the very one she'd helped build cycles ago."
+status = "normal"
 enUS = "She died the way she lived — sitting by her favorite dam, the very one she'd helped build cycles ago."
 zhCN = "“她的去世方式和她的生活一样——坐在她最喜欢的水坝旁，那是她几轮前帮助建造的。”"
 zhTW = "「她死得如同她生活的一樣——坐在她最喜愛的水壩旁，那座她幾個循環前幫助建造的水壩。」"
@@ -2484,8 +2500,8 @@ viVN = "Cô ấy đã ra đi như cách sống của mình - ngồi bên đập 
 trTR = "En sevdiği barajın yanında oturarak, yıllar önce inşa etmesine yardım ettiği o barajın yanında hayatını kaybetti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.10"]
-status = "normal"
 raw = "Her grandkits only noticed grandmother was sleeping too long once the sun was already high in the sky."
+status = "normal"
 enUS = "Her grandkits only noticed that grandmother was sleeping too long once the sun was already high in the sky."
 zhCN = "她的孙辈们只在太阳已经高挂时才注意到奶奶睡得太久了。"
 zhTW = "她的孫子孫女們只有在太陽高掛天際時，才注意到祖母睡得太久了。"
@@ -2501,8 +2517,8 @@ viVN = "Các cháu của bà chỉ nhận ra bà đã ngủ lâu quá khi mặt 
 trTR = "Torunları, güneş gökyüzünde yüksek olduğunda büyükannelerinin çok uzun süre uyuduğunu ancak o zaman fark ettiler."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.11"]
-status = "normal"
 raw = "She quietly stopped breathing somewhere between one heartbeat and the next, never waking from her midday nap."
+status = "normal"
 enUS = "She quietly stopped breathing somewhere between one heartbeat and the next, never waking from her midday nap."
 zhCN = "她在一次心跳与下一个心跳之间静静停止了呼吸，再也没有从午睡中醒来。"
 zhTW = "她靜靜地在一次心跳與下一次心跳之間停止了呼吸，從未從午睡中醒來。"
@@ -2518,8 +2534,8 @@ viVN = "Cô ấy lặng lẽ ngừng thở ở đâu đó giữa một nhịp ti
 trTR = "Bir kalp atışı ile diğerinin arasında sessizce nefes almayı bıraktı, asla öğle uykusundan uyanmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.12"]
-status = "normal"
 raw = "Her last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
+status = "normal"
 enUS = "Her last words were about how the new generation of beavers had completely forgotten how to stack logs properly."
 zhCN = "她最后的话是关于新一代的河狸完全忘记了如何正确堆木头。"
 zhTW = "「她的最後遺言是關於新一代的海狸們完全忘記了如何正確堆疊原木。」"
@@ -2535,8 +2551,8 @@ viVN = "Câu nói cuối cùng của cô ấy là về việc thế hệ bơm m�
 trTR = "Son sözleri, yeni nesil bobrinlerin kütükleri düzgün bir şekilde nasıl istifleyeceklerini tamamen unuttuklarıyla ilgiliydi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.13"]
-status = "normal"
 raw = "She'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in her own lodge."
+status = "normal"
 enUS = "She'd outlived many others, seen more than one flood and more than one drought — and passed peacefully, in her own lodge."
 zhCN = "“她活过了许多其他的生命，经历了不止一次的洪水和干旱——最终在自己的窝中安详地离世。”"
 zhTW = "「她活過了許多其他生物，見證了不止一次的洪水和不止一次的乾旱——並在自己的巢穴中安詳地去世。」"
@@ -2552,8 +2568,8 @@ viVN = "Cô đã sống lâu hơn nhiều con khác, chứng kiến hơn một t
 trTR = "Birçok diğerini geride bırakmış, birden fazla sel ve birden fazla kuraklık görmüştü - ve kendi kulübesinde huzur içinde vefat etti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.14"]
-status = "normal"
 raw = "Her body grew tired of carrying the weight of the years, and her heart grew tired of beating against its will."
+status = "normal"
 enUS = "Her body grew tired of carrying the weight of the years, and her heart grew tired of beating against its will."
 zhCN = "她的身体厌倦了承载岁月的重负，她的心也厌倦了违心地跳动。"
 zhTW = "「她的身體對承載歲月的重擔感到疲憊，而她的心臟對抗著自己的意志而跳動感到厭倦。」"
@@ -2569,8 +2585,8 @@ viVN = "Cơ thể của cô ấy đã quá mệt mỏi khi phải gánh chịu t
 trTR = "Vücudu yılların yükünü taşımaktan yoruldu ve kalbi, iradesine karşı atmaktan yoruldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.15"]
-status = "normal"
 raw = "She lived to see her great-grandkits pick up their first logs to build a dam of their own."
+status = "normal"
 enUS = "She lived to see her great-grandkids pick up their first logs to build a dam of their own."
 zhCN = "“她活到了看到她的曾孙们捡起第一根木头来建造自己的水坝。”"
 zhTW = "「她活著看著她的曾孫輩們第一次撿起木頭來建立自己的水壩。」"
@@ -2586,8 +2602,8 @@ viVN = "Cô đã sống để chứng kiến các chắt của mình nhặt nh�
 trTR = "Torunlarının kendi barajlarını inşa etmek için ilk ağaç kütüklerini topladığını görmek için uzun yaşadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.16"]
-status = "normal"
 raw = "Age took its toll bit by bit: first the legs, then the teeth, and at the end, simply the will to get up in the morning."
+status = "normal"
 enUS = "Age took its toll bit by bit: first the legs, then the teeth, and in the end, simply the will to get up in the morning."
 zhCN = "“年龄一点点地侵蚀着：先是双腿，接着是牙齿，最后只是早上起床的意志。”"
 zhTW = "歲月逐漸侵蝕：首先是腿，然後是牙齒，最後，只剩下早上起床的意志。"
@@ -2603,8 +2619,8 @@ viVN = "Tuổi tác đã lấy đi từng chút một: trước là đôi chân,
 trTR = "Yaş, yavaş yavaş tolladı: önce bacaklar, sonra dişler ve en sonunda, sadece sabah kalkma isteği."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.17"]
-status = "normal"
 raw = "Her lodgemates found her sleeping so soundly that no noise could wake her anymore."
+status = "normal"
 enUS = "Her lodgemates found her sleeping so soundly that no noise could wake her anymore."
 zhCN = "她的同伴们发现她睡得如此沉静，以至于任何声音都无法将她唤醒。"
 zhTW = "她的巢友發現她睡得如此沉沉，以至於任何噪音都無法再把她吵醒。"
@@ -2620,8 +2636,8 @@ viVN = "Các bạn cùng ở bến của cô ấy đã tìm thấy cô ấy ng�
 trTR = "Diğer kulübe arkadaşları, onu öyle derin uyku içinde buldular ki hiçbir gürültü onu uyandıramıyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.18"]
-status = "normal"
 raw = "She faded quietly, surrounded by the family she herself had founded on the banks of this very river."
+status = "normal"
 enUS = "She faded quietly, surrounded by the family she herself had founded on the banks of this very river."
 zhCN = "她悄然离世， surrounded by the family she herself had founded on the banks of this very river."
 zhTW = "「她靜靜地逝去，周圍是她自己在這條河岸上創建的家族。」"
@@ -2637,8 +2653,8 @@ viVN = "Cô ấy đã lặng lẽ ra đi, bao quanh bởi gia đình mà chính 
 trTR = "Bu nehrin kıyısında kurduğu aile tarafından sarılmış bir şekilde sessizce soldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.19"]
-status = "normal"
 raw = "The last thing she did in life was nudge a slightly crooked log back into place by the lodge entrance."
+status = "normal"
 enUS = "The last thing she did in life was nudge a slightly crooked log back into place by the lodge entrance."
 zhCN = "她在生活中最后做的事情是将一个稍微歪斜的原木推回水獺栖息地入口处。"
 zhTW = "她人生中最後做的事情就是把一根稍微歪斜的原木推回旅館入口的正確位置。"
@@ -2654,8 +2670,8 @@ viVN = "Cái mà cô ấy làm cuối cùng trong cuộc đời là đẩy một
 trTR = "Hayatındaki son şeyi, kulübe girişindeki hafif yamuk bir kütüğü yerine itmekti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.20"]
-status = "normal"
 raw = "He chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
+status = "normal"
 enUS = "He chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
 zhCN = "他追逐一朵承诺带来雨水的云，但它在山丘上空飘过，却没有滴落一滴。"
 zhTW = "他追逐著一朵承諾帶來雨水的雲朵，但它在山丘上漂流而過，卻沒有落下一滴雨。"
@@ -2671,8 +2687,8 @@ viVN = "Anh đã đuổi theo một đám mây hứa hẹn cơn mưa, nhưng nó
 trTR = "Yağmur vaat eden bir bulutu kovalamaya başladı, ama o, tepelerin üzerinden geçip bir damla bile dökmeden uzaklaştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.21"]
-status = "normal"
 raw = "At night he dreamed of a river running full — and by morning there was only cracked clay under his paws again."
+status = "normal"
 enUS = "At night he dreamed of a river running full — and by morning there was only cracked clay under his paws again."
 zhCN = "“夜里他梦见一条奔流不息的河 — 早晨醒来时，爪子下只剩下干裂的泥土。”"
 zhTW = "他在夜裡夢到一條奔流不息的河，早晨卻又只在爪子下發現龜裂的泥土。"
@@ -2688,8 +2704,8 @@ viVN = "Đêm qua, anh ta mơ thấy một dòng sông đầy nước — và s�
 trTR = "Gece, dolup taşan bir nehir gördü rüyasında — sabah olduğunda, yine sadece çatlamış toprakların altında patileriyle karşılaştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.22"]
-status = "normal"
 raw = "He lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
+status = "normal"
 enUS = "He lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
 zhCN = "“他整夜舔着蕨类植物的露水，但到黎明时分仍然不够。”"
 zhTW = "他整晚都在蕨類植物的葉子上舔著露水，但到黎明時分仍然不夠。"
@@ -2705,8 +2721,8 @@ viVN = "Anh ấy đã liếm sương đêm trên lá dương xỉ suốt đêm, 
 trTR = "Sabaha kadar eğrelti otlarının yapraklarından çiy içti, ama yine de yeterli olmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.23"]
-status = "normal"
 raw = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
+status = "normal"
 enUS = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
 zhCN = "“曾经供应水库的管道早已干涸，而没有人来修理它。”"
 zhTW = "“曾經供應水庫的水管早已乾枯，沒有人再能修理它。”"
@@ -2722,8 +2738,8 @@ viVN = "Đường ống từng cấp nước cho bể chứa đã khô từ lâu
 trTR = "Rezervuara su sağlayan boru çoktan kurumuştu ve onu onaracak kimse kalmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.24"]
-status = "normal"
 raw = "He wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
+status = "normal"
 enUS = "He wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
 zhCN = "他走到了区域边界，希望能找到邻近的运河，但邻居的闸门对外来者关闭。"
 zhTW = "他漫遊到區域邊界，期望能找到鄰近的水道，但鄰居的閘門對外來者關閉。"
@@ -2739,8 +2755,8 @@ viVN = "Anh ta đi lang thang đến biên giới quận với hy vọng tìm th
 trTR = "Bir komşu kanal umuduyla bölge sınırına doğru dolaştı, ama komşuların kapakları dışarıdan gelenlere kapalıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.25"]
-status = "normal"
 raw = "The shimmer over the dry riverbed looked so much like a lake that he crawled toward it with his last strength — and never made it."
+status = "normal"
 enUS = "The shimmer over the dry riverbed looked so much like a lake that he crawled toward it with his last strength — and never made it."
 zhCN = "“干涸河床上的光芒看起来如此像一个湖，他用最后的力量向它爬去——却再也没有到达。”"
 zhTW = "乾涸河床上閃爍的光輝看起來就像一片湖泊，他帶著最後的力量朝它爬去——但終究未能抵達。"
@@ -2756,8 +2772,8 @@ viVN = "Ánh sáng lấp lánh trên lòng sông khô trông giống như một 
 trTR = "Kuru nehir yatağının üzerindeki parıltı o kadar göle benziyordu ki, son gücüyle ona doğru sürünmeye başladı - ancak oraya asla ulaşamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.26"]
-status = "normal"
 raw = "He heard water dripping somewhere inside the lodge wall and crawled toward the sound until the sound stopped."
+status = "normal"
 enUS = "He heard water dripping somewhere inside the lodge wall and crawled toward the sound until it stopped."
 zhCN = "“他听到在小屋墙壁内部有水滴声，便爬向声音传来的方向，直到声音停止。”"
 zhTW = "他聽到小屋牆壁內某處傳來水滴聲，便朝著聲音的方向爬去，直到聲音停止。"
@@ -2773,8 +2789,8 @@ viVN = "Anh nghe tiếng nước nhỏ giọt ở đâu đó trong tường củ
 trTR = "Yalnızca bir yerde, lojmanın duvarında suyun damladığını duydu ve sesin kesildiği yere kadar emekledi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.27"]
-status = "normal"
 raw = "The dam held a full reservoir — just not for him: the line at the watering hole was too long."
+status = "normal"
 enUS = "The dam held a full reservoir — just not for him: the line at the watering hole was too long."
 zhCN = "水坝储满了水——只是对他来说不算：水源的队伍太长了。"
 zhTW = "大壩蓄滿了水庫——只是對他來說不然：水源的排隊人數太多了。"
@@ -2790,8 +2806,8 @@ viVN = "Bờ đập chứa một hồ chứa đầy — chỉ có điều không
 trTR = "Baraj tam doluydu — sadece onun için değil: su birikintisindeki kuyruk çok uzundu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.28"]
-status = "normal"
 raw = "He tried to dig a well with his bare paws, but the ground had turned harder than stone after the long drought."
+status = "normal"
 enUS = "He tried to dig a well with his bare paws, but the ground had turned harder than stone after the long drought."
 zhCN = "“他试图用赤手挖井，但经过漫长的干旱，土地变得比石头还要坚硬。”"
 zhTW = "他試著用赤裸的爪子挖井，但在漫長的乾旱過後，地面變得比石頭還要堅硬。"
@@ -2807,8 +2823,8 @@ viVN = "Cậu ấy đã cố gắng đào một cái giếng bằng đôi paws t
 trTR = "Uzun kuraklığın ardından zemin taş gibi sertleştiği için çıplak patileriyle bir kuyu kazmaya çalıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.29"]
-status = "normal"
 raw = "Fog settled over the district for exactly one night — and that one night wasn't enough for him to lick up more than a few drops."
+status = "normal"
 enUS = "Fog settled over the district for exactly one night — and that one night wasn't enough for him to drink more than a few drops."
 zhCN = "雾霭笼罩了这个地区整整一个夜晚——而那个夜晚对于他来说还不够，让他舔到超过几滴水。"
 zhTW = "霧氣在區域上空籠罩了整整一夜——而那一夜對他來說不足以讓他舔到超過幾滴水。"
@@ -2824,8 +2840,8 @@ viVN = "Sương mù bao phủ khu vực suốt một đêm dài — và đêm đ
 trTR = "Bölge üzerinde tam olarak bir gece boyunca sis çökmüştü — ve o bir gece, onun daha fazla birkaç damla yalamak için yeterli olmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.30"]
-status = "normal"
 raw = "The rain finally came — three days too late."
+status = "normal"
 enUS = "The rain finally came — three days too late."
 zhCN = "“雨终于来了——迟到了三天。”"
 zhTW = "雨終於來了——晚了三天。"
@@ -2841,8 +2857,8 @@ viVN = "Cơn mưa cuối cùng cũng đến — trễ ba ngày."
 trTR = "Sonunda yağmur yağdı - üç gün geç kaldı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.31"]
-status = "normal"
 raw = "He watched a fish thrashing in a drying puddle and understood he'd soon be in its place."
+status = "normal"
 enUS = "He watched a fish thrashing in a drying puddle and understood he'd soon be in its place."
 zhCN = "“他看着一条鱼在干涸的水洼中挣扎，明白自己很快也会处于它的位置。”"
 zhTW = "他看著一條魚在乾涸的水坑中掙扎，明白自己很快也會處於它的位置。"
@@ -2858,8 +2874,8 @@ viVN = "Anh ta nhìn một con cá vẫy vùng trong một vũng nước đang c
 trTR = "Kuruyan bir su birikintisinde çırpınan bir balığı izledi ve yakında onun yerinde olacağını anladı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.32"]
-status = "normal"
 raw = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
+status = "normal"
 enUS = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
 zhCN = "“储水罐锁在仓库里，钥匙属于那天没有来上班的一只海狸。”"
 zhTW = "儲水槽鎖在倉庫裡，而鑰匙屬於那隻今天沒有來工作的河狸。"
@@ -2875,8 +2891,8 @@ viVN = "Bể chứa nước dự trữ bị khóa trong kho, và chìa khóa thu
 trTR = "Rezerv su tankı depoda kilitliydi ve anahtar, o gün işe gelmeyen bir bobrağa aitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.33"]
-status = "normal"
 raw = "He rationed every sip, saving some for tomorrow — and tomorrow never came for him."
+status = "normal"
 enUS = "He rationed every sip, saving some for tomorrow — and tomorrow never came for him."
 zhCN = "“他每一口水都精打细算，留了一些给明天——而对于他来说，明天再也不会来了。”"
 zhTW = "「他把每一口水都控制在最少，留點給明天，但明天對他來說再也不會到了。」"
@@ -2892,8 +2908,8 @@ viVN = "Anh ta đã quản lý từng ngụm, dành một ít cho ngày mai — 
 trTR = "Her yudumu dikkatlice ölçtü, yarın için birazını sakladı — ama yarın hiç gelmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.34"]
-status = "normal"
 raw = "The heat was so fierce that even the shade by the dam gave no relief — the water in his body ran out faster than the day did."
+status = "normal"
 enUS = "The heat was so fierce that even the shade by the dam offered no relief — the water in his body ran out faster than the day did."
 zhCN = "“炎热如此猛烈，即使在大坝旁的阴凉处也没有任何缓解——他体内的水分消耗得比白天还快。”"
 zhTW = "炎熱如此猖獗，即使是大壩旁的陰影也無法帶來緩解——他體內的水分耗損得比一天還快。"
@@ -2909,8 +2925,8 @@ viVN = "Độ nóng thật khắc nghiệt đến mức ngay cả bóng râm bê
 trTR = "Isı o kadar şiddetliydi ki barajın gölgesi bile rahatlatmadı — vücudundaki su, gün geçtikçe daha hızlı tükendi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.35"]
-status = "normal"
 raw = "He believed the rains started on the same day every cycle — but this year they were late."
+status = "normal"
 enUS = "He believed the rains started on the same day every cycle — but this year they were late."
 zhCN = "“他相信每个周期的雨水都是在同一天开始的——但今年它们来得晚了。”"
 zhTW = "他相信每個循環的同一天會開始下雨——但今年他們來得晚了。"
@@ -2926,8 +2942,8 @@ viVN = "Ông tin rằng những cơn mưa bắt đầu vào cùng một ngày c�
 trTR = "Her döngüde yağmurların aynı gün başladığına inanıyordu — ama bu yıl geç kaldılar."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.36"]
-status = "normal"
 raw = "His last strength went into dragging himself to the dry canal, just to lie down at its bottom."
+status = "normal"
 enUS = "His last strength went into dragging himself to the dry canal, just to lie down at its bottom."
 zhCN = "他最后的力气都用来拖着自己来到干涸的水渠，只为躺在底部。"
 zhTW = "他的最後一絲力氣用來拖著自己到乾涸的水道，只為在底部躺下。"
@@ -2943,8 +2959,8 @@ viVN = "Sức mạnh cuối cùng của anh ấy đã được dùng để kéo 
 trTR = "Son gücü, sadece dibine yatmak için kuru kanala sürünmekte harcandı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.37"]
-status = "normal"
 raw = "He'd long since stopped sweating — his body was rationing even what it no longer had."
+status = "normal"
 enUS = "He'd long since stopped sweating — his body was rationing even what it no longer had."
 zhCN = "“他早已不再出汗——他的身体甚至在节省已不存在的东西。”"
 zhTW = "他早已不再流汗——他的身體甚至在節約那些它已經沒有的東西。"
@@ -2960,8 +2976,8 @@ viVN = "Anh ấy đã ngừng đổ mồ hôi từ lâu - cơ thể của anh �
 trTR = "Neredeyse terlemeyi bırakmıştı - vücudu artık sahip olduğu şeyleri bile kısıtlıyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.38"]
-status = "normal"
 raw = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
+status = "normal"
 enUS = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
 zhCN = "锯木厂周围的沟渠缩小成了 cracked mud，真正的河流还远得多。"
 zhTW = "锯木厂周围的沟渠缩小成龟裂的泥土，而真正的河流离这里还远得多。"
@@ -2977,8 +2993,8 @@ viVN = "Cái rãnh quanh xưởng cưa đã co lại thành bùn nứt nẻ, và
 trTR = "Testere fabrikasının etrafındaki hendek çatlamış balçık haline gelmişti ve gerçek nehir hala çok daha uzaktaydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.39"]
-status = "normal"
 raw = "He looked at the dam one last time — the very one that was supposed to carry water to him, not past him."
+status = "normal"
 enUS = "He looked at the dam one last time — the very one that was supposed to carry water to him, not past him."
 zhCN = "“他最后看了堤坝一眼——正是那座本应给他提供水源，而不是让水流过他的堤坝。”"
 zhTW = "他最後一次看著大壩——本應該把水引給他的，而不是流過他。"
@@ -2994,8 +3010,8 @@ viVN = "Anh ấy nhìn vào con đập lần cuối — chính cái mà lẽ ra 
 trTR = "Son bir kez barajın her tarafına baktı - ona su taşıması gereken, geçmezden değil."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.20"]
-status = "normal"
 raw = "He split his grain ration with a sick neighbor and kept too little back to last himself."
+status = "normal"
 enUS = "He split his grain ration with a sick neighbor and kept too little back to last for himself."
 zhCN = "“他将自己的粮食配给分给了一位生病的邻居，留给自己的实在太少。”"
 zhTW = "「他把自己的穀物配給分給了一位生病的鄰居，而自己留得太少，以至於不足以支撐自己。」"
@@ -3011,8 +3027,8 @@ viVN = "Anh ta đã chia phần lương thực của mình với một người 
 trTR = "Hasta bir komşusuyla tahıl rasyonunu paylaştı ve kendisi için yetecek kadar az bir miktar sakladı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.21"]
-status = "normal"
 raw = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
+status = "normal"
 enUS = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
 zhCN = "“仓库建得太晚——收成在雨中腐烂，没人来收。”"
 zhTW = "倉庫建得太晚 — 收成在雨中腐爛，沒有人能及時收回來。"
@@ -3028,8 +3044,8 @@ viVN = "Kho đã được xây dựng quá muộn — mùa gặt đã hư hỏng
 trTR = "Depo çok geç inşa edildi — hasat, kimse içeri getirmeden önce yağmurda çürüdü."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.22"]
-status = "normal"
 raw = "He tried chewing on an old leather strap, just to feel like there was something, anything, in his mouth."
+status = "normal"
 enUS = "He tried chewing on an old leather strap, just to feel like there was something, anything, in his mouth."
 zhCN = "他试着咬了一条旧皮带，只是想感觉到嘴里有些什么，任何东西。"
 zhTW = "他試著咬一根舊皮帶，只是想感覺嘴裡有些什麼，無論是什麼。"
@@ -3045,8 +3061,8 @@ viVN = "Anh ấy đã cố gắng nhai một dây da cũ, chỉ để cảm th�
 trTR = "Eski bir deri kayışını çiğnemeye çalıştı, ağzında bir şey, herhangi bir şey varmış gibi hissetmek için."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.23"]
-status = "normal"
 raw = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
+status = "normal"
 enUS = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
 zhCN = "“厨房的队伍整天都在延续，而只有最前面的人有足够的食物。”"
 zhTW = "「廚房的隊伍一整天都在延伸，而食物只有前面的人能夠分到。」"
@@ -3062,8 +3078,8 @@ viVN = "Dòng người ở bếp kéo dài suốt cả ngày, và chỉ đủ th
 trTR = "Mutfaktaki kuyruk bütün gün uzadı ve sadece önündekiler için yeterli yiyecek vardı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.24"]
-status = "normal"
 raw = "He traded his last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
+status = "normal"
 enUS = "He traded his last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
 zhCN = "他把最后一份口粮换成了一条温暖的毯子——而在那之后才意识到，毯子填不满肚子。"
 zhTW = "他用最後的配給品換來了一條溫暖的毯子——而在此之後才意識到，毯子並不能填飽肚子。"
@@ -3079,8 +3095,8 @@ viVN = "Anh ta đã đổi phần ăn cuối cùng của mình để lấy một
 trTR = "Son rasyonunu sıcak bir battaniye ile takas etti — ve sadece sonra bir battaniyenin karnı doyurmadığını fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.25"]
-status = "normal"
 raw = "Field mice stripped the barn's stores faster than the beavers could restock them."
+status = "normal"
 enUS = "Field mice stripped the barn's stores faster than the beavers could restock them."
 zhCN = "田鼠把谷仓的存货掠夺得比海狸补充得还快。"
 zhTW = "田鼠比海狸補充存貨的速度更快地掠奪了谷倉的儲備。"
@@ -3096,8 +3112,8 @@ viVN = "Chuột đồng đã làm sạch nguồn dự trữ trong kho trước k
 trTR = "Tarlak farları, bobriklerin depolarını yeniden doldurmasından daha hızlı bir şekilde ahırın stoklarını temizledi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.26"]
-status = "normal"
 raw = "He kept watching them build a new sawmill instead of the storehouse that was needed far more."
+status = "normal"
 enUS = "He kept watching them build a new sawmill instead of the storehouse that was needed far more."
 zhCN = "“他不停地看着他们建造一座新的锯木厂，而不是更需要的仓库。”"
 zhTW = "他一直看著他們建造一個新的鋸木廠，而不是更需要的倉庫。"
@@ -3113,8 +3129,8 @@ viVN = "Ông ấy vẫn tiếp tục quan sát họ xây dựng một nhà máy 
 trTR = "Onların ihtiyaç duyulan depodan ziyade yeni bir değirmene inşa etmeye devam ettiğini izlemeye devam etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.27"]
-status = "normal"
 raw = "Hunger dulled every sense until he stopped noticing even the pain in his paws, worn raw."
+status = "normal"
 enUS = "Hunger dulled every sense until he stopped noticing even the pain in his paws, worn raw."
 zhCN = "饥饿麻痹了每一种感官，直到他连自己脚爪上的疼痛也不再注意，磨得生了茧。"
 zhTW = "飢餓麻痺了每一種感官，直到他甚至不再注意到爪子上的疼痛，因為已經磨損得很嚴重。"
@@ -3130,8 +3146,8 @@ viVN = "Đói đã làm mất đi mọi giác quan cho đến khi anh ta không 
 trTR = "Açlık, her duyuyu köreltti ta ki patilerine kadar olan acıyı bile hissetmeyi bıraktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.28"]
-status = "normal"
 raw = "The last thing he ate was a handful of sawdust off the sawmill floor — and even that didn't save him from the hunger."
+status = "normal"
 enUS = "The last thing he ate was a handful of sawdust off the sawmill floor — and even that didn't save him from the hunger."
 zhCN = "“他吃的最后一顿是从锯木厂地板上捡起的一把锯末——就连这都没能让他逃脱饥饿的命运。”"
 zhTW = "他最後吃的東西是一把鋸木廠地板上的鋸屑——即便如此也無法拯救他免於飢餓。"
@@ -3147,8 +3163,8 @@ viVN = "Cái cuối cùng mà anh ta ăn là một nắm mùn cưa trên sàn nh
 trTR = "Yediği son şey, değirmenin zemininden bir avuç talaş oldu — ve bu bile onu açlıktan kurtaramadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.29"]
-status = "normal"
 raw = "He saved his strength for tomorrow's shift at the dam, not counting on the fact that he wouldn't live to see it."
+status = "normal"
 enUS = "He saved his strength for tomorrow's shift at the dam, not counting on the fact that he wouldn't live to see it."
 zhCN = "他把力气留到明天在大坝的班上，没想到自己活不着看到那一天。"
 zhTW = "「他將力量留給明天在水壩的工作，沒有想到自己活不久了。」"
@@ -3164,8 +3180,8 @@ viVN = "Anh đã tiết kiệm sức lực cho ca làm việc ngày mai tại đ
 trTR = "Önümüzdeki gün barajdaki vardiyası için gücünü saklıyordu, bunu görebileceğini düşünmeden."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.30"]
-status = "normal"
 raw = "The badtide washed out half the crops that year, and he was one of the ones the leftovers didn't stretch to."
+status = "normal"
 enUS = "The bad tide washed out half the crops that year, and he was one of the ones the leftovers didn't stretch to."
 zhCN = "“那年的坏潮冲走了一半的农作物，他是那些剩余的食物无法支撑的人之一。”"
 zhTW = "那一年，惡潮沖走了一半的作物，而他就是那些剩餘的食物無法供應到的人之一。"
@@ -3181,8 +3197,8 @@ viVN = "Nước lũ đã cuốn trôi một nửa vụ mùa năm đó, và anh �
 trTR = "O yıl kötü gelgit yarısı mahsulleri sildi ve o, artanların yetmediği kişilerden biriydi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.31"]
-status = "normal"
 raw = "He pretended he'd already eaten so no one would give up their own ration to him — and kept up the act to the end."
+status = "normal"
 enUS = "He pretended he'd already eaten so no one would give up their own ration to him — and kept up the act to the end."
 zhCN = "“他假装自己已经吃过东西，这样就不会有人把自己的口粮给他——并且一直保持这种假装直到最后。”"
 zhTW = "他假裝自己已經吃過了，這樣沒有人會把自己的配給給他——並且一直保持這個表現，直到最後。"
@@ -3198,8 +3214,8 @@ viVN = "Anh ta giả vờ như đã ăn no để không ai phải nhường ph�
 trTR = "Hiç yemek yememiş gibi yaptı, böylece kimse ona kendi rasyonunu vermedi — ve sonuna kadar bu oyunu sürdürdü."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.32"]
-status = "normal"
 raw = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than he could hold out for."
+status = "normal"
 enUS = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than he could withstand."
 zhCN = "新一批原木按时到达——运载食物的驳船比他能撑的时间晚了一天。"
 zhTW = "新到的一批木材準時抵達 — 運輸食物的驳船比他能堅持的時間晚了一天。"
@@ -3215,8 +3231,8 @@ viVN = "Chuyến hàng gỗ mới đã đến đúng hẹn — tàu chở thực
 trTR = "Yeni kütük yükü tam zamanında geldi - yiyecek yüzeri, dayanabileceğinden bir gün gecikti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.33"]
-status = "normal"
 raw = "He steered clear of the neighboring district's full granaries, too proud to ask for help."
+status = "normal"
 enUS = "He steered clear of the neighboring district's full granaries, too proud to ask for help."
 zhCN = "他避开了邻近地区满是粮仓的地方，太骄傲而不愿寻求帮助。"
 zhTW = "他避開了鄰近區域滿溢的穀倉，太驕傲而不願尋求幫助。"
@@ -3232,8 +3248,8 @@ viVN = "Anh ấy đã tránh xa những kho thóc đầy ắp của khu vực l�
 trTR = "Yardım istemek için fazla gururlu olduğundan, komşu bölgedeki tam ambarlardan uzak durdu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.34"]
-status = "normal"
 raw = "His last strength went into hauling his own cart of logs to the storehouse, not into finding a meal."
+status = "normal"
 enUS = "His last strength went into hauling his own cart of logs to the storehouse, not into finding a meal."
 zhCN = "“他最后的力量用在了拉运自己的木头车到仓库上，而不是寻找食物。”"
 zhTW = "他最後的力量都用於將自己的木材推到倉庫，而不是尋找食物。"
@@ -3249,8 +3265,8 @@ viVN = "Sức lực cuối cùng của anh ta đã dùng để kéo xe gỗ củ
 trTR = "Son gücü, bir yemek bulmak yerine kendi odun arabasını depoya taşımaya gitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.35"]
-status = "normal"
 raw = "He was counting on the spring shoots to save him — but spring was late that cycle."
+status = "normal"
 enUS = "He was counting on the spring shoots to save him — but spring was late that cycle."
 zhCN = "“他指望春天的嫩芽能救他——但那一季春天来得很晚。”"
 zhTW = "「他指望著春天的嫩芽能救他——但這個循環的春天來得太晚。」"
@@ -3266,8 +3282,8 @@ viVN = "Anh ấy đã hy vọng vào những mầm non mùa xuân để cứu m�
 trTR = "Bahar filizlerinin onu kurtaracağını umuyordu - ama bu döngüde bahar geç geldi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.36"]
-status = "normal"
 raw = "Hunger crept up on him unnoticed through the long shifts, right up until the day his legs simply refused to rise."
+status = "normal"
 enUS = "Hunger crept up on him unnoticed through the long shifts, right up until the day his legs simply refused to rise."
 zhCN = "“饥饿在漫长的工作班中悄然袭来，直到有一天，他的双腿根本不愿意再站起来。”"
 zhTW = "飢餓在漫長的輪班中悄悄地侵襲了他，直到有一天他的雙腿再也無法站起來。"
@@ -3283,8 +3299,8 @@ viVN = "Cơn đói len lén tiến đến với anh ấy trong những ca làm v
 trTR = "Açlık, uzun vardiyalar boyunca fark edilmeksizin yanına yaklaştı, ta ki bacakları basitçe kalkmayı reddedene kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.37"]
-status = "normal"
 raw = "He kept telling himself there'd be time to eat after the next shift — but the next shift never ended for him."
+status = "normal"
 enUS = "He kept telling himself there'd be time to eat after the next shift — but the next shift never ended for him."
 zhCN = "“他不断告诉自己，下一班结束后就会有时间吃饭——但对他来说，下一班从未结束。”"
 zhTW = "他不斷告訴自己下一個班次結束後就有時間吃飯——但對他來說，下一個班次從未結束。"
@@ -3300,8 +3316,8 @@ viVN = "Anh ta cứ tự nhủ rằng sẽ có thời gian để ăn sau ca tr�
 trTR = "Kendine sürekli bir sonraki görevden sonra yemek yiyecek zamanı olacağını söylüyordu — ama onun için bir sonraki görev asla bitmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.38"]
-status = "normal"
 raw = "He gave up his place in the kitchen line three times running — the fourth time, the line never opened for him at all."
+status = "normal"
 enUS = "He gave up his place in the kitchen line three times in a row — the fourth time, the line never opened for him at all."
 zhCN = "他连续三次放弃了在厨房排队的机会——第四次，他根本没有机会再排队。"
 zhTW = "他連續三次放棄了在廚房排隊的位置——第四次，他根本沒有機會排隊。"
@@ -3317,8 +3333,8 @@ viVN = "Anh đã từ bỏ chỗ đứng của mình trong hàng bếp ba lần 
 trTR = "Mutfakta sırada üç kez yerini bıraktı - dördüncü kez, onun için sıra hiç açılmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.39"]
-status = "normal"
 raw = "His empty stomach drowned out even the hammers at the sawmill — but he could never drown out the hunger itself."
+status = "normal"
 enUS = "His empty stomach drowned out even the hammers at the sawmill — but he could never drown out the hunger itself."
 zhCN = "他空荡荡的肚子甚至淹没了锯木厂的锤声——但他永远无法淹没饥饿本身。"
 zhTW = "他的空腹甚至淹沒了鋸木廠的鐵錘聲——但他永遠無法淹沒飢餓本身。"
@@ -3334,8 +3350,8 @@ viVN = "Vì cái bụng rỗng của hắn mà tiếng búa ở xưởng cưa c�
 trTR = "Aç karnı, marangozhanedeki çekiçlerin sesini bile bastırdı — ama açlığı asla bastıramadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.20"]
-status = "normal"
 raw = "He made one last round of the dam, nodding to every familiar log as if saying goodbye."
+status = "normal"
 enUS = "He made one last round of the dam, nodding to every familiar log as if saying goodbye."
 zhCN = "“他最后一次巡视堤坝，向每一根熟悉的木头点头，仿佛在说再见。”"
 zhTW = "他最後圍繞大壩走了一圈，向每一根熟悉的木頭點頭，彷彿在道別。"
@@ -3351,8 +3367,8 @@ viVN = "Ông đã đi một vòng cuối cùng quanh đập, gật đầu chào 
 trTR = "Barajın etrafında son bir tur attı, veda ediyormuş gibi tanıdık ağaç kütüklerine başıyla selam durdu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.21"]
-status = "normal"
 raw = "His voice grew quieter, his legs slower, but his smile at the sight of his grandkits never changed, right to the end."
+status = "normal"
 enUS = "His voice grew quieter, his legs slower, but his smile at the sight of his grandkids never changed, right to the end."
 zhCN = "“他的声音渐渐低沉，腿脚也变得缓慢，但他看到孙辈时的微笑始终未变，一直到最后。”"
 zhTW = "他的聲音漸漸變得微弱，腿腳也變得 sluggish，但看到孫子們的微笑始終不變，直到最後一刻。"
@@ -3368,8 +3384,8 @@ viVN = "Giọng nói của ông ấy trở nên nhỏ dần, đôi chân đi ch�
 trTR = "Ses tonu azaldı, bacakları yavaşladı ama torunlarını görünceki gülümsemesi son ana kadar hiç değişmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.22"]
-status = "normal"
 raw = "He left the youngsters his favorite bench by the water — and quietly took his place in the family's memory instead."
+status = "normal"
 enUS = "He left the youngsters his favorite bench by the water — and quietly took his place in the family's memory instead."
 zhCN = "他把自己最喜欢的水边长椅留给了年轻一代 — 然后安静地在家族的记忆中留下了自己的位置。"
 zhTW = "他把自己最喜歡的水邊長椅留給了年輕一代，然後靜靜地在家庭的記憶中佔據了一席之地。"
@@ -3385,8 +3401,8 @@ viVN = "Ông để lại cho những đứa trẻ chiếc ghế yêu thích củ
 trTR = "Gençlere su kenarındaki en sevdiği bankı bıraktı — ve sessizce ailenin anılarında yerini aldı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.23"]
-status = "normal"
 raw = "Age never asked permission — it simply came for him one day, as peacefully as it had come for so many before him."
+status = "normal"
 enUS = "Age never asked permission — it simply came for him one day, as peacefully as it had come for so many before him."
 zhCN = "“年龄从未征求许可——有一天，它就像以前许多其他人一样，平静地来到了他的身边。”"
 zhTW = "年齡從不徵求許可—它只是某一天來到了他身邊，就像之前無數人一樣平靜地來臨。"
@@ -3402,8 +3418,8 @@ viVN = "Tuổi tác chưa bao giờ xin phép - nó đơn giản đã đến v�
 trTR = "Yaş asla izin sormadı - bir gün aniden geldi, daha önce birçoğu için geldiği kadar huzurlu bir şekilde."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.24"]
-status = "normal"
 raw = "He'd long since taken to living on memories of the great builds of his youth — and one day he simply didn't wake up among them."
+status = "normal"
 enUS = "He had long since taken to living on memories of the great builds of his youth — and one day he simply didn't wake up among them."
 zhCN = "“他早已习惯于依靠年轻时伟大建筑的回忆生活——有一天，他就是这样在其中没有醒来。”"
 zhTW = "「他早已開始依靠年輕時那些偉大建築的回憶生活——有一天，他就這樣在其中不再醒來。」"
@@ -3419,8 +3435,8 @@ viVN = "Ông đã sống bằng những kỷ niệm về những công trình v�
 trTR = "Gençliğindeki büyük yapıları hatırlayarak yaşamaya çoktan başlamıştı — bir gün onları arasında uyanmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.25"]
-status = "normal"
 raw = "The last thing he saw was the morning mist over the river — the very same mist as the day he'd first arrived."
+status = "normal"
 enUS = "The last thing he saw was the morning mist over the river — the very same mist as the day he'd first arrived."
 zhCN = "“他最后看到的是河上晨雾——和他第一次到达时的那片雾气完全相同。”"
 zhTW = "「他最後看到的，是河面上的早晨霧氣——正是他第一次抵達那天的霧氣。」"
@@ -3436,8 +3452,8 @@ viVN = "“Điều cuối cùng ông thấy là sương mù buổi sáng trên d
 trTR = "Gördüğü son şey, nehir üzerindeki sabah sisiydi — tam da ilk geldiği günkü sise benzer bir sis."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.26"]
-status = "normal"
 raw = "He refused to move to a new lodge, saying he'd die where he'd lived his whole life. And so he did."
+status = "normal"
 enUS = "He refused to move to a new lodge, saying he'd die where he'd lived his whole life. And so he did."
 zhCN = "“他拒绝搬到新居，说他要在自己一生中居住的地方去世。于是他就这样做了。”"
 zhTW = "「他拒絕搬到新的住所，說他會在自己一生中生活的地方死去。結果，他就是這麼做的。」"
@@ -3453,8 +3469,8 @@ viVN = "Ông từ chối chuyển đến một căn lều mới, nói rằng ôn
 trTR = "Yeni bir kulübeye taşınmayı reddetti, yaşamının tamamını geçirdiği yerde öleceğini söyledi. Ve öyle de oldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.27"]
-status = "normal"
 raw = "His body gave out before his spirit did — he kept trying to help at the dam right to the last day, long after he could no longer lift a log."
+status = "normal"
 enUS = "His body gave out before his spirit did — he kept trying to help at the dam right to the last day, long after he could no longer lift a log."
 zhCN = "“他的身体在灵魂之前就衰竭了——直到最后一天，他仍在努力帮助大坝，尽管他早已无法举起一根木头。”"
 zhTW = "他的身體在靈魂之前崩潰——他一直試著幫忙修建水壩，直到最後一天，早已無法再抬起一根樹幹。"
@@ -3470,8 +3486,8 @@ viVN = "Cơ thể anh đã kiệt sức trước tâm hồn anh — anh vẫn c�
 trTR = "Bedeni ruhundan önce pes etti - artık bir odun kaldıracak gücü kalmadığı halde, son güne kadar barajda yardımcı olmaya çalıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.28"]
-status = "normal"
 raw = "He slipped away quietly in his sleep to the creak of old trees — the very sound that had lulled him his whole life."
+status = "normal"
 enUS = "He slipped away quietly in his sleep to the creak of old trees — the very sound that had lulled him his whole life."
 zhCN = "他在梦中安静地离去，伴随着老树的吱吱声——那声音是他一生中最安宁的摇篮曲。"
 zhTW = "“他在夢中安靜地離開，伴隨著古老樹木的吱吱聲——這是他一生中一直讓他沉醉的聲音。”"
@@ -3487,8 +3503,8 @@ viVN = "Ông đã ra đi nhẹ nhàng trong giấc ngủ trước tiếng kêu c
 trTR = "Eski ağaçların gıcırtısı eşliğinde huzur içinde uykusunda kayboldu - bu ses, hayatı boyunca onu sakinleştiren sesti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.29"]
-status = "normal"
 raw = "His children were long grown, and his grandkits too, and still he watched the river with the same wonder as on his very first day."
+status = "normal"
 enUS = "His children were long grown, and his grandkits too, and still he watched the river with the same wonder as on his very first day."
 zhCN = "“他的孩子早已长大，孙子们也如此，他依旧以和第一天一样的惊奇眼光看着河流。”"
 zhTW = "他的孩子早已長大，他的孫輩們也都長大了，但他仍然以和第一天一樣的驚奇看著河流。"
@@ -3504,8 +3520,8 @@ viVN = "Những đứa con của ông đã lớn, và cả những đứa cháu 
 trTR = "Çocukları çoktan büyümüş ve torunları da öyle, yine de nehirin kenarında ilk günündeki gibi bir hayranlıkla seyretti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.30"]
-status = "normal"
 raw = "That last winter turned out mild, as if nature itself had decided to let him go gently."
+status = "normal"
 enUS = "That last winter turned out mild, as if nature itself had decided to let him go gently."
 zhCN = "“去年冬天出乎意料地温和，仿佛大自然本身决定让他安静地离去。”"
 zhTW = "那個最後的冬天變得非常溫和，就好像大自然本身決定讓他安然離去。"
@@ -3521,8 +3537,8 @@ viVN = "Mùa đông cuối cùng đó hóa ra thật ôn hòa, như thể chính
 trTR = "Son kış ılıman çıktı, sanki doğa kendisi onu nazikçe bırakmaya karar vermiş gibi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.31"]
-status = "normal"
 raw = "He'd just finished passing on the secret of his sturdiest dam when he went to his rest with a light heart."
+status = "normal"
 enUS = "He'd just finished passing on the secret of his sturdiest dam when he went to his rest with a light heart."
 zhCN = "“他刚刚传授完自己最坚固的水坝的秘密，便心满意足地安息了。”"
 zhTW = "「他剛剛傳授完他最堅固的水壩的秘密，便懷著輕鬆的心情安然入睡。」"
@@ -3538,8 +3554,8 @@ viVN = "Ông vừa mới truyền lại bí mật của con đập vững chắc
 trTR = "En dayanıklı barajının sırrını aktarmayı yeni bitirmişti ki, hafif bir kalple huzur içinde uykuya daldı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.32"]
-status = "normal"
 raw = "His frail paws could no longer hold a log, but they held his grandkits' paws tight right to the end."
+status = "normal"
 enUS = "His frail paws could no longer hold a log, but they held his grandkits' paws tight right to the end."
 zhCN = "“他虚弱的爪子再也无法握住一根树木，但在最后一刻，他紧紧握住了孙子们的爪子。”"
 zhTW = "他的脆弱爪子再也無法握住木頭，但他一直緊緊握住孫輩的爪子，直到最後。"
@@ -3555,8 +3571,8 @@ viVN = "Những bàn chân yếu ớt của ông không còn đủ sức để n
 trTR = "Zayıf patileri artık bir kütüğü tutamıyordu, ama son ana kadar torunlarının patilerini sıkıca tuttu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.33"]
-status = "normal"
 raw = "He faded away quietly between two strikes of the sawmill bell, never hearing the second one."
+status = "normal"
 enUS = "He faded away quietly between two strikes of the sawmill bell, never hearing the second one."
 zhCN = "“他在锯木厂钟声的两次敲击之间悄然离去，未曾听见第二声。”"
 zhTW = "他在鋸木廠鐘聲的兩次敲擊之間安靜地離去，從未聽到第二次敲擊。"
@@ -3572,8 +3588,8 @@ viVN = "Ông ấy tắt lịm một cách yên lặng giữa hai tiếng chuông
 trTR = "Testere fabrikasının çanının iki çınlaması arasında sessizce kayboldu, ikinci sesi asla duymadan."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.34"]
-status = "normal"
 raw = "The wrinkles on his face were a map of the years he'd lived — and one day that map simply closed."
+status = "normal"
 enUS = "The wrinkles on his face were a map of the years he'd lived — and one day that map simply closed."
 zhCN = "“他脸上的皱纹是他所经历过岁月的地图——有一天，那张地图就这么关闭了。”"
 zhTW = "他臉上的皺紋是他生活過的歲月的地圖——有一天，那幅地圖就這樣合上了。"
@@ -3589,8 +3605,8 @@ viVN = "Nếp nhăn trên khuôn mặt của ông là một bản đồ của nh
 trTR = "Yüzündeki kırışıklıklar, yaşadığı yılların bir haritasıydı - ve bir gün o harita sadece kapandı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.35"]
-status = "normal"
 raw = "He dozed off by the fire every evening — and one of those evenings turned out to be his last, though no one noticed the difference right away."
+status = "normal"
 enUS = "He dozed off by the fire every evening — and one of those evenings turned out to be his last, though no one noticed the difference right away."
 zhCN = "他每晚都在火边打盹——而那些晚上中的一个成为了他的最后一晚，尽管没有人立刻察觉到有什么不同。"
 zhTW = "他每晚都在火邊打盹——而那晚恰好是他的最後一晚，雖然沒有人立刻察覺到什麼不同。"
@@ -3606,8 +3622,8 @@ viVN = "Ông đã ngủ gật bên bếp lửa mỗi tối - và một trong nh�
 trTR = "Her akşam ateşin yanında uykuya daldı — ve o akşamlardan biri, son akşamı olduğu anlaşıldı, ama kimse hemen bir fark fark etmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.36"]
-status = "normal"
 raw = "He brought in the last harvest of his life himself, flatly refusing any help from the young ones."
+status = "normal"
 enUS = "He brought in the last harvest of his life himself, flatly refusing any help from the young ones."
 zhCN = "他亲自进行了生命中最后一次收获，坚决拒绝了年轻人的任何帮助。"
 zhTW = "他親自收穫了他一生中的最後一個豐收，堅決拒絕了年輕人的任何幫助。"
@@ -3623,8 +3639,8 @@ viVN = "Ông tự tay thu hoạch mùa vụ cuối cùng của cuộc đời mì
 trTR = "Hayatının son hasadını kendisi topladı, gençlerden gelen herhangi bir yardımı tamamen reddetti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.37"]
-status = "normal"
 raw = "He left as quietly as he'd once arrived in this district — without any fuss, leaving a sturdy dam behind him."
+status = "normal"
 enUS = "He left as quietly as he'd once arrived in this district — without any fuss, leaving a sturdy dam behind him."
 zhCN = "“他像当初来到这个地区时一样悄无声息地离开了——没有任何喧闹，身后留下了一座坚固的水坝。”"
 zhTW = "「他離開時悄無聲息，就像他當初來到這個區域一樣——毫無聲張，留下了一座堅固的壩。」"
@@ -3640,8 +3656,8 @@ viVN = "Ông ra đi êm đềm như khi ông đến khu vực này — không c�
 trTR = "Bu bölgeye geldiği gibi sessizce ayrıldı - hiç bir gürültü olmadan, arkasında sağlam bir baraj bırakarak."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.38"]
-status = "normal"
 raw = "Age took his strength, but never his memory — to the end, he remembered the name of everyone he'd ever taught."
+status = "normal"
 enUS = "Age took his strength, but never his memory — to the end, he remembered the name of everyone he'd ever taught."
 zhCN = "“岁月夺走了他的力量，却从未夺去他的记忆——直到最后，他仍然记得他教过的每一个人的名字。”"
 zhTW = "歲月奪去了他的力量，但從未奪走他的記憶——直到最後，他仍然記得自己教過的每一個名字。"
@@ -3657,8 +3673,8 @@ viVN = "Tuổi tác đã lấy đi sức mạnh của ông, nhưng không bao gi
 trTR = "Yaş, gücünü almıştı ama hafızasını asla almadı - sona kadar, öğrettiği herkesin adını hatırladı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.39"]
-status = "normal"
 raw = "He lay down to rest after a long day, just as he had his whole life — only this time the rest turned out to be forever."
+status = "normal"
 enUS = "He lay down to rest after a long day, just as he had his whole life — only this time the rest turned out to be forever."
 zhCN = "“在漫长的一天之后，他像往常一样躺下休息——只不过这次的休息变成了永恒。”"
 zhTW = "在漫長的一天之後，他躺下來休息，就像他整個生命中所做的那樣——只是這一次的休息卻變成了永恆。"
@@ -3674,8 +3690,8 @@ viVN = "Anh nằm xuống nghỉ ngơi sau một ngày dài, cũng như anh đã
 trTR = "Uzun bir günün ardından dinlenmek için uzandı, tıpkı bütün hayatı boyunca yaptığı gibi — sadece bu sefer dinlenmek sonsuza dek sürdü."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.20"]
-status = "normal"
 raw = "She chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
+status = "normal"
 enUS = "She chased a cloud that promised rain, but it drifted on past the hills without ever spilling a drop."
 zhCN = "她追逐着一朵承诺会带来雨的云，但它在山丘上飘过，竟未落下半滴雨。"
 zhTW = "「她追逐著一朵承諾會帶來雨的雲，而那朵雲卻漂過山丘，始終沒有洩漏出一滴雨。」"
@@ -3691,8 +3707,8 @@ viVN = "Cô ấy đuổi theo một đám mây hứa hẹn mưa, nhưng nó trô
 trTR = "Yağmur vaat eden bir bulutu kovalamaya çalıştı, ama bulut tepelerin üzerinden geçip gitti ve hiçbir damla dökmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.21"]
-status = "normal"
 raw = "At night she dreamed of a river running full — and by morning there was only cracked clay under her paws again."
+status = "normal"
 enUS = "At night she dreamed of a river running full — and by morning there was only cracked clay under her paws again."
 zhCN = "夜里，她梦见一条水流湍急的河 — 但早晨，只有又干又裂的泥土在她的爪子下。"
 zhTW = "「在夜晚，她夢見一條奔流的河流——而到了早晨，她的爪子下又只有龜裂的泥土。」"
@@ -3708,8 +3724,8 @@ viVN = "Vào ban đêm, cô mơ thấy một con sông tràn đầy - và đến
 trTR = "Gece, dolup taşan bir nehir hakkında rüyalar gördü - sabah olduğunda yine ayaklarının altında sadece çatlamış toprak vardı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.22"]
-status = "normal"
 raw = "She lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
+status = "normal"
 enUS = "She lapped dew off fern leaves all night long, but by dawn it still wasn't enough."
 zhCN = "“她整晚都在蕨叶上舔露水，但到黎明时分仍然不够。”"
 zhTW = "她整夜舔食蕨類植物葉上的露水，但到黎明時仍然不夠。"
@@ -3725,8 +3741,8 @@ viVN = "Cô đã liếm sương trên lá dương xỉ suốt đêm, nhưng đ�
 trTR = "Gece boyunca eğreltiotlarının yapraklarından çiy içti ama sabah olunca yine de yeterli olmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.23"]
-status = "normal"
 raw = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
+status = "normal"
 enUS = "The pipe that used to feed the reservoir had long since dried up, and there was no one left to fix it."
 zhCN = "“用来给水库供水的管道早已干涸，再也没有人来修理它。”"
 zhTW = "曾經供應水庫的水管早已乾涸，剩下的人也無法修理它。"
@@ -3742,8 +3758,8 @@ viVN = "Cái ống từng cấp nước cho hồ chứa đã lâu không còn, v
 trTR = "Rezervuara su veren boru çoktan kurumuştu ve bunu tamir edecek kimse kalmamıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.24"]
-status = "normal"
 raw = "She wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
+status = "normal"
 enUS = "She wandered to the district border hoping for a neighboring canal, but the neighbors' sluice was shut to outsiders."
 zhCN = "“她漫步到地区边界，希望能找到一个邻近的运河，但邻居的闸门对外人关闭。”"
 zhTW = "「她漫遊到區域邊界，希望能找到鄰近的水道，但鄰居的閘門對外人關閉。」"
@@ -3759,8 +3775,8 @@ viVN = "Cô ấy đã lang thang đến biên giới khu vực với hy vọng t
 trTR = "Komşu bir kanala umarak bölge sınırına doğru dolaştı, ancak komşuların kapakları dışarıdan gelenlere kapalıydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.25"]
-status = "normal"
 raw = "The shimmer over the dry riverbed looked so much like a lake that she crawled toward it with her last strength — and never made it."
+status = "normal"
 enUS = "The shimmer over the dry riverbed looked so much like a lake that she crawled toward it with her last strength — and never made it."
 zhCN = "干涸河床上的闪光看起来如此像湖泊，以至于她用尽最后的力气向它爬去——却再也无法到达。"
 zhTW = "在乾枯的河床上閃爍的光芒看起來如此像是一個湖泊，她用最後的力量向它爬去——卻再也無法達到。"
@@ -3776,8 +3792,8 @@ viVN = "Cái lấp lánh trên lòng sông khô cằn trông giống như một 
 trTR = "Kuru nehir yatağındaki parıltı o kadar göle benziyordu ki, son gücüyle ona doğru süründü — ama oraya hiç ulaşamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.26"]
-status = "normal"
 raw = "She heard water dripping somewhere inside the lodge wall and crawled toward the sound until the sound stopped."
+status = "normal"
 enUS = "She heard water dripping somewhere inside the lodge wall and crawled toward the sound until it stopped."
 zhCN = "“她听到壁炉墙内某处传来水滴的声音，向声音爬去，直到声音停止。”"
 zhTW = "她聽見小屋牆壁裡傳來水滴的聲音，爬向聲音的來源，直到聲音消失。"
@@ -3793,8 +3809,8 @@ viVN = "Cô ấy nghe thấy tiếng nước nhỏ giọt từ đâu đó bên t
 trTR = "Yalnızca kulübenin duvarının içinde bir yerlerden su damladığını duydu ve sesin kaynağına doğru süründü, ta ki ses kesilene kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.27"]
-status = "normal"
 raw = "The dam held a full reservoir — just not for her: the line at the watering hole was too long."
+status = "normal"
 enUS = "The dam held a full reservoir — just not for her: the line at the watering hole was too long."
 zhCN = "水坝蓄满了水库——只是对她来说没有：饮水池的排队太长了。"
 zhTW = "水壩儲存了滿滿的水庫——只是對她來說並不如此：飲水處的隊伍太長。"
@@ -3810,8 +3826,8 @@ viVN = "Đập chứa đầy nước — chỉ là không dành cho cô ấy: h�
 trTR = "Baraj tam doluydu - sadece onun için değil: sulama noktasındaki kuyruk çok uzundu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.28"]
-status = "normal"
 raw = "She tried to dig a well with her bare paws, but the ground had turned harder than stone after the long drought."
+status = "normal"
 enUS = "She tried to dig a well with her bare paws, but the ground had turned harder than stone after the long drought."
 zhCN = "她试图用赤裸的爪子挖一个井，但经过漫长的干旱后，土地变得比石头还要坚硬。"
 zhTW = "「她試著用光禿禿的爪子挖井，但在漫長的乾旱之後，地面變得比石頭還要堅硬。」"
@@ -3827,8 +3843,8 @@ viVN = "Cô cố gắng đào một cái giếng bằng đôi paw trần của m
 trTR = "Uzun kuraklık sonrası yer taş gibi sertleştiği için çıplak pençeleriyle bir kuyu kazmaya çalıştı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.29"]
-status = "normal"
 raw = "Fog settled over the district for exactly one night — and that one night wasn't enough for her to lick up more than a few drops."
+status = "normal"
 enUS = "Fog settled over the district for exactly one night — and that one night wasn't enough for her to lick up more than a few drops."
 zhCN = "“浓雾笼罩了这个区域整整一个夜晚——而那个夜晚对她来说还不够，她只能舔到几滴水。”"
 zhTW = "霧氣籠罩了整個區域整整一夜——而那一夜對她來說並不足以讓她舔到超過幾滴的水。"
@@ -3844,8 +3860,8 @@ viVN = "Sương mù bao phủ khu vực trong đúng một đêm — và đêm �
 trTR = "Bölgenin üzerine tam bir gece boyunca sis çökmüştü — ve o bir gece, onun birkaç damladan fazlasını yalaması için yeterli değildi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.30"]
-status = "normal"
 raw = "The rain finally came — three days too late."
+status = "normal"
 enUS = "The rain finally came — three days too late."
 zhCN = "“雨终于来了——却晚了三天。”"
 zhTW = "雨終於來了——晚了三天。"
@@ -3861,8 +3877,8 @@ viVN = "Cơn mưa cuối cùng cũng đến — trễ ba ngày."
 trTR = "Yağmur sonunda geldi — üç gün geç kaldı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.31"]
-status = "normal"
 raw = "She watched a fish thrashing in a drying puddle and understood she'd soon be in its place."
+status = "normal"
 enUS = "She watched a fish thrashing in a drying puddle and understood she'd soon be in its place."
 zhCN = "“她看着一条鱼在干涸的水坑中挣扎，明白自己很快也会变成它的样子。”"
 zhTW = "她看著一條魚在乾澀的水窪中掙扎，明白自己很快也會處於它的位置。"
@@ -3878,8 +3894,8 @@ viVN = "Cô ấy nhìn một con cá vùng vẫy trong một vũng nước khô 
 trTR = "Bir balığın kuruyan bir su birikentinde çırpınışlarını izledi ve yakında onun yerinde olacağını anladı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.32"]
-status = "normal"
 raw = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
+status = "normal"
 enUS = "The reserve water tank sat locked in the storehouse, and the key belonged to a beaver who hadn't shown up for work that day."
 zhCN = "“储水箱锁在仓库里，钥匙属于那天没有来上班的一个海狸。”"
 zhTW = "儲水槽鎖在倉庫裡，鎖匙屬於一隻當天沒有來工作的河狸。"
@@ -3895,8 +3911,8 @@ viVN = "Thùng chứa nước dự trữ nằm khóa trong kho, và chìa khóa 
 trTR = "Rezerv su tankı depoda kilitliydi ve anahtar, o gün işe gelmeyen bir bobrağa aitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.33"]
-status = "normal"
 raw = "She rationed every sip, saving some for tomorrow — and tomorrow never came for her."
+status = "normal"
 enUS = "She rationed every sip, saving some for tomorrow — and tomorrow never came for her."
 zhCN = "“她控制着每一口水，留了一些到明天——而明天对她来说再也不会来了。”"
 zhTW = "她控制每一口水，留下一些到明天——而明天對她來說從未到來。"
@@ -3912,8 +3928,8 @@ viVN = "Cô ấy đã phân phối từng ngụm một cách tiết kiệm, dàn
 trTR = "Her zaman için birazını saklayarak her yudumu paylaştı - ama onun için yarın hiç gelmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.34"]
-status = "normal"
 raw = "The heat was so fierce that even the shade by the dam gave no relief — the water in her body ran out faster than the day did."
+status = "normal"
 enUS = "The heat was so fierce that even the shade by the dam gave no relief — the water in her body ran out faster than the day did."
 zhCN = "炎热如此猛烈，以至于大坝旁的阴凉也无法提供任何缓解——她体内的水分流失得比白天还快。"
 zhTW = "「炎熱如此猛烈，以至於連大壩旁的陰影也無法帶來緩解——她體內的水分比白天消逝得更快。」"
@@ -3929,8 +3945,8 @@ viVN = "Nóng nực đến nỗi ngay cả bóng râm bên đập cũng không m
 trTR = "Sıcaklık o kadar şiddetliydi ki, barajın gölgesi bile ferahlama sağlamıyordu — vücudundaki su, günün geçişinden daha hızlı bir şekilde tükendi."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.35"]
-status = "normal"
 raw = "She believed the rains started on the same day every cycle — but this year they were late."
+status = "normal"
 enUS = "She believed the rains started on the same day every cycle — but this year they were late."
 zhCN = "“她相信每个周期的同一天都会下雨——但今年雨却晚来了。”"
 zhTW = "「她相信每個循環的同一天雨水開始降下——但今年它們來得遲了。」"
@@ -3946,8 +3962,8 @@ viVN = "Cô ấy tin rằng mưa sẽ bắt đầu vào cùng một ngày trong 
 trTR = "Yağmurların her döngüde aynı gün başladığına inanıyordu — ama bu yıl geç kaldılar."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.36"]
-status = "normal"
 raw = "Her last strength went into dragging herself to the dry canal, just to lie down at its bottom."
+status = "normal"
 enUS = "Her last strength went into dragging herself to the dry canal, just to lie down at its bottom."
 zhCN = "她最后的力气全都用来拖着自己到干涸的渠道，只为躺在底部。"
 zhTW = "她最後的力氣用來爬到乾涸的水道，只為躺在底部。"
@@ -3963,8 +3979,8 @@ viVN = "Năng lực cuối cùng của cô đã đi vào việc tự kéo mình 
 trTR = "Son gücünü, sadece tabanında uzanmak için kuru kanala sürüklenmekte harcadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.37"]
-status = "normal"
 raw = "She'd long since stopped sweating — her body was rationing even what it no longer had."
+status = "normal"
 enUS = "She'd long since stopped sweating — her body was rationing even what it no longer had."
 zhCN = "“她早已不再出汗——她的身体甚至在节约那些早已没有的东西。”"
 zhTW = "「她早已停止流汗——她的身體甚至在節省已經不再擁有的東西。」"
@@ -3980,8 +3996,8 @@ viVN = "Cô ấy đã ngừng đổ mồ hôi từ lâu — cơ thể cô ấy �
 trTR = "Artık terlemeyi çoktan bırakmıştı - bedeni, artık sahip olmadığı şeyi bile kısıtlıyordu."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.38"]
-status = "normal"
 raw = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
+status = "normal"
 enUS = "The ditch around the sawmill had shrunk to cracked mud, and the real river was many times farther still."
 zhCN = "锯木厂周围的沟渠已经缩小成干裂的泥土，而真正的河流则远在数倍之外。"
 zhTW = "銳切磨坊周圍的溝渠已經縮小成裂開的泥土，而真正的河流則還遙遠得多。"
@@ -3997,8 +4013,8 @@ viVN = "Rãnh quanh xưởng cưa đã co lại thành bùn nứt nẻ, và dòn
 trTR = "Kesimhanenin etrafındaki hendek çatlamış çamur haline gelmişti ve gerçek nehir hala çok daha uzaktaydı."
 
 ["BeaverFamilyTree.CauseOfDeath.Thirst.F.39"]
-status = "normal"
 raw = "She looked at the dam one last time — the very one that was supposed to carry water to her, not past her."
+status = "normal"
 enUS = "She looked at the dam one last time — the very one that was supposed to carry water to her, not past her."
 zhCN = "“她最后一次看了看那座大坝——本该将水送给她，而不是越过她的那座。”"
 zhTW = "「她最後一次看著大壩——那座應該為她提供水源，而不是流過她的。」"
@@ -4014,8 +4030,8 @@ viVN = "Cô nhìn vào đập một lần cuối - chính cái đập lẽ ra ph
 trTR = "Son bir kez baraja baktı - ona su taşımak için yapılan, yanında değil."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.20"]
-status = "normal"
 raw = "She split her grain ration with a sick neighbor and kept too little back to last herself."
+status = "normal"
 enUS = "She shared her grain ration with a sick neighbor and kept too little for herself."
 zhCN = "“她把谷物配给分给了一位生病的邻居，自己留的太少，无法维持。”"
 zhTW = "“她把自己的谷物配給分給一位生病的鄰居，自己卻留得太少，無法撐過去。”"
@@ -4031,8 +4047,8 @@ viVN = "Cô ấy đã chia khẩu phần ngũ cốc với một người hàng x
 trTR = "Hastalıkla mücadele eden bir komşusuyla tahıl payını böldü ve kendisine yetecek kadar az bıraktı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.21"]
-status = "normal"
 raw = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
+status = "normal"
 enUS = "The storehouse was built too late — the harvest rotted in the rain before anyone could bring it in."
 zhCN = "仓库建得太晚——收成在下雨中腐烂，直到没人能把它收进来。"
 zhTW = "「倉庫建得太晚了——在任何人能把它搬進來之前，收成在雨中腐爛了。」"
@@ -4048,8 +4064,8 @@ viVN = "Nhà kho được xây dựng quá muộn — vụ thu hoạch đã bị
 trTR = "Depo çok geç inşa edildi — hasat, kimse toplamadan önce yağmurda çürüdü."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.22"]
-status = "normal"
 raw = "She tried chewing on an old leather strap, just to feel like there was something, anything, in her mouth."
+status = "normal"
 enUS = "She tried chewing on an old leather strap, just to feel like there was something, anything, in her mouth."
 zhCN = "她试着咀嚼一条旧皮带，只是想感觉到嘴里有一些东西，无论是什么。"
 zhTW = "她試著咬一條舊皮帶，只是想感覺到口中有什麼東西，無論是什麼。"
@@ -4065,8 +4081,8 @@ viVN = "Cô ấy đã cố gắng nhai một dây da cũ, chỉ để cảm th�
 trTR = "Eski bir deri kayışı çiğnemeye çalıştı, sadece ağzında bir şey, her ne olursa olsun, varmış gibi hissetmek için."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.23"]
-status = "normal"
 raw = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
+status = "normal"
 enUS = "The line at the kitchen stretched all day, and there was only enough food for those at the front of it."
 zhCN = "“厨房的队伍一整天都在延伸，而只有前面的人有足够的食物。”"
 zhTW = "廚房的隊伍整天都在拉長，而只有前面的人有足夠的食物。"
@@ -4082,8 +4098,8 @@ viVN = "Dòng người ở bếp kéo dài suốt cả ngày, và chỉ có đ�
 trTR = "Mutfaktaki kuyruk bütün gün uzadı ve yalnızca önündekiler için yeterli yiyecek vardı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.24"]
-status = "normal"
 raw = "She traded her last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
+status = "normal"
 enUS = "She traded her last ration for a warm blanket — and only afterward realized a blanket doesn't fill a stomach."
 zhCN = "她用最后一份口粮换来了一条温暖的毛毯——只有在那之后才意识到毛毯无法填饱肚子。"
 zhTW = "她用最後一份口糧換來了一條溫暖的毯子——等到她意識到毯子不能填飽肚子時，已經太晚了。"
@@ -4099,8 +4115,8 @@ viVN = "Cô ấy đã đổi khẩu phần cuối cùng của mình lấy một 
 trTR = "Son rasyosunu sıcak bir battaniye için takas etti - ve ancak sonrasında bir battaniyenin karnı doyurmadığını fark etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.25"]
-status = "normal"
 raw = "Field mice stripped the barn's stores faster than the beavers could restock them."
+status = "normal"
 enUS = "Field mice stripped the barn's stores faster than the beavers could restock them."
 zhCN = "田野老鼠掠夺谷仓的储存速度快于海狸补充的速度。"
 zhTW = "田鼠比海狸更快地掠奪了穀倉的儲存物資，讓它們無法補充。"
@@ -4116,8 +4132,8 @@ viVN = "Chuột đồng đã cạn kiệt kho hàng trong kho nhanh hơn cả l�
 trTR = "Tarla fareleri, bobriklerin yeniden depolamasından daha hızlı bir şekilde ahırın stoğunu boşalttı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.26"]
-status = "normal"
 raw = "She kept watching them build a new sawmill instead of the storehouse that was needed far more."
+status = "normal"
 enUS = "She kept watching them build a new sawmill instead of the storehouse that was needed far more."
 zhCN = "“她一直看着他们搭建一个新的锯木厂，而不是更需要的仓库。”"
 zhTW = "她一直在看著他們建造一座新的鋸木廠，而不是更需要的倉庫。"
@@ -4133,8 +4149,8 @@ viVN = "Cô ấy cứ nhìn họ xây dựng một nhà máy cưa mới thay vì
 trTR = "Yeni depo yerine ihtiyacı çok daha fazla olan yeni bir kesme tahtası inşa ettiklerini izlemeye devam etti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.27"]
-status = "normal"
 raw = "Hunger dulled every sense until she stopped noticing even the pain in her paws, worn raw."
+status = "normal"
 enUS = "Hunger dulled every sense until she stopped noticing even the pain in her paws, worn raw."
 zhCN = "“饥饿麻痹了她的每一个感官，直到她甚至不再注意到自己磨破的爪子的疼痛。”"
 zhTW = "飢餓使每一種感官麻木，直到她連爪子的疼痛都不再注意，那疼痛已經磨得赤裸無骨。"
@@ -4150,8 +4166,8 @@ viVN = "Cơn đói làm tê liệt mọi giác quan đến mức cô không còn
 trTR = "Açlık, her duyuyu körleştirene kadar, hatta ayaklarındaki acıyı bile hissetmeyi bıraktı, harap olmuştu."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.28"]
-status = "normal"
 raw = "The last thing she ate was a handful of sawdust off the sawmill floor — and even that didn't save her from the hunger."
+status = "normal"
 enUS = "The last thing she ate was a handful of sawdust off the sawmill floor — and even that didn't save her from the hunger."
 zhCN = "“她最后吃的是从锯木厂地板上捡起的一把锯末——即便如此也没能拯救她于饥饿。”"
 zhTW = "她最後吃的東西是一把鋸木廠地板上的鋸屑——即便如此也無法讓她擺脫飢餓。"
@@ -4167,8 +4183,8 @@ viVN = "Cái cuối cùng cô ăn là một nắm bụi gỗ từ sàn nhà máy
 trTR = "Yediği son şey, merdane zemininden bir avuç talaş oldu - bu bile onu açlıktan kurtaramadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.29"]
-status = "normal"
 raw = "She saved her strength for tomorrow's shift at the dam, not counting on the fact that she wouldn't live to see it."
+status = "normal"
 enUS = "She saved her strength for tomorrow's shift at the dam, not counting on the fact that she wouldn't live to see it."
 zhCN = "“她为明天在大坝的轮班节省了力气，却没想到她活不到那一天。”"
 zhTW = "「她為明天在水壩的值班保存力量，卻沒想到自己無法活著看到那一天。」"
@@ -4184,8 +4200,8 @@ viVN = "Cô ấy đã tiết kiệm sức lực cho ca làm việc vào ngày ma
 trTR = "Barajdaki yarına yapılacak mesai için gücünü sakladı, ama bunu görecek kadar yaşamayacağını hiç düşünmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.30"]
-status = "normal"
 raw = "The badtide washed out half the crops that year, and she was one of the ones the leftovers didn't stretch to."
+status = "normal"
 enUS = "The bad tide washed out half the crops that year, and she was one of the ones the leftovers didn't stretch to."
 zhCN = "“那年恶潮冲走了一半的作物，而她是剩下的食物不够的其中之一。”"
 zhTW = "那年的惡潮沖走了一半的作物，剩下的供應不足以讓她存活下來。"
@@ -4201,8 +4217,8 @@ viVN = "Dòng thủy triều xấu đã cuốn trôi một nửa mùa vụ trong
 trTR = "O yıl kötü dalga mahsullerin yarısını götürdü ve artanlar ona yetmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.31"]
-status = "normal"
 raw = "She pretended she'd already eaten so no one would give up their own ration to her — and kept up the act to the end."
+status = "normal"
 enUS = "She pretended she'd already eaten so no one would give up their own ration to her — and kept up the act to the end."
 zhCN = "她假装自己已经吃过，以便让别人不给她自己的口粮——并坚持到最后。"
 zhTW = "她假裝自己已經吃過了，這樣沒有人會把自己的口糧給她—並一直保持這種狀態直到最後。"
@@ -4218,8 +4234,8 @@ viVN = "Cô giả vờ rằng mình đã ăn rồi để không ai phải như�
 trTR = "Zaten yemiş gibi davrandı böylece kimse kendi rasyonunu ona vermedi — ve bu oyunu sona kadar sürdürdü."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.32"]
-status = "normal"
 raw = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than she could hold out for."
+status = "normal"
 enUS = "The fresh load of logs arrived right on schedule — the barge with the food was a day later than she could hold out for."
 zhCN = "“一车新鲜的木材准时到达——运送食物的驳船比她能坚持的时间晚了一天。”"
 zhTW = "新一批原木準時抵達——載著食物的駁船比她能忍受的晚了一天。"
@@ -4235,8 +4251,8 @@ viVN = "Chuyến hàng gỗ tươi đã đến kịp thời — chiếc xà lan 
 trTR = "Fidan yığını tam zamanında geldi - yiyecek taşıyan kayık, dayanabileceği süreden bir gün sonra geldi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.33"]
-status = "normal"
 raw = "She steered clear of the neighboring district's full granaries, too proud to ask for help."
+status = "normal"
 enUS = "She steered clear of the neighboring district's full granaries, too proud to ask for help."
 zhCN = "“她避开了邻近地区满满的粮仓，太过自尊而不愿求助。”"
 zhTW = "她避開了鄰近區域滿滿的糧倉，心中有著驕傲，不願意尋求幫助。"
@@ -4252,8 +4268,8 @@ viVN = "Cô tránh xa những kho thóc đầy ắp của khu vực lân cận, 
 trTR = "Yardım istemeye fazla gururlu olduğu için komşu bölgedeki dolu ambarlardan kaçındı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.34"]
-status = "normal"
 raw = "Her last strength went into hauling her own cart of logs to the storehouse, not into finding a meal."
+status = "normal"
 enUS = "Her last strength went into hauling her own cart of logs to the storehouse, not into finding a meal."
 zhCN = "她最后的力量用在了将自己的木材车拉到仓库，而不是寻找食物。"
 zhTW = "“她最後的力量用來拖運自己的一車木材到倉庫，而不是去找一頓飯。”"
@@ -4269,8 +4285,8 @@ viVN = "Sức mạnh cuối cùng của cô ấy đã được dùng để kéo 
 trTR = "Son gücü, bir yemek bulmak yerine, kendi odun arabasını ambarına taşımaya gitti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.35"]
-status = "normal"
 raw = "She was counting on the spring shoots to save her — but spring was late that cycle."
+status = "normal"
 enUS = "She was counting on the spring shoots to save her — but spring was late that cycle."
 zhCN = "她指望着春天的嫩芽能救她——但那个周期春天来得很晚。"
 zhTW = "「她指望著春天的嫩芽來拯救自己——但這個週期的春天來得太晚了。」"
@@ -4286,8 +4302,8 @@ viVN = "Cô ấy đã hy vọng vào những chồi non mùa xuân để cứu m
 trTR = "Bahar filizlerine güveniyordu — ama bu döngüde bahar gecikti."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.36"]
-status = "normal"
 raw = "Hunger crept up on her unnoticed through the long shifts, right up until the day her legs simply refused to rise."
+status = "normal"
 enUS = "Hunger crept up on her unnoticed through the long shifts, right up until the day her legs simply refused to rise."
 zhCN = "“饥饿在长时间的工作中悄悄逼近她，直到有一天她的双腿根本不愿意再站起来。”"
 zhTW = "飢餓在漫長的工作輪班中悄然降臨，直到那天她的雙腿根本不再聽使喚。"
@@ -4303,8 +4319,8 @@ viVN = "Nhu cầu ăn uống lén lút ập đến với cô ấy trong suốt n
 trTR = "Açlık, uzun vardiyalar boyunca fark edilmeden üzerine sinmişti, ta ki bacaklarının artık kalkmayı reddettiği güne kadar."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.37"]
-status = "normal"
 raw = "She kept telling herself there'd be time to eat after the next shift — but the next shift never ended for her."
+status = "normal"
 enUS = "She kept telling herself there'd be time to eat after the next shift — but the next shift never ended for her."
 zhCN = "“她不断告诉自己下一个轮班结束后就有时间吃饭——但对她来说，下一个轮班从未结束。”"
 zhTW = "「她不斷告訴自己，下一班工作結束後會有時間吃飯——但對她來說，下一班從未結束。」"
@@ -4320,8 +4336,8 @@ viVN = "Cô ấy cứ tự nhủ rằng sẽ có thời gian để ăn sau ca l�
 trTR = "Bir sonraki vardiyadan sonra yemek yemeye zaman olacağını sürekli kendisine söyleyip durdu — ama onun için bir sonraki vardiya asla sona ermedi."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.38"]
-status = "normal"
 raw = "She gave up her place in the kitchen line three times running — the fourth time, the line never opened for her at all."
+status = "normal"
 enUS = "She gave up her place in the kitchen line three times in a row — the fourth time, the line never opened for her at all."
 zhCN = "她连续三次放弃在厨房排队的机会——第四次，她根本没有机会排队。"
 zhTW = "她連續三次放棄在廚房排隊的位置——第四次，她根本沒能再排上隊。"
@@ -4337,8 +4353,8 @@ viVN = "Cô ấy đã từ bỏ vị trí của mình trong hàng bếp ba lần
 trTR = "Üç kez arka arkaya mutfak sırasını bıraktı — dördüncü kez, sıra onun için hiç açılmadı."
 
 ["BeaverFamilyTree.CauseOfDeath.Hunger.F.39"]
-status = "normal"
 raw = "Her empty stomach drowned out even the hammers at the sawmill — but she could never drown out the hunger itself."
+status = "normal"
 enUS = "Her empty stomach drowned out even the hammers at the sawmill — but she could never drown out the hunger itself."
 zhCN = "“她空荡荡的肚子甚至淹没了锯木厂的锤声——但她永远无法淹没那种饥饿本身。”"
 zhTW = "她空蕩蕩的胃連鋸木廠的錘聲都淹沒了——但她卻永遠無法淹沒那種饑餓感。"
@@ -4354,8 +4370,8 @@ viVN = "Ợ bụng đói của cô ấy lấn át cả tiếng búa ở xưởng
 trTR = "Boş karnı, testerehane bıçaklarının sesini bile bastırdı — ama asla açlığı bastıramadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.20"]
-status = "normal"
 raw = "She made one last round of the dam, nodding to every familiar log as if saying goodbye."
+status = "normal"
 enUS = "She made one last round of the dam, nodding to every familiar log as if saying goodbye."
 zhCN = "“她最后一圈巡视了大坝，向每一根熟悉的原木点头，仿佛在说再见。”"
 zhTW = "「她最後繞了一圈大壩，對每一根熟悉的木頭點頭，彷彿在說再見。」"
@@ -4371,8 +4387,8 @@ viVN = "Cô ấy đi một vòng cuối cùng quanh đập, gật đầu với m
 trTR = "Barajın etrafında son bir tur attı, veda ediyormuşcasına tanıdık her tomruğa başını salladı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.21"]
-status = "normal"
 raw = "Her voice grew quieter, her legs slower, but her smile at the sight of her grandkits never changed, right to the end."
+status = "normal"
 enUS = "Her voice grew quieter, her legs slower, but her smile at the sight of her grandkits never changed, right to the end."
 zhCN = "“她的声音渐渐变得柔和，腿脚也愈发缓慢，但看到孙崽时的微笑始终未变，直到最后。”"
 zhTW = "她的聲音變得越來越小，腿也變得越來越慢，但看到孫仔的笑容始終沒有改變，直到最後一刻。"
@@ -4388,8 +4404,8 @@ viVN = "Giọng nói của bà ngày càng nhỏ dần, đôi chân trở nên c
 trTR = "Ses tonu giderek azaldı, bacakları yavaşladı, ama torunlarını görünceki gülümsemesi son ana kadar hiç değişmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.22"]
-status = "normal"
 raw = "She left the youngsters her favorite bench by the water — and quietly took her place in the family's memory instead."
+status = "normal"
 enUS = "She left the youngsters her favorite bench by the water — and quietly took her place in the family's memory instead."
 zhCN = "她把自己最喜欢的水边长椅留给了年轻一代——然后安静地在家族的记忆中留下了自己的位置。"
 zhTW = "她將自己最喜愛的水邊長椅留給了年輕的狸藻，然後靜靜地在家庭的記憶中佔據了一個位置。"
@@ -4405,8 +4421,8 @@ viVN = "Cô để lại cho các con trẻ chiếc ghế yêu thích của mình
 trTR = "Gençlere su kenarındaki en sevdiği bankı bıraktı — ve ailesinin anılarında sessizce yerini aldı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.23"]
-status = "normal"
 raw = "Age never asked permission — it simply came for her one day, as peacefully as it had come for so many before her."
+status = "normal"
 enUS = "Age never asked for permission — it simply arrived for her one day, as peacefully as it had for so many before her."
 zhCN = "“岁月从不征求许可——它只是在某一天安静地降临到她身上，就像它之前降临给过许多其他人一样。”"
 zhTW = "年齡從不徵求允許——某天，它就這樣來到了她身邊，和以前來到過許多人的方式一樣平靜。"
@@ -4422,8 +4438,8 @@ viVN = "Tuổi tác chưa bao giờ xin phép — nó đơn giản đến với 
 trTR = "Yaş asla izin istemedi - bir gün, daha öncekilerin çoğu gibi, onun için de huzur içinde geldi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.24"]
-status = "normal"
 raw = "She'd long since taken to living on memories of the great builds of her youth — and one day she simply didn't wake up among them."
+status = "normal"
 enUS = "She had long since taken to living on memories of the great builds of her youth — and one day she simply didn't wake up among them."
 zhCN = "她早已习惯于靠年轻时那些伟大建筑的回忆生活——有一天，她在其中就这样没有醒来。"
 zhTW = "「她早已習慣於依靠年輕時那些偉大建設的回憶生活——有一天，她的確是在那些回憶中未能再醒來。」"
@@ -4439,8 +4455,8 @@ viVN = "Cô đã lâu lắm sống bằng những kỷ niệm về những công
 trTR = "Gençliğinin büyük yapılarının anılarıyla yaşamaya çoktan başlamıştı - bir gün onlardan birinin arasında basitçe uyanamadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.25"]
-status = "normal"
 raw = "The last thing she saw was the morning mist over the river — the very same mist as the day she'd first arrived."
+status = "normal"
 enUS = "The last thing she saw was the morning mist over the river — the very same mist as the day she'd first arrived."
 zhCN = "“她最后看到的景象是河面上的晨雾——正是她第一次到达时看到的那种雾。”"
 zhTW = "她最後看到的是河上清晨的薄霧——正是她第一次抵達的那天的薄霧。"
@@ -4456,8 +4472,8 @@ viVN = "Cái cuối cùng cô ấy nhìn thấy là sương mù buổi sáng tr�
 trTR = "Son gördüğü şey, nehrin üzerindeki sabah sisiydi — tam da ilk geldiği günkü sis."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.26"]
-status = "normal"
 raw = "She refused to move to a new lodge, saying she'd die where she'd lived her whole life. And so she did."
+status = "normal"
 enUS = "She refused to move to a new lodge, saying she'd die where she'd lived her whole life. And so she did."
 zhCN = "“她拒绝搬到新的栖息地，说她要在自己一生中生活过的地方死去。于是她就这样做了。”"
 zhTW = "「她拒絕搬到新巢穴，說她會在自己一生所居住的地方死去。於是她就這麼做了。」"
@@ -4473,8 +4489,8 @@ viVN = "Cô từ chối chuyển đến một tửu quán mới, nói rằng cô
 trTR = "Yeni bir yuva taşınmayı reddetti, çünkü tüm hayatını geçirdiği yerde öleceğini söyledi. Ve gerçekten de öyle oldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.27"]
-status = "normal"
 raw = "Her body gave out before her spirit did — she kept trying to help at the dam right to the last day, long after she could no longer lift a log."
+status = "normal"
 enUS = "Her body gave out before her spirit did — she kept trying to help at the dam right to the last day, long after she could no longer lift a log."
 zhCN = "“她的身体在灵魂之前衰竭——她一直在努力帮忙修建坝体，直到最后一天，尽管她再也无法抬起一根树干。”"
 zhTW = "她的身體在靈魂之前就衰竭了——在最後一天之前，她一直試著在大壩上幫忙，儘管早已無法再提起一根木頭。"
@@ -4490,8 +4506,8 @@ viVN = "Cơ thể cô ấy suy yếu trước khi tinh thần cô ấy gặp v�
 trTR = "Bedeni ruhundan önce pes etti - son güne kadar barajda yardım etmeye çalıştı, bir kütüğü kaldırabilecek durumda olmayı çoktan geçmesine rağmen."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.28"]
-status = "normal"
 raw = "She slipped away quietly in her sleep to the creak of old trees — the very sound that had lulled her whole life."
+status = "normal"
 enUS = "She slipped away quietly in her sleep to the creak of old trees — the very sound that had lulled her whole life."
 zhCN = "“她在梦中静静地离去，伴随着老树的吱嘎声——那正是伴随她一生的声音。”"
 zhTW = "她在睡夢中靜靜地離開，伴隨著老樹的吱吱聲——那是她一生都在催眠的聲音。"
@@ -4507,8 +4523,8 @@ viVN = "Cô ấy từ từ ra đi trong giấc ngủ với tiếng kêu của nh
 trTR = "Yavaşça uykusunda, hayatı boyunca onu sakinleştiren eski ağaçların gıcırdaması eşliğinde kayboldu."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.29"]
-status = "normal"
 raw = "Her children were long grown, and her grandkits too, and still she watched the river with the same wonder as on her very first day."
+status = "normal"
 enUS = "Her children were long grown, and her grandkits too, and still she watched the river with the same wonder as on her very first day."
 zhCN = "“她的孩子们早已长大，孙子们也一样，但她仍然以和第一天一样的惊奇看着河流。”"
 zhTW = "她的孩子早已長大，她的孫子們也是，而她仍然以與第一天相同的驚奇凝視著河流。"
@@ -4524,8 +4540,8 @@ viVN = "Các con của bà đã lớn lâu rồi, và cả những chú cháu c�
 trTR = "Çocukları uzun süredir büyümüştü, torunları da öyle, ama yine de nehrin kenarını ilk günkü hayranlıkla izledi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.30"]
-status = "normal"
 raw = "That last winter turned out mild, as if nature itself had decided to let her go gently."
+status = "normal"
 enUS = "That last winter turned out mild, as if nature itself had decided to let her go gently."
 zhCN = "那最后一个冬天出人意料地温和，就好像大自然自己决定让她安然离去。"
 zhTW = "那個最後的冬天變得温和，彷彿大自然本身決定讓她安詳地離去。"
@@ -4541,8 +4557,8 @@ viVN = "Mùa đông năm ngoái hóa ra lại dịu dàng, như thể thiên nhi
 trTR = "Son kış ılıman geçti, sanki doğa kendisi nazikçe veda etmesine karar vermiş gibiydi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.31"]
-status = "normal"
 raw = "She'd just finished passing on the secret of her sturdiest dam when she went to her rest with a light heart."
+status = "normal"
 enUS = "She'd just finished passing on the secret of her sturdiest dam when she went to her rest with a light heart."
 zhCN = "“她刚刚传授完她最坚固的水坝的秘密，就带着轻松的心情安息了。”"
 zhTW = "「她剛剛傳授完自己最堅固的水壩的秘密，便輕鬆地安然入眠。」"
@@ -4558,8 +4574,8 @@ viVN = "Cô ấy vừa hoàn thành việc truyền lại bí mật của con đ
 trTR = "En dayanıklı barajının sırrını paylaşmayı yeni bitirmişti ki, hafif bir kalple huzur içinde göçtü."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.32"]
-status = "normal"
 raw = "Her frail paws could no longer hold a log, but they held her grandkits' paws tight right to the end."
+status = "normal"
 enUS = "Her frail paws could no longer hold a log, but they held her grandkits' paws tight right to the end."
 zhCN = "“她虚弱的爪子再也无法握住一根树干，但她紧紧地握住孙辈们的爪子，一直到最后。”"
 zhTW = "她虛弱的爪子再也無法握住樹幹，但她緊緊握住孫子們的爪子，直到最後一刻。"
@@ -4575,8 +4591,8 @@ viVN = "Đôi chân yếu ớt của bà không thể nắm giữ một khúc g�
 trTR = "Zayıf pençeleri bir log tutamaz hale gelmişti, ama hayatının sonuna kadar torunlarının pençelerini sıkıca tutmaya devam etti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.33"]
-status = "normal"
 raw = "She faded away quietly between two strikes of the sawmill bell, never hearing the second one."
+status = "normal"
 enUS = "She faded away quietly between two strikes of the sawmill bell, never hearing the second one."
 zhCN = "她在锯木厂铃声的两次鸣响之间悄然离去，连第二声都未曾听见。"
 zhTW = "「她在鋸木廠鐘聲的兩次敲擊之間悄然離去，從未聽見第二聲。」"
@@ -4592,8 +4608,8 @@ viVN = " cô ấy đã lặng lẽ ra đi giữa hai tiếng chuông của nhà 
 trTR = "Testere fabrikasının çanının iki vuruşu arasında sessizce yok oldu, ikinciyi asla duymadı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.34"]
-status = "normal"
 raw = "The wrinkles on her face were a map of the years she'd lived — and one day that map simply closed."
+status = "normal"
 enUS = "The wrinkles on her face were a map of the years she'd lived — and one day that map simply closed."
 zhCN = "“她脸上的皱纹是她所活过岁月的地图——而有一天，那张地图就这样结束了。”"
 zhTW = "她臉上的皺紋是她所活過的歲月的地圖——而一天，那張地圖便悄然閉合。"
@@ -4609,8 +4625,8 @@ viVN = "Nếp nhăn trên khuôn mặt cô là một bản đồ của những n
 trTR = "Yüzündeki kırışıklıklar, yaşadığı yılların bir haritasıydı - ve bir gün o harita sadece kapandı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.35"]
-status = "normal"
 raw = "She dozed off by the fire every evening — and one of those evenings turned out to be her last, though no one noticed the difference right away."
+status = "normal"
 enUS = "She dozed off by the fire every evening — and one of those evenings turned out to be her last, though no one noticed the difference right away."
 zhCN = "她每晚在火边打盹——而那些晚上中的一个恰好是她的最后一晚，尽管没有人立刻注意到有什么不同。"
 zhTW = "她每晚都在火堆旁打盹——而那些晚上中的某一晚成為了她的最後一晚，雖然沒有人立刻發現有什麼不同。"
@@ -4626,8 +4642,8 @@ viVN = "Cô ấy thường gục vào giấc ngủ bên lửa mỗi buổi tối
 trTR = "Her akşam ateşin yanında uyukladı - ve o akşamlardan biri onun son akşamı oldu, ama kimse hemen bir fark hissetmedi."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.36"]
-status = "normal"
 raw = "She brought in the last harvest of her life herself, flatly refusing any help from the young ones."
+status = "normal"
 enUS = "She brought in the last harvest of her life herself, flatly refusing any help from the young ones."
 zhCN = "“她亲自收获了她生命中的最后一次丰收，坚决拒绝了年轻人的任何帮助。”"
 zhTW = "“她自己收穫了生命中最後的收成，堅決拒絕了年輕人的任何幫助。”"
@@ -4643,8 +4659,8 @@ viVN = "Cô đã tự tay thu hoạch vụ mùa cuối cùng của cuộc đời
 trTR = "Hayatının son hasadını kendisi getirdi, gençlerden gelen her türlü yardımı kesin bir dille reddetti."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.37"]
-status = "normal"
 raw = "She left as quietly as she'd once arrived in this district — without any fuss, leaving a sturdy dam behind her."
+status = "normal"
 enUS = "She left as quietly as she'd once arrived in this district — without any fuss, leaving a sturdy dam behind her."
 zhCN = "她像当初来到这个地区一样悄然离去——没有任何喧嚣，留下了一座坚固的坝。"
 zhTW = "她離開時如同當初來到這個地區那樣安靜——沒有任何喧鬧，只留下了一座堅固的壩。"
@@ -4660,8 +4676,8 @@ viVN = "Cô ra đi một cách yên lặng như cách cô đã đến với khu 
 trTR = "Bu bölgeye bir zamanlar geldiği gibi sessizce ayrıldı — gürültü patırtı olmadan, arkasında sağlam bir baraj bırakarak."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.38"]
-status = "normal"
 raw = "Age took her strength, but never her memory — to the end, she remembered the name of everyone she'd ever taught."
+status = "normal"
 enUS = "Age took her strength, but never her memory — to the end, she remembered the name of everyone she'd ever taught."
 zhCN = "岁月夺走了她的力量，却从未夺走她的记忆——直到最后，她仍然记得自己教过的每一个人的名字。"
 zhTW = "年齡奪去了她的力量，但從未奪走她的記憶——直到最後，她仍記得每一個她曾教過的人的名字。"
@@ -4677,8 +4693,8 @@ viVN = "Thời gian đã lấy đi sức mạnh của cô, nhưng không bao gi�
 trTR = "Yaş, gücünü aldı ama asla hafızasını almadı - sonuna kadar, öğrettiği herkesin adını hatırladı."
 
 ["BeaverFamilyTree.CauseOfDeath.OldAge.F.39"]
-status = "normal"
 raw = "She lay down to rest after a long day, just as she had her whole life — only this time the rest turned out to be forever."
+status = "normal"
 enUS = "She lay down to rest after a long day, just as she had her whole life — only this time the rest turned out to be forever."
 zhCN = "“在漫长的一天后，她躺下休息，就像她一生中所做的那样——只不过这一次，休息变成了永远。”"
 zhTW = "她在漫長的一天後躺下休息，就像她一生中所做的那樣——只是這次的休息卻永遠無法醒來。"

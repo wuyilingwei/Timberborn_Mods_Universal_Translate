@@ -1,0 +1,38 @@
+[_meta]
+name = "Родословная бобров - Рода / Beaver Family Clan"
+
+["BeaverFamilyClan.CreateClanPrompt.Message"]
+new = "Make «{0}» the founder of a clan? From now on, the first descendant of «{0}»'s own gender will eventually inherit this name — «{0} II», then «{0} III», and so on for as long as the clan has suitable descendants. If not, this is just a regular rename — nothing else changes."
+status = "normal"
+
+["BeaverFamilyClan.CreateClanPrompt.Confirm"]
+new = "Yes, start a clan"
+status = "normal"
+
+["BeaverFamilyClan.CreateClanPrompt.Cancel"]
+new = "No, just the name"
+status = "normal"
+
+["BeaverFamilyClan.NameTakenWarning.Message"]
+new = "The name «{0}» is already used by another clan. Rename this beaver to something else to start a separate clan for it."
+status = "normal"
+
+["BeaverFamilyClan.ClanExtinctNotification.Message"]
+new = "The last of the «{0}» line has died without leaving an heir. Other families have offered to honor their memory."
+status = "normal"
+
+["BeaverFamilyClan.ClanExtinctPrompt.Message"]
+new = "The «{0}» line has died out. Honor its memory by naming the next matching newborn after it, or let it fade into forgetting? A forgotten name can always be started again later."
+status = "normal"
+
+["BeaverFamilyClan.ClanExtinctPrompt.Perpetuate"]
+new = "Honor the name"
+status = "normal"
+
+["BeaverFamilyClan.ClanExtinctPrompt.Forget"]
+new = "Let it fade"
+status = "normal"
+
+["BeaverFamilyClan.ClanForgottenNotification.Message"]
+new = "The beavers couldn't agree — the «{0}» line has faded into forgetting."
+status = "normal"

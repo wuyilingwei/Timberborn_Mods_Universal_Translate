@@ -1,0 +1,90 @@
+[_meta]
+name = "Crane"
+
+["LV.Cr.CraneName"]
+new = "Crane"
+status = "normal"
+
+["LV.Cr.CraneDesc"]
+new = "A stationary builder. The builder works from inside and reaches surrounding construction sites. It can build, demolish and gather rubble. Can be expanded upwards with more Crane Sections."
+status = "normal"
+
+["LV.Cr.CraneFlavor"]
+new = "Apparently the hoomans used a giant bird for this job. Ours doesn't need feeding."
+status = "normal"
+
+["LV.Cr.CraneSectionName"]
+new = "Crane Section"
+status = "normal"
+
+["LV.Cr.CraneSectionDesc"]
+new = "Extends a Crane upward. Placed from a base Crane. Fully refunded when destroyed."
+status = "normal"
+
+["LV.Cr.CraneSectionFlavor"]
+new = "For an Iron Teeth invention, it is really uplifting."
+status = "normal"
+
+["LV.Cr.SelectCrane"]
+new = "Select Crane"
+status = "normal"
+
+["LV.Cr.Height"]
+new = "Height: {0}"
+status = "normal"
+
+["LV.Cr.HeightPending"]
+new = "Height: {0} / {1}"
+status = "normal"
+
+["LV.Cr.BuildHigher"]
+new = "Build higher"
+status = "normal"
+
+["LV.Cr.CannotBuildHigher"]
+new = "Cannot place a Crane Section on top of this Crane."
+status = "normal"
+
+["LV.Cr.JobPriority"]
+new = "Priority"
+status = "normal"
+
+["LV.Cr.NoJobs"]
+new = "No work in range"
+status = "normal"
+
+["LV.Cr.NoMaterials"]
+new = "No materials needed"
+status = "normal"
+
+["LV.Cr.JobBuild"]
+new = "Build"
+status = "normal"
+
+["LV.Cr.JobDemolish"]
+new = "Demolish"
+status = "normal"
+
+["LV.Cr.JobGather"]
+new = "Gather"
+status = "normal"
+
+["LV.Cr.WorkBonus"]
+new = "● <YellowHighlight>Work speed bonus:</YellowHighlight> {0:+0%}"
+status = "normal"
+
+[Name_CraneFragment]
+new = "Crane"
+status = "normal"
+
+[Name_CraneSectionFragment]
+new = "[DO_NOT_COLLAPSE]"
+status = "normal"
+
+[Name_CraneInventoryFragment]
+new = "Crane Inventory"
+status = "normal"
+
+[Name_CraneJobQueueFragment]
+new = "Crane Jobs"
+status = "normal"
