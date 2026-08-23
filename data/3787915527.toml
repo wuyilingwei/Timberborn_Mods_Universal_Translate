@@ -2,8 +2,8 @@
 name = "Crane"
 
 ["LV.Cr.CraneName"]
-status = "normal"
 raw = "Crane"
+status = "normal"
 enUS = "Crane"
 zhCN = "起重机"
 zhTW = "起重機"
@@ -19,8 +19,8 @@ viVN = "Cái Cần"
 trTR = "Vinç"
 
 ["LV.Cr.CraneDesc"]
-status = "normal"
 raw = "A stationary builder. The builder works from inside and reaches surrounding construction sites. It can build, demolish and gather rubble. Can be expanded upwards with more Crane Sections."
+status = "normal"
 enUS = "A stationary builder. The builder works from inside and reaches surrounding construction sites. It can build, demolish, and gather rubble. Can be expanded upwards with more Crane Sections."
 zhCN = "一座静止不动的建筑工。建筑工从内部工作，能够覆盖周围的建筑工地。它可以建造、拆除和收集碎石。可以通过增加更多的起重机部分向上扩展。"
 zhTW = "一個固定的建築機。建築機從內部工作，能夠到達周圍的建築工地。它可以建造、拆除並收集瓦礫。可以通過增加更多的起重機部件向上擴展。"
@@ -36,8 +36,8 @@ viVN = "Một người xây dựng tĩnh. Người xây dựng làm việc từ 
 trTR = "Statik bir inşaat makinesi. İnşaat makinesi, iç kısmından çalışır ve çevresindeki inşaat alanlarına ulaşır. İnşa edebilir, yıkım yapabilir ve moloz toplayabilir. Daha fazla Kran Bölümü ile yukarıya doğru genişletilebilir."
 
 ["LV.Cr.CraneFlavor"]
-status = "normal"
 raw = "Apparently the hoomans used a giant bird for this job. Ours doesn't need feeding."
+status = "normal"
 enUS = "Apparently, the humans used a giant bird for this job. Ours doesn't need feeding."
 zhCN = "“显然，人类用一只巨大的鸟来完成这个工作。我们的不需要喂养。”"
 zhTW = "顯然，人類曾經用一隻巨鳥來完成這項工作。我們的則不需要餵食。"
@@ -53,8 +53,8 @@ viVN = "Có vẻ như bọn người đã sử dụng một con chim khổng l�
 trTR = "Görünüşe göre insanlar bu iş için dev bir kuş kullandı. Bizimkine beslenmesine gerek yok."
 
 ["LV.Cr.CraneSectionName"]
-status = "normal"
 raw = "Crane Section"
+status = "normal"
 enUS = "Crane Section"
 zhCN = "起重机部分"
 zhTW = "起重機區域"
@@ -70,8 +70,8 @@ viVN = "Phần Cần Cẩu"
 trTR = "Vinç Bölümü"
 
 ["LV.Cr.CraneSectionDesc"]
-status = "normal"
 raw = "Extends a Crane upward. Placed from a base Crane. Fully refunded when destroyed."
+status = "normal"
 enUS = "Extends a Crane upward. Placed from a base Crane. Fully refunded when destroyed."
 zhCN = "“向上延伸起重机。从基础起重机放置。被摧毁时全额退款。”"
 zhTW = "將起重機向上延伸。從基礎起重機安裝。摧毀時全額退款。"
@@ -87,8 +87,8 @@ viVN = "Mở rộng cần cẩu lên trên. Đặt từ một cần cẩu cơ b�
 trTR = "Bir Crane'i yukarıya uzatır. Bir temel Crane'den yerleştirilir. Yok edildiğinde tamamen geri ödenir."
 
 ["LV.Cr.CraneSectionFlavor"]
-status = "normal"
 raw = "For an Iron Teeth invention, it is really uplifting."
+status = "normal"
 enUS = "For an Iron Teeth invention, it is truly uplifting."
 zhCN = "“对于铁齿的发明来说，这真让人振奋。”"
 zhTW = "對於鐵牙的發明來說，這真是令人振奮。"
@@ -104,8 +104,8 @@ viVN = "Đối với một phát minh của Răng Sắt, đây thực sự là m
 trTR = "Demir Dişler icadı için, gerçekten moral verici."
 
 ["LV.Cr.SelectCrane"]
-status = "normal"
 raw = "Select Crane"
+status = "normal"
 enUS = "Select Crane"
 zhCN = "选择起重机"
 zhTW = "選擇起重機"
@@ -121,8 +121,8 @@ viVN = "Chọn Cần Cẩu"
 trTR = "Kranı Seç"
 
 ["LV.Cr.Height"]
-status = "normal"
 raw = "Height: {0}"
+status = "normal"
 enUS = "Height: {0}"
 zhCN = "高度: {0}"
 zhTW = "高度: {0}"
@@ -138,8 +138,8 @@ viVN = "Chiều cao: {0}"
 trTR = "Yükseklik: {0}"
 
 ["LV.Cr.HeightPending"]
-status = "normal"
 raw = "Height: {0} / {1}"
+status = "normal"
 enUS = "Height: {0} / {1}"
 zhCN = "高度：{0} / {1}"
 zhTW = "高度: {0} / {1}"
@@ -155,8 +155,8 @@ viVN = "Chiều cao: {0} / {1}"
 trTR = "Yükseklik: {0} / {1}"
 
 ["LV.Cr.BuildHigher"]
-status = "normal"
 raw = "Build higher"
+status = "normal"
 enUS = "Build higher"
 zhCN = "建造更高"
 zhTW = "「建造更高」"
@@ -172,8 +172,8 @@ viVN = "Xây cao hơn"
 trTR = "Daha yüksek inşa et"
 
 ["LV.Cr.CannotBuildHigher"]
-status = "normal"
 raw = "Cannot place a Crane Section on top of this Crane."
+status = "normal"
 enUS = "Cannot place a Crane Section on top of this Crane."
 zhCN = "“无法在此起重机顶部放置起重机部分。”"
 zhTW = "無法在此起重機上放置起重機部分。"
@@ -189,8 +189,8 @@ viVN = "Không thể đặt một phần Cần cẩu lên trên Cần cẩu này
 trTR = "Bu Crane'ın üstüne bir Crane Bölümü yerleştirilemez."
 
 ["LV.Cr.JobPriority"]
-status = "normal"
 raw = "Priority"
+status = "normal"
 enUS = "Priority"
 zhCN = "优先级"
 zhTW = "優先級"
@@ -206,8 +206,8 @@ viVN = "Ưu tiên"
 trTR = "Öncelik"
 
 ["LV.Cr.NoJobs"]
-status = "normal"
 raw = "No work in range"
+status = "normal"
 enUS = "No work in range"
 zhCN = "范围内没有工作"
 zhTW = "範圍內沒有工作"
@@ -223,8 +223,8 @@ viVN = "Không có việc làm trong phạm vi"
 trTR = "Bu bölgede iş yok"
 
 ["LV.Cr.NoMaterials"]
-status = "normal"
 raw = "No materials needed"
+status = "normal"
 enUS = "No materials needed"
 zhCN = "无需材料"
 zhTW = "不需要材料"
@@ -240,8 +240,8 @@ viVN = "Không cần vật liệu"
 trTR = "Malzeme gerekmiyor"
 
 ["LV.Cr.JobBuild"]
-status = "normal"
 raw = "Build"
+status = "normal"
 enUS = "Build"
 zhCN = "建造"
 zhTW = "建造"
@@ -257,8 +257,8 @@ viVN = "Xây dựng"
 trTR = "İnşa Et"
 
 ["LV.Cr.JobDemolish"]
-status = "normal"
 raw = "Demolish"
+status = "normal"
 enUS = "Demolish"
 zhCN = "拆除"
 zhTW = "拆除"
@@ -274,8 +274,8 @@ viVN = "Phá hủy"
 trTR = "Yık"
 
 ["LV.Cr.JobGather"]
-status = "normal"
 raw = "Gather"
+status = "normal"
 enUS = "Gather"
 zhCN = "收集"
 zhTW = "收集"
@@ -291,8 +291,8 @@ viVN = "Thu thập"
 trTR = "Topla"
 
 ["LV.Cr.WorkBonus"]
-status = "normal"
 raw = "● <YellowHighlight>Work speed bonus:</YellowHighlight> {0:+0%}"
+status = "normal"
 enUS = "● <YellowHighlight>Work speed bonus:</YellowHighlight> {0:+0%}"
 zhCN = "● <YellowHighlight>工作速度加成：</YellowHighlight> {0:+0%}"
 zhTW = "● <YellowHighlight>工作速度獎勵：</YellowHighlight> {0:+0%}"
@@ -308,8 +308,8 @@ viVN = "● <YellowHighlight>Thưởng tốc độ làm việc:</YellowHighlight
 trTR = "● <YellowHighlight>Çalışma hızı bonusu:</YellowHighlight> {0:+0%}"
 
 [Name_CraneFragment]
-status = "normal"
 raw = "Crane"
+status = "normal"
 enUS = "Crane"
 zhCN = "起重机"
 zhTW = "起重機"
@@ -325,8 +325,8 @@ viVN = "Máy Cẩu"
 trTR = "Vinç"
 
 [Name_CraneSectionFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[DO_NOT_COLLAPSE]"
@@ -342,8 +342,8 @@ viVN = "[DO_NOT_COLLAPSE]"
 trTR = "[ÇÖKMEMESİ_GEREKEN]"
 
 [Name_CraneInventoryFragment]
-status = "normal"
 raw = "Crane Inventory"
+status = "normal"
 enUS = "Crane Inventory"
 zhCN = "起重机库存"
 zhTW = "起重機庫存"
@@ -359,8 +359,8 @@ viVN = "Kho Cranes"
 trTR = "Vinç Envanteri"
 
 [Name_CraneJobQueueFragment]
-status = "normal"
 raw = "Crane Jobs"
+status = "normal"
 enUS = "Crane Jobs"
 zhCN = "起重机工作"
 zhTW = "起重機工作"

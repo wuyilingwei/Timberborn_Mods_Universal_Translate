@@ -1888,6 +1888,10 @@ csCZ = "CHYBA: Interní chyba"
 viVN = "LỖI: Lỗi nội bộ"
 trTR = "HATA: Dahili hata"
 
+["IgorZ.Automation.Scripting.Error.AutomatorSignalUnavailable"]
+new = "ERROR: Automation signal source is unavailable"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Error.StackOverflow"]
 raw = "ERROR: Stack overflow"
 status = "normal"
@@ -2247,6 +2251,7 @@ trTR = "{0}: {1}"
 
 ["IgorZ.Automation.PinnedCustomSignals.SetSignalValue"]
 raw = "Change signal value"
+new = "Edit pinned signal"
 status = "normal"
 enUS = "Change signal value"
 zhCN = "更改信号值"
@@ -2264,6 +2269,7 @@ trTR = "Sinyal değerini değiştir"
 
 ["IgorZ.Automation.PinnedCustomSignals.SetValue.DialogHeader"]
 raw = "Change signal value"
+new = "Signal settings"
 status = "normal"
 enUS = "Change signal value"
 zhCN = "更改信号值"
@@ -2329,6 +2335,10 @@ koKR = "유효하지 않은 신호 값: {0}  \n숫자를 입력하세요. 예: 1
 csCZ = "Nepovolená hodnota signálu: {0} Zadejte číslo, například: 1, 1.5 nebo -2.25."
 viVN = "Giá trị tín hiệu không hợp lệ: {0}  \nNhập một số, ví dụ: 1, 1.5 hoặc -2.25."
 trTR = "Geçersiz sinyal değeri: {0}\nBir sayı girin, örneğin: 1, 1.5 veya -2.25."
+
+["IgorZ.Automation.PinnedCustomSignals.SetValue.PinnedNameLabel"]
+new = "Panel name"
+status = "normal"
 
 ["IgorZ.Automation.PinnedCustomSignals.SetValue.SignalName"]
 raw = "Signal: {0}"
@@ -2448,6 +2458,10 @@ koKR = "자동화 신호"
 csCZ = "automatizační signál"
 viVN = "tín hiệu tự động hóa"
 trTR = "otomasyon sinyali"
+
+["IgorZ.Automation.Scriptable.Automator.Signal.RemoteState"]
+new = "automation signal: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.BreedingPod.Signal.Progress"]
 raw = "breeding progress"
@@ -2669,6 +2683,10 @@ koKR = "구역 용량: {0}"
 csCZ = "kapacita oblasti: {0}"
 viVN = "dung lượng khu vực: {0}"
 trTR = "bölge kapasitesi: {0}"
+
+["IgorZ.Automation.Scriptable.District.Signal.ResourceFill"]
+new = "district fill: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.District.Signal.ResourceStock"]
 raw = "district stock: {0}"
@@ -3809,6 +3827,14 @@ csCZ = "Pak"
 viVN = "Sau đó"
 trTR = "Sonra"
 
+["IgorZ.Automation.Scripting.Editor.AddAndConditionBtn"]
+new = "+ and"
+status = "normal"
+
+["IgorZ.Automation.Scripting.Editor.AddOrConditionBtn"]
+new = "+ or"
+status = "normal"
+
 ["IgorZ.Automation.Scripting.Editor.ActionMustBeAction"]
 raw = "Action must be the 'act' operator"
 status = "normal"
@@ -4029,6 +4055,10 @@ koKR = "정수"
 csCZ = "Celé číslo"
 viVN = "số nguyên"
 trTR = "tam sayı"
+
+["IgorZ.Automation.Scripting.Editor.SignalValueType"]
+new = "signal"
+status = "normal"
 
 ["IgorZ.Automation.Scripting.Editor.CopyRuleBtn"]
 raw = "Duplicate"
@@ -4897,6 +4927,14 @@ csCZ = "Pseudo-skript"
 viVN = "Chữ giả"
 trTR = "Pseudo-skript"
 
+["IgorZ.Automation.Settings.EntityPanel.ShowOptionalLogicalParentheses"]
+new = "Show optional logical parentheses"
+status = "normal"
+
+["IgorZ.Automation.Settings.EntityPanel.ShowOptionalLogicalParenthesesTooltip"]
+new = "Show parentheses around nested AND and OR groups even when operator precedence makes them optional."
+status = "normal"
+
 ["IgorZ.Automation.Settings.EntityPanel.EvalValuesInConditions"]
 raw = "Evaluate the right value in conditions"
 status = "normal"
@@ -5050,6 +5088,18 @@ csCZ = "Syntaxi lze přepsat v těle výrazu přidáním předpony '#PY' pro Pyt
 viVN = "Cú pháp có thể bị ghi đè trong thân biểu thức bằng cách thêm tiền tố '#PY' cho Python hoặc '#LP' cho Lisp."
 trTR = "Sözdizimi, ifade gövdesinde '#PY' ön eki ekleyerek Python veya '#LP' ön eki ekleyerek Lisp ile geçersiz kılınabilir."
 
+["IgorZ.Automation.Settings.ScriptEditor.SignalModuleOrder"]
+new = "Signal module order"
+status = "normal"
+
+["IgorZ.Automation.Settings.ScriptEditor.SignalModuleOrderTooltip"]
+new = "Controls the order of signal modules in the rule constructor."
+status = "normal"
+
+["IgorZ.Automation.Settings.ScriptEditor.SignalModuleOrderUnavailable"]
+new = "Available after loading a settlement."
+status = "normal"
+
 ["IgorZ.Automation.Settings.ScriptEngine.Header"]
 raw = "Script engine settings"
 status = "normal"
@@ -5117,6 +5167,30 @@ koKR = "신호 실행 스택 크기"
 csCZ = "Velikost zásobníku pro vykonávání signálů"
 viVN = "Kích thước ngăn xếp thực thi tín hiệu"
 trTR = "Sinyal yürütme yığını boyutu"
+
+["IgorZ.Automation.SignalModuleOrder.Configure"]
+new = "Configure..."
+status = "normal"
+
+["IgorZ.Automation.SignalModuleOrder.DialogHeader"]
+new = "Signal module order"
+status = "normal"
+
+["IgorZ.Automation.SignalModuleOrder.Instructions"]
+new = "Drag modules to reorder them, or use the arrow buttons."
+status = "normal"
+
+["IgorZ.Automation.SignalModuleOrder.MoveDown"]
+new = "Move module down"
+status = "normal"
+
+["IgorZ.Automation.SignalModuleOrder.MoveUp"]
+new = "Move module up"
+status = "normal"
+
+["IgorZ.Automation.SignalModuleOrder.Reset"]
+new = "Registration order"
+status = "normal"
 
 ["TimberDev_Utils.Settings.Debug.VerboseLogging"]
 raw = "Verbose logging"

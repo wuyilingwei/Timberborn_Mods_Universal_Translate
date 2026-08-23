@@ -2,8 +2,8 @@
 name = "Родословная бобров - Рода / Beaver Family Clan"
 
 ["BeaverFamilyClan.CreateClanPrompt.Message"]
-status = "normal"
 raw = "Make «{0}» the founder of a clan? From now on, the first descendant of «{0}»'s own gender will eventually inherit this name — «{0} II», then «{0} III», and so on for as long as the clan has suitable descendants. If not, this is just a regular rename — nothing else changes."
+status = "normal"
 enUS = "Make «{0}» the founder of a clan? From now on, the first descendant of «{0}»'s own gender will eventually inherit this name — «{0} II», then «{0} III», and so on for as long as the clan has suitable descendants. If not, this is just a regular rename — nothing else changes."
 zhCN = "要让 «{0}» 成为家族的创始人吗？从现在开始，«{0}» 同性别的第一个后代最终将继承这个名字 — «{0} II», 然后是 «{0} III», 以此类推，只要家族有合适的后代。如果没有，这只是一个普通的改名 — 其他都不会改变。"
 zhTW = "要讓 «{0}» 成為家族的創始人嗎？從現在開始，«{0}» 同性別的第一位後代將最終繼承這個名字——«{0} II」，然後是 «{0} III」，以此類推，只要家族有合適的後代。如果沒有，這只是普通的改名——沒有其他變化。"
@@ -19,8 +19,8 @@ viVN = "Đặt «{0}» làm người sáng lập một clan? Từ bây giờ, th
 trTR = "«{0}»ı bir klanın kurucusu mu yapmak istersiniz? Bundan sonra, «{0}»ın kendi cinsiyetinden ilk soy, bu ismi sonunda miras alacak — «{0} II», sonra «{0} III» ve klanın uygun soyları olduğu sürece devam edecek. Eğer yoksa, bu sadece sıradan bir isim değiştirmedir — başka hiçbir şey değişmez."
 
 ["BeaverFamilyClan.CreateClanPrompt.Confirm"]
-status = "normal"
 raw = "Yes, start a clan"
+status = "normal"
 enUS = "Yes, start a clan"
 zhCN = "“是的，开始一个部落”"
 zhTW = "是的，開始一個氏族"
@@ -36,8 +36,8 @@ viVN = "Đúng, bắt đầu một clan"
 trTR = "Evet, bir klan başlat"
 
 ["BeaverFamilyClan.CreateClanPrompt.Cancel"]
-status = "normal"
 raw = "No, just the name"
+status = "normal"
 enUS = "No, just the name"
 zhCN = "“不，只有名称”"
 zhTW = "「不，只是名字」"
@@ -53,8 +53,8 @@ viVN = "Không, chỉ là tên"
 trTR = "Hayır, sadece isim"
 
 ["BeaverFamilyClan.NameTakenWarning.Message"]
-status = "normal"
 raw = "The name «{0}» is already used by another clan. Rename this beaver to something else to start a separate clan for it."
+status = "normal"
 enUS = "The name «{0}» is already used by another clan. Rename this beaver to something else to start a separate clan for it."
 zhCN = "名称 «{0}» 已被另一个家族使用。请将这只海狸重命名为其他名称，以为其创建一个独立的家族。"
 zhTW = "名稱「{0}」已被其他部落使用。請將這隻海狸重新命名為其他名稱，以開始一個獨立的部落。"
@@ -70,8 +70,8 @@ viVN = "Tên «{0}» đã được sử dụng bởi một gia tộc khác. Đ�
 trTR = "«{0}» adı başka bir klan tarafından zaten kullanılıyor. Bu bobrağı farklı bir isimle yeniden adlandırarak onun için ayrı bir klan kurabilirsiniz."
 
 ["BeaverFamilyClan.ClanExtinctNotification.Message"]
-status = "normal"
 raw = "The last of the «{0}» line has died without leaving an heir. Other families have offered to honor their memory."
+status = "normal"
 enUS = "The last of the «{0}» line has died without leaving an heir. Other families have offered to honor their memory."
 zhCN = "“«{0}» 血脉的最后一位成员已去世，未留下继承人。其他家族已提出要纪念他们的记忆。”"
 zhTW = "「{0}」血脈的最後一位成員已去世，未留下繼承人。其他家族已提出要尊重他們的記憶。"
@@ -87,8 +87,8 @@ viVN = "Người cuối cùng của dòng họ «{0}» đã qua đời mà khôn
 trTR = "«{0}» soyunun son bireyi, miras bırakmadan vefat etti. Diğer aileler anılarını onurlandırmayı teklif etti."
 
 ["BeaverFamilyClan.ClanExtinctPrompt.Message"]
-status = "normal"
 raw = "The «{0}» line has died out. Honor its memory by naming the next matching newborn after it, or let it fade into forgetting? A forgotten name can always be started again later."
+status = "normal"
 enUS = "The «{0}» line has died out. Honor its memory by naming the next matching newborn after it, or let it fade into forgetting? A forgotten name can always be started again later."
 zhCN = "“«{0}» 这一支线已经灭绝。通过给下一个匹配的新生儿命名来纪念它，还是让它淡入遗忘？被遗忘的名字可以在以后重新开始。”"
 zhTW = "「{0}」這條血脈已經絕跡。通過將下一位符合條件的剛出生的後代命名為它來尊重它的記憶，還是讓它淡入遺忘？遺忘的名字總是可以在以後重新開始。"
@@ -104,8 +104,8 @@ viVN = "Nhánh «{0}» đã tuyệt chủng. Hãy tôn vinh ký ức của nó b
 trTR = "«{0}» hattı yok oldu. Anısını onurlandırmak için, bir sonraki uyumlu yeni doğanı onun adıyla mı adlandıracaksın, yoksa unutulmaya mı terk edeceksin? Unutulan bir isim her zaman daha sonra yeniden kullanılabilir."
 
 ["BeaverFamilyClan.ClanExtinctPrompt.Perpetuate"]
-status = "normal"
 raw = "Honor the name"
+status = "normal"
 enUS = "Honor the name"
 zhCN = "荣耀这个名字"
 zhTW = "「榮耀這個名字」"
@@ -121,8 +121,8 @@ viVN = "Tôn vinh cái tên"
 trTR = "İsmi onurlandır"
 
 ["BeaverFamilyClan.ClanExtinctPrompt.Forget"]
-status = "normal"
 raw = "Let it fade"
+status = "normal"
 enUS = "Let it fade"
 zhCN = "让它消逝"
 zhTW = "讓它消逝"
@@ -138,8 +138,8 @@ viVN = "Để nó phai nhạt"
 trTR = "Unut gitsin"
 
 ["BeaverFamilyClan.ClanForgottenNotification.Message"]
-status = "normal"
 raw = "The beavers couldn't agree — the «{0}» line has faded into forgetting."
+status = "normal"
 enUS = "The beavers couldn't agree — the «{0}» line has faded into forgetfulness."
 zhCN = "海狸们无法达成一致 — «{0}» 阶段已淡入遗忘。"
 zhTW = "「海狸們無法達成共識——「{0}」的血脈已經淹沒在遺忘之中。」"
