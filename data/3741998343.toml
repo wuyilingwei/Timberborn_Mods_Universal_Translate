@@ -18,6 +18,10 @@ csCZ = "X-Ray Mod"
 viVN = "X-Ray Mod"
 trTR = "X-Ray Mod"
 
+["IgorZ.XRay.KeyBinding.ToggleObjectTransparency"]
+new = "Toggle object transparency"
+status = "normal"
+
 ["IgorZ.XRay.KeyBinding.ToggleMode"]
 raw = "Toggle X-Ray mode"
 status = "normal"
@@ -51,6 +55,26 @@ koKR = "엑스레이 모드 보기"
 csCZ = "Zobrazit X-Ray mód"
 viVN = "Hiện chế độ X-Ray"
 trTR = "X-Ray modunu göster"
+
+["IgorZ.XRay.ObjectTransparencySettings.Header"]
+new = "Object transparency"
+status = "normal"
+
+["IgorZ.XRay.ObjectTransparencySettings.BuildingColor"]
+new = "Building fill color"
+status = "normal"
+
+["IgorZ.XRay.ObjectTransparencySettings.BuildingTransparency"]
+new = "Building transparency"
+status = "normal"
+
+["IgorZ.XRay.ObjectTransparencySettings.PlantColor"]
+new = "Plant fill color"
+status = "normal"
+
+["IgorZ.XRay.ObjectTransparencySettings.PlantTransparency"]
+new = "Plant transparency"
+status = "normal"
 
 ["IgorZ.XRay.MeshSettings.Color.CliffEdge"]
 raw = "Cliff edge color"
@@ -307,40 +331,6 @@ csCZ = "Vzhled překryvu"
 viVN = "Hình thức lớp phủ"
 trTR = "Kaplama görünümü"
 
-["IgorZ.XRay.MeshSettings.HideNaturalResources"]
-raw = "Hide natural resources"
-status = "normal"
-enUS = "Hide natural resources"
-zhCN = "隐藏自然资源"
-zhTW = "隱藏自然資源"
-ruRU = "Скрыть природные ресурсы"
-jaJP = "資源を非表示にする"
-frFR = "Cacher les ressources naturelles"
-deDE = "Natürliche Ressourcen ausblenden"
-plPL = "Ukryj zasoby naturalne"
-ptBR = "Ocultar recursos naturais"
-koKR = "자원 숨기기"
-csCZ = "Skryté přírodní zdroje"
-viVN = "Ẩn tài nguyên thiên nhiên"
-trTR = "Doğal kaynakları gizle"
-
-["IgorZ.XRay.MeshSettings.HideNaturalResources.Note"]
-raw = "Hide trees, bushes, and crops while X-Ray mode is active."
-status = "normal"
-enUS = "Hide trees, bushes, and crops while X-Ray mode is active."
-zhCN = "在X-Ray模式激活时隐藏树木、灌木和农作物。"
-zhTW = "在 X 光模式啟用時隱藏樹木、灌木和作物。"
-ruRU = "Скрыть деревья, кустарники и урожай, пока активен режим Рентген."
-jaJP = "X-Rayモードがアクティブの間、木、低木、作物を非表示にします。"
-frFR = "Cacher les arbres, les buissons et les cultures pendant que le mode X-Ray est actif."
-deDE = "Verstecke Bäume, Sträucher und Pflanzen, während der Röntgenmodus aktiv ist."
-plPL = "Ukryj drzewa, krzewy i uprawy podczas aktywnego trybu X-Ray."
-ptBR = "Esconder árvores, arbustos e culturas enquanto o modo X-Ray está ativo."
-koKR = "엑스레이 모드가 활성화된 동안 나무, 덤불 및 농작물을 숨깁니다."
-csCZ = "Skrýt stromy, keře a plodiny, zatímco je aktivní režim X-Ray."
-viVN = "Ẩn cây, bụi cây và cây trồng trong khi chế độ X-Ray đang hoạt động."
-trTR = "Aktivken ağaçları, çalıları ve mahsulleri gizle X-Ray modu."
-
 ["IgorZ.XRay.MeshSettings.IgnoreVisibleLevel"]
 raw = "Ignore terrain layer cut"
 status = "normal"
@@ -493,3 +483,41 @@ koKR = "지하 구조물 숨기기"
 csCZ = "Skrýt podzemní struktury"
 viVN = "Ẩn các cấu trúc dưới mặt đất"
 trTR = "Yer altı yapıları gizle"
+
+["IgorZ.XRay.Visibility.ObjectTransparencyTooltip"]
+new = "Object transparency: click or hold"
+status = "normal"
+
+["IgorZ.XRay.MeshSettings.HideNaturalResources"]
+raw = "Hide natural resources"
+status = "abandoned"
+enUS = "Hide natural resources"
+zhCN = "隐藏自然资源"
+zhTW = "隱藏自然資源"
+ruRU = "Скрыть природные ресурсы"
+jaJP = "資源を非表示にする"
+frFR = "Cacher les ressources naturelles"
+deDE = "Natürliche Ressourcen ausblenden"
+plPL = "Ukryj zasoby naturalne"
+ptBR = "Ocultar recursos naturais"
+koKR = "자원 숨기기"
+csCZ = "Skryté přírodní zdroje"
+viVN = "Ẩn tài nguyên thiên nhiên"
+trTR = "Doğal kaynakları gizle"
+
+["IgorZ.XRay.MeshSettings.HideNaturalResources.Note"]
+raw = "Hide trees, bushes, and crops while X-Ray mode is active."
+status = "abandoned"
+enUS = "Hide trees, bushes, and crops while X-Ray mode is active."
+zhCN = "在X-Ray模式激活时隐藏树木、灌木和农作物。"
+zhTW = "在 X 光模式啟用時隱藏樹木、灌木和作物。"
+ruRU = "Скрыть деревья, кустарники и урожай, пока активен режим Рентген."
+jaJP = "X-Rayモードがアクティブの間、木、低木、作物を非表示にします。"
+frFR = "Cacher les arbres, les buissons et les cultures pendant que le mode X-Ray est actif."
+deDE = "Verstecke Bäume, Sträucher und Pflanzen, während der Röntgenmodus aktiv ist."
+plPL = "Ukryj drzewa, krzewy i uprawy podczas aktywnego trybu X-Ray."
+ptBR = "Esconder árvores, arbustos e culturas enquanto o modo X-Ray está ativo."
+koKR = "엑스레이 모드가 활성화된 동안 나무, 덤불 및 농작물을 숨깁니다."
+csCZ = "Skrýt stromy, keře a plodiny, zatímco je aktivní režim X-Ray."
+viVN = "Ẩn cây, bụi cây và cây trồng trong khi chế độ X-Ray đang hoạt động."
+trTR = "Aktivken ağaçları, çalıları ve mahsulleri gizle X-Ray modu."
