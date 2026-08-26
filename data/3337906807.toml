@@ -358,6 +358,10 @@ csCZ = "Pravděpodobnost zranění: {0} během dne"
 viVN = "Xác suất bị thương: {0} trong ngày"
 trTR = "Yaralanma olasılığı: {0} gündüz"
 
+["IgorZ.TimberCommons.Injuries"]
+new = "Injured: {0} yesterday, {1} over 7 days"
+status = "normal"
+
 ["IgorZ.TimberCommons.Settings.TimeAndDurationSection"]
 raw = "Time and duration representation"
 status = "normal"
@@ -680,6 +684,10 @@ koKR = "일일 확률 표시"
 csCZ = "Zobrazit denní pravděpodobnosti"
 viVN = "Hiển thị xác suất hàng ngày"
 trTR = "Günlük olasılıkları göster"
+
+["IgorZ.TimberCommons.Settings.InjuryProbability.ShowInjuryStatistics"]
+new = "Show workplace injury history"
+status = "normal"
 
 ["IgorZ.TimberCommons.Settings.ModUIPatchesSection"]
 raw = "Mod UI patches"
