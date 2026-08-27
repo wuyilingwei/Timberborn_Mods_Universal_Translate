@@ -20,6 +20,7 @@ trTR = "Seçim modunu değiştir"
 
 ["KeyBinding.GamepadMoveDown"]
 raw = "Gamepad Move Down"
+new = "Navigate Down"
 status = "normal"
 enUS = "Gamepad Move Down"
 zhCN = "手柄向下移动"
@@ -37,6 +38,7 @@ trTR = "Gamepad ile Aşağı Hareket"
 
 ["KeyBinding.GamepadMoveLeft"]
 raw = "Gamepad Move Left"
+new = "Navigate Left"
 status = "normal"
 enUS = "Gamepad Move Left"
 zhCN = "手柄向左移动"
@@ -54,6 +56,7 @@ trTR = "Gamepad Sola Hareket"
 
 ["KeyBinding.GamepadMoveRight"]
 raw = "Gamepad Move Right"
+new = "Navigate Right"
 status = "normal"
 enUS = "Gamepad Move Right"
 zhCN = "游戏手柄向右移动"
@@ -71,6 +74,7 @@ trTR = "Gamepad Sağ Hareket"
 
 ["KeyBinding.GamepadMoveUp"]
 raw = "Gamepad Move Up"
+new = "Navigate Up"
 status = "normal"
 enUS = "Gamepad Move Up"
 zhCN = "游戏手柄向上移动"
@@ -102,6 +106,22 @@ koKR = "게임 패드"
 csCZ = " herní ovladač"
 viVN = "Game Pad"
 trTR = "Kontrolcü"
+
+["KeyBinding.GamepadCameraRotateModifier"]
+new = "Hold to Rotate Camera"
+status = "normal"
+
+["ControllerSupport.NoGamepadDialog.Message"]
+new = "No controller was detected. By default, Steam Input sets a controller to a keyboard and mouse layout, which this mod cannot use. Switch it to a gamepad layout for controller support to work."
+status = "normal"
+
+["ControllerSupport.NoGamepadDialog.OpenLayoutButton"]
+new = "Open Recommended Controller Layout"
+status = "normal"
+
+["ControllerSupport.NoGamepadDialog.IgnoreButton"]
+new = "Ignore"
+status = "normal"
 
 ["KeyBinding.GamepadRightStickDown"]
 raw = "Right Stick Down"
