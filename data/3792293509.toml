@@ -1,0 +1,86 @@
+[_meta]
+name = "Wind Tweaks"
+
+["Calloatti.WindTweaks.Config.CubicExponent.Label"]
+new = "Power Exponent"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.CubicExponent.Tooltip"]
+new = "Exponent for power curve. 3.0 = cubic, 1.0 = linear."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.ElevationBaseHeight.Label"]
+new = "Base Height"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.ElevationBaseHeight.Tooltip"]
+new = "Height with zero bonus. Lower is weaker, higher is stronger."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.ElevationBonusPerMeter.Label"]
+new = "Elevation Bonus Per Meter"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.ElevationBonusPerMeter.Tooltip"]
+new = "Extra output per meter (10 = +10% per meter, 100 = +100% per meter)."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableCubicPower.Label"]
+new = "Enable Cubic Power Curve"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableCubicPower.Tooltip"]
+new = "Real turbines follow P~v3 (Betz). Disabled = vanilla linear."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableElevationBonus.Label"]
+new = "Enable Elevation Bonus"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableElevationBonus.Tooltip"]
+new = "Higher turbines generate slightly more power."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableGusts.Label"]
+new = "Enable Gusts and Direction Persistence"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.EnableGusts.Tooltip"]
+new = "If enabled, wind direction turns gradually and strength has smooth gusts instead of random jumps."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.GustAmplitude.Label"]
+new = "Gust Amplitude"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.GustAmplitude.Tooltip"]
+new = "Variation around base strength. 0 = stable, 1 = large gusts and lulls."
+status = "normal"
+
+["Calloatti.WindTweaks.Config.WindPersistence.Label"]
+new = "Wind Persistence"
+status = "normal"
+
+["Calloatti.WindTweaks.Config.WindPersistence.Tooltip"]
+new = "0 = random jumps, 0.99 = very gradual turning. Higher = more realistic prevailing wind."
+status = "normal"
+
+["Calloatti.WindTweaks.Power.HeightBonus"]
+new = " +{0} height"
+status = "normal"
+
+["Calloatti.WindTweaks.Power.HeightCorrected"]
+new = " ({0} at {1}m)"
+status = "normal"
+
+["Calloatti.WindTweaks.Weathervane.HeightContribution"]
+new = " ({0} height)"
+status = "normal"
+
+["Calloatti.WindTweaks.Weathervane.HeightCorrected"]
+new = " ({0}% at {1}m)"
+status = "normal"
+
+["Calloatti.WindTweaks.Weathervane.HeightTooltip"]
+new = "Base {0}% + {1}% from {2}m elevation"
+status = "normal"
