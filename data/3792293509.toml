@@ -2,8 +2,8 @@
 name = "Wind Tweaks"
 
 ["Calloatti.WindTweaks.Config.CubicExponent.Label"]
-status = "normal"
 raw = "Power Exponent"
+status = "normal"
 enUS = "Power Exponent"
 zhCN = "功率指数"
 zhTW = "「功率指數」"
@@ -19,8 +19,8 @@ viVN = "Các bậc công suất"
 trTR = "Güç Üssü"
 
 ["Calloatti.WindTweaks.Config.CubicExponent.Tooltip"]
-status = "normal"
 raw = "Exponent for power curve. 3.0 = cubic, 1.0 = linear."
+status = "normal"
 enUS = "Exponent for power curve. 3.0 = cubic, 1.0 = linear."
 zhCN = "功率曲线的指数。3.0 = 立方，1.0 = 线性。"
 zhTW = "功率曲線的指數。3.0 = 三次方，1.0 = 線性。"
@@ -36,8 +36,8 @@ viVN = "Hệ số cho đường cong công suất. 3.0 = bậc ba, 1.0 = tuyến
 trTR = "Güç eğrisi için üstel. 3.0 = kübik, 1.0 = lineer."
 
 ["Calloatti.WindTweaks.Config.ElevationBaseHeight.Label"]
-status = "normal"
 raw = "Base Height"
+status = "normal"
 enUS = "Base Height"
 zhCN = "基准高度"
 zhTW = "基礎高度"
@@ -53,8 +53,8 @@ viVN = "Chiều cao cơ bản"
 trTR = "Temel Yükseklik"
 
 ["Calloatti.WindTweaks.Config.ElevationBaseHeight.Tooltip"]
-status = "normal"
 raw = "Height with zero bonus. Lower is weaker, higher is stronger."
+status = "normal"
 enUS = "Height with zero bonus. Lower is weaker, higher is stronger."
 zhCN = "“没有加成的高度。越低越弱，越高越强。”"
 zhTW = "基礎高度，不含任何加成。較低的力量較弱，較高的力量較強。"
@@ -70,8 +70,8 @@ viVN = "Chiều cao không có thưởng. Thấp hơn thì yếu hơn, cao hơn 
 trTR = "Bonus olmadan yükseklik. Daha düşük olan daha zayıf, daha yüksek olan daha güçlüdür."
 
 ["Calloatti.WindTweaks.Config.ElevationBonusPerMeter.Label"]
-status = "normal"
 raw = "Elevation Bonus Per Meter"
+status = "normal"
 enUS = "Elevation Bonus Per Meter"
 zhCN = "每米高度奖励"
 zhTW = "每米高度獎勵"
@@ -87,8 +87,8 @@ viVN = "Thưởng Độ Cao Tính Theo Mét"
 trTR = "Metre Başına Yükseklik Bonusu"
 
 ["Calloatti.WindTweaks.Config.ElevationBonusPerMeter.Tooltip"]
-status = "normal"
 raw = "Extra output per meter (10 = +10% per meter, 100 = +100% per meter)."
+status = "normal"
 enUS = "Extra output per meter (10 = +10% per meter, 100 = +100% per meter)."
 zhCN = "“每米额外产出（10 = 每米+10%，100 = 每米+100%）。”"
 zhTW = "每米額外產出（10 = 每米 +10%，100 = 每米 +100%）。"
@@ -104,8 +104,8 @@ viVN = "Thêm sản lượng mỗi mét (10 = +10% mỗi mét, 100 = +100% mỗi
 trTR = "Metre başına ekstra çıktı (10 = metre başına +%10, 100 = metre başına +%100)."
 
 ["Calloatti.WindTweaks.Config.EnableCubicPower.Label"]
-status = "normal"
 raw = "Enable Cubic Power Curve"
+status = "normal"
 enUS = "Enable Cubic Power Curve"
 zhCN = "启用立方体功率曲线"
 zhTW = "啟用立方功率曲線"
@@ -121,8 +121,8 @@ viVN = "Bật đường cong sức mạnh lập phương"
 trTR = "Kübi Güç Eğrisi Aktif Et"
 
 ["Calloatti.WindTweaks.Config.EnableCubicPower.Tooltip"]
-status = "normal"
 raw = "Real turbines follow P~v3 (Betz). Disabled = vanilla linear."
+status = "normal"
 enUS = "Real turbines follow P~v3 (Betz). Disabled = vanilla linear."
 zhCN = "真实的涡轮机遵循 P~v3 (Betz)。禁用 = 原版线性。"
 zhTW = "真實的渦輪遵循 P~v3（貝茲定律）。禁用 = 原版線性。"
@@ -138,8 +138,8 @@ viVN = "Các tuabin thực tế tuân theo P~v3 (Betz). Tắt = tuyến tính va
 trTR = "Gerçek türbinler P~v3 (Betz) takip eder. Devre dışı = vanilya lineer."
 
 ["Calloatti.WindTweaks.Config.EnableElevationBonus.Label"]
-status = "normal"
 raw = "Enable Elevation Bonus"
+status = "normal"
 enUS = "Enable Elevation Bonus"
 zhCN = "启用高度加成"
 zhTW = "啟用高度獎勵"
@@ -155,8 +155,8 @@ viVN = "Bật Thưởng Cao Độ"
 trTR = "Yükseklik Bonusunu Etkinleştir"
 
 ["Calloatti.WindTweaks.Config.EnableElevationBonus.Tooltip"]
-status = "normal"
 raw = "Higher turbines generate slightly more power."
+status = "normal"
 enUS = "Higher turbines generate slightly more power."
 zhCN = "“更高的涡轮发电机产生稍微更多的能量。”"
 zhTW = "更高的風車能產生稍微多一些的電力。"
@@ -172,8 +172,8 @@ viVN = "Tuabin cao hơn tạo ra một lượng năng lượng nhiều hơn mộ
 trTR = "Daha yüksek türbinler biraz daha fazla güç üretir."
 
 ["Calloatti.WindTweaks.Config.EnableGusts.Label"]
-status = "normal"
 raw = "Enable Gusts and Direction Persistence"
+status = "normal"
 enUS = "Enable Gusts and Direction Persistence"
 zhCN = "启用阵风和方向持久性"
 zhTW = "啟用陣風和風向持續性"
@@ -189,8 +189,8 @@ viVN = "Cho phép Gió và Lưu Trữ Hướng"
 trTR = "Rüzgar Patlamalarını ve Yön Sürekliliğini Aktifleştir"
 
 ["Calloatti.WindTweaks.Config.EnableGusts.Tooltip"]
-status = "normal"
 raw = "If enabled, wind direction turns gradually and strength has smooth gusts instead of random jumps."
+status = "normal"
 enUS = "If enabled, wind direction changes gradually and strength has smooth gusts instead of sudden jumps."
 zhCN = "“如果启用，风向将逐渐变化，风力将有平滑的阵风，而不是随机的跳动。”"
 zhTW = "如果啟用，風向會逐漸轉變，風力則會有平滑的陣風，而不是隨機的跳變。"
@@ -206,8 +206,8 @@ viVN = "Nếu được bật, hướng gió sẽ thay đổi dần dần và s�
 trTR = "Etkinleştirildiğinde, rüzgarın yönü yavaşça döner ve kuvvet, rastgele sıçramalar yerine yumuşak patlamalara sahiptir."
 
 ["Calloatti.WindTweaks.Config.GustAmplitude.Label"]
-status = "normal"
 raw = "Gust Amplitude"
+status = "normal"
 enUS = "Gust Amplitude"
 zhCN = "阵风幅度"
 zhTW = "陣風幅度"
@@ -223,8 +223,8 @@ viVN = "Cường độ Gió"
 trTR = "Rüzgar Darbesi Genliği"
 
 ["Calloatti.WindTweaks.Config.GustAmplitude.Tooltip"]
-status = "normal"
 raw = "Variation around base strength. 0 = stable, 1 = large gusts and lulls."
+status = "normal"
 enUS = "Variation around base strength. 0 = stable, 1 = large gusts and lulls."
 zhCN = "“基础强度的变化。0 = 稳定，1 = 强烈的阵风和沉寂。”"
 zhTW = "基礎強度的變化。0 = 穩定，1 = 大風陣和靜風。"
@@ -240,8 +240,8 @@ viVN = "Biến thiên quanh sức mạnh cơ bản. 0 = ổn định, 1 = gió m
 trTR = "Temel güç etrafındaki değişim. 0 = sabit, 1 = büyük rüzgar ve sessizlik."
 
 ["Calloatti.WindTweaks.Config.WindPersistence.Label"]
-status = "normal"
 raw = "Wind Persistence"
+status = "normal"
 enUS = "Wind Persistence"
 zhCN = "风的持久性"
 zhTW = "風力持續性"
@@ -257,8 +257,8 @@ viVN = "Độ bền gió"
 trTR = "Rüzgar Sürekliliği"
 
 ["Calloatti.WindTweaks.Config.WindPersistence.Tooltip"]
-status = "normal"
 raw = "0 = random jumps, 0.99 = very gradual turning. Higher = more realistic prevailing wind."
+status = "normal"
 enUS = "0 = random jumps, 0.99 = very gradual turning. Higher = more realistic prevailing wind."
 zhCN = "0 = 随机跳跃，0.99 = 非常缓慢的转向。更高 = 更加真实的主导风。"
 zhTW = "0 = 隨機跳動，0.99 = 非常平穩的轉向。數值越高 = 越真實的主導風向。"
@@ -274,8 +274,8 @@ viVN = "0 = nhảy ngẫu nhiên, 0.99 = xoay rất từ từ. Cao hơn = gió t
 trTR = "0 = rastgele sıçramalar, 0.99 = çok yavaş dönüş. Daha yüksek = daha gerçekçi hakim rüzgar."
 
 ["Calloatti.WindTweaks.Power.HeightBonus"]
-status = "normal"
 raw = " +{0} height"
+status = "normal"
 enUS = "+{0} height"
 zhCN = "+{0} 高度"
 zhTW = "+{0} 高度"
@@ -291,8 +291,8 @@ viVN = " +{0} chiều cao"
 trTR = "+{0} yükseklik"
 
 ["Calloatti.WindTweaks.Power.HeightCorrected"]
-status = "normal"
 raw = " ({0} at {1}m)"
+status = "normal"
 enUS = "({0} at {1}m)"
 zhCN = "（{0} 在 {1}米处）"
 zhTW = " ({0} 在 {1}米)"
@@ -308,8 +308,8 @@ viVN = " ({0} ở {1}m)"
 trTR = " ({0} {1}m'de)"
 
 ["Calloatti.WindTweaks.Weathervane.HeightContribution"]
-status = "normal"
 raw = " ({0} height)"
+status = "normal"
 enUS = "({0} height)"
 zhCN = "（{0} 高）"
 zhTW = "（{0} 高度）"
@@ -325,8 +325,8 @@ viVN = " ({0} chiều cao)"
 trTR = "(\" {0} yüksekliği)\")"
 
 ["Calloatti.WindTweaks.Weathervane.HeightCorrected"]
-status = "normal"
 raw = " ({0}% at {1}m)"
+status = "normal"
 enUS = " ({0}% at {1}m)"
 zhCN = "（{0}% 在 {1}米）"
 zhTW = "（{0}% 在 {1} 公尺）"
@@ -342,8 +342,8 @@ viVN = " ({0}% ở {1}m)"
 trTR = " ({0}% {1}m'de)"
 
 ["Calloatti.WindTweaks.Weathervane.HeightTooltip"]
-status = "normal"
 raw = "Base {0}% + {1}% from {2}m elevation"
+status = "normal"
 enUS = "Base {0}% + {1}% from {2}m elevation"
 zhCN = "基础 {0}% + {1}% 来自 {2}m 高度"
 zhTW = "基礎 {0}% + {1}% 來自 {2}m 的高度"
